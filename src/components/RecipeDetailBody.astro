@@ -74,7 +74,7 @@ const rec = {
     {(R.tags || []).filter((t) => DIET[t]).map((t) => <span class="tag">{DIET[t][l]}</span>)}
   </div>
 
-  <div class="photo hero"><img src={`${IMG}${primary}`} alt={R.title[l]} /></div>
+  <div class="photo hero"><img src={`${IMG}${primary}`} alt={R.title[l]} fetchpriority="high" /></div>
 
   <div class="meta">
     {R.meta?.prep && <div><span class="k">{T.prep}</span><span class="v">{R.meta.prep[l]}</span></div>}
