@@ -26,6 +26,27 @@ export const DIET = {
 export const isHeader = (s) => /^—/.test(s);
 export const clip = (s, n) => { s = String(s).replace(/\s+/g, ' ').trim(); return s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s; };
 
+/* ---------- SEO <title> for a recipe detail page ----------
+   Google truncates result titles at roughly 600px — about 60 characters. The
+   recipe names are Lena's own and are also the on-page H1, so they aren't
+   rewritten to fit; the keyword suffix shrinks instead. Longest suffix that
+   still fits wins, and if none do the bare name is used (the longest name is
+   57 chars, so a recipe title is never truncated). A per-recipe `seoTitle:
+   { en, ua }` always wins — same escape hatch as `seoTitle` in blog.js.
+   The UA suffix is 6 chars longer than the EN one, which is why UA titles
+   overflow far more often (23 of 86 vs 5 of 86 before this change). */
+export const TITLE_MAX = 60;
+const TITLE_SUFFIXES = {
+  en: [' — Low-GI Recipe', ' — Low-GI'],
+  ua: [' — Рецепт з низьким ГІ', ' — Низький ГІ', ' — Рецепт'],
+};
+export function seoTitle(R, lang = 'en') {
+  if (R.seoTitle?.[lang]) return R.seoTitle[lang];
+  const name = R.title[lang];
+  const fitting = (TITLE_SUFFIXES[lang] || TITLE_SUFFIXES.en).find((s) => (name + s).length <= TITLE_MAX);
+  return fitting ? name + fitting : name;
+}
+
 // GI band → { label, color } for the meta row + card pill.
 export function giBand(gi, lang) {
   if (typeof gi !== 'number') return null;
