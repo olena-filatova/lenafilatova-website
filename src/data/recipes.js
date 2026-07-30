@@ -3,6 +3,9 @@
    Source: Website Drafts/low-gi-recipes-draft.md + own photos.
    Categories: main | dessert | baking | snack | bread | sauce
    Diet tags:  sugar-free | gluten-free | low-carb | vegetarian | dairy-free
+   Optional:   seoTitle: { en, ua } — overrides the <title> of the detail page.
+               Without it, seoTitle() in recipes-lib.js appends the longest
+               "low GI" suffix that still fits inside 60 characters.
    ============================================================ */
 export const RECIPES = [
   {
@@ -1593,3 +1596,101 @@ export const HIDDEN_SLUGS = [
 ];
 const HIDDEN = new Set(HIDDEN_SLUGS);
 export const PUBLISHED = RECIPES.filter((r) => !HIDDEN.has(r.slug));
+
+/* ------------------------------------------------------------------
+   OPS-128: every hidden slug → the closest recipe that IS published.
+
+   Two things point at these URLs and both currently dead-end:
+   the 301s still live in the old lenafilatova.com Redirection plugin,
+   and Search Console impressions on /recipes/<hidden-slug>/ (OPS-161).
+   OPS-161 sent three of them to the bare /recipes/ hub; this table
+   replaces that with a like-for-like recipe, which keeps far more of
+   the residual intent (a search for "masala chai latte" is better
+   served by the matcha latte than by an unfiltered hub of 86 cards).
+
+   Picked by hand: same category first, then the defining ingredient or
+   technique — crisps→crisps, latte→latte, tartlets→tartlets. Every
+   target must be in PUBLISHED; the assertion below enforces it, since
+   re-publishing a recipe (removing it from HIDDEN_SLUGS) or hiding a
+   new one would otherwise silently point a redirect at a 404.
+   The .com redirect CSV handed to Lena is generated from this table.
+   ------------------------------------------------------------------ */
+export const RETIRED_SLUG_TARGETS = {
+  'cherry-cheesecake': 'strawberry-cheesecake',
+  'chickpea-olive-avocado-salad': 'pear-courgette-salad',
+  'strawberry-bites': 'dried-fruit-sweets',
+  'peanut-cookies-nobake': 'almond-pecan-cookies',
+  'banana-ice-cream-pecan': 'chocolate-ice-cream',
+  'raw-brownies': 'chocolate-brownie-matcha-cream',
+  'raw-chocolate-mousse': 'chocolate-mousse-ice-cream',
+  'carrot-crisps-honey-yogurt': 'beetroot-crisps-rosemary',
+  'pineapple-chips': 'beetroot-crisps-rosemary',
+  'spiced-apple-chips': 'beetroot-crisps-rosemary',
+  'tomato-chips': 'beetroot-crisps-rosemary',
+  'banana-chips': 'beetroot-crisps-rosemary',
+  'orange-chocolate-truffles': 'carob-chocolates',
+  'nut-quinoa-pancakes': 'oat-pancakes-plums',
+  'chewy-gummies': 'dried-fruit-sweets',
+  'chocolate-coconut-nests': 'carob-chocolates',
+  'caramel-apples': 'apple-pudding-sugar-free',
+  'marshmallow-zefir': 'dried-fruit-sweets',
+  'lemon-coconut-balls': 'dried-fruit-sweets',
+  'strawberry-cream-cheesecake': 'strawberry-cheesecake',
+  'strawberry-banana-bake': 'strawberry-breakfast-glass',
+  'coconut-chia-pudding-raspberry': 'strawberry-breakfast-glass',
+  'maple-pumpkin-butter': 'blueberry-jam',
+  'pumpkin-hummus': 'beetroot-crisps-rosemary',
+  'pumpkin-ice-cream': 'pumpkin-panna-cotta',
+  'pumpkin-yogurt': 'pumpkin-oat-pancakes-chocolate',
+  'pumpkin-puree': 'pumpkin-bread',
+  'granola-bars-blueberry': 'dried-fruit-sweets',
+  'granola-bars-date-coconut': 'dried-fruit-sweets',
+  'granola-bars-5-ingredient': 'dried-fruit-sweets',
+  'granola-bars-chocolate-chia': 'dried-fruit-sweets',
+  'granola-bars-homemade': 'dried-fruit-sweets',
+  'granola-bars-peanut-butter': 'dried-fruit-sweets',
+  'ginger-cookies-almond-flour': 'gingerbread-cookies',
+  'coconut-balls': 'dried-fruit-sweets',
+  'spiced-raisin-cookies': 'oat-cookies-coconut-sugar',
+  'almond-cranberry-cookies': 'almond-pecan-cookies',
+  'tiramisu-cookies': 'coffee-chocolate-cheesecake',
+  'carrot-muffins': 'pumpkin-muffins-halloween',
+  'valentine-love-salad': 'pear-courgette-salad',
+  'shrimp-heart-appetizer': 'baked-fish-veg-herbs',
+  'caprese-valentine-salad': 'pear-courgette-salad',
+  'valentine-heart-cookies': 'beetroot-heart-cakes',
+  'frozen-strawberry-yogurt': 'fruit-popsicles',
+  'chocolate-avocado-pudding': 'chocolate-ginger-cake-avocado-cream',
+  'beef-balsamic-tomatoes': 'beef-skewers-wine-sauce',
+  'garlic-lemon-shrimp': 'baked-fish-veg-herbs',
+  'salmon-asparagus-foil': 'zucchini-spaghetti-salmon',
+  'turmeric-latte': 'matcha-latte',
+  'masala-chai-latte': 'matcha-latte',
+  'yerba-mate': 'matcha-latte',
+  'london-fog': 'matcha-latte',
+  'ginger-milk-cocktail': 'matcha-latte',
+  'cacao-latte': 'matcha-latte',
+  'smoothie-popsicles-chia': 'fruit-popsicles',
+  'lime-cheesecake': 'lime-almond-dessert',
+  'fig-tart': 'strawberry-white-chocolate-tartlets',
+  'avocado-coconut-ice-cream': 'avocado-ice-cream',
+  'pineapple-citrus-sorbet': 'blackberry-sorbet',
+  'yogurt-chia-pudding': 'strawberry-breakfast-glass',
+  'shrimp-tartlets': 'mushroom-potato-tartlets',
+  'fish-stew-wine-veg': 'baked-fish-veg-herbs',
+  'cabbage-cranberry-salad': 'pear-courgette-salad',
+  'salmon-tartlets': 'mushroom-potato-tartlets',
+};
+
+// Build-time guard: a redirect must never point at a page that isn't built.
+{
+  const live = new Set(PUBLISHED.map((r) => r.slug));
+  const broken = Object.entries(RETIRED_SLUG_TARGETS)
+    .filter(([from, to]) => !HIDDEN.has(from) || !live.has(to))
+    .map(([from, to]) => `${from} -> ${to}`);
+  const unmapped = HIDDEN_SLUGS.filter((s) => !RETIRED_SLUG_TARGETS[s]);
+  if (broken.length || unmapped.length) {
+    throw new Error('RETIRED_SLUG_TARGETS out of sync with HIDDEN_SLUGS/PUBLISHED — '
+      + [broken.length ? `bad: ${broken.join(', ')}` : '', unmapped.length ? `unmapped: ${unmapped.join(', ')}` : ''].filter(Boolean).join(' | '));
+  }
+}
