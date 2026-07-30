@@ -3,6 +3,9 @@
    Source: Website Drafts/low-gi-recipes-draft.md + own photos.
    Categories: main | dessert | baking | snack | bread | sauce
    Diet tags:  sugar-free | gluten-free | low-carb | vegetarian | dairy-free
+   Optional:   seoTitle: { en, ua } — overrides the <title> of the detail page.
+               Without it, seoTitle() in recipes-lib.js appends the longest
+               "low GI" suffix that still fits inside 60 characters.
    ============================================================ */
 export const RECIPES = [
   {

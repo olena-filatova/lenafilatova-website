@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import RecipeDetailBody from '../../../components/RecipeDetailBody.astro';
 import { PUBLISHED } from '../../../data/recipes.js';
-import { buildJsonLd, clip, imagesOf } from '../../../data/recipes-lib.js';
+import { buildJsonLd, clip, imagesOf, seoTitle } from '../../../data/recipes-lib.js';
 
 export function getStaticPaths() {
   return PUBLISHED.map((R) => ({ params: { slug: R.slug }, props: { R } }));
@@ -10,7 +10,7 @@ export function getStaticPaths() {
 
 const { R } = Astro.props;
 const B = import.meta.env.BASE_URL;
-const title = `${R.title.ua} — Рецепт з низьким ГІ`;
+const title = seoTitle(R, 'ua');
 const description = clip(R.why.ua, 155);
 const ogImage = `/recipes/images/${imagesOf(R)[0]}`;
 const jsonld = buildJsonLd(R, 'ua');
