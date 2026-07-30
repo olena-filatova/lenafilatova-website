@@ -19,6 +19,7 @@ const {
   enHref, uaHref,   // recipe pages: where the EN/UA toggle points
   alternates,      // optional {en, ua} site-absolute paths → hreflang links (x-default = en)
   noindex = false, // hidden pages (e.g. shop while nothing is on sale)
+  readingProgress = false, // long-read pages (blog posts): thin scroll indicator on top
 } = Astro.props;
 
 const canonicalUrl = new URL(canonical, Astro.site).href;
@@ -56,9 +57,57 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
   </head>
   <body>
+    {readingProgress && <div class="reading-progress" id="readingProgress" aria-hidden="true" hidden></div>}
     <Header lang={lang} showList={showList} enHref={enHref} uaHref={uaHref} />
     <main><slot /></main>
     <Footer lang={lang} />
     <CookieConsent lang={lang} />
+    {readingProgress && (
+      <script is:inline>
+        (function () {
+          var bar = document.getElementById('readingProgress');
+          if (!bar) return;
+          var max = 0;
+          var ticking = false;
+
+          // documentElement, not body: <html> is the scrolling element in
+          // standards mode, so its scrollHeight is what scrollY runs against.
+          function measure() {
+            max = document.documentElement.scrollHeight - window.innerHeight;
+            // A post shorter than the viewport can never scroll — a bar pinned
+            // at 0% (or NaN%) would just be furniture, so hide it outright.
+            bar.hidden = max <= 0;
+          }
+
+          function paint() {
+            ticking = false;
+            if (max <= 0) return;
+            var pct = (window.scrollY / max) * 100;
+            bar.style.width = (pct < 0 ? 0 : pct > 100 ? 100 : pct) + '%';
+          }
+
+          // One write per frame — scroll fires far faster than the compositor.
+          function onScroll() {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(paint);
+          }
+
+          function remeasure() { measure(); paint(); }
+
+          remeasure();
+          window.addEventListener('scroll', onScroll, { passive: true });
+          window.addEventListener('resize', remeasure);
+          // Webfonts and the cookie banner land after parse and shift the height.
+          window.addEventListener('load', remeasure);
+          // Article images are loading="lazy", so the page keeps growing as you
+          // read it. Measuring once would make the bar hit 100% before the real
+          // bottom, so track the document height for as long as it changes.
+          if (window.ResizeObserver) {
+            new ResizeObserver(remeasure).observe(document.documentElement);
+          }
+        })();
+      </script>
+    )}
   </body>
 </html>
