@@ -169,6 +169,61 @@ img { max-width: 100%; display: block; }
 .see-all { color: var(--accent); font-weight: 600; font-size: 15px; white-space: nowrap; }
 .see-all:hover { text-decoration: underline; }
 
+/* --- home: section bands (OPS-156) ---------------------------------------
+   The page was one flat sheet of --bg from header to footer. These bands give
+   it a gentle vertical rhythm: tint → paper → tint → paper …, a shared grain
+   over the top, and a soft shading where one band meets the next.
+
+   Scoped to `.home-band`, NOT to `.section`, because `.section` is reused by
+   the blog / recipe / resource hubs. Applied in HomeBody.astro, so EN and UA
+   get it from the one edit.
+
+   Kept deliberately quiet: paper is #fff on #F6F0F5 — the same 4% step the
+   cards already use — so the rhythm survives a dim laptop panel without
+   banding on a bright monitor. */
+.home-band {
+  position: relative;
+  /* Monochrome fractal grain, one 120px tile. Sits over the band colour and
+     under the content. Inline SVG so it costs no request and no PNG asset. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+.home-band > * { position: relative; z-index: 1; }
+
+/* paper bands — lifted off the tint by a hairline top and bottom */
+.home-band--paper {
+  background-color: var(--card);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* soft inner shading at the band boundaries, so the seam reads as depth
+   rather than as a drawn line. Decorative — never intercepts clicks. */
+.home-band--paper::before,
+.home-band--paper::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  height: 24px;
+  pointer-events: none;
+  z-index: 0;
+}
+.home-band--paper::before { top: 0; background: linear-gradient(to bottom, rgba(51, 27, 51, 0.035), rgba(51, 27, 51, 0)); }
+.home-band--paper::after { bottom: 0; background: linear-gradient(to top, rgba(51, 27, 51, 0.035), rgba(51, 27, 51, 0)); }
+
+/* The page closes on a paper band and the footer is white too — its own
+   border-top is the seam, so don't stack a second hairline on top of it. */
+.home-band--paper:last-of-type { border-bottom: 0; }
+.home-band--paper:last-of-type::after { content: none; }
+
+/* hero — light pools behind the headline, deepening very slightly to the edges */
+.home-band--hero {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E"),
+    radial-gradient(110% 82% at 50% 16%, #FCF8FB 0%, var(--bg) 56%, #F0E7EE 100%);
+  background-repeat: repeat, no-repeat;
+}
+
 /* home hero */
 .hero.home .grid { grid-template-columns: 1fr 1fr; }
 .hero-cta { display: flex; gap: 14px; margin: 30px 0 22px; flex-wrap: wrap; }
