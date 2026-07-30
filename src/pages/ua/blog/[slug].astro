@@ -21,6 +21,7 @@ const a = post.ua;
   ogType="article"
   jsonld={buildJsonLd(post, 'ua')}
   alternates={{ en: `/blog/${post.slug}/`, ua: `/ua/blog/${post.slug}/` }}
+  readingProgress
   enHref={`${B}blog/${post.slug}/`}
   uaHref={`${B}ua/blog/${post.slug}/`}>
   <BlogPostBody post={post} lang="ua" />
