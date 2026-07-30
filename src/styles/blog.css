@@ -99,6 +99,31 @@
 .bcard .meta { margin: 2px 0 0; font-size: 13px; color: #7A6675; }
 .blog-empty { display: none; padding: 10px 0 70px; color: var(--muted); font-size: 16px; }
 
+/* --- reading progress (OPS-158) -----------------------------------------
+   Lives here rather than in global.css: the element is emitted by
+   BaseLayout, but only when a page opts in via `readingProgress`, and
+   blog.css only ships on pages that render BlogPostBody — the same set.
+
+   Sits at z-index 1000, above the sticky header's 50, so it rides on the
+   very top edge of the viewport rather than under the header. */
+.reading-progress {
+  position: fixed;
+  top: 0; left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--accent);
+  z-index: 1000;
+  will-change: width;
+  transition: width 0.1s linear;
+}
+/* The script hides the bar on posts too short to scroll (see BaseLayout).
+   Explicit so a future `display` rule here can't defeat the hidden attribute. */
+.reading-progress[hidden] { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reading-progress { transition: none; }
+}
+
 /* --- article --- */
 .post { max-width: 760px; margin: 0 auto; padding: 44px 24px 8px; font-size: 18px; line-height: 1.7; }
 .post .cat { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin: 0; }

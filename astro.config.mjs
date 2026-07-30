@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import { RETIRED_SLUG_TARGETS } from './src/data/recipes.js';
 
 // `site` = canonical origin (used for <link rel="canonical"> + Open Graph).
 // `base` = the GitHub Pages project subpath for this preview deploy. Both the
@@ -20,17 +21,20 @@ const TOOL_REDIRECTS = Object.fromEntries(
 // Recipes removed from PUBLISHED (OPS-118 hidden-slug batch) that still 404
 // while earning Search Console impressions (OPS-161). 301 the residual search
 // interest to the closest surviving destination rather than let it hit a dead
-// end. Their near-equivalents were hidden in the same batch, so there is no
-// like-for-like recipe to point at — send them to the /recipes/ hub. We do NOT
-// use a `?cat=` category URL: the hub's filter is chip-click only and ignores
-// URL query params, so `?cat=snack` would land on the unfiltered hub anyway.
-// 410 was rejected — these have real residual interest worth recovering, and a
-// static host can't cleanly serve 410. Both EN and UA pages 404 (both build
-// from PUBLISHED), so redirect both locales.
+// end. 410 was rejected — these have real residual interest worth recovering,
+// and a static host can't cleanly serve 410. Both EN and UA pages 404 (both
+// build from PUBLISHED), so redirect both locales.
+//
+// OPS-128 widened this from 3 slugs to all 64, and changed the destination
+// from the bare hub to a like-for-like recipe (RETIRED_SLUG_TARGETS in
+// recipes.js). The hub was the earlier choice because the filter is
+// chip-click only and ignores URL query params, so a `?cat=` link would land
+// on the unfiltered hub anyway — but a matching recipe keeps more of the
+// original intent than 86 unfiltered cards do.
 const REMOVED_RECIPE_REDIRECTS = Object.fromEntries(
-  ['granola-bars-peanut-butter', 'granola-bars-date-coconut', 'masala-chai-latte'].flatMap((slug) => [
-    [`/recipes/${slug}/`, withBase('/recipes/')],
-    [`/ua/recipes/${slug}/`, withBase('/ua/recipes/')],
+  Object.entries(RETIRED_SLUG_TARGETS).flatMap(([from, to]) => [
+    [`/recipes/${from}/`, withBase(`/recipes/${to}/`)],
+    [`/ua/recipes/${from}/`, withBase(`/ua/recipes/${to}/`)],
   ])
 );
 
