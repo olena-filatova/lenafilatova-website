@@ -24,7 +24,10 @@ const featuredRecipe = HOME.recipe;
 const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 ---
 <!-- HERO -->
-<section class="hero home">
+<!-- Bands alternate tint → paper → tint … down the page (OPS-156). The band
+     classes are homepage-only on purpose: `.section` is shared with the blog,
+     recipe and resource hubs, which set their own rhythm. -->
+<section class="hero home home-band home-band--hero">
   <div class="wrap grid">
     <div>
       <p class="kicker">{t.heroKicker}</p>
@@ -49,7 +52,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- FROM THE BLOG: latest article (freshest content, featured first) -->
-<section class="section">
+<section class="section home-band home-band--paper">
   <div class="wrap">
     <div class="section-head">
       <div><h2>{t.blogTitle}</h2><p class="section-sub">{t.blogSub}</p></div>
@@ -84,7 +87,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- FROM MY KITCHEN: one recipe (image mirrored vs the blog card on wide screens) -->
-<section class="section">
+<section class="section home-band">
   <div class="wrap">
     <div class="section-head">
       <div><h2>{t.recipesTitle}</h2><p class="section-sub">{t.recipesSub}</p></div>
@@ -104,7 +107,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- FREE TOOLS & GUIDES: one card on mobile, three on wide screens -->
-<section class="section">
+<section class="section home-band home-band--paper">
   <div class="wrap">
     <div class="section-head">
       <div><h2>{t.resourcesTitle}</h2><p class="section-sub">{t.resourcesSub}</p></div>
@@ -135,7 +138,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 
 <!-- WHAT I HELP WITH — the topic overview, now near the bottom as a lead-out
      to the newsletter (fresh content catches attention up top instead) -->
-<section class="section">
+<section class="section home-band">
   <div class="wrap">
     <h2>{t.helpTitle}</h2>
     <p class="section-sub">{t.helpSub}</p>
@@ -154,7 +157,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- NEWSLETTER -->
-<section class="section newsletter" id="newsletter">
+<section class="section newsletter home-band home-band--paper" id="newsletter">
   <div class="wrap nl-box">
     <h2>{t.nlTitle}</h2>
     <p class="section-sub">{t.nlSub}</p>
