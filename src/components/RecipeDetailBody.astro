@@ -174,7 +174,7 @@ const rec = {
     <div class="cards">
       {others.map((x) => (
         <a class="rcard" href={`${HUB}${x.slug}/`}>
-          <div class="thumb"><img src={`${IMG}${x.img}`} alt="" /><span class="mini-gi">{T.lowGi}</span></div>
+          <div class="thumb"><img src={`${IMG}${x.img}`} alt={x.title[l]} /><span class="mini-gi">{T.lowGi}</span></div>
           <div class="body"><div class="title">{x.title[l]}</div><div class="cmeta"><span>{x.meta.serves[l]}</span></div></div>
         </a>
       ))}
