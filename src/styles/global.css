@@ -280,9 +280,31 @@ img { max-width: 100%; display: block; }
 .newsletter .section-sub { color: #e9dbe7; margin: 0 auto 26px; }
 .nlform { max-width: 520px; margin: 0 auto; }
 .nl-row { display: flex; gap: 10px; }
-.nl-row input { flex: 1; padding: 13px 16px; border-radius: 999px; border: 0; font-family: var(--font-body); font-size: 15px; }
+.nl-row input { flex: 1; padding: 13px 16px; border-radius: 999px; border: 0; font-family: var(--font-body); font-size: 15px; transition: box-shadow .2s ease; }
+.nl-row input::placeholder { color: var(--ink); opacity: .4; }
+/* The field is white but sits on the dark --ink box, so the ring is drawn in two
+   layers: accent against the input, a light halo against the box behind it. A
+   single accent ring would only reach 2.8:1 on --ink and fail WCAG 1.4.11.
+   The transparent outline is what forced-colours mode paints instead. */
+.nl-row input:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 0 5px rgba(255,255,255,0.6);
+}
+.nl-row .btn { transition: filter .15s ease, transform .15s ease; }
+.nl-row .btn:hover { transform: translateY(-1px); }
+.nl-row .btn:active { transform: translateY(0); }
+.nl-row .btn:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: 0 0 0 3px rgba(255,255,255,0.7); }
+/* The submit handler disables the button while the POST is in flight. */
+.nl-row .btn:disabled { opacity: .6; cursor: default; transform: none; filter: none; }
 .nl-consent { display: flex; gap: 9px; align-items: flex-start; color: #d9c9d6; font-size: 12.5px; margin-top: 14px; text-align: left; }
+.nl-consent input:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .newsletter .form-sent { max-width: 520px; margin: 0 auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  .nl-row input, .nl-row .btn { transition: none; }
+  .nl-row .btn:hover { transform: none; }
+}
 
 /* --- resources hub --- */
 .hero.resources { padding-bottom: 12px; }
