@@ -73,18 +73,18 @@ const T = {
 
   <div class="filters" id="filters">
     <div class="filter-row">
-      <span class="filter-label">{T.typeLabel}</span>
-      <div class="chips">
+      <span class="filter-label" id="flt-type">{T.typeLabel}</span>
+      <div class="chips" role="group" aria-labelledby="flt-type">
         {TYPE_CHIPS.map((c) => (
-          <button class="chip" data-group="cat" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
+          <button class="chip" type="button" aria-pressed="false" data-group="cat" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
         ))}
       </div>
     </div>
     <div class="filter-row">
-      <span class="filter-label">{T.dietLabel}</span>
-      <div class="chips">
+      <span class="filter-label" id="flt-diet">{T.dietLabel}</span>
+      <div class="chips" role="group" aria-labelledby="flt-diet">
         {DIET_CHIPS.map((c) => (
-          <button class="chip" data-group="diet" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
+          <button class="chip" type="button" aria-pressed="false" data-group="diet" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
         ))}
       </div>
     </div>
@@ -160,8 +160,11 @@ const T = {
       if (remaining > 0) moreBtn.textContent = (lang === 'ua' ? 'Показати ще ' + next : 'Load ' + next + ' more');
     }
     function reset() { batchesShown = 1; apply(); }
-    chips.forEach(function (c) { c.addEventListener('click', function () { c.classList.toggle('active'); reset(); }); });
-    clearBtn.addEventListener('click', function () { chips.forEach(function (c) { c.classList.remove('active'); }); reset(); });
+    // .active is the visual state; aria-pressed is the same state for assistive
+    // tech. Set both together so a screen reader never disagrees with the paint.
+    function setChip(c, on) { c.classList.toggle('active', on); c.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+    chips.forEach(function (c) { c.addEventListener('click', function () { setChip(c, !c.classList.contains('active')); reset(); }); });
+    clearBtn.addEventListener('click', function () { chips.forEach(function (c) { setChip(c, false); }); reset(); });
     moreBtn.addEventListener('click', function () { batchesShown++; apply(); });
     var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(apply, 150); });
     apply();
