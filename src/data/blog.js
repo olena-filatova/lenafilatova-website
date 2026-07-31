@@ -190,7 +190,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "And the part that doesn't make the headline: rapid weight loss at midlife has a body-composition cost. A meaningful share of the weight lost on any GLP-1 drug can come from muscle as well as fat, and menopause is already a vulnerable time for bone density as oestrogen drops. Losing weight fast, while your bones and muscle are under pressure anyway, is a combination clinicians increasingly flag. It doesn't mean don't do it — it means build in the protective habits from day one: enough protein (roughly 1.2–1.6 g per kg of bodyweight a day), resistance training a couple of times a week, and adequate vitamin D and calcium. None of that is optional if you want to keep the muscle and bone you'll rely on for decades."
+          "text": "And the part that doesn't make the headline: rapid weight loss at midlife has a body-composition cost. A meaningful share of the weight lost on any GLP-1 drug can come from muscle as well as fat, and menopause is already a vulnerable time for bone density as oestrogen drops. Losing weight fast, while your bones and muscle are under pressure anyway, is a combination clinicians increasingly flag. It doesn't mean don't do it — it means build in the protective habits from day one: [enough protein](/blog/protein-for-women-over-40/) (roughly 1.2–1.6 g per kg of bodyweight a day), resistance training a couple of times a week, and adequate vitamin D and calcium. None of that is optional if you want to keep the muscle and bone you'll rely on for decades."
         },
         {
           "t": "h",
@@ -269,7 +269,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "І частина, яка не потрапляє в заголовок: швидка втрата ваги в середньому віці має ціну для складу тіла. Помітна частка ваги, втраченої на будь-якому препараті GLP-1, може припадати на м'язи, а не лише на жир, а менопауза й так є вразливим часом для щільності кісток через падіння естрогену. Швидко худнути, коли ваші кістки й м'язи вже під тиском, — це поєднання, на яке дедалі частіше звертають увагу лікарі. Це не означає «не робіть цього» — це означає закласти захисні звички з першого дня: достатньо білка (приблизно 1,2–1,6 г на кг маси тіла на день), силові тренування кілька разів на тиждень і достатньо вітаміну D та кальцію. Нічого з цього не є необов'язковим, якщо ви хочете зберегти м'язи й кістки, на які покладатиметеся десятиліттями."
+          "text": "І частина, яка не потрапляє в заголовок: швидка втрата ваги в середньому віці має ціну для складу тіла. Помітна частка ваги, втраченої на будь-якому препараті GLP-1, може припадати на м'язи, а не лише на жир, а менопауза й так є вразливим часом для щільності кісток через падіння естрогену. Швидко худнути, коли ваші кістки й м'язи вже під тиском, — це поєднання, на яке дедалі частіше звертають увагу лікарі. Це не означає «не робіть цього» — це означає закласти захисні звички з першого дня: [достатньо білка](/ua/blog/protein-for-women-over-40/) (приблизно 1,2–1,6 г на кг маси тіла на день), силові тренування кілька разів на тиждень і достатньо вітаміну D та кальцію. Нічого з цього не є необов'язковим, якщо ви хочете зберегти м'язи й кістки, на які покладатиметеся десятиліттями."
         },
         {
           "t": "h",
@@ -1953,7 +1953,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "None of this is a reason to avoid these medicines, which can be genuinely transformative for the right person. It's an argument for pairing them with deliberate movement — particularly resistance training two or three times a week and enough protein — so the weight you lose is fat, and the muscle stays. The drug lowers appetite; it doesn't build strength. That part is still on us."
+          "text": "None of this is a reason to avoid these medicines, which can be genuinely transformative for the right person. It's an argument for pairing them with deliberate movement — particularly resistance training two or three times a week and [enough protein](/blog/protein-for-women-over-40/) — so the weight you lose is fat, and the muscle stays. The drug lowers appetite; it doesn't build strength. That part is still on us."
         },
         {
           "t": "p",
@@ -2009,7 +2009,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Ніщо з цього не є приводом уникати цих ліків, які для правильної людини можуть бути справді трансформаційними. Це аргумент на користь того, щоб поєднувати їх зі свідомим рухом — зокрема силовими тренуваннями двічі-тричі на тиждень і достатньою кількістю білка, — щоб вага, яку ви втрачаєте, була жиром, а м’язи лишалися. Препарат знижує апетит; він не будує силу. Ця частина досі на нас."
+          "text": "Ніщо з цього не є приводом уникати цих ліків, які для правильної людини можуть бути справді трансформаційними. Це аргумент на користь того, щоб поєднувати їх зі свідомим рухом — зокрема силовими тренуваннями двічі-тричі на тиждень і [достатньою кількістю білка](/ua/blog/protein-for-women-over-40/), — щоб вага, яку ви втрачаєте, була жиром, а м’язи лишалися. Препарат знижує апетит; він не будує силу. Ця частина досі на нас."
         },
         {
           "t": "p",
@@ -5696,7 +5696,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "This was an observational emulated-trial analysis, not a randomised controlled trial, so it shows association rather than definitive proof of cause. But it adds to a growing body of evidence that higher protein — alongside resistance exercise — is one of the more actionable levers for preserving muscle and bone through the menopause transition."
+          "text": "This was an observational emulated-trial analysis, not a randomised controlled trial, so it shows association rather than definitive proof of cause. But it adds to a growing body of evidence that [higher protein](/blog/protein-for-women-over-40/) — alongside resistance exercise — is one of the more actionable levers for preserving muscle and bone through the menopause transition."
         },
         {
           "t": "h",
@@ -5762,7 +5762,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Це був спостережний аналіз за методом емульованого дослідження, а не рандомізоване контрольоване дослідження, тож він показує зв’язок, а не остаточний доказ причини. Але він додається до дедалі більшої кількості доказів того, що вищий білок разом із силовими тренуваннями — один із найбільш практичних важелів для збереження м'язів і кісток під час переходу через менопаузу."
+          "text": "Це був спостережний аналіз за методом емульованого дослідження, а не рандомізоване контрольоване дослідження, тож він показує зв’язок, а не остаточний доказ причини. Але він додається до дедалі більшої кількості доказів того, що [вищий білок](/ua/blog/protein-for-women-over-40/) разом із силовими тренуваннями — один із найбільш практичних важелів для збереження м'язів і кісток під час переходу через менопаузу."
         },
         {
           "t": "h",
@@ -5946,7 +5946,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "None of this means muscle looks after itself. Losing weight quickly at any age thins muscle and bone unless you actively defend them — which is exactly where enough protein and resistance training earn their place, and it matters even more through perimenopause and beyond, when muscle and bone are already under pressure. The drugs tilt the fat-to-muscle ratio in your favour; they don't remove the need to train and eat well while the weight comes off."
+          "text": "None of this means muscle looks after itself. Losing weight quickly at any age thins muscle and bone unless you actively defend them — which is exactly where [enough protein](/blog/protein-for-women-over-40/) and resistance training earn their place, and it matters even more through perimenopause and beyond, when muscle and bone are already under pressure. The drugs tilt the fat-to-muscle ratio in your favour; they don't remove the need to train and eat well while the weight comes off."
         },
         {
           "t": "h",
@@ -5996,7 +5996,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Ніщо з цього не означає, що м'язи подбають про себе самі. Швидка втрата ваги в будь-якому віці витончує м'язи й кістки, якщо їх активно не захищати — і саме тут стають у пригоді достатній білок і силові тренування. Це особливо важливо під час перименопаузи та після неї, коли м'язи й кістки й так під тиском. Препарати схиляють співвідношення жиру до м'язів на вашу користь, але не скасовують потреби тренуватися й добре харчуватися, поки вага йде."
+          "text": "Ніщо з цього не означає, що м'язи подбають про себе самі. Швидка втрата ваги в будь-якому віці витончує м'язи й кістки, якщо їх активно не захищати — і саме тут стають у пригоді [достатній білок](/ua/blog/protein-for-women-over-40/) і силові тренування. Це особливо важливо під час перименопаузи та після неї, коли м'язи й кістки й так під тиском. Препарати схиляють співвідношення жиру до м'язів на вашу користь, але не скасовують потреби тренуватися й добре харчуватися, поки вага йде."
         },
         {
           "t": "h",
