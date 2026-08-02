@@ -236,8 +236,26 @@ img { max-width: 100%; display: block; }
    the width and read as an intentional set (not a full-width to-do list);
    single stacked column on mobile (see the responsive block below). */
 .help-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
-.help-card { display: flex; align-items: center; gap: 16px; border-radius: 14px; padding: 14px 20px; }
-.help-num { flex: 0 0 auto; display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.7); font-family: var(--font-head); font-size: 14px; }
+/* Each card carries its own tint and accent as --c / --n, set inline from
+   HOME.helpColors / HOME.helpNums (HomeBody.astro), so site.js stays the one
+   source of truth and the border can be derived from the accent instead of
+   needing a third hand-maintained array. */
+.help-card {
+  display: flex; align-items: center; gap: 16px;
+  border-radius: 14px; padding: 16px 20px;
+  background: var(--c);
+  border: 1px solid rgba(51, 27, 51, 0.07); /* flat fallback, no color-mix() */
+  border-color: color-mix(in srgb, var(--n) 20%, transparent);
+  box-shadow: 0 1px 2px rgba(51, 27, 51, 0.04), 0 6px 16px -10px rgba(51, 27, 51, 0.18);
+}
+/* The numeral sits on the card's own accent rather than one global --accent,
+   so the four topics keep separate identities. White on each is 4.9–6.0:1. */
+.help-num {
+  flex: 0 0 auto; display: inline-grid; place-items: center;
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--n); color: #fff;
+  font-family: var(--font-head); font-size: 15px; font-weight: 600;
+}
 .help-text { min-width: 0; }
 .help-card h3 { font-size: 16px; margin: 0; }
 .help-card p { margin: 2px 0 0; color: var(--muted); font-size: 13.5px; line-height: 1.45; }
@@ -392,8 +410,8 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 480px) {
-  .help-card { padding: 12px 16px; gap: 12px; }
-  .help-num { width: 30px; height: 30px; font-size: 13px; }
+  .help-card { padding: 14px 16px; gap: 12px; }
+  .help-num { width: 36px; height: 36px; font-size: 14px; }
   .help-card h3 { font-size: 15px; }
   .help-card p { font-size: 13px; }
   .rband, .rbody { padding-left: 20px; padding-right: 20px; }
