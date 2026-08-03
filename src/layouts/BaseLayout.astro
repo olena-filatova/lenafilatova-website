@@ -20,6 +20,7 @@ const {
   alternates,      // optional {en, ua} site-absolute paths → hreflang links (x-default = en)
   noindex = false, // hidden pages (e.g. shop while nothing is on sale)
   readingProgress = false, // long-read pages (blog posts): thin scroll indicator on top
+  revealOnScroll = false, // homepage: fade sections up as they come into view
 } = Astro.props;
 
 const canonicalUrl = new URL(canonical, Astro.site).href;
@@ -71,6 +72,17 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     )}
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+    {revealOnScroll && (
+      /* The reveal CSS hides .reveal behind this class, so the class has to be
+         set here — in <head>, before the body paints — or the sections flash in
+         at full opacity and then jump back down to be animated. Equally, it
+         must only be set when the observer below can actually run: no
+         IntersectionObserver means no .reveal-js, which means no hidden state,
+         rather than a permanently blank homepage. */
+      <script is:inline>
+        if ('IntersectionObserver' in window) document.documentElement.classList.add('reveal-js');
+      </script>
+    )}
   </head>
   <body>
     {readingProgress && <div class="reading-progress" id="readingProgress" aria-hidden="true" hidden></div>}
@@ -78,6 +90,80 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     <main><slot /></main>
     <Footer lang={lang} />
     <CookieConsent lang={lang} />
+    {revealOnScroll && (
+      <script is:inline>
+        (function () {
+          var els = document.querySelectorAll('.reveal');
+          if (!els.length) return;
+
+          function showAll() {
+            for (var i = 0; i < els.length; i++) els[i].classList.add('is-visible');
+          }
+          // The CSS keeps everything visible under reduced motion anyway; this
+          // just stops us observing scroll for an effect nobody will see.
+          if (!window.IntersectionObserver ||
+              (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+            showAll();
+            return;
+          }
+
+          var remaining = els.length;
+          function show(el) {
+            if (el.classList.contains('is-visible')) return;
+            el.classList.add('is-visible');
+            remaining--;
+          }
+
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+              if (!e.isIntersecting) return;
+              show(e.target);
+              // One-way: re-hiding on the way back up makes scrolling feel
+              // broken, and it would replay the stagger every pass.
+              io.unobserve(e.target);
+            });
+          }, {
+            // Start the fade a little before the section's edge reaches the
+            // fold, so it has finished by the time it is properly in view.
+            rootMargin: '0px 0px -12% 0px',
+            threshold: 0.05,
+          });
+
+          for (var i = 0; i < els.length; i++) io.observe(els[i]);
+
+          // Safety sweep on the same trigger line as the observer above.
+          //
+          // This is not just for the section already on screen at first paint
+          // (which may never produce an intersection *change*) — it means a
+          // section can never be stranded at opacity 0 even if the observer
+          // fails to deliver, which is the one failure here that would cost a
+          // visitor the content rather than just the animation. It detaches as
+          // soon as everything is shown, so once the page has been read through
+          // it costs nothing.
+          var ticking = false;
+          function sweep() {
+            ticking = false;
+            for (var i = 0; i < els.length; i++) {
+              var r = els[i].getBoundingClientRect();
+              if (r.top < innerHeight * 0.88 && r.bottom > 0) show(els[i]);
+            }
+            if (remaining <= 0) {
+              window.removeEventListener('scroll', onScroll);
+              window.removeEventListener('resize', onScroll);
+            }
+          }
+          function onScroll() {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(sweep);
+          }
+          window.addEventListener('scroll', onScroll, { passive: true });
+          window.addEventListener('resize', onScroll);
+          window.addEventListener('load', sweep);
+          sweep();
+        })();
+      </script>
+    )}
     {readingProgress && (
       <script is:inline>
         (function () {
