@@ -144,8 +144,8 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
     <p class="section-sub">{t.helpSub}</p>
     <div class="help-grid reveal-group">
       {t.help.map((c, i) => (
-        <div class="help-card" style={`background:${HOME.helpColors[i]}`}>
-          <span class="help-num" style={`color:${HOME.helpNums[i]}`}>{String(i + 1).padStart(2, '0')}</span>
+        <div class="help-card" style={`--c:${HOME.helpColors[i]};--n:${HOME.helpNums[i]}`}>
+          <span class="help-num">{String(i + 1).padStart(2, '0')}</span>
           <div class="help-text">
             <h3>{c.h}</h3>
             <p>{c.p}</p>
