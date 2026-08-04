@@ -28,6 +28,21 @@ const orderedRecipes = [
   ...PUBLISHED.filter((r) => !featuredSet.has(r.slug)),
 ];
 
+// The "Load more" batching below is JS-only, so without these two constants the
+// server ships all ~86 cards visible and the browser pulls ~10 MB of thumbnails
+// before the inline script gets a chance to hide anything.
+//
+// INITIAL matches the largest first batch the script can choose (batchSize() is
+// columns x 3 rows, and the grid tops out around 6 columns), so pre-hiding past
+// it never takes away a card the script would have shown — no visible reflow.
+// Cards past it are display:none, and a lazy <img> inside display:none is never
+// fetched.
+const INITIAL = 18;
+// The first row is what the visitor actually looks at. `lazy` keeps those out of
+// the preload scanner and queues them at Low priority behind everything else,
+// which is what left them as empty pink gradient boxes.
+const EAGER = 4;
+
 const TYPE_CHIPS = [
   { v: 'breakfast', en: 'Breakfast', ua: 'Сніданки' }, { v: 'main', en: 'Mains', ua: 'Основні' },
   { v: 'dessert', en: 'Desserts', ua: 'Десерти' }, { v: 'baking', en: 'Baking', ua: 'Випічка' },
@@ -96,9 +111,9 @@ const T = {
   </div>
 
   <div class="cards" id="grid">
-    {orderedRecipes.map((r) => (
-      <a class="rcard" href={`${R}${r.slug}/`} data-cat={r.cat} data-diet={(r.tags || []).join(' ')}>
-        <div class="thumb"><img src={`${IMG}${r.img}`} loading="lazy" decoding="async" alt={r.title[lang]} /></div>
+    {orderedRecipes.map((r, i) => (
+      <a class={`rcard${i >= INITIAL ? ' hidden' : ''}`} href={`${R}${r.slug}/`} data-cat={r.cat} data-diet={(r.tags || []).join(' ')}>
+        <div class="thumb"><img src={`${IMG}${r.img}`} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt={r.title[lang]} /></div>
         <div class="body">
           <div class="title">{r.title[lang]}</div>
           <div class="cmeta"><span>{CAT_HUB[r.cat][lang]}</span><span>{r.meta.serves[lang]}</span></div>
@@ -106,6 +121,11 @@ const T = {
       </a>
     ))}
   </div>
+
+  {/* Without JS nothing ever calls apply(), so the pre-hidden cards would stay
+      hidden and "Load more" (display:none until the script shows it) could not
+      bring them back. Give those visitors the whole grid instead. */}
+  <noscript><style>.rx .cards .rcard.hidden { display: block; }</style></noscript>
 
   <div class="more-wrap" id="moreWrap"><button class="more-btn" id="moreBtn">{T.more}</button></div>
   <div class="empty" id="empty">
