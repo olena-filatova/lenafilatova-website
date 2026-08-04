@@ -125,7 +125,7 @@
 }
 
 /* --- article --- */
-.post { max-width: 760px; margin: 0 auto; padding: 44px 24px 8px; font-size: 18px; line-height: 1.7; }
+.post { max-width: 760px; margin: 0 auto; padding: 44px 24px 8px; font-size: 18px; line-height: 1.75; }
 .post .cat { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin: 0; }
 .post h1 { font-size: clamp(31px, 4.6vw, 40px); line-height: 1.15; letter-spacing: -0.5px; margin: 14px 0; text-wrap: balance; }
 .post .byline { color: #7A6675; font-size: 14.5px; margin: 0 0 8px; }
@@ -137,8 +137,15 @@
 .post figure.embed { margin: 30px 0; }
 .post figure.embed iframe { border-radius: 14px; background: var(--card); }
 .post .lead { font-family: var(--font-head); font-style: italic; font-size: 22px; line-height: 1.5; color: #4A3A46; margin: 24px 0 28px; }
-.post .prose p { margin: 0 0 20px; text-wrap: pretty; }
-.post .prose h2 { font-size: 26px; font-weight: 600; letter-spacing: -0.2px; margin: 40px 0 12px; }
+.post .prose p { margin: 0 0 24px; text-wrap: pretty; }
+/* Section headings get more air above and a hairline rule, so a long article
+   reads as a set of parts rather than one column. `balance` keeps a two-line
+   heading from dropping a single orphan word. */
+.post .prose h2 {
+  font-size: 26px; font-weight: 600; letter-spacing: -0.2px; margin: 48px 0 14px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--line);
+  text-wrap: balance;
+}
 .post blockquote {
   margin: 28px 0; padding: 4px 0 4px 22px; border-left: 3px solid var(--accent);
   font-family: var(--font-head); font-style: italic; font-size: 22px; line-height: 1.45; color: var(--ink);
