@@ -12,16 +12,31 @@ const B = import.meta.env.BASE_URL;                 // '/…preview/' now, '/' a
 const L = lang === 'ua' ? `${B}ua/` : B;            // language-scoped base
 const enTo = enHref || `${B}about/`;
 const uaTo = uaHref || `${B}ua/about/`;
+
+// Which nav item is the current page. Prefix match rather than equality, so a
+// post (/blog/some-post/) or a recipe (/recipes/yerba-mate/) still lights up its
+// section. Both sides are normalised to a trailing slash. The UA links already
+// carry the /ua/ segment via L, so /ua/blog/… can only ever match the UA item —
+// and the homepage ('/') matches nothing, which is what we want.
+const slash = (s) => (s.endsWith('/') ? s : `${s}/`);
+const here = slash(Astro.url.pathname);
+const isHere = (href) => here.startsWith(slash(href));
+
+const NAV_ITEMS = [
+  { href: `${L}blog/`, label: t.blog },
+  { href: `${L}resources/`, label: t.resources },
+  { href: `${L}recipes/`, label: t.recipes },
+  { href: `${L}about/`, label: t.about },
+  { href: `${L}contact/`, label: t.contact },
+];
 ---
 <header class="site-header">
   <div class="wrap inner">
     <a class="brand" href={L}><span class="mark">lf</span>Lena Filatova</a>
     <nav class="site-nav">
-      <a href={`${L}blog/`}>{t.blog}</a>
-      <a href={`${L}resources/`}>{t.resources}</a>
-      <a href={`${L}recipes/`}>{t.recipes}</a>
-      <a href={`${L}about/`}>{t.about}</a>
-      <a href={`${L}contact/`}>{t.contact}</a>
+      {NAV_ITEMS.map((n) => (
+        <a href={n.href} class={isHere(n.href) ? 'active' : undefined} aria-current={isHere(n.href) ? 'page' : undefined}>{n.label}</a>
+      ))}
     </nav>
     <div class="header-actions">
       <span class="lang">
@@ -42,11 +57,9 @@ const uaTo = uaHref || `${B}ua/about/`;
     </div>
   </div>
   <nav class="mobile-nav" id="mobileNav" hidden>
-    <a href={`${L}blog/`}>{t.blog}</a>
-    <a href={`${L}resources/`}>{t.resources}</a>
-    <a href={`${L}recipes/`}>{t.recipes}</a>
-    <a href={`${L}about/`}>{t.about}</a>
-    <a href={`${L}contact/`}>{t.contact}</a>
+    {NAV_ITEMS.map((n) => (
+      <a href={n.href} class={isHere(n.href) ? 'active' : undefined} aria-current={isHere(n.href) ? 'page' : undefined}>{n.label}</a>
+    ))}
     <a class="btn" href={`${L}contact/`}>{t.subscribe}</a>
   </nav>
 </header>
