@@ -52,7 +52,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- FROM THE BLOG: latest article (freshest content, featured first) -->
-<section class="section home-band home-band--paper">
+<section class="section home-band home-band--paper reveal">
   <div class="wrap">
     <div class="section-head">
       <div><h2>{t.blogTitle}</h2><p class="section-sub">{t.blogSub}</p></div>
@@ -68,7 +68,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
         <span class="btn">{t.blogCta}</span>
       </div>
     </a>
-    <div class="blog-more">
+    <div class="blog-more reveal-group">
       {morePosts.map((p) => {
         const pt = p[lang];
         return (
@@ -87,7 +87,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- FROM MY KITCHEN: one recipe (image mirrored vs the blog card on wide screens) -->
-<section class="section home-band">
+<section class="section home-band reveal">
   <div class="wrap">
     <div class="section-head">
       <div><h2>{t.recipesTitle}</h2><p class="section-sub">{t.recipesSub}</p></div>
@@ -107,13 +107,13 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- FREE TOOLS & GUIDES: one card on mobile, three on wide screens -->
-<section class="section home-band home-band--paper">
+<section class="section home-band home-band--paper reveal">
   <div class="wrap">
     <div class="section-head">
       <div><h2>{t.resourcesTitle}</h2><p class="section-sub">{t.resourcesSub}</p></div>
       <a class="see-all" href={resourcesHref}>{t.resourcesAll}</a>
     </div>
-    <div class="res-grid">
+    <div class="res-grid reveal-group">
       {featuredResources.map((card, i) => {
         const c = card[lang];
         const raw = lang === 'ua' ? card.hrefUa : card.href;
@@ -138,11 +138,11 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 
 <!-- WHAT I HELP WITH — the topic overview, now near the bottom as a lead-out
      to the newsletter (fresh content catches attention up top instead) -->
-<section class="section home-band">
+<section class="section home-band reveal">
   <div class="wrap">
     <h2>{t.helpTitle}</h2>
     <p class="section-sub">{t.helpSub}</p>
-    <div class="help-grid">
+    <div class="help-grid reveal-group">
       {t.help.map((c, i) => (
         <div class="help-card" style={`background:${HOME.helpColors[i]}`}>
           <span class="help-num" style={`color:${HOME.helpNums[i]}`}>{String(i + 1).padStart(2, '0')}</span>
@@ -157,7 +157,7 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
 </section>
 
 <!-- NEWSLETTER -->
-<section class="section newsletter home-band home-band--paper" id="newsletter">
+<section class="section newsletter home-band home-band--paper reveal" id="newsletter">
   <div class="wrap nl-box">
     <h2>{t.nlTitle}</h2>
     <p class="section-sub">{t.nlSub}</p>
