@@ -161,7 +161,12 @@ export const HOME = {
     nlEmail: 'Ваш email', nlBtn: 'Підписатися',
     nlSent: 'Майже готово — перевірте пошту, щоб підтвердити підписку.',
   },
-  helpColors: ['#f7eaf1', '#eeeaf6', '#e9f1ec', '#e9eef5'],
+  // Topic-card tints and their matching accents. The tints used to sit at
+  // roughly 1.03:1 against the page background — technically four colours,
+  // visually one. These are ~1.15:1, still soft but actually present; body
+  // copy on them stays at 6:1 or better. The accent doubles as the numeral
+  // fill (white on each of these is 4.9–6.0:1) and, mixed down, the border.
+  helpColors: ['#f0d8e4', '#e4def2', '#d5e7db', '#d8e2f1'],
   helpNums: ['#a24b76', '#5a5e9c', '#3f7d54', '#4d61a0'],
   // Single hand-picked recipe featured on the homepage (also one of the
   // hub's hand-picked FEATURED_SLUGS — see RecipeHubBody.astro).
