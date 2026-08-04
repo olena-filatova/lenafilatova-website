@@ -234,6 +234,53 @@ img { max-width: 100%; display: block; }
 .home-band--paper:last-of-type { border-bottom: 0; }
 .home-band--paper:last-of-type::after { content: none; }
 
+/* --- scroll reveal ---------------------------------------------------------
+   Sections fade up as they come into view. Everything below is gated on
+   `.reveal-js`, which BaseLayout only puts on <html> when the reveal script is
+   actually going to run: an opacity:0 default that JS never clears would leave
+   the page blank, so the hidden state must not exist unless something can undo
+   it.
+
+   The transition lives on the element rather than in an @keyframes animation,
+   so an element can be put straight into its final state without replaying —
+   which is also why the stagger below is transition-delay, not the
+   animation-delay the ticket suggested (that property does nothing to a
+   transition). */
+.reveal-js .reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .5s ease-out, transform .5s ease-out;
+}
+.reveal-js .reveal.is-visible { opacity: 1; transform: none; }
+
+/* Cards cascade off their section's single observer entry rather than each
+   holding an observer of their own — one trigger, so a row always runs in
+   order instead of racing at whatever angle the user scrolled in at. */
+.reveal-js .reveal-group > * {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .45s ease-out, transform .45s ease-out;
+}
+.reveal-js .reveal.is-visible .reveal-group > * { opacity: 1; transform: none; }
+.reveal-js .reveal-group > :nth-child(2) { transition-delay: .09s; }
+.reveal-js .reveal-group > :nth-child(3) { transition-delay: .18s; }
+.reveal-js .reveal-group > :nth-child(4) { transition-delay: .27s; }
+.reveal-js .reveal-group > :nth-child(n+5) { transition-delay: .36s; }
+
+/* Motion is decoration here — the content must never depend on it. This also
+   covers the setting being flipped after load, which the script's own check at
+   boot cannot. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-js .reveal,
+  .reveal-js .reveal-group > *,
+  .reveal-js .reveal.is-visible .reveal-group > * {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    transition-delay: 0s;
+  }
+}
+
 /* hero — light pools behind the headline, deepening very slightly to the edges */
 .home-band--hero {
   background-image:
