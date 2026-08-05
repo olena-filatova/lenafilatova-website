@@ -6,6 +6,10 @@
    Optional:   seoTitle: { en, ua } — overrides the <title> of the detail page.
                Without it, seoTitle() in recipes-lib.js appends the longest
                "low GI" suffix that still fits inside 60 characters.
+               metaDesc: { en, ua } — overrides the <meta description>.
+               Without it, metaDesc() clips `why` to 155 chars, which reads as
+               a sentence trailing off mid-word in the SERP. Set it on any page
+               that earns real impressions; leave it off for the long tail.
    ============================================================ */
 export const RECIPES = [
   {
@@ -67,6 +71,8 @@ export const RECIPES = [
     slug: 'carrot-cake-philadelphia', img: '06-carrot-cake-philadelphia.jpg', cat: 'dessert', gi: 43,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Carrot Cake with Philadelphia Cream (Sugar-free)', ua: 'Морквяний кекс без цукру з кремом Філадельфія' },
+    seoTitle: { en: "Sugar-free Carrot Cake with Philadelphia Frosting", ua: "Морквяний кекс без цукру з кремом Філадельфія" },
+    metaDesc: { en: "Carrot cake made with wholegrain flour and erythritol instead of sugar. The Philadelphia frosting adds protein, bringing the whole slice to GI 43.", ua: "Морквяний кекс на цільнозерновому борошні з еритритолом замість цукру. Крем Філадельфія додає білка — ГІ 43 замість звичайного кексу." },
     meta: { prep: { en: '15 min', ua: '15 хв' }, cook: { en: '50 min', ua: '50 хв' }, serves: { en: 'Serves 8–10', ua: '8–10 порцій' } },
     why: { en: 'Wholegrain flour has a lower GI than white; erythritol replaces sugar entirely. Carrots add natural sweetness with fibre, and the Philadelphia frosting is protein-rich with no added sugar.', ua: 'Цільнозернове борошно має нижчий ГІ ніж пшеничне; еритритол замінює цукор. Морква додає природну солодкість і клітковину, а крем Філадельфія — білковий, без цукру.' },
     nutrition: { en: 'Per slice (est.): ~270 kcal · Carbs 18 g · Fat 19 g · Protein 8 g', ua: 'На 1 шматок (прибл.): ~270 ккал · Вуглеводи 18 г · Жири 19 г · Білки 8 г' },
@@ -77,6 +83,8 @@ export const RECIPES = [
     slug: 'wholegrain-bread', img: '07-wholegrain-bread.jpeg', cat: 'bread', gi: 45,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Wholegrain Sourdough Bread', ua: 'Цільнозерновий хліб на заквасці' },
+    seoTitle: { en: "Wholegrain Sourdough Bread — Lower GI, No Sugar", ua: "Цільнозерновий хліб на заквасці без цукру — ГІ 45" },
+    metaDesc: { en: "A slow-fermented wholegrain sourdough with flaxseed. Fermentation and intact bran together give a gentler blood-sugar rise than white bread.", ua: "Хліб на заквасці з цільнозернового та лляного борошна. Ферментація й висівки дають ГІ 45 — мʼякший підйом цукру, ніж від білого хліба." },
     meta: { prep: { en: '10 min + 10–16 h proving', ua: '10 хв + 10–16 год вистоювання' }, cook: { en: '40 min', ua: '40 хв' }, serves: { en: '10–12 slices', ua: '10–12 скибок' } },
     why: { en: 'Wholegrain flour retains bran and germ, slowing digestion. Sourdough fermentation further reduces GI compared to regular bread. Flaxseed adds omega-3 and fibre.', ua: 'Цільнозернове борошно зберігає висівки та зародок, уповільнюючи травлення. Ферментація закваски знижує ГІ. Лляне борошно збагачує омега-3 та клітковиною.' },
     nutrition: { en: 'Per slice (est.): ~85 kcal · Carbs 15 g · Fat 1 g · Protein 3 g', ua: 'На 1 скибку (прибл.): ~85 ккал · Вуглеводи 15 г · Жири 1 г · Білки 3 г' },
@@ -253,6 +261,8 @@ export const RECIPES = [
     slug: 'lemon-slices-sugar-free', img: '24-lemon-slices-sugar-free.jpg', cat: 'dessert', gi: 19,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Sugar-free Lemon Slices (Gluten-free)', ua: 'Лимонні тістечка без цукру та глютену' },
+    seoTitle: { en: "Sugar-free Lemon Slices — Gluten-free, Keto, GI 19", ua: "Лимонні тістечка без цукру та глютену — кето, ГІ 19" },
+    metaDesc: { en: "An almond-flour base under a silky lemon curd, sweetened with erythritol. Gluten-free and keto at GI 19 — rich enough that a small piece is plenty.", ua: "Лимонні тістечка на мигдалевій основі з еритритолом — без цукру та глютену. Кето-десерт з ГІ 19: ситний, тож вистачає маленького шматочка." },
     why: { en: 'A keto-friendly lemon slice — an almond-flour base with a silky lemon-curd top, sweetened with erythritol. Rich, so a small piece satisfies without spiking blood sugar.', ua: 'Кето-тістечко з лимоном — мигдалева основа та шовковистий лимонний крем, підсолоджені еритритолом. Ситне, тож маленького шматочка достатньо без стрибка цукру.' },
     nutrition: { en: 'Per slice (est.): ~215 kcal · Carbs 3 g · Fat 21 g · Protein 4 g', ua: 'На 1 шматок (прибл.): ~215 ккал · Вуглеводи 3 г · Жири 21 г · Білки 4 г' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '37 min', ua: '37 хв' }, serves: { en: 'Makes ~16', ua: '~16 штук' } },
@@ -327,6 +337,8 @@ export const RECIPES = [
     slug: 'dried-fruit-sweets', img: '31-dried-fruit-sweets.jpg', cat: 'snack', gi: 10,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'No-bake Dried Fruit Sweets', ua: 'Цукерки із сухофруктів' },
+    seoTitle: { en: "No-bake Dried Fruit Sweets — No Added Sugar, GI 10", ua: "Цукерки із сухофруктів без цукру — ГІ 10, без випікання" },
+    metaDesc: { en: "Dried fruit blended and rolled in seeds and cocoa — no baking, no added sugar. GI 10, though the fruit is naturally sweet, so keep portions small.", ua: "Цукерки із сухофруктів без додавання цукру й випікання — обкачані в насінні та какао. ГІ 10, але фрукти солодкі, тож порція невелика." },
     why: { en: 'Blended dried fruit rolled in seeds and cocoa — a simple whole-food sweet with fibre. Naturally sugary from the fruit, so best enjoyed in small amounts.', ua: 'Збиті сухофрукти, обкачані в насінні та какао — проста натуральна солодкість із клітковиною. Через фрукти вони солодкі, тож найкраще їсти потроху.' },
     nutrition: { en: 'Per serving (est.): ~120 kcal · Carbs 24 g · Fat 3 g · Protein 2 g', ua: 'На порцію (прибл.): ~120 ккал · Вуглеводи 24 г · Жири 3 г · Білки 2 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No bake', ua: 'Без випікання' }, serves: { en: 'Serves 2', ua: '2 порції' } },
@@ -449,6 +461,8 @@ export const RECIPES = [
     slug: 'ratatouille-yellow-tomatoes', img: '43-ratatouille-yellow-tomatoes.jpg', cat: 'main', gi: 18,
     tags: ['vegetarian', 'gluten-free', 'low-carb'],
     title: { en: 'Ratatouille with Yellow Tomatoes', ua: 'Рататуй з жовтими помідорами' },
+    seoTitle: { en: "Ratatouille with Yellow Tomatoes — GI 18, Low-Carb", ua: "Рататуй з жовтими помідорами — ГІ 18, низьковуглеводний" },
+    metaDesc: { en: "Slow-cooked summer vegetables in a herby tomato sauce. Non-starchy and high-fibre at GI 18 — a main that barely touches blood sugar.", ua: "Літні овочі, повільно тушковані в ароматному томатному соусі. Некрохмалисті, багаті клітковиною, ГІ 18 — страва, що майже не впливає на цукор." },
     why: { en: 'Slow-cooked seasonal vegetables in a herby tomato sauce — non-starchy, high-fibre and naturally low-GI, with just a whisper of stevia.', ua: 'Повільно тушковані сезонні овочі в ароматному томатному соусі — некрохмалисті, багаті на клітковину й від природи з низьким ГІ, лише з дрібкою стевії.' },
     nutrition: { en: 'Per serving (est.): ~75 kcal · Carbs 10 g · Fat 3 g · Protein 2 g', ua: 'На порцію (прибл.): ~75 ккал · Вуглеводи 10 г · Жири 3 г · Білки 2 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '1 h', ua: '1 год' }, serves: { en: 'Serves 8', ua: '8 порцій' } },
@@ -660,6 +674,8 @@ export const RECIPES = [
     slug: 'parsley-walnut-smoothie', img: '64-parsley-walnut-smoothie.jpg', cat: 'breakfast', gi: 37,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Parsley & Walnut Smoothie', ua: 'Смузі з петрушкою та горіхами' },
+    seoTitle: { en: "Parsley & Walnut Smoothie — Green Breakfast, GI 37", ua: "Смузі з петрушкою та волоськими горіхами на сніданок" },
+    metaDesc: { en: "A green breakfast smoothie that does not taste green: banana, parsley, yogurt and walnuts. Protein and fat balance the fruit, so GI stays at 37.", ua: "Зелений смузі, що не має смаку зелені: банан, петрушка, йогурт і горіхи. Білок і жири врівноважують фрукти — ГІ 37." },
     why: { en: 'Banana, parsley, yogurt and walnuts — a sneaky way to get greens in, with protein and healthy fats to balance the fruit.', ua: 'Банан, петрушка, йогурт і волоські горіхи — непомітний спосіб додати зелень, з білком і корисними жирами, що врівноважують фрукти.' },
     nutrition: { en: 'Per serving (est.): ~230 kcal · Carbs 20 g · Fat 14 g · Protein 8 g', ua: 'На порцію (прибл.): ~230 ккал · Вуглеводи 20 г · Жири 14 г · Білки 8 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No cook', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
@@ -932,6 +948,8 @@ export const RECIPES = [
     slug: 'blueberry-jam', img: '89-blueberry-jam.jpg', cat: 'sauce', gi: 53,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Sugar-free Blueberry Jam', ua: 'Чорничний джем: рецепт без цукру' },
+    seoTitle: { en: "Sugar-free Blueberry Jam — Set with Agar, No Pectin", ua: "Чорничний джем без цукру — на агарі та стевії, ГІ 53" },
+    metaDesc: { en: "Blueberry jam with no sugar at all — agar sets it, stevia sweetens it. Blueberries are among the lowest-GI fruits, so you keep the flavour.", ua: "Чорничний джем без цукру: загущений агаром, підсолоджений стевією. Чорниця — одна з найнижчих за ГІ ягід, тож смак повний, а цукор спокійний." },
     why: { en: 'Blueberries are one of the lowest-GI fruits and rich in antioxidants. Agar sets the jam without sugar and stevia sweetens it — so you get all the flavour with a fraction of the glycaemic load.', ua: 'Чорничний джем: рецепт без цукру, на агарі та стевії. Чорниця має один із найнижчих ГІ серед ягід, тож смак повний, а глікемічне навантаження мінімальне.' },
     nutrition: { en: 'Per serving (est.): ~60 kcal · Carbs 13 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~60 ккал · Вуглеводи 13 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '35 min', ua: '35 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
@@ -953,6 +971,8 @@ export const RECIPES = [
     slug: 'fruit-popsicles', img: '91-fruit-popsicles.jpg', cat: 'dessert', gi: 51,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Homemade Fruit Popsicles', ua: 'Домашнє фруктове ескімо' },
+    seoTitle: { en: "Homemade Fruit Popsicles — No Added Sugar, 3 Ingredients", ua: "Фруктове ескімо без цукру — 3 інгредієнти" },
+    metaDesc: { en: "Blended fruit, frozen — no added sugar, no cream, no ice-cream maker. Banana and blackcurrant with a little stevia, for a lighter frozen pudding.", ua: "Фрукти, збиті й заморожені — без цукру, вершків і морозивниці. Банан і чорна смородина зі стевією: легкий заморожений десерт." },
     why: { en: 'Just fruit blended and frozen — no added sugar, no cream. Banana gives natural sweetness and body while blackcurrants add vitamin C and a tart edge; stevia rounds it off without raising blood sugar.', ua: 'Лише фрукти, збиті та заморожені — без доданого цукру та вершків. Банан дає природну солодкість і структуру, а чорна смородина додає вітаміну С і приємну кислинку; стевія завершує смак без підвищення цукру.' },
     nutrition: { en: 'Per popsicle (est.): ~60 kcal · Carbs 14 g · Fat 0 g · Protein 1 g', ua: 'На 1 ескімо (прибл.): ~60 ккал · Вуглеводи 14 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Freeze 1–3 h', ua: 'Заморозка 1–3 год' }, serves: { en: 'Makes 2–3', ua: '2–3 штуки' } },
@@ -1401,6 +1421,8 @@ export const RECIPES = [
     slug: 'carob-chocolates', img: '135-carob-chocolates.jpg', cat: 'dessert', gi: 49,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Carob Chocolates (No Sugar, No Cocoa)', ua: 'Шоколадні цукерки без цукру та какао' },
+    seoTitle: { en: "Carob Chocolates — No Sugar, No Cocoa, No Dairy", ua: "Цукерки з ріжкового дерева — без цукру, какао й молока" },
+    metaDesc: { en: "Homemade chocolates from cocoa butter and carob. Carob is sweet on its own, so there is no sugar, no cocoa and no dairy in them at all.", ua: "Домашні цукерки з какао-масла та ріжкового борошна. Ріжкове солодке саме по собі — тож без цукру, какао й молочного." },
     why: { en: 'Homemade chocolates from cocoa butter and carob — naturally sweet carob means no sugar and no cocoa needed, and no dairy. A clean treat you can flavour with nuts, spice or raisins.', ua: 'Домашні цукерки з какао-масла та ріжкового борошна — від природи солодке ріжкове борошно означає без цукру, какао та молока. Чисте частування, яке можна доповнити горіхами, прянощами чи родзинками.' },
     nutrition: { en: 'Per serving (est.): ~200 kcal · Carbs 8 g · Fat 18 g · Protein 1 g', ua: 'На порцію (прибл.): ~200 ккал · Вуглеводи 8 г · Жири 18 г · Білки 1 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Chill to set', ua: 'Охолодження до застигання' }, serves: { en: 'Makes ~1 batch', ua: '~1 партія' } },
@@ -1558,6 +1580,8 @@ export const RECIPES = [
     stepImgs: { 1: '148-pear-courgette-salad-step1.jpg', 3: '148-pear-courgette-salad-step3.jpg', 5: '148-pear-courgette-salad-step5.jpg', 6: '148-pear-courgette-salad-step6.jpg', 7: '148-pear-courgette-salad-step7.jpg' },
     tags: ['low-carb', 'vegetarian', 'dairy-free'],
     title: { en: 'Pear & Courgette Salad with Sesame Dressing', ua: 'Салат з кабачком і грушею та кунжутною заправкою' },
+    seoTitle: { en: "Pear & Courgette Salad with Sesame Dressing (Low GI)", ua: "Салат з кабачком і грушею — низький ГІ, без готування" },
+    metaDesc: { en: "A crisp no-cook salad of raw courgette, cabbage and pear. High in fibre, low-carb and GI 19 — a side that will not move your blood sugar.", ua: "Хрумкий салат без готування: сирий кабачок, капуста і груша. Багато клітковини, ГІ 19 — гарнір, який не підніме цукор у крові." },
     why: { en: "Raw courgette, crunchy cabbage and pear are rich in fibre that slows digestion, while avocado and sesame oil add healthy fats that soften the glucose response. The pear's natural sweetness comes wrapped in fibre — the whole dish has a GI of only ~18–20.", ua: 'Сирий кабачок, хрумка капуста та груша багаті на клітковину, що уповільнює травлення, а авокадо й кунжутна олія додають корисні жири, які згладжують глікемічну відповідь. Природна солодкість груші йде разом із клітковиною — ГІ всієї страви лише ~18–20.' },
     nutrition: { en: 'Per 100 g (est.): ~69 kcal · Carbs 7.5 g · Fat 4.2 g · Protein 1.5 g', ua: 'На 100 г (прибл.): ~69 ккал · Вуглеводи 7,5 г · Жири 4,2 г · Білки 1,5 г' },
     meta: { prep: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 3–4', ua: '3–4 порції' } },
