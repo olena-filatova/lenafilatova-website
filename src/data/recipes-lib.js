@@ -47,6 +47,42 @@ export function seoTitle(R, lang = 'en') {
   return fitting ? name + fitting : name;
 }
 
+/* ---------- SEO <meta name="description"> for a recipe detail page ----------
+   The default is `why` clipped to 155 chars. `why` is written as on-page body
+   copy explaining the blood-sugar rationale, so clipping it mid-sentence gives
+   a snippet that trails off in an ellipsis — 7 of the 10 recipes ranking on
+   page 1 in the Jul 25–31 GSC data ended that way. A per-recipe `metaDesc:
+   { en, ua }` wins, same escape hatch as `seoTitle`, and lets the snippet be
+   written for the query the page actually ranks for. Kept under DESC_MAX so
+   Google shows the whole thing rather than truncating it again. */
+export const DESC_MAX = 155;
+
+/* Clip to the last complete sentence that fits, rather than mid-word. Falls
+   back to a whole-word cut with an ellipsis when the first sentence is itself
+   longer than `n` (or when there's no sentence break at all), and returns the
+   text untouched when it already fits. The lookbehind guards decimals — "1.5
+   g of protein" must not read as a sentence end — and the terminator has to be
+   followed by whitespace, so "GI 19." mid-sentence doesn't split either.
+   Sentence-ending punctuation is the same in EN and UA, so one rule covers
+   both. MIN_KEEP stops a stray early full stop leaving a two-word snippet. */
+const MIN_KEEP = 80;
+export function clipSentence(s, n) {
+  s = String(s).replace(/\s+/g, ' ').trim();
+  if (s.length <= n) return s;
+  const head = s.slice(0, n + 1);
+  let cut = -1;
+  for (const m of head.matchAll(/(?<!\d)[.!?](?=\s)/g)) cut = m.index + 1;
+  if (cut >= MIN_KEEP) return head.slice(0, cut).trim();
+  // No usable sentence break: cut at the last whole word instead of mid-word,
+  // leaving room for the ellipsis.
+  const word = s.slice(0, n - 1).lastIndexOf(' ');
+  return word >= MIN_KEEP ? s.slice(0, word).trimEnd() + '…' : clip(s, n);
+}
+
+export function metaDesc(R, lang = 'en') {
+  return R.metaDesc?.[lang] || clipSentence(R.why[lang], DESC_MAX);
+}
+
 // GI band → { label, color } for the meta row + card pill.
 export function giBand(gi, lang) {
   if (typeof gi !== 'number') return null;
@@ -73,9 +109,18 @@ const DIET_SCHEMA = { 'gluten-free': 'GlutenFreeDiet', vegetarian: 'VegetarianDi
 const parseDur = (t) => { if (!t) return null; const m = String(t).match(/(\d+)\s*(min|хв|hour|hours|hr|год)/i); if (!m) return null; const n = +m[1]; return /min|хв/i.test(m[2]) ? `PT${n}M` : `PT${n}H`; };
 const toMinutes = (t) => { if (!t) return 0; const s = String(t); const h = s.match(/(\d+)\s*(hour|hours|hr|год)/i); const m = s.match(/(\d+)\s*(min|хв)/i); return (h ? +h[1] * 60 : 0) + (m ? +m[1] : 0); };
 const isoDuration = (mins) => { if (!mins) return null; const h = Math.floor(mins / 60), m = mins % 60; return 'PT' + (h ? `${h}H` : '') + (m ? `${m}M` : ''); };
+// The nutrition line is free text and differs by language — "~270 kcal · Carbs
+// 18 g" in EN, "~270 ккал · Вуглеводи 18 г" in UA. Matching only the English
+// units silently dropped `nutrition` from the JSON-LD of all 86 UA recipe
+// pages, so they were the only ones shipping structured data without it.
 function parseNutrition(t) {
   const s = String(t || ''); const num = (re) => { const m = s.match(re); return m ? m[1] : null; };
-  const n = { calories: num(/([\d.]+)\s*kcal/i), carbs: num(/carbs?\s*([\d.]+)\s*g/i), fat: num(/fat\s*([\d.]+)\s*g/i), protein: num(/protein\s*([\d.]+)\s*g/i) };
+  const n = {
+    calories: num(/([\d.]+)\s*(?:kcal|ккал)/i),
+    carbs: num(/(?:carbs?|вуглеводи)\s*([\d.]+)\s*(?:g|г)/i),
+    fat: num(/(?:fat|жири)\s*([\d.]+)\s*(?:g|г)/i),
+    protein: num(/(?:protein|білки)\s*([\d.]+)\s*(?:g|г)/i),
+  };
   if (!n.calories && !n.carbs) return null;
   const out = { '@type': 'NutritionInformation' };
   if (n.calories) out.calories = `${n.calories} calories`;
