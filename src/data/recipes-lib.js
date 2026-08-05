@@ -56,8 +56,31 @@ export function seoTitle(R, lang = 'en') {
    written for the query the page actually ranks for. Kept under DESC_MAX so
    Google shows the whole thing rather than truncating it again. */
 export const DESC_MAX = 155;
+
+/* Clip to the last complete sentence that fits, rather than mid-word. Falls
+   back to a whole-word cut with an ellipsis when the first sentence is itself
+   longer than `n` (or when there's no sentence break at all), and returns the
+   text untouched when it already fits. The lookbehind guards decimals — "1.5
+   g of protein" must not read as a sentence end — and the terminator has to be
+   followed by whitespace, so "GI 19." mid-sentence doesn't split either.
+   Sentence-ending punctuation is the same in EN and UA, so one rule covers
+   both. MIN_KEEP stops a stray early full stop leaving a two-word snippet. */
+const MIN_KEEP = 80;
+export function clipSentence(s, n) {
+  s = String(s).replace(/\s+/g, ' ').trim();
+  if (s.length <= n) return s;
+  const head = s.slice(0, n + 1);
+  let cut = -1;
+  for (const m of head.matchAll(/(?<!\d)[.!?](?=\s)/g)) cut = m.index + 1;
+  if (cut >= MIN_KEEP) return head.slice(0, cut).trim();
+  // No usable sentence break: cut at the last whole word instead of mid-word,
+  // leaving room for the ellipsis.
+  const word = s.slice(0, n - 1).lastIndexOf(' ');
+  return word >= MIN_KEEP ? s.slice(0, word).trimEnd() + '…' : clip(s, n);
+}
+
 export function metaDesc(R, lang = 'en') {
-  return R.metaDesc?.[lang] || clip(R.why[lang], DESC_MAX);
+  return R.metaDesc?.[lang] || clipSentence(R.why[lang], DESC_MAX);
 }
 
 // GI band → { label, color } for the meta row + card pill.
