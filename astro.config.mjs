@@ -11,10 +11,13 @@ const withBase = (p) => (BASE === '/' ? p : BASE + p);
 
 // Legacy live-site URLs for the carried-over standalone tools, which live
 // here as flat .html files. Keeps old inbound links working after cutover.
+// Targets are extensionless — the spelling each tool page declares as its own
+// canonical — so a legacy link lands on the canonical URL directly instead of
+// redirecting into the .html duplicate and relying on the canonical tag there.
 const TOOL_REDIRECTS = Object.fromEntries(
   ['aid-comparison', 'cgm-comparison', 'blood-sugar-investigator', 'carb-gi-table'].flatMap((t) => [
-    [`/resources/${t}`, withBase(`/${t}.html`)],
-    [`/ua/resources/${t}`, withBase(`/${t}-ua.html`)],
+    [`/resources/${t}`, withBase(`/${t}`)],
+    [`/ua/resources/${t}`, withBase(`/${t}-ua`)],
   ])
 );
 
