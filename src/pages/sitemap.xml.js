@@ -32,15 +32,20 @@ PUBLISHED.forEach((r) => {
 });
 
 // Standalone tool pages carried over as flat .html files (EN/UA are separate
-// .html files, not /ua/ paths). Each [en, ua] pair is emitted with the same
+// files, not /ua/ paths). Each [en, ua] pair is emitted with the same
 // en / uk / x-default hreflang alternates as the Astro-managed pages, matching
 // the <link rel="alternate"> tags these pages already carry in their own <head>.
+//
+// Listed extensionless, which is the form each page's own <link rel="canonical">
+// declares. GitHub Pages serves /aid-comparison for aid-comparison.html, so both
+// spellings return 200 — submitting the .html one made Search Console report
+// "duplicate, submitted URL not selected as canonical" against every tool page.
 const FLAT = [
-  ['/aid-comparison.html', '/aid-comparison-ua.html'],
-  ['/cgm-comparison.html', '/cgm-comparison-ua.html'],
-  ['/blood-sugar-investigator.html', '/blood-sugar-investigator-ua.html'],
-  ['/carb-gi-table.html', '/carb-gi-table-ua.html'],
-  ['/t1d-cure-trials.html', '/t1d-cure-trials-ua.html'],
+  ['/aid-comparison', '/aid-comparison-ua'],
+  ['/cgm-comparison', '/cgm-comparison-ua'],
+  ['/blood-sugar-investigator', '/blood-sugar-investigator-ua'],
+  ['/carb-gi-table', '/carb-gi-table-ua'],
+  ['/t1d-cure-trials', '/t1d-cure-trials-ua'],
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;');
