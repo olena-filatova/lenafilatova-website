@@ -7,9 +7,15 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# cancel-in-progress would abort a Pages deployment that is already running.
+# GitHub keeps that half-finished deployment registered against the environment,
+# and the next run then queues behind it and times out. Two merges landing a few
+# minutes apart is enough to trigger it — which is exactly what took the site
+# down on 6 Aug. Queue instead of cancelling: a deploy here takes ~9 minutes, so
+# waiting one out is cheap next to a failed deploy.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,3 +31,10 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The action defaults to a 10 minute timeout. Deploys of this site
+          # have been running at 8-9 minutes for a while (the successful one
+          # before this change took 8m47s), so it was sitting one slow run away
+          # from failing — and did fail at 10m06s. The site is image-heavy, so
+          # give it real headroom rather than shaving the artifact.
+          timeout: 1800000
