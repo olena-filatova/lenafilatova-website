@@ -5,6 +5,7 @@
 // The coming-soon post has no blocks: it shows the note + its short legacy body.
 import { UI, renderInline, relatedPosts } from '../data/blog-lib.js';
 import { POSTS } from '../data/blog.js';
+import DIMS from '../data/image-dims.json';
 import '../styles/blog.css';
 
 const { post, lang = 'en' } = Astro.props;
@@ -15,6 +16,11 @@ const L = lang === 'ua' ? `${B}ua/` : B;
 const altHref = `${lang === 'ua' ? B : `${B}ua/`}blog/${post.slug}/`;
 // Images still ship at site-absolute /images/… paths in the data.
 const img = (src) => B.replace(/\/$/, '') + src;
+// Intrinsic dimensions (src/data/image-dims.json) let the browser reserve the
+// box before the image loads, so the hero doesn't shift the text (CLS). A
+// missing entry just omits the attributes, so new posts render fine before the
+// manifest is regenerated (see scripts/generate-image-dims.sh).
+const dim = (src) => DIMS[src] || {};
 const related = relatedPosts(post, POSTS);
 ---
 <article class="post">
@@ -28,7 +34,7 @@ const related = relatedPosts(post, POSTS);
       <span>{t.comingSoonNote}</span>
     </div>
   )}
-  <figure><img src={img(post.image)} alt={a.title} fetchpriority="high" /></figure>
+  <figure><img src={img(post.image)} alt={a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>
   <p class="lead">{a.lead}</p>
   <div class="prose">
     {(a.blocks || []).map((b) => {
@@ -36,7 +42,7 @@ const related = relatedPosts(post, POSTS);
       if (b.t === 'h') return <h2>{b.text}</h2>;
       if (b.t === 'quote') return <blockquote>{b.text}</blockquote>;
       if (b.t === 'img' || b.t === 'graph')
-        return <figure><img src={img(b.src)} alt={b.alt} loading="lazy" />{b.cap && <figcaption>{b.cap}</figcaption>}</figure>;
+        return <figure><img src={img(b.src)} alt={b.alt} loading="lazy" width={dim(b.src).w} height={dim(b.src).h} />{b.cap && <figcaption>{b.cap}</figcaption>}</figure>;
       if (b.t === 'table')
         return <div class="tbl"><table>
           <thead><tr>{b.head.map((h) => <th>{h}</th>)}</tr></thead>

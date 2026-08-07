@@ -753,7 +753,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 110°C and line trays with parchment. Slice the bananas thinly (about 3 mm), spread out and sprinkle with lemon juice.','Bake 2–3 hours until fully dried; after 90 minutes peel them off the parchment for better airflow.','Cool 30–60 minutes — they crisp up as they cool (return for 15–20 minutes if needed).'], ua: ['Розігрійте духовку до 110°C і застеліть деки пергаментом. Наріжте банани тонко (близько 3 мм), розкладіть і збризніть лимонним соком.','Сушіть 2–3 години до повного висихання; через 90 хвилин відділіть від пергаменту для кращої циркуляції повітря.','Охолодіть 30–60 хвилин — хрусткими стануть після охолодження (за потреби поверніть на 15–20 хвилин).'] }
   },
   {
-    slug: 'orange-chocolate-truffles', img: '72-orange-chocolate-truffles.png', cat: 'dessert', gi: 44,
+    slug: 'orange-chocolate-truffles', img: '72-orange-chocolate-truffles.jpg', cat: 'dessert', gi: 44,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Orange-Chocolate Truffles', ua: 'Апельсиново-шоколадні трюфелі' },
     why: { en: 'Cocoa-butter and cacao truffles with orange, set firm in the fridge — sweetened with a little honey, no refined sugar and dairy-free.', ua: 'Трюфелі з какао-масла й какао з апельсином, що застигають у холодильнику — підсолоджені трохи медом, без рафінованого цукру й без молочного.' },
@@ -1128,7 +1128,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 175°C and line a tray with parchment.','Mix the almond flour, flax flour, stevia, spices, baking powder and salt.','Add the egg, melted butter, maple syrup and vanilla and work into a dough.','Roll into balls and flatten slightly on the tray.','Bake for 8–10 minutes until the edges are set.','Cool on the tray — they firm up as they cool.'], ua: ['Розігрійте духовку до 175°C та застеліть деко пергаментом.','Змішайте мигдалеве та лляне борошно, стевію, прянощі, розпушувач і сіль.','Додайте яйце, розтоплене масло, кленовий сироп і ваніль та замісіть тісто.','Сформуйте кульки та злегка приплюсніть на деку.','Випікайте 8–10 хвилин, доки краї не схопляться.','Охолоджуйте на деку — печиво твердне, охолоджуючись.'] }
   },
   {
-    slug: 'coconut-balls', img: '106-coconut-balls.png', cat: 'snack', gi: 34,
+    slug: 'coconut-balls', img: '106-coconut-balls.jpg', cat: 'snack', gi: 34,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Coconut Balls (No-Bake, Sugar-free)', ua: 'Кокосові кульки (без випікання, без цукру)' },
     why: { en: 'Four-ingredient coconut truffles sweetened only with stevia — no sugar, no flour, no baking. Coconut is high in fibre and healthy fat, so they satisfy a sweet craving with almost no effect on blood sugar.', ua: 'Кокосові трюфелі з чотирьох інгредієнтів, підсолоджені лише стевією — без цукру, борошна й випікання. Кокос багатий на клітковину та корисні жири, тож вони вгамовують тягу до солодкого майже без впливу на цукор.' },
