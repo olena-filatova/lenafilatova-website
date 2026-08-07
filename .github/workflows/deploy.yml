@@ -30,11 +30,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
+        # The 10-minute timeout is a hard cap in deploy-pages — values above
+        # 600000 ms are silently clamped, so raising it is not an option. The
+        # deploy has to fit inside the window: keep the built artifact small
+        # (images are the bulk of it — see OPS-205).
         uses: actions/deploy-pages@v4
-        with:
-          # The action defaults to a 10 minute timeout. Deploys of this site
-          # have been running at 8-9 minutes for a while (the successful one
-          # before this change took 8m47s), so it was sitting one slow run away
-          # from failing — and did fail at 10m06s. The site is image-heavy, so
-          # give it real headroom rather than shaving the artifact.
-          timeout: 1800000
