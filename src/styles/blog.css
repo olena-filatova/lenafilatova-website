@@ -132,7 +132,7 @@
 .post .alt { font-size: 13.5px; margin: 0; }
 .post .alt a, .post .prose a { color: var(--accent); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 .post figure { margin: 28px 0; }
-.post figure img { border-radius: 12px; width: 100%; }
+.post figure img { border-radius: 12px; width: 100%; height: auto; }
 .post figcaption { font-size: 13.5px; color: #7A6675; margin-top: 10px; line-height: 1.5; }
 .post figure.embed { margin: 30px 0; }
 .post figure.embed iframe { border-radius: 14px; background: var(--card); }
