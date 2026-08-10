@@ -10,10 +10,13 @@
                Without it, metaDesc() clips `why` to 155 chars, which reads as
                a sentence trailing off mid-word in the SERP. Set it on any page
                that earns real impressions; leave it off for the long tail.
+   dateAdded:  YYYY-MM-DD the recipe first landed in this file (from git
+               history, OPS-208). Used as the sitemap <lastmod>; bump it if a
+               recipe is meaningfully revised. Required on every recipe.
    ============================================================ */
 export const RECIPES = [
   {
-    slug: 'beef-skewers-wine-sauce', img: '01-beef-skewers-wine-sauce.jpeg', cat: 'main', gi: 12,
+    slug: 'beef-skewers-wine-sauce', dateAdded: '2026-07-10', img: '01-beef-skewers-wine-sauce.jpeg', cat: 'main', gi: 12,
     tags: ['gluten-free', 'low-carb'],
     title: { en: 'Beef Skewers with Red Wine Sauce', ua: 'Шашлики з яловичини з соусом з червоного вина' },
     meta: { prep: { en: '2 hours (incl. marinating)', ua: '2 год (з маринуванням)' }, cook: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
@@ -24,7 +27,7 @@ export const RECIPES = [
     note: { en: 'Replace honey with erythritol and wheat flour with almond flour to reduce the glycaemic impact of the sauce without changing the flavour.', ua: 'Замініть мед еритритолом, а пшеничне борошно — мигдалевим, щоб знизити глікемічний вплив соусу без зміни смаку.' }
   },
   {
-    slug: 'lemon-thyme-cookies', img: '02-lemon-thyme-cookies.jpeg', cat: 'snack', gi: 15,
+    slug: 'lemon-thyme-cookies', dateAdded: '2026-07-10', img: '02-lemon-thyme-cookies.jpeg', cat: 'snack', gi: 15,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Flour-free Lemon & Thyme Cookies', ua: 'Безборошняне печиво з лимоном та чебрецем' },
     meta: { prep: { en: '5 min + 30 min chilling', ua: '5 хв + 30 хв у холодильнику' }, cook: { en: '7 min', ua: '7 хв' }, serves: { en: 'Makes ~20', ua: '~20 штук' } },
@@ -35,7 +38,7 @@ export const RECIPES = [
     note: { en: 'These are low in carbs but high in fat and calories — keep portions to 2–3 cookies at a time.', ua: 'Печиво містить мало вуглеводів, але багато жирів і калорій — оптимальна порція 2–3 штуки.' }
   },
   {
-    slug: 'cottage-cheese-poppy-bake', img: '03-cottage-cheese-poppy-bake.jpeg', cat: 'dessert', gi: 22,
+    slug: 'cottage-cheese-poppy-bake', dateAdded: '2026-07-10', img: '03-cottage-cheese-poppy-bake.jpeg', cat: 'dessert', gi: 22,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Sugar-free Cottage Cheese & Poppy Seed Bake', ua: 'Сирний десерт без цукру з маком' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Serves 2–3', ua: '2–3 порції' } },
@@ -46,7 +49,7 @@ export const RECIPES = [
     note: { en: 'Use the driest cottage cheese or quark you can find — wetter varieties need a longer bake time.', ua: 'Використовуйте якомога сухіший сир — з вологішим десерт потребуватиме довшого запікання.' }
   },
   {
-    slug: 'avocado-ice-cream', img: '04-avocado-ice-cream.jpg', cat: 'dessert', gi: 25,
+    slug: 'avocado-ice-cream', dateAdded: '2026-07-10', img: '04-avocado-ice-cream.jpg', cat: 'dessert', gi: 25,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian', 'dairy-free'],
     title: { en: 'Avocado Ice Cream (No Sugar, 5 Ingredients)', ua: 'Морозиво з авокадо (без цукру, 5 інгредієнтів)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: 'Freeze 30 min', ua: 'Заморозка 30 хв' }, serves: { en: 'Serves 1–2', ua: '1–2 порції' } },
@@ -57,7 +60,7 @@ export const RECIPES = [
     note: { en: "The avocado disappears completely into the texture — only the pale green colour remains. If you don't like avocado, you won't taste it at all.", ua: 'Смак авокадо у готовому морозиві не відчувається — залишається лише ніжна кремова текстура та блідо-зелений колір.' }
   },
   {
-    slug: 'almond-pecan-cookies', img: '05-almond-pecan-cookies.jpeg', cat: 'snack', gi: 10,
+    slug: 'almond-pecan-cookies', dateAdded: '2026-07-10', img: '05-almond-pecan-cookies.jpeg', cat: 'snack', gi: 10,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Almond & Pecan Cookies (No Flour, No Sugar)', ua: 'Мигдалево-пеканове печиво (без борошна, без цукру)' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '12 min', ua: '12 хв' }, serves: { en: 'Makes ~15', ua: '~15 штук' } },
@@ -68,7 +71,7 @@ export const RECIPES = [
     note: { en: 'You can use walnut or hazelnut flour instead of almond flour — the result is just as good.', ua: 'Замість мигдалевого борошна можна взяти лісовий або волоський горіх — результат буде таким само вдалим.' }
   },
   {
-    slug: 'carrot-cake-philadelphia', img: '06-carrot-cake-philadelphia.jpg', cat: 'dessert', gi: 43,
+    slug: 'carrot-cake-philadelphia', dateAdded: '2026-07-10', img: '06-carrot-cake-philadelphia.jpg', cat: 'dessert', gi: 43,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Carrot Cake with Philadelphia Cream (Sugar-free)', ua: 'Морквяний кекс без цукру з кремом Філадельфія' },
     seoTitle: { en: "Sugar-free Carrot Cake with Philadelphia Frosting", ua: "Морквяний кекс без цукру з кремом Філадельфія" },
@@ -80,7 +83,7 @@ export const RECIPES = [
     method: { en: ['Preheat oven to 180°C. Line a cake tin with parchment.','Beat softened butter with 65 g sweetener and vanilla until light and fluffy.','Add eggs one at a time, mixing well after each.','Sift together flour, cinnamon, nutmeg, baking powder, baking soda and salt. Fold into the wet mixture.','Stir in the grated carrot.','Pour into the tin and bake 40–50 minutes, until a skewer comes out clean. Cool completely before frosting.','For the frosting: beat Philadelphia with lemon juice, 15 g sweetener and vanilla until smooth.','Spread frosting over the cooled cake.'], ua: ['Розігрійте духовку до 180°C. Застеліть форму пергаментом.','Збийте розм’якшене масло з 65 г підсолоджувача та ваніллю до пишності.','Додавайте яйця по одному, добре перемішуючи.','Просійте борошно, корицю, мускатний горіх, розпушувач, соду та сіль. Вмішайте в основну суміш.','Додайте терту моркву та перемішайте.','Вилийте у форму та випікайте 40–50 хвилин (перевірте зубочисткою). Повністю охолодіть.','Для крему: збийте Філадельфію з лимонним соком, 15 г підсолоджувача та ваніллю до гладкості.','Намажте крем на охолоджений кекс.'] }
   },
   {
-    slug: 'wholegrain-bread', img: '07-wholegrain-bread.jpeg', cat: 'bread', gi: 45,
+    slug: 'wholegrain-bread', dateAdded: '2026-07-10', img: '07-wholegrain-bread.jpeg', cat: 'bread', gi: 45,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Wholegrain Sourdough Bread', ua: 'Цільнозерновий хліб на заквасці' },
     seoTitle: { en: "Wholegrain Sourdough Bread — Lower GI, No Sugar", ua: "Цільнозерновий хліб на заквасці без цукру — ГІ 45" },
@@ -92,7 +95,7 @@ export const RECIPES = [
     method: { en: ['Combine wholegrain wheat flour and flaxseed flour in a large bowl.','Add the starter and mix, adding a little water gradually until a rough dough forms.','Cover and rest at room temperature for 8–12 hours (overnight is ideal).','Add salt and fold the dough several times. Shape into a loaf.','Prove a further 2–4 hours until noticeably risen.','Preheat oven to 230°C. Bake covered (Dutch oven) for 20 minutes, then uncover and bake 20 minutes more until golden and hollow-sounding.','Cool on a wire rack before slicing — important for texture.'], ua: ['Змішайте цільнозернове та лляне борошно у великій мисці.','Додайте закваску та перемішайте, поступово вливаючи трохи води до утворення тіста.','Накрийте та залиште при кімнатній температурі на 8–12 годин (ідеально на ніч).','Додайте сіль та кілька разів складіть тісто. Сформуйте хлібину.','Залиште підходити ще 2–4 години до помітного збільшення.','Розігрійте духовку до 230°C. Перші 20 хвилин випікайте накритим (чавунець), потім відкрийте ще на 20 хвилин до золотистої скоринки.','Охолодіть на решітці перед нарізанням.'] }
   },
   {
-    slug: 'pearl-barley-kutia', img: '08-pearl-barley-kutia.jpeg', cat: 'dessert', gi: 33,
+    slug: 'pearl-barley-kutia', dateAdded: '2026-07-10', img: '08-pearl-barley-kutia.jpeg', cat: 'dessert', gi: 33,
     tags: ['dairy-free', 'vegetarian'],
     title: { en: 'Pearl Barley Kutia (Traditional Ukrainian Dish)', ua: 'Кутя з перлової крупи (традиційна різдвяна)' },
     meta: { prep: { en: '20 min + soaking', ua: '20 хв + замочування' }, cook: { en: '80 min', ua: '80 хв' }, serves: { en: 'Serves 8–10', ua: '8–10 порцій' } },
@@ -102,7 +105,7 @@ export const RECIPES = [
     method: { en: ['Rinse the barley thoroughly and soak in cold water for at least 1 hour (or overnight).','Cook in plenty of salted water for 60–80 minutes until tender. Drain and cool slightly.','Soak raisins in warm water for 10 minutes, then drain.','Pour boiling water over the poppy seeds, drain after 5 minutes, then grind or blend lightly.','Combine the barley with raisins, walnuts, poppy seeds and honey. Mix well.','Taste and adjust sweetness. Serve warm or at room temperature.'], ua: ['Добре промийте крупу та замочіть у холодній воді мінімум на 1 годину (або на ніч).','Варіть у підсоленій воді 60–80 хвилин до м’якості. Злийте воду, злегка охолодіть.','Замочіть родзинки у теплій воді на 10 хвилин, потім злийте.','Залийте мак окропом, через 5 хвилин злийте, злегка перетріть.','З’єднайте кашу з родзинками, горіхами, маком та медом. Добре перемішайте.','Скуштуйте та відрегулюйте солодкість. Подавайте теплою або кімнатної температури.'] }
   },
   {
-    slug: 'pumpkin-muffins-halloween', img: '09-pumpkin-muffins-halloween.jpg', cat: 'baking', gi: 51,
+    slug: 'pumpkin-muffins-halloween', dateAdded: '2026-07-10', img: '09-pumpkin-muffins-halloween.jpg', cat: 'baking', gi: 51,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Halloween Pumpkin Muffins (Sugar-free)', ua: 'Гарбузові маффіни до Хелловіну (без цукру)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '25 min', ua: '25 хв' }, serves: { en: '12 muffins', ua: '12 маффінів' } },
@@ -112,7 +115,7 @@ export const RECIPES = [
     method: { en: ['Preheat oven to 180°C. Line a muffin tray with paper cases.','Whisk together flour, spice mix and baking powder.','Separately beat eggs, then add milk, pumpkin purée, sweetener, coconut oil and vanilla. Mix well.','Pour wet into dry and stir until just combined — do not over-mix.','Spoon into the cases, filling each about ¾ full.','Bake 20–25 minutes until a skewer comes out clean.','Cool in the tray for 5 minutes, then transfer to a wire rack.'], ua: ['Розігрійте духовку до 180°C. Застеліть форму паперовими вкладишами.','Збийте разом борошно, суміш прянощів та розпушувач.','Окремо збийте яйця, потім додайте молоко, гарбузове пюре, підсолоджувач, кокосову олію та ваніль.','Влийте рідке до сухого та перемішайте до рівномірності — не перемішуйте зайво.','Розкладіть по формах, заповнюючи на ¾.','Випікайте 20–25 хвилин (перевірте зубочисткою).','Охолодіть у формі 5 хвилин, потім перенесіть на решітку.'] }
   },
   {
-    slug: 'lime-almond-dessert', img: '10-lime-almond-dessert.jpeg', cat: 'dessert', gi: 31,
+    slug: 'lime-almond-dessert', dateAdded: '2026-07-10', img: '10-lime-almond-dessert.jpeg', cat: 'dessert', gi: 31,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Lime & Almond Dessert (Sugar-free)', ua: 'Лаймово-мигдалевий десерт (без цукру)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '~30 min + chilling', ua: '~30 хв + охолодження' }, serves: { en: 'Serves 8', ua: '8 порцій' } },
@@ -122,7 +125,7 @@ export const RECIPES = [
     method: { en: ['Preheat oven to 180°C. Line a tin with parchment, lightly greased.','Mix dry ingredients: coconut flour, cinnamon, baking soda, sea salt.','Blend eggs, mashed bananas, coconut oil, vanilla and juice of 1 lime until smooth.','Combine wet and dry. Pour into the tin and bake about 30 minutes.','Topping: mix almond flour, sweetener, remaining lime juice and peanut butter. Gradually add Greek yogurt to a spreadable consistency.','Trim the baked base if you like; crumble trimmings into the topping.','Spread the yogurt-almond layer over the base.','Scatter almond-peanut crumble on top. Cover and refrigerate — best served the next day.'], ua: ['Розігрійте духовку до 180°C. Застеліть форму пергаментом, злегка змастіть.','Змішайте сухі: кокосове борошно, корицю, соду, сіль.','Збийте яйця, розім’яті банани, кокосову олію, ваніль та сік 1 лайма до однорідності.','З’єднайте суміші. Вилийте у форму та випікайте близько 30 хвилин.','Топінг: змішайте мигдалеве борошно, підсолоджувач, сік решти лаймів та арахісове масло. Поступово додавайте йогурт до пластичності.','За бажання зріжте краї коржа; крихти додайте до топінгу.','Нанесіть йогуртово-мигдалевий шар на корж.','Посипте мигдально-арахісовою крихтою. Накрийте та поставте в холодильник — найсмачніший наступного дня.'] }
   },
   {
-    slug: 'avocado-mayonnaise', img: '11-avocado-mayonnaise.jpg', cat: 'sauce', gi: 20,
+    slug: 'avocado-mayonnaise', dateAdded: '2026-07-10', img: '11-avocado-mayonnaise.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Avocado Mayonnaise (Sugar-free)', ua: 'Майонез з авокадо (без цукру)' },
     meta: { prep: { en: '1 min', ua: '1 хв' }, cook: { en: '4 min', ua: '4 хв' }, serves: { en: 'Serves 4–6', ua: '4–6 порцій' } },
@@ -133,7 +136,7 @@ export const RECIPES = [
     note: { en: 'Store in a sealed glass jar in the fridge for 2–3 days. It darkens slightly — refresh with a splash of lemon juice before serving.', ua: 'Зберігайте в закритій скляній банці в холодильнику 2–3 дні. Соус трохи темніє — перед подачею освіжте лимонним соком.' }
   },
   {
-    slug: 'oat-cookies-coconut-sugar', img: '12-oat-cookies-coconut-sugar.jpg', cat: 'baking', gi: 51,
+    slug: 'oat-cookies-coconut-sugar', dateAdded: '2026-07-10', img: '12-oat-cookies-coconut-sugar.jpg', cat: 'baking', gi: 51,
     tags: ['vegetarian'],
     title: { en: 'Oat Cookies with Coconut Sugar', ua: 'Вівсяне печиво на кокосовому цукрі' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Makes ~18', ua: '~18 штук' } },
@@ -143,7 +146,7 @@ export const RECIPES = [
     method: { en: ['In a mixer, combine softened butter, egg and coconut sugar on low speed.','Add all remaining ingredients. Use the paddle (not the blade) so the oats stay whole.','Line a baking sheet with parchment. Preheat oven to 190°C.','Refrigerate the dough 10 minutes. Roll into balls and flatten gently with the base of a glass.','Bake 20 minutes until golden. Cool on the tray — cookies firm up as they cool.'], ua: ['У міксері змішайте розм’якшене масло, яйце та кокосовий цукор на малих обертах.','Додайте решту інгредієнтів. Використовуйте лопатку (не ніж), щоб пластівці лишились цілими.','Застеліть деко пергаментом. Розігрійте духовку до 190°C.','Охолодіть тісто 10 хвилин. Скочуйте кульки та приплющуйте дном склянки.','Випікайте 20 хвилин до золотистого кольору. Остигаючи, печиво твердіє.'] }
   },
   {
-    slug: 'lemon-cookies-coconut-sugar', img: '13-lemon-cookies-coconut-sugar.jpg', cat: 'baking', gi: 43,
+    slug: 'lemon-cookies-coconut-sugar', dateAdded: '2026-07-10', img: '13-lemon-cookies-coconut-sugar.jpg', cat: 'baking', gi: 43,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Lemon Cookies with Coconut Sugar', ua: 'Лимонне печиво на кокосовому цукрі' },
     meta: { prep: { en: '10 min + 30 min chilling', ua: '10 хв + 30 хв у холодильнику' }, cook: { en: '15 min', ua: '15 хв' }, serves: { en: 'Makes ~16', ua: '~16 штук' } },
@@ -153,7 +156,7 @@ export const RECIPES = [
     method: { en: ['Combine all ingredients in a processor using the paddle (not the blade). The dough will be crumbly and slightly loose.','Refrigerate for 30 minutes. Preheat oven to 180°C towards the end.','Line a baking sheet with parchment.','If still too soft, mix in 1–2 tsp extra flaxseed flour. Roll into balls and flatten with a glass.','Bake for 15 minutes — golden but not burnt.','Cool fully. Cookies firm up significantly as they cool.'], ua: ['Змішайте всі інгредієнти в комбайні лопаткою (не ножем). Тісто буде розсипчастим.','Поставте в холодильник на 30 хвилин. Ближче до кінця розігрійте духовку до 180°C.','Застеліть деко пергаментом.','Якщо тісто м’яке — додайте 1–2 ч. л. лляного борошна. Скочуйте кульки та приплющуйте склянкою.','Випікайте 15 хвилин — золотисті, але не підгорілі.','Повністю охолодіть. Остигаючи, печиво сильно твердіє.'] }
   },
   {
-    slug: 'lviv-cheesecake', img: '14-lviv-cheesecake.jpg', cat: 'dessert', gi: 47,
+    slug: 'lviv-cheesecake', dateAdded: '2026-07-10', img: '14-lviv-cheesecake.jpg', cat: 'dessert', gi: 47,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Lviv Cheesecake (Lvivsky Syrnyk)', ua: 'Львівський сирник' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '20 min + overnight', ua: '20 хв + ніч у холодильнику' }, serves: { en: 'Serves 10–12', ua: '10–12 порцій' } },
@@ -163,7 +166,7 @@ export const RECIPES = [
     method: { en: ['Preheat oven to 190°C.','In a mixer with the paddle, combine cottage cheese, eggs, 80 g sugar, vanilla and raisins. Don’t use the blade — you want texture, not a smooth cream.','While mixing, gradually add coconut flour until you get a thick, sticky mass that holds its shape.','Grease a tin and line with parchment.','Transfer to the tin, smooth the top with a fork and bake for 20 minutes.','Cool completely before glazing.','Glaze: melt cocoa butter, then stir in sour cream, sugar and cocoa powder. Pour over immediately — it sets quickly.','Refrigerate overnight. Slice in the morning.'], ua: ['Розігрійте духовку до 190°C.','У міксері з лопаткою змішайте сир, яйця, 80 г цукру, ванілін та родзинки. Ніж не використовуйте — потрібна текстура, а не крем.','Продовжуючи заважати, поступово всипайте кокосове борошно до густої липкої маси.','Змастіть форму та застеліть пергаментом.','Викладіть масу, розрівняйте виделкою та випікайте 20 хвилин.','Повністю охолодіть перед глазур’ю.','Глазур: розтопіть какао-масло, додайте сметану, цукор та какао. Відразу полийте — глазур швидко застигає.','Поставте в холодильник на ніч. Зранку можна їсти.'] }
   },
   {
-    slug: 'chocolate-ice-cream', img: '15-chocolate-ice-cream.jpg', cat: 'dessert', gi: 29,
+    slug: 'chocolate-ice-cream', dateAdded: '2026-07-10', img: '15-chocolate-ice-cream.jpg', cat: 'dessert', gi: 29,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Low-Sugar Chocolate Ice Cream', ua: 'Шоколадне морозиво без цукру' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: '8 min + 3 h freezing', ua: '8 хв + 3 год заморозки' }, serves: { en: 'Serves 4', ua: '4 порції' } },
@@ -173,7 +176,7 @@ export const RECIPES = [
     method: { en: ['Melt cocoa butter in a microwave on full power for 30–40 seconds. If pieces remain, leave 5 minutes to finish melting.','Stir cocoa powder into the melted cocoa butter until completely smooth.','Combine milk, butter, stevia and vanilla, then stir in the cocoa-butter mixture. Mix thoroughly.','Pour into lolly moulds or small containers and freeze for at least 3 hours.'], ua: ['Розтопіть какао-масло в мікрохвильовій печі 30–40 секунд. Якщо лишились шматочки — дайте постояти 5 хвилин.','Додайте какао-порошок та ретельно розмішайте до однорідності.','З’єднайте молоко, масло, стевію та ванілін, потім вмішайте какао-масляну суміш.','Розлийте по формочках і поставте в морозильник мінімум на 3 години.'] }
   },
   {
-    slug: 'vegetable-quiche-no-flour', img: '16-vegetable-quiche-no-flour.jpg', cat: 'main', gi: 17,
+    slug: 'vegetable-quiche-no-flour', dateAdded: '2026-07-10', img: '16-vegetable-quiche-no-flour.jpg', cat: 'main', gi: 17,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Vegetable Quiche without Flour', ua: 'Кіш з овочами без борошна' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: '15–23 min', ua: '15–23 хв' }, serves: { en: 'Serves 3', ua: '3 порції' } },
@@ -183,7 +186,7 @@ export const RECIPES = [
     method: { en: ['Whisk eggs together with flaxseed flour in a large bowl.','Slice onions into rings or half-rings. Crush the garlic.','Add bell pepper, feta and spinach and mix by hand. Crumble the feta or cut into cubes.','Pour into a prepared tin and bake at 180°C for 15 minutes until set and golden on top.'], ua: ['Збийте яйця з лляним борошном виделкою у великій мисці.','Наріжте цибулю кільцями або напівкільцями. Часник пропустіть через давилку.','Додайте перець, фету та шпинат і перемішайте руками. Фету розкришіть або наріжте кубиками.','Вилийте у форму та запікайте при 180°C 15 хвилин до золотистої скоринки.'] }
   },
   {
-    slug: 'baked-fish-veg-herbs', img: '17-baked-fish-veg-herbs.jpg', cat: 'main', gi: 26,
+    slug: 'baked-fish-veg-herbs', dateAdded: '2026-07-10', img: '17-baked-fish-veg-herbs.jpg', cat: 'main', gi: 26,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
     title: { en: 'Baked Fish with Vegetables & Herbs', ua: 'Запечена риба з овочами та травами' },
     why: { en: 'Salmon with mushrooms and non-starchy vegetables is a light, protein-rich meal that barely moves blood sugar — a gentle low-GI dinner.', ua: 'Лосось з печерицями та некрохмалистими овочами — легка, багата на білок страва, що майже не впливає на рівень цукру в крові.' },
@@ -194,7 +197,7 @@ export const RECIPES = [
     note: { en: 'Works with any fish and vegetables you have — a simple, forgiving country-style bake.', ua: 'Підходить будь-яка риба та овочі, які є під рукою — проста сільська страва, яку важко зіпсувати.' }
   },
   {
-    slug: 'carrot-coriander-soup', img: '18-carrot-coriander-soup.jpg', cat: 'main', gi: 42,
+    slug: 'carrot-coriander-soup', dateAdded: '2026-07-10', img: '18-carrot-coriander-soup.jpg', cat: 'main', gi: 42,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Carrot & Coriander Soup', ua: 'Морквяний суп з коріандром' },
     why: { en: 'Carrots and a little sweet potato blended with fresh coriander make a naturally sweet, warming soup — plenty of fibre keeps the rise in blood sugar gentle.', ua: 'Морква з невеликою кількістю батату, збита зі свіжим коріандром, дає природно солодкий, зігрівальний суп — багато клітковини робить підйом цукру м’яким.' },
@@ -205,7 +208,7 @@ export const RECIPES = [
     note: { en: 'You can use ordinary potato instead of sweet potato — add a little tomato paste for a touch of sweetness.', ua: 'Замість батату можна взяти звичайну картоплю — додайте трохи томатної пасти для солодкуватого присмаку.' }
   },
   {
-    slug: 'birthday-cake-sugar-free', img: '19-birthday-cake-sugar-free.jpg', cat: 'dessert', gi: 38,
+    slug: 'birthday-cake-sugar-free', dateAdded: '2026-07-10', img: '19-birthday-cake-sugar-free.jpg', cat: 'dessert', gi: 38,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Sugar-free Birthday Cake (Blueberry & Lime)', ua: 'Святковий торт без цукру (чорниця й лайм)' },
     why: { en: 'A celebration cake with no refined sugar — wholegrain and almond flour sweetened with erythritol, and coloured naturally with blueberry powder instead of dyes.', ua: 'Святковий торт без рафінованого цукру — цільнозернове й мигдалеве борошно, підсолоджене еритритолом, і природний колір із порошку чорниці замість барвників.' },
@@ -216,7 +219,7 @@ export const RECIPES = [
     note: { en: 'Add blueberry powder to part of the cream for natural colour, and finish with flaked almonds — a good first-birthday cake.', ua: 'Додайте порошок чорниці в частину крему для природного кольору та прикрасьте мигдальними пелюстками — гарний торт на перший день народження.' }
   },
   {
-    slug: 'meat-potato-pie-no-flour', img: '20-meat-potato-pie-no-flour.jpg', cat: 'main', gi: 55,
+    slug: 'meat-potato-pie-no-flour', dateAdded: '2026-07-10', img: '20-meat-potato-pie-no-flour.jpg', cat: 'main', gi: 55,
     tags: ['gluten-free'],
     title: { en: 'Flourless Meat & Potato Pie', ua: 'М’ясний пиріг з картоплею без борошна' },
     why: { en: 'A flax-and-coconut-flour base instead of wheat means far fewer carbs, and the fibre-rich flax with a protein filling keeps blood sugar steadier than a pastry pie.', ua: 'Основа з лляного й кокосового борошна замість пшеничного — значно менше вуглеводів, а багатий на клітковину льон із білковою начинкою тримає цукор стабільнішим, ніж звичайне тісто.' },
@@ -227,7 +230,7 @@ export const RECIPES = [
     note: { en: 'Flax pies are ideal if you want to keep carbs down — vary the filling however you like. Flaxseed flour is high in fibre.', ua: 'Лляні пироги ідеальні, якщо хочете менше вуглеводів — начинку можна змінювати. Лляне борошно багате на клітковину.' }
   },
   {
-    slug: 'almond-beetroot-cookies', img: '21-almond-beetroot-cookies.jpg', cat: 'snack', gi: 41,
+    slug: 'almond-beetroot-cookies', dateAdded: '2026-07-10', img: '21-almond-beetroot-cookies.jpg', cat: 'snack', gi: 41,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Sugar-free Almond & Beetroot Cookies', ua: 'Мигдально-бурякове печиво без цукру' },
     why: { en: 'Beetroot and banana give these cookies natural colour and sweetness, so no sugar is needed — wholegrain, almond and flax flours keep the glycaemic impact modest.', ua: 'Буряк і банан надають печиву природного кольору й солодкості, тож цукор не потрібен — цільнозернове, мигдалеве та лляне борошно тримають глікемічний вплив помірним.' },
@@ -238,7 +241,7 @@ export const RECIPES = [
     note: { en: 'The pliable, brightly coloured dough is great fun to make with children.', ua: 'Пластичне яскраве тісто чудово підходить для творчості з дітьми.' }
   },
   {
-    slug: 'carrot-cake-overnight-oats', img: '22-carrot-cake-overnight-oats.jpg', cat: 'breakfast', gi: 47,
+    slug: 'carrot-cake-overnight-oats', dateAdded: '2026-07-10', img: '22-carrot-cake-overnight-oats.jpg', cat: 'breakfast', gi: 47,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Carrot Cake Overnight Oats', ua: 'Нічна вівсянка «Морквяний кекс»' },
     why: { en: 'Made the night before — oats, chia and grated carrot with cinnamon give slow-release carbs, fibre and omega-3 for a breakfast that keeps energy and blood sugar steady.', ua: 'Готується з вечора — овес, чіа й терта морква з корицею дають повільні вуглеводи, клітковину й омега-3 для сніданку, що тримає енергію та цукор стабільними.' },
@@ -248,7 +251,7 @@ export const RECIPES = [
     method: { en: ['Mix all the ingredients together and refrigerate overnight.','Before serving, add any berries you like and spoon into a jar or glass.'], ua: ['Змішайте всі інгредієнти та поставте в холодильник на ніч.','Перед подачею додайте будь-які ягоди й перекладіть у баночку або стакан.'] }
   },
   {
-    slug: 'apple-pudding-sugar-free', img: '23-apple-pudding-sugar-free.jpg', cat: 'dessert', gi: 45,
+    slug: 'apple-pudding-sugar-free', dateAdded: '2026-07-10', img: '23-apple-pudding-sugar-free.jpg', cat: 'dessert', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Sugar-free Apple Pudding', ua: 'Яблучний пудинг без цукру' },
     why: { en: 'Inspired by English apple sponge — barely any batter, just enough to hold the fruit together, sweetened with erythritol so the apples do the work.', ua: 'Натхненний англійським яблучним бісквітом — мінімум тіста, лише щоб скріпити фрукти, підсолоджено еритритолом, тож головне тут — яблука.' },
@@ -258,7 +261,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 180°C and grease a tin with a thin layer of oil.','Mix all the batter ingredients (except the apples and fruit). Stir with a spoon first, then whisk.','Let the batter rest to check it thickens; add a little water if needed. Cut the apples into pieces.','Mix the apples with the erythritol (or honey / sweetener).','Put the apples in the tin, pour over the batter and dust with cinnamon. Bake for 20 minutes.','Decorate the pudding with berries, nuts or a little sour cream.'], ua: ['Розігрійте духовку до 180°C і змастіть форму тонким шаром олії.','Змішайте всі інгредієнти для тіста (крім яблук і фруктів). Спочатку перемішайте ложкою, потім збийте вінчиком.','Дайте тісту постояти, щоб перевірити набухання; за потреби додайте трохи води. Наріжте яблука шматочками.','Змішайте яблука з еритритолом (або медом / підсолоджувачем).','Викладіть яблука у форму, залийте тістом і посипте корицею. Випікайте 20 хвилин.','Прикрасьте пудинг ягодами, горіхами або сметаною.'] }
   },
   {
-    slug: 'lemon-slices-sugar-free', img: '24-lemon-slices-sugar-free.jpg', cat: 'dessert', gi: 19,
+    slug: 'lemon-slices-sugar-free', dateAdded: '2026-07-10', img: '24-lemon-slices-sugar-free.jpg', cat: 'dessert', gi: 19,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Sugar-free Lemon Slices (Gluten-free)', ua: 'Лимонні тістечка без цукру та глютену' },
     seoTitle: { en: "Sugar-free Lemon Slices — Gluten-free, Keto, GI 19", ua: "Лимонні тістечка без цукру та глютену — кето, ГІ 19" },
@@ -271,7 +274,7 @@ export const RECIPES = [
     note: { en: 'Rich and calorific — a tiny piece goes a long way.', ua: 'Ситне й калорійне — маленького шматочка вистачає надовго.' }
   },
   {
-    slug: 'gingerbread-cookies', img: '25-gingerbread-cookies.jpg', cat: 'baking', gi: 46,
+    slug: 'gingerbread-cookies', dateAdded: '2026-07-10', img: '25-gingerbread-cookies.jpg', cat: 'baking', gi: 46,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Christmas Gingerbread Cookies (No Refined Sugar)', ua: 'Різдвяне імбирне печиво без цукру' },
     why: { en: 'Warmly spiced gingerbread with no refined sugar — a little honey and stevia for sweetness, with flax and coconut flour to soften the glycaemic hit. Decorate with the sugar-free icing.', ua: 'Ароматне імбирне печиво без рафінованого цукру — трохи меду й стевії для солодкості, а лляне й кокосове борошно пом’якшують глікемічний вплив. Прикрасьте глазур’ю без цукру.' },
@@ -282,7 +285,7 @@ export const RECIPES = [
     note: { en: 'Great as edible gifts or tree decorations.', ua: 'Чудові як їстівні подарунки або ялинкові прикраси.' }
   },
   {
-    slug: 'chocolate-ginger-cake-avocado-cream', img: '26-chocolate-ginger-cake-avocado-cream.jpg', cat: 'dessert', gi: 40,
+    slug: 'chocolate-ginger-cake-avocado-cream', dateAdded: '2026-07-10', img: '26-chocolate-ginger-cake-avocado-cream.jpg', cat: 'dessert', gi: 40,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Chocolate-Ginger Cake with Avocado Cream', ua: 'Шоколадно-імбирний кекс з кремом з авокадо' },
     why: { en: 'A festive vegetarian chocolate-and-ginger sponge with no sugar, topped with a naturally green avocado-and-kiwi cream sweetened with stevia. Fresh ginger and cocoa with almost no added sugar keep it gentle on blood sugar.', ua: 'Святковий вегетаріанський шоколадно-імбирний бісквіт без цукру з природно зеленим кремом з авокадо й ківі, підсолодженим стевією. Свіжий імбир і какао майже без цукру роблять його м’яким для рівня цукру.' },
@@ -293,7 +296,7 @@ export const RECIPES = [
     note: { en: 'Use a ripe, soft avocado and finish with the cream just before serving — the green colour is brightest fresh.', ua: 'Візьміть стигле м’яке авокадо та наносьте крем перед подачею — зелений колір найяскравіший свіжим.' }
   },
   {
-    slug: 'oat-pancakes-plums', img: '27-oat-pancakes-plums.jpg', cat: 'breakfast', gi: 49,
+    slug: 'oat-pancakes-plums', dateAdded: '2026-07-10', img: '27-oat-pancakes-plums.jpg', cat: 'breakfast', gi: 49,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Oat Pancakes with Stewed Plums', ua: 'Вівсяні млинці з тушкованими сливами' },
     why: { en: 'Wholegrain oats and flax make fibre-rich pancakes with slow-release carbs; plums add natural sweetness, so only a pinch of stevia is needed — a steadier start than white-flour pancakes.', ua: 'Цільний овес і льон дають багаті на клітковину млинці з повільними вуглеводами; сливи додають природної солодкості, тож потрібна лише щіпка стевії — стабільніший початок дня, ніж млинці з білого борошна.' },
@@ -303,7 +306,7 @@ export const RECIPES = [
     method: { en: ['Mix all the batter ingredients and stir until combined. Leave to swell for about 15 minutes.','Grease a pan with coconut or butter and heat over medium.','Fry the pancakes until done on both sides.','Slice the plums and fry them in the pan.','Top the pancakes with the plums and dust with erythritol.'], ua: ['Змішайте всі інгредієнти тіста та перемішайте до однорідності. Залиште набухнути близько 15 хвилин.','Змастіть сковороду кокосовою або вершковою олією та розігрійте на середньому вогні.','Смажте млинці до готовності з обох боків.','Наріжте сливи дольками та підсмажте на сковороді.','Викладіть сливи на млинці та посипте еритритолом.'] }
   },
   {
-    slug: 'meatballs-mandarin-herbs', img: '28-meatballs-mandarin-herbs.jpg', cat: 'main', gi: 24,
+    slug: 'meatballs-mandarin-herbs', dateAdded: '2026-07-10', img: '28-meatballs-mandarin-herbs.jpg', cat: 'main', gi: 24,
     tags: ['gluten-free', 'dairy-free', 'low-carb'],
     title: { en: 'Meatballs with Mandarin & Herbs', ua: 'Фрикадельки з мандаринами та травами' },
     why: { en: 'Protein-rich meatballs bound with flax and ground nuts instead of breadcrumbs — the mandarin segments add a little natural sweetness without moving blood sugar much.', ua: 'Багаті на білок фрикадельки, скріплені льоном і меленими горіхами замість панірувальних сухарів — дольки мандарина додають трохи природної солодкості, майже не впливаючи на цукор.' },
@@ -314,7 +317,7 @@ export const RECIPES = [
     note: { en: 'The mandarin pairing was Lena’s husband’s idea — meat with a little citrus works beautifully.', ua: 'Поєднання з мандаринами придумав чоловік Олени — м’ясо з цитрусом смакує чудово.' }
   },
   {
-    slug: 'blueberry-curd-tart', img: '29-blueberry-curd-tart.jpg', cat: 'dessert', gi: 39,
+    slug: 'blueberry-curd-tart', dateAdded: '2026-07-10', img: '29-blueberry-curd-tart.jpg', cat: 'dessert', gi: 39,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Low-carb Blueberry Curd Tart', ua: 'Низьковуглеводний тарт з чорничним курдом' },
     why: { en: 'A coconut-and-flax crust with a homemade blueberry curd, sweetened only with erythritol — low in carbs and gentle on blood sugar.', ua: 'Основа з кокосового й лляного борошна з домашнім чорничним курдом, підсолодженим лише еритритолом — мало вуглеводів і м’яко для рівня цукру.' },
@@ -324,7 +327,7 @@ export const RECIPES = [
     method: { en: ['Mix the crust ingredients. Heat the oven to 180°C and grease a 20 cm tin.','Press the dough over the base with a border, prick with a fork and bake about 15 minutes until set.','Blend the blueberries to a purée.','Mix with the egg yolks, erythritol and vanilla, and heat gently, stirring constantly, until thickened. Cool in the freezer.','Cool the baked tart and carefully remove it. Fill with the curd, top with berries and chill until set.'], ua: ['Змішайте інгредієнти основи. Розігрійте духовку до 180°C і змастіть форму 20 см.','Викладіть тісто по дну з бортиком, наколіть виделкою та випікайте близько 15 хвилин до готовності.','Збийте чорницю в пюре.','Змішайте з жовтками, еритритолом і ваніллю та прогрійте на слабкому вогні, постійно помішуючи, до загустіння. Охолодіть у морозилці.','Охолодіть спечений тарт і обережно вийміть. Наповніть курдом, прикрасьте ягодами та охолодіть до застигання.'] }
   },
   {
-    slug: 'pumpkin-oat-pancakes-chocolate', img: '30-pumpkin-oat-pancakes-chocolate.jpg', cat: 'breakfast', gi: 53,
+    slug: 'pumpkin-oat-pancakes-chocolate', dateAdded: '2026-07-10', img: '30-pumpkin-oat-pancakes-chocolate.jpg', cat: 'breakfast', gi: 53,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Pumpkin Oat Pancakes with Chocolate Sauce', ua: 'Гарбузово-вівсяні млинці з шоколадом' },
     why: { en: 'Pumpkin and oat-flour pancakes with a cocoa sauce sweetened with isomalt — a warming autumn breakfast with fibre and no refined sugar.', ua: 'Млинці з гарбуза й вівсяного борошна з какао-соусом на ізомальті — зігрівальний осінній сніданок із клітковиною й без рафінованого цукру.' },
@@ -334,7 +337,7 @@ export const RECIPES = [
     method: { en: ['Mix the dry and wet ingredients separately.','Combine, adding a little water for the right consistency.','Let the batter swell.','Pour onto a hot pan and fry both sides.','Make the sauce from cocoa and isomalt with water over the heat.','Drizzle over the pancakes, scatter with nuts and stack.'], ua: ['Змішайте окремо сухі та вологі інгредієнти.','З’єднайте, додаючи трохи води для потрібної консистенції.','Дайте тісту набухнути.','Вилийте на гарячу сковороду та смажте з обох боків.','Приготуйте соус із какао та ізомальту з водою на вогні.','Полийте млинці соусом, посипте горіхами та складіть стопкою.'] }
   },
   {
-    slug: 'dried-fruit-sweets', img: '31-dried-fruit-sweets.jpg', cat: 'snack', gi: 10,
+    slug: 'dried-fruit-sweets', dateAdded: '2026-07-10', img: '31-dried-fruit-sweets.jpg', cat: 'snack', gi: 10,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'No-bake Dried Fruit Sweets', ua: 'Цукерки із сухофруктів' },
     seoTitle: { en: "No-bake Dried Fruit Sweets — No Added Sugar, GI 10", ua: "Цукерки із сухофруктів без цукру — ГІ 10, без випікання" },
@@ -346,7 +349,7 @@ export const RECIPES = [
     method: { en: ['Blend the dried fruit, adding a little water if needed.','Scoop out the thick mixture, form into balls and roll in the coating.','Eat straight away, or chill well first.'], ua: ['Перемеліть сухофрукти в блендері, за потреби додайте трохи води.','Ложкою набирайте густу масу, формуйте кульки та обкачуйте в обсипці.','Їжте одразу або добре охолодіть.'] }
   },
   {
-    slug: 'rabbit-rosemary', img: '32-rabbit-rosemary.jpg', cat: 'main', gi: 15,
+    slug: 'rabbit-rosemary', dateAdded: '2026-07-10', img: '32-rabbit-rosemary.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'dairy-free', 'low-carb'],
     title: { en: 'Rabbit with Rosemary', ua: 'Кролик з розмарином' },
     why: { en: 'Lean rabbit is a light, low-fat protein; roasted slowly with vegetables and rosemary it makes a gentle, low-GI dinner — good for children and dietary eating.', ua: 'Пісний кролик — легкий, нежирний білок; повільно запечений з овочами й розмарином, дає м’яку вечерю з низьким ГІ — підходить дітям і дієтичному харчуванню.' },
@@ -356,7 +359,7 @@ export const RECIPES = [
     method: { en: ['Lay the vegetables in the bottom of a dish.','Pour over the salad juices and olive oil and add the rosemary.','Roast at 180°C for about an hour, covered with foil so it stays tender — supper is ready.'], ua: ['Викладіть овочі на дно форми.','Полийте соком від салату та оливковою олією, додайте розмарин.','Запікайте при 180°C близько години під фольгою, щоб м’ясо протушилося — вечеря готова.'] }
   },
   {
-    slug: 'pumpkin-panna-cotta', img: '33-pumpkin-panna-cotta.jpg', cat: 'dessert', gi: 62,
+    slug: 'pumpkin-panna-cotta', dateAdded: '2026-07-10', img: '33-pumpkin-panna-cotta.jpg', cat: 'dessert', gi: 62,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Pumpkin Panna Cotta', ua: 'Гарбузова панна котта' },
     why: { en: 'A light set yogurt-and-pumpkin dessert, gently sweetened — protein from the Greek yogurt slows things down, with an isomalt caramel drizzle instead of sugar.', ua: 'Легкий желейний десерт з йогурту й гарбуза, м’яко підсолоджений — білок грецького йогурту сповільнює засвоєння, а замість цукру — карамель з ізомальту.' },
@@ -366,7 +369,7 @@ export const RECIPES = [
     method: { en: ['Mix the yogurt with the pumpkin purée and sweetener.','Dissolve the gelatine in ½ cup hot water.','If lumpy, pass through a sieve.','Pour into moulds and refrigerate overnight.','Moisten the isomalt with water in a pan over high heat.','Once the granules melt, lower to medium and cook until it darkens.','Drizzle a fine thread over the panna cotta; to unmould, run hot water over the base.'], ua: ['Змішайте йогурт із гарбузовим пюре та підсолоджувачем.','Розчиніть желатин у ½ склянки гарячої води.','Якщо утворилися грудочки, пропустіть через сито.','Розлийте у формочки та поставте в холодильник на ніч.','Змочіть ізомальт водою в ковшику та поставте на сильний вогонь.','Коли гранули розплавляться, зменшіть до середнього та варіть до потемніння.','Полийте панна котту тонкою цівкою; щоб дістати з формочки, полийте дно гарячою водою.'] }
   },
   {
-    slug: 'pumpkin-bread', img: '34-pumpkin-bread.jpg', cat: 'bread', gi: 58,
+    slug: 'pumpkin-bread', dateAdded: '2026-07-10', img: '34-pumpkin-bread.jpg', cat: 'bread', gi: 58,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Pumpkin Bread', ua: 'Гарбузовий хліб' },
     why: { en: 'A wholegrain autumn loaf with grated pumpkin, warming spices and raisins — wholegrain flour and fibre keep the glycaemic impact lower than white bread.', ua: 'Осінній цільнозерновий хліб із тертим гарбузом, зігрівальними спеціями та родзинками — цільнозернове борошно й клітковина знижують глікемічний вплив порівняно з білим хлібом.' },
@@ -376,7 +379,7 @@ export const RECIPES = [
     method: { en: ['Make the dough: mix the flour, stevia, spices and yeast. Add warm water and put in a warm place.','Knock back the risen dough lightly; leave a couple more hours for a more open crumb if you like.','Heat the oven to 180°C and prepare a tin; the dough rises by about a quarter.','Fold in the pumpkin and raisins (or other dried fruit).','Pour into the lined tin, level with a spatula and put in the oven.','Bake 40–60 minutes. Leave to cool in the oven.','Turn out and cool fully on the side.'], ua: ['Замісіть тісто: змішайте борошно, стевію, спеції та дріжджі. Додайте теплу воду та поставте в тепле місце.','Тісто, що підійшло, злегка вимісіть; за бажанням залиште ще на пару годин для пористішої структури.','Розігрійте духовку до 180°C та підготуйте форму; тісто підходить приблизно на чверть.','Вмішайте гарбуз і родзинки (або інші сухофрукти).','Вилийте у форму на пергамент, розрівняйте лопаткою та поставте в піч.','Випікайте 40–60 хвилин. Залиште остигати в духовці.','Вийміть і остудіть повністю на столі.'] }
   },
   {
-    slug: 'cherry-chia-cake', img: '35-cherry-chia-cake.jpg', cat: 'dessert', gi: 39,
+    slug: 'cherry-chia-cake', dateAdded: '2026-07-10', img: '35-cherry-chia-cake.jpg', cat: 'dessert', gi: 39,
     tags: ['vegetarian'],
     title: { en: 'Cherry & Chia Layer Cake', ua: 'Вишневий торт із насінням чіа' },
     why: { en: 'An almond-and-oat sponge layered with a thick cherry-chia compote — tart cherries and chia add fibre, with only a touch of stevia; the white chocolate is a small finishing note.', ua: 'Мигдально-вівсяний бісквіт із густим вишнево-чіа компотом — кислі вишні й чіа додають клітковини, а стевії потрібно зовсім трохи; білий шоколад — лише невеликий акцент.' },
@@ -386,7 +389,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 170°C.','Blend all the sponge ingredients in a food processor.','Transfer to a prepared tin and smooth.','Bake about 25–35 minutes; cool completely.','Heat the cherries with the stevia and half the pectin over low heat until thickened.','Split the cooled sponge and cut three equal circles with a round cutter.','Layer the circles with the cherry filling; top with coconut, prunes, nuts and a drizzle of white chocolate.','Chill at least 2 hours (overnight is best).'], ua: ['Розігрійте духовку до 170°C.','Збийте всі інгредієнти бісквіту в комбайні.','Перекладіть у підготовлену форму та розрівняйте.','Випікайте близько 25–35 хвилин; повністю охолодіть.','Прогрійте вишню зі стевією та половиною пектину на слабкому вогні до загустіння.','Розріжте охолоджений бісквіт і виріжте три однакові кола круглим каттером.','Прошаруйте кола вишневою начинкою; зверху — кокос, чорнослив, горіхи та цівка білого шоколаду.','Охолоджуйте щонайменше 2 години (найкраще ніч).'] }
   },
   {
-    slug: 'cranberry-curd-cake', img: '36-cranberry-curd-cake.jpg', cat: 'dessert', gi: 33,
+    slug: 'cranberry-curd-cake', dateAdded: '2026-07-10', img: '36-cranberry-curd-cake.jpg', cat: 'dessert', gi: 33,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Cranberry Curd Cake', ua: 'Журавлиновий сирний кекс' },
     why: { en: 'A high-protein quark cake on an oat-flake base, sweetened with stevia and studded with tart cranberries — protein and fibre keep blood sugar steady.', ua: 'Білковий сирний кекс на основі з вівсяних пластівців, підсолоджений стевією та з кислою журавлиною — білок і клітковина тримають цукор стабільним.' },
@@ -396,7 +399,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 180°C.','Spread the flakes over the base of a tin, 0.5–0.7 cm deep.','Mix the flakes with mashed banana into a thick dough.','Form the base with wet hands and bake 10–15 minutes.','Blend the quark, stevia, butter, eggs and cranberries in a processor.','Spread the filling over the base and bake 15–20 minutes.','Cool and decorate with fruit and nuts.'], ua: ['Розігрійте духовку до 180°C.','Насипте пластівці на дно форми шаром 0,5–0,7 см.','Змішайте пластівці з розім’ятими бананами в густе тісто.','Сформуйте основу вологими руками та випікайте 10–15 хвилин.','Збийте сир, стевію, масло, яйця та журавлину в комбайні.','Викладіть начинку на основу та випікайте 15–20 хвилин.','Охолодіть і прикрасьте фруктами й горіхами.'] }
   },
   {
-    slug: 'buckwheat-cookies', img: '37-buckwheat-cookies.jpg', cat: 'baking', gi: 48,
+    slug: 'buckwheat-cookies', dateAdded: '2026-07-10', img: '37-buckwheat-cookies.jpg', cat: 'baking', gi: 48,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Buckwheat Cookies, No Sugar (Gluten-free)', ua: 'Гречане печиво без цукру та глютену' },
     why: { en: 'Buckwheat cookies with no sugar at all — sweetened with stevia, naturally gluten-free and low-GI, so a biscuit with tea stays filling rather than spiking.', ua: 'З відвареної гречки та гречаного борошна — від природи без глютену, ситне й з низьким ГІ, підсолоджене лише стевією.' },
@@ -406,7 +409,7 @@ export const RECIPES = [
     method: { en: ['Mix all the ingredients except the flour.','Blend half of the mixture until smooth.','Mix everything again and add the flour.','Heat the oven to 180°C. With your hands, form balls and flatten on a lined tray.','Bake for 25 minutes, turning every 7–10 minutes to dry out.','Leave in the cooling oven.'], ua: ['Змішайте всі інгредієнти, крім борошна.','Половину суміші збийте в блендері.','Знову все змішайте та додайте борошно.','Розігрійте духовку до 180°C. Руками сформуйте кульки та розпластайте на деку з папером.','Випікайте 25 хвилин, перевертаючи кожні 7–10 хвилин для просушування.','Залиште в духовці, що остигає.'] }
   },
   {
-    slug: 'mushroom-potato-tartlets', img: '38-mushroom-potato-tartlets.jpg', cat: 'main', gi: 60,
+    slug: 'mushroom-potato-tartlets', dateAdded: '2026-07-10', img: '38-mushroom-potato-tartlets.jpg', cat: 'main', gi: 60,
     tags: ['vegetarian'],
     title: { en: 'Mushroom & Potato Tartlets', ua: 'Тарталетки з грибами та картоплею' },
     why: { en: 'A buttery flax-and-wholegrain pastry with a soft mushroom-and-potato filling — the flax adds fibre to steady the pastry’s carbs.', ua: 'Масляне тісто з льону й цільнозернового борошна з ніжною грибно-картопляною начинкою — льон додає клітковини, щоб урівноважити вуглеводи тіста.' },
@@ -416,7 +419,7 @@ export const RECIPES = [
     method: { en: ['Soften the butter; cook the mushrooms, potato and onion (a pressure cooker takes ~12 min).','Make the pastry: mix the butter, flour, yolks, salt and vanilla; chill.','Heat the oven to 160°C.','Roll out the pastry, cut circles and press into silicone moulds; bake 25 minutes.','Chop the mushrooms and potato; mix with fresh onion.','Fill the tartlets and bake a further 15 minutes.','Serve with the stock or a purée.'], ua: ['Розм’якшіть масло; відваріть гриби, картоплю та цибулю (у скороварці ~12 хв).','Приготуйте тісто: змішайте масло, борошно, жовтки, сіль і ваніль; охолодіть.','Розігрійте духовку до 160°C.','Розкачайте тісто, виріжте кола та викладіть у силіконові форми; випікайте 25 хвилин.','Наріжте гриби та картоплю; змішайте зі свіжою цибулею.','Наповніть тарталетки та випікайте ще 15 хвилин.','Подавайте з бульйоном або пюре.'] }
   },
   {
-    slug: 'summer-berry-pie', img: '39-summer-berry-pie.jpg', cat: 'dessert', gi: 58,
+    slug: 'summer-berry-pie', dateAdded: '2026-07-10', img: '39-summer-berry-pie.jpg', cat: 'dessert', gi: 58,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Summer Berry & Fruit Pie', ua: 'Літній пиріг з ягодами та фруктами' },
     why: { en: 'A cornmeal-and-oat base loaded with whatever summer berries and fruit you have — mostly fruit and fibre, sweetened only with stevia, good if you are watching your weight.', ua: 'Основа з кукурудзяного борошна й вівса з будь-якими літніми ягодами та фруктами — переважно фрукти й клітковина, підсолоджено лише стевією; підходить тим, хто стежить за вагою.' },
@@ -426,7 +429,7 @@ export const RECIPES = [
     method: { en: ['Make a thick dough without the fruit. Set aside.','While it swells, prepare the fruit: rinse the berries, slice any nectarine; mash the raspberries with a fork or blender.','Press the dough into a 24 cm tin with a border. Fill with the fruit.','Bake at 180°C for about 20 minutes.','Cool before slicing.'], ua: ['Замісіть густе тісто без фруктів. Відставте.','Поки набухає, підготуйте фрукти: промийте ягоди, наріжте нектарин; малину розімніть виделкою або блендером.','Викладіть тісто у форму 24 см з бортиком. Наповніть ягодами.','Випікайте при 180°C близько 20 хвилин.','Охолодіть перед нарізанням.'] }
   },
   {
-    slug: 'layered-curd-cake', img: '40-layered-curd-cake.jpg', cat: 'dessert', gi: 39,
+    slug: 'layered-curd-cake', dateAdded: '2026-07-10', img: '40-layered-curd-cake.jpg', cat: 'dessert', gi: 39,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'No-bake Layered Curd Cake', ua: 'Творожний торт з кольоровими шарами' },
     why: { en: 'A no-bake, high-protein quark cake set in colourful natural layers — cocoa, blueberry and spirulina — sweetened with stevia and erythritol. Fun to make with children.', ua: 'Сирний торт без випікання, багатий на білок, у природних кольорових шарах — какао, чорниця та спіруліна — підсолоджений стевією та еритритолом. Весело готувати з дітьми.' },
@@ -437,7 +440,7 @@ export const RECIPES = [
     note: { en: 'Lena made this one with her son — the natural colours make it especially fun.', ua: 'Олена готувала його із сином — природні кольори роблять його особливо веселим.' }
   },
   {
-    slug: 'beetroot-crisps-rosemary', img: '41-beetroot-crisps-rosemary.jpg', cat: 'snack', gi: 40,
+    slug: 'beetroot-crisps-rosemary', dateAdded: '2026-07-10', img: '41-beetroot-crisps-rosemary.jpg', cat: 'snack', gi: 40,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rosemary Beetroot Crisps', ua: 'Бурякові чипси з розмарином' },
     why: { en: 'Thin-sliced beetroot roasted crisp with rosemary — a healthy, crunchy snack with fibre instead of a bag of crisps.', ua: 'Тонко нарізаний буряк, запечений до хрусткості з розмарином — корисний хрумкий перекус із клітковиною замість пакетика чипсів.' },
@@ -448,7 +451,7 @@ export const RECIPES = [
     note: { en: 'The key is slicing the beetroot really thin.', ua: 'Головне — нарізати буряк дуже тонко.' }
   },
   {
-    slug: 'coffee-chocolate-cheesecake', img: '42-coffee-chocolate-cheesecake.jpg', cat: 'dessert', gi: 45,
+    slug: 'coffee-chocolate-cheesecake', dateAdded: '2026-07-10', img: '42-coffee-chocolate-cheesecake.jpg', cat: 'dessert', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'No-bake Coffee-Chocolate Cheesecake', ua: 'Кавово-шоколадний чізкейк без випікання' },
     why: { en: 'A chilled quark cheesecake set with gelatine on a banana-granola base — high in protein, no refined sugar, with carob and coffee for a mocha note.', ua: 'Охолоджений сирний чізкейк на желатині з бананово-granola-основою — багатий на білок, без рафінованого цукру, з ріжковим борошном і кавою для нотки мокко.' },
@@ -458,7 +461,7 @@ export const RECIPES = [
     method: { en: ['Soak the gelatine in a little water.','Mash the banana, mix with the granola, press into the base of a tin and chill.','Warm the gelatine (microwave) and stir until fully dissolved.','Blend the quark, sweetener, coffee, vanilla and gelatine until smooth.','Set aside part of the mixture and blend with carob until smooth.','Swirl the two together for a marble effect.','Spread over the base and chill.','For the glaze, mix the coconut oil, carob and stevia and pour over the set cheesecake (after 1–2 hours chilling).','Use a springform tin; run a knife round the inside and let it set firm in the fridge.'], ua: ['Замочіть желатин у невеликій кількості води.','Розімніть банан, змішайте з granola, викладіть на дно форми та охолодіть.','Підігрійте желатин (у мікрохвильовці) та розмішайте до повного розчинення.','Збийте сир, підсолоджувач, каву, ваніль і желатин до гладкості.','Частину маси відкладіть і збийте з керобом до гладкості.','Змішайте обидві маси не повністю, створивши мармуровий ефект.','Викладіть на основу та охолодіть.','Для глазурі змішайте кокосову олію, кероб і стевію та полийте застиглий чізкейк (за 1–2 години охолодження).','Використовуйте роз’ємну форму; проведіть ножем по внутрішньому боку та дайте добре застигнути в холоді.'] }
   },
   {
-    slug: 'ratatouille-yellow-tomatoes', img: '43-ratatouille-yellow-tomatoes.jpg', cat: 'main', gi: 18,
+    slug: 'ratatouille-yellow-tomatoes', dateAdded: '2026-07-10', img: '43-ratatouille-yellow-tomatoes.jpg', cat: 'main', gi: 18,
     tags: ['vegetarian', 'gluten-free', 'low-carb'],
     title: { en: 'Ratatouille with Yellow Tomatoes', ua: 'Рататуй з жовтими помідорами' },
     seoTitle: { en: "Ratatouille with Yellow Tomatoes — GI 18, Low-Carb", ua: "Рататуй з жовтими помідорами — ГІ 18, низьковуглеводний" },
@@ -470,7 +473,7 @@ export const RECIPES = [
     method: { en: ['Slice the aubergine into 1 cm rounds and soak 30 minutes in salted water.','Cover the tomatoes with boiling water; put the peppers in a roasting bag in the microwave for 10 minutes.','Finely chop the onion and crush the garlic.','Cool the tomatoes in cold water and peel; rest the peppers 10 minutes and peel.','Slice the tomatoes and courgette and layer all the vegetables in a slow cooker.','Blend the sauce: tomatoes, peppers, garlic, onion, oil, stevia, salt, pepper and herbs.','Pour over the vegetables and cook on the "Stew" setting for 1 hour.','Garnish with parsley or black pepper before serving.'], ua: ['Наріжте баклажан кружечками по 1 см і замочіть на 30 хвилин у солоній воді.','Залийте помідори окропом; перці покладіть у рукав для запікання в мікрохвильовку на 10 хвилин.','Дрібно наріжте цибулю та роздавіть часник.','Остудіть помідори в холодній воді та зніміть шкірку; перці залиште на 10 хвилин і почистіть.','Наріжте помідори й кабачок і викладіть усі овочі шарами в мультиварку.','Збийте соус: помідори, перці, часник, цибуля, олія, стевія, сіль, перець і трави.','Залийте овочі соусом і готуйте в режимі «Тушкування» 1 годину.','Перед подачею прикрасьте петрушкою або чорним перцем.'] }
   },
   {
-    slug: 'sourdough-bread', img: '44-sourdough-bread.jpg', cat: 'bread', gi: 63,
+    slug: 'sourdough-bread', dateAdded: '2026-07-10', img: '44-sourdough-bread.jpg', cat: 'bread', gi: 63,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Homemade Sourdough Bread (with soul)', ua: 'Домашній бездріжджовий хліб «з душею»' },
     why: { en: 'A wholegrain, naturally leavened loaf on a homemade raisin-and-hop starter with sprouted wheat, seeds and pumpkin. The long fermentation and wholegrain flour make it far gentler on blood sugar than shop bread.', ua: 'Цільнозерновий хліб на природній заквасці — домашня закваска з родзинок і хмелю, пророщена пшениця, насіння й гарбуз. Довга ферментація й цільнозернове борошно роблять його значно м’якшим для цукру, ніж магазинний.' },
@@ -481,7 +484,7 @@ export const RECIPES = [
     note: { en: 'Use good water (spring water is ideal) and wooden, glass or enamel bowls. Keeps about 10 days.', ua: 'Використовуйте хорошу воду (ідеально джерельну) та дерев’яний, скляний чи емальований посуд. Зберігається близько 10 днів.' }
   },
   {
-    slug: 'rhubarb-strawberry-jam', img: '45-rhubarb-strawberry-jam.jpg', cat: 'sauce', gi: 30,
+    slug: 'rhubarb-strawberry-jam', dateAdded: '2026-07-10', img: '45-rhubarb-strawberry-jam.jpg', cat: 'sauce', gi: 30,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rhubarb & Strawberry Chia Jam', ua: 'Варення з ревеню та полуниці (з чіа)' },
     why: { en: 'A quick no-sugar jam set with chia instead of sugar and pectin — rhubarb and strawberry with a little warming spice, gentle on blood sugar.', ua: 'Швидке варення без цукру, загущене чіа замість цукру й пектину — ревінь і полуниця з дрібкою зігрівальних спецій, м’яко для рівня цукру.' },
@@ -491,7 +494,7 @@ export const RECIPES = [
     method: { en: ['Chop the rhubarb and strawberries and put in a pan with the water or juice.','Bring to the boil over medium heat, then lower and simmer 20–30 minutes.','Mash the softened fruit with a fork or blender.','Stir in the stevia.','Add the cinnamon, ginger and chia.','Leave to stand for 30 minutes to set.'], ua: ['Наріжте ревінь і полуницю, покладіть у каструлю з водою або соком.','Доведіть до кипіння на середньому вогні, потім зменшіть і варіть 20–30 хвилин.','Розімніть розм’якшені фрукти виделкою або блендером.','Вмішайте стевію.','Додайте корицю, імбир і чіа.','Дайте настоятися 30 хвилин, щоб загусло.'] }
   },
   {
-    slug: 'chocolate-mousse-ice-cream', img: '46-chocolate-mousse-ice-cream.jpg', cat: 'dessert', gi: 42,
+    slug: 'chocolate-mousse-ice-cream', dateAdded: '2026-07-10', img: '46-chocolate-mousse-ice-cream.jpg', cat: 'dessert', gi: 42,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'dairy-free'],
     title: { en: 'Chocolate Mousse Ice Cream with a Coffee Note', ua: 'Шоколадне морозиво-мус з кавовою ноткою' },
     why: { en: 'A blend-and-freeze banana mousse with carob and chicory — creamy, no refined sugar and caffeine-free, so it suits children too.', ua: 'Банановий мус «збий і заморозь» із керобом і цикорієм — кремовий, без рафінованого цукру й кофеїну, тож підходить і дітям.' },
@@ -501,7 +504,7 @@ export const RECIPES = [
     method: { en: ['Blend everything and freeze for about 1–2 hours.','Before serving, check it is not frozen too hard — it should not be completely solid. Spoon into dishes, dust with carob and serve.'], ua: ['Збийте все в блендері та заморозьте приблизно на 1–2 години.','Перед подачею перевірте, чи не замерзло надто сильно — маса не має бути повністю твердою. Розкладіть по креманках, посипте керобом і подавайте.'] }
   },
   {
-    slug: 'cornmeal-syrniki', img: '47-cornmeal-syrniki.jpg', cat: 'breakfast', gi: 56,
+    slug: 'cornmeal-syrniki', dateAdded: '2026-07-10', img: '47-cornmeal-syrniki.jpg', cat: 'breakfast', gi: 56,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Cornmeal Syrniki (Cottage Cheese Pancakes)', ua: 'Сирники з кукурудзяним борошном' },
     why: { en: 'High-protein cottage cheese pancakes made with cornmeal instead of wheat, sweetened with stevia and served with a raspberry sorbet — a filling, blood-sugar-friendly breakfast.', ua: 'Багаті на білок сирники з кукурудзяним борошном замість пшеничного, підсолоджені стевією та з малиновим сорбетом — ситний, дружній до цукру сніданок.' },
@@ -511,7 +514,7 @@ export const RECIPES = [
     method: { en: ['Mix all the ingredients except the raspberries with a spoon.','Dust a board with cornmeal and shape patties with wet hands.','Heat a non-stick pan, lightly greased.','Add the syrniki, cover and cook over medium heat, turning once golden.','Blend the frozen raspberries with a little water.','Serve the syrniki with a spoon of the sorbet on top.'], ua: ['Змішайте всі інгредієнти, крім малини, ложкою.','Присипте дошку кукурудзяним борошном і формуйте сирники вологими руками.','Розігрійте антипригарну сковороду, злегка змащену.','Викладіть сирники, накрийте кришкою та готуйте на середньому вогні, перевертаючи після зарум’янення.','Збийте заморожену малину з невеликою кількістю води.','Подавайте сирники з ложкою сорбету зверху.'] }
   },
   {
-    slug: 'mushroom-chickpea-burger', img: '48-mushroom-chickpea-burger.jpg', cat: 'main', gi: 33,
+    slug: 'mushroom-chickpea-burger', dateAdded: '2026-07-10', img: '48-mushroom-chickpea-burger.jpg', cat: 'main', gi: 33,
     tags: ['vegetarian'],
     title: { en: 'Mushroom & Chickpea Veggie Burger', ua: 'Вегетаріанський бургер з грибами та нутом' },
     why: { en: 'Protein-packed chickpea-and-mushroom patties spiced with curry — a meat-free burger with fibre and slow carbs, in a wholegrain bun with a yogurt sauce.', ua: 'Котлети з нуту й грибів, багаті на білок і приправлені карі — бургер без м’яса з клітковиною й повільними вуглеводами, у цільнозерновій булочці з йогуртовим соусом.' },
@@ -521,7 +524,7 @@ export const RECIPES = [
     method: { en: ['Fry the mushrooms with the garlic and spring onions for 2–3 minutes.','Add the curry powder, lemon zest and juice and cook 2 minutes.','Mash the chickpeas coarsely, mix in the mushroom mixture and breadcrumbs, and shape 4 patties.','Fry in a non-stick pan for 3–4 minutes each side.','Mix the yogurt with cumin. Halve a bun, spread with the yogurt and layer in a patty, tomato slices and lettuce.'], ua: ['Обсмажте гриби з часником і зеленою цибулею 2–3 хвилини.','Додайте карі, цедру й сік лимона та готуйте 2 хвилини.','Розімніть нут крупно, вмішайте грибну суміш і сухарі та сформуйте 4 котлети.','Обсмажте на антипригарній сковороді по 3–4 хвилини з кожного боку.','Змішайте йогурт із кмином. Розріжте булочку, намажте йогуртом і покладіть котлету, скибочки помідора та салат.'] }
   },
   {
-    slug: 'strawberry-cheesecake', img: '49-strawberry-cheesecake.jpg', cat: 'dessert', gi: 50,
+    slug: 'strawberry-cheesecake', dateAdded: '2026-07-10', img: '49-strawberry-cheesecake.jpg', cat: 'dessert', gi: 50,
     tags: ['vegetarian'],
     title: { en: 'No-bake Strawberry Cheesecake', ua: 'Полуничний чізкейк без випікання' },
     why: { en: 'A light quark cheesecake set with gelatine on a banana-granola base, topped with fresh strawberries — high in protein, with no added sugar beyond a little honey.', ua: 'Легкий сирний чізкейк на желатині з бананово-granola-основою та свіжою полуницею — багатий на білок, без доданого цукру, крім трохи меду.' },
@@ -531,7 +534,7 @@ export const RECIPES = [
     method: { en: ['Soak the gelatine in cold water until swollen.','Mash the banana and granola with a fork and press into the base of a tin.','Warm the gelatine in the microwave for 1 minute until dissolved.','Blend the gelatine, quark, strawberries, honey and vanilla.','Spread over the base and smooth.','Decorate with chopped fruit and granola and chill about 1 hour.'], ua: ['Замочіть желатин у холодній воді до набухання.','Розімніть банан і granola виделкою та викладіть на дно форми.','Прогрійте желатин у мікрохвильовці 1 хвилину до розчинення.','Збийте желатин, сир, полуницю, мед і ваніль.','Викладіть на основу та розрівняйте.','Прикрасьте нарізаними фруктами й granola та охолодіть близько 1 години.'] }
   },
   {
-    slug: 'strawberry-basil-cake', img: '50-strawberry-basil-cake.jpg', cat: 'dessert', gi: 36,
+    slug: 'strawberry-basil-cake', dateAdded: '2026-07-10', img: '50-strawberry-basil-cake.jpg', cat: 'dessert', gi: 36,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Strawberry Cake with Basil Cream', ua: 'Полуничний торт з базиліковим кремом' },
     why: { en: 'A light almond-and-wholegrain sponge, naturally pink, layered with a quark-and-basil cream and fresh strawberries — sweetened with stevia, so it stays gentle on blood sugar.', ua: 'Легкий мигдально-цільнозерновий бісквіт, природно рожевий, прошарований кремом із сиру й базиліку та свіжою полуницею — підсолоджений стевією, тож м’який для рівня цукру.' },
@@ -541,7 +544,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 180°C and grease a springform tin.','In a blender, mix all the flours, 1 tbsp stevia, vanilla, the colour, flax seeds and guar gum.','Let the batter stand 20 minutes to thicken.','Mix in the baking powder and blend.','Pour into the tin and bake 20–30 minutes (about 25 for a 22.5 cm tin).','Make the cream: blend the quark, 1 tbsp stevia, vanilla and 12 fresh basil leaves.','Cool the sponge completely.','Split the sponge horizontally and slice the strawberries.','Spread each layer with cream and add strawberries (you can add banana too).','Decorate with strawberries and fresh basil and dust with powdered erythritol.'], ua: ['Розігрійте духовку до 180°C і змастіть роз’ємну форму.','У блендері змішайте всі види борошна, 1 ст. л. стевії, ваніль, барвник, насіння льону та гуарову камідь.','Дайте тісту постояти 20 хвилин, щоб загусло.','Вмішайте розпушувач і збийте.','Вилийте у форму та випікайте 20–30 хвилин (близько 25 для форми 22,5 см).','Приготуйте крем: збийте сир, 1 ст. л. стевії, ваніль і 12 свіжих листків базиліку.','Повністю охолодіть бісквіт.','Розріжте бісквіт уздовж і наріжте полуницю.','Змастіть кожен корж кремом і викладіть полуницю (можна додати банан).','Прикрасьте полуницею та свіжим базиліком і посипте пудрою з еритритолу.'] }
   },
   {
-    slug: 'cherry-cheesecake', img: '51-cherry-cheesecake.jpg', cat: 'dessert', gi: 26,
+    slug: 'cherry-cheesecake', dateAdded: '2026-07-10', img: '51-cherry-cheesecake.jpg', cat: 'dessert', gi: 26,
     tags: ['vegetarian'],
     title: { en: 'Light Cherry Cheesecake', ua: 'Легкий вишневий чізкейк' },
     why: { en: 'A baked cream-cheese cheesecake sweetened with stevia, on a crumb base with a cherry-jam layer and glossy cherry topping. A treat — the cherry jam does add some sugar.', ua: 'Запечений чізкейк із вершкового сиру, підсолоджений стевією, на основі з крихт із шаром вишневого джему та глянцевим вишневим топінгом. Це десерт — вишневий джем додає трохи цукру.' },
@@ -551,7 +554,7 @@ export const RECIPES = [
     method: { en: ['Mix the crumbs with ½ tsp stevia and the butter. Press into a tin and bake at 170°C for 12–15 minutes.','Beat the softened cream cheese with 1½ tsp stevia, vanilla and eggs. Spread half over the base, add the jam and cover with the rest of the cheese.','Bake for 1 hour 10 minutes.','Mix the starch with 1 tbsp cold boiled water and ½ cup cherry juice; cool, pour over the cheesecake, then chill for 4 hours.'], ua: ['Змішайте сухарі з ½ ч. л. стевії та маслом. Викладіть у форму, притискаючи до дна, та випікайте при 170°C 12–15 хвилин.','Збийте розм’якшений сир з 1½ ч. л. стевії, ваніліном і яйцями. Намажте половину на основу, викладіть джем і накрийте рештою сиру.','Випікайте 1 годину 10 хвилин.','Змішайте крохмаль з 1 ст. л. холодної кип’яченої води та ½ склянки вишневого соку; охолодіть, залийте чізкейк, потім поставте в холодильник на 4 години.'] }
   },
   {
-    slug: 'chickpea-olive-avocado-salad', img: '52-chickpea-olive-avocado-salad.jpg', cat: 'main', gi: 16,
+    slug: 'chickpea-olive-avocado-salad', dateAdded: '2026-07-10', img: '52-chickpea-olive-avocado-salad.jpg', cat: 'main', gi: 16,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Chickpea, Olive & Avocado Salad', ua: 'Салат з нутом, оливками та авокадо' },
     why: { en: 'A refreshing salad with protein from chickpeas and feta and healthy fats from avocado and sesame oil — fibre-rich and naturally low-GI.', ua: 'Освіжаючий салат із білком від нуту й фети та корисними жирами з авокадо й кунжутної олії — багатий на клітковину й від природи з низьким ГІ.' },
@@ -561,7 +564,7 @@ export const RECIPES = [
     method: { en: ['Halve the cherry tomatoes if large.','Dice the avocado.','Slice the onion into thin rings.','Cut the pepper into strips.','Add the olives and mix everything together.','Crumble the feta and chop the parsley.','Dress with the sesame oil and balsamic vinegar.'], ua: ['Розріжте помідори черрі, якщо великі.','Наріжте авокадо кубиками.','Наріжте цибулю тонкими кільцями.','Наріжте перець смужками.','Додайте оливки та перемішайте всі інгредієнти.','Покришіть фету та наріжте петрушку.','Заправте кунжутною олією та бальзамічним оцтом.'] }
   },
   {
-    slug: 'strawberry-bites', img: '53-strawberry-bites.jpg', cat: 'snack', gi: 37,
+    slug: 'strawberry-bites', dateAdded: '2026-07-10', img: '53-strawberry-bites.jpg', cat: 'snack', gi: 37,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Soft Strawberry Bites', ua: 'М’які полуничні цукерки' },
     why: { en: 'Blended cashews, dates and dried strawberry rolled into soft no-bake bites — a whole-food sweet. Naturally high in fruit sugar, so best in small amounts.', ua: 'Збиті кеш’ю, фініки й сушена полуниця, скачані в м’які цукерки без випікання — натуральна солодкість. Через фрукти багато цукру, тож найкраще потроху.' },
@@ -571,7 +574,7 @@ export const RECIPES = [
     method: { en: ['Blend the cashews to a fine crumb (leave some larger pieces if you like).','Add the dates, salt and vanilla and blend to a sticky dough.','Add the strawberries and blend well.','Roll into balls.'], ua: ['Збийте кеш’ю в дрібну крихту (за бажанням залиште трохи більших шматочків).','Додайте фініки, сіль і ваніль та збийте до липкого тіста.','Додайте полуницю та добре збийте.','Скачайте в кульки.'] }
   },
   {
-    slug: 'peanut-cookies-nobake', img: '54-peanut-cookies-nobake.jpg', cat: 'snack', gi: 25,
+    slug: 'peanut-cookies-nobake', dateAdded: '2026-07-10', img: '54-peanut-cookies-nobake.jpg', cat: 'snack', gi: 25,
     tags: ['vegetarian', 'gluten-free', 'dairy-free'],
     title: { en: 'No-bake Peanut Cookies', ua: 'Арахісове печиво без випікання' },
     why: { en: 'Almonds, dates and peanut butter blended and chilled — a raw, protein-rich cookie. Sweetened by the dates, so keep portions small.', ua: 'Мигдаль, фініки й арахісова паста, збиті та охолоджені — сире, багате на білок печиво. Підсолоджене фініками, тож їжте потроху.' },
@@ -581,7 +584,7 @@ export const RECIPES = [
     method: { en: ['Blend the whole almonds to a coarse flour.','Add the dates, vanilla and peanut butter to the almond flour and blend.','Blend about 2 minutes to a dough; add 1–2 tbsp more peanut butter if needed.','Form balls, place on parchment, flatten and mark with a fork.','Chill until serving.'], ua: ['Збийте цілий мигдаль у грубе борошно.','Додайте фініки, ваніль і арахісову пасту до мигдалевого борошна та збийте.','Збивайте близько 2 хвилин до тіста; за потреби додайте 1–2 ст. л. арахісової пасти.','Сформуйте кульки, викладіть на пергамент, сплюсніть і зробіть візерунок виделкою.','Охолодіть до подачі.'] }
   },
   {
-    slug: 'banana-ice-cream-pecan', img: '55-banana-ice-cream-pecan.jpg', cat: 'dessert', gi: 42,
+    slug: 'banana-ice-cream-pecan', dateAdded: '2026-07-10', img: '55-banana-ice-cream-pecan.jpg', cat: 'dessert', gi: 42,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'dairy-free'],
     title: { en: 'Banana Ice Cream with Cinnamon & Pecans', ua: 'Бананове морозиво з корицею та пеканом' },
     why: { en: "Frozen bananas blitzed into a glossy 'nice cream' — no added sugar, just fruit, with cinnamon and pecans. Naturally sweet, so best as an occasional treat given the banana sugars.", ua: 'Заморожені банани, збиті в глянцеве «nice cream» — без доданого цукру, лише фрукти, з корицею й пеканом. Природно солодке, тож найкраще час від часу через цукор банана.' },
@@ -591,7 +594,7 @@ export const RECIPES = [
     method: { en: ['Slice the bananas into rounds and freeze for 3 hours.','Blend the frozen slices until glossy and smooth.','Chop the pecans.','Scoop into dishes, dust with cinnamon and top with the pecans.'], ua: ['Наріжте банани кільцями та заморозьте на 3 години.','Збийте заморожені кільця до глянцевої однорідної маси.','Порубайте пекан.','Викладіть ложкою в тарілочки, посипте корицею та прикрасьте горіхами.'] }
   },
   {
-    slug: 'raw-brownies', img: '56-raw-brownies.jpg', cat: 'dessert', gi: 33,
+    slug: 'raw-brownies', dateAdded: '2026-07-10', img: '56-raw-brownies.jpg', cat: 'dessert', gi: 33,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Raw Brownies', ua: 'Сирі брауні' },
     why: { en: 'No-bake walnut, date and cacao brownies — whole-food ingredients with fibre and healthy fats. Sweetened entirely by dates, so best in small squares.', ua: 'Брауні без випікання з волоських горіхів, фініків і какао — натуральні продукти з клітковиною й корисними жирами. Підсолоджені лише фініками, тож найкраще маленькими шматочками.' },
@@ -601,7 +604,7 @@ export const RECIPES = [
     method: { en: ['Blend the walnuts to a fine crumb on high.','Add the cacao and salt and blend again.','Keep blending and add the dates one at a time until you have a smooth, dense mass.','Transfer to a bowl and mix in the chopped almonds.','Press into a flat container and put under a weight in the fridge or freezer.','Cut the chilled brownies into squares and dust with cacao or carob.'], ua: ['Збийте волоські горіхи в дрібну крихту на високих обертах.','Додайте какао й сіль і збийте знову.','Продовжуючи збивати, додавайте фініки по одному до однорідної щільної маси.','Перекладіть у миску та вмішайте рублений мигдаль.','Викладіть у пласку форму та поставте під прес у холодильник чи морозилку.','Наріжте охолоджені брауні квадратиками та посипте какао або керобом.'] }
   },
   {
-    slug: 'raw-chocolate-mousse', img: '57-raw-chocolate-mousse.jpg', cat: 'dessert', gi: 43,
+    slug: 'raw-chocolate-mousse', dateAdded: '2026-07-10', img: '57-raw-chocolate-mousse.jpg', cat: 'dessert', gi: 43,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Raw Chocolate Mousse', ua: 'Шоколадний мус' },
     why: { en: 'A blend-and-chill mousse of banana, avocado, dates and carob — creamy and no-bake, with fibre and healthy fats. Dates make it naturally sweet.', ua: 'Мус «збий і охолоди» з банана, авокадо, фініків і керобу — кремовий, без випікання, з клітковиною й корисними жирами. Фініки роблять його природно солодким.' },
@@ -611,7 +614,7 @@ export const RECIPES = [
     method: { en: ['Soak the dates in warm water for 5 minutes.','Blend all the ingredients into a smooth paste.','Freeze for 30 minutes. Serve topped with frozen berries.'], ua: ['Замочіть фініки в теплій воді на 5 хвилин.','Збийте всі інгредієнти в блендері до однорідної пасти.','Заморозьте на 30 хвилин. Подавайте, прикрасивши замороженими ягодами.'] }
   },
   {
-    slug: 'chocolate-prune-dessert', img: '58-chocolate-prune-dessert.jpg', cat: 'dessert', gi: 40,
+    slug: 'chocolate-prune-dessert', dateAdded: '2026-07-10', img: '58-chocolate-prune-dessert.jpg', cat: 'dessert', gi: 40,
     tags: ['vegetarian'],
     title: { en: 'Chocolate, Prune & Cottage Cheese Dessert', ua: 'Шоколадний десерт з чорносливом і сиром' },
     why: { en: "A no-bake 'anything-in-the-cupboard' dessert — wholegrain bread soaked in carob, layered with a nutty cottage-cheese cream and prunes. Protein-rich, sweetened only by the prunes and stevia.", ua: 'Десерт без випікання «з того, що є вдома» — цільнозерновий хліб, просочений керобом, з горіховим сирним кремом і чорносливом. Багатий на білок, підсолоджений лише чорносливом і стевією.' },
@@ -621,7 +624,7 @@ export const RECIPES = [
     method: { en: ['Cut 4 slices of bread and trim the crusts.','Dissolve the carob in water to a rich solution.','Dip each slice fully.','Lay on a plate.','Blend the cottage cheese with the stevia and nut butter.','Add a little curd mass for softness if needed.','Blend the prunes with a little water.','Spread a thick layer of the nut-cheese cream on the bread.','Add a layer of prunes.','Dust with carob through a sieve, and serve.'], ua: ['Наріжте 4 скибки хліба та зріжте скоринки.','Розведіть кероб у воді до насиченого розчину.','Обмакніть кожну скибку повністю.','Викладіть на тарілку.','Збийте сир зі стевією та горіховою пастою.','За потреби додайте трохи сиркової маси для ніжності.','Збийте чорнослив із невеликою кількістю води.','Викладіть на хліб товстий шар горіхово-сирного крему.','Додайте шар чорносливу.','Посипте керобом через ситечко та подавайте.'] }
   },
   {
-    slug: 'berry-smoothie', img: '59-berry-smoothie.jpg', cat: 'breakfast', gi: 31,
+    slug: 'berry-smoothie', dateAdded: '2026-07-10', img: '59-berry-smoothie.jpg', cat: 'breakfast', gi: 31,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Berry Smoothie', ua: 'Ягідний смузі' },
     why: { en: 'A quick berry-and-yogurt smoothie with flax for protein, fibre and omega-3 — the yogurt and flax slow the fruit sugars.', ua: 'Швидкий ягідно-йогуртовий смузі з льоном для білка, клітковини й омега-3 — йогурт і льон сповільнюють фруктовий цукор.' },
@@ -631,7 +634,7 @@ export const RECIPES = [
     method: { en: ['Blend everything until smooth. Enjoy!'], ua: ['Збийте все в блендері до однорідності. Смачного!'] }
   },
   {
-    slug: 'grapefruit-parsley-smoothie', img: '60-grapefruit-parsley-smoothie.jpg', cat: 'breakfast', gi: 39,
+    slug: 'grapefruit-parsley-smoothie', dateAdded: '2026-07-10', img: '60-grapefruit-parsley-smoothie.jpg', cat: 'breakfast', gi: 39,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Grapefruit & Parsley Smoothie', ua: 'Грейпфрутовий смузі з петрушкою' },
     why: { en: 'A light, cleansing smoothie of grapefruit and parsley with flax — vitamin C and fibre, with barely any sugar.', ua: 'Легкий очищувальний смузі з грейпфрута й петрушки з льоном — вітамін C і клітковина, майже без цукру.' },
@@ -641,7 +644,7 @@ export const RECIPES = [
     method: { en: ['Blend everything until smooth.'], ua: ['Збийте все в блендері до однорідності.'] }
   },
   {
-    slug: 'apple-celery-smoothie', img: '61-apple-celery-smoothie.jpg', cat: 'breakfast', gi: 27,
+    slug: 'apple-celery-smoothie', dateAdded: '2026-07-10', img: '61-apple-celery-smoothie.jpg', cat: 'breakfast', gi: 27,
     tags: ['vegetarian', 'dairy-free', 'gluten-free', 'low-carb'],
     title: { en: 'Apple & Celery Smoothie', ua: 'Смузі з яблуком і селерою' },
     why: { en: 'A simple low-calorie apple-and-celery drink with lemon — fresh, hydrating and very light on carbs.', ua: 'Простий низькокалорійний напій з яблука й селери з лимоном — свіжий, зволожувальний і дуже легкий за вуглеводами.' },
@@ -651,7 +654,7 @@ export const RECIPES = [
     method: { en: ['Blend everything until smooth. Enjoy!'], ua: ['Збийте все в блендері до однорідності. Смачного!'] }
   },
   {
-    slug: 'carrot-smoothie', img: '62-carrot-smoothie.jpg', cat: 'breakfast', gi: 32,
+    slug: 'carrot-smoothie', dateAdded: '2026-07-10', img: '62-carrot-smoothie.jpg', cat: 'breakfast', gi: 32,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Carrot Smoothie', ua: 'Морквяний смузі' },
     why: { en: 'Carrot juice, apple and flax — a light breakfast or afternoon drink with fibre and beta-carotene.', ua: 'Морквяний сік, яблуко й льон — легкий сніданок або полуденок із клітковиною й бета-каротином.' },
@@ -661,7 +664,7 @@ export const RECIPES = [
     method: { en: ['Blend everything until smooth.'], ua: ['Збийте все в блендері до однорідності.'] }
   },
   {
-    slug: 'chocolate-nut-smoothie', img: '63-chocolate-nut-smoothie.jpg', cat: 'breakfast', gi: 26,
+    slug: 'chocolate-nut-smoothie', dateAdded: '2026-07-10', img: '63-chocolate-nut-smoothie.jpg', cat: 'breakfast', gi: 26,
     tags: ['sugar-free', 'vegetarian', 'gluten-free'],
     title: { en: 'Chocolate-Nut Smoothie', ua: 'Шоколадно-горіховий смузі' },
     why: { en: 'A kefir smoothie with peanut butter and carob — a chocolatey drink with protein and no added sugar (carob is naturally sweet).', ua: 'Кефірний смузі з арахісовою пастою й керобом — шоколадний напій із білком і без доданого цукру (кероб солодкий сам по собі).' },
@@ -671,7 +674,7 @@ export const RECIPES = [
     method: { en: ['Blend everything until smooth. Carob is sweet, so you need little stevia — none at all if the peanut butter contains honey.'], ua: ['Збийте все в блендері до однорідності. Кероб солодкий, тож стевії потрібно мало — а якщо арахісова паста з медом, зовсім не підсолоджуйте.'] }
   },
   {
-    slug: 'parsley-walnut-smoothie', img: '64-parsley-walnut-smoothie.jpg', cat: 'breakfast', gi: 37,
+    slug: 'parsley-walnut-smoothie', dateAdded: '2026-07-10', img: '64-parsley-walnut-smoothie.jpg', cat: 'breakfast', gi: 37,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Parsley & Walnut Smoothie', ua: 'Смузі з петрушкою та горіхами' },
     seoTitle: { en: "Parsley & Walnut Smoothie — Green Breakfast, GI 37", ua: "Смузі з петрушкою та волоськими горіхами на сніданок" },
@@ -683,7 +686,7 @@ export const RECIPES = [
     method: { en: ['Blend everything and loosen with a little water if it is too thick.'], ua: ['Збийте все в блендері та розведіть трохи водою, якщо вийшло дуже густо.'] }
   },
   {
-    slug: 'spinach-smoothie', img: '65-spinach-smoothie.jpg', cat: 'breakfast', gi: 15,
+    slug: 'spinach-smoothie', dateAdded: '2026-07-10', img: '65-spinach-smoothie.jpg', cat: 'breakfast', gi: 15,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'low-carb'],
     title: { en: 'Spinach Smoothie', ua: 'Шпинатний смузі' },
     why: { en: 'A green kefir smoothie with spinach and flax — protein, iron and omega-3, very low in sugar. A good start to the day.', ua: 'Зелений кефірний смузі зі шпинатом і льоном — білок, залізо й омега-3, дуже мало цукру. Гарний початок дня.' },
@@ -693,7 +696,7 @@ export const RECIPES = [
     method: { en: ['Blend everything until smooth.'], ua: ['Збийте все в блендері до однорідності.'] }
   },
   {
-    slug: 'easter-kulich-lavender', img: '66-easter-kulich-lavender.jpg', cat: 'baking', gi: 37,
+    slug: 'easter-kulich-lavender', dateAdded: '2026-07-10', img: '66-easter-kulich-lavender.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Easter Kulich with Lavender', ua: 'Пасхальний кулич з лавандою' },
     why: { en: 'A yeast-free Easter kulich with lavender, turmeric and cinnamon — wholegrain and almond flour, sweetened with stevia, with a sunny natural colour from turmeric.', ua: 'Бездріжджовий пасхальний кулич з лавандою, куркумою й корицею — цільнозернове й мигдалеве борошно, підсолоджений стевією, із сонячним природним кольором від куркуми.' },
@@ -703,7 +706,7 @@ export const RECIPES = [
     method: { en: ['Mix the flour and water and refrigerate overnight, covered.','Take the dough out and let it warm; mix all the dry ingredients.','Combine the dough with the wet ingredients, quickly adding the soda and lemon juice at the end.','Grease the moulds and fill with the dough.','Bake at 170°C for about 20 minutes; check with a skewer.'], ua: ['Змішайте борошно й воду та поставте в холодильник на ніч під кришкою.','Вийміть тісто, дайте нагрітися; змішайте всі сухі компоненти.','З’єднайте тісто з вологими інгредієнтами, швидко додавши соду й лимонний сік наприкінці.','Змастіть форми олією та розкладіть тісто.','Випікайте при 170°C близько 20 хвилин; перевірте шпажкою.'] }
   },
   {
-    slug: 'carrot-crisps-honey-yogurt', img: '67-carrot-crisps-honey-yogurt.jpg', cat: 'snack', gi: 45,
+    slug: 'carrot-crisps-honey-yogurt', dateAdded: '2026-07-10', img: '67-carrot-crisps-honey-yogurt.jpg', cat: 'snack', gi: 45,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Carrot Crisps with Honey-Yogurt Dip', ua: 'Морквяні чипси з медово-йогуртовим соусом' },
     why: { en: 'Spiced baked carrot ribbons with a honey-yogurt dip — a wholesome snack with fibre and beta-carotene (a little honey in the dip).', ua: 'Пряні запечені морквяні стрічки з медово-йогуртовим соусом — корисний перекус із клітковиною й бета-каротином (трохи меду в соусі).' },
@@ -713,7 +716,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 205°C.','Wash, peel and dry the carrots; slice into ribbons with a peeler.','Toss with the cinnamon and ginger, spread on a tray and drizzle with oil.','Bake 5 minutes, turn, bake 5 more; leave in the switched-off oven 8 minutes until lightly browned.','Mix the yogurt with honey and serve as a dip.'], ua: ['Розігрійте духовку до 205°C.','Вимийте, почистіть і обсушіть моркву; наріжте стрічками овочечисткою.','Перемішайте з корицею й імбиром, розкладіть на деку та збризніть олією.','Випікайте 5 хвилин, переверніть, ще 5 хвилин; залиште у вимкненій духовці на 8 хвилин до легкого рум’янцю.','Змішайте йогурт із медом і подавайте як соус.'] }
   },
   {
-    slug: 'pineapple-chips', img: '68-pineapple-chips.jpg', cat: 'snack', gi: 31,
+    slug: 'pineapple-chips', dateAdded: '2026-07-10', img: '68-pineapple-chips.jpg', cat: 'snack', gi: 31,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Baked Pineapple Chips', ua: 'Чипси з ананаса' },
     why: { en: 'Thin pineapple slices dried until crisp — no added sugar, just fruit and a little lemon. Naturally high in fruit sugar, so a treat to enjoy in moderation.', ua: 'Тонкі скибочки ананаса, висушені до хрусткості — без доданого цукру, лише фрукт і трохи лимона. Природно багато фруктового цукру, тож ласощі помірно.' },
@@ -723,7 +726,7 @@ export const RECIPES = [
     method: { en: ['Put the sliced pineapple in a bowl, add the lemon juice and toss.','Arrange on a baking sheet.','Sprinkle with salt.','Bake at 50°C for about 7 hours until crisp.','Remove and cool completely for extra crispness.'], ua: ['Покладіть нарізаний ананас у миску, додайте лимонний сік і струсіть.','Розкладіть на деку.','Посипте сіллю.','Сушіть при 50°C близько 7 годин до хрусткості.','Вийміть і повністю охолодіть для більшої хрусткості.'] }
   },
   {
-    slug: 'spiced-apple-chips', img: '69-spiced-apple-chips.jpg', cat: 'snack', gi: 36,
+    slug: 'spiced-apple-chips', dateAdded: '2026-07-10', img: '69-spiced-apple-chips.jpg', cat: 'snack', gi: 36,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Spiced Apple Chips', ua: 'Пряні яблучні чипси' },
     why: { en: 'Thin apple slices baked crisp with cinnamon and nutmeg — no added sugar, a naturally sweet, fibre-rich snack. Best in moderation, as drying concentrates the fruit sugars.', ua: 'Тонкі скибочки яблука, запечені до хрусткості з корицею й мускатним горіхом — без доданого цукру, природно солодкий перекус із клітковиною. Найкраще помірно, бо сушіння концентрує фруктовий цукор.' },
@@ -733,7 +736,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 110°C and line trays with parchment.','Slice the apples as thinly as you can and lay out on the trays.','Dust with cinnamon and a little nutmeg.','Bake 1 hour, turn the apples over and bake another hour.','Remove, peel off the parchment and cool.'], ua: ['Розігрійте духовку до 110°C і застеліть деки пергаментом.','Наріжте яблука якомога тонше та розкладіть на деках.','Посипте корицею й невеликою кількістю мускатного горіха.','Випікайте 1 годину, переверніть яблука та випікайте ще годину.','Вийміть, зніміть з пергаменту та охолодіть.'] }
   },
   {
-    slug: 'tomato-chips', img: '70-tomato-chips.jpg', cat: 'snack', gi: 30,
+    slug: 'tomato-chips', dateAdded: '2026-07-10', img: '70-tomato-chips.jpg', cat: 'snack', gi: 30,
     tags: ['vegetarian', 'dairy-free', 'gluten-free', 'low-carb'],
     title: { en: 'Dehydrated Tomato Chips', ua: 'Томатні чипси в дегідраторі' },
     why: { en: 'Tomato rounds dried with salt and basil until crisp — a savoury, low-carb snack packed with flavour.', ua: 'Кружечки помідорів, висушені з сіллю й базиліком до хрусткості — солоний низьковуглеводний перекус із насиченим смаком.' },
@@ -743,7 +746,7 @@ export const RECIPES = [
     method: { en: ['Slice the tomatoes into 5–6 mm rounds and arrange on dehydrator trays.','Sprinkle with salt and basil.','Dry for 8–12 hours, or until the chips are crisp.'], ua: ['Наріжте помідори кружечками завтовшки 5–6 мм і розкладіть на піддонах дегідратора.','Посипте сіллю й базиліком.','Сушіть 8–12 годин, доки чипси не стануть хрусткими.'] }
   },
   {
-    slug: 'banana-chips', img: '71-banana-chips.jpg', cat: 'snack', gi: 43,
+    slug: 'banana-chips', dateAdded: '2026-07-10', img: '71-banana-chips.jpg', cat: 'snack', gi: 43,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Baked Banana Chips', ua: 'Бананові чипси' },
     why: { en: 'Thin banana slices dried crisp with a squeeze of lemon — no added sugar, a wholesome alternative to crisps. Naturally sweet, so enjoy in moderation.', ua: 'Тонкі скибочки банана, висушені до хрусткості з лимоном — без доданого цукру, корисна заміна чипсам. Природно солодкі, тож помірно.' },
@@ -753,7 +756,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 110°C and line trays with parchment. Slice the bananas thinly (about 3 mm), spread out and sprinkle with lemon juice.','Bake 2–3 hours until fully dried; after 90 minutes peel them off the parchment for better airflow.','Cool 30–60 minutes — they crisp up as they cool (return for 15–20 minutes if needed).'], ua: ['Розігрійте духовку до 110°C і застеліть деки пергаментом. Наріжте банани тонко (близько 3 мм), розкладіть і збризніть лимонним соком.','Сушіть 2–3 години до повного висихання; через 90 хвилин відділіть від пергаменту для кращої циркуляції повітря.','Охолодіть 30–60 хвилин — хрусткими стануть після охолодження (за потреби поверніть на 15–20 хвилин).'] }
   },
   {
-    slug: 'orange-chocolate-truffles', img: '72-orange-chocolate-truffles.jpg', cat: 'dessert', gi: 44,
+    slug: 'orange-chocolate-truffles', dateAdded: '2026-07-10', img: '72-orange-chocolate-truffles.jpg', cat: 'dessert', gi: 44,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Orange-Chocolate Truffles', ua: 'Апельсиново-шоколадні трюфелі' },
     why: { en: 'Cocoa-butter and cacao truffles with orange, set firm in the fridge — sweetened with a little honey, no refined sugar and dairy-free.', ua: 'Трюфелі з какао-масла й какао з апельсином, що застигають у холодильнику — підсолоджені трохи медом, без рафінованого цукру й без молочного.' },
@@ -763,7 +766,7 @@ export const RECIPES = [
     method: { en: ['Melt the cocoa butter over a water bath, stirring 1–2 minutes (do not fully melt).','Mix the melted butter with coconut oil and honey and whisk.','With a mixer, blend the mass with the cocoa, coconut oil, vanilla, juice, zest and salt until smooth.','Transfer to a bowl and chill for 45 minutes.','Form balls with a spoon, place on parchment and chill 10–15 minutes.','For the glaze, melt the cocoa butter over a water bath.','After 1–2 minutes take it off, add the honey and cocoa and whisk briskly.','Dip each ball into the glaze using a toothpick for even coverage.','Sprinkle with orange zest and leave 5–10 minutes at room temperature before chilling.'], ua: ['Розтопіть какао-масло на водяній бані, помішуючи 1–2 хвилини (не розтоплюйте повністю).','Змішайте розтоплене масло з кокосовою олією та медом і збийте.','Міксером збийте масу з какао, кокосовою олією, ваніллю, соком, цедрою та сіллю до гладкості.','Перекладіть у миску та охолодіть 45 хвилин.','Ложкою формуйте кульки, викладайте на пергамент і охолоджуйте 10–15 хвилин.','Для глазурі розтопіть какао-масло на водяній бані.','Через 1–2 хвилини зніміть, додайте мед і какао та енергійно збийте.','Обмакуйте кульки в глазур зубочисткою для рівномірного покриття.','Посипте апельсиновою цедрою та залиште 5–10 хвилин за кімнатної температури перед охолодженням.'] }
   },
   {
-    slug: 'nut-quinoa-pancakes', img: '73-nut-quinoa-pancakes.jpg', cat: 'breakfast', gi: 58,
+    slug: 'nut-quinoa-pancakes', dateAdded: '2026-07-10', img: '73-nut-quinoa-pancakes.jpg', cat: 'breakfast', gi: 58,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Nut Flour & Quinoa Pancakes', ua: 'Млинці з горіхового борошна та кіноа' },
     why: { en: 'Protein-rich pancakes from cooked quinoa and nut flour — gluten-free, filling and low-GI, with just a little honey.', ua: 'Багаті на білок млинці з відвареної кіноа й горіхового борошна — без глютену, ситні й з низьким ГІ, лише з невеликою кількістю меду.' },
@@ -773,7 +776,7 @@ export const RECIPES = [
     method: { en: ['Put all the ingredients in a blender and blend until smooth.','Heat a pan and grease it lightly (a pastry brush helps control the amount).','Pour about ¼ cup of batter per pancake. Cook until golden underneath, then flip.'], ua: ['Помістіть усі інгредієнти в блендер і збийте до однорідності.','Розігрійте сковороду та злегка змастіть (кулінарний пензлик допоможе контролювати кількість).','Виливайте приблизно ¼ склянки тіста на млинець. Готуйте до рум’яності знизу, потім переверніть.'] }
   },
   {
-    slug: 'chewy-gummies', img: '74-chewy-gummies.jpg', cat: 'snack', gi: 20,
+    slug: 'chewy-gummies', dateAdded: '2026-07-10', img: '74-chewy-gummies.jpg', cat: 'snack', gi: 20,
     tags: ['sugar-free', 'dairy-free', 'gluten-free'],
     title: { en: 'Chewy Lemon Gummies (Sugar-free)', ua: 'Жувальні цукерки без цукру' },
     why: { en: 'Homemade gummies from lemon juice, gelatine and stevia — a fun, protein-rich, no-sugar sweet for kids and adults.', ua: 'Домашні жувальні цукерки з лимонного соку, желатину й стевії — весела, багата на білок солодкість без цукру для дітей і дорослих.' },
@@ -783,7 +786,7 @@ export const RECIPES = [
     method: { en: ['Whisk all the ingredients in a pot.','Heat on low until the mixture becomes uniform.','Pour into moulds.','Cool (refrigerate or freeze to speed it up).','Once firm, remove from the moulds and store in an airtight container in the fridge for about two weeks.'], ua: ['Збийте всі інгредієнти в каструлі.','Прогрійте на слабкому вогні до однорідності.','Розлийте у формочки.','Охолодіть (у холодильнику або морозилці для швидкості).','Коли застигне, вийміть із формочок і зберігайте в герметичному контейнері в холодильнику близько двох тижнів.'] }
   },
   {
-    slug: 'chocolate-coconut-nests', img: '75-chocolate-coconut-nests.jpg', cat: 'dessert', gi: 22,
+    slug: 'chocolate-coconut-nests', dateAdded: '2026-07-10', img: '75-chocolate-coconut-nests.jpg', cat: 'dessert', gi: 22,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Chocolate-Coconut Easter Nests', ua: 'Шоколадно-кокосові гнізда' },
     why: { en: "No-bake coconut-and-cacao nests with an almond 'egg' — a cute Easter treat, sweetened with stevia or a little honey, no refined sugar.", ua: 'Кокосово-какаові гнізда без випікання з мигдалевим «яйцем» — милі великодні ласощі, підсолоджені стевією або трохи медом, без рафінованого цукру.' },
@@ -793,7 +796,7 @@ export const RECIPES = [
     method: { en: ['Melt the coconut oil in a heavy-bottomed pan.','Take off the heat and add the sweetener and cacao/carob.','Stir in the coconut flakes.','Roll 2 tbsp of the mix into a ball and shape into a nest.','Press an almond into the centre.','Chill in the fridge for 1 hour.'], ua: ['Розтопіть кокосову олію в каструлі з товстим дном.','Зніміть з вогню, додайте підсолоджувач і какао/кероб.','Вмішайте кокосову стружку.','Скачайте 2 ст. л. суміші в кульку та надайте форму гнізда.','Вдавіть мигдалину в центр.','Охолодіть у холодильнику 1 годину.'] }
   },
   {
-    slug: 'caramel-apples', img: '76-caramel-apples.jpg', cat: 'dessert', gi: 48,
+    slug: 'caramel-apples', dateAdded: '2026-07-10', img: '76-caramel-apples.jpg', cat: 'dessert', gi: 48,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Caramel Apples', ua: 'Яблука в карамелі' },
     why: { en: "Whole apples on sticks dipped in a maple-syrup caramel — a festive treat. This one is genuinely high in sugar from the syrup, so it's an occasional indulgence rather than an everyday low-GI recipe.", ua: 'Цілі яблука на паличках у карамелі з кленового сиропу — святкові ласощі. Через сироп воно справді солодке, тож це радше рідкісна насолода, ніж щоденний рецепт з низьким ГІ.' },
@@ -803,7 +806,7 @@ export const RECIPES = [
     method: { en: ['Mix the syrup, oil and salt and bring to the boil; simmer 5 minutes, stirring.','Cool for 2 minutes.','Line a tray with parchment.','Push a skewer through each apple through the stem.','Dip in the caramel and roll in the toppings.','Place on the parchment and chill.'], ua: ['Змішайте сироп, олію та сіль і доведіть до кипіння; варіть 5 хвилин, помішуючи.','Остудіть 2 хвилини.','Застеліть деко пергаментом.','Проштрикніть кожне яблуко шпажкою через хвостик.','Обмакніть у карамель і обкачайте в обсипці.','Викладіть на пергамент і охолодіть.'] }
   },
   {
-    slug: 'marshmallow-zefir', img: '77-marshmallow-zefir.jpg', cat: 'dessert', gi: 58,
+    slug: 'marshmallow-zefir', dateAdded: '2026-07-10', img: '77-marshmallow-zefir.jpg', cat: 'dessert', gi: 58,
     tags: ['gluten-free', 'dairy-free'],
     title: { en: 'Homemade Marshmallow (No Refined Sugar)', ua: 'Домашній зефір без цукру' },
     why: { en: 'A fluffy homemade marshmallow whipped from gelatine, honey and stevia — no refined sugar, and high in protein from the gelatine. Decorate with coconut, cocoa or nuts.', ua: 'Пухкий домашній зефір, збитий із желатину, меду й стевії — без рафінованого цукру й багатий на білок із желатину. Прикрасьте кокосом, какао чи горіхами.' },
@@ -813,7 +816,7 @@ export const RECIPES = [
     method: { en: ['Put the gelatine in a bowl, cover with the cold water and leave at least 5 minutes.','In a pan, mix the sweeteners with the hot water and bring to the boil.','Gradually pour the hot liquid into the gelatine, stirring constantly, and add the vanilla.','Whip on high until the foam holds a vertical peak.','Pour into a greased or cling-film-lined mould.','Chill and cut into pieces (6–24 hours, or speed up in the freezer).','Decorate with coconut, cocoa or nuts and store in an airtight container.'], ua: ['Висипте желатин у миску, залийте холодною водою та залиште щонайменше на 5 хвилин.','У каструлі змішайте підсолоджувачі з гарячою водою та доведіть до кипіння.','Поступово вливайте гарячу рідину в желатин, постійно помішуючи, і додайте ваніль.','Збивайте на високих обертах, доки піна не триматиме вертикальний пік.','Вилийте у змащену або застелену плівкою форму.','Охолодіть і наріжте (6–24 години або пришвидшіть у морозилці).','Прикрасьте кокосом, какао чи горіхами та зберігайте в герметичному контейнері.'] }
   },
   {
-    slug: 'lemon-coconut-balls', img: '78-lemon-coconut-balls.jpg', cat: 'snack', gi: 40,
+    slug: 'lemon-coconut-balls', dateAdded: '2026-07-10', img: '78-lemon-coconut-balls.jpg', cat: 'snack', gi: 40,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Lemon-Coconut Balls', ua: 'Ніжні лимонно-кокосові кульки' },
     why: { en: 'No-bake coconut-and-almond balls with fresh lemon — bright, whole-food bites sweetened with a little honey.', ua: 'Кокосово-мигдалеві кульки без випікання зі свіжим лимоном — яскраві натуральні цукерки, підсолоджені трохи медом.' },
@@ -823,7 +826,7 @@ export const RECIPES = [
     method: { en: ['Blend all the ingredients in a blender for about 1 minute.','Roll the mass into balls of the size you like.','Roll them in coconut flakes.','Place on a flat plate and chill until firmer.'], ua: ['Збийте всі інгредієнти в блендері близько 1 хвилини.','Скачайте масу в кульки бажаного розміру.','Обкачайте в кокосовій стружці.','Викладіть на пласку тарілку та охолодіть до затвердіння.'] }
   },
   {
-    slug: 'strawberry-cream-cheesecake', img: '79-strawberry-cream-cheesecake.jpg', cat: 'dessert', gi: 32,
+    slug: 'strawberry-cream-cheesecake', dateAdded: '2026-07-10', img: '79-strawberry-cream-cheesecake.jpg', cat: 'dessert', gi: 32,
     tags: ['vegetarian', 'gluten-free'],
     title: { en: 'Strawberry Cream-Cheese Cheesecake (no-bake)', ua: 'Полуничний вершковий чізкейк' },
     why: { en: 'A no-bake cheesecake on a spiced nut base with a cream-cheese filling and fresh strawberries — gluten-free, with the strawberries providing the sweetness.', ua: 'Чізкейк без випікання на пряній горіховій основі з вершковим сиром і свіжою полуницею — без глютену, а солодкість дає полуниця.' },
@@ -833,7 +836,7 @@ export const RECIPES = [
     method: { en: ['Mix the ground nuts, melted butter, nutmeg and cinnamon; press into a tin and chill.','Beat the cream cheese at medium speed, gradually adding milk to the consistency you want.','Add the thickener gradually while beating, until dense.','Spread the cheese mixture over the chilled base.','Add sliced strawberries on top; repeat the layering.','Chill the finished dessert for 1 hour.'], ua: ['Змішайте мелені горіхи, розтоплене масло, мускатний горіх і корицю; викладіть у форму та охолодіть.','Збийте вершковий сир на середній швидкості, поступово додаючи молоко до бажаної консистенції.','Поступово додавайте загусник, збиваючи, до щільності.','Викладіть сирну масу на охолоджену основу.','Зверху викладіть нарізану полуницю; повторіть шари.','Охолодіть готовий десерт 1 годину.'] }
   },
   {
-    slug: 'strawberry-banana-bake', img: '80-strawberry-banana-bake.jpg', cat: 'breakfast', gi: 49,
+    slug: 'strawberry-banana-bake', dateAdded: '2026-07-10', img: '80-strawberry-banana-bake.jpg', cat: 'breakfast', gi: 49,
     tags: ['vegetarian'],
     title: { en: 'Strawberry & Banana Breakfast Bake', ua: 'Полунично-бананова запіканка' },
     why: { en: 'A wholegrain bread bake with banana, strawberries and an egg custard — protein and fibre for a weekend breakfast, sweetened only by the fruit and a drizzle of honey.', ua: 'Запіканка з цільнозернового хліба з бананом, полуницею та яєчною заливкою — білок і клітковина для сніданку вихідного дня, підсолоджена лише фруктами й краплею меду.' },
@@ -843,7 +846,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 190°C and lightly grease a dish. Trim the crusts, cube the bread and put it in the dish.','Mix the banana, strawberries, milk, eggs, cinnamon and vanilla. Pour over the bread.','Bake for 20–25 minutes.','Drizzle with honey before serving.'], ua: ['Розігрійте духовку до 190°C і злегка змастіть форму. Зріжте скоринки, наріжте хліб кубиками та викладіть у форму.','Змішайте банан, полуницю, молоко, яйця, корицю та ванілін. Залийте хліб.','Випікайте 20–25 хвилин.','Перед подачею полийте медом.'] }
   },
   {
-    slug: 'coconut-chia-pudding-raspberry', img: '81-coconut-chia-pudding-raspberry.jpg', cat: 'breakfast', gi: 41,
+    slug: 'coconut-chia-pudding-raspberry', dateAdded: '2026-07-10', img: '81-coconut-chia-pudding-raspberry.jpg', cat: 'breakfast', gi: 41,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Coconut Chia Pudding with Raspberry', ua: 'Кокосовий чіа-пудинг з малиновим пюре' },
     why: { en: 'An overnight chia pudding with coconut milk and yogurt, topped with raspberry purée — fibre, calcium and omega-3 for a steady, no-refined-sugar breakfast.', ua: 'Нічний чіа-пудинг на кокосовому молоці й йогурті з малиновим пюре — клітковина, кальцій та омега-3 для стабільного сніданку без рафінованого цукру.' },
@@ -853,7 +856,7 @@ export const RECIPES = [
     method: { en: ['Mix the coconut milk, yogurt, chia seeds and 1 tbsp honey; refrigerate overnight.','Mash the raspberries with 2 tbsp honey to a purée.','Spoon the pudding into glasses and top with the raspberry purée before serving.'], ua: ['Змішайте кокосове молоко, йогурт, насіння чіа та 1 ст. л. меду; поставте в холодильник на ніч.','Розімніть малину з 2 ст. л. меду до пюре.','Розкладіть пудинг по стаканах і прикрасьте малиновим пюре перед подачею.'] }
   },
   {
-    slug: 'rye-kulich-ginger-anise', img: '82-rye-kulich-ginger-anise.jpg', cat: 'baking', gi: 42,
+    slug: 'rye-kulich-ginger-anise', dateAdded: '2026-07-10', img: '82-rye-kulich-ginger-anise.jpg', cat: 'baking', gi: 42,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Rye Easter Kulich with Ginger & Anise', ua: 'Пасхальний кулич на житньому борошні з імбиром та анісом' },
     why: { en: 'A lighter Easter kulich on coarse rye flour with dried fruit, ginger and anise — wholegrain and yeast-free, sweetened with stevia and the fruit.', ua: 'Легший пасхальний кулич на житньому борошні грубого помелу з сухофруктами, імбиром та анісом — цільнозерновий і бездріжджовий, підсолоджений стевією та фруктами.' },
@@ -863,7 +866,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 165°C and grease the moulds (about 11 cm).','Sift the flour into a bowl; add the anise, salt, soda and ground ginger and mix.','Add the dried fruit (chop the large pieces) and mix well.','Stir the stevia into 150 ml of the reserved fruit water, then add the flaxseed meal and leave to swell.','Pour the swollen flax mixture into the bowl, add the lemon juice and mix gently.','Divide the dough between the moulds.','Bake about 40 minutes, covering with foil for the last 10 minutes.','Turn out and cool; decorate with coconut, dried fruit and honey if you like.'], ua: ['Розігрійте духовку до 165°C і змастіть форми (близько 11 см).','Просійте борошно в миску; додайте аніс, сіль, соду та мелений імбир і перемішайте.','Додайте сухофрукти (великі поріжте) і добре перемішайте.','Розмішайте стевію у 150 мл води з-під фруктів, потім додайте лляний шрот і залиште набухати.','Влийте набухлу лляну суміш у миску, додайте лимонний сік і акуратно перемішайте.','Розподіліть тісто по формах.','Випікайте близько 40 хвилин, накривши фольгою останні 10 хвилин.','Вийміть із форм і охолодіть; за бажанням прикрасьте кокосом, сухофруктами й медом.'] }
   },
   {
-    slug: 'rhubarb-cherry-leaf-jam', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 22,
+    slug: 'rhubarb-cherry-leaf-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 22,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rhubarb Jam with Cherry Leaves', ua: 'Варення з ревеню з вишневими листками' },
     why: { en: 'A low-calorie rhubarb jam steeped with cherry leaves for aroma and sweetened with stevia — no sugar.', ua: 'Низькокалорійне варення з ревеню, настояне на вишневих листках для аромату та підсолоджене стевією — без цукру.' },
@@ -873,7 +876,7 @@ export const RECIPES = [
     method: { en: ['Layer the rhubarb with the cherry leaves.','Cover with boiling water and steep about 3 hours.','Drain (keep the water).','Remove the cherry leaves.','Add a scant cup of the reserved water and cook until soft.','When soft, stir in the stevia and steep 30 minutes.','Pour into sterilised jars.'], ua: ['Викладіть ревінь шарами, чергуючи з вишневими листками.','Залийте окропом і настоюйте близько 3 годин.','Злийте воду (збережіть її).','Приберіть вишневі листки.','Додайте неповну склянку збереженої води та варіть до м’якості.','Коли ревінь розм’якне, вмішайте стевію та настоюйте 30 хвилин.','Розлийте по стерилізованих банках.'] }
   },
   {
-    slug: 'rhubarb-orange-jam', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 43,
+    slug: 'rhubarb-orange-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 43,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rhubarb & Orange Jam', ua: 'Варення з ревеню з апельсинами' },
     why: { en: 'Rhubarb simmered with fresh orange and sweetened with stevia — a bright, no-sugar jam.', ua: 'Ревінь, зварений зі свіжим апельсином і підсолоджений стевією — яскраве варення без цукру.' },
@@ -883,7 +886,7 @@ export const RECIPES = [
     method: { en: ['Chop the oranges finely and put in a pan with the rhubarb.','Add ½ cup water and simmer gently until soft.','Stir in the stevia and mix well.','Pour into sterilised jars.'], ua: ['Дрібно наріжте апельсини та покладіть у каструлю з ревенем.','Додайте ½ склянки води та варіть на слабкому вогні до м’якості.','Вмішайте стевію та добре перемішайте.','Розлийте по стерилізованих банках.'] }
   },
   {
-    slug: 'rhubarb-quick-jam', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 20,
+    slug: 'rhubarb-quick-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Quick Baked Rhubarb Jam', ua: 'Варення з ревеню «П’ятихвилинка»' },
     why: { en: 'A fuss-free rhubarb jam baked in the oven and blended, sharpened with lemon and ginger and sweetened with stevia — no sugar.', ua: 'Просте варення з ревеню, запечене в духовці й збите, з лимоном та імбиром, підсолоджене стевією — без цукру.' },
@@ -893,7 +896,7 @@ export const RECIPES = [
     method: { en: ['Put the rhubarb in a baking dish, add the lemon juice, salt and water (add the zest too if you like).','Bake at 180°C for 30–40 minutes.','Add the ginger and blend the mixture.','Sweeten with stevia and mix.'], ua: ['Викладіть ревінь у форму, додайте лимонний сік, сіль і воду (за бажанням додайте цедру).','Запікайте при 180°C 30–40 хвилин.','Додайте імбир і збийте масу блендером.','Підсолодіть стевією та перемішайте.'] }
   },
   {
-    slug: 'rhubarb-lavender-jam', img: '84-rhubarb-lavender-jam.jpg', cat: 'sauce', gi: 20,
+    slug: 'rhubarb-lavender-jam', dateAdded: '2026-07-10', img: '84-rhubarb-lavender-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'dairy-free'],
     title: { en: 'Rhubarb & Lavender Jam (Sugar-free)', ua: 'Варення з ревеню з лавандою (без цукру)' },
     why: { en: 'Rhubarb is naturally very low in sugar, and stevia replaces it entirely — stevia even has mild preservative properties. A fragrant, low-GI jam for spooning over yogurt or wholegrain toast.', ua: 'Ревінь від природи містить дуже мало цукру, а стевія повністю його замінює — до того ж стевія має легкі консервувальні властивості. Ароматне варення з низьким ГІ до йогурту чи цільнозернового тосту.' },
@@ -904,7 +907,7 @@ export const RECIPES = [
     note: { en: 'Rhubarb is best in spring — before mid-June the stems are tender; later they turn dry and fibrous. Use agar or pectin instead of gelatin for a vegetarian jam.', ua: 'Ревінь найкращий навесні — до середини червня стебла ніжні, пізніше стають сухими й волокнистими. Замість желатину візьміть агар або пектин, щоб варення було вегетаріанським.' }
   },
   {
-    slug: 'turkey-meatloaf-parsley', img: '85-turkey-meatloaf-parsley.jpg', cat: 'main', gi: 15,
+    slug: 'turkey-meatloaf-parsley', dateAdded: '2026-07-10', img: '85-turkey-meatloaf-parsley.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'dairy-free'],
     title: { en: 'Turkey & Parsley Meatloaf', ua: 'Мітлоф з індички з петрушкою' },
     why: { en: 'Lean turkey breast is high in protein with almost no carbohydrate, and the beans add slow-digesting fibre in place of the usual breadcrumbs — so this meatloaf keeps you full without spiking blood sugar.', ua: 'Пісне філе індички багате на білок і майже не містить вуглеводів, а квасоля додає повільну клітковину замість звичних сухарів — тож мітлоф добре насичує без стрибків цукру.' },
@@ -915,7 +918,7 @@ export const RECIPES = [
     note: { en: 'Make it ahead, chill, and slice cold for lunches — it holds together well straight from the fridge.', ua: 'Приготуйте заздалегідь, охолодіть і нарізайте холодним для обідів — він добре тримає форму просто з холодильника.' }
   },
   {
-    slug: 'chocolate-cake-nut-cream', img: '86-chocolate-cake-nut-cream.jpg', cat: 'baking', gi: 37,
+    slug: 'chocolate-cake-nut-cream', dateAdded: '2026-07-10', img: '86-chocolate-cake-nut-cream.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Chocolate Cake with Nut Cream (Sugar-free)', ua: 'Шоколадний торт з горіховим кремом (без цукру)' },
     why: { en: 'Oat flour has a lower GI than wheat, and carob or cocoa brings deep chocolate flavour with no added sugar — stevia does the sweetening. Peanut butter in the cream adds protein and healthy fat that slow digestion.', ua: 'Вівсяне борошно має нижчий ГІ, ніж пшеничне, а ріжкове борошно чи какао дають насичений шоколадний смак без доданого цукру — солодкість забезпечує стевія. Арахісова паста в кремі додає білок і корисні жири, що сповільнюють засвоєння.' },
@@ -925,7 +928,7 @@ export const RECIPES = [
     method: { en: ['Preheat the multicooker on "Baking" (or heat the oven to 150°C).','Mix all the cake ingredients except the lime juice.','Fold in the lime juice at the last moment to aerate the batter, then pour straight into the pot (or a lined tin).','Bake about 40 minutes, until a wooden pick comes out clean.','For the cream, mix all the cream ingredients until smooth — loosen with a little milk or thicken with more carob as needed.','Spread the cream over the cooled cake and chill until set before slicing.'], ua: ['Розігрійте мультиварку в режимі «Випічка» (або духовку до 150°C).','Змішайте всі інгредієнти для тіста, окрім соку лайма.','В останній момент вмішайте сік лайма, щоб наситити тісто повітрям, і одразу вилийте його в чашу (або форму з пергаментом).','Випікайте близько 40 хвилин, доки дерев’яна шпажка не виходитиме сухою.','Для крему змішайте всі інгредієнти до однорідності — за потреби розведіть молоком або згустіть ріжковим борошном.','Намастіть крем на охолоджений корж і поставте в холод до застигання перед нарізанням.'] }
   },
   {
-    slug: 'broccoli-spinach-cream-soup', img: '87-broccoli-spinach-cream-soup.jpg', cat: 'main', gi: 18,
+    slug: 'broccoli-spinach-cream-soup', dateAdded: '2026-07-10', img: '87-broccoli-spinach-cream-soup.jpg', cat: 'main', gi: 18,
     tags: ['gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Green Cream Soup (Broccoli & Spinach)', ua: 'Зелений крем-суп з броколі та шпинатом' },
     why: { en: 'Broccoli and spinach are non-starchy, low-GI vegetables packed with fibre. Steaming keeps their nutrients and colour, and a little cream and almonds add protein and fat that steady blood sugar.', ua: 'Броколі та шпинат — некрохмалисті овочі з низьким ГІ, багаті на клітковину. Приготування на парі зберігає поживні речовини й колір, а трохи вершків і мигдалю додають білок і жири, що стабілізують цукор.' },
@@ -935,7 +938,7 @@ export const RECIPES = [
     method: { en: ['Rinse the broccoli and break into florets. Steam for about 20 minutes — steaming keeps the bright green colour.','Add the spinach and steam for 1 minute more.','Transfer the vegetables to a jug, season with salt and pepper, and blend with a stick blender, adding the cream and a little cooking water until smooth and creamy.','Serve topped with roasted chopped almonds — sautéed mushrooms, prawns or a little salmon also work well.'], ua: ['Промийте броколі та розберіть на суцвіття. Готуйте на парі близько 20 хвилин — пара зберігає яскраво-зелений колір.','Додайте шпинат і потримайте на парі ще 1 хвилину.','Перекладіть овочі в чашу, приправте сіллю та перцем і збийте занурювальним блендером, поступово додаючи вершки й трохи відвару до однорідної кремової консистенції.','Подавайте, посипавши смаженим подрібненим мигдалем — також пасують обсмажені гриби, креветки чи трохи лосося.'] }
   },
   {
-    slug: 'coconut-cheesecake', img: '88-coconut-cheesecake.jpg', cat: 'dessert', gi: 48,
+    slug: 'coconut-cheesecake', dateAdded: '2026-07-10', img: '88-coconut-cheesecake.jpg', cat: 'dessert', gi: 48,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'The Best Coconut Cheesecake (Sugar-free)', ua: 'Найкращий кокосовий чизкейк (без цукру)' },
     why: { en: 'A lighter cheesecake built on high-protein cottage cheese and coconut instead of heaps of sugar. Stevia sweetens it, and the coconut oil and cream give richness without a blood-sugar spike.', ua: 'Легший чизкейк на основі багатого білком сиру та кокоса замість гори цукру. Солодкість дає стевія, а кокосова олія та вершки — вершковість без стрибка цукру.' },
@@ -945,7 +948,7 @@ export const RECIPES = [
     method: { en: ['Gradually mix the peanut butter with the flour to a firm, pliable dough — add a little more flour if it sticks.','Roll or press the dough into a thin sheet on baking paper.','Bake in a multicooker on "Oven"/"Multicook" at 150°C (or a 150°C oven) for 5–7 minutes, then cool.','Mix the cottage cheese, coconut oil, coconut shreds, stevia and vanilla thoroughly by hand, not a blender.','Crumble the cooled crust finely and moisten with 1–2 tbsp coconut cream.','Using a small ring mould, layer crust crumbs and cheese mixture alternately.','Top with berries, herbs, nuts or a little of the reserved crumb.'], ua: ['Поступово змішайте арахісову пасту з борошном до щільного пластичного тіста — додайте трохи борошна, якщо липне.','Розкачайте або розподіліть тісто тонким пластом на пергаменті.','Випікайте в мультиварці в режимі «Духовка»/«Мультиповар» при 150°C (або в духовці при 150°C) 5–7 хвилин, потім охолодіть.','Ретельно змішайте руками, не блендером, сир, кокосову олію, кокосову стружку, стевію та ваніль.','Дрібно покришіть охолоджений корж і зволожте 1–2 ст. л. кокосових вершків.','За допомогою невеликого кільця викладайте шарами крихту коржа та сирну масу.','Прикрасьте ягодами, зеленню, горіхами або рештою крихти.'] }
   },
   {
-    slug: 'blueberry-jam', img: '89-blueberry-jam.jpg', cat: 'sauce', gi: 53,
+    slug: 'blueberry-jam', dateAdded: '2026-07-10', img: '89-blueberry-jam.jpg', cat: 'sauce', gi: 53,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Sugar-free Blueberry Jam', ua: 'Чорничний джем: рецепт без цукру' },
     seoTitle: { en: "Sugar-free Blueberry Jam — Set with Agar, No Pectin", ua: "Чорничний джем без цукру — на агарі та стевії, ГІ 53" },
@@ -957,7 +960,7 @@ export const RECIPES = [
     method: { en: ['Sort the blueberries, discarding twigs and damaged berries, then rinse and drain.','Blend the berries with the stevia to a smooth purée; taste and adjust the sweetness.','Transfer to a pan (or multicooker on "Baking"), bring to the boil, stir, then reduce to a gentle simmer.','Dissolve the agar in a little hot water, stirring until fully dissolved.','Stir the agar into the purée and simmer for 20–30 minutes.','Pour into sterilised jars, seal and cool.'], ua: ['Переберіть чорницю, видаливши гілочки та пошкоджені ягоди, потім промийте й дайте стекти.','Збийте ягоди зі стевією до однорідного пюре; скуштуйте та відрегулюйте солодкість.','Перекладіть у каструлю (або мультиварку в режимі «Випічка»), доведіть до кипіння, перемішайте, потім зменшіть вогонь.','Розчиніть агар у невеликій кількості гарячої води, помішуючи до повного розчинення.','Вмішайте агар у пюре та варіть на слабкому вогні 20–30 хвилин.','Розлийте по стерилізованих банках, закрийте та охолодіть.'] }
   },
   {
-    slug: 'barley-mushroom-perlotto', img: '90-barley-mushroom-perlotto.jpg', cat: 'main', gi: 23,
+    slug: 'barley-mushroom-perlotto', dateAdded: '2026-07-10', img: '90-barley-mushroom-perlotto.jpg', cat: 'main', gi: 23,
     tags: ['vegetarian'],
     title: { en: 'Pearl Barley Perlotto with Mushrooms & Goat Cheese', ua: 'Перлотто з грибами та козячим сиром' },
     why: { en: 'Pearl barley has one of the lowest GIs of any grain (around 25) thanks to its beta-glucan fibre — a much gentler choice than the Arborio rice of a classic risotto. Mushrooms and goat cheese add protein and savoury depth.', ua: 'Перлова крупа має один із найнижчих ГІ серед зернових (близько 25) завдяки клітковині бета-глюкану — набагато м’якший вибір, ніж рис арборіо у класичному різото. Гриби та козячий сир додають білок і насичений смак.' },
@@ -968,7 +971,7 @@ export const RECIPES = [
     note: { en: 'Pearl barley contains gluten. Cook it slowly, risotto-style, so it turns creamy while keeping its low-GI advantage.', ua: 'Перлова крупа містить глютен. Готуйте її повільно, як різото, щоб вона стала кремовою, зберігши низький ГІ.' }
   },
   {
-    slug: 'fruit-popsicles', img: '91-fruit-popsicles.jpg', cat: 'dessert', gi: 51,
+    slug: 'fruit-popsicles', dateAdded: '2026-07-10', img: '91-fruit-popsicles.jpg', cat: 'dessert', gi: 51,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Homemade Fruit Popsicles', ua: 'Домашнє фруктове ескімо' },
     seoTitle: { en: "Homemade Fruit Popsicles — No Added Sugar, 3 Ingredients", ua: "Фруктове ескімо без цукру — 3 інгредієнти" },
@@ -981,7 +984,7 @@ export const RECIPES = [
     note: { en: 'Swap the fruit freely — any berries or soft fruit work.', ua: 'Фрукти можна змінювати як завгодно — підійдуть будь-які ягоди чи м’які фрукти.' }
   },
   {
-    slug: 'blackberry-sorbet', img: '92-blackberry-sorbet.jpg', cat: 'dessert', gi: 42,
+    slug: 'blackberry-sorbet', dateAdded: '2026-07-10', img: '92-blackberry-sorbet.jpg', cat: 'dessert', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Homemade Blackberry Sorbet', ua: 'Домашній ожиновий сорбет' },
     why: { en: 'A two-fruit sorbet with no dairy and no added sugar beyond an optional spoon of honey. Blackberries and apple freeze into fine ice crystals, so it is light and refreshing with a modest glycaemic load.', ua: 'Сорбет із двох фруктів без молочних продуктів і без доданого цукру, окрім необов’язкової ложки меду. Ожина та яблуко замерзають дрібними кристаликами, тож десерт легкий і освіжний із помірним глікемічним навантаженням.' },
@@ -992,7 +995,7 @@ export const RECIPES = [
     note: { en: 'Leave out the honey for a sharper, fully sugar-free sorbet.', ua: 'Не додавайте мед для кислішого, повністю безцукрового сорбету.' }
   },
   {
-    slug: 'zucchini-spaghetti-salmon', img: '93-zucchini-spaghetti-salmon.jpg', cat: 'main', gi: 15,
+    slug: 'zucchini-spaghetti-salmon', dateAdded: '2026-07-10', img: '93-zucchini-spaghetti-salmon.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
     title: { en: 'Zucchini Spaghetti with Salmon', ua: 'Спагеті з кабачка з лососем' },
     why: { en: 'Ribbons of courgette stand in for pasta, cutting the carbs to almost nothing while keeping the shape and feel of spaghetti. Salmon adds protein and omega-3, for a quick low-GI main.', ua: 'Стрічки кабачка замінюють макарони, зводячи вуглеводи майже до нуля, але зберігаючи форму й відчуття спагеті. Лосось додає білок та омега-3 — швидка основна страва з низьким ГІ.' },
@@ -1002,7 +1005,7 @@ export const RECIPES = [
     method: { en: ['Wash the courgette and peel it with a flat vegetable peeler.','Using the serrated side of the peeler, shave the courgette into thin "spaghetti"; separate the strands by hand.','Warm the strands in a dry non-stick pan for 1–2 minutes — they should soften but stay firm, not fry.','Add the salt, garlic, vinegar and flaked salmon, toss together and heat for 1 minute more.'], ua: ['Помийте кабачок і почистіть його овочечисткою з пласким лезом.','Зубчастим боком чистки настружіть кабачок тонкими «спагеті»; розділіть стрічки руками.','Прогрійте стрічки на сухій сковороді з антипригарним покриттям 1–2 хвилини — вони мають розм’якнути, але не смажитися.','Додайте сіль, часник, оцет і шматочки лосося, перемішайте та прогрійте ще 1 хвилину.'] }
   },
   {
-    slug: 'maple-pumpkin-butter', img: '94-maple-pumpkin-butter.jpg', cat: 'sauce', gi: 65,
+    slug: 'maple-pumpkin-butter', dateAdded: '2026-07-10', img: '94-maple-pumpkin-butter.jpg', cat: 'sauce', gi: 65,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Maple Pumpkin Butter', ua: 'Кленово-гарбузове масло' },
     why: { en: 'A spiced pumpkin spread thickened only by slow cooking — no sugar, just a little maple syrup (or stevia). Pumpkin is low-calorie and high in fibre, and the warming spices help with blood-sugar control.', ua: 'Пряна гарбузова паста, згущена лише повільним варінням — без цукру, з невеликою кількістю кленового сиропу (або стевією). Гарбуз низькокалорійний і багатий на клітковину, а зігрівальні прянощі допомагають контролювати цукор.' },
@@ -1013,7 +1016,7 @@ export const RECIPES = [
     note: { en: 'Use it like jam — on toast, or stirred into yogurt or porridge. The homemade pumpkin purée on this page makes the perfect base.', ua: 'Використовуйте як варення — на тості або в йогурті чи каші. Ідеальною основою стане домашнє гарбузове пюре з цієї сторінки.' }
   },
   {
-    slug: 'pumpkin-hummus', img: '95-pumpkin-hummus.jpg', cat: 'snack', gi: 36,
+    slug: 'pumpkin-hummus', dateAdded: '2026-07-10', img: '95-pumpkin-hummus.jpg', cat: 'snack', gi: 36,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Spicy Pumpkin Hummus', ua: 'Гострий гарбузовий хумус' },
     why: { en: 'Chickpeas are a low-GI pulse rich in protein and fibre, and pumpkin purée lightens the classic hummus while adding beta-carotene. A savoury dip that will not spike blood sugar.', ua: 'Нут — бобова культура з низьким ГІ, багата на білок і клітковину, а гарбузове пюре робить класичний хумус легшим і додає бета-каротин. Пікантний соус, що не підвищує цукор.' },
@@ -1023,7 +1026,7 @@ export const RECIPES = [
     method: { en: ['Drain the chickpeas, reserving a little of the liquid.','Blend the chickpeas to a smooth paste, loosening with the reserved liquid.','Add the pumpkin purée, garlic, lemon juice and spices and blend well.','Add the olive oil last and blend through.','Taste, adjust the lemon and seasoning, and serve.'], ua: ['Злийте рідину з нуту, залишивши трохи.','Збийте нут до гладкої пасти, розводячи залишеною рідиною.','Додайте гарбузове пюре, часник, лимонний сік і прянощі та добре збийте.','Останньою додайте оливкову олію та збийте.','Скуштуйте, відрегулюйте лимон і приправи та подавайте.'] }
   },
   {
-    slug: 'pumpkin-ice-cream', img: '96-pumpkin-ice-cream.jpg', cat: 'dessert', gi: 58,
+    slug: 'pumpkin-ice-cream', dateAdded: '2026-07-10', img: '96-pumpkin-ice-cream.jpg', cat: 'dessert', gi: 58,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Healthy Pumpkin Ice Cream', ua: 'Корисне гарбузове морозиво' },
     why: { en: 'Frozen banana blends into a creamy "nice cream" with no dairy and no added sugar. Pumpkin purée and warming spice make it taste like pumpkin pie, with fibre that softens the glycaemic hit.', ua: 'Заморожений банан збивається в кремове морозиво без молочних продуктів і доданого цукру. Гарбузове пюре та зігрівальні прянощі надають смаку гарбузового пирога, а клітковина пом’якшує глікемічний вплив.' },
@@ -1034,7 +1037,7 @@ export const RECIPES = [
     note: { en: 'Swap the maple syrup for stevia to make it fully sugar-free.', ua: 'Замініть кленовий сироп стевією, щоб зробити його повністю безцукровим.' }
   },
   {
-    slug: 'pumpkin-yogurt', img: '97-pumpkin-yogurt.jpg', cat: 'breakfast', gi: 62,
+    slug: 'pumpkin-yogurt', dateAdded: '2026-07-10', img: '97-pumpkin-yogurt.jpg', cat: 'breakfast', gi: 62,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Healthy Pumpkin Yogurt', ua: 'Корисний гарбузовий йогурт' },
     why: { en: 'A two-minute, protein-rich breakfast: plain low-fat yogurt stirred with pumpkin purée and vanilla, no sugar. The protein and fibre keep you full and blood sugar steady through the morning.', ua: 'Двохвилинний багатий білком сніданок: звичайний нежирний йогурт із гарбузовим пюре та ваніллю, без цукру. Білок і клітковина добре насичують і тримають цукор стабільним усе ранок.' },
@@ -1045,7 +1048,7 @@ export const RECIPES = [
     note: { en: 'Use frozen pumpkin purée straight from the freezer to save time.', ua: 'Щоб заощадити час, використовуйте заморожене гарбузове пюре просто з морозилки.' }
   },
   {
-    slug: 'pumpkin-puree', img: '98-pumpkin-puree.jpg', cat: 'sauce', gi: 55,
+    slug: 'pumpkin-puree', dateAdded: '2026-07-10', img: '98-pumpkin-puree.jpg', cat: 'sauce', gi: 55,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free', 'low-carb'],
     title: { en: 'Homemade Pumpkin Purée', ua: 'Домашнє гарбузове пюре' },
     why: { en: 'Nothing but roasted pumpkin — low-calorie, high in fibre and beta-carotene, with a moderate GI. Make a batch and freeze it as the base for the pumpkin butter, hummus, ice cream and yogurt on this page.', ua: 'Нічого, крім запеченого гарбуза — низькокалорійного, багатого на клітковину та бета-каротин, із помірним ГІ. Приготуйте партію та заморозьте як основу для гарбузового масла, хумусу, морозива та йогурту з цієї сторінки.' },
@@ -1055,7 +1058,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 175°C.','Wash and dry the pumpkin, then carefully cut it in half from the stem.','Scoop out the seeds and stringy pulp (keep the seeds for roasting). Rub the cut sides with olive oil.','Place cut-side down on a parchment-lined tray and bake until soft, about 60–90 minutes.','Cool, then scoop out the flesh and blend until smooth, adding the water if needed. Strain through cheesecloth if too watery.','Use straight away, or portion and freeze.'], ua: ['Розігрійте духовку до 175°C.','Помийте та обсушіть гарбуз, потім обережно розріжте його навпіл від хвостика.','Виберіть насіння та волокнисту м’якоть (насіння збережіть для підсмажування). Змастіть зрізи оливковою олією.','Викладіть зрізом донизу на застелене пергаментом деко та запікайте до м’якості, близько 60–90 хвилин.','Охолодіть, вийміть м’якоть і збийте до однорідності, за потреби додавши воду. Якщо занадто рідке, відкиньте на марлю.','Використовуйте одразу або розділіть на порції та заморозьте.'] }
   },
   {
-    slug: 'granola-bars-blueberry', img: '99-granola-bars-blueberry.jpg', cat: 'snack', gi: 47,
+    slug: 'granola-bars-blueberry', dateAdded: '2026-07-10', img: '99-granola-bars-blueberry.jpg', cat: 'snack', gi: 47,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Blueberry Granola Bars', ua: 'Батончики з гранолою та чорницею' },
     why: { en: 'Oats and almonds give slow-release energy and fibre, while banana and a little honey do the sweetening instead of refined sugar. Blueberries add antioxidants — a portable snack that keeps blood sugar steadier than a shop-bought bar.', ua: 'Овес і мигдаль дають повільну енергію та клітковину, а солодкість забезпечують банан і трохи меду замість рафінованого цукру. Чорниця додає антиоксиданти — портативний перекус, що тримає цукор стабільнішим, ніж магазинний батончик.' },
@@ -1066,7 +1069,7 @@ export const RECIPES = [
     note: { en: 'Store in an airtight container in the fridge.', ua: 'Зберігайте в герметичному контейнері в холодильнику.' }
   },
   {
-    slug: 'granola-bars-date-coconut', img: '100-granola-bars-date-coconut.jpg', cat: 'snack', gi: 42,
+    slug: 'granola-bars-date-coconut', dateAdded: '2026-07-10', img: '100-granola-bars-date-coconut.jpg', cat: 'snack', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'No-Bake Date & Coconut Granola Bars', ua: 'Батончики з фініками та кокосом (без випікання)' },
     why: { en: 'Just whole-food ingredients bound by dates and nut butter — no baking, no added sugar and no oats, so they are naturally gluten-free. The fat and fibre slow down the natural sugar from the dates.', ua: 'Лише натуральні інгредієнти, скріплені фініками та горіховою пастою — без випікання, доданого цукру та вівса, тож вони природно без глютену. Жир і клітковина сповільнюють природний цукор фініків.' },
@@ -1077,7 +1080,7 @@ export const RECIPES = [
     note: { en: 'Keep refrigerated in an airtight container.', ua: 'Зберігайте в холодильнику в герметичному контейнері.' }
   },
   {
-    slug: 'granola-bars-5-ingredient', img: '101-granola-bars-5-ingredient.jpg', cat: 'snack', gi: 48,
+    slug: 'granola-bars-5-ingredient', dateAdded: '2026-07-10', img: '101-granola-bars-5-ingredient.jpg', cat: 'snack', gi: 48,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: '5-Ingredient Granola Bars', ua: 'Батончики з гранолою з 5 інгредієнтів' },
     why: { en: 'Five simple ingredients — oats, almonds and dates for fibre, with just enough honey and peanut butter to bind. A steady-energy snack with no refined sugar.', ua: 'П’ять простих інгредієнтів — овес, мигдаль і фініки для клітковини, з невеликою кількістю меду та арахісової пасти для скріплення. Перекус зі стабільною енергією без рафінованого цукру.' },
@@ -1087,7 +1090,7 @@ export const RECIPES = [
     method: { en: ['Blend the dates to a dough-like paste.','In a bowl, combine the oats, almonds and dates.','Warm the honey and peanut butter in a bain-marie until pourable, then stir into the dry mix.','Press firmly into a ~20×20 cm parchment-lined tin.','Cover and freeze for 20 minutes to firm up.','Cut into 10–12 bars and store in an airtight container.'], ua: ['Збийте фініки до тістоподібної пасти.','У мисці змішайте овес, мигдаль і фініки.','Прогрійте мед і арахісову пасту на водяній бані до текучості, потім вмішайте в суху суміш.','Щільно вкладіть у форму ~20×20 см, застелену пергаментом.','Накрийте та заморозьте на 20 хвилин для застигання.','Наріжте на 10–12 батончиків і зберігайте в герметичному контейнері.'] }
   },
   {
-    slug: 'granola-bars-chocolate-chia', img: '102-granola-bars-chocolate-chia.jpg', cat: 'snack', gi: 46,
+    slug: 'granola-bars-chocolate-chia', dateAdded: '2026-07-10', img: '102-granola-bars-chocolate-chia.jpg', cat: 'snack', gi: 46,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Chocolate Chip & Chia Granola Bars', ua: 'Батончики з гранолою, шоколадом і чіа' },
     why: { en: 'Oats, chia and peanut butter pack in fibre, omega-3 and protein, so a small square of chocolate goes a long way. Sweetened with maple rather than sugar and held together with coconut oil.', ua: 'Овес, чіа та арахісова паста насичені клітковиною, омега-3 і білком, тож маленький квадратик шоколаду відчувається сповна. Підсолоджено кленовим сиропом замість цукру та скріплено кокосовою олією.' },
@@ -1098,7 +1101,7 @@ export const RECIPES = [
     note: { en: 'Keep them cold — at room temperature the coconut oil softens and they crumble.', ua: 'Тримайте в холоді — за кімнатної температури кокосова олія розм’якшується, і батончики кришаться.' }
   },
   {
-    slug: 'granola-bars-homemade', img: '103-granola-bars-homemade.jpg', cat: 'snack', gi: 52,
+    slug: 'granola-bars-homemade', dateAdded: '2026-07-10', img: '103-granola-bars-homemade.jpg', cat: 'snack', gi: 52,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Big-Batch Homemade Granola Bars', ua: 'Домашні батончики з гранолою (велика партія)' },
     why: { en: 'A loaded bar of oats, four kinds of nuts and seeds and dried fruit — lots of fibre, protein and healthy fat. Honey and brown rice syrup bind it with no refined sugar. Rich, so a small square satisfies.', ua: 'Насичений батончик з вівса, чотирьох видів горіхів і насіння та сухофруктів — багато клітковини, білка й корисних жирів. Мед і сироп з коричневого рису скріплюють без рафінованого цукру. Ситний — маленького квадратика достатньо.' },
@@ -1108,7 +1111,7 @@ export const RECIPES = [
     method: { en: ['Blend 1½ cups of the oats to fine crumbs.','In a large bowl combine the ground and whole oats, nuts, seeds, coconut and dried fruit.','Warm the honey, brown rice syrup and coconut oil in a bain-marie, then stir in the vanilla and salt.','Pour the syrup over the dry mix and stir until everything is coated.','Spread onto a parchment-lined tray, cover and refrigerate for 2 hours.','Cut into squares and store in an airtight container, in the fridge or a cool dark place, for up to 2 weeks.'], ua: ['Збийте 1½ склянки вівса до дрібної крихти.','У великій мисці змішайте мелений і цілий овес, горіхи, насіння, кокос і сухофрукти.','Прогрійте мед, рисовий сироп і кокосову олію на водяній бані, потім вмішайте ваніль і сіль.','Полийте сиропом суху суміш і перемішайте, доки все не вкриється.','Розподіліть на застеленому пергаментом деку, накрийте та охолоджуйте 2 години.','Наріжте на квадратики та зберігайте в герметичному контейнері, у холодильнику чи прохолодному темному місці, до 2 тижнів.'] }
   },
   {
-    slug: 'granola-bars-peanut-butter', img: '104-granola-bars-peanut-butter.jpg', cat: 'snack', gi: 47,
+    slug: 'granola-bars-peanut-butter', dateAdded: '2026-07-10', img: '104-granola-bars-peanut-butter.jpg', cat: 'snack', gi: 47,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Peanut Butter Granola Bars', ua: 'Батончики з гранолою та арахісовою пастою' },
     why: { en: 'A no-bake bar bound by peanut butter and a little honey, loaded with almonds, cashews, flax and dried fruit for protein and fibre. A handy, filling snack with no refined sugar.', ua: 'Батончик без випікання, скріплений арахісовою пастою та невеликою кількістю меду, з мигдалем, кеш’ю, льоном і сухофруктами для білка й клітковини. Зручний ситний перекус без рафінованого цукру.' },
@@ -1118,7 +1121,7 @@ export const RECIPES = [
     method: { en: ['Line a 20×20 cm tin with parchment, leaving an overhang for lifting out.','Finely chop the almonds and cashews in a blender.','Mix the nuts with the oats, ground flax, chocolate chips, cranberries and raisins.','Melt the peanut butter, stir in the honey, salt and vanilla, and let it cool slightly.','Pour over the dry mix and stir thoroughly.','Press firmly into the tin and refrigerate for about an hour.','Lift out and cut into at least 12 bars.'], ua: ['Застеліть форму 20×20 см пергаментом, залишивши краї для виймання.','Дрібно подрібніть мигдаль і кеш’ю в блендері.','Змішайте горіхи з вівсом, меленим льоном, шоколадними краплями, журавлиною та родзинками.','Розтопіть арахісову пасту, вмішайте мед, сіль і ваніль та трохи охолодіть.','Полийте суху суміш і ретельно перемішайте.','Щільно вкладіть у форму та охолоджуйте близько години.','Вийміть і наріжте щонайменше на 12 батончиків.'] }
   },
   {
-    slug: 'ginger-cookies-almond-flour', img: '105-ginger-cookies-almond-flour.jpg', cat: 'baking', gi: 32,
+    slug: 'ginger-cookies-almond-flour', dateAdded: '2026-07-10', img: '105-ginger-cookies-almond-flour.jpg', cat: 'baking', gi: 32,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Almond-Flour Ginger Cookies (Gluten-free)', ua: 'Імбирне печиво на мигдалевому борошні (без глютену)' },
     why: { en: 'Almond and flax flour replace wheat, so these spiced cookies are gluten-free and low in carbs. Stevia does most of the sweetening, with just a spoon of maple — warming ginger and cinnamon are gentle on blood sugar.', ua: 'Мигдалеве та лляне борошно замінюють пшеничне, тож це пряне печиво без глютену й з низьким вмістом вуглеводів. Солодкість переважно від стевії, з однією ложкою кленового сиропу — зігрівальні імбир і кориця делікатні до цукру.' },
@@ -1128,7 +1131,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 175°C and line a tray with parchment.','Mix the almond flour, flax flour, stevia, spices, baking powder and salt.','Add the egg, melted butter, maple syrup and vanilla and work into a dough.','Roll into balls and flatten slightly on the tray.','Bake for 8–10 minutes until the edges are set.','Cool on the tray — they firm up as they cool.'], ua: ['Розігрійте духовку до 175°C та застеліть деко пергаментом.','Змішайте мигдалеве та лляне борошно, стевію, прянощі, розпушувач і сіль.','Додайте яйце, розтоплене масло, кленовий сироп і ваніль та замісіть тісто.','Сформуйте кульки та злегка приплюсніть на деку.','Випікайте 8–10 хвилин, доки краї не схопляться.','Охолоджуйте на деку — печиво твердне, охолоджуючись.'] }
   },
   {
-    slug: 'coconut-balls', img: '106-coconut-balls.jpg', cat: 'snack', gi: 34,
+    slug: 'coconut-balls', dateAdded: '2026-07-10', img: '106-coconut-balls.jpg', cat: 'snack', gi: 34,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Coconut Balls (No-Bake, Sugar-free)', ua: 'Кокосові кульки (без випікання, без цукру)' },
     why: { en: 'Four-ingredient coconut truffles sweetened only with stevia — no sugar, no flour, no baking. Coconut is high in fibre and healthy fat, so they satisfy a sweet craving with almost no effect on blood sugar.', ua: 'Кокосові трюфелі з чотирьох інгредієнтів, підсолоджені лише стевією — без цукру, борошна й випікання. Кокос багатий на клітковину та корисні жири, тож вони вгамовують тягу до солодкого майже без впливу на цукор.' },
@@ -1138,7 +1141,7 @@ export const RECIPES = [
     method: { en: ['Put all the ingredients in a food processor and blend until uniform.','Roll the mixture into small balls.','Roll in extra coconut, cocoa or carob, or crushed nuts to decorate.','Leave on a plate to firm up for about 30 minutes.','Store at room temperature or in the fridge in a closed container.'], ua: ['Покладіть усі інгредієнти в кухонний комбайн і збийте до однорідності.','Сформуйте з маси невеликі кульки.','Обкачайте в кокосовій стружці, какао чи ріжковому борошні або подрібнених горіхах для прикраси.','Залиште на тарілці застигнути близько 30 хвилин.','Зберігайте за кімнатної температури або в холодильнику в закритому контейнері.'] }
   },
   {
-    slug: 'spiced-raisin-cookies', img: '107-spiced-raisin-cookies.jpg', cat: 'baking', gi: 53,
+    slug: 'spiced-raisin-cookies', dateAdded: '2026-07-10', img: '107-spiced-raisin-cookies.jpg', cat: 'baking', gi: 53,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Spiced Raisin Cookies (Sugar-free)', ua: 'Пряне печиво з родзинками (без цукру)' },
     why: { en: 'Soft spiced cookies sweetened with stevia and the natural sugars of raisins — no added sugar. Wholegrain flour keeps the GI lower than white, and warming cinnamon and nutmeg round out the flavour.', ua: 'М’яке пряне печиво, підсолоджене стевією та природним цукром родзинок — без доданого цукру. Цільнозернове борошно тримає ГІ нижчим за біле, а зігрівальні кориця й мускатний горіх завершують смак.' },
@@ -1148,7 +1151,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 175°C and line a tray with parchment.','Bring the water, raisins, coconut oil and spices to the boil, then take off the heat and beat in the eggs.','Dissolve the salt, baking soda and stevia in 2 tbsp water and stir in.','Gradually mix in the flour and baking powder to a soft dough.','Spoon teaspoons of dough onto the tray and bake for 8–10 minutes.','Cool on a rack.'], ua: ['Розігрійте духовку до 175°C та застеліть деко пергаментом.','Доведіть до кипіння воду, родзинки, кокосову олію та прянощі, потім зніміть з вогню та вмішайте яйця.','Розчиніть сіль, соду та стевію в 2 ст. л. води й вмішайте.','Поступово вмішайте борошно та розпушувач до м’якого тіста.','Викладайте тісто чайною ложкою на деко та випікайте 8–10 хвилин.','Охолодіть на решітці.'] }
   },
   {
-    slug: 'almond-cranberry-cookies', img: '108-almond-cranberry-cookies.jpg', cat: 'baking', gi: 45,
+    slug: 'almond-cranberry-cookies', dateAdded: '2026-07-10', img: '108-almond-cranberry-cookies.jpg', cat: 'baking', gi: 45,
     tags: ['vegetarian'],
     title: { en: 'Almond & Cranberry Cookies', ua: 'Мигдально-журавлинне печиво' },
     why: { en: 'Slice-and-bake cookies sweetened with maple syrup instead of sugar, studded with roasted almonds and cranberries. Wholegrain flour and the nuts add fibre and protein to soften the glycaemic impact.', ua: 'Печиво, яке нарізають і випікають, підсолоджене кленовим сиропом замість цукру, зі смаженим мигдалем і журавлиною. Цільнозернове борошно та горіхи додають клітковину й білок, пом’якшуючи глікемічний вплив.' },
@@ -1158,7 +1161,7 @@ export const RECIPES = [
     method: { en: ['Beat the softened butter with the maple syrup, almond extract and salt until uniform, about 3 minutes.','On low speed, gradually add the flour and orange zest until combined.','Fold in the almonds and cranberries.','Shape into a 5 cm-wide log, wrap in cling film and freeze for at least 1 hour.','Slice 0.5–1 cm thick and place on a parchment-lined tray.','Bake at 160°C for about 20 minutes, until the edges are golden. Cool before serving.'], ua: ['Збийте розм’якшене масло з кленовим сиропом, мигдалевим екстрактом і сіллю до однорідності, близько 3 хвилин.','На низькій швидкості поступово додайте борошно й апельсинову цедру до з’єднання.','Вмішайте мигдаль і журавлину.','Сформуйте валик завширшки 5 см, загорніть у плівку та заморозьте щонайменше на 1 годину.','Наріжте кружечками завтовшки 0,5–1 см і викладіть на застелене пергаментом деко.','Випікайте при 160°C близько 20 хвилин до золотистих країв. Охолодіть перед подачею.'] }
   },
   {
-    slug: 'tiramisu-cookies', img: '109-tiramisu-cookies.jpg', cat: 'baking', gi: 50,
+    slug: 'tiramisu-cookies', dateAdded: '2026-07-10', img: '109-tiramisu-cookies.jpg', cat: 'baking', gi: 50,
     tags: ['vegetarian', 'dairy-free'],
     title: { en: 'Tiramisu Cookies', ua: 'Печиво «Тірамісу»' },
     why: { en: 'Little sandwich cookies with a coffee-coconut cream, sweetened mostly with stevia and no dairy. Oat and wholegrain flour give a lower GI than the sponge fingers of a classic tiramisu.', ua: 'Маленьке печиво-сендвіч із кавово-кокосовим кремом, підсолоджене переважно стевією та без молочних продуктів. Вівсяне й цільнозернове борошно дають нижчий ГІ, ніж бісквіт класичного тірамісу.' },
@@ -1168,7 +1171,7 @@ export const RECIPES = [
     method: { en: ['Mix all the liquid cookie ingredients with the flax seeds and rest for 2 minutes.','Mix the dry ingredients separately, then combine into a soft dough and chill for 5 minutes.','Roll into balls, flatten on parchment and bake at 175°C for 12–14 minutes until golden. Cool completely.','For the cream, mix all the cream ingredients and heat gently in a bain-marie until smooth.','Pipe cream between two cookies and dust with cocoa.','Store in an airtight container at room temperature for 2–3 days.'], ua: ['Змішайте всі рідкі інгредієнти для печива з насінням льону та залиште на 2 хвилини.','Окремо змішайте сухі інгредієнти, потім з’єднайте в м’яке тісто й охолодіть 5 хвилин.','Сформуйте кульки, приплюсніть на пергаменті та випікайте при 175°C 12–14 хвилин до золотистості. Повністю охолодіть.','Для крему змішайте всі інгредієнти та прогрійте на водяній бані до гладкості.','Відсадіть крем між двома печивами та притрусіть какао.','Зберігайте в герметичному контейнері за кімнатної температури 2–3 дні.'] }
   },
   {
-    slug: 'carrot-muffins', img: '110-carrot-muffins.jpg', cat: 'baking', gi: 49,
+    slug: 'carrot-muffins', dateAdded: '2026-07-10', img: '110-carrot-muffins.jpg', cat: 'baking', gi: 49,
     tags: ['vegetarian'],
     title: { en: 'Carrot Muffins (Sugar-free)', ua: 'Морквяні маффіни (без цукру)' },
     why: { en: 'Wholegrain flour and grated carrot give fibre and moisture, with maple syrup instead of sugar. Greek yogurt and walnuts add protein and healthy fat to steady the release of energy.', ua: 'Цільнозернове борошно та терта морква дають клітковину й соковитість, а кленовий сироп замінює цукор. Грецький йогурт і волоські горіхи додають білок і корисні жири, вирівнюючи вивільнення енергії.' },
@@ -1178,7 +1181,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 220°C and grease or line a muffin tin.','Mix the flour, baking powder, baking soda, spices and salt; stir in the floured raisins, carrot and walnuts.','In another bowl whisk the oil, maple syrup, eggs, yogurt and vanilla.','Fold the wet into the dry until just combined and divide between the muffin cups.','Bake for about 13 minutes, until a skewer comes out clean.','Cool. Keep 2 days at room temperature or up to 4 days in the fridge.'], ua: ['Розігрійте духовку до 220°C та змастіть або застеліть форму для маффінів.','Змішайте борошно, розпушувач, соду, прянощі та сіль; вмішайте обкачані в борошні родзинки, моркву та горіхи.','В іншій мисці збийте олію, кленовий сироп, яйця, йогурт і ваніль.','Вмішайте рідке в суху суміш до з’єднання та розкладіть по формах.','Випікайте близько 13 хвилин, доки шпажка не виходитиме сухою.','Охолодіть. Зберігайте 2 дні за кімнатної температури або до 4 днів у холодильнику.'] }
   },
   {
-    slug: 'valentine-love-salad', img: '111-valentine-love-salad.jpg', cat: 'main', gi: 32,
+    slug: 'valentine-love-salad', dateAdded: '2026-07-10', img: '111-valentine-love-salad.jpg', cat: 'main', gi: 32,
     tags: ['gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Heart Salad ("Show Love")', ua: 'Салат «Покажи любов»' },
     why: { en: 'A bright bowl of leafy greens and non-starchy vegetables — very low in carbs and GI — with a little mozzarella for protein and almonds for crunch. The dressing uses just a touch of honey.', ua: 'Яскрава миска листкової зелені та некрохмалистих овочів — дуже мало вуглеводів і низький ГІ — з невеликою кількістю моцарели для білка та мигдалем для хрусткості. У заправці лише трохи меду.' },
@@ -1188,7 +1191,7 @@ export const RECIPES = [
     method: { en: ['Put the salad leaves in a wide bowl.','With a small (~2.5 cm) heart-shaped cutter, cut hearts from the cucumber, red pepper and mozzarella.','Add the vegetables and cheese to the leaves and scatter over the cherry tomatoes.','Sprinkle with almond flakes.','Whisk the balsamic, olive oil and honey and dress the salad just before serving.'], ua: ['Викладіть салатні листки у широку миску.','Невеликою (~2,5 см) формою у вигляді серця виріжте сердечка з огірка, червоного перцю та моцарели.','Додайте овочі й сир до листя та розкидайте помідори черрі.','Посипте мигдалевими пелюстками.','Збийте бальзамік, оливкову олію та мед і заправте салат перед подачею.'] }
   },
   {
-    slug: 'shrimp-heart-appetizer', img: '112-shrimp-heart-appetizer.jpg', cat: 'main', gi: 30,
+    slug: 'shrimp-heart-appetizer', dateAdded: '2026-07-10', img: '112-shrimp-heart-appetizer.jpg', cat: 'main', gi: 30,
     tags: ['gluten-free', 'low-carb'],
     title: { en: 'Prawn Heart Skewers with Salad', ua: 'Закуска-серця з креветок із салатом' },
     why: { en: 'An elegant low-carb starter: grilled prawns are pure protein, paired with peppers, leaves and a light dressing. A spoon of jam glazes the prawns, so there is barely any sugar.', ua: 'Елегантна низьковуглеводна закуска: смажені креветки — це чистий білок, у поєднанні з перцем, зеленню та легкою заправкою. Ложка джему глазурує креветки, тож цукру майже немає.' },
@@ -1198,7 +1201,7 @@ export const RECIPES = [
     method: { en: ['Bring the brandy, water and apricots to the boil, cover, take off the heat and steep for 15 minutes.','Mix the feta, cream and tarragon until smooth and use it to fill the Peppadew peppers.','Pat the prawns dry and arrange four on a plate to form two hearts; pin the tops together with a skewer, keeping the curve.','Set a filled pepper inside each heart and pin a second skewer through the centre. Repeat.','Heat a griddle pan, lay on the skewers, brush with the jam and grill 2–3 minutes until hot through.','Slice the steeped apricots; whisk 2 tbsp of the brandy with the vinegar, olive oil, cayenne, salt and pepper.','Dress the leaves, top with apricot strips and the prawn skewers, and serve.'], ua: ['Доведіть бренді, воду та курагу до кипіння, накрийте, зніміть з вогню та залиште на 15 хвилин.','Змішайте фету, вершки та естрагон до гладкості й наповніть цим перчики Peppadew.','Обсушіть креветки та викладіть по чотири на тарілці у формі двох сердець; скріпіть верхівки шпажкою, зберігаючи вигин.','Всередину кожного серця вкладіть наповнений перчик і проколіть другою шпажкою через центр. Повторіть.','Розігрійте сковороду-гриль, викладіть шпажки, змастіть джемом і смажте 2–3 хвилини до прогрівання.','Наріжте розмочену курагу; збийте 2 ст. л. бренді з оцтом, оливковою олією, кайенським перцем, сіллю та перцем.','Заправте зелень, зверху викладіть смужки кураги та шпажки з креветками й подавайте.'] }
   },
   {
-    slug: 'caprese-valentine-salad', img: '113-caprese-valentine-salad.jpg', cat: 'main', gi: 20,
+    slug: 'caprese-valentine-salad', dateAdded: '2026-07-10', img: '113-caprese-valentine-salad.jpg', cat: 'main', gi: 20,
     tags: ['gluten-free', 'low-carb', 'vegetarian'],
     title: { en: 'Valentine Caprese Salad', ua: 'Салат «Капрезе» до Дня Валентина' },
     why: { en: 'The classic three-ingredient caprese — mozzarella, tomato and basil — is naturally low-carb and low-GI. Fresh, protein-rich and ready in minutes, dressed simply with olive oil and balsamic.', ua: 'Класичний капрезе з трьох інгредієнтів — моцарела, помідор і базилік — від природи низьковуглеводний і з низьким ГІ. Свіжий, багатий на білок і готовий за хвилини, заправлений оливковою олією та бальзаміком.' },
@@ -1208,7 +1211,7 @@ export const RECIPES = [
     method: { en: ['Slice the mozzarella 5–7 mm thick and cut a heart from each slice with a cookie cutter.','Slice the tomatoes to a matching thickness.','Layer the mozzarella, basil and tomato on a plate.','Drizzle with olive oil and balsamic vinegar.','Season with sea salt and freshly ground black pepper.'], ua: ['Наріжте моцарелу завтовшки 5–7 мм і виріжте з кожного скибочки серце формочкою.','Наріжте помідори такої ж товщини.','Викладіть на тарілці шарами моцарелу, базилік і помідори.','Збризніть оливковою олією та бальзамічним оцтом.','Приправте морською сіллю та свіжомеленим чорним перцем.'] }
   },
   {
-    slug: 'valentine-heart-cookies', img: '114-valentine-heart-cookies.jpg', cat: 'dessert', gi: 42,
+    slug: 'valentine-heart-cookies', dateAdded: '2026-07-10', img: '114-valentine-heart-cookies.jpg', cat: 'dessert', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'No-Bake Valentine Heart Cookies', ua: 'Печиво «Серце Валентина» без випікання' },
     why: { en: 'A raw cookie of nuts, seeds and cocoa with a banana-raspberry cream — no flour, no baking and no refined sugar (just stevia or a little maple). Healthy fats and fibre keep the natural fruit sugar in check.', ua: 'Сире печиво з горіхів, насіння та какао з бананово-малиновим кремом — без борошна, випікання та рафінованого цукру (лише стевія чи трохи кленового сиропу). Корисні жири та клітковина стримують природний цукор фруктів.' },
@@ -1218,7 +1221,7 @@ export const RECIPES = [
     method: { en: ['Blend the nuts and seeds, then add the cocoa, carob, stevia, water, vanilla and salt to a dough.','Roll out on a board and cut ~12 hearts with a cookie cutter.','Blend all the filling ingredients until creamy, spread on a board and freeze until firm.','Cut the frozen filling into hearts with the same cutter.','Sandwich a filling heart between two cookies. Repeat and serve.'], ua: ['Збийте горіхи та насіння, потім додайте какао, ріжкове борошно, стевію, воду, ваніль і сіль до тіста.','Розкачайте на дошці та виріжте ~12 сердець формочкою.','Збийте всі інгредієнти начинки до кремової маси, розподіліть на дошці та заморозьте до твердості.','Виріжте із замороженої начинки серця тією ж формочкою.','Складіть серце-начинку між двома печивами. Повторіть і подавайте.'] }
   },
   {
-    slug: 'frozen-strawberry-yogurt', img: '115-frozen-strawberry-yogurt.jpg', cat: 'dessert', gi: 38,
+    slug: 'frozen-strawberry-yogurt', dateAdded: '2026-07-10', img: '115-frozen-strawberry-yogurt.jpg', cat: 'dessert', gi: 38,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Frozen Yogurt Strawberries', ua: 'Заморожена полуниця в йогурті' },
     why: { en: 'Two-ingredient frozen bites: strawberries dipped in Greek yogurt and frozen, sweetened only with stevia. High in protein, very low in calories and sugar — a guilt-free cold snack.', ua: 'Заморожені шматочки з двох інгредієнтів: полуниця в грецькому йогурті, підсолоджена лише стевією. Багато білка, дуже мало калорій і цукру — легкий холодний перекус.' },
@@ -1228,7 +1231,7 @@ export const RECIPES = [
     method: { en: ['Mix the yogurt with the stevia.','Halve the strawberries.','Dip each strawberry in the yogurt.','Freeze until solid.','Enjoy straight from the freezer.'], ua: ['Змішайте йогурт зі стевією.','Розріжте полуницю навпіл.','Занурте кожну ягоду в йогурт.','Заморозьте до твердості.','Смакуйте просто з морозилки.'] }
   },
   {
-    slug: 'chocolate-avocado-pudding', img: '116-chocolate-avocado-pudding.jpg', cat: 'dessert', gi: 35,
+    slug: 'chocolate-avocado-pudding', dateAdded: '2026-07-10', img: '116-chocolate-avocado-pudding.jpg', cat: 'dessert', gi: 35,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'No-Bake Chocolate Avocado Pudding', ua: 'Шоколадний пудинг з авокадо (без випікання)' },
     why: { en: 'A silky chocolate pudding thickened with banana and avocado — no added sugar and no dairy. Avocado and almond butter add healthy fat and fibre that keep the fruit sugar slow and steady.', ua: 'Шовковистий шоколадний пудинг, згущений бананом і авокадо — без доданого цукру та молочних продуктів. Авокадо й мигдалева паста додають корисні жири та клітковину, що сповільнюють фруктовий цукор.' },
@@ -1238,7 +1241,7 @@ export const RECIPES = [
     method: { en: ['Blend all the pudding ingredients until completely smooth, a few minutes for a silky texture.','Spoon into serving glasses and refrigerate for 1 hour.','Serve with the optional toppings.'], ua: ['Збийте всі інгредієнти пудингу до повної однорідності, кілька хвилин для шовковистості.','Розкладіть по келихах і охолоджуйте 1 годину.','Подавайте з додатковими топінгами за бажанням.'] }
   },
   {
-    slug: 'beef-balsamic-tomatoes', img: '117-beef-balsamic-tomatoes.jpg', cat: 'main', gi: 20,
+    slug: 'beef-balsamic-tomatoes', dateAdded: '2026-07-10', img: '117-beef-balsamic-tomatoes.jpg', cat: 'main', gi: 20,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
     title: { en: 'Beef Steak with Balsamic Tomatoes', ua: 'Яловичий стейк з помідорами в бальзаміку' },
     why: { en: 'Lean beef tenderloin is pure protein with no carbs, and a quick balsamic-tomato reduction adds bright flavour with barely any sugar. A restaurant-style low-GI main in under half an hour.', ua: 'Пісна яловича вирізка — це чистий білок без вуглеводів, а швидкий бальзамічно-томатний соус додає яскравого смаку майже без цукру. Основна страва з низьким ГІ як у ресторані менш ніж за пів години.' },
@@ -1248,7 +1251,7 @@ export const RECIPES = [
     method: { en: ['Bring the balsamic vinegar to the boil in a small pan, then simmer uncovered for about 5 minutes until reduced to ¼ cup. Stir the tomatoes into the hot vinegar.','Trim the steaks and season with salt and pepper. Heat a griddle pan over medium heat.','Cook the steaks to your liking, turning once — about 7–9 minutes for medium.','Plate the steaks, spoon over the tomatoes and scatter with thyme.'], ua: ['Доведіть бальзамічний оцет до кипіння в маленькій каструлі, потім варіть без кришки близько 5 хвилин, доки не залишиться ¼ склянки. Вмішайте помідори в гарячий оцет.','Зачистіть стейки та приправте сіллю й перцем. Розігрійте сковороду-гриль на середньому вогні.','Смажте стейки до бажаної готовності, перевернувши один раз — близько 7–9 хвилин для середньої.','Викладіть стейки, зверху покладіть помідори та посипте чебрецем.'] }
   },
   {
-    slug: 'garlic-lemon-shrimp', img: '118-garlic-lemon-shrimp.jpg', cat: 'main', gi: 17,
+    slug: 'garlic-lemon-shrimp', dateAdded: '2026-07-10', img: '118-garlic-lemon-shrimp.jpg', cat: 'main', gi: 17,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
     title: { en: 'Garlic & Lemon Prawns for Two', ua: 'Креветки з часником і лимоном на двох' },
     why: { en: 'Prawns are almost pure protein with next to no carbohydrate, marinated in olive oil, garlic, lemon and white wine. A light, fast dinner that has virtually no effect on blood sugar.', ua: 'Креветки — майже чистий білок з мінімумом вуглеводів, замариновані в оливковій олії, часнику, лимоні та білому вині. Легка швидка вечеря, що майже не впливає на цукор.' },
@@ -1258,7 +1261,7 @@ export const RECIPES = [
     method: { en: ['Mix the olive oil, wine, garlic, lemon zest, salt and red pepper for the marinade.','Thaw the prawns if frozen, peel (leaving tails on), rinse and pat dry. Toss with the marinade in a sealed bag and chill for 1 hour.','Heat a skillet and cook the prawns with the marinade, about 3 minutes each side, until just done.','Transfer to a dish, garnish with parsley and serve with lemon wedges.'], ua: ['Змішайте оливкову олію, вино, часник, лимонну цедру, сіль і червоний перець для маринаду.','Розморозьте креветки за потреби, очистіть (залишивши хвостики), промийте та обсушіть. Перемішайте з маринадом у пакеті та охолоджуйте 1 годину.','Розігрійте сковороду та смажте креветки з маринадом близько 3 хвилин з кожного боку до готовності.','Викладіть на блюдо, прикрасьте петрушкою та подавайте з часточками лимона.'] }
   },
   {
-    slug: 'salmon-asparagus-foil', img: '119-salmon-asparagus-foil.jpg', cat: 'main', gi: 16,
+    slug: 'salmon-asparagus-foil', dateAdded: '2026-07-10', img: '119-salmon-asparagus-foil.jpg', cat: 'main', gi: 16,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
     title: { en: 'Salmon & Asparagus Foil Parcels', ua: 'Лосось зі спаржею у фользі' },
     why: { en: 'Salmon and asparagus baked together in foil — high in protein and omega-3, very low in carbs. Steaming in the parcel keeps everything moist with just olive oil, garlic and lemon.', ua: 'Лосось і спаржа, запечені разом у фользі — багато білка та омега-3, дуже мало вуглеводів. Приготування у конверті зберігає соковитість лише з оливковою олією, часником і лимоном.' },
@@ -1268,7 +1271,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 200°C. Cut four ~35 cm sheets of foil. Divide the asparagus between them. Mix the oil with the garlic and drizzle 1 tsp over each portion; season.','Season the salmon and set on top of the asparagus. Drizzle each with 1 tsp garlic oil, then top with dill and lemon slices. Fold into sealed parcels.','Bake on a tray for about 25–30 minutes, until the salmon is cooked through. Open and serve warm.'], ua: ['Розігрійте духовку до 200°C. Наріжте чотири аркуші фольги ~35 см. Розкладіть спаржу між ними. Змішайте олію з часником і збризніть по 1 ч. л. на кожну порцію; приправте.','Приправте лосось і викладіть на спаржу. Полийте кожен шматок 1 ч. л. часникової олії, зверху покладіть кріп і скибочки лимона. Загорніть у щільні конверти.','Запікайте на деку близько 25–30 хвилин, доки лосось не буде готовий. Розгорніть і подавайте теплим.'] }
   },
   {
-    slug: 'matcha-latte', img: '120-matcha-latte.jpg', cat: 'drink', gi: 25,
+    slug: 'matcha-latte', dateAdded: '2026-07-10', img: '120-matcha-latte.jpg', cat: 'drink', gi: 25,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Matcha Latte', ua: 'Латте з матчею' },
     why: { en: 'Matcha whisked into warm almond milk gives slow-release energy and antioxidants with only a teaspoon of maple. A gentler morning lift than sugary coffee drinks.', ua: 'Матча, збита з теплим мигдалевим молоком, дає повільну енергію та антиоксиданти лише з однією ложкою кленового сиропу. М’якший ранковий заряд, ніж солодкі кавові напої.' },
@@ -1278,7 +1281,7 @@ export const RECIPES = [
     method: { en: ['Whisk the matcha powder into the almond milk until smooth.','Stir in the maple syrup and vanilla.','Sprinkle with cinnamon or nutmeg and serve.'], ua: ['Збийте порошок матча з мигдалевим молоком до однорідності.','Вмішайте кленовий сироп і ваніль.','Посипте корицею чи мускатним горіхом і подавайте.'] }
   },
   {
-    slug: 'turmeric-latte', img: '121-turmeric-latte.jpg', cat: 'drink', gi: 25,
+    slug: 'turmeric-latte', dateAdded: '2026-07-10', img: '121-turmeric-latte.jpg', cat: 'drink', gi: 25,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Turmeric Latte (Golden Milk)', ua: 'Куркума-латте (золоте молоко)' },
     why: { en: 'A warming anti-inflammatory drink of turmeric, ginger and cinnamon simmered into coconut milk — no sweetener needed and no sugar at all. Caffeine-free and soothing.', ua: 'Зігрівальний протизапальний напій з куркуми, імбиру та кориці, зварений у кокосовому молоці — без підсолоджувача та цукру. Без кофеїну й заспокійливий.' },
@@ -1288,7 +1291,7 @@ export const RECIPES = [
     method: { en: ['Pour the water into a small pan and set over the heat.','Add the grated turmeric, ginger and cinnamon sticks and simmer gently until the water turns deep orange.','Strain, then stir in the coconut milk (whisk it first for froth).','Alternatively, use turmeric powder stirred straight into warm milk with a pinch of cinnamon to save time.'], ua: ['Влийте воду в маленьку каструлю та поставте на вогонь.','Додайте терту куркуму, імбир і палички кориці та варіть на слабкому вогні, доки вода не стане темно-помаранчевою.','Процідіть, потім вмішайте кокосове молоко (спершу збийте його для піни).','Або, щоб заощадити час, розмішайте порошок куркуми в теплому молоці зі щіпкою кориці.'] }
   },
   {
-    slug: 'masala-chai-latte', img: '122-masala-chai-latte.jpg', cat: 'drink', gi: 30,
+    slug: 'masala-chai-latte', dateAdded: '2026-07-10', img: '122-masala-chai-latte.jpg', cat: 'drink', gi: 30,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Masala Chai Latte', ua: 'Масала чай-латте' },
     why: { en: 'A fragrant spiced tea simmered with cardamom, cloves and cinnamon, made with caffeine-free white tea and skimmed milk. The spices add flavour and warmth with any sweetener kept optional.', ua: 'Ароматний пряний чай, зварений з кардамоном, гвоздикою та корицею, на безкофеїновому білому чаї та знежиреному молоці. Прянощі додають смаку й тепла, а підсолоджувач — за бажанням.' },
@@ -1298,7 +1301,7 @@ export const RECIPES = [
     method: { en: ['Pour the water into a medium pan, cover and bring to the boil.','Crush the fennel, cloves, allspice, cardamom and pink pepper in a mortar.','Add the crushed spices, cinnamon sticks and ginger and simmer for 20 minutes.','Add the tea bags and steep on low for 4–5 minutes.','Pour in the milk, then strain into a teapot or two cups.','Sweeten with honey to taste if you like.'], ua: ['Влийте воду в каструлю середнього розміру, накрийте та доведіть до кипіння.','Розітріть у ступці фенхель, гвоздику, запашний перець, кардамон і рожевий перець.','Додайте розтерті прянощі, палички кориці та імбир і варіть 20 хвилин.','Додайте пакетики чаю та настоюйте на слабкому вогні 4–5 хвилин.','Влийте молоко, потім процідіть у чайник або дві чашки.','За бажанням підсолодіть медом за смаком.'] }
   },
   {
-    slug: 'yerba-mate', img: '123-yerba-mate.jpg', cat: 'drink', gi: 50,
+    slug: 'yerba-mate', dateAdded: '2026-07-10', img: '123-yerba-mate.jpg', cat: 'drink', gi: 50,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Yerba Mate with Lemon & Honey', ua: 'Йерба мате з лимоном і медом' },
     why: { en: 'A gently energising South American tea, brewed and finished with lemon and a teaspoon of honey. Naturally sugar-light and caffeine-moderate — a cleaner pick-me-up.', ua: 'М’яко бадьорливий південноамериканський чай, заварений і доповнений лимоном та ложкою меду. Природно з малою кількістю цукру й помірним кофеїном — чистіший заряд бадьорості.' },
@@ -1308,7 +1311,7 @@ export const RECIPES = [
     method: { en: ['Brew the tea per the packet instructions in 230 ml hot (not boiling) water.','Let it steep.','Stir in the honey and lemon, and serve.'], ua: ['Заваріть чай за інструкцією на упаковці у 230 мл гарячої (не кип’ячої) води.','Дайте настоятися.','Вмішайте мед і лимон та подавайте.'] }
   },
   {
-    slug: 'london-fog', img: '124-london-fog.jpg', cat: 'drink', gi: 51,
+    slug: 'london-fog', dateAdded: '2026-07-10', img: '124-london-fog.jpg', cat: 'drink', gi: 51,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'London Fog (Earl Grey Latte)', ua: 'Лондонський туман (латте з бергамотом)' },
     why: { en: 'Earl Grey steeped and blended with almond milk and vanilla, sweetened with just a teaspoon of honey. A comforting, low-sugar alternative to a café latte.', ua: 'Чай з бергамотом, заварений і збитий із мигдалевим молоком та ваніллю, підсолоджений лише ложкою меду. Затишна альтернатива кавовому латте з малим вмістом цукру.' },
@@ -1318,7 +1321,7 @@ export const RECIPES = [
     method: { en: ['Steep the tea in the hot water for 5 minutes.','Pour the tea into a blender and blend with the remaining ingredients until frothy.'], ua: ['Заваріть чай у гарячій воді 5 хвилин.','Перелийте чай у блендер і збийте з рештою інгредієнтів до пінистості.'] }
   },
   {
-    slug: 'ginger-milk-cocktail', img: '125-ginger-milk-cocktail.jpg', cat: 'drink', gi: 35,
+    slug: 'ginger-milk-cocktail', dateAdded: '2026-07-10', img: '125-ginger-milk-cocktail.jpg', cat: 'drink', gi: 35,
     tags: ['gluten-free', 'vegetarian'],
     title: { en: 'Warm Ginger Milk', ua: 'Теплий імбирний коктейль' },
     why: { en: 'Warm milk blended with ginger, cinnamon and clove and sweetened with stevia or a little coconut sugar. A cosy spiced drink with minimal added sugar.', ua: 'Тепле молоко, збите з імбиром, корицею та гвоздикою, підсолоджене стевією чи невеликою кількістю кокосового цукру. Затишний пряний напій з мінімумом доданого цукру.' },
@@ -1328,7 +1331,7 @@ export const RECIPES = [
     method: { en: ['Warm the milk, then blend all the ingredients together.','Pour into cups.','Garnish with whipped cream if you like — ready to serve.'], ua: ['Підігрійте молоко, потім збийте всі інгредієнти разом.','Розлийте по чашках.','За бажанням прикрасьте збитими вершками — і напій готовий.'] }
   },
   {
-    slug: 'cacao-latte', img: '126-cacao-latte.jpg', cat: 'drink', gi: 42,
+    slug: 'cacao-latte', dateAdded: '2026-07-10', img: '126-cacao-latte.jpg', cat: 'drink', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Cacao Latte (Coffee Alternative)', ua: 'Какао-латте (замість кави)' },
     why: { en: 'Raw cacao made from unroasted beans is a powerful antioxidant. Blended with almond milk, a little honey and a pinch of cayenne, it makes a warming, caffeine-light alternative to coffee.', ua: 'Сире какао з необсмажених бобів — потужний антиоксидант. Збите з мигдалевим молоком, невеликою кількістю меду та щіпкою кайенського перцю, воно стає зігрівальною альтернативою каві з малим вмістом кофеїну.' },
@@ -1338,7 +1341,7 @@ export const RECIPES = [
     method: { en: ['Combine all the ingredients in a small pan and warm over medium heat, whisking until smooth.','Pour into a mug and enjoy.'], ua: ['З’єднайте всі інгредієнти в маленькій каструлі та підігрійте на середньому вогні, збиваючи до однорідності.','Перелийте в кухоль і смакуйте.'] }
   },
   {
-    slug: 'smoothie-popsicles-chia', img: '127-smoothie-popsicles-chia.jpg', cat: 'dessert', gi: 38,
+    slug: 'smoothie-popsicles-chia', dateAdded: '2026-07-10', img: '127-smoothie-popsicles-chia.jpg', cat: 'dessert', gi: 38,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Two-Layer Smoothie Popsicles with Chia', ua: 'Двошарове смузі-ескімо з чіа' },
     why: { en: 'Layered fruit-and-veg smoothie lollies with chia and flax — no added sugar, just whole fruit, spinach and a date or two. Fibre and seeds slow the fruit sugar and add omega-3.', ua: 'Шарувате фруктово-овочеве смузі-ескімо з чіа та льоном — без доданого цукру, лише цілі фрукти, шпинат і кілька фініків. Клітковина й насіння сповільнюють фруктовий цукор і додають омега-3.' },
@@ -1348,7 +1351,7 @@ export const RECIPES = [
     method: { en: ['Make the red layer: blend the frozen raspberries and redcurrants with the water and chia until smooth.','Pour into ice-lolly moulds and freeze for a few minutes while you make the green layer.','Blend all the green-layer ingredients until smooth.','Top up the moulds with the green purée and freeze for at least 2–3 hours.'], ua: ['Приготуйте червоний шар: збийте заморожену малину та червону смородину з водою і чіа до однорідності.','Розлийте по формочках для ескімо та заморозьте на кілька хвилин, поки готуєте зелений шар.','Збийте всі інгредієнти зеленого шару до однорідності.','Долийте у формочки зелене пюре та заморозьте щонайменше на 2–3 години.'] }
   },
   {
-    slug: 'lime-cheesecake', img: '128-lime-cheesecake.jpg', cat: 'dessert', gi: 40,
+    slug: 'lime-cheesecake', dateAdded: '2026-07-10', img: '128-lime-cheesecake.jpg', cat: 'dessert', gi: 40,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'No-Bake Lime Cheesecake', ua: 'Лаймовий чизкейк без випікання' },
     why: { en: 'A raw, dairy-free cheesecake on a nut-and-date base, set with coconut oil and sweetened with maple instead of sugar. Nuts and healthy fat make it rich and low-GI, no baking required.', ua: 'Сирий чизкейк без молочних продуктів на горіхово-фініковій основі, застиглий на кокосовій олії та підсолоджений кленовим сиропом замість цукру. Горіхи й корисні жири роблять його насиченим і з низьким ГІ, без випікання.' },
@@ -1358,7 +1361,7 @@ export const RECIPES = [
     method: { en: ['Blend all the crust ingredients together in a food processor.','Press 1–2 tbsp firmly into each muffin-tin mould, filling the base.','Freeze to firm up while you make the filling.','Blend all the filling ingredients until smooth and creamy.','Pour the filling over the crusts and freeze for 2–3 hours until firm.','Let sit 5–10 minutes at room temperature, then turn out. Top with crushed nuts, coconut or lime zest.'], ua: ['Збийте всі інгредієнти основи в кухонному комбайні.','Щільно вкладіть по 1–2 ст. л. у кожну формочку для маффінів, формуючи основу.','Заморозьте для застигання, поки готуєте начинку.','Збийте всі інгредієнти начинки до однорідної кремової маси.','Вилийте начинку на основи та заморозьте на 2–3 години до твердості.','Дайте постояти 5–10 хвилин за кімнатної температури, потім вийміть. Прикрасьте подрібненими горіхами, кокосом або цедрою лайма.'] }
   },
   {
-    slug: 'fig-tart', img: '129-fig-tart.jpg', cat: 'baking', gi: 49,
+    slug: 'fig-tart', dateAdded: '2026-07-10', img: '129-fig-tart.jpg', cat: 'baking', gi: 49,
     tags: ['vegetarian'],
     title: { en: 'Fig Tart (Sugar-free)', ua: 'Тарт з інжиром (без цукру)' },
     why: { en: 'A nutty oat-and-almond crust holds a light yogurt-coconut custard, sweetened with stevia and a little maple. Fresh figs add fibre, so it is far gentler on blood sugar than a pastry tart.', ua: 'Горіхова основа з вівса та мигдалю тримає легкий йогуртово-кокосовий крем, підсолоджений стевією та трохи кленовим сиропом. Свіжий інжир додає клітковину, тож тарт набагато делікатніший до цукру, ніж класичний.' },
@@ -1368,7 +1371,7 @@ export const RECIPES = [
     method: { en: ['Whisk the cream ingredients together until smooth. Bring to the boil over medium heat, stirring constantly, add the salt and cook 1–2 minutes to a pudding consistency. Take off the heat.','Preheat the oven to 160°C and line a tin with parchment.','Mix the crust ingredients and press evenly into the tin (dip the spoon in cold water if it sticks).','Spread the cream over the crust.','Slice the figs into 1.5–2 cm rounds and arrange on top.','Bake about 35 minutes, until the cream caramelises. Cool completely before serving.'], ua: ['Збийте інгредієнти крему до однорідності. Доведіть до кипіння на середньому вогні, постійно помішуючи, додайте сіль і варіть 1–2 хвилини до консистенції пудингу. Зніміть з вогню.','Розігрійте духовку до 160°C та застеліть форму пергаментом.','Змішайте інгредієнти основи та рівномірно розподіліть у формі (вмочіть ложку в холодну воду, якщо липне).','Розподіліть крем по основі.','Наріжте інжир кружечками 1,5–2 см і викладіть зверху.','Випікайте близько 35 хвилин, доки крем не карамелізується. Повністю охолодіть перед подачею.'] }
   },
   {
-    slug: 'avocado-coconut-ice-cream', img: '130-avocado-coconut-ice-cream.jpg', cat: 'dessert', gi: 42,
+    slug: 'avocado-coconut-ice-cream', dateAdded: '2026-07-10', img: '130-avocado-coconut-ice-cream.jpg', cat: 'dessert', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Avocado & Coconut Ice Cream', ua: 'Морозиво з авокадо та кокоса' },
     why: { en: 'Avocado and full-fat coconut milk churn into a rich dairy-free ice cream. Sweetened with rice syrup or honey rather than refined sugar, and the healthy fats keep it low-GI.', ua: 'Авокадо та жирне кокосове молоко перетворюються на насичене морозиво без молочних продуктів. Підсолоджене рисовим сиропом чи медом замість рафінованого цукру, а корисні жири тримають низький ГІ.' },
@@ -1378,7 +1381,7 @@ export const RECIPES = [
     method: { en: ['Blend all the ingredients until completely smooth.','Pour into a freezer-proof container.','Freeze for at least 4 hours, stirring once or twice for a smoother texture.','Soften for a few minutes before scooping.'], ua: ['Збийте всі інгредієнти до повної однорідності.','Перелийте в ємність для морозилки.','Заморожуйте щонайменше 4 години, раз-два перемішавши для гладкості.','Дайте трохи розм’якнути перед подачею.'] }
   },
   {
-    slug: 'pineapple-citrus-sorbet', img: '131-pineapple-citrus-sorbet.jpg', cat: 'dessert', gi: 51,
+    slug: 'pineapple-citrus-sorbet', dateAdded: '2026-07-10', img: '131-pineapple-citrus-sorbet.jpg', cat: 'dessert', gi: 51,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Pineapple & Citrus Sorbet', ua: 'Ананасово-цитрусовий сорбет' },
     why: { en: 'Whole pineapple and oranges blended and frozen — no added sugar, just stevia and a drop of rum extract. Fruit fibre keeps it lighter on blood sugar than a shop sorbet.', ua: 'Цілий ананас та апельсини, збиті й заморожені — без доданого цукру, лише стевія та крапля ромового екстракту. Клітковина фруктів робить його легшим для цукру, ніж магазинний сорбет.' },
@@ -1388,7 +1391,7 @@ export const RECIPES = [
     method: { en: ['Blend all the ingredients until smooth.','Pour into a freezer-proof container and freeze overnight.','Scoop into bowls and serve straight away.'], ua: ['Збийте всі інгредієнти до однорідності.','Перелийте в ємність для морозилки та заморозьте на ніч.','Розкладіть по мисках і подавайте одразу.'] }
   },
   {
-    slug: 'yogurt-chia-pudding', img: '132-yogurt-chia-pudding.jpg', cat: 'breakfast', gi: 33,
+    slug: 'yogurt-chia-pudding', dateAdded: '2026-07-10', img: '132-yogurt-chia-pudding.jpg', cat: 'breakfast', gi: 33,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Yogurt & Chia Pudding', ua: 'Йогуртовий пудинг з чіа' },
     why: { en: 'Greek yogurt and chia set overnight into a protein-and-fibre pudding, sweetened with stevia. The chia slows digestion, making it a steady, blood-sugar-friendly breakfast.', ua: 'Грецький йогурт і чіа за ніч перетворюються на пудинг, багатий білком і клітковиною, підсолоджений стевією. Чіа сповільнює травлення, тож це стабільний, дружній до цукру сніданок.' },
@@ -1398,7 +1401,7 @@ export const RECIPES = [
     method: { en: ['Mix all the ingredients together, sweetening to taste.','Cover and refrigerate for 4 hours (or overnight).','Serve topped with berries, nuts and fresh fruit — good as breakfast, a snack or dessert.'], ua: ['Змішайте всі інгредієнти, підсолодивши за смаком.','Накрийте та охолоджуйте 4 години (або на ніч).','Подавайте з ягодами, горіхами та свіжими фруктами — добре на сніданок, перекус чи десерт.'] }
   },
   {
-    slug: 'easter-kulich-yeast-free', img: '133-easter-kulich-yeast-free.jpg', cat: 'baking', gi: 41,
+    slug: 'easter-kulich-yeast-free', dateAdded: '2026-07-10', img: '133-easter-kulich-yeast-free.jpg', cat: 'baking', gi: 41,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Yeast-free Easter Kulich', ua: 'Пасхальний кулич без дріжджів' },
     why: { en: 'A kulich with no yeast, dairy or eggs — wholegrain flour and homemade nut milk, sweetened only with stevia and the natural sugars of dried fruit. Lower-GI than a classic sweet kulich.', ua: 'Кулич без дріжджів, молочних продуктів і яєць — цільнозернове борошно та домашнє горіхове молоко, підсолоджений лише стевією та природним цукром сухофруктів. Нижчий ГІ, ніж у класичного солодкого куличу.' },
@@ -1408,7 +1411,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 165°C and grease the moulds.','Sift the flour into a bowl and stir in the anise, salt, baking soda and stevia.','Add the drained dried fruit and toss to coat in the flour.','Pour in about 1.5 cups of nut milk and mix, adding more as needed.','Stir in the lemon juice gently, then spoon straight into the moulds.','Bake about 40 minutes, covering the tops with foil for the last 10 minutes. Cool before turning out.'], ua: ['Розігрійте духовку до 165°C та змастіть форми.','Просійте борошно в миску та вмішайте аніс, сіль, соду й стевію.','Додайте відціджені сухофрукти та обкачайте їх у борошні.','Влийте близько 1,5 склянки горіхового молока та перемішайте, додаючи ще за потреби.','Обережно вмішайте лимонний сік, потім одразу розкладіть по формах.','Випікайте близько 40 хвилин, накривши верх фольгою на останні 10 хвилин. Охолодіть перед вийманням.'] }
   },
   {
-    slug: 'easter-kulich-coconut-flour', img: '134-easter-kulich-coconut-flour.jpg', cat: 'baking', gi: 37,
+    slug: 'easter-kulich-coconut-flour', dateAdded: '2026-07-10', img: '134-easter-kulich-coconut-flour.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Coconut-Flour Easter Kulich with Nut Cream', ua: 'Пасхальний кулич на кокосовому борошні з горіховим кремом' },
     why: { en: 'A grain-free, low-carb kulich on coconut flour with a cashew-yogurt cream — no wheat, no added sugar. Eggs and nuts bring protein and fat that keep it satisfying and low-GI.', ua: 'Безглютеновий низьковуглеводний кулич на кокосовому борошні з кремом із кеш’ю та йогурту — без пшениці та доданого цукру. Яйця й горіхи додають білок і жири, що роблять його ситним і з низьким ГІ.' },
@@ -1418,7 +1421,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 180°C.','Mix all the cake ingredients and let stand 20–30 minutes.','Pour into a parchment-lined tin and bake 15–20 minutes until done. Cool completely.','For the cream, blend the cashews, stevia and vanilla until smooth, loosening with the yogurt.','Chill the cream for 20–30 minutes, then spread over the cooled cake and refrigerate.','Decorate with nuts, dried fruit and seeds and keep chilled until serving.'], ua: ['Розігрійте духовку до 180°C.','Змішайте всі інгредієнти куличу та залиште на 20–30 хвилин.','Вилийте у форму з пергаментом і випікайте 15–20 хвилин до готовності. Повністю охолодіть.','Для крему збийте кеш’ю, стевію та ваніль до гладкості, розводячи йогуртом.','Охолодіть крем 20–30 хвилин, потім намастіть на остиглий кулич і поставте в холодильник.','Прикрасьте горіхами, сухофруктами та насінням і тримайте в холоді до подачі.'] }
   },
   {
-    slug: 'carob-chocolates', img: '135-carob-chocolates.jpg', cat: 'dessert', gi: 49,
+    slug: 'carob-chocolates', dateAdded: '2026-07-10', img: '135-carob-chocolates.jpg', cat: 'dessert', gi: 49,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Carob Chocolates (No Sugar, No Cocoa)', ua: 'Шоколадні цукерки без цукру та какао' },
     seoTitle: { en: "Carob Chocolates — No Sugar, No Cocoa, No Dairy", ua: "Цукерки з ріжкового дерева — без цукру, какао й молока" },
@@ -1430,7 +1433,7 @@ export const RECIPES = [
     method: { en: ['Melt the cocoa butter in a bain-marie or over very low heat.','Stir in the spices.','Off the heat, mix in the carob until the consistency of pourable cream.','Stir through the nuts and raisins and pour into moulds.','Refrigerate until hardened; store in a cool place.'], ua: ['Розтопіть какао-масло на водяній бані або на дуже слабкому вогні.','Вмішайте прянощі.','Знявши з вогню, вмішайте ріжкове борошно до консистенції рідких вершків.','Додайте горіхи та родзинки та розлийте по формах.','Охолоджуйте до застигання; зберігайте в прохолодному місці.'] }
   },
   {
-    slug: 'sugar-free-stollen', img: '136-sugar-free-stollen.jpg', cat: 'baking', gi: 48,
+    slug: 'sugar-free-stollen', dateAdded: '2026-07-10', img: '136-sugar-free-stollen.jpg', cat: 'baking', gi: 48,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Sugar-free Christmas Stollen', ua: 'Різдвяний штолен без цукру' },
     why: { en: 'A sourdough take on German stollen, packed with dried fruit and dusted in coconut instead of icing sugar. Fermentation and wholegrain flour lower the GI; stevia replaces the sugar.', ua: 'Штолен на заквасці за німецькими мотивами, наповнений сухофруктами та притрушений кокосом замість цукрової пудри. Ферментація та цільнозернове борошно знижують ГІ; стевія замінює цукор.' },
@@ -1440,7 +1443,7 @@ export const RECIPES = [
     method: { en: ['The evening before: mix the starter with the flour, add the milk to a thick batter, cover and leave somewhere warm overnight. Soak the dried fruit in the fridge overnight.','In the morning, check the dough has doubled and looks airy. Preheat the oven to 180°C.','Chop the soaked fruit if you like, then fold the drained fruit, blueberries and butter gently into the dough.','Transfer to a tin (not quite full) and bake about 40 minutes, until a skewer comes out clean.','Cool completely before turning out.','Mix the coconut shreds with the stevia (blend finer if you prefer) and dust over the stollen.'], ua: ['Напередодні ввечері: змішайте закваску з борошном, додайте молоко до густого тіста, накрийте та залиште в теплі на ніч. Замочіть сухофрукти в холодильнику на ніч.','Уранці перевірте, що тісто подвоїлось і стало пишним. Розігрійте духовку до 180°C.','За бажанням наріжте розмочені фрукти, потім обережно вмішайте відціджені фрукти, чорницю та масло в тісто.','Перекладіть у форму (не повну) та випікайте близько 40 хвилин, доки шпажка не виходитиме сухою.','Повністю охолодіть перед вийманням.','Змішайте кокосову стружку зі стевією (за бажанням подрібніть дрібніше) та притрусіть штолен.'] }
   },
   {
-    slug: 'chocolate-brownie-matcha-cream', img: '137-chocolate-brownie-matcha-cream.jpg', cat: 'baking', gi: 46,
+    slug: 'chocolate-brownie-matcha-cream', dateAdded: '2026-07-10', img: '137-chocolate-brownie-matcha-cream.jpg', cat: 'baking', gi: 46,
     tags: ['vegetarian'],
     title: { en: 'Chocolate Brownie with Matcha Cream', ua: 'Шоколадний брауні з кремом матча' },
     why: { en: 'A fudgy brownie on oat flour and Greek yogurt with less oil than usual, topped with a tangy matcha-yogurt cream. Stevia does the sweetening; chill it so it slices cleanly.', ua: 'Вологий брауні на вівсяному борошні та грецькому йогурті з меншою кількістю олії, з кислуватим кремом із матча та йогурту. Солодкість дає стевія; охолодіть, щоб гарно нарізати.' },
@@ -1450,7 +1453,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 180°C.','Melt the chopped chocolate in a bain-marie over medium-low heat, stirring, then mix in the coconut oil and butter.','Sift the oat flour with the stevia and baking powder.','Stir the yogurt into the cooled chocolate, then gradually work in the flour to a thick, sticky batter.','Spread into a tin and bake 20–25 minutes. Cool completely, then refrigerate.','Mix the matcha cream ingredients and chill until thick. Spread over the cold brownie, freeze 30 minutes if crumbly, then cut into small pieces.'], ua: ['Розігрійте духовку до 180°C.','Розтопіть нарізаний шоколад на водяній бані на середньо-слабкому вогні, помішуючи, потім вмішайте кокосову олію та масло.','Просійте вівсяне борошно зі стевією та розпушувачем.','Вмішайте йогурт в остиглий шоколад, потім поступово введіть борошно до густого липкого тіста.','Розподіліть у формі та випікайте 20–25 хвилин. Повністю охолодіть, потім поставте в холодильник.','Змішайте інгредієнти крему матча та охолодіть до загустіння. Намастіть на холодний брауні, за потреби заморозьте 30 хвилин, потім наріжте на невеликі шматочки.'] }
   },
   {
-    slug: 'strawberry-breakfast-glass', img: '138-strawberry-breakfast-glass.jpg', cat: 'breakfast', gi: 40,
+    slug: 'strawberry-breakfast-glass', dateAdded: '2026-07-10', img: '138-strawberry-breakfast-glass.jpg', cat: 'breakfast', gi: 40,
     tags: ['vegetarian'],
     title: { en: 'Layered Strawberry Breakfast in a Glass', ua: 'Полуничний сніданок у келиху' },
     why: { en: 'A make-ahead parfait of protein-rich quark, granola and strawberries. Use plain quark and a sugar-free strawberry sauce to keep it low-GI — the granola and quark keep you full.', ua: 'Парфе, яке готують заздалегідь, з багатого білком сиру, granola та полуниці. Візьміть звичайний сир і безцукровий полуничний соус, щоб зберегти низький ГІ — granola та сир добре насичують.' },
@@ -1461,7 +1464,7 @@ export const RECIPES = [
     note: { en: 'The original used a sweetened kids’ quark and strawberry cake-soak; use plain quark and fresh or sugar-free strawberries to keep it genuinely low-GI. Use the granola from this section.', ua: 'В оригіналі був солодкий дитячий сир і полунична просочка; візьміть звичайний сир і свіжу або безцукрову полуницю, щоб зберегти справді низький ГІ. Використайте granola з цього розділу.' }
   },
   {
-    slug: 'pink-goji-cupcakes', img: '139-pink-goji-cupcakes.jpg', cat: 'baking', gi: 45,
+    slug: 'pink-goji-cupcakes', dateAdded: '2026-07-10', img: '139-pink-goji-cupcakes.jpg', cat: 'baking', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
     title: { en: 'Pink Beetroot & Goji Cupcakes', ua: 'Рожеві кекси з буряком та ягодами годжі' },
     why: { en: 'Little cakes tinted pink with beetroot purée, built on wholegrain and flax flour with chia — no added sugar. Beetroot and seeds add fibre; goji berries bring antioxidants.', ua: 'Маленькі кекси, підфарбовані буряковим пюре, на цільнозерновому та лляному борошні з чіа — без доданого цукру. Буряк і насіння додають клітковину; ягоди годжі — антиоксиданти.' },
@@ -1471,7 +1474,7 @@ export const RECIPES = [
     method: { en: ['Blend all the ingredients in a food processor and let the batter thicken.','Spoon into heart-shaped (or regular) moulds and bake at 180°C for about 20 minutes.','Decorate with goji berries, coconut shreds, white chocolate and pieces of prune.'], ua: ['Збийте всі інгредієнти в кухонному комбайні та дайте тісту загуснути.','Розкладіть по формах у вигляді сердець (або звичайних) і випікайте при 180°C близько 20 хвилин.','Прикрасьте ягодами годжі, кокосовою стружкою, білим шоколадом та шматочками чорносливу.'] }
   },
   {
-    slug: 'strawberry-white-chocolate-tartlets', img: '140-strawberry-white-chocolate-tartlets.jpg', cat: 'baking', gi: 40,
+    slug: 'strawberry-white-chocolate-tartlets', dateAdded: '2026-07-10', img: '140-strawberry-white-chocolate-tartlets.jpg', cat: 'baking', gi: 40,
     tags: ['vegetarian'],
     title: { en: 'Strawberry & White Chocolate Tartlets', ua: 'Тарталетки з полуницею та білим шоколадом' },
     why: { en: 'A thrifty dessert that turns leftover sugar-free cake into tartlet shells, filled with a stevia-sweetened strawberry compote set with pectin. A small, low-sugar sweet bite.', ua: 'Ощадливий десерт, що перетворює залишки безцукрового коржа на тарталетки, наповнені полуничним компотом на стевії, загущеним пектином. Маленьке частування з малим вмістом цукру.' },
@@ -1481,7 +1484,7 @@ export const RECIPES = [
     method: { en: ['Preheat the oven to 180°C.','Crumble the cooled cake (a moist cake needs no extra liquid).','Press 2–3 tbsp of crumbs firmly into each cup of a non-stick tartlet tin to form shells.','Bake 10 minutes, then cool.','For the filling, heat the strawberries with the stevia and half the pectin on low until thickened.','Fill the shells and top with melted white chocolate. Cool before serving for firmer shells.'], ua: ['Розігрійте духовку до 180°C.','Покришіть остиглий корж (вологому коржу не потрібна додаткова рідина).','Щільно вкладіть по 2–3 ст. л. крихти в кожну комірку антипригарної форми для тарталеток, формуючи основи.','Випікайте 10 хвилин, потім охолодіть.','Для начинки прогрійте полуницю зі стевією та половиною пектину на слабкому вогні до загустіння.','Наповніть основи та полийте розтопленим білим шоколадом. Охолодіть перед подачею для міцніших основ.'] }
   },
   {
-    slug: 'beetroot-heart-cakes', img: '141-beetroot-heart-cakes.jpg', cat: 'baking', gi: 34,
+    slug: 'beetroot-heart-cakes', dateAdded: '2026-07-10', img: '141-beetroot-heart-cakes.jpg', cat: 'baking', gi: 34,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Pink Beetroot Heart Cakes', ua: 'Рожеві сердечка з буряком' },
     why: { en: 'Gluten-free little cakes coloured pink with boiled beetroot, on almond, coconut and flax flour with stevia — no sugar and no wheat. Nut flours add protein and fibre for a low-GI treat.', ua: 'Безглютенові маленькі кекси, підфарбовані вареним буряком, на мигдалевому, кокосовому та лляному борошні зі стевією — без цукру та пшениці. Горіхові борошна додають білок і клітковину для частування з низьким ГІ.' },
@@ -1491,7 +1494,7 @@ export const RECIPES = [
     method: { en: ['Heat the oven to 170°C.','Blend all the ingredients together thoroughly.','Grease a baking tin, spoon in the batter and level it.','Bake for 25–30 minutes. Cool completely.','Cut out hearts with a cutter and decorate as you like.'], ua: ['Розігрійте духовку до 170°C.','Ретельно збийте всі інгредієнти разом.','Змастіть форму, викладіть тісто та розрівняйте.','Випікайте 25–30 хвилин. Повністю охолодіть.','Виріжте сердечка формочкою та прикрасьте за бажанням.'] }
   },
   {
-    slug: 'shrimp-tartlets', img: '142-shrimp-tartlets.jpg', cat: 'main', gi: 39,
+    slug: 'shrimp-tartlets', dateAdded: '2026-07-10', img: '142-shrimp-tartlets.jpg', cat: 'main', gi: 39,
     tags: [],
     title: { en: 'Prawn Tartlets with Basil Pesto', ua: 'Тарталетки з креветками та песто з базиліку' },
     why: { en: 'Savoury tartlets on a rye crust, filled with a parmesan-basil blend, cherry tomatoes and prawns. Rye has a lower GI than white flour, and the prawns add lean protein.', ua: 'Пікантні тарталетки на житній основі, наповнені сумішшю пармезану й базиліку, з помідорами черрі та креветками. Жито має нижчий ГІ, ніж біле борошно, а креветки додають пісний білок.' },
@@ -1501,7 +1504,7 @@ export const RECIPES = [
     method: { en: ['Sift the rye flour with the salt, add the water and 3 tbsp oil and knead to a smooth dough. Divide into 6 balls.','Roll out each and press into oiled tartlet moulds, forming the edges. Line with parchment and dried peas.','Bake at 180°C for 10 minutes, then cool and remove the peas and parchment.','Fry the prawns with the garlic. Blend the Parmesan, garlic and basil with the remaining olive oil.','Fill the shells with the pesto mix, top each with half a cherry tomato and two prawns.','Bake about 10 minutes, until the prawns turn pink.'], ua: ['Просійте житнє борошно із сіллю, додайте воду та 3 ст. л. олії й замісіть гладке тісто. Поділіть на 6 кульок.','Розкачайте кожну та вкладіть у змащені формочки для тарталеток, сформувавши краї. Застеліть пергаментом і насипте сухий горох.','Випікайте при 180°C 10 хвилин, потім охолодіть і приберіть горох та пергамент.','Обсмажте креветки з часником. Збийте пармезан, часник і базилік із рештою оливкової олії.','Наповніть основи сумішшю песто, зверху покладіть половину помідора черрі та дві креветки.','Випікайте близько 10 хвилин, доки креветки не порожевіють.'] }
   },
   {
-    slug: 'raw-new-year-cake', img: '143-raw-new-year-cake.jpg', cat: 'dessert', gi: 44,
+    slug: 'raw-new-year-cake', dateAdded: '2026-07-10', img: '143-raw-new-year-cake.jpg', cat: 'dessert', gi: 44,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Raw New Year Cake (No Flour, Eggs or Sugar)', ua: 'Новорічний торт-сирим (без борошна, яєць і цукру)' },
     why: { en: 'A showstopping no-bake layered cake built entirely from nuts, dates and fruit — no flour, eggs, butter or refined sugar. Cashew creams and coconut oil give richness while keeping it low-GI.', ua: 'Ефектний торт без випікання, зроблений повністю з горіхів, фініків і фруктів — без борошна, яєць, масла та рафінованого цукру. Креми з кеш’ю та кокосова олія додають насиченості, зберігаючи низький ГІ.' },
@@ -1512,7 +1515,7 @@ export const RECIPES = [
     note: { en: 'An involved showpiece — the original raw cake is credited to raw-food chef Dasha Svintsitskaya. Make the components over a couple of sessions.', ua: 'Складний святковий торт — оригінальний сироїдний рецепт належить шеф-кухарці Даші Свінцицькій. Готуйте складові у кілька заходів.' }
   },
   {
-    slug: 'fish-stew-wine-veg', img: '144-fish-stew-wine-veg.jpg', cat: 'main', gi: 45,
+    slug: 'fish-stew-wine-veg', dateAdded: '2026-07-10', img: '144-fish-stew-wine-veg.jpg', cat: 'main', gi: 45,
     tags: ['gluten-free', 'dairy-free'],
     title: { en: 'Fish Stewed with Vegetables & Wine', ua: 'Риба, тушкована з овочами та вином' },
     why: { en: 'White fish braised with beetroot, carrot, onion and mushrooms in a splash of wine — high in protein with non-starchy vegetables. A cornflour dusting (not wheat) keeps it gluten-free.', ua: 'Біла риба, тушкована з буряком, морквою, цибулею та грибами в невеликій кількості вина — багато білка й некрохмалисті овочі. Панірування кукурудзяним борошном (не пшеничним) робить страву без глютену.' },
@@ -1522,7 +1525,7 @@ export const RECIPES = [
     method: { en: ['Clean the fish, cut into pieces, season and dust lightly with cornflour.','Brown the fish in the oil, then set aside.','Soften the onion, carrot and mushrooms; stir in the tomato paste.','Add the wine and let it bubble down, then add the honey, lemon, dill seeds and pepper.','Grate or slice the beetroot, add to the pan and braise until tender.','Return the fish, cover and stew gently until cooked through (about 30 minutes). Works in a multicooker, a pan or a cast-iron pot.'], ua: ['Очистіть рибу, наріжте шматками, приправте та злегка обваляйте в кукурудзяному борошні.','Обсмажте рибу в олії, потім відкладіть.','Пасеруйте цибулю, моркву та гриби; вмішайте томатну пасту.','Влийте вино та дайте випаруватись, потім додайте мед, лимон, насіння кропу та перець.','Натріть або наріжте буряк, додайте в каструлю та тушкуйте до м’якості.','Поверніть рибу, накрийте та тушкуйте на слабкому вогні до готовності (близько 30 хвилин). Підходить мультиварка, сковорода чи чавунець.'] }
   },
   {
-    slug: 'cabbage-cranberry-salad', img: '145-cabbage-cranberry-salad.jpg', cat: 'main', gi: 42,
+    slug: 'cabbage-cranberry-salad', dateAdded: '2026-07-10', img: '145-cabbage-cranberry-salad.jpg', cat: 'main', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Cabbage Salad with Cranberry Dressing', ua: 'Салат з капусти з журавлинним соусом' },
     why: { en: 'A light, crunchy slaw of cabbage and carrot with a tart cranberry-orange dressing — non-starchy vegetables and only a spoon of honey. A fresh, low-GI counter to heavy festive food.', ua: 'Легкий хрусткий салат з капусти та моркви з кислуватим журавлинно-апельсиновим соусом — некрохмалисті овочі та лише ложка меду. Свіжа противага з низьким ГІ до важких святкових страв.' },
@@ -1532,7 +1535,7 @@ export const RECIPES = [
     method: { en: ['Brew the tea in 1 cup boiling water for 4 minutes, strain, and pour over the apricots and cherries to soak for 15–30 minutes.','Drain; slice the apricots, leave the cherries whole.','Finely zest the orange and mix the zest with the honey; squeeze out the juice.','Thaw the cranberries, press through a sieve or blend, and mix with the orange juice.','Julienne the carrots, pour over the cranberry mixture and chill for at least 30 minutes.','Finely shred the cabbage, mix with the cilantro and salt and massage lightly. Combine with the dried fruit, carrots and cranberry sauce, and finish with the honey-zest.'], ua: ['Заваріть чай у 1 склянці окропу 4 хвилини, процідіть і залийте курагу та вишню на 15–30 хвилин.','Відціділь; наріжте курагу, вишню залиште цілою.','Дрібно натріть цедру апельсина та змішайте з медом; вичавіть сік.','Розморозьте журавлину, протріть через сито або збийте та змішайте з апельсиновим соком.','Наріжте моркву соломкою, залийте журавлинною сумішшю та охолоджуйте щонайменше 30 хвилин.','Дрібно нашаткуйте капусту, змішайте з кінзою та сіллю й злегка перетріть руками. З’єднайте із сухофруктами, морквою та журавлинним соусом, завершіть медом із цедрою.'] }
   },
   {
-    slug: 'salmon-tartlets', img: '146-salmon-tartlets.jpg', cat: 'main', gi: 39,
+    slug: 'salmon-tartlets', dateAdded: '2026-07-10', img: '146-salmon-tartlets.jpg', cat: 'main', gi: 39,
     tags: [],
     title: { en: 'Salmon & Avocado Tartlets', ua: 'Тарталетки з сьомгою та авокадо' },
     why: { en: 'Rye tartlet shells filled with an avocado-and-cream-cheese cream and salmon. Rye has a lower GI than white flour, and salmon and avocado add protein and healthy fats.', ua: 'Житні тарталетки з кремом із авокадо та вершкового сиру та сьомгою. Жито має нижчий ГІ, ніж біле борошно, а сьомга й авокадо додають білок і корисні жири.' },
@@ -1542,7 +1545,7 @@ export const RECIPES = [
     method: { en: ['Sift the rye flour with the salt, add the water and oil and knead to a smooth dough. Divide into 6 balls.','Roll out and press into oiled tartlet moulds; line with parchment and dried peas.','Bake at 180°C for 10 minutes, then cool and remove the peas and parchment.','Blend the avocado with the ricotta into a smooth cream.','Slice the salmon. Spread the cream into the shells, add the salmon, a squeeze of lemon and herbs.','Bake again at 180°C for 10 minutes and serve.'], ua: ['Просійте житнє борошно із сіллю, додайте воду та олію й замісіть гладке тісто. Поділіть на 6 кульок.','Розкачайте та вкладіть у змащені формочки; застеліть пергаментом і насипте сухий горох.','Випікайте при 180°C 10 хвилин, потім охолодіть і приберіть горох та пергамент.','Збийте авокадо з рикотою до гладкого крему.','Наріжте сьомгу. Розподіліть крем по основах, додайте сьомгу, трохи лимонного соку та зелень.','Випікайте знову при 180°C 10 хвилин і подавайте.'] }
   },
   {
-    slug: 'maslenitsa-pancakes', img: '147-maslenitsa-pancakes.jpg',
+    slug: 'maslenitsa-pancakes', dateAdded: '2026-07-14', img: '147-maslenitsa-pancakes.jpg',
     imgs: ['147-maslenitsa-pancakes.jpg', '147-maslenitsa-pancakes-2.jpg', '147-maslenitsa-pancakes-3.jpg'],
     cat: 'breakfast', gi: 35,
     tags: ['sugar-free', 'vegetarian'],
@@ -1575,7 +1578,7 @@ export const RECIPES = [
     note: { en: 'The batters are deliberately unsweetened and unsalted base versions — add a pinch of salt or a little honey/erythritol to taste. Any natural colour works: cocoa (brown), matcha (green), turmeric (yellow), beetroot (red), almond (pale).', ua: 'Тісто навмисно без цукру та солі — це базовий варіант, тож додайте дрібку солі або трохи меду/еритритолу до смаку. Колір дає будь-який натуральний продукт: какао (коричневий), маття (зелений), куркума (жовтий), буряк (червоний), мигдаль (світлий).' }
   },
   {
-    slug: 'pear-courgette-salad', img: '148-pear-courgette-salad.jpg', cat: 'main', gi: 19,
+    slug: 'pear-courgette-salad', dateAdded: '2026-07-14', img: '148-pear-courgette-salad.jpg', cat: 'main', gi: 19,
     imgs: ['148-pear-courgette-salad.jpg', '148-pear-courgette-salad-2.jpg', '148-pear-courgette-salad-3.jpg'],
     stepImgs: { 1: '148-pear-courgette-salad-step1.jpg', 3: '148-pear-courgette-salad-step3.jpg', 5: '148-pear-courgette-salad-step5.jpg', 6: '148-pear-courgette-salad-step6.jpg', 7: '148-pear-courgette-salad-step7.jpg' },
     tags: ['low-carb', 'vegetarian', 'dairy-free'],

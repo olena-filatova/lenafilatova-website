@@ -10,11 +10,41 @@ import { CALCULATORS } from '../data/calculators.js';
 import { LEGAL_SLUGS } from '../data/site.js';
 
 const SITE = 'https://lenafilatova.co.uk';
-const today = new Date().toISOString().slice(0, 10);
+
+// Pinned <lastmod> dates for pages that have no content date of their own
+// (OPS-208). Previously these all used the build date, so every deploy stamped
+// nearly every URL "modified today" and taught Google to ignore the signal.
+// Each date is the last git commit that meaningfully touched the page's source
+// (git log -1 --format=%as -- <file>) as of 2026-08-10 — bump a date manually
+// whenever its page meaningfully changes. Blog posts use p.date and recipes
+// use r.dateAdded, so those never need entries here.
+const PAGE_DATES = {
+  '/': '2026-08-04', // src/pages/index.astro (+ ua) — homepage changes often; keep current
+  '/about/': '2026-07-13',
+  '/contact/': '2026-07-13',
+  '/resources/': '2026-07-13',
+  '/blog/': '2026-07-12',
+  '/recipes/': '2026-08-05',
+  // Legal pages (LEGAL_SLUGS)
+  '/privacy/': '2026-07-13',
+  '/cookies/': '2026-07-13',
+  '/terms/': '2026-07-13',
+  '/refunds/': '2026-07-13',
+  '/accessibility/': '2026-07-13',
+  // Calculators — resources/[tool].astro template + data/calculators.js
+  '/resources/food-calculator/': '2026-07-13',
+  '/resources/exercise-calculator/': '2026-07-13',
+  '/resources/insulin-pump-doses/': '2026-07-13',
+};
 
 // [enPath, lastmod, imagePath?] — uaPath is derived as /ua + enPath.
 const pairs = [];
-const add = (path, lastmod = today, image = null) => pairs.push([path, lastmod, image]);
+const add = (path, lastmod = PAGE_DATES[path], image = null) => {
+  // Fail the build rather than silently regress to a fake date if a new
+  // static page is added without a PAGE_DATES entry.
+  if (!lastmod) throw new Error(`sitemap.xml.js: no lastmod for ${path} — add it to PAGE_DATES`);
+  pairs.push([path, lastmod, image]);
+};
 
 add('/');
 add('/about/');
@@ -28,7 +58,7 @@ CALCULATORS.forEach((c) => add(`/resources/${c.slug}/`));
 POSTS.forEach((p) => add(`/blog/${p.slug}/`, p.date, p.image));
 PUBLISHED.forEach((r) => {
   const img = Array.isArray(r.imgs) && r.imgs.length ? r.imgs[0] : r.img;
-  add(`/recipes/${r.slug}/`, today, `/recipes/images/${img}`);
+  add(`/recipes/${r.slug}/`, r.dateAdded, `/recipes/images/${img}`);
 });
 
 // Standalone tool pages carried over as flat .html files (EN/UA are separate
@@ -40,12 +70,16 @@ PUBLISHED.forEach((r) => {
 // declares. GitHub Pages serves /aid-comparison for aid-comparison.html, so both
 // spellings return 200 — submitting the .html one made Search Console report
 // "duplicate, submitted URL not selected as canonical" against every tool page.
+//
+// Third element = pinned <lastmod> (OPS-208): last git commit touching the
+// pair's public/*.html files as of 2026-08-10 — bump manually on meaningful
+// content changes, same policy as PAGE_DATES above.
 const FLAT = [
-  ['/aid-comparison', '/aid-comparison-ua'],
-  ['/cgm-comparison', '/cgm-comparison-ua'],
-  ['/blood-sugar-investigator', '/blood-sugar-investigator-ua'],
-  ['/carb-gi-table', '/carb-gi-table-ua'],
-  ['/t1d-cure-trials', '/t1d-cure-trials-ua'],
+  ['/aid-comparison', '/aid-comparison-ua', '2026-07-30'],
+  ['/cgm-comparison', '/cgm-comparison-ua', '2026-07-22'],
+  ['/blood-sugar-investigator', '/blood-sugar-investigator-ua', '2026-07-30'],
+  ['/carb-gi-table', '/carb-gi-table-ua', '2026-07-14'],
+  ['/t1d-cure-trials', '/t1d-cure-trials-ua', '2026-07-30'],
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;');
@@ -72,12 +106,12 @@ export function GET() {
     entries.push(urlEntry(en, lastmod, image, alts));
     entries.push(urlEntry(ua, lastmod, image, alts));
   }
-  for (const [en, ua] of FLAT) {
+  for (const [en, ua, lastmod] of FLAT) {
     const enUrl = SITE + en;
     const uaUrl = SITE + ua;
     const alts = [['en', enUrl], ['uk', uaUrl], ['x-default', enUrl]];
-    entries.push(urlEntry(enUrl, today, null, alts));
-    entries.push(urlEntry(uaUrl, today, null, alts));
+    entries.push(urlEntry(enUrl, lastmod, null, alts));
+    entries.push(urlEntry(uaUrl, lastmod, null, alts));
   }
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
