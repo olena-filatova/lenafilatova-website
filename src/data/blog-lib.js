@@ -91,6 +91,23 @@ export function relatedPosts(post, posts, limit = 3) {
 export const langUrl = (lang, slug) =>
   `${SITE}${lang === 'ua' ? '/ua' : ''}/blog/${slug}/`;
 
+// Google truncates the SERP title at roughly 600px, which for both Latin and
+// Cyrillic lands near 60 characters. Headlines here are editorial and often
+// longer, so a post sets `seoTitle` to give the <title> tag its own wording.
+export const TITLE_LIMIT = 60;
+
+// Throws rather than silently shipping a title Google will cut mid-word.
+export function seoTitleOf(a) {
+  const t = a.seoTitle || a.title;
+  if (t.length > TITLE_LIMIT) {
+    throw new Error(
+      `Blog title is ${t.length} chars, over the ${TITLE_LIMIT}-char SERP limit: "${t}". ` +
+        'Add a shorter `seoTitle` to this post in blog.js — the long headline stays as the H1.'
+    );
+  }
+  return t;
+}
+
 // Mirrors the JSON-LD the prerendered standalone pages shipped:
 // Article + BreadcrumbList (+ FAQPage when the post has an FAQ).
 export function buildJsonLd(post, lang) {
@@ -99,7 +116,7 @@ export function buildJsonLd(post, lang) {
   const graph = [
     {
       '@type': 'Article',
-      headline: a.seoTitle || a.title,
+      headline: seoTitleOf(a),
       description: a.metaDesc || a.excerpt,
       articleSection: post.en.cat,
       inLanguage: lang === 'ua' ? 'uk' : 'en',
