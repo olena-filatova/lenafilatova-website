@@ -4,6 +4,14 @@
 // the SPA blog and the prerendered standalone pages.
 //
 // Shape: { slug, date, image, cats: [filter keys], comingSoon?, en: {...}, ua: {...} }
+//
+// Per-language SEO escape hatches — set these rather than shortening the
+// editorial headline, which stays the on-page H1:
+//   seoTitle — the <title>/og:title/JSON-LD headline. Required whenever the
+//     headline exceeds 60 characters; seoTitleOf() in blog-lib.js enforces the
+//     limit at build time, so a long headline without one fails the build.
+//   metaDesc — the meta description, when `excerpt` is too long or too vague.
+//
 // Article body is a list of typed blocks:
 //   p (inline [text](url) links) · h · quote · img/graph (src, alt, cap) ·
 //   table (head, rows) · refs (claim, detail, cite, url) · links (name, url, desc) ·
@@ -992,6 +1000,7 @@ export const POSTS = [
     "en": {
       "cat": "Nutrition",
       "title": "Gut bacteria, fibre and hormones: what 2026's precision-nutrition research means for women over 40",
+      "seoTitle": "Gut Bacteria, Fibre & Hormones After 40: 2026 Research",
       "excerpt": "A new 2026 review argues that fibre-rich, Mediterranean-style eating feeds the gut bacteria linked to weight, inflammation and hormone balance — and that the 'best' diet may increasingly be tailored to your own microbiome.",
       "meta": "25 July 2026 · 3 min read",
       "lead": "The idea that your gut bacteria shape your weight and hormones has moved from fringe to mainstream — and a new research review pulls the threads together, with a practical message for women over 40.",
@@ -1062,6 +1071,7 @@ export const POSTS = [
     "ua": {
       "cat": "Харчування",
       "title": "Бактерії кишківника, клітковина й гормони: що дослідження точного харчування 2026 року означають для жінок після 40",
+      "seoTitle": "Мікробіом, клітковина й гормони після 40: дані 2026",
       "excerpt": "Новий огляд 2026 року стверджує, що багате на клітковину харчування середземноморського типу живить бактерії кишківника, пов'язані з вагою, запаленням і гормональним балансом — і що «найкраща» дієта дедалі більше залежатиме від вашого власного мікробіому.",
       "meta": "25 липня 2026 · 3 хв читання",
       "lead": "Ідея, що бактерії кишківника впливають на вашу вагу й гормони, перейшла з маргінесу в мейнстрім — і новий науковий огляд зводить усе докупи, з практичним висновком для жінок після 40.",
@@ -1141,7 +1151,7 @@ export const POSTS = [
     "en": {
       "cat": "Weight loss",
       "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — with one caveat worth reading",
-      "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause (2026 Study)",
+      "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause",
       "metaDesc": "A 2026 Lancet cohort study found postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. What it means — and the bone-and-muscle caveat.",
       "excerpt": "Postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than those on tirzepatide alone in a 2026 Lancet cohort study. Encouraging — but it's observational, and rapid weight loss at midlife carries a bone-and-muscle cost worth planning for.",
       "meta": "27 July 2026 · 4 min read",
@@ -1220,7 +1230,7 @@ export const POSTS = [
     "ua": {
       "cat": "Схуднення",
       "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — з одним важливим застереженням",
-      "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи (2026)",
+      "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи",
       "metaDesc": "Дослідження The Lancet 2026 року: жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді. Що це означає — і застереження щодо кісток і м'язів.",
       "excerpt": "Жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді, у когортному дослідженні The Lancet 2026 року. Обнадійливо — але дослідження спостережне, а швидка втрата ваги в середньому віці має ціну для кісток і м'язів, яку варто спланувати.",
       "meta": "27 липня 2026 · 4 хв читання",
@@ -1308,7 +1318,7 @@ export const POSTS = [
     "en": {
       "cat": "Skin & beauty",
       "title": "“Oestrogen skincare” is becoming its own category — and two very different products share the name",
-      "seoTitle": "Oestrogen Skincare for Menopausal Skin: What the Evidence Shows",
+      "seoTitle": "Oestrogen Skincare for Menopausal Skin: The Evidence",
       "metaDesc": "Topical estradiol and non-hormonal MEP are both sold as “oestrogen skincare”, but they are not the same thing. What the trials actually show — and what they don’t.",
       "excerpt": "After the FDA’s move on hormone therapy labels, oestrogen skincare is being marketed hard. Two quite different products sit behind the name, and the evidence behind them is thinner than the packaging suggests.",
       "meta": "28 July 2026 · 4 min read",
@@ -1409,7 +1419,7 @@ export const POSTS = [
     "ua": {
       "cat": "Краса та шкіра",
       "title": "«Естрогенова косметика» стає окремою категорією — і під цією назвою продають два різні продукти",
-      "seoTitle": "Естрогенова косметика при менопаузі: що показують дослідження",
+      "seoTitle": "Естрогенова косметика при менопаузі: що каже наука",
       "metaDesc": "Місцевий естрадіол і негормональний MEP продають як «естрогенову косметику», але це не одне й те саме. Що справді доводять дослідження — і чого вони не доводять.",
       "excerpt": "Після рішення FDA щодо маркування гормональної терапії естрогенову косметику рекламують дедалі активніше. За цією назвою стоять два різні продукти, а доказова база тонша, ніж обіцяє упаковка.",
       "meta": "28 липня 2026 · 4 хв читання",
@@ -1695,7 +1705,7 @@ export const POSTS = [
     "en": {
       "cat": "Women's Health & Research",
       "title": "What menstrual blood is teaching modern medicine",
-      "seoTitle": "Menstrual Blood in Research & Medicine: Tests, Stem Cells & Autoimmune Clues",
+      "seoTitle": "Menstrual Blood in Medicine: Tests & Stem Cell Research",
       "metaDesc": "A verified guide to how menstrual blood is used in real medicine: an FDA-cleared diabetes test, stem-cell research, and non-invasive clues to endometriosis and autoimmune disease.",
       "excerpt": "A sample medicine spent centuries discarding is now an FDA-cleared diabetes test, a renewable source of stem cells, and a rare non-invasive window onto the immune system — including autoimmune disease.",
       "meta": "19 July 2026 · 9 min read",
@@ -1864,7 +1874,7 @@ export const POSTS = [
     "ua": {
       "cat": "Жіноче здоров'я та дослідження",
       "title": "Чого менструальна кров вчить сучасну медицину",
-      "seoTitle": "Менструальна кров у дослідженнях і медицині: тести, стовбурові клітини, автоімунні хвороби",
+      "seoTitle": "Менструальна кров у медицині: тести й стовбурові клітини",
       "metaDesc": "Перевірений путівник тим, як менструальну кров використовують у реальній медицині: схвалений FDA тест на діабет, дослідження стовбурових клітин і неінвазивні підказки щодо ендометріозу та автоімунних хвороб.",
       "excerpt": "Зразок, який медицина століттями викидала, тепер є схваленим FDA тестом на діабет, відновлюваним джерелом стовбурових клітин і рідкісним неінвазивним вікном до імунної системи — зокрема автоімунних хвороб.",
       "meta": "19 липня 2026 · 9 хв читання",
@@ -6649,6 +6659,7 @@ export const POSTS = [
     "en": {
       "cat": "Nutrition",
       "title": "Eating more protein than the official guideline supports better muscle and bone after menopause",
+      "seoTitle": "Protein After Menopause: More Than the Guideline",
       "excerpt": "A Women's Health Initiative analysis of 3,789 postmenopausal women finds those hitting higher protein targets than the standard RDA had better body composition and bone outcomes over 3 years.",
       "meta": "17 July 2026 · 3 min read",
       "lead": "The official protein guideline — 0.8g per kilogram of body weight a day — was set decades ago from studies that barely included older women. A new analysis suggests it may be too low for the postmenopausal years.",
@@ -6715,6 +6726,7 @@ export const POSTS = [
     "ua": {
       "cat": "Харчування",
       "title": "Білка більше за офіційну норму — краще для м'язів і кісток після менопаузи",
+      "seoTitle": "Білок після менопаузи: більше за норму — краще",
       "excerpt": "Аналіз даних Women's Health Initiative серед 3789 жінок у постменопаузі показує: ті, хто вживав більше білка, ніж стандартна норма, мали кращий склад тіла та стан кісток протягом 3 років.",
       "meta": "17 липня 2026 · 3 хв читання",
       "lead": "Офіційна норма білка — 0,8 г на кілограм ваги на день — була встановлена десятиліття тому за дослідженнями, де майже не було літніх жінок. Новий аналіз свідчить, що для періоду після менопаузи вона може бути занизькою.",
@@ -6774,6 +6786,7 @@ export const POSTS = [
     "en": {
       "cat": "Skin & beauty",
       "title": "2026 review confirms HRT restores skin collagen, elasticity and hydration",
+      "seoTitle": "HRT and Skin: Collagen, Elasticity & Hydration (2026)",
       "excerpt": "A 2026 review in the journal Life pulls together the evidence on menopause, oestrogen and skin — confirming HRT measurably improves collagen content, elasticity and hydration.",
       "meta": "17 July 2026 · 3 min read",
       "lead": "Skin is often left out of the menopause conversation entirely. A 2026 review makes the case that it shouldn't be — and that hormone therapy has real, measurable effects on it.",
@@ -6840,6 +6853,7 @@ export const POSTS = [
     "ua": {
       "cat": "Краса та шкіра",
       "title": "Огляд 2026 року підтверджує: ЗГТ відновлює колаген, еластичність і зволоженість шкіри",
+      "seoTitle": "ЗГТ і шкіра: колаген, еластичність, зволоженість (2026)",
       "excerpt": "Огляд 2026 року в журналі Life зібрав докази про менопаузу, естроген і шкіру — підтверджуючи, що ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість.",
       "meta": "17 липня 2026 · 3 хв читання",
       "lead": "Шкіру часто повністю випускають з розмови про менопаузу. Огляд 2026 року доводить, що це неправильно — і що гормональна терапія має реальний, вимірний вплив на неї.",
@@ -6899,6 +6913,7 @@ export const POSTS = [
     "en": {
       "cat": "Weight loss",
       "title": "GLP-1 weight-loss drugs mainly burn fat, not muscle — and women lose more than men",
+      "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle",
       "excerpt": "A 2026 meta-analysis of GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle, and that women lose proportionally more than men.",
       "meta": "17 July 2026 · 3 min read",
       "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat.",
@@ -6949,6 +6964,7 @@ export const POSTS = [
     "ua": {
       "cat": "Схуднення",
       "title": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — і жінки втрачають більше, ніж чоловіки",
+      "seoTitle": "GLP-1: втрата ваги — це переважно жир, а не м’язи",
       "excerpt": "Метааналіз 2026 року показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
       "meta": "17 липня 2026 · 3 хв читання",
       "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м'язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир.",

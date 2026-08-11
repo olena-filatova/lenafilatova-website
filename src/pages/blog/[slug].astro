@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPostBody from '../../components/BlogPostBody.astro';
 import { POSTS } from '../../data/blog.js';
-import { buildJsonLd } from '../../data/blog-lib.js';
+import { buildJsonLd, seoTitleOf } from '../../data/blog-lib.js';
 
 export function getStaticPaths() {
   return POSTS.map((post) => ({ params: { slug: post.slug }, props: { post } }));
@@ -14,7 +14,7 @@ const a = post.en;
 ---
 <BaseLayout
   lang="en"
-  title={a.seoTitle || a.title}
+  title={seoTitleOf(a)}
   description={a.metaDesc || a.excerpt}
   canonical={`/blog/${post.slug}/`}
   ogImage={post.image}
