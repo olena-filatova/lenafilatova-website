@@ -92,9 +92,11 @@ export const SOCIALS = [
 // Google Calendar appointment scheduler — copied verbatim from the live site.
 export const BOOKING_EMBED = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0nzMnvnKmd4nOx0E1T86EQuRdnoBbYmTEXc-FEtQo9fWvhk-cz4eM8PSSvA7K-BxUJb-F9TBEg?gv=true';
 
-// Google Apps Script endpoint the contact form posts to (type=message → emails Lena;
-// same script that handles all site signups → Mailchimp). Posted no-cors, form-urlencoded.
-export const CONTACT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw21p8PuG5jGQ7JXf7j-tX1-OZBeA1p6negAuzi7TmiyPkjEoshxLbtGc6avUVskGiK/exec';
+// The Google Apps Script endpoint the contact + newsletter forms post to
+// (type=message → emails Lena; same script that handles all site signups →
+// Mailchimp) now lives base64-encoded in src/scripts/form-guard.js, and is
+// assembled at submit time so spam bots can't scrape it out of the page HTML.
+// See docs/contact-form-spam.md.
 
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
 // this repo now); HomeBody builds the language-scoped href and base-prefixes

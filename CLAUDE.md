@@ -26,6 +26,15 @@ be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
   shares `localStorage.lf_cookie` with the old site; GA4 (`G-0F8T9VQFQ0`) loads
   only after acceptance. `.cookie-bar[hidden]{display:none}` must stay — the
   flex display otherwise overrides the `hidden` attribute.
+- **Forms & spam** (`src/scripts/form-guard.js`, `docs/contact-form-spam.md`):
+  the contact form, the homepage newsletter form and the blood-sugar-investigator
+  signup all post to one public Google Apps Script endpoint. The endpoint URL must
+  **never** appear in page HTML again — bots scraped it from the `action` attribute
+  and spammed Lena (OPS-235). It is base64-encoded and decoded at submit time; the
+  forms carry no `action`. Guard layers: honeypot field, 3s time trap, 3-per-hour
+  rate cap, link/keyword heuristics; blocked submissions still show the normal
+  confirmation. Client-side only — a matching filter still needs pasting into the
+  Apps Script itself (snippet in the doc).
 - The embedded calculators are a separate app (repo `olena-filatova/helsico`,
   served at `calculator.lenafilatova.co.uk`), mounted via widget scripts —
   see `src/data/calculators.js`.

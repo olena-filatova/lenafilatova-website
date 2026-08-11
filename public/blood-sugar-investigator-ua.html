@@ -2243,6 +2243,7 @@ function renderResult(node) {
           <form class="sub-form" onsubmit="subscribeSummary(event)">
             <p class="sub-hint">${escHtml(U.subHint)}</p>
             <input type="email" class="sub-email" placeholder="${escHtml(U.subEmailPlaceholder)}" autocomplete="email" />
+            <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden"><input type="text" class="sub-website" tabindex="-1" autocomplete="off" /></div>
             <label class="sub-consent"><input type="checkbox" class="sub-consent-box" /> <span>${escHtml(U.subConsent)}</span></label>
             <button type="submit" class="btn-sub-email">${escHtml(U.subBtn)}</button>
             <div class="sub-status" id="subStatus"></div>
@@ -2310,7 +2311,10 @@ function toggleSummary() {
 }
 
 // Newsletter capture — same Google Apps Script endpoint the main site posts to.
-const NEWSLETTER_ENDPOINT = "https://script.google.com/macros/s/AKfycbw21p8PuG5jGQ7JXf7j-tX1-OZBeA1p6negAuzi7TmiyPkjEoshxLbtGc6avUVskGiK/exec";
+// Base64-encoded so spam bots can't scrape the endpoint out of this page's source;
+// see docs/contact-form-spam.md. Decoded only at submit time.
+const PAGE_LOADED_AT = Date.now();
+const NEWSLETTER_ENDPOINT_B64 = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J3MjFwOFB1RzVqR1E3SlhmN2otdFgxLU9aQmVBMXA2bmVnQXV6aTdUbWl5UGtqRW9zaHhMYnRHYzZhdlVWc2tHaUsvZXhlYw==";
 const SUB_GROUPS = "t1d";
 
 function openSummaryMail(to) {
@@ -2331,11 +2335,15 @@ function subscribeSummary(e) {
   const setStatus = (msg, cls) => { if (status) { status.textContent = msg; status.className = 'sub-status' + (cls ? ' ' + cls : ''); } postHeight(); };
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { setStatus(U.subErrEmail, 'err'); return; }
   if (!consent) { setStatus(U.subErrConsent, 'err'); return; }
+  // Spam guard: honeypot field (invisible to humans) or a submit within 3s of
+  // page load means a bot. Show the normal confirmation, send nothing.
+  const trap = ((form.querySelector('.sub-website') || {}).value || '').trim();
+  if (trap || Date.now() - PAGE_LOADED_AT < 3000) { setStatus(U.subDone, 'ok'); return; }
   setStatus(U.subBusy, '');
   const rec = { email: email, lang: LANG, source: 'blood-sugar-investigator', groups: SUB_GROUPS, consent: 'yes', at: new Date().toISOString() };
   try {
     const body = Object.keys(rec).map(k => k + '=' + encodeURIComponent(rec[k])).join('&');
-    fetch(NEWSLETTER_ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' }, body: body });
+    fetch(atob(NEWSLETTER_ENDPOINT_B64), { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' }, body: body });
   } catch (err) {}
   setStatus(U.subDone, 'ok');
   openSummaryMail(email);   // synchronous — stays within the user gesture

@@ -1,5 +1,5 @@
 ---
-import { BOOKING_EMBED, CONTACT_ENDPOINT } from '../data/site.js';
+import { BOOKING_EMBED } from '../data/site.js';
 const { c } = Astro.props;
 ---
 <section class="hero contact">
@@ -38,8 +38,10 @@ const { c } = Astro.props;
         </div>
 
         <div class="panel" data-panel="msg">
-          <!-- Posts to the same Google Apps Script that emails Lena (type=message). -->
-          <form class="cform" action={CONTACT_ENDPOINT} method="post">
+          <!-- Posts to the same Google Apps Script that emails Lena (type=message).
+               No `action` on purpose — the endpoint is assembled in JS by
+               src/scripts/form-guard.js so bots can't scrape it from the HTML. -->
+          <form class="cform" method="post">
             <input type="hidden" name="type" value="message" />
             <label>{c.fName}<input type="text" name="name" required /></label>
             <label>{c.fEmail}<input type="email" name="email" required /></label>
@@ -54,6 +56,8 @@ const { c } = Astro.props;
 </section>
 
 <script>
+  import { guardForm } from '../scripts/form-guard.js';
+
   // Tiny tab toggle for the Book-a-call / Send-a-message card.
   document.querySelectorAll('.contact-card').forEach((card) => {
     const tabs = card.querySelectorAll('.tab');
@@ -66,15 +70,10 @@ const { c } = Astro.props;
   });
 
   // Submit the message form to the Apps Script endpoint (no-cors, fire-and-forget,
-  // same as the live site) and show the confirmation.
+  // same as the live site) and show the confirmation. Submissions the spam guard
+  // rejects show the same confirmation but are never sent.
   document.querySelectorAll('.cform').forEach((form) => {
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const btn = form.querySelector('button[type=submit]');
-      if (btn) btn.disabled = true;
-      try {
-        await fetch(form.action, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(form)) });
-      } catch (_) { /* no-cors: response is opaque, submission still goes through */ }
+    guardForm(form, () => {
       form.hidden = true;
       const sent = form.parentElement?.querySelector('.form-sent');
       if (sent) sent.hidden = false;
