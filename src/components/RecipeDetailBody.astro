@@ -17,6 +17,9 @@ const T = {
   back: l === 'ua' ? '← Усі рецепти з низьким ГІ' : '← All Low-GI recipes',
   lowGi: l === 'ua' ? 'Низький ГІ' : 'Low GI',
   why: l === 'ua' ? 'Чому це Low GI' : "Why it's Low GI",
+  // Russian-speaking readers search these recipes with Russian words; naming
+  // the variant on the page is how Google learns the two match (OPS-227).
+  altNames: l === 'ua' ? 'Цей рецепт також шукають як' : 'Also searched as',
   ingredients: l === 'ua' ? 'Інгредієнти' : 'Ingredients',
   servings: l === 'ua' ? 'Порції' : 'Servings',
   prep: l === 'ua' ? 'Підготовка' : 'Prep',
@@ -88,6 +91,7 @@ const rec = {
   <div class="notes" id="rWhy" style="margin-bottom:30px;">
     <h3>{T.why}</h3>
     <p>{R.why[l]}</p>
+    {R.altNames?.[l] && <p class="alt-names">{T.altNames} {R.altNames[l]}</p>}
   </div>
 
   <div class="recipe-grid">

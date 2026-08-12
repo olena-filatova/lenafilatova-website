@@ -254,3 +254,11 @@
 .rx .ing-card, .rx .nutri-card, .rx ol.steps li { box-shadow: none; }
 .rx .print-only { display: block; }
 }
+
+/* "Also searched as" — the Russian spellings readers actually type (OPS-227).
+   Deliberately quiet: it is a findability aid, not part of the recipe. */
+.alt-names {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--muted, #6b6b6b);
+}
