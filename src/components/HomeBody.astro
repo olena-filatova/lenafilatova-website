@@ -1,5 +1,5 @@
 ---
-import { HOME, RESOURCES, CONTACT_ENDPOINT } from '../data/site.js';
+import { HOME, RESOURCES } from '../data/site.js';
 import { POSTS } from '../data/blog.js';
 const { lang = 'en' } = Astro.props;
 const t = HOME[lang];
@@ -161,7 +161,8 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
   <div class="wrap nl-box">
     <h2>{t.nlTitle}</h2>
     <p class="section-sub">{t.nlSub}</p>
-    <form class="nlform" action={CONTACT_ENDPOINT} method="post">
+    <!-- Endpoint set at runtime by form-guard.js, not written into the HTML (OPS-235). -->
+    <form class="nlform" method="post">
       <input type="hidden" name="source" value="newsletter" />
       <input type="hidden" name="lang" value={lang} />
       <div class="nl-row">
@@ -169,20 +170,32 @@ const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
         <button type="submit" class="btn">{t.nlBtn}</button>
       </div>
       <label class="nl-consent"><input type="checkbox" required /> {t.nlConsent}</label>
+      <div class="hp-field" aria-hidden="true">
+        <label for="nl-website">{t.nlTrap}</label>
+        <input type="text" id="nl-website" name="website" tabindex="-1" autocomplete="off" />
+      </div>
     </form>
     <p class="nl-sent form-sent" hidden>{t.nlSent}</p>
   </div>
 </section>
 
 <script>
+  import { armForm } from '../scripts/form-guard.js';
+
   document.querySelectorAll('.nlform').forEach((form) => {
+    const collect = armForm(form);
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type=submit]');
       if (btn) btn.disabled = true;
-      try {
-        await fetch(form.action, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(form)) });
-      } catch (_) {}
+      // null => honeypot filled or submitted too fast; show the same
+      // confirmation regardless so a bot learns nothing from the response.
+      const body = collect();
+      if (body) {
+        try {
+          await fetch(form.action, { method: 'POST', mode: 'no-cors', body });
+        } catch (_) {}
+      }
       form.hidden = true;
       const sent = form.parentElement?.querySelector('.nl-sent');
       if (sent) sent.hidden = false;
