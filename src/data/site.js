@@ -92,9 +92,10 @@ export const SOCIALS = [
 // Google Calendar appointment scheduler — copied verbatim from the live site.
 export const BOOKING_EMBED = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0nzMnvnKmd4nOx0E1T86EQuRdnoBbYmTEXc-FEtQo9fWvhk-cz4eM8PSSvA7K-BxUJb-F9TBEg?gv=true';
 
-// Google Apps Script endpoint the contact form posts to (type=message → emails Lena;
-// same script that handles all site signups → Mailchimp). Posted no-cors, form-urlencoded.
-export const CONTACT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw21p8PuG5jGQ7JXf7j-tX1-OZBeA1p6negAuzi7TmiyPkjEoshxLbtGc6avUVskGiK/exec';
+// The Google Apps Script endpoint the contact and newsletter forms post to
+// (type=message → emails Lena; same script handles signups → Mailchimp) now
+// lives in src/scripts/form-guard.js, where it is assembled at runtime instead
+// of being rendered into the HTML for spam scrapers to harvest (OPS-235).
 
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
 // this repo now); HomeBody builds the language-scoped href and base-prefixes
@@ -129,6 +130,7 @@ export const HOME = {
     nlSub: 'Occasional, science-backed notes on diabetes, perimenopause and women’s health after 40 — the overlap almost no one explains. No noise, no fads, unsubscribe anytime.',
     nlConsent: 'I agree to receive emails and accept the Privacy Policy. I can unsubscribe at any time.',
     nlEmail: 'Your email', nlBtn: 'Subscribe',
+    nlTrap: 'Leave this field empty',
     nlSent: 'Almost there — check your inbox to confirm your subscription.',
   },
   ua: {
@@ -159,6 +161,7 @@ export const HOME = {
     nlSub: 'Час від часу — науково обґрунтовані нотатки про діабет, перименопаузу та жіноче здоров’я після 40. Без спаму й модних дієт, відписатися можна будь-коли.',
     nlConsent: 'Погоджуюся отримувати листи та приймаю Політику конфіденційності. Відписатися можна будь-коли.',
     nlEmail: 'Ваш email', nlBtn: 'Підписатися',
+    nlTrap: 'Залиште це поле порожнім',
     nlSent: 'Майже готово — перевірте пошту, щоб підтвердити підписку.',
   },
   // Topic-card tints and their matching accents. The tints used to sit at
@@ -264,6 +267,8 @@ export const CONTACT = {
     callHeading: 'Free 20-minute intro call',
     fName: 'Name', fEmail: 'Email', fMsg: 'What would you like help with?', fSubmit: 'Send message',
     fSent: 'Thanks — your message has been sent. I’ll reply to you soon.',
+    fTrap: 'Leave this field empty',
+    fNoScript: 'This form needs JavaScript. You can email me directly at',
   },
   ua: {
     seoTitle: 'Працюймо разом — Lena Filatova',
@@ -286,6 +291,8 @@ export const CONTACT = {
     callHeading: 'Безкоштовний вступний дзвінок, 20 хв',
     fName: 'Ім’я', fEmail: 'Email', fMsg: 'З чим вам допомогти?', fSubmit: 'Надіслати повідомлення',
     fSent: 'Дякую — ваше повідомлення надіслано. Я скоро відповім.',
+    fTrap: 'Залиште це поле порожнім',
+    fNoScript: 'Ця форма потребує JavaScript. Ви можете написати мені напряму:',
   },
 };
 

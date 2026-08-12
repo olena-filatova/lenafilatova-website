@@ -2310,8 +2310,20 @@ function toggleSummary() {
 }
 
 // Newsletter capture — same Google Apps Script endpoint the main site posts to.
-const NEWSLETTER_ENDPOINT = "https://script.google.com/macros/s/AKfycbw21p8PuG5jGQ7JXf7j-tX1-OZBeA1p6negAuzi7TmiyPkjEoshxLbtGc6avUVskGiK/exec";
+// Assembled at runtime and signed with a guard token so the URL isn't sitting in
+// the page source for spam scrapers, and so direct POSTs can be rejected server
+// side. Mirrors src/scripts/form-guard.js — keep the two in step (OPS-235).
+const NEWSLETTER_ENDPOINT = "https://script.google.com/macros/s/" +
+  "AKfycbw21p8PuG5jGQ7JXf7j-tX1-" + "OZBeA1p6negAuzi7TmiyPkjEoshxLbtGc6avUVskGiK" + "/exec";
 const SUB_GROUPS = "t1d";
+const PAGE_LOADED_AT = Date.now();
+
+function guardToken(ts) {
+  const s = 'lf-form-guard:' + ts;
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return (h >>> 0).toString(36);
+}
 
 function openSummaryMail(to) {
   const subject = encodeURIComponent(U.emailSubject + ' — ' + new Date().toLocaleDateString(U.locale));
@@ -2332,7 +2344,8 @@ function subscribeSummary(e) {
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { setStatus(U.subErrEmail, 'err'); return; }
   if (!consent) { setStatus(U.subErrConsent, 'err'); return; }
   setStatus(U.subBusy, '');
-  const rec = { email: email, lang: LANG, source: 'blood-sugar-investigator', groups: SUB_GROUPS, consent: 'yes', at: new Date().toISOString() };
+  const rec = { email: email, lang: LANG, source: 'blood-sugar-investigator', groups: SUB_GROUPS, consent: 'yes', at: new Date().toISOString(),
+                ts: String(PAGE_LOADED_AT), token: guardToken(PAGE_LOADED_AT) };
   try {
     const body = Object.keys(rec).map(k => k + '=' + encodeURIComponent(rec[k])).join('&');
     fetch(NEWSLETTER_ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' }, body: body });
