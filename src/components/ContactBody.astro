@@ -1,5 +1,5 @@
 ---
-import { BOOKING_EMBED, CONTACT_ENDPOINT } from '../data/site.js';
+import { BOOKING_EMBED } from '../data/site.js';
 const { c } = Astro.props;
 ---
 <section class="hero contact">
@@ -38,15 +38,24 @@ const { c } = Astro.props;
         </div>
 
         <div class="panel" data-panel="msg">
-          <!-- Posts to the same Google Apps Script that emails Lena (type=message). -->
-          <form class="cform" action={CONTACT_ENDPOINT} method="post">
+          <!-- Posts to the Google Apps Script that emails Lena (type=message).
+               The endpoint is set by form-guard.js at runtime rather than being
+               written into the HTML, so scrapers can't harvest it (OPS-235). -->
+          <form class="cform" method="post">
             <input type="hidden" name="type" value="message" />
             <label>{c.fName}<input type="text" name="name" required /></label>
             <label>{c.fEmail}<input type="email" name="email" required /></label>
             <label>{c.fMsg}<textarea name="message" rows="5" required></textarea></label>
+            <!-- Honeypot: off-screen, unfocusable, hidden from assistive tech.
+                 Only a bot filling every input will put anything in it. -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="cf-website">{c.fTrap}</label>
+              <input type="text" id="cf-website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
             <button type="submit" class="btn full">{c.fSubmit}</button>
           </form>
           <p class="form-sent" hidden>{c.fSent}</p>
+          <noscript><p class="form-noscript">{c.fNoScript} <a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a></p></noscript>
         </div>
       </div>
     </div>
@@ -54,6 +63,8 @@ const { c } = Astro.props;
 </section>
 
 <script>
+  import { armForm } from '../scripts/form-guard.js';
+
   // Tiny tab toggle for the Book-a-call / Send-a-message card.
   document.querySelectorAll('.contact-card').forEach((card) => {
     const tabs = card.querySelectorAll('.tab');
@@ -68,13 +79,20 @@ const { c } = Astro.props;
   // Submit the message form to the Apps Script endpoint (no-cors, fire-and-forget,
   // same as the live site) and show the confirmation.
   document.querySelectorAll('.cform').forEach((form) => {
+    const collect = armForm(form);
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type=submit]');
       if (btn) btn.disabled = true;
-      try {
-        await fetch(form.action, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(form)) });
-      } catch (_) { /* no-cors: response is opaque, submission still goes through */ }
+      // collect() returns null when the honeypot is filled or the form was
+      // submitted implausibly fast. Show the same confirmation either way —
+      // telling a bot why it was rejected only helps it adapt.
+      const body = collect();
+      if (body) {
+        try {
+          await fetch(form.action, { method: 'POST', mode: 'no-cors', body });
+        } catch (_) { /* no-cors: response is opaque, submission still goes through */ }
+      }
       form.hidden = true;
       const sent = form.parentElement?.querySelector('.form-sent');
       if (sent) sent.hidden = false;
