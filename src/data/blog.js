@@ -2208,8 +2208,8 @@ export const POSTS = [
     "en": {
       "cat": "Diabetes",
       "title": "Type 1 diabetes cure research: the trials worth following in 2026",
-      "seoTitle": "Type 1 Diabetes Cure Trials to Follow in 2026",
-      "metaDesc": "A plain-English, verified guide to the most promising type 1 diabetes cure and disease-modifying trials in 2026 — what they are, who can join, and how to follow them.",
+      "seoTitle": "Type 1 Diabetes Cure: What’s Actually Working in 2026",
+      "metaDesc": "Some people in type 1 trials have lived years without insulin. An honest, verified guide to the cure research worth following — and how to join a trial.",
       "excerpt": "For the first time, people in trials are living without insulin for years. Here's an honest, verified map of the type 1 cure research worth following — and how to follow or join it.",
       "meta": "19 July 2026 · 11 min read",
       "lead": "A cure for type 1 diabetes has been “five years away” for as long as many of us have lived with it. But something has genuinely shifted. For the first time, people in trials are living without insulin — not for a week, but for years. Here is an honest map of the research actually worth following, and how to follow or even join it yourself.",
@@ -2391,6 +2391,10 @@ export const POSTS = [
         {
           "q": "What about teplizumab — how do I get it?",
           "a": "Teplizumab (TZIELD) is approved in the US for stage 2 type 1 — people who have the autoantibodies and early blood-sugar changes but not yet full diabetes, from age 1. It is usually reached through autoantibody screening (often offered free to relatives of someone with type 1) and given as a roughly two-week course of infusions. Speak to an endocrinologist about screening and eligibility."
+        },
+        {
+          "q": "Does any of this apply to type 2 diabetes?",
+          "a": "Mostly not, because the two conditions fail in different ways. Type 1 is an autoimmune attack that destroys the insulin-making beta cells, so the research here is about replacing those cells or stopping the attack. In type 2 the cells are still there but the body responds poorly to insulin, so type 2 diabetes research is aimed elsewhere — weight and metabolic treatments such as GLP-1 drugs, and remission through significant weight loss. The one genuine overlap is beta-cell biology: work on protecting or regrowing beta cells could eventually matter for people with long-standing type 2 who have lost much of their own insulin production."
         }
       ]
     },
