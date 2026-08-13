@@ -129,7 +129,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "This is genuinely useful to know, because it means the answer to “does weight training raise blood sugar” is: it depends which weight training. The same hour in the gym, rearranged, can move your glucose in either direction."
+          "text": "This is genuinely useful to know, because it means the answer to “does weight training raise blood sugar” is: it depends which weight training. The same hour in the gym, rearranged, can move your glucose in either direction. If you want a sense of how a session is likely to behave before you do it, my [exercise and blood sugar calculator](/resources/exercise-calculator/) estimates the direction for cardio, strength work, walking and the rest."
         },
         {
           "t": "h",
@@ -205,7 +205,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "A longer, gentler warm-up and a few minutes of easy walking at the end tend to blunt the peak, for the mechanical reason described above rather than anything mysterious. And if a reading genuinely does not make sense, [the blood sugar investigator](/blood-sugar-investigator) is a structured way to work through the possible causes instead of guessing."
+          "text": "A longer, gentler warm-up and a few minutes of easy walking at the end tend to blunt the peak, for the mechanical reason described above rather than anything mysterious. Two tools on this site help with the rest: the [exercise and blood sugar calculator](/resources/exercise-calculator/) for what to expect from a given type of session, and [the blood sugar investigator](/blood-sugar-investigator) for working through a reading that genuinely does not make sense, instead of guessing."
         },
         {
           "t": "p",
@@ -399,7 +399,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Це справді корисно знати, бо означає, що відповідь на питання «чи піднімають силові цукор» така: залежить від того, які саме силові. Та сама година в залі, переставлена по-іншому, може посунути глюкозу в будь-який бік."
+          "text": "Це справді корисно знати, бо означає, що відповідь на питання «чи піднімають силові цукор» така: залежить від того, які саме силові. Та сама година в залі, переставлена по-іншому, може посунути глюкозу в будь-який бік. Якщо хочете заздалегідь зрозуміти, як поведеться конкретне заняття, мій [калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) оцінює напрямок для кардіо, силових, ходьби та іншого."
         },
         {
           "t": "h",
@@ -475,7 +475,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Довша, м’якша розминка й кілька хвилин спокійної ходьби наприкінці зазвичай згладжують пік — із суто механічної причини, описаної вище, а не з якоїсь загадкової. А якщо показання справді не піддається поясненню, [дослідник цукру в крові](/blood-sugar-investigator-ua) — це структурований спосіб пройтися можливими причинами замість того, щоб гадати."
+          "text": "Довша, м’якша розминка й кілька хвилин спокійної ходьби наприкінці зазвичай згладжують пік — із суто механічної причини, описаної вище, а не з якоїсь загадкової. З рештою допоможуть два інструменти на цьому сайті: [калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) — щоб знати, чого очікувати від певного типу заняття, і [дослідник цукру в крові](/blood-sugar-investigator-ua) — щоб розібрати показання, яке справді не піддається поясненню, замість того щоб гадати."
         },
         {
           "t": "p",
