@@ -74,25 +74,24 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    {/* Manrope is the body font, so its file is needed on every page — but the
-        browser only discovers it after the Google Fonts CSS below has downloaded
-        and parsed. Preloading starts that fetch in parallel instead.
-        Google serves Manrope as a variable font, so one file per subset covers
-        all four weights (400/500/600/700). Latin is needed everywhere (digits,
-        brand names); Cyrillic only on the UA pages.
-        NOTE: these URLs pin font version v20. If the Google Fonts request on the
-        next line is ever changed, re-fetch that CSS and update these to match —
-        a stale URL just wastes a request (the browser warns "preloaded but not
-        used"), it doesn't break rendering. */}
+    {/* Fonts are self-hosted (OPS-211) — the @font-face rules live at the top of
+        global.css, which Astro bundles into the stylesheet this page already
+        loads. That removes the render-blocking Google Fonts stylesheet and the
+        preconnects to its two origins entirely.
+        The body font is still worth preloading: the browser only discovers a
+        @font-face src after the CSS has downloaded and parsed, so preloading
+        starts the fetch in parallel. Manrope is a variable font, so one file
+        per subset covers all four weights (400/500/600/700). Latin is needed
+        everywhere (digits, brand names); Cyrillic only on the UA pages.
+        `crossorigin` is required on a font preload even same-origin — without
+        it the browser fetches the file twice. Spectral is heading-only, so it
+        is left to normal CSS discovery rather than competing for bandwidth. */}
     <link rel="preload" as="font" type="font/woff2" crossorigin
-          href="https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2" />
+          href={`${B}fonts/manrope-latin-var.woff2`} />
     {lang === 'ua' && (
       <link rel="preload" as="font" type="font/woff2" crossorigin
-            href="https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggOxSvfedN62Zw.woff2" />
+            href={`${B}fonts/manrope-cyrillic-var.woff2`} />
     )}
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
     {revealOnScroll && (
       /* The reveal CSS hides .reveal behind this class, so the class has to be
