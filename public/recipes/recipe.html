@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting to the recipe…</title>
+<!--
+  OPS-226 — Divhunt-era recipe URLs.
+
+  Google still holds /recipes/recipe.html?r=<slug>&lang=ua for a number of
+  recipes; until now that path did not exist at all, so every one of them 404'd
+  while still earning impressions. Two harms: real searchers dead-ended, and
+  each dead URL competed with its own live twin for the same query.
+
+  WHY THIS IS NOT A 301. The site is served straight off GitHub Pages (no
+  Cloudflare or other proxy in front — verified: `server: GitHub.com`, no
+  cf-ray). A static host routes on path only; the `?r=` value that decides the
+  destination is invisible to it, so /recipes/recipe.html?r=a and ?r=b are the
+  same file and no host-level rule can send them to different places. Astro's
+  `redirects:` config would not help either — on a static build it emits
+  meta-refresh stubs rather than 301s, and OPS-182/OPS-187 are open tickets
+  about removing the stubs we already have.
+
+  So this is the best a static host allows: a canonical pointing at the real
+  recipe plus an immediate client-side replace. Google does follow both and
+  will consolidate the duplicate, just more slowly and less certainly than a
+  301 would. Getting an actual 301 needs a proxy in front of the domain — see
+  the Cloudflare note on the ticket.
+
+  Retired slugs are handled for free: /ua/recipes/<retired>/ is itself a
+  redirect stub pointing at the surviving recipe, so those chain through it.
+  Deliberately not duplicating RETIRED_SLUG_TARGETS here — a copy would go
+  stale the first time that map changed.
+-->
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" id="canon" href="https://lenafilatova.co.uk/recipes/">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         max-width: 34rem; margin: 18vh auto; padding: 0 1.25rem; line-height: 1.6;
+         color: #2c2c2c; }
+  a { color: #b5551f; }
+</style>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+
+  // Strictly whitelist the slug charset. `r` is attacker-controllable and ends
+  // up in location.replace(), so anything looser here is an open redirect —
+  // e.g. r=//example.com would send visitors off-site under our own domain.
+  var raw = (q.get('r') || '').trim().toLowerCase();
+  var slug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(raw) ? raw : '';
+
+  var ua = (q.get('lang') || '').toLowerCase() === 'ua';
+  var base = ua ? '/ua/recipes/' : '/recipes/';
+  var target = slug ? base + slug + '/' : base;
+
+  var canon = document.getElementById('canon');
+  if (canon) canon.href = 'https://lenafilatova.co.uk' + target;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var a = document.getElementById('go');
+    if (a) { a.href = target; a.textContent = target; }
+    var h = document.getElementById('msg');
+    if (h && ua) h.textContent = 'Перенаправляємо вас на рецепт…';
+  });
+
+  // replace() rather than assign() so the dead URL doesn't sit in history and
+  // trap the back button on a page that only ever bounces.
+  location.replace(target);
+})();
+</script>
+</head>
+<body>
+  <h1 id="msg">Taking you to the recipe…</h1>
+  <p>If nothing happens, follow this link: <a id="go" href="/recipes/">/recipes/</a></p>
+</body>
+</html>
