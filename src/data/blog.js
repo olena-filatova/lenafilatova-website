@@ -29,8 +29,8 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
-      "title": "Women lose more weight on GLP-1 drugs than men — the largest review yet puts a number on it",
-      "seoTitle": "GLP-1 Weight Loss: Women Lose More Than Men",
+      "title": "Women lose more weight on GLP-1 drugs than men — the JAMA Internal Medicine review puts a number on it",
+      "seoTitle": "GLP-1: Women Lose More Than Men — JAMA Review",
       "metaDesc": "A JAMA Internal Medicine review found women lost 10.9% of body weight on GLP-1 drugs versus 6.8% for men. What that gap does and does not mean.",
       "excerpt": "A Johns Hopkins review of 64 randomised trials found women lost 10.9% of their body weight on GLP-1 drugs against 6.8% for men. Its main finding, though, was how little else made any difference.",
       "meta": "12 August 2026 · 5 min read",
@@ -82,7 +82,7 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
-              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle — and women lose more than men",
+              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
               "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "The companion question: what the lost weight is actually made of, and how to protect muscle while it comes off."
             },
@@ -107,8 +107,8 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "title": "Жінки втрачають на препаратах GLP-1 більше ваги, ніж чоловіки — найбільший огляд дає цифру",
-      "seoTitle": "GLP-1: жінки худнуть більше за чоловіків — цифри",
+      "title": "Жінки втрачають на препаратах GLP-1 більше ваги, ніж чоловіки — цифри з огляду JAMA Internal Medicine",
+      "seoTitle": "GLP-1: жінки худнуть більше — огляд JAMA",
       "metaDesc": "Огляд у JAMA Internal Medicine: жінки втратили 10,9% ваги на препаратах GLP-1 проти 6,8% у чоловіків. Що ця різниця означає, а що — ні.",
       "excerpt": "Огляд 64 рандомізованих досліджень від Джонса Гопкінса показав: жінки втратили 10,9% ваги на препаратах GLP-1 проти 6,8% у чоловіків. Але головним висновком було те, наскільки мало важило все інше.",
       "meta": "12 серпня 2026 · 5 хв читання",
@@ -160,7 +160,7 @@ export const POSTS = [
           "title": "Дотичне читання",
           "items": [
             {
-              "name": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м’язи",
+              "name": "Препарати GLP-1 спалюють переважно жир, а не м’язи — метааналіз International Journal of Obesity",
               "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "Супутнє питання: з чого насправді складається втрачена вага і як зберегти м’язи, поки вона йде."
             },
