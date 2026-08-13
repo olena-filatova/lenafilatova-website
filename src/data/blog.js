@@ -24,11 +24,12 @@ export const POSTS = [
     "date": "2026-08-13",
     "image": "/images/eating-around-training-blood-sugar.jpg",
     "cats": [
+      "fitness",
       "nutrition",
       "diabetes"
     ],
     "en": {
-      "cat": "Nutrition",
+      "cat": "Fitness 40+",
       "title": "Eating around training when you're managing blood sugar",
       "seoTitle": "What to Eat Before Training With Diabetes",
       "metaDesc": "Pre- and post-workout eating for insulin resistance and type 1 diabetes — plus an honest verdict on fasted training after 40.",
@@ -98,7 +99,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "There is no formula I can give you here, and anyone who offers you one online should be treated with suspicion. What actually works is pattern-finding: pick a session you do regularly, keep the timing and the food the same for a few weeks, and look at what your CGM does — during, straight after, and overnight. My own 7am sessions and 6pm sessions behave nothing like each other, and I only know that because I looked. If you want a structure for reading those traces, [my post on glucose patterns](/blog/reading-glucose-patterns/) walks through it."
+          "text": "There is no formula I can give you here, and anyone who offers you one online should be treated with suspicion. What actually works is pattern-finding: pick a session you do regularly, keep the timing and the food the same for a few weeks, and look at what your CGM does — during, straight after, and overnight. My own 7am sessions and 6pm sessions behave nothing like each other, and I only know that because I looked. For a starting expectation before you have your own data, the [exercise and blood sugar calculator](/resources/exercise-calculator/) estimates which way a given type of session is likely to move you, and [my post on glucose patterns](/blog/reading-glucose-patterns/) gives you a structure for reading the traces afterwards."
         },
         {
           "t": "p",
@@ -213,6 +214,11 @@ export const POSTS = [
               "name": "Metabolic food calculator",
               "url": "/resources/food-calculator/",
               "desc": "Type in a meal and see the likely glycaemic load, carbs and protein before you eat it."
+            },
+            {
+              "name": "Exercise and blood sugar calculator",
+              "url": "/resources/exercise-calculator/",
+              "desc": "Estimates how a walk, a run or a lifting session is likely to move your glucose — useful before you have your own pattern."
             }
           ]
         },
@@ -308,7 +314,7 @@ export const POSTS = [
       ]
     },
     "ua": {
-      "cat": "Харчування",
+      "cat": "Фітнес 40+",
       "title": "Харчування навколо тренувань, коли ви стежите за цукром у крові",
       "seoTitle": "Що їсти перед тренуванням при діабеті",
       "metaDesc": "Харчування до і після тренування при інсулінорезистентності та діабеті 1 типу — і чесний висновок про тренування натщесерце після 40.",
@@ -378,7 +384,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Формули я вам тут не дам, і до будь-кого, хто пропонує таку формулу в інтернеті, варто ставитися з підозрою. Працює пошук власної закономірності: візьміть заняття, яке робите регулярно, кілька тижнів тримайте однаковими час і їжу — і дивіться, що показує ваш CGM під час, одразу після і вночі. Мої тренування о 7-й ранку і о 6-й вечора поводяться зовсім по-різному, і я знаю це лише тому, що подивилася. Якщо потрібна структура для читання таких графіків, [мій текст про патерни глюкози](/ua/blog/reading-glucose-patterns/) її дає."
+          "text": "Формули я вам тут не дам, і до будь-кого, хто пропонує таку формулу в інтернеті, варто ставитися з підозрою. Працює пошук власної закономірності: візьміть заняття, яке робите регулярно, кілька тижнів тримайте однаковими час і їжу — і дивіться, що показує ваш CGM під час, одразу після і вночі. Мої тренування о 7-й ранку і о 6-й вечора поводяться зовсім по-різному, і я знаю це лише тому, що подивилася. Поки власних даних ще немає, [калькулятор впливу тренувань на цукор](/ua/resources/exercise-calculator/) допоможе зорієнтуватися, куди саме певний тип заняття, найімовірніше, зрушить вас, а [мій текст про патерни глюкози](/ua/blog/reading-glucose-patterns/) дає структуру, щоб читати графіки потім."
         },
         {
           "t": "p",
@@ -493,6 +499,11 @@ export const POSTS = [
               "name": "Метаболічний калькулятор їжі",
               "url": "/ua/resources/food-calculator/",
               "desc": "Введіть страву й побачте ймовірне глікемічне навантаження, вуглеводи та білок ще до того, як з'їсте."
+            },
+            {
+              "name": "Калькулятор впливу тренувань на цукор",
+              "url": "/ua/resources/exercise-calculator/",
+              "desc": "Оцінює, як прогулянка, пробіжка чи силове заняття, найімовірніше, зрушать вашу глюкозу — корисно, поки немає власних спостережень."
             }
           ]
         },
