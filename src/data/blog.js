@@ -188,7 +188,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "If you want to work out which of your meals are worth walking off first, my [metabolic food calculator](/resources/food-calculator/) estimates the blood sugar impact of a given food, and the [carb & GI table](/carb-gi-table.html) is a quick reference for the usual suspects. Both are free."
+          "text": "Two of my free tools make this easier to aim. The [exercise & blood sugar calculator](/resources/exercise-calculator/) estimates how walking and other movement is likely to shift your numbers, so you can see what a ten-minute walk is worth before you commit to the habit. The [metabolic food calculator](/resources/food-calculator/) does the same for a given food — useful for working out which of your regular meals are the steep ones worth walking off first — and the [carb & GI table](/carb-gi-table.html) is a quick reference for the usual suspects."
         },
         {
           "t": "h",
@@ -417,7 +417,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Якщо хочете зрозуміти, після яких саме страв прогулянка потрібна найбільше, мій [калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) оцінює вплив продукту на цукор у крові, а [таблиця вуглеводів і ГІ](/carb-gi-table-ua.html) — це швидка довідка щодо звичних підозрюваних. Обидва безкоштовні."
+          "text": "Два моїх безкоштовних інструменти допоможуть краще прицілитися. [Калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) оцінює, як ходьба та інший рух імовірно змістять ваші показники, — щоб ви побачили, чого варті десять хвилин, ще до того, як братися за звичку. [Калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) робить те саме для конкретного продукту — зручно, щоб зрозуміти, після яких саме ваших звичних страв прогулянка потрібна найбільше, — а [таблиця вуглеводів і ГІ](/carb-gi-table-ua.html) слугує швидкою довідкою щодо звичних підозрюваних."
         },
         {
           "t": "h",
