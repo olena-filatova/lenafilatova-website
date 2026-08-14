@@ -30,6 +30,48 @@ be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
   served at `calculator.lenafilatova.co.uk`), mounted via widget scripts —
   see `src/data/calculators.js`.
 
+- **Old-site media archive:** `old-site-media/` (git-ignored, ~429 MB) holds all images
+  downloaded from the old lenafilatova.com WordPress media library on 6 Aug 2026 (OPS-214)
+  and then hand-curated by Lena the same day: `recipes/` (577 food/dish photos, dish titles
+  in `manifest.csv` where known), `testimonials/` (234 Instagram-screenshot testimonials,
+  mostly Dia.School results — for social proof), `generic/` (209 misc kept after pruning).
+  Partner logos and non-image files were skipped. Lena's manual sort is authoritative —
+  folder placement may differ from `manifest.csv` categories. Never commit this folder.
+  Gotcha: the public WP REST media API hides attachments of the recipe/testimonial CPTs —
+  use authenticated admin-ajax `query-attachments` for a complete listing (see mempalace).
+
 ## Working branches
 Each Claude session works on its own `claude/*` branch; changes land on `main`
 via squash-merged PRs. Deploys run automatically on merge.
+
+## Adding posts/recipes without causing merge conflicts
+
+`src/data/blog.js` and `src/data/recipes.js` are ordered **newest-first**, so every
+new entry is inserted at the *same* spot — the first element of the array. Two open
+PRs adding content therefore **always** conflict, with each other and with whatever
+merged first. Nothing is semantically incompatible; the resolution is always "keep
+all entries, ordered by `date` descending". Rules:
+
+1. **Rebase onto `origin/main` immediately before opening the PR**, and again
+   whenever another content PR merges ahead of you. Never hand-resolve the conflict
+   in the GitHub web UI — it's easy to produce a valid-looking but duplicated array.
+2. **Never stack content PRs.** This repo squash-merges, so merging the lower PR
+   creates a *new* commit; the stacked branch's base stops being an ancestor of
+   `main` and its copy of the already-merged entry re-conflicts. Rebase each branch
+   straight onto `origin/main`, one at a time, after the previous one lands.
+3. If a branch did get stacked, recover with
+   `git rebase --onto origin/main <old-base-sha>` — that drops the already-merged
+   commit and replays only the new entry.
+4. **Merge content PRs promptly.** The conflict cost grows with every day they sit.
+
+Before pushing a rebased content branch, verify:
+
+```bash
+node -e "import('./src/data/blog.js').then(m=>{const s=m.POSTS.map(p=>p.slug);console.log('posts',s.length,'dupes',s.length-new Set(s).size);console.log(m.POSTS.slice(0,3).map(p=>p.date+' '+p.slug).join('\n'))})"
+git diff origin/main --stat   # expect ONE data file, pure insertions
+```
+
+Post count and dates descending, zero duplicate slugs. Force-push with
+`--force-with-lease=<branch>:<pre-rebase-sha>`. Do the rebase in a throwaway
+`git worktree` — the main clone usually has another branch checked out with
+uncommitted work.
