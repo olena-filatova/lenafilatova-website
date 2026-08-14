@@ -20,6 +20,529 @@
 
 export const POSTS = [
   {
+    "slug": "hrt-type-1-diabetes-evidence",
+    "date": "2026-08-13",
+    "image": "/images/hrt-type-1-diabetes-evidence.jpg",
+    "cats": [
+      "diabetes",
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Diabetes",
+      "title": "HRT and type 1 diabetes: what the evidence actually says (and where it runs out)",
+      "seoTitle": "HRT and Type 1 Diabetes: What the Evidence Says",
+      "metaDesc": "Does HRT help or harm blood sugar in type 1 diabetes? What's established, what isn't, and the questions to take to your clinician.",
+      "excerpt": "Hormone therapy has been studied properly in women without diabetes and reasonably well in type 2. In type 1 the evidence thins out to almost nothing — and pretending otherwise doesn't help anyone decide.",
+      "meta": "13 August 2026 · 8 min read",
+      "lead": "If you have type 1 diabetes and you're weighing up HRT, you've probably had two conversations that contradicted each other. One said hormone therapy would wreck your control. The other said it would fix it. And when you went looking for something written down, almost nothing mentioned type 1 diabetes at all. That absence isn't an oversight on your part — it's the actual state of the research, and it's the most useful thing anyone can tell you.",
+      "blocks": [
+        {
+          "t": "quote",
+          "text": "This is not medical advice and it is deliberately not a recommendation. HRT is a prescribing decision that belongs to you and your clinician. What follows is what the evidence does and does not show — so that conversation starts from a better place."
+        },
+        {
+          "t": "h",
+          "text": "What happens to blood sugar as oestrogen falls"
+        },
+        {
+          "t": "p",
+          "text": "Oestrogen is not a bystander in glucose metabolism. As levels fall through perimenopause, body composition shifts towards visceral fat, muscle takes up less glucose without insulin's help, and the result for most women is a slow drift towards insulin resistance. Diabetes UK puts it plainly: as oestrogen drops, the body becomes less responsive to insulin, and levels can swing between high and low with no obvious trigger."
+        },
+        {
+          "t": "p",
+          "text": "For anyone injecting or pumping insulin, that drift shows up as arithmetic. Dawn, a midwife with type 1 diabetes who shared her story with Diabetes UK, saw her insulin-to-carb ratio move from 1:10 to 1:5 across roughly ten months — she ended up needing about twice the insulin she had needed before, for the same food. Nothing about her management had changed. Her body had."
+        },
+        {
+          "t": "p",
+          "text": "There's a second, meaner problem: the symptoms overlap. A hot flush and a hypo can feel close to identical — sweating, racing heart, that unsteady flush of wrongness. Women who spent decades trusting their hypo awareness suddenly can't. I've written about the wider version of this in [what perimenopause really does to blood sugar](/blog/perimenopause-diabetes-blood-sugar/); the short version is that none of it is a failure of your management."
+        },
+        {
+          "t": "h",
+          "text": "What the research shows in women without diabetes"
+        },
+        {
+          "t": "p",
+          "text": "This is the part with real data behind it. In large randomised trials of postmenopausal women without diabetes, hormone therapy improved insulin sensitivity and fasting glucose, and was associated with fewer new diagnoses of type 2 diabetes over the follow-up period. The effect was consistent enough to be interesting."
+        },
+        {
+          "t": "p",
+          "text": "It is worth being precise about what that does and doesn't mean. Diabetes prevention has never been an approved reason to prescribe HRT, and no major guideline recommends it for that. The finding tells you something about the direction oestrogen pushes glucose metabolism in a body that still makes its own insulin. It does not tell you what happens in a body that doesn't."
+        },
+        {
+          "t": "h",
+          "text": "What it shows in type 2 diabetes"
+        },
+        {
+          "t": "p",
+          "text": "A 2023 systematic review and meta-analysis in Diabetes Care pulled together the trials of postmenopausal hormone therapy in women who already had diabetes. In type 2, the pooled result was a reduction in HbA1c of 0.56 percentage points (about 6 mmol/mol) and a fall in fasting glucose of around 1.2 mmol/L."
+        },
+        {
+          "t": "p",
+          "text": "Those are meaningful numbers, and the authors' conclusion was measured rather than enthusiastic: when hormone therapy is being considered for menopausal symptoms in women with type 2 diabetes, it can be expected to have a neutral-to-beneficial effect on glucose regulation. Note the framing — the reason to take it is still the symptoms. Half the included studies carried a high risk of bias, which is worth holding onto. If you want the other direction of that relationship, I covered it in [type 2 diabetes and heavier menopause symptoms](/blog/type-2-diabetes-menopause-symptoms/)."
+        },
+        {
+          "t": "h",
+          "text": "And in type 1 diabetes?"
+        },
+        {
+          "t": "p",
+          "text": "Here is the honest answer: the same review found the evidence in type 1 diabetes limited — too limited to pool into anything you could call a finding. It is not that the studies disagree. It is that they barely exist."
+        },
+        {
+          "t": "p",
+          "text": "A Cochrane review that went looking for randomised evidence on HRT in type 1 diabetes found a single small, underpowered trial, which had mixed type 1 and type 2 participants together anyway. A narrative review published in Endocrine Connections in late 2025 revisited the whole question and reached the same place: in the absence of disease-specific data, clinicians have to individualise, and there is an urgent need for dedicated research and proper clinical pathways."
+        },
+        {
+          "t": "p",
+          "text": "The reasons are structural, not mysterious. Type 1 is roughly a tenth of the diabetes population, so any diabetes trial that recruits broadly ends up with too few type 1 participants to say anything about them. Trials designed around insulin resistance often exclude type 1 outright. And menopause research and diabetes research are funded, run and published by different people who rarely share a room. Type 1 diabetes ends up as a footnote in the menopause literature and menopause ends up as a footnote in the type 1 literature."
+        },
+        {
+          "t": "p",
+          "text": "So the extrapolation that everyone quietly makes — type 2 improved, therefore type 1 will too — is an assumption, not a result. And there's a mechanistic reason to be careful with it. Much of the type 2 benefit runs through improved insulin sensitivity in a body still producing its own insulin. If you produce none, better sensitivity doesn't lower your glucose on its own; it changes how much insulin you need, which is a different thing to manage and a different thing to get wrong."
+        },
+        {
+          "t": "h",
+          "text": "What women with type 1 diabetes report themselves"
+        },
+        {
+          "t": "p",
+          "text": "Where trial evidence runs out, survey evidence is not nothing. A cross-sectional study published in Diabetologia in 2025 asked 159 postmenopausal women in the Netherlands living with type 1 diabetes what had actually happened to their glucose after their final period."
+        },
+        {
+          "t": "p",
+          "text": "Around two-thirds reported moderate to severe changes in glucose regulation. But the direction split: 41.9% said their levels ran higher, 38.5% saw no change, and 19.6% said their levels ran lower. More than half reported greater fluctuation, 61.6% more hyperglycaemic events and 38.5% more hypos — some women reporting both. Women with more severe menopausal symptoms were more likely to report a change in their glucose."
+        },
+        {
+          "t": "p",
+          "text": "The spread is the finding. There is no single thing that menopause does to type 1 diabetes, which means there is unlikely to be a single thing HRT does to it either. It also means that if your experience doesn't match the woman in your support group, neither of you is doing it wrong."
+        },
+        {
+          "t": "h",
+          "text": "Why \"it depends\" is the real answer"
+        },
+        {
+          "t": "p",
+          "text": "\"It depends\" usually sounds like a dodge. Here it is the accurate answer, because at least three variables change the calculation and none of them is your diabetes type."
+        },
+        {
+          "t": "p",
+          "text": "Route matters. Oestrogen taken as a tablet passes through the liver before reaching the rest of you; delivered through the skin it does not, which is why transdermal preparations carry a lower clot risk and why the 2025 review noted a preference for transdermal oestradiol where hormone therapy is used in type 1 diabetes. Formulation matters — the progestogen component, and whether it is given continuously or cyclically, has its own metabolic profile. And your individual cardiovascular risk matters most of all: duration of diabetes, blood pressure, lipids, smoking status and any microvascular complications all feed into a calculation that is genuinely personal."
+        },
+        {
+          "t": "p",
+          "text": "None of that is something an article can resolve for you, and I am not going to pretend otherwise by naming a preparation or a dose. What an article can do is make sure you walk into the appointment asking the right things."
+        },
+        {
+          "t": "h",
+          "text": "Questions worth taking to your appointment"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Ask",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Given my diabetes history and cardiovascular risk, what are the specific risks and benefits for me?",
+              "Moves the conversation off general population data and onto your own numbers — duration, blood pressure, lipids, complications."
+            ],
+            [
+              "How would route of delivery change that assessment?",
+              "Transdermal and oral oestrogen do not carry the same risk profile. It is a decision worth making explicitly rather than by default."
+            ],
+            [
+              "What should I expect to happen to my insulin requirements, and over what timeframe?",
+              "Sets an expectation, so a change in your ratios reads as predictable rather than as a loss of control."
+            ],
+            [
+              "How will we tell a hot flush from a hypo?",
+              "The overlap is real and it erodes hypo awareness. Worth naming before it happens."
+            ],
+            [
+              "Can I run CGM data for a few weeks before starting, so we have a baseline?",
+              "Without a before, there is nothing to compare an after to — and perceptions of glucose change are notoriously unreliable."
+            ],
+            [
+              "When will we review this, and what would make us change course?",
+              "Turns an open-ended decision into a trial with a review date and an exit."
+            ],
+            [
+              "Who owns this — my diabetes team or my GP or a menopause specialist?",
+              "These decisions fall between services. Naming an owner prevents each side assuming the other is handling it."
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "What I did, and why I'm not telling you to do the same"
+        },
+        {
+          "t": "p",
+          "text": "I've had type 1 diabetes for 23 years, and I went into this the way I've had to go into most things: with incomplete evidence and a decision that wouldn't wait for better. What I could control was the quality of the conversation. I took the list above to my appointments almost word for word. I collected four weeks of CGM data before anything changed, so that whatever happened next had a baseline to be measured against. I agreed a review point in advance."
+        },
+        {
+          "t": "p",
+          "text": "I'm not going to tell you what I decided, and that isn't coyness. The evidence that would justify me pointing you one way doesn't exist, and my risk profile isn't yours. Someone with 23 years of type 1, a particular blood pressure and a particular family history is answering a different question to the one you're being asked. Anyone who tells you confidently what women with type 1 diabetes should do about HRT is telling you something the research cannot currently support."
+        },
+        {
+          "t": "p",
+          "text": "What I would say is this: the fact that nobody studied us is not a reason to accept a shrug. It's a reason to ask harder questions, to insist your menopause symptoms are assessed in their own right rather than filed under diabetes, and to expect your care to be joined up. Women with type 1 diabetes have given a great deal to diabetes research. It would be reasonable to get some of it back."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Hormone therapy improves glucose regulation in type 2 diabetes; the type 1 evidence is too limited to pool.",
+              "detail": "A systematic review and meta-analysis of postmenopausal hormone therapy in women with type 1 or type 2 diabetes found that, in type 2, hormone therapy reduced HbA1c by a mean of 0.56 percentage points (95% CI −0.80 to −0.31; −6.08 mmol/mol, 95% CI −8.80 to −3.36) and fasting glucose by 1.15 mmol/L (95% CI −1.78 to −0.51). Evidence for the effect in type 1 diabetes was limited. Around half the included studies were judged at high risk of bias. The authors conclude that where hormone therapy is considered for menopausal symptoms in type 2 diabetes, its effect on glucose regulation is expected to be neutral to beneficial.",
+              "cite": "Diabetes Care · Systematic review and meta-analysis, October 2023",
+              "url": "https://diabetesjournals.org/care/article/46/10/1866/153635/Effect-of-Postmenopausal-Hormone-Therapy-on"
+            },
+            {
+              "claim": "Type 1-specific evidence on HRT remains sparse, and management has to be individualised.",
+              "detail": "A 2025 narrative review of menopause management in women with type 1 diabetes notes that a Cochrane review of HRT in this population identified only one small, underpowered trial, which also mixed type 1 and type 2 participants. It reports that women with type 1 diabetes may reach menopause earlier, particularly with young-age diagnosis or microvascular complications, though findings are inconsistent. In the absence of disease-specific data it recommends an individualised approach, with a preference for transdermal oestradiol where hormone therapy is used, and calls for dedicated research, evidence-based guidelines and integrated clinical pathways.",
+              "cite": "Endocrine Connections · Narrative review, December 2025",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12709055/"
+            },
+            {
+              "claim": "Two-thirds of postmenopausal women with type 1 diabetes report changed glucose regulation — in both directions.",
+              "detail": "A cross-sectional survey of 159 postmenopausal women with type 1 diabetes in the Netherlands found that around two-thirds reported moderate to severe postmenopausal changes in glucose regulation. 41.9% perceived higher glucose levels, 19.6% perceived lower levels and 38.5% reported no change; 55% reported more fluctuation, 61.6% more hyperglycaemic events and 38.5% more hypoglycaemic events. Menopausal symptom severity rose after menopause (Greene Climacteric Scale 18.8 ± 9.9 vs 11.7 ± 8.3), and greater symptom severity was associated with higher odds of perceiving a change in glucose regulation. Findings are self-reported perceptions rather than objective measurements.",
+              "cite": "Diabetologia · Cross-sectional survey, 2025",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
+            },
+            {
+              "claim": "Falling oestrogen reduces insulin responsiveness, and guidance for type 1 diabetes specifically is thin.",
+              "detail": "Diabetes UK's menopause guidance states that as oestrogen falls the body can become less responsive to insulin, producing rapid swings between high and low glucose without an obvious trigger, and that menopausal symptoms such as hot flushes can be mistaken for hypoglycaemia. It notes that evidence supports hormone therapy for menopausal symptoms in type 2 diabetes but that there is little information for women with type 1 diabetes, and advises discussing risks and benefits individually.",
+              "cite": "Diabetes UK · Living with diabetes guidance",
+              "url": "https://www.diabetes.org.uk/living-with-diabetes/life-with-diabetes/menopause"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Perimenopause & diabetes: what's really happening to your blood sugar",
+              "url": "/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "The pillar piece — how the transition changes glucose control, from 23 years of living with it."
+            },
+            {
+              "name": "Type 2 diabetes is linked to heavier menopause symptoms",
+              "url": "/blog/type-2-diabetes-menopause-symptoms/",
+              "desc": "The traffic runs both ways: metabolic health appears to shape symptom burden too."
+            },
+            {
+              "name": "HRT prescriptions have more than doubled since 2018",
+              "url": "/blog/hrt-prescriptions-doubling/",
+              "desc": "Why far more women are being offered hormone therapy now than a few years ago."
+            },
+            {
+              "name": "Type 2 diabetes is rising twice as fast in women under 40",
+              "url": "/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "The same theme in a different place — the research and the care have not caught up with women."
+            },
+            {
+              "name": "Does HRT really restore skin collagen? The 2026 review",
+              "url": "/blog/hrt-restores-skin-collagen-2026-review/",
+              "desc": "What hormone therapy does and does not do elsewhere in the body."
+            }
+          ]
+        },
+        {
+          "t": "bio",
+          "name": "Lena Filatova",
+          "img": "/images/lena-filatova-author.jpg",
+          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
+          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and diabetes management at lenafilatova.co.uk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is HRT safe if you have type 1 diabetes?",
+          "a": "There is no good evidence that type 1 diabetes on its own rules out hormone therapy, and there is no good evidence that it makes it straightforwardly safe either — the trials that would settle it have not been done. What is assessed instead is your individual cardiovascular risk: duration of diabetes, blood pressure, lipids, smoking status and any microvascular complications. That assessment belongs with your clinician, and it is a reasonable thing to ask for explicitly rather than accept a general answer."
+        },
+        {
+          "q": "Does HRT affect blood sugar?",
+          "a": "In women without diabetes, hormone therapy improves insulin sensitivity and fasting glucose. In type 2 diabetes, a 2023 meta-analysis found it lowered HbA1c by around 0.56 percentage points and fasting glucose by about 1.2 mmol/L. In type 1 diabetes the evidence is too limited to give a number. If insulin sensitivity does improve, the effect in type 1 shows up as a change in how much insulin you need rather than as a glucose reading that quietly falls into range."
+        },
+        {
+          "q": "Why is there so little research on menopause in type 1 diabetes?",
+          "a": "Type 1 is about a tenth of the diabetes population, so broad diabetes trials recruit too few type 1 participants to analyse them separately. Trials built around insulin resistance frequently exclude type 1 altogether. And menopause research and diabetes research sit in different specialties with different funders. The result is a gap that a 2025 review described as needing urgent, dedicated research."
+        },
+        {
+          "q": "My insulin needs have doubled since perimenopause started. Is that normal?",
+          "a": "It is common enough to be recognisable. Falling oestrogen reduces the body’s responsiveness to insulin, and women with type 1 diabetes have reported insulin-to-carb ratios changing substantially over months. In a survey of 159 postmenopausal women with type 1 diabetes, about two-thirds reported moderate to severe changes in glucose regulation — though roughly one in five reported running lower, not higher. It is worth raising with your team as a dose review rather than treating it as something you have done wrong."
+        },
+        {
+          "q": "How do I tell a hot flush from a hypo?",
+          "a": "Often you cannot, by feel alone — sweating, palpitations and a sudden flush of unwellness belong to both. That is exactly why this period is one where testing or CGM matters more than usual rather than less. If your hypo awareness feels less reliable than it used to, say so directly at your next appointment; it changes how your targets and alerts should be set."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Діабет",
+      "title": "ЗГТ і діабет 1 типу: що насправді кажуть дослідження (і де вони закінчуються)",
+      "seoTitle": "ЗГТ і діабет 1 типу: що кажуть дослідження",
+      "metaDesc": "Чи допомагає ЗГТ рівню цукру при діабеті 1 типу? Що доведено, що ні — і які запитання варто взяти до лікаря.",
+      "excerpt": "Гормональну терапію добре вивчили на жінках без діабету і непогано — на діабеті 2 типу. При діабеті 1 типу доказів майже немає, і вдавати інше нікому не допомагає.",
+      "meta": "13 серпня 2026 · 8 хв читання",
+      "lead": "Якщо ви живете з діабетом 1 типу і зважуєте ЗГТ, ви, найімовірніше, чули дві протилежні думки. Одна — що гормональна терапія зруйнує ваш контроль. Друга — що вона все виправить. А коли ви шукали щось написане, про діабет 1 типу не було майже нічого. Це не ваша неуважність — це реальний стан досліджень, і саме це найкорисніше, що вам можуть сказати.",
+      "blocks": [
+        {
+          "t": "quote",
+          "text": "Це не медична порада і свідомо не рекомендація. ЗГТ — це призначення, рішення про яке ухвалюєте ви разом зі своїм лікарем. Нижче — те, що дослідження показують і чого не показують, щоб ця розмова почалася з кращої точки."
+        },
+        {
+          "t": "h",
+          "text": "Що відбувається з цукром, коли естроген падає"
+        },
+        {
+          "t": "p",
+          "text": "Естроген не сторонній спостерігач у метаболізмі глюкози. Коли його рівень падає під час перименопаузи, склад тіла зміщується в бік вісцерального жиру, м’язи гірше засвоюють глюкозу без участі інсуліну — і результатом для більшості жінок стає повільний дрейф до інсулінорезистентності. Diabetes UK формулює це прямо: коли естроген знижується, тіло гірше реагує на інсулін, а рівень цукру може стрибати вгору й вниз без очевидної причини."
+        },
+        {
+          "t": "p",
+          "text": "Для тих, хто вводить інсулін, цей дрейф перетворюється на арифметику. Дон, акушерка з діабетом 1 типу, яка поділилася своєю історією з Diabetes UK, побачила, як її співвідношення інсулін–вуглеводи змінилося з 1:10 до 1:5 приблизно за десять місяців: їй знадобилося вдвічі більше інсуліну на ту саму їжу. У її веденні діабету не змінилося нічого. Змінилося тіло."
+        },
+        {
+          "t": "p",
+          "text": "Є і друга, підступніша проблема: симптоми накладаються. Припливи та гіпоглікемія відчуваються майже однаково — піт, прискорене серцебиття, те саме відчуття, що щось не так. Жінки, які десятиліттями довіряли своєму відчуттю гіпо, раптом не можуть на нього покластися. Ширшу версію цієї теми я описала у статті [що перименопауза насправді робить із цукром у крові](/ua/blog/perimenopause-diabetes-blood-sugar/); коротко — це не провал вашого самоконтролю."
+        },
+        {
+          "t": "h",
+          "text": "Що показують дослідження на жінках без діабету"
+        },
+        {
+          "t": "p",
+          "text": "Ось тут дані справді є. У великих рандомізованих дослідженнях жінок у постменопаузі без діабету гормональна терапія покращувала чутливість до інсуліну та рівень глюкози натще, а також була пов’язана з меншою кількістю нових діагнозів діабету 2 типу за час спостереження. Ефект був достатньо стабільним, щоб бути цікавим."
+        },
+        {
+          "t": "p",
+          "text": "Варто бути точними в тому, що це означає. Профілактика діабету ніколи не була схваленою причиною призначати ЗГТ, і жодна велика настанова її для цього не рекомендує. Ці дані говорять про напрям, у якому естроген штовхає метаболізм глюкози в тілі, що досі виробляє власний інсулін. Вони не говорять, що відбувається в тілі, яке його не виробляє."
+        },
+        {
+          "t": "h",
+          "text": "Що показують дослідження при діабеті 2 типу"
+        },
+        {
+          "t": "p",
+          "text": "Систематичний огляд і метааналіз 2023 року в Diabetes Care зібрав дослідження гормональної терапії в постменопаузі у жінок, які вже мали діабет. При 2 типі сумарний результат — зниження HbA1c на 0,56 відсоткового пункту (близько 6 ммоль/моль) і зниження глюкози натще приблизно на 1,2 ммоль/л."
+        },
+        {
+          "t": "p",
+          "text": "Це відчутні цифри, і висновок авторів був радше стриманим, ніж захопленим: коли гормональну терапію розглядають через симптоми менопаузи у жінок із діабетом 2 типу, її вплив на регуляцію глюкози очікувано нейтральний або сприятливий. Зверніть увагу на формулювання — підставою для терапії залишаються симптоми. Половина включених досліджень мала високий ризик упередженості, і про це варто пам’ятати. Про зворотний бік цього зв’язку я писала у статті [діабет 2 типу і важчі симптоми менопаузи](/ua/blog/type-2-diabetes-menopause-symptoms/)."
+        },
+        {
+          "t": "h",
+          "text": "А при діабеті 1 типу?"
+        },
+        {
+          "t": "p",
+          "text": "Чесна відповідь така: той самий огляд визнав докази при діабеті 1 типу обмеженими — надто обмеженими, щоб об’єднати їх у щось, що можна назвати результатом. Річ не в тім, що дослідження суперечать одне одному. Річ у тім, що їх майже немає."
+        },
+        {
+          "t": "p",
+          "text": "Кокранівський огляд, який шукав рандомізовані дані щодо ЗГТ при діабеті 1 типу, знайшов одне маленьке дослідження з недостатньою потужністю, до того ж таке, що змішувало учасниць з 1 і 2 типом. Наративний огляд, опублікований в Endocrine Connections наприкінці 2025 року, повернувся до цього питання і дійшов того самого висновку: за відсутності специфічних для хвороби даних лікарям доводиться діяти індивідуально, і є нагальна потреба у спеціальних дослідженнях та належних клінічних маршрутах."
+        },
+        {
+          "t": "p",
+          "text": "Причини структурні, а не загадкові. Діабет 1 типу — це приблизно десята частина всіх людей із діабетом, тож будь-яке широке дослідження набирає надто мало таких учасниць, щоб сказати про них щось окремо. Дослідження, побудовані навколо інсулінорезистентності, часто взагалі виключають 1 тип. А дослідження менопаузи і дослідження діабету фінансують, проводять і публікують різні люди, які рідко перетинаються. У підсумку діабет 1 типу стає виноскою в літературі про менопаузу, а менопауза — виноскою в літературі про діабет 1 типу."
+        },
+        {
+          "t": "p",
+          "text": "Тому екстраполяція, яку всі роблять мовчки — «при 2 типі покращилося, отже, і при 1 типі покращиться» — це припущення, а не результат. І є механістична причина бути з нею обережними. Значна частина користі при 2 типі йде через покращення чутливості до інсуліну в тілі, що досі виробляє власний інсулін. Якщо ви не виробляєте його зовсім, краща чутливість сама собою не знизить вашу глюкозу; вона змінить те, скільки інсуліну вам потрібно, — а це інша задача і інший спосіб помилитися."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть самі жінки з діабетом 1 типу"
+        },
+        {
+          "t": "p",
+          "text": "Там, де закінчуються дані клінічних досліджень, опитування — це вже щось. Крос-секційне дослідження, опубліковане в Diabetologia у 2025 році, запитало 159 жінок у постменопаузі з діабетом 1 типу в Нідерландах, що насправді сталося з їхньою глюкозою після останньої менструації."
+        },
+        {
+          "t": "p",
+          "text": "Близько двох третин повідомили про помірні або виражені зміни в регуляції глюкози. Але напрям розділився: 41,9% сказали, що рівні стали вищими, 38,5% не помітили змін, а 19,6% — що рівні стали нижчими. Понад половина повідомили про більшу мінливість, 61,6% — про більше епізодів гіперглікемії, 38,5% — про більше гіпоглікемій, причому в частини жінок було і те, і те. Ті, у кого симптоми менопаузи були важчими, частіше повідомляли про зміни глюкози."
+        },
+        {
+          "t": "p",
+          "text": "Саме цей розкид і є результатом. Немає однієї речі, яку менопауза робить із діабетом 1 типу, — а отже, навряд чи є й одна річ, яку з ним робить ЗГТ. Це також означає: якщо ваш досвід не збігається з досвідом жінки з вашої групи підтримки, ніхто з вас не робить нічого неправильно."
+        },
+        {
+          "t": "h",
+          "text": "Чому «залежить» — це справжня відповідь"
+        },
+        {
+          "t": "p",
+          "text": "«Залежить» зазвичай звучить як відмовка. Тут це точна відповідь, бо щонайменше три змінні змінюють розрахунок — і жодна з них не є типом вашого діабету."
+        },
+        {
+          "t": "p",
+          "text": "Має значення шлях введення. Естроген у таблетках проходить через печінку, перш ніж дістатися решти тіла; через шкіру — ні, і саме тому трансдермальні форми несуть нижчий ризик тромбозу, а огляд 2025 року зазначив перевагу трансдермального естрадіолу там, де гормональну терапію застосовують при діабеті 1 типу. Має значення склад — прогестагенний компонент і те, чи призначають його безперервно чи циклічно, мають свій метаболічний профіль. І найбільше має значення ваш індивідуальний серцево-судинний ризик: тривалість діабету, тиск, ліпіди, куріння та наявність мікросудинних ускладнень — усе це входить у справді персональний розрахунок."
+        },
+        {
+          "t": "p",
+          "text": "Стаття не може вирішити це за вас, і я не вдаватиму, що може, називаючи препарат чи дозу. Що стаття може — це допомогти вам зайти до кабінету з правильними запитаннями."
+        },
+        {
+          "t": "h",
+          "text": "Запитання, які варто взяти на прийом"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Запитайте",
+            "Чому це важливо"
+          ],
+          "rows": [
+            [
+              "З огляду на мою історію діабету та серцево-судинний ризик, які саме ризики й переваги для мене?",
+              "Переводить розмову з популяційних даних на ваші власні показники — тривалість, тиск, ліпіди, ускладнення."
+            ],
+            [
+              "Як шлях введення змінює цю оцінку?",
+              "Трансдермальний і пероральний естроген мають різні профілі ризику. Це рішення варто ухвалити свідомо, а не за замовчуванням."
+            ],
+            [
+              "Чого очікувати від моєї потреби в інсуліні і в які терміни?",
+              "Задає очікування, щоб зміна коефіцієнтів читалася як передбачувана, а не як втрата контролю."
+            ],
+            [
+              "Як відрізнити приплив від гіпоглікемії?",
+              "Накладання симптомів реальне і підриває відчуття гіпо. Про це варто поговорити заздалегідь."
+            ],
+            [
+              "Чи можу я кілька тижнів позбирати дані НМГ до початку, щоб мати базову лінію?",
+              "Без «до» немає з чим порівнювати «після» — а сприйняття змін глюкози, як відомо, ненадійне."
+            ],
+            [
+              "Коли ми це переглянемо і що стане підставою змінити курс?",
+              "Перетворює безстрокове рішення на пробний період із датою перегляду і виходом."
+            ],
+            [
+              "Хто за це відповідає — моя діабетична команда, сімейний лікар чи фахівець із менопаузи?",
+              "Такі рішення падають у щілину між службами. Визначений відповідальний не дає кожній стороні думати, що цим займається інша."
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Що зробила я — і чому не кажу вам робити так само"
+        },
+        {
+          "t": "p",
+          "text": "Я живу з діабетом 1 типу 23 роки і підійшла до цього так, як мені доводилося підходити до більшості речей: із неповними доказами і рішенням, яке не чекатиме на кращі. Що я могла контролювати — це якість розмови. Я взяла список вище на прийоми майже слово в слово. Я зібрала чотири тижні даних НМГ до будь-яких змін, щоб було з чим порівняти те, що станеться далі. І заздалегідь домовилася про дату перегляду."
+        },
+        {
+          "t": "p",
+          "text": "Я не скажу вам, що саме вирішила, і це не кокетство. Доказів, які виправдали б моє «робіть так», не існує, а мій профіль ризику — не ваш. Людина з 23 роками діабету 1 типу, певним тиском і певною сімейною історією відповідає на інше запитання, ніж те, що стоїть перед вами. Той, хто впевнено каже, що жінкам із діабетом 1 типу робити із ЗГТ, каже те, чого дослідження сьогодні підтвердити не можуть."
+        },
+        {
+          "t": "p",
+          "text": "А сказала б я ось що: те, що нас не досліджували, — не привід приймати знизування плечима. Це привід ставити гостріші запитання, наполягати, щоб ваші симптоми менопаузи оцінювали окремо, а не списували на діабет, і очікувати, що ваша допомога буде узгодженою. Жінки з діабетом 1 типу дали дослідженням діабету дуже багато. Було б справедливо отримати частину назад."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Гормональна терапія покращує регуляцію глюкози при діабеті 2 типу; даних щодо 1 типу замало для об’єднаного аналізу.",
+              "detail": "Систематичний огляд і метааналіз гормональної терапії в постменопаузі у жінок із діабетом 1 або 2 типу показав, що при 2 типі терапія знижувала HbA1c у середньому на 0,56 відсоткового пункту (95% ДІ −0,80 до −0,31; −6,08 ммоль/моль, 95% ДІ −8,80 до −3,36) і глюкозу натще на 1,15 ммоль/л (95% ДІ −1,78 до −0,51). Дані щодо ефекту при діабеті 1 типу були обмеженими. Приблизно половина включених досліджень мала високий ризик упередженості. Автори роблять висновок, що там, де гормональну терапію розглядають через симптоми менопаузи при діабеті 2 типу, її вплив на регуляцію глюкози очікувано нейтральний або сприятливий.",
+              "cite": "Diabetes Care · Систематичний огляд і метааналіз, жовтень 2023",
+              "url": "https://diabetesjournals.org/care/article/46/10/1866/153635/Effect-of-Postmenopausal-Hormone-Therapy-on"
+            },
+            {
+              "claim": "Специфічних для 1 типу даних щодо ЗГТ бракує, і підхід має бути індивідуальним.",
+              "detail": "Наративний огляд 2025 року щодо ведення менопаузи у жінок із діабетом 1 типу зазначає, що Кокранівський огляд ЗГТ у цій групі знайшов лише одне маленьке дослідження з недостатньою потужністю, яке до того ж змішувало учасниць з 1 і 2 типом. Огляд повідомляє, що жінки з діабетом 1 типу можуть досягати менопаузи раніше, особливо за раннього віку діагнозу чи мікросудинних ускладнень, хоча результати неузгоджені. За відсутності специфічних даних рекомендовано індивідуальний підхід із перевагою трансдермального естрадіолу там, де гормональну терапію застосовують, і наголошено на потребі спеціальних досліджень, доказових настанов та інтегрованих клінічних маршрутів.",
+              "cite": "Endocrine Connections · Наративний огляд, грудень 2025",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12709055/"
+            },
+            {
+              "claim": "Дві третини жінок із діабетом 1 типу в постменопаузі повідомляють про зміни регуляції глюкози — в обидва боки.",
+              "detail": "Крос-секційне опитування 159 жінок у постменопаузі з діабетом 1 типу в Нідерландах показало, що близько двох третин повідомили про помірні або виражені постменопаузальні зміни регуляції глюкози. 41,9% відчували вищі рівні глюкози, 19,6% — нижчі, 38,5% не помітили змін; 55% повідомили про більшу мінливість, 61,6% — про більше епізодів гіперглікемії, 38,5% — про більше гіпоглікемій. Тяжкість симптомів менопаузи зросла після менопаузи (шкала Гріна 18,8 ± 9,9 проти 11,7 ± 8,3), і більша тяжкість симптомів була пов’язана з вищими шансами відчути зміну регуляції глюкози. Це самозвіти про сприйняття, а не об’єктивні вимірювання.",
+              "cite": "Diabetologia · Крос-секційне опитування, 2025",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
+            },
+            {
+              "claim": "Падіння естрогену знижує чутливість до інсуліну, а настанов саме для діабету 1 типу мало.",
+              "detail": "Настанови Diabetes UK щодо менопаузи вказують, що зі зниженням естрогену тіло гірше реагує на інсулін, що спричиняє швидкі коливання між високим і низьким рівнем без очевидної причини, і що симптоми менопаузи, як-от припливи, можна сплутати з гіпоглікемією. Там зазначено, що дані підтримують гормональну терапію для симптомів менопаузи при діабеті 2 типу, але інформації щодо жінок із діабетом 1 типу мало, і радять обговорювати ризики й переваги індивідуально.",
+              "cite": "Diabetes UK · Настанови «Життя з діабетом»",
+              "url": "https://www.diabetes.org.uk/living-with-diabetes/life-with-diabetes/menopause"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Перименопауза і діабет: що насправді відбувається з вашим цукром",
+              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Основна стаття — як перехідний період змінює контроль глюкози, з досвіду 23 років життя з діабетом."
+            },
+            {
+              "name": "Діабет 2 типу пов’язаний із важчими симптомами менопаузи",
+              "url": "/ua/blog/type-2-diabetes-menopause-symptoms/",
+              "desc": "Зв’язок працює в обидва боки: метаболічне здоров’я, схоже, впливає і на тягар симптомів."
+            },
+            {
+              "name": "Призначень ЗГТ стало вдвічі більше з 2018 року",
+              "url": "/ua/blog/hrt-prescriptions-doubling/",
+              "desc": "Чому сьогодні гормональну терапію пропонують значно частіше, ніж кілька років тому."
+            },
+            {
+              "name": "Діабет 2 типу зростає вдвічі швидше у жінок до 40",
+              "url": "/ua/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "Та сама тема в іншому місці — дослідження і допомога не встигають за жінками."
+            },
+            {
+              "name": "Чи справді ЗГТ відновлює колаген шкіри? Огляд 2026 року",
+              "url": "/ua/blog/hrt-restores-skin-collagen-2026-review/",
+              "desc": "Що гормональна терапія робить і чого не робить в інших частинах тіла."
+            }
+          ]
+        },
+        {
+          "t": "bio",
+          "name": "Лена Філатова",
+          "img": "/images/lena-filatova-author.jpg",
+          "alt": "Лена Філатова, авторка про жіноче здоров’я, живе з діабетом 1 типу",
+          "text": "Лена Філатова живе з діабетом 1 типу 23 роки. Пише про жіноче здоров’я, перименопаузу та ведення діабету на lenafilatova.co.uk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи безпечна ЗГТ при діабеті 1 типу?",
+          "a": "Немає надійних доказів, що діабет 1 типу сам собою виключає гормональну терапію, — і немає надійних доказів, що робить її беззастережно безпечною: дослідження, які це вирішили б, не проводили. Натомість оцінюють ваш індивідуальний серцево-судинний ризик: тривалість діабету, тиск, ліпіди, куріння та наявність мікросудинних ускладнень. Ця оцінка — робота вашого лікаря, і цілком розумно попросити її явно, а не задовольнятися загальною відповіддю."
+        },
+        {
+          "q": "Чи впливає ЗГТ на рівень цукру в крові?",
+          "a": "У жінок без діабету гормональна терапія покращує чутливість до інсуліну та глюкозу натще. При діабеті 2 типу метааналіз 2023 року показав зниження HbA1c приблизно на 0,56 відсоткового пункту і глюкози натще приблизно на 1,2 ммоль/л. При діабеті 1 типу даних замало, щоб назвати цифру. Якщо чутливість до інсуліну справді покращується, при 1 типі це виявляється як зміна потрібної дози інсуліну, а не як показник глюкози, що сам собою входить у цільовий діапазон."
+        },
+        {
+          "q": "Чому так мало досліджень менопаузи при діабеті 1 типу?",
+          "a": "Діабет 1 типу — приблизно десята частина всіх людей із діабетом, тож широкі дослідження набирають замало таких учасниць, щоб аналізувати їх окремо. Дослідження, побудовані навколо інсулінорезистентності, часто взагалі виключають 1 тип. А дослідження менопаузи й діабету належать різним спеціальностям із різним фінансуванням. Результат — прогалина, яку огляд 2025 року назвав такою, що потребує нагальних спеціальних досліджень."
+        },
+        {
+          "q": "Моя потреба в інсуліні подвоїлася з початком перименопаузи. Це нормально?",
+          "a": "Це достатньо поширено, щоб бути впізнаваним. Падіння естрогену знижує чутливість тіла до інсуліну, і жінки з діабетом 1 типу повідомляли про суттєву зміну співвідношення інсулін–вуглеводи протягом кількох місяців. В опитуванні 159 жінок у постменопаузі з діабетом 1 типу близько двох третин повідомили про помірні або виражені зміни регуляції глюкози — хоча приблизно кожна п’ята відзначила нижчі, а не вищі рівні. Це варто винести на прийом як перегляд доз, а не сприймати як власну помилку."
+        },
+        {
+          "q": "Як відрізнити приплив від гіпоглікемії?",
+          "a": "Часто — ніяк, лише за відчуттями: піт, серцебиття і раптова хвиля недобрості властиві обом. Саме тому в цей період вимірювання або НМГ важать більше, ніж зазвичай, а не менше. Якщо ваше відчуття гіпо стало менш надійним, скажіть про це прямо на наступному прийомі — це змінює те, як мають бути налаштовані ваші цілі та сповіщення."
+        }
+      ]
+    }
+  },
+  {
     "slug": "extended-release-minoxidil-female-hair-loss",
     "date": "2026-08-11",
     "image": "/images/extended-release-minoxidil-female-hair-loss.jpg",
