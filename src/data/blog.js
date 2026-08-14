@@ -1521,7 +1521,7 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
-              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle — and women lose more than men",
+              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
               "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "What the body-composition data show about muscle loss on GLP-1 drugs, and why it matters more for women."
             },
@@ -1600,7 +1600,7 @@ export const POSTS = [
           "title": "Більше по темі",
           "items": [
             {
-              "name": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — і жінки втрачають більше, ніж чоловіки",
+              "name": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
               "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "Що показують дані про склад тіла щодо втрати м'язів на препаратах GLP-1 і чому це важливіше для жінок."
             },
@@ -7238,8 +7238,8 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
-      "title": "GLP-1 weight-loss drugs mainly burn fat, not muscle — and women lose more than men",
-      "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle",
+      "title": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
+      "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle (IJO)",
       "excerpt": "A 2026 meta-analysis of GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle, and that women lose proportionally more than men.",
       "meta": "17 July 2026 · 3 min read",
       "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat.",
@@ -7289,8 +7289,8 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "title": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — і жінки втрачають більше, ніж чоловіки",
-      "seoTitle": "GLP-1: втрата ваги — це переважно жир, а не м’язи",
+      "title": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
+      "seoTitle": "GLP-1: втрата ваги — переважно жир, а не м’язи (IJO)",
       "excerpt": "Метааналіз 2026 року показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
       "meta": "17 липня 2026 · 3 хв читання",
       "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м'язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир.",
