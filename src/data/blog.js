@@ -54,7 +54,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "There's a second, meaner problem: the symptoms overlap. A hot flush and a hypo can feel close to identical — sweating, racing heart, that unsteady flush of wrongness. Women who spent decades trusting their hypo awareness suddenly can't. I've written about the wider version of this in [what perimenopause really does to blood sugar](/blog/perimenopause-diabetes-blood-sugar/); the short version is that none of it is a failure of your management."
+          "text": "There's a second, meaner problem: the symptoms overlap. A hot flush and a hypo can feel close to identical — sweating, racing heart, that unsteady flush of wrongness. Women who spent decades trusting their hypo awareness suddenly can't. I've written about the wider version of this in [what perimenopause really does to blood sugar](/blog/perimenopause-diabetes-blood-sugar/); the short version is that none of it is a failure of your management. And when a particular pattern makes no sense at all, my [blood sugar investigator](/blood-sugar-investigator) walks through the usual suspects one at a time, hormones included."
         },
         {
           "t": "h",
@@ -227,6 +227,11 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
+              "name": "Blood sugar investigator",
+              "url": "/blood-sugar-investigator",
+              "desc": "A free walkthrough of what could be driving an unexplained high or low — useful when your usual patterns stop making sense."
+            },
+            {
               "name": "Perimenopause & diabetes: what's really happening to your blood sugar",
               "url": "/blog/perimenopause-diabetes-blood-sugar/",
               "desc": "The pillar piece — how the transition changes glucose control, from 23 years of living with it."
@@ -311,7 +316,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Є і друга, підступніша проблема: симптоми накладаються. Припливи та гіпоглікемія відчуваються майже однаково — піт, прискорене серцебиття, те саме відчуття, що щось не так. Жінки, які десятиліттями довіряли своєму відчуттю гіпо, раптом не можуть на нього покластися. Ширшу версію цієї теми я описала у статті [що перименопауза насправді робить із цукром у крові](/ua/blog/perimenopause-diabetes-blood-sugar/); коротко — це не провал вашого самоконтролю."
+          "text": "Є і друга, підступніша проблема: симптоми накладаються. Припливи та гіпоглікемія відчуваються майже однаково — піт, прискорене серцебиття, те саме відчуття, що щось не так. Жінки, які десятиліттями довіряли своєму відчуттю гіпо, раптом не можуть на нього покластися. Ширшу версію цієї теми я описала у статті [що перименопауза насправді робить із цукром у крові](/ua/blog/perimenopause-diabetes-blood-sugar/); коротко — це не провал вашого самоконтролю. А коли якийсь конкретний патерн узагалі не піддається поясненню, мій [дослідник цукру в крові](/blood-sugar-investigator-ua) допомагає перебрати звичних підозрюваних по черзі, зокрема й гормони."
         },
         {
           "t": "h",
@@ -483,6 +488,11 @@ export const POSTS = [
           "t": "links",
           "title": "Читайте також",
           "items": [
+            {
+              "name": "Дослідник цукру в крові",
+              "url": "/blood-sugar-investigator-ua",
+              "desc": "Безкоштовний покроковий розбір того, що могло спричинити незрозумілий підйом або падіння — корисно, коли звичні патерни перестають працювати."
+            },
             {
               "name": "Перименопауза і діабет: що насправді відбувається з вашим цукром",
               "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
