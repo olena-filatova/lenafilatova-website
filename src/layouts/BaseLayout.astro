@@ -5,6 +5,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import DIMS from '../data/image-dims.json';
 import '../styles/global.css';
 
 const {
@@ -27,6 +28,16 @@ const canonicalUrl = new URL(canonical, Astro.site).href;
 const ogImageUrl = new URL(ogImage, Astro.site).href;
 const altEn = alternates && new URL(alternates.en, Astro.site).href;
 const altUa = alternates && new URL(alternates.ua, Astro.site).href;
+// X/Twitter renders `summary_large_image` as a wide ~1.91:1 banner and `summary`
+// as a small square thumbnail. Picking the wrong one is visible damage: a
+// portrait photo in a wide card is cropped to a band across the subject's
+// middle. Our images are genuinely mixed — blog heroes are 16:9, but the
+// default profile photo is 9:16 and ~40 recipe photos are portrait or square —
+// so the card has to follow the image rather than be hard-coded. The intrinsic
+// sizes already kept for layout stability answer that; anything not in the
+// manifest (a hero photo not supplied yet) falls back to the safe square card.
+const ogDim = DIMS[ogImage];
+const twitterCard = ogDim && ogDim.w / ogDim.h >= 1.4 ? 'summary_large_image' : 'summary';
 // Preview deploys (base != '/') must never be indexed — they'd compete with
 // the live domain. Flips off automatically when `base` is dropped at cutover.
 const isPreview = import.meta.env.BASE_URL !== '/';
@@ -52,6 +63,11 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:site_name" content="Lena Filatova" />
+    <meta name="twitter:card" content={twitterCard} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     {/* Manrope is the body font, so its file is needed on every page — but the
