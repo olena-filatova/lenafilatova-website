@@ -1,0 +1,186 @@
+---
+// Newsletter signup — the ONLY signup form on the site.
+//
+// Posts straight to the Mailchimp audience's public post-json endpoint (see
+// MAILCHIMP in src/data/site.js). No API key, no Apps Script relay in the path,
+// and double opt-in still applies, so a subscriber is only added after they
+// click the confirmation email.
+//
+// LANGUAGE IS AUTOMATIC. The visitor is never asked and never sees a choice:
+// `lang` comes from the page tree ('/' = en, '/ua/' = ua) and is written into
+// the hidden Mailchimp interest-group field below. Segmenting a campaign by
+// EN/UA in Mailchimp therefore Just Works.
+//
+// Why JSONP and not fetch(): the endpoint sends no CORS headers, so a normal
+// fetch can only run no-cors — which makes the response unreadable and forces
+// the form to claim success even when the signup failed. A JSONP <script> tag
+// gets the real {result, msg} back, so "already subscribed" and genuine errors
+// reach the visitor in their own language.
+//
+// ANTI-SPAM (OPS-235). The endpoint-hiding layer in form-guard.js does not
+// apply here — Mailchimp's post-json URL is public by design, it is what their
+// own embed code ships, and it is rate-limited and double-opt-in on their side.
+// The other two layers still earn their keep and are kept: a honeypot field and
+// a minimum dwell time. Better than before, in fact — the Apps Script never
+// checked them (its server-side half was never deployed), whereas here the
+// browser simply declines to submit, so the check actually bites.
+//
+// Props:
+//   lang         — 'en' | 'ua'
+//   id           — anchor id (default 'newsletter'; header Subscribe jumps here).
+//                  Exactly ONE Newsletter per page, or the anchor is ambiguous.
+//   sectionClass — extra classes for the <section> (homepage passes its band styling).
+import { HOME, MAILCHIMP } from '../data/site.js';
+import { HONEYPOT, MIN_DWELL_MS } from '../scripts/form-guard.js';
+const { lang = 'en', id = 'newsletter', sectionClass = '' } = Astro.props;
+const t = HOME[lang];
+
+// Hidden group field, e.g. name="group[34186][1]" on EN pages, [2] on /ua/.
+const groupField = `group[${MAILCHIMP.langGroup}][${MAILCHIMP.langValue[lang] ?? 1}]`;
+const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`;
+---
+<section class:list={['section', 'newsletter', sectionClass]} id={id}>
+  <div class="wrap nl-box">
+    <h2>{t.nlTitle}</h2>
+    <p class="section-sub">{t.nlSub}</p>
+
+    <form
+      class="nlform"
+      method="post"
+      action={action}
+      data-mc-action={action}
+      data-mc-dupe={t.nlDupe}
+      data-mc-err={t.nlErr}
+      data-mc-busy={t.nlBusy}
+      data-mc-btn={t.nlBtn}
+      data-mc-dwell={MIN_DWELL_MS}
+      data-mc-trap={HONEYPOT}
+    >
+      <!-- Set from the page tree, never by the visitor. -->
+      <input type="hidden" name={groupField} value="1" />
+
+      <div class="nl-row">
+        <input type="email" name="EMAIL" placeholder={t.nlEmail} required autocomplete="email" />
+        <button type="submit" class="btn">{t.nlBtn}</button>
+      </div>
+
+      <label class="nl-consent"><input type="checkbox" required /> {t.nlConsent}</label>
+
+      <!-- Our honeypot (OPS-235). Hidden from people, enforced in the browser. -->
+      <div class="hp-field" aria-hidden="true">
+        <label for={`nl-trap-${id}`}>{t.nlTrap}</label>
+        <input type="text" id={`nl-trap-${id}`} name={HONEYPOT} tabindex="-1" autocomplete="off" />
+      </div>
+
+      <!-- Mailchimp's own honeypot: must be submitted, and must stay empty. -->
+      <div aria-hidden="true" style="position:absolute;left:-5000px">
+        <input type="text" name={MAILCHIMP.botField} tabindex="-1" value="" />
+      </div>
+    </form>
+
+    <p class="nl-sent form-sent" hidden>{t.nlSent}</p>
+    <p class="nl-msg" role="status" aria-live="polite" hidden></p>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.nlform').forEach((form) => {
+    const box = form.parentElement;
+    const okEl = box?.querySelector('.nl-sent');
+    const msgEl = box?.querySelector('.nl-msg');
+    const btn = form.querySelector('button[type=submit]');
+    const label = btn?.textContent;
+    const loadedAt = Date.now();
+
+    const show = (el, text) => {
+      if (!el) return;
+      if (text) el.textContent = text;
+      el.hidden = false;
+    };
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (msgEl) msgEl.hidden = true;
+
+      // Anti-spam. Show the normal confirmation either way so a bot learns
+      // nothing from the response — it just never reaches Mailchimp.
+      const trap = form.querySelector(`[name="${form.dataset.mcTrap}"]`);
+      const tooFast = Date.now() - loadedAt < Number(form.dataset.mcDwell || 0);
+      if ((trap && trap.value) || tooFast) {
+        form.hidden = true;
+        show(okEl);
+        return;
+      }
+
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = form.dataset.mcBusy || label;
+      }
+
+      const reset = () => {
+        if (!btn) return;
+        btn.disabled = false;
+        btn.textContent = form.dataset.mcBtn || label;
+      };
+
+      // JSONP: Mailchimp calls back into this uniquely-named global.
+      const cb = 'mcCb' + Date.now() + Math.floor(Math.random() * 1e6);
+      const params = new URLSearchParams();
+      new FormData(form).forEach((v, k) => params.append(k, String(v)));
+      params.delete(form.dataset.mcTrap); // our honeypot; Mailchimp's own stays
+      params.append('c', cb);
+
+      const script = document.createElement('script');
+      let done = false;
+
+      const cleanup = () => {
+        delete window[cb];
+        script.remove();
+      };
+
+      window[cb] = (res) => {
+        done = true;
+        cleanup();
+        if (res && res.result === 'success') {
+          form.hidden = true;
+          show(okEl);
+          return;
+        }
+        // Mailchimp's msg is English-only, so map the one case worth naming
+        // and fall back to a generic message in the page's language.
+        const raw = (res && res.msg) || '';
+        const dupe = /already subscribed/i.test(raw);
+        show(msgEl, dupe ? form.dataset.mcDupe : form.dataset.mcErr);
+        reset();
+      };
+
+      script.src = form.dataset.mcAction + '&' + params.toString();
+      // Network failure, blocked request, or an ad blocker eating the endpoint.
+      script.onerror = () => {
+        if (done) return;
+        cleanup();
+        show(msgEl, form.dataset.mcErr);
+        reset();
+      };
+      document.body.appendChild(script);
+
+      // Belt and braces: never leave the button stuck on "Subscribing…".
+      setTimeout(() => {
+        if (done) return;
+        cleanup();
+        show(msgEl, form.dataset.mcErr);
+        reset();
+      }, 12000);
+    });
+  });
+</script>
+
+<style>
+  .nl-msg {
+    margin: 14px auto 0;
+    max-width: 46ch;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #8a2b3f;
+  }
+</style>

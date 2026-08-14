@@ -49,7 +49,7 @@ const NAV_ITEMS = [
           <span class="list-badge" id="listBadge">0</span>
         </button>
       ) : (
-        <a class="btn subscribe-btn" href={`${L}contact/`}>{t.subscribe}</a>
+        <a class="btn subscribe-btn" href="#newsletter">{t.subscribe}</a>
       )}
       <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -60,7 +60,7 @@ const NAV_ITEMS = [
     {NAV_ITEMS.map((n) => (
       <a href={n.href} class={isHere(n.href) ? 'active' : undefined} aria-current={isHere(n.href) ? 'page' : undefined}>{n.label}</a>
     ))}
-    <a class="btn" href={`${L}contact/`}>{t.subscribe}</a>
+    <a class="btn" href="#newsletter">{t.subscribe}</a>
   </nav>
 </header>
 
