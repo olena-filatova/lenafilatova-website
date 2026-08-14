@@ -9,6 +9,7 @@ export const CATS = [
   { key: 'diabetes', en: 'Diabetes', ua: 'Діабет' },
   { key: 'perimenopause', en: 'Perimenopause', ua: 'Перименопауза' },
   { key: 'nutrition', en: 'Nutrition', ua: 'Харчування' },
+  { key: 'fitness', en: 'Fitness 40+', ua: 'Фітнес 40+' },
   { key: 'skin', en: 'Skin & beauty', ua: 'Краса та шкіра' },
   { key: 'weight', en: 'Weight loss', ua: 'Схуднення' },
 ];
