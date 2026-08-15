@@ -3,7 +3,12 @@
  *
  * ⚠️ THIS FILE IS NOT DEPLOYED BY THIS REPO. It has to be pasted into the
  * Google Apps Script project by hand (script.google.com → the project behind
- * the /macros/s/AKfycbw…/exec endpoint → paste → Deploy → New deployment).
+ * the /macros/s/AKfycbw…/exec endpoint → paste → Deploy → Manage deployments →
+ * edit the ACTIVE deployment → Version: New version).
+ *
+ * ⚠️ Never "New deployment" — that mints a fresh /exec URL while the site keeps
+ * posting to the old one, which silently breaks every form on the site. Step 3
+ * below says the same thing; this line used to contradict it.
  *
  * WHY IT MATTERS: the site-side changes (honeypot, dwell timer, guard token,
  * endpoint no longer written into the HTML) add the *evidence*. Nothing is
