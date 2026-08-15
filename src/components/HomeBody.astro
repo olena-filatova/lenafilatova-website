@@ -1,172 +1,420 @@
 ---
+// Homepage — editorial redesign (Aug 2026).
+//
+// SCOPE: deliberately homepage-only. The look here (warm paper, serif display,
+// hairline rules, numbered indices, square buttons) is NOT the rest of the
+// site, which is still the pink/rounded-card system in global.css. All styling
+// below lives in this component's scoped <style>, so nothing leaks into blog,
+// recipes, about or the standalone tools. When those pages are restyled, lift
+// these tokens into global.css and delete the local copies.
+//
+// ORDER is deliberate: problem-led hero -> why trust her -> free tools (give
+// before asking) -> freshness -> pleasure -> proof it works -> scope -> the ask.
+// Tools sit above the blog on purpose: they are the reciprocity step and the
+// stickiest content on the site.
 import { HOME, RESOURCES } from '../data/site.js';
 import { POSTS } from '../data/blog.js';
 import Newsletter from './Newsletter.astro';
+
 const { lang = 'en' } = Astro.props;
 const t = HOME[lang];
 const B = import.meta.env.BASE_URL;
 const L = lang === 'ua' ? `${B}ua/` : B;
-const resourcesHref = `${L}resources/`;
+const img = (src) => B.replace(/\/$/, '') + src;
 const blogHref = `${L}blog/`;
 const recipesAllHref = `${L}recipes/`;
-const img = (src) => B.replace(/\/$/, '') + src;
+const resourcesHref = `${L}resources/`;
 
-// Blog: featured first, then newest-by-date. Desktop shows the lead large +
-// two more recent; mobile shows only the lead (the two extras are hidden).
-const recentPosts = [...POSTS].filter((p) => !p.comingSoon).sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.date.localeCompare(a.date));
+const recentPosts = [...POSTS]
+  .filter((p) => !p.comingSoon)
+  .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.date.localeCompare(a.date));
 const latestPost = recentPosts[0];
 const latestPostT = latestPost[lang];
-const morePosts = recentPosts.slice(1, 3);
 
 const featuredRecipe = HOME.recipe;
 
-// Featured resources: food calculator, carb/GI table, blood sugar investigator.
-// One shows on mobile (res-extra hidden); all three show on wide screens.
-const featuredResources = [0, 6, 5].map((i) => RESOURCES.cards[i]);
+// Four tools, ordered by usefulness to someone new: what this food does, what
+// every food does, why today went wrong, what to buy next.
+const tools = [0, 6, 5, 4].map((i) => RESOURCES.cards[i]);
+const numerals = ['i', 'ii', 'iii', 'iv'];
+const toolHref = (card) => {
+  const raw = lang === 'ua' ? card.hrefUa : card.href;
+  return raw.startsWith('/') ? B.replace(/\/$/, '') + raw : raw;
+};
 ---
-<!-- HERO -->
-<!-- Bands alternate tint → paper → tint … down the page (OPS-156). The band
-     classes are homepage-only on purpose: `.section` is shared with the blog,
-     recipe and resource hubs, which set their own rhythm. -->
-<section class="hero home home-band home-band--hero">
-  <div class="wrap grid">
-    <div>
-      <p class="kicker">{t.heroKicker}</p>
-      <h1>{t.heroH1}</h1>
-      <p class="lead">{t.heroLead}</p>
-      <div class="hero-cta">
-        <a class="btn" href="#newsletter">{t.heroCta2}</a>
-      </div>
-    </div>
-    <div class="photo">
-      <img
-        src={img('/images/lena-filatova-womens-health-coach-over-40.jpg')}
-        alt={lang === 'ua'
-          ? 'Lena Filatova — коуч з жіночого здоров’я та харчування для жінок 40+'
-          : "Lena Filatova, women's health and nutrition coach for women over 40"}
-        fetchpriority="high"
-        decoding="async"
-      />
-    </div>
-  </div>
-</section>
 
-<!-- TRUST STRIP — real credentials, a quick "why trust her" band under the hero -->
-<section class="stats" aria-label={t.trustLabel}>
-  <div class="wrap grid">
-    {t.trust.map((s) => (
-      <div class="stat"><div class="n">{s.n}</div><div class="l">{s.l}</div></div>
-    ))}
-  </div>
-</section>
-
-<!-- FROM THE BLOG: latest article (freshest content, featured first) -->
-<section class="section home-band home-band--paper reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div><h2>{t.blogTitle}</h2><p class="section-sub">{t.blogSub}</p></div>
-      <a class="see-all" href={blogHref}>{t.blogAll}</a>
-    </div>
-    <a class="feature-card" href={`${L}blog/${latestPost.slug}/`}>
-      <div class="feature-photo"><img src={img(latestPost.image)} alt={latestPostT.title} loading="lazy" /></div>
-      <div class="feature-body">
-        <span class="mini-cat">{latestPostT.cat}</span>
-        <h3>{latestPostT.title}</h3>
-        <p class="feature-desc">{latestPostT.excerpt}</p>
-        <p class="feature-meta">{latestPostT.meta}</p>
-        <span class="btn">{t.blogCta}</span>
-      </div>
-    </a>
-    <div class="blog-more reveal-group">
-      {morePosts.map((p) => {
-        const pt = p[lang];
-        return (
-          <a class="post-mini" href={`${L}blog/${p.slug}/`}>
-            <div class="post-mini-photo"><img src={img(p.image)} alt={pt.title} loading="lazy" /></div>
-            <div class="post-mini-body">
-              <span class="mini-cat">{pt.cat}</span>
-              <h3>{pt.title}</h3>
-              <p class="post-mini-meta">{pt.meta}</p>
-            </div>
-          </a>
-        );
-      })}
-    </div>
-  </div>
-</section>
-
-<!-- FROM MY KITCHEN: one recipe (image mirrored vs the blog card on wide screens) -->
-<section class="section home-band reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div><h2>{t.recipesTitle}</h2><p class="section-sub">{t.recipesSub}</p></div>
-      <a class="see-all" href={recipesAllHref}>{t.recipesAll}</a>
-    </div>
-    <a class="feature-card reverse" href={`${L}recipes/${featuredRecipe.slug}/`}>
-      <div class="feature-photo recipe-photo"><img src={img(featuredRecipe.img)} alt={featuredRecipe.title[lang]} loading="lazy" /></div>
-      <div class="feature-body">
-        <span class="mini-cat">{featuredRecipe.cat[lang]}</span>
-        <h3>{featuredRecipe.title[lang]}</h3>
-        <p class="feature-desc">{featuredRecipe.desc[lang]}</p>
-        <p class="feature-meta">GI {featuredRecipe.gi} · {featuredRecipe.carbs}{lang === 'ua' ? ' ' : 'g '}{t.carbs}</p>
-        <span class="btn">{t.recipeCta}</span>
-      </div>
-    </a>
-  </div>
-</section>
-
-<!-- FREE TOOLS & GUIDES: one card on mobile, three on wide screens -->
-<section class="section home-band home-band--paper reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div><h2>{t.resourcesTitle}</h2><p class="section-sub">{t.resourcesSub}</p></div>
-      <a class="see-all" href={resourcesHref}>{t.resourcesAll}</a>
-    </div>
-    <div class="res-grid reveal-group">
-      {featuredResources.map((card, i) => {
-        const c = card[lang];
-        const raw = lang === 'ua' ? card.hrefUa : card.href;
-        const href = raw.startsWith('/') ? B.replace(/\/$/, '') + raw : raw;
-        return (
-          <a class={i === 0 ? 'rcard' : 'rcard res-extra'} href={href}>
-            <div class="rband" style={`background:${card.band}`}>
-              <span style={`color:${card.head}`}>{c.band}</span>
-            </div>
-            <div class="rbody">
-              <p class="rkicker">{c.kicker}</p>
-              <h3>{c.title}</h3>
-              <p class="rdesc">{c.desc}</p>
-              <span class="rcta">{c.cta}</span>
-            </div>
-          </a>
-        );
-      })}
-    </div>
-  </div>
-</section>
-
-<!-- WHAT I HELP WITH — the topic overview, now near the bottom as a lead-out
-     to the newsletter (fresh content catches attention up top instead) -->
-<section class="section home-band reveal">
-  <div class="wrap">
-    <h2>{t.helpTitle}</h2>
-    <p class="section-sub">{t.helpSub}</p>
-    <div class="help-grid reveal-group">
-      {t.help.map((c, i) => (
-        <div class="help-card" style={`--c:${HOME.helpColors[i]};--n:${HOME.helpNums[i]}`}>
-          <span class="help-num">{String(i + 1).padStart(2, '0')}</span>
-          <div class="help-text">
-            <h3>{c.h}</h3>
-            <p>{c.p}</p>
-          </div>
+<div class="ed">
+  <!-- HERO -->
+  <section class="ed-hero">
+    <div class="wrap ed-hero-lay">
+      <div>
+        <p class="ed-est"><span class="ed-label">{t.heroKicker}</span><span class="ed-rule"></span></p>
+        <h1>{t.heroH1} <span class="it">{t.heroH1b}</span></h1>
+        <p class="ed-lead">{t.heroLead}</p>
+        <div class="ed-cta">
+          <a class="ed-btn mag" href={toolHref(tools[0])}>{t.heroCta1} <span class="ar">&#8594;</span></a>
+          <a class="ed-btn line" href="#newsletter">{t.heroCta2}</a>
         </div>
+        <p class="ed-disclaimer">{t.disclaimer}</p>
+      </div>
+      <div class="ed-portrait">
+        <span class="ed-blk"></span>
+        <div class="ed-frame">
+          <img
+            src={img('/images/lena-filatova-womens-health-coach-over-40.jpg')}
+            alt={lang === 'ua'
+              ? 'Lena Filatova — коуч з жіночого здоров’я та харчування для жінок 40+'
+              : "Lena Filatova, women's health and nutrition coach for women over 40"}
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+        <p class="ed-cap">{t.heroNote}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAND -->
+  <section class="ed-band" aria-label={t.trustLabel}>
+    <div class="wrap ed-band-grid">
+      {t.trust.map((s) => (
+        <div class="ed-stat"><div class="n">{s.n}</div><div class="l">{s.l}</div></div>
       ))}
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- NEWSLETTER — markup, language tagging, anti-spam and submit handling all
-     live in the component now; it posts straight to Mailchimp rather than via
-     the Apps Script relay. The homepage renders its own so the section keeps
-     its place in the page flow, and BaseLayout skips the above-footer band. -->
-<Newsletter lang={lang} sectionClass="home-band home-band--paper reveal" />
+  <!-- 01 FREE TOOLS -->
+  <section class="ed-sec" id="tools">
+    <div class="wrap">
+      <div class="ed-head">
+        <span class="ed-num">01</span>
+        <span class="ed-name">{t.resourcesTitle}</span>
+        <a class="ed-more" href={resourcesHref}>{t.resourcesAll} &#8594;</a>
+      </div>
+      <span class="ed-free">{t.toolsFree}</span>
+      <div class="ed-tools">
+        {tools.map((card, i) => {
+          const c = card[lang];
+          return (
+            <a class="ed-tool" href={toolHref(card)}>
+              <span class="idx">{numerals[i]}</span>
+              <span class="body">
+                <span class="tag">{c.kicker}</span>
+                <h3>{c.title}</h3>
+                <p>{c.desc}</p>
+                <span class="go">{c.cta} &#8594;</span>
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 BLOG -->
+  <section class="ed-sec">
+    <div class="wrap">
+      <div class="ed-head">
+        <span class="ed-num">02</span>
+        <span class="ed-name">{t.blogTitle}</span>
+        <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
+      </div>
+      <a class="ed-feat" href={`${L}blog/${latestPost.slug}/`}>
+        <div class="ph"><img src={img(latestPost.image)} alt={latestPostT.title} loading="lazy" /></div>
+        <div class="body">
+          <span class="cat">{latestPostT.cat}</span>
+          <h3>{latestPostT.title}</h3>
+          <p>{latestPostT.excerpt}</p>
+          <p class="meta">{latestPostT.meta}</p>
+          <span class="ed-readmore">{t.blogCta}</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 03 RECIPE -->
+  <section class="ed-sec">
+    <div class="wrap">
+      <div class="ed-head">
+        <span class="ed-num">03</span>
+        <span class="ed-name">{t.recipesTitle}</span>
+        <a class="ed-more" href={recipesAllHref}>{t.recipesAll} &#8594;</a>
+      </div>
+      <a class="ed-rec" href={`${L}recipes/${featuredRecipe.slug}/`}>
+        <div class="ph">
+          <span class="gi"><b>{featuredRecipe.gi}</b><span>GI</span></span>
+          <img src={img(featuredRecipe.img)} alt={featuredRecipe.title[lang]} loading="lazy" />
+        </div>
+        <div class="body">
+          <span class="ed-label dim">{featuredRecipe.cat[lang]} · {featuredRecipe.carbs}{lang === 'ua' ? ' ' : 'g '}{t.carbs}</span>
+          <h3>{featuredRecipe.title[lang]}</h3>
+          <p>{featuredRecipe.desc[lang]}</p>
+          <span class="ed-readmore">{t.recipeCta}</span>
+        </div>
+      </a>
+      <p class="ed-docline">&#8220;{t.recipeDoc}&#8221;<span>{t.recipeDocWho}</span></p>
+    </div>
+  </section>
+
+  <!-- 04 VOICES -->
+  <section class="ed-voices">
+    <div class="wrap">
+      <div class="ed-head">
+        <span class="ed-num">04</span>
+        <span class="ed-name">{t.voicesLabel}</span>
+      </div>
+      <h2>{t.voicesTitle}</h2>
+      <p class="ed-intro">{t.voicesSub}</p>
+      <div class="ed-qs">
+        {t.voices.map((v) => {
+          const parts = v.hl && v.q.includes(v.hl) ? v.q.split(v.hl) : null;
+          return (
+            <blockquote class="ed-q">
+              <p>&#8220;{parts ? (<Fragment>{parts[0]}<span class="hl">{v.hl}</span>{parts.slice(1).join(v.hl)}</Fragment>) : v.q}&#8221;</p>
+              <cite>{v.who}</cite>
+            </blockquote>
+          );
+        })}
+      </div>
+      <div class="ed-clin">
+        <span class="k">{t.clinicianLabel}</span>
+        <div>
+          <p class="cq">&#8220;{t.clinicianQuote}&#8221;</p>
+          <p class="cw">{t.clinicianWho}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 WHAT I HELP WITH -->
+  <section class="ed-sec">
+    <div class="wrap">
+      <div class="ed-head">
+        <span class="ed-num">05</span>
+        <span class="ed-name">{t.helpTitle}</span>
+      </div>
+      <div class="ed-rows">
+        {t.help.map((c, i) => (
+          <div class="ed-row">
+            <span class="n">{String(i + 1).padStart(2, '0')}</span>
+            <div><h3>{c.h}</h3><p>{c.p}</p></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- NEWSLETTER — shared component (markup, language tagging, anti-spam and
+     submit handling live there). It now offers the workbook: copy comes from
+     HOME[lang].nlTitle / nlSub, so every page's signup carries the same offer. -->
+<Newsletter lang={lang} sectionClass="ed-nl" />
+
+<!-- WAITLIST — seeds the future paid products, gives the list a second job. -->
+<div class="ed">
+  <section class="ed-wait">
+    <div class="wrap inner">
+      <div>
+        <h4>{t.waitlistTitle}</h4>
+        <p>{t.waitlistText}</p>
+      </div>
+      <a href="#newsletter">{t.waitlistCta} &#8594;</a>
+    </div>
+  </section>
+</div>
+
+<style>
+  /* Editorial tokens — local to the homepage on purpose (see header note). */
+  .ed {
+    --ed-accent: #B23A63;
+    --ed-accent-deep: #7C2144;
+    --ed-ink: #2A1424;
+    --ed-soft: #5A4152;
+    --ed-paper: #F5EFE8;
+    --ed-paper2: #EFE6DC;
+    --ed-rule: rgba(42, 20, 36, 0.18);
+    --ed-hair: rgba(42, 20, 36, 0.10);
+    --ed-display: 'Spectral', Georgia, serif;
+    --ed-ui: 'Manrope', -apple-system, sans-serif;
+    background: #F5EFE8;
+  }
+  .ed :is(h1, h2, h3, h4) { font-family: var(--ed-display); color: var(--ed-ink); font-weight: 400; letter-spacing: -0.01em; margin: 0; }
+  .ed p { color: var(--ed-soft); }
+
+  .ed-label { font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ed-accent); }
+  .ed-label.dim { color: var(--ed-soft); opacity: 0.75; }
+
+  .ed-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+    min-height: 54px; width: 100%; padding: 15px 26px; border: 0; border-radius: 0;
+    font-family: var(--ed-ui); font-weight: 700; font-size: 15px;
+    background: var(--ed-ink); color: var(--ed-paper); cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .ed-btn.mag { background: var(--ed-accent); color: #fff; }
+  .ed-btn.line { background: transparent; color: var(--ed-ink); box-shadow: inset 0 0 0 1.5px var(--ed-ink); }
+  .ed-btn .ar { font-family: var(--ed-display); font-size: 18px; line-height: 1; }
+
+  .ed-hero { padding: 26px 0 0; }
+  .ed-est { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
+  .ed-rule { height: 1px; background: var(--ed-rule); flex: 1; }
+  .ed-hero h1 { font-size: 34px; line-height: 1.04; letter-spacing: -0.028em; }
+  .ed-hero h1 .it { font-style: italic; color: var(--ed-accent); font-weight: 300; }
+  .ed-lead { font-family: var(--ed-display); font-size: 18px; line-height: 1.5; font-weight: 300; margin: 20px 0 0; }
+  .ed-cta { display: flex; flex-direction: column; gap: 10px; margin: 24px 0 14px; }
+  .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.45; opacity: 0.8; margin: 0 0 22px; }
+  .ed-disclaimer::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--ed-accent); margin-top: 9px; }
+
+  .ed-portrait { position: relative; --peek: 14px; }
+  .ed-frame { position: relative; z-index: 2; aspect-ratio: 1 / 1.08; overflow: hidden; background: var(--ed-paper2); border-radius: 50% 50% 0 0 / 38% 38% 0 0; }
+  .ed-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
+  .ed-blk { position: absolute; z-index: 1; left: -10px; right: 34%; bottom: calc(var(--peek) * -1); height: 46%; background: var(--ed-accent); }
+  /* the block's overhang drives the caption offset, so they cannot collide */
+  .ed-cap { position: relative; z-index: 3; background: var(--ed-paper); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--ed-accent); font-family: var(--ed-display); font-style: italic; font-size: 15px; }
+
+  .ed-band { margin-top: 34px; background: var(--ed-paper2); border-top: 1.5px solid var(--ed-ink); border-bottom: 1px solid var(--ed-rule); }
+  .ed-band-grid { display: grid; grid-template-columns: 1fr 1fr; }
+  .ed-stat { padding: 20px 16px 20px 0; border-bottom: 1px solid var(--ed-hair); }
+  .ed-stat:nth-child(odd) { border-right: 1px solid var(--ed-hair); }
+  .ed-stat:nth-child(even) { padding-left: 16px; }
+  .ed-stat:nth-child(n + 3) { border-bottom: 0; }
+  .ed-stat .n { font-family: var(--ed-display); font-size: 24px; line-height: 1; color: var(--ed-accent); margin-bottom: 6px; letter-spacing: -0.02em; }
+  .ed-stat .l { font-size: 12.5px; line-height: 1.4; color: var(--ed-soft); }
+
+  .ed-sec { padding: 52px 0 0; }
+  .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ed-ink); margin-bottom: 22px; }
+  .ed-num { font-family: var(--ed-display); font-size: 13px; color: var(--ed-accent); font-weight: 500; }
+  .ed-name { font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ed-ink); }
+  .ed-more { margin-left: auto; font-family: var(--ed-ui); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ed-accent); white-space: nowrap; }
+  .ed-readmore { font-family: var(--ed-ui); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-ink); border-bottom: 2px solid var(--ed-accent); padding-bottom: 4px; }
+
+  .ed-free { display: inline-block; font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-paper); background: var(--ed-accent); padding: 6px 12px; margin-bottom: 16px; }
+  .ed-tools { border-top: 1px solid var(--ed-rule); }
+  .ed-tool { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--ed-hair); align-items: flex-start; transition: padding-left 0.22s ease; }
+  .ed-tool .idx { font-family: var(--ed-display); font-size: 14px; color: var(--ed-accent); padding-top: 4px; flex: none; width: 24px; }
+  .ed-tool .body { display: block; }
+  .ed-tool .tag { display: block; font-family: var(--ed-ui); font-size: 10px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ed-soft); opacity: 0.75; margin-bottom: 7px; }
+  .ed-tool h3 { font-size: 22px; line-height: 1.15; margin-bottom: 6px; }
+  .ed-tool p { margin: 0 0 10px; font-size: 14.5px; }
+  .ed-tool .go { font-family: var(--ed-ui); font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-accent); }
+
+  .ed-feat { display: block; }
+  .ed-feat .ph { aspect-ratio: 4 / 3; background: var(--ed-paper2); overflow: hidden; }
+  .ed-feat .ph img { width: 100%; height: 100%; object-fit: cover; }
+  .ed-feat .body { padding: 22px 0 0; }
+  .ed-feat .cat { font-family: var(--ed-ui); font-size: 10px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ed-accent); }
+  .ed-feat h3 { font-size: 28px; line-height: 1.1; margin: 10px 0 12px; letter-spacing: -0.02em; }
+  .ed-feat p { font-family: var(--ed-display); font-size: 17px; font-weight: 300; line-height: 1.5; margin: 0 0 14px; }
+  .ed-feat .meta { font-family: var(--ed-ui); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; margin-bottom: 16px; }
+
+  .ed-rec { display: block; position: relative; }
+  .ed-rec .ph { position: relative; z-index: 2; aspect-ratio: 1 / 1; overflow: hidden; background: var(--ed-paper2); }
+  /* the plate shot has a lot of empty rim — zoom to the food */
+  .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.15); }
+  .ed-rec .gi { position: absolute; right: 0; top: -10px; z-index: 3; background: var(--ed-ink); color: var(--ed-paper); padding: 14px 16px; text-align: center; }
+  .ed-rec .gi b { display: block; font-family: var(--ed-display); font-size: 26px; line-height: 1; }
+  .ed-rec .gi span { font-family: var(--ed-ui); font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
+  .ed-rec .body { padding: 20px 0 0; }
+  .ed-rec h3 { font-size: 26px; line-height: 1.12; margin: 8px 0 10px; }
+  .ed-rec p { margin: 0 0 14px; font-size: 15.5px; }
+  .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--ed-rule); font-family: var(--ed-display); font-style: italic; font-size: 16.5px; color: var(--ed-ink); }
+  .ed-docline span { display: block; margin-top: 7px; font-family: var(--ed-ui); font-style: normal; font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-soft); }
+
+  .ed-voices { margin-top: 56px; padding: 44px 0 40px; background: #2A1424; color: #E6D9E2; position: relative; overflow: hidden; }
+  .ed-voices::before { content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%); }
+  .ed-voices .wrap { position: relative; }
+  .ed-voices .ed-head { border-top-color: rgba(255, 255, 255, 0.5); }
+  .ed-voices .ed-num { color: #EFA9C5; }
+  .ed-voices .ed-name { color: #fff; }
+  .ed-voices h2 { color: #fff; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 10px; }
+  .ed-intro { font-family: var(--ed-display); font-size: 16px; font-weight: 300; color: #C9B2C2; margin: 0 0 30px; }
+  .ed-q { margin: 0; padding: 26px 0; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+  .ed-q:first-of-type { border-top: 0; padding-top: 0; }
+  .ed-q p { font-family: var(--ed-display); font-weight: 300; font-style: italic; font-size: 20px; line-height: 1.42; color: #F4E9F0; margin: 0 0 14px; letter-spacing: -0.01em; }
+  .ed-q .hl { font-style: normal; font-weight: 500; color: #fff; box-shadow: inset 0 -0.45em 0 rgba(178, 58, 99, 0.55); }
+  .ed-q cite { font-style: normal; font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #B79EB0; }
+  .ed-clin { margin-top: 30px; padding: 22px; border: 1px solid rgba(255, 255, 255, 0.22); }
+  .ed-clin .k { display: block; margin-bottom: 12px; font-family: var(--ed-ui); font-size: 9.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: #E0A9C0; }
+  .ed-clin .cq { font-family: var(--ed-display); font-style: italic; font-size: 19px; line-height: 1.35; color: #fff; margin: 0; }
+  .ed-clin .cw { margin: 10px 0 0; font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #B79EB0; }
+
+  .ed-rows { border-top: 1px solid var(--ed-rule); }
+  .ed-row { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--ed-hair); }
+  .ed-row .n { font-family: var(--ed-display); font-size: 30px; line-height: 0.9; color: var(--ed-accent); opacity: 0.35; flex: none; width: 44px; letter-spacing: -0.03em; }
+  .ed-row h3 { font-size: 20px; margin-bottom: 5px; }
+  .ed-row p { margin: 0; font-size: 14.5px; }
+
+  .ed-wait { padding: 30px 0; background: var(--ed-paper2); border-top: 1px solid var(--ed-rule); }
+  .ed-wait h4 { font-size: 20px; margin-bottom: 6px; }
+  .ed-wait p { margin: 0 0 12px; font-size: 15px; }
+  .ed-wait a { font-family: var(--ed-ui); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-ink); border-bottom: 2px solid var(--ed-accent); padding-bottom: 4px; }
+
+  @media (min-width: 720px) {
+    .ed-btn { width: auto; }
+    .ed-hero { padding-top: 40px; }
+    .ed-hero-lay { display: grid; grid-template-columns: 1.45fr 0.8fr; gap: 44px; align-items: center; }
+    .ed-hero h1 { font-size: 52px; }
+    .ed-lead { font-size: 19px; max-width: 44ch; }
+    .ed-cta { flex-direction: row; gap: 12px; }
+    .ed-portrait { max-width: 280px; margin-left: auto; --peek: 16px; }
+    .ed-frame { aspect-ratio: 1 / 1.12; }
+    .ed-blk { right: 40%; height: 38%; }
+    .ed-cap { font-size: 13.5px; }
+    .ed-band-grid { grid-template-columns: repeat(4, 1fr); }
+    .ed-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--ed-hair); }
+    .ed-stat:first-child { padding-left: 0; }
+    .ed-stat:last-child { border-right: 0; }
+    .ed-stat .n { font-size: 28px; }
+    .ed-stat .l { font-size: 13.5px; }
+    .ed-tools { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+    .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; }
+    .ed-feat .ph { aspect-ratio: 1 / 1; }
+    .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--ed-paper); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
+    .ed-rec { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+    .ed-rec .body { padding: 0; }
+    .ed-voices { padding: 56px 0; }
+    .ed-voices h2 { font-size: 38px; }
+    .ed-qs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+    .ed-q:nth-child(2) { border-top: 0; padding-top: 0; }
+    .ed-q p { font-size: 22px; }
+    .ed-clin { display: flex; align-items: center; gap: 26px; }
+    .ed-clin .k { margin: 0; flex: none; max-width: 90px; }
+    .ed-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+    .ed-wait .inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .ed-wait p { margin: 0; }
+  }
+
+  @media (min-width: 1000px) {
+    .ed-hero { padding: 56px 0 0; }
+    .ed-hero-lay { grid-template-columns: 1.75fr 0.6fr; gap: 56px; align-items: end; }
+    .ed-hero h1 { font-size: 66px; line-height: 1; max-width: 15ch; }
+    .ed-lead { font-size: 20px; max-width: 48ch; }
+    .ed-portrait { max-width: 300px; }
+    .ed-frame { aspect-ratio: 1 / 1.16; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
+    .ed-blk { right: 38%; height: 40%; }
+    .ed-sec { padding: 76px 0 0; }
+    .ed-tools, .ed-rows, .ed-qs { column-gap: 64px; }
+    .ed-tool { padding: 26px 0; }
+    .ed-tool:hover { padding-left: 10px; }
+    .ed-tool:hover h3, .ed-feat:hover h3, .ed-rec:hover h3 { color: var(--ed-accent); }
+    .ed-tool h3 { font-size: 24px; }
+    .ed-tool p { max-width: 42ch; }
+    .ed-feat h3 { font-size: 38px; }
+    .ed-feat p { font-size: 18px; }
+    .ed-feat .body { margin-left: -90px; padding: 40px; }
+    .ed-rec h3 { font-size: 32px; }
+    .ed-voices { margin-top: 80px; padding: 70px 0; }
+    .ed-voices h2 { font-size: 44px; }
+    .ed-q p { font-size: 24px; }
+    .ed-row h3 { font-size: 22px; }
+    .ed-btn:hover { background: var(--ed-accent-deep); color: #fff; }
+    .ed-btn.line:hover { background: var(--ed-ink); color: var(--ed-paper); }
+  }
+
+  @media (min-width: 1320px) {
+    .ed-hero h1 { font-size: 76px; }
+    .ed-hero-lay { grid-template-columns: 1.8fr 0.58fr; gap: 72px; }
+    .ed-portrait { max-width: 330px; }
+    .ed-sec { padding: 88px 0 0; }
+  }
+</style>
