@@ -97,6 +97,23 @@ export const BOOKING_EMBED = 'https://calendar.google.com/calendar/appointments/
 // lives in src/scripts/form-guard.js, where it is assembled at runtime instead
 // of being rendered into the HTML for spam scrapers to harvest (OPS-235).
 
+// Newsletter signups post straight to the Mailchimp audience's public post-json
+// endpoint — no API key anywhere, double opt-in still applies, and unlike the
+// Apps Script relay the response is readable so real errors reach the visitor.
+// Audience "Lena Filatova" lives in the us11 (BaristaCard) account.
+// Language is NEVER chosen by the visitor: Newsletter.astro derives it from the
+// page tree ('/' = en, '/ua/' = ua) and writes the matching hidden group field.
+// Interest group 34186 "Language": 1 = EN, 2 = UA.
+export const MAILCHIMP = {
+  endpoint: 'https://baristacard.us11.list-manage.com/subscribe/post-json',
+  u: '1e50ad3293720baaf82abb8b3',
+  list: 'b6e0bf1c2b',
+  langGroup: 34186,
+  langValue: { en: 1, ua: 2 },
+  // Mailchimp's anti-bot honeypot: must stay empty, name is b_<u>_<list>.
+  botField: 'b_1e50ad3293720baaf82abb8b3_b6e0bf1c2b',
+};
+
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
 // this repo now); HomeBody builds the language-scoped href and base-prefixes
 // the local image. Newsletter posts to the same Apps Script as all signups
@@ -104,12 +121,19 @@ export const BOOKING_EMBED = 'https://calendar.google.com/calendar/appointments/
 export const HOME = {
   en: {
     seoTitle: 'Lena Filatova — Evidence-based women’s health after 40',
-    seoDesc: 'Clear, evidence-based information for women 40+ living with diabetes, insulin resistance and perimenopause.',
+    seoDesc: 'Evidence-based guidance for women 40+ with diabetes, insulin resistance and perimenopause — plus free tools, low-GI recipes and a science-backed newsletter.',
     heroKicker: 'Women’s health after 40',
     heroH1: 'Feel strong through every change.',
     heroLead: 'Clear, evidence-based information for women 40+ living with diabetes or insulin resistance, and perimenopause — the overlap almost no one explains. My mission is to help you restore your energy and confidence, and to offer practical solutions for a full life.',
     heroCta1: 'Get evidence-based guidance', heroCta2: 'Join the newsletter',
     heroNote: 'Living with type 1 diabetes since 2003 · Founder of the online School of Diabetes and the Gymbile fitness app',
+    trustLabel: 'Why women trust me',
+    trust: [
+      { n: '23 years', l: 'living with type 1 diabetes' },
+      { n: 'Founder', l: 'dia.school — online school of diabetes' },
+      { n: 'Founder', l: 'the Gymbile fitness app' },
+      { n: 'Hundreds', l: 'supported via webinars & programmes' },
+    ],
     helpTitle: 'What I help with',
     helpSub: 'Where hormones, blood sugar and midlife meet — explained clearly, in one place.',
     help: [
@@ -132,15 +156,25 @@ export const HOME = {
     nlEmail: 'Your email', nlBtn: 'Subscribe',
     nlTrap: 'Leave this field empty',
     nlSent: 'Almost there — check your inbox to confirm your subscription.',
+    nlDupe: 'You’re already on the list — nothing more to do.',
+    nlErr: 'Something went wrong. Please try again, or email lena@lenafilatova.co.uk.',
+    nlBusy: 'Subscribing…',
   },
   ua: {
     seoTitle: 'Lena Filatova — Науково обґрунтоване жіноче здоров’я після 40',
-    seoDesc: 'Зрозуміла, науково обґрунтована інформація для жінок 40+ із діабетом, інсулінорезистентністю та перименопаузою.',
+    seoDesc: 'Науково обґрунтовані поради для жінок 40+ із діабетом, інсулінорезистентністю та перименопаузою — безкоштовні інструменти, рецепти з низьким ГІ та розсилка.',
     heroKicker: 'Жіноче здоров’я після 40',
     heroH1: 'Почувайтесь сильною на кожному етапі життя',
     heroLead: 'Зрозуміла, науково обґрунтована інформація для жінок 40+, які живуть із діабетом або інсулінорезистентністю та перименопаузою — перетин, який майже ніхто не пояснює. Моя місія — допомогти вам повернути енергію та впевненість і дати практичні рішення для повноцінного життя.',
     heroCta1: 'Отримати науково обґрунтовані поради', heroCta2: 'Підписатися на розсилку',
     heroNote: 'Живу з діабетом 1 типу з 2003 · Засновниця Школи Діабету онлайн та фітнес-додатку Gymbile',
+    trustLabel: 'Чому жінки мені довіряють',
+    trust: [
+      { n: '23 роки', l: 'життя з діабетом 1 типу' },
+      { n: 'Засновниця', l: 'dia.school — онлайн-школи діабету' },
+      { n: 'Засновниця', l: 'фітнес-додатку Gymbile' },
+      { n: 'Сотні', l: 'підтримані через вебінари та програми' },
+    ],
     helpTitle: 'Чим я допомагаю',
     helpSub: 'Де гормони, цукор у крові та середній вік перетинаються — зрозуміло, в одному місці.',
     help: [
@@ -163,6 +197,9 @@ export const HOME = {
     nlEmail: 'Ваш email', nlBtn: 'Підписатися',
     nlTrap: 'Залиште це поле порожнім',
     nlSent: 'Майже готово — перевірте пошту, щоб підтвердити підписку.',
+    nlDupe: 'Ви вже підписані — нічого робити не потрібно.',
+    nlErr: 'Щось пішло не так. Спробуйте ще раз або напишіть на lena@lenafilatova.co.uk.',
+    nlBusy: 'Підписуємо…',
   },
   // Topic-card tints and their matching accents. The tints used to sit at
   // roughly 1.03:1 against the page background — technically four colours,
@@ -183,6 +220,37 @@ export const HOME = {
     gi: 15, carbs: 6, slug: 'zucchini-spaghetti-salmon', img: '/recipes/images/93-zucchini-spaghetti-salmon.jpg',
   },
 };
+
+// Homepage structured data — a WebSite + Person @graph. Uses the live absolute
+// domain because JSON-LD @ids must be stable canonical URLs, not base-relative.
+export function homeJsonLd(lang = 'en') {
+  const SITE = 'https://lenafilatova.co.uk';
+  const t = HOME[lang];
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE}/#website`,
+        url: lang === 'ua' ? `${SITE}/ua/` : `${SITE}/`,
+        name: 'Lena Filatova',
+        description: t.seoDesc,
+        inLanguage: lang === 'ua' ? 'uk' : 'en',
+        publisher: { '@id': `${SITE}/#person` },
+      },
+      {
+        '@type': 'Person',
+        '@id': `${SITE}/#person`,
+        name: 'Lena Filatova',
+        url: `${SITE}/`,
+        description: t.seoDesc,
+        jobTitle: lang === 'ua' ? 'Коуч із жіночого здоров’я та харчування' : "Women's health & nutrition coach",
+        knowsAbout: ['Type 1 diabetes', 'Perimenopause', 'Insulin resistance', 'Nutrition', "Women's health after 40"],
+        sameAs: SOCIALS.map((s) => s.href),
+      },
+    ],
+  };
+}
 
 // Resources hub. Cards currently link to the live tools (absolute URLs) so every card
 // works from the preview; repoint `href`/`hrefUa` to internal paths as each tool migrates.
