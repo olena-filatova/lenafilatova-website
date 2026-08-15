@@ -4,6 +4,7 @@
 // furniture is never rewritten per page.
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Newsletter from '../components/Newsletter.astro';
 import CookieConsent from '../components/CookieConsent.astro';
 import '../styles/global.css';
 
@@ -21,6 +22,11 @@ const {
   noindex = false, // hidden pages (e.g. shop while nothing is on sale)
   readingProgress = false, // long-read pages (blog posts): thin scroll indicator on top
   revealOnScroll = false, // homepage: fade sections up as they come into view
+  // Newsletter band above the footer. On by default so every page has a signup
+  // form and the header's Subscribe button always has a #newsletter to jump to.
+  // The homepage sets false — HomeBody renders its own in the page flow, and two
+  // per page would make the anchor ambiguous.
+  newsletter = true,
 } = Astro.props;
 
 const canonicalUrl = new URL(canonical, Astro.site).href;
@@ -88,6 +94,7 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     {readingProgress && <div class="reading-progress" id="readingProgress" aria-hidden="true" hidden></div>}
     <Header lang={lang} showList={showList} enHref={enHref} uaHref={uaHref} />
     <main><slot /></main>
+    {newsletter && <Newsletter lang={lang} />}
     <Footer lang={lang} />
     <CookieConsent lang={lang} />
     {revealOnScroll && (
