@@ -1,3 +1,144 @@
+/* ── Self-hosted webfonts (OPS-211) ───────────────────────────────────────
+   Previously Manrope + Spectral came from Google Fonts, which cost a
+   render-blocking stylesheet on two extra origins (fonts.googleapis.com,
+   fonts.gstatic.com) before a single glyph could be requested. These files
+   are served from our own origin, so the connection is already open and the
+   @font-face rules arrive inside this stylesheet — no extra round trip, and
+   no third-party request to disclose.
+
+   Manrope ships as a VARIABLE font: one file per subset covers the whole 200–800 axis, so
+   the weight is declared as a range. Spectral is static, so it needs one
+   file per weight/style. Only latin, latin-ext and cyrillic are shipped —
+   the site has no Greek or Vietnamese content, and Ukrainian (including ґ,
+   U+0490-0491) is fully inside the `cyrillic` subset.
+
+   `font-display: swap` keeps text visible while the file loads. Subsetting
+   is preserved via unicode-range, so a page with no Cyrillic never fetches
+   the Cyrillic file. Files live in public/fonts/ and are copied verbatim
+   into the build. Total: ~207 kB across 15 files, none of it on the
+   critical path for a page that doesn't use that script.
+   ──────────────────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-latin-var.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-latin-ext-var.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-cyrillic-var.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-400-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-400-italic.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-400-italic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-400.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-400.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-500.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-500.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-500.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-600.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-600.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
 /* ============================================================
    Design tokens — captured from the live Divhunt site so the
    Astro rebuild is pixel-matched. Change the brand here, once.
