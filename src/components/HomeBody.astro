@@ -58,6 +58,7 @@ const toolHref = (card) => {
         <p class="ed-disclaimer">{t.disclaimer}</p>
       </div>
       <div class="ed-portrait">
+        <div class="ed-shot">
         <span class="ed-blk"></span>
         <div class="ed-frame">
           <img
@@ -68,6 +69,7 @@ const toolHref = (card) => {
             fetchpriority="high"
             decoding="async"
           />
+        </div>
         </div>
         <p class="ed-cap">{t.heroNote}</p>
       </div>
@@ -265,7 +267,10 @@ const toolHref = (card) => {
   .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.45; opacity: 0.8; margin: 0 0 22px; }
   .ed-disclaimer::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--ed-accent); margin-top: 9px; }
 
-  .ed-portrait { position: relative; --peek: 14px; }
+  .ed-portrait { --peek: 14px; }
+  /* The block is anchored to .ed-shot (the photo alone). Anchoring it to
+     .ed-portrait put it behind the caption, which is what it was doing. */
+  .ed-shot { position: relative; }
   .ed-frame { position: relative; z-index: 2; aspect-ratio: 1 / 1.08; overflow: hidden; background: var(--ed-paper2); border-radius: 50% 50% 0 0 / 38% 38% 0 0; }
   .ed-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
   .ed-blk { position: absolute; z-index: 1; left: -10px; right: 34%; bottom: calc(var(--peek) * -1); height: 46%; background: var(--ed-accent); }
