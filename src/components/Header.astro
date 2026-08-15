@@ -10,8 +10,15 @@ const { lang = 'en', showList = false, enHref, uaHref } = Astro.props;
 const t = NAV[lang];
 const B = import.meta.env.BASE_URL;                 // '/…preview/' now, '/' at root
 const L = lang === 'ua' ? `${B}ua/` : B;            // language-scoped base
-const enTo = enHref || `${B}about/`;
-const uaTo = uaHref || `${B}ua/about/`;
+// Default the toggle to the SAME page in the other language, derived from the
+// current path — not to /about/. The old default meant any page that didn't
+// pass enHref/uaHref (the homepage, about, contact, shop, legal) threw the
+// visitor onto About instead of translating where they were.
+const path = Astro.url.pathname;
+const rel = path.startsWith(B) ? path.slice(B.length) : path.replace(/^\//, '');
+const relEn = rel === 'ua' || rel === 'ua/' ? '' : rel.startsWith('ua/') ? rel.slice(3) : rel;
+const enTo = enHref || `${B}${relEn}`;
+const uaTo = uaHref || `${B}ua/${relEn}`;
 
 // Which nav item is the current page. Prefix match rather than equality, so a
 // post (/blog/some-post/) or a recipe (/recipes/yerba-mate/) still lights up its
