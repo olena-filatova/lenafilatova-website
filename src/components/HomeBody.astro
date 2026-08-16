@@ -105,6 +105,8 @@ const toolHref = (card) => {
                 <span class="tag">{c.kicker}</span>
                 <h3>{c.title}</h3>
                 <p>{c.desc}</p>
+                {/* The arrow is markup, not data — RESOURCES cta strings used to
+                    carry their own "→" and rendered here as a doubled arrow. */}
                 <span class="go">{c.cta} &#8594;</span>
               </span>
             </a>

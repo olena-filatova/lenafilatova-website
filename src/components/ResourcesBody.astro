@@ -1,37 +1,68 @@
 ---
-import { RESOURCES } from '../data/site.js';
+// Resources hub — the editorial system (OPS-276).
+//
+// Was: seven cards in a three-across grid, each topped by a full-width band of
+// its own pale tint. On the pink ground those bands read as section headers; on
+// the warm paper they read as seven competing backgrounds, and the tint was
+// doing the work a hairline should. The list is also the same set of tools the
+// homepage already renders as a numbered index, so the two pages disagreed
+// about what a tool looks like.
+//
+// Now: the homepage's numbered editorial list. Hairlines separate, the number
+// carries the eye, and each tool's colour survives as a small accent — a rule in
+// the gutter and the subject label — instead of a full band. Colours come from
+// `band`/`head` in RESOURCES.cards; every `head` clears 4.5:1 on the paper.
+import { RESOURCES, HOME } from '../data/site.js';
 const { lang = 'en' } = Astro.props;
 const t = RESOURCES[lang];
 const cards = RESOURCES.cards;
+// The no-strings promise is the same sentence the homepage makes over this
+// exact list, so it is read from there rather than restated.
+const free = HOME[lang].toolsFree;
 ---
-<section class="hero resources">
+<section class="res-head">
   <div class="wrap">
-    <p class="kicker">{t.kicker}</p>
-    <h1>{t.h1}</h1>
-    <p class="lead">{t.lead}</p>
+    {/* Label + hairline — the masthead device the homepage, blog and recipe hubs share. */}
+    <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+    <div class="head">
+      <h1>{t.h1}</h1>
+      <p class="lede">{t.lead}</p>
+    </div>
+    {/* Not decoration: "no sign-up, no paywall" is the reason people go on to
+        use the tools, so it sits above the list at full strength. */}
+    <p class="res-free">{free}</p>
   </div>
 </section>
 
 <section class="res-wrap">
-  <div class="wrap res-grid">
-    {cards.map((card) => {
-      const c = card[lang];
-      const raw = lang === 'ua' ? card.hrefUa : card.href;
-      // root-relative links (carried-over tool pages) get the deploy base prefix
-      const href = raw.startsWith('/') ? import.meta.env.BASE_URL.replace(/\/$/, '') + raw : raw;
-      return (
-        <a class="rcard" href={href}>
-          <div class="rband" style={`background:${card.band}`}>
-            <span style={`color:${card.head}`}>{c.band}</span>
-          </div>
-          <div class="rbody">
-            <p class="rkicker">{c.kicker}</p>
-            <h3>{c.title}</h3>
-            <p class="rdesc">{c.desc}</p>
-            <span class="rcta">{c.cta}</span>
-          </div>
-        </a>
-      );
-    })}
+  <div class="wrap">
+    <div class="res-sec-head">
+      <span class="fk">{t.listLabel}</span>
+      <span class="fk-n">{String(cards.length).padStart(2, '0')}</span>
+    </div>
+    <ol class="res-list">
+      {cards.map((card, i) => {
+        const c = card[lang];
+        const raw = lang === 'ua' ? card.hrefUa : card.href;
+        // root-relative links (carried-over tool pages) get the deploy base prefix
+        const href = raw.startsWith('/') ? import.meta.env.BASE_URL.replace(/\/$/, '') + raw : raw;
+        return (
+          <li class="res-item" style={`--tool: ${card.head}`}>
+            <a class="res-tool" href={href}>
+              <span class="idx">{String(i + 1).padStart(2, '0')}</span>
+              <span class="body">
+                <span class="meta">
+                  <span class="subject">{c.band}</span>
+                  <span class="kind">{c.kicker}</span>
+                </span>
+                <h2>{c.title}</h2>
+                <p>{c.desc}</p>
+                <span class="go">{c.cta} <span class="ar">&#8594;</span></span>
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
   </div>
 </section>

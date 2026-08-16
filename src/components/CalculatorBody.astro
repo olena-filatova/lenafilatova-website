@@ -1,24 +1,48 @@
 ---
-// One template for the three embedded calculators. The widget script mounts
-// into the data-attribute div in a Shadow DOM (styles isolated); a small
-// inline script first syncs localStorage.lf_lang to this page's language so
-// the widget opens in the right language (it reads lf_lang, ua→uk).
+// One template for the three embedded calculators — editorial restyle (OPS-276).
+//
+// SCOPE. Only the chrome on this page is ours: the back link, masthead, the
+// frame, and the two notes under it. The calculator itself is a separate app
+// (repo olena-filatova/helsico, served at calculator.lenafilatova.co.uk) that
+// mounts into the data-attribute div in a SHADOW ROOT, so nothing in this file
+// can reach it and nothing in it can leak out. It is styled on its own system —
+// Inter, cool #F8FAFC ground, 8–16px radii, an emerald accent — none of which
+// matches the paper/Spectral/square system around it. That is a real clash, and
+// the fix belongs in the helsico repo, not in overrides here; see the ticket
+// raised against it. What this file does is frame the widget honestly: a square
+// hairline panel that reads as an inset instrument, so the seam looks deliberate
+// instead of broken.
+//
+// A small inline script first syncs localStorage.lf_lang to this page's
+// language so the widget opens in the right one (it reads lf_lang, ua→uk).
 import { CALC_UI } from '../data/calculators.js';
+import { RESOURCES, HOME } from '../data/site.js';
 
 const { calc, lang = 'en' } = Astro.props;
 const c = calc[lang];
 const B = import.meta.env.BASE_URL;
 const L = lang === 'ua' ? `${B}ua/` : B;
+// The matching hub entry, for the subject label and tool colour — so a
+// calculator page carries the same small accent it has in the index.
+const card = RESOURCES.cards.find((r) => r.href === `/resources/${calc.slug}/`);
+const subject = card ? card[lang].band : null;
+const tool = card ? card.head : 'var(--accent)';
+const free = HOME[lang].toolsFree;
 ---
-<section class="calc-page">
+<section class="calc-page" style={`--tool: ${tool}`}>
   <div class="wrap">
-    <a class="calc-back" href={`${L}resources/`}>← {CALC_UI[lang].back}</a>
+    <a class="calc-back" href={`${L}resources/`}>&#8592; {CALC_UI[lang].back}</a>
+    <p class="est">
+      {subject && <span class="est-label">{subject}</span>}
+      <span class="est-rule"></span>
+    </p>
     <h1>{c.title}</h1>
-    <p class="calc-sub">{c.sub}</p>
+    <p class="lede">{c.sub}</p>
+    <p class="calc-free">{free}</p>
     <div class="calc-frame">
       <div {...{ [calc.mountAttr]: true }}></div>
     </div>
-    <p class="calc-open"><a href={calc.openUrl} target="_blank" rel="noopener">{c.openNew} →</a></p>
+    <p class="calc-open"><a href={calc.openUrl} target="_blank" rel="noopener">{c.openNew} &#8594;</a></p>
     <p class="calc-disclaimer">{c.disclaimer}</p>
   </div>
 </section>
@@ -29,13 +53,62 @@ const L = lang === 'ua' ? `${B}ua/` : B;
 <script is:inline defer src={calc.script}></script>
 
 <style>
-  .calc-page { padding: 40px 0 64px; }
+  .calc-page { padding: 40px 0 72px; }
   .calc-page .wrap { max-width: 880px; }
-  .calc-back { display: inline-block; margin-bottom: 28px; font-size: 14px; font-weight: 600; color: #7A6675; }
-  .calc-page h1 { font-size: clamp(30px, 4.4vw, 40px); letter-spacing: -0.4px; margin: 0 0 10px; }
-  .calc-sub { margin: 0 0 26px; font-size: 17px; line-height: 1.55; color: #6A5668; max-width: 640px; }
-  .calc-frame { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--card); box-shadow: 0 1px 3px rgba(51, 27, 51, 0.04); min-height: 420px; }
-  .calc-open { margin: 14px 2px 0; font-size: 13.5px; }
-  .calc-open a { color: var(--accent); font-weight: 600; }
-  .calc-disclaimer { margin: 12px 2px 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+  /* Back link as a running head, not a button. */
+  .calc-back {
+    display: inline-block; margin-bottom: 30px;
+    font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+    transition: color .2s ease;
+  }
+  .calc-back:hover { color: var(--accent); }
+  /* Masthead device shared with the hubs; the label takes the tool's colour. */
+  .est { display: flex; align-items: center; gap: 10px; margin: 0 0 16px; }
+  .est-label {
+    font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--tool);
+  }
+  .est-rule { flex: 1; height: 1px; background: var(--rule); }
+  .calc-page h1 {
+    font-size: clamp(30px, 4.6vw, 44px); line-height: 1.06;
+    letter-spacing: -0.025em; margin: 0; text-wrap: balance;
+  }
+  .lede {
+    font-family: var(--font-head); font-weight: 300; font-size: 17.5px; line-height: 1.5;
+    color: var(--muted); max-width: 62ch; margin: 18px 0 0;
+  }
+  /* Same badge as the hub — this is the page where the promise is cashed in. */
+  .calc-free {
+    display: inline-block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent);
+    padding: 6px 12px; margin: 22px 0 0;
+  }
+  /* The frame around the foreign widget: square, one hairline, no lift. The
+     shadow and the 16px radius it used to have were trying to make the widget
+     look like part of the page; it isn't, and the seam is cleaner owned than
+     disguised. A rule in the tool colour tops it so the panel still belongs to
+     this page. */
+  .calc-frame {
+    margin-top: 28px;
+    border: 1px solid var(--line);
+    border-top: 2px solid var(--tool);
+    border-radius: 0;
+    background: var(--card);
+    overflow: hidden;
+    min-height: 420px;
+  }
+  .calc-open { margin: 16px 0 0; font-size: 13px; }
+  .calc-open a {
+    font-family: var(--font-body); font-weight: 800; font-size: 11px;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent);
+  }
+  .calc-open a:hover { text-decoration: underline; }
+  .calc-disclaimer {
+    margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 13px; line-height: 1.55; color: var(--muted); max-width: 72ch;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .calc-back { transition: none; }
+  }
 </style>
