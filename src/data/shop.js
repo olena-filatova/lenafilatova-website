@@ -11,8 +11,12 @@ export const SHOP = {
     h1: 'Digital products',
     lead: 'Guides, meal plans and 1:1 coaching designed for women over 40 — evidence-based support for nutrition, perimenopause and blood sugar.',
     soon: 'Coming soon',
-    note: 'I’m putting the finishing touches on these. Leave your email on the contact page and I’ll let you know the moment they’re ready.',
-    notify: 'Get notified',
+    // Kept in step with the homepage waitlist (HOME.waitlistText), which promises
+    // first access and founding prices to NEWSLETTER subscribers. This page used
+    // to send people to the contact page instead, so the two contradicted each
+    // other about how you get told (OPS-277).
+    note: 'These are still in the making. Newsletter subscribers get first access — and founding prices — the moment they’re ready.',
+    notify: 'Join the waitlist',
     coachCta: 'Enquire about coaching',
     items: [
       {
@@ -42,8 +46,9 @@ export const SHOP = {
     h1: 'Цифрові продукти',
     lead: 'Гайди, плани харчування та індивідуальний коучинг для жінок після 40 — науково обґрунтована підтримка у харчуванні, перименопаузі та контролі цукру.',
     soon: 'Незабаром',
-    note: 'Я завершую роботу над цими продуктами. Залиште свою пошту на сторінці контактів — і я повідомлю, щойно вони будуть готові.',
-    notify: 'Повідомити мене',
+    // Same promise as HOME.waitlistText — see the EN note above.
+    note: 'Ці продукти ще готуються. Підписники розсилки отримають доступ першими — і за стартовою ціною, щойно все буде готове.',
+    notify: 'Приєднатися до списку',
     coachCta: 'Дізнатися про коучинг',
     items: [
       {

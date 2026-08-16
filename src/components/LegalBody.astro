@@ -11,7 +11,10 @@ const fix = (s) => String(s).replace(/href="\//g, `href="${B}`);
 ---
 <section class="legal-hero">
   <div class="wrap">
-    <p class="kicker">{c.kicker}</p>
+    {/* Same masthead device as every other page — label, hairline, serif
+        headline — so a legal page reads as part of the site rather than as
+        boilerplate someone pasted in (OPS-277). */}
+    <p class="est"><span class="est-label">{c.kicker}</span><span class="est-rule"></span></p>
     <h1>{c.h1}</h1>
     <p class="legal-updated">{c.updated}</p>
   </div>
