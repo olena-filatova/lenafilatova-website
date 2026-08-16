@@ -1,53 +1,111 @@
 ---
-// The About page body — ONE template, rendered from `c` (the per-language data).
+// About — the editorial system (OPS-277).
+//
+// Was: a plain square photo beside the headline, a four-up stat row, three
+// rounded "value" cards and a centred ink CTA box — the last of the pre-redesign
+// card layouts on a main page. Its stat block had also drifted away from the
+// homepage's, claiming "Hundreds" supported and "dia.school"; the numbers now
+// come from the same wording as HOME.trust (fixed in the data, see site.js).
+//
+// Now: the homepage's own devices, because this is the page that has to carry
+// her authority — the arched portrait with its magenta block, the paper2 trust
+// band, numbered section heads, and the values as hairline-separated rows
+// rather than cards.
+//
+// ONE template, rendered from `c` (the per-language data).
+import { HOME } from '../data/site.js';
 const { c, lang = 'en' } = Astro.props;
 const B = import.meta.env.BASE_URL;
 const contactHref = (lang === 'ua' ? `${B}ua/` : B) + 'contact/';
+
+// The pull quote is read from the homepage's testimonials rather than restated
+// here, so a testimonial exists in exactly one place and cannot drift between
+// pages — the same reason ResourcesBody reads its no-strings promise from HOME.
+//
+// NOTE (OPS-277): the ticket asked for Marta's longer "rose-tinted glasses"
+// testimonial in this slot. That quote is not in the repo, in Jira, or in the
+// named files of the old-site testimonial archive, so it could not be verified
+// and has NOT been invented. This is a real, already-published quote standing
+// in; swapping Marta's in is a one-line change once Lena supplies the wording.
+const quote = HOME[lang].voices[1];
 ---
-<section class="hero">
-  <div class="wrap grid">
-    <div class="photo">
-      <img
-        src={B.replace(/\/$/, '') + '/images/lena-filatova-womens-health-coach-over-40.jpg'}
-        alt={lang === 'ua'
-          ? 'Lena Filatova — коуч з жіночого здоров’я та харчування для жінок 40+'
-          : "Lena Filatova, women's health and nutrition coach for women over 40"}
-        decoding="async"
-        fetchpriority="high"
-      />
-    </div>
-    <div>
-      <p class="kicker">{c.kicker}</p>
-      <h1>{c.h1}</h1>
-      <p class="lead">{c.lead}</p>
+<section class="ab-head">
+  <div class="wrap">
+    {/* Label + hairline — the masthead device every hub on the site opens with. */}
+    <p class="est"><span class="est-label">{c.kicker}</span><span class="est-rule"></span></p>
+    <div class="ab-lay">
+      <div>
+        <h1>{c.h1}</h1>
+        <p class="ab-lede">{c.lead}</p>
+      </div>
+      <div class="ab-portrait">
+        <div class="ab-shot">
+          <span class="ab-blk"></span>
+          <div class="ab-frame">
+            <img
+              src={B.replace(/\/$/, '') + '/images/lena-filatova-womens-health-coach-over-40.jpg'}
+              alt={lang === 'ua'
+                ? 'Lena Filatova — коуч з жіночого здоров’я та харчування для жінок 40+'
+                : "Lena Filatova, women's health and nutrition coach for women over 40"}
+              decoding="async"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="stats">
-  <div class="wrap grid">
+{/* Credentials band — the homepage's, so the two pages agree on the numbers. */}
+<section class="ab-band">
+  <div class="wrap ab-band-grid">
     {c.stats.map((s) => (
-      <div class="stat"><div class="n">{s.n}</div><div class="l">{s.l}</div></div>
+      <div class="ab-stat"><div class="n">{s.n}</div><div class="l">{s.l}</div></div>
     ))}
   </div>
 </section>
 
-<section class="story">
-  <div class="wrap"><div class="col">{c.story.map((p) => <p>{p}</p>)}</div></div>
-</section>
-
-<section class="values">
-  <div class="wrap grid">
-    {c.values.map((v) => (
-      <div class="value"><h3>{v.h}</h3><p>{v.p}</p></div>
-    ))}
+<section class="ab-sec">
+  <div class="wrap">
+    <div class="ab-sec-head">
+      <span class="n">01</span>
+      <span class="nm">{c.storyLabel}</span>
+    </div>
+    <div class="ab-story">{c.story.map((p) => <p>{p}</p>)}</div>
+    {/* Proof, set where the story has just made the case for it. */}
+    <blockquote class="ab-pull">
+      <p>&#8220;{quote.q}&#8221;</p>
+      <cite>{quote.who}</cite>
+    </blockquote>
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap"><div class="box">
-    <h2>{c.ctaTitle}</h2>
-    <p>{c.ctaText}</p>
-    <a class="btn" href={contactHref}>{c.ctaBtn}</a>
-  </div></div>
+<section class="ab-sec">
+  <div class="wrap">
+    <div class="ab-sec-head">
+      <span class="n">02</span>
+      <span class="nm">{c.valuesLabel}</span>
+    </div>
+    <div class="ab-rows">
+      {c.values.map((v, i) => (
+        <div class="ab-row">
+          <span class="n">{String(i + 1).padStart(2, '0')}</span>
+          <div><h3>{v.h}</h3><p>{v.p}</p></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="ab-cta">
+  <div class="wrap">
+    <div class="box">
+      <div>
+        <h2>{c.ctaTitle}</h2>
+        <p>{c.ctaText}</p>
+      </div>
+      <a class="btn" href={contactHref}>{c.ctaBtn}</a>
+    </div>
+  </div>
 </section>
