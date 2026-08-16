@@ -152,113 +152,372 @@
 }
 </style>
 <style>
+/* ── The editorial system, applied by hand (OPS-286) ────────────────────
+   This file is a standalone page in public/, outside the Astro bundle, so it
+   cannot import src/styles/global.css — the tokens below are that file's
+   :root, copied. Keep the two in step.
+
+   Unlike the four tools restyled in OPS-278, this one is NOT a page anyone
+   lands on: it is embedded as an iframe inside the T1D cure blog post
+   (src/data/blog.js, `embed` block). So there is deliberately no masthead,
+   no wordmark and no back-link — the article around it already carries the
+   site header, and a second brand lockup mid-paragraph would read as a
+   third-party widget. For the same reason the ground is --bg, the article's
+   own paper, not the raised --card: the tracker should sit down into the
+   page rather than float on a white panel, which is exactly how the old
+   #fff / #e5e7eb / #f9fafb interface greys made it look.
+
+   The iframe is `scrolling="no"` and gets its height from the
+   `lf-embed-height` message postHeight() sends to BlogPostBody.astro. Any
+   change here that alters content height must still let that fire, or the
+   tracker is clipped rather than scrolled — see the note by postHeight(). */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 :root {
-  --green:#2F7A52; --green-bg:#e9f5f0; --amber:#B26A34; --amber-bg:#fff3e0;
-  --grey:#666; --grey-bg:#f2f2f2; --text:#1a1a1a; --muted:#6b7280;
-  --border:#e5e7eb; --hover:#f9fafb; --accent:#B23A63; --radius:8px;
-  --a-stem:#5A3FA0;   --a-stem-bg:#EEEAF8;
-  --a-encap:#0E6699;  --a-encap-bg:#E5F1F8;
-  --a-immuno:#1B7B5E; --a-immuno-bg:#E5F4EE;
-  --a-vaccine:#B26A34;--a-vaccine-bg:#FBEEE1;
-  --a-preserve:#005FCC;--a-preserve-bg:#EAF1FC;
-  --a-islet:#8E3A1E;  --a-islet-bg:#F8ECE7;
-  --a-screen:#0d7d7d; --a-screen-bg:#e2f4f4;
-  --a-other:#666;     --a-other-bg:#f2f2f2;
+  --accent:      #B23A63;   /* brand magenta — unchanged, it carries recognition */
+  --accent-deep: #7C2144;
+  --ink:         #2A1424;
+  --body:        #4A3644;
+  --muted:       #5A4152;
+  --bg:          #F5EFE8;   /* warm paper — the article's ground, and ours */
+  --paper2:      #EFE6DC;   /* recessed band: filter panel, badge grounds, pills */
+  --card:        #FFFCF7;   /* raised panel: the trial cards, controls */
+  --line:        rgba(42, 20, 36, 0.10);   /* hairline: card edges, field rules */
+  --rule:        rgba(42, 20, 36, 0.18);   /* heavier rule: control edges, dividers */
+  --radius:      0;         /* the system is square */
+  --font-head:   'Spectral', Georgia, serif;
+  --font-body:   'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Semantic scale, re-mixed for the warm paper. Measured, not eyeballed —
+     every ink below clears 4.5:1 on the tint it is paired with AND on --card
+     and --bg, so a badge stays readable wherever it lands. */
+  --green: #26654A;  --green-bg: #E3EDE5;   /* 5.76:1 */
+  --amber: #8A4B18;  --amber-bg: #F4E7D6;   /* was #B26A34 on #fff3e0 = 3.83:1 */
+  --red:   #9E2626;  --red-bg:   #F6E2DF;   /* 6.11:1 */
+  --gold:  #7A5300;  --gold-bg:  #F6EBCF;   /* 5.78:1 */
+  --grey:  #5A4152;  --grey-bg:  #EFE6DC;   /* 7.36:1 */
+
+  /* Approach colours. They are how you pick one kind of programme out of a
+     long list, so all eight are kept — but the eight pale cool tints they
+     used to sit on (#FBEEE1, #e2f4f4, #EEEAF8, …) were eight extra
+     backgrounds fighting the paper, and two of them failed AA. Same fix as
+     OPS-278 used for the CGM manufacturer colours: one --paper2 ground for
+     every badge, the colour survives as the ink on it, darkened until it
+     clears 4.5:1 there. Ratios on --paper2 in the comments. */
+  --a-stem:     #5040A0;   /* 6.59:1 */
+  --a-encap:    #0E6699;   /* 5.04:1 */
+  --a-immuno:   #186B52;   /* 5.22:1 */
+  --a-vaccine:  #8A4B18;   /* 5.49:1 — was #B26A34 on #FBEEE1 = 3.68:1 */
+  --a-preserve: #005FCC;   /* 4.85:1 */
+  --a-islet:    #8E3A1E;   /* 6.14:1 */
+  --a-screen:   #0F6060;   /* 5.95:1 — was #0d7d7d on #e2f4f4 = 4.35:1 */
+  --a-other:    #5A4152;   /* 7.36:1 */
+  --a-phase:    #3A43B0;   /* 6.52:1 */
 }
-body { font-family:'Manrope',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; color:var(--text); background:#fff; font-size:15px; line-height:1.55; }
-.page { max-width:900px; margin:0 auto; padding:16px clamp(14px,3vw,28px) 28px; }
 
-/* Glossary */
-.glossary { border:1px solid var(--border); border-radius:var(--radius); background:#fff; margin-bottom:1rem; }
-.glossary > summary { list-style:none; cursor:pointer; padding:0.8rem 1rem; font-size:0.9rem; font-weight:700; color:var(--accent); display:flex; align-items:center; gap:0.5rem; }
-.glossary > summary::-webkit-details-marker { display:none; }
-.glossary > summary::before { content:"？"; display:inline-flex; align-items:center; justify-content:center; width:20px; height:20px; border-radius:50%; background:var(--accent); color:#fff; font-size:0.72rem; font-weight:700; flex-shrink:0; }
-.glossary[open] > summary { border-bottom:1px solid var(--border); }
-.gloss-body { padding:0.5rem 1rem 1rem; }
-.gloss-item { padding:0.55rem 0; border-bottom:1px solid #f0f0f0; }
-.gloss-item:last-child { border-bottom:none; }
-.gloss-term { font-weight:700; font-size:0.86rem; color:var(--text); }
-.gloss-def { font-size:0.85rem; color:#444; line-height:1.55; margin-top:0.1rem; }
+body {
+  font-family: var(--font-body);
+  color: var(--body);
+  background: var(--bg);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
 
-/* Filters */
-.filters { display:flex; flex-direction:column; gap:0.9rem; margin-bottom:1.25rem; padding:1.1rem; background:var(--hover); border:1px solid var(--border); border-radius:var(--radius); }
-.filter-row { display:flex; align-items:flex-start; gap:0.6rem; flex-wrap:wrap; }
-.filter-label { font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); padding-top:0.5rem; min-width:96px; flex-shrink:0; }
-.chips { display:flex; flex-wrap:wrap; gap:0.4rem; }
-.chip { display:inline-flex; align-items:center; padding:0.32rem 0.72rem; border-radius:20px; border:1.5px solid var(--border); background:#fff; font-size:0.8rem; font-weight:500; color:var(--text); cursor:pointer; transition:all 0.15s; white-space:nowrap; user-select:none; }
-.chip:hover { border-color:#aaa; background:#f5f5f5; }
-.chip.active { background:var(--accent); border-color:var(--accent); color:#fff; }
-.search-wrap { position:relative; flex:1; min-width:200px; max-width:420px; }
-.search-icon { position:absolute; left:0.7rem; top:50%; transform:translateY(-50%); color:var(--muted); pointer-events:none; }
-#search { width:100%; padding:0.5rem 0.75rem 0.5rem 2.2rem; border:1.5px solid var(--border); border-radius:20px; font-size:0.9rem; outline:none; transition:border-color 0.15s; background:#fff; }
-#search:focus { border-color:var(--accent); }
-#clearBtn { padding:0.32rem 0.85rem; border-radius:20px; border:1.5px solid var(--border); background:#fff; font-size:0.8rem; color:var(--muted); cursor:pointer; transition:all 0.15s; align-self:center; }
-#clearBtn:hover { border-color:#aaa; color:var(--text); }
-.country-sel { padding:0.4rem 0.75rem; border:1.5px solid var(--border); border-radius:20px; font-size:0.82rem; font-family:inherit; background:#fff; color:var(--text); cursor:pointer; outline:none; min-width:190px; }
-.country-sel:focus { border-color:var(--accent); }
+/* No horizontal padding: inside the article the iframe is already the width
+   of the prose column, and insetting the tracker further would make it read
+   as a box dropped into the text instead of a continuation of it. The
+   padding comes back above 720px, which only ever happens if someone opens
+   the file directly — the article column never gets that wide. */
+.page { max-width: 900px; margin: 0 auto; padding: 0 0 10px; }
+@media (min-width: 720px) { .page { padding-left: 20px; padding-right: 20px; } }
 
-.count-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:0.85rem; flex-wrap:wrap; gap:0.5rem; }
-.count-badge { font-size:0.85rem; font-weight:600; color:var(--muted); }
-.count-badge span { color:var(--text); font-size:1.05rem; }
-.expand-all { font-size:0.78rem; font-weight:600; color:var(--accent); background:none; border:none; cursor:pointer; padding:0.2rem 0.3rem; }
+/* ── Glossary ──────────────────────────────────────────────────────────
+   Was a rounded white card with a magenta "？" disc. Now a square card
+   under a hairline, opened by a wide-tracked label — the same device the
+   article's own section heads use. */
+.glossary {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  margin-bottom: 1.1rem;
+}
+.glossary > summary {
+  list-style: none; cursor: pointer;
+  padding: 0.8rem 1rem;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.glossary > summary::-webkit-details-marker { display: none; }
+/* A square magenta mark with a plain "+", which rotates to an "×" when open —
+   the round "？" disc was the only circle in a square system. */
+.glossary > summary::before {
+  content: "+"; display: inline-flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px; flex-shrink: 0;
+  background: var(--accent); color: #fff;
+  font-family: var(--font-body); font-size: 13px; font-weight: 700; line-height: 1;
+  transition: transform .2s ease;
+}
+.glossary[open] > summary::before { transform: rotate(45deg); }
+.glossary > summary:hover { color: var(--accent-deep); }
+.glossary > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.glossary[open] > summary { border-bottom: 1px solid var(--line); }
+.gloss-body { padding: 0.4rem 1rem 1rem; }
+.gloss-item { padding: 0.6rem 0; border-bottom: 1px solid var(--line); }
+.gloss-item:last-child { border-bottom: none; }
+.gloss-term { font-weight: 700; font-size: 0.86rem; color: var(--ink); }
+.gloss-def { font-size: 0.85rem; color: var(--body); line-height: 1.6; margin-top: 0.15rem; }
 
-/* Cards */
-.cards-list { display:flex; flex-direction:column; gap:0.85rem; }
-.card { border:1px solid var(--border); border-radius:12px; background:#fff; overflow:hidden; transition:box-shadow 0.15s, border-color 0.15s; }
-.card:hover { border-color:#d5d7db; box-shadow:0 2px 10px rgba(0,0,0,0.04); }
-.card-head { display:flex; align-items:flex-start; gap:0.7rem; padding:0.9rem 1rem; cursor:pointer; }
-.card-head:hover { background:var(--hover); }
-.ch-main { flex:1; min-width:0; }
-.ch-name { font-weight:700; font-size:1rem; line-height:1.3; display:block; }
-.ch-sponsor { font-size:0.8rem; color:var(--muted); margin-top:0.12rem; }
-.ch-badges { display:flex; flex-wrap:wrap; gap:0.35rem; margin-top:0.55rem; }
-.badge { display:inline-flex; align-items:center; padding:0.16rem 0.55rem; border-radius:20px; font-size:0.7rem; font-weight:700; white-space:nowrap; letter-spacing:0.01em; }
-.b-approach { background:var(--a-other-bg); color:var(--a-other); }
-.b-approach.stem{background:var(--a-stem-bg);color:var(--a-stem);}
-.b-approach.encap{background:var(--a-encap-bg);color:var(--a-encap);}
-.b-approach.immuno{background:var(--a-immuno-bg);color:var(--a-immuno);}
-.b-approach.vaccine{background:var(--a-vaccine-bg);color:var(--a-vaccine);}
-.b-approach.preserve{background:var(--a-preserve-bg);color:var(--a-preserve);}
-.b-approach.treg{background:var(--a-preserve-bg);color:var(--a-preserve);}
-.b-approach.islet{background:var(--a-islet-bg);color:var(--a-islet);}
-.b-approach.screen{background:var(--a-screen-bg);color:var(--a-screen);}
-.b-phase { background:#EEF0FF; color:#3A43B0; }
-.b-obs { background:var(--a-screen-bg); color:var(--a-screen); }
-.b-status { border:1px solid var(--border); background:#fff; color:var(--muted); font-weight:600; }
-.b-status.recruiting { background:var(--green-bg); color:var(--green); border-color:transparent; }
-.b-status.approved { background:#fff4d6; color:#8a6400; border-color:transparent; }
-.b-status.unknown { background:#fbeaec; color:#a23; border-color:transparent; }
-.ch-toggle { flex-shrink:0; width:24px; height:24px; display:flex; align-items:center; justify-content:center; color:var(--muted); transition:transform 0.2s; margin-top:0.15rem; }
-.card.open .ch-toggle { transform:rotate(180deg); }
+/* ── Filters ───────────────────────────────────────────────────────────
+   Was a rounded grey card. Now the recessed paper2 panel hanging from a
+   heavy ink rule that OPS-278 gave the other tools' filter bars. */
+.filters {
+  display: flex; flex-direction: column; gap: 0.9rem;
+  margin-bottom: 1.25rem; padding: 1.1rem clamp(12px, 2vw, 18px);
+  background: var(--paper2);
+  border: 0; border-top: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+}
+.filter-row { display: flex; align-items: flex-start; gap: 0.6rem; flex-wrap: wrap; }
+.filter-label {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink);
+  padding-top: 0.62rem; min-width: 96px; flex-shrink: 0;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip {
+  display: inline-flex; align-items: center;
+  padding: 0.34rem 0.78rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--rule);
+  background: var(--card);
+  font-family: var(--font-body); font-size: 0.8rem; font-weight: 600;
+  color: var(--ink); cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+  white-space: nowrap; user-select: none;
+}
+.chip:hover { border-color: var(--ink); background: var(--bg); }
+.chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-.card-body { display:none; padding:0 1rem 1.1rem; border-top:1px solid var(--border); }
-.card.open .card-body { display:block; }
-.timing-line { font-size:0.82rem; color:var(--amber); font-weight:600; padding:0.75rem 0 0.2rem; }
-.field { padding:0.7rem 0 0; }
-.field-label { font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:0.2rem; }
-.field-val { font-size:0.9rem; color:var(--text); line-height:1.6; }
-.meta-line { display:flex; flex-wrap:wrap; gap:0.4rem 1.1rem; padding-top:0.75rem; font-size:0.8rem; color:var(--muted); }
-.meta-line b { color:var(--text); font-weight:600; }
-.proscons { display:grid; grid-template-columns:1fr 1fr; gap:0.7rem; padding-top:0.8rem; }
-.pc-box { border-radius:8px; padding:0.6rem 0.7rem; font-size:0.84rem; line-height:1.5; }
-.pc-pros { background:var(--green-bg); color:#1f5537; }
-.pc-cons { background:var(--amber-bg); color:#7a4a1f; }
-.pc-box .pc-title { font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.25rem; opacity:0.85; }
-.ref-line { display:flex; flex-wrap:wrap; align-items:center; gap:0.5rem; margin-top:0.85rem; padding-top:0.75rem; border-top:1px solid var(--border); }
-.nct-pill { font-size:0.72rem; font-weight:600; background:var(--grey-bg); color:var(--text); padding:0.18rem 0.5rem; border-radius:5px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-.ref-link { font-size:0.82rem; font-weight:600; color:var(--accent); text-decoration:none; }
-.ref-link:hover { text-decoration:underline; }
-.loc-line { font-size:0.78rem; color:var(--muted); }
+/* Search */
+.search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 420px; }
+.search-icon {
+  position: absolute; left: 0.75rem; top: 50%;
+  transform: translateY(-50%); color: var(--muted); pointer-events: none;
+}
+#search {
+  width: 100%; padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.88rem; color: var(--ink);
+  background: var(--card); outline: none; transition: border-color .15s ease;
+  -webkit-appearance: none; appearance: none;
+}
+#search::placeholder { color: var(--muted); }
+#search:focus { border-color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
 
-.no-results { text-align:center; padding:2.5rem 1rem; color:var(--muted); font-size:0.95rem; }
-.footnote { margin-top:1.8rem; padding:1rem 1.15rem; background:var(--hover); border-left:3px solid var(--border); border-radius:0 var(--radius) var(--radius) 0; font-size:0.78rem; color:var(--muted); line-height:1.75; }
+#clearBtn {
+  padding: 0.36rem 0.9rem; border-radius: var(--radius);
+  border: 1px solid var(--rule); background: transparent;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); cursor: pointer; align-self: center;
+  transition: color .15s ease, border-color .15s ease;
+}
+#clearBtn:hover { border-color: var(--ink); color: var(--ink); }
+#clearBtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-@media (max-width:560px) {
-  .filter-label { display:none; }
-  .proscons { grid-template-columns:1fr; }
-  .ch-name { font-size:0.95rem; }
-  .country-sel { width:100%; }
+/* Country dropdown — the one native <select> in the toolset. iOS Safari
+   ignores border-radius, background and padding on a select until
+   -webkit-appearance is cleared, and clearing it also removes the system
+   chevron, so the chevron is drawn back as a background SVG and the right
+   padding is opened up to make room for it. Explicit color + background are
+   required too: without them iOS renders the closed control in its own
+   blue-tinted system style. */
+.country-sel {
+  padding: 0.44rem 2rem 0.44rem 0.75rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+  color: var(--ink); cursor: pointer; outline: none; min-width: 190px;
+  -webkit-appearance: none; -moz-appearance: none; appearance: none;
+  background-color: var(--card);
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20' fill='none' stroke='%235A4152' stroke-width='2.2'%3E%3Cpath d='M5 8l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.65rem center;
+  background-size: 11px 11px;
+  transition: border-color .15s ease;
+}
+.country-sel:hover { border-color: var(--ink); }
+.country-sel:focus { border-color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+.country-sel:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* The dropdown list itself is drawn by the OS; only these two are honoured. */
+.country-sel option { color: var(--ink); background: var(--card); }
+
+/* ── Count bar ─────────────────────────────────────────────────────────── */
+.count-bar {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;
+}
+.count-badge {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+}
+.count-badge span {
+  font-family: var(--font-head); font-size: 1.2rem; font-weight: 400;
+  letter-spacing: 0; color: var(--ink);
+}
+.expand-all {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--accent); background: none; border: 0; cursor: pointer;
+  padding: 0.2rem 0; transition: color .15s ease;
+}
+.expand-all:hover { color: var(--accent-deep); }
+.expand-all:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ── Cards ─────────────────────────────────────────────────────────────
+   The 12px corners and the drop shadow are gone: on paper, a card is a
+   ruled block, not a floating tile. --card keeps it a shade above the
+   ground so the list still reads as a list. */
+.cards-list { display: flex; flex-direction: column; gap: 0.7rem; }
+.card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  overflow: hidden;
+  transition: border-color .15s ease;
+}
+.card:hover { border-color: var(--rule); }
+/* Open cards hang from the heavy ink rule — the section-head device again,
+   so the one you are reading is obvious in a long list. */
+.card.open { border-top: 1.5px solid var(--ink); }
+.card-head { display: flex; align-items: flex-start; gap: 0.7rem; padding: 0.9rem 1rem; cursor: pointer; }
+.card-head:hover { background: var(--bg); }
+.card-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.ch-main { flex: 1; min-width: 0; }
+/* The trial name is the one display-face line in the tracker — Spectral at a
+   light 400, the same face the article's own headings are set in. */
+.ch-name {
+  font-family: var(--font-head); font-weight: 500; font-size: 1.06rem;
+  line-height: 1.25; letter-spacing: -0.015em; color: var(--ink); display: block;
+}
+.ch-sponsor { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; line-height: 1.45; }
+.ch-badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.6rem; }
+.badge {
+  display: inline-flex; align-items: center;
+  padding: 0.18rem 0.5rem; border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.68rem; font-weight: 800;
+  letter-spacing: 0.05em; white-space: nowrap;
+}
+
+/* One ground, eight inks — see the --a-* block above. */
+.b-approach { background: var(--paper2); color: var(--a-other); }
+.b-approach.stem     { color: var(--a-stem); }
+.b-approach.encap    { color: var(--a-encap); }
+.b-approach.immuno   { color: var(--a-immuno); }
+.b-approach.vaccine  { color: var(--a-vaccine); }
+.b-approach.preserve { color: var(--a-preserve); }
+.b-approach.treg     { color: var(--a-preserve); }
+.b-approach.islet    { color: var(--a-islet); }
+.b-approach.screen   { color: var(--a-screen); }
+.b-phase { background: var(--paper2); color: var(--a-phase); }
+.b-obs   { background: var(--paper2); color: var(--a-screen); }
+
+/* Status keeps its own tints — this is the traffic-light column of the card,
+   and flattening it onto paper2 too would lose the one distinction worth
+   seeing at a glance. Each pair is measured. */
+.b-status { border: 1px solid var(--rule); background: var(--card); color: var(--muted); font-weight: 700; }
+.b-status.recruiting { background: var(--green-bg); color: var(--green); border-color: transparent; }
+.b-status.approved   { background: var(--gold-bg);  color: var(--gold);  border-color: transparent; }
+.b-status.unknown    { background: var(--red-bg);   color: var(--red);   border-color: transparent; }
+
+.ch-toggle {
+  flex-shrink: 0; width: 24px; height: 24px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--muted); transition: transform .2s ease, color .15s ease;
+  margin-top: 0.2rem;
+}
+.card-head:hover .ch-toggle { color: var(--accent); }
+.card.open .ch-toggle { transform: rotate(180deg); }
+
+/* ── Card body ─────────────────────────────────────────────────────────── */
+.card-body { display: none; padding: 0 1rem 1.1rem; border-top: 1px solid var(--line); }
+.card.open .card-body { display: block; }
+.timing-line { font-size: 0.82rem; color: var(--amber); font-weight: 700; padding: 0.8rem 0 0.15rem; }
+.field { padding: 0.75rem 0 0; }
+.field-label {
+  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink);
+  margin-bottom: 0.25rem;
+}
+.field-val { font-size: 0.9rem; color: var(--body); line-height: 1.65; }
+.meta-line { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; padding-top: 0.8rem; font-size: 0.8rem; color: var(--muted); }
+.meta-line b { color: var(--ink); font-weight: 700; }
+
+.proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; padding-top: 0.85rem; }
+/* Square, and the tint now carries a 2px edge in its own ink so the two
+   boxes are told apart by more than a pale wash. */
+.pc-box { border-radius: var(--radius); padding: 0.6rem 0.75rem; font-size: 0.84rem; line-height: 1.55; }
+.pc-pros { background: var(--green-bg); color: #1F5537; border-left: 2px solid var(--green); }
+.pc-cons { background: var(--amber-bg); color: #6B3E14; border-left: 2px solid var(--amber); }
+.pc-box .pc-title {
+  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.3rem;
+}
+
+.ref-line {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  margin-top: 0.9rem; padding-top: 0.8rem; border-top: 1px solid var(--line);
+}
+.nct-pill {
+  font-size: 0.72rem; font-weight: 600; background: var(--paper2); color: var(--ink);
+  padding: 0.18rem 0.45rem; border-radius: var(--radius);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.ref-link {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--accent); text-decoration: none; transition: color .15s ease;
+}
+.ref-link:hover { color: var(--accent-deep); text-decoration: underline; }
+.ref-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.loc-line { font-size: 0.78rem; color: var(--muted); }
+
+.no-results { text-align: center; padding: 2.5rem 1rem; color: var(--muted); font-size: 0.95rem; }
+
+/* ── Footnote ──────────────────────────────────────────────────────────
+   Was a tinted callout with a left bar. Now a standfirst under the heavy
+   ink rule, which is how the article sets its own source notes. */
+.footnote {
+  margin-top: 1.8rem; padding: 0.9rem 0 0;
+  background: transparent;
+  border: 0; border-top: 1.5px solid var(--ink);
+  border-radius: 0;
+  font-size: 0.79rem; color: var(--muted); line-height: 1.75;
+}
+.footnote > strong:first-child {
+  display: block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); margin-bottom: 7px;
+}
+.footnote a { color: var(--accent); text-decoration: underline; }
+.footnote a:hover { color: var(--accent-deep); }
+
+/* ── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 560px) {
+  .filter-label { display: none; }
+  .proscons { grid-template-columns: 1fr; }
+  .ch-name { font-size: 1rem; }
+  .country-sel { width: 100%; min-width: 0; }
+  .search-wrap { max-width: none; }
+  /* iOS zooms the whole page in when a focused input is under 16px, and in an
+     iframe that zoom is not something the parent can undo. */
+  #search { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chip, .card, .card-head, .ch-toggle, #search, #clearBtn,
+  .country-sel, .ref-link, .expand-all, .glossary > summary::before { transition: none; }
 }
 </style>
 </head>
@@ -754,9 +1013,21 @@ document.getElementById("expandAll").addEventListener("click", () => {
   render();
 });
 
-/* iframe auto-height handshake with the embedding blog post */
+/* iframe auto-height handshake with the embedding blog post.
+   BlogPostBody.astro listens for this and sets the iframe's height from it.
+   The iframe is scrolling="no", so if the message stops firing the tracker is
+   CLIPPED, not scrollable — every path that changes content height (load, the
+   glossary toggle, each filter, each card expand) has to reach postHeight().
+
+   Measure body, not documentElement.scrollHeight: the height we send back
+   becomes this document's viewport height, and scrollHeight is never smaller
+   than the viewport, so it latched at the tallest value ever reported and the
+   embed could only grow. Collapsing 14 expanded cards left ~9000px of empty
+   paper behind. body's own border box is not floored by the viewport. */
 function postHeight() {
-  try { parent.postMessage({ type:"lf-embed-height", height: document.documentElement.scrollHeight }, "*"); } catch (e) {}
+  try {
+    parent.postMessage({ type: "lf-embed-height", height: Math.ceil(document.body.getBoundingClientRect().height) }, "*");
+  } catch (e) {}
 }
 window.addEventListener("load", postHeight);
 document.querySelector(".glossary").addEventListener("toggle", postHeight);
