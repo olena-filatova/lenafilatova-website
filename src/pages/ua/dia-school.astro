@@ -1,0 +1,20 @@
+---
+// UA is the real Dia.School page — the waitlist (OPS-264). `newsletter={false}`
+// because DiaSchoolBody renders the signup itself, with the waitlist copy and
+// the waitlist tag; two forms would also make the header's #newsletter anchor
+// ambiguous.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DiaSchoolBody from '../../components/DiaSchoolBody.astro';
+import { DIA_SCHOOL } from '../../data/site.js';
+const t = DIA_SCHOOL.ua;
+---
+<BaseLayout
+  lang="ua"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/ua/dia-school"
+  alternates={{ en: "/dia-school", ua: "/ua/dia-school" }}
+  newsletter={false}
+>
+  <DiaSchoolBody lang="ua" />
+</BaseLayout>
