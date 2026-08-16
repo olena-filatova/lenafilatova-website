@@ -5413,6 +5413,10 @@ export const POSTS = [
           "cap": "Filterable tracker of type 1 diabetes cure and disease-modifying trials. Educational only — details change often, so always confirm on the study's official page and with your diabetes team."
         },
         {
+          "t": "p",
+          "text": "The tracker also has [a page of its own](/t1d-cure-trials/), if you would rather open it full width, bookmark it, or send it to someone."
+        },
+        {
           "t": "h",
           "text": "Replacing the cells: the closest thing to a functional cure"
         },
@@ -5604,6 +5608,10 @@ export const POSTS = [
           "title": "Трекер досліджень щодо лікування діабету 1 типу",
           "minHeight": 680,
           "cap": "Трекер із фільтрами досліджень щодо лікування та зміни перебігу діабету 1 типу. Лише для інформації — деталі часто змінюються, тож завжди перевіряйте на офіційній сторінці дослідження та зі своєю діабетичною командою."
+        },
+        {
+          "t": "p",
+          "text": "Трекер має [власну сторінку](/t1d-cure-trials-ua/) — якщо зручніше відкрити його на всю ширину, зберегти в закладки або комусь надіслати."
         },
         {
           "t": "h",
