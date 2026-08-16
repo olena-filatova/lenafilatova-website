@@ -293,31 +293,92 @@ export const HOME = {
   },
 };
 
+// Person claims that go into the homepage @graph. Every line here is a public
+// statement about Lena, so each one is held to what the site itself evidences:
+//   - jobTitle mirrors ABOUT.seoTitle ("writer & coach"). It used to read
+//     "Women's health & nutrition coach" — dropped, because "nutrition coach"
+//     reads as a nutrition qualification and no page claims one. She writes
+//     about food; she is not a nutritionist or dietitian.
+//   - knowsAbout is subject expertise, not credentials, and every entry has
+//     pages behind it: the blog (type 1, perimenopause, insulin resistance),
+//     /recipes/ + the carb/GI table (low-GI eating) and the CGM/AID
+//     comparisons (glucose monitoring).
+// Anything unverifiable — awards, memberships, alumniOf, an Organization node
+// for the School of Diabetes while its relaunch is unsettled — stays out.
+const PERSON = {
+  en: {
+    jobTitle: 'Women’s health coach and writer',
+    description:
+      'Writer and coach on women’s health after 40, living with type 1 diabetes since 2003.',
+    knowsAbout: [
+      'Type 1 diabetes',
+      'Perimenopause',
+      'Insulin resistance',
+      'Low-glycaemic eating',
+      'Continuous glucose monitoring',
+      'Women’s health after 40',
+    ],
+  },
+  ua: {
+    jobTitle: 'Коуч із жіночого здоров’я та авторка',
+    description:
+      'Авторка та коуч із жіночого здоров’я після 40, живе з діабетом 1 типу з 2003 року.',
+    knowsAbout: [
+      'Діабет 1 типу',
+      'Перименопауза',
+      'Інсулінорезистентність',
+      'Харчування з низьким глікемічним індексом',
+      'Безперервний моніторинг глюкози',
+      'Жіноче здоров’я після 40',
+    ],
+  },
+};
+
 // Homepage structured data — a WebSite + Person @graph. Uses the live absolute
 // domain because JSON-LD @ids must be stable canonical URLs, not base-relative.
 export function homeJsonLd(lang = 'en') {
   const SITE = 'https://lenafilatova.co.uk';
+  const base = lang === 'ua' ? '/ua/' : '/';
   const t = HOME[lang];
+  const p = PERSON[lang];
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
+        // Language-specific @id: the two homepages are different documents with
+        // different urls, so they must not both claim the same node.
         '@type': 'WebSite',
-        '@id': `${SITE}/#website`,
-        url: lang === 'ua' ? `${SITE}/ua/` : `${SITE}/`,
+        '@id': `${SITE}${base}#website`,
+        url: `${SITE}${base}`,
         name: 'Lena Filatova',
         description: t.seoDesc,
         inLanguage: lang === 'ua' ? 'uk' : 'en',
         publisher: { '@id': `${SITE}/#person` },
+        // Declares how to query the site search added in OPS-288. Google
+        // retired the sitelinks search box rich result in Nov 2024, so this
+        // renders nothing in Google — it is only a machine-readable hint for
+        // other engines and AI crawlers. /search/ is noindex, which is fine:
+        // this describes how to run a query, not a page to index.
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: `${SITE}${base}search/?q={search_term_string}`,
+          },
+          'query-input': 'required name=search_term_string',
+        },
       },
       {
+        // One person, one @id across both languages — only the human-readable
+        // fields are localised, so the two pages never disagree on a URL.
         '@type': 'Person',
         '@id': `${SITE}/#person`,
         name: 'Lena Filatova',
         url: `${SITE}/`,
-        description: t.seoDesc,
-        jobTitle: lang === 'ua' ? 'Коуч із жіночого здоров’я та харчування' : "Women's health & nutrition coach",
-        knowsAbout: ['Type 1 diabetes', 'Perimenopause', 'Insulin resistance', 'Nutrition', "Women's health after 40"],
+        image: `${SITE}/images/lena-filatova-author.jpg`,
+        description: p.description,
+        jobTitle: p.jobTitle,
+        knowsAbout: p.knowsAbout,
         sameAs: SOCIALS.map((s) => s.href),
       },
     ],

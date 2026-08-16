@@ -1,11 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomeBody from '../components/HomeBody.astro';
-import { HOME } from '../data/site.js';
+import { HOME, homeJsonLd } from '../data/site.js';
 const t = HOME.en;
 ---
 <!-- newsletter={false}: HomeBody renders its own signup section in the page
      flow, so BaseLayout skips the above-footer band (one #newsletter per page). -->
-<BaseLayout lang="en" title={t.seoTitle} description={t.seoDesc} canonical="/" alternates={{ en: "/", ua: "/ua/" }} revealOnScroll newsletter={false}>
+<BaseLayout lang="en" title={t.seoTitle} description={t.seoDesc} canonical="/" alternates={{ en: "/", ua: "/ua/" }} jsonld={homeJsonLd('en')} revealOnScroll newsletter={false}>
   <HomeBody lang="en" />
 </BaseLayout>
