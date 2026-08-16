@@ -30,10 +30,11 @@ The 5 flows are Active but **cannot fire**. Three separate gaps:
    **This is the only item on the critical path to closing us19 before 6 Sep.**
 2. **Compare merge field is empty in us11.** The field exists (column visible on the
    Contacts table) but no contact has a value — the Compare column wasn't mapped on import.
-   Values still available in `OPS-218-us19-contacts-export.csv`:
-   - `alex@alexfilatov.com` → `MiniMed Flex | Accu-Chek Solo | Omnipod 5`
-   - `pr@lenafilatova.com` → `Omnipod 5 | Tandem t:slim X2 | iLet Bionic Pancreas | MiniMed 780G`
-   Until re-imported, `*|COMPARE|*` renders blank.
+   Values are recoverable by re-exporting the audience from us19 (Mailchimp →
+   Audience → Export). The old `OPS-218-us19-contacts-export.csv` was removed from
+   this repo (OPS-271) — it was a subscriber contact export and did not belong in a
+   public repo. Do not re-commit an export here; keep it in Mailchimp or local only.
+   Until Compare is re-imported, `*|COMPARE|*` renders blank.
 3. **The comparison capture no longer exists on the site.** `/aid-comparison` (repo AND live)
    is filters + table only — no email field, no shortlist selection, no post to the relay.
    That capture lived on the old Divhunt site and wasn't carried into the Astro rebuild.

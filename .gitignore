@@ -3,3 +3,10 @@ dist/
 .astro/
 .DS_Store
 old-site-media/
+
+# Throwaway design mockups — keep them local, they are not part of the site
+mockup-*.html
+
+# Contact / subscriber exports must never be committed: this repo is public
+*-contacts-export.csv
+*-subscribers*.csv
