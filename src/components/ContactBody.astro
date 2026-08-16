@@ -1,61 +1,86 @@
 ---
+// Contact — the editorial system (OPS-277).
+//
+// Was: the shared `.hero` two-column layout, a bordered info box, steps in
+// circular numbered bubbles, pill-tray tabs, and a drop-shadowed rounded card.
+//
+// Now: masthead + hairline, the steps as a numbered editorial list (the device
+// the homepage and resources hub use for ordered things), and the tabs as text
+// filters with an active underline — the same treatment OPS-274 gave the blog
+// categories, so a "pick one of these" control looks the same site-wide.
+//
+// The booking panel is a Google Calendar appointment scheduler in an iframe:
+// its interior is Google's and cannot be styled from here, so the editorial
+// work is all *around* it — the frame, the heading and the well it sits in.
 import { BOOKING_EMBED } from '../data/site.js';
 const { c } = Astro.props;
 ---
-<section class="hero contact">
-  <div class="wrap grid">
-    <div class="col-left">
-      <p class="kicker">{c.kicker}</p>
-      <h1>{c.h1}</h1>
-      <p class="lead">{c.lead}</p>
+<section class="ct-head">
+  <div class="wrap">
+    <p class="est"><span class="est-label">{c.kicker}</span><span class="est-rule"></span></p>
+    <div class="ct-lay">
+      <div class="ct-left">
+        <h1>{c.h1}</h1>
+        <p class="ct-lede">{c.lead}</p>
 
-      <div class="notice">{c.disclaimer}</div>
+        {/* Not a boxed warning any more — the rule-and-indent device the
+            homepage uses for its own medical disclaimer. */}
+        <p class="ct-note">{c.disclaimer}</p>
 
-      <h2 class="steps-title">{c.stepsTitle}</h2>
-      <ol class="steps-list">
-        {c.steps.map((s, i) => (
-          <li>
-            <span class="num">{i + 1}</span>
-            <div><strong>{s.h}</strong><p>{s.p}</p></div>
-          </li>
-        ))}
-      </ol>
-
-      <p class="reach">{c.instagram} <a href="https://www.instagram.com/lena.filatova/">@lena.filatova</a></p>
-      <p class="reach">{c.emailLabel} <a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a></p>
-    </div>
-
-    <div class="col-right">
-      <div class="contact-card">
-        <div class="tabs" role="tablist">
-          <button class="tab" data-tab="call" aria-selected="false">{c.tabCall}</button>
-          <button class="tab is-active" data-tab="msg" aria-selected="true">{c.tabMsg}</button>
+        <div class="ct-sec-head">
+          <span class="nm">{c.stepsTitle}</span>
+          <span class="ct-count">{String(c.steps.length).padStart(2, '0')}</span>
         </div>
+        <ol class="ct-steps">
+          {c.steps.map((s, i) => (
+            <li>
+              <span class="n">{String(i + 1).padStart(2, '0')}</span>
+              <div><h2>{s.h}</h2><p>{s.p}</p></div>
+            </li>
+          ))}
+        </ol>
 
-        <div class="panel" data-panel="call" hidden>
-          <h3 class="call-heading">{c.callHeading}</h3>
-          <iframe src={BOOKING_EMBED} title={c.callHeading} loading="lazy" style="border:0" width="100%" height="600"></iframe>
-        </div>
+        <p class="ct-reach">{c.instagram} <a href="https://www.instagram.com/lena.filatova/">@lena.filatova</a></p>
+        <p class="ct-reach">{c.emailLabel} <a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a></p>
+      </div>
 
-        <div class="panel" data-panel="msg">
-          <!-- Posts to the Google Apps Script that emails Lena (type=message).
-               The endpoint is set by form-guard.js at runtime rather than being
-               written into the HTML, so scrapers can't harvest it (OPS-235). -->
-          <form class="cform" method="post">
-            <input type="hidden" name="type" value="message" />
-            <label>{c.fName}<input type="text" name="name" required /></label>
-            <label>{c.fEmail}<input type="email" name="email" required /></label>
-            <label>{c.fMsg}<textarea name="message" rows="5" required></textarea></label>
-            <!-- Honeypot: off-screen, unfocusable, hidden from assistive tech.
-                 Only a bot filling every input will put anything in it. -->
-            <div class="hp-field" aria-hidden="true">
-              <label for="cf-website">{c.fTrap}</label>
-              <input type="text" id="cf-website" name="website" tabindex="-1" autocomplete="off" />
+      <div class="ct-right">
+        <div class="contact-card">
+          {/* role="tab"/"tabpanel" and the id wiring were missing — the buttons
+              carried aria-selected with no tab role to hang it on. The JS below
+              is unchanged: it still keys off .tab / data-tab / .is-active. */}
+          <div class="tabs" role="tablist">
+            <button class="tab" data-tab="call" id="tab-call" role="tab" aria-controls="panel-call" aria-selected="false">{c.tabCall}</button>
+            <button class="tab is-active" data-tab="msg" id="tab-msg" role="tab" aria-controls="panel-msg" aria-selected="true">{c.tabMsg}</button>
+          </div>
+
+          <div class="panel" data-panel="call" id="panel-call" role="tabpanel" aria-labelledby="tab-call" hidden>
+            <h3 class="call-heading">{c.callHeading}</h3>
+            <div class="booking-well">
+              <iframe src={BOOKING_EMBED} title={c.callHeading} loading="lazy" style="border:0" width="100%" height="600"></iframe>
             </div>
-            <button type="submit" class="btn full">{c.fSubmit}</button>
-          </form>
-          <p class="form-sent" hidden>{c.fSent}</p>
-          <noscript><p class="form-noscript">{c.fNoScript} <a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a></p></noscript>
+          </div>
+
+          <div class="panel" data-panel="msg" id="panel-msg" role="tabpanel" aria-labelledby="tab-msg">
+            <!-- Posts to the Google Apps Script that emails Lena (type=message).
+                 The endpoint is set by form-guard.js at runtime rather than being
+                 written into the HTML, so scrapers can't harvest it (OPS-235). -->
+            <form class="cform" method="post">
+              <input type="hidden" name="type" value="message" />
+              <label>{c.fName}<input type="text" name="name" required /></label>
+              <label>{c.fEmail}<input type="email" name="email" required /></label>
+              <label>{c.fMsg}<textarea name="message" rows="5" required></textarea></label>
+              <!-- Honeypot: off-screen, unfocusable, hidden from assistive tech.
+                   Only a bot filling every input will put anything in it. -->
+              <div class="hp-field" aria-hidden="true">
+                <label for="cf-website">{c.fTrap}</label>
+                <input type="text" id="cf-website" name="website" tabindex="-1" autocomplete="off" />
+              </div>
+              <button type="submit" class="btn full">{c.fSubmit}</button>
+            </form>
+            <p class="form-sent" hidden>{c.fSent}</p>
+            <noscript><p class="form-noscript">{c.fNoScript} <a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a></p></noscript>
+          </div>
         </div>
       </div>
     </div>

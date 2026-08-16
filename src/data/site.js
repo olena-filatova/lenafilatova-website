@@ -34,17 +34,23 @@ export const ABOUT = {
     kicker: 'About',
     h1: 'Hi, I’m Lena.',
     lead: 'I’ve lived with type 1 diabetes since 2003 — and spent those years learning what almost no one explains: how diabetes, insulin resistance and perimenopause collide for women over 40. My work is to make that clearer, and help you feel like yourself again.',
+    // The first three numbers are the homepage's trust band verbatim (HOME.trust),
+    // so the two pages state the same credentials — they had drifted to
+    // "Hundreds" and "dia.school" here (OPS-277). The fourth is About-only: the
+    // homepage uses that slot for "Recommended by clinicians" instead.
     stats: [
       { n: '23 years', l: 'living with type 1 diabetes' },
-      { n: 'Founder', l: 'dia.school — online school of diabetes' },
-      { n: 'Hundreds', l: 'supported via webinars & programmes' },
+      { n: '1200+', l: 'women & families supported through coaching, webinars & programmes' },
+      { n: 'Founder', l: 'of the School of Diabetes, and co-founder of AI-powered health & wellness solutions' },
       { n: '2022', l: 'humanitarian mission for Ukraine' },
     ],
+    storyLabel: 'The story',
     story: [
       'I was diagnosed with type 1 diabetes in 2003. More than twenty years of managing it every single day taught me what actually works when a chronic condition is part of ordinary life — and how much steadier you feel once fear gives way to understanding.',
-      'I’ve hosted webinars and led wellness programmes on living well with diabetes, and founded dia.school — an online school of diabetes — to bring that knowledge to more people. Between the school and my programmes I’ve supported hundreds in taking calm, confident control of their health.',
+      'I’ve hosted webinars and led wellness programmes on living well with diabetes, and founded the School of Diabetes — an online school — to bring that knowledge to more people. Between the school and my programmes I’ve supported more than 1,200 women and families in taking calm, confident control of their health, and I now co-found AI-powered health and wellness products built on the same thinking.',
       'During the full-scale invasion of Ukraine in 2022, I joined a humanitarian mission supplying Ukrainians with vital diabetic supplies — coordinating resources and support for people who suddenly had none. Today I bring that same practical, no-panic approach to helping women over 40 feel strong through every change.',
     ],
+    valuesLabel: 'How I work',
     values: [
       { h: 'Evidence first', p: 'Guidance grounded in research, not trends or quick fixes.' },
       { h: 'Realistic', p: 'Plans built around your actual time, not an ideal week.' },
@@ -61,17 +67,20 @@ export const ABOUT = {
     kicker: 'Про мене',
     h1: 'Привіт, я Лена.',
     lead: 'Я живу з діабетом 1 типу з 2003 року — і всі ці роки допомагаю іншим жити з ним повноцінно. Усе, чого я навчаю, — з реального досвіду, а не з теорії.',
+    // Same three numbers as HOME.trust — see the EN note above.
     stats: [
       { n: '23 роки', l: 'життя з діабетом 1 типу' },
-      { n: 'Засновниця', l: 'dia.school — онлайн-школа діабету' },
-      { n: 'Сотні', l: 'підтримані через вебінари та програми' },
+      { n: '1200+', l: 'жінок і родин підтримано через коучинг, вебінари та програми' },
+      { n: 'Засновниця', l: 'Школи діабету та співзасновниця продуктів для здоров’я й велнесу на основі AI' },
       { n: '2022', l: 'гуманітарна місія для України' },
     ],
+    storyLabel: 'Історія',
     story: [
       'Мені діагностували діабет 1 типу у 2003 році. Понад двадцять років щоденного контролю навчили мене, що справді працює, коли хронічний стан — частина звичайного життя, і наскільки спокійніше стає, коли страх поступається розумінню.',
-      'Я проводила вебінари та вела велнес-програми про життя з діабетом і заснувала dia.school — онлайн-школу діабету, щоб донести ці знання ширше. Через школу та програми я підтримала сотні людей у спокійному та впевненому контролі свого здоров’я.',
+      'Я проводила вебінари та вела велнес-програми про життя з діабетом і заснувала Школу діабету — онлайн-школу, щоб донести ці знання ширше. Через школу та програми я підтримала понад 1200 жінок і родин у спокійному та впевненому контролі свого здоров’я, а сьогодні є співзасновницею продуктів для здоров’я й велнесу на основі AI, побудованих на тому самому підході.',
       'Під час повномасштабного вторгнення в Україну у 2022 році я долучилася до гуманітарної місії з постачання українцям життєво важливих діабетичних засобів — координувала ресурси та підтримку для тих, хто раптово залишився без них. Сьогодні я застосовую цей самий практичний підхід без паніки, щоб допомагати жінкам після 40 бути сильними у кожній зміні.',
     ],
+    valuesLabel: 'Як я працюю',
     values: [
       { h: 'Спершу докази', p: 'Поради, засновані на дослідженнях, а не на трендах.' },
       { h: 'Реалістично', p: 'Плани навколо вашого реального часу, а не ідеального тижня.' },
