@@ -150,91 +150,370 @@
 }
 </style>
 <style>
+/* ── The editorial system, applied by hand (OPS-278) ────────────────────
+   This page is a standalone file in public/, outside the Astro bundle, so it
+   cannot import src/styles/global.css — the tokens below are that file's
+   :root, copied. Keep the two in step.
+
+   What changed: the cool interface greys this tool was built on (#1a1a1a ink,
+   #e5e7eb borders, #f9fafb panels, white ground) read as a different site
+   sitting inside this one once the pages around it turned to warm paper. Same
+   controls, same table, same behaviour — the palette, the corners and the
+   display face are now the site's. */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 :root {
-  --green:#2F7A52; --green-bg:#e9f5f0; --amber:#B26A34; --amber-bg:#fff3e0;
-  --grey:#666; --grey-bg:#f2f2f2; --text:#1a1a1a; --muted:#6b7280;
-  --border:#e5e7eb; --hover:#f9fafb; --accent:#B23A63; --radius:8px;
-  --b-insulet: #0F7B6C;  --b-insulet-bg: #E4F3F0;
-  --b-tandem: #005FCC;  --b-tandem-bg: #EAF1FC;
-  --b-medtronic: #7B1D51;  --b-medtronic-bg: #F5E8F0;
-  --b-beta: #5A3FA0;  --b-beta-bg: #EEEAF8;
-  --b-sequel: #B26A34;  --b-sequel-bg: #FBEEE1;
-  --b-ypsomed: #0E6699;  --b-ypsomed-bg: #E5F1F8;
-  --b-diabeloop: #1B7B5E;  --b-diabeloop-bg: #E5F4EE;
-  --b-sooil: #8E3A1E;  --b-sooil-bg: #F8ECE7;
-  --b-roche: #1B5E9B;  --b-roche-bg: #E6EEF7;
-  --b-luna: #A0206A;  --b-luna-bg: #FBE9F3;
+  --accent:      #B23A63;   /* brand magenta — unchanged, it carries recognition */
+  --accent-deep: #7C2144;
+  --ink:         #2A1424;
+  --body:        #4A3644;
+  --muted:       #5A4152;
+  --bg:          #F5EFE8;   /* warm paper — the page ground */
+  --paper2:      #EFE6DC;   /* recessed band: filter panel, table head, footnote */
+  --card:        #FFFCF7;   /* the table's own ground, a shade above the paper */
+  --line:        rgba(42, 20, 36, 0.10);   /* hairline: row rules, control edges */
+  --rule:        rgba(42, 20, 36, 0.18);   /* heavier rule: section tops, dividers */
+  --hover:       #F7F1E9;   /* row hover — one step down from the card.
+                               Opaque on purpose: the sticky first column paints
+                               its own background, and a translucent hover would
+                               show the scrolled-under cells through it. */
+  --radius:      0;         /* the system is square */
+  --font-head:   'Spectral', Georgia, serif;
+  --font-body:   'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Semantic scale, re-mixed for the warm paper. Every ink below clears 4.5:1
+     on its own tint and on the card, so the badges stay readable at 12px. */
+  --green: #26654A;  --green-bg: #E3EDE5;
+  --amber: #8A4B18;  --amber-bg: #F4E7D6;
+  --red:   #9E2626;  --red-bg:   #F6E2DF;
+  --grey:  #5A4152;  --grey-bg:  #EFE6DC;
 }
-body { font-family:'Manrope',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; color:var(--text); background:#fff; font-size:15px; line-height:1.5; }
-.page { max-width:100%; margin:0; padding:16px clamp(18px,3.5vw,40px) 28px; }
-.filters { display:flex; flex-direction:column; gap:1rem; margin-bottom:1.5rem; padding:1.25rem; background:var(--hover); border:1px solid var(--border); border-radius:var(--radius); }
-.filter-row { display:flex; align-items:flex-start; gap:0.75rem; flex-wrap:wrap; }
-.filter-label { font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); padding-top:0.45rem; min-width:90px; flex-shrink:0; }
-.chips { display:flex; flex-wrap:wrap; gap:0.4rem; }
-.chip { display:inline-flex; align-items:center; padding:0.3rem 0.75rem; border-radius:20px; border:1.5px solid var(--border); background:#fff; font-size:0.82rem; font-weight:500; color:var(--text); cursor:pointer; transition:all 0.15s; white-space:nowrap; user-select:none; }
-.chip:hover { border-color:#aaa; background:#f5f5f5; }
-.chip.active { background:var(--accent); border-color:var(--accent); color:#fff; }
-.search-wrap { position:relative; flex:1; min-width:200px; max-width:360px; }
-.search-icon { position:absolute; left:0.7rem; top:50%; transform:translateY(-50%); color:var(--muted); pointer-events:none; }
-#search { width:100%; padding:0.45rem 0.75rem 0.45rem 2.2rem; border:1.5px solid var(--border); border-radius:20px; font-size:0.88rem; outline:none; transition:border-color 0.15s; background:#fff; }
-#search:focus { border-color:var(--accent); }
-#clearBtn { padding:0.3rem 0.85rem; border-radius:20px; border:1.5px solid var(--border); background:#fff; font-size:0.82rem; color:var(--muted); cursor:pointer; transition:all 0.15s; align-self:center; }
-#clearBtn:hover { border-color:#aaa; color:var(--text); }
-.count-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:0.85rem; margin-top:0.25rem; flex-wrap:wrap; gap:0.5rem; }
-.count-badge { font-size:0.88rem; font-weight:600; color:var(--muted); }
-.count-badge span { color:var(--text); font-size:1.05rem; }
-.table-scroll { overflow:auto; max-height:640px; border:1px solid var(--border); border-radius:var(--radius); }
-table { width:100%; border-collapse:separate; border-spacing:0; min-width:820px; } /* separate: Safari can't stick cells in a collapsed table */
-thead th { position:-webkit-sticky; position:sticky; top:0; z-index:5; background:var(--hover); padding:0.55rem 0.7rem; text-align:left; font-size:0.68rem; font-weight:700; color:var(--muted); letter-spacing:0.06em; text-transform:uppercase; border-bottom:1.5px solid var(--border); box-shadow:inset 0 -1.5px 0 var(--border); white-space:nowrap; }
-tbody tr { transition:background 0.1s; }
-tbody td { border-bottom:1px solid var(--border); }
-tbody tr:last-child td { border-bottom:none; }
-tbody tr:hover { background:var(--hover); }
-tbody tr.pipeline-row { background:#fffef5; }
-tbody tr.pipeline-row:hover { background:#fffbea; }
-tbody tr.section-header td { background:#fffbf0; border-top:2px solid #e6c85a; padding:0.45rem 0.85rem; font-size:0.7rem; font-weight:700; color:#92680a; letter-spacing:0.07em; text-transform:uppercase; }
-td { padding:0.55rem 0.7rem; font-size:0.82rem; vertical-align:middle; }
-/* Sticky first column — keeps the device name visible while scrolling sideways */
-thead th:first-child { left:0; z-index:6; border-right:1px solid var(--border); }
-tbody td:first-child { position:-webkit-sticky; position:sticky; left:0; z-index:1; background:#fff; border-right:1px solid var(--border); }
-tbody tr:hover td:first-child { background:var(--hover); }
-tbody tr.pipeline-row td:first-child { background:#fffef5; }
-tbody tr.pipeline-row:hover td:first-child { background:#fffbea; }
-tbody tr.section-header td { position:static; border-right:none; }
-.section-label { position:-webkit-sticky; position:sticky; left:0.85rem; display:inline-block; }
-.dev-name { font-weight:600; font-size:0.88rem; display:block; line-height:1.3; }
-.brand-tag { display:inline-block; font-size:0.64rem; font-weight:700; border-radius:4px; padding:0.1rem 0.38rem; margin-top:0.22rem; letter-spacing:0.02em; white-space:nowrap; }
-.bt-insulet { background: var(--b-insulet-bg); color: var(--b-insulet); }
-.bt-tandem { background: var(--b-tandem-bg); color: var(--b-tandem); }
-.bt-medtronic { background: var(--b-medtronic-bg); color: var(--b-medtronic); }
-.bt-beta { background: var(--b-beta-bg); color: var(--b-beta); }
-.bt-sequel { background: var(--b-sequel-bg); color: var(--b-sequel); }
-.bt-ypsomed { background: var(--b-ypsomed-bg); color: var(--b-ypsomed); }
-.bt-diabeloop { background: var(--b-diabeloop-bg); color: var(--b-diabeloop); }
-.bt-sooil { background: var(--b-sooil-bg); color: var(--b-sooil); }
-.bt-roche { background: var(--b-roche-bg); color: var(--b-roche); }
-.bt-luna { background: var(--b-luna-bg); color: var(--b-luna); }
-.pipeline-badge { display:inline-flex; align-items:center; font-size:0.66rem; font-weight:600; background:#fff8e0; color:#92680a; border:1px solid #e6c85a; border-radius:4px; padding:0.1rem 0.38rem; margin-top:0.22rem; }
-.badge { display:inline-flex; align-items:center; padding:0.18rem 0.5rem; border-radius:20px; font-size:0.73rem; font-weight:700; white-space:nowrap; }
-.type-patch { background:var(--grey-bg); color:var(--grey); }
-.type-tubed { background:#EAF1FC; color:#005FCC; }
-.aid-closed { display:inline-flex; align-items:center; gap:0.25rem; font-size:0.8rem; font-weight:600; color:var(--green); }
-.aid-open { font-size:0.78rem; color:var(--muted); font-style:italic; }
-.cgm-cell { font-size:0.78rem; color:var(--text); line-height:1.5; }
-.avail { display:flex; flex-wrap:wrap; gap:0.22rem; }
-.flag-pill { font-size:0.68rem; padding:0.08rem 0.38rem; border:1px solid var(--border); border-radius:4px; background:#fff; white-space:nowrap; line-height:1.4; }
-.no-results { text-align:center; padding:3rem 1rem; color:var(--muted); font-size:0.95rem; }
-.footnote { margin-top:2rem; padding:1rem 1.25rem; background:var(--hover); border-left:3px solid var(--border); border-radius:0 var(--radius) var(--radius) 0; font-size:0.78rem; color:var(--muted); line-height:1.75; }
-@media (max-width:640px) {
-  .filter-label { display:none; }
-  .count-bar { flex-direction:column; align-items:flex-start; }
-  thead th:first-child, tbody td:first-child { width:40vw; min-width:40vw; max-width:40vw; white-space:normal; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--body);
+  background: var(--bg);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Masthead ──────────────────────────────────────────────────────────
+   These pages are one click from the homepage tools list, and until now they
+   opened on a bare filter bar — no brand, no title, no way back. The masthead
+   is the site's own: serif wordmark, the magenta disc, and the .est
+   label-and-hairline device the hubs open with. */
+.tool-head { background: var(--bg); border-bottom: 1px solid var(--rule); }
+.tool-head .in {
+  max-width: 1120px; margin: 0 auto;
+  padding: 0 clamp(18px, 3.5vw, 40px);
+  display: flex; align-items: center; gap: 18px; min-height: 62px;
+}
+.brand {
+  display: flex; align-items: center; gap: 11px;
+  font-family: var(--font-head); font-weight: 500; font-size: 19px;
+  letter-spacing: -0.02em; color: var(--ink); text-decoration: none;
+}
+/* The mark stays a magenta disc — the logo, and the one round thing the square
+   system keeps on purpose. */
+.brand .mark {
+  flex: none; width: 34px; height: 34px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-style: italic; font-size: 15px;
+}
+.back-link {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; transition: color .2s ease;
+}
+.back-link:hover { color: var(--accent); }
+.back-link:focus-visible,
+.brand:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* ── Page + title ──────────────────────────────────────────────────────── */
+.page { max-width: 1120px; margin: 0 auto; padding: 0 clamp(18px, 3.5vw, 40px) 56px; }
+.page-header { padding-top: 30px; margin-bottom: 26px; }
+.est { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; }
+.est-label {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent);
+}
+.est-rule { flex: 1; height: 1px; background: var(--rule); }
+h1 {
+  font-family: var(--font-head); font-weight: 400;
+  font-size: clamp(28px, 4.2vw, 40px); line-height: 1.08;
+  letter-spacing: -0.025em; color: var(--ink);
+  max-width: 20ch; text-wrap: balance;
+}
+.description {
+  font-family: var(--font-head); font-weight: 300; font-size: 17px; line-height: 1.5;
+  color: var(--muted); max-width: 58ch; margin-top: 14px;
+}
+
+/* ── Filters ───────────────────────────────────────────────────────────
+   Was a rounded grey card. Now a recessed paper2 panel hanging from a heavy
+   ink rule — the .fk section-head device the hubs use, square, no shadow. */
+.filters {
+  display: flex; flex-direction: column; gap: 1rem;
+  margin-bottom: 1.5rem; padding: 1.15rem clamp(14px, 2vw, 20px);
+  background: var(--paper2);
+  border: 0; border-top: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+}
+.filter-row { display: flex; align-items: flex-start; gap: 0.75rem; flex-wrap: wrap; }
+.filter-label {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink);
+  padding-top: 0.6rem; flex-shrink: 0;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip {
+  display: inline-flex; align-items: center; gap: 0.25rem;
+  padding: 0.34rem 0.8rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--rule);
+  background: var(--card);
+  font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+  color: var(--ink); cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+  white-space: nowrap; user-select: none;
+}
+.chip:hover { border-color: var(--ink); background: var(--bg); }
+.chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Search */
+.search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 360px; }
+.search-icon {
+  position: absolute; left: 0.75rem; top: 50%;
+  transform: translateY(-50%); color: var(--muted); pointer-events: none;
+}
+#search {
+  width: 100%; padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.88rem; color: var(--ink);
+  background: var(--card); outline: none; transition: border-color .15s ease;
+}
+#search::placeholder { color: var(--muted); }
+#search:focus { border-color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+
+#clearBtn {
+  padding: 0.34rem 0.9rem; border-radius: var(--radius);
+  border: 1px solid var(--rule); background: transparent;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); cursor: pointer; align-self: center;
+  transition: color .15s ease, border-color .15s ease;
+}
+#clearBtn:hover { border-color: var(--ink); color: var(--ink); }
+#clearBtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ── Count bar + legend ────────────────────────────────────────────────── */
+.count-bar {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 0.9rem; flex-wrap: wrap; gap: 0.5rem;
+}
+.count-badge {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+}
+.count-badge span { font-family: var(--font-head); font-size: 1.15rem; font-weight: 400; letter-spacing: 0; color: var(--ink); }
+.legend { display: flex; flex-wrap: wrap; gap: 0.85rem; font-size: 0.78rem; color: var(--muted); }
+.leg { display: flex; align-items: center; gap: 0.35rem; }
+/* Square swatch, not a dot — the same mark the resources index puts on a
+   subject label. */
+.dot { width: 8px; height: 8px; border-radius: 0; flex-shrink: 0; }
+
+/* ── Manufacturer colours ──────────────────────────────────────────────
+   Kept, because they are how you find your own pump in a long table — but the
+   pale cool tints each one carried (#E4F3F0, #EAF1FC, …) were ten extra
+   backgrounds fighting the paper. The tag ground is now the single --paper2,
+   and the colour survives as the ink on it. Insulet, Sequel and Diabeloop were
+   darkened to clear 4.5:1 there. */
+:root {
+  --b-insulet:   #0D6C5F;
+  --b-tandem:    #005FCC;
+  --b-medtronic: #7B1D51;
+  --b-beta:      #5A3FA0;
+  --b-sequel:    #8A4F1F;
+  --b-ypsomed:   #0E6699;
+  --b-diabeloop: #186B52;
+  --b-sooil:     #8E3A1E;
+  --b-roche:     #1B5E9B;
+  --b-luna:      #A0206A;
+}
+
+/* ── Table ─────────────────────────────────────────────────────────────
+   DO NOT switch to border-collapse: collapse. Safari cannot make a cell
+   sticky inside a collapsed table, and the sticky first column below is the
+   whole reason this table works on a phone. It has been broken once already. */
+.table-scroll {
+  overflow: auto; max-height: 640px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+table {
+  width: 100%;
+  border-collapse: separate;   /* Safari can't stick cells in a collapsed table */
+  border-spacing: 0;
+  min-width: 820px;
+}
+
+thead th {
+  position: -webkit-sticky; position: sticky; top: 0; z-index: 5;
+  background: var(--paper2);
+  padding: 0.6rem 0.7rem; text-align: left;
+  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink);
+  border-bottom: 0;
+  box-shadow: inset 0 -1px 0 var(--ink);
+  white-space: nowrap;
+}
+
+tbody tr { transition: background .1s ease; }
+tbody td { border-bottom: 1px solid var(--line); }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: var(--hover); }
+
+/* Not-yet-released systems sit on the paper rather than the card — a step back
+   from the shipping rows, where the pale yellow used to do the job. */
+tbody tr.pipeline-row { background: var(--bg); }
+tbody tr.pipeline-row:hover { background: var(--paper2); }
+
+/* Section break: the heavy ink rule and wide-tracked label the hubs use. */
+tbody tr.section-header td {
+  background: var(--paper2);
+  border-top: 1.5px solid var(--ink);
+  padding: 0.5rem 0.85rem;
+  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink);
+}
+
+td { padding: 0.6rem 0.7rem; font-size: 0.82rem; color: var(--body); vertical-align: middle; }
+
+/* Sticky first column — keeps the device name visible while scrolling
+   sideways. Every variant's background must stay opaque, or the cells
+   scrolling underneath show through it. */
+thead th:first-child { left: 0; z-index: 6; border-right: 1px solid var(--rule); }
+tbody td:first-child {
+  position: -webkit-sticky; position: sticky; left: 0; z-index: 1;
+  background: var(--card);
+  border-right: 1px solid var(--rule);
+}
+tbody tr:hover td:first-child { background: var(--hover); }
+tbody tr.pipeline-row td:first-child { background: var(--bg); }
+tbody tr.pipeline-row:hover td:first-child { background: var(--paper2); }
+tbody tr.section-header td { position: static; border-right: none; }
+.section-label { position: -webkit-sticky; position: sticky; left: 0.85rem; display: inline-block; }
+
+/* Device cell */
+.dev-name { font-weight: 600; font-size: 0.88rem; color: var(--ink); display: block; line-height: 1.3; }
+.brand-tag {
+  display: inline-block; font-family: var(--font-body);
+  font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em;
+  text-transform: uppercase; border-radius: var(--radius);
+  padding: 0.14rem 0.4rem; margin-top: 0.28rem;
+  background: var(--paper2); white-space: nowrap;
+}
+.bt-insulet   { color: var(--b-insulet); }
+.bt-tandem    { color: var(--b-tandem); }
+.bt-medtronic { color: var(--b-medtronic); }
+.bt-beta      { color: var(--b-beta); }
+.bt-sequel    { color: var(--b-sequel); }
+.bt-ypsomed   { color: var(--b-ypsomed); }
+.bt-diabeloop { color: var(--b-diabeloop); }
+.bt-sooil     { color: var(--b-sooil); }
+.bt-roche     { color: var(--b-roche); }
+.bt-luna      { color: var(--b-luna); }
+
+.pipeline-badge {
+  display: inline-flex; align-items: center;
+  font-family: var(--font-body); font-size: 0.62rem; font-weight: 800;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  background: var(--amber-bg); color: var(--amber);
+  border: 0; border-left: 2px solid var(--amber); border-radius: var(--radius);
+  padding: 0.14rem 0.4rem; margin-top: 0.28rem;
+}
+
+/* ── Badges ────────────────────────────────────────────────────────────── */
+.badge {
+  display: inline-flex; align-items: center; font-family: var(--font-body);
+  padding: 0.2rem 0.5rem; border-radius: var(--radius);
+  font-size: 0.7rem; font-weight: 800; letter-spacing: 0.04em; white-space: nowrap;
+}
+.type-patch { background: var(--grey-bg); color: var(--grey); }
+.type-tubed { background: var(--paper2);  color: var(--b-tandem); }
+
+/* Closed loop is the thing most people are scanning for, so it keeps the
+   green and the tick; open loop stays quiet. */
+.aid-closed { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; font-weight: 700; color: var(--green); }
+.aid-open { font-family: var(--font-head); font-style: italic; font-size: 0.79rem; color: var(--muted); }
+.cgm-cell { font-size: 0.78rem; color: var(--body); line-height: 1.5; }
+
+/* Country pills */
+.avail { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.flag-pill {
+  font-family: var(--font-body); font-size: 0.68rem; color: var(--body);
+  padding: 0.1rem 0.4rem; border: 1px solid var(--line);
+  border-radius: var(--radius); background: transparent;
+  white-space: nowrap; line-height: 1.4;
+}
+
+/* No results */
+.no-results { text-align: center; padding: 3rem 1rem; color: var(--muted); font-size: 0.95rem; }
+
+/* ── Footnote ──────────────────────────────────────────────────────────
+   The sources note, set as a standfirst under a heavy rule rather than a
+   tinted callout box. Only the leading <strong> becomes the label — the
+   others ("closed loop", "open loop") are emphasis mid-sentence. */
+.footnote {
+  margin-top: 2.25rem; padding: 1rem 0 0;
+  background: transparent;
+  border: 0; border-top: 1.5px solid var(--ink);
+  border-radius: 0;
+  font-size: 0.8rem; color: var(--muted); line-height: 1.75; max-width: 90ch;
+}
+.footnote strong { color: var(--ink); }
+.footnote > strong:first-child {
+  display: block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); margin-bottom: 8px;
+}
+
+/* ── Responsive ────────────────────────────────────────────────────────
+   Below 640px the first column is pinned to 40vw so the device name stays
+   legible while the specs scroll past it. */
+@media (max-width: 640px) {
+  .filter-label { display: none; }
+  .count-bar { flex-direction: column; align-items: flex-start; }
+  .page-header { padding-top: 22px; margin-bottom: 20px; }
+  thead th:first-child,
+  tbody td:first-child {
+    width: 40vw; min-width: 40vw; max-width: 40vw;
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chip, .back-link, #search, #clearBtn, tbody tr { transition: none; }
 }
 </style>
 </head>
 <body>
+<header class="tool-head">
+  <div class="in">
+    <a class="brand" href="/"><span class="mark">lf</span>Lena Filatova</a>
+    <a class="back-link" href="/resources/">All free tools</a>
+  </div>
+</header>
 <div class="page">
+  <header class="page-header">
+    <p class="est"><span class="est-label">Comparison</span><span class="est-rule"></span></p>
+    <h1>AID system comparison (2026)</h1>
+    <p class="description">Every major insulin pump and Automated Insulin Delivery system side by side — available now and in the pipeline. Filter by type, AID and status.</p>
+  </header>
+
   <div class="filters">
     <div class="filter-row">
       <div class="search-wrap">
