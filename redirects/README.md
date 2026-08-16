@@ -1,4 +1,32 @@
-# 301 redirects — why they aren't live, and how to switch them on
+# 301 redirects
+
+**Live since 2026-08-16.** Cloudflare sits in front of GitHub Pages on the free
+plan, and a Bulk Redirect rule (`retired_recipes_and_legacy_urls`, account level
+→ Delivery & performance → Bulk redirects) serves **138 real 301s**. All 138
+verified returning 301 to the right target; every live page still 200.
+
+Two things behaved differently from what this file originally assumed, both
+worth knowing before the next re-upload:
+
+1. **Cloudflare Bulk Redirects cannot match a query string.** The 300 legacy
+   `recipe.html?r=…` rules were rejected — *"matching url cannot have a query
+   string"* — and one bad row fails the entire save, so the generator now writes
+   only the 138 path-based rules to the CSV. Those legacy URLs are still served
+   by `public/recipes/recipe.html` (canonical + client-side redirect, HTTP 200).
+   Upgrading them to 301s needs a zone-level **Single Redirect** rule, which
+   *can* read `http.request.uri.query` — one dynamic rule, not 300 static ones,
+   because the retired-slug hop is already covered by the list. Not done yet.
+2. **The CSV must have no header row.** Cloudflare's importer doesn't recognise
+   one; it read `source,target,…` as a redirect from the literal URL "source"
+   and shifted every row by one.
+
+Re-run `npm run redirects` and re-upload after any change to `HIDDEN_SLUGS` or
+`RETIRED_SLUG_TARGETS`. Everything below is the original write-up of why this
+was needed, kept for context.
+
+---
+
+## Original: why they weren't live, and how to switch them on
 
 `cloudflare-bulk-redirects.csv` and `_redirects` in this folder are **generated**
 (`npm run redirects`). Don't edit them by hand — edit `scripts/generate-redirects.mjs`
