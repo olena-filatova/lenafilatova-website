@@ -1,16 +1,24 @@
 ---
-// Blog index: server-rendered card grid, newest first, with category filter
-// chips — same show/hide approach as the recipe hub (cards carry data-cats;
-// the inline script never renders content). NEW vs the Divhunt site: the old
-// blog had no filtering; categories were display-only.
+// Blog index — the editorial system (OPS-274).
 //
-// Posts flagged `featured: true` in blog.js (max 3 shown) get an editorial
-// band above the filters: one large lead card, plus compact side cards when
-// more than one is flagged. The band appears only on the "All" view; picking
-// a category chip hides it and the featured posts rejoin the plain grid so
-// filters stay complete.
+// Server-rendered, newest first, with category filters (cards carry data-cats;
+// the inline script only shows/hides, it never renders content). NEW vs the
+// Divhunt site: the old blog had no filtering; categories were display-only.
+//
+// LAYOUT. The ticket asked for "a larger lead post and a list beneath rather
+// than a uniform grid". The lead already exists as the featured band, so that
+// is what carries it: posts flagged `featured: true` in blog.js (max 3) sit
+// above the filters as one large editorial feature — square photo beside the
+// headline — plus hairline rows when more than one is flagged. Below it the
+// grid keeps three columns on desktop (39 posts in one column would be a very
+// long page) but loses all card chrome, and collapses to a genuine ruled list
+// of thumb-left rows on a phone, where most of the reading happens.
+//
+// The band appears only on the "All" view; picking a category hides it and the
+// featured posts rejoin the grid, so a filtered view is always complete.
 import { POSTS } from '../data/blog.js';
 import { CATS, UI } from '../data/blog-lib.js';
+import DIMS from '../data/image-dims.json';
 import '../styles/blog.css';
 
 const { lang = 'en' } = Astro.props;
@@ -22,21 +30,37 @@ const t = UI[lang];
 const B = import.meta.env.BASE_URL;
 const hub = lang === 'ua' ? `${B}ua/blog/` : `${B}blog/`;
 const img = (src) => B.replace(/\/$/, '') + src;
+// Intrinsic dimensions where we have them (see BlogPostBody) — a missing entry
+// just omits the attributes; the aspect-ratio on the well already holds the box.
+const dim = (src) => DIMS[src] || {};
 ---
 <section class="blog-hero">
   <div class="wrap">
-    <p class="kicker">{t.hubKicker}</p>
-    <h1>{t.hubH1}</h1>
-    <p class="lede">{t.hubLead}</p>
+    {/* Label + hairline rule, the same masthead device the homepage hero uses. */}
+    <p class="est"><span class="est-label">{t.hubKicker}</span><span class="est-rule"></span></p>
+    <div class="head">
+      <h1>{t.hubH1}</h1>
+      <p class="lede">{t.hubLead}</p>
+    </div>
   </div>
 </section>
 
 {lead && (
   <section class="featured" id="blogFeatured">
     <div class="wrap">
-      <div class="featured-head"><span class="fk">{t.featured}</span><span class="rule"></span></div>
+      <div class="hub-head"><span class="fk">{t.featured}</span></div>
       <div class={`featured-grid${minis.length ? '' : ' solo'}`}>
-        <a class="flead" href={`${hub}${lead.slug}/`} style={`background-image:url('${img(lead.image)}')`}>
+        <a class="flead" href={`${hub}${lead.slug}/`}>
+          <div class="ph">
+            <img
+              src={img(lead.image)}
+              alt=""
+              fetchpriority="high"
+              decoding="async"
+              width={dim(lead.image).w}
+              height={dim(lead.image).h}
+            />
+          </div>
           <div class="body">
             <p class="cat">{lead[lang].cat}</p>
             <h2>{lead[lang].title}</h2>
@@ -48,7 +72,9 @@ const img = (src) => B.replace(/\/$/, '') + src;
           <div class="fside">
             {minis.map((p) => (
               <a class="fmini" href={`${hub}${p.slug}/`}>
-                <span class="thumb" style={`background-image:url('${img(p.image)}')`}></span>
+                <span class="thumb">
+                  <img src={img(p.image)} alt="" loading="lazy" decoding="async" />
+                </span>
                 <span class="body">
                   <span class="cat">{p[lang].cat}</span>
                   <h3>{p[lang].title}</h3>
@@ -65,19 +91,27 @@ const img = (src) => B.replace(/\/$/, '') + src;
 
 <section>
   <div class="wrap">
-    <div class="blog-filters" id="blogFilters">
-      <button class="chip on" data-cat="all">{t.all}</button>
-      {CATS.map((c) => <button class="chip" data-cat={c.key}>{c[lang]}</button>)}
+    {/* Section label and filters share one ruled bar: the filters ARE the
+        section's heading on a filtered view, so stacking them under a separate
+        rule only added a line. The label follows the selection (see script). */}
+    <div class="hub-bar">
+      <span class="fk" id="blogGridLabel" data-all={t.latest}>{t.latest}</span>
+      <div class="blog-filters" id="blogFilters" role="group" aria-label={t.hubKicker}>
+        <button class="chip on" type="button" data-cat="all" aria-pressed="true">{t.all}</button>
+        {CATS.map((c) => (
+          <button class="chip" type="button" data-cat={c.key} aria-pressed="false">{c[lang]}</button>
+        ))}
+      </div>
     </div>
-    {lead && <div class="latest-head"><span class="fk">{t.latest}</span><span class="rule"></span></div>}
     <div class="blog-grid" id="blogGrid">
       {sorted.map((p) => (
         <a
-          class={`bcard${p.featured && !p.comingSoon && featured.includes(p) ? ' hidden' : ''}`}
+          class={`bcard${featured.includes(p) ? ' hidden' : ''}`}
           href={`${hub}${p.slug}/`}
           data-cats={p.cats.join(' ')}
           data-featured={featured.includes(p) ? '1' : undefined}>
-          <div class="thumb" style={`background-image:url('${img(p.image)}')`}>
+          <div class="thumb">
+            <img src={img(p.image)} alt="" loading="lazy" decoding="async" />
             {p.comingSoon && <span class="soon">{t.comingSoonBadge}</span>}
           </div>
           <div class="body">
@@ -99,17 +133,22 @@ const img = (src) => B.replace(/\/$/, '') + src;
     var grid = document.getElementById('blogGrid');
     var empty = document.getElementById('blogEmpty');
     var band = document.getElementById('blogFeatured');
-    var latest = document.querySelector('.latest-head');
+    var label = document.getElementById('blogGridLabel');
     if (!filters || !grid) return;
     function apply(btn) {
-      [].slice.call(filters.querySelectorAll('.chip')).forEach(function (c) { c.classList.remove('on'); });
-      btn.classList.add('on');
+      [].slice.call(filters.querySelectorAll('.chip')).forEach(function (c) {
+        var on = c === btn;
+        c.classList.toggle('on', on);
+        c.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
       var want = btn.getAttribute('data-cat');
       var all = want === 'all';
       // Featured band only makes sense on the unfiltered view; on a category
       // view the featured posts show as ordinary grid cards instead.
       if (band) band.style.display = all ? '' : 'none';
-      if (latest) latest.style.display = all ? '' : 'none';
+      // The label names what is below it: "Latest" unfiltered, otherwise the
+      // category — taken from the button so it stays in the page's language.
+      if (label) label.textContent = all ? label.getAttribute('data-all') : btn.textContent;
       var shown = 0;
       [].slice.call(grid.querySelectorAll('.bcard')).forEach(function (card) {
         var inBand = all && band && card.hasAttribute('data-featured');
