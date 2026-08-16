@@ -457,22 +457,86 @@ img { max-width: 100%; display: block; }
   .site-nav a, .site-nav a::after, .mobile-nav a { transition: none; }
 }
 
-/* --- resources hub --- */
-.hero.resources { padding-bottom: 12px; }
-.res-wrap { padding: 24px 0 72px; }
-.res-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
-.rcard {
-  display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line);
-  border-radius: var(--radius); overflow: hidden; transition: transform .15s ease, box-shadow .15s ease;
+/* --- resources hub (OPS-276) -----------------------------------------------
+   The numbered editorial index, same device as the homepage's tools section —
+   which lists four of these seven, so the two pages now agree.
+
+   Each item carries its tool colour on --tool (set inline from RESOURCES.cards
+   `head`). It appears twice, both small: a square swatch on the subject label,
+   and a rule down the left edge on hover. All seven clear 4.5:1 on the paper,
+   so the label may safely be set in it. The pale `band` tints those cards also
+   carry are now unused — seven pale grounds fighting the warm paper was the
+   problem this replaced. */
+.res-head { padding: 44px 0 0; }
+.res-head .est { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
+.res-head .est-label {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent);
 }
-.rcard:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(42, 20, 36, 0.09); }
-.rband { padding: 26px 24px 22px; font-family: var(--font-head); font-size: 19px; }
-.rbody { padding: 22px 24px 26px; display: flex; flex-direction: column; flex: 1; }
-.rkicker { color: var(--accent); font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 10px; }
-.rbody h3 { font-size: 21px; line-height: 1.2; margin: 0 0 12px; }
-.rdesc { color: var(--muted); font-size: 15px; line-height: 1.55; margin: 0 0 20px; flex: 1; }
-.rcta { color: var(--accent); font-weight: 600; font-size: 15px; }
-.rcard:hover .rcta { text-decoration: underline; }
+.res-head .est-rule { flex: 1; height: 1px; background: var(--rule); }
+.res-head h1 {
+  font-size: clamp(33px, 5.4vw, 52px); line-height: 1.05;
+  letter-spacing: -0.025em; max-width: 22ch; text-wrap: balance;
+}
+.res-head .lede {
+  font-family: var(--font-head); font-weight: 300; font-size: 18px; line-height: 1.5;
+  color: var(--muted); max-width: 46ch; margin: 20px 0 0;
+}
+/* Masthead: headline left, standfirst beside its last line — blog and recipe
+   hubs open the same way. Below 900px the two simply stack. */
+@media (min-width: 900px) {
+  .res-head .head { display: grid; grid-template-columns: 1.5fr 1fr; gap: 48px; align-items: end; }
+  .res-head .lede { margin: 0 0 6px; }
+}
+/* The promise, reversed out of the magenta exactly as the homepage sets it
+   (.ed-free). Paper on magenta is 5.0:1. */
+.res-free {
+  display: inline-block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent);
+  padding: 6px 12px; margin: 26px 0 0;
+}
+
+.res-wrap { padding: 40px 0 72px; }
+/* Section label hanging from the heavy ink rule, with the count set opposite. */
+.res-sec-head { display: flex; align-items: baseline; gap: 12px; border-top: 1.5px solid var(--ink); padding-top: 10px; }
+.res-sec-head .fk {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
+}
+.res-sec-head .fk-n { margin-left: auto; font-family: var(--font-head); font-size: 13px; color: var(--muted); }
+
+.res-list { list-style: none; margin: 18px 0 0; padding: 0; }
+.res-item { border-bottom: 1px solid var(--line); }
+.res-tool {
+  display: flex; gap: 16px; padding: 22px 0; align-items: flex-start;
+  transition: padding-left .22s ease, box-shadow .22s ease;
+}
+.res-tool .idx { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: 14px; color: var(--accent); }
+.res-tool .body { display: block; }
+/* Flex-wrapped rather than inline: the two labels are long in Ukrainian, and a
+   written-in separator ("·") stranded itself at the head of the wrapped line.
+   The gap does the separating, and colour already tells the two apart. */
+.res-tool .meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; margin-bottom: 8px; }
+.res-tool .subject {
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--tool);
+}
+/* The band, reduced to a square. */
+.res-tool .subject::before {
+  content: ''; display: inline-block; width: 7px; height: 7px;
+  background: var(--tool); margin-right: 8px;
+}
+.res-tool .kind {
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); opacity: 0.75;
+}
+.res-tool h2 { font-size: 22px; line-height: 1.15; margin: 0 0 6px; }
+.res-tool p { margin: 0 0 10px; font-size: 14.5px; color: var(--body); }
+.res-tool .go {
+  font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+}
+.res-tool:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* --- footer ---------------------------------------------------------------
    The colophon: a recessed paper2 band closed off by a heavy ink rule, so the
@@ -518,7 +582,7 @@ img { max-width: 100%; display: block; }
   .hero .grid, .site-footer .top { grid-template-columns: 1fr; gap: 32px; }
   .legal-hero h1 { font-size: 34px; }
   .stats .grid { grid-template-columns: repeat(2, 1fr); }
-  .values .grid, .res-grid { grid-template-columns: 1fr; }
+  .values .grid { grid-template-columns: 1fr; }
   .hero.contact .grid { grid-template-columns: 1fr; }
   /* mobile hero: shrink the whole block so fresh content is reachable fast */
   .hero { padding: 36px 0 8px; }
@@ -537,8 +601,20 @@ img { max-width: 100%; display: block; }
   .hero h1 { font-size: 38px; }
 }
 
-@media (max-width: 480px) {
-  .rband, .rbody { padding-left: 20px; padding-right: 20px; }
+/* Two columns once there is room — the homepage runs the same list this way,
+   and seven full-width rows is a lot of scrolling for what is an index. The
+   pointer affordances (colour rule, nudge, magenta head) are hover-only, so
+   they are attached here rather than firing on a tap. */
+@media (min-width: 900px) {
+  .res-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
+  .res-tool { padding: 26px 0; }
+  .res-tool:hover { padding-left: 12px; box-shadow: inset 3px 0 0 var(--tool); }
+  .res-tool:hover h2 { color: var(--accent); }
+  .res-tool p { max-width: 44ch; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .res-tool { transition: none; }
 }
 
 /* Honeypot (OPS-235): must be in the layout and focusable-by-nothing, but never
