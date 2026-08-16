@@ -662,15 +662,31 @@ img { max-width: 100%; display: block; }
 .site-footer a { color: var(--muted); font-size: 15px; }
 .site-footer a:hover { color: var(--accent); }
 .site-footer .socials { display: flex; gap: 10px; }
-/* Kept circular to echo the brand mark. The glyphs are single letters today
-   (OPS-272 covers swapping them for real icons); this styling holds either way. */
+/* Kept circular to echo the brand mark. Magenta glyph on the tinted paper
+   circle, inverting to white-on-magenta on hover (OPS-153). The font rules
+   still apply because a platform without an inline glyph falls back to its
+   initial — see SOCIAL_ICONS in Footer.astro. */
 .site-footer .socials a {
   width: 34px; height: 34px; border-radius: 50%; background: var(--bg);
   box-shadow: inset 0 0 0 1px var(--rule);
   display: grid; place-items: center; color: var(--accent); font-weight: 800; font-size: 13px;
-  transition: background .2s ease, color .2s ease;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
 }
-.site-footer .socials a:hover { background: var(--accent); color: #fff; box-shadow: inset 0 0 0 1px var(--accent); }
+/* 17px inside a 34px circle: the Simple Icons glyphs are drawn edge to edge on
+   their 24-box, so they need more breathing room than a letter did. */
+.site-footer .socials svg { width: 17px; height: 17px; fill: currentColor; display: block; }
+.site-footer .socials a:hover,
+.site-footer .socials a:focus-visible {
+  background: var(--accent); color: #fff; box-shadow: inset 0 0 0 1px var(--accent);
+  transform: scale(1.1);
+}
+/* Respect a reduced-motion preference: the colour inversion still carries the
+   hover, so only the scale is dropped. */
+@media (prefers-reduced-motion: reduce) {
+  .site-footer .socials a { transition: background .2s ease, color .2s ease; }
+  .site-footer .socials a:hover,
+  .site-footer .socials a:focus-visible { transform: none; }
+}
 .site-footer .legal { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 22px; color: var(--muted); font-size: 13px; }
 .site-footer .legal p { margin: 0 0 8px; }
 
