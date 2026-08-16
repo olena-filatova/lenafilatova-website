@@ -124,103 +124,306 @@
   .reading-progress { transition: none; }
 }
 
-/* --- article --- */
-.post { max-width: 760px; margin: 0 auto; padding: 44px 24px 8px; font-size: 18px; line-height: 1.75; }
-.post .cat { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin: 0; }
-.post h1 { font-size: clamp(31px, 4.6vw, 40px); line-height: 1.15; letter-spacing: -0.5px; margin: 14px 0; text-wrap: balance; }
-.post .byline { color: #7A6675; font-size: 14.5px; margin: 0 0 8px; }
-.post .alt { font-size: 13.5px; margin: 0; }
-.post .alt a, .post .prose a { color: var(--accent); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
-.post figure { margin: 28px 0; }
-.post figure img { border-radius: 12px; width: 100%; height: auto; }
-.post figcaption { font-size: 13.5px; color: #7A6675; margin-top: 10px; line-height: 1.5; }
-.post figure.embed { margin: 30px 0; }
-.post figure.embed iframe { border-radius: 14px; background: var(--card); }
-.post .lead { font-family: var(--font-head); font-style: italic; font-size: 22px; line-height: 1.5; color: #4A3A46; margin: 24px 0 28px; }
-.post .prose p { margin: 0 0 24px; text-wrap: pretty; }
-/* Section headings get more air above and a hairline rule, so a long article
-   reads as a set of parts rather than one column. `balance` keeps a two-line
-   heading from dropping a single orphan word. */
+/* ============================================================
+   ARTICLE — the editorial system (OPS-273).
+
+   Blog posts are where search traffic lands, so for most visitors
+   this page is the first impression, and it is the one page on the
+   site people actually *read* rather than scan. Everything below
+   serves that: one narrow reading column, hairline rules instead of
+   card chrome, Spectral for display and lead, Manrope wide-tracked
+   caps for every label.
+
+   Tokens come from global.css (OPS-270). The ad-hoc hexes this file
+   used to carry (#7A6675 on captions and bylines, #4A3A46 on body
+   text, #FBF7FA on table heads) are gone — they were pink-system
+   leftovers, and #7A6675 only reached 4.6:1 on the new paper, which
+   is thin for 13px text. --muted is 8.0:1 and --body 9.7:1.
+   ============================================================ */
+
+/* The reading column measures 70 characters at 19px Manrope — the top of
+   the ticket's 65–70 band, and measured rather than eyeballed (the old
+   760px column at 18px ran to nearly 90). The type went UP as the column came in:
+   this is the page people read rather than scan. Figures, tables and embeds
+   break back out past the measure on wide screens — see the min-width: 900px
+   block at the bottom. */
+.post {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 44px 24px 8px;
+  font-size: 19px;
+  line-height: 1.75;
+  color: var(--body);
+}
+
+/* --- article header --- */
+.post-head { margin-bottom: 30px; }
+.post .cat {
+  font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); margin: 0 0 16px;
+}
+/* The display scale: bigger and lighter than before, tracked in tight.
+   `balance` keeps the last line from stranding a single word. */
+.post h1 {
+  font-size: clamp(33px, 5.4vw, 52px); line-height: 1.05; letter-spacing: -0.025em;
+  margin: 0 0 22px; text-wrap: balance;
+}
+/* Credit line and the other-language link share one hairline rule. They wrap
+   to two rows on narrow screens rather than colliding. */
+.post-meta {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: 8px 24px; border-top: 1px solid var(--rule); padding-top: 14px;
+}
+.post .byline, .post .alt {
+  margin: 0; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; line-height: 1.5;
+}
+.post .byline { color: var(--muted); }
+.post .alt a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 3px; }
+.post .alt a:hover { border-bottom-color: var(--accent); }
+
+/* --- images --- */
+/* Square, on a paper2 well so the box does not flash white before the file
+   lands. Captions borrow the homepage's accent-ruled aside. */
+.post figure { margin: 32px 0; }
+.post figure img { border-radius: 0; width: 100%; height: auto; background: var(--paper2); }
+.post figcaption {
+  margin-top: 14px; padding-left: 12px; border-left: 2px solid var(--accent);
+  font-family: var(--font-head); font-style: italic; font-size: 14.5px;
+  line-height: 1.5; color: var(--muted);
+}
+.post figure.embed { margin: 36px 0; }
+.post figure.embed iframe { border-radius: 0; background: var(--card); }
+
+/* --- body copy --- */
+.post .lead {
+  font-family: var(--font-head); font-size: 21px; line-height: 1.55;
+  color: var(--ink); margin: 0 0 30px;
+}
+.post .prose p { margin: 0 0 26px; text-wrap: pretty; }
+.post .prose a {
+  color: var(--accent); font-weight: 600; text-decoration: underline;
+  text-underline-offset: 3px; text-decoration-thickness: 1px;
+}
+.post .prose a:hover { color: var(--accent-deep); }
+/* Section heads hang from a rule with a lot of air above, so a 2,000-word
+   article reads as a set of parts. The rule sits above the heading rather
+   than under it: it separates what came before from what follows, which an
+   underline hugging the text does not. */
 .post .prose h2 {
-  font-size: 26px; font-weight: 600; letter-spacing: -0.2px; margin: 48px 0 14px;
-  padding-bottom: 10px; border-bottom: 1px solid var(--line);
-  text-wrap: balance;
+  font-size: clamp(24px, 3.2vw, 30px); font-weight: 400; line-height: 1.15;
+  letter-spacing: -0.02em; margin: 56px 0 16px; padding-top: 22px;
+  border-top: 1px solid var(--rule); text-wrap: balance;
 }
+.post .prose h2:first-child { margin-top: 8px; }
+
+/* --- pull quote --- */
+/* Rules top and bottom with an accent tick, instead of the old left bar:
+   at this size the quote is a break in the column, not a marginal note. */
 .post blockquote {
-  margin: 28px 0; padding: 4px 0 4px 22px; border-left: 3px solid var(--accent);
-  font-family: var(--font-head); font-style: italic; font-size: 22px; line-height: 1.45; color: var(--ink);
+  margin: 44px 0; padding: 26px 0;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-family: var(--font-head); font-style: italic; font-weight: 400;
+  font-size: clamp(21px, 2.6vw, 25px); line-height: 1.4; letter-spacing: -0.01em; color: var(--ink);
 }
+.post blockquote::before {
+  content: ''; display: block; width: 34px; height: 2px;
+  background: var(--accent); margin-bottom: 18px;
+}
+
 .post .soon-note {
-  display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin: 26px 0;
-  background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px;
+  display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin: 28px 0;
+  background: var(--paper2); border: 0; border-left: 2px solid var(--accent);
+  border-radius: 0; padding: 16px 18px;
 }
 .post .soon-note .badge {
-  flex: none; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
-  color: #fff; background: var(--accent); padding: 5px 12px; border-radius: 999px;
+  flex: none; font-size: 10px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase;
+  color: #fff; background: var(--accent); padding: 6px 12px; border-radius: 0;
 }
-.post .soon-note span:last-child { flex: 1; min-width: 220px; font-size: 14.5px; line-height: 1.5; color: #6A5668; }
+.post .soon-note span:last-child { flex: 1; min-width: 220px; font-size: 15px; line-height: 1.55; color: var(--muted); }
 
-/* reference + resource-link cards */
-.post .refs, .post .cards { margin: 20px 0; display: flex; flex-direction: column; gap: 14px; }
-.post .ref, .post .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
-.post .ref strong { display: block; font-size: 16px; color: var(--ink); margin-bottom: 7px; line-height: 1.4; }
-.post .ref p { font-size: 15px; margin: 0 0 8px; color: #4A3A46; }
-.post .ref a { font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; }
-.post .card { display: flex; flex-direction: column; gap: 5px; text-decoration: none; }
-.post .card strong { color: var(--accent); font-size: 15px; }
-.post .card span { color: var(--muted); font-size: 14.5px; line-height: 1.55; }
+/* --- source list ---------------------------------------------------------
+   Was a stack of bordered cards; now a ruled list under a caps head, which
+   is what a citation block looks like in print. The citation itself keeps
+   sentence case — journal names and author lists do not survive uppercasing. */
+.post .refs { margin: 40px 0; }
+.post .refs-title {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
+  border-top: 1.5px solid var(--ink); padding-top: 12px; margin: 0;
+}
+/* Everything from here down sits inside .prose, so the body-copy link rule
+   above (`.post .prose a`, one class + one type) outranks a bare `.post .ref a`.
+   These blocks qualify with .prose to win it back — otherwise every citation
+   and resource row inherits the underlined-magenta inline-link treatment. */
+.post .ref { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.post .ref strong {
+  display: block; font-family: var(--font-head); font-weight: 500; font-size: 18px;
+  line-height: 1.35; color: var(--ink); margin-bottom: 8px;
+}
+.post .ref p { font-size: 15.5px; line-height: 1.6; margin: 0 0 9px; color: var(--body); }
+.post .prose .ref a, .post .ref .ref-cite { font-family: var(--font-body); font-size: 13px; font-weight: 700; line-height: 1.45; }
+.post .prose .ref a { color: var(--accent); text-decoration: none; }
+.post .prose .ref a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.post .ref .ref-cite { color: var(--muted); }
 
-/* data tables */
-.post .tbl { margin: 26px 0; overflow-x: auto; }
-.post table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 15px; }
-.post th { text-align: left; font-family: var(--font-body); font-size: 13px; letter-spacing: 0.4px; text-transform: uppercase; color: var(--muted); background: #FBF7FA; padding: 12px 14px; border-bottom: 1px solid var(--line); }
-.post td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; color: #4A3A46; line-height: 1.5; }
-.post tr:last-child td { border-bottom: none; }
+/* --- resource links --- */
+/* Same ruled treatment, and the same nudge-right on hover as the homepage
+   tool rows, so an off-site link behaves the way the rest of the site does. */
+.post .cards { margin: 36px 0; border-top: 1px solid var(--rule); }
+.post .prose .card {
+  display: flex; flex-direction: column; gap: 6px;
+  text-decoration: none; font-weight: 400; color: var(--body);
+  background: none; border: 0; border-bottom: 1px solid var(--line);
+  border-radius: 0; padding: 20px 0; transition: padding-left .2s ease;
+}
+.post .card strong { font-family: var(--font-head); font-weight: 500; font-size: 18px; line-height: 1.35; color: var(--ink); }
+.post .card span { color: var(--muted); font-size: 15px; line-height: 1.55; }
+.post .card:hover strong { color: var(--accent); }
 
-/* author bio */
-.post .bio { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin: 32px 0; }
-.post .bio img { width: 74px; height: 74px; border-radius: 999px; object-fit: cover; flex: none; }
-.post .bio strong { display: block; margin-bottom: 4px; color: var(--ink); }
-.post .bio p { margin: 0; font-size: 15px; color: var(--muted); }
+/* --- data tables --- */
+/* Rules only: an ink rule on top, hairlines between rows, no box. Left-aligned
+   to the text column, so the first column shares the paragraph's left edge. */
+.post .tbl { margin: 38px 0; overflow-x: auto; }
+.post table {
+  width: 100%; border-collapse: collapse; background: transparent;
+  border: 0; border-top: 1.5px solid var(--ink); border-radius: 0; font-size: 15.5px;
+}
+.post th {
+  text-align: left; font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+  background: transparent; padding: 13px 18px 13px 0; border-bottom: 1px solid var(--rule);
+}
+.post td { padding: 14px 18px 14px 0; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--body); line-height: 1.55; }
+.post th:last-child, .post td:last-child { padding-right: 0; }
+.post tr:last-child td { border-bottom: 1px solid var(--rule); }
 
-/* FAQ */
-.post .faq { margin: 44px 0 8px; border-top: 1px solid var(--line); padding-top: 32px; }
-.post .faq h2 { font-size: 26px; font-weight: 600; margin: 0 0 6px; }
-.post .faq details { border-bottom: 1px solid var(--line); padding: 14px 0; }
-.post .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; color: var(--ink); list-style: none; }
+/* --- signature / author card --- */
+/* The card is gone: a heavy rule and the portrait are enough, and it now reads
+   as a sign-off rather than a widget. The disc echoes the brand mark — the one
+   round thing the square system keeps. */
+.post .bio {
+  display: flex; gap: 20px; align-items: center;
+  background: none; border: 0; border-top: 1.5px solid var(--ink); border-radius: 0;
+  padding: 24px 0 0; margin: 44px 0 8px;
+}
+.post .bio img { width: 78px; height: 78px; border-radius: 50%; object-fit: cover; flex: none; background: var(--paper2); }
+.post .bio strong {
+  display: block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 9px;
+}
+.post .bio p { margin: 0; font-family: var(--font-head); font-size: 16.5px; line-height: 1.5; color: var(--ink); }
+
+/* --- FAQ --- */
+.post .faq { margin: 52px 0 8px; border-top: 1.5px solid var(--ink); padding-top: 20px; }
+.post .faq h2 { font-size: clamp(24px, 3.2vw, 30px); font-weight: 400; letter-spacing: -0.02em; margin: 0 0 8px; }
+.post .faq details { border-bottom: 1px solid var(--line); padding: 0; }
+.post .faq summary {
+  position: relative; cursor: pointer; list-style: none;
+  padding: 17px 34px 17px 0; font-family: var(--font-body); font-weight: 700;
+  font-size: 16.5px; line-height: 1.45; color: var(--ink);
+}
 .post .faq summary::-webkit-details-marker { display: none; }
-.post .faq .ans p { margin: 12px 0 4px; color: #4A3A46; font-size: 16px; }
-
-/* CTA + disclaimer + footer nav */
-.post .cta { background: var(--ink); color: #F6F0F5; border-radius: 18px; padding: 34px; margin: 40px 0; }
-.post .cta h2 { color: #F6F0F5; margin: 0 0 10px; font-size: 26px; font-weight: 600; }
-.post .cta p { color: #CBB5C6; font-size: 16px; margin: 0 0 16px; }
-.post .cta a { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 13px 26px; border-radius: 999px; }
-.post .disclaimer { font-size: 12.5px; font-style: italic; color: var(--muted); line-height: 1.5; margin: 28px 0 0; }
-.post-foot { max-width: 760px; margin: 0 auto; padding: 28px 24px 56px; font-size: 14px; color: #7A6675; }
-.post-foot a { color: #7A6675; text-decoration: underline; text-underline-offset: 2px; }
-
-/* related posts — end of article. Desktop: 3-card grid like the hub.
-   Mobile: compact thumb-left rows so all three fit one screen. */
-.related { max-width: 960px; margin: 0 auto; padding: 8px 24px 8px; }
-.related h2 { font-size: 24px; font-weight: 600; letter-spacing: -0.2px; margin: 0 0 18px; }
-.rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.rel-card {
-  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-  overflow: hidden; display: flex; flex-direction: column; text-decoration: none;
-  transition: transform .15s ease, box-shadow .15s ease;
+/* The rows had no affordance that they open at all — this is the only marker. */
+.post .faq summary::after {
+  content: '+'; position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+  font-family: var(--font-head); font-size: 22px; line-height: 1; color: var(--accent);
 }
-.rel-card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(51, 27, 51, 0.10); }
-.rel-card .thumb { aspect-ratio: 16 / 10; background-size: cover; background-position: center; flex: none; }
-.rel-card .body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 7px; }
-.rel-card .cat { font-size: 11px; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; color: var(--accent); margin: 0; }
-.rel-card h3 { font-size: 17px; line-height: 1.3; letter-spacing: -0.2px; font-weight: 600; margin: 0; color: var(--ink); }
-.rel-card .meta { margin: 0; font-size: 12.5px; color: #7A6675; }
+.post .faq details[open] summary::after { content: '\2013'; }
+.post .faq summary:hover { color: var(--accent); }
+.post .faq summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.post .faq .ans p { margin: 0 0 20px; color: var(--body); font-size: 16.5px; line-height: 1.7; }
+
+/* --- in-article offer block --- */
+/* The square ink panel the newsletter band above the footer uses, so the two
+   asks on the page are visibly the same ask. */
+.post .cta { background: var(--ink); border-radius: 0; padding: 40px 34px; margin: 48px 0 0; }
+.post .cta h2 { color: #fff; margin: 0 0 12px; font-size: clamp(25px, 3.2vw, 31px); font-weight: 400; letter-spacing: -0.02em; }
+.post .cta p { color: #E6D9E2; font-size: 16.5px; line-height: 1.6; margin: 0 0 24px; max-width: 46ch; }
+.post .cta a {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 50px;
+  background: var(--accent); color: #fff; text-decoration: none; border-radius: 0;
+  font-family: var(--font-body); font-weight: 700; font-size: 12.5px;
+  letter-spacing: 0.14em; text-transform: uppercase; padding: 14px 28px;
+  transition: background .2s ease;
+}
+.post .cta a:hover { background: var(--accent-deep); }
+.post .cta a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.7); }
+
+/* --- disclaimer + back link --- */
+.post .disclaimer {
+  display: flex; gap: 10px; align-items: flex-start; font-style: normal;
+  font-size: 13px; line-height: 1.55; color: var(--muted); margin: 32px 0 0;
+}
+.post .disclaimer::before { content: ''; flex: none; width: 16px; height: 1px; background: var(--accent); margin-top: 10px; }
+.post-foot { max-width: 640px; margin: 0 auto; padding: 32px 24px 60px; }
+.post-foot a {
+  font-family: var(--font-body); font-size: 11px; font-weight: 800; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--ink); text-decoration: none;
+  border-bottom: 2px solid var(--accent); padding-bottom: 4px;
+}
+.post-foot a:hover { color: var(--accent); }
+
+/* --- related posts -------------------------------------------------------
+   End of article. Cards stripped to image + text on the paper, the way the
+   homepage's feature blocks work; the heading becomes a section label rather
+   than a display head, matching the numbered section heads there.
+   Mobile: compact thumb-left rows so all three fit one screen. */
+.related { max-width: 960px; margin: 0 auto; padding: 24px 24px 8px; }
+.related h2 {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--ink);
+  border-top: 1.5px solid var(--ink); padding-top: 10px; margin: 0 0 24px;
+}
+.rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.rel-card {
+  background: none; border: 0; border-radius: 0; box-shadow: none;
+  display: flex; flex-direction: column; text-decoration: none;
+}
+.rel-card:hover { transform: none; box-shadow: none; }
+/* background-color only — the thumbnail image itself is an inline style, and
+   the shorthand would fight it. This is the well behind a slow image. */
+.rel-card .thumb { aspect-ratio: 4 / 3; background-color: var(--paper2); background-size: cover; background-position: center; flex: none; }
+.rel-card .body { padding: 16px 0 0; display: flex; flex-direction: column; gap: 9px; }
+.rel-card .cat { font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin: 0; }
+.rel-card h3 {
+  font-family: var(--font-head); font-size: 20px; line-height: 1.18; letter-spacing: -0.02em;
+  font-weight: 400; margin: 0; color: var(--ink); transition: color .2s ease;
+}
+.rel-card .meta {
+  margin: 0; font-family: var(--font-body); font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+}
+.rel-card:hover h3 { color: var(--accent); }
+
 @media (max-width: 700px) {
-  .rel-grid { grid-template-columns: 1fr; gap: 12px; }
-  .rel-card { flex-direction: row; align-items: stretch; }
+  .rel-grid { grid-template-columns: 1fr; gap: 18px; }
+  .rel-card { flex-direction: row; align-items: stretch; gap: 16px; }
   .rel-card .thumb { width: 108px; min-height: 96px; aspect-ratio: auto; }
-  .rel-card .body { padding: 12px 14px; justify-content: center; gap: 5px; }
-  .rel-card h3 { font-size: 15.5px; }
-  .rel-card .meta { font-size: 12px; }
+  .rel-card .body { padding: 2px 0; justify-content: center; gap: 7px; }
+  .rel-card h3 { font-size: 17px; }
+}
+
+@media (max-width: 560px) {
+  .post { padding-top: 32px; }
+  .post .cta { padding: 30px 22px; }
+  .post .bio { gap: 16px; }
+  .post .bio img { width: 62px; height: 62px; }
+}
+
+/* Figures, tables and embeds run wider than the reading column once there is
+   room for it — the measure stays at 66 characters, the pictures do not have
+   to. The caption is pushed back to the text edge so it still lines up with
+   the paragraph it belongs to. */
+@media (min-width: 900px) {
+  .post figure, .post .tbl { width: calc(100% + 120px); margin-left: -60px; }
+  .post figcaption { margin-left: 60px; }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .post .card:hover { padding-left: 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post .card, .rel-card h3 { transition: none; }
 }
