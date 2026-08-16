@@ -1,8 +1,10 @@
 ---
 import { NAV, FOOTER, SOCIALS, LEGAL_SLUGS } from '../data/site.js';
+import { SEARCH_UI } from '../data/search-lib.js';
 const { lang = 'en' } = Astro.props;
 const t = FOOTER[lang];
 const n = NAV[lang];
+const s = SEARCH_UI[lang];
 const B = import.meta.env.BASE_URL;
 const L = lang === 'ua' ? `${B}ua/` : B;
 // legalLinks and these slugs are in the same order (privacy, cookies, terms, refunds, accessibility).
@@ -51,6 +53,7 @@ const SOCIAL_ICONS = {
           <li><a href={`${L}recipes/`}>{n.recipes}</a></li>
           <li><a href={`${L}about/`}>{n.about}</a></li>
           <li><a href={`${L}contact/`}>{n.contact}</a></li>
+          <li><a href={`${L}search/`}>{s.label}</a></li>
         </ul>
       </div>
       <div>

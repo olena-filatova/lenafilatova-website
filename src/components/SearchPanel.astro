@@ -1,0 +1,216 @@
+---
+// The header search panel (OPS-288) — the magnifying glass's drawer.
+//
+// Rendered inside <header> rather than as a floating overlay, so opening it
+// grows the sticky bar instead of covering the page. That avoids the whole
+// class of overlay problems (scroll locking, focus traps, a layer that hides
+// the content the visitor is trying to search) and it reads as part of the
+// masthead, which is where the icon lives.
+//
+// The panel gives instant answers for the common case — you know roughly what
+// you want and the top few rows have it. Everything else (filters, snippets,
+// the full list) is the /search/ page, one Enter away.
+import { SEARCH_UI, KIND_LABEL } from '../data/search-lib.js';
+
+const { lang = 'en' } = Astro.props;
+const t = SEARCH_UI[lang];
+const B = import.meta.env.BASE_URL;
+const action = lang === 'ua' ? `${B}ua/search/` : `${B}search/`;
+
+// Strings the client script needs. Passed as JSON rather than `define:vars`
+// because that would force the script inline and it could then no longer
+// import the shared engine.
+const strings = {
+  kind: Object.fromEntries(Object.entries(KIND_LABEL).map(([k, v]) => [k, v[lang]])),
+  seeAll: t.seeAll,
+  none: t.none,
+  failed: t.failed,
+};
+---
+<div class="search-panel" id="searchPanel" hidden>
+  <div class="wrap">
+    {/* GET to /search/, so pressing Enter without JS still lands somewhere
+        sensible and the resulting URL is shareable. */}
+    <form class="search-form" id="searchQuick" role="search" method="get" action={action}>
+      <svg class="search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input
+        class="search-input"
+        id="searchInput"
+        type="search"
+        name="q"
+        placeholder={t.placeholder}
+        aria-label={t.label}
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        role="combobox"
+        aria-expanded="false"
+        aria-controls="searchSuggest"
+        aria-autocomplete="list"
+      />
+      <button class="btn search-go" type="submit">{t.submit}</button>
+      <button class="search-x" type="button" id="searchClose" aria-label={t.close}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </form>
+    <div class="search-suggest" id="searchSuggest" role="listbox" aria-label={t.label} hidden></div>
+    <p class="search-hint" id="searchHint">{t.promptHint}</p>
+  </div>
+</div>
+<script type="application/json" id="searchStrings" set:html={JSON.stringify(strings)} />
+
+<script>
+  import { loadIndex, search, termsOf, mark, href, debounce, pageLang } from '../scripts/search.js';
+
+  (function () {
+    var panel = document.getElementById('searchPanel');
+    var open = document.getElementById('searchOpen');
+    var input = document.getElementById('searchInput');
+    var list = document.getElementById('searchSuggest');
+    var hint = document.getElementById('searchHint');
+    var closeBtn = document.getElementById('searchClose');
+    var form = document.getElementById('searchQuick');
+    var nav = document.getElementById('mobileNav');
+    var navBtn = document.getElementById('navToggle');
+    if (!panel || !open || !input || !list || !form) return;
+
+    var S = JSON.parse(document.getElementById('searchStrings').textContent);
+    var LIMIT = 6;
+    var docs = null;
+    var failed = false;
+    var active = -1; // highlighted suggestion, -1 = none
+
+    // Warm the index on intent rather than on page load: nobody who never
+    // opens search should download it, but by the time a pointer reaches the
+    // icon the fetch has usually finished.
+    function warm() {
+      if (docs || failed) return;
+      loadIndex(pageLang()).then(
+        function (d) { docs = d; if (input.value.trim()) run(); },
+        function () { failed = true; if (input.value.trim()) run(); }
+      );
+    }
+    open.addEventListener('pointerenter', warm);
+    open.addEventListener('focus', warm);
+
+    function setOpen(on) {
+      panel.hidden = !on;
+      open.setAttribute('aria-expanded', on ? 'true' : 'false');
+      open.classList.toggle('on', on);
+      if (on) {
+        warm();
+        // The burger menu and the search drawer both grow the header; two at
+        // once pushes the page down twice for no reason.
+        if (nav && !nav.hidden && navBtn) navBtn.click();
+        input.focus();
+        input.select();
+      } else {
+        collapse();
+      }
+    }
+
+    function collapse() {
+      list.hidden = true;
+      list.innerHTML = '';
+      active = -1;
+      input.setAttribute('aria-expanded', 'false');
+      input.removeAttribute('aria-activedescendant');
+      if (hint) hint.hidden = false;
+    }
+
+    function rows() {
+      return list.querySelectorAll('.sg');
+    }
+
+    function highlight(i) {
+      var all = rows();
+      if (!all.length) return;
+      active = i < 0 ? all.length - 1 : i >= all.length ? 0 : i;
+      for (var n = 0; n < all.length; n++) {
+        var on = n === active;
+        all[n].classList.toggle('on', on);
+        all[n].setAttribute('aria-selected', on ? 'true' : 'false');
+      }
+      input.setAttribute('aria-activedescendant', all[active].id);
+      all[active].scrollIntoView({ block: 'nearest' });
+    }
+
+    function run() {
+      var q = input.value.trim();
+      if (!q) return collapse();
+      if (hint) hint.hidden = true;
+      if (failed) {
+        list.hidden = false;
+        list.innerHTML = '<p class="sg-empty">' + S.failed + '</p>';
+        return;
+      }
+      if (!docs) return; // still loading; warm() re-runs when it lands
+      var terms = termsOf(q);
+      var hits = search(docs, q);
+      var html = hits.slice(0, LIMIT).map(function (d) {
+        return (
+          '<a class="sg" role="option" aria-selected="false" href="' + href(d.u) + '">' +
+          '<span class="sg-k">' + (S.kind[d.k] || '') + '</span>' +
+          '<span class="sg-t">' + mark(d.t, terms) + '</span>' +
+          '</a>'
+        );
+      });
+      if (!hits.length) {
+        html.push('<p class="sg-empty">' + S.none + ' — “' + escapeText(q) + '”</p>');
+      } else {
+        html.push(
+          '<a class="sg sg-all" role="option" aria-selected="false" href="' +
+          form.getAttribute('action') + '?q=' + encodeURIComponent(q) + '">' +
+          S.seeAll + ' (' + hits.length + ')</a>'
+        );
+      }
+      list.innerHTML = html.join('');
+      // ids are assigned here rather than in the templates above so they stay
+      // contiguous once the "see all" row is appended — aria-activedescendant
+      // points at one of them.
+      var all = rows();
+      for (var n = 0; n < all.length; n++) all[n].id = 'sg-' + n;
+      list.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+      active = -1;
+      input.removeAttribute('aria-activedescendant');
+    }
+
+    function escapeText(s) {
+      var d = document.createElement('span');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    open.addEventListener('click', function () {
+      setOpen(panel.hidden);
+    });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); open.focus(); });
+
+    input.addEventListener('input', debounce(run, 130));
+
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown') { e.preventDefault(); highlight(active + 1); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); highlight(active - 1); }
+      else if (e.key === 'Enter') {
+        var all = rows();
+        if (active >= 0 && all[active]) { e.preventDefault(); all[active].click(); }
+      } else if (e.key === 'Escape') {
+        if (input.value) { input.value = ''; collapse(); }
+        else { setOpen(false); open.focus(); }
+      }
+    });
+
+    // Click-away and Escape from anywhere in the panel.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !panel.hidden && !panel.contains(document.activeElement)) {
+        setOpen(false);
+      }
+    });
+    document.addEventListener('click', function (e) {
+      if (panel.hidden) return;
+      if (panel.contains(e.target) || open.contains(e.target)) return;
+      setOpen(false);
+    });
+  })();
+</script>

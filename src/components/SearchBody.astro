@@ -1,0 +1,263 @@
+---
+// The /search/ results page (OPS-288).
+//
+// The header's magnifying glass answers "take me to the thing I already have
+// in mind". This page answers "show me everything you have on X": snippets
+// showing where the match actually sits in the text, filters by kind, and the
+// whole result set rather than the top six.
+//
+// SEO. The page is noindex (set on the route, see src/pages/search.astro) and
+// is not in sitemap.xml — internal search results are thin, near-duplicate
+// pages and Google asks for them to be kept out. It stays crawlable, because
+// a robots.txt Disallow would stop Googlebot reading that very noindex. The
+// filters therefore stay client-side query state rather than becoming their
+// own URLs: there is no value in minting crawlable ?type= variants of a page
+// that is deliberately not in the index.
+import { SEARCH_UI, KINDS, KIND_LABEL } from '../data/search-lib.js';
+import '../styles/search.css';
+
+const { lang = 'en' } = Astro.props;
+const t = SEARCH_UI[lang];
+const B = import.meta.env.BASE_URL;
+const self = lang === 'ua' ? `${B}ua/search/` : `${B}search/`;
+
+const strings = {
+  kind: Object.fromEntries(Object.entries(KIND_LABEL).map(([k, v]) => [k, v[lang]])),
+  resultsOne: t.resultsOne,
+  resultsMany: t.resultsMany,
+  none: t.none,
+  noneHint: t.noneHint,
+  loading: t.loading,
+  failed: t.failed,
+  more: t.more,
+};
+---
+<section class="srch-head">
+  <div class="wrap">
+    <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+    <h1>{t.h1}</h1>
+    <p class="srch-lede">{t.lead}</p>
+
+    <form class="srch-form" id="srchForm" role="search" method="get" action={self}>
+      <svg class="srch-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input
+        class="srch-field"
+        id="srchField"
+        type="search"
+        name="q"
+        placeholder={t.placeholder}
+        aria-label={t.label}
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+      />
+      <button class="btn" type="submit">{t.submit}</button>
+    </form>
+
+    {/* Seeds for an empty page: something to click rather than a blank field. */}
+    <p class="srch-try" id="srchTry">
+      <span class="srch-try-l">{t.popular}</span>
+      {t.popularTerms.map((term) => (
+        <a class="srch-seed" href={`${self}?q=${encodeURIComponent(term)}`}>{term}</a>
+      ))}
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="hub-bar">
+      {/* aria-live so a screen reader hears the result count change — the
+          results themselves are re-rendered silently below. */}
+      <span class="fk" id="srchCount" aria-live="polite"></span>
+      <div class="blog-filters" id="srchFilters" role="group" aria-label={t.label} hidden>
+        <button class="chip on" type="button" data-kind="all" aria-pressed="true">{t.all}</button>
+        {KINDS.map((k) => (
+          <button class="chip" type="button" data-kind={k.key} aria-pressed="false">{k[lang]}</button>
+        ))}
+      </div>
+    </div>
+
+    <div class="srch-list" id="srchResults"></div>
+
+    <div class="srch-state" id="srchState">
+      <p class="srch-state-h">{t.prompt}</p>
+      <p class="srch-state-p">{t.promptHint}</p>
+    </div>
+
+    <div class="srch-more-wrap"><button class="btn ghost srch-more" id="srchMore" type="button" hidden></button></div>
+
+    <noscript><p class="srch-state-p">{t.noscript}</p></noscript>
+  </div>
+</section>
+
+<script type="application/json" id="searchPageStrings" set:html={JSON.stringify(strings)} />
+
+<script>
+  import { loadIndex, search, termsOf, mark, snippet, href, debounce, trackSearch, pageLang } from '../scripts/search.js';
+
+  (function () {
+    var field = document.getElementById('srchField');
+    var form = document.getElementById('srchForm');
+    var out = document.getElementById('srchResults');
+    var state = document.getElementById('srchState');
+    var count = document.getElementById('srchCount');
+    var filters = document.getElementById('srchFilters');
+    var more = document.getElementById('srchMore');
+    var try_ = document.getElementById('srchTry');
+    if (!field || !out) return;
+
+    var S = JSON.parse(document.getElementById('searchPageStrings').textContent);
+    var PAGE = 20;
+    var docs = null;
+    var failed = false;
+    var kind = 'all';
+    var hits = [];
+    var shown = 0;
+
+    function setState(head, body) {
+      if (!head) { state.hidden = true; return; }
+      state.hidden = false;
+      state.innerHTML = '<p class="srch-state-h"></p><p class="srch-state-p"></p>';
+      state.children[0].textContent = head;
+      state.children[1].textContent = body || '';
+    }
+
+    function seeds(on) {
+      if (try_) try_.hidden = !on;
+    }
+
+    function row(d, terms) {
+      var kicker = [S.kind[d.k], d.c].filter(Boolean).join(' · ');
+      return (
+        '<a class="sres' + (d.i ? '' : ' no-thumb') + '" href="' + href(d.u) + '">' +
+        (d.i ? '<span class="sres-thumb"><img src="' + href(d.i) + '" alt="" loading="lazy" decoding="async"></span>' : '') +
+        '<span class="sres-body">' +
+        '<span class="sres-k">' + kicker + '</span>' +
+        '<span class="sres-t">' + mark(d.t, terms) + '</span>' +
+        '<span class="sres-x">' + snippet(d, terms) + '</span>' +
+        '</span></a>'
+      );
+    }
+
+    // Counts come from the unfiltered result set, so a chip can say how much
+    // it would reveal — a chip that silently leads to nothing is worse than
+    // one that says "0".
+    function paintFilters(all) {
+      if (!filters) return;
+      filters.hidden = false;
+      var chips = filters.querySelectorAll('.chip');
+      for (var i = 0; i < chips.length; i++) {
+        var k = chips[i].getAttribute('data-kind');
+        var n = k === 'all' ? all.length : all.filter(function (d) { return d.k === k; }).length;
+        chips[i].classList.toggle('zero', n === 0);
+        var label = chips[i].getAttribute('data-label') || chips[i].textContent;
+        chips[i].setAttribute('data-label', label);
+        chips[i].textContent = label + ' (' + n + ')';
+      }
+    }
+
+    function render(reset) {
+      var terms = termsOf(field.value);
+      if (reset) { out.innerHTML = ''; shown = 0; }
+      var next = hits.slice(shown, shown + PAGE);
+      var html = '';
+      for (var i = 0; i < next.length; i++) html += row(next[i], terms);
+      out.insertAdjacentHTML('beforeend', html);
+      shown += next.length;
+      if (more) {
+        more.hidden = shown >= hits.length;
+        more.textContent = S.more + ' (' + (hits.length - shown) + ')';
+      }
+    }
+
+    function run(track) {
+      var q = field.value.trim();
+      if (!q) {
+        hits = [];
+        out.innerHTML = '';
+        if (more) more.hidden = true;
+        if (filters) filters.hidden = true;
+        count.textContent = '';
+        setState(PROMPT, PROMPT_HINT);
+        seeds(true);
+        return;
+      }
+      if (failed) { out.innerHTML = ''; count.textContent = ''; setState(S.failed, ''); return; }
+      if (!docs) { setState(S.loading, ''); return; }
+
+      var all = search(docs, q);
+      paintFilters(all);
+      hits = kind === 'all' ? all : all.filter(function (d) { return d.k === kind; });
+      count.textContent = hits.length + ' ' + (hits.length === 1 ? S.resultsOne : S.resultsMany) + ' “' + q + '”';
+      setState(hits.length ? null : S.none, hits.length ? '' : S.noneHint);
+      // A dead end is exactly when the suggested terms are worth having back.
+      seeds(!hits.length);
+      render(true);
+      if (track) trackSearch(q);
+    }
+
+    // The query lives in the URL so a result page can be shared, linked from
+    // the header panel and reached with the back button. replaceState, not
+    // pushState: typing would otherwise stack one history entry per keystroke.
+    function syncUrl() {
+      var q = field.value.trim();
+      var url = location.pathname + (q ? '?q=' + encodeURIComponent(q) : '');
+      history.replaceState(null, '', url);
+    }
+
+    // Stash the server-rendered copy so the empty state can be restored
+    // verbatim after setState() has overwritten it.
+    var PROMPT = state.children[0].textContent;
+    var PROMPT_HINT = state.children[1].textContent;
+
+    field.value = new URLSearchParams(location.search).get('q') || '';
+
+    loadIndex(pageLang()).then(
+      function (d) { docs = d; run(true); },
+      function () { failed = true; run(false); }
+    );
+    if (field.value) setState(S.loading, '');
+
+    var onType = debounce(function () { syncUrl(); run(false); }, 140);
+    // Tracking waits for the typing to settle, so GA4 records "insulin
+    // resistance" once rather than every prefix of it.
+    var onSettle = debounce(function () { if (docs) trackSearch(field.value); }, 1200);
+    field.addEventListener('input', function () { onType(); onSettle(); });
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // already rendering live; don't reload the page
+      syncUrl();
+      run(true);
+      field.blur();
+    });
+
+    if (filters) {
+      filters.addEventListener('click', function (e) {
+        var btn = e.target.closest('.chip');
+        if (!btn) return;
+        kind = btn.getAttribute('data-kind');
+        var chips = filters.querySelectorAll('.chip');
+        for (var i = 0; i < chips.length; i++) {
+          var on = chips[i] === btn;
+          chips[i].classList.toggle('on', on);
+          chips[i].setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
+        run(false);
+      });
+    }
+
+    if (more) more.addEventListener('click', function () { render(false); });
+
+    // Back/forward between two shared result URLs.
+    window.addEventListener('popstate', function () {
+      field.value = new URLSearchParams(location.search).get('q') || '';
+      run(false);
+    });
+
+    // Focus an empty field only. Arriving with ?q= already set means the
+    // visitor came to read the results, and on a phone an autofocus would
+    // throw the keyboard over them.
+    if (!field.value) field.focus({ preventScroll: true });
+  })();
+</script>

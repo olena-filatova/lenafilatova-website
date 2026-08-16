@@ -1,0 +1,16 @@
+---
+// /ua/search/ — the Ukrainian counterpart of /search/. Same noindex rationale.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SearchBody from '../../components/SearchBody.astro';
+import { SEARCH_UI } from '../../data/search-lib.js';
+const t = SEARCH_UI.ua;
+---
+<BaseLayout
+  lang="ua"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/ua/search/"
+  alternates={{ en: '/search/', ua: '/ua/search/' }}
+  noindex={true}>
+  <SearchBody lang="ua" />
+</BaseLayout>

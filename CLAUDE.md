@@ -26,6 +26,17 @@ be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
   which is the only real redirect available here. Canonical, hreflang, `og:url`,
   the sitemap `FLAT` list, `TOOL_REDIRECTS` targets and any in-post links must all
   use the trailing-slash form.
+- **Site search** (`/search/` + `/ua/search/`, OPS-288): the index is built at
+  build time from the data modules by `src/data/search-lib.js` and served as
+  `search-index-en.json` / `-ua.json`, so a new post or recipe is searchable
+  automatically — **there is no indexing step to run**. Adding a new *static
+  page*, though, means adding it to `buildDocs()` or it will be unfindable.
+  The results page is `noindex` and deliberately absent from `sitemap.xml`
+  (thin, near-duplicate content), but must stay crawlable — never add a
+  `Disallow: /search/` to robots.txt or Googlebot can't read the noindex.
+  Matching is prefix-based on a lightly-stemmed query, which is what lets one
+  engine serve English plurals and Ukrainian case endings; see the header
+  comment in `src/scripts/search.js` before changing the ranking weights.
 - **Tables & Safari:** all wide tables use `border-collapse: separate` with a
   sticky first column — Safari cannot stick cells in a collapsed table. Keep that
   pattern when adding tables.
