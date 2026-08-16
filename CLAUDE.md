@@ -16,9 +16,16 @@ be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
   the domain verified for this GitHub account — never remove it.
 - **Structure:** pages in `src/pages` (+ `ua/` mirrors), shared components in
   `src/components`, content data in `src/data`. Standalone interactive tools
-  (carb/GI table, CGM comparison, AID comparison, blood sugar investigator — EN
-  and `-ua` variants) are self-contained HTML files in `public/`, served at
-  `/carb-gi-table` etc. (GitHub Pages resolves extensionless URLs to `.html`).
+  (carb/GI table, CGM comparison, AID comparison, blood sugar investigator, T1D
+  cure trials — EN and `-ua` variants) are self-contained HTML files in `public/`,
+  each as `public/<slug>/index.html`, served at `/carb-gi-table/` etc. **Keep the
+  directory shape and the trailing slash** — as flat `<slug>.html` files GitHub
+  Pages served the page at two 200 URLs (`/carb-gi-table` *and*
+  `/carb-gi-table.html`) and Google ranked both (OPS-262). A static host cannot
+  301 an arbitrary path, but it *does* 301 a directory path missing its slash,
+  which is the only real redirect available here. Canonical, hreflang, `og:url`,
+  the sitemap `FLAT` list, `TOOL_REDIRECTS` targets and any in-post links must all
+  use the trailing-slash form.
 - **Tables & Safari:** all wide tables use `border-collapse: separate` with a
   sticky first column — Safari cannot stick cells in a collapsed table. Keep that
   pattern when adding tables.

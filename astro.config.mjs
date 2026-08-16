@@ -9,15 +9,16 @@ import { RETIRED_SLUG_TARGETS } from './src/data/recipes.js';
 const BASE = '/';
 const withBase = (p) => (BASE === '/' ? p : BASE + p);
 
-// Legacy live-site URLs for the carried-over standalone tools, which live
-// here as flat .html files. Keeps old inbound links working after cutover.
-// Targets are extensionless — the spelling each tool page declares as its own
-// canonical — so a legacy link lands on the canonical URL directly instead of
-// redirecting into the .html duplicate and relying on the canonical tag there.
+// Legacy live-site URLs for the carried-over standalone tools, which live in
+// public/ as `<slug>/index.html`. Keeps old inbound links working after cutover.
+// Targets carry a trailing slash — the spelling each tool page declares as its
+// own canonical, and the only one GitHub Pages serves as 200 (OPS-262 moved
+// these out of flat `<slug>.html` files so the extension duplicate stopped
+// ranking). Without the slash the visitor would land on a redirect to it.
 const TOOL_REDIRECTS = Object.fromEntries(
   ['aid-comparison', 'cgm-comparison', 'blood-sugar-investigator', 'carb-gi-table'].flatMap((t) => [
-    [`/resources/${t}`, withBase(`/${t}`)],
-    [`/ua/resources/${t}`, withBase(`/${t}-ua`)],
+    [`/resources/${t}`, withBase(`/${t}/`)],
+    [`/ua/resources/${t}`, withBase(`/${t}-ua/`)],
   ])
 );
 
