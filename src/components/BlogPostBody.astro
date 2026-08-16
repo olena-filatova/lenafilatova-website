@@ -24,10 +24,17 @@ const dim = (src) => DIMS[src] || {};
 const related = relatedPosts(post, POSTS);
 ---
 <article class="post">
-  <p class="cat">{a.cat}</p>
-  <h1>{a.title}</h1>
-  <p class="byline">{t.byline} · {a.meta}</p>
-  <p class="alt"><a href={altHref}>{t.readAlt}</a></p>
+  {/* Article header: kicker, serif headline, then a hairline rule with the
+      credit line and the other-language link riding on it. The rule is what
+      separates the display block from the reading column. */}
+  <header class="post-head">
+    <p class="cat">{a.cat}</p>
+    <h1>{a.title}</h1>
+    <div class="post-meta">
+      <p class="byline">{t.byline} · {a.meta}</p>
+      <p class="alt"><a href={altHref}>{t.readAlt}</a></p>
+    </div>
+  </header>
   {post.comingSoon && (
     <div class="soon-note">
       <span class="badge">{t.comingSoonBadge}</span>
@@ -54,14 +61,20 @@ const related = relatedPosts(post, POSTS);
           {b.cap && <figcaption>{b.cap}</figcaption>}
         </figure>;
       if (b.t === 'refs')
-        return <div class="refs">{b.items.map((r) => (
+        return <div class="refs">
+          {/* UI.refsNote already existed in both languages but was never
+              rendered; the source list needs a head now that it is a ruled
+              block rather than a stack of cards. */}
+          <p class="refs-title">{t.refsNote}</p>
+          {b.items.map((r) => (
           <div class="ref">
             <strong>{r.claim}</strong>
             <p>{r.detail}</p>
             {r.url && <a href={r.url} target="_blank" rel="noopener noreferrer">{r.cite} ↗</a>}
             {!r.url && <span class="ref-cite">{r.cite}</span>}
           </div>
-        ))}</div>;
+        ))}
+        </div>;
       if (b.t === 'links')
         return <div class="cards">{b.items.map((l) => (
           <a class="card" href={l.url} target="_blank" rel="noopener noreferrer">
