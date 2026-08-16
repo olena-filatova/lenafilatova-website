@@ -30,10 +30,18 @@ const {
   newsletter = true,
 } = Astro.props;
 
-const canonicalUrl = new URL(canonical, Astro.site).href;
+// The site is `trailingSlash: 'always'`, so /about is a 301 to /about/ — and a
+// canonical (or hreflang) pointing at a redirect is a canonical Google either
+// ignores or, as it did here, honours by indexing the redirecting URL instead
+// of the real one (OPS-289: /about/ sat in Search Console as "Alternative page
+// with proper canonical tag" while /about — the 301 — was the indexed URL).
+// Normalising here rather than only at the 16 call sites means a new page that
+// passes canonical="/foo" can't quietly reintroduce it.
+const slashed = (p) => (p.endsWith('/') ? p : p + '/');
+const canonicalUrl = new URL(slashed(canonical), Astro.site).href;
 const ogImageUrl = new URL(ogImage, Astro.site).href;
-const altEn = alternates && new URL(alternates.en, Astro.site).href;
-const altUa = alternates && new URL(alternates.ua, Astro.site).href;
+const altEn = alternates && new URL(slashed(alternates.en), Astro.site).href;
+const altUa = alternates && new URL(slashed(alternates.ua), Astro.site).href;
 // X/Twitter renders `summary_large_image` as a wide ~1.91:1 banner and `summary`
 // as a small square thumbnail. Picking the wrong one is visible damage: a
 // portrait photo in a wide card is cropped to a band across the subject's

@@ -3865,12 +3865,12 @@ export const POSTS = [
           "items": [
             {
               "name": "Gut bacteria, fibre and hormones: 2026's precision-nutrition research",
-              "url": "/blog/gut-microbiome-precision-nutrition-women-2026",
+              "url": "/blog/gut-microbiome-precision-nutrition-women-2026/",
               "desc": "The companion piece — how the same gut community is being linked to weight and inflammation, and why the 'best' diet may end up being personalised."
             },
             {
               "name": "Why skin changes so fast at menopause",
-              "url": "/blog/menopause-skin-oestrogen",
+              "url": "/blog/menopause-skin-oestrogen/",
               "desc": "Another system that depends on oestrogen, and what hormone therapy can and cannot do about it."
             }
           ]
@@ -3947,12 +3947,12 @@ export const POSTS = [
           "items": [
             {
               "name": "Бактерії кишківника, клітковина й гормони: дослідження точного харчування 2026 року",
-              "url": "/ua/blog/gut-microbiome-precision-nutrition-women-2026",
+              "url": "/ua/blog/gut-microbiome-precision-nutrition-women-2026/",
               "desc": "Споріднений матеріал — як ту саму мікробіоту пов'язують із вагою та запаленням і чому «найкраща» дієта може виявитися персональною."
             },
             {
               "name": "Чому шкіра так швидко змінюється в менопаузі",
-              "url": "/ua/blog/menopause-skin-oestrogen",
+              "url": "/ua/blog/menopause-skin-oestrogen/",
               "desc": "Ще одна система, що залежить від естрогену, і що з цим може (і чого не може) зробити гормональна терапія."
             }
           ]
@@ -4363,12 +4363,12 @@ export const POSTS = [
           "items": [
             {
               "name": "Carbohydrate quality and healthy ageing",
-              "url": "/blog/carb-quality-healthy-aging",
+              "url": "/blog/carb-quality-healthy-aging/",
               "desc": "Why fibre-rich, unrefined carbohydrates in midlife are tied to better odds of ageing well — the same whole-food pattern this gut research points to."
             },
             {
               "name": "Natural sweeteners, sugar and your gut",
-              "url": "/blog/natural-sweeteners",
+              "url": "/blog/natural-sweeteners/",
               "desc": "A closer look at how different sweeteners can affect the gut microbiome and your blood-sugar response."
             }
           ]
@@ -4434,12 +4434,12 @@ export const POSTS = [
           "items": [
             {
               "name": "Якість вуглеводів і здорове старіння",
-              "url": "/ua/blog/carb-quality-healthy-aging",
+              "url": "/ua/blog/carb-quality-healthy-aging/",
               "desc": "Чому багаті на клітковину, нерафіновані вуглеводи в середньому віці пов'язані з кращими шансами старіти здорово — той самий цільнопродуктовий патерн, на який вказує це дослідження кишківника."
             },
             {
               "name": "Натуральні підсолоджувачі, цукор і ваш кишківник",
-              "url": "/ua/blog/natural-sweeteners",
+              "url": "/ua/blog/natural-sweeteners/",
               "desc": "Докладніше про те, як різні підсолоджувачі можуть впливати на мікробіом кишківника й реакцію цукру в крові."
             }
           ]
