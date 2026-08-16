@@ -93,6 +93,40 @@ export function giBand(gi, lang) {
   return { label, color };
 }
 
+/* ---------- nutrition line → a stat block (OPS-275) ----------
+   `nutrition` is one free-text line per language, written to a house format:
+   "Per slice (est.): ~270 kcal · Carbs 18 g · Fat 19 g · Protein 8 g", and in
+   UA "На 100 г (прибл.): ~270 ккал · Вуглеводи 18 г · Жири 19 г · Білки 8 г"
+   (decimals with a comma). All 86 recipes follow it in both languages.
+
+   Splitting it lets the detail page set the figures as a proper stat block
+   instead of a sentence. This is presentation only — the JSON-LD keeps its own
+   parser above, which reads the same line for schema.org fields.
+
+   A line that does NOT match comes back as `{ raw }` and is rendered as the
+   plain sentence it always was, so a future recipe written to a different shape
+   degrades instead of losing its nutrition figures. Anything trailing the last
+   value (one recipe carries "(varies by colour)") is kept as `note`. */
+const NUTRI_LINE = new RegExp(
+  '^(.*?):\\s*~?\\s*([\\d.,]+)\\s*(?:kcal|ккал)' +
+  '\\s*·\\s*(?:carbs?|вуглеводи)\\s*([\\d.,]+)\\s*(?:g|г)' +
+  '\\s*·\\s*(?:fat|жири)\\s*([\\d.,]+)\\s*(?:g|г)' +
+  '\\s*·\\s*(?:protein|білки)\\s*([\\d.,]+)\\s*(?:g|г)\\s*(.*)$', 'i');
+
+export function nutritionStats(R, lang = 'en') {
+  const raw = R.nutrition?.[lang];
+  if (!raw) return null;
+  const m = String(raw).replace(/\s+/g, ' ').trim().match(NUTRI_LINE);
+  if (!m) return { raw };
+  return { raw, basis: m[1].trim(), kcal: m[2], carbs: m[3], fat: m[4], protein: m[5], note: m[6].trim() };
+}
+
+// Units for the stat block. `kcal` is its own label; the macros share "g".
+export const NUTRI_LABELS = {
+  en: { kcal: 'kcal', carbs: 'Carbs', fat: 'Fat', protein: 'Protein', g: 'g' },
+  ua: { kcal: 'ккал', carbs: 'Вуглеводи', fat: 'Жири', protein: 'Білки', g: 'г' },
+};
+
 export const GI_DISCLAIMER = {
   en: 'Nutrition and glycaemic index (GI) values are estimates, calculated from the ingredients. Please double-check meals before cooking if it matters for your diet.',
   ua: 'Значення поживності та глікемічного індексу (ГІ) приблизні — розраховані з інгредієнтів. Будь ласка, перевіряйте страви перед приготуванням, якщо це важливо для вашого раціону.',

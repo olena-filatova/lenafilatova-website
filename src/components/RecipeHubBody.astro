@@ -1,7 +1,17 @@
 ---
-// Recipe hub: server-rendered card grid + Type/Diet filter chips + Load more.
-// Cards carry data-cat / data-diet; the inline script only shows/hides them
-// (no client rendering, no language toggle — language is fixed by the URL).
+// Recipe hub — the editorial system (OPS-275).
+//
+// Server-rendered card grid + Type/Diet filters + Load more. Cards carry
+// data-cat / data-diet; the inline script only shows/hides them (no client
+// rendering, no language toggle — language is fixed by the URL).
+//
+// LAYOUT. Food photography is the draw on this page, so the pictures stay
+// larger than anywhere else on the site: square, three across at full width,
+// sitting on a paper well with the caption underneath rather than inside card
+// chrome. The GI figure moves onto the photograph as the homepage's ink
+// plaque — it is the number the whole section exists for. Filters become text
+// with an active underline (blog hub), each group on its own labelled hairline
+// row so it stays clear that Type and Diet narrow together.
 import { PUBLISHED } from '../data/recipes.js';
 import { CAT_HUB } from '../data/recipes-lib.js';
 import '../styles/recipes.css';
@@ -33,14 +43,14 @@ const orderedRecipes = [
 // before the inline script gets a chance to hide anything.
 //
 // INITIAL matches the largest first batch the script can choose (batchSize() is
-// columns x 3 rows, and the grid tops out around 6 columns), so pre-hiding past
+// columns x 3 rows, and the grid tops out around 4 columns), so pre-hiding past
 // it never takes away a card the script would have shown — no visible reflow.
 // Cards past it are display:none, and a lazy <img> inside display:none is never
 // fetched.
 const INITIAL = 18;
 // The first row is what the visitor actually looks at. `lazy` keeps those out of
 // the preload scanner and queues them at Low priority behind everything else,
-// which is what left them as empty pink gradient boxes.
+// which is what left them as empty gradient boxes.
 const EAGER = 4;
 
 const TYPE_CHIPS = [
@@ -63,6 +73,7 @@ function recipeWord(n) {
 
 const T = {
   eyebrow: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI Recipes',
+  h1: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI recipes',
   lede: lang === 'ua'
     ? 'Страви, дружні до рівня цукру в крові, для жінок 40+ — випічка без цукру, низьковуглеводні страви й десерти, англійською та українською. Додавайте будь-який рецепт до спільного списку покупок.'
     : 'Blood-sugar-friendly recipes for women 40+ — sugar-free bakes, low-carb mains and desserts, in English and Ukrainian. Add any recipe to one combined shopping list.',
@@ -81,59 +92,72 @@ const T = {
   if (new RegExp('[?&]lang=' + otherLang).test(location.search)) location.replace(altHubHref);
 </script>
 
-<div class="rx wide">
-  <div class="eyebrow">{T.eyebrow}</div>
-  <h1>{T.eyebrow}</h1>
-  <p class="lede">{T.lede}</p>
-
-  <div class="filters" id="filters">
-    <div class="filter-row">
-      <span class="filter-label" id="flt-type">{T.typeLabel}</span>
-      <div class="chips" role="group" aria-labelledby="flt-type">
-        {TYPE_CHIPS.map((c) => (
-          <button class="chip" type="button" aria-pressed="false" data-group="cat" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
-        ))}
+<div class="rx">
+  <section class="rx-hub-head">
+    <div class="wrap">
+      {/* Label + hairline rule, the masthead device the homepage and blog use. */}
+      <p class="est"><span class="est-label">{T.eyebrow}</span><span class="est-rule"></span></p>
+      <div class="head">
+        <h1>{T.h1}</h1>
+        <p class="lede">{T.lede}</p>
       </div>
     </div>
-    <div class="filter-row">
-      <span class="filter-label" id="flt-diet">{T.dietLabel}</span>
-      <div class="chips" role="group" aria-labelledby="flt-diet">
-        {DIET_CHIPS.map((c) => (
-          <button class="chip" type="button" aria-pressed="false" data-group="diet" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
-        ))}
-      </div>
-    </div>
-  </div>
+  </section>
 
-  <div class="bar2">
-    <div class="count"><b id="countNum">{PUBLISHED.length}</b> <span id="countWord">{recipeWord(PUBLISHED.length)}</span></div>
-    <button class="clear" id="clearBtn" disabled>{T.clear}</button>
-  </div>
-
-  <div class="cards" id="grid">
-    {orderedRecipes.map((r, i) => (
-      <a class={`rcard${i >= INITIAL ? ' hidden' : ''}`} href={`${R}${r.slug}/`} data-cat={r.cat} data-diet={(r.tags || []).join(' ')}>
-        <div class="thumb"><img src={`${IMG}${r.img}`} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt={r.title[lang]} /></div>
-        <div class="body">
-          <div class="title">{r.title[lang]}</div>
-          <div class="cmeta"><span>{CAT_HUB[r.cat][lang]}</span><span>{r.meta.serves[lang]}</span></div>
+  <div class="wrap">
+    <div class="rx-filters" id="filters">
+      <div class="filter-row">
+        <span class="filter-label" id="flt-type">{T.typeLabel}</span>
+        <div class="chips" role="group" aria-labelledby="flt-type">
+          {TYPE_CHIPS.map((c) => (
+            <button class="chip" type="button" aria-pressed="false" data-group="cat" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
+          ))}
         </div>
-      </a>
-    ))}
+      </div>
+      <div class="filter-row">
+        <span class="filter-label" id="flt-diet">{T.dietLabel}</span>
+        <div class="chips" role="group" aria-labelledby="flt-diet">
+          {DIET_CHIPS.map((c) => (
+            <button class="chip" type="button" aria-pressed="false" data-group="diet" data-value={c.v}>{lang === 'ua' ? c.ua : c.en}</button>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="bar2">
+      <div class="count"><b id="countNum">{PUBLISHED.length}</b> <span id="countWord">{recipeWord(PUBLISHED.length)}</span></div>
+      <button class="clear" id="clearBtn" disabled>{T.clear}</button>
+    </div>
+
+    <div class="cards" id="grid">
+      {orderedRecipes.map((r, i) => (
+        <a class={`rcard${i >= INITIAL ? ' hidden' : ''}`} href={`${R}${r.slug}/`} data-cat={r.cat} data-diet={(r.tags || []).join(' ')}>
+          <div class="thumb">
+            <img src={`${IMG}${r.img}`} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt={r.title[lang]} />
+            {typeof r.gi === 'number' && <span class="gi-plaque"><b>{r.gi}</b><span>GI</span></span>}
+          </div>
+          <div class="body">
+            <div class="title">{r.title[lang]}</div>
+            <div class="cmeta"><span>{CAT_HUB[r.cat][lang]}</span><span>{r.meta.serves[lang]}</span></div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {/* Without JS nothing ever calls apply(), so the pre-hidden cards would stay
+        hidden and "Load more" (display:none until the script shows it) could not
+        bring them back. Give those visitors the whole grid instead — as flex,
+        which is what the card layout is. */}
+    <noscript><style>.rx .cards .rcard.hidden { display: flex; }</style></noscript>
+
+    <div class="more-wrap" id="moreWrap"><button class="more-btn" id="moreBtn">{T.more}</button></div>
+    <div class="empty" id="empty">
+      <h3>{T.emptyH}</h3>
+      <p>{T.emptyP}</p>
+    </div>
+
+    <p class="foot-note">{T.foot}</p>
   </div>
-
-  {/* Without JS nothing ever calls apply(), so the pre-hidden cards would stay
-      hidden and "Load more" (display:none until the script shows it) could not
-      bring them back. Give those visitors the whole grid instead. */}
-  <noscript><style>.rx .cards .rcard.hidden { display: block; }</style></noscript>
-
-  <div class="more-wrap" id="moreWrap"><button class="more-btn" id="moreBtn">{T.more}</button></div>
-  <div class="empty" id="empty">
-    <h3>{T.emptyH}</h3>
-    <p>{T.emptyP}</p>
-  </div>
-
-  <p class="foot-note">{T.foot}</p>
 </div>
 
 <script define:vars={{ lang }}>
