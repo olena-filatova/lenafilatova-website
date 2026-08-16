@@ -66,7 +66,26 @@ const T = {
 const band = giBand(R.gi, l);
 const imgs = imagesOf(R);
 const primary = imgs[0];
-const others = PUBLISHED.filter((x) => x.slug !== R.slug).slice(0, 3);
+/* "More Low-GI recipes" (OPS-201). This used to be the first three entries of
+   PUBLISHED — i.e. the same three cards on all 86 recipes, related to nothing.
+   A recipe can now name its own cluster with `related: [slug, …]`, rendered in
+   the order given; anything without one keeps the old newest-first default.
+   Unknown or retired slugs are dropped rather than rendering a dead card, and
+   a self-reference can't slip in.
+
+   A named cluster renders in full rather than being capped at 3: the five
+   rhubarb jams would each have had to drop one sibling, and the one dropped
+   everywhere was the page with no impressions at all — precisely the page the
+   internal links exist for. The grid is auto-fill, so a fourth card wraps
+   rather than breaking the row. */
+const bySlug = new Map(PUBLISHED.map((x) => [x.slug, x]));
+const picked = (R.related || [])
+  .filter((s) => s !== R.slug)
+  .map((s) => bySlug.get(s))
+  .filter(Boolean);
+const others = picked.length
+  ? picked
+  : PUBLISHED.filter((x) => x.slug !== R.slug).slice(0, 3);
 const nutri = nutritionStats(R, l);
 const NL = NUTRI_LABELS[l] || NUTRI_LABELS.en;
 

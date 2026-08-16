@@ -489,6 +489,12 @@ export const RECIPES = [
     slug: 'rhubarb-strawberry-jam', dateAdded: '2026-07-10', img: '45-rhubarb-strawberry-jam.jpg', cat: 'sauce', gi: 30,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rhubarb & Strawberry Chia Jam', ua: 'Варення з ревеню та полуниці (з чіа)' },
+    // OPS-201 rhubarb cluster — spoke. UA leads with the exact query GSC shows
+    // this page ranking for (`варення з ревеню і полуниці`, position 6.0); EN
+    // leads with the modifier, since no English rhubarb query exists at all.
+    seoTitle: { en: 'Strawberry Rhubarb Chia Jam — No Sugar, No Pectin', ua: 'Варення з ревеню і полуниці — без цукру, з чіа' },
+    metaDesc: { en: 'Rhubarb and strawberry set with chia instead of sugar and pectin, with cinnamon and ginger. Ready in half an hour, GI 30.', ua: 'Ревінь і полуниця, загущені чіа замість цукру й пектину, з корицею та імбиром. Готове за півгодини, ГІ 30.' },
+    related: ['rhubarb-quick-jam', 'rhubarb-lavender-jam', 'rhubarb-orange-jam', 'rhubarb-cherry-leaf-jam'],
     why: { en: 'A quick no-sugar jam set with chia instead of sugar and pectin — rhubarb and strawberry with a little warming spice, gentle on blood sugar.', ua: 'Швидке варення без цукру, загущене чіа замість цукру й пектину — ревінь і полуниця з дрібкою зігрівальних спецій, м’яко для рівня цукру.' },
     nutrition: { en: 'Per serving (est.): ~40 kcal · Carbs 8 g · Fat 1 g · Protein 1 g', ua: 'На порцію (прибл.): ~40 ккал · Вуглеводи 8 г · Жири 1 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
@@ -871,6 +877,11 @@ export const RECIPES = [
     slug: 'rhubarb-cherry-leaf-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 22,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rhubarb Jam with Cherry Leaves', ua: 'Варення з ревеню з вишневими листками' },
+    // OPS-201 rhubarb cluster — spoke. The only one of the five with zero GSC
+    // impressions in either language, so the modifier leads in both.
+    seoTitle: { en: 'Cherry Leaf Rhubarb Jam — Sugar-free, GI 22', ua: 'Варення з ревеню з вишневим листям — без цукру' },
+    metaDesc: { en: 'Rhubarb steeped for three hours with cherry leaves, then cooked and sweetened with stevia. No sugar, just 20 kcal a serving, GI 22.', ua: 'Ревінь, настояний три години на вишневих листках, потім зварений і підсолоджений стевією. Без цукру, лише 20 ккал на порцію, ГІ 22.' },
+    related: ['rhubarb-quick-jam', 'rhubarb-lavender-jam', 'rhubarb-strawberry-jam', 'rhubarb-orange-jam'],
     why: { en: 'A low-calorie rhubarb jam steeped with cherry leaves for aroma and sweetened with stevia — no sugar.', ua: 'Низькокалорійне варення з ревеню, настояне на вишневих листках для аромату та підсолоджене стевією — без цукру.' },
     nutrition: { en: 'Per serving (est.): ~20 kcal · Carbs 4 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~20 ккал · Вуглеводи 4 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '30 min + 3 h steep', ua: '30 хв + 3 год настоювання' }, serves: { en: 'Makes ~2 jars', ua: '~2 банки' } },
@@ -881,6 +892,12 @@ export const RECIPES = [
     slug: 'rhubarb-orange-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 43,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Rhubarb & Orange Jam', ua: 'Варення з ревеню з апельсинами' },
+    // OPS-201 rhubarb cluster — spoke. UA leads with the exact ranking query
+    // (`варення з ревеню і апельсинами`, position 17.0) — note "і", not the
+    // page title's "з"; EN leads with the modifier.
+    seoTitle: { en: 'Orange Rhubarb Jam — Sugar-free, No Pectin', ua: 'Варення з ревеню і апельсинами — без цукру' },
+    metaDesc: { en: 'Rhubarb simmered with whole fresh oranges and stevia — four steps, no sugar, no pectin, no gelling agent. Bright and citrusy, GI 43.', ua: 'Ревінь, зварений зі свіжими апельсинами та стевією — чотири кроки, без цукру, пектину й желатину. Яскраве й цитрусове, ГІ 43.' },
+    related: ['rhubarb-quick-jam', 'rhubarb-strawberry-jam', 'rhubarb-lavender-jam', 'rhubarb-cherry-leaf-jam'],
     why: { en: 'Rhubarb simmered with fresh orange and sweetened with stevia — a bright, no-sugar jam.', ua: 'Ревінь, зварений зі свіжим апельсином і підсолоджений стевією — яскраве варення без цукру.' },
     nutrition: { en: 'Per serving (est.): ~30 kcal · Carbs 6 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~30 ккал · Вуглеводи 6 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '28 min', ua: '28 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
@@ -891,6 +908,13 @@ export const RECIPES = [
     slug: 'rhubarb-quick-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Quick Baked Rhubarb Jam', ua: 'Варення з ревеню «П’ятихвилинка»' },
+    // OPS-201 rhubarb cluster — HUB. This page owns the head term: lowest GI of
+    // the five, fewest steps, no flavouring to qualify it. The UA title also
+    // carries "з лимоном" — GSC shows `варення з ревеню з лимоном` ranking at
+    // position 8.0 with no page of its own, and this is the lemon recipe.
+    seoTitle: { en: 'Rhubarb Jam — Sugar-free, Baked, Low GI 20', ua: 'Варення з ревеню з лимоном — без цукру, ГІ 20' },
+    metaDesc: { en: 'The simplest rhubarb jam: baked, blended, sweetened with stevia. Four steps, no sugar and no pectin, GI 20. Sharpened with lemon and ginger.', ua: 'Найпростіше варення з ревеню: запекти, збити, підсолодити стевією. Чотири кроки, без цукру й пектину, ГІ 20. З лимоном та імбиром.' },
+    related: ['rhubarb-lavender-jam', 'rhubarb-strawberry-jam', 'rhubarb-orange-jam', 'rhubarb-cherry-leaf-jam'],
     why: { en: 'A fuss-free rhubarb jam baked in the oven and blended, sharpened with lemon and ginger and sweetened with stevia — no sugar.', ua: 'Просте варення з ревеню, запечене в духовці й збите, з лимоном та імбиром, підсолоджене стевією — без цукру.' },
     nutrition: { en: 'Per serving (est.): ~25 kcal · Carbs 5 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~25 ккал · Вуглеводи 5 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '40 min', ua: '40 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
@@ -901,6 +925,12 @@ export const RECIPES = [
     slug: 'rhubarb-lavender-jam', dateAdded: '2026-07-10', img: '84-rhubarb-lavender-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'dairy-free'],
     title: { en: 'Rhubarb & Lavender Jam (Sugar-free)', ua: 'Варення з ревеню з лавандою (без цукру)' },
+    // OPS-201 rhubarb cluster — spoke. UA leads with lavender because GSC shows
+    // `варення з лаванди` (no rhubarb in the query) reaching this page at
+    // position 31.0 — the lavender is what people are searching for.
+    seoTitle: { en: 'Lavender Rhubarb Jam — Sugar-free, Low GI 20', ua: 'Варення з лаванди та ревеню — без цукру, ГІ 20' },
+    metaDesc: { en: 'Rhubarb steeped with lavender flowers, lemon and zest, set with gelatin, agar or pectin and sweetened with stevia. No sugar, GI 20.', ua: 'Ревінь, настояний на квітах лаванди з лимоном і цедрою, загущений желатином, агаром чи пектином і підсолоджений стевією. Без цукру, ГІ 20.' },
+    related: ['rhubarb-quick-jam', 'rhubarb-strawberry-jam', 'rhubarb-orange-jam', 'rhubarb-cherry-leaf-jam'],
     why: { en: 'Rhubarb is naturally very low in sugar, and stevia replaces it entirely — stevia even has mild preservative properties. A fragrant, low-GI jam for spooning over yogurt or wholegrain toast.', ua: 'Ревінь від природи містить дуже мало цукру, а стевія повністю його замінює — до того ж стевія має легкі консервувальні властивості. Ароматне варення з низьким ГІ до йогурту чи цільнозернового тосту.' },
     nutrition: { en: 'Per serving (est.): ~35 kcal · Carbs 5 g · Fat 0 g · Protein 3 g', ua: 'На порцію (прибл.): ~35 ккал · Вуглеводи 5 г · Жири 0 г · Білки 3 г' },
     meta: { prep: { en: '3 min + 30 min steeping', ua: '3 хв + 30 хв настоювання' }, cook: { en: '35 min', ua: '35 хв' }, serves: { en: 'Makes ~7 servings', ua: '~7 порцій' } },
