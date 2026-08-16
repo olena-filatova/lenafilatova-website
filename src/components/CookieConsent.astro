@@ -25,14 +25,17 @@ const policyHref = `${L}cookies/`;
 
 <style>
   /* display:flex below would override the hidden attribute's UA display:none,
-     leaving the bar visible after Accept/Decline — this rule must win. */
+     leaving the bar visible after Accept/Decline — this rule must win.
+     Kept as the FIRST rule and re-verified after the OPS-270 restyle. */
   .cookie-bar[hidden] { display: none !important; }
-  /* Full-width bar flush to the bottom edge of the screen (mobile-first). */
+  /* Full-width bar flush to the bottom edge of the screen (mobile-first).
+     Square, on paper, closed off by the same heavy ink rule the footer uses —
+     it reads as a strip torn off the page rather than a floating card. */
   .cookie-bar {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 100;
-    background: var(--card); border-top: 1px solid var(--line);
+    background: var(--card); border-top: 1.5px solid var(--ink);
     padding: 12px 16px; padding-bottom: calc(12px + env(safe-area-inset-bottom));
-    box-shadow: 0 -6px 24px rgba(51, 27, 51, 0.12);
+    box-shadow: 0 -6px 24px rgba(42, 20, 36, 0.12);
   }
   /* Inner wrapper keeps the content readable-width and centred on wide screens
      while the bar background still spans edge to edge. */
@@ -41,8 +44,11 @@ const policyHref = `${L}cookies/`;
     display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between;
   }
   .cookie-bar p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--muted); flex: 1 1 240px; min-width: 0; }
-  .cookie-bar p a { color: var(--accent); font-weight: 600; }
+  .cookie-bar p a { color: var(--accent); font-weight: 700; border-bottom: 1px solid currentColor; }
   .cookie-actions { display: flex; gap: 8px; align-items: center; margin-left: auto; }
-  .cookie-bar .btn { padding: 9px 18px; font-size: 13.5px; }
-  .cookie-decline { border: none; background: transparent; color: var(--muted); font-family: var(--font-body); font-size: 13.5px; font-weight: 600; cursor: pointer; padding: 9px 10px; }
+  /* .btn is a 50px block by default — too heavy for a consent strip, so the
+     min-height is reset alongside the padding. */
+  .cookie-bar .btn { min-height: 38px; padding: 9px 20px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .cookie-decline { border: none; background: transparent; color: var(--muted); font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; padding: 9px 10px; }
+  .cookie-decline:hover { color: var(--ink); }
 </style>

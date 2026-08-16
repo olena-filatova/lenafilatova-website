@@ -1,12 +1,13 @@
 ---
 // Homepage — editorial redesign (Aug 2026).
 //
-// SCOPE: deliberately homepage-only. The look here (warm paper, serif display,
-// hairline rules, numbered indices, square buttons) is NOT the rest of the
-// site, which is still the pink/rounded-card system in global.css. All styling
-// below lives in this component's scoped <style>, so nothing leaks into blog,
-// recipes, about or the standalone tools. When those pages are restyled, lift
-// these tokens into global.css and delete the local copies.
+// SCOPE: the look here (warm paper, serif display, hairline rules, numbered
+// indices, square buttons) is now the SITE-WIDE system. Its tokens were lifted
+// out of this file into global.css in OPS-270, so --accent / --ink / --bg /
+// --paper2 / --line / --rule below are the shared ones — change them there, not
+// here. What stays in this component's scoped <style> is only the layout that
+// is genuinely particular to the homepage (hero, trust band, numbered sections,
+// voices, waitlist). Page-level restyles land in OPS-273 to OPS-278.
 //
 // ORDER is deliberate: problem-led hero -> why trust her -> free tools (give
 // before asking) -> freshness -> pleasure -> proof it works -> scope -> the ask.
@@ -226,133 +227,126 @@ const toolHref = (card) => {
 </div>
 
 <style>
-  /* Editorial tokens — local to the homepage on purpose (see header note). */
-  .ed {
-    --ed-accent: #B23A63;
-    --ed-accent-deep: #7C2144;
-    --ed-ink: #2A1424;
-    --ed-soft: #5A4152;
-    --ed-paper: #F5EFE8;
-    --ed-paper2: #EFE6DC;
-    --ed-rule: rgba(42, 20, 36, 0.18);
-    --ed-hair: rgba(42, 20, 36, 0.10);
-    --ed-display: 'Spectral', Georgia, serif;
-    --ed-ui: 'Manrope', -apple-system, sans-serif;
-    background: #F5EFE8;
-  }
-  .ed :is(h1, h2, h3, h4) { font-family: var(--ed-display); color: var(--ed-ink); font-weight: 400; letter-spacing: -0.01em; margin: 0; }
-  .ed p { color: var(--ed-soft); }
+  /* Tokens now live in global.css (OPS-270) — this page reads the same
+     --accent / --ink / --bg / --line set as the rest of the site. */
+  .ed { background: var(--bg); }
+  .ed :is(h1, h2, h3, h4) { font-family: var(--font-head); color: var(--ink); font-weight: 400; letter-spacing: -0.01em; margin: 0; }
+  .ed p { color: var(--muted); }
 
-  .ed-label { font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ed-accent); }
-  .ed-label.dim { color: var(--ed-soft); opacity: 0.75; }
+  .ed-label { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
+  .ed-label.dim { color: var(--muted); opacity: 0.75; }
 
   .ed-btn {
     display: inline-flex; align-items: center; justify-content: center; gap: 9px;
     min-height: 54px; width: 100%; padding: 15px 26px; border: 0; border-radius: 0;
-    font-family: var(--ed-ui); font-weight: 700; font-size: 15px;
-    background: var(--ed-ink); color: var(--ed-paper); cursor: pointer;
+    font-family: var(--font-body); font-weight: 700; font-size: 15px;
+    background: var(--ink); color: var(--bg); cursor: pointer;
     transition: background 0.2s ease;
   }
-  .ed-btn.mag { background: var(--ed-accent); color: #fff; }
-  .ed-btn.line { background: transparent; color: var(--ed-ink); box-shadow: inset 0 0 0 1.5px var(--ed-ink); }
-  .ed-btn .ar { font-family: var(--ed-display); font-size: 18px; line-height: 1; }
+  .ed-btn.mag { background: var(--accent); color: #fff; }
+  .ed-btn.line { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+  .ed-btn .ar { font-family: var(--font-head); font-size: 18px; line-height: 1; }
 
   .ed-hero { padding: 26px 0 0; }
   .ed-est { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
-  .ed-rule { height: 1px; background: var(--ed-rule); flex: 1; }
+  .ed-rule { height: 1px; background: var(--rule); flex: 1; }
   .ed-hero h1 { font-size: 34px; line-height: 1.04; letter-spacing: -0.028em; }
-  .ed-hero h1 .it { font-style: italic; color: var(--ed-accent); font-weight: 300; }
-  .ed-lead { font-family: var(--ed-display); font-size: 18px; line-height: 1.5; font-weight: 300; margin: 20px 0 0; }
+  .ed-hero h1 .it { font-style: italic; color: var(--accent); font-weight: 300; }
+  .ed-lead { font-family: var(--font-head); font-size: 18px; line-height: 1.5; font-weight: 300; margin: 20px 0 0; }
   .ed-cta { display: flex; flex-direction: column; gap: 10px; margin: 24px 0 14px; }
   .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.45; opacity: 0.8; margin: 0 0 22px; }
-  .ed-disclaimer::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--ed-accent); margin-top: 9px; }
+  .ed-disclaimer::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--accent); margin-top: 9px; }
 
   .ed-portrait { --peek: 14px; }
   /* The block is anchored to .ed-shot (the photo alone). Anchoring it to
      .ed-portrait put it behind the caption, which is what it was doing. */
   .ed-shot { position: relative; }
-  .ed-frame { position: relative; z-index: 2; aspect-ratio: 1 / 1.08; overflow: hidden; background: var(--ed-paper2); border-radius: 50% 50% 0 0 / 38% 38% 0 0; }
+  .ed-frame { position: relative; z-index: 2; aspect-ratio: 1 / 1.08; overflow: hidden; background: var(--paper2); border-radius: 50% 50% 0 0 / 38% 38% 0 0; }
   .ed-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
-  .ed-blk { position: absolute; z-index: 1; left: -10px; right: 34%; bottom: calc(var(--peek) * -1); height: 46%; background: var(--ed-accent); }
+  .ed-blk { position: absolute; z-index: 1; left: -10px; right: 34%; bottom: calc(var(--peek) * -1); height: 46%; background: var(--accent); }
   /* the block's overhang drives the caption offset, so they cannot collide */
-  .ed-cap { position: relative; z-index: 3; background: var(--ed-paper); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--ed-accent); font-family: var(--ed-display); font-style: italic; font-size: 15px; }
+  .ed-cap { position: relative; z-index: 3; background: var(--bg); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--accent); font-family: var(--font-head); font-style: italic; font-size: 15px; }
 
-  .ed-band { margin-top: 34px; background: var(--ed-paper2); border-top: 1.5px solid var(--ed-ink); border-bottom: 1px solid var(--ed-rule); }
+  .ed-band { margin-top: 34px; background: var(--paper2); border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--rule); }
   .ed-band-grid { display: grid; grid-template-columns: 1fr 1fr; }
-  .ed-stat { padding: 20px 16px 20px 0; border-bottom: 1px solid var(--ed-hair); }
-  .ed-stat:nth-child(odd) { border-right: 1px solid var(--ed-hair); }
+  .ed-stat { padding: 20px 16px 20px 0; border-bottom: 1px solid var(--line); }
+  .ed-stat:nth-child(odd) { border-right: 1px solid var(--line); }
   .ed-stat:nth-child(even) { padding-left: 16px; }
   .ed-stat:nth-child(n + 3) { border-bottom: 0; }
-  .ed-stat .n { font-family: var(--ed-display); font-size: 24px; line-height: 1; color: var(--ed-accent); margin-bottom: 6px; letter-spacing: -0.02em; }
-  .ed-stat .l { font-size: 12.5px; line-height: 1.4; color: var(--ed-soft); }
+  .ed-stat .n { font-family: var(--font-head); font-size: 24px; line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
+  .ed-stat .l { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
 
   .ed-sec { padding: 52px 0 0; }
-  .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ed-ink); margin-bottom: 22px; }
-  .ed-num { font-family: var(--ed-display); font-size: 13px; color: var(--ed-accent); font-weight: 500; }
-  .ed-name { font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ed-ink); }
-  .ed-more { margin-left: auto; font-family: var(--ed-ui); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ed-accent); white-space: nowrap; }
-  .ed-readmore { font-family: var(--ed-ui); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-ink); border-bottom: 2px solid var(--ed-accent); padding-bottom: 4px; }
+  .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 22px; }
+  .ed-num { font-family: var(--font-head); font-size: 13px; color: var(--accent); font-weight: 500; }
+  .ed-name { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
+  .ed-more { margin-left: auto; font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+  .ed-readmore { font-family: var(--font-body); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
-  .ed-free { display: inline-block; font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-paper); background: var(--ed-accent); padding: 6px 12px; margin-bottom: 16px; }
-  .ed-tools { border-top: 1px solid var(--ed-rule); }
-  .ed-tool { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--ed-hair); align-items: flex-start; transition: padding-left 0.22s ease; }
-  .ed-tool .idx { font-family: var(--ed-display); font-size: 14px; color: var(--ed-accent); padding-top: 4px; flex: none; width: 24px; }
+  .ed-free { display: inline-block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent); padding: 6px 12px; margin-bottom: 16px; }
+  .ed-tools { border-top: 1px solid var(--rule); }
+  .ed-tool { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--line); align-items: flex-start; transition: padding-left 0.22s ease; }
+  .ed-tool .idx { font-family: var(--font-head); font-size: 14px; color: var(--accent); padding-top: 4px; flex: none; width: 24px; }
   .ed-tool .body { display: block; }
-  .ed-tool .tag { display: block; font-family: var(--ed-ui); font-size: 10px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ed-soft); opacity: 0.75; margin-bottom: 7px; }
+  .ed-tool .tag { display: block; font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); opacity: 0.75; margin-bottom: 7px; }
   .ed-tool h3 { font-size: 22px; line-height: 1.15; margin-bottom: 6px; }
   .ed-tool p { margin: 0 0 10px; font-size: 14.5px; }
-  .ed-tool .go { font-family: var(--ed-ui); font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-accent); }
+  .ed-tool .go { font-family: var(--font-body); font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }
 
   .ed-feat { display: block; }
-  .ed-feat .ph { aspect-ratio: 4 / 3; background: var(--ed-paper2); overflow: hidden; }
+  .ed-feat .ph { aspect-ratio: 4 / 3; background: var(--paper2); overflow: hidden; }
   .ed-feat .ph img { width: 100%; height: 100%; object-fit: cover; }
   .ed-feat .body { padding: 22px 0 0; }
-  .ed-feat .cat { font-family: var(--ed-ui); font-size: 10px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ed-accent); }
+  .ed-feat .cat { font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
   .ed-feat h3 { font-size: 28px; line-height: 1.1; margin: 10px 0 12px; letter-spacing: -0.02em; }
-  .ed-feat p { font-family: var(--ed-display); font-size: 17px; font-weight: 300; line-height: 1.5; margin: 0 0 14px; }
-  .ed-feat .meta { font-family: var(--ed-ui); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; margin-bottom: 16px; }
+  .ed-feat p { font-family: var(--font-head); font-size: 17px; font-weight: 300; line-height: 1.5; margin: 0 0 14px; }
+  .ed-feat .meta { font-family: var(--font-body); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; margin-bottom: 16px; }
 
   .ed-rec { display: block; position: relative; }
-  .ed-rec .ph { position: relative; z-index: 2; aspect-ratio: 1 / 1; overflow: hidden; background: var(--ed-paper2); }
+  .ed-rec .ph { position: relative; z-index: 2; aspect-ratio: 1 / 1; overflow: hidden; background: var(--paper2); }
   /* the plate shot has a lot of empty rim — zoom to the food */
   .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.15); }
-  .ed-rec .gi { position: absolute; right: 0; top: -10px; z-index: 3; background: var(--ed-ink); color: var(--ed-paper); padding: 14px 16px; text-align: center; }
-  .ed-rec .gi b { display: block; font-family: var(--ed-display); font-size: 26px; line-height: 1; }
-  .ed-rec .gi span { font-family: var(--ed-ui); font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
+  .ed-rec .gi { position: absolute; right: 0; top: -10px; z-index: 3; background: var(--ink); color: var(--bg); padding: 14px 16px; text-align: center; }
+  .ed-rec .gi b { display: block; font-family: var(--font-head); font-size: 26px; line-height: 1; }
+  .ed-rec .gi span { font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
   .ed-rec .body { padding: 20px 0 0; }
   .ed-rec h3 { font-size: 26px; line-height: 1.12; margin: 8px 0 10px; }
   .ed-rec p { margin: 0 0 14px; font-size: 15.5px; }
-  .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--ed-rule); font-family: var(--ed-display); font-style: italic; font-size: 16.5px; color: var(--ed-ink); }
-  .ed-docline span { display: block; margin-top: 7px; font-family: var(--ed-ui); font-style: normal; font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-soft); }
+  .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); font-family: var(--font-head); font-style: italic; font-size: 16.5px; color: var(--ink); }
+  .ed-docline span { display: block; margin-top: 7px; font-family: var(--font-body); font-style: normal; font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
 
-  .ed-voices { margin-top: 56px; padding: 44px 0 40px; background: #2A1424; color: #E6D9E2; position: relative; overflow: hidden; }
+  .ed-voices { margin-top: 56px; padding: 44px 0 40px; background: var(--ink); color: #E6D9E2; position: relative; overflow: hidden; }
   .ed-voices::before { content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%); }
   .ed-voices .wrap { position: relative; }
   .ed-voices .ed-head { border-top-color: rgba(255, 255, 255, 0.5); }
   .ed-voices .ed-num { color: #EFA9C5; }
   .ed-voices .ed-name { color: #fff; }
   .ed-voices h2 { color: #fff; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 10px; }
-  .ed-intro { font-family: var(--ed-display); font-size: 16px; font-weight: 300; color: #C9B2C2; margin: 0 0 30px; }
+  /* Scoped to .ed-voices, not bare .ed-intro: `.ed p` above is (0,1,1) and was
+     beating a lone (0,1,0) class, so this paragraph was rendering in --muted on
+     the dark band — 1.89:1. With the selector qualified it gets the light tone
+     it was always meant to have (8.7:1). Caught by the OPS-270 contrast pass. */
+  .ed-voices .ed-intro { font-family: var(--font-head); font-size: 16px; font-weight: 300; color: #C9B2C2; margin: 0 0 30px; }
   .ed-q { margin: 0; padding: 26px 0; border-top: 1px solid rgba(255, 255, 255, 0.16); }
   .ed-q:first-of-type { border-top: 0; padding-top: 0; }
-  .ed-q p { font-family: var(--ed-display); font-weight: 300; font-style: italic; font-size: 20px; line-height: 1.42; color: #F4E9F0; margin: 0 0 14px; letter-spacing: -0.01em; }
+  .ed-q p { font-family: var(--font-head); font-weight: 300; font-style: italic; font-size: 20px; line-height: 1.42; color: #F4E9F0; margin: 0 0 14px; letter-spacing: -0.01em; }
   .ed-q .hl { font-style: normal; font-weight: 500; color: #fff; box-shadow: inset 0 -0.45em 0 rgba(178, 58, 99, 0.55); }
-  .ed-q cite { font-style: normal; font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #B79EB0; }
+  .ed-q cite { font-style: normal; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #B79EB0; }
   .ed-clin { margin-top: 30px; padding: 22px; border: 1px solid rgba(255, 255, 255, 0.22); }
-  .ed-clin .k { display: block; margin-bottom: 12px; font-family: var(--ed-ui); font-size: 9.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: #E0A9C0; }
-  .ed-clin .cq { font-family: var(--ed-display); font-style: italic; font-size: 19px; line-height: 1.35; color: #fff; margin: 0; }
-  .ed-clin .cw { margin: 10px 0 0; font-family: var(--ed-ui); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #B79EB0; }
+  .ed-clin .k { display: block; margin-bottom: 12px; font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: #E0A9C0; }
+  .ed-clin .cq { font-family: var(--font-head); font-style: italic; font-size: 19px; line-height: 1.35; color: #fff; margin: 0; }
+  .ed-clin .cw { margin: 10px 0 0; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #B79EB0; }
 
-  .ed-rows { border-top: 1px solid var(--ed-rule); }
-  .ed-row { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--ed-hair); }
-  .ed-row .n { font-family: var(--ed-display); font-size: 30px; line-height: 0.9; color: var(--ed-accent); opacity: 0.35; flex: none; width: 44px; letter-spacing: -0.03em; }
+  .ed-rows { border-top: 1px solid var(--rule); }
+  .ed-row { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .ed-row .n { font-family: var(--font-head); font-size: 30px; line-height: 0.9; color: var(--accent); opacity: 0.35; flex: none; width: 44px; letter-spacing: -0.03em; }
   .ed-row h3 { font-size: 20px; margin-bottom: 5px; }
   .ed-row p { margin: 0; font-size: 14.5px; }
 
-  .ed-wait { padding: 30px 0; background: var(--ed-paper2); border-top: 1px solid var(--ed-rule); }
+  .ed-wait { padding: 30px 0; background: var(--paper2); border-top: 1px solid var(--rule); }
   .ed-wait h4 { font-size: 20px; margin-bottom: 6px; }
   .ed-wait p { margin: 0 0 12px; font-size: 15px; }
-  .ed-wait a { font-family: var(--ed-ui); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-ink); border-bottom: 2px solid var(--ed-accent); padding-bottom: 4px; }
+  .ed-wait a { font-family: var(--font-body); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
   @media (min-width: 720px) {
     .ed-btn { width: auto; }
@@ -366,7 +360,7 @@ const toolHref = (card) => {
     .ed-blk { right: 40%; height: 38%; }
     .ed-cap { font-size: 13.5px; }
     .ed-band-grid { grid-template-columns: repeat(4, 1fr); }
-    .ed-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--ed-hair); }
+    .ed-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--line); }
     .ed-stat:first-child { padding-left: 0; }
     .ed-stat:last-child { border-right: 0; }
     .ed-stat .n { font-size: 28px; }
@@ -374,7 +368,7 @@ const toolHref = (card) => {
     .ed-tools { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
     .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; }
     .ed-feat .ph { aspect-ratio: 1 / 1; }
-    .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--ed-paper); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
+    .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
     .ed-rec { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
     .ed-rec .body { padding: 0; }
     .ed-voices { padding: 56px 0; }
@@ -401,7 +395,7 @@ const toolHref = (card) => {
     .ed-tools, .ed-rows, .ed-qs { column-gap: 64px; }
     .ed-tool { padding: 26px 0; }
     .ed-tool:hover { padding-left: 10px; }
-    .ed-tool:hover h3, .ed-feat:hover h3, .ed-rec:hover h3 { color: var(--ed-accent); }
+    .ed-tool:hover h3, .ed-feat:hover h3, .ed-rec:hover h3 { color: var(--accent); }
     .ed-tool h3 { font-size: 24px; }
     .ed-tool p { max-width: 42ch; }
     .ed-feat h3 { font-size: 38px; }
@@ -412,8 +406,8 @@ const toolHref = (card) => {
     .ed-voices h2 { font-size: 44px; }
     .ed-q p { font-size: 24px; }
     .ed-row h3 { font-size: 22px; }
-    .ed-btn:hover { background: var(--ed-accent-deep); color: #fff; }
-    .ed-btn.line:hover { background: var(--ed-ink); color: var(--ed-paper); }
+    .ed-btn:hover { background: var(--accent-deep); color: #fff; }
+    .ed-btn.line:hover { background: var(--ink); color: var(--bg); }
   }
 
   @media (min-width: 1320px) {
