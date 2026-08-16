@@ -61,25 +61,29 @@ PUBLISHED.forEach((r) => {
   add(`/recipes/${r.slug}/`, r.dateAdded, `/recipes/images/${img}`);
 });
 
-// Standalone tool pages carried over as flat .html files (EN/UA are separate
-// files, not /ua/ paths). Each [en, ua] pair is emitted with the same
-// en / uk / x-default hreflang alternates as the Astro-managed pages, matching
-// the <link rel="alternate"> tags these pages already carry in their own <head>.
+// Standalone tool pages, which live in public/ rather than src/pages/ (EN/UA are
+// separate directories, not /ua/ paths). Each [en, ua] pair is emitted with the
+// same en / uk / x-default hreflang alternates as the Astro-managed pages,
+// matching the <link rel="alternate"> tags these pages carry in their own <head>.
 //
-// Listed extensionless, which is the form each page's own <link rel="canonical">
-// declares. GitHub Pages serves /aid-comparison for aid-comparison.html, so both
-// spellings return 200 — submitting the .html one made Search Console report
-// "duplicate, submitted URL not selected as canonical" against every tool page.
+// Listed WITH a trailing slash, the form each page's own <link rel="canonical">
+// declares. These were flat `<slug>.html` files until OPS-262; GitHub Pages served
+// both /aid-comparison and /aid-comparison.html as 200 off the same file, and the
+// duplicates ranked separately (/t1d-cure-trials.html earned its own impressions
+// at position 9.6). A static host can't 301 an arbitrary path, so each page moved
+// to `public/<slug>/index.html`: GitHub Pages now 301s /aid-comparison ->
+// /aid-comparison/ and the .html spelling 404s, leaving exactly one 200 URL.
+// Keep the slash here — the no-slash form would submit a redirect to Search Console.
 //
 // Third element = pinned <lastmod> (OPS-208): last git commit touching the
-// pair's public/*.html files as of 2026-08-10 — bump manually on meaningful
+// pair's public/ tool files as of 2026-08-10 — bump manually on meaningful
 // content changes, same policy as PAGE_DATES above.
 const FLAT = [
-  ['/aid-comparison', '/aid-comparison-ua', '2026-07-30'],
-  ['/cgm-comparison', '/cgm-comparison-ua', '2026-07-22'],
-  ['/blood-sugar-investigator', '/blood-sugar-investigator-ua', '2026-07-30'],
-  ['/carb-gi-table', '/carb-gi-table-ua', '2026-07-14'],
-  ['/t1d-cure-trials', '/t1d-cure-trials-ua', '2026-07-30'],
+  ['/aid-comparison/', '/aid-comparison-ua/', '2026-07-30'],
+  ['/cgm-comparison/', '/cgm-comparison-ua/', '2026-07-22'],
+  ['/blood-sugar-investigator/', '/blood-sugar-investigator-ua/', '2026-07-30'],
+  ['/carb-gi-table/', '/carb-gi-table-ua/', '2026-07-14'],
+  ['/t1d-cure-trials/', '/t1d-cure-trials-ua/', '2026-07-30'],
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;');

@@ -876,7 +876,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Two of my free tools make this easier to aim. The [exercise & blood sugar calculator](/resources/exercise-calculator/) estimates how walking and other movement is likely to shift your numbers, so you can see what a ten-minute walk is worth before you commit to the habit. The [metabolic food calculator](/resources/food-calculator/) does the same for a given food — useful for working out which of your regular meals are the steep ones worth walking off first — and the [carb & GI table](/carb-gi-table.html) is a quick reference for the usual suspects."
+          "text": "Two of my free tools make this easier to aim. The [exercise & blood sugar calculator](/resources/exercise-calculator/) estimates how walking and other movement is likely to shift your numbers, so you can see what a ten-minute walk is worth before you commit to the habit. The [metabolic food calculator](/resources/food-calculator/) does the same for a given food — useful for working out which of your regular meals are the steep ones worth walking off first — and the [carb & GI table](/carb-gi-table/) is a quick reference for the usual suspects."
         },
         {
           "t": "h",
@@ -1105,7 +1105,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Два моїх безкоштовних інструменти допоможуть краще прицілитися. [Калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) оцінює, як ходьба та інший рух імовірно змістять ваші показники, — щоб ви побачили, чого варті десять хвилин, ще до того, як братися за звичку. [Калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) робить те саме для конкретного продукту — зручно, щоб зрозуміти, після яких саме ваших звичних страв прогулянка потрібна найбільше, — а [таблиця вуглеводів і ГІ](/carb-gi-table-ua.html) слугує швидкою довідкою щодо звичних підозрюваних."
+          "text": "Два моїх безкоштовних інструменти допоможуть краще прицілитися. [Калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) оцінює, як ходьба та інший рух імовірно змістять ваші показники, — щоб ви побачили, чого варті десять хвилин, ще до того, як братися за звичку. [Калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) робить те саме для конкретного продукту — зручно, щоб зрозуміти, після яких саме ваших звичних страв прогулянка потрібна найбільше, — а [таблиця вуглеводів і ГІ](/carb-gi-table-ua/) слугує швидкою довідкою щодо звичних підозрюваних."
         },
         {
           "t": "h",
@@ -1234,7 +1234,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Carbohydrate isn't the enemy here; the amount and the type are what matter. For a session under an hour at moderate effort, most women don't need any extra carbohydrate beyond what they've already eaten that day. For anything longer or genuinely hard, add a modest portion of a slower carbohydrate — oats, a slice of proper rye bread, a small sweet potato — with the protein, not on its own. Fast carbohydrate on its own is worth keeping for the sessions that actually justify it, and if you're not sure which foods sit where, the [carb and GI table](/carb-gi-table) is the quickest way to check."
+          "text": "Carbohydrate isn't the enemy here; the amount and the type are what matter. For a session under an hour at moderate effort, most women don't need any extra carbohydrate beyond what they've already eaten that day. For anything longer or genuinely hard, add a modest portion of a slower carbohydrate — oats, a slice of proper rye bread, a small sweet potato — with the protein, not on its own. Fast carbohydrate on its own is worth keeping for the sessions that actually justify it, and if you're not sure which foods sit where, the [carb and GI table](/carb-gi-table/) is the quickest way to check."
         },
         {
           "t": "p",
@@ -1519,7 +1519,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Вуглеводи тут не ворог; важать кількість і тип. Для заняття до години в помірному темпі більшості жінок не потрібні додаткові вуглеводи понад те, що вже з'їдено за день. Для довшого або справді важкого додайте помірну порцію повільніших вуглеводів — вівсянку, шматок справжнього житнього хліба, невеликий батат — разом із білком, а не окремо. Швидкі вуглеводи самі по собі варто залишити для тих тренувань, які цього справді потребують, а якщо ви не впевнені, де що стоїть, [таблиця вуглеводів і ГІ](/carb-gi-table-ua) — найшвидший спосіб перевірити."
+          "text": "Вуглеводи тут не ворог; важать кількість і тип. Для заняття до години в помірному темпі більшості жінок не потрібні додаткові вуглеводи понад те, що вже з'їдено за день. Для довшого або справді важкого додайте помірну порцію повільніших вуглеводів — вівсянку, шматок справжнього житнього хліба, невеликий батат — разом із білком, а не окремо. Швидкі вуглеводи самі по собі варто залишити для тих тренувань, які цього справді потребують, а якщо ви не впевнені, де що стоїть, [таблиця вуглеводів і ГІ](/carb-gi-table-ua/) — найшвидший спосіб перевірити."
         },
         {
           "t": "p",
@@ -2651,7 +2651,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "A longer, gentler warm-up and a few minutes of easy walking at the end tend to blunt the peak, for the mechanical reason described above rather than anything mysterious. Two tools on this site help with the rest: the [exercise and blood sugar calculator](/resources/exercise-calculator/) for what to expect from a given type of session, and [the blood sugar investigator](/blood-sugar-investigator) for working through a reading that genuinely does not make sense, instead of guessing."
+          "text": "A longer, gentler warm-up and a few minutes of easy walking at the end tend to blunt the peak, for the mechanical reason described above rather than anything mysterious. Two tools on this site help with the rest: the [exercise and blood sugar calculator](/resources/exercise-calculator/) for what to expect from a given type of session, and [the blood sugar investigator](/blood-sugar-investigator/) for working through a reading that genuinely does not make sense, instead of guessing."
         },
         {
           "t": "p",
@@ -2921,7 +2921,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Довша, м’якша розминка й кілька хвилин спокійної ходьби наприкінці зазвичай згладжують пік — із суто механічної причини, описаної вище, а не з якоїсь загадкової. З рештою допоможуть два інструменти на цьому сайті: [калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) — щоб знати, чого очікувати від певного типу заняття, і [дослідник цукру в крові](/blood-sugar-investigator-ua) — щоб розібрати показання, яке справді не піддається поясненню, замість того щоб гадати."
+          "text": "Довша, м’якша розминка й кілька хвилин спокійної ходьби наприкінці зазвичай згладжують пік — із суто механічної причини, описаної вище, а не з якоїсь загадкової. З рештою допоможуть два інструменти на цьому сайті: [калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) — щоб знати, чого очікувати від певного типу заняття, і [дослідник цукру в крові](/blood-sugar-investigator-ua/) — щоб розібрати показання, яке справді не піддається поясненню, замість того щоб гадати."
         },
         {
           "t": "p",
@@ -5396,7 +5396,7 @@ export const POSTS = [
         },
         {
           "t": "embed",
-          "src": "/t1d-cure-trials.html",
+          "src": "/t1d-cure-trials/",
           "title": "Type 1 diabetes cure trials tracker",
           "minHeight": 680,
           "cap": "Filterable tracker of type 1 diabetes cure and disease-modifying trials. Educational only — details change often, so always confirm on the study's official page and with your diabetes team."
@@ -5589,7 +5589,7 @@ export const POSTS = [
         },
         {
           "t": "embed",
-          "src": "/t1d-cure-trials-ua.html",
+          "src": "/t1d-cure-trials-ua/",
           "title": "Трекер досліджень щодо лікування діабету 1 типу",
           "minHeight": 680,
           "cap": "Трекер із фільтрами досліджень щодо лікування та зміни перебігу діабету 1 типу. Лише для інформації — деталі часто змінюються, тож завжди перевіряйте на офіційній сторінці дослідження та зі своєю діабетичною командою."
