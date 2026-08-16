@@ -635,9 +635,11 @@ img { max-width: 100%; display: block; }
   content: ''; display: inline-block; width: 7px; height: 7px;
   background: var(--tool); margin-right: 8px;
 }
+/* No opacity — it multiplies --muted against the paper and drops 10px text to
+   4.21:1, under AA's 4.5:1. Full --muted is 7.9:1. Same call as .sh-tag. */
 .res-tool .kind {
   font-family: var(--font-body); font-size: 10px; font-weight: 800;
-  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); opacity: 0.75;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
 }
 .res-tool h2 { font-size: 22px; line-height: 1.15; margin: 0 0 6px; }
 .res-tool p { margin: 0 0 10px; font-size: 14.5px; color: var(--body); }
