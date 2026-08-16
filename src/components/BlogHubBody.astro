@@ -23,7 +23,11 @@ import '../styles/blog.css';
 
 const { lang = 'en' } = Astro.props;
 // Sort by date so a post appended to the data file still lands on top.
-const sorted = [...POSTS].sort((a, b) => b.date.localeCompare(a.date));
+// `filedUnder: 'tools'` posts are listed on the Tools & guides page instead of
+// here (OPS-290) — they keep their /blog/ URL, they just aren't Journal entries.
+const sorted = [...POSTS]
+  .filter((p) => p.filedUnder !== 'tools')
+  .sort((a, b) => b.date.localeCompare(a.date));
 const featured = sorted.filter((p) => p.featured && !p.comingSoon).slice(0, 3);
 const [lead, ...minis] = featured;
 const t = UI[lang];

@@ -204,6 +204,10 @@ export function buildDocs(lang = 'en') {
   for (const p of POSTS) {
     const a = p[lang];
     if (!a) continue;
+    // A post filed under tools (OPS-290) is indexed once, by the tools loop
+    // below, under the kind its filter chip and its card both claim. Indexing
+    // it here too would put one URL in the results twice.
+    if (p.filedUnder === 'tools') continue;
     push({
       u: `/${L}blog/${p.slug}/`,
       t: a.title,
@@ -246,14 +250,21 @@ export function buildDocs(lang = 'en') {
     // calculators.js; fold it in so a query can hit the tool's own wording.
     const slug = (href.match(/^\/(?:ua\/)?resources\/([^/]+)\//) || [])[1];
     const calc = slug && CALCULATORS.find((x) => x.slug === slug);
+    // A card can also point at a post filed under tools (OPS-290) — one that
+    // wraps a standalone tool in the writing that explains it. Its article body
+    // is the searchable text here, so the tool's own words still match even
+    // though the articles loop skipped it.
+    const postSlug = (href.match(/^\/(?:ua\/)?blog\/([^/]+)\//) || [])[1];
+    const post = postSlug && POSTS.find((x) => x.slug === postSlug);
+    const pa = post && post[lang];
     push({
       u: href,
       t: c.title,
       k: 'tool',
       c: c.kicker || c.band,
       x: c.desc,
-      g: c.band || '',
-      b: calc ? texts(calc[lang]).join(' ') : '',
+      g: `${c.band || ''} ${post ? (post.cats || []).join(' ') : ''}`.trim(),
+      b: calc ? texts(calc[lang]).join(' ') : pa ? `${pa.lead || ''} ${postBody(pa)}` : '',
     });
   }
 

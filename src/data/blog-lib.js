@@ -34,6 +34,7 @@ export const UI = {
     ctaBtn: 'Subscribe',
     disclaimer: 'The information on this website is educational and is not medical advice. Please consult your doctor if you have any doubts or further questions.',
     backToBlog: '← All articles',
+    backToTools: '← All tools',
     relatedTitle: 'Keep reading',
   },
   ua: {
@@ -55,6 +56,7 @@ export const UI = {
     ctaBtn: 'Підписатися',
     disclaimer: 'Інформація на цьому вебсайті має освітній характер і не є медичною порадою. Зверніться до лікаря в разі сумнівів або додаткових запитань.',
     backToBlog: '← Усі статті',
+    backToTools: '← Усі інструменти',
     relatedTitle: 'Читайте також',
   },
 };

@@ -3,7 +3,17 @@
 // in the old repo's index.html), which was the single source of truth for both
 // the SPA blog and the prerendered standalone pages.
 //
-// Shape: { slug, date, image, cats: [filter keys], comingSoon?, en: {...}, ua: {...} }
+// Shape: { slug, date, image, cats: [filter keys], comingSoon?, filedUnder?,
+//          en: {...}, ua: {...} }
+//
+// `filedUnder: 'tools'` (OPS-290) — the post is a tool wearing an article's
+// clothes: it wraps one of the standalone interactive pages in the explanation
+// that page needs. It keeps its /blog/ URL (moving a page Google already ranks
+// buys nothing but a tidier path) and its RESOURCES card in site.js is what
+// readers navigate to, so it drops out of every place the Journal is
+// enumerated: the blog hub, both RSS feeds and the homepage's latest-post slot.
+// It stays eligible as a "Keep reading" card on other posts — that is a
+// cross-link, not a listing, and the internal links are worth keeping.
 //
 // Per-language SEO escape hatches — set these rather than shortening the
 // editorial headline, which stays the on-page H1:
@@ -5361,6 +5371,7 @@ export const POSTS = [
   {
     "slug": "type-1-diabetes-cure-trials",
     "date": "2026-07-19",
+    "filedUnder": "tools",
     "image": "/images/type-1-diabetes-cure-trials.jpg",
     "cats": [
       "diabetes"
