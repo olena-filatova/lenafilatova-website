@@ -1,0 +1,18 @@
+---
+// EN Dia.School — a short "this programme runs in Ukrainian" explainer pointing
+// at /ua/dia-school/, not a translated sales page (OPS-264). Keeps the site's
+// ordinary newsletter band: the waitlist itself is Ukrainian-only.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DiaSchoolBody from '../components/DiaSchoolBody.astro';
+import { DIA_SCHOOL } from '../data/site.js';
+const t = DIA_SCHOOL.en;
+---
+<BaseLayout
+  lang="en"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/dia-school"
+  alternates={{ en: "/dia-school", ua: "/ua/dia-school" }}
+>
+  <DiaSchoolBody lang="en" />
+</BaseLayout>

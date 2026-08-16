@@ -30,10 +30,16 @@
 //   id           — anchor id (default 'newsletter'; header Subscribe jumps here).
 //                  Exactly ONE Newsletter per page, or the anchor is ambiguous.
 //   sectionClass — extra classes for the <section> (homepage passes its band styling).
+//   copy         — partial override of the HOME[lang] nl* strings, for a page
+//                  whose signup is not the workbook one (the Dia.School waitlist
+//                  promises a different thing, so it must not say "workbook").
+//   tag          — Mailchimp tag applied to signups from this page (OPS-264), so
+//                  one audience can hold several lists' worth of intent. Omitted
+//                  everywhere else, which leaves the ordinary form byte-identical.
 import { HOME, MAILCHIMP } from '../data/site.js';
 import { HONEYPOT, MIN_DWELL_MS } from '../scripts/form-guard.js';
-const { lang = 'en', id = 'newsletter', sectionClass = '' } = Astro.props;
-const t = HOME[lang];
+const { lang = 'en', id = 'newsletter', sectionClass = '', copy = {}, tag = null } = Astro.props;
+const t = { ...HOME[lang], ...copy };
 
 // Hidden group field, e.g. name="group[34186][1]" on EN pages, [2] on /ua/.
 const groupField = `group[${MAILCHIMP.langGroup}][${MAILCHIMP.langValue[lang] ?? 1}]`;
@@ -58,6 +64,9 @@ const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`;
     >
       <!-- Set from the page tree, never by the visitor. -->
       <input type="hidden" name={groupField} value="1" />
+
+      <!-- Which list this signup belongs to (see MAILCHIMP.tags). -->
+      {tag && <input type="hidden" name="tags" value={tag} />}
 
       <div class="nl-row">
         <input type="email" name="EMAIL" placeholder={t.nlEmail} required autocomplete="email" />

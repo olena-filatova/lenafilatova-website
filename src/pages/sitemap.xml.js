@@ -23,6 +23,7 @@ const PAGE_DATES = {
   '/about/': '2026-07-13',
   '/contact/': '2026-07-13',
   '/resources/': '2026-07-13',
+  '/dia-school/': '2026-08-17', // OPS-264 — waitlist page (UA is the real one)
   '/blog/': '2026-07-12',
   '/recipes/': '2026-08-05',
   // Legal pages (LEGAL_SLUGS)
@@ -50,6 +51,9 @@ add('/');
 add('/about/');
 add('/contact/');
 add('/resources/');
+// Dia.School (OPS-264). Both languages: /ua/dia-school/ is the waitlist itself,
+// /dia-school/ the English "this runs in Ukrainian" explainer that points at it.
+add('/dia-school/');
 // NOTE: /shop/ deliberately absent — the shop is hidden (nothing on sale yet).
 add('/blog/');
 add('/recipes/');

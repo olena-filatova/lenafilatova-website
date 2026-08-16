@@ -1,0 +1,76 @@
+---
+// Dia.School page body — one component, both languages (OPS-264).
+//
+// UA renders the waitlist: masthead, one sentence, the signup form, and the free
+// tools underneath so the page is still worth the visit for someone who does not
+// want to leave an address. EN renders the "this runs in Ukrainian" explainer and
+// a link across, and keeps the site's ordinary newsletter band instead of a
+// waitlist form — an English signup for a Ukrainian-only intake would be a
+// promise we cannot keep.
+//
+// The masthead device (.est + .res-head) is the resources hub's, not a new one.
+import { DIA_SCHOOL, MAILCHIMP } from '../data/site.js';
+import Newsletter from './Newsletter.astro';
+const { lang = 'ua' } = Astro.props;
+const t = DIA_SCHOOL[lang];
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const link = (href) => `${B}${href}`;
+---
+<section class="res-head ds-head">
+  <div class="wrap">
+    <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+    <div class="head">
+      <h1>{t.h1}</h1>
+      <p class="lede">{t.lead}</p>
+    </div>
+    {lang === 'en' && (
+      <p class="ds-cross">
+        {t.ctaLead}
+        <a class="btn ds-cta" href={link('/ua/dia-school/')} hreflang="uk" lang="uk">{t.cta}</a>
+      </p>
+    )}
+  </div>
+</section>
+
+{lang === 'ua' && (
+  <Newsletter
+    lang="ua"
+    tag={MAILCHIMP.tags.diaSchoolWaitlist}
+    copy={{
+      nlTitle: t.nlTitle,
+      nlTitleKicker: t.nlTitleKicker,
+      nlSub: t.nlSub,
+      nlBtn: t.nlBtn,
+      nlSent: t.nlSent,
+      nlDupe: t.nlDupe,
+    }}
+  />
+)}
+
+<section class="section ds-tools">
+  <div class="wrap">
+    <h2>{t.toolsTitle}</h2>
+    <p class="section-sub">{t.toolsLead}</p>
+    <ul class="ds-list">
+      {t.tools.map((tool) => (
+        <li><a href={link(tool.href)}>{tool.label} <span class="ar" aria-hidden="true">&#8594;</span></a></li>
+      ))}
+    </ul>
+    <p class="ds-note">{t.note}</p>
+  </div>
+</section>
+
+<style>
+  .ds-head { padding-bottom: 8px; }
+  .ds-cross { margin: 26px 0 0; max-width: 52ch; color: var(--muted); font-size: 17px; line-height: 1.6; }
+  .ds-cta { display: inline-block; margin-top: 16px; }
+  .ds-tools .ds-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); max-width: 52ch; }
+  .ds-tools .ds-list li { border-bottom: 1px solid var(--rule); }
+  .ds-tools .ds-list a {
+    display: flex; justify-content: space-between; gap: 16px; align-items: baseline;
+    padding: 14px 0; text-decoration: none; color: var(--ink); font-size: 17px;
+  }
+  .ds-tools .ds-list a:hover { color: var(--accent-deep); }
+  .ds-tools .ds-list .ar { color: var(--muted); }
+  .ds-note { margin: 28px 0 0; max-width: 60ch; color: var(--muted); font-size: 14px; line-height: 1.6; }
+</style>

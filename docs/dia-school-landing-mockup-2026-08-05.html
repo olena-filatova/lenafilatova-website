@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dia.School — список очікування</title>
+<!--
+  ARCHIVE ONLY — DO NOT PUBLISH AS IS.
+
+  The 2026-08-05 Dia.School landing-page mockup, recovered on 2026-08-17 from
+  claude.ai artifact 5e47453d-f6c2-4379-ab93-514fdd091f42 and committed here so it
+  stops being ephemeral (its original source, scratchpad/dia-school-landing.html in
+  session 0706da01, is gone). The artifact's own runtime <script> preamble has been
+  stripped; everything below is the mockup as written.
+
+  What shipped instead (OPS-264): src/pages/ua/dia-school.astro — the same opening
+  move (one sentence + one email field) in the site's own design system, with no
+  prices, no dates and no outcome claims. This file still has the parts that need
+  product decisions Lena has not made — two tiers with "ціна?" placeholders, a
+  "next поток — дата?" heading, a ten-block syllabus and refund/time-commitment
+  answers marked "уточнити". Use it as the source when those decisions land; do not
+  reintroduce the old "80%+ досягли відмінних результатів" claim or the before/after
+  glucose photos, which are out of bounds on a UK-based site.
+
+  The form here is a mockup: it validates the address and swaps in a confirmation
+  panel, but posts nowhere. The live page posts to Mailchimp (see MAILCHIMP in
+  src/data/site.js).
+-->
+
+<style>
+  :root {
+    --paper:      #FAFBFA;
+    --panel:      #F1F4F2;
+    --ink:        #0E1A17;
+    --ink-2:      #4B5B56;
+    --muted:      #7D8C87;
+    --hairline:   #E3E8E5;
+    --accent:     #0F7A5A;
+    --accent-2:   #0C6449;
+    --accent-tint:#E7F2EE;
+
+    --display: Georgia, 'Droid Serif', 'Times New Roman', serif;
+    --body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+
+    --r: 10px;
+    --measure: 40rem;
+    --gutter: clamp(1.25rem, 6vw, 2rem);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0D1311; --panel: #151F1B; --ink: #E9EFEC; --ink-2: #AFBEB9;
+      --muted: #7E8F89; --hairline: #22302B;
+      --accent: #3DBE93; --accent-2: #52D0A6; --accent-tint: #15322B;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0D1311; --panel: #151F1B; --ink: #E9EFEC; --ink-2: #AFBEB9;
+    --muted: #7E8F89; --hairline: #22302B;
+    --accent: #3DBE93; --accent-2: #52D0A6; --accent-tint: #15322B;
+  }
+  :root[data-theme="light"] {
+    --paper: #FAFBFA; --panel: #F1F4F2; --ink: #0E1A17; --ink-2: #4B5B56;
+    --muted: #7D8C87; --hairline: #E3E8E5;
+    --accent: #0F7A5A; --accent-2: #0C6449; --accent-tint: #E7F2EE;
+  }
+
+  .pg { background: var(--paper); color: var(--ink); font-family: var(--body);
+        font-size: 1.0625rem; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  .pg *, .pg *::before, .pg *::after { box-sizing: border-box; }
+  .pg p, .pg h1, .pg h2, .pg h3, .pg ul, .pg figure { margin: 0; }
+  .pg ul { padding: 0; list-style: none; }
+
+  .wrap { max-width: var(--measure); margin-inline: auto; padding-inline: var(--gutter); }
+  .wrap--wide { max-width: 52rem; }
+
+  .pg h1, .pg h2, .pg h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; }
+  .pg h1 { font-size: clamp(2.4rem, 7vw, 4.1rem); line-height: 1.05; letter-spacing: -.022em; }
+  .pg h2 { font-size: clamp(1.7rem, 3.6vw, 2.4rem); line-height: 1.15; letter-spacing: -.016em; }
+  .pg h3 { font-family: var(--body); font-size: 1.0625rem; font-weight: 640; line-height: 1.35; }
+
+  .kicker { font-family: var(--mono); font-size: .8125rem; letter-spacing: .08em;
+            text-transform: uppercase; color: var(--muted); }
+  .lede { font-size: 1.1875rem; line-height: 1.55; color: var(--ink-2); text-wrap: pretty; }
+  .note { font-size: .8125rem; line-height: 1.5; color: var(--muted); }
+
+  .sec { padding-block: clamp(3.75rem, 10vw, 7.5rem); }
+  .sec + .sec { border-top: 1px solid var(--hairline); }
+  .stack   { display: flex; flex-direction: column; gap: 1rem; }
+  .stack-l { display: flex; flex-direction: column; gap: 2.25rem; }
+
+  .todo { font-family: var(--mono); font-size: .8em; color: var(--muted);
+          border-bottom: 1px dashed currentColor; white-space: nowrap; }
+
+  /* ---------------- hero ---------------- */
+  .hero { position: relative; overflow: hidden; text-align: center;
+          padding-block: clamp(3.25rem, 9vw, 6rem) clamp(6.5rem, 15vw, 10rem); }
+  .trace { position: absolute; inset: auto 0 0 0; width: 100%;
+           height: min(34%, 190px); z-index: 0; pointer-events: none;
+           -webkit-mask-image: linear-gradient(to bottom, transparent, #000 45%);
+           mask-image: linear-gradient(to bottom, transparent, #000 45%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .hero .lede { margin-inline: auto; max-width: 33rem; }
+
+  .cred { display: inline-flex; align-items: center; gap: .7rem;
+          padding-bottom: .25rem; }
+  .cred .av { width: 40px; height: 40px; border-radius: 50%; flex: none;
+              background: var(--accent-tint); border: 1px solid var(--hairline);
+              display: grid; place-items: center;
+              font-family: var(--display); font-size: .9rem; color: var(--accent); }
+  .cred span { font-size: .875rem; color: var(--ink-2); text-align: left; }
+
+  /* ---------------- the one form ---------------- */
+  .signup { margin-inline: auto; max-width: 27rem; width: 100%; }
+  .inline { display: flex; gap: .5rem; }
+  @media (max-width: 30rem) { .inline { flex-direction: column; } }
+
+  .inp { font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper);
+         border: 1px solid var(--hairline); border-radius: var(--r);
+         height: 52px; padding-inline: 1rem; width: 100%; min-width: 0; }
+  .inp::placeholder { color: var(--muted); }
+  .inp:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-color: transparent; }
+  .inp[aria-invalid="true"] { border-color: #C4553D; }
+
+  .btn { font: inherit; font-size: 1rem; font-weight: 640; color: #fff; white-space: nowrap;
+         background: var(--accent); border: 1px solid var(--accent);
+         border-radius: var(--r); height: 52px; padding-inline: 1.5rem;
+         cursor: pointer; transition: background .15s ease; flex: none; }
+  .btn:hover { background: var(--accent-2); border-color: var(--accent-2); }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  :root[data-theme="dark"] .btn, :root[data-theme="dark"] .btn:hover { color: #08201A; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn { color: #08201A; } }
+  @media (max-width: 30rem) { .btn { width: 100%; } }
+
+  .err { display: none; font-size: .8125rem; color: #C4553D; text-align: left; }
+  .signup.is-bad .err { display: block; }
+
+  /* confirmation + progressive profiling */
+  .after { display: none; }
+  .signup.is-done .before { display: none; }
+  .signup.is-done .after { display: flex; flex-direction: column; gap: 1rem; text-align: left; }
+
+  .picks { display: flex; flex-direction: column; gap: .5rem; }
+  .pick { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: .7rem;
+          border: 1px solid var(--hairline); border-radius: var(--r);
+          padding: .8rem 1rem; cursor: pointer; font-size: .9375rem; }
+  .pick:hover { border-color: var(--accent); }
+  .pick input { accent-color: var(--accent); margin: 0; width: 16px; height: 16px; }
+  .pick span { min-width: 0; }
+  .pick:has(input:checked) { border-color: var(--accent); background: var(--accent-tint); }
+  .pick:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .link { background: none; border: 0; padding: 0; font: inherit; font-size: .8125rem;
+          color: var(--muted); text-decoration: underline; cursor: pointer; }
+  .link:hover { color: var(--ink-2); }
+
+  /* ---------------- content bits ---------------- */
+  .rows > * { padding-block: 1.35rem; border-top: 1px solid var(--hairline); }
+  .rows > *:last-child { border-bottom: 1px solid var(--hairline); }
+  @media (min-width: 44rem) {
+    .rows .row { display: grid; grid-template-columns: 11rem 1fr; gap: 2rem; align-items: baseline; }
+  }
+  .row p { color: var(--ink-2); font-size: .9375rem; }
+
+  .two { display: grid; gap: 1.75rem 2.5rem; }
+  @media (min-width: 40rem) { .two { grid-template-columns: 1fr 1fr; } }
+  .two p { color: var(--ink-2); font-size: .9375rem; }
+
+  details.acc { border-top: 1px solid var(--hairline); }
+  details.acc:last-of-type { border-bottom: 1px solid var(--hairline); }
+  details.acc summary { display: flex; gap: 1rem; align-items: baseline; padding: 1.05rem 0;
+                        cursor: pointer; list-style: none; font-weight: 600; }
+  details.acc summary::-webkit-details-marker { display: none; }
+  details.acc summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  details.acc summary::after { content: "+"; margin-inline-start: auto; flex: none;
+                               font-family: var(--mono); font-weight: 400; color: var(--muted); }
+  details.acc[open] summary::after { content: "−"; }
+  details.acc .k { font-family: var(--mono); font-size: .8125rem; color: var(--muted); flex: none; }
+  details.acc p { padding: 0 1.5rem 1.15rem 0; color: var(--ink-2); font-size: .9375rem; }
+  @media (min-width: 30rem) { details.acc p.ind { padding-left: 2.5rem; } }
+
+  .tiers { display: grid; gap: 1px; background: var(--hairline);
+           border: 1px solid var(--hairline); border-radius: var(--r); overflow: hidden; }
+  @media (min-width: 42rem) { .tiers { grid-template-columns: 1fr 1fr; } }
+  .tier { background: var(--paper); padding: clamp(1.5rem, 4vw, 2rem); display: flex;
+          flex-direction: column; gap: 1rem; }
+  .tier--lead { background: var(--panel); }
+  .tier ul { display: flex; flex-direction: column; gap: .55rem; font-size: .9375rem; color: var(--ink-2); }
+  .tier li { display: grid; grid-template-columns: auto 1fr; gap: .6rem; align-items: baseline; }
+  .tier li::before { content: "—"; color: var(--muted); }
+
+  .foot { border-top: 1px solid var(--hairline); padding-block: 2.5rem 4rem; }
+
+  @media (prefers-reduced-motion: reduce) { .pg * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="pg">
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <canvas class="trace" id="trace" aria-hidden="true"></canvas>
+    <div class="wrap stack-l">
+
+      <p class="kicker">Школу ведуть люди, які самі живуть із діабетом 1 типу</p>
+
+      <div class="stack">
+        <h1>Більше часу в цільовому діапазоні</h1>
+        <p class="lede">Онлайн-школа діабету 1 типу. Вчимо рахувати коефіцієнти,
+          вести щоденник і розуміти свої цукри. Крок за кроком, за міжнародними настановами.</p>
+      </div>
+
+      <div class="signup" id="signup">
+
+        <form class="before stack" id="form" novalidate>
+          <div class="inline">
+            <label for="em" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Email</label>
+            <input class="inp" id="em" type="email" name="email" placeholder="Ваш email"
+                   autocomplete="email" required>
+            <button class="btn" type="submit">Записатися</button>
+          </div>
+          <p class="err" id="err">Перевірте, будь ласка, адресу пошти.</p>
+          <p class="note">Напишемо, коли відкриємо набір. Без спаму, відписатися можна будь-коли.
+            Це навчання, а не медична консультація.</p>
+        </form>
+
+        <div class="after" aria-live="polite">
+          <div class="stack" style="gap:.4rem">
+            <p class="kicker">Готово</p>
+            <h3 style="font-size:1.1875rem">Перевірте пошту — там лист із підтвердженням</h3>
+            <p class="note">Щоб надсилати вам те, що справді потрібно — скажіть, це про кого?</p>
+          </div>
+
+          <div class="picks" id="picks">
+            <label class="pick"><input type="radio" name="who" value="t1d"><span>У мене діабет 1 типу</span></label>
+            <label class="pick"><input type="radio" name="who" value="parent"><span>Я мама або тато дитини з СД1</span></label>
+            <label class="pick"><input type="radio" name="who" value="pro"><span>Я медичний фахівець</span></label>
+          </div>
+
+          <button class="link" type="button" id="skip">Пропустити</button>
+          <p class="note"><em>Це макет — нічого не надсилається.</em></p>
+        </div>
+
+      </div>
+
+      <p class="note">Українською · за настановами ADA та ISPAD · навчання ведуть куратори школи</p>
+    </div>
+  </header>
+
+  <!-- ===================== WHAT YOU GET ===================== -->
+  <section class="sec">
+    <div class="wrap stack-l">
+      <h2>Що ви отримаєте</h2>
+      <div class="two">
+        <div class="stack" style="gap:.35rem">
+          <h3>Відеоуроки</h3>
+          <p>Записані заняття з лікарями та кураторами школи. Дивитесь у своєму темпі, доступ залишається у вас.</p>
+        </div>
+        <div class="stack" style="gap:.35rem">
+          <h3>Вправи на ваших даних</h3>
+          <p>Після кожного блоку рахуєте на власному щоденнику. Куратор перевіряє й показує, де помилка.</p>
+        </div>
+        <div class="stack" style="gap:.35rem">
+          <h3>Шаблони та картки</h3>
+          <p>Щоденник, картки вуглеводів, пам'ятки для складних страв, спорту та хвороби.</p>
+        </div>
+        <div class="stack" style="gap:.35rem">
+          <h3>Калькулятори</h3>
+          <p>Таблиця вуглеводів і ГІ, метаболічний калькулятор, порівняння сенсорів і помп.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROGRAMME ===================== -->
+  <section class="sec">
+    <div class="wrap stack-l">
+      <div class="stack" style="gap:.6rem">
+        <h2>Програма</h2>
+        <p class="lede">Десять блоків, по порядку. Кожен спирається на попередній.</p>
+      </div>
+      <div>
+        <details class="acc"><summary><span class="k">01</span> Вимірювання та техніка ін'єкцій</summary>
+          <p class="ind">Чим і як вимірювати. Типові помилки техніки, ротація місць, що спотворює результат.</p></details>
+        <details class="acc"><summary><span class="k">02</span> Помпи та сенсори</summary>
+          <p class="ind">Що дає кожна технологія і кому вона підходить. Системи автоматичної подачі інсуліну.</p></details>
+        <details class="acc"><summary><span class="k">03</span> Щоденник: вести й читати</summary>
+          <p class="ind">Що записувати, щоб дані щось означали. Як побачити закономірність, а не набір цифр.</p></details>
+        <details class="acc"><summary><span class="k">04</span> Коефіцієнти</summary>
+          <p class="ind">Вуглеводний коефіцієнт, коефіцієнт чутливості, базал. Як порахувати і коли переглядати.</p></details>
+        <details class="acc"><summary><span class="k">05</span> Вуглеводи, білки, жири</summary>
+          <p class="ind">Як кожен впливає на криву. Чому жир зсуває пік на кілька годин.</p></details>
+        <details class="acc"><summary><span class="k">06</span> Харчування з діабетом</summary>
+          <p class="ind">Раціон, який реально тримається. Без заборон, які злітають на другому тижні.</p></details>
+        <details class="acc"><summary><span class="k">07</span> Складні страви</summary>
+          <p class="ind">Піца, суші, святковий стіл. Подвійний і розтягнутий болюс.</p></details>
+        <details class="acc"><summary><span class="k">08</span> Спорт і рух</summary>
+          <p class="ind">Різні навантаження діють протилежно. Що робити до, під час і після.</p></details>
+        <details class="acc"><summary><span class="k">09</span> Вагітність</summary>
+          <p class="ind">Цільові діапазони, підготовка, як змінюються потреби по триместрах.</p></details>
+        <details class="acc"><summary><span class="k">10</span> Міфи та часті питання</summary>
+          <p class="ind">Що з популярних порад не витримує перевірки настановами.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHO DOES WHAT ===================== -->
+  <section class="sec">
+    <div class="wrap stack-l">
+      <div class="stack" style="gap:.6rem">
+        <h2>Хто що робить</h2>
+        <p class="lede">Щоб ви одразу знали, що входить у школу, а що залишається за вашим лікарем.</p>
+      </div>
+      <div class="rows">
+        <div class="row">
+          <h3>Куратори</h3>
+          <p>Ведуть навчання, відповідають на питання по матеріалу й перевіряють ваші вправи.
+            Це основне навчання — так було і в попередніх потоках.</p>
+        </div>
+        <div class="row">
+          <h3>Експерти школи</h3>
+          <p>Дивляться ваші дані та ваші висновки: чи правильно порахований коефіцієнт,
+            чи ту закономірність ви побачили.</p>
+        </div>
+        <div class="row">
+          <h3>Ваш лікар</h3>
+          <p>Призначає й змінює терапію. Усе, що виходить за межі методики,
+            ми не вирішуємо самі — кажемо прямо і відправляємо до нього.</p>
+        </div>
+        <div class="row">
+          <h3>Спільнота</h3>
+          <p>Закритий чат потоку. Люди, які рахують так само, як ви, і проходять
+            той самий блок цього тижня.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FORMATS ===================== -->
+  <section class="sec">
+    <div class="wrap wrap--wide stack-l">
+      <div class="wrap" style="padding:0;max-width:var(--measure);margin-inline:0">
+        <div class="stack" style="gap:.6rem">
+          <h2>Два формати</h2>
+          <p class="lede">Ціни оголосимо перед стартом. Список очікування отримає найнижчу.</p>
+        </div>
+      </div>
+
+      <div class="tiers">
+        <div class="tier">
+          <div class="stack" style="gap:.25rem">
+            <h3>Платформа</h3>
+            <p class="note">Самостійно, у своєму темпі · <span class="todo">ціна?</span></p>
+          </div>
+          <ul>
+            <li><span>Усі відеоуроки та матеріали</span></li>
+            <li><span>Шаблони, картки, калькулятори</span></li>
+            <li><span>Постійний доступ</span></li>
+            <li><span>Чат спільноти</span></li>
+          </ul>
+        </div>
+        <div class="tier tier--lead">
+          <div class="stack" style="gap:.25rem">
+            <p class="kicker">З супроводом</p>
+            <h3>Платформа та куратор</h3>
+            <p class="note">Потік із датою старту · <span class="todo">ціна?</span></p>
+          </div>
+          <ul>
+            <li><span>Усе з формату «Платформа»</span></li>
+            <li><span>Куратор перевіряє ваші вправи</span></li>
+            <li><span>Перевірка ваших даних і висновків</span></li>
+            <li><span>Розбори у групі щотижня</span></li>
+            <li><span>Обмежена кількість місць</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="sec">
+    <div class="wrap stack-l">
+      <h2>Часті питання</h2>
+      <div>
+        <details class="acc"><summary>Чи замінює школа лікаря?</summary>
+          <p>Ні. Ми навчаємо методики розрахунку за міжнародними настановами.
+            Призначає і змінює терапію ваш лікар.</p></details>
+        <details class="acc"><summary>Чи підходить батькам дитини з СД1?</summary>
+          <p>Так, це один із двох основних форматів участі. Дитина проходить програму разом із дорослим.</p></details>
+        <details class="acc"><summary>Скільки часу треба на тиждень?</summary>
+          <p><span class="todo">уточнити</span> — приблизно кілька годин: відео та вправа на своїх даних.</p></details>
+        <details class="acc"><summary>А якщо не підійде?</summary>
+          <p><span class="todo">умови повернення</span> — у попередніх потоках було 14 календарних днів.</p></details>
+        <details class="acc"><summary>Чи потрібні помпа або сенсор?</summary>
+          <p>Ні. Методика працює і на шприц-ручках із глюкометром. Технології розбираємо окремим блоком.</p></details>
+        <details class="acc"><summary>Якою мовою навчання?</summary>
+          <p>Українською. Матеріали спираються на англомовні джерела з доказовою базою.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CLOSING ===================== -->
+  <section class="sec">
+    <div class="wrap stack-l" style="text-align:center">
+      <div class="stack" style="gap:.6rem">
+        <h2>Наступний потік — <span class="todo">дата?</span></h2>
+        <p class="lede" style="margin-inline:auto;max-width:30rem">Залиште пошту. Напишемо,
+          щойно відкриємо набір, і ви отримаєте найнижчу ціну.</p>
+      </div>
+      <div class="signup">
+        <div class="inline">
+          <input class="inp" type="email" placeholder="Ваш email" aria-label="Email" id="em2">
+          <button class="btn" type="button" id="jump">Записатися</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="wrap stack">
+      <p class="note">Dia.School — освітній проєкт. Матеріали не є медичною консультацією
+        і не замінюють спостереження у вашого лікаря. Не змінюйте дози інсуліну
+        на підставі матеріалів школи без узгодження з лікарем.</p>
+      <p class="note">lenafilatova.co.uk · <span class="todo">макет, не публікувати як є</span></p>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  /* hero: a glucose trace weaving through the target corridor.
+     Kept deliberately low-contrast — the accent colour belongs to the button. */
+  var cv = document.getElementById('trace');
+  if (cv && cv.getContext) {
+    var ctx = cv.getContext('2d');
+    var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var prog = reduce ? 1 : 0;
+
+    function tok(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+
+    function valueAt(t) {
+      return 0.52
+        + 0.18 * Math.sin(t * 6.1)
+        + 0.11 * Math.sin(t * 13.7 + 1.1)
+        + 0.05 * Math.sin(t * 27.3 + 2.4)
+        + 0.22 * Math.exp(-Math.pow((t - 0.31) * 9, 2))
+        + 0.17 * Math.exp(-Math.pow((t - 0.73) * 11, 2));
+    }
+
+    function draw() {
+      var w = cv.clientWidth, h = cv.clientHeight;
+      if (!w || !h) return;
+      var dpr = Math.min(devicePixelRatio || 1, 2);
+      cv.width = w * dpr; cv.height = h * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, w, h);
+
+      var tint = tok('--accent-tint'), line = tok('--muted'), edge = tok('--hairline');
+      var top = h * 0.30, bot = h * 0.72;
+
+      ctx.fillStyle = tint; ctx.globalAlpha = .8;
+      ctx.fillRect(0, top, w, bot - top);
+      ctx.globalAlpha = 1;
+
+      ctx.strokeStyle = edge; ctx.lineWidth = 1; ctx.setLineDash([3, 5]);
+      [top, bot].forEach(function (y) {
+        ctx.beginPath(); ctx.moveTo(0, y + .5); ctx.lineTo(w, y + .5); ctx.stroke();
+      });
+      ctx.setLineDash([]);
+
+      var n = Math.max(2, Math.floor(w * prog));
+      ctx.strokeStyle = line; ctx.globalAlpha = .5;
+      ctx.lineWidth = 1.75; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+      ctx.beginPath();
+      for (var x = 0; x <= n; x++) {
+        var y = h - valueAt(x / w) * h;
+        x ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+      }
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+    }
+
+    function tick() { prog = Math.min(1, prog + .014); draw(); if (prog < 1) requestAnimationFrame(tick); }
+    draw();
+    if (!reduce) requestAnimationFrame(tick);
+    addEventListener('resize', draw);
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+    new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+
+  /* email capture, then the segmentation question — after the address is banked */
+  var box = document.getElementById('signup'),
+      form = document.getElementById('form'),
+      em = document.getElementById('em');
+
+  function bad(on) {
+    box.classList.toggle('is-bad', on);
+    em.setAttribute('aria-invalid', on ? 'true' : 'false');
+  }
+  if (em) em.addEventListener('blur', function () {
+    if (em.value) bad(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value));
+  });
+  if (em) em.addEventListener('input', function () { if (box.classList.contains('is-bad')) bad(false); });
+
+  if (form) form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value)) { bad(true); em.focus(); return; }
+    box.classList.add('is-done');
+  });
+
+  var picks = document.getElementById('picks');
+  if (picks) picks.addEventListener('change', function () {
+    var n = document.querySelector('#signup .after h3');
+    if (n) n.textContent = 'Дякуємо — врахували';
+  });
+  var skip = document.getElementById('skip');
+  if (skip) skip.addEventListener('click', function () {
+    var n = document.querySelector('#signup .after h3');
+    if (n) n.textContent = 'Готово — до зустрічі на пошті';
+  });
+
+  /* closing form simply hands off to the hero one */
+  var jump = document.getElementById('jump'), em2 = document.getElementById('em2');
+  if (jump) jump.addEventListener('click', function () {
+    if (em2 && em2.value) em.value = em2.value;
+    box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setTimeout(function () { em.focus(); }, 420);
+  });
+})();
+</script>
+
+</body>
+</html>

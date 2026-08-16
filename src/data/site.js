@@ -121,6 +121,22 @@ export const MAILCHIMP = {
   langValue: { en: 1, ua: 2 },
   // Mailchimp's anti-bot honeypot: must stay empty, name is b_<u>_<list>.
   botField: 'b_1e50ad3293720baaf82abb8b3_b6e0bf1c2b',
+  // Tags let one audience hold several lists' worth of intent — a Dia.School
+  // waitlist signup has to be findable later without a second audience.
+  // Newsletter.astro renders `<input type="hidden" name="tags">` only when a
+  // page passes a `tag`, so the plain newsletter form is unchanged.
+  //
+  // ⚠️ UNVERIFIED VALUE (OPS-264). Mailchimp's own embed builder emits the tag's
+  // NUMERIC id here, not its name; a name is accepted by some accounts and
+  // silently ignored by others. Nothing else depends on it — the signup, the
+  // double opt-in and the Language group all work regardless — so the worst case
+  // is an untagged contact, not a lost one. To confirm: sign up once on
+  // /ua/dia-school/, confirm the email, and look at the contact in Mailchimp. If
+  // the tag is missing, open Audience → Signup forms → Embedded form, tick the
+  // `dia-school-waitlist` tag, and copy the numeric value it writes into
+  // `name="tags"` here. This is the only Mailchimp-side step the site can't do
+  // for itself.
+  tags: { diaSchoolWaitlist: 'dia-school-waitlist' },
 };
 
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
@@ -871,5 +887,68 @@ export const LEGAL = {
         ]},
       ],
     },
+  },
+};
+
+// Dia.School (OPS-264). The programme is paused and being rebuilt, but people
+// still search for it by name — /dia-school/ on the old .com site is that site's
+// second most-visited page, and until now those visitors were captured nowhere.
+//
+// UA is the real page: one sentence, one email field, nothing else. Deliberately
+// NOT a sales page — no prices, no dates, no outcome claims. The 2026-08-05
+// mockup (docs/dia-school-landing-mockup-2026-08-05.html) has tiers, a syllabus
+// and a "next поток" date; none of it can be published until Lena has decided
+// the price, the start date and the format, so only its opening moves is used
+// here. The old site's "80%+ досягли відмінних результатів" claim and the
+// before/after glucose photos must never come back: they belong to the
+// doctor-supported version of the programme, and co.uk is UK-based, where health
+// outcome claims are held to a stricter standard.
+//
+// EN is not a translation. The programme is taught in Ukrainian, so the English
+// page says exactly that and points at the UA page — promising an English intake
+// that does not exist would be the one thing worse than no page at all.
+export const DIA_SCHOOL = {
+  en: {
+    seoTitle: 'Dia.School — type 1 diabetes programme',
+    seoDesc: 'Dia.School is a type 1 diabetes education programme taught in Ukrainian. It is being rebuilt — join the waitlist on the Ukrainian page.',
+    kicker: 'Dia.School',
+    h1: 'Dia.School is taught in Ukrainian',
+    lead: 'Dia.School is my type 1 diabetes education programme. It runs in Ukrainian, and it is currently being rebuilt — there is no English intake planned.',
+    ctaLead: 'If you read Ukrainian, you can join the waitlist and you’ll hear first when the new intake opens.',
+    cta: 'Go to the Ukrainian page',
+    toolsTitle: 'In English, right now',
+    toolsLead: 'Everything else here is in English and free — no sign-up, no paywall.',
+    tools: [
+      { href: '/carb-gi-table/', label: 'Carb & GI table' },
+      { href: '/resources/food-calculator/', label: 'Metabolic food calculator' },
+      { href: '/cgm-comparison/', label: 'CGM comparison' },
+      { href: '/aid-comparison/', label: 'Insulin pump & AID comparison' },
+    ],
+    note: 'Dia.School is an education project. Nothing here is medical advice and none of it replaces care from your own clinical team.',
+  },
+  ua: {
+    seoTitle: 'Dia.School — школа діабету 1 типу',
+    seoDesc: 'Школу діабету 1 типу Dia.School зараз перебудовуємо. Залиште пошту — напишемо першим, щойно відкриємо новий набір.',
+    kicker: 'Dia.School',
+    h1: 'Школу діабету 1 типу перебудовуємо',
+    lead: 'Dia.School зараз не набирає групу: ми переробляємо програму. Залиште пошту — напишемо вам першим, щойно відкриємо новий набір.',
+    // Waitlist form copy — overrides the workbook wording the shared newsletter
+    // band uses everywhere else. Everything the visitor is promised here is
+    // something we can actually keep: one letter, when there is news.
+    nlTitle: 'Список очікування',
+    nlTitleKicker: 'Новий набір',
+    nlSub: 'Один лист — коли відкриємо набір. Без спаму, відписатися можна будь-коли.',
+    nlBtn: 'Записатися',
+    nlSent: 'Майже готово — перевірте пошту та підтвердьте підписку.',
+    nlDupe: 'Ви вже в списку — більше нічого робити не потрібно.',
+    toolsTitle: 'Поки що — безкоштовні інструменти',
+    toolsLead: 'Ними можна користуватися вже зараз: без реєстрації та оплати.',
+    tools: [
+      { href: '/carb-gi-table-ua/', label: 'Таблиця вуглеводів і ГІ' },
+      { href: '/ua/resources/food-calculator/', label: 'Метаболічний калькулятор їжі' },
+      { href: '/cgm-comparison-ua/', label: 'Порівняння сенсорів (CGM)' },
+      { href: '/aid-comparison-ua/', label: 'Порівняння помп і систем АПІ' },
+    ],
+    note: 'Dia.School — освітній проєкт. Матеріали не є медичною консультацією і не замінюють спостереження у вашого лікаря.',
   },
 };
