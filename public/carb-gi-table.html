@@ -150,331 +150,269 @@
 }
 </style>
 <style>
-/* ── Reset & base ──────────────────────────────────── */
+/* ── The editorial system, applied by hand (OPS-278) ────────────────────
+   This page is a standalone file in public/, outside the Astro bundle, so it
+   cannot import src/styles/global.css — the tokens below are that file's
+   :root, copied. Keep the two in step.
+
+   What changed: the cool interface greys this tool was built on (#1a1a1a ink,
+   #e5e7eb borders, #f9fafb panels, white ground) read as a different site
+   sitting inside this one once the pages around it turned to warm paper. Same
+   controls, same table, same behaviour — the palette, the corners and the
+   display face are now the site's. */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green:  #2F7A52;
-  --green-bg: #e9f5f0;
-  --amber:  #B26A34;
-  --amber-bg: #fff3e0;
-  --red:    #b52b2b;
-  --red-bg: #fdeaea;
-  --grey:   #666;
-  --grey-bg: #f2f2f2;
-  --text:   #1a1a1a;
-  --muted:  #6b7280;
-  --border: #e5e7eb;
-  --hover:  #f9fafb;
-  --accent: #B23A63;
-  --accent-bg: #FBF3F7;
-  --uk-color: #b52b2b;
-  --ua-color: #1d6b2f;
-  --radius: 8px;
+  --accent:      #B23A63;   /* brand magenta — unchanged, it carries recognition */
+  --accent-deep: #7C2144;
+  --ink:         #2A1424;
+  --body:        #4A3644;
+  --muted:       #5A4152;
+  --bg:          #F5EFE8;   /* warm paper — the page ground */
+  --paper2:      #EFE6DC;   /* recessed band: filter panel, table head, footnote */
+  --card:        #FFFCF7;   /* the table's own ground, a shade above the paper */
+  --line:        rgba(42, 20, 36, 0.10);   /* hairline: row rules, control edges */
+  --rule:        rgba(42, 20, 36, 0.18);   /* heavier rule: section tops, dividers */
+  --hover:       #F7F1E9;   /* row hover — one step down from the card.
+                               Opaque on purpose: the sticky first column paints
+                               its own background, and a translucent hover would
+                               show the scrolled-under cells through it. */
+  --radius:      0;         /* the system is square */
+  --font-head:   'Spectral', Georgia, serif;
+  --font-body:   'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Semantic scale, re-mixed for the warm paper. Every ink below clears 4.5:1
+     on its own tint and on the card, so the badges stay readable at 12px. */
+  --green: #26654A;  --green-bg: #E3EDE5;
+  --amber: #8A4B18;  --amber-bg: #F4E7D6;
+  --red:   #9E2626;  --red-bg:   #F6E2DF;
+  --grey:  #5A4152;  --grey-bg:  #EFE6DC;
 }
 
 body {
-  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  color: var(--text);
-  background: #fff;
+  font-family: var(--font-body);
+  color: var(--body);
+  background: var(--bg);
   font-size: 15px;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* ── Page layout ───────────────────────────────────── */
-.page {
-  max-width: 100%;
-  margin: 0;
-  padding: 4px 20px 14px;
+/* ── Masthead ──────────────────────────────────────────────────────────
+   These pages are one click from the homepage tools list, and until now they
+   opened on a bare filter bar — no brand, no title, no way back. The masthead
+   is the site's own: serif wordmark, the magenta disc, and the .est
+   label-and-hairline device the hubs open with. */
+.tool-head { background: var(--bg); border-bottom: 1px solid var(--rule); }
+.tool-head .in {
+  max-width: 1120px; margin: 0 auto;
+  padding: 0 clamp(18px, 3.5vw, 40px);
+  display: flex; align-items: center; gap: 18px; min-height: 62px;
 }
-
-/* ── Header ────────────────────────────────────────── */
-.page-header { margin-bottom: 2rem; }
-
+.brand {
+  display: flex; align-items: center; gap: 11px;
+  font-family: var(--font-head); font-weight: 500; font-size: 19px;
+  letter-spacing: -0.02em; color: var(--ink); text-decoration: none;
+}
+/* The mark stays a magenta disc — the logo, and the one round thing the square
+   system keeps on purpose. */
+.brand .mark {
+  flex: none; width: 34px; height: 34px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-style: italic; font-size: 15px;
+}
 .back-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-  text-decoration: none;
-  margin-bottom: 1rem;
+  margin-left: auto; display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; transition: color .2s ease;
 }
-.back-link:hover { color: var(--text); }
+.back-link:hover { color: var(--accent); }
+.back-link:focus-visible,
+.brand:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
+/* ── Page + title ──────────────────────────────────────────────────────── */
+.page { max-width: 1120px; margin: 0 auto; padding: 0 clamp(18px, 3.5vw, 40px) 56px; }
+.page-header { padding-top: 30px; margin-bottom: 26px; }
+.est { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; }
+.est-label {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent);
+}
+.est-rule { flex: 1; height: 1px; background: var(--rule); }
 h1 {
-  font-size: clamp(1.4rem, 3vw, 2rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
+  font-family: var(--font-head); font-weight: 400;
+  font-size: clamp(28px, 4.2vw, 40px); line-height: 1.08;
+  letter-spacing: -0.025em; color: var(--ink);
+  max-width: 20ch; text-wrap: balance;
 }
-
 .description {
-  color: var(--muted);
-  max-width: 680px;
-  font-size: 0.95rem;
+  font-family: var(--font-head); font-weight: 300; font-size: 17px; line-height: 1.5;
+  color: var(--muted); max-width: 58ch; margin-top: 14px;
 }
 
-/* ── Filters ───────────────────────────────────────── */
+/* ── Filters ───────────────────────────────────────────────────────────
+   Was a rounded grey card. Now a recessed paper2 panel hanging from a heavy
+   ink rule — the .fk section-head device the hubs use, square, no shadow. */
 .filters {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  padding: 1.25rem;
-  background: var(--hover);
-  border: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 1rem;
+  margin-bottom: 1.5rem; padding: 1.15rem clamp(14px, 2vw, 20px);
+  background: var(--paper2);
+  border: 0; border-top: 1.5px solid var(--ink);
   border-radius: var(--radius);
 }
-
-.filter-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
+.filter-row { display: flex; align-items: flex-start; gap: 0.75rem; flex-wrap: wrap; }
 .filter-label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-  padding-top: 0.45rem;
-  min-width: 60px;
-  flex-shrink: 0;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink);
+  padding-top: 0.6rem; flex-shrink: 0;
 }
-
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  padding: 0.3rem 0.75rem;
-  border-radius: 20px;
-  border: 1.5px solid var(--border);
-  background: #fff;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--text);
-  cursor: pointer;
-  transition: all 0.15s;
-  white-space: nowrap;
-  user-select: none;
+  display: inline-flex; align-items: center; gap: 0.25rem;
+  padding: 0.34rem 0.8rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--rule);
+  background: var(--card);
+  font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+  color: var(--ink); cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+  white-space: nowrap; user-select: none;
 }
-
-.chip:hover { border-color: #aaa; background: #f5f5f5; }
-
-.chip.active {
-  background: #B23A63;
-  border-color: #B23A63;
-  color: #fff;
-}
-
-.chip.gi-low.active   { background: var(--green); border-color: var(--green); }
-.chip.gi-medium.active{ background: var(--amber); border-color: var(--amber); }
-.chip.gi-high.active  { background: var(--red);   border-color: var(--red);   }
+.chip:hover { border-color: var(--ink); background: var(--bg); }
+.chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* Search */
-.search-wrap {
-  position: relative;
-  flex: 1;
-  min-width: 200px;
-  max-width: 360px;
-}
+.search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 360px; }
 .search-icon {
-  position: absolute;
-  left: 0.7rem;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--muted);
-  pointer-events: none;
+  position: absolute; left: 0.75rem; top: 50%;
+  transform: translateY(-50%); color: var(--muted); pointer-events: none;
 }
 #search {
-  width: 100%;
-  padding: 0.45rem 0.75rem 0.45rem 2.2rem;
-  border: 1.5px solid var(--border);
-  border-radius: 20px;
-  font-size: 0.88rem;
-  outline: none;
-  transition: border-color 0.15s;
-  background: #fff;
+  width: 100%; padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.88rem; color: var(--ink);
+  background: var(--card); outline: none; transition: border-color .15s ease;
 }
-#search:focus { border-color: var(--accent); }
+#search::placeholder { color: var(--muted); }
+#search:focus { border-color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
 
-/* Clear button */
 #clearBtn {
-  padding: 0.3rem 0.85rem;
-  border-radius: 20px;
-  border: 1.5px solid var(--border);
-  background: #fff;
-  font-size: 0.82rem;
-  color: var(--muted);
-  cursor: pointer;
-  transition: all 0.15s;
-  align-self: center;
+  padding: 0.34rem 0.9rem; border-radius: var(--radius);
+  border: 1px solid var(--rule); background: transparent;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); cursor: pointer; align-self: center;
+  transition: color .15s ease, border-color .15s ease;
 }
-#clearBtn:hover { border-color: #aaa; color: var(--text); }
+#clearBtn:hover { border-color: var(--ink); color: var(--ink); }
+#clearBtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* ── Count bar ─────────────────────────────────────── */
+/* ── Count bar + legend ────────────────────────────────────────────────── */
 .count-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.15rem;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 0.9rem; flex-wrap: wrap; gap: 0.5rem;
 }
-
 .count-badge {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--muted);
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
 }
+.count-badge span { font-family: var(--font-head); font-size: 1.15rem; font-weight: 400; letter-spacing: 0; color: var(--ink); }
+.legend { display: flex; flex-wrap: wrap; gap: 0.85rem; font-size: 0.78rem; color: var(--muted); }
+.leg { display: flex; align-items: center; gap: 0.35rem; }
+/* Square swatch, not a dot — the same mark the resources index puts on a
+   subject label. */
+.dot { width: 8px; height: 8px; border-radius: 0; flex-shrink: 0; }
 
-.count-badge span {
-  color: var(--text);
-  font-size: 1.05rem;
-}
-
-/* Legend */
-.legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  font-size: 0.78rem;
-  color: var(--muted);
-}
-.leg {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-.dot {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
 .dot-low    { background: var(--green); }
 .dot-medium { background: var(--amber); }
 .dot-high   { background: var(--red); }
-.dot-none   { background: #ccc; }
+.dot-none   { background: var(--rule); }
 
-/* ── Table ─────────────────────────────────────────── */
+/* ── Table ─────────────────────────────────────────────────────────────
+   DO NOT switch to border-collapse: collapse. Safari cannot make a cell
+   sticky inside a collapsed table, and the sticky first column below is the
+   whole reason this table works on a phone. It has been broken once already. */
 .table-scroll {
-  overflow: auto;
-  max-height: 720px;
-  border: 1px solid var(--border);
+  overflow: auto; max-height: 720px;
+  background: var(--card);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
-
 table {
   width: 100%;
-  border-collapse: separate; /* Safari can't stick cells in a collapsed table */
+  border-collapse: separate;   /* Safari can't stick cells in a collapsed table */
   border-spacing: 0;
   min-width: 620px;
 }
 
 thead th {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  background: var(--hover);
-  padding: 0.85rem 1rem;
-  text-align: left;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--muted);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  border-bottom: 1.5px solid var(--border);
-  box-shadow: inset 0 -1.5px 0 var(--border);
-  white-space: nowrap;
-  cursor: pointer;
-  user-select: none;
+  position: -webkit-sticky; position: sticky; top: 0; z-index: 2;
+  background: var(--paper2);
+  padding: 0.8rem 1rem; text-align: left;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink);
+  border-bottom: 0;
+  /* inset shadow rather than a border: a bordered sticky header in a
+     separate-border table leaves a hairline gap as rows scroll under it */
+  box-shadow: inset 0 -1px 0 var(--ink);
+  white-space: nowrap; cursor: pointer; user-select: none;
 }
+thead th:nth-child(3), thead th:nth-child(4), thead th:nth-child(5) { text-align: center; }
+thead th.sorted-asc::after  { content: " ↑"; color: var(--accent); }
+thead th.sorted-desc::after { content: " ↓"; color: var(--accent); }
+thead th:hover { color: var(--accent); }
 
-thead th:nth-child(3),
-thead th:nth-child(4),
-thead th:nth-child(5) { text-align: center; }
-
-thead th.sorted-asc::after  { content: " ↑"; opacity: 0.6; }
-thead th.sorted-desc::after { content: " ↓"; opacity: 0.6; }
-thead th:hover { color: var(--text); }
-
-tbody tr { transition: background 0.1s; }
-tbody td { border-bottom: 1px solid var(--border); }
+tbody tr { transition: background .1s ease; }
+tbody td { border-bottom: 1px solid var(--line); }
 tbody tr:last-child td { border-bottom: none; }
 tbody tr:hover { background: var(--hover); }
 
-td {
-  padding: 0.72rem 1rem;
-  font-size: 0.88rem;
-  vertical-align: middle;
-}
+td { padding: 0.72rem 1rem; font-size: 0.88rem; color: var(--body); vertical-align: middle; }
+td:nth-child(3), td:nth-child(4), td:nth-child(5) { text-align: center; }
 
-td:nth-child(3),
-td:nth-child(4),
-td:nth-child(5) { text-align: center; }
-
-/* Sticky first column — keeps the food name visible while scrolling sideways */
-thead th:first-child {
-  left: 0;
-  z-index: 3;
-  border-right: 1px solid var(--border);
-}
+/* Sticky first column — keeps the food name visible while scrolling sideways.
+   Its background must stay opaque, or the cells scrolling underneath show
+   through it. */
+thead th:first-child { left: 0; z-index: 3; border-right: 1px solid var(--rule); }
 tbody td:first-child {
-  position: -webkit-sticky;
-  position: sticky;
-  left: 0;
-  z-index: 1;
-  background: #fff;
-  border-right: 1px solid var(--border);
+  position: -webkit-sticky; position: sticky; left: 0; z-index: 1;
+  background: var(--card);
+  border-right: 1px solid var(--rule);
 }
 tbody tr:hover td:first-child { background: var(--hover); }
 
 /* Food name cell */
-.food-name { font-weight: 500; }
+.food-name { font-weight: 600; color: var(--ink); }
 
 /* Cuisine flags */
 .tag {
-  display: inline-block;
-  font-size: 0.68rem;
-  font-weight: 700;
-  border-radius: 4px;
-  padding: 0.1rem 0.35rem;
-  margin-left: 0.3rem;
-  vertical-align: middle;
-  letter-spacing: 0.02em;
+  display: inline-block; font-family: var(--font-body);
+  font-size: 0.66rem; font-weight: 800; letter-spacing: 0.06em;
+  text-transform: uppercase; border-radius: var(--radius);
+  padding: 0.12rem 0.36rem; margin-left: 0.35rem; vertical-align: middle;
 }
-.tag-uk { background: #fce4e4; color: var(--uk-color); }
-.tag-ua { background: #e0f5e6; color: var(--ua-color); }
+.tag-uk { background: var(--red-bg);   color: var(--red); }
+.tag-ua { background: var(--green-bg); color: var(--green); }
 
-/* Category pill */
+/* Category label — a rule and a word, not a pill */
 .cat-pill {
-  display: inline-block;
-  font-size: 0.72rem;
-  color: var(--muted);
-  background: var(--grey-bg);
-  border-radius: 10px;
-  padding: 0.1rem 0.5rem;
-  white-space: nowrap;
+  display: inline-block; font-family: var(--font-body);
+  font-size: 0.72rem; font-weight: 600; color: var(--muted);
+  background: transparent; border-radius: 0;
+  padding: 0 0 0 10px; white-space: nowrap; position: relative;
+}
+.cat-pill::before {
+  content: ''; position: absolute; left: 0; top: 0.55em;
+  width: 5px; height: 1px; background: var(--rule);
 }
 
 /* GI badge */
 .gi-badge {
-  display: inline-block;
-  padding: 0.18rem 0.6rem;
-  border-radius: 20px;
-  font-size: 0.77rem;
-  font-weight: 700;
+  display: inline-block; font-family: var(--font-body);
+  padding: 0.2rem 0.55rem; border-radius: var(--radius);
+  font-size: 0.73rem; font-weight: 800; letter-spacing: 0.04em;
   white-space: nowrap;
 }
 .gi-low    { background: var(--green-bg); color: var(--green); }
@@ -482,44 +420,63 @@ tbody tr:hover td:first-child { background: var(--hover); }
 .gi-high   { background: var(--red-bg);   color: var(--red); }
 .gi-none   { background: var(--grey-bg);  color: var(--grey); }
 
+/* The GI chips carry the same three colours as the badges they filter to. */
+.chip.gi-low.active    { background: var(--green); border-color: var(--green); color: #fff; }
+.chip.gi-medium.active { background: var(--amber); border-color: var(--amber); color: #fff; }
+.chip.gi-high.active   { background: var(--red);   border-color: var(--red);   color: #fff; }
+
 /* No results */
-.no-results {
-  text-align: center;
-  padding: 3rem 1rem;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
+.no-results { text-align: center; padding: 3rem 1rem; color: var(--muted); font-size: 0.95rem; }
 
-/* ── Footer note ───────────────────────────────────── */
+/* ── Footnote ──────────────────────────────────────────────────────────
+   The sources note, set as a standfirst under a heavy rule rather than a
+   tinted callout box. */
 .footnote {
-  margin-top: 2rem;
-  padding: 1rem 1.25rem;
-  background: var(--hover);
-  border-left: 3px solid var(--border);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  font-size: 0.78rem;
-  color: var(--muted);
-  line-height: 1.7;
+  margin-top: 2.25rem; padding: 1rem 0 0;
+  background: transparent;
+  border: 0; border-top: 1.5px solid var(--ink);
+  border-radius: 0;
+  font-size: 0.8rem; color: var(--muted); line-height: 1.75; max-width: 90ch;
+}
+.footnote > strong:first-child {
+  display: block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); margin-bottom: 8px;
 }
 
-/* ── Responsive ────────────────────────────────────── */
+/* ── Responsive ────────────────────────────────────────────────────────
+   Below 640px the first column is pinned to 42vw so the food name stays
+   legible while the numbers scroll past it. */
 @media (max-width: 640px) {
   .filter-label { display: none; }
   .count-bar { flex-direction: column; align-items: flex-start; }
+  .page-header { padding-top: 22px; margin-bottom: 20px; }
   thead th:first-child,
   tbody td:first-child {
-    width: 42vw;
-    min-width: 42vw;
-    max-width: 42vw;
+    width: 42vw; min-width: 42vw; max-width: 42vw;
     white-space: normal;
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
+    padding-left: 0.7rem; padding-right: 0.7rem;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chip, .back-link, #search, #clearBtn, tbody tr { transition: none; }
 }
 </style>
 </head>
 <body>
+<header class="tool-head">
+  <div class="in">
+    <a class="brand" href="/"><span class="mark">lf</span>Lena Filatova</a>
+    <a class="back-link" href="/resources/">All free tools</a>
+  </div>
+</header>
 <div class="page">
+  <header class="page-header">
+    <p class="est"><span class="est-label">Interactive table</span><span class="est-rule"></span></p>
+    <h1>Carbohydrate &amp; glycaemic index table</h1>
+    <p class="description">200+ foods with carbs per 100&nbsp;g and glycaemic index — Ukrainian and British staples included. Filter, search and sort to see how each food is likely to affect blood sugar.</p>
+  </header>
+
 
   <!-- Filters -->
   <div class="filters">
