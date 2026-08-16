@@ -259,8 +259,31 @@
       transition: background 0.2s ease;
     }
     .btn:hover { background: var(--accent-deep); }
+    /* The search box is the primary action on a 404, so "back to the homepage"
+       steps down to the outline variant beside it. */
+    .btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+    .btn.ghost:hover { background: var(--ink); color: var(--bg); }
     a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     hr { border: 0; border-top: 1px solid var(--rule); margin: 30px 0 0; }
+
+    /* One hairline box holding field and button, matching the site header's
+       search drawer. */
+    .find {
+      display: flex; align-items: stretch; margin: 26px auto 0; max-width: 420px;
+      background: var(--card, #FFFCF7); box-shadow: inset 0 0 0 1px var(--rule);
+    }
+    .find:focus-within { box-shadow: inset 0 0 0 2px var(--accent); }
+    .find input {
+      flex: 1; min-width: 0; border: 0; background: transparent; border-radius: 0;
+      font-family: var(--font-body); font-size: 15px; color: var(--ink); padding: 13px 15px;
+    }
+    .find input::placeholder { color: var(--muted); opacity: .75; }
+    .find input:focus { outline: none; }
+    .find input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+    .find .btn {
+      flex: none; margin-top: 0; min-height: 0; padding: 12px 20px;
+      font-size: 12.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    }
 
     @media (prefers-reduced-motion: reduce) {
       .links a, .btn { transition: none; }
@@ -282,7 +305,16 @@
       <a href="/about/">About</a>
     </div>
 
-    <a class="btn" href="/">Back to homepage</a>
+    <!-- A 404 is the one place a visitor definitely knows what they wanted and
+         definitely cannot find it, so the search box outranks "back to the
+         homepage" here. This page is static (public/), so the field is a plain
+         GET to /search/ rather than the site's search component. -->
+    <form class="find" role="search" method="get" action="/search/">
+      <input type="search" name="q" aria-label="Search the site" placeholder="Search the site…" />
+      <button class="btn" type="submit">Search</button>
+    </form>
+
+    <a class="btn ghost" href="/">Back to homepage</a>
 
     <hr />
 
@@ -296,6 +328,10 @@
         <a href="/ua/resources/">Інструменти</a>
         <a href="/ua/about/">Про мене</a>
       </div>
+      <form class="find" role="search" method="get" action="/ua/search/">
+        <input type="search" name="q" aria-label="Пошук по сайту" placeholder="Шукати по сайту…" />
+        <button class="btn" type="submit">Шукати</button>
+      </form>
     </div>
   </main>
 </body>

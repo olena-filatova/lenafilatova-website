@@ -45,13 +45,10 @@
   .blog-hero .lede { margin: 0 0 6px; }
 }
 
-/* Section label: the heavy ink rule the homepage sections and the article's
-   "Keep reading" both hang from. */
-.hub-head, .hub-bar { border-top: 1.5px solid var(--ink); padding-top: 10px; }
-.hub-head .fk, .hub-bar .fk {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
-  letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
-}
+/* The ruled section label (.hub-head / .hub-bar / .fk) and the filter chips
+   (.blog-filters) moved to global.css when /search/ started using them too —
+   they are shared hub furniture now, not blog-only. Class names kept as they
+   were; the markup and scripts on both pages reference them. */
 
 /* --- featured band ---------------------------------------------------------
    Above the filters, "All" view only. One flagged post → a full-width feature
@@ -111,24 +108,7 @@
   .featured-grid.solo .flead .body { padding: 0; }
 }
 
-/* --- filters ---------------------------------------------------------------
-   Text filters with an active underline, not pills. They share the ruled bar
-   with the section label rather than sitting under a rule of their own. */
-.hub-bar {
-  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
-  gap: 12px 28px; margin-top: 52px;
-}
-.blog-filters { display: flex; flex-wrap: wrap; gap: 6px 20px; align-items: baseline; }
-.blog-filters .chip {
-  border: 0; background: none; border-radius: 0; padding: 2px 0 5px; cursor: pointer;
-  font-family: var(--font-body); font-size: 11px; font-weight: 800;
-  letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
-  border-bottom: 2px solid transparent; transition: color .2s ease, border-color .2s ease;
-}
-.blog-filters .chip:hover { color: var(--accent); }
-/* The fill is gone, so this underline plus aria-pressed is the whole state. */
-.blog-filters .chip.on { color: var(--ink); border-bottom-color: var(--accent); }
-.blog-filters .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* .hub-bar / .blog-filters: see global.css (shared with /search/). */
 
 /* --- the list --------------------------------------------------------------
    Three ruled columns on desktop; grid items stretch, so the per-entry
@@ -185,7 +165,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .flead h2, .fmini h3, .bcard h2, .blog-filters .chip { transition: none; }
+  .flead h2, .fmini h3, .bcard h2 { transition: none; }
 }
 
 /* --- reading progress (OPS-158) -----------------------------------------

@@ -1,0 +1,21 @@
+---
+// /search/ — site-wide search results (OPS-288).
+//
+// `noindex`: an internal search results page is thin, near-duplicate content
+// and Google's guidance is to keep it out of the index. It stays crawlable
+// (no robots.txt Disallow) so Googlebot can actually read that directive, and
+// it is deliberately absent from sitemap.xml.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBody from '../components/SearchBody.astro';
+import { SEARCH_UI } from '../data/search-lib.js';
+const t = SEARCH_UI.en;
+---
+<BaseLayout
+  lang="en"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/search/"
+  alternates={{ en: '/search/', ua: '/ua/search/' }}
+  noindex={true}>
+  <SearchBody lang="en" />
+</BaseLayout>

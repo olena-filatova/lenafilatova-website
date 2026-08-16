@@ -6,8 +6,11 @@
 //   enHref / uaHref — where the EN/UA toggle points (defaults to About).
 //     Recipe pages pass their own counterpart so the toggle keeps the recipe.
 import { NAV } from '../data/site.js';
+import { SEARCH_UI } from '../data/search-lib.js';
+import SearchPanel from './SearchPanel.astro';
 const { lang = 'en', showList = false, enHref, uaHref } = Astro.props;
 const t = NAV[lang];
+const s = SEARCH_UI[lang];
 const B = import.meta.env.BASE_URL;                 // '/…preview/' now, '/' at root
 const L = lang === 'ua' ? `${B}ua/` : B;            // language-scoped base
 // Default the toggle to the SAME page in the other language, derived from the
@@ -37,15 +40,29 @@ const NAV_ITEMS = [
   { href: `${L}contact/`, label: t.contact },
 ];
 ---
-<header class="site-header">
+{/* `has-list` tells the stylesheet the bar is carrying the extra
+    shopping-list button, which is what makes it too crowded for the wordmark
+    on a small phone. A class rather than `:has(.list-btn)` because the
+    component already knows, and this can't depend on selector support. */}
+<header class:list={['site-header', { 'has-list': showList }]}>
   <div class="wrap inner">
-    <a class="brand" href={L}><span class="mark">lf</span>Lena Filatova</a>
+    {/* The wordmark is wrapped so the narrowest phones can drop it and keep
+        the disc — the bar now carries a search icon as well. */}
+    <a class="brand" href={L}><span class="mark">lf</span><span class="brand-name">Lena Filatova</span></a>
     <nav class="site-nav">
       {NAV_ITEMS.map((n) => (
         <a href={n.href} class={isHere(n.href) ? 'active' : undefined} aria-current={isHere(n.href) ? 'page' : undefined}>{n.label}</a>
       ))}
     </nav>
     <div class="header-actions">
+      {/* The magnifying glass is the whole search affordance in the chrome —
+          it opens SearchPanel below this bar. It comes before the language
+          toggle so the two icon-only controls (search, burger) don't end up
+          separated by it on a phone. */}
+      <button class="search-btn" id="searchOpen" type="button" aria-label={s.open} title={s.open}
+              aria-expanded="false" aria-controls="searchPanel">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      </button>
       <span class="lang">
         <a href={enTo} class={lang === 'en' ? 'on' : ''}>EN</a>
         <a href={uaTo} class={lang === 'ua' ? 'on' : ''}>UA</a>
@@ -67,8 +84,12 @@ const NAV_ITEMS = [
     {NAV_ITEMS.map((n) => (
       <a href={n.href} class={isHere(n.href) ? 'active' : undefined} aria-current={isHere(n.href) ? 'page' : undefined}>{n.label}</a>
     ))}
+    {/* Also in the burger, spelled out: the icon is discoverable for people
+        who look for one, this is for people who read the menu. */}
+    <a href={`${L}search/`} class={isHere(`${L}search/`) ? 'active' : undefined} aria-current={isHere(`${L}search/`) ? 'page' : undefined}>{s.label}</a>
     <a class="btn" href="#newsletter">{t.subscribe}</a>
   </nav>
+  <SearchPanel lang={lang} />
 </header>
 
 <script is:inline>

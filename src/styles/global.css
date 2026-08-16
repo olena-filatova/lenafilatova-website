@@ -288,6 +288,127 @@ img { max-width: 100%; display: block; }
 .mobile-nav a.btn { align-self: flex-start; margin-top: 14px; border-bottom: 0; color: #fff; }
 .mobile-nav[hidden] { display: none !important; }
 
+/* --- hub section bar + filter chips ---------------------------------------
+   Shared furniture: the blog index introduced it, /search/ reuses it. Lived
+   in blog.css until OPS-288 — two pages now depend on it, and the search page
+   has no reason to pull in 500 lines of article styling to get five rules.
+
+   Section label hanging from a heavy ink rule; text filters with an active
+   underline rather than pills, sharing the bar with the label instead of
+   sitting under a rule of their own. */
+.hub-head, .hub-bar { border-top: 1.5px solid var(--ink); padding-top: 10px; }
+.hub-head .fk, .hub-bar .fk {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
+}
+.hub-bar {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: 12px 28px; margin-top: 52px;
+}
+.blog-filters { display: flex; flex-wrap: wrap; gap: 6px 20px; align-items: baseline; }
+.blog-filters[hidden] { display: none; }
+.blog-filters .chip {
+  border: 0; background: none; border-radius: 0; padding: 2px 0 5px; cursor: pointer;
+  font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+  border-bottom: 2px solid transparent; transition: color .2s ease, border-color .2s ease;
+}
+.blog-filters .chip:hover { color: var(--accent); }
+/* The fill is gone, so this underline plus aria-pressed is the whole state. */
+.blog-filters .chip.on { color: var(--ink); border-bottom-color: var(--accent); }
+.blog-filters .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .blog-filters .chip { transition: none; }
+}
+
+/* --- header search (OPS-288) ----------------------------------------------
+   The magnifying glass and the drawer it opens. The drawer is a band inside
+   the sticky header rather than a floating overlay: it grows the masthead
+   instead of covering the page, which needs no scroll lock and no focus trap,
+   and it reads as part of the chrome the icon sits in. */
+.search-btn {
+  display: flex; align-items: center; justify-content: center;
+  border: none; background: transparent; color: var(--ink);
+  width: 40px; height: 40px; padding: 8px; cursor: pointer; flex: none;
+  transition: color .2s ease;
+}
+.search-btn svg { width: 21px; height: 21px; }
+.search-btn:hover, .search-btn.on { color: var(--accent); }
+.search-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.search-panel { border-top: 1px solid var(--line); background: var(--bg); padding: 16px 0 18px; }
+.search-panel[hidden] { display: none !important; }
+/* One hairline box around the whole row, the same device as .lang — the field
+   and its button read as a single control rather than two stacked chrome
+   elements. */
+.search-form { display: flex; align-items: stretch; box-shadow: inset 0 0 0 1px var(--rule); background: var(--card); }
+.search-ico { width: 20px; height: 20px; margin: 0 -4px 0 14px; align-self: center; color: var(--muted); flex: none; }
+.search-input {
+  flex: 1; min-width: 0; border: 0; background: transparent; border-radius: 0;
+  font-family: var(--font-body); font-size: 16px; color: var(--ink); padding: 13px 14px;
+}
+.search-input::placeholder { color: var(--muted); opacity: .75; }
+.search-input:focus { outline: none; }
+/* type="search" draws its own clear ✕ in WebKit/Blink, in its own grey, and on
+   a phone it would sit next to the panel's ✕ as a second, differently-styled
+   cross. One clear affordance per control. */
+.search-input::-webkit-search-cancel-button,
+.srch-field::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+/* The focus ring goes on the box, not the bare input, so it traces the control
+   the visitor sees. :focus-within, because the input has no border of its own. */
+.search-form:focus-within { box-shadow: inset 0 0 0 2px var(--accent); }
+.search-go { min-height: 0; padding: 12px 22px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; flex: none; }
+.search-x {
+  display: none; border: 0; background: transparent; color: var(--muted);
+  width: 44px; cursor: pointer; flex: none;
+}
+.search-x svg { width: 20px; height: 20px; }
+.search-x:hover { color: var(--accent); }
+
+.search-hint { margin: 10px 2px 0; font-size: 12.5px; color: var(--muted); }
+.search-hint[hidden] { display: none; }
+
+.search-suggest { margin-top: 8px; max-height: min(58vh, 420px); overflow-y: auto; }
+.search-suggest[hidden] { display: none; }
+.sg {
+  display: flex; align-items: baseline; gap: 14px;
+  padding: 11px 2px; border-bottom: 1px solid var(--line); color: var(--ink);
+}
+.sg:last-child { border-bottom: 0; }
+/* .on is keyboard selection, :hover is the pointer — both get the same wash so
+   the two modes are not two different-looking states. */
+.sg:hover, .sg.on { background: var(--paper2); }
+.sg-k {
+  flex: none; width: 78px; font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+}
+.sg-t { font-size: 15px; line-height: 1.35; }
+.sg-all {
+  justify-content: flex-end; font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); padding-top: 14px;
+}
+.sg-empty { margin: 10px 2px; font-family: var(--font-head); font-size: 17px; color: var(--muted); }
+
+/* Matches are washed rather than highlighter-yellow — the point is to show
+   where the query landed, not to shout. */
+mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
+
+@media (max-width: 620px) {
+  /* No room for a labelled submit next to the field; Enter submits, and the
+     × becomes the visible way back out of the drawer. */
+  .search-go { display: none; }
+  .search-x { display: flex; align-items: center; justify-content: center; }
+  .sg { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .sg-k { width: auto; }
+}
+/* Recipe pages carry a fourth control (the shopping list) next to search,
+   EN/UA and the burger, and on a phone that is one more than the row holds
+   alongside the wordmark. There the wordmark gives up its text and keeps the
+   disc; everywhere else it stays, because three controls still fit. */
+@media (max-width: 430px) {
+  .site-header.has-list .brand-name { display: none; }
+}
+
 /* --- masthead device (OPS-277) ------------------------------------------
    Label, then a hairline running out to the margin. Every page that isn't the
    homepage opens with it — the resources hub introduced it, and About, Contact,
