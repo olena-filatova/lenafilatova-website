@@ -151,292 +151,432 @@
 }
 </style>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* ── The editorial system, applied by hand (OPS-278) ────────────────────
+   This page is a standalone file in public/, outside the Astro bundle, so it
+   cannot import src/styles/global.css — the tokens below are that file's
+   :root, copied. Keep the two in step.
 
-  :root {
-    --green:       #2F7A52;
-    --green-dark:  #1E5631;
-    --green-soft:  #EAF4EC;
-    --green-line:  #CDE6D6;
-    --green-bg:    #F1F8F3;
-    --pink:        #B23A63;
-    --pink-soft:   #F7ECF1;
-    --ink:         #331B33;
-    --body:        #4A3A48;
-    --muted:       #6A5668;
-    --faint:       #9A8896;
-    --radius:      16px;
-  }
+   What changed: this tool was built on its own green identity — a green
+   gradient header, green buttons, green option cards, 16px corners — which
+   made it read as a different product from the site that links to it. Green
+   now keeps only the job it was doing well: the semantic "this one is fine"
+   signal on tips and low-urgency results. Every action is the brand magenta,
+   the ground is the warm paper, and the corners are square.
 
-  body {
-    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--green-bg);
-    min-height: 100vh;
-    color: var(--ink);
-    -webkit-font-smoothing: antialiased;
-  }
+   Behaviour is untouched: the wizard, the disclaimer gate, the summary panel
+   and the subscribe form all keep their classes and ids. */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  .wrapper { max-width: 680px; margin: 0 auto; padding: 16px 16px 32px; }
+:root {
+  --accent:      #B23A63;   /* brand magenta — unchanged */
+  --accent-deep: #7C2144;
+  --ink:         #2A1424;
+  --body:        #4A3644;
+  --muted:       #5A4152;
+  --faint:       #5A4152;   /* was #9A8896 — 2.9:1 on paper, a known failure */
+  --bg:          #F5EFE8;
+  --paper2:      #EFE6DC;
+  --card:        #FFFCF7;
+  --line:        rgba(42, 20, 36, 0.10);
+  --rule:        rgba(42, 20, 36, 0.18);
+  --radius:      0;
+  --font-head:   'Spectral', Georgia, serif;
+  --font-body:   'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
-  /* Header */
-  .header {
-    background: linear-gradient(135deg, #1E5631 0%, #2D6A4F 100%);
-    color: #fff;
-    padding: 22px 24px;
-    border-radius: var(--radius);
-    margin-bottom: 14px;
-    text-align: center;
-  }
-  .header h1 { font-size: 20px; font-weight: 800; margin-bottom: 4px; letter-spacing: -0.2px; }
-  .header p { font-size: 13px; opacity: 0.88; font-weight: 500; }
+  /* Semantic scale, re-mixed for the warm paper. */
+  --green:      #26654A;
+  --green-deep: #1B4C37;
+  --green-soft: #E3EDE5;
+  --green-line: #CBDCD0;
+  --amber:      #8A4B18;  --amber-bg: #F4E7D6;
+  --orange:     #9A4600;  --orange-bg: #F1DCCF;
+  --red:        #9E2626;  --red-bg:   #F6E2DF;
 
-  /* Progress */
-  .progress-bar {
-    height: 5px; background: var(--green-line);
-    border-radius: 3px; margin-bottom: 16px; overflow: hidden;
-  }
-  .progress-fill {
-    height: 100%; background: var(--green);
-    border-radius: 3px; transition: width 0.4s ease;
-  }
+  /* Kept for compatibility with the older names used further down. */
+  --pink:      #B23A63;
+  --pink-soft: #F7E9EF;
+}
 
-  /* Cards */
-  .card {
-    background: #fff;
-    border-radius: var(--radius);
-    padding: 26px 22px;
-    box-shadow: 0 2px 16px rgba(51,27,51,0.06);
-    margin-bottom: 12px;
-    animation: fadeUp 0.3s ease;
-  }
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(10px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  min-height: 100vh;
+  color: var(--body);
+  -webkit-font-smoothing: antialiased;
+}
 
-  /* Question */
-  .step-label {
-    font-size: 10px; font-weight: 700; letter-spacing: 1.2px;
-    text-transform: uppercase; color: var(--green); margin-bottom: 10px;
-  }
-  .question { font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 8px; }
-  .subtitle { font-size: 13px; color: var(--muted); line-height: 1.55; margin-bottom: 20px; }
+/* ── Masthead ──────────────────────────────────────────────────────────
+   The tool is one click from the homepage list and used to open on its own
+   green banner with no brand and no way back. */
+.tool-head { background: var(--bg); border-bottom: 1px solid var(--rule); }
+.tool-head .in {
+  max-width: 680px; margin: 0 auto; padding: 0 16px;
+  display: flex; align-items: center; gap: 18px; min-height: 58px;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--font-head); font-weight: 500; font-size: 18px;
+  letter-spacing: -0.02em; color: var(--ink); text-decoration: none;
+}
+.brand .mark {
+  flex: none; width: 32px; height: 32px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-style: italic; font-size: 14px;
+}
+.back-link {
+  margin-left: auto; font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; transition: color .2s ease;
+}
+.back-link:hover { color: var(--accent); }
+.back-link:focus-visible, .brand:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-  /* Options */
-  .options { display: flex; flex-direction: column; gap: 9px; }
-  .opt {
-    background: var(--green-soft);
-    border: 2px solid var(--green-line);
-    border-radius: 11px;
-    padding: 13px 16px;
-    text-align: left; cursor: pointer;
-    font-family: inherit; font-size: 14px; font-weight: 600;
-    color: var(--ink); line-height: 1.4;
-    transition: all 0.18s;
-  }
-  .opt:hover { background: #E1F0E7; border-color: var(--green); transform: translateX(4px); }
-  .opt:active { transform: translateX(2px); }
+.wrapper { max-width: 680px; margin: 0 auto; padding: 0 16px 32px; }
 
-  /* Nav */
-  .nav { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; }
-  .back {
-    background: none; border: none; color: var(--faint);
-    font-family: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
-    padding: 6px 8px; border-radius: 8px; transition: all 0.15s;
-  }
-  .back:hover { background: #F3EEF1; color: var(--muted); }
-  .step-count { font-size: 12px; color: var(--faint); }
+/* ── Page head ─────────────────────────────────────────────────────────
+   Was a green gradient panel with white 20px bold type. Now the masthead
+   device the hubs open with: a magenta label over a hairline, then the title
+   in Spectral on the paper. */
+.header {
+  background: none; color: var(--ink);
+  padding: 26px 0 18px; border-radius: 0; margin-bottom: 16px; text-align: left;
+}
+.header h1 {
+  font-family: var(--font-head); font-weight: 400;
+  font-size: clamp(26px, 6vw, 34px); line-height: 1.1; letter-spacing: -0.025em;
+  color: var(--ink); margin-bottom: 10px;
+}
+.header p {
+  font-family: var(--font-head); font-weight: 300; font-size: 16px; line-height: 1.5;
+  color: var(--muted); opacity: 1;
+}
 
-  /* Result card */
-  .result-icon { font-size: 34px; margin-bottom: 10px; display: block; }
-  .badge {
-    display: inline-block; padding: 3px 10px; border-radius: 20px;
-    font-size: 10px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 0.5px; margin-bottom: 8px;
-  }
-  .urgency-tag { float: right; padding: 3px 9px; border-radius: 20px; font-size: 10px; font-weight: 700; }
-  .u-low   { background: #D1FAE5; color: #065F46; }
-  .u-medium{ background: #FEF3C7; color: #92400E; }
-  .u-high  { background: #FED7AA; color: #C2410C; }
-  .u-critical{ background: #FEE2E2; color: #991B1B; }
+/* Progress — a hairline that fills with magenta, not a green capsule. */
+.progress-bar { height: 2px; background: var(--rule); border-radius: 0; margin-bottom: 20px; overflow: hidden; }
+.progress-fill { height: 100%; background: var(--accent); border-radius: 0; transition: width .4s ease; }
 
-  .b-food        { background: #DBEAFE; color: #1E40AF; }
-  .b-insulin     { background: #EDE9FE; color: #5B21B6; }
-  .b-medication  { background: #FEE2E2; color: #991B1B; }
-  .b-illness     { background: #FEF3C7; color: #92400E; }
-  .b-lifestyle   { background: #D1FAE5; color: #065F46; }
-  .b-hormones    { background: #FCE7F3; color: #9D174D; }
-  .b-exercise    { background: #DBEAFE; color: #1E40AF; }
-  .b-equipment   { background: #F3F4F6; color: #374151; }
-  .b-environment { background: #ECFDF5; color: #065F46; }
-  .b-physiology  { background: #EDE9FE; color: #5B21B6; }
-  .b-emergency   { background: #FEE2E2; color: #991B1B; }
-  .b-medical     { background: #FEF3C7; color: #92400E; }
-  .b-unknown     { background: #F3F4F6; color: #374151; }
+/* ── Cards ─────────────────────────────────────────────────────────────
+   Square, hairline-edged, no drop shadow. The paper does the separating. */
+.card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 26px 22px;
+  box-shadow: none;
+  margin-bottom: 12px;
+  animation: fadeUp .3s ease;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
-  .result-title { font-size: 20px; font-weight: 800; margin-bottom: 12px; clear: both; letter-spacing: -0.2px; }
-  .result-title.critical-color { color: #DC2626; }
-  .explanation { font-size: 14px; line-height: 1.65; color: var(--body); margin-bottom: 18px; }
+/* ── Question ──────────────────────────────────────────────────────────── */
+.step-label {
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 12px;
+}
+.question {
+  font-family: var(--font-head); font-weight: 400; font-size: 22px;
+  line-height: 1.25; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 8px;
+}
+.subtitle { font-size: 13.5px; color: var(--muted); line-height: 1.55; margin-bottom: 20px; }
 
-  .tips-label {
-    font-size: 11px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 0.7px; color: var(--green); margin-bottom: 8px;
-  }
-  .tips { list-style: none; display: flex; flex-direction: column; gap: 7px; }
-  .tips li { font-size: 13px; line-height: 1.5; color: var(--body); padding-left: 20px; position: relative; }
-  .tips li::before { content: '✓'; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+/* ── Options ───────────────────────────────────────────────────────────
+   Rows on the paper with a hairline edge, not green capsules. Hover puts a
+   magenta rule down the leading edge instead of sliding the row sideways. */
+.options { display: flex; flex-direction: column; gap: 8px; }
+.opt {
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-align: left; cursor: pointer;
+  font-family: var(--font-body); font-size: 14.5px; font-weight: 600;
+  color: var(--ink); line-height: 1.4;
+  transition: background .18s ease, box-shadow .18s ease, padding-left .18s ease;
+}
+.opt:hover { background: var(--paper2); box-shadow: inset 3px 0 0 var(--accent); padding-left: 20px; }
+.opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .consult-note {
-    background: var(--green-bg); border-left: 3px solid var(--green);
-    padding: 10px 14px; border-radius: 0 8px 8px 0;
-    font-size: 12px; color: var(--body); margin-top: 16px; line-height: 1.5;
-  }
+/* ── Nav ───────────────────────────────────────────────────────────────── */
+.nav { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; }
+.back {
+  background: none; border: none; color: var(--muted);
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  cursor: pointer; padding: 6px 0; border-radius: 0; transition: color .15s ease;
+}
+.back:hover { background: none; color: var(--accent); }
+.back:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.step-count { font-family: var(--font-head); font-size: 13px; color: var(--muted); }
 
-  .btn-continue {
-    background: var(--green); color: #fff; border: none; border-radius: 11px;
-    padding: 13px 18px; width: 100%; font-family: inherit; font-size: 14px; font-weight: 700;
-    cursor: pointer; margin-top: 14px; transition: background 0.2s;
-  }
-  .btn-continue:hover { background: var(--green-dark); }
+/* ── Result ────────────────────────────────────────────────────────────── */
+.result-icon { font-size: 30px; margin-bottom: 10px; display: block; }
+.badge {
+  display: inline-block; font-family: var(--font-body);
+  padding: 0.2rem 0.5rem; border-radius: var(--radius);
+  font-size: 10px; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.12em; margin-bottom: 10px;
+  background: var(--paper2);
+}
+.urgency-tag {
+  float: right; font-family: var(--font-body);
+  padding: 0.2rem 0.5rem; border-radius: var(--radius);
+  font-size: 10px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+}
+/* The escalation reads low → critical: quiet green, then amber, then orange,
+   then a solid red block. Critical is the only one that reverses out. */
+.u-low      { background: var(--green-soft); color: var(--green); }
+.u-medium   { background: var(--amber-bg);   color: var(--amber); }
+.u-high     { background: var(--orange-bg);  color: var(--orange); }
+.u-critical { background: var(--red);        color: #fff; }
 
-  .btn-restart {
-    background: transparent; color: var(--green); border: 2px solid var(--green-line);
-    border-radius: 11px; padding: 11px 18px; width: 100%;
-    font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer;
-    margin-top: 8px; transition: all 0.2s;
-  }
-  .btn-restart:hover { background: var(--green-soft); }
+/* Cause categories. Was thirteen cool pastel grounds; now one paper2 ground
+   with thirteen inks, every one of which clears 4.5:1 on it. */
+.b-food        { color: #8A4B18; }
+.b-insulin     { color: #5A3FA0; }
+.b-medication  { color: #9E2626; }
+.b-illness     { color: #8A4F1F; }
+.b-lifestyle   { color: #26654A; }
+.b-hormones    { color: #A0206A; }
+.b-exercise    { color: #1B5E9B; }
+.b-equipment   { color: #5A4152; }
+.b-environment { color: #186B52; }
+.b-physiology  { color: #5040A0; }
+.b-emergency   { color: #9E2626; }
+.b-medical     { color: #8A4B18; }
+.b-unknown     { color: #5A4152; }
 
-  .card.critical-border { border: 2px solid #EF4444; animation: fadeUp 0.3s ease, pulse-border 2s infinite; }
-  @keyframes pulse-border {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.3); }
-    50%      { box-shadow: 0 0 0 8px rgba(239,68,68,0); }
-  }
+.result-title {
+  font-family: var(--font-head); font-weight: 400; font-size: 24px;
+  line-height: 1.15; letter-spacing: -0.025em; color: var(--ink);
+  margin-bottom: 12px; clear: both;
+}
+.result-title.critical-color { color: var(--red); }
+.explanation { font-size: 14.5px; line-height: 1.65; color: var(--body); margin-bottom: 18px; }
 
-  .footer { text-align: center; font-size: 11px; color: var(--faint); margin-top: 8px; line-height: 1.5; }
-  .footer a { color: var(--pink); text-decoration: none; font-weight: 600; }
+.tips-label {
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--ink); margin-bottom: 10px;
+  border-top: 1.5px solid var(--ink); padding-top: 10px;
+}
+.tips { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.tips li { font-size: 13.5px; line-height: 1.5; color: var(--body); padding-left: 20px; position: relative; }
+/* Green earns its keep here: these are the things it is safe to do. */
+.tips li::before { content: '✓'; position: absolute; left: 0; color: var(--green); font-weight: 700; }
 
-  /* Cover slide */
-  .cover-badge {
-    display: inline-block; background: var(--pink-soft); color: var(--pink);
-    font-size: 11px; font-weight: 700; letter-spacing: 0.3px;
-    padding: 5px 12px; border-radius: 20px; margin-bottom: 16px;
-  }
-  .cover-title {
-    font-family: 'Spectral', Georgia, serif; font-weight: 600;
-    font-size: 30px; line-height: 1.15; letter-spacing: -0.4px;
-    color: var(--ink); margin-bottom: 14px;
-  }
-  .cover-intro { font-size: 14.5px; line-height: 1.6; color: var(--body); margin-bottom: 22px; }
-  .cover-example-label {
-    font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px;
-    color: var(--green); margin-bottom: 10px;
-  }
-  .preview {
-    background: linear-gradient(160deg, #FCF5F9 0%, #F5FAF6 100%);
-    border: 1.5px solid var(--green-line);
-    border-radius: 14px; padding: 18px 18px 16px; margin-bottom: 14px;
-  }
-  .preview .p-icon { font-size: 28px; display: block; margin-bottom: 6px; }
-  .preview .p-title { font-size: 16px; font-weight: 800; margin-bottom: 7px; letter-spacing: -0.2px; }
-  .preview .p-exp { font-size: 13px; line-height: 1.55; color: var(--body); margin-bottom: 12px; }
-  .preview .tips li { font-size: 12.5px; }
+.consult-note {
+  background: var(--paper2); border-left: 2px solid var(--accent);
+  padding: 12px 14px; border-radius: 0;
+  font-size: 12.5px; color: var(--body); margin-top: 18px; line-height: 1.5;
+}
 
-  .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 22px; }
-  .chip {
-    font-size: 12px; font-weight: 600; color: var(--muted);
-    background: #fff; border: 1.5px solid var(--green-line);
-    padding: 6px 11px; border-radius: 20px;
-  }
-  .cover-bullets { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 22px; }
-  .cover-bullets li { font-size: 13px; line-height: 1.5; color: var(--body); padding-left: 24px; position: relative; }
-  .cover-bullets li::before { content: '•'; position: absolute; left: 6px; color: var(--pink); font-weight: 800; font-size: 15px; }
-  .btn-start {
-    background: var(--green); color: #fff; border: none; border-radius: 12px;
-    padding: 16px 18px; width: 100%; font-family: inherit; font-size: 15.5px; font-weight: 800;
-    cursor: pointer; transition: background 0.2s; letter-spacing: 0.1px;
-  }
-  .btn-start:hover { background: var(--green-dark); }
-  .cover-note { font-size: 11.5px; color: var(--faint); text-align: center; margin-top: 12px; line-height: 1.5; }
+/* ── Buttons ───────────────────────────────────────────────────────────
+   Square, weighty, magenta — the same .btn the rest of the site uses. */
+.btn-continue {
+  background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
+  padding: 15px 18px; width: 100%; font-family: var(--font-body);
+  font-size: 15px; font-weight: 700; cursor: pointer; margin-top: 16px;
+  transition: background .2s ease;
+}
+.btn-continue:hover { background: var(--accent-deep); }
 
-  /* Disclaimer gate */
-  .disclaimer-card { border: 2px solid #FCD34D; background: #FFFEF7; }
-  .disclaimer-heading { font-size: 21px; font-weight: 800; color: var(--ink); margin-bottom: 18px; letter-spacing: -0.2px; }
-  .disclaimer-items { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
-  .disclaimer-items li { font-size: 14px; line-height: 1.55; color: var(--body); padding-left: 24px; position: relative; }
-  .disclaimer-items li::before { content: '⚠️'; position: absolute; left: 0; font-size: 12px; top: 1px; }
-  .disclaimer-confirm {
-    background: #FEF9C3; border: 1px solid #FDE047; border-radius: 8px;
-    padding: 13px 15px; font-size: 13px; font-weight: 600; color: #713F12;
-    margin-bottom: 20px; line-height: 1.5;
-  }
-  .btn-agree {
-    background: var(--green); color: #fff; border: none; border-radius: 11px;
-    padding: 15px 18px; width: 100%; font-family: inherit; font-size: 15px; font-weight: 800;
-    cursor: pointer; margin-bottom: 10px; transition: background 0.2s;
-  }
-  .btn-agree:hover { background: var(--green-dark); }
-  .btn-decline {
-    background: transparent; color: var(--faint); border: 2px solid #E5E7EB; border-radius: 11px;
-    padding: 11px 18px; width: 100%; font-family: inherit; font-size: 13px; font-weight: 600;
-    cursor: pointer; transition: all 0.2s;
-  }
-  .btn-decline:hover { background: #F9FAFB; color: var(--muted); border-color: #D1D5DB; }
+.btn-restart {
+  background: transparent; color: var(--ink); border: 1px solid var(--rule);
+  border-radius: var(--radius); padding: 13px 18px; width: 100%;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  cursor: pointer; margin-top: 8px; transition: border-color .2s ease, color .2s ease;
+}
+.btn-restart:hover { background: transparent; border-color: var(--ink); color: var(--accent); }
 
-  /* Summary section */
-  .summary-box { margin-top: 18px; background: var(--green-bg); border: 1.5px solid var(--green-line); border-radius: 12px; padding: 15px 17px; }
-  .btn-summary-toggle {
-    background: none; border: none; font-family: inherit; font-size: 14px; font-weight: 700;
-    color: var(--green-dark); cursor: pointer; padding: 0; text-align: left; width: 100%;
-  }
-  .btn-summary-toggle:hover { color: var(--green); text-decoration: underline; }
-  .summary-hint { font-size: 12px; color: var(--muted); margin-bottom: 10px; line-height: 1.5; }
-  .summary-textarea {
-    width: 100%; min-height: 180px; font-size: 12px;
-    font-family: 'Courier New', Courier, monospace; line-height: 1.6; color: var(--body);
-    background: #fff; border: 1px solid #D1D5DB; border-radius: 8px; padding: 10px 12px;
-    resize: vertical; margin-bottom: 10px;
-  }
-  .summary-btns { display: flex; flex-wrap: wrap; gap: 8px; }
-  .btn-sum { flex: 1; min-width: 100px; padding: 10px 12px; border-radius: 9px; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.18s; }
-  .btn-sum-email { background: var(--green); color: #fff; border: none; }
-  .btn-sum-email:hover { background: var(--green-dark); }
-  .btn-sum-copy { background: var(--pink-soft); color: var(--pink); border: 1.5px solid #E7C4D5; }
-  .btn-sum-copy:hover { background: #F1DCE6; }
-  .btn-sum-print { background: #F3F4F6; color: #374151; border: 1.5px solid #D1D5DB; }
-  .btn-sum-print:hover { background: #E5E7EB; }
+.btn-continue:focus-visible, .btn-restart:focus-visible,
+.btn-start:focus-visible, .btn-agree:focus-visible, .btn-decline:focus-visible,
+.btn-sum:focus-visible, .btn-sub-email:focus-visible, .btn-summary-toggle:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
 
-  /* Subscribe + email-summary */
-  .sub-form { margin-top: 14px; border-top: 1px solid var(--green-line); padding-top: 13px; }
-  .sub-hint { font-size: 12px; color: var(--muted); line-height: 1.5; margin-bottom: 9px; }
-  .sub-email {
-    width: 100%; font-family: inherit; font-size: 14px; padding: 11px 12px;
-    border: 1.5px solid var(--green-line); border-radius: 9px; margin-bottom: 8px; color: var(--ink); background: #fff;
-  }
-  .sub-email:focus { outline: none; border-color: var(--green); }
-  .sub-consent { display: flex; gap: 8px; align-items: flex-start; font-size: 11.5px; color: var(--muted); line-height: 1.45; margin-bottom: 10px; cursor: pointer; }
-  .sub-consent input { margin-top: 2px; flex: 0 0 auto; accent-color: var(--pink); }
-  .btn-sub-email {
-    width: 100%; background: var(--pink); color: #fff; border: none; border-radius: 9px;
-    padding: 12px 14px; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer; transition: background 0.2s;
-  }
-  .btn-sub-email:hover { background: #8f2b4e; }
-  .sub-status { font-size: 12px; margin-top: 8px; line-height: 1.45; }
-  .sub-status.ok { color: var(--green-dark); font-weight: 600; }
-  .sub-status.err { color: #b52b2b; font-weight: 600; }
+/* A critical result gets a solid red edge — no pulse, it is a warning not an
+   animation. */
+.card.critical-border { border: 2px solid var(--red); animation: fadeUp .3s ease; }
 
-  @media (max-width: 480px) { .cover-title { font-size: 26px; } }
+.footer { text-align: center; font-size: 11.5px; color: var(--muted); margin-top: 14px; line-height: 1.55; }
+.footer a { color: var(--accent); text-decoration: none; font-weight: 700; }
+.footer a:hover { text-decoration: underline; }
 
-  @media print {
-    .header, .progress-bar, .footer, .btn-restart, .btn-continue,
-    .summary-btns, .btn-summary-toggle, .sub-form, .nav, .back { display: none !important; }
-    .card { box-shadow: none; border: 1px solid #ccc; }
-    .summary-textarea { min-height: unset; border: none; padding: 0; font-size: 11px; }
-    #summaryPanel { display: block !important; }
-  }
+/* ── Cover slide ───────────────────────────────────────────────────────── */
+.cover-badge {
+  display: inline-block; background: var(--accent); color: var(--bg);
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 6px 12px; border-radius: var(--radius); margin-bottom: 18px;
+}
+.cover-title {
+  font-family: var(--font-head); font-weight: 400;
+  font-size: 32px; line-height: 1.08; letter-spacing: -0.03em;
+  color: var(--ink); margin-bottom: 14px; text-wrap: balance;
+}
+.cover-intro { font-size: 15px; line-height: 1.6; color: var(--body); margin-bottom: 22px; }
+.cover-example-label {
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--ink); margin-bottom: 10px;
+  border-top: 1.5px solid var(--ink); padding-top: 10px;
+}
+/* The worked example: a recessed panel on the paper, no gradient. */
+.preview {
+  background: var(--bg); border: 1px solid var(--rule);
+  border-radius: var(--radius); padding: 18px; margin-bottom: 16px;
+}
+.preview .p-icon { font-size: 26px; display: block; margin-bottom: 6px; }
+.preview .p-title {
+  font-family: var(--font-head); font-weight: 400; font-size: 18px;
+  letter-spacing: -0.02em; color: var(--ink); margin-bottom: 8px;
+}
+.preview .p-exp { font-size: 13px; line-height: 1.55; color: var(--body); margin-bottom: 12px; }
+.preview .tips li { font-size: 12.5px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 22px; }
+.chip {
+  font-family: var(--font-body); font-size: 11.5px; font-weight: 600; color: var(--muted);
+  background: var(--card); border: 1px solid var(--rule);
+  padding: 6px 11px; border-radius: var(--radius);
+}
+.cover-bullets { list-style: none; display: flex; flex-direction: column; gap: 9px; margin-bottom: 22px; }
+.cover-bullets li { font-size: 13.5px; line-height: 1.5; color: var(--body); padding-left: 20px; position: relative; }
+/* A short magenta rule, the mark the shop and about lists use. */
+.cover-bullets li::before {
+  content: ''; position: absolute; left: 0; top: 10px;
+  width: 8px; height: 1px; background: var(--accent);
+}
+.btn-start {
+  background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
+  padding: 17px 18px; width: 100%; font-family: var(--font-body);
+  font-size: 15px; font-weight: 700; cursor: pointer;
+  transition: background .2s ease;
+}
+.btn-start:hover { background: var(--accent-deep); }
+.cover-note { font-size: 11.5px; color: var(--muted); text-align: center; margin-top: 14px; line-height: 1.5; }
+
+/* ── Disclaimer gate ───────────────────────────────────────────────────
+   This is the one place a warning colour is the point, so the amber stays —
+   re-mixed onto the paper rather than the old #FFFEF7 / #FCD34D pairing. */
+.disclaimer-card { border: 2px solid var(--amber); background: var(--card); }
+.disclaimer-heading {
+  font-family: var(--font-head); font-weight: 400; font-size: 24px;
+  line-height: 1.15; letter-spacing: -0.025em; color: var(--ink); margin-bottom: 18px;
+}
+.disclaimer-items { list-style: none; display: flex; flex-direction: column; gap: 11px; margin-bottom: 20px; }
+.disclaimer-items li { font-size: 14px; line-height: 1.55; color: var(--body); padding-left: 24px; position: relative; }
+.disclaimer-items li::before { content: '⚠️'; position: absolute; left: 0; font-size: 12px; top: 2px; }
+.disclaimer-confirm {
+  background: var(--amber-bg); border: 0; border-left: 3px solid var(--amber);
+  border-radius: var(--radius); padding: 13px 15px;
+  font-size: 13px; font-weight: 600; color: var(--amber);
+  margin-bottom: 20px; line-height: 1.5;
+}
+.btn-agree {
+  background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
+  padding: 16px 18px; width: 100%; font-family: var(--font-body);
+  font-size: 15px; font-weight: 700; cursor: pointer; margin-bottom: 10px;
+  transition: background .2s ease;
+}
+.btn-agree:hover { background: var(--accent-deep); }
+.btn-decline {
+  background: transparent; color: var(--muted); border: 1px solid var(--rule);
+  border-radius: var(--radius); padding: 13px 18px; width: 100%;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  cursor: pointer; transition: border-color .2s ease, color .2s ease;
+}
+.btn-decline:hover { background: transparent; color: var(--ink); border-color: var(--ink); }
+
+/* ── Summary ───────────────────────────────────────────────────────────── */
+.summary-box {
+  margin-top: 20px; background: var(--bg);
+  border: 0; border-top: 1.5px solid var(--ink); border-radius: 0;
+  padding: 14px 0 0;
+}
+.btn-summary-toggle {
+  background: none; border: none; font-family: var(--font-body);
+  font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--ink); cursor: pointer; padding: 0; text-align: left; width: 100%;
+}
+.btn-summary-toggle:hover { color: var(--accent); text-decoration: none; }
+.summary-hint { font-size: 12.5px; color: var(--muted); margin: 10px 0; line-height: 1.5; }
+.summary-textarea {
+  width: 100%; min-height: 180px; font-size: 12px;
+  font-family: 'Courier New', Courier, monospace; line-height: 1.6; color: var(--body);
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 12px; resize: vertical; margin-bottom: 10px;
+}
+.summary-textarea:focus { outline: none; border-color: var(--accent); }
+.summary-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn-sum {
+  flex: 1; min-width: 104px; padding: 12px; border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  cursor: pointer; transition: background .18s ease, border-color .18s ease, color .18s ease;
+}
+.btn-sum-email { background: var(--accent); color: #fff; border: 1px solid var(--accent); }
+.btn-sum-email:hover { background: var(--accent-deep); border-color: var(--accent-deep); }
+.btn-sum-copy { background: transparent; color: var(--ink); border: 1px solid var(--rule); }
+.btn-sum-copy:hover { border-color: var(--ink); color: var(--accent); }
+.btn-sum-print { background: transparent; color: var(--ink); border: 1px solid var(--rule); }
+.btn-sum-print:hover { border-color: var(--ink); color: var(--accent); }
+
+/* ── Subscribe ─────────────────────────────────────────────────────────── */
+.sub-form { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 14px; }
+.sub-hint { font-size: 12.5px; color: var(--muted); line-height: 1.5; margin-bottom: 10px; }
+.sub-email {
+  width: 100%; font-family: var(--font-body); font-size: 14px; padding: 12px;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  margin-bottom: 8px; color: var(--ink); background: var(--card);
+}
+.sub-email::placeholder { color: var(--muted); }
+.sub-email:focus { outline: none; border-color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+.sub-consent { display: flex; gap: 9px; align-items: flex-start; font-size: 12px; color: var(--muted); line-height: 1.45; margin-bottom: 10px; cursor: pointer; }
+.sub-consent input { margin-top: 2px; flex: 0 0 auto; accent-color: var(--accent); }
+.sub-consent input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn-sub-email {
+  width: 100%; background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
+  padding: 13px 14px; font-family: var(--font-body); font-size: 14px; font-weight: 700;
+  cursor: pointer; transition: background .2s ease;
+}
+.btn-sub-email:hover { background: var(--accent-deep); }
+.sub-status { font-size: 12.5px; margin-top: 8px; line-height: 1.45; }
+.sub-status.ok  { color: var(--green); font-weight: 700; }
+.sub-status.err { color: var(--red); font-weight: 700; }
+
+@media (max-width: 480px) { .cover-title { font-size: 27px; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .card { animation: none; }
+  .opt, .back-link, .btn-continue, .btn-restart, .btn-start,
+  .btn-agree, .btn-decline, .btn-sum, .btn-sub-email { transition: none; }
+  .opt:hover { padding-left: 16px; }
+  .progress-fill { transition: none; }
+}
+
+@media print {
+  .tool-head, .header, .progress-bar, .footer, .btn-restart, .btn-continue,
+  .summary-btns, .btn-summary-toggle, .sub-form, .nav, .back { display: none !important; }
+  .card { box-shadow: none; border: 1px solid #ccc; }
+  .summary-textarea { min-height: unset; border: none; padding: 0; font-size: 11px; }
+  #summaryPanel { display: block !important; }
+}
 </style>
 </head>
 <body>
+<header class="tool-head">
+  <div class="in">
+    <a class="brand" href="/ua/"><span class="mark">lf</span>Lena Filatova</a>
+    <a class="back-link" href="/ua/resources/">Усі інструменти</a>
+  </div>
+</header>
 <div class="wrapper">
   <div class="header">
     <h1 id="hdrTitle"></h1>

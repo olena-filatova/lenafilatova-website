@@ -137,15 +137,27 @@
 }
 </style>
 <style>
+    /* ── The editorial system, applied by hand (OPS-278) ──────────────────
+       This page is a standalone file in public/, outside the Astro bundle, so
+       it cannot import src/styles/global.css — the tokens below are that
+       file's :root, copied. Keep the two in step.
+
+       It was still on the pre-redesign pink set (--bg #F6F0F5, --ink #331B33,
+       --radius 18px, pill links), which is exactly the combination OPS-270
+       replaced. A 404 is reached from a broken link on the real site, so
+       landing on the old palette makes it read as someone else's error page. */
     :root {
       --accent: #B23A63;
-      --ink: #331B33;
-      --body: #4a4450;
-      --muted: #5E4A5B;
-      --bg: #F6F0F5;
-      --card: #ffffff;
-      --line: #eadfe8;
-      --radius: 18px;
+      --accent-deep: #7C2144;
+      --ink: #2A1424;
+      --body: #4A3644;
+      --muted: #5A4152;
+      --bg: #F5EFE8;
+      --paper2: #EFE6DC;
+      --card: #FFFCF7;
+      --line: rgba(42, 20, 36, 0.10);
+      --rule: rgba(42, 20, 36, 0.18);
+      --radius: 0;
       --font-head: 'Spectral', Georgia, serif;
       --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     }
@@ -168,71 +180,91 @@
     a { color: inherit; text-decoration: none; }
     .brand {
       display: flex; align-items: center; gap: 12px;
-      font-family: var(--font-head); font-weight: 600; font-size: 20px;
-      color: var(--ink); margin-bottom: 40px;
+      font-family: var(--font-head); font-weight: 500; font-size: 21px;
+      letter-spacing: -0.02em; color: var(--ink); margin-bottom: 40px;
     }
+    /* The mark stays a magenta disc — the logo, and the one round thing the
+       square system keeps on purpose. */
     .brand .mark {
       display: inline-grid; place-items: center;
       width: 40px; height: 40px; border-radius: 50%;
       background: var(--accent); color: var(--bg);
       font-style: italic; font-size: 20px;
     }
+    /* No shadow, no rounding: a sheet on the paper, held by a hairline. */
     .card {
       background: var(--card);
-      border: 1px solid var(--line);
+      border: 1px solid var(--rule);
       border-radius: var(--radius);
       padding: 44px 36px;
       max-width: 640px;
       width: 100%;
       text-align: center;
-      box-shadow: 0 18px 50px -30px rgba(51,27,51,0.35);
+      box-shadow: none;
     }
     .code {
       font-family: var(--font-head);
       color: var(--accent);
-      font-size: 72px;
+      font-size: 76px;
       line-height: 1;
-      font-weight: 600;
-      margin: 0 0 8px;
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      margin: 0 0 10px;
     }
     h1 {
       font-family: var(--font-head);
       color: var(--ink);
-      font-weight: 500;
-      font-size: 26px;
+      font-weight: 400;
+      font-size: 28px;
+      letter-spacing: -0.025em;
       margin: 0 0 12px;
     }
     p { margin: 0 auto 10px; max-width: 46ch; }
     .ua { color: var(--muted); font-size: 15px; }
-    .ua .h { display: block; color: var(--ink); font-family: var(--font-head); font-size: 19px; margin: 22px 0 6px; }
+    .ua .h {
+      display: block; color: var(--ink); font-family: var(--font-head);
+      font-weight: 400; font-size: 21px; letter-spacing: -0.02em; margin: 22px 0 6px;
+    }
+    /* The five destinations, set as the wide-tracked caps the site uses for
+       navigation rather than as pills. */
     .links {
-      display: flex; flex-wrap: wrap; gap: 12px;
+      display: flex; flex-wrap: wrap; gap: 10px;
       justify-content: center;
       margin: 30px 0 4px;
     }
     .links a {
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 11px 20px;
-      font-weight: 600;
-      font-size: 15px;
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
+      padding: 11px 18px;
+      font-family: var(--font-body);
+      font-weight: 800; font-size: 10.5px;
+      letter-spacing: 0.16em; text-transform: uppercase;
       color: var(--ink);
-      background: var(--bg);
-      transition: background 0.15s ease, border-color 0.15s ease;
+      background: transparent;
+      transition: border-color 0.15s ease, color 0.15s ease;
     }
-    .links a:hover { background: #fff; border-color: var(--accent); }
+    .links a:hover { border-color: var(--ink); color: var(--accent); }
+    /* Square, weighty, magenta — the same .btn the rest of the site uses. */
     .btn {
-      display: inline-block;
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 50px;
       margin-top: 26px;
       background: var(--accent);
       color: #fff;
-      border-radius: 999px;
-      padding: 13px 28px;
-      font-weight: 600;
+      border-radius: var(--radius);
+      padding: 13px 26px;
+      font-family: var(--font-body);
+      font-weight: 700;
       font-size: 15px;
+      transition: background 0.2s ease;
     }
-    .btn:hover { background: #9b3055; }
-    hr { border: 0; border-top: 1px solid var(--line); margin: 26px 0; }
+    .btn:hover { background: var(--accent-deep); }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    hr { border: 0; border-top: 1px solid var(--rule); margin: 30px 0 0; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .links a, .btn { transition: none; }
+    }
   </style>
 </head>
 <body>
