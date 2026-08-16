@@ -1,0 +1,105 @@
+# 301 redirects — why they aren't live, and how to switch them on
+
+`cloudflare-bulk-redirects.csv` and `_redirects` in this folder are **generated**
+(`npm run redirects`). Don't edit them by hand — edit `scripts/generate-redirects.mjs`
+or the maps it reads.
+
+## The problem
+
+Three tickets ask for the same thing and none of them can have it today:
+
+| Ticket | URLs | Now | Wanted |
+| --- | --- | --- | --- |
+| OPS-182 | 128 retired recipe URLs | 200 (meta-refresh stub) | 301 |
+| OPS-226 | legacy `recipe.html?r=…` | 200 (JS redirect) | 301 |
+| OPS-262 | 10 `.html` tool URLs | 404 once PR #106 deploys | 301 |
+
+OPS-262 is already fixed, and fixed better than a redirect could manage — PR #106
+moved each tool to `<slug>/index.html`, so the duplicate is gone structurally.
+Its 10 rules here are not re-solving it: Google still holds the old `.html` URLs,
+those now 404, and a 404 throws away the equity a 301 would hand to the surviving
+page.
+
+**The blocker is the host, not the code.** lenafilatova.co.uk is served straight
+off GitHub Pages with no proxy in front — verified `server: GitHub.com`, no
+`cf-ray`, apex A records pointing at `185.199.108–111.153`, nameservers at
+Namecheap. GitHub Pages serves files; it has no redirect configuration of any
+kind. Astro's `redirects:` key doesn't bridge the gap either: on a static build
+it emits meta-refresh HTML, which is **HTTP 200 by construction**. That is
+exactly what `/recipes/<retired>/` serves today, and it is why re-reading the
+Astro config for a fix keeps coming up empty.
+
+So there is no code change that produces a 301 here. It needs a 301-capable
+layer in front of the domain.
+
+## Why the current stubs aren't good enough
+
+The stubs are correctly built — instant meta refresh, `noindex`, canonical
+pointing at the right target, all 128 verified. Google *does* follow them. But
+measurably slower than a 301, and the site has already run this experiment
+twice:
+
+- OPS-226 shipped a canonical + JS redirect. Two weeks later the
+  `blueberry-jam` stub was the **site's second-highest-impression URL** (36/week,
+  more than the real recipe it points at), and the ticket was re-opened.
+- OPS-182's stubs went live 30 Jul. In the 28 days to 14 Aug, retired recipe
+  URLs still earned **125 impressions and 3 clicks across 24 URLs** —
+  `/recipes/granola-bars-peanut-butter/` alone took 27, and `/recipes/fig-tart/`
+  took 3 clicks, making it the site's #2 page by clicks.
+
+Both harms the tickets were raised for are still live: retired URLs compete with
+the recipes they redirect to, splitting the ranking signal.
+
+## Switching them on
+
+Cloudflare's free plan is the cheapest route because it keeps GitHub Pages as
+the origin — no host migration, no build change.
+
+1. Add `lenafilatova.co.uk` to a Cloudflare account (free plan).
+2. Cloudflare gives two nameservers. Replace the Namecheap ones
+   (`dns1/dns2.registrar-servers.com`) with them. **Check first that Cloudflare
+   imported every existing record** — the apex A records, `www`, the
+   `calculator` CNAME for the helsico app, and all Mailchimp/Google verification
+   TXT records. A missed record is the one way this breaks something.
+3. Leave the apex record **proxied** (orange cloud). An unproxied record is
+   plain DNS and no redirect rule will run.
+4. Bulk Redirects → create a list → upload `cloudflare-bulk-redirects.csv`
+   (438 rules). Check the row limit for the plan before uploading; if the free
+   tier is too small, load the OPS-182 and OPS-262 blocks first — they are the
+   ones with measured impressions — and express the `recipe.html?r=` block as a
+   single dynamic Redirect Rule on `http.request.uri.query` instead.
+5. Keep SSL mode **Full** so Pages' own certificate stays valid.
+
+Rules are generated from the live recipe data, so re-run `npm run redirects` and
+re-upload after any change to `HIDDEN_SLUGS` / `RETIRED_SLUG_TARGETS`.
+
+## Verifying
+
+```bash
+curl -s -o /dev/null -w "%{http_code} %{redirect_url}\n" \
+  https://lenafilatova.co.uk/recipes/granola-bars-peanut-butter/
+```
+
+Expect `301 https://lenafilatova.co.uk/recipes/dried-fruit-sweets/`. Today it
+returns `200` with no redirect URL — that is the thing being fixed.
+
+Sweep everything at once:
+
+```bash
+tail -n +2 redirects/cloudflare-bulk-redirects.csv | while IFS=, read -r from to _; do
+  code=$(curl -s -o /dev/null -w "%{http_code}" "$from")
+  [ "$code" = "301" ] || echo "$code $from"
+done
+```
+
+## After it's live
+
+The stubs become dead weight once a 301 sits in front of them, but they are
+harmless and cost one small file each — leave them as the fallback if the proxy
+is ever removed. The `redirects:` block in `astro.config.mjs` and
+`public/recipes/recipe.html` are what generate them.
+
+Then in Search Console: resubmit the sitemap and expect the retired URLs to fall
+out of the index over a few weeks. Only use **Removals** for anything still
+ranking after that — it is a 6-month suppression, not a fix, and it hides the
+signal that would tell you the 301s aren't working.
