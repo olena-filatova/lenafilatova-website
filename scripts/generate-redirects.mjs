@@ -77,6 +77,21 @@ const groups = [
 ];
 const all = groups.flatMap(([, rules]) => rules);
 
+/* Cloudflare Bulk Redirects CANNOT match a query string. Learned the hard way
+   on the first upload: the 300 legacy rules were all rejected with "matching
+   url cannot have a query string" and the save failed wholesale — one bad row
+   blocks the entire list, so this split is not cosmetic.
+
+   The query-string cases stay handled by public/recipes/recipe.html, which
+   reads r= and lang= client-side. A Cloudflare Single Redirect (zone-level, not
+   Bulk) CAN read http.request.uri.query and would upgrade them to real 301s;
+   that is a separate job, and it only needs ONE dynamic rule rather than 300
+   static ones because the retired-slug hop is already covered by the list
+   below. Deliberately keeping both sets in this file so the split stays visible
+   rather than looking like slugs were forgotten. */
+const bulkSafe = all.filter(([from]) => !from.includes('?'));
+const querySide = all.filter(([from]) => from.includes('?'));
+
 /* Guard: a 301 must never point at something that is not built, and must never
    point at another rule's source (a redirect chain loses equity at each hop and
    Google gives up after a few). Both are cheap to get wrong when the recipe
@@ -97,12 +112,13 @@ if (deadTargets.length) {
 mkdirSync(OUT, { recursive: true });
 
 /* Cloudflare Bulk Redirects: an uploadable CSV list. Absolute URLs on both
-   sides; preserve_query_string is off because our targets are clean paths and
-   the legacy rules have already consumed the query they cared about. */
-const csv = [
-  'source,target,status,preserve_query_string',
-  ...all.map(([from, to]) => `${ORIGIN}${from},${ORIGIN}${to},301,false`),
-].join('\n');
+   sides; preserve_query_string is off because our targets are clean paths.
+
+   NO HEADER ROW. Cloudflare's importer does not recognise one — it parsed
+   `source,target,...` as a redirect from the literal URL "source" and silently
+   added it as row 1, shifting every subsequent row. Emitting the columns bare
+   is what the importer actually expects. */
+const csv = bulkSafe.map(([from, to]) => `${ORIGIN}${from},${ORIGIN}${to},301,false`).join('\n');
 writeFileSync(new URL('cloudflare-bulk-redirects.csv', OUT), `${csv}\n`);
 
 /* Netlify / Cloudflare Pages `_redirects`: relevant only if the site MOVES to
@@ -117,4 +133,5 @@ const redirectsFile = [
 writeFileSync(new URL('_redirects', OUT), `${redirectsFile}\n`);
 
 for (const [label, rules] of groups) console.log(`${String(rules.length).padStart(4)}  ${label}`);
-console.log(`${String(all.length).padStart(4)}  total rules -> redirects/`);
+console.log(`${String(bulkSafe.length).padStart(4)}  -> cloudflare-bulk-redirects.csv (uploadable)`);
+console.log(`${String(querySide.length).padStart(4)}  query-string rules Bulk Redirects cannot take (see _redirects / recipe.html)`);
