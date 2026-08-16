@@ -56,13 +56,47 @@ Cloudflare's free plan is the cheapest route because it keeps GitHub Pages as
 the origin — no host migration, no build change.
 
 1. Add `lenafilatova.co.uk` to a Cloudflare account (free plan).
-2. Cloudflare gives two nameservers. Replace the Namecheap ones
-   (`dns1/dns2.registrar-servers.com`) with them. **Check first that Cloudflare
-   imported every existing record** — the apex A records, `www`, the
-   `calculator` CNAME for the helsico app, and all Mailchimp/Google verification
-   TXT records. A missed record is the one way this breaks something.
-3. Leave the apex record **proxied** (orange cloud). An unproxied record is
-   plain DNS and no redirect rule will run.
+2. **Check the imported records against the inventory below before switching
+   nameservers.** Cloudflare scans the existing zone, but the scan is
+   best-effort and silently misses records. This is the only step that can break
+   something, and the thing it breaks is email.
+3. Then replace the Namecheap nameservers (`dns1`/`dns2.registrar-servers.com`)
+   with the two Cloudflare gives you.
+4. Leave the apex and `www` records **proxied** (orange cloud). An unproxied
+   record is plain DNS and no redirect rule will run. Everything else stays
+   **DNS-only** (grey cloud) — proxying MX or a TXT record breaks it.
+
+### Record inventory — captured live 2026-08-16
+
+**Email — check these first. If any are missing, mail stops arriving.**
+
+| Type | Name | Value |
+| --- | --- | --- |
+| MX | `@` | `1 aspmx.l.google.com` |
+| MX | `@` | `5 alt1.aspmx.l.google.com` |
+| MX | `@` | `5 alt2.aspmx.l.google.com` |
+| MX | `@` | `10 aspmx2.googlemail.com` |
+| MX | `@` | `10 aspmx3.googlemail.com` |
+| TXT | `@` | `v=spf1 include:_spf.google.com ~all` |
+| TXT | `_dmarc` | `v=DMARC1; p=none;` |
+| TXT | `google._domainkey` | Google DKIM key (long `v=DKIM1` string) |
+| CNAME | `k2._domainkey` | `dkim2.mcsv.net` (Mailchimp) |
+| CNAME | `k3._domainkey` | `dkim3.mcsv.net` (Mailchimp) |
+
+**Site and apps**
+
+| Type | Name | Value | Proxy |
+| --- | --- | --- | --- |
+| A | `@` | `185.199.108.153`, `.109.153`, `.110.153`, `.111.153` (all four) | Proxied |
+| CNAME | `www` | `olena-filatova.github.io` | Proxied |
+| CNAME | `calculator` | `081dd8020d0abe69.vercel-dns-017.com` | DNS-only |
+| TXT | `@` | `google-site-verification=svQHlWJhpZlIgxEPQxNesKl-vg__JGYnefVLWKUDbJs` | — |
+
+`calculator` is the helsico app on Vercel and must stay DNS-only — Vercel serves
+its own certificate and proxying it breaks TLS. The `google-site-verification`
+TXT is what keeps Search Console access alive; losing it de-verifies the property.
+
+Re-check anything above with `dig`, e.g. `dig +short MX lenafilatova.co.uk`.
 4. Bulk Redirects → create a list → upload `cloudflare-bulk-redirects.csv`
    (438 rules). Check the row limit for the plan before uploading; if the free
    tier is too small, load the OPS-182 and OPS-262 blocks first — they are the
