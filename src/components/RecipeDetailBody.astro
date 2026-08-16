@@ -3,8 +3,23 @@
 // Static content lives in the HTML (SEO); a small inline script handles the
 // servings scaler, step check-off, and exposes window.LF_RECIPE so the shared
 // recipes.js can wire "add to shopping list" + share.
+//
+// EDITORIAL RESTYLE (OPS-275). The page used to be three stacked boxes — a
+// green "Why it's Low GI" notice, a white bordered ingredients card, and a
+// bordered card per method step. What it is now:
+//   * masthead → kicker, serif headline, and `why` promoted to the standfirst
+//     it always was, set in Spectral above a rule;
+//   * a stat strip under the hero (prep / cook / serves / GI) in the homepage
+//     trust-band pattern — serif figure over a wide-tracked caps label;
+//   * ingredients and method as ruled lists, the method numbered 01, 02 … in
+//     the margin the way the homepage's numbered rows read;
+//   * nutrition as a second stat strip, since the line is written to a fixed
+//     format (see nutritionStats) and reads far better as figures than as a
+//     sentence. An unparseable line falls back to that sentence.
 import { PUBLISHED } from '../data/recipes.js';
-import { CAT_PAGE, DIET, isHeader, giBand, GI_DISCLAIMER, imagesOf } from '../data/recipes-lib.js';
+import {
+  CAT_PAGE, DIET, isHeader, giBand, GI_DISCLAIMER, imagesOf, nutritionStats, NUTRI_LABELS,
+} from '../data/recipes-lib.js';
 import '../styles/recipes.css';
 
 const { R, lang = 'en' } = Astro.props;
@@ -14,20 +29,26 @@ const IMG = `${B}recipes/images/`;
 const l = lang;
 
 const T = {
-  back: l === 'ua' ? '← Усі рецепти з низьким ГІ' : '← All Low-GI recipes',
+  back: l === 'ua' ? 'Усі рецепти з низьким ГІ' : 'All Low-GI recipes',
   lowGi: l === 'ua' ? 'Низький ГІ' : 'Low GI',
-  why: l === 'ua' ? 'Чому це Low GI' : "Why it's Low GI",
+  // Was "Чому це Low GI". Now that the label is set in caps it sat next to the
+  // page's own "НИЗЬКИЙ ГІ" kicker with the English term shouting beside it.
+  why: l === 'ua' ? 'Чому це низький ГІ' : "Why it's Low GI",
   ingredients: l === 'ua' ? 'Інгредієнти' : 'Ingredients',
   servings: l === 'ua' ? 'Порції' : 'Servings',
   prep: l === 'ua' ? 'Підготовка' : 'Prep',
   cook: l === 'ua' ? 'Готування' : 'Cook',
+  // The value here is the whole phrase ("Serves 3–4" / "3–4 порції") — the
+  // servings scaler rewrites it in full — so the label has to say something
+  // other than "Serves" or the cell reads twice.
+  yield_: l === 'ua' ? 'Вихід' : 'Yield',
   gi: l === 'ua' ? 'ГІ' : 'GI',
   method: l === 'ua' ? 'Спосіб приготування' : 'Method',
   methodSub: l === 'ua' ? 'Торкніться кроку, коли виконали.' : "Tap a step when it's done.",
   nutrition: l === 'ua' ? 'Поживність' : 'Nutrition',
   tip: l === 'ua' ? 'Порада' : 'Tip',
   more: l === 'ua' ? 'Більше рецептів з низьким ГІ' : 'More Low-GI recipes',
-  print: l === 'ua' ? 'Друк рецепта' : 'Print recipe',
+  print: l === 'ua' ? 'Друк' : 'Print',
   share: l === 'ua' ? 'Поділитися' : 'Share',
   shareThis: l === 'ua' ? 'Поділитися рецептом' : 'Share this recipe',
   shareNative: l === 'ua' ? 'Поділитися…' : 'Share…',
@@ -46,6 +67,8 @@ const band = giBand(R.gi, l);
 const imgs = imagesOf(R);
 const primary = imgs[0];
 const others = PUBLISHED.filter((x) => x.slug !== R.slug).slice(0, 3);
+const nutri = nutritionStats(R, l);
+const NL = NUTRI_LABELS[l] || NUTRI_LABELS.en;
 
 // Payload the client script needs (both languages for the shopping list).
 const rec = {
@@ -65,123 +88,149 @@ const rec = {
 </script>
 
 <div class="rx">
-  <a class="back" href={HUB}>{T.back}</a>
-  <h1>{R.title[l]}</h1>
+  <article class="rx-recipe">
+    <div class="wrap">
+      <a class="back" href={HUB}>&#8592; {T.back}</a>
 
-  <div class="tags">
-    <span class="tag">{T.lowGi}</span>
-    <span class="tag">{CAT_PAGE[R.cat][l]}</span>
-    {(R.tags || []).filter((t) => DIET[t]).map((t) => <span class="tag">{DIET[t][l]}</span>)}
-  </div>
+      {/* Kicker: category first in magenta, then Low GI and the diet tags. */}
+      <p class="tags">
+        <span class="tag">{CAT_PAGE[R.cat][l]}</span>
+        <span class="tag">{T.lowGi}</span>
+        {(R.tags || []).filter((t) => DIET[t]).map((t) => <span class="tag">{DIET[t][l]}</span>)}
+      </p>
 
-  <div class="photo hero"><img src={`${IMG}${primary}`} alt={R.title[l]} fetchpriority="high" /></div>
+      <h1>{R.title[l]}</h1>
 
-  <div class="meta">
-    {R.meta?.prep && <div><span class="k">{T.prep}</span><span class="v">{R.meta.prep[l]}</span></div>}
-    {R.meta?.cook && <div><span class="k">{T.cook}</span><span class="v">{R.meta.cook[l]}</span></div>}
-    {R.meta?.serves && <div><span class="v" id="metaServes">{R.meta.serves[l]}</span></div>}
-    {band && (
-      <div><span class="k">{T.gi}</span><span class="v">~{R.gi} <span style={`font-size:13px;font-weight:600;color:${band.color};`}>· {band.label}</span></span></div>
-    )}
-  </div>
+      <div class="rx-why">
+        <p class="k">{T.why}</p>
+        <p>{R.why[l]}</p>
+      </div>
 
-  <div class="notes" id="rWhy" style="margin-bottom:30px;">
-    <h3>{T.why}</h3>
-    <p>{R.why[l]}</p>
-  </div>
+      <div class="ph rx-hero"><img src={`${IMG}${primary}`} alt={R.title[l]} fetchpriority="high" /></div>
 
-  <div class="recipe-grid">
-    <aside class="ing-card">
-      <div class="sec-head"><h2>{T.ingredients}</h2></div>
-      <div class="scaler">
-        <span class="label">{T.servings}</span>
-        <div class="stepper">
-          <button id="minus" aria-label="Fewer servings">−</button>
-          <span class="count" id="servings"></span>
-          <button id="plus" aria-label="More servings">+</button>
+      {/* Timings, yield and GI as one ruled strip. The serves figure keeps its
+          id — the scaler rewrites it when you change the portion count. */}
+      <div class="rx-stats">
+        {R.meta?.prep && <div class="s"><div class="v">{R.meta.prep[l]}</div><span class="k">{T.prep}</span></div>}
+        {R.meta?.cook && <div class="s"><div class="v">{R.meta.cook[l]}</div><span class="k">{T.cook}</span></div>}
+        {R.meta?.serves && <div class="s"><div class="v" id="metaServes">{R.meta.serves[l]}</div><span class="k">{T.yield_}</span></div>}
+        {band && (
+          <div class="s">
+            <div class="v">~{R.gi} <span class="band" style={`color:${band.color};`}>{band.label}</span></div>
+            <span class="k">{T.gi}</span>
+          </div>
+        )}
+      </div>
+
+      <div class="rx-layout">
+        <aside class="ing-card">
+          <div class="sec-head"><h2>{T.ingredients}</h2></div>
+          <div class="scaler">
+            <span class="label">{T.servings}</span>
+            <div class="stepper">
+              <button id="minus" aria-label="Fewer servings">&#8722;</button>
+              <span class="count" id="servings"></span>
+              <button id="plus" aria-label="More servings">+</button>
+            </div>
+          </div>
+          <ul class="ingredients" id="ingredients">
+            {R.ingredients[l].map((it) => (
+              isHeader(it)
+                ? <li class="ing-section">{it.replace(/—/g, '').trim()}</li>
+                : <li><label class="check"><input type="checkbox" /><span class="box"></span><span class="ing-text">{it}</span></label></li>
+            ))}
+          </ul>
+
+          <div class="add-row">
+            <button class="btn primary full" id="addListBtn"
+              data-add-en="Add to shopping list" data-add-ua="Додати до списку покупок"
+              data-added-en="Added to shopping list" data-added-ua="Додано до списку покупок">
+              <span class="i-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M12 11v6M9 14h6"/></svg></span>
+              <span class="i-check" style="display:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+              <span class="lbl">{T.addList}</span>
+            </button>
+          </div>
+
+          <div class="pf-row">
+            <button class="btn" id="printBtn">{T.print}</button>
+            <button class="btn" id="shareToggle">{T.share}</button>
+          </div>
+
+          <div class="share-panel" id="sharePanel">
+            <div class="share-kicker">{T.shareThis}</div>
+            <div class="share-two">
+              <button class="btn" id="shNative">{T.shareNative}</button>
+              <button class="btn" id="shCopy"><span class="lbl">{T.copyLink}</span></button>
+            </div>
+            <form class="share-form" id="shareForm">
+              <input type="email" id="shareEmail" placeholder={T.emailPh} />
+              <label class="opt"><input type="checkbox" id="shareOpt" checked /><span>{T.alsoEmail}</span></label>
+              <button type="submit" class="btn primary full">{T.sendRecipe}</button>
+              <div class="confirm" id="shareSent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>{T.recipeSent}</span></div>
+            </form>
+          </div>
+        </aside>
+
+        <div class="recipe-main">
+          <section class="rx-sec">
+            <h2>{T.method}</h2>
+            <p class="sub">{T.methodSub}</p>
+            <div class="progress-wrap"><div class="bar"><i id="barFill"></i></div><span class="pct" id="stepPct"></span></div>
+            <ol class="steps" id="steps">
+              {R.method[l].map((st, i) => (
+                <li id={`step-${i + 1}`}><span class="num"></span><span class="step-text">{st}
+                  {R.stepImgs?.[i + 1] && <img class="step-photo" src={`${IMG}${R.stepImgs[i + 1]}`} alt={`${R.title[l]} — ${l === 'ua' ? 'крок' : 'step'} ${i + 1}`} loading="lazy" width="900" height="900" />}
+                </span></li>
+              ))}
+            </ol>
+          </section>
+
+          {nutri && (
+            <section class="rx-sec">
+              <h2>{T.nutrition}</h2>
+              {nutri.kcal ? (
+                <Fragment>
+                  <p class="nutri-basis">{nutri.basis}{nutri.note && ` ${nutri.note}`}</p>
+                  <div class="rx-stats">
+                    <div class="s"><div class="v">{nutri.kcal}</div><span class="k">{NL.kcal}</span></div>
+                    <div class="s"><div class="v">{nutri.carbs} {NL.g}</div><span class="k">{NL.carbs}</span></div>
+                    <div class="s"><div class="v">{nutri.fat} {NL.g}</div><span class="k">{NL.fat}</span></div>
+                    <div class="s"><div class="v">{nutri.protein} {NL.g}</div><span class="k">{NL.protein}</span></div>
+                  </div>
+                </Fragment>
+              ) : (
+                <p class="nutri-raw">{nutri.raw}</p>
+              )}
+              <p class="gl-note">{GI_DISCLAIMER[l]}</p>
+            </section>
+          )}
+
+          {R.note && (
+            <section class="rx-sec">
+              <div class="notes"><h3>{T.tip}</h3><p>{R.note[l]}</p></div>
+            </section>
+          )}
         </div>
-        <span class="hint" id="scaleHint"></span>
-      </div>
-      <ul class="ingredients" id="ingredients">
-        {R.ingredients[l].map((it) => (
-          isHeader(it)
-            ? <li class="ing-section">{it.replace(/—/g, '').trim()}</li>
-            : <li><label class="check"><input type="checkbox" /><span class="box"></span><span class="ing-text">{it}</span></label></li>
-        ))}
-      </ul>
-
-      <div class="add-row">
-        <button class="btn primary full" id="addListBtn"
-          data-add-en="Add to shopping list" data-add-ua="Додати до списку покупок"
-          data-added-en="Added to shopping list" data-added-ua="Додано до списку покупок">
-          <span class="i-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M12 11v6M9 14h6"/></svg></span>
-          <span class="i-check" style="display:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-          <span class="lbl">{T.addList}</span>
-        </button>
       </div>
 
-      <div class="pf-row">
-        <button class="btn" id="printBtn">{T.print}</button>
-        <button class="btn" id="shareToggle">{T.share}</button>
-      </div>
-
-      <div class="share-panel" id="sharePanel">
-        <div class="share-kicker">{T.shareThis}</div>
-        <div class="share-two">
-          <button class="btn" id="shNative">{T.shareNative}</button>
-          <button class="btn" id="shCopy"><span class="lbl">{T.copyLink}</span></button>
-        </div>
-        <form class="share-form" id="shareForm">
-          <input type="email" id="shareEmail" placeholder={T.emailPh} />
-          <label class="opt"><input type="checkbox" id="shareOpt" checked /><span>{T.alsoEmail}</span></label>
-          <button type="submit" class="btn primary full">{T.sendRecipe}</button>
-          <div class="confirm" id="shareSent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>{T.recipeSent}</span></div>
-        </form>
-      </div>
-    </aside>
-
-    <div class="recipe-main">
-      <div class="section">
-        <h2>{T.method}</h2>
-        <p class="sub">{T.methodSub}</p>
-        <div class="progress-wrap"><div class="bar"><i id="barFill"></i></div><span class="pct" id="stepPct"></span></div>
-        <ol class="steps" id="steps">
-          {R.method[l].map((st, i) => (
-            <li id={`step-${i + 1}`}><span class="num"></span><span class="step-text">{st}
-              {R.stepImgs?.[i + 1] && <img class="step-photo" src={`${IMG}${R.stepImgs[i + 1]}`} alt={`${R.title[l]} — ${l === 'ua' ? 'крок' : 'step'} ${i + 1}`} loading="lazy" width="900" height="900" />}
-            </span></li>
+      <section class="suggest">
+        <div class="rx-sec-head"><span class="fk">{T.more}</span></div>
+        <div class="cards">
+          {others.map((x) => (
+            <a class="rcard" href={`${HUB}${x.slug}/`}>
+              <div class="thumb">
+                <img src={`${IMG}${x.img}`} alt={x.title[l]} loading="lazy" decoding="async" />
+                {typeof x.gi === 'number' && <span class="gi-plaque"><b>{x.gi}</b><span>GI</span></span>}
+              </div>
+              <div class="body"><div class="title">{x.title[l]}</div><div class="cmeta"><span>{x.meta.serves[l]}</span></div></div>
+            </a>
           ))}
-        </ol>
-      </div>
-
-      {R.nutrition && (
-        <div class="section">
-          <h2>{T.nutrition}</h2>
-          <div class="nutri-card"><div class="gl-note"><b>{R.nutrition[l]}</b><span style="display:block;margin-top:8px;font-size:12.5px;color:var(--muted);">{GI_DISCLAIMER[l]}</span></div></div>
         </div>
-      )}
+      </section>
 
-      {R.note && (
-        <div class="section">
-          <div class="notes"><h3>{T.tip}</h3><p>{R.note[l]}</p></div>
-        </div>
-      )}
+      <p class="foot-note">{T.footNote}</p>
     </div>
-  </div>
-
-  <section class="suggest section">
-    <h2>{T.more}</h2>
-    <div class="cards">
-      {others.map((x) => (
-        <a class="rcard" href={`${HUB}${x.slug}/`}>
-          <div class="thumb"><img src={`${IMG}${x.img}`} alt={x.title[l]} /><span class="mini-gi">{T.lowGi}</span></div>
-          <div class="body"><div class="title">{x.title[l]}</div><div class="cmeta"><span>{x.meta.serves[l]}</span></div></div>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <p class="foot-note">{T.footNote}</p>
+  </article>
 </div>
 
 <script is:inline define:vars={{ rec, lang: l }}>
