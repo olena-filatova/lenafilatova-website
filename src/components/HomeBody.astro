@@ -249,14 +249,16 @@ const toolHref = (card) => {
   .ed-btn.line { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
   .ed-btn .ar { font-family: var(--font-head); font-size: 18px; line-height: 1; }
 
-  .ed-hero { padding: 26px 0 0; }
-  .ed-est { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
+  /* OPS-293: hero type dialled down a step (and its vertical rhythm tightened)
+     so the block is more compact and the portrait sits higher. */
+  .ed-hero { padding: 20px 0 0; }
+  .ed-est { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; }
   .ed-rule { height: 1px; background: var(--rule); flex: 1; }
-  .ed-hero h1 { font-size: 34px; line-height: 1.04; letter-spacing: -0.028em; }
+  .ed-hero h1 { font-size: 30px; line-height: 1.06; letter-spacing: -0.028em; }
   .ed-hero h1 .it { font-style: italic; color: var(--accent); font-weight: 300; }
-  .ed-lead { font-family: var(--font-head); font-size: 18px; line-height: 1.5; font-weight: 300; margin: 20px 0 0; }
-  .ed-cta { display: flex; flex-direction: column; gap: 10px; margin: 24px 0 14px; }
-  .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.45; opacity: 0.8; margin: 0 0 22px; }
+  .ed-lead { font-family: var(--font-head); font-size: 16.5px; line-height: 1.5; font-weight: 300; margin: 16px 0 0; }
+  .ed-cta { display: flex; flex-direction: column; gap: 10px; margin: 20px 0 12px; }
+  .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.45; opacity: 0.8; margin: 0 0 18px; }
   .ed-disclaimer::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--accent); margin-top: 9px; }
 
   .ed-portrait { --peek: 14px; }
@@ -358,10 +360,10 @@ const toolHref = (card) => {
 
   @media (min-width: 720px) {
     .ed-btn { width: auto; }
-    .ed-hero { padding-top: 40px; }
+    .ed-hero { padding-top: 32px; }
     .ed-hero-lay { display: grid; grid-template-columns: 1.45fr 0.8fr; gap: 44px; align-items: center; }
-    .ed-hero h1 { font-size: 52px; }
-    .ed-lead { font-size: 19px; max-width: 44ch; }
+    .ed-hero h1 { font-size: 44px; }
+    .ed-lead { font-size: 17px; max-width: 46ch; }
     .ed-cta { flex-direction: row; gap: 12px; }
     .ed-portrait { max-width: 280px; margin-left: auto; --peek: 16px; }
     .ed-frame { aspect-ratio: 1 / 1.12; }
@@ -392,10 +394,10 @@ const toolHref = (card) => {
   }
 
   @media (min-width: 1000px) {
-    .ed-hero { padding: 56px 0 0; }
+    .ed-hero { padding: 44px 0 0; }
     .ed-hero-lay { grid-template-columns: 1.75fr 0.6fr; gap: 56px; align-items: end; }
-    .ed-hero h1 { font-size: 66px; line-height: 1; max-width: 15ch; }
-    .ed-lead { font-size: 20px; max-width: 48ch; }
+    .ed-hero h1 { font-size: 56px; line-height: 1.02; max-width: 20ch; }
+    .ed-lead { font-size: 18px; max-width: 50ch; }
     .ed-portrait { max-width: 300px; }
     .ed-frame { aspect-ratio: 1 / 1.16; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
     .ed-blk { right: 38%; height: 40%; }
@@ -419,7 +421,7 @@ const toolHref = (card) => {
   }
 
   @media (min-width: 1320px) {
-    .ed-hero h1 { font-size: 76px; }
+    .ed-hero h1 { font-size: 64px; }
     .ed-hero-lay { grid-template-columns: 1.8fr 0.58fr; gap: 72px; }
     .ed-portrait { max-width: 330px; }
     .ed-sec { padding: 88px 0 0; }
