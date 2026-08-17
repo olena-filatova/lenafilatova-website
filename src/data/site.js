@@ -126,17 +126,13 @@ export const MAILCHIMP = {
   // Newsletter.astro renders `<input type="hidden" name="tags">` only when a
   // page passes a `tag`, so the plain newsletter form is unchanged.
   //
-  // ⚠️ UNVERIFIED VALUE (OPS-264). Mailchimp's own embed builder emits the tag's
-  // NUMERIC id here, not its name; a name is accepted by some accounts and
-  // silently ignored by others. Nothing else depends on it — the signup, the
-  // double opt-in and the Language group all work regardless — so the worst case
-  // is an untagged contact, not a lost one. To confirm: sign up once on
-  // /ua/dia-school/, confirm the email, and look at the contact in Mailchimp. If
-  // the tag is missing, open Audience → Signup forms → Embedded form, tick the
-  // `dia-school-waitlist` tag, and copy the numeric value it writes into
-  // `name="tags"` here. This is the only Mailchimp-side step the site can't do
-  // for itself.
-  tags: { diaSchoolWaitlist: 'dia-school-waitlist' },
+  // VALUES ARE NUMERIC TAG IDS, not names — this account ignores names. Verified
+  // 2026-08-17 against Mailchimp's own embedded-form builder for this audience,
+  // which emits `name="tags" value="9302128"` for the `main-page` tag and
+  // `9302136,9302128` once `dia-school-waitlist` is ticked alongside it. To add a
+  // tag later, read its id the same way (Audience → Other forms → the
+  // lenafilatova.co.uk embedded form → Tags → Continue) rather than guessing.
+  tags: { diaSchoolWaitlist: '9302136' }, // dia-school-waitlist (OPS-264)
 };
 
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
