@@ -157,15 +157,17 @@
    cannot import src/styles/global.css — the tokens below are that file's
    :root, copied. Keep the two in step.
 
-   Unlike the four tools restyled in OPS-278, this one is NOT a page anyone
-   lands on: it is embedded as an iframe inside the T1D cure blog post
-   (src/data/blog.js, `embed` block). So there is deliberately no masthead,
-   no wordmark and no back-link — the article around it already carries the
-   site header, and a second brand lockup mid-paragraph would read as a
-   third-party widget. For the same reason the ground is --bg, the article's
-   own paper, not the raised --card: the tracker should sit down into the
-   page rather than float on a white panel, which is exactly how the old
-   #fff / #e5e7eb / #f9fafb interface greys made it look.
+   Unlike the four tools restyled in OPS-278, this one is mainly NOT a page
+   people land on: it is embedded as an iframe inside the T1D cure blog post
+   (src/data/blog.js, `embed` block). So in the embed there is deliberately no
+   masthead, no wordmark and no back-link — the article around it already
+   carries the site header, and a second brand lockup mid-paragraph would read
+   as a third-party widget. (OPS-290 added that chrome for the direct visitor
+   only; it is hidden inside the frame. See the [data-standalone] note further
+   down.) The ground is --bg, the article's own paper, not the raised --card:
+   the tracker should sit down into the page rather than float on a white
+   panel, which is exactly how the old #fff / #e5e7eb / #f9fafb interface
+   greys made it look.
 
    The iframe is `scrolling="no"` and gets its height from the
    `lf-embed-height` message postHeight() sends to BlogPostBody.astro. Any
@@ -231,6 +233,92 @@ body {
    the file directly — the article column never gets that wide. */
 .page { max-width: 900px; margin: 0 auto; padding: 0 0 10px; }
 @media (min-width: 720px) { .page { padding-left: 20px; padding-right: 20px; } }
+
+/* ── Standalone chrome (OPS-290) ───────────────────────────────────────
+   The note above says this file is not a page anyone lands on. That was
+   true when it was written and is not any more: it is a 200 URL in the
+   sitemap that earns its own impressions, and since the trials post moved
+   into Tools & guides nothing on the site links here except the article's
+   iframe — which is not a link at all. So it needs a way in and a way out.
+
+   Everything marked [data-standalone] ships `hidden` and is unhidden by
+   script only when the page is NOT framed, so the embed inside the article
+   is byte-for-byte what it was: no second wordmark mid-paragraph, no
+   duplicate H1, no height change. Gating on JS is safe here because every
+   trial card is rendered by JS too — no script, no tracker either way.
+
+   Widths match .page (900px), not the 1120px the other tool pages use, so
+   the masthead lines up with the column the tracker actually occupies. */
+[hidden] { display: none !important; }
+
+.tool-head { background: var(--bg); border-bottom: 1px solid var(--rule); }
+.tool-head .in {
+  max-width: 900px; margin: 0 auto;
+  padding: 0 clamp(18px, 3.5vw, 20px);
+  display: flex; align-items: center; gap: 18px; min-height: 62px;
+}
+.brand {
+  display: flex; align-items: center; gap: 11px;
+  font-family: var(--font-head); font-weight: 500; font-size: 19px;
+  letter-spacing: -0.02em; color: var(--ink); text-decoration: none;
+}
+/* The mark stays a magenta disc — the logo, and the one round thing the
+   square system keeps on purpose. */
+.brand .mark {
+  flex: none; width: 34px; height: 34px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-style: italic; font-size: 15px;
+}
+.back-link {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; transition: color .2s ease;
+}
+.back-link:hover { color: var(--accent); }
+.back-link:focus-visible,
+.brand:focus-visible,
+.standalone-foot a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.page-header { padding-top: 30px; margin-bottom: 26px; }
+.est { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; }
+.est-label {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent);
+}
+.est-rule { flex: 1; height: 1px; background: var(--rule); }
+.page-header h1 {
+  font-family: var(--font-head); font-weight: 400;
+  font-size: clamp(28px, 4.2vw, 40px); line-height: 1.08;
+  letter-spacing: -0.025em; color: var(--ink);
+  max-width: 20ch; text-wrap: balance;
+}
+.page-header .description {
+  font-family: var(--font-head); font-weight: 300; font-size: 17px; line-height: 1.5;
+  color: var(--muted); max-width: 58ch; margin-top: 14px;
+}
+
+/* The way back to the writing this tracker belongs to. Sits under the
+   footnote, where someone who has finished filtering actually is. */
+.standalone-foot {
+  margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--rule);
+  font-family: var(--font-head); font-size: 16px; line-height: 1.5; color: var(--muted);
+}
+.standalone-foot a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.standalone-foot a:hover { color: var(--accent-deep); }
+
+/* Below 720px .page deliberately carries no side padding, so the tracker fills
+   the article's prose column edge to edge (see the note above it). A page
+   someone actually landed on needs that margin back — applied only under
+   [data-standalone-page], which the same script sets, so the embed is
+   untouched. */
+@media (max-width: 719px) {
+  [data-standalone-page] .page { padding-left: 18px; padding-right: 18px; }
+}
+@media (max-width: 640px) {
+  .page-header { padding-top: 22px; margin-bottom: 20px; }
+}
+@media (prefers-reduced-motion: reduce) { .back-link { transition: none; } }
 
 /* ── Glossary ──────────────────────────────────────────────────────────
    Was a rounded white card with a magenta "？" disc. Now a square card
@@ -522,7 +610,21 @@ body {
 </style>
 </head>
 <body>
+<!-- Standalone-only chrome — see the [data-standalone] note in the stylesheet.
+     Stays hidden inside the article's iframe. -->
+<header class="tool-head" data-standalone hidden>
+  <div class="in">
+    <a class="brand" href="/"><span class="mark">lf</span>Lena Filatova</a>
+    <a class="back-link" href="/resources/">All free tools</a>
+  </div>
+</header>
 <div class="page">
+
+  <header class="page-header" data-standalone hidden>
+    <p class="est"><span class="est-label">Interactive tracker</span><span class="est-rule"></span></p>
+    <h1>Type 1 diabetes cure trials tracker</h1>
+    <p class="description">Fourteen cure and disease-modifying trials, side by side. Filter by country, phase, approach, and whether each one is recruiting or free to join — then open any card for who can take part, results so far, and a link to the official study.</p>
+  </header>
 
   <details class="glossary">
     <summary>New to clinical trials? Tap for what the terms mean</summary>
@@ -572,6 +674,8 @@ body {
   <div class="no-results" id="noResults" style="display:none;">No studies match these filters.</div>
 
   <div class="footnote"><strong>Educational tracker — not medical advice and not a recommendation to join any study.</strong> Phases, eligibility, locations, cost and results change often; always confirm the current details on the study's official page before acting, and discuss any study with your own diabetes team. "Estimated availability" is a rough, best-case guess if a therapy keeps succeeding — most experimental treatments never reach the market, and timelines slip. "Free to join" means taking part doesn't cost you (the study covers its treatment); it doesn't include your own travel unless stated. Primary source for each study is <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> (search the NCT number); some also list on the EU trials register, ISRCTN or the sponsor's site.</div>
+
+  <p class="standalone-foot" data-standalone hidden>This tracker belongs to <a href="/blog/type-1-diabetes-cure-trials/">Type 1 diabetes cure research: the trials worth following in 2026</a> — the guide to what each approach actually is, how far along it has got, and how to take part.</p>
 </div>
 
 <script>
@@ -1032,6 +1136,16 @@ function postHeight() {
 window.addEventListener("load", postHeight);
 document.querySelector(".glossary").addEventListener("toggle", postHeight);
 try { new ResizeObserver(postHeight).observe(document.body); } catch (e) {}
+
+/* Masthead, H1 and the link back to the article exist for the visitor who
+   opens this URL directly — from search, or an old inbound link. Inside the
+   article's iframe they stay hidden, so the embed is unchanged and the post
+   keeps exactly one H1. Runs before load, so postHeight() never measures a
+   height that is about to change. */
+if (window.self === window.top) {
+  document.documentElement.setAttribute("data-standalone-page", "");
+  document.querySelectorAll("[data-standalone]").forEach(function (el) { el.hidden = false; });
+}
 
 render();
 </script>

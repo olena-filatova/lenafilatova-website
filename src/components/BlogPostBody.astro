@@ -22,6 +22,7 @@ const img = (src) => B.replace(/\/$/, '') + src;
 // manifest is regenerated (see scripts/generate-image-dims.sh).
 const dim = (src) => DIMS[src] || {};
 const related = relatedPosts(post, POSTS);
+const isTool = post.filedUnder === 'tools';
 ---
 <article class="post">
   {/* Article header: kicker, serif headline, then a hairline rule with the
@@ -126,7 +127,9 @@ const related = relatedPosts(post, POSTS);
     </div>
   </aside>
 )}
-<div class="post-foot"><a href={`${L}blog/`}>{t.backToBlog}</a></div>
+{/* A tool page's way out is the tools list, not the Journal it no longer
+    appears in (OPS-290) — the reader arrived from Tools & guides. */}
+<div class="post-foot"><a href={isTool ? `${L}resources/` : `${L}blog/`}>{isTool ? t.backToTools : t.backToBlog}</a></div>
 
 {/* Auto-resize any embedded interactive tool (embed block) to its content height. */}
 <script is:inline>

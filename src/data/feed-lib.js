@@ -63,7 +63,9 @@ export function buildFeed(lang) {
   const m = META[lang];
   if (!m) throw new Error(`feed-lib: unknown language "${lang}"`);
 
-  const posts = POSTS.filter((p) => p[lang])
+  // Tool pages (filedUnder: 'tools') live on the Tools & guides page, not in
+  // the Journal — a feed reader subscribes to the articles (OPS-290).
+  const posts = POSTS.filter((p) => p[lang] && p.filedUnder !== 'tools')
     .slice()
     .sort((a, b) => b.date.localeCompare(a.date));
 

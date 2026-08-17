@@ -27,7 +27,7 @@ const recipesAllHref = `${L}recipes/`;
 const resourcesHref = `${L}resources/`;
 
 const recentPosts = [...POSTS]
-  .filter((p) => !p.comingSoon)
+  .filter((p) => !p.comingSoon && p.filedUnder !== 'tools')
   .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.date.localeCompare(a.date));
 const latestPost = recentPosts[0];
 const latestPostT = latestPost[lang];

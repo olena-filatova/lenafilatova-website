@@ -445,6 +445,22 @@ export const RESOURCES = {
       en: { band: 'Carbs & GI', kicker: 'Interactive table', title: 'Carbohydrate & glycaemic index table', desc: '200+ foods with carbs per 100g and glycaemic index — Ukrainian and British staples included. Filter, search and sort to see how each food is likely to affect blood sugar.', cta: 'Open the table' },
       ua: { band: 'Вуглеводи та ГІ', kicker: 'Інтерактивна таблиця', title: 'Таблиця вуглеводів і глікемічного індексу', desc: 'Понад 200 продуктів із вуглеводами на 100 г і глікемічним індексом — з українськими та британськими стравами. Фільтруйте, шукайте й сортуйте, щоб побачити ймовірний вплив на цукор.', cta: 'Відкрити таблицю' },
     },
+    {
+      // OPS-290. The trials tracker was only reachable as a blog post, which is
+      // where Lena went looking for it and didn't find it — it is a filterable
+      // tool, not an article. Its page keeps the /blog/ address: it is the
+      // site's best-ranking EN page (Google page 1, position ~7), and a static
+      // host can only meta-refresh, so moving the URL would have cost the
+      // ranking to buy a tidier path. Filed under tools everywhere a reader
+      // browses instead — `filedUnder: 'tools'` in blog.js takes it out of the
+      // Journal hub, the RSS feed and the homepage's latest-post slot.
+      // Graphite is the one neutral in the set — the seven chromatic tints were
+      // all spoken for, and it clears 4.5:1 on the paper at 7.8:1.
+      band: '#e9eaee', head: '#3f4a63',
+      href: '/blog/type-1-diabetes-cure-trials/', hrefUa: '/ua/blog/type-1-diabetes-cure-trials/',
+      en: { band: 'Type 1 cure research', kicker: 'Tracker & guide', title: 'Type 1 diabetes cure trials tracker', desc: '14 cure and disease-modifying trials side by side — filter by country, phase, approach, and whether each is recruiting or free to join. With an honest guide to what is actually working.', cta: 'Open the tracker' },
+      ua: { band: 'Дослідження лікування діабету 1 типу', kicker: 'Трекер і гайд', title: 'Трекер досліджень щодо лікування діабету 1 типу', desc: '14 досліджень щодо лікування та модифікації перебігу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір та чи безкоштовна участь. Плюс чесний путівник тим, що справді працює.', cta: 'Відкрити трекер' },
+    },
   ],
 };
 

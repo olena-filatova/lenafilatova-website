@@ -3,7 +3,17 @@
 // in the old repo's index.html), which was the single source of truth for both
 // the SPA blog and the prerendered standalone pages.
 //
-// Shape: { slug, date, image, cats: [filter keys], comingSoon?, en: {...}, ua: {...} }
+// Shape: { slug, date, image, cats: [filter keys], comingSoon?, filedUnder?,
+//          en: {...}, ua: {...} }
+//
+// `filedUnder: 'tools'` (OPS-290) — the post is a tool wearing an article's
+// clothes: it wraps one of the standalone interactive pages in the explanation
+// that page needs. It keeps its /blog/ URL (moving a page Google already ranks
+// buys nothing but a tidier path) and its RESOURCES card in site.js is what
+// readers navigate to, so it drops out of every place the Journal is
+// enumerated: the blog hub, both RSS feeds and the homepage's latest-post slot.
+// It stays eligible as a "Keep reading" card on other posts — that is a
+// cross-link, not a listing, and the internal links are worth keeping.
 //
 // Per-language SEO escape hatches — set these rather than shortening the
 // editorial headline, which stays the on-page H1:
@@ -5361,6 +5371,7 @@ export const POSTS = [
   {
     "slug": "type-1-diabetes-cure-trials",
     "date": "2026-07-19",
+    "filedUnder": "tools",
     "image": "/images/type-1-diabetes-cure-trials.jpg",
     "cats": [
       "diabetes"
@@ -5400,6 +5411,10 @@ export const POSTS = [
           "title": "Type 1 diabetes cure trials tracker",
           "minHeight": 680,
           "cap": "Filterable tracker of type 1 diabetes cure and disease-modifying trials. Educational only — details change often, so always confirm on the study's official page and with your diabetes team."
+        },
+        {
+          "t": "p",
+          "text": "The tracker also has [a page of its own](/t1d-cure-trials/), if you would rather open it full width, bookmark it, or send it to someone."
         },
         {
           "t": "h",
@@ -5593,6 +5608,10 @@ export const POSTS = [
           "title": "Трекер досліджень щодо лікування діабету 1 типу",
           "minHeight": 680,
           "cap": "Трекер із фільтрами досліджень щодо лікування та зміни перебігу діабету 1 типу. Лише для інформації — деталі часто змінюються, тож завжди перевіряйте на офіційній сторінці дослідження та зі своєю діабетичною командою."
+        },
+        {
+          "t": "p",
+          "text": "Трекер має [власну сторінку](/t1d-cure-trials-ua/) — якщо зручніше відкрити його на всю ширину, зберегти в закладки або комусь надіслати."
         },
         {
           "t": "h",
