@@ -91,7 +91,7 @@ const toolHref = (card) => {
     <div class="wrap">
       <div class="ed-head">
         <span class="ed-num">01</span>
-        <span class="ed-name">{t.resourcesTitle}</span>
+        <h2 class="ed-name">{t.resourcesTitle}</h2>
         <a class="ed-more" href={resourcesHref}>{t.resourcesAll} &#8594;</a>
       </div>
       <span class="ed-free">{t.toolsFree}</span>
@@ -121,7 +121,7 @@ const toolHref = (card) => {
     <div class="wrap">
       <div class="ed-head">
         <span class="ed-num">02</span>
-        <span class="ed-name">{t.blogTitle}</span>
+        <h2 class="ed-name">{t.blogTitle}</h2>
         <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
       </div>
       <a class="ed-feat" href={`${L}blog/${latestPost.slug}/`}>
@@ -142,7 +142,7 @@ const toolHref = (card) => {
     <div class="wrap">
       <div class="ed-head">
         <span class="ed-num">03</span>
-        <span class="ed-name">{t.recipesTitle}</span>
+        <h2 class="ed-name">{t.recipesTitle}</h2>
         <a class="ed-more" href={recipesAllHref}>{t.recipesAll} &#8594;</a>
       </div>
       <a class="ed-rec" href={`${L}recipes/${featuredRecipe.slug}/`}>
@@ -196,7 +196,7 @@ const toolHref = (card) => {
     <div class="wrap">
       <div class="ed-head">
         <span class="ed-num">05</span>
-        <span class="ed-name">{t.helpTitle}</span>
+        <h2 class="ed-name">{t.helpTitle}</h2>
       </div>
       <div class="ed-rows">
         {t.help.map((c, i) => (
@@ -283,7 +283,14 @@ const toolHref = (card) => {
   .ed-sec { padding: 52px 0 0; }
   .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 22px; }
   .ed-num { font-family: var(--font-head); font-size: 13px; color: var(--accent); font-weight: 500; }
-  .ed-name { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
+  /* Sections 01/02/03/05 carry this on an <h2> — they are the section's only
+     title, and as <span>s the page ran H1 → H3 with no H2 at all (OPS-146).
+     Section 04 keeps a <span>, because it has a real <h2> right below it, so
+     there the label is a kicker. Size stays at the kicker step deliberately:
+     enlarging the five section heads is a visible change to the front page,
+     not a defect fix, so it's left for Lena to call. Margin/size are reset
+     because this is now a heading inside a flex row. */
+  .ed-name { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); margin: 0; line-height: 1.2; }
   .ed-more { margin-left: auto; font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
   .ed-readmore { font-family: var(--font-body); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
