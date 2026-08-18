@@ -9685,24 +9685,6 @@ export const POSTS = [
               "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.70393"
             }
           ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Do collagen supplements actually work?",
-          "a": "Possibly — but less clearly than the marketing suggests. Multiple trials show improvements in skin hydration and elasticity, but a 2025 meta-analysis found that independently-funded studies showed no significant effect, while industry-funded ones did. If you want to try them, 2.5–10g of hydrolysed collagen daily is the dose used in most trials. Make sure vitamin C intake is adequate alongside them."
-        },
-        {
-          "q": "Can a collagen cream rebuild skin?",
-          "a": "No — collagen molecules are far too large to penetrate the skin barrier. Collagen creams work as moisturisers, which is useful, but that is where the mechanism ends. Retinoids and vitamin C serums are the topical ingredients with evidence for actually stimulating collagen production in the dermis."
-        },
-        {
-          "q": "What is the most important nutrient for skin collagen?",
-          "a": "Vitamin C. Without it, the enzymes that form and cross-link collagen cannot function. Getting enough through food — bell peppers, kiwi, citrus, broccoli — matters more than any supplement. Zinc, copper and adequate protein also play essential roles."
-        },
-        {
-          "q": "Does menopause affect collagen?",
-          "a": "Yes, significantly. Oestrogen supports collagen synthesis in the skin, and its decline during perimenopause and menopause accelerates collagen loss at roughly 1–2% per year — beyond what age alone would explain. HRT has evidence for partially restoring skin collagen and elasticity. Talk to your GP or a menopause specialist if this is a concern."
         },
         {
           "t": "links",
@@ -9724,6 +9706,24 @@ export const POSTS = [
               "desc": "Oestrogen affects skin and collagen. New data on the HRT surge and what patch shortages mean."
             }
           ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do collagen supplements actually work?",
+          "a": "Possibly — but less clearly than the marketing suggests. Multiple trials show improvements in skin hydration and elasticity, but a 2025 meta-analysis found that independently-funded studies showed no significant effect, while industry-funded ones did. If you want to try them, 2.5–10g of hydrolysed collagen daily is the dose used in most trials. Make sure vitamin C intake is adequate alongside them."
+        },
+        {
+          "q": "Can a collagen cream rebuild skin?",
+          "a": "No — collagen molecules are far too large to penetrate the skin barrier. Collagen creams work as moisturisers, which is useful, but that is where the mechanism ends. Retinoids and vitamin C serums are the topical ingredients with evidence for actually stimulating collagen production in the dermis."
+        },
+        {
+          "q": "What is the most important nutrient for skin collagen?",
+          "a": "Vitamin C. Without it, the enzymes that form and cross-link collagen cannot function. Getting enough through food — bell peppers, kiwi, citrus, broccoli — matters more than any supplement. Zinc, copper and adequate protein also play essential roles."
+        },
+        {
+          "q": "Does menopause affect collagen?",
+          "a": "Yes, significantly. Oestrogen supports collagen synthesis in the skin, and its decline during perimenopause and menopause accelerates collagen loss at roughly 1–2% per year — beyond what age alone would explain. HRT has evidence for partially restoring skin collagen and elasticity. Talk to your GP or a menopause specialist if this is a concern."
         }
       ]
     },
@@ -10963,16 +10963,6 @@ export const POSTS = [
               "url": "https://www.nature.com/articles/s41366-025-01978-0"
             }
           ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "How much protein should I actually eat after menopause?",
-          "a": "The official RDA of 0.8g per kg of body weight a day is a minimum, not an optimum. A 2026 Women's Health Initiative analysis found postmenopausal women sustaining around 1.2g/kg/day or more had better bone and lean-mass outcomes over 3 years. For a 65kg woman, that's roughly 78g of protein daily, spread across meals."
-        },
-        {
-          "q": "Is it too late to start eating more protein if I'm already postmenopausal?",
-          "a": "No — the analysis followed women already postmenopausal, aged 50–79, and still found benefit from higher intake over just 3 years. Combining higher protein with resistance exercise is the combination most consistently linked to preserving muscle and bone at this life stage."
         },
         {
           "t": "links",
@@ -10989,6 +10979,16 @@ export const POSTS = [
               "desc": "Why the type of carbohydrate matters as much as the amount as you get older."
             }
           ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much protein should I actually eat after menopause?",
+          "a": "The official RDA of 0.8g per kg of body weight a day is a minimum, not an optimum. A 2026 Women's Health Initiative analysis found postmenopausal women sustaining around 1.2g/kg/day or more had better bone and lean-mass outcomes over 3 years. For a 65kg woman, that's roughly 78g of protein daily, spread across meals."
+        },
+        {
+          "q": "Is it too late to start eating more protein if I'm already postmenopausal?",
+          "a": "No — the analysis followed women already postmenopausal, aged 50–79, and still found benefit from higher intake over just 3 years. Combining higher protein with resistance exercise is the combination most consistently linked to preserving muscle and bone at this life stage."
         }
       ]
     },
@@ -11090,16 +11090,6 @@ export const POSTS = [
               "url": "https://www.mdpi.com/2075-1729/16/3/401"
             }
           ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Can HRT actually reverse skin ageing from menopause?",
-          "a": "It can partially reverse some of it. A 2026 review found HRT measurably improves skin collagen content, elasticity, thickness and hydration compared with untreated menopause, where collagen declines by around 2% a year. It's not a full reversal or a substitute for skincare, but the effect on skin structure is real and measurable."
-        },
-        {
-          "q": "Should I start HRT just for my skin?",
-          "a": "No — skin benefit is a real effect of HRT but not a standalone reason to start it. The decision should weigh your full symptom picture (hot flushes, sleep, mood, bone health) and personal risk factors with your doctor. If skin changes are contributing to how you feel, it's fine to mention them as part of that wider conversation."
         },
         {
           "t": "links",
@@ -11116,6 +11106,16 @@ export const POSTS = [
               "desc": "Declining oestrogen accelerates collagen loss. What the evidence says about supplementing."
             }
           ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can HRT actually reverse skin ageing from menopause?",
+          "a": "It can partially reverse some of it. A 2026 review found HRT measurably improves skin collagen content, elasticity, thickness and hydration compared with untreated menopause, where collagen declines by around 2% a year. It's not a full reversal or a substitute for skincare, but the effect on skin structure is real and measurable."
+        },
+        {
+          "q": "Should I start HRT just for my skin?",
+          "a": "No — skin benefit is a real effect of HRT but not a standalone reason to start it. The decision should weigh your full symptom picture (hot flushes, sleep, mood, bone health) and personal risk factors with your doctor. If skin changes are contributing to how you feel, it's fine to mention them as part of that wider conversation."
         }
       ]
     },
