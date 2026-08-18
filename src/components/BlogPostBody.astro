@@ -78,10 +78,19 @@ const isTool = post.filedUnder === 'tools';
         </div>;
       if (b.t === 'links')
         return <div class="cards">{b.items.map((l) => (
-          <a class="card" href={l.url} target="_blank" rel="noopener noreferrer">
-            <strong>{l.name} ↗</strong>
-            <span>{l.desc}</span>
-          </a>
+          /* Most "related reading" cards point at other posts on this site, so
+             branch on the href the same way renderInline() does: internal links
+             stay in the tab and drop the ↗, only genuinely external ones keep
+             target/rel and the glyph. */
+          l.url.startsWith('/')
+            ? <a class="card" href={B.replace(/\/$/, '') + l.url}>
+                <strong>{l.name}</strong>
+                <span>{l.desc}</span>
+              </a>
+            : <a class="card" href={l.url} target="_blank" rel="noopener noreferrer">
+                <strong>{l.name} ↗</strong>
+                <span>{l.desc}</span>
+              </a>
         ))}</div>;
       if (b.t === 'bio')
         return <div class="bio">
