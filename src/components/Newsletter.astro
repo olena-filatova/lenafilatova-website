@@ -73,7 +73,12 @@ const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`;
         <button type="submit" class="btn">{t.nlBtn}</button>
       </div>
 
-      <label class="nl-consent"><input type="checkbox" required /> {t.nlConsent}</label>
+      <!-- nlConsent carries the Privacy Policy anchor, so it is set as HTML.
+           The string is ours (src/data/site.js), never visitor input. The link
+           lives inside the label on purpose: per the HTML spec a label's
+           activation behaviour does not run for clicks on interactive
+           descendants, so following the link cannot tick the box. -->
+      <label class="nl-consent"><input type="checkbox" required /> <span set:html={t.nlConsent} /></label>
 
       <!-- Our honeypot (OPS-235). Hidden from people, enforced in the browser. -->
       <div class="hp-field" aria-hidden="true">
