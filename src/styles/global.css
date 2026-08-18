@@ -167,6 +167,16 @@
   --maxw: 1120px;
   --font-head: 'Spectral', Georgia, serif;
   --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* The uppercase/heavy/wide-tracked label device comes in two sizes, and
+     which one applies is a semantic question, not a decorative one (OPS-146,
+     audit finding 4). As a KICKER — an eyebrow above a real heading, or a
+     masthead label — it stays small. When the label IS the section's heading
+     (recipe Ingredients/Method/Nutrition, the blog's "Keep reading"), it has
+     to outrank the text underneath it, so it takes the larger step: a
+     content <h2> was rendering smaller than its own body copy, and smaller
+     than the <h3>s nested inside it. Same device, same tracking, one size up. */
+  --fs-label: 10.5px;      /* kicker: sits above a heading, never is one */
+  --fs-label-head: 16px;   /* the device carrying a real <h2> */
   /* Sticky header sits on a translucent copy of the paper. rgba can't be
      derived from a hex custom property without color-mix(), so this is
      spelled out — keep it in step with --bg if the paper ever changes. */

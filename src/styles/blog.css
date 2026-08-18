@@ -437,11 +437,14 @@
    End of article. Cards stripped to image + text on the paper, the way the
    homepage's feature blocks work; the heading becomes a section label rather
    than a display head, matching the numbered section heads there.
-   Mobile: compact thumb-left rows so all three fit one screen. */
+   Mobile: compact thumb-left rows so all three fit one screen.
+   The heading keeps the section-label drawing but takes the heading step of
+   the device: at 10.5px it sat directly above the 20px .rel-card h3 titles
+   nested under it, so the child read as twice its parent (OPS-146). */
 .related { max-width: 960px; margin: 0 auto; padding: 24px 24px 8px; }
 .related h2 {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em;
-  text-transform: uppercase; color: var(--ink);
+  font-family: var(--font-body); font-size: var(--fs-label-head); font-weight: 800; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--ink); line-height: 1.25;
   border-top: 1.5px solid var(--ink); padding-top: 10px; margin: 0 0 24px;
 }
 .rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
