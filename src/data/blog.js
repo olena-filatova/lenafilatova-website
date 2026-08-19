@@ -80,7 +80,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "So what you feel at 3am is your body's response to something, not the something itself, and two different triggers are pulling on the same alarm. This is why the sensation cannot tell you the cause, and why a symptom checklist promising to separate them is selling something it does not have. Breakthrough T1D's own menopause guidance puts it about as directly as a patient resource ever does: hot sweats and palpitations feel similar to hypoglycaemia, and where the two overlap you always treat the low first."
+          "text": "So what you feel at 3am is your body's response to something, not the something itself, and two different triggers are pulling on the same alarm. This is why the sensation cannot tell you the cause. Breakthrough T1D's own menopause guidance puts it about as directly as a patient resource ever does: hot sweats and palpitations feel similar to hypoglycaemia, and where the two overlap you always treat the low first."
         },
         {
           "t": "h",
@@ -113,6 +113,34 @@ export const POSTS = [
         {
           "t": "p",
           "text": "That last part matters for anyone with diabetes, because broken sleep is not a neutral outcome. It pushes insulin resistance up the next day, which is its own loop, and which I have written about separately in [the piece on sleep and insulin resistance](/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "h",
+          "text": "Why comparing symptoms is a losing strategy"
+        },
+        {
+          "t": "p",
+          "text": "It is worth being clear about why this post does not give you a comparison table, because \"there are no differences\" would be too strong and is not what I mean. Tendencies do exist. A flush more often begins as a wave of heat in the chest and face that travels upward and passes in a few minutes. A low more often brings hunger and tremor, and settles as the number comes up rather than on its own. The problem is not that nothing distinguishes them. It is that those are tendencies across a population, and you are applying them to one episode, in the dark, once."
+        },
+        {
+          "t": "p",
+          "text": "And the tendencies sit on top of a shared response. Sweating, a racing heart and abrupt anxious waking are what a body does when it is alarmed. They do not arrive with a label saying which alarm was pulled. Any list of them describes the bell, not the hand on the rope."
+        },
+        {
+          "t": "p",
+          "text": "Then there is the awkward fact that the warning symptoms are not equally available to everyone. Impaired awareness of hypoglycaemia — where the usual early warnings are muted, or missing altogether — was found in 17.5% of adults with type 1 diabetes in a 2024 questionnaire study, and other estimates run up to around 30%. What matters is what it travels with: in that study, people with impaired awareness were four and a half times more likely to have had a severe hypo in the previous year. The symptoms are least informative exactly where the consequences are worst. A checklist assumes a working alarm, and a meaningful minority of the people reading this do not have one."
+        },
+        {
+          "t": "p",
+          "text": "Consider, too, when the judgement is being made. Half asleep, in the dark, at the hour your reasoning is poorest anyway — and if it is a low, the faculty you are using to assess it is being degraded by the very thing you are assessing. Falling glucose impairs judgement before it announces that it has. You are asking the affected instrument to measure the effect."
+        },
+        {
+          "t": "p",
+          "text": "The most corrosive part, though, is that guessing teaches you nothing. If you decide it was a flush and go back to sleep, nothing ever contradicts you. Morning comes, the episode is over, and the decision quietly files itself as correct because nothing arrived to say otherwise. Do that for a year and your confidence grows while your accuracy stays exactly where it was — and that is not a state you can detect from the inside. I know, because I was in it. The only thing that generates real feedback is a number."
+        },
+        {
+          "t": "p",
+          "text": "And the two mistakes do not cost the same. Treating a flush as though it were a low costs you some glucose you did not need and a bit of irritation with yourself. Treating a low as though it were a flush and going back to sleep has a floor you do not want to find. When the errors are that lopsided, the goal stops being a better guess. It becomes not needing one."
         },
         {
           "t": "h",
@@ -284,6 +312,12 @@ export const POSTS = [
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10684550/"
             },
             {
+              "claim": "Impaired awareness of hypoglycaemia affects a substantial minority — and predicts severe hypos.",
+              "detail": "A cross-sectional questionnaire study of 189 adults with type 1 diabetes (56.1% female, median age 41, median duration 19.3 years) found that 17.5% had impaired awareness of hypoglycaemia by the Gold score, meaning the usual early warning symptoms are muted or absent. Those with impaired awareness were 4.5 times more likely (95% CI 2.0–10.9) to report at least one severe hypoglycaemic episode in the previous 12 months — 37.5% against 11.7% (p = 0.001). Older participants were more likely to have it; in this cohort diabetes duration itself did not differ significantly between the two groups, so duration is not the whole story. It is a single-centre self-report study, and other cohorts report prevalence up to around 30% depending on the questionnaire used.",
+              "cite": "PLoS One · Baxter M, Baillie K, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178233/"
+            },
+            {
               "claim": "Nocturnal hypoglycaemia clusters between midnight and 4am.",
               "detail": "A hierarchical cluster analysis of 2,519 overnight glucose series (midnight to 6am) from 395 adults with type 1 diabetes on multiple daily injections identified 16 distinct overnight patterns, six of them containing hypoglycaemic episodes. Episodes most commonly occurred between midnight and 4am, with later timing in traces that started from post-midnight hyperglycaemia. The authors report that glucose variability and preceding daytime hypoglycaemia predicted nocturnal lows better than bedtime glucose alone.",
               "cite": "Journal of Personalized Medicine · Kladov DE, Berikov VB, Semenova JF, Klimontov VV, 2023",
@@ -351,7 +385,7 @@ export const POSTS = [
       "faq": [
         {
           "q": "How can I tell if my night sweats are perimenopause or low blood sugar?",
-          "a": "Not from how they feel — and that is the honest answer rather than an evasive one. A falling glucose triggers an adrenaline response that produces sweating, palpitations, tremor and anxious waking, and a hot flush produces a strikingly similar set of sensations from a completely different starting point. The only thing that separates them at the moment it is happening is a glucose reading. Keep a meter within reach of the bed, check before you decide what the episode was, and use two to three weeks of overnight sensor traces to see whether the episodes cluster with lows or happen independently of them."
+          "a": "Not from how they feel — and that is the honest answer rather than an evasive one. A falling glucose triggers an adrenaline response that produces sweating, palpitations, tremor and anxious waking, and a hot flush produces a strikingly similar set of sensations from a completely different starting point. The only thing that separates them at the moment it is happening is a glucose reading. There are three further reasons not to rely on symptoms: a substantial minority of people with type 1 diabetes have impaired awareness of hypoglycaemia and get no reliable warning at all; a low degrades the judgement you would use to assess it; and guessing generates no feedback, so a wrong call is never corrected and confidence grows without accuracy. Keep a meter within reach of the bed, check before you decide what the episode was, and use two to three weeks of overnight sensor traces to see whether the episodes cluster with lows or happen independently of them."
         },
         {
           "q": "Would I definitely wake up if I had a low blood sugar overnight?",
@@ -414,7 +448,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Тобто те, що ви відчуваєте о третій ночі, — це відповідь організму на щось, а не саме це щось; і два різні тригери смикають один і той самий сигнал тривоги. Саме тому відчуття не може сказати вам про причину, і саме тому перелік симптомів, який обіцяє їх розділити, продає те, чого не має. Настанови Breakthrough T1D щодо менопаузи формулюють це так прямо, як рідко буває в пацієнтських матеріалах: припливи та серцебиття відчуваються схоже на гіпоглікемію, і там, де вони накладаються, гіпоглікемію завжди лікують першою."
+          "text": "Тобто те, що ви відчуваєте о третій ночі, — це відповідь організму на щось, а не саме це щось; і два різні тригери смикають один і той самий сигнал тривоги. Саме тому відчуття не може сказати вам про причину. Настанови Breakthrough T1D щодо менопаузи формулюють це так прямо, як рідко буває в пацієнтських матеріалах: припливи та серцебиття відчуваються схоже на гіпоглікемію, і там, де вони накладаються, гіпоглікемію завжди лікують першою."
         },
         {
           "t": "h",
@@ -447,6 +481,34 @@ export const POSTS = [
         {
           "t": "p",
           "text": "Остання частина важлива для будь-кого з діабетом, бо розірваний сон не є нейтральним наслідком. Він підвищує інсулінорезистентність наступного дня — це окреме коло, про яке я писала в [тексті про сон та інсулінорезистентність](/ua/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "h",
+          "text": "Чому порівнювати симптоми — програшна стратегія"
+        },
+        {
+          "t": "p",
+          "text": "Варто пояснити, чому в цьому тексті немає порівняльної таблиці, бо «жодних відмінностей немає» було б перебільшенням і не тим, що я маю на увазі. Тенденції існують. Приплив частіше починається хвилею жару в грудях і обличчі, яка йде вгору й минає за кілька хвилин. Гіпоглікемія частіше дає голод і тремор і вщухає, коли цифра піднімається, а не сама собою. Проблема не в тому, що їх нічим не відрізнити. Проблема в тому, що це тенденції на рівні популяції, а ви застосовуєте їх до одного епізоду, у темряві, один раз."
+        },
+        {
+          "t": "p",
+          "text": "І ці тенденції лежать поверх спільної відповіді. Пітливість, прискорене серцебиття й різке тривожне пробудження — це те, що робить тіло, коли воно стривожене. Вони не приходять із позначкою, який саме сигнал смикнули. Будь-який їх перелік описує дзвін, а не руку на мотузці."
+        },
+        {
+          "t": "p",
+          "text": "Далі — незручний факт: попереджувальні симптоми доступні не всім однаково. Порушене відчуття гіпоглікемії, коли звичні ранні попередження приглушені або відсутні взагалі, було виявлене у 17,5% дорослих із діабетом 1 типу в опитувальному дослідженні 2024 року, а інші оцінки сягають близько 30%. Важливо, із чим це йде поруч: у тому ж дослідженні люди з порушеним відчуттям мали вчетверо з половиною вищі шанси пережити тяжку гіпоглікемію протягом попереднього року. Тобто симптоми найменш інформативні саме там, де наслідки найгірші. Перелік симптомів припускає, що сигналізація працює, — а в помітної частини тих, хто це читає, вона не працює."
+        },
+        {
+          "t": "p",
+          "text": "Подумайте також про те, коли ухвалюється рішення. Напівсонна, у темряві, о тій годині, коли мислення й так найгірше, — і якщо це гіпоглікемія, та сама здатність, якою ви оцінюєте ситуацію, псується тим, що ви оцінюєте. Падіння глюкози погіршує судження ще до того, як про себе оголосить. Ви просите зіпсований прилад виміряти поломку."
+        },
+        {
+          "t": "p",
+          "text": "Але найруйнівніше те, що вгадування нічого вас не вчить. Якщо ви вирішили, що це приплив, і заснули далі, вам ніхто не заперечить. Настає ранок, епізод позаду, і рішення тихо записується як правильне — просто тому, що не з’явилося нічого протилежного. Робіть так рік, і ваша впевненість зростатиме, а точність залишиться там, де була. І цього стану неможливо помітити зсередини. Я знаю, бо була в ньому. Єдине, що дає справжній зворотний зв’язок, — це цифра."
+        },
+        {
+          "t": "p",
+          "text": "А ще ці дві помилки коштують по-різному. Полікувати приплив, ніби це гіпоглікемія, коштує вам зайвої глюкози й трохи роздратування на себе. Прийняти гіпоглікемію за приплив і заснути далі — має дно, на яке ви не хочете натрапити. Коли помилки настільки нерівноцінні, метою перестає бути краще вгадування. Метою стає не потребувати його взагалі."
         },
         {
           "t": "h",
@@ -618,6 +680,12 @@ export const POSTS = [
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10684550/"
             },
             {
+              "claim": "Порушене відчуття гіпоглікемії є в помітної меншості — і воно передбачає тяжкі епізоди.",
+              "detail": "Крос-секційне опитувальне дослідження 189 дорослих із діабетом 1 типу (56,1% жінок, медіана віку 41 рік, медіана тривалості діабету 19,3 року) показало, що у 17,5% було порушене відчуття гіпоглікемії за шкалою Gold — тобто звичні ранні попереджувальні симптоми приглушені або відсутні. Ті, у кого воно було, мали у 4,5 раза вищі шанси (95% ДІ 2,0–10,9) повідомити про щонайменше один епізод тяжкої гіпоглікемії за попередні 12 місяців — 37,5% проти 11,7% (p = 0,001). Старші учасники мали його частіше; сама лише тривалість діабету в цій когорті між групами значуще не відрізнялася, тож справа не тільки в ній. Це одноцентрове дослідження на самозвітах, а інші когорти повідомляють про поширеність до приблизно 30% залежно від використаного опитувальника.",
+              "cite": "PLoS One · Baxter M, Baillie K, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178233/"
+            },
+            {
               "claim": "Нічні гіпоглікемії групуються між опівніччю і 4-ю ранку.",
               "detail": "Ієрархічний кластерний аналіз 2 519 нічних глюкозних рядів (від опівночі до 6-ї) у 395 дорослих із діабетом 1 типу на багаторазових ін’єкціях виявив 16 різних нічних патернів, шість із яких містили епізоди гіпоглікемії. Найчастіше епізоди траплялися між опівніччю і 4-ю ранку, з пізнішим часом у графіках, які починалися з післяопівнічної гіперглікемії. Автори зазначають, що варіабельність глюкози й денна гіпоглікемія напередодні передбачали нічні епізоди краще, ніж сам лише рівень глюкози перед сном.",
               "cite": "Journal of Personalized Medicine · Kladov DE, Berikov VB, Semenova JF, Klimontov VV, 2023",
@@ -685,7 +753,7 @@ export const POSTS = [
       "faq": [
         {
           "q": "Як зрозуміти, що нічна пітливість — це перименопауза, а не низький цукор?",
-          "a": "За відчуттями — ніяк, і це чесна відповідь, а не ухильна. Падіння глюкози запускає адреналінову відповідь із пітливістю, серцебиттям, тремором і тривожним пробудженням, а приплив дає разюче схожий набір відчуттів із зовсім іншої відправної точки. Єдине, що розрізняє їх у момент події, — вимірювання глюкози. Тримайте глюкометр біля ліжка, вимірюйте до того, як вирішите, чим був епізод, і використайте два-три тижні нічних графіків, щоб побачити, чи збігаються епізоди з гіпоглікеміями, чи трапляються незалежно від них."
+          "a": "За відчуттями — ніяк, і це чесна відповідь, а не ухильна. Падіння глюкози запускає адреналінову відповідь із пітливістю, серцебиттям, тремором і тривожним пробудженням, а приплив дає разюче схожий набір відчуттів із зовсім іншої відправної точки. Єдине, що розрізняє їх у момент події, — вимірювання глюкози. Є ще три причини не покладатися на симптоми: у помітної частини людей із діабетом 1 типу порушене відчуття гіпоглікемії, тож надійного попередження немає взагалі; сама гіпоглікемія псує ту здатність судити, якою ви її оцінюєте; а вгадування не дає зворотного зв’язку, тож хибне рішення ніколи не виправляється, і впевненість зростає без точності. Тримайте глюкометр біля ліжка, вимірюйте до того, як вирішите, чим був епізод, і використайте два-три тижні нічних графіків, щоб побачити, чи збігаються епізоди з гіпоглікеміями, чи трапляються незалежно від них."
         },
         {
           "q": "Чи я обов’язково прокинуся, якщо вночі впаде цукор?",
