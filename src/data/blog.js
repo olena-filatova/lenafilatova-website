@@ -3311,6 +3311,7 @@ export const POSTS = [
   {
     "slug": "strength-training-perimenopause-beginners",
     "date": "2026-08-14",
+    "featured": true,
     "image": "/images/strength-training-perimenopause-beginners.jpg",
     "cats": [
       "fitness",
@@ -8765,6 +8766,7 @@ export const POSTS = [
   {
     "slug": "protein-for-women-over-40",
     "date": "2026-07-04",
+    "featured": true,
     "image": "/images/protein-for-women-over-40.jpg",
     "cats": [
       "nutrition"

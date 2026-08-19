@@ -94,6 +94,51 @@ export function relatedPosts(post, posts, limit = 3) {
 export const langUrl = (lang, slug) =>
   `${SITE}${lang === 'ua' ? '/ua' : ''}/blog/${slug}/`;
 
+// The /blog/ featured band. Editorial, hand-picked: a post opts in with
+// `featured: true` in blog.js. Three is the design ceiling — the newest of them
+// becomes the large lead card and the rest render as hairline rows beneath, so
+// which post leads is controlled by its date, not by array order.
+//
+// This set does NOT drive the homepage. The homepage band shows the newest post
+// (see HomeBody.astro) — they are separate jobs and were conflated until
+// OPS-299, which left a June post pinned to the homepage for two months.
+export const FEATURED_MAX = 3;
+
+// Warns rather than throws: a stale or empty featured set is an editorial
+// matter, not a broken build, and failing the deploy over it would strand Lena
+// with a site that will not publish. The warning is aimed at whoever is next in
+// the build log. The standing reminder for humans lives in CLAUDE.md.
+export function featuredPosts(sorted) {
+  const featured = sorted.filter((p) => p.featured && !p.comingSoon).slice(0, FEATURED_MAX);
+
+  if (!featured.length) {
+    console.warn(
+      '[blog] No post carries `featured: true` — the /blog/ featured band will not render at all. ' +
+        `Flag 2-${FEATURED_MAX} posts in src/data/blog.js.`
+    );
+    return featured;
+  }
+
+  if (featured.length === 1) {
+    console.warn(
+      '[blog] Only one post is flagged `featured: true`, so the /blog/ band falls back to its ' +
+        `one-card .solo layout instead of the designed lead-plus-rows band. Flag 2-${FEATURED_MAX} in src/data/blog.js.`
+    );
+  }
+
+  // "Stale" = every pick sits outside the ten most recent posts. Cheap proxy,
+  // and it is exactly the state OPS-299 was raised to fix.
+  const recent = new Set(sorted.slice(0, 10).map((p) => p.slug));
+  if (!featured.some((p) => recent.has(p.slug))) {
+    console.warn(
+      `[blog] The featured set is stale — none of [${featured.map((p) => p.slug).join(', ')}] ` +
+        'is among the 10 newest posts. Evergreen picks are fine, but check this is still deliberate.'
+    );
+  }
+
+  return featured;
+}
+
 // Google truncates the SERP title at roughly 600px, which for both Latin and
 // Cyrillic lands near 60 characters. Headlines here are editorial and often
 // longer, so a post sets `seoTitle` to give the <title> tag its own wording.

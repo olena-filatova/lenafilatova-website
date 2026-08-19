@@ -93,3 +93,33 @@ Post count and dates descending, zero duplicate slugs. Force-push with
 `--force-with-lease=<branch>:<pre-rebase-sha>`. Do the rebase in a throwaway
 `git worktree` — the main clone usually has another branch checked out with
 uncommitted work.
+
+## The featured set goes stale silently — check it when you add posts
+
+`featured: true` in `src/data/blog.js` is a **hand-picked editorial flag**. It drives
+the band at the top of `/blog/` and nothing else. Nothing recalculates it, and
+nothing fails the build when it rots: between June and August 2026 exactly one post
+carried it, so the band sat on its one-card `.solo` fallback while 39 newer posts
+piled up behind it, and — because the homepage sorted `featured` ahead of `date` —
+the homepage "From the blog" card was pinned to the same June article for two
+months (OPS-299).
+
+Rules:
+
+1. **Flag 2–3 posts, never one.** One post triggers the `.solo` layout, which is a
+   fallback and not the designed band. Three is the ceiling (`FEATURED_MAX`).
+2. **The newest flagged post becomes the large lead card**; the others render as
+   hairline rows under it. Order is by `date`, not by position in the array — to
+   change which one leads, change which posts are flagged.
+3. **The homepage is not part of this.** Its band always shows the newest Journal
+   post. If you ever want a hand-picked post on the homepage, add a *separate*
+   field — do not put `featured` back into the sort in `HomeBody.astro`.
+4. `featuredPosts()` in `src/data/blog-lib.js` warns on the console at build time if
+   the set is empty, down to one, or entirely outside the ten newest posts. It
+   **warns rather than throws** on purpose — an editorial choice should never block
+   a deploy — so it is easy to miss. Read the build output.
+
+Picks are editorial, so prefer evergreen pillars over news items: a digest post
+flagged today reads as stale within a fortnight. The current three are the
+perimenopause-and-diabetes pillar, the protein guide, and the strength-training
+starter — one per major theme, all evergreen.
