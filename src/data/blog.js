@@ -2607,7 +2607,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Layered on top of that is variability. It isn't only that average glucose creeps up; it's that the same meal, the same dose and the same walk stop producing the same result. Women with type 1 diabetes describe this constantly — one cycle behaves, the next doesn't, and nothing in the routine has changed. Sleep disruption and night sweats make it worse, because short and broken sleep independently reduces insulin sensitivity."
+          "text": "Layered on top of that is variability. It isn't only that average glucose creeps up; it's that the same meal, the same dose and the same walk stop producing the same result. Women with type 1 diabetes describe this constantly — one cycle behaves, the next doesn't, and nothing in the routine has changed. Sleep disruption and night sweats make it worse, because short and broken sleep independently reduces insulin sensitivity. When a particular high or low refuses to make sense, my [blood sugar investigator](/blood-sugar-investigator) walks through the usual causes one at a time — hormones among them."
         },
         {
           "t": "p",
@@ -2855,7 +2855,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Поверх цього накладається мінливість. Річ не лише в тому, що середній цукор повзе вгору, — а в тому, що та сама їжа, та сама доза й та сама прогулянка перестають давати той самий результат. Жінки з діабетом 1 типу постійно це описують: один цикл поводиться нормально, наступний — ні, і в режимі нічого не змінилося. Порушення сну та нічна пітливість погіршують ситуацію, бо короткий і переривчастий сон сам собою знижує чутливість до інсуліну."
+          "text": "Поверх цього накладається мінливість. Річ не лише в тому, що середній цукор повзе вгору, — а в тому, що та сама їжа, та сама доза й та сама прогулянка перестають давати той самий результат. Жінки з діабетом 1 типу постійно це описують: один цикл поводиться нормально, наступний — ні, і в режимі нічого не змінилося. Порушення сну та нічна пітливість погіршують ситуацію, бо короткий і переривчастий сон сам собою знижує чутливість до інсуліну. Коли якийсь конкретний підйом або спад ніяк не піддається поясненню, мій [дослідник цукру в крові](/blood-sugar-investigator-ua) допомагає перебрати звичні причини по черзі — зокрема й гормональні."
         },
         {
           "t": "p",
