@@ -880,6 +880,11 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 }
 .site-footer .legal { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 22px; color: var(--muted); font-size: 13px; }
 .site-footer .legal p { margin: 0 0 8px; }
+/* The AI notice (OPS-336) carries the only inline link down here. The generic
+   footer link rule sets 15px, which would sit a size bigger than the 13px
+   legal text around it, so it inherits instead and is underlined to read as a
+   link without a colour change. */
+.site-footer .legal a { font-size: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 /* --- legal pages (OPS-277) -----------------------------------------------
    Deliberately plain: masthead, one column, generous leading. These are

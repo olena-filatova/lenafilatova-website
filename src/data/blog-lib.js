@@ -61,6 +61,25 @@ export const UI = {
   },
 };
 
+// The author signature that closes every article (OPS-336). It used to be an
+// optional per-post `bio` block, so only 12 of 48 posts were signed; it now
+// lives here once and BlogPostBody renders it on every post. A post that still
+// carries its own `bio` block keeps that one instead of getting two.
+export const AUTHOR_BIO = {
+  en: {
+    name: 'Lena Filatova',
+    img: '/images/lena-filatova-author.jpg',
+    alt: 'Lena Filatova, women\u2019s health writer living with type 1 diabetes',
+    text: 'Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women\u2019s health, perimenopause and diabetes management at lenafilatova.co.uk.',
+  },
+  ua: {
+    name: 'Lena Filatova',
+    img: '/images/lena-filatova-author.jpg',
+    alt: 'Lena Filatova, \u0430\u0432\u0442\u043e\u0440\u043a\u0430 \u043f\u0440\u043e \u0436\u0456\u043d\u043e\u0447\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u2019\u044f, \u0449\u043e \u0436\u0438\u0432\u0435 \u0437 \u0434\u0456\u0430\u0431\u0435\u0442\u043e\u043c 1 \u0442\u0438\u043f\u0443',
+    text: 'Lena Filatova \u0436\u0438\u0432\u0435 \u0437 \u0434\u0456\u0430\u0431\u0435\u0442\u043e\u043c 1 \u0442\u0438\u043f\u0443 \u0432\u0436\u0435 23 \u0440\u043e\u043a\u0438. \u0412\u043e\u043d\u0430 \u043f\u0438\u0448\u0435 \u043f\u0440\u043e \u0436\u0456\u043d\u043e\u0447\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u2019\u044f, \u043f\u0435\u0440\u0438\u043c\u0435\u043d\u043e\u043f\u0430\u0443\u0437\u0443 \u0442\u0430 \u0432\u0435\u0434\u0435\u043d\u043d\u044f \u0434\u0456\u0430\u0431\u0435\u0442\u0443 \u043d\u0430 lenafilatova.co.uk.',
+  },
+};
+
 const escapeHtml = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
