@@ -26,9 +26,16 @@ const blogHref = `${L}blog/`;
 const recipesAllHref = `${L}recipes/`;
 const resourcesHref = `${L}resources/`;
 
+// NEWEST, not the editorial pick (OPS-299). These are two different jobs and
+// this band does the first one: section 02 sits in the "freshness" slot of the
+// page order above, so it has to move when Lena publishes. `featured` is the
+// *editorial* pick and belongs to the /blog/ band only — letting it win the
+// sort here is what froze this card on a June post while 39 newer ones piled
+// up behind it. If you want a hand-picked post on the homepage, add a separate
+// field for it; do not reintroduce `featured` into this comparator.
 const recentPosts = [...POSTS]
   .filter((p) => !p.comingSoon && p.filedUnder !== 'tools')
-  .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.date.localeCompare(a.date));
+  .sort((a, b) => b.date.localeCompare(a.date));
 const latestPost = recentPosts[0];
 const latestPostT = latestPost[lang];
 

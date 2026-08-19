@@ -17,7 +17,7 @@
 // The band appears only on the "All" view; picking a category hides it and the
 // featured posts rejoin the grid, so a filtered view is always complete.
 import { POSTS } from '../data/blog.js';
-import { CATS, UI } from '../data/blog-lib.js';
+import { CATS, UI, featuredPosts } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
 import '../styles/blog.css';
 
@@ -28,7 +28,9 @@ const { lang = 'en' } = Astro.props;
 const sorted = [...POSTS]
   .filter((p) => p.filedUnder !== 'tools')
   .sort((a, b) => b.date.localeCompare(a.date));
-const featured = sorted.filter((p) => p.featured && !p.comingSoon).slice(0, 3);
+// Selection + the build-time staleness warning live in blog-lib.js (OPS-299).
+// `sorted` is date-descending, so the newest flagged post becomes the lead card.
+const featured = featuredPosts(sorted);
 const [lead, ...minis] = featured;
 const t = UI[lang];
 const B = import.meta.env.BASE_URL;
