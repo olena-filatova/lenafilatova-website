@@ -3070,6 +3070,920 @@ export const POSTS = [
     }
   },
   {
+    "slug": "menopause-brain-fog-not-dementia",
+    "date": "2026-08-15",
+    "image": "/images/menopause-brain-fog-not-dementia.jpg",
+    "cats": [
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Perimenopause",
+      "title": "Menopause brain fog isn’t early dementia — and it finally has a definition",
+      "seoTitle": "Menopause Brain Fog Isn’t Early Dementia",
+      "metaDesc": "A 2026 Lancet review defines menopause brain fog as a drop in mental efficiency, not capacity — reported by two-thirds of women, and not a dementia sign.",
+      "excerpt": "A 2026 Lancet review proposes the first clinical definition of menopausal brain fog: self-reported trouble with memory, attention or word-finding, without measurable cognitive decline — and no link to dementia risk.",
+      "meta": "15 August 2026 · 4 min read",
+      "lead": "More than two-thirds of women report memory or concentration trouble across the menopause transition. Until now there has been no agreed definition of what that is — which is part of why so little has been done about it.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A review published in April 2026 in The Lancet Obstetrics, Gynaecology & Women’s Health sets out to fix that. Led by Associate Professor Caroline Gurvich at Monash University, with colleagues at UCL and the University of Melbourne, it pulls together what the evidence currently supports and proposes a clinical definition of menopausal brain fog so that trials can finally be designed around it."
+        },
+        {
+          "t": "p",
+          "text": "The definition they propose is narrower and more precise than the everyday use of the phrase: self-reported difficulty in one or more cognitive areas — memory, attention, organisation, problem-solving or word retrieval — in the absence of notable objective cognitive decline. In Gurvich’s words, this is “a decrease in cognitive or learning efficiency, not functionality or capacity.” The typical experience is forgetfulness, losing a word mid-sentence, being pulled off task more easily — not losing the ability to do the task."
+        },
+        {
+          "t": "p",
+          "text": "That last clause carries the reassurance most women are actually looking for. The review reports that these cognitive symptoms are not associated with an increased risk of dementia, and that on formal testing, overall performance usually sits within the expected range. Fear of early Alzheimer’s is one of the most common reasons women bring brain fog to a GP, and on the current evidence it is not what this is."
+        },
+        {
+          "t": "p",
+          "text": "But “doesn’t show up on a test” has been read for years as “isn’t real”, and that is the problem the authors are pushing back on. There is pressure to prove a treatment works using objective memory tests, when the defining symptom is subjective — so studies keep measuring the wrong thing and finding nothing. Their argument is that self-report should be accepted here, as it already is for depression and anxiety, both of which are diagnosed and treated on what the patient describes."
+        },
+        {
+          "t": "p",
+          "text": "The honest position on causes and treatment is that neither is settled. Hormonal change, disrupted sleep and psychological or psychosocial stress all appear to contribute, and they overlap heavily — broken sleep alone will produce most of the symptom list. There are no treatments specific to menopausal brain fog. Sleep quality, regular aerobic exercise and a decent diet have general support, cognitive behavioural therapy has early promising results, and the evidence on hormone therapy for cognitive symptoms specifically is mixed."
+        },
+        {
+          "t": "p",
+          "text": "The most-quoted figures on how common this is come from a different kind of study, and it is worth knowing which. A 2024 service evaluation of 978 new patients at a UK specialist menopause clinic found memory problems in 93% and difficulty concentrating in 91%, with symptom scores improving across the board three months after starting hormone therapy. Those are women who had already sought specialist help, so the percentages run far above the general population, and it was a before-and-after audit with no control group — encouraging, but not proof that the treatment caused the improvement."
+        },
+        {
+          "t": "p",
+          "text": "One practical note for anyone here for the diabetes side: glucose running high, running low, or swinging does exactly this to concentration and word-finding, and so do thyroid problems, low ferritin and low B12. All of those are testable, and worth testing, before the fog is filed under hormones alone. I’ve written more about that overlap in [perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/)."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Menopausal brain fog now has a proposed clinical definition — and no established link to dementia risk.",
+              "detail": "A 2026 review in The Lancet Obstetrics, Gynaecology & Women’s Health, led by Associate Professor Caroline Gurvich (Monash University) with Professor Aimee Spector (UCL) and Professor Martha Hickey (University of Melbourne and the Royal Women’s Hospital), proposes defining menopausal brain fog as self-reported impairment in one or more cognitive domains — memory, attention, organisation, problem-solving or word retrieval — in the absence of notable objective cognitive decline. More than two-thirds of women report difficulties with memory or concentration over the menopause transition. The authors report that these symptoms are not linked to an increased risk of dementia and that overall cognitive performance typically remains within expected ranges, and they identify hormonal change, sleep disturbance and psychological or psychosocial stress as contributing factors. This is a review and position paper synthesising existing evidence, not a new trial.",
+              "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · 13 April 2026",
+              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00043-9/fulltext"
+            },
+            {
+              "claim": "In a UK menopause clinic, more than nine in ten patients reported memory and concentration problems.",
+              "detail": "A service evaluation published in BJPsych Open (Reisel et al., 1 August 2024) gave a modified Greene Climacteric Symptom Questionnaire to 978 new patients at a specialist menopause clinic between November 2022 and June 2023. The five most prevalent symptoms were feeling tired or lacking in energy (96%), memory problems (93%), difficulty in concentrating (91%), irritability (90%) and feeling tense or nervous (90%). At three-month follow-up all symptoms had improved on hormone therapy, with or without transdermal testosterone — most of all profound low mood (69% improvement in symptom scores) and attacks of anxiety and panic (61%). Two limits matter when reading those numbers: the sample is women who actively sought specialist menopause care, so prevalence runs well above the general population, and the design is an uncontrolled before-and-after audit with no placebo group.",
+              "cite": "BJPsych Open · Reisel et al., 1 August 2024",
+              "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/prevalence-of-cognitive-and-moodrelated-symptoms-in-a-large-cohort-of-perimenopausal-and-menopausal-women/9478EDCFCB94629C1C02657229EC4A2F"
+            },
+            {
+              "claim": "The researchers argue trials should measure what women report, not only what tests detect.",
+              "detail": "Summarising the review, Associate Professor Gurvich notes there is pressure to use objective measures such as memory tests in clinical trials, “but the key symptom of brain fog is a subjective experience” — and argues self-report measures should be accepted, as they are for depression and anxiety. Professor Martha Hickey states that the analysis of the best available research shows many women experience some degree of cognitive symptoms during the menopause transition. The team notes there are currently no specific treatments, with sleep, aerobic exercise, diet and cognitive behavioural therapy among the approaches under investigation.",
+              "cite": "UCL News · 13 April 2026",
+              "url": "https://www.ucl.ac.uk/news/2026/apr/brain-fog-affects-two-thirds-going-through-menopause-yet-poorly-understood"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Anxiety and brain fog, not hot flashes, are now women’s top menopause complaint",
+              "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
+              "desc": "The survey that pushed cognitive symptoms above hot flushes — and what it cost women at work."
+            },
+            {
+              "name": "Ninety minutes less sleep raised insulin resistance by 15% in women",
+              "url": "/blog/sleep-insulin-resistance-women/",
+              "desc": "Disrupted sleep is one of the named contributors to brain fog — and it does more than that."
+            },
+            {
+              "name": "Perimenopause and diabetes: what’s really happening to your blood sugar",
+              "url": "/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "When glucose, not hormones, is the simpler explanation for a foggy afternoon."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is menopause brain fog a sign of early dementia?",
+          "a": "On the current evidence, no. The 2026 Lancet review reports that cognitive symptoms during the menopause transition are not linked to an increased risk of dementia, and that overall performance on formal cognitive testing usually stays within the expected range. The proposed definition specifically describes impairment that is self-reported and happens without notable objective decline. That said, if symptoms are severe, getting worse, or affecting your ability to do familiar tasks rather than just doing them more slowly, that is worth raising with your doctor rather than assuming it is menopause."
+        },
+        {
+          "q": "If my memory tests come back normal, does that mean the fog isn’t real?",
+          "a": "No — and that mismatch is exactly what the new definition is trying to capture. What changes is efficiency rather than capacity: the word arrives, but slower; the task gets done, but with more effort and more distraction. Standard cognitive tests are built to detect loss of capacity, so they can miss a real and disruptive drop in efficiency entirely. The researchers argue this is why treatment trials keep coming up empty, and why what you report should count as evidence in its own right."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Перименопауза",
+      "title": "Туман у голові в менопаузі — це не рання деменція, і тепер у нього є визначення",
+      "seoTitle": "Туман у голові в менопаузі — це не деменція",
+      "metaDesc": "Огляд Lancet 2026: туман у голові в менопаузі — це падіння ефективності мислення, а не втрата здатностей. Дві третини жінок, і жодного зв’язку з деменцією.",
+      "excerpt": "Огляд у The Lancet за 2026 рік пропонує перше клінічне визначення туману в голові при менопаузі: суб’єктивні труднощі з пам’яттю, увагою чи добором слів без вимірюваного зниження когнітивних функцій — і без зв’язку з ризиком деменції.",
+      "meta": "15 серпня 2026 · 4 хв читання",
+      "lead": "Понад дві третини жінок повідомляють про проблеми з пам’яттю чи концентрацією під час менопаузального переходу. Досі не було узгодженого визначення, що це таке, — і саме тому з цим так мало що робили.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Огляд, опублікований у квітні 2026 року в The Lancet Obstetrics, Gynaecology & Women’s Health, має це виправити. Його очолила доцентка Керолайн Ґурвіч з Університету Монаша разом із колегами з UCL та Мельбурнського університету. Автори зібрали те, що сьогодні підтверджують дані, і запропонували клінічне визначення менопаузального туману в голові — щоб дослідження нарешті мали що вимірювати."
+        },
+        {
+          "t": "p",
+          "text": "Запропоноване визначення вужче й точніше за побутове вживання цього виразу: суб’єктивні труднощі в одній або кількох когнітивних сферах — пам’ять, увага, організація, розв’язання задач або добір слів — за відсутності помітного об’єктивного зниження когнітивних функцій. За словами Ґурвіч, ідеться про «зниження ефективності мислення й навчання, а не функціональності чи здатності». Типовий досвід — забудькуватість, слово, що зникає посеред речення, легше відволікання. Але не втрата здатності виконати саму справу."
+        },
+        {
+          "t": "p",
+          "text": "Саме остання частина визначення дає ту відповідь, по яку більшість жінок і приходить. В огляді зазначено, що ці когнітивні симптоми не пов’язані з підвищеним ризиком деменції, а при формальному тестуванні загальні результати зазвичай залишаються в межах очікуваного. Страх ранньої хвороби Альцгеймера — одна з найчастіших причин, чому жінки взагалі згадують про туман у голові на прийомі; за наявними даними, це не він."
+        },
+        {
+          "t": "p",
+          "text": "Але фразу «на тестах нічого не видно» роками читали як «цього не існує» — і саме проти цього виступають автори. Від дослідників вимагають доводити ефективність лікування об’єктивними тестами пам’яті, тоді як ключовий симптом є суб’єктивним. Тож дослідження раз за разом вимірюють не те й нічого не знаходять. Автори наполягають: самозвіт тут має бути прийнятним доказом — так само, як для депресії й тривоги, які діагностують і лікують за тим, що описує сама людина."
+        },
+        {
+          "t": "p",
+          "text": "Чесна позиція щодо причин і лікування — що ані те, ані інше остаточно не з’ясоване. Гормональні зміни, порушення сну та психологічний і психосоціальний стрес, схоже, роблять свій внесок і сильно перетинаються: самого лише розірваного сну достатньо, щоб дати майже весь перелік симптомів. Специфічного лікування менопаузального туману в голові немає. Якість сну, регулярні аеробні навантаження й нормальне харчування мають загальну підтримку, когнітивно-поведінкова терапія показує перші обнадійливі результати, а дані щодо гормональної терапії саме для когнітивних симптомів — суперечливі."
+        },
+        {
+          "t": "p",
+          "text": "Найчастіше цитовані цифри про поширеність походять із дослідження іншого типу, і це варто знати. Оцінка послуги 2024 року за участю 978 нових пацієнток спеціалізованої менопаузальної клініки у Великій Британії виявила проблеми з пам’яттю в 93% і труднощі з концентрацією в 91%, а через три місяці після початку гормональної терапії показники симптомів покращилися за всіма пунктами. Але це жінки, які вже самі звернулися по спеціалізовану допомогу, тому відсотки значно вищі, ніж у загальній популяції; до того ж це аудит «до і після» без контрольної групи — обнадійливо, але не доказ, що поліпшення спричинило саме лікування."
+        },
+        {
+          "t": "p",
+          "text": "Одне практичне зауваження для тих, хто читає тут про діабет: високий цукор, низький цукор і різкі коливання дають рівно ту саму картину з концентрацією й добором слів — так само як проблеми зі щитоподібною залозою, низький феритин і низький B12. Усе це можна перевірити аналізами, і варто перевірити, перш ніж списувати туман лише на гормони. Докладніше про це перетинання — у тексті про [перименопаузу і цукор крові](/ua/blog/perimenopause-diabetes-blood-sugar/)."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Менопаузальний туман у голові отримав запропоноване клінічне визначення — і не має підтвердженого зв’язку з ризиком деменції.",
+              "detail": "Огляд 2026 року в The Lancet Obstetrics, Gynaecology & Women’s Health під керівництвом доцентки Керолайн Ґурвіч (Університет Монаша) разом із професоркою Еймі Спектор (UCL) і професоркою Мартою Гікі (Мельбурнський університет і Royal Women’s Hospital) пропонує визначати менопаузальний туман у голові як суб’єктивне порушення в одній чи кількох когнітивних сферах — пам’ять, увага, організація, розв’язання задач або добір слів — за відсутності помітного об’єктивного зниження когнітивних функцій. Понад дві третини жінок повідомляють про труднощі з пам’яттю або концентрацією протягом менопаузального переходу. Автори зазначають, що ці симптоми не пов’язані з підвищеним ризиком деменції, а загальні когнітивні показники зазвичай залишаються в межах очікуваного; серед чинників вони називають гормональні зміни, порушення сну та психологічний і психосоціальний стрес. Це оглядова й позиційна стаття, яка узагальнює наявні дані, а не нове дослідження.",
+              "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · 13 квітня 2026",
+              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00043-9/fulltext"
+            },
+            {
+              "claim": "У британській менопаузальній клініці понад дев’ять із десяти пацієнток повідомили про проблеми з пам’яттю та концентрацією.",
+              "detail": "Оцінка послуги, опублікована в BJPsych Open (Reisel та ін., 1 серпня 2024), охопила 978 нових пацієнток спеціалізованої менопаузальної клініки в період з листопада 2022 до червня 2023 року за модифікованим опитувальником Greene. П’ять найпоширеніших симптомів: втома або брак енергії (96%), проблеми з пам’яттю (93%), труднощі з концентрацією (91%), дратівливість (90%) і напруження чи нервозність (90%). Через три місяці на тлі гормональної терапії — із трансдермальним тестостероном або без нього — покращилися всі симптоми, найбільше глибоко знижений настрій (на 69% за шкалою симптомів) і напади тривоги й паніки (на 61%). Два обмеження важливі: вибірка — жінки, які самі звернулися по спеціалізовану допомогу, тож поширеність значно вища за загальнопопуляційну, а дизайн — неконтрольований аудит «до і після» без плацебо-групи.",
+              "cite": "BJPsych Open · Reisel та ін., 1 серпня 2024",
+              "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/prevalence-of-cognitive-and-moodrelated-symptoms-in-a-large-cohort-of-perimenopausal-and-menopausal-women/9478EDCFCB94629C1C02657229EC4A2F"
+            },
+            {
+              "claim": "Дослідники наполягають: випробування мають вимірювати те, про що повідомляють жінки, а не лише те, що видно тестам.",
+              "detail": "Коментуючи огляд, доцентка Ґурвіч зазначає, що від дослідників вимагають об’єктивних вимірювань на кшталт тестів пам’яті, «але ключовий симптом туману в голові — це суб’єктивний досвід», і що самозвітні шкали мають бути прийнятними так само, як для депресії й тривоги. Професорка Марта Гікі зазначає, що аналіз найкращих наявних досліджень показує: багато жінок переживають той чи інший ступінь когнітивних симптомів під час менопаузального переходу. Команда наголошує, що специфічного лікування наразі немає, а серед підходів, які вивчають, — сон, аеробні навантаження, харчування та когнітивно-поведінкова терапія.",
+              "cite": "UCL News · 13 квітня 2026",
+              "url": "https://www.ucl.ac.uk/news/2026/apr/brain-fog-affects-two-thirds-going-through-menopause-yet-poorly-understood"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Дотичне читання",
+          "items": [
+            {
+              "name": "Тривога й туман у голові, а не припливи, — тепер головна скарга жінок у менопаузі",
+              "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
+              "desc": "Опитування, яке поставило когнітивні симптоми вище за припливи — і в що це обійшлося жінкам на роботі."
+            },
+            {
+              "name": "На 90 хвилин менше сну — і інсулінорезистентність у жінок зросла на 15%",
+              "url": "/ua/blog/sleep-insulin-resistance-women/",
+              "desc": "Порушений сон — один із названих чинників туману в голові. І не лише його."
+            },
+            {
+              "name": "Перименопауза і діабет: що насправді відбувається з цукром крові",
+              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Коли простіше пояснення туманного дня — не гормони, а глюкоза."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Туман у голові в менопаузі — це ознака ранньої деменції?",
+          "a": "За наявними даними — ні. Огляд The Lancet 2026 року зазначає, що когнітивні симптоми під час менопаузального переходу не пов’язані з підвищеним ризиком деменції, а загальні результати формального когнітивного тестування зазвичай залишаються в межах очікуваного. Запропоноване визначення прямо описує порушення, про яке повідомляє сама людина й яке відбувається без помітного об’єктивного зниження. Водночас, якщо симптоми важкі, посилюються або заважають виконувати звичні справи, а не просто сповільнюють вас, це варто обговорити з лікарем, а не списувати на менопаузу."
+        },
+        {
+          "q": "Якщо тести на пам’ять у нормі, чи означає це, що туману насправді немає?",
+          "a": "Ні — і саме цю невідповідність намагається охопити нове визначення. Змінюється ефективність, а не здатність: слово таки знаходиться, але повільніше; справа таки робиться, але з більшим зусиллям і більшим відволіканням. Стандартні когнітивні тести створені, щоб виявляти втрату здатності, тому вони можуть повністю пропустити реальне й виснажливе падіння ефективності. Дослідники вважають, що саме тому випробування лікування раз за разом нічого не показують — і що те, про що ви розповідаєте, має рахуватися як доказ саме по собі."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "strength-training-perimenopause-beginners",
+    "date": "2026-08-14",
+    "featured": true,
+    "image": "/images/strength-training-perimenopause-beginners.jpg",
+    "cats": [
+      "fitness",
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Fitness 40+",
+      "title": "Starting strength training in perimenopause when you've never lifted before",
+      "excerpt": "You've been told you should be lifting. Here's the part nobody gives you: which movements, how heavy, how often — and what actually changes at six weeks versus six months.",
+      "meta": "14 August 2026 · 9 min read",
+      "lead": "You have probably read a dozen times that you should be lifting weights. Almost none of that advice tells you what to actually do on Monday morning — how heavy, how often, or whether it is too late to start. This is the specific version I wish someone had handed me.",
+      "seoTitle": "Strength Training for Perimenopause: How to Start",
+      "metaDesc": "What actually protects muscle and bone in perimenopause — how heavy, how often, and a realistic timeline for results after 40.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Please speak to your doctor before starting a new training programme — particularly if you have diagnosed osteoporosis, a recent injury, a heart condition, or diabetes complications such as retinopathy, which changes the guidance on heavy lifting."
+        },
+        {
+          "t": "p",
+          "text": "I came to strength training late, and reluctantly. For most of my adult life I did cardio — walking, cycling, the occasional badly-judged run — partly because it felt safer with type 1 diabetes, and partly because I had quietly decided that weights were for other people. Then I reached my forties and the same routine stopped producing the same body."
+        },
+        {
+          "t": "p",
+          "text": "What eventually moved me wasn't how I looked. It was reading, over and over, that muscle is the thing that protects you in the second half of life — your bones, your blood sugar, your ability to get up off the floor at seventy-five — and realising that nobody was going to hand me the muscle I had never built."
+        },
+        {
+          "t": "p",
+          "text": "The problem is that once you're convinced, the advice runs out. \"Lift weights\" is the entire message. So here is what comes after it: what falling oestrogen does to muscle and bone, why gentle toning classes don't do the job, the handful of movements that cover almost everything, and how long it honestly takes before anything happens."
+        },
+        {
+          "t": "h",
+          "text": "What falling oestrogen does to muscle and bone"
+        },
+        {
+          "t": "p",
+          "text": "Oestrogen is not just a reproductive hormone. It is quietly involved in how your muscles respond to food and training, and in how fast your skeleton turns itself over. When it falls, both of those change at once — which is why the perimenopausal years feel like more than the sum of getting a bit older. It sits alongside the other changes of this stage — [fat quietly redistributing towards the middle](/blog/cortisol-belly-perimenopause/), and [a set of weight beliefs that don't survive contact with the evidence](/blog/perimenopause-weight-myths/) — but muscle and bone are the two that respond most directly to what you do with a barbell."
+        },
+        {
+          "t": "p",
+          "text": "On the muscle side, the phenomenon is called anabolic resistance. [A review in Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described it clearly: the same dose of protein produces a smaller muscle-building response than it used to. You are not imagining that eating and training the way you did at thirty no longer works. It genuinely doesn't. Muscle mass declines gradually from around thirty, and the rate of loss steepens across the menopause transition."
+        },
+        {
+          "t": "p",
+          "text": "On the bone side, oestrogen acts as a brake on the cells that break bone down. Take the brake off and resorption outpaces formation. The fastest losses cluster in the year before the final period and the two or three years after it — which is precisely the window in which most women are told nothing at all about their skeleton."
+        },
+        {
+          "t": "p",
+          "text": "The word that matters in both cases is *accelerates*. This is not a cliff you fall off at fifty. It is a slope that gets steeper for a few years and then settles — and what you do during those years determines how much you're carrying into your sixties. Which is the genuinely hopeful part of this article: the timing is inconvenient, but it is also actionable."
+        },
+        {
+          "t": "h",
+          "text": "Why \"light weights, high reps\" isn't enough"
+        },
+        {
+          "t": "p",
+          "text": "This is where most midlife fitness advice quietly fails women. The default recommendation — small dumbbells, lots of repetitions, keep it gentle — is comfortable, popular, and not sufficient to protect bone. Bone responds to the *magnitude* of the strain it experiences, not to how many times you repeat a light one. Below a certain threshold, your skeleton reads the signal as ordinary daily loading and does nothing in response."
+        },
+        {
+          "t": "p",
+          "text": "The cleanest demonstration of this is the [LIFTMOR trial](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), published in the Journal of Bone and Mineral Research in 2018. Postmenopausal women with low bone mass — average age in their mid-sixties — did just two supervised 30-minute sessions a week for eight months: five sets of five repetitions of deadlift, squat and overhead press, at over 85% of their one-rep maximum, plus a jumping movement. They gained bone density at the lumbar spine and femoral neck, and improved on every functional test. The comparison group, doing a gentle low-intensity home programme, did not."
+        },
+        {
+          "t": "p",
+          "text": "Two honest caveats. That was supervised training, taught properly and built up gradually — not walking into a gym and loading a barbell in week one. And it was a trial in women who were screened as suitable for it. But the direction of travel is not ambiguous: the stimulus has to be genuinely hard before your skeleton bothers to respond."
+        },
+        {
+          "t": "p",
+          "text": "I find that liberating rather than intimidating, because of what \"hard\" turns out to mean in practice. Not two hours. Not six days a week. Roughly thirty minutes, twice a week, of a small number of movements done with real effort."
+        },
+        {
+          "t": "h",
+          "text": "The movements that cover almost everything"
+        },
+        {
+          "t": "p",
+          "text": "Don't think in exercises — think in patterns. There are four, and between them they load nearly every joint and muscle group you need to protect. Everything else is decoration."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Pattern",
+            "What it protects",
+            "Where a beginner starts",
+            "Where it goes"
+          ],
+          "rows": [
+            [
+              "Squat",
+              "Quads, glutes, hips, and the spine — loaded straight down through the skeleton",
+              "Sit-to-stand from a chair, bodyweight only",
+              "Goblet squat → barbell back squat"
+            ],
+            [
+              "Hinge",
+              "Glutes, hamstrings and the whole back chain — the strongest pattern your body owns",
+              "Hip hinge facing a wall, then Romanian deadlift with light dumbbells",
+              "Trap-bar or conventional deadlift"
+            ],
+            [
+              "Push",
+              "Chest, shoulders, triceps; pressing overhead loads the upper spine and wrists",
+              "Press-up with hands raised on a bench",
+              "Dumbbell or barbell overhead press"
+            ],
+            [
+              "Pull",
+              "Upper back, lats and rear shoulders — the muscles that hold your posture up",
+              "Seated row machine, or single-arm dumbbell row",
+              "Heavier rows, chin-up progressions"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The squat and the hinge are the two that matter most, and they are the two women most often skip. Both load the hip and the spine — the sites where fractures actually cost people their independence. A hinge in particular (the deadlift family) is the single most useful thing you can learn, because it is also how you pick your grandchild up off the floor without hurting yourself."
+        },
+        {
+          "t": "p",
+          "text": "The push and the pull are the upper-body pair, and if you only have appetite for one, make it the pull. Almost everything in modern life — desks, phones, steering wheels, carrying shopping in front of you — drags your shoulders forward. Rows are the only thing most of us do that pulls them back."
+        },
+        {
+          "t": "p",
+          "text": "That is the whole programme. Two sessions, both covering a squat, a hinge, a push and a pull. You will be tempted to add things, because the internet is full of them. Don't — not for the first three months. A short programme you actually complete twice a week beats an elaborate one you abandon in October."
+        },
+        {
+          "t": "h",
+          "text": "How often, how heavy, and how to progress"
+        },
+        {
+          "t": "p",
+          "text": "Twice a week is the floor, and it is also where most of the return lives. The [UK Chief Medical Officers' physical activity guidelines](https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report) recommend muscle-strengthening activity on at least two days a week for exactly this reason, and the LIFTMOR women got their results on two. A third session is a bonus if life allows it, not a requirement — and it is worth nothing next to the two you do consistently."
+        },
+        {
+          "t": "p",
+          "text": "\"Heavy\" is the part nobody defines, so here is a usable rule. Choose a weight where the last two repetitions of a set are genuinely difficult while your technique still looks the same as the first rep. If you finish a set feeling you could have done another five, it is too light — and that is where the majority of women stay for years."
+        },
+        {
+          "t": "p",
+          "text": "For the first month, work in three sets of eight to ten repetitions. You are learning the movements, and lighter sets give you the practice to learn them. After that, as the weights climb, shift towards four or five sets of five — fewer repetitions with more load is where the bone stimulus lives."
+        },
+        {
+          "t": "quote",
+          "text": "Progression is not a detail of the programme. Progression is the programme."
+        },
+        {
+          "t": "p",
+          "text": "The mechanism is simple and almost everyone ignores it: when you complete all your sets at the top of the rep range with clean form, add a small amount of weight next time. One to 2.5 kg on upper-body movements, 2.5 to 5 kg on lower-body ones. It sounds trivially small. Do it consistently for a year and it is not remotely trivial — and a body that is being asked for slightly more each month is a body that has a reason to keep adapting."
+        },
+        {
+          "t": "p",
+          "text": "One thing genuinely worth paying for: two or three sessions with a coach at the start, purely to have someone watch you hinge and squat. It is far cheaper than the physio appointments that follow six months of pulling with a rounded back."
+        },
+        {
+          "t": "h",
+          "text": "What to eat around it"
+        },
+        {
+          "t": "p",
+          "text": "Training is the signal; food is the material. Sending the signal without supplying the material is how women end up training hard for months and seeing very little. Protein is the first thing to fix — most women over 40 need considerably more than the official 0.8 g/kg, and I've written about [the targets that actually apply after 40](/blog/protein-for-women-over-40/) and about [what higher protein does for bone and muscle after menopause](/blog/higher-protein-postmenopausal-bone-muscle/) separately. As a working figure: 1.2–1.6 g per kg of body weight a day as a baseline, towards 1.6–2.0 g/kg if you are lifting regularly, spread across meals rather than piled into dinner."
+        },
+        {
+          "t": "p",
+          "text": "For bone specifically, you also need the raw materials. UK guidance puts adult calcium needs at around 700 mg a day, and recommends a daily 10 microgram vitamin D supplement through the autumn and winter for everyone — vitamin D is what lets you absorb the calcium in the first place. Loading a skeleton that has nothing to build with is not a good use of your Tuesday evening."
+        },
+        {
+          "t": "p",
+          "text": "And eat something before you train. Repeatedly lifting fasted, on top of everything else a perimenopausal body is managing, tends to produce worse sessions and worse recovery — and if you are managing blood sugar, it removes your margin for error."
+        },
+        {
+          "t": "h",
+          "text": "Recovery is part of the programme, not a reward for it"
+        },
+        {
+          "t": "p",
+          "text": "At twenty-five you can train badly and recover anyway. At forty-five, recovery is the limiting factor — which is another argument for two hard sessions rather than five mediocre ones. Leave at least 48 hours between sessions that work the same muscle groups, and treat sleep as part of the training, not as what happens when it's finished. [Poor sleep worsens insulin resistance](/blog/sleep-insulin-resistance-women/) and blunts recovery at the same time, which is a bad combination to be training through."
+        },
+        {
+          "t": "p",
+          "text": "Soreness is not the scoreboard. Expect a genuinely uncomfortable first fortnight — that settles, quickly, and its absence later does not mean the session was wasted. But if you are still wrecked four days after a workout, you did too much too soon. Come back lighter rather than stopping altogether; the women who quit almost never quit from injury, they quit from a fortnight that felt punishing."
+        },
+        {
+          "t": "h",
+          "text": "A realistic timeline"
+        },
+        {
+          "t": "p",
+          "text": "The main reason women stop is not difficulty. It is expecting the wrong thing at the wrong time — looking for a body-composition change at week five, when week five has nothing to show yet. Here is roughly what is happening, and when."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Timeframe",
+            "What is actually happening",
+            "What you will notice"
+          ],
+          "rows": [
+            [
+              "Weeks 1–3",
+              "Your nervous system is learning to recruit the muscle you already have",
+              "The weights go up surprisingly fast; some soreness; nothing visible in the mirror"
+            ],
+            [
+              "Weeks 4–6",
+              "Real strength gains — still mostly neural, with muscle beginning to follow",
+              "Stairs, shopping bags and getting up off the floor feel noticeably easier"
+            ],
+            [
+              "3–4 months",
+              "Meaningful muscle accrual, if protein and progression are both in place",
+              "Clothes fit differently; visible change through the shoulders, back and legs"
+            ],
+            [
+              "6–12 months",
+              "Bone remodelling cycles completing at the loaded sites",
+              "Clearly different body composition; bone density change may start to be measurable"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Bone is slow for a structural reason: a single remodelling cycle — old bone removed, new bone laid down and mineralised — takes something like four months at one site, and your skeleton does this a site at a time. That is why LIFTMOR ran for eight months, and why bone density scans are typically repeated years rather than months apart. If you want a metric that moves faster, use the weight on the bar."
+        },
+        {
+          "t": "p",
+          "text": "It is also worth knowing that function improves before mass does. A 2026 systematic review and meta-analysis of resistance training in older women found consistent improvements in grip strength, walking speed and sit-to-stand performance — while the measured muscle mass index moved much less. Feeling stronger long before you look different isn't a failure of the programme. It is the normal order of events."
+        },
+        {
+          "t": "h",
+          "text": "If you have diabetes or insulin resistance"
+        },
+        {
+          "t": "p",
+          "text": "Muscle is the largest place your body puts glucose, so building more of it is one of the more durable things you can do for insulin sensitivity — a point I've made before about [managing blood sugar through perimenopause](/blog/perimenopause-diabetes-blood-sugar/). One practical warning, from my own experience: heavy lifting often pushes glucose *up* during and just after a session, because it is an adrenaline-driven effort, and then improves things for many hours afterwards. That is the opposite shape to a walk, and it catches people out. Don't read the immediate rise as a sign that lifting is bad for your blood sugar — watch the overnight and next-morning numbers instead. I've written about [why lifting sends glucose up, and why that isn't a failure](/blog/does-weight-training-raise-blood-sugar/) in full separately."
+        },
+        {
+          "t": "p",
+          "text": "If you have proliferative retinopathy, significant neuropathy, uncontrolled hypertension or a cardiovascular history, get specific advice before you start. Maximal straining has particular cautions with eye disease, and there are usually sensible adaptations rather than a flat no — but that conversation belongs with your team, not with an article."
+        },
+        {
+          "t": "h",
+          "text": "Where to start this week"
+        },
+        {
+          "t": "p",
+          "text": "Pick two days and put them in the diary as appointments. Do one session of each pattern — sit-to-stand, hip hinge, an elevated press-up, a row — for three sets of eight, using whatever weight lets you finish the last two repetitions with effort and good form. Write down what you did. Next week, do the same thing slightly heavier. That is genuinely the whole method; everything else in this article is context for why it works."
+        },
+        {
+          "t": "p",
+          "text": "And give it eight weeks before you judge it — not because you'll look different, but because by then it will be a thing you do rather than a thing you're trying."
+        },
+        {
+          "t": "links",
+          "title": "Where to go next",
+          "items": [
+            {
+              "name": "NHS — Physical activity guidelines for adults",
+              "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+              "desc": "The plain-English version of the official UK guidance, including what counts as muscle-strengthening activity."
+            },
+            {
+              "name": "Royal Osteoporosis Society — Exercise for bones",
+              "url": "https://theros.org.uk/information-and-support/bone-health/exercise-for-bones/",
+              "desc": "The best UK source on how much loading bone actually needs, with specific guidance if you already have osteoporosis."
+            },
+            {
+              "name": "LIFTMOR trial — Journal of Bone and Mineral Research",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284",
+              "desc": "The full paper behind the twice-weekly heavy-lifting protocol. Worth reading the methods section if you want to see exactly what the women did."
+            },
+            {
+              "name": "British Dietetic Association — Addressing sarcopenia",
+              "url": "https://www.bda.uk.com/resource/addressing-sarcopenia.html",
+              "desc": "The UK dietitians' body on protein and resistance training for age-related muscle loss."
+            },
+            {
+              "name": "Dr Stacy Sims",
+              "url": "https://www.drstacysims.com/",
+              "desc": "An exercise physiologist working specifically on female physiology — the most useful single source on how training recommendations should differ for women in midlife."
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Twice-weekly heavy lifting improved bone density in postmenopausal women with low bone mass — gentle exercise did not.",
+              "detail": "The LIFTMOR randomised controlled trial assigned 101 postmenopausal women with low bone mass to eight months of twice-weekly, 30-minute supervised high-intensity resistance and impact training (5 sets of 5 repetitions at over 85% of one-rep maximum: deadlift, squat, overhead press, plus jumping chin-ups) or to a low-intensity home exercise programme. The training group improved bone mineral density at the lumbar spine and femoral neck and improved on functional measures including back and leg strength; the comparison group did not. Adverse events were minimal.",
+              "cite": "Journal of Bone and Mineral Research · Randomised controlled trial, 2018",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284"
+            },
+            {
+              "claim": "Ageing muscle builds less from the same amount of protein — anabolic resistance.",
+              "detail": "A review in Current Opinion in Clinical Nutrition and Metabolic Care set out the blunted muscle protein synthesis response that older adults show after eating protein. It is the physiological reason that eating and training as you did in your thirties stops producing the same result, and the reason protein targets rise rather than fall with age.",
+              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Review, 2018",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
+            },
+            {
+              "claim": "In older women, resistance training improves strength and physical function well before it changes measured muscle mass.",
+              "detail": "A systematic review and meta-analysis of twelve randomised controlled trials in 518 older women with sarcopenia found significant improvements in handgrip strength, knee extension strength, gait speed, timed up-and-go and 30-second chair stand — but no significant change in skeletal muscle mass index. It is a useful corrective to expecting visible change first: capability improves earlier than composition.",
+              "cite": "Frontiers in Public Health · Systematic review and meta-analysis, 2026",
+              "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
+            },
+            {
+              "claim": "How you load matters, not just that you turn up.",
+              "detail": "A systematic review with meta-regressions examined which resistance training variables — intensity, volume, frequency, progression — drive muscle mass outcomes in sarcopenia. Increasing muscle mass proves harder than increasing strength, and the way the programme is loaded and progressed is a large part of what separates programmes that work from programmes that don't.",
+              "cite": "PMC · Systematic review with meta-regressions",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
+            },
+            {
+              "claim": "UK guidance recommends muscle-strengthening activity on at least two days a week.",
+              "detail": "The UK Chief Medical Officers' physical activity guidelines advise adults to do activities that develop or maintain strength in the major muscle groups on at least two days a week, alongside 150 minutes of moderate-intensity activity — with the explicit note that any strengthening activity is better than none.",
+              "cite": "UK Chief Medical Officers · Physical activity guidelines",
+              "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
+            }
+          ]
+        },
+        {
+          "t": "bio",
+          "name": "Lena Filatova",
+          "img": "/images/lena-filatova-author.jpg",
+          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
+          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is it too late to start lifting at 50?",
+          "a": "No. The LIFTMOR trial that produced bone density gains was run in postmenopausal women whose average age was in the mid-sixties, all with low bone mass already. Muscle and bone respond to loading at every age — the response is slower than it would have been at twenty-five, but it is still there, and the benefit is arguably larger because the alternative is continued decline."
+        },
+        {
+          "q": "How heavy should I actually lift if I've never lifted before?",
+          "a": "Start much lighter than your eventual working weight and spend the first month learning the movements — three sets of eight to ten, with the last two repetitions requiring real effort but no change in technique. Then add weight in small increments (1–2.5 kg upper body, 2.5–5 kg lower body) whenever you complete all your sets cleanly. Within a few months that steady progression will have taken you somewhere you would not have believed in week one."
+        },
+        {
+          "q": "Will strength training make me bulky?",
+          "a": "No. Building visibly large muscle requires years of very specific training, usually alongside a calorie surplus, and is considerably harder for women in midlife because oestrogen is falling rather than helping. What twice-weekly lifting realistically does is preserve and slowly rebuild the muscle you have — which generally reads as leaner and more defined, not bigger."
+        },
+        {
+          "q": "Do I need a gym, or can I do this at home?",
+          "a": "You can start at home with bodyweight and a couple of dumbbells, and for the first two or three months that is genuinely enough. The limitation arrives later: progression depends on being able to keep adding load, and at some point a set of light dumbbells stops being challenging. A gym — or a progressively heavier set of adjustable dumbbells and a barbell — is what lets the programme keep working."
+        },
+        {
+          "q": "How long before I see a change in my body?",
+          "a": "Expect strength to improve within four to six weeks and daily tasks to feel easier around the same time. Visible change in body composition typically takes three to four months of consistent training with adequate protein. Bone is slower still — a single remodelling cycle takes around four months, and trials measuring bone density change generally run for at least eight."
+        },
+        {
+          "q": "I have osteoporosis. Can I still lift?",
+          "a": "Very often yes, but not without guidance. The evidence for heavy loading in women with low bone mass is encouraging, and the LIFTMOR participants had osteopenia or osteoporosis — but that training was supervised and screened. Speak to your doctor first, and look at the Royal Osteoporosis Society's exercise guidance, which is specific about which movements to approach carefully (notably loaded spinal flexion) rather than telling you to avoid effort altogether."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Фітнес 40+",
+      "title": "Як почати силові тренування в перименопаузі, якщо ви ніколи не піднімали ваги",
+      "excerpt": "Вам сто разів сказали, що треба піднімати ваги. Ось те, чого не кажуть: які саме рухи, як важко, як часто — і що насправді змінюється за шість тижнів, а що за шість місяців.",
+      "meta": "14 серпня 2026 · 9 хв читання",
+      "lead": "Ви, напевно, вже десяток разів читали, що вам варто піднімати ваги. Майже жодна з цих порад не каже, що конкретно робити в понеділок уранці — яка вага, як часто і чи не пізно вже починати. Це та конкретна версія, якої мені самій бракувало.",
+      "seoTitle": "Силові тренування в перименопаузі: з чого почати",
+      "metaDesc": "Що справді захищає м'язи та кістки в перименопаузі — яка вага, як часто і реалістичні строки результатів після 40.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Будь ласка, порадьтеся з лікарем, перш ніж починати нову програму тренувань — особливо якщо у вас діагностований остеопороз, свіжа травма, серцеве захворювання або ускладнення діабету, як-от ретинопатія, за якої рекомендації щодо важких ваг інші."
+        },
+        {
+          "t": "p",
+          "text": "Я прийшла до силових тренувань пізно й неохоче. Більшу частину дорослого життя я робила кардіо — ходьба, велосипед, час від часу невдало обрана пробіжка — почасти тому, що з діабетом 1 типу це здавалося безпечнішим, а почасти тому, що тихо вирішила: ваги — це для інших. А потім мені виповнилося сорок, і та сама рутина перестала давати те саме тіло."
+        },
+        {
+          "t": "p",
+          "text": "Зрушило мене з місця не те, як я виглядаю. А те, що я знову й знову читала: саме м'язи захищають вас у другій половині життя — ваші кістки, ваш цукор у крові, вашу здатність підвестися з підлоги у сімдесят п'ять. І усвідомлення, що м'язи, яких я ніколи не будувала, мені ніхто не подарує."
+        },
+        {
+          "t": "p",
+          "text": "Проблема в тому, що коли ви вже переконані, поради закінчуються. «Піднімайте ваги» — і це все повідомлення. Тож ось що йде далі: що падіння естрогену робить із м'язами й кістками, чому м'які «тонусні» заняття не працюють, які кілька рухів покривають майже все — і скільки часу насправді минає, перш ніж щось відбудеться."
+        },
+        {
+          "t": "h",
+          "text": "Що падіння естрогену робить із м'язами й кістками"
+        },
+        {
+          "t": "p",
+          "text": "Естроген — не лише репродуктивний гормон. Він непомітно бере участь у тому, як ваші м'язи реагують на їжу й тренування, і в тому, як швидко оновлюється ваш скелет. Коли він падає, змінюється і те, і те одночасно — саме тому роки перименопаузи відчуваються як щось більше, ніж просто «трохи постаріла». Це йде поруч з іншими змінами цього періоду — [жир тихо перерозподіляється до середини тіла](/ua/blog/cortisol-belly-perimenopause/), а [низка переконань про вагу не витримує зустрічі з доказами](/ua/blog/perimenopause-weight-myths/) — але саме м'язи й кістки найпряміше реагують на те, що ви робите зі штангою."
+        },
+        {
+          "t": "p",
+          "text": "З боку м'язів це явище називають анаболічною резистентністю. [Огляд у Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) описав його чітко: та сама доза білка дає менший приріст м'язового синтезу, ніж раніше. Вам не здається, що харчуватися й тренуватися так, як у тридцять, більше не працює. Справді не працює. М'язова маса поступово зменшується приблизно з тридцяти, а темп втрати різко зростає під час менопаузального переходу."
+        },
+        {
+          "t": "p",
+          "text": "З боку кісток естроген працює як гальмо для клітин, що руйнують кісткову тканину. Приберіть гальмо — і руйнування починає випереджати відновлення. Найшвидші втрати припадають на рік до останньої менструації і два-три роки після неї — тобто саме на те вікно, коли більшості жінок про їхній скелет не кажуть узагалі нічого."
+        },
+        {
+          "t": "p",
+          "text": "Ключове слово в обох випадках — *прискорюється*. Це не обрив, з якого ви падаєте у п'ятдесят. Це схил, що на кілька років стає крутішим, а потім вирівнюється — і те, що ви робите в ці роки, визначає, з чим ви ввійдете у шістдесят. І це справді обнадійлива частина: час незручний, але на нього можна вплинути."
+        },
+        {
+          "t": "h",
+          "text": "Чому «легкі ваги й багато повторень» недостатньо"
+        },
+        {
+          "t": "p",
+          "text": "Саме тут більшість порад для жінок середнього віку тихо провалюється. Стандартна рекомендація — маленькі гантелі, багато повторень, м'яко й обережно — комфортна, популярна й недостатня, щоб захистити кістку. Кістка реагує на *величину* навантаження, а не на кількість повторень із легкою вагою. Нижче певного порогу скелет читає сигнал як звичайне побутове навантаження і не робить нічого."
+        },
+        {
+          "t": "p",
+          "text": "Найчистіша демонстрація цього — [дослідження LIFTMOR](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), опубліковане в Journal of Bone and Mineral Research 2018 року. Жінки в постменопаузі зі зниженою щільністю кісток — у середньому близько шістдесяти п'яти років — робили лише два наглядові 30-хвилинні тренування на тиждень протягом восьми місяців: п'ять підходів по п'ять повторень станової тяги, присідання й жиму над головою з вагою понад 85% від одноповторного максимуму, плюс стрибковий рух. Вони наростили щільність кістки в поперековому відділі хребта й шийці стегна та покращили всі функціональні показники. Група порівняння, яка робила м'яку домашню програму низької інтенсивності, — ні."
+        },
+        {
+          "t": "p",
+          "text": "Два чесних застереження. Це були наглядові тренування, з правильно поставленою технікою й поступовим нарощуванням — а не «прийшла в зал і навантажила штангу першого тижня». І це було дослідження на жінках, яких попередньо перевірили на придатність. Але напрямок однозначний: стимул має бути справді важким, перш ніж скелет візьме на себе клопіт відреагувати."
+        },
+        {
+          "t": "p",
+          "text": "Мене це радше звільняє, ніж лякає — через те, що «важко» означає на практиці. Не дві години. Не шість днів на тиждень. Приблизно тридцять хвилин двічі на тиждень, невелика кількість рухів, зроблених із реальним зусиллям."
+        },
+        {
+          "t": "h",
+          "text": "Рухи, які покривають майже все"
+        },
+        {
+          "t": "p",
+          "text": "Думайте не про вправи, а про патерни руху. Їх чотири, і разом вони навантажують майже всі суглоби й м'язові групи, які треба захистити. Усе решта — декор."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Патерн",
+            "Що захищає",
+            "З чого починає новачок",
+            "Куди це росте"
+          ],
+          "rows": [
+            [
+              "Присідання",
+              "Квадрицепси, сідниці, стегна й хребет — навантаження йде вертикально крізь скелет",
+              "Встати зі стільця і сісти назад, лише вага тіла",
+              "Гоблет-присід → присід зі штангою"
+            ],
+            [
+              "Нахил (шарнір)",
+              "Сідниці, задня поверхня стегна й уся задня ланка — найсильніший патерн вашого тіла",
+              "Нахил стегнами до стіни, далі румунська тяга з легкими гантелями",
+              "Тяга з трап-грифом або класична станова"
+            ],
+            [
+              "Жим",
+              "Груди, плечі, трицепси; жим над головою навантажує верх хребта й зап'ястя",
+              "Віджимання з руками на лаві",
+              "Жим гантелей або штанги над головою"
+            ],
+            [
+              "Тяга до себе",
+              "Верх спини, найширші, задні дельти — м'язи, що тримають поставу",
+              "Тяга в тренажері сидячи або тяга гантелі однією рукою",
+              "Важчі тяги, прогресії до підтягувань"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Присідання й нахил — найважливіші два, і саме їх жінки пропускають найчастіше. Обидва навантажують стегно й хребет — місця, переломи яких реально коштують людям незалежності. Нахил (сімейство станових тяг) — узагалі найкорисніше, що можна опанувати, бо це ще й те, як ви піднімаєте онука з підлоги, не травмувавши себе."
+        },
+        {
+          "t": "p",
+          "text": "Жим і тяга — це верхня пара, і якщо сил вистачає лише на одне, обирайте тягу. Майже все в сучасному житті — столи, телефони, кермо, сумки перед собою — тягне плечі вперед. Тяги — єдине, що більшість із нас робить, аби повернути їх назад."
+        },
+        {
+          "t": "p",
+          "text": "Це вся програма. Два тренування, у кожному присідання, нахил, жим і тяга. Вам захочеться щось додати, бо інтернет ними переповнений. Не додавайте — принаймні перші три місяці. Коротка програма, яку ви справді робите двічі на тиждень, перемагає складну, яку ви кинете в жовтні."
+        },
+        {
+          "t": "h",
+          "text": "Як часто, з якою вагою і як прогресувати"
+        },
+        {
+          "t": "p",
+          "text": "Двічі на тиждень — це мінімум, і водночас саме тут лежить більшість користі. [Рекомендації головних медичних радників Великої Британії](https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report) радять силове навантаження щонайменше два дні на тиждень саме з цієї причини, і учасниці LIFTMOR отримали свій результат на двох. Третє тренування — бонус, якщо життя дозволяє, а не вимога, і воно нічого не варте поруч із двома, які ви робите стабільно."
+        },
+        {
+          "t": "p",
+          "text": "«Важко» ніхто не визначає, тож ось робоче правило. Беріть вагу, за якої останні два повторення підходу справді важкі, але техніка виглядає так само, як на першому повторенні. Якщо після підходу ви відчуваєте, що могли б зробити ще п'ять, — вага замала. І саме там більшість жінок залишається роками."
+        },
+        {
+          "t": "p",
+          "text": "Перший місяць працюйте в трьох підходах по вісім–десять повторень. Ви вчите рухи, а легші підходи дають потрібну практику. Далі, коли ваги зростуть, переходьте до чотирьох-п'яти підходів по п'ять — менше повторень із більшою вагою, саме там живе стимул для кістки."
+        },
+        {
+          "t": "quote",
+          "text": "Прогресія — не деталь програми. Прогресія і є програма."
+        },
+        {
+          "t": "p",
+          "text": "Механізм простий, і майже всі його ігнорують: коли ви виконали всі підходи у верхній межі діапазону повторень із чистою технікою — наступного разу додайте трохи ваги. Один–2,5 кг на рухах для верху тіла, 2,5–5 кг на рухах для низу. Звучить сміховинно мало. Робіть так рік — і це вже зовсім не мало, бо тіло, у якого щомісяця просять трохи більше, має причину продовжувати адаптуватися."
+        },
+        {
+          "t": "p",
+          "text": "Одне, за що справді варто заплатити: два-три заняття з тренером на старті, суто щоб хтось подивився, як ви робите нахил і присід. Це значно дешевше, ніж візити до фізіотерапевта після пів року тяг із круглою спиною."
+        },
+        {
+          "t": "h",
+          "text": "Що їсти навколо тренувань"
+        },
+        {
+          "t": "p",
+          "text": "Тренування — це сигнал, їжа — матеріал. Надсилати сигнал без матеріалу — це і є те, як жінки тренуються місяцями й майже нічого не бачать. Перше, що треба виправити, — білок: більшості жінок після 40 потрібно значно більше за офіційні 0,8 г/кг, і про [норми, які справді працюють після 40](/ua/blog/protein-for-women-over-40/) та про [те, що дає більше білка для кісток і м'язів після менопаузи](/ua/blog/higher-protein-postmenopausal-bone-muscle/), я писала окремо. Робочий орієнтир: 1,2–1,6 г на кг ваги тіла на добу як базовий рівень і ближче до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся з вагами, розподілено між прийомами їжі, а не звалено у вечерю."
+        },
+        {
+          "t": "p",
+          "text": "Окремо для кісток потрібна сировина. Британські рекомендації дають дорослим близько 700 мг кальцію на добу й радять щоденну добавку вітаміну D 10 мкг усім протягом осені та зими — саме вітамін D дозволяє засвоїти той кальцій. Навантажувати скелет, якому немає з чого будувати, — не найкраще використання вашого вівторкового вечора."
+        },
+        {
+          "t": "p",
+          "text": "І з'їжте щось перед тренуванням. Регулярні силові натщесерце, на додачу до всього, що вже балансує тіло в перименопаузі, зазвичай дають гірші тренування й гірше відновлення — а якщо ви контролюєте цукор, це ще й забирає ваш запас міцності."
+        },
+        {
+          "t": "h",
+          "text": "Відновлення — частина програми, а не нагорода за неї"
+        },
+        {
+          "t": "p",
+          "text": "У двадцять п'ять можна тренуватися погано й усе одно відновитися. У сорок п'ять відновлення стає обмежувальним чинником — і це ще один аргумент за два важких тренування замість п'яти посередніх. Залишайте щонайменше 48 годин між тренуваннями на ті самі групи м'язів і сприймайте сон як частину тренування, а не як те, що відбувається, коли воно скінчилося. [Поганий сон погіршує інсулінорезистентність](/ua/blog/sleep-insulin-resistance-women/) і водночас гальмує відновлення — погане поєднання, щоб крізь нього тренуватися."
+        },
+        {
+          "t": "p",
+          "text": "Крепатура — не показник успіху. Перші два тижні будуть справді неприємними; це швидко минає, і її відсутність згодом не означає, що тренування було марним. Але якщо вас розбирає ще чотири дні по тому — ви взяли забагато й зарано. Поверніться з меншою вагою, а не кидайте зовсім: жінки, які припиняють, майже ніколи не припиняють через травму — вони припиняють через два тижні, що відчувалися як покарання."
+        },
+        {
+          "t": "h",
+          "text": "Реалістичні строки"
+        },
+        {
+          "t": "p",
+          "text": "Головна причина, чому жінки кидають, — не складність. А очікування не того й не тоді: пошук змін у композиції тіла на п'ятому тижні, коли п'ятому тижню просто нічого показати. Ось приблизно що відбувається і коли."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Період",
+            "Що насправді відбувається",
+            "Що ви помітите"
+          ],
+          "rows": [
+            [
+              "Тижні 1–3",
+              "Нервова система вчиться залучати м'язи, які у вас уже є",
+              "Ваги зростають напрочуд швидко; трохи крепатури; у дзеркалі нічого"
+            ],
+            [
+              "Тижні 4–6",
+              "Справжній приріст сили — переважно нервовий, м'язи починають наздоганяти",
+              "Сходи, сумки з покупками й підйом з підлоги відчутно легшають"
+            ],
+            [
+              "3–4 місяці",
+              "Реальний приріст м'язів, якщо є і білок, і прогресія",
+              "Одяг сидить інакше; видима зміна в плечах, спині й ногах"
+            ],
+            [
+              "6–12 місяців",
+              "Завершуються цикли ремоделювання кістки в навантажених місцях",
+              "Явно інша композиція тіла; зміна щільності кістки може стати вимірною"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Кістка повільна зі структурної причини: один цикл ремоделювання — стару кістку прибрано, нову вибудувано й мінералізовано — триває близько чотирьох місяців в одному місці, і скелет робить це послідовно, місце за місцем. Саме тому LIFTMOR тривав вісім місяців, а денситометрію зазвичай повторюють через роки, а не через місяці. Якщо вам потрібен показник, який рухається швидше, — дивіться на вагу на штанзі."
+        },
+        {
+          "t": "p",
+          "text": "Варто знати й те, що функція покращується раніше за масу. Систематичний огляд і метааналіз силових тренувань у літніх жінок 2026 року показав стабільне покращення сили хвату, швидкості ходьби й підйомів зі стільця — тоді як виміряний індекс м'язової маси змінювався значно менше. Відчувати себе сильнішою задовго до того, як почнете інакше виглядати, — це не провал програми. Це нормальний порядок подій."
+        },
+        {
+          "t": "h",
+          "text": "Якщо у вас діабет або інсулінорезистентність"
+        },
+        {
+          "t": "p",
+          "text": "М'язи — найбільше місце, куди тіло складає глюкозу, тож нарощувати їх — одна з найтриваліших за ефектом речей для чутливості до інсуліну; про це я вже писала у тексті про [контроль цукру в перименопаузі](/ua/blog/perimenopause-diabetes-blood-sugar/). Одне практичне попередження з власного досвіду: важкі силові часто піднімають глюкозу *вгору* під час і одразу після тренування, бо це зусилля на адреналіні, — а потім покращують показники на багато годин. Це протилежна форма кривої порівняно з прогулянкою, і вона багатьох збиває з пантелику. Не читайте цей миттєвий підйом як знак, що силові шкодять цукру, — дивіться на нічні й ранкові цифри. Про те, [чому силові піднімають глюкозу і чому це не провал](/ua/blog/does-weight-training-raise-blood-sugar/), я написала окремо."
+        },
+        {
+          "t": "p",
+          "text": "Якщо у вас проліферативна ретинопатія, значуща нейропатія, неконтрольована гіпертензія або серцево-судинний анамнез — отримайте конкретну пораду до старту. Максимальні натужування мають окремі застереження при захворюваннях очей, і зазвичай існують розумні адаптації, а не категоричне «ні» — але ця розмова належить вашій медичній команді, а не статті."
+        },
+        {
+          "t": "h",
+          "text": "З чого почати цього тижня"
+        },
+        {
+          "t": "p",
+          "text": "Оберіть два дні й запишіть їх у щоденник як зустрічі. Зробіть по одному руху з кожного патерну — підйом зі стільця, нахил стегнами, віджимання з опорою на лаву, тяга — три підходи по вісім, із такою вагою, щоб останні два повторення давалися із зусиллям і з доброю технікою. Запишіть, що зробили. Наступного тижня зробіть те саме, трохи важче. Це справді весь метод; усе інше в цій статті — контекст, чому він працює."
+        },
+        {
+          "t": "p",
+          "text": "І дайте собі вісім тижнів, перш ніж робити висновки — не тому, що ви виглядатимете інакше, а тому, що на той момент це стане тим, що ви робите, а не тим, що ви намагаєтеся робити."
+        },
+        {
+          "t": "links",
+          "title": "Куди рухатися далі",
+          "items": [
+            {
+              "name": "NHS — рекомендації щодо фізичної активності для дорослих",
+              "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+              "desc": "Офіційні британські рекомендації простою мовою, зокрема що саме зараховується до силового навантаження."
+            },
+            {
+              "name": "Royal Osteoporosis Society — вправи для кісток",
+              "url": "https://theros.org.uk/information-and-support/bone-health/exercise-for-bones/",
+              "desc": "Найкраще британське джерело про те, скільки навантаження насправді потрібно кістці, з окремими порадами, якщо остеопороз уже є."
+            },
+            {
+              "name": "Дослідження LIFTMOR — Journal of Bone and Mineral Research",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284",
+              "desc": "Повний текст дослідження, на якому базується протокол двох важких тренувань на тиждень. Варто прочитати розділ методів, щоб побачити, що саме робили учасниці."
+            },
+            {
+              "name": "British Dietetic Association — саркопенія",
+              "url": "https://www.bda.uk.com/resource/addressing-sarcopenia.html",
+              "desc": "Британська асоціація дієтологів про роль білка й силових тренувань у віковій втраті м'язів."
+            },
+            {
+              "name": "Dr Stacy Sims",
+              "url": "https://www.drstacysims.com/",
+              "desc": "Фізіологиня фізичних навантажень, яка працює саме з жіночою фізіологією — найкорисніше окреме джерело про те, чим тренувальні рекомендації для жінок середнього віку мають відрізнятися."
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Два важких тренування на тиждень підвищили щільність кісток у жінок у постменопаузі — м'які вправи ні.",
+              "detail": "Рандомізоване контрольоване дослідження LIFTMOR розподілило 101 жінку в постменопаузі зі зниженою щільністю кісток на вісім місяців двох наглядових 30-хвилинних тренувань на тиждень високоінтенсивного силового й ударного навантаження (5 підходів по 5 повторень із вагою понад 85% одноповторного максимуму: станова тяга, присідання, жим над головою плюс стрибкові підтягування) або на домашню програму низької інтенсивності. Група тренувань покращила мінеральну щільність кістки в поперековому відділі хребта й шийці стегна та функціональні показники, зокрема силу спини й ніг; група порівняння — ні. Побічних явищ було мінімально.",
+              "cite": "Journal of Bone and Mineral Research · Рандомізоване контрольоване дослідження, 2018",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284"
+            },
+            {
+              "claim": "З віком м'язи будують менше з тієї самої кількості білка — анаболічна резистентність.",
+              "detail": "Огляд у Current Opinion in Clinical Nutrition and Metabolic Care описав ослаблену відповідь м'язового синтезу білка після їжі в людей старшого віку. Це фізіологічна причина, чому харчуватися й тренуватися як у тридцять перестає давати той самий результат, і чому норми білка з віком зростають, а не падають.",
+              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Огляд, 2018",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
+            },
+            {
+              "claim": "У жінок старшого віку силові тренування покращують силу й функцію задовго до того, як змінюється виміряна м'язова маса.",
+              "detail": "Систематичний огляд і метааналіз дванадцяти рандомізованих контрольованих досліджень за участю 518 жінок старшого віку із саркопенією виявив значуще покращення сили хвату, сили розгинання коліна, швидкості ходьби, тесту «встань і йди» та 30-секундного тесту підйому зі стільця — але без значущої зміни індексу скелетної м'язової маси. Корисний коректив для тих, хто чекає передусім видимих змін: спроможність зростає раніше за композицію.",
+              "cite": "Frontiers in Public Health · Систематичний огляд і метааналіз, 2026",
+              "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
+            },
+            {
+              "claim": "Має значення, як саме ви навантажуєте, а не лише те, що ви прийшли.",
+              "detail": "Систематичний огляд із метарегресіями дослідив, які параметри силових тренувань — інтенсивність, обсяг, частота, прогресія — визначають приріст м'язової маси при саркопенії. Наростити масу виявляється складніше, ніж силу, і те, як програма навантажена й прогресує, значною мірою відрізняє програми, що працюють, від тих, що ні.",
+              "cite": "PMC · Систематичний огляд із метарегресіями",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
+            },
+            {
+              "claim": "Британські рекомендації радять силове навантаження щонайменше два дні на тиждень.",
+              "detail": "Рекомендації головних медичних радників Великої Британії щодо фізичної активності радять дорослим виконувати вправи, що розвивають або підтримують силу основних м'язових груп, щонайменше два дні на тиждень — на додачу до 150 хвилин активності помірної інтенсивності, з окремим зауваженням, що будь-яке силове навантаження краще за жодне.",
+              "cite": "Головні медичні радники Великої Британії · Рекомендації щодо фізичної активності",
+              "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
+            }
+          ]
+        },
+        {
+          "t": "bio",
+          "name": "Олена Філатова",
+          "img": "/images/lena-filatova-author.jpg",
+          "alt": "Олена Філатова, авторка про жіноче здоров'я, живе з діабетом 1 типу",
+          "text": "Олена Філатова живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу, харчування та контроль діабету на lenafilatova.co.uk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи не пізно починати силові у 50?",
+          "a": "Ні. Дослідження LIFTMOR, яке дало приріст щільності кісток, проводили на жінках у постменопаузі середнім віком близько шістдесяти п'яти років, і всі вони вже мали знижену щільність кісток. М'язи й кістки реагують на навантаження в будь-якому віці — реакція повільніша, ніж була б у двадцять п'ять, але вона є, і користь навіть більша, бо альтернатива — подальший спад."
+        },
+        {
+          "q": "З якою вагою починати, якщо я ніколи не тренувалася з вагами?",
+          "a": "Починайте значно легше за свою майбутню робочу вагу й присвятіть перший місяць вивченню рухів — три підходи по вісім–десять повторень, де останні два потребують реального зусилля, але техніка не змінюється. Далі додавайте вагу маленькими кроками (1–2,5 кг для верху тіла, 2,5–5 кг для низу) щоразу, коли виконали всі підходи чисто. За кілька місяців ця рівна прогресія приведе вас туди, у що ви б не повірили на першому тижні."
+        },
+        {
+          "q": "Чи стану я «масивною» від силових?",
+          "a": "Ні. Щоб набрати помітно великі м'язи, потрібні роки дуже специфічних тренувань, зазвичай із надлишком калорій, і жінкам у середньому віці це значно важче, бо естроген падає, а не допомагає. Що реально дають два тренування на тиждень — це збереження й повільне відновлення м'язів, які у вас є, а це зазвичай виглядає як більш підтягнуте тіло, а не більше."
+        },
+        {
+          "q": "Потрібен зал чи можна вдома?",
+          "a": "Почати можна вдома з вагою тіла й парою гантелей, і перші два-три місяці цього справді достатньо. Обмеження приходить пізніше: прогресія залежить від можливості додавати вагу, а легкі гантелі рано чи пізно перестають бути викликом. Зал — або набірні гантелі й штанга — це те, що дозволяє програмі працювати далі."
+        },
+        {
+          "q": "Скільки часу мине, поки я побачу зміни в тілі?",
+          "a": "Сила зазвичай помітно зростає за чотири–шість тижнів, і приблизно тоді ж легшають побутові справи. Видима зміна композиції тіла зазвичай потребує трьох-чотирьох місяців стабільних тренувань із достатнім білком. Кістка ще повільніша — один цикл ремоделювання триває близько чотирьох місяців, а дослідження змін щільності кісток зазвичай тривають щонайменше вісім."
+        },
+        {
+          "q": "У мене остеопороз. Чи можна мені піднімати ваги?",
+          "a": "Дуже часто так, але не без супроводу. Дані щодо важкого навантаження в жінок зі зниженою щільністю кісток обнадійливі, і учасниці LIFTMOR мали остеопенію або остеопороз — але ті тренування були наглядовими й після відбору. Спершу порадьтеся з лікарем і подивіться рекомендації Royal Osteoporosis Society: вони конкретно вказують, до яких рухів ставитися обережно (зокрема згинання хребта під навантаженням), а не радять уникати зусиль узагалі."
+        }
+      ]
+    }
+  },
+  {
     "slug": "walking-after-meals-blood-sugar",
     "date": "2026-08-13",
     "featured": true,
@@ -4113,718 +5027,6 @@ export const POSTS = [
         {
           "q": "Чи потрібен протеїновий коктейль одразу після тренування?",
           "a": "Ні — але білок потрібен. Орієнтуйтеся на 25–40 г у прийомі їжі після заняття: з їжі, якщо це реально, і з коктейлю, якщо ні. Дані свідчать, що загальна денна кількість білка, рівномірно розподілена між прийомами їжі, важить більше, ніж вузьке вікно після тренування."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "strength-training-perimenopause-beginners",
-    "date": "2026-08-14",
-    "featured": true,
-    "image": "/images/strength-training-perimenopause-beginners.jpg",
-    "cats": [
-      "fitness",
-      "perimenopause"
-    ],
-    "en": {
-      "cat": "Fitness 40+",
-      "title": "Starting strength training in perimenopause when you've never lifted before",
-      "excerpt": "You've been told you should be lifting. Here's the part nobody gives you: which movements, how heavy, how often — and what actually changes at six weeks versus six months.",
-      "meta": "14 August 2026 · 9 min read",
-      "lead": "You have probably read a dozen times that you should be lifting weights. Almost none of that advice tells you what to actually do on Monday morning — how heavy, how often, or whether it is too late to start. This is the specific version I wish someone had handed me.",
-      "seoTitle": "Strength Training for Perimenopause: How to Start",
-      "metaDesc": "What actually protects muscle and bone in perimenopause — how heavy, how often, and a realistic timeline for results after 40.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Please speak to your doctor before starting a new training programme — particularly if you have diagnosed osteoporosis, a recent injury, a heart condition, or diabetes complications such as retinopathy, which changes the guidance on heavy lifting."
-        },
-        {
-          "t": "p",
-          "text": "I came to strength training late, and reluctantly. For most of my adult life I did cardio — walking, cycling, the occasional badly-judged run — partly because it felt safer with type 1 diabetes, and partly because I had quietly decided that weights were for other people. Then I reached my forties and the same routine stopped producing the same body."
-        },
-        {
-          "t": "p",
-          "text": "What eventually moved me wasn't how I looked. It was reading, over and over, that muscle is the thing that protects you in the second half of life — your bones, your blood sugar, your ability to get up off the floor at seventy-five — and realising that nobody was going to hand me the muscle I had never built."
-        },
-        {
-          "t": "p",
-          "text": "The problem is that once you're convinced, the advice runs out. \"Lift weights\" is the entire message. So here is what comes after it: what falling oestrogen does to muscle and bone, why gentle toning classes don't do the job, the handful of movements that cover almost everything, and how long it honestly takes before anything happens."
-        },
-        {
-          "t": "h",
-          "text": "What falling oestrogen does to muscle and bone"
-        },
-        {
-          "t": "p",
-          "text": "Oestrogen is not just a reproductive hormone. It is quietly involved in how your muscles respond to food and training, and in how fast your skeleton turns itself over. When it falls, both of those change at once — which is why the perimenopausal years feel like more than the sum of getting a bit older. It sits alongside the other changes of this stage — [fat quietly redistributing towards the middle](/blog/cortisol-belly-perimenopause/), and [a set of weight beliefs that don't survive contact with the evidence](/blog/perimenopause-weight-myths/) — but muscle and bone are the two that respond most directly to what you do with a barbell."
-        },
-        {
-          "t": "p",
-          "text": "On the muscle side, the phenomenon is called anabolic resistance. [A review in Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described it clearly: the same dose of protein produces a smaller muscle-building response than it used to. You are not imagining that eating and training the way you did at thirty no longer works. It genuinely doesn't. Muscle mass declines gradually from around thirty, and the rate of loss steepens across the menopause transition."
-        },
-        {
-          "t": "p",
-          "text": "On the bone side, oestrogen acts as a brake on the cells that break bone down. Take the brake off and resorption outpaces formation. The fastest losses cluster in the year before the final period and the two or three years after it — which is precisely the window in which most women are told nothing at all about their skeleton."
-        },
-        {
-          "t": "p",
-          "text": "The word that matters in both cases is *accelerates*. This is not a cliff you fall off at fifty. It is a slope that gets steeper for a few years and then settles — and what you do during those years determines how much you're carrying into your sixties. Which is the genuinely hopeful part of this article: the timing is inconvenient, but it is also actionable."
-        },
-        {
-          "t": "h",
-          "text": "Why \"light weights, high reps\" isn't enough"
-        },
-        {
-          "t": "p",
-          "text": "This is where most midlife fitness advice quietly fails women. The default recommendation — small dumbbells, lots of repetitions, keep it gentle — is comfortable, popular, and not sufficient to protect bone. Bone responds to the *magnitude* of the strain it experiences, not to how many times you repeat a light one. Below a certain threshold, your skeleton reads the signal as ordinary daily loading and does nothing in response."
-        },
-        {
-          "t": "p",
-          "text": "The cleanest demonstration of this is the [LIFTMOR trial](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), published in the Journal of Bone and Mineral Research in 2018. Postmenopausal women with low bone mass — average age in their mid-sixties — did just two supervised 30-minute sessions a week for eight months: five sets of five repetitions of deadlift, squat and overhead press, at over 85% of their one-rep maximum, plus a jumping movement. They gained bone density at the lumbar spine and femoral neck, and improved on every functional test. The comparison group, doing a gentle low-intensity home programme, did not."
-        },
-        {
-          "t": "p",
-          "text": "Two honest caveats. That was supervised training, taught properly and built up gradually — not walking into a gym and loading a barbell in week one. And it was a trial in women who were screened as suitable for it. But the direction of travel is not ambiguous: the stimulus has to be genuinely hard before your skeleton bothers to respond."
-        },
-        {
-          "t": "p",
-          "text": "I find that liberating rather than intimidating, because of what \"hard\" turns out to mean in practice. Not two hours. Not six days a week. Roughly thirty minutes, twice a week, of a small number of movements done with real effort."
-        },
-        {
-          "t": "h",
-          "text": "The movements that cover almost everything"
-        },
-        {
-          "t": "p",
-          "text": "Don't think in exercises — think in patterns. There are four, and between them they load nearly every joint and muscle group you need to protect. Everything else is decoration."
-        },
-        {
-          "t": "table",
-          "head": [
-            "Pattern",
-            "What it protects",
-            "Where a beginner starts",
-            "Where it goes"
-          ],
-          "rows": [
-            [
-              "Squat",
-              "Quads, glutes, hips, and the spine — loaded straight down through the skeleton",
-              "Sit-to-stand from a chair, bodyweight only",
-              "Goblet squat → barbell back squat"
-            ],
-            [
-              "Hinge",
-              "Glutes, hamstrings and the whole back chain — the strongest pattern your body owns",
-              "Hip hinge facing a wall, then Romanian deadlift with light dumbbells",
-              "Trap-bar or conventional deadlift"
-            ],
-            [
-              "Push",
-              "Chest, shoulders, triceps; pressing overhead loads the upper spine and wrists",
-              "Press-up with hands raised on a bench",
-              "Dumbbell or barbell overhead press"
-            ],
-            [
-              "Pull",
-              "Upper back, lats and rear shoulders — the muscles that hold your posture up",
-              "Seated row machine, or single-arm dumbbell row",
-              "Heavier rows, chin-up progressions"
-            ]
-          ]
-        },
-        {
-          "t": "p",
-          "text": "The squat and the hinge are the two that matter most, and they are the two women most often skip. Both load the hip and the spine — the sites where fractures actually cost people their independence. A hinge in particular (the deadlift family) is the single most useful thing you can learn, because it is also how you pick your grandchild up off the floor without hurting yourself."
-        },
-        {
-          "t": "p",
-          "text": "The push and the pull are the upper-body pair, and if you only have appetite for one, make it the pull. Almost everything in modern life — desks, phones, steering wheels, carrying shopping in front of you — drags your shoulders forward. Rows are the only thing most of us do that pulls them back."
-        },
-        {
-          "t": "p",
-          "text": "That is the whole programme. Two sessions, both covering a squat, a hinge, a push and a pull. You will be tempted to add things, because the internet is full of them. Don't — not for the first three months. A short programme you actually complete twice a week beats an elaborate one you abandon in October."
-        },
-        {
-          "t": "h",
-          "text": "How often, how heavy, and how to progress"
-        },
-        {
-          "t": "p",
-          "text": "Twice a week is the floor, and it is also where most of the return lives. The [UK Chief Medical Officers' physical activity guidelines](https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report) recommend muscle-strengthening activity on at least two days a week for exactly this reason, and the LIFTMOR women got their results on two. A third session is a bonus if life allows it, not a requirement — and it is worth nothing next to the two you do consistently."
-        },
-        {
-          "t": "p",
-          "text": "\"Heavy\" is the part nobody defines, so here is a usable rule. Choose a weight where the last two repetitions of a set are genuinely difficult while your technique still looks the same as the first rep. If you finish a set feeling you could have done another five, it is too light — and that is where the majority of women stay for years."
-        },
-        {
-          "t": "p",
-          "text": "For the first month, work in three sets of eight to ten repetitions. You are learning the movements, and lighter sets give you the practice to learn them. After that, as the weights climb, shift towards four or five sets of five — fewer repetitions with more load is where the bone stimulus lives."
-        },
-        {
-          "t": "quote",
-          "text": "Progression is not a detail of the programme. Progression is the programme."
-        },
-        {
-          "t": "p",
-          "text": "The mechanism is simple and almost everyone ignores it: when you complete all your sets at the top of the rep range with clean form, add a small amount of weight next time. One to 2.5 kg on upper-body movements, 2.5 to 5 kg on lower-body ones. It sounds trivially small. Do it consistently for a year and it is not remotely trivial — and a body that is being asked for slightly more each month is a body that has a reason to keep adapting."
-        },
-        {
-          "t": "p",
-          "text": "One thing genuinely worth paying for: two or three sessions with a coach at the start, purely to have someone watch you hinge and squat. It is far cheaper than the physio appointments that follow six months of pulling with a rounded back."
-        },
-        {
-          "t": "h",
-          "text": "What to eat around it"
-        },
-        {
-          "t": "p",
-          "text": "Training is the signal; food is the material. Sending the signal without supplying the material is how women end up training hard for months and seeing very little. Protein is the first thing to fix — most women over 40 need considerably more than the official 0.8 g/kg, and I've written about [the targets that actually apply after 40](/blog/protein-for-women-over-40/) and about [what higher protein does for bone and muscle after menopause](/blog/higher-protein-postmenopausal-bone-muscle/) separately. As a working figure: 1.2–1.6 g per kg of body weight a day as a baseline, towards 1.6–2.0 g/kg if you are lifting regularly, spread across meals rather than piled into dinner."
-        },
-        {
-          "t": "p",
-          "text": "For bone specifically, you also need the raw materials. UK guidance puts adult calcium needs at around 700 mg a day, and recommends a daily 10 microgram vitamin D supplement through the autumn and winter for everyone — vitamin D is what lets you absorb the calcium in the first place. Loading a skeleton that has nothing to build with is not a good use of your Tuesday evening."
-        },
-        {
-          "t": "p",
-          "text": "And eat something before you train. Repeatedly lifting fasted, on top of everything else a perimenopausal body is managing, tends to produce worse sessions and worse recovery — and if you are managing blood sugar, it removes your margin for error."
-        },
-        {
-          "t": "h",
-          "text": "Recovery is part of the programme, not a reward for it"
-        },
-        {
-          "t": "p",
-          "text": "At twenty-five you can train badly and recover anyway. At forty-five, recovery is the limiting factor — which is another argument for two hard sessions rather than five mediocre ones. Leave at least 48 hours between sessions that work the same muscle groups, and treat sleep as part of the training, not as what happens when it's finished. [Poor sleep worsens insulin resistance](/blog/sleep-insulin-resistance-women/) and blunts recovery at the same time, which is a bad combination to be training through."
-        },
-        {
-          "t": "p",
-          "text": "Soreness is not the scoreboard. Expect a genuinely uncomfortable first fortnight — that settles, quickly, and its absence later does not mean the session was wasted. But if you are still wrecked four days after a workout, you did too much too soon. Come back lighter rather than stopping altogether; the women who quit almost never quit from injury, they quit from a fortnight that felt punishing."
-        },
-        {
-          "t": "h",
-          "text": "A realistic timeline"
-        },
-        {
-          "t": "p",
-          "text": "The main reason women stop is not difficulty. It is expecting the wrong thing at the wrong time — looking for a body-composition change at week five, when week five has nothing to show yet. Here is roughly what is happening, and when."
-        },
-        {
-          "t": "table",
-          "head": [
-            "Timeframe",
-            "What is actually happening",
-            "What you will notice"
-          ],
-          "rows": [
-            [
-              "Weeks 1–3",
-              "Your nervous system is learning to recruit the muscle you already have",
-              "The weights go up surprisingly fast; some soreness; nothing visible in the mirror"
-            ],
-            [
-              "Weeks 4–6",
-              "Real strength gains — still mostly neural, with muscle beginning to follow",
-              "Stairs, shopping bags and getting up off the floor feel noticeably easier"
-            ],
-            [
-              "3–4 months",
-              "Meaningful muscle accrual, if protein and progression are both in place",
-              "Clothes fit differently; visible change through the shoulders, back and legs"
-            ],
-            [
-              "6–12 months",
-              "Bone remodelling cycles completing at the loaded sites",
-              "Clearly different body composition; bone density change may start to be measurable"
-            ]
-          ]
-        },
-        {
-          "t": "p",
-          "text": "Bone is slow for a structural reason: a single remodelling cycle — old bone removed, new bone laid down and mineralised — takes something like four months at one site, and your skeleton does this a site at a time. That is why LIFTMOR ran for eight months, and why bone density scans are typically repeated years rather than months apart. If you want a metric that moves faster, use the weight on the bar."
-        },
-        {
-          "t": "p",
-          "text": "It is also worth knowing that function improves before mass does. A 2026 systematic review and meta-analysis of resistance training in older women found consistent improvements in grip strength, walking speed and sit-to-stand performance — while the measured muscle mass index moved much less. Feeling stronger long before you look different isn't a failure of the programme. It is the normal order of events."
-        },
-        {
-          "t": "h",
-          "text": "If you have diabetes or insulin resistance"
-        },
-        {
-          "t": "p",
-          "text": "Muscle is the largest place your body puts glucose, so building more of it is one of the more durable things you can do for insulin sensitivity — a point I've made before about [managing blood sugar through perimenopause](/blog/perimenopause-diabetes-blood-sugar/). One practical warning, from my own experience: heavy lifting often pushes glucose *up* during and just after a session, because it is an adrenaline-driven effort, and then improves things for many hours afterwards. That is the opposite shape to a walk, and it catches people out. Don't read the immediate rise as a sign that lifting is bad for your blood sugar — watch the overnight and next-morning numbers instead. I've written about [why lifting sends glucose up, and why that isn't a failure](/blog/does-weight-training-raise-blood-sugar/) in full separately."
-        },
-        {
-          "t": "p",
-          "text": "If you have proliferative retinopathy, significant neuropathy, uncontrolled hypertension or a cardiovascular history, get specific advice before you start. Maximal straining has particular cautions with eye disease, and there are usually sensible adaptations rather than a flat no — but that conversation belongs with your team, not with an article."
-        },
-        {
-          "t": "h",
-          "text": "Where to start this week"
-        },
-        {
-          "t": "p",
-          "text": "Pick two days and put them in the diary as appointments. Do one session of each pattern — sit-to-stand, hip hinge, an elevated press-up, a row — for three sets of eight, using whatever weight lets you finish the last two repetitions with effort and good form. Write down what you did. Next week, do the same thing slightly heavier. That is genuinely the whole method; everything else in this article is context for why it works."
-        },
-        {
-          "t": "p",
-          "text": "And give it eight weeks before you judge it — not because you'll look different, but because by then it will be a thing you do rather than a thing you're trying."
-        },
-        {
-          "t": "links",
-          "title": "Where to go next",
-          "items": [
-            {
-              "name": "NHS — Physical activity guidelines for adults",
-              "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
-              "desc": "The plain-English version of the official UK guidance, including what counts as muscle-strengthening activity."
-            },
-            {
-              "name": "Royal Osteoporosis Society — Exercise for bones",
-              "url": "https://theros.org.uk/information-and-support/bone-health/exercise-for-bones/",
-              "desc": "The best UK source on how much loading bone actually needs, with specific guidance if you already have osteoporosis."
-            },
-            {
-              "name": "LIFTMOR trial — Journal of Bone and Mineral Research",
-              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284",
-              "desc": "The full paper behind the twice-weekly heavy-lifting protocol. Worth reading the methods section if you want to see exactly what the women did."
-            },
-            {
-              "name": "British Dietetic Association — Addressing sarcopenia",
-              "url": "https://www.bda.uk.com/resource/addressing-sarcopenia.html",
-              "desc": "The UK dietitians' body on protein and resistance training for age-related muscle loss."
-            },
-            {
-              "name": "Dr Stacy Sims",
-              "url": "https://www.drstacysims.com/",
-              "desc": "An exercise physiologist working specifically on female physiology — the most useful single source on how training recommendations should differ for women in midlife."
-            }
-          ]
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Twice-weekly heavy lifting improved bone density in postmenopausal women with low bone mass — gentle exercise did not.",
-              "detail": "The LIFTMOR randomised controlled trial assigned 101 postmenopausal women with low bone mass to eight months of twice-weekly, 30-minute supervised high-intensity resistance and impact training (5 sets of 5 repetitions at over 85% of one-rep maximum: deadlift, squat, overhead press, plus jumping chin-ups) or to a low-intensity home exercise programme. The training group improved bone mineral density at the lumbar spine and femoral neck and improved on functional measures including back and leg strength; the comparison group did not. Adverse events were minimal.",
-              "cite": "Journal of Bone and Mineral Research · Randomised controlled trial, 2018",
-              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284"
-            },
-            {
-              "claim": "Ageing muscle builds less from the same amount of protein — anabolic resistance.",
-              "detail": "A review in Current Opinion in Clinical Nutrition and Metabolic Care set out the blunted muscle protein synthesis response that older adults show after eating protein. It is the physiological reason that eating and training as you did in your thirties stops producing the same result, and the reason protein targets rise rather than fall with age.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Review, 2018",
-              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
-            },
-            {
-              "claim": "In older women, resistance training improves strength and physical function well before it changes measured muscle mass.",
-              "detail": "A systematic review and meta-analysis of twelve randomised controlled trials in 518 older women with sarcopenia found significant improvements in handgrip strength, knee extension strength, gait speed, timed up-and-go and 30-second chair stand — but no significant change in skeletal muscle mass index. It is a useful corrective to expecting visible change first: capability improves earlier than composition.",
-              "cite": "Frontiers in Public Health · Systematic review and meta-analysis, 2026",
-              "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
-            },
-            {
-              "claim": "How you load matters, not just that you turn up.",
-              "detail": "A systematic review with meta-regressions examined which resistance training variables — intensity, volume, frequency, progression — drive muscle mass outcomes in sarcopenia. Increasing muscle mass proves harder than increasing strength, and the way the programme is loaded and progressed is a large part of what separates programmes that work from programmes that don't.",
-              "cite": "PMC · Systematic review with meta-regressions",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
-            },
-            {
-              "claim": "UK guidance recommends muscle-strengthening activity on at least two days a week.",
-              "detail": "The UK Chief Medical Officers' physical activity guidelines advise adults to do activities that develop or maintain strength in the major muscle groups on at least two days a week, alongside 150 minutes of moderate-intensity activity — with the explicit note that any strengthening activity is better than none.",
-              "cite": "UK Chief Medical Officers · Physical activity guidelines",
-              "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
-            }
-          ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
-        }
-      ],
-      "faq": [
-        {
-          "q": "Is it too late to start lifting at 50?",
-          "a": "No. The LIFTMOR trial that produced bone density gains was run in postmenopausal women whose average age was in the mid-sixties, all with low bone mass already. Muscle and bone respond to loading at every age — the response is slower than it would have been at twenty-five, but it is still there, and the benefit is arguably larger because the alternative is continued decline."
-        },
-        {
-          "q": "How heavy should I actually lift if I've never lifted before?",
-          "a": "Start much lighter than your eventual working weight and spend the first month learning the movements — three sets of eight to ten, with the last two repetitions requiring real effort but no change in technique. Then add weight in small increments (1–2.5 kg upper body, 2.5–5 kg lower body) whenever you complete all your sets cleanly. Within a few months that steady progression will have taken you somewhere you would not have believed in week one."
-        },
-        {
-          "q": "Will strength training make me bulky?",
-          "a": "No. Building visibly large muscle requires years of very specific training, usually alongside a calorie surplus, and is considerably harder for women in midlife because oestrogen is falling rather than helping. What twice-weekly lifting realistically does is preserve and slowly rebuild the muscle you have — which generally reads as leaner and more defined, not bigger."
-        },
-        {
-          "q": "Do I need a gym, or can I do this at home?",
-          "a": "You can start at home with bodyweight and a couple of dumbbells, and for the first two or three months that is genuinely enough. The limitation arrives later: progression depends on being able to keep adding load, and at some point a set of light dumbbells stops being challenging. A gym — or a progressively heavier set of adjustable dumbbells and a barbell — is what lets the programme keep working."
-        },
-        {
-          "q": "How long before I see a change in my body?",
-          "a": "Expect strength to improve within four to six weeks and daily tasks to feel easier around the same time. Visible change in body composition typically takes three to four months of consistent training with adequate protein. Bone is slower still — a single remodelling cycle takes around four months, and trials measuring bone density change generally run for at least eight."
-        },
-        {
-          "q": "I have osteoporosis. Can I still lift?",
-          "a": "Very often yes, but not without guidance. The evidence for heavy loading in women with low bone mass is encouraging, and the LIFTMOR participants had osteopenia or osteoporosis — but that training was supervised and screened. Speak to your doctor first, and look at the Royal Osteoporosis Society's exercise guidance, which is specific about which movements to approach carefully (notably loaded spinal flexion) rather than telling you to avoid effort altogether."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Фітнес 40+",
-      "title": "Як почати силові тренування в перименопаузі, якщо ви ніколи не піднімали ваги",
-      "excerpt": "Вам сто разів сказали, що треба піднімати ваги. Ось те, чого не кажуть: які саме рухи, як важко, як часто — і що насправді змінюється за шість тижнів, а що за шість місяців.",
-      "meta": "14 серпня 2026 · 9 хв читання",
-      "lead": "Ви, напевно, вже десяток разів читали, що вам варто піднімати ваги. Майже жодна з цих порад не каже, що конкретно робити в понеділок уранці — яка вага, як часто і чи не пізно вже починати. Це та конкретна версія, якої мені самій бракувало.",
-      "seoTitle": "Силові тренування в перименопаузі: з чого почати",
-      "metaDesc": "Що справді захищає м'язи та кістки в перименопаузі — яка вага, як часто і реалістичні строки результатів після 40.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Будь ласка, порадьтеся з лікарем, перш ніж починати нову програму тренувань — особливо якщо у вас діагностований остеопороз, свіжа травма, серцеве захворювання або ускладнення діабету, як-от ретинопатія, за якої рекомендації щодо важких ваг інші."
-        },
-        {
-          "t": "p",
-          "text": "Я прийшла до силових тренувань пізно й неохоче. Більшу частину дорослого життя я робила кардіо — ходьба, велосипед, час від часу невдало обрана пробіжка — почасти тому, що з діабетом 1 типу це здавалося безпечнішим, а почасти тому, що тихо вирішила: ваги — це для інших. А потім мені виповнилося сорок, і та сама рутина перестала давати те саме тіло."
-        },
-        {
-          "t": "p",
-          "text": "Зрушило мене з місця не те, як я виглядаю. А те, що я знову й знову читала: саме м'язи захищають вас у другій половині життя — ваші кістки, ваш цукор у крові, вашу здатність підвестися з підлоги у сімдесят п'ять. І усвідомлення, що м'язи, яких я ніколи не будувала, мені ніхто не подарує."
-        },
-        {
-          "t": "p",
-          "text": "Проблема в тому, що коли ви вже переконані, поради закінчуються. «Піднімайте ваги» — і це все повідомлення. Тож ось що йде далі: що падіння естрогену робить із м'язами й кістками, чому м'які «тонусні» заняття не працюють, які кілька рухів покривають майже все — і скільки часу насправді минає, перш ніж щось відбудеться."
-        },
-        {
-          "t": "h",
-          "text": "Що падіння естрогену робить із м'язами й кістками"
-        },
-        {
-          "t": "p",
-          "text": "Естроген — не лише репродуктивний гормон. Він непомітно бере участь у тому, як ваші м'язи реагують на їжу й тренування, і в тому, як швидко оновлюється ваш скелет. Коли він падає, змінюється і те, і те одночасно — саме тому роки перименопаузи відчуваються як щось більше, ніж просто «трохи постаріла». Це йде поруч з іншими змінами цього періоду — [жир тихо перерозподіляється до середини тіла](/ua/blog/cortisol-belly-perimenopause/), а [низка переконань про вагу не витримує зустрічі з доказами](/ua/blog/perimenopause-weight-myths/) — але саме м'язи й кістки найпряміше реагують на те, що ви робите зі штангою."
-        },
-        {
-          "t": "p",
-          "text": "З боку м'язів це явище називають анаболічною резистентністю. [Огляд у Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) описав його чітко: та сама доза білка дає менший приріст м'язового синтезу, ніж раніше. Вам не здається, що харчуватися й тренуватися так, як у тридцять, більше не працює. Справді не працює. М'язова маса поступово зменшується приблизно з тридцяти, а темп втрати різко зростає під час менопаузального переходу."
-        },
-        {
-          "t": "p",
-          "text": "З боку кісток естроген працює як гальмо для клітин, що руйнують кісткову тканину. Приберіть гальмо — і руйнування починає випереджати відновлення. Найшвидші втрати припадають на рік до останньої менструації і два-три роки після неї — тобто саме на те вікно, коли більшості жінок про їхній скелет не кажуть узагалі нічого."
-        },
-        {
-          "t": "p",
-          "text": "Ключове слово в обох випадках — *прискорюється*. Це не обрив, з якого ви падаєте у п'ятдесят. Це схил, що на кілька років стає крутішим, а потім вирівнюється — і те, що ви робите в ці роки, визначає, з чим ви ввійдете у шістдесят. І це справді обнадійлива частина: час незручний, але на нього можна вплинути."
-        },
-        {
-          "t": "h",
-          "text": "Чому «легкі ваги й багато повторень» недостатньо"
-        },
-        {
-          "t": "p",
-          "text": "Саме тут більшість порад для жінок середнього віку тихо провалюється. Стандартна рекомендація — маленькі гантелі, багато повторень, м'яко й обережно — комфортна, популярна й недостатня, щоб захистити кістку. Кістка реагує на *величину* навантаження, а не на кількість повторень із легкою вагою. Нижче певного порогу скелет читає сигнал як звичайне побутове навантаження і не робить нічого."
-        },
-        {
-          "t": "p",
-          "text": "Найчистіша демонстрація цього — [дослідження LIFTMOR](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), опубліковане в Journal of Bone and Mineral Research 2018 року. Жінки в постменопаузі зі зниженою щільністю кісток — у середньому близько шістдесяти п'яти років — робили лише два наглядові 30-хвилинні тренування на тиждень протягом восьми місяців: п'ять підходів по п'ять повторень станової тяги, присідання й жиму над головою з вагою понад 85% від одноповторного максимуму, плюс стрибковий рух. Вони наростили щільність кістки в поперековому відділі хребта й шийці стегна та покращили всі функціональні показники. Група порівняння, яка робила м'яку домашню програму низької інтенсивності, — ні."
-        },
-        {
-          "t": "p",
-          "text": "Два чесних застереження. Це були наглядові тренування, з правильно поставленою технікою й поступовим нарощуванням — а не «прийшла в зал і навантажила штангу першого тижня». І це було дослідження на жінках, яких попередньо перевірили на придатність. Але напрямок однозначний: стимул має бути справді важким, перш ніж скелет візьме на себе клопіт відреагувати."
-        },
-        {
-          "t": "p",
-          "text": "Мене це радше звільняє, ніж лякає — через те, що «важко» означає на практиці. Не дві години. Не шість днів на тиждень. Приблизно тридцять хвилин двічі на тиждень, невелика кількість рухів, зроблених із реальним зусиллям."
-        },
-        {
-          "t": "h",
-          "text": "Рухи, які покривають майже все"
-        },
-        {
-          "t": "p",
-          "text": "Думайте не про вправи, а про патерни руху. Їх чотири, і разом вони навантажують майже всі суглоби й м'язові групи, які треба захистити. Усе решта — декор."
-        },
-        {
-          "t": "table",
-          "head": [
-            "Патерн",
-            "Що захищає",
-            "З чого починає новачок",
-            "Куди це росте"
-          ],
-          "rows": [
-            [
-              "Присідання",
-              "Квадрицепси, сідниці, стегна й хребет — навантаження йде вертикально крізь скелет",
-              "Встати зі стільця і сісти назад, лише вага тіла",
-              "Гоблет-присід → присід зі штангою"
-            ],
-            [
-              "Нахил (шарнір)",
-              "Сідниці, задня поверхня стегна й уся задня ланка — найсильніший патерн вашого тіла",
-              "Нахил стегнами до стіни, далі румунська тяга з легкими гантелями",
-              "Тяга з трап-грифом або класична станова"
-            ],
-            [
-              "Жим",
-              "Груди, плечі, трицепси; жим над головою навантажує верх хребта й зап'ястя",
-              "Віджимання з руками на лаві",
-              "Жим гантелей або штанги над головою"
-            ],
-            [
-              "Тяга до себе",
-              "Верх спини, найширші, задні дельти — м'язи, що тримають поставу",
-              "Тяга в тренажері сидячи або тяга гантелі однією рукою",
-              "Важчі тяги, прогресії до підтягувань"
-            ]
-          ]
-        },
-        {
-          "t": "p",
-          "text": "Присідання й нахил — найважливіші два, і саме їх жінки пропускають найчастіше. Обидва навантажують стегно й хребет — місця, переломи яких реально коштують людям незалежності. Нахил (сімейство станових тяг) — узагалі найкорисніше, що можна опанувати, бо це ще й те, як ви піднімаєте онука з підлоги, не травмувавши себе."
-        },
-        {
-          "t": "p",
-          "text": "Жим і тяга — це верхня пара, і якщо сил вистачає лише на одне, обирайте тягу. Майже все в сучасному житті — столи, телефони, кермо, сумки перед собою — тягне плечі вперед. Тяги — єдине, що більшість із нас робить, аби повернути їх назад."
-        },
-        {
-          "t": "p",
-          "text": "Це вся програма. Два тренування, у кожному присідання, нахил, жим і тяга. Вам захочеться щось додати, бо інтернет ними переповнений. Не додавайте — принаймні перші три місяці. Коротка програма, яку ви справді робите двічі на тиждень, перемагає складну, яку ви кинете в жовтні."
-        },
-        {
-          "t": "h",
-          "text": "Як часто, з якою вагою і як прогресувати"
-        },
-        {
-          "t": "p",
-          "text": "Двічі на тиждень — це мінімум, і водночас саме тут лежить більшість користі. [Рекомендації головних медичних радників Великої Британії](https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report) радять силове навантаження щонайменше два дні на тиждень саме з цієї причини, і учасниці LIFTMOR отримали свій результат на двох. Третє тренування — бонус, якщо життя дозволяє, а не вимога, і воно нічого не варте поруч із двома, які ви робите стабільно."
-        },
-        {
-          "t": "p",
-          "text": "«Важко» ніхто не визначає, тож ось робоче правило. Беріть вагу, за якої останні два повторення підходу справді важкі, але техніка виглядає так само, як на першому повторенні. Якщо після підходу ви відчуваєте, що могли б зробити ще п'ять, — вага замала. І саме там більшість жінок залишається роками."
-        },
-        {
-          "t": "p",
-          "text": "Перший місяць працюйте в трьох підходах по вісім–десять повторень. Ви вчите рухи, а легші підходи дають потрібну практику. Далі, коли ваги зростуть, переходьте до чотирьох-п'яти підходів по п'ять — менше повторень із більшою вагою, саме там живе стимул для кістки."
-        },
-        {
-          "t": "quote",
-          "text": "Прогресія — не деталь програми. Прогресія і є програма."
-        },
-        {
-          "t": "p",
-          "text": "Механізм простий, і майже всі його ігнорують: коли ви виконали всі підходи у верхній межі діапазону повторень із чистою технікою — наступного разу додайте трохи ваги. Один–2,5 кг на рухах для верху тіла, 2,5–5 кг на рухах для низу. Звучить сміховинно мало. Робіть так рік — і це вже зовсім не мало, бо тіло, у якого щомісяця просять трохи більше, має причину продовжувати адаптуватися."
-        },
-        {
-          "t": "p",
-          "text": "Одне, за що справді варто заплатити: два-три заняття з тренером на старті, суто щоб хтось подивився, як ви робите нахил і присід. Це значно дешевше, ніж візити до фізіотерапевта після пів року тяг із круглою спиною."
-        },
-        {
-          "t": "h",
-          "text": "Що їсти навколо тренувань"
-        },
-        {
-          "t": "p",
-          "text": "Тренування — це сигнал, їжа — матеріал. Надсилати сигнал без матеріалу — це і є те, як жінки тренуються місяцями й майже нічого не бачать. Перше, що треба виправити, — білок: більшості жінок після 40 потрібно значно більше за офіційні 0,8 г/кг, і про [норми, які справді працюють після 40](/ua/blog/protein-for-women-over-40/) та про [те, що дає більше білка для кісток і м'язів після менопаузи](/ua/blog/higher-protein-postmenopausal-bone-muscle/), я писала окремо. Робочий орієнтир: 1,2–1,6 г на кг ваги тіла на добу як базовий рівень і ближче до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся з вагами, розподілено між прийомами їжі, а не звалено у вечерю."
-        },
-        {
-          "t": "p",
-          "text": "Окремо для кісток потрібна сировина. Британські рекомендації дають дорослим близько 700 мг кальцію на добу й радять щоденну добавку вітаміну D 10 мкг усім протягом осені та зими — саме вітамін D дозволяє засвоїти той кальцій. Навантажувати скелет, якому немає з чого будувати, — не найкраще використання вашого вівторкового вечора."
-        },
-        {
-          "t": "p",
-          "text": "І з'їжте щось перед тренуванням. Регулярні силові натщесерце, на додачу до всього, що вже балансує тіло в перименопаузі, зазвичай дають гірші тренування й гірше відновлення — а якщо ви контролюєте цукор, це ще й забирає ваш запас міцності."
-        },
-        {
-          "t": "h",
-          "text": "Відновлення — частина програми, а не нагорода за неї"
-        },
-        {
-          "t": "p",
-          "text": "У двадцять п'ять можна тренуватися погано й усе одно відновитися. У сорок п'ять відновлення стає обмежувальним чинником — і це ще один аргумент за два важких тренування замість п'яти посередніх. Залишайте щонайменше 48 годин між тренуваннями на ті самі групи м'язів і сприймайте сон як частину тренування, а не як те, що відбувається, коли воно скінчилося. [Поганий сон погіршує інсулінорезистентність](/ua/blog/sleep-insulin-resistance-women/) і водночас гальмує відновлення — погане поєднання, щоб крізь нього тренуватися."
-        },
-        {
-          "t": "p",
-          "text": "Крепатура — не показник успіху. Перші два тижні будуть справді неприємними; це швидко минає, і її відсутність згодом не означає, що тренування було марним. Але якщо вас розбирає ще чотири дні по тому — ви взяли забагато й зарано. Поверніться з меншою вагою, а не кидайте зовсім: жінки, які припиняють, майже ніколи не припиняють через травму — вони припиняють через два тижні, що відчувалися як покарання."
-        },
-        {
-          "t": "h",
-          "text": "Реалістичні строки"
-        },
-        {
-          "t": "p",
-          "text": "Головна причина, чому жінки кидають, — не складність. А очікування не того й не тоді: пошук змін у композиції тіла на п'ятому тижні, коли п'ятому тижню просто нічого показати. Ось приблизно що відбувається і коли."
-        },
-        {
-          "t": "table",
-          "head": [
-            "Період",
-            "Що насправді відбувається",
-            "Що ви помітите"
-          ],
-          "rows": [
-            [
-              "Тижні 1–3",
-              "Нервова система вчиться залучати м'язи, які у вас уже є",
-              "Ваги зростають напрочуд швидко; трохи крепатури; у дзеркалі нічого"
-            ],
-            [
-              "Тижні 4–6",
-              "Справжній приріст сили — переважно нервовий, м'язи починають наздоганяти",
-              "Сходи, сумки з покупками й підйом з підлоги відчутно легшають"
-            ],
-            [
-              "3–4 місяці",
-              "Реальний приріст м'язів, якщо є і білок, і прогресія",
-              "Одяг сидить інакше; видима зміна в плечах, спині й ногах"
-            ],
-            [
-              "6–12 місяців",
-              "Завершуються цикли ремоделювання кістки в навантажених місцях",
-              "Явно інша композиція тіла; зміна щільності кістки може стати вимірною"
-            ]
-          ]
-        },
-        {
-          "t": "p",
-          "text": "Кістка повільна зі структурної причини: один цикл ремоделювання — стару кістку прибрано, нову вибудувано й мінералізовано — триває близько чотирьох місяців в одному місці, і скелет робить це послідовно, місце за місцем. Саме тому LIFTMOR тривав вісім місяців, а денситометрію зазвичай повторюють через роки, а не через місяці. Якщо вам потрібен показник, який рухається швидше, — дивіться на вагу на штанзі."
-        },
-        {
-          "t": "p",
-          "text": "Варто знати й те, що функція покращується раніше за масу. Систематичний огляд і метааналіз силових тренувань у літніх жінок 2026 року показав стабільне покращення сили хвату, швидкості ходьби й підйомів зі стільця — тоді як виміряний індекс м'язової маси змінювався значно менше. Відчувати себе сильнішою задовго до того, як почнете інакше виглядати, — це не провал програми. Це нормальний порядок подій."
-        },
-        {
-          "t": "h",
-          "text": "Якщо у вас діабет або інсулінорезистентність"
-        },
-        {
-          "t": "p",
-          "text": "М'язи — найбільше місце, куди тіло складає глюкозу, тож нарощувати їх — одна з найтриваліших за ефектом речей для чутливості до інсуліну; про це я вже писала у тексті про [контроль цукру в перименопаузі](/ua/blog/perimenopause-diabetes-blood-sugar/). Одне практичне попередження з власного досвіду: важкі силові часто піднімають глюкозу *вгору* під час і одразу після тренування, бо це зусилля на адреналіні, — а потім покращують показники на багато годин. Це протилежна форма кривої порівняно з прогулянкою, і вона багатьох збиває з пантелику. Не читайте цей миттєвий підйом як знак, що силові шкодять цукру, — дивіться на нічні й ранкові цифри. Про те, [чому силові піднімають глюкозу і чому це не провал](/ua/blog/does-weight-training-raise-blood-sugar/), я написала окремо."
-        },
-        {
-          "t": "p",
-          "text": "Якщо у вас проліферативна ретинопатія, значуща нейропатія, неконтрольована гіпертензія або серцево-судинний анамнез — отримайте конкретну пораду до старту. Максимальні натужування мають окремі застереження при захворюваннях очей, і зазвичай існують розумні адаптації, а не категоричне «ні» — але ця розмова належить вашій медичній команді, а не статті."
-        },
-        {
-          "t": "h",
-          "text": "З чого почати цього тижня"
-        },
-        {
-          "t": "p",
-          "text": "Оберіть два дні й запишіть їх у щоденник як зустрічі. Зробіть по одному руху з кожного патерну — підйом зі стільця, нахил стегнами, віджимання з опорою на лаву, тяга — три підходи по вісім, із такою вагою, щоб останні два повторення давалися із зусиллям і з доброю технікою. Запишіть, що зробили. Наступного тижня зробіть те саме, трохи важче. Це справді весь метод; усе інше в цій статті — контекст, чому він працює."
-        },
-        {
-          "t": "p",
-          "text": "І дайте собі вісім тижнів, перш ніж робити висновки — не тому, що ви виглядатимете інакше, а тому, що на той момент це стане тим, що ви робите, а не тим, що ви намагаєтеся робити."
-        },
-        {
-          "t": "links",
-          "title": "Куди рухатися далі",
-          "items": [
-            {
-              "name": "NHS — рекомендації щодо фізичної активності для дорослих",
-              "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
-              "desc": "Офіційні британські рекомендації простою мовою, зокрема що саме зараховується до силового навантаження."
-            },
-            {
-              "name": "Royal Osteoporosis Society — вправи для кісток",
-              "url": "https://theros.org.uk/information-and-support/bone-health/exercise-for-bones/",
-              "desc": "Найкраще британське джерело про те, скільки навантаження насправді потрібно кістці, з окремими порадами, якщо остеопороз уже є."
-            },
-            {
-              "name": "Дослідження LIFTMOR — Journal of Bone and Mineral Research",
-              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284",
-              "desc": "Повний текст дослідження, на якому базується протокол двох важких тренувань на тиждень. Варто прочитати розділ методів, щоб побачити, що саме робили учасниці."
-            },
-            {
-              "name": "British Dietetic Association — саркопенія",
-              "url": "https://www.bda.uk.com/resource/addressing-sarcopenia.html",
-              "desc": "Британська асоціація дієтологів про роль білка й силових тренувань у віковій втраті м'язів."
-            },
-            {
-              "name": "Dr Stacy Sims",
-              "url": "https://www.drstacysims.com/",
-              "desc": "Фізіологиня фізичних навантажень, яка працює саме з жіночою фізіологією — найкорисніше окреме джерело про те, чим тренувальні рекомендації для жінок середнього віку мають відрізнятися."
-            }
-          ]
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Два важких тренування на тиждень підвищили щільність кісток у жінок у постменопаузі — м'які вправи ні.",
-              "detail": "Рандомізоване контрольоване дослідження LIFTMOR розподілило 101 жінку в постменопаузі зі зниженою щільністю кісток на вісім місяців двох наглядових 30-хвилинних тренувань на тиждень високоінтенсивного силового й ударного навантаження (5 підходів по 5 повторень із вагою понад 85% одноповторного максимуму: станова тяга, присідання, жим над головою плюс стрибкові підтягування) або на домашню програму низької інтенсивності. Група тренувань покращила мінеральну щільність кістки в поперековому відділі хребта й шийці стегна та функціональні показники, зокрема силу спини й ніг; група порівняння — ні. Побічних явищ було мінімально.",
-              "cite": "Journal of Bone and Mineral Research · Рандомізоване контрольоване дослідження, 2018",
-              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284"
-            },
-            {
-              "claim": "З віком м'язи будують менше з тієї самої кількості білка — анаболічна резистентність.",
-              "detail": "Огляд у Current Opinion in Clinical Nutrition and Metabolic Care описав ослаблену відповідь м'язового синтезу білка після їжі в людей старшого віку. Це фізіологічна причина, чому харчуватися й тренуватися як у тридцять перестає давати той самий результат, і чому норми білка з віком зростають, а не падають.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Огляд, 2018",
-              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
-            },
-            {
-              "claim": "У жінок старшого віку силові тренування покращують силу й функцію задовго до того, як змінюється виміряна м'язова маса.",
-              "detail": "Систематичний огляд і метааналіз дванадцяти рандомізованих контрольованих досліджень за участю 518 жінок старшого віку із саркопенією виявив значуще покращення сили хвату, сили розгинання коліна, швидкості ходьби, тесту «встань і йди» та 30-секундного тесту підйому зі стільця — але без значущої зміни індексу скелетної м'язової маси. Корисний коректив для тих, хто чекає передусім видимих змін: спроможність зростає раніше за композицію.",
-              "cite": "Frontiers in Public Health · Систематичний огляд і метааналіз, 2026",
-              "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
-            },
-            {
-              "claim": "Має значення, як саме ви навантажуєте, а не лише те, що ви прийшли.",
-              "detail": "Систематичний огляд із метарегресіями дослідив, які параметри силових тренувань — інтенсивність, обсяг, частота, прогресія — визначають приріст м'язової маси при саркопенії. Наростити масу виявляється складніше, ніж силу, і те, як програма навантажена й прогресує, значною мірою відрізняє програми, що працюють, від тих, що ні.",
-              "cite": "PMC · Систематичний огляд із метарегресіями",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
-            },
-            {
-              "claim": "Британські рекомендації радять силове навантаження щонайменше два дні на тиждень.",
-              "detail": "Рекомендації головних медичних радників Великої Британії щодо фізичної активності радять дорослим виконувати вправи, що розвивають або підтримують силу основних м'язових груп, щонайменше два дні на тиждень — на додачу до 150 хвилин активності помірної інтенсивності, з окремим зауваженням, що будь-яке силове навантаження краще за жодне.",
-              "cite": "Головні медичні радники Великої Британії · Рекомендації щодо фізичної активності",
-              "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
-            }
-          ]
-        },
-        {
-          "t": "bio",
-          "name": "Олена Філатова",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Олена Філатова, авторка про жіноче здоров'я, живе з діабетом 1 типу",
-          "text": "Олена Філатова живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу, харчування та контроль діабету на lenafilatova.co.uk."
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чи не пізно починати силові у 50?",
-          "a": "Ні. Дослідження LIFTMOR, яке дало приріст щільності кісток, проводили на жінках у постменопаузі середнім віком близько шістдесяти п'яти років, і всі вони вже мали знижену щільність кісток. М'язи й кістки реагують на навантаження в будь-якому віці — реакція повільніша, ніж була б у двадцять п'ять, але вона є, і користь навіть більша, бо альтернатива — подальший спад."
-        },
-        {
-          "q": "З якою вагою починати, якщо я ніколи не тренувалася з вагами?",
-          "a": "Починайте значно легше за свою майбутню робочу вагу й присвятіть перший місяць вивченню рухів — три підходи по вісім–десять повторень, де останні два потребують реального зусилля, але техніка не змінюється. Далі додавайте вагу маленькими кроками (1–2,5 кг для верху тіла, 2,5–5 кг для низу) щоразу, коли виконали всі підходи чисто. За кілька місяців ця рівна прогресія приведе вас туди, у що ви б не повірили на першому тижні."
-        },
-        {
-          "q": "Чи стану я «масивною» від силових?",
-          "a": "Ні. Щоб набрати помітно великі м'язи, потрібні роки дуже специфічних тренувань, зазвичай із надлишком калорій, і жінкам у середньому віці це значно важче, бо естроген падає, а не допомагає. Що реально дають два тренування на тиждень — це збереження й повільне відновлення м'язів, які у вас є, а це зазвичай виглядає як більш підтягнуте тіло, а не більше."
-        },
-        {
-          "q": "Потрібен зал чи можна вдома?",
-          "a": "Почати можна вдома з вагою тіла й парою гантелей, і перші два-три місяці цього справді достатньо. Обмеження приходить пізніше: прогресія залежить від можливості додавати вагу, а легкі гантелі рано чи пізно перестають бути викликом. Зал — або набірні гантелі й штанга — це те, що дозволяє програмі працювати далі."
-        },
-        {
-          "q": "Скільки часу мине, поки я побачу зміни в тілі?",
-          "a": "Сила зазвичай помітно зростає за чотири–шість тижнів, і приблизно тоді ж легшають побутові справи. Видима зміна композиції тіла зазвичай потребує трьох-чотирьох місяців стабільних тренувань із достатнім білком. Кістка ще повільніша — один цикл ремоделювання триває близько чотирьох місяців, а дослідження змін щільності кісток зазвичай тривають щонайменше вісім."
-        },
-        {
-          "q": "У мене остеопороз. Чи можна мені піднімати ваги?",
-          "a": "Дуже часто так, але не без супроводу. Дані щодо важкого навантаження в жінок зі зниженою щільністю кісток обнадійливі, і учасниці LIFTMOR мали остеопенію або остеопороз — але ті тренування були наглядовими й після відбору. Спершу порадьтеся з лікарем і подивіться рекомендації Royal Osteoporosis Society: вони конкретно вказують, до яких рухів ставитися обережно (зокрема згинання хребта під навантаженням), а не радять уникати зусиль узагалі."
         }
       ]
     }
@@ -6162,6 +6364,158 @@ export const POSTS = [
     }
   },
   {
+    "slug": "perimenopause-global-survey-symptom-gap",
+    "date": "2026-08-04",
+    "image": "/images/perimenopause-global-survey-symptom-gap.jpg",
+    "cats": [
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Perimenopause",
+      "title": "17,494 women, 158 countries: what perimenopause actually feels like isn't what we're told to expect",
+      "seoTitle": "Perimenopause Symptoms: 158-Country Study",
+      "metaDesc": "A Mayo Clinic and Flo Health survey of 17,494 women in 158 countries found the symptoms women expect and the ones they report barely overlap.",
+      "excerpt": "A peer-reviewed survey of 17,494 women across 158 countries found that hot flashes are what women recognise as perimenopause — while fatigue, exhaustion, mood and digestive changes are what they actually report.",
+      "meta": "4 August 2026 · 4 min read",
+      "lead": "Ask most women what perimenopause looks like and they'll say hot flashes. A new global study suggests that answer is the problem — because it isn't what the majority are living with.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The study, [\"Global perspectives on perimenopause: a digital survey of knowledge and symptoms using the Flo application\"](https://pubmed.ncbi.nlm.nih.gov/41603602/), was published in July 2026 in Menopause, the journal of The Menopause Society. Researchers from the Mayo Clinic worked with the cycle-tracking app Flo to survey 17,494 women aged 18 and over across 158 countries — 12,681 of them aged 35 or older. It is, as far as the authors can tell, the first attempt to compare perimenopause knowledge and symptoms across this many countries at once."
+        },
+        {
+          "t": "p",
+          "text": "The headline result is a mismatch. When asked what they knew about perimenopause, women most often named hot flashes (71%), sleep problems (68%) and weight gain (65%). But when women aged 35 and over described what they were actually experiencing, the list came out in a different order: fatigue (83%), physical and mental exhaustion (83%), irritability (80%), depressive mood (77%), sleep problems (76%), digestive issues (76%) and anxiety (75%). Hot flashes — the thing almost everyone associates with the transition — didn't lead the list of lived symptoms at all. Among the narrower group of women 35+ who said they were currently in perimenopause, the same symptoms ran higher still, with exhaustion at 95% and fatigue at 93%."
+        },
+        {
+          "t": "p",
+          "text": "That gap has a practical cost. A symptom you've been told to expect is one you can name, look up and take to a doctor. Fatigue, low mood, poor sleep and digestive changes have no such label attached — they get filed under stress, overwork, low iron, thyroid, anxiety, or simply getting older. The authors' own conclusion is a discordance between what women know about perimenopause and what they experience, and they argue the practical fix is better symptom recognition rather than more awareness of hot flashes specifically. Knowledge also varied significantly by region (P<0.001), with the UK, Ireland, Canada, Australia and the Netherlands scoring highest and the United States sixth."
+        },
+        {
+          "t": "p",
+          "text": "For women managing diabetes or blood sugar, this list is worth reading twice. Fatigue, exhaustion, poor sleep, irritability and digestive changes are also, more or less exactly, the symptoms of blood sugar running high or swinging — which means during perimenopause the two can mask each other in both directions. Falling oestrogen genuinely does change insulin sensitivity, so it isn't a matter of picking one explanation over the other. It's a reason to keep testing rather than assume, and to raise perimenopause explicitly with a clinician if a cluster of these symptoms is new and doesn't match your usual pattern."
+        },
+        {
+          "t": "p",
+          "text": "The study's limits are worth being straight about. This is a cross-sectional survey of people who had already chosen to use a period-tracking app — a group likely to be younger, more health-engaged and more cycle-literate than women in general, and to own a smartphone. It can't tell you how common perimenopause symptoms are worldwide, and it can't establish that the hormonal transition caused any particular symptom, because nothing here was clinically confirmed or followed over time. What a sample this size and this geographically spread can show well is the shape of the gap between expectation and experience — and that gap is consistent enough to be worth acting on."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Women recognise hot flashes as the perimenopause symptom, but report fatigue, exhaustion and mood changes far more often.",
+              "detail": "A cross-sectional digital survey of 17,494 women aged 18+ across 158 countries (12,681 aged 35+), conducted via the Flo application with Mayo Clinic researchers. Recognition of perimenopause symptoms was highest for hot flashes (71%), sleep problems (68%) and weight gain (65%). Self-reported symptoms among those aged 35+ were led by fatigue (83%), physical and mental exhaustion (83%), irritability (80%), depressive mood (77%), sleep problems (76%), digestive issues (76%) and anxiety (75%). Regional differences in knowledge were significant (P<0.001). The authors conclude there is a discordance between perimenopause knowledge and the symptoms actually experienced. As a self-selected sample of app users, it is not a prevalence estimate for the general population, and its cross-sectional design cannot establish cause.",
+              "cite": "Hedges MS et al. · Menopause 2026;33(7):789–798",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41603602/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Anxiety and brain fog, not hot flashes, are now women's top menopause complaint",
+              "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
+              "desc": "The same pattern in a smaller US survey — this global study is the larger, peer-reviewed version of it."
+            },
+            {
+              "name": "Perimenopause & diabetes: what's really happening to your blood sugar",
+              "url": "/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Why fatigue and sleep problems in your 40s can be hormonal, metabolic, or both at once."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "If I don't have hot flashes, can I still be in perimenopause?",
+          "a": "Yes. In this global survey of more than 17,000 women, hot flashes were what women most often recognised as a perimenopause symptom, but they were not what women aged 35 and over most often reported experiencing — fatigue, physical and mental exhaustion, irritability, low mood, poor sleep and digestive changes all ranked higher. Absence of hot flashes doesn't rule perimenopause out, and it's a common reason the transition gets missed or mislabelled."
+        },
+        {
+          "q": "How do I tell perimenopause fatigue from a blood sugar problem?",
+          "a": "Often you can't tell them apart on symptoms alone, and that's the honest answer — fatigue, poor sleep, irritability and digestive changes appear on both lists. They can also coexist, since falling oestrogen affects insulin sensitivity. The practical route is to test rather than guess: ask your doctor about blood sugar and HbA1c, thyroid function and ferritin, and raise perimenopause explicitly as a possibility at the same appointment rather than after the other results come back normal."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Перименопауза",
+      "title": "17 494 жінки зі 158 країн: перименопауза відчувається зовсім не так, як нас готували",
+      "seoTitle": "Симптоми перименопаузи: дослідження 158 країн",
+      "metaDesc": "Опитування Mayo Clinic і Flo Health серед 17 494 жінок зі 158 країн: симптоми, яких жінки очікують, майже не збігаються з тими, які вони мають.",
+      "excerpt": "Рецензоване опитування 17 494 жінок зі 158 країн показало: припливи — це те, що жінки знають про перименопаузу, а втома, виснаження, настрій і травні розлади — те, що вони насправді переживають.",
+      "meta": "4 серпня 2026 · 4 хв читання",
+      "lead": "Запитайте більшість жінок, як виглядає перименопауза, і вони скажуть: припливи. Нове глобальне дослідження свідчить, що саме ця відповідь і є проблемою — бо це не те, з чим живе більшість.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Дослідження [«Global perspectives on perimenopause: a digital survey of knowledge and symptoms using the Flo application»](https://pubmed.ncbi.nlm.nih.gov/41603602/) опублікували в липні 2026 року в журналі Menopause — виданні The Menopause Society. Дослідники з Mayo Clinic разом із застосунком для відстеження циклу Flo опитали 17 494 жінки віком від 18 років у 158 країнах, з них 12 681 — віком 35 років і старше. Наскільки відомо авторам, це перша спроба порівняти знання про перименопаузу та її симптоми одразу в такій кількості країн."
+        },
+        {
+          "t": "p",
+          "text": "Головний результат — розбіжність. Коли жінок питали, що вони знають про перименопаузу, найчастіше називали припливи (71%), проблеми зі сном (68%) і набір ваги (65%). Але коли жінки віком 35+ описували те, що переживають насправді, порядок виявився іншим: втома (83%), фізичне й розумове виснаження (83%), дратівливість (80%), пригнічений настрій (77%), проблеми зі сном (76%), розлади травлення (76%) і тривожність (75%). Припливи — те, що майже всі асоціюють із цим періодом, — узагалі не очолили список реальних симптомів. У вужчій групі жінок 35+, які сказали, що перебувають у перименопаузі зараз, ті самі симптоми були ще вищими: виснаження 95%, втома 93%."
+        },
+        {
+          "t": "p",
+          "text": "Ця прогалина має практичну ціну. Симптом, до якого вас підготували, можна назвати, знайти про нього інформацію і принести лікарю. У втоми, зниженого настрою, поганого сну й розладів травлення такої етикетки немає — їх списують на стрес, перевтому, залізо, щитоподібну залозу, тривожність або просто вік. Власний висновок авторів — розбіжність між тим, що жінки знають про перименопаузу, і тим, що вони переживають; вони наполягають, що виправляти треба розпізнавання симптомів, а не додавати обізнаності саме про припливи. Рівень знань суттєво відрізнявся за регіонами (P<0,001): найвищий — у Великій Британії, Ірландії, Канаді, Австралії та Нідерландах, США — на шостому місці."
+        },
+        {
+          "t": "p",
+          "text": "Жінкам, які живуть із діабетом або стежать за цукром, цей список варто перечитати двічі. Втома, виснаження, поганий сон, дратівливість і зміни травлення — це більш-менш точно симптоми високого або стрибкоподібного цукру. Тобто в перименопаузі ці два стани можуть маскувати одне одного в обидва боки. Падіння естрогену справді змінює чутливість до інсуліну, тож питання не в тому, щоб обрати одне пояснення замість іншого. Це причина вимірювати, а не припускати, — і окремо назвати перименопаузу лікарю, якщо поєднання цих симптомів нове й не схоже на ваш звичний стан."
+        },
+        {
+          "t": "p",
+          "text": "Про обмеження дослідження варто сказати прямо. Це поперечне (одномоментне) опитування людей, які вже обрали користуватися застосунком для відстеження циклу, — а це група, що радше молодша, більш залучена до теми здоров’я, краще обізнана про свій цикл і має смартфон. Воно не показує, наскільки поширені симптоми перименопаузи у світі, і не доводить, що гормональний перехід спричинив конкретний симптом: нічого тут не підтверджували клінічно й не спостерігали в часі. Що вибірка такого розміру й такої географії показує добре — це форму розриву між очікуванням і досвідом. І цей розрив достатньо стабільний, щоб на нього зважати."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Жінки впізнають припливи як симптом перименопаузи, але значно частіше повідомляють про втому, виснаження та зміни настрою.",
+              "detail": "Поперечне цифрове опитування 17 494 жінок віком 18+ у 158 країнах (12 681 віком 35+), проведене через застосунок Flo разом із дослідниками Mayo Clinic. Найкраще жінки впізнавали припливи (71%), проблеми зі сном (68%) і набір ваги (65%). Серед жінок 35+ найчастіше повідомляли про втому (83%), фізичне й розумове виснаження (83%), дратівливість (80%), пригнічений настрій (77%), проблеми зі сном (76%), розлади травлення (76%) і тривожність (75%). Регіональні відмінності в знаннях були значущими (P<0,001). Автори роблять висновок про розбіжність між знаннями про перименопаузу та реально пережитими симптомами. Оскільки це вибірка користувачок застосунку, які долучилися самостійно, вона не є оцінкою поширеності в загальній популяції, а поперечний дизайн не встановлює причинності.",
+              "cite": "Hedges MS та ін. · Menopause 2026;33(7):789–798",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41603602/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Що ще почитати",
+          "items": [
+            {
+              "name": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
+              "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
+              "desc": "Той самий висновок у меншому опитуванні в США — це глобальна рецензована версія тієї ж історії."
+            },
+            {
+              "name": "Перименопауза та діабет: що насправді відбувається з вашим цукром у крові",
+              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Чому втома й проблеми зі сном після 40 можуть бути гормональними, метаболічними — або і тим, і тим одночасно."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Якщо в мене немає припливів, чи можу я бути в перименопаузі?",
+          "a": "Так. У цьому глобальному опитуванні понад 17 000 жінок припливи були тим, що жінки найчастіше впізнавали як симптом перименопаузи, але не тим, про що найчастіше повідомляли жінки віком 35+ — втома, фізичне й розумове виснаження, дратівливість, знижений настрій, поганий сон і зміни травлення були поширенішими. Відсутність припливів не виключає перименопаузу, і саме через це її часто пропускають або називають чимось іншим."
+        },
+        {
+          "q": "Як відрізнити втому в перименопаузі від проблем із цукром у крові?",
+          "a": "Часто за самими симптомами відрізнити неможливо — і це чесна відповідь: втома, поганий сон, дратівливість і розлади травлення є в обох списках. Ці стани можуть існувати й одночасно, адже падіння естрогену впливає на чутливість до інсуліну. Практичний шлях — вимірювати, а не вгадувати: попросіть лікаря перевірити цукор і HbA1c, роботу щитоподібної залози та феритин, і одразу на тому ж прийомі окремо назвіть перименопаузу як можливу причину, а не після того, як інші результати виявляться нормальними."
+        }
+      ]
+    }
+  },
+  {
     "slug": "estrobolome-gut-oestrogen-menopause",
     "date": "2026-08-03",
     "image": "/images/estrobolome-gut-oestrogen-menopause.jpg",
@@ -6520,475 +6874,6 @@ export const POSTS = [
     }
   },
   {
-    "slug": "perimenopause-global-survey-symptom-gap",
-    "date": "2026-08-04",
-    "image": "/images/perimenopause-global-survey-symptom-gap.jpg",
-    "cats": [
-      "perimenopause"
-    ],
-    "en": {
-      "cat": "Perimenopause",
-      "title": "17,494 women, 158 countries: what perimenopause actually feels like isn't what we're told to expect",
-      "seoTitle": "Perimenopause Symptoms: 158-Country Study",
-      "metaDesc": "A Mayo Clinic and Flo Health survey of 17,494 women in 158 countries found the symptoms women expect and the ones they report barely overlap.",
-      "excerpt": "A peer-reviewed survey of 17,494 women across 158 countries found that hot flashes are what women recognise as perimenopause — while fatigue, exhaustion, mood and digestive changes are what they actually report.",
-      "meta": "4 August 2026 · 4 min read",
-      "lead": "Ask most women what perimenopause looks like and they'll say hot flashes. A new global study suggests that answer is the problem — because it isn't what the majority are living with.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "The study, [\"Global perspectives on perimenopause: a digital survey of knowledge and symptoms using the Flo application\"](https://pubmed.ncbi.nlm.nih.gov/41603602/), was published in July 2026 in Menopause, the journal of The Menopause Society. Researchers from the Mayo Clinic worked with the cycle-tracking app Flo to survey 17,494 women aged 18 and over across 158 countries — 12,681 of them aged 35 or older. It is, as far as the authors can tell, the first attempt to compare perimenopause knowledge and symptoms across this many countries at once."
-        },
-        {
-          "t": "p",
-          "text": "The headline result is a mismatch. When asked what they knew about perimenopause, women most often named hot flashes (71%), sleep problems (68%) and weight gain (65%). But when women aged 35 and over described what they were actually experiencing, the list came out in a different order: fatigue (83%), physical and mental exhaustion (83%), irritability (80%), depressive mood (77%), sleep problems (76%), digestive issues (76%) and anxiety (75%). Hot flashes — the thing almost everyone associates with the transition — didn't lead the list of lived symptoms at all. Among the narrower group of women 35+ who said they were currently in perimenopause, the same symptoms ran higher still, with exhaustion at 95% and fatigue at 93%."
-        },
-        {
-          "t": "p",
-          "text": "That gap has a practical cost. A symptom you've been told to expect is one you can name, look up and take to a doctor. Fatigue, low mood, poor sleep and digestive changes have no such label attached — they get filed under stress, overwork, low iron, thyroid, anxiety, or simply getting older. The authors' own conclusion is a discordance between what women know about perimenopause and what they experience, and they argue the practical fix is better symptom recognition rather than more awareness of hot flashes specifically. Knowledge also varied significantly by region (P<0.001), with the UK, Ireland, Canada, Australia and the Netherlands scoring highest and the United States sixth."
-        },
-        {
-          "t": "p",
-          "text": "For women managing diabetes or blood sugar, this list is worth reading twice. Fatigue, exhaustion, poor sleep, irritability and digestive changes are also, more or less exactly, the symptoms of blood sugar running high or swinging — which means during perimenopause the two can mask each other in both directions. Falling oestrogen genuinely does change insulin sensitivity, so it isn't a matter of picking one explanation over the other. It's a reason to keep testing rather than assume, and to raise perimenopause explicitly with a clinician if a cluster of these symptoms is new and doesn't match your usual pattern."
-        },
-        {
-          "t": "p",
-          "text": "The study's limits are worth being straight about. This is a cross-sectional survey of people who had already chosen to use a period-tracking app — a group likely to be younger, more health-engaged and more cycle-literate than women in general, and to own a smartphone. It can't tell you how common perimenopause symptoms are worldwide, and it can't establish that the hormonal transition caused any particular symptom, because nothing here was clinically confirmed or followed over time. What a sample this size and this geographically spread can show well is the shape of the gap between expectation and experience — and that gap is consistent enough to be worth acting on."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Women recognise hot flashes as the perimenopause symptom, but report fatigue, exhaustion and mood changes far more often.",
-              "detail": "A cross-sectional digital survey of 17,494 women aged 18+ across 158 countries (12,681 aged 35+), conducted via the Flo application with Mayo Clinic researchers. Recognition of perimenopause symptoms was highest for hot flashes (71%), sleep problems (68%) and weight gain (65%). Self-reported symptoms among those aged 35+ were led by fatigue (83%), physical and mental exhaustion (83%), irritability (80%), depressive mood (77%), sleep problems (76%), digestive issues (76%) and anxiety (75%). Regional differences in knowledge were significant (P<0.001). The authors conclude there is a discordance between perimenopause knowledge and the symptoms actually experienced. As a self-selected sample of app users, it is not a prevalence estimate for the general population, and its cross-sectional design cannot establish cause.",
-              "cite": "Hedges MS et al. · Menopause 2026;33(7):789–798",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41603602/"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Related reading",
-          "items": [
-            {
-              "name": "Anxiety and brain fog, not hot flashes, are now women's top menopause complaint",
-              "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
-              "desc": "The same pattern in a smaller US survey — this global study is the larger, peer-reviewed version of it."
-            },
-            {
-              "name": "Perimenopause & diabetes: what's really happening to your blood sugar",
-              "url": "/blog/perimenopause-diabetes-blood-sugar/",
-              "desc": "Why fatigue and sleep problems in your 40s can be hormonal, metabolic, or both at once."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "If I don't have hot flashes, can I still be in perimenopause?",
-          "a": "Yes. In this global survey of more than 17,000 women, hot flashes were what women most often recognised as a perimenopause symptom, but they were not what women aged 35 and over most often reported experiencing — fatigue, physical and mental exhaustion, irritability, low mood, poor sleep and digestive changes all ranked higher. Absence of hot flashes doesn't rule perimenopause out, and it's a common reason the transition gets missed or mislabelled."
-        },
-        {
-          "q": "How do I tell perimenopause fatigue from a blood sugar problem?",
-          "a": "Often you can't tell them apart on symptoms alone, and that's the honest answer — fatigue, poor sleep, irritability and digestive changes appear on both lists. They can also coexist, since falling oestrogen affects insulin sensitivity. The practical route is to test rather than guess: ask your doctor about blood sugar and HbA1c, thyroid function and ferritin, and raise perimenopause explicitly as a possibility at the same appointment rather than after the other results come back normal."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Перименопауза",
-      "title": "17 494 жінки зі 158 країн: перименопауза відчувається зовсім не так, як нас готували",
-      "seoTitle": "Симптоми перименопаузи: дослідження 158 країн",
-      "metaDesc": "Опитування Mayo Clinic і Flo Health серед 17 494 жінок зі 158 країн: симптоми, яких жінки очікують, майже не збігаються з тими, які вони мають.",
-      "excerpt": "Рецензоване опитування 17 494 жінок зі 158 країн показало: припливи — це те, що жінки знають про перименопаузу, а втома, виснаження, настрій і травні розлади — те, що вони насправді переживають.",
-      "meta": "4 серпня 2026 · 4 хв читання",
-      "lead": "Запитайте більшість жінок, як виглядає перименопауза, і вони скажуть: припливи. Нове глобальне дослідження свідчить, що саме ця відповідь і є проблемою — бо це не те, з чим живе більшість.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Дослідження [«Global perspectives on perimenopause: a digital survey of knowledge and symptoms using the Flo application»](https://pubmed.ncbi.nlm.nih.gov/41603602/) опублікували в липні 2026 року в журналі Menopause — виданні The Menopause Society. Дослідники з Mayo Clinic разом із застосунком для відстеження циклу Flo опитали 17 494 жінки віком від 18 років у 158 країнах, з них 12 681 — віком 35 років і старше. Наскільки відомо авторам, це перша спроба порівняти знання про перименопаузу та її симптоми одразу в такій кількості країн."
-        },
-        {
-          "t": "p",
-          "text": "Головний результат — розбіжність. Коли жінок питали, що вони знають про перименопаузу, найчастіше називали припливи (71%), проблеми зі сном (68%) і набір ваги (65%). Але коли жінки віком 35+ описували те, що переживають насправді, порядок виявився іншим: втома (83%), фізичне й розумове виснаження (83%), дратівливість (80%), пригнічений настрій (77%), проблеми зі сном (76%), розлади травлення (76%) і тривожність (75%). Припливи — те, що майже всі асоціюють із цим періодом, — узагалі не очолили список реальних симптомів. У вужчій групі жінок 35+, які сказали, що перебувають у перименопаузі зараз, ті самі симптоми були ще вищими: виснаження 95%, втома 93%."
-        },
-        {
-          "t": "p",
-          "text": "Ця прогалина має практичну ціну. Симптом, до якого вас підготували, можна назвати, знайти про нього інформацію і принести лікарю. У втоми, зниженого настрою, поганого сну й розладів травлення такої етикетки немає — їх списують на стрес, перевтому, залізо, щитоподібну залозу, тривожність або просто вік. Власний висновок авторів — розбіжність між тим, що жінки знають про перименопаузу, і тим, що вони переживають; вони наполягають, що виправляти треба розпізнавання симптомів, а не додавати обізнаності саме про припливи. Рівень знань суттєво відрізнявся за регіонами (P<0,001): найвищий — у Великій Британії, Ірландії, Канаді, Австралії та Нідерландах, США — на шостому місці."
-        },
-        {
-          "t": "p",
-          "text": "Жінкам, які живуть із діабетом або стежать за цукром, цей список варто перечитати двічі. Втома, виснаження, поганий сон, дратівливість і зміни травлення — це більш-менш точно симптоми високого або стрибкоподібного цукру. Тобто в перименопаузі ці два стани можуть маскувати одне одного в обидва боки. Падіння естрогену справді змінює чутливість до інсуліну, тож питання не в тому, щоб обрати одне пояснення замість іншого. Це причина вимірювати, а не припускати, — і окремо назвати перименопаузу лікарю, якщо поєднання цих симптомів нове й не схоже на ваш звичний стан."
-        },
-        {
-          "t": "p",
-          "text": "Про обмеження дослідження варто сказати прямо. Це поперечне (одномоментне) опитування людей, які вже обрали користуватися застосунком для відстеження циклу, — а це група, що радше молодша, більш залучена до теми здоров’я, краще обізнана про свій цикл і має смартфон. Воно не показує, наскільки поширені симптоми перименопаузи у світі, і не доводить, що гормональний перехід спричинив конкретний симптом: нічого тут не підтверджували клінічно й не спостерігали в часі. Що вибірка такого розміру й такої географії показує добре — це форму розриву між очікуванням і досвідом. І цей розрив достатньо стабільний, щоб на нього зважати."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Жінки впізнають припливи як симптом перименопаузи, але значно частіше повідомляють про втому, виснаження та зміни настрою.",
-              "detail": "Поперечне цифрове опитування 17 494 жінок віком 18+ у 158 країнах (12 681 віком 35+), проведене через застосунок Flo разом із дослідниками Mayo Clinic. Найкраще жінки впізнавали припливи (71%), проблеми зі сном (68%) і набір ваги (65%). Серед жінок 35+ найчастіше повідомляли про втому (83%), фізичне й розумове виснаження (83%), дратівливість (80%), пригнічений настрій (77%), проблеми зі сном (76%), розлади травлення (76%) і тривожність (75%). Регіональні відмінності в знаннях були значущими (P<0,001). Автори роблять висновок про розбіжність між знаннями про перименопаузу та реально пережитими симптомами. Оскільки це вибірка користувачок застосунку, які долучилися самостійно, вона не є оцінкою поширеності в загальній популяції, а поперечний дизайн не встановлює причинності.",
-              "cite": "Hedges MS та ін. · Menopause 2026;33(7):789–798",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41603602/"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Що ще почитати",
-          "items": [
-            {
-              "name": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
-              "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
-              "desc": "Той самий висновок у меншому опитуванні в США — це глобальна рецензована версія тієї ж історії."
-            },
-            {
-              "name": "Перименопауза та діабет: що насправді відбувається з вашим цукром у крові",
-              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
-              "desc": "Чому втома й проблеми зі сном після 40 можуть бути гормональними, метаболічними — або і тим, і тим одночасно."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Якщо в мене немає припливів, чи можу я бути в перименопаузі?",
-          "a": "Так. У цьому глобальному опитуванні понад 17 000 жінок припливи були тим, що жінки найчастіше впізнавали як симптом перименопаузи, але не тим, про що найчастіше повідомляли жінки віком 35+ — втома, фізичне й розумове виснаження, дратівливість, знижений настрій, поганий сон і зміни травлення були поширенішими. Відсутність припливів не виключає перименопаузу, і саме через це її часто пропускають або називають чимось іншим."
-        },
-        {
-          "q": "Як відрізнити втому в перименопаузі від проблем із цукром у крові?",
-          "a": "Часто за самими симптомами відрізнити неможливо — і це чесна відповідь: втома, поганий сон, дратівливість і розлади травлення є в обох списках. Ці стани можуть існувати й одночасно, адже падіння естрогену впливає на чутливість до інсуліну. Практичний шлях — вимірювати, а не вгадувати: попросіть лікаря перевірити цукор і HbA1c, роботу щитоподібної залози та феритин, і одразу на тому ж прийомі окремо назвіть перименопаузу як можливу причину, а не після того, як інші результати виявляться нормальними."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "gut-microbiome-precision-nutrition-women-2026",
-    "date": "2026-07-25",
-    "image": "/images/gut-microbiome-precision-nutrition-women-2026.jpg",
-    "cats": [
-      "nutrition"
-    ],
-    "en": {
-      "cat": "Nutrition",
-      "title": "Gut bacteria, fibre and hormones: what 2026's precision-nutrition research means for women over 40",
-      "seoTitle": "Gut Bacteria, Fibre & Hormones After 40: 2026 Research",
-      "excerpt": "A new 2026 review argues that fibre-rich, Mediterranean-style eating feeds the gut bacteria linked to weight, inflammation and hormone balance — and that the 'best' diet may increasingly be tailored to your own microbiome.",
-      "meta": "25 July 2026 · 3 min read",
-      "lead": "The idea that your gut bacteria shape your weight and hormones has moved from fringe to mainstream — and a new research review pulls the threads together, with a practical message for women over 40.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "A 2026 review in Frontiers in Microbiology, \"Precision nutrition targeting the gut microbiota for weight management,\" gathers the evidence on how what we eat feeds the trillions of microbes in our gut — and how those microbes, in turn, influence weight, metabolism and inflammation. Its headline point is one nutritionists have made for years: diets rich in fibre, or built along Mediterranean lines, tend to encourage a more diverse, beneficial mix of gut bacteria, while Western ultra-processed eating tends to narrow that diversity."
-        },
-        {
-          "t": "p",
-          "text": "The mechanism the authors keep returning to is short-chain fatty acids (SCFAs). When gut bacteria ferment the fibre you eat — from vegetables, pulses, whole grains, nuts and fruit — they produce SCFAs such as butyrate. These compounds help feed the cells lining the gut, support the gut barrier, calm inflammation and play a role in how the body handles energy. Less fibre means fewer of the bacteria that make them, and less of that quiet background work."
-        },
-        {
-          "t": "p",
-          "text": "What's newer is the \"precision\" angle. Researchers are combining multi-omics data (reading the genes, proteins and metabolites of the microbiome) with AI to map how one person's gut community differs from another's, and why the same diet can produce different results in different people. The review also points to a measure called the Dietary Index for Gut Microbiota (DI-GM) — essentially a score for how gut-friendly your eating pattern is — which, in observational data, higher-scoring diets have been associated with lower rates of some women's health conditions, including female infertility and pelvic inflammatory disease."
-        },
-        {
-          "t": "p",
-          "text": "A note on how firmly to hold all this: this is a narrative review, not a clinical trial. It synthesises existing research and explains mechanisms rather than testing a diet head-to-head, and several of the human links (like the DI-GM associations) come from observational studies, which can show a pattern but not prove cause. The sensible takeaway isn't a supplement or a test — it's the least surprising advice in nutrition: eat a wide range of plants, lean into fibre and a Mediterranean-style pattern, and go easy on ultra-processed food. For women in perimenopause, when weight and inflammation often shift, that's a foundation worth having regardless of what the microbiome science settles on next."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Fibre-rich, Mediterranean-style diets support a healthier gut microbiome and SCFA production.",
-              "detail": "A 2026 narrative review in Frontiers in Microbiology (\"Precision nutrition targeting the gut microbiota for weight management: mechanisms and applications\") concludes that diets high in fibre or resembling the Mediterranean pattern favourably modulate gut microbiota composition, promote beneficial bacteria and enhance short-chain fatty acid production — supporting weight regulation and lower inflammation — whereas Western ultra-processed diets reduce microbial diversity. It also describes emerging use of multi-omics and AI to personalise nutrition, and notes that a higher Dietary Index for Gut Microbiota (DI-GM) score has been associated with reduced risk of some conditions, including female infertility and pelvic inflammatory disease. As a review, it summarises mechanisms and existing (often observational) evidence rather than reporting a new randomised trial.",
-              "cite": "Frontiers in Microbiology · Narrative review, 2026",
-              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1806152/full"
-            }
-          ]
-        },
-        {
-          "t": "h",
-          "text": "Related reading"
-        },
-        {
-          "t": "links",
-          "title": "More on eating for weight, hormones and healthy ageing",
-          "items": [
-            {
-              "name": "Carbohydrate quality and healthy ageing",
-              "url": "/blog/carb-quality-healthy-aging/",
-              "desc": "Why fibre-rich, unrefined carbohydrates in midlife are tied to better odds of ageing well — the same whole-food pattern this gut research points to."
-            },
-            {
-              "name": "Natural sweeteners, sugar and your gut",
-              "url": "/blog/natural-sweeteners/",
-              "desc": "A closer look at how different sweeteners can affect the gut microbiome and your blood-sugar response."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "What are short-chain fatty acids, and why do they matter?",
-          "a": "Short-chain fatty acids (SCFAs) like butyrate are made when your gut bacteria ferment dietary fibre. They help nourish the cells lining the gut, support the gut barrier, dampen inflammation and contribute to how your body manages energy. You don't get them from a bottle — you get them by feeding the bacteria that make them, which means eating enough fibre from a variety of plants."
-        },
-        {
-          "q": "Do I need a microbiome test to eat for my gut?",
-          "a": "No. Personalised microbiome testing is an active research area, but for most people it isn't necessary to act well. The advice that comes out of this research is broad and low-risk: eat a wide range of plants, prioritise fibre, favour a Mediterranean-style pattern and limit ultra-processed foods. That helps your gut bacteria whether or not you ever test them."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Харчування",
-      "title": "Бактерії кишківника, клітковина й гормони: що дослідження точного харчування 2026 року означають для жінок після 40",
-      "seoTitle": "Мікробіом, клітковина й гормони після 40: дані 2026",
-      "excerpt": "Новий огляд 2026 року стверджує, що багате на клітковину харчування середземноморського типу живить бактерії кишківника, пов'язані з вагою, запаленням і гормональним балансом — і що «найкраща» дієта дедалі більше залежатиме від вашого власного мікробіому.",
-      "meta": "25 липня 2026 · 3 хв читання",
-      "lead": "Ідея, що бактерії кишківника впливають на вашу вагу й гормони, перейшла з маргінесу в мейнстрім — і новий науковий огляд зводить усе докупи, з практичним висновком для жінок після 40.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Огляд 2026 року у Frontiers in Microbiology — «Точне харчування, спрямоване на мікробіоту кишківника для контролю ваги» — узагальнює докази того, як їжа живить трильйони мікробів у нашому кишківнику й як ці мікроби, своєю чергою, впливають на вагу, метаболізм і запалення. Головна теза — та, яку нутриціологи повторюють роками: раціони, багаті на клітковину, або побудовані за середземноморським зразком, зазвичай сприяють різноманітнішому й корисному складу бактерій, тоді як західне ультраоброблене харчування цю різноманітність звужує."
-        },
-        {
-          "t": "p",
-          "text": "Механізм, до якого автори постійно повертаються, — це коротколанцюгові жирні кислоти (КЛЖК). Коли бактерії кишківника ферментують спожиту вами клітковину — з овочів, бобових, цільних злаків, горіхів і фруктів — вони виробляють КЛЖК, зокрема бутират. Ці сполуки живлять клітини, що вистилають кишківник, підтримують кишковий бар'єр, гамують запалення й беруть участь у тому, як організм розпоряджається енергією. Менше клітковини — менше бактерій, які їх виробляють, і менше цієї тихої фонової роботи."
-        },
-        {
-          "t": "p",
-          "text": "Новим є акцент на «точності». Дослідники поєднують дані мультиоміки (читання генів, білків і метаболітів мікробіому) зі штучним інтелектом, щоб зрозуміти, чим спільнота бактерій однієї людини відрізняється від іншої та чому та сама дієта дає різні результати в різних людей. Огляд також згадує показник під назвою Дієтичний індекс для мікробіоти кишківника (DI-GM) — по суті, оцінку того, наскільки ваш раціон дружній до кишківника, — і вищі його значення в спостережних даних пов'язували з нижчою частотою деяких станів у жінок, зокрема безпліддя та запальних захворювань органів малого таза."
-        },
-        {
-          "t": "p",
-          "text": "Кілька слів про те, наскільки твердо це сприймати: це наративний огляд, а не клінічне дослідження. Він узагальнює наявні дані й пояснює механізми, а не порівнює дієти безпосередньо, і чимало зв'язків у людей (як-от асоціації DI-GM) походять зі спостережних досліджень, які показують закономірність, але не доводять причину. Розумний висновок — не добавка й не тест, а найменш несподівана порада в харчуванні: їжте широкий набір рослинної їжі, налягайте на клітковину й середземноморський тип раціону, а ультрапереробленого їжте менше. Для жінок у перименопаузі, коли вага й запалення часто змінюються, це основа, яку варто мати незалежно від того, до чого прийде наука про мікробіом."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Багаті на клітковину дієти середземноморського типу підтримують здоровіший мікробіом і вироблення КЛЖК.",
-              "detail": "Наративний огляд 2026 року у Frontiers in Microbiology («Точне харчування, спрямоване на мікробіоту кишківника для контролю ваги: механізми та застосування») робить висновок, що раціони з високим вмістом клітковини або схожі на середземноморський тип сприятливо змінюють склад мікробіоти кишківника, сприяють корисним бактеріям і посилюють вироблення коротколанцюгових жирних кислот — підтримуючи регуляцію ваги й менше запалення, — тоді як західні ультраоброблені дієти знижують мікробне різноманіття. Він також описує застосування мультиоміки та ШІ для персоналізації харчування й зазначає, що вищий бал Дієтичного індексу для мікробіоти кишківника (DI-GM) пов'язували зі зниженим ризиком деяких станів, зокрема жіночого безпліддя та запальних захворювань органів малого таза. Як огляд, він узагальнює механізми та наявні (часто спостережні) докази, а не повідомляє про нове рандомізоване дослідження.",
-              "cite": "Frontiers in Microbiology · Наративний огляд, 2026",
-              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1806152/full"
-            }
-          ]
-        },
-        {
-          "t": "h",
-          "text": "Схожі новини"
-        },
-        {
-          "t": "links",
-          "title": "Більше про харчування для ваги, гормонів і здорового старіння",
-          "items": [
-            {
-              "name": "Якість вуглеводів і здорове старіння",
-              "url": "/ua/blog/carb-quality-healthy-aging/",
-              "desc": "Чому багаті на клітковину, нерафіновані вуглеводи в середньому віці пов'язані з кращими шансами старіти здорово — той самий цільнопродуктовий патерн, на який вказує це дослідження кишківника."
-            },
-            {
-              "name": "Натуральні підсолоджувачі, цукор і ваш кишківник",
-              "url": "/ua/blog/natural-sweeteners/",
-              "desc": "Докладніше про те, як різні підсолоджувачі можуть впливати на мікробіом кишківника й реакцію цукру в крові."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Що таке коротколанцюгові жирні кислоти й чому вони важливі?",
-          "a": "Коротколанцюгові жирні кислоти (КЛЖК), як-от бутират, утворюються, коли бактерії кишківника ферментують харчову клітковину. Вони живлять клітини, що вистилають кишківник, підтримують кишковий бар'єр, гамують запалення й впливають на те, як організм розпоряджається енергією. Їх не отримати з пляшечки — їх отримують, годуючи бактерії, які їх виробляють, тобто споживаючи достатньо клітковини з різноманітної рослинної їжі."
-        },
-        {
-          "q": "Чи потрібен тест мікробіому, щоб харчуватися на користь кишківника?",
-          "a": "Ні. Персоналізоване тестування мікробіому — активна галузь досліджень, але більшості людей воно не потрібне, щоб діяти правильно. Порада, яка випливає з цих досліджень, широка й малоризикова: їжте різноманітну рослинну їжу, віддавайте перевагу клітковині, тримайтеся середземноморського типу раціону й обмежуйте ультрапереробні продукти. Це допомагає вашим бактеріям незалежно від того, чи ви колись їх тестуєте."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "tirzepatide-hrt-weight-loss-menopause-2026",
-    "date": "2026-07-27",
-    "image": "/images/tirzepatide-hrt-weight-loss-menopause-2026.jpg",
-    "cats": [
-      "weight",
-      "perimenopause"
-    ],
-    "en": {
-      "cat": "Weight loss",
-      "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — with one caveat worth reading",
-      "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause",
-      "metaDesc": "A 2026 Lancet cohort study found postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. What it means — and the bone-and-muscle caveat.",
-      "excerpt": "Postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than those on tirzepatide alone in a 2026 Lancet cohort study. Encouraging — but it's observational, and rapid weight loss at midlife carries a bone-and-muscle cost worth planning for.",
-      "meta": "27 July 2026 · 4 min read",
-      "lead": "If you're navigating both menopause and weight, this one caught my eye. A 2026 analysis suggests that adding hormone therapy to tirzepatide — the GLP-1/GIP drug behind Mounjaro and Zepbound — may meaningfully boost weight loss after menopause. It's a genuinely interesting signal, so let me walk through what the study actually showed, and the part that matters just as much as the headline.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "The study, published in The Lancet Obstetrics, Gynaecology & Women's Health in early 2026, followed postmenopausal women with overweight or obesity who were taking tirzepatide. It compared those also using menopausal hormone therapy (HT) with those on tirzepatide alone. Over 12 months, the hormone-therapy group lost about 35% more weight — a total bodyweight reduction of –19.2% versus –14.0% (p=0.0023). Put another way, 45% of the hormone-therapy users lost at least a fifth of their bodyweight, compared with 18% of the others. Cardiometabolic markers improved more in the combination group too."
-        },
-        {
-          "t": "p",
-          "text": "Why might oestrogen make a difference? The leading explanation is that oestrogen influences where the body stores fat and how it handles insulin and appetite signals. As it falls in menopause, weight tends to shift toward the abdomen and metabolism becomes less forgiving — so topping oestrogen back up may simply restore some of the metabolic conditions that make a weight-loss drug work better. That's a plausible mechanism, not a proven one, and this study wasn't designed to prove cause and effect."
-        },
-        {
-          "t": "p",
-          "text": "That's the caveat I'd underline. This is a retrospective cohort study — it looked back at records of women who happened to be on these treatments, rather than randomly assigning them. Women who choose hormone therapy may differ in ways that also help with weight (they may be more engaged with their health, for instance), and an observational design can't fully rule that out. It shows a strong association, not proof. Tirzepatide's own weight-loss effect is well established from randomised trials — around 20% bodyweight versus roughly 3% on placebo — but the specific hormone-therapy boost still needs a proper randomised trial to confirm."
-        },
-        {
-          "t": "p",
-          "text": "And the part that doesn't make the headline: rapid weight loss at midlife has a body-composition cost. A meaningful share of the weight lost on any GLP-1 drug can come from muscle as well as fat, and menopause is already a vulnerable time for bone density as oestrogen drops. Losing weight fast, while your bones and muscle are under pressure anyway, is a combination clinicians increasingly flag. It doesn't mean don't do it — it means build in the protective habits from day one: [enough protein](/blog/protein-for-women-over-40/) (roughly 1.2–1.6 g per kg of bodyweight a day), resistance training a couple of times a week, and adequate vitamin D and calcium. None of that is optional if you want to keep the muscle and bone you'll rely on for decades."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Adding hormone therapy to tirzepatide was linked to 35% more weight loss after menopause.",
-              "detail": "In a retrospective cohort study of postmenopausal women with overweight or obesity, those using menopausal hormone therapy alongside tirzepatide lost 35% more total bodyweight over 12 months than those on tirzepatide alone (–19.2% vs –14.0%; p=0.0023). 45% of hormone-therapy users achieved at least 20% total bodyweight loss versus 18% of controls, with greater improvement in cardiometabolic markers. Because the design is observational, it demonstrates association rather than causation.",
-              "cite": "The Lancet Obstetrics, Gynaecology & Women's Health · Retrospective cohort study, 2026",
-              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
-            },
-            {
-              "claim": "Rapid GLP-1 weight loss around menopause raises a bone-and-muscle preservation concern.",
-              "detail": "GLP-1-based drugs produce fast weight loss, a portion of which can come from lean mass, and menopause independently accelerates bone-density loss as oestrogen declines. Clinicians therefore recommend pairing these medications with adequate protein (about 1.2–1.6 g/kg/day), regular resistance training, and sufficient vitamin D and calcium to protect muscle and bone during treatment.",
-              "cite": "Clinical guidance on GLP-1 use, menopause and body composition, 2026",
-              "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Related reading",
-          "items": [
-            {
-              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
-              "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
-              "desc": "What the body-composition data show about muscle loss on GLP-1 drugs, and why it matters more for women."
-            },
-            {
-              "name": "Eating more protein than the official guideline supports better muscle and bone after menopause",
-              "url": "/blog/higher-protein-postmenopausal-bone-muscle/",
-              "desc": "The protein case for protecting muscle and bone — especially while losing weight at midlife."
-            },
-            {
-              "name": "5 myths about perimenopause and weight",
-              "url": "/blog/perimenopause-weight-myths/",
-              "desc": "What's actually true about weight changes during perimenopause."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Does this mean I should ask for hormone therapy to lose more weight?",
-          "a": "Not on the strength of this study alone. It found a strong association, but it's observational — it can't prove the hormone therapy caused the extra weight loss, and it wasn't a trial. Hormone therapy is a decision that should rest on your menopause symptoms, your timing relative to menopause and your personal risk profile, discussed with your clinician. Better weight loss on a GLP-1 drug, if it holds up, would be a bonus rather than a reason to start."
-        },
-        {
-          "q": "How do I avoid losing muscle and bone on a GLP-1 drug during menopause?",
-          "a": "Plan for it from the start rather than reacting later. The core protections are eating enough protein (roughly 1.2–1.6 g per kg of bodyweight a day), doing resistance training two to three times a week, and making sure your vitamin D and calcium are adequate. These are the same habits that protect bone and muscle through menopause generally — the weight-loss drug just makes them non-negotiable."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Схуднення",
-      "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — з одним важливим застереженням",
-      "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи",
-      "metaDesc": "Дослідження The Lancet 2026 року: жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді. Що це означає — і застереження щодо кісток і м'язів.",
-      "excerpt": "Жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді, у когортному дослідженні The Lancet 2026 року. Обнадійливо — але дослідження спостережне, а швидка втрата ваги в середньому віці має ціну для кісток і м'язів, яку варто спланувати.",
-      "meta": "27 липня 2026 · 4 хв читання",
-      "lead": "Якщо ви одночасно проходите через менопаузу й працюєте над вагою, це вас зацікавить. Аналіз 2026 року припускає, що додавання гормональної терапії до тирзепатиду — препарату GLP-1/GIP, що стоїть за Mounjaro та Zepbound — може відчутно посилити втрату ваги після менопаузи. Сигнал справді цікавий, тож розберімо, що саме показало дослідження, і ту частину, яка важить не менше за заголовок.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Дослідження, опубліковане в The Lancet Obstetrics, Gynaecology & Women's Health на початку 2026 року, спостерігало за жінками в постменопаузі з надмірною вагою чи ожирінням, які приймали тирзепатид. Воно порівняло тих, хто додатково використовував менопаузальну гормональну терапію (ГТ), із тими, хто був лише на тирзепатиді. За 12 місяців група з гормональною терапією втратила приблизно на 35% більше ваги — загальне зниження маси тіла –19,2% проти –14,0% (p=0,0023). Інакше кажучи, 45% тих, хто був на гормональній терапії, втратили щонайменше п'яту частину маси тіла, порівняно з 18% в іншій групі. Кардіометаболічні показники також покращилися більше в комбінованій групі."
-        },
-        {
-          "t": "p",
-          "text": "Чому естроген може мати значення? Провідне пояснення — естроген впливає на те, де тіло зберігає жир і як воно обробляє інсулін та сигнали апетиту. Коли він знижується в менопаузі, вага зміщується до живота, а метаболізм стає менш поблажливим — тож повернення рівня естрогену може просто відновити частину метаболічних умов, за яких препарат для схуднення працює краще. Це правдоподібний механізм, а не доведений, і це дослідження не було створене, щоб довести причину й наслідок."
-        },
-        {
-          "t": "p",
-          "text": "Саме це застереження я б підкреслила. Це ретроспективне когортне дослідження — воно переглядало записи жінок, які вже приймали ці препарати, а не розподіляло їх випадковим чином. Жінки, які обирають гормональну терапію, можуть відрізнятися й у інший спосіб, що теж допомагає з вагою (наприклад, вони можуть уважніше ставитися до свого здоров'я), і спостережний дизайн не може цього повністю виключити. Воно показує сильний зв'язок, а не доказ. Власний ефект тирзепатиду для схуднення добре встановлений рандомізованими дослідженнями — близько 20% маси тіла проти приблизно 3% на плацебо — але конкретний внесок гормональної терапії ще потребує підтвердження належним рандомізованим дослідженням."
-        },
-        {
-          "t": "p",
-          "text": "І частина, яка не потрапляє в заголовок: швидка втрата ваги в середньому віці має ціну для складу тіла. Помітна частка ваги, втраченої на будь-якому препараті GLP-1, може припадати на м'язи, а не лише на жир, а менопауза й так є вразливим часом для щільності кісток через падіння естрогену. Швидко худнути, коли ваші кістки й м'язи вже під тиском, — це поєднання, на яке дедалі частіше звертають увагу лікарі. Це не означає «не робіть цього» — це означає закласти захисні звички з першого дня: [достатньо білка](/ua/blog/protein-for-women-over-40/) (приблизно 1,2–1,6 г на кг маси тіла на день), силові тренування кілька разів на тиждень і достатньо вітаміну D та кальцію. Нічого з цього не є необов'язковим, якщо ви хочете зберегти м'язи й кістки, на які покладатиметеся десятиліттями."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Додавання гормональної терапії до тирзепатиду пов'язане з на 35% більшою втратою ваги після менопаузи.",
-              "detail": "У ретроспективному когортному дослідженні жінок у постменопаузі з надмірною вагою чи ожирінням ті, хто використовував менопаузальну гормональну терапію разом із тирзепатидом, втратили на 35% більше загальної маси тіла за 12 місяців, ніж ті, хто був лише на тирзепатиді (–19,2% проти –14,0%; p=0,0023). 45% тих, хто був на гормональній терапії, досягли щонайменше 20% втрати маси тіла проти 18% у контрольній групі, з більшим покращенням кардіометаболічних показників. Оскільки дизайн спостережний, він демонструє зв'язок, а не причинність.",
-              "cite": "The Lancet Obstetrics, Gynaecology & Women's Health · Ретроспективне когортне дослідження, 2026",
-              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
-            },
-            {
-              "claim": "Швидка втрата ваги на GLP-1 під час менопаузи підвищує занепокоєння щодо збереження кісток і м'язів.",
-              "detail": "Препарати на основі GLP-1 дають швидку втрату ваги, частина якої може припадати на м'язову масу, а менопауза самостійно прискорює втрату щільності кісток через зниження естрогену. Тому лікарі рекомендують поєднувати ці препарати з достатньою кількістю білка (приблизно 1,2–1,6 г/кг/день), регулярними силовими тренуваннями та достатнім вітаміном D і кальцієм, щоб захистити м'язи й кістки під час лікування.",
-              "cite": "Клінічні рекомендації щодо застосування GLP-1, менопаузи та складу тіла, 2026",
-              "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Більше по темі",
-          "items": [
-            {
-              "name": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
-              "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
-              "desc": "Що показують дані про склад тіла щодо втрати м'язів на препаратах GLP-1 і чому це важливіше для жінок."
-            },
-            {
-              "name": "Більше білка, ніж рекомендує офіційна норма, підтримує м'язи й кістки після менопаузи",
-              "url": "/ua/blog/higher-protein-postmenopausal-bone-muscle/",
-              "desc": "Аргументи на користь білка для захисту м'язів і кісток — особливо під час схуднення в середньому віці."
-            },
-            {
-              "name": "5 міфів про перименопаузу та вагу",
-              "url": "/ua/blog/perimenopause-weight-myths/",
-              "desc": "Що насправді правда про зміни ваги під час перименопаузи."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чи означає це, що мені варто попросити гормональну терапію, щоб більше схуднути?",
-          "a": "Не на підставі лише цього дослідження. Воно виявило сильний зв'язок, але є спостережним — воно не може довести, що гормональна терапія спричинила додаткову втрату ваги, і це не було рандомізоване дослідження. Гормональна терапія — це рішення, яке має спиратися на ваші симптоми менопаузи, час відносно менопаузи та особистий профіль ризику, обговорене з лікарем. Краща втрата ваги на препараті GLP-1, якщо вона підтвердиться, була б приємним бонусом, а не приводом починати."
-        },
-        {
-          "q": "Як уникнути втрати м'язів і кісток на препараті GLP-1 під час менопаузи?",
-          "a": "Плануйте це від самого початку, а не реагуйте потім. Основні засоби захисту — їсти достатньо білка (приблизно 1,2–1,6 г на кг маси тіла на день), робити силові тренування два-три рази на тиждень і стежити, щоб вітамін D і кальцій були на достатньому рівні. Це ті самі звички, які захищають кістки й м'язи впродовж менопаузи загалом — препарат для схуднення просто робить їх обов'язковими."
-        }
-      ]
-    }
-  },
-  {
     "slug": "topical-oestrogen-skincare-menopause",
     "date": "2026-07-28",
     "image": "/images/topical-oestrogen-skincare-menopause.jpg",
@@ -7195,6 +7080,323 @@ export const POSTS = [
         {
           "q": "У мене був рак грудей. Чи безпечний MEP для мене, якщо він негормональний?",
           "a": "Запитайте свого онколога, а не припускайте. MEP розроблений так, щоб активувати естрогенові рецептори в шкірі, потрапляючи в кровотік уже неактивним метаболітом — тобто без системної гормональної дії за задумом. Але «розроблений так, щоб не» — це не те саме, що «доведено безпечний для цієї групи», а опубліковані дослідження малі й короткі. Рекомендації ASPS дотримуються тієї самої логіки щодо місцевих естрогенів: пацієнтки з раком грудей на інгібіторах ароматази є кандидатками лише за згодою онколога."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "tirzepatide-hrt-weight-loss-menopause-2026",
+    "date": "2026-07-27",
+    "image": "/images/tirzepatide-hrt-weight-loss-menopause-2026.jpg",
+    "cats": [
+      "weight",
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Weight loss",
+      "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — with one caveat worth reading",
+      "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause",
+      "metaDesc": "A 2026 Lancet cohort study found postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. What it means — and the bone-and-muscle caveat.",
+      "excerpt": "Postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than those on tirzepatide alone in a 2026 Lancet cohort study. Encouraging — but it's observational, and rapid weight loss at midlife carries a bone-and-muscle cost worth planning for.",
+      "meta": "27 July 2026 · 4 min read",
+      "lead": "If you're navigating both menopause and weight, this one caught my eye. A 2026 analysis suggests that adding hormone therapy to tirzepatide — the GLP-1/GIP drug behind Mounjaro and Zepbound — may meaningfully boost weight loss after menopause. It's a genuinely interesting signal, so let me walk through what the study actually showed, and the part that matters just as much as the headline.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The study, published in The Lancet Obstetrics, Gynaecology & Women's Health in early 2026, followed postmenopausal women with overweight or obesity who were taking tirzepatide. It compared those also using menopausal hormone therapy (HT) with those on tirzepatide alone. Over 12 months, the hormone-therapy group lost about 35% more weight — a total bodyweight reduction of –19.2% versus –14.0% (p=0.0023). Put another way, 45% of the hormone-therapy users lost at least a fifth of their bodyweight, compared with 18% of the others. Cardiometabolic markers improved more in the combination group too."
+        },
+        {
+          "t": "p",
+          "text": "Why might oestrogen make a difference? The leading explanation is that oestrogen influences where the body stores fat and how it handles insulin and appetite signals. As it falls in menopause, weight tends to shift toward the abdomen and metabolism becomes less forgiving — so topping oestrogen back up may simply restore some of the metabolic conditions that make a weight-loss drug work better. That's a plausible mechanism, not a proven one, and this study wasn't designed to prove cause and effect."
+        },
+        {
+          "t": "p",
+          "text": "That's the caveat I'd underline. This is a retrospective cohort study — it looked back at records of women who happened to be on these treatments, rather than randomly assigning them. Women who choose hormone therapy may differ in ways that also help with weight (they may be more engaged with their health, for instance), and an observational design can't fully rule that out. It shows a strong association, not proof. Tirzepatide's own weight-loss effect is well established from randomised trials — around 20% bodyweight versus roughly 3% on placebo — but the specific hormone-therapy boost still needs a proper randomised trial to confirm."
+        },
+        {
+          "t": "p",
+          "text": "And the part that doesn't make the headline: rapid weight loss at midlife has a body-composition cost. A meaningful share of the weight lost on any GLP-1 drug can come from muscle as well as fat, and menopause is already a vulnerable time for bone density as oestrogen drops. Losing weight fast, while your bones and muscle are under pressure anyway, is a combination clinicians increasingly flag. It doesn't mean don't do it — it means build in the protective habits from day one: [enough protein](/blog/protein-for-women-over-40/) (roughly 1.2–1.6 g per kg of bodyweight a day), resistance training a couple of times a week, and adequate vitamin D and calcium. None of that is optional if you want to keep the muscle and bone you'll rely on for decades."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Adding hormone therapy to tirzepatide was linked to 35% more weight loss after menopause.",
+              "detail": "In a retrospective cohort study of postmenopausal women with overweight or obesity, those using menopausal hormone therapy alongside tirzepatide lost 35% more total bodyweight over 12 months than those on tirzepatide alone (–19.2% vs –14.0%; p=0.0023). 45% of hormone-therapy users achieved at least 20% total bodyweight loss versus 18% of controls, with greater improvement in cardiometabolic markers. Because the design is observational, it demonstrates association rather than causation.",
+              "cite": "The Lancet Obstetrics, Gynaecology & Women's Health · Retrospective cohort study, 2026",
+              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
+            },
+            {
+              "claim": "Rapid GLP-1 weight loss around menopause raises a bone-and-muscle preservation concern.",
+              "detail": "GLP-1-based drugs produce fast weight loss, a portion of which can come from lean mass, and menopause independently accelerates bone-density loss as oestrogen declines. Clinicians therefore recommend pairing these medications with adequate protein (about 1.2–1.6 g/kg/day), regular resistance training, and sufficient vitamin D and calcium to protect muscle and bone during treatment.",
+              "cite": "Clinical guidance on GLP-1 use, menopause and body composition, 2026",
+              "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
+              "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
+              "desc": "What the body-composition data show about muscle loss on GLP-1 drugs, and why it matters more for women."
+            },
+            {
+              "name": "Eating more protein than the official guideline supports better muscle and bone after menopause",
+              "url": "/blog/higher-protein-postmenopausal-bone-muscle/",
+              "desc": "The protein case for protecting muscle and bone — especially while losing weight at midlife."
+            },
+            {
+              "name": "5 myths about perimenopause and weight",
+              "url": "/blog/perimenopause-weight-myths/",
+              "desc": "What's actually true about weight changes during perimenopause."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this mean I should ask for hormone therapy to lose more weight?",
+          "a": "Not on the strength of this study alone. It found a strong association, but it's observational — it can't prove the hormone therapy caused the extra weight loss, and it wasn't a trial. Hormone therapy is a decision that should rest on your menopause symptoms, your timing relative to menopause and your personal risk profile, discussed with your clinician. Better weight loss on a GLP-1 drug, if it holds up, would be a bonus rather than a reason to start."
+        },
+        {
+          "q": "How do I avoid losing muscle and bone on a GLP-1 drug during menopause?",
+          "a": "Plan for it from the start rather than reacting later. The core protections are eating enough protein (roughly 1.2–1.6 g per kg of bodyweight a day), doing resistance training two to three times a week, and making sure your vitamin D and calcium are adequate. These are the same habits that protect bone and muscle through menopause generally — the weight-loss drug just makes them non-negotiable."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Схуднення",
+      "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — з одним важливим застереженням",
+      "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи",
+      "metaDesc": "Дослідження The Lancet 2026 року: жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді. Що це означає — і застереження щодо кісток і м'язів.",
+      "excerpt": "Жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді, у когортному дослідженні The Lancet 2026 року. Обнадійливо — але дослідження спостережне, а швидка втрата ваги в середньому віці має ціну для кісток і м'язів, яку варто спланувати.",
+      "meta": "27 липня 2026 · 4 хв читання",
+      "lead": "Якщо ви одночасно проходите через менопаузу й працюєте над вагою, це вас зацікавить. Аналіз 2026 року припускає, що додавання гормональної терапії до тирзепатиду — препарату GLP-1/GIP, що стоїть за Mounjaro та Zepbound — може відчутно посилити втрату ваги після менопаузи. Сигнал справді цікавий, тож розберімо, що саме показало дослідження, і ту частину, яка важить не менше за заголовок.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Дослідження, опубліковане в The Lancet Obstetrics, Gynaecology & Women's Health на початку 2026 року, спостерігало за жінками в постменопаузі з надмірною вагою чи ожирінням, які приймали тирзепатид. Воно порівняло тих, хто додатково використовував менопаузальну гормональну терапію (ГТ), із тими, хто був лише на тирзепатиді. За 12 місяців група з гормональною терапією втратила приблизно на 35% більше ваги — загальне зниження маси тіла –19,2% проти –14,0% (p=0,0023). Інакше кажучи, 45% тих, хто був на гормональній терапії, втратили щонайменше п'яту частину маси тіла, порівняно з 18% в іншій групі. Кардіометаболічні показники також покращилися більше в комбінованій групі."
+        },
+        {
+          "t": "p",
+          "text": "Чому естроген може мати значення? Провідне пояснення — естроген впливає на те, де тіло зберігає жир і як воно обробляє інсулін та сигнали апетиту. Коли він знижується в менопаузі, вага зміщується до живота, а метаболізм стає менш поблажливим — тож повернення рівня естрогену може просто відновити частину метаболічних умов, за яких препарат для схуднення працює краще. Це правдоподібний механізм, а не доведений, і це дослідження не було створене, щоб довести причину й наслідок."
+        },
+        {
+          "t": "p",
+          "text": "Саме це застереження я б підкреслила. Це ретроспективне когортне дослідження — воно переглядало записи жінок, які вже приймали ці препарати, а не розподіляло їх випадковим чином. Жінки, які обирають гормональну терапію, можуть відрізнятися й у інший спосіб, що теж допомагає з вагою (наприклад, вони можуть уважніше ставитися до свого здоров'я), і спостережний дизайн не може цього повністю виключити. Воно показує сильний зв'язок, а не доказ. Власний ефект тирзепатиду для схуднення добре встановлений рандомізованими дослідженнями — близько 20% маси тіла проти приблизно 3% на плацебо — але конкретний внесок гормональної терапії ще потребує підтвердження належним рандомізованим дослідженням."
+        },
+        {
+          "t": "p",
+          "text": "І частина, яка не потрапляє в заголовок: швидка втрата ваги в середньому віці має ціну для складу тіла. Помітна частка ваги, втраченої на будь-якому препараті GLP-1, може припадати на м'язи, а не лише на жир, а менопауза й так є вразливим часом для щільності кісток через падіння естрогену. Швидко худнути, коли ваші кістки й м'язи вже під тиском, — це поєднання, на яке дедалі частіше звертають увагу лікарі. Це не означає «не робіть цього» — це означає закласти захисні звички з першого дня: [достатньо білка](/ua/blog/protein-for-women-over-40/) (приблизно 1,2–1,6 г на кг маси тіла на день), силові тренування кілька разів на тиждень і достатньо вітаміну D та кальцію. Нічого з цього не є необов'язковим, якщо ви хочете зберегти м'язи й кістки, на які покладатиметеся десятиліттями."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Додавання гормональної терапії до тирзепатиду пов'язане з на 35% більшою втратою ваги після менопаузи.",
+              "detail": "У ретроспективному когортному дослідженні жінок у постменопаузі з надмірною вагою чи ожирінням ті, хто використовував менопаузальну гормональну терапію разом із тирзепатидом, втратили на 35% більше загальної маси тіла за 12 місяців, ніж ті, хто був лише на тирзепатиді (–19,2% проти –14,0%; p=0,0023). 45% тих, хто був на гормональній терапії, досягли щонайменше 20% втрати маси тіла проти 18% у контрольній групі, з більшим покращенням кардіометаболічних показників. Оскільки дизайн спостережний, він демонструє зв'язок, а не причинність.",
+              "cite": "The Lancet Obstetrics, Gynaecology & Women's Health · Ретроспективне когортне дослідження, 2026",
+              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
+            },
+            {
+              "claim": "Швидка втрата ваги на GLP-1 під час менопаузи підвищує занепокоєння щодо збереження кісток і м'язів.",
+              "detail": "Препарати на основі GLP-1 дають швидку втрату ваги, частина якої може припадати на м'язову масу, а менопауза самостійно прискорює втрату щільності кісток через зниження естрогену. Тому лікарі рекомендують поєднувати ці препарати з достатньою кількістю білка (приблизно 1,2–1,6 г/кг/день), регулярними силовими тренуваннями та достатнім вітаміном D і кальцієм, щоб захистити м'язи й кістки під час лікування.",
+              "cite": "Клінічні рекомендації щодо застосування GLP-1, менопаузи та складу тіла, 2026",
+              "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Більше по темі",
+          "items": [
+            {
+              "name": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
+              "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
+              "desc": "Що показують дані про склад тіла щодо втрати м'язів на препаратах GLP-1 і чому це важливіше для жінок."
+            },
+            {
+              "name": "Більше білка, ніж рекомендує офіційна норма, підтримує м'язи й кістки після менопаузи",
+              "url": "/ua/blog/higher-protein-postmenopausal-bone-muscle/",
+              "desc": "Аргументи на користь білка для захисту м'язів і кісток — особливо під час схуднення в середньому віці."
+            },
+            {
+              "name": "5 міфів про перименопаузу та вагу",
+              "url": "/ua/blog/perimenopause-weight-myths/",
+              "desc": "Що насправді правда про зміни ваги під час перименопаузи."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи означає це, що мені варто попросити гормональну терапію, щоб більше схуднути?",
+          "a": "Не на підставі лише цього дослідження. Воно виявило сильний зв'язок, але є спостережним — воно не може довести, що гормональна терапія спричинила додаткову втрату ваги, і це не було рандомізоване дослідження. Гормональна терапія — це рішення, яке має спиратися на ваші симптоми менопаузи, час відносно менопаузи та особистий профіль ризику, обговорене з лікарем. Краща втрата ваги на препараті GLP-1, якщо вона підтвердиться, була б приємним бонусом, а не приводом починати."
+        },
+        {
+          "q": "Як уникнути втрати м'язів і кісток на препараті GLP-1 під час менопаузи?",
+          "a": "Плануйте це від самого початку, а не реагуйте потім. Основні засоби захисту — їсти достатньо білка (приблизно 1,2–1,6 г на кг маси тіла на день), робити силові тренування два-три рази на тиждень і стежити, щоб вітамін D і кальцій були на достатньому рівні. Це ті самі звички, які захищають кістки й м'язи впродовж менопаузи загалом — препарат для схуднення просто робить їх обов'язковими."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "gut-microbiome-precision-nutrition-women-2026",
+    "date": "2026-07-25",
+    "image": "/images/gut-microbiome-precision-nutrition-women-2026.jpg",
+    "cats": [
+      "nutrition"
+    ],
+    "en": {
+      "cat": "Nutrition",
+      "title": "Gut bacteria, fibre and hormones: what 2026's precision-nutrition research means for women over 40",
+      "seoTitle": "Gut Bacteria, Fibre & Hormones After 40: 2026 Research",
+      "excerpt": "A new 2026 review argues that fibre-rich, Mediterranean-style eating feeds the gut bacteria linked to weight, inflammation and hormone balance — and that the 'best' diet may increasingly be tailored to your own microbiome.",
+      "meta": "25 July 2026 · 3 min read",
+      "lead": "The idea that your gut bacteria shape your weight and hormones has moved from fringe to mainstream — and a new research review pulls the threads together, with a practical message for women over 40.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A 2026 review in Frontiers in Microbiology, \"Precision nutrition targeting the gut microbiota for weight management,\" gathers the evidence on how what we eat feeds the trillions of microbes in our gut — and how those microbes, in turn, influence weight, metabolism and inflammation. Its headline point is one nutritionists have made for years: diets rich in fibre, or built along Mediterranean lines, tend to encourage a more diverse, beneficial mix of gut bacteria, while Western ultra-processed eating tends to narrow that diversity."
+        },
+        {
+          "t": "p",
+          "text": "The mechanism the authors keep returning to is short-chain fatty acids (SCFAs). When gut bacteria ferment the fibre you eat — from vegetables, pulses, whole grains, nuts and fruit — they produce SCFAs such as butyrate. These compounds help feed the cells lining the gut, support the gut barrier, calm inflammation and play a role in how the body handles energy. Less fibre means fewer of the bacteria that make them, and less of that quiet background work."
+        },
+        {
+          "t": "p",
+          "text": "What's newer is the \"precision\" angle. Researchers are combining multi-omics data (reading the genes, proteins and metabolites of the microbiome) with AI to map how one person's gut community differs from another's, and why the same diet can produce different results in different people. The review also points to a measure called the Dietary Index for Gut Microbiota (DI-GM) — essentially a score for how gut-friendly your eating pattern is — which, in observational data, higher-scoring diets have been associated with lower rates of some women's health conditions, including female infertility and pelvic inflammatory disease."
+        },
+        {
+          "t": "p",
+          "text": "A note on how firmly to hold all this: this is a narrative review, not a clinical trial. It synthesises existing research and explains mechanisms rather than testing a diet head-to-head, and several of the human links (like the DI-GM associations) come from observational studies, which can show a pattern but not prove cause. The sensible takeaway isn't a supplement or a test — it's the least surprising advice in nutrition: eat a wide range of plants, lean into fibre and a Mediterranean-style pattern, and go easy on ultra-processed food. For women in perimenopause, when weight and inflammation often shift, that's a foundation worth having regardless of what the microbiome science settles on next."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Fibre-rich, Mediterranean-style diets support a healthier gut microbiome and SCFA production.",
+              "detail": "A 2026 narrative review in Frontiers in Microbiology (\"Precision nutrition targeting the gut microbiota for weight management: mechanisms and applications\") concludes that diets high in fibre or resembling the Mediterranean pattern favourably modulate gut microbiota composition, promote beneficial bacteria and enhance short-chain fatty acid production — supporting weight regulation and lower inflammation — whereas Western ultra-processed diets reduce microbial diversity. It also describes emerging use of multi-omics and AI to personalise nutrition, and notes that a higher Dietary Index for Gut Microbiota (DI-GM) score has been associated with reduced risk of some conditions, including female infertility and pelvic inflammatory disease. As a review, it summarises mechanisms and existing (often observational) evidence rather than reporting a new randomised trial.",
+              "cite": "Frontiers in Microbiology · Narrative review, 2026",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1806152/full"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Related reading"
+        },
+        {
+          "t": "links",
+          "title": "More on eating for weight, hormones and healthy ageing",
+          "items": [
+            {
+              "name": "Carbohydrate quality and healthy ageing",
+              "url": "/blog/carb-quality-healthy-aging/",
+              "desc": "Why fibre-rich, unrefined carbohydrates in midlife are tied to better odds of ageing well — the same whole-food pattern this gut research points to."
+            },
+            {
+              "name": "Natural sweeteners, sugar and your gut",
+              "url": "/blog/natural-sweeteners/",
+              "desc": "A closer look at how different sweeteners can affect the gut microbiome and your blood-sugar response."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What are short-chain fatty acids, and why do they matter?",
+          "a": "Short-chain fatty acids (SCFAs) like butyrate are made when your gut bacteria ferment dietary fibre. They help nourish the cells lining the gut, support the gut barrier, dampen inflammation and contribute to how your body manages energy. You don't get them from a bottle — you get them by feeding the bacteria that make them, which means eating enough fibre from a variety of plants."
+        },
+        {
+          "q": "Do I need a microbiome test to eat for my gut?",
+          "a": "No. Personalised microbiome testing is an active research area, but for most people it isn't necessary to act well. The advice that comes out of this research is broad and low-risk: eat a wide range of plants, prioritise fibre, favour a Mediterranean-style pattern and limit ultra-processed foods. That helps your gut bacteria whether or not you ever test them."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Харчування",
+      "title": "Бактерії кишківника, клітковина й гормони: що дослідження точного харчування 2026 року означають для жінок після 40",
+      "seoTitle": "Мікробіом, клітковина й гормони після 40: дані 2026",
+      "excerpt": "Новий огляд 2026 року стверджує, що багате на клітковину харчування середземноморського типу живить бактерії кишківника, пов'язані з вагою, запаленням і гормональним балансом — і що «найкраща» дієта дедалі більше залежатиме від вашого власного мікробіому.",
+      "meta": "25 липня 2026 · 3 хв читання",
+      "lead": "Ідея, що бактерії кишківника впливають на вашу вагу й гормони, перейшла з маргінесу в мейнстрім — і новий науковий огляд зводить усе докупи, з практичним висновком для жінок після 40.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Огляд 2026 року у Frontiers in Microbiology — «Точне харчування, спрямоване на мікробіоту кишківника для контролю ваги» — узагальнює докази того, як їжа живить трильйони мікробів у нашому кишківнику й як ці мікроби, своєю чергою, впливають на вагу, метаболізм і запалення. Головна теза — та, яку нутриціологи повторюють роками: раціони, багаті на клітковину, або побудовані за середземноморським зразком, зазвичай сприяють різноманітнішому й корисному складу бактерій, тоді як західне ультраоброблене харчування цю різноманітність звужує."
+        },
+        {
+          "t": "p",
+          "text": "Механізм, до якого автори постійно повертаються, — це коротколанцюгові жирні кислоти (КЛЖК). Коли бактерії кишківника ферментують спожиту вами клітковину — з овочів, бобових, цільних злаків, горіхів і фруктів — вони виробляють КЛЖК, зокрема бутират. Ці сполуки живлять клітини, що вистилають кишківник, підтримують кишковий бар'єр, гамують запалення й беруть участь у тому, як організм розпоряджається енергією. Менше клітковини — менше бактерій, які їх виробляють, і менше цієї тихої фонової роботи."
+        },
+        {
+          "t": "p",
+          "text": "Новим є акцент на «точності». Дослідники поєднують дані мультиоміки (читання генів, білків і метаболітів мікробіому) зі штучним інтелектом, щоб зрозуміти, чим спільнота бактерій однієї людини відрізняється від іншої та чому та сама дієта дає різні результати в різних людей. Огляд також згадує показник під назвою Дієтичний індекс для мікробіоти кишківника (DI-GM) — по суті, оцінку того, наскільки ваш раціон дружній до кишківника, — і вищі його значення в спостережних даних пов'язували з нижчою частотою деяких станів у жінок, зокрема безпліддя та запальних захворювань органів малого таза."
+        },
+        {
+          "t": "p",
+          "text": "Кілька слів про те, наскільки твердо це сприймати: це наративний огляд, а не клінічне дослідження. Він узагальнює наявні дані й пояснює механізми, а не порівнює дієти безпосередньо, і чимало зв'язків у людей (як-от асоціації DI-GM) походять зі спостережних досліджень, які показують закономірність, але не доводять причину. Розумний висновок — не добавка й не тест, а найменш несподівана порада в харчуванні: їжте широкий набір рослинної їжі, налягайте на клітковину й середземноморський тип раціону, а ультрапереробленого їжте менше. Для жінок у перименопаузі, коли вага й запалення часто змінюються, це основа, яку варто мати незалежно від того, до чого прийде наука про мікробіом."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Багаті на клітковину дієти середземноморського типу підтримують здоровіший мікробіом і вироблення КЛЖК.",
+              "detail": "Наративний огляд 2026 року у Frontiers in Microbiology («Точне харчування, спрямоване на мікробіоту кишківника для контролю ваги: механізми та застосування») робить висновок, що раціони з високим вмістом клітковини або схожі на середземноморський тип сприятливо змінюють склад мікробіоти кишківника, сприяють корисним бактеріям і посилюють вироблення коротколанцюгових жирних кислот — підтримуючи регуляцію ваги й менше запалення, — тоді як західні ультраоброблені дієти знижують мікробне різноманіття. Він також описує застосування мультиоміки та ШІ для персоналізації харчування й зазначає, що вищий бал Дієтичного індексу для мікробіоти кишківника (DI-GM) пов'язували зі зниженим ризиком деяких станів, зокрема жіночого безпліддя та запальних захворювань органів малого таза. Як огляд, він узагальнює механізми та наявні (часто спостережні) докази, а не повідомляє про нове рандомізоване дослідження.",
+              "cite": "Frontiers in Microbiology · Наративний огляд, 2026",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1806152/full"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Схожі новини"
+        },
+        {
+          "t": "links",
+          "title": "Більше про харчування для ваги, гормонів і здорового старіння",
+          "items": [
+            {
+              "name": "Якість вуглеводів і здорове старіння",
+              "url": "/ua/blog/carb-quality-healthy-aging/",
+              "desc": "Чому багаті на клітковину, нерафіновані вуглеводи в середньому віці пов'язані з кращими шансами старіти здорово — той самий цільнопродуктовий патерн, на який вказує це дослідження кишківника."
+            },
+            {
+              "name": "Натуральні підсолоджувачі, цукор і ваш кишківник",
+              "url": "/ua/blog/natural-sweeteners/",
+              "desc": "Докладніше про те, як різні підсолоджувачі можуть впливати на мікробіом кишківника й реакцію цукру в крові."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Що таке коротколанцюгові жирні кислоти й чому вони важливі?",
+          "a": "Коротколанцюгові жирні кислоти (КЛЖК), як-от бутират, утворюються, коли бактерії кишківника ферментують харчову клітковину. Вони живлять клітини, що вистилають кишківник, підтримують кишковий бар'єр, гамують запалення й впливають на те, як організм розпоряджається енергією. Їх не отримати з пляшечки — їх отримують, годуючи бактерії, які їх виробляють, тобто споживаючи достатньо клітковини з різноманітної рослинної їжі."
+        },
+        {
+          "q": "Чи потрібен тест мікробіому, щоб харчуватися на користь кишківника?",
+          "a": "Ні. Персоналізоване тестування мікробіому — активна галузь досліджень, але більшості людей воно не потрібне, щоб діяти правильно. Порада, яка випливає з цих досліджень, широка й малоризикова: їжте різноманітну рослинну їжу, віддавайте перевагу клітковині, тримайтеся середземноморського типу раціону й обмежуйте ультрапереробні продукти. Це допомагає вашим бактеріям незалежно від того, чи ви колись їх тестуєте."
         }
       ]
     }
@@ -8117,6 +8319,949 @@ export const POSTS = [
         {
           "q": "А теплізумаб — як його отримати?",
           "a": "Теплізумаб (TZIELD) схвалений у США для 2-ї стадії діабету 1 типу — людей, які мають автоантитіла й ранні зміни цукру, але ще не повний діабет, від 1 року. До нього зазвичай доходять через скринінг на антитіла (часто безкоштовного для родичів людини з діабетом 1 типу) і вводять як приблизно двотижневий курс інфузій. Поговоріть із ендокринологом про скринінг і відповідність критеріям."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "anxiety-brain-fog-top-menopause-symptom",
+    "date": "2026-07-17",
+    "image": "/images/anxiety-brain-fog-top-menopause-symptom.jpg",
+    "cats": [
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Perimenopause",
+      "title": "Anxiety and brain fog, not hot flashes, are now women's top menopause complaint",
+      "seoTitle": "Anxiety & Brain Fog Now Top Menopause Symptom",
+      "metaDesc": "A survey of over 2,000 women finds anxiety and brain fog have overtaken hot flashes as the leading menopause symptom. What's driving the shift.",
+      "excerpt": "Bonafide Health's sixth annual survey of over 2,000 women finds anxiety, brain fog and declining motivation have overtaken hot flashes as the leading menopause symptom — and nearly half say it's hit their income.",
+      "meta": "17 July 2026 · 3 min read",
+      "lead": "For years, menopause conversations have centred on hot flashes. New survey data suggests that's no longer the symptom women say is hardest to live with.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Bonafide Health's sixth annual State of Menopause survey, covering more than 2,000 US women aged 40–64, found that anxiety, brain fog and declining motivation now top the list of menopause complaints — overtaking hot flashes for the first time since the survey began."
+        },
+        {
+          "t": "p",
+          "text": "The shift matters because it's rarely what women expect, or what they're told to expect. Hot flashes are visible and easy to name; feeling anxious, scattered or unmotivated is easier to write off as stress, burnout or \"just a bad patch\" — especially in your 40s, when work and family pressures are already high."
+        },
+        {
+          "t": "p",
+          "text": "The survey also points to a real financial cost. 56% of respondents said declining motivation was the symptom most affecting their work, and 48% said their symptoms had negatively impacted their income — with 23% reporting losses of $10,000 or more."
+        },
+        {
+          "t": "p",
+          "text": "None of this means every low mood or foggy week is menopausal. But if you're 40 or older and notice a cluster of anxiety, mental fatigue and flagging drive that doesn't match your usual patterns, it's worth raising perimenopause specifically with your doctor — rather than defaulting to a stress or mental-health diagnosis alone."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Anxiety, brain fog and declining motivation have overtaken hot flashes as the top menopause symptom.",
+              "detail": "Bonafide Health's sixth annual State of Menopause survey of over 2,000 US women aged 40–64 found mental and cognitive symptoms now rank above hot flashes for the first time. 56% said declining motivation most affected their work performance; 48% said menopause symptoms had negatively impacted their income, and 23% reported losing $10,000 or more as a result.",
+              "cite": "Bonafide Health · Sixth Annual State of Menopause Survey, 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/07/15/3327741/0/en/bonafide-health-releases-sixth-annual-state-of-menopause-results.html"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is anxiety really a menopause symptom, or is it just stress?",
+          "a": "Both can be true at once, which is what makes it hard to spot. Hormonal shifts in perimenopause directly affect mood-regulating brain chemistry, and a 2026 survey of over 2,000 women found anxiety and brain fog now rank as the top menopause complaint, ahead of hot flashes. If new anxiety or fog appears alongside other perimenopause signs — irregular cycles, sleep changes, mood swings — it's worth mentioning to your doctor as a possible hormonal factor, not only a stress issue."
+        },
+        {
+          "q": "Why don't more women realise brain fog can be a menopause symptom?",
+          "a": "Because public awareness and clinical guidance have historically centred on hot flashes as the defining symptom. Newer, larger surveys are showing that cognitive and mood symptoms are actually more common complaints for many women, but that message hasn't caught up with general expectations yet — which is part of why so many women attribute these changes to burnout instead."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Перименопауза",
+      "title": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
+      "seoTitle": "Тривога й туман у голові — головний симптом",
+      "metaDesc": "Опитування понад 2000 жінок: тривога й туман у голові випередили припливи як головний симптом менопаузи. Що стоїть за цією зміною і що допомагає.",
+      "excerpt": "Шосте щорічне опитування Bonafide Health, у якому взяли участь понад 2000 жінок, показало: тривожність, туман у голові та зниження мотивації обійшли припливи як головний симптом менопаузи — і майже половина жінок каже, що це вдарило по їхньому доходу.",
+      "meta": "17 липня 2026 · 3 хв читання",
+      "lead": "Роками розмови про менопаузу оберталися навколо припливів. Нові дані опитування свідчать, що це вже не той симптом, з яким жінкам найважче жити.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Шосте щорічне опитування Bonafide Health про стан менопаузи, у якому взяли участь понад 2000 жінок у США віком 40–64 роки, показало: тривожність, туман у голові та зниження мотивації тепер очолюють список скарг на менопаузу — уперше обійшовши припливи відтоді, як опитування почали проводити."
+        },
+        {
+          "t": "p",
+          "text": "Ця зміна важлива, бо рідко відповідає тому, чого жінки очікують або що їм казали очікувати. Припливи помітні й легко назвати; тривожність, розсіяність чи брак мотивації легше списати на стрес, вигорання чи «просто складний період» — особливо у 40+, коли тиск роботи й родини й так високий."
+        },
+        {
+          "t": "p",
+          "text": "Опитування також вказує на реальну фінансову ціну. 56% респонденток заявили, що зниження мотивації найбільше впливало на їхню роботу, а 48% сказали, що симптоми негативно позначилися на їхньому доході — 23% повідомили про втрату 10 000 доларів або більше."
+        },
+        {
+          "t": "p",
+          "text": "Це не означає, що будь-який поганий настрій чи туманний тиждень — обов’язково менопаузальний. Але якщо вам 40 або більше і ви помічаєте поєднання тривожності, розумової втоми та падіння драйву, яке не схоже на ваш звичний стан, варто окремо обговорити з лікарем саме перименопаузу — а не одразу зупинятися лише на діагнозі стресу чи ментального здоров’я."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Тривожність, туман у голові та зниження мотивації обійшли припливи як головний симптом менопаузи.",
+              "detail": "Шосте щорічне опитування Bonafide Health про стан менопаузи серед понад 2000 жінок у США віком 40–64 роки показало, що ментальні та когнітивні симптоми вперше випередили припливи. 56% сказали, що зниження мотивації найбільше впливало на їхню роботу; 48% заявили, що симптоми менопаузи негативно позначилися на доході, а 23% повідомили про втрату 10 000 доларів або більше.",
+              "cite": "Bonafide Health · Шосте щорічне опитування про стан менопаузи, 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/07/15/3327741/0/en/bonafide-health-releases-sixth-annual-state-of-menopause-results.html"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи справді тривожність — це симптом менопаузи, чи це просто стрес?",
+          "a": "Може бути правдою і те, і те одночасно — саме тому це важко розпізнати. Гормональні зміни в перименопаузі напряму впливають на мозкову хімію, що регулює настрій, і опитування 2026 року серед понад 2000 жінок показало, що тривожність і туман у голові тепер головна скарга на менопаузу, випереджаючи припливи. Якщо нова тривожність чи туман з’являються поряд з іншими ознаками перименопаузи — нерегулярний цикл, зміни сну, перепади настрою — варто згадати про це лікарю як про можливий гормональний чинник, а не лише проблему стресу."
+        },
+        {
+          "q": "Чому не всі жінки знають, що туман у голові може бути симптомом менопаузи?",
+          "a": "Тому що суспільна обізнаність і клінічні рекомендації історично зосереджувалися на припливах як визначальному симптомі. Нові, масштабніші опитування показують, що когнітивні симптоми та зміни настрою насправді є частішою скаргою для багатьох жінок, але ця інформація ще не наздогнала загальні очікування — саме тому багато жінок пояснюють ці зміни вигоранням."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "type2-diabetes-women-under-40-sex-bias",
+    "date": "2026-07-17",
+    "image": "/images/type2-diabetes-women-under-40-sex-bias.jpg",
+    "cats": [
+      "diabetes"
+    ],
+    "en": {
+      "cat": "Diabetes",
+      "title": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn't caught up",
+      "seoTitle": "Type 2 Diabetes Rising Fast in Women Under 40",
+      "metaDesc": "A 2026 review argues diabetes care treats women as if hormones don't matter — even as type 2 rises twice as fast in women under 40. Why the gap persists.",
+      "excerpt": "A major 2026 Medscape clinical review argues diabetes care still treats women as if hormones don't matter, even as type 2 diabetes rises twice as fast in women under 40 than in men.",
+      "meta": "17 July 2026 · 3 min read",
+      "lead": "Diabetes guidelines are largely written as if one protocol fits everyone. A major 2026 clinical review argues that's a problem — and that it's costing younger women in particular.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A 2026 Medscape clinical review makes a case that's overdue: diabetes is not a gender-neutral disease, yet diabetes care is still largely built as if it were. The review highlights that type 2 diabetes is now rising twice as fast in women under 40 compared with men in the same age group."
+        },
+        {
+          "t": "p",
+          "text": "Part of the gap is biological. Hormonal shifts across a woman's life — the menstrual cycle, pregnancy, perimenopause and menopause — measurably change insulin sensitivity and glucose metabolism. The review notes insulin requirements can shift by as much as 15% across the luteal phase of the cycle alone, yet most diabetes management protocols make no allowance for it."
+        },
+        {
+          "t": "p",
+          "text": "Part of the gap is also structural. Women remain underrepresented in the clinical trials that shape treatment guidelines, so sex-specific patterns in how glucose control behaves are often invisible in the data used to write those guidelines in the first place."
+        },
+        {
+          "t": "p",
+          "text": "If your blood sugar feels harder to predict at certain points in your cycle or life stage than standard advice suggests it should be, that's not necessarily you doing something wrong. It's a reasonable prompt to track your own patterns across the month and bring that data to your diabetes team, rather than assuming a one-size protocol should already account for it."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Type 2 diabetes is rising twice as fast in women under 40 than in men, and diabetes care underaccounts for hormonal sex differences.",
+              "detail": "A 2026 Medscape clinical review reports that hormonal changes across a woman's life — including the menstrual cycle, pregnancy, perimenopause and menopause — significantly affect glucose metabolism and insulin needs, with insulin requirements shifting by up to 15% across the luteal phase alone. The review notes women remain underrepresented in the clinical trials underpinning diabetes guidelines, and that type 2 diabetes is now increasing twice as fast in women under 40 compared with men.",
+              "cite": "Medscape · Clinical Review, 13 July 2026",
+              "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is type 2 diabetes rising faster in younger women?",
+          "a": "A 2026 Medscape clinical review points to a combination of factors: hormonal changes across a woman's life that affect insulin sensitivity, and diabetes care protocols that were largely developed from trials where women were underrepresented. The result is that sex-specific patterns in glucose control are often not built into standard guidance, which may leave younger women's diabetes risk and management less well addressed."
+        },
+        {
+          "q": "Can my insulin needs really change across my menstrual cycle?",
+          "a": "Yes — the same 2026 review notes insulin requirements can shift by up to 15% during the luteal phase of the cycle. If you notice your glucose control varying in a pattern that tracks with your cycle, it's worth logging it and discussing with your diabetes team, since standard protocols don't automatically factor this in."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Діабет",
+      "title": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40 — а система догляду цього ще не наздогнала",
+      "seoTitle": "Діабет 2 типу швидко зростає у жінок до 40",
+      "metaDesc": "Огляд 2026 року: медицина лікує діабет так, ніби гормони не мають значення — попри вдвічі швидше зростання в жінок до 40. Чому розрив зберігається.",
+      "excerpt": "Великий клінічний огляд Medscape 2026 року стверджує: система догляду за діабетом досі влаштована так, ніби гормони не мають значення, попри те що діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед чоловіків.",
+      "meta": "17 липня 2026 · 3 хв читання",
+      "lead": "Рекомендації щодо діабету здебільшого написані так, ніби один протокол підходить усім. Великий клінічний огляд 2026 року стверджує, що це проблема — і що вона особливо дорого коштує молодшим жінкам.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Клінічний огляд Medscape 2026 року порушує давно назрілу тему: діабет не є гендерно нейтральною хворобою, але система догляду за діабетом досі здебільшого влаштована так, ніби це так. Огляд підкреслює, що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 років порівняно з чоловіками того ж віку."
+        },
+        {
+          "t": "p",
+          "text": "Частина розриву — біологічна. Гормональні зміни протягом життя жінки — менструальний цикл, вагітність, перименопауза та менопауза — вимірно змінюють чутливість до інсуліну та метаболізм глюкози. Огляд зазначає, що потреба в інсуліні може змінюватися до 15% лише протягом лютеїнової фази циклу, але більшість протоколів лікування діабету цього не враховують."
+        },
+        {
+          "t": "p",
+          "text": "Частина розриву — структурна. Жінки досі недостатньо представлені в клінічних дослідженнях, які формують рекомендації з лікування, тож специфічні для статі патерни контролю глюкози часто залишаються невидимими в даних, на основі яких ці рекомендації взагалі писалися."
+        },
+        {
+          "t": "p",
+          "text": "Якщо ваш рівень цукру в певні моменти циклу чи етапу життя важче передбачити, ніж це передбачає стандартна порада, це не обов’язково означає, що ви робите щось не так. Це достатня підстава відстежувати власні патерни протягом місяця й приносити ці дані своїй команді з діабету, а не припускати, що універсальний протокол уже це враховує."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед чоловіків, а система догляду за діабетом недостатньо враховує гормональні відмінності між статями.",
+              "detail": "Клінічний огляд Medscape 2026 року повідомляє, що гормональні зміни протягом життя жінки — зокрема менструальний цикл, вагітність, перименопауза та менопауза — суттєво впливають на метаболізм глюкози й потребу в інсуліні, причому потреба в інсуліні змінюється до 15% лише протягом лютеїнової фази. Огляд зазначає, що жінки досі недостатньо представлені в клінічних дослідженнях, на яких ґрунтуються рекомендації з діабету, і що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 порівняно з чоловіками.",
+              "cite": "Medscape · Клінічний огляд, 13 липня 2026",
+              "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чому діабет 2 типу зростає швидше серед молодших жінок?",
+          "a": "Клінічний огляд Medscape 2026 року вказує на поєднання чинників: гормональні зміни протягом життя жінки, що впливають на чутливість до інсуліну, і протоколи лікування діабету, здебільшого розроблені на основі досліджень, де жінки були недостатньо представлені. У результаті специфічні для статі патерни контролю глюкози часто не закладені у стандартні рекомендації, що може означати гірше врахування ризику діабету та його ведення в молодших жінок."
+        },
+        {
+          "q": "Чи справді потреба в інсуліні може змінюватися протягом менструального циклу?",
+          "a": "Так — той самий огляд 2026 року зазначає, що потреба в інсуліні може змінюватися до 15% протягом лютеїнової фази циклу. Якщо ви помічаєте, що контроль глюкози змінюється за патерном, пов’язаним із циклом, варто це фіксувати й обговорювати з командою з діабету, адже стандартні протоколи автоматично цього не враховують."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "higher-protein-postmenopausal-bone-muscle",
+    "date": "2026-07-17",
+    "image": "/images/higher-protein-postmenopausal-bone-muscle.jpg",
+    "cats": [
+      "nutrition"
+    ],
+    "en": {
+      "cat": "Nutrition",
+      "title": "Eating more protein than the official guideline supports better muscle and bone after menopause",
+      "seoTitle": "Protein After Menopause: More Than the Guideline",
+      "excerpt": "A Women's Health Initiative analysis of 3,789 postmenopausal women finds those hitting higher protein targets than the standard RDA had better body composition and bone outcomes over 3 years.",
+      "meta": "17 July 2026 · 3 min read",
+      "lead": "The official protein guideline — 0.8g per kilogram of body weight a day — was set decades ago from studies that barely included older women. A new analysis suggests it may be too low for the postmenopausal years.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Researchers used data from 3,789 postmenopausal women aged 50–79 in the Women's Health Initiative to model what would happen over 3 years at different protein intakes: the current RDA of 0.8g/kg/day, and higher targets of 1.0, 1.2 and 1.5g/kg/day. Body composition was tracked with DXA scans, the same imaging used to measure bone density and lean versus fat mass."
+        },
+        {
+          "t": "p",
+          "text": "Women who sustained protein intake above the RDA — particularly at or above 1.2g/kg/day — showed more favourable changes in lean mass and bone measures than those who stuck close to the minimum guideline. For a 65kg woman, that's roughly 78g of protein a day rather than 52g, spread across meals rather than loaded into one."
+        },
+        {
+          "t": "p",
+          "text": "This matters because postmenopausal women lose muscle and bone density faster once oestrogen drops, and both are strongly linked to frailty, fracture risk and metabolic health later in life. The RDA was never designed as a target for healthy ageing — it's the minimum to avoid deficiency, calculated mostly from younger adults."
+        },
+        {
+          "t": "p",
+          "text": "This was an observational emulated-trial analysis, not a randomised controlled trial, so it shows association rather than definitive proof of cause. But it adds to a growing body of evidence that [higher protein](/blog/protein-for-women-over-40/) — alongside resistance exercise — is one of the more actionable levers for preserving muscle and bone through the menopause transition."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Postmenopausal women sustaining protein intake above 1.2g/kg/day showed more favourable 3-year body composition and bone changes than those near the 0.8g/kg/day RDA.",
+              "detail": "An emulated target-trial analysis of 3,789 postmenopausal women aged 50–79 in the Women's Health Initiative study used DXA-measured body composition to compare hypothetical adherence to four protein intake levels (≥0.8, ≥1.0, ≥1.2 and ≥1.5g/kg/day) over 3 years. Higher sustained intake was associated with more favourable lean mass and bone outcomes than intake at the current RDA.",
+              "cite": "International Journal of Obesity (Nature) · Women's Health Initiative analysis, 2026",
+              "url": "https://www.nature.com/articles/s41366-025-01978-0"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Why protein matters more after 40",
+              "url": "/blog/protein-for-women-over-40/",
+              "desc": "How protein needs shift with age and hormones, and practical ways to hit your target."
+            },
+            {
+              "name": "Carb quality and healthy ageing",
+              "url": "/blog/carb-quality-healthy-aging/",
+              "desc": "Why the type of carbohydrate matters as much as the amount as you get older."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much protein should I actually eat after menopause?",
+          "a": "The official RDA of 0.8g per kg of body weight a day is a minimum, not an optimum. A 2026 Women's Health Initiative analysis found postmenopausal women sustaining around 1.2g/kg/day or more had better bone and lean-mass outcomes over 3 years. For a 65kg woman, that's roughly 78g of protein daily, spread across meals."
+        },
+        {
+          "q": "Is it too late to start eating more protein if I'm already postmenopausal?",
+          "a": "No — the analysis followed women already postmenopausal, aged 50–79, and still found benefit from higher intake over just 3 years. Combining higher protein with resistance exercise is the combination most consistently linked to preserving muscle and bone at this life stage."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Харчування",
+      "title": "Білка більше за офіційну норму — краще для м'язів і кісток після менопаузи",
+      "seoTitle": "Білок після менопаузи: більше за норму — краще",
+      "excerpt": "Аналіз даних Women's Health Initiative серед 3789 жінок у постменопаузі показує: ті, хто вживав більше білка, ніж стандартна норма, мали кращий склад тіла та стан кісток протягом 3 років.",
+      "meta": "17 липня 2026 · 3 хв читання",
+      "lead": "Офіційна норма білка — 0,8 г на кілограм ваги на день — була встановлена десятиліття тому за дослідженнями, де майже не було літніх жінок. Новий аналіз свідчить, що для періоду після менопаузи вона може бути занизькою.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Дослідники використали дані 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative, щоб змоделювати, що станеться за 3 роки при різному споживанні білка: чинній нормі 0,8 г/кг/день і вищих цілях — 1,0, 1,2 та 1,5 г/кг/день. Склад тіла відстежували за допомогою DXA-сканування — того ж методу візуалізації, яким вимірюють щільність кісток та співвідношення м'язової і жирової маси."
+        },
+        {
+          "t": "p",
+          "text": "У жінок, які підтримували споживання білка вище норми — особливо на рівні 1,2 г/кг/день і вище — спостерігалися сприятливіші зміни м'язової маси та показників кісток, ніж у тих, хто тримався мінімальної норми. Для жінки вагою 65 кг це приблизно 78 г білка на день замість 52 г, розподілених по прийомах їжі, а не з’їдених за один раз."
+        },
+        {
+          "t": "p",
+          "text": "Це важливо, бо жінки в постменопаузі втрачають м'язи та щільність кісток швидше після зниження естрогену, а обидва показники тісно пов’язані з крихкістю, ризиком переломів та метаболічним здоров’ям у майбутньому. Норма RDA ніколи не була розрахована як ціль для здорового старіння — це лише мінімум для уникнення дефіциту, здебільшого визначений за дослідженнями молодших дорослих."
+        },
+        {
+          "t": "p",
+          "text": "Це був спостережний аналіз за методом емульованого дослідження, а не рандомізоване контрольоване дослідження, тож він показує зв’язок, а не остаточний доказ причини. Але він додається до дедалі більшої кількості доказів того, що [вищий білок](/ua/blog/protein-for-women-over-40/) разом із силовими тренуваннями — один із найбільш практичних важелів для збереження м'язів і кісток під час переходу через менопаузу."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "У жінок у постменопаузі, які підтримували споживання білка понад 1,2 г/кг/день, спостерігалися сприятливіші зміни складу тіла та кісток за 3 роки, ніж у тих, хто тримався норми 0,8 г/кг/день.",
+              "detail": "Аналіз за методом емульованого дослідження серед 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative використав DXA-виміряний склад тіла, щоб порівняти гіпотетичне дотримання чотирьох рівнів споживання білка (≥0,8, ≥1,0, ≥1,2 та ≥1,5 г/кг/день) протягом 3 років. Вище стале споживання пов’язувалося зі сприятливішими показниками м'язової маси та кісток порівняно зі споживанням на рівні чинної норми.",
+              "cite": "International Journal of Obesity (Nature) · Аналіз Women's Health Initiative, 2026",
+              "url": "https://www.nature.com/articles/s41366-025-01978-0"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Скільки білка насправді варто їсти після менопаузи?",
+          "a": "Офіційна норма 0,8 г на кг ваги на день — це мінімум, а не оптимум. Аналіз Women's Health Initiative 2026 року показав, що жінки в постменопаузі, які підтримували приблизно 1,2 г/кг/день або більше, мали кращі показники кісток і м'язової маси протягом 3 років. Для жінки вагою 65 кг це приблизно 78 г білка на день, розподілених по прийомах їжі."
+        },
+        {
+          "q": "Чи пізно починати їсти більше білка, якщо я вже в постменопаузі?",
+          "a": "Ні — дослідження стежило за жінками, які вже були в постменопаузі, віком 50–79 років, і все одно виявило користь від вищого споживання лише за 3 роки. Поєднання більшого білка із силовими тренуваннями — комбінація, яка найпослідовніше пов’язана зі збереженням м'язів і кісток на цьому етапі життя."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hrt-restores-skin-collagen-2026-review",
+    "date": "2026-07-17",
+    "image": "/images/hrt-restores-skin-collagen-2026-review.jpg",
+    "cats": [
+      "skin",
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Skin & beauty",
+      "title": "2026 review confirms HRT restores skin collagen, elasticity and hydration",
+      "seoTitle": "HRT and Skin: Collagen, Elasticity & Hydration (2026)",
+      "excerpt": "A 2026 review in the journal Life pulls together the evidence on menopause, oestrogen and skin — confirming HRT measurably improves collagen content, elasticity and hydration.",
+      "meta": "17 July 2026 · 3 min read",
+      "lead": "Skin is often left out of the menopause conversation entirely. A 2026 review makes the case that it shouldn't be — and that hormone therapy has real, measurable effects on it.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Published in the journal Life, the review draws together research on how falling oestrogen changes skin after menopause: collagen content declines by around 2% a year, elasticity drops, and moisture retention weakens — together producing thinner, drier, more wrinkle-prone skin."
+        },
+        {
+          "t": "p",
+          "text": "Oestrogen isn't cosmetic background noise here — it directly drives collagen production and the skin's ability to hold water. The review confirms hormone replacement therapy measurably improves collagen content, elasticity, thickness and hydration when started, partially reversing changes that accelerate once oestrogen drops."
+        },
+        {
+          "t": "p",
+          "text": "The effect isn't limited to systemic HRT. The review also notes topical oestrogen and non-hormonal alternatives show promise for people who want localised skin benefit without systemic hormone therapy — useful for those who can't or don't want to take HRT for other reasons."
+        },
+        {
+          "t": "p",
+          "text": "None of this makes HRT a skincare product, and the decision to start it should rest on your full symptom picture and personal risk profile, not skin alone. But if skin changes are part of what's bothering you at perimenopause or menopause, it's a legitimate factor to raise with your doctor — not a vanity concern to set aside."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "HRT measurably improves skin collagen content, elasticity and hydration after menopause.",
+              "detail": "A 2026 review in the journal Life synthesises evidence that oestrogen decline after menopause reduces skin collagen by roughly 2% per year alongside losses in elasticity and hydration, and that hormone replacement therapy partially restores collagen content, elasticity, thickness and hydration. Topical oestrogen and non-hormonal agents were also noted as showing potential for targeted skin benefit.",
+              "cite": "Life (MDPI) · Review, 2026",
+              "url": "https://www.mdpi.com/2075-1729/16/3/401"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Why skin changes so fast at menopause — and what hormone therapy can and can't do",
+              "url": "/blog/menopause-skin-oestrogen/",
+              "desc": "Oestrogen affects far more than hot flushes — the full picture on HRT and skin changes."
+            },
+            {
+              "name": "Do collagen products actually improve your skin?",
+              "url": "/blog/collagen-and-skin/",
+              "desc": "Declining oestrogen accelerates collagen loss. What the evidence says about supplementing."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can HRT actually reverse skin ageing from menopause?",
+          "a": "It can partially reverse some of it. A 2026 review found HRT measurably improves skin collagen content, elasticity, thickness and hydration compared with untreated menopause, where collagen declines by around 2% a year. It's not a full reversal or a substitute for skincare, but the effect on skin structure is real and measurable."
+        },
+        {
+          "q": "Should I start HRT just for my skin?",
+          "a": "No — skin benefit is a real effect of HRT but not a standalone reason to start it. The decision should weigh your full symptom picture (hot flushes, sleep, mood, bone health) and personal risk factors with your doctor. If skin changes are contributing to how you feel, it's fine to mention them as part of that wider conversation."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Краса та шкіра",
+      "title": "Огляд 2026 року підтверджує: ЗГТ відновлює колаген, еластичність і зволоженість шкіри",
+      "seoTitle": "ЗГТ і шкіра: колаген, еластичність, зволоженість (2026)",
+      "excerpt": "Огляд 2026 року в журналі Life зібрав докази про менопаузу, естроген і шкіру — підтверджуючи, що ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість.",
+      "meta": "17 липня 2026 · 3 хв читання",
+      "lead": "Шкіру часто повністю випускають з розмови про менопаузу. Огляд 2026 року доводить, що це неправильно — і що гормональна терапія має реальний, вимірний вплив на неї.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Опублікований у журналі Life огляд зібрав дослідження того, як зниження естрогену змінює шкіру після менопаузи: вміст колагену знижується приблизно на 2% на рік, еластичність падає, а здатність утримувати вологу слабшає — разом це дає тоншу, сухішу шкіру, схильнішу до зморшок."
+        },
+        {
+          "t": "p",
+          "text": "Естроген тут — не косметичний фон: він напряму керує виробленням колагену та здатністю шкіри утримувати воду. Огляд підтверджує, що замісна гормональна терапія вимірно покращує вміст колагену, еластичність, товщину та зволоженість шкіри після початку прийому, частково повертаючи зміни, які прискорюються після зниження естрогену."
+        },
+        {
+          "t": "p",
+          "text": "Ефект не обмежується системною ЗГТ. Огляд також зазначає, що місцевий естроген і негормональні альтернативи показують перспективність для тих, хто хоче локальну користь для шкіри без системної гормональної терапії — це корисно для тих, хто не може або не хоче приймати ЗГТ з інших причин."
+        },
+        {
+          "t": "p",
+          "text": "Це не робить ЗГТ засобом для догляду за шкірою, і рішення почати її має спиратися на повну картину симптомів і особистий профіль ризику, а не лише на шкіру. Але якщо зміни шкіри — частина того, що турбує вас у перименопаузі чи менопаузі, це законний привід обговорити з лікарем, а не питання марнославства, яке варто відкласти."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість шкіри після менопаузи.",
+              "detail": "Огляд 2026 року в журналі Life узагальнює докази того, що зниження естрогену після менопаузи зменшує колаген шкіри приблизно на 2% на рік поряд із втратою еластичності та зволоженості, а замісна гормональна терапія частково відновлює вміст колагену, еластичність, товщину та зволоженість. Місцевий естроген і негормональні засоби також зазначені як перспективні для локальної користі для шкіри.",
+              "cite": "Life (MDPI) · Огляд, 2026",
+              "url": "https://www.mdpi.com/2075-1729/16/3/401"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи може ЗГТ справді повернути старіння шкіри через менопаузу?",
+          "a": "Частково — так. Огляд 2026 року показав, що ЗГТ вимірно покращує вміст колагену, еластичність, товщину та зволоженість шкіри порівняно з нелікованою менопаузою, коли колаген знижується приблизно на 2% на рік. Це не повне повернення й не заміна догляду за шкірою, але вплив на структуру шкіри реальний і вимірний."
+        },
+        {
+          "q": "Чи варто починати ЗГТ лише заради шкіри?",
+          "a": "Ні — користь для шкіри реальна, але не є самостійною причиною починати ЗГТ. Рішення має враховувати повну картину симптомів (припливи, сон, настрій, здоров'я кісток) та особисті фактори ризику разом із лікарем. Якщо зміни шкіри впливають на ваше самопочуття, цілком доречно згадати про них у цій ширшій розмові."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "glp1-weight-loss-drugs-fat-not-muscle",
+    "date": "2026-07-17",
+    "image": "/images/glp1-weight-loss-drugs-fat-not-muscle.jpg",
+    "cats": [
+      "weight",
+      "nutrition"
+    ],
+    "en": {
+      "cat": "Weight loss",
+      "title": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
+      "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle (IJO)",
+      "excerpt": "A 2026 meta-analysis of GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle, and that women lose proportionally more than men.",
+      "meta": "17 July 2026 · 3 min read",
+      "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Researchers pooled body-composition data from randomised trials of GLP-1 receptor agonists — the drug class that includes semaglutide (Ozempic, Wegovy) and tirzepatide. Crucially, they looked at the fat-versus-lean-mass breakdown, not just the number on the scale, which is what actually tells you whether weight loss is coming from fat or from muscle."
+        },
+        {
+          "t": "p",
+          "text": "Across the pooled trials, the large majority of the weight lost came from fat mass, with lean (muscle) tissue making up a smaller share than the alarming early headlines had implied. Some lean mass is still lost — that happens with almost any weight loss, including plain dieting — but the fat-to-muscle ratio was more favourable than the \"these drugs waste your muscle\" narrative suggested."
+        },
+        {
+          "t": "p",
+          "text": "One finding stands out for women: on the same drugs, women lost proportionally more weight than men. That fits what's known about sex differences in body composition and how these medicines act, and it's a useful reminder that trial averages — often weighted toward male physiology — don't always map onto a woman's experience."
+        },
+        {
+          "t": "p",
+          "text": "None of this means muscle looks after itself. Losing weight quickly at any age thins muscle and bone unless you actively defend them — which is exactly where [enough protein](/blog/protein-for-women-over-40/) and resistance training earn their place, and it matters even more through perimenopause and beyond, when muscle and bone are already under pressure. The drugs tilt the fat-to-muscle ratio in your favour; they don't remove the need to train and eat well while the weight comes off."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Most of the weight lost on GLP-1 drugs is fat, not muscle, and women lose proportionally more than men.",
+              "detail": "A 2026 meta-analysis in the International Journal of Obesity (Nature) pooled body-composition data from randomised trials of GLP-1 receptor agonists and found that the large majority of weight lost was fat mass rather than lean (muscle) tissue, with women losing proportionally more weight than men. Some lean mass loss still occurs, as it does with most weight loss, underscoring the role of adequate protein and resistance exercise in preserving muscle.",
+              "cite": "International Journal of Obesity (Nature) · Meta-analysis, 2026",
+              "url": "https://www.nature.com/articles/s41366-026-02088-1"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do GLP-1 weight-loss drugs make you lose muscle?",
+          "a": "Some muscle loss happens with almost any weight loss, including on these drugs — but a 2026 meta-analysis found the large majority of the weight lost on GLP-1 drugs is fat, not muscle, and the muscle share is smaller than earlier single studies suggested. You can protect muscle further by eating enough protein and doing resistance exercise while you lose weight."
+        },
+        {
+          "q": "Why do women lose more weight than men on these drugs?",
+          "a": "The 2026 meta-analysis found women lost proportionally more weight than men on the same GLP-1 medicines. Differences in body composition, hormones and how the drugs act between the sexes all play a part. It's also a reminder that averages from mixed or male-skewed trials don't always reflect what an individual woman will experience."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Схуднення",
+      "title": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
+      "seoTitle": "GLP-1: втрата ваги — переважно жир, а не м’язи (IJO)",
+      "excerpt": "Метааналіз 2026 року показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
+      "meta": "17 липня 2026 · 3 хв читання",
+      "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м'язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Дослідники об'єднали дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 — класу препаратів, до якого належать семаглутид (Ozempic, Wegovy) і тирзепатид. Важливо, що вони дивилися на співвідношення жирової та м'язової маси, а не лише на цифру на вагах — саме це показує, звідки береться втрата ваги: з жиру чи з м'язів."
+        },
+        {
+          "t": "p",
+          "text": "У всіх об'єднаних дослідженнях переважна більшість втраченої ваги припадала на жирову масу, а на м'язову тканину — менша частка, ніж припускали тривожні ранні заголовки. Певна втрата м'язової маси все одно відбувається — це трапляється майже за будь-якого схуднення, зокрема й простого дотримання дієти, — але співвідношення жиру до м'язів було сприятливішим, ніж навіювала розповідь про те, що «ці препарати руйнують м'язи»."
+        },
+        {
+          "t": "p",
+          "text": "Один результат особливо важливий для жінок: на тих самих препаратах жінки втрачали пропорційно більше ваги, ніж чоловіки. Це узгоджується з відомими статевими відмінностями у складі тіла та в тому, як діють ці ліки, і нагадує, що середні показники досліджень — часто зміщені у бік чоловічої фізіології — не завжди відповідають досвіду жінки."
+        },
+        {
+          "t": "p",
+          "text": "Ніщо з цього не означає, що м'язи подбають про себе самі. Швидка втрата ваги в будь-якому віці витончує м'язи й кістки, якщо їх активно не захищати — і саме тут стають у пригоді [достатній білок](/ua/blog/protein-for-women-over-40/) і силові тренування. Це особливо важливо під час перименопаузи та після неї, коли м'язи й кістки й так під тиском. Препарати схиляють співвідношення жиру до м'язів на вашу користь, але не скасовують потреби тренуватися й добре харчуватися, поки вага йде."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
+              "detail": "Метааналіз 2026 року в International Journal of Obesity (Nature) об'єднав дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 і виявив, що переважна більшість втраченої ваги припадала на жирову масу, а не на м'язову тканину, при цьому жінки втрачали пропорційно більше ваги, ніж чоловіки. Певна втрата м'язової маси все одно відбувається, як і за більшості схуднення, що підкреслює роль достатнього білка й силових тренувань у збереженні м'язів.",
+              "cite": "International Journal of Obesity (Nature) · Метааналіз, 2026",
+              "url": "https://www.nature.com/articles/s41366-026-02088-1"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи призводять препарати GLP-1 для схуднення до втрати м'язів?",
+          "a": "Певна втрата м'язів відбувається майже за будь-якого схуднення, зокрема й на цих препаратах, — але метааналіз 2026 року виявив, що переважна більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і частка м'язів менша, ніж припускали ранні окремі дослідження. Захистити м'язи ще більше можна, вживаючи достатньо білка й виконуючи силові вправи, поки ви худнете."
+        },
+        {
+          "q": "Чому жінки втрачають більше ваги, ніж чоловіки, на цих препаратах?",
+          "a": "Метааналіз 2026 року виявив, що жінки втрачали пропорційно більше ваги, ніж чоловіки, на тих самих препаратах GLP-1. Відмінності у складі тіла, гормонах і в тому, як діють ці ліки в чоловіків і жінок, — усе це має значення. Це також нагадування, що середні показники змішаних або зміщених до чоловіків досліджень не завжди відображають те, що відчує конкретна жінка."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cortisol-belly-perimenopause",
+    "date": "2026-07-15",
+    "image": "/images/cortisol-belly-perimenopause.jpg",
+    "cats": [
+      "perimenopause",
+      "weight"
+    ],
+    "en": {
+      "cat": "Perimenopause",
+      "title": "Cortisol belly in perimenopause: what's actually true",
+      "excerpt": "“Cortisol belly” is everywhere — and mostly misunderstood. What's really true about cortisol, stress and abdominal fat in perimenopause.",
+      "meta": "15 July 2026 · 8 min read",
+      "lead": "“Cortisol belly” is all over social media right now — blamed for the weight that won't shift, with a supplement or “cortisol cocktail” ready to fix it. Here's what's real, what isn't, and what actually changes in perimenopause.",
+      "seoTitle": "Cortisol Belly in Perimenopause: What's Actually True",
+      "metaDesc": "“Cortisol belly” is everywhere and mostly misunderstood. What's actually true about cortisol, stress and belly fat in perimenopause — and what genuinely helps.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A few years into perimenopause, I had belly fat I had never carried before — not after childbirth, not at any point in my life — and nothing I did was shifting it. So when I first saw people online talking about “cortisol belly,” it landed. Finally, a name for it, and apparently a reason: stress hormones. The relief lasted right up until the next post tried to sell me a supplement to “flush” my cortisol."
+        },
+        {
+          "t": "p",
+          "text": "The truth sits somewhere in the middle, and I think it's worth being honest about both halves of it. Cortisol and where your body stores fat really are connected. But “cortisol belly” as it's usually sold — a single villain, fixable with a powder — isn't how any of this works, and in perimenopause the picture is more layered still."
+        },
+        {
+          "t": "h",
+          "text": "First, what “cortisol belly” is not"
+        },
+        {
+          "t": "p",
+          "text": "“Cortisol belly” is not a medical diagnosis. You won't find it in your GP's notes, because it isn't a condition — it's a popular label for abdominal fat that someone has decided to attribute to stress. Cortisol itself is not a toxin or a villain; it's an essential hormone that gets you out of bed in the morning, helps manage inflammation and helps regulate blood sugar. You are not meant to “flush” it, and you can't detox it with a drink."
+        },
+        {
+          "t": "p",
+          "text": "There is a real condition of genuinely, persistently high cortisol — Cushing's syndrome — and it does cause fat to build around the tummy, upper back and face. But it is rare, it's usually caused by long-term steroid medication or a small growth on a gland, and crucially it's diagnosed with an actual [cortisol test in blood, urine or saliva](https://www.nhs.uk/conditions/cushings-syndrome/), not by looking at your waistline. Everyday stress is not Cushing's, and feeling frazzled does not mean your cortisol is clinically high. If you genuinely suspect it, that's a GP conversation and a test, not a supplement."
+        },
+        {
+          "t": "h",
+          "text": "The part that is true: cortisol really does prefer your middle"
+        },
+        {
+          "t": "p",
+          "text": "Here's the half worth taking seriously. When cortisol does drive fat storage, it acts preferentially on the fat deep inside your abdomen — the visceral fat around your organs — rather than the softer fat under your skin. That's not a marketing claim; it's mechanism. Visceral fat carries [two to four times the density of cortisol receptors](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/) that subcutaneous fat does, and it makes more of the enzyme (11β-HSD1) that reactivates cortisol locally inside the tissue. So when cortisol is elevated over long periods, the belly is exactly where it tends to settle."
+        },
+        {
+          "t": "p",
+          "text": "There's also a striking piece of research showing the relationship runs both ways. In a study of premenopausal women, those who [carried more fat around the middle secreted more cortisol under stress](https://pubmed.ncbi.nlm.nih.gov/11020091/) — and kept secreting it even once the stressful task became familiar, rather than adapting the way the other women did. Stress and central fat feed each other. So the instinct behind “cortisol belly” isn't mad. It's the powder-that-fixes-it part that is."
+        },
+        {
+          "t": "h",
+          "text": "Why perimenopause changes the picture"
+        },
+        {
+          "t": "p",
+          "text": "This is where it gets specific to us, and where the simple “stress hormone” story stops being enough. Two things are happening at once in perimenopause, and they compound."
+        },
+        {
+          "t": "p",
+          "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
+        },
+        {
+          "t": "p",
+          "text": "The second is that cortisol itself appears to rise across the menopause transition. In the Seattle Midlife Women's Health Study, [overnight cortisol climbed through the transition and peaked in its late stage](https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/) — and, interestingly, this was best predicted by the hormonal shifts of menopause rather than by how stressed the women reported feeling. In other words, some of the cortisol rise in these years is being driven by your changing hormones, not only by your to-do list."
+        },
+        {
+          "t": "p",
+          "text": "Sleep sits on top of both. Progesterone, which also falls in perimenopause, helps you sleep; when it drops, broken nights become common — and losing sleep [can nudge cortisol upward](https://pubmed.ncbi.nlm.nih.gov/38777757/), which is exactly the direction you don't want. It becomes a loop: poorer sleep, higher cortisol, more central fat, and a body that feels increasingly unlike the one you knew."
+        },
+        {
+          "t": "h",
+          "text": "The trap I fell into"
+        },
+        {
+          "t": "p",
+          "text": "Knowing all this, here's the mistake I made anyway, and the one I most want to warn other women off. When nothing was working, I did what I'd always been taught to do: ate less, and moved more. Much less, and much more."
+        },
+        {
+          "t": "p",
+          "text": "The problem is that both of those, taken to an extreme, are physiological stressors in their own right. Sustained under-eating [raises cortisol](https://pubmed.ncbi.nlm.nih.gov/20368473/) — one study found low-calorie dieting measurably increased it. Hard exercise without adequate recovery does the same. So there I was, adding two more sources of cortisol to a system where cortisol was already part of the problem, and wondering why the belly fat was getting worse rather than better. I wasn't failing at discipline. I was, without knowing it, pouring petrol on the exact fire I was trying to put out."
+        },
+        {
+          "t": "h",
+          "text": "What actually helps (and what to skip)"
+        },
+        {
+          "t": "p",
+          "text": "The genuinely useful news is that the things that help are unglamorous, mostly free, and not sold in a jar. None of them “target” cortisol the way the supplements promise — they lower the load on a stressed system so your body stops behaving as though it's under threat."
+        },
+        {
+          "t": "p",
+          "text": "Protect your sleep as if it were a medical intervention, because functionally it is. Manage stress rather than pushing through it — in one trial, the [women who most reduced their stress and cortisol also lost the most abdominal fat](https://pmc.ncbi.nlm.nih.gov/articles/PMC3184496/), even though the programme on its own wasn't a magic bullet. Move in a way that builds rather than drains: [resistance training is the single most evidence-backed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) thing you can do to hold on to muscle through menopause, and it doesn't spike cortisol the way relentless cardio can. Eat [enough protein](/blog/protein-for-women-over-40/) to protect that muscle. Both the [NHS](https://www.nhs.uk/conditions/menopause-and-perimenopause/things-you-can-do/) and the British Menopause Society land in the same place: strength work, protein, decent sleep, sensible drinking."
+        },
+        {
+          "t": "p",
+          "text": "And the supplements, the “cortisol cocktails,” the adrenal detoxes? Skip them. There's no good evidence they lower cortisol or shift abdominal fat, and some are little more than sugar and salt with good marketing. If your symptoms are significant, the conversation worth having is with a doctor who understands hormonal health — about whether HRT has a role for you, since restoring oestrogen can help with fat redistribution. That's a decision for you and your clinician, not a recommendation from me, and certainly not something to replace with a powder."
+        },
+        {
+          "t": "p",
+          "text": "“Cortisol belly” gets one thing right: your body in perimenopause is not misbehaving out of laziness, and the old rules genuinely have stopped applying. It gets one big thing wrong in suggesting you can buy your way out of it. The real levers are quieter than that — and, unlike the supplements, they actually work."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Genuinely high cortisol is a rare, measurable medical condition — not the same as everyday stress.",
+              "detail": "Cushing's syndrome, the condition of persistently excess cortisol, does cause fat to build around the tummy, upper back and face — but it is rare, usually caused by long-term steroid medication or a small glandular growth, and diagnosed with a blood, urine or saliva cortisol test rather than by appearance. Feeling stressed does not mean cortisol is clinically high.",
+              "cite": "NHS · Cushing's syndrome",
+              "url": "https://www.nhs.uk/conditions/cushings-syndrome/"
+            },
+            {
+              "claim": "When cortisol drives fat storage, it acts preferentially on visceral belly fat.",
+              "detail": "Visceral (intra-abdominal) fat carries two-to-four times the density of glucocorticoid receptors found in subcutaneous fat, and shows greater local activity of 11β-HSD1, the enzyme that regenerates active cortisol within the tissue. This is the biological reason chronically elevated cortisol tends to accumulate centrally rather than under the skin.",
+              "cite": "Molecular & Cellular Endocrinology · Review, 2014",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
+            },
+            {
+              "claim": "Stress and central fat reinforce each other.",
+              "detail": "In a study of 59 premenopausal women, those with more fat around the middle secreted significantly more cortisol in response to stress — and, unlike the others, kept over-secreting it even once the challenge became familiar, showing less adaptation to repeated stress.",
+              "cite": "Epel et al., Psychosomatic Medicine · 2000",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11020091/"
+            },
+            {
+              "claim": "Cortisol rises across the menopausal transition — driven largely by hormonal change.",
+              "detail": "The Seattle Midlife Women's Health Study found overnight urinary cortisol increased across the menopausal transition and peaked in its late stage, and that this was best predicted by reproductive hormone changes (oestrogen, testosterone, FSH) rather than by perceived stress or social factors.",
+              "cite": "Woods et al., Seattle Midlife Women's Health Study · 2009",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/"
+            },
+            {
+              "claim": "Falling oestrogen shifts fat to the abdomen in perimenopause.",
+              "detail": "The British Menopause Society reports that as oestrogen declines, visceral fat rises from around 5–8% of body weight to 10–15%, with most menopausal weight gain — roughly 1.5kg a year on average — accumulating around the abdomen and upper body. It recommends resistance training, adequate protein and moderated alcohol.",
+              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
+              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
+            },
+            {
+              "claim": "Losing sleep can push cortisol up — and perimenopause disrupts sleep.",
+              "detail": "A 2024 systematic review and meta-analysis found acute sleep deprivation raised blood cortisol levels, though the overall effect across all measures was small and mixed. As progesterone falls in perimenopause, disrupted sleep becomes common, feeding into the same cortisol pathway.",
+              "cite": "Systematic review & meta-analysis · 2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38777757/"
+            },
+            {
+              "claim": "Severe calorie restriction is itself a stressor that raises cortisol.",
+              "detail": "A controlled study found that low-calorie dieting increased cortisol output — meaning that eating far too little, sustained over time, can work against the very fat loss it is meant to achieve.",
+              "cite": "Tomiyama et al., Psychosomatic Medicine · 2010",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20368473/"
+            },
+            {
+              "claim": "Resistance training is the most evidence-backed way to protect muscle through menopause.",
+              "detail": "A 2023 systematic review and meta-analysis of 27 randomised controlled trials found exercise — resistance training in particular — was the most effective non-pharmacological approach for preserving muscle mass and strength across the menopausal transition, without the cortisol load of excessive cardio.",
+              "cite": "BMC Women's Health · Systematic review & meta-analysis, 2023",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
+            }
+          ]
+        },
+        {
+          "t": "bio",
+          "name": "Lena Filatova",
+          "img": "/images/lena-filatova-author.jpg",
+          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
+          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and long-term wellbeing at lenafilatova.co.uk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is “cortisol belly” real?",
+          "a": "Partly. “Cortisol belly” isn't a medical diagnosis, and everyday stress doesn't make your cortisol clinically high. But the underlying link is real: when cortisol is elevated over long periods it does tend to drive fat to the visceral store deep in the abdomen, because that fat carries far more cortisol receptors than fat under the skin. In perimenopause, falling oestrogen and rising cortisol push in the same direction, so the middle is exactly where fat tends to settle."
+        },
+        {
+          "q": "How do I get rid of cortisol belly in perimenopause?",
+          "a": "By lowering the load on a stressed system rather than attacking it. That means protecting sleep, genuinely managing stress instead of pushing through it, strength training two to three times a week, and enough protein to hold on to muscle. Paradoxically, crash dieting and relentless cardio can make it worse, because both raise cortisol themselves. For some women HRT helps with fat redistribution — a conversation worth having with a doctor who understands hormonal health."
+        },
+        {
+          "q": "Do cortisol supplements or “cortisol cocktails” work?",
+          "a": "There's no good evidence that cortisol supplements, “adrenal detoxes” or viral “cortisol cocktails” lower cortisol or shift abdominal fat — many are simply sugar and salt with clever marketing. Cortisol is an essential hormone, not a toxin to flush. If you genuinely suspect abnormally high cortisol, that's a matter for a GP and a proper test, not a supplement."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Перименопауза",
+      "title": "Кортизоловий живіт при перименопаузі: що насправді правда",
+      "excerpt": "«Кортизоловий живіт» — скрізь і переважно неправильно зрозумілий. Що справді правда про кортизол, стрес і жир на животі при перименопаузі.",
+      "meta": "15 липня 2026 · 8 хв читання",
+      "lead": "«Кортизоловий живіт» зараз скрізь у соцмережах — його звинувачують у вазі, яка не зрушується, і пропонують добавку чи «кортизоловий коктейль», щоб це виправити. Ось що справді правда, що ні, і що насправді змінюється при перименопаузі.",
+      "seoTitle": "Кортизоловий живіт при перименопаузі: що правда",
+      "metaDesc": "«Кортизоловий живіт» — скрізь і переважно неправильно зрозумілий. Що насправді правда про кортизол, стрес і жир на животі при перименопаузі — і що справді допомагає.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Через кілька років перименопаузи в мене з’явився жир на животі, якого я ніколи не мала — ні після пологів, ні в будь-який інший момент життя — і ніщо з того, що я робила, його не зрушувало. Тож коли я вперше побачила, як люди в мережі говорять про «кортизоловий живіт», це влучило. Нарешті назва для цього і, схоже, причина: гормони стресу. Облегшення тривало рівно до того моменту, як наступний допис намагався продати мені добавку, щоб «вимити» мій кортизол."
+        },
+        {
+          "t": "p",
+          "text": "Правда лежить десь посередині, і варто бути чесними щодо обох її половин. Кортизол і те, де тіло зберігає жир, справді пов’язані. Але «кортизоловий живіт» у тому вигляді, як його зазвичай продають — єдиний лиходій, якого можна подолати порошком — це не те, як це працює, а при перименопаузі картина ще багатошаровіша."
+        },
+        {
+          "t": "h",
+          "text": "Спершу — чим «кортизоловий живіт» не є"
+        },
+        {
+          "t": "p",
+          "text": "«Кортизоловий живіт» — це не медичний діагноз. Ви не знайдете його в записах лікаря, бо це не стан — це популярна назва для жиру на животі, який хтось вирішив приписати стресу. Сам кортизол не є токсином чи лиходієм; це життєво важливий гормон, який підіймає вас з ліжка вранці, допомагає керувати запаленням і регулювати цукор у крові. Його не треба «вимивати», і ви не можете детоксувати його напоєм."
+        },
+        {
+          "t": "p",
+          "text": "Існує реальний стан справді стійко високого кортизолу — синдром Кушинга — і він справді спричиняє накопичення жиру навколо живота, верхньої частини спини та обличчя. Але він рідкісний, зазвичай спричинений тривалим прийомом стероїдів або невеликим утворенням на залозі, і — головне — діагностується [аналізом кортизолу в крові, сечі або слині](https://www.nhs.uk/conditions/cushings-syndrome/), а не поглядом на талію. Повсякденний стрес — це не синдром Кушинга, і відчуття виснаженості не означає, що ваш кортизол клінічно високий. Якщо ви справді підозрюєте це, це розмова з лікарем і аналіз, а не добавка."
+        },
+        {
+          "t": "h",
+          "text": "Що правда: кортизол справді надає перевагу вашій талії"
+        },
+        {
+          "t": "p",
+          "text": "Ось половина, яку варто сприймати серйозно. Коли кортизол справді стимулює накопичення жиру, він діє переважно на жир глибоко всередині живота — вісцеральний жир навколо органів — а не на м’який підшкірний жир. Це не маркетингове твердження, а механізм. Вісцеральний жир має [у два–чотири рази вищу щільність рецепторів кортизолу](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/), ніж підшкірний, і виробляє більше ферменту (11β-HSD1), який реактивує кортизол місцево всередині тканини. Тож коли кортизол підвищений тривалий час, живіт — саме те місце, де він схильний осідати."
+        },
+        {
+          "t": "p",
+          "text": "Є й вражаюче дослідження, яке показує, що зв’язок працює в обидва боки. У дослідженні жінок у пременопаузі ті, хто [мав більше жиру навколо талії, виділяли більше кортизолу під час стресу](https://pubmed.ncbi.nlm.nih.gov/11020091/) — і продовжували виділяти його навіть коли завдання ставало знайомим, а не адаптувалися, як інші жінки. Стрес і центральний жир живлять одне одного. Тож інтуїція за «кортизоловим животом» не божевільна. Божевільна частина — це порошок, що начебто все виправляє."
+        },
+        {
+          "t": "h",
+          "text": "Чому перименопауза змінює картину"
+        },
+        {
+          "t": "p",
+          "text": "Ось де це стає специфічним саме для нас і де проста історія про «гормон стресу» перестає бути достатньою. У перименопаузі водночас відбуваються дві речі, і вони посилюють одна одну."
+        },
+        {
+          "t": "p",
+          "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
+        },
+        {
+          "t": "p",
+          "text": "Друге — це те, що сам кортизол, схоже, зростає протягом менопаузального переходу. У Seattle Midlife Women's Health Study [нічний кортизол зростав протягом переходу й досягав піку на його пізній стадії](https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/) — і, цікаво, це найкраще прогнозувалося гормональними зрушеннями менопаузи, а не тим, наскільки стресованими почувалися жінки. Інакше кажучи, частина зростання кортизолу в ці роки зумовлена вашими гормонами, що змінюються, а не лише списком ваших справ."
+        },
+        {
+          "t": "p",
+          "text": "Сон накладається на обидва. Прогестерон, який також падає в перименопаузі, допомагає спати; коли він знижується, перервані ночі стають звичними — а втрата сну [може підштовхувати кортизол угору](https://pubmed.ncbi.nlm.nih.gov/38777757/), а це саме той напрям, якого ви не хочете. Це стає циклом: гірший сон, вищий кортизол, більше центрального жиру і тіло, яке дедалі менше схоже на те, яке ви знали."
+        },
+        {
+          "t": "h",
+          "text": "Пастка, у яку я потрапила"
+        },
+        {
+          "t": "p",
+          "text": "Знаючи все це, ось помилка, яку я все одно зробила і від якої найбільше хочу застерегти інших жінок. Коли ніщо не працювало, я зробила те, чого мене завжди вчили: їла менше й рухалася більше. Набагато менше й набагато більше."
+        },
+        {
+          "t": "p",
+          "text": "Проблема в тому, що обидва ці підходи, доведені до крайнощів, самі по собі є фізіологічними стресорами. Тривале недоїдання [підвищує кортизол](https://pubmed.ncbi.nlm.nih.gov/20368473/) — одне дослідження виявило, що низькокалорійна дієта вимірно його підвищувала. Важкі вправи без належного відновлення роблять те саме. Тож от я, додаючи ще два джерела кортизолу до системи, де кортизол уже був частиною проблеми, дивувалася, чому жир на животі ставав гіршим, а не кращим. Я не зазнавала поразки в дисципліні. Я, сама того не знаючи, підливала бензин у той самий вогонь, який намагалася загасити."
+        },
+        {
+          "t": "h",
+          "text": "Що справді допомагає (і що пропустити)"
+        },
+        {
+          "t": "p",
+          "text": "Справді корисна новина в тому, що те, що допомагає, — неефектне, переважно безкоштовне й не продається в баночці. Ніщо з цього не «цілиться» у кортизол так, як обіцяють добавки — вони знижують навантаження на стресовану систему, щоб тіло перестало поводитися так, ніби йому щось загрожує."
+        },
+        {
+          "t": "p",
+          "text": "Захищайте свій сон так, ніби це медичне втручання, бо функціонально це так і є. Керуйте стресом, а не продавлюйтеся крізь нього — в одному дослідженні [жінки, які найбільше знизили стрес і кортизол, також найбільше втратили жиру на животі](https://pmc.ncbi.nlm.nih.gov/articles/PMC3184496/), хоча сама програма не була чарівною паличкою. Рухайтеся так, щоб це будувало, а не виснажувало: [силові тренування — найбільш обґрунтоване доказами](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/), що ви можете зробити, щоб зберегти м’язи під час менопаузи, і вони не підвищують кортизол так, як безкінечне кардіо. Їжте [достатньо білка](/ua/blog/protein-for-women-over-40/), щоб захистити ці м’язи. І [NHS](https://www.nhs.uk/conditions/menopause-and-perimenopause/things-you-can-do/), і Британське товариство менопаузи сходяться в одному: силові вправи, білок, гідний сон, помірність у алкоголі."
+        },
+        {
+          "t": "p",
+          "text": "А добавки, «кортизолові коктейлі», адреналові детокси? Пропустіть. Немає вагомих доказів, що вони знижують кортизол або зрушують жир на животі, а деякі — це лише цукор і сіль із гарним маркетингом. Якщо ваші симптоми суттєві, варто поговорити з лікарем, який розуміється на гормональному здоров’ї — про те, чи є для вас роль у ЗГТ, оскільки відновлення естрогену може допомогти з перерозподілом жиру. Це рішення для вас і вашого лікаря, а не порада від мене, і вже точно не те, що можна замінити порошком."
+        },
+        {
+          "t": "p",
+          "text": "«Кортизоловий живіт» має рацію в одному: ваше тіло в перименопаузі не поводиться погано через лінощі, і старі правила справді перестали діяти. Але воно глибоко помиляється, коли припускає, що ви можете купити собі вихід із цього. Справжні важелі тихіші — і, на відміну від добавок, вони справді працюють."
+        },
+        {
+          "t": "h",
+          "text": "Що каже дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Справді високий кортизол — це рідкісний, вимірний медичний стан, а не те саме, що повсякденний стрес.",
+              "detail": "Синдром Кушинга, стан стійко надлишкового кортизолу, справді спричиняє накопичення жиру навколо живота, верхньої частини спини та обличчя — але він рідкісний, зазвичай спричинений тривалим прийомом стероїдів або невеликим утворенням на залозі, і діагностується аналізом кортизолу в крові, сечі або слині, а не за зовнішнім виглядом.",
+              "cite": "NHS · Синдром Кушинга",
+              "url": "https://www.nhs.uk/conditions/cushings-syndrome/"
+            },
+            {
+              "claim": "Коли кортизол стимулює накопичення жиру, він діє переважно на вісцеральний жир живота.",
+              "detail": "Вісцеральний (внутрішньочеревний) жир має у два–чотири рази вищу щільність глюкокортикоїдних рецепторів, ніж підшкірний, і вищу місцеву активність 11β-HSD1 — ферменту, який відновлює активний кортизол усередині тканини. Це біологічна причина, чому хронічно підвищений кортизол схильний накопичуватися центрально, а не під шкірою.",
+              "cite": "Molecular & Cellular Endocrinology · Огляд, 2014",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
+            },
+            {
+              "claim": "Стрес і центральний жир посилюють одне одного.",
+              "detail": "У дослідженні 59 жінок у пременопаузі ті, хто мав більше жиру навколо талії, виділяли суттєво більше кортизолу у відповідь на стрес — і, на відміну від інших, продовжували надмірно виділяти його навіть коли завдання ставало знайомим, показуючи меншу адаптацію до повторного стресу.",
+              "cite": "Epel та ін., Psychosomatic Medicine · 2000",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11020091/"
+            },
+            {
+              "claim": "Кортизол зростає протягом менопаузального переходу — значною мірою через гормональні зміни.",
+              "detail": "Seattle Midlife Women's Health Study виявило, що нічний кортизол у сечі зростав протягом менопаузального переходу й досягав піку на його пізній стадії, і що це найкраще прогнозувалося змінами репродуктивних гормонів (естроген, тестостерон, ФСГ), а не суб’єктивним стресом чи соціальними чинниками.",
+              "cite": "Woods та ін., Seattle Midlife Women's Health Study · 2009",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/"
+            },
+            {
+              "claim": "Падіння естрогену зміщує жир до живота в перименопаузі.",
+              "detail": "Британське товариство менопаузи повідомляє, що зі зниженням естрогену вісцеральний жир зростає з приблизно 5–8% ваги тіла до 10–15%, при цьому більша частина менопаузального набору ваги — у середньому близько 1,5 кг на рік — накопичується навколо живота та верхньої частини тіла. Воно рекомендує силові тренування, достатньо білка та помірність у алкоголі.",
+              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
+              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
+            },
+            {
+              "claim": "Втрата сну може підвищувати кортизол — а перименопауза порушує сон.",
+              "detail": "Систематичний огляд і метааналіз 2024 року виявив, що гостре недосипання підвищувало рівень кортизолу в крові, хоча загальний ефект за всіма показниками був невеликим і неоднозначним. Оскільки прогестерон падає в перименопаузі, порушення сну стає звичним, живлячи той самий кортизоловий шлях.",
+              "cite": "Систематичний огляд і метааналіз · 2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38777757/"
+            },
+            {
+              "claim": "Жорстке обмеження калорій саме по собі є стресором, що підвищує кортизол.",
+              "detail": "Контрольоване дослідження виявило, що низькокалорійна дієта підвищувала вихід кортизолу — тобто надто мале харчування, продовжене в часі, може працювати проти тієї самої втрати жиру, заради якої його запускають.",
+              "cite": "Tomiyama та ін., Psychosomatic Medicine · 2010",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20368473/"
+            },
+            {
+              "claim": "Силові тренування — найобґрунтованіший доказами спосіб зберегти м’язи під час менопаузи.",
+              "detail": "Систематичний огляд і метааналіз 2023 року з 27 рандомізованих контрольованих досліджень виявив, що вправи — зокрема силові — були найефективнішим нефармакологічним підходом до збереження м’язової маси та сили під час менопаузального переходу, без кортизолового навантаження надмірного кардіо.",
+              "cite": "BMC Women's Health · Систематичний огляд і метааналіз, 2023",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
+            }
+          ]
+        },
+        {
+          "t": "bio",
+          "name": "Lena Filatova",
+          "img": "/images/lena-filatova-author.jpg",
+          "alt": "Lena Filatova, авторка про жіноче здоров’я, яка живе з діабетом 1 типу",
+          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров’я, перименопаузу та довготривале благополуччя на lenafilatova.co.uk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи реальний «кортизоловий живіт»?",
+          "a": "Частково. «Кортизоловий живіт» — це не медичний діагноз, і повсякденний стрес не робить ваш кортизол клінічно високим. Але глибинний зв’язок реальний: коли кортизол підвищений тривалий час, він справді схильний спрямовувати жир до вісцерального депо глибоко в животі, бо цей жир має набагато більше рецепторів кортизолу, ніж підшкірний. У перименопаузі падіння естрогену й зростання кортизолу діють в одному напрямі, тож талія — саме те місце, де жир схильний осідати."
+        },
+        {
+          "q": "Як позбутися кортизолового живота в перименопаузі?",
+          "a": "Знижуючи навантаження на стресовану систему, а не атакуючи її. Це означає захищати сон, справді керувати стресом замість продавлювання крізь нього, силові тренування два–три рази на тиждень і достатньо білка, щоб зберегти м’язи. Парадоксально, голодні дієти й безкінечне кардіо можуть погіршити ситуацію, бо обидва самі підвищують кортизол. Деяким жінкам ЗГТ допомагає з перерозподілом жиру — це розмова, яку варто мати з лікарем, який розуміється на гормональному здоров’ї."
+        },
+        {
+          "q": "Чи працюють кортизолові добавки чи «кортизолові коктейлі»?",
+          "a": "Немає вагомих доказів, що кортизолові добавки, «адреналові детокси» або вірусні «кортизолові коктейлі» знижують кортизол або зрушують жир на животі — багато з них просто цукор і сіль із хитрим маркетингом. Кортизол — це життєво важливий гормон, а не токсин, який треба вимивати. Якщо ви справді підозрюєте аномально високий кортизол, це питання до лікаря й належного аналізу, а не добавки."
         }
       ]
     }
@@ -11875,1151 +13020,6 @@ export const POSTS = [
         {
           "q": "Чи варто змінювати режим через одне високе значення?",
           "a": "Ні. Окреме високе число саме по собі рідко щось означає. Спостерігайте за реакцією на конкретні страви кілька днів, перш ніж щось змінювати."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "cortisol-belly-perimenopause",
-    "date": "2026-07-15",
-    "image": "/images/cortisol-belly-perimenopause.jpg",
-    "cats": [
-      "perimenopause",
-      "weight"
-    ],
-    "en": {
-      "cat": "Perimenopause",
-      "title": "Cortisol belly in perimenopause: what's actually true",
-      "excerpt": "“Cortisol belly” is everywhere — and mostly misunderstood. What's really true about cortisol, stress and abdominal fat in perimenopause.",
-      "meta": "15 July 2026 · 8 min read",
-      "lead": "“Cortisol belly” is all over social media right now — blamed for the weight that won't shift, with a supplement or “cortisol cocktail” ready to fix it. Here's what's real, what isn't, and what actually changes in perimenopause.",
-      "seoTitle": "Cortisol Belly in Perimenopause: What's Actually True",
-      "metaDesc": "“Cortisol belly” is everywhere and mostly misunderstood. What's actually true about cortisol, stress and belly fat in perimenopause — and what genuinely helps.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "A few years into perimenopause, I had belly fat I had never carried before — not after childbirth, not at any point in my life — and nothing I did was shifting it. So when I first saw people online talking about “cortisol belly,” it landed. Finally, a name for it, and apparently a reason: stress hormones. The relief lasted right up until the next post tried to sell me a supplement to “flush” my cortisol."
-        },
-        {
-          "t": "p",
-          "text": "The truth sits somewhere in the middle, and I think it's worth being honest about both halves of it. Cortisol and where your body stores fat really are connected. But “cortisol belly” as it's usually sold — a single villain, fixable with a powder — isn't how any of this works, and in perimenopause the picture is more layered still."
-        },
-        {
-          "t": "h",
-          "text": "First, what “cortisol belly” is not"
-        },
-        {
-          "t": "p",
-          "text": "“Cortisol belly” is not a medical diagnosis. You won't find it in your GP's notes, because it isn't a condition — it's a popular label for abdominal fat that someone has decided to attribute to stress. Cortisol itself is not a toxin or a villain; it's an essential hormone that gets you out of bed in the morning, helps manage inflammation and helps regulate blood sugar. You are not meant to “flush” it, and you can't detox it with a drink."
-        },
-        {
-          "t": "p",
-          "text": "There is a real condition of genuinely, persistently high cortisol — Cushing's syndrome — and it does cause fat to build around the tummy, upper back and face. But it is rare, it's usually caused by long-term steroid medication or a small growth on a gland, and crucially it's diagnosed with an actual [cortisol test in blood, urine or saliva](https://www.nhs.uk/conditions/cushings-syndrome/), not by looking at your waistline. Everyday stress is not Cushing's, and feeling frazzled does not mean your cortisol is clinically high. If you genuinely suspect it, that's a GP conversation and a test, not a supplement."
-        },
-        {
-          "t": "h",
-          "text": "The part that is true: cortisol really does prefer your middle"
-        },
-        {
-          "t": "p",
-          "text": "Here's the half worth taking seriously. When cortisol does drive fat storage, it acts preferentially on the fat deep inside your abdomen — the visceral fat around your organs — rather than the softer fat under your skin. That's not a marketing claim; it's mechanism. Visceral fat carries [two to four times the density of cortisol receptors](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/) that subcutaneous fat does, and it makes more of the enzyme (11β-HSD1) that reactivates cortisol locally inside the tissue. So when cortisol is elevated over long periods, the belly is exactly where it tends to settle."
-        },
-        {
-          "t": "p",
-          "text": "There's also a striking piece of research showing the relationship runs both ways. In a study of premenopausal women, those who [carried more fat around the middle secreted more cortisol under stress](https://pubmed.ncbi.nlm.nih.gov/11020091/) — and kept secreting it even once the stressful task became familiar, rather than adapting the way the other women did. Stress and central fat feed each other. So the instinct behind “cortisol belly” isn't mad. It's the powder-that-fixes-it part that is."
-        },
-        {
-          "t": "h",
-          "text": "Why perimenopause changes the picture"
-        },
-        {
-          "t": "p",
-          "text": "This is where it gets specific to us, and where the simple “stress hormone” story stops being enough. Two things are happening at once in perimenopause, and they compound."
-        },
-        {
-          "t": "p",
-          "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
-        },
-        {
-          "t": "p",
-          "text": "The second is that cortisol itself appears to rise across the menopause transition. In the Seattle Midlife Women's Health Study, [overnight cortisol climbed through the transition and peaked in its late stage](https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/) — and, interestingly, this was best predicted by the hormonal shifts of menopause rather than by how stressed the women reported feeling. In other words, some of the cortisol rise in these years is being driven by your changing hormones, not only by your to-do list."
-        },
-        {
-          "t": "p",
-          "text": "Sleep sits on top of both. Progesterone, which also falls in perimenopause, helps you sleep; when it drops, broken nights become common — and losing sleep [can nudge cortisol upward](https://pubmed.ncbi.nlm.nih.gov/38777757/), which is exactly the direction you don't want. It becomes a loop: poorer sleep, higher cortisol, more central fat, and a body that feels increasingly unlike the one you knew."
-        },
-        {
-          "t": "h",
-          "text": "The trap I fell into"
-        },
-        {
-          "t": "p",
-          "text": "Knowing all this, here's the mistake I made anyway, and the one I most want to warn other women off. When nothing was working, I did what I'd always been taught to do: ate less, and moved more. Much less, and much more."
-        },
-        {
-          "t": "p",
-          "text": "The problem is that both of those, taken to an extreme, are physiological stressors in their own right. Sustained under-eating [raises cortisol](https://pubmed.ncbi.nlm.nih.gov/20368473/) — one study found low-calorie dieting measurably increased it. Hard exercise without adequate recovery does the same. So there I was, adding two more sources of cortisol to a system where cortisol was already part of the problem, and wondering why the belly fat was getting worse rather than better. I wasn't failing at discipline. I was, without knowing it, pouring petrol on the exact fire I was trying to put out."
-        },
-        {
-          "t": "h",
-          "text": "What actually helps (and what to skip)"
-        },
-        {
-          "t": "p",
-          "text": "The genuinely useful news is that the things that help are unglamorous, mostly free, and not sold in a jar. None of them “target” cortisol the way the supplements promise — they lower the load on a stressed system so your body stops behaving as though it's under threat."
-        },
-        {
-          "t": "p",
-          "text": "Protect your sleep as if it were a medical intervention, because functionally it is. Manage stress rather than pushing through it — in one trial, the [women who most reduced their stress and cortisol also lost the most abdominal fat](https://pmc.ncbi.nlm.nih.gov/articles/PMC3184496/), even though the programme on its own wasn't a magic bullet. Move in a way that builds rather than drains: [resistance training is the single most evidence-backed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) thing you can do to hold on to muscle through menopause, and it doesn't spike cortisol the way relentless cardio can. Eat [enough protein](/blog/protein-for-women-over-40/) to protect that muscle. Both the [NHS](https://www.nhs.uk/conditions/menopause-and-perimenopause/things-you-can-do/) and the British Menopause Society land in the same place: strength work, protein, decent sleep, sensible drinking."
-        },
-        {
-          "t": "p",
-          "text": "And the supplements, the “cortisol cocktails,” the adrenal detoxes? Skip them. There's no good evidence they lower cortisol or shift abdominal fat, and some are little more than sugar and salt with good marketing. If your symptoms are significant, the conversation worth having is with a doctor who understands hormonal health — about whether HRT has a role for you, since restoring oestrogen can help with fat redistribution. That's a decision for you and your clinician, not a recommendation from me, and certainly not something to replace with a powder."
-        },
-        {
-          "t": "p",
-          "text": "“Cortisol belly” gets one thing right: your body in perimenopause is not misbehaving out of laziness, and the old rules genuinely have stopped applying. It gets one big thing wrong in suggesting you can buy your way out of it. The real levers are quieter than that — and, unlike the supplements, they actually work."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Genuinely high cortisol is a rare, measurable medical condition — not the same as everyday stress.",
-              "detail": "Cushing's syndrome, the condition of persistently excess cortisol, does cause fat to build around the tummy, upper back and face — but it is rare, usually caused by long-term steroid medication or a small glandular growth, and diagnosed with a blood, urine or saliva cortisol test rather than by appearance. Feeling stressed does not mean cortisol is clinically high.",
-              "cite": "NHS · Cushing's syndrome",
-              "url": "https://www.nhs.uk/conditions/cushings-syndrome/"
-            },
-            {
-              "claim": "When cortisol drives fat storage, it acts preferentially on visceral belly fat.",
-              "detail": "Visceral (intra-abdominal) fat carries two-to-four times the density of glucocorticoid receptors found in subcutaneous fat, and shows greater local activity of 11β-HSD1, the enzyme that regenerates active cortisol within the tissue. This is the biological reason chronically elevated cortisol tends to accumulate centrally rather than under the skin.",
-              "cite": "Molecular & Cellular Endocrinology · Review, 2014",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
-            },
-            {
-              "claim": "Stress and central fat reinforce each other.",
-              "detail": "In a study of 59 premenopausal women, those with more fat around the middle secreted significantly more cortisol in response to stress — and, unlike the others, kept over-secreting it even once the challenge became familiar, showing less adaptation to repeated stress.",
-              "cite": "Epel et al., Psychosomatic Medicine · 2000",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/11020091/"
-            },
-            {
-              "claim": "Cortisol rises across the menopausal transition — driven largely by hormonal change.",
-              "detail": "The Seattle Midlife Women's Health Study found overnight urinary cortisol increased across the menopausal transition and peaked in its late stage, and that this was best predicted by reproductive hormone changes (oestrogen, testosterone, FSH) rather than by perceived stress or social factors.",
-              "cite": "Woods et al., Seattle Midlife Women's Health Study · 2009",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/"
-            },
-            {
-              "claim": "Falling oestrogen shifts fat to the abdomen in perimenopause.",
-              "detail": "The British Menopause Society reports that as oestrogen declines, visceral fat rises from around 5–8% of body weight to 10–15%, with most menopausal weight gain — roughly 1.5kg a year on average — accumulating around the abdomen and upper body. It recommends resistance training, adequate protein and moderated alcohol.",
-              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
-              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
-            },
-            {
-              "claim": "Losing sleep can push cortisol up — and perimenopause disrupts sleep.",
-              "detail": "A 2024 systematic review and meta-analysis found acute sleep deprivation raised blood cortisol levels, though the overall effect across all measures was small and mixed. As progesterone falls in perimenopause, disrupted sleep becomes common, feeding into the same cortisol pathway.",
-              "cite": "Systematic review & meta-analysis · 2024",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/38777757/"
-            },
-            {
-              "claim": "Severe calorie restriction is itself a stressor that raises cortisol.",
-              "detail": "A controlled study found that low-calorie dieting increased cortisol output — meaning that eating far too little, sustained over time, can work against the very fat loss it is meant to achieve.",
-              "cite": "Tomiyama et al., Psychosomatic Medicine · 2010",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/20368473/"
-            },
-            {
-              "claim": "Resistance training is the most evidence-backed way to protect muscle through menopause.",
-              "detail": "A 2023 systematic review and meta-analysis of 27 randomised controlled trials found exercise — resistance training in particular — was the most effective non-pharmacological approach for preserving muscle mass and strength across the menopausal transition, without the cortisol load of excessive cardio.",
-              "cite": "BMC Women's Health · Systematic review & meta-analysis, 2023",
-              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
-            }
-          ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and long-term wellbeing at lenafilatova.co.uk."
-        }
-      ],
-      "faq": [
-        {
-          "q": "Is “cortisol belly” real?",
-          "a": "Partly. “Cortisol belly” isn't a medical diagnosis, and everyday stress doesn't make your cortisol clinically high. But the underlying link is real: when cortisol is elevated over long periods it does tend to drive fat to the visceral store deep in the abdomen, because that fat carries far more cortisol receptors than fat under the skin. In perimenopause, falling oestrogen and rising cortisol push in the same direction, so the middle is exactly where fat tends to settle."
-        },
-        {
-          "q": "How do I get rid of cortisol belly in perimenopause?",
-          "a": "By lowering the load on a stressed system rather than attacking it. That means protecting sleep, genuinely managing stress instead of pushing through it, strength training two to three times a week, and enough protein to hold on to muscle. Paradoxically, crash dieting and relentless cardio can make it worse, because both raise cortisol themselves. For some women HRT helps with fat redistribution — a conversation worth having with a doctor who understands hormonal health."
-        },
-        {
-          "q": "Do cortisol supplements or “cortisol cocktails” work?",
-          "a": "There's no good evidence that cortisol supplements, “adrenal detoxes” or viral “cortisol cocktails” lower cortisol or shift abdominal fat — many are simply sugar and salt with clever marketing. Cortisol is an essential hormone, not a toxin to flush. If you genuinely suspect abnormally high cortisol, that's a matter for a GP and a proper test, not a supplement."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Перименопауза",
-      "title": "Кортизоловий живіт при перименопаузі: що насправді правда",
-      "excerpt": "«Кортизоловий живіт» — скрізь і переважно неправильно зрозумілий. Що справді правда про кортизол, стрес і жир на животі при перименопаузі.",
-      "meta": "15 липня 2026 · 8 хв читання",
-      "lead": "«Кортизоловий живіт» зараз скрізь у соцмережах — його звинувачують у вазі, яка не зрушується, і пропонують добавку чи «кортизоловий коктейль», щоб це виправити. Ось що справді правда, що ні, і що насправді змінюється при перименопаузі.",
-      "seoTitle": "Кортизоловий живіт при перименопаузі: що правда",
-      "metaDesc": "«Кортизоловий живіт» — скрізь і переважно неправильно зрозумілий. Що насправді правда про кортизол, стрес і жир на животі при перименопаузі — і що справді допомагає.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Через кілька років перименопаузи в мене з’явився жир на животі, якого я ніколи не мала — ні після пологів, ні в будь-який інший момент життя — і ніщо з того, що я робила, його не зрушувало. Тож коли я вперше побачила, як люди в мережі говорять про «кортизоловий живіт», це влучило. Нарешті назва для цього і, схоже, причина: гормони стресу. Облегшення тривало рівно до того моменту, як наступний допис намагався продати мені добавку, щоб «вимити» мій кортизол."
-        },
-        {
-          "t": "p",
-          "text": "Правда лежить десь посередині, і варто бути чесними щодо обох її половин. Кортизол і те, де тіло зберігає жир, справді пов’язані. Але «кортизоловий живіт» у тому вигляді, як його зазвичай продають — єдиний лиходій, якого можна подолати порошком — це не те, як це працює, а при перименопаузі картина ще багатошаровіша."
-        },
-        {
-          "t": "h",
-          "text": "Спершу — чим «кортизоловий живіт» не є"
-        },
-        {
-          "t": "p",
-          "text": "«Кортизоловий живіт» — це не медичний діагноз. Ви не знайдете його в записах лікаря, бо це не стан — це популярна назва для жиру на животі, який хтось вирішив приписати стресу. Сам кортизол не є токсином чи лиходієм; це життєво важливий гормон, який підіймає вас з ліжка вранці, допомагає керувати запаленням і регулювати цукор у крові. Його не треба «вимивати», і ви не можете детоксувати його напоєм."
-        },
-        {
-          "t": "p",
-          "text": "Існує реальний стан справді стійко високого кортизолу — синдром Кушинга — і він справді спричиняє накопичення жиру навколо живота, верхньої частини спини та обличчя. Але він рідкісний, зазвичай спричинений тривалим прийомом стероїдів або невеликим утворенням на залозі, і — головне — діагностується [аналізом кортизолу в крові, сечі або слині](https://www.nhs.uk/conditions/cushings-syndrome/), а не поглядом на талію. Повсякденний стрес — це не синдром Кушинга, і відчуття виснаженості не означає, що ваш кортизол клінічно високий. Якщо ви справді підозрюєте це, це розмова з лікарем і аналіз, а не добавка."
-        },
-        {
-          "t": "h",
-          "text": "Що правда: кортизол справді надає перевагу вашій талії"
-        },
-        {
-          "t": "p",
-          "text": "Ось половина, яку варто сприймати серйозно. Коли кортизол справді стимулює накопичення жиру, він діє переважно на жир глибоко всередині живота — вісцеральний жир навколо органів — а не на м’який підшкірний жир. Це не маркетингове твердження, а механізм. Вісцеральний жир має [у два–чотири рази вищу щільність рецепторів кортизолу](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/), ніж підшкірний, і виробляє більше ферменту (11β-HSD1), який реактивує кортизол місцево всередині тканини. Тож коли кортизол підвищений тривалий час, живіт — саме те місце, де він схильний осідати."
-        },
-        {
-          "t": "p",
-          "text": "Є й вражаюче дослідження, яке показує, що зв’язок працює в обидва боки. У дослідженні жінок у пременопаузі ті, хто [мав більше жиру навколо талії, виділяли більше кортизолу під час стресу](https://pubmed.ncbi.nlm.nih.gov/11020091/) — і продовжували виділяти його навіть коли завдання ставало знайомим, а не адаптувалися, як інші жінки. Стрес і центральний жир живлять одне одного. Тож інтуїція за «кортизоловим животом» не божевільна. Божевільна частина — це порошок, що начебто все виправляє."
-        },
-        {
-          "t": "h",
-          "text": "Чому перименопауза змінює картину"
-        },
-        {
-          "t": "p",
-          "text": "Ось де це стає специфічним саме для нас і де проста історія про «гормон стресу» перестає бути достатньою. У перименопаузі водночас відбуваються дві речі, і вони посилюють одна одну."
-        },
-        {
-          "t": "p",
-          "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
-        },
-        {
-          "t": "p",
-          "text": "Друге — це те, що сам кортизол, схоже, зростає протягом менопаузального переходу. У Seattle Midlife Women's Health Study [нічний кортизол зростав протягом переходу й досягав піку на його пізній стадії](https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/) — і, цікаво, це найкраще прогнозувалося гормональними зрушеннями менопаузи, а не тим, наскільки стресованими почувалися жінки. Інакше кажучи, частина зростання кортизолу в ці роки зумовлена вашими гормонами, що змінюються, а не лише списком ваших справ."
-        },
-        {
-          "t": "p",
-          "text": "Сон накладається на обидва. Прогестерон, який також падає в перименопаузі, допомагає спати; коли він знижується, перервані ночі стають звичними — а втрата сну [може підштовхувати кортизол угору](https://pubmed.ncbi.nlm.nih.gov/38777757/), а це саме той напрям, якого ви не хочете. Це стає циклом: гірший сон, вищий кортизол, більше центрального жиру і тіло, яке дедалі менше схоже на те, яке ви знали."
-        },
-        {
-          "t": "h",
-          "text": "Пастка, у яку я потрапила"
-        },
-        {
-          "t": "p",
-          "text": "Знаючи все це, ось помилка, яку я все одно зробила і від якої найбільше хочу застерегти інших жінок. Коли ніщо не працювало, я зробила те, чого мене завжди вчили: їла менше й рухалася більше. Набагато менше й набагато більше."
-        },
-        {
-          "t": "p",
-          "text": "Проблема в тому, що обидва ці підходи, доведені до крайнощів, самі по собі є фізіологічними стресорами. Тривале недоїдання [підвищує кортизол](https://pubmed.ncbi.nlm.nih.gov/20368473/) — одне дослідження виявило, що низькокалорійна дієта вимірно його підвищувала. Важкі вправи без належного відновлення роблять те саме. Тож от я, додаючи ще два джерела кортизолу до системи, де кортизол уже був частиною проблеми, дивувалася, чому жир на животі ставав гіршим, а не кращим. Я не зазнавала поразки в дисципліні. Я, сама того не знаючи, підливала бензин у той самий вогонь, який намагалася загасити."
-        },
-        {
-          "t": "h",
-          "text": "Що справді допомагає (і що пропустити)"
-        },
-        {
-          "t": "p",
-          "text": "Справді корисна новина в тому, що те, що допомагає, — неефектне, переважно безкоштовне й не продається в баночці. Ніщо з цього не «цілиться» у кортизол так, як обіцяють добавки — вони знижують навантаження на стресовану систему, щоб тіло перестало поводитися так, ніби йому щось загрожує."
-        },
-        {
-          "t": "p",
-          "text": "Захищайте свій сон так, ніби це медичне втручання, бо функціонально це так і є. Керуйте стресом, а не продавлюйтеся крізь нього — в одному дослідженні [жінки, які найбільше знизили стрес і кортизол, також найбільше втратили жиру на животі](https://pmc.ncbi.nlm.nih.gov/articles/PMC3184496/), хоча сама програма не була чарівною паличкою. Рухайтеся так, щоб це будувало, а не виснажувало: [силові тренування — найбільш обґрунтоване доказами](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/), що ви можете зробити, щоб зберегти м’язи під час менопаузи, і вони не підвищують кортизол так, як безкінечне кардіо. Їжте [достатньо білка](/ua/blog/protein-for-women-over-40/), щоб захистити ці м’язи. І [NHS](https://www.nhs.uk/conditions/menopause-and-perimenopause/things-you-can-do/), і Британське товариство менопаузи сходяться в одному: силові вправи, білок, гідний сон, помірність у алкоголі."
-        },
-        {
-          "t": "p",
-          "text": "А добавки, «кортизолові коктейлі», адреналові детокси? Пропустіть. Немає вагомих доказів, що вони знижують кортизол або зрушують жир на животі, а деякі — це лише цукор і сіль із гарним маркетингом. Якщо ваші симптоми суттєві, варто поговорити з лікарем, який розуміється на гормональному здоров’ї — про те, чи є для вас роль у ЗГТ, оскільки відновлення естрогену може допомогти з перерозподілом жиру. Це рішення для вас і вашого лікаря, а не порада від мене, і вже точно не те, що можна замінити порошком."
-        },
-        {
-          "t": "p",
-          "text": "«Кортизоловий живіт» має рацію в одному: ваше тіло в перименопаузі не поводиться погано через лінощі, і старі правила справді перестали діяти. Але воно глибоко помиляється, коли припускає, що ви можете купити собі вихід із цього. Справжні важелі тихіші — і, на відміну від добавок, вони справді працюють."
-        },
-        {
-          "t": "h",
-          "text": "Що каже дослідження"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Справді високий кортизол — це рідкісний, вимірний медичний стан, а не те саме, що повсякденний стрес.",
-              "detail": "Синдром Кушинга, стан стійко надлишкового кортизолу, справді спричиняє накопичення жиру навколо живота, верхньої частини спини та обличчя — але він рідкісний, зазвичай спричинений тривалим прийомом стероїдів або невеликим утворенням на залозі, і діагностується аналізом кортизолу в крові, сечі або слині, а не за зовнішнім виглядом.",
-              "cite": "NHS · Синдром Кушинга",
-              "url": "https://www.nhs.uk/conditions/cushings-syndrome/"
-            },
-            {
-              "claim": "Коли кортизол стимулює накопичення жиру, він діє переважно на вісцеральний жир живота.",
-              "detail": "Вісцеральний (внутрішньочеревний) жир має у два–чотири рази вищу щільність глюкокортикоїдних рецепторів, ніж підшкірний, і вищу місцеву активність 11β-HSD1 — ферменту, який відновлює активний кортизол усередині тканини. Це біологічна причина, чому хронічно підвищений кортизол схильний накопичуватися центрально, а не під шкірою.",
-              "cite": "Molecular & Cellular Endocrinology · Огляд, 2014",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
-            },
-            {
-              "claim": "Стрес і центральний жир посилюють одне одного.",
-              "detail": "У дослідженні 59 жінок у пременопаузі ті, хто мав більше жиру навколо талії, виділяли суттєво більше кортизолу у відповідь на стрес — і, на відміну від інших, продовжували надмірно виділяти його навіть коли завдання ставало знайомим, показуючи меншу адаптацію до повторного стресу.",
-              "cite": "Epel та ін., Psychosomatic Medicine · 2000",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/11020091/"
-            },
-            {
-              "claim": "Кортизол зростає протягом менопаузального переходу — значною мірою через гормональні зміни.",
-              "detail": "Seattle Midlife Women's Health Study виявило, що нічний кортизол у сечі зростав протягом менопаузального переходу й досягав піку на його пізній стадії, і що це найкраще прогнозувалося змінами репродуктивних гормонів (естроген, тестостерон, ФСГ), а не суб’єктивним стресом чи соціальними чинниками.",
-              "cite": "Woods та ін., Seattle Midlife Women's Health Study · 2009",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2749064/"
-            },
-            {
-              "claim": "Падіння естрогену зміщує жир до живота в перименопаузі.",
-              "detail": "Британське товариство менопаузи повідомляє, що зі зниженням естрогену вісцеральний жир зростає з приблизно 5–8% ваги тіла до 10–15%, при цьому більша частина менопаузального набору ваги — у середньому близько 1,5 кг на рік — накопичується навколо живота та верхньої частини тіла. Воно рекомендує силові тренування, достатньо білка та помірність у алкоголі.",
-              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
-              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
-            },
-            {
-              "claim": "Втрата сну може підвищувати кортизол — а перименопауза порушує сон.",
-              "detail": "Систематичний огляд і метааналіз 2024 року виявив, що гостре недосипання підвищувало рівень кортизолу в крові, хоча загальний ефект за всіма показниками був невеликим і неоднозначним. Оскільки прогестерон падає в перименопаузі, порушення сну стає звичним, живлячи той самий кортизоловий шлях.",
-              "cite": "Систематичний огляд і метааналіз · 2024",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/38777757/"
-            },
-            {
-              "claim": "Жорстке обмеження калорій саме по собі є стресором, що підвищує кортизол.",
-              "detail": "Контрольоване дослідження виявило, що низькокалорійна дієта підвищувала вихід кортизолу — тобто надто мале харчування, продовжене в часі, може працювати проти тієї самої втрати жиру, заради якої його запускають.",
-              "cite": "Tomiyama та ін., Psychosomatic Medicine · 2010",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/20368473/"
-            },
-            {
-              "claim": "Силові тренування — найобґрунтованіший доказами спосіб зберегти м’язи під час менопаузи.",
-              "detail": "Систематичний огляд і метааналіз 2023 року з 27 рандомізованих контрольованих досліджень виявив, що вправи — зокрема силові — були найефективнішим нефармакологічним підходом до збереження м’язової маси та сили під час менопаузального переходу, без кортизолового навантаження надмірного кардіо.",
-              "cite": "BMC Women's Health · Систематичний огляд і метааналіз, 2023",
-              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
-            }
-          ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров’я, яка живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров’я, перименопаузу та довготривале благополуччя на lenafilatova.co.uk."
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чи реальний «кортизоловий живіт»?",
-          "a": "Частково. «Кортизоловий живіт» — це не медичний діагноз, і повсякденний стрес не робить ваш кортизол клінічно високим. Але глибинний зв’язок реальний: коли кортизол підвищений тривалий час, він справді схильний спрямовувати жир до вісцерального депо глибоко в животі, бо цей жир має набагато більше рецепторів кортизолу, ніж підшкірний. У перименопаузі падіння естрогену й зростання кортизолу діють в одному напрямі, тож талія — саме те місце, де жир схильний осідати."
-        },
-        {
-          "q": "Як позбутися кортизолового живота в перименопаузі?",
-          "a": "Знижуючи навантаження на стресовану систему, а не атакуючи її. Це означає захищати сон, справді керувати стресом замість продавлювання крізь нього, силові тренування два–три рази на тиждень і достатньо білка, щоб зберегти м’язи. Парадоксально, голодні дієти й безкінечне кардіо можуть погіршити ситуацію, бо обидва самі підвищують кортизол. Деяким жінкам ЗГТ допомагає з перерозподілом жиру — це розмова, яку варто мати з лікарем, який розуміється на гормональному здоров’ї."
-        },
-        {
-          "q": "Чи працюють кортизолові добавки чи «кортизолові коктейлі»?",
-          "a": "Немає вагомих доказів, що кортизолові добавки, «адреналові детокси» або вірусні «кортизолові коктейлі» знижують кортизол або зрушують жир на животі — багато з них просто цукор і сіль із хитрим маркетингом. Кортизол — це життєво важливий гормон, а не токсин, який треба вимивати. Якщо ви справді підозрюєте аномально високий кортизол, це питання до лікаря й належного аналізу, а не добавки."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "anxiety-brain-fog-top-menopause-symptom",
-    "date": "2026-07-17",
-    "image": "/images/anxiety-brain-fog-top-menopause-symptom.jpg",
-    "cats": [
-      "perimenopause"
-    ],
-    "en": {
-      "cat": "Perimenopause",
-      "title": "Anxiety and brain fog, not hot flashes, are now women's top menopause complaint",
-      "seoTitle": "Anxiety & Brain Fog Now Top Menopause Symptom",
-      "metaDesc": "A survey of over 2,000 women finds anxiety and brain fog have overtaken hot flashes as the leading menopause symptom. What's driving the shift.",
-      "excerpt": "Bonafide Health's sixth annual survey of over 2,000 women finds anxiety, brain fog and declining motivation have overtaken hot flashes as the leading menopause symptom — and nearly half say it's hit their income.",
-      "meta": "17 July 2026 · 3 min read",
-      "lead": "For years, menopause conversations have centred on hot flashes. New survey data suggests that's no longer the symptom women say is hardest to live with.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Bonafide Health's sixth annual State of Menopause survey, covering more than 2,000 US women aged 40–64, found that anxiety, brain fog and declining motivation now top the list of menopause complaints — overtaking hot flashes for the first time since the survey began."
-        },
-        {
-          "t": "p",
-          "text": "The shift matters because it's rarely what women expect, or what they're told to expect. Hot flashes are visible and easy to name; feeling anxious, scattered or unmotivated is easier to write off as stress, burnout or \"just a bad patch\" — especially in your 40s, when work and family pressures are already high."
-        },
-        {
-          "t": "p",
-          "text": "The survey also points to a real financial cost. 56% of respondents said declining motivation was the symptom most affecting their work, and 48% said their symptoms had negatively impacted their income — with 23% reporting losses of $10,000 or more."
-        },
-        {
-          "t": "p",
-          "text": "None of this means every low mood or foggy week is menopausal. But if you're 40 or older and notice a cluster of anxiety, mental fatigue and flagging drive that doesn't match your usual patterns, it's worth raising perimenopause specifically with your doctor — rather than defaulting to a stress or mental-health diagnosis alone."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Anxiety, brain fog and declining motivation have overtaken hot flashes as the top menopause symptom.",
-              "detail": "Bonafide Health's sixth annual State of Menopause survey of over 2,000 US women aged 40–64 found mental and cognitive symptoms now rank above hot flashes for the first time. 56% said declining motivation most affected their work performance; 48% said menopause symptoms had negatively impacted their income, and 23% reported losing $10,000 or more as a result.",
-              "cite": "Bonafide Health · Sixth Annual State of Menopause Survey, 2026",
-              "url": "https://www.globenewswire.com/news-release/2026/07/15/3327741/0/en/bonafide-health-releases-sixth-annual-state-of-menopause-results.html"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Is anxiety really a menopause symptom, or is it just stress?",
-          "a": "Both can be true at once, which is what makes it hard to spot. Hormonal shifts in perimenopause directly affect mood-regulating brain chemistry, and a 2026 survey of over 2,000 women found anxiety and brain fog now rank as the top menopause complaint, ahead of hot flashes. If new anxiety or fog appears alongside other perimenopause signs — irregular cycles, sleep changes, mood swings — it's worth mentioning to your doctor as a possible hormonal factor, not only a stress issue."
-        },
-        {
-          "q": "Why don't more women realise brain fog can be a menopause symptom?",
-          "a": "Because public awareness and clinical guidance have historically centred on hot flashes as the defining symptom. Newer, larger surveys are showing that cognitive and mood symptoms are actually more common complaints for many women, but that message hasn't caught up with general expectations yet — which is part of why so many women attribute these changes to burnout instead."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Перименопауза",
-      "title": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
-      "seoTitle": "Тривога й туман у голові — головний симптом",
-      "metaDesc": "Опитування понад 2000 жінок: тривога й туман у голові випередили припливи як головний симптом менопаузи. Що стоїть за цією зміною і що допомагає.",
-      "excerpt": "Шосте щорічне опитування Bonafide Health, у якому взяли участь понад 2000 жінок, показало: тривожність, туман у голові та зниження мотивації обійшли припливи як головний симптом менопаузи — і майже половина жінок каже, що це вдарило по їхньому доходу.",
-      "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Роками розмови про менопаузу оберталися навколо припливів. Нові дані опитування свідчать, що це вже не той симптом, з яким жінкам найважче жити.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Шосте щорічне опитування Bonafide Health про стан менопаузи, у якому взяли участь понад 2000 жінок у США віком 40–64 роки, показало: тривожність, туман у голові та зниження мотивації тепер очолюють список скарг на менопаузу — уперше обійшовши припливи відтоді, як опитування почали проводити."
-        },
-        {
-          "t": "p",
-          "text": "Ця зміна важлива, бо рідко відповідає тому, чого жінки очікують або що їм казали очікувати. Припливи помітні й легко назвати; тривожність, розсіяність чи брак мотивації легше списати на стрес, вигорання чи «просто складний період» — особливо у 40+, коли тиск роботи й родини й так високий."
-        },
-        {
-          "t": "p",
-          "text": "Опитування також вказує на реальну фінансову ціну. 56% респонденток заявили, що зниження мотивації найбільше впливало на їхню роботу, а 48% сказали, що симптоми негативно позначилися на їхньому доході — 23% повідомили про втрату 10 000 доларів або більше."
-        },
-        {
-          "t": "p",
-          "text": "Це не означає, що будь-який поганий настрій чи туманний тиждень — обов’язково менопаузальний. Але якщо вам 40 або більше і ви помічаєте поєднання тривожності, розумової втоми та падіння драйву, яке не схоже на ваш звичний стан, варто окремо обговорити з лікарем саме перименопаузу — а не одразу зупинятися лише на діагнозі стресу чи ментального здоров’я."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Тривожність, туман у голові та зниження мотивації обійшли припливи як головний симптом менопаузи.",
-              "detail": "Шосте щорічне опитування Bonafide Health про стан менопаузи серед понад 2000 жінок у США віком 40–64 роки показало, що ментальні та когнітивні симптоми вперше випередили припливи. 56% сказали, що зниження мотивації найбільше впливало на їхню роботу; 48% заявили, що симптоми менопаузи негативно позначилися на доході, а 23% повідомили про втрату 10 000 доларів або більше.",
-              "cite": "Bonafide Health · Шосте щорічне опитування про стан менопаузи, 2026",
-              "url": "https://www.globenewswire.com/news-release/2026/07/15/3327741/0/en/bonafide-health-releases-sixth-annual-state-of-menopause-results.html"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чи справді тривожність — це симптом менопаузи, чи це просто стрес?",
-          "a": "Може бути правдою і те, і те одночасно — саме тому це важко розпізнати. Гормональні зміни в перименопаузі напряму впливають на мозкову хімію, що регулює настрій, і опитування 2026 року серед понад 2000 жінок показало, що тривожність і туман у голові тепер головна скарга на менопаузу, випереджаючи припливи. Якщо нова тривожність чи туман з’являються поряд з іншими ознаками перименопаузи — нерегулярний цикл, зміни сну, перепади настрою — варто згадати про це лікарю як про можливий гормональний чинник, а не лише проблему стресу."
-        },
-        {
-          "q": "Чому не всі жінки знають, що туман у голові може бути симптомом менопаузи?",
-          "a": "Тому що суспільна обізнаність і клінічні рекомендації історично зосереджувалися на припливах як визначальному симптомі. Нові, масштабніші опитування показують, що когнітивні симптоми та зміни настрою насправді є частішою скаргою для багатьох жінок, але ця інформація ще не наздогнала загальні очікування — саме тому багато жінок пояснюють ці зміни вигоранням."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "type2-diabetes-women-under-40-sex-bias",
-    "date": "2026-07-17",
-    "image": "/images/type2-diabetes-women-under-40-sex-bias.jpg",
-    "cats": [
-      "diabetes"
-    ],
-    "en": {
-      "cat": "Diabetes",
-      "title": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn't caught up",
-      "seoTitle": "Type 2 Diabetes Rising Fast in Women Under 40",
-      "metaDesc": "A 2026 review argues diabetes care treats women as if hormones don't matter — even as type 2 rises twice as fast in women under 40. Why the gap persists.",
-      "excerpt": "A major 2026 Medscape clinical review argues diabetes care still treats women as if hormones don't matter, even as type 2 diabetes rises twice as fast in women under 40 than in men.",
-      "meta": "17 July 2026 · 3 min read",
-      "lead": "Diabetes guidelines are largely written as if one protocol fits everyone. A major 2026 clinical review argues that's a problem — and that it's costing younger women in particular.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "A 2026 Medscape clinical review makes a case that's overdue: diabetes is not a gender-neutral disease, yet diabetes care is still largely built as if it were. The review highlights that type 2 diabetes is now rising twice as fast in women under 40 compared with men in the same age group."
-        },
-        {
-          "t": "p",
-          "text": "Part of the gap is biological. Hormonal shifts across a woman's life — the menstrual cycle, pregnancy, perimenopause and menopause — measurably change insulin sensitivity and glucose metabolism. The review notes insulin requirements can shift by as much as 15% across the luteal phase of the cycle alone, yet most diabetes management protocols make no allowance for it."
-        },
-        {
-          "t": "p",
-          "text": "Part of the gap is also structural. Women remain underrepresented in the clinical trials that shape treatment guidelines, so sex-specific patterns in how glucose control behaves are often invisible in the data used to write those guidelines in the first place."
-        },
-        {
-          "t": "p",
-          "text": "If your blood sugar feels harder to predict at certain points in your cycle or life stage than standard advice suggests it should be, that's not necessarily you doing something wrong. It's a reasonable prompt to track your own patterns across the month and bring that data to your diabetes team, rather than assuming a one-size protocol should already account for it."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Type 2 diabetes is rising twice as fast in women under 40 than in men, and diabetes care underaccounts for hormonal sex differences.",
-              "detail": "A 2026 Medscape clinical review reports that hormonal changes across a woman's life — including the menstrual cycle, pregnancy, perimenopause and menopause — significantly affect glucose metabolism and insulin needs, with insulin requirements shifting by up to 15% across the luteal phase alone. The review notes women remain underrepresented in the clinical trials underpinning diabetes guidelines, and that type 2 diabetes is now increasing twice as fast in women under 40 compared with men.",
-              "cite": "Medscape · Clinical Review, 13 July 2026",
-              "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Why is type 2 diabetes rising faster in younger women?",
-          "a": "A 2026 Medscape clinical review points to a combination of factors: hormonal changes across a woman's life that affect insulin sensitivity, and diabetes care protocols that were largely developed from trials where women were underrepresented. The result is that sex-specific patterns in glucose control are often not built into standard guidance, which may leave younger women's diabetes risk and management less well addressed."
-        },
-        {
-          "q": "Can my insulin needs really change across my menstrual cycle?",
-          "a": "Yes — the same 2026 review notes insulin requirements can shift by up to 15% during the luteal phase of the cycle. If you notice your glucose control varying in a pattern that tracks with your cycle, it's worth logging it and discussing with your diabetes team, since standard protocols don't automatically factor this in."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Діабет",
-      "title": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40 — а система догляду цього ще не наздогнала",
-      "seoTitle": "Діабет 2 типу швидко зростає у жінок до 40",
-      "metaDesc": "Огляд 2026 року: медицина лікує діабет так, ніби гормони не мають значення — попри вдвічі швидше зростання в жінок до 40. Чому розрив зберігається.",
-      "excerpt": "Великий клінічний огляд Medscape 2026 року стверджує: система догляду за діабетом досі влаштована так, ніби гормони не мають значення, попри те що діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед чоловіків.",
-      "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Рекомендації щодо діабету здебільшого написані так, ніби один протокол підходить усім. Великий клінічний огляд 2026 року стверджує, що це проблема — і що вона особливо дорого коштує молодшим жінкам.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Клінічний огляд Medscape 2026 року порушує давно назрілу тему: діабет не є гендерно нейтральною хворобою, але система догляду за діабетом досі здебільшого влаштована так, ніби це так. Огляд підкреслює, що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 років порівняно з чоловіками того ж віку."
-        },
-        {
-          "t": "p",
-          "text": "Частина розриву — біологічна. Гормональні зміни протягом життя жінки — менструальний цикл, вагітність, перименопауза та менопауза — вимірно змінюють чутливість до інсуліну та метаболізм глюкози. Огляд зазначає, що потреба в інсуліні може змінюватися до 15% лише протягом лютеїнової фази циклу, але більшість протоколів лікування діабету цього не враховують."
-        },
-        {
-          "t": "p",
-          "text": "Частина розриву — структурна. Жінки досі недостатньо представлені в клінічних дослідженнях, які формують рекомендації з лікування, тож специфічні для статі патерни контролю глюкози часто залишаються невидимими в даних, на основі яких ці рекомендації взагалі писалися."
-        },
-        {
-          "t": "p",
-          "text": "Якщо ваш рівень цукру в певні моменти циклу чи етапу життя важче передбачити, ніж це передбачає стандартна порада, це не обов’язково означає, що ви робите щось не так. Це достатня підстава відстежувати власні патерни протягом місяця й приносити ці дані своїй команді з діабету, а не припускати, що універсальний протокол уже це враховує."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед чоловіків, а система догляду за діабетом недостатньо враховує гормональні відмінності між статями.",
-              "detail": "Клінічний огляд Medscape 2026 року повідомляє, що гормональні зміни протягом життя жінки — зокрема менструальний цикл, вагітність, перименопауза та менопауза — суттєво впливають на метаболізм глюкози й потребу в інсуліні, причому потреба в інсуліні змінюється до 15% лише протягом лютеїнової фази. Огляд зазначає, що жінки досі недостатньо представлені в клінічних дослідженнях, на яких ґрунтуються рекомендації з діабету, і що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 порівняно з чоловіками.",
-              "cite": "Medscape · Клінічний огляд, 13 липня 2026",
-              "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чому діабет 2 типу зростає швидше серед молодших жінок?",
-          "a": "Клінічний огляд Medscape 2026 року вказує на поєднання чинників: гормональні зміни протягом життя жінки, що впливають на чутливість до інсуліну, і протоколи лікування діабету, здебільшого розроблені на основі досліджень, де жінки були недостатньо представлені. У результаті специфічні для статі патерни контролю глюкози часто не закладені у стандартні рекомендації, що може означати гірше врахування ризику діабету та його ведення в молодших жінок."
-        },
-        {
-          "q": "Чи справді потреба в інсуліні може змінюватися протягом менструального циклу?",
-          "a": "Так — той самий огляд 2026 року зазначає, що потреба в інсуліні може змінюватися до 15% протягом лютеїнової фази циклу. Якщо ви помічаєте, що контроль глюкози змінюється за патерном, пов’язаним із циклом, варто це фіксувати й обговорювати з командою з діабету, адже стандартні протоколи автоматично цього не враховують."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "higher-protein-postmenopausal-bone-muscle",
-    "date": "2026-07-17",
-    "image": "/images/higher-protein-postmenopausal-bone-muscle.jpg",
-    "cats": [
-      "nutrition"
-    ],
-    "en": {
-      "cat": "Nutrition",
-      "title": "Eating more protein than the official guideline supports better muscle and bone after menopause",
-      "seoTitle": "Protein After Menopause: More Than the Guideline",
-      "excerpt": "A Women's Health Initiative analysis of 3,789 postmenopausal women finds those hitting higher protein targets than the standard RDA had better body composition and bone outcomes over 3 years.",
-      "meta": "17 July 2026 · 3 min read",
-      "lead": "The official protein guideline — 0.8g per kilogram of body weight a day — was set decades ago from studies that barely included older women. A new analysis suggests it may be too low for the postmenopausal years.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Researchers used data from 3,789 postmenopausal women aged 50–79 in the Women's Health Initiative to model what would happen over 3 years at different protein intakes: the current RDA of 0.8g/kg/day, and higher targets of 1.0, 1.2 and 1.5g/kg/day. Body composition was tracked with DXA scans, the same imaging used to measure bone density and lean versus fat mass."
-        },
-        {
-          "t": "p",
-          "text": "Women who sustained protein intake above the RDA — particularly at or above 1.2g/kg/day — showed more favourable changes in lean mass and bone measures than those who stuck close to the minimum guideline. For a 65kg woman, that's roughly 78g of protein a day rather than 52g, spread across meals rather than loaded into one."
-        },
-        {
-          "t": "p",
-          "text": "This matters because postmenopausal women lose muscle and bone density faster once oestrogen drops, and both are strongly linked to frailty, fracture risk and metabolic health later in life. The RDA was never designed as a target for healthy ageing — it's the minimum to avoid deficiency, calculated mostly from younger adults."
-        },
-        {
-          "t": "p",
-          "text": "This was an observational emulated-trial analysis, not a randomised controlled trial, so it shows association rather than definitive proof of cause. But it adds to a growing body of evidence that [higher protein](/blog/protein-for-women-over-40/) — alongside resistance exercise — is one of the more actionable levers for preserving muscle and bone through the menopause transition."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Postmenopausal women sustaining protein intake above 1.2g/kg/day showed more favourable 3-year body composition and bone changes than those near the 0.8g/kg/day RDA.",
-              "detail": "An emulated target-trial analysis of 3,789 postmenopausal women aged 50–79 in the Women's Health Initiative study used DXA-measured body composition to compare hypothetical adherence to four protein intake levels (≥0.8, ≥1.0, ≥1.2 and ≥1.5g/kg/day) over 3 years. Higher sustained intake was associated with more favourable lean mass and bone outcomes than intake at the current RDA.",
-              "cite": "International Journal of Obesity (Nature) · Women's Health Initiative analysis, 2026",
-              "url": "https://www.nature.com/articles/s41366-025-01978-0"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Related reading",
-          "items": [
-            {
-              "name": "Why protein matters more after 40",
-              "url": "/blog/protein-for-women-over-40/",
-              "desc": "How protein needs shift with age and hormones, and practical ways to hit your target."
-            },
-            {
-              "name": "Carb quality and healthy ageing",
-              "url": "/blog/carb-quality-healthy-aging/",
-              "desc": "Why the type of carbohydrate matters as much as the amount as you get older."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "How much protein should I actually eat after menopause?",
-          "a": "The official RDA of 0.8g per kg of body weight a day is a minimum, not an optimum. A 2026 Women's Health Initiative analysis found postmenopausal women sustaining around 1.2g/kg/day or more had better bone and lean-mass outcomes over 3 years. For a 65kg woman, that's roughly 78g of protein daily, spread across meals."
-        },
-        {
-          "q": "Is it too late to start eating more protein if I'm already postmenopausal?",
-          "a": "No — the analysis followed women already postmenopausal, aged 50–79, and still found benefit from higher intake over just 3 years. Combining higher protein with resistance exercise is the combination most consistently linked to preserving muscle and bone at this life stage."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Харчування",
-      "title": "Білка більше за офіційну норму — краще для м'язів і кісток після менопаузи",
-      "seoTitle": "Білок після менопаузи: більше за норму — краще",
-      "excerpt": "Аналіз даних Women's Health Initiative серед 3789 жінок у постменопаузі показує: ті, хто вживав більше білка, ніж стандартна норма, мали кращий склад тіла та стан кісток протягом 3 років.",
-      "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Офіційна норма білка — 0,8 г на кілограм ваги на день — була встановлена десятиліття тому за дослідженнями, де майже не було літніх жінок. Новий аналіз свідчить, що для періоду після менопаузи вона може бути занизькою.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Дослідники використали дані 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative, щоб змоделювати, що станеться за 3 роки при різному споживанні білка: чинній нормі 0,8 г/кг/день і вищих цілях — 1,0, 1,2 та 1,5 г/кг/день. Склад тіла відстежували за допомогою DXA-сканування — того ж методу візуалізації, яким вимірюють щільність кісток та співвідношення м'язової і жирової маси."
-        },
-        {
-          "t": "p",
-          "text": "У жінок, які підтримували споживання білка вище норми — особливо на рівні 1,2 г/кг/день і вище — спостерігалися сприятливіші зміни м'язової маси та показників кісток, ніж у тих, хто тримався мінімальної норми. Для жінки вагою 65 кг це приблизно 78 г білка на день замість 52 г, розподілених по прийомах їжі, а не з’їдених за один раз."
-        },
-        {
-          "t": "p",
-          "text": "Це важливо, бо жінки в постменопаузі втрачають м'язи та щільність кісток швидше після зниження естрогену, а обидва показники тісно пов’язані з крихкістю, ризиком переломів та метаболічним здоров’ям у майбутньому. Норма RDA ніколи не була розрахована як ціль для здорового старіння — це лише мінімум для уникнення дефіциту, здебільшого визначений за дослідженнями молодших дорослих."
-        },
-        {
-          "t": "p",
-          "text": "Це був спостережний аналіз за методом емульованого дослідження, а не рандомізоване контрольоване дослідження, тож він показує зв’язок, а не остаточний доказ причини. Але він додається до дедалі більшої кількості доказів того, що [вищий білок](/ua/blog/protein-for-women-over-40/) разом із силовими тренуваннями — один із найбільш практичних важелів для збереження м'язів і кісток під час переходу через менопаузу."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "У жінок у постменопаузі, які підтримували споживання білка понад 1,2 г/кг/день, спостерігалися сприятливіші зміни складу тіла та кісток за 3 роки, ніж у тих, хто тримався норми 0,8 г/кг/день.",
-              "detail": "Аналіз за методом емульованого дослідження серед 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative використав DXA-виміряний склад тіла, щоб порівняти гіпотетичне дотримання чотирьох рівнів споживання білка (≥0,8, ≥1,0, ≥1,2 та ≥1,5 г/кг/день) протягом 3 років. Вище стале споживання пов’язувалося зі сприятливішими показниками м'язової маси та кісток порівняно зі споживанням на рівні чинної норми.",
-              "cite": "International Journal of Obesity (Nature) · Аналіз Women's Health Initiative, 2026",
-              "url": "https://www.nature.com/articles/s41366-025-01978-0"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Скільки білка насправді варто їсти після менопаузи?",
-          "a": "Офіційна норма 0,8 г на кг ваги на день — це мінімум, а не оптимум. Аналіз Women's Health Initiative 2026 року показав, що жінки в постменопаузі, які підтримували приблизно 1,2 г/кг/день або більше, мали кращі показники кісток і м'язової маси протягом 3 років. Для жінки вагою 65 кг це приблизно 78 г білка на день, розподілених по прийомах їжі."
-        },
-        {
-          "q": "Чи пізно починати їсти більше білка, якщо я вже в постменопаузі?",
-          "a": "Ні — дослідження стежило за жінками, які вже були в постменопаузі, віком 50–79 років, і все одно виявило користь від вищого споживання лише за 3 роки. Поєднання більшого білка із силовими тренуваннями — комбінація, яка найпослідовніше пов’язана зі збереженням м'язів і кісток на цьому етапі життя."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "hrt-restores-skin-collagen-2026-review",
-    "date": "2026-07-17",
-    "image": "/images/hrt-restores-skin-collagen-2026-review.jpg",
-    "cats": [
-      "skin",
-      "perimenopause"
-    ],
-    "en": {
-      "cat": "Skin & beauty",
-      "title": "2026 review confirms HRT restores skin collagen, elasticity and hydration",
-      "seoTitle": "HRT and Skin: Collagen, Elasticity & Hydration (2026)",
-      "excerpt": "A 2026 review in the journal Life pulls together the evidence on menopause, oestrogen and skin — confirming HRT measurably improves collagen content, elasticity and hydration.",
-      "meta": "17 July 2026 · 3 min read",
-      "lead": "Skin is often left out of the menopause conversation entirely. A 2026 review makes the case that it shouldn't be — and that hormone therapy has real, measurable effects on it.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Published in the journal Life, the review draws together research on how falling oestrogen changes skin after menopause: collagen content declines by around 2% a year, elasticity drops, and moisture retention weakens — together producing thinner, drier, more wrinkle-prone skin."
-        },
-        {
-          "t": "p",
-          "text": "Oestrogen isn't cosmetic background noise here — it directly drives collagen production and the skin's ability to hold water. The review confirms hormone replacement therapy measurably improves collagen content, elasticity, thickness and hydration when started, partially reversing changes that accelerate once oestrogen drops."
-        },
-        {
-          "t": "p",
-          "text": "The effect isn't limited to systemic HRT. The review also notes topical oestrogen and non-hormonal alternatives show promise for people who want localised skin benefit without systemic hormone therapy — useful for those who can't or don't want to take HRT for other reasons."
-        },
-        {
-          "t": "p",
-          "text": "None of this makes HRT a skincare product, and the decision to start it should rest on your full symptom picture and personal risk profile, not skin alone. But if skin changes are part of what's bothering you at perimenopause or menopause, it's a legitimate factor to raise with your doctor — not a vanity concern to set aside."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "HRT measurably improves skin collagen content, elasticity and hydration after menopause.",
-              "detail": "A 2026 review in the journal Life synthesises evidence that oestrogen decline after menopause reduces skin collagen by roughly 2% per year alongside losses in elasticity and hydration, and that hormone replacement therapy partially restores collagen content, elasticity, thickness and hydration. Topical oestrogen and non-hormonal agents were also noted as showing potential for targeted skin benefit.",
-              "cite": "Life (MDPI) · Review, 2026",
-              "url": "https://www.mdpi.com/2075-1729/16/3/401"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Related reading",
-          "items": [
-            {
-              "name": "Why skin changes so fast at menopause — and what hormone therapy can and can't do",
-              "url": "/blog/menopause-skin-oestrogen/",
-              "desc": "Oestrogen affects far more than hot flushes — the full picture on HRT and skin changes."
-            },
-            {
-              "name": "Do collagen products actually improve your skin?",
-              "url": "/blog/collagen-and-skin/",
-              "desc": "Declining oestrogen accelerates collagen loss. What the evidence says about supplementing."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Can HRT actually reverse skin ageing from menopause?",
-          "a": "It can partially reverse some of it. A 2026 review found HRT measurably improves skin collagen content, elasticity, thickness and hydration compared with untreated menopause, where collagen declines by around 2% a year. It's not a full reversal or a substitute for skincare, but the effect on skin structure is real and measurable."
-        },
-        {
-          "q": "Should I start HRT just for my skin?",
-          "a": "No — skin benefit is a real effect of HRT but not a standalone reason to start it. The decision should weigh your full symptom picture (hot flushes, sleep, mood, bone health) and personal risk factors with your doctor. If skin changes are contributing to how you feel, it's fine to mention them as part of that wider conversation."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Краса та шкіра",
-      "title": "Огляд 2026 року підтверджує: ЗГТ відновлює колаген, еластичність і зволоженість шкіри",
-      "seoTitle": "ЗГТ і шкіра: колаген, еластичність, зволоженість (2026)",
-      "excerpt": "Огляд 2026 року в журналі Life зібрав докази про менопаузу, естроген і шкіру — підтверджуючи, що ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість.",
-      "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Шкіру часто повністю випускають з розмови про менопаузу. Огляд 2026 року доводить, що це неправильно — і що гормональна терапія має реальний, вимірний вплив на неї.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Опублікований у журналі Life огляд зібрав дослідження того, як зниження естрогену змінює шкіру після менопаузи: вміст колагену знижується приблизно на 2% на рік, еластичність падає, а здатність утримувати вологу слабшає — разом це дає тоншу, сухішу шкіру, схильнішу до зморшок."
-        },
-        {
-          "t": "p",
-          "text": "Естроген тут — не косметичний фон: він напряму керує виробленням колагену та здатністю шкіри утримувати воду. Огляд підтверджує, що замісна гормональна терапія вимірно покращує вміст колагену, еластичність, товщину та зволоженість шкіри після початку прийому, частково повертаючи зміни, які прискорюються після зниження естрогену."
-        },
-        {
-          "t": "p",
-          "text": "Ефект не обмежується системною ЗГТ. Огляд також зазначає, що місцевий естроген і негормональні альтернативи показують перспективність для тих, хто хоче локальну користь для шкіри без системної гормональної терапії — це корисно для тих, хто не може або не хоче приймати ЗГТ з інших причин."
-        },
-        {
-          "t": "p",
-          "text": "Це не робить ЗГТ засобом для догляду за шкірою, і рішення почати її має спиратися на повну картину симптомів і особистий профіль ризику, а не лише на шкіру. Але якщо зміни шкіри — частина того, що турбує вас у перименопаузі чи менопаузі, це законний привід обговорити з лікарем, а не питання марнославства, яке варто відкласти."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість шкіри після менопаузи.",
-              "detail": "Огляд 2026 року в журналі Life узагальнює докази того, що зниження естрогену після менопаузи зменшує колаген шкіри приблизно на 2% на рік поряд із втратою еластичності та зволоженості, а замісна гормональна терапія частково відновлює вміст колагену, еластичність, товщину та зволоженість. Місцевий естроген і негормональні засоби також зазначені як перспективні для локальної користі для шкіри.",
-              "cite": "Life (MDPI) · Огляд, 2026",
-              "url": "https://www.mdpi.com/2075-1729/16/3/401"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чи може ЗГТ справді повернути старіння шкіри через менопаузу?",
-          "a": "Частково — так. Огляд 2026 року показав, що ЗГТ вимірно покращує вміст колагену, еластичність, товщину та зволоженість шкіри порівняно з нелікованою менопаузою, коли колаген знижується приблизно на 2% на рік. Це не повне повернення й не заміна догляду за шкірою, але вплив на структуру шкіри реальний і вимірний."
-        },
-        {
-          "q": "Чи варто починати ЗГТ лише заради шкіри?",
-          "a": "Ні — користь для шкіри реальна, але не є самостійною причиною починати ЗГТ. Рішення має враховувати повну картину симптомів (припливи, сон, настрій, здоров'я кісток) та особисті фактори ризику разом із лікарем. Якщо зміни шкіри впливають на ваше самопочуття, цілком доречно згадати про них у цій ширшій розмові."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "glp1-weight-loss-drugs-fat-not-muscle",
-    "date": "2026-07-17",
-    "image": "/images/glp1-weight-loss-drugs-fat-not-muscle.jpg",
-    "cats": [
-      "weight",
-      "nutrition"
-    ],
-    "en": {
-      "cat": "Weight loss",
-      "title": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
-      "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle (IJO)",
-      "excerpt": "A 2026 meta-analysis of GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle, and that women lose proportionally more than men.",
-      "meta": "17 July 2026 · 3 min read",
-      "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Researchers pooled body-composition data from randomised trials of GLP-1 receptor agonists — the drug class that includes semaglutide (Ozempic, Wegovy) and tirzepatide. Crucially, they looked at the fat-versus-lean-mass breakdown, not just the number on the scale, which is what actually tells you whether weight loss is coming from fat or from muscle."
-        },
-        {
-          "t": "p",
-          "text": "Across the pooled trials, the large majority of the weight lost came from fat mass, with lean (muscle) tissue making up a smaller share than the alarming early headlines had implied. Some lean mass is still lost — that happens with almost any weight loss, including plain dieting — but the fat-to-muscle ratio was more favourable than the \"these drugs waste your muscle\" narrative suggested."
-        },
-        {
-          "t": "p",
-          "text": "One finding stands out for women: on the same drugs, women lost proportionally more weight than men. That fits what's known about sex differences in body composition and how these medicines act, and it's a useful reminder that trial averages — often weighted toward male physiology — don't always map onto a woman's experience."
-        },
-        {
-          "t": "p",
-          "text": "None of this means muscle looks after itself. Losing weight quickly at any age thins muscle and bone unless you actively defend them — which is exactly where [enough protein](/blog/protein-for-women-over-40/) and resistance training earn their place, and it matters even more through perimenopause and beyond, when muscle and bone are already under pressure. The drugs tilt the fat-to-muscle ratio in your favour; they don't remove the need to train and eat well while the weight comes off."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Most of the weight lost on GLP-1 drugs is fat, not muscle, and women lose proportionally more than men.",
-              "detail": "A 2026 meta-analysis in the International Journal of Obesity (Nature) pooled body-composition data from randomised trials of GLP-1 receptor agonists and found that the large majority of weight lost was fat mass rather than lean (muscle) tissue, with women losing proportionally more weight than men. Some lean mass loss still occurs, as it does with most weight loss, underscoring the role of adequate protein and resistance exercise in preserving muscle.",
-              "cite": "International Journal of Obesity (Nature) · Meta-analysis, 2026",
-              "url": "https://www.nature.com/articles/s41366-026-02088-1"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Do GLP-1 weight-loss drugs make you lose muscle?",
-          "a": "Some muscle loss happens with almost any weight loss, including on these drugs — but a 2026 meta-analysis found the large majority of the weight lost on GLP-1 drugs is fat, not muscle, and the muscle share is smaller than earlier single studies suggested. You can protect muscle further by eating enough protein and doing resistance exercise while you lose weight."
-        },
-        {
-          "q": "Why do women lose more weight than men on these drugs?",
-          "a": "The 2026 meta-analysis found women lost proportionally more weight than men on the same GLP-1 medicines. Differences in body composition, hormones and how the drugs act between the sexes all play a part. It's also a reminder that averages from mixed or male-skewed trials don't always reflect what an individual woman will experience."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Схуднення",
-      "title": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
-      "seoTitle": "GLP-1: втрата ваги — переважно жир, а не м’язи (IJO)",
-      "excerpt": "Метааналіз 2026 року показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
-      "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м'язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Дослідники об'єднали дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 — класу препаратів, до якого належать семаглутид (Ozempic, Wegovy) і тирзепатид. Важливо, що вони дивилися на співвідношення жирової та м'язової маси, а не лише на цифру на вагах — саме це показує, звідки береться втрата ваги: з жиру чи з м'язів."
-        },
-        {
-          "t": "p",
-          "text": "У всіх об'єднаних дослідженнях переважна більшість втраченої ваги припадала на жирову масу, а на м'язову тканину — менша частка, ніж припускали тривожні ранні заголовки. Певна втрата м'язової маси все одно відбувається — це трапляється майже за будь-якого схуднення, зокрема й простого дотримання дієти, — але співвідношення жиру до м'язів було сприятливішим, ніж навіювала розповідь про те, що «ці препарати руйнують м'язи»."
-        },
-        {
-          "t": "p",
-          "text": "Один результат особливо важливий для жінок: на тих самих препаратах жінки втрачали пропорційно більше ваги, ніж чоловіки. Це узгоджується з відомими статевими відмінностями у складі тіла та в тому, як діють ці ліки, і нагадує, що середні показники досліджень — часто зміщені у бік чоловічої фізіології — не завжди відповідають досвіду жінки."
-        },
-        {
-          "t": "p",
-          "text": "Ніщо з цього не означає, що м'язи подбають про себе самі. Швидка втрата ваги в будь-якому віці витончує м'язи й кістки, якщо їх активно не захищати — і саме тут стають у пригоді [достатній білок](/ua/blog/protein-for-women-over-40/) і силові тренування. Це особливо важливо під час перименопаузи та після неї, коли м'язи й кістки й так під тиском. Препарати схиляють співвідношення жиру до м'язів на вашу користь, але не скасовують потреби тренуватися й добре харчуватися, поки вага йде."
-        },
-        {
-          "t": "h",
-          "text": "Що каже наука"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
-              "detail": "Метааналіз 2026 року в International Journal of Obesity (Nature) об'єднав дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 і виявив, що переважна більшість втраченої ваги припадала на жирову масу, а не на м'язову тканину, при цьому жінки втрачали пропорційно більше ваги, ніж чоловіки. Певна втрата м'язової маси все одно відбувається, як і за більшості схуднення, що підкреслює роль достатнього білка й силових тренувань у збереженні м'язів.",
-              "cite": "International Journal of Obesity (Nature) · Метааналіз, 2026",
-              "url": "https://www.nature.com/articles/s41366-026-02088-1"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Чи призводять препарати GLP-1 для схуднення до втрати м'язів?",
-          "a": "Певна втрата м'язів відбувається майже за будь-якого схуднення, зокрема й на цих препаратах, — але метааналіз 2026 року виявив, що переважна більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і частка м'язів менша, ніж припускали ранні окремі дослідження. Захистити м'язи ще більше можна, вживаючи достатньо білка й виконуючи силові вправи, поки ви худнете."
-        },
-        {
-          "q": "Чому жінки втрачають більше ваги, ніж чоловіки, на цих препаратах?",
-          "a": "Метааналіз 2026 року виявив, що жінки втрачали пропорційно більше ваги, ніж чоловіки, на тих самих препаратах GLP-1. Відмінності у складі тіла, гормонах і в тому, як діють ці ліки в чоловіків і жінок, — усе це має значення. Це також нагадування, що середні показники змішаних або зміщених до чоловіків досліджень не завжди відображають те, що відчує конкретна жінка."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "menopause-brain-fog-not-dementia",
-    "date": "2026-08-15",
-    "image": "/images/menopause-brain-fog-not-dementia.jpg",
-    "cats": [
-      "perimenopause"
-    ],
-    "en": {
-      "cat": "Perimenopause",
-      "title": "Menopause brain fog isn’t early dementia — and it finally has a definition",
-      "seoTitle": "Menopause Brain Fog Isn’t Early Dementia",
-      "metaDesc": "A 2026 Lancet review defines menopause brain fog as a drop in mental efficiency, not capacity — reported by two-thirds of women, and not a dementia sign.",
-      "excerpt": "A 2026 Lancet review proposes the first clinical definition of menopausal brain fog: self-reported trouble with memory, attention or word-finding, without measurable cognitive decline — and no link to dementia risk.",
-      "meta": "15 August 2026 · 4 min read",
-      "lead": "More than two-thirds of women report memory or concentration trouble across the menopause transition. Until now there has been no agreed definition of what that is — which is part of why so little has been done about it.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "A review published in April 2026 in The Lancet Obstetrics, Gynaecology & Women’s Health sets out to fix that. Led by Associate Professor Caroline Gurvich at Monash University, with colleagues at UCL and the University of Melbourne, it pulls together what the evidence currently supports and proposes a clinical definition of menopausal brain fog so that trials can finally be designed around it."
-        },
-        {
-          "t": "p",
-          "text": "The definition they propose is narrower and more precise than the everyday use of the phrase: self-reported difficulty in one or more cognitive areas — memory, attention, organisation, problem-solving or word retrieval — in the absence of notable objective cognitive decline. In Gurvich’s words, this is “a decrease in cognitive or learning efficiency, not functionality or capacity.” The typical experience is forgetfulness, losing a word mid-sentence, being pulled off task more easily — not losing the ability to do the task."
-        },
-        {
-          "t": "p",
-          "text": "That last clause carries the reassurance most women are actually looking for. The review reports that these cognitive symptoms are not associated with an increased risk of dementia, and that on formal testing, overall performance usually sits within the expected range. Fear of early Alzheimer’s is one of the most common reasons women bring brain fog to a GP, and on the current evidence it is not what this is."
-        },
-        {
-          "t": "p",
-          "text": "But “doesn’t show up on a test” has been read for years as “isn’t real”, and that is the problem the authors are pushing back on. There is pressure to prove a treatment works using objective memory tests, when the defining symptom is subjective — so studies keep measuring the wrong thing and finding nothing. Their argument is that self-report should be accepted here, as it already is for depression and anxiety, both of which are diagnosed and treated on what the patient describes."
-        },
-        {
-          "t": "p",
-          "text": "The honest position on causes and treatment is that neither is settled. Hormonal change, disrupted sleep and psychological or psychosocial stress all appear to contribute, and they overlap heavily — broken sleep alone will produce most of the symptom list. There are no treatments specific to menopausal brain fog. Sleep quality, regular aerobic exercise and a decent diet have general support, cognitive behavioural therapy has early promising results, and the evidence on hormone therapy for cognitive symptoms specifically is mixed."
-        },
-        {
-          "t": "p",
-          "text": "The most-quoted figures on how common this is come from a different kind of study, and it is worth knowing which. A 2024 service evaluation of 978 new patients at a UK specialist menopause clinic found memory problems in 93% and difficulty concentrating in 91%, with symptom scores improving across the board three months after starting hormone therapy. Those are women who had already sought specialist help, so the percentages run far above the general population, and it was a before-and-after audit with no control group — encouraging, but not proof that the treatment caused the improvement."
-        },
-        {
-          "t": "p",
-          "text": "One practical note for anyone here for the diabetes side: glucose running high, running low, or swinging does exactly this to concentration and word-finding, and so do thyroid problems, low ferritin and low B12. All of those are testable, and worth testing, before the fog is filed under hormones alone. I’ve written more about that overlap in [perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/)."
-        },
-        {
-          "t": "h",
-          "text": "What the research says"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Menopausal brain fog now has a proposed clinical definition — and no established link to dementia risk.",
-              "detail": "A 2026 review in The Lancet Obstetrics, Gynaecology & Women’s Health, led by Associate Professor Caroline Gurvich (Monash University) with Professor Aimee Spector (UCL) and Professor Martha Hickey (University of Melbourne and the Royal Women’s Hospital), proposes defining menopausal brain fog as self-reported impairment in one or more cognitive domains — memory, attention, organisation, problem-solving or word retrieval — in the absence of notable objective cognitive decline. More than two-thirds of women report difficulties with memory or concentration over the menopause transition. The authors report that these symptoms are not linked to an increased risk of dementia and that overall cognitive performance typically remains within expected ranges, and they identify hormonal change, sleep disturbance and psychological or psychosocial stress as contributing factors. This is a review and position paper synthesising existing evidence, not a new trial.",
-              "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · 13 April 2026",
-              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00043-9/fulltext"
-            },
-            {
-              "claim": "In a UK menopause clinic, more than nine in ten patients reported memory and concentration problems.",
-              "detail": "A service evaluation published in BJPsych Open (Reisel et al., 1 August 2024) gave a modified Greene Climacteric Symptom Questionnaire to 978 new patients at a specialist menopause clinic between November 2022 and June 2023. The five most prevalent symptoms were feeling tired or lacking in energy (96%), memory problems (93%), difficulty in concentrating (91%), irritability (90%) and feeling tense or nervous (90%). At three-month follow-up all symptoms had improved on hormone therapy, with or without transdermal testosterone — most of all profound low mood (69% improvement in symptom scores) and attacks of anxiety and panic (61%). Two limits matter when reading those numbers: the sample is women who actively sought specialist menopause care, so prevalence runs well above the general population, and the design is an uncontrolled before-and-after audit with no placebo group.",
-              "cite": "BJPsych Open · Reisel et al., 1 August 2024",
-              "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/prevalence-of-cognitive-and-moodrelated-symptoms-in-a-large-cohort-of-perimenopausal-and-menopausal-women/9478EDCFCB94629C1C02657229EC4A2F"
-            },
-            {
-              "claim": "The researchers argue trials should measure what women report, not only what tests detect.",
-              "detail": "Summarising the review, Associate Professor Gurvich notes there is pressure to use objective measures such as memory tests in clinical trials, “but the key symptom of brain fog is a subjective experience” — and argues self-report measures should be accepted, as they are for depression and anxiety. Professor Martha Hickey states that the analysis of the best available research shows many women experience some degree of cognitive symptoms during the menopause transition. The team notes there are currently no specific treatments, with sleep, aerobic exercise, diet and cognitive behavioural therapy among the approaches under investigation.",
-              "cite": "UCL News · 13 April 2026",
-              "url": "https://www.ucl.ac.uk/news/2026/apr/brain-fog-affects-two-thirds-going-through-menopause-yet-poorly-understood"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Related reading",
-          "items": [
-            {
-              "name": "Anxiety and brain fog, not hot flashes, are now women’s top menopause complaint",
-              "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
-              "desc": "The survey that pushed cognitive symptoms above hot flushes — and what it cost women at work."
-            },
-            {
-              "name": "Ninety minutes less sleep raised insulin resistance by 15% in women",
-              "url": "/blog/sleep-insulin-resistance-women/",
-              "desc": "Disrupted sleep is one of the named contributors to brain fog — and it does more than that."
-            },
-            {
-              "name": "Perimenopause and diabetes: what’s really happening to your blood sugar",
-              "url": "/blog/perimenopause-diabetes-blood-sugar/",
-              "desc": "When glucose, not hormones, is the simpler explanation for a foggy afternoon."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Is menopause brain fog a sign of early dementia?",
-          "a": "On the current evidence, no. The 2026 Lancet review reports that cognitive symptoms during the menopause transition are not linked to an increased risk of dementia, and that overall performance on formal cognitive testing usually stays within the expected range. The proposed definition specifically describes impairment that is self-reported and happens without notable objective decline. That said, if symptoms are severe, getting worse, or affecting your ability to do familiar tasks rather than just doing them more slowly, that is worth raising with your doctor rather than assuming it is menopause."
-        },
-        {
-          "q": "If my memory tests come back normal, does that mean the fog isn’t real?",
-          "a": "No — and that mismatch is exactly what the new definition is trying to capture. What changes is efficiency rather than capacity: the word arrives, but slower; the task gets done, but with more effort and more distraction. Standard cognitive tests are built to detect loss of capacity, so they can miss a real and disruptive drop in efficiency entirely. The researchers argue this is why treatment trials keep coming up empty, and why what you report should count as evidence in its own right."
-        }
-      ]
-    },
-    "ua": {
-      "cat": "Перименопауза",
-      "title": "Туман у голові в менопаузі — це не рання деменція, і тепер у нього є визначення",
-      "seoTitle": "Туман у голові в менопаузі — це не деменція",
-      "metaDesc": "Огляд Lancet 2026: туман у голові в менопаузі — це падіння ефективності мислення, а не втрата здатностей. Дві третини жінок, і жодного зв’язку з деменцією.",
-      "excerpt": "Огляд у The Lancet за 2026 рік пропонує перше клінічне визначення туману в голові при менопаузі: суб’єктивні труднощі з пам’яттю, увагою чи добором слів без вимірюваного зниження когнітивних функцій — і без зв’язку з ризиком деменції.",
-      "meta": "15 серпня 2026 · 4 хв читання",
-      "lead": "Понад дві третини жінок повідомляють про проблеми з пам’яттю чи концентрацією під час менопаузального переходу. Досі не було узгодженого визначення, що це таке, — і саме тому з цим так мало що робили.",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Огляд, опублікований у квітні 2026 року в The Lancet Obstetrics, Gynaecology & Women’s Health, має це виправити. Його очолила доцентка Керолайн Ґурвіч з Університету Монаша разом із колегами з UCL та Мельбурнського університету. Автори зібрали те, що сьогодні підтверджують дані, і запропонували клінічне визначення менопаузального туману в голові — щоб дослідження нарешті мали що вимірювати."
-        },
-        {
-          "t": "p",
-          "text": "Запропоноване визначення вужче й точніше за побутове вживання цього виразу: суб’єктивні труднощі в одній або кількох когнітивних сферах — пам’ять, увага, організація, розв’язання задач або добір слів — за відсутності помітного об’єктивного зниження когнітивних функцій. За словами Ґурвіч, ідеться про «зниження ефективності мислення й навчання, а не функціональності чи здатності». Типовий досвід — забудькуватість, слово, що зникає посеред речення, легше відволікання. Але не втрата здатності виконати саму справу."
-        },
-        {
-          "t": "p",
-          "text": "Саме остання частина визначення дає ту відповідь, по яку більшість жінок і приходить. В огляді зазначено, що ці когнітивні симптоми не пов’язані з підвищеним ризиком деменції, а при формальному тестуванні загальні результати зазвичай залишаються в межах очікуваного. Страх ранньої хвороби Альцгеймера — одна з найчастіших причин, чому жінки взагалі згадують про туман у голові на прийомі; за наявними даними, це не він."
-        },
-        {
-          "t": "p",
-          "text": "Але фразу «на тестах нічого не видно» роками читали як «цього не існує» — і саме проти цього виступають автори. Від дослідників вимагають доводити ефективність лікування об’єктивними тестами пам’яті, тоді як ключовий симптом є суб’єктивним. Тож дослідження раз за разом вимірюють не те й нічого не знаходять. Автори наполягають: самозвіт тут має бути прийнятним доказом — так само, як для депресії й тривоги, які діагностують і лікують за тим, що описує сама людина."
-        },
-        {
-          "t": "p",
-          "text": "Чесна позиція щодо причин і лікування — що ані те, ані інше остаточно не з’ясоване. Гормональні зміни, порушення сну та психологічний і психосоціальний стрес, схоже, роблять свій внесок і сильно перетинаються: самого лише розірваного сну достатньо, щоб дати майже весь перелік симптомів. Специфічного лікування менопаузального туману в голові немає. Якість сну, регулярні аеробні навантаження й нормальне харчування мають загальну підтримку, когнітивно-поведінкова терапія показує перші обнадійливі результати, а дані щодо гормональної терапії саме для когнітивних симптомів — суперечливі."
-        },
-        {
-          "t": "p",
-          "text": "Найчастіше цитовані цифри про поширеність походять із дослідження іншого типу, і це варто знати. Оцінка послуги 2024 року за участю 978 нових пацієнток спеціалізованої менопаузальної клініки у Великій Британії виявила проблеми з пам’яттю в 93% і труднощі з концентрацією в 91%, а через три місяці після початку гормональної терапії показники симптомів покращилися за всіма пунктами. Але це жінки, які вже самі звернулися по спеціалізовану допомогу, тому відсотки значно вищі, ніж у загальній популяції; до того ж це аудит «до і після» без контрольної групи — обнадійливо, але не доказ, що поліпшення спричинило саме лікування."
-        },
-        {
-          "t": "p",
-          "text": "Одне практичне зауваження для тих, хто читає тут про діабет: високий цукор, низький цукор і різкі коливання дають рівно ту саму картину з концентрацією й добором слів — так само як проблеми зі щитоподібною залозою, низький феритин і низький B12. Усе це можна перевірити аналізами, і варто перевірити, перш ніж списувати туман лише на гормони. Докладніше про це перетинання — у тексті про [перименопаузу і цукор крові](/ua/blog/perimenopause-diabetes-blood-sugar/)."
-        },
-        {
-          "t": "h",
-          "text": "Що кажуть дослідження"
-        },
-        {
-          "t": "refs",
-          "items": [
-            {
-              "claim": "Менопаузальний туман у голові отримав запропоноване клінічне визначення — і не має підтвердженого зв’язку з ризиком деменції.",
-              "detail": "Огляд 2026 року в The Lancet Obstetrics, Gynaecology & Women’s Health під керівництвом доцентки Керолайн Ґурвіч (Університет Монаша) разом із професоркою Еймі Спектор (UCL) і професоркою Мартою Гікі (Мельбурнський університет і Royal Women’s Hospital) пропонує визначати менопаузальний туман у голові як суб’єктивне порушення в одній чи кількох когнітивних сферах — пам’ять, увага, організація, розв’язання задач або добір слів — за відсутності помітного об’єктивного зниження когнітивних функцій. Понад дві третини жінок повідомляють про труднощі з пам’яттю або концентрацією протягом менопаузального переходу. Автори зазначають, що ці симптоми не пов’язані з підвищеним ризиком деменції, а загальні когнітивні показники зазвичай залишаються в межах очікуваного; серед чинників вони називають гормональні зміни, порушення сну та психологічний і психосоціальний стрес. Це оглядова й позиційна стаття, яка узагальнює наявні дані, а не нове дослідження.",
-              "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · 13 квітня 2026",
-              "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00043-9/fulltext"
-            },
-            {
-              "claim": "У британській менопаузальній клініці понад дев’ять із десяти пацієнток повідомили про проблеми з пам’яттю та концентрацією.",
-              "detail": "Оцінка послуги, опублікована в BJPsych Open (Reisel та ін., 1 серпня 2024), охопила 978 нових пацієнток спеціалізованої менопаузальної клініки в період з листопада 2022 до червня 2023 року за модифікованим опитувальником Greene. П’ять найпоширеніших симптомів: втома або брак енергії (96%), проблеми з пам’яттю (93%), труднощі з концентрацією (91%), дратівливість (90%) і напруження чи нервозність (90%). Через три місяці на тлі гормональної терапії — із трансдермальним тестостероном або без нього — покращилися всі симптоми, найбільше глибоко знижений настрій (на 69% за шкалою симптомів) і напади тривоги й паніки (на 61%). Два обмеження важливі: вибірка — жінки, які самі звернулися по спеціалізовану допомогу, тож поширеність значно вища за загальнопопуляційну, а дизайн — неконтрольований аудит «до і після» без плацебо-групи.",
-              "cite": "BJPsych Open · Reisel та ін., 1 серпня 2024",
-              "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/prevalence-of-cognitive-and-moodrelated-symptoms-in-a-large-cohort-of-perimenopausal-and-menopausal-women/9478EDCFCB94629C1C02657229EC4A2F"
-            },
-            {
-              "claim": "Дослідники наполягають: випробування мають вимірювати те, про що повідомляють жінки, а не лише те, що видно тестам.",
-              "detail": "Коментуючи огляд, доцентка Ґурвіч зазначає, що від дослідників вимагають об’єктивних вимірювань на кшталт тестів пам’яті, «але ключовий симптом туману в голові — це суб’єктивний досвід», і що самозвітні шкали мають бути прийнятними так само, як для депресії й тривоги. Професорка Марта Гікі зазначає, що аналіз найкращих наявних досліджень показує: багато жінок переживають той чи інший ступінь когнітивних симптомів під час менопаузального переходу. Команда наголошує, що специфічного лікування наразі немає, а серед підходів, які вивчають, — сон, аеробні навантаження, харчування та когнітивно-поведінкова терапія.",
-              "cite": "UCL News · 13 квітня 2026",
-              "url": "https://www.ucl.ac.uk/news/2026/apr/brain-fog-affects-two-thirds-going-through-menopause-yet-poorly-understood"
-            }
-          ]
-        },
-        {
-          "t": "links",
-          "title": "Дотичне читання",
-          "items": [
-            {
-              "name": "Тривога й туман у голові, а не припливи, — тепер головна скарга жінок у менопаузі",
-              "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
-              "desc": "Опитування, яке поставило когнітивні симптоми вище за припливи — і в що це обійшлося жінкам на роботі."
-            },
-            {
-              "name": "На 90 хвилин менше сну — і інсулінорезистентність у жінок зросла на 15%",
-              "url": "/ua/blog/sleep-insulin-resistance-women/",
-              "desc": "Порушений сон — один із названих чинників туману в голові. І не лише його."
-            },
-            {
-              "name": "Перименопауза і діабет: що насправді відбувається з цукром крові",
-              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
-              "desc": "Коли простіше пояснення туманного дня — не гормони, а глюкоза."
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Туман у голові в менопаузі — це ознака ранньої деменції?",
-          "a": "За наявними даними — ні. Огляд The Lancet 2026 року зазначає, що когнітивні симптоми під час менопаузального переходу не пов’язані з підвищеним ризиком деменції, а загальні результати формального когнітивного тестування зазвичай залишаються в межах очікуваного. Запропоноване визначення прямо описує порушення, про яке повідомляє сама людина й яке відбувається без помітного об’єктивного зниження. Водночас, якщо симптоми важкі, посилюються або заважають виконувати звичні справи, а не просто сповільнюють вас, це варто обговорити з лікарем, а не списувати на менопаузу."
-        },
-        {
-          "q": "Якщо тести на пам’ять у нормі, чи означає це, що туману насправді немає?",
-          "a": "Ні — і саме цю невідповідність намагається охопити нове визначення. Змінюється ефективність, а не здатність: слово таки знаходиться, але повільніше; справа таки робиться, але з більшим зусиллям і більшим відволіканням. Стандартні когнітивні тести створені, щоб виявляти втрату здатності, тому вони можуть повністю пропустити реальне й виснажливе падіння ефективності. Дослідники вважають, що саме тому випробування лікування раз за разом нічого не показують — і що те, про що ви розповідаєте, має рахуватися як доказ саме по собі."
         }
       ]
     }
