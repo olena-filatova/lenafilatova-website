@@ -15,6 +15,13 @@ export const FOOTER = {
     legalLinks: ['Privacy Policy', 'Cookie Policy', 'Terms & Conditions', 'Refund & Cancellation Policy', 'Accessibility'],
     company: '© 2026 Selfound Ltd. Registered in England and Wales · Company No. 16450921',
     disclaimer: 'The information on this site is for educational purposes only and is not medical advice. When in doubt, please consult your healthcare provider.',
+    // OPS-336 — site-wide AI notice. Split around the link so the contact
+    // page keeps the deploy base prefix the rest of the footer uses.
+    aiNotice: {
+      pre: 'This website is produced with the help of AI, which can make mistakes. If you spot one, please tell me through the ',
+      link: 'contact form',
+      post: '.',
+    },
   },
   ua: {
     blurb: 'Науково обґрунтоване жіноче здоров’я після 40 — харчування, фітнес і спокійні, практичні поради.',
@@ -23,6 +30,11 @@ export const FOOTER = {
     legalLinks: ['Політика конфіденційності', 'Політика cookie', 'Умови використання', 'Повернення та скасування', 'Доступність'],
     company: '© 2026 Selfound Ltd. Registered in England and Wales · Company No. 16450921',
     disclaimer: 'Інформація на цьому сайті має лише освітній характер і не є медичною порадою. За наявності сумнівів, будь ласка, зверніться до свого лікаря.',
+    aiNotice: {
+      pre: 'Цей вебсайт створюється за допомогою штучного інтелекту, який може помилятися. Якщо ви помітили помилку, будь ласка, повідомте мені через ',
+      link: 'контактну форму',
+      post: '.',
+    },
   },
 };
 

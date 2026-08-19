@@ -341,13 +341,6 @@ export const POSTS = [
               "desc": "What lifting does to glucose, for anyone adding training and a supplement at once."
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -680,13 +673,6 @@ export const POSTS = [
               "desc": "Що робить із глюкозою робота з обтяженнями — для тих, хто додає і тренування, і добавку одночасно."
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Лена Філатова",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Лена Філатова, авторка про жіноче здоров’я, живе з діабетом 1 типу",
-          "text": "Лена Філатова живе з діабетом 1 типу 23 роки. Пише про жіноче здоров’я, перименопаузу й керування діабетом на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -1061,13 +1047,6 @@ export const POSTS = [
               "desc": "If the overnight traces are the answer, this is how to choose the thing that draws them."
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -1429,13 +1408,6 @@ export const POSTS = [
               "desc": "Якщо відповідь у нічних графіках, ось як обрати те, що їх малює."
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров'я, що живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу та ведення діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -1921,13 +1893,6 @@ export const POSTS = [
               "desc": "Why women's diabetes care keeps missing things that are hiding in plain sight."
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -2247,13 +2212,6 @@ export const POSTS = [
               "desc": "Чому жіноча діабетична допомога раз у раз не помічає того, що лежить на видноті."
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров'я, що живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу та ведення діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -4235,13 +4193,6 @@ export const POSTS = [
               "url": "https://www.diabetes.org.uk/living-with-diabetes/life-with-diabetes/menopause"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -4483,13 +4434,6 @@ export const POSTS = [
               "url": "https://www.diabetes.org.uk/living-with-diabetes/life-with-diabetes/menopause"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров'я, що живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу та ведення діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -5038,13 +4982,6 @@ export const POSTS = [
               "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -5389,13 +5326,6 @@ export const POSTS = [
               "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Олена Філатова",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Олена Філатова, авторка про жіноче здоров'я, живе з діабетом 1 типу",
-          "text": "Олена Філатова живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу, харчування та контроль діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -5636,13 +5566,6 @@ export const POSTS = [
               "url": "https://diabetesjournals.org/care/article/36/10/3262/30770/Three-15-min-Bouts-of-Moderate-Postmeal-Walking"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -5865,13 +5788,6 @@ export const POSTS = [
               "url": "https://diabetesjournals.org/care/article/36/10/3262/30770/Three-15-min-Bouts-of-Moderate-Postmeal-Walking"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Лена Філатова, авторка про жіноче здоров’я, живе з діабетом 1 типу",
-          "text": "Лена Філатова живе з діабетом 1 типу 23 роки. Вона пише про жіноче здоров’я, перименопаузу, харчування та контроль діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -6160,13 +6076,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -6445,13 +6354,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Лена Філатова",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Лена Філатова, авторка про жіноче здоров'я, живе з діабетом 1 типу",
-          "text": "Лена Філатова живе з діабетом 1 типу 23 роки. Вона пише про жіноче здоров'я, перименопаузу, харчування та життя з діабетом на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -6716,13 +6618,6 @@ export const POSTS = [
               "url": "https://www.thelancet.com/article/S2213-8587(17)30014-1/fulltext"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women’s health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women’s health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -6986,13 +6881,6 @@ export const POSTS = [
               "url": "https://www.thelancet.com/article/S2213-8587(17)30014-1/fulltext"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Лена Філатова, авторка про жіноче здоров’я, яка живе з діабетом 1 типу",
-          "text": "Лена Філатова живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров’я, перименопаузу, харчування та контроль діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -10511,13 +10399,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and long-term wellbeing at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -10684,13 +10565,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров’я, яка живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров’я, перименопаузу та довготривале благополуччя на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -12475,13 +12349,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause, nutrition and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -12818,13 +12685,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров'я, що живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу, харчування та контроль діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -13461,13 +13321,6 @@ export const POSTS = [
               "url": "https://clinicaltrials.gov/search?term=TIMES%20insulin%20sensitivity%20menstrual%20type%201%20diabetes"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and diabetes management at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -13638,13 +13491,6 @@ export const POSTS = [
               "url": "https://clinicaltrials.gov/search?term=TIMES%20insulin%20sensitivity%20menstrual%20type%201%20diabetes"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров'я, що живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу та ведення діабету на lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -14188,13 +14034,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, women's health writer living with type 1 diabetes",
-          "text": "Lena Filatova has lived with type 1 diabetes for 23 years. She writes about women's health, perimenopause and long-term wellbeing at lenafilatova.co.uk."
         }
       ],
       "faq": [
@@ -14377,13 +14216,6 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             }
           ]
-        },
-        {
-          "t": "bio",
-          "name": "Lena Filatova",
-          "img": "/images/lena-filatova-author.jpg",
-          "alt": "Lena Filatova, авторка про жіноче здоров'я, що живе з діабетом 1 типу",
-          "text": "Lena Filatova живе з діабетом 1 типу вже 23 роки. Вона пише про жіноче здоров'я, перименопаузу та довгострокове благополуччя на lenafilatova.co.uk."
         }
       ],
       "faq": [

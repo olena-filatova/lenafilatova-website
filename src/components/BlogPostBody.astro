@@ -3,7 +3,7 @@
 // blog.js (p / h / quote / img / graph / table / refs / links / bio) plus
 // FAQ, CTA and disclaimer — the same anatomy as the live standalone pages.
 // The coming-soon post has no blocks: it shows the note + its short legacy body.
-import { UI, renderInline, relatedPosts } from '../data/blog-lib.js';
+import { UI, AUTHOR_BIO, renderInline, relatedPosts } from '../data/blog-lib.js';
 import { POSTS } from '../data/blog.js';
 import DIMS from '../data/image-dims.json';
 import '../styles/blog.css';
@@ -23,6 +23,11 @@ const img = (src) => B.replace(/\/$/, '') + src;
 const dim = (src) => DIMS[src] || {};
 const related = relatedPosts(post, POSTS);
 const isTool = post.filedUnder === 'tools';
+// Every article closes with the same author signature (OPS-336) — it used to be
+// an optional per-post `bio` block and only 12 of 48 posts had one. A post that
+// still carries its own bio block keeps it and skips the shared one, so the
+// signature never appears twice.
+const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang];
 ---
 <article class="post">
   {/* Article header: kicker, serif headline, then a hairline rule with the
@@ -100,6 +105,12 @@ const isTool = post.filedUnder === 'tools';
       return null;
     })}
     {!a.blocks && (a.body || []).map((p) => <p>{p}</p>)}
+    {bio && (
+      <div class="bio">
+        <img src={img(bio.img)} alt={bio.alt} loading="lazy" />
+        <div><strong>{bio.name}</strong><p>{bio.text}</p></div>
+      </div>
+    )}
   </div>
   {a.faq && a.faq.length > 0 && (
     <section class="faq">
