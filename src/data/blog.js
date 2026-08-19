@@ -4821,7 +4821,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Training is the signal; food is the material. Sending the signal without supplying the material is how women end up training hard for months and seeing very little. Protein is the first thing to fix — most women over 40 need considerably more than the official 0.8 g/kg, and I've written about [the targets that actually apply after 40](/blog/protein-for-women-over-40/) and about [what higher protein does for bone and muscle after menopause](/blog/higher-protein-postmenopausal-bone-muscle/) separately. As a working figure: 1.2–1.6 g per kg of body weight a day as a baseline, towards 1.6–2.0 g/kg if you are lifting regularly, spread across meals rather than piled into dinner. Creatine is the supplement question that comes up next, and the honest answer is that it amplifies the training rather than substituting for it — [what the perimenopause trials actually found](/blog/creatine-women-over-40/)."
+          "text": "Training is the signal; food is the material. Sending the signal without supplying the material is how women end up training hard for months and seeing very little. Protein is the first thing to fix — most women over 40 need considerably more than the UK Reference Nutrient Intake of 0.75 g/kg, which is about 45 g a day for a 60 kg woman ([British Nutrition Foundation](https://www.nutrition.org.uk/nutritional-information/protein/); 0.8 g/kg is the American RDA, and the two get quoted interchangeably). I've written about [the targets that actually apply after 40](/blog/protein-for-women-over-40/) and about [what higher protein does for bone and muscle after menopause](/blog/higher-protein-postmenopausal-bone-muscle/) separately. As a working figure: 1.2–1.6 g per kg of body weight a day as a baseline, towards 1.6–2.0 g/kg if you are lifting regularly, spread across meals rather than piled into dinner. Creatine is the supplement question that comes up next, and the honest answer is that it amplifies the training rather than substituting for it — [what the perimenopause trials actually found](/blog/creatine-women-over-40/)."
         },
         {
           "t": "p",
@@ -5165,7 +5165,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Тренування — це сигнал, їжа — матеріал. Надсилати сигнал без матеріалу — це і є те, як жінки тренуються місяцями й майже нічого не бачать. Перше, що треба виправити, — білок: більшості жінок після 40 потрібно значно більше за офіційні 0,8 г/кг, і про [норми, які справді працюють після 40](/ua/blog/protein-for-women-over-40/) та про [те, що дає більше білка для кісток і м'язів після менопаузи](/ua/blog/higher-protein-postmenopausal-bone-muscle/), я писала окремо. Робочий орієнтир: 1,2–1,6 г на кг ваги тіла на добу як базовий рівень і ближче до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся з вагами, розподілено між прийомами їжі, а не звалено у вечерю. Наступне питання про добавки — це креатин, і чесна відповідь така: він підсилює тренування, а не замінює їх — [що насправді показали дослідження в перименопаузі](/ua/blog/creatine-women-over-40/)."
+          "text": "Тренування — це сигнал, їжа — матеріал. Надсилати сигнал без матеріалу — це і є те, як жінки тренуються місяцями й майже нічого не бачать. Перше, що треба виправити, — білок: більшості жінок після 40 потрібно значно більше за британську норму (Reference Nutrient Intake) 0,75 г/кг, тобто близько 45 г на добу для жінки вагою 60 кг ([Британський фонд харчування](https://www.nutrition.org.uk/nutritional-information/protein/); 0,8 г/кг — це американська RDA, їх часто цитують як взаємозамінні). Про [норми, які справді працюють після 40](/ua/blog/protein-for-women-over-40/) та про [те, що дає більше білка для кісток і м'язів після менопаузи](/ua/blog/higher-protein-postmenopausal-bone-muscle/), я писала окремо. Робочий орієнтир: 1,2–1,6 г на кг ваги тіла на добу як базовий рівень і ближче до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся з вагами, розподілено між прийомами їжі, а не звалено у вечерю. Наступне питання про добавки — це креатин, і чесна відповідь така: він підсилює тренування, а не замінює їх — [що насправді показали дослідження в перименопаузі](/ua/blog/creatine-women-over-40/)."
         },
         {
           "t": "p",
@@ -9891,7 +9891,7 @@ export const POSTS = [
       "seoTitle": "Protein After Menopause: More Than the Guideline",
       "excerpt": "A Women's Health Initiative analysis of 3,789 postmenopausal women finds those hitting higher protein targets than the standard RDA had better body composition and bone outcomes over 3 years.",
       "meta": "17 July 2026 · 3 min read",
-      "lead": "The official protein guideline — 0.8g per kilogram of body weight a day — was set decades ago from studies that barely included older women. A new analysis suggests it may be too low for the postmenopausal years.",
+      "lead": "The protein guideline this analysis tested is the American RDA — 0.8g per kilogram of body weight a day. The UK figure is a shade lower still, a Reference Nutrient Intake of 0.75g/kg. Both were set decades ago from studies that barely included older women, and a new analysis suggests they are too low for the postmenopausal years.",
       "blocks": [
         {
           "t": "p",
@@ -9903,7 +9903,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "This matters because postmenopausal women lose muscle and bone density faster once oestrogen drops, and both are strongly linked to frailty, fracture risk and metabolic health later in life. The RDA was never designed as a target for healthy ageing — it's the minimum to avoid deficiency, calculated mostly from younger adults."
+          "text": "This matters because postmenopausal women lose muscle and bone density faster once oestrogen drops, and both are strongly linked to frailty, fracture risk and metabolic health later in life. Neither the American RDA nor the UK's own 0.75g/kg Reference Nutrient Intake was designed as a target for healthy ageing — both are the minimum to avoid deficiency, calculated mostly from younger adults."
         },
         {
           "t": "p",
@@ -9944,7 +9944,7 @@ export const POSTS = [
       "faq": [
         {
           "q": "How much protein should I actually eat after menopause?",
-          "a": "The official RDA of 0.8g per kg of body weight a day is a minimum, not an optimum. A 2026 Women's Health Initiative analysis found postmenopausal women sustaining around 1.2g/kg/day or more had better bone and lean-mass outcomes over 3 years. For a 65kg woman, that's roughly 78g of protein daily, spread across meals."
+          "a": "The American RDA of 0.8g per kg of body weight a day — and the UK Reference Nutrient Intake of 0.75g/kg, about 45g a day for a 60kg woman — is a minimum, not an optimum. A 2026 Women's Health Initiative analysis found postmenopausal women sustaining around 1.2g/kg/day or more had better bone and lean-mass outcomes over 3 years. For a 65kg woman, that's roughly 78g of protein daily, spread across meals."
         },
         {
           "q": "Is it too late to start eating more protein if I'm already postmenopausal?",
@@ -9958,11 +9958,11 @@ export const POSTS = [
       "seoTitle": "Білок після менопаузи: більше за норму — краще",
       "excerpt": "Аналіз даних Women's Health Initiative серед 3789 жінок у постменопаузі показує: ті, хто вживав більше білка, ніж стандартна норма, мали кращий склад тіла та стан кісток протягом 3 років.",
       "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Офіційна норма білка — 0,8 г на кілограм ваги на день — була встановлена десятиліття тому за дослідженнями, де майже не було літніх жінок. Новий аналіз свідчить, що для періоду після менопаузи вона може бути занизькою.",
+      "lead": "Норма білка, яку перевіряв цей аналіз, — американська RDA, 0,8 г на кілограм ваги на день. Британська цифра ще трохи нижча: Reference Nutrient Intake — 0,75 г/кг. Обидві встановили десятиліття тому за дослідженнями, де майже не було літніх жінок, і новий аналіз свідчить, що для періоду після менопаузи вони занизькі.",
       "blocks": [
         {
           "t": "p",
-          "text": "Дослідники використали дані 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative, щоб змоделювати, що станеться за 3 роки при різному споживанні білка: чинній нормі 0,8 г/кг/день і вищих цілях — 1,0, 1,2 та 1,5 г/кг/день. Склад тіла відстежували за допомогою DXA-сканування — того ж методу візуалізації, яким вимірюють щільність кісток та співвідношення м'язової і жирової маси."
+          "text": "Дослідники використали дані 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative, щоб змоделювати, що станеться за 3 роки при різному споживанні білка: американській нормі RDA 0,8 г/кг/день і вищих цілях — 1,0, 1,2 та 1,5 г/кг/день. Склад тіла відстежували за допомогою DXA-сканування — того ж методу візуалізації, яким вимірюють щільність кісток та співвідношення м'язової і жирової маси."
         },
         {
           "t": "p",
@@ -9970,7 +9970,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Це важливо, бо жінки в постменопаузі втрачають м'язи та щільність кісток швидше після зниження естрогену, а обидва показники тісно пов’язані з крихкістю, ризиком переломів та метаболічним здоров’ям у майбутньому. Норма RDA ніколи не була розрахована як ціль для здорового старіння — це лише мінімум для уникнення дефіциту, здебільшого визначений за дослідженнями молодших дорослих."
+          "text": "Це важливо, бо жінки в постменопаузі втрачають м'язи та щільність кісток швидше після зниження естрогену, а обидва показники тісно пов’язані з крихкістю, ризиком переломів та метаболічним здоров’ям у майбутньому. Ні американська RDA, ні британська норма 0,75 г/кг (Reference Nutrient Intake) ніколи не були розраховані як ціль для здорового старіння — це лише мінімум для уникнення дефіциту, здебільшого визначений за дослідженнями молодших дорослих."
         },
         {
           "t": "p",
@@ -9984,8 +9984,8 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "У жінок у постменопаузі, які підтримували споживання білка понад 1,2 г/кг/день, спостерігалися сприятливіші зміни складу тіла та кісток за 3 роки, ніж у тих, хто тримався норми 0,8 г/кг/день.",
-              "detail": "Аналіз за методом емульованого дослідження серед 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative використав DXA-виміряний склад тіла, щоб порівняти гіпотетичне дотримання чотирьох рівнів споживання білка (≥0,8, ≥1,0, ≥1,2 та ≥1,5 г/кг/день) протягом 3 років. Вище стале споживання пов’язувалося зі сприятливішими показниками м'язової маси та кісток порівняно зі споживанням на рівні чинної норми.",
+              "claim": "У жінок у постменопаузі, які підтримували споживання білка понад 1,2 г/кг/день, спостерігалися сприятливіші зміни складу тіла та кісток за 3 роки, ніж у тих, хто тримався RDA 0,8 г/кг/день.",
+              "detail": "Аналіз за методом емульованого дослідження серед 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative використав DXA-виміряний склад тіла, щоб порівняти гіпотетичне дотримання чотирьох рівнів споживання білка (≥0,8, ≥1,0, ≥1,2 та ≥1,5 г/кг/день) протягом 3 років. Вище стале споживання пов’язувалося зі сприятливішими показниками м'язової маси та кісток порівняно зі споживанням на рівні чинної RDA.",
               "cite": "International Journal of Obesity (Nature) · Аналіз Women's Health Initiative, 2026",
               "url": "https://www.nature.com/articles/s41366-025-01978-0"
             }
@@ -9995,7 +9995,7 @@ export const POSTS = [
       "faq": [
         {
           "q": "Скільки білка насправді варто їсти після менопаузи?",
-          "a": "Офіційна норма 0,8 г на кг ваги на день — це мінімум, а не оптимум. Аналіз Women's Health Initiative 2026 року показав, що жінки в постменопаузі, які підтримували приблизно 1,2 г/кг/день або більше, мали кращі показники кісток і м'язової маси протягом 3 років. Для жінки вагою 65 кг це приблизно 78 г білка на день, розподілених по прийомах їжі."
+          "a": "Американська норма RDA 0,8 г на кг ваги на день — і британська норма 0,75 г/кг, близько 45 г на добу для жінки вагою 60 кг — це мінімум, а не оптимум. Аналіз Women's Health Initiative 2026 року показав, що жінки в постменопаузі, які підтримували приблизно 1,2 г/кг/день або більше, мали кращі показники кісток і м'язової маси протягом 3 років. Для жінки вагою 65 кг це приблизно 78 г білка на день, розподілених по прийомах їжі."
         },
         {
           "q": "Чи пізно починати їсти більше білка, якщо я вже в постменопаузі?",
