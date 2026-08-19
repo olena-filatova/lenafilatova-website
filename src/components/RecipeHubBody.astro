@@ -38,6 +38,65 @@ const orderedRecipes = [
   ...PUBLISHED.filter((r) => !featuredSet.has(r.slug)),
 ];
 
+/* --- landing-page copy (OPS-319) -------------------------------------------
+   This hub is the page best qualified to win "low GI recipes UK" and it was
+   sitting at position 52 as a bare grid: the plaque on every photograph was
+   never explained, and there was no crawlable route into a course. The two
+   editorial blocks below fix that. Every figure quoted in the prose is computed
+   from the data, so the copy cannot outlive the recipes it describes. */
+const giValues = PUBLISHED.map((r) => r.gi).filter((g) => typeof g === 'number');
+const giLow = giValues.filter((g) => g <= 55).length;
+const giMax = Math.max(...giValues);
+const nCat = (v) => PUBLISHED.filter((r) => r.cat === v).length;
+const nDiet = (v) => PUBLISHED.filter((r) => (r.tags || []).includes(v)).length;
+
+/* Each collection is a real <a> carrying its filter as a query parameter; the
+   inline script at the foot reads the parameter back and presses the matching
+   chip. BaseLayout pins the canonical to /recipes/, so ?type=... can never be
+   indexed as a second copy of the hub. */
+const COLLECTIONS = [
+  { g: 'type', v: 'breakfast', n: nCat('breakfast'),
+    en: ['Low-GI breakfasts', 'Syrniki, oat pancakes, overnight oats and green smoothies.'],
+    ua: ['Сніданки з низьким ГІ', 'Сирники, вівсяні млинці, нічна вівсянка та зелені смузі.'] },
+  { g: 'type', v: 'main', n: nCat('main'),
+    en: ['Low-GI mains', 'Soups, bakes and one-pan dinners built on protein and non-starchy veg.'],
+    ua: ['Основні страви з низьким ГІ', 'Супи, запіканки та вечері на основі білка й некрохмалистих овочів.'] },
+  { g: 'type', v: 'baking', n: nCat('baking'),
+    en: ['Low-GI baking', 'Cakes, muffins, kulich and stollen made without refined sugar.'],
+    ua: ['Випічка з низьким ГІ', 'Торти, мафіни, паски та штолен без рафінованого цукру.'] },
+  { g: 'type', v: 'dessert', n: nCat('dessert'),
+    en: ['Low-GI desserts', 'Cheesecakes, ice creams and curd cakes — the largest group here.'],
+    ua: ['Десерти з низьким ГІ', 'Чізкейки, морозиво та сирні торти — найбільша добірка.'] },
+  { g: 'type', v: 'snack', n: nCat('snack'),
+    en: ['Low-GI snacks', 'Flour-free cookies, dried-fruit sweets and beetroot crisps.'],
+    ua: ['Перекуси з низьким ГІ', 'Печиво без борошна, цукерки із сухофруктів і бурякові чипси.'] },
+  { g: 'type', v: 'bread', n: nCat('bread'),
+    en: ['Low-GI bread', 'Wholegrain and slow-proved sourdough loaves.'],
+    ua: ['Хліб з низьким ГІ', 'Цільнозерновий і заквасковий хліб довгого бродіння.'] },
+  { g: 'type', v: 'sauce', n: nCat('sauce'),
+    en: ['Jams and sauces', 'Chia jams and rhubarb preserves set without sugar.'],
+    ua: ['Джеми та соуси', 'Джеми з чіа та ревеню, зварені без цукру.'] },
+  { g: 'diet', v: 'sugar-free', n: nDiet('sugar-free'),
+    en: ['Sugar-free recipes', 'Sweetened with erythritol, stevia or a little honey — never refined sugar.'],
+    ua: ['Рецепти без цукру', 'З еритритолом, стевією або трохи меду — без рафінованого цукру.'] },
+  { g: 'diet', v: 'low-carb', n: nDiet('low-carb'),
+    en: ['Low-carb recipes', 'The smallest carbohydrate load per portion.'],
+    ua: ['Низьковуглеводні рецепти', 'Найменше вуглеводів на порцію.'] },
+  { g: 'diet', v: 'gluten-free', n: nDiet('gluten-free'),
+    en: ['Gluten-free recipes', 'Built on ground almonds, buckwheat and coconut flour.'],
+    ua: ['Рецепти без глютену', 'На мигдалевому, гречаному та кокосовому борошні.'] },
+  { g: 'diet', v: 'dairy-free', n: nDiet('dairy-free'),
+    en: ['Dairy-free recipes', 'Made without milk, cream or cottage cheese.'],
+    ua: ['Рецепти без молочного', 'Приготовані без молока, вершків і сиру.'] },
+  { g: 'diet', v: 'vegetarian', n: nDiet('vegetarian'),
+    en: ['Vegetarian recipes', 'No meat or fish.'],
+    ua: ['Вегетаріанські рецепти', 'Без м’яса та риби.'] },
+];
+// #filters lands the visitor on the grid rather than the intro. The fragment
+// does the scrolling, not script: an on-load scrollIntoView loses the race with
+// the browser's own scroll restoration and silently leaves you at the top.
+const collHref = (c) => `${R}?${c.g}=${c.v}#filters`;
+
 // The "Load more" batching below is JS-only, so without these two constants the
 // server ships all ~86 cards visible and the browser pulls ~10 MB of thumbnails
 // before the inline script gets a chance to hide anything.
@@ -75,8 +134,36 @@ const T = {
   eyebrow: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI Recipes',
   h1: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI recipes',
   lede: lang === 'ua'
-    ? 'Страви, дружні до рівня цукру в крові, для жінок 40+ — випічка без цукру, низьковуглеводні страви й десерти, англійською та українською. Додавайте будь-який рецепт до спільного списку покупок.'
-    : 'Blood-sugar-friendly recipes for women 40+ — sugar-free bakes, low-carb mains and desserts, in English and Ukrainian. Add any recipe to one combined shopping list.',
+    ? `Страви, дружні до рівня цукру в крові, для жінок 40+ — випічка без цукру, низьковуглеводні страви, сніданки й десерти, кожен з оціненим ГІ на картці. Українською та англійською; будь-який рецепт можна додати до спільного списку покупок.`
+    : `Blood-sugar-friendly recipes for women 40+ — sugar-free bakes, low-carb mains, breakfasts and desserts, each with an estimated GI on the card. Written in the UK, in English and Ukrainian; add any recipe to one combined shopping list.`,
+
+  // GI explainer. The plaque is the number the whole section exists for and
+  // nothing on the page said what it was.
+  giH: lang === 'ua' ? 'Що означає число на кожному фото' : 'What the number on each photograph means',
+  giP: lang === 'ua'
+    ? `Табличка в кутку кожної картки — це оцінений глікемічний індекс рецепта: наскільки швидко вуглеводи однієї порції піднімають рівень глюкози в крові за шкалою, де чиста глюкоза дорівнює 100. Із ${PUBLISHED.length} рецептів тут ${giLow} мають 55 або менше, і жоден не піднімається вище ${giMax}.`
+    : `The plaque in the corner of every card is that recipe's estimated glycaemic index — how quickly the carbohydrate in one portion tends to lift blood glucose, on a scale where pure glucose is 100. Of the ${PUBLISHED.length} recipes here, ${giLow} come in at 55 or under, and none goes above ${giMax}.`,
+  giBands: lang === 'ua'
+    ? [['0–55', 'Низький', 'Повільне, рівне підвищення.'], ['56–69', 'Середній', 'Помірне підвищення.'], ['70+', 'Високий', 'Швидкий стрибок — таких тут немає.']]
+    : [['0–55', 'Low', 'A slow, steady rise.'], ['56–69', 'Medium', 'A moderate rise.'], ['70+', 'High', 'A fast spike — nothing on this page sits here.']],
+  giFineA: lang === 'ua'
+    ? 'Це оцінки для рецепта в тому вигляді, як він написаний, а не лабораторні виміри: розмір порції, стиглість продуктів і те, що ви їсте разом, змінюють реальне число. Показники для окремих продуктів — у '
+    : 'These are estimates for the recipe as written, not laboratory measurements: portion size, ripeness and what you eat alongside all move the real number. The per-ingredient figures are in the ',
+  giFineLink: lang === 'ua' ? 'таблиці вуглеводів і ГІ' : 'carb & GI table',
+  giFineB: lang === 'ua' ? '.' : '.',
+
+  // Crawlable entry points into the grid, below the fold.
+  collH: lang === 'ua' ? 'Добірки рецептів з низьким ГІ' : 'Browse the low-GI recipes',
+  collCourse: lang === 'ua' ? 'За типом страви' : 'By course',
+  collDiet: lang === 'ua' ? 'За дієтою' : 'By diet',
+
+  ukH: lang === 'ua' ? 'Про міри та інгредієнти' : 'Cooking these in a UK kitchen',
+  ukP1: lang === 'ua'
+    ? 'Температури духовки вказані в °C. Підсолоджувачі — еритритол, ксиліт і стевія; мигдалеве, гречане й лляне борошно та цільнозернове пшеничне борошно теж є у звичайних магазинах.'
+    : 'These are written and cooked in the UK, so oven temperatures are in °C and the sweeteners are the ones British supermarkets and health-food shops actually stock — erythritol, xylitol and stevia. Ground almonds, flaxseed and wholegrain wheat flour are ordinary shelf items here too.',
+  ukP2: lang === 'ua'
+    ? 'Частина рецептів прийшла з lenafilatova.com і досі використовує американські «cup». Одна чашка — це 240 мл, тож мірний глечик цілком підходить.'
+    : 'Many of the recipes were first written for lenafilatova.com and still carry American cup measures. One cup is 240 ml, which an ordinary measuring jug covers.',
   typeLabel: lang === 'ua' ? 'Тип' : 'Type',
   dietLabel: lang === 'ua' ? 'Дієта' : 'Diet',
   clear: lang === 'ua' ? 'Скинути фільтри' : 'Clear filters',
@@ -101,6 +188,22 @@ const T = {
         <h1>{T.h1}</h1>
         <p class="lede">{T.lede}</p>
       </div>
+
+      {/* The GI plaque sits on all 86 photographs and nothing explained it. */}
+      <section class="rx-gi-note">
+        <h2>{T.giH}</h2>
+        <p>{T.giP}</p>
+        <div class="rx-gi-bands">
+          {T.giBands.map(([range, name, desc]) => (
+            <div>
+              <span class="band-range">{range}</span>
+              <span class="band-name">{name}</span>
+              <span class="band-desc">{desc}</span>
+            </div>
+          ))}
+        </div>
+        <p class="fine">{T.giFineA}<a href={lang === 'ua' ? `${B}carb-gi-table-ua/` : `${B}carb-gi-table/`}>{T.giFineLink}</a>{T.giFineB}</p>
+      </section>
     </div>
   </section>
 
@@ -155,6 +258,29 @@ const T = {
       <h3>{T.emptyH}</h3>
       <p>{T.emptyP}</p>
     </div>
+
+    <section class="rx-collections">
+      <h2>{T.collH}</h2>
+      {[[T.collCourse, 'type'], [T.collDiet, 'diet']].map(([label, group]) => (
+        <div class="rx-coll-group">
+          <span class="fk">{label}</span>
+          <div class="rx-coll-list">
+            {COLLECTIONS.filter((c) => c.g === group).map((c) => (
+              <a href={collHref(c)}>
+                <span class="cn">{c[lang][0]}</span><span class="cc">{c.n}</span>
+                <span class="cd">{c[lang][1]}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <section class="rx-uk-note">
+      <h2>{T.ukH}</h2>
+      <p>{T.ukP1}</p>
+      <p>{T.ukP2}</p>
+    </section>
 
     <p class="foot-note">{T.foot}</p>
   </div>
@@ -211,6 +337,19 @@ const T = {
     clearBtn.addEventListener('click', function () { chips.forEach(function (c) { setChip(c, false); }); reset(); });
     moreBtn.addEventListener('click', function () { batchesShown++; apply(); });
     var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(apply, 150); });
+
+    // The collection links under the grid are real URLs carrying their filter
+    // as ?type=/?diet= — press the matching chips before the first apply() so
+    // the visitor lands on the filtered grid rather than the whole 86. The
+    // links also carry #filters, which is what does the scrolling. Multiple
+    // values of one parameter are allowed: they OR within their group, exactly
+    // as pressing two chips does.
+    var qs = new URLSearchParams(location.search);
+    var want = { cat: qs.getAll('type'), diet: qs.getAll('diet') };
+    chips.forEach(function (ch) {
+      var g = ch.getAttribute('data-group');
+      if (want[g] && want[g].indexOf(ch.getAttribute('data-value')) !== -1) setChip(ch, true);
+    });
     apply();
   })();
 </script>

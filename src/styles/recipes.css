@@ -136,7 +136,58 @@
    independent groups (type, diet), each a labelled row on its own hairline —
    the label is what tells you the two are ANDed together, which a single run
    of chips never did. */
+/* --- landing copy (OPS-319) ------------------------------------------------
+   Two editorial blocks on the hub: the GI explainer under the masthead, and the
+   collections + kitchen note under the grid. They reuse the page's existing
+   furniture — a heavy ink rule with a serif head hanging off it, hairline rows,
+   small-caps labels — rather than introducing card chrome the OPS-275 restyle
+   deliberately removed. */
+.rx-gi-note, .rx-collections, .rx-uk-note {
+  border-top: 1.5px solid var(--ink); padding-top: 14px;
+}
+.rx-gi-note { margin-top: 40px; }
+.rx-collections, .rx-uk-note { margin-top: 52px; }
+.rx-gi-note h2, .rx-collections h2, .rx-uk-note h2 {
+  font-family: var(--font-head); font-weight: 400; font-size: clamp(21px, 2.6vw, 25px);
+  line-height: 1.2; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 10px;
+}
+.rx-gi-note p, .rx-uk-note p { font-size: 15.5px; line-height: 1.6; color: var(--body); max-width: 62ch; }
+.rx-uk-note p + p { margin-top: 12px; }
+.rx .rx-gi-note .fine { font-size: 13.5px; color: var(--muted); }
+.rx .rx-gi-note .fine a { color: var(--ink); border-bottom: 1px solid var(--accent); }
+.rx .rx-gi-note .fine a:hover { color: var(--accent); }
+
+.rx-gi-bands {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  column-gap: 34px; margin: 22px 0 16px;
+}
+.rx-gi-bands > div { border-top: 1px solid var(--line); padding-top: 12px; padding-bottom: 4px; }
+.rx-gi-bands .band-range { font-family: var(--font-head); font-size: 21px; line-height: 1; color: var(--ink); }
+.rx-gi-bands .band-name {
+  display: block; margin: 7px 0 6px;
+  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+}
+.rx-gi-bands .band-desc { display: block; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+
+.rx .rx-coll-group + .rx-coll-group { margin-top: 30px; }
+.rx .rx-coll-group > .fk { display: block; margin-bottom: 8px; color: var(--muted); }
+.rx-coll-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); column-gap: 34px; }
+.rx .rx-coll-list a { display: block; padding: 13px 0; border-top: 1px solid var(--line); }
+.rx-coll-list .cn {
+  font-family: var(--font-head); font-size: 17.5px; line-height: 1.2;
+  color: var(--ink); transition: color .2s ease;
+}
+.rx .rx-coll-list a:hover .cn { color: var(--accent); }
+.rx-coll-list .cc {
+  margin-left: 8px; font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  letter-spacing: 0.16em; color: var(--muted);
+}
+.rx-coll-list .cd { display: block; margin-top: 4px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+
+/* Landing from a collection link scrolls here; clear the sticky 72px header. */
 .rx-filters { border-top: 1.5px solid var(--ink); margin-top: 44px; }
+.rx-filters { scroll-margin-top: 88px; }
 .rx .filter-row {
   display: flex; align-items: baseline; gap: 12px 26px; flex-wrap: wrap;
   padding: 13px 0; border-bottom: 1px solid var(--line);

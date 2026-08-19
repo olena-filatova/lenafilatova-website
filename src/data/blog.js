@@ -9583,11 +9583,11 @@ export const POSTS = [
     "en": {
       "cat": "Nutrition",
       "title": "Protein for women over 40: how much do you actually need?",
-      "excerpt": "Why the official 0.8g/kg guideline falls short after 40 — and the protein targets that actually protect muscle, energy and blood sugar.",
+      "excerpt": "Why the UK guideline of 0.75g/kg falls short after 40 — and the protein targets that actually protect muscle, energy and blood sugar.",
       "meta": "4 July 2026 · 8 min read",
       "lead": "Getting enough protein after 40 is one of the most consistent things I hear women struggle with — and one of the things that made the biggest difference to my own energy and blood sugar stability. Here's what the evidence says, and what works in practice.",
-      "seoTitle": "Protein for Women Over 40: How Much Do You Actually Need?",
-      "metaDesc": "How much protein do women over 40 really need? Evidence-based targets, why needs rise in perimenopause, and how to hit them if you're managing blood sugar.",
+      "seoTitle": "How Much Protein Do Women Over 40 Need? A UK Guide",
+      "metaDesc": "The UK RNI is 0.75g/kg — about 45g a day. Why that is a floor and not a target after 40, and the protein numbers that protect muscle, energy and blood sugar.",
       "blocks": [
         {
           "t": "p",
@@ -9639,7 +9639,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The UK and US official recommendation — 0.8g of protein per kg of body weight per day — was set to prevent deficiency in the general adult population. It was never designed as a target for women navigating perimenopause, maintaining muscle, or managing blood sugar."
+          "text": "The UK has its own figure, and it is not 0.8g. The Reference Nutrient Intake still in use here is 0.75g of protein per kg of body weight per day, which the [British Nutrition Foundation](https://www.nutrition.org.uk/nutritional-information/protein/) translates into roughly 45g a day for women and 56g for men — worked out on reference bodyweights of 60kg and 75kg. (0.8g/kg is the American RDA. The two get quoted interchangeably, but the UK number is the lower one.)"
+        },
+        {
+          "t": "p",
+          "text": "An RNI is not a target. It is the intake that covers the requirements of about 97.5% of the population — a floor set to prevent deficiency in the general adult population, calculated for a notional 60kg adult and never split by age, training load or menopausal status. It was never designed for women navigating perimenopause, holding on to muscle, or managing blood sugar. If you are 52, lifting twice a week and watching your muscle mass fall anyway, 45g a day is not the number you are looking for."
         },
         {
           "t": "p",
@@ -9661,31 +9665,36 @@ export const POSTS = [
           "t": "table",
           "head": [
             "Your weight",
-            "Minimum (1.2g/kg)",
+            "UK RNI (0.75g/kg)",
+            "Baseline (1.2g/kg)",
             "Active (1.6g/kg)",
             "Perimenopause (2.0g/kg)"
           ],
           "rows": [
             [
               "55 kg",
+              "41 g/day",
               "66 g/day",
               "88 g/day",
               "110 g/day"
             ],
             [
               "65 kg",
+              "49 g/day",
               "78 g/day",
               "104 g/day",
               "130 g/day"
             ],
             [
               "75 kg",
+              "56 g/day",
               "90 g/day",
               "120 g/day",
               "150 g/day"
             ],
             [
               "85 kg",
+              "64 g/day",
               "102 g/day",
               "136 g/day",
               "170 g/day"
@@ -9694,7 +9703,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "If these numbers feel daunting compared to what you currently eat, start with the minimum for your weight and build from there. Even a modest increase tends to make a noticeable difference to energy, appetite regulation and body composition over a few weeks. And do check with your doctor first — a sudden jump in protein isn't right for everyone."
+          "text": "Set against the RNI, the gap is not subtle. A 65kg woman is officially catered for at 49g a day, and on the evidence above is actually aiming at 78–104g. That is more than double the number the UK guideline gives her."
+        },
+        {
+          "t": "p",
+          "text": "If these numbers feel daunting compared to what you currently eat, start with the baseline for your weight and build from there. Even a modest increase tends to make a noticeable difference to energy, appetite regulation and body composition over a few weeks. And do check with your doctor first — a sudden jump in protein isn't right for everyone."
         },
         {
           "t": "h",
@@ -9710,7 +9723,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Some simple swaps that help: Greek yoghurt instead of regular yoghurt (nearly double the protein), eggs or smoked salmon at breakfast instead of cereal, cottage cheese as a snack, lentils or edamame added to salads, tinned fish in a wrap at lunch. None of these require cooking from scratch or meal-prepping at the weekend."
+          "text": "Some simple swaps that help: Greek yoghurt instead of regular yoghurt (nearly double the protein), eggs or smoked salmon at breakfast instead of cereal, cottage cheese as a snack, lentils or edamame added to salads, tinned fish in a wrap at lunch. None of these require cooking from scratch or meal-prepping at the weekend. If you want meals built this way already, my [low-GI recipes](/recipes/) put the protein first and keep the glucose curve flat behind it."
         },
         {
           "t": "p",
@@ -9885,6 +9898,10 @@ export const POSTS = [
       ],
       "faq": [
         {
+          "q": "How much protein does the NHS say women need?",
+          "a": "UK advice follows the Reference Nutrient Intake of 0.75g of protein per kg of body weight a day — around 45g for a 60kg woman — and the Eatwell Guide frames protein as beans, pulses, fish, eggs and meat rather than as a daily gram target. That RNI is a deficiency floor calculated for the general adult population, not a target for holding on to muscle in your forties and fifties, which is where the higher 1.2–1.6g/kg range in this article comes from. If you have kidney disease, the RNI is the number to discuss with your GP before increasing anything."
+        },
+        {
           "q": "Can I get enough protein on a plant-based diet?",
           "a": "Yes — but it takes more intention. Plant proteins tend to be lower in leucine and some are incomplete. Eating a wide variety of legumes, grains, nuts and seeds across the day covers the gaps, and a pea and rice protein blend is the most complete plant-based supplement option."
         },
@@ -9909,11 +9926,11 @@ export const POSTS = [
     "ua": {
       "cat": "Харчування",
       "title": "Білок для жінок після 40: скільки насправді потрібно?",
-      "excerpt": "Чому офіційна норма 0,8 г/кг замала після 40 — і які орієнтири білка справді захищають м'язи, енергію та цукор у крові.",
+      "excerpt": "Чому британська норма 0,75 г/кг замала після 40 — і які орієнтири білка справді захищають м'язи, енергію та цукор у крові.",
       "meta": "4 липня 2026 · 8 хв читання",
       "lead": "Отримати достатньо білка після 40 — одне з найчастіших питань, з якими стикаються жінки, і одна з тих речей, що найбільше вплинули на мою енергію та стабільність цукру в крові. Ось що каже наука і що працює на практиці.",
-      "seoTitle": "Білок для жінок після 40: скільки насправді потрібно?",
-      "metaDesc": "Скільки білка потрібно жінкам після 40? Науково обґрунтовані орієнтири, чому потреба зростає в перименопаузі та як їх досягти, якщо ви контролюєте цукор.",
+      "seoTitle": "Скільки білка потрібно жінкам після 40?",
+      "metaDesc": "Британська норма — 0,75 г/кг, близько 45 г на добу. Чому це нижня межа, а не орієнтир після 40, і які цифри справді захищають м'язи, енергію та цукор у крові.",
       "blocks": [
         {
           "t": "p",
@@ -9965,7 +9982,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Офіційна норма у Великій Британії та США — 0,8 г білка на кг ваги на добу — була встановлена, щоб запобігти дефіциту в загальної дорослої популяції. Її ніколи не задумували як орієнтир для жінок у перименопаузі, для збереження м'язів чи контролю цукру."
+          "text": "У Великій Британії своя цифра, і це не 0,8 г. Чинна норма (Reference Nutrient Intake) — 0,75 г білка на кг ваги на добу, що [Британський фонд харчування](https://www.nutrition.org.uk/nutritional-information/protein/) переводить приблизно у 45 г на добу для жінок і 56 г для чоловіків — з розрахунку на умовну вагу 60 кг і 75 кг. (0,8 г/кг — це американська RDA. Їх цитують як взаємозамінні, але британська цифра нижча.)"
+        },
+        {
+          "t": "p",
+          "text": "RNI — це не орієнтир. Це кількість, яка покриває потребу приблизно 97,5% населення: нижня межа, встановлена, щоб запобігти дефіциту в загальної дорослої популяції, порахована на умовну людину вагою 60 кг і жодного разу не розділена за віком, тренувальним навантаженням чи менопаузальним статусом. Її ніколи не задумували для жінок у перименопаузі, для збереження м'язів чи контролю цукру. Якщо вам 52, ви двічі на тиждень працюєте з вагами й усе одно бачите, як м'язи йдуть, 45 г на добу — не та цифра, яку ви шукаєте."
         },
         {
           "t": "p",
@@ -9987,31 +10008,36 @@ export const POSTS = [
           "t": "table",
           "head": [
             "Ваша вага",
-            "Мінімум (1,2 г/кг)",
+            "Норма у Великій Британії (0,75 г/кг)",
+            "Базовий рівень (1,2 г/кг)",
             "Активним (1,6 г/кг)",
             "Перименопауза (2,0 г/кг)"
           ],
           "rows": [
             [
               "55 кг",
+              "41 г/день",
               "66 г/день",
               "88 г/день",
               "110 г/день"
             ],
             [
               "65 кг",
+              "49 г/день",
               "78 г/день",
               "104 г/день",
               "130 г/день"
             ],
             [
               "75 кг",
+              "56 г/день",
               "90 г/день",
               "120 г/день",
               "150 г/день"
             ],
             [
               "85 кг",
+              "64 г/день",
               "102 г/день",
               "136 г/день",
               "170 г/день"
@@ -10020,7 +10046,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Якщо ці цифри здаються лякаючими порівняно з тим, що ви їсте зараз, почніть із мінімуму для своєї ваги й нарощуйте поступово. Навіть помірне збільшення зазвичай дає помітну різницю в енергії, регуляції апетиту та композиції тіла за кілька тижнів. І спершу порадьтеся з лікарем — різке збільшення білка підходить не всім."
+          "text": "На тлі RNI розрив зовсім не тонкий. Жінці вагою 65 кг офіційно пропонують 49 г на добу, а за наведеними вище даними вона насправді цілиться у 78–104 г. Це більш ніж удвічі більше за те, що дає британська норма."
+        },
+        {
+          "t": "p",
+          "text": "Якщо ці цифри здаються лякаючими порівняно з тим, що ви їсте зараз, почніть із базового рівня для своєї ваги й нарощуйте поступово. Навіть помірне збільшення зазвичай дає помітну різницю в енергії, регуляції апетиту та композиції тіла за кілька тижнів. І спершу порадьтеся з лікарем — різке збільшення білка підходить не всім."
         },
         {
           "t": "h",
@@ -10036,7 +10066,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Кілька простих замін, що допомагають: грецький йогурт замість звичайного (майже вдвічі більше білка), яйця чи слабосолений лосось на сніданок замість пластівців, кисломолочний сир (cottage cheese) як перекус, сочевиця чи едамаме в салати, консервована риба у рапі на обід. Жодне з цього не потребує готування з нуля чи заготовок на вихідних."
+          "text": "Кілька простих замін, що допомагають: грецький йогурт замість звичайного (майже вдвічі більше білка), яйця чи слабосолений лосось на сніданок замість пластівців, кисломолочний сир (cottage cheese) як перекус, сочевиця чи едамаме в салати, консервована риба у рапі на обід. Жодне з цього не потребує готування з нуля чи заготовок на вихідних. Якщо хочете страви, вже складені саме так, — [рецепти з низьким ГІ](/ua/recipes/) ставлять білок на перше місце, а криву глюкози тримають рівною."
         },
         {
           "t": "p",
@@ -10210,6 +10240,10 @@ export const POSTS = [
         }
       ],
       "faq": [
+        {
+          "q": "Скільки білка радять офіційні норми?",
+          "a": "Британська норма (RNI) — 0,75 г білка на кг ваги на добу, тобто близько 45 г для жінки вагою 60 кг, а офіційні рекомендації описують білок радше як бобові, рибу, яйця та м'ясо, ніж як щоденну цифру в грамах. Ця норма — нижня межа для запобігання дефіциту в загальної дорослої популяції, а не орієнтир для збереження м'язів після сорока; саме звідси й вищий діапазон 1,2–1,6 г/кг у цій статті. Якщо у вас хвороба нирок, саме цю норму варто обговорити з лікарем, перш ніж щось збільшувати."
+        },
         {
           "q": "Чи можна отримати достатньо білка на рослинній дієті?",
           "a": "Так — але це потребує більше уваги. Рослинні білки зазвичай нижчі за лейцином, а деякі неповноцінні. Різноманіття бобових, злаків, горіхів і насіння протягом дня закриває прогалини, а суміш горохового й рисового білка — найповніший рослинний варіант добавки."
