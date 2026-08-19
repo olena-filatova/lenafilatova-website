@@ -74,8 +74,12 @@ const dim = (src) => DIMS[src] || {};
             <p class="meta">{lead[lang].meta}</p>
           </div>
         </a>
+        {/* `fill` makes the rows share the lead's height instead of stopping
+            short and leaving a void down the right (OPS-299 follow-up). Only
+            from two rows up: a single row stretched to the lead's full height
+            looks marooned, which is worse than the gap it fixes. */}
         {minis.length > 0 && (
-          <div class="fside">
+          <div class={`fside${minis.length >= 2 ? ' fill' : ''}`}>
             {minis.map((p) => (
               <a class="fmini" href={`${hub}${p.slug}/`}>
                 <span class="thumb">

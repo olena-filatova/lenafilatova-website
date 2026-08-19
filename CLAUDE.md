@@ -106,10 +106,13 @@ months (OPS-299).
 
 Rules:
 
-1. **Flag 2–3 posts, never one.** One post triggers the `.solo` layout, which is a
-   fallback and not the designed band. Three is the ceiling (`FEATURED_MAX`).
+1. **Flag four posts.** Four is both the target and the ceiling (`FEATURED_MAX`).
+   One post triggers the `.solo` layout, which is a fallback and not the designed
+   band. On desktop the side rows divide the lead's full height between them, so
+   below four they stretch and go airy — which is exactly the empty block down the
+   right that Lena flagged after the first pass.
 2. **The newest flagged post becomes the large lead card**; the others render as
-   hairline rows under it. Order is by `date`, not by position in the array — to
+   hairline rows beside it. Order is by `date`, not by position in the array — to
    change which one leads, change which posts are flagged.
 3. **The homepage is not part of this.** Its band always shows the newest Journal
    post. If you ever want a hand-picked post on the homepage, add a *separate*
@@ -120,6 +123,6 @@ Rules:
    a deploy — so it is easy to miss. Read the build output.
 
 Picks are editorial, so prefer evergreen pillars over news items: a digest post
-flagged today reads as stale within a fortnight. The current three are the
-perimenopause-and-diabetes pillar, the protein guide, and the strength-training
-starter — one per major theme, all evergreen.
+flagged today reads as stale within a fortnight. The current four are the
+perimenopause-and-diabetes pillar, the protein guide, the strength-training
+starter and the post-meal walk — one per major theme, all evergreen.

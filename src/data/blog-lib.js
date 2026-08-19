@@ -95,14 +95,20 @@ export const langUrl = (lang, slug) =>
   `${SITE}${lang === 'ua' ? '/ua' : ''}/blog/${slug}/`;
 
 // The /blog/ featured band. Editorial, hand-picked: a post opts in with
-// `featured: true` in blog.js. Three is the design ceiling — the newest of them
-// becomes the large lead card and the rest render as hairline rows beneath, so
-// which post leads is controlled by its date, not by array order.
+// `featured: true` in blog.js. Four is the design ceiling — the newest of them
+// becomes the large lead card and the rest render as hairline rows beside it,
+// so which post leads is controlled by its date, not by array order.
+//
+// FOUR IS ALSO THE TARGET, not just the cap. On desktop the rows divide the
+// lead's full height between them: with three rows that lands close to their
+// natural size, with two they stretch far enough to look marooned. Dropping to
+// two is legible but airy; the band was raised from three to four when Lena
+// pointed out the empty block down the right (OPS-299 follow-up).
 //
 // This set does NOT drive the homepage. The homepage band shows the newest post
 // (see HomeBody.astro) — they are separate jobs and were conflated until
 // OPS-299, which left a June post pinned to the homepage for two months.
-export const FEATURED_MAX = 3;
+export const FEATURED_MAX = 4;
 
 // Warns rather than throws: a stale or empty featured set is an editorial
 // matter, not a broken build, and failing the deploy over it would strand Lena
@@ -114,7 +120,7 @@ export function featuredPosts(sorted) {
   if (!featured.length) {
     console.warn(
       '[blog] No post carries `featured: true` — the /blog/ featured band will not render at all. ' +
-        `Flag 2-${FEATURED_MAX} posts in src/data/blog.js.`
+        `Flag ${FEATURED_MAX} posts in src/data/blog.js.`
     );
     return featured;
   }
@@ -122,7 +128,12 @@ export function featuredPosts(sorted) {
   if (featured.length === 1) {
     console.warn(
       '[blog] Only one post is flagged `featured: true`, so the /blog/ band falls back to its ' +
-        `one-card .solo layout instead of the designed lead-plus-rows band. Flag 2-${FEATURED_MAX} in src/data/blog.js.`
+        `one-card .solo layout instead of the designed lead-plus-rows band. Flag 3-${FEATURED_MAX} in src/data/blog.js.`
+    );
+  } else if (featured.length < 4) {
+    console.warn(
+      `[blog] Only ${featured.length} posts are flagged \`featured: true\`. The band still renders, but ` +
+        `its rows stretch to fill the lead's height and get airy below four. Flag ${FEATURED_MAX} in src/data/blog.js.`
     );
   }
 

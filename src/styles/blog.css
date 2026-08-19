@@ -101,7 +101,23 @@
 }
 
 @media (min-width: 880px) {
-  .featured-grid:not(.solo) { grid-template-columns: 1.6fr 1fr; gap: 44px; align-items: start; }
+  /* `stretch`, not `start`: the side list shares the lead's height so the band
+     ends level instead of leaving a void down the right (OPS-299 follow-up).
+     Needs .fill on .fside — see below for why one row is excluded. */
+  .featured-grid:not(.solo) { grid-template-columns: 1.6fr 1fr; gap: 44px; align-items: stretch; }
+  /* 16/9 rather than 3/2 here: the lead is the tall column and every pixel of
+     photo it loses is a pixel the side list no longer has to pad out. Stacked
+     (below 880px) it stays 3/2 — see the note on .flead .ph above. */
+  .featured-grid:not(.solo) .flead .ph { aspect-ratio: 16 / 9; }
+  /* Rows divide the column evenly and centre their content, so the leftover
+     height lands as even leading between hairlines rather than as one dead
+     block at the bottom. Thumbnails go up to 128px to take some of it as
+     picture rather than air. Two rows is the practical floor and four the
+     ceiling: past that the rows compress below the thumbnail. */
+  .fside.fill { display: flex; flex-direction: column; }
+  .fside.fill .fmini { flex: 1; align-items: center; padding: 0; }
+  .fside.fill .fmini .thumb { width: 128px; }
+  .fside.fill .fmini:last-child { border-bottom: none; }
   /* Sole feature: photo and headline side by side, the homepage's .ed-feat. */
   .featured-grid.solo .flead { display: grid; grid-template-columns: 1.1fr 1fr; gap: 44px; align-items: center; }
   .featured-grid.solo .flead .ph { aspect-ratio: 1 / 1; }
