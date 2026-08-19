@@ -4,11 +4,11 @@ import RecipeHubBody from '../../components/RecipeHubBody.astro';
 import { PUBLISHED } from '../../data/recipes.js';
 const B = import.meta.env.BASE_URL;
 // OPS-319: this is the page that should win "low GI recipes UK" (it sat at
-// position 52 while the query sat at 18). The old title promised "UK Measures",
-// which the recipes do not keep — most were written for lenafilatova.com and
-// still carry American cups. The count is interpolated so it cannot go stale.
+// position 52 while the query sat at 18). The count is interpolated so it
+// cannot go stale. The measures claim in the description is true again as of
+// OPS-335 — every cup in the recipe data is now metric-first.
 const title = `Low-GI Recipes UK — ${PUBLISHED.length} Dishes for Steady Blood Sugar`;
-const description = 'Free low-GI recipes for women 40+ — sugar-free bakes, low-carb mains, breakfasts and desserts, each with an estimated GI. Written in the UK, in English and Ukrainian.';
+const description = 'Free low-GI recipes for women 40+ — sugar-free bakes, low-carb mains, breakfasts and desserts, each with an estimated GI. Metric measures, English and Ukrainian.';
 ---
 <BaseLayout
   lang="en"
