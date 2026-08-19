@@ -286,6 +286,20 @@ const toolHref = (card) => {
   .ed-stat:nth-child(n + 3) { border-bottom: 0; }
   .ed-stat .n { font-family: var(--font-head); font-size: 24px; line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
   .ed-stat .l { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+  /* A `1fr` track still cannot go below its content's longest word, so two
+     columns have a hard floor of 357px — set by the Ukrainian band, whose
+     figures are words ("Рекомендують", "Засновниця") rather than numbers.
+     Below that the band pushed the whole page sideways, so it becomes one
+     column: four ruled rows, which is the same device with more room to read.
+     The nth-child paddings and rules are undone explicitly — `:nth-child()`
+     outranks a plain `.ed-stat` here. */
+  @media (max-width: 359.98px) {
+    .ed-band-grid { grid-template-columns: 1fr; }
+    .ed-stat, .ed-stat:nth-child(even) { padding: 16px 0; }
+    .ed-stat:nth-child(odd) { border-right: 0; }
+    .ed-stat:nth-child(n + 3) { border-bottom: 1px solid var(--line); }
+    .ed-stat:last-child { border-bottom: 0; }
+  }
 
   .ed-sec { padding: 52px 0 0; }
   .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 22px; }

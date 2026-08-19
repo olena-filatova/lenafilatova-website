@@ -71,7 +71,7 @@
 }
 .flead h2 {
   font-size: clamp(27px, 4vw, 40px); line-height: 1.08; letter-spacing: -0.025em;
-  margin: 0; text-wrap: balance; transition: color .2s ease;
+  margin: 0; text-wrap: balance; overflow-wrap: break-word; transition: color .2s ease;
 }
 .flead .excerpt {
   font-family: var(--font-head); font-weight: 300; font-size: 17px; line-height: 1.5;
@@ -86,14 +86,15 @@
 .fmini { display: flex; gap: 16px; align-items: flex-start; padding: 18px 0; border-bottom: 1px solid var(--line); }
 .fmini .thumb { flex: none; width: 96px; aspect-ratio: 1 / 1; background-color: var(--paper2); overflow: hidden; }
 .fmini .thumb img { width: 100%; height: 100%; object-fit: cover; }
-.fmini .body { display: flex; flex-direction: column; gap: 8px; }
+/* Same row, same trap as .bcard .body — see the note there. */
+.fmini .body { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .fmini .cat {
   font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--accent);
+  text-transform: uppercase; color: var(--accent); overflow-wrap: break-word;
 }
 .fmini h3 {
   font-family: var(--font-head); font-size: 19px; line-height: 1.18; letter-spacing: -0.02em;
-  font-weight: 400; color: var(--ink); margin: 0; transition: color .2s ease;
+  font-weight: 400; color: var(--ink); margin: 0; overflow-wrap: break-word; transition: color .2s ease;
 }
 .fmini .meta {
   font-family: var(--font-body); font-size: 10px; font-weight: 700; letter-spacing: 0.14em;
@@ -131,8 +132,11 @@
    hairline runs unbroken across a row. row-gap stays 0 for the same reason —
    a gap would cut the rule into three. */
 .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 40px; padding: 8px 0 64px; }
+/* min-width: 0 on the card as well as on its .body: a `1fr` track is
+   minmax(auto, 1fr), and that `auto` floor is the widest card's min-content, so
+   one long word in one card widened the whole column past the screen. */
 .bcard {
-  display: flex; flex-direction: column; gap: 12px;
+  display: flex; flex-direction: column; gap: 12px; min-width: 0;
   padding: 26px 0; border-bottom: 1px solid var(--line);
 }
 .bcard.hidden { display: none; }
@@ -143,14 +147,23 @@
   font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.18em;
   text-transform: uppercase; color: #fff; background: var(--accent); padding: 6px 12px;
 }
-.bcard .body { display: flex; flex-direction: column; gap: 9px; flex: 1; }
+/* min-width: 0 because a flex item defaults to min-width: auto, i.e. it refuses
+   to shrink below its longest word. Beside the thumbnail on a phone that made
+   the whole row wider than the screen: a Ukrainian kicker like
+   "Діабет і ПЕРИМЕНОПАУЗА" is 177px of unbreakable word at 0.2em tracking,
+   against ~152px of space at 320px, and the page scrolled sideways. The
+   overflow-wrap below is the other half of it — min-width lets the box shrink,
+   overflow-wrap stops the word spilling out of the box it now sits in. Long
+   Ukrainian compounds hit this on both the kicker and the headline; the rule
+   only ever fires when a single word genuinely cannot fit the column. */
+.bcard .body { display: flex; flex-direction: column; gap: 9px; flex: 1; min-width: 0; }
 .bcard .cat {
   font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--accent); margin: 0;
+  text-transform: uppercase; color: var(--accent); margin: 0; overflow-wrap: break-word;
 }
 .bcard h2 {
   font-size: 21px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 400;
-  margin: 0; text-wrap: balance; transition: color .2s ease;
+  margin: 0; text-wrap: balance; overflow-wrap: break-word; transition: color .2s ease;
 }
 .bcard .excerpt { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--muted); flex: 1; }
 .bcard .meta {
