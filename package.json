@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "redirects": "node scripts/generate-redirects.mjs",
+    "link-audit": "node scripts/link-audit.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },
