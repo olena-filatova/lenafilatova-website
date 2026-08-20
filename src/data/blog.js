@@ -40,6 +40,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Fitness 40+",
+      "imageAlt": "Two women jogging together along a park path.",
       "title": "Zone 2 or HIIT after 40: how to split your cardio when your hormones are changing",
       "seoTitle": "Zone 2 or HIIT After 40: How to Split Your Cardio",
       "metaDesc": "Zone 2 is everywhere and HIIT gets blamed for cortisol. What the evidence supports for women over 40 — and why strength still comes first.",
@@ -342,6 +343,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Фітнес 40+",
+      "imageAlt": "Дві жінки біжать підтюпцем парковою доріжкою.",
       "title": "Зона 2 чи HIIT після 40: як розподілити кардіо, коли гормони змінюються",
       "seoTitle": "Зона 2 чи HIIT після 40: як поділити кардіо",
       "metaDesc": "Зона 2 всюди, а HIIT звинувачують у кортизолі. Що насправді підтверджують дані для жінок після 40 — і чому силові все одно на першому місці.",
@@ -1337,6 +1339,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes & Perimenopause",
+      "imageAlt": "A woman lying awake in bed at night, one hand resting on her forehead.",
       "title": "Night sweats or a hypo? How to tell them apart when you have both perimenopause and diabetes",
       "seoTitle": "Night Sweats or a Hypo? How to Tell the Difference",
       "metaDesc": "Perimenopause and nocturnal hypoglycaemia cause near-identical night sweats. How to tell them apart safely — from 23 years with type 1 diabetes.",
@@ -1698,6 +1701,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет і перименопауза",
+      "imageAlt": "Жінка лежить без сну в ліжку вночі, поклавши руку на чоло.",
       "title": "Нічна пітливість чи гіпо? Як їх розрізнити, коли у вас і перименопауза, і діабет",
       "seoTitle": "Нічна пітливість чи гіпо? Як побачити різницю",
       "metaDesc": "Перименопауза й нічна гіпоглікемія дають майже однакову нічну пітливість. Як безпечно їх розрізнити — з досвіду 23 років із діабетом 1 типу.",
@@ -2068,6 +2072,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
+      "imageAlt": "An older woman exercising outdoors with a pair of small dumbbells.",
       "title": "GLP-1 drugs work in women over 65 — but a quarter to 40% of what comes off is muscle",
       "seoTitle": "GLP-1 in Older Women: 25–40% of Loss Is Lean Mass",
       "metaDesc": "A 2026 Nutrients review of GLP-1 drugs in women over 65 finds 10–20% weight loss but 25–40% of it lean mass — and what the authors say protects muscle.",
@@ -2152,6 +2157,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
+      "imageAlt": "Жінка старшого віку займається на вулиці з парою невеликих гантелей.",
       "title": "Препарати GLP-1 працюють у жінок після 65 — але від чверті до 40% втраченого становлять м'язи",
       "seoTitle": "GLP-1 у жінок після 65: 25–40% втрати — м’язи",
       "metaDesc": "Огляд 2026 року в Nutrients: у жінок після 65 препарати GLP-1 дають 10–20% втрати ваги, але 25–40% із цього — м’язова маса. Що захищає м’язи.",
@@ -2245,6 +2251,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes & Perimenopause",
+      "imageAlt": "A woman holding her shoulder and wincing.",
       "title": "Your shoulder is stiffening and it probably isn't age: frozen shoulder and diabetes after 40",
       "seoTitle": "Frozen Shoulder and Diabetes: Why Risk Is 3.7x Higher",
       "metaDesc": "A 2026 meta-analysis puts frozen shoulder risk 3.69x higher with diabetes. The early signs, why it's missed after 40, and when to get it seen.",
@@ -2569,6 +2576,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет і перименопауза",
+      "imageAlt": "Жінка тримається за плече, скривившись від болю.",
       "title": "Плече дерев’яніє — і справа, найімовірніше, не у віці: заморожене плече та діабет після 40",
       "seoTitle": "Заморожене плече й діабет: ризик майже вчетверо вищий",
       "metaDesc": "Метааналіз 2026 року: при діабеті шанси на заморожене плече у 3,69 раза вищі. Ранні ознаки, чому це пропускають після 40 і коли йти до лікаря.",
@@ -2902,6 +2910,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A group of plain, unbranded skincare bottles and jars.",
       "title": "Beauty has rebranded midlife as “longevity” — what that language is and isn’t backed by",
       "seoTitle": "Menopause Skincare’s “Longevity” Rebrand: What’s Real",
       "metaDesc": "L’Oréal, Lancôme and a wave of menopause skincare have swapped “anti-ageing” for “longevity”. The skin changes are real; the treatment evidence is thinner than the packaging.",
@@ -3015,6 +3024,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Група простих флаконів і баночок для догляду за шкірою без брендів.",
       "title": "Індустрія краси перейменувала середній вік на «лонгевіті» — що за цим стоїть насправді",
       "seoTitle": "«Лонгевіті» в догляді за шкірою: що доведено",
       "metaDesc": "L’Oréal, Lancôme і хвиля догляду «для менопаузи» замінили «анти-ейдж» на «лонгевіті». Зміни шкіри реальні, а доказів щодо лікування менше, ніж обіцяє упаковка.",
@@ -3136,6 +3146,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "Jars of fermented vegetables — sauerkraut, pickles and peppers.",
       "title": "What a 2026 review actually says about fermented foods and your gut",
       "seoTitle": "Fermented Foods and Gut Health: a 2026 Review",
       "metaDesc": "A Nature Reviews Microbiology review maps how fermented foods act on the gut — and admits the human mechanisms aren’t pinned down. Plus what the glucose data really shows.",
@@ -3234,6 +3245,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Банки з ферментованими овочами — квашеною капустою, огірками та перцем.",
       "title": "Що насправді кажуть про ферментовану їжу і кишківник в огляді 2026 року",
       "seoTitle": "Ферментована їжа і кишківник: огляд 2026 року",
       "metaDesc": "Огляд у Nature Reviews Microbiology описує, як ферментована їжа впливає на кишківник, — і визнає, що механізми в людини не встановлені. І що насправді показують дані про глюкозу.",
@@ -3340,6 +3352,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "A woman in a bathrobe framing her midriff with both hands.",
       "title": "A fibre-free diet inflamed the gut in mice — and the study is honest about why that may not be you",
       "seoTitle": "Fibre Deficiency and Gut Inflammation: What Mice Show",
       "metaDesc": "A 2026 mouse study traced how a fibre-free diet inflames the gut — then noted the molecule doing it doesn’t exist in humans. What still carries over, and what doesn’t.",
@@ -3424,6 +3437,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Жінка в халаті обрамляє долонями живіт.",
       "title": "Дієта без клітковини викликала запалення кишківника в мишей — і автори чесно пояснюють, чому це може вас не стосуватися",
       "seoTitle": "Брак клітковини і запалення кишківника: що показали миші",
       "metaDesc": "Дослідження 2026 року простежило, як дієта без клітковини запалює кишківник у мишей, — і зазначило, що ключової молекули в людей немає. Що з цього переноситься на нас.",
@@ -3516,6 +3530,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman in her fifties working at a laptop, making notes.",
       "title": "Untreated menopause costs the US economy $5.4 billion a year — and that is the conservative estimate",
       "seoTitle": "Menopause Costs the US $5.4bn a Year in Lost Work",
       "metaDesc": "A RAND report puts US lost productivity from menopause symptoms at $5.4bn a year — a deliberate lower bound. Why access to treatment is the policy question.",
@@ -3612,6 +3627,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка років п’ятдесяти працює за ноутбуком і робить нотатки.",
       "title": "Нелікована менопауза коштує економіці США 5,4 мільярда доларів на рік — і це консервативна оцінка",
       "seoTitle": "Менопауза коштує США 5,4 млрд доларів на рік",
       "metaDesc": "Звіт RAND оцінює втрати продуктивності від симптомів менопаузи у США в 5,4 млрд доларів на рік — і це навмисно занижена межа. Чому питання в доступі до лікування.",
@@ -3717,6 +3733,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause & Diabetes",
+      "imageAlt": "A nurse taking a woman’s blood pressure at a clinic.",
       "title": "Clinical trials for women over 40: 19 studies recruiting right now",
       "seoTitle": "Clinical Trials for Women Over 40: Recruiting Now",
       "metaDesc": "Nineteen clinical trials recruiting women over 40 in the UK and Ukraine — perimenopause, diabetes, weight, muscle, heart. Who can join each one, and how.",
@@ -4082,6 +4099,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза і діабет",
+      "imageAlt": "Медсестра вимірює жінці артеріальний тиск у клініці.",
       "title": "Клінічні дослідження для жінок після 40: 19 наборів, які тривають зараз",
       "seoTitle": "Клінічні дослідження для жінок після 40: набір",
       "metaDesc": "Дев'ятнадцять клінічних досліджень, які набирають жінок після 40 у Британії та Україні: перименопауза, діабет, вага, м'язи, серце. Хто може долучитися.",
