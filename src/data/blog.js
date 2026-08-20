@@ -2125,6 +2125,16 @@ export const POSTS = [
               "name": "Eating more protein than the official guideline supports better muscle and bone after menopause",
               "url": "/blog/higher-protein-postmenopausal-bone-muscle/",
               "desc": "Where the 1.2 g/kg figure comes from, in women not taking any drug at all."
+            },
+            {
+              "name": "The 2026 guidelines back GLP-1 drugs in type 1 diabetes",
+              "url": "/blog/ada-2026-glp1-type1-diabetes-women/",
+              "desc": "The same drug class, now formally in type 1 care — and the muscle question follows it there."
+            },
+            {
+              "name": "Women lose more weight on GLP-1 drugs than men",
+              "url": "/blog/glp1-weight-loss-sex-difference-women-men/",
+              "desc": "What 64 trials say about the sex difference, and the bigger problem they expose."
             }
           ]
         }
@@ -2199,6 +2209,16 @@ export const POSTS = [
               "name": "Більше білка, ніж радить офіційна норма, краще підтримує м'язи й кістки після менопаузи",
               "url": "/ua/blog/higher-protein-postmenopausal-bone-muscle/",
               "desc": "Звідки береться цифра 1,2 г/кг — у жінок, які не приймають жодних препаратів."
+            },
+            {
+              "name": "Настанови 2026 вперше підтримують GLP-1 при діабеті 1 типу",
+              "url": "/ua/blog/ada-2026-glp1-type1-diabetes-women/",
+              "desc": "Той самий клас препаратів — тепер офіційно в лікуванні ЦД1. І питання про м’язи йде слідом."
+            },
+            {
+              "name": "Жінки втрачають на GLP-1 більше ваги, ніж чоловіки",
+              "url": "/ua/blog/glp1-weight-loss-sex-difference-women-men/",
+              "desc": "Що кажуть 64 дослідження про різницю між статями — і яку більшу проблему вони оголюють."
             }
           ]
         }
@@ -2515,6 +2535,11 @@ export const POSTS = [
               "name": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn't caught up",
               "url": "/blog/type2-diabetes-women-under-40-sex-bias/",
               "desc": "Why women's diabetes care keeps missing things that are hiding in plain sight."
+            },
+            {
+              "name": "Endometriosis and a 46% higher risk of type 2 diabetes",
+              "url": "/blog/endometriosis-type-2-diabetes-risk/",
+              "desc": "Another diabetes connection that routine care rarely raises with women."
             }
           ]
         }
@@ -2834,6 +2859,11 @@ export const POSTS = [
               "name": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40 — а система догляду цього ще не наздогнала",
               "url": "/ua/blog/type2-diabetes-women-under-40-sex-bias/",
               "desc": "Чому жіноча діабетична допомога раз у раз не помічає того, що лежить на видноті."
+            },
+            {
+              "name": "Ендометріоз і на 46% вищий ризик діабету 2 типу",
+              "url": "/ua/blog/endometriosis-type-2-diabetes-risk/",
+              "desc": "Ще один зв’язок із діабетом, про який у звичайному прийомі жінкам майже не говорять."
             }
           ]
         }
@@ -3560,6 +3590,11 @@ export const POSTS = [
               "name": "Anxiety and brain fog top the list of menopause symptoms",
               "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
               "desc": "What women actually report, versus the hot flushes everyone expects."
+            },
+            {
+              "name": "One in three women over 35 can’t tell whether they’re in perimenopause",
+              "url": "/blog/perimenopause-uncertainty-us-study/",
+              "desc": "Part of the cost is diagnostic: a third of women cannot name what is happening to them."
             }
           ]
         }
@@ -3651,6 +3686,11 @@ export const POSTS = [
               "name": "Тривога й туман у голові очолюють список симптомів менопаузи",
               "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
               "desc": "Про що жінки говорять насправді — на відміну від припливів, яких усі очікують."
+            },
+            {
+              "name": "Кожна третя жінка після 35 не може сказати, чи в неї перименопауза",
+              "url": "/ua/blog/perimenopause-uncertainty-us-study/",
+              "desc": "Частина цієї ціни — діагностична: третина жінок не може назвати те, що з ними відбувається."
             }
           ]
         }
@@ -4486,6 +4526,11 @@ export const POSTS = [
               "name": "Type 2 diabetes is linked to heavier menopause symptoms, a Korean study finds",
               "url": "/blog/type-2-diabetes-menopause-symptoms/",
               "desc": "The traffic runs both ways: metabolic health shaping how the menopause transition feels."
+            },
+            {
+              "name": "Clinical trials for women over 40 recruiting now",
+              "url": "/blog/clinical-trials-women-over-40/",
+              "desc": "Including type 2 diabetes and women’s health studies open in the UK and Ukraine."
             }
           ]
         }
@@ -4573,6 +4618,11 @@ export const POSTS = [
               "name": "Діабет 2 типу пов’язаний із важчими симптомами менопаузи — корейське дослідження",
               "url": "/ua/blog/type-2-diabetes-menopause-symptoms/",
               "desc": "Рух відбувається в обидва боки: метаболічне здоров’я змінює те, як переживається менопаузальний перехід."
+            },
+            {
+              "name": "Клінічні дослідження для жінок після 40, набір триває",
+              "url": "/ua/blog/clinical-trials-women-over-40/",
+              "desc": "Зокрема дослідження про діабет 2 типу та жіноче здоров’я, відкриті у Британії та Україні."
             }
           ]
         }
@@ -5169,6 +5219,11 @@ export const POSTS = [
               "name": "Perimenopause and diabetes: what’s really happening to your blood sugar",
               "url": "/blog/perimenopause-diabetes-blood-sugar/",
               "desc": "When glucose, not hormones, is the simpler explanation for a foggy afternoon."
+            },
+            {
+              "name": "One in three women over 35 can’t tell whether they’re in perimenopause",
+              "url": "/blog/perimenopause-uncertainty-us-study/",
+              "desc": "Before you can attribute a symptom, you have to know which transition you are in."
             }
           ]
         }
@@ -5266,6 +5321,11 @@ export const POSTS = [
               "name": "Перименопауза і діабет: що насправді відбувається з цукром крові",
               "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
               "desc": "Коли простіше пояснення туманного дня — не гормони, а глюкоза."
+            },
+            {
+              "name": "Кожна третя жінка після 35 не може сказати, чи в неї перименопауза",
+              "url": "/ua/blog/perimenopause-uncertainty-us-study/",
+              "desc": "Перш ніж приписати симптом, треба знати, у якому саме переході ви перебуваєте."
             }
           ]
         }
@@ -7606,6 +7666,16 @@ export const POSTS = [
               "name": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause",
               "url": "/blog/tirzepatide-hrt-weight-loss-menopause-2026/",
               "desc": "The drug this review deliberately excluded, and what the evidence looks like for it after menopause."
+            },
+            {
+              "name": "The 2026 guidelines back GLP-1 drugs in type 1 diabetes",
+              "url": "/blog/ada-2026-glp1-type1-diabetes-women/",
+              "desc": "Where this drug class is heading next, and what it means if you use insulin."
+            },
+            {
+              "name": "GLP-1 drugs in women over 65: how much of the loss is muscle",
+              "url": "/blog/glp1-older-women-lean-mass/",
+              "desc": "The trade-off behind the weight-loss number, at the age it matters most."
             }
           ]
         }
@@ -7684,6 +7754,16 @@ export const POSTS = [
               "name": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи",
               "url": "/ua/blog/tirzepatide-hrt-weight-loss-menopause-2026/",
               "desc": "Препарат, який цей огляд свідомо не включив, і які дані є щодо нього після менопаузи."
+            },
+            {
+              "name": "Настанови 2026 вперше підтримують GLP-1 при діабеті 1 типу",
+              "url": "/ua/blog/ada-2026-glp1-type1-diabetes-women/",
+              "desc": "Куди цей клас препаратів рухається далі — і що це означає, якщо ви на інсуліні."
+            },
+            {
+              "name": "Препарати GLP-1 у жінок після 65: скільки з утраченого — м’язи",
+              "url": "/ua/blog/glp1-older-women-lean-mass/",
+              "desc": "Компроміс, що стоїть за цифрою втраченої ваги, — у віці, коли він важить найбільше."
             }
           ]
         }
@@ -7923,6 +8003,21 @@ export const POSTS = [
               "name": "What new research says about type 2 diabetes",
               "url": "/blog/type-2-diabetes-research/",
               "desc": "The wider evidence on managing type 2 diabetes — sleep, diet, medication and more."
+            },
+            {
+              "name": "Endometriosis and a 46% higher risk of type 2 diabetes",
+              "url": "/blog/endometriosis-type-2-diabetes-risk/",
+              "desc": "Another link between a gynaecological history and glucose that screening tends to miss."
+            },
+            {
+              "name": "Clinical trials for women over 40 recruiting now",
+              "url": "/blog/clinical-trials-women-over-40/",
+              "desc": "Nineteen studies in the UK and Ukraine, including diabetes and menopause research."
+            },
+            {
+              "name": "Blood Sugar Investigator",
+              "url": "/blood-sugar-investigator/",
+              "desc": "Work through an unexplained glucose pattern step by step before your next appointment."
             }
           ]
         }
@@ -7996,6 +8091,21 @@ export const POSTS = [
               "name": "Що нові дослідження кажуть про діабет 2 типу",
               "url": "/ua/blog/type-2-diabetes-research/",
               "desc": "Ширші дані про контроль діабету 2 типу — сон, харчування, ліки та інше."
+            },
+            {
+              "name": "Ендометріоз і на 46% вищий ризик діабету 2 типу",
+              "url": "/ua/blog/endometriosis-type-2-diabetes-risk/",
+              "desc": "Ще один зв’язок між гінекологічною історією та глюкозою, який скринінг зазвичай оминає."
+            },
+            {
+              "name": "Клінічні дослідження для жінок після 40, набір триває",
+              "url": "/ua/blog/clinical-trials-women-over-40/",
+              "desc": "Дев’ятнадцять досліджень у Великій Британії та Україні — зокрема про діабет і менопаузу."
+            },
+            {
+              "name": "Дослідник цукру в крові",
+              "url": "/blood-sugar-investigator-ua/",
+              "desc": "Розберіть незрозумілий графік глюкози крок за кроком перед наступним візитом до лікаря."
             }
           ]
         }
@@ -8072,6 +8182,16 @@ export const POSTS = [
               "name": "Your gut bacteria recycle oestrogen — and menopause changes which bacteria you have",
               "url": "/blog/estrobolome-gut-oestrogen-menopause/",
               "desc": "The estrobolome: how the same fibre-fed bacteria influence hormone levels in midlife."
+            },
+            {
+              "name": "What a 2026 review says about fermented foods and your gut",
+              "url": "/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "The wider picture behind the kefir arm of this trial, and unusually frank about what is still unknown."
+            },
+            {
+              "name": "A fibre-free diet inflamed the gut in mice",
+              "url": "/blog/fibre-deficiency-gut-inflammation/",
+              "desc": "The other half of this trial was the fibre. This is what happens when you take it away."
             }
           ]
         }
@@ -8140,6 +8260,16 @@ export const POSTS = [
               "name": "Ваші кишкові бактерії переробляють естроген — а менопауза змінює, які бактерії у вас є",
               "url": "/ua/blog/estrobolome-gut-oestrogen-menopause/",
               "desc": "Естроболом: як ті самі бактерії, що живляться клітковиною, впливають на рівень гормонів у середньому віці."
+            },
+            {
+              "name": "Що кажуть про ферментовану їжу і кишківник в огляді 2026 року",
+              "url": "/ua/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "Ширша картина за кефірною частиною цього дослідження — і надзвичайно відверто про те, що досі невідомо."
+            },
+            {
+              "name": "Дієта без клітковини викликала запалення кишківника в мишей",
+              "url": "/ua/blog/fibre-deficiency-gut-inflammation/",
+              "desc": "Друга половина цього дослідження — клітковина. Ось що стається, коли її прибрати."
             }
           ]
         }
@@ -8225,6 +8355,16 @@ export const POSTS = [
               "name": "Anxiety and brain fog, not hot flashes, are now women's top menopause complaint",
               "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
               "desc": "The symptoms nobody warns you about are the ones women actually report most."
+            },
+            {
+              "name": "What menstrual blood is teaching modern medicine",
+              "url": "/blog/menstrual-blood-research-medicine/",
+              "desc": "Why so little of this was ever studied properly, and the research finally changing it."
+            },
+            {
+              "name": "Clinical trials for women over 40 recruiting now",
+              "url": "/blog/clinical-trials-women-over-40/",
+              "desc": "Nineteen studies currently recruiting, several of them on the perimenopause transition itself."
             }
           ]
         }
@@ -8302,6 +8442,16 @@ export const POSTS = [
               "name": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
               "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
               "desc": "Симптоми, про які ніхто не попереджає, — саме ті, про які жінки повідомляють найчастіше."
+            },
+            {
+              "name": "Чого менструальна кров вчить сучасну медицину",
+              "url": "/ua/blog/menstrual-blood-research-medicine/",
+              "desc": "Чому так мало з цього досліджували як слід — і які роботи це нарешті змінюють."
+            },
+            {
+              "name": "Клінічні дослідження для жінок після 40, набір триває",
+              "url": "/ua/blog/clinical-trials-women-over-40/",
+              "desc": "Дев’ятнадцять досліджень, до яких зараз набирають, — і кілька саме про перехід до менопаузи."
             }
           ]
         }
@@ -8382,6 +8532,21 @@ export const POSTS = [
               "name": "Perimenopause & diabetes: what's really happening to your blood sugar",
               "url": "/blog/perimenopause-diabetes-blood-sugar/",
               "desc": "Why fatigue and sleep problems in your 40s can be hormonal, metabolic, or both at once."
+            },
+            {
+              "name": "One in three women over 35 can’t tell whether they’re in perimenopause",
+              "url": "/blog/perimenopause-uncertainty-us-study/",
+              "desc": "7,640 women, and worse symptoms did not make it any clearer."
+            },
+            {
+              "name": "Clinical trials for women over 40 recruiting now",
+              "url": "/blog/clinical-trials-women-over-40/",
+              "desc": "If the answer is that nobody has studied this properly yet, here is where it is being studied."
+            },
+            {
+              "name": "What menstrual blood is teaching modern medicine",
+              "url": "/blog/menstrual-blood-research-medicine/",
+              "desc": "On the same theme: how much of women’s physiology went unstudied, and what is changing."
             }
           ]
         }
@@ -8454,6 +8619,21 @@ export const POSTS = [
               "name": "Перименопауза та діабет: що насправді відбувається з вашим цукром у крові",
               "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
               "desc": "Чому втома й проблеми зі сном після 40 можуть бути гормональними, метаболічними — або і тим, і тим одночасно."
+            },
+            {
+              "name": "Кожна третя жінка після 35 не може сказати, чи в неї перименопауза",
+              "url": "/ua/blog/perimenopause-uncertainty-us-study/",
+              "desc": "7640 жінок — і сильніші симптоми не додавали ясності."
+            },
+            {
+              "name": "Клінічні дослідження для жінок після 40, набір триває",
+              "url": "/ua/blog/clinical-trials-women-over-40/",
+              "desc": "Якщо відповідь у тому, що це ще ніхто до ладу не вивчив, — ось де це вивчають зараз."
+            },
+            {
+              "name": "Чого менструальна кров вчить сучасну медицину",
+              "url": "/ua/blog/menstrual-blood-research-medicine/",
+              "desc": "На ту саму тему: як багато у фізіології жінок лишалося невивченим — і що змінюється."
             }
           ]
         }
@@ -8545,6 +8725,11 @@ export const POSTS = [
               "name": "Why skin changes so fast at menopause",
               "url": "/blog/menopause-skin-oestrogen/",
               "desc": "Another system that depends on oestrogen, and what hormone therapy can and cannot do about it."
+            },
+            {
+              "name": "What a 2026 review says about fermented foods and your gut",
+              "url": "/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "If you are changing what you feed these bacteria, start with what the evidence supports."
             }
           ]
         }
@@ -8627,6 +8812,11 @@ export const POSTS = [
               "name": "Чому шкіра так швидко змінюється в менопаузі",
               "url": "/ua/blog/menopause-skin-oestrogen/",
               "desc": "Ще одна система, що залежить від естрогену, і що з цим може (і чого не може) зробити гормональна терапія."
+            },
+            {
+              "name": "Що кажуть про ферментовану їжу і кишківник в огляді 2026 року",
+              "url": "/ua/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "Якщо ви змінюєте те, чим годуєте ці бактерії, почніть із того, що підтверджують дані."
             }
           ]
         }
@@ -8922,6 +9112,16 @@ export const POSTS = [
               "name": "Do collagen products actually improve your skin?",
               "url": "/blog/collagen-and-skin/",
               "desc": "The other thing sold hard for menopausal skin — and what the trials say."
+            },
+            {
+              "name": "Beauty has rebranded midlife as “longevity”",
+              "url": "/blog/menopause-skincare-longevity-marketing/",
+              "desc": "The same marketing shift, one category wider — and what the language is and is not backed by."
+            },
+            {
+              "name": "A new oral minoxidil pill improved hair growth in women",
+              "url": "/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "Hair is the other midlife change being marketed to hard — this trial had no control group."
             }
           ]
         }
@@ -9023,6 +9223,16 @@ export const POSTS = [
               "name": "Чи справді колагенові продукти покращують шкіру?",
               "url": "/ua/blog/collagen-and-skin/",
               "desc": "Інший продукт, який активно продають для шкіри в менопаузі — і що кажуть дослідження."
+            },
+            {
+              "name": "Індустрія краси перейменувала середній вік на «лонгевіті»",
+              "url": "/ua/blog/menopause-skincare-longevity-marketing/",
+              "desc": "Той самий маркетинговий зсув, лише на категорію ширший — і що за цими словами справді стоїть."
+            },
+            {
+              "name": "Нова таблетка міноксидилу покращила ріст волосся в жінок",
+              "url": "/ua/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "Волосся — друга зміна середнього віку, довкола якої багато реклами. У цьому дослідженні не було контрольної групи."
             }
           ]
         }
@@ -9111,6 +9321,16 @@ export const POSTS = [
               "name": "5 myths about perimenopause and weight",
               "url": "/blog/perimenopause-weight-myths/",
               "desc": "What's actually true about weight changes during perimenopause."
+            },
+            {
+              "name": "GLP-1 drugs in women over 65: how much of the loss is muscle",
+              "url": "/blog/glp1-older-women-lean-mass/",
+              "desc": "A quarter to 40% of what comes off is lean mass — the reason the protein and lifting advice keeps appearing."
+            },
+            {
+              "name": "Women lose more weight on GLP-1 drugs than men",
+              "url": "/blog/glp1-weight-loss-sex-difference-women-men/",
+              "desc": "64 trials, and the sex difference turns out not to be the most interesting part."
             }
           ]
         }
@@ -9190,6 +9410,16 @@ export const POSTS = [
               "name": "5 міфів про перименопаузу та вагу",
               "url": "/ua/blog/perimenopause-weight-myths/",
               "desc": "Що насправді правда про зміни ваги під час перименопаузи."
+            },
+            {
+              "name": "Препарати GLP-1 у жінок після 65: скільки з утраченого — м’язи",
+              "url": "/ua/blog/glp1-older-women-lean-mass/",
+              "desc": "Від чверті до 40% утраченого — знежирена маса. Саме тому поряд завжди йдеться про білок і силові."
+            },
+            {
+              "name": "Жінки втрачають на GLP-1 більше ваги, ніж чоловіки",
+              "url": "/ua/blog/glp1-weight-loss-sex-difference-women-men/",
+              "desc": "64 дослідження — і різниця між статями виявляється не найцікавішим у цих даних."
             }
           ]
         }
@@ -9269,6 +9499,16 @@ export const POSTS = [
               "name": "Natural sweeteners, sugar and your gut",
               "url": "/blog/natural-sweeteners/",
               "desc": "A closer look at how different sweeteners can affect the gut microbiome and your blood-sugar response."
+            },
+            {
+              "name": "What a 2026 review says about fermented foods and your gut",
+              "url": "/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "How fermented foods actually act on the gut, and where the human evidence thins out."
+            },
+            {
+              "name": "A fibre-free diet inflamed the gut in mice",
+              "url": "/blog/fibre-deficiency-gut-inflammation/",
+              "desc": "The mechanism behind the fibre advice, and an honest note on why mice are not you."
             }
           ]
         }
@@ -9340,6 +9580,16 @@ export const POSTS = [
               "name": "Натуральні підсолоджувачі, цукор і ваш кишківник",
               "url": "/ua/blog/natural-sweeteners/",
               "desc": "Докладніше про те, як різні підсолоджувачі можуть впливати на мікробіом кишківника й реакцію цукру в крові."
+            },
+            {
+              "name": "Що кажуть про ферментовану їжу і кишківник в огляді 2026 року",
+              "url": "/ua/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "Як ферментована їжа насправді діє на кишківник — і де докази в людей стають тонкими."
+            },
+            {
+              "name": "Дієта без клітковини викликала запалення кишківника в мишей",
+              "url": "/ua/blog/fibre-deficiency-gut-inflammation/",
+              "desc": "Механізм, що стоїть за порадами про клітковину, — і чесна заувага, чому миші це не ви."
             }
           ]
         }
@@ -9432,6 +9682,16 @@ export const POSTS = [
               "name": "Every patient in a small type 1 diabetes trial became insulin-free",
               "url": "/blog/islet-transplant-insulin-independence/",
               "desc": "An early islet-transplant trial hints at where cell-replacement therapy is heading."
+            },
+            {
+              "name": "CGM comparison: every sensor available in the UK",
+              "url": "/cgm-comparison/",
+              "desc": "The guidelines now back CGM from diagnosis — this is how the sensors actually differ."
+            },
+            {
+              "name": "AID system comparison",
+              "url": "/aid-comparison/",
+              "desc": "With the old eligibility rules dropped, this compares the closed-loop systems side by side."
             }
           ]
         }
@@ -9516,6 +9776,16 @@ export const POSTS = [
               "name": "Усі учасники невеликого дослідження діабету 1 типу відмовилися від інсуліну",
               "url": "/blog/islet-transplant-insulin-independence/",
               "desc": "Раннє дослідження трансплантації острівцевих клітин натякає, куди рухається клітинна замісна терапія."
+            },
+            {
+              "name": "Порівняння CGM: усі сенсори, доступні у Великій Британії",
+              "url": "/cgm-comparison-ua/",
+              "desc": "Настанови тепер радять CGM від моменту діагнозу — а ось чим сенсори справді відрізняються."
+            },
+            {
+              "name": "Порівняння систем AID",
+              "url": "/aid-comparison-ua/",
+              "desc": "Коли попередні вимоги скасовано, ось порівняння систем «замкненої петлі» поруч."
             }
           ]
         }
@@ -9684,6 +9954,27 @@ export const POSTS = [
         {
           "t": "p",
           "text": "I'll keep an eye on this as the trials and tests mature. For now, the take-home is simple: the next time you're told there is not enough research on women's bodies, know that some scientists have found their answer in the one sample medicine spent centuries ignoring."
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Clinical trials for women over 40 recruiting now",
+              "url": "/blog/clinical-trials-women-over-40/",
+              "desc": "Nineteen studies open in the UK and Ukraine — the practical end of “more research needed”."
+            },
+            {
+              "name": "17,494 women, 158 countries: what perimenopause actually feels like",
+              "url": "/blog/perimenopause-global-survey-symptom-gap/",
+              "desc": "What happens when someone finally asks women directly, at scale."
+            },
+            {
+              "name": "Type 2 diabetes is rising twice as fast in women under 40",
+              "url": "/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "The same blind spot, in diabetes care rather than gynaecology."
+            }
+          ]
         }
       ],
       "faq": [
@@ -9853,6 +10144,27 @@ export const POSTS = [
         {
           "t": "p",
           "text": "Я стежитиму за цим, поки дослідження й тести дозрівають. Наразі висновок простий: наступного разу, коли вам скажуть, що досліджень про жіноче тіло замало, знайте, що деякі науковці знайшли свою відповідь в одному зразку, який медицина століттями ігнорувала."
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Клінічні дослідження для жінок після 40, набір триває",
+              "url": "/ua/blog/clinical-trials-women-over-40/",
+              "desc": "Дев’ятнадцять досліджень у Британії та Україні — практичний бік фрази «потрібні додаткові дослідження»."
+            },
+            {
+              "name": "17 494 жінки, 158 країн: якою перименопауза є насправді",
+              "url": "/ua/blog/perimenopause-global-survey-symptom-gap/",
+              "desc": "Що стається, коли жінок нарешті питають прямо — і у великому масштабі."
+            },
+            {
+              "name": "Діабет 2 типу зростає вдвічі швидше в жінок до 40",
+              "url": "/ua/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "Та сама сліпа зона — але в діабетології, а не в гінекології."
+            }
+          ]
         }
       ],
       "faq": [
@@ -10561,6 +10873,16 @@ export const POSTS = [
               "name": "Carb quality and healthy ageing",
               "url": "/blog/carb-quality-healthy-aging/",
               "desc": "Why the type of carbohydrate matters as much as the amount as you get older."
+            },
+            {
+              "name": "GLP-1 drugs in women over 65: how much of the loss is muscle",
+              "url": "/blog/glp1-older-women-lean-mass/",
+              "desc": "Where the protein target matters most, and why it is not optional on these drugs."
+            },
+            {
+              "name": "Metabolic food calculator",
+              "url": "/resources/food-calculator/",
+              "desc": "Look up what is actually in a food, protein included, instead of estimating."
             }
           ]
         }
@@ -10612,6 +10934,32 @@ export const POSTS = [
               "detail": "Аналіз за методом емульованого дослідження серед 3789 жінок у постменопаузі віком 50–79 років з Women's Health Initiative використав DXA-виміряний склад тіла, щоб порівняти гіпотетичне дотримання чотирьох рівнів споживання білка (≥0,8, ≥1,0, ≥1,2 та ≥1,5 г/кг/день) протягом 3 років. Вище стале споживання пов’язувалося зі сприятливішими показниками м'язової маси та кісток порівняно зі споживанням на рівні чинної RDA.",
               "cite": "International Journal of Obesity (Nature) · Аналіз Women's Health Initiative, 2026",
               "url": "https://www.nature.com/articles/s41366-025-01978-0"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Чому білок важливіший після 40",
+              "url": "/ua/blog/protein-for-women-over-40/",
+              "desc": "Як потреба в білку змінюється з віком і гормонами — і як практично добирати норму."
+            },
+            {
+              "name": "Якість вуглеводів і здорове старіння",
+              "url": "/ua/blog/carb-quality-healthy-aging/",
+              "desc": "Чому з віком тип вуглеводів важить не менше за їхню кількість."
+            },
+            {
+              "name": "Препарати GLP-1 у жінок після 65: скільки з утраченого — м’язи",
+              "url": "/ua/blog/glp1-older-women-lean-mass/",
+              "desc": "Там, де норма білка важить найбільше — і чому на цих препаратах вона не є необов’язковою."
+            },
+            {
+              "name": "Калькулятор впливу їжі на метаболізм",
+              "url": "/ua/resources/food-calculator/",
+              "desc": "Подивіться, що насправді є в продукті — зокрема білок, — замість того щоб оцінювати на око."
             }
           ]
         }
@@ -10688,6 +11036,16 @@ export const POSTS = [
               "name": "Do collagen products actually improve your skin?",
               "url": "/blog/collagen-and-skin/",
               "desc": "Declining oestrogen accelerates collagen loss. What the evidence says about supplementing."
+            },
+            {
+              "name": "Beauty has rebranded midlife as “longevity”",
+              "url": "/blog/menopause-skincare-longevity-marketing/",
+              "desc": "What the new vocabulary means once you take the marketing out of it."
+            },
+            {
+              "name": "A new oral minoxidil pill improved hair growth in women",
+              "url": "/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "Skin is not the only tissue that changes — and this trial is a lesson in reading one carefully."
             }
           ]
         }
@@ -10739,6 +11097,32 @@ export const POSTS = [
               "detail": "Огляд 2026 року в журналі Life узагальнює докази того, що зниження естрогену після менопаузи зменшує колаген шкіри приблизно на 2% на рік поряд із втратою еластичності та зволоженості, а замісна гормональна терапія частково відновлює вміст колагену, еластичність, товщину та зволоженість. Місцевий естроген і негормональні засоби також зазначені як перспективні для локальної користі для шкіри.",
               "cite": "Life (MDPI) · Огляд, 2026",
               "url": "https://www.mdpi.com/2075-1729/16/3/401"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Чому шкіра так швидко змінюється в менопаузі",
+              "url": "/ua/blog/menopause-skin-oestrogen/",
+              "desc": "Естроген впливає значно ширше, ніж на припливи, — повна картина щодо ЗГТ і шкіри."
+            },
+            {
+              "name": "Чи справді колагенові засоби покращують шкіру?",
+              "url": "/ua/blog/collagen-and-skin/",
+              "desc": "Падіння естрогену пришвидшує втрату колагену. Що кажуть дані про добавки."
+            },
+            {
+              "name": "Індустрія краси перейменувала середній вік на «лонгевіті»",
+              "url": "/ua/blog/menopause-skincare-longevity-marketing/",
+              "desc": "Що означає нова лексика, якщо прибрати з неї маркетинг."
+            },
+            {
+              "name": "Нова таблетка міноксидилу покращила ріст волосся в жінок",
+              "url": "/ua/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "Шкіра — не єдина тканина, що змінюється. А це дослідження — гарний урок уважного читання."
             }
           ]
         }
@@ -11404,6 +11788,27 @@ export const POSTS = [
               "detail": "Перехресне онлайн-опитування 159 жінок із діабетом 1 типу в постменопаузі в Нідерландах (45–65 років, щонайменше 12 місяців без менструацій) показало, що 67,4% повідомили про помірні або виражені зміни в регуляції глюкози після менопаузи: 61,6% — більше епізодів гіперглікемії, 55,0% — більше коливань глюкози, 41,9% — вищий рівень глюкози загалом і 38,5% — більше епізодів гіпоглікемії. Більша важкість менопаузальних симптомів була пов’язана з відчутними змінами глікемії (скоригований ВШ 1,04; 95% ДІ 1,01–1,08; p=0,014). Автори наголошують на зручній вибірці, похибці пригадування за період 1–20 років і меншій за заплановану вибірці.",
               "cite": "Перехресне опитування, Нідерланди · PMC12534243",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Чому шкіра так швидко змінюється в менопаузі",
+              "url": "/ua/blog/menopause-skin-oestrogen/",
+              "desc": "Естроген впливає значно ширше, ніж на припливи, — повна картина щодо ЗГТ і шкіри."
+            },
+            {
+              "name": "Чи справді колагенові засоби покращують шкіру?",
+              "url": "/ua/blog/collagen-and-skin/",
+              "desc": "Естроген підтримує вироблення колагену. Що кажуть дані про добавки та засоби."
+            },
+            {
+              "name": "5 міфів про перименопаузу і вагу",
+              "url": "/ua/blog/perimenopause-weight-myths/",
+              "desc": "Чому вага на терезах — не вся історія, і що справді допомагає."
             }
           ]
         }
@@ -14302,6 +14707,11 @@ export const POSTS = [
               "name": "HRT prescriptions have doubled — patches are now running short",
               "url": "/blog/hrt-prescriptions-doubling/",
               "desc": "Oestrogen affects skin and collagen. New data on the HRT surge and what patch shortages mean."
+            },
+            {
+              "name": "Beauty has rebranded midlife as “longevity”",
+              "url": "/blog/menopause-skincare-longevity-marketing/",
+              "desc": "How to read the newer wave of midlife skin marketing, collagen claims included."
             }
           ]
         }
@@ -14462,6 +14872,32 @@ export const POSTS = [
               "detail": "Оглядова стаття 2025 року в Journal of Cosmetic Dermatology розглянула п'ять десятиліть досліджень змін шкіри в менопаузі та ЗГТ. Вона підтвердила, що колаген падає на 1–2% на рік у ранній постменопаузі, що бар'єрна функція та еластичність шкіри знижуються разом із ним, і що замісна гормональна терапія може частково відновити ці показники в жінок у постменопаузі.",
               "cite": "Journal of Cosmetic Dermatology · Оглядова стаття, 2025",
               "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.70393"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Чому шкіра так швидко змінюється в менопаузі",
+              "url": "/ua/blog/menopause-skin-oestrogen/",
+              "desc": "Естроген підтримує вироблення колагену та зволоженість шкіри. Ось що кажуть дані."
+            },
+            {
+              "name": "Білок для жінок після 40: скільки насправді потрібно?",
+              "url": "/ua/blog/protein-for-women-over-40/",
+              "desc": "Колаген — це білок. Достатньо білка в середньому віці підтримує і шкіру, і м’язи."
+            },
+            {
+              "name": "Призначень ЗГТ стало вдвічі більше — а пластирів бракує",
+              "url": "/ua/blog/hrt-prescriptions-doubling/",
+              "desc": "Естроген впливає на шкіру та колаген. Нові дані про сплеск ЗГТ і що означає дефіцит пластирів."
+            },
+            {
+              "name": "Індустрія краси перейменувала середній вік на «лонгевіті»",
+              "url": "/ua/blog/menopause-skincare-longevity-marketing/",
+              "desc": "Як читати новішу хвилю маркетингу про шкіру в середньому віці — разом із обіцянками про колаген."
             }
           ]
         }
