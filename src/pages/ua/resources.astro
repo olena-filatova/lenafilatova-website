@@ -2,8 +2,22 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ResourcesBody from '../../components/ResourcesBody.astro';
 import { RESOURCES } from '../../data/site.js';
+import { hubJsonLd, SITE } from '../../data/schema-lib.js';
 const t = RESOURCES.ua;
+// OPS-301: the tools index is a collection too, and named its own contents
+// nowhere a machine could read them.
+const jsonld = hubJsonLd({
+  lang: 'ua',
+  name: t.h1,
+  description: t.seoDesc,
+  url: `${SITE}/ua/resources/`,
+  crumb: t.h1,
+  items: RESOURCES.cards.map((c) => ({
+    name: c['ua'].title,
+    url: `${SITE}${c.hrefUa}`,
+  })),
+});
 ---
-<BaseLayout lang="ua" title={t.seoTitle} description={t.seoDesc} canonical="/ua/resources/" alternates={{ en: "/resources/", ua: "/ua/resources/" }}>
+<BaseLayout lang="ua" jsonld={jsonld} title={t.seoTitle} description={t.seoDesc} canonical="/ua/resources/" alternates={{ en: "/resources/", ua: "/ua/resources/" }}>
   <ResourcesBody lang="ua" />
 </BaseLayout>

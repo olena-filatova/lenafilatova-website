@@ -1,5 +1,6 @@
 // Blog helpers: category filters, UI strings, inline-link rendering and
 // per-post JSON-LD. Companion to blog.js (the content).
+import { personRef, personNode } from './schema-lib.js';
 
 export const SITE = 'https://lenafilatova.co.uk';
 
@@ -201,9 +202,18 @@ export function buildJsonLd(post, lang) {
       image: SITE + post.image,
       mainEntityOfPage: url,
       datePublished: post.date,
-      author: { '@type': 'Person', name: 'Lena Filatova' },
-      publisher: { '@type': 'Organization', name: 'Lena Filatova', url: SITE },
+      // OPS-301: `dateModified` is the field Google reads for freshness, and on
+      // a site whose pitch is current research it is worth emitting. Set
+      // `updated: 'YYYY-MM-DD'` on a post in blog.js when you revise it; until
+      // then it equals datePublished, which is true and is not a claim of
+      // maintenance that never happened.
+      dateModified: post.updated || post.date,
+      // OPS-301: reference the one Person entity rather than inlining an
+      // anonymous author on every article. See schema-lib.js.
+      author: personRef(),
+      publisher: personRef(),
     },
+    personNode(),
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
