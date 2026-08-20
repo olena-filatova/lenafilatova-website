@@ -222,7 +222,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "All of which is general principle, not a plan. Any change to insulin around training is a conversation with your own diabetes team, because the dose depends on you, your insulin and your timing. What you can do without asking anyone is watch what actually happens for a fortnight, write it down, and bring the pattern to that conversation. [Eating around training](/blog/eating-around-training-blood-sugar/) is the other half of it."
+          "text": "All of which is general principle, not a plan. Any change to insulin around training is a conversation with your own diabetes team, because the dose depends on you, your insulin and your timing. What you can do without asking anyone is watch what actually happens for a fortnight, write it down, and bring the pattern to that conversation. If you want a starting estimate before you have your own two weeks of data, the [exercise and blood sugar calculator](/resources/exercise-calculator/) will tell you which way a given session is likely to push you. [Eating around training](/blog/eating-around-training-blood-sugar/) is the other half of it."
         },
         {
           "t": "h",
@@ -297,6 +297,11 @@ export const POSTS = [
               "name": "Walking after meals and blood sugar",
               "url": "/blog/walking-after-meals-blood-sugar/",
               "desc": "Where most of the easy 80% actually comes from, and what it does to post-meal glucose."
+            },
+            {
+              "name": "Exercise & blood sugar calculator",
+              "url": "/resources/exercise-calculator/",
+              "desc": "Put a session in and see which way it is likely to move your glucose, before you plan around it."
             },
             {
               "name": "Eating around training with type 1 diabetes",
@@ -519,7 +524,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Усе це — загальні принципи, а не план. Будь-яка зміна інсуліну навколо тренувань — це розмова з вашою діабетичною командою, бо доза залежить від вас, вашого інсуліну і вашого часу прийому. Що ви можете зробити, нікого не питаючи, — це два тижні спостерігати, що відбувається насправді, записувати і принести цю картину на ту розмову. [Харчування навколо тренувань](/ua/blog/eating-around-training-blood-sugar/) — друга половина цієї теми."
+          "text": "Усе це — загальні принципи, а не план. Будь-яка зміна інсуліну навколо тренувань — це розмова з вашою діабетичною командою, бо доза залежить від вас, вашого інсуліну і вашого часу прийому. Що ви можете зробити, нікого не питаючи, — це два тижні спостерігати, що відбувається насправді, записувати і принести цю картину на ту розмову. Якщо хочеться орієнтовної оцінки ще до того, як у вас з’являться власні два тижні спостережень, [калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) підкаже, у який бік конкретне заняття, найімовірніше, вас зрушить. [Харчування навколо тренувань](/ua/blog/eating-around-training-blood-sugar/) — друга половина цієї теми."
         },
         {
           "t": "h",
@@ -594,6 +599,11 @@ export const POSTS = [
               "name": "Ходьба після їжі та цукор у крові",
               "url": "/ua/blog/walking-after-meals-blood-sugar/",
               "desc": "Звідки насправді береться більшість тих легких 80% і що це дає глюкозі після їжі."
+            },
+            {
+              "name": "Калькулятор впливу фізичних навантажень на цукор",
+              "url": "/ua/resources/exercise-calculator/",
+              "desc": "Введіть заняття і подивіться, у який бік воно, найімовірніше, зрушить вашу глюкозу, перш ніж щось планувати."
             },
             {
               "name": "Харчування навколо тренувань при діабеті 1 типу",
