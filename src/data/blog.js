@@ -83,7 +83,7 @@ export const POSTS = [
           "rows": [
             [
               "The sugar in the drink",
-              "Real, but short-lived and visible. It behaves like any other carbohydrate and is not what causes the delayed effect. In the controlled study of evening drinking, the drink was dry white wine — almost no carbohydrate at all."
+              "Real, but short-lived and visible — and it can run the opposite way to everything else on this page. Measured against a matched glucose drink, alcohol raised the two-hour glucose response by 18%, and beer's measured glycaemic index came out at 119 against 80 for the non-alcoholic version, apparently through reduced insulin sensitivity. So the early rise is genuine. It is simply not what causes the delayed fall: in the controlled study of evening drinking, the drink was dry white wine, with almost no carbohydrate at all."
             ],
             [
               "\"I must have got the meal wrong\"",
@@ -149,7 +149,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The confident version of this story gets repeated far more often than the evidence supports, so you should know where the soft ground is. The Bournemouth study is six people. Six men, beautifully controlled, dramatic result, never repeated at scale. A companion study using continuous monitoring found average glucose 1.2 mmol/L lower after an evening drink — consistent, also small. Meanwhile a study of moderately heavy drinking in an ordinary social setting found more variability but no increase in low readings at all. And in a 1993 clamp study, intravenous ethanol given to nine overnight-fasted people with type 1 diabetes caused no hypoglycaemia whatsoever."
+          "text": "The confident version of this story gets repeated far more often than the evidence supports, so you should know where the soft ground is. The Bournemouth study is six people. Six men, beautifully controlled, dramatic result, never repeated at scale. A companion short report from the same group, using continuous monitoring, is described as finding average glucose 1.2 mmol/L lower after an evening drink — consistent, but it is a research letter rather than a full paper, and I am reporting it as the later systematic review summarised it. And in a 1993 clamp study, intravenous ethanol given to nine overnight-fasted people with type 1 diabetes caused no hypoglycaemia whatsoever."
+        },
+        {
+          "t": "p",
+          "text": "One study is often cited as contradicting all this, and it is worth looking at properly rather than listing it as a disagreement. Fourteen adolescents with type 1 diabetes wore sensors through a real night out — a mean of nine standard drinks for the young men and six for the young women, which is well beyond moderate. It found more glycaemic variability and, if anything, fewer low readings than on their control nights. But it measured from 6pm to 6am, and stopped. Turner's participants were still normal at 6am; their lows came four hours later. So it is not really a contradiction — it is a study whose window closed before the effect this post is about would have shown up. That is worth knowing, because it is the same mistake the rest of us make: judging the night by the night."
         },
         {
           "t": "p",
@@ -306,6 +310,18 @@ export const POSTS = [
               "url": "https://diabetesonthenet.com/journal-diabetes-nursing/effects-of-alcohol-on-blood-glucose-levels-in-people-with-type-1-diabetes-a-systematic-review/"
             },
             {
+              "claim": "The study most often cited as contradicting the delayed effect stopped measuring at 6am.",
+              "detail": "Fourteen adolescents with type 1 diabetes aged over 16 wore continuous glucose monitors across a weekend in which drinking was planned for one night only, each acting as their own control against the equivalent period 24 hours before or after. Consumption was heavy rather than moderate: a mean of 9.0 standard drinks for the male participants and 6.3 for the female ones. The drinking night showed increased glycaemic variability, no difference in time at normal or high glucose, and a significantly higher percentage of time at low glucose during the control period — more, not fewer — that is, fewer lows after drinking. Widely quoted as evidence that alcohol does not cause hypoglycaemia. The decisive limitation is the observation window: 18:00 to 06:00. In the Bournemouth study the overnight period was also normal and the hypoglycaemia began at 10:00, four hours after this study stopped recording. It is not a contradictory result so much as one that could not have detected the effect in question.",
+              "cite": "Diabetic Medicine · Ismail D, Gebert R, Vuillermin PJ, Fraser L, McDonnell CM, Donath SM, Cameron FJ, 2006;23(8):830–3",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16911618/"
+            },
+            {
+              "claim": "With carbohydrate, alcohol can raise the short-term glucose response rather than lower it.",
+              "detail": "In a crossover study, 10 healthy volunteers were served beer at 4.5% alcohol by volume, non-alcoholic beer, a glucose solution with alcohol, and a reference glucose solution twice. Each portion contained 25 g available carbohydrate, and the alcoholic portions 21 g of alcohol. The glucose solution with alcohol produced an 18% higher postprandial glucose incremental area under the curve than the reference (p = 0.03), with no significant effect on insulin. Measured glycaemic index was 119 for beer against 80 for non-alcoholic beer, and insulinaemic index 130 against 88. The authors attribute the rise to impaired insulin sensitivity and conclude that published glycaemic index values for alcoholic beers have underestimated their true glycaemic effect. Ten healthy volunteers over a two-hour window, so it speaks only to the immediate response — but it is the clearest demonstration that alcohol's short-term and delayed effects on glucose run in opposite directions.",
+              "cite": "American Journal of Clinical Nutrition · Hätönen KA, Virtamo J, Eriksson JG, Perälä MM, Sinkko HK, Leiviskä J, Valsta LM, 2012;96(1):44–9",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22648716/"
+            },
+            {
               "claim": "Ethanol given intravenously to fasted people with type 1 diabetes did not itself cause hypoglycaemia.",
               "detail": "Nine people with type 1 diabetes fasted overnight and then received, single-blind, either intravenous ethanol (0.5 g/kg bolus then 0.25 g/kg/h) or matched saline during a hypoinsulinaemic euglycaemic clamp. A 60-minute ethanol infusion reaching a steady-state blood concentration of 26.2 mmol/L did not alter the glucose infusion rate needed to maintain euglycaemia (1.22 vs 1.23 mg/kg/min), the initial rate of fall of blood glucose, the lowest glucose reached, or the rate of recovery. Included deliberately because it complicates the simple story: ethanol in the blood is not directly glucose-lowering under clamp conditions. The delayed real-world effect appears to require the other ingredients — depleted glycogen, an overnight fast, and insulin still acting.",
               "cite": "Diabetic Medicine · Moriarty KT, Maggs DG, Macdonald IA, Tattersall RB, 1993;10(1):61–5",
@@ -459,7 +475,7 @@ export const POSTS = [
           "rows": [
             [
               "Цукор у напої",
-              "Ефект реальний, але короткий і помітний. Він поводиться як будь-які інші вуглеводи і не спричиняє відстроченого падіння. У контрольованому дослідженні вечірнього пиття напоєм було сухе біле вино — вуглеводів там майже немає."
+              "Ефект реальний, короткий і помітний — і він може працювати в протилежний бік до всього іншого на цій сторінці. Порівняно з еквівалентним глюкозним напоєм алкоголь підвищив двогодинну глюкозну відповідь на 18%, а виміряний глікемічний індекс пива склав 119 проти 80 у безалкогольної версії — вочевидь через знижену чутливість до інсуліну. Тож раннє підвищення справжнє. Просто не воно спричиняє відстрочене падіння: у контрольованому дослідженні вечірнього пиття напоєм було сухе біле вино, у якому вуглеводів майже немає."
             ],
             [
               "«Мабуть, я щось не так порахувала з їжею»",
@@ -525,7 +541,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Упевнена версія цієї історії повторюється значно частіше, ніж це витримують докази, тож вам варто знати, де тут м'який ґрунт. Борнмутське дослідження — це шестеро людей. Шестеро чоловіків, чудово контрольовано, драматичний результат, ніколи не повторений на великій вибірці. Супутнє дослідження з безперервним моніторингом показало середню глюкозу на 1,2 ммоль/л нижчу після вечірнього напою — узгоджено, але теж мало. Водночас дослідження помірно активного пиття у звичайній соціальній обстановці виявило більшу варіабельність, але жодного зростання низьких значень. А в клемп-дослідженні 1993 року внутрішньовенний етанол, уведений дев'ятьом людям із діабетом 1 типу після нічного голодування, не спричинив жодної гіпоглікемії."
+          "text": "Упевнена версія цієї історії повторюється значно частіше, ніж це витримують докази, тож вам варто знати, де тут м'який ґрунт. Борнмутське дослідження — це шестеро людей. Шестеро чоловіків, чудово контрольовано, драматичний результат, ніколи не повторений на великій вибірці. Супутній короткий звіт тієї ж групи з безперервним моніторингом описують як такий, що показав середню глюкозу на 1,2 ммоль/л нижчу після вечірнього напою — узгоджено, але це лист до редакції, а не повноцінна стаття, і я переказую його так, як його підсумував пізніший систематичний огляд. А в клемп-дослідженні 1993 року внутрішньовенний етанол, уведений дев'ятьом людям із діабетом 1 типу після нічного голодування, не спричинив жодної гіпоглікемії."
+        },
+        {
+          "t": "p",
+          "text": "Одне дослідження часто наводять як таке, що все це спростовує, і на нього варто подивитися уважно, а не просто вписати до списку розбіжностей. Чотирнадцятеро підлітків із діабетом 1 типу носили сенсори протягом справжньої вечірки — у середньому дев'ять стандартних порцій у хлопців і шість у дівчат, що далеко за межами помірного. Воно виявило більшу варіабельність глюкози і, якщо вже на те, менше низьких значень, ніж у їхні контрольні ночі. Але воно вимірювало з 18:00 до 6:00 — і на цьому зупинилося. Учасники Тернера о шостій ранку ще були в нормі; їхні гіпоглікемії прийшли через чотири години. Тож це насправді не спростування — це дослідження, чиє вікно закрилося раніше, ніж мав би проявитися ефект, про який ця стаття. І це варто знати, бо це та сама помилка, яку робимо ми всі: судити про ніч за ніччю."
         },
         {
           "t": "p",
@@ -680,6 +700,18 @@ export const POSTS = [
               "detail": "Систематичний огляд рандомізованих контрольованих досліджень про алкоголь і глікемічний контроль при діабеті 1 типу описує механізм — етанол метаболізується через алкогольдегідрогеназу та альдегіддегідрогеназу, виснажуючи печінковий NAD+, критично важливий для шляху глюконеогенезу, — і повідомляє, що печінковий глюконеогенез, як вважають, знижується до 45% після вживання алкоголю. Два важливі застереження: цифра 45% є вторинним цитуванням у цьому огляді робіт 1997 і 2004 років і сформульована як верхня межа, а не середнє значення; сам огляд опубліковано у 2008 році, тож це якісне узагальнення доказової бази, яка відтоді мало змінилася, а не сучасний огляд. Огляд також документує справді суперечливі результати між включеними дослідженнями.",
               "cite": "Journal of Diabetes Nursing · Adams G, Jeyes L, Evans E, 2008;12(8):289",
               "url": "https://diabetesonthenet.com/journal-diabetes-nursing/effects-of-alcohol-on-blood-glucose-levels-in-people-with-type-1-diabetes-a-systematic-review/"
+            },
+            {
+              "claim": "Дослідження, яке найчастіше наводять як спростування відстроченого ефекту, припинило вимірювання о 6:00.",
+              "detail": "Чотирнадцятеро підлітків із діабетом 1 типу віком понад 16 років носили безперервні монітори глюкози протягом вихідних, коли вживання алкоголю планувалося лише на одну ніч, і кожен був сам собі контролем щодо відповідного періоду за 24 години до або після. Вживання було радше значним, ніж помірним: у середньому 9,0 стандартних порцій у юнаків і 6,3 у дівчат. Ніч з алкоголем показала більшу варіабельність глюкози, жодної різниці в часі при нормальних і високих значеннях і значуще вищий відсоток часу при низьких значеннях у контрольний період — більше, а не менше — тобто після алкоголю гіпоглікемій було менше. Це широко цитують як доказ, що алкоголь не спричиняє гіпоглікемії. Вирішальне обмеження — вікно спостереження: з 18:00 до 06:00. У борнмутському дослідженні нічний період теж був нормальним, а гіпоглікемія почалася о 10:00 — через чотири години після того, як це дослідження припинило запис. Це не стільки суперечливий результат, скільки такий, що не міг виявити ефект, про який ідеться.",
+              "cite": "Diabetic Medicine · Ismail D, Gebert R, Vuillermin PJ, Fraser L, McDonnell CM, Donath SM, Cameron FJ, 2006;23(8):830–3",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16911618/"
+            },
+            {
+              "claim": "Разом з вуглеводами алкоголь може підвищувати короткострокову глюкозну відповідь, а не знижувати її.",
+              "detail": "У перехресному дослідженні 10 здоровим добровольцям давали пиво міцністю 4,5% об., безалкогольне пиво, розчин глюкози з алкоголем і двічі — контрольний розчин глюкози. Кожна порція містила 25 г доступних вуглеводів, а алкогольні порції — 21 г алкоголю. Розчин глюкози з алкоголем дав на 18% вищу приростову площу під кривою глюкози після їди порівняно з контролем (p = 0,03) без значущого впливу на інсулін. Виміряний глікемічний індекс становив 119 для пива проти 80 для безалкогольного, а інсулінемічний індекс — 130 проти 88. Автори пояснюють це зростання погіршенням чутливості до інсуліну й роблять висновок, що опубліковані значення глікемічного індексу для алкогольного пива занижували його справжній глікемічний ефект. Десятеро здорових добровольців і двогодинне вікно, тож це стосується лише негайної відповіді, — але це найчіткіша демонстрація того, що короткостроковий і відстрочений ефекти алкоголю на глюкозу спрямовані в протилежні боки.",
+              "cite": "American Journal of Clinical Nutrition · Hätönen KA, Virtamo J, Eriksson JG, Perälä MM, Sinkko HK, Leiviskä J, Valsta LM, 2012;96(1):44–9",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22648716/"
             },
             {
               "claim": "Етанол, уведений внутрішньовенно людям із діабетом 1 типу після голодування, сам собою не спричинив гіпоглікемії.",
