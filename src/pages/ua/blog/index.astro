@@ -1,11 +1,27 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import BlogHubBody from '../../../components/BlogHubBody.astro';
-
+import { POSTS } from '../../../data/blog.js';
+import { langUrl } from '../../../data/blog-lib.js';
+import { hubJsonLd, SITE } from '../../../data/schema-lib.js';
 const B = import.meta.env.BASE_URL;
+// OPS-301: the Journal index carried no structured data at all. Mirrors
+// BlogHubBody's own listing rule — `filedUnder: 'tools'` posts live on the
+// Tools & guides page, so they are not Journal entries here either.
+const listed = POSTS
+  .filter((p) => p.filedUnder !== 'tools')
+  .sort((a, b) => b.date.localeCompare(a.date));
+const jsonld = hubJsonLd({
+  lang: 'ua',
+  name: "Журнал",
+  description: "Статті, що спираються на дослідження: діабет, перименопауза, харчування, шкіра та вага.",
+  url: `${SITE}/ua/blog/`,
+  crumb: "Журнал",
+  items: listed.map((p) => ({ name: p['ua'].title, url: langUrl('ua', p.slug) })),
+});
 ---
 <BaseLayout
-  lang="ua"
+  lang="ua" jsonld={jsonld}
   title="Блог — жіноче здоров’я після 40, засноване на доказах"
   description="Статті, що спираються на дослідження: діабет, перименопауза, харчування, шкіра та вага — від Лєни Філатової, яка живе з діабетом 1 типу 23 роки."
   canonical="/ua/blog/"

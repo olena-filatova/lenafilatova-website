@@ -1,3 +1,5 @@
+import { personRef, personNode, breadcrumb } from './schema-lib.js';
+
 // Server-side helpers shared by the recipe hub + detail template.
 // Label maps mirror the originals (recipe.html + recipes/index.html); the
 // JSON-LD builder is ported from Website/recipes/build-recipe-pages.mjs so the
@@ -176,10 +178,12 @@ export function buildJsonLd(R, lang = 'en') {
   const imgs = imagesOf(R);
   const path = lang === 'ua' ? `${SITE}/ua/recipes/${R.slug}/` : `${SITE}/recipes/${R.slug}/`;
   const ld = {
-    '@context': 'https://schema.org/', '@type': 'Recipe',
+    '@type': 'Recipe',
     name: R.title[lang],
     image: imgs.map((f) => `${SITE}/recipes/images/${f}`),
-    author: { '@type': 'Person', name: 'Lena Filatova' },
+    // OPS-301: one Person entity across the site rather than an anonymous
+    // author inlined on all 86 recipes. See schema-lib.js.
+    author: personRef(),
     description: clip(R.why[lang], 300),
     recipeCategory: CAT_EN[R.cat] || R.cat,
     keywords: ['low GI', CAT_EN[R.cat] || R.cat, ...(R.tags || []).map((t) => DIET_EN[t] || t)].join(', '),
@@ -198,5 +202,22 @@ export function buildJsonLd(R, lang = 'en') {
   if (nutrition) ld.nutrition = nutrition;
   ld.suitableForDiet = ['https://schema.org/DiabeticDiet',
     ...(R.tags || []).map((t) => DIET_SCHEMA[t]).filter(Boolean).map((d) => `https://schema.org/${d}`)];
-  return ld;
+  // OPS-301: `dateAdded` already existed in the data and was going unused.
+  if (R.dateAdded) ld.datePublished = R.dateAdded;
+
+  // OPS-301: recipes now carry a BreadcrumbList, which blog posts have always
+  // had — the two templates disagreed for no reason. Returning a @graph rather
+  // than a bare Recipe object; BaseLayout stringifies whatever it is given, so
+  // the shape change is contained here and in the recipe detail templates.
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      ld,
+      breadcrumb(lang, [
+        { name: lang === 'ua' ? 'Рецепти' : 'Recipes', url: `${SITE}${lang === 'ua' ? '/ua' : ''}/recipes/` },
+        { name: R.title[lang], url: path },
+      ]),
+      personNode(),
+    ],
+  };
 }
