@@ -47,7 +47,10 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
       <span>{t.comingSoonNote}</span>
     </div>
   )}
-  <figure><img src={img(post.image)} alt={a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>
+  {/* alt: `imageAlt` describes the photograph; without one we fall back to the
+      headline, which is already the <h1> directly above — so a screen reader
+      hears the same sentence twice and learns nothing about the image. */}
+  <figure><img src={img(post.image)} alt={a.imageAlt || a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>
   <p class="lead">{a.lead}</p>
   <div class="prose">
     {(a.blocks || []).map((b) => {
