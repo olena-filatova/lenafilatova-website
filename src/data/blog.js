@@ -953,6 +953,11 @@ export const POSTS = [
               "name": "Does weight training raise blood sugar?",
               "url": "/blog/does-weight-training-raise-blood-sugar/",
               "desc": "What lifting does to glucose, for anyone adding training and a supplement at once."
+            },
+            {
+              "name": "Zone 2 or HIIT after 40?",
+              "url": "/blog/zone-2-or-hiit-after-40/",
+              "desc": "The cardio question that usually arrives alongside this one."
             }
           ]
         }
@@ -1285,6 +1290,11 @@ export const POSTS = [
               "name": "Чи підвищують силові тренування цукор у крові?",
               "url": "/ua/blog/does-weight-training-raise-blood-sugar/",
               "desc": "Що робить із глюкозою робота з обтяженнями — для тих, хто додає і тренування, і добавку одночасно."
+            },
+            {
+              "name": "Зона 2 чи HIIT після 40?",
+              "url": "/ua/blog/zone-2-or-hiit-after-40/",
+              "desc": "Питання про кардіо, яке зазвичай приходить разом із цим."
             }
           ]
         }
