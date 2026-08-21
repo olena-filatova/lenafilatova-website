@@ -472,20 +472,30 @@ export const RESOURCES = {
       ua: { band: 'Вуглеводи та ГІ', kicker: 'Інтерактивна таблиця', title: 'Таблиця вуглеводів і глікемічного індексу', desc: 'Понад 200 продуктів із вуглеводами на 100 г і глікемічним індексом — з українськими та британськими стравами. Фільтруйте, шукайте й сортуйте, щоб побачити ймовірний вплив на цукор.', cta: 'Відкрити таблицю' },
     },
     {
-      // OPS-290. The trials tracker was only reachable as a blog post, which is
-      // where Lena went looking for it and didn't find it — it is a filterable
-      // tool, not an article. Its page keeps the /blog/ address: it is the
-      // site's best-ranking EN page (Google page 1, position ~7), and a static
-      // host can only meta-refresh, so moving the URL would have cost the
-      // ranking to buy a tidier path. Filed under tools everywhere a reader
-      // browses instead — `filedUnder: 'tools'` in blog.js takes it out of the
-      // Journal hub, the RSS feed and the homepage's latest-post slot.
+      // OPS-290 filed the trials tracker under tools instead of the Journal —
+      // it is a filterable tool, not an article — and pointed this card at the
+      // ARTICLE, which keeps its /blog/ address because it is the site's
+      // best-ranking EN page (Google page 1, position ~7) and a static host can
+      // only meta-refresh. (`filedUnder: 'tools'` in blog.js is what takes it
+      // out of the Journal hub, the RSS feed and the homepage's latest slot.)
+      //
+      // The side effect was that the TRACKER — /t1d-cure-trials/, a 200 URL in
+      // the sitemap — ended up with one editorial inbound link on the whole
+      // site, the prose mention inside that article, against 6-9 for every
+      // other tool, and no link at all from the hub whose job is listing tools.
+      // So the card now opens the tracker, and the article hangs off it as the
+      // guide. One card, two destinations: the hub still shows this topic once,
+      // and the tool it lists is the tool.
+      //
+      // The secondary link is a SIBLING of the card's <a>, not inside it — a
+      // link cannot be nested in a link. See ResourcesBody.astro.
       // Graphite is the one neutral in the set — the seven chromatic tints were
       // all spoken for, and it clears 4.5:1 on the paper at 7.8:1.
       band: '#e9eaee', head: '#3f4a63',
-      href: '/blog/type-1-diabetes-cure-trials/', hrefUa: '/ua/blog/type-1-diabetes-cure-trials/',
-      en: { band: 'Type 1 cure research', kicker: 'Tracker & guide', title: 'Type 1 diabetes cure trials tracker', desc: '14 cure and disease-modifying trials side by side — filter by country, phase, approach, and whether each is recruiting or free to join. With an honest guide to what is actually working.', cta: 'Open the tracker' },
-      ua: { band: 'Дослідження лікування діабету 1 типу', kicker: 'Трекер і гайд', title: 'Трекер досліджень щодо лікування діабету 1 типу', desc: '14 досліджень щодо лікування та модифікації перебігу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір та чи безкоштовна участь. Плюс чесний путівник тим, що справді працює.', cta: 'Відкрити трекер' },
+      href: '/t1d-cure-trials/', hrefUa: '/t1d-cure-trials-ua/',
+      guideHref: '/blog/type-1-diabetes-cure-trials/', guideHrefUa: '/ua/blog/type-1-diabetes-cure-trials/',
+      en: { band: 'Type 1 cure research', kicker: 'Tracker & guide', title: 'Type 1 diabetes cure trials tracker', desc: '14 cure and disease-modifying trials side by side — filter by country, phase, approach, and whether each is recruiting or free to join. With an honest guide to what is actually working.', cta: 'Open the tracker', guide: 'Read the guide: what is actually working in 2026' },
+      ua: { band: 'Дослідження лікування діабету 1 типу', kicker: 'Трекер і гайд', title: 'Трекер досліджень щодо лікування діабету 1 типу', desc: '14 досліджень щодо лікування та модифікації перебігу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір та чи безкоштовна участь. Плюс чесний путівник тим, що справді працює.', cta: 'Відкрити трекер', guide: 'Читати гайд: що справді працює у 2026 році' },
     },
   ],
 };
