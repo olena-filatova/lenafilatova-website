@@ -217,6 +217,10 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+/* Smooth scrolling was harmless while the only in-page jump was Subscribe.
+   The article contents list (OPS-365) can ask for a 6,000px animated travel,
+   which is the kind of movement this media query exists to switch off. */
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 /* The document base. Every page-level scale below overrides it, so this is the
    fallback for anything that asks for none — not a step on the type scale. */
 body {

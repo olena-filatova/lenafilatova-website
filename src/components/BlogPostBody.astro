@@ -3,7 +3,7 @@
 // blog.js (p / h / quote / img / graph / table / refs / links / bio) plus
 // FAQ, CTA and disclaimer — the same anatomy as the live standalone pages.
 // The coming-soon post has no blocks: it shows the note + its short legacy body.
-import { UI, AUTHOR_BIO, renderInline, relatedPosts } from '../data/blog-lib.js';
+import { UI, AUTHOR_BIO, articleToc, renderInline, relatedPosts } from '../data/blog-lib.js';
 import { POSTS } from '../data/blog.js';
 import DIMS from '../data/image-dims.json';
 import '../styles/blog.css';
@@ -28,6 +28,10 @@ const isTool = post.filedUnder === 'tools';
 // still carries its own bio block keeps it and skips the shared one, so the
 // signature never appears twice.
 const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang];
+// Section anchors + the contents list for the right rail (OPS-365). `toc.ids`
+// is keyed by block index, so the h2 below and the link above carry the same
+// anchor. Short posts get ids but no list — see TOC_MIN in blog-lib.
+const toc = articleToc(a, t);
 ---
 <article class="post">
   {/* Article header: kicker, serif headline, then a hairline rule with the
@@ -52,10 +56,37 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
       hears the same sentence twice and learns nothing about the image. */}
   <figure><img src={img(post.image)} alt={a.imageAlt || a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>
   <p class="lead">{a.lead}</p>
+  {/* Contents. In the flow here on anything narrower than a desktop — a
+      collapsible block under the standfirst — and lifted into the empty right
+      margin as a sticky rail from 1320px up, where there is room for it beside
+      the measure. One list, two placements: see .toc-rail in blog.css. */}
+  {toc.show && (
+    <div class="toc-rail">
+      <details class="toc" open>
+        <summary>{t.tocTitle}</summary>
+        <nav aria-label={t.tocTitle}>
+          <ol>
+            {toc.items.map((h) => (
+              <li><a href={`#${h.id}`}>{h.text}</a></li>
+            ))}
+          </ol>
+        </nav>
+      </details>
+      {/* Open is the right default in the rail and the wrong one in the flow:
+          fourteen sections between the standfirst and the first paragraph is a
+          wall on a phone. Inline and directly after the element so it runs
+          before paint rather than collapsing in front of the reader — and only
+          ever removes `open`, so with no JS the list is simply expanded. */}
+      <script is:inline>
+        if (window.matchMedia('(max-width: 1319.98px)').matches)
+          document.currentScript.previousElementSibling.removeAttribute('open');
+      </script>
+    </div>
+  )}
   <div class="prose">
-    {(a.blocks || []).map((b) => {
+    {(a.blocks || []).map((b, i) => {
       if (b.t === 'p') return <p set:html={renderInline(b.text, B)} />;
-      if (b.t === 'h') return <h2>{b.text}</h2>;
+      if (b.t === 'h') return <h2 id={toc.ids.get(i)}>{b.text}</h2>;
       if (b.t === 'quote') return <blockquote>{b.text}</blockquote>;
       if (b.t === 'img' || b.t === 'graph')
         return <figure><img src={img(b.src)} alt={b.alt} loading="lazy" width={dim(b.src).w} height={dim(b.src).h} />{b.cap && <figcaption>{b.cap}</figcaption>}</figure>;
@@ -117,7 +148,7 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
   </div>
   {a.faq && a.faq.length > 0 && (
     <section class="faq">
-      <h2>{t.faqTitle}</h2>
+      <h2 id="faq">{t.faqTitle}</h2>
       {a.faq.map((f) => (
         <details>
           <summary>{f.q}</summary>
@@ -153,6 +184,58 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
 {/* A tool page's way out is the tools list, not the Journal it no longer
     appears in (OPS-290) — the reader arrived from Tools & guides. */}
 <div class="post-foot"><a href={isTool ? `${L}resources/` : `${L}blog/`}>{isTool ? t.backToTools : t.backToBlog}</a></div>
+
+{/* Contents: mark the section the reader is in (OPS-365). Progressive
+    enhancement — without it the rail is still a working list of links, so
+    nothing here runs unless the list is actually on the page. The reading
+    progress bar in BaseLayout measures on the same scroll/rAF pattern. */}
+<script is:inline>
+  (function () {
+    var links = document.querySelectorAll('.toc a[href^="#"]');
+    if (!links.length) return;
+
+    var targets = [];
+    for (var i = 0; i < links.length; i++) {
+      // Cyrillic anchors come back from .hash percent-encoded; getElementById
+      // wants the character, not the escape.
+      var el = document.getElementById(decodeURIComponent(links[i].hash.slice(1)));
+      if (el) targets.push({ el: el, link: links[i] });
+    }
+    if (!targets.length) return;
+
+    var current = null;
+    var ticking = false;
+
+    // The heading whose top has most recently passed under the masthead is the
+    // section being read — with sections 56px apart and a tall screen, several
+    // are in view at once, so "last one above the line" is the answer and
+    // "whichever is visible" is not. Above the first heading nothing is
+    // current: highlighting section one while you are still on the standfirst
+    // would be a lie about where you are.
+    function paint() {
+      ticking = false;
+      var found = null;
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i].el.getBoundingClientRect().top <= 110) found = targets[i];
+        else break;
+      }
+      if (found === current) return;
+      if (current) current.link.removeAttribute('aria-current');
+      current = found;
+      if (current) current.link.setAttribute('aria-current', 'true');
+    }
+
+    function onScroll() {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(paint);
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    paint();
+  })();
+</script>
 
 {/* Auto-resize any embedded interactive tool (embed block) to its content height. */}
 <script is:inline>
