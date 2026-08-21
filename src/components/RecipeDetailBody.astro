@@ -18,7 +18,7 @@
 //     sentence. An unparseable line falls back to that sentence.
 import { PUBLISHED } from '../data/recipes.js';
 import {
-  CAT_PAGE, DIET, isHeader, giBand, GI_DISCLAIMER, imagesOf, nutritionStats, NUTRI_LABELS,
+  CAT_PAGE, DIET, isHeader, giBand, GI_DISCLAIMER, imagesOf, nutritionStats, NUTRI_LABELS, heroAlt, stepAlt,
 } from '../data/recipes-lib.js';
 import '../styles/recipes.css';
 
@@ -125,7 +125,7 @@ const rec = {
         <p>{R.why[l]}</p>
       </div>
 
-      <div class="ph rx-hero"><img src={`${IMG}${primary}`} alt={R.title[l]} fetchpriority="high" /></div>
+      <div class="ph rx-hero"><img src={`${IMG}${primary}`} alt={heroAlt(R, l)} fetchpriority="high" /></div>
 
       {/* Timings, yield and GI as one ruled strip. The serves figure keeps its
           id — the scaler rewrites it when you change the portion count. */}
@@ -198,7 +198,7 @@ const rec = {
             <ol class="steps" id="steps">
               {R.method[l].map((st, i) => (
                 <li id={`step-${i + 1}`}><span class="num"></span><span class="step-text">{st}
-                  {R.stepImgs?.[i + 1] && <img class="step-photo" src={`${IMG}${R.stepImgs[i + 1]}`} alt={`${R.title[l]} — ${l === 'ua' ? 'крок' : 'step'} ${i + 1}`} loading="lazy" width="900" height="900" />}
+                  {R.stepImgs?.[i + 1] && <img class="step-photo" src={`${IMG}${R.stepImgs[i + 1]}`} alt={stepAlt(R, l, i + 1)} loading="lazy" width="900" height="900" />}
                 </span></li>
               ))}
             </ol>
@@ -238,7 +238,7 @@ const rec = {
           {others.map((x) => (
             <a class="rcard" href={`${HUB}${x.slug}/`}>
               <div class="thumb">
-                <img src={`${IMG}${x.img}`} alt={x.title[l]} loading="lazy" decoding="async" />
+                <img src={`${IMG}${x.img}`} alt="" loading="lazy" decoding="async" />
                 {typeof x.gi === 'number' && <span class="gi-plaque"><b>{x.gi}</b><span>GI</span></span>}
               </div>
               <div class="body"><div class="title">{x.title[l]}</div><div class="cmeta"><span>{x.meta.serves[l]}</span></div></div>

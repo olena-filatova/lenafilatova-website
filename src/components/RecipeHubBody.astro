@@ -25,6 +25,10 @@ const altHubHref = lang === 'ua' ? `${B}recipes/` : `${B}ua/recipes/`;
 const otherLang = lang === 'ua' ? 'en' : 'ua';
 const R = lang === 'ua' ? `${B}ua/recipes/` : `${B}recipes/`;
 const IMG = `${B}recipes/images/`;
+// Card thumbnails take alt="" on purpose: the caption underneath already names
+// the recipe, so describing the photo too makes a screen reader read every card
+// twice across an 86-card grid. Same convention as the blog hub. The real
+// description lives on the recipe page hero (heroAlt, OPS-361).
 // Missing recipe photos are silent otherwise (OPS-360). Warns once per build
 // even though this component renders for both languages.
 warnRecipeAssetGaps(PUBLISHED, DIMS);
@@ -240,7 +244,7 @@ const T = {
       {orderedRecipes.map((r, i) => (
         <a class={`rcard${i >= INITIAL ? ' hidden' : ''}`} href={`${R}${r.slug}/`} data-cat={r.cat} data-diet={(r.tags || []).join(' ')}>
           <div class="thumb">
-            <img src={`${IMG}${r.img}`} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt={r.title[lang]} />
+            <img src={`${IMG}${r.img}`} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt="" />
             {typeof r.gi === 'number' && <span class="gi-plaque"><b>{r.gi}</b><span>GI</span></span>}
           </div>
           <div class="body">

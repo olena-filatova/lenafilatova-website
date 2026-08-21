@@ -137,6 +137,24 @@ export const GI_DISCLAIMER = {
 // Every recipe carries one primary `img`; `imgs` (optional) drives the slider.
 export const imagesOf = (R) => (Array.isArray(R.imgs) && R.imgs.length ? R.imgs : [R.img]);
 
+// Alt text for the recipe photos (OPS-361). Hand-written per image and per
+// language in `imgAlt` / `stepImgsAlt`; both fall back to the old
+// title-as-alt behaviour, so a recipe without them still renders sensibly.
+//
+// Only two kinds of recipe image are ever displayed: the hero (imagesOf(R)[0])
+// and any step photos. The remaining entries in the `imgs` array are never
+// rendered — they exist solely to populate the Recipe JSON-LD `image` array,
+// which takes URLs and carries no alt — so those files deliberately have none.
+//
+// Card thumbnails on the hub and in "More recipes" take alt="" instead. They
+// sit beside a caption that already names the recipe, so describing the photo
+// as well makes a screen reader announce every card twice across an 86-card
+// grid. That is why the blog hub has always used an empty alt there.
+export const heroAlt = (R, lang) => R.imgAlt?.[lang] || R.title[lang];
+
+export const stepAlt = (R, lang, n) =>
+  R.stepImgsAlt?.[n]?.[lang] || `${R.title[lang]} — ${lang === 'ua' ? 'крок' : 'step'} ${n}`;
+
 // Build-time image check (OPS-360), the recipes counterpart of warnAssetGaps()
 // in blog-lib.js. A recipe photo that is missing shows a broken image on the
 // hub grid — where the photography is the whole draw — and again on the recipe
@@ -185,6 +203,22 @@ export function warnRecipeAssetGaps(recipes, dims) {
     console.warn(
       `[recipes] ${noField.length} published recipe(s) have no \`img\` at all, so the hub card and ` +
         `the recipe hero render an empty <img>: ${noField.join(', ')}`
+    );
+  }
+
+  // Hand-written alt is expected on every published recipe (OPS-361). The
+  // fallback keeps the page valid, but "Lemon and thyme cookies" as the alt for
+  // a photo of lemon and thyme cookies, directly under a heading of the same
+  // name, tells a screen-reader user nothing they have not already heard.
+  const noAlt = recipes.filter((r) => !r.imgAlt?.en || !r.imgAlt?.ua);
+  if (noAlt.length) {
+    console.warn(
+      `[recipes] ${noAlt.length} published recipe(s) have no hand-written \`imgAlt\`, so the hero ` +
+        'falls back to repeating the recipe title. Write it from the photo — what is in the frame, ' +
+        'how it is plated, what it is served in or on.' +
+        (noAlt.length <= 8
+          ? '\n' + noAlt.map((r) => `           ${r.slug}`).join('\n')
+          : `\n         e.g. ${noAlt.slice(0, 3).map((r) => r.slug).join(', ')} …`)
     );
   }
 

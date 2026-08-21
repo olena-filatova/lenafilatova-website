@@ -37,6 +37,7 @@ export const RECIPES = [
   {
     slug: 'beef-skewers-wine-sauce', dateAdded: '2026-07-10', img: '01-beef-skewers-wine-sauce.jpeg', cat: 'main', gi: 12,
     tags: ['gluten-free', 'low-carb'],
+    imgAlt: { en: "Wooden skewers of seared beef, blistered cherry tomatoes, onion and mushroom on a white plate, glossed with dark red wine sauce.", ua: "Дерев’яні шпажки з обсмаженою яловичиною, підпеченими помідорами чері, цибулею та грибами на білій тарілці, политі темним соусом із червоного вина." },
     title: { en: 'Beef Skewers with Red Wine Sauce', ua: 'Шашлики з яловичини з соусом з червоного вина' },
     meta: { prep: { en: '2 hours (incl. marinating)', ua: '2 год (з маринуванням)' }, cook: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     why: { en: "Protein-rich beef with non-starchy vegetables keeps blood sugar stable. The sauce uses only a small amount of natural sweetener — swap honey for erythritol to keep GI minimal.", ua: "Яловичина, багата на білок, у поєднанні з некрохмалистими овочами стабілізує рівень цукру в крові. У соусі — мінімум підсолоджувача, а мед можна замінити еритритолом." },
@@ -48,6 +49,7 @@ export const RECIPES = [
   {
     slug: 'lemon-thyme-cookies', dateAdded: '2026-07-10', img: '02-lemon-thyme-cookies.jpeg', cat: 'snack', gi: 15,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A pile of pale, craggy domed cookies flecked with nuts on a wooden board, thyme sprigs tucked on top and a bunch of fresh thyme behind.", ua: "Купка блідих округлих печив із тріщинками та вкрапленнями горіхів на дерев’яній дошці, зверху гілочки чебрецю, позаду пучок свіжого чебрецю." },
     title: { en: 'Flour-free Lemon & Thyme Cookies', ua: 'Безборошняне печиво з лимоном та чебрецем' },
     meta: { prep: { en: '5 min + 30 min chilling', ua: '5 хв + 30 хв у холодильнику' }, cook: { en: '7 min', ua: '7 хв' }, serves: { en: 'Makes ~20', ua: '~20 штук' } },
     why: { en: 'Made entirely with almond flour instead of wheat — naturally low in carbohydrates and high in protein and healthy fats. Sweetened with stevia, so no blood sugar spike.', ua: 'Готується виключно на мигдалевому борошні замість пшеничного — мало вуглеводів, багато білка та корисних жирів. Підсолоджено стевією — без стрибків цукру.' },
@@ -59,6 +61,7 @@ export const RECIPES = [
   {
     slug: 'cottage-cheese-poppy-bake', dateAdded: '2026-07-10', img: '03-cottage-cheese-poppy-bake.jpeg', cat: 'dessert', gi: 22,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A round curd bake under a thick black poppy-seed crust, one wedge cut and lifted out to show the pale set filling over a nutty base.", ua: "Кругла сирна запіканка під товстою чорною маковою скоринкою; один шматок відрізано й відсунуто, видно світлу сирну начинку на горіховій основі." },
     title: { en: 'Sugar-free Cottage Cheese & Poppy Seed Bake', ua: 'Сирний десерт без цукру з маком' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Serves 2–3', ua: '2–3 порції' } },
     why: { en: 'High-protein cottage cheese with an almond-and-coconut-flour base — no refined sugar, no white flour. Peanut butter adds healthy fats that slow digestion and steady blood sugar.', ua: 'Сир, багатий на білок, з основою з мигдалевого й кокосового борошна — без цукру та білого борошна. Арахісова паста додає корисні жири, що сповільнюють засвоєння.' },
@@ -70,6 +73,7 @@ export const RECIPES = [
   {
     slug: 'avocado-ice-cream', dateAdded: '2026-07-10', img: '04-avocado-ice-cream.jpg', cat: 'dessert', gi: 25,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A soft scoop of pale green ice cream in a white bowl with a dark rim, a spoonful lifted out beside it.", ua: "М’яка порція блідо-зеленого морозива в білій мисці з темним обідком, поруч ложка з невеликою порцією." },
     title: { en: 'Avocado Ice Cream (No Sugar, 5 Ingredients)', ua: 'Морозиво з авокадо (без цукру, 5 інгредієнтів)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: 'Freeze 30 min', ua: 'Заморозка 30 хв' }, serves: { en: 'Serves 1–2', ua: '1–2 порції' } },
     why: { en: 'Avocado is one of the lowest-GI fruits — high in healthy monounsaturated fats with virtually no impact on blood sugar. No added sugar, only 5 ingredients.', ua: 'Авокадо — один із фруктів з найнижчим ГІ: багато корисних жирів і майже нульовий вплив на цукор. Без доданого цукру, лише 5 інгредієнтів.' },
@@ -81,6 +85,7 @@ export const RECIPES = [
   {
     slug: 'almond-pecan-cookies', dateAdded: '2026-07-10', img: '05-almond-pecan-cookies.jpeg', cat: 'snack', gi: 10,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "Golden domed cookies, each pressed with a pecan half, crowded together on a white dish.", ua: "Золотисті округлі печива, у кожне вдавлено половинку пекана, тісно складені на білій тарілці." },
     title: { en: 'Almond & Pecan Cookies (No Flour, No Sugar)', ua: 'Мигдалево-пеканове печиво (без борошна, без цукру)' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '12 min', ua: '12 хв' }, serves: { en: 'Makes ~15', ua: '~15 штук' } },
     why: { en: 'Pure almond flour base with no refined sugar — sweetened only with erythritol. High in protein and healthy fats, low in carbohydrates. A reliable, fail-proof recipe.', ua: 'Основа — чисте мигдалеве борошно без рафінованого цукру, підсолоджене лише еритритолом. Багато білка та корисних жирів, мало вуглеводів. Простий безвідмовний рецепт.' },
@@ -92,6 +97,7 @@ export const RECIPES = [
   {
     slug: 'carrot-cake-philadelphia', dateAdded: '2026-07-10', img: '06-carrot-cake-philadelphia.jpg', cat: 'dessert', gi: 43,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A tall slice of three-layer carrot cake, thick white cream between the layers and over the top, the sponge flecked with grated carrot.", ua: "Високий шматок триярусного морквяного торта з товстим шаром білого крему між коржами та зверху; у бісквіті видно тертану моркву." },
     title: { en: 'Carrot Cake with Philadelphia Cream (Sugar-free)', ua: 'Морквяний кекс без цукру з кремом Філадельфія' },
     seoTitle: { en: "Sugar-free Carrot Cake with Philadelphia Frosting", ua: "Морквяний кекс без цукру з кремом Філадельфія" },
     metaDesc: { en: "Carrot cake made with wholegrain flour and erythritol instead of sugar. The Philadelphia frosting adds protein, bringing the whole slice to GI 43.", ua: "Морквяний кекс на цільнозерновому борошні з еритритолом замість цукру. Крем Філадельфія додає білка — ГІ 43 замість звичайного кексу." },
@@ -104,6 +110,7 @@ export const RECIPES = [
   {
     slug: 'wholegrain-bread', dateAdded: '2026-07-10', img: '07-wholegrain-bread.jpeg', cat: 'bread', gi: 45,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A thick slice of dark wholegrain bread on baking paper, spread with a generous mound of green pesto.", ua: "Товстий скибок темного цільнозернового хліба на пергаменті, щедро намазаний зеленим песто." },
     title: { en: 'Wholegrain Sourdough Bread', ua: 'Цільнозерновий хліб на заквасці' },
     seoTitle: { en: "Wholegrain Sourdough Bread — Lower GI, No Sugar", ua: "Цільнозерновий хліб на заквасці без цукру — ГІ 45" },
     metaDesc: { en: "A slow-fermented wholegrain sourdough with flaxseed. Fermentation and intact bran together give a gentler blood-sugar rise than white bread.", ua: "Хліб на заквасці з цільнозернового та лляного борошна. Ферментація й висівки дають ГІ 45 — мʼякший підйом цукру, ніж від білого хліба." },
@@ -116,6 +123,7 @@ export const RECIPES = [
   {
     slug: 'pearl-barley-kutia', dateAdded: '2026-07-10', img: '08-pearl-barley-kutia.jpeg', cat: 'dessert', gi: 33,
     tags: ['dairy-free', 'vegetarian'],
+    imgAlt: { en: "A white bowl heaped with pearl barley, walnut halves and plump raisins, scattered all over with poppy seeds.", ua: "Біла миска, повна перлової крупи з половинками волоських горіхів і пухкими родзинками, рясно посипана маком." },
     title: { en: 'Pearl Barley Kutia (Traditional Ukrainian Dish)', ua: 'Кутя з перлової крупи (традиційна різдвяна)' },
     meta: { prep: { en: '20 min + soaking', ua: '20 хв + замочування' }, cook: { en: '80 min', ua: '80 хв' }, serves: { en: 'Serves 8–10', ua: '8–10 порцій' } },
     why: { en: 'Pearl barley has one of the lowest GI values of all grains (GI ~25), thanks to its rich beta-glucan content. This traditional Ukrainian dish is naturally suited to blood sugar management.', ua: 'Перлова крупа має один із найнижчих ГІ серед зернових (ГІ ~25) завдяки бета-глюкану. Ця традиційна українська страва природно підходить для контролю цукру.' },
