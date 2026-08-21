@@ -115,6 +115,45 @@ export const TAGS = [
     ],
   },
 
+  {
+    key: 'perimenopause', group: 'hormones',
+    en: 'Perimenopause', ua: 'Перименопауза',
+    posts: [
+      'zone-2-or-hiit-after-40',
+      'creatine-women-over-40',
+      'night-sweats-or-hypo',
+      'clinical-trials-women-over-40',
+      'hrt-type-1-diabetes-evidence',
+      'strength-training-perimenopause-beginners',
+      'perimenopause-uncertainty-us-study',
+      'perimenopause-global-survey-symptom-gap',
+      'cortisol-belly-perimenopause',
+      'hrt-prescriptions-doubling',
+      'perimenopause-diabetes-blood-sugar',
+      'perimenopause-weight-myths',
+    ],
+  },
+  {
+    key: 'stress', group: 'hormones',
+    en: 'Stress', ua: 'Стрес',
+    posts: [
+      'zone-2-or-hiit-after-40',
+      'does-weight-training-raise-blood-sugar',
+      'cortisol-belly-perimenopause',
+      'perimenopause-weight-myths',
+    ],
+  },
+  {
+    key: 'low-mood', group: 'hormones',
+    en: 'Low mood', ua: 'Поганий настрій',
+    posts: [
+      'night-sweats-or-hypo',
+      'menopause-brain-fog-not-dementia',
+      'menopause-cost-workplace-productivity',
+      'perimenopause-global-survey-symptom-gap',
+      'anxiety-brain-fog-top-menopause-symptom',
+    ],
+  },
   // Diabetes
   {
     key: 'type-1-diabetes', group: 'diabetes',
@@ -197,6 +236,38 @@ export const TAGS = [
     ],
   },
 
+  {
+    key: 'diabetes-medication', group: 'diabetes',
+    en: 'Diabetes medication', ua: 'Ліки від діабету',
+    posts: [
+      'glp1-what-we-know',
+      'ada-2026-glp1-type1-diabetes-women',
+      'type-1-diabetes-cure-trials',
+      'islet-transplant-insulin-independence',
+      'type-2-diabetes-research',
+    ],
+  },
+  {
+    key: 'highs', group: 'diabetes',
+    en: 'Highs', ua: 'Гіпер',
+    posts: [
+      'alcohol-and-blood-sugar',
+      'eating-around-training-blood-sugar',
+      'does-weight-training-raise-blood-sugar',
+      'walking-after-meals-blood-sugar',
+    ],
+  },
+  {
+    key: 'glucose-variability', group: 'diabetes',
+    en: 'Unstable blood sugars', ua: 'Нестабільні цукри',
+    posts: [
+      'alcohol-and-blood-sugar',
+      'night-sweats-or-hypo',
+      'eating-around-training-blood-sugar',
+      'does-weight-training-raise-blood-sugar',
+      'perimenopause-diabetes-blood-sugar',
+    ],
+  },
   // Weight & GLP-1
   {
     key: 'glp1', group: 'weight',
@@ -234,6 +305,15 @@ export const TAGS = [
     ],
   },
 
+  {
+    key: 'belly-fat', group: 'weight',
+    en: 'Belly fat', ua: 'Живіт',
+    posts: [
+      'glp1-weight-loss-drugs-fat-not-muscle',
+      'cortisol-belly-perimenopause',
+      'perimenopause-weight-myths',
+    ],
+  },
   // Food
   {
     key: 'protein', group: 'food',
@@ -270,7 +350,7 @@ export const TAGS = [
   },
   {
     key: 'fibre', group: 'food',
-    en: 'Fibre', ua: 'Клітковина',
+    en: 'Fibre', ua: 'Харчові волокна',
     posts: [
       'fibre-deficiency-gut-inflammation',
       'kefir-fibre-synbiotic-inflammation',
@@ -361,6 +441,17 @@ export const TAGS = [
     ],
   },
 
+  {
+    key: 'insomnia', group: 'movement',
+    en: 'Insomnia', ua: 'Безсоння',
+    posts: [
+      'night-sweats-or-hypo',
+      'menopause-brain-fog-not-dementia',
+      'perimenopause-global-survey-symptom-gap',
+      'anxiety-brain-fog-top-menopause-symptom',
+      'sleep-insulin-resistance-women',
+    ],
+  },
   // Skin & hair
   {
     key: 'collagen', group: 'skin',
@@ -396,7 +487,7 @@ export const TAGS = [
   // How to read research
   {
     key: 'trial-design', group: 'research',
-    en: 'Trial design', ua: 'Як читати дослідження',
+    en: 'Clinical trials', ua: 'Клінічні випробування',
     posts: [
       'glp1-what-we-know',
       'creatine-women-over-40',
