@@ -1,0 +1,122 @@
+---
+// "There is a Ukrainian version of this page" (OPS-369).
+//
+// The hreflang change tells Google to send Russian-speaking searchers to the
+// Ukrainian page. This is the other half: what happens to someone who lands on
+// an English page anyway — from a shared link, or a search where Google took
+// the hint as a hint. Shown only on English pages, and only to a browser set to
+// Ukrainian or Russian.
+//
+// A LINK, NOT A REDIRECT. Sending people somewhere automatically on the basis
+// of browser language is the wrong answer: Google advises against it, it hides
+// one language of the site from a crawler, and it overrules a reader who
+// genuinely wanted English — a Ukrainian living in London may well have set
+// their browser to Ukrainian and still be reading in English on purpose.
+//
+// WRITTEN IN UKRAINIAN, INCLUDING FOR RUSSIAN-SPEAKING VISITORS. A Russian
+// speaker reads this line without trouble, and the alternative — shipping
+// Russian copy on a Ukrainian health brand — is an editorial decision, not a
+// technical one. Ukrainian is what the page it offers is written in anyway.
+const { uaHref } = Astro.props;
+---
+<div class="lang-suggest" id="langSuggest" hidden>
+  <div class="ls-inner">
+    <p>Є українська версія цієї сторінки.</p>
+    <a href={uaHref} id="langSuggestGo">Читати українською</a>
+    <button type="button" id="langSuggestClose" aria-label="Закрити">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+  </div>
+</div>
+
+{/* Inline and immediately after the markup, so the bar is revealed during parse
+    rather than appearing a moment later and pushing the page down (CLS). */}
+<script is:inline>
+  (function () {
+    var bar = document.getElementById('langSuggest');
+    if (!bar) return;
+
+    var KEY = 'lf_lang_hint';
+    function seen() {
+      try { return localStorage.getItem(KEY) === 'dismissed'; } catch (e) { return false; }
+    }
+    function remember() {
+      try { localStorage.setItem(KEY, 'dismissed'); } catch (e) { /* private mode — just don't remember */ }
+    }
+    if (seen()) return;
+
+    // navigator.languages is the full ordered list the reader actually set;
+    // navigator.language is only the first of them, and a browser whose primary
+    // is English but whose second is Ukrainian is exactly the case this is for.
+    var langs = navigator.languages && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language || ''];
+    var wants = langs.some(function (l) { return /^(uk|ru)\b/i.test(l); });
+    if (!wants) return;
+
+    bar.hidden = false;
+
+    document.getElementById('langSuggestClose').addEventListener('click', function () {
+      bar.hidden = true;
+      remember();
+    });
+    // Taking the offer counts as answering it: coming back to an English page
+    // later and being asked again would be nagging.
+    document.getElementById('langSuggestGo').addEventListener('click', remember);
+  })();
+</script>
+
+<style>
+  /* display:flex below would beat the hidden attribute's UA display:none and
+     leave the bar on screen after it is closed — same trap the cookie bar
+     documents. Keep this first. */
+  .lang-suggest[hidden] { display: none !important; }
+  /* A strip above the masthead that scrolls away with the page: it is an offer
+     made once, not chrome. Ink ground so it reads as a system line rather than
+     as content. */
+  .lang-suggest {
+    display: block;
+    background: var(--ink);
+    color: #F1E6EE;
+    padding: 9px 24px;
+  }
+  .ls-inner {
+    width: 100%; max-width: 1180px; margin: 0 auto;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px;
+  }
+  .lang-suggest p {
+    margin: 0; flex: 1 1 auto; min-width: 0;
+    font-family: var(--font-body); font-size: var(--fs-fine); line-height: 1.5;
+  }
+  .lang-suggest a {
+    color: #fff; text-decoration: none; flex: none;
+    font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 800;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    border-bottom: 2px solid var(--accent); padding-bottom: 2px;
+    transition: border-color .2s ease;
+  }
+  .lang-suggest a:hover { border-bottom-color: #fff; }
+  .lang-suggest a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+  .lang-suggest button {
+    flex: none; border: 0; background: transparent; color: #C9B2C2;
+    /* 32px is under the 44px touch target, but this is the dismiss on an
+       offer — the whole bar is dismissible by ignoring it, and a 44px box
+       here would make the closing X the largest thing in the strip. */
+    width: 32px; height: 32px; padding: 6px; cursor: pointer;
+    display: grid; place-items: center;
+    transition: color .2s ease;
+  }
+  .lang-suggest button svg { width: 100%; height: 100%; }
+  .lang-suggest button:hover { color: #fff; }
+  .lang-suggest button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+  @media (max-width: 560px) {
+    .lang-suggest { padding: 9px 16px; }
+    .ls-inner { gap: 2px 12px; }
+    .lang-suggest p { flex: 1 1 100%; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lang-suggest a, .lang-suggest button { transition: none; }
+  }
+</style>

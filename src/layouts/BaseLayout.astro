@@ -6,6 +6,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Newsletter from '../components/Newsletter.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import LangSuggest from '../components/LangSuggest.astro';
 import DIMS from '../data/image-dims.json';
 import '../styles/global.css';
 
@@ -137,6 +138,11 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     )}
   </head>
   <body>
+    {/* Offer the Ukrainian page to a Ukrainian- or Russian-language browser that
+        landed on the English one (OPS-369). Above the masthead so it scrolls
+        away — it is an offer made once, not chrome. English pages only: the
+        Ukrainian page has nothing to suggest. */}
+    {alternates && lang === 'en' && <LangSuggest uaHref={`${B.replace(/\/$/, '')}${slashed(alternates.ua)}`} />}
     {readingProgress && <div class="reading-progress" id="readingProgress" aria-hidden="true" hidden></div>}
     <Header lang={lang} showList={showList} enHref={enHref} uaHref={uaHref} />
     <main><slot /></main>
