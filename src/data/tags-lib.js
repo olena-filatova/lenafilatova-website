@@ -60,14 +60,43 @@ export const tagUrl = (lang, key) => SITE + tagPath(lang, key);
 
 /**
  * The vocabulary, resolved against the real posts and ordered for display.
- * Throws on a slug that no longer exists — a renamed or deleted post would
- * otherwise quietly shrink a tag page instead of failing the build.
+ *
+ * A post can be attached to a tag from EITHER END, and both are merged here:
+ *
+ *   tags.js   a tag lists its slugs      — for working on the vocabulary, where
+ *                                          you want one tag's whole set in view
+ *   blog.js   a post lists its tag keys  — for writing a post, where the tags
+ *                                          belong next to the thing they describe
+ *
+ * The second is the one to reach for when publishing: `tags: ['perimenopause',
+ * 'stress']` on the post, and the cloud, the tag pages, the "Filed under" line
+ * and the sitemap all follow from it with nothing else to edit. The first stays
+ * because retagging thirty posts at once is unbearable a post at a time — and
+ * because keeping the list of tags out of blog.js is what stops a tagging edit
+ * from landing in the middle of the file every open post PR is touching.
+ *
+ * Throws on a slug or a key that does not exist. A renamed post would otherwise
+ * quietly shrink a tag page, and a mistyped key on a post would silently tag it
+ * nothing at all — both fail the build instead.
  */
 export function resolveTags(posts) {
   const bySlug = new Map(posts.map((p) => [p.slug, p]));
+  const keys = new Set(TAGS.map((t) => t.key));
   const order = new Map(TAG_GROUPS.map((g, i) => [g.key, i]));
+
+  for (const p of posts) {
+    for (const key of p.tags || []) {
+      if (!keys.has(key)) {
+        throw new Error(
+          `blog.js: post "${p.slug}" is tagged "${key}", which is not a tag in tags.js. ` +
+            `Fix the key, or add the tag to src/data/tags.js.`
+        );
+      }
+    }
+  }
+
   return TAGS.map((t) => {
-    const resolved = t.posts.map((slug) => {
+    const fromTag = t.posts.map((slug) => {
       const post = bySlug.get(slug);
       if (!post) {
         throw new Error(
@@ -77,13 +106,19 @@ export function resolveTags(posts) {
       }
       return post;
     });
-    return { ...t, resolved, count: resolved.length };
+    const fromPost = posts.filter((p) => (p.tags || []).includes(t.key));
+    // Union, newest first. A post named at both ends is one post, not two.
+    const resolved = [...new Set([...fromTag, ...fromPost])].sort((a, b) =>
+      b.date.localeCompare(a.date)
+    );
+    return { ...t, resolved, slugs: resolved.map((p) => p.slug), count: resolved.length };
   }).sort((a, b) => (order.get(a.group) ?? 99) - (order.get(b.group) ?? 99) || b.count - a.count);
 }
 
 /** The tags one post carries, in the vocabulary's own order. */
 export function tagsOfPost(post, posts) {
-  return resolveTags(posts).filter((t) => t.posts.includes(post.slug));
+  // `slugs`, not `posts` — the latter is only the half declared in tags.js.
+  return resolveTags(posts).filter((t) => t.slugs.includes(post.slug));
 }
 
 /**
@@ -152,7 +187,9 @@ export function warnUntagged(posts) {
   if (warnedUntagged) return;
   warnedUntagged = true;
   const tagged = new Set(TAGS.flatMap((t) => t.posts));
-  const missing = posts.filter((p) => !p.comingSoon && !tagged.has(p.slug));
+  const missing = posts.filter(
+    (p) => !p.comingSoon && !tagged.has(p.slug) && !(p.tags || []).length
+  );
   if (missing.length) {
     console.warn(
       `[tags] ${missing.length} post(s) carry no topic tag, so they are absent from ` +
