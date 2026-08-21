@@ -42,6 +42,7 @@ export const UI = {
     backToBlog: '← All articles',
     backToTools: '← All tools',
     relatedTitle: 'Keep reading',
+    tocTitle: 'In this article',
   },
   ua: {
     hubKicker: 'Журнал',
@@ -64,6 +65,7 @@ export const UI = {
     backToBlog: '← Усі статті',
     backToTools: '← Усі інструменти',
     relatedTitle: 'Читайте також',
+    tocTitle: 'У цій статті',
   },
 };
 
@@ -100,6 +102,49 @@ export function renderInline(text, base = '/') {
     }
     return `<a href="${href}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
   });
+}
+
+// --- article contents (OPS-365) ---------------------------------------------
+// The section list that rides in the right margin of a long article. Anchors
+// are slugged from the heading itself rather than numbered, so a link someone
+// copies out of the rail still says what it points at — in Ukrainian too, which
+// is why the character class is \p{L} and not [a-z].
+const slugify = (s) =>
+  String(s)
+    .toLowerCase()
+    .replace(/['\u2019"\u201c\u201d]/g, '')   // apostrophes join the word, they don't break it
+    .replace(/[^\p{L}\p{N}]+/gu, '-')
+    .replace(/^-+|-+$/g, '');
+
+// Below this a contents list is furniture rather than navigation: the news
+// digests are one section long, and half the archive is a news digest.
+export const TOC_MIN = 3;
+
+// Returns the list plus the id for each heading, keyed by its index in
+// `blocks` — the article template needs both, and they have to agree or every
+// link in the rail is a dead anchor.
+export function articleToc(a, t) {
+  const ids = new Map();
+  const items = [];
+  const used = new Map();
+  (a.blocks || []).forEach((b, i) => {
+    if (b.t !== 'h') return;
+    // A heading of nothing but punctuation slugs to '' — fall back to its
+    // position so the anchor is still unique and still resolves.
+    const base = slugify(b.text) || `section-${items.length + 1}`;
+    // Two sections in one article can legitimately share a heading
+    // ("What the study found"); the second one gets -2.
+    const n = (used.get(base) || 0) + 1;
+    used.set(base, n);
+    const id = n === 1 ? base : `${base}-${n}`;
+    ids.set(i, id);
+    items.push({ id, text: b.text });
+  });
+  const show = items.length >= TOC_MIN;
+  // The FAQ is a section of the article like the others — it just isn't in the
+  // block list, so it has to be added by hand.
+  if (show && a.faq && a.faq.length) items.push({ id: 'faq', text: t.faqTitle });
+  return { ids, items, show };
 }
 
 // Related posts for the bottom of an article: posts sharing a category come

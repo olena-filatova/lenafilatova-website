@@ -325,6 +325,9 @@
   font-size: var(--fs-h2); font-weight: 400; line-height: 1.15;
   letter-spacing: -0.02em; margin: 56px 0 16px; padding-top: 22px;
   border-top: 1px solid var(--rule); text-wrap: balance;
+  /* The masthead is sticky at 72px: a contents link that lands a heading at
+     scrollTop lands it underneath the header instead. */
+  scroll-margin-top: 96px;
 }
 .post .prose h2:first-child { margin-top: 8px; }
 
@@ -450,6 +453,7 @@
 
 /* --- FAQ --- */
 .post .faq { margin: var(--sp-section) 0 8px; border-top: 1.5px solid var(--ink); padding-top: 20px; }
+.post .faq h2 { scroll-margin-top: 96px; }
 .post .faq h2 { font-size: var(--fs-h2); font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 8px; }
 .post .faq details { border-bottom: 1px solid var(--line); padding: 0; }
 .post .faq summary {
@@ -565,4 +569,85 @@
 
 @media (prefers-reduced-motion: reduce) {
   .post .card, .rel-card h3 { transition: none; }
+}
+
+
+/* --- contents (OPS-365) ----------------------------------------------------
+   On a 1400px screen a 640px measure leaves ~380px of blank margin either
+   side, and a 2,500-word article gives the reader no way to see its shape or
+   get back to a section they have scrolled past. The contents list takes that
+   margin.
+
+   It is absolutely positioned out of the column rather than laid out beside it
+   on purpose: a grid would pull the measure off the page's centre line, and
+   the article would then no longer line up with the masthead above it or the
+   related cards below. This way nothing about the reading column moves — the
+   list simply appears in space that was already empty.
+
+   Below 1320px there is no such space (the figures already break out 60px past
+   the measure), so it falls back to what it is in the markup: a collapsible
+   block under the standfirst. Posts under three sections don't get one at all
+   — see TOC_MIN in blog-lib.js. */
+.toc-rail { margin: 0 0 34px; }
+.toc {
+  border-top: 1.5px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.toc > summary {
+  list-style: none; cursor: pointer; position: relative;
+  /* 14px of padding either side of an 18px caps line clears the 44px touch
+     target; the FAQ rows below are set the same way. */
+  padding: 14px 28px 14px 0;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink);
+}
+.toc > summary::-webkit-details-marker { display: none; }
+/* The only sign the block opens and closes at all, borrowed from the FAQ rows.
+   Kept at every width: in the rail the marker is the one thing that says the
+   title is a control, and hiding it there would make the list look as though
+   it had vanished when someone clicked. */
+.toc > summary::after {
+  content: '\2013'; position: absolute; right: 2px; top: 50%; transform: translateY(-50%);
+  font-family: var(--font-head); font-size: 20px; line-height: 1; color: var(--accent);
+}
+.toc:not([open]) > summary::after { content: '+'; }
+.toc > summary:hover { color: var(--accent); }
+.toc > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.toc ol { list-style: none; margin: 0; padding: 2px 0 12px; counter-reset: toc; }
+.toc li { counter-increment: toc; }
+/* Numbered, because the list is the running order of the article and the
+   numbers are what make that legible at a glance. */
+.toc a {
+  display: flex; gap: 11px; padding: 6px 0; text-decoration: none;
+  font-family: var(--font-body); font-size: var(--fs-fine); line-height: 1.5;
+  color: var(--muted); transition: color .2s ease;
+}
+.toc a::before {
+  content: counter(toc, decimal-leading-zero);
+  flex: none; font-weight: 800; font-size: 10px; letter-spacing: 0.06em;
+  color: var(--accent); padding-top: 3px;
+}
+.toc a:hover { color: var(--accent); }
+.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* The section currently under the reader, set by the observer at the foot of
+   BlogPostBody. Weight and colour only — no bar or background, so the rail
+   stays a list rather than becoming a widget. */
+.toc a[aria-current='true'] { color: var(--ink); font-weight: 700; }
+
+@media (min-width: 1320px) {
+  .post { position: relative; }
+  .toc-rail {
+    position: absolute; top: 0; left: calc(100% + 72px);
+    width: 220px; height: 100%; margin: 0;
+  }
+  .toc {
+    position: sticky; top: 96px; border-bottom: 0;
+    /* A 13-section article is taller than the viewport; the rail scrolls
+       inside itself rather than running off the bottom of the screen. */
+    max-height: calc(100vh - 132px); overflow-y: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toc a { transition: none; }
 }
