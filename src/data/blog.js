@@ -5714,7 +5714,7 @@ export const POSTS = [
       "diabetes"
     ],
     "en": {
-      "cat": "Perimenopause & Diabetes",
+      "cat": "Diabetes & Perimenopause",
       "imageAlt": "A nurse taking a woman’s blood pressure at a clinic.",
       "title": "Clinical trials for women over 40: 19 studies recruiting right now",
       "seoTitle": "Clinical Trials for Women Over 40: Recruiting Now",
@@ -6091,7 +6091,7 @@ export const POSTS = [
       ]
     },
     "ua": {
-      "cat": "Перименопауза і діабет",
+      "cat": "Діабет і перименопауза",
       "imageAlt": "Медсестра вимірює жінці артеріальний тиск у клініці.",
       "title": "Клінічні дослідження для жінок після 40: 19 наборів, які тривають зараз",
       "seoTitle": "Клінічні дослідження для жінок після 40: набір",

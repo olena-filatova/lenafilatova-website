@@ -177,6 +177,38 @@
      than the <h3>s nested inside it. Same device, same tracking, one size up. */
   --fs-label: 10.5px;      /* kicker: sits above a heading, never is one */
   --fs-label-head: 16px;   /* the device carrying a real <h2> */
+  /* ── Editorial type scale (OPS-358) ────────────────────────────────────
+     The article page had grown fifteen distinct font-sizes, five of them on
+     the SAME uppercase-caps device (10, 10.5, 11, 12.5, 13px) and four on
+     the same secondary-text device (14.5, 15, 15.5, 16.5px). Differences of
+     half a pixel are not a design decision — they are drift, and they make
+     a page of blocks that were each drawn on their own read as a page of
+     blocks that were each drawn on their own.
+
+     Every step below is a ROLE, not a size. Reach for the role; only add a
+     step here if the page genuinely needs a size the scale does not have.
+     ────────────────────────────────────────────────────────────────────── */
+  --fs-display: clamp(33px, 5.4vw, 52px); /* the H1 on any page that has one */
+  --fs-h2: clamp(24px, 3.2vw, 30px);      /* every section head inside an article */
+  --fs-quote: clamp(21px, 2.6vw, 25px);   /* pull quote — a break in the column */
+  --fs-lead: 21px;        /* standfirst under the headline */
+  --fs-card-title: 20px;  /* a headline inside a card: hub, featured, related */
+  --fs-body: 19px;        /* the reading column itself */
+  --fs-lede: 18px;        /* serif hub standfirst / excerpt */
+  --fs-title: 18px;       /* serif row title: a source claim, a resource name */
+  --fs-sub: 16.5px;       /* FAQ, CTA body, sign-off — secondary to the column */
+  --fs-small: 15.5px;     /* captions, table cells, row descriptions */
+  --fs-card-title-s: 17px;/* card headline once the grid collapses to rows */
+  --fs-fine: 13px;        /* disclaimer, citation line, button caps */
+  /* Muted text on the ink panel (article CTA, About CTA, newsletter band).
+     Was spelled #E6D9E2 in three places; the panels are the same panel. */
+  --on-ink: #E6D9E2;
+  /* Vertical rhythm inside the reading column (OPS-358). Sibling blocks used
+     to be spaced at 32 / 36 / 38 / 40 / 44 / 48 / 52px — seven values for
+     three jobs. Three now: a block in the flow, a break in it, a new part. */
+  --sp-block: 36px;    /* figure, table, source list, resource cards, embed */
+  --sp-break: 44px;    /* pull quote, sign-off — air on both sides */
+  --sp-section: 52px;  /* FAQ, CTA — the article's closing furniture */
   /* Sticky header sits on a translucent copy of the paper. rgba can't be
      derived from a hex custom property without color-mix(), so this is
      spelled out — keep it in step with --bg if the paper ever changes. */
@@ -548,7 +580,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .ab-cta { padding: 56px 0 72px; }
 .ab-cta .box { background: var(--ink); padding: 36px 28px; display: grid; gap: 24px; }
 .ab-cta h2 { color: #fff; font-size: clamp(26px, 3.4vw, 34px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
-.ab-cta p { color: #E6D9E2; margin: 0; max-width: 46ch; }
+.ab-cta p { color: var(--on-ink); margin: 0; max-width: 46ch; }
 .ab-cta .btn { justify-self: start; }
 
 /* --- contact (OPS-277) ---------------------------------------------------
@@ -716,7 +748,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    homepage (which passes .ed-nl for spacing only). Square ink panel. */
 .newsletter .nl-box { background: var(--ink); border-radius: 0; padding: 48px; text-align: center; }
 .newsletter h2 { color: #fff; }
-.newsletter .section-sub { color: #E6D9E2; margin: 0 auto 26px; }
+.newsletter .section-sub { color: var(--on-ink); margin: 0 auto 26px; }
 .nlform { max-width: 520px; margin: 0 auto; }
 .nl-row { display: flex; gap: 10px; }
 .nl-row input { flex: 1; padding: 13px 16px; border-radius: 0; border: 0; font-family: var(--font-body); font-size: 15px; transition: box-shadow .2s ease; }
