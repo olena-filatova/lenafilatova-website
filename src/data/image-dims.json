@@ -209,5 +209,12 @@
   "/recipes/images/96-pumpkin-ice-cream.jpg": { "w": 1024, "h": 355 },
   "/recipes/images/97-pumpkin-yogurt.jpg": { "w": 1024, "h": 356 },
   "/recipes/images/98-pumpkin-puree.jpg": { "w": 1024, "h": 356 },
-  "/recipes/images/99-granola-bars-blueberry.jpg": { "w": 1024, "h": 378 }
+  "/recipes/images/99-granola-bars-blueberry.jpg": { "w": 1024, "h": 378 },
+  "/recipes/images/01-beef-skewers-wine-sauce.jpeg": { "w": 1024, "h": 576 },
+  "/recipes/images/02-lemon-thyme-cookies.jpeg": { "w": 1024, "h": 1365 },
+  "/recipes/images/03-cottage-cheese-poppy-bake.jpeg": { "w": 1024, "h": 768 },
+  "/recipes/images/05-almond-pecan-cookies.jpeg": { "w": 1024, "h": 1024 },
+  "/recipes/images/07-wholegrain-bread.jpeg": { "w": 1024, "h": 576 },
+  "/recipes/images/08-pearl-barley-kutia.jpeg": { "w": 1024, "h": 1024 },
+  "/recipes/images/10-lime-almond-dessert.jpeg": { "w": 1024, "h": 768 }
 }

@@ -137,6 +137,105 @@ export const GI_DISCLAIMER = {
 // Every recipe carries one primary `img`; `imgs` (optional) drives the slider.
 export const imagesOf = (R) => (Array.isArray(R.imgs) && R.imgs.length ? R.imgs : [R.img]);
 
+// Alt text for the recipe photos (OPS-361). Hand-written per image and per
+// language in `imgAlt` / `stepImgsAlt`; both fall back to the old
+// title-as-alt behaviour, so a recipe without them still renders sensibly.
+//
+// Only two kinds of recipe image are ever displayed: the hero (imagesOf(R)[0])
+// and any step photos. The remaining entries in the `imgs` array are never
+// rendered — they exist solely to populate the Recipe JSON-LD `image` array,
+// which takes URLs and carries no alt — so those files deliberately have none.
+//
+// Card thumbnails on the hub and in "More recipes" take alt="" instead. They
+// sit beside a caption that already names the recipe, so describing the photo
+// as well makes a screen reader announce every card twice across an 86-card
+// grid. That is why the blog hub has always used an empty alt there.
+export const heroAlt = (R, lang) => R.imgAlt?.[lang] || R.title[lang];
+
+export const stepAlt = (R, lang, n) =>
+  R.stepImgsAlt?.[n]?.[lang] || `${R.title[lang]} — ${lang === 'ua' ? 'крок' : 'step'} ${n}`;
+
+// Build-time image check (OPS-360), the recipes counterpart of warnAssetGaps()
+// in blog-lib.js. A recipe photo that is missing shows a broken image on the
+// hub grid — where the photography is the whole draw — and again on the recipe
+// page and in its Recipe JSON-LD `image` array.
+//
+// Checks `image-dims.json` rather than the filesystem, so an absent key means
+// either the file was never added or the manifest was not regenerated after
+// adding it. Both need fixing before deploy, so one check covers both and this
+// module stays free of node:fs. Regenerate with scripts/generate-image-dims.sh
+// in a CLEAN worktree.
+//
+// Runs over PUBLISHED, not RECIPES: 64 of the 150 are hidden drafts and would
+// otherwise drown the real signal.
+//
+// Deliberately NOT checked here: alt text. Recipe images render with
+// `alt={R.title[lang]}`, and "Lemon and thyme cookies" is a fair description of
+// a photo of lemon and thyme cookies — unlike a blog headline, which is often a
+// question or a claim and describes nothing (that gap is OPS-360's other half).
+//
+// PHOTOS ARE SUPPLIED BY HAND, like every image on this site — the fix for a
+// missing one is to ask Lena for the file, never to generate a substitute.
+
+let warnedRecipeAssets = false;
+
+export function warnRecipeAssetGaps(recipes, dims) {
+  if (warnedRecipeAssets) return;
+  warnedRecipeAssets = true;
+
+  const noField = [];
+  const missing = new Map(); // file -> slugs, so a shared photo is reported once
+
+  for (const r of recipes) {
+    const files = [...imagesOf(r), ...Object.values(r.stepImgs || {})];
+    for (const f of files) {
+      if (!f) {
+        noField.push(r.slug);
+        continue;
+      }
+      if (dims[`/recipes/images/${f}`]) continue;
+      if (!missing.has(f)) missing.set(f, []);
+      missing.get(f).push(r.slug);
+    }
+  }
+
+  if (noField.length) {
+    console.warn(
+      `[recipes] ${noField.length} published recipe(s) have no \`img\` at all, so the hub card and ` +
+        `the recipe hero render an empty <img>: ${noField.join(', ')}`
+    );
+  }
+
+  // Hand-written alt is expected on every published recipe (OPS-361). The
+  // fallback keeps the page valid, but "Lemon and thyme cookies" as the alt for
+  // a photo of lemon and thyme cookies, directly under a heading of the same
+  // name, tells a screen-reader user nothing they have not already heard.
+  const noAlt = recipes.filter((r) => !r.imgAlt?.en || !r.imgAlt?.ua);
+  if (noAlt.length) {
+    console.warn(
+      `[recipes] ${noAlt.length} published recipe(s) have no hand-written \`imgAlt\`, so the hero ` +
+        'falls back to repeating the recipe title. Write it from the photo — what is in the frame, ' +
+        'how it is plated, what it is served in or on.' +
+        (noAlt.length <= 8
+          ? '\n' + noAlt.map((r) => `           ${r.slug}`).join('\n')
+          : `\n         e.g. ${noAlt.slice(0, 3).map((r) => r.slug).join(', ')} …`)
+    );
+  }
+
+  if (missing.size) {
+    console.warn(
+      `[recipes] ${missing.size} recipe photo(s) are not in image-dims.json, so each is either ` +
+        'missing from public/recipes/images or the manifest is stale. A missing file shows a ' +
+        'broken image on the hub grid, on the recipe page and in its Recipe JSON-LD:\n' +
+        [...missing]
+          .map(([f, slugs]) => `           ${f}  (${slugs.join(', ')})`)
+          .join('\n') +
+        '\n         Fix: if the files are there, run scripts/generate-image-dims.sh in a CLEAN ' +
+        'worktree. If not, ask Lena for the photo — images are supplied by hand, never generated.'
+    );
+  }
+}
+
 /* ---------- JSON-LD Recipe (ported from build-recipe-pages.mjs) ---------- */
 const CAT_EN = { main: 'Main course', dessert: 'Dessert', baking: 'Baking', snack: 'Snack', breakfast: 'Breakfast', bread: 'Bread', sauce: 'Sauce', drink: 'Drink' };
 const DIET_EN = { 'sugar-free': 'Sugar-free', 'gluten-free': 'Gluten-free', 'low-carb': 'Low carb', vegetarian: 'Vegetarian', 'dairy-free': 'Dairy-free' };

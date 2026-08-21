@@ -37,6 +37,7 @@ export const RECIPES = [
   {
     slug: 'beef-skewers-wine-sauce', dateAdded: '2026-07-10', img: '01-beef-skewers-wine-sauce.jpeg', cat: 'main', gi: 12,
     tags: ['gluten-free', 'low-carb'],
+    imgAlt: { en: "Wooden skewers of seared beef, blistered cherry tomatoes, onion and mushroom on a white plate, glossed with dark red wine sauce.", ua: "Дерев’яні шпажки з обсмаженою яловичиною, підпеченими помідорами чері, цибулею та грибами на білій тарілці, политі темним соусом із червоного вина." },
     title: { en: 'Beef Skewers with Red Wine Sauce', ua: 'Шашлики з яловичини з соусом з червоного вина' },
     meta: { prep: { en: '2 hours (incl. marinating)', ua: '2 год (з маринуванням)' }, cook: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     why: { en: "Protein-rich beef with non-starchy vegetables keeps blood sugar stable. The sauce uses only a small amount of natural sweetener — swap honey for erythritol to keep GI minimal.", ua: "Яловичина, багата на білок, у поєднанні з некрохмалистими овочами стабілізує рівень цукру в крові. У соусі — мінімум підсолоджувача, а мед можна замінити еритритолом." },
@@ -48,6 +49,7 @@ export const RECIPES = [
   {
     slug: 'lemon-thyme-cookies', dateAdded: '2026-07-10', img: '02-lemon-thyme-cookies.jpeg', cat: 'snack', gi: 15,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A pile of pale, craggy domed cookies flecked with nuts on a wooden board, thyme sprigs tucked on top and a bunch of fresh thyme behind.", ua: "Купка блідих округлих печив із тріщинками та вкрапленнями горіхів на дерев’яній дошці, зверху гілочки чебрецю, позаду пучок свіжого чебрецю." },
     title: { en: 'Flour-free Lemon & Thyme Cookies', ua: 'Безборошняне печиво з лимоном та чебрецем' },
     meta: { prep: { en: '5 min + 30 min chilling', ua: '5 хв + 30 хв у холодильнику' }, cook: { en: '7 min', ua: '7 хв' }, serves: { en: 'Makes ~20', ua: '~20 штук' } },
     why: { en: 'Made entirely with almond flour instead of wheat — naturally low in carbohydrates and high in protein and healthy fats. Sweetened with stevia, so no blood sugar spike.', ua: 'Готується виключно на мигдалевому борошні замість пшеничного — мало вуглеводів, багато білка та корисних жирів. Підсолоджено стевією — без стрибків цукру.' },
@@ -59,6 +61,7 @@ export const RECIPES = [
   {
     slug: 'cottage-cheese-poppy-bake', dateAdded: '2026-07-10', img: '03-cottage-cheese-poppy-bake.jpeg', cat: 'dessert', gi: 22,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A round curd bake under a thick black poppy-seed crust, one wedge cut and lifted out to show the pale set filling over a nutty base.", ua: "Кругла сирна запіканка під товстою чорною маковою скоринкою; один шматок відрізано й відсунуто, видно світлу сирну начинку на горіховій основі." },
     title: { en: 'Sugar-free Cottage Cheese & Poppy Seed Bake', ua: 'Сирний десерт без цукру з маком' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Serves 2–3', ua: '2–3 порції' } },
     why: { en: 'High-protein cottage cheese with an almond-and-coconut-flour base — no refined sugar, no white flour. Peanut butter adds healthy fats that slow digestion and steady blood sugar.', ua: 'Сир, багатий на білок, з основою з мигдалевого й кокосового борошна — без цукру та білого борошна. Арахісова паста додає корисні жири, що сповільнюють засвоєння.' },
@@ -70,6 +73,7 @@ export const RECIPES = [
   {
     slug: 'avocado-ice-cream', dateAdded: '2026-07-10', img: '04-avocado-ice-cream.jpg', cat: 'dessert', gi: 25,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A soft scoop of pale green ice cream in a white bowl with a dark rim, a spoonful lifted out beside it.", ua: "М’яка порція блідо-зеленого морозива в білій мисці з темним обідком, поруч ложка з невеликою порцією." },
     title: { en: 'Avocado Ice Cream (No Sugar, 5 Ingredients)', ua: 'Морозиво з авокадо (без цукру, 5 інгредієнтів)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: 'Freeze 30 min', ua: 'Заморозка 30 хв' }, serves: { en: 'Serves 1–2', ua: '1–2 порції' } },
     why: { en: 'Avocado is one of the lowest-GI fruits — high in healthy monounsaturated fats with virtually no impact on blood sugar. No added sugar, only 5 ingredients.', ua: 'Авокадо — один із фруктів з найнижчим ГІ: багато корисних жирів і майже нульовий вплив на цукор. Без доданого цукру, лише 5 інгредієнтів.' },
@@ -81,6 +85,7 @@ export const RECIPES = [
   {
     slug: 'almond-pecan-cookies', dateAdded: '2026-07-10', img: '05-almond-pecan-cookies.jpeg', cat: 'snack', gi: 10,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "Golden domed cookies, each pressed with a pecan half, crowded together on a white dish.", ua: "Золотисті округлі печива, у кожне вдавлено половинку пекана, тісно складені на білій тарілці." },
     title: { en: 'Almond & Pecan Cookies (No Flour, No Sugar)', ua: 'Мигдалево-пеканове печиво (без борошна, без цукру)' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '12 min', ua: '12 хв' }, serves: { en: 'Makes ~15', ua: '~15 штук' } },
     why: { en: 'Pure almond flour base with no refined sugar — sweetened only with erythritol. High in protein and healthy fats, low in carbohydrates. A reliable, fail-proof recipe.', ua: 'Основа — чисте мигдалеве борошно без рафінованого цукру, підсолоджене лише еритритолом. Багато білка та корисних жирів, мало вуглеводів. Простий безвідмовний рецепт.' },
@@ -92,6 +97,7 @@ export const RECIPES = [
   {
     slug: 'carrot-cake-philadelphia', dateAdded: '2026-07-10', img: '06-carrot-cake-philadelphia.jpg', cat: 'dessert', gi: 43,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A tall slice of three-layer carrot cake, thick white cream between the layers and over the top, the sponge flecked with grated carrot.", ua: "Високий шматок триярусного морквяного торта з товстим шаром білого крему між коржами та зверху; у бісквіті видно тертану моркву." },
     title: { en: 'Carrot Cake with Philadelphia Cream (Sugar-free)', ua: 'Морквяний кекс без цукру з кремом Філадельфія' },
     seoTitle: { en: "Sugar-free Carrot Cake with Philadelphia Frosting", ua: "Морквяний кекс без цукру з кремом Філадельфія" },
     metaDesc: { en: "Carrot cake made with wholegrain flour and erythritol instead of sugar. The Philadelphia frosting adds protein, bringing the whole slice to GI 43.", ua: "Морквяний кекс на цільнозерновому борошні з еритритолом замість цукру. Крем Філадельфія додає білка — ГІ 43 замість звичайного кексу." },
@@ -104,6 +110,7 @@ export const RECIPES = [
   {
     slug: 'wholegrain-bread', dateAdded: '2026-07-10', img: '07-wholegrain-bread.jpeg', cat: 'bread', gi: 45,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A thick slice of dark wholegrain bread on baking paper, spread with a generous mound of green pesto.", ua: "Товстий скибок темного цільнозернового хліба на пергаменті, щедро намазаний зеленим песто." },
     title: { en: 'Wholegrain Sourdough Bread', ua: 'Цільнозерновий хліб на заквасці' },
     seoTitle: { en: "Wholegrain Sourdough Bread — Lower GI, No Sugar", ua: "Цільнозерновий хліб на заквасці без цукру — ГІ 45" },
     metaDesc: { en: "A slow-fermented wholegrain sourdough with flaxseed. Fermentation and intact bran together give a gentler blood-sugar rise than white bread.", ua: "Хліб на заквасці з цільнозернового та лляного борошна. Ферментація й висівки дають ГІ 45 — мʼякший підйом цукру, ніж від білого хліба." },
@@ -116,6 +123,7 @@ export const RECIPES = [
   {
     slug: 'pearl-barley-kutia', dateAdded: '2026-07-10', img: '08-pearl-barley-kutia.jpeg', cat: 'dessert', gi: 33,
     tags: ['dairy-free', 'vegetarian'],
+    imgAlt: { en: "A white bowl heaped with pearl barley, walnut halves and plump raisins, scattered all over with poppy seeds.", ua: "Біла миска, повна перлової крупи з половинками волоських горіхів і пухкими родзинками, рясно посипана маком." },
     title: { en: 'Pearl Barley Kutia (Traditional Ukrainian Dish)', ua: 'Кутя з перлової крупи (традиційна різдвяна)' },
     meta: { prep: { en: '20 min + soaking', ua: '20 хв + замочування' }, cook: { en: '80 min', ua: '80 хв' }, serves: { en: 'Serves 8–10', ua: '8–10 порцій' } },
     why: { en: 'Pearl barley has one of the lowest GI values of all grains (GI ~25), thanks to its rich beta-glucan content. This traditional Ukrainian dish is naturally suited to blood sugar management.', ua: 'Перлова крупа має один із найнижчих ГІ серед зернових (ГІ ~25) завдяки бета-глюкану. Ця традиційна українська страва природно підходить для контролю цукру.' },
@@ -126,6 +134,7 @@ export const RECIPES = [
   {
     slug: 'pumpkin-muffins-halloween', dateAdded: '2026-07-10', img: '09-pumpkin-muffins-halloween.jpg', cat: 'baking', gi: 51,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "Two pumpkin muffins in white paper cases, drizzled with dark berry sauce and each given a pair of candy eyes.", ua: "Два гарбузові маффіни в білих паперових формах, политі темним ягідним соусом, з парою цукрових очок на кожному." },
     title: { en: 'Halloween Pumpkin Muffins (Sugar-free)', ua: 'Гарбузові маффіни до Хелловіну (без цукру)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '25 min', ua: '25 хв' }, serves: { en: '12 muffins', ua: '12 маффінів' } },
     why: { en: 'Pumpkin purée is low-calorie with a moderate GI. Wholegrain flour and erythritol keep the glycaemic impact low, while cinnamon and ginger support blood sugar regulation.', ua: 'Гарбузове пюре низькокалорійне з помірним ГІ. Цільнозернове борошно та еритритол мінімізують глікемічне навантаження, а кориця й імбир допомагають регуляції цукру.' },
@@ -136,6 +145,7 @@ export const RECIPES = [
   {
     slug: 'lime-almond-dessert', dateAdded: '2026-07-10', img: '10-lime-almond-dessert.jpeg', cat: 'dessert', gi: 31,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "A square slice of layered almond dessert on a white plate, pale creamy middle under a crumbly topping scattered with bright green lime zest.", ua: "Квадратний шматок листкового мигдалевого десерту на білій тарілці: світла кремова серединка під розсипчастою крихтою, притрушена яскраво-зеленою цедрою лайма." },
     title: { en: 'Lime & Almond Dessert (Sugar-free)', ua: 'Лаймово-мигдалевий десерт (без цукру)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '~30 min + chilling', ua: '~30 хв + охолодження' }, serves: { en: 'Serves 8', ua: '8 порцій' } },
     why: { en: 'Coconut and almond flour replace wheat, giving a low-carb, high-fibre base. Bananas provide natural sweetness; Truvia contains no sugar.', ua: 'Кокосове та мигдалеве борошно замінюють пшеничне — низьковуглеводна, багата клітковиною основа. Банани дають природну солодкість; Truvia без цукру.' },
@@ -146,6 +156,7 @@ export const RECIPES = [
   {
     slug: 'avocado-mayonnaise', dateAdded: '2026-07-10', img: '11-avocado-mayonnaise.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A small white bowl of smooth pale green mayonnaise, swirled with the back of a spoon, on dark blue linen.", ua: "Маленька біла миска з гладким блідо-зеленим майонезом, розведеним спіраллю зворотним боком ложки, на темно-синій лляній тканині." },
     title: { en: 'Avocado Mayonnaise (Sugar-free)', ua: 'Майонез з авокадо (без цукру)' },
     meta: { prep: { en: '1 min', ua: '1 хв' }, cook: { en: '4 min', ua: '4 хв' }, serves: { en: 'Serves 4–6', ua: '4–6 порцій' } },
     why: { en: 'Avocado is rich in monounsaturated fats and has virtually no sugar. This sauce has a GI close to zero — a perfect substitute for shop-bought mayonnaise.', ua: 'Авокадо багатий на корисні жири та майже не містить цукру. ГІ цього соусу близький до нуля — ідеальна заміна магазинному майонезу.' },
@@ -157,6 +168,7 @@ export const RECIPES = [
   {
     slug: 'oat-cookies-coconut-sugar', dateAdded: '2026-07-10', img: '12-oat-cookies-coconut-sugar.jpg', cat: 'baking', gi: 51,
     tags: ['vegetarian'],
+    imgAlt: { en: "Thick, craggy oat cookies piled on a white plate by a window, whole oat flakes visible through the golden-brown surface.", ua: "Товсті нерівні вівсяні печива, складені на білій тарілці біля вікна; крізь золотисто-коричневу поверхню видно цілі вівсяні пластівці." },
     title: { en: 'Oat Cookies with Coconut Sugar', ua: 'Вівсяне печиво на кокосовому цукрі' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Makes ~18', ua: '~18 штук' } },
     why: { en: 'Coconut sugar has a lower GI than regular sugar (GI ~35 vs 70). Swap for erythritol with a few drops of stevia to reduce GI further. Coarse oats digest slowly, giving lasting energy.', ua: 'Кокосовий цукор має нижчий ГІ ніж звичайний (~35 проти 70). Замініть на еритритол зі стевією для ще нижчого ГІ. Крупні вівсяні пластівці перетравлюються повільно.' },
@@ -167,6 +179,7 @@ export const RECIPES = [
   {
     slug: 'lemon-cookies-coconut-sugar', dateAdded: '2026-07-10', img: '13-lemon-cookies-coconut-sugar.jpg', cat: 'baking', gi: 43,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "Large flat brown cookies stacked on a white enamel plate, with curls of bright yellow lemon peel tucked between them.", ua: "Великі пласкі коричневі печива, складені на білій емальованій тарілці, між ними — завитки яскраво-жовтої лимонної цедри." },
     title: { en: 'Lemon Cookies with Coconut Sugar', ua: 'Лимонне печиво на кокосовому цукрі' },
     meta: { prep: { en: '10 min + 30 min chilling', ua: '10 хв + 30 хв у холодильнику' }, cook: { en: '15 min', ua: '15 хв' }, serves: { en: 'Makes ~16', ua: '~16 штук' } },
     why: { en: 'A blend of flaxseed flour, coconut flour and wholegrain flour replaces refined white flour. Coconut sugar replaces refined sugar.', ua: 'Суміш лляного, кокосового та цільнозернового борошна замінює рафіноване біле борошно. Кокосовий цукор замінює звичайний.' },
@@ -177,6 +190,7 @@ export const RECIPES = [
   {
     slug: 'lviv-cheesecake', dateAdded: '2026-07-10', img: '14-lviv-cheesecake.jpg', cat: 'dessert', gi: 47,
     tags: ['gluten-free', 'vegetarian'],
+    imgAlt: { en: "A curd loaf coated in dark chocolate, cut into thick slices that show the pale filling studded with raisins.", ua: "Сирний батон у темному шоколаді, нарізаний товстими скибками; видно світлу начинку з родзинками." },
     title: { en: 'Lviv Cheesecake (Lvivsky Syrnyk)', ua: 'Львівський сирник' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '20 min + overnight', ua: '20 хв + ніч у холодильнику' }, serves: { en: 'Serves 10–12', ua: '10–12 порцій' } },
     why: { en: 'The base is cottage cheese — high protein, no flour. Coconut flour adds fibre. The chocolate glaze uses cocoa butter and minimal sugar rather than milk chocolate.', ua: 'Основа — кисломолочний сир (білок, без борошна). Кокосове борошно додає клітковину. Шоколадна глазур — з какао-масла та мінімум цукру, без плитки шоколаду.' },
@@ -187,6 +201,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-ice-cream', dateAdded: '2026-07-10', img: '15-chocolate-ice-cream.jpg', cat: 'dessert', gi: 29,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "Two chocolate ice lollies on a grey plate, one with a yellow stick and one with a turquoise one.", ua: "Два шоколадні морозива на сірій тарілці — одне на жовтій паличці, друге на бірюзовій." },
     title: { en: 'Low-Sugar Chocolate Ice Cream', ua: 'Шоколадне морозиво без цукру' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: '8 min + 3 h freezing', ua: '8 хв + 3 год заморозки' }, serves: { en: 'Serves 4', ua: '4 порції' } },
     why: { en: 'A low-sugar chocolate ice cream sweetened entirely with stevia (GI = 0) — no blood sugar spike. Rich, creamy and diabetic-friendly with just 2 g carbs per serving and no added sugar.', ua: 'Підсолоджено виключно стевією (ГІ = 0). Какао-масло та вершкове масло дають повільне вивільнення енергії. Шоколадне задоволення без стрибка цукру.' },
@@ -197,6 +212,7 @@ export const RECIPES = [
   {
     slug: 'vegetable-quiche-no-flour', dateAdded: '2026-07-10', img: '16-vegetable-quiche-no-flour.jpg', cat: 'main', gi: 17,
     tags: ['gluten-free', 'vegetarian'],
+    imgAlt: { en: "A crustless vegetable bake in a round metal tin, set custard studded with spinach, onion and rings of red and green pepper, resting on a quilted cloth.", ua: "Овочева запіканка без основи в круглій металевій формі: застигла яєчна маса зі шпинатом, цибулею та кільцями червоного й зеленого перцю, на стьобаній прихватці." },
     title: { en: 'Vegetable Quiche without Flour', ua: 'Кіш з овочами без борошна' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: '15–23 min', ua: '15–23 хв' }, serves: { en: 'Serves 3', ua: '3 порції' } },
     why: { en: 'No pastry, no flour — the base is egg and flaxseed. Feta adds protein and fat to slow glucose absorption. A light, nutrient-dense meal ready in under 25 minutes.', ua: 'Без тіста та борошна — основа з яєць і лляного борошна. Фета додає білок та жири, сповільнюючи засвоєння глюкози. Легка та поживна страва менш ніж за 25 хвилин.' },
@@ -207,6 +223,7 @@ export const RECIPES = [
   {
     slug: 'baked-fish-veg-herbs', dateAdded: '2026-07-10', img: '17-baked-fish-veg-herbs.jpg', cat: 'main', gi: 26,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
+    imgAlt: { en: "Close-up of raw salmon fillets on a dish with whole carrots, button mushrooms and sprigs of sage and thyme laid over them.", ua: "Крупним планом сирі філе лосося на тарелі з цілою морквою, печерицями та гілочками шавлії й чебрецю зверху." },
     title: { en: 'Baked Fish with Vegetables & Herbs', ua: 'Запечена риба з овочами та травами' },
     why: { en: 'Salmon with mushrooms and non-starchy vegetables is a light, protein-rich meal that barely moves blood sugar — a gentle low-GI dinner.', ua: 'Лосось з печерицями та некрохмалистими овочами — легка, багата на білок страва, що майже не впливає на рівень цукру в крові.' },
     nutrition: { en: 'Per serving (est.): ~440 kcal · Carbs 20 g · Fat 24 g · Protein 40 g', ua: 'На порцію (прибл.): ~440 ккал · Вуглеводи 20 г · Жири 24 г · Білки 40 г' },
@@ -218,6 +235,7 @@ export const RECIPES = [
   {
     slug: 'carrot-coriander-soup', dateAdded: '2026-07-10', img: '18-carrot-coriander-soup.jpg', cat: 'main', gi: 42,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A white bowl of thick orange carrot soup, a long sprig of flat-leaf parsley laid across the top, more herbs on the stone beside it.", ua: "Біла миска густого помаранчевого морквяного супу з довгою гілочкою листової петрушки зверху; поруч на камені ще зелень." },
     title: { en: 'Carrot & Coriander Soup', ua: 'Морквяний суп з коріандром' },
     why: { en: 'Carrots and a little sweet potato blended with fresh coriander make a naturally sweet, warming soup — plenty of fibre keeps the rise in blood sugar gentle.', ua: 'Морква з невеликою кількістю батату, збита зі свіжим коріандром, дає природно солодкий, зігрівальний суп — багато клітковини робить підйом цукру м’яким.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 19 g · Fat 0 g · Protein 2 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 19 г · Жири 0 г · Білки 2 г' },
@@ -229,6 +247,7 @@ export const RECIPES = [
   {
     slug: 'birthday-cake-sugar-free', dateAdded: '2026-07-10', img: '19-birthday-cake-sugar-free.jpg', cat: 'dessert', gi: 38,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A cake covered in pale lilac frosting, topped with flaked almonds and sprinkles, with lit candles spelling out birthday letters.", ua: "Торт у блідо-бузковій глазурі, зверху мигдальні пелюстки та посипка, з запаленими свічками-літерами." },
     title: { en: 'Sugar-free Birthday Cake (Blueberry & Lime)', ua: 'Святковий торт без цукру (чорниця й лайм)' },
     why: { en: 'A celebration cake with no refined sugar — wholegrain and almond flour sweetened with erythritol, and coloured naturally with blueberry powder instead of dyes.', ua: 'Святковий торт без рафінованого цукру — цільнозернове й мигдалеве борошно, підсолоджене еритритолом, і природний колір із порошку чорниці замість барвників.' },
     nutrition: { en: 'Per slice (est.): ~350 kcal · Carbs 22 g · Fat 22 g · Protein 16 g', ua: 'На 1 шматок (прибл.): ~350 ккал · Вуглеводи 22 г · Жири 22 г · Білки 16 г' },
@@ -240,6 +259,7 @@ export const RECIPES = [
   {
     slug: 'meat-potato-pie-no-flour', dateAdded: '2026-07-10', img: '20-meat-potato-pie-no-flour.jpg', cat: 'main', gi: 55,
     tags: ['gluten-free'],
+    imgAlt: { en: "A tall round pie in a metal ring, the sides a coarse seed-flecked crust, the top a layer of white sauce heaped with chopped parsley.", ua: "Високий круглий пиріг у металевому кільці: боки — груба скоринка з насінням, зверху шар білого соусу, щедро вкритий рубаною петрушкою." },
     title: { en: 'Flourless Meat & Potato Pie', ua: 'М’ясний пиріг з картоплею без борошна' },
     why: { en: 'A flax-and-coconut-flour base instead of wheat means far fewer carbs, and the fibre-rich flax with a protein filling keeps blood sugar steadier than a pastry pie.', ua: 'Основа з лляного й кокосового борошна замість пшеничного — значно менше вуглеводів, а багатий на клітковину льон із білковою начинкою тримає цукор стабільнішим, ніж звичайне тісто.' },
     nutrition: { en: 'Per serving (est.): ~380 kcal · Carbs 38 g · Fat 16 g · Protein 22 g', ua: 'На порцію (прибл.): ~380 ккал · Вуглеводи 38 г · Жири 16 г · Білки 22 г' },
@@ -251,6 +271,7 @@ export const RECIPES = [
   {
     slug: 'almond-beetroot-cookies', dateAdded: '2026-07-10', img: '21-almond-beetroot-cookies.jpg', cat: 'snack', gi: 41,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up of a deep pink beetroot cookie topped with fresh raspberries and pastel star sprinkles.", ua: "Крупним планом темно-рожеве бурякове печиво зі свіжою малиною та пастельною посипкою у формі зірочок." },
     title: { en: 'Sugar-free Almond & Beetroot Cookies', ua: 'Мигдально-бурякове печиво без цукру' },
     why: { en: 'Beetroot and banana give these cookies natural colour and sweetness, so no sugar is needed — wholegrain, almond and flax flours keep the glycaemic impact modest.', ua: 'Буряк і банан надають печиву природного кольору й солодкості, тож цукор не потрібен — цільнозернове, мигдалеве та лляне борошно тримають глікемічний вплив помірним.' },
     nutrition: { en: 'Per serving (est.): ~210 kcal · Carbs 17 g · Fat 13 g · Protein 6 g', ua: 'На порцію (прибл.): ~210 ккал · Вуглеводи 17 г · Жири 13 г · Білки 6 г' },
@@ -262,6 +283,7 @@ export const RECIPES = [
   {
     slug: 'carrot-cake-overnight-oats', dateAdded: '2026-07-10', img: '22-carrot-cake-overnight-oats.jpg', cat: 'breakfast', gi: 47,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A glass bowl of overnight oats flecked with grated carrot and chia seeds, two blueberries on top, on a grey stone surface.", ua: "Скляна миска вівсянки з тертою морквою та насінням чіа, зверху дві чорниці, на сірій кам’яній поверхні." },
     title: { en: 'Carrot Cake Overnight Oats', ua: 'Нічна вівсянка «Морквяний кекс»' },
     why: { en: 'Made the night before — oats, chia and grated carrot with cinnamon give slow-release carbs, fibre and omega-3 for a breakfast that keeps energy and blood sugar steady.', ua: 'Готується з вечора — овес, чіа й терта морква з корицею дають повільні вуглеводи, клітковину й омега-3 для сніданку, що тримає енергію та цукор стабільними.' },
     nutrition: { en: 'Per serving (est.): ~260 kcal · Carbs 29 g · Fat 8 g · Protein 19 g', ua: 'На порцію (прибл.): ~260 ккал · Вуглеводи 29 г · Жири 8 г · Білки 19 г' },
@@ -272,6 +294,7 @@ export const RECIPES = [
   {
     slug: 'apple-pudding-sugar-free', dateAdded: '2026-07-10', img: '23-apple-pudding-sugar-free.jpg', cat: 'dessert', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A slice of apple pudding on a blue plate, chunks of soft apple over a nutty base, crowned with fresh raspberries and beads of syrup.", ua: "Шматок яблучного пудингу на синій тарілці: шматочки м’якого яблука на горіховій основі, зверху свіжа малина та краплі сиропу." },
     title: { en: 'Sugar-free Apple Pudding', ua: 'Яблучний пудинг без цукру' },
     why: { en: 'Inspired by English apple sponge — barely any batter, just enough to hold the fruit together, sweetened with erythritol so the apples do the work.', ua: 'Натхненний англійським яблучним бісквітом — мінімум тіста, лише щоб скріпити фрукти, підсолоджено еритритолом, тож головне тут — яблука.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 14 g · Fat 2 g · Protein 3 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 14 г · Жири 2 г · Білки 3 г' },
@@ -282,6 +305,7 @@ export const RECIPES = [
   {
     slug: 'lemon-slices-sugar-free', dateAdded: '2026-07-10', img: '24-lemon-slices-sugar-free.jpg', cat: 'dessert', gi: 19,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "Squares of lemon slice on baking paper, thick pale yellow curd over a shortbread base, dusted with icing sugar.", ua: "Квадратики лимонного пирога на пергаменті: товстий шар блідо-жовтого курду на пісочній основі, притрушений цукровою пудрою." },
     title: { en: 'Sugar-free Lemon Slices (Gluten-free)', ua: 'Лимонні тістечка без цукру та глютену' },
     seoTitle: { en: "Sugar-free Lemon Slices — Gluten-free, Keto, GI 19", ua: "Лимонні тістечка без цукру та глютену — кето, ГІ 19" },
     metaDesc: { en: "An almond-flour base under a silky lemon curd, sweetened with erythritol. Gluten-free and keto at GI 19 — rich enough that a small piece is plenty.", ua: "Лимонні тістечка на мигдалевій основі з еритритолом — без цукру та глютену. Кето-десерт з ГІ 19: ситний, тож вистачає маленького шматочка." },
@@ -295,6 +319,7 @@ export const RECIPES = [
   {
     slug: 'gingerbread-cookies', dateAdded: '2026-07-10', img: '25-gingerbread-cookies.jpg', cat: 'baking', gi: 46,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "Star- and tree-shaped gingerbread cookies on baking paper, flecked with ground nuts and outlined in white icing.", ua: "Пряники у формі зірок і ялинок на пергаменті, з вкрапленнями мелених горіхів і білою глазур’ю по контуру." },
     title: { en: 'Christmas Gingerbread Cookies (No Refined Sugar)', ua: 'Різдвяне імбирне печиво без цукру' },
     why: { en: 'Warmly spiced gingerbread with no refined sugar — a little honey and stevia for sweetness, with flax and coconut flour to soften the glycaemic hit. Decorate with the sugar-free icing.', ua: 'Ароматне імбирне печиво без рафінованого цукру — трохи меду й стевії для солодкості, а лляне й кокосове борошно пом’якшують глікемічний вплив. Прикрасьте глазур’ю без цукру.' },
     nutrition: { en: 'Per cookie (est.): ~135 kcal · Carbs 14 g · Fat 8 g · Protein 2 g', ua: 'На 1 печиво (прибл.): ~135 ккал · Вуглеводи 14 г · Жири 8 г · Білки 2 г' },
@@ -306,6 +331,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-ginger-cake-avocado-cream', dateAdded: '2026-07-10', img: '26-chocolate-ginger-cake-avocado-cream.jpg', cat: 'dessert', gi: 40,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A small stacked chocolate cake on a grey plate, pale green avocado cream between the layers and piped in peaks over the top.", ua: "Невеликий шаруватий шоколадний торт на сірій тарілці: блідо-зелений авокадовий крем між коржами та відсаджений вершечками зверху." },
     title: { en: 'Chocolate-Ginger Cake with Avocado Cream', ua: 'Шоколадно-імбирний кекс з кремом з авокадо' },
     why: { en: 'A festive vegetarian chocolate-and-ginger sponge with no sugar, topped with a naturally green avocado-and-kiwi cream sweetened with stevia. Fresh ginger and cocoa with almost no added sugar keep it gentle on blood sugar.', ua: 'Святковий вегетаріанський шоколадно-імбирний бісквіт без цукру з природно зеленим кремом з авокадо й ківі, підсолодженим стевією. Свіжий імбир і какао майже без цукру роблять його м’яким для рівня цукру.' },
     nutrition: { en: 'Per serving (est.): ~155 kcal · Carbs 10 g · Fat 12 g · Protein 2 g', ua: 'На порцію (прибл.): ~155 ккал · Вуглеводи 10 г · Жири 12 г · Білки 2 г' },
@@ -317,6 +343,7 @@ export const RECIPES = [
   {
     slug: 'oat-pancakes-plums', dateAdded: '2026-07-10', img: '27-oat-pancakes-plums.jpg', cat: 'breakfast', gi: 49,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A stack of oat pancakes on a blue plate, topped with glossy stewed plum slices, more plum wedges beside them.", ua: "Стосик вівсяних млинців на синій тарілці, зверху глянцеві скибки тушкованої сливи, поруч ще кілька часточок." },
     title: { en: 'Oat Pancakes with Stewed Plums', ua: 'Вівсяні млинці з тушкованими сливами' },
     why: { en: 'Wholegrain oats and flax make fibre-rich pancakes with slow-release carbs; plums add natural sweetness, so only a pinch of stevia is needed — a steadier start than white-flour pancakes.', ua: 'Цільний овес і льон дають багаті на клітковину млинці з повільними вуглеводами; сливи додають природної солодкості, тож потрібна лише щіпка стевії — стабільніший початок дня, ніж млинці з білого борошна.' },
     nutrition: { en: 'Per serving (est.): ~105 kcal · Carbs 13 g · Fat 4 g · Protein 4 g', ua: 'На порцію (прибл.): ~105 ккал · Вуглеводи 13 г · Жири 4 г · Білки 4 г' },
@@ -327,6 +354,7 @@ export const RECIPES = [
   {
     slug: 'meatballs-mandarin-herbs', dateAdded: '2026-07-10', img: '28-meatballs-mandarin-herbs.jpg', cat: 'main', gi: 24,
     tags: ['gluten-free', 'dairy-free', 'low-carb'],
+    imgAlt: { en: "Raw seasoned meatballs in a dark blue dish with mandarin segments tucked between them, scattered with dried herbs.", ua: "Сирі приправлені м’ясні кульки в темно-синій формі з часточками мандарина між ними, притрушені сушеними травами." },
     title: { en: 'Meatballs with Mandarin & Herbs', ua: 'Фрикадельки з мандаринами та травами' },
     why: { en: 'Protein-rich meatballs bound with flax and ground nuts instead of breadcrumbs — the mandarin segments add a little natural sweetness without moving blood sugar much.', ua: 'Багаті на білок фрикадельки, скріплені льоном і меленими горіхами замість панірувальних сухарів — дольки мандарина додають трохи природної солодкості, майже не впливаючи на цукор.' },
     nutrition: { en: 'Per serving (est.): ~280 kcal · Carbs 2 g · Fat 18 g · Protein 28 g', ua: 'На порцію (прибл.): ~280 ккал · Вуглеводи 2 г · Жири 18 г · Білки 28 г' },
@@ -338,6 +366,7 @@ export const RECIPES = [
   {
     slug: 'blueberry-curd-tart', dateAdded: '2026-07-10', img: '29-blueberry-curd-tart.jpg', cat: 'dessert', gi: 39,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A round tart on a blue plate with one slice cut out, mauve curd filling ringed with fresh blueberries in a thick seeded crust.", ua: "Круглий тарт на синій тарілці з вирізаним шматком: лілова сирна начинка, обрамлена свіжою чорницею, у товстій основі з насінням." },
     title: { en: 'Low-carb Blueberry Curd Tart', ua: 'Низьковуглеводний тарт з чорничним курдом' },
     why: { en: 'A coconut-and-flax crust with a homemade blueberry curd, sweetened only with erythritol — low in carbs and gentle on blood sugar.', ua: 'Основа з кокосового й лляного борошна з домашнім чорничним курдом, підсолодженим лише еритритолом — мало вуглеводів і м’яко для рівня цукру.' },
     nutrition: { en: 'Per serving (est.): ~190 kcal · Carbs 3 g · Fat 17 g · Protein 6 g', ua: 'На порцію (прибл.): ~190 ккал · Вуглеводи 3 г · Жири 17 г · Білки 6 г' },
@@ -348,6 +377,7 @@ export const RECIPES = [
   {
     slug: 'pumpkin-oat-pancakes-chocolate', dateAdded: '2026-07-10', img: '30-pumpkin-oat-pancakes-chocolate.jpg', cat: 'breakfast', gi: 53,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "A single large pancake on a white square plate, drizzled in a spiral of dark chocolate sauce and scattered with chopped nuts.", ua: "Один великий млинець на білій квадратній тарілці, политий спіраллю темного шоколадного соусу й посипаний подрібненими горіхами." },
     title: { en: 'Pumpkin Oat Pancakes with Chocolate Sauce', ua: 'Гарбузово-вівсяні млинці з шоколадом' },
     why: { en: 'Pumpkin and oat-flour pancakes with a cocoa sauce sweetened with isomalt — a warming autumn breakfast with fibre and no refined sugar.', ua: 'Млинці з гарбуза й вівсяного борошна з какао-соусом на ізомальті — зігрівальний осінній сніданок із клітковиною й без рафінованого цукру.' },
     nutrition: { en: 'Per serving (est.): ~130 kcal · Carbs 18 g · Fat 4 g · Protein 6 g', ua: 'На порцію (прибл.): ~130 ккал · Вуглеводи 18 г · Жири 4 г · Білки 6 г' },
@@ -358,6 +388,7 @@ export const RECIPES = [
   {
     slug: 'dried-fruit-sweets', dateAdded: '2026-07-10', img: '31-dried-fruit-sweets.jpg', cat: 'snack', gi: 10,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "Dark dried-fruit balls on a white plate, rolled in different coatings — green herb, cocoa, icing sugar and sesame seeds — one bitten open.", ua: "Темні кульки із сухофруктів на білій тарілці в різних обсипках — зелена трава, какао, цукрова пудра й кунжут; одна надкушена." },
     title: { en: 'No-bake Dried Fruit Sweets', ua: 'Цукерки із сухофруктів' },
     seoTitle: { en: "No-bake Dried Fruit Sweets — No Added Sugar, GI 10", ua: "Цукерки із сухофруктів без цукру — ГІ 10, без випікання" },
     metaDesc: { en: "Dried fruit blended and rolled in seeds and cocoa — no baking, no added sugar. GI 10, though the fruit is naturally sweet, so keep portions small.", ua: "Цукерки із сухофруктів без додавання цукру й випікання — обкачані в насінні та какао. ГІ 10, але фрукти солодкі, тож порція невелика." },
@@ -370,6 +401,7 @@ export const RECIPES = [
   {
     slug: 'rabbit-rosemary', dateAdded: '2026-07-10', img: '32-rabbit-rosemary.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'dairy-free', 'low-carb'],
+    imgAlt: { en: "A whole rabbit in a glass roasting dish with potato and onion pieces in stock around it, sprigs of herbs laid along the back.", ua: "Ціла тушка кроля у скляній жаровні з картоплею й цибулею в бульйоні навколо, уздовж спинки — гілочки трав." },
     title: { en: 'Rabbit with Rosemary', ua: 'Кролик з розмарином' },
     why: { en: 'Lean rabbit is a light, low-fat protein; roasted slowly with vegetables and rosemary it makes a gentle, low-GI dinner — good for children and dietary eating.', ua: 'Пісний кролик — легкий, нежирний білок; повільно запечений з овочами й розмарином, дає м’яку вечерю з низьким ГІ — підходить дітям і дієтичному харчуванню.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 10 g · Fat 10 g · Protein 42 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 10 г · Жири 10 г · Білки 42 г' },
@@ -380,6 +412,7 @@ export const RECIPES = [
   {
     slug: 'pumpkin-panna-cotta', dateAdded: '2026-07-10', img: '33-pumpkin-panna-cotta.jpg', cat: 'dessert', gi: 62,
     tags: ['vegetarian', 'gluten-free'],
+    imgAlt: { en: "A turned-out pale orange panna cotta on a white plate, its glossy surface running with amber syrup.", ua: "Перекинута на білу тарілку блідо-помаранчева панна-кота з глянцевою поверхнею, по якій стікає бурштиновий сироп." },
     title: { en: 'Pumpkin Panna Cotta', ua: 'Гарбузова панна котта' },
     why: { en: 'A light set yoghurt-and-pumpkin dessert, gently sweetened — protein from the Greek yoghurt slows things down, with an isomalt caramel drizzle instead of sugar.', ua: 'Легкий желейний десерт з йогурту й гарбуза, м’яко підсолоджений — білок грецького йогурту сповільнює засвоєння, а замість цукру — карамель з ізомальту.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 12 g · Fat 2 g · Protein 6 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 12 г · Жири 2 г · Білки 6 г' },
@@ -390,6 +423,7 @@ export const RECIPES = [
   {
     slug: 'pumpkin-bread', dateAdded: '2026-07-10', img: '34-pumpkin-bread.jpg', cat: 'bread', gi: 58,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "A dark seeded loaf cut into thick slices on a white surface, threads of orange pumpkin visible in the crumb, pumpkin seeds scattered around.", ua: "Темний хліб із насінням, нарізаний товстими скибками на білій поверхні; у м’якуші видно помаранчеві нитки гарбуза, навколо розсипано гарбузове насіння." },
     title: { en: 'Pumpkin Bread', ua: 'Гарбузовий хліб' },
     why: { en: 'A wholegrain autumn loaf with grated pumpkin, warming spices and raisins — wholegrain flour and fibre keep the glycaemic impact lower than white bread.', ua: 'Осінній цільнозерновий хліб із тертим гарбузом, зігрівальними спеціями та родзинками — цільнозернове борошно й клітковина знижують глікемічний вплив порівняно з білим хлібом.' },
     nutrition: { en: 'Per slice (est.): ~160 kcal · Carbs 32 g · Fat 1 g · Protein 5 g', ua: 'На 1 скибку (прибл.): ~160 ккал · Вуглеводи 32 г · Жири 1 г · Білки 5 г' },
@@ -400,6 +434,7 @@ export const RECIPES = [
   {
     slug: 'cherry-chia-cake', dateAdded: '2026-07-10', img: '35-cherry-chia-cake.jpg', cat: 'dessert', gi: 39,
     tags: ['vegetarian'],
+    imgAlt: { en: "A layered cake stacked with crushed red cherries, white cream running down the sides, topped with whole almonds, coconut flakes and dark syrup.", ua: "Шаруватий торт із розім’ятою червоною вишнею, білим кремом, що стікає по боках, зверху цілий мигдаль, кокосова стружка й темний сироп." },
     title: { en: 'Cherry & Chia Layer Cake', ua: 'Вишневий торт із насінням чіа' },
     why: { en: 'An almond-and-oat sponge layered with a thick cherry-chia compote — tart cherries and chia add fibre, with only a touch of stevia; the white chocolate is a small finishing note.', ua: 'Мигдально-вівсяний бісквіт із густим вишнево-чіа компотом — кислі вишні й чіа додають клітковини, а стевії потрібно зовсім трохи; білий шоколад — лише невеликий акцент.' },
     nutrition: { en: 'Per serving (est.): ~215 kcal · Carbs 30 g · Fat 8 g · Protein 6 g', ua: 'На порцію (прибл.): ~215 ккал · Вуглеводи 30 г · Жири 8 г · Білки 6 г' },
@@ -410,6 +445,7 @@ export const RECIPES = [
   {
     slug: 'cranberry-curd-cake', dateAdded: '2026-07-10', img: '36-cranberry-curd-cake.jpg', cat: 'dessert', gi: 33,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "A slice of pale pink mousse cake on a thin biscuit base, topped with fresh cranberries, a peach slice and chopped nuts.", ua: "Шматок блідо-рожевого мусового торта на тонкій бісквітній основі, зверху свіжа журавлина, скибка персика й подрібнені горіхи." },
     title: { en: 'Cranberry Curd Cake', ua: 'Журавлиновий сирний кекс' },
     why: { en: 'A high-protein quark cake on an oat-flake base, sweetened with stevia and studded with tart cranberries — protein and fibre keep blood sugar steady.', ua: 'Білковий сирний кекс на основі з вівсяних пластівців, підсолоджений стевією та з кислою журавлиною — білок і клітковина тримають цукор стабільним.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 31 g · Fat 10 g · Protein 22 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 31 г · Жири 10 г · Білки 22 г' },
@@ -420,6 +456,7 @@ export const RECIPES = [
   {
     slug: 'buckwheat-cookies', dateAdded: '2026-07-10', img: '37-buckwheat-cookies.jpg', cat: 'baking', gi: 48,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Two large flat buckwheat cookies stacked on baking paper, coarse-textured and scattered with toasted buckwheat groats.", ua: "Два великі пласкі гречані печива, складені на пергаменті: груба текстура, зверху підсмажена гречана крупа." },
     title: { en: 'Buckwheat Cookies, No Sugar (Gluten-free)', ua: 'Гречане печиво без цукру та глютену' },
     why: { en: 'Buckwheat cookies with no sugar at all — sweetened with stevia, naturally gluten-free and low-GI, so a biscuit with tea stays filling rather than spiking.', ua: 'З відвареної гречки та гречаного борошна — від природи без глютену, ситне й з низьким ГІ, підсолоджене лише стевією.' },
     nutrition: { en: 'Per cookie (est.): ~65 kcal · Carbs 9 g · Fat 2 g · Protein 3 g', ua: 'На 1 печиво (прибл.): ~65 ккал · Вуглеводи 9 г · Жири 2 г · Білки 3 г' },
@@ -430,6 +467,7 @@ export const RECIPES = [
   {
     slug: 'mushroom-potato-tartlets', dateAdded: '2026-07-10', img: '38-mushroom-potato-tartlets.jpg', cat: 'main', gi: 60,
     tags: ['vegetarian'],
+    imgAlt: { en: "Two pastry tartlets on white boards, filled with chopped mushroom and potato under a smooth pale sauce.", ua: "Дві пісочні тарталетки на білих дошках, наповнені подрібненими грибами й картоплею під гладким світлим соусом." },
     title: { en: 'Mushroom & Potato Tartlets', ua: 'Тарталетки з грибами та картоплею' },
     why: { en: 'A buttery flax-and-wholegrain pastry with a soft mushroom-and-potato filling — the flax adds fibre to steady the pastry’s carbs.', ua: 'Масляне тісто з льону й цільнозернового борошна з ніжною грибно-картопляною начинкою — льон додає клітковини, щоб урівноважити вуглеводи тіста.' },
     nutrition: { en: 'Per serving (est.): ~290 kcal · Carbs 22 g · Fat 20 g · Protein 5 g', ua: 'На порцію (прибл.): ~290 ккал · Вуглеводи 22 г · Жири 20 г · Білки 5 г' },
@@ -440,6 +478,7 @@ export const RECIPES = [
   {
     slug: 'summer-berry-pie', dateAdded: '2026-07-10', img: '39-summer-berry-pie.jpg', cat: 'dessert', gi: 58,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up of a berry pie in a thick wholemeal crust, the filling a deep pink with whole blackcurrants and slices of peach set into it.", ua: "Крупним планом ягідний пиріг у товстій цільнозерновій основі: насичено-рожева начинка з цілою чорною смородиною та скибками персика." },
     title: { en: 'Summer Berry & Fruit Pie', ua: 'Літній пиріг з ягодами та фруктами' },
     why: { en: 'A cornmeal-and-oat base loaded with whatever summer berries and fruit you have — mostly fruit and fibre, sweetened only with stevia, good if you are watching your weight.', ua: 'Основа з кукурудзяного борошна й вівса з будь-якими літніми ягодами та фруктами — переважно фрукти й клітковина, підсолоджено лише стевією; підходить тим, хто стежить за вагою.' },
     nutrition: { en: 'Per serving (est.): ~225 kcal · Carbs 45 g · Fat 3 g · Protein 5 g', ua: 'На порцію (прибл.): ~225 ккал · Вуглеводи 45 г · Жири 3 г · Білки 5 г' },
@@ -450,6 +489,7 @@ export const RECIPES = [
   {
     slug: 'layered-curd-cake', dateAdded: '2026-07-10', img: '40-layered-curd-cake.jpg', cat: 'dessert', gi: 39,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "Close-up of a chilled layered curd cake, bands of cocoa, plain white and pale green filling with whole berries set through it.", ua: "Крупним планом охолоджений шаруватий сирний торт: смуги какао, білої та блідо-зеленої начинки з цілими ягодами всередині." },
     title: { en: 'No-bake Layered Curd Cake', ua: 'Творожний торт з кольоровими шарами' },
     why: { en: 'A no-bake, high-protein quark cake set in colourful natural layers — cocoa, blueberry and spirulina — sweetened with stevia and erythritol. Fun to make with children.', ua: 'Сирний торт без випікання, багатий на білок, у природних кольорових шарах — какао, чорниця та спіруліна — підсолоджений стевією та еритритолом. Весело готувати з дітьми.' },
     nutrition: { en: 'Per serving (est.): ~190 kcal · Carbs 7 g · Fat 5 g · Protein 30 g', ua: 'На порцію (прибл.): ~190 ккал · Вуглеводи 7 г · Жири 5 г · Білки 30 г' },
@@ -461,6 +501,7 @@ export const RECIPES = [
   {
     slug: 'beetroot-crisps-rosemary', dateAdded: '2026-08-14', img: '41-beetroot-crisps-rosemary.jpg', cat: 'snack', gi: 40,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A white pot heaped with dark red beetroot crisps flecked with sea salt and rosemary needles, sprigs of rosemary on a pink background.", ua: "Біла чашка з гіркою темно-червоних бурякових чипсів, притрушених морською сіллю та голками розмарину; на рожевому тлі гілочки розмарину." },
     title: { en: 'Beetroot & Pineapple Chips', ua: 'Бурякові та ананасові чіпси' },
     seoTitle: { en: "Baked Beetroot & Pineapple Chips — No Added Sugar", ua: "Ананасові та бурякові чіпси в духовці — без цукру" },
     metaDesc: { en: "Two oven-baked chips from one page: savoury beetroot with rosemary, and sweet pineapple dried low and slow with nothing added at all.", ua: "Два види чіпсів у духовці: пікантні бурякові з розмарином і солодкі ананасові, висушені повільно й зовсім без добавок." },
@@ -474,6 +515,7 @@ export const RECIPES = [
   {
     slug: 'coffee-chocolate-cheesecake', dateAdded: '2026-07-10', img: '42-coffee-chocolate-cheesecake.jpg', cat: 'dessert', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A pale coffee-coloured cheesecake striped with dark chocolate down the sides, topped with fresh cherries on their stalks.", ua: "Світлий кавовий чизкейк із темними шоколадними патьоками по боках, зверху свіжі вишні з хвостиками." },
     title: { en: 'No-bake Coffee-Chocolate Cheesecake', ua: 'Кавово-шоколадний чізкейк без випікання' },
     why: { en: 'A chilled quark cheesecake set with gelatine on a banana-granola base — high in protein, no refined sugar, with carob and coffee for a mocha note.', ua: 'Охолоджений сирний чізкейк на желатині з бананово-granola-основою — багатий на білок, без рафінованого цукру, з ріжковим борошном і кавою для нотки мокко.' },
     nutrition: { en: 'Per serving (est.): ~130 kcal · Carbs 13 g · Fat 3 g · Protein 12 g', ua: 'На порцію (прибл.): ~130 ккал · Вуглеводи 13 г · Жири 3 г · Білки 12 г' },
@@ -484,6 +526,7 @@ export const RECIPES = [
   {
     slug: 'ratatouille-yellow-tomatoes', dateAdded: '2026-07-10', img: '43-ratatouille-yellow-tomatoes.jpg', cat: 'main', gi: 18,
     tags: ['vegetarian', 'gluten-free', 'low-carb'],
+    imgAlt: { en: "Roasted rounds of tomato, aubergine and courgette piled on a square white plate under a thick scattering of chopped fresh herbs.", ua: "Запечені кружальця помідорів, баклажанів і кабачків, викладені гіркою на квадратній білій тарілці й густо притрушені рубаною зеленню." },
     title: { en: 'Ratatouille with Yellow Tomatoes', ua: 'Рататуй з жовтими помідорами' },
     seoTitle: { en: "Ratatouille with Yellow Tomatoes — GI 18, Low-Carb", ua: "Рататуй з жовтими помідорами — ГІ 18, низьковуглеводний" },
     metaDesc: { en: "Slow-cooked summer vegetables in a herby tomato sauce. Non-starchy and high-fibre at GI 18 — a main that barely touches blood sugar.", ua: "Літні овочі, повільно тушковані в ароматному томатному соусі. Некрохмалисті, багаті клітковиною, ГІ 18 — страва, що майже не впливає на цукор." },
@@ -496,6 +539,7 @@ export const RECIPES = [
   {
     slug: 'sourdough-bread', dateAdded: '2026-07-10', img: '44-sourdough-bread.jpg', cat: 'bread', gi: 63,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "Three seeded sourdough loaves side by side in low, warm light against a dark background, crusts split along the top.", ua: "Три хлібини на заквасці з насінням поруч у теплому приглушеному світлі на темному тлі, скоринка розійшлася зверху." },
     title: { en: 'Homemade Sourdough Bread (with soul)', ua: 'Домашній бездріжджовий хліб «з душею»' },
     why: { en: 'A wholegrain, naturally leavened loaf on a homemade raisin-and-hop starter with sprouted wheat, seeds and pumpkin. The long fermentation and wholegrain flour make it far gentler on blood sugar than shop bread.', ua: 'Цільнозерновий хліб на природній заквасці — домашня закваска з родзинок і хмелю, пророщена пшениця, насіння й гарбуз. Довга ферментація й цільнозернове борошно роблять його значно м’якшим для цукру, ніж магазинний.' },
     nutrition: { en: 'Per slice (est.): ~180 kcal · Carbs 34 g · Fat 3 g · Protein 6 g', ua: 'На 1 скибку (прибл.): ~180 ккал · Вуглеводи 34 г · Жири 3 г · Білки 6 г' },
@@ -507,6 +551,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-strawberry-jam', dateAdded: '2026-07-10', img: '45-rhubarb-strawberry-jam.jpg', cat: 'sauce', gi: 30,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb and strawberry jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревенево-полуничним варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb & Strawberry Chia Jam', ua: 'Варення з ревеню та полуниці (з чіа)' },
     // OPS-201 rhubarb cluster — spoke. UA leads with the exact query GSC shows
     // this page ranking for (`варення з ревеню і полуниці`, position 6.0); EN
@@ -523,6 +568,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-mousse-ice-cream', dateAdded: '2026-07-10', img: '46-chocolate-mousse-ice-cream.jpg', cat: 'dessert', gi: 42,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'dairy-free'],
+    imgAlt: { en: "Scoops of dark chocolate ice cream in a small glass dish, dusted heavily with cocoa powder.", ua: "Кульки темного шоколадного морозива в маленькій скляній креманці, щедро притрушені какао." },
     title: { en: 'Chocolate Mousse Ice Cream with a Coffee Note', ua: 'Шоколадне морозиво-мус з кавовою ноткою' },
     why: { en: 'A blend-and-freeze banana mousse with carob and chicory — creamy, no refined sugar and caffeine-free, so it suits children too.', ua: 'Банановий мус «збий і заморозь» із керобом і цикорієм — кремовий, без рафінованого цукру й кофеїну, тож підходить і дітям.' },
     nutrition: { en: 'Per serving (est.): ~230 kcal · Carbs 30 g · Fat 12 g · Protein 2 g', ua: 'На порцію (прибл.): ~230 ккал · Вуглеводи 30 г · Жири 12 г · Білки 2 г' },
@@ -533,6 +579,7 @@ export const RECIPES = [
   {
     slug: 'cornmeal-syrniki', dateAdded: '2026-07-10', img: '47-cornmeal-syrniki.jpg', cat: 'breakfast', gi: 56,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "Two golden pan-fried cheese pancakes stacked on a white plate, topped with a spoonful of bright red berry sauce.", ua: "Два золотисті смажені сирники, складені один на одного на білій тарілці, зверху ложка яскраво-червоного ягідного соусу." },
     title: { en: 'Cornmeal Syrniki (Cottage Cheese Pancakes)', ua: 'Сирники з кукурудзяним борошном' },
     why: { en: 'High-protein cottage cheese pancakes made with cornmeal instead of wheat, sweetened with stevia and served with a raspberry sorbet — a filling, blood-sugar-friendly breakfast.', ua: 'Багаті на білок сирники з кукурудзяним борошном замість пшеничного, підсолоджені стевією та з малиновим сорбетом — ситний, дружній до цукру сніданок.' },
     nutrition: { en: 'Per serving (est.): ~360 kcal · Carbs 28 g · Fat 10 g · Protein 40 g', ua: 'На порцію (прибл.): ~360 ккал · Вуглеводи 28 г · Жири 10 г · Білки 40 г' },
@@ -543,6 +590,7 @@ export const RECIPES = [
   {
     slug: 'mushroom-chickpea-burger', dateAdded: '2026-07-10', img: '48-mushroom-chickpea-burger.jpg', cat: 'main', gi: 33,
     tags: ['vegetarian'],
+    imgAlt: { en: "A chunky chickpea and mushroom patty on a toasted bun with white sauce, tomato slices and rocket, a second patty and a bowl of dressing beside it.", ua: "Груба котлета з нуту й грибів на підсмаженій булці з білим соусом, скибками помідора та рукколою; поруч друга котлета й мисочка соусу." },
     title: { en: 'Mushroom & Chickpea Veggie Burger', ua: 'Вегетаріанський бургер з грибами та нутом' },
     why: { en: 'Protein-packed chickpea-and-mushroom patties spiced with curry — a meat-free burger with fibre and slow carbs, in a wholegrain bun with a yoghurt sauce.', ua: 'Котлети з нуту й грибів, багаті на білок і приправлені карі — бургер без м’яса з клітковиною й повільними вуглеводами, у цільнозерновій булочці з йогуртовим соусом.' },
     nutrition: { en: 'Per serving (est.): ~160 kcal · Carbs 25 g · Fat 3 g · Protein 8 g', ua: 'На порцію (прибл.): ~160 ккал · Вуглеводи 25 г · Жири 3 г · Білки 8 г' },
@@ -553,6 +601,7 @@ export const RECIPES = [
   {
     slug: 'strawberry-cheesecake', dateAdded: '2026-07-10', img: '49-strawberry-cheesecake.jpg', cat: 'dessert', gi: 50,
     tags: ['vegetarian'],
+    imgAlt: { en: "A small round pink cheesecake with whole strawberries set into the sides, topped with halved strawberries, coconut flakes and oats.", ua: "Невеликий круглий рожевий чизкейк із цілими полуницями по боках, зверху половинки полуниці, кокосова стружка й вівсяні пластівці." },
     title: { en: 'No-bake Strawberry Cheesecake', ua: 'Полуничний чізкейк без випікання' },
     why: { en: 'A light quark cheesecake set with gelatine on a banana-granola base, topped with fresh strawberries — high in protein, with no added sugar beyond a little honey.', ua: 'Легкий сирний чізкейк на желатині з бананово-granola-основою та свіжою полуницею — багатий на білок, без доданого цукру, крім трохи меду.' },
     nutrition: { en: 'Per serving (est.): ~110 kcal · Carbs 10 g · Fat 3 g · Protein 12 g', ua: 'На порцію (прибл.): ~110 ккал · Вуглеводи 10 г · Жири 3 г · Білки 12 г' },
@@ -563,6 +612,7 @@ export const RECIPES = [
   {
     slug: 'strawberry-basil-cake', dateAdded: '2026-07-10', img: '50-strawberry-basil-cake.jpg', cat: 'dessert', gi: 36,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A slice of layered cake on a white plate, pale green cream between pink sponge layers with strawberry slices, fresh basil leaves on top.", ua: "Шматок шаруватого торта на білій тарілці: блідо-зелений крем між рожевими коржами зі скибками полуниці, зверху свіжі листки базиліку." },
     title: { en: 'Strawberry Cake with Basil Cream', ua: 'Полуничний торт з базиліковим кремом' },
     why: { en: 'A light almond-and-wholegrain sponge, naturally pink, layered with a quark-and-basil cream and fresh strawberries — sweetened with stevia, so it stays gentle on blood sugar.', ua: 'Легкий мигдально-цільнозерновий бісквіт, природно рожевий, прошарований кремом із сиру й базиліку та свіжою полуницею — підсолоджений стевією, тож м’який для рівня цукру.' },
     nutrition: { en: 'Per serving (est.): ~210 kcal · Carbs 20 g · Fat 8 g · Protein 14 g', ua: 'На порцію (прибл.): ~210 ккал · Вуглеводи 20 г · Жири 8 г · Білки 14 г' },
@@ -643,6 +693,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-prune-dessert', dateAdded: '2026-07-10', img: '58-chocolate-prune-dessert.jpg', cat: 'dessert', gi: 40,
     tags: ['vegetarian'],
+    imgAlt: { en: "Two dark chocolate squares on a white plate, each a brownie base under a white cream layer and a rough dark prune topping, cocoa dusted around them.", ua: "Два темні шоколадні квадратики на білій тарілці: брауні-основа, шар білого крему й груба темна начинка з чорносливу; навколо притрушено какао." },
     title: { en: 'Chocolate, Prune & Cottage Cheese Dessert', ua: 'Шоколадний десерт з чорносливом і сиром' },
     why: { en: "A no-bake 'anything-in-the-cupboard' dessert — wholegrain bread soaked in carob, layered with a nutty cottage-cheese cream and prunes. Protein-rich, sweetened only by the prunes and stevia.", ua: 'Десерт без випікання «з того, що є вдома» — цільнозерновий хліб, просочений керобом, з горіховим сирним кремом і чорносливом. Багатий на білок, підсолоджений лише чорносливом і стевією.' },
     nutrition: { en: 'Per serving (est.): ~280 kcal · Carbs 30 g · Fat 12 g · Protein 15 g', ua: 'На порцію (прибл.): ~280 ккал · Вуглеводи 30 г · Жири 12 г · Білки 15 г' },
@@ -653,6 +704,7 @@ export const RECIPES = [
   {
     slug: 'berry-smoothie', dateAdded: '2026-07-10', img: '59-berry-smoothie.jpg', cat: 'breakfast', gi: 31,
     tags: ['vegetarian', 'gluten-free'],
+    imgAlt: { en: "A hand holding a glass bottle of pale pink smoothie with a foamy top, against a white background.", ua: "Рука тримає скляну пляшку блідо-рожевого смузі з пінкою зверху на білому тлі." },
     title: { en: 'Berry Smoothie', ua: 'Ягідний смузі' },
     why: { en: 'A quick berry-and-yoghurt smoothie with flax for protein, fibre and omega-3 — the yoghurt and flax slow the fruit sugars.', ua: 'Швидкий ягідно-йогуртовий смузі з льоном для білка, клітковини й омега-3 — йогурт і льон сповільнюють фруктовий цукор.' },
     nutrition: { en: 'Per serving (est.): ~125 kcal · Carbs 12 g · Fat 4 g · Protein 14 g', ua: 'На порцію (прибл.): ~125 ккал · Вуглеводи 12 г · Жири 4 г · Білки 14 г' },
@@ -663,6 +715,7 @@ export const RECIPES = [
   {
     slug: 'grapefruit-parsley-smoothie', dateAdded: '2026-07-10', img: '60-grapefruit-parsley-smoothie.jpg', cat: 'breakfast', gi: 39,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "Looking down into a glass jar of pale pink smoothie, small bubbles across the surface, on white painted boards.", ua: "Вигляд згори у скляну банку з блідо-рожевим смузі, на поверхні дрібні бульбашки; на білих фарбованих дошках." },
     title: { en: 'Grapefruit & Parsley Smoothie', ua: 'Грейпфрутовий смузі з петрушкою' },
     why: { en: 'A light, cleansing smoothie of grapefruit and parsley with flax — vitamin C and fibre, with barely any sugar.', ua: 'Легкий очищувальний смузі з грейпфрута й петрушки з льоном — вітамін C і клітковина, майже без цукру.' },
     nutrition: { en: 'Per serving (est.): ~70 kcal · Carbs 10 g · Fat 3 g · Protein 3 g', ua: 'На порцію (прибл.): ~70 ккал · Вуглеводи 10 г · Жири 3 г · Білки 3 г' },
@@ -673,6 +726,7 @@ export const RECIPES = [
   {
     slug: 'apple-celery-smoothie', dateAdded: '2026-07-10', img: '61-apple-celery-smoothie.jpg', cat: 'breakfast', gi: 27,
     tags: ['vegetarian', 'dairy-free', 'gluten-free', 'low-carb'],
+    imgAlt: { en: "A glass bottle of thick pale beige smoothie standing in sunlight on turquoise painted wood.", ua: "Скляна пляшка густого блідо-бежевого смузі на сонці, на бірюзовому фарбованому дереві." },
     title: { en: 'Apple & Celery Smoothie', ua: 'Смузі з яблуком і селерою' },
     why: { en: 'A simple low-calorie apple-and-celery drink with lemon — fresh, hydrating and very light on carbs.', ua: 'Простий низькокалорійний напій з яблука й селери з лимоном — свіжий, зволожувальний і дуже легкий за вуглеводами.' },
     nutrition: { en: 'Per serving (est.): ~30 kcal · Carbs 7 g · Fat 0 g · Protein 0 g', ua: 'На порцію (прибл.): ~30 ккал · Вуглеводи 7 г · Жири 0 г · Білки 0 г' },
@@ -683,6 +737,7 @@ export const RECIPES = [
   {
     slug: 'carrot-smoothie', dateAdded: '2026-07-10', img: '62-carrot-smoothie.jpg', cat: 'breakfast', gi: 32,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A glass bottle of orange smoothie on a light wooden table, sunlight falling across it.", ua: "Скляна пляшка помаранчевого смузі на світлому дерев’яному столі, освітлена сонцем." },
     title: { en: 'Carrot Smoothie', ua: 'Морквяний смузі' },
     why: { en: 'Carrot juice, apple and flax — a light breakfast or afternoon drink with fibre and beta-carotene.', ua: 'Морквяний сік, яблуко й льон — легкий сніданок або полуденок із клітковиною й бета-каротином.' },
     nutrition: { en: 'Per serving (est.): ~55 kcal · Carbs 11 g · Fat 1 g · Protein 1 g', ua: 'На порцію (прибл.): ~55 ккал · Вуглеводи 11 г · Жири 1 г · Білки 1 г' },
@@ -693,6 +748,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-nut-smoothie', dateAdded: '2026-07-10', img: '63-chocolate-nut-smoothie.jpg', cat: 'breakfast', gi: 26,
     tags: ['sugar-free', 'vegetarian', 'gluten-free'],
+    imgAlt: { en: "Looking down into a glass bottle of dark brown smoothie with a fine foam on the surface.", ua: "Вигляд згори у скляну пляшку темно-коричневого смузі з дрібною пінкою на поверхні." },
     title: { en: 'Chocolate-Nut Smoothie', ua: 'Шоколадно-горіховий смузі' },
     why: { en: 'A kefir smoothie with peanut butter and carob — a chocolatey drink with protein and no added sugar (carob is naturally sweet).', ua: 'Кефірний смузі з арахісовою пастою й керобом — шоколадний напій із білком і без доданого цукру (кероб солодкий сам по собі).' },
     nutrition: { en: 'Per serving (est.): ~220 kcal · Carbs 14 g · Fat 12 g · Protein 12 g', ua: 'На порцію (прибл.): ~220 ккал · Вуглеводи 14 г · Жири 12 г · Білки 12 г' },
@@ -703,6 +759,7 @@ export const RECIPES = [
   {
     slug: 'parsley-walnut-smoothie', dateAdded: '2026-07-10', img: '64-parsley-walnut-smoothie.jpg', cat: 'breakfast', gi: 37,
     tags: ['vegetarian', 'gluten-free'],
+    imgAlt: { en: "A glass bottle of pale green smoothie flecked with herbs, fresh parsley lying on white boards in front of it.", ua: "Скляна пляшка блідо-зеленого смузі з вкрапленнями зелені; попереду на білих дошках лежить свіжа петрушка." },
     title: { en: 'Parsley & Walnut Smoothie', ua: 'Смузі з петрушкою та горіхами' },
     seoTitle: { en: "Parsley & Walnut Smoothie — Green Breakfast, GI 37", ua: "Смузі з петрушкою та волоськими горіхами на сніданок" },
     metaDesc: { en: "A green breakfast smoothie that does not taste green: banana, parsley, yoghurt and walnuts. Protein and fat balance the fruit, so GI stays at 37.", ua: "Зелений смузі, що не має смаку зелені: банан, петрушка, йогурт і горіхи. Білок і жири врівноважують фрукти — ГІ 37." },
@@ -715,6 +772,7 @@ export const RECIPES = [
   {
     slug: 'spinach-smoothie', dateAdded: '2026-07-10', img: '65-spinach-smoothie.jpg', cat: 'breakfast', gi: 15,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'low-carb'],
+    imgAlt: { en: "Looking down into a glass jar of bright green smoothie, a ring of small bubbles across the surface.", ua: "Вигляд згори у скляну банку з яскраво-зеленим смузі; по поверхні кільце дрібних бульбашок." },
     title: { en: 'Spinach Smoothie', ua: 'Шпинатний смузі' },
     why: { en: 'A green kefir smoothie with spinach and flax — protein, iron and omega-3, very low in sugar. A good start to the day.', ua: 'Зелений кефірний смузі зі шпинатом і льоном — білок, залізо й омега-3, дуже мало цукру. Гарний початок дня.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 6 g · Fat 4 g · Protein 6 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 6 г · Жири 4 г · Білки 6 г' },
@@ -725,6 +783,7 @@ export const RECIPES = [
   {
     slug: 'easter-kulich-lavender', dateAdded: '2026-07-10', img: '66-easter-kulich-lavender.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A jar of oat mixture topped with a thick white glaze, dried lavender to one side and a paper Easter egg decoration beside it.", ua: "Банка з вівсяною сумішшю під товстою білою глазур’ю; збоку суха лаванда та паперова великодня прикраса у формі яйця." },
     title: { en: 'Easter Kulich with Lavender', ua: 'Пасхальний кулич з лавандою' },
     why: { en: 'A yeast-free Easter kulich with lavender, turmeric and cinnamon — wholegrain and almond flour, sweetened with stevia, with a sunny natural colour from turmeric.', ua: 'Бездріжджовий пасхальний кулич з лавандою, куркумою й корицею — цільнозернове й мигдалеве борошно, підсолоджений стевією, із сонячним природним кольором від куркуми.' },
     nutrition: { en: 'Per serving (est.): ~250 kcal · Carbs 30 g · Fat 10 g · Protein 10 g', ua: 'На порцію (прибл.): ~250 ккал · Вуглеводи 30 г · Жири 10 г · Білки 10 г' },
@@ -885,6 +944,7 @@ export const RECIPES = [
   {
     slug: 'rye-kulich-ginger-anise', dateAdded: '2026-07-10', img: '82-rye-kulich-ginger-anise.jpg', cat: 'baking', gi: 42,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "A round rye Easter loaf studded with dried cranberries and candied peel, sitting in a nest of straw.", ua: "Круглий житній великодній кулич із в’яленою журавлиною та цукатами, у гнізді з соломи." },
     title: { en: 'Rye Easter Kulich with Ginger & Anise', ua: 'Пасхальний кулич на житньому борошні з імбиром та анісом' },
     why: { en: 'A lighter Easter kulich on coarse rye flour with dried fruit, ginger and anise — wholegrain and yeast-free, sweetened with stevia and the fruit.', ua: 'Легший пасхальний кулич на житньому борошні грубого помелу з сухофруктами, імбиром та анісом — цільнозерновий і бездріжджовий, підсолоджений стевією та фруктами.' },
     nutrition: { en: 'Per serving (est.): ~370 kcal · Carbs 50 g · Fat 16 g · Protein 6 g', ua: 'На порцію (прибл.): ~370 ккал · Вуглеводи 50 г · Жири 16 г · Білки 6 г' },
@@ -895,6 +955,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-cherry-leaf-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 22,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb Jam with Cherry Leaves', ua: 'Варення з ревеню з вишневими листками' },
     // OPS-201 rhubarb cluster — spoke. The only one of the five with zero GSC
     // impressions in either language, so the modifier leads in both.
@@ -910,6 +971,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-orange-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 43,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb & Orange Jam', ua: 'Варення з ревеню з апельсинами' },
     // OPS-201 rhubarb cluster — spoke. UA leads with the exact ranking query
     // (`варення з ревеню і апельсинами`, position 17.0) — note "і", not the
@@ -926,6 +988,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-quick-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Quick Baked Rhubarb Jam', ua: 'Варення з ревеню «П’ятихвилинка»' },
     // OPS-201 rhubarb cluster — HUB. This page owns the head term: lowest GI of
     // the five, fewest steps, no flavouring to qualify it. The UA title also
@@ -943,6 +1006,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-lavender-jam', dateAdded: '2026-07-10', img: '84-rhubarb-lavender-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'dairy-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb & Lavender Jam (Sugar-free)', ua: 'Варення з ревеню з лавандою (без цукру)' },
     // OPS-201 rhubarb cluster — spoke. UA leads with lavender because GSC shows
     // `варення з лаванди` (no rhubarb in the query) reaching this page at
@@ -960,6 +1024,7 @@ export const RECIPES = [
   {
     slug: 'turkey-meatloaf-parsley', dateAdded: '2026-07-10', img: '85-turkey-meatloaf-parsley.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'dairy-free'],
+    imgAlt: { en: "A pale turkey meatloaf on a rimmed plate, flecked through with herbs and chopped vegetables, fresh parsley on the white boards beside it.", ua: "Світлий індичий мітлоф на тарілці з обідком, з вкрапленнями зелені та подрібнених овочів; поруч на білих дошках свіжа петрушка." },
     title: { en: 'Turkey & Parsley Meatloaf', ua: 'Мітлоф з індички з петрушкою' },
     why: { en: 'Lean turkey breast is high in protein with almost no carbohydrate, and the beans add slow-digesting fibre in place of the usual breadcrumbs — so this meatloaf keeps you full without spiking blood sugar.', ua: 'Пісне філе індички багате на білок і майже не містить вуглеводів, а квасоля додає повільну клітковину замість звичних сухарів — тож мітлоф добре насичує без стрибків цукру.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 8 g · Fat 10 g · Protein 45 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 8 г · Жири 10 г · Білки 45 г' },
@@ -971,6 +1036,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-cake-nut-cream', dateAdded: '2026-07-10', img: '86-chocolate-cake-nut-cream.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A slice of dark chocolate cake on a white plate under a thick glossy chocolate topping, scattered with fine orange zest.", ua: "Шматок темного шоколадного торта на білій тарілці під товстою глянцевою шоколадною глазур’ю, притрушений дрібною помаранчевою цедрою." },
     title: { en: 'Chocolate Cake with Nut Cream (Sugar-free)', ua: 'Шоколадний торт з горіховим кремом (без цукру)' },
     why: { en: 'Oat flour has a lower GI than wheat, and carob or cocoa brings deep chocolate flavour with no added sugar — stevia does the sweetening. Peanut butter in the cream adds protein and healthy fat that slow digestion.', ua: 'Вівсяне борошно має нижчий ГІ, ніж пшеничне, а ріжкове борошно чи какао дають насичений шоколадний смак без доданого цукру — солодкість забезпечує стевія. Арахісова паста в кремі додає білок і корисні жири, що сповільнюють засвоєння.' },
     nutrition: { en: 'Per serving (est.): ~320 kcal · Carbs 34 g · Fat 14 g · Protein 12 g', ua: 'На порцію (прибл.): ~320 ккал · Вуглеводи 34 г · Жири 14 г · Білки 12 г' },
@@ -981,6 +1047,7 @@ export const RECIPES = [
   {
     slug: 'broccoli-spinach-cream-soup', dateAdded: '2026-07-10', img: '87-broccoli-spinach-cream-soup.jpg', cat: 'main', gi: 18,
     tags: ['gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A wide white bowl of bright green cream soup, topped with sliced spring onion, chopped nuts and seeds, on pale painted boards.", ua: "Широка біла тарілка яскраво-зеленого крем-супу, зверху кільця зеленої цибулі, подрібнені горіхи й насіння, на світлих фарбованих дошках." },
     title: { en: 'Green Cream Soup (Broccoli & Spinach)', ua: 'Зелений крем-суп з броколі та шпинатом' },
     why: { en: 'Broccoli and spinach are non-starchy, low-GI vegetables packed with fibre. Steaming keeps their nutrients and colour, and a little cream and almonds add protein and fat that steady blood sugar.', ua: 'Броколі та шпинат — некрохмалисті овочі з низьким ГІ, багаті на клітковину. Приготування на парі зберігає поживні речовини й колір, а трохи вершків і мигдалю додають білок і жири, що стабілізують цукор.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 12 g · Fat 12 g · Protein 8 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 12 г · Жири 12 г · Білки 8 г' },
@@ -991,6 +1058,7 @@ export const RECIPES = [
   {
     slug: 'coconut-cheesecake', dateAdded: '2026-07-10', img: '88-coconut-cheesecake.jpg', cat: 'dessert', gi: 48,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A cheesecake on a stand with a slice being lifted away, thick white cream over a nutty crumb base, crumbs scattered across the blue table.", ua: "Чизкейк на підставці, з якого знімають шматок: товстий білий крем на горіховій основі, по синьому столу розсипані крихти." },
     title: { en: 'The Best Coconut Cheesecake (Sugar-free)', ua: 'Найкращий кокосовий чизкейк (без цукру)' },
     why: { en: 'A lighter cheesecake built on high-protein cottage cheese and coconut instead of heaps of sugar. Stevia sweetens it, and the coconut oil and cream give richness without a blood-sugar spike.', ua: 'Легший чизкейк на основі багатого білком сиру та кокоса замість гори цукру. Солодкість дає стевія, а кокосова олія та вершки — вершковість без стрибка цукру.' },
     nutrition: { en: 'Per serving (est.): ~380 kcal · Carbs 20 g · Fat 28 g · Protein 15 g', ua: 'На порцію (прибл.): ~380 ккал · Вуглеводи 20 г · Жири 28 г · Білки 15 г' },
@@ -1001,6 +1069,7 @@ export const RECIPES = [
   {
     slug: 'blueberry-jam', dateAdded: '2026-07-10', img: '89-blueberry-jam.jpg', cat: 'sauce', gi: 53,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up into an open glass jar of dark purple blueberry jam, filled to the rim.", ua: "Крупним планом відкрита скляна банка з темно-фіолетовим чорничним варенням, наповнена до країв." },
     title: { en: 'Sugar-free Blueberry Jam', ua: 'Чорничний джем: рецепт без цукру' },
     seoTitle: { en: "Sugar-free Blueberry Jam — Set with Agar, No Pectin", ua: "Чорничний джем без цукру — на агарі та стевії, ГІ 53" },
     metaDesc: { en: "Blueberry jam with no sugar at all — agar sets it, stevia sweetens it. Blueberries are among the lowest-GI fruits, so you keep the flavour.", ua: "Чорничний джем без цукру: загущений агаром, підсолоджений стевією. Чорниця — одна з найнижчих за ГІ ягід, тож смак повний, а цукор спокійний." },
@@ -1013,6 +1082,7 @@ export const RECIPES = [
   {
     slug: 'barley-mushroom-perlotto', dateAdded: '2026-07-10', img: '90-barley-mushroom-perlotto.jpg', cat: 'main', gi: 23,
     tags: ['vegetarian'],
+    imgAlt: { en: "A creamy pearl barley and mushroom dish on a square white plate, ringed with chopped green herbs, a sprig of rosemary on top.", ua: "Кремове перлове різото з грибами на квадратній білій тарілці, обкладене рубаною зеленню, зверху гілочка розмарину." },
     title: { en: 'Pearl Barley Perlotto with Mushrooms & Goat Cheese', ua: 'Перлотто з грибами та козячим сиром' },
     why: { en: 'Pearl barley has one of the lowest GIs of any grain (around 25) thanks to its beta-glucan fibre — a much gentler choice than the Arborio rice of a classic risotto. Mushrooms and goat cheese add protein and savoury depth.', ua: 'Перлова крупа має один із найнижчих ГІ серед зернових (близько 25) завдяки клітковині бета-глюкану — набагато м’якший вибір, ніж рис арборіо у класичному різото. Гриби та козячий сир додають білок і насичений смак.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 26 g · Fat 5 g · Protein 7 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 26 г · Жири 5 г · Білки 7 г' },
@@ -1024,6 +1094,7 @@ export const RECIPES = [
   {
     slug: 'fruit-popsicles', dateAdded: '2026-07-10', img: '91-fruit-popsicles.jpg', cat: 'dessert', gi: 51,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Three pale pink ice lollies flecked with berries on a white plate, each on a differently coloured plastic stick, on a bamboo mat.", ua: "Три блідо-рожеві морозива з вкрапленнями ягід на білій тарілці, кожне на пластиковій паличці свого кольору, на бамбуковій серветці." },
     title: { en: 'Homemade Fruit Popsicles', ua: 'Домашнє фруктове ескімо' },
     seoTitle: { en: "Homemade Fruit Popsicles — No Added Sugar, 3 Ingredients", ua: "Фруктове ескімо без цукру — 3 інгредієнти" },
     metaDesc: { en: "Blended fruit, frozen — no added sugar, no cream, no ice-cream maker. Banana and blackcurrant with a little stevia, for a lighter frozen pudding.", ua: "Фрукти, збиті й заморожені — без цукру, вершків і морозивниці. Банан і чорна смородина зі стевією: легкий заморожений десерт." },
@@ -1037,6 +1108,7 @@ export const RECIPES = [
   {
     slug: 'blackberry-sorbet', dateAdded: '2026-07-10', img: '92-blackberry-sorbet.jpg', cat: 'dessert', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A scoop of deep purple sorbet on a spoon resting on a white plate.", ua: "Порція темно-фіолетового сорбету на ложці, що лежить на білій тарілці." },
     title: { en: 'Homemade Blackberry Sorbet', ua: 'Домашній ожиновий сорбет' },
     why: { en: 'A two-fruit sorbet with no dairy and no added sugar beyond an optional spoon of honey. Blackberries and apple freeze into fine ice crystals, so it is light and refreshing with a modest glycaemic load.', ua: 'Сорбет із двох фруктів без молочних продуктів і без доданого цукру, окрім необов’язкової ложки меду. Ожина та яблуко замерзають дрібними кристаликами, тож десерт легкий і освіжний із помірним глікемічним навантаженням.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 22 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 22 г · Жири 0 г · Білки 1 г' },
@@ -1048,6 +1120,7 @@ export const RECIPES = [
   {
     slug: 'zucchini-spaghetti-salmon', dateAdded: '2026-07-10', img: '93-zucchini-spaghetti-salmon.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
+    imgAlt: { en: "A mound of courgette noodles with flakes of salmon through it on a square white plate, topped with fresh flat-leaf parsley.", ua: "Гірка спагеті з кабачка зі шматочками лосося на квадратній білій тарілці, зверху свіжа листова петрушка." },
     title: { en: 'Zucchini Spaghetti with Salmon', ua: 'Спагеті з кабачка з лососем' },
     why: { en: 'Ribbons of courgette stand in for pasta, cutting the carbs to almost nothing while keeping the shape and feel of spaghetti. Salmon adds protein and omega-3, for a quick low-GI main.', ua: 'Стрічки кабачка замінюють макарони, зводячи вуглеводи майже до нуля, але зберігаючи форму й відчуття спагеті. Лосось додає білок та омега-3 — швидка основна страва з низьким ГІ.' },
     nutrition: { en: 'Per serving (est.): ~150 kcal · Carbs 6 g · Fat 8 g · Protein 13 g', ua: 'На порцію (прибл.): ~150 ккал · Вуглеводи 6 г · Жири 8 г · Білки 13 г' },
@@ -1324,6 +1397,7 @@ export const RECIPES = [
   {
     slug: 'matcha-latte', dateAdded: '2026-07-10', img: '120-matcha-latte.jpg', cat: 'drink', gi: 25,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up of a white cup of pale green matcha latte, fine bubbles across the foam, on a wooden table.", ua: "Крупним планом біла чашка блідо-зеленого матча-лате з дрібними бульбашками на пінці, на дерев’яному столі." },
     title: { en: 'Matcha Latte', ua: 'Латте з матчею' },
     why: { en: 'Matcha whisked into warm almond milk gives slow-release energy and antioxidants with only a teaspoon of maple. A gentler morning lift than sugary coffee drinks.', ua: 'Матча, збита з теплим мигдалевим молоком, дає повільну енергію та антиоксиданти лише з однією ложкою кленового сиропу. М’якший ранковий заряд, ніж солодкі кавові напої.' },
     nutrition: { en: 'Per serving (est.): ~132 kcal · Carbs 8 g · Fat 10 g · Protein 3 g', ua: 'На порцію (прибл.): ~132 ккал · Вуглеводи 8 г · Жири 10 г · Білки 3 г' },
@@ -1454,6 +1528,7 @@ export const RECIPES = [
   {
     slug: 'easter-kulich-yeast-free', dateAdded: '2026-07-10', img: '133-easter-kulich-yeast-free.jpg', cat: 'baking', gi: 41,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "The domed top of an Easter loaf studded with dried berries, dusted with desiccated coconut, on a white surface.", ua: "Округла верхівка великоднього кулича з в’яленими ягодами, притрушена кокосовою стружкою, на білій поверхні." },
     title: { en: 'Yeast-free Easter Kulich', ua: 'Пасхальний кулич без дріжджів' },
     why: { en: 'A kulich with no yeast, dairy or eggs — wholegrain flour and homemade nut milk, sweetened only with stevia and the natural sugars of dried fruit. Lower-GI than a classic sweet kulich.', ua: 'Кулич без дріжджів, молочних продуктів і яєць — цільнозернове борошно та домашнє горіхове молоко, підсолоджений лише стевією та природним цукром сухофруктів. Нижчий ГІ, ніж у класичного солодкого куличу.' },
     nutrition: { en: 'Per serving (est.): ~260 kcal · Carbs 48 g · Fat 5 g · Protein 8 g', ua: 'На порцію (прибл.): ~260 ккал · Вуглеводи 48 г · Жири 5 г · Білки 8 г' },
@@ -1464,6 +1539,7 @@ export const RECIPES = [
   {
     slug: 'easter-kulich-coconut-flour', dateAdded: '2026-07-10', img: '134-easter-kulich-coconut-flour.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "An Easter loaf on baking paper spread with thick white cream, decorated in bands of walnuts, dates, diced mango, goji berries, black sesame and dried blue cornflowers.", ua: "Великодній кулич на пергаменті, вкритий товстим шаром білого крему й прикрашений смугами волоських горіхів, фініків, кубиків манго, ягід годжі, чорного кунжуту та сухих синіх волошок." },
     title: { en: 'Coconut-Flour Easter Kulich with Nut Cream', ua: 'Пасхальний кулич на кокосовому борошні з горіховим кремом' },
     why: { en: 'A grain-free, low-carb kulich on coconut flour with a cashew-yoghurt cream — no wheat, no added sugar. Eggs and nuts bring protein and fat that keep it satisfying and low-GI.', ua: 'Безглютеновий низьковуглеводний кулич на кокосовому борошні з кремом із кеш’ю та йогурту — без пшениці та доданого цукру. Яйця й горіхи додають білок і жири, що роблять його ситним і з низьким ГІ.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 18 g · Fat 22 g · Protein 12 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 18 г · Жири 22 г · Білки 12 г' },
@@ -1474,6 +1550,7 @@ export const RECIPES = [
   {
     slug: 'carob-chocolates', dateAdded: '2026-07-10', img: '135-carob-chocolates.jpg', cat: 'dessert', gi: 49,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Dark carob chocolates turned out on a glass surface, each topped with dried blue cornflower petals.", ua: "Темні цукерки з ріжкового дерева на скляній поверхні, кожна прикрашена сухими пелюстками синьої волошки." },
     title: { en: 'Carob Chocolates (No Sugar, No Cocoa)', ua: 'Шоколадні цукерки без цукру та какао' },
     seoTitle: { en: "Carob Chocolates — No Sugar, No Cocoa, No Dairy", ua: "Цукерки з ріжкового дерева — без цукру, какао й молока" },
     metaDesc: { en: "Homemade chocolates from cocoa butter and carob. Carob is sweet on its own, so there is no sugar, no cocoa and no dairy in them at all.", ua: "Домашні цукерки з какао-масла та ріжкового борошна. Ріжкове солодке саме по собі — тож без цукру, какао й молочного." },
@@ -1486,6 +1563,7 @@ export const RECIPES = [
   {
     slug: 'sugar-free-stollen', dateAdded: '2026-07-10', img: '136-sugar-free-stollen.jpg', cat: 'baking', gi: 48,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A dark fruit loaf thickly dusted with white sugar substitute, one slice cut and laid beside it showing berries and candied peel in the crumb.", ua: "Темний фруктовий кекс, щедро притрушений білим замінником цукру; поруч відрізана скибка, у м’якуші видно ягоди й цукати." },
     title: { en: 'Sugar-free Christmas Stollen', ua: 'Різдвяний штолен без цукру' },
     why: { en: 'A sourdough take on German stollen, packed with dried fruit and dusted in coconut instead of icing sugar. Fermentation and wholegrain flour lower the GI; stevia replaces the sugar.', ua: 'Штолен на заквасці за німецькими мотивами, наповнений сухофруктами та притрушений кокосом замість цукрової пудри. Ферментація та цільнозернове борошно знижують ГІ; стевія замінює цукор.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 52 g · Fat 8 g · Protein 8 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 52 г · Жири 8 г · Білки 8 г' },
@@ -1496,6 +1574,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-brownie-matcha-cream', dateAdded: '2026-07-10', img: '137-chocolate-brownie-matcha-cream.jpg', cat: 'baking', gi: 46,
     tags: ['vegetarian'],
+    imgAlt: { en: "A square of dense chocolate brownie on baking paper, topped with a thick swirl of pale green matcha cream.", ua: "Квадратик щільного шоколадного брауні на пергаменті, зверху товстий шар блідо-зеленого матча-крему." },
     title: { en: 'Chocolate Brownie with Matcha Cream', ua: 'Шоколадний брауні з кремом матча' },
     why: { en: 'A fudgy brownie on oat flour and Greek yoghurt with less oil than usual, topped with a tangy matcha-yoghurt cream. Stevia does the sweetening; chill it so it slices cleanly.', ua: 'Вологий брауні на вівсяному борошні та грецькому йогурті з меншою кількістю олії, з кислуватим кремом із матча та йогурту. Солодкість дає стевія; охолодіть, щоб гарно нарізати.' },
     nutrition: { en: 'Per serving (est.): ~340 kcal · Carbs 30 g · Fat 20 g · Protein 9 g', ua: 'На порцію (прибл.): ~340 ккал · Вуглеводи 30 г · Жири 20 г · Білки 9 г' },
@@ -1506,6 +1585,7 @@ export const RECIPES = [
   {
     slug: 'strawberry-breakfast-glass', dateAdded: '2026-07-10', img: '138-strawberry-breakfast-glass.jpg', cat: 'breakfast', gi: 40,
     tags: ['vegetarian'],
+    imgAlt: { en: "A tall glass layered with granola, thick white yoghurt and red strawberry compote, seen from the side.", ua: "Високий келих із шарами граноли, густого білого йогурту й червоного полуничного компоту, вигляд збоку." },
     title: { en: 'Layered Strawberry Breakfast in a Glass', ua: 'Полуничний сніданок у келиху' },
     why: { en: 'A make-ahead parfait of protein-rich quark, granola and strawberries. Use plain quark and a sugar-free strawberry sauce to keep it low-GI — the granola and quark keep you full.', ua: 'Парфе, яке готують заздалегідь, з багатого білком сиру, granola та полуниці. Візьміть звичайний сир і безцукровий полуничний соус, щоб зберегти низький ГІ — granola та сир добре насичують.' },
     nutrition: { en: 'Per serving (est.): ~260 kcal · Carbs 30 g · Fat 9 g · Protein 14 g', ua: 'На порцію (прибл.): ~260 ккал · Вуглеводи 30 г · Жири 9 г · Білки 14 г' },
@@ -1517,6 +1597,7 @@ export const RECIPES = [
   {
     slug: 'pink-goji-cupcakes', dateAdded: '2026-07-10', img: '139-pink-goji-cupcakes.jpg', cat: 'baking', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "Cupcakes with a bright pink top, drizzled with white icing and scattered with coconut, goji berries and pieces of dried fruit.", ua: "Капкейки з яскраво-рожевою шапкою, политі білою глазур’ю й притрушені кокосом, ягодами годжі та шматочками сухофруктів." },
     title: { en: 'Pink Beetroot & Goji Cupcakes', ua: 'Рожеві кекси з буряком та ягодами годжі' },
     why: { en: 'Little cakes tinted pink with beetroot purée, built on wholegrain and flax flour with chia — no added sugar. Beetroot and seeds add fibre; goji berries bring antioxidants.', ua: 'Маленькі кекси, підфарбовані буряковим пюре, на цільнозерновому та лляному борошні з чіа — без доданого цукру. Буряк і насіння додають клітковину; ягоди годжі — антиоксиданти.' },
     nutrition: { en: 'Per cupcake (est.): ~130 kcal · Carbs 16 g · Fat 6 g · Protein 4 g', ua: 'На 1 кекс (прибл.): ~130 ккал · Вуглеводи 16 г · Жири 6 г · Білки 4 г' },
@@ -1527,6 +1608,7 @@ export const RECIPES = [
   {
     slug: 'strawberry-white-chocolate-tartlets', dateAdded: '2026-07-10', img: '140-strawberry-white-chocolate-tartlets.jpg', cat: 'baking', gi: 40,
     tags: ['vegetarian'],
+    imgAlt: { en: "Three small nutty tartlet cases on white boards, each filled with red strawberry compote and drizzled with melted white chocolate.", ua: "Три невеликі горіхові тарталетки на білих дошках, кожна наповнена червоним полуничним компотом і полита розтопленим білим шоколадом." },
     title: { en: 'Strawberry & White Chocolate Tartlets', ua: 'Тарталетки з полуницею та білим шоколадом' },
     why: { en: 'A thrifty dessert that turns leftover sugar-free cake into tartlet shells, filled with a stevia-sweetened strawberry compote set with pectin. A small, low-sugar sweet bite.', ua: 'Ощадливий десерт, що перетворює залишки безцукрового коржа на тарталетки, наповнені полуничним компотом на стевії, загущеним пектином. Маленьке частування з малим вмістом цукру.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 20 g · Fat 9 g · Protein 4 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 20 г · Жири 9 г · Білки 4 г' },
@@ -1537,6 +1619,7 @@ export const RECIPES = [
   {
     slug: 'beetroot-heart-cakes', dateAdded: '2026-07-10', img: '141-beetroot-heart-cakes.jpg', cat: 'baking', gi: 34,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "Small bright pink heart-shaped cakes scattered on a pale board, each spooned with white cream, a dark prune and desiccated coconut.", ua: "Невеликі яскраво-рожеві тістечка у формі сердець на світлій дошці, на кожному ложка білого крему, темний чорнослив і кокосова стружка." },
     title: { en: 'Pink Beetroot Heart Cakes', ua: 'Рожеві сердечка з буряком' },
     why: { en: 'Gluten-free little cakes coloured pink with boiled beetroot, on almond, coconut and flax flour with stevia — no sugar and no wheat. Nut flours add protein and fibre for a low-GI treat.', ua: 'Безглютенові маленькі кекси, підфарбовані вареним буряком, на мигдалевому, кокосовому та лляному борошні зі стевією — без цукру та пшениці. Горіхові борошна додають білок і клітковину для частування з низьким ГІ.' },
     nutrition: { en: 'Per serving (est.): ~220 kcal · Carbs 12 g · Fat 16 g · Protein 8 g', ua: 'На порцію (прибл.): ~220 ккал · Вуглеводи 12 г · Жири 16 г · Білки 8 г' },
@@ -1557,6 +1640,7 @@ export const RECIPES = [
   {
     slug: 'raw-new-year-cake', dateAdded: '2026-07-10', img: '143-raw-new-year-cake.jpg', cat: 'dessert', gi: 44,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A round raw cake with a deep red top, decorated in white cream with the numerals 2015, a fir tree, a snowflake and a heart, with a modelled snowman, gift box and candy cane standing on it.", ua: "Круглий сироїдний торт із темно-червоним верхом, прикрашений білим кремом: цифри 2015, ялинка, сніжинка й серце; зверху виліплені сніговик, подарункова коробка та карамельна тростинка." },
     title: { en: 'Raw New Year Cake (No Flour, Eggs or Sugar)', ua: 'Новорічний торт-сирим (без борошна, яєць і цукру)' },
     why: { en: 'A showstopping no-bake layered cake built entirely from nuts, dates and fruit — no flour, eggs, butter or refined sugar. Cashew creams and coconut oil give richness while keeping it low-GI.', ua: 'Ефектний торт без випікання, зроблений повністю з горіхів, фініків і фруктів — без борошна, яєць, масла та рафінованого цукру. Креми з кеш’ю та кокосова олія додають насиченості, зберігаючи низький ГІ.' },
     nutrition: { en: 'Per serving (est.): ~420 kcal · Carbs 40 g · Fat 28 g · Protein 8 g', ua: 'На порцію (прибл.): ~420 ккал · Вуглеводи 40 г · Жири 28 г · Білки 8 г' },
@@ -1600,6 +1684,7 @@ export const RECIPES = [
     imgs: ['147-maslenitsa-pancakes.jpg', '147-maslenitsa-pancakes-2.jpg', '147-maslenitsa-pancakes-3.jpg'],
     cat: 'breakfast', gi: 35,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "Thin pancakes in five natural colours — yellow, pale green, pink, red and light brown — fanned out on a white plate with a dark rim, on blue linen.", ua: "Тонкі млинці п’яти натуральних кольорів — жовтий, блідо-зелений, рожевий, червоний і світло-коричневий — розкладені віялом на білій тарілці з темним обідком, на синій льняній тканині." },
     title: { en: 'Healthy Pancakes for Maslenitsa (5 Colours)', ua: 'Корисні млинці на Масляну (5 кольорів)' },
     why: { en: "Quick, naturally colourful pancakes made without any added sugar or salt — every colour comes from a real food: cocoa, matcha, turmeric, beetroot and almond. Each batter is one egg on low-GI flour (flax, coconut, almond or wholegrain wheat), so a whole rainbow takes about 20 minutes in the morning.", ua: 'Швидкі яскраві млинці без доданого цукру та солі — колір кожного дає справжній продукт: какао, маття, куркума, буряк і мигдаль. Кожне тісто — це одне яйце на борошні з низьким ГІ (лляному, кокосовому, мигдалевому чи цільнозерновому), тож ціла веселка займе зранку близько 20 хвилин.' },
     nutrition: { en: 'Per colour (est.): ~150 kcal · Carbs 10 g · Fat 9 g · Protein 9 g (varies by colour)', ua: 'На один колір (прибл.): ~150 ккал · Вуглеводи 10 г · Жири 9 г · Білки 9 г (залежить від кольору)' },
@@ -1631,8 +1716,16 @@ export const RECIPES = [
   {
     slug: 'pear-courgette-salad', dateAdded: '2026-07-14', img: '148-pear-courgette-salad.jpg', cat: 'main', gi: 19,
     imgs: ['148-pear-courgette-salad.jpg', '148-pear-courgette-salad-2.jpg', '148-pear-courgette-salad-3.jpg'],
+    stepImgsAlt: {
+      1: { en: "A part-peeled courgette on a wooden board beside a julienne peeler, with long thin green strips curled between them.", ua: "Частково обчищений кабачок на дерев’яній дошці поруч із ножем для соломки; між ними — довгі тонкі зелені смужки." },
+      3: { en: "A whole white cabbage on a wooden board next to a box grater, with bottles of oil and soy sauce behind.", ua: "Ціла головка білоголової капусти на дерев’яній дошці поруч із чотиригранною теркою; позаду пляшки олії та соєвого соусу." },
+      5: { en: "A large metal bowl holding shredded cabbage, courgette and pear with chopped spring onion and a pile of yellow lemon zest.", ua: "Велика металева миска з нашаткованою капустою, кабачком і грушею, з рубаною зеленою цибулею та гіркою жовтої лимонної цедри." },
+      6: { en: "A white bowl of dark dressing scattered with black sesame seeds, a spoon resting in it.", ua: "Біла миска з темною заправкою, притрушеною чорним кунжутом, у ній лежить ложка." },
+      7: { en: "The dressed salad in a green bowl, the shreds glossy and brown, scattered with black sesame and finished with basil leaves.", ua: "Заправлений салат у зеленій мисці: соломка глянцева й коричнювата, притрушена чорним кунжутом, зверху листки базиліку." },
+    },
     stepImgs: { 1: '148-pear-courgette-salad-step1.jpg', 3: '148-pear-courgette-salad-step3.jpg', 5: '148-pear-courgette-salad-step5.jpg', 6: '148-pear-courgette-salad-step6.jpg', 7: '148-pear-courgette-salad-step7.jpg' },
     tags: ['low-carb', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A green bowl of shredded pear and courgette salad in a glossy dressing, scattered with black sesame seeds and finished with fresh basil leaves, whole pears behind.", ua: "Зелена миска салату з тертої груші й кабачка в глянцевій заправці, притрушеного чорним кунжутом і прикрашеного свіжим базиліком; позаду цілі груші." },
     title: { en: 'Pear & Courgette Salad with Sesame Dressing', ua: 'Салат з кабачком і грушею та кунжутною заправкою' },
     seoTitle: { en: "Pear & Courgette Salad with Sesame Dressing (Low GI)", ua: "Салат з кабачком і грушею — низький ГІ, без готування" },
     metaDesc: { en: "A crisp no-cook salad of raw courgette, cabbage and pear. High in fibre, low-carb and GI 19 — a side that will not move your blood sugar.", ua: "Хрумкий салат без готування: сирий кабачок, капуста і груша. Багато клітковини, ГІ 19 — гарнір, який не підніме цукор у крові." },
