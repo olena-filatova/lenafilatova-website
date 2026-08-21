@@ -832,6 +832,18 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
 }
 .res-tool:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* A tool's written companion — currently only the trials tracker's guide. It is
+   a SIBLING of the card's <a>, not a child (no nested links), so it is indented
+   by hand to line up with the card body (26px index + 16px gap) and pulled up
+   into the padding the card leaves below its CTA. Set in the muted ink, not the
+   accent, so it reads as secondary to the card's own "Open the tracker". */
+.res-guide {
+  display: inline-block; margin: -12px 0 18px 42px;
+  font-family: var(--font-body); font-size: 11px; font-weight: 700;
+  letter-spacing: 0.1em; color: var(--muted);
+}
+.res-guide:hover { color: var(--accent); }
+.res-guide:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* --- footer ---------------------------------------------------------------
    The colophon: a recessed paper2 band closed off by a heavy ink rule, so the

@@ -6021,7 +6021,18 @@ export const POSTS = [
             }
           ]
         },
-        {
+                {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Type 1 diabetes cure trials tracker",
+              "url": "/t1d-cure-trials/",
+              "desc": "Fourteen type 1 cure and disease-modifying programmes side by side — filter by country, phase, approach and whether each is still recruiting, including the free screening studies that are often the first step in."
+            }
+          ]
+        },
+{
           "t": "h",
           "text": "What the research says"
         },
@@ -6387,7 +6398,18 @@ export const POSTS = [
             }
           ]
         },
-        {
+                {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Трекер досліджень щодо лікування діабету 1 типу",
+              "url": "/t1d-cure-trials-ua/",
+              "desc": "Чотирнадцять програм щодо лікування та модифікації перебігу діабету 1 типу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір, разом із безкоштовними скринінговими дослідженнями, з яких часто починають."
+            }
+          ]
+        },
+{
           "t": "h",
           "text": "Що кажуть дослідження"
         },
@@ -11717,6 +11739,11 @@ export const POSTS = [
               "name": "AID system comparison",
               "url": "/aid-comparison/",
               "desc": "With the old eligibility rules dropped, this compares the closed-loop systems side by side."
+            },
+            {
+              "name": "Type 1 diabetes cure trials tracker",
+              "url": "/t1d-cure-trials/",
+              "desc": "The fourteen type 1 cure and disease-modifying trials side by side — who can take part, where, and how far along each has got."
             }
           ]
         }
@@ -11816,6 +11843,11 @@ export const POSTS = [
               "name": "Порівняння систем AID",
               "url": "/aid-comparison-ua/",
               "desc": "Коли попередні вимоги скасовано, ось порівняння систем «замкненої петлі» поруч."
+            },
+            {
+              "name": "Трекер досліджень щодо лікування діабету 1 типу",
+              "url": "/t1d-cure-trials-ua/",
+              "desc": "Чотирнадцять досліджень щодо лікування та модифікації перебігу діабету 1 типу поряд — хто може взяти участь, де і на якій стадії кожне."
             }
           ]
         }
@@ -13953,7 +13985,18 @@ export const POSTS = [
           "t": "p",
           "text": "The honest caveats matter here. This is a tiny, early, investigator-led study with follow-up so far measured in months, not years — a median of eight. Islet transplants still require donor tissue and lifelong immune-suppressing medication, so this isn't a cure you can ask for at a clinic. But as proof that better anti-rejection tools could make cell-replacement therapy realistic, it's genuinely exciting — and it points toward the stem-cell islet work moving through trials behind it."
         },
-        {
+                {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Type 1 diabetes cure trials tracker",
+              "url": "/t1d-cure-trials/",
+              "desc": "Where this trial sits among the fourteen cure and disease-modifying programmes being tracked — filter by approach, phase, and whether each is recruiting or free to join."
+            }
+          ]
+        },
+{
           "t": "h",
           "text": "What the research says"
         },
@@ -14005,7 +14048,18 @@ export const POSTS = [
           "t": "p",
           "text": "Чесні застереження тут важливі. Це крихітне, раннє дослідження, ініційоване дослідниками, зі спостереженням поки що в місяцях, а не роках — у середньому вісім. Трансплантація острівцевих клітин усе ще потребує донорської тканини та довічних імуносупресивних ліків, тож це не ліки, які можна попросити в клініці. Але як доказ того, що кращі засоби проти відторгнення можуть зробити клітинну замісну терапію реальною, це справді захопливо — і вказує на роботу зі стовбуровими острівцевими клітинами, що рухається в дослідженнях слідом."
         },
-        {
+                {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Трекер досліджень щодо лікування діабету 1 типу",
+              "url": "/t1d-cure-trials-ua/",
+              "desc": "Де це дослідження серед чотирнадцяти програм щодо лікування та модифікації перебігу — фільтри за підходом, фазою та тим, чи триває набір і чи безкоштовна участь."
+            }
+          ]
+        },
+{
           "t": "h",
           "text": "Що каже наука"
         },
