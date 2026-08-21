@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://lenafilatova.co.uk/aid-comparison-ua/">
 <link rel="alternate" hreflang="en" href="https://lenafilatova.co.uk/aid-comparison/">
 <link rel="alternate" hreflang="uk" href="https://lenafilatova.co.uk/aid-comparison-ua/">
+<link rel="alternate" hreflang="ru" href="https://lenafilatova.co.uk/aid-comparison-ua/" />
 <link rel="alternate" hreflang="x-default" href="https://lenafilatova.co.uk/aid-comparison/">
 <link rel="alternate" type="application/rss+xml" title="Lena Filatova — Журнал" href="https://lenafilatova.co.uk/ua/rss.xml">
 <meta property="og:type" content="website">
@@ -510,6 +511,23 @@ tbody tr.section-header td { position: static; border-right: none; }
 
 /* Framed: the tool is a widget inside an article that already has chrome. */
 html[data-lf-framed] [data-lf-chrome] { display: none !important; }
+
+.lf-langbar[hidden] { display: none !important; }
+.lf-langbar { display: block; background: var(--ink); color: #F1E6EE; padding: 9px 24px; }
+.lf-langbar-in { width: 100%; max-width: var(--lf-maxw); margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
+.lf-langbar p { margin: 0; flex: 1 1 auto; min-width: 0; font-family: var(--font-body); font-size: 13px; line-height: 1.5; }
+.lf-langbar a { color: #fff; text-decoration: none; flex: none; font-family: var(--font-body); font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
+.lf-langbar a:hover { border-bottom-color: #fff; }
+.lf-langbar a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.lf-langbar button { flex: none; border: 0; background: transparent; color: #C9B2C2; width: 32px; height: 32px; padding: 6px; cursor: pointer; display: grid; place-items: center; }
+.lf-langbar button svg { width: 100%; height: 100%; }
+.lf-langbar button:hover { color: #fff; }
+.lf-langbar button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@media (max-width: 560px) {
+  .lf-langbar { padding: 9px 16px; }
+  .lf-langbar-in { gap: 2px 12px; }
+  .lf-langbar p { flex: 1 1 100%; }
+}
 
 .lf-wrap { max-width: var(--lf-maxw); margin: 0 auto; padding: 0 clamp(18px, 3.5vw, 40px); }
 .lf-btn {

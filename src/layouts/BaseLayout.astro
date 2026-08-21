@@ -6,6 +6,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Newsletter from '../components/Newsletter.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import LangSuggest from '../components/LangSuggest.astro';
 import DIMS from '../data/image-dims.json';
 import '../styles/global.css';
 
@@ -19,7 +20,8 @@ const {
   jsonld,          // optional object → <script type="application/ld+json">
   showList = false, // recipe pages: show the shopping-list button in the header
   enHref, uaHref,   // recipe pages: where the EN/UA toggle points
-  alternates,      // optional {en, ua} site-absolute paths → hreflang links (x-default = en)
+  alternates,      // optional {en, ua} site-absolute paths → hreflang links
+                   // (en + uk + ru→ua; x-default = en)
   noindex = false, // hidden pages (e.g. shop while nothing is on sale)
   readingProgress = false, // long-read pages (blog posts): thin scroll indicator on top
   revealOnScroll = false, // homepage: fade sections up as they come into view
@@ -71,6 +73,24 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     <link rel="canonical" href={canonicalUrl} />
     {alternates && <link rel="alternate" hreflang="en" href={altEn} />}
     {alternates && <link rel="alternate" hreflang="uk" href={altUa} />}
+    {/* Russian-language searchers get the Ukrainian page, not the English one.
+        A real share of the site's search demand arrives in Russian — "черничный
+        джем без сахара", "морковный кекс без сахара" — and those people matched
+        neither `en` nor `uk`, so Google fell through to x-default and served
+        them English: the one language of the three they were least likely to
+        read. Ukrainian is much closer to a Russian reader than English is.
+
+        This is a deliberate misdeclaration and worth knowing as one: hreflang
+        is meant to name the language the target page is written in, and that
+        page is Ukrainian. What it says here is "for a Russian-speaking user,
+        this is the right page", which is the outcome we want and a mapping
+        Google tolerates. It may also be ignored — hreflang is a hint, not an
+        instruction, so treat it as improving the odds rather than as a switch.
+
+        x-default deliberately stays on English: it catches every *other*
+        unmatched language, and a German or Polish speaker is not better served
+        in Ukrainian. */}
+    {alternates && <link rel="alternate" hreflang="ru" href={altUa} />}
     {alternates && <link rel="alternate" hreflang="x-default" href={altEn} />}
     {/* Feed discovery (OPS-213) — each language advertises its own feed. */}
     <link rel="alternate" type="application/rss+xml"
@@ -118,6 +138,11 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     )}
   </head>
   <body>
+    {/* Offer the Ukrainian page to a Ukrainian- or Russian-language browser that
+        landed on the English one (OPS-369). Above the masthead so it scrolls
+        away — it is an offer made once, not chrome. English pages only: the
+        Ukrainian page has nothing to suggest. */}
+    {alternates && lang === 'en' && <LangSuggest uaHref={`${B.replace(/\/$/, '')}${slashed(alternates.ua)}`} />}
     {readingProgress && <div class="reading-progress" id="readingProgress" aria-hidden="true" hidden></div>}
     <Header lang={lang} showList={showList} enHref={enHref} uaHref={uaHref} />
     <main><slot /></main>

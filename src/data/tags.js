@@ -500,7 +500,7 @@ export const TAGS = [
 
   // How to read research
   {
-    key: 'trial-design', group: 'research',
+    key: 'clinical-trials', group: 'research',
     en: 'Clinical trials', ua: 'Клінічні випробування',
     posts: [
       'glp1-what-we-know',
