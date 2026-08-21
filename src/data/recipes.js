@@ -759,6 +759,7 @@ export const RECIPES = [
   {
     slug: 'parsley-walnut-smoothie', dateAdded: '2026-07-10', img: '64-parsley-walnut-smoothie.jpg', cat: 'breakfast', gi: 37,
     tags: ['vegetarian', 'gluten-free'],
+    imgAlt: { en: "A glass bottle of pale green smoothie flecked with herbs, fresh parsley lying on white boards in front of it.", ua: "Скляна пляшка блідо-зеленого смузі з вкрапленнями зелені; попереду на білих дошках лежить свіжа петрушка." },
     title: { en: 'Parsley & Walnut Smoothie', ua: 'Смузі з петрушкою та горіхами' },
     seoTitle: { en: "Parsley & Walnut Smoothie — Green Breakfast, GI 37", ua: "Смузі з петрушкою та волоськими горіхами на сніданок" },
     metaDesc: { en: "A green breakfast smoothie that does not taste green: banana, parsley, yoghurt and walnuts. Protein and fat balance the fruit, so GI stays at 37.", ua: "Зелений смузі, що не має смаку зелені: банан, петрушка, йогурт і горіхи. Білок і жири врівноважують фрукти — ГІ 37." },
@@ -771,6 +772,7 @@ export const RECIPES = [
   {
     slug: 'spinach-smoothie', dateAdded: '2026-07-10', img: '65-spinach-smoothie.jpg', cat: 'breakfast', gi: 15,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'low-carb'],
+    imgAlt: { en: "Looking down into a glass jar of bright green smoothie, a ring of small bubbles across the surface.", ua: "Вигляд згори у скляну банку з яскраво-зеленим смузі; по поверхні кільце дрібних бульбашок." },
     title: { en: 'Spinach Smoothie', ua: 'Шпинатний смузі' },
     why: { en: 'A green kefir smoothie with spinach and flax — protein, iron and omega-3, very low in sugar. A good start to the day.', ua: 'Зелений кефірний смузі зі шпинатом і льоном — білок, залізо й омега-3, дуже мало цукру. Гарний початок дня.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 6 g · Fat 4 g · Protein 6 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 6 г · Жири 4 г · Білки 6 г' },
@@ -781,6 +783,7 @@ export const RECIPES = [
   {
     slug: 'easter-kulich-lavender', dateAdded: '2026-07-10', img: '66-easter-kulich-lavender.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A jar of oat mixture topped with a thick white glaze, dried lavender to one side and a paper Easter egg decoration beside it.", ua: "Банка з вівсяною сумішшю під товстою білою глазур’ю; збоку суха лаванда та паперова великодня прикраса у формі яйця." },
     title: { en: 'Easter Kulich with Lavender', ua: 'Пасхальний кулич з лавандою' },
     why: { en: 'A yeast-free Easter kulich with lavender, turmeric and cinnamon — wholegrain and almond flour, sweetened with stevia, with a sunny natural colour from turmeric.', ua: 'Бездріжджовий пасхальний кулич з лавандою, куркумою й корицею — цільнозернове й мигдалеве борошно, підсолоджений стевією, із сонячним природним кольором від куркуми.' },
     nutrition: { en: 'Per serving (est.): ~250 kcal · Carbs 30 g · Fat 10 g · Protein 10 g', ua: 'На порцію (прибл.): ~250 ккал · Вуглеводи 30 г · Жири 10 г · Білки 10 г' },
@@ -941,6 +944,7 @@ export const RECIPES = [
   {
     slug: 'rye-kulich-ginger-anise', dateAdded: '2026-07-10', img: '82-rye-kulich-ginger-anise.jpg', cat: 'baking', gi: 42,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "A round rye Easter loaf studded with dried cranberries and candied peel, sitting in a nest of straw.", ua: "Круглий житній великодній кулич із в’яленою журавлиною та цукатами, у гнізді з соломи." },
     title: { en: 'Rye Easter Kulich with Ginger & Anise', ua: 'Пасхальний кулич на житньому борошні з імбиром та анісом' },
     why: { en: 'A lighter Easter kulich on coarse rye flour with dried fruit, ginger and anise — wholegrain and yeast-free, sweetened with stevia and the fruit.', ua: 'Легший пасхальний кулич на житньому борошні грубого помелу з сухофруктами, імбиром та анісом — цільнозерновий і бездріжджовий, підсолоджений стевією та фруктами.' },
     nutrition: { en: 'Per serving (est.): ~370 kcal · Carbs 50 g · Fat 16 g · Protein 6 g', ua: 'На порцію (прибл.): ~370 ккал · Вуглеводи 50 г · Жири 16 г · Білки 6 г' },
@@ -951,6 +955,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-cherry-leaf-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 22,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb Jam with Cherry Leaves', ua: 'Варення з ревеню з вишневими листками' },
     // OPS-201 rhubarb cluster — spoke. The only one of the five with zero GSC
     // impressions in either language, so the modifier leads in both.
@@ -966,6 +971,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-orange-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 43,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb & Orange Jam', ua: 'Варення з ревеню з апельсинами' },
     // OPS-201 rhubarb cluster — spoke. UA leads with the exact ranking query
     // (`варення з ревеню і апельсинами`, position 17.0) — note "і", not the
@@ -982,6 +988,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-quick-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Quick Baked Rhubarb Jam', ua: 'Варення з ревеню «П’ятихвилинка»' },
     // OPS-201 rhubarb cluster — HUB. This page owns the head term: lowest GI of
     // the five, fewest steps, no flavouring to qualify it. The UA title also
@@ -999,6 +1006,7 @@ export const RECIPES = [
   {
     slug: 'rhubarb-lavender-jam', dateAdded: '2026-07-10', img: '84-rhubarb-lavender-jam.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'dairy-free'],
+    imgAlt: { en: "A fluted glass dish of pink rhubarb jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревеневим варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb & Lavender Jam (Sugar-free)', ua: 'Варення з ревеню з лавандою (без цукру)' },
     // OPS-201 rhubarb cluster — spoke. UA leads with lavender because GSC shows
     // `варення з лаванди` (no rhubarb in the query) reaching this page at
@@ -1016,6 +1024,7 @@ export const RECIPES = [
   {
     slug: 'turkey-meatloaf-parsley', dateAdded: '2026-07-10', img: '85-turkey-meatloaf-parsley.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'dairy-free'],
+    imgAlt: { en: "A pale turkey meatloaf on a rimmed plate, flecked through with herbs and chopped vegetables, fresh parsley on the white boards beside it.", ua: "Світлий індичий мітлоф на тарілці з обідком, з вкрапленнями зелені та подрібнених овочів; поруч на білих дошках свіжа петрушка." },
     title: { en: 'Turkey & Parsley Meatloaf', ua: 'Мітлоф з індички з петрушкою' },
     why: { en: 'Lean turkey breast is high in protein with almost no carbohydrate, and the beans add slow-digesting fibre in place of the usual breadcrumbs — so this meatloaf keeps you full without spiking blood sugar.', ua: 'Пісне філе індички багате на білок і майже не містить вуглеводів, а квасоля додає повільну клітковину замість звичних сухарів — тож мітлоф добре насичує без стрибків цукру.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 8 g · Fat 10 g · Protein 45 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 8 г · Жири 10 г · Білки 45 г' },
@@ -1027,6 +1036,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-cake-nut-cream', dateAdded: '2026-07-10', img: '86-chocolate-cake-nut-cream.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A slice of dark chocolate cake on a white plate under a thick glossy chocolate topping, scattered with fine orange zest.", ua: "Шматок темного шоколадного торта на білій тарілці під товстою глянцевою шоколадною глазур’ю, притрушений дрібною помаранчевою цедрою." },
     title: { en: 'Chocolate Cake with Nut Cream (Sugar-free)', ua: 'Шоколадний торт з горіховим кремом (без цукру)' },
     why: { en: 'Oat flour has a lower GI than wheat, and carob or cocoa brings deep chocolate flavour with no added sugar — stevia does the sweetening. Peanut butter in the cream adds protein and healthy fat that slow digestion.', ua: 'Вівсяне борошно має нижчий ГІ, ніж пшеничне, а ріжкове борошно чи какао дають насичений шоколадний смак без доданого цукру — солодкість забезпечує стевія. Арахісова паста в кремі додає білок і корисні жири, що сповільнюють засвоєння.' },
     nutrition: { en: 'Per serving (est.): ~320 kcal · Carbs 34 g · Fat 14 g · Protein 12 g', ua: 'На порцію (прибл.): ~320 ккал · Вуглеводи 34 г · Жири 14 г · Білки 12 г' },
@@ -1037,6 +1047,7 @@ export const RECIPES = [
   {
     slug: 'broccoli-spinach-cream-soup', dateAdded: '2026-07-10', img: '87-broccoli-spinach-cream-soup.jpg', cat: 'main', gi: 18,
     tags: ['gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A wide white bowl of bright green cream soup, topped with sliced spring onion, chopped nuts and seeds, on pale painted boards.", ua: "Широка біла тарілка яскраво-зеленого крем-супу, зверху кільця зеленої цибулі, подрібнені горіхи й насіння, на світлих фарбованих дошках." },
     title: { en: 'Green Cream Soup (Broccoli & Spinach)', ua: 'Зелений крем-суп з броколі та шпинатом' },
     why: { en: 'Broccoli and spinach are non-starchy, low-GI vegetables packed with fibre. Steaming keeps their nutrients and colour, and a little cream and almonds add protein and fat that steady blood sugar.', ua: 'Броколі та шпинат — некрохмалисті овочі з низьким ГІ, багаті на клітковину. Приготування на парі зберігає поживні речовини й колір, а трохи вершків і мигдалю додають білок і жири, що стабілізують цукор.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 12 g · Fat 12 g · Protein 8 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 12 г · Жири 12 г · Білки 8 г' },
@@ -1047,6 +1058,7 @@ export const RECIPES = [
   {
     slug: 'coconut-cheesecake', dateAdded: '2026-07-10', img: '88-coconut-cheesecake.jpg', cat: 'dessert', gi: 48,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A cheesecake on a stand with a slice being lifted away, thick white cream over a nutty crumb base, crumbs scattered across the blue table.", ua: "Чизкейк на підставці, з якого знімають шматок: товстий білий крем на горіховій основі, по синьому столу розсипані крихти." },
     title: { en: 'The Best Coconut Cheesecake (Sugar-free)', ua: 'Найкращий кокосовий чизкейк (без цукру)' },
     why: { en: 'A lighter cheesecake built on high-protein cottage cheese and coconut instead of heaps of sugar. Stevia sweetens it, and the coconut oil and cream give richness without a blood-sugar spike.', ua: 'Легший чизкейк на основі багатого білком сиру та кокоса замість гори цукру. Солодкість дає стевія, а кокосова олія та вершки — вершковість без стрибка цукру.' },
     nutrition: { en: 'Per serving (est.): ~380 kcal · Carbs 20 g · Fat 28 g · Protein 15 g', ua: 'На порцію (прибл.): ~380 ккал · Вуглеводи 20 г · Жири 28 г · Білки 15 г' },
@@ -1057,6 +1069,7 @@ export const RECIPES = [
   {
     slug: 'blueberry-jam', dateAdded: '2026-07-10', img: '89-blueberry-jam.jpg', cat: 'sauce', gi: 53,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up into an open glass jar of dark purple blueberry jam, filled to the rim.", ua: "Крупним планом відкрита скляна банка з темно-фіолетовим чорничним варенням, наповнена до країв." },
     title: { en: 'Sugar-free Blueberry Jam', ua: 'Чорничний джем: рецепт без цукру' },
     seoTitle: { en: "Sugar-free Blueberry Jam — Set with Agar, No Pectin", ua: "Чорничний джем без цукру — на агарі та стевії, ГІ 53" },
     metaDesc: { en: "Blueberry jam with no sugar at all — agar sets it, stevia sweetens it. Blueberries are among the lowest-GI fruits, so you keep the flavour.", ua: "Чорничний джем без цукру: загущений агаром, підсолоджений стевією. Чорниця — одна з найнижчих за ГІ ягід, тож смак повний, а цукор спокійний." },
@@ -1069,6 +1082,7 @@ export const RECIPES = [
   {
     slug: 'barley-mushroom-perlotto', dateAdded: '2026-07-10', img: '90-barley-mushroom-perlotto.jpg', cat: 'main', gi: 23,
     tags: ['vegetarian'],
+    imgAlt: { en: "A creamy pearl barley and mushroom dish on a square white plate, ringed with chopped green herbs, a sprig of rosemary on top.", ua: "Кремове перлове різото з грибами на квадратній білій тарілці, обкладене рубаною зеленню, зверху гілочка розмарину." },
     title: { en: 'Pearl Barley Perlotto with Mushrooms & Goat Cheese', ua: 'Перлотто з грибами та козячим сиром' },
     why: { en: 'Pearl barley has one of the lowest GIs of any grain (around 25) thanks to its beta-glucan fibre — a much gentler choice than the Arborio rice of a classic risotto. Mushrooms and goat cheese add protein and savoury depth.', ua: 'Перлова крупа має один із найнижчих ГІ серед зернових (близько 25) завдяки клітковині бета-глюкану — набагато м’якший вибір, ніж рис арборіо у класичному різото. Гриби та козячий сир додають білок і насичений смак.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 26 g · Fat 5 g · Protein 7 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 26 г · Жири 5 г · Білки 7 г' },
@@ -1080,6 +1094,7 @@ export const RECIPES = [
   {
     slug: 'fruit-popsicles', dateAdded: '2026-07-10', img: '91-fruit-popsicles.jpg', cat: 'dessert', gi: 51,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Three pale pink ice lollies flecked with berries on a white plate, each on a differently coloured plastic stick, on a bamboo mat.", ua: "Три блідо-рожеві морозива з вкрапленнями ягід на білій тарілці, кожне на пластиковій паличці свого кольору, на бамбуковій серветці." },
     title: { en: 'Homemade Fruit Popsicles', ua: 'Домашнє фруктове ескімо' },
     seoTitle: { en: "Homemade Fruit Popsicles — No Added Sugar, 3 Ingredients", ua: "Фруктове ескімо без цукру — 3 інгредієнти" },
     metaDesc: { en: "Blended fruit, frozen — no added sugar, no cream, no ice-cream maker. Banana and blackcurrant with a little stevia, for a lighter frozen pudding.", ua: "Фрукти, збиті й заморожені — без цукру, вершків і морозивниці. Банан і чорна смородина зі стевією: легкий заморожений десерт." },
@@ -1093,6 +1108,7 @@ export const RECIPES = [
   {
     slug: 'blackberry-sorbet', dateAdded: '2026-07-10', img: '92-blackberry-sorbet.jpg', cat: 'dessert', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "A scoop of deep purple sorbet on a spoon resting on a white plate.", ua: "Порція темно-фіолетового сорбету на ложці, що лежить на білій тарілці." },
     title: { en: 'Homemade Blackberry Sorbet', ua: 'Домашній ожиновий сорбет' },
     why: { en: 'A two-fruit sorbet with no dairy and no added sugar beyond an optional spoon of honey. Blackberries and apple freeze into fine ice crystals, so it is light and refreshing with a modest glycaemic load.', ua: 'Сорбет із двох фруктів без молочних продуктів і без доданого цукру, окрім необов’язкової ложки меду. Ожина та яблуко замерзають дрібними кристаликами, тож десерт легкий і освіжний із помірним глікемічним навантаженням.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 22 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 22 г · Жири 0 г · Білки 1 г' },
@@ -1104,6 +1120,7 @@ export const RECIPES = [
   {
     slug: 'zucchini-spaghetti-salmon', dateAdded: '2026-07-10', img: '93-zucchini-spaghetti-salmon.jpg', cat: 'main', gi: 15,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
+    imgAlt: { en: "A mound of courgette noodles with flakes of salmon through it on a square white plate, topped with fresh flat-leaf parsley.", ua: "Гірка спагеті з кабачка зі шматочками лосося на квадратній білій тарілці, зверху свіжа листова петрушка." },
     title: { en: 'Zucchini Spaghetti with Salmon', ua: 'Спагеті з кабачка з лососем' },
     why: { en: 'Ribbons of courgette stand in for pasta, cutting the carbs to almost nothing while keeping the shape and feel of spaghetti. Salmon adds protein and omega-3, for a quick low-GI main.', ua: 'Стрічки кабачка замінюють макарони, зводячи вуглеводи майже до нуля, але зберігаючи форму й відчуття спагеті. Лосось додає білок та омега-3 — швидка основна страва з низьким ГІ.' },
     nutrition: { en: 'Per serving (est.): ~150 kcal · Carbs 6 g · Fat 8 g · Protein 13 g', ua: 'На порцію (прибл.): ~150 ккал · Вуглеводи 6 г · Жири 8 г · Білки 13 г' },
@@ -1380,6 +1397,7 @@ export const RECIPES = [
   {
     slug: 'matcha-latte', dateAdded: '2026-07-10', img: '120-matcha-latte.jpg', cat: 'drink', gi: 25,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up of a white cup of pale green matcha latte, fine bubbles across the foam, on a wooden table.", ua: "Крупним планом біла чашка блідо-зеленого матча-лате з дрібними бульбашками на пінці, на дерев’яному столі." },
     title: { en: 'Matcha Latte', ua: 'Латте з матчею' },
     why: { en: 'Matcha whisked into warm almond milk gives slow-release energy and antioxidants with only a teaspoon of maple. A gentler morning lift than sugary coffee drinks.', ua: 'Матча, збита з теплим мигдалевим молоком, дає повільну енергію та антиоксиданти лише з однією ложкою кленового сиропу. М’якший ранковий заряд, ніж солодкі кавові напої.' },
     nutrition: { en: 'Per serving (est.): ~132 kcal · Carbs 8 g · Fat 10 g · Protein 3 g', ua: 'На порцію (прибл.): ~132 ккал · Вуглеводи 8 г · Жири 10 г · Білки 3 г' },
