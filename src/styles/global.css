@@ -217,6 +217,8 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+/* The document base. Every page-level scale below overrides it, so this is the
+   fallback for anything that asks for none — not a step on the type scale. */
 body {
   margin: 0;
   background: var(--bg);
@@ -250,7 +252,7 @@ img { max-width: 100%; display: block; }
   background: var(--accent);
   color: #fff;
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--fs-small);
   font-family: var(--font-body);
   padding: 13px 26px;
   border-radius: 0;
@@ -272,15 +274,17 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--rule);
 }
 .site-header .inner { display: flex; align-items: center; gap: 28px; height: 72px; }
-.brand { display: flex; align-items: center; gap: 12px; font-family: var(--font-head); font-weight: 500; font-size: 21px; letter-spacing: -0.02em; color: var(--ink); white-space: nowrap; }
+.brand { display: flex; align-items: center; gap: 12px; font-family: var(--font-head); font-weight: 500; font-size: var(--fs-lead); letter-spacing: -0.02em; color: var(--ink); white-space: nowrap; }
 /* The mark stays a magenta disc — it is the logo, and the one round thing the
-   square system keeps on purpose. */
+   square system keeps on purpose. The glyph size is an ICON size, sized to its
+   disc rather than to the type scale — same exemption as the FAQ's +/- marker. */
 .brand .mark { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-style: italic; font-size: 17px; }
 .site-nav { display: flex; gap: 26px; margin-left: 18px; }
-.site-nav a { position: relative; color: var(--ink); font-weight: 700; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; transition: color .2s ease; }
+.site-nav a { position: relative; color: var(--ink); font-weight: 700; font-size: var(--fs-label); letter-spacing: 0.18em; text-transform: uppercase; transition: color .2s ease; }
 .site-nav a:hover { color: var(--accent); }
 .site-nav a[aria-current='page'] { color: var(--accent); }
-/* 11px uppercase gives an ~18px box — under the 24px WCAG 2.5.8 floor. This
+/* The caps label at --fs-label gives an ~18px box — under the 24px WCAG 2.5.8
+   floor. This
    pseudo-element is an invisible 24px-tall hit strip centred on the link: it
    costs no layout and changes nothing visually, so the row still reads as
    hairline type. Nav items are 26px apart, so the strips never overlap. */
@@ -301,14 +305,14 @@ img { max-width: 100%; display: block; }
 /* Square toggle drawn as one hairline box with a divider between the two
    halves, rather than two pills in a tray. */
 .lang { display: inline-flex; box-shadow: inset 0 0 0 1px var(--rule); }
-.lang a { font-size: 11px; font-weight: 800; letter-spacing: 0.1em; padding: 7px 11px; color: var(--muted); transition: color .2s ease; }
+.lang a { font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.1em; padding: 7px 11px; color: var(--muted); transition: color .2s ease; }
 .lang a + a { box-shadow: inset 1px 0 0 var(--rule); }
 .lang a:hover { color: var(--accent); }
 .lang a.on { background: var(--ink); color: var(--bg); }
 .lang a.on:hover { color: var(--bg); }
 /* The header button is the compact variant of .btn — the full 50px block is too
    heavy for a 72px row. */
-.header-actions .btn { min-height: 40px; padding: 10px 18px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; }
+.header-actions .btn { min-height: 40px; padding: 10px 18px; font-size: var(--fs-fine); letter-spacing: 0.1em; text-transform: uppercase; }
 
 /* mobile menu (burger replaces .site-nav — see the header breakpoints below) */
 .nav-toggle {
@@ -325,7 +329,7 @@ img { max-width: 100%; display: block; }
 }
 /* Bigger than the desktop running head — this is a touch target, so it keeps a
    readable size and only borrows the tracking. */
-.mobile-nav a { position: relative; padding: 14px 0; font-weight: 700; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 1px solid var(--line); transition: color .2s ease; }
+.mobile-nav a { position: relative; padding: 14px 0; font-weight: 700; font-size: var(--fs-fine); letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 1px solid var(--line); transition: color .2s ease; }
 .mobile-nav a:last-child { border-bottom: none; }
 .mobile-nav a:hover { color: var(--accent); }
 /* border-bottom is already the row separator here, so the current page is marked
@@ -363,7 +367,7 @@ img { max-width: 100%; display: block; }
   .nav-toggle { display: flex; }
   .mobile-nav:not([hidden]) { display: flex; }
   .site-header .inner { gap: 12px; height: 64px; }
-  .brand { font-size: 18px; gap: 9px; }
+  .brand { font-size: var(--fs-lede); gap: 9px; }
   .brand .mark { width: 34px; height: 34px; font-size: 15px; }
   .header-actions { gap: 10px; }
 }
@@ -378,7 +382,7 @@ img { max-width: 100%; display: block; }
    sitting under a rule of their own. */
 .hub-head, .hub-bar { border-top: 1.5px solid var(--ink); padding-top: 10px; }
 .hub-head .fk, .hub-bar .fk {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
 }
 .hub-bar {
@@ -389,7 +393,7 @@ img { max-width: 100%; display: block; }
 .blog-filters[hidden] { display: none; }
 .blog-filters .chip {
   border: 0; background: none; border-radius: 0; padding: 2px 0 5px; cursor: pointer;
-  font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
   border-bottom: 2px solid transparent; transition: color .2s ease, border-color .2s ease;
 }
@@ -425,6 +429,8 @@ img { max-width: 100%; display: block; }
 .search-ico { width: 20px; height: 20px; margin: 0 -4px 0 14px; align-self: center; color: var(--muted); flex: none; }
 .search-input {
   flex: 1; min-width: 0; border: 0; background: transparent; border-radius: 0;
+  /* 16px is a functional floor, not a step on the scale: iOS zooms the page
+     when a focused input is set any smaller. */
   font-family: var(--font-body); font-size: 16px; color: var(--ink); padding: 13px 14px;
 }
 .search-input::placeholder { color: var(--muted); opacity: .75; }
@@ -437,7 +443,7 @@ img { max-width: 100%; display: block; }
 /* The focus ring goes on the box, not the bare input, so it traces the control
    the visitor sees. :focus-within, because the input has no border of its own. */
 .search-form:focus-within { box-shadow: inset 0 0 0 2px var(--accent); }
-.search-go { min-height: 0; padding: 12px 22px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; flex: none; }
+.search-go { min-height: 0; padding: 12px 22px; font-size: var(--fs-fine); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; flex: none; }
 .search-x {
   display: none; border: 0; background: transparent; color: var(--muted);
   width: 44px; cursor: pointer; flex: none;
@@ -445,7 +451,7 @@ img { max-width: 100%; display: block; }
 .search-x svg { width: 20px; height: 20px; }
 .search-x:hover { color: var(--accent); }
 
-.search-hint { margin: 10px 2px 0; font-size: 12.5px; color: var(--muted); }
+.search-hint { margin: 10px 2px 0; font-size: var(--fs-fine); color: var(--muted); }
 .search-hint[hidden] { display: none; }
 
 .search-suggest { margin-top: 8px; max-height: min(58vh, 420px); overflow-y: auto; }
@@ -459,15 +465,15 @@ img { max-width: 100%; display: block; }
    the two modes are not two different-looking states. */
 .sg:hover, .sg.on { background: var(--paper2); }
 .sg-k {
-  flex: none; width: 78px; font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  flex: none; width: 78px; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
 }
-.sg-t { font-size: 15px; line-height: 1.35; }
+.sg-t { font-size: var(--fs-small); line-height: 1.35; }
 .sg-all {
-  justify-content: flex-end; font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  justify-content: flex-end; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); padding-top: 14px;
 }
-.sg-empty { margin: 10px 2px; font-family: var(--font-head); font-size: 17px; color: var(--muted); }
+.sg-empty { margin: 10px 2px; font-family: var(--font-head); font-size: var(--fs-lede); color: var(--muted); }
 
 /* Matches are washed rather than highlighter-yellow — the point is to show
    where the query landed, not to shout. */
@@ -503,7 +509,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    scoped to one hub. */
 .est { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
 .est-label {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent);
 }
 .est-rule { flex: 1; height: 1px; background: var(--rule); }
@@ -641,7 +647,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 }
 .cform input:focus-visible, .cform textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; border-color: transparent; }
 .btn.full { width: 100%; text-align: center; }
-.form-sent { background: #EDF4EA; border: 1px solid #C4DCBA; color: #2C5E27; border-radius: 0; padding: 16px; font-size: 15px; text-align: center; }
+.form-sent { background: #EDF4EA; border: 1px solid #C4DCBA; color: #2C5E27; border-radius: 0; padding: 16px; font-size: var(--fs-small); text-align: center; }
 
 /* --- shop (OPS-277) ------------------------------------------------------
    Nothing is on sale yet, so this is an index of what is coming, in the same
@@ -690,8 +696,8 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    and `.see-all` rules that sat here went with the card layouts that used them
    (OPS-277). Grep-verified unreferenced — the `section-header` in the
    standalone tool pages under public/ is a different, self-styled class. */
-.section > .wrap > h2 { font-size: 30px; margin: 0 0 10px; }
-.section-sub { color: var(--muted); font-size: 17px; margin: 0 0 30px; max-width: 60ch; }
+.section > .wrap > h2 { font-size: var(--fs-h2); line-height: 1.15; margin: 0 0 10px; }
+.section-sub { color: var(--muted); font-size: var(--fs-sub); margin: 0 0 30px; max-width: 60ch; }
 
 /* --- scroll reveal ---------------------------------------------------------
    Sections fade up as they come into view. Everything below is gated on
@@ -751,7 +757,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .newsletter .section-sub { color: var(--on-ink); margin: 0 auto 26px; }
 .nlform { max-width: 520px; margin: 0 auto; }
 .nl-row { display: flex; gap: 10px; }
-.nl-row input { flex: 1; padding: 13px 16px; border-radius: 0; border: 0; font-family: var(--font-body); font-size: 15px; transition: box-shadow .2s ease; }
+.nl-row input { flex: 1; padding: 13px 16px; border-radius: 0; border: 0; font-family: var(--font-body); font-size: var(--fs-small); transition: box-shadow .2s ease; }
 .nl-row input::placeholder { color: var(--ink); opacity: .4; }
 /* The field is white but sits on the dark --ink box, so the ring is drawn in two
    layers: accent against the input, a light halo against the box behind it. A
@@ -768,7 +774,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .nl-row .btn:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: 0 0 0 3px rgba(255,255,255,0.7); }
 /* The submit handler disables the button while the POST is in flight. */
 .nl-row .btn:disabled { opacity: .6; cursor: default; transform: none; filter: none; }
-.nl-consent { display: flex; gap: 9px; align-items: flex-start; color: #D3C2CE; font-size: 12.5px; margin-top: 14px; text-align: left; }
+.nl-consent { display: flex; gap: 9px; align-items: flex-start; color: var(--on-ink); font-size: var(--fs-fine); margin-top: 14px; text-align: left; }
 /* The box ships at the 13px UA default, under the 24px WCAG 2.5.8 floor. The
    label wraps the input, so the real target is this whole block — but the
    visible box is what a pointer aims at, so grow it. 18px keeps it a checkbox
@@ -884,10 +890,10 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    h1–h4 Spectral rule. */
 .site-footer { background: var(--paper2); border-top: 1.5px solid var(--ink); padding: 56px 0 28px; }
 .site-footer .top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 32px; }
-.site-footer .blurb { color: var(--muted); font-size: 15px; max-width: 34ch; margin: 14px 0 0; }
-.site-footer h4 { font-family: var(--font-body); font-weight: 800; font-size: 10.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); margin: 0 0 14px; }
+.site-footer .blurb { color: var(--muted); font-size: var(--fs-small); max-width: 34ch; margin: 14px 0 0; }
+.site-footer h4 { font-family: var(--font-body); font-weight: 800; font-size: var(--fs-label); letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); margin: 0 0 14px; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
-.site-footer a { color: var(--muted); font-size: 15px; }
+.site-footer a { color: var(--muted); font-size: var(--fs-small); }
 .site-footer a:hover { color: var(--accent); }
 /* Same 24px hit strip as .site-nav a — see the note there. Rows are 9px apart
    and ~21px tall, so a 24px strip clears its neighbours by 3px. */
@@ -904,7 +910,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .site-footer .socials a {
   width: 34px; height: 34px; border-radius: 50%; background: var(--bg);
   box-shadow: inset 0 0 0 1px var(--rule);
-  display: grid; place-items: center; color: var(--accent); font-weight: 800; font-size: 13px;
+  display: grid; place-items: center; color: var(--accent); font-weight: 800; font-size: var(--fs-fine);
   transition: background .2s ease, color .2s ease, transform .2s ease;
 }
 /* 17px inside a 34px circle: the Simple Icons glyphs are drawn edge to edge on
@@ -922,12 +928,12 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   .site-footer .socials a:hover,
   .site-footer .socials a:focus-visible { transform: none; }
 }
-.site-footer .legal { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 22px; color: var(--muted); font-size: 13px; }
+.site-footer .legal { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 22px; color: var(--muted); font-size: var(--fs-fine); }
 .site-footer .legal p { margin: 0 0 8px; }
 /* The AI notice (OPS-336) carries the only inline link down here. The generic
-   footer link rule sets 15px, which would sit a size bigger than the 13px
-   legal text around it, so it inherits instead and is underlined to read as a
-   link without a colour change. */
+   footer link rule sets --fs-small, a step above the --fs-fine legal text
+   around it, so it inherits instead and is underlined to read as a link
+   without a colour change. */
 .site-footer .legal a { font-size: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 /* --- legal pages (OPS-277) -----------------------------------------------

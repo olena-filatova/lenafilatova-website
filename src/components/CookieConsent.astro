@@ -43,12 +43,12 @@ const policyHref = `${L}cookies/`;
     width: 100%; max-width: 960px; margin: 0 auto;
     display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between;
   }
-  .cookie-bar p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--muted); flex: 1 1 240px; min-width: 0; }
+  .cookie-bar p { margin: 0; font-size: var(--fs-fine); line-height: 1.5; color: var(--muted); flex: 1 1 240px; min-width: 0; }
   .cookie-bar p a { color: var(--accent); font-weight: 700; border-bottom: 1px solid currentColor; }
   .cookie-actions { display: flex; gap: 8px; align-items: center; margin-left: auto; }
   /* .btn is a 50px block by default — too heavy for a consent strip, so the
      min-height is reset alongside the padding. */
-  .cookie-bar .btn { min-height: 38px; padding: 9px 20px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; }
-  .cookie-decline { border: none; background: transparent; color: var(--muted); font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; padding: 9px 10px; }
+  .cookie-bar .btn { min-height: 38px; padding: 9px 20px; font-size: var(--fs-fine); letter-spacing: 0.1em; text-transform: uppercase; }
+  .cookie-decline { border: none; background: transparent; color: var(--muted); font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; padding: 9px 10px; }
   .cookie-decline:hover { color: var(--ink); }
 </style>
