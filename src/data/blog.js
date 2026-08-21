@@ -700,7 +700,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
-      "imageAlt": "A pair of purple dumbbells, bathroom scales and a tape measure arranged on a pink background.",
+      "imageAlt": "A woman in her fifties doing a squat in a gym, holding a kettlebell at her chest.",
       "title": "Weight loss means bone loss — one bone researcher's case for caution on GLP-1s in menopause",
       "seoTitle": "GLP-1s and Menopause: The Bone-Loss Question",
       "metaDesc": "A University of Colorado bone researcher warns that GLP-1 weight loss in menopause may accelerate bone loss. What the evidence shows — and what it doesn't yet.",
@@ -796,7 +796,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "imageAlt": "Пара фіолетових гантелей, підлогові ваги та сантиметрова стрічка на рожевому тлі.",
+      "imageAlt": "Жінка за п'ятдесят присідає в спортзалі, тримаючи гирю біля грудей.",
       "title": "Втрата ваги означає втрату кісткової маси — аргументи дослідниці кісток на користь обережності з GLP-1 у менопаузі",
       "seoTitle": "GLP-1 і менопауза: питання втрати кісток",
       "metaDesc": "Дослідниця кісткової тканини з Колорадо попереджає: втрата ваги на GLP-1 у менопаузі може прискорити втрату кісткової маси. Що показують дані — і чого поки що ні.",
