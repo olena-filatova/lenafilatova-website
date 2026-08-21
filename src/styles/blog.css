@@ -648,6 +648,81 @@
   }
 }
 
+/* --- topic tags (OPS-367) --------------------------------------------------
+   Two surfaces from one vocabulary: a line of topics at the foot of an
+   article, and the cloud on the Journal index and every tag page.
+   ============================================================ */
+
+/* --- on an article --- */
+/* A label and a run of links on one baseline, above the disclaimer. Set as a
+   sentence rather than as boxes: pills here would be the fourth bordered
+   element in the closing stack (FAQ, offer panel, sign-off) and the page has
+   had enough of them by this point. */
+.post .post-tags {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px;
+  margin: 40px 0 0; padding-top: 16px; border-top: 1px solid var(--rule);
+}
+.post .pt-label {
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); flex: none;
+}
+.post .pt-list { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.post .pt-list a {
+  font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 700;
+  color: var(--accent); text-decoration: none;
+  border-bottom: 1px solid var(--line); padding-bottom: 2px;
+  transition: border-color .2s ease;
+}
+.post .pt-list a:hover { border-bottom-color: var(--accent); }
+.post .pt-list a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* --- the cloud --- */
+.cloud { padding: 8px 0 72px; }
+.cloud-lead {
+  font-family: var(--font-head); font-weight: 300; font-size: var(--fs-lede);
+  line-height: 1.5; color: var(--muted); max-width: 46ch; margin: 0 0 30px;
+}
+.cloud-groups { display: grid; gap: 34px 48px; }
+@media (min-width: 720px) { .cloud-groups { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1060px) { .cloud-groups { grid-template-columns: repeat(3, 1fr); } }
+.cloud-group h3 {
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent);
+  border-top: 1px solid var(--rule); padding-top: 12px; margin: 0 0 14px;
+}
+.cloud-group ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: baseline; }
+/* The size IS the data — five steps rather than a continuous scale off the raw
+   count, or a 16-post tag would be four times the height of a 1-post one and
+   the block would stop reading as a paragraph of links. */
+.cloud-group a {
+  display: inline-flex; align-items: baseline; gap: 5px;
+  font-family: var(--font-head); font-weight: 400; line-height: 1.3;
+  color: var(--ink); text-decoration: none; transition: color .2s ease;
+}
+.cloud-group a[data-w='1'] { font-size: 15px; color: var(--muted); }
+.cloud-group a[data-w='2'] { font-size: 17px; }
+.cloud-group a[data-w='3'] { font-size: 19px; }
+.cloud-group a[data-w='4'] { font-size: 22px; }
+.cloud-group a[data-w='5'] { font-size: 25px; letter-spacing: -0.015em; }
+.cloud-group a:hover { color: var(--accent); }
+.cloud-group a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.cloud-group a .n {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.06em; color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- a tag's own page --- */
+.tag-hero .lede { max-width: 54ch; }
+.tag-back {
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent);
+  text-decoration: none;
+}
+.tag-back:hover { color: var(--accent-deep); }
+.tag-back:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
 @media (prefers-reduced-motion: reduce) {
   .toc a { transition: none; }
+  .post .pt-list a, .cloud-group a { transition: none; }
 }

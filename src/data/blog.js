@@ -31,6 +31,7 @@
 export const POSTS = [
   {
     "slug": "perimenopause-anxiety-mind-body-exercise",
+    "tags": ["perimenopause", "low-mood", "insomnia", "menopause-symptoms", "cardio", "clinical-trials"],
     "date": "2026-08-21",
     "image": "/images/perimenopause-anxiety-mind-body-exercise.jpg",
     "cats": [

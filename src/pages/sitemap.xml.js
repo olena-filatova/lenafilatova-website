@@ -8,6 +8,7 @@ import { POSTS } from '../data/blog.js';
 import { PUBLISHED } from '../data/recipes.js';
 import { CALCULATORS } from '../data/calculators.js';
 import { LEGAL_SLUGS } from '../data/site.js';
+import { resolveTags, tagPath, MIN_INDEXABLE } from '../data/tags-lib.js';
 
 const SITE = 'https://lenafilatova.co.uk';
 
@@ -60,6 +61,13 @@ add('/recipes/');
 Object.values(LEGAL_SLUGS).forEach((s) => add(`/${s}/`));
 CALCULATORS.forEach((c) => add(`/resources/${c.slug}/`));
 POSTS.forEach((p) => add(`/blog/${p.slug}/`, p.date, p.image));
+// Tag archives (OPS-367). lastmod is the newest post on the tag, so a tag only
+// looks modified when something was actually filed under it. Tags under
+// MIN_INDEXABLE ship `noindex` — submitting them here would be asking Google to
+// crawl a page the page itself asks it to drop.
+resolveTags(POSTS)
+  .filter((t) => t.count >= MIN_INDEXABLE)
+  .forEach((t) => add(tagPath('en', t.key), t.resolved[0].date));
 PUBLISHED.forEach((r) => {
   const img = Array.isArray(r.imgs) && r.imgs.length ? r.imgs[0] : r.img;
   add(`/recipes/${r.slug}/`, r.dateAdded, `/recipes/images/${img}`);

@@ -19,6 +19,8 @@
 import { POSTS } from '../data/blog.js';
 import { CATS, UI, featuredPosts, warnAssetGaps } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
+import { warnUntagged } from '../data/tags-lib.js';
+import TagCloud from './TagCloud.astro';
 import '../styles/blog.css';
 
 const { lang = 'en' } = Astro.props;
@@ -34,6 +36,8 @@ const featured = featuredPosts(sorted);
 // Hero-image and imageAlt gaps are silent otherwise (OPS-360). Warns once per
 // build even though this component renders for both languages.
 warnAssetGaps(POSTS, DIMS);
+// Same idea for topic tags (OPS-367) — an untagged post is invisible to the cloud.
+warnUntagged(POSTS);
 const [lead, ...minis] = featured;
 const t = UI[lang];
 const B = import.meta.env.BASE_URL;
@@ -139,6 +143,11 @@ const dim = (src) => DIMS[src] || {};
     <p class="blog-empty" id="blogEmpty">{t.empty}</p>
   </div>
 </section>
+
+{/* Topic cloud (OPS-367). Below the grid rather than above it: the categories
+    at the top are the coarse cut a first-time visitor wants, and the cloud is
+    what someone who has scrolled the whole index is looking for. */}
+<TagCloud lang={lang} />
 
 <script>
   (function () {

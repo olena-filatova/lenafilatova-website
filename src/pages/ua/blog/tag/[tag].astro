@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import TagPageBody from '../../../../components/TagPageBody.astro';
+import { POSTS } from '../../../../data/blog.js';
+import { resolveTags, tagJsonLd, tagPath, UI, MIN_INDEXABLE } from '../../../../data/tags-lib.js';
+
+export function getStaticPaths() {
+  return resolveTags(POSTS).map((tag) => ({ params: { tag: tag.key }, props: { tag } }));
+}
+
+const { tag } = Astro.props;
+const t = UI.ua;
+const B = import.meta.env.BASE_URL;
+const label = tag.ua;
+---
+<BaseLayout
+  lang="ua"
+  title={`${label} — Lena Filatova`}
+  description={tag.intro?.ua || t.metaDesc(label, tag.count)}
+  canonical={tagPath('ua', tag.key)}
+  ogImage={tag.resolved[0].image}
+  jsonld={tagJsonLd(tag, 'ua', t)}
+  alternates={{ en: tagPath('en', tag.key), ua: tagPath('ua', tag.key) }}
+  noindex={tag.count < MIN_INDEXABLE}
+  enHref={`${B.replace(/\/$/, '')}${tagPath('en', tag.key)}`}
+  uaHref={`${B.replace(/\/$/, '')}${tagPath('ua', tag.key)}`}>
+  <TagPageBody tag={tag} lang="ua" />
+</BaseLayout>
