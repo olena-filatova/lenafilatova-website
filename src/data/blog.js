@@ -40,6 +40,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman in her forties sitting on a sofa with her head in her hands, looking anxious.",
       "title": "Perimenopause anxiety is not a footnote — three August studies on the mental-health half of the transition",
       "seoTitle": "Perimenopause Anxiety: 3 New Studies, August 2026",
       "metaDesc": "The August 2026 Menopause journal runs three papers on perimenopausal anxiety and depression: 20 women's lived experience, 709 women and mind-body exercise, and a CBT pilot.",
@@ -159,6 +160,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка близько сорока сидить на дивані, обхопивши голову руками, з тривожним виглядом.",
       "title": "Тривога в перименопаузі — не примітка: три серпневі дослідження про психічну половину переходу",
       "seoTitle": "Тривога в перименопаузі: 3 нові дослідження",
       "metaDesc": "Серпневий випуск Menopause 2026 має три статті про тривогу й депресію в перименопаузі: досвід 20 жінок, 709 жінок і практики «тіло-розум», пілот КПТ.",
