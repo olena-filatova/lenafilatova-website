@@ -319,6 +319,69 @@ export const POSTS = [
         },
         {
           "t": "p",
+          "text": "Units are worth being able to picture, because almost every figure in this post is expressed in them and “a drink” is not a fixed quantity. One UK unit is 8 g of pure alcohol. The study dose is in the table so you can see where it sits — between a large glass and a bottle, not at the top of the list."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Drink",
+            "Typical serve",
+            "Alcohol",
+            "UK units"
+          ],
+          "rows": [
+            [
+              "Single spirit measure",
+              "25 ml at 40%",
+              "7.9 g",
+              "1.0"
+            ],
+            [
+              "Small glass of wine",
+              "125 ml at 12%",
+              "11.8 g",
+              "1.5"
+            ],
+            [
+              "Double spirit measure",
+              "50 ml at 40%",
+              "15.8 g",
+              "2.0"
+            ],
+            [
+              "Medium glass of wine",
+              "175 ml at 13%",
+              "17.9 g",
+              "2.2"
+            ],
+            [
+              "Pint of lager",
+              "568 ml at 4%",
+              "17.9 g",
+              "2.2"
+            ],
+            [
+              "Large glass of wine",
+              "250 ml at 13%",
+              "25.6 g",
+              "3.2"
+            ],
+            [
+              "The dose used in the study above",
+              "0.75 g/kg, 70 kg adult",
+              "52.5 g",
+              "6.6"
+            ],
+            [
+              "Bottle of wine",
+              "750 ml at 13%",
+              "76.9 g",
+              "9.6"
+            ]
+          ]
+        },
+        {
+          "t": "p",
           "text": "A modelling paper by the same group put the window at roughly 10 to 12 hours after a nine o'clock drink, and that is the number worth carrying around — it places the vulnerable period somewhere between seven and nine the next morning, with Turner's participants still dropping at ten. Other work describes raised risk extending across the following 24 hours: a wider claim on weaker evidence, pointing the same way. The risk period is the next day, not the night out."
         },
         {
@@ -713,6 +776,69 @@ export const POSTS = [
         {
           "t": "p",
           "text": "Одну цифру з того дослідження варто назвати прямо, бо майже ніхто з тих, хто його цитує, цього не робить. Доза становила 0,75 г алкоголю на кілограм ваги тіла — для чоловіка вагою 70 кг це близько 52 г, тобто приблизно шість з половиною британських одиниць. Це не келих вина. Це ближче до двох третин пляшки, випитих за півтори години. Відстрочена ранкова гіпоглікемія переконливо показана саме на такій кількості. А от де вона починається — чи робить щось подібне один келих — по суті не досліджено, і я краще скажу вам про це, ніж дозволю заголовку натякати на точність, якої в дослідженнях немає."
+        },
+        {
+          "t": "p",
+          "text": "Одиниці варто вміти уявляти, бо майже кожна цифра в цьому тексті виражена в них, а «напій» — величина нефіксована. Одна британська одиниця — це 8 г чистого алкоголю. Доза з дослідження є в таблиці, щоб ви бачили, де вона стоїть: між великим келихом і пляшкою, а не на початку списку."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Напій",
+            "Звична порція",
+            "Алкоголь",
+            "Британські одиниці"
+          ],
+          "rows": [
+            [
+              "Одна порція міцного",
+              "25 мл, 40%",
+              "7,9 г",
+              "1,0"
+            ],
+            [
+              "Малий келих вина",
+              "125 мл, 12%",
+              "11,8 г",
+              "1,5"
+            ],
+            [
+              "Подвійна порція міцного",
+              "50 мл, 40%",
+              "15,8 г",
+              "2,0"
+            ],
+            [
+              "Середній келих вина",
+              "175 мл, 13%",
+              "17,9 г",
+              "2,2"
+            ],
+            [
+              "Пінта лагера",
+              "568 мл, 4%",
+              "17,9 г",
+              "2,2"
+            ],
+            [
+              "Великий келих вина",
+              "250 мл, 13%",
+              "25,6 г",
+              "3,2"
+            ],
+            [
+              "Доза з дослідження вище",
+              "0,75 г/кг, доросла людина 70 кг",
+              "52,5 г",
+              "6,6"
+            ],
+            [
+              "Пляшка вина",
+              "750 мл, 13%",
+              "76,9 г",
+              "9,6"
+            ]
+          ]
         },
         {
           "t": "p",
