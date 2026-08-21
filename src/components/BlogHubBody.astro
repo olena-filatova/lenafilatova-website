@@ -174,7 +174,10 @@ const dim = (src) => DIMS[src] || {};
     });
     // Deep link: /blog/?cat=nutrition pre-selects a chip (footer category links).
     var want = new URLSearchParams(window.location.search).get('cat');
-    var pre = want && filters.querySelector('.chip[data-cat="' + want.replace(/[^a-z-]/g, '') + '"]');
+    // Digits are allowed in the class: the `glp1` key (OPS-356) is the first
+    // category with a number in it, and an [^a-z-] scrub silently turned it
+    // into `glp`, which matches no chip and left ?cat=glp1 showing everything.
+    var pre = want && filters.querySelector('.chip[data-cat="' + want.replace(/[^a-z0-9-]/g, '') + '"]');
     if (pre) apply(pre);
   })();
 </script>
