@@ -32,6 +32,7 @@ export const POSTS = [
   {
     "slug": "glp1-what-we-know",
     "date": "2026-08-21",
+    "featured": true,
     "image": "/images/glp1-what-we-know.jpg",
     "cats": [
       "glp1",
@@ -41,7 +42,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
-      "imageAlt": "A woman in her forties reading on a sofa with a laptop and a notebook beside her.",
+      "imageAlt": "A close-up of someone giving themselves an injection in the abdomen with a pen injector.",
       "title": "GLP-1 drugs after 40: what we actually know, and why the headlines keep contradicting each other",
       "seoTitle": "GLP-1 Drugs After 40: What the Evidence Shows",
       "metaDesc": "Seven studies on GLP-1 drugs, read side by side. Most of the contradictions turn out to be differences in who was measured — here is all of it in one place, with how strong each finding is.",
@@ -365,7 +366,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "imageAlt": "Жінка за сорок читає на дивані, поруч ноутбук і зошит.",
+      "imageAlt": "Великий план: людина робить собі ін'єкцію в живіт за допомогою шприц-ручки.",
       "title": "Препарати GLP-1 після 40: що ми насправді знаємо — і чому заголовки постійно суперечать одне одному",
       "seoTitle": "GLP-1 після 40: що насправді кажуть дослідження",
       "metaDesc": "Сім досліджень про препарати GLP-1, зібрані поруч. Більшість суперечностей — це відмінності в тому, кого вимірювали. Усе в одному місці, із оцінкою надійності кожного висновку.",
@@ -699,6 +700,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
+      "imageAlt": "A woman in her fifties doing a squat in a gym, holding a kettlebell at her chest.",
       "title": "Weight loss means bone loss — one bone researcher's case for caution on GLP-1s in menopause",
       "seoTitle": "GLP-1s and Menopause: The Bone-Loss Question",
       "metaDesc": "A University of Colorado bone researcher warns that GLP-1 weight loss in menopause may accelerate bone loss. What the evidence shows — and what it doesn't yet.",
@@ -794,6 +796,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
+      "imageAlt": "Жінка за п'ятдесят присідає в спортзалі, тримаючи гирю біля грудей.",
       "title": "Втрата ваги означає втрату кісткової маси — аргументи дослідниці кісток на користь обережності з GLP-1 у менопаузі",
       "seoTitle": "GLP-1 і менопауза: питання втрати кісток",
       "metaDesc": "Дослідниця кісткової тканини з Колорадо попереджає: втрата ваги на GLP-1 у менопаузі може прискорити втрату кісткової маси. Що показують дані — і чого поки що ні.",
@@ -16360,7 +16363,11 @@ export const POSTS = [
   {
     "slug": "perimenopause-diabetes-blood-sugar",
     "date": "2026-06-20",
-    "featured": true,
+    // OPS-356: retired from the featured band when the GLP-1 explainer
+    // took the fourth slot. FEATURED_MAX is 4 and featuredPosts() slices,
+    // so leaving a fifth flag here would have dropped this one silently
+    // anyway — unset rather than truncated, so the data says what renders.
+    // "featured": true,
     "image": "/images/blood-sugar-perimenopause-metabolism.jpg",
     "cats": [
       "perimenopause",
