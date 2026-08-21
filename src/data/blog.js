@@ -228,8 +228,9 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes & Perimenopause",
-      "title": "One glass of wine, and your glucose does something strange 10 hours later",
+      "title": "A drink tonight, and your glucose does something strange ten hours later",
       "seoTitle": "Alcohol and Blood Sugar: The 10-Hour Delay Explained",
+      "imageAlt": "Two tall cocktails garnished with cucumber and orange being set down on a restaurant table between two people",
       "metaDesc": "Alcohol can drop your glucose 10–12 hours later, not while you drink. The mechanism, what it really means for glucagon, and what changes after 40.",
       "excerpt": "Almost everyone assumes alcohol affects blood sugar because of the sugar in the drink. It doesn't, and that misunderstanding is why the effect catches people out. The thing worth knowing happens hours after the glass is empty — usually overnight, usually while you are asleep.",
       "meta": "20 August 2026 · 10 min read",
@@ -311,6 +312,10 @@ export const POSTS = [
         {
           "t": "p",
           "text": "The best data comes from a small controlled study at Bournemouth, published in Diabetes Care in 2001. Six men with type 1 diabetes were admitted twice, from five in the evening until noon the next day, on standardised meals and a fixed overnight basal insulin infusion. At nine they drank either dry white wine or mineral water. Overnight the two conditions were indistinguishable — no significant difference in glucose at all. In the morning, fasting and post-breakfast glucose were significantly lower after the wine, with a post-meal peak of 8.9 mmol/L against 15 mmol/L on the water nights. From ten, five of the six needed treatment for hypoglycaemia, bottoming out between 1.9 and 2.9 mmol/L. On the water nights, none of them had a hypo at all."
+        },
+        {
+          "t": "p",
+          "text": "One number in that study deserves stating plainly, because almost nobody quoting it does. The dose was 0.75 g of alcohol per kilogram of body weight — for a 70 kg man, about 52 g, or roughly six and a half UK units. That is not a glass of wine. It is closer to two-thirds of a bottle, drunk inside ninety minutes. The delayed morning low is convincingly demonstrated at that amount. Where it begins — whether one glass does anything of the kind — has not really been studied, and I would rather tell you that than let a headline imply a precision the research does not have."
         },
         {
           "t": "p",
@@ -620,8 +625,9 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет і перименопауза",
-      "title": "Один келих вина — і за 10 годин ваша глюкоза робить щось дивне",
+      "title": "Напій увечері — і за десять годин ваша глюкоза робить щось дивне",
       "seoTitle": "Алкоголь і цукор у крові: 10-годинна затримка",
+      "imageAlt": "Два високі келихи з коктейлями, прикрашені огірком і апельсином, які ставлять на столик у ресторані між двома людьми",
       "metaDesc": "Алкоголь може знизити глюкозу через 10–12 годин, а не під час пиття. Механізм, що це насправді означає для глюкагону, і що змінюється після 40.",
       "excerpt": "Майже всі вважають, що алкоголь впливає на цукор через цукор у самому напої. Це не так — і саме через це непорозуміння ефект застає людей зненацька. Найважливіше стається за кілька годин після того, як келих спорожнів: зазвичай уночі, зазвичай уві сні.",
       "meta": "20 серпня 2026 · 10 хв читання",
@@ -703,6 +709,10 @@ export const POSTS = [
         {
           "t": "p",
           "text": "Найкращі дані дало невелике контрольоване дослідження в Борнмуті, опубліковане в Diabetes Care у 2001 році. Шістьох чоловіків із діабетом 1 типу госпіталізували двічі, з п'ятої вечора до полудня наступного дня, на стандартизованому харчуванні й фіксованій нічній інфузії базального інсуліну. О дев'ятій вони випивали або сухе біле вино, або мінеральну воду. Уночі два стани були нерозрізненні — жодної значущої різниці в глюкозі. Уранці глюкоза натще і після сніданку була значно нижчою після вина: пік після їжі 8,9 ммоль/л проти 15 ммоль/л у ночі з водою. З десятої п'ятьом із шести знадобилося лікування гіпоглікемії з мінімумом від 1,9 до 2,9 ммоль/л. У ночі з водою гіпоглікемії не було в жодного."
+        },
+        {
+          "t": "p",
+          "text": "Одну цифру з того дослідження варто назвати прямо, бо майже ніхто з тих, хто його цитує, цього не робить. Доза становила 0,75 г алкоголю на кілограм ваги тіла — для чоловіка вагою 70 кг це близько 52 г, тобто приблизно шість з половиною британських одиниць. Це не келих вина. Це ближче до двох третин пляшки, випитих за півтори години. Відстрочена ранкова гіпоглікемія переконливо показана саме на такій кількості. А от де вона починається — чи робить щось подібне один келих — по суті не досліджено, і я краще скажу вам про це, ніж дозволю заголовку натякати на точність, якої в дослідженнях немає."
         },
         {
           "t": "p",
