@@ -35,11 +35,12 @@ export const POSTS = [
     "image": "/images/glp1-menopause-bone-loss.jpg",
     "cats": [
       "weight",
-      "perimenopause"
+      "perimenopause",
+      "glp1"
     ],
     "en": {
       "cat": "Weight loss",
-      "title": "Weight loss means bone loss — and that makes GLP-1s in menopause a harder call",
+      "title": "Weight loss means bone loss — one bone researcher's case for caution on GLP-1s in menopause",
       "seoTitle": "GLP-1s and Menopause: The Bone-Loss Question",
       "metaDesc": "A University of Colorado bone researcher warns that GLP-1 weight loss in menopause may accelerate bone loss. What the evidence shows — and what it doesn't yet.",
       "excerpt": "Wendy Kohrt has studied bone and exercise for 35 years, and her summary of the evidence is blunt: weight loss equals bone loss. Set that against the fact that women aged 50 to 64 use GLP-1 drugs more than any other group, and she thinks a problem is building. This is an expert reading of existing data, not a new trial — which is exactly why it's worth reading carefully.",
@@ -129,7 +130,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "title": "Втрата ваги означає втрату кісткової маси — і це ускладнює рішення про GLP-1 у менопаузі",
+      "title": "Втрата ваги означає втрату кісткової маси — аргументи дослідниці кісток на користь обережності з GLP-1 у менопаузі",
       "seoTitle": "GLP-1 і менопауза: питання втрати кісток",
       "metaDesc": "Дослідниця кісткової тканини з Колорадо попереджає: втрата ваги на GLP-1 у менопаузі може прискорити втрату кісткової маси. Що показують дані — і чого поки що ні.",
       "excerpt": "Венді Корт вивчає кістки та фізичні навантаження 35 років, і її висновок із наявних даних прямолінійний: втрата ваги дорівнює втраті кісткової маси. Додайте до цього те, що жінки 50–64 років приймають препарати GLP-1 частіше за будь-яку іншу групу, — і вона вважає, що проблема назріває. Це експертне прочитання наявних даних, а не нове дослідження, — саме тому його варто читати уважно.",
@@ -3050,7 +3051,8 @@ export const POSTS = [
     "image": "/images/glp1-older-women-lean-mass.jpg",
     "cats": [
       "weight",
-      "fitness"
+      "fitness",
+      "glp1"
     ],
     "en": {
       "cat": "Weight loss",
@@ -3104,7 +3106,7 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
-              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, a meta-analysis finds",
+              "name": "Most of the weight lost on a GLP-1 is fat, not muscle",
               "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "The same question asked of the general trial population — and why the two findings don't actually conflict."
             },
@@ -3189,7 +3191,7 @@ export const POSTS = [
           "title": "Схожі новини",
           "items": [
             {
-              "name": "Препарати GLP-1 спалюють переважно жир, а не м'язи — метааналіз",
+              "name": "Більшість ваги, втраченої на GLP-1, — це жир, а не м'язи",
               "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "Те саме питання, але щодо загальної популяції досліджень — і чому ці два висновки не суперечать один одному."
             },
@@ -8601,7 +8603,8 @@ export const POSTS = [
     "image": "/images/glp1-weight-loss-sex-difference-women-men.jpg",
     "cats": [
       "weight",
-      "nutrition"
+      "nutrition",
+      "glp1"
     ],
     "en": {
       "cat": "Weight loss",
@@ -8658,7 +8661,7 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
-              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
+              "name": "Most of the weight lost on a GLP-1 is fat, not muscle",
               "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "The companion question: what the lost weight is actually made of, and how to protect muscle while it comes off."
             },
@@ -8746,7 +8749,7 @@ export const POSTS = [
           "title": "Дотичне читання",
           "items": [
             {
-              "name": "Препарати GLP-1 спалюють переважно жир, а не м’язи — метааналіз International Journal of Obesity",
+              "name": "Більшість ваги, втраченої на GLP-1, — це жир, а не м’язи",
               "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "Супутнє питання: з чого насправді складається втрачена вага і як зберегти м’язи, поки вона йде."
             },
@@ -10255,11 +10258,12 @@ export const POSTS = [
     "image": "/images/tirzepatide-hrt-weight-loss-menopause-2026.jpg",
     "cats": [
       "weight",
-      "perimenopause"
+      "perimenopause",
+      "glp1"
     ],
     "en": {
       "cat": "Weight loss",
-      "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — with one caveat worth reading",
+      "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — in an observational study, not a randomised trial",
       "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause",
       "metaDesc": "A 2026 Lancet cohort study found postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. What it means — and the bone-and-muscle caveat.",
       "excerpt": "Postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than those on tirzepatide alone in a 2026 Lancet cohort study. Encouraging — but it's observational, and rapid weight loss at midlife carries a bone-and-muscle cost worth planning for.",
@@ -10308,7 +10312,7 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
-              "name": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
+              "name": "Most of the weight lost on a GLP-1 is fat, not muscle",
               "url": "/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "What the body-composition data show about muscle loss on GLP-1 drugs, and why it matters more for women."
             },
@@ -10348,7 +10352,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — з одним важливим застереженням",
+      "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — у спостережному, а не рандомізованому дослідженні",
       "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи",
       "metaDesc": "Дослідження The Lancet 2026 року: жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді. Що це означає — і застереження щодо кісток і м'язів.",
       "excerpt": "Жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді, у когортному дослідженні The Lancet 2026 року. Обнадійливо — але дослідження спостережне, а швидка втрата ваги в середньому віці має ціну для кісток і м'язів, яку варто спланувати.",
@@ -10397,7 +10401,7 @@ export const POSTS = [
           "title": "Більше по темі",
           "items": [
             {
-              "name": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
+              "name": "Більшість ваги, втраченої на GLP-1, — це жир, а не м'язи",
               "url": "/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/",
               "desc": "Що показують дані про склад тіла щодо втрати м'язів на препаратах GLP-1 і чому це важливіше для жінок."
             },
@@ -10611,7 +10615,8 @@ export const POSTS = [
     "date": "2026-07-24",
     "image": "/images/ada-2026-glp1-type1-diabetes-women.jpg",
     "cats": [
-      "diabetes"
+      "diabetes",
+      "glp1"
     ],
     "en": {
       "cat": "Diabetes",
@@ -12142,34 +12147,40 @@ export const POSTS = [
   {
     "slug": "glp1-weight-loss-drugs-fat-not-muscle",
     "date": "2026-07-17",
+    // OPS-356: the sex-difference claim here was misattributed to the IJO
+    // meta-analysis, which reports no sex-stratified results; it belongs to the
+    // JAMA review covered in glp1-weight-loss-sex-difference-women-men. Fixed,
+    // and the post now reconciles with the two later, more cautious GLP-1 posts.
+    "updated": "2026-08-21",
     "image": "/images/glp1-weight-loss-drugs-fat-not-muscle.jpg",
     "cats": [
       "weight",
-      "nutrition"
+      "nutrition",
+      "glp1"
     ],
     "en": {
       "cat": "Weight loss",
-      "title": "GLP-1 weight-loss drugs mainly burn fat, not muscle, an International Journal of Obesity meta-analysis finds",
+      "title": "Most of the weight lost on a GLP-1 is fat, not muscle — in trials of the general adult population",
       "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle (IJO)",
-      "excerpt": "A 2026 meta-analysis of GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle, and that women lose proportionally more than men.",
+      "excerpt": "A 2026 meta-analysis pooling 24 GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle. It measured general adult trial populations — which is why it reads more reassuringly than the reviews that looked specifically at women over 65.",
       "meta": "17 July 2026 · 3 min read",
-      "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat.",
+      "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat. Who it was measured in matters, though, and that is where this finding meets the more cautious ones elsewhere on this site.",
       "blocks": [
         {
           "t": "p",
-          "text": "Researchers pooled body-composition data from randomised trials of GLP-1 receptor agonists — the drug class that includes semaglutide (Ozempic, Wegovy) and tirzepatide. Crucially, they looked at the fat-versus-lean-mass breakdown, not just the number on the scale, which is what actually tells you whether weight loss is coming from fat or from muscle."
+          "text": "Researchers pooled body-composition data from randomised trials of GLP-1 receptor agonists — the drug class that includes semaglutide (Ozempic, Wegovy) and tirzepatide. Thirty-six studies were reviewed and 24 of them pooled statistically, covering everything published up to December 2024. Crucially, they looked at the fat-versus-lean-mass breakdown, not just the number on the scale, which is what actually tells you whether weight loss is coming from fat or from muscle."
         },
         {
           "t": "p",
-          "text": "Across the pooled trials, the large majority of the weight lost came from fat mass, with lean (muscle) tissue making up a smaller share than the alarming early headlines had implied. Some lean mass is still lost — that happens with almost any weight loss, including plain dieting — but the fat-to-muscle ratio was more favourable than the \"these drugs waste your muscle\" narrative suggested."
+          "text": "Across the pooled trials, the large majority of the weight lost came from fat mass, with lean (muscle) tissue making up a smaller share than the alarming early headlines had implied. Some lean mass is still lost — that happens with almost any weight loss, including plain dieting — but the fat-to-muscle ratio was more favourable than the \"these drugs waste your muscle\" narrative suggested. The authors also broke the results down by how long people had been treated: at three months average body weight was down about 9%, with marked reductions in fat mass and in visceral fat; at six months the average was around 5%, with lean mass largely preserved; at twelve months it was around 4%. Their conclusion was that these drugs deliver \"quality\" weight loss — selective fat reduction with relative preservation of lean tissue."
         },
         {
           "t": "p",
-          "text": "One finding stands out for women: on the same drugs, women lost proportionally more weight than men. That fits what's known about sex differences in body composition and how these medicines act, and it's a useful reminder that trial averages — often weighted toward male physiology — don't always map onto a woman's experience."
+          "text": "Two things this analysis does not tell you, both of which are covered separately here. It did not break its results down by sex — the subgroups it tested were drug type and treatment duration — so it is not the source for the finding that women lose more weight than men. That comes from [a JAMA Internal Medicine review of 64 randomised trials](/blog/glp1-weight-loss-sex-difference-women-men/), which put the figures at 10.9% of body weight in women against 6.8% in men. And it pooled general adult trial populations, in which the average participant is middle-aged. [A narrative review that looked specifically at women aged 65 and over](/blog/glp1-older-women-lean-mass/) found that roughly a quarter to 40% of the weight they lost was lean mass. That is not a contradiction of \"most of it is fat\" — a quarter to 40% still leaves the majority coming off as fat — but it is the same fact read from the end that matters more the less muscle you had to begin with."
         },
         {
           "t": "p",
-          "text": "None of this means muscle looks after itself. Losing weight quickly at any age thins muscle and bone unless you actively defend them — which is exactly where [enough protein](/blog/protein-for-women-over-40/) and resistance training earn their place, and it matters even more through perimenopause and beyond, when muscle and bone are already under pressure. The drugs tilt the fat-to-muscle ratio in your favour; they don't remove the need to train and eat well while the weight comes off."
+          "text": "None of this means muscle looks after itself. Losing weight quickly at any age thins muscle and bone unless you actively defend them — which is exactly where [enough protein](/blog/protein-for-women-over-40/) and resistance training earn their place, and it matters even more through perimenopause and beyond, when muscle and bone are already under pressure. The drugs tilt the fat-to-muscle ratio in your favour; they don't remove the need to train and eat well while the weight comes off. Bone belongs in that sentence alongside muscle, and [why it makes the decision harder around menopause](/blog/glp1-menopause-bone-loss/) is worth reading next to this."
         },
         {
           "t": "h",
@@ -12179,10 +12190,31 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Most of the weight lost on GLP-1 drugs is fat, not muscle, and women lose proportionally more than men.",
-              "detail": "A 2026 meta-analysis in the International Journal of Obesity (Nature) pooled body-composition data from randomised trials of GLP-1 receptor agonists and found that the large majority of weight lost was fat mass rather than lean (muscle) tissue, with women losing proportionally more weight than men. Some lean mass loss still occurs, as it does with most weight loss, underscoring the role of adequate protein and resistance exercise in preserving muscle.",
-              "cite": "International Journal of Obesity (Nature) · Meta-analysis, 2026",
+              "claim": "Across 24 pooled randomised trials, most of the weight lost on GLP-1 drugs was fat rather than lean tissue.",
+              "detail": "A systematic review and meta-analysis in the International Journal of Obesity (Nature), published 25 April 2026, searched PubMed, Scopus and Web of Science up to December 2024, included 36 studies in qualitative analysis and pooled 24 in meta-analysis, with subgroup analyses by drug type and by treatment duration. Mean body weight fell by approximately 9% at three months, 5% at six months and 4% at twelve months. Fat mass decline predominated while reductions in lean body mass were modest, and the authors concluded that the drugs achieve \"quality\" weight loss through selective fat mass reduction with relative preservation of lean tissue. The analysis reported no sex-stratified results, so it is not a source for differences between women and men; its participants were general adult populations with overweight or obesity, with or without type 2 diabetes, rather than a specifically older or postmenopausal cohort.",
+              "cite": "International Journal of Obesity (Nature) · Systematic review and meta-analysis, 25 April 2026 (PMID 42034831)",
               "url": "https://www.nature.com/articles/s41366-026-02088-1"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "GLP-1 drugs in women over 65: how much of the loss is muscle",
+              "url": "/blog/glp1-older-women-lean-mass/",
+              "desc": "The same question asked of a much older population — a quarter to 40% lean mass, and why that is the same finding read from the other end."
+            },
+            {
+              "name": "Women lose more weight on GLP-1 drugs than men",
+              "url": "/blog/glp1-weight-loss-sex-difference-women-men/",
+              "desc": "The JAMA Internal Medicine review of 64 trials that actually is the source for the sex difference."
+            },
+            {
+              "name": "Weight loss means bone loss — the case for caution on GLP-1s in menopause",
+              "url": "/blog/glp1-menopause-bone-loss/",
+              "desc": "The bone half of the body-composition question, which gets far less attention than muscle."
             }
           ]
         }
@@ -12190,37 +12222,37 @@ export const POSTS = [
       "faq": [
         {
           "q": "Do GLP-1 weight-loss drugs make you lose muscle?",
-          "a": "Some muscle loss happens with almost any weight loss, including on these drugs — but a 2026 meta-analysis found the large majority of the weight lost on GLP-1 drugs is fat, not muscle, and the muscle share is smaller than earlier single studies suggested. You can protect muscle further by eating enough protein and doing resistance exercise while you lose weight."
+          "a": "Some muscle loss happens with almost any weight loss, including on these drugs — but this 2026 meta-analysis found the large majority of the weight lost on GLP-1 drugs is fat, not muscle, and the muscle share is smaller than earlier single studies suggested. That figure comes from general adult trial populations; in women aged 65 and over, a separate review put the lean-mass share at roughly a quarter to 40%, which is higher but still a minority of the total. You can protect muscle either way by eating enough protein and doing resistance exercise while you lose weight."
         },
         {
-          "q": "Why do women lose more weight than men on these drugs?",
-          "a": "The 2026 meta-analysis found women lost proportionally more weight than men on the same GLP-1 medicines. Differences in body composition, hormones and how the drugs act between the sexes all play a part. It's also a reminder that averages from mixed or male-skewed trials don't always reflect what an individual woman will experience."
+          "q": "Does this study show women lose more weight than men?",
+          "a": "Not this one — it broke its results down by drug type and by how long people had been treated, not by sex. The finding that women lose more does exist, but it comes from a separate JAMA Internal Medicine review of 64 randomised trials, which recorded 10.9% of body weight lost in women against 6.8% in men. That review is covered on its own here."
         }
       ]
     },
     "ua": {
       "cat": "Схуднення",
-      "title": "Препарати для схуднення GLP-1 спалюють переважно жир, а не м'язи — метааналіз International Journal of Obesity",
+      "title": "Більшість ваги, втраченої на GLP-1, — це жир, а не м'язи — у дослідженнях загальної дорослої популяції",
       "seoTitle": "GLP-1: втрата ваги — переважно жир, а не м’язи (IJO)",
-      "excerpt": "Метааналіз 2026 року показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
+      "excerpt": "Метааналіз 2026 року, що об'єднав 24 дослідження, показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м'язи. Він вимірював загальні дорослі популяції досліджень — і саме тому звучить заспокійливіше, ніж огляди, які дивилися саме на жінок після 65.",
       "meta": "17 липня 2026 · 3 хв читання",
-      "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м'язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир.",
+      "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м'язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир. Проте важливо, у кого це вимірювали, — і саме тут цей результат зустрічається з обережнішими висновками інших матеріалів на сайті.",
       "blocks": [
         {
           "t": "p",
-          "text": "Дослідники об'єднали дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 — класу препаратів, до якого належать семаглутид (Ozempic, Wegovy) і тирзепатид. Важливо, що вони дивилися на співвідношення жирової та м'язової маси, а не лише на цифру на вагах — саме це показує, звідки береться втрата ваги: з жиру чи з м'язів."
+          "text": "Дослідники об'єднали дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 — класу препаратів, до якого належать семаглутид (Ozempic, Wegovy) і тирзепатид. Загалом переглянули 36 досліджень, 24 з них об'єднали статистично, охопивши все опубліковане до грудня 2024 року. Важливо, що вони дивилися на співвідношення жирової та м'язової маси, а не лише на цифру на вагах — саме це показує, звідки береться втрата ваги: з жиру чи з м'язів."
         },
         {
           "t": "p",
-          "text": "У всіх об'єднаних дослідженнях переважна більшість втраченої ваги припадала на жирову масу, а на м'язову тканину — менша частка, ніж припускали тривожні ранні заголовки. Певна втрата м'язової маси все одно відбувається — це трапляється майже за будь-якого схуднення, зокрема й простого дотримання дієти, — але співвідношення жиру до м'язів було сприятливішим, ніж навіювала розповідь про те, що «ці препарати руйнують м'язи»."
+          "text": "У всіх об'єднаних дослідженнях переважна більшість втраченої ваги припадала на жирову масу, а на м'язову тканину — менша частка, ніж припускали тривожні ранні заголовки. Певна втрата м'язової маси все одно відбувається — це трапляється майже за будь-якого схуднення, зокрема й простого дотримання дієти, — але співвідношення жиру до м'язів було сприятливішим, ніж навіювала розповідь про те, що «ці препарати руйнують м'язи». Автори також розділили результати за тривалістю лікування: на третьому місяці середня вага знизилася приблизно на 9% із помітним зменшенням жирової та вісцеральної маси; на шостому — приблизно на 5%, причому м'язова маса значною мірою збереглася; на дванадцятому — приблизно на 4%. Їхній висновок: ці препарати дають «якісну» втрату ваги — вибіркове зменшення жиру з відносним збереженням м'язової тканини."
         },
         {
           "t": "p",
-          "text": "Один результат особливо важливий для жінок: на тих самих препаратах жінки втрачали пропорційно більше ваги, ніж чоловіки. Це узгоджується з відомими статевими відмінностями у складі тіла та в тому, як діють ці ліки, і нагадує, що середні показники досліджень — часто зміщені у бік чоловічої фізіології — не завжди відповідають досвіду жінки."
+          "text": "Дві речі, яких цей аналіз не показує, — і про кожну ми пишемо окремо. Він не розділяв результати за статтю: перевіряли підгрупи за типом препарату та тривалістю лікування, — тож він не є джерелом висновку про те, що жінки втрачають більше ваги, ніж чоловіки. Це висновок [огляду 64 рандомізованих досліджень у JAMA Internal Medicine](/ua/blog/glp1-weight-loss-sex-difference-women-men/), де цифри становили 10,9% маси тіла у жінок проти 6,8% у чоловіків. До того ж він об'єднував загальні дорослі популяції досліджень, де середній учасник — людина середнього віку. [Наративний огляд, який дивився саме на жінок віком 65 років і старших](/ua/blog/glp1-older-women-lean-mass/), виявив, що приблизно від чверті до 40% втраченої ними ваги припадало на м'язову масу. Це не суперечить твердженню «більшість — це жир»: чверть-40% усе одно лишає більшість на жир, — але це той самий факт, прочитаний з того боку, який важить тим більше, чим менше м'язів у вас було на початку."
         },
         {
           "t": "p",
-          "text": "Ніщо з цього не означає, що м'язи подбають про себе самі. Швидка втрата ваги в будь-якому віці витончує м'язи й кістки, якщо їх активно не захищати — і саме тут стають у пригоді [достатній білок](/ua/blog/protein-for-women-over-40/) і силові тренування. Це особливо важливо під час перименопаузи та після неї, коли м'язи й кістки й так під тиском. Препарати схиляють співвідношення жиру до м'язів на вашу користь, але не скасовують потреби тренуватися й добре харчуватися, поки вага йде."
+          "text": "Ніщо з цього не означає, що м'язи подбають про себе самі. Швидка втрата ваги в будь-якому віці витончує м'язи й кістки, якщо їх активно не захищати — і саме тут стають у пригоді [достатній білок](/ua/blog/protein-for-women-over-40/) і силові тренування. Це особливо важливо під час перименопаузи та після неї, коли м'язи й кістки й так під тиском. Препарати схиляють співвідношення жиру до м'язів на вашу користь, але не скасовують потреби тренуватися й добре харчуватися, поки вага йде. Поряд із м'язами в цьому реченні мають бути й кістки: [чому це ускладнює рішення в менопаузі](/ua/blog/glp1-menopause-bone-loss/) варто прочитати поруч із цим матеріалом."
         },
         {
           "t": "h",
@@ -12230,10 +12262,31 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і жінки втрачають пропорційно більше, ніж чоловіки.",
-              "detail": "Метааналіз 2026 року в International Journal of Obesity (Nature) об'єднав дані про склад тіла з рандомізованих досліджень агоністів рецепторів GLP-1 і виявив, що переважна більшість втраченої ваги припадала на жирову масу, а не на м'язову тканину, при цьому жінки втрачали пропорційно більше ваги, ніж чоловіки. Певна втрата м'язової маси все одно відбувається, як і за більшості схуднення, що підкреслює роль достатнього білка й силових тренувань у збереженні м'язів.",
-              "cite": "International Journal of Obesity (Nature) · Метааналіз, 2026",
+              "claim": "У 24 об'єднаних рандомізованих дослідженнях більшість ваги, втраченої на препаратах GLP-1, припадала на жир, а не на м'язову тканину.",
+              "detail": "Систематичний огляд і метааналіз в International Journal of Obesity (Nature), опублікований 25 квітня 2026 року, охопив пошук у PubMed, Scopus і Web of Science до грудня 2024 року, включив 36 досліджень у якісний аналіз і об'єднав 24 у метааналіз із аналізом підгруп за типом препарату та тривалістю лікування. Середня маса тіла знизилася приблизно на 9% за три місяці, на 5% за шість місяців і на 4% за дванадцять місяців. Переважало зменшення жирової маси, тоді як зменшення м'язової маси було помірним, і автори дійшли висновку, що препарати забезпечують «якісну» втрату ваги через вибіркове зменшення жирової маси з відносним збереженням м'язової тканини. Аналіз не наводив результатів у розрізі статі, тож він не є джерелом для відмінностей між жінками й чоловіками; його учасники — загальні дорослі популяції з надмірною вагою або ожирінням, з цукровим діабетом 2 типу або без нього, а не спеціально старша чи постменопаузальна когорта.",
+              "cite": "International Journal of Obesity (Nature) · Систематичний огляд і метааналіз, 25 квітня 2026 (PMID 42034831)",
               "url": "https://www.nature.com/articles/s41366-026-02088-1"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Більше по темі",
+          "items": [
+            {
+              "name": "Препарати GLP-1 у жінок після 65: яка частка втрати — це м'язи",
+              "url": "/ua/blog/glp1-older-women-lean-mass/",
+              "desc": "Те саме питання, поставлене щодо значно старшої популяції: від чверті до 40% м'язової маси — і чому це той самий висновок, прочитаний з іншого боку."
+            },
+            {
+              "name": "Жінки втрачають на препаратах GLP-1 більше ваги, ніж чоловіки",
+              "url": "/ua/blog/glp1-weight-loss-sex-difference-women-men/",
+              "desc": "Огляд 64 досліджень у JAMA Internal Medicine, який і є справжнім джерелом висновку про різницю між статями."
+            },
+            {
+              "name": "Втрата ваги означає втрату кісткової маси — аргументи на користь обережності з GLP-1 у менопаузі",
+              "url": "/ua/blog/glp1-menopause-bone-loss/",
+              "desc": "Кісткова половина питання про склад тіла, якій приділяють значно менше уваги, ніж м'язам."
             }
           ]
         }
@@ -12241,11 +12294,11 @@ export const POSTS = [
       "faq": [
         {
           "q": "Чи призводять препарати GLP-1 для схуднення до втрати м'язів?",
-          "a": "Певна втрата м'язів відбувається майже за будь-якого схуднення, зокрема й на цих препаратах, — але метааналіз 2026 року виявив, що переважна більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і частка м'язів менша, ніж припускали ранні окремі дослідження. Захистити м'язи ще більше можна, вживаючи достатньо білка й виконуючи силові вправи, поки ви худнете."
+          "a": "Певна втрата м'язів відбувається майже за будь-якого схуднення, зокрема й на цих препаратах, — але цей метааналіз 2026 року виявив, що переважна більшість ваги, втраченої на препаратах GLP-1, — це жир, а не м'язи, і частка м'язів менша, ніж припускали ранні окремі дослідження. Ця цифра походить із загальних дорослих популяцій досліджень; у жінок віком 65 років і старших окремий огляд оцінив частку м'язової маси приблизно у чверть-40% — більше, але все одно меншість від загальної втрати. Захистити м'язи в обох випадках можна, вживаючи достатньо білка й виконуючи силові вправи, поки ви худнете."
         },
         {
-          "q": "Чому жінки втрачають більше ваги, ніж чоловіки, на цих препаратах?",
-          "a": "Метааналіз 2026 року виявив, що жінки втрачали пропорційно більше ваги, ніж чоловіки, на тих самих препаратах GLP-1. Відмінності у складі тіла, гормонах і в тому, як діють ці ліки в чоловіків і жінок, — усе це має значення. Це також нагадування, що середні показники змішаних або зміщених до чоловіків досліджень не завжди відображають те, що відчує конкретна жінка."
+          "q": "Чи показує це дослідження, що жінки втрачають більше ваги, ніж чоловіки?",
+          "a": "Саме це — ні: воно розділяло результати за типом препарату та тривалістю лікування, а не за статтю. Висновок про те, що жінки втрачають більше, справді існує, але він походить з окремого огляду 64 рандомізованих досліджень у JAMA Internal Medicine, де зафіксували 10,9% втраченої маси тіла в жінок проти 6,8% у чоловіків. Про цей огляд ми пишемо окремо."
         }
       ]
     }
@@ -13174,11 +13227,12 @@ export const POSTS = [
     "date": "2026-07-10",
     "image": "/images/glp1-drugs-less-movement.jpg",
     "cats": [
-      "weight"
+      "weight",
+      "glp1"
     ],
     "en": {
       "cat": "Weight loss",
-      "title": "People on GLP-1 weight-loss drugs moved less, not more, a Fitbit study finds",
+      "title": "People on GLP-1 weight-loss drugs moved less, not more — a wearable-data study, not yet peer-reviewed",
       "seoTitle": "GLP-1 Users Moved Less, Not More: Fitbit Study",
       "metaDesc": "A Fitbit study of 753 adults found daily steps and exercise fell after starting Ozempic-style GLP-1 drugs. Why movement matters for holding on to muscle.",
       "excerpt": "Tracking 753 adults' wearable data, researchers found daily steps and exercise fell after starting Ozempic-style drugs — a concern for muscle, especially in women over 40.",
@@ -13234,7 +13288,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
-      "title": "Люди на препаратах GLP-1 для схуднення почали рухатися менше — дослідження з Fitbit",
+      "title": "Люди на препаратах GLP-1 для схуднення почали рухатися менше — дані носимих пристроїв, ще без рецензування",
       "seoTitle": "На GLP-1 люди рухались менше: дані Fitbit",
       "metaDesc": "Дані Fitbit по 753 дорослих: після початку GLP-1 (типу Ozempic) кроки й активність знизились. Чому рух критично важливий для збереження м'язів.",
       "excerpt": "Проаналізувавши дані трекерів 753 дорослих, дослідники виявили, що після початку препаратів на кшталт Ozempic кількість кроків і тренувань падала — це загроза для м’язів, особливо в жінок після 40.",

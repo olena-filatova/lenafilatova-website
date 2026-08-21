@@ -13,6 +13,11 @@ export const CATS = [
   { key: 'fitness', en: 'Fitness 40+', ua: 'Фітнес 40+' },
   { key: 'skin', en: 'Skin & beauty', ua: 'Краса та шкіра' },
   { key: 'weight', en: 'Weight loss', ua: 'Схуднення' },
+  // OPS-356: GLP-1 coverage had grown to seven posts spread across Weight
+  // loss, Perimenopause, Fitness and Diabetes, so a reader who wanted the
+  // drugs specifically had no way to see them together — and the posts read
+  // as contradictory precisely because they were never side by side.
+  { key: 'glp1', en: 'GLP-1', ua: 'GLP-1' },
 ];
 
 export const UI = {
