@@ -422,6 +422,96 @@ export const POSTS = [
         },
         {
           "t": "h",
+          "text": "Every study behind this post, side by side"
+        },
+        {
+          "t": "p",
+          "text": "Here is the whole evidence base in one place, with the doses converted so they can be compared. Two things stand out when it is laid out like this. The first is how small it all is — six people, nine, ten, fourteen, fifteen, seventeen. The second is that the results only look contradictory until you read the fourth column: what glucose did depends almost entirely on when it was measured and whether there was food involved."
+        },
+        {
+          "t": "table",
+          "wide": true,
+          "head": [
+            "Study",
+            "What they drank",
+            "Alcohol",
+            "What happened to glucose, and when"
+          ],
+          "rows": [
+            [
+              "Turner 2001 — 6 men, type 1",
+              "Dry white wine at 9pm, over 90 minutes",
+              "~52 g · 6.6 units",
+              "Nothing all evening and nothing overnight. Next morning significantly lower: post-breakfast peak 8.9 against 15 mmol/L. From 10am five of the six needed treating for hypoglycaemia, bottoming out at 1.9–2.9 mmol/L. Alcohol undetectable in blood from 8am."
+            ],
+            [
+              "Plougmann 2003 — computer model of the study above",
+              "The same 9pm dose, simulated",
+              "~52 g · 6.6 units",
+              "A significant fall 10 to 12 hours after the drink. Modelled as suppressed glucose production, then glycogen depletion, then a rebound in insulin sensitivity as stores refill."
+            ],
+            [
+              "Moriarty 1993 — 9 people, type 1, fasted overnight",
+              "Ethanol by drip: 0.5 g/kg, then 0.25 g/kg an hour",
+              "~35 g first dose · 4.4 units",
+              "No hypoglycaemia at all, and no change in the glucose needed to hold them steady (1.22 against 1.23). Alcohol in the blood is not, by itself, glucose-lowering."
+            ],
+            [
+              "Cheyne 2004 — 17 people, type 1",
+              "Alcohol to 43 mg/dl, below the UK driving limit",
+              "~28 g · 3.5 units",
+              "Glucose was held steady by design, so there is no glucose result. Reaction time slowed 35 ms by alcohol alone, 39 ms by a mild low alone, and 74 ms by the two together."
+            ],
+            [
+              "Kerr 2007 — 17 people, type 1",
+              "0.4 g/kg",
+              "~28 g · 3.5 units",
+              "Growth hormone response to a low was blunted, 14.3 against 25.9. Insulin sensitivity fell too — and the authors note the two effects partly cancel each other out."
+            ],
+            [
+              "Glucagon trial (NCT02516150) — 15 people, type 1",
+              "Ethanol by drip to 0.1% blood alcohol, then a small glucagon dose",
+              "0.1% blood alcohol",
+              "Glucagon still worked: 1996 against 1981 on the main measure, with a somewhat smaller peak (83.0 against 101.7). This is what qualifies the widespread claim that glucagon fails after drinking."
+            ],
+            [
+              "Hätönen 2012 — 10 healthy people",
+              "Beer at 4.5% with 25 g of carbohydrate, against alcohol-free beer",
+              "21 g · 2.6 units",
+              "Glucose went up, not down. A glucose drink with alcohol produced 18% more rise than the same drink without it, and beer's measured glycaemic index came out at 119 against 80 for the alcohol-free version. Measured over two hours only."
+            ],
+            [
+              "Ismail 2006 — 14 adolescents, type 1",
+              "A real night out: a mean of 9 drinks for the young men, 6 for the young women",
+              "~90 g / ~63 g · 11 / 8 units",
+              "More swing through the night, and fewer lows than on their own control nights. But it measured from 6pm to 6am and stopped. Turner's lows began at 10am — four hours after this study switched off."
+            ],
+            [
+              "T1Drink 2025 — 216 people, type 1, survey",
+              "Habitual drinking, self-reported",
+              "Two or more per occasion",
+              "Severe hypoglycaemia around four times more likely at two or more drinks per occasion (4.20, 1.52–11.61) and at frequent heavy drinking (4.19, 1.37–12.75). Nearly half reported effects they could not predict."
+            ],
+            [
+              "SWAN 2024 — 2,578 women aged 42–52, no diabetes",
+              "Highest third of daily intake",
+              "By tertile",
+              "Fasting glucose went the other way: moderate intake was linked to lower odds of a high-glucose pattern (0.23, 0.10–0.52). Observational, and the group of interest is only 111 women."
+            ],
+            [
+              "Kwon 2022 — premenopausal women",
+              "Under 10, 10–19, 20–39, or 40+ g a day",
+              "1.3 to 5+ units a day",
+              "Not a glucose result, included because it is the midlife trade-off. Odds of bothersome hot flushes rose stepwise with intake: 1.42, then 1.99, then 2.06, then 3.52 against women who never drank."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The gap in that table is the one worth noticing. The delayed low is demonstrated at about 6.6 units and surveyed at two or more drinks. Between one glass and two-thirds of a bottle, nobody has looked."
+        },
+        {
+          "t": "h",
           "text": "A hypo and being drunk look the same from outside"
         },
         {
@@ -879,6 +969,96 @@ export const POSTS = [
         {
           "t": "p",
           "text": "З цифрою 45% схожа проблема: в огляді, де більшість із нею й зустрічається, це вторинне цитування робіт 1997 і 2004 років, сформульоване як «до» — стеля, а не середнє. А сам систематичний огляд датований 2008 роком, і це варто сказати прямо, зважаючи на те, як часто його називають свіжим. Найновіша картина походить радше з опитувань. Міжнародне дослідження, опубліковане у 2025 році, охопило 216 людей із діабетом 1 типу з 23 країн і виявило, що лише 53,2% почувалися безпечно, вживаючи алкоголь, лише 45,8% узагалі коли-небудь мали цю тему в межах діабетичного навчання, а 48,2% стикалися з непередбачуваним впливом на глюкозу. Тяжкі гіпоглікемії були приблизно вчетверо частішими в тих, хто регулярно випивав дві та більше порції за раз (відношення шансів 4,20, 95% ДІ 1,52–11,61). Самозвіт і поперечний зріз, тож не причинність, — але форма правильна: непередбачувано, недонавчено, гірше при обсязі."
+        },
+        {
+          "t": "h",
+          "text": "Усі дослідження цього тексту поруч"
+        },
+        {
+          "t": "p",
+          "text": "Ось уся доказова база в одному місці, з дозами, переведеними в порівнянні одиниці. Коли розкласти це так, впадають у вічі дві речі. Перша — наскільки все це мале: шестеро людей, дев'ятеро, десятеро, чотирнадцятеро, п'ятнадцятеро, сімнадцятеро. Друга — результати виглядають суперечливими лише доти, доки ви не прочитаєте четверту колонку: те, що сталося з глюкозою, майже цілком залежить від того, коли її вимірювали і чи була при цьому їжа."
+        },
+        {
+          "t": "table",
+          "wide": true,
+          "head": [
+            "Дослідження",
+            "Що пили",
+            "Алкоголь",
+            "Що сталося з глюкозою і коли"
+          ],
+          "rows": [
+            [
+              "Turner 2001 — 6 чоловіків, діабет 1 типу",
+              "Сухе біле вино о 21:00, протягом 90 хвилин",
+              "~52 г · 6,6 одиниці",
+              "Нічого весь вечір і нічого вночі. Наступного ранку значно нижче: пік після сніданку 8,9 проти 15 ммоль/л. З 10:00 п'ятьом із шести знадобилося лікування гіпоглікемії з мінімумом 1,9–2,9 ммоль/л. Алкоголь у крові не визначався вже з 8:00."
+            ],
+            [
+              "Plougmann 2003 — комп'ютерна модель дослідження вище",
+              "Та сама доза о 21:00, змодельована",
+              "~52 г · 6,6 одиниці",
+              "Значуще падіння через 10–12 годин після напою. Змодельовано як пригнічене вироблення глюкози, потім виснаження глікогену, потім зростання чутливості до інсуліну, поки запаси поповнюються."
+            ],
+            [
+              "Moriarty 1993 — 9 людей, діабет 1 типу, натщесерце",
+              "Етанол крапельно: 0,5 г/кг, далі 0,25 г/кг на годину",
+              "~35 г перша доза · 4,4 одиниці",
+              "Жодної гіпоглікемії і жодної зміни в кількості глюкози, потрібної, щоб утримати їх стабільними (1,22 проти 1,23). Алкоголь у крові сам собою не знижує глюкозу."
+            ],
+            [
+              "Cheyne 2004 — 17 людей, діабет 1 типу",
+              "Алкоголь до 43 мг/дл — нижче за британську норму для водіння",
+              "~28 г · 3,5 одиниці",
+              "Глюкозу навмисно утримували стабільною, тож результату щодо неї немає. Час реакції сповільнився на 35 мс від самого алкоголю, на 39 мс від самої м'якої гіпоглікемії і на 74 мс від обох разом."
+            ],
+            [
+              "Kerr 2007 — 17 людей, діабет 1 типу",
+              "0,4 г/кг",
+              "~28 г · 3,5 одиниці",
+              "Реакція гормону росту на гіпоглікемію притуплена: 14,3 проти 25,9. Чутливість до інсуліну теж знизилася — і автори зазначають, що ці два ефекти частково гасять один одного."
+            ],
+            [
+              "Дослідження глюкагону (NCT02516150) — 15 людей, діабет 1 типу",
+              "Етанол крапельно до 0,1% алкоголю в крові, потім мала доза глюкагону",
+              "0,1% алкоголю в крові",
+              "Глюкагон усе одно спрацював: 1996 проти 1981 за основним показником, з дещо меншим піком (83,0 проти 101,7). Саме це уточнює поширене твердження, що глюкагон не працює після алкоголю."
+            ],
+            [
+              "Hätönen 2012 — 10 здорових людей",
+              "Пиво 4,5% із 25 г вуглеводів проти безалкогольного пива",
+              "21 г · 2,6 одиниці",
+              "Глюкоза пішла вгору, а не вниз. Глюкозний напій з алкоголем дав на 18% більше зростання, ніж той самий напій без нього, а виміряний глікемічний індекс пива склав 119 проти 80 у безалкогольного. Вимірювали лише дві години."
+            ],
+            [
+              "Ismail 2006 — 14 підлітків, діабет 1 типу",
+              "Справжня вечірка: у середньому 9 порцій у хлопців, 6 у дівчат",
+              "~90 г / ~63 г · 11 / 8 одиниць",
+              "Більший розмах протягом ночі й менше гіпоглікемій, ніж у їхні власні контрольні ночі. Але вимірювали з 18:00 до 6:00 — і зупинилися. Гіпоглікемії в Тернера почалися о 10:00, через чотири години після того, як це дослідження вимкнулося."
+            ],
+            [
+              "T1Drink 2025 — 216 людей, діабет 1 типу, опитування",
+              "Звичне вживання, за самозвітом",
+              "Дві та більше порції за раз",
+              "Тяжка гіпоглікемія приблизно вчетверо ймовірніша при двох і більше порціях за раз (4,20, 1,52–11,61) і при частому надмірному вживанні (4,19, 1,37–12,75). Майже половина повідомила про непередбачувані ефекти."
+            ],
+            [
+              "SWAN 2024 — 2 578 жінок віком 42–52, без діабету",
+              "Верхня третина денного споживання",
+              "За терцилями",
+              "Глюкоза натще пішла в інший бік: помірне вживання пов'язане з меншими шансами високого рівня глюкози (0,23, 0,10–0,52). Обсерваційне, і група інтересу — лише 111 жінок."
+            ],
+            [
+              "Kwon 2022 — жінки в пременопаузі",
+              "Менше 10, 10–19, 20–39 або 40+ г на добу",
+              "1,3 до 5+ одиниць на добу",
+              "Не результат щодо глюкози — включено, бо це той самий компроміс середнього віку. Шанси на дошкульні припливи зростали сходинками: 1,42, потім 1,99, потім 2,06, потім 3,52 проти жінок, які ніколи не пили."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Прогалина в цій таблиці — саме те, що варто помітити. Відстрочена гіпоглікемія показана приблизно на 6,6 одиниці й опитана на двох і більше порціях. А між одним келихом і двома третинами пляшки не дивився ніхто."
         },
         {
           "t": "h",

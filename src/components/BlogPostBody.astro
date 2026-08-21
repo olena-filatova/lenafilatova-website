@@ -60,7 +60,7 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
       if (b.t === 'img' || b.t === 'graph')
         return <figure><img src={img(b.src)} alt={b.alt} loading="lazy" width={dim(b.src).w} height={dim(b.src).h} />{b.cap && <figcaption>{b.cap}</figcaption>}</figure>;
       if (b.t === 'table')
-        return <div class="tbl"><table>
+        return <div class={b.wide ? 'tbl tbl-wide' : 'tbl'}><table>
           <thead><tr>{b.head.map((h) => <th>{h}</th>)}</tr></thead>
           <tbody>{b.rows.map((r) => <tr>{r.map((c) => <td>{c}</td>)}</tr>)}</tbody>
         </table></div>;
