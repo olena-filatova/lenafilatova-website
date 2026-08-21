@@ -110,14 +110,17 @@ export function GET() {
   for (const [path, lastmod, image] of pairs) {
     const en = SITE + path;
     const ua = SITE + '/ua' + (path === '/' ? '/' : path);
-    const alts = [['en', en], ['uk', ua], ['x-default', en]];
+    // ru → the Ukrainian URL (see BaseLayout for why). Google cross-checks the
+    // sitemap's alternates against the page's own, so the two sets have to match
+    // exactly or International Targeting reports both as errors.
+    const alts = [['en', en], ['uk', ua], ['ru', ua], ['x-default', en]];
     entries.push(urlEntry(en, lastmod, image, alts));
     entries.push(urlEntry(ua, lastmod, image, alts));
   }
   for (const [en, ua, lastmod] of FLAT) {
     const enUrl = SITE + en;
     const uaUrl = SITE + ua;
-    const alts = [['en', enUrl], ['uk', uaUrl], ['x-default', enUrl]];
+    const alts = [['en', enUrl], ['uk', uaUrl], ['ru', uaUrl], ['x-default', enUrl]];
     entries.push(urlEntry(enUrl, lastmod, null, alts));
     entries.push(urlEntry(uaUrl, lastmod, null, alts));
   }

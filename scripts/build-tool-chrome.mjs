@@ -261,6 +261,47 @@ function cookieBar(lang) {
 </div>`;
 }
 
+// ── language suggestion (OPS-369) ─────────────────────────────────────────
+// The same offer LangSuggest.astro makes on the Astro pages, for the five
+// English tool pages — which is not a detail: /cgm-comparison is the second
+// biggest page on the site by impressions, so leaving it out would leave the
+// hole exactly where the traffic is.
+//
+// English pages only; the Ukrainian twin has nothing to suggest. Written in
+// Ukrainian even for a Russian-speaking reader, who will have no trouble with
+// it — shipping Russian copy on a Ukrainian health brand is an editorial call,
+// not a technical one. A link, never a redirect.
+function langBar(lang, slug) {
+  if (lang !== 'en') return '';
+  return `<div class="lf-langbar" id="lfLangBar" hidden data-lf-chrome>
+  <div class="lf-langbar-in">
+    <p>Є українська версія цієї сторінки.</p>
+    <a href="/${slug}-ua/" id="lfLangGo">Читати українською</a>
+    <button type="button" id="lfLangClose" aria-label="Закрити">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+  </div>
+</div>
+<script>
+(function () {
+  if (window.self !== window.top) return;   // framed: the chrome is hidden anyway
+  var bar = document.getElementById('lfLangBar');
+  if (!bar) return;
+  var KEY = 'lf_lang_hint';
+  try { if (localStorage.getItem(KEY) === 'dismissed') return; } catch (e) {}
+  function remember() { try { localStorage.setItem(KEY, 'dismissed'); } catch (e) {} }
+  // The word boundary in the test below needs a DOUBLE backslash in this file:
+  // the whole block is a JS template literal, so a single one is consumed here
+  // and the page ships a backspace character instead.
+  var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  if (!langs.some(function (l) { return /^(uk|ru)\\b/i.test(l); })) return;
+  bar.hidden = false;
+  document.getElementById('lfLangClose').addEventListener('click', function () { bar.hidden = true; remember(); });
+  document.getElementById('lfLangGo').addEventListener('click', remember);
+})();
+</script>`;
+}
+
 // ── scripts ───────────────────────────────────────────────────────────────
 // cookie-consent.js is injected rather than written as a plain <script src>, so
 // a framed copy of the page never loads GA4 on top of the pageview its parent
@@ -313,10 +354,37 @@ function styles({ maxw, navBreak }) {
     ? `@media (max-width: ${navBreak}) {\n${FOLDED}\n}`
     : `/* This page's content column is 680px, so its masthead is never wide\n   enough for the nav — it is folded at every width. */\n${FOLDED.replace(/^ {2}/gm, '')}`;
 
-  return `:root { --lf-maxw: ${maxw}; }
+    /* The language offer (OPS-369) — a strip above the masthead that scrolls
+     away with the page. `display:flex` on the inner would beat the hidden
+     attribute if it were on the bar itself, so the bar stays display:block.
+     These rules ship to the UA pages too, which never render the bar: the head
+     block is generated once per TOOL and written to both of its language files,
+     and threading a language through it to save ~800 bytes of unmatched CSS
+     would cost more than it saves. The markup is English-only, which is the
+     part that matters. */
+  const LANGBAR = `
+.lf-langbar[hidden] { display: none !important; }
+.lf-langbar { display: block; background: var(--ink); color: #F1E6EE; padding: 9px 24px; }
+.lf-langbar-in { width: 100%; max-width: var(--lf-maxw); margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
+.lf-langbar p { margin: 0; flex: 1 1 auto; min-width: 0; font-family: var(--font-body); font-size: 13px; line-height: 1.5; }
+.lf-langbar a { color: #fff; text-decoration: none; flex: none; font-family: var(--font-body); font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
+.lf-langbar a:hover { border-bottom-color: #fff; }
+.lf-langbar a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.lf-langbar button { flex: none; border: 0; background: transparent; color: #C9B2C2; width: 32px; height: 32px; padding: 6px; cursor: pointer; display: grid; place-items: center; }
+.lf-langbar button svg { width: 100%; height: 100%; }
+.lf-langbar button:hover { color: #fff; }
+.lf-langbar button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@media (max-width: 560px) {
+  .lf-langbar { padding: 9px 16px; }
+  .lf-langbar-in { gap: 2px 12px; }
+  .lf-langbar p { flex: 1 1 100%; }
+}`;
+
+return `:root { --lf-maxw: ${maxw}; }
 
 /* Framed: the tool is a widget inside an article that already has chrome. */
 html[data-lf-framed] [data-lf-chrome] { display: none !important; }
+${LANGBAR}
 
 .lf-wrap { max-width: var(--lf-maxw); margin: 0 auto; padding: 0 clamp(18px, 3.5vw, 40px); }
 .lf-btn {
@@ -540,7 +608,7 @@ function build(tool, lang) {
     html = html.replace(OLD_HEAD_RE, `${MARK('head-bar').start}\n${MARK('head-bar').end}`);
   }
   html = upsert(html, 'head', headBlock(tool), '</head>');
-  html = upsert(html, 'head-bar', header({ slug, lang }), '</head>');
+  html = upsert(html, 'head-bar', [langBar(lang, slug), header({ slug, lang })].filter(Boolean).join('\n'), '</head>');
   html = upsert(html, 'foot', [newsletter(lang), footer(lang), cookieBar(lang), footScripts].join('\n'), '</body>');
   return { file, html };
 }
