@@ -109,6 +109,49 @@ Post count and dates descending, zero duplicate slugs. Force-push with
 `git worktree` — the main clone usually has another branch checked out with
 uncommitted work.
 
+## Images are supplied by Lena — never generate one
+
+**Every hero image on this site is sourced by Lena by hand.** Do not generate,
+fetch or invent one, and do not substitute a placeholder. When a post needs an
+image, the deliverable is a *brief*, filed as a comment on **OPS-315**:
+
+- the exact filename, matching the post's `slug` (`/images/<slug>.jpg`)
+- format: **1200 × 675 JPEG, under ~200 KB** (page weight is already the site's
+  main performance problem — see OPS-295)
+- 2–3 stock-search phrases she can paste into Canva
+- an "avoid" note, written from *this* article's argument
+- draft alt text
+
+Two things that have gone wrong doing this, both worth avoiding:
+
+1. **Look at the actual JPEGs before writing a brief, not just their `imageAlt`
+   strings.** A brief for `glp1-what-we-know` asked for "a woman reading with a
+   laptop and a notebook" — which would have near-duplicated the existing hero on
+   `menopause-cost-workplace-productivity`, already a woman at a laptop taking
+   notes. Alt text is too short to expose composition. The house style is narrow —
+   nearly every hero is either a naturalistic photo of a woman 40–60 doing the
+   thing, or a muted still life of the relevant objects — so clashes are easy.
+2. **Scope an "avoid this imagery" note to the one article's argument.** A "no
+   injection pens" line written for the bone-loss post got carried into the GLP-1
+   hub brief, where a pen was actually the most legible option available. Lena
+   overrode it and was right to.
+
+And check a *delivered* image against the article's **argument**, not just its
+topic. The first `glp1-menopause-bone-loss` hero was a flat-lay of bathroom scales
+and a tape measure — for a post whose whole case is that the scale is a poor guide,
+and whose source advises women over 65 to consider maintaining or even gaining
+weight. Say so plainly rather than quietly shipping it.
+
+**After the file lands**, committing it is only half the job — see
+`adding-a-hero-image` below: run `scripts/generate-image-dims.sh` in a **clean**
+worktree (it globs `public/images` and a dirty checkout drags in strays; a correct
+run is a one-line diff), and set the per-language `imageAlt`, written from the
+delivered image rather than from your brief.
+
+`warnAssetGaps()` in `src/data/blog-lib.js` warns at build time about both a hero
+missing from `image-dims.json` and a missing `imageAlt` (OPS-360). Like the
+featured-set warning it **warns rather than throws**, so read the build output.
+
 ## The featured set goes stale silently — check it when you add posts
 
 `featured: true` in `src/data/blog.js` is a **hand-picked editorial flag**. It drives
