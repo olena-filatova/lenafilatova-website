@@ -13,7 +13,8 @@
 // with an active underline (blog hub), each group on its own labelled hairline
 // row so it stays clear that Type and Diet narrow together.
 import { PUBLISHED } from '../data/recipes.js';
-import { CAT_HUB } from '../data/recipes-lib.js';
+import { CAT_HUB, warnRecipeAssetGaps } from '../data/recipes-lib.js';
+import DIMS from '../data/image-dims.json';
 import '../styles/recipes.css';
 
 const { lang = 'en' } = Astro.props;
@@ -24,6 +25,9 @@ const altHubHref = lang === 'ua' ? `${B}recipes/` : `${B}ua/recipes/`;
 const otherLang = lang === 'ua' ? 'en' : 'ua';
 const R = lang === 'ua' ? `${B}ua/recipes/` : `${B}recipes/`;
 const IMG = `${B}recipes/images/`;
+// Missing recipe photos are silent otherwise (OPS-360). Warns once per build
+// even though this component renders for both languages.
+warnRecipeAssetGaps(PUBLISHED, DIMS);
 
 // Hand-picked recipes to lead the hub, in this exact order; everything else
 // follows in its original (unsorted) data order.

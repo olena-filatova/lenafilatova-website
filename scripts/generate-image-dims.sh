@@ -10,8 +10,11 @@ cd "$(dirname "$0")/.."
 out=src/data/image-dims.json
 echo "{" > "$out"
 first=1
-for f in public/images/*.jpg public/images/*.png \
-         public/recipes/images/*.jpg public/recipes/images/*.png; do
+# .jpeg as well as .jpg: seven recipe photos carry the four-letter extension and
+# were silently absent from the manifest until OPS-360, so their pages reserved
+# no layout space and their Twitter card shape fell back to the default.
+for f in public/images/*.jpg public/images/*.jpeg public/images/*.png \
+         public/recipes/images/*.jpg public/recipes/images/*.jpeg public/recipes/images/*.png; do
   [ -f "$f" ] || continue
   w=$(sips -g pixelWidth "$f" | awk '/pixelWidth/{print $2}')
   h=$(sips -g pixelHeight "$f" | awk '/pixelHeight/{print $2}')
