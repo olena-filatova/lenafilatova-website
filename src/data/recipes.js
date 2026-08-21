@@ -134,6 +134,7 @@ export const RECIPES = [
   {
     slug: 'pumpkin-muffins-halloween', dateAdded: '2026-07-10', img: '09-pumpkin-muffins-halloween.jpg', cat: 'baking', gi: 51,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "Two pumpkin muffins in white paper cases, drizzled with dark berry sauce and each given a pair of candy eyes.", ua: "Два гарбузові маффіни в білих паперових формах, политі темним ягідним соусом, з парою цукрових очок на кожному." },
     title: { en: 'Halloween Pumpkin Muffins (Sugar-free)', ua: 'Гарбузові маффіни до Хелловіну (без цукру)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '25 min', ua: '25 хв' }, serves: { en: '12 muffins', ua: '12 маффінів' } },
     why: { en: 'Pumpkin purée is low-calorie with a moderate GI. Wholegrain flour and erythritol keep the glycaemic impact low, while cinnamon and ginger support blood sugar regulation.', ua: 'Гарбузове пюре низькокалорійне з помірним ГІ. Цільнозернове борошно та еритритол мінімізують глікемічне навантаження, а кориця й імбир допомагають регуляції цукру.' },
@@ -144,6 +145,7 @@ export const RECIPES = [
   {
     slug: 'lime-almond-dessert', dateAdded: '2026-07-10', img: '10-lime-almond-dessert.jpeg', cat: 'dessert', gi: 31,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
+    imgAlt: { en: "A square slice of layered almond dessert on a white plate, pale creamy middle under a crumbly topping scattered with bright green lime zest.", ua: "Квадратний шматок листкового мигдалевого десерту на білій тарілці: світла кремова серединка під розсипчастою крихтою, притрушена яскраво-зеленою цедрою лайма." },
     title: { en: 'Lime & Almond Dessert (Sugar-free)', ua: 'Лаймово-мигдалевий десерт (без цукру)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '~30 min + chilling', ua: '~30 хв + охолодження' }, serves: { en: 'Serves 8', ua: '8 порцій' } },
     why: { en: 'Coconut and almond flour replace wheat, giving a low-carb, high-fibre base. Bananas provide natural sweetness; Truvia contains no sugar.', ua: 'Кокосове та мигдалеве борошно замінюють пшеничне — низьковуглеводна, багата клітковиною основа. Банани дають природну солодкість; Truvia без цукру.' },
@@ -154,6 +156,7 @@ export const RECIPES = [
   {
     slug: 'avocado-mayonnaise', dateAdded: '2026-07-10', img: '11-avocado-mayonnaise.jpg', cat: 'sauce', gi: 20,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "A small white bowl of smooth pale green mayonnaise, swirled with the back of a spoon, on dark blue linen.", ua: "Маленька біла миска з гладким блідо-зеленим майонезом, розведеним спіраллю зворотним боком ложки, на темно-синій лляній тканині." },
     title: { en: 'Avocado Mayonnaise (Sugar-free)', ua: 'Майонез з авокадо (без цукру)' },
     meta: { prep: { en: '1 min', ua: '1 хв' }, cook: { en: '4 min', ua: '4 хв' }, serves: { en: 'Serves 4–6', ua: '4–6 порцій' } },
     why: { en: 'Avocado is rich in monounsaturated fats and has virtually no sugar. This sauce has a GI close to zero — a perfect substitute for shop-bought mayonnaise.', ua: 'Авокадо багатий на корисні жири та майже не містить цукру. ГІ цього соусу близький до нуля — ідеальна заміна магазинному майонезу.' },
@@ -165,6 +168,7 @@ export const RECIPES = [
   {
     slug: 'oat-cookies-coconut-sugar', dateAdded: '2026-07-10', img: '12-oat-cookies-coconut-sugar.jpg', cat: 'baking', gi: 51,
     tags: ['vegetarian'],
+    imgAlt: { en: "Thick, craggy oat cookies piled on a white plate by a window, whole oat flakes visible through the golden-brown surface.", ua: "Товсті нерівні вівсяні печива, складені на білій тарілці біля вікна; крізь золотисто-коричневу поверхню видно цілі вівсяні пластівці." },
     title: { en: 'Oat Cookies with Coconut Sugar', ua: 'Вівсяне печиво на кокосовому цукрі' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Makes ~18', ua: '~18 штук' } },
     why: { en: 'Coconut sugar has a lower GI than regular sugar (GI ~35 vs 70). Swap for erythritol with a few drops of stevia to reduce GI further. Coarse oats digest slowly, giving lasting energy.', ua: 'Кокосовий цукор має нижчий ГІ ніж звичайний (~35 проти 70). Замініть на еритритол зі стевією для ще нижчого ГІ. Крупні вівсяні пластівці перетравлюються повільно.' },
@@ -175,6 +179,7 @@ export const RECIPES = [
   {
     slug: 'lemon-cookies-coconut-sugar', dateAdded: '2026-07-10', img: '13-lemon-cookies-coconut-sugar.jpg', cat: 'baking', gi: 43,
     tags: ['vegetarian', 'dairy-free'],
+    imgAlt: { en: "Large flat brown cookies stacked on a white enamel plate, with curls of bright yellow lemon peel tucked between them.", ua: "Великі пласкі коричневі печива, складені на білій емальованій тарілці, між ними — завитки яскраво-жовтої лимонної цедри." },
     title: { en: 'Lemon Cookies with Coconut Sugar', ua: 'Лимонне печиво на кокосовому цукрі' },
     meta: { prep: { en: '10 min + 30 min chilling', ua: '10 хв + 30 хв у холодильнику' }, cook: { en: '15 min', ua: '15 хв' }, serves: { en: 'Makes ~16', ua: '~16 штук' } },
     why: { en: 'A blend of flaxseed flour, coconut flour and wholegrain flour replaces refined white flour. Coconut sugar replaces refined sugar.', ua: 'Суміш лляного, кокосового та цільнозернового борошна замінює рафіноване біле борошно. Кокосовий цукор замінює звичайний.' },
@@ -185,6 +190,7 @@ export const RECIPES = [
   {
     slug: 'lviv-cheesecake', dateAdded: '2026-07-10', img: '14-lviv-cheesecake.jpg', cat: 'dessert', gi: 47,
     tags: ['gluten-free', 'vegetarian'],
+    imgAlt: { en: "A curd loaf coated in dark chocolate, cut into thick slices that show the pale filling studded with raisins.", ua: "Сирний батон у темному шоколаді, нарізаний товстими скибками; видно світлу начинку з родзинками." },
     title: { en: 'Lviv Cheesecake (Lvivsky Syrnyk)', ua: 'Львівський сирник' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '20 min + overnight', ua: '20 хв + ніч у холодильнику' }, serves: { en: 'Serves 10–12', ua: '10–12 порцій' } },
     why: { en: 'The base is cottage cheese — high protein, no flour. Coconut flour adds fibre. The chocolate glaze uses cocoa butter and minimal sugar rather than milk chocolate.', ua: 'Основа — кисломолочний сир (білок, без борошна). Кокосове борошно додає клітковину. Шоколадна глазур — з какао-масла та мінімум цукру, без плитки шоколаду.' },
@@ -195,6 +201,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-ice-cream', dateAdded: '2026-07-10', img: '15-chocolate-ice-cream.jpg', cat: 'dessert', gi: 29,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "Two chocolate ice lollies on a grey plate, one with a yellow stick and one with a turquoise one.", ua: "Два шоколадні морозива на сірій тарілці — одне на жовтій паличці, друге на бірюзовій." },
     title: { en: 'Low-Sugar Chocolate Ice Cream', ua: 'Шоколадне морозиво без цукру' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: '8 min + 3 h freezing', ua: '8 хв + 3 год заморозки' }, serves: { en: 'Serves 4', ua: '4 порції' } },
     why: { en: 'A low-sugar chocolate ice cream sweetened entirely with stevia (GI = 0) — no blood sugar spike. Rich, creamy and diabetic-friendly with just 2 g carbs per serving and no added sugar.', ua: 'Підсолоджено виключно стевією (ГІ = 0). Какао-масло та вершкове масло дають повільне вивільнення енергії. Шоколадне задоволення без стрибка цукру.' },
@@ -205,6 +212,7 @@ export const RECIPES = [
   {
     slug: 'vegetable-quiche-no-flour', dateAdded: '2026-07-10', img: '16-vegetable-quiche-no-flour.jpg', cat: 'main', gi: 17,
     tags: ['gluten-free', 'vegetarian'],
+    imgAlt: { en: "A crustless vegetable bake in a round metal tin, set custard studded with spinach, onion and rings of red and green pepper, resting on a quilted cloth.", ua: "Овочева запіканка без основи в круглій металевій формі: застигла яєчна маса зі шпинатом, цибулею та кільцями червоного й зеленого перцю, на стьобаній прихватці." },
     title: { en: 'Vegetable Quiche without Flour', ua: 'Кіш з овочами без борошна' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: '15–23 min', ua: '15–23 хв' }, serves: { en: 'Serves 3', ua: '3 порції' } },
     why: { en: 'No pastry, no flour — the base is egg and flaxseed. Feta adds protein and fat to slow glucose absorption. A light, nutrient-dense meal ready in under 25 minutes.', ua: 'Без тіста та борошна — основа з яєць і лляного борошна. Фета додає білок та жири, сповільнюючи засвоєння глюкози. Легка та поживна страва менш ніж за 25 хвилин.' },
@@ -215,6 +223,7 @@ export const RECIPES = [
   {
     slug: 'baked-fish-veg-herbs', dateAdded: '2026-07-10', img: '17-baked-fish-veg-herbs.jpg', cat: 'main', gi: 26,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
+    imgAlt: { en: "Close-up of raw salmon fillets on a dish with whole carrots, button mushrooms and sprigs of sage and thyme laid over them.", ua: "Крупним планом сирі філе лосося на тарелі з цілою морквою, печерицями та гілочками шавлії й чебрецю зверху." },
     title: { en: 'Baked Fish with Vegetables & Herbs', ua: 'Запечена риба з овочами та травами' },
     why: { en: 'Salmon with mushrooms and non-starchy vegetables is a light, protein-rich meal that barely moves blood sugar — a gentle low-GI dinner.', ua: 'Лосось з печерицями та некрохмалистими овочами — легка, багата на білок страва, що майже не впливає на рівень цукру в крові.' },
     nutrition: { en: 'Per serving (est.): ~440 kcal · Carbs 20 g · Fat 24 g · Protein 40 g', ua: 'На порцію (прибл.): ~440 ккал · Вуглеводи 20 г · Жири 24 г · Білки 40 г' },
@@ -226,6 +235,7 @@ export const RECIPES = [
   {
     slug: 'carrot-coriander-soup', dateAdded: '2026-07-10', img: '18-carrot-coriander-soup.jpg', cat: 'main', gi: 42,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
+    imgAlt: { en: "A white bowl of thick orange carrot soup, a long sprig of flat-leaf parsley laid across the top, more herbs on the stone beside it.", ua: "Біла миска густого помаранчевого морквяного супу з довгою гілочкою листової петрушки зверху; поруч на камені ще зелень." },
     title: { en: 'Carrot & Coriander Soup', ua: 'Морквяний суп з коріандром' },
     why: { en: 'Carrots and a little sweet potato blended with fresh coriander make a naturally sweet, warming soup — plenty of fibre keeps the rise in blood sugar gentle.', ua: 'Морква з невеликою кількістю батату, збита зі свіжим коріандром, дає природно солодкий, зігрівальний суп — багато клітковини робить підйом цукру м’яким.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 19 g · Fat 0 g · Protein 2 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 19 г · Жири 0 г · Білки 2 г' },
@@ -237,6 +247,7 @@ export const RECIPES = [
   {
     slug: 'birthday-cake-sugar-free', dateAdded: '2026-07-10', img: '19-birthday-cake-sugar-free.jpg', cat: 'dessert', gi: 38,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A cake covered in pale lilac frosting, topped with flaked almonds and sprinkles, with lit candles spelling out birthday letters.", ua: "Торт у блідо-бузковій глазурі, зверху мигдальні пелюстки та посипка, з запаленими свічками-літерами." },
     title: { en: 'Sugar-free Birthday Cake (Blueberry & Lime)', ua: 'Святковий торт без цукру (чорниця й лайм)' },
     why: { en: 'A celebration cake with no refined sugar — wholegrain and almond flour sweetened with erythritol, and coloured naturally with blueberry powder instead of dyes.', ua: 'Святковий торт без рафінованого цукру — цільнозернове й мигдалеве борошно, підсолоджене еритритолом, і природний колір із порошку чорниці замість барвників.' },
     nutrition: { en: 'Per slice (est.): ~350 kcal · Carbs 22 g · Fat 22 g · Protein 16 g', ua: 'На 1 шматок (прибл.): ~350 ккал · Вуглеводи 22 г · Жири 22 г · Білки 16 г' },
@@ -248,6 +259,7 @@ export const RECIPES = [
   {
     slug: 'meat-potato-pie-no-flour', dateAdded: '2026-07-10', img: '20-meat-potato-pie-no-flour.jpg', cat: 'main', gi: 55,
     tags: ['gluten-free'],
+    imgAlt: { en: "A tall round pie in a metal ring, the sides a coarse seed-flecked crust, the top a layer of white sauce heaped with chopped parsley.", ua: "Високий круглий пиріг у металевому кільці: боки — груба скоринка з насінням, зверху шар білого соусу, щедро вкритий рубаною петрушкою." },
     title: { en: 'Flourless Meat & Potato Pie', ua: 'М’ясний пиріг з картоплею без борошна' },
     why: { en: 'A flax-and-coconut-flour base instead of wheat means far fewer carbs, and the fibre-rich flax with a protein filling keeps blood sugar steadier than a pastry pie.', ua: 'Основа з лляного й кокосового борошна замість пшеничного — значно менше вуглеводів, а багатий на клітковину льон із білковою начинкою тримає цукор стабільнішим, ніж звичайне тісто.' },
     nutrition: { en: 'Per serving (est.): ~380 kcal · Carbs 38 g · Fat 16 g · Protein 22 g', ua: 'На порцію (прибл.): ~380 ккал · Вуглеводи 38 г · Жири 16 г · Білки 22 г' },
@@ -259,6 +271,7 @@ export const RECIPES = [
   {
     slug: 'almond-beetroot-cookies', dateAdded: '2026-07-10', img: '21-almond-beetroot-cookies.jpg', cat: 'snack', gi: 41,
     tags: ['sugar-free', 'vegetarian', 'dairy-free'],
+    imgAlt: { en: "Close-up of a deep pink beetroot cookie topped with fresh raspberries and pastel star sprinkles.", ua: "Крупним планом темно-рожеве бурякове печиво зі свіжою малиною та пастельною посипкою у формі зірочок." },
     title: { en: 'Sugar-free Almond & Beetroot Cookies', ua: 'Мигдально-бурякове печиво без цукру' },
     why: { en: 'Beetroot and banana give these cookies natural colour and sweetness, so no sugar is needed — wholegrain, almond and flax flours keep the glycaemic impact modest.', ua: 'Буряк і банан надають печиву природного кольору й солодкості, тож цукор не потрібен — цільнозернове, мигдалеве та лляне борошно тримають глікемічний вплив помірним.' },
     nutrition: { en: 'Per serving (est.): ~210 kcal · Carbs 17 g · Fat 13 g · Protein 6 g', ua: 'На порцію (прибл.): ~210 ккал · Вуглеводи 17 г · Жири 13 г · Білки 6 г' },
@@ -270,6 +283,7 @@ export const RECIPES = [
   {
     slug: 'carrot-cake-overnight-oats', dateAdded: '2026-07-10', img: '22-carrot-cake-overnight-oats.jpg', cat: 'breakfast', gi: 47,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A glass bowl of overnight oats flecked with grated carrot and chia seeds, two blueberries on top, on a grey stone surface.", ua: "Скляна миска вівсянки з тертою морквою та насінням чіа, зверху дві чорниці, на сірій кам’яній поверхні." },
     title: { en: 'Carrot Cake Overnight Oats', ua: 'Нічна вівсянка «Морквяний кекс»' },
     why: { en: 'Made the night before — oats, chia and grated carrot with cinnamon give slow-release carbs, fibre and omega-3 for a breakfast that keeps energy and blood sugar steady.', ua: 'Готується з вечора — овес, чіа й терта морква з корицею дають повільні вуглеводи, клітковину й омега-3 для сніданку, що тримає енергію та цукор стабільними.' },
     nutrition: { en: 'Per serving (est.): ~260 kcal · Carbs 29 g · Fat 8 g · Protein 19 g', ua: 'На порцію (прибл.): ~260 ккал · Вуглеводи 29 г · Жири 8 г · Білки 19 г' },
@@ -280,6 +294,7 @@ export const RECIPES = [
   {
     slug: 'apple-pudding-sugar-free', dateAdded: '2026-07-10', img: '23-apple-pudding-sugar-free.jpg', cat: 'dessert', gi: 45,
     tags: ['sugar-free', 'vegetarian'],
+    imgAlt: { en: "A slice of apple pudding on a blue plate, chunks of soft apple over a nutty base, crowned with fresh raspberries and beads of syrup.", ua: "Шматок яблучного пудингу на синій тарілці: шматочки м’якого яблука на горіховій основі, зверху свіжа малина та краплі сиропу." },
     title: { en: 'Sugar-free Apple Pudding', ua: 'Яблучний пудинг без цукру' },
     why: { en: 'Inspired by English apple sponge — barely any batter, just enough to hold the fruit together, sweetened with erythritol so the apples do the work.', ua: 'Натхненний англійським яблучним бісквітом — мінімум тіста, лише щоб скріпити фрукти, підсолоджено еритритолом, тож головне тут — яблука.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 14 g · Fat 2 g · Protein 3 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 14 г · Жири 2 г · Білки 3 г' },
@@ -290,6 +305,7 @@ export const RECIPES = [
   {
     slug: 'lemon-slices-sugar-free', dateAdded: '2026-07-10', img: '24-lemon-slices-sugar-free.jpg', cat: 'dessert', gi: 19,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
+    imgAlt: { en: "Squares of lemon slice on baking paper, thick pale yellow curd over a shortbread base, dusted with icing sugar.", ua: "Квадратики лимонного пирога на пергаменті: товстий шар блідо-жовтого курду на пісочній основі, притрушений цукровою пудрою." },
     title: { en: 'Sugar-free Lemon Slices (Gluten-free)', ua: 'Лимонні тістечка без цукру та глютену' },
     seoTitle: { en: "Sugar-free Lemon Slices — Gluten-free, Keto, GI 19", ua: "Лимонні тістечка без цукру та глютену — кето, ГІ 19" },
     metaDesc: { en: "An almond-flour base under a silky lemon curd, sweetened with erythritol. Gluten-free and keto at GI 19 — rich enough that a small piece is plenty.", ua: "Лимонні тістечка на мигдалевій основі з еритритолом — без цукру та глютену. Кето-десерт з ГІ 19: ситний, тож вистачає маленького шматочка." },
