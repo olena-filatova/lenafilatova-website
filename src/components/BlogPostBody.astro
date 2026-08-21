@@ -6,6 +6,7 @@
 import { UI, AUTHOR_BIO, renderInline, relatedPosts } from '../data/blog-lib.js';
 import { POSTS } from '../data/blog.js';
 import DIMS from '../data/image-dims.json';
+import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
 import '../styles/blog.css';
 
 const { post, lang = 'en' } = Astro.props;
@@ -23,6 +24,10 @@ const img = (src) => B.replace(/\/$/, '') + src;
 const dim = (src) => DIMS[src] || {};
 const related = relatedPosts(post, POSTS);
 const isTool = post.filedUnder === 'tools';
+// Topics this article carries (OPS-367) — the reader's way from one piece
+// into the rest of what has been written on the same subject.
+const postTags = tagsOfPost(post, POSTS);
+const tt = TAG_UI[lang];
 // Every article closes with the same author signature (OPS-336) — it used to be
 // an optional per-post `bio` block and only 12 of 48 posts had one. A post that
 // still carries its own bio block keeps it and skips the shared one, so the
@@ -115,6 +120,20 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
       </div>
     )}
   </div>
+  {/* Topics, as a colophon line closing the article body (OPS-367). Before the
+      FAQ and the offer panel, not after them: the closing order set by OPS-358
+      ends on the ask, and navigation placed below that is both buried and an
+      interruption of a deliberate sequence. */}
+  {postTags.length > 0 && (
+    <nav class="post-tags" aria-label={tt.onThisPost}>
+      <span class="pt-label">{tt.onThisPost}</span>
+      <span class="pt-list">
+        {postTags.map((x) => (
+          <a href={`${B.replace(/\/$/, '')}${tagPath(lang, x.key)}`}>{x[lang]}</a>
+        ))}
+      </span>
+    </nav>
+  )}
   {a.faq && a.faq.length > 0 && (
     <section class="faq">
       <h2>{t.faqTitle}</h2>

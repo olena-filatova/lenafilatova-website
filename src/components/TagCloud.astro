@@ -1,0 +1,49 @@
+---
+// The topic cloud (OPS-367). Every tag, sized by how many articles carry it.
+//
+// It is a cloud rather than another row of filter chips because the size IS the
+// information: it tells a reader at a glance that there are twelve articles on
+// blood sugar and one on hair loss, which the Journal's flat category chips
+// cannot. Grouped, because 32 unordered links is a wall — the groups are the
+// same ones a reader would sort them into.
+import { POSTS } from '../data/blog.js';
+import { TAG_GROUPS } from '../data/tags.js';
+import { resolveTags, withWeights, tagPath, UI } from '../data/tags-lib.js';
+
+const { lang = 'en', heading = true, exclude = null } = Astro.props;
+const t = UI[lang];
+const B = import.meta.env.BASE_URL;
+const tags = withWeights(resolveTags(POSTS)).filter((x) => x.key !== exclude);
+const groups = TAG_GROUPS.map((g) => ({ ...g, items: tags.filter((x) => x.group === g.key) })).filter(
+  (g) => g.items.length
+);
+---
+<section class="cloud">
+  <div class="wrap">
+    {heading && (
+      <div class="hub-head">
+        <span class="fk">{t.cloudTitle}</span>
+      </div>
+    )}
+    {heading && <p class="cloud-lead">{t.cloudLead}</p>}
+    <div class="cloud-groups">
+      {groups.map((g) => (
+        <div class="cloud-group">
+          <h3>{g[lang]}</h3>
+          <ul>
+            {g.items.map((x) => (
+              <li>
+                <a href={`${B.replace(/\/$/, '')}${tagPath(lang, x.key)}`} data-w={x.weight}>
+                  {x[lang]}
+                  {/* The count is the cloud's whole claim, so it is text a
+                      screen reader reaches rather than size alone. */}
+                  <span class="n">{x.count}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

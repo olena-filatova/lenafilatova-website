@@ -1,0 +1,62 @@
+---
+// One tag's archive (OPS-367) — /blog/tag/<key>/ and the /ua/ mirror.
+//
+// Deliberately the Journal's own furniture rather than a new layout: the
+// masthead device from the hub hero, then the same ruled `.blog-grid` cards.
+// A reader arriving from the cloud should land somewhere that reads as a view
+// of the journal, not as a separate archive section.
+import DIMS from '../data/image-dims.json';
+import { UI as BLOG_UI } from '../data/blog-lib.js';
+import { UI, tagPath } from '../data/tags-lib.js';
+import TagCloud from './TagCloud.astro';
+import '../styles/blog.css';
+
+const { tag, lang = 'en' } = Astro.props;
+const t = UI[lang];
+const bt = BLOG_UI[lang];
+const B = import.meta.env.BASE_URL;
+const hub = lang === 'ua' ? `${B}ua/blog/` : `${B}blog/`;
+const img = (src) => B.replace(/\/$/, '') + src;
+const dim = (src) => DIMS[src] || {};
+const label = tag[lang];
+const intro = tag.intro?.[lang] || t.intro(label, tag.count);
+---
+<section class="blog-hero tag-hero">
+  <div class="wrap">
+    <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+    <div class="head">
+      <h1>{label}</h1>
+      <p class="lede">{intro}</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="hub-bar">
+      <span class="fk">{t.count(tag.count)}</span>
+      <a class="tag-back" href={hub}>{t.allTopics}</a>
+    </div>
+    <div class="blog-grid">
+      {tag.resolved.map((p) => (
+        <a class="bcard" href={`${hub}${p.slug}/`}>
+          <div class="thumb">
+            <img src={img(p.image)} alt="" loading="lazy" decoding="async" width={dim(p.image).w} height={dim(p.image).h} />
+            {p.comingSoon && <span class="soon">{bt.comingSoonBadge}</span>}
+          </div>
+          <div class="body">
+            <p class="cat">{p[lang].cat}</p>
+            <h2>{p[lang].title}</h2>
+            <p class="excerpt">{p[lang].excerpt}</p>
+            <p class="meta">{p[lang].meta}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* The cloud again at the foot, minus the tag you are already on — a tag page
+    is a dead end otherwise, and the internal linking is half the reason these
+    pages exist. */}
+<TagCloud lang={lang} exclude={tag.key} />
