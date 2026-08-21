@@ -26,6 +26,16 @@ be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
   which is the only real redirect available here. Canonical, hreflang, `og:url`,
   the sitemap `FLAT` list, `TOOL_REDIRECTS` targets and any in-post links must all
   use the trailing-slash form.
+- **Tool-page chrome** (OPS-303): those ten `public/` files can't use a layout,
+  so their masthead nav, footer, newsletter and cookie bar are GENERATED into
+  them by `scripts/build-tool-chrome.mjs` from the same `src/data/site.js` the
+  Astro components render from, between `<!-- lf-chrome:… -->` markers. **Never
+  hand-edit inside those markers** — run `npm run tool-chrome` instead, and run
+  it again after changing NAV / FOOTER / HOME / SOCIALS. `npm run
+  tool-chrome:check` fails if the pages are stale. The output is committed; the
+  build must not rewrite `public/`. Chrome hides itself inside an iframe
+  (`data-lf-framed`) so the t1d tracker's embed in its blog post is unchanged and
+  never double-counts a GA4 pageview.
 - **Site search** (`/search/` + `/ua/search/`, OPS-288): the index is built at
   build time from the data modules by `src/data/search-lib.js` and served as
   `search-index-en.json` / `-ua.json`, so a new post or recipe is searchable
@@ -44,6 +54,11 @@ be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
   shares `localStorage.lf_cookie` with the old site; GA4 (`G-0F8T9VQFQ0`) loads
   only after acceptance. `.cookie-bar[hidden]{display:none}` must stay — the
   flex display otherwise overrides the `hidden` attribute.
+- **Newsletter form**: markup comes from `src/components/Newsletter.astro` (and,
+  for the tool pages, from `build-tool-chrome.mjs`), but the submit handler is
+  ONE file — `public/lf-newsletter.js`, loaded by both. It reads everything it
+  needs off the form's `data-mc-*` attributes, so it never needs to know a
+  language. Change behaviour there, not in the component.
 - The embedded calculators are a separate app (repo `olena-filatova/helsico`,
   served at `calculator.lenafilatova.co.uk`), mounted via widget scripts —
   see `src/data/calculators.js`.
