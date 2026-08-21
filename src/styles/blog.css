@@ -396,6 +396,30 @@
 .post th:last-child, .post td:last-child { padding-right: 0; }
 .post tr:last-child td { border-bottom: 1px solid var(--rule); }
 
+/* A `wide: true` table carries more columns than a phone can show at a
+   readable width, so it scrolls sideways inside .tbl instead of squashing
+   every column to a sliver. The first column is pinned so the row's subject
+   stays visible while you scroll — which needs border-collapse: separate,
+   because Safari cannot stick a cell in a collapsed table (same reason the
+   standalone comparison tables use this pattern). Collapse being off means
+   the row hairlines have to be re-drawn per cell. */
+.post .tbl-wide table { min-width: 680px; border-collapse: separate; border-spacing: 0; font-size: 14.5px; }
+.post .tbl-wide th,
+.post .tbl-wide td { border-bottom: 1px solid var(--line); }
+.post .tbl-wide thead th { border-bottom: 1px solid var(--rule); }
+.post .tbl-wide tr:last-child td { border-bottom: 1px solid var(--rule); }
+.post .tbl-wide th:first-child,
+.post .tbl-wide td:first-child {
+  position: sticky; left: 0; z-index: 1;
+  background: var(--bg); padding-right: 14px; min-width: 150px;
+}
+@media (min-width: 900px) {
+  /* Room for the whole table: no scroll, so nothing needs pinning. */
+  .post .tbl-wide th:first-child,
+  .post .tbl-wide td:first-child { position: static; background: transparent; min-width: 0; }
+  .post .tbl-wide table { font-size: 15.5px; }
+}
+
 /* --- signature / author card --- */
 /* The card is gone: a heavy rule and the portrait are enough, and it now reads
    as a sign-off rather than a widget. The disc echoes the brand mark — the one
