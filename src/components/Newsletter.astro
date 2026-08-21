@@ -44,6 +44,7 @@ const t = { ...HOME[lang], ...copy };
 // Hidden group field, e.g. name="group[34186][1]" on EN pages, [2] on /ua/.
 const groupField = `group[${MAILCHIMP.langGroup}][${MAILCHIMP.langValue[lang] ?? 1}]`;
 const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`;
+const B = import.meta.env.BASE_URL;
 ---
 <section class:list={['section', 'newsletter', sectionClass]} id={id}>
   <div class="wrap nl-box">
@@ -97,97 +98,10 @@ const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`;
   </div>
 </section>
 
-<script>
-  document.querySelectorAll('.nlform').forEach((form) => {
-    const box = form.parentElement;
-    const okEl = box?.querySelector('.nl-sent');
-    const msgEl = box?.querySelector('.nl-msg');
-    const btn = form.querySelector('button[type=submit]');
-    const label = btn?.textContent;
-    const loadedAt = Date.now();
-
-    const show = (el, text) => {
-      if (!el) return;
-      if (text) el.textContent = text;
-      el.hidden = false;
-    };
-
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      if (msgEl) msgEl.hidden = true;
-
-      // Anti-spam. Show the normal confirmation either way so a bot learns
-      // nothing from the response — it just never reaches Mailchimp.
-      const trap = form.querySelector(`[name="${form.dataset.mcTrap}"]`);
-      const tooFast = Date.now() - loadedAt < Number(form.dataset.mcDwell || 0);
-      if ((trap && trap.value) || tooFast) {
-        form.hidden = true;
-        show(okEl);
-        return;
-      }
-
-      if (btn) {
-        btn.disabled = true;
-        btn.textContent = form.dataset.mcBusy || label;
-      }
-
-      const reset = () => {
-        if (!btn) return;
-        btn.disabled = false;
-        btn.textContent = form.dataset.mcBtn || label;
-      };
-
-      // JSONP: Mailchimp calls back into this uniquely-named global.
-      const cb = 'mcCb' + Date.now() + Math.floor(Math.random() * 1e6);
-      const params = new URLSearchParams();
-      new FormData(form).forEach((v, k) => params.append(k, String(v)));
-      params.delete(form.dataset.mcTrap); // our honeypot; Mailchimp's own stays
-      params.append('c', cb);
-
-      const script = document.createElement('script');
-      let done = false;
-
-      const cleanup = () => {
-        delete window[cb];
-        script.remove();
-      };
-
-      window[cb] = (res) => {
-        done = true;
-        cleanup();
-        if (res && res.result === 'success') {
-          form.hidden = true;
-          show(okEl);
-          return;
-        }
-        // Mailchimp's msg is English-only, so map the one case worth naming
-        // and fall back to a generic message in the page's language.
-        const raw = (res && res.msg) || '';
-        const dupe = /already subscribed/i.test(raw);
-        show(msgEl, dupe ? form.dataset.mcDupe : form.dataset.mcErr);
-        reset();
-      };
-
-      script.src = form.dataset.mcAction + '&' + params.toString();
-      // Network failure, blocked request, or an ad blocker eating the endpoint.
-      script.onerror = () => {
-        if (done) return;
-        cleanup();
-        show(msgEl, form.dataset.mcErr);
-        reset();
-      };
-      document.body.appendChild(script);
-
-      // Belt and braces: never leave the button stuck on "Subscribing…".
-      setTimeout(() => {
-        if (done) return;
-        cleanup();
-        show(msgEl, form.dataset.mcErr);
-        reset();
-      }, 12000);
-    });
-  });
-</script>
+<!-- The submit handler is public/lf-newsletter.js — one copy, shared with the
+     standalone tool pages in public/ that are outside this bundle (OPS-303).
+     Same `is:inline defer src` pattern CookieConsent.astro uses. -->
+<script is:inline defer src={`${B}lf-newsletter.js`}></script>
 
 <style>
   .nl-msg {

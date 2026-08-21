@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "redirects": "node scripts/generate-redirects.mjs",
+    "tool-chrome": "node scripts/build-tool-chrome.mjs",
+    "tool-chrome:check": "node scripts/build-tool-chrome.mjs --check",
     "link-audit": "node scripts/link-audit.mjs",
     "build": "astro build",
     "preview": "astro preview"
