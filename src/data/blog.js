@@ -2875,6 +2875,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Fitness 40+",
+      "imageAlt": "A hand tipping a scoop of pale powder into a clear plastic shaker bottle against a dark background.",
       "title": "Creatine for women over 40: what the perimenopause trials actually found",
       "seoTitle": "Creatine for Women Over 40: What the Trials Found",
       "metaDesc": "New perimenopause trials tested creatine for strength, sleep and brain fog. What they found, what they didn’t, and how much to actually take.",
@@ -3212,6 +3213,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Фітнес 40+",
+      "imageAlt": "Рука висипає мірну ложку світлого порошку в прозорий пластиковий шейкер на темному тлі.",
       "title": "Креатин для жінок після 40: що насправді показали дослідження в перименопаузі",
       "seoTitle": "Креатин після 40: що показали дослідження",
       "metaDesc": "Нові дослідження перевіряли креатин на силу, сон і туман у голові в перименопаузі. Що вони знайшли, чого не знайшли і скільки приймати.",
@@ -6726,6 +6728,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes & Perimenopause",
+      "imageAlt": "A woman sitting on a sofa in jeans and a white shirt, both hands resting on her lower abdomen.",
       "title": "Endometriosis is linked to a 46% higher risk of type 2 diabetes — in the women screening tends to miss",
       "seoTitle": "Endometriosis Linked to 46% Higher Type 2 Diabetes Risk",
       "metaDesc": "A 25-year study of 3 million women links endometriosis to 46% higher type 2 diabetes risk — highest before menopause and in women who aren’t overweight.",
@@ -6818,6 +6821,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет і перименопауза",
+      "imageAlt": "Жінка сидить на дивані в джинсах і білій сорочці, обидві руки лежать на низу живота.",
       "title": "Ендометріоз пов’язаний із на 46% вищим ризиком діабету 2 типу — саме в тих жінок, яких скринінг зазвичай оминає",
       "seoTitle": "Ендометріоз: на 46% вищий ризик діабету 2 типу",
       "metaDesc": "25-річне дослідження 3 мільйонів жінок: ендометріоз пов’язаний із на 46% вищим ризиком діабету 2 типу — найбільше до менопаузи та в жінок без ожиріння.",
@@ -6919,6 +6923,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause & Type 1 Diabetes",
+      "imageAlt": "A woman pressing a small white hormone patch onto the skin of her abdomen.",
       "title": "HRT and type 1 diabetes: what the evidence actually says (and where it runs out)",
       "excerpt": "Ask whether HRT will help or harm your blood sugar with type 1 diabetes and you’ll get two confident answers that contradict each other. Here’s what the research actually covers — and exactly where it stops.",
       "meta": "16 August 2026 · 8 min read",
@@ -7160,6 +7165,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза та діабет 1 типу",
+      "imageAlt": "Жінка притискає невеликий білий гормональний пластир до шкіри живота.",
       "title": "ЗГТ і діабет 1 типу: що насправді кажуть дослідження (і де вони закінчуються)",
       "excerpt": "Запитайте, чи допоможе ЗГТ вашому цукру при діабеті 1 типу — і отримаєте дві впевнені відповіді, які суперечать одна одній. Ось що дослідження справді охоплюють — і де саме вони зупиняються.",
       "meta": "16 серпня 2026 · 8 хв читання",
@@ -7409,6 +7415,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman at a desk with her eyes closed, holding her glasses to her forehead beside an open book.",
       "title": "Menopause brain fog isn’t early dementia — and it finally has a definition",
       "seoTitle": "Menopause Brain Fog Isn’t Early Dementia",
       "metaDesc": "A 2026 Lancet review defines menopause brain fog as a drop in mental efficiency, not capacity — reported by two-thirds of women, and not a dementia sign.",
@@ -7511,6 +7518,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка за столом із заплющеними очима тримає окуляри біля чола, поруч розгорнута книжка.",
       "title": "Туман у голові в менопаузі — це не рання деменція, і тепер у нього є визначення",
       "seoTitle": "Туман у голові в менопаузі — це не деменція",
       "metaDesc": "Огляд Lancet 2026: туман у голові в менопаузі — це падіння ефективності мислення, а не втрата здатностей. Дві третини жінок, і жодного зв’язку з деменцією.",
@@ -7623,6 +7631,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Fitness 40+",
+      "imageAlt": "Three women of different ages standing arm in arm in a gym, laughing together in sports tops.",
       "title": "Starting strength training in perimenopause when you’ve never lifted before",
       "excerpt": "You’ve been told you should be lifting. Here’s the part nobody gives you: which movements, how heavy, how often — and what actually changes at six weeks versus six months.",
       "meta": "14 August 2026 · 9 min read",
@@ -7967,6 +7976,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Фітнес 40+",
+      "imageAlt": "Три жінки різного віку стоять, обійнявшись, у спортзалі й сміються, у спортивних топах.",
       "title": "Як почати силові тренування в перименопаузі, якщо ви ніколи не піднімали ваги",
       "excerpt": "Вам сто разів сказали, що треба піднімати ваги. Ось те, чого не кажуть: які саме рухи, як важко, як часто — і що насправді змінюється за шість тижнів, а що за шість місяців.",
       "meta": "14 серпня 2026 · 9 хв читання",
@@ -8321,6 +8331,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A woman walking along a tree-lined path in a park on a bright day, a bag over one shoulder.",
       "title": "The 10-minute walk after eating: how much it actually lowers your blood sugar",
       "excerpt": "Trials put the drop in the post-meal glucose rise at 10–22%. How long to walk, whether to go immediately or wait, and what changes if you take insulin.",
       "meta": "13 August 2026 · 6 min read",
@@ -8543,6 +8554,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Жінка йде парковою доріжкою серед дерев погожого дня, сумка через плече.",
       "title": "10 хвилин ходьби після їжі: наскільки це насправді знижує цукор у крові",
       "excerpt": "Дослідження показують зниження післяїжного підйому глюкози на 10–22%. Скільки ходити, коли починати — одразу чи згодом — і що змінюється, якщо ви на інсуліні.",
       "meta": "13 серпня 2026 · 6 хв читання",
@@ -8775,6 +8787,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Fitness 40+",
+      "imageAlt": "A jar of pink berry smoothie with a straw on a wooden table, beside a bowl of cherries and a pair of lifting straps.",
       "title": "Eating around training when you’re managing blood sugar",
       "seoTitle": "What to Eat Before Training With Diabetes",
       "metaDesc": "Pre- and post-workout eating for insulin resistance and type 1 diabetes — plus an honest verdict on fasted training after 40.",
@@ -9053,6 +9066,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Фітнес 40+",
+      "imageAlt": "Банка рожевого ягідного смузі з трубочкою на дерев’яному столі, поруч миска вишень і кистьові лямки.",
       "title": "Харчування навколо тренувань, коли ви стежите за цукром у крові",
       "seoTitle": "Що їсти перед тренуванням при діабеті",
       "metaDesc": "Харчування до і після тренування при інсулінорезистентності та діабеті 1 типу — і чесний висновок про тренування натщесерце після 40.",
@@ -9340,6 +9354,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Fitness 40+",
+      "imageAlt": "A woman in black gym clothes squatting with a loaded barbell across her shoulders in a squat rack.",
       "title": "Why lifting weights sends your blood sugar up — and why that’s not a failure",
       "excerpt": "Lifting pushes glucose up while a walk pulls it down. The mechanism behind the split, what the 24–48 hours afterwards do, and why it matters more after 40.",
       "meta": "13 August 2026 · 8 min read",
@@ -9603,6 +9618,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Фітнес 40+",
+      "imageAlt": "Жінка в чорному спортивному одязі присідає зі штангою на плечах у силовій рамі.",
       "title": "Чому від силових цукор у крові йде вгору — і чому це не провал",
       "excerpt": "Штанга піднімає глюкозу, а прогулянка її опускає. Механізм цього розколу, що відбувається протягом наступних 24–48 годин і чому після 40 це важливіше.",
       "meta": "13 серпня 2026 · 8 хв читання",
@@ -9876,6 +9892,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
+      "imageAlt": "A close-up of someone holding a pen injector against the skin of their abdomen.",
       "title": "Women lose more weight on GLP-1 drugs than men — the JAMA Internal Medicine review puts a number on it",
       "seoTitle": "GLP-1: Women Lose More Than Men — JAMA Review",
       "metaDesc": "A JAMA Internal Medicine review found women lost 10.9% of body weight on GLP-1 drugs versus 6.8% for men. What that gap does and does not mean.",
@@ -9969,6 +9986,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
+      "imageAlt": "Великий план: людина притискає шприц-ручку до шкіри живота.",
       "title": "Жінки втрачають на препаратах GLP-1 більше ваги, ніж чоловіки — цифри з огляду JAMA Internal Medicine",
       "seoTitle": "GLP-1: жінки худнуть більше — огляд JAMA",
       "metaDesc": "Огляд у JAMA Internal Medicine: жінки втратили 10,9% ваги на препаратах GLP-1 проти 6,8% у чоловіків. Що ця різниця означає, а що — ні.",
@@ -10071,6 +10089,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A woman parting her dark hair with both hands to show a widened parting and thinning at the crown.",
       "title": "A new oral minoxidil pill improved hair growth in women — but the trial had no control group",
       "seoTitle": "Oral Minoxidil for Female Hair Loss: What the Trial Shows",
       "metaDesc": "An extended-release oral minoxidil raised hair counts in 28 women at 6 months. The trial was open-label with no placebo — what that means for the result.",
@@ -10145,6 +10164,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Жінка розділяє темне волосся обома руками, показуючи розширений проділ і порідіння на маківці.",
       "title": "Нова таблетка міноксидилу покращила ріст волосся в жінок — але в дослідженні не було контрольної групи",
       "seoTitle": "Міноксидил у таблетках при випадінні волосся в жінок",
       "metaDesc": "Пероральний міноксидил з подовженим вивільненням збільшив кількість волосся у 28 жінок за 6 місяців. Але дослідження було відкритим і без плацебо — що це означає.",
@@ -10228,6 +10248,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A woman sitting on a sofa cooling herself with a bright orange folding fan.",
       "title": "Type 2 diabetes is linked to heavier menopause symptoms, a Korean study finds",
       "seoTitle": "Type 2 Diabetes Linked to Worse Menopause Symptoms",
       "metaDesc": "A study of 296 Korean women found those with type 2 diabetes reported more numerous, more severe menopause symptoms — clearest after menopause. What it means.",
@@ -10316,6 +10337,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Жінка сидить на дивані й обмахується яскраво-помаранчевим віялом.",
       "title": "Діабет 2 типу пов’язаний із важчими симптомами менопаузи — корейське дослідження",
       "seoTitle": "Діабет 2 типу та важчі симптоми менопаузи",
       "metaDesc": "Дослідження 296 кореянок: у жінок із діабетом 2 типу симптомів менопаузи більше і вони важчі — найпомітніше після менопаузи. Що це означає на практиці.",
@@ -10412,6 +10434,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "An open jar of kefir with a spoon standing in it, a bottle of milk and a bowl of soft cheese behind.",
       "title": "Kefir plus fibre beat omega-3 at lowering inflammation in a six-week trial",
       "seoTitle": "Kefir + Fibre vs Omega-3: What a New Trial Found",
       "metaDesc": "A six-week Nottingham trial found kefir plus a diverse fibre mix lowered seven inflammatory proteins — omega-3 moved just one. What the study really shows.",
@@ -10490,6 +10513,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Відкрита банка кефіру з ложкою, позаду пляшка молока й миска м’якого сиру.",
       "title": "Кефір із клітковиною перевершили омега-3 у зниженні запалення — шеститижневе дослідження",
       "seoTitle": "Кефір і клітковина проти омега-3: нове дослідження",
       "metaDesc": "Шеститижневе дослідження в Ноттінгемі: кефір із різноманітною клітковиною знизив сім маркерів запалення, омега-3 — лише один. Що це насправді означає.",
@@ -10576,6 +10600,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman in a dressing gown holding a mug, looking out of a rain-streaked window.",
       "title": "One in three women over 35 can’t tell whether they’re in perimenopause — and worse symptoms don’t make it clearer",
       "seoTitle": "1 in 3 Women Unsure They’re in Perimenopause — 2026 Study",
       "metaDesc": "A 2026 study in Menopause of 7,640 US women found 34% can’t tell whether they’re in perimenopause — peaking at 42% at ages 40–44. Why, and what actually helps.",
@@ -10663,6 +10688,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка в халаті з горнятком у руках дивиться у вікно, залите дощем.",
       "title": "Кожна третя жінка після 35 не може сказати, чи в неї перименопауза — і сильніші симптоми не додають ясності",
       "seoTitle": "Кожна третя жінка не знає, чи в неї перименопауза",
       "metaDesc": "Дослідження 2026 року в журналі Menopause: 34% із 7 640 американок не можуть визначити, чи вони в перименопаузі — пік 42% у 40–44 роки. Чому так і що робити.",
@@ -10758,6 +10784,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman sitting on an examination couch talking to a nurse in blue scrubs who is holding notes.",
       "title": "17,494 women, 158 countries: what perimenopause actually feels like isn’t what we’re told to expect",
       "seoTitle": "Perimenopause Symptoms: 158-Country Study",
       "metaDesc": "A Mayo Clinic and Flo Health survey of 17,494 women in 158 countries found the symptoms women expect and the ones they report barely overlap.",
@@ -10845,6 +10872,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка сидить на кушетці й розмовляє з медсестрою в синій формі, яка тримає записи.",
       "title": "17 494 жінки зі 158 країн: перименопауза відчувається зовсім не так, як нас готували",
       "seoTitle": "Симптоми перименопаузи: дослідження 158 країн",
       "metaDesc": "Опитування Mayo Clinic і Flo Health серед 17 494 жінок зі 158 країн: симптоми, яких жінки очікують, майже не збігаються з тими, які вони мають.",
@@ -10941,6 +10969,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "Bowls of flaxseed and a wooden spoonful of seeds on a grey worktop, with seeds scattered around them.",
       "title": "Your gut bacteria recycle oestrogen — and menopause changes which bacteria are doing it",
       "seoTitle": "The Estrobolome: Gut Bacteria, Oestrogen and Menopause",
       "metaDesc": "A 2026 Nutrients review on the estrobolome — the gut bacteria that recycle oestrogen — what changes after menopause, and which dietary changes have evidence behind them.",
@@ -11028,6 +11057,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Миски з лляним насінням і дерев’яна ложка насіння на сірій стільниці, довкола розсипане насіння.",
       "title": "Ваші кишкові бактерії повертають естроген у кров — і менопауза змінює те, які саме бактерії це роблять",
       "seoTitle": "Естроболом: кишкові бактерії, естроген і менопауза",
       "metaDesc": "Огляд у Nutrients за 2026 рік про естроболом — кишкові бактерії, які повертають естроген у кровообіг: що змінюється після менопаузи та які зміни в харчуванні мають докази.",
@@ -11124,6 +11154,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "An alarm clock on a rumpled bed, with a woman lying awake behind it, one arm over her face.",
       "title": "Ninety minutes less sleep raised insulin resistance by 15% in women",
       "seoTitle": "Short Sleep Raises Insulin Resistance in Women by 15%",
       "metaDesc": "A randomised crossover trial cut women’s sleep by 90 minutes a night for six weeks. Insulin resistance rose about 15% — and more after menopause — regardless of weight.",
@@ -11212,6 +11243,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Будильник на зім’ятому ліжку, позаду жінка лежить без сну, затуливши обличчя рукою.",
       "title": "Мінус півтори години сну — і інсулінорезистентність у жінок зросла на 15%",
       "seoTitle": "Нестача сну підвищує інсулінорезистентність у жінок",
       "metaDesc": "Рандомізоване перехресне дослідження забирало в жінок 90 хвилин сну щоночі протягом шести тижнів. Інсулінорезистентність зросла приблизно на 15% — і більше після менопаузи.",
@@ -11309,6 +11341,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A woman smoothing white cream onto her cheek with two fingers.",
       "title": "“Oestrogen skincare” is becoming its own category — and two very different products share the name",
       "seoTitle": "Oestrogen Skincare for Menopausal Skin: The Evidence",
       "metaDesc": "Topical estradiol and non-hormonal MEP are both sold as “oestrogen skincare”, but they are not the same thing. What the trials actually show — and what they don’t.",
@@ -11420,6 +11453,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Жінка розподіляє білий крем по щоці двома пальцями.",
       "title": "«Естрогенова косметика» стає окремою категорією — і під цією назвою продають два різні продукти",
       "seoTitle": "Естрогенова косметика при менопаузі: що каже наука",
       "metaDesc": "Місцевий естрадіол і негормональний MEP продають як «естрогенову косметику», але це не одне й те саме. Що справді доводять дослідження — і чого вони не доводять.",
@@ -11541,6 +11575,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
+      "imageAlt": "A woman standing on a set of scales with her arms outstretched while a doctor in a white coat takes notes on a tablet.",
       "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — in an observational study, not a randomised trial",
       "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause",
       "metaDesc": "A 2026 Lancet cohort study found postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. What it means — and the bone-and-muscle caveat.",
@@ -11635,6 +11670,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
+      "imageAlt": "Жінка стоїть на вагах із розведеними руками, а лікар у білому халаті занотовує щось на планшеті.",
       "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — у спостережному, а не рандомізованому дослідженні",
       "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи",
       "metaDesc": "Дослідження The Lancet 2026 року: жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді. Що це означає — і застереження щодо кісток і м’язів.",
@@ -11737,6 +11773,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "Jars and bowls of fermented food — pickles, kimchi, sauerkraut and olives — with rye bread and a glass of milk.",
       "title": "Gut bacteria, fibre and hormones: what 2026’s precision-nutrition research means for women over 40",
       "seoTitle": "Gut Bacteria, Fibre & Hormones After 40: 2026 Research",
       "excerpt": "A new 2026 review argues that fibre-rich, Mediterranean-style eating feeds the gut bacteria linked to weight, inflammation and hormone balance — and that the ‘best’ diet may increasingly be tailored to your own microbiome.",
@@ -11818,6 +11855,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Банки й миски з ферментованими продуктами — огірками, кімчі, квашеною капустою та оливками — поруч житній хліб і склянка молока.",
       "title": "Бактерії кишківника, клітковина й гормони: що дослідження точного харчування 2026 року означають для жінок після 40",
       "seoTitle": "Мікробіом, клітковина й гормони після 40: дані 2026",
       "excerpt": "Новий огляд 2026 року стверджує, що багате на клітковину харчування середземноморського типу живить бактерії кишківника, пов’язані з вагою, запаленням і гормональним балансом — і що «найкраща» дієта дедалі більше залежатиме від вашого власного мікробіому.",
@@ -11908,6 +11946,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A woman outdoors at sunset scanning the glucose sensor on her upper arm with her phone.",
       "title": "The 2026 diabetes guidelines back GLP-1 drugs in type 1 diabetes for the first time",
       "seoTitle": "GLP-1 Drugs Enter Type 1 Diabetes Guidelines — 2026 ADA",
       "metaDesc": "The 2026 ADA Standards of Care endorse GLP-1 drugs for adults with type 1 diabetes and obesity — a first. What changed, the caveats, and why it matters for women.",
@@ -12012,6 +12051,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Жінка надворі на заході сонця сканує телефоном сенсор глюкози на плечі.",
       "title": "Настанови з діабету 2026 вперше підтримують препарати GLP-1 при діабеті 1 типу",
       "seoTitle": "GLP-1 у настановах при діабеті 1 типу — ADA 2026",
       "metaDesc": "Стандарти ADA 2026 вперше підтримують препарати GLP-1 для дорослих із діабетом 1 типу та ожирінням. Що змінилося, застереження і чому це важливо для жінок.",
@@ -12125,6 +12165,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Women’s Health & Research",
+      "imageAlt": "A researcher in a lab coat, mask and safety goggles holding up a test tube of blood.",
       "title": "What menstrual blood is teaching modern medicine",
       "seoTitle": "Menstrual Blood in Medicine: Tests & Stem Cell Research",
       "metaDesc": "A verified guide to how menstrual blood is used in real medicine: an FDA-cleared diabetes test, stem-cell research, and non-invasive clues to endometriosis and autoimmune disease.",
@@ -12315,6 +12356,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Жіноче здоров’я та дослідження",
+      "imageAlt": "Дослідниця в халаті, масці та захисних окулярах роздивляється пробірку з кров’ю.",
       "title": "Чого менструальна кров вчить сучасну медицину",
       "seoTitle": "Менструальна кров у медицині: тести й стовбурові клітини",
       "metaDesc": "Перевірений путівник тим, як менструальну кров використовують у реальній медицині: схвалений FDA тест на діабет, дослідження стовбурових клітин і неінвазивні підказки щодо ендометріозу та автоімунних хвороб.",
@@ -12514,6 +12556,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A doctor taking a finger-prick blood sample from a young girl while her mother sits beside her.",
       "title": "Type 1 diabetes cure research: the trials worth following in 2026",
       "seoTitle": "Type 1 Diabetes Cure: What’s Actually Working in 2026",
       "metaDesc": "Some people in type 1 trials have lived years without insulin. An honest, verified guide to the cure research worth following — and how to join a trial.",
@@ -12711,6 +12754,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Лікарка бере кров із пальця в дівчинки, поруч сидить її мама.",
       "title": "Дослідження щодо лікування діабету 1 типу: які дослідження варто стежити у 2026 році",
       "seoTitle": "Лікування діабету 1 типу: дослідження 2026",
       "metaDesc": "Зрозумілий, перевірений путівник найперспективнішими дослідженнями щодо лікування діабету 1 типу у 2026 році — що це, хто може взяти участь і як за ними стежити.",
@@ -12912,6 +12956,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman with her arms folded across her chest, her face partly obscured by a haze drifting across the frame.",
       "title": "Anxiety and brain fog, not hot flashes, are now women’s top menopause complaint",
       "seoTitle": "Anxiety & Brain Fog Now Top Menopause Symptom",
       "metaDesc": "A survey of over 2,000 women finds anxiety and brain fog have overtaken hot flashes as the leading menopause symptom. What’s driving the shift.",
@@ -12964,6 +13009,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка зі схрещеними на грудях руками, обличчя частково приховане серпанком, що пливе кадром.",
       "title": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
       "seoTitle": "Тривога й туман у голові — головний симптом",
       "metaDesc": "Опитування понад 2000 жінок: тривога й туман у голові випередили припливи як головний симптом менопаузи. Що стоїть за цією зміною і що допомагає.",
@@ -13024,6 +13070,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A woman with a glucose sensor on her upper arm, holding a phone in her other hand.",
       "title": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn’t caught up",
       "seoTitle": "Type 2 Diabetes Rising Fast in Women Under 40",
       "metaDesc": "A 2026 review argues diabetes care treats women as if hormones don’t matter — even as type 2 rises twice as fast in women under 40. Why the gap persists.",
@@ -13076,6 +13123,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Жінка із сенсором глюкози на плечі тримає телефон у другій руці.",
       "title": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40 — а система догляду цього ще не наздогнала",
       "seoTitle": "Діабет 2 типу швидко зростає у жінок до 40",
       "metaDesc": "Огляд 2026 року: медицина лікує діабет так, ніби гормони не мають значення — попри вдвічі швидше зростання в жінок до 40. Чому розрив зберігається.",
@@ -13136,6 +13184,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "A plate of grilled salmon with asparagus, broccoli and salad.",
       "title": "Eating more protein than the official guideline supports better muscle and bone after menopause",
       "seoTitle": "Protein After Menopause: More Than the Guideline",
       "excerpt": "A Women’s Health Initiative analysis of 3,789 postmenopausal women finds those hitting higher protein targets than the standard RDA had better body composition and bone outcomes over 3 years.",
@@ -13213,6 +13262,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Тарілка з підсмаженим лососем, спаржею, броколі та салатом.",
       "title": "Білка більше за офіційну норму — краще для м’язів і кісток після менопаузи",
       "seoTitle": "Білок після менопаузи: більше за норму — краще",
       "excerpt": "Аналіз даних Women’s Health Initiative серед 3789 жінок у постменопаузі показує: ті, хто вживав більше білка, ніж стандартна норма, мали кращий склад тіла та стан кісток протягом 3 років.",
@@ -13299,6 +13349,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A macro shot of oil bubbles clustered together in lilac and pale blue light.",
       "title": "2026 review confirms HRT restores skin collagen, elasticity and hydration",
       "seoTitle": "HRT and Skin: Collagen, Elasticity & Hydration (2026)",
       "excerpt": "A 2026 review in the journal Life pulls together the evidence on menopause, oestrogen and skin — confirming HRT measurably improves collagen content, elasticity and hydration.",
@@ -13376,6 +13427,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Макрознімок бульбашок олії, зібраних докупи, у бузковому та блідо-блакитному світлі.",
       "title": "Огляд 2026 року підтверджує: ЗГТ відновлює колаген, еластичність і зволоженість шкіри",
       "seoTitle": "ЗГТ і шкіра: колаген, еластичність, зволоженість (2026)",
       "excerpt": "Огляд 2026 року в журналі Life зібрав докази про менопаузу, естроген і шкіру — підтверджуючи, що ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість.",
@@ -13468,6 +13520,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
+      "imageAlt": "A hand holding a white pen injector with a purple dial against a plain grey background.",
       "title": "Most of the weight lost on a GLP-1 is fat, not muscle — in trials of the general adult population",
       "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle (IJO)",
       "excerpt": "A 2026 meta-analysis pooling 24 GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle. It measured general adult trial populations — which is why it reads more reassuringly than the reviews that looked specifically at women over 65.",
@@ -13545,6 +13598,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
+      "imageAlt": "Рука тримає білу шприц-ручку з фіолетовим регулятором на однотонному сірому тлі.",
       "title": "Більшість ваги, втраченої на GLP-1, — це жир, а не м’язи — у дослідженнях загальної дорослої популяції",
       "seoTitle": "GLP-1: втрата ваги — переважно жир, а не м’язи (IJO)",
       "excerpt": "Метааналіз 2026 року, що об’єднав 24 дослідження, показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м’язи. Він вимірював загальні дорослі популяції досліджень — і саме тому звучить заспокійливіше, ніж огляди, які дивилися саме на жінок після 65.",
@@ -13631,6 +13685,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman in jeans and a grey t-shirt holding the soft skin at her waist with both hands.",
       "title": "Cortisol belly in perimenopause: what’s actually true",
       "excerpt": "“Cortisol belly” is everywhere — and mostly misunderstood. What’s really true about cortisol, stress and abdominal fat in perimenopause.",
       "meta": "15 July 2026 · 8 min read",
@@ -13797,6 +13852,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка в джинсах і сірій футболці тримає обома руками шкіру на талії.",
       "title": "Кортизоловий живіт при перименопаузі: що насправді правда",
       "excerpt": "«Кортизоловий живіт» — скрізь і переважно неправильно зрозумілий. Що справді правда про кортизол, стрес і жир на животі при перименопаузі.",
       "meta": "15 липня 2026 · 8 хв читання",
@@ -13971,6 +14027,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman pressing a small white hormone patch onto the skin of her abdomen.",
       "title": "HRT prescriptions have more than doubled since 2018 — and patches are now running short",
       "seoTitle": "HRT Prescriptions Have Doubled — Patches Now Running Short",
       "metaDesc": "Estrogen HRT prescribing has doubled since 2018 — 1 in 20 women aged 45–54 now prescribed. Why patches are running short and what it means for perimenopause.",
@@ -14088,6 +14145,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка притискає невеликий білий гормональний пластир до шкіри живота.",
       "title": "Призначень ЗГТ стало вдвічі більше з 2018 року — а пластирів уже бракує",
       "seoTitle": "Призначення ГЗТ подвоїлись — пластирі у дефіциті",
       "metaDesc": "Призначення естрогенової ГЗТ подвоїлись з 2018 року. Чому пластирі у дефіциті — і що це означає для жінок у перименопаузі.",
@@ -14213,6 +14271,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "Two scientists in protective clothing and goggles working at laboratory equipment under red light.",
       "title": "Every patient in a small type 1 diabetes trial became insulin-free",
       "seoTitle": "Type 1 Trial: Every Patient Became Insulin-Free",
       "metaDesc": "In an early UChicago trial, all 12 people with long-standing type 1 diabetes reached insulin independence after donor islet transplants. What it means.",
@@ -14276,6 +14335,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Двоє науковців у захисному одязі та окулярах працюють із лабораторним обладнанням у червоному світлі.",
       "title": "Усі учасники невеликого дослідження діабету 1 типу відмовилися від інсуліну",
       "seoTitle": "Дослідження: усі пацієнти без інсуліну",
       "metaDesc": "У ранньому дослідженні UChicago всі 12 людей із давнім діабетом 1 типу досягли незалежності від інсуліну після трансплантації острівцевих клітин.",
@@ -14347,6 +14407,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "Wooden bowls of different pulses and grains set out on brightly coloured cloths.",
       "title": "The carbs you choose in midlife shape how you age, a 32-year study finds",
       "seoTitle": "Carb Quality in Midlife Shapes How You Age",
       "metaDesc": "A 32-year study of 47,000 women found those eating more high-quality carbs in midlife were up to a third more likely to age healthily. Which carbs count.",
@@ -14399,6 +14460,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Дерев’яні миски з різними бобовими та крупами, розставлені на яскравих кольорових серветках.",
       "title": "Вуглеводи, які ви обираєте в середньому віці, впливають на старіння — 32-річне дослідження",
       "seoTitle": "Якість вуглеводів у середині життя і старіння",
       "metaDesc": "32-річне дослідження 47 000 жінок: ті, хто в середньому віці їв якісніші вуглеводи, на третину частіше старіли здорово. Які саме вуглеводи обирати.",
@@ -14459,6 +14521,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A close-up of smears of several different creams and serums on a pale pink surface.",
       "title": "Why skin changes so fast at menopause — and what hormone therapy can and can’t do",
       "seoTitle": "Menopause Skin & Oestrogen: What HRT Can Do",
       "metaDesc": "Falling oestrogen drives menopausal skin ageing. See what the latest reviews say HRT can — and can’t — do to reverse dryness, thinning and lost collagen.",
@@ -14511,6 +14574,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Великий план мазків кількох різних кремів і сироваток на блідо-рожевій поверхні.",
       "title": "Чому шкіра так швидко змінюється в менопаузі — і що може (і не може) гормональна терапія",
       "seoTitle": "Шкіра в менопаузі й естроген: що може ЗГТ",
       "metaDesc": "Падіння естрогену прискорює старіння шкіри в менопаузі. Огляди показують, що ЗГТ частково це відновлює — але з межами. Розбираємо, що вона може і чого ні.",
@@ -14572,6 +14636,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Weight loss",
+      "imageAlt": "A woman in a yellow vest stretching one leg behind her, holding a red railing beside the water.",
       "title": "People on GLP-1 weight-loss drugs moved less, not more — a wearable-data study, not yet peer-reviewed",
       "seoTitle": "GLP-1 Users Moved Less, Not More: Fitbit Study",
       "metaDesc": "A Fitbit study of 753 adults found daily steps and exercise fell after starting Ozempic-style GLP-1 drugs. Why movement matters for holding on to muscle.",
@@ -14639,6 +14704,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Схуднення",
+      "imageAlt": "Жінка в жовтій майці розтягує ногу позаду себе, тримаючись за червоні поручні біля води.",
       "title": "Люди на препаратах GLP-1 для схуднення почали рухатися менше — дані носимих пристроїв, ще без рецензування",
       "seoTitle": "На GLP-1 люди рухались менше: дані Fitbit",
       "metaDesc": "Дані Fitbit по 753 дорослих: після початку GLP-1 (типу Ozempic) кроки й активність знизились. Чому рух критично важливий для збереження м’язів.",
@@ -14714,6 +14780,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "Bowls of honey, brown sugar and other sweeteners on a dark surface, with sweetener tablets, sugar cubes and a sprig of stevia.",
       "title": "What to replace sugar with: the evidence on sweeteners",
       "seoTitle": "Sugar Swaps: The Evidence on Natural Sweeteners",
       "metaDesc": "What the research really says about stevia, monk fruit, allulose, erythritol, xylitol, sucralose, aspartame, honey and agave for blood sugar and health.",
@@ -15097,6 +15164,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Миски з медом, коричневим цукром та іншими підсолоджувачами на темній поверхні, поруч таблетки, кубики цукру й гілочка стевії.",
       "title": "Чим замінити цукор: що каже наука про підсолоджувачі",
       "seoTitle": "Чим замінити цукор: докази про підсолоджувачі",
       "metaDesc": "Що насправді каже наука про стевію, монк-фрут, алюлозу, еритрит, ксиліт, сукралозу, аспартам, мед і агаву для рівня цукру в крові та здоров’я.",
@@ -15489,6 +15557,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
+      "imageAlt": "A woman lifting a scoop of protein powder out of a shaker bottle.",
       "title": "Protein for women over 40: how much do you actually need?",
       "excerpt": "Why the UK guideline of 0.75g/kg falls short after 40 — and the protein targets that actually protect muscle, energy and blood sugar.",
       "meta": "4 July 2026 · 8 min read",
@@ -15825,6 +15894,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
+      "imageAlt": "Жінка дістає мірну ложку протеїнового порошку з шейкера.",
       "title": "Білок для жінок після 40: скільки насправді потрібно?",
       "excerpt": "Чому британська норма 0,75 г/кг замала після 40 — і які орієнтири білка справді захищають м’язи, енергію та цукор у крові.",
       "meta": "4 липня 2026 · 8 хв читання",
@@ -16169,6 +16239,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "Glass containers of prepared meals — chicken, salmon, rice, eggs and vegetables — laid out with bottles of juice.",
       "title": "What new research says about type 2 diabetes",
       "seoTitle": "What New Research Says About Type 2 Diabetes",
       "metaDesc": "The latest on type 2 diabetes remission, meal order, time-restricted eating and sleep — and which evidence-based changes are actually worth trying.",
@@ -16389,6 +16460,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Скляні контейнери з готовими стравами — куркою, лососем, рисом, яйцями та овочами — розкладені поруч із пляшками соку.",
       "title": "Що каже нове дослідження про діабет 2 типу",
       "seoTitle": "Що нові дослідження кажуть про діабет 2 типу",
       "metaDesc": "Найновіше про ремісію діабету 2 типу, порядок страв, обмежене в часі харчування та сон — і які зміни з доказовою базою справді варті спроби.",
@@ -16623,6 +16695,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause & Type 1 Diabetes",
+      "imageAlt": "A woman exercising at home with a pair of small purple dumbbells.",
       "title": "Perimenopause & diabetes: what’s really happening to your blood sugar",
       "excerpt": "Living with T1D for 23 years, I noticed everything changing in my early 40s — and no one warned me. Here’s what perimenopause really does to your blood sugar, and what actually helped.",
       "meta": "20 June 2026 · 8 min read",
@@ -16793,6 +16866,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза та діабет 1 типу",
+      "imageAlt": "Жінка займається вдома з парою невеликих фіолетових гантелей.",
       "title": "Перименопауза та діабет: що насправді відбувається з вашим цукром у крові",
       "excerpt": "23 роки живу з діабетом 1 типу, і на початку своїх 40 я помітила, що все змінюється — а мене ніхто не попередив. Ось що перименопауза насправді робить із цукром у крові й що мені справді допомогло.",
       "meta": "20 червня 2026 · 8 хв читання",
@@ -16971,6 +17045,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A macro shot of oil bubbles clustered together in lilac and pale blue light.",
       "title": "Do collagen products actually improve your skin?",
       "seoTitle": "Collagen and Skin: What the Evidence Actually Shows",
       "metaDesc": "Does collagen actually improve skin? We look at the evidence on supplements, creams and the nutrients your body needs to make its own.",
@@ -17157,6 +17232,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Макрознімок бульбашок олії, зібраних докупи, у бузковому та блідо-блакитному світлі.",
       "title": "Чи справді колагенові засоби покращують шкіру?",
       "seoTitle": "Колаген і шкіра: що насправді показують дослідження",
       "metaDesc": "Чи справді колаген покращує шкіру? Розглядаємо докази щодо добавок, кремів і поживних речовин для підтримки власного колагену.",
@@ -17351,6 +17427,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
+      "imageAlt": "A woman in pink loungewear standing at a mirror, pinching the skin of her stomach.",
       "title": "5 myths about perimenopause and weight",
       "excerpt": "Why the scale isn’t the whole story — and what actually helps.",
       "meta": "12 June 2026 · 8 min read",
@@ -17533,6 +17610,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
+      "imageAlt": "Жінка в рожевому домашньому одязі стоїть перед дзеркалом і защипує шкіру на животі.",
       "title": "5 міфів про перименопаузу та вагу",
       "excerpt": "Чому вага на терезах — не вся історія, і що справді допомагає.",
       "meta": "12 червня 2026 · 8 хв читання",
@@ -17724,6 +17802,7 @@ export const POSTS = [
     "comingSoon": true,
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A blood glucose meter, a magnifying glass and an insulin syringe lying on printed glucose charts.",
       "title": "How to read your glucose patterns",
       "seoTitle": "How to Read Your Glucose Patterns: A Simple Guide",
       "metaDesc": "A simple framework for making sense of your daily glucose numbers — spot the patterns behind your highs and lows and know exactly what to change.",
@@ -17752,6 +17831,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "Глюкометр, лупа та інсуліновий шприц лежать на роздрукованих графіках глюкози.",
       "title": "Як читати свої рівні глюкози",
       "seoTitle": "Як читати свої патерни глюкози: простий гід",
       "metaDesc": "Проста система, щоб розібратися в щоденних показниках глюкози: побачити патерни за піками й падіннями та зрозуміти, що саме змінити в харчуванні.",
