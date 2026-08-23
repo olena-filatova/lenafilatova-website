@@ -589,10 +589,11 @@
    block under the standfirst. Posts under three sections don't get one at all
    — see TOC_MIN in blog-lib.js. */
 .toc-rail { margin: 0 0 34px; }
-.toc {
-  border-top: 1.5px solid var(--ink);
-  border-bottom: 1px solid var(--line);
-}
+.toc { border-top: 1.5px solid var(--ink); }
+/* The closing rule belongs to the list, not to the title. Collapsed — which is
+   how every phone sees this — the block is one line of text, and a rule above
+   AND below it reads as a doubled line around nothing. */
+.toc[open] { border-bottom: 1px solid var(--line); }
 .toc > summary {
   list-style: none; cursor: pointer; position: relative;
   /* 14px of padding either side of an 18px caps line clears the 44px touch
@@ -641,11 +642,13 @@
     width: 220px; height: 100%; margin: 0;
   }
   .toc {
-    position: sticky; top: 96px; border-bottom: 0;
+    position: sticky; top: 96px;
     /* A 13-section article is taller than the viewport; the rail scrolls
        inside itself rather than running off the bottom of the screen. */
     max-height: calc(100vh - 132px); overflow-y: auto;
   }
+  /* The rail closes on the page edge, not on a rule. */
+  .toc[open] { border-bottom: 0; }
 }
 
 /* --- topic tags (OPS-367) --------------------------------------------------
