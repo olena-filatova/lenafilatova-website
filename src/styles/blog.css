@@ -594,6 +594,17 @@
    how every phone sees this — the block is one line of text, and a rule above
    AND below it reads as a doubled line around nothing. */
 .toc[open] { border-bottom: 1px solid var(--line); }
+/* ...and the article's own opening element must not put one straight back.
+   A pull quote and a section head each carry a top rule, and five articles
+   open on a quote — so under the contents label came a second rule with only
+   the label between them, reading as one doubled line (Lena, on a phone). The
+   contents rule is the one that means something here; the other stands down.
+   Only in the flow: above 1320px the list is out of the column entirely, and
+   there the quote's own rule is the only thing separating it from the
+   standfirst. */
+@media (max-width: 1319.98px) {
+  .toc-rail + .prose > :first-child { border-top: 0; padding-top: 0; }
+}
 .toc > summary {
   list-style: none; cursor: pointer; position: relative;
   /* 14px of padding either side of an 18px caps line clears the 44px touch
