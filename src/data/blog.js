@@ -462,6 +462,1419 @@ export const POSTS = [
       ]
     }
   },
+
+  {
+    "slug": "magnesium-perimenopause-sleep-insulin-resistance",
+    "tags": [
+      "perimenopause",
+      "insulin-resistance",
+      "sleep"
+    ],
+    "date": "2026-08-24",
+    "image": "/images/magnesium-perimenopause-sleep-insulin-resistance.jpg",
+    "cats": [
+      "perimenopause",
+      "nutrition"
+    ],
+    "en": {
+      "cat": "Nutrition",
+      "imageAlt": "A glass of water and a small pile of magnesium tablets on a kitchen worktop beside a bowl of pumpkin seeds.",
+      "title": "Magnesium for perimenopause sleep and insulin resistance: what the evidence supports",
+      "seoTitle": "Magnesium for Perimenopause Sleep & Insulin Resistance",
+      "metaDesc": "What the evidence actually shows about magnesium for perimenopause sleep and blood sugar — and where the claims outrun the research.",
+      "excerpt": "Magnesium is the most recommended supplement of the perimenopause internet. The biology behind the blood-sugar claim is real. The sleep evidence is thinner than almost anyone selling it admits — and none of it was collected in perimenopausal women.",
+      "meta": "24 August 2026 · 8 min read",
+      "lead": "Magnesium has become the default answer to almost everything about being a woman in her forties: the broken sleep, the anxiety, the blood sugar that has started behaving differently. Some of that is well-founded. Some of it is a supplement industry filling a gap that medicine left open. This is where the line falls.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Start with the part that is not in dispute. Magnesium is a cofactor for hundreds of enzyme reactions in the body, and several of them sit directly in the machinery that handles glucose. The insulin receptor on the outside of your cells has to be switched on by a phosphate transfer, and that reaction requires magnesium. Downstream of it, the enzymes that move glucose into the cell and store it need magnesium too. This is not a wellness claim borrowed from a supplement label — it is basic biochemistry, and it is why low magnesium and poor insulin sensitivity keep turning up together."
+        },
+        {
+          "t": "p",
+          "text": "The mistake is the leap from there. \"Magnesium is required for insulin signalling\" is true. \"Therefore more magnesium improves insulin signalling\" does not follow, any more than needing petrol in the tank means a fuller tank makes the car faster. Almost everything that follows is a story about the difference between correcting a shortfall and topping up something you already have enough of."
+        },
+        {
+          "t": "h",
+          "text": "Why a normal blood test does not settle it"
+        },
+        {
+          "t": "p",
+          "text": "If you have ever asked for a magnesium level and been told it was normal, that result is worth less than it sounds. The magnesium circulating in your blood is under one per cent of what is in your body — the rest is inside cells and in bone, and the body defends the blood level hard, pulling from those stores to keep it steady. So the number can sit comfortably in range while the reserves behind it are running down. Studies comparing blood levels against magnesium measured directly in muscle have found a substantial share of people with a perfectly normal blood result were depleted in tissue."
+        },
+        {
+          "t": "p",
+          "text": "This cuts both ways, and it is worth being honest about that. It means a normal result does not prove you are fine. It also means nobody — including anyone selling you a supplement — can tell you that you are deficient on the strength of your symptoms. Poor sleep, cramp and low mood are not a magnesium test. They are the symptoms of about forty other things, several of which matter more."
+        },
+        {
+          "t": "h",
+          "text": "What the blood-sugar trials actually found"
+        },
+        {
+          "t": "p",
+          "text": "Here the research is genuinely mixed, and the pattern in the disagreement is the useful part. A 2016 meta-analysis of randomised trials found magnesium supplementation improved insulin resistance and fasting glucose — but only in trials that ran for four months or longer, and the effect was modest. A 2026 analysis pooling five trials in people with prediabetes, 384 people in total, found a meaningful improvement in insulin resistance. And a 2026 update looking at trials across diabetes and prediabetes found no statistically significant change in insulin overall. A twelve-week trial in people with metabolic syndrome found nothing at all."
+        },
+        {
+          "t": "p",
+          "text": "Set those side by side and a rule emerges. The trials that find something tend to be longer, and tend to enrol people who were short of magnesium to begin with. The clearest positive result of the lot came from a trial in people who had both insulin resistance and measurably low magnesium: supplement them, and insulin sensitivity improved. That is deficiency correction, which is a real and worthwhile thing. It is not evidence that a woman eating a reasonable diet will improve her blood sugar by adding a tablet."
+        },
+        {
+          "t": "h",
+          "text": "If you have diabetes, this loop runs the other way too"
+        },
+        {
+          "t": "p",
+          "text": "There is one group for whom the magnesium question is more than theoretical. Low magnesium has been reported in somewhere between 14% and 48% of people with type 2 diabetes, and the mechanism is not mysterious: when blood glucose runs high, the kidneys pull glucose into the urine and water follows it, and magnesium goes out with it. High glucose flushes magnesium away, and low magnesium makes insulin work less well. Researchers describe it as a vicious circle, which is exactly what it is."
+        },
+        {
+          "t": "p",
+          "text": "That makes magnesium a more reasonable thing to look at if you live with diabetes than if you do not — and it also means the most powerful lever on your magnesium is your glucose control, not your supplement cupboard. If you want to know how a particular meal is likely to land before you eat it, the [metabolic food calculator](/resources/food-calculator/) on this site is the quickest way to see it."
+        },
+        {
+          "t": "h",
+          "text": "The sleep evidence is much thinner than the marketing"
+        },
+        {
+          "t": "p",
+          "text": "This is the claim that sells the product, and it is the weakest thing on the page. The most cited review of magnesium for insomnia pooled three randomised trials covering 151 older adults. People taking magnesium fell asleep about seventeen minutes faster than those on placebo, which was statistically significant. Total sleep time was about sixteen minutes longer, which was not. The reviewers judged all three trials to be at moderate-to-high risk of bias and rated the certainty of the evidence low to very low, and said plainly that the literature is not good enough for doctors to make confident recommendations from."
+        },
+        {
+          "t": "p",
+          "text": "More recent work is more careful and no more thrilling. A placebo-controlled trial of magnesium bisglycinate in healthy adults sleeping badly did find a greater improvement in insomnia scores than placebo — with a small effect size the authors themselves described as of limited clinical significance."
+        },
+        {
+          "t": "p",
+          "text": "And here is the thing the perimenopause articles almost never say: none of this was studied in perimenopausal women. The trials are in older adults with insomnia and in general poor sleepers. Perimenopausal sleep has its own specific mechanism — night sweats, and a hormonal transition that fragments sleep architecture — and no magnesium trial has been run against it. Anyone telling you magnesium is proven for perimenopausal sleep is extrapolating and not saying so."
+        },
+        {
+          "t": "p",
+          "text": "For what the evidence does show about sleep and blood sugar in women, the stronger paper is the one where sleep itself was the intervention: [ninety minutes less sleep raised insulin resistance by 15% in women](/blog/sleep-insulin-resistance-women/). Losing sleep demonstrably damages glucose control. Whether a mineral can repair sleep is a much shakier proposition than whether sleep matters."
+        },
+        {
+          "t": "h",
+          "text": "Glycinate, citrate, oxide: does the form matter?"
+        },
+        {
+          "t": "p",
+          "text": "Somewhat, and mostly in a way that concerns your gut rather than your outcome. Magnesium oxide is cheap and poorly absorbed, which is why it works as a laxative and why it dominates the bargain shelf. Citrate is better absorbed and still loosening at higher doses. Glycinate — often sold as bisglycinate — is the gentlest on the stomach, which is why it is the one usually recommended for taking at night, and it is the form used in the better recent sleep trials."
+        },
+        {
+          "t": "p",
+          "text": "One number is worth knowing before you compare prices. The dose on the front of the bottle is usually the weight of the whole compound, not the magnesium in it. Magnesium glycinate is only around 10–14% magnesium by weight, so a 500 mg capsule may deliver 50–70 mg of actual magnesium. Look for the elemental figure on the back. A great many products that look generous are not."
+        },
+        {
+          "t": "h",
+          "text": "A sensible way to trial it"
+        },
+        {
+          "t": "p",
+          "text": "In the UK the reference intake for adult women is 270 mg a day, and food is the sane starting point: pumpkin seeds, nuts, beans, wholegrains, dark leafy greens and dark chocolate are all substantial sources. If you want to try a supplement on top, the safe upper level from supplements specifically is 400 mg a day for adults — that is the figure for tablets, separate from what you eat."
+        },
+        {
+          "t": "p",
+          "text": "Trial it like a trial, not like a hope. Change one thing at a time, take it consistently, and give the sleep question three to four weeks and the blood-sugar question considerably longer — remember that the trials which found a metabolic effect mostly ran four months or more. Write down what you are actually trying to change before you start, because otherwise you will remember the good nights. If the only thing that happens is looser stools, you have your answer, and it is usually the dose or the form rather than magnesium as such."
+        },
+        {
+          "t": "p",
+          "text": "Two cautions. If your kidneys do not work normally, magnesium supplements are not a casual purchase — clearing the excess is a kidney job, and you should ask your doctor first. And magnesium interferes with the absorption of some medicines, including certain antibiotics and thyroid replacement, so if you take anything regularly, check the spacing rather than assuming."
+        },
+        {
+          "t": "h",
+          "text": "Where magnesium cannot do the work"
+        },
+        {
+          "t": "p",
+          "text": "It is worth naming what the supplement is competing against. Sleeping enough, moving after meals, eating enough protein and lifting something heavy twice a week all have larger and better-evidenced effects on insulin sensitivity in midlife than any mineral tablet. Magnesium at best sits alongside those. It cannot substitute for them, and the reason it gets marketed as though it can is that it is a product and they are not."
+        },
+        {
+          "t": "h",
+          "text": "What I would actually do"
+        },
+        {
+          "t": "p",
+          "text": "I have had type 1 diabetes for twenty-three years, and my instinct with any supplement is the same: assume it does nothing until my own data says otherwise. Magnesium is one of the few where I think the case for looking is fair rather than fashionable — the diabetes-and-magnesium loop is real, food-first is easy, and the safety margin at sensible doses is wide. What I would not do is start it in the same week as three other changes, or judge it after five nights, or spend money on a form whose label hides how little magnesium is actually in it. If you want the honest summary: plausible, cheap, low-risk, and nowhere near as proven as the packaging suggests."
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Magnesium supplementation improves insulin resistance mainly in longer trials and in people who were short of magnesium to begin with.",
+              "detail": "A 2016 systematic review and meta-analysis of randomised controlled trials found that magnesium supplementation improved the HOMA-IR index and fasting glucose in both people with and without diabetes, but the effect was modest and was seen in trials lasting four months or longer. A 2026 meta-analysis of five trials in prediabetes (384 participants) reported a significant improvement in HOMA-IR (mean difference −1.10) and in two-hour glucose. A separate 2026 systematic review across diabetes and prediabetes found no statistically significant change in insulin overall, and a 12-week randomised double-blind trial in metabolic syndrome found no improvement in insulin resistance. The clearest positive result comes from a double-blind placebo-controlled trial in non-diabetic people who had both insulin resistance and low blood magnesium, where supplementation improved insulin sensitivity — a deficiency-correction finding rather than a general one.",
+              "cite": "Pharmacological Research · Systematic review and meta-analysis, 2016; with later meta-analyses, 2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27329332/"
+            },
+            {
+              "claim": "In non-diabetic people with both insulin resistance and low magnesium, supplementation improved insulin sensitivity.",
+              "detail": "A double-blind placebo-controlled randomised trial in non-diabetic participants with insulin resistance and hypomagnesaemia found that oral magnesium supplementation significantly reduced the HOMA-IR index and improved insulin sensitivity compared with placebo. The enrolment criteria are the point: participants had to be magnesium-deficient to take part, so the result describes what happens when a shortfall is corrected, not what happens when magnesium is added to an adequate intake.",
+              "cite": "Diabetes & Metabolism · Double-blind placebo-controlled randomised trial, 2004",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15223977/"
+            },
+            {
+              "claim": "The magnesium-for-insomnia evidence rests on three small trials and was rated low to very low certainty.",
+              "detail": "A 2021 systematic review and meta-analysis identified three randomised controlled trials comparing oral magnesium with placebo in 151 older adults across three countries. Pooled sleep onset latency was 17.36 minutes shorter with magnesium, which was statistically significant; total sleep time was 16.06 minutes longer, which was not. All three trials were judged at moderate-to-high risk of bias and the outcomes were supported by low to very low quality evidence, with the authors concluding that the literature is substandard for physicians to make well-informed recommendations. No trial in this evidence base was conducted in perimenopausal women.",
+              "cite": "BMC Complementary Medicine and Therapies · Systematic review and meta-analysis, 2021",
+              "url": "https://link.springer.com/article/10.1186/s12906-021-03297-z"
+            },
+            {
+              "claim": "A recent placebo-controlled trial of magnesium bisglycinate in poor sleepers found a real but small effect.",
+              "detail": "A randomised, placebo-controlled trial of magnesium bisglycinate in healthy adults reporting poor sleep found a significantly greater reduction in Insomnia Severity Index scores than placebo, with a small effect size that the authors characterised as of limited clinical significance. The participants were general poor sleepers, not women in the menopause transition.",
+              "cite": "Nature and Science of Sleep · Randomised placebo-controlled trial",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412596/"
+            },
+            {
+              "claim": "Low magnesium affects 14–48% of people with type 2 diabetes, and high blood glucose is part of the cause.",
+              "detail": "Reviews of magnesium in type 2 diabetes report hypomagnesaemia in 14% to 48% of patients. Chronic hyperglycaemia contributes through osmotic diuresis and by reducing magnesium reabsorption in the kidney tubules, so glucose spilling into the urine takes magnesium with it; low magnesium in turn impairs insulin action, which the literature describes as a vicious circle. Serum magnesium is a poor marker of total body magnesium — it represents under 1% of body stores and can remain within the reference range while intracellular and bone stores are depleted.",
+              "cite": "Endocrine Reviews · Review of hypomagnesaemia in type 2 diabetes, 2023",
+              "url": "https://academic.oup.com/edrv/article/44/3/357/6811786"
+            },
+            {
+              "claim": "UK reference intake for adult women is 270 mg a day, and the safe upper level from supplements is 400 mg a day.",
+              "detail": "UK guidance sets the reference nutrient intake for magnesium at 270 mg a day for women aged 19 and over and 300 mg for men. The safe upper level applies to supplemental magnesium specifically and is 400 mg a day for adults; it does not apply to magnesium obtained from food, which is not a realistic route to excess in people with normal kidney function. Gastrointestinal effects — diarrhoea, nausea, abdominal cramping — are the common dose-related side effects, and magnesium glycinate contains only around 10–14% elemental magnesium by weight, so the figure on the front of the bottle overstates the dose delivered.",
+              "cite": "UK dietary reference values and supplement safe upper levels",
+              "url": "https://www.boltpharmacy.co.uk/guide/magnesium-daily-intake-dosage"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Ninety minutes less sleep raised insulin resistance by 15% in women",
+              "url": "/blog/sleep-insulin-resistance-women/",
+              "desc": "The stronger evidence on the same question, with sleep itself as the thing being changed."
+            },
+            {
+              "name": "Your gut bacteria recycle oestrogen — and menopause changes which bacteria are doing it",
+              "url": "/blog/estrobolome-gut-oestrogen-menopause/",
+              "desc": "Another midlife mechanism where the biology is solid and the supplement claims run ahead of it."
+            },
+            {
+              "name": "Perimenopause and blood sugar: what actually changes",
+              "url": "/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Why glucose starts behaving differently in the transition, before you reach for anything to fix it."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does magnesium help insulin resistance?",
+          "a": "It can, but mostly in people who were low in magnesium to start with. Magnesium is genuinely required for the insulin receptor to work, and trials in people with both insulin resistance and low magnesium show improved insulin sensitivity when that shortfall is corrected. Across everyone else the picture is mixed: some analyses find a modest benefit, mostly in trials running four months or longer, while others find no significant change. It is deficiency correction rather than a treatment for insulin resistance."
+        },
+        {
+          "q": "Is magnesium proven to help perimenopause sleep?",
+          "a": "No. The most cited review pooled three trials in 151 older adults and found people fell asleep about seventeen minutes faster — but total sleep time did not improve significantly, all three trials were at moderate-to-high risk of bias, and the evidence was rated low to very low certainty. A more recent trial in poor sleepers found a real but small effect the authors called of limited clinical significance. Crucially, none of this research was done in perimenopausal women, whose sleep is disrupted by a specific hormonal mechanism that no magnesium trial has tested."
+        },
+        {
+          "q": "Which form of magnesium is best — glycinate, citrate or oxide?",
+          "a": "Glycinate, often sold as bisglycinate, is gentlest on the stomach and is the form used in the better recent sleep trials, which is why it is usually the one recommended at night. Citrate is well absorbed but loosening at higher doses. Oxide is cheap and poorly absorbed, which is why it works as a laxative. Whichever you pick, check the elemental magnesium on the back of the pack — glycinate is only about 10–14% magnesium by weight, so a 500 mg capsule may deliver 50 to 70 mg."
+        },
+        {
+          "q": "How much magnesium should a woman in her forties take?",
+          "a": "The UK reference intake is 270 mg a day for adult women, and food should do most of the work — pumpkin seeds, nuts, beans, wholegrains, dark leafy greens and dark chocolate are all good sources. If you add a supplement, the safe upper level for supplemental magnesium is 400 mg a day for adults, separate from what you get from food. Ask your doctor first if your kidneys do not work normally, and check the spacing if you take thyroid replacement or certain antibiotics, because magnesium can interfere with their absorption."
+        },
+        {
+          "q": "My magnesium blood test was normal — does that mean I do not need it?",
+          "a": "Not necessarily. Blood carries under one per cent of the body's magnesium, and the body defends that level by drawing on stores in cells and bone, so the blood result can stay in range while reserves fall. Studies comparing blood levels with magnesium measured in muscle have found many people with normal results were depleted in tissue. The reverse is also true, though: symptoms like poor sleep or cramp are not a magnesium test either, and plenty of other things cause them."
+        },
+        {
+          "q": "How long before I would know if magnesium is doing anything?",
+          "a": "Give sleep three to four weeks and blood sugar considerably longer — the trials that found a metabolic effect mostly ran four months or more. Change one thing at a time, take it consistently, and write down what you are trying to improve before you start, so you are not judging it on memory. If the main thing you notice is looser stools, that is usually the dose or the form rather than magnesium itself."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Харчування",
+      "imageAlt": "Склянка води й невелика купка таблеток магнію на кухонній стільниці поруч із мискою гарбузового насіння.",
+      "title": "Магній для сну та інсулінорезистентності в перименопаузі: що підтверджують дослідження",
+      "seoTitle": "Магній у перименопаузі: сон та інсулінорезистентність",
+      "metaDesc": "Що насправді показують дослідження про магній для сну та цукру в крові в перименопаузі — і де обіцянки випереджають науку.",
+      "excerpt": "Магній — найчастіше рекомендована добавка перименопаузального інтернету. Біологія за твердженням про цукор у крові справжня. Докази щодо сну значно слабші, ніж визнає майже будь-хто, хто його продає, — і жодне з тих досліджень не проводили на жінках у перименопаузі.",
+      "meta": "24 серпня 2026 · 8 хв читання",
+      "lead": "Магній став універсальною відповіддю майже на все, що стосується жінки за сорок: перерваний сон, тривожність, цукор у крові, який почав поводитися інакше. Частина цього має підстави. Частина — це індустрія добавок, що заповнює прогалину, залишену медициною. Ось де проходить межа.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Почнімо з того, що не викликає суперечок. Магній — кофактор сотень ферментних реакцій в організмі, і кілька з них розташовані просто в механізмі, який обробляє глюкозу. Інсуліновий рецептор на поверхні клітин має бути «увімкнений» перенесенням фосфату, а ця реакція потребує магнію. Далі по ланцюжку ферменти, які заносять глюкозу в клітину й запасають її, теж потребують магнію. Це не велнес-твердження з етикетки добавки — це базова біохімія, і саме тому низький магній і погана чутливість до інсуліну постійно трапляються разом."
+        },
+        {
+          "t": "p",
+          "text": "Помилка — у стрибку від цього далі. «Магній потрібен для роботи інсуліну» — правда. «Отже, більше магнію покращить роботу інсуліну» — не випливає з цього, так само як потреба в пальному в баку не означає, що повніший бак робить авто швидшим. Майже все далі — це історія про різницю між усуненням дефіциту й доливанням того, чого вам і так вистачає."
+        },
+        {
+          "t": "h",
+          "text": "Чому нормальний аналіз крові нічого не вирішує"
+        },
+        {
+          "t": "p",
+          "text": "Якщо ви колись просили визначити рівень магнію й вам сказали, що він у нормі, цей результат вартий менше, ніж здається. Магній, що циркулює в крові, — це менше одного відсотка того, що є в організмі; решта всередині клітин і в кістках, і тіло вперто утримує рівень у крові, витягуючи з тих запасів. Тож число може спокійно триматися в межах норми, поки резерви позаду нього виснажуються. Дослідження, які порівнювали рівень у крові з магнієм, виміряним безпосередньо в м'язах, показали, що значна частка людей із цілком нормальним аналізом крові мала дефіцит у тканинах."
+        },
+        {
+          "t": "p",
+          "text": "Це працює в обидва боки, і про це варто сказати чесно. Нормальний результат не доводить, що з вами все гаразд. Але й ніхто — зокрема той, хто продає вам добавку, — не може заявити про ваш дефіцит на підставі симптомів. Поганий сон, судоми й пригнічений настрій — це не аналіз на магній. Це симптоми ще приблизно сорока станів, деякі з яких важать більше."
+        },
+        {
+          "t": "h",
+          "text": "Що насправді показали дослідження про цукор у крові"
+        },
+        {
+          "t": "p",
+          "text": "Тут результати справді неоднорідні, і корисне саме те, як саме вони розходяться. Метааналіз рандомізованих досліджень 2016 року виявив, що добавки магнію покращували інсулінорезистентність і глюкозу натще — але лише в дослідженнях тривалістю чотири місяці й більше, і ефект був помірний. Аналіз 2026 року, що об'єднав п'ять досліджень у людей із предіабетом, загалом 384 особи, виявив відчутне покращення інсулінорезистентності. А оновлений огляд 2026 року по дослідженнях при діабеті та предіабеті не знайшов статистично значущої зміни інсуліну загалом. Дванадцятитижневе дослідження в людей із метаболічним синдромом не показало нічого."
+        },
+        {
+          "t": "p",
+          "text": "Поставте це поруч — і проступає правило. Дослідження, які щось знаходять, зазвичай довші й зазвичай залучають людей, яким магнію бракувало від початку. Найчіткіший позитивний результат із усіх дало дослідження за участю людей, які мали і інсулінорезистентність, і вимірювано низький магній: дайте їм добавку — і чутливість до інсуліну покращується. Це усунення дефіциту, річ реальна й варта уваги. Але це не доказ, що жінка, яка харчується розумно, покращить свій цукор, додавши таблетку."
+        },
+        {
+          "t": "h",
+          "text": "Якщо у вас діабет, ця петля працює і у зворотний бік"
+        },
+        {
+          "t": "p",
+          "text": "Є одна група, для якої питання магнію більше ніж теоретичне. Низький магній фіксують у 14–48% людей із діабетом 2 типу, і механізм не загадковий: коли глюкоза в крові висока, нирки виводять її із сечею, за нею йде вода, а разом із нею — магній. Висока глюкоза вимиває магній, а низький магній погіршує роботу інсуліну. Дослідники називають це замкненим колом, і це саме воно."
+        },
+        {
+          "t": "p",
+          "text": "Тож магній — розумніша річ для уваги, якщо ви живете з діабетом, ніж якщо ні. І це водночас означає, що найпотужніший важіль впливу на ваш магній — це контроль глюкози, а не шафка з добавками. Якщо хочете побачити, як конкретна страва ймовірно вплине, до того як її з'їсти, [калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) на цьому сайті — найшвидший спосіб це зробити."
+        },
+        {
+          "t": "h",
+          "text": "Докази щодо сну значно слабші за маркетинг"
+        },
+        {
+          "t": "p",
+          "text": "Саме це твердження продає продукт — і воно найслабше на цій сторінці. Найцитованіший огляд магнію при безсонні об'єднав три рандомізовані дослідження за участю 151 літньої людини. Ті, хто приймав магній, засинали приблизно на сімнадцять хвилин швидше, ніж на плацебо, і це було статистично значущо. Загальна тривалість сну була довшою приблизно на шістнадцять хвилин — і це вже ні. Автори огляду оцінили всі три дослідження як такі, що мають помірний-високий ризик упередженості, а певність доказів — як низьку до дуже низької, і прямо написали, що ця література недостатньо якісна, щоб лікарі робили з неї впевнені рекомендації."
+        },
+        {
+          "t": "p",
+          "text": "Новіші роботи акуратніші й не більш вражаючі. Плацебо-контрольоване дослідження бісгліцинату магнію у здорових дорослих із поганим сном справді виявило більше покращення показників безсоння, ніж на плацебо, — з малим розміром ефекту, який самі автори описали як такий, що має обмежене клінічне значення."
+        },
+        {
+          "t": "p",
+          "text": "І ось те, чого статті про перименопаузу майже ніколи не кажуть: нічого з цього не досліджували на жінках у перименопаузі. Дослідження проводили на літніх людях із безсонням і на людях із загалом поганим сном. Сон у перименопаузі має власний механізм — нічна пітливість і гормональний перехід, який фрагментує структуру сну, — і жодного дослідження магнію проти нього не проводили. Той, хто каже вам, що магній доведено допомагає при перименопаузальному сні, екстраполює й не повідомляє про це."
+        },
+        {
+          "t": "p",
+          "text": "Щодо того, що докази таки показують про сон і цукор у крові в жінок, сильніша робота — та, де втручанням був сам сон: [на дев'яносто хвилин менше сну підвищило інсулінорезистентність у жінок на 15%](/ua/blog/sleep-insulin-resistance-women/). Недосипання доказово шкодить контролю глюкози. А от чи здатен мінерал полагодити сон — питання значно хиткіше, ніж те, чи має значення сон."
+        },
+        {
+          "t": "h",
+          "text": "Гліцинат, цитрат, оксид: чи має значення форма?"
+        },
+        {
+          "t": "p",
+          "text": "Певною мірою — і переважно щодо вашого кишківника, а не результату. Оксид магнію дешевий і погано засвоюється, тому й працює як проносне і тому домінує на полиці з бюджетними товарами. Цитрат засвоюється краще й усе одно послаблює у вищих дозах. Гліцинат — часто продають як бісгліцинат — найм'якший для шлунка, тому саме його зазвичай радять приймати на ніч, і саме цю форму використовували в кращих новітніх дослідженнях сну."
+        },
+        {
+          "t": "p",
+          "text": "Одне число варто знати до порівняння цін. Доза на лицьовому боці упаковки — це зазвичай вага всієї сполуки, а не магнію в ній. Гліцинат магнію містить лише близько 10–14% магнію за вагою, тож капсула на 500 мг може давати 50–70 мг власне магнію. Шукайте показник елементарного магнію на звороті. Дуже багато продуктів, які виглядають щедро, такими не є."
+        },
+        {
+          "t": "h",
+          "text": "Розумний спосіб це випробувати"
+        },
+        {
+          "t": "p",
+          "text": "У Великій Британії referenceна норма для дорослих жінок — 270 мг на добу, і їжа тут розумна відправна точка: гарбузове насіння, горіхи, квасоля, цільні злаки, темна листова зелень і чорний шоколад — усе це вагомі джерела. Якщо хочете додати добавку, безпечний верхній рівень саме для магнію з добавок — 400 мг на добу для дорослих; це показник для таблеток, окремо від того, що ви їсте."
+        },
+        {
+          "t": "p",
+          "text": "Випробовуйте це як експеримент, а не як надію. Змінюйте по одному, приймайте регулярно й дайте питанню сну три–чотири тижні, а питанню цукру — значно довше: пам'ятайте, що дослідження, які знайшли метаболічний ефект, здебільшого тривали чотири місяці й більше. Запишіть, що саме ви намагаєтеся змінити, до початку, бо інакше ви запам'ятаєте лише хороші ночі. Якщо єдине, що сталося, — це послаблення випорожнень, відповідь у вас є, і це зазвичай доза або форма, а не магній як такий."
+        },
+        {
+          "t": "p",
+          "text": "Два застереження. Якщо ваші нирки працюють не нормально, добавки магнію — не буденна покупка: виводити надлишок доводиться саме ниркам, тож спершу спитайте лікаря. І магній заважає засвоєнню деяких ліків, зокрема окремих антибіотиків і замісної терапії для щитоподібної залози, тож якщо ви щось приймаєте регулярно, уточніть інтервал, а не припускайте."
+        },
+        {
+          "t": "h",
+          "text": "Чого магній зробити не може"
+        },
+        {
+          "t": "p",
+          "text": "Варто назвати, з чим саме конкурує добавка. Достатній сон, рух після їжі, достатньо білка й важкі силові двічі на тиждень мають більший і краще доведений вплив на чутливість до інсуліну в середньому віці, ніж будь-яка мінеральна таблетка. Магній у найкращому разі стоїть поруч із ними. Він не може їх замінити, а причина, з якої його рекламують так, ніби може, — у тому, що він товар, а вони ні."
+        },
+        {
+          "t": "h",
+          "text": "Що я зробила б насправді"
+        },
+        {
+          "t": "p",
+          "text": "Я живу з діабетом 1 типу двадцять три роки, і мій підхід до будь-якої добавки однаковий: вважати, що вона не робить нічого, доки мої власні дані не скажуть інакше. Магній — один із небагатьох випадків, де, як на мене, підстави придивитися радше обґрунтовані, ніж модні: петля «діабет — магній» реальна, почати з їжі легко, а запас безпеки при розумних дозах широкий. Чого я точно не робила б — це не починала б його того самого тижня, що й три інші зміни, не судила б про нього за п'ятьма ночами й не витрачала б гроші на форму, етикетка якої приховує, як мало магнію в ній насправді. Якщо коротко й чесно: правдоподібно, дешево, малоризиковано — і далеко не так доведено, як натякає упаковка."
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Добавки магнію покращують інсулінорезистентність переважно в довших дослідженнях і в людей, яким магнію бракувало від початку.",
+              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень 2016 року виявив, що добавки магнію покращували індекс HOMA-IR і глюкозу натще як у людей із діабетом, так і без нього, але ефект був помірним і спостерігався в дослідженнях тривалістю чотири місяці й довше. Метааналіз 2026 року за п'ятьма дослідженнями при предіабеті (384 учасники) повідомив про значуще покращення HOMA-IR (середня різниця −1,10) і двогодинної глюкози. Окремий систематичний огляд 2026 року по дослідженнях при діабеті та предіабеті не знайшов статистично значущої зміни інсуліну загалом, а 12-тижневе рандомізоване подвійне сліпе дослідження при метаболічному синдромі не показало покращення інсулінорезистентності. Найчіткіший позитивний результат походить із подвійного сліпого плацебо-контрольованого дослідження за участю людей без діабету, які мали і інсулінорезистентність, і низький магній у крові.",
+              "cite": "Pharmacological Research · Систематичний огляд і метааналіз, 2016; з пізнішими метааналізами, 2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27329332/"
+            },
+            {
+              "claim": "У людей без діабету, які мали і інсулінорезистентність, і низький магній, добавка покращила чутливість до інсуліну.",
+              "detail": "Подвійне сліпе плацебо-контрольоване рандомізоване дослідження за участю людей без діабету з інсулінорезистентністю та гіпомагніємією показало, що пероральні добавки магнію значуще знизили індекс HOMA-IR і покращили чутливість до інсуліну порівняно з плацебо. Суть у критеріях включення: учасники мали бути з дефіцитом магнію, щоб узяти участь, тож результат описує, що відбувається при усуненні дефіциту, а не при додаванні магнію до й так достатнього надходження.",
+              "cite": "Diabetes & Metabolism · Подвійне сліпе плацебо-контрольоване рандомізоване дослідження, 2004",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15223977/"
+            },
+            {
+              "claim": "Докази щодо магнію при безсонні спираються на три невеликі дослідження й оцінені як низької до дуже низької певності.",
+              "detail": "Систематичний огляд і метааналіз 2021 року виявив три рандомізовані контрольовані дослідження, що порівнювали пероральний магній із плацебо в 151 літньої людини у трьох країнах. Об'єднаний час засинання був на 17,36 хвилини коротшим із магнієм, і це було статистично значущо; загальна тривалість сну була на 16,06 хвилини довшою, і це значущим не було. Усі три дослідження оцінені як такі, що мають помірний-високий ризик упередженості, а результати підкріплені доказами низької до дуже низької якості; автори дійшли висновку, що література недостатньо якісна, щоб лікарі робили з неї обґрунтовані рекомендації. Жодного дослідження в цій доказовій базі не проводили на жінках у перименопаузі.",
+              "cite": "BMC Complementary Medicine and Therapies · Систематичний огляд і метааналіз, 2021",
+              "url": "https://link.springer.com/article/10.1186/s12906-021-03297-z"
+            },
+            {
+              "claim": "Нещодавнє плацебо-контрольоване дослідження бісгліцинату магнію в людей із поганим сном виявило реальний, але малий ефект.",
+              "detail": "Рандомізоване плацебо-контрольоване дослідження бісгліцинату магнію у здорових дорослих, які повідомляли про поганий сон, виявило значуще більше зниження показників за індексом тяжкості безсоння, ніж на плацебо, з малим розміром ефекту, який автори схарактеризували як такий, що має обмежене клінічне значення. Учасниками були люди із загалом поганим сном, а не жінки в періоді менопаузального переходу.",
+              "cite": "Nature and Science of Sleep · Рандомізоване плацебо-контрольоване дослідження",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412596/"
+            },
+            {
+              "claim": "Низький магній трапляється у 14–48% людей із діабетом 2 типу, і висока глюкоза крові — частина причини.",
+              "detail": "Огляди щодо магнію при діабеті 2 типу повідомляють про гіпомагніємію у 14–48% пацієнтів. Хронічна гіперглікемія сприяє цьому через осмотичний діурез і через зниження реабсорбції магнію в ниркових канальцях, тож глюкоза, що виходить у сечу, забирає магній із собою; своєю чергою низький магній погіршує дію інсуліну, що в літературі описують як замкнене коло. Магній сироватки — поганий маркер загального магнію організму: він становить менш ніж 1% запасів і може залишатися в межах норми, поки внутрішньоклітинні та кісткові запаси виснажуються.",
+              "cite": "Endocrine Reviews · Огляд гіпомагніємії при діабеті 2 типу, 2023",
+              "url": "https://academic.oup.com/edrv/article/44/3/357/6811786"
+            },
+            {
+              "claim": "Британська норма для дорослих жінок — 270 мг на добу, а безпечний верхній рівень із добавок — 400 мг на добу.",
+              "detail": "Британські рекомендації встановлюють референсну норму магнію на рівні 270 мг на добу для жінок від 19 років і 300 мг для чоловіків. Безпечний верхній рівень стосується саме магнію з добавок і становить 400 мг на добу для дорослих; він не стосується магнію з їжі, що не є реалістичним шляхом до надлишку в людей із нормальною функцією нирок. Шлунково-кишкові ефекти — діарея, нудота, спазми в животі — це типові дозозалежні побічні ефекти, а гліцинат магнію містить лише близько 10–14% елементарного магнію за вагою, тож число на лицьовому боці упаковки завищує реальну дозу.",
+              "cite": "Британські референсні норми споживання та безпечні верхні рівні для добавок",
+              "url": "https://www.boltpharmacy.co.uk/guide/magnesium-daily-intake-dosage"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "На дев'яносто хвилин менше сну підвищило інсулінорезистентність у жінок на 15%",
+              "url": "/ua/blog/sleep-insulin-resistance-women/",
+              "desc": "Сильніші докази з того самого питання, де змінювали саме сон."
+            },
+            {
+              "name": "Ваші кишкові бактерії переробляють естроген — і менопауза змінює, які саме це бактерії",
+              "url": "/ua/blog/estrobolome-gut-oestrogen-menopause/",
+              "desc": "Ще один механізм середнього віку, де біологія міцна, а обіцянки добавок біжать поперед неї."
+            },
+            {
+              "name": "Перименопауза й цукор у крові: що насправді змінюється",
+              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Чому глюкоза починає поводитися інакше під час переходу — ще до того, як ви потягнетеся по щось для виправлення."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи допомагає магній при інсулінорезистентності?",
+          "a": "Може, але переважно тим, у кого магнію бракувало від початку. Магній справді потрібен для роботи інсулінового рецептора, і дослідження за участю людей, які мали і інсулінорезистентність, і низький магній, показують покращення чутливості до інсуліну після усунення цього дефіциту. Для всіх інших картина неоднорідна: одні аналізи знаходять помірну користь, здебільшого в дослідженнях тривалістю чотири місяці й довше, інші не знаходять значущої зміни. Це радше усунення дефіциту, ніж лікування інсулінорезистентності."
+        },
+        {
+          "q": "Чи доведено, що магній допомагає при поганому сні в перименопаузі?",
+          "a": "Ні. Найцитованіший огляд об'єднав три дослідження за участю 151 літньої людини й виявив, що люди засинали приблизно на сімнадцять хвилин швидше, — але загальна тривалість сну значуще не покращилася, усі три дослідження мали помірний-високий ризик упередженості, а докази оцінені як низької до дуже низької певності. Новіше дослідження в людей із поганим сном виявило реальний, але малий ефект, який автори назвали таким, що має обмежене клінічне значення. Головне: жодне з цих досліджень не проводили на жінках у перименопаузі, чий сон порушує специфічний гормональний механізм, який жодне дослідження магнію не перевіряло."
+        },
+        {
+          "q": "Яка форма магнію краща — гліцинат, цитрат чи оксид?",
+          "a": "Гліцинат, який часто продають як бісгліцинат, найм'якший для шлунка і саме його використовували в кращих новітніх дослідженнях сну, тому зазвичай радять саме його на ніч. Цитрат добре засвоюється, але послаблює у вищих дозах. Оксид дешевий і погано засвоюється, тому й працює як проносне. Що б ви не обрали, перевіряйте вміст елементарного магнію на звороті упаковки: гліцинат містить лише близько 10–14% магнію за вагою, тож капсула на 500 мг може давати 50–70 мг."
+        },
+        {
+          "q": "Скільки магнію приймати жінці за сорок?",
+          "a": "Британська референсна норма — 270 мг на добу для дорослих жінок, і більшу частину має забезпечувати їжа: гарбузове насіння, горіхи, квасоля, цільні злаки, темна листова зелень і чорний шоколад — усе це хороші джерела. Якщо додаєте добавку, безпечний верхній рівень саме для магнію з добавок — 400 мг на добу для дорослих, окремо від того, що ви отримуєте з їжею. Спершу спитайте лікаря, якщо ваші нирки працюють не нормально, і уточніть інтервал, якщо приймаєте замісну терапію для щитоподібної залози чи окремі антибіотики, бо магній може заважати їх засвоєнню."
+        },
+        {
+          "q": "Мій аналіз крові на магній у нормі — чи означає це, що він мені не потрібен?",
+          "a": "Не обов'язково. Кров несе менш ніж один відсоток магнію організму, і тіло утримує цей рівень, черпаючи із запасів у клітинах і кістках, тож результат крові може лишатися в межах норми, поки резерви падають. Дослідження, які порівнювали рівень у крові з магнієм, виміряним у м'язах, показали, що багато людей із нормальними результатами мали дефіцит у тканинах. Втім, справедливе й зворотне: симптоми на кшталт поганого сну чи судом — теж не аналіз на магній, і їх спричиняє чимало інших речей."
+        },
+        {
+          "q": "Скільки часу потрібно, щоб зрозуміти, чи магній щось дає?",
+          "a": "Дайте сну три–чотири тижні, а цукру в крові — значно довше: дослідження, які знайшли метаболічний ефект, здебільшого тривали чотири місяці й більше. Змінюйте по одному, приймайте регулярно й запишіть, що саме намагаєтеся покращити, до початку, щоб не судити з пам'яті. Якщо головне, що ви помітили, — послаблення випорожнень, це зазвичай доза або форма, а не сам магній."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "prediabetes-signs-perimenopause",
+    "tags": [
+      "perimenopause",
+      "insulin-resistance",
+      "type-2-diabetes",
+      "blood-sugar",
+      "menopause-symptoms",
+      "belly-fat",
+      "sleep",
+      "type-1-diabetes",
+      "women-in-research",
+      "clinical-trials"
+    ],
+    "date": "2026-08-23",
+    "image": "/images/prediabetes-signs-perimenopause.jpg",
+    "cats": [
+      "perimenopause",
+      "diabetes"
+    ],
+    "en": {
+      "cat": "Perimenopause & Diabetes",
+      "imageAlt": "A woman in her forties sitting at a kitchen table in morning light, looking tired, a cup of coffee untouched in front of her.",
+      "title": "Prediabetes signs in perimenopause that get mistaken for “just hormones”",
+      "seoTitle": "Prediabetes Signs in Perimenopause, Not Just Hormones",
+      "metaDesc": "The blood sugar signs perimenopause hides, why they overlap with hormone symptoms, and what to ask your GP for. General information, not diagnosis.",
+      "excerpt": "Fatigue, a thicker middle, broken sleep, a shorter fuse — perimenopause explains all of it, and so does early insulin resistance. Here is where the two stories actually diverge, and how to ask for a test.",
+      "meta": "23 August 2026 · 7 min read",
+      "lead": "Perimenopause explains almost every symptom a woman has in her forties. That is exactly what makes it such a good place for something else to hide.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There is a particular kind of tiredness that turns up somewhere in your forties and gets filed, by you and often by your doctor, under “well, it’s the hormones”. Sometimes that is precisely what it is. Sometimes it is blood sugar, drifting quietly upwards for years before anyone thinks to measure it. From the inside, the two feel almost identical — and the woman living through it is usually the one being told not to worry."
+        },
+        {
+          "t": "p",
+          "text": "This article will not tell you which one you have. Nothing written down can do that, and anything that claims to is selling something. What it can do is three things: show you where the two stories genuinely diverge, show you how often the blood sugar half is currently being missed, and give you the words to ask your GP for a test. Everything below is general information. The only thing that settles this is a blood test and the person who ordered it."
+        },
+        {
+          "t": "h",
+          "text": "Why perimenopause and early insulin resistance feel the same"
+        },
+        {
+          "t": "p",
+          "text": "Line the two symptom lists up and they very nearly overlap. Fatigue. Weight that settles around the middle when it never used to. Sleep that breaks at three in the morning. A shorter fuse than you recognise. Brain fog. Every one of those has a straightforward hormonal explanation in this decade, and every one of them is also on the list for early insulin resistance."
+        },
+        {
+          "t": "p",
+          "text": "The overlap is not a coincidence, and this is the part that usually gets left out: the two conditions share machinery. Sleep is the clearest example. Broken sleep is a hallmark of the transition, and short sleep measurably worsens insulin sensitivity — in one controlled study, [an hour and a half less sleep raised insulin resistance in women by around 15%](/blog/sleep-insulin-resistance-women/). So perimenopause does not merely resemble insulin resistance. It can help produce it. Which means “it’s just hormones” and “it’s your blood sugar” are not competing explanations so much as two ends of the same thread."
+        },
+        {
+          "t": "h",
+          "text": "The patterns that lean more towards blood sugar than hormones alone"
+        },
+        {
+          "t": "p",
+          "text": "What follows is not a checklist and not a score. Nothing here rules anything in or out, and none of it is diagnostic — it is simply the sort of detail that tends to fall out of a ten-minute appointment unless you have written it down beforehand. Take it as a list of things worth mentioning, not a list of things to conclude."
+        },
+        {
+          "t": "p",
+          "text": "A distinct energy crash roughly an hour to ninety minutes after a carbohydrate-heavy meal is different in shape from all-day tiredness, and it is worth describing that way. New and persistent thirst, and getting up in the night to pass urine, are not the same thing as waking up hot and thirsty from a night sweat — the timing and the pattern differ, and the distinction is useful to your GP. Cuts, skin infections or recurrent thrush that take longer to settle than they used to are worth flagging. So is a waist that is thickening faster than the scales are moving, which is a different observation from weight gain and often the more informative one. Vision that blurs and clears again over days rather than staying blurred is another."
+        },
+        {
+          "t": "p",
+          "text": "Now the caveat that matters most. Every single one of those has other explanations, several of them more common. Thyroid disease, anaemia, low ferritin, disturbed sleep from any cause and ordinary ageing all produce overlapping pictures. That is the whole point: symptoms cannot sort this out, whoever is reading them. A blood test can."
+        },
+        {
+          "t": "h",
+          "text": "What actually changes in this decade — and what doesn’t"
+        },
+        {
+          "t": "p",
+          "text": "The physiological link is real and reasonably well described. As oestradiol falls, body composition shifts: fat that used to sit on the hips and thighs starts collecting around the abdomen, and that abdominal fat is metabolically active in a way the old distribution was not. The Study of Women’s Health Across the Nation, which has followed thousands of women through the transition since their early forties, has also tracked two quieter changes — sex hormone-binding globulin falls and liver fat rises, and both are independently associated with higher circulating insulin, over and above how much a woman weighs. [Where the weight sits, not just how much of it there is](/blog/cortisol-belly-perimenopause/), turns out to be the part that carries metabolic meaning."
+        },
+        {
+          "t": "p",
+          "text": "But here is where the popular version of this story overreaches, and it is worth correcting. Menopause is not a switch that turns diabetes risk on. A UK Biobank study of nearly 147,000 women, followed for an average of 14.5 years and published in the journal Menopause in January 2026, looked specifically at whether the age at menopause or the type of menopause predicted developing diabetes. It did not. Diabetes appeared in 5.2% of women with earlier-onset menopause and 4.2% of those with menopause at a standard age — a gap that looks like something until the confounders are accounted for, at which point the authors concluded there was no independent or clinically significant relationship between the timing or type of menopause and the onset of diabetes."
+        },
+        {
+          "t": "p",
+          "text": "That is worth sitting with, because the anxious version of this — “I went through menopause early, so I am heading for diabetes” — is not what the largest dataset we have actually says. The decade matters. The body-composition changes matter. The date of your last period, as a thing to worry about on its own, does not. Which redirects the attention towards the parts that do move: muscle, sleep, activity, and where the weight is sitting."
+        },
+        {
+          "t": "h",
+          "text": "How often this is currently being missed"
+        },
+        {
+          "t": "p",
+          "text": "An analysis reported in July 2026 took twenty years of American national health survey data — 3,574 women aged 45 and over who had been through natural menopause, sampled between 2003 and 2023 — and asked how the numbers had moved. Prediabetes rose from 24.3% to 35.2%: from roughly one in four women to more than one in three. Diagnosed diabetes barely shifted, from 11.3% to 11.9%."
+        },
+        {
+          "t": "p",
+          "text": "The figure that matters for this article is the third one. Unrecognised high blood sugar — women whose blood results sat in the prediabetes or diabetes range but who had never been told by a clinician that anything was wrong — rose from 23.9% to 32.9%. Close to a third. And it was not evenly spread: compared with non-Hispanic white women, non-Hispanic Black women had 2.3 times the odds of their high blood sugar going unrecognised, and Hispanic and Latina women 1.58 times. Lower income and less education raised the odds too. Being unwell and being told you are unwell are, it turns out, two different variables."
+        },
+        {
+          "t": "p",
+          "text": "Read it with its limits on. This is American survey data, each round a fresh snapshot of different people rather than the same women followed over time, so it describes a population trend and cannot prove menopause caused any of it — ageing and rising weight across the whole population are doing some of the work. The UK is not the US, and our screening pathways differ. But a third of a group going unrecognised is not a rounding error, and it is the specific failure this article is about."
+        },
+        {
+          "t": "h",
+          "text": "What to ask your GP for, and how to read the answer"
+        },
+        {
+          "t": "p",
+          "text": "In the UK the usual first test is HbA1c. It reflects your average glucose over roughly the previous two to three months, needs no fasting, and can be taken at any time of day. Fasting plasma glucose is a single moment after an overnight fast, and it can come back reassuring in someone whose HbA1c is not. So the thing to ask for by name is an HbA1c."
+        },
+        {
+          "t": "p",
+          "text": "It helps to know what the numbers mean before you are looking at them across a desk. The NHS does not generally use the word prediabetes; the term on the paperwork is non-diabetic hyperglycaemia. An HbA1c of 42–47 mmol/mol (6.0–6.4%), or a fasting plasma glucose of 5.5–6.9 mmol/L, is the in-between range, and 48 mmol/mol is the threshold for diabetes. These are not numbers to apply to yourself from a home device — they are what your GP will be working from, and knowing them turns the appointment into a conversation rather than a verdict you receive."
+        },
+        {
+          "t": "p",
+          "text": "Two practical routes in. If you are between 40 and 74 and have not had an NHS Health Check in the last five years, you are entitled to one and it includes a blood sugar check — that is the least confrontational way to get tested. If you would rather raise it directly, ask for the test rather than describing how you feel: “I’d like my HbA1c checked” gets further than “I’m exhausted”, and it helps to say out loud anything that raises your risk — a parent or sibling with type 2 diabetes, PCOS or PMOS, gestational diabetes in a past pregnancy, or a South Asian, Black African or African Caribbean background. Bring the specific patterns you noticed, in the words you would use to a friend."
+        },
+        {
+          "t": "p",
+          "text": "If the result lands in that in-between range, ask about the NHS Diabetes Prevention Programme by name. It is a nine-month behavioural programme, referral runs through your GP practice, and it needs a qualifying blood result from within the last twelve months — so it is worth asking while the number is fresh rather than a year later. And if the result is entirely normal but you still feel wrong, that is not the end of the conversation either. Thyroid function, ferritin and B12 are the ordinary next questions, and none of them are exotic requests."
+        },
+        {
+          "t": "h",
+          "text": "What I keep coming back to, living with type 1 through this"
+        },
+        {
+          "t": "p",
+          "text": "I have had type 1 diabetes for 23 years, which means I have never had to guess about my blood sugar — I can watch it on a sensor. When my insulin needs started climbing in my early forties, I could see it happening in front of me, and [I was still told there was nothing to look at](/blog/perimenopause-diabetes-blood-sugar/). Being able to point at a graph did not spare me the conversation. It only meant I eventually won it."
+        },
+        {
+          "t": "p",
+          "text": "That is what makes me uneasy about this particular gap. A woman without diabetes has none of that data. She is being asked to make her case out of symptoms alone, in the one decade of her life when every symptom she has already comes with a ready hormonal explanation attached. That is an almost impossible position to argue from — which is exactly why I think the ask should be for a number rather than for agreement. A number is much harder to talk you out of."
+        },
+        {
+          "t": "p",
+          "text": "None of this is a reason for alarm. Most women who ask for the test will get a normal result back, and “it is the hormones” is very often the correct answer. It is just meant to be a conclusion someone reaches after testing rather than before it. If any of this sounds like your last two years, please take it to your GP — that is the whole of the advice here."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Around a third of naturally menopausal US women now have prediabetes, and close to a third of high blood sugar in this group is going unrecognised.",
+              "detail": "Analysis of twenty years of the US National Health and Nutrition Examination Survey (NHANES), covering 3,574 women aged 45 and over who had been through natural menopause, sampled 2003–2023, reported in July 2026. Prediabetes prevalence rose from 24.3% to 35.2%; diagnosed diabetes moved little, 11.3% to 11.9%; unrecognised hyperglycaemia — blood results in the prediabetes or diabetes range in women who did not report ever having been told by a clinician — rose from 23.9% to 32.9%. Compared with non-Hispanic white women, non-Hispanic Black women had 2.3 times the odds of unrecognised hyperglycaemia and Hispanic/Latina women 1.58 times; lower income and lower educational attainment also raised the odds. NHANES is a repeated cross-sectional survey — each round samples different people — so it describes population trends and cannot establish that menopause caused the rise; population-wide ageing and weight trends are plausible contributors, and the findings are American rather than British.",
+              "cite": "NHANES analysis 2003–2023, reported July 2026",
+              "url": "https://www.theflowspace.com/physical-health/conditions-treatments/menopause-blood-sugar-prediabetes-signs-3039009/"
+            },
+            {
+              "claim": "Neither the age at menopause nor the type of menopause independently predicts developing diabetes.",
+              "detail": "UK Biobank cohort study of nearly 147,000 women followed for a mean of 14.5 years, published online in Menopause on 14 January 2026. Mean age 60; around 60% were overweight or obese; about 4.5% (roughly 6,600 women) were diagnosed with diabetes during follow-up. Incidence was 5.2% in women with earlier-onset menopause versus 4.2% with menopause at a standard age, but the authors attributed apparent associations in preliminary analyses to confounding and concluded there was no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes. An observational cohort cannot exclude residual confounding, and UK Biobank participants are healthier and less deprived than the UK population as a whole.",
+              "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, January 2026",
+              "url": "https://menopause.org/press-releases/diabetes-risk-not-associated-with-timing-or-type-of-menopause"
+            },
+            {
+              "claim": "In the UK, an HbA1c of 42–47 mmol/mol is the range that makes someone eligible for the NHS Diabetes Prevention Programme.",
+              "detail": "NHS England defines non-diabetic hyperglycaemia — the term used in place of prediabetes — as an HbA1c of 42–47 mmol/mol (6.0–6.4%) or a fasting plasma glucose of 5.5–6.9 mmol/L, with 48 mmol/mol and above being the diabetes threshold. Referral to the NHS Diabetes Prevention Programme requires a qualifying result from within the previous twelve months; the programme offers at least nine months of group and one-to-one support on diet, activity and weight. These are clinical service criteria, not a self-assessment tool.",
+              "cite": "NHS England · NHS Diabetes Prevention Programme referral criteria",
+              "url": "https://www.england.nhs.uk/wp-content/uploads/2016/08/dpp-faq.pdf"
+            },
+            {
+              "claim": "Falling sex hormone-binding globulin and rising liver fat track with higher insulin in midlife women, independently of how much they weigh.",
+              "detail": "Study of Women’s Health Across the Nation (SWAN), a longitudinal cohort of women recruited in their early forties and followed through the menopausal transition. Both higher liver fat and lower sex hormone-binding globulin were significantly associated with higher insulin concentrations after adjustment for adiposity, and the transition is accompanied by a shift of fat towards the abdomen alongside a fall in lean mass. Observational cohort data: it describes what changes together over the transition rather than proving that one change causes another.",
+              "cite": "Kavanagh K et al. · Obesity (SWAN fat patterning study)",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.20077"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Keep reading",
+          "items": [
+            {
+              "name": "Perimenopause & diabetes: what’s really happening to your blood sugar",
+              "url": "/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "The same decade, written from the other side of a diagnosis — 23 years of type 1, and what changed at 40."
+            },
+            {
+              "name": "Type 2 diabetes is linked to heavier menopause symptoms, a Korean study finds",
+              "url": "/blog/type-2-diabetes-menopause-symptoms/",
+              "desc": "What happens to the transition itself once blood sugar is already involved."
+            },
+            {
+              "name": "An hour and a half less sleep raised insulin resistance in women",
+              "url": "/blog/sleep-insulin-resistance-women/",
+              "desc": "Why the broken-sleep half of perimenopause is a metabolic problem, not only a tiring one."
+            },
+            {
+              "name": "Metabolic food calculator",
+              "url": "/resources/food-calculator/",
+              "desc": "See how a given meal is likely to move your blood sugar — free, no sign-up, and useful long before anyone tests you."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I know if my symptoms are perimenopause or prediabetes?",
+          "a": "From symptoms alone, you don’t — and neither does anyone else, which is the honest answer rather than an evasive one. Fatigue, weight around the middle, broken sleep, low mood and brain fog appear on both lists, and the two conditions genuinely feed each other, so it is often not an either/or. The only thing that separates them is a blood test. Ask your GP for an HbA1c, and take along the specific patterns you have noticed — when the tiredness hits relative to meals, whether thirst is new, whether your waist is changing faster than your weight."
+        },
+        {
+          "q": "What blood test should I ask for, and do I need to fast?",
+          "a": "HbA1c is the usual first test in the UK. It reflects average glucose over the previous two to three months, needs no fasting, and can be done at any time of day. A fasting plasma glucose measures a single moment after an overnight fast and can look reassuring when an HbA1c would not, so asking for HbA1c by name is worth doing. If you are 40 to 74 and have not had an NHS Health Check in five years, that route includes a blood sugar check without you having to make the case at all."
+        },
+        {
+          "q": "Does going through menopause early mean I will get type 2 diabetes?",
+          "a": "The largest study to look at this says no. A UK Biobank cohort of nearly 147,000 women, followed for an average of 14.5 years and published in January 2026, found no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes once confounders were accounted for. The raw difference — 5.2% versus 4.2% — did not survive adjustment. Risk in this decade tracks far more closely with body composition, activity and sleep than with the date of your last period."
+        },
+        {
+          "q": "My blood sugar came back normal but I still feel exhausted. What now?",
+          "a": "A normal result narrows the field rather than closing the conversation, and it is worth going back rather than concluding you were imagining it. Thyroid function, ferritin and B12 are the ordinary next tests, and thyroid disease in particular produces a very similar picture. Perimenopause may well turn out to be the answer — the point of testing is that it becomes a conclusion someone reached rather than an assumption someone started from."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Перименопауза і діабет",
+      "imageAlt": "Жінка близько сорока сидить за кухонним столом у ранковому світлі, втомлена, перед нею неторкана чашка кави.",
+      "title": "Ознаки предіабету в перименопаузі, які списують на «просто гормони»",
+      "seoTitle": "Предіабет у перименопаузі: не «просто гормони»",
+      "metaDesc": "Які ознаки цукру в крові ховає перименопауза, чому вони збігаються з гормональними симптомами і про що просити лікаря. Загальна інформація, не діагноз.",
+      "excerpt": "Втома, живіт, розбитий сон, коротший запобіжник — усе це пояснює перименопауза. І все це пояснює рання інсулінорезистентність. Ось де ці дві історії справді розходяться і як попросити аналіз.",
+      "meta": "23 серпня 2026 · 7 хв читання",
+      "lead": "Перименопауза пояснює майже будь-який симптом жінки після сорока. Саме тому вона — таке зручне місце, щоб сховати щось інше.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Є особлива втома, яка приходить десь після сорока і яку ви — а часто й ваш лікар — записуєте в графу «ну, це гормони». Іноді це справді так. Іноді це цукор у крові, який роками тихо повзе вгору, поки нікому не спаде на думку його виміряти. Зсередини ці два стани відчуваються майже однаково — і жінка, яка їх переживає, зазвичай чує, що хвилюватися нема про що."
+        },
+        {
+          "t": "p",
+          "text": "Ця стаття не скаже вам, що саме у вас. Жоден текст цього не може, а той, що обіцяє, — щось вам продає. Зате вона може зробити три речі: показати, де ці дві історії справді розходяться, показати, як часто «цукрову» половину зараз пропускають, і дати слова, якими попросити лікаря про аналіз. Усе нижче — загальна інформація. Єдине, що вирішує це питання, — аналіз крові й людина, яка його призначила."
+        },
+        {
+          "t": "h",
+          "text": "Чому перименопауза й рання інсулінорезистентність відчуваються однаково"
+        },
+        {
+          "t": "p",
+          "text": "Поставте два переліки симптомів поруч — і вони майже накладаються. Втома. Вага, яка осідає на талії, хоча раніше так не було. Сон, що розривається о третій ночі. Коротший запобіжник, ніж ви за собою пам’ятаєте. Туман у голові. Кожен із цих пунктів має просте гормональне пояснення в цьому десятилітті — і кожен так само стоїть у переліку ранньої інсулінорезистентності."
+        },
+        {
+          "t": "p",
+          "text": "Цей збіг не випадковий, і саме цю частину зазвичай пропускають: обидва стани користуються спільним механізмом. Найяскравіший приклад — сон. Розбитий сон — характерна ознака переходу, а короткий сон вимірювано погіршує чутливість до інсуліну: у контрольованому дослідженні [півтори години недосипу підвищили інсулінорезистентність у жінок приблизно на 15%](/ua/blog/sleep-insulin-resistance-women/). Тобто перименопауза не просто нагадує інсулінорезистентність. Вона може допомагати її створити. А отже «це просто гормони» і «це ваш цукор» — не конкурентні пояснення, а радше два кінці однієї нитки."
+        },
+        {
+          "t": "h",
+          "text": "Патерни, які більше вказують на цукор, ніж лише на гормони"
+        },
+        {
+          "t": "p",
+          "text": "Те, що йде далі, — не чекліст і не бали. Ніщо тут нічого не підтверджує й не виключає, і нічого з цього не є діагностичним. Це просто ті деталі, які випадають із десятихвилинного прийому, якщо не записати їх заздалегідь. Сприймайте це як перелік того, що варто озвучити, а не того, що варто вирішити самій."
+        },
+        {
+          "t": "p",
+          "text": "Виразний провал енергії приблизно через годину-півтори після вуглеводної їжі має іншу форму, ніж втома «цілий день», — і описувати його варто саме так. Нова стійка спрага і потреба вставати вночі в туалет — це не те саме, що прокинутися гарячою і спраглою від нічної пітливості: час і патерн різні, і лікарю ця різниця корисна. Порізи, шкірні інфекції або молочниця, що повертається чи довше загоюється, ніж раніше, варті згадки. Так само талія, яка товщає швидше, ніж рухаються ваги, — це інше спостереження, ніж «набір ваги», і часто інформативніше. І зір, який то розмивається, то повертається протягом кількох днів, а не залишається розмитим."
+        },
+        {
+          "t": "p",
+          "text": "А тепер найважливіше застереження. Кожен із цих пунктів має інші пояснення, декілька з них — поширеніші. Захворювання щитоподібної залози, анемія, низький феритин, порушений сон із будь-якої причини та звичайне старіння дають картину, яка накладається. У цьому й суть: симптоми не можуть розсудити це питання — хто б їх не читав. Аналіз крові може."
+        },
+        {
+          "t": "h",
+          "text": "Що справді змінюється в цьому десятилітті — і що ні"
+        },
+        {
+          "t": "p",
+          "text": "Фізіологічний зв’язок реальний і достатньо описаний. Коли естрадіол падає, змінюється склад тіла: жир, який раніше лежав на стегнах, починає збиратися навколо живота, і цей абдомінальний жир метаболічно активний так, як попередній розподіл не був. Дослідження SWAN, яке спостерігає за тисячами жінок від початку сорока років крізь увесь перехід, зафіксувало ще дві тихіші зміни: глобулін, що зв’язує статеві гормони, знижується, а жир у печінці зростає — і обидва незалежно пов’язані з вищим рівнем інсуліну, незалежно від того, скільки жінка важить. [Де саме лежить вага, а не лише скільки її](/ua/blog/cortisol-belly-perimenopause/), виявляється тією частиною, що несе метаболічний зміст."
+        },
+        {
+          "t": "p",
+          "text": "Але тут популярна версія цієї історії заходить надто далеко, і це варто виправити. Менопауза — не вимикач, який умикає ризик діабету. Дослідження на базі UK Biobank за участю майже 147 000 жінок, за якими спостерігали в середньому 14,5 року, опубліковане в журналі Menopause у січні 2026 року, перевіряло саме це: чи передбачає вік настання менопаузи або її тип розвиток діабету. Не передбачає. Діабет виник у 5,2% жінок із ранньою менопаузою і в 4,2% жінок із менопаузою у звичайному віці — розрив, який виглядає значущим, поки не врахувати конфаундери; після цього автори дійшли висновку, що незалежного чи клінічно значущого зв’язку між часом або типом менопаузи й початком діабету немає."
+        },
+        {
+          "t": "p",
+          "text": "На цьому варто затриматися, бо тривожна версія — «у мене рання менопауза, отже я йду до діабету» — це не те, що каже найбільший наявний масив даних. Десятиліття має значення. Зміни складу тіла мають значення. Дата останньої менструації як окремий привід для тривоги — ні. І це переводить увагу на те, що справді рухається: м’язи, сон, активність і те, де лежить вага."
+        },
+        {
+          "t": "h",
+          "text": "Як часто це зараз пропускають"
+        },
+        {
+          "t": "p",
+          "text": "Аналіз, оприлюднений у липні 2026 року, узяв двадцять років даних американського національного опитування здоров’я — 3 574 жінки віком від 45 років, які пройшли природну менопаузу, вибірки з 2003 по 2023 рік — і подивився, як змінилися цифри. Предіабет зріс із 24,3% до 35,2%: приблизно з однієї з чотирьох жінок до більш ніж однієї з трьох. Діагностований діабет майже не зрушив: з 11,3% до 11,9%."
+        },
+        {
+          "t": "p",
+          "text": "Найважливіша для цієї статті — третя цифра. Нерозпізнана гіперглікемія, тобто жінки, чиї аналізи були в діапазоні предіабету або діабету, але яким жоден клініцист ніколи про це не сказав, зросла з 23,9% до 32,9%. Майже третина. І розподілена вона нерівномірно: порівняно з білими нелатиноамериканськими жінками, у чорношкірих нелатиноамериканських жінок шанси, що підвищений цукор залишиться нерозпізнаним, були у 2,3 раза вищі, а в жінок латиноамериканського походження — у 1,58 раза. Нижчий дохід і нижчий рівень освіти теж підвищували ці шанси. Виявляється, «мати проблему» і «знати, що маєш проблему» — дві різні змінні."
+        },
+        {
+          "t": "p",
+          "text": "Читайте це з усіма обмеженнями. Це американські опитувальні дані, кожен раунд — новий зріз інших людей, а не спостереження за тими самими жінками, тож вони описують популяційну тенденцію й не доводять, що причиною було саме настання менопаузи: старіння населення й загальне зростання ваги теж роблять свою частину роботи. Велика Британія — не США, і шляхи скринінгу в нас інші. Але третина групи, яка залишається нерозпізнаною, — це не похибка округлення, і саме про цей провал ця стаття."
+        },
+        {
+          "t": "h",
+          "text": "Про що просити лікаря і як читати відповідь"
+        },
+        {
+          "t": "p",
+          "text": "У Британії перший аналіз зазвичай — HbA1c (глікований гемоглобін). Він відображає середній рівень глюкози за попередні два-три місяці, не потребує голодування і може бути зданий будь-коли протягом дня. Глюкоза натще — це один момент після нічного голодування, і вона може виглядати заспокійливо в людини, у якої HbA1c таким не буде. Тож просити варто саме HbA1c, називаючи його."
+        },
+        {
+          "t": "p",
+          "text": "Корисно знати, що означають цифри, ще до того, як ви дивитесь на них через стіл. NHS зазвичай не вживає слова «предіабет»; у документах це називається недіабетична гіперглікемія. HbA1c 42–47 ммоль/моль (6,0–6,4%) або глюкоза натще 5,5–6,9 ммоль/л — це проміжний діапазон, а 48 ммоль/моль — поріг діабету. Це не цифри, які варто прикладати до себе з домашнього приладу: це те, з чим працюватиме ваш лікар, і знання їх перетворює прийом на розмову, а не на вирок, який ви отримуєте."
+        },
+        {
+          "t": "p",
+          "text": "Два практичні шляхи. Якщо вам від 40 до 74 років і ви не проходили NHS Health Check останні п’ять років, ви маєте на нього право, і він включає перевірку цукру — це найменш конфліктний спосіб здати аналіз. Якщо ж ви хочете підняти питання прямо, просіть аналіз, а не описуйте самопочуття: «Я хотіла б перевірити HbA1c» працює краще, ніж «я виснажена». І варто вголос назвати все, що підвищує ризик: діабет 2 типу в батьків чи братів-сестер, СПКЯ або ПМОС, гестаційний діабет у минулій вагітності, походження з Південної Азії, Африки чи Карибського басейну. Принесіть конкретні патерни, які ви помітили, тими словами, якими розповіли б подрузі."
+        },
+        {
+          "t": "p",
+          "text": "Якщо результат потрапляє в проміжний діапазон, запитайте про NHS Diabetes Prevention Programme, назвавши її. Це дев’ятимісячна поведінкова програма, скерування йде через вашу практику, і для нього потрібен придатний результат аналізу за останні дванадцять місяців — тож питати варто, поки цифра свіжа, а не через рік. А якщо результат цілком нормальний, але ви все одно почуваєтеся не так, розмова на цьому теж не закінчується. Функція щитоподібної залози, феритин і B12 — звичайні наступні питання, і жодне з них не є екзотичним проханням."
+        },
+        {
+          "t": "h",
+          "text": "До чого я весь час повертаюся, проживаючи це з діабетом 1 типу"
+        },
+        {
+          "t": "p",
+          "text": "Я живу з діабетом 1 типу 23 роки, тобто мені ніколи не доводилося вгадувати свій цукор — я бачу його на сенсорі. Коли на початку сорока моя потреба в інсуліні почала рости, я бачила це на власні очі — і [мені все одно сказали, що дивитися нема на що](/ua/blog/perimenopause-diabetes-blood-sugar/). Можливість показати графік не звільнила мене від цієї розмови. Вона лише означала, що зрештою я її виграла."
+        },
+        {
+          "t": "p",
+          "text": "Саме тому ця прогалина мене непокоїть. У жінки без діабету цих даних немає взагалі. Її просять довести свою правоту самими симптомами — у єдиному десятилітті життя, де кожен її симптом уже має напоготові гормональне пояснення. З такої позиції сперечатися майже неможливо — і тому, я вважаю, просити треба цифру, а не згоду. Цифру набагато важче у вас відговорити."
+        },
+        {
+          "t": "p",
+          "text": "Ніщо з цього не є приводом для тривоги. Більшість жінок, які попросять аналіз, отримають нормальний результат, і «це гормони» дуже часто буде правильною відповіддю. Просто це має бути висновок, до якого хтось дійшов після аналізу, а не до нього. Якщо щось із написаного схоже на ваші останні два роки — будь ласка, віднесіть це своєму лікарю. У цьому вся порада."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Приблизно третина американських жінок після природної менопаузи мають предіабет, і майже третина випадків підвищеного цукру в цій групі залишається нерозпізнаною.",
+              "detail": "Аналіз двадцяти років даних американського National Health and Nutrition Examination Survey (NHANES): 3 574 жінки віком від 45 років, які пройшли природну менопаузу, вибірки 2003–2023 років; оприлюднено в липні 2026 року. Поширеність предіабету зросла з 24,3% до 35,2%; діагностований діабет змінився мало — з 11,3% до 11,9%; нерозпізнана гіперглікемія (результати в діапазоні предіабету або діабету в жінок, які не повідомляли, що клініцист колись їм про це казав) зросла з 23,9% до 32,9%. Порівняно з білими нелатиноамериканськими жінками, у чорношкірих нелатиноамериканських жінок шанси нерозпізнаної гіперглікемії були у 2,3 раза вищі, у латиноамериканок — у 1,58 раза; нижчий дохід і нижчий рівень освіти також підвищували ці шанси. NHANES — повторюване перехресне опитування, кожен раунд охоплює інших людей, тож воно описує популяційні тенденції й не може довести, що причиною зростання була менопауза; старіння населення та зростання ваги — ймовірні співчинники, а дані американські, не британські.",
+              "cite": "Аналіз NHANES 2003–2023, оприлюднено в липні 2026",
+              "url": "https://www.theflowspace.com/physical-health/conditions-treatments/menopause-blood-sugar-prediabetes-signs-3039009/"
+            },
+            {
+              "claim": "Ані вік настання менопаузи, ані її тип незалежно не передбачають розвитку діабету.",
+              "detail": "Когортне дослідження на базі UK Biobank: майже 147 000 жінок, середній період спостереження 14,5 року; опубліковано онлайн у журналі Menopause 14 січня 2026 року. Середній вік учасниць — 60 років, близько 60% мали надлишкову вагу або ожиріння, приблизно у 4,5% (близько 6 600 жінок) за час спостереження діагностували діабет. Захворюваність становила 5,2% серед жінок із ранньою менопаузою проти 4,2% серед жінок із менопаузою у звичайному віці, проте автори пояснили зв’язки, що з’являлися в попередніх аналізах, впливом конфаундерів і дійшли висновку, що незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету немає. Обсерваційна когорта не може виключити залишкове конфаундування, а учасниці UK Biobank здоровіші й менш соціально вразливі, ніж населення Британії загалом.",
+              "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, січень 2026",
+              "url": "https://menopause.org/press-releases/diabetes-risk-not-associated-with-timing-or-type-of-menopause"
+            },
+            {
+              "claim": "У Британії HbA1c 42–47 ммоль/моль — це діапазон, який дає право на скерування до NHS Diabetes Prevention Programme.",
+              "detail": "NHS England визначає недіабетичну гіперглікемію — термін, який вживають замість «предіабету» — як HbA1c 42–47 ммоль/моль (6,0–6,4%) або глюкозу плазми натще 5,5–6,9 ммоль/л; 48 ммоль/моль і вище є порогом діабету. Для скерування до NHS Diabetes Prevention Programme потрібен придатний результат за попередні дванадцять місяців; програма пропонує щонайменше дев’ять місяців групової та індивідуальної підтримки щодо харчування, активності й ваги. Це критерії клінічної служби, а не інструмент самооцінки.",
+              "cite": "NHS England · критерії скерування до NHS Diabetes Prevention Programme",
+              "url": "https://www.england.nhs.uk/wp-content/uploads/2016/08/dpp-faq.pdf"
+            },
+            {
+              "claim": "Зниження глобуліну, що зв’язує статеві гормони, і зростання жиру в печінці йдуть разом із вищим інсуліном у жінок середнього віку — незалежно від ваги.",
+              "detail": "Study of Women’s Health Across the Nation (SWAN) — лонгітюдна когорта жінок, набраних на початку сорока років і простежених крізь менопаузальний перехід. Як вищий вміст жиру в печінці, так і нижчий рівень глобуліну, що зв’язує статеві гормони, були значуще пов’язані з вищими концентраціями інсуліну після поправки на ожиріння; перехід також супроводжується зміщенням жиру до живота разом зі зниженням м’язової маси. Це обсерваційні когортні дані: вони описують, що змінюється разом, а не доводять, що одна зміна спричиняє іншу.",
+              "cite": "Kavanagh K et al. · Obesity (дослідження розподілу жиру SWAN)",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.20077"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Перименопауза й діабет: що насправді відбувається з вашим цукром",
+              "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
+              "desc": "Те саме десятиліття, написане з іншого боку діагнозу — 23 роки діабету 1 типу і що змінилося після сорока."
+            },
+            {
+              "name": "Діабет 2 типу пов’язаний із важчими симптомами менопаузи — корейське дослідження",
+              "url": "/ua/blog/type-2-diabetes-menopause-symptoms/",
+              "desc": "Що відбувається із самим переходом, коли цукор уже в грі."
+            },
+            {
+              "name": "Півтори години недосипу підвищили інсулінорезистентність у жінок",
+              "url": "/ua/blog/sleep-insulin-resistance-women/",
+              "desc": "Чому «сонна» половина перименопаузи — метаболічна проблема, а не лише втомлива."
+            },
+            {
+              "name": "Калькулятор впливу їжі на метаболізм",
+              "url": "/ua/resources/food-calculator/",
+              "desc": "Подивіться, як конкретна страва ймовірно вплине на ваш цукор — безкоштовно, без реєстрації й задовго до будь-яких аналізів."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Як зрозуміти, це перименопауза чи предіабет?",
+          "a": "За самими симптомами — ніяк, і ніхто інший теж не зрозуміє; це чесна відповідь, а не ухиляння. Втома, вага на талії, розбитий сон, знижений настрій і туман у голові є в обох переліках, а самі стани справді підживлюють одне одного, тож часто це не «або-або». Розділяє їх лише аналіз крові. Попросіть у лікаря HbA1c і візьміть із собою конкретні патерни, які помітили: коли саме накриває втома відносно їжі, чи спрага справді нова, чи товщає талія швидше, ніж змінюється вага."
+        },
+        {
+          "q": "Який аналіз просити і чи треба здавати натще?",
+          "a": "У Британії перший аналіз зазвичай HbA1c. Він відображає середню глюкозу за попередні два-три місяці, не потребує голодування і здається будь-коли протягом дня. Глюкоза натще — це один момент після нічного голодування, і вона може виглядати заспокійливо там, де HbA1c таким не буде, тож називати HbA1c прямо варто. Якщо вам від 40 до 74 і ви не проходили NHS Health Check п’ять років, цей шлях включає перевірку цукру взагалі без потреби щось доводити."
+        },
+        {
+          "q": "Чи означає рання менопауза, що в мене буде діабет 2 типу?",
+          "a": "Найбільше дослідження з цього питання каже, що ні. Когорта UK Biobank із майже 147 000 жінок, за якими спостерігали в середньому 14,5 року, опублікована в січні 2026 року, не виявила незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету після врахування конфаундерів. Сира різниця — 5,2% проти 4,2% — не пережила поправок. Ризик у цьому десятилітті значно тісніше пов’язаний зі складом тіла, активністю та сном, ніж із датою останньої менструації."
+        },
+        {
+          "q": "Цукор у нормі, але я все одно виснажена. Що далі?",
+          "a": "Нормальний результат звужує коло, а не закриває розмову, — і варто повернутися до лікаря, а не вирішувати, що вам здалося. Функція щитоподібної залози, феритин і B12 — звичайні наступні аналізи, і саме захворювання щитоподібної залози дає дуже схожу картину. Цілком можливо, що відповіддю виявиться перименопауза — сенс аналізів у тому, щоб це став висновок, до якого хтось дійшов, а не припущення, з якого хтось почав."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "bmi-trajectory-prediabetes-women",
+    "tags": [
+      "insulin-resistance",
+      "type-2-diabetes",
+      "blood-sugar",
+      "weight-loss",
+      "perimenopause"
+    ],
+    "date": "2026-08-23",
+    "image": "/images/bmi-trajectory-prediabetes-women.jpg",
+    "cats": [
+      "diabetes",
+      "weight"
+    ],
+    "en": {
+      "cat": "Diabetes",
+      "imageAlt": "A small notebook open on a table, showing a column of dates with a weight written beside each, a pen resting across the page.",
+      "title": "A normal BMI told these women nothing — the direction it was moving told them a lot",
+      "seoTitle": "BMI Trajectory and Prediabetes: A 7-Year Study",
+      "metaDesc": "A Japanese cohort followed 2,271 women for seven years. Small year-on-year BMI gain predicted prediabetes even in women whose BMI never left the normal range.",
+      "excerpt": "Nearly every prevention rule for blood sugar runs off one number taken on one day. A cohort of 2,271 women followed for seven years suggests the more useful number is the slope — how fast that reading is moving, even while it still counts as normal.",
+      "meta": "23 August 2026 · 6 min read",
+      "lead": "Almost every screening rule we have for blood sugar works off a single measurement: your BMI today, against a threshold. A study published in July in the American Journal of Preventive Medicine asked a different question — not where a woman’s weight is, but which way it is going, and how fast — and found that the second question separated the women who went on to develop prediabetes from the women who didn’t.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The work comes out of Nagoya University and uses an unusually mundane data source: annual occupational health checkups, collected at four centres in Japan between 2015 and 2024. From that pool the team took 2,271 women aged 18 to 40 who started out normoglycaemic and stayed free of prediabetes through a three-year landmark window, 2015 to 2017. During that window they calculated each woman’s own BMI slope — kg/m² per year, fitted within-person, so the comparison is a woman against her own earlier self rather than against anybody else. Then they followed everyone forward. Over a median of seven years, 346 of them — 15.2% — crossed into prediabetes, defined here as an HbA1c between 5.7% and 6.4%."
+        },
+        {
+          "t": "p",
+          "text": "The headline number is deliberately small. Each extra 0.1 kg/m² per year of BMI gain came with a hazard ratio of 1.04 (95% CI 1.02 to 1.05). That is a 4% higher hazard for a rate of gain most people would never notice — for a woman of 1.65 m, 0.1 kg/m² a year is about 270 grams. The point of expressing it that way is not that 270 grams matters. It is that the effect is per unit, so it stacks: six of those steps, which is the 0.6 kg/m² a year the paper treats as high gain, works out to roughly 27% if the relationship holds in a straight line across the range. That last figure is my arithmetic on their hazard ratio, not a number the paper reports — a per-unit hazard ratio assumes linearity, and the authors publish only the per-unit version."
+        },
+        {
+          "t": "p",
+          "text": "The more interesting result is in the survival curves. Women gaining 0.6 kg/m² a year or more pulled away from the rest early, which is no surprise. But the group gaining mildly — somewhere between 0.2 and under 0.6 kg/m² a year — also separated. It just took about five years to become visible, and then kept widening. And the authors single out where that delayed separation showed up most clearly: among women whose baseline BMI was normal. Those are exactly the women a threshold-based rule never flags. Their number on the day was fine every single year, and what carried the signal was the gap between this year’s number and last year’s."
+        },
+        {
+          "t": "p",
+          "text": "Three things this does not establish, and one of them matters a great deal on a site written for women over 40. The cohort stopped at 40. Every woman in it was of reproductive age — Medscape reports a mean of 34.6 — so the study says nothing directly about perimenopause, and I would be inventing the interesting part if I claimed otherwise. Whether a BMI slope means the same thing at 47, when muscle is being lost and fat is redistributing towards the middle, is an open question this cohort cannot answer. Second, it is retrospective and observational: gradual gain travels with prediabetes here, and nobody has shown that flattening the slope prevents it. Third, the full text sits behind Elsevier’s paywall, so what I have read is the abstract — which reports the hazard ratio and the survival-curve pattern but does not list which covariates the Cox models adjusted for."
+        },
+        {
+          "t": "p",
+          "text": "One thing is worth translating for a UK reader. Prediabetes here means an HbA1c of 5.7% to 6.4%, the American Diabetes Association’s range, which in the units your GP uses is roughly 39 to 46 mmol/mol. The NHS calls the same territory non-diabetic hyperglycaemia and starts its range higher, at 42 mmol/mol. So a proportion of the women counted as new cases in this study would be sitting just under the line that gets you a referral in England, and would be told their result was normal. That is not a flaw in the study — it is a reason not to read “15.2% developed prediabetes” as a statement about British women."
+        },
+        {
+          "t": "p",
+          "text": "What survives all of that is small and quite practical: keep the readings, not just the reading. A weight logged once a year, under the same conditions, is enough to give you a slope — and a slope is the thing neither a BMI threshold nor a one-off HbA1c will show you. If yours has been drifting upward for several years while every individual result came back normal, that is the pattern this study is about, and it is worth saying out loud at an appointment rather than waiting for a number to cross a line. It is also worth knowing that weight is not the only thing moving insulin sensitivity in midlife: [taking ninety minutes a night off healthy sleepers raised insulin resistance about 15%, independently of body weight](/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "In 2,271 Japanese women aged 18–40, each 0.1 kg/m² per year of BMI gain was associated with a 4% higher risk of developing prediabetes over a median seven years.",
+              "detail": "Retrospective cohort using annual occupational health checkup data from four centres in Japan, 2015–2024. It included 2,271 normoglycaemic women aged 18–40 who remained free of prediabetes through a 2015–2017 landmark period; annual BMI change over that period was estimated by within-person regression. Incident prediabetes (HbA1c 5.7%–6.4%) was modelled with Cox proportional hazards, including time-dependent analyses. Over a median 7.0 years of follow-up, 346 women (15.2%) developed prediabetes; hazard ratio 1.04 per 0.1 kg/m²/year (95% CI 1.02–1.05). Kaplan–Meier curves separated early for women gaining ≥0.6 kg/m²/year, and separated later but progressively — after roughly five years — for mild gain of 0.2 to <0.6 kg/m²/year, particularly among women with a normal baseline BMI. Observational and retrospective: an association, not evidence that slowing the gain prevents prediabetes. The cohort is Japanese, of reproductive age, and drawn from workplace checkups. Abstract only — the full text is paywalled, so the covariate set is not verified here.",
+              "cite": "Tano S et al. · American Journal of Preventive Medicine · Retrospective cohort study, published online 26 July 2026",
+              "url": "https://doi.org/10.1016/j.amepre.2026.108525"
+            },
+            {
+              "claim": "Medscape’s report of the study gives the cohort’s mean age as 34.6 and describes the BMI-change groups as loss, stable, moderate and highest.",
+              "detail": "Medscape covered the paper in August 2026 under the headline “Annual BMI Gain Linked to Prediabetes Risk in Women”, reporting a mean age of 34.6 years, a baseline HbA1c below 5.7%, and four categories of annual BMI change. The mean age and the group labels are not in the published abstract and are taken from this report; the hazard ratio, follow-up and event counts above come from the paper itself.",
+              "cite": "Medscape · News report of the study, August 2026",
+              "url": "https://www.medscape.com/viewarticle/annual-bmi-gain-linked-prediabetes-risk-women-2026a1000qhb"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn’t caught up",
+              "url": "/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "The same age group as this cohort, and why their risk keeps being read as somebody else’s."
+            },
+            {
+              "name": "5 myths about perimenopause and weight",
+              "url": "/blog/perimenopause-weight-myths/",
+              "desc": "What changes about weight after 40 — the decade this study stops just short of."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "I’m in my late forties. Does this study apply to me?",
+          "a": "Not directly, and it would be easy to pretend otherwise. Every woman in it was between 18 and 40, with an average age in the mid-thirties, so the cohort ends right about where perimenopause tends to begin. That matters more than a decade usually would, because the things that move BMI change after 40: muscle mass starts falling, fat redistributes towards the middle, and a stable BMI can hide a body composition that has shifted a lot. A slope calculated from a bathroom scale is a cruder instrument at 48 than at 34. What plausibly carries over is the principle rather than the numbers — that a series of readings tells you something a single reading cannot, and that “still in the normal range” is not the same as “not moving”. Anyone claiming this study shows what perimenopausal weight gain does to blood sugar is going beyond what was measured."
+        },
+        {
+          "q": "How much weight is 0.1 kg/m² a year, in kilos?",
+          "a": "It depends on your height, because BMI is weight divided by height in metres squared. Multiply 0.1 by your height squared and you have it: at 1.60 m that is about 260 g a year, at 1.65 m about 270 g, at 1.70 m about 290 g. The high-gain group in the study — 0.6 kg/m² a year and above — is roughly 1.6 kg a year for a woman of 1.65 m, which over seven years of follow-up comes to something like 11 kg. That is the scale of thing worth noticing. But do the sum on your own height rather than borrowing mine, and treat it as a way of picturing the finding rather than as a target: the study measured what happened to a population, and nobody has tested whether holding your own slope flat changes your own result."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Діабет",
+      "imageAlt": "Невеликий записник, розгорнутий на столі: стовпчик дат, поруч із кожною записана вага, упоперек сторінки лежить ручка.",
+      "title": "Нормальний ІМТ не сказав цим жінкам нічого — а напрямок, у якому він рухався, сказав багато",
+      "seoTitle": "Траєкторія ІМТ і предіабет: 7 років спостережень",
+      "metaDesc": "Японська когорта спостерігала 2 271 жінку сім років. Невеликий щорічний приріст ІМТ передбачав предіабет навіть у тих, чий ІМТ не виходив за межі норми.",
+      "excerpt": "Майже всі правила профілактики щодо цукру крові спираються на одне число, виміряне одного дня. Когорта з 2 271 жінки, за якою спостерігали сім років, показує, що корисніше число — це нахил: як швидко цей показник рухається, поки він ще вважається нормальним.",
+      "meta": "23 серпня 2026 · 6 хв читання",
+      "lead": "Майже всі наші правила скринінгу щодо цукру крові працюють з одним вимірюванням: ваш ІМТ сьогодні проти порогового значення. Дослідження, опубліковане в липні в American Journal of Preventive Medicine, поставило інше запитання — не де саме перебуває вага жінки, а куди й наскільки швидко вона рухається, — і виявило, що саме друге запитання відділяє жінок, у яких згодом розвинувся предіабет, від тих, у кого ні.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Роботу виконали в Університеті Нагої, і джерело даних у ній напрочуд буденне: щорічні профілактичні медогляди на роботі, зібрані в чотирьох центрах Японії з 2015 до 2024 року. З цього масиву команда взяла 2 271 жінку віком від 18 до 40 років, які на старті мали нормальний рівень глюкози й залишалися без предіабету протягом трирічного орієнтирного вікна 2015–2017. У межах цього вікна дослідники обчислили для кожної жінки її власний нахил ІМТ — кг/м² на рік, підібраний усередині однієї людини, тож порівняння йде жінки з нею ж раніше, а не з кимось іншим. Потім за всіма спостерігали далі. За медіани сім років 346 із них — 15,2% — перейшли в предіабет, визначений тут як HbA1c у межах 5,7–6,4%."
+        },
+        {
+          "t": "p",
+          "text": "Головне число навмисно маленьке. Кожні додаткові 0,1 кг/м² на рік приросту ІМТ давали відношення ризиків 1,04 (95% ДІ 1,02–1,05). Це на 4% вищий ризик за темпу набору, якого більшість людей навіть не помітила б: для жінки зростом 1,65 м 0,1 кг/м² на рік — це приблизно 270 грамів. Сенс такого формулювання не в тому, що 270 грамів мають значення. А в тому, що ефект рахується на одиницю, отже накопичується: шість таких кроків — це якраз 0,6 кг/м² на рік, які автори вважають високим приростом, — дають близько 27%, якщо залежність лишається лінійною в цьому діапазоні. Останнє число — це моя арифметика з їхнього відношення ризиків, а не показник зі статті: відношення ризиків на одиницю передбачає лінійність, і автори публікують лише варіант на одиницю."
+        },
+        {
+          "t": "p",
+          "text": "Цікавіший результат — у кривих виживання. Жінки, які набирали 0,6 кг/м² на рік і більше, відірвалися від решти рано, і це не дивно. Але група з помірним набором — від 0,2 до менш ніж 0,6 кг/м² на рік — теж відділилася. Просто на це знадобилося близько п’яти років, а далі розрив продовжував зростати. І автори окремо зазначають, де це відкладене розділення було помітним найчіткіше: серед жінок, чий вихідний ІМТ був нормальним. Це саме ті жінки, яких правило з пороговим значенням ніколи не помітить. Їхнє число в день огляду щороку було в нормі, а сигнал ніс саме розрив між цьогорічним і торішнім показником."
+        },
+        {
+          "t": "p",
+          "text": "Три речі, яких це дослідження не встановлює, і одна з них дуже важлива для сайту, що пише для жінок після 40. Когорта закінчується на 40 роках. Усі учасниці були репродуктивного віку — Medscape повідомляє середній вік 34,6, — тож дослідження нічого не каже напряму про перименопаузу, і я вигадала б найцікавіше, якби стверджувала інше. Чи означає нахил ІМТ те саме в 47, коли втрачається м’язова маса, а жир перерозподіляється до живота, — відкрите питання, на яке ця когорта відповісти не може. По-друге, дослідження ретроспективне й обсерваційне: поступовий набір тут іде поруч із предіабетом, але ніхто не показав, що вирівнювання цього нахилу його запобігає. По-третє, повний текст закритий пейволом Elsevier, тож я читала лише анотацію — у ній є відношення ризиків і картина кривих виживання, але немає переліку коваріат, за якими коригували моделі Кокса."
+        },
+        {
+          "t": "p",
+          "text": "Одну річ варто перекласти для читачки у Британії. Предіабет тут — це HbA1c 5,7–6,4%, діапазон Американської діабетичної асоціації, що в одиницях, якими користується ваш лікар, приблизно 39–46 ммоль/моль. NHS називає цю ж територію недіабетичною гіперглікемією і починає свій діапазон вище — з 42 ммоль/моль. Тобто частина жінок, зарахованих у цьому дослідженні до нових випадків, у Британії опинилася б трохи нижче межі, яка дає направлення на програму профілактики, і почула б, що результат нормальний. Це не вада дослідження — це причина не читати «15,2% розвинули предіабет» як твердження про британських жінок."
+        },
+        {
+          "t": "p",
+          "text": "Що переживає всі ці застереження — річ маленька й доволі практична: зберігайте показники, а не показник. Ваги, зважені раз на рік в однакових умовах, уже дають нахил, а нахил — це саме те, чого не покаже ані порогове значення ІМТ, ані разовий HbA1c. Якщо ваш кілька років повзе вгору, тоді як кожен окремий результат повертався нормальним, — це і є та закономірність, про яку йдеться в дослідженні, і про неї варто сказати вголос на прийомі, а не чекати, поки число перетне лінію. Варто також пам’ятати, що вага — не єдине, що рухає чутливість до інсуліну в середньому віці: [якщо забрати дев’яносто хвилин сну на добу в жінок, які спали добре, інсулінорезистентність зросла приблизно на 15% незалежно від маси тіла](/ua/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "У 2 271 японської жінки віком 18–40 років кожні 0,1 кг/м² на рік приросту ІМТ були пов’язані з на 4% вищим ризиком розвитку предіабету за медіани сім років.",
+              "detail": "Ретроспективне когортне дослідження на даних щорічних профілактичних медоглядів на роботі в чотирьох центрах Японії, 2015–2024. Включено 2 271 жінку з нормальним рівнем глюкози віком 18–40 років, які лишалися без предіабету протягом орієнтирного періоду 2015–2017; щорічну зміну ІМТ за цей період оцінювали регресією всередині однієї людини. Новий предіабет (HbA1c 5,7–6,4%) моделювали пропорційними ризиками Кокса, зокрема в аналізах із залежністю від часу. За медіани спостереження 7,0 року предіабет розвинувся в 346 жінок (15,2%); відношення ризиків 1,04 на 0,1 кг/м²/рік (95% ДІ 1,02–1,05). Криві Каплана — Меєра розходилися рано для жінок із приростом ≥0,6 кг/м²/рік і пізніше, але прогресивно — приблизно після п’яти років — для помірного приросту 0,2 до <0,6 кг/м²/рік, особливо серед жінок із нормальним вихідним ІМТ. Обсерваційне й ретроспективне: це зв’язок, а не доказ, що уповільнення набору запобігає предіабету. Когорта — японська, репродуктивного віку, набрана з робочих медоглядів. Лише анотація — повний текст за пейволом, тож перелік коваріат тут не перевірено.",
+              "cite": "Tano S та ін. · American Journal of Preventive Medicine · Ретроспективне когортне дослідження, онлайн 26 липня 2026",
+              "url": "https://doi.org/10.1016/j.amepre.2026.108525"
+            },
+            {
+              "claim": "У матеріалі Medscape про це дослідження середній вік когорти вказано як 34,6 року, а групи зміни ІМТ описано як втрата, стабільність, помірний і найвищий приріст.",
+              "detail": "Medscape написав про статтю в серпні 2026 року під заголовком «Annual BMI Gain Linked to Prediabetes Risk in Women», навівши середній вік 34,6 року, вихідний HbA1c нижче 5,7% і чотири категорії щорічної зміни ІМТ. Середнього віку й назв груп немає в опублікованій анотації — вони взяті з цього матеріалу; відношення ризиків, тривалість спостереження й кількість випадків вище — із самої статті.",
+              "cite": "Medscape · Новинний матеріал про дослідження, серпень 2026",
+              "url": "https://www.medscape.com/viewarticle/annual-bmi-gain-linked-prediabetes-risk-women-2026a1000qhb"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Схожі новини",
+          "items": [
+            {
+              "name": "Діабет 2 типу зростає вдвічі швидше в жінок до 40 — а медицина за цим не встигає",
+              "url": "/ua/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "Та сама вікова група, що й у цій когорті, і чому їхній ризик усе ще читають як чужий."
+            },
+            {
+              "name": "5 міфів про перименопаузу та вагу",
+              "url": "/ua/blog/perimenopause-weight-myths/",
+              "desc": "Що змінюється з вагою після 40 — десятиліття, до якого це дослідження трохи не дійшло."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Мені під п’ятдесят. Чи стосується мене це дослідження?",
+          "a": "Напряму — ні, і було б легко вдати, що інакше. Усім учасницям було від 18 до 40 років, із середнім віком близько тридцяти п’яти, тож когорта закінчується приблизно там, де зазвичай починається перименопауза. Тут це важить більше, ніж зазвичай важить десятиліття, бо після 40 змінюється саме те, що рухає ІМТ: м’язова маса починає падати, жир перерозподіляється до живота, а стабільний ІМТ може приховувати склад тіла, що суттєво змінився. Нахил, порахований за домашніми вагами, у 48 — інструмент грубіший, ніж у 34. Що, ймовірно, переноситься — це принцип, а не числа: серія вимірювань каже те, чого не скаже одне, а «все ще в межах норми» — не те саме, що «не рухається». Хто стверджує, що це дослідження показує вплив набору ваги в перименопаузі на цукор крові, виходить за межі виміряного."
+        },
+        {
+          "q": "Скільки це — 0,1 кг/м² на рік — у кілограмах?",
+          "a": "Залежить від вашого зросту, бо ІМТ — це вага, поділена на зріст у метрах у квадраті. Помножте 0,1 на квадрат свого зросту — і матимете відповідь: при 1,60 м це приблизно 260 г на рік, при 1,65 м — близько 270 г, при 1,70 м — близько 290 г. Група високого приросту в дослідженні — 0,6 кг/м² на рік і більше — це приблизно 1,6 кг на рік для жінки зростом 1,65 м, тобто за сім років спостереження близько 11 кг. Ось порядок величини, який варто помічати. Але порахуйте на власний зріст, а не беріть мій, і сприймайте це як спосіб уявити результат, а не як мету: дослідження виміряло, що сталося з популяцією, і ніхто не перевіряв, чи змінить ваш власний результат те, що ви втримаєте свій нахил рівним."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "insulin-resistance-hair-thinning",
+    "tags": [
+      "hair-loss",
+      "insulin-resistance",
+      "blood-sugar",
+      "perimenopause",
+      "type-1-diabetes",
+      "glp1",
+      "clinical-trials"
+    ],
+    "date": "2026-08-22",
+    "image": "/images/insulin-resistance-hair-thinning.jpg",
+    "cats": [
+      "skin",
+      "diabetes"
+    ],
+    "en": {
+      "cat": "Skin & beauty",
+      "imageAlt": "A woman in her forties sitting in daylight by a window, lifting a section of hair at her crown to see where it parts.",
+      "title": "Insulin resistance and hair thinning after 40 — what the link actually is, and what helps",
+      "seoTitle": "Insulin Resistance and Hair Thinning After 40",
+      "metaDesc": "Why raised insulin is linked to thinning hair, how to tell it apart from menopausal and thyroid hair loss, and what the evidence really supports. Not medical advice.",
+      "excerpt": "Thinning hair in your forties gets filed under menopause. There is a second thread underneath it — insulin — and the evidence for it is real, weaker than the internet suggests, and worth understanding before you buy anything.",
+      "meta": "22 August 2026 · 7 min read",
+      "lead": "Hair thinning after 40 gets filed under menopause, and often that is where it belongs. But there is a second thread running underneath it that gets much less attention: what your insulin is doing. The link is real and it shows up in population data. It is also messier and weaker than most of what you will read about it. Here is what the evidence actually supports — and, because I live with Type 1 diabetes, what I have had to learn to separate from it.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Start with the follicle, because the mechanism only makes sense once you know it is a clock rather than a tap. Each hair follicle spends years in anagen, its growing phase, then a few months in telogen, resting, then sheds and starts again. What happens in female-pattern hair loss is not that hair falls out faster. It is miniaturisation: with each cycle the follicle produces a slightly shorter, finer, less pigmented hair, until a terminal hair has become a vellus one — the soft down on a cheek. Follicles also sit empty for longer between cycles. That is why the first sign is usually a parting that has quietly widened rather than hair in the sink."
+        },
+        {
+          "t": "h",
+          "text": "Where insulin comes into it"
+        },
+        {
+          "t": "p",
+          "text": "The best-documented route runs through a protein made in your liver called SHBG — sex hormone-binding globulin. Its job is to bind testosterone and keep it out of circulation. Insulin suppresses the liver's production of it directly. This has been shown cleanly in women with PCOS (now often called PMOS): raise insulin and SHBG falls, independently of any change in the sex hormones themselves. Less SHBG means more free, unbound testosterone. An enzyme in the scalp, 5-alpha-reductase, converts some of that into DHT, which binds the androgen receptor about five times more tightly than testosterone does — and in androgen-sensitive follicles, that is the signal that drives miniaturisation."
+        },
+        {
+          "t": "p",
+          "text": "There is a second, cruder route: blood vessels. The clinical reviews attribute part of the association to vascular impairment from high glucose, which damages the very small vessels feeding the follicle. And running alongside both of these, falling oestrogen shortens anagen and lengthens telogen on its own. So a woman of 45 with insulin resistance can have three things pushing in the same direction at once. That, more than anything, is why you cannot work out the cause from the mirror."
+        },
+        {
+          "t": "h",
+          "text": "What the evidence shows — and where it stops"
+        },
+        {
+          "t": "p",
+          "text": "The strongest signal comes from population data. A Finnish population-based study of middle-aged women found that women carrying markers of insulin resistance had a significantly increased risk of female androgenetic alopecia. The markers that separated the women with extensive hair loss from those with normal or minimal thinning were waist and neck circumference, abdominal obesity, mean insulin concentration and urinary albumin-to-creatinine ratio; women in the highest quintiles for neck or waist circumference had a significantly increased risk. A father with hair loss was also more common in the group with alopecia — heredity has not gone anywhere."
+        },
+        {
+          "t": "p",
+          "text": "Then look at what happens when a small study measures insulin directly. A 2024 case-control study compared 31 premenopausal women with female-pattern hair loss against 31 without. Waist circumference and BMI were clearly higher in the hair-loss group — 81.9 cm against 72.6 cm, and BMI 26.3 against 24.5. But HOMA-IR, fasting insulin, fasting glucose, triglycerides and HDL showed no significant difference at all. Sixty-two women is a small study and it cannot settle anything. It is still a useful corrective: the body-shape signal keeps showing up more reliably than the insulin number does."
+        },
+        {
+          "t": "p",
+          "text": "And the reference reviews are careful in a way the headlines are not. The standard update on female-pattern hair loss says plainly that the role of androgens in it is not yet clear, and that plenty of women develop it with entirely normal circulating androgens. So the honest summary is: a real association, a plausible mechanism, and no basis for telling you that your insulin is the reason your parting has widened."
+        },
+        {
+          "t": "h",
+          "text": "Telling it apart from everything else that thins hair at this age"
+        },
+        {
+          "t": "p",
+          "text": "Before female-pattern hair loss is diagnosed, several other things have to be excluded — telogen effluvium, thyroid disease, raised prolactin and iron deficiency. The patterns differ, and the pattern is the most useful thing you can notice yourself. Female-pattern loss widens the central parting and thins the crown while largely sparing the frontal hairline. Telogen effluvium is diffuse shedding that starts two to three months after a trigger — an illness, an operation, rapid weight loss, a genuinely bad stretch of glucose control — and it usually recovers on its own. Alopecia areata takes discrete round patches, not a general thinning."
+        },
+        {
+          "t": "p",
+          "text": "If you have Type 1, the order of suspicion changes, and this is the part I most wish someone had told me earlier. Type 1 is autoimmune, and it travels in company: thyroid antibodies are found in roughly a fifth of people with Type 1, coeliac disease in something like 5 to 10%, and alopecia areata clusters with autoimmune thyroid disease. Untreated thyroid disease thins hair. So does the iron deficiency that undiagnosed coeliac produces. Both are far likelier explanations in a woman with Type 1 than insulin resistance is — so thyroid and ferritin first, metabolic theories after."
+        },
+        {
+          "t": "h",
+          "text": "The botanical options, and how good the evidence actually is"
+        },
+        {
+          "t": "p",
+          "text": "A 2026 review gathered 78 studies of botanical preparations for hair loss in menopausal women, and the most important thing in it is the shape of the evidence rather than any single herb. Around 70% of those studies were done in test tubes or in animals. Only about a quarter were randomised trials in menopausal women specifically, most with fewer than 100 participants and many running under 12 weeks — which is a problem in itself, because hair takes longer than that to answer."
+        },
+        {
+          "t": "p",
+          "text": "Within that: saw palmetto inhibits 5-alpha-reductase and the trials cited report hair loss halted or improved in about 60% of people against 11% on placebo, though mostly in mixed-sex studies of 50 to 100 people. Rosemary oil works on scalp circulation and shows density gains of 20–30% in short trials, with scalp irritation as the usual side effect. Ginseng prolonged the growth phase by 25–35%, largely in animal models with some double-blind work in postmenopausal women. Pumpkin seed oil compared favourably with 5% minoxidil in one trial."
+        },
+        {
+          "t": "p",
+          "text": "The review's own conclusion is the line worth keeping: botanicals do not achieve complete hair regrowth. They are cheap and mostly low-risk, and they are not a treatment plan. Two practical cautions come with them. Extract standardisation varies enormously, so two bottles of the same herb are not the same product. And high-dose He Shou Wu (Polygonum multiflorum) carries a real signal for liver toxicity — worth knowing if you are already taking anything else."
+        },
+        {
+          "t": "h",
+          "text": "Where GLP-1 drugs fit"
+        },
+        {
+          "t": "p",
+          "text": "Briefly, because it is a different question. If your hair started thinning within a few months of starting a GLP-1 and alongside fast weight loss, that pattern looks much more like telogen effluvium triggered by rapid weight loss than like anything insulin is doing — and that kind of shedding usually recovers. The wider picture of what these drugs do and do not do is [gathered in one place here](/blog/glp1-what-we-know/)."
+        },
+        {
+          "t": "h",
+          "text": "What actually moves the needle"
+        },
+        {
+          "t": "p",
+          "text": "There are two separate levers here and it helps to know which one you are pulling. Treating the hair itself: topical minoxidil is the only first-line treatment with substantial evidence behind it — 2% twice a day or 5% foam once a day — and it needs at least twelve months before you can judge whether it is working. Oral options in the reviews (spironolactone, finasteride, dutasteride) are prescription decisions with real caveats attached, including that standard-dose finasteride has not shown benefit in postmenopausal women. There is also [a new extended-release oral minoxidil](/blog/extended-release-minoxidil-female-hair-loss/), which reported genuine gains — in an open-label trial with no control group, which is exactly as much weight as that deserves."
+        },
+        {
+          "t": "p",
+          "text": "Treating the metabolism is the other lever, and it is worth pulling whether or not it turns out to be your hair's problem, because the returns are not confined to your hair. Nothing in this evidence promises that improving insulin sensitivity regrows anything. What it plausibly does is remove one of the pushes. The levers that keep showing up are the unglamorous ones — resistance training, [a walk after meals](/blog/walking-after-meals-blood-sugar/), enough protein, and sleep, which is not a soft factor here at all: [ninety minutes less of it raised insulin resistance measurably in women](/blog/sleep-insulin-resistance-women/). If you want to see how a particular meal is likely to land before you eat it, the [metabolic food calculator](/resources/food-calculator/) will show you."
+        },
+        {
+          "t": "p",
+          "text": "I would rather say the personal part plainly than let it sit as an implication. I have had stretches where my hair was noticeably thinner, and they lined up with the months when my glucose was hardest to hold steady and I was sleeping badly. That is an observation about one person with Type 1 diabetes. It is why I take the metabolic side of this seriously; it is not evidence, and it is not a reason to skip an appointment."
+        },
+        {
+          "t": "h",
+          "text": "What to ask for at your appointment"
+        },
+        {
+          "t": "p",
+          "text": "Reasonable things to ask about: a full blood count and ferritin, because iron stores can be low while haemoglobin still looks normal; thyroid function including TSH and free T4, with antibodies if there is any autoimmune history; HbA1c; and, where relevant, the free androgen index and prolactin, which the European consensus recommends as screening tests when female-pattern hair loss is suspected. If you take hormonal contraception, androgen results are hard to interpret — the guidance is to test after a pause of at least two months. If you have Type 1, ask about coeliac screening too."
+        },
+        {
+          "t": "p",
+          "text": "And the boundary, stated once and meant: none of this is a diagnosis or medical advice. Hair loss that is sudden, patchy, or comes with scalp pain, scaling or scarring needs to be seen promptly rather than managed with a serum, because a few causes of it are time-sensitive."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Women with markers of insulin resistance had a significantly increased risk of female-pattern hair loss.",
+              "detail": "A population-based study of middle-aged Finnish women comparing those with extensive hair loss against those with normal or minimal loss. Waist and neck circumference, abdominal obesity, mean insulin concentration and the urinary albumin-to-creatinine ratio were all significantly higher in the extensive-hair-loss group, and women in the highest quintiles of neck or waist circumference had a significantly increased risk. Paternal history of alopecia was more common in the group with female androgenetic alopecia. It is observational and cross-sectional, so it establishes association rather than cause, and the markers used are proxies for insulin resistance rather than direct measures of it.",
+              "cite": "Matilainen V et al. · Eur J Cardiovasc Prev Rehabil 2003;10(3):227–231",
+              "url": "https://journals.sagepub.com/doi/10.1097/01.hjr.0000070200.72977.c6"
+            },
+            {
+              "claim": "When insulin was measured directly in a small case-control study, body shape separated the groups and the insulin numbers did not.",
+              "detail": "A hospital-based case-control study of 31 premenopausal women with female-pattern hair loss and 31 controls, mean ages 29.8 and 28.9. Waist circumference (81.9 ± 11.75 cm vs 72.58 ± 8.86 cm, p=0.001) and BMI (26.28 ± 4.09 vs 24.46 ± 2.78 kg/m², p=0.013) were significantly higher in the cases. HOMA-IR, fasting insulin, fasting blood glucose, triglycerides and HDL showed no significant differences. The authors conclude that female-pattern hair loss warrants early screening for metabolic syndrome, and list the small sample, the single diagnostic scale and the absence of a full hormonal evaluation as limitations.",
+              "cite": "Case-control study of metabolic syndrome in premenopausal women with female pattern hair loss · Cureus 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11433530/"
+            },
+            {
+              "claim": "Raised insulin lowers SHBG directly, leaving more free testosterone in circulation.",
+              "detail": "Clinical work in obese women with polycystic ovary syndrome showed that hyperinsulinaemia reduces serum sex hormone-binding globulin independently of any effect on circulating sex steroids — that is, insulin suppresses hepatic SHBG production itself rather than acting through the hormones. Because SHBG binds testosterone, lower levels leave a greater proportion of it biologically available. This is the mechanism most often invoked to link insulin resistance to androgen-driven hair loss, but it has been demonstrated in PCOS populations rather than in trials of hair outcomes.",
+              "cite": "Nestler JE et al. · J Clin Endocrinol Metab 1991",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/1898744/"
+            },
+            {
+              "claim": "The role of androgens in female-pattern hair loss is not settled, and other causes must be excluded before it is diagnosed.",
+              "detail": "A review of female-pattern hair loss describing miniaturisation — the progressive conversion of terminal follicles to vellus-like follicles, with shortened anagen and an extended empty (kenogen) phase — and stating that the role of androgens is not yet clear, since the condition occurs in some women with normal circulating androgens. It sets out the differential diagnosis (telogen effluvium, thyroid dysfunction, raised prolactin, iron deficiency), notes the European Consensus recommendation of free androgen index and prolactin as screening tests with a two-month pause from hormonal contraceptives, and describes topical minoxidil 2% twice daily or 5% foam once daily as first-line, requiring at least 12 months before efficacy is judged. Finasteride at standard doses was ineffective in postmenopausal women.",
+              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
+            },
+            {
+              "claim": "The botanical evidence base for menopausal hair loss is mostly preclinical, and none of it produces complete regrowth.",
+              "detail": "A 2026 review of 78 studies of botanical drug preparations for hair loss in menopausal women. Approximately 70% were in vitro or animal studies; only about a quarter were randomised trials specific to menopausal women, typically with fewer than 100 participants and durations under 12 weeks. Saw palmetto (5-alpha-reductase inhibition, DHT reduced 30–60%) reported hair loss arrest or improvement in 60% vs 11% for placebo in mixed-sex trials of 50–100 people; rosemary oil reported density increases of 20–30% over 6–12 weeks; ginseng prolonged anagen by 25–35%; pumpkin seed oil compared favourably with 5% minoxidil. Toxicity is generally low — mild gastrointestinal effects with ginseng in under 5%, occasional scalp irritation — with a hepatotoxicity risk at high doses of Polygonum multiflorum. The authors state that botanical drugs do not achieve complete hair regrowth, and cite non-standardised extracts, ethnic underrepresentation and the absence of long-term safety data as the main gaps.",
+              "cite": "Botanical drug preparations for hair loss in menopausal women · 2026 review",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "A new oral minoxidil pill improved hair growth in women — but the trial had no control group",
+              "url": "/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "The treatment side of the same problem, with the caveats the press release left out."
+            },
+            {
+              "name": "Ninety minutes less sleep raised insulin resistance by 15% in women",
+              "url": "/blog/sleep-insulin-resistance-women/",
+              "desc": "Why sleep belongs in a conversation about insulin, not in a separate one about tiredness."
+            },
+            {
+              "name": "GLP-1 drugs after 40: what we actually know",
+              "url": "/blog/glp1-what-we-know/",
+              "desc": "If your thinning started with the injections and the weight loss, start here instead."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does insulin resistance actually cause hair loss?",
+          "a": "It is associated with it, and there is a plausible mechanism, but no trial has shown that insulin resistance causes hair thinning or that treating it regrows hair. Population data links markers of insulin resistance — waist and neck circumference, abdominal obesity, mean insulin — with an increased risk of female-pattern hair loss. A smaller case-control study that measured insulin directly found no difference in HOMA-IR or fasting insulin, only in waist circumference and BMI. Treat it as one contributing factor among several, alongside falling oestrogen and heredity, rather than the explanation."
+        },
+        {
+          "q": "How do I tell insulin-related thinning from menopausal hair loss?",
+          "a": "You largely cannot tell them apart by looking, and they overlap: both produce the same widening parting and thinning crown, and after 40 they frequently coexist. What is worth distinguishing is the pattern rather than the cause. A widening central parting with the frontal hairline intact suggests female-pattern loss. Diffuse shedding starting two to three months after an illness, an operation, rapid weight loss or a difficult stretch of glucose control suggests telogen effluvium, which usually recovers. Round bald patches are a different condition again. A GP or dermatologist can separate these; the internet cannot."
+        },
+        {
+          "q": "I have Type 1 diabetes and my hair is thinning — what should I check first?",
+          "a": "Thyroid function and ferritin, before anything metabolic. Type 1 is autoimmune and clusters with other autoimmune conditions: thyroid antibodies are present in roughly a fifth of people with Type 1, and coeliac disease in around 5 to 10%. Untreated thyroid disease thins hair, and undiagnosed coeliac disease causes the iron deficiency that does the same. Both are more likely explanations than insulin resistance, and both are straightforward to test for. Ask about coeliac screening at the same time."
+        },
+        {
+          "q": "Is rosemary oil or saw palmetto worth trying?",
+          "a": "They are low-risk and inexpensive, and the evidence is thinner than the marketing. The 2026 review of botanicals for menopausal hair loss found around 70% of the studies were in test tubes or animals, and the clinical trials were mostly small, mixed-sex and shorter than 12 weeks — too short for hair to answer. The review's own conclusion is that botanicals do not achieve complete regrowth. If you want to try one, treat it as an addition rather than a plan, buy from somewhere that states the extract strength, and give anything at least six months before deciding. Topical minoxidil remains the first-line treatment with real evidence behind it."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Краса та шкіра",
+      "imageAlt": "Жінка близько сорока сидить біля вікна при денному світлі та піднімає пасмо волосся на маківці, щоб розгледіти пробір.",
+      "title": "Інсулінорезистентність і порідіння волосся після 40 — який зв'язок насправді і що допомагає",
+      "seoTitle": "Інсулінорезистентність і порідіння волосся",
+      "metaDesc": "Чому підвищений інсулін пов'язаний із порідінням волосся, як відрізнити його від менопаузального й тиреоїдного випадіння та що справді підтверджують дані.",
+      "excerpt": "Порідіння волосся після сорока зазвичай списують на менопаузу. Під цим є ще одна нитка — інсулін. Зв'язок реальний, слабший, ніж пишуть в інтернеті, і його варто зрозуміти, перш ніж щось купувати.",
+      "meta": "22 серпня 2026 · 7 хв читання",
+      "lead": "Порідіння волосся після сорока зазвичай списують на менопаузу, і часто це справедливо. Але під цим є друга нитка, якій приділяють значно менше уваги: що робить ваш інсулін. Зв'язок реальний і видно його в популяційних даних. Він також заплутаніший і слабший, ніж більшість того, що про нього пишуть. Ось що насправді підтверджують дані — і, оскільки я живу з діабетом 1 типу, що мені довелося навчитися від цього відділяти.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Почнімо з фолікула, бо механізм стає зрозумілим лише тоді, коли усвідомлюєш: це годинник, а не кран. Кожен волосяний фолікул роками перебуває в анагені — фазі росту, потім кілька місяців у телогені — фазі спокою, тоді волосина випадає й цикл починається знову. При андрогенетичному випадінні у жінок волосся не випадає швидше. Відбувається мініатюризація: з кожним циклом фолікул вирощує трохи коротшу, тоншу й менш пігментовану волосину, доки термінальна волосина не стає пушковою. Фолікули також довше стоять порожніми між циклами. Тому першою ознакою зазвичай є проділ, який непомітно розширився, а не волосся в раковині."
+        },
+        {
+          "t": "h",
+          "text": "До чого тут інсулін"
+        },
+        {
+          "t": "p",
+          "text": "Найкраще задокументований шлях проходить через білок, який виробляє печінка, — ГЗСГ, глобулін, що зв'язує статеві гормони. Його робота — зв'язувати тестостерон і тримати його поза обігом. Інсулін напряму пригнічує його вироблення в печінці. Це чітко показали в жінок із СПКЯ (тепер частіше ПМОС): підвищується інсулін — ГЗСГ падає, незалежно від будь-яких змін самих статевих гормонів. Менше ГЗСГ означає більше вільного, незв'язаного тестостерону. Фермент у шкірі голови, 5-альфа-редуктаза, перетворює частину його на ДГТ, який зв'язується з андрогенним рецептором приблизно вп'ятеро міцніше за тестостерон — і в чутливих до андрогенів фолікулах саме це запускає мініатюризацію."
+        },
+        {
+          "t": "p",
+          "text": "Є й другий, грубіший шлях: судини. Клінічні огляди частину цього зв'язку пояснюють судинними пошкодженнями через високу глюкозу, яка вражає найдрібніші судини, що живлять фолікул. А паралельно з обома цими механізмами падіння естрогену саме по собі вкорочує анаген і подовжує телоген. Тож у жінки 45 років з інсулінорезистентністю три чинники можуть тиснути в один бік одночасно. Саме тому причину неможливо визначити, дивлячись у дзеркало."
+        },
+        {
+          "t": "h",
+          "text": "Що показують дані — і де вони зупиняються"
+        },
+        {
+          "t": "p",
+          "text": "Найсильніший сигнал дають популяційні дані. Фінське популяційне дослідження жінок середнього віку виявило, що жінки з маркерами інсулінорезистентності мали значно вищий ризик андрогенетичної алопеції. Маркери, які відрізняли жінок зі значним випадінням від тих, у кого волосся було нормальним або майже не рідшало, — обхват талії та шиї, абдомінальне ожиріння, середня концентрація інсуліну й співвідношення альбуміну до креатиніну в сечі; жінки у верхніх квінтилях за обхватом шиї або талії мали значно вищий ризик. Батько з випадінням волосся також траплявся частіше в групі з алопецією — спадковість нікуди не поділася."
+        },
+        {
+          "t": "p",
+          "text": "Тепер подивіться, що відбувається, коли невелике дослідження вимірює інсулін напряму. Дослідження 2024 року порівняло 31 жінку в пременопаузі з андрогенетичним випадінням і 31 без нього. Обхват талії та ІМТ були виразно вищими в групі з випадінням — 81,9 см проти 72,6 см та ІМТ 26,3 проти 24,5. Але HOMA-IR, інсулін натще, глюкоза натще, тригліцериди й ЛПВЩ не відрізнялися взагалі. Шістдесят дві жінки — це мало, і це нічого не вирішує. Проте це корисне уточнення: сигнал від форми тіла проявляється стабільніше, ніж власне цифра інсуліну."
+        },
+        {
+          "t": "p",
+          "text": "А оглядові статті обережні там, де заголовки — ні. Стандартний огляд андрогенетичного випадіння у жінок прямо каже, що роль андрогенів у ньому досі не з'ясована і що чимало жінок мають цей стан за цілком нормальних показників циркулюючих андрогенів. Тож чесний підсумок такий: реальний зв'язок, правдоподібний механізм — і жодних підстав стверджувати, що ваш проділ розширився саме через інсулін."
+        },
+        {
+          "t": "h",
+          "text": "Як відрізнити це від усього іншого, що рідшає в цьому віці"
+        },
+        {
+          "t": "p",
+          "text": "Перш ніж поставити діагноз андрогенетичного випадіння, треба виключити кілька інших причин — телогенову алопецію, хвороби щитоподібної залози, підвищений пролактин і дефіцит заліза. Патерни різні, і саме патерн ви можете помітити самі. Андрогенетичне випадіння розширює центральний проділ і розріджує маківку, здебільшого не чіпаючи передню лінію росту. Телогенова алопеція — це дифузне випадіння, яке починається через два-три місяці після тригера: хвороби, операції, швидкого схуднення, справді важкого періоду з цукром — і зазвичай минає само. Вогнищева алопеція дає круглі ділянки, а не загальне порідіння."
+        },
+        {
+          "t": "p",
+          "text": "Якщо у вас діабет 1 типу, порядок підозр змінюється — і це те, про що я хотіла б дізнатися раніше. Діабет 1 типу аутоімунний, і він ходить не сам: антитіла до щитоподібної залози виявляють приблизно в п'ятої частини людей з ним, целіакію — приблизно в 5–10%, а вогнищева алопеція групується з аутоімунними хворобами щитоподібної залози. Нелікована патологія щитоподібної залози розріджує волосся. Так само робить дефіцит заліза, який дає недіагностована целіакія. Обидві причини значно ймовірніші в жінки з діабетом 1 типу, ніж інсулінорезистентність, — тож спершу щитоподібна залоза й феритин, метаболічні теорії потім."
+        },
+        {
+          "t": "h",
+          "text": "Рослинні засоби і чого варті докази"
+        },
+        {
+          "t": "p",
+          "text": "Огляд 2026 року зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі, і найважливіше в ньому — не окрема рослина, а форма самої доказової бази. Близько 70% цих досліджень зроблено в пробірці або на тваринах. Лише приблизно чверть були рандомізованими дослідженнями саме за участю жінок у менопаузі, здебільшого менш ніж на 100 учасниць і часто коротшими за 12 тижнів — що вже проблема, бо волосся відповідає повільніше."
+        },
+        {
+          "t": "p",
+          "text": "Усередині цього: со пальметто пригнічує 5-альфа-редуктазу, і в наведених дослідженнях випадіння зупинилося або покращилося приблизно в 60% проти 11% на плацебо — щоправда, переважно у змішаних за статтю групах по 50–100 осіб. Олія розмарину діє на кровообіг шкіри голови й дає приріст щільності на 20–30% у коротких дослідженнях, з подразненням шкіри голови як звичним побічним ефектом. Женьшень подовжував фазу росту на 25–35%, здебільшого на тваринних моделях із частиною подвійних сліпих робіт у жінок у постменопаузі. Олія гарбузового насіння в одному дослідженні виглядала не гірше за 5% міноксидил."
+        },
+        {
+          "t": "p",
+          "text": "Висновок самого огляду — це рядок, який варто запам'ятати: рослинні засоби не забезпечують повного відновлення волосся. Вони дешеві й здебільшого безпечні, але це не план лікування. З ними йдуть два практичні застереження. Стандартизація екстрактів дуже різна, тож дві пляшечки тієї самої рослини — не той самий продукт. А високі дози гірчака багатоквіткового (Polygonum multiflorum) мають реальний сигнал щодо токсичності для печінки — це важливо, якщо ви вже щось приймаєте."
+        },
+        {
+          "t": "h",
+          "text": "До чого тут препарати GLP-1"
+        },
+        {
+          "t": "p",
+          "text": "Коротко, бо це інше питання. Якщо волосся почало рідшати протягом кількох місяців після початку GLP-1 і разом зі швидкою втратою ваги, цей патерн значно більше схожий на телогенову алопецію через різке схуднення, ніж на щось інсулінове — і таке випадіння зазвичай минає. Ширша картина того, що ці препарати роблять і чого не роблять, [зібрана в одному місці тут](/ua/blog/glp1-what-we-know/)."
+        },
+        {
+          "t": "h",
+          "text": "Що справді має значення"
+        },
+        {
+          "t": "p",
+          "text": "Тут є два окремі важелі, і корисно розуміти, за який ви тягнете. Лікувати саме волосся: топічний міноксидил — єдиний засіб першої лінії з вагомими доказами, 2% двічі на день або 5% піна раз на день, і потрібно щонайменше дванадцять місяців, перш ніж судити про результат. Пероральні варіанти з оглядів (спіронолактон, фінастерид, дутастерид) — це рецептурні рішення зі суттєвими застереженнями, зокрема з тим, що фінастерид у стандартних дозах не показав користі в жінок у постменопаузі. Є ще [новий міноксидил пролонгованої дії в таблетках](/ua/blog/extended-release-minoxidil-female-hair-loss/), який показав справжній приріст — у відкритому дослідженні без контрольної групи, і саме стільки ваги це й заслуговує."
+        },
+        {
+          "t": "p",
+          "text": "Другий важіль — метаболічний, і його варто тягнути незалежно від того, чи справа у волоссі, бо віддача не обмежується волоссям. Ці дані не обіцяють, що покращення чутливості до інсуліну щось відростить. Що воно правдоподібно робить — прибирає один із чинників тиску. Важелі тут не ефектні: силові вправи, [прогулянка після їжі](/ua/blog/walking-after-meals-blood-sugar/), достатньо білка і сон, який тут аж ніяк не дрібниця: [на півтори години менше сну — і інсулінорезистентність у жінок вимірно зростала](/ua/blog/sleep-insulin-resistance-women/). А якщо хочете побачити, як конкретна страва вплине на цукор ще до того, як її з'їсти, це покаже [калькулятор впливу їжі](/ua/resources/food-calculator/)."
+        },
+        {
+          "t": "p",
+          "text": "Особисту частину я краще скажу прямо, ніж залишу натяком. У мене були періоди, коли волосся помітно рідшало, і вони збігалися з місяцями, коли цукор найважче тримався рівно, а спала я погано. Це спостереження однієї людини з діабетом 1 типу. Через нього я серйозно ставлюся до метаболічного боку цієї історії; це не доказ і не привід не йти до лікаря."
+        },
+        {
+          "t": "h",
+          "text": "Про що попросити на прийомі"
+        },
+        {
+          "t": "p",
+          "text": "Розумно попросити: загальний аналіз крові та феритин, бо запаси заліза можуть бути низькими, коли гемоглобін ще виглядає нормальним; функцію щитоподібної залози, включно з ТТГ і вільним Т4, з антитілами, якщо в анамнезі є аутоімунні стани; HbA1c; і, де це доречно, індекс вільних андрогенів і пролактин, які європейський консенсус рекомендує як скринінг за підозри на андрогенетичне випадіння. Якщо ви приймаєте гормональну контрацепцію, андрогенні показники важко інтерпретувати — рекомендують здавати їх після перерви щонайменше два місяці. Якщо у вас діабет 1 типу, попросіть заразом і скринінг на целіакію."
+        },
+        {
+          "t": "p",
+          "text": "І межа, сказана один раз і всерйоз: це не діагноз і не медична порада. Випадіння, яке з'явилося раптово, вогнищами або супроводжується болем у шкірі голови, лущенням чи рубцюванням, треба показати лікарю швидко, а не лікувати сироваткою, бо кілька причин такого випадіння чутливі до часу."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Жінки з маркерами інсулінорезистентності мали значно вищий ризик андрогенетичного випадіння волосся.",
+              "detail": "Популяційне дослідження фінських жінок середнього віку, яке порівнювало жінок зі значним випадінням волосся з тими, у кого волосся було нормальним або майже не рідшало. Обхват талії та шиї, абдомінальне ожиріння, середня концентрація інсуліну й співвідношення альбуміну до креатиніну в сечі були значно вищими в групі зі значним випадінням, а жінки у верхніх квінтилях за обхватом шиї чи талії мали значно вищий ризик. Батьківський анамнез алопеції траплявся частіше в групі з андрогенетичною алопецією. Дослідження обсерваційне й одномоментне, тож встановлює зв'язок, а не причину, і використані маркери є непрямими показниками інсулінорезистентності, а не прямими вимірами.",
+              "cite": "Matilainen V et al. · Eur J Cardiovasc Prev Rehabil 2003;10(3):227–231",
+              "url": "https://journals.sagepub.com/doi/10.1097/01.hjr.0000070200.72977.c6"
+            },
+            {
+              "claim": "Коли інсулін виміряли напряму в невеликому дослідженні, групи розділила форма тіла, а не показники інсуліну.",
+              "detail": "Госпітальне дослідження типу «випадок-контроль» за участю 31 жінки в пременопаузі з андрогенетичним випадінням волосся та 31 контрольної учасниці, середній вік 29,8 і 28,9 року. Обхват талії (81,9 ± 11,75 см проти 72,58 ± 8,86 см, p=0,001) та ІМТ (26,28 ± 4,09 проти 24,46 ± 2,78 кг/м², p=0,013) були значно вищими у групі випадків. HOMA-IR, інсулін натще, глюкоза натще, тригліцериди та ЛПВЩ значущих відмінностей не показали. Автори роблять висновок, що андрогенетичне випадіння у жінок є підставою для раннього скринінгу метаболічного синдрому, і серед обмежень називають малу вибірку, єдину діагностичну шкалу та відсутність повної гормональної оцінки.",
+              "cite": "Дослідження метаболічного синдрому в жінок у пременопаузі з андрогенетичним випадінням волосся · Cureus 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11433530/"
+            },
+            {
+              "claim": "Підвищений інсулін напряму знижує ГЗСГ, залишаючи в обігу більше вільного тестостерону.",
+              "detail": "Клінічні роботи за участю жінок з ожирінням і синдромом полікістозних яєчників показали, що гіперінсулінемія знижує рівень глобуліну, що зв'язує статеві гормони, незалежно від будь-якого впливу на циркулюючі статеві стероїди — тобто інсулін пригнічує вироблення ГЗСГ у печінці, а не діє через самі гормони. Оскільки ГЗСГ зв'язує тестостерон, нижчий його рівень залишає більшу частку тестостерону біологічно доступною. Саме цей механізм найчастіше наводять як ланку між інсулінорезистентністю та андрогензалежним випадінням волосся, але продемонстровано його в популяціях із СПКЯ, а не в дослідженнях із результатами щодо волосся.",
+              "cite": "Nestler JE et al. · J Clin Endocrinol Metab 1991",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/1898744/"
+            },
+            {
+              "claim": "Роль андрогенів у андрогенетичному випадінні у жінок не з'ясована, і перед діагнозом треба виключити інші причини.",
+              "detail": "Огляд андрогенетичного випадіння волосся у жінок, який описує мініатюризацію — поступове перетворення термінальних фолікулів на пушкові зі вкороченим анагеном і подовженою порожньою фазою (кеногеном) — і зазначає, що роль андрогенів досі не з'ясована, оскільки стан трапляється в частини жінок із нормальним рівнем циркулюючих андрогенів. Огляд подає диференційну діагностику (телогенова алопеція, порушення щитоподібної залози, підвищений пролактин, дефіцит заліза), наводить рекомендацію Європейського консенсусу щодо індексу вільних андрогенів і пролактину як скринінгу з перервою в два місяці після гормональних контрацептивів і описує топічний міноксидил 2% двічі на день або 5% піну раз на день як першу лінію, для оцінки якої потрібно щонайменше 12 місяців. Фінастерид у стандартних дозах був неефективним у жінок у постменопаузі.",
+              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
+            },
+            {
+              "claim": "Доказова база рослинних засобів при менопаузальному випадінні волосся переважно доклінічна, і жоден із них не дає повного відновлення.",
+              "detail": "Огляд 2026 року, який зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі. Приблизно 70% були дослідженнями in vitro або на тваринах; лише близько чверті — рандомізованими дослідженнями саме за участю жінок у менопаузі, зазвичай менш ніж на 100 учасниць і тривалістю до 12 тижнів. Со пальметто (пригнічення 5-альфа-редуктази, зниження ДГТ на 30–60%) показало зупинку або покращення випадіння в 60% проти 11% на плацебо у змішаних за статтю дослідженнях по 50–100 осіб; олія розмарину — приріст щільності на 20–30% за 6–12 тижнів; женьшень подовжував анаген на 25–35%; олія гарбузового насіння виглядала не гірше за 5% міноксидил. Токсичність загалом низька — легкі шлунково-кишкові ефекти від женьшеню менш ніж у 5%, зрідка подразнення шкіри голови — з ризиком гепатотоксичності при високих дозах Polygonum multiflorum. Автори зазначають, що рослинні препарати не забезпечують повного відновлення волосся, а серед головних прогалин називають нестандартизовані екстракти, недостатню етнічну репрезентативність і відсутність даних щодо тривалої безпеки.",
+              "cite": "Рослинні препарати проти випадіння волосся в жінок у менопаузі · огляд 2026",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Дотичне читання",
+          "items": [
+            {
+              "name": "Новий міноксидил у таблетках покращив ріст волосся в жінок — але в дослідженні не було контрольної групи",
+              "url": "/ua/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "Лікувальний бік тієї самої проблеми — із застереженнями, які випали з пресрелізу."
+            },
+            {
+              "name": "На півтори години менше сну — і інсулінорезистентність у жінок зросла на 15%",
+              "url": "/ua/blog/sleep-insulin-resistance-women/",
+              "desc": "Чому сон належить до розмови про інсулін, а не до окремої розмови про втому."
+            },
+            {
+              "name": "Препарати GLP-1 після 40: що ми насправді знаємо",
+              "url": "/ua/blog/glp1-what-we-know/",
+              "desc": "Якщо волосся почало рідшати разом з ін'єкціями і втратою ваги — починайте звідси."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи справді інсулінорезистентність спричиняє випадіння волосся?",
+          "a": "Вона з ним пов'язана, і механізм правдоподібний, але жодне дослідження не показало, що інсулінорезистентність спричиняє порідіння волосся або що її лікування відновлює волосся. Популяційні дані пов'язують маркери інсулінорезистентності — обхват талії та шиї, абдомінальне ожиріння, середній інсулін — із підвищеним ризиком андрогенетичного випадіння у жінок. Менше дослідження, яке виміряло інсулін напряму, не знайшло різниці в HOMA-IR чи інсуліні натще, лише в обхваті талії та ІМТ. Сприймайте це як один із кількох чинників поряд із падінням естрогену і спадковістю, а не як пояснення."
+        },
+        {
+          "q": "Як відрізнити випадіння, пов'язане з інсуліном, від менопаузального?",
+          "a": "На вигляд їх здебільшого не відрізнити, і вони перекриваються: обидва дають той самий розширений проділ і розріджену маківку, а після сорока часто співіснують. Варто розрізняти не причину, а патерн. Розширення центрального проділу зі збереженою передньою лінією росту вказує на андрогенетичне випадіння. Дифузне випадіння, яке починається через два-три місяці після хвороби, операції, різкого схуднення чи складного періоду з цукром, вказує на телогенову алопецію, яка зазвичай минає. Круглі ділянки без волосся — це вже інший стан. Розрізнити їх може сімейний лікар або дерматолог; інтернет — ні."
+        },
+        {
+          "q": "У мене діабет 1 типу і рідшає волосся — що перевірити першим?",
+          "a": "Щитоподібну залозу й феритин, перш ніж усе метаболічне. Діабет 1 типу аутоімунний і групується з іншими аутоімунними станами: антитіла до щитоподібної залози є приблизно в п'ятої частини людей з ним, а целіакія — приблизно в 5–10%. Нелікована патологія щитоподібної залози розріджує волосся, а недіагностована целіакія спричиняє дефіцит заліза, який робить те саме. Обидві причини ймовірніші за інсулінорезистентність, і обидві легко перевірити. Заразом попросіть і скринінг на целіакію."
+        },
+        {
+          "q": "Чи варто пробувати олію розмарину або со пальметто?",
+          "a": "Вони недорогі й малоризикові, а доказів менше, ніж обіцяє маркетинг. Огляд 2026 року щодо рослинних засобів при менопаузальному випадінні виявив, що близько 70% досліджень зроблено в пробірці або на тваринах, а клінічні дослідження були переважно малими, змішаними за статтю й коротшими за 12 тижнів — замало, щоб волосся встигло відповісти. Висновок самого огляду: рослинні засоби не дають повного відновлення. Якщо хочете спробувати, ставтеся до цього як до доповнення, а не плану, купуйте там, де вказана концентрація екстракту, і дайте засобу щонайменше пів року. Топічний міноксидил залишається засобом першої лінії з реальними доказами."
+        }
+      ]
+    }
+  },
   {
     "slug": "perimenopause-anxiety-mind-body-exercise",
     "tags": ["perimenopause", "low-mood", "insomnia", "menopause-symptoms", "cardio", "clinical-trials"],
@@ -473,7 +1886,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
-      "imageAlt": "A woman in her forties sitting on a sofa with her head in her hands, looking anxious.",
+      "imageAlt": "A woman in her fifties lying awake in bed at night, one forearm resting across her forehead.",
       "title": "Perimenopause anxiety is not a footnote — three August studies on the mental-health half of the transition",
       "seoTitle": "Perimenopause Anxiety: 3 New Studies, August 2026",
       "metaDesc": "The August 2026 Menopause journal runs three papers on perimenopausal anxiety and depression: 20 women's lived experience, 709 women and mind-body exercise, and a CBT pilot.",
@@ -593,7 +2006,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
-      "imageAlt": "Жінка близько сорока сидить на дивані, обхопивши голову руками, з тривожним виглядом.",
+      "imageAlt": "Жінка за п’ятдесят лежить уночі без сну, поклавши передпліччя на чоло.",
       "title": "Тривога в перименопаузі — не примітка: три серпневі дослідження про психічну половину переходу",
       "seoTitle": "Тривога в перименопаузі: 3 нові дослідження",
       "metaDesc": "Серпневий випуск Menopause 2026 має три статті про тривогу й депресію в перименопаузі: досвід 20 жінок, 709 жінок і практики «тіло-розум», пілот КПТ.",
@@ -10574,11 +11987,6 @@ export const POSTS = [
           "title": "Related reading",
           "items": [
             {
-              "name": "Oral minoxidil for women's hair loss: the doses, the side effects, and how to raise it with a UK GP",
-              "url": "/blog/oral-minoxidil-for-womens-hair-loss/",
-              "desc": "What is actually prescribed today, at what dose, with what side effects — and how to get it in the UK."
-            },
-            {
               "name": "2026 review confirms HRT restores skin collagen, elasticity and hydration",
               "url": "/blog/hrt-restores-skin-collagen-2026-review/",
               "desc": "The stronger end of the evidence on what hormone therapy does to skin — and how a good review differs from a press release."
@@ -10653,11 +12061,6 @@ export const POSTS = [
           "t": "links",
           "title": "Читайте також",
           "items": [
-            {
-              "name": "Міноксидил у таблетках при випадінні волосся в жінок: дози, побічні ефекти й розмова з лікарем",
-              "url": "/ua/blog/oral-minoxidil-for-womens-hair-loss/",
-              "desc": "Що призначають насправді, у якій дозі, з якими побічними ефектами — і як це отримати у Великій Британії."
-            },
             {
               "name": "Огляд 2026 року підтверджує: ЗГТ відновлює колаген, еластичність і зволоженість шкіри",
               "url": "/ua/blog/hrt-restores-skin-collagen-2026-review/",
