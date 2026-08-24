@@ -37,7 +37,11 @@ export const POSTS = [
       "type-2-diabetes",
       "blood-sugar",
       "menopause-symptoms",
-      "belly-fat"
+      "belly-fat",
+      "sleep",
+      "type-1-diabetes",
+      "women-in-research",
+      "clinical-trials"
     ],
     "date": "2026-08-23",
     "image": "/images/prediabetes-signs-perimenopause.jpg",
