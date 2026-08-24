@@ -36,7 +36,9 @@ export const POSTS = [
       "insulin-resistance",
       "blood-sugar",
       "perimenopause",
-      "type-1-diabetes"
+      "type-1-diabetes",
+      "glp1",
+      "clinical-trials"
     ],
     "date": "2026-08-22",
     "image": "/images/insulin-resistance-hair-thinning.jpg",
