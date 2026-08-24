@@ -436,6 +436,580 @@ export const POSTS = [
       ]
     }
   },
+
+  {
+    "slug": "bmi-trajectory-prediabetes-women",
+    "tags": [
+      "insulin-resistance",
+      "type-2-diabetes",
+      "blood-sugar",
+      "weight-loss",
+      "perimenopause"
+    ],
+    "date": "2026-08-23",
+    "image": "/images/bmi-trajectory-prediabetes-women.jpg",
+    "cats": [
+      "diabetes",
+      "weight"
+    ],
+    "en": {
+      "cat": "Diabetes",
+      "imageAlt": "A small notebook open on a table, showing a column of dates with a weight written beside each, a pen resting across the page.",
+      "title": "A normal BMI told these women nothing — the direction it was moving told them a lot",
+      "seoTitle": "BMI Trajectory and Prediabetes: A 7-Year Study",
+      "metaDesc": "A Japanese cohort followed 2,271 women for seven years. Small year-on-year BMI gain predicted prediabetes even in women whose BMI never left the normal range.",
+      "excerpt": "Nearly every prevention rule for blood sugar runs off one number taken on one day. A cohort of 2,271 women followed for seven years suggests the more useful number is the slope — how fast that reading is moving, even while it still counts as normal.",
+      "meta": "23 August 2026 · 6 min read",
+      "lead": "Almost every screening rule we have for blood sugar works off a single measurement: your BMI today, against a threshold. A study published in July in the American Journal of Preventive Medicine asked a different question — not where a woman’s weight is, but which way it is going, and how fast — and found that the second question separated the women who went on to develop prediabetes from the women who didn’t.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The work comes out of Nagoya University and uses an unusually mundane data source: annual occupational health checkups, collected at four centres in Japan between 2015 and 2024. From that pool the team took 2,271 women aged 18 to 40 who started out normoglycaemic and stayed free of prediabetes through a three-year landmark window, 2015 to 2017. During that window they calculated each woman’s own BMI slope — kg/m² per year, fitted within-person, so the comparison is a woman against her own earlier self rather than against anybody else. Then they followed everyone forward. Over a median of seven years, 346 of them — 15.2% — crossed into prediabetes, defined here as an HbA1c between 5.7% and 6.4%."
+        },
+        {
+          "t": "p",
+          "text": "The headline number is deliberately small. Each extra 0.1 kg/m² per year of BMI gain came with a hazard ratio of 1.04 (95% CI 1.02 to 1.05). That is a 4% higher hazard for a rate of gain most people would never notice — for a woman of 1.65 m, 0.1 kg/m² a year is about 270 grams. The point of expressing it that way is not that 270 grams matters. It is that the effect is per unit, so it stacks: six of those steps, which is the 0.6 kg/m² a year the paper treats as high gain, works out to roughly 27% if the relationship holds in a straight line across the range. That last figure is my arithmetic on their hazard ratio, not a number the paper reports — a per-unit hazard ratio assumes linearity, and the authors publish only the per-unit version."
+        },
+        {
+          "t": "p",
+          "text": "The more interesting result is in the survival curves. Women gaining 0.6 kg/m² a year or more pulled away from the rest early, which is no surprise. But the group gaining mildly — somewhere between 0.2 and under 0.6 kg/m² a year — also separated. It just took about five years to become visible, and then kept widening. And the authors single out where that delayed separation showed up most clearly: among women whose baseline BMI was normal. Those are exactly the women a threshold-based rule never flags. Their number on the day was fine every single year, and what carried the signal was the gap between this year’s number and last year’s."
+        },
+        {
+          "t": "p",
+          "text": "Three things this does not establish, and one of them matters a great deal on a site written for women over 40. The cohort stopped at 40. Every woman in it was of reproductive age — Medscape reports a mean of 34.6 — so the study says nothing directly about perimenopause, and I would be inventing the interesting part if I claimed otherwise. Whether a BMI slope means the same thing at 47, when muscle is being lost and fat is redistributing towards the middle, is an open question this cohort cannot answer. Second, it is retrospective and observational: gradual gain travels with prediabetes here, and nobody has shown that flattening the slope prevents it. Third, the full text sits behind Elsevier’s paywall, so what I have read is the abstract — which reports the hazard ratio and the survival-curve pattern but does not list which covariates the Cox models adjusted for."
+        },
+        {
+          "t": "p",
+          "text": "One thing is worth translating for a UK reader. Prediabetes here means an HbA1c of 5.7% to 6.4%, the American Diabetes Association’s range, which in the units your GP uses is roughly 39 to 46 mmol/mol. The NHS calls the same territory non-diabetic hyperglycaemia and starts its range higher, at 42 mmol/mol. So a proportion of the women counted as new cases in this study would be sitting just under the line that gets you a referral in England, and would be told their result was normal. That is not a flaw in the study — it is a reason not to read “15.2% developed prediabetes” as a statement about British women."
+        },
+        {
+          "t": "p",
+          "text": "What survives all of that is small and quite practical: keep the readings, not just the reading. A weight logged once a year, under the same conditions, is enough to give you a slope — and a slope is the thing neither a BMI threshold nor a one-off HbA1c will show you. If yours has been drifting upward for several years while every individual result came back normal, that is the pattern this study is about, and it is worth saying out loud at an appointment rather than waiting for a number to cross a line. It is also worth knowing that weight is not the only thing moving insulin sensitivity in midlife: [taking ninety minutes a night off healthy sleepers raised insulin resistance about 15%, independently of body weight](/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "In 2,271 Japanese women aged 18–40, each 0.1 kg/m² per year of BMI gain was associated with a 4% higher risk of developing prediabetes over a median seven years.",
+              "detail": "Retrospective cohort using annual occupational health checkup data from four centres in Japan, 2015–2024. It included 2,271 normoglycaemic women aged 18–40 who remained free of prediabetes through a 2015–2017 landmark period; annual BMI change over that period was estimated by within-person regression. Incident prediabetes (HbA1c 5.7%–6.4%) was modelled with Cox proportional hazards, including time-dependent analyses. Over a median 7.0 years of follow-up, 346 women (15.2%) developed prediabetes; hazard ratio 1.04 per 0.1 kg/m²/year (95% CI 1.02–1.05). Kaplan–Meier curves separated early for women gaining ≥0.6 kg/m²/year, and separated later but progressively — after roughly five years — for mild gain of 0.2 to <0.6 kg/m²/year, particularly among women with a normal baseline BMI. Observational and retrospective: an association, not evidence that slowing the gain prevents prediabetes. The cohort is Japanese, of reproductive age, and drawn from workplace checkups. Abstract only — the full text is paywalled, so the covariate set is not verified here.",
+              "cite": "Tano S et al. · American Journal of Preventive Medicine · Retrospective cohort study, published online 26 July 2026",
+              "url": "https://doi.org/10.1016/j.amepre.2026.108525"
+            },
+            {
+              "claim": "Medscape’s report of the study gives the cohort’s mean age as 34.6 and describes the BMI-change groups as loss, stable, moderate and highest.",
+              "detail": "Medscape covered the paper in August 2026 under the headline “Annual BMI Gain Linked to Prediabetes Risk in Women”, reporting a mean age of 34.6 years, a baseline HbA1c below 5.7%, and four categories of annual BMI change. The mean age and the group labels are not in the published abstract and are taken from this report; the hazard ratio, follow-up and event counts above come from the paper itself.",
+              "cite": "Medscape · News report of the study, August 2026",
+              "url": "https://www.medscape.com/viewarticle/annual-bmi-gain-linked-prediabetes-risk-women-2026a1000qhb"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn’t caught up",
+              "url": "/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "The same age group as this cohort, and why their risk keeps being read as somebody else’s."
+            },
+            {
+              "name": "5 myths about perimenopause and weight",
+              "url": "/blog/perimenopause-weight-myths/",
+              "desc": "What changes about weight after 40 — the decade this study stops just short of."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "I’m in my late forties. Does this study apply to me?",
+          "a": "Not directly, and it would be easy to pretend otherwise. Every woman in it was between 18 and 40, with an average age in the mid-thirties, so the cohort ends right about where perimenopause tends to begin. That matters more than a decade usually would, because the things that move BMI change after 40: muscle mass starts falling, fat redistributes towards the middle, and a stable BMI can hide a body composition that has shifted a lot. A slope calculated from a bathroom scale is a cruder instrument at 48 than at 34. What plausibly carries over is the principle rather than the numbers — that a series of readings tells you something a single reading cannot, and that “still in the normal range” is not the same as “not moving”. Anyone claiming this study shows what perimenopausal weight gain does to blood sugar is going beyond what was measured."
+        },
+        {
+          "q": "How much weight is 0.1 kg/m² a year, in kilos?",
+          "a": "It depends on your height, because BMI is weight divided by height in metres squared. Multiply 0.1 by your height squared and you have it: at 1.60 m that is about 260 g a year, at 1.65 m about 270 g, at 1.70 m about 290 g. The high-gain group in the study — 0.6 kg/m² a year and above — is roughly 1.6 kg a year for a woman of 1.65 m, which over seven years of follow-up comes to something like 11 kg. That is the scale of thing worth noticing. But do the sum on your own height rather than borrowing mine, and treat it as a way of picturing the finding rather than as a target: the study measured what happened to a population, and nobody has tested whether holding your own slope flat changes your own result."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Діабет",
+      "imageAlt": "Невеликий записник, розгорнутий на столі: стовпчик дат, поруч із кожною записана вага, упоперек сторінки лежить ручка.",
+      "title": "Нормальний ІМТ не сказав цим жінкам нічого — а напрямок, у якому він рухався, сказав багато",
+      "seoTitle": "Траєкторія ІМТ і предіабет: 7 років спостережень",
+      "metaDesc": "Японська когорта спостерігала 2 271 жінку сім років. Невеликий щорічний приріст ІМТ передбачав предіабет навіть у тих, чий ІМТ не виходив за межі норми.",
+      "excerpt": "Майже всі правила профілактики щодо цукру крові спираються на одне число, виміряне одного дня. Когорта з 2 271 жінки, за якою спостерігали сім років, показує, що корисніше число — це нахил: як швидко цей показник рухається, поки він ще вважається нормальним.",
+      "meta": "23 серпня 2026 · 6 хв читання",
+      "lead": "Майже всі наші правила скринінгу щодо цукру крові працюють з одним вимірюванням: ваш ІМТ сьогодні проти порогового значення. Дослідження, опубліковане в липні в American Journal of Preventive Medicine, поставило інше запитання — не де саме перебуває вага жінки, а куди й наскільки швидко вона рухається, — і виявило, що саме друге запитання відділяє жінок, у яких згодом розвинувся предіабет, від тих, у кого ні.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Роботу виконали в Університеті Нагої, і джерело даних у ній напрочуд буденне: щорічні профілактичні медогляди на роботі, зібрані в чотирьох центрах Японії з 2015 до 2024 року. З цього масиву команда взяла 2 271 жінку віком від 18 до 40 років, які на старті мали нормальний рівень глюкози й залишалися без предіабету протягом трирічного орієнтирного вікна 2015–2017. У межах цього вікна дослідники обчислили для кожної жінки її власний нахил ІМТ — кг/м² на рік, підібраний усередині однієї людини, тож порівняння йде жінки з нею ж раніше, а не з кимось іншим. Потім за всіма спостерігали далі. За медіани сім років 346 із них — 15,2% — перейшли в предіабет, визначений тут як HbA1c у межах 5,7–6,4%."
+        },
+        {
+          "t": "p",
+          "text": "Головне число навмисно маленьке. Кожні додаткові 0,1 кг/м² на рік приросту ІМТ давали відношення ризиків 1,04 (95% ДІ 1,02–1,05). Це на 4% вищий ризик за темпу набору, якого більшість людей навіть не помітила б: для жінки зростом 1,65 м 0,1 кг/м² на рік — це приблизно 270 грамів. Сенс такого формулювання не в тому, що 270 грамів мають значення. А в тому, що ефект рахується на одиницю, отже накопичується: шість таких кроків — це якраз 0,6 кг/м² на рік, які автори вважають високим приростом, — дають близько 27%, якщо залежність лишається лінійною в цьому діапазоні. Останнє число — це моя арифметика з їхнього відношення ризиків, а не показник зі статті: відношення ризиків на одиницю передбачає лінійність, і автори публікують лише варіант на одиницю."
+        },
+        {
+          "t": "p",
+          "text": "Цікавіший результат — у кривих виживання. Жінки, які набирали 0,6 кг/м² на рік і більше, відірвалися від решти рано, і це не дивно. Але група з помірним набором — від 0,2 до менш ніж 0,6 кг/м² на рік — теж відділилася. Просто на це знадобилося близько п’яти років, а далі розрив продовжував зростати. І автори окремо зазначають, де це відкладене розділення було помітним найчіткіше: серед жінок, чий вихідний ІМТ був нормальним. Це саме ті жінки, яких правило з пороговим значенням ніколи не помітить. Їхнє число в день огляду щороку було в нормі, а сигнал ніс саме розрив між цьогорічним і торішнім показником."
+        },
+        {
+          "t": "p",
+          "text": "Три речі, яких це дослідження не встановлює, і одна з них дуже важлива для сайту, що пише для жінок після 40. Когорта закінчується на 40 роках. Усі учасниці були репродуктивного віку — Medscape повідомляє середній вік 34,6, — тож дослідження нічого не каже напряму про перименопаузу, і я вигадала б найцікавіше, якби стверджувала інше. Чи означає нахил ІМТ те саме в 47, коли втрачається м’язова маса, а жир перерозподіляється до живота, — відкрите питання, на яке ця когорта відповісти не може. По-друге, дослідження ретроспективне й обсерваційне: поступовий набір тут іде поруч із предіабетом, але ніхто не показав, що вирівнювання цього нахилу його запобігає. По-третє, повний текст закритий пейволом Elsevier, тож я читала лише анотацію — у ній є відношення ризиків і картина кривих виживання, але немає переліку коваріат, за якими коригували моделі Кокса."
+        },
+        {
+          "t": "p",
+          "text": "Одну річ варто перекласти для читачки у Британії. Предіабет тут — це HbA1c 5,7–6,4%, діапазон Американської діабетичної асоціації, що в одиницях, якими користується ваш лікар, приблизно 39–46 ммоль/моль. NHS називає цю ж територію недіабетичною гіперглікемією і починає свій діапазон вище — з 42 ммоль/моль. Тобто частина жінок, зарахованих у цьому дослідженні до нових випадків, у Британії опинилася б трохи нижче межі, яка дає направлення на програму профілактики, і почула б, що результат нормальний. Це не вада дослідження — це причина не читати «15,2% розвинули предіабет» як твердження про британських жінок."
+        },
+        {
+          "t": "p",
+          "text": "Що переживає всі ці застереження — річ маленька й доволі практична: зберігайте показники, а не показник. Ваги, зважені раз на рік в однакових умовах, уже дають нахил, а нахил — це саме те, чого не покаже ані порогове значення ІМТ, ані разовий HbA1c. Якщо ваш кілька років повзе вгору, тоді як кожен окремий результат повертався нормальним, — це і є та закономірність, про яку йдеться в дослідженні, і про неї варто сказати вголос на прийомі, а не чекати, поки число перетне лінію. Варто також пам’ятати, що вага — не єдине, що рухає чутливість до інсуліну в середньому віці: [якщо забрати дев’яносто хвилин сну на добу в жінок, які спали добре, інсулінорезистентність зросла приблизно на 15% незалежно від маси тіла](/ua/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "У 2 271 японської жінки віком 18–40 років кожні 0,1 кг/м² на рік приросту ІМТ були пов’язані з на 4% вищим ризиком розвитку предіабету за медіани сім років.",
+              "detail": "Ретроспективне когортне дослідження на даних щорічних профілактичних медоглядів на роботі в чотирьох центрах Японії, 2015–2024. Включено 2 271 жінку з нормальним рівнем глюкози віком 18–40 років, які лишалися без предіабету протягом орієнтирного періоду 2015–2017; щорічну зміну ІМТ за цей період оцінювали регресією всередині однієї людини. Новий предіабет (HbA1c 5,7–6,4%) моделювали пропорційними ризиками Кокса, зокрема в аналізах із залежністю від часу. За медіани спостереження 7,0 року предіабет розвинувся в 346 жінок (15,2%); відношення ризиків 1,04 на 0,1 кг/м²/рік (95% ДІ 1,02–1,05). Криві Каплана — Меєра розходилися рано для жінок із приростом ≥0,6 кг/м²/рік і пізніше, але прогресивно — приблизно після п’яти років — для помірного приросту 0,2 до <0,6 кг/м²/рік, особливо серед жінок із нормальним вихідним ІМТ. Обсерваційне й ретроспективне: це зв’язок, а не доказ, що уповільнення набору запобігає предіабету. Когорта — японська, репродуктивного віку, набрана з робочих медоглядів. Лише анотація — повний текст за пейволом, тож перелік коваріат тут не перевірено.",
+              "cite": "Tano S та ін. · American Journal of Preventive Medicine · Ретроспективне когортне дослідження, онлайн 26 липня 2026",
+              "url": "https://doi.org/10.1016/j.amepre.2026.108525"
+            },
+            {
+              "claim": "У матеріалі Medscape про це дослідження середній вік когорти вказано як 34,6 року, а групи зміни ІМТ описано як втрата, стабільність, помірний і найвищий приріст.",
+              "detail": "Medscape написав про статтю в серпні 2026 року під заголовком «Annual BMI Gain Linked to Prediabetes Risk in Women», навівши середній вік 34,6 року, вихідний HbA1c нижче 5,7% і чотири категорії щорічної зміни ІМТ. Середнього віку й назв груп немає в опублікованій анотації — вони взяті з цього матеріалу; відношення ризиків, тривалість спостереження й кількість випадків вище — із самої статті.",
+              "cite": "Medscape · Новинний матеріал про дослідження, серпень 2026",
+              "url": "https://www.medscape.com/viewarticle/annual-bmi-gain-linked-prediabetes-risk-women-2026a1000qhb"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Схожі новини",
+          "items": [
+            {
+              "name": "Діабет 2 типу зростає вдвічі швидше в жінок до 40 — а медицина за цим не встигає",
+              "url": "/ua/blog/type2-diabetes-women-under-40-sex-bias/",
+              "desc": "Та сама вікова група, що й у цій когорті, і чому їхній ризик усе ще читають як чужий."
+            },
+            {
+              "name": "5 міфів про перименопаузу та вагу",
+              "url": "/ua/blog/perimenopause-weight-myths/",
+              "desc": "Що змінюється з вагою після 40 — десятиліття, до якого це дослідження трохи не дійшло."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Мені під п’ятдесят. Чи стосується мене це дослідження?",
+          "a": "Напряму — ні, і було б легко вдати, що інакше. Усім учасницям було від 18 до 40 років, із середнім віком близько тридцяти п’яти, тож когорта закінчується приблизно там, де зазвичай починається перименопауза. Тут це важить більше, ніж зазвичай важить десятиліття, бо після 40 змінюється саме те, що рухає ІМТ: м’язова маса починає падати, жир перерозподіляється до живота, а стабільний ІМТ може приховувати склад тіла, що суттєво змінився. Нахил, порахований за домашніми вагами, у 48 — інструмент грубіший, ніж у 34. Що, ймовірно, переноситься — це принцип, а не числа: серія вимірювань каже те, чого не скаже одне, а «все ще в межах норми» — не те саме, що «не рухається». Хто стверджує, що це дослідження показує вплив набору ваги в перименопаузі на цукор крові, виходить за межі виміряного."
+        },
+        {
+          "q": "Скільки це — 0,1 кг/м² на рік — у кілограмах?",
+          "a": "Залежить від вашого зросту, бо ІМТ — це вага, поділена на зріст у метрах у квадраті. Помножте 0,1 на квадрат свого зросту — і матимете відповідь: при 1,60 м це приблизно 260 г на рік, при 1,65 м — близько 270 г, при 1,70 м — близько 290 г. Група високого приросту в дослідженні — 0,6 кг/м² на рік і більше — це приблизно 1,6 кг на рік для жінки зростом 1,65 м, тобто за сім років спостереження близько 11 кг. Ось порядок величини, який варто помічати. Але порахуйте на власний зріст, а не беріть мій, і сприймайте це як спосіб уявити результат, а не як мету: дослідження виміряло, що сталося з популяцією, і ніхто не перевіряв, чи змінить ваш власний результат те, що ви втримаєте свій нахил рівним."
+        }
+      ]
+    }
+  },
+
+  {
+    "slug": "insulin-resistance-hair-thinning",
+    "tags": [
+      "hair-loss",
+      "insulin-resistance",
+      "blood-sugar",
+      "perimenopause",
+      "type-1-diabetes",
+      "glp1",
+      "clinical-trials"
+    ],
+    "date": "2026-08-22",
+    "image": "/images/insulin-resistance-hair-thinning.jpg",
+    "cats": [
+      "skin",
+      "diabetes"
+    ],
+    "en": {
+      "cat": "Skin & beauty",
+      "imageAlt": "A woman in her forties sitting in daylight by a window, lifting a section of hair at her crown to see where it parts.",
+      "title": "Insulin resistance and hair thinning after 40 — what the link actually is, and what helps",
+      "seoTitle": "Insulin Resistance and Hair Thinning After 40",
+      "metaDesc": "Why raised insulin is linked to thinning hair, how to tell it apart from menopausal and thyroid hair loss, and what the evidence really supports. Not medical advice.",
+      "excerpt": "Thinning hair in your forties gets filed under menopause. There is a second thread underneath it — insulin — and the evidence for it is real, weaker than the internet suggests, and worth understanding before you buy anything.",
+      "meta": "22 August 2026 · 7 min read",
+      "lead": "Hair thinning after 40 gets filed under menopause, and often that is where it belongs. But there is a second thread running underneath it that gets much less attention: what your insulin is doing. The link is real and it shows up in population data. It is also messier and weaker than most of what you will read about it. Here is what the evidence actually supports — and, because I live with Type 1 diabetes, what I have had to learn to separate from it.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Start with the follicle, because the mechanism only makes sense once you know it is a clock rather than a tap. Each hair follicle spends years in anagen, its growing phase, then a few months in telogen, resting, then sheds and starts again. What happens in female-pattern hair loss is not that hair falls out faster. It is miniaturisation: with each cycle the follicle produces a slightly shorter, finer, less pigmented hair, until a terminal hair has become a vellus one — the soft down on a cheek. Follicles also sit empty for longer between cycles. That is why the first sign is usually a parting that has quietly widened rather than hair in the sink."
+        },
+        {
+          "t": "h",
+          "text": "Where insulin comes into it"
+        },
+        {
+          "t": "p",
+          "text": "The best-documented route runs through a protein made in your liver called SHBG — sex hormone-binding globulin. Its job is to bind testosterone and keep it out of circulation. Insulin suppresses the liver's production of it directly. This has been shown cleanly in women with PCOS (now often called PMOS): raise insulin and SHBG falls, independently of any change in the sex hormones themselves. Less SHBG means more free, unbound testosterone. An enzyme in the scalp, 5-alpha-reductase, converts some of that into DHT, which binds the androgen receptor about five times more tightly than testosterone does — and in androgen-sensitive follicles, that is the signal that drives miniaturisation."
+        },
+        {
+          "t": "p",
+          "text": "There is a second, cruder route: blood vessels. The clinical reviews attribute part of the association to vascular impairment from high glucose, which damages the very small vessels feeding the follicle. And running alongside both of these, falling oestrogen shortens anagen and lengthens telogen on its own. So a woman of 45 with insulin resistance can have three things pushing in the same direction at once. That, more than anything, is why you cannot work out the cause from the mirror."
+        },
+        {
+          "t": "h",
+          "text": "What the evidence shows — and where it stops"
+        },
+        {
+          "t": "p",
+          "text": "The strongest signal comes from population data. A Finnish population-based study of middle-aged women found that women carrying markers of insulin resistance had a significantly increased risk of female androgenetic alopecia. The markers that separated the women with extensive hair loss from those with normal or minimal thinning were waist and neck circumference, abdominal obesity, mean insulin concentration and urinary albumin-to-creatinine ratio; women in the highest quintiles for neck or waist circumference had a significantly increased risk. A father with hair loss was also more common in the group with alopecia — heredity has not gone anywhere."
+        },
+        {
+          "t": "p",
+          "text": "Then look at what happens when a small study measures insulin directly. A 2024 case-control study compared 31 premenopausal women with female-pattern hair loss against 31 without. Waist circumference and BMI were clearly higher in the hair-loss group — 81.9 cm against 72.6 cm, and BMI 26.3 against 24.5. But HOMA-IR, fasting insulin, fasting glucose, triglycerides and HDL showed no significant difference at all. Sixty-two women is a small study and it cannot settle anything. It is still a useful corrective: the body-shape signal keeps showing up more reliably than the insulin number does."
+        },
+        {
+          "t": "p",
+          "text": "And the reference reviews are careful in a way the headlines are not. The standard update on female-pattern hair loss says plainly that the role of androgens in it is not yet clear, and that plenty of women develop it with entirely normal circulating androgens. So the honest summary is: a real association, a plausible mechanism, and no basis for telling you that your insulin is the reason your parting has widened."
+        },
+        {
+          "t": "h",
+          "text": "Telling it apart from everything else that thins hair at this age"
+        },
+        {
+          "t": "p",
+          "text": "Before female-pattern hair loss is diagnosed, several other things have to be excluded — telogen effluvium, thyroid disease, raised prolactin and iron deficiency. The patterns differ, and the pattern is the most useful thing you can notice yourself. Female-pattern loss widens the central parting and thins the crown while largely sparing the frontal hairline. Telogen effluvium is diffuse shedding that starts two to three months after a trigger — an illness, an operation, rapid weight loss, a genuinely bad stretch of glucose control — and it usually recovers on its own. Alopecia areata takes discrete round patches, not a general thinning."
+        },
+        {
+          "t": "p",
+          "text": "If you have Type 1, the order of suspicion changes, and this is the part I most wish someone had told me earlier. Type 1 is autoimmune, and it travels in company: thyroid antibodies are found in roughly a fifth of people with Type 1, coeliac disease in something like 5 to 10%, and alopecia areata clusters with autoimmune thyroid disease. Untreated thyroid disease thins hair. So does the iron deficiency that undiagnosed coeliac produces. Both are far likelier explanations in a woman with Type 1 than insulin resistance is — so thyroid and ferritin first, metabolic theories after."
+        },
+        {
+          "t": "h",
+          "text": "The botanical options, and how good the evidence actually is"
+        },
+        {
+          "t": "p",
+          "text": "A 2026 review gathered 78 studies of botanical preparations for hair loss in menopausal women, and the most important thing in it is the shape of the evidence rather than any single herb. Around 70% of those studies were done in test tubes or in animals. Only about a quarter were randomised trials in menopausal women specifically, most with fewer than 100 participants and many running under 12 weeks — which is a problem in itself, because hair takes longer than that to answer."
+        },
+        {
+          "t": "p",
+          "text": "Within that: saw palmetto inhibits 5-alpha-reductase and the trials cited report hair loss halted or improved in about 60% of people against 11% on placebo, though mostly in mixed-sex studies of 50 to 100 people. Rosemary oil works on scalp circulation and shows density gains of 20–30% in short trials, with scalp irritation as the usual side effect. Ginseng prolonged the growth phase by 25–35%, largely in animal models with some double-blind work in postmenopausal women. Pumpkin seed oil compared favourably with 5% minoxidil in one trial."
+        },
+        {
+          "t": "p",
+          "text": "The review's own conclusion is the line worth keeping: botanicals do not achieve complete hair regrowth. They are cheap and mostly low-risk, and they are not a treatment plan. Two practical cautions come with them. Extract standardisation varies enormously, so two bottles of the same herb are not the same product. And high-dose He Shou Wu (Polygonum multiflorum) carries a real signal for liver toxicity — worth knowing if you are already taking anything else."
+        },
+        {
+          "t": "h",
+          "text": "Where GLP-1 drugs fit"
+        },
+        {
+          "t": "p",
+          "text": "Briefly, because it is a different question. If your hair started thinning within a few months of starting a GLP-1 and alongside fast weight loss, that pattern looks much more like telogen effluvium triggered by rapid weight loss than like anything insulin is doing — and that kind of shedding usually recovers. The wider picture of what these drugs do and do not do is [gathered in one place here](/blog/glp1-what-we-know/)."
+        },
+        {
+          "t": "h",
+          "text": "What actually moves the needle"
+        },
+        {
+          "t": "p",
+          "text": "There are two separate levers here and it helps to know which one you are pulling. Treating the hair itself: topical minoxidil is the only first-line treatment with substantial evidence behind it — 2% twice a day or 5% foam once a day — and it needs at least twelve months before you can judge whether it is working. Oral options in the reviews (spironolactone, finasteride, dutasteride) are prescription decisions with real caveats attached, including that standard-dose finasteride has not shown benefit in postmenopausal women. There is also [a new extended-release oral minoxidil](/blog/extended-release-minoxidil-female-hair-loss/), which reported genuine gains — in an open-label trial with no control group, which is exactly as much weight as that deserves."
+        },
+        {
+          "t": "p",
+          "text": "Treating the metabolism is the other lever, and it is worth pulling whether or not it turns out to be your hair's problem, because the returns are not confined to your hair. Nothing in this evidence promises that improving insulin sensitivity regrows anything. What it plausibly does is remove one of the pushes. The levers that keep showing up are the unglamorous ones — resistance training, [a walk after meals](/blog/walking-after-meals-blood-sugar/), enough protein, and sleep, which is not a soft factor here at all: [ninety minutes less of it raised insulin resistance measurably in women](/blog/sleep-insulin-resistance-women/). If you want to see how a particular meal is likely to land before you eat it, the [metabolic food calculator](/resources/food-calculator/) will show you."
+        },
+        {
+          "t": "p",
+          "text": "I would rather say the personal part plainly than let it sit as an implication. I have had stretches where my hair was noticeably thinner, and they lined up with the months when my glucose was hardest to hold steady and I was sleeping badly. That is an observation about one person with Type 1 diabetes. It is why I take the metabolic side of this seriously; it is not evidence, and it is not a reason to skip an appointment."
+        },
+        {
+          "t": "h",
+          "text": "What to ask for at your appointment"
+        },
+        {
+          "t": "p",
+          "text": "Reasonable things to ask about: a full blood count and ferritin, because iron stores can be low while haemoglobin still looks normal; thyroid function including TSH and free T4, with antibodies if there is any autoimmune history; HbA1c; and, where relevant, the free androgen index and prolactin, which the European consensus recommends as screening tests when female-pattern hair loss is suspected. If you take hormonal contraception, androgen results are hard to interpret — the guidance is to test after a pause of at least two months. If you have Type 1, ask about coeliac screening too."
+        },
+        {
+          "t": "p",
+          "text": "And the boundary, stated once and meant: none of this is a diagnosis or medical advice. Hair loss that is sudden, patchy, or comes with scalp pain, scaling or scarring needs to be seen promptly rather than managed with a serum, because a few causes of it are time-sensitive."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Women with markers of insulin resistance had a significantly increased risk of female-pattern hair loss.",
+              "detail": "A population-based study of middle-aged Finnish women comparing those with extensive hair loss against those with normal or minimal loss. Waist and neck circumference, abdominal obesity, mean insulin concentration and the urinary albumin-to-creatinine ratio were all significantly higher in the extensive-hair-loss group, and women in the highest quintiles of neck or waist circumference had a significantly increased risk. Paternal history of alopecia was more common in the group with female androgenetic alopecia. It is observational and cross-sectional, so it establishes association rather than cause, and the markers used are proxies for insulin resistance rather than direct measures of it.",
+              "cite": "Matilainen V et al. · Eur J Cardiovasc Prev Rehabil 2003;10(3):227–231",
+              "url": "https://journals.sagepub.com/doi/10.1097/01.hjr.0000070200.72977.c6"
+            },
+            {
+              "claim": "When insulin was measured directly in a small case-control study, body shape separated the groups and the insulin numbers did not.",
+              "detail": "A hospital-based case-control study of 31 premenopausal women with female-pattern hair loss and 31 controls, mean ages 29.8 and 28.9. Waist circumference (81.9 ± 11.75 cm vs 72.58 ± 8.86 cm, p=0.001) and BMI (26.28 ± 4.09 vs 24.46 ± 2.78 kg/m², p=0.013) were significantly higher in the cases. HOMA-IR, fasting insulin, fasting blood glucose, triglycerides and HDL showed no significant differences. The authors conclude that female-pattern hair loss warrants early screening for metabolic syndrome, and list the small sample, the single diagnostic scale and the absence of a full hormonal evaluation as limitations.",
+              "cite": "Case-control study of metabolic syndrome in premenopausal women with female pattern hair loss · Cureus 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11433530/"
+            },
+            {
+              "claim": "Raised insulin lowers SHBG directly, leaving more free testosterone in circulation.",
+              "detail": "Clinical work in obese women with polycystic ovary syndrome showed that hyperinsulinaemia reduces serum sex hormone-binding globulin independently of any effect on circulating sex steroids — that is, insulin suppresses hepatic SHBG production itself rather than acting through the hormones. Because SHBG binds testosterone, lower levels leave a greater proportion of it biologically available. This is the mechanism most often invoked to link insulin resistance to androgen-driven hair loss, but it has been demonstrated in PCOS populations rather than in trials of hair outcomes.",
+              "cite": "Nestler JE et al. · J Clin Endocrinol Metab 1991",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/1898744/"
+            },
+            {
+              "claim": "The role of androgens in female-pattern hair loss is not settled, and other causes must be excluded before it is diagnosed.",
+              "detail": "A review of female-pattern hair loss describing miniaturisation — the progressive conversion of terminal follicles to vellus-like follicles, with shortened anagen and an extended empty (kenogen) phase — and stating that the role of androgens is not yet clear, since the condition occurs in some women with normal circulating androgens. It sets out the differential diagnosis (telogen effluvium, thyroid dysfunction, raised prolactin, iron deficiency), notes the European Consensus recommendation of free androgen index and prolactin as screening tests with a two-month pause from hormonal contraceptives, and describes topical minoxidil 2% twice daily or 5% foam once daily as first-line, requiring at least 12 months before efficacy is judged. Finasteride at standard doses was ineffective in postmenopausal women.",
+              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
+            },
+            {
+              "claim": "The botanical evidence base for menopausal hair loss is mostly preclinical, and none of it produces complete regrowth.",
+              "detail": "A 2026 review of 78 studies of botanical drug preparations for hair loss in menopausal women. Approximately 70% were in vitro or animal studies; only about a quarter were randomised trials specific to menopausal women, typically with fewer than 100 participants and durations under 12 weeks. Saw palmetto (5-alpha-reductase inhibition, DHT reduced 30–60%) reported hair loss arrest or improvement in 60% vs 11% for placebo in mixed-sex trials of 50–100 people; rosemary oil reported density increases of 20–30% over 6–12 weeks; ginseng prolonged anagen by 25–35%; pumpkin seed oil compared favourably with 5% minoxidil. Toxicity is generally low — mild gastrointestinal effects with ginseng in under 5%, occasional scalp irritation — with a hepatotoxicity risk at high doses of Polygonum multiflorum. The authors state that botanical drugs do not achieve complete hair regrowth, and cite non-standardised extracts, ethnic underrepresentation and the absence of long-term safety data as the main gaps.",
+              "cite": "Botanical drug preparations for hair loss in menopausal women · 2026 review",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "A new oral minoxidil pill improved hair growth in women — but the trial had no control group",
+              "url": "/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "The treatment side of the same problem, with the caveats the press release left out."
+            },
+            {
+              "name": "Ninety minutes less sleep raised insulin resistance by 15% in women",
+              "url": "/blog/sleep-insulin-resistance-women/",
+              "desc": "Why sleep belongs in a conversation about insulin, not in a separate one about tiredness."
+            },
+            {
+              "name": "GLP-1 drugs after 40: what we actually know",
+              "url": "/blog/glp1-what-we-know/",
+              "desc": "If your thinning started with the injections and the weight loss, start here instead."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does insulin resistance actually cause hair loss?",
+          "a": "It is associated with it, and there is a plausible mechanism, but no trial has shown that insulin resistance causes hair thinning or that treating it regrows hair. Population data links markers of insulin resistance — waist and neck circumference, abdominal obesity, mean insulin — with an increased risk of female-pattern hair loss. A smaller case-control study that measured insulin directly found no difference in HOMA-IR or fasting insulin, only in waist circumference and BMI. Treat it as one contributing factor among several, alongside falling oestrogen and heredity, rather than the explanation."
+        },
+        {
+          "q": "How do I tell insulin-related thinning from menopausal hair loss?",
+          "a": "You largely cannot tell them apart by looking, and they overlap: both produce the same widening parting and thinning crown, and after 40 they frequently coexist. What is worth distinguishing is the pattern rather than the cause. A widening central parting with the frontal hairline intact suggests female-pattern loss. Diffuse shedding starting two to three months after an illness, an operation, rapid weight loss or a difficult stretch of glucose control suggests telogen effluvium, which usually recovers. Round bald patches are a different condition again. A GP or dermatologist can separate these; the internet cannot."
+        },
+        {
+          "q": "I have Type 1 diabetes and my hair is thinning — what should I check first?",
+          "a": "Thyroid function and ferritin, before anything metabolic. Type 1 is autoimmune and clusters with other autoimmune conditions: thyroid antibodies are present in roughly a fifth of people with Type 1, and coeliac disease in around 5 to 10%. Untreated thyroid disease thins hair, and undiagnosed coeliac disease causes the iron deficiency that does the same. Both are more likely explanations than insulin resistance, and both are straightforward to test for. Ask about coeliac screening at the same time."
+        },
+        {
+          "q": "Is rosemary oil or saw palmetto worth trying?",
+          "a": "They are low-risk and inexpensive, and the evidence is thinner than the marketing. The 2026 review of botanicals for menopausal hair loss found around 70% of the studies were in test tubes or animals, and the clinical trials were mostly small, mixed-sex and shorter than 12 weeks — too short for hair to answer. The review's own conclusion is that botanicals do not achieve complete regrowth. If you want to try one, treat it as an addition rather than a plan, buy from somewhere that states the extract strength, and give anything at least six months before deciding. Topical minoxidil remains the first-line treatment with real evidence behind it."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Краса та шкіра",
+      "imageAlt": "Жінка близько сорока сидить біля вікна при денному світлі та піднімає пасмо волосся на маківці, щоб розгледіти пробір.",
+      "title": "Інсулінорезистентність і порідіння волосся після 40 — який зв'язок насправді і що допомагає",
+      "seoTitle": "Інсулінорезистентність і порідіння волосся",
+      "metaDesc": "Чому підвищений інсулін пов'язаний із порідінням волосся, як відрізнити його від менопаузального й тиреоїдного випадіння та що справді підтверджують дані.",
+      "excerpt": "Порідіння волосся після сорока зазвичай списують на менопаузу. Під цим є ще одна нитка — інсулін. Зв'язок реальний, слабший, ніж пишуть в інтернеті, і його варто зрозуміти, перш ніж щось купувати.",
+      "meta": "22 серпня 2026 · 7 хв читання",
+      "lead": "Порідіння волосся після сорока зазвичай списують на менопаузу, і часто це справедливо. Але під цим є друга нитка, якій приділяють значно менше уваги: що робить ваш інсулін. Зв'язок реальний і видно його в популяційних даних. Він також заплутаніший і слабший, ніж більшість того, що про нього пишуть. Ось що насправді підтверджують дані — і, оскільки я живу з діабетом 1 типу, що мені довелося навчитися від цього відділяти.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Почнімо з фолікула, бо механізм стає зрозумілим лише тоді, коли усвідомлюєш: це годинник, а не кран. Кожен волосяний фолікул роками перебуває в анагені — фазі росту, потім кілька місяців у телогені — фазі спокою, тоді волосина випадає й цикл починається знову. При андрогенетичному випадінні у жінок волосся не випадає швидше. Відбувається мініатюризація: з кожним циклом фолікул вирощує трохи коротшу, тоншу й менш пігментовану волосину, доки термінальна волосина не стає пушковою. Фолікули також довше стоять порожніми між циклами. Тому першою ознакою зазвичай є проділ, який непомітно розширився, а не волосся в раковині."
+        },
+        {
+          "t": "h",
+          "text": "До чого тут інсулін"
+        },
+        {
+          "t": "p",
+          "text": "Найкраще задокументований шлях проходить через білок, який виробляє печінка, — ГЗСГ, глобулін, що зв'язує статеві гормони. Його робота — зв'язувати тестостерон і тримати його поза обігом. Інсулін напряму пригнічує його вироблення в печінці. Це чітко показали в жінок із СПКЯ (тепер частіше ПМОС): підвищується інсулін — ГЗСГ падає, незалежно від будь-яких змін самих статевих гормонів. Менше ГЗСГ означає більше вільного, незв'язаного тестостерону. Фермент у шкірі голови, 5-альфа-редуктаза, перетворює частину його на ДГТ, який зв'язується з андрогенним рецептором приблизно вп'ятеро міцніше за тестостерон — і в чутливих до андрогенів фолікулах саме це запускає мініатюризацію."
+        },
+        {
+          "t": "p",
+          "text": "Є й другий, грубіший шлях: судини. Клінічні огляди частину цього зв'язку пояснюють судинними пошкодженнями через високу глюкозу, яка вражає найдрібніші судини, що живлять фолікул. А паралельно з обома цими механізмами падіння естрогену саме по собі вкорочує анаген і подовжує телоген. Тож у жінки 45 років з інсулінорезистентністю три чинники можуть тиснути в один бік одночасно. Саме тому причину неможливо визначити, дивлячись у дзеркало."
+        },
+        {
+          "t": "h",
+          "text": "Що показують дані — і де вони зупиняються"
+        },
+        {
+          "t": "p",
+          "text": "Найсильніший сигнал дають популяційні дані. Фінське популяційне дослідження жінок середнього віку виявило, що жінки з маркерами інсулінорезистентності мали значно вищий ризик андрогенетичної алопеції. Маркери, які відрізняли жінок зі значним випадінням від тих, у кого волосся було нормальним або майже не рідшало, — обхват талії та шиї, абдомінальне ожиріння, середня концентрація інсуліну й співвідношення альбуміну до креатиніну в сечі; жінки у верхніх квінтилях за обхватом шиї або талії мали значно вищий ризик. Батько з випадінням волосся також траплявся частіше в групі з алопецією — спадковість нікуди не поділася."
+        },
+        {
+          "t": "p",
+          "text": "Тепер подивіться, що відбувається, коли невелике дослідження вимірює інсулін напряму. Дослідження 2024 року порівняло 31 жінку в пременопаузі з андрогенетичним випадінням і 31 без нього. Обхват талії та ІМТ були виразно вищими в групі з випадінням — 81,9 см проти 72,6 см та ІМТ 26,3 проти 24,5. Але HOMA-IR, інсулін натще, глюкоза натще, тригліцериди й ЛПВЩ не відрізнялися взагалі. Шістдесят дві жінки — це мало, і це нічого не вирішує. Проте це корисне уточнення: сигнал від форми тіла проявляється стабільніше, ніж власне цифра інсуліну."
+        },
+        {
+          "t": "p",
+          "text": "А оглядові статті обережні там, де заголовки — ні. Стандартний огляд андрогенетичного випадіння у жінок прямо каже, що роль андрогенів у ньому досі не з'ясована і що чимало жінок мають цей стан за цілком нормальних показників циркулюючих андрогенів. Тож чесний підсумок такий: реальний зв'язок, правдоподібний механізм — і жодних підстав стверджувати, що ваш проділ розширився саме через інсулін."
+        },
+        {
+          "t": "h",
+          "text": "Як відрізнити це від усього іншого, що рідшає в цьому віці"
+        },
+        {
+          "t": "p",
+          "text": "Перш ніж поставити діагноз андрогенетичного випадіння, треба виключити кілька інших причин — телогенову алопецію, хвороби щитоподібної залози, підвищений пролактин і дефіцит заліза. Патерни різні, і саме патерн ви можете помітити самі. Андрогенетичне випадіння розширює центральний проділ і розріджує маківку, здебільшого не чіпаючи передню лінію росту. Телогенова алопеція — це дифузне випадіння, яке починається через два-три місяці після тригера: хвороби, операції, швидкого схуднення, справді важкого періоду з цукром — і зазвичай минає само. Вогнищева алопеція дає круглі ділянки, а не загальне порідіння."
+        },
+        {
+          "t": "p",
+          "text": "Якщо у вас діабет 1 типу, порядок підозр змінюється — і це те, про що я хотіла б дізнатися раніше. Діабет 1 типу аутоімунний, і він ходить не сам: антитіла до щитоподібної залози виявляють приблизно в п'ятої частини людей з ним, целіакію — приблизно в 5–10%, а вогнищева алопеція групується з аутоімунними хворобами щитоподібної залози. Нелікована патологія щитоподібної залози розріджує волосся. Так само робить дефіцит заліза, який дає недіагностована целіакія. Обидві причини значно ймовірніші в жінки з діабетом 1 типу, ніж інсулінорезистентність, — тож спершу щитоподібна залоза й феритин, метаболічні теорії потім."
+        },
+        {
+          "t": "h",
+          "text": "Рослинні засоби і чого варті докази"
+        },
+        {
+          "t": "p",
+          "text": "Огляд 2026 року зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі, і найважливіше в ньому — не окрема рослина, а форма самої доказової бази. Близько 70% цих досліджень зроблено в пробірці або на тваринах. Лише приблизно чверть були рандомізованими дослідженнями саме за участю жінок у менопаузі, здебільшого менш ніж на 100 учасниць і часто коротшими за 12 тижнів — що вже проблема, бо волосся відповідає повільніше."
+        },
+        {
+          "t": "p",
+          "text": "Усередині цього: со пальметто пригнічує 5-альфа-редуктазу, і в наведених дослідженнях випадіння зупинилося або покращилося приблизно в 60% проти 11% на плацебо — щоправда, переважно у змішаних за статтю групах по 50–100 осіб. Олія розмарину діє на кровообіг шкіри голови й дає приріст щільності на 20–30% у коротких дослідженнях, з подразненням шкіри голови як звичним побічним ефектом. Женьшень подовжував фазу росту на 25–35%, здебільшого на тваринних моделях із частиною подвійних сліпих робіт у жінок у постменопаузі. Олія гарбузового насіння в одному дослідженні виглядала не гірше за 5% міноксидил."
+        },
+        {
+          "t": "p",
+          "text": "Висновок самого огляду — це рядок, який варто запам'ятати: рослинні засоби не забезпечують повного відновлення волосся. Вони дешеві й здебільшого безпечні, але це не план лікування. З ними йдуть два практичні застереження. Стандартизація екстрактів дуже різна, тож дві пляшечки тієї самої рослини — не той самий продукт. А високі дози гірчака багатоквіткового (Polygonum multiflorum) мають реальний сигнал щодо токсичності для печінки — це важливо, якщо ви вже щось приймаєте."
+        },
+        {
+          "t": "h",
+          "text": "До чого тут препарати GLP-1"
+        },
+        {
+          "t": "p",
+          "text": "Коротко, бо це інше питання. Якщо волосся почало рідшати протягом кількох місяців після початку GLP-1 і разом зі швидкою втратою ваги, цей патерн значно більше схожий на телогенову алопецію через різке схуднення, ніж на щось інсулінове — і таке випадіння зазвичай минає. Ширша картина того, що ці препарати роблять і чого не роблять, [зібрана в одному місці тут](/ua/blog/glp1-what-we-know/)."
+        },
+        {
+          "t": "h",
+          "text": "Що справді має значення"
+        },
+        {
+          "t": "p",
+          "text": "Тут є два окремі важелі, і корисно розуміти, за який ви тягнете. Лікувати саме волосся: топічний міноксидил — єдиний засіб першої лінії з вагомими доказами, 2% двічі на день або 5% піна раз на день, і потрібно щонайменше дванадцять місяців, перш ніж судити про результат. Пероральні варіанти з оглядів (спіронолактон, фінастерид, дутастерид) — це рецептурні рішення зі суттєвими застереженнями, зокрема з тим, що фінастерид у стандартних дозах не показав користі в жінок у постменопаузі. Є ще [новий міноксидил пролонгованої дії в таблетках](/ua/blog/extended-release-minoxidil-female-hair-loss/), який показав справжній приріст — у відкритому дослідженні без контрольної групи, і саме стільки ваги це й заслуговує."
+        },
+        {
+          "t": "p",
+          "text": "Другий важіль — метаболічний, і його варто тягнути незалежно від того, чи справа у волоссі, бо віддача не обмежується волоссям. Ці дані не обіцяють, що покращення чутливості до інсуліну щось відростить. Що воно правдоподібно робить — прибирає один із чинників тиску. Важелі тут не ефектні: силові вправи, [прогулянка після їжі](/ua/blog/walking-after-meals-blood-sugar/), достатньо білка і сон, який тут аж ніяк не дрібниця: [на півтори години менше сну — і інсулінорезистентність у жінок вимірно зростала](/ua/blog/sleep-insulin-resistance-women/). А якщо хочете побачити, як конкретна страва вплине на цукор ще до того, як її з'їсти, це покаже [калькулятор впливу їжі](/ua/resources/food-calculator/)."
+        },
+        {
+          "t": "p",
+          "text": "Особисту частину я краще скажу прямо, ніж залишу натяком. У мене були періоди, коли волосся помітно рідшало, і вони збігалися з місяцями, коли цукор найважче тримався рівно, а спала я погано. Це спостереження однієї людини з діабетом 1 типу. Через нього я серйозно ставлюся до метаболічного боку цієї історії; це не доказ і не привід не йти до лікаря."
+        },
+        {
+          "t": "h",
+          "text": "Про що попросити на прийомі"
+        },
+        {
+          "t": "p",
+          "text": "Розумно попросити: загальний аналіз крові та феритин, бо запаси заліза можуть бути низькими, коли гемоглобін ще виглядає нормальним; функцію щитоподібної залози, включно з ТТГ і вільним Т4, з антитілами, якщо в анамнезі є аутоімунні стани; HbA1c; і, де це доречно, індекс вільних андрогенів і пролактин, які європейський консенсус рекомендує як скринінг за підозри на андрогенетичне випадіння. Якщо ви приймаєте гормональну контрацепцію, андрогенні показники важко інтерпретувати — рекомендують здавати їх після перерви щонайменше два місяці. Якщо у вас діабет 1 типу, попросіть заразом і скринінг на целіакію."
+        },
+        {
+          "t": "p",
+          "text": "І межа, сказана один раз і всерйоз: це не діагноз і не медична порада. Випадіння, яке з'явилося раптово, вогнищами або супроводжується болем у шкірі голови, лущенням чи рубцюванням, треба показати лікарю швидко, а не лікувати сироваткою, бо кілька причин такого випадіння чутливі до часу."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Жінки з маркерами інсулінорезистентності мали значно вищий ризик андрогенетичного випадіння волосся.",
+              "detail": "Популяційне дослідження фінських жінок середнього віку, яке порівнювало жінок зі значним випадінням волосся з тими, у кого волосся було нормальним або майже не рідшало. Обхват талії та шиї, абдомінальне ожиріння, середня концентрація інсуліну й співвідношення альбуміну до креатиніну в сечі були значно вищими в групі зі значним випадінням, а жінки у верхніх квінтилях за обхватом шиї чи талії мали значно вищий ризик. Батьківський анамнез алопеції траплявся частіше в групі з андрогенетичною алопецією. Дослідження обсерваційне й одномоментне, тож встановлює зв'язок, а не причину, і використані маркери є непрямими показниками інсулінорезистентності, а не прямими вимірами.",
+              "cite": "Matilainen V et al. · Eur J Cardiovasc Prev Rehabil 2003;10(3):227–231",
+              "url": "https://journals.sagepub.com/doi/10.1097/01.hjr.0000070200.72977.c6"
+            },
+            {
+              "claim": "Коли інсулін виміряли напряму в невеликому дослідженні, групи розділила форма тіла, а не показники інсуліну.",
+              "detail": "Госпітальне дослідження типу «випадок-контроль» за участю 31 жінки в пременопаузі з андрогенетичним випадінням волосся та 31 контрольної учасниці, середній вік 29,8 і 28,9 року. Обхват талії (81,9 ± 11,75 см проти 72,58 ± 8,86 см, p=0,001) та ІМТ (26,28 ± 4,09 проти 24,46 ± 2,78 кг/м², p=0,013) були значно вищими у групі випадків. HOMA-IR, інсулін натще, глюкоза натще, тригліцериди та ЛПВЩ значущих відмінностей не показали. Автори роблять висновок, що андрогенетичне випадіння у жінок є підставою для раннього скринінгу метаболічного синдрому, і серед обмежень називають малу вибірку, єдину діагностичну шкалу та відсутність повної гормональної оцінки.",
+              "cite": "Дослідження метаболічного синдрому в жінок у пременопаузі з андрогенетичним випадінням волосся · Cureus 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11433530/"
+            },
+            {
+              "claim": "Підвищений інсулін напряму знижує ГЗСГ, залишаючи в обігу більше вільного тестостерону.",
+              "detail": "Клінічні роботи за участю жінок з ожирінням і синдромом полікістозних яєчників показали, що гіперінсулінемія знижує рівень глобуліну, що зв'язує статеві гормони, незалежно від будь-якого впливу на циркулюючі статеві стероїди — тобто інсулін пригнічує вироблення ГЗСГ у печінці, а не діє через самі гормони. Оскільки ГЗСГ зв'язує тестостерон, нижчий його рівень залишає більшу частку тестостерону біологічно доступною. Саме цей механізм найчастіше наводять як ланку між інсулінорезистентністю та андрогензалежним випадінням волосся, але продемонстровано його в популяціях із СПКЯ, а не в дослідженнях із результатами щодо волосся.",
+              "cite": "Nestler JE et al. · J Clin Endocrinol Metab 1991",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/1898744/"
+            },
+            {
+              "claim": "Роль андрогенів у андрогенетичному випадінні у жінок не з'ясована, і перед діагнозом треба виключити інші причини.",
+              "detail": "Огляд андрогенетичного випадіння волосся у жінок, який описує мініатюризацію — поступове перетворення термінальних фолікулів на пушкові зі вкороченим анагеном і подовженою порожньою фазою (кеногеном) — і зазначає, що роль андрогенів досі не з'ясована, оскільки стан трапляється в частини жінок із нормальним рівнем циркулюючих андрогенів. Огляд подає диференційну діагностику (телогенова алопеція, порушення щитоподібної залози, підвищений пролактин, дефіцит заліза), наводить рекомендацію Європейського консенсусу щодо індексу вільних андрогенів і пролактину як скринінгу з перервою в два місяці після гормональних контрацептивів і описує топічний міноксидил 2% двічі на день або 5% піну раз на день як першу лінію, для оцінки якої потрібно щонайменше 12 місяців. Фінастерид у стандартних дозах був неефективним у жінок у постменопаузі.",
+              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
+            },
+            {
+              "claim": "Доказова база рослинних засобів при менопаузальному випадінні волосся переважно доклінічна, і жоден із них не дає повного відновлення.",
+              "detail": "Огляд 2026 року, який зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі. Приблизно 70% були дослідженнями in vitro або на тваринах; лише близько чверті — рандомізованими дослідженнями саме за участю жінок у менопаузі, зазвичай менш ніж на 100 учасниць і тривалістю до 12 тижнів. Со пальметто (пригнічення 5-альфа-редуктази, зниження ДГТ на 30–60%) показало зупинку або покращення випадіння в 60% проти 11% на плацебо у змішаних за статтю дослідженнях по 50–100 осіб; олія розмарину — приріст щільності на 20–30% за 6–12 тижнів; женьшень подовжував анаген на 25–35%; олія гарбузового насіння виглядала не гірше за 5% міноксидил. Токсичність загалом низька — легкі шлунково-кишкові ефекти від женьшеню менш ніж у 5%, зрідка подразнення шкіри голови — з ризиком гепатотоксичності при високих дозах Polygonum multiflorum. Автори зазначають, що рослинні препарати не забезпечують повного відновлення волосся, а серед головних прогалин називають нестандартизовані екстракти, недостатню етнічну репрезентативність і відсутність даних щодо тривалої безпеки.",
+              "cite": "Рослинні препарати проти випадіння волосся в жінок у менопаузі · огляд 2026",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Дотичне читання",
+          "items": [
+            {
+              "name": "Новий міноксидил у таблетках покращив ріст волосся в жінок — але в дослідженні не було контрольної групи",
+              "url": "/ua/blog/extended-release-minoxidil-female-hair-loss/",
+              "desc": "Лікувальний бік тієї самої проблеми — із застереженнями, які випали з пресрелізу."
+            },
+            {
+              "name": "На півтори години менше сну — і інсулінорезистентність у жінок зросла на 15%",
+              "url": "/ua/blog/sleep-insulin-resistance-women/",
+              "desc": "Чому сон належить до розмови про інсулін, а не до окремої розмови про втому."
+            },
+            {
+              "name": "Препарати GLP-1 після 40: що ми насправді знаємо",
+              "url": "/ua/blog/glp1-what-we-know/",
+              "desc": "Якщо волосся почало рідшати разом з ін'єкціями і втратою ваги — починайте звідси."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи справді інсулінорезистентність спричиняє випадіння волосся?",
+          "a": "Вона з ним пов'язана, і механізм правдоподібний, але жодне дослідження не показало, що інсулінорезистентність спричиняє порідіння волосся або що її лікування відновлює волосся. Популяційні дані пов'язують маркери інсулінорезистентності — обхват талії та шиї, абдомінальне ожиріння, середній інсулін — із підвищеним ризиком андрогенетичного випадіння у жінок. Менше дослідження, яке виміряло інсулін напряму, не знайшло різниці в HOMA-IR чи інсуліні натще, лише в обхваті талії та ІМТ. Сприймайте це як один із кількох чинників поряд із падінням естрогену і спадковістю, а не як пояснення."
+        },
+        {
+          "q": "Як відрізнити випадіння, пов'язане з інсуліном, від менопаузального?",
+          "a": "На вигляд їх здебільшого не відрізнити, і вони перекриваються: обидва дають той самий розширений проділ і розріджену маківку, а після сорока часто співіснують. Варто розрізняти не причину, а патерн. Розширення центрального проділу зі збереженою передньою лінією росту вказує на андрогенетичне випадіння. Дифузне випадіння, яке починається через два-три місяці після хвороби, операції, різкого схуднення чи складного періоду з цукром, вказує на телогенову алопецію, яка зазвичай минає. Круглі ділянки без волосся — це вже інший стан. Розрізнити їх може сімейний лікар або дерматолог; інтернет — ні."
+        },
+        {
+          "q": "У мене діабет 1 типу і рідшає волосся — що перевірити першим?",
+          "a": "Щитоподібну залозу й феритин, перш ніж усе метаболічне. Діабет 1 типу аутоімунний і групується з іншими аутоімунними станами: антитіла до щитоподібної залози є приблизно в п'ятої частини людей з ним, а целіакія — приблизно в 5–10%. Нелікована патологія щитоподібної залози розріджує волосся, а недіагностована целіакія спричиняє дефіцит заліза, який робить те саме. Обидві причини ймовірніші за інсулінорезистентність, і обидві легко перевірити. Заразом попросіть і скринінг на целіакію."
+        },
+        {
+          "q": "Чи варто пробувати олію розмарину або со пальметто?",
+          "a": "Вони недорогі й малоризикові, а доказів менше, ніж обіцяє маркетинг. Огляд 2026 року щодо рослинних засобів при менопаузальному випадінні виявив, що близько 70% досліджень зроблено в пробірці або на тваринах, а клінічні дослідження були переважно малими, змішаними за статтю й коротшими за 12 тижнів — замало, щоб волосся встигло відповісти. Висновок самого огляду: рослинні засоби не дають повного відновлення. Якщо хочете спробувати, ставтеся до цього як до доповнення, а не плану, купуйте там, де вказана концентрація екстракту, і дайте засобу щонайменше пів року. Топічний міноксидил залишається засобом першої лінії з реальними доказами."
+        }
+      ]
+    }
+  },
   {
     "slug": "perimenopause-anxiety-mind-body-exercise",
     "tags": ["perimenopause", "low-mood", "insomnia", "menopause-symptoms", "cardio", "clinical-trials"],
@@ -447,7 +1021,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause",
-      "imageAlt": "A woman in her forties sitting on a sofa with her head in her hands, looking anxious.",
+      "imageAlt": "A woman in her fifties lying awake in bed at night, one forearm resting across her forehead.",
       "title": "Perimenopause anxiety is not a footnote — three August studies on the mental-health half of the transition",
       "seoTitle": "Perimenopause Anxiety: 3 New Studies, August 2026",
       "metaDesc": "The August 2026 Menopause journal runs three papers on perimenopausal anxiety and depression: 20 women's lived experience, 709 women and mind-body exercise, and a CBT pilot.",
@@ -567,7 +1141,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза",
-      "imageAlt": "Жінка близько сорока сидить на дивані, обхопивши голову руками, з тривожним виглядом.",
+      "imageAlt": "Жінка за п’ятдесят лежить уночі без сну, поклавши передпліччя на чоло.",
       "title": "Тривога в перименопаузі — не примітка: три серпневі дослідження про психічну половину переходу",
       "seoTitle": "Тривога в перименопаузі: 3 нові дослідження",
       "metaDesc": "Серпневий випуск Menopause 2026 має три статті про тривогу й депресію в перименопаузі: досвід 20 жінок, 709 жінок і практики «тіло-розум», пілот КПТ.",
