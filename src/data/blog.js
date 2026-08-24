@@ -48,6 +48,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
+      "imageAlt": "A woman in her forties sitting in daylight by a window, lifting a section of hair at her crown to see where it parts.",
       "title": "Insulin resistance and hair thinning after 40 — what the link actually is, and what helps",
       "seoTitle": "Insulin Resistance and Hair Thinning After 40",
       "metaDesc": "Why raised insulin is linked to thinning hair, how to tell it apart from menopausal and thyroid hair loss, and what the evidence really supports. Not medical advice.",
@@ -233,6 +234,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
+      "imageAlt": "Жінка близько сорока сидить біля вікна при денному світлі та піднімає пасмо волосся на маківці, щоб розгледіти пробір.",
       "title": "Інсулінорезистентність і порідіння волосся після 40 — який зв'язок насправді і що допомагає",
       "seoTitle": "Інсулінорезистентність і порідіння волосся",
       "metaDesc": "Чому підвищений інсулін пов'язаний із порідінням волосся, як відрізнити його від менопаузального й тиреоїдного випадіння та що справді підтверджують дані.",
