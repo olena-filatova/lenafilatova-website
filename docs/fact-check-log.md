@@ -35,6 +35,13 @@ on position.
 - Run `npm run build` before pushing and read the output — `warnAssetGaps()`
   and `featuredPosts()` warn rather than throw.
 
+## The schedule
+
+Driven by a Claude Routine, `trig_01RRhHp6SEDH5BqXdaUpWGKM`, firing every two
+hours. It is bound to an existing session rather than spawning a fresh one per
+run — fresh-session routines cannot carry the Atlassian connector in this org,
+so they would have no Jira tools. Pause or delete it from the Routines list.
+
 ## Status
 
 | # | Date | Slug | Status | Checked | Findings |
