@@ -33,7 +33,9 @@ export const POSTS = [
     "slug": "oral-minoxidil-for-womens-hair-loss",
     "tags": [
       "hair-loss",
-      "perimenopause"
+      "perimenopause",
+      "clinical-trials",
+      "type-1-diabetes"
     ],
     "date": "2026-08-24",
     "image": "/images/oral-minoxidil-for-womens-hair-loss.jpg",
@@ -480,7 +482,12 @@ export const POSTS = [
     "tags": [
       "perimenopause",
       "insulin-resistance",
-      "sleep"
+      "sleep",
+      "blood-sugar",
+      "clinical-trials",
+      "insomnia",
+      "type-2-diabetes",
+      "type-1-diabetes"
     ],
     "date": "2026-08-24",
     "image": "/images/magnesium-perimenopause-sleep-insulin-resistance.jpg",
