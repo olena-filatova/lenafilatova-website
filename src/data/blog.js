@@ -1574,7 +1574,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "A 2026 review gathered 78 studies of botanical preparations for hair loss in menopausal women, and the most important thing in it is the shape of the evidence rather than any single herb. Around 70% of those studies were done in test tubes or in animals. Only about a quarter were randomised trials in menopausal women specifically, most with fewer than 100 participants and many running under 12 weeks — which is a problem in itself, because hair takes longer than that to answer."
+          "text": "A 2025 review gathered 78 studies of botanical preparations for hair loss in menopausal women, and the most important thing in it is the shape of the evidence rather than any single herb. Around 70% of those studies were done in test tubes or in animals. Only about a quarter were randomised trials in menopausal women specifically, most with fewer than 100 participants and many running under 12 weeks — which is a problem in itself, because hair takes longer than that to answer."
         },
         {
           "t": "p",
@@ -1653,8 +1653,8 @@ export const POSTS = [
             },
             {
               "claim": "The botanical evidence base for menopausal hair loss is mostly preclinical, and none of it produces complete regrowth.",
-              "detail": "A 2026 review of 78 studies of botanical drug preparations for hair loss in menopausal women. Approximately 70% were in vitro or animal studies; only about a quarter were randomised trials specific to menopausal women, typically with fewer than 100 participants and durations under 12 weeks. Saw palmetto (5-alpha-reductase inhibition, DHT reduced 30–60%) reported hair loss arrest or improvement in 60% vs 11% for placebo in mixed-sex trials of 50–100 people; rosemary oil reported density increases of 20–30% over 6–12 weeks; ginseng prolonged anagen by 25–35%; pumpkin seed oil compared favourably with 5% minoxidil. Toxicity is generally low — mild gastrointestinal effects with ginseng in under 5%, occasional scalp irritation — with a hepatotoxicity risk at high doses of Polygonum multiflorum. The authors state that botanical drugs do not achieve complete hair regrowth, and cite non-standardised extracts, ethnic underrepresentation and the absence of long-term safety data as the main gaps.",
-              "cite": "Botanical drug preparations for hair loss in menopausal women · 2026 review",
+              "detail": "A mini-review published in Frontiers in Pharmacology in November 2025, drawing on 78 studies of botanical drug preparations for hair loss in menopausal women. Approximately 70% were in vitro or animal studies; only about a quarter were randomised trials specific to menopausal women, typically with fewer than 100 participants and durations under 12 weeks. Saw palmetto (5-alpha-reductase inhibition, DHT reduced 30–60%) reported hair loss arrest or improvement in 60% vs 11% for placebo in mixed-sex trials of 50–100 people; rosemary oil reported density increases of 20–30% over 6–12 weeks; ginseng prolonged anagen by 25–35%; pumpkin seed oil compared favourably with 5% minoxidil. Toxicity is generally low — mild gastrointestinal effects with ginseng in under 5%, occasional scalp irritation — with a hepatotoxicity risk at high doses of Polygonum multiflorum. The authors state that botanical drugs do not achieve complete hair regrowth, and cite non-standardised extracts, ethnic underrepresentation and the absence of long-term safety data as the main gaps.",
+              "cite": "Huang Z et al. · Botanical drug preparations for alleviating hair loss in menopausal women: a global ethnopharmacological mini-review · Frontiers in Pharmacology, November 2025",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/"
             }
           ]
@@ -1696,7 +1696,7 @@ export const POSTS = [
         },
         {
           "q": "Is rosemary oil or saw palmetto worth trying?",
-          "a": "They are low-risk and inexpensive, and the evidence is thinner than the marketing. The 2026 review of botanicals for menopausal hair loss found around 70% of the studies were in test tubes or animals, and the clinical trials were mostly small, mixed-sex and shorter than 12 weeks — too short for hair to answer. The review's own conclusion is that botanicals do not achieve complete regrowth. If you want to try one, treat it as an addition rather than a plan, buy from somewhere that states the extract strength, and give anything at least six months before deciding. Topical minoxidil remains the first-line treatment with real evidence behind it."
+          "a": "They are low-risk and inexpensive, and the evidence is thinner than the marketing. The 2025 review of botanicals for menopausal hair loss found around 70% of the studies were in test tubes or animals, and the clinical trials were mostly small, mixed-sex and shorter than 12 weeks — too short for hair to answer. The review's own conclusion is that botanicals do not achieve complete regrowth. If you want to try one, treat it as an addition rather than a plan, buy from somewhere that states the extract strength, and give anything at least six months before deciding. Topical minoxidil remains the first-line treatment with real evidence behind it."
         }
       ]
     },
@@ -1760,7 +1760,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Огляд 2026 року зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі, і найважливіше в ньому — не окрема рослина, а форма самої доказової бази. Близько 70% цих досліджень зроблено в пробірці або на тваринах. Лише приблизно чверть були рандомізованими дослідженнями саме за участю жінок у менопаузі, здебільшого менш ніж на 100 учасниць і часто коротшими за 12 тижнів — що вже проблема, бо волосся відповідає повільніше."
+          "text": "Огляд 2025 року зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі, і найважливіше в ньому — не окрема рослина, а форма самої доказової бази. Близько 70% цих досліджень зроблено в пробірці або на тваринах. Лише приблизно чверть були рандомізованими дослідженнями саме за участю жінок у менопаузі, здебільшого менш ніж на 100 учасниць і часто коротшими за 12 тижнів — що вже проблема, бо волосся відповідає повільніше."
         },
         {
           "t": "p",
@@ -1839,8 +1839,8 @@ export const POSTS = [
             },
             {
               "claim": "Доказова база рослинних засобів при менопаузальному випадінні волосся переважно доклінічна, і жоден із них не дає повного відновлення.",
-              "detail": "Огляд 2026 року, який зібрав 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі. Приблизно 70% були дослідженнями in vitro або на тваринах; лише близько чверті — рандомізованими дослідженнями саме за участю жінок у менопаузі, зазвичай менш ніж на 100 учасниць і тривалістю до 12 тижнів. Со пальметто (пригнічення 5-альфа-редуктази, зниження ДГТ на 30–60%) показало зупинку або покращення випадіння в 60% проти 11% на плацебо у змішаних за статтю дослідженнях по 50–100 осіб; олія розмарину — приріст щільності на 20–30% за 6–12 тижнів; женьшень подовжував анаген на 25–35%; олія гарбузового насіння виглядала не гірше за 5% міноксидил. Токсичність загалом низька — легкі шлунково-кишкові ефекти від женьшеню менш ніж у 5%, зрідка подразнення шкіри голови — з ризиком гепатотоксичності при високих дозах Polygonum multiflorum. Автори зазначають, що рослинні препарати не забезпечують повного відновлення волосся, а серед головних прогалин називають нестандартизовані екстракти, недостатню етнічну репрезентативність і відсутність даних щодо тривалої безпеки.",
-              "cite": "Рослинні препарати проти випадіння волосся в жінок у менопаузі · огляд 2026",
+              "detail": "Мініогляд, опублікований у Frontiers in Pharmacology у листопаді 2025 року, який спирається на 78 досліджень рослинних препаратів проти випадіння волосся в жінок у менопаузі. Приблизно 70% були дослідженнями in vitro або на тваринах; лише близько чверті — рандомізованими дослідженнями саме за участю жінок у менопаузі, зазвичай менш ніж на 100 учасниць і тривалістю до 12 тижнів. Со пальметто (пригнічення 5-альфа-редуктази, зниження ДГТ на 30–60%) показало зупинку або покращення випадіння в 60% проти 11% на плацебо у змішаних за статтю дослідженнях по 50–100 осіб; олія розмарину — приріст щільності на 20–30% за 6–12 тижнів; женьшень подовжував анаген на 25–35%; олія гарбузового насіння виглядала не гірше за 5% міноксидил. Токсичність загалом низька — легкі шлунково-кишкові ефекти від женьшеню менш ніж у 5%, зрідка подразнення шкіри голови — з ризиком гепатотоксичності при високих дозах Polygonum multiflorum. Автори зазначають, що рослинні препарати не забезпечують повного відновлення волосся, а серед головних прогалин називають нестандартизовані екстракти, недостатню етнічну репрезентативність і відсутність даних щодо тривалої безпеки.",
+              "cite": "Huang Z et al. · Botanical drug preparations for alleviating hair loss in menopausal women: a global ethnopharmacological mini-review · Frontiers in Pharmacology, листопад 2025",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/"
             }
           ]
@@ -1882,7 +1882,7 @@ export const POSTS = [
         },
         {
           "q": "Чи варто пробувати олію розмарину або со пальметто?",
-          "a": "Вони недорогі й малоризикові, а доказів менше, ніж обіцяє маркетинг. Огляд 2026 року щодо рослинних засобів при менопаузальному випадінні виявив, що близько 70% досліджень зроблено в пробірці або на тваринах, а клінічні дослідження були переважно малими, змішаними за статтю й коротшими за 12 тижнів — замало, щоб волосся встигло відповісти. Висновок самого огляду: рослинні засоби не дають повного відновлення. Якщо хочете спробувати, ставтеся до цього як до доповнення, а не плану, купуйте там, де вказана концентрація екстракту, і дайте засобу щонайменше пів року. Топічний міноксидил залишається засобом першої лінії з реальними доказами."
+          "a": "Вони недорогі й малоризикові, а доказів менше, ніж обіцяє маркетинг. Огляд 2025 року щодо рослинних засобів при менопаузальному випадінні виявив, що близько 70% досліджень зроблено в пробірці або на тваринах, а клінічні дослідження були переважно малими, змішаними за статтю й коротшими за 12 тижнів — замало, щоб волосся встигло відповісти. Висновок самого огляду: рослинні засоби не дають повного відновлення. Якщо хочете спробувати, ставтеся до цього як до доповнення, а не плану, купуйте там, де вказана концентрація екстракту, і дайте засобу щонайменше пів року. Топічний міноксидил залишається засобом першої лінії з реальними доказами."
         }
       ]
     }
