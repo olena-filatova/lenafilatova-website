@@ -1,0 +1,47 @@
+---
+// Every topic in one place (OPS-367 follow-up). The cloud used to exist only at
+// the foot of the Journal index, which on 57 articles is 87% of the way down
+// the page — thirteen screens of scrolling, so nobody ever reached it. It needs
+// somewhere of its own that an article can link to from the rail.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TagCloud from '../../components/TagCloud.astro';
+import { POSTS } from '../../data/blog.js';
+import { resolveTags, tagUrl, UI } from '../../data/tags-lib.js';
+import { SITE } from '../../data/schema-lib.js';
+const t = UI.en;
+const B = import.meta.env.BASE_URL;
+const tags = resolveTags(POSTS);
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  url: `${SITE}/blog/topics/`,
+  name: t.cloudTitle,
+  description: t.cloudLead,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: tags.length,
+    itemListElement: tags.map((x, i) => ({
+      '@type': 'ListItem', position: i + 1, name: x.en, url: tagUrl('en', x.key),
+    })),
+  },
+};
+---
+<BaseLayout
+  lang="en" jsonld={jsonld}
+  title="Topics — Lena Filatova"
+  description="Every subject the journal covers, from perimenopause and blood sugar to sleep, protein and hair loss — sized by how much there is to read."
+  canonical="/blog/topics/"
+  alternates={{ en: '/blog/topics/', ua: '/ua/blog/topics/' }}
+  enHref={`${B}blog/topics/`}
+  uaHref={`${B}ua/blog/topics/`}>
+  <section class="blog-hero tag-hero">
+    <div class="wrap">
+      <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+      <div class="head">
+        <h1>{t.cloudTitle}</h1>
+        <p class="lede">{t.cloudLead}</p>
+      </div>
+    </div>
+  </section>
+  <TagCloud lang="en" heading={false} />
+</BaseLayout>

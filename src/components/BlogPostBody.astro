@@ -67,6 +67,7 @@ const toc = articleToc(a, t);
       the measure. One list, two placements: see .toc-rail in blog.css. */}
   {toc.show && (
     <div class="toc-rail">
+      <div class="rail">
       <details class="toc" open>
         <summary>{t.tocTitle}</summary>
         <nav aria-label={t.tocTitle}>
@@ -86,6 +87,25 @@ const toc = articleToc(a, t);
         if (window.matchMedia('(max-width: 1319.98px)').matches)
           document.currentScript.previousElementSibling.removeAttribute('open');
       </script>
+      {/* This article's topics, under the contents (OPS-367 follow-up). Lena
+          expected the topic cloud here, and the whole cloud does not fit: on a
+          fourteen-section article the contents list already takes 639px of the
+          768px rail. What fits — and is more use at this point anyway — is the
+          handful of topics this piece is filed under, plus the way through to
+          all of them. Only rendered in the rail; below 1320px the same links
+          are the "Filed under" line at the foot of the article. */}
+      {postTags.length > 0 && (
+        <nav class="rail-tags" aria-label={tt.onThisPost}>
+          <p class="rt-label">{tt.onThisPost}</p>
+          <ul>
+            {postTags.map((x) => (
+              <li><a href={`${B.replace(/\/$/, '')}${tagPath(lang, x.key)}`}>{x[lang]}</a></li>
+            ))}
+          </ul>
+          <a class="rt-all" href={`${L}blog/topics/`}>{tt.allTopics}</a>
+        </nav>
+      )}
+      </div>
     </div>
   )}
   <div class="prose">
