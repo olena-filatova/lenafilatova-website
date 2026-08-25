@@ -9,7 +9,9 @@
     "tool-chrome:check": "node scripts/build-tool-chrome.mjs --check",
     "link-audit": "node scripts/link-audit.mjs",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check-links": "node scripts/check-links.mjs",
+    "check-links:external": "node scripts/check-links.mjs --external"
   },
   "dependencies": {
     "astro": "^5.13.0"

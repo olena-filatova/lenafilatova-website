@@ -18655,28 +18655,28 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "The menstrual cycle affects insulin sensitivity in T1D — and perimenopause amplifies it.",
-              "detail": "A 2023 systematic review in Frontiers in Endocrinology examined how the menstrual cycle affects glycaemic outcomes and insulin sensitivity in women with type 1 diabetes. It confirmed that hormonal fluctuations across the cycle do affect blood glucose, while noting major gaps in the evidence — particularly around perimenopause.",
-              "cite": "Frontiers in Endocrinology · Systematic review, 2023",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/?term=menstrual+cycle+glucose+control+insulin+sensitivity+type+1+diabetes+systematic+review"
+              "claim": "The menstrual cycle may affect insulin sensitivity in T1D, but the evidence is not conclusive — and it thins out further at perimenopause.",
+              "detail": "A 2023 systematic review in the Journal of Personalized Medicine examined how the menstrual cycle affects glycaemic outcomes and insulin sensitivity in women with type 1 diabetes. It found 14 studies published between 1990 and 2022, with samples of 4 to 124 patients, and judged the literature at overall high risk of bias with too much heterogeneity to pool — so no meta-analysis was possible and no conclusive answer was reached. In a subset of patients a possible worsening of insulin sensitivity and hyperglycaemia in the luteal phase could be seen, but the review is explicit that the mechanism remains unclear and the literature discordant. The gap widens around perimenopause.",
+              "cite": "Journal of Personalized Medicine · Systematic review, 2023 (Gamarra & Trimboli)",
+              "url": "https://doi.org/10.3390/jpm13020374"
             },
             {
               "claim": "There is almost no dedicated research on menopause management for women with T1D.",
-              "detail": "A 2025 narrative review in Therapeutic Advances in Endocrinology and Metabolism examined the current evidence on menopause management in women with type 1 diabetes and concluded that the research gaps are substantial — calling for targeted studies to address them.",
-              "cite": "Therapeutic Advances in Endocrinology and Metabolism · Narrative review, 2025",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/?term=menopause+management+type+1+diabetes+narrative+review"
+              "detail": "A 2025 narrative review in Endocrine Connections examined the current evidence on menopause management in women with type 1 diabetes and concluded that the research gaps are substantial — calling for targeted studies to address them.",
+              "cite": "Endocrine Connections · Narrative review, 2025",
+              "url": "https://doi.org/10.1530/ec-25-0486"
             },
             {
               "claim": "HRT does reduce insulin resistance — and the evidence is growing.",
               "detail": "A 2024 meta-analysis of 17 randomised controlled trials covering more than 29,000 participants (1998–2024), presented at The Menopause Society Annual Meeting, found that hormone therapy significantly reduced insulin resistance in postmenopausal women.",
               "cite": "The Menopause Society Annual Meeting, 2024",
-              "url": "https://menopause.org/"
+              "url": "https://menopause.org/press-releases/new-meta-analysis-shows-that-hormone-therapy-can-significantly-reduce-insulin-resistance"
             },
             {
               "claim": "The field is finally catching up.",
               "detail": "A clinical trial called TIMES (Trajectories in Insulin Sensitivity Across MEnstrual cycleS in Women With Type 1 Diabetes) began recruiting in late 2025. It aims to map exactly how insulin sensitivity changes across the cycle in women with T1D — which will help build the evidence base for perimenopause management too.",
               "cite": "ClinicalTrials.gov — TIMES study",
-              "url": "https://clinicaltrials.gov/search?term=TIMES%20insulin%20sensitivity%20menstrual%20type%201%20diabetes"
+              "url": "https://clinicaltrials.gov/study/NCT06282055"
             }
           ]
         },
@@ -18826,28 +18826,28 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Менструальний цикл впливає на чутливість до інсуліну при T1D — а перименопауза це посилює.",
-              "detail": "Систематичний огляд 2023 року у Frontiers in Endocrinology дослідив, як менструальний цикл впливає на глікемічні показники та чутливість до інсуліну в жінок із діабетом 1 типу. Він підтвердив, що гормональні коливання протягом циклу впливають на глюкозу, водночас відзначивши суттєві прогалини в доказах — особливо щодо перименопаузи.",
-              "cite": "Frontiers in Endocrinology · Систематичний огляд, 2023",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/?term=menstrual+cycle+glucose+control+insulin+sensitivity+type+1+diabetes+systematic+review"
+              "claim": "Менструальний цикл може впливати на чутливість до інсуліну при T1D, але докази не є переконливими — а щодо перименопаузи їх ще менше.",
+              "detail": "Систематичний огляд 2023 року в Journal of Personalized Medicine дослідив, як менструальний цикл впливає на глікемічні показники та чутливість до інсуліну в жінок із діабетом 1 типу. Він знайшов 14 досліджень, опублікованих між 1990 і 2022 роками, з вибірками від 4 до 124 пацієнток, і оцінив літературу як таку, що загалом має високий ризик упередженості й надто неоднорідна для об\u2019єднання, — тож метааналіз був неможливий і остаточної відповіді не отримано. У частини пацієнток можна було побачити ймовірне погіршення чутливості до інсуліну та гіперглікемію в лютеїновій фазі, але огляд прямо зазначає, що механізм лишається незрозумілим, а література суперечливою. Щодо перименопаузи прогалина ще більша.",
+              "cite": "Journal of Personalized Medicine · Систематичний огляд, 2023 (Gamarra, Trimboli)",
+              "url": "https://doi.org/10.3390/jpm13020374"
             },
             {
               "claim": "Практично немає окремих досліджень про ведення менопаузи в жінок із T1D.",
-              "detail": "Наративний огляд 2025 року у Therapeutic Advances in Endocrinology and Metabolism розглянув наявні докази щодо ведення менопаузи в жінок із діабетом 1 типу й дійшов висновку, що прогалини в дослідженнях суттєві — закликаючи до цілеспрямованих досліджень.",
-              "cite": "Therapeutic Advances in Endocrinology and Metabolism · Наративний огляд, 2025",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/?term=menopause+management+type+1+diabetes+narrative+review"
+              "detail": "Наративний огляд 2025 року в Endocrine Connections розглянув наявні докази щодо ведення менопаузи в жінок із діабетом 1 типу й дійшов висновку, що прогалини в дослідженнях суттєві — закликаючи до цілеспрямованих досліджень.",
+              "cite": "Endocrine Connections · Наративний огляд, 2025",
+              "url": "https://doi.org/10.1530/ec-25-0486"
             },
             {
               "claim": "ЗГТ справді знижує інсулінорезистентність — і доказів більшає.",
               "detail": "Метааналіз 2024 року з 17 рандомізованих контрольованих досліджень за участю понад 29 000 осіб (1998–2024), представлений на щорічній зустрічі The Menopause Society, показав, що гормональна терапія суттєво знижує інсулінорезистентність у жінок у постменопаузі.",
               "cite": "Щорічна зустріч The Menopause Society, 2024",
-              "url": "https://menopause.org/"
+              "url": "https://menopause.org/press-releases/new-meta-analysis-shows-that-hormone-therapy-can-significantly-reduce-insulin-resistance"
             },
             {
               "claim": "Галузь нарешті надолужує.",
               "detail": "Клінічне дослідження під назвою TIMES (Trajectories in Insulin Sensitivity Across MEnstrual cycleS in Women With Type 1 Diabetes) розпочало набір наприкінці 2025 року. Воно має на меті точно окреслити, як змінюється чутливість до інсуліну протягом циклу в жінок із T1D — що також допоможе побудувати доказову базу для ведення перименопаузи.",
               "cite": "ClinicalTrials.gov — дослідження TIMES",
-              "url": "https://clinicaltrials.gov/search?term=TIMES%20insulin%20sensitivity%20menstrual%20type%201%20diabetes"
+              "url": "https://clinicaltrials.gov/study/NCT06282055"
             }
           ]
         },
