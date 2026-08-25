@@ -48,8 +48,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 |---|------|------|--------|---------|----------|
 | 1 | 2026-08-24 | `oral-minoxidil-for-womens-hair-loss` | done | 2026-08-25 | OPS-370 |
 | 2 | 2026-08-24 | `magnesium-perimenopause-sleep-insulin-resistance` | done | 2026-08-25 | OPS-370 |
-| 3 | 2026-08-23 | `prediabetes-signs-perimenopause` | pending | — | — |
-| 4 | 2026-08-23 | `bmi-trajectory-prediabetes-women` | pending | — | — |
+| 3 | 2026-08-23 | `prediabetes-signs-perimenopause` | done | 2026-08-25 | OPS-370 |
+| 4 | 2026-08-23 | `bmi-trajectory-prediabetes-women` | done | 2026-08-25 | OPS-370 |
 | 5 | 2026-08-22 | `insulin-resistance-hair-thinning` | pending | — | — |
 | 6 | 2026-08-21 | `perimenopause-anxiety-mind-body-exercise` | pending | — | — |
 | 7 | 2026-08-21 | `glp1-what-we-know` | pending | — | — |

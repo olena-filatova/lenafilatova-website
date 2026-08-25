@@ -978,7 +978,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The physiological link is real and reasonably well described. As oestradiol falls, body composition shifts: fat that used to sit on the hips and thighs starts collecting around the abdomen, and that abdominal fat is metabolically active in a way the old distribution was not. The Study of Women’s Health Across the Nation, which has followed thousands of women through the transition since their early forties, has also tracked two quieter changes — sex hormone-binding globulin falls and liver fat rises, and both are independently associated with higher circulating insulin, over and above how much a woman weighs. [Where the weight sits, not just how much of it there is](/blog/cortisol-belly-perimenopause/), turns out to be the part that carries metabolic meaning."
+          "text": "The physiological link is real and reasonably well described. As oestradiol falls, body composition shifts: fat that used to sit on the hips and thighs starts collecting around the abdomen, and that abdominal fat is metabolically active in a way the old distribution was not. Within the Study of Women’s Health Across the Nation, an imaging substudy scanned 208 midlife women and found two quieter things travelling together — lower sex hormone-binding globulin and more liver fat, each associated with higher circulating insulin over and above how much a woman weighed. Two hundred and eight women measured once is a small and static picture, so hold it loosely; but it points at the same place. [Where the weight sits, not just how much of it there is](/blog/cortisol-belly-perimenopause/), turns out to be the part that carries metabolic meaning."
         },
         {
           "t": "p",
@@ -1055,9 +1055,9 @@ export const POSTS = [
             },
             {
               "claim": "Neither the age at menopause nor the type of menopause independently predicts developing diabetes.",
-              "detail": "UK Biobank cohort study of nearly 147,000 women followed for a mean of 14.5 years, published online in Menopause on 14 January 2026. Mean age 60; around 60% were overweight or obese; about 4.5% (roughly 6,600 women) were diagnosed with diabetes during follow-up. Incidence was 5.2% in women with earlier-onset menopause versus 4.2% with menopause at a standard age, but the authors attributed apparent associations in preliminary analyses to confounding and concluded there was no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes. An observational cohort cannot exclude residual confounding, and UK Biobank participants are healthier and less deprived than the UK population as a whole.",
+              "detail": "UK Biobank cohort study of nearly 147,000 women followed for a mean of 14.5 years, published in Menopause in January 2026. Mean age 60; around 60% were overweight or obese; about 4.5% (roughly 6,600 women) were diagnosed with diabetes during follow-up. Incidence was 5.2% in women with earlier-onset menopause versus 4.2% with menopause at a standard age, but the authors attributed apparent associations in preliminary analyses to confounding and concluded there was no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes. An observational cohort cannot exclude residual confounding, and UK Biobank participants are healthier and less deprived than the UK population as a whole.",
               "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, January 2026",
-              "url": "https://menopause.org/press-releases/diabetes-risk-not-associated-with-timing-or-type-of-menopause"
+              "url": "https://doi.org/10.1097/GME.0000000000002720"
             },
             {
               "claim": "In the UK, an HbA1c of 42–47 mmol/mol is the range that makes someone eligible for the NHS Diabetes Prevention Programme.",
@@ -1067,8 +1067,8 @@ export const POSTS = [
             },
             {
               "claim": "Falling sex hormone-binding globulin and rising liver fat track with higher insulin in midlife women, independently of how much they weigh.",
-              "detail": "Study of Women’s Health Across the Nation (SWAN), a longitudinal cohort of women recruited in their early forties and followed through the menopausal transition. Both higher liver fat and lower sex hormone-binding globulin were significantly associated with higher insulin concentrations after adjustment for adiposity, and the transition is accompanied by a shift of fat towards the abdomen alongside a fall in lean mass. Observational cohort data: it describes what changes together over the transition rather than proving that one change causes another.",
-              "cite": "Kavanagh K et al. · Obesity (SWAN fat patterning study)",
+              "detail": "An imaging substudy within the Study of Women’s Health Across the Nation (SWAN): 208 African American and Caucasian midlife women, mean age 50.9, who had CT scans quantifying visceral, subcutaneous and liver fat. Both higher liver fat and lower sex hormone-binding globulin were significantly associated with higher insulin concentrations after adjustment for adiposity (r = −0.25, P < 0.001 and r = −0.18, P = 0.01), and the two had additive effects — women with the lowest SHBG and the highest liver fat had the highest insulin. Note the size and the shape of this: 208 women, measured at one point rather than followed, so it shows what travels together in midlife bodies and cannot show what changes across the transition or what causes what.",
+              "cite": "Kavanagh K et al. · Liver fat and SHBG affect insulin resistance in midlife women (SWAN) · Obesity, 2013",
               "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.20077"
             }
           ]
@@ -1171,7 +1171,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Фізіологічний зв’язок реальний і достатньо описаний. Коли естрадіол падає, змінюється склад тіла: жир, який раніше лежав на стегнах, починає збиратися навколо живота, і цей абдомінальний жир метаболічно активний так, як попередній розподіл не був. Дослідження SWAN, яке спостерігає за тисячами жінок від початку сорока років крізь увесь перехід, зафіксувало ще дві тихіші зміни: глобулін, що зв’язує статеві гормони, знижується, а жир у печінці зростає — і обидва незалежно пов’язані з вищим рівнем інсуліну, незалежно від того, скільки жінка важить. [Де саме лежить вага, а не лише скільки її](/ua/blog/cortisol-belly-perimenopause/), виявляється тією частиною, що несе метаболічний зміст."
+          "text": "Фізіологічний зв’язок реальний і достатньо описаний. Коли естрадіол падає, змінюється склад тіла: жир, який раніше лежав на стегнах, починає збиратися навколо живота, і цей абдомінальний жир метаболічно активний так, як попередній розподіл не був. У межах дослідження SWAN окреме візуалізаційне піддослідження просканувало 208 жінок середнього віку і знайшло дві тихіші речі, що йдуть разом: нижчий рівень глобуліну, який зв’язує статеві гормони, і більше жиру в печінці — кожна пов’язана з вищим інсуліном незалежно від того, скільки жінка важить. Двісті вісім жінок, виміряних одноразово, — це мала й статична картина, тож тримайте її обережно; але вона вказує в той самий бік. [Де саме лежить вага, а не лише скільки її](/ua/blog/cortisol-belly-perimenopause/), виявляється тією частиною, що несе метаболічний зміст."
         },
         {
           "t": "p",
@@ -1248,9 +1248,9 @@ export const POSTS = [
             },
             {
               "claim": "Ані вік настання менопаузи, ані її тип незалежно не передбачають розвитку діабету.",
-              "detail": "Когортне дослідження на базі UK Biobank: майже 147 000 жінок, середній період спостереження 14,5 року; опубліковано онлайн у журналі Menopause 14 січня 2026 року. Середній вік учасниць — 60 років, близько 60% мали надлишкову вагу або ожиріння, приблизно у 4,5% (близько 6 600 жінок) за час спостереження діагностували діабет. Захворюваність становила 5,2% серед жінок із ранньою менопаузою проти 4,2% серед жінок із менопаузою у звичайному віці, проте автори пояснили зв’язки, що з’являлися в попередніх аналізах, впливом конфаундерів і дійшли висновку, що незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету немає. Обсерваційна когорта не може виключити залишкове конфаундування, а учасниці UK Biobank здоровіші й менш соціально вразливі, ніж населення Британії загалом.",
+              "detail": "Когортне дослідження на базі UK Biobank: майже 147 000 жінок, середній період спостереження 14,5 року; опубліковано в журналі Menopause у січні 2026 року. Середній вік учасниць — 60 років, близько 60% мали надлишкову вагу або ожиріння, приблизно у 4,5% (близько 6 600 жінок) за час спостереження діагностували діабет. Захворюваність становила 5,2% серед жінок із ранньою менопаузою проти 4,2% серед жінок із менопаузою у звичайному віці, проте автори пояснили зв’язки, що з’являлися в попередніх аналізах, впливом конфаундерів і дійшли висновку, що незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету немає. Обсерваційна когорта не може виключити залишкове конфаундування, а учасниці UK Biobank здоровіші й менш соціально вразливі, ніж населення Британії загалом.",
               "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, січень 2026",
-              "url": "https://menopause.org/press-releases/diabetes-risk-not-associated-with-timing-or-type-of-menopause"
+              "url": "https://doi.org/10.1097/GME.0000000000002720"
             },
             {
               "claim": "У Британії HbA1c 42–47 ммоль/моль — це діапазон, який дає право на скерування до NHS Diabetes Prevention Programme.",
@@ -1260,8 +1260,8 @@ export const POSTS = [
             },
             {
               "claim": "Зниження глобуліну, що зв’язує статеві гормони, і зростання жиру в печінці йдуть разом із вищим інсуліном у жінок середнього віку — незалежно від ваги.",
-              "detail": "Study of Women’s Health Across the Nation (SWAN) — лонгітюдна когорта жінок, набраних на початку сорока років і простежених крізь менопаузальний перехід. Як вищий вміст жиру в печінці, так і нижчий рівень глобуліну, що зв’язує статеві гормони, були значуще пов’язані з вищими концентраціями інсуліну після поправки на ожиріння; перехід також супроводжується зміщенням жиру до живота разом зі зниженням м’язової маси. Це обсерваційні когортні дані: вони описують, що змінюється разом, а не доводять, що одна зміна спричиняє іншу.",
-              "cite": "Kavanagh K et al. · Obesity (дослідження розподілу жиру SWAN)",
+              "detail": "Візуалізаційне піддослідження в межах Study of Women’s Health Across the Nation (SWAN): 208 жінок середнього віку (афроамериканки та білі жінки), середній вік 50,9 року, яким робили КТ для вимірювання вісцерального, підшкірного та печінкового жиру. Як вищий вміст жиру в печінці, так і нижчий рівень глобуліну, що зв’язує статеві гормони, були значуще пов’язані з вищими концентраціями інсуліну після поправки на ожиріння (r = −0,25, P < 0,001 і r = −0,18, P = 0,01), причому їхні впливи додавалися: найвищий інсулін мали жінки з найнижчим ГЗСГ і найбільшим печінковим жиром. Варто зважати на розмір і форму цих даних: 208 жінок, виміряних одноразово, а не простежених у часі, — тож вони показують, що трапляється разом, але не те, що змінюється крізь перехід і що є причиною.",
+              "cite": "Kavanagh K et al. · Liver fat and SHBG affect insulin resistance in midlife women (SWAN) · Obesity, 2013",
               "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.20077"
             }
           ]
