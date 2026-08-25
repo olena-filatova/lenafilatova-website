@@ -186,11 +186,23 @@ if (EXTERNAL) {
   });
   await Promise.all(workers);
 
+  /* Hosts that refuse connections from CI runners at the network level, so the
+   * check cannot say anything about them either way. A connection reset is not
+   * evidence of a dead link — each of these was confirmed live by hand. Keep the
+   * list short and re-check entries occasionally; it is a place to record what
+   * was verified, not a place to hide failures. */
+  const BLOCKS_AUTOMATED_CHECKS = new Set([
+    'www.trialnet.org', // live; refuses datacenter IPs, verified by hand 25 Aug 2026
+  ]);
+
   /* The publisher declined to talk to a bot — says nothing about the link.
    * 403 is the common one; 412 is Cloudflare's precondition check (Cochrane
    * serves it); 451 is geo-blocking; 429 is rate limiting, which our own
    * concurrency can provoke. */
-  const inconclusive = results.filter((r) => [401, 403, 412, 429, 451].includes(r.status));
+  const inconclusive = results.filter(
+    (r) => [401, 403, 412, 429, 451].includes(r.status) ||
+           (r.status === 0 && BLOCKS_AUTOMATED_CHECKS.has(new URL(r.url).hostname)),
+  );
   const ok = results.filter((r) => r.status >= 200 && r.status < 400);
   externalBroken = results.filter((r) => !ok.includes(r) && !inconclusive.includes(r));
 

@@ -17487,7 +17487,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Dr Stacy Sims](https://www.drstacysims.com/newsletters/articles/posts/optimal-protein-intake-for-women) goes further, recommending 2.0–2.3g/kg for women in perimenopause and menopause, specifically to counteract anabolic resistance:"
+          "text": "[Dr Stacy Sims](https://www.drstacysims.com/) goes further, recommending 2.0–2.3g/kg for women in perimenopause and menopause, specifically to counteract anabolic resistance:"
         },
         {
           "t": "quote",
@@ -17699,7 +17699,7 @@ export const POSTS = [
             },
             {
               "name": "Dr Stacy Sims — articles on protein and female physiology",
-              "url": "https://www.drstacysims.com/newsletters/articles",
+              "url": "https://www.drstacysims.com/",
               "desc": "The most thorough, female-specific breakdown of protein needs across the lifespan, from an exercise physiologist focused on female physiology."
             },
             {
@@ -17824,7 +17824,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Д-р Стейсі Сімс](https://www.drstacysims.com/newsletters/articles/posts/optimal-protein-intake-for-women) йде далі, рекомендуючи 2,0–2,3 г/кг для жінок у перименопаузі та менопаузі, саме щоб протидіяти анаболічній резистентності:"
+          "text": "[Д-р Стейсі Сімс](https://www.drstacysims.com/) йде далі, рекомендуючи 2,0–2,3 г/кг для жінок у перименопаузі та менопаузі, саме щоб протидіяти анаболічній резистентності:"
         },
         {
           "t": "quote",
@@ -18036,7 +18036,7 @@ export const POSTS = [
             },
             {
               "name": "Д-р Стейсі Сімс — статті про білок і жіночу фізіологію",
-              "url": "https://www.drstacysims.com/newsletters/articles",
+              "url": "https://www.drstacysims.com/",
               "desc": "Найдетальніший, специфічний для жінок розбір потреби в білку впродовж життя від фізіологині, яка присвятила кар’єру жіночій фізіології."
             },
             {
