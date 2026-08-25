@@ -43,7 +43,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
-      "imageAlt": "A woman in her forties parting her hair in front of a bathroom mirror, looking closely at her scalp.",
+      "imageAlt": "A woman with a short dark bob at a bathroom mirror, one hand lifted to her hairline, studying her reflection.",
       "title": "Oral minoxidil for women's hair loss: the doses, the side effects, and how to raise it with a UK GP",
       "seoTitle": "Oral Minoxidil for Women's Hair Loss: Dose & Side Effects",
       "metaDesc": "What low-dose oral minoxidil is, the doses prescribed to women, the side effects, who should avoid it, and how to raise it with a UK GP.",
@@ -253,7 +253,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
-      "imageAlt": "Жінка за сорок розділяє волосся проділом перед дзеркалом у ванній і уважно роздивляється шкіру голови.",
+      "imageAlt": "Жінка з коротким темним каре стоїть перед дзеркалом у ванній, піднявши руку до лінії росту волосся, і роздивляється своє відображення.",
       "title": "Міноксидил у таблетках при випадінні волосся в жінок: дози, побічні ефекти й розмова з лікарем",
       "seoTitle": "Міноксидил у таблетках для жінок: дози й побічні ефекти",
       "metaDesc": "Що таке міноксидил у низьких дозах, які дози призначають жінкам, побічні ефекти, кому не можна — і як говорити про це з лікарем у Великій Британії.",
@@ -478,7 +478,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
-      "imageAlt": "A glass of water and a small pile of magnesium tablets on a kitchen worktop beside a bowl of pumpkin seeds.",
+      "imageAlt": "An open palm holding a small pile of white tablets, the other hand around a glass of water on a pale wooden table.",
       "title": "Magnesium for perimenopause sleep and insulin resistance: what the evidence supports",
       "seoTitle": "Magnesium for Perimenopause Sleep & Insulin Resistance",
       "metaDesc": "What the evidence actually shows about magnesium for perimenopause sleep and blood sugar — and where the claims outrun the research.",
@@ -686,7 +686,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
-      "imageAlt": "Склянка води й невелика купка таблеток магнію на кухонній стільниці поруч із мискою гарбузового насіння.",
+      "imageAlt": "Розкрита долоня з невеликою купкою білих таблеток, друга рука тримає склянку води на світлому дерев\u2019яному столі.",
       "title": "Магній для сну та інсулінорезистентності в перименопаузі: що підтверджують дослідження",
       "seoTitle": "Магній у перименопаузі: сон та інсулінорезистентність",
       "metaDesc": "Що насправді показують дослідження про магній для сну та цукру в крові в перименопаузі — і де обіцянки випереджають науку.",
@@ -916,7 +916,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Perimenopause & Diabetes",
-      "imageAlt": "A woman in her forties sitting at a kitchen table in morning light, looking tired, a cup of coffee untouched in front of her.",
+      "imageAlt": "A woman in her forties standing at a bright window with a cup and saucer in her hands, looking out past a houseplant on the sill.",
       "title": "Prediabetes signs in perimenopause that get mistaken for “just hormones”",
       "seoTitle": "Prediabetes Signs in Perimenopause, Not Just Hormones",
       "metaDesc": "The blood sugar signs perimenopause hides, why they overlap with hormone symptoms, and what to ask your GP for. General information, not diagnosis.",
@@ -1109,7 +1109,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Перименопауза і діабет",
-      "imageAlt": "Жінка близько сорока сидить за кухонним столом у ранковому світлі, втомлена, перед нею неторкана чашка кави.",
+      "imageAlt": "Жінка близько сорока стоїть біля світлого вікна з чашкою та блюдцем у руках і дивиться надвір повз кімнатну рослину на підвіконні.",
       "title": "Ознаки предіабету в перименопаузі, які списують на «просто гормони»",
       "seoTitle": "Предіабет у перименопаузі: не «просто гормони»",
       "metaDesc": "Які ознаки цукру в крові ховає перименопауза, чому вони збігаються з гормональними симптомами і про що просити лікаря. Загальна інформація, не діагноз.",
@@ -1319,7 +1319,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
-      "imageAlt": "A small notebook open on a table, showing a column of dates with a weight written beside each, a pen resting across the page.",
+      "imageAlt": "An open notebook headed \u2018Weight log\u2019 on a dark wooden table, one page listing goals and the other a dated table of weights, a pen and a dumbbell beside it.",
       "title": "A normal BMI told these women nothing — the direction it was moving told them a lot",
       "seoTitle": "BMI Trajectory and Prediabetes: A 7-Year Study",
       "metaDesc": "A Japanese cohort followed 2,271 women for seven years. Small year-on-year BMI gain predicted prediabetes even in women whose BMI never left the normal range.",
@@ -1402,7 +1402,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
-      "imageAlt": "Невеликий записник, розгорнутий на столі: стовпчик дат, поруч із кожною записана вага, упоперек сторінки лежить ручка.",
+      "imageAlt": "Розгорнутий записник із заголовком \u00abWeight log\u00bb на темному дерев\u2019яному столі: на одній сторінці перелік цілей, на іншій — таблиця зважувань за датами, поруч ручка й гантель.",
       "title": "Нормальний ІМТ не сказав цим жінкам нічого — а напрямок, у якому він рухався, сказав багато",
       "seoTitle": "Траєкторія ІМТ і предіабет: 7 років спостережень",
       "metaDesc": "Японська когорта спостерігала 2 271 жінку сім років. Невеликий щорічний приріст ІМТ передбачав предіабет навіть у тих, чий ІМТ не виходив за межі норми.",
@@ -1504,7 +1504,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
-      "imageAlt": "A woman in her forties sitting in daylight by a window, lifting a section of hair at her crown to see where it parts.",
+      "imageAlt": "A close-up of the top of a woman\u2019s head, her hands holding the hair apart at the parting so the scalp shows.",
       "title": "Insulin resistance and hair thinning after 40 — what the link actually is, and what helps",
       "seoTitle": "Insulin Resistance and Hair Thinning After 40",
       "metaDesc": "Why raised insulin is linked to thinning hair, how to tell it apart from menopausal and thyroid hair loss, and what the evidence really supports. Not medical advice.",
@@ -1690,7 +1690,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
-      "imageAlt": "Жінка близько сорока сидить біля вікна при денному світлі та піднімає пасмо волосся на маківці, щоб розгледіти пробір.",
+      "imageAlt": "Великий план верхівки голови: жінка розводить волосся руками біля проділу так, що видно шкіру голови.",
       "title": "Інсулінорезистентність і порідіння волосся після 40 — який зв'язок насправді і що допомагає",
       "seoTitle": "Інсулінорезистентність і порідіння волосся",
       "metaDesc": "Чому підвищений інсулін пов'язаний із порідінням волосся, як відрізнити його від менопаузального й тиреоїдного випадіння та що справді підтверджують дані.",
