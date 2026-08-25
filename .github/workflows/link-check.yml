@@ -1,0 +1,34 @@
+name: Link check
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # External links rot slowly and silently. Weekly is enough to catch it, and
+    # the run is advisory, so a Monday-morning failure never blocks a deploy.
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      # Internal breaks are unambiguous and ours. This gate fails the PR.
+      - name: Internal links, images and citation hygiene
+        run: node scripts/check-links.mjs
+      # External results are not a gate: publishers 403 anything that looks like a
+      # bot, so a red run here would mean nothing after the second week. Read the
+      # step summary. Only runs where it can tell you something — a scheduled sweep
+      # or a manual run — not on every PR.
+      - name: Resolve external links (advisory)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: node scripts/check-links.mjs --external
