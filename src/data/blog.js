@@ -44,7 +44,7 @@ export const POSTS = [
       "cat": "Diabetes",
       "title": "Does the drug industry actually want a cure for type 1 diabetes?",
       "seoTitle": "Is Pharma Hiding a Type 1 Diabetes Cure?",
-      "metaDesc": "Many people with type 1 believe pharma makes too much from insulin to want a cure. I followed the money through the accounts, the deals and the trials.",
+      "metaDesc": "Many with type 1 believe pharma profits too much from insulin to want a cure. I followed the money — the accounts, the deals, and what the NHS now funds.",
       "excerpt": "They will never cure it — there is too much money in insulin. It is one of the most common things people with type 1 say to me. It is also a claim about business, and business leaves a paper trail. So I went and read it.",
       "meta": "25 August 2026 · 12 min read",
       "lead": "“They will never cure it. There is too much money in insulin.” It is one of the most common things people with type 1 say to me — usually quietly, usually once they trust me enough. I understand why it lands. But it is a claim about business, and business leaves a paper trail: company accounts, what firms buy, what they quietly walk away from. So I went and read the trail.",
@@ -60,6 +60,10 @@ export const POSTS = [
         {
           "t": "p",
           "text": "I want to start by saying the mistrust is earned, because it is. Three companies — Novo Nordisk, Eli Lilly and Sanofi — supply the overwhelming majority of the world’s insulin. For two decades the US list price of that insulin rose relentlessly, people rationed a drug they need to stay alive, and the companies raised prices in near-lockstep anyway. It took congressional hearings, lawsuits and a change in US law before, across 2023 and 2024, all three cut list prices — Lilly by 70% on Humalog and Humulin, Novo Nordisk by 75% on NovoLog and 65% on Novolin and Levemir, Sanofi by 78% on Lantus — and capped what most patients pay out of pocket at $35 a month."
+        },
+        {
+          "t": "p",
+          "text": "That is a United States story, and it matters that I say so, because insulin in Britain is free at the point of use and always has been. The suspicion travels here anyway — partly because so much of what we read is American, and partly because we have had our own version of it. Over the past year Lilly has been quietly pulling insulins out of the UK: Humalog Mix25, and the 10ml vials of Humulin I, Humulin M3 and Humulin S, all running down through the spring of 2026. Nobody’s price went up. People simply had to change insulin because a company decided a product was no longer worth marketing here."
         },
         {
           "t": "p",
@@ -103,7 +107,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "So the thing supposedly being protected is one slice of a product that is old, largely off-patent, undercut by biosimilars, now price-capped in its biggest market, and being actively withdrawn from others. Meanwhile, look at what a one-time therapy sells for. Vertex prices Casgevy, its gene-editing treatment for sickle cell disease, at $2.2 million per patient in the US. Bluebird’s Lyfgenia lists at $3.1 million. Lenmeldy, for a rare childhood disorder, at $4.25 million."
+          "text": "So the thing supposedly being protected is one slice of a product that is old, largely off-patent, undercut by biosimilars, now price-capped in its biggest market, and being actively withdrawn from others. Meanwhile, look at what a one-time therapy sells for. Vertex prices Casgevy, its gene-editing treatment for sickle cell disease, at $2.2 million per patient in the US. Bluebird’s Lyfgenia lists at $3.1 million. Lenmeldy, for a rare childhood disorder, at $4.25 million. Those are American list prices — the British picture is different, and I come back to it."
         },
         {
           "t": "p",
@@ -179,7 +183,7 @@ export const POSTS = [
             ],
             [
               "A cure will be priced out of reach",
-              "The most credible fear on this list. Comparable one-time therapies list at $2.2m to $4.25m per patient",
+              "The most credible fear on this list — though less so here. Comparable one-time therapies list at $2.2m–$4.25m in the US; in the UK Casgevy lists at £1.65m and the NHS funds it at a confidential discount",
               "This is the fight worth having — about price and access, not about whether a cure exists"
             ]
           ]
@@ -214,6 +218,30 @@ export const POSTS = [
         },
         {
           "t": "h",
+          "text": "What all this looks like from the UK"
+        },
+        {
+          "t": "p",
+          "text": "Almost everything above is denominated in dollars, because that is where these companies file their accounts and run their pivotal trials. But the question that actually matters to you is a British one: what can I get, and when? On that, the last two months have changed the answer."
+        },
+        {
+          "t": "p",
+          "text": "Teplizumab — the drug Sanofi paid $2.9 billion for — is now recommended for use on the NHS. NICE published its guidance on 9 July 2026, covering children aged eight and over and adults with stage 2 type 1 diabetes, and England became the first country in Europe to back it through a health technology appraisal. The committee put the average delay at nearly three years. Around 1,100 people are expected to be eligible in the first year, settling to roughly 820 a year after that. It reaches patients in England within 90 days of the guidance and in Wales 60 days from 23 June; Scotland and Northern Ireland decide separately. Sanofi agreed a confidential discount to get it there."
+        },
+        {
+          "t": "p",
+          "text": "Which is also the answer to the fear I called the most credible one. In the UK a million-pound therapy does not have to mean a million pounds out of anybody’s pocket — it means a NICE appraisal and a commercial deal. Casgevy, the Vertex gene-editing therapy I quoted at $2.2 million in America, lists at £1.65 million here, and the NHS has it anyway: recommended for beta thalassaemia in 2024 and for severe sickle cell disease in January 2025, supplied at a confidential discount under managed access. So the company furthest ahead on a type 1 cure has already been through this process once, with the NHS, and got a yes. That is not a guarantee about a therapy which does not exist yet. But it is a far better precedent than the American list price suggests."
+        },
+        {
+          "t": "p",
+          "text": "The screening picture is British too, and it now leads somewhere. ELSA, funded by Diabetes UK and Breakthrough T1D, screens children aged 2 to 17; its first phase tested 17,283 children and reported in The Lancet Diabetes & Endocrinology that a finger-prick test can pick up the risk years ahead — one autoantibody carries roughly a 15% chance over ten years, while two or more means the process has already started. T1DRA does the same for adults aged 18 to 70. Until this summer a stage 2 result in the UK mostly bought you information. Now it can buy you the drug."
+        },
+        {
+          "t": "p",
+          "text": "And the money behind the British end of this is almost entirely philanthropic. The Type 1 Diabetes Grand Challenge runs on £50 million from the Steve Morgan Foundation with Breakthrough T1D and Diabetes UK; the Bukhman Foundation pledged £100 million over ten years in 2025; Oxford accepted a £10 million gift for type 1 research the same September. That is generous, and it is also fragile in the way charitable funding always is — which is the American point again, in pounds."
+        },
+        {
+          "t": "h",
           "text": "What I would do with all this"
         },
         {
@@ -226,7 +254,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Third, if you have a close relative with type 1, look into free autoantibody screening — TrialNet in much of the world, ELSA in the UK. The drug that can delay type 1 altogether only works before symptoms start, which means being found early is not a technicality. It is the whole thing."
+          "text": "Third, get screened, or get the relatives who might need it screened. In the UK that means ELSA for children aged 2 to 17 and T1DRA for adults up to 70, both free; TrialNet covers much of the rest of the world. The drug that can delay type 1 altogether only works before symptoms start, and it is now funded on the NHS — which means being found early is not a technicality. It is the whole thing."
         },
         {
           "t": "p",
@@ -268,6 +296,18 @@ export const POSTS = [
               "detail": "Novo exited cell therapy in October 2025, discontinuing its stem-cell type 1 programme and laying off nearly all of its roughly 250 cell-therapy staff, then transferred the stem-cell islet and hypoimmune technologies to Aspect Biosystems in January 2026 with an equity investment and retained options. It followed a September 2025 restructuring that cut 9,000 of 78,400 jobs for DKK 8 billion in savings; the heart-failure cell therapy partnership was dropped at the same time.",
               "cite": "BioSpace · January 2026",
               "url": "https://www.biospace.com/deals/after-cell-therapy-retreat-novo-offloads-technologies-in-deepened-aspect-pact"
+            },
+            {
+              "claim": "Teplizumab is now recommended for NHS use in England and Wales.",
+              "detail": "NICE technology appraisal TA1176, published 9 July 2026, recommends teplizumab for delaying the onset of stage 3 type 1 diabetes in people aged 8 and over with stage 2 disease, under a simple discount patient access scheme. NICE put the average delay at nearly three years and expects about 1,100 people to be eligible in the first year, settling to roughly 820 a year. England is the first country in Europe to recommend it through a health technology appraisal; Scotland and Northern Ireland decide separately.",
+              "cite": "NICE · TA1176, 9 July 2026",
+              "url": "https://www.nice.org.uk/guidance/ta1176"
+            },
+            {
+              "claim": "A million-pound one-time therapy from the same company is already funded by the NHS.",
+              "detail": "Casgevy, Vertex’s gene-editing therapy, has a UK list price of £1.65 million and is available on the NHS at a confidential discount under managed access — recommended for transfusion-dependent beta thalassaemia in 2024 and for severe sickle cell disease in January 2025. It is the closest precedent for how a curative type 1 cell therapy would reach patients here.",
+              "cite": "NHS England / NICE · managed access",
+              "url": "https://www.nice.org.uk/guidance/ta1044"
             },
             {
               "claim": "Charities and taxpayers fund the early, risky science.",
@@ -328,7 +368,7 @@ export const POSTS = [
         },
         {
           "q": "Which pharmaceutical companies are actually working on a cure for type 1 diabetes?",
-          "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — enrolment is complete, though dosing was temporarily paused in early 2026 for an internal manufacturing analysis and the filing timeline is due to be updated. Sanofi owns Tzield, the only approved drug that changes the course of type 1. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
+          "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — enrolment is complete, though dosing was temporarily paused in early 2026 for an internal manufacturing analysis and the filing timeline is due to be updated. Sanofi owns Tzield, the only approved drug that changes the course of type 1 — NICE recommended it for NHS use in July 2026. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
         },
         {
           "q": "Would a type 1 cure destroy insulin sales?",
@@ -340,7 +380,7 @@ export const POSTS = [
         },
         {
           "q": "If a cure is approved, will people actually be able to get it?",
-          "a": "That is the real question, and it is unresolved. The first approvals will likely be limited to people with severe, unpredictable hypoglycaemia, because most cell replacement still requires lifelong immune-suppressing drugs. And pricing is likely to follow the pattern of other one-time therapies, which list in the millions. Whether health systems fund it, and for whom, is a policy fight — and one where public pressure has already changed insulin pricing once."
+          "a": "That is the real question, and it is unresolved. The first approvals will likely be limited to people with severe, unpredictable hypoglycaemia, because most cell replacement still requires lifelong immune-suppressing drugs. And pricing is likely to follow the pattern of other one-time therapies, which list in the millions. Whether health systems fund it, and for whom, is a policy fight. In the UK the route is a NICE appraisal plus a confidential discount, and it does work: Casgevy lists at £1.65 million and the NHS funds it under managed access, while teplizumab was recommended for NHS use in July 2026."
         }
       ]
     },
@@ -348,7 +388,7 @@ export const POSTS = [
       "cat": "Діабет",
       "title": "Чи справді фармкомпанії хочуть вилікувати діабет 1 типу?",
       "seoTitle": "Чи приховує фарма ліки від діабету 1 типу?",
-      "metaDesc": "Багато людей з діабетом 1 типу вважають, що фармі надто вигідний інсулін. Я пройшла за грошима — через звітність, угоди й дослідження.",
+      "metaDesc": "Багато людей з діабетом 1 типу вважають, що фармі надто вигідний інсулін. Я пройшла за грошима — звітність, угоди і те, що вже оплачує NHS.",
       "excerpt": "Його ніколи не вилікують — на інсуліні надто багато грошей. Це одна з найчастіших фраз, які я чую від людей із діабетом 1 типу. Але це твердження про бізнес, а бізнес залишає паперовий слід. Тож я його прочитала.",
       "meta": "25 серпня 2026 · 12 хв читання",
       "lead": "«Його ніколи не вилікують. На інсуліні надто багато грошей». Це одна з найчастіших фраз, які я чую від людей із діабетом 1 типу — зазвичай тихо й зазвичай тоді, коли мені вже досить довіряють. Я розумію, чому вона звучить переконливо. Але це твердження про бізнес, а бізнес залишає паперовий слід: фінансова звітність, те, що компанії купують, і те, від чого тихо йдуть. Тож я цей слід прочитала.",
@@ -364,6 +404,10 @@ export const POSTS = [
         {
           "t": "p",
           "text": "Почну з того, що ця недовіра заслужена. Три компанії — Novo Nordisk, Eli Lilly і Sanofi — постачають переважну більшість світового інсуліну. Двадцять років поспіль офіційна ціна інсуліну в США невпинно зростала, люди економили препарат, без якого не живуть, а компанії однаково піднімали ціни майже синхронно. Знадобилися слухання в Конгресі, судові позови та зміна американського законодавства, щоб протягом 2023–2024 років усі три знизили ціни: Lilly — на 70% на Humalog і Humulin, Novo Nordisk — на 75% на NovoLog і на 65% на Novolin та Levemir, Sanofi — на 78% на Lantus, і обмежили доплату пацієнта 35 доларами на місяць."
+        },
+        {
+          "t": "p",
+          "text": "Це історія Сполучених Штатів, і мені важливо це сказати, бо у Британії інсулін безкоштовний у момент отримання — і завжди був. Підозра однаково доїжджає сюди: почасти тому, що більшість того, що ми читаємо, американське, а почасти тому, що ми мали власну версію цієї історії. За останній рік Lilly тихо вивела з британського ринку кілька інсулінів: Humalog Mix25, а також флакони по 10 мл Humulin I, Humulin M3 і Humulin S — усі вони закінчувалися протягом весни 2026 року. Ціни ні для кого не зросли. Людям просто довелося змінити інсулін, бо компанія вирішила, що продавати тут цей продукт більше не варто."
         },
         {
           "t": "p",
@@ -407,7 +451,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Тобто те, що нібито захищають, — це один сегмент продукту, який старий, здебільшого без патентного захисту, підрізаний біосимілярами, з обмеженою ціною на найбільшому ринку і який активно виводять з інших. А тепер погляньмо, скільки коштує одноразова терапія. Vertex продає Casgevy, свою терапію редагування генів при серпоподібноклітинній анемії, за 2,2 мільйона доларів на пацієнта у США. Lyfgenia від Bluebird — 3,1 мільйона. Lenmeldy, для рідкісного дитячого захворювання, — 4,25 мільйона."
+          "text": "Тобто те, що нібито захищають, — це один сегмент продукту, який старий, здебільшого без патентного захисту, підрізаний біосимілярами, з обмеженою ціною на найбільшому ринку і який активно виводять з інших. А тепер погляньмо, скільки коштує одноразова терапія. Vertex продає Casgevy, свою терапію редагування генів при серпоподібноклітинній анемії, за 2,2 мільйона доларів на пацієнта у США. Lyfgenia від Bluebird — 3,1 мільйона. Lenmeldy, для рідкісного дитячого захворювання, — 4,25 мільйона. Це американські прейскурантні ціни — британська картина інша, і я до неї повернуся."
         },
         {
           "t": "p",
@@ -483,7 +527,7 @@ export const POSTS = [
             ],
             [
               "Ліки будуть недоступними за ціною",
-              "Найобґрунтованіший страх у цьому переліку. Схожі одноразові терапії коштують від 2,2 до 4,25 млн доларів на пацієнта",
+              "Найобґрунтованіший страх у переліку — хоча тут менше. Схожі одноразові терапії коштують 2,2–4,25 млн доларів у США; у Британії Casgevy коштує 1,65 млн фунтів, і NHS оплачує її за конфіденційною знижкою",
               "Ось битва, яку варто вести — про ціну й доступ, а не про те, чи існують ліки"
             ]
           ]
@@ -518,6 +562,30 @@ export const POSTS = [
         },
         {
           "t": "h",
+          "text": "Як усе це виглядає з Британії"
+        },
+        {
+          "t": "p",
+          "text": "Майже все вище — у доларах, бо саме там ці компанії подають звітність і проводять ключові дослідження. Але питання, яке справді має значення для вас, — британське: що я можу отримати і коли? І тут за останні два місяці відповідь змінилася."
+        },
+        {
+          "t": "p",
+          "text": "Теплізумаб — препарат, за який Sanofi заплатила 2,9 мільярда доларів, — тепер рекомендований до застосування в NHS. NICE опублікував настанову 9 липня 2026 року для дітей від восьми років і дорослих із 2-ю стадією діабету 1 типу, і Англія стала першою країною Європи, яка підтримала його через оцінку медичних технологій. Комітет оцінив середню відстрочку майже у три роки. Очікується, що в перший рік право на лікування матимуть близько 1 100 людей, а далі — приблизно 820 на рік. В Англії препарат дійде до пацієнтів протягом 90 днів після настанови, в Уельсі — через 60 днів від 23 червня; Шотландія та Північна Ірландія вирішують окремо. Щоб це сталося, Sanofi погодилася на конфіденційну знижку."
+        },
+        {
+          "t": "p",
+          "text": "Це водночас і відповідь на страх, який я назвала найобґрунтованішим. У Британії терапія вартістю в мільйон фунтів не означає мільйон фунтів із чиєїсь кишені — вона означає оцінку NICE і комерційну домовленість. Casgevy, терапія редагування генів від Vertex, яку я наводила за 2,2 мільйона доларів в Америці, тут коштує 1,65 мільйона фунтів — і NHS усе одно її має: рекомендована при бета-таласемії у 2024 році та при тяжкій серпоподібноклітинній анемії в січні 2025-го, із постачанням за конфіденційною знижкою в межах керованого доступу. Тобто компанія, яка просунулася найдалі до лікування діабету 1 типу, вже пройшла цю процедуру з NHS — і отримала «так». Це не гарантія щодо терапії, якої ще не існує. Але це значно кращий прецедент, ніж підказує американський прейскурант."
+        },
+        {
+          "t": "p",
+          "text": "Картина зі скринінгом теж британська — і тепер вона кудись веде. ELSA, яку фінансують Diabetes UK і Breakthrough T1D, обстежує дітей від 2 до 17 років; у першій фазі перевірили 17 283 дитини, і в The Lancet Diabetes & Endocrinology повідомили, що аналіз крові з пальця здатен виявити ризик за роки наперед: одне аутоантитіло дає приблизно 15% імовірності протягом десяти років, а два й більше означають, що процес уже почався. T1DRA робить те саме для дорослих від 18 до 70 років. До цього літа результат «2-га стадія» у Британії давав здебільшого інформацію. Тепер він може дати ще й препарат."
+        },
+        {
+          "t": "p",
+          "text": "А гроші за британською частиною цієї роботи — майже повністю благодійні. Type 1 Diabetes Grand Challenge працює на 50 мільйонів фунтів від Steve Morgan Foundation разом із Breakthrough T1D і Diabetes UK; Bukhman Foundation у 2025 році пообіцяв 100 мільйонів фунтів на десять років; того ж вересня Оксфорд прийняв подарунок у 10 мільйонів фунтів на дослідження діабету 1 типу. Це щедро — і це так само крихко, як завжди буває з благодійним фінансуванням. Тобто та сама американська теза, лише у фунтах."
+        },
+        {
+          "t": "h",
           "text": "Що б я з усім цим робила"
         },
         {
@@ -530,7 +598,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "По-третє, якщо у вас є близький родич із діабетом 1 типу, дізнайтеся про безкоштовне обстеження на аутоантитіла — TrialNet у більшості країн, ELSA у Великій Британії. Препарат, який може взагалі відтермінувати діабет 1 типу, працює лише до появи симптомів, тож раннє виявлення — це не формальність. Це і є вся суть."
+          "text": "По-третє, пройдіть обстеження самі або допоможіть пройти рідним, яким це потрібно. У Британії це ELSA для дітей від 2 до 17 років і T1DRA для дорослих до 70 — обидва безкоштовні; TrialNet охоплює більшу частину решти світу. Препарат, який може взагалі відтермінувати діабет 1 типу, працює лише до появи симптомів, і тепер його фінансує NHS — тож раннє виявлення це не формальність. Це і є вся суть."
         },
         {
           "t": "p",
@@ -572,6 +640,18 @@ export const POSTS = [
               "detail": "Novo вийшла з клітинної терапії у жовтні 2025 року, закривши програму зі стовбурових клітин для діабету 1 типу й звільнивши майже всіх із приблизно 250 співробітників напряму, а в січні 2026 року передала технології острівцевих і гіпоімунних клітин компанії Aspect Biosystems з інвестицією в капітал і збереженими опціями. Це сталося після реструктуризації у вересні 2025 року, коли скоротили 9 000 із 78 400 робочих місць заради 8 мільярдів крон економії; партнерство з клітинної терапії серцевої недостатності згорнули тоді ж.",
               "cite": "BioSpace · січень 2026",
               "url": "https://www.biospace.com/deals/after-cell-therapy-retreat-novo-offloads-technologies-in-deepened-aspect-pact"
+            },
+            {
+              "claim": "Теплізумаб тепер рекомендований для застосування в NHS в Англії та Уельсі.",
+              "detail": "Оцінка технології NICE TA1176, опублікована 9 липня 2026 року, рекомендує теплізумаб для відтермінування 3-ї стадії діабету 1 типу в людей від 8 років із 2-ю стадією, у межах схеми доступу з простою знижкою. NICE оцінив середню відстрочку майже у три роки й очікує близько 1 100 людей, які матимуть право на лікування в перший рік, і приблизно 820 на рік далі. Англія — перша країна Європи, яка рекомендувала його через оцінку медичних технологій; Шотландія та Північна Ірландія вирішують окремо.",
+              "cite": "NICE · TA1176, 9 липня 2026",
+              "url": "https://www.nice.org.uk/guidance/ta1176"
+            },
+            {
+              "claim": "Одноразову терапію вартістю в мільйони фунтів від тієї ж компанії NHS уже оплачує.",
+              "detail": "Casgevy, терапія редагування генів від Vertex, має британську прейскурантну ціну 1,65 мільйона фунтів і доступна в NHS за конфіденційною знижкою в межах керованого доступу — рекомендована при трансфузійно-залежній бета-таласемії у 2024 році та при тяжкій серпоподібноклітинній анемії в січні 2025-го. Це найближчий прецедент того, як клітинна терапія від діабету 1 типу дійшла б до пацієнтів тут.",
+              "cite": "NHS England / NICE · керований доступ",
+              "url": "https://www.nice.org.uk/guidance/ta1044"
             },
             {
               "claim": "Ранню, ризиковану науку фінансують благодійники й платники податків.",
@@ -632,7 +712,7 @@ export const POSTS = [
         },
         {
           "q": "Які фармкомпанії справді працюють над лікуванням діабету 1 типу?",
-          "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: набір завершено, але на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, і строки подання заявки мають оновити. Sanofi володіє Tzield — єдиним схваленим препаратом, що змінює перебіг діабету 1 типу. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
+          "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: набір завершено, але на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, і строки подання заявки мають оновити. Sanofi володіє Tzield — єдиним схваленим препаратом, що змінює перебіг діабету 1 типу; у липні 2026 року NICE рекомендував його для застосування в NHS. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
         },
         {
           "q": "Чи знищили б ліки від діабету 1 типу продажі інсуліну?",
@@ -644,7 +724,7 @@ export const POSTS = [
         },
         {
           "q": "Якщо ліки схвалять, чи зможуть люди їх отримати?",
-          "a": "Це і є справжнє питання, і воно не вирішене. Перші схвалення, найімовірніше, обмежаться людьми з важкими непередбачуваними гіпоглікеміями, бо більшість підходів із заміщення клітин досі потребує довічної імуносупресії. А ціна, ймовірно, повторить схему інших одноразових терапій, які коштують мільйони. Чи фінансуватимуть це системи охорони здоров’я і для кого — це політичне питання, і в ньому суспільний тиск уже одного разу змінив ціни на інсулін."
+          "a": "Це і є справжнє питання, і воно не вирішене. Перші схвалення, найімовірніше, обмежаться людьми з важкими непередбачуваними гіпоглікеміями, бо більшість підходів із заміщення клітин досі потребує довічної імуносупресії. А ціна, ймовірно, повторить схему інших одноразових терапій, які коштують мільйони. Чи фінансуватимуть це системи охорони здоров’я і для кого — це політичне питання. У Британії шлях такий: оцінка NICE плюс конфіденційна знижка, і він працює: Casgevy коштує 1,65 мільйона фунтів, і NHS оплачує її в межах керованого доступу, а теплізумаб рекомендували для NHS у липні 2026 року."
         }
       ]
     }
