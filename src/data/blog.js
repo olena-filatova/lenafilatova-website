@@ -105,7 +105,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The most useful safety data comes from a multicentre study of 1,404 patients taking low-dose oral minoxidil for hair loss, two-thirds of them women, average age 43. Ranked by how often they happened: unwanted hair growth elsewhere on the body in 15.1%, lightheadedness in 1.7%, fluid retention in 1.3%, a fast heartbeat in 0.9%, headache in 0.4%, puffiness around the eyes in 0.3% and insomnia in 0.2%. No life-threatening effects were recorded. Across the whole group, 1.7% stopped because of a side effect."
+          "text": "The most useful safety data comes from a multicentre study of 1,404 patients taking low-dose oral minoxidil for hair loss, two-thirds of them women, average age 43. Ranked by how often they happened: unwanted hair growth elsewhere on the body in 15.1%, lightheadedness in 1.7%, fluid retention in 1.3%, a fast heartbeat in 0.9%, headache in 0.4%, puffiness around the eyes in 0.3% and insomnia in 0.2%. No life-threatening effects were recorded. Across the whole group, 43 people \u2014 about 3% \u2014 stopped because of a side effect."
         },
         {
           "t": "p",
@@ -117,7 +117,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Somewhere in your reading you will meet the claim that minoxidil causes fluid around the heart in about 3% of people. That figure is real, and it is from the original blood-pressure product's label — patients on 10 to 40 mg a day, many of them with failing kidneys. It is not a description of 1.25 mg. In the published data covering more than 600 patients on 5 mg a day or less, there are no reported cases of symptomatic pericardial effusion."
+          "text": "Somewhere in your reading you will meet the claim that minoxidil causes fluid around the heart in about 3% of people. That figure is real, and it is from the original blood-pressure product's label — patients on 10 to 40 mg a day, many of them with failing kidneys. It is not a description of 1.25 mg. It is not zero at hair-loss doses either, though: a 2024 analysis of the FDA\u2019s adverse-event reporting database still found a signal for pericardial effusion at 2.5 mg a day and below, and that signal was nearly ten times stronger in people who already had a cardiac condition than in people who did not. Rare, reported, and concentrated in hearts that were already struggling \u2014 that is the honest version, and it is why the contraindication list opens with heart failure and pericardial disease."
         },
         {
           "t": "p",
@@ -133,7 +133,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Two things about that wait catch people out. The first is that hair often sheds more in the first four to six weeks. That is the follicles being pushed out of their resting phase, it is expected, and it is the point at which a great many people conclude the treatment is making things worse and stop. The second is harder: it only works while you keep taking it. Stop, and within a few months you return to the trajectory you would have been on anyway. This is not a course of treatment with an end date. It is a decision to take something daily, indefinitely, and that is the part worth thinking hardest about before you start."
+          "text": "Two things about that wait catch people out. The first is that hair often sheds more in the first two to eight weeks. That is the follicles being pushed out of their resting phase, it is expected, and it is the point at which a great many people conclude the treatment is making things worse and stop. The second is harder: it only works while you keep taking it. Stop, and within a few months you return to the trajectory you would have been on anyway. This is not a course of treatment with an end date. It is a decision to take something daily, indefinitely, and that is the part worth thinking hardest about before you start."
         },
         {
           "t": "h",
@@ -183,8 +183,8 @@ export const POSTS = [
               "url": "https://www.jaad.org/article/S0190-9622(19)32666-0/fulltext"
             },
             {
-              "claim": "In 1,404 patients, unwanted hair growth was by far the commonest side effect, and only 1.7% stopped treatment because of any side effect.",
-              "detail": "A multicentre safety study of 1,404 patients taking low-dose oral minoxidil for hair loss — 943 women (67.2%) and 461 men, mean age 43, range 8–86 — found hypertrichosis in 15.1%, leading to withdrawal in 14 patients (0.5%). Systemic effects were lightheadedness (1.7%), fluid retention (1.3%), tachycardia (0.9%), headache (0.4%), periorbital oedema (0.3%) and insomnia (0.2%), leading to discontinuation in 29 patients (1.2%). No life-threatening adverse effects were observed. This is observational safety data from clinical practice, not a controlled trial.",
+              "claim": "In 1,404 patients, unwanted hair growth was by far the commonest side effect, and about 3% stopped treatment because of any side effect.",
+              "detail": "A multicentre safety study of 1,404 patients taking low-dose oral minoxidil for hair loss — 943 women (67.2%) and 461 men, mean age 43, range 8–86 — found hypertrichosis in 15.1%, leading to withdrawal in 14 patients (0.5%). Systemic effects were lightheadedness (1.7%), fluid retention (1.3%), tachycardia (0.9%), headache (0.4%), periorbital oedema (0.3%) and insomnia (0.2%), leading to discontinuation in 29 patients (1.2%). No life-threatening adverse effects were observed. The paper\u2019s own percentages for those withdrawals do not match its counts \u2014 14 and 29 out of 1,404 are 1.0% and 2.1% \u2014 so the counts, 43 people in total, are the safer figure to quote. This is observational safety data from clinical practice, not a controlled trial.",
               "cite": "Journal of the American Academy of Dermatology · Multicentre study, 2021",
               "url": "https://pubmed.ncbi.nlm.nih.gov/33639244/"
             },
@@ -195,8 +195,14 @@ export const POSTS = [
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10483043/"
             },
             {
+              "claim": "Pericardial effusion is rare at hair-loss doses but not unreported, and the risk concentrates in people with an existing cardiac condition.",
+              "detail": "A disproportionality analysis of the US FDA Adverse Event Reporting System examined ten adverse events across dose bands of 5 mg a day and below. A reporting signal for pericardial effusion was detected at every band examined, including 1.25 mg a day or less (reporting odds ratio 16.41) and 2.5 mg a day or less (13.30). At the 2.5 mg band the signal was 5.34 in the absence of a cardiac indication and 49.42 in its presence. An association with life-threatening outcomes was found only at 10 mg a day or less. A reporting odds ratio from a spontaneous-reporting database is a signal, not an incidence rate: it cannot say how often this happens, only that it is reported more than chance would predict.",
+              "cite": "Journal of Cosmetic Dermatology · FDA Adverse Event Reporting System analysis, 2024",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.16574"
+            },
+            {
               "claim": "In the UK, only topical minoxidil 2% is licensed for women, it is not available on the NHS, and at least six months is needed to judge it.",
-              "detail": "The British Association of Dermatologists' patient information leaflet on female-pattern hair loss states that only the 2% strength is licensed for women and is not available under the NHS; that 5% may be used on the advice of a healthcare professional but is likewise not on NHS prescription and is expensive; that minoxidil should be used for at least six months before any benefit may be noted; and that an initial shedding phase of four to six weeks is expected. It notes low-dose oral minoxidil as recent research suggesting it may be at least as effective as topical and well tolerated in certain scenarios.",
+              "detail": "The British Association of Dermatologists' patient information leaflet on female-pattern hair loss states that only the 2% strength is licensed for women and is not available under the NHS; that 5% may be used on the advice of a healthcare professional but is likewise not on NHS prescription and is expensive; that minoxidil should be used for at least six months before any benefit may be noted; and that an initial shedding phase in the first two to eight weeks is expected. It notes low-dose oral minoxidil as recent research suggesting it may be at least as effective as topical and well tolerated in certain scenarios.",
               "cite": "British Association of Dermatologists · Patient information leaflet",
               "url": "https://www.bad.org.uk/pils/hair-loss-female-pattern-androgenetic-alopecia"
             }
@@ -239,11 +245,11 @@ export const POSTS = [
         },
         {
           "q": "What are the side effects of minoxidil tablets for women?",
-          "a": "In a study of 1,404 patients on low-dose oral minoxidil, the commonest by a wide margin was unwanted hair growth elsewhere on the body, at 15.1% — typically fine hair on the cheeks, upper lip or forearms, related to the dose and reversible when you stop. Less common were lightheadedness (1.7%), fluid retention (1.3%), a fast heartbeat (0.9%), headache (0.4%), puffiness around the eyes (0.3%) and insomnia (0.2%). No life-threatening effects were recorded, and 1.7% of people stopped because of a side effect."
+          "a": "In a study of 1,404 patients on low-dose oral minoxidil, the commonest by a wide margin was unwanted hair growth elsewhere on the body, at 15.1% — typically fine hair on the cheeks, upper lip or forearms, related to the dose and reversible when you stop. Less common were lightheadedness (1.7%), fluid retention (1.3%), a fast heartbeat (0.9%), headache (0.4%), puffiness around the eyes (0.3%) and insomnia (0.2%). No life-threatening effects were recorded, and about 3% of people stopped because of a side effect."
         },
         {
           "q": "How long does oral minoxidil take to work?",
-          "a": "At least six months before you can judge it, and realistically six to twelve. Expect more shedding, not less, in the first four to six weeks — that is the follicles resetting and it is the point at which many people wrongly conclude it is making things worse. The harder fact is that it only works while you keep taking it: stopping returns you within months to the trajectory you would have been on anyway."
+          "a": "At least six months before you can judge it, and realistically six to twelve. Expect more shedding, not less, in the first two to eight weeks — that is the follicles resetting and it is the point at which many people wrongly conclude it is making things worse. The harder fact is that it only works while you keep taking it: stopping returns you within months to the trajectory you would have been on anyway."
         },
         {
           "q": "Does oral minoxidil lower your blood pressure?",
@@ -315,7 +321,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Найкорисніші дані щодо безпеки — з багатоцентрового дослідження 1404 пацієнтів, які приймали міноксидил у низьких дозах при випадінні волосся; дві третини з них жінки, середній вік 43 роки. За частотою: небажаний ріст волосся на інших ділянках тіла — 15,1%, запаморочення — 1,7%, затримка рідини — 1,3%, прискорене серцебиття — 0,9%, головний біль — 0,4%, набряки навколо очей — 0,3%, безсоння — 0,2%. Жодного життєзагрозливого ефекту зафіксовано не було. Загалом 1,7% припинили прийом через побічний ефект."
+          "text": "Найкорисніші дані щодо безпеки — з багатоцентрового дослідження 1404 пацієнтів, які приймали міноксидил у низьких дозах при випадінні волосся; дві третини з них жінки, середній вік 43 роки. За частотою: небажаний ріст волосся на інших ділянках тіла — 15,1%, запаморочення — 1,7%, затримка рідини — 1,3%, прискорене серцебиття — 0,9%, головний біль — 0,4%, набряки навколо очей — 0,3%, безсоння — 0,2%. Жодного життєзагрозливого ефекту зафіксовано не було. Загалом 43 людини — близько 3% — припинили прийом через побічний ефект."
         },
         {
           "t": "p",
@@ -327,7 +333,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Десь у читанні ви натрапите на твердження, що міноксидил спричиняє рідину навколо серця приблизно в 3% людей. Ця цифра справжня, і вона з інструкції до початкового препарату від тиску — для пацієнтів на 10–40 мг на добу, багато з яких мали ниркову недостатність. Це не опис 1,25 мг. У опублікованих даних понад 600 пацієнтів на дозі 5 мг на добу й менше немає жодного зареєстрованого випадку симптомного перикардіального випоту."
+          "text": "Десь у читанні ви натрапите на твердження, що міноксидил спричиняє рідину навколо серця приблизно в 3% людей. Ця цифра справжня, і вона з інструкції до початкового препарату від тиску — для пацієнтів на 10–40 мг на добу, багато з яких мали ниркову недостатність. Це не опис 1,25 мг. Але й не нуль на дозах для волосся: аналіз бази повідомлень про побічні явища FDA за 2024 рік усе ж виявив сигнал щодо перикардіального випоту на дозі 2,5 мг на добу й нижче, і цей сигнал був майже вдесятеро сильнішим у людей, які вже мали серцеве захворювання. Рідко, але зафіксовано — і переважно там, де серце вже було не в порядку. Саме тому перелік протипоказань починається із серцевої недостатності та захворювань перикарда."
         },
         {
           "t": "p",
@@ -343,7 +349,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Дві речі в цьому очікуванні збивають з пантелику. Перша: у перші чотири–шість тижнів волосся часто випадає більше. Це фолікули виходять із фази спокою, це очікувано — і саме на цьому етапі дуже багато людей вирішують, що лікування погіршує ситуацію, і кидають. Друга складніша: він працює лише доти, доки ви його приймаєте. Припиніть — і за кілька місяців ви повернетеся до тієї траєкторії, якою йшли б і без нього. Це не курс із датою закінчення. Це рішення приймати щось щодня й невизначено довго, і саме про це варто думати найретельніше до початку."
+          "text": "Дві речі в цьому очікуванні збивають з пантелику. Перша: у перші два–вісім тижнів волосся часто випадає більше. Це фолікули виходять із фази спокою, це очікувано — і саме на цьому етапі дуже багато людей вирішують, що лікування погіршує ситуацію, і кидають. Друга складніша: він працює лише доти, доки ви його приймаєте. Припиніть — і за кілька місяців ви повернетеся до тієї траєкторії, якою йшли б і без нього. Це не курс із датою закінчення. Це рішення приймати щось щодня й невизначено довго, і саме про це варто думати найретельніше до початку."
         },
         {
           "t": "h",
@@ -393,8 +399,8 @@ export const POSTS = [
               "url": "https://www.jaad.org/article/S0190-9622(19)32666-0/fulltext"
             },
             {
-              "claim": "Серед 1404 пацієнтів небажаний ріст волосся був найчастішим побічним ефектом із великим відривом, і лише 1,7% припинили лікування через будь-який побічний ефект.",
-              "detail": "Багатоцентрове дослідження безпеки за участі 1404 пацієнтів, які приймали міноксидил у низьких дозах при випадінні волосся — 943 жінки (67,2%) і 461 чоловік, середній вік 43 роки, діапазон 8–86, — виявило гіпертрихоз у 15,1%, що призвело до відміни в 14 пацієнтів (0,5%). Системні ефекти: запаморочення (1,7%), затримка рідини (1,3%), тахікардія (0,9%), головний біль (0,4%), періорбітальний набряк (0,3%) і безсоння (0,2%), що призвело до припинення в 29 пацієнтів (1,2%). Життєзагрозливих побічних ефектів не спостерігали. Це дані спостереження з клінічної практики, а не контрольоване дослідження.",
+              "claim": "Серед 1404 пацієнтів небажаний ріст волосся був найчастішим побічним ефектом із великим відривом, і близько 3% припинили лікування через будь-який побічний ефект.",
+              "detail": "Багатоцентрове дослідження безпеки за участі 1404 пацієнтів, які приймали міноксидил у низьких дозах при випадінні волосся — 943 жінки (67,2%) і 461 чоловік, середній вік 43 роки, діапазон 8–86, — виявило гіпертрихоз у 15,1%, що призвело до відміни в 14 пацієнтів (0,5%). Системні ефекти: запаморочення (1,7%), затримка рідини (1,3%), тахікардія (0,9%), головний біль (0,4%), періорбітальний набряк (0,3%) і безсоння (0,2%), що призвело до припинення в 29 пацієнтів (1,2%). Життєзагрозливих побічних ефектів не спостерігали. Власні відсотки статті для цих відмов не збігаються з абсолютними числами — 14 і 29 із 1404 це 1,0% і 2,1%, — тож надійніше наводити самі числа: загалом 43 людини. Це дані спостереження з клінічної практики, а не контрольоване дослідження.",
               "cite": "Journal of the American Academy of Dermatology · Багатоцентрове дослідження, 2021",
               "url": "https://pubmed.ncbi.nlm.nih.gov/33639244/"
             },
@@ -405,8 +411,14 @@ export const POSTS = [
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10483043/"
             },
             {
+              "claim": "Перикардіальний випіт на дозах для волосся трапляється рідко, але про нього повідомляють, і ризик концентрується в людей із наявним серцевим захворюванням.",
+              "detail": "Аналіз диспропорційності за базою повідомлень про побічні явища FDA (США) розглянув десять побічних явищ у діапазонах доз 5 мг на добу й нижче. Сигнал щодо перикардіального випоту виявлено в кожному розглянутому діапазоні, зокрема на 1,25 мг на добу й менше (відношення шансів повідомлення 16,41) і на 2,5 мг на добу й менше (13,30). У діапазоні 2,5 мг сигнал становив 5,34 за відсутності серцевого показання і 49,42 за його наявності. Зв'язок із життєзагрозливими наслідками знайдено лише на 10 мг на добу й менше. Відношення шансів повідомлення зі спонтанної бази — це сигнал, а не частота: воно не каже, як часто це трапляється, лише що про це повідомляють частіше, ніж передбачала б випадковість.",
+              "cite": "Journal of Cosmetic Dermatology · Аналіз бази побічних явищ FDA, 2024",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.16574"
+            },
+            {
               "claim": "У Великій Британії для жінок ліцензовано лише 2% місцевий міноксидил, він не доступний через NHS, а для оцінки результату потрібно щонайменше шість місяців.",
-              "detail": "Інформаційний листок Британської асоціації дерматологів про жіночий тип випадіння волосся зазначає, що для жінок ліцензовано лише 2% і він не доступний через NHS; що 5% можна застосовувати за порадою фахівця, але його також не виписують за рецептом NHS і він дорогий; що міноксидил слід застосовувати щонайменше шість місяців, перш ніж можна помітити користь; і що початкова фаза посиленого випадіння протягом чотирьох–шести тижнів є очікуваною. Листок згадує міноксидил у низьких дозах як нові дані, за якими він може бути щонайменше настільки ж ефективним, як місцевий, і добре переноситися в окремих випадках.",
+              "detail": "Інформаційний листок Британської асоціації дерматологів про жіночий тип випадіння волосся зазначає, що для жінок ліцензовано лише 2% і він не доступний через NHS; що 5% можна застосовувати за порадою фахівця, але його також не виписують за рецептом NHS і він дорогий; що міноксидил слід застосовувати щонайменше шість місяців, перш ніж можна помітити користь; і що початкова фаза посиленого випадіння в перші два–вісім тижнів є очікуваною. Листок згадує міноксидил у низьких дозах як нові дані, за якими він може бути щонайменше настільки ж ефективним, як місцевий, і добре переноситися в окремих випадках.",
               "cite": "British Association of Dermatologists · Інформаційний листок для пацієнтів",
               "url": "https://www.bad.org.uk/pils/hair-loss-female-pattern-androgenetic-alopecia"
             }
@@ -449,11 +461,11 @@ export const POSTS = [
         },
         {
           "q": "Які побічні ефекти таблеток міноксидилу в жінок?",
-          "a": "У дослідженні 1404 пацієнтів на міноксидилі в низьких дозах найчастішим із великим відривом був небажаний ріст волосся на інших ділянках тіла — 15,1%; зазвичай це тонкі волоски на щоках, над верхньою губою чи на передпліччях, залежні від дози та зворотні після припинення. Рідше траплялися запаморочення (1,7%), затримка рідини (1,3%), прискорене серцебиття (0,9%), головний біль (0,4%), набряки навколо очей (0,3%) і безсоння (0,2%). Життєзагрозливих ефектів не зафіксовано, а 1,7% людей припинили прийом через побічний ефект."
+          "a": "У дослідженні 1404 пацієнтів на міноксидилі в низьких дозах найчастішим із великим відривом був небажаний ріст волосся на інших ділянках тіла — 15,1%; зазвичай це тонкі волоски на щоках, над верхньою губою чи на передпліччях, залежні від дози та зворотні після припинення. Рідше траплялися запаморочення (1,7%), затримка рідини (1,3%), прискорене серцебиття (0,9%), головний біль (0,4%), набряки навколо очей (0,3%) і безсоння (0,2%). Життєзагрозливих ефектів не зафіксовано, а близько 3% людей припинили прийом через побічний ефект."
         },
         {
           "q": "Скільки часу потрібно, щоб міноксидил у таблетках подіяв?",
-          "a": "Щонайменше шість місяців, перш ніж можна робити висновки, а реалістично — від шести до дванадцяти. У перші чотири–шість тижнів очікуйте більшого, а не меншого випадіння: це фолікули перезапускаються, і саме тоді багато людей помилково вирішують, що стає гірше. Складніший факт такий: він працює лише доти, доки ви його приймаєте. Після припинення за кілька місяців ви повертаєтеся до тієї траєкторії, якою йшли б і без нього."
+          "a": "Щонайменше шість місяців, перш ніж можна робити висновки, а реалістично — від шести до дванадцяти. У перші два–вісім тижнів очікуйте більшого, а не меншого випадіння: це фолікули перезапускаються, і саме тоді багато людей помилково вирішують, що стає гірше. Складніший факт такий: він працює лише доти, доки ви його приймаєте. Після припинення за кілька місяців ви повертаєтеся до тієї траєкторії, якою йшли б і без нього."
         },
         {
           "q": "Чи знижує міноксидил у таблетках тиск?",
@@ -524,7 +536,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "There is one group for whom the magnesium question is more than theoretical. Low magnesium has been reported in somewhere between 14% and 48% of people with type 2 diabetes, and the mechanism is not mysterious: when blood glucose runs high, the kidneys pull glucose into the urine and water follows it, and magnesium goes out with it. High glucose flushes magnesium away, and low magnesium makes insulin work less well. Researchers describe it as a vicious circle, which is exactly what it is."
+          "text": "There is one group for whom the magnesium question is more than theoretical. Low magnesium has been reported in somewhere between 10% and 48% of people with type 2 diabetes, and the mechanism is not mysterious: when blood glucose runs high, the kidneys pull glucose into the urine and water follows it, and magnesium goes out with it. High glucose flushes magnesium away, and low magnesium makes insulin work less well. Researchers describe it as a vicious circle, which is exactly what it is."
         },
         {
           "t": "p",
@@ -599,7 +611,7 @@ export const POSTS = [
           "items": [
             {
               "claim": "Magnesium supplementation improves insulin resistance mainly in longer trials and in people who were short of magnesium to begin with.",
-              "detail": "A 2016 systematic review and meta-analysis of randomised controlled trials found that magnesium supplementation improved the HOMA-IR index and fasting glucose in both people with and without diabetes, but the effect was modest and was seen in trials lasting four months or longer. A 2026 meta-analysis of five trials in prediabetes (384 participants) reported a significant improvement in HOMA-IR (mean difference −1.10) and in two-hour glucose. A separate 2026 systematic review across diabetes and prediabetes found no statistically significant change in insulin overall, and a 12-week randomised double-blind trial in metabolic syndrome found no improvement in insulin resistance. The clearest positive result comes from a double-blind placebo-controlled trial in non-diabetic people who had both insulin resistance and low blood magnesium, where supplementation improved insulin sensitivity — a deficiency-correction finding rather than a general one.",
+              "detail": "A 2016 systematic review and meta-analysis of randomised controlled trials found that magnesium supplementation improved the HOMA-IR index in both people with and without diabetes, but had no significant effect on fasting glucose overall; glucose improved only in the subgroup of trials lasting four months or longer, where HOMA-IR improved too. A 2026 meta-analysis of five trials in prediabetes (384 participants) reported a significant improvement in HOMA-IR (mean difference −1.10) and in two-hour glucose. A separate 2026 systematic review across diabetes and prediabetes found no statistically significant change in insulin overall, and a 12-week randomised double-blind trial in metabolic syndrome found no improvement in insulin resistance. The clearest positive result comes from a double-blind placebo-controlled trial in non-diabetic people who had both insulin resistance and low blood magnesium, where supplementation improved insulin sensitivity — a deficiency-correction finding rather than a general one.",
               "cite": "Pharmacological Research · Systematic review and meta-analysis, 2016; with later meta-analyses, 2026",
               "url": "https://pubmed.ncbi.nlm.nih.gov/27329332/"
             },
@@ -622,16 +634,16 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412596/"
             },
             {
-              "claim": "Low magnesium affects 14–48% of people with type 2 diabetes, and high blood glucose is part of the cause.",
-              "detail": "Reviews of magnesium in type 2 diabetes report hypomagnesaemia in 14% to 48% of patients. Chronic hyperglycaemia contributes through osmotic diuresis and by reducing magnesium reabsorption in the kidney tubules, so glucose spilling into the urine takes magnesium with it; low magnesium in turn impairs insulin action, which the literature describes as a vicious circle. Serum magnesium is a poor marker of total body magnesium — it represents under 1% of body stores and can remain within the reference range while intracellular and bone stores are depleted.",
+              "claim": "Low magnesium affects 10–48% of people with type 2 diabetes, and high blood glucose is part of the cause.",
+              "detail": "Reviews of magnesium in type 2 diabetes report hypomagnesaemia in 10% to 48% of patients. Chronic hyperglycaemia contributes through osmotic diuresis and by reducing magnesium reabsorption in the kidney tubules, so glucose spilling into the urine takes magnesium with it; low magnesium in turn impairs insulin action, which the literature describes as a vicious circle. Serum magnesium is a poor marker of total body magnesium — it represents under 1% of body stores and can remain within the reference range while intracellular and bone stores are depleted.",
               "cite": "Endocrine Reviews · Review of hypomagnesaemia in type 2 diabetes, 2023",
               "url": "https://academic.oup.com/edrv/article/44/3/357/6811786"
             },
             {
               "claim": "UK reference intake for adult women is 270 mg a day, and the safe upper level from supplements is 400 mg a day.",
-              "detail": "UK guidance sets the reference nutrient intake for magnesium at 270 mg a day for women aged 19 and over and 300 mg for men. The safe upper level applies to supplemental magnesium specifically and is 400 mg a day for adults; it does not apply to magnesium obtained from food, which is not a realistic route to excess in people with normal kidney function. Gastrointestinal effects — diarrhoea, nausea, abdominal cramping — are the common dose-related side effects, and magnesium glycinate contains only around 10–14% elemental magnesium by weight, so the figure on the front of the bottle overstates the dose delivered.",
+              "detail": "UK guidance sets the reference nutrient intake for magnesium at 270 mg a day for women aged 19 and over and 300 mg for men. The 400 mg a day figure is the UK Expert Group on Vitamins and Minerals\u2019 guidance level rather than a formal safe upper level, and it applies to supplemental magnesium specifically; it does not apply to magnesium obtained from food, which is not a realistic route to excess in people with normal kidney function. Gastrointestinal effects — diarrhoea, nausea, abdominal cramping — are the common dose-related side effects, and magnesium glycinate contains only around 10–14% elemental magnesium by weight, so the figure on the front of the bottle overstates the dose delivered.",
               "cite": "UK dietary reference values and supplement safe upper levels",
-              "url": "https://www.boltpharmacy.co.uk/guide/magnesium-daily-intake-dosage"
+              "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others/"
             }
           ]
         },
@@ -732,7 +744,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Є одна група, для якої питання магнію більше ніж теоретичне. Низький магній фіксують у 14–48% людей із діабетом 2 типу, і механізм не загадковий: коли глюкоза в крові висока, нирки виводять її із сечею, за нею йде вода, а разом із нею — магній. Висока глюкоза вимиває магній, а низький магній погіршує роботу інсуліну. Дослідники називають це замкненим колом, і це саме воно."
+          "text": "Є одна група, для якої питання магнію більше ніж теоретичне. Низький магній фіксують у 10–48% людей із діабетом 2 типу, і механізм не загадковий: коли глюкоза в крові висока, нирки виводять її із сечею, за нею йде вода, а разом із нею — магній. Висока глюкоза вимиває магній, а низький магній погіршує роботу інсуліну. Дослідники називають це замкненим колом, і це саме воно."
         },
         {
           "t": "p",
@@ -807,7 +819,7 @@ export const POSTS = [
           "items": [
             {
               "claim": "Добавки магнію покращують інсулінорезистентність переважно в довших дослідженнях і в людей, яким магнію бракувало від початку.",
-              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень 2016 року виявив, що добавки магнію покращували індекс HOMA-IR і глюкозу натще як у людей із діабетом, так і без нього, але ефект був помірним і спостерігався в дослідженнях тривалістю чотири місяці й довше. Метааналіз 2026 року за п'ятьма дослідженнями при предіабеті (384 учасники) повідомив про значуще покращення HOMA-IR (середня різниця −1,10) і двогодинної глюкози. Окремий систематичний огляд 2026 року по дослідженнях при діабеті та предіабеті не знайшов статистично значущої зміни інсуліну загалом, а 12-тижневе рандомізоване подвійне сліпе дослідження при метаболічному синдромі не показало покращення інсулінорезистентності. Найчіткіший позитивний результат походить із подвійного сліпого плацебо-контрольованого дослідження за участю людей без діабету, які мали і інсулінорезистентність, і низький магній у крові.",
+              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень 2016 року виявив, що добавки магнію покращували індекс HOMA-IR як у людей із діабетом, так і без нього, але загалом не вплинули значуще на глюкозу натще; глюкоза покращилася лише в підгрупі досліджень тривалістю чотири місяці й довше, де покращився й HOMA-IR. Метааналіз 2026 року за п'ятьма дослідженнями при предіабеті (384 учасники) повідомив про значуще покращення HOMA-IR (середня різниця −1,10) і двогодинної глюкози. Окремий систематичний огляд 2026 року по дослідженнях при діабеті та предіабеті не знайшов статистично значущої зміни інсуліну загалом, а 12-тижневе рандомізоване подвійне сліпе дослідження при метаболічному синдромі не показало покращення інсулінорезистентності. Найчіткіший позитивний результат походить із подвійного сліпого плацебо-контрольованого дослідження за участю людей без діабету, які мали і інсулінорезистентність, і низький магній у крові.",
               "cite": "Pharmacological Research · Систематичний огляд і метааналіз, 2016; з пізнішими метааналізами, 2026",
               "url": "https://pubmed.ncbi.nlm.nih.gov/27329332/"
             },
@@ -830,16 +842,16 @@ export const POSTS = [
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412596/"
             },
             {
-              "claim": "Низький магній трапляється у 14–48% людей із діабетом 2 типу, і висока глюкоза крові — частина причини.",
-              "detail": "Огляди щодо магнію при діабеті 2 типу повідомляють про гіпомагніємію у 14–48% пацієнтів. Хронічна гіперглікемія сприяє цьому через осмотичний діурез і через зниження реабсорбції магнію в ниркових канальцях, тож глюкоза, що виходить у сечу, забирає магній із собою; своєю чергою низький магній погіршує дію інсуліну, що в літературі описують як замкнене коло. Магній сироватки — поганий маркер загального магнію організму: він становить менш ніж 1% запасів і може залишатися в межах норми, поки внутрішньоклітинні та кісткові запаси виснажуються.",
+              "claim": "Низький магній трапляється у 10–48% людей із діабетом 2 типу, і висока глюкоза крові — частина причини.",
+              "detail": "Огляди щодо магнію при діабеті 2 типу повідомляють про гіпомагніємію у 10–48% пацієнтів. Хронічна гіперглікемія сприяє цьому через осмотичний діурез і через зниження реабсорбції магнію в ниркових канальцях, тож глюкоза, що виходить у сечу, забирає магній із собою; своєю чергою низький магній погіршує дію інсуліну, що в літературі описують як замкнене коло. Магній сироватки — поганий маркер загального магнію організму: він становить менш ніж 1% запасів і може залишатися в межах норми, поки внутрішньоклітинні та кісткові запаси виснажуються.",
               "cite": "Endocrine Reviews · Огляд гіпомагніємії при діабеті 2 типу, 2023",
               "url": "https://academic.oup.com/edrv/article/44/3/357/6811786"
             },
             {
               "claim": "Британська норма для дорослих жінок — 270 мг на добу, а безпечний верхній рівень із добавок — 400 мг на добу.",
-              "detail": "Британські рекомендації встановлюють референсну норму магнію на рівні 270 мг на добу для жінок від 19 років і 300 мг для чоловіків. Безпечний верхній рівень стосується саме магнію з добавок і становить 400 мг на добу для дорослих; він не стосується магнію з їжі, що не є реалістичним шляхом до надлишку в людей із нормальною функцією нирок. Шлунково-кишкові ефекти — діарея, нудота, спазми в животі — це типові дозозалежні побічні ефекти, а гліцинат магнію містить лише близько 10–14% елементарного магнію за вагою, тож число на лицьовому боці упаковки завищує реальну дозу.",
+              "detail": "Британські рекомендації встановлюють референсну норму магнію на рівні 270 мг на добу для жінок від 19 років і 300 мг для чоловіків. Показник 400 мг на добу — це орієнтовний рівень (guidance level) Британської експертної групи з вітамінів і мінералів, а не формальний безпечний верхній рівень, і він стосується саме магнію з добавок; він не стосується магнію з їжі, що не є реалістичним шляхом до надлишку в людей із нормальною функцією нирок. Шлунково-кишкові ефекти — діарея, нудота, спазми в животі — це типові дозозалежні побічні ефекти, а гліцинат магнію містить лише близько 10–14% елементарного магнію за вагою, тож число на лицьовому боці упаковки завищує реальну дозу.",
               "cite": "Британські референсні норми споживання та безпечні верхні рівні для добавок",
-              "url": "https://www.boltpharmacy.co.uk/guide/magnesium-daily-intake-dosage"
+              "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others/"
             }
           ]
         },
