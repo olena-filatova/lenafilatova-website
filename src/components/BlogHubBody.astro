@@ -120,6 +120,18 @@ const dim = (src) => DIMS[src] || {};
         ))}
       </div>
     </div>
+  </div>
+</section>
+
+{/* Topic cloud (OPS-367). It sat below the grid on the reasoning that the
+    category chips serve a first-time visitor and the cloud serves someone who
+    has finished browsing. That held for a short index; at 57 articles it put
+    the cloud 87% of the way down the page — thirteen screens — and nobody
+    reached it. It belongs with the other navigation, before the articles. */}
+<TagCloud lang={lang} />
+
+<section>
+  <div class="wrap">
     <div class="blog-grid" id="blogGrid">
       {sorted.map((p) => (
         <a
@@ -144,10 +156,6 @@ const dim = (src) => DIMS[src] || {};
   </div>
 </section>
 
-{/* Topic cloud (OPS-367). Below the grid rather than above it: the categories
-    at the top are the coarse cut a first-time visitor wants, and the cloud is
-    what someone who has scrolled the whole index is looking for. */}
-<TagCloud lang={lang} />
 
 <script>
   (function () {

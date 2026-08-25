@@ -652,12 +652,18 @@
     position: absolute; top: 0; left: calc(100% + 72px);
     width: 220px; height: 100%; margin: 0;
   }
-  .toc {
+  /* The sticky box is the whole rail now, not just the list — the topics sit
+     under the contents and have to ride with it. */
+  .rail {
     position: sticky; top: 96px;
-    /* A 13-section article is taller than the viewport; the rail scrolls
-       inside itself rather than running off the bottom of the screen. */
-    max-height: calc(100vh - 132px); overflow-y: auto;
+    max-height: calc(100vh - 132px);
+    display: flex; flex-direction: column;
   }
+  /* min-height:0 is what lets a flex child actually shrink below its content
+     and scroll. Without it the list keeps its full height and pushes the
+     topics past the bottom of the rail. */
+  .toc { max-height: none; min-height: 0; overflow-y: auto; }
+  .rail-tags { flex: none; }
   /* The rail closes on the page edge, not on a rule. */
   .toc[open] { border-bottom: 0; }
 }
@@ -739,4 +745,45 @@
 @media (prefers-reduced-motion: reduce) {
   .toc a { transition: none; }
   .post .pt-list a, .cloud-group a { transition: none; }
+}
+
+/* --- this article's topics, in the rail (OPS-367 follow-up) ---------------
+   Only ever visible inside the rail; below 1320px the same links are the
+   "Filed under" line closing the article body. */
+.rail-tags { display: none; }
+@media (min-width: 1320px) {
+  .rail-tags { display: block; margin-top: 26px; padding-top: 14px; border-top: 1px solid var(--rule); }
+  .rt-label {
+    margin: 0 0 10px; font-family: var(--font-body); font-size: var(--fs-label);
+    font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink);
+  }
+  .rail-tags ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 5px 14px; }
+  .rail-tags a {
+    font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 700;
+    line-height: 1.5; color: var(--accent); text-decoration: none;
+    border-bottom: 1px solid var(--line); padding-bottom: 1px;
+    transition: border-color .2s ease;
+  }
+  .rail-tags a:hover { border-bottom-color: var(--accent); }
+  .rail-tags a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .rt-all {
+    display: inline-block; margin-top: 12px;
+    font-size: var(--fs-label) !important; font-weight: 800 !important;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--muted) !important; border-bottom: 0 !important;
+  }
+  .rt-all:hover { color: var(--accent) !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rail-tags a { transition: none; }
+}
+
+/* One place per width. In the rail the topics sit under the contents, so the
+   "Filed under" line at the foot of the article would be the same links twice.
+   This has to come after the `.post .post-tags` block above: same specificity,
+   so source order decides, and the earlier attempt inside the 1320px block
+   silently lost. */
+@media (min-width: 1320px) {
+  .post .post-tags { display: none; }
 }
