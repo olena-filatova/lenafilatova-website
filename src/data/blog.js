@@ -3489,7 +3489,7 @@ export const POSTS = [
             {
               "claim": "In midlife women without diabetes, moderate alcohol was associated with lower — not higher — fasting glucose trajectories.",
               "detail": "An analysis of 2,578 women aged 42–52 from the Study of Women’s Health Across the Nation, each with at least three fasting glucose measurements between 1996 and 2005, used group-based trajectory modelling to identify a low-stable trajectory (n = 2,467) and a high-decreasing one (n = 111). Compared with the low-stable group, alcohol intake was inversely associated with the high-decreasing trajectory in the fully adjusted model, most strongly in the highest tertile of daily servings (odds ratio 0.23, 95% CI 0.10–0.52, p < 0.001). The authors conclude that moderate consumption may protect against high fasting glucose trajectories in a dose-response manner. Included because it is the study usually invoked for the midlife angle and its actual direction is the opposite of what that framing implies. It is observational, the trajectory group of interest is small, moderate drinkers differ systematically from non-drinkers in ways adjustment cannot fully address, and Mendelian randomisation work cited within the paper found no causal relationship between an alcohol-related gene variant and glucose concentrations.",
-              "cite": "Frontiers in Nutrition · SWAN analysis, 2024",
+              "cite": "Wang et al. · Frontiers in Public Health · SWAN analysis, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10847307/"
             },
             {
@@ -4039,7 +4039,7 @@ export const POSTS = [
             {
               "claim": "У жінок середнього віку без діабету помірний алкоголь був пов’язаний з нижчими, а не вищими траєкторіями глюкози натще.",
               "detail": "Аналіз 2 578 жінок віком 42–52 роки зі Study of Women’s Health Across the Nation, кожна щонайменше з трьома вимірюваннями глюкози натще між 1996 і 2005 роками, використав групове моделювання траєкторій і виділив низько-стабільну траєкторію (n = 2 467) та високо-спадну (n = 111). Порівняно з низько-стабільною групою, споживання алкоголю було обернено пов’язане з високо-спадною траєкторією в повністю скоригованій моделі, найсильніше у верхньому терцилі денних порцій (відношення шансів 0,23, 95% ДІ 0,10–0,52, p < 0,001). Автори роблять висновок, що помірне вживання може захищати від високих траєкторій глюкози натще дозозалежним чином. Включено тому, що саме на це дослідження зазвичай посилаються щодо середнього віку, а його справжній напрямок протилежний до того, що з цього роблять. Воно обсерваційне, цікава траєкторна група мала, помірні питці системно відрізняються від непитущих способами, які поправки повністю не усувають, а робота з менделівської рандомізації, цитована в самій статті, не знайшла причинного зв’язку між пов’язаним з алкоголем варіантом гена та концентрацією глюкози.",
-              "cite": "Frontiers in Nutrition · аналіз SWAN, 2024",
+              "cite": "Wang et al. · Frontiers in Public Health · аналіз SWAN, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10847307/"
             },
             {
