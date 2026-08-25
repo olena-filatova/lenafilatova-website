@@ -152,11 +152,13 @@ if (EXTERNAL) {
   say(`Resolving ${urls.length} external URLs...`);
 
   const UA = 'Mozilla/5.0 (compatible; lenafilatova-link-check/1.0; +https://lenafilatova.co.uk)';
-  const check = async (url) => {
+  const attempt = async (url) => {
     for (const method of ['HEAD', 'GET']) {
       try {
-        const ctl = AbortSignal.timeout(20000);
-        const r = await fetch(url, { method, redirect: 'follow', signal: ctl, headers: { 'user-agent': UA, accept: '*/*' } });
+        const r = await fetch(url, {
+          method, redirect: 'follow', signal: AbortSignal.timeout(20000),
+          headers: { 'user-agent': UA, accept: '*/*' },
+        });
         if (r.status === 405 && method === 'HEAD') continue;
         return { url, status: r.status };
       } catch (e) {
@@ -164,6 +166,14 @@ if (EXTERNAL) {
       }
     }
     return { url, status: 0, error: 'unreachable' };
+  };
+
+  /* A timeout or connection reset is as often the runner or a slow host as a dead
+   * link, and a false "broken" here costs someone a manual check. Retry once. */
+  const check = async (url) => {
+    const first = await attempt(url);
+    if (first.status !== 0) return first;
+    return attempt(url);
   };
 
   const results = [];
@@ -176,8 +186,11 @@ if (EXTERNAL) {
   });
   await Promise.all(workers);
 
-  // 401/403/429 mean "the publisher declined to talk to a bot", not "the link is dead".
-  const inconclusive = results.filter((r) => [401, 403, 429].includes(r.status));
+  /* The publisher declined to talk to a bot — says nothing about the link.
+   * 403 is the common one; 412 is Cloudflare's precondition check (Cochrane
+   * serves it); 451 is geo-blocking; 429 is rate limiting, which our own
+   * concurrency can provoke. */
+  const inconclusive = results.filter((r) => [401, 403, 412, 429, 451].includes(r.status));
   const ok = results.filter((r) => r.status >= 200 && r.status < 400);
   externalBroken = results.filter((r) => !ok.includes(r) && !inconclusive.includes(r));
 

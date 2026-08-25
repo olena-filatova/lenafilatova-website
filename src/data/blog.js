@@ -14547,8 +14547,8 @@ export const POSTS = [
             {
               "claim": "Gene-edited islet cells survived in a patient with no immunosuppression.",
               "detail": "A first-in-human report from Sweden using Sana’s hypoimmune technology found that donor islet cells edited to evade the immune system survived and produced insulin for over a year in one patient without any anti-rejection drugs — a proof of concept, not yet insulin independence.",
-              "cite": "Sana Biotechnology · reported in the New England Journal of Medicine",
-              "url": "https://ir.sana.com/news-releases"
+              "cite": "Sana Biotechnology · company announcement of the NEJM follow-on publication, July 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/07/13/3326134/0/en/sana-biotechnology-announces-follow-on-publication-in-the-new-england-journal-of-medicine-nejm-highlighting-groundbreaking-long-term-data-and-durability-of-hypoimmune-modified-isle.html"
             },
             {
               "claim": "A person’s own reprogrammed cells reversed their type 1 diabetes for a year.",
@@ -14569,7 +14569,7 @@ export const POSTS = [
             },
             {
               "name": "Breakthrough T1D — clinical trials",
-              "url": "https://www.breakthfound.org/",
+              "url": "https://www.breakthrought1d.org/",
               "desc": "The major type 1 research charity (formerly JDRF). Explains current trials in plain language and helps people find studies they may be eligible for."
             },
             {
@@ -14745,8 +14745,8 @@ export const POSTS = [
             {
               "claim": "Генетично відредаговані острівцеві клітини вижили в пацієнта без пригнічення імунітету.",
               "detail": "Звіт уперше на людині зі Швеції із технологією Sana виявив, що донорські острівцеві клітини, відредаговані, щоб уникати імунної системи, вижили й виробляли інсулін понад рік в одного пацієнта без жодних препаратів проти відторгнення — це доказ принципу, а не ще інсулінонезалежність.",
-              "cite": "Sana Biotechnology · за даними New England Journal of Medicine",
-              "url": "https://ir.sana.com/news-releases"
+              "cite": "Sana Biotechnology · анонс компанії про подальшу публікацію в NEJM, липень 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/07/13/3326134/0/en/sana-biotechnology-announces-follow-on-publication-in-the-new-england-journal-of-medicine-nejm-highlighting-groundbreaking-long-term-data-and-durability-of-hypoimmune-modified-isle.html"
             },
             {
               "claim": "Власні перепрограмовані клітини людини повернули діабет 1 типу на рік.",
@@ -14767,7 +14767,7 @@ export const POSTS = [
             },
             {
               "name": "Breakthrough T1D — клінічні дослідження",
-              "url": "https://www.breakthfound.org/",
+              "url": "https://www.breakthrought1d.org/",
               "desc": "Провідна благодійна організація з досліджень діабету 1 типу (колишня JDRF). Пояснює поточні дослідження зрозумілою мовою."
             },
             {
@@ -17698,8 +17698,8 @@ export const POSTS = [
               "desc": "The UK professional body for registered dietitians, on protein’s role in preventing and managing age-related muscle loss."
             },
             {
-              "name": "Dr Stacy Sims — Optimal Protein Intake for Women",
-              "url": "https://www.drstacysims.com/newsletters/articles/posts/optimal-protein-intake-for-women",
+              "name": "Dr Stacy Sims — articles on protein and female physiology",
+              "url": "https://www.drstacysims.com/newsletters/articles",
               "desc": "The most thorough, female-specific breakdown of protein needs across the lifespan, from an exercise physiologist focused on female physiology."
             },
             {
@@ -18035,8 +18035,8 @@ export const POSTS = [
               "desc": "Британський професійний орган дієтологів — про роль білка в запобіганні та керуванні віковою втратою м’язів."
             },
             {
-              "name": "Д-р Стейсі Сімс — Optimal Protein Intake for Women",
-              "url": "https://www.drstacysims.com/newsletters/articles/posts/optimal-protein-intake-for-women",
+              "name": "Д-р Стейсі Сімс — статті про білок і жіночу фізіологію",
+              "url": "https://www.drstacysims.com/newsletters/articles",
               "desc": "Найдетальніший, специфічний для жінок розбір потреби в білку впродовж життя від фізіологині, яка присвятила кар’єру жіночій фізіології."
             },
             {
