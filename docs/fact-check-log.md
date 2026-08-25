@@ -52,8 +52,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 4 | 2026-08-23 | `bmi-trajectory-prediabetes-women` | done | 2026-08-25 | OPS-370 |
 | 5 | 2026-08-22 | `insulin-resistance-hair-thinning` | done | 2026-08-25 | OPS-370 |
 | 6 | 2026-08-21 | `perimenopause-anxiety-mind-body-exercise` | done | 2026-08-25 | OPS-370 |
-| 7 | 2026-08-21 | `glp1-what-we-know` | pending | — | — |
-| 8 | 2026-08-20 | `glp1-menopause-bone-loss` | pending | — | — |
+| 7 | 2026-08-21 | `glp1-what-we-know` | done | 2026-08-25 | OPS-370 |
+| 8 | 2026-08-20 | `glp1-menopause-bone-loss` | done | 2026-08-25 | OPS-370 |
 | 9 | 2026-08-20 | `alcohol-and-blood-sugar` | pending | — | — |
 | 10 | 2026-08-20 | `zone-2-or-hiit-after-40` | pending | — | — |
 | 11 | 2026-08-19 | `creatine-women-over-40` | pending | — | — |
