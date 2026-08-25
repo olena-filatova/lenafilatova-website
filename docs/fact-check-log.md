@@ -56,8 +56,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 8 | 2026-08-20 | `glp1-menopause-bone-loss` | done | 2026-08-25 | OPS-370 |
 | 9 | 2026-08-20 | `alcohol-and-blood-sugar` | done | 2026-08-25 | OPS-370 |
 | 10 | 2026-08-20 | `zone-2-or-hiit-after-40` | done | 2026-08-25 | OPS-370 |
-| 11 | 2026-08-19 | `creatine-women-over-40` | pending | — | — |
-| 12 | 2026-08-19 | `night-sweats-or-hypo` | pending | — | — |
+| 11 | 2026-08-19 | `creatine-women-over-40` | done | 2026-08-25 | OPS-370 |
+| 12 | 2026-08-19 | `night-sweats-or-hypo` | done | 2026-08-25 | OPS-370 |
 | 13 | 2026-08-19 | `glp1-older-women-lean-mass` | pending | — | — |
 | 14 | 2026-08-19 | `frozen-shoulder-diabetes` | pending | — | — |
 | 15 | 2026-08-18 | `menopause-skincare-longevity-marketing` | pending | — | — |

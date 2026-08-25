@@ -5703,7 +5703,7 @@ export const POSTS = [
             {
               "claim": "Impaired awareness of hypoglycaemia affects a substantial minority — and predicts severe hypos.",
               "detail": "A cross-sectional questionnaire study of 189 adults with type 1 diabetes (56.1% female, median age 41, median duration 19.3 years) found that 17.5% had impaired awareness of hypoglycaemia by the Gold score, meaning the usual early warning symptoms are muted or absent. Those with impaired awareness were 4.5 times more likely (95% CI 2.0–10.9) to report at least one severe hypoglycaemic episode in the previous 12 months — 37.5% against 11.7% (p = 0.001). Older participants were more likely to have it; in this cohort diabetes duration itself did not differ significantly between the two groups, so duration is not the whole story. It is a single-centre self-report study, and other cohorts report prevalence up to around 30% depending on the questionnaire used.",
-              "cite": "PLoS One · Baxter M, Baillie K, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
+              "cite": "PLoS One · Baxter F, Baillie N, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178233/"
             },
             {
@@ -6065,7 +6065,7 @@ export const POSTS = [
             {
               "claim": "Порушене відчуття гіпоглікемії є в помітної меншості — і воно передбачає тяжкі епізоди.",
               "detail": "Крос-секційне опитувальне дослідження 189 дорослих із діабетом 1 типу (56,1% жінок, медіана віку 41 рік, медіана тривалості діабету 19,3 року) показало, що у 17,5% було порушене відчуття гіпоглікемії за шкалою Gold — тобто звичні ранні попереджувальні симптоми приглушені або відсутні. Ті, у кого воно було, мали у 4,5 раза вищі шанси (95% ДІ 2,0–10,9) повідомити про щонайменше один епізод тяжкої гіпоглікемії за попередні 12 місяців — 37,5% проти 11,7% (p = 0,001). Старші учасники мали його частіше; сама лише тривалість діабету в цій когорті між групами значуще не відрізнялася, тож справа не тільки в ній. Це одноцентрове дослідження на самозвітах, а інші когорти повідомляють про поширеність до приблизно 30% залежно від використаного опитувальника.",
-              "cite": "PLoS One · Baxter M, Baillie K, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
+              "cite": "PLoS One · Baxter F, Baillie N, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178233/"
             },
             {
