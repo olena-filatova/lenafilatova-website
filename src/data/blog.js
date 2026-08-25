@@ -87,7 +87,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "And they are not defending it. Lilly is withdrawing a long list of insulin presentations — Humalog, Liprolog, Lyumjev, Humulin and Abasaglar among them — from selected European markets before the second quarter of 2027. The European Medicines Agency recorded the reason as commercial. Not safety, not quality: it is simply not worth enough to keep selling there. You do not walk away from the crown jewels."
+          "text": "And they are not defending it. Lilly is withdrawing a long list of insulin products — Humalog, Liprolog, Lyumjev, Humulin and Abasaglar among them — from selected European markets before the second quarter of 2027. The European Medicines Agency recorded the reason as commercial. Not safety, not quality: it is simply not worth enough to keep selling there. You do not walk away from the crown jewels."
         },
         {
           "t": "p",
@@ -115,7 +115,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "If you wanted one fact to test the theory against, this is it. In March 2023, Sanofi — one of the three insulin makers — agreed to pay $2.9 billion for a small company called Provention Bio, completing the deal that April. What it bought was Tzield (teplizumab), the first and only approved treatment that changes the course of type 1 diabetes. In the TN-10 trial it cut the risk of progressing to clinical type 1 by around 60%, buying people roughly two years before they need insulin at all."
+          "text": "If you wanted one fact to test the theory against, this is it. In March 2023, Sanofi — one of the three insulin makers — agreed to pay $2.9 billion for a small company called Provention Bio, completing the deal that April. What it bought was Tzield (teplizumab), the first and only approved treatment that changes the course of type 1 diabetes. In the TN-10 trial it cut the risk of progressing to clinical type 1 by around 60%, giving people roughly two more years before they need insulin at all."
         },
         {
           "t": "p",
@@ -135,7 +135,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "It is also, as it happens, a live illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in early 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. It has not given a new filing date, and says it will update its timelines during 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime the company has taken a next-generation islet therapy, VX-017, into the clinic — designed to work for eligible patients whatever their blood type."
+          "text": "It is also a good illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in early 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. It has not given a new filing date, and says it will update its timelines during 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime the company has taken a next-generation islet therapy, VX-017, into the clinic — designed to work for eligible patients whatever their blood type."
         },
         {
           "t": "p",
@@ -147,7 +147,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "So far this reads as a defence of the industry, and I do not want to leave it there — because two of the five things people say to me turn out to be right, and one of them is the thing I would actually worry about."
+          "text": "So far this reads as a defence of the industry, and I do not want to leave it there — because three of the five things people say to me turn out to have something in them, and one of those is the thing I would actually worry about."
         },
         {
           "t": "table",
@@ -198,7 +198,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Start with immune suppression. Most cell-replacement approaches still require drugs to stop the body rejecting or re-attacking the new cells, and those drugs carry real risks. That is why the first approvals will be limited to people whose diabetes is most dangerous — usually severe, unpredictable hypoglycaemia — rather than everyone with type 1. Widening it depends on the newer gene-edited “hypoimmune” cells, which are earlier and less certain."
+          "text": "Start with immune suppression. Most cell-replacement approaches still require drugs to stop the body rejecting or re-attacking the new cells, and those drugs carry real risks. That is why the first approvals will be limited to people whose diabetes is most dangerous — usually severe, unpredictable hypoglycaemia — rather than everyone with type 1. Widening that depends on the newer gene-edited “hypoimmune” cells, which are earlier and less certain."
         },
         {
           "t": "p",
@@ -206,11 +206,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Then commercial reality, and here Tzield is the instructive case. It is the first drug ever to change the course of type 1 — and three years after launch it is still a small product: €54 million in 2024, €63 million in 2025, €37 million in the first half of 2026. It is growing, but slowly, and mainly because it only works in stage 2, before symptoms, and hardly anyone is screened early enough to qualify. Just over a thousand people have been treated with it in total. Sanofi is pushing hard against that: US regulators widened the age range down to one year old in April 2026, Europe approved it and the launch has begun, and in mid-2026 the FDA granted accelerated approval for something genuinely new — slowing the loss of insulin production in children aged eight to seventeen who have only just been diagnosed. That is the first treatment aimed at protecting the beta cells a person still has. But the lesson a board takes from a €63 million product bought for $2.9 billion is not “suppress the cure.” It is “disease-modifying diabetes drugs are a slow, expensive build” — and that is a genuine disincentive."
+          "text": "Then commercial reality, and here Tzield is the instructive case. It is the first drug ever to change the course of type 1 — and three and a half years after launch it is still a small product: €54 million in 2024, €63 million in 2025, €37 million in the first half of 2026. It is growing, but slowly, and mainly because, until this year, it only worked in stage 2 — before symptoms — and hardly anyone is screened early enough to qualify. Just over a thousand people have been treated with it in total. Sanofi is pushing hard against that: US regulators widened the age range down to one year old in April 2026, Europe approved it and the launch has begun, and in mid-2026 the FDA granted accelerated approval for something genuinely new — slowing the loss of insulin production in children aged eight to seventeen who have only just been diagnosed. That is the first treatment aimed at protecting the beta cells a person still has. But the lesson a board takes from a €63 million product bought for $2.9 billion is not “suppress the cure.” It is “disease-modifying diabetes drugs are a slow, expensive build” — and that is a genuine disincentive."
         },
         {
           "t": "p",
-          "text": "And finally, who pays for the risky part. Breakthrough T1D granted $121.7 million in 2025. The US Special Diabetes Program provides $200 million a year and has put nearly $3.6 billion into type 1 research since it began. Put together, the entire annual public-and-charity budget for type 1 research in the US is about a ninth of what Sanofi paid for a single type 1 drug. Charities and taxpayers fund the early, risky science; industry buys in once someone else has proved it works. That is not suppression. But it does mean the pace of a cure is set by philanthropy and politics — which is why the Special Diabetes Program expiring at the end of 2026 matters more to the timeline than any boardroom decision."
+          "text": "And finally, who pays for the risky part. Breakthrough T1D granted $121.7 million in 2025. The US Special Diabetes Program provides $200 million a year and has put nearly $3.6 billion into type 1 research since it began. Put together, those two — the largest public and charitable funders of type 1 research anywhere — come to about a ninth of what Sanofi paid for a single type 1 drug. Charities and taxpayers fund the early, risky science; industry buys in once someone else has proved it works. That is not suppression. But it does mean the pace of a cure is set by philanthropy and politics — which is why the Special Diabetes Program expiring at the end of 2026 matters more to the timeline than any boardroom decision."
         },
         {
           "t": "h",
@@ -226,7 +226,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Third, if you have a close relative with type 1, look into free autoantibody screening — TrialNet in much of the world, ELSA in the UK. The one disease-modifying drug that already exists only works before symptoms start, which means being found early is not a technicality. It is the whole thing."
+          "text": "Third, if you have a close relative with type 1, look into free autoantibody screening — TrialNet in much of the world, ELSA in the UK. The drug that can delay type 1 altogether only works before symptoms start, which means being found early is not a technicality. It is the whole thing."
         },
         {
           "t": "p",
@@ -328,7 +328,7 @@ export const POSTS = [
         },
         {
           "q": "Which pharmaceutical companies are actually working on a cure for type 1 diabetes?",
-          "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — enrolment is complete, though dosing was temporarily paused in early 2026 for an internal manufacturing analysis and the filing timeline is due to be updated. Sanofi owns Tzield, the only approved drug that delays type 1. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
+          "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — enrolment is complete, though dosing was temporarily paused in early 2026 for an internal manufacturing analysis and the filing timeline is due to be updated. Sanofi owns Tzield, the only approved drug that changes the course of type 1. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
         },
         {
           "q": "Would a type 1 cure destroy insulin sales?",
@@ -336,7 +336,7 @@ export const POSTS = [
         },
         {
           "q": "So is there any truth in the idea that pharma is not interested in curing type 1?",
-          "a": "There is, but it is neglect rather than suppression. Sanofi closed its diabetes research unit in 2019 while keeping its insulin business. Novo Nordisk exited cell therapy in 2025. The first-ever disease-modifying type 1 drug made €54 million in 2024 and €63 million in 2025 — a small return on a $2.9 billion purchase, which tells boards this is a slow, difficult market. Meanwhile the early, risky science is funded largely by charities and public money — around $320 million a year in the US, a fraction of what a single acquisition costs."
+          "a": "There is, but it is neglect rather than suppression. Sanofi closed its diabetes research unit in 2019 while keeping its insulin business. Novo Nordisk exited cell therapy in 2025. The first-ever disease-modifying type 1 drug made €54 million in 2024 and €63 million in 2025 — a small return on a $2.9 billion purchase, which tells boards this is a slow, difficult market. Meanwhile the early, risky science is funded largely by charities and public money — around $320 million a year between the largest public and charitable funders, a fraction of what a single acquisition costs."
         },
         {
           "q": "If a cure is approved, will people actually be able to get it?",
@@ -451,7 +451,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Досі це читається як захист індустрії, і я не хочу на цьому зупинятися — бо з п’яти речей, які мені кажуть, дві виявляються правдою, і одна з них — саме те, через що я справді хвилювалася б."
+          "text": "Досі це читається як захист індустрії, і я не хочу на цьому зупинятися — бо з п’яти речей, які мені кажуть, у трьох щось таки є, і одна з них — саме те, через що я справді хвилювалася б."
         },
         {
           "t": "table",
@@ -510,11 +510,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Далі — комерційна реальність, і тут Tzield є показовим випадком. Це перший в історії препарат, який змінює перебіг діабету 1 типу, — і через три роки після виходу на ринок він досі невеликий: 54 мільйони євро у 2024 році, 63 мільйони у 2025-му, 37 мільйонів за перше півріччя 2026-го. Він зростає, але повільно — головно тому, що працює лише на 2-й стадії, до появи симптомів, а майже нікого не обстежують достатньо рано, щоб він підійшов. Загалом його отримали трохи більше ніж тисяча людей. Sanofi активно намагається це змінити: у квітні 2026 року регулятор США розширив віковий діапазон аж до одного року, Європа схвалила препарат і запуск почався, а в середині 2026-го FDA надало прискорене схвалення для чогось справді нового — сповільнення втрати власного вироблення інсуліну в дітей 8–17 років, яким діагноз щойно поставили. Це перше лікування, спрямоване на захист бета-клітин, які в людини ще залишилися. Але висновок, який рада директорів робить із продукту на 63 мільйони євро, купленого за 2,9 мільярда доларів, — не «приховати ліки». Він звучить як «препарати, що змінюють перебіг діабету, — це повільна й дорога історія», і це справжній антистимул."
+          "text": "Далі — комерційна реальність, і тут Tzield є показовим випадком. Це перший в історії препарат, який змінює перебіг діабету 1 типу, — і через три з половиною роки після виходу на ринок він досі невеликий: 54 мільйони євро у 2024 році, 63 мільйони у 2025-му, 37 мільйонів за перше півріччя 2026-го. Він зростає, але повільно — головно тому, що донедавна працював лише на 2-й стадії, до появи симптомів, а майже нікого не обстежують достатньо рано, щоб він підійшов. Загалом його отримали трохи більше ніж тисяча людей. Sanofi активно намагається це змінити: у квітні 2026 року регулятор США розширив віковий діапазон аж до одного року, Європа схвалила препарат і запуск почався, а в середині 2026-го FDA надало прискорене схвалення для чогось справді нового — сповільнення втрати власного вироблення інсуліну в дітей 8–17 років, яким діагноз щойно поставили. Це перше лікування, спрямоване на захист бета-клітин, які в людини ще залишилися. Але висновок, який рада директорів робить із продукту на 63 мільйони євро, купленого за 2,9 мільярда доларів, — не «приховати ліки». Він звучить як «препарати, що змінюють перебіг діабету, — це повільна й дорога історія», і це справжній антистимул."
         },
         {
           "t": "p",
-          "text": "І нарешті — хто платить за ризиковану частину. Breakthrough T1D видала 121,7 мільйона доларів у 2025 році. Американська Special Diabetes Program дає 200 мільйонів на рік і вклала майже 3,6 мільярда в дослідження діабету 1 типу від свого початку. Разом увесь річний державно-благодійний бюджет на дослідження 1 типу в США — це приблизно дев’ята частина того, що Sanofi заплатила за один препарат. Благодійники й платники податків фінансують ранню, ризиковану науку; індустрія заходить тоді, коли хтось інший уже довів, що це працює. Це не приховування. Але це означає, що темп задають філантропія й політика, — і тому завершення дії Special Diabetes Program наприкінці 2026 року важить для строків більше, ніж будь-яке рішення в раді директорів."
+          "text": "І нарешті — хто платить за ризиковану частину. Breakthrough T1D видала 121,7 мільйона доларів у 2025 році. Американська Special Diabetes Program дає 200 мільйонів на рік і вклала майже 3,6 мільярда в дослідження діабету 1 типу від свого початку. Разом ці два джерела — найбільші державний і благодійний фонди досліджень діабету 1 типу у світі — дають приблизно дев’яту частину того, що Sanofi заплатила за один препарат. Благодійники й платники податків фінансують ранню, ризиковану науку; індустрія заходить тоді, коли хтось інший уже довів, що це працює. Це не приховування. Але це означає, що темп задають філантропія й політика, — і тому завершення дії Special Diabetes Program наприкінці 2026 року важить для строків більше, ніж будь-яке рішення в раді директорів."
         },
         {
           "t": "h",
@@ -530,7 +530,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "По-третє, якщо у вас є близький родич із діабетом 1 типу, дізнайтеся про безкоштовне обстеження на аутоантитіла — TrialNet у більшості країн, ELSA у Великій Британії. Єдиний препарат, що вже змінює перебіг хвороби, працює лише до появи симптомів, тож раннє виявлення — це не формальність. Це і є вся суть."
+          "text": "По-третє, якщо у вас є близький родич із діабетом 1 типу, дізнайтеся про безкоштовне обстеження на аутоантитіла — TrialNet у більшості країн, ELSA у Великій Британії. Препарат, який може взагалі відтермінувати діабет 1 типу, працює лише до появи симптомів, тож раннє виявлення — це не формальність. Це і є вся суть."
         },
         {
           "t": "p",
@@ -632,7 +632,7 @@ export const POSTS = [
         },
         {
           "q": "Які фармкомпанії справді працюють над лікуванням діабету 1 типу?",
-          "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: набір завершено, але на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, і строки подання заявки мають оновити. Sanofi володіє Tzield — єдиним схваленим препаратом, що відтерміновує діабет 1 типу. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
+          "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: набір завершено, але на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, і строки подання заявки мають оновити. Sanofi володіє Tzield — єдиним схваленим препаратом, що змінює перебіг діабету 1 типу. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
         },
         {
           "q": "Чи знищили б ліки від діабету 1 типу продажі інсуліну?",
@@ -640,7 +640,7 @@ export const POSTS = [
         },
         {
           "q": "То чи є правда в тому, що фармі байдуже до лікування діабету 1 типу?",
-          "a": "Є, але це радше байдужість, ніж приховування. Sanofi закрила діабетичний дослідницький підрозділ у 2019 році, зберігши інсуліновий бізнес. Novo Nordisk вийшла з клітинної терапії у 2025-му. Перший в історії препарат, що змінює перебіг діабету 1 типу, приніс 54 мільйони євро у 2024 році та 63 мільйони у 2025-му — невелика віддача від покупки за 2,9 мільярда доларів, і це каже радам директорів, що ринок повільний і складний. Тим часом ранню, ризиковану науку фінансують здебільшого благодійники й держава: близько 320 мільйонів доларів на рік у США, тобто частка від вартості однієї угоди."
+          "a": "Є, але це радше байдужість, ніж приховування. Sanofi закрила діабетичний дослідницький підрозділ у 2019 році, зберігши інсуліновий бізнес. Novo Nordisk вийшла з клітинної терапії у 2025-му. Перший в історії препарат, що змінює перебіг діабету 1 типу, приніс 54 мільйони євро у 2024 році та 63 мільйони у 2025-му — невелика віддача від покупки за 2,9 мільярда доларів, і це каже радам директорів, що ринок повільний і складний. Тим часом ранню, ризиковану науку фінансують здебільшого благодійники й держава: близько 320 мільйонів доларів на рік від найбільших державного та благодійного фондів, тобто частка від вартості однієї угоди."
         },
         {
           "q": "Якщо ліки схвалять, чи зможуть люди їх отримати?",
