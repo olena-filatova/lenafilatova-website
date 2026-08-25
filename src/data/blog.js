@@ -79,7 +79,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The first assumption is the one that has quietly collapsed. In the first quarter of 2026, Novo Nordisk’s insulin sales fell 36% — not a wobble, a collapse — while its obesity business grew 31% to DKK 82.3 billion for 2025. At Eli Lilly, tirzepatide sold as Mounjaro and Zepbound brought in $36.5 billion in 2025: around 56% of everything the company earned. Insulin no longer appears as a headline product in either company’s results. It is the old business."
+          "text": "The first assumption is the one that has quietly given way. Take Novo Nordisk, the largest insulin maker in the world. In 2025 all of its insulin — long-acting, fast-acting, premix and human — came to DKK 53.1 billion out of DKK 309.1 billion in total sales. That is 17% of the company, and it shrank by 1% across the year. Ozempic on its own brought in more than twice as much. Wegovy on its own brought in more than every insulin Novo sells put together, and the obesity business grew 31% to DKK 82.3 billion. At Eli Lilly, tirzepatide — Mounjaro and Zepbound — brought in $36.5 billion in 2025, around 56% of everything the company earned. Insulin is the old business, and their own numbers say so."
+        },
+        {
+          "t": "p",
+          "text": "In the US the fall is sharper, and worth stating carefully. Novo’s American insulin sales dropped 36% in the first quarter of 2026, which the company put down to “a declining insulin market” alongside lost market share and lower prices. But that single quarter overstates it: rebate timing pushed the same figure back up 15% the following quarter, and worldwide insulin was flat. Across the first half of 2026 Novo’s US insulin sales were down 17%. Sanofi’s Lantus, once the best-selling insulin in the world, fell 7% in the second quarter of 2026, with its US sales down 17%."
         },
         {
           "t": "p",
@@ -87,7 +91,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Sanofi went further, and earlier. In December 2019 it announced it was ending research and development in diabetes altogether, cutting around $2 billion of costs to move into oncology and immunology — while keeping its insulin business. Read that shape carefully, because it is the opposite of the conspiracy. They did not suppress a cure to protect the cash cow. They kept the cash cow and stopped looking for anything better."
+          "text": "Sanofi went further, and earlier. In December 2019 it announced it was ending research and development in diabetes altogether, cutting around €2 billion of costs to move into oncology and immunology — while keeping its insulin business. Read that shape carefully, because it is the opposite of the conspiracy. They did not suppress a cure to protect the cash cow. They kept the cash cow and stopped looking for anything better."
         },
         {
           "t": "h",
@@ -95,7 +99,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The second assumption is that a type 1 cure would blow a hole in insulin revenue. Here the numbers are worth sitting with. Around 8.4 million people were living with type 1 diabetes worldwide in 2021, projected to reach 13.5 to 17.4 million by 2040. That is a lot of people — and it is a small fraction of the roughly half a billion people with diabetes, the overwhelming majority of whom have type 2. Most of the world’s insulin is used by people with type 2 diabetes, and a type 1 cure would not touch that."
+          "text": "The second assumption is that a type 1 cure would blow a hole in insulin revenue. Here the numbers are worth sitting with. Around 8.4 million people were living with type 1 diabetes worldwide in 2021, projected to reach 13.5 to 17.4 million by 2040. That is a lot of people — and it is a small fraction of the 589 million adults living with diabetes, more than 90% of whom have type 2. Most of the world’s insulin is used by people with type 2 diabetes, and a type 1 cure would not touch that."
         },
         {
           "t": "p",
@@ -127,7 +131,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "This is the part that I think settles it. The most advanced attempt at a functional cure is Vertex’s zimislecel, lab-grown islet cells infused into the liver. In the first twelve patients followed for a year, every one regained their own insulin production, every one stopped having severe hypos and reached recommended glucose targets, and ten of the twelve came off insulin completely. It was published in the New England Journal of Medicine in June 2025, it holds fast-track and advanced-therapy designations on both sides of the Atlantic, and Vertex expects to file for approval in the US, EU and UK during 2026."
+          "text": "This is the part that I think settles it. The most advanced attempt at a functional cure is Vertex’s zimislecel, lab-grown islet cells infused into the liver. In the first twelve patients followed for a year, every one regained their own insulin production, every one stopped having severe hypos and reached recommended glucose targets, and ten of the twelve came off insulin completely. It was published in the New England Journal of Medicine in June 2025, and it holds fast-track and advanced-therapy designations in the US, the EU, the UK and Saudi Arabia."
+        },
+        {
+          "t": "p",
+          "text": "It is also, as it happens, a live illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in early 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. It has not given a new filing date, and says it will update its timelines during 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime the company has taken a next-generation islet therapy, VX-017, into the clinic — designed to work for eligible patients whatever their blood type."
         },
         {
           "t": "p",
@@ -198,11 +206,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Then commercial reality, and here Tzield is the cautionary tale. It is the first drug ever to change the course of type 1 — and it made €54 million in 2024 and €47 million in the first nine months of 2025. Uptake has been slow, mostly because it only works in stage 2, before symptoms, and hardly anyone is screened early enough to qualify. Analysts still think it can become a $1 billion product, and Sanofi is pushing it into Europe and into younger children. But the lesson a board takes from those numbers is not “suppress the cure.” It is “disease-modifying diabetes drugs are a slow, expensive build” — and that is a genuine disincentive."
+          "text": "Then commercial reality, and here Tzield is the instructive case. It is the first drug ever to change the course of type 1 — and three years after launch it is still a small product: €54 million in 2024, €63 million in 2025, €37 million in the first half of 2026. It is growing, but slowly, and mainly because it only works in stage 2, before symptoms, and hardly anyone is screened early enough to qualify. Just over a thousand people have been treated with it in total. Sanofi is pushing hard against that: US regulators widened the age range down to one year old in April 2026, Europe approved it and the launch has begun, and in mid-2026 the FDA granted accelerated approval for something genuinely new — slowing the loss of insulin production in children aged eight to seventeen who have only just been diagnosed. That is the first treatment aimed at protecting the beta cells a person still has. But the lesson a board takes from a €63 million product bought for $2.9 billion is not “suppress the cure.” It is “disease-modifying diabetes drugs are a slow, expensive build” — and that is a genuine disincentive."
         },
         {
           "t": "p",
-          "text": "And finally, who pays for the risky part. Breakthrough T1D granted $121.7 million in 2025. The US Special Diabetes Program provides $200 million a year and has put roughly $3.5 billion into type 1 research since it began. Put together, the entire annual public-and-charity budget for type 1 research in the US is about a ninth of what Sanofi paid for a single type 1 drug. Charities and taxpayers fund the early, risky science; industry buys in once someone else has proved it works. That is not suppression. But it does mean the pace of a cure is set by philanthropy and politics — which is why the Special Diabetes Program expiring at the end of 2026 matters more to the timeline than any boardroom decision."
+          "text": "And finally, who pays for the risky part. Breakthrough T1D granted $121.7 million in 2025. The US Special Diabetes Program provides $200 million a year and has put nearly $3.6 billion into type 1 research since it began. Put together, the entire annual public-and-charity budget for type 1 research in the US is about a ninth of what Sanofi paid for a single type 1 drug. Charities and taxpayers fund the early, risky science; industry buys in once someone else has proved it works. That is not suppression. But it does mean the pace of a cure is set by philanthropy and politics — which is why the Special Diabetes Program expiring at the end of 2026 matters more to the timeline than any boardroom decision."
         },
         {
           "t": "h",
@@ -245,13 +253,13 @@ export const POSTS = [
             },
             {
               "claim": "Insulin is a shrinking business its makers are retreating from.",
-              "detail": "Novo Nordisk reported insulin sales down 36% at constant exchange rates in the first quarter of 2026, against obesity-care sales of DKK 82.3 billion for 2025. Eli Lilly is discontinuing Humalog, Liprolog, Lyumjev, Humulin and Abasaglar presentations in selected European markets before the second quarter of 2027 — for commercial reasons, the European Medicines Agency recorded, not safety or quality. Across 2023–24 all three major makers cut US list prices by 65–78% and capped patient costs at $35 a month.",
+              "detail": "Novo Nordisk’s total insulin sales were DKK 53,137 million of DKK 309,064 million in 2025 — 17% of the company, down 1% at constant exchange rates — against Ozempic alone at DKK 127,089 million and obesity care at DKK 82,347 million, up 31%. Its US insulin sales fell 36% at CER in Q1 2026 and rose 15% in Q2 on rebate timing, leaving the first half down 17%, with worldwide insulin flat. Eli Lilly is discontinuing Humalog, Liprolog, Lyumjev, Humulin and Abasaglar presentations in selected European markets before the second quarter of 2027 — for commercial reasons, the European Medicines Agency recorded, not safety or quality. Across 2023–24 all three major makers cut US list prices by 65–78% and capped patient costs at $35 a month.",
               "cite": "Novo Nordisk · Q1 2026 financial report",
               "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials.html"
             },
             {
               "claim": "The leading cure programme belongs to a company with no insulin business.",
-              "detail": "Vertex’s zimislecel, lab-grown islet cells, restored endogenous insulin secretion in all 12 patients followed for at least a year in the FORWARD trial, eliminated severe hypoglycaemia and met glycaemic targets, with 10 of 12 insulin-independent. Published in the New England Journal of Medicine in June 2025; regulatory submissions in the US, EU and UK are expected during 2026. Vertex acquired the competing ViaCyte programme for about $320 million in 2022.",
+              "detail": "Vertex’s zimislecel, lab-grown islet cells, restored endogenous insulin secretion in all 12 patients followed for at least a year in the FORWARD trial, eliminated severe hypoglycaemia and met glycaemic targets, with 10 of 12 insulin-independent. Published in the New England Journal of Medicine in June 2025. Enrolment in the pivotal study is complete, but Vertex temporarily postponed completing dosing pending an internal manufacturing analysis, announced with its 2025 full-year results, and has not set a new filing date — it expects to update its timelines during 2026. Vertex acquired the competing ViaCyte programme for about $320 million in 2022.",
               "cite": "New England Journal of Medicine · June 2025",
               "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2506549"
             },
@@ -275,7 +283,7 @@ export const POSTS = [
             },
             {
               "claim": "Type 1 diabetes affects a small share of everyone using insulin.",
-              "detail": "An estimated 8.4 million people worldwide were living with type 1 diabetes in 2021, projected to reach 13.5–17.4 million by 2040 — against roughly half a billion people with diabetes overall, the great majority with type 2, who account for most insulin use.",
+              "detail": "An estimated 8.4 million people worldwide were living with type 1 diabetes in 2021, projected to reach 13.5–17.4 million by 2040. The IDF Diabetes Atlas, 11th edition, puts the total number of adults with diabetes at 589 million, more than 90% of them with type 2 — and it is type 2 that accounts for most insulin use.",
               "cite": "The Lancet Diabetes & Endocrinology · T1D Index, 2022",
               "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(22)00218-2/abstract"
             }
@@ -320,15 +328,15 @@ export const POSTS = [
         },
         {
           "q": "Which pharmaceutical companies are actually working on a cure for type 1 diabetes?",
-          "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a Phase 3 trial and regulatory filings expected in 2026. Sanofi owns Tzield, the only approved drug that delays type 1. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
+          "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — enrolment is complete, though dosing was temporarily paused in early 2026 for an internal manufacturing analysis and the filing timeline is due to be updated. Sanofi owns Tzield, the only approved drug that delays type 1. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
         },
         {
           "q": "Would a type 1 cure destroy insulin sales?",
-          "a": "Not to the degree people assume. Around 8.4 million people worldwide have type 1, against roughly half a billion with diabetes overall, and most insulin is used by people with type 2 — who a type 1 cure would not affect. And the companies furthest ahead on cell therapy sell no insulin at all, so cannibalisation is not a constraint on them; taking the market from insulin makers is the point."
+          "a": "Not to the degree people assume. Around 8.4 million people worldwide have type 1, against 589 million adults with diabetes overall, more than 90% of whom have type 2 — and it is type 2 that accounts for most insulin use, which a type 1 cure would not affect. And the companies furthest ahead on cell therapy sell no insulin at all, so cannibalisation is not a constraint on them; taking the market from insulin makers is the point."
         },
         {
           "q": "So is there any truth in the idea that pharma is not interested in curing type 1?",
-          "a": "There is, but it is neglect rather than suppression. Sanofi closed its diabetes research unit in 2019 while keeping its insulin business. Novo Nordisk exited cell therapy in 2025. The first-ever disease-modifying type 1 drug made only €54 million in 2024, which tells boards that this is a slow, difficult market. Meanwhile the early, risky science is funded largely by charities and public money — around $320 million a year in the US, a fraction of what a single acquisition costs."
+          "a": "There is, but it is neglect rather than suppression. Sanofi closed its diabetes research unit in 2019 while keeping its insulin business. Novo Nordisk exited cell therapy in 2025. The first-ever disease-modifying type 1 drug made €54 million in 2024 and €63 million in 2025 — a small return on a $2.9 billion purchase, which tells boards this is a slow, difficult market. Meanwhile the early, risky science is funded largely by charities and public money — around $320 million a year in the US, a fraction of what a single acquisition costs."
         },
         {
           "q": "If a cure is approved, will people actually be able to get it?",
@@ -375,7 +383,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Перше припущення — те, що тихо розсипалося. У першому кварталі 2026 року продажі інсуліну Novo Nordisk впали на 36% — це не коливання, це обвал, — тоді як напрям лікування ожиріння зріс на 31% і дав 82,3 млрд данських крон за 2025 рік. У Eli Lilly тирзепатид, який продають як Mounjaro та Zepbound, приніс 36,5 млрд доларів у 2025-му: близько 56% усього доходу компанії. Інсулін уже не фігурує як ключовий продукт у звітах жодної з них. Це старий бізнес."
+          "text": "Перше припущення — те, що тихо відступило. Візьмімо Novo Nordisk, найбільшого виробника інсуліну у світі. У 2025 році весь її інсулін — тривалої дії, швидкої дії, змішаний і людський — дав 53,1 млрд данських крон із 309,1 млрд загальних продажів. Це 17% компанії, і за рік показник зменшився на 1%. Самий лише Ozempic приніс більш ніж удвічі більше. Самий лише Wegovy приніс більше, ніж увесь інсулін Novo разом узятий, а напрям лікування ожиріння зріс на 31% — до 82,3 млрд крон. У Eli Lilly тирзепатид, який продають як Mounjaro та Zepbound, приніс 36,5 млрд доларів у 2025-му: близько 56% усього доходу компанії. Інсулін — це старий бізнес, і про це кажуть їхні власні цифри."
+        },
+        {
+          "t": "p",
+          "text": "У США падіння різкіше, і про це варто сказати обережно. Продажі інсуліну Novo в Америці впали на 36% у першому кварталі 2026 року, і сама компанія пояснила це «ринком інсуліну, що скорочується», втратою частки ринку та нижчими цінами. Але один квартал це перебільшує: через терміни виплати рібейтів той самий показник у наступному кварталі зріс на 15%, а світові продажі інсуліну були на місці. За перше півріччя 2026 року продажі інсуліну Novo в США впали на 17%. Lantus від Sanofi, колись найпродаваніший інсулін у світі, у другому кварталі 2026 року впав на 7%, а його продажі у США — на 17%."
         },
         {
           "t": "p",
@@ -383,7 +395,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Sanofi зайшла далі й раніше. У грудні 2019 року компанія оголосила, що взагалі припиняє дослідження й розробки у сфері діабету, скорочуючи близько 2 млрд доларів витрат заради онкології та імунології, — але зберігає інсуліновий бізнес. Придивіться до цієї форми уважно, бо вона протилежна до змови. Вони не приховали ліки, щоб захистити дійну корову. Вони залишили дійну корову й перестали шукати щось краще."
+          "text": "Sanofi зайшла далі й раніше. У грудні 2019 року компанія оголосила, що взагалі припиняє дослідження й розробки у сфері діабету, скорочуючи близько 2 млрд євро витрат заради онкології та імунології, — але зберігає інсуліновий бізнес. Придивіться до цієї форми уважно, бо вона протилежна до змови. Вони не приховали ліки, щоб захистити дійну корову. Вони залишили дійну корову й перестали шукати щось краще."
         },
         {
           "t": "h",
@@ -391,7 +403,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Друге припущення — що ліки від діабету 1 типу пробили б діру в доходах від інсуліну. Тут варто побути з цифрами. У 2021 році з діабетом 1 типу у світі жило близько 8,4 мільйона людей; до 2040-го прогнозують від 13,5 до 17,4 мільйона. Це багато людей — і це невелика частка від приблизно півмільярда людей із діабетом загалом, серед яких переважна більшість має 2 тип. Більшість світового інсуліну споживають саме люди з діабетом 2 типу, і ліки від 1 типу цього не торкнулися б."
+          "text": "Друге припущення — що ліки від діабету 1 типу пробили б діру в доходах від інсуліну. Тут варто побути з цифрами. У 2021 році з діабетом 1 типу у світі жило близько 8,4 мільйона людей; до 2040-го прогнозують від 13,5 до 17,4 мільйона. Це багато людей — і це невелика частка від 589 мільйонів дорослих, які живуть із діабетом, і понад 90% із них мають 2 тип. Більшість світового інсуліну споживають саме люди з діабетом 2 типу, і ліки від 1 типу цього не торкнулися б."
         },
         {
           "t": "p",
@@ -423,7 +435,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Ось частина, яка, на мою думку, все вирішує. Найбільш просунута спроба функціонального одужання — це зиміслецел від Vertex: вирощені в лабораторії острівцеві клітини, які вводять у кровопостачання печінки. У перших дванадцяти пацієнтів, за якими спостерігали рік, у всіх відновилося власне вироблення інсуліну, у всіх припинилися важкі гіпоглікемії й були досягнуті рекомендовані показники глюкози, а десятеро з дванадцятьох повністю відмовилися від інсуліну. Це опубліковано в New England Journal of Medicine у червні 2025 року; препарат має прискорені регуляторні статуси по обидва боки Атлантики, і Vertex очікує подати заявки на схвалення у США, ЄС і Великій Британії протягом 2026 року."
+          "text": "Ось частина, яка, на мою думку, все вирішує. Найбільш просунута спроба функціонального одужання — це зиміслецел від Vertex: вирощені в лабораторії острівцеві клітини, які вводять у кровопостачання печінки. У перших дванадцяти пацієнтів, за якими спостерігали рік, у всіх відновилося власне вироблення інсуліну, у всіх припинилися важкі гіпоглікемії й були досягнуті рекомендовані показники глюкози, а десятеро з дванадцятьох повністю відмовилися від інсуліну. Це опубліковано в New England Journal of Medicine у червні 2025 року, і препарат має прискорені регуляторні статуси у США, ЄС, Великій Британії та Саудівській Аравії."
+        },
+        {
+          "t": "p",
+          "text": "Це також, до речі, живий приклад того, як такі речі насправді зсуваються. Vertex завершила набір учасників у ключове дослідження, а потім, на початку 2026 року, тимчасово відклала завершення введення препарату, доки триває внутрішній аналіз виробництва. Нової дати подання заявки компанія не назвала і каже, що оновить строки протягом 2026 року. Ніхто нічого не приховував: вирощувати живі клітини стабільної якості справді важко. Тим часом компанія вивела в клініку наступне покоління острівцевої терапії, VX-017, — розраховане на придатних пацієнтів незалежно від групи крові."
         },
         {
           "t": "p",
@@ -494,11 +510,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Далі — комерційна реальність, і тут Tzield є повчальною історією. Це перший в історії препарат, який змінює перебіг діабету 1 типу, — і він приніс 54 мільйони євро у 2024 році та 47 мільйонів за перші дев’ять місяців 2025-го. Впровадження йде повільно переважно тому, що препарат працює лише на 2-й стадії, до появи симптомів, а майже нікого не обстежують достатньо рано, щоб він підійшов. Аналітики все ще вважають, що він може стати мільярдним продуктом, і Sanofi просуває його в Європу та для молодших дітей. Але висновок, який рада директорів робить із цих цифр, — не «приховати ліки». Він звучить як «препарати, що змінюють перебіг діабету, — це повільна й дорога історія», і це справжній антистимул."
+          "text": "Далі — комерційна реальність, і тут Tzield є показовим випадком. Це перший в історії препарат, який змінює перебіг діабету 1 типу, — і через три роки після виходу на ринок він досі невеликий: 54 мільйони євро у 2024 році, 63 мільйони у 2025-му, 37 мільйонів за перше півріччя 2026-го. Він росте, але повільно — головно тому, що працює лише на 2-й стадії, до появи симптомів, а майже нікого не обстежують достатньо рано, щоб він підійшов. Загалом його отримали трохи більш ніж тисяча людей. Sanofi активно з цим працює: у квітні 2026 року регулятор США розширив віковий діапазон аж до одного року, Європа схвалила препарат і запуск почався, а в середині 2026-го FDA надало прискорене схвалення для чогось справді нового — сповільнення втрати власного вироблення інсуліну в дітей 8–17 років, яким діагноз щойно поставили. Це перше лікування, спрямоване на захист бета-клітин, які в людини ще залишилися. Але висновок, який рада директорів робить із продукту на 63 мільйони євро, купленого за 2,9 мільярда доларів, — не «приховати ліки». Він звучить як «препарати, що змінюють перебіг діабету, — це повільна й дорога історія», і це справжній антистимул."
         },
         {
           "t": "p",
-          "text": "І нарешті — хто платить за ризиковану частину. Breakthrough T1D видала 121,7 мільйона доларів у 2025 році. Американська Special Diabetes Program дає 200 мільйонів на рік і вклала близько 3,5 мільярда в дослідження діабету 1 типу від свого початку. Разом увесь річний державно-благодійний бюджет на дослідження 1 типу в США — це приблизно дев’ята частина того, що Sanofi заплатила за один препарат. Благодійники й платники податків фінансують ранню, ризиковану науку; індустрія заходить тоді, коли хтось інший уже довів, що це працює. Це не приховування. Але це означає, що темп задають філантропія й політика, — і тому завершення дії Special Diabetes Program наприкінці 2026 року важить для строків більше, ніж будь-яке рішення в раді директорів."
+          "text": "І нарешті — хто платить за ризиковану частину. Breakthrough T1D видала 121,7 мільйона доларів у 2025 році. Американська Special Diabetes Program дає 200 мільйонів на рік і вклала майже 3,6 мільярда в дослідження діабету 1 типу від свого початку. Разом увесь річний державно-благодійний бюджет на дослідження 1 типу в США — це приблизно дев’ята частина того, що Sanofi заплатила за один препарат. Благодійники й платники податків фінансують ранню, ризиковану науку; індустрія заходить тоді, коли хтось інший уже довів, що це працює. Це не приховування. Але це означає, що темп задають філантропія й політика, — і тому завершення дії Special Diabetes Program наприкінці 2026 року важить для строків більше, ніж будь-яке рішення в раді директорів."
         },
         {
           "t": "h",
@@ -541,13 +557,13 @@ export const POSTS = [
             },
             {
               "claim": "Інсулін — бізнес, що звужується, і виробники з нього відходять.",
-              "detail": "Novo Nordisk повідомила про падіння продажів інсуліну на 36% за незмінними курсами валют у першому кварталі 2026 року — проти 82,3 млрд крон продажів у напрямі ожиріння за 2025 рік. Eli Lilly припиняє постачання Humalog, Liprolog, Lyumjev, Humulin і Abasaglar на окремі європейські ринки до другого кварталу 2027 року — з комерційних причин, як зафіксувало Європейське агентство з лікарських засобів, а не через безпеку чи якість. Протягом 2023–2024 років усі три великі виробники знизили офіційні ціни у США на 65–78% і обмежили доплату пацієнта 35 доларами на місяць.",
+              "detail": "Загальні продажі інсуліну Novo Nordisk у 2025 році склали 53 137 млн крон із 309 064 млн — 17% компанії, мінус 1% за незмінними курсами валют — проти 127 089 млн лише за Ozempic і 82 347 млн у напрямі ожиріння (+31%). Продажі інсуліну в США впали на 36% за незмінними курсами в I кварталі 2026 року і зросли на 15% у II кварталі через терміни рібейтів, тож перше півріччя — мінус 17%, а світові продажі інсуліну були незмінними. Eli Lilly припиняє постачання Humalog, Liprolog, Lyumjev, Humulin і Abasaglar на окремі європейські ринки до другого кварталу 2027 року — з комерційних причин, як зафіксувало Європейське агентство з лікарських засобів, а не через безпеку чи якість. Протягом 2023–2024 років усі три великі виробники знизили офіційні ціни у США на 65–78% і обмежили доплату пацієнта 35 доларами на місяць.",
               "cite": "Novo Nordisk · фінансовий звіт за I квартал 2026",
               "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials.html"
             },
             {
               "claim": "Провідна програма лікування належить компанії без інсулінового бізнесу.",
-              "detail": "Зиміслецел від Vertex — вирощені в лабораторії острівцеві клітини — відновив власне вироблення інсуліну в усіх 12 пацієнтів, за якими спостерігали щонайменше рік у дослідженні FORWARD, усунув важкі гіпоглікемії й забезпечив досягнення цільових показників глюкози; десятеро з дванадцятьох стали незалежними від інсуліну. Опубліковано в New England Journal of Medicine у червні 2025 року; заявки на реєстрацію у США, ЄС і Великій Британії очікуються протягом 2026 року. У 2022 році Vertex придбала конкурентну програму ViaCyte приблизно за 320 мільйонів доларів.",
+              "detail": "Зиміслецел від Vertex — вирощені в лабораторії острівцеві клітини — відновив власне вироблення інсуліну в усіх 12 пацієнтів, за якими спостерігали щонайменше рік у дослідженні FORWARD, усунув важкі гіпоглікемії й забезпечив досягнення цільових показників глюкози; десятеро з дванадцятьох стали незалежними від інсуліну. Опубліковано в New England Journal of Medicine у червні 2025 року. Набір у ключове дослідження завершено, але Vertex тимчасово відклала завершення введення препарату через внутрішній аналіз виробництва — про це оголошено разом із річними результатами за 2025 рік — і нової дати подання не назвала, обіцяючи оновити строки протягом 2026 року. У 2022 році Vertex придбала конкурентну програму ViaCyte приблизно за 320 мільйонів доларів.",
               "cite": "New England Journal of Medicine · червень 2025",
               "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2506549"
             },
@@ -571,7 +587,7 @@ export const POSTS = [
             },
             {
               "claim": "Діабет 1 типу — невелика частка всіх, хто використовує інсулін.",
-              "detail": "За оцінками, у 2021 році у світі з діабетом 1 типу жило 8,4 мільйона людей; до 2040 року прогнозують 13,5–17,4 мільйона — проти приблизно півмільярда людей із діабетом загалом, переважна більшість яких має 2 тип і на яких припадає більша частина споживання інсуліну.",
+              "detail": "За оцінками, у 2021 році у світі з діабетом 1 типу жило 8,4 мільйона людей; до 2040 року прогнозують 13,5–17,4 мільйона. За IDF Diabetes Atlas (11-те видання), загальна кількість дорослих із діабетом — 589 мільйонів, і понад 90% із них мають 2 тип; саме на 2 тип припадає більша частина споживання інсуліну.",
               "cite": "The Lancet Diabetes & Endocrinology · T1D Index, 2022",
               "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(22)00218-2/abstract"
             }
@@ -616,15 +632,15 @@ export const POSTS = [
         },
         {
           "q": "Які фармкомпанії справді працюють над лікуванням діабету 1 типу?",
-          "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у дослідженні 3-ї фази й поданням на реєстрацію, очікуваним у 2026 році. Sanofi володіє Tzield — єдиним схваленим препаратом, що відтерміновує діабет 1 типу. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
+          "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: набір завершено, але на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, і строки подання заявки мають оновити. Sanofi володіє Tzield — єдиним схваленим препаратом, що відтерміновує діабет 1 типу. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
         },
         {
           "q": "Чи знищили б ліки від діабету 1 типу продажі інсуліну?",
-          "a": "Не настільки, як прийнято думати. У світі близько 8,4 мільйона людей із діабетом 1 типу проти приблизно півмільярда з діабетом загалом, і більшість інсуліну споживають люди з 2 типом, яких ліки від 1 типу не торкнулися б. До того ж компанії, які просунулися найдалі в клітинній терапії, інсуліну не продають узагалі, тож канібалізація їх не стримує — забрати ринок в інсулінових виробників і є їхня мета."
+          "a": "Не настільки, як прийнято думати. У світі близько 8,4 мільйона людей із діабетом 1 типу проти 589 мільйонів дорослих із діабетом загалом, понад 90% яких мають 2 тип, — і саме на 2 тип припадає більша частина споживання інсуліну, якого ліки від 1 типу не торкнулися б. До того ж компанії, які просунулися найдалі в клітинній терапії, інсуліну не продають узагалі, тож канібалізація їх не стримує — забрати ринок в інсулінових виробників і є їхня мета."
         },
         {
           "q": "То чи є правда в тому, що фармі байдуже до діабету 1 типу?",
-          "a": "Є, але це радше занедбаність, ніж приховування. Sanofi закрила діабетичний дослідницький підрозділ у 2019 році, зберігши інсуліновий бізнес. Novo Nordisk вийшла з клітинної терапії у 2025-му. Перший в історії препарат, що змінює перебіг діабету 1 типу, приніс лише 54 мільйони євро у 2024 році — і це каже радам директорів, що ринок повільний і складний. Тим часом ранню, ризиковану науку фінансують здебільшого благодійники й держава: близько 320 мільйонів доларів на рік у США, тобто частка від вартості однієї угоди."
+          "a": "Є, але це радше занедбаність, ніж приховування. Sanofi закрила діабетичний дослідницький підрозділ у 2019 році, зберігши інсуліновий бізнес. Novo Nordisk вийшла з клітинної терапії у 2025-му. Перший в історії препарат, що змінює перебіг діабету 1 типу, приніс 54 мільйони євро у 2024 році та 63 мільйони у 2025-му — невелика віддача від покупки за 2,9 мільярда доларів, і це каже радам директорів, що ринок повільний і складний. Тим часом ранню, ризиковану науку фінансують здебільшого благодійники й держава: близько 320 мільйонів доларів на рік у США, тобто частка від вартості однієї угоди."
         },
         {
           "q": "Якщо ліки схвалять, чи зможуть люди їх отримати?",
