@@ -9771,7 +9771,7 @@ export const POSTS = [
             {
               "claim": "How you load matters, not just that you turn up.",
               "detail": "A systematic review with meta-regressions examined which resistance training variables — intensity, volume, frequency, progression — drive muscle mass outcomes in sarcopenia. Increasing muscle mass proves harder than increasing strength, and the way the programme is loaded and progressed is a large part of what separates programmes that work from programmes that don’t.",
-              "cite": "PMC · Systematic review with meta-regressions",
+              "cite": "Journal of Cachexia, Sarcopenia and Muscle · Delaire et al., systematic review with meta-regressions, December 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
             },
             {
@@ -10116,7 +10116,7 @@ export const POSTS = [
             {
               "claim": "Має значення, як саме ви навантажуєте, а не лише те, що ви прийшли.",
               "detail": "Систематичний огляд із метарегресіями дослідив, які параметри силових тренувань — інтенсивність, обсяг, частота, прогресія — визначають приріст м’язової маси при саркопенії. Наростити масу виявляється складніше, ніж силу, і те, як програма навантажена й прогресує, значною мірою відрізняє програми, що працюють, від тих, що ні.",
-              "cite": "PMC · Систематичний огляд із метарегресіями",
+              "cite": "Journal of Cachexia, Sarcopenia and Muscle · Delaire та ін., систематичний огляд із метарегресіями, грудень 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
             },
             {
@@ -10377,7 +10377,7 @@ export const POSTS = [
               "claim": "Light walking breaks of 2–5 minutes lowered glucose by about 17% compared with sitting.",
               "detail": "A systematic review and meta-analysis of seven studies in which participants interrupted prolonged sitting with 2–5 minutes of standing or light-intensity walking every 20–30 minutes. Intermittent light walking reduced postprandial glucose by an average of 17.01% versus prolonged sitting; standing breaks reduced it by 9.51%. Walking was superior to standing for blunting the post-meal rise.",
               "cite": "Buffey AJ et al. · Sports Medicine, 2022",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/35247203/"
+              "url": "https://doi.org/10.1007/s40279-022-01649-4"
             },
             {
               "claim": "A 10-minute walk immediately after a glucose load lowered the peak, and a longer delayed walk did not beat it.",
@@ -10600,7 +10600,7 @@ export const POSTS = [
               "claim": "Перерви на легку ходьбу по 2–5 хвилин знижували глюкозу приблизно на 17% порівняно із сидінням.",
               "detail": "Систематичний огляд і метааналіз семи досліджень, у яких учасники переривали тривале сидіння 2–5 хвилинами стояння або легкої ходьби кожні 20–30 хвилин. Періодична легка ходьба знижувала післяїжну глюкозу в середньому на 17,01% порівняно з тривалим сидінням; перерви на стояння — на 9,51%. Ходьба виявилася ефективнішою за стояння для згладжування підйому після їжі.",
               "cite": "Buffey AJ та ін. · Sports Medicine, 2022",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/35247203/"
+              "url": "https://doi.org/10.1007/s40279-022-01649-4"
             },
             {
               "claim": "10 хвилин ходьби одразу після глюкозного навантаження знизили пік, а довша відкладена прогулянка його не перевершила.",
