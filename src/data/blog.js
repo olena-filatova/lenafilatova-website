@@ -44,7 +44,7 @@ export const POSTS = [
       ],
       "en": {
         "cat": "Skin & beauty",
-        "imageAlt": "A woman in her forties applying a small amount of serum to her cheek in front of a bathroom mirror at night.",
+        "imageAlt": "A woman in a white robe holding a round hand mirror, pressing cream into her cheek with one fingertip, in a bright bathroom.",
         "title": "Retinoids after 40: what changes if you also have diabetes",
         "seoTitle": "Retinoids After 40 With Diabetes: What Actually Changes",
         "metaDesc": "What retinoids do for ageing skin, and what diabetes changes about using them safely. Evidence-based, not medical advice.",
@@ -254,7 +254,7 @@ export const POSTS = [
       },
       "ua": {
         "cat": "Краса та шкіра",
-        "imageAlt": "Жінка за сорок наносить невелику кількість сироватки на щоку перед дзеркалом у ванній увечері.",
+        "imageAlt": "Жінка в білому халаті тримає кругле дзеркальце й пучкою пальця вбиває крем у щоку у світлій ванній кімнаті.",
         "title": "Ретиноїди після 40: що змінюється, якщо у вас ще й діабет",
         "seoTitle": "Ретиноїди після 40 при діабеті: що змінюється",
         "metaDesc": "Що ретиноїди роблять зі шкірою, яка старіє, і що діабет змінює в тому, як їх безпечно застосовувати. На основі доказів, не медична порада.",
