@@ -60,8 +60,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 12 | 2026-08-19 | `night-sweats-or-hypo` | done | 2026-08-25 | OPS-370 |
 | 13 | 2026-08-19 | `glp1-older-women-lean-mass` | done | 2026-08-25 | OPS-370 |
 | 14 | 2026-08-19 | `frozen-shoulder-diabetes` | done | 2026-08-25 | OPS-370 |
-| 15 | 2026-08-18 | `menopause-skincare-longevity-marketing` | pending | — | — |
-| 16 | 2026-08-18 | `fermented-foods-gut-microbiome-review` | pending | — | — |
+| 15 | 2026-08-18 | `menopause-skincare-longevity-marketing` | done | 2026-08-26 | OPS-370 |
+| 16 | 2026-08-18 | `fermented-foods-gut-microbiome-review` | done | 2026-08-26 | OPS-370 |
 | 17 | 2026-08-18 | `fibre-deficiency-gut-inflammation` | pending | — | — |
 | 18 | 2026-08-18 | `menopause-cost-workplace-productivity` | pending | — | — |
 | 19 | 2026-08-17 | `clinical-trials-women-over-40` | pending | — | — |

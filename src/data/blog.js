@@ -7023,7 +7023,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The demand behind it is genuine and largely unmet. Trade analysis published this year puts women over 50 at 47% of cosmetics spending, with 43% of US women aged 45 and over actively looking for skincare aimed at menopause, and forecasts the hormone-responsive skincare category to grow about 15.9% a year through 2034. Set against that: roughly 90% of women over 35 report menopause symptoms that affect daily life, around 80% of perimenopausal women are said to still lack a basic diagnosis, and only about 7% of femtech startups work on menopause at all. In the US, untreated symptoms are estimated to cost $26.6 billion a year in medical expenses and $1.8 billion in lost productivity — a smaller, US-only slice of the [global cost of leaving menopause untreated](/blog/menopause-cost-workplace-productivity/)."
+          "text": "The demand behind it is genuine and largely unmet. Trade analysis published this year puts women over 50 at 47% of cosmetics spending, with 43% of US women aged 45 and over actively looking for skincare aimed at menopause, and forecasts the hormone-responsive skincare category to grow about 15.9% a year through 2034. Set against that: roughly 90% of women over 35 report menopause symptoms that affect daily life, around 80% of perimenopausal women are said to still lack a basic diagnosis, and only about 7% of femtech startups work on menopause at all. In the US, symptoms are estimated to cost $1.8 billion a year in lost work time, rising to $26.6 billion once medical expenses are added — a smaller, US-only slice of the [global cost of leaving menopause untreated](/blog/menopause-cost-workplace-productivity/)."
         },
         {
           "t": "p",
@@ -7054,7 +7054,7 @@ export const POSTS = [
           "items": [
             {
               "claim": "L’Oréal’s “longevity” framework tracks 267 biomarkers and took 15 years to build.",
-              "detail": "Trade reporting on the midlife/longevity reframe in beauty. L’Oréal is described as having spent 15 years and 4,000 researchers on a “Wheel of Longevity for Beauty”, launched in 2025, tracking 267 biomarkers influencing skin vitality; in early 2026 it announced a first longevity-focused skincare range with Swiss biotech Timeline. The same piece is the source for the market figures quoted here — women 50+ at 47% of cosmetics spend, 43% of US women 45+ seeking menopausal skincare, hormone-responsive skincare growing ~15.9% a year to 2034, ~90% of women over 35 reporting symptoms affecting daily life, ~80% of perimenopausal women without a diagnosis, only ~7% of femtech startups focused on menopause, and US costs of $26.6bn medical and $1.8bn lost productivity. This is industry trade analysis, not peer-reviewed research.",
+              "detail": "Trade reporting on the midlife/longevity reframe in beauty. L’Oréal is described as having spent 15 years and 4,000 researchers on a “Wheel of Longevity for Beauty”, launched in 2025, tracking 267 biomarkers influencing skin vitality; in early 2026 it announced a first longevity-focused skincare range with Swiss biotech Timeline. The same piece is the source for the market figures quoted here — women 50+ at 47% of cosmetics spend, 43% of US women 45+ seeking menopausal skincare, hormone-responsive skincare growing ~15.9% a year to 2034, ~90% of women over 35 reporting symptoms affecting daily life, ~80% of perimenopausal women without a diagnosis, only ~7% of femtech startups focused on menopause, and US costs of $1.8bn in lost work time, rising to $26.6bn once medical expenses are added. This is industry trade analysis, not peer-reviewed research.",
               "cite": "BeautyMatter · Trend analysis, 19 April 2026",
               "url": "https://beautymatter.com/articles/menopause-messaging-the-new-midlife-roadmap"
             },
@@ -7072,7 +7072,7 @@ export const POSTS = [
             },
             {
               "claim": "Recommendations for treating “oestrogen-deficient skin” are expert consensus, not trial evidence.",
-              "detail": "A round table of four experts — two dermatologists, a gynaecologist and a facial plastic surgeon — held during a webinar on 13 June 2025 and published in the Journal of Cosmetic Dermatology (2025 Dec 29; 25(1):e70626). It sets out consensus recommendations combining hormone-based therapy with regenerative procedures, and states that future research should prioritise randomised clinical trials in post-menopausal women to better characterise efficacy in oestrogen-deficient skin. Consensus opinion, explicitly not new trial data.",
+              "detail": "A round table of four experts — two dermatologists, a gynaecologist and a facial plastic surgeon — held during a webinar on 13 June 2025 and published in the Journal of Cosmetic Dermatology (published online 29 December 2025; 2026;25(1):e70626). It sets out consensus recommendations combining hormone-based therapy with regenerative procedures, and states that future research should prioritise randomised clinical trials in post-menopausal women to better characterise efficacy in oestrogen-deficient skin. Consensus opinion, explicitly not new trial data.",
               "cite": "J Cosmet Dermatol · Round table, December 2025 · PMC12747467",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12747467/"
             },
@@ -7137,7 +7137,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Попит за цим справжній і значною мірою незакритий. Галузева аналітика цього року відносить на жінок 50+ 47% витрат на косметику, каже, що 43% американок віком від 45 активно шукають догляд, орієнтований на менопаузу, і прогнозує зростання категорії гормонально-чутливого догляду приблизно на 15,9% на рік до 2034 року. З іншого боку: близько 90% жінок віком понад 35 повідомляють про симптоми менопаузи, які впливають на щоденне життя, приблизно 80% жінок у перименопаузі досі не мають базового діагнозу, і лише близько 7% фемтех-стартапів взагалі працюють над менопаузою. У США нелікувані симптоми оцінюють у $26,6 млрд на рік медичних витрат і $1,8 млрд втраченої продуктивності — це менша, суто американська частина [глобальної ціни нелікованої менопаузи](/ua/blog/menopause-cost-workplace-productivity/)."
+          "text": "Попит за цим справжній і значною мірою незакритий. Галузева аналітика цього року відносить на жінок 50+ 47% витрат на косметику, каже, що 43% американок віком від 45 активно шукають догляд, орієнтований на менопаузу, і прогнозує зростання категорії гормонально-чутливого догляду приблизно на 15,9% на рік до 2034 року. З іншого боку: близько 90% жінок віком понад 35 повідомляють про симптоми менопаузи, які впливають на щоденне життя, приблизно 80% жінок у перименопаузі досі не мають базового діагнозу, і лише близько 7% фемтех-стартапів взагалі працюють над менопаузою. У США симптоми оцінюють у $1,8 млрд на рік втраченого робочого часу, що зростає до $26,6 млрд, якщо додати медичні витрати — це менша, суто американська частина [глобальної ціни нелікованої менопаузи](/ua/blog/menopause-cost-workplace-productivity/)."
         },
         {
           "t": "p",
@@ -7168,7 +7168,7 @@ export const POSTS = [
           "items": [
             {
               "claim": "Рамка «лонгевіті» від L’Oréal відстежує 267 біомаркерів і будувалася 15 років.",
-              "detail": "Галузевий аналіз перейменування середнього віку в індустрії краси. Стверджується, що L’Oréal витратила 15 років і 4 000 дослідників на «Колесо лонгевіті для краси», запущене 2025 року, яке відстежує 267 біомаркерів, що впливають на життєздатність шкіри; на початку 2026 року компанія оголосила першу лінійку догляду з фокусом на лонгевіті спільно зі швейцарською біотехкомпанією Timeline. Цей же матеріал є джерелом наведених тут ринкових цифр: жінки 50+ — 47% витрат на косметику, 43% американок 45+ шукають догляд для менопаузи, гормонально-чутливий догляд росте на ~15,9% на рік до 2034, ~90% жінок понад 35 повідомляють про симптоми, що впливають на щоденне життя, ~80% жінок у перименопаузі без діагнозу, лише ~7% фемтех-стартапів працюють над менопаузою, і витрати в США $26,6 млрд медичних та $1,8 млрд втраченої продуктивності. Це галузева аналітика, а не рецензоване дослідження.",
+              "detail": "Галузевий аналіз перейменування середнього віку в індустрії краси. Стверджується, що L’Oréal витратила 15 років і 4 000 дослідників на «Колесо лонгевіті для краси», запущене 2025 року, яке відстежує 267 біомаркерів, що впливають на життєздатність шкіри; на початку 2026 року компанія оголосила першу лінійку догляду з фокусом на лонгевіті спільно зі швейцарською біотехкомпанією Timeline. Цей же матеріал є джерелом наведених тут ринкових цифр: жінки 50+ — 47% витрат на косметику, 43% американок 45+ шукають догляд для менопаузи, гормонально-чутливий догляд росте на ~15,9% на рік до 2034, ~90% жінок понад 35 повідомляють про симптоми, що впливають на щоденне життя, ~80% жінок у перименопаузі без діагнозу, лише ~7% фемтех-стартапів працюють над менопаузою, і витрати в США — $1,8 млрд втраченого робочого часу, що зростає до $26,6 млрд з урахуванням медичних витрат. Це галузева аналітика, а не рецензоване дослідження.",
               "cite": "BeautyMatter · Аналіз трендів, 19 квітня 2026",
               "url": "https://beautymatter.com/articles/menopause-messaging-the-new-midlife-roadmap"
             },
@@ -7186,7 +7186,7 @@ export const POSTS = [
             },
             {
               "claim": "Рекомендації щодо «естроген-дефіцитної шкіри» — це експертний консенсус, а не дані випробувань.",
-              "detail": "Круглий стіл чотирьох експертів — двох дерматологів, гінекологині та пластичного хірурга — проведений під час вебінару 13 червня 2025 року і опублікований у Journal of Cosmetic Dermatology (2025 Dec 29; 25(1):e70626). Він викладає консенсусні рекомендації, що поєднують гормональну терапію з регенеративними процедурами, і зазначає, що майбутні дослідження мають насамперед охопити рандомізовані клінічні випробування в жінок у постменопаузі, щоб краще з’ясувати ефективність при естроген-дефіцитній шкірі. Консенсусна думка, а явно не нові дані випробувань.",
+              "detail": "Круглий стіл чотирьох експертів — двох дерматологів, гінекологині та пластичного хірурга — проведений під час вебінару 13 червня 2025 року і опублікований у Journal of Cosmetic Dermatology (опубліковано онлайн 29 грудня 2025; 2026;25(1):e70626). Він викладає консенсусні рекомендації, що поєднують гормональну терапію з регенеративними процедурами, і зазначає, що майбутні дослідження мають насамперед охопити рандомізовані клінічні випробування в жінок у постменопаузі, щоб краще з’ясувати ефективність при естроген-дефіцитній шкірі. Консенсусна думка, а явно не нові дані випробувань.",
               "cite": "J Cosmet Dermatol · Круглий стіл, грудень 2025 · PMC12747467",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12747467/"
             },
@@ -7297,7 +7297,7 @@ export const POSTS = [
             {
               "claim": "In 303 Japanese adults, 200 g of fermented yoghurt a day for 12 weeks was followed by a small fall in average glucose — but the study had no control group and was run by the manufacturer.",
               "detail": "Participants had no prior diabetes diagnosis and ate 200 g daily of yoghurt fermented with Lactobacillus delbrueckii subsp. bulgaricus 2038 and Streptococcus thermophilus 1131 for 84 days, monitored by CGM. Mean glucose fell by 4.06 mg/dL (95% CI 2.97 to 5.14), roughly 0.23 mmol/L; the standard deviation of the glucose curve fell by 0.86 mg/dL (95% CI −1.32 to −0.41) and a smoothness measure, AC_Var, by 0.0059 (95% CI −0.010 to −0.0017). This was a single-arm intervention with no control group, which limits any causal reading, and it was conducted by Meiji Co Ltd — the company that manufactures the yoghurt tested — in collaboration with THE PHAGE Inc and Chiba University.",
-              "cite": "Meiji Co Ltd / Chiba University · Single-arm intervention study, reported June 2026",
+              "cite": "The Journal of Nutrition · Single-arm intervention study by Meiji Co Ltd / Chiba University, reported June 2026",
               "url": "https://www.nutraingredients.com/Article/2026/06/15/meiji-study-finds-probiotic-fermented-yogurt-improves-glucose-control-gut-microbiota/"
             },
             {
@@ -7396,7 +7396,7 @@ export const POSTS = [
             {
               "claim": "У 303 японських дорослих 200 г ферментованого йогурту на день упродовж 12 тижнів супроводжувалися невеликим зниженням середньої глюкози — але дослідження не мало контрольної групи і його провів виробник.",
               "detail": "Участь брали люди без встановленого діагнозу діабету; вони 84 дні щодня їли 200 г йогурту, ферментованого штамами Lactobacillus delbrueckii subsp. bulgaricus 2038 і Streptococcus thermophilus 1131, під контролем CGM. Середня глюкоза знизилася на 4,06 мг/дл (95% ДІ 2,97–5,14), тобто приблизно на 0,23 ммоль/л; стандартне відхилення глікемічної кривої зменшилося на 0,86 мг/дл (95% ДІ −1,32 до −0,41), а показник згладженості AC_Var — на 0,0059 (95% ДІ −0,010 до −0,0017). Це односегментне дослідження без контрольної групи, що обмежує будь-які причинно-наслідкові висновки; його провела компанія Meiji Co Ltd — виробник тестованого йогурту — у співпраці з THE PHAGE Inc і Університетом Чіба.",
-              "cite": "Meiji Co Ltd / Університет Чіба · Односегментне дослідження, повідомлено в червні 2026",
+              "cite": "The Journal of Nutrition · Односегментне дослідження Meiji Co Ltd / Університету Чіба, повідомлено в червні 2026",
               "url": "https://www.nutraingredients.com/Article/2026/06/15/meiji-study-finds-probiotic-fermented-yogurt-improves-glucose-control-gut-microbiota/"
             },
             {
