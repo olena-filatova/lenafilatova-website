@@ -11315,7 +11315,7 @@ export const POSTS = [
             {
               "claim": "Total daily protein spread across meals matters more for muscle than exact timing around a workout.",
               "detail": "A randomised controlled trial in postmenopausal women on a weight-loss programme found that while some trends around post-exercise timing appeared, total daily protein distributed across meals was the most important variable for muscle protein synthesis rates. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
-              "cite": "PMC · Randomised controlled trial",
+              "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
@@ -11594,7 +11594,7 @@ export const POSTS = [
             {
               "claim": "Загальна денна кількість білка, розподілена між прийомами їжі, важить для м’язів більше, ніж точний час навколо тренування.",
               "detail": "Рандомізоване контрольоване дослідження за участю жінок у постменопаузі на програмі зниження ваги показало: попри окремі тенденції щодо часу після тренування, найважливішою змінною для швидкості синтезу м’язового білка була загальна денна кількість білка, розподілена між прийомами їжі. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
-              "cite": "PMC · Рандомізоване контрольоване дослідження",
+              "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
@@ -18111,7 +18111,7 @@ export const POSTS = [
             {
               "claim": "Consistent daily protein across meals drives muscle anabolism more than precise timing around workouts.",
               "detail": "A randomised controlled trial in postmenopausal women on a weight-loss programme found that while some trends around post-exercise timing appeared, total daily protein distributed across meals was the most important variable for muscle protein synthesis rates.",
-              "cite": "PMC · Randomised controlled trial",
+              "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
@@ -18448,7 +18448,7 @@ export const POSTS = [
             {
               "claim": "Стабільне щоденне споживання білка протягом дня керує анаболізмом м’язів більше, ніж точний час навколо тренувань.",
               "detail": "Рандомізоване контрольоване дослідження жінок у постменопаузі на програмі схуднення показало, що хоча деякі тенденції щодо часу після вправ і спостерігалися, саме загальний добовий білок, розподілений по прийомах їжі, був найважливішою змінною для швидкості синтезу м’язового білка.",
-              "cite": "PMC · Рандомізоване контрольоване дослідження",
+              "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
           ]
