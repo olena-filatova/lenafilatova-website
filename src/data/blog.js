@@ -9313,7 +9313,7 @@ export const POSTS = [
             {
               "name": "Type 1 diabetes cure trials tracker",
               "url": "/t1d-cure-trials/",
-              "desc": "Fourteen type 1 cure and disease-modifying programmes side by side — filter by country, phase, approach and whether each is still recruiting, including the free screening studies that are often the first step in."
+              "desc": "Twenty type 1 cure and disease-modifying programmes side by side — filter by country, phase, approach, who each one takes and whether it is still recruiting, including the free screening studies that are often the first step in."
             }
           ]
         }
@@ -9690,7 +9690,7 @@ export const POSTS = [
             {
               "name": "Трекер досліджень щодо лікування діабету 1 типу",
               "url": "/t1d-cure-trials-ua/",
-              "desc": "Чотирнадцять програм щодо лікування та модифікації перебігу діабету 1 типу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір, разом із безкоштовними скринінговими дослідженнями, з яких часто починають."
+              "desc": "Двадцять програм щодо лікування та модифікації перебігу діабету 1 типу поряд — фільтри за країною, фазою, підходом, тим, кого набирають, і чи триває набір, разом із безкоштовними скринінговими дослідженнями, з яких часто починають."
             }
           ]
         }
@@ -15034,7 +15034,7 @@ export const POSTS = [
             {
               "name": "Type 1 diabetes cure trials tracker",
               "url": "/t1d-cure-trials/",
-              "desc": "The fourteen type 1 cure and disease-modifying trials side by side — who can take part, where, and how far along each has got."
+              "desc": "The twenty type 1 cure and disease-modifying trials side by side — who can take part, where, and how far along each has got."
             }
           ]
         }
@@ -15139,7 +15139,7 @@ export const POSTS = [
             {
               "name": "Трекер досліджень щодо лікування діабету 1 типу",
               "url": "/t1d-cure-trials-ua/",
-              "desc": "Чотирнадцять досліджень щодо лікування та модифікації перебігу діабету 1 типу поряд — хто може взяти участь, де і на якій стадії кожне."
+              "desc": "Двадцять досліджень щодо лікування та модифікації перебігу діабету 1 типу поряд — хто може взяти участь, де і на якій стадії кожне."
             }
           ]
         }
@@ -17318,7 +17318,7 @@ export const POSTS = [
             {
               "name": "Type 1 diabetes cure trials tracker",
               "url": "/t1d-cure-trials/",
-              "desc": "Where this trial sits among the fourteen cure and disease-modifying programmes being tracked — filter by approach, phase, and whether each is recruiting or free to join."
+              "desc": "Where this trial sits among the twenty cure and disease-modifying programmes being tracked — filter by approach, phase, who can take part, and whether each is recruiting."
             }
           ]
         }

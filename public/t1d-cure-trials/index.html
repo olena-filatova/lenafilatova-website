@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>14 Type 1 Diabetes Cure Trials — Who Can Join, Where</title>
-<meta name="description" content="Track 14 type 1 diabetes cure and disease-modifying trials. Filter by country, phase, approach and whether each is recruiting or free to join.">
+<title>20 Type 1 Diabetes Cure Trials — Who Can Join, Where</title>
+<meta name="description" content="Track 20 type 1 diabetes cure and disease-modifying trials. Filter by country, phase, approach, who can take part and whether each is recruiting.">
 <link rel="canonical" href="https://lenafilatova.co.uk/t1d-cure-trials/">
 <link rel="alternate" hreflang="en" href="https://lenafilatova.co.uk/t1d-cure-trials/">
 <link rel="alternate" hreflang="uk" href="https://lenafilatova.co.uk/t1d-cure-trials-ua/">
@@ -12,14 +12,14 @@
 <link rel="alternate" hreflang="x-default" href="https://lenafilatova.co.uk/t1d-cure-trials/">
 <link rel="alternate" type="application/rss+xml" title="Lena Filatova — Journal" href="https://lenafilatova.co.uk/rss.xml">
 <meta property="og:type" content="website">
-<meta property="og:title" content="14 Type 1 Diabetes Cure Trials — Who Can Join, Where">
-<meta property="og:description" content="14 type 1 cure and disease-modifying trials, filterable by country, phase, approach and recruitment status — in plain English.">
+<meta property="og:title" content="20 Type 1 Diabetes Cure Trials — Who Can Join, Where">
+<meta property="og:description" content="20 type 1 cure and disease-modifying trials, filterable by country, phase, approach, age group and recruitment status — in plain English.">
 <meta property="og:url" content="https://lenafilatova.co.uk/t1d-cure-trials/">
 <meta property="og:site_name" content="Lena Filatova">
 <meta property="og:image" content="https://lenafilatova.co.uk/images/lena-filatova-womens-health-coach-over-40.jpg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="14 Type 1 Diabetes Cure Trials — Who Can Join, Where">
-<meta name="twitter:description" content="14 type 1 cure and disease-modifying trials, filterable by country, phase, approach and recruitment status — in plain English.">
+<meta name="twitter:title" content="20 Type 1 Diabetes Cure Trials — Who Can Join, Where">
+<meta name="twitter:description" content="20 type 1 cure and disease-modifying trials, filterable by country, phase, approach, age group and recruitment status — in plain English.">
 <meta name="twitter:image" content="https://lenafilatova.co.uk/images/lena-filatova-womens-health-coach-over-40.jpg">
 <!-- Self-hosted webfonts (OPS-211). These pages are standalone HTML outside the
      Astro bundle, so they can't import global.css — the same @font-face rules are
@@ -891,7 +891,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
   <header class="page-header" data-lf-chrome>
     <p class="est"><span class="est-label">Interactive tracker</span><span class="est-rule"></span></p>
     <h1>Type 1 diabetes cure trials tracker</h1>
-    <p class="description">Fourteen cure and disease-modifying trials, side by side. Filter by country, phase, approach, and whether each one is recruiting or free to join — then open any card for who can take part, results so far, and a link to the official study.</p>
+    <p class="description">Twenty cure and disease-modifying trials, side by side. Filter by country, phase, approach, who each one takes and whether it is recruiting — then open any card for the full eligibility, results so far, and a link to the official study.</p>
   </header>
 
   <details class="glossary">
@@ -915,9 +915,17 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
       <span class="filter-label">Recruiting?</span>
       <div class="chips" id="chips-recruit"></div>
     </div>
-    <div class="filter-row">
-      <span class="filter-label">Cost to join</span>
-      <div class="chips" id="chips-cost"></div>
+    <div class="filter-row" id="row-pay">
+      <span class="filter-label">Payment</span>
+      <div class="chips" id="chips-pay"></div>
+    </div>
+    <div class="filter-row" id="row-ages">
+      <span class="filter-label">Who can take part</span>
+      <div class="chips" id="chips-ages"></div>
+    </div>
+    <div class="filter-row" id="row-sex">
+      <span class="filter-label">Sex</span>
+      <div class="chips" id="chips-sex"></div>
     </div>
     <div class="filter-row">
       <span class="filter-label">Study type</span>
@@ -941,7 +949,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
   <div class="cards-list" id="list"></div>
   <div class="no-results" id="noResults" style="display:none;">No studies match these filters.</div>
 
-  <div class="footnote"><strong>Educational tracker — not medical advice and not a recommendation to join any study.</strong> Phases, eligibility, locations, cost and results change often; always confirm the current details on the study's official page before acting, and discuss any study with your own diabetes team. "Estimated availability" is a rough, best-case guess if a therapy keeps succeeding — most experimental treatments never reach the market, and timelines slip. "Free to join" means taking part doesn't cost you (the study covers its treatment); it doesn't include your own travel unless stated. Primary source for each study is <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> (search the NCT number); some also list on the EU trials register, ISRCTN or the sponsor's site.</div>
+  <div class="footnote"><strong>Educational tracker — not medical advice and not a recommendation to join any study.</strong> Phases, eligibility, locations, cost and results change often; always confirm the current details on the study's official page before acting, and discuss any study with your own diabetes team. "Estimated availability" is a rough, best-case guess if a therapy keeps succeeding — most experimental treatments never reach the market, and timelines slip. You are never asked to pay to take part in any of these studies — the study covers its own treatment and tests. What varies is whether it also reimburses your travel or pays you for your time, and most sponsors don't publish that, so many entries here read "not stated": ask the study team, and expect the answer to differ between hospitals. Primary source for each study is <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> (search the NCT number); some also list on the EU trials register, ISRCTN or the sponsor's site.</div>
 
   <p class="standalone-foot" data-lf-chrome>This tracker belongs to <a href="/blog/type-1-diabetes-cure-trials/">Type 1 diabetes cure research: the trials worth following in 2026</a> — the guide to what each approach actually is, how far along it has got, and how to take part.</p>
 </div>
@@ -958,7 +966,10 @@ const GLOSSARY = [
   ["Observational", "The study watches and measures (for example, blood tests) without giving a treatment. Screening and monitoring studies are how many people first find out they qualify for other trials."],
   ["Recruiting", "The study is actively enrolling new participants right now."],
   ["Active, not recruiting", "The study is running, but its group is already full."],
-  ["Free to join", "Taking part costs you nothing — the study covers its treatment. (You're not paid a wage; some studies help with travel.)"],
+  ["Paid for your time", "As well as costing you nothing, the study compensates you for the hours you give it — usually a set amount per visit."],
+  ["Travel and costs covered", "The study reimburses your travel, and sometimes accommodation or meals, but doesn't pay you for your time."],
+  ["Free, but no payment", "Taking part costs you nothing, but there's no reimbursement or fee either. Common for screening studies done from home."],
+  ["Not stated — ask the study", "Most sponsors don't publish their payment terms, and they often differ between hospitals running the same study. The study team tells you before you agree to anything — always ask. What never happens: being charged to take part."],
   ["NCT number", "The ID for a study on ClinicalTrials.gov. Search it there to see the live status, full criteria and contact details."],
   ["Islet / beta cells", "The cells in the pancreas that make insulin — the ones lost in type 1 diabetes."],
   ["Autoantibodies · stage 1–2", "Immune markers that show type 1 is developing, often years before symptoms. A simple blood test can find them — that's what screening studies do."],
@@ -977,10 +988,11 @@ const DATA = [
     approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
     phase:"approved", phaseLabel:"Approved", status:"approved", statusLabel:"Available now",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"approved", costLabel:"Approved — on prescription",
+    pay:"na", payLabel:"Not a study you can join",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["United States"],
     location:"Approved and in use in the USA; the PROTECT trial ran in the US, Canada, UK and Europe",
-    timing:"Available now in the US — approved in 2022, and in April 2026 the approved age was widened to 1 year and up.",
+    timing:"Available now in the US — approved in 2022, and in April 2026 the approved age was widened to 1 year and up. A separate Phase 3 in newly-diagnosed children and young adults is recruiting worldwide (see the next entry).",
     description:"A roughly two-week course of infusions that calms the immune system's attack on the insulin-making cells. In people at high risk, it delays the start of full type 1 diabetes.",
     design:"Given as a once-daily IV infusion for about 14 days. A separate trial (PROTECT) tested it in children just diagnosed, to protect the insulin they still had.",
     eligibility:"Approved for stage 2 type 1 (autoantibodies plus early blood-sugar changes, but not yet full diabetes), age 1 and up — usually found by screening relatives of people with type 1. PROTECT trial: ages 8–17, diagnosed within 6 weeks.",
@@ -990,11 +1002,48 @@ const DATA = [
     nct:"NCT03875729", url:"https://clinicaltrials.gov/study/NCT03875729"
   },
   {
+    id:"teplizumab-newonset", name:"Teplizumab for the newly diagnosed (\u03b2ETA PRESERVE)", sponsor:"Sanofi",
+    approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
+    phase:"p3", phaseLabel:"Phase 3", status:"recruiting", statusLabel:"Recruiting",
+    studyType:"interventional", studyTypeLabel:"Interventional",
+    pay:"unknown", payLabel:"Not stated \u2014 ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
+    countries:["Argentina","Australia","Belgium","Brazil","Canada","China","Czechia","France","Germany","Israel","Italy","Japan","Netherlands","Poland","Spain","United Kingdom","United States"],
+    location:"Around 160 hospitals across 17 countries \u2014 the US, UK, Canada, much of Europe, Japan, China, Australia, Brazil, Argentina and Israel",
+    timing:"Recruiting now; each participant is followed for 52 weeks, so results are expected toward the end of the decade.",
+    description:"The same approved drug as the entry above, tested for a different job \u2014 not delaying type 1 in someone at risk, but protecting the insulin still left in someone who has only just been diagnosed.",
+    design:"723 people are randomly assigned to teplizumab or a dummy infusion, with neither they nor their doctor knowing which, then followed for a year to compare blood-sugar control and how much mealtime insulin they still need.",
+    eligibility:"Ages 1\u201325, diagnosed with stage 3 type 1, and able to start treatment within 8 weeks of that diagnosis. This is the rare trial where moving fast after diagnosis is what qualifies you.",
+    results:"None yet \u2014 the study opened in August 2025. Its case rests on the earlier PROTECT trial, where newly-diagnosed 8\u201317-year-olds given teplizumab kept significantly more of their own insulin over 18 months.",
+    pros:"The largest recruiting trial on this page, and in the most countries; uses a drug already approved, so its safety profile is well understood; open from age 1.",
+    cons:"Half of participants get a placebo; the 8-week window after diagnosis is narrow, so most people hear about it too late; it protects the insulin you have left rather than restoring what has gone.",
+    nct:"NCT07088068", url:"https://clinicaltrials.gov/study/NCT07088068"
+  },
+  {
+    id:"tn40a", name:"ATG vs teplizumab to delay type 1 (TN40A)", sponsor:"NIDDK (NIH) \u00b7 TrialNet network",
+    approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
+    phase:"p2", phaseLabel:"Phase 2", status:"notyet", statusLabel:"Opening soon",
+    studyType:"interventional", studyTypeLabel:"Interventional",
+    pay:"unknown", payLabel:"Not stated \u2014 ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
+    countries:["United States"],
+    location:"US sites; enrollment has not opened yet",
+    timing:"Not open yet \u2014 enrollment is expected to begin during 2026, with each participant followed for one to four years afterwards.",
+    description:"A head-to-head test of two ways to hold type 1 off in people already on course to develop it: the approved 14-infusion teplizumab course, or just two infusions of ATG, a much older and cheaper drug.",
+    design:"60 at-risk people are randomly assigned to one drug or the other. It is open-label \u2014 everyone knows which they are getting, and nobody receives a placebo \u2014 and they are then followed for 12 to 48 months to see who goes on to develop full type 1.",
+    eligibility:"Ages 4 to under 35, with at least two diabetes-related autoantibodies found on the same blood sample \u2014 usually discovered through a screening study such as TrialNet's.",
+    results:"None \u2014 it has not started.",
+    pros:"No placebo arm, so everyone gets an active drug; two infusions instead of fourteen would be far easier and much cheaper if it holds up; run by the long-established NIH-funded network.",
+    cons:"Not open yet, and small at 60 people; US only; ATG suppresses the immune system, which carries an infection risk; the aim is to delay type 1, not to prevent it for good.",
+    nct:"NCT07216391", url:"https://clinicaltrials.gov/study/NCT07216391"
+  },
+  {
     id:"zimislecel", name:"Zimislecel (VX-880) — FORWARD study", sponsor:"Vertex Pharmaceuticals",
     approach:"stem", approachLabel:"Stem-cell islet replacement",
     phase:"p3", phaseLabel:"Phase 3", status:"recruiting", statusLabel:"Recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"paid", payLabel:"Paid for your time",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
     countries:["United States","Canada","United Kingdom","France","Germany","Italy","Netherlands","Norway","Switzerland","Saudi Arabia"],
     location:"About 28 sites across the US, Canada, the UK, France, Germany, Italy, the Netherlands, Norway, Switzerland and Saudi Arabia",
     timing:"Best case around 2027+. Vertex says it aims to begin global regulatory submissions in 2026 — but nothing has been filed with the FDA yet, so it is not 'under review'.",
@@ -1009,9 +1058,10 @@ const DATA = [
   {
     id:"tegoprubart-islet", name:"Islet transplant with tegoprubart (gentler anti-rejection)", sponsor:"University of Chicago · drug by Eledon · funded by Breakthrough T1D",
     approach:"islet", approachLabel:"Islet transplant",
-    phase:"p12", phaseLabel:"Phase 1/2", status:"recruiting", statusLabel:"Recruiting",
+    phase:"p12", phaseLabel:"Phase 1/2", status:"active", statusLabel:"Active, not recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
     countries:["United States"],
     location:"University of Chicago, Illinois, USA (single site)",
     timing:"Around 2030+. It is limited by the supply of donor cells and still needs larger controlled trials.",
@@ -1028,7 +1078,8 @@ const DATA = [
     approach:"islet", approachLabel:"Islet transplant",
     phase:"p12", phaseLabel:"Phase 1/2", status:"active", statusLabel:"Active, not recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
     countries:["United States"],
     location:"University of Chicago, Illinois, USA (single site)",
     timing:"Around 2030+. A confirmatory group is only just starting, and the current version still needs donor cells and immune suppression.",
@@ -1045,7 +1096,8 @@ const DATA = [
     approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
     phase:"p3", phaseLabel:"Phase 3", status:"recruiting", statusLabel:"Recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["Australia","Belgium","Brazil","Canada","Finland","France","Germany","Israel","Italy","Japan","Netherlands","Norway","Poland","Portugal","Spain","Sweden","United Kingdom","United States"],
     location:"The completed Phase 2 ran in Australia; the recruiting Phase 3 spans about 18 countries across North America, Europe, Israel, Japan, Brazil and Australia",
     timing:"It is already an approved arthritis pill, so it could move relatively quickly if trials confirm — but it is not yet approved or recommended for type 1. The Phase 3 runs to about 2031.",
@@ -1062,7 +1114,8 @@ const DATA = [
     approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
     phase:"p2", phaseLabel:"Phase 2", status:"active", statusLabel:"Active, not recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["Austria","Belgium","Canada","Czechia","Denmark","Finland","France","Germany","Hungary","Italy","Poland","Slovenia","Spain","Sweden","United Kingdom","United States"],
     location:"97 sites across the US, Canada and much of Western Europe and the Nordics",
     timing:"Around 2029–2031 at the earliest — a Phase 3 would follow if this trial succeeds.",
@@ -1077,18 +1130,19 @@ const DATA = [
   {
     id:"diamyd", name:"Diamyd (GAD-alum) — DIAGNODE-3", sponsor:"Diamyd Medical (Sweden)",
     approach:"vaccine", approachLabel:"Vaccine / antigen-specific",
-    phase:"p3", phaseLabel:"Phase 3", status:"active", statusLabel:"Active, not recruiting",
+    phase:"p3", phaseLabel:"Phase 3", status:"stopped", statusLabel:"Stopped — it didn't work",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"na", payLabel:"Not a study you can join",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["United States","Czechia","Estonia","Germany","Hungary","Netherlands","Poland","Spain","Sweden"],
     location:"The US plus Czechia, Estonia, Germany, Hungary, the Netherlands, Poland, Spain and Sweden",
-    timing:"Main results are expected around December 2027; approval, if it works, would be roughly 2028 or later.",
+    timing:"Over. The trial was discontinued in April 2026 and there is nothing left to join.",
     description:"Three injections of a diabetes protein (GAD65) into a lymph node, aiming to retrain the immune system and protect the insulin a person still has. It is a precision approach limited to one genetic subgroup.",
-    design:"A Phase 3 in recently-diagnosed people who carry a specific gene type. Enrollment is closed.",
+    design:"A Phase 3 in recently-diagnosed people carrying a specific gene type. Discontinued — no longer running.",
     eligibility:"Ages 12–28, diagnosed within 6 months, and must carry the HLA DR3-DQ2 gene type (a genetic test is required); GAD65-antibody positive with some of their own insulin left.",
-    results:"No Phase 3 results yet (due around 2027). The rationale rests on an earlier trial's results in this same genetic subgroup.",
-    pros:"Targets the immune system specifically, sparing the rest of it; a simple injection; a genetically-selected group most likely to respond.",
-    cons:"Only people with the DR3-DQ2 gene type qualify (a minority); it protects remaining insulin rather than curing; the effect is still unproven; results are years away.",
+    results:"It failed. The planned interim look at 174 participants, reported in March 2026, found no effect at all on C-peptide (the measure of a person's own insulin) — not in the group overall, and not in the genetic subgroup that earlier trials had flagged as most likely to respond. Diamyd stopped the trial for futility in April 2026.",
+    pros:"Listed here only as a closed chapter: it was a simple injection, aimed precisely at the immune system and at the subgroup most likely to respond.",
+    cons:"It did not work. A promising earlier signal in this genetic subgroup did not survive a properly-powered Phase 3 — a useful reminder that most of the entries on this page will end the same way.",
     nct:"NCT05018585", url:"https://clinicaltrials.gov/study/NCT05018585"
   },
   {
@@ -1096,7 +1150,8 @@ const DATA = [
     approach:"islet", approachLabel:"Islet transplant",
     phase:"p1", phaseLabel:"Phase 1", status:"active", statusLabel:"Active, not recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"na", payLabel:"Not a study you can join",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
     countries:["Sweden"],
     location:"Uppsala, Sweden",
     timing:"2030+. This is a single-patient proof of concept; a scalable product still needs full trials.",
@@ -1113,7 +1168,8 @@ const DATA = [
     approach:"stem", approachLabel:"Stem-cell islet replacement",
     phase:"p1", phaseLabel:"Phase 1", status:"active", statusLabel:"Active, not recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"na", payLabel:"Not a study you can join",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
     countries:["China"],
     location:"Tianjin, China",
     timing:"Years away — this is a first-patient proof of concept.",
@@ -1130,7 +1186,8 @@ const DATA = [
     approach:"treg", approachLabel:"Regulatory T-cell (Treg) therapy",
     phase:"p2", phaseLabel:"Phase 2", status:"recruiting", statusLabel:"Recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["Poland"],
     location:"9 sites across Poland",
     timing:"2032+. This is a prevention trial in young children, finishing around 2032.",
@@ -1147,7 +1204,8 @@ const DATA = [
     approach:"vaccine", approachLabel:"Vaccine / antigen-specific",
     phase:"p2", phaseLabel:"Phase 2", status:"active", statusLabel:"Active, not recruiting",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["United States"],
     location:"Boston (Charlestown), Massachusetts, USA (single center)",
     timing:"No near-term path — it remains investigational, without completed positive pivotal results despite many years.",
@@ -1164,7 +1222,8 @@ const DATA = [
     approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
     phase:"p23", phaseLabel:"Phase 2/3", status:"unknown", statusLabel:"Status unknown",
     studyType:"interventional", studyTypeLabel:"Interventional",
-    cost:"free", costLabel:"Free to join",
+    pay:"unknown", payLabel:"Not stated — ask the study",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["United States"],
     location:"New Jersey, USA",
     timing:"Uncertain — there is no approval, and the trial's official status is now listed as 'unknown'.",
@@ -1177,11 +1236,84 @@ const DATA = [
     nct:"NCT04011020", url:"https://clinicaltrials.gov/study/NCT04011020"
   },
   {
+    id:"endocell", name:"E-islet 01 \u2014 stem-cell islets", sponsor:"EndoCell Therapeutics",
+    approach:"stem", approachLabel:"Stem-cell islet replacement",
+    phase:"p12", phaseLabel:"Phase 1/2", status:"recruiting", statusLabel:"Recruiting",
+    studyType:"interventional", studyTypeLabel:"Interventional",
+    pay:"unknown", payLabel:"Not stated \u2014 ask the study",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
+    countries:["China"],
+    location:"A single hospital in China (the company itself is US-based)",
+    timing:"Recruiting since August 2025; as a first-in-human study, meaningful results are 2027 at the earliest.",
+    description:"Islet cells grown in a lab from stem cells and infused into the liver \u2014 the same broad idea as Vertex's zimislecel above, from a smaller competitor.",
+    design:"A first-in-human safety and dose study in 21 adults whose hypos have become dangerous, using immune-suppressing drugs to stop the new cells being rejected.",
+    eligibility:"Adults 18\u201375 who have had type 1 for more than 5 years and make essentially none of their own insulin, plus either a severe hypo in the past year or a loss of the warning signs of one.",
+    results:"Too early \u2014 nothing published.",
+    pros:"A second serious attempt at the approach that has produced the most striking results in type 1 so far; the age limit of 75 is more generous than most trials here.",
+    cons:"One site, in China, so realistically out of reach unless you live there; very early stage; still requires lifelong immune-suppressing drugs.",
+    nct:"NCT07126873", url:"https://clinicaltrials.gov/study/NCT07126873"
+  },
+  {
+    id:"otsuka-opf310", name:"Encapsulated pig islet cells (OPF-310)", sponsor:"Otsuka Pharmaceutical Factory",
+    approach:"encap", approachLabel:"Encapsulated cells (no anti-rejection drugs)",
+    phase:"p12", phaseLabel:"Phase 1/2", status:"recruiting", statusLabel:"Recruiting",
+    studyType:"interventional", studyTypeLabel:"Interventional",
+    pay:"unknown", payLabel:"Not stated \u2014 ask the study",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
+    countries:["United States"],
+    location:"A single US site",
+    timing:"Recruiting since June 2025. A first-in-human study, so any answer is years away.",
+    description:"Insulin-making cells taken from pigs and sealed inside a protective capsule the immune system cannot get through. If it works, it sidesteps both of the things that limit islet transplants today: the shortage of human donors, and the lifelong anti-rejection drugs.",
+    design:"A first-in-human dose-finding study in 13 adults with unstable type 1, to settle on a safe dose to take into Phase 2.",
+    eligibility:"Adults 35\u201370 who have had type 1 for at least 5 years and whose blood sugar remains unstable despite good care.",
+    results:"None yet.",
+    pros:"Would remove the donor shortage altogether; the capsule is designed to avoid immune-suppressing drugs; backed by a company with real manufacturing behind it.",
+    cons:"Very early and very small, at one site; animal-to-human transplants raise safety questions, and for some people ethical or religious ones; earlier encapsulation attempts by other groups have struggled with scarring around the implant.",
+    nct:"NCT06575426", url:"https://clinicaltrials.gov/study/NCT06575426"
+  },
+  {
+    id:"altheia", name:"IMMUNOSTEM \u2014 gene therapy using your own stem cells", sponsor:"Altheia Science (Italy)",
+    approach:"immuno", approachLabel:"Immunotherapy (calm the attack)",
+    phase:"p12", phaseLabel:"Phase 1/2", status:"notyet", statusLabel:"Opening soon",
+    studyType:"interventional", studyTypeLabel:"Interventional",
+    pay:"unknown", payLabel:"Not stated \u2014 ask the study",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
+    countries:["Italy"],
+    location:"A single centre in Italy; enrollment has not opened yet",
+    timing:"Not recruiting yet, and first-in-human when it does start \u2014 this is the furthest from being a real option of anything on this page.",
+    description:"Your own blood-forming stem cells are taken out, genetically modified to damp down the attack on the pancreas, and given back \u2014 an attempt to retrain the immune system once, rather than suppress it continuously.",
+    design:"A first-in-human safety study in 15 adults diagnosed within the past six months who still make some of their own insulin, looking at safety first and at insulin need and beta-cell function second.",
+    eligibility:"Adults 18\u201340, within roughly 180 days of their first insulin, with some of their own insulin left.",
+    results:"None \u2014 it has not started.",
+    pros:"Uses your own cells, so there is nothing to reject; aims at a lasting immune reset from a single treatment rather than an ongoing drug.",
+    cons:"Not open yet, tiny, and in one country; a demanding procedure compared with a tablet or an infusion; nothing is yet known about whether it works in people.",
+    nct:"NCT06938334", url:"https://clinicaltrials.gov/study/NCT06938334"
+  },
+  {
+    id:"mtx228", name:"MTX228 (tolimidone) \u2014 regrowing beta cells", sponsor:"University of Alberta (Canada)",
+    approach:"preserve", approachLabel:"Protect / regrow your own beta cells",
+    phase:"p2", phaseLabel:"Phase 2", status:"recruiting", statusLabel:"Recruiting",
+    studyType:"interventional", studyTypeLabel:"Interventional",
+    pay:"unknown", payLabel:"Not stated \u2014 ask the study",
+    ages:["adults"], agesLabel:"Adults", sex:"all", sexLabel:"Any sex",
+    countries:["Canada"],
+    location:"University of Alberta, Edmonton, Canada",
+    timing:"Recruiting. A small early study, so whatever it finds will be a first signal rather than proof.",
+    description:"An old tablet, originally developed for stomach ulcers, which turns out to switch on a protein (Lyn kinase) involved in keeping insulin-making cells alive and multiplying. The hope is that it lets people regrow some of their own beta cells.",
+    design:"An open-label Phase 2 in 24 adults who still make a little of their own insulin, testing whether the drug increases it.",
+    eligibility:"Adults 18\u201365 who have had type 1 for at least a year, with HbA1c between 6.0 and 10.0%, still making some of their own insulin, and willing to wear a study-provided CGM and share the data.",
+    results:"Nothing published yet.",
+    pros:"A tablet rather than surgery or infusions; the drug has already been through human safety testing for another illness; aims at regrowth rather than just slowing the loss.",
+    cons:"24 people at a single Canadian site; open-label with no placebo group, which makes the results hard to read; the beta-cell effect has so far been shown mostly in the laboratory.",
+    nct:"NCT06474598", url:"https://clinicaltrials.gov/study/NCT06474598"
+  },
+  {
     id:"trialnet-p2p", name:"TrialNet Pathway to Prevention (free screening)", sponsor:"TrialNet · University of South Florida · NIH-funded",
     approach:"screen", approachLabel:"Screening & monitoring",
     phase:"na", phaseLabel:"", status:"recruiting", statusLabel:"Recruiting",
     studyType:"observational", studyTypeLabel:"Observational",
-    cost:"free", costLabel:"Free to join",
+    pay:"unpaid", payLabel:"Free, but no payment",
+    ages:["children","adults"], agesLabel:"Children and adults", sex:"all", sexLabel:"Any sex",
     countries:["Australia","Canada","Finland","Italy","United Kingdom","United States"],
     location:"Sites across the US, UK, Canada, Australia, Finland and Italy",
     timing:"Open now — a free way to learn your risk. It's the usual route into type 1 prevention trials (and to teplizumab).",
@@ -1198,7 +1330,8 @@ const DATA = [
     approach:"screen", approachLabel:"Screening & monitoring",
     phase:"na", phaseLabel:"", status:"recruiting", statusLabel:"Recruiting",
     studyType:"observational", studyTypeLabel:"Observational",
-    cost:"free", costLabel:"Free to join",
+    pay:"unpaid", payLabel:"Free, but no payment",
+    ages:["children"], agesLabel:"Children", sex:"all", sexLabel:"Any sex",
     countries:["United Kingdom"],
     location:"United Kingdom (general population)",
     timing:"Open now, running to 2029 — a free UK screening study for children, with no family history of type 1 needed.",
@@ -1216,14 +1349,16 @@ const DATA = [
 const PHASE_ORDER = ["approved","p3","p23","p2","p12","p1"];
 const RECRUIT_ORDER = ["recruiting","closed","available"];
 const RECRUIT_LABEL = { recruiting:"Recruiting now", closed:"Not recruiting", available:"Available now" };
-const COST_ORDER = ["free","approved"];
+const PAY_ORDER = ["paid","expenses","unpaid","unknown","na"];
+const AGES_ORDER = ["children","adults"];
+const AGES_LABEL = { children:"Children", adults:"Adults" };
 const STUDYTYPE_ORDER = ["interventional","observational"];
 const APPROACH_CLASS = { stem:"stem", encap:"encap", immuno:"immuno", vaccine:"vaccine", preserve:"preserve", treg:"treg", islet:"islet", screen:"screen", other:"other" };
 
 // Simplify the detailed status into a clear recruiting bucket for filtering.
 const recruitKey = (d) => d.status === "recruiting" ? "recruiting" : (d.status === "approved" ? "available" : "closed");
 
-let state = { search:"", country:"all", recruit:"all", cost:"all", studytype:"all", approach:"all", phase:"all" };
+let state = { search:"", country:"all", recruit:"all", pay:"all", ages:"all", sex:"all", studytype:"all", approach:"all", phase:"all" };
 const openIds = new Set();
 let allExpanded = false;
 
@@ -1247,15 +1382,32 @@ function buildCountrySelect() {
 /* Build a chip group. stateKey = the state field the chips drive; valueFn extracts
    the matching value from a record (defaults to d[stateKey], but recruit/studytype
    are derived or camelCased, so they pass an explicit valueFn). */
-function buildChips(containerId, stateKey, orderList, labelFn, valueFn) {
+function buildChips(containerId, stateKey, orderList, labelFn, valueFn, labelMap, skipVals) {
   valueFn = valueFn || ((d) => d[stateKey]);
+  // "na" and "unknown" are answers no one filters BY — they mean the question
+  // doesn't apply or nobody published it, and a chip for either would promise a
+  // useful cut of the data that isn't one. `skipVals` adds to that list: the sex
+  // group also drops "all", because a study open to everyone is not a third
+  // option next to Women and Men — render() already lets it match either.
+  const skip = ["na", "unknown"].concat(skipVals || []);
   const seen = new Map();
   DATA.forEach(d => {
-    const v = valueFn(d);
-    if (!v || v === "na") return;
-    if (!seen.has(v)) seen.set(v, labelFn(d));
+    const raw = valueFn(d);
+    // A record can sit in several buckets at once (a study open to both children
+    // and adults), so every value is normalised to an array here.
+    (Array.isArray(raw) ? raw : [raw]).forEach(v => {
+      if (!v || skip.indexOf(v) !== -1) return;
+      if (!seen.has(v)) seen.set(v, labelMap ? labelMap[v] : labelFn(d));
+    });
   });
   let keys = [...seen.keys()];
+  // A filter every study answers the same way is noise, not a filter — hide the
+  // whole row. It reappears on its own the day a study differs (no study here
+  // currently recruits one sex only, but that is a fact about the data, not a
+  // rule), which is why the chips are still built from the data rather than
+  // hard-coded.
+  const row = document.getElementById("row-" + stateKey);
+  if (row) row.hidden = keys.length < 2;
   if (orderList) keys.sort((a, b) => orderList.indexOf(a) - orderList.indexOf(b));
   else keys.sort((a, b) => String(seen.get(a)).localeCompare(String(seen.get(b))));
   const el = document.getElementById(containerId);
@@ -1308,7 +1460,8 @@ function cardHtml(d) {
       ${proscons}
       <div class="meta-line">
         ${d.studyTypeLabel ? `<span>Type: <b>${esc(d.studyTypeLabel)}</b></span>` : ""}
-        ${d.costLabel ? `<span>Cost to take part: <b>${esc(d.costLabel)}</b></span>` : ""}
+        ${d.agesLabel ? `<span>Who: <b>${esc(d.agesLabel)}</b></span>` : ""}
+        ${d.payLabel ? `<span>Payment: <b>${esc(d.payLabel)}</b></span>` : ""}
       </div>
       <div class="ref-line">
         ${d.location ? `<span class="loc-line">📍 ${esc(d.location)}</span>` : ""}
@@ -1324,7 +1477,9 @@ function render() {
   const rows = DATA.filter(d => {
     if (state.country !== "all" && !(d.countries || []).includes(state.country)) return false;
     if (state.recruit !== "all" && recruitKey(d) !== state.recruit) return false;
-    if (state.cost !== "all" && d.cost !== state.cost) return false;
+    if (state.pay !== "all" && d.pay !== state.pay) return false;
+    if (state.ages !== "all" && !(d.ages || []).includes(state.ages)) return false;
+    if (state.sex !== "all" && d.sex !== state.sex && d.sex !== "all") return false;
     if (state.studytype !== "all" && d.studyType !== state.studytype) return false;
     if (state.approach !== "all" && d.approach !== state.approach) return false;
     if (state.phase !== "all" && d.phase !== state.phase) return false;
@@ -1361,14 +1516,16 @@ function bindCards() {
 /* Build filters */
 buildCountrySelect();
 buildChips("chips-recruit", "recruit", RECRUIT_ORDER, (d) => RECRUIT_LABEL[recruitKey(d)], recruitKey);
-buildChips("chips-cost", "cost", COST_ORDER, (d) => d.costLabel);
+buildChips("chips-pay", "pay", PAY_ORDER, (d) => d.payLabel);
+buildChips("chips-ages", "ages", AGES_ORDER, (d) => d.agesLabel, null, AGES_LABEL);
+buildChips("chips-sex", "sex", null, (d) => d.sexLabel, null, null, ["all"]);
 buildChips("chips-studytype", "studytype", STUDYTYPE_ORDER, (d) => d.studyTypeLabel, (d) => d.studyType);
 buildChips("chips-approach", "approach", null, (d) => d.approachLabel);
 buildChips("chips-phase", "phase", PHASE_ORDER, (d) => d.phaseLabel);
 
 document.getElementById("search").addEventListener("input", e => { state.search = e.target.value; render(); });
 document.getElementById("clearBtn").addEventListener("click", () => {
-  state = { search:"", country:"all", recruit:"all", cost:"all", studytype:"all", approach:"all", phase:"all" };
+  state = { search:"", country:"all", recruit:"all", pay:"all", ages:"all", sex:"all", studytype:"all", approach:"all", phase:"all" };
   document.getElementById("search").value = "";
   document.getElementById("countrySel").value = "all";
   document.querySelectorAll(".chips").forEach(g => {
