@@ -8987,19 +8987,19 @@ export const POSTS = [
             {
               "claim": "Type 1-specific evidence remains sparse, and clinicians are told to individualise because of it.",
               "detail": "A 2025 narrative review of menopause management in type 1 diabetes concludes that dedicated evidence is limited, that recommendations are largely extrapolated from other populations, and that decisions must therefore be individualised.",
-              "cite": "Narrative review, 2025 · PubMed Central",
+              "cite": "Endocrine Connections · Courtney A, Owens L, narrative review, December 2025",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12709055/"
             },
             {
               "claim": "Falling oestrogen worsens insulin resistance and body-fat distribution.",
-              "detail": "Reviews of the menopause transition describe declining oestrogen alongside increased visceral adiposity, reduced insulin sensitivity and reduced non-insulin-dependent glucose uptake as muscle mass falls — the mechanistic basis for shifting insulin requirements.",
-              "cite": "Review · PubMed Central",
+              "detail": "The menopause transition and early postmenopausal period are associated with increased total and central obesity, and increased visceral fat with insulin resistance — the mechanistic basis for shifting insulin requirements, alongside reduced non-insulin-dependent glucose uptake as muscle mass falls. This is the background framing of a controlled study of hormone therapy in 40 postmenopausal women with type 2 diabetes, not a review of the menopause transition in its own right.",
+              "cite": "Controlled study in 40 postmenopausal women with type 2 diabetes · PubMed Central",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4884259/"
             },
             {
               "claim": "Women with type 1 diabetes report worse and less predictable glucose after menopause.",
               "detail": "Survey and observational work in women with type 1 diabetes going through the menopause transition reports perceived worsening of glucose regulation, greater variability, and difficulty distinguishing vasomotor symptoms from hypoglycaemia.",
-              "cite": "Menopause and type 1 diabetes literature · PubMed Central",
+              "cite": "Diabetologia · Cross-sectional survey of 159 women with type 1 diabetes, Netherlands",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12534243/"
             },
             {
@@ -9229,19 +9229,19 @@ export const POSTS = [
             {
               "claim": "Доказів саме щодо діабету 1 типу залишається мало, і саме тому лікарям радять діяти індивідуально.",
               "detail": "Наративний огляд 2025 року щодо ведення менопаузи при діабеті 1 типу підсумовує, що спеціальних доказів обмаль, що рекомендації здебільшого екстраполюються з інших популяцій, і що рішення тому мають бути індивідуальними.",
-              "cite": "Наративний огляд, 2025 · PubMed Central",
+              "cite": "Endocrine Connections · Courtney A, Owens L, наративний огляд, грудень 2025",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12709055/"
             },
             {
               "claim": "Зниження естрогену погіршує інсулінорезистентність і розподіл жирової тканини.",
-              "detail": "Огляди менопаузального переходу описують зниження естрогену разом зі зростанням вісцерального жиру, зниженням чутливості до інсуліну та зменшенням неінсулінозалежного захоплення глюкози через втрату м’язової маси — механістична основа для зміни потреби в інсуліні.",
-              "cite": "Огляд · PubMed Central",
+              "detail": "Менопаузальний перехід і рання постменопауза пов’язані зі зростанням загального й центрального ожиріння, а зростання вісцерального жиру — з інсулінорезистентністю; це механістична основа для зміни потреби в інсуліні, поряд зі зменшенням неінсулінозалежного захоплення глюкози через втрату м’язової маси. Це вступна частина контрольованого дослідження гормональної терапії в 40 жінок у постменопаузі з діабетом 2 типу, а не огляд менопаузального переходу як такий.",
+              "cite": "Контрольоване дослідження 40 жінок у постменопаузі з діабетом 2 типу · PubMed Central",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4884259/"
             },
             {
               "claim": "Жінки з діабетом 1 типу повідомляють про гірший і менш передбачуваний цукор після менопаузи.",
               "detail": "Опитування та спостережні дослідження жінок із діабетом 1 типу в менопаузальному переході повідомляють про суб’єктивне погіршення регуляції глюкози, більшу мінливість і труднощі з розрізненням вазомоторних симптомів і гіпоглікемії.",
-              "cite": "Література про менопаузу та діабет 1 типу · PubMed Central",
+              "cite": "Diabetologia · Перехресне опитування 159 жінок із діабетом 1 типу, Нідерланди",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12534243/"
             },
             {
