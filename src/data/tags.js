@@ -294,6 +294,17 @@ export const TAGS = [
     ],
   },
 
+  {
+    key: 'supplements', group: 'treatment',
+    en: 'Supplements', ua: 'Добавки',
+    posts: [
+      'magnesium-perimenopause-sleep-insulin-resistance',
+      'creatine-women-over-40',
+      'kefir-fibre-synbiotic-inflammation',
+      'collagen-and-skin',
+    ],
+  },
+
   // Weight & GLP-1
   {
     key: 'glp1', group: 'weight',
