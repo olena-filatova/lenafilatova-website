@@ -41,6 +41,7 @@
 export const TAG_GROUPS = [
   { key: 'hormones', en: 'Hormones & menopause', ua: 'Гормони і менопауза' },
   { key: 'diabetes', en: 'Diabetes', ua: 'Діабет' },
+  { key: 'treatment', en: 'Treatment', ua: 'Лікування' },
   { key: 'weight', en: 'Weight & GLP-1', ua: 'Вага і GLP-1' },
   { key: 'food', en: 'Food', ua: 'Їжа' },
   { key: 'movement', en: 'Movement', ua: 'Рух' },
@@ -251,7 +252,7 @@ export const TAGS = [
   },
 
   {
-    key: 'diabetes-medication', group: 'diabetes',
+    key: 'diabetes-medication', group: 'treatment',
     en: 'Diabetes medication', ua: 'Ліки від діабету',
     posts: [
       'glp1-what-we-know',
@@ -282,6 +283,17 @@ export const TAGS = [
       'perimenopause-diabetes-blood-sugar',
     ],
   },
+  {
+    key: 'medication', group: 'treatment',
+    en: 'Medication & side effects', ua: 'Ліки та побічні ефекти',
+    posts: [
+      'oral-minoxidil-for-womens-hair-loss',
+      'hrt-type-1-diabetes-evidence',
+      'extended-release-minoxidil-female-hair-loss',
+      'hrt-prescriptions-doubling',
+    ],
+  },
+
   // Weight & GLP-1
   {
     key: 'glp1', group: 'weight',
