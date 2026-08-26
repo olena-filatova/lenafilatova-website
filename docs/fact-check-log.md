@@ -62,8 +62,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 14 | 2026-08-19 | `frozen-shoulder-diabetes` | done | 2026-08-25 | OPS-370 |
 | 15 | 2026-08-18 | `menopause-skincare-longevity-marketing` | done | 2026-08-26 | OPS-370 |
 | 16 | 2026-08-18 | `fermented-foods-gut-microbiome-review` | done | 2026-08-26 | OPS-370 |
-| 17 | 2026-08-18 | `fibre-deficiency-gut-inflammation` | pending | — | — |
-| 18 | 2026-08-18 | `menopause-cost-workplace-productivity` | pending | — | — |
+| 17 | 2026-08-18 | `fibre-deficiency-gut-inflammation` | done | 2026-08-26 | OPS-370 |
+| 18 | 2026-08-18 | `menopause-cost-workplace-productivity` | done | 2026-08-26 | OPS-370 |
 | 19 | 2026-08-17 | `clinical-trials-women-over-40` | pending | — | — |
 | 20 | 2026-08-16 | `endometriosis-type-2-diabetes-risk` | pending | — | — |
 | 21 | 2026-08-16 | `hrt-type-1-diabetes-evidence` | pending | — | — |
