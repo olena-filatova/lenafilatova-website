@@ -76,8 +76,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 28 | 2026-08-13 | `does-weight-training-raise-blood-sugar` | done | 2026-08-26 | OPS-370 — BMC Women's Health review miscredited: protein finding corrected (EN+UA) |
 | 29 | 2026-08-12 | `glp1-weight-loss-sex-difference-women-men` | done | 2026-08-26 | OPS-370 — figures exact; JAMA cite repointed from press release to paper |
 | 30 | 2026-08-11 | `extended-release-minoxidil-female-hair-loss` | done | 2026-08-26 | OPS-370 — clean; caveats already accurate |
-| 31 | 2026-08-10 | `type-2-diabetes-menopause-symptoms` | pending | — | — |
-| 32 | 2026-08-10 | `kefir-fibre-synbiotic-inflammation` | pending | — | — |
+| 31 | 2026-08-10 | `type-2-diabetes-menopause-symptoms` | done | 2026-08-26 | OPS-370 — clean; cite/URL mismatch noted, not changed |
+| 32 | 2026-08-10 | `kefir-fibre-synbiotic-inflammation` | done | 2026-08-26 | OPS-370 — clean; every figure exact |
 | 33 | 2026-08-08 | `perimenopause-uncertainty-us-study` | pending | — | — |
 | 34 | 2026-08-04 | `perimenopause-global-survey-symptom-gap` | pending | — | — |
 | 35 | 2026-08-03 | `estrobolome-gut-oestrogen-menopause` | pending | — | — |
