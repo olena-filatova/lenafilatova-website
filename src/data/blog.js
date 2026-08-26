@@ -11808,7 +11808,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "As oestrogen falls through perimenopause, insulin sensitivity drops with it — [I have written about how hard that made my own management](/blog/perimenopause-diabetes-blood-sugar/). Fat distribution shifts towards the visceral, which is the metabolically unhelpful kind. And muscle loss accelerates: [a 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) found menopausal women are at significantly raised risk of sarcopenia, and that resistance exercise combined with adequate protein was among the most effective things to do about it. That is also why [protein intake matters more after 40 than the official guidelines suggest](/blog/protein-for-women-over-40/)."
+          "text": "As oestrogen falls through perimenopause, insulin sensitivity drops with it — [I have written about how hard that made my own management](/blog/perimenopause-diabetes-blood-sugar/). Fat distribution shifts towards the visceral, which is the metabolically unhelpful kind. And muscle loss accelerates: [a 2023 systematic review and meta-analysis in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled 27 trials in menopausal women and found resistance training the most effective non-drug way to hold on to muscle mass and strength — three sessions a week, for at least six weeks. That is also why [protein intake matters more after 40 than the official guidelines suggest](/blog/protein-for-women-over-40/)."
         },
         {
           "t": "p",
@@ -11876,8 +11876,8 @@ export const POSTS = [
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/"
             },
             {
-              "claim": "Menopausal women are at significantly raised risk of muscle loss, and resistance exercise is among the most effective countermeasures.",
-              "detail": "A systematic review and meta-analysis of randomised controlled trials in BMC Women’s Health examined non-pharmacological approaches to preventing sarcopenia in menopausal women. Resistance training, particularly combined with adequate dietary protein, was consistently among the most effective interventions — which matters for glucose as well as strength, since skeletal muscle is the main site of insulin-mediated glucose disposal.",
+              "claim": "Resistance training is the most effective non-drug way for menopausal women to hold on to muscle mass and strength.",
+              "detail": "A systematic review and meta-analysis in BMC Women’s Health pooled 27 randomised controlled trials and 1,989 participants to examine non-pharmacological approaches to preventing sarcopenia in menopausal women. Exercise improved lean body mass, handgrip strength and knee extension strength, and resistance training — three sessions a week, 20–90 minutes each, for at least six weeks — was the most effective prescription. The review found insufficient data to judge what protein supplementation adds to muscle strength. This matters for glucose as well as strength, since skeletal muscle is the main site of insulin-mediated glucose disposal.",
               "cite": "BMC Women’s Health · Systematic review and meta-analysis, 2023",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             },
@@ -12072,7 +12072,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Зі зниженням естрогену в перименопаузі падає й чутливість до інсуліну — [я вже писала, наскільки важчим це зробило мій власний контроль](/ua/blog/perimenopause-diabetes-blood-sugar/). Розподіл жиру зміщується до вісцерального, метаболічно найнесприятливішого. І втрата м’язів прискорюється: [систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) показав, що жінки в менопаузі мають значно підвищений ризик саркопенії і що силові вправи разом із достатньою кількістю білка — серед найдієвіших способів цьому запобігти. Саме тому [білка після 40 потрібно більше, ніж радять офіційні норми](/ua/blog/protein-for-women-over-40/)."
+          "text": "Зі зниженням естрогену в перименопаузі падає й чутливість до інсуліну — [я вже писала, наскільки важчим це зробило мій власний контроль](/ua/blog/perimenopause-diabetes-blood-sugar/). Розподіл жиру зміщується до вісцерального, метаболічно найнесприятливішого. І втрата м’язів прискорюється: [систематичний огляд і метааналіз 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) об’єднав 27 досліджень за участю жінок у менопаузі й показав, що силові тренування — тричі на тиждень, щонайменше шість тижнів — найдієвіший немедикаментозний спосіб зберегти м’язову масу й силу. Саме тому [білка після 40 потрібно більше, ніж радять офіційні норми](/ua/blog/protein-for-women-over-40/)."
         },
         {
           "t": "p",
@@ -12140,8 +12140,8 @@ export const POSTS = [
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/"
             },
             {
-              "claim": "Жінки в менопаузі мають значно підвищений ризик втрати м’язів, а силові вправи — один із найдієвіших способів цьому протидіяти.",
-              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень у BMC Women’s Health розглянув нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Силові тренування, особливо в поєднанні з достатньою кількістю харчового білка, стабільно були серед найефективніших втручань — а це важливо не лише для сили, а й для глюкози, бо саме скелетні м’язи є основним місцем інсулін-опосередкованої утилізації глюкози.",
+              "claim": "Силові тренування — найдієвіший немедикаментозний спосіб для жінок у менопаузі зберегти м’язову масу й силу.",
+              "detail": "Систематичний огляд і метааналіз у BMC Women’s Health об’єднав 27 рандомізованих контрольованих досліджень і 1 989 учасниць, щоб розглянути нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Фізичні вправи покращили суху масу тіла, силу хвата й силу розгинання коліна, а силові тренування — тричі на тиждень, по 20–90 хвилин, щонайменше шість тижнів — виявилися найдієвішими. Щодо білкових добавок даних виявилося недостатньо, щоб оцінити їх вплив на м’язову силу. Це важливо не лише для сили, а й для глюкози, бо саме скелетні м’язи є основним місцем інсулін-опосередкованої утилізації глюкози.",
               "cite": "BMC Women’s Health · Систематичний огляд і метааналіз, 2023",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             },
@@ -12203,7 +12203,7 @@ export const POSTS = [
       "blocks": [
         {
           "t": "p",
-          "text": "Researchers at the Johns Hopkins Bloomberg School of Public Health pulled together [64 randomised controlled trials from 41 published articles](https://www.eurekalert.org/news-releases/1118405) of GLP-1 receptor agonists — the drug class that includes semaglutide, sold as Ozempic and Wegovy — and published the analysis in JAMA Internal Medicine on 2 March 2026. Their question was whether these drugs work differently for different kinds of people. Six of those trials, covering 19,906 patients, reported results separately for women and men. In that subset, women lost an average of 10.9% of their starting body weight; men lost 6.8%. The difference was statistically significant."
+          "text": "Researchers at the Johns Hopkins Bloomberg School of Public Health pulled together [64 randomised controlled trials from 41 published articles](https://pubmed.ncbi.nlm.nih.gov/41770554/) of GLP-1 receptor agonists — the drug class that includes semaglutide, sold as Ozempic and Wegovy — and published the analysis in JAMA Internal Medicine on 2 March 2026. Their question was whether these drugs work differently for different kinds of people. Six of those trials, covering 19,906 patients, reported results separately for women and men. In that subset, women lost an average of 10.9% of their starting body weight; men lost 6.8%. The difference was statistically significant."
         },
         {
           "t": "p",
@@ -12232,7 +12232,7 @@ export const POSTS = [
               "claim": "Women lost 10.9% of body weight on GLP-1 drugs compared with 6.8% for men.",
               "detail": "A systematic review and meta-analysis by researchers at the Johns Hopkins Bloomberg School of Public Health, published in JAMA Internal Medicine on 2 March 2026, covered 64 randomised controlled trials drawn from 41 published articles through mid-2024. Six of those trials, including 19,906 patients, reported outcomes separately by sex; in that subset women lost a mean 10.9% of baseline body weight against 6.8% for men, a statistically significant difference of roughly four percentage points that the authors characterised as moderately greater efficacy. The analysis excluded tirzepatide because it is a dual GIP/GLP-1 agonist rather than a GLP-1 receptor agonist.",
               "cite": "JAMA Internal Medicine · Systematic review and meta-analysis, 2 March 2026",
-              "url": "https://www.eurekalert.org/news-releases/1118405"
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
             },
             {
               "claim": "Weight loss was otherwise similar across age, race and ethnicity, starting BMI and baseline HbA1c.",
@@ -12297,7 +12297,7 @@ export const POSTS = [
       "blocks": [
         {
           "t": "p",
-          "text": "Дослідники зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса зібрали [64 рандомізовані контрольовані дослідження з 41 опублікованої статті](https://www.eurekalert.org/news-releases/1118405) щодо агоністів рецепторів GLP-1 — класу препаратів, до якого належить семаглутид, відомий як Ozempic і Wegovy, — і опублікували аналіз у JAMA Internal Medicine 2 березня 2026 року. Їхнє питання полягало в тому, чи діють ці ліки по-різному на різних людей. Шість із цих досліджень, що охопили 19 906 пацієнтів, подали результати окремо для жінок і чоловіків. У цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла; чоловіки — 6,8%. Різниця була статистично значущою."
+          "text": "Дослідники зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса зібрали [64 рандомізовані контрольовані дослідження з 41 опублікованої статті](https://pubmed.ncbi.nlm.nih.gov/41770554/) щодо агоністів рецепторів GLP-1 — класу препаратів, до якого належить семаглутид, відомий як Ozempic і Wegovy, — і опублікували аналіз у JAMA Internal Medicine 2 березня 2026 року. Їхнє питання полягало в тому, чи діють ці ліки по-різному на різних людей. Шість із цих досліджень, що охопили 19 906 пацієнтів, подали результати окремо для жінок і чоловіків. У цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла; чоловіки — 6,8%. Різниця була статистично значущою."
         },
         {
           "t": "p",
@@ -12326,7 +12326,7 @@ export const POSTS = [
               "claim": "Жінки втратили 10,9% маси тіла на препаратах GLP-1 проти 6,8% у чоловіків.",
               "detail": "Систематичний огляд і метааналіз дослідників зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса, опублікований у JAMA Internal Medicine 2 березня 2026 року, охопив 64 рандомізовані контрольовані дослідження з 41 опублікованої статті до середини 2024 року. Шість із них, що включали 19 906 пацієнтів, подали результати окремо за статтю; у цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла проти 6,8% у чоловіків — статистично значуща різниця приблизно в чотири відсоткові пункти, яку автори охарактеризували як помірно вищу ефективність. Аналіз не включав тирзепатид, оскільки він є подвійним агоністом GIP/GLP-1, а не агоністом рецепторів GLP-1.",
               "cite": "JAMA Internal Medicine · Систематичний огляд і метааналіз, 2 березня 2026",
-              "url": "https://www.eurekalert.org/news-releases/1118405"
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
             },
             {
               "claim": "В усьому іншому втрата ваги була подібною за віком, расою та етнічністю, початковим ІМТ і вихідним HbA1c.",
