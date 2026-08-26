@@ -275,7 +275,7 @@ export const POSTS = [
             },
             {
               "claim": "Sanofi ended its diabetes research while keeping its insulin business.",
-              "detail": "In December 2019, under a new chief executive, Sanofi announced it would stop R&D in diabetes and cardiovascular disease to save around $2 billion and focus on oncology and immunology, retaining its existing insulin products. It re-entered type 1 three years later by acquisition rather than by research.",
+              "detail": "In December 2019, under a new chief executive, Sanofi announced it would stop R&D in diabetes and cardiovascular disease to save around €2 billion and focus on oncology and immunology, retaining its existing insulin products. It re-entered type 1 three years later by acquisition rather than by research.",
               "cite": "BioPharma Dive · December 2019",
               "url": "https://www.biopharmadive.com/news/sanofi-stop-diabetes-heart-research-paul-hudson-strategy/568790/"
             },
@@ -311,7 +311,7 @@ export const POSTS = [
             },
             {
               "claim": "Charities and taxpayers fund the early, risky science.",
-              "detail": "Breakthrough T1D (formerly JDRF) awarded $121.7 million in grants in 2025. The US Special Diabetes Program provides $200 million a year for type 1 research — raised from $160 million in February 2026 — and has contributed roughly $3.5 billion since it began. Its authority expires on 31 December 2026 without congressional reauthorisation.",
+              "detail": "Breakthrough T1D (formerly JDRF) awarded $121.7 million in grants in 2025. The US Special Diabetes Program provides $200 million a year for type 1 research — raised from $160 million in February 2026 — and has contributed nearly $3.6 billion since it began. Its authority expires on 31 December 2026 without congressional reauthorisation.",
               "cite": "Breakthrough T1D · Special Diabetes Program",
               "url": "https://www.breakthrought1d.org/explore-advocacy/special-diabetes-program/"
             },
