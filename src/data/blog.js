@@ -14204,7 +14204,7 @@ export const POSTS = [
               "claim": "The effect on glucose metabolism was not explained by changes in body fat.",
               "detail": "The trial was titled ‘Chronic Insufficient Sleep in Women Impairs Insulin Sensitivity Independent of Adiposity Changes’. Analyses found the effects of sleep restriction on glucose metabolism were not mediated by adiposity or by changes in adiposity over the study, meaning the impairment in insulin sensitivity did not depend on participants gaining weight or body fat during the restricted phase.",
               "cite": "Diabetes Care · Columbia University Irving Medical Center, 2023",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191900/"
+              "url": "https://diabetesjournals.org/care/article/47/1/117/153802/Chronic-Insufficient-Sleep-in-Women-Impairs"
             },
             {
               "claim": "Pre- and postmenopausal women showed different patterns of change.",
@@ -14293,7 +14293,7 @@ export const POSTS = [
               "claim": "Вплив на вуглеводний обмін не пояснювався змінами жирової маси.",
               "detail": "Дослідження мало назву «Хронічно недостатній сон у жінок погіршує чутливість до інсуліну незалежно від змін жирової маси». Аналіз показав, що вплив обмеження сну на вуглеводний обмін не опосередковувався ані жировою масою, ані її змінами за час дослідження, — тобто погіршення чутливості до інсуліну не залежало від того, чи набирали учасниці вагу або жир під час фази обмеження.",
               "cite": "Diabetes Care · Columbia University Irving Medical Center, 2023",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191900/"
+              "url": "https://diabetesjournals.org/care/article/47/1/117/153802/Chronic-Insufficient-Sleep-in-Women-Impairs"
             },
             {
               "claim": "У жінок до та після менопаузи змінювалися різні показники.",
@@ -14368,7 +14368,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "In-clinic treatments are being repositioned the same way. Galderma has released interim data from an investigator-initiated study led by Andreas Nikolis at McGill, pairing Restylane Skinboosters with Sculptra on menopausal skin: hydration, skin-barrier measures and patient satisfaction all improved, satisfaction peaked at six months, and the order mattered — skinboosters first gave the best hydration results. Worth knowing, and worth discounting appropriately: it’s interim, industry-supported, announced by press release rather than peer review, and no control arm has been reported. None of it replaces the unglamorous basics that do have good evidence behind them — daily sunscreen, a retinoid, topical vitamin C. And systemic HRT still isn’t a skincare decision. If you’re considering topical hormones, that’s a conversation with a clinician, particularly if you have a history of hormone-sensitive cancer: the ASPS guidance lists breast cancer patients on aromatase inhibitors as candidates only with their oncologist’s sign-off."
+          "text": "In-clinic treatments are being repositioned the same way. Galderma has released interim data from a nine-month investigator-initiated study led by Andreas Nikolis at McGill, pairing Restylane Skinboosters with Sculptra on menopausal skin: hydration, elasticity and barrier measures all improved, patient satisfaction climbed steadily to a high by the sixth month, and the order mattered — skinboosters first gave the best hydration results. Worth knowing, and worth discounting appropriately: it’s interim, industry-supported, announced by press release rather than peer review, and no control arm has been reported. None of it replaces the unglamorous basics that do have good evidence behind them — daily sunscreen, a retinoid, topical vitamin C. And systemic HRT still isn’t a skincare decision. If you’re considering topical hormones, that’s a conversation with a clinician, particularly if you have a history of hormone-sensitive cancer: the ASPS guidance lists breast cancer patients on aromatase inhibitors as candidates only with their oncologist’s sign-off."
         },
         {
           "t": "h",
@@ -14397,7 +14397,7 @@ export const POSTS = [
             },
             {
               "claim": "Combining a hyaluronic acid skinbooster with a biostimulator improved menopausal skin quality — interim data only.",
-              "detail": "Galderma reported interim results from an investigator-initiated study led by Andreas Nikolis (McGill University) combining Restylane Skinboosters with Sculptra, a poly-L-lactic acid biostimulator, in menopausal women. Facial hydration, skin-barrier measures and patient satisfaction improved over six months, with satisfaction peaking at month six and the best hydration results when skinboosters were used before Sculptra. A six-month extension is ongoing. The data are interim, industry-supported and released via press announcement rather than peer-reviewed publication, and no control arm has been reported.",
+              "detail": "Galderma reported interim results from a nine-month investigator-initiated study led by Andreas Nikolis (McGill University) combining Restylane Skinboosters with Sculptra, a poly-L-lactic acid biostimulator, in menopausal women, treating the face and décolletage. Both treatment sequences improved skin quality — hydration, elasticity and barrier function — with the most pronounced hydration gains when skinboosters were used before Sculptra, and patient-reported satisfaction rising steadily to a high by month six. The data are interim, industry-supported and released via press announcement rather than peer-reviewed publication, and no control arm has been reported.",
               "cite": "Galderma · Interim investigator-initiated trial data, 2026",
               "url": "https://www.galderma.com/news/interim-data-two-ongoing-investigator-initiated-trials-highlight-role-sculptra-and-restylane"
             },
@@ -14480,7 +14480,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Процедури в клініці позиціонують так само. Galderma оприлюднила проміжні дані ініційованого дослідниками дослідження під керівництвом Андреаса Ніколіса з Університету Макгілла: комбінація Restylane Skinboosters і Sculptra на шкірі жінок у менопаузі покращила зволоженість, показники бар’єрної функції та задоволеність пацієнток, пік задоволеності припав на шостий місяць, і порядок мав значення — найкращі результати щодо зволоження давали скінбустери перед Sculptra. Це варто знати — і варто відповідно знизити очікування: дані проміжні, за підтримки виробника, оприлюднені пресрелізом, а не рецензованою публікацією, і про контрольну групу не повідомляють. Ніщо з цього не замінює непоказні базові речі з доброю доказовою базою — щоденний сонцезахист, ретиноїд, вітамін C місцево. І системна ЗГТ — це досі не рішення про догляд за шкірою. Якщо ви розглядаєте місцеві гормони, це розмова з лікарем, особливо за наявності гормонозалежного раку в анамнезі: рекомендації ASPS зараховують пацієнток із раком грудей на інгібіторах ароматази до кандидаток лише за згодою онколога."
+          "text": "Процедури в клініці позиціонують так само. Galderma оприлюднила проміжні дані дев’ятимісячного ініційованого дослідниками дослідження під керівництвом Андреаса Ніколіса з Університету Макгілла: комбінація Restylane Skinboosters і Sculptra на шкірі жінок у менопаузі покращила зволоженість, еластичність і показники бар’єрної функції, задоволеність пацієнток неухильно зростала й досягла високого рівня на шостому місяці, і порядок мав значення — найкращі результати щодо зволоження давали скінбустери перед Sculptra. Це варто знати — і варто відповідно знизити очікування: дані проміжні, за підтримки виробника, оприлюднені пресрелізом, а не рецензованою публікацією, і про контрольну групу не повідомляють. Ніщо з цього не замінює непоказні базові речі з доброю доказовою базою — щоденний сонцезахист, ретиноїд, вітамін C місцево. І системна ЗГТ — це досі не рішення про догляд за шкірою. Якщо ви розглядаєте місцеві гормони, це розмова з лікарем, особливо за наявності гормонозалежного раку в анамнезі: рекомендації ASPS зараховують пацієнток із раком грудей на інгібіторах ароматази до кандидаток лише за згодою онколога."
         },
         {
           "t": "h",
@@ -14509,7 +14509,7 @@ export const POSTS = [
             },
             {
               "claim": "Поєднання гіалуронового скінбустера з біостимулятором покращило якість шкіри в менопаузі — але це лише проміжні дані.",
-              "detail": "Galderma повідомила проміжні результати ініційованого дослідниками дослідження під керівництвом Андреаса Ніколіса (Університет Макгілла), яке поєднувало Restylane Skinboosters зі Sculptra, біостимулятором на основі полі-L-молочної кислоти, у жінок у менопаузі. За шість місяців покращилися зволоженість обличчя, показники шкірного бар’єру та задоволеність пацієнток, пік задоволеності припав на шостий місяць, а найкращі показники зволоження були тоді, коли скінбустери застосовували перед Sculptra. Триває шестимісячне продовження. Дані проміжні, за підтримки виробника, оприлюднені пресрелізом, а не рецензованою публікацією; про контрольну групу не повідомляють.",
+              "detail": "Galderma повідомила проміжні результати дев’ятимісячного ініційованого дослідниками дослідження під керівництвом Андреаса Ніколіса (Університет Макгілла), яке поєднувало Restylane Skinboosters зі Sculptra, біостимулятором на основі полі-L-молочної кислоти, у жінок у менопаузі, на обличчі та в зоні декольте. Обидві послідовності покращили якість шкіри — зволоженість, еластичність і бар’єрну функцію, — причому найпомітніший приріст зволоження був тоді, коли скінбустери застосовували перед Sculptra, а задоволеність пацієнток неухильно зростала й досягла високого рівня на шостому місяці. Дані проміжні, за підтримки виробника, оприлюднені пресрелізом, а не рецензованою публікацією; про контрольну групу не повідомляють.",
               "cite": "Galderma · Проміжні дані дослідження, 2026",
               "url": "https://www.galderma.com/news/interim-data-two-ongoing-investigator-initiated-trials-highlight-role-sculptra-and-restylane"
             },
@@ -14973,7 +14973,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "None of this is written specifically for women — but it lands differently for them. Women with T1D ride a monthly tide of insulin sensitivity: in the second half of the cycle (the luteal phase) sensitivity falls, and glucose tends to run higher and more variable. At the other end of the reproductive years, a 2025 Dutch survey of 159 women with T1D found about two-thirds felt their control worsened after menopause, when falling oestrogen adds insulin resistance and visceral weight. An obesity-management tool that also protects the heart, kidneys and liver is therefore squarely relevant to midlife women — with the honest caveat that women have long been under-represented in T1D drug and device trials, so this is a conversation to individualise, not a prescription to assume. If perimenopause is part of your picture, my post on [perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/) goes deeper."
+          "text": "None of this is written specifically for women — but it lands differently for them. Women with T1D ride a monthly tide of insulin sensitivity: in the second half of the cycle (the luteal phase) sensitivity falls, and glucose tends to run higher and more variable. At the other end of the reproductive years, a 2025 Dutch survey of 159 women with T1D found about two-thirds noticed a moderate or marked change in their glucose control after menopause — 42% said it ran higher, though 20% said it ran lower — at a time when falling oestrogen adds insulin resistance and visceral weight. An obesity-management tool that also protects the heart, kidneys and liver is therefore squarely relevant to midlife women — with the honest caveat that women have long been under-represented in T1D drug and device trials, so this is a conversation to individualise, not a prescription to assume. If perimenopause is part of your picture, my post on [perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/) goes deeper."
         },
         {
           "t": "h",
@@ -14995,8 +14995,8 @@ export const POSTS = [
               "url": "https://diatribe.org/diabetes-management/your-guide-2026-ada-standards-care"
             },
             {
-              "claim": "Around two-thirds of women with type 1 diabetes report worse glucose control after menopause.",
-              "detail": "In a 2025 cross-sectional survey of 159 women with type 1 diabetes in the Netherlands, about two-thirds reported that their blood-glucose regulation felt worse after menopause. Separately, controlled studies show insulin sensitivity falls in the luteal (second) half of the menstrual cycle, raising average glucose and time above range. Both are observational or physiological findings, not treatment trials.",
+              "claim": "Around two-thirds of women with type 1 diabetes report a change in glucose control after menopause — most often, but not always, upward.",
+              "detail": "In a 2025 cross-sectional survey of 159 women with type 1 diabetes in the Netherlands, 67.4% reported moderate to severe changes in glucose regulation after menopause. The direction was not uniform: 41.9% perceived higher glucose, 19.6% perceived lower glucose and 38.5% perceived no change. Separately, controlled studies show insulin sensitivity falls in the luteal (second) half of the menstrual cycle, raising average glucose and time above range. Both are observational or physiological findings, not treatment trials.",
               "cite": "Diabetologia · Cross-sectional survey, 2025",
               "url": "https://link.springer.com/article/10.1007/s00125-025-06518-z"
             }
@@ -15078,7 +15078,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Нічого з цього не написано спеціально для жінок — але для них воно звучить інакше. Жінки з ЦД1 живуть у щомісячному припливі й відпливі чутливості до інсуліну: у другій половині циклу (лютеїнова фаза) чутливість падає, а глюкоза схильна бути вищою й мінливішою. З іншого боку репродуктивних років, нідерландське опитування 2025 року за участю 159 жінок із ЦД1 показало, що близько двох третин відчули погіршення контролю після менопаузи, коли падіння естрогену додає інсулінорезистентності та вісцеральної ваги. Тож інструмент контролю ожиріння, який також захищає серце, нирки й печінку, напряму стосується жінок середнього віку — із чесним застереженням, що жінки давно недостатньо представлені в дослідженнях ліків і пристроїв при ЦД1, тож це розмова, яку треба індивідуалізувати, а не призначення, яке можна припускати. Якщо перименопауза — частина вашої картини, мій допис про [перименопаузу та рівень цукру](/ua/blog/perimenopause-diabetes-blood-sugar/) розкриває це глибше."
+          "text": "Нічого з цього не написано спеціально для жінок — але для них воно звучить інакше. Жінки з ЦД1 живуть у щомісячному припливі й відпливі чутливості до інсуліну: у другій половині циклу (лютеїнова фаза) чутливість падає, а глюкоза схильна бути вищою й мінливішою. З іншого боку репродуктивних років, нідерландське опитування 2025 року за участю 159 жінок із ЦД1 показало, що близько двох третин помітили помірну або виражену зміну контролю глюкози після менопаузи — 42% сказали, що вона стала вищою, хоча 20% сказали, що нижчою, — і це в період, коли падіння естрогену додає інсулінорезистентності та вісцеральної ваги. Тож інструмент контролю ожиріння, який також захищає серце, нирки й печінку, напряму стосується жінок середнього віку — із чесним застереженням, що жінки давно недостатньо представлені в дослідженнях ліків і пристроїв при ЦД1, тож це розмова, яку треба індивідуалізувати, а не призначення, яке можна припускати. Якщо перименопауза — частина вашої картини, мій допис про [перименопаузу та рівень цукру](/ua/blog/perimenopause-diabetes-blood-sugar/) розкриває це глибше."
         },
         {
           "t": "h",
@@ -15100,8 +15100,8 @@ export const POSTS = [
               "url": "https://diatribe.org/diabetes-management/your-guide-2026-ada-standards-care"
             },
             {
-              "claim": "Близько двох третин жінок із діабетом 1 типу повідомляють про гірший контроль глюкози після менопаузи.",
-              "detail": "У поперечному опитуванні 2025 року за участю 159 жінок із діабетом 1 типу в Нідерландах близько двох третин повідомили, що регуляція глюкози після менопаузи відчувалася гіршою. Окремо контрольовані дослідження показують, що чутливість до інсуліну падає в лютеїновій (другій) половині менструального циклу, підвищуючи середню глюкозу й час над цільовим діапазоном. Обидва — спостережні або фізіологічні висновки, а не дослідження лікування.",
+              "claim": "Близько двох третин жінок із діабетом 1 типу повідомляють про зміну контролю глюкози після менопаузи — найчастіше, але не завжди, у бік підвищення.",
+              "detail": "У поперечному опитуванні 2025 року за участю 159 жінок із діабетом 1 типу в Нідерландах 67,4% повідомили про помірні або виражені зміни регуляції глюкози після менопаузи. Напрям не був однаковим: 41,9% відчули вищу глюкозу, 19,6% — нижчу, а 38,5% не помітили змін. Окремо контрольовані дослідження показують, що чутливість до інсуліну падає в лютеїновій (другій) половині менструального циклу, підвищуючи середню глюкозу й час над цільовим діапазоном. Обидва — спостережні або фізіологічні висновки, а не дослідження лікування.",
               "cite": "Diabetologia · Поперечне опитування, 2025",
               "url": "https://link.springer.com/article/10.1007/s00125-025-06518-z"
             }
@@ -15675,7 +15675,7 @@ export const POSTS = [
             },
             {
               "claim": "Teplizumab is the first and only approved treatment that changes the course of type 1 diabetes.",
-              "detail": "In at-risk (stage 2) people it delays clinical onset by roughly two years; the PROTECT trial also showed it preserves insulin production in the newly diagnosed. US approval was expanded to age 1 and older in April 2026.",
+              "detail": "In at-risk (stage 2) people the TN-10 trial found it delays clinical onset by roughly two years — a median of about four years versus two on placebo; the PROTECT trial cited here also showed it preserves insulin production in the newly diagnosed. US approval was expanded to age 1 and older in April 2026.",
               "cite": "ClinicalTrials.gov · PROTECT (NCT03875729)",
               "url": "https://clinicaltrials.gov/study/NCT03875729"
             },
@@ -15873,7 +15873,7 @@ export const POSTS = [
             },
             {
               "claim": "Теплізумаб — перша й єдина схвалена терапія, що змінює перебіг діабету 1 типу.",
-              "detail": "У людей із ризиком (стадія 2) він відкладає клінічний початок приблизно на два роки; дослідження PROTECT також показало, що він зберігає вироблення інсуліну в людей із нещодавнім діагнозом. У квітні 2026 року схвалення у США розширили до віку від 1 року.",
+              "detail": "У людей із ризиком (стадія 2) дослідження TN-10 показало, що він відкладає клінічний початок приблизно на два роки — медіана близько чотирьох років проти двох на плацебо; наведене тут дослідження PROTECT також показало, що він зберігає вироблення інсуліну в людей із нещодавнім діагнозом. У квітні 2026 року схвалення у США розширили до віку від 1 року.",
               "cite": "ClinicalTrials.gov · PROTECT (NCT03875729)",
               "url": "https://clinicaltrials.gov/study/NCT03875729"
             },
@@ -16081,7 +16081,7 @@ export const POSTS = [
       "blocks": [
         {
           "t": "p",
-          "text": "A 2026 Medscape clinical review makes a case that’s overdue: diabetes is not a gender-neutral disease, yet diabetes care is still largely built as if it were. The review highlights that type 2 diabetes is now rising twice as fast in women under 40 compared with men in the same age group."
+          "text": "A 2026 Medscape clinical review makes a case that’s overdue: diabetes is not a gender-neutral disease, yet diabetes care is still largely built as if it were. Type 2 diabetes is now rising twice as fast in women under 40 as in older women — Diabetes UK’s analysis puts diagnoses up 47% in the under-40s between 2017/18 and 2023/24, against 22% in women aged 40–79. It outpaces men of the same age too, though by less: they rose 34%."
         },
         {
           "t": "p",
@@ -16103,8 +16103,8 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Type 2 diabetes is rising twice as fast in women under 40 than in men, and diabetes care underaccounts for hormonal sex differences.",
-              "detail": "A 2026 Medscape clinical review reports that hormonal changes across a woman’s life — including the menstrual cycle, pregnancy, perimenopause and menopause — significantly affect glucose metabolism and insulin needs, with insulin requirements shifting by up to 15% across the luteal phase alone. The review notes women remain underrepresented in the clinical trials underpinning diabetes guidelines, and that type 2 diabetes is now increasing twice as fast in women under 40 compared with men.",
+              "claim": "Type 2 diabetes is rising twice as fast in women under 40 as in older women, and diabetes care underaccounts for hormonal sex differences.",
+              "detail": "A 2026 Medscape clinical review reports that hormonal changes across a woman’s life — including the menstrual cycle, pregnancy, perimenopause and menopause — significantly affect glucose metabolism and insulin needs, with insulin requirements shifting by up to 15% across the luteal phase alone. The review notes women remain underrepresented in the clinical trials underpinning diabetes guidelines. On the rate of increase, Diabetes UK’s analysis of 2017/18 to 2023/24 found type 2 diagnoses up 47% in women under 40 — twice the 22% rise in women aged 40–79, and ahead of the 34% rise in men under 40.",
               "cite": "Medscape · Clinical Review, 13 July 2026",
               "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
             }
@@ -16134,7 +16134,7 @@ export const POSTS = [
       "blocks": [
         {
           "t": "p",
-          "text": "Клінічний огляд Medscape 2026 року порушує давно назрілу тему: діабет не є гендерно нейтральною хворобою, але система догляду за діабетом досі здебільшого влаштована так, ніби це так. Огляд підкреслює, що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 років порівняно з чоловіками того ж віку."
+          "text": "Клінічний огляд Medscape 2026 року порушує давно назрілу тему: діабет не є гендерно нейтральною хворобою, але система догляду за діабетом досі здебільшого влаштована так, ніби це так. Діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 років, ніж серед старших жінок: за аналізом Diabetes UK, з 2017/18 до 2023/24 років кількість діагнозів серед жінок до 40 зросла на 47% проти 22% серед жінок віком 40–79. Він випереджає і чоловіків того ж віку, хоча менше: у них зростання становило 34%."
         },
         {
           "t": "p",
@@ -16156,8 +16156,8 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед чоловіків, а система догляду за діабетом недостатньо враховує гормональні відмінності між статями.",
-              "detail": "Клінічний огляд Medscape 2026 року повідомляє, що гормональні зміни протягом життя жінки — зокрема менструальний цикл, вагітність, перименопауза та менопауза — суттєво впливають на метаболізм глюкози й потребу в інсуліні, причому потреба в інсуліні змінюється до 15% лише протягом лютеїнової фази. Огляд зазначає, що жінки досі недостатньо представлені в клінічних дослідженнях, на яких ґрунтуються рекомендації з діабету, і що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 порівняно з чоловіками.",
+              "claim": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед старших жінок, а система догляду за діабетом недостатньо враховує гормональні відмінності між статями.",
+              "detail": "Клінічний огляд Medscape 2026 року повідомляє, що гормональні зміни протягом життя жінки — зокрема менструальний цикл, вагітність, перименопауза та менопауза — суттєво впливають на метаболізм глюкози й потребу в інсуліні, причому потреба в інсуліні змінюється до 15% лише протягом лютеїнової фази. Огляд зазначає, що жінки досі недостатньо представлені в клінічних дослідженнях, на яких ґрунтуються рекомендації з діабету. Щодо темпів зростання: за аналізом Diabetes UK за 2017/18–2023/24 роки кількість діагнозів діабету 2 типу серед жінок до 40 зросла на 47% — удвічі більше за 22% серед жінок віком 40–79 і більше за 34% серед чоловіків до 40.",
               "cite": "Medscape · Клінічний огляд, 13 липня 2026",
               "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
             }

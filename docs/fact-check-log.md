@@ -76,20 +76,20 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 28 | 2026-08-13 | `does-weight-training-raise-blood-sugar` | done | 2026-08-26 | OPS-370 — BMC Women's Health review miscredited: protein finding corrected (EN+UA) |
 | 29 | 2026-08-12 | `glp1-weight-loss-sex-difference-women-men` | done | 2026-08-26 | OPS-370 — figures exact; JAMA cite repointed from press release to paper |
 | 30 | 2026-08-11 | `extended-release-minoxidil-female-hair-loss` | done | 2026-08-26 | OPS-370 — clean; caveats already accurate |
-| 31 | 2026-08-10 | `type-2-diabetes-menopause-symptoms` | pending | — | — |
-| 32 | 2026-08-10 | `kefir-fibre-synbiotic-inflammation` | pending | — | — |
-| 33 | 2026-08-08 | `perimenopause-uncertainty-us-study` | pending | — | — |
-| 34 | 2026-08-04 | `perimenopause-global-survey-symptom-gap` | pending | — | — |
-| 35 | 2026-08-03 | `estrobolome-gut-oestrogen-menopause` | pending | — | — |
-| 36 | 2026-08-02 | `sleep-insulin-resistance-women` | pending | — | — |
-| 37 | 2026-07-28 | `topical-oestrogen-skincare-menopause` | pending | — | — |
-| 38 | 2026-07-27 | `tirzepatide-hrt-weight-loss-menopause-2026` | pending | — | — |
-| 39 | 2026-07-25 | `gut-microbiome-precision-nutrition-women-2026` | pending | — | — |
-| 40 | 2026-07-24 | `ada-2026-glp1-type1-diabetes-women` | pending | — | — |
-| 41 | 2026-07-19 | `menstrual-blood-research-medicine` | pending | — | — |
-| 42 | 2026-07-19 | `type-1-diabetes-cure-trials` | pending | — | — |
-| 43 | 2026-07-17 | `anxiety-brain-fog-top-menopause-symptom` | pending | — | — |
-| 44 | 2026-07-17 | `type2-diabetes-women-under-40-sex-bias` | pending | — | — |
+| 31 | 2026-08-10 | `type-2-diabetes-menopause-symptoms` | done | 2026-08-26 | OPS-370 — clean; cite/URL mismatch noted, not changed |
+| 32 | 2026-08-10 | `kefir-fibre-synbiotic-inflammation` | done | 2026-08-26 | OPS-370 — clean; every figure exact |
+| 33 | 2026-08-08 | `perimenopause-uncertainty-us-study` | done | 2026-08-26 | OPS-370 — clean; every figure exact |
+| 34 | 2026-08-04 | `perimenopause-global-survey-symptom-gap` | done | 2026-08-26 | OPS-370 — clean; citation and figures exact |
+| 35 | 2026-08-03 | `estrobolome-gut-oestrogen-menopause` | done | 2026-08-27 | OPS-370 — clean |
+| 36 | 2026-08-02 | `sleep-insulin-resistance-women` | done | 2026-08-27 | OPS-370 — wrong-paper URL (PMC ID was a different journal/trial); repointed EN+UA |
+| 37 | 2026-07-28 | `topical-oestrogen-skincare-menopause` | done | 2026-08-27 | OPS-370 |
+| 38 | 2026-07-27 | `tirzepatide-hrt-weight-loss-menopause-2026` | done | 2026-08-27 | OPS-370 |
+| 39 | 2026-07-25 | `gut-microbiome-precision-nutrition-women-2026` | done | 2026-08-27 | OPS-370 |
+| 40 | 2026-07-24 | `ada-2026-glp1-type1-diabetes-women` | done | 2026-08-27 | OPS-370 |
+| 41 | 2026-07-19 | `menstrual-blood-research-medicine` | done | 2026-08-27 | OPS-370 |
+| 42 | 2026-07-19 | `type-1-diabetes-cure-trials` | done | 2026-08-27 | OPS-370 |
+| 43 | 2026-07-17 | `anxiety-brain-fog-top-menopause-symptom` | done | 2026-08-27 | OPS-370 |
+| 44 | 2026-07-17 | `type2-diabetes-women-under-40-sex-bias` | done | 2026-08-27 | OPS-370 |
 | 45 | 2026-07-17 | `higher-protein-postmenopausal-bone-muscle` | pending | — | — |
 | 46 | 2026-07-17 | `hrt-restores-skin-collagen-2026-review` | pending | — | — |
 | 47 | 2026-07-17 | `glp1-weight-loss-drugs-fat-not-muscle` | pending | — | — |
