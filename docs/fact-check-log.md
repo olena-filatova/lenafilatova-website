@@ -86,8 +86,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 38 | 2026-07-27 | `tirzepatide-hrt-weight-loss-menopause-2026` | done | 2026-08-27 | OPS-370 |
 | 39 | 2026-07-25 | `gut-microbiome-precision-nutrition-women-2026` | done | 2026-08-27 | OPS-370 |
 | 40 | 2026-07-24 | `ada-2026-glp1-type1-diabetes-women` | done | 2026-08-27 | OPS-370 |
-| 41 | 2026-07-19 | `menstrual-blood-research-medicine` | pending | — | — |
-| 42 | 2026-07-19 | `type-1-diabetes-cure-trials` | pending | — | — |
+| 41 | 2026-07-19 | `menstrual-blood-research-medicine` | done | 2026-08-27 | OPS-370 |
+| 42 | 2026-07-19 | `type-1-diabetes-cure-trials` | done | 2026-08-27 | OPS-370 |
 | 43 | 2026-07-17 | `anxiety-brain-fog-top-menopause-symptom` | pending | — | — |
 | 44 | 2026-07-17 | `type2-diabetes-women-under-40-sex-bias` | pending | — | — |
 | 45 | 2026-07-17 | `higher-protein-postmenopausal-bone-muscle` | pending | — | — |

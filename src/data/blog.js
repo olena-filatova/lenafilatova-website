@@ -15675,7 +15675,7 @@ export const POSTS = [
             },
             {
               "claim": "Teplizumab is the first and only approved treatment that changes the course of type 1 diabetes.",
-              "detail": "In at-risk (stage 2) people it delays clinical onset by roughly two years; the PROTECT trial also showed it preserves insulin production in the newly diagnosed. US approval was expanded to age 1 and older in April 2026.",
+              "detail": "In at-risk (stage 2) people the TN-10 trial found it delays clinical onset by roughly two years — a median of about four years versus two on placebo; the PROTECT trial cited here also showed it preserves insulin production in the newly diagnosed. US approval was expanded to age 1 and older in April 2026.",
               "cite": "ClinicalTrials.gov · PROTECT (NCT03875729)",
               "url": "https://clinicaltrials.gov/study/NCT03875729"
             },
@@ -15873,7 +15873,7 @@ export const POSTS = [
             },
             {
               "claim": "Теплізумаб — перша й єдина схвалена терапія, що змінює перебіг діабету 1 типу.",
-              "detail": "У людей із ризиком (стадія 2) він відкладає клінічний початок приблизно на два роки; дослідження PROTECT також показало, що він зберігає вироблення інсуліну в людей із нещодавнім діагнозом. У квітні 2026 року схвалення у США розширили до віку від 1 року.",
+              "detail": "У людей із ризиком (стадія 2) дослідження TN-10 показало, що він відкладає клінічний початок приблизно на два роки — медіана близько чотирьох років проти двох на плацебо; наведене тут дослідження PROTECT також показало, що він зберігає вироблення інсуліну в людей із нещодавнім діагнозом. У квітні 2026 року схвалення у США розширили до віку від 1 року.",
               "cite": "ClinicalTrials.gov · PROTECT (NCT03875729)",
               "url": "https://clinicaltrials.gov/study/NCT03875729"
             },
