@@ -92,8 +92,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 44 | 2026-07-17 | `type2-diabetes-women-under-40-sex-bias` | done | 2026-08-27 | OPS-370 |
 | 45 | 2026-07-17 | `higher-protein-postmenopausal-bone-muscle` | done | 2026-08-27 | OPS-370 |
 | 46 | 2026-07-17 | `hrt-restores-skin-collagen-2026-review` | done | 2026-08-27 | OPS-370 |
-| 47 | 2026-07-17 | `glp1-weight-loss-drugs-fat-not-muscle` | pending | — | — |
-| 48 | 2026-07-15 | `cortisol-belly-perimenopause` | pending | — | — |
+| 47 | 2026-07-17 | `glp1-weight-loss-drugs-fat-not-muscle` | done | 2026-08-27 | OPS-370 |
+| 48 | 2026-07-15 | `cortisol-belly-perimenopause` | done | 2026-08-27 | OPS-370 |
 | 49 | 2026-07-10 | `hrt-prescriptions-doubling` | pending | — | — |
 | 50 | 2026-07-10 | `islet-transplant-insulin-independence` | pending | — | — |
 | 51 | 2026-07-10 | `carb-quality-healthy-aging` | pending | — | — |

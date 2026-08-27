@@ -16736,7 +16736,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
+          "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://doi.org/10.1177/20533691231180721) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
         },
         {
           "t": "p",
@@ -16812,8 +16812,8 @@ export const POSTS = [
             {
               "claim": "Falling oestrogen shifts fat to the abdomen in perimenopause.",
               "detail": "The British Menopause Society reports that as oestrogen declines, visceral fat rises from around 5–8% of body weight to 10–15%, with most menopausal weight gain — roughly 1.5kg a year on average — accumulating around the abdomen and upper body. It recommends resistance training, adequate protein and moderated alcohol.",
-              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
-              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
+              "cite": "British Menopause Society tool for clinicians · Post Reproductive Health, 2023",
+              "url": "https://doi.org/10.1177/20533691231180721"
             },
             {
               "claim": "Losing sleep can push cortisol up — and perimenopause disrupts sleep.",
@@ -16903,7 +16903,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
+          "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://doi.org/10.1177/20533691231180721) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
         },
         {
           "t": "p",
@@ -16979,8 +16979,8 @@ export const POSTS = [
             {
               "claim": "Падіння естрогену зміщує жир до живота в перименопаузі.",
               "detail": "Британське товариство менопаузи повідомляє, що зі зниженням естрогену вісцеральний жир зростає з приблизно 5–8% ваги тіла до 10–15%, при цьому більша частина менопаузального набору ваги — у середньому близько 1,5 кг на рік — накопичується навколо живота та верхньої частини тіла. Воно рекомендує силові тренування, достатньо білка та помірність у алкоголі.",
-              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
-              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
+              "cite": "Інструмент для клініцистів Британського товариства менопаузи · Post Reproductive Health, 2023",
+              "url": "https://doi.org/10.1177/20533691231180721"
             },
             {
               "claim": "Втрата сну може підвищувати кортизол — а перименопауза порушує сон.",
