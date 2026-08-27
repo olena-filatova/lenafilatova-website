@@ -102,7 +102,7 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 54 | 2026-07-09 | `natural-sweeteners` | done | 2026-08-27 | OPS-370 |
 | 55 | 2026-07-04 | `protein-for-women-over-40` | done | 2026-08-27 | OPS-370 |
 | 56 | 2026-06-26 | `type-2-diabetes-research` | done | 2026-08-27 | OPS-370 |
-| 57 | 2026-06-20 | `perimenopause-diabetes-blood-sugar` | pending | — | — |
-| 58 | 2026-06-14 | `collagen-and-skin` | pending | — | — |
+| 57 | 2026-06-20 | `perimenopause-diabetes-blood-sugar` | done | 2026-08-27 | OPS-370 |
+| 58 | 2026-06-14 | `collagen-and-skin` | done | 2026-08-27 | OPS-370 |
 | 59 | 2026-06-12 | `perimenopause-weight-myths` | pending | — | — |
 | 60 | 2026-06-03 | `reading-glucose-patterns` | pending | — | — |

@@ -19809,7 +19809,7 @@ export const POSTS = [
             },
             {
               "claim": "HRT does reduce insulin resistance — and the evidence is growing.",
-              "detail": "A 2024 meta-analysis of 17 randomised controlled trials covering more than 29,000 participants (1998–2024), presented at The Menopause Society Annual Meeting, found that hormone therapy significantly reduced insulin resistance in postmenopausal women.",
+              "detail": "A 2024 meta-analysis of 17 randomised controlled trials covering more than 29,000 participants (1998–2024), presented at The Menopause Society Annual Meeting, found that hormone therapy significantly reduced insulin resistance in postmenopausal women. Worth knowing when reading it here: those trials enrolled healthy women without metabolic disease, and diabetes was an exclusion — so it establishes the mechanism rather than the effect in women who already have diabetes.",
               "cite": "The Menopause Society Annual Meeting, 2024",
               "url": "https://menopause.org/press-releases/new-meta-analysis-shows-that-hormone-therapy-can-significantly-reduce-insulin-resistance"
             },
@@ -19980,7 +19980,7 @@ export const POSTS = [
             },
             {
               "claim": "ЗГТ справді знижує інсулінорезистентність — і доказів більшає.",
-              "detail": "Метааналіз 2024 року з 17 рандомізованих контрольованих досліджень за участю понад 29 000 осіб (1998–2024), представлений на щорічній зустрічі The Menopause Society, показав, що гормональна терапія суттєво знижує інсулінорезистентність у жінок у постменопаузі.",
+              "detail": "Метааналіз 2024 року з 17 рандомізованих контрольованих досліджень за участю понад 29 000 осіб (1998–2024), представлений на щорічній зустрічі The Menopause Society, показав, що гормональна терапія суттєво знижує інсулінорезистентність у жінок у постменопаузі. Що варто знати, читаючи це тут: у ті дослідження набирали здорових жінок без метаболічних захворювань, а діабет був критерієм виключення — тож вони встановлюють механізм, а не ефект у жінок, які вже мають діабет.",
               "cite": "Щорічна зустріч The Menopause Society, 2024",
               "url": "https://menopause.org/press-releases/new-meta-analysis-shows-that-hormone-therapy-can-significantly-reduce-insulin-resistance"
             },
@@ -20076,7 +20076,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "If you want to support collagen synthesis in the dermis, the topical ingredients with the strongest evidence are retinoids (derivatives of vitamin A) and vitamin C. [A 2025 systematic review and meta-analysis of clinical trials on tretinoin](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) confirmed that retinoids measurably increase collagen production and improve photodamaged skin — they remain the most evidence-backed topical ingredient for skin ageing. Vitamin C supports the hydroxylase enzymes that form and stabilise collagen — it is a cofactor, not a source, but without enough of it the process stalls."
+          "text": "If you want to support collagen synthesis in the dermis, the topical ingredients with the strongest evidence are retinoids (derivatives of vitamin A) and vitamin C. [A 2025 systematic review and meta-analysis of clinical trials on tretinoin](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) pooled the trial evidence on photodamaged facial skin and found tretinoin a safe and effective treatment for both fine and coarse wrinkles. The collagen side is established separately, in the histological work going back to the 1990s — together they make retinoids the most evidence-backed topical ingredient for skin ageing. Vitamin C supports the hydroxylase enzymes that form and stabilise collagen — it is a cofactor, not a source, but without enough of it the process stalls."
         },
         {
           "t": "h",
@@ -20088,7 +20088,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[A 2024 meta-analysis covering 26 randomised controlled trials and 1,721 participants](https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/) found consistent improvements in skin hydration and elasticity with hydrolysed collagen supplementation. The original landmark trial by [Proksch et al.](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 women, 8 weeks, 2.5–5g daily — showed statistically significant improvements in skin elasticity, and its findings have held up across subsequent research."
+          "text": "[A 2023 meta-analysis in Nutrients covering 26 randomised controlled trials and 1,721 participants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/) found consistent improvements in skin hydration and elasticity with hydrolysed collagen supplementation. The original landmark trial by [Proksch et al.](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 women, 8 weeks, 2.5–5g daily — showed statistically significant improvements in skin elasticity, and its findings have held up across subsequent research."
         },
         {
           "t": "p",
@@ -20108,7 +20108,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Vitamin C](https://www.mdpi.com/2072-6643/9/8/866) is the most critical. The enzymes that form and stabilise collagen cannot work without it — made vivid by the fact that scurvy causes skin breakdown and wound-healing failure. You don’t need megadoses; the UK Reference Nutrient Intake is 40mg per day. Good sources include bell peppers, kiwi, citrus fruit and broccoli. [A 2024 randomised trial found that combining collagen with vitamin C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) improved dermis density and skin texture more than placebo — suggesting the two work better together than either alone."
+          "text": "[Vitamin C](https://www.mdpi.com/2072-6643/9/8/866) is the most critical. The enzymes that form and stabilise collagen cannot work without it — made vivid by the fact that scurvy causes skin breakdown and wound-healing failure. You don’t need megadoses; the UK Reference Nutrient Intake is 40mg per day. Good sources include bell peppers, kiwi, citrus fruit and broccoli. [A 2024 randomised trial found that combining collagen with vitamin C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) improved dermis density and skin texture more than placebo over sixteen weeks. It tested the pair against placebo rather than against collagen on its own, so it shows the combination works — not that it beats collagen alone."
         },
         {
           "t": "p",
@@ -20149,9 +20149,9 @@ export const POSTS = [
             },
             {
               "claim": "The breadth of evidence for oral collagen is growing.",
-              "detail": "A 2024 meta-analysis covered 26 randomised controlled trials involving 1,721 participants and found that supplementation with hydrolysed collagen improved skin elasticity and hydration across studies. Effect sizes were modest and trial durations short — but the consistency of direction across such a large evidence base is meaningful.",
-              "cite": "PMC · Systematic review & meta-analysis, 2024",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/"
+              "detail": "A 2023 meta-analysis in Nutrients covered 26 randomised controlled trials involving 1,721 participants and found that supplementation with hydrolysed collagen improved skin elasticity and hydration across studies. Effect sizes were modest and trial durations short — but the consistency of direction across such a large evidence base is meaningful.",
+              "cite": "Nutrients · Systematic review & meta-analysis, 2023",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/"
             },
             {
               "claim": "The original landmark RCT still holds.",
@@ -20167,13 +20167,13 @@ export const POSTS = [
             },
             {
               "claim": "Retinoids remain the most evidence-backed topical for skin ageing.",
-              "detail": "A 2025 systematic review and meta-analysis of randomised controlled trials on tretinoin for photodamaged facial skin confirmed measurable improvements in collagen production, skin texture and fine lines. The mechanism — suppressing collagen-degrading enzymes while stimulating fibroblast activity — is well understood and has been replicated across decades of research.",
-              "cite": "PMC · Systematic review & meta-analysis, 2025",
+              "detail": "A 2025 systematic review and meta-analysis in Dermatology Practical & Conceptual pooled the randomised trials of tretinoin for photodamaged facial skin and concluded it is safe and effective for both fine and coarse wrinkles. The review pooled wrinkle outcomes rather than collagen measurements; the collagen effect itself was established earlier, in histological work showing tretinoin restores collagen formation in photodamaged skin. The mechanism — suppressing collagen-degrading enzymes while stimulating fibroblast activity — is well understood and has been replicated across decades of research.",
+              "cite": "Dermatology Practical & Conceptual · Systematic review & meta-analysis, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/"
             },
             {
               "claim": "Vitamin C is not optional for collagen synthesis.",
-              "detail": "A 2017 review in Nutrients described the established biochemistry: vitamin C acts as a cofactor for the hydroxylase enzymes that stabilise collagen’s triple-helix structure, and its absence results in defective, unstable collagen. A 2024 RCT found that collagen combined with vitamin C produced greater improvements in dermis density and texture than collagen alone — reinforcing the importance of combining these nutrients.",
+              "detail": "A 2017 review in Nutrients described the established biochemistry: vitamin C acts as a cofactor for the hydroxylase enzymes that stabilise collagen’s triple-helix structure, and its absence results in defective, unstable collagen. A 2024 RCT found that 5g of hydrolysed collagen taken with 80mg of vitamin C for sixteen weeks improved dermis density and skin texture more than placebo. There was no collagen-only arm, so it supports pairing the two rather than proving the pair superior to collagen by itself.",
               "cite": "Nutrients · Review, 2017",
               "url": "https://www.mdpi.com/2072-6643/9/8/866"
             },
@@ -20263,7 +20263,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Якщо ви хочете підтримати синтез колагену в дермі, топічні інгредієнти з найсильнішими доказами — це ретиноїди (похідні вітаміну A) та вітамін C. [Систематичний огляд і метааналіз клінічних досліджень третиноїну 2025 року](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) підтвердив, що ретиноїди вимірно збільшують вироблення колагену й покращують фотопошкоджену шкіру — вони залишаються найдоказовішим топічним інгредієнтом проти старіння шкіри. Вітамін C підтримує ферменти-гідроксилази, що формують і стабілізують колаген — це кофактор, а не джерело, але без достатньої його кількості процес зупиняється."
+          "text": "Якщо ви хочете підтримати синтез колагену в дермі, топічні інгредієнти з найсильнішими доказами — це ретиноїди (похідні вітаміну A) та вітамін C. [Систематичний огляд і метааналіз клінічних досліджень третиноїну 2025 року](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) звів докази щодо фотопошкодженої шкіри обличчя й показав, що третиноїн — безпечний та ефективний засіб і для дрібних, і для глибоких зморшок. Вплив на колаген доведено окремо — гістологічними роботами ще з 1990-х. Разом це робить ретиноїди найдоказовішим топічним інгредієнтом проти старіння шкіри. Вітамін C підтримує ферменти-гідроксилази, що формують і стабілізують колаген — це кофактор, а не джерело, але без достатньої його кількості процес зупиняється."
         },
         {
           "t": "h",
@@ -20275,7 +20275,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Метааналіз 2024 року, що охопив 26 рандомізованих контрольованих досліджень і 1721 учасника](https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/), виявив послідовне покращення зволоження та еластичності шкіри від приймання гідролізованого колагену. Оригінальне знакове дослідження [Proksch та колег](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 жінок, 8 тижнів, 2,5–5 г щодня — показало статистично значуще покращення еластичності шкіри, і його висновки підтвердилися в наступних дослідженнях."
+          "text": "[Метааналіз 2023 року в Nutrients, що охопив 26 рандомізованих контрольованих досліджень і 1721 учасника](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/), виявив послідовне покращення зволоження та еластичності шкіри від приймання гідролізованого колагену. Оригінальне знакове дослідження [Proksch та колег](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 жінок, 8 тижнів, 2,5–5 г щодня — показало статистично значуще покращення еластичності шкіри, і його висновки підтвердилися в наступних дослідженнях."
         },
         {
           "t": "p",
@@ -20295,7 +20295,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Вітамін C](https://www.mdpi.com/2072-6643/9/8/866) — найкритичніший. Ферменти, що формують і стабілізують колаген, не можуть працювати без нього — це яскраво ілюструє те, що цинга спричиняє руйнування шкіри та порушення загоєння ран. Мегадози не потрібні; британська референсна норма споживання — 40 мг на день. Хороші джерела — солодкий перець, ківі, цитрусові та броколі. [Рандомізоване дослідження 2024 року виявило, що поєднання колагену з вітаміном C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) покращувало щільність дерми й текстуру шкіри краще за плацебо — тобто разом вони працюють краще, ніж кожен окремо."
+          "text": "[Вітамін C](https://www.mdpi.com/2072-6643/9/8/866) — найкритичніший. Ферменти, що формують і стабілізують колаген, не можуть працювати без нього — це яскраво ілюструє те, що цинга спричиняє руйнування шкіри та порушення загоєння ран. Мегадози не потрібні; британська референсна норма споживання — 40 мг на день. Хороші джерела — солодкий перець, ківі, цитрусові та броколі. [Рандомізоване дослідження 2024 року виявило, що поєднання колагену з вітаміном C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) покращувало щільність дерми й текстуру шкіри краще за плацебо протягом шістнадцяти тижнів. Пару порівнювали з плацебо, а не з самим лише колагеном, тож дослідження показує, що поєднання працює, — але не те, що воно краще за колаген окремо."
         },
         {
           "t": "p",
@@ -20336,9 +20336,9 @@ export const POSTS = [
             },
             {
               "claim": "Обсяг доказів для перорального колагену зростає.",
-              "detail": "Метааналіз 2024 року охопив 26 рандомізованих контрольованих досліджень із 1721 учасником і виявив, що приймання гідролізованого колагену покращувало еластичність і зволоження шкіри. Розміри ефекту були помірними, а тривалість досліджень короткою — але послідовність напряму в такій великій доказовій базі має значення.",
-              "cite": "PMC · Систематичний огляд і метааналіз, 2024",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/"
+              "detail": "Метааналіз 2023 року в Nutrients охопив 26 рандомізованих контрольованих досліджень із 1721 учасником і виявив, що приймання гідролізованого колагену покращувало еластичність і зволоження шкіри. Розміри ефекту були помірними, а тривалість досліджень короткою — але послідовність напряму в такій великій доказовій базі має значення.",
+              "cite": "Nutrients · Систематичний огляд і метааналіз, 2023",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/"
             },
             {
               "claim": "Оригінальне знакове РКД усе ще актуальне.",
@@ -20354,13 +20354,13 @@ export const POSTS = [
             },
             {
               "claim": "Ретиноїди залишаються найдоказовішим топічним засобом проти старіння шкіри.",
-              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень третиноїну для фотопошкодженої шкіри обличчя 2025 року підтвердив вимірне покращення вироблення колагену, текстури шкіри та дрібних зморшок. Механізм — пригнічення ферментів, що руйнують колаген, і водночас стимуляція активності фібробластів — добре вивчений і відтворений протягом десятиліть досліджень.",
-              "cite": "PMC · Систематичний огляд і метааналіз, 2025",
+              "detail": "Систематичний огляд і метааналіз 2025 року в Dermatology Practical & Conceptual звів рандомізовані дослідження третиноїну для фотопошкодженої шкіри обличчя й підсумував, що він безпечний та ефективний і для дрібних, і для глибоких зморшок. Огляд об’єднував дані саме про зморшки, а не вимірювання колагену; сам вплив на колаген доведено раніше — гістологічними роботами, які показали, що третиноїн відновлює утворення колагену у фотопошкодженій шкірі. Механізм — пригнічення ферментів, що руйнують колаген, і водночас стимуляція активності фібробластів — добре вивчений і відтворений протягом десятиліть досліджень.",
+              "cite": "Dermatology Practical & Conceptual · Систематичний огляд і метааналіз, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/"
             },
             {
               "claim": "Вітамін C не є необов’язковим для синтезу колагену.",
-              "detail": "Огляд 2017 року в Nutrients описав усталену біохімію: вітамін C діє як кофактор для ферментів-гідроксилаз, що стабілізують потрійну спіраль колагену, а його відсутність призводить до дефектного, нестабільного колагену. РКД 2024 року виявило, що колаген у поєднанні з вітаміном C давав більше покращення щільності дерми й текстури, ніж колаген окремо — що підкреслює важливість поєднання цих речовин.",
+              "detail": "Огляд 2017 року в Nutrients описав усталену біохімію: вітамін C діє як кофактор для ферментів-гідроксилаз, що стабілізують потрійну спіраль колагену, а його відсутність призводить до дефектного, нестабільного колагену. РКД 2024 року виявило, що 5 г гідролізованого колагену з 80 мг вітаміну C протягом шістнадцяти тижнів покращували щільність дерми й текстуру шкіри краще за плацебо. Групи з самим лише колагеном не було, тож дослідження підтримує ідею поєднувати ці речовини, а не доводить перевагу пари над колагеном окремо.",
               "cite": "Nutrients · Огляд, 2017",
               "url": "https://www.mdpi.com/2072-6643/9/8/866"
             },
