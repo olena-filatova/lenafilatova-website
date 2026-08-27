@@ -98,8 +98,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 50 | 2026-07-10 | `islet-transplant-insulin-independence` | done | 2026-08-27 | OPS-370 |
 | 51 | 2026-07-10 | `carb-quality-healthy-aging` | done | 2026-08-27 | OPS-370 |
 | 52 | 2026-07-10 | `menopause-skin-oestrogen` | done | 2026-08-27 | OPS-370 |
-| 53 | 2026-07-10 | `glp1-drugs-less-movement` | pending | — | — |
-| 54 | 2026-07-09 | `natural-sweeteners` | pending | — | — |
+| 53 | 2026-07-10 | `glp1-drugs-less-movement` | done | 2026-08-27 | OPS-370 |
+| 54 | 2026-07-09 | `natural-sweeteners` | done | 2026-08-27 | OPS-370 |
 | 55 | 2026-07-04 | `protein-for-women-over-40` | pending | — | — |
 | 56 | 2026-06-26 | `type-2-diabetes-research` | pending | — | — |
 | 57 | 2026-06-20 | `perimenopause-diabetes-blood-sugar` | pending | — | — |

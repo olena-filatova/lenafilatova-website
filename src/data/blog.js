@@ -17911,7 +17911,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Aspartame is the most scrutinised. In 2023 the WHO’s cancer agency (IARC) [classified aspartame as “possibly carcinogenic to humans”](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — its weakest hazard category, based on limited evidence — while the WHO’s food-safety committee left the acceptable daily intake unchanged at 40 mg per kg of body weight. That gap matters: “possibly carcinogenic” describes how confident we are that something could cause cancer, not how much risk it poses at real doses. In practice a 70 kg adult would need to drink well over a dozen cans of diet soft drink a day to exceed the limit. People with the rare genetic condition [PKU must avoid aspartame](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); for everyone else, the honest summary is “probably fine in moderation, but not something to drink by the litre.” It also loses its sweetness when heated, so it’s poor for baking."
+          "text": "Aspartame is the most scrutinised. In 2023 the WHO’s cancer agency (IARC) [classified aspartame as “possibly carcinogenic to humans”](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — its weakest hazard category, based on limited evidence — while the WHO’s food-safety committee left the acceptable daily intake unchanged at 40 mg per kg of body weight. That gap matters: “possibly carcinogenic” describes how confident we are that something could cause cancer, not how much risk it poses at real doses. In practice a 70 kg adult would need to drink more than nine to fourteen cans of diet soft drink a day to exceed the limit, depending on how much aspartame the can carries. People with the rare genetic condition [PKU must avoid aspartame](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); for everyone else, the honest summary is “probably fine in moderation, but not something to drink by the litre.” It also loses its sweetness when heated, so it’s poor for baking."
         },
         {
           "t": "p",
@@ -18111,7 +18111,7 @@ export const POSTS = [
             },
             {
               "claim": "Aspartame: “possibly carcinogenic,” but intake limits unchanged.",
-              "detail": "In 2023 the WHO’s cancer agency (IARC) classified aspartame as “possibly carcinogenic to humans” (Group 2B) on limited evidence, while its food-safety committee (JECFA) reaffirmed the acceptable daily intake of 40 mg/kg body weight. Group 2B is a low-confidence hazard flag, not a measure of real-world risk — an adult would need well over a dozen cans of diet drink a day to exceed the limit.",
+              "detail": "In 2023 the WHO’s cancer agency (IARC) classified aspartame as “possibly carcinogenic to humans” (Group 2B) on limited evidence, while its food-safety committee (JECFA) reaffirmed the acceptable daily intake of 40 mg/kg body weight. Group 2B is a low-confidence hazard flag, not a measure of real-world risk — a 70 kg adult would need more than nine to fourteen cans of diet drink a day to exceed the limit, depending on the aspartame content per can.",
               "cite": "World Health Organization · IARC & JECFA assessment, 2023",
               "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
             },
@@ -18159,7 +18159,7 @@ export const POSTS = [
         },
         {
           "q": "Are artificial sweeteners like aspartame and sucralose safe?",
-          "a": "Within normal amounts, regulators still consider them safe — but the evidence has grown more mixed. Aspartame was classified as possibly carcinogenic by the WHO’s cancer agency in 2023, though its intake limit was left unchanged and you’d need well over a dozen diet drinks a day to reach it (people with the condition PKU must avoid it). A 2023 lab study found a sucralose impurity can damage DNA, and some sweeteners — including saccharin and sucralose — shift the gut microbiome in certain people. None of this is proof of everyday harm, but it’s reason to treat them as an occasional bridge away from sugar rather than a free pass. Aspartame and sucralose also break down when heated, so they’re poor for baking."
+          "a": "Within normal amounts, regulators still consider them safe — but the evidence has grown more mixed. Aspartame was classified as possibly carcinogenic by the WHO’s cancer agency in 2023, though its intake limit was left unchanged and a 70 kg adult would need more than nine to fourteen diet drinks a day to reach it (people with the condition PKU must avoid it). A 2023 lab study found a sucralose impurity can damage DNA, and some sweeteners — including saccharin and sucralose — shift the gut microbiome in certain people. None of this is proof of everyday harm, but it’s reason to treat them as an occasional bridge away from sugar rather than a free pass. Aspartame and sucralose also break down when heated, so they’re poor for baking."
         }
       ]
     },
@@ -18295,7 +18295,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Аспартам — найбільш досліджуваний. У 2023 році агенція ВООЗ із раку (IARC) [класифікувала аспартам як «можливо канцерогенний для людини»](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — це її найслабша категорія небезпеки, на основі обмежених доказів, — тоді як комітет ВООЗ із безпеки харчових продуктів залишив допустиме добове споживання незмінним: 40 мг на кг маси тіла. Ця різниця важлива: «можливо канцерогенний» описує, наскільки ми впевнені, що щось могло б спричиняти рак, а не який ризик воно несе за реальних доз. На практиці дорослому вагою 70 кг довелося б випивати значно більше десятка бляшанок дієтичного напою на день, щоб перевищити межу. Людям із рідкісним генетичним станом [ФКУ (фенілкетонурія) аспартаму слід уникати](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); для решти чесний підсумок такий: «мабуть, нормально в помірних кількостях, але не те, що варто пити літрами». Він також втрачає солодкість при нагріванні, тож для випічки не годиться."
+          "text": "Аспартам — найбільш досліджуваний. У 2023 році агенція ВООЗ із раку (IARC) [класифікувала аспартам як «можливо канцерогенний для людини»](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — це її найслабша категорія небезпеки, на основі обмежених доказів, — тоді як комітет ВООЗ із безпеки харчових продуктів залишив допустиме добове споживання незмінним: 40 мг на кг маси тіла. Ця різниця важлива: «можливо канцерогенний» описує, наскільки ми впевнені, що щось могло б спричиняти рак, а не який ризик воно несе за реальних доз. На практиці дорослому вагою 70 кг довелося б випивати понад дев’ять–чотирнадцять бляшанок дієтичного напою на день, щоб перевищити межу, — залежно від вмісту аспартаму в бляшанці. Людям із рідкісним генетичним станом [ФКУ (фенілкетонурія) аспартаму слід уникати](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); для решти чесний підсумок такий: «мабуть, нормально в помірних кількостях, але не те, що варто пити літрами». Він також втрачає солодкість при нагріванні, тож для випічки не годиться."
         },
         {
           "t": "p",
@@ -18495,7 +18495,7 @@ export const POSTS = [
             },
             {
               "claim": "Аспартам: «можливо канцерогенний», але межі споживання незмінні.",
-              "detail": "У 2023 році агенція ВООЗ із раку (IARC) класифікувала аспартам як «можливо канцерогенний для людини» (група 2B) на основі обмежених доказів, тоді як комітет із безпеки харчових продуктів (JECFA) підтвердив допустиме добове споживання 40 мг/кг маси тіла. Група 2B — це слабкий за впевненістю сигнал небезпеки, а не міра реального ризику: дорослому довелося б випивати значно більше десятка бляшанок дієтичного напою на день, щоб перевищити межу.",
+              "detail": "У 2023 році агенція ВООЗ із раку (IARC) класифікувала аспартам як «можливо канцерогенний для людини» (група 2B) на основі обмежених доказів, тоді як комітет із безпеки харчових продуктів (JECFA) підтвердив допустиме добове споживання 40 мг/кг маси тіла. Група 2B — це слабкий за впевненістю сигнал небезпеки, а не міра реального ризику: дорослому вагою 70 кг довелося б випивати понад дев’ять–чотирнадцять бляшанок дієтичного напою на день, щоб перевищити межу, залежно від вмісту аспартаму в бляшанці.",
               "cite": "Всесвітня організація охорони здоров’я · Оцінка IARC і JECFA, 2023",
               "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
             },
@@ -18543,7 +18543,7 @@ export const POSTS = [
         },
         {
           "q": "Чи безпечні штучні підсолоджувачі, як-от аспартам і сукралоза?",
-          "a": "У межах звичайних кількостей регулятори досі вважають їх безпечними — але докази стали неоднозначнішими. У 2023 році агенція ВООЗ із раку класифікувала аспартам як можливо канцерогенний, хоча межу споживання залишили незмінною, і щоб її досягти, треба випити значно більше десятка дієтичних напоїв на день (людям із ФКУ його слід уникати). Лабораторне дослідження 2023 року виявило, що домішка сукралози може пошкоджувати ДНК, а деякі підсолоджувачі — зокрема сахарин і сукралоза — зсувають мікробіом кишківника в частини людей. Ніщо з цього не є доказом щоденної шкоди, але це привід сприймати їх як епізодичний місток геть від цукру, а не як повну свободу. Аспартам і сукралоза також розкладаються при нагріванні, тож для випічки не годяться."
+          "a": "У межах звичайних кількостей регулятори досі вважають їх безпечними — але докази стали неоднозначнішими. У 2023 році агенція ВООЗ із раку класифікувала аспартам як можливо канцерогенний, хоча межу споживання залишили незмінною, і щоб її досягти, дорослому вагою 70 кг треба випити понад дев’ять–чотирнадцять дієтичних напоїв на день (людям із ФКУ його слід уникати). Лабораторне дослідження 2023 року виявило, що домішка сукралози може пошкоджувати ДНК, а деякі підсолоджувачі — зокрема сахарин і сукралоза — зсувають мікробіом кишківника в частини людей. Ніщо з цього не є доказом щоденної шкоди, але це привід сприймати їх як епізодичний місток геть від цукру, а не як повну свободу. Аспартам і сукралоза також розкладаються при нагріванні, тож для випічки не годяться."
         }
       ]
     }
