@@ -10666,7 +10666,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "On the muscle side, the phenomenon is called anabolic resistance. [A review in Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described it clearly: the same dose of protein produces a smaller muscle-building response than it used to. You are not imagining that eating and training the way you did at thirty no longer works. It genuinely doesn’t. Muscle mass declines gradually from around thirty, and the rate of loss steepens across the menopause transition."
+          "text": "On the muscle side, the phenomenon is called anabolic resistance. [A 2016 review in Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described it clearly: the same dose of protein produces a smaller muscle-building response than it used to. You are not imagining that eating and training the way you did at thirty no longer works. It genuinely doesn’t. Muscle mass declines gradually from around thirty, and the rate of loss steepens across the menopause transition."
         },
         {
           "t": "p",
@@ -10892,8 +10892,8 @@ export const POSTS = [
             },
             {
               "claim": "Ageing muscle builds less from the same amount of protein — anabolic resistance.",
-              "detail": "A review in Current Opinion in Clinical Nutrition and Metabolic Care set out the blunted muscle protein synthesis response that older adults show after eating protein. It is the physiological reason that eating and training as you did in your thirties stops producing the same result, and the reason protein targets rise rather than fall with age.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Review, 2018",
+              "detail": "A 2016 review in Nutrients set out the blunted muscle protein synthesis response that older adults show after eating protein. It is the physiological reason that eating and training as you did in your thirties stops producing the same result, and the reason protein targets rise rather than fall with age.",
+              "cite": "Nutrients · Review, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
@@ -11011,7 +11011,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "З боку м’язів це явище називають анаболічною резистентністю. [Огляд у Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) описав його чітко: та сама доза білка дає менший приріст м’язового синтезу, ніж раніше. Вам не здається, що харчуватися й тренуватися так, як у тридцять, більше не працює. Справді не працює. М’язова маса поступово зменшується приблизно з тридцяти, а темп втрати різко зростає під час менопаузального переходу."
+          "text": "З боку м’язів це явище називають анаболічною резистентністю. [Огляд 2016 року в Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) описав його чітко: та сама доза білка дає менший приріст м’язового синтезу, ніж раніше. Вам не здається, що харчуватися й тренуватися так, як у тридцять, більше не працює. Справді не працює. М’язова маса поступово зменшується приблизно з тридцяти, а темп втрати різко зростає під час менопаузального переходу."
         },
         {
           "t": "p",
@@ -11237,8 +11237,8 @@ export const POSTS = [
             },
             {
               "claim": "З віком м’язи будують менше з тієї самої кількості білка — анаболічна резистентність.",
-              "detail": "Огляд у Current Opinion in Clinical Nutrition and Metabolic Care описав ослаблену відповідь м’язового синтезу білка після їжі в людей старшого віку. Це фізіологічна причина, чому харчуватися й тренуватися як у тридцять перестає давати той самий результат, і чому норми білка з віком зростають, а не падають.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Огляд, 2018",
+              "detail": "Огляд 2016 року в Nutrients описав ослаблену відповідь м’язового синтезу білка після їжі в людей старшого віку. Це фізіологічна причина, чому харчуватися й тренуватися як у тридцять перестає давати той самий результат, і чому норми білка з віком зростають, а не падають.",
+              "cite": "Nutrients · Огляд, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
@@ -11878,7 +11878,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "On the food side, the priority afterwards is protein for repair: 25–40g in the meal that follows, which for most women means being deliberate about it rather than assuming it happened. The precise post-workout window matters less than people think — a randomised trial in postmenopausal women found that [total daily protein spread across meals](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) mattered more for muscle than exact timing around exercise. If you’re managing insulin resistance, the hours after training are also the point in the day when your muscles are most receptive to carbohydrate, so this is the meal to put the potatoes or the rice in, if you’re having them at all."
+          "text": "On the food side, the priority afterwards is protein for repair: 25–40g in the meal that follows, which for most women means being deliberate about it rather than assuming it happened. The precise post-workout window matters less than people think — a randomised trial in postmenopausal women found [no advantage to a protein drink taken straight after training over the same drink two hours later](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/). If you’re managing insulin resistance, the hours after training are also the point in the day when your muscles are most receptive to carbohydrate, so this is the meal to put the potatoes or the rice in, if you’re having them at all."
         },
         {
           "t": "h",
@@ -12013,8 +12013,8 @@ export const POSTS = [
               "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-aerobic-exercise-performed-in-fasted-v-fed-state-on-fat-and-carbohydrate-metabolism-in-adults-a-systematic-review-and-metaanalysis/0EA2328A0FF91703C95FD39A38716811"
             },
             {
-              "claim": "Total daily protein spread across meals matters more for muscle than exact timing around a workout.",
-              "detail": "A randomised controlled trial in postmenopausal women on a weight-loss programme found that while some trends around post-exercise timing appeared, total daily protein distributed across meals was the most important variable for muscle protein synthesis rates. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
+              "claim": "The precise post-workout protein window does not appear to matter for muscle.",
+              "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
               "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -12157,7 +12157,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Щодо їжі, після тренування пріоритет — білок для відновлення: 25–40 г у наступному прийомі їжі, що для більшості жінок означає свідомо це спланувати, а не сподіватися, що вийде само. Точне «білкове вікно» важить менше, ніж прийнято думати: рандомізоване дослідження за участю жінок у постменопаузі показало, що [загальна денна кількість білка, розподілена між прийомами їжі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/), важливіша для м’язів, ніж точний час навколо тренування. Якщо ви працюєте з інсулінорезистентністю, години після заняття — це ще й момент дня, коли м’язи найкраще сприймають вуглеводи, тож саме в цей прийом їжі варто покласти картоплю чи рис, якщо ви їх узагалі їсте."
+          "text": "Щодо їжі, після тренування пріоритет — білок для відновлення: 25–40 г у наступному прийомі їжі, що для більшості жінок означає свідомо це спланувати, а не сподіватися, що вийде само. Точне «білкове вікно» важить менше, ніж прийнято думати: рандомізоване дослідження за участю жінок у постменопаузі не виявило [жодної переваги білкового напою одразу після тренування порівняно з тією самою порцією через дві години](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/). Якщо ви працюєте з інсулінорезистентністю, години після заняття — це ще й момент дня, коли м’язи найкраще сприймають вуглеводи, тож саме в цей прийом їжі варто покласти картоплю чи рис, якщо ви їх узагалі їсте."
         },
         {
           "t": "h",
@@ -12292,8 +12292,8 @@ export const POSTS = [
               "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-aerobic-exercise-performed-in-fasted-v-fed-state-on-fat-and-carbohydrate-metabolism-in-adults-a-systematic-review-and-metaanalysis/0EA2328A0FF91703C95FD39A38716811"
             },
             {
-              "claim": "Загальна денна кількість білка, розподілена між прийомами їжі, важить для м’язів більше, ніж точний час навколо тренування.",
-              "detail": "Рандомізоване контрольоване дослідження за участю жінок у постменопаузі на програмі зниження ваги показало: попри окремі тенденції щодо часу після тренування, найважливішою змінною для швидкості синтезу м’язового білка була загальна денна кількість білка, розподілена між прийомами їжі. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
+              "claim": "Точне «білкове вікно» після тренування, схоже, не має значення для м’язів.",
+              "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і зниження ваги порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Жоден із варіантів не виявився виразно кращим — тобто тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
               "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -18600,11 +18600,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "As oestrogen declines, your body becomes less efficient at using dietary protein to build and repair muscle. [A 2018 review in Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described this as anabolic resistance: the blunted muscle protein synthesis response that older adults experience after eating protein. Older women may see up to a 40% smaller increase in muscle protein synthesis than younger women, even eating identical amounts of protein. I felt it directly — my muscles had become less responsive, even though I was eating and training the same."
+          "text": "As oestrogen declines, your body becomes less efficient at using dietary protein to build and repair muscle. Researchers call that blunted muscle protein synthesis response anabolic resistance. [A 2016 review in Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) worked through what it means for how much protein older adults actually need, and concluded the requirement is roughly 40% higher than current guidelines allow — an estimated average requirement near 0.9g/kg a day, and a recommended intake near 1.2g/kg. I felt it directly — my muscles had become less responsive, even though I was eating and training the same."
         },
         {
           "t": "p",
-          "text": "Alongside this, age-related muscle loss — known as sarcopenia — accelerates from around 40 onwards and compounds further at menopause. [A 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) confirmed that menopausal women are at significantly elevated risk of sarcopenia, and found that increased dietary protein combined with resistance exercise was among the most effective interventions for preventing it. Muscle isn’t just about strength or aesthetics — it plays a direct role in how your body handles blood glucose, your metabolic rate and your bone density."
+          "text": "Alongside this, age-related muscle loss — known as sarcopenia — accelerates from around 40 onwards and compounds further at menopause. [A 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled the randomised trials of non-drug ways to prevent it and found resistance training the clearest performer — three sessions a week, twenty to ninety minutes, for at least six weeks. On protein it was careful, concluding that more trials are needed before the effect can be judged, which is worth holding on to: the case for protein below rests on other studies, and the training half of the advice has the firmer footing. Muscle isn’t just about strength or aesthetics — it plays a direct role in how your body handles blood glucose, your metabolic rate and your bone density."
         },
         {
           "t": "p",
@@ -18624,7 +18624,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[A 2025 study in Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) found that women in the highest quintile of protein intake lost approximately 40% less lean muscle mass over three years than those in the lowest. Taken alongside the broader evidence, most nutrition researchers now place the practical target for women over 40 at 1.2–1.6g per kg of body weight per day as a baseline, rising to 1.6–2.0g/kg if you’re strength training regularly."
+          "text": "[A 2025 trial in Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) put 126 women aged 60–75 with sarcopenia on either 0.8g/kg or 1.2g/kg of protein a day for twelve weeks, and found better muscle mass composition and better function — handgrip and knee flexion both — in the higher-protein group. Taken alongside the broader evidence, most nutrition researchers now place the practical target for women over 40 at 1.2–1.6g per kg of body weight per day as a baseline, rising to 1.6–2.0g/kg if you’re strength training regularly."
         },
         {
           "t": "p",
@@ -18680,7 +18680,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Set against the RNI, the gap is not subtle. A 65kg woman is officially catered for at 49g a day, and on the evidence above is actually aiming at 78–104g. That is more than double the number the UK guideline gives her."
+          "text": "Set against the RNI, the gap is not subtle. A 65kg woman is officially catered for at 49g a day, and on the evidence above is actually aiming at 78–104g. That is roughly one and a half to two times the number the UK guideline gives her."
         },
         {
           "t": "p",
@@ -18696,7 +18696,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Distribution matters as much as the total. [A study on postmenopausal women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) found that consistent protein intake across meals was the primary driver of muscle protein anabolism — more than precise timing around workouts. Research consistently shows the body stimulates muscle protein synthesis most effectively when each meal provides roughly 25–40g of protein. Eating 120g at dinner is far less effective than spreading it across three meals. Front-loading protein at breakfast, where most women eat the least, is one of the most practical changes you can make."
+          "text": "Distribution matters as much as the total. [A study on postmenopausal women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) tested whether it mattered if a 15g protein drink came straight after resistance training or two hours later, and found no meaningful advantage either way — which usefully moves the emphasis off the post-workout window and onto what you eat across the day as a whole. Research consistently shows the body stimulates muscle protein synthesis most effectively when each meal provides roughly 25–40g of protein. Eating 120g at dinner is far less effective than spreading it across three meals. Front-loading protein at breakfast, where most women eat the least, is one of the most practical changes you can make."
         },
         {
           "t": "p",
@@ -18785,32 +18785,32 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Women in the highest quintile of protein intake lost 40% less lean muscle mass over three years.",
-              "detail": "A 2025 study in Frontiers in Nutrition examined protein intake and muscle composition in older women with sarcopenia. Those eating the most protein retained significantly more lean mass than those eating the least — one of the clearest recent demonstrations of how much protein intake matters for muscle preservation.",
-              "cite": "Frontiers in Nutrition · Prospective study, 2025",
+              "claim": "Women aged 60–75 with sarcopenia did better on 1.2g/kg of protein a day than on 0.8g/kg.",
+              "detail": "A 2025 trial in Frontiers in Nutrition randomised 126 elderly women with sarcopenia to a normal protein intake (0.8g/kg a day) or a moderately high one (1.2g/kg a day) for twelve weeks, tracking them by MRI along with handgrip and knee flexion tests. The higher-protein group came out ahead on both muscle mass composition and function — a direct test of the guideline figure against something nearer the target in this article.",
+              "cite": "Frontiers in Nutrition · Randomised trial, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/"
             },
             {
-              "claim": "Older women can build up to 40% less muscle from the same protein dose — a phenomenon called anabolic resistance.",
-              "detail": "A 2018 review in Current Opinion in Clinical Nutrition and Metabolic Care established this finding. It explains why eating the same amount of protein as you did in your 30s is no longer enough: your muscles have become less responsive, so a higher dose is needed to achieve the same protective effect — and the difference compounds with age.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Review, 2018",
+              "claim": "Older adults need roughly 40% more protein than current recommendations allow.",
+              "detail": "A 2016 review in Nutrients drew together the indicator amino acid oxidation studies to re-estimate protein requirements in older adults, arriving at an estimated average requirement near 0.9g/kg a day and a recommended intake near 1.2g/kg — around 40% above the guideline figures. It explains why eating the same amount of protein as you did in your 30s is no longer enough: the muscle protein synthesis response to a given dose is blunted with age, so a higher dose is needed for the same protective effect.",
+              "cite": "Nutrients · Review, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
-              "claim": "Increased protein intake, combined with resistance exercise, is among the most effective ways to prevent sarcopenia in menopausal women.",
-              "detail": "A systematic review and meta-analysis of randomised controlled trials in BMC Women’s Health (2023) examined non-pharmacological approaches to preventing sarcopenia in menopausal women. Dietary protein interventions were consistently among the most effective — particularly when paired with strength training.",
+              "claim": "Resistance training is the best-evidenced way to prevent sarcopenia in menopausal women; the protein evidence is thinner.",
+              "detail": "A systematic review and meta-analysis of randomised controlled trials in BMC Women’s Health (2023) examined non-pharmacological approaches to preventing sarcopenia in menopausal women. Resistance training came out clearly ahead — three sessions a week, twenty to ninety minutes, sustained for at least six weeks. On protein supplementation the authors concluded that further trials are needed before an effect can be judged, so this review backs the exercise half of the advice in this article rather than the protein half.",
               "cite": "BMC Women’s Health · Systematic review and meta-analysis, 2023",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             },
             {
               "claim": "Adequate protein is associated with significantly better physical performance in post-menopausal women aged 60–90.",
-              "detail": "An analysis of post-menopausal women found that those with adequate dietary protein intake had substantially better grip strength, walking speed and overall physical performance scores. The association held after adjusting for age, BMI and physical activity levels.",
+              "detail": "An analysis of post-menopausal women aged 60–90 found that those eating less protein scored worse on tests of upper and lower body function, and carried more body fat relative to lean mass, than those eating more. Grip strength was the exception — it did not differ significantly between the groups. Average intake across the cohort was 1.1g/kg a day, with a quarter of the women falling below even the RDA.",
               "cite": "PMC · Observational analysis",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4433492/"
             },
             {
-              "claim": "Consistent daily protein across meals drives muscle anabolism more than precise timing around workouts.",
-              "detail": "A randomised controlled trial in postmenopausal women on a weight-loss programme found that while some trends around post-exercise timing appeared, total daily protein distributed across meals was the most important variable for muscle protein synthesis rates.",
+              "claim": "Total daily protein matters more than hitting a post-workout window.",
+              "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing.",
               "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -18937,11 +18937,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Зі зниженням естрогену тіло гірше використовує харчовий білок для побудови та відновлення м’язів. [Огляд 2018 року в Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) назвав це анаболічною резистентністю: приглушеною реакцією синтезу м’язового білка, яку люди старшого віку мають після вживання білка. Жінки старшого віку можуть мати до 40% меншого приросту синтезу м’язового білка, ніж молодші, навіть з’їдаючи однакову кількість білка. Я відчула це напряму — мої м’язи стали менш чутливими, хоча я їла й тренувалася так само."
+          "text": "Зі зниженням естрогену тіло гірше використовує харчовий білок для побудови та відновлення м’язів. Цю приглушену реакцію синтезу м’язового білка дослідники називають анаболічною резистентністю. [Огляд 2016 року в Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) розібрав, що вона означає для реальної потреби в білку в людей старшого віку, і дійшов висновку, що ця потреба приблизно на 40% вища за чинні норми — розрахункова середня потреба близько 0,9 г/кг на добу й рекомендоване споживання близько 1,2 г/кг. Я відчула це напряму — мої м’язи стали менш чутливими, хоча я їла й тренувалася так само."
         },
         {
           "t": "p",
-          "text": "Поряд із цим вікова втрата м’язів — саркопенія — прискорюється приблизно з 40 років і ще більше посилюється в менопаузі. [Систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) підтвердив, що жінки в менопаузі мають значно підвищений ризик саркопенії, і що збільшення білка в раціоні разом із силовими вправами — один із найефективніших способів її запобігти. М’язи — це не лише про силу чи естетику: вони напряму впливають на те, як тіло керує глюкозою, на метаболізм і щільність кісток."
+          "text": "Поряд із цим вікова втрата м’язів — саркопенія — прискорюється приблизно з 40 років і ще більше посилюється в менопаузі. [Систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) зібрав рандомізовані дослідження нефармакологічних способів її запобігання й показав, що найпереконливіші результати дають силові тренування — три сесії на тиждень по двадцять–дев’яносто хвилин щонайменше шість тижнів. Щодо білка огляд обережний: автори підсумували, що потрібно більше досліджень, перш ніж робити висновок. Це варто тримати в голові — аргументи на користь білка нижче спираються на інші роботи, а тренувальна половина поради має міцнішу основу. М’язи — це не лише про силу чи естетику: вони напряму впливають на те, як тіло керує глюкозою, на метаболізм і щільність кісток."
         },
         {
           "t": "p",
@@ -18961,7 +18961,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Дослідження 2025 року в Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) виявило, що жінки з найвищого квінтиля споживання білка втратили приблизно на 40% менше м’язової маси за три роки, ніж ті, хто їв найменше. З огляду на ширшу доказову базу більшість дослідників харчування нині ставлять практичний орієнтир для жінок після 40 на рівні 1,2–1,6 г на кг ваги на добу як базовий, зростаючи до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся силовими."
+          "text": "[Дослідження 2025 року в Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) розподілило 126 жінок 60–75 років із саркопенією на 0,8 г/кг або 1,2 г/кг білка на добу протягом дванадцяти тижнів і виявило кращу композицію м’язової маси та кращу функцію — і силу хвату, і згинання коліна — у групі з вищим білком. З огляду на ширшу доказову базу більшість дослідників харчування нині ставлять практичний орієнтир для жінок після 40 на рівні 1,2–1,6 г на кг ваги на добу як базовий, зростаючи до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся силовими."
         },
         {
           "t": "p",
@@ -19017,7 +19017,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "На тлі RNI розрив зовсім не тонкий. Жінці вагою 65 кг офіційно пропонують 49 г на добу, а за наведеними вище даними вона насправді цілиться у 78–104 г. Це більш ніж удвічі більше за те, що дає британська норма."
+          "text": "На тлі RNI розрив зовсім не тонкий. Жінці вагою 65 кг офіційно пропонують 49 г на добу, а за наведеними вище даними вона насправді цілиться у 78–104 г. Це приблизно в півтора–два рази більше за те, що дає британська норма."
         },
         {
           "t": "p",
@@ -19033,7 +19033,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Розподіл важливий не менше за загальну кількість. [Дослідження за участю жінок у постменопаузі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) показало, що саме рівномірне споживання білка протягом дня було головним драйвером анаболізму м’язового білка — важливішим за точний час навколо тренувань. Дослідження стабільно показують, що тіло найкраще стимулює синтез м’язового білка, коли кожен прийом їжі дає приблизно 25–40 г білка. З’їсти 120 г за вечерею значно менш ефективно, ніж розподілити на три прийоми. Додати білок на сніданок, де жінки зазвичай їдять його найменше, — одна з найпрактичніших змін."
+          "text": "Розподіл важливий не менше за загальну кількість. [Дослідження за участю жінок у постменопаузі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) перевіряло, чи має значення, коли випити 15 г білка — одразу після силового тренування чи через дві години, — і не знайшло відчутної переваги в жодного варіанта. Це корисно зміщує акцент із «вікна» після тренування на те, що ви їсте протягом усього дня. Дослідження стабільно показують, що тіло найкраще стимулює синтез м’язового білка, коли кожен прийом їжі дає приблизно 25–40 г білка. З’їсти 120 г за вечерею значно менш ефективно, ніж розподілити на три прийоми. Додати білок на сніданок, де жінки зазвичай їдять його найменше, — одна з найпрактичніших змін."
         },
         {
           "t": "p",
@@ -19122,32 +19122,32 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Жінки з найвищого квінтиля споживання білка втратили на 40% менше м’язової маси за три роки.",
-              "detail": "Дослідження 2025 року в Frontiers in Nutrition вивчало споживання білка й композицію м’язів у жінок старшого віку із саркопенією. Ті, хто їв найбільше білка, зберегли значно більше м’язової маси, ніж ті, хто їв найменше, — одна з найяскравіших нещодавніх демонстрацій того, наскільки білок важливий для збереження м’язів.",
-              "cite": "Frontiers in Nutrition · Проспективне дослідження, 2025",
+              "claim": "Жінки 60–75 років із саркопенією мали кращі результати на 1,2 г/кг білка на добу, ніж на 0,8 г/кг.",
+              "detail": "Дослідження 2025 року в Frontiers in Nutrition розподілило 126 жінок старшого віку із саркопенією на звичайне споживання білка (0,8 г/кг на добу) або помірно високе (1,2 г/кг на добу) на дванадцять тижнів, відстежуючи їх за допомогою МРТ, тестів сили хвату та згинання коліна. Група з вищим білком випередила іншу і за композицією м’язової маси, і за функцією — це пряме порівняння нормативної цифри з тією, що ближча до орієнтира в цій статті.",
+              "cite": "Frontiers in Nutrition · Рандомізоване дослідження, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/"
             },
             {
-              "claim": "Жінки старшого віку можуть будувати до 40% менше м’язів із тієї ж дози білка — це явище називають анаболічною резистентністю.",
-              "detail": "Огляд 2018 року в Current Opinion in Clinical Nutrition and Metabolic Care обґрунтував цей висновок. Він пояснює, чому їсти стільки ж білка, скільки у свої тридцять, уже недостатньо: м’язи стали менш чутливими, тож потрібна вища доза для того самого захисного ефекту — і різниця зростає з віком.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Огляд, 2018",
+              "claim": "Людям старшого віку потрібно приблизно на 40% більше білка, ніж дозволяють чинні норми.",
+              "detail": "Огляд 2016 року в Nutrients звів разом дослідження методом окиснення індикаторної амінокислоти, щоб переоцінити потребу в білку в людей старшого віку, і отримав розрахункову середню потребу близько 0,9 г/кг на добу та рекомендоване споживання близько 1,2 г/кг — приблизно на 40% вище за нормативні цифри. Це пояснює, чому їсти стільки ж білка, скільки у свої тридцять, уже недостатньо: реакція синтезу м’язового білка на ту саму дозу з віком приглушується, тож для того самого захисного ефекту потрібна вища доза.",
+              "cite": "Nutrients · Огляд, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
-              "claim": "Збільшення білка в раціоні разом із силовими вправами — один із найефективніших способів запобігти саркопенії в жінок у менопаузі.",
-              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень у BMC Women’s Health (2023) розглянув нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Білкові втручання стабільно були серед найефективніших — особливо в поєднанні із силовими тренуваннями.",
+              "claim": "Силові тренування — найкраще доведений спосіб запобігти саркопенії в жінок у менопаузі; доказів щодо білка менше.",
+              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень у BMC Women’s Health (2023) розглянув нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Силові тренування виразно вийшли на перше місце — три сесії на тиждень по двадцять–дев’яносто хвилин щонайменше шість тижнів. Щодо білкових добавок автори підсумували, що потрібні подальші дослідження, перш ніж оцінювати ефект, тож цей огляд підкріплює тренувальну, а не білкову половину порад у цій статті.",
               "cite": "BMC Women’s Health · Систематичний огляд і метааналіз, 2023",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             },
             {
               "claim": "Достатній білок пов’язаний зі значно кращою фізичною працездатністю в жінок у постменопаузі 60–90 років.",
-              "detail": "Аналіз жінок у постменопаузі показав, що ті, хто споживав достатньо білка, мали суттєво кращу силу хвату, швидкість ходьби та загальні показники фізичної працездатності. Зв’язок зберігався після поправки на вік, ІМТ і рівень фізичної активності.",
+              "detail": "Аналіз жінок у постменопаузі 60–90 років показав, що ті, хто їв менше білка, гірше виконували тести на функцію верхньої та нижньої частини тіла й мали більше жиру відносно м’язової маси, ніж ті, хто їв більше. Сила хвату стала винятком — за нею групи значуще не відрізнялися. Середнє споживання в когорті становило 1,1 г/кг на добу, причому чверть жінок не дотягувала навіть до RDA.",
               "cite": "PMC · Обсерваційний аналіз",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4433492/"
             },
             {
-              "claim": "Стабільне щоденне споживання білка протягом дня керує анаболізмом м’язів більше, ніж точний час навколо тренувань.",
-              "detail": "Рандомізоване контрольоване дослідження жінок у постменопаузі на програмі схуднення показало, що хоча деякі тенденції щодо часу після вправ і спостерігалися, саме загальний добовий білок, розподілений по прийомах їжі, був найважливішою змінною для швидкості синтезу м’язового білка.",
+              "claim": "Загальний добовий білок важливіший за влучання у «вікно» після тренування.",
+              "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і схуднення порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Жоден із варіантів не виявився виразно кращим — це свідчить, що тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням.",
               "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
