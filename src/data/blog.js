@@ -14204,7 +14204,7 @@ export const POSTS = [
               "claim": "The effect on glucose metabolism was not explained by changes in body fat.",
               "detail": "The trial was titled ‘Chronic Insufficient Sleep in Women Impairs Insulin Sensitivity Independent of Adiposity Changes’. Analyses found the effects of sleep restriction on glucose metabolism were not mediated by adiposity or by changes in adiposity over the study, meaning the impairment in insulin sensitivity did not depend on participants gaining weight or body fat during the restricted phase.",
               "cite": "Diabetes Care · Columbia University Irving Medical Center, 2023",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191900/"
+              "url": "https://diabetesjournals.org/care/article/47/1/117/153802/Chronic-Insufficient-Sleep-in-Women-Impairs"
             },
             {
               "claim": "Pre- and postmenopausal women showed different patterns of change.",
@@ -14293,7 +14293,7 @@ export const POSTS = [
               "claim": "Вплив на вуглеводний обмін не пояснювався змінами жирової маси.",
               "detail": "Дослідження мало назву «Хронічно недостатній сон у жінок погіршує чутливість до інсуліну незалежно від змін жирової маси». Аналіз показав, що вплив обмеження сну на вуглеводний обмін не опосередковувався ані жировою масою, ані її змінами за час дослідження, — тобто погіршення чутливості до інсуліну не залежало від того, чи набирали учасниці вагу або жир під час фази обмеження.",
               "cite": "Diabetes Care · Columbia University Irving Medical Center, 2023",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191900/"
+              "url": "https://diabetesjournals.org/care/article/47/1/117/153802/Chronic-Insufficient-Sleep-in-Women-Impairs"
             },
             {
               "claim": "У жінок до та після менопаузи змінювалися різні показники.",

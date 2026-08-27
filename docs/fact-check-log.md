@@ -80,8 +80,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 32 | 2026-08-10 | `kefir-fibre-synbiotic-inflammation` | done | 2026-08-26 | OPS-370 — clean; every figure exact |
 | 33 | 2026-08-08 | `perimenopause-uncertainty-us-study` | done | 2026-08-26 | OPS-370 — clean; every figure exact |
 | 34 | 2026-08-04 | `perimenopause-global-survey-symptom-gap` | done | 2026-08-26 | OPS-370 — clean; citation and figures exact |
-| 35 | 2026-08-03 | `estrobolome-gut-oestrogen-menopause` | pending | — | — |
-| 36 | 2026-08-02 | `sleep-insulin-resistance-women` | pending | — | — |
+| 35 | 2026-08-03 | `estrobolome-gut-oestrogen-menopause` | done | 2026-08-27 | OPS-370 — clean |
+| 36 | 2026-08-02 | `sleep-insulin-resistance-women` | done | 2026-08-27 | OPS-370 — wrong-paper URL (PMC ID was a different journal/trial); repointed EN+UA |
 | 37 | 2026-07-28 | `topical-oestrogen-skincare-menopause` | pending | — | — |
 | 38 | 2026-07-27 | `tirzepatide-hrt-weight-loss-menopause-2026` | pending | — | — |
 | 39 | 2026-07-25 | `gut-microbiome-precision-nutrition-women-2026` | pending | — | — |
