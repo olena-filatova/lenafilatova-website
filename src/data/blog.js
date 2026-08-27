@@ -16081,7 +16081,7 @@ export const POSTS = [
       "blocks": [
         {
           "t": "p",
-          "text": "A 2026 Medscape clinical review makes a case that’s overdue: diabetes is not a gender-neutral disease, yet diabetes care is still largely built as if it were. The review highlights that type 2 diabetes is now rising twice as fast in women under 40 compared with men in the same age group."
+          "text": "A 2026 Medscape clinical review makes a case that’s overdue: diabetes is not a gender-neutral disease, yet diabetes care is still largely built as if it were. Type 2 diabetes is now rising twice as fast in women under 40 as in older women — Diabetes UK’s analysis puts diagnoses up 47% in the under-40s between 2017/18 and 2023/24, against 22% in women aged 40–79. It outpaces men of the same age too, though by less: they rose 34%."
         },
         {
           "t": "p",
@@ -16103,8 +16103,8 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Type 2 diabetes is rising twice as fast in women under 40 than in men, and diabetes care underaccounts for hormonal sex differences.",
-              "detail": "A 2026 Medscape clinical review reports that hormonal changes across a woman’s life — including the menstrual cycle, pregnancy, perimenopause and menopause — significantly affect glucose metabolism and insulin needs, with insulin requirements shifting by up to 15% across the luteal phase alone. The review notes women remain underrepresented in the clinical trials underpinning diabetes guidelines, and that type 2 diabetes is now increasing twice as fast in women under 40 compared with men.",
+              "claim": "Type 2 diabetes is rising twice as fast in women under 40 as in older women, and diabetes care underaccounts for hormonal sex differences.",
+              "detail": "A 2026 Medscape clinical review reports that hormonal changes across a woman’s life — including the menstrual cycle, pregnancy, perimenopause and menopause — significantly affect glucose metabolism and insulin needs, with insulin requirements shifting by up to 15% across the luteal phase alone. The review notes women remain underrepresented in the clinical trials underpinning diabetes guidelines. On the rate of increase, Diabetes UK’s analysis of 2017/18 to 2023/24 found type 2 diagnoses up 47% in women under 40 — twice the 22% rise in women aged 40–79, and ahead of the 34% rise in men under 40.",
               "cite": "Medscape · Clinical Review, 13 July 2026",
               "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
             }
@@ -16134,7 +16134,7 @@ export const POSTS = [
       "blocks": [
         {
           "t": "p",
-          "text": "Клінічний огляд Medscape 2026 року порушує давно назрілу тему: діабет не є гендерно нейтральною хворобою, але система догляду за діабетом досі здебільшого влаштована так, ніби це так. Огляд підкреслює, що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 років порівняно з чоловіками того ж віку."
+          "text": "Клінічний огляд Medscape 2026 року порушує давно назрілу тему: діабет не є гендерно нейтральною хворобою, але система догляду за діабетом досі здебільшого влаштована так, ніби це так. Діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 років, ніж серед старших жінок: за аналізом Diabetes UK, з 2017/18 до 2023/24 років кількість діагнозів серед жінок до 40 зросла на 47% проти 22% серед жінок віком 40–79. Він випереджає і чоловіків того ж віку, хоча менше: у них зростання становило 34%."
         },
         {
           "t": "p",
@@ -16156,8 +16156,8 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед чоловіків, а система догляду за діабетом недостатньо враховує гормональні відмінності між статями.",
-              "detail": "Клінічний огляд Medscape 2026 року повідомляє, що гормональні зміни протягом життя жінки — зокрема менструальний цикл, вагітність, перименопауза та менопауза — суттєво впливають на метаболізм глюкози й потребу в інсуліні, причому потреба в інсуліні змінюється до 15% лише протягом лютеїнової фази. Огляд зазначає, що жінки досі недостатньо представлені в клінічних дослідженнях, на яких ґрунтуються рекомендації з діабету, і що діабет 2 типу тепер зростає вдвічі швидше серед жінок до 40 порівняно з чоловіками.",
+              "claim": "Діабет 2 типу зростає вдвічі швидше серед жінок до 40, ніж серед старших жінок, а система догляду за діабетом недостатньо враховує гормональні відмінності між статями.",
+              "detail": "Клінічний огляд Medscape 2026 року повідомляє, що гормональні зміни протягом життя жінки — зокрема менструальний цикл, вагітність, перименопауза та менопауза — суттєво впливають на метаболізм глюкози й потребу в інсуліні, причому потреба в інсуліні змінюється до 15% лише протягом лютеїнової фази. Огляд зазначає, що жінки досі недостатньо представлені в клінічних дослідженнях, на яких ґрунтуються рекомендації з діабету. Щодо темпів зростання: за аналізом Diabetes UK за 2017/18–2023/24 роки кількість діагнозів діабету 2 типу серед жінок до 40 зросла на 47% — удвічі більше за 22% серед жінок віком 40–79 і більше за 34% серед чоловіків до 40.",
               "cite": "Medscape · Клінічний огляд, 13 липня 2026",
               "url": "https://www.medscape.com/viewarticle/women-and-diabetes-care-keeping-pace-biology-2026a1000nip"
             }
