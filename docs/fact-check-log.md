@@ -84,8 +84,8 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 36 | 2026-08-02 | `sleep-insulin-resistance-women` | done | 2026-08-27 | OPS-370 — wrong-paper URL (PMC ID was a different journal/trial); repointed EN+UA |
 | 37 | 2026-07-28 | `topical-oestrogen-skincare-menopause` | done | 2026-08-27 | OPS-370 |
 | 38 | 2026-07-27 | `tirzepatide-hrt-weight-loss-menopause-2026` | done | 2026-08-27 | OPS-370 |
-| 39 | 2026-07-25 | `gut-microbiome-precision-nutrition-women-2026` | pending | — | — |
-| 40 | 2026-07-24 | `ada-2026-glp1-type1-diabetes-women` | pending | — | — |
+| 39 | 2026-07-25 | `gut-microbiome-precision-nutrition-women-2026` | done | 2026-08-27 | OPS-370 |
+| 40 | 2026-07-24 | `ada-2026-glp1-type1-diabetes-women` | done | 2026-08-27 | OPS-370 |
 | 41 | 2026-07-19 | `menstrual-blood-research-medicine` | pending | — | — |
 | 42 | 2026-07-19 | `type-1-diabetes-cure-trials` | pending | — | — |
 | 43 | 2026-07-17 | `anxiety-brain-fog-top-menopause-symptom` | pending | — | — |

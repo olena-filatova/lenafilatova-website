@@ -14973,7 +14973,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "None of this is written specifically for women — but it lands differently for them. Women with T1D ride a monthly tide of insulin sensitivity: in the second half of the cycle (the luteal phase) sensitivity falls, and glucose tends to run higher and more variable. At the other end of the reproductive years, a 2025 Dutch survey of 159 women with T1D found about two-thirds felt their control worsened after menopause, when falling oestrogen adds insulin resistance and visceral weight. An obesity-management tool that also protects the heart, kidneys and liver is therefore squarely relevant to midlife women — with the honest caveat that women have long been under-represented in T1D drug and device trials, so this is a conversation to individualise, not a prescription to assume. If perimenopause is part of your picture, my post on [perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/) goes deeper."
+          "text": "None of this is written specifically for women — but it lands differently for them. Women with T1D ride a monthly tide of insulin sensitivity: in the second half of the cycle (the luteal phase) sensitivity falls, and glucose tends to run higher and more variable. At the other end of the reproductive years, a 2025 Dutch survey of 159 women with T1D found about two-thirds noticed a moderate or marked change in their glucose control after menopause — 42% said it ran higher, though 20% said it ran lower — at a time when falling oestrogen adds insulin resistance and visceral weight. An obesity-management tool that also protects the heart, kidneys and liver is therefore squarely relevant to midlife women — with the honest caveat that women have long been under-represented in T1D drug and device trials, so this is a conversation to individualise, not a prescription to assume. If perimenopause is part of your picture, my post on [perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/) goes deeper."
         },
         {
           "t": "h",
@@ -14995,8 +14995,8 @@ export const POSTS = [
               "url": "https://diatribe.org/diabetes-management/your-guide-2026-ada-standards-care"
             },
             {
-              "claim": "Around two-thirds of women with type 1 diabetes report worse glucose control after menopause.",
-              "detail": "In a 2025 cross-sectional survey of 159 women with type 1 diabetes in the Netherlands, about two-thirds reported that their blood-glucose regulation felt worse after menopause. Separately, controlled studies show insulin sensitivity falls in the luteal (second) half of the menstrual cycle, raising average glucose and time above range. Both are observational or physiological findings, not treatment trials.",
+              "claim": "Around two-thirds of women with type 1 diabetes report a change in glucose control after menopause — most often, but not always, upward.",
+              "detail": "In a 2025 cross-sectional survey of 159 women with type 1 diabetes in the Netherlands, 67.4% reported moderate to severe changes in glucose regulation after menopause. The direction was not uniform: 41.9% perceived higher glucose, 19.6% perceived lower glucose and 38.5% perceived no change. Separately, controlled studies show insulin sensitivity falls in the luteal (second) half of the menstrual cycle, raising average glucose and time above range. Both are observational or physiological findings, not treatment trials.",
               "cite": "Diabetologia · Cross-sectional survey, 2025",
               "url": "https://link.springer.com/article/10.1007/s00125-025-06518-z"
             }
@@ -15078,7 +15078,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Нічого з цього не написано спеціально для жінок — але для них воно звучить інакше. Жінки з ЦД1 живуть у щомісячному припливі й відпливі чутливості до інсуліну: у другій половині циклу (лютеїнова фаза) чутливість падає, а глюкоза схильна бути вищою й мінливішою. З іншого боку репродуктивних років, нідерландське опитування 2025 року за участю 159 жінок із ЦД1 показало, що близько двох третин відчули погіршення контролю після менопаузи, коли падіння естрогену додає інсулінорезистентності та вісцеральної ваги. Тож інструмент контролю ожиріння, який також захищає серце, нирки й печінку, напряму стосується жінок середнього віку — із чесним застереженням, що жінки давно недостатньо представлені в дослідженнях ліків і пристроїв при ЦД1, тож це розмова, яку треба індивідуалізувати, а не призначення, яке можна припускати. Якщо перименопауза — частина вашої картини, мій допис про [перименопаузу та рівень цукру](/ua/blog/perimenopause-diabetes-blood-sugar/) розкриває це глибше."
+          "text": "Нічого з цього не написано спеціально для жінок — але для них воно звучить інакше. Жінки з ЦД1 живуть у щомісячному припливі й відпливі чутливості до інсуліну: у другій половині циклу (лютеїнова фаза) чутливість падає, а глюкоза схильна бути вищою й мінливішою. З іншого боку репродуктивних років, нідерландське опитування 2025 року за участю 159 жінок із ЦД1 показало, що близько двох третин помітили помірну або виражену зміну контролю глюкози після менопаузи — 42% сказали, що вона стала вищою, хоча 20% сказали, що нижчою, — і це в період, коли падіння естрогену додає інсулінорезистентності та вісцеральної ваги. Тож інструмент контролю ожиріння, який також захищає серце, нирки й печінку, напряму стосується жінок середнього віку — із чесним застереженням, що жінки давно недостатньо представлені в дослідженнях ліків і пристроїв при ЦД1, тож це розмова, яку треба індивідуалізувати, а не призначення, яке можна припускати. Якщо перименопауза — частина вашої картини, мій допис про [перименопаузу та рівень цукру](/ua/blog/perimenopause-diabetes-blood-sugar/) розкриває це глибше."
         },
         {
           "t": "h",
@@ -15100,8 +15100,8 @@ export const POSTS = [
               "url": "https://diatribe.org/diabetes-management/your-guide-2026-ada-standards-care"
             },
             {
-              "claim": "Близько двох третин жінок із діабетом 1 типу повідомляють про гірший контроль глюкози після менопаузи.",
-              "detail": "У поперечному опитуванні 2025 року за участю 159 жінок із діабетом 1 типу в Нідерландах близько двох третин повідомили, що регуляція глюкози після менопаузи відчувалася гіршою. Окремо контрольовані дослідження показують, що чутливість до інсуліну падає в лютеїновій (другій) половині менструального циклу, підвищуючи середню глюкозу й час над цільовим діапазоном. Обидва — спостережні або фізіологічні висновки, а не дослідження лікування.",
+              "claim": "Близько двох третин жінок із діабетом 1 типу повідомляють про зміну контролю глюкози після менопаузи — найчастіше, але не завжди, у бік підвищення.",
+              "detail": "У поперечному опитуванні 2025 року за участю 159 жінок із діабетом 1 типу в Нідерландах 67,4% повідомили про помірні або виражені зміни регуляції глюкози після менопаузи. Напрям не був однаковим: 41,9% відчули вищу глюкозу, 19,6% — нижчу, а 38,5% не помітили змін. Окремо контрольовані дослідження показують, що чутливість до інсуліну падає в лютеїновій (другій) половині менструального циклу, підвищуючи середню глюкозу й час над цільовим діапазоном. Обидва — спостережні або фізіологічні висновки, а не дослідження лікування.",
               "cite": "Diabetologia · Поперечне опитування, 2025",
               "url": "https://link.springer.com/article/10.1007/s00125-025-06518-z"
             }
