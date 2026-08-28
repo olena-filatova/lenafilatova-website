@@ -104,5 +104,5 @@ so they would have no Jira tools. Pause or delete it from the Routines list.
 | 56 | 2026-06-26 | `type-2-diabetes-research` | done | 2026-08-27 | OPS-370 |
 | 57 | 2026-06-20 | `perimenopause-diabetes-blood-sugar` | done | 2026-08-27 | OPS-370 |
 | 58 | 2026-06-14 | `collagen-and-skin` | done | 2026-08-27 | OPS-370 |
-| 59 | 2026-06-12 | `perimenopause-weight-myths` | pending | — | — |
-| 60 | 2026-06-03 | `reading-glucose-patterns` | pending | — | — |
+| 59 | 2026-06-12 | `perimenopause-weight-myths` | done | 2026-08-28 | OPS-370 |
+| 60 | 2026-06-03 | `reading-glucose-patterns` | done | 2026-08-28 | OPS-370 |
