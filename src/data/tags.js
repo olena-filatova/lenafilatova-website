@@ -174,6 +174,7 @@ export const TAGS = [
     key: 'type-1-diabetes', group: 'diabetes',
     en: 'Type 1 diabetes', ua: 'Діабет 1 типу',
     posts: [
+      'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
       'hrt-type-1-diabetes-evidence',
@@ -204,6 +205,7 @@ export const TAGS = [
     key: 'blood-sugar', group: 'diabetes',
     en: 'Blood sugar', ua: 'Цукор у крові',
     posts: [
+      'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'zone-2-or-hiit-after-40',
       'night-sweats-or-hypo',
@@ -246,6 +248,7 @@ export const TAGS = [
     key: 'cgm', group: 'diabetes',
     en: 'CGM & sensors', ua: 'CGM і сенсори',
     posts: [
+      'how-to-read-cgm-during-workout',
       'night-sweats-or-hypo',
       'does-weight-training-raise-blood-sugar',
     ],
@@ -276,6 +279,7 @@ export const TAGS = [
     key: 'glucose-variability', group: 'diabetes',
     en: 'Unstable blood sugars', ua: 'Нестабільні цукри',
     posts: [
+      'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
       'eating-around-training-blood-sugar',
@@ -436,6 +440,7 @@ export const TAGS = [
     key: 'strength-training', group: 'movement',
     en: 'Strength training', ua: 'Силові тренування',
     posts: [
+      'how-to-read-cgm-during-workout',
       'zone-2-or-hiit-after-40',
       'creatine-women-over-40',
       'strength-training-perimenopause-beginners',
@@ -448,6 +453,7 @@ export const TAGS = [
     key: 'cardio', group: 'movement',
     en: 'Cardio', ua: 'Кардіо',
     posts: [
+      'how-to-read-cgm-during-workout',
       'zone-2-or-hiit-after-40',
       'does-weight-training-raise-blood-sugar',
       'cortisol-belly-perimenopause',
