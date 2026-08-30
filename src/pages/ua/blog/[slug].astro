@@ -18,7 +18,10 @@ const a = post.ua;
   description={a.metaDesc || a.excerpt}
   canonical={`/ua/blog/${post.slug}/`}
   ogImage={post.image}
+  ogImageAlt={a.imageAlt}
   ogType="article"
+  publishedTime={post.date}
+  modifiedTime={post.updated || post.date}
   jsonld={buildJsonLd(post, 'ua')}
   alternates={{ en: `/blog/${post.slug}/`, ua: `/ua/blog/${post.slug}/` }}
   readingProgress

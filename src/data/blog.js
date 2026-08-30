@@ -42,6 +42,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A bar chart headed \u201cIf insulin were the prize worth protecting, the money would not be moving like this.\u201d A long bar marks the $2.9bn one insulin maker paid for a single drug whose purpose is to delay type 1 diabetes; a much shorter bar marks the $320m a year spent on type 1 research by the US Special Diabetes Program and Breakthrough T1D combined.",
       "title": "Does the drug industry actually want a cure for type 1 diabetes?",
       "seoTitle": "Is Pharma Hiding a Type 1 Diabetes Cure?",
       "metaDesc": "Many with type 1 believe pharma profits too much from insulin to want a cure. I followed the money — the accounts, the deals, and what the NHS now funds.",
@@ -386,6 +387,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "\u0421\u0442\u043e\u0432\u043f\u0447\u0430\u0441\u0442\u0430 \u0434\u0456\u0430\u0433\u0440\u0430\u043c\u0430 \u0456\u0437 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u043e\u043c \u00ab\u042f\u043a\u0431\u0438 \u0456\u043d\u0441\u0443\u043b\u0456\u043d \u0431\u0443\u0432 \u043f\u0440\u0438\u0437\u043e\u043c, \u0432\u0430\u0440\u0442\u0438\u043c \u0437\u0430\u0445\u0438\u0441\u0442\u0443, \u0433\u0440\u043e\u0448\u0456 \u0440\u0443\u0445\u0430\u043b\u0438\u0441\u044f \u0431 \u043d\u0435 \u0442\u0430\u043a\u00bb. \u0414\u043e\u0432\u0433\u0430 \u0441\u043c\u0443\u0433\u0430 \u043f\u043e\u0437\u043d\u0430\u0447\u0430\u0454 2,9 \u043c\u043b\u0440\u0434 \u0434\u043e\u043b\u0430\u0440\u0456\u0432, \u044f\u043a\u0456 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u043a \u0456\u043d\u0441\u0443\u043b\u0456\u043d\u0443 \u0437\u0430\u043f\u043b\u0430\u0442\u0438\u0432 \u0437\u0430 \u043e\u0434\u0438\u043d \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442, \u043f\u0440\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f \u044f\u043a\u043e\u0433\u043e \u2014 \u0432\u0456\u0434\u0442\u0435\u0440\u043c\u0456\u043d\u0443\u0432\u0430\u0442\u0438 \u0434\u0456\u0430\u0431\u0435\u0442 1 \u0442\u0438\u043f\u0443; \u043d\u0430\u0431\u0430\u0433\u0430\u0442\u043e \u043a\u043e\u0440\u043e\u0442\u0448\u0430 \u2014 320 \u043c\u043b\u043d \u0434\u043e\u043b\u0430\u0440\u0456\u0432 \u043d\u0430 \u0440\u0456\u043a, \u044f\u043a\u0456 \u0440\u0430\u0437\u043e\u043c \u0432\u0438\u0442\u0440\u0430\u0447\u0430\u044e\u0442\u044c \u043d\u0430 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u043d\u044f \u0434\u0456\u0430\u0431\u0435\u0442\u0443 1 \u0442\u0438\u043f\u0443 US Special Diabetes Program \u0442\u0430 Breakthrough T1D.",
       "title": "Чи справді фармкомпанії хочуть вилікувати діабет 1 типу?",
       "seoTitle": "Чи приховує фарма ліки від діабету 1 типу?",
       "metaDesc": "Багато людей з діабетом 1 типу вважають, що фармі надто вигідний інсулін. Я пройшла за грошима — звітність, угоди і те, що вже оплачує NHS.",
