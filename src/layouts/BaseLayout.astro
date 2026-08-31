@@ -16,7 +16,18 @@ const {
   description,
   canonical,       // absolute path, e.g. '/about'
   ogImage = '/images/lena-filatova-womens-health-coach-over-40.jpg',
+  // OPS-300: alt text for the share image. Facebook and LinkedIn read it for
+  // screen-reader users on the preview card, and it is the one piece of the
+  // og:image set that cannot be derived — blog posts and recipes already carry
+  // per-language alt text for their hero, so they pass it through.
+  ogImageAlt,
   ogType = 'website',
+  // OPS-300: article:published_time / article:modified_time. Only meaningful
+  // when ogType === 'article'; a page that has no dates simply omits them.
+  // ISO date (YYYY-MM-DD) is a valid value — the spec wants ISO 8601 and a
+  // date without a time is ISO 8601.
+  publishedTime,
+  modifiedTime,
   jsonld,          // optional object → <script type="application/ld+json">
   showList = false, // recipe pages: show the shopping-list button in the header
   enHref, uaHref,   // recipe pages: where the EN/UA toggle points
@@ -54,6 +65,13 @@ const altUa = alternates && new URL(slashed(alternates.ua), Astro.site).href;
 // manifest (a hero photo not supplied yet) falls back to the safe square card.
 const ogDim = DIMS[ogImage];
 const twitterCard = ogDim && ogDim.w / ogDim.h >= 1.4 ? 'summary_large_image' : 'summary';
+// OPS-300: og:locale is a POSIX-style locale, not a bare language code, and the
+// site is written in British English rather than American. The alternate is
+// only declared where an alternate page actually exists — the same condition
+// that governs hreflang above, so the two can never disagree.
+const OG_LOCALE = { en: 'en_GB', ua: 'uk_UA' };
+const ogLocale = OG_LOCALE[lang] || OG_LOCALE.en;
+const ogLocaleAlt = lang === 'ua' ? OG_LOCALE.en : OG_LOCALE.ua;
 // Preview deploys (base != '/') must never be indexed — they'd compete with
 // the live domain. Flips off automatically when `base` is dropped at cutover.
 const isPreview = import.meta.env.BASE_URL !== '/';
@@ -68,6 +86,11 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     <title>{title}</title>
     <meta name="description" content={description} />
     {(isPreview || noindex) && <meta name="robots" content="noindex" />}
+    {/* OPS-300: brand magenta (--accent in global.css) in the mobile browser
+        chrome — Chrome on Android and Safari on iOS tint the address bar with
+        it. Hard-coded because <meta> cannot read a CSS custom property; if the
+        accent changes in global.css, change it here too. */}
+    <meta name="theme-color" content="#B23A63" />
     <link rel="icon" href={FAVICON} />
     <link rel="apple-touch-icon" href={`${B}images/apple-touch-icon.png`} />
     <link rel="canonical" href={canonicalUrl} />
@@ -101,7 +124,27 @@ const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={ogImageUrl} />
+    {/* OPS-300: the intrinsic size is already known here — it is what picks the
+        Twitter card type below — so declaring it costs nothing and lets a
+        scraper reserve the right box instead of reflowing the preview once the
+        image arrives. Anything not in the manifest (a hero photo Lena has not
+        supplied yet) simply omits the pair rather than guessing. */}
+    {ogDim && <meta property="og:image:width" content={String(ogDim.w)} />}
+    {ogDim && <meta property="og:image:height" content={String(ogDim.h)} />}
+    {ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
     <meta property="og:site_name" content="Lena Filatova" />
+    <meta property="og:locale" content={ogLocale} />
+    {alternates && <meta property="og:locale:alternate" content={ogLocaleAlt} />}
+    {ogType === 'article' && publishedTime && (
+      <meta property="article:published_time" content={publishedTime} />
+    )}
+    {ogType === 'article' && modifiedTime && (
+      <meta property="article:modified_time" content={modifiedTime} />
+    )}
+    {/* No twitter:site / twitter:creator. The OPS-300 brief asked for them, but
+        there is no X account for the brand or for Lena — SOCIALS in site.js is
+        Instagram and Facebook. Both tags take an @handle and an invented or
+        wrong one is worse than none, so they stay out until an account exists. */}
     <meta name="twitter:card" content={twitterCard} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
