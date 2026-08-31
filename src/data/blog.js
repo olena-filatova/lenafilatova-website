@@ -2789,7 +2789,7 @@ export const POSTS = [
             {
               "claim": "The role of androgens in female-pattern hair loss is not settled, and other causes must be excluded before it is diagnosed.",
               "detail": "A review of female-pattern hair loss describing miniaturisation — the progressive conversion of terminal follicles to vellus-like follicles, with shortened anagen and an extended empty (kenogen) phase — and stating that the role of androgens is not yet clear, since the condition occurs in some women with normal circulating androgens. It sets out the differential diagnosis (telogen effluvium, thyroid dysfunction, raised prolactin, iron deficiency), notes the European Consensus recommendation of free androgen index and prolactin as screening tests with a two-month pause from hormonal contraceptives, and describes topical minoxidil 2% twice daily or 5% foam once daily as first-line, requiring at least 12 months before efficacy is judged. Finasteride at standard doses was ineffective in postmenopausal women.",
-              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "cite": "Bhat YJ et al., Female Pattern Hair Loss — An Update · Indian Dermatol Online J 2020;11(4)",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
             },
             {
@@ -2975,7 +2975,7 @@ export const POSTS = [
             {
               "claim": "Роль андрогенів у андрогенетичному випадінні у жінок не з'ясована, і перед діагнозом треба виключити інші причини.",
               "detail": "Огляд андрогенетичного випадіння волосся у жінок, який описує мініатюризацію — поступове перетворення термінальних фолікулів на пушкові зі вкороченим анагеном і подовженою порожньою фазою (кеногеном) — і зазначає, що роль андрогенів досі не з'ясована, оскільки стан трапляється в частини жінок із нормальним рівнем циркулюючих андрогенів. Огляд подає диференційну діагностику (телогенова алопеція, порушення щитоподібної залози, підвищений пролактин, дефіцит заліза), наводить рекомендацію Європейського консенсусу щодо індексу вільних андрогенів і пролактину як скринінгу з перервою в два місяці після гормональних контрацептивів і описує топічний міноксидил 2% двічі на день або 5% піну раз на день як першу лінію, для оцінки якої потрібно щонайменше 12 місяців. Фінастерид у стандартних дозах був неефективним у жінок у постменопаузі.",
-              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "cite": "Bhat YJ et al., Female Pattern Hair Loss — An Update · Indian Dermatol Online J 2020;11(4)",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
             },
             {
@@ -16793,8 +16793,8 @@ export const POSTS = [
             },
             {
               "claim": "When cortisol drives fat storage, it acts preferentially on visceral belly fat.",
-              "detail": "Visceral (intra-abdominal) fat carries two-to-four times the density of glucocorticoid receptors found in subcutaneous fat, and shows greater local activity of 11β-HSD1, the enzyme that regenerates active cortisol within the tissue. This is the biological reason chronically elevated cortisol tends to accumulate centrally rather than under the skin.",
-              "cite": "Molecular & Cellular Endocrinology · Review, 2014",
+              "detail": "Visceral (intra-abdominal) fat carries two-to-four times the density of glucocorticoid receptors found in subcutaneous fat, and glucocorticoid binding and receptor expression are 2- to 4-fold greater in omental than subcutaneous tissue. On 11β-HSD1, the enzyme that regenerates active cortisol within the tissue, the review is more guarded than this article previously was: one study found higher activity in omental tissue, others found no difference in fresh tissue, and the authors conclude it is still unclear how much locally produced cortisol contributes to visceral accumulation. The receptor-density difference is the better-established half of the mechanism.",
+              "cite": "Lee MJ et al., Biochimica et Biophysica Acta · Review, 2014",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
             },
             {
@@ -16960,8 +16960,8 @@ export const POSTS = [
             },
             {
               "claim": "Коли кортизол стимулює накопичення жиру, він діє переважно на вісцеральний жир живота.",
-              "detail": "Вісцеральний (внутрішньочеревний) жир має у два–чотири рази вищу щільність глюкокортикоїдних рецепторів, ніж підшкірний, і вищу місцеву активність 11β-HSD1 — ферменту, який відновлює активний кортизол усередині тканини. Це біологічна причина, чому хронічно підвищений кортизол схильний накопичуватися центрально, а не під шкірою.",
-              "cite": "Molecular & Cellular Endocrinology · Огляд, 2014",
+              "detail": "Вісцеральний (внутрішньочеревний) жир має у два–чотири рази вищу щільність глюкокортикоїдних рецепторів, ніж підшкірний, а зв'язування глюкокортикоїдів і експресія рецепторів у сальниковій тканині у 2–4 рази вищі, ніж у підшкірній. Щодо 11β-HSD1 — ферменту, який відновлює активний кортизол усередині тканини, — огляд обережніший, ніж була ця стаття раніше: одне дослідження виявило вищу активність у сальниковій тканині, інші не знайшли різниці у свіжій тканині, і автори роблять висновок, що досі не ясно, наскільки локально утворений кортизол сприяє вісцеральному накопиченню. Різниця в щільності рецепторів — краще підтверджена половина механізму.",
+              "cite": "Lee MJ та ін., Biochimica et Biophysica Acta · Огляд, 2014",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
             },
             {
@@ -17098,7 +17098,7 @@ export const POSTS = [
             {
               "claim": "Two thirds of women with type 1 diabetes reported changed glucose regulation after menopause.",
               "detail": "A cross-sectional online survey of 159 postmenopausal women with type 1 diabetes in the Netherlands (aged 45–65, at least 12 months without periods) found 67.4% reported moderate to severe postmenopausal changes in glucose regulation: 61.6% more hyperglycaemic events, 55.0% more glucose fluctuations, 41.9% higher glucose overall and 38.5% more hypoglycaemic events. Greater menopausal symptom severity was associated with perceived glycaemic change (adjusted OR 1.04; 95% CI 1.01–1.08; p=0.014). The authors flag convenience sampling, recall bias across a 1–20 year window, and a smaller sample than planned.",
-              "cite": "Cross-sectional survey, Netherlands · PMC12534243",
+              "cite": "Diabetologia · Cross-sectional survey, Netherlands, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
             }
           ]
@@ -17216,7 +17216,7 @@ export const POSTS = [
             {
               "claim": "Дві третини жінок із діабетом 1 типу повідомили про зміни в регуляції глюкози після менопаузи.",
               "detail": "Перехресне онлайн-опитування 159 жінок із діабетом 1 типу в постменопаузі в Нідерландах (45–65 років, щонайменше 12 місяців без менструацій) показало, що 67,4% повідомили про помірні або виражені зміни в регуляції глюкози після менопаузи: 61,6% — більше епізодів гіперглікемії, 55,0% — більше коливань глюкози, 41,9% — вищий рівень глюкози загалом і 38,5% — більше епізодів гіпоглікемії. Більша важкість менопаузальних симптомів була пов’язана з відчутними змінами глікемії (скоригований ВШ 1,04; 95% ДІ 1,01–1,08; p=0,014). Автори наголошують на зручній вибірці, похибці пригадування за період 1–20 років і меншій за заплановану вибірці.",
-              "cite": "Перехресне опитування, Нідерланди · PMC12534243",
+              "cite": "Diabetologia · Перехресне опитування, Нідерланди, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
             }
           ]
@@ -18106,7 +18106,7 @@ export const POSTS = [
             {
               "claim": "Concentrated fructose drives metabolic harm.",
               "detail": "A 2024 literature review summarised evidence that dietary fructose, in excess, is a potent driver of hepatic fat production, fatty liver, insulin resistance and raised triglycerides — the reason concentrated fructose sources such as agave nectar and syrups are not a metabolic improvement over sugar, even though fructose from whole fruit is not a concern.",
-              "cite": "Nutrients · Literature review, 2024",
+              "cite": "Agarwal V et al., Cureus · Literature review, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663027/"
             },
             {
@@ -18490,7 +18490,7 @@ export const POSTS = [
             {
               "claim": "Концентрована фруктоза шкодить метаболізму.",
               "detail": "Огляд літератури 2024 року узагальнив докази, що харчова фруктоза в надлишку є потужним двигуном утворення жиру в печінці, жирової хвороби печінки, інсулінорезистентності та підвищених тригліцеридів — саме тому концентровані джерела фруктози, як-от сироп агави та інші сиропи, не є метаболічним покращенням порівняно з цукром, хоча фруктоза з цілих фруктів не викликає занепокоєння.",
-              "cite": "Nutrients · Огляд літератури, 2024",
+              "cite": "Agarwal V та ін., Cureus · Огляд літератури, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663027/"
             },
             {
@@ -20462,7 +20462,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Total weight and body composition are not the same thing. During the menopause transition, fat redistributes, often significantly, without the overall number on the scale changing at all. The fat that oestrogen had been directing to the hips, thighs and buttocks for decades starts migrating inward instead, accumulating around the organs rather than under the skin. Visceral fat, the kind that wraps around the liver, pancreas and intestines, increases from around 5–8% of total body fat before the transition to 15–20% after it."
+          "text": "Total weight and body composition are not the same thing. During the menopause transition, fat redistributes, often significantly, without the overall number on the scale changing at all. The fat that oestrogen had been directing to the hips, thighs and buttocks for decades starts migrating inward instead, accumulating around the organs rather than under the skin. Visceral fat, the kind that wraps around the liver, pancreas and intestines, [increases from around 5–8% of total body fat before the transition to 15–20% after it](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/)."
         },
         {
           "t": "p",
@@ -20526,7 +20526,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "That means there are levers, and it’s worth knowing what they are. HRT is one of them: research shows [it can partially reverse visceral fat accumulation](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/) and improve metabolic markers, and if you’re noticing fat redistribution or finding it increasingly difficult to manage your weight despite consistent habits, it’s a conversation worth having with a specialist who understands hormonal health properly. This is a decision for you and your doctor, not a recommendation from me, but the option exists and is too often not raised until much later than it could be."
+          "text": "That means there are levers, and it’s worth knowing what they are. HRT is one of them, though the evidence is softer than it is usually presented: the same review reports that postmenopausal women taking hormone therapy had a body-fat profile closest to premenopausal women, while also noting that hormone therapy did not prevent the weight gain of the transition itself. That is an observed association in a narrative review, not a trial showing HRT reverses visceral fat. If you’re noticing fat redistribution or finding it increasingly difficult to manage your weight despite consistent habits, it’s a conversation worth having with a specialist who understands hormonal health properly. This is a decision for you and your doctor, not a recommendation from me, but the option exists and is too often not raised until much later than it could be."
         },
         {
           "t": "h",
@@ -20582,7 +20582,7 @@ export const POSTS = [
             {
               "claim": "Cortisol acts preferentially on visceral fat — which is why chronic stress settles at the middle.",
               "detail": "Reviews of glucocorticoid action show that cortisol acts preferentially on visceral adipose tissue, which carries a higher density of cortisol receptors than subcutaneous fat, driving central fat accumulation under chronic physiological stress.",
-              "cite": "Glucocorticoids & visceral adiposity · Review",
+              "cite": "Lengton R et al., Clinical Obesity · Review, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11907100/"
             },
             {
@@ -20645,7 +20645,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Загальна вага та склад тіла — це не одне й те саме. Під час менопаузального переходу жир перерозподіляється, часто суттєво, при цьому загальна цифра на терезах може взагалі не змінитися. Жир, який естроген десятиліттями спрямовував на стегна, сідниці й задню поверхню ніг, починає мігрувати всередину, накопичуючись навколо органів, а не під шкірою. Вісцеральний жир, той, що огортає печінку, підшлункову й кишечник, зростає приблизно з 5–8% загального жиру тіла до переходу до 15–20% після нього."
+          "text": "Загальна вага та склад тіла — це не одне й те саме. Під час менопаузального переходу жир перерозподіляється, часто суттєво, при цьому загальна цифра на терезах може взагалі не змінитися. Жир, який естроген десятиліттями спрямовував на стегна, сідниці й задню поверхню ніг, починає мігрувати всередину, накопичуючись навколо органів, а не під шкірою. Вісцеральний жир, той, що огортає печінку, підшлункову й кишечник, [зростає приблизно з 5–8% загального жиру тіла до переходу до 15–20% після нього](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/)."
         },
         {
           "t": "p",
@@ -20709,7 +20709,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Це означає, що важелі є, і варто знати, які саме. ЗГТ — один із них: дослідження показують, що вона може [частково повернути назад накопичення вісцерального жиру](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/) й покращити метаболічні показники, і якщо ви помічаєте перерозподіл жиру або дедалі важче керуєте вагою попри послідовні звички, це розмова, яку варто мати з фахівцем, що добре розуміється на гормональному здоровʼї. Це рішення для вас і вашого лікаря, а не порада від мене, але цей варіант існує й надто часто не порушується аж до значно пізнішого часу, ніж міг би."
+          "text": "Це означає, що важелі є, і варто знати, які саме. ЗГТ — один із них, хоча доказова база тут м'якша, ніж її зазвичай подають: той самий огляд повідомляє, що жінки в постменопаузі, які приймали гормональну терапію, мали склад жирової тканини, найближчий до жінок у пременопаузі, — і водночас зазначає, що гормональна терапія не запобігла набору ваги під час самого переходу. Це спостережувана асоціація в оглядовій статті, а не випробування, яке показало б, що ЗГТ повертає назад вісцеральний жир. Якщо ви помічаєте перерозподіл жиру або дедалі важче керуєте вагою попри послідовні звички, це розмова, яку варто мати з фахівцем, що добре розуміється на гормональному здоровʼї. Це рішення для вас і вашого лікаря, а не порада від мене, але цей варіант існує й надто часто не порушується аж до значно пізнішого часу, ніж міг би."
         },
         {
           "t": "h",
@@ -20765,7 +20765,7 @@ export const POSTS = [
             {
               "claim": "Кортизол діє переважно на вісцеральний жир — тому хронічний стрес осідає саме на талії.",
               "detail": "Огляди дії глюкокортикоїдів показують, що кортизол діє переважно на вісцеральну жирову тканину, яка має вищу щільність кортизолових рецепторів, ніж підшкірна, сприяючи центральному накопиченню жиру за хронічного фізіологічного стресу.",
-              "cite": "Глюкокортикоїди та вісцеральне ожиріння · Огляд",
+              "cite": "Lengton R та ін., Clinical Obesity · Огляд, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11907100/"
             },
             {
