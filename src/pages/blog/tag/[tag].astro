@@ -2,6 +2,8 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import TagPageBody from '../../../components/TagPageBody.astro';
 import { POSTS } from '../../../data/blog.js';
+import { hasHero } from '../../../data/blog-lib.js';
+import DIMS from '../../../data/image-dims.json';
 import { resolveTags, tagJsonLd, tagPath, UI, MIN_INDEXABLE } from '../../../data/tags-lib.js';
 
 export function getStaticPaths() {
@@ -18,7 +20,7 @@ const label = tag.en;
   title={`${label} — Lena Filatova`}
   description={tag.intro?.en || t.metaDesc(label, tag.count)}
   canonical={tagPath('en', tag.key)}
-  ogImage={tag.resolved[0].image}
+  ogImage={hasHero(tag.resolved[0], DIMS) ? tag.resolved[0].image : undefined}
   jsonld={tagJsonLd(tag, 'en', t)}
   alternates={{ en: tagPath('en', tag.key), ua: tagPath('ua', tag.key) }}
   noindex={tag.count < MIN_INDEXABLE}
