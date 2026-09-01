@@ -122,6 +122,20 @@ image, the deliverable is a *brief*, filed as a comment on **OPS-315**:
 - an "avoid" note, written from *this* article's argument
 - draft alt text
 
+**A missing hero no longer blocks the post.** It used to: `check-links` counted
+it as a hard failure, so a finished post could not merge until someone made the
+picture — while this file forbade making one. Those two rules could not both be
+satisfied, and the result was a stalled PR per post, seven deep at one point.
+Now a post whose hero is absent from `image-dims.json` renders with **no hero
+figure at all**, and its `og:image`, `twitter:image` and JSON-LD `image` fall
+back to `DEFAULT_SHARE_IMAGE` in `site.js`. Nothing 404s, so `check-links`
+passes and reports the gap under *Heroes not yet supplied* instead of failing.
+The post ships the day it is written; the picture lands later as a one-line PR.
+
+This does not soften the rule above — write the brief. It removes the deadlock,
+not the deliverable.
+
+
 Two things that have gone wrong doing this, both worth avoiding:
 
 1. **Look at the actual JPEGs before writing a brief, not just their `imageAlt`

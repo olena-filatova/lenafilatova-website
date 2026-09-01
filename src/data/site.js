@@ -2,6 +2,11 @@
 // This is the "data" half of the data+template split: pages render from here,
 // so translating or editing copy never means touching layout code.
 
+// The share image used by any page that has none of its own. A blog post whose
+// hero has not been supplied yet falls back to this rather than pointing
+// og:image at a file that does not exist (OPS-315).
+export const DEFAULT_SHARE_IMAGE = '/images/lena-filatova-womens-health-coach-over-40.jpg';
+
 export const NAV = {
   en: { blog: 'Blog', resources: 'Resources', recipes: 'Recipes', about: 'About', contact: 'Contact', subscribe: 'Subscribe' },
   ua: { blog: 'Блог', resources: 'Ресурси', recipes: 'Рецепти', about: 'Про мене', contact: 'Контакти', subscribe: 'Підписатися' },

@@ -227,6 +227,18 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, '```\n' + lines.join('\n') + '\n```\n');
 }
 
+// Heroes not yet supplied. Since a post with no hero renders without one and
+// shares under the default image, nothing is broken and nothing here fails the
+// build — but a post going out without its picture should still be visible in
+// the run summary, which is the one useful thing the old hard failure did.
+{
+  const { POSTS } = await import('../src/data/blog.js');
+  const pending = POSTS.filter((p) => p.image && !fs.existsSync(path.join(DIST, p.image)));
+  say();
+  say(`Heroes not yet supplied: ${pending.length}`);
+  for (const p of pending) say(`  ${p.image}  (${p.slug}) — brief goes on OPS-315`);
+}
+
 const hardFailures = brokenInternal.length + brokenImages.length;
 if (hardFailures) {
   console.error(`\n${hardFailures} broken internal link(s) or missing image(s).`);
