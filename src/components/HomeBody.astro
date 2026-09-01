@@ -15,6 +15,8 @@
 // stickiest content on the site.
 import { HOME, RESOURCES } from '../data/site.js';
 import { POSTS } from '../data/blog.js';
+import { hasHero } from '../data/blog-lib.js';
+import DIMS from '../data/image-dims.json';
 import Newsletter from './Newsletter.astro';
 
 const { lang = 'en' } = Astro.props;
@@ -132,7 +134,7 @@ const toolHref = (card) => {
         <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
       </div>
       <a class="ed-feat" href={`${L}blog/${latestPost.slug}/`}>
-        <div class="ph"><img src={img(latestPost.image)} alt={latestPostT.title} loading="lazy" /></div>
+        <div class="ph">{hasHero(latestPost, DIMS) && <img src={img(latestPost.image)} alt={latestPostT.title} loading="lazy" />}</div>
         <div class="body">
           <span class="cat">{latestPostT.cat}</span>
           <h3>{latestPostT.title}</h3>
