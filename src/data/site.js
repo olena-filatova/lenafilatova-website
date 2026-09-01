@@ -2,6 +2,11 @@
 // This is the "data" half of the data+template split: pages render from here,
 // so translating or editing copy never means touching layout code.
 
+// The share image used by any page that has none of its own. A blog post whose
+// hero has not been supplied yet falls back to this rather than pointing
+// og:image at a file that does not exist (OPS-315).
+export const DEFAULT_SHARE_IMAGE = '/images/lena-filatova-womens-health-coach-over-40.jpg';
+
 export const NAV = {
   en: { blog: 'Blog', resources: 'Resources', recipes: 'Recipes', about: 'About', contact: 'Contact', subscribe: 'Subscribe' },
   ua: { blog: 'Блог', resources: 'Ресурси', recipes: 'Рецепти', about: 'Про мене', contact: 'Контакти', subscribe: 'Підписатися' },
@@ -494,8 +499,8 @@ export const RESOURCES = {
       band: '#e9eaee', head: '#3f4a63',
       href: '/t1d-cure-trials/', hrefUa: '/t1d-cure-trials-ua/',
       guideHref: '/blog/type-1-diabetes-cure-trials/', guideHrefUa: '/ua/blog/type-1-diabetes-cure-trials/',
-      en: { band: 'Type 1 cure research', kicker: 'Tracker & guide', title: 'Type 1 diabetes cure trials tracker', desc: '14 cure and disease-modifying trials side by side — filter by country, phase, approach, and whether each is recruiting or free to join. With an honest guide to what is actually working.', cta: 'Open the tracker', guide: 'Read the guide: what is actually working in 2026' },
-      ua: { band: 'Дослідження лікування діабету 1 типу', kicker: 'Трекер і гайд', title: 'Трекер досліджень щодо лікування діабету 1 типу', desc: '14 досліджень щодо лікування та модифікації перебігу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір та чи безкоштовна участь. Плюс чесний путівник тим, що справді працює.', cta: 'Відкрити трекер', guide: 'Читати гайд: що справді працює у 2026 році' },
+      en: { band: 'Type 1 cure research', kicker: 'Tracker & guide', title: 'Type 1 diabetes cure trials tracker', desc: '20 cure and disease-modifying trials side by side — filter by country, phase, approach, and whether each is recruiting or free to join. With an honest guide to what is actually working.', cta: 'Open the tracker', guide: 'Read the guide: what is actually working in 2026' },
+      ua: { band: 'Дослідження лікування діабету 1 типу', kicker: 'Трекер і гайд', title: 'Трекер досліджень щодо лікування діабету 1 типу', desc: '20 досліджень щодо лікування та модифікації перебігу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір та чи безкоштовна участь. Плюс чесний путівник тим, що справді працює.', cta: 'Відкрити трекер', guide: 'Читати гайд: що справді працює у 2026 році' },
     },
   ],
 };

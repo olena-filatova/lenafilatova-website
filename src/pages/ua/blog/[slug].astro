@@ -2,7 +2,8 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import BlogPostBody from '../../../components/BlogPostBody.astro';
 import { POSTS } from '../../../data/blog.js';
-import { buildJsonLd, seoTitleOf } from '../../../data/blog-lib.js';
+import { buildJsonLd, seoTitleOf, hasHero } from '../../../data/blog-lib.js';
+import DIMS from '../../../data/image-dims.json';
 
 export function getStaticPaths() {
   return POSTS.map((post) => ({ params: { slug: post.slug }, props: { post } }));
@@ -17,9 +18,12 @@ const a = post.ua;
   title={seoTitleOf(a)}
   description={a.metaDesc || a.excerpt}
   canonical={`/ua/blog/${post.slug}/`}
-  ogImage={post.image}
+  ogImage={hasHero(post, DIMS) ? post.image : undefined}
+  ogImageAlt={hasHero(post, DIMS) ? a.imageAlt : undefined}
   ogType="article"
-  jsonld={buildJsonLd(post, 'ua')}
+  publishedTime={post.date}
+  modifiedTime={post.updated || post.date}
+  jsonld={buildJsonLd(post, 'ua', DIMS)}
   alternates={{ en: `/blog/${post.slug}/`, ua: `/ua/blog/${post.slug}/` }}
   readingProgress
   enHref={`${B}blog/${post.slug}/`}

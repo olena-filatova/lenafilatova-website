@@ -6,7 +6,7 @@
 // A reader arriving from the cloud should land somewhere that reads as a view
 // of the journal, not as a separate archive section.
 import DIMS from '../data/image-dims.json';
-import { UI as BLOG_UI } from '../data/blog-lib.js';
+import { UI as BLOG_UI, hasHero } from '../data/blog-lib.js';
 import { UI, tagPath } from '../data/tags-lib.js';
 import TagCloud from './TagCloud.astro';
 import '../styles/blog.css';
@@ -41,7 +41,7 @@ const intro = tag.intro?.[lang] || t.intro(label, tag.count);
       {tag.resolved.map((p) => (
         <a class="bcard" href={`${hub}${p.slug}/`}>
           <div class="thumb">
-            <img src={img(p.image)} alt="" loading="lazy" decoding="async" width={dim(p.image).w} height={dim(p.image).h} />
+            {hasHero(p, DIMS) && <img src={img(p.image)} alt="" loading="lazy" decoding="async" width={dim(p.image).w} height={dim(p.image).h} />}
             {p.comingSoon && <span class="soon">{bt.comingSoonBadge}</span>}
           </div>
           <div class="body">

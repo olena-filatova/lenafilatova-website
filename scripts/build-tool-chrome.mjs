@@ -145,7 +145,9 @@ function newsletter(lang) {
             data-mc-busy="${esc(t.nlBusy)}"
             data-mc-btn="${esc(t.nlBtn)}"
             data-mc-dwell="${MIN_DWELL_MS}"
-            data-mc-trap="${esc(HONEYPOT)}">
+            data-mc-trap="${esc(HONEYPOT)}"
+            data-mc-lang="${lang}"
+            data-mc-list="newsletter">
         <!-- Set from the page's language, never by the visitor. -->
         <input type="hidden" name="${esc(groupField)}" value="1" />
         <div class="nl-row">
