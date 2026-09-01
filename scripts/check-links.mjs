@@ -98,7 +98,14 @@ const CITATION_EXCEPTIONS = new Map([
 
 const citationWarnings = [];
 {
-  const { POSTS } = await import('../src/data/blog.js');
+  // Read the post files straight off disk rather than importing blog.js: that
+  // module assembles POSTS with import.meta.glob, which only exists under Vite,
+  // and this script runs on plain node. Order does not matter here.
+  const postsDir = new URL('../src/data/posts/', import.meta.url);
+  const POSTS = [];
+  for (const f of fs.readdirSync(postsDir).filter((f) => f.endsWith('.js')).sort()) {
+    POSTS.push((await import(new URL(f, postsDir))).default);
+  }
   const seen = new Set();
   for (const post of POSTS) {
     for (const lang of ['en', 'ua']) {
