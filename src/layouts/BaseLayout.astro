@@ -8,6 +8,7 @@ import Newsletter from '../components/Newsletter.astro';
 import CookieConsent from '../components/CookieConsent.astro';
 import LangSuggest from '../components/LangSuggest.astro';
 import DIMS from '../data/image-dims.json';
+import { DEFAULT_SHARE_IMAGE } from '../data/site.js';
 import '../styles/global.css';
 
 const {
@@ -15,7 +16,7 @@ const {
   title,
   description,
   canonical,       // absolute path, e.g. '/about'
-  ogImage = '/images/lena-filatova-womens-health-coach-over-40.jpg',
+  ogImage = DEFAULT_SHARE_IMAGE,
   // OPS-300: alt text for the share image. Facebook and LinkedIn read it for
   // screen-reader users on the preview card, and it is the one piece of the
   // og:image set that cannot be derived — blog posts and recipes already carry
