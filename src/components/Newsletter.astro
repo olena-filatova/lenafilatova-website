@@ -33,6 +33,12 @@
 //   copy         — partial override of the HOME[lang] nl* strings, for a page
 //                  whose signup is not the workbook one (the Dia.School waitlist
 //                  promises a different thing, so it must not say "workbook").
+// CONVERSION TRACKING (OPS-398). `data-mc-lang` and `data-mc-list` below are
+// read by public/lf-newsletter.js, which fires GA4's `generate_lead` event on a
+// successful signup. `list` is the page's Mailchimp tag where it has one (the
+// Dia.School waitlist), and 'newsletter' everywhere else, so the two can be
+// told apart in reporting without a second form.
+//
 //   tag          — Mailchimp tag applied to signups from this page (OPS-264), so
 //                  one audience can hold several lists' worth of intent. Omitted
 //                  everywhere else, which leaves the ordinary form byte-identical.
@@ -62,6 +68,8 @@ const B = import.meta.env.BASE_URL;
       data-mc-btn={t.nlBtn}
       data-mc-dwell={MIN_DWELL_MS}
       data-mc-trap={HONEYPOT}
+      data-mc-lang={lang}
+      data-mc-list={tag || 'newsletter'}
     >
       <!-- Set from the page tree, never by the visitor. -->
       <input type="hidden" name={groupField} value="1" />

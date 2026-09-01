@@ -545,6 +545,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Diabetes",
+      "imageAlt": "A bar chart headed \u201cIf insulin were the prize worth protecting, the money would not be moving like this.\u201d A long bar marks the $2.9bn one insulin maker paid for a single drug whose purpose is to delay type 1 diabetes; a much shorter bar marks the $320m a year spent on type 1 research by the US Special Diabetes Program and Breakthrough T1D combined.",
       "title": "Does the drug industry actually want a cure for type 1 diabetes?",
       "seoTitle": "Is Pharma Hiding a Type 1 Diabetes Cure?",
       "metaDesc": "Many with type 1 believe pharma profits too much from insulin to want a cure. I followed the money — the accounts, the deals, and what the NHS now funds.",
@@ -889,6 +890,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Діабет",
+      "imageAlt": "\u0421\u0442\u043e\u0432\u043f\u0447\u0430\u0441\u0442\u0430 \u0434\u0456\u0430\u0433\u0440\u0430\u043c\u0430 \u0456\u0437 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u043e\u043c \u00ab\u042f\u043a\u0431\u0438 \u0456\u043d\u0441\u0443\u043b\u0456\u043d \u0431\u0443\u0432 \u043f\u0440\u0438\u0437\u043e\u043c, \u0432\u0430\u0440\u0442\u0438\u043c \u0437\u0430\u0445\u0438\u0441\u0442\u0443, \u0433\u0440\u043e\u0448\u0456 \u0440\u0443\u0445\u0430\u043b\u0438\u0441\u044f \u0431 \u043d\u0435 \u0442\u0430\u043a\u00bb. \u0414\u043e\u0432\u0433\u0430 \u0441\u043c\u0443\u0433\u0430 \u043f\u043e\u0437\u043d\u0430\u0447\u0430\u0454 2,9 \u043c\u043b\u0440\u0434 \u0434\u043e\u043b\u0430\u0440\u0456\u0432, \u044f\u043a\u0456 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u043a \u0456\u043d\u0441\u0443\u043b\u0456\u043d\u0443 \u0437\u0430\u043f\u043b\u0430\u0442\u0438\u0432 \u0437\u0430 \u043e\u0434\u0438\u043d \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442, \u043f\u0440\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f \u044f\u043a\u043e\u0433\u043e \u2014 \u0432\u0456\u0434\u0442\u0435\u0440\u043c\u0456\u043d\u0443\u0432\u0430\u0442\u0438 \u0434\u0456\u0430\u0431\u0435\u0442 1 \u0442\u0438\u043f\u0443; \u043d\u0430\u0431\u0430\u0433\u0430\u0442\u043e \u043a\u043e\u0440\u043e\u0442\u0448\u0430 \u2014 320 \u043c\u043b\u043d \u0434\u043e\u043b\u0430\u0440\u0456\u0432 \u043d\u0430 \u0440\u0456\u043a, \u044f\u043a\u0456 \u0440\u0430\u0437\u043e\u043c \u0432\u0438\u0442\u0440\u0430\u0447\u0430\u044e\u0442\u044c \u043d\u0430 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u043d\u044f \u0434\u0456\u0430\u0431\u0435\u0442\u0443 1 \u0442\u0438\u043f\u0443 US Special Diabetes Program \u0442\u0430 Breakthrough T1D.",
       "title": "Чи справді фармкомпанії хочуть вилікувати діабет 1 типу?",
       "seoTitle": "Чи приховує фарма ліки від діабету 1 типу?",
       "metaDesc": "Багато людей з діабетом 1 типу вважають, що фармі надто вигідний інсулін. Я пройшла за грошима — звітність, угоди і те, що вже оплачує NHS.",
@@ -3292,7 +3294,7 @@ export const POSTS = [
             {
               "claim": "The role of androgens in female-pattern hair loss is not settled, and other causes must be excluded before it is diagnosed.",
               "detail": "A review of female-pattern hair loss describing miniaturisation — the progressive conversion of terminal follicles to vellus-like follicles, with shortened anagen and an extended empty (kenogen) phase — and stating that the role of androgens is not yet clear, since the condition occurs in some women with normal circulating androgens. It sets out the differential diagnosis (telogen effluvium, thyroid dysfunction, raised prolactin, iron deficiency), notes the European Consensus recommendation of free androgen index and prolactin as screening tests with a two-month pause from hormonal contraceptives, and describes topical minoxidil 2% twice daily or 5% foam once daily as first-line, requiring at least 12 months before efficacy is judged. Finasteride at standard doses was ineffective in postmenopausal women.",
-              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "cite": "Bhat YJ et al., Female Pattern Hair Loss — An Update · Indian Dermatol Online J 2020;11(4)",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
             },
             {
@@ -3478,7 +3480,7 @@ export const POSTS = [
             {
               "claim": "Роль андрогенів у андрогенетичному випадінні у жінок не з'ясована, і перед діагнозом треба виключити інші причини.",
               "detail": "Огляд андрогенетичного випадіння волосся у жінок, який описує мініатюризацію — поступове перетворення термінальних фолікулів на пушкові зі вкороченим анагеном і подовженою порожньою фазою (кеногеном) — і зазначає, що роль андрогенів досі не з'ясована, оскільки стан трапляється в частини жінок із нормальним рівнем циркулюючих андрогенів. Огляд подає диференційну діагностику (телогенова алопеція, порушення щитоподібної залози, підвищений пролактин, дефіцит заліза), наводить рекомендацію Європейського консенсусу щодо індексу вільних андрогенів і пролактину як скринінгу з перервою в два місяці після гормональних контрацептивів і описує топічний міноксидил 2% двічі на день або 5% піну раз на день як першу лінію, для оцінки якої потрібно щонайменше 12 місяців. Фінастерид у стандартних дозах був неефективним у жінок у постменопаузі.",
-              "cite": "Female Pattern Hair Loss — An Update · Int J Womens Dermatol 2020",
+              "cite": "Bhat YJ et al., Female Pattern Hair Loss — An Update · Indian Dermatol Online J 2020;11(4)",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7413422/"
             },
             {
@@ -11169,7 +11171,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "On the muscle side, the phenomenon is called anabolic resistance. [A review in Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described it clearly: the same dose of protein produces a smaller muscle-building response than it used to. You are not imagining that eating and training the way you did at thirty no longer works. It genuinely doesn’t. Muscle mass declines gradually from around thirty, and the rate of loss steepens across the menopause transition."
+          "text": "On the muscle side, the phenomenon is called anabolic resistance. [A 2016 review in Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described it clearly: the same dose of protein produces a smaller muscle-building response than it used to. You are not imagining that eating and training the way you did at thirty no longer works. It genuinely doesn’t. Muscle mass declines gradually from around thirty, and the rate of loss steepens across the menopause transition."
         },
         {
           "t": "p",
@@ -11395,8 +11397,8 @@ export const POSTS = [
             },
             {
               "claim": "Ageing muscle builds less from the same amount of protein — anabolic resistance.",
-              "detail": "A review in Current Opinion in Clinical Nutrition and Metabolic Care set out the blunted muscle protein synthesis response that older adults show after eating protein. It is the physiological reason that eating and training as you did in your thirties stops producing the same result, and the reason protein targets rise rather than fall with age.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Review, 2018",
+              "detail": "A 2016 review in Nutrients set out the blunted muscle protein synthesis response that older adults show after eating protein. It is the physiological reason that eating and training as you did in your thirties stops producing the same result, and the reason protein targets rise rather than fall with age.",
+              "cite": "Nutrients · Review, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
@@ -11514,7 +11516,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "З боку м’язів це явище називають анаболічною резистентністю. [Огляд у Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) описав його чітко: та сама доза білка дає менший приріст м’язового синтезу, ніж раніше. Вам не здається, що харчуватися й тренуватися так, як у тридцять, більше не працює. Справді не працює. М’язова маса поступово зменшується приблизно з тридцяти, а темп втрати різко зростає під час менопаузального переходу."
+          "text": "З боку м’язів це явище називають анаболічною резистентністю. [Огляд 2016 року в Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) описав його чітко: та сама доза білка дає менший приріст м’язового синтезу, ніж раніше. Вам не здається, що харчуватися й тренуватися так, як у тридцять, більше не працює. Справді не працює. М’язова маса поступово зменшується приблизно з тридцяти, а темп втрати різко зростає під час менопаузального переходу."
         },
         {
           "t": "p",
@@ -11740,8 +11742,8 @@ export const POSTS = [
             },
             {
               "claim": "З віком м’язи будують менше з тієї самої кількості білка — анаболічна резистентність.",
-              "detail": "Огляд у Current Opinion in Clinical Nutrition and Metabolic Care описав ослаблену відповідь м’язового синтезу білка після їжі в людей старшого віку. Це фізіологічна причина, чому харчуватися й тренуватися як у тридцять перестає давати той самий результат, і чому норми білка з віком зростають, а не падають.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Огляд, 2018",
+              "detail": "Огляд 2016 року в Nutrients описав ослаблену відповідь м’язового синтезу білка після їжі в людей старшого віку. Це фізіологічна причина, чому харчуватися й тренуватися як у тридцять перестає давати той самий результат, і чому норми білка з віком зростають, а не падають.",
+              "cite": "Nutrients · Огляд, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
@@ -12381,7 +12383,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "On the food side, the priority afterwards is protein for repair: 25–40g in the meal that follows, which for most women means being deliberate about it rather than assuming it happened. The precise post-workout window matters less than people think — a randomised trial in postmenopausal women found that [total daily protein spread across meals](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) mattered more for muscle than exact timing around exercise. If you’re managing insulin resistance, the hours after training are also the point in the day when your muscles are most receptive to carbohydrate, so this is the meal to put the potatoes or the rice in, if you’re having them at all."
+          "text": "On the food side, the priority afterwards is protein for repair: 25–40g in the meal that follows, which for most women means being deliberate about it rather than assuming it happened. The precise post-workout window matters less than people think — a randomised trial in postmenopausal women found [no advantage to a protein drink taken straight after training over the same drink two hours later](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/). If you’re managing insulin resistance, the hours after training are also the point in the day when your muscles are most receptive to carbohydrate, so this is the meal to put the potatoes or the rice in, if you’re having them at all."
         },
         {
           "t": "h",
@@ -12516,8 +12518,8 @@ export const POSTS = [
               "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-aerobic-exercise-performed-in-fasted-v-fed-state-on-fat-and-carbohydrate-metabolism-in-adults-a-systematic-review-and-metaanalysis/0EA2328A0FF91703C95FD39A38716811"
             },
             {
-              "claim": "Total daily protein spread across meals matters more for muscle than exact timing around a workout.",
-              "detail": "A randomised controlled trial in postmenopausal women on a weight-loss programme found that while some trends around post-exercise timing appeared, total daily protein distributed across meals was the most important variable for muscle protein synthesis rates. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
+              "claim": "The precise post-workout protein window does not appear to matter for muscle.",
+              "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
               "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -12660,7 +12662,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Щодо їжі, після тренування пріоритет — білок для відновлення: 25–40 г у наступному прийомі їжі, що для більшості жінок означає свідомо це спланувати, а не сподіватися, що вийде само. Точне «білкове вікно» важить менше, ніж прийнято думати: рандомізоване дослідження за участю жінок у постменопаузі показало, що [загальна денна кількість білка, розподілена між прийомами їжі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/), важливіша для м’язів, ніж точний час навколо тренування. Якщо ви працюєте з інсулінорезистентністю, години після заняття — це ще й момент дня, коли м’язи найкраще сприймають вуглеводи, тож саме в цей прийом їжі варто покласти картоплю чи рис, якщо ви їх узагалі їсте."
+          "text": "Щодо їжі, після тренування пріоритет — білок для відновлення: 25–40 г у наступному прийомі їжі, що для більшості жінок означає свідомо це спланувати, а не сподіватися, що вийде само. Точне «білкове вікно» важить менше, ніж прийнято думати: рандомізоване дослідження за участю жінок у постменопаузі не виявило [жодної переваги білкового напою одразу після тренування порівняно з тією самою порцією через дві години](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/). Якщо ви працюєте з інсулінорезистентністю, години після заняття — це ще й момент дня, коли м’язи найкраще сприймають вуглеводи, тож саме в цей прийом їжі варто покласти картоплю чи рис, якщо ви їх узагалі їсте."
         },
         {
           "t": "h",
@@ -12795,8 +12797,8 @@ export const POSTS = [
               "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-aerobic-exercise-performed-in-fasted-v-fed-state-on-fat-and-carbohydrate-metabolism-in-adults-a-systematic-review-and-metaanalysis/0EA2328A0FF91703C95FD39A38716811"
             },
             {
-              "claim": "Загальна денна кількість білка, розподілена між прийомами їжі, важить для м’язів більше, ніж точний час навколо тренування.",
-              "detail": "Рандомізоване контрольоване дослідження за участю жінок у постменопаузі на програмі зниження ваги показало: попри окремі тенденції щодо часу після тренування, найважливішою змінною для швидкості синтезу м’язового білка була загальна денна кількість білка, розподілена між прийомами їжі. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
+              "claim": "Точне «білкове вікно» після тренування, схоже, не має значення для м’язів.",
+              "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і зниження ваги порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Жоден із варіантів не виявився виразно кращим — тобто тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
               "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -17239,7 +17241,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
+          "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://doi.org/10.1177/20533691231180721) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
         },
         {
           "t": "p",
@@ -17296,8 +17298,8 @@ export const POSTS = [
             },
             {
               "claim": "When cortisol drives fat storage, it acts preferentially on visceral belly fat.",
-              "detail": "Visceral (intra-abdominal) fat carries two-to-four times the density of glucocorticoid receptors found in subcutaneous fat, and shows greater local activity of 11β-HSD1, the enzyme that regenerates active cortisol within the tissue. This is the biological reason chronically elevated cortisol tends to accumulate centrally rather than under the skin.",
-              "cite": "Molecular & Cellular Endocrinology · Review, 2014",
+              "detail": "Visceral (intra-abdominal) fat carries two-to-four times the density of glucocorticoid receptors found in subcutaneous fat, and glucocorticoid binding and receptor expression are 2- to 4-fold greater in omental than subcutaneous tissue. On 11β-HSD1, the enzyme that regenerates active cortisol within the tissue, the review is more guarded than this article previously was: one study found higher activity in omental tissue, others found no difference in fresh tissue, and the authors conclude it is still unclear how much locally produced cortisol contributes to visceral accumulation. The receptor-density difference is the better-established half of the mechanism.",
+              "cite": "Lee MJ et al., Biochimica et Biophysica Acta · Review, 2014",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
             },
             {
@@ -17315,8 +17317,8 @@ export const POSTS = [
             {
               "claim": "Falling oestrogen shifts fat to the abdomen in perimenopause.",
               "detail": "The British Menopause Society reports that as oestrogen declines, visceral fat rises from around 5–8% of body weight to 10–15%, with most menopausal weight gain — roughly 1.5kg a year on average — accumulating around the abdomen and upper body. It recommends resistance training, adequate protein and moderated alcohol.",
-              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
-              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
+              "cite": "British Menopause Society tool for clinicians · Post Reproductive Health, 2023",
+              "url": "https://doi.org/10.1177/20533691231180721"
             },
             {
               "claim": "Losing sleep can push cortisol up — and perimenopause disrupts sleep.",
@@ -17406,7 +17408,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
+          "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://doi.org/10.1177/20533691231180721) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
         },
         {
           "t": "p",
@@ -17463,8 +17465,8 @@ export const POSTS = [
             },
             {
               "claim": "Коли кортизол стимулює накопичення жиру, він діє переважно на вісцеральний жир живота.",
-              "detail": "Вісцеральний (внутрішньочеревний) жир має у два–чотири рази вищу щільність глюкокортикоїдних рецепторів, ніж підшкірний, і вищу місцеву активність 11β-HSD1 — ферменту, який відновлює активний кортизол усередині тканини. Це біологічна причина, чому хронічно підвищений кортизол схильний накопичуватися центрально, а не під шкірою.",
-              "cite": "Molecular & Cellular Endocrinology · Огляд, 2014",
+              "detail": "Вісцеральний (внутрішньочеревний) жир має у два–чотири рази вищу щільність глюкокортикоїдних рецепторів, ніж підшкірний, а зв'язування глюкокортикоїдів і експресія рецепторів у сальниковій тканині у 2–4 рази вищі, ніж у підшкірній. Щодо 11β-HSD1 — ферменту, який відновлює активний кортизол усередині тканини, — огляд обережніший, ніж була ця стаття раніше: одне дослідження виявило вищу активність у сальниковій тканині, інші не знайшли різниці у свіжій тканині, і автори роблять висновок, що досі не ясно, наскільки локально утворений кортизол сприяє вісцеральному накопиченню. Різниця в щільності рецепторів — краще підтверджена половина механізму.",
+              "cite": "Lee MJ та ін., Biochimica et Biophysica Acta · Огляд, 2014",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959161/"
             },
             {
@@ -17482,8 +17484,8 @@ export const POSTS = [
             {
               "claim": "Падіння естрогену зміщує жир до живота в перименопаузі.",
               "detail": "Британське товариство менопаузи повідомляє, що зі зниженням естрогену вісцеральний жир зростає з приблизно 5–8% ваги тіла до 10–15%, при цьому більша частина менопаузального набору ваги — у середньому близько 1,5 кг на рік — накопичується навколо живота та верхньої частини тіла. Воно рекомендує силові тренування, достатньо білка та помірність у алкоголі.",
-              "cite": "British Menopause Society · Menopause: Nutrition and Weight Gain, 2023",
-              "url": "https://thebms.org.uk/wp-content/uploads/2023/06/19-BMS-TfC-Menopause-Nutrition-and-Weight-Gain-JUNE2023-A.pdf"
+              "cite": "Інструмент для клініцистів Британського товариства менопаузи · Post Reproductive Health, 2023",
+              "url": "https://doi.org/10.1177/20533691231180721"
             },
             {
               "claim": "Втрата сну може підвищувати кортизол — а перименопауза порушує сон.",
@@ -17601,7 +17603,7 @@ export const POSTS = [
             {
               "claim": "Two thirds of women with type 1 diabetes reported changed glucose regulation after menopause.",
               "detail": "A cross-sectional online survey of 159 postmenopausal women with type 1 diabetes in the Netherlands (aged 45–65, at least 12 months without periods) found 67.4% reported moderate to severe postmenopausal changes in glucose regulation: 61.6% more hyperglycaemic events, 55.0% more glucose fluctuations, 41.9% higher glucose overall and 38.5% more hypoglycaemic events. Greater menopausal symptom severity was associated with perceived glycaemic change (adjusted OR 1.04; 95% CI 1.01–1.08; p=0.014). The authors flag convenience sampling, recall bias across a 1–20 year window, and a smaller sample than planned.",
-              "cite": "Cross-sectional survey, Netherlands · PMC12534243",
+              "cite": "Diabetologia · Cross-sectional survey, Netherlands, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
             }
           ]
@@ -17719,7 +17721,7 @@ export const POSTS = [
             {
               "claim": "Дві третини жінок із діабетом 1 типу повідомили про зміни в регуляції глюкози після менопаузи.",
               "detail": "Перехресне онлайн-опитування 159 жінок із діабетом 1 типу в постменопаузі в Нідерландах (45–65 років, щонайменше 12 місяців без менструацій) показало, що 67,4% повідомили про помірні або виражені зміни в регуляції глюкози після менопаузи: 61,6% — більше епізодів гіперглікемії, 55,0% — більше коливань глюкози, 41,9% — вищий рівень глюкози загалом і 38,5% — більше епізодів гіпоглікемії. Більша важкість менопаузальних симптомів була пов’язана з відчутними змінами глікемії (скоригований ВШ 1,04; 95% ДІ 1,01–1,08; p=0,014). Автори наголошують на зручній вибірці, похибці пригадування за період 1–20 років і меншій за заплановану вибірці.",
-              "cite": "Перехресне опитування, Нідерланди · PMC12534243",
+              "cite": "Diabetologia · Перехресне опитування, Нідерланди, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534243/"
             }
           ]
@@ -18414,7 +18416,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Aspartame is the most scrutinised. In 2023 the WHO’s cancer agency (IARC) [classified aspartame as “possibly carcinogenic to humans”](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — its weakest hazard category, based on limited evidence — while the WHO’s food-safety committee left the acceptable daily intake unchanged at 40 mg per kg of body weight. That gap matters: “possibly carcinogenic” describes how confident we are that something could cause cancer, not how much risk it poses at real doses. In practice a 70 kg adult would need to drink well over a dozen cans of diet soft drink a day to exceed the limit. People with the rare genetic condition [PKU must avoid aspartame](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); for everyone else, the honest summary is “probably fine in moderation, but not something to drink by the litre.” It also loses its sweetness when heated, so it’s poor for baking."
+          "text": "Aspartame is the most scrutinised. In 2023 the WHO’s cancer agency (IARC) [classified aspartame as “possibly carcinogenic to humans”](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — its weakest hazard category, based on limited evidence — while the WHO’s food-safety committee left the acceptable daily intake unchanged at 40 mg per kg of body weight. That gap matters: “possibly carcinogenic” describes how confident we are that something could cause cancer, not how much risk it poses at real doses. In practice a 70 kg adult would need to drink more than nine to fourteen cans of diet soft drink a day to exceed the limit, depending on how much aspartame the can carries. People with the rare genetic condition [PKU must avoid aspartame](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); for everyone else, the honest summary is “probably fine in moderation, but not something to drink by the litre.” It also loses its sweetness when heated, so it’s poor for baking."
         },
         {
           "t": "p",
@@ -18609,12 +18611,12 @@ export const POSTS = [
             {
               "claim": "Concentrated fructose drives metabolic harm.",
               "detail": "A 2024 literature review summarised evidence that dietary fructose, in excess, is a potent driver of hepatic fat production, fatty liver, insulin resistance and raised triglycerides — the reason concentrated fructose sources such as agave nectar and syrups are not a metabolic improvement over sugar, even though fructose from whole fruit is not a concern.",
-              "cite": "Nutrients · Literature review, 2024",
+              "cite": "Agarwal V et al., Cureus · Literature review, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663027/"
             },
             {
               "claim": "Aspartame: “possibly carcinogenic,” but intake limits unchanged.",
-              "detail": "In 2023 the WHO’s cancer agency (IARC) classified aspartame as “possibly carcinogenic to humans” (Group 2B) on limited evidence, while its food-safety committee (JECFA) reaffirmed the acceptable daily intake of 40 mg/kg body weight. Group 2B is a low-confidence hazard flag, not a measure of real-world risk — an adult would need well over a dozen cans of diet drink a day to exceed the limit.",
+              "detail": "In 2023 the WHO’s cancer agency (IARC) classified aspartame as “possibly carcinogenic to humans” (Group 2B) on limited evidence, while its food-safety committee (JECFA) reaffirmed the acceptable daily intake of 40 mg/kg body weight. Group 2B is a low-confidence hazard flag, not a measure of real-world risk — a 70 kg adult would need more than nine to fourteen cans of diet drink a day to exceed the limit, depending on the aspartame content per can.",
               "cite": "World Health Organization · IARC & JECFA assessment, 2023",
               "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
             },
@@ -18662,7 +18664,7 @@ export const POSTS = [
         },
         {
           "q": "Are artificial sweeteners like aspartame and sucralose safe?",
-          "a": "Within normal amounts, regulators still consider them safe — but the evidence has grown more mixed. Aspartame was classified as possibly carcinogenic by the WHO’s cancer agency in 2023, though its intake limit was left unchanged and you’d need well over a dozen diet drinks a day to reach it (people with the condition PKU must avoid it). A 2023 lab study found a sucralose impurity can damage DNA, and some sweeteners — including saccharin and sucralose — shift the gut microbiome in certain people. None of this is proof of everyday harm, but it’s reason to treat them as an occasional bridge away from sugar rather than a free pass. Aspartame and sucralose also break down when heated, so they’re poor for baking."
+          "a": "Within normal amounts, regulators still consider them safe — but the evidence has grown more mixed. Aspartame was classified as possibly carcinogenic by the WHO’s cancer agency in 2023, though its intake limit was left unchanged and a 70 kg adult would need more than nine to fourteen diet drinks a day to reach it (people with the condition PKU must avoid it). A 2023 lab study found a sucralose impurity can damage DNA, and some sweeteners — including saccharin and sucralose — shift the gut microbiome in certain people. None of this is proof of everyday harm, but it’s reason to treat them as an occasional bridge away from sugar rather than a free pass. Aspartame and sucralose also break down when heated, so they’re poor for baking."
         }
       ]
     },
@@ -18798,7 +18800,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Аспартам — найбільш досліджуваний. У 2023 році агенція ВООЗ із раку (IARC) [класифікувала аспартам як «можливо канцерогенний для людини»](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — це її найслабша категорія небезпеки, на основі обмежених доказів, — тоді як комітет ВООЗ із безпеки харчових продуктів залишив допустиме добове споживання незмінним: 40 мг на кг маси тіла. Ця різниця важлива: «можливо канцерогенний» описує, наскільки ми впевнені, що щось могло б спричиняти рак, а не який ризик воно несе за реальних доз. На практиці дорослому вагою 70 кг довелося б випивати значно більше десятка бляшанок дієтичного напою на день, щоб перевищити межу. Людям із рідкісним генетичним станом [ФКУ (фенілкетонурія) аспартаму слід уникати](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); для решти чесний підсумок такий: «мабуть, нормально в помірних кількостях, але не те, що варто пити літрами». Він також втрачає солодкість при нагріванні, тож для випічки не годиться."
+          "text": "Аспартам — найбільш досліджуваний. У 2023 році агенція ВООЗ із раку (IARC) [класифікувала аспартам як «можливо канцерогенний для людини»](https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released) — це її найслабша категорія небезпеки, на основі обмежених доказів, — тоді як комітет ВООЗ із безпеки харчових продуктів залишив допустиме добове споживання незмінним: 40 мг на кг маси тіла. Ця різниця важлива: «можливо канцерогенний» описує, наскільки ми впевнені, що щось могло б спричиняти рак, а не який ризик воно несе за реальних доз. На практиці дорослому вагою 70 кг довелося б випивати понад дев’ять–чотирнадцять бляшанок дієтичного напою на день, щоб перевищити межу, — залежно від вмісту аспартаму в бляшанці. Людям із рідкісним генетичним станом [ФКУ (фенілкетонурія) аспартаму слід уникати](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food); для решти чесний підсумок такий: «мабуть, нормально в помірних кількостях, але не те, що варто пити літрами». Він також втрачає солодкість при нагріванні, тож для випічки не годиться."
         },
         {
           "t": "p",
@@ -18993,12 +18995,12 @@ export const POSTS = [
             {
               "claim": "Концентрована фруктоза шкодить метаболізму.",
               "detail": "Огляд літератури 2024 року узагальнив докази, що харчова фруктоза в надлишку є потужним двигуном утворення жиру в печінці, жирової хвороби печінки, інсулінорезистентності та підвищених тригліцеридів — саме тому концентровані джерела фруктози, як-от сироп агави та інші сиропи, не є метаболічним покращенням порівняно з цукром, хоча фруктоза з цілих фруктів не викликає занепокоєння.",
-              "cite": "Nutrients · Огляд літератури, 2024",
+              "cite": "Agarwal V та ін., Cureus · Огляд літератури, 2024",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663027/"
             },
             {
               "claim": "Аспартам: «можливо канцерогенний», але межі споживання незмінні.",
-              "detail": "У 2023 році агенція ВООЗ із раку (IARC) класифікувала аспартам як «можливо канцерогенний для людини» (група 2B) на основі обмежених доказів, тоді як комітет із безпеки харчових продуктів (JECFA) підтвердив допустиме добове споживання 40 мг/кг маси тіла. Група 2B — це слабкий за впевненістю сигнал небезпеки, а не міра реального ризику: дорослому довелося б випивати значно більше десятка бляшанок дієтичного напою на день, щоб перевищити межу.",
+              "detail": "У 2023 році агенція ВООЗ із раку (IARC) класифікувала аспартам як «можливо канцерогенний для людини» (група 2B) на основі обмежених доказів, тоді як комітет із безпеки харчових продуктів (JECFA) підтвердив допустиме добове споживання 40 мг/кг маси тіла. Група 2B — це слабкий за впевненістю сигнал небезпеки, а не міра реального ризику: дорослому вагою 70 кг довелося б випивати понад дев’ять–чотирнадцять бляшанок дієтичного напою на день, щоб перевищити межу, залежно від вмісту аспартаму в бляшанці.",
               "cite": "Всесвітня організація охорони здоров’я · Оцінка IARC і JECFA, 2023",
               "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
             },
@@ -19046,7 +19048,7 @@ export const POSTS = [
         },
         {
           "q": "Чи безпечні штучні підсолоджувачі, як-от аспартам і сукралоза?",
-          "a": "У межах звичайних кількостей регулятори досі вважають їх безпечними — але докази стали неоднозначнішими. У 2023 році агенція ВООЗ із раку класифікувала аспартам як можливо канцерогенний, хоча межу споживання залишили незмінною, і щоб її досягти, треба випити значно більше десятка дієтичних напоїв на день (людям із ФКУ його слід уникати). Лабораторне дослідження 2023 року виявило, що домішка сукралози може пошкоджувати ДНК, а деякі підсолоджувачі — зокрема сахарин і сукралоза — зсувають мікробіом кишківника в частини людей. Ніщо з цього не є доказом щоденної шкоди, але це привід сприймати їх як епізодичний місток геть від цукру, а не як повну свободу. Аспартам і сукралоза також розкладаються при нагріванні, тож для випічки не годяться."
+          "a": "У межах звичайних кількостей регулятори досі вважають їх безпечними — але докази стали неоднозначнішими. У 2023 році агенція ВООЗ із раку класифікувала аспартам як можливо канцерогенний, хоча межу споживання залишили незмінною, і щоб її досягти, дорослому вагою 70 кг треба випити понад дев’ять–чотирнадцять дієтичних напоїв на день (людям із ФКУ його слід уникати). Лабораторне дослідження 2023 року виявило, що домішка сукралози може пошкоджувати ДНК, а деякі підсолоджувачі — зокрема сахарин і сукралоза — зсувають мікробіом кишківника в частини людей. Ніщо з цього не є доказом щоденної шкоди, але це привід сприймати їх як епізодичний місток геть від цукру, а не як повну свободу. Аспартам і сукралоза також розкладаються при нагріванні, тож для випічки не годяться."
         }
       ]
     }
@@ -19103,11 +19105,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "As oestrogen declines, your body becomes less efficient at using dietary protein to build and repair muscle. [A 2018 review in Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) described this as anabolic resistance: the blunted muscle protein synthesis response that older adults experience after eating protein. Older women may see up to a 40% smaller increase in muscle protein synthesis than younger women, even eating identical amounts of protein. I felt it directly — my muscles had become less responsive, even though I was eating and training the same."
+          "text": "As oestrogen declines, your body becomes less efficient at using dietary protein to build and repair muscle. Researchers call that blunted muscle protein synthesis response anabolic resistance. [A 2016 review in Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) worked through what it means for how much protein older adults actually need, and concluded the requirement is roughly 40% higher than current guidelines allow — an estimated average requirement near 0.9g/kg a day, and a recommended intake near 1.2g/kg. I felt it directly — my muscles had become less responsive, even though I was eating and training the same."
         },
         {
           "t": "p",
-          "text": "Alongside this, age-related muscle loss — known as sarcopenia — accelerates from around 40 onwards and compounds further at menopause. [A 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) confirmed that menopausal women are at significantly elevated risk of sarcopenia, and found that increased dietary protein combined with resistance exercise was among the most effective interventions for preventing it. Muscle isn’t just about strength or aesthetics — it plays a direct role in how your body handles blood glucose, your metabolic rate and your bone density."
+          "text": "Alongside this, age-related muscle loss — known as sarcopenia — accelerates from around 40 onwards and compounds further at menopause. [A 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled the randomised trials of non-drug ways to prevent it and found resistance training the clearest performer — three sessions a week, twenty to ninety minutes, for at least six weeks. On protein it was careful, concluding that more trials are needed before the effect can be judged, which is worth holding on to: the case for protein below rests on other studies, and the training half of the advice has the firmer footing. Muscle isn’t just about strength or aesthetics — it plays a direct role in how your body handles blood glucose, your metabolic rate and your bone density."
         },
         {
           "t": "p",
@@ -19127,7 +19129,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[A 2025 study in Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) found that women in the highest quintile of protein intake lost approximately 40% less lean muscle mass over three years than those in the lowest. Taken alongside the broader evidence, most nutrition researchers now place the practical target for women over 40 at 1.2–1.6g per kg of body weight per day as a baseline, rising to 1.6–2.0g/kg if you’re strength training regularly."
+          "text": "[A 2025 trial in Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) put 126 women aged 60–75 with sarcopenia on either 0.8g/kg or 1.2g/kg of protein a day for twelve weeks, and found better muscle mass composition and better function — handgrip and knee flexion both — in the higher-protein group. Taken alongside the broader evidence, most nutrition researchers now place the practical target for women over 40 at 1.2–1.6g per kg of body weight per day as a baseline, rising to 1.6–2.0g/kg if you’re strength training regularly."
         },
         {
           "t": "p",
@@ -19183,7 +19185,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Set against the RNI, the gap is not subtle. A 65kg woman is officially catered for at 49g a day, and on the evidence above is actually aiming at 78–104g. That is more than double the number the UK guideline gives her."
+          "text": "Set against the RNI, the gap is not subtle. A 65kg woman is officially catered for at 49g a day, and on the evidence above is actually aiming at 78–104g. That is roughly one and a half to two times the number the UK guideline gives her."
         },
         {
           "t": "p",
@@ -19199,7 +19201,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Distribution matters as much as the total. [A study on postmenopausal women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) found that consistent protein intake across meals was the primary driver of muscle protein anabolism — more than precise timing around workouts. Research consistently shows the body stimulates muscle protein synthesis most effectively when each meal provides roughly 25–40g of protein. Eating 120g at dinner is far less effective than spreading it across three meals. Front-loading protein at breakfast, where most women eat the least, is one of the most practical changes you can make."
+          "text": "Distribution matters as much as the total. [A study on postmenopausal women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) tested whether it mattered if a 15g protein drink came straight after resistance training or two hours later, and found no meaningful advantage either way — which usefully moves the emphasis off the post-workout window and onto what you eat across the day as a whole. Research consistently shows the body stimulates muscle protein synthesis most effectively when each meal provides roughly 25–40g of protein. Eating 120g at dinner is far less effective than spreading it across three meals. Front-loading protein at breakfast, where most women eat the least, is one of the most practical changes you can make."
         },
         {
           "t": "p",
@@ -19288,32 +19290,32 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Women in the highest quintile of protein intake lost 40% less lean muscle mass over three years.",
-              "detail": "A 2025 study in Frontiers in Nutrition examined protein intake and muscle composition in older women with sarcopenia. Those eating the most protein retained significantly more lean mass than those eating the least — one of the clearest recent demonstrations of how much protein intake matters for muscle preservation.",
-              "cite": "Frontiers in Nutrition · Prospective study, 2025",
+              "claim": "Women aged 60–75 with sarcopenia did better on 1.2g/kg of protein a day than on 0.8g/kg.",
+              "detail": "A 2025 trial in Frontiers in Nutrition randomised 126 elderly women with sarcopenia to a normal protein intake (0.8g/kg a day) or a moderately high one (1.2g/kg a day) for twelve weeks, tracking them by MRI along with handgrip and knee flexion tests. The higher-protein group came out ahead on both muscle mass composition and function — a direct test of the guideline figure against something nearer the target in this article.",
+              "cite": "Frontiers in Nutrition · Randomised trial, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/"
             },
             {
-              "claim": "Older women can build up to 40% less muscle from the same protein dose — a phenomenon called anabolic resistance.",
-              "detail": "A 2018 review in Current Opinion in Clinical Nutrition and Metabolic Care established this finding. It explains why eating the same amount of protein as you did in your 30s is no longer enough: your muscles have become less responsive, so a higher dose is needed to achieve the same protective effect — and the difference compounds with age.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Review, 2018",
+              "claim": "Older adults need roughly 40% more protein than current recommendations allow.",
+              "detail": "A 2016 review in Nutrients drew together the indicator amino acid oxidation studies to re-estimate protein requirements in older adults, arriving at an estimated average requirement near 0.9g/kg a day and a recommended intake near 1.2g/kg — around 40% above the guideline figures. It explains why eating the same amount of protein as you did in your 30s is no longer enough: the muscle protein synthesis response to a given dose is blunted with age, so a higher dose is needed for the same protective effect.",
+              "cite": "Nutrients · Review, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
-              "claim": "Increased protein intake, combined with resistance exercise, is among the most effective ways to prevent sarcopenia in menopausal women.",
-              "detail": "A systematic review and meta-analysis of randomised controlled trials in BMC Women’s Health (2023) examined non-pharmacological approaches to preventing sarcopenia in menopausal women. Dietary protein interventions were consistently among the most effective — particularly when paired with strength training.",
+              "claim": "Resistance training is the best-evidenced way to prevent sarcopenia in menopausal women; the protein evidence is thinner.",
+              "detail": "A systematic review and meta-analysis of randomised controlled trials in BMC Women’s Health (2023) examined non-pharmacological approaches to preventing sarcopenia in menopausal women. Resistance training came out clearly ahead — three sessions a week, twenty to ninety minutes, sustained for at least six weeks. On protein supplementation the authors concluded that further trials are needed before an effect can be judged, so this review backs the exercise half of the advice in this article rather than the protein half.",
               "cite": "BMC Women’s Health · Systematic review and meta-analysis, 2023",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             },
             {
               "claim": "Adequate protein is associated with significantly better physical performance in post-menopausal women aged 60–90.",
-              "detail": "An analysis of post-menopausal women found that those with adequate dietary protein intake had substantially better grip strength, walking speed and overall physical performance scores. The association held after adjusting for age, BMI and physical activity levels.",
+              "detail": "An analysis of post-menopausal women aged 60–90 found that those eating less protein scored worse on tests of upper and lower body function, and carried more body fat relative to lean mass, than those eating more. Grip strength was the exception — it did not differ significantly between the groups. Average intake across the cohort was 1.1g/kg a day, with a quarter of the women falling below even the RDA.",
               "cite": "PMC · Observational analysis",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4433492/"
             },
             {
-              "claim": "Consistent daily protein across meals drives muscle anabolism more than precise timing around workouts.",
-              "detail": "A randomised controlled trial in postmenopausal women on a weight-loss programme found that while some trends around post-exercise timing appeared, total daily protein distributed across meals was the most important variable for muscle protein synthesis rates.",
+              "claim": "Total daily protein matters more than hitting a post-workout window.",
+              "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing.",
               "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -19440,11 +19442,11 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Зі зниженням естрогену тіло гірше використовує харчовий білок для побудови та відновлення м’язів. [Огляд 2018 року в Current Opinion in Clinical Nutrition and Metabolic Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) назвав це анаболічною резистентністю: приглушеною реакцією синтезу м’язового білка, яку люди старшого віку мають після вживання білка. Жінки старшого віку можуть мати до 40% меншого приросту синтезу м’язового білка, ніж молодші, навіть з’їдаючи однакову кількість білка. Я відчула це напряму — мої м’язи стали менш чутливими, хоча я їла й тренувалася так само."
+          "text": "Зі зниженням естрогену тіло гірше використовує харчовий білок для побудови та відновлення м’язів. Цю приглушену реакцію синтезу м’язового білка дослідники називають анаболічною резистентністю. [Огляд 2016 року в Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/) розібрав, що вона означає для реальної потреби в білку в людей старшого віку, і дійшов висновку, що ця потреба приблизно на 40% вища за чинні норми — розрахункова середня потреба близько 0,9 г/кг на добу й рекомендоване споживання близько 1,2 г/кг. Я відчула це напряму — мої м’язи стали менш чутливими, хоча я їла й тренувалася так само."
         },
         {
           "t": "p",
-          "text": "Поряд із цим вікова втрата м’язів — саркопенія — прискорюється приблизно з 40 років і ще більше посилюється в менопаузі. [Систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) підтвердив, що жінки в менопаузі мають значно підвищений ризик саркопенії, і що збільшення білка в раціоні разом із силовими вправами — один із найефективніших способів її запобігти. М’язи — це не лише про силу чи естетику: вони напряму впливають на те, як тіло керує глюкозою, на метаболізм і щільність кісток."
+          "text": "Поряд із цим вікова втрата м’язів — саркопенія — прискорюється приблизно з 40 років і ще більше посилюється в менопаузі. [Систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) зібрав рандомізовані дослідження нефармакологічних способів її запобігання й показав, що найпереконливіші результати дають силові тренування — три сесії на тиждень по двадцять–дев’яносто хвилин щонайменше шість тижнів. Щодо білка огляд обережний: автори підсумували, що потрібно більше досліджень, перш ніж робити висновок. Це варто тримати в голові — аргументи на користь білка нижче спираються на інші роботи, а тренувальна половина поради має міцнішу основу. М’язи — це не лише про силу чи естетику: вони напряму впливають на те, як тіло керує глюкозою, на метаболізм і щільність кісток."
         },
         {
           "t": "p",
@@ -19464,7 +19466,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Дослідження 2025 року в Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) виявило, що жінки з найвищого квінтиля споживання білка втратили приблизно на 40% менше м’язової маси за три роки, ніж ті, хто їв найменше. З огляду на ширшу доказову базу більшість дослідників харчування нині ставлять практичний орієнтир для жінок після 40 на рівні 1,2–1,6 г на кг ваги на добу як базовий, зростаючи до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся силовими."
+          "text": "[Дослідження 2025 року в Frontiers in Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/) розподілило 126 жінок 60–75 років із саркопенією на 0,8 г/кг або 1,2 г/кг білка на добу протягом дванадцяти тижнів і виявило кращу композицію м’язової маси та кращу функцію — і силу хвату, і згинання коліна — у групі з вищим білком. З огляду на ширшу доказову базу більшість дослідників харчування нині ставлять практичний орієнтир для жінок після 40 на рівні 1,2–1,6 г на кг ваги на добу як базовий, зростаючи до 1,6–2,0 г/кг, якщо ви регулярно тренуєтеся силовими."
         },
         {
           "t": "p",
@@ -19520,7 +19522,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "На тлі RNI розрив зовсім не тонкий. Жінці вагою 65 кг офіційно пропонують 49 г на добу, а за наведеними вище даними вона насправді цілиться у 78–104 г. Це більш ніж удвічі більше за те, що дає британська норма."
+          "text": "На тлі RNI розрив зовсім не тонкий. Жінці вагою 65 кг офіційно пропонують 49 г на добу, а за наведеними вище даними вона насправді цілиться у 78–104 г. Це приблизно в півтора–два рази більше за те, що дає британська норма."
         },
         {
           "t": "p",
@@ -19536,7 +19538,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Розподіл важливий не менше за загальну кількість. [Дослідження за участю жінок у постменопаузі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) показало, що саме рівномірне споживання білка протягом дня було головним драйвером анаболізму м’язового білка — важливішим за точний час навколо тренувань. Дослідження стабільно показують, що тіло найкраще стимулює синтез м’язового білка, коли кожен прийом їжі дає приблизно 25–40 г білка. З’їсти 120 г за вечерею значно менш ефективно, ніж розподілити на три прийоми. Додати білок на сніданок, де жінки зазвичай їдять його найменше, — одна з найпрактичніших змін."
+          "text": "Розподіл важливий не менше за загальну кількість. [Дослідження за участю жінок у постменопаузі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) перевіряло, чи має значення, коли випити 15 г білка — одразу після силового тренування чи через дві години, — і не знайшло відчутної переваги в жодного варіанта. Це корисно зміщує акцент із «вікна» після тренування на те, що ви їсте протягом усього дня. Дослідження стабільно показують, що тіло найкраще стимулює синтез м’язового білка, коли кожен прийом їжі дає приблизно 25–40 г білка. З’їсти 120 г за вечерею значно менш ефективно, ніж розподілити на три прийоми. Додати білок на сніданок, де жінки зазвичай їдять його найменше, — одна з найпрактичніших змін."
         },
         {
           "t": "p",
@@ -19625,32 +19627,32 @@ export const POSTS = [
           "t": "refs",
           "items": [
             {
-              "claim": "Жінки з найвищого квінтиля споживання білка втратили на 40% менше м’язової маси за три роки.",
-              "detail": "Дослідження 2025 року в Frontiers in Nutrition вивчало споживання білка й композицію м’язів у жінок старшого віку із саркопенією. Ті, хто їв найбільше білка, зберегли значно більше м’язової маси, ніж ті, хто їв найменше, — одна з найяскравіших нещодавніх демонстрацій того, наскільки білок важливий для збереження м’язів.",
-              "cite": "Frontiers in Nutrition · Проспективне дослідження, 2025",
+              "claim": "Жінки 60–75 років із саркопенією мали кращі результати на 1,2 г/кг білка на добу, ніж на 0,8 г/кг.",
+              "detail": "Дослідження 2025 року в Frontiers in Nutrition розподілило 126 жінок старшого віку із саркопенією на звичайне споживання білка (0,8 г/кг на добу) або помірно високе (1,2 г/кг на добу) на дванадцять тижнів, відстежуючи їх за допомогою МРТ, тестів сили хвату та згинання коліна. Група з вищим білком випередила іншу і за композицією м’язової маси, і за функцією — це пряме порівняння нормативної цифри з тією, що ближча до орієнтира в цій статті.",
+              "cite": "Frontiers in Nutrition · Рандомізоване дослідження, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12104658/"
             },
             {
-              "claim": "Жінки старшого віку можуть будувати до 40% менше м’язів із тієї ж дози білка — це явище називають анаболічною резистентністю.",
-              "detail": "Огляд 2018 року в Current Opinion in Clinical Nutrition and Metabolic Care обґрунтував цей висновок. Він пояснює, чому їсти стільки ж білка, скільки у свої тридцять, уже недостатньо: м’язи стали менш чутливими, тож потрібна вища доза для того самого захисного ефекту — і різниця зростає з віком.",
-              "cite": "Current Opinion in Clinical Nutrition and Metabolic Care · Огляд, 2018",
+              "claim": "Людям старшого віку потрібно приблизно на 40% більше білка, ніж дозволяють чинні норми.",
+              "detail": "Огляд 2016 року в Nutrients звів разом дослідження методом окиснення індикаторної амінокислоти, щоб переоцінити потребу в білку в людей старшого віку, і отримав розрахункову середню потребу близько 0,9 г/кг на добу та рекомендоване споживання близько 1,2 г/кг — приблизно на 40% вище за нормативні цифри. Це пояснює, чому їсти стільки ж білка, скільки у свої тридцять, уже недостатньо: реакція синтезу м’язового білка на ту саму дозу з віком приглушується, тож для того самого захисного ефекту потрібна вища доза.",
+              "cite": "Nutrients · Огляд, 2016",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4997405/"
             },
             {
-              "claim": "Збільшення білка в раціоні разом із силовими вправами — один із найефективніших способів запобігти саркопенії в жінок у менопаузі.",
-              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень у BMC Women’s Health (2023) розглянув нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Білкові втручання стабільно були серед найефективніших — особливо в поєднанні із силовими тренуваннями.",
+              "claim": "Силові тренування — найкраще доведений спосіб запобігти саркопенії в жінок у менопаузі; доказів щодо білка менше.",
+              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень у BMC Women’s Health (2023) розглянув нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Силові тренування виразно вийшли на перше місце — три сесії на тиждень по двадцять–дев’яносто хвилин щонайменше шість тижнів. Щодо білкових добавок автори підсумували, що потрібні подальші дослідження, перш ніж оцінювати ефект, тож цей огляд підкріплює тренувальну, а не білкову половину порад у цій статті.",
               "cite": "BMC Women’s Health · Систематичний огляд і метааналіз, 2023",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
             },
             {
               "claim": "Достатній білок пов’язаний зі значно кращою фізичною працездатністю в жінок у постменопаузі 60–90 років.",
-              "detail": "Аналіз жінок у постменопаузі показав, що ті, хто споживав достатньо білка, мали суттєво кращу силу хвату, швидкість ходьби та загальні показники фізичної працездатності. Зв’язок зберігався після поправки на вік, ІМТ і рівень фізичної активності.",
+              "detail": "Аналіз жінок у постменопаузі 60–90 років показав, що ті, хто їв менше білка, гірше виконували тести на функцію верхньої та нижньої частини тіла й мали більше жиру відносно м’язової маси, ніж ті, хто їв більше. Сила хвату стала винятком — за нею групи значуще не відрізнялися. Середнє споживання в когорті становило 1,1 г/кг на добу, причому чверть жінок не дотягувала навіть до RDA.",
               "cite": "PMC · Обсерваційний аналіз",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4433492/"
             },
             {
-              "claim": "Стабільне щоденне споживання білка протягом дня керує анаболізмом м’язів більше, ніж точний час навколо тренувань.",
-              "detail": "Рандомізоване контрольоване дослідження жінок у постменопаузі на програмі схуднення показало, що хоча деякі тенденції щодо часу після вправ і спостерігалися, саме загальний добовий білок, розподілений по прийомах їжі, був найважливішою змінною для швидкості синтезу м’язового білка.",
+              "claim": "Загальний добовий білок важливіший за влучання у «вікно» після тренування.",
+              "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і схуднення порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Жоден із варіантів не виявився виразно кращим — це свідчить, що тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням.",
               "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
             }
@@ -20312,7 +20314,7 @@ export const POSTS = [
             },
             {
               "claim": "HRT does reduce insulin resistance — and the evidence is growing.",
-              "detail": "A 2024 meta-analysis of 17 randomised controlled trials covering more than 29,000 participants (1998–2024), presented at The Menopause Society Annual Meeting, found that hormone therapy significantly reduced insulin resistance in postmenopausal women.",
+              "detail": "A 2024 meta-analysis of 17 randomised controlled trials covering more than 29,000 participants (1998–2024), presented at The Menopause Society Annual Meeting, found that hormone therapy significantly reduced insulin resistance in postmenopausal women. Worth knowing when reading it here: those trials enrolled healthy women without metabolic disease, and diabetes was an exclusion — so it establishes the mechanism rather than the effect in women who already have diabetes.",
               "cite": "The Menopause Society Annual Meeting, 2024",
               "url": "https://menopause.org/press-releases/new-meta-analysis-shows-that-hormone-therapy-can-significantly-reduce-insulin-resistance"
             },
@@ -20483,7 +20485,7 @@ export const POSTS = [
             },
             {
               "claim": "ЗГТ справді знижує інсулінорезистентність — і доказів більшає.",
-              "detail": "Метааналіз 2024 року з 17 рандомізованих контрольованих досліджень за участю понад 29 000 осіб (1998–2024), представлений на щорічній зустрічі The Menopause Society, показав, що гормональна терапія суттєво знижує інсулінорезистентність у жінок у постменопаузі.",
+              "detail": "Метааналіз 2024 року з 17 рандомізованих контрольованих досліджень за участю понад 29 000 осіб (1998–2024), представлений на щорічній зустрічі The Menopause Society, показав, що гормональна терапія суттєво знижує інсулінорезистентність у жінок у постменопаузі. Що варто знати, читаючи це тут: у ті дослідження набирали здорових жінок без метаболічних захворювань, а діабет був критерієм виключення — тож вони встановлюють механізм, а не ефект у жінок, які вже мають діабет.",
               "cite": "Щорічна зустріч The Menopause Society, 2024",
               "url": "https://menopause.org/press-releases/new-meta-analysis-shows-that-hormone-therapy-can-significantly-reduce-insulin-resistance"
             },
@@ -20579,7 +20581,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "If you want to support collagen synthesis in the dermis, the topical ingredients with the strongest evidence are retinoids (derivatives of vitamin A) and vitamin C. [A 2025 systematic review and meta-analysis of clinical trials on tretinoin](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) confirmed that retinoids measurably increase collagen production and improve photodamaged skin — they remain the most evidence-backed topical ingredient for skin ageing. Vitamin C supports the hydroxylase enzymes that form and stabilise collagen — it is a cofactor, not a source, but without enough of it the process stalls."
+          "text": "If you want to support collagen synthesis in the dermis, the topical ingredients with the strongest evidence are retinoids (derivatives of vitamin A) and vitamin C. [A 2025 systematic review and meta-analysis of clinical trials on tretinoin](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) pooled the trial evidence on photodamaged facial skin and found tretinoin a safe and effective treatment for both fine and coarse wrinkles. The collagen side is established separately, in the histological work going back to the 1990s — together they make retinoids the most evidence-backed topical ingredient for skin ageing. Vitamin C supports the hydroxylase enzymes that form and stabilise collagen — it is a cofactor, not a source, but without enough of it the process stalls."
         },
         {
           "t": "h",
@@ -20591,7 +20593,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[A 2024 meta-analysis covering 26 randomised controlled trials and 1,721 participants](https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/) found consistent improvements in skin hydration and elasticity with hydrolysed collagen supplementation. The original landmark trial by [Proksch et al.](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 women, 8 weeks, 2.5–5g daily — showed statistically significant improvements in skin elasticity, and its findings have held up across subsequent research."
+          "text": "[A 2023 meta-analysis in Nutrients covering 26 randomised controlled trials and 1,721 participants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/) found consistent improvements in skin hydration and elasticity with hydrolysed collagen supplementation. The original landmark trial by [Proksch et al.](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 women, 8 weeks, 2.5–5g daily — showed statistically significant improvements in skin elasticity, and its findings have held up across subsequent research."
         },
         {
           "t": "p",
@@ -20611,7 +20613,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Vitamin C](https://www.mdpi.com/2072-6643/9/8/866) is the most critical. The enzymes that form and stabilise collagen cannot work without it — made vivid by the fact that scurvy causes skin breakdown and wound-healing failure. You don’t need megadoses; the UK Reference Nutrient Intake is 40mg per day. Good sources include bell peppers, kiwi, citrus fruit and broccoli. [A 2024 randomised trial found that combining collagen with vitamin C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) improved dermis density and skin texture more than placebo — suggesting the two work better together than either alone."
+          "text": "[Vitamin C](https://www.mdpi.com/2072-6643/9/8/866) is the most critical. The enzymes that form and stabilise collagen cannot work without it — made vivid by the fact that scurvy causes skin breakdown and wound-healing failure. You don’t need megadoses; the UK Reference Nutrient Intake is 40mg per day. Good sources include bell peppers, kiwi, citrus fruit and broccoli. [A 2024 randomised trial found that combining collagen with vitamin C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) improved dermis density and skin texture more than placebo over sixteen weeks. It tested the pair against placebo rather than against collagen on its own, so it shows the combination works — not that it beats collagen alone."
         },
         {
           "t": "p",
@@ -20652,9 +20654,9 @@ export const POSTS = [
             },
             {
               "claim": "The breadth of evidence for oral collagen is growing.",
-              "detail": "A 2024 meta-analysis covered 26 randomised controlled trials involving 1,721 participants and found that supplementation with hydrolysed collagen improved skin elasticity and hydration across studies. Effect sizes were modest and trial durations short — but the consistency of direction across such a large evidence base is meaningful.",
-              "cite": "PMC · Systematic review & meta-analysis, 2024",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/"
+              "detail": "A 2023 meta-analysis in Nutrients covered 26 randomised controlled trials involving 1,721 participants and found that supplementation with hydrolysed collagen improved skin elasticity and hydration across studies. Effect sizes were modest and trial durations short — but the consistency of direction across such a large evidence base is meaningful.",
+              "cite": "Nutrients · Systematic review & meta-analysis, 2023",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/"
             },
             {
               "claim": "The original landmark RCT still holds.",
@@ -20670,13 +20672,13 @@ export const POSTS = [
             },
             {
               "claim": "Retinoids remain the most evidence-backed topical for skin ageing.",
-              "detail": "A 2025 systematic review and meta-analysis of randomised controlled trials on tretinoin for photodamaged facial skin confirmed measurable improvements in collagen production, skin texture and fine lines. The mechanism — suppressing collagen-degrading enzymes while stimulating fibroblast activity — is well understood and has been replicated across decades of research.",
-              "cite": "PMC · Systematic review & meta-analysis, 2025",
+              "detail": "A 2025 systematic review and meta-analysis in Dermatology Practical & Conceptual pooled the randomised trials of tretinoin for photodamaged facial skin and concluded it is safe and effective for both fine and coarse wrinkles. The review pooled wrinkle outcomes rather than collagen measurements; the collagen effect itself was established earlier, in histological work showing tretinoin restores collagen formation in photodamaged skin. The mechanism — suppressing collagen-degrading enzymes while stimulating fibroblast activity — is well understood and has been replicated across decades of research.",
+              "cite": "Dermatology Practical & Conceptual · Systematic review & meta-analysis, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/"
             },
             {
               "claim": "Vitamin C is not optional for collagen synthesis.",
-              "detail": "A 2017 review in Nutrients described the established biochemistry: vitamin C acts as a cofactor for the hydroxylase enzymes that stabilise collagen’s triple-helix structure, and its absence results in defective, unstable collagen. A 2024 RCT found that collagen combined with vitamin C produced greater improvements in dermis density and texture than collagen alone — reinforcing the importance of combining these nutrients.",
+              "detail": "A 2017 review in Nutrients described the established biochemistry: vitamin C acts as a cofactor for the hydroxylase enzymes that stabilise collagen’s triple-helix structure, and its absence results in defective, unstable collagen. A 2024 RCT found that 5g of hydrolysed collagen taken with 80mg of vitamin C for sixteen weeks improved dermis density and skin texture more than placebo. There was no collagen-only arm, so it supports pairing the two rather than proving the pair superior to collagen by itself.",
               "cite": "Nutrients · Review, 2017",
               "url": "https://www.mdpi.com/2072-6643/9/8/866"
             },
@@ -20766,7 +20768,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Якщо ви хочете підтримати синтез колагену в дермі, топічні інгредієнти з найсильнішими доказами — це ретиноїди (похідні вітаміну A) та вітамін C. [Систематичний огляд і метааналіз клінічних досліджень третиноїну 2025 року](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) підтвердив, що ретиноїди вимірно збільшують вироблення колагену й покращують фотопошкоджену шкіру — вони залишаються найдоказовішим топічним інгредієнтом проти старіння шкіри. Вітамін C підтримує ферменти-гідроксилази, що формують і стабілізують колаген — це кофактор, а не джерело, але без достатньої його кількості процес зупиняється."
+          "text": "Якщо ви хочете підтримати синтез колагену в дермі, топічні інгредієнти з найсильнішими доказами — це ретиноїди (похідні вітаміну A) та вітамін C. [Систематичний огляд і метааналіз клінічних досліджень третиноїну 2025 року](https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/) звів докази щодо фотопошкодженої шкіри обличчя й показав, що третиноїн — безпечний та ефективний засіб і для дрібних, і для глибоких зморшок. Вплив на колаген доведено окремо — гістологічними роботами ще з 1990-х. Разом це робить ретиноїди найдоказовішим топічним інгредієнтом проти старіння шкіри. Вітамін C підтримує ферменти-гідроксилази, що формують і стабілізують колаген — це кофактор, а не джерело, але без достатньої його кількості процес зупиняється."
         },
         {
           "t": "h",
@@ -20778,7 +20780,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Метааналіз 2024 року, що охопив 26 рандомізованих контрольованих досліджень і 1721 учасника](https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/), виявив послідовне покращення зволоження та еластичності шкіри від приймання гідролізованого колагену. Оригінальне знакове дослідження [Proksch та колег](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 жінок, 8 тижнів, 2,5–5 г щодня — показало статистично значуще покращення еластичності шкіри, і його висновки підтвердилися в наступних дослідженнях."
+          "text": "[Метааналіз 2023 року в Nutrients, що охопив 26 рандомізованих контрольованих досліджень і 1721 учасника](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/), виявив послідовне покращення зволоження та еластичності шкіри від приймання гідролізованого колагену. Оригінальне знакове дослідження [Proksch та колег](https://karger.com/spp/article/27/1/47/295741/Oral-Supplementation-of-Specific-Collagen-Peptides) — 69 жінок, 8 тижнів, 2,5–5 г щодня — показало статистично значуще покращення еластичності шкіри, і його висновки підтвердилися в наступних дослідженнях."
         },
         {
           "t": "p",
@@ -20798,7 +20800,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "[Вітамін C](https://www.mdpi.com/2072-6643/9/8/866) — найкритичніший. Ферменти, що формують і стабілізують колаген, не можуть працювати без нього — це яскраво ілюструє те, що цинга спричиняє руйнування шкіри та порушення загоєння ран. Мегадози не потрібні; британська референсна норма споживання — 40 мг на день. Хороші джерела — солодкий перець, ківі, цитрусові та броколі. [Рандомізоване дослідження 2024 року виявило, що поєднання колагену з вітаміном C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) покращувало щільність дерми й текстуру шкіри краще за плацебо — тобто разом вони працюють краще, ніж кожен окремо."
+          "text": "[Вітамін C](https://www.mdpi.com/2072-6643/9/8/866) — найкритичніший. Ферменти, що формують і стабілізують колаген, не можуть працювати без нього — це яскраво ілюструє те, що цинга спричиняє руйнування шкіри та порушення загоєння ран. Мегадози не потрібні; британська референсна норма споживання — 40 мг на день. Хороші джерела — солодкий перець, ківі, цитрусові та броколі. [Рандомізоване дослідження 2024 року виявило, що поєднання колагену з вітаміном C](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206740/) покращувало щільність дерми й текстуру шкіри краще за плацебо протягом шістнадцяти тижнів. Пару порівнювали з плацебо, а не з самим лише колагеном, тож дослідження показує, що поєднання працює, — але не те, що воно краще за колаген окремо."
         },
         {
           "t": "p",
@@ -20839,9 +20841,9 @@ export const POSTS = [
             },
             {
               "claim": "Обсяг доказів для перорального колагену зростає.",
-              "detail": "Метааналіз 2024 року охопив 26 рандомізованих контрольованих досліджень із 1721 учасником і виявив, що приймання гідролізованого колагену покращувало еластичність і зволоження шкіри. Розміри ефекту були помірними, а тривалість досліджень короткою — але послідовність напряму в такій великій доказовій базі має значення.",
-              "cite": "PMC · Систематичний огляд і метааналіз, 2024",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773595/"
+              "detail": "Метааналіз 2023 року в Nutrients охопив 26 рандомізованих контрольованих досліджень із 1721 учасником і виявив, що приймання гідролізованого колагену покращувало еластичність і зволоження шкіри. Розміри ефекту були помірними, а тривалість досліджень короткою — але послідовність напряму в такій великій доказовій базі має значення.",
+              "cite": "Nutrients · Систематичний огляд і метааналіз, 2023",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180699/"
             },
             {
               "claim": "Оригінальне знакове РКД усе ще актуальне.",
@@ -20857,13 +20859,13 @@ export const POSTS = [
             },
             {
               "claim": "Ретиноїди залишаються найдоказовішим топічним засобом проти старіння шкіри.",
-              "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень третиноїну для фотопошкодженої шкіри обличчя 2025 року підтвердив вимірне покращення вироблення колагену, текстури шкіри та дрібних зморшок. Механізм — пригнічення ферментів, що руйнують колаген, і водночас стимуляція активності фібробластів — добре вивчений і відтворений протягом десятиліть досліджень.",
-              "cite": "PMC · Систематичний огляд і метааналіз, 2025",
+              "detail": "Систематичний огляд і метааналіз 2025 року в Dermatology Practical & Conceptual звів рандомізовані дослідження третиноїну для фотопошкодженої шкіри обличчя й підсумував, що він безпечний та ефективний і для дрібних, і для глибоких зморшок. Огляд об’єднував дані саме про зморшки, а не вимірювання колагену; сам вплив на колаген доведено раніше — гістологічними роботами, які показали, що третиноїн відновлює утворення колагену у фотопошкодженій шкірі. Механізм — пригнічення ферментів, що руйнують колаген, і водночас стимуляція активності фібробластів — добре вивчений і відтворений протягом десятиліть досліджень.",
+              "cite": "Dermatology Practical & Conceptual · Систематичний огляд і метааналіз, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/"
             },
             {
               "claim": "Вітамін C не є необов’язковим для синтезу колагену.",
-              "detail": "Огляд 2017 року в Nutrients описав усталену біохімію: вітамін C діє як кофактор для ферментів-гідроксилаз, що стабілізують потрійну спіраль колагену, а його відсутність призводить до дефектного, нестабільного колагену. РКД 2024 року виявило, що колаген у поєднанні з вітаміном C давав більше покращення щільності дерми й текстури, ніж колаген окремо — що підкреслює важливість поєднання цих речовин.",
+              "detail": "Огляд 2017 року в Nutrients описав усталену біохімію: вітамін C діє як кофактор для ферментів-гідроксилаз, що стабілізують потрійну спіраль колагену, а його відсутність призводить до дефектного, нестабільного колагену. РКД 2024 року виявило, що 5 г гідролізованого колагену з 80 мг вітаміну C протягом шістнадцяти тижнів покращували щільність дерми й текстуру шкіри краще за плацебо. Групи з самим лише колагеном не було, тож дослідження підтримує ідею поєднувати ці речовини, а не доводить перевагу пари над колагеном окремо.",
               "cite": "Nutrients · Огляд, 2017",
               "url": "https://www.mdpi.com/2072-6643/9/8/866"
             },
@@ -20965,7 +20967,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Total weight and body composition are not the same thing. During the menopause transition, fat redistributes, often significantly, without the overall number on the scale changing at all. The fat that oestrogen had been directing to the hips, thighs and buttocks for decades starts migrating inward instead, accumulating around the organs rather than under the skin. Visceral fat, the kind that wraps around the liver, pancreas and intestines, increases from around 5–8% of total body fat before the transition to 15–20% after it."
+          "text": "Total weight and body composition are not the same thing. During the menopause transition, fat redistributes, often significantly, without the overall number on the scale changing at all. The fat that oestrogen had been directing to the hips, thighs and buttocks for decades starts migrating inward instead, accumulating around the organs rather than under the skin. Visceral fat, the kind that wraps around the liver, pancreas and intestines, [increases from around 5–8% of total body fat before the transition to 15–20% after it](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/)."
         },
         {
           "t": "p",
@@ -21029,7 +21031,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "That means there are levers, and it’s worth knowing what they are. HRT is one of them: research shows [it can partially reverse visceral fat accumulation](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/) and improve metabolic markers, and if you’re noticing fat redistribution or finding it increasingly difficult to manage your weight despite consistent habits, it’s a conversation worth having with a specialist who understands hormonal health properly. This is a decision for you and your doctor, not a recommendation from me, but the option exists and is too often not raised until much later than it could be."
+          "text": "That means there are levers, and it’s worth knowing what they are. HRT is one of them, though the evidence is softer than it is usually presented: the same review reports that postmenopausal women taking hormone therapy had a body-fat profile closest to premenopausal women, while also noting that hormone therapy did not prevent the weight gain of the transition itself. That is an observed association in a narrative review, not a trial showing HRT reverses visceral fat. If you’re noticing fat redistribution or finding it increasingly difficult to manage your weight despite consistent habits, it’s a conversation worth having with a specialist who understands hormonal health properly. This is a decision for you and your doctor, not a recommendation from me, but the option exists and is too often not raised until much later than it could be."
         },
         {
           "t": "h",
@@ -21085,7 +21087,7 @@ export const POSTS = [
             {
               "claim": "Cortisol acts preferentially on visceral fat — which is why chronic stress settles at the middle.",
               "detail": "Reviews of glucocorticoid action show that cortisol acts preferentially on visceral adipose tissue, which carries a higher density of cortisol receptors than subcutaneous fat, driving central fat accumulation under chronic physiological stress.",
-              "cite": "Glucocorticoids & visceral adiposity · Review",
+              "cite": "Lengton R et al., Clinical Obesity · Review, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11907100/"
             },
             {
@@ -21148,7 +21150,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Загальна вага та склад тіла — це не одне й те саме. Під час менопаузального переходу жир перерозподіляється, часто суттєво, при цьому загальна цифра на терезах може взагалі не змінитися. Жир, який естроген десятиліттями спрямовував на стегна, сідниці й задню поверхню ніг, починає мігрувати всередину, накопичуючись навколо органів, а не під шкірою. Вісцеральний жир, той, що огортає печінку, підшлункову й кишечник, зростає приблизно з 5–8% загального жиру тіла до переходу до 15–20% після нього."
+          "text": "Загальна вага та склад тіла — це не одне й те саме. Під час менопаузального переходу жир перерозподіляється, часто суттєво, при цьому загальна цифра на терезах може взагалі не змінитися. Жир, який естроген десятиліттями спрямовував на стегна, сідниці й задню поверхню ніг, починає мігрувати всередину, накопичуючись навколо органів, а не під шкірою. Вісцеральний жир, той, що огортає печінку, підшлункову й кишечник, [зростає приблизно з 5–8% загального жиру тіла до переходу до 15–20% після нього](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/)."
         },
         {
           "t": "p",
@@ -21212,7 +21214,7 @@ export const POSTS = [
         },
         {
           "t": "p",
-          "text": "Це означає, що важелі є, і варто знати, які саме. ЗГТ — один із них: дослідження показують, що вона може [частково повернути назад накопичення вісцерального жиру](https://pmc.ncbi.nlm.nih.gov/articles/PMC9258798/) й покращити метаболічні показники, і якщо ви помічаєте перерозподіл жиру або дедалі важче керуєте вагою попри послідовні звички, це розмова, яку варто мати з фахівцем, що добре розуміється на гормональному здоровʼї. Це рішення для вас і вашого лікаря, а не порада від мене, але цей варіант існує й надто часто не порушується аж до значно пізнішого часу, ніж міг би."
+          "text": "Це означає, що важелі є, і варто знати, які саме. ЗГТ — один із них, хоча доказова база тут м'якша, ніж її зазвичай подають: той самий огляд повідомляє, що жінки в постменопаузі, які приймали гормональну терапію, мали склад жирової тканини, найближчий до жінок у пременопаузі, — і водночас зазначає, що гормональна терапія не запобігла набору ваги під час самого переходу. Це спостережувана асоціація в оглядовій статті, а не випробування, яке показало б, що ЗГТ повертає назад вісцеральний жир. Якщо ви помічаєте перерозподіл жиру або дедалі важче керуєте вагою попри послідовні звички, це розмова, яку варто мати з фахівцем, що добре розуміється на гормональному здоровʼї. Це рішення для вас і вашого лікаря, а не порада від мене, але цей варіант існує й надто часто не порушується аж до значно пізнішого часу, ніж міг би."
         },
         {
           "t": "h",
@@ -21268,7 +21270,7 @@ export const POSTS = [
             {
               "claim": "Кортизол діє переважно на вісцеральний жир — тому хронічний стрес осідає саме на талії.",
               "detail": "Огляди дії глюкокортикоїдів показують, що кортизол діє переважно на вісцеральну жирову тканину, яка має вищу щільність кортизолових рецепторів, ніж підшкірна, сприяючи центральному накопиченню жиру за хронічного фізіологічного стресу.",
-              "cite": "Глюкокортикоїди та вісцеральне ожиріння · Огляд",
+              "cite": "Lengton R та ін., Clinical Obesity · Огляд, 2025",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11907100/"
             },
             {

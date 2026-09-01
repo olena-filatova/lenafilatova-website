@@ -1,6 +1,7 @@
 // Blog helpers: category filters, UI strings, inline-link rendering and
 // per-post JSON-LD. Companion to blog.js (the content).
 import { personRef, personNode } from './schema-lib.js';
+import { DEFAULT_SHARE_IMAGE } from './site.js';
 
 export const SITE = 'https://lenafilatova.co.uk';
 
@@ -259,9 +260,10 @@ export function warnAssetGaps(posts, dims) {
   if (noHero.length) {
     console.warn(
       `[blog] ${noHero.length} post(s) reference a hero image that is not in image-dims.json, ` +
-        'so it is either missing from public/images or the manifest is stale. A missing file ' +
-        'ships a broken image at the top of the article, a 404 og:image that kills every social ' +
-        'preview, and the same dead URL several times in the JSON-LD:\n' +
+        'so it is either missing from public/images or the manifest is stale. The post still ' +
+        'publishes: it renders with no hero figure and shares under the site default image, ' +
+        'rather than shipping a broken <img> and a 404 og:image. But it is a post going out ' +
+        'without its picture, so it wants one:\n' +
         noHero.map((p) => `         ${p.image}  (${p.slug})`).join('\n') +
         '\n       Fix: if the file is there, run scripts/generate-image-dims.sh in a CLEAN worktree ' +
         '(it globs public/images and a dirty checkout pulls in strays). If it is not, add the ' +
@@ -293,6 +295,16 @@ export function warnAssetGaps(posts, dims) {
 // Google truncates the SERP title at roughly 600px, which for both Latin and
 // Cyrillic lands near 60 characters. Headlines here are editorial and often
 // longer, so a post sets `seoTitle` to give the <title> tag its own wording.
+
+// A post's hero is "supplied" when its path is present in image-dims.json —
+// the manifest generated from the actual contents of public/images. Absent
+// means the JPEG has not been sourced yet (heroes are supplied by hand, see
+// CLAUDE.md and OPS-315), so the post renders with no hero figure and shares
+// under the site's default image, rather than shipping a broken <img> and a
+// 404 og:image. It stops a post that is editorially finished from being
+// blocked for weeks on an image that nobody has made yet.
+export const hasHero = (post, dims) => Boolean(post.image && dims[post.image]);
+
 export const TITLE_LIMIT = 60;
 
 // Throws rather than silently shipping a title Google will cut mid-word.
@@ -309,7 +321,7 @@ export function seoTitleOf(a) {
 
 // Mirrors the JSON-LD the prerendered standalone pages shipped:
 // Article + BreadcrumbList (+ FAQPage when the post has an FAQ).
-export function buildJsonLd(post, lang) {
+export function buildJsonLd(post, lang, dims = {}) {
   const a = post[lang];
   const url = langUrl(lang, post.slug);
   const graph = [
@@ -319,7 +331,7 @@ export function buildJsonLd(post, lang) {
       description: a.metaDesc || a.excerpt,
       articleSection: post.en.cat,
       inLanguage: lang === 'ua' ? 'uk' : 'en',
-      image: SITE + post.image,
+      image: SITE + (hasHero(post, dims) ? post.image : DEFAULT_SHARE_IMAGE),
       mainEntityOfPage: url,
       datePublished: post.date,
       // OPS-301: `dateModified` is the field Google reads for freshness, and on

@@ -3,7 +3,7 @@
 // blog.js (p / h / quote / img / graph / table / refs / links / bio) plus
 // FAQ, CTA and disclaimer — the same anatomy as the live standalone pages.
 // The coming-soon post has no blocks: it shows the note + its short legacy body.
-import { UI, AUTHOR_BIO, articleToc, renderInline, relatedPosts } from '../data/blog-lib.js';
+import { UI, AUTHOR_BIO, articleToc, renderInline, relatedPosts, hasHero } from '../data/blog-lib.js';
 import { POSTS } from '../data/blog.js';
 import DIMS from '../data/image-dims.json';
 import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
@@ -59,7 +59,11 @@ const toc = articleToc(a, t);
   {/* alt: `imageAlt` describes the photograph; without one we fall back to the
       headline, which is already the <h1> directly above — so a screen reader
       hears the same sentence twice and learns nothing about the image. */}
-  <figure><img src={img(post.image)} alt={a.imageAlt || a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>
+  {/* No hero figure at all when the image has not been supplied yet: a broken
+      <img> at the top of the article is worse than none, and the post should
+      not be blocked from publishing while it waits (OPS-315). */}
+  {hasHero(post, DIMS) &&
+    <figure><img src={img(post.image)} alt={a.imageAlt || a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>}
   <p class="lead">{a.lead}</p>
   {/* Contents. In the flow here on anything narrower than a desktop — a
       collapsible block under the standfirst — and lifted into the empty right

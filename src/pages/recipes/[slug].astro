@@ -21,7 +21,10 @@ const jsonld = buildJsonLd(R, 'en');
   description={description}
   canonical={`/recipes/${R.slug}/`} alternates={{ en: `/recipes/${R.slug}/`, ua: `/ua/recipes/${R.slug}/` }}
   ogImage={ogImage}
+  ogImageAlt={R.imgAlt?.en}
   ogType="article"
+  publishedTime={R.dateAdded}
+  modifiedTime={R.dateAdded}
   jsonld={jsonld}
   showList={true}
   enHref={`${B}recipes/${R.slug}/`}
