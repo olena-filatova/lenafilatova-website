@@ -17,7 +17,7 @@
 // The band appears only on the "All" view; picking a category hides it and the
 // featured posts rejoin the grid, so a filtered view is always complete.
 import { POSTS } from '../data/blog.js';
-import { CATS, UI, featuredPosts, warnAssetGaps } from '../data/blog-lib.js';
+import { CATS, UI, featuredPosts, warnAssetGaps, hasHero } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
 import { warnUntagged } from '../data/tags-lib.js';
 import TagCloud from './TagCloud.astro';
@@ -65,6 +65,7 @@ const dim = (src) => DIMS[src] || {};
       <div class={`featured-grid${minis.length ? '' : ' solo'}`}>
         <a class="flead" href={`${hub}${lead.slug}/`}>
           <div class="ph">
+            {hasHero(lead, DIMS) && (
             <img
               src={img(lead.image)}
               alt=""
@@ -73,6 +74,7 @@ const dim = (src) => DIMS[src] || {};
               width={dim(lead.image).w}
               height={dim(lead.image).h}
             />
+            )}
           </div>
           <div class="body">
             <p class="cat">{lead[lang].cat}</p>
@@ -90,7 +92,7 @@ const dim = (src) => DIMS[src] || {};
             {minis.map((p) => (
               <a class="fmini" href={`${hub}${p.slug}/`}>
                 <span class="thumb">
-                  <img src={img(p.image)} alt="" loading="lazy" decoding="async" />
+                  {hasHero(p, DIMS) && <img src={img(p.image)} alt="" loading="lazy" decoding="async" />}
                 </span>
                 <span class="body">
                   <span class="cat">{p[lang].cat}</span>
@@ -140,7 +142,7 @@ const dim = (src) => DIMS[src] || {};
           data-cats={p.cats.join(' ')}
           data-featured={featured.includes(p) ? '1' : undefined}>
           <div class="thumb">
-            <img src={img(p.image)} alt="" loading="lazy" decoding="async" />
+            {hasHero(p, DIMS) && <img src={img(p.image)} alt="" loading="lazy" decoding="async" />}
             {p.comingSoon && <span class="soon">{t.comingSoonBadge}</span>}
           </div>
           <div class="body">
