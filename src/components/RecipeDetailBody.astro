@@ -21,11 +21,17 @@ import {
   CAT_PAGE, DIET, isHeader, giBand, GI_DISCLAIMER, imagesOf, nutritionStats, NUTRI_LABELS, heroAlt, stepAlt,
 } from '../data/recipes-lib.js';
 import '../styles/recipes.css';
+import Picture from './Picture.astro';
 
 const { R, lang = 'en' } = Astro.props;
 const B = import.meta.env.BASE_URL;
 const HUB = lang === 'ua' ? `${B}ua/recipes/` : `${B}recipes/`;
 const IMG = `${B}recipes/images/`;
+// The recipe column is 1072px less the 320px sidebar and its 56px gap;
+// the related cards below sit three to a row. Passing these lets the
+// browser take a smaller rung off the AVIF ladder (OPS-305).
+const RX_MAIN_SIZES = '(min-width: 1000px) 696px, calc(100vw - 48px)';
+const RX_CARD_SIZES = '(min-width: 1000px) 330px, (min-width: 620px) calc(50vw - 38px), calc(100vw - 48px)';
 const l = lang;
 
 const T = {
@@ -125,7 +131,7 @@ const rec = {
         <p>{R.why[l]}</p>
       </div>
 
-      <div class="ph rx-hero"><img src={`${IMG}${primary}`} alt={heroAlt(R, l)} fetchpriority="high" /></div>
+      <div class="ph rx-hero"><Picture src={`/recipes/images/${primary}`} alt={heroAlt(R, l)} sizes={RX_MAIN_SIZES} fetchpriority="high" /></div>
 
       {/* Timings, yield and GI as one ruled strip. The serves figure keeps its
           id — the scaler rewrites it when you change the portion count. */}
@@ -198,7 +204,7 @@ const rec = {
             <ol class="steps" id="steps">
               {R.method[l].map((st, i) => (
                 <li id={`step-${i + 1}`}><span class="num"></span><span class="step-text">{st}
-                  {R.stepImgs?.[i + 1] && <img class="step-photo" src={`${IMG}${R.stepImgs[i + 1]}`} alt={stepAlt(R, l, i + 1)} loading="lazy" width="900" height="900" />}
+                  {R.stepImgs?.[i + 1] && <Picture class="step-photo" src={`/recipes/images/${R.stepImgs[i + 1]}`} alt={stepAlt(R, l, i + 1)} sizes={RX_MAIN_SIZES} loading="lazy" width="900" height="900" />}
                 </span></li>
               ))}
             </ol>
@@ -238,7 +244,7 @@ const rec = {
           {others.map((x) => (
             <a class="rcard" href={`${HUB}${x.slug}/`}>
               <div class="thumb">
-                <img src={`${IMG}${x.img}`} alt="" loading="lazy" decoding="async" />
+                <Picture src={`/recipes/images/${x.img}`} alt="" sizes={RX_CARD_SIZES} loading="lazy" decoding="async" />
                 {typeof x.gi === 'number' && <span class="gi-plaque"><b>{x.gi}</b><span>GI</span></span>}
               </div>
               <div class="body"><div class="title">{x.title[l]}</div><div class="cmeta"><span>{x.meta.serves[l]}</span></div></div>

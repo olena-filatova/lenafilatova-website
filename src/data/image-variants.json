@@ -1,0 +1,3358 @@
+{
+  "/images/ada-2026-glp1-type1-diabetes-women.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/ada-2026-glp1-type1-diabetes-women-480.avif"
+      ],
+      [
+        800,
+        "/images/v/ada-2026-glp1-type1-diabetes-women-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/ada-2026-glp1-type1-diabetes-women-1200.avif"
+      ]
+    ]
+  },
+  "/images/alcohol-and-blood-sugar.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/alcohol-and-blood-sugar-480.avif"
+      ],
+      [
+        800,
+        "/images/v/alcohol-and-blood-sugar-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/alcohol-and-blood-sugar-1200.avif"
+      ]
+    ]
+  },
+  "/images/anxiety-brain-fog-top-menopause-symptom.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/anxiety-brain-fog-top-menopause-symptom-480.avif"
+      ],
+      [
+        800,
+        "/images/v/anxiety-brain-fog-top-menopause-symptom-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/anxiety-brain-fog-top-menopause-symptom-1200.avif"
+      ]
+    ]
+  },
+  "/images/blood-sugar-graph-perimenopause.jpg": {
+    "w": 814,
+    "h": 624,
+    "avif": [
+      [
+        480,
+        "/images/v/blood-sugar-graph-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/blood-sugar-graph-perimenopause-800.avif"
+      ]
+    ]
+  },
+  "/images/blood-sugar-perimenopause-metabolism.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/blood-sugar-perimenopause-metabolism-480.avif"
+      ],
+      [
+        800,
+        "/images/v/blood-sugar-perimenopause-metabolism-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/blood-sugar-perimenopause-metabolism-1200.avif"
+      ]
+    ]
+  },
+  "/images/bmi-trajectory-prediabetes-women.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/bmi-trajectory-prediabetes-women-480.avif"
+      ],
+      [
+        800,
+        "/images/v/bmi-trajectory-prediabetes-women-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/bmi-trajectory-prediabetes-women-1200.avif"
+      ]
+    ]
+  },
+  "/images/carb-quality-healthy-aging.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/carb-quality-healthy-aging-480.avif"
+      ],
+      [
+        800,
+        "/images/v/carb-quality-healthy-aging-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/carb-quality-healthy-aging-1200.avif"
+      ]
+    ]
+  },
+  "/images/clinical-trials-women-over-40.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/clinical-trials-women-over-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/clinical-trials-women-over-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/clinical-trials-women-over-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/collagen-supplements-skin-women-over-40.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/collagen-supplements-skin-women-over-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/collagen-supplements-skin-women-over-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/collagen-supplements-skin-women-over-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/cortisol-belly-perimenopause.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/cortisol-belly-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/cortisol-belly-perimenopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/cortisol-belly-perimenopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/creatine-women-over-40.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/creatine-women-over-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/creatine-women-over-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/creatine-women-over-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/eating-around-training-blood-sugar.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/eating-around-training-blood-sugar-480.avif"
+      ],
+      [
+        800,
+        "/images/v/eating-around-training-blood-sugar-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/eating-around-training-blood-sugar-1200.avif"
+      ]
+    ]
+  },
+  "/images/effortless-meal-plans-women-over-40.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/effortless-meal-plans-women-over-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/effortless-meal-plans-women-over-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/effortless-meal-plans-women-over-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/endometriosis-type-2-diabetes-risk.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/endometriosis-type-2-diabetes-risk-480.avif"
+      ],
+      [
+        800,
+        "/images/v/endometriosis-type-2-diabetes-risk-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/endometriosis-type-2-diabetes-risk-1200.avif"
+      ]
+    ]
+  },
+  "/images/estrobolome-gut-oestrogen-menopause.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/estrobolome-gut-oestrogen-menopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/estrobolome-gut-oestrogen-menopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/estrobolome-gut-oestrogen-menopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/extended-release-minoxidil-female-hair-loss.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/extended-release-minoxidil-female-hair-loss-480.avif"
+      ],
+      [
+        800,
+        "/images/v/extended-release-minoxidil-female-hair-loss-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/extended-release-minoxidil-female-hair-loss-1200.avif"
+      ]
+    ]
+  },
+  "/images/fermented-foods-gut-microbiome-review.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/fermented-foods-gut-microbiome-review-480.avif"
+      ],
+      [
+        800,
+        "/images/v/fermented-foods-gut-microbiome-review-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/fermented-foods-gut-microbiome-review-1200.avif"
+      ]
+    ]
+  },
+  "/images/fibre-deficiency-gut-inflammation.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/fibre-deficiency-gut-inflammation-480.avif"
+      ],
+      [
+        800,
+        "/images/v/fibre-deficiency-gut-inflammation-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/fibre-deficiency-gut-inflammation-1200.avif"
+      ]
+    ]
+  },
+  "/images/frozen-shoulder-diabetes.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/frozen-shoulder-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/frozen-shoulder-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/frozen-shoulder-diabetes-1200.avif"
+      ]
+    ]
+  },
+  "/images/glow-up-after-40-nutrition-program.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/glow-up-after-40-nutrition-program-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glow-up-after-40-nutrition-program-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glow-up-after-40-nutrition-program-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-drugs-less-movement.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-drugs-less-movement-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-drugs-less-movement-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-drugs-less-movement-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-menopause-bone-loss.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-menopause-bone-loss-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-menopause-bone-loss-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-menopause-bone-loss-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-older-women-lean-mass.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-older-women-lean-mass-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-older-women-lean-mass-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-older-women-lean-mass-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-weight-loss-drugs-fat-not-muscle.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-weight-loss-drugs-fat-not-muscle-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-weight-loss-drugs-fat-not-muscle-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-weight-loss-drugs-fat-not-muscle-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-weight-loss-sex-difference-women-men.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-weight-loss-sex-difference-women-men-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-weight-loss-sex-difference-women-men-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-weight-loss-sex-difference-women-men-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-what-we-know.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-what-we-know-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-what-we-know-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-what-we-know-1200.avif"
+      ]
+    ]
+  },
+  "/images/gut-microbiome-precision-nutrition-women-2026.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/gut-microbiome-precision-nutrition-women-2026-480.avif"
+      ],
+      [
+        800,
+        "/images/v/gut-microbiome-precision-nutrition-women-2026-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/gut-microbiome-precision-nutrition-women-2026-1200.avif"
+      ]
+    ]
+  },
+  "/images/higher-protein-postmenopausal-bone-muscle.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/higher-protein-postmenopausal-bone-muscle-480.avif"
+      ],
+      [
+        800,
+        "/images/v/higher-protein-postmenopausal-bone-muscle-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/higher-protein-postmenopausal-bone-muscle-1200.avif"
+      ]
+    ]
+  },
+  "/images/how-to-read-glucose-patterns-diabetes.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/how-to-read-glucose-patterns-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/how-to-read-glucose-patterns-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/how-to-read-glucose-patterns-diabetes-1200.avif"
+      ]
+    ]
+  },
+  "/images/hrt-prescriptions-doubling.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-prescriptions-doubling-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-prescriptions-doubling-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-prescriptions-doubling-1200.avif"
+      ]
+    ]
+  },
+  "/images/hrt-restores-skin-collagen-2026-review.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-restores-skin-collagen-2026-review-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-restores-skin-collagen-2026-review-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-restores-skin-collagen-2026-review-1200.avif"
+      ]
+    ]
+  },
+  "/images/hrt-type-1-diabetes-evidence.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-type-1-diabetes-evidence-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-type-1-diabetes-evidence-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-type-1-diabetes-evidence-1200.avif"
+      ]
+    ]
+  },
+  "/images/insulin-resistance-hair-thinning.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/insulin-resistance-hair-thinning-480.avif"
+      ],
+      [
+        800,
+        "/images/v/insulin-resistance-hair-thinning-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/insulin-resistance-hair-thinning-1200.avif"
+      ]
+    ]
+  },
+  "/images/islet-transplant-insulin-independence.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/islet-transplant-insulin-independence-480.avif"
+      ],
+      [
+        800,
+        "/images/v/islet-transplant-insulin-independence-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/islet-transplant-insulin-independence-1200.avif"
+      ]
+    ]
+  },
+  "/images/kefir-fibre-synbiotic-inflammation.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/kefir-fibre-synbiotic-inflammation-480.avif"
+      ],
+      [
+        800,
+        "/images/v/kefir-fibre-synbiotic-inflammation-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/kefir-fibre-synbiotic-inflammation-1200.avif"
+      ]
+    ]
+  },
+  "/images/lena-filatova-type-1-diabetes-23-years.jpg": {
+    "w": 675,
+    "h": 1200,
+    "avif": [
+      [
+        480,
+        "/images/v/lena-filatova-type-1-diabetes-23-years-480.avif"
+      ],
+      [
+        675,
+        "/images/v/lena-filatova-type-1-diabetes-23-years-675.avif"
+      ]
+    ]
+  },
+  "/images/lena-filatova-womens-health-coach-over-40.jpg": {
+    "w": 675,
+    "h": 1200,
+    "avif": [
+      [
+        480,
+        "/images/v/lena-filatova-womens-health-coach-over-40-480.avif"
+      ],
+      [
+        675,
+        "/images/v/lena-filatova-womens-health-coach-over-40-675.avif"
+      ]
+    ]
+  },
+  "/images/lena-filatova-womens-health-writer.jpg": {
+    "w": 675,
+    "h": 1200,
+    "avif": [
+      [
+        480,
+        "/images/v/lena-filatova-womens-health-writer-480.avif"
+      ],
+      [
+        675,
+        "/images/v/lena-filatova-womens-health-writer-675.avif"
+      ]
+    ]
+  },
+  "/images/magnesium-perimenopause-sleep-insulin-resistance.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/magnesium-perimenopause-sleep-insulin-resistance-480.avif"
+      ],
+      [
+        800,
+        "/images/v/magnesium-perimenopause-sleep-insulin-resistance-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/magnesium-perimenopause-sleep-insulin-resistance-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopause-brain-fog-not-dementia.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-brain-fog-not-dementia-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-brain-fog-not-dementia-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-brain-fog-not-dementia-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopause-cost-workplace-productivity.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-cost-workplace-productivity-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-cost-workplace-productivity-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-cost-workplace-productivity-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopause-skin-oestrogen.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-skin-oestrogen-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-skin-oestrogen-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-skin-oestrogen-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopause-skincare-longevity-marketing.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-skincare-longevity-marketing-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-skincare-longevity-marketing-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-skincare-longevity-marketing-1200.avif"
+      ]
+    ]
+  },
+  "/images/menstrual-blood-research-medicine.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/menstrual-blood-research-medicine-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menstrual-blood-research-medicine-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menstrual-blood-research-medicine-1200.avif"
+      ]
+    ]
+  },
+  "/images/natural-sweeteners-stevia-monk-fruit-allulose.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/natural-sweeteners-stevia-monk-fruit-allulose-480.avif"
+      ],
+      [
+        800,
+        "/images/v/natural-sweeteners-stevia-monk-fruit-allulose-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/natural-sweeteners-stevia-monk-fruit-allulose-1200.avif"
+      ]
+    ]
+  },
+  "/images/night-sweats-or-hypo.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/night-sweats-or-hypo-480.avif"
+      ],
+      [
+        800,
+        "/images/v/night-sweats-or-hypo-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/night-sweats-or-hypo-1200.avif"
+      ]
+    ]
+  },
+  "/images/oral-minoxidil-for-womens-hair-loss.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/oral-minoxidil-for-womens-hair-loss-480.avif"
+      ],
+      [
+        800,
+        "/images/v/oral-minoxidil-for-womens-hair-loss-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/oral-minoxidil-for-womens-hair-loss-1200.avif"
+      ]
+    ]
+  },
+  "/images/perimenopause-anxiety-mind-body-exercise.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-anxiety-mind-body-exercise-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-anxiety-mind-body-exercise-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-anxiety-mind-body-exercise-1200.avif"
+      ]
+    ]
+  },
+  "/images/perimenopause-global-survey-symptom-gap.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-global-survey-symptom-gap-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-global-survey-symptom-gap-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-global-survey-symptom-gap-1200.avif"
+      ]
+    ]
+  },
+  "/images/perimenopause-uncertainty-us-study.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-uncertainty-us-study-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-uncertainty-us-study-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-uncertainty-us-study-1200.avif"
+      ]
+    ]
+  },
+  "/images/perimenopause-weight-gain-myths.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-weight-gain-myths-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-weight-gain-myths-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-weight-gain-myths-1200.avif"
+      ]
+    ]
+  },
+  "/images/personal-nutrition-coaching-perimenopause.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/personal-nutrition-coaching-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/personal-nutrition-coaching-perimenopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/personal-nutrition-coaching-perimenopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/pharma-type-1-diabetes-cure.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/pharma-type-1-diabetes-cure-480.avif"
+      ],
+      [
+        800,
+        "/images/v/pharma-type-1-diabetes-cure-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/pharma-type-1-diabetes-cure-1200.avif"
+      ]
+    ]
+  },
+  "/images/prediabetes-signs-perimenopause.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/prediabetes-signs-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/prediabetes-signs-perimenopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/prediabetes-signs-perimenopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/protein-for-women-over-40.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/protein-for-women-over-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/protein-for-women-over-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/protein-for-women-over-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/retinoids-after-40-diabetes.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/retinoids-after-40-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/retinoids-after-40-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/retinoids-after-40-diabetes-1200.avif"
+      ]
+    ]
+  },
+  "/images/sleep-insulin-resistance-women.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/sleep-insulin-resistance-women-480.avif"
+      ],
+      [
+        800,
+        "/images/v/sleep-insulin-resistance-women-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/sleep-insulin-resistance-women-1200.avif"
+      ]
+    ]
+  },
+  "/images/strength-training-cgm-type-1-diabetes.jpg": {
+    "w": 708,
+    "h": 944,
+    "avif": [
+      [
+        480,
+        "/images/v/strength-training-cgm-type-1-diabetes-480.avif"
+      ],
+      [
+        708,
+        "/images/v/strength-training-cgm-type-1-diabetes-708.avif"
+      ]
+    ]
+  },
+  "/images/strength-training-perimenopause-beginners.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/strength-training-perimenopause-beginners-480.avif"
+      ],
+      [
+        800,
+        "/images/v/strength-training-perimenopause-beginners-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/strength-training-perimenopause-beginners-1200.avif"
+      ]
+    ]
+  },
+  "/images/tirzepatide-hrt-weight-loss-menopause-2026.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/tirzepatide-hrt-weight-loss-menopause-2026-480.avif"
+      ],
+      [
+        800,
+        "/images/v/tirzepatide-hrt-weight-loss-menopause-2026-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/tirzepatide-hrt-weight-loss-menopause-2026-1200.avif"
+      ]
+    ]
+  },
+  "/images/topical-oestrogen-skincare-menopause.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/topical-oestrogen-skincare-menopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/topical-oestrogen-skincare-menopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/topical-oestrogen-skincare-menopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/type-1-diabetes-cure-trials.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/type-1-diabetes-cure-trials-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type-1-diabetes-cure-trials-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type-1-diabetes-cure-trials-1200.avif"
+      ]
+    ]
+  },
+  "/images/type-2-diabetes-menopause-symptoms.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/type-2-diabetes-menopause-symptoms-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type-2-diabetes-menopause-symptoms-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type-2-diabetes-menopause-symptoms-1200.avif"
+      ]
+    ]
+  },
+  "/images/type-2-diabetes-research-meal-order.jpg": {
+    "w": 1200,
+    "h": 676,
+    "avif": [
+      [
+        480,
+        "/images/v/type-2-diabetes-research-meal-order-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type-2-diabetes-research-meal-order-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type-2-diabetes-research-meal-order-1200.avif"
+      ]
+    ]
+  },
+  "/images/type2-diabetes-women-under-40-sex-bias.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/type2-diabetes-women-under-40-sex-bias-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type2-diabetes-women-under-40-sex-bias-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type2-diabetes-women-under-40-sex-bias-1200.avif"
+      ]
+    ]
+  },
+  "/images/walking-after-meals-blood-sugar.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/walking-after-meals-blood-sugar-480.avif"
+      ],
+      [
+        800,
+        "/images/v/walking-after-meals-blood-sugar-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/walking-after-meals-blood-sugar-1200.avif"
+      ]
+    ]
+  },
+  "/images/zone-2-or-hiit-after-40.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/zone-2-or-hiit-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/zone-2-or-hiit-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/zone-2-or-hiit-after-40-1200.avif"
+      ]
+    ]
+  },
+  "/recipes/images/01-beef-skewers-wine-sauce.jpeg": {
+    "w": 1024,
+    "h": 576,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/01-beef-skewers-wine-sauce-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/01-beef-skewers-wine-sauce-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/02-lemon-thyme-cookies.jpeg": {
+    "w": 1024,
+    "h": 1365,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/02-lemon-thyme-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/02-lemon-thyme-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/03-cottage-cheese-poppy-bake.jpeg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/03-cottage-cheese-poppy-bake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/03-cottage-cheese-poppy-bake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/04-avocado-ice-cream.jpg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/04-avocado-ice-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/04-avocado-ice-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/05-almond-pecan-cookies.jpeg": {
+    "w": 1024,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/05-almond-pecan-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/05-almond-pecan-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/06-carrot-cake-philadelphia.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/06-carrot-cake-philadelphia-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/06-carrot-cake-philadelphia-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/07-wholegrain-bread.jpeg": {
+    "w": 1024,
+    "h": 576,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/07-wholegrain-bread-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/07-wholegrain-bread-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/08-pearl-barley-kutia.jpeg": {
+    "w": 1024,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/08-pearl-barley-kutia-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/08-pearl-barley-kutia-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/09-pumpkin-muffins-halloween.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/09-pumpkin-muffins-halloween-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/09-pumpkin-muffins-halloween-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/10-lime-almond-dessert.jpeg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/10-lime-almond-dessert-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/10-lime-almond-dessert-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/100-granola-bars-date-coconut.jpg": {
+    "w": 1024,
+    "h": 378,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/100-granola-bars-date-coconut-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/100-granola-bars-date-coconut-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/101-granola-bars-5-ingredient.jpg": {
+    "w": 1024,
+    "h": 378,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/101-granola-bars-5-ingredient-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/101-granola-bars-5-ingredient-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/102-granola-bars-chocolate-chia.jpg": {
+    "w": 1024,
+    "h": 376,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/102-granola-bars-chocolate-chia-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/102-granola-bars-chocolate-chia-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/103-granola-bars-homemade.jpg": {
+    "w": 1024,
+    "h": 380,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/103-granola-bars-homemade-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/103-granola-bars-homemade-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/104-granola-bars-peanut-butter.jpg": {
+    "w": 1024,
+    "h": 382,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/104-granola-bars-peanut-butter-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/104-granola-bars-peanut-butter-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/105-ginger-cookies-almond-flour.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/105-ginger-cookies-almond-flour-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/105-ginger-cookies-almond-flour-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/106-coconut-balls.jpg": {
+    "w": 1024,
+    "h": 502,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/106-coconut-balls-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/106-coconut-balls-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/107-spiced-raisin-cookies.jpg": {
+    "w": 1024,
+    "h": 512,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/107-spiced-raisin-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/107-spiced-raisin-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/108-almond-cranberry-cookies.jpg": {
+    "w": 1024,
+    "h": 400,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/108-almond-cranberry-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/108-almond-cranberry-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/109-tiramisu-cookies.jpg": {
+    "w": 1024,
+    "h": 468,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/109-tiramisu-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/109-tiramisu-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/11-avocado-mayonnaise.jpg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/11-avocado-mayonnaise-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/11-avocado-mayonnaise-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/110-carrot-muffins.jpg": {
+    "w": 1024,
+    "h": 454,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/110-carrot-muffins-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/110-carrot-muffins-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/111-valentine-love-salad.jpg": {
+    "w": 1024,
+    "h": 307,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/111-valentine-love-salad-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/111-valentine-love-salad-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/112-shrimp-heart-appetizer.jpg": {
+    "w": 1024,
+    "h": 492,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/112-shrimp-heart-appetizer-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/112-shrimp-heart-appetizer-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/113-caprese-valentine-salad.jpg": {
+    "w": 1024,
+    "h": 435,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/113-caprese-valentine-salad-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/113-caprese-valentine-salad-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/114-valentine-heart-cookies.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/114-valentine-heart-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/114-valentine-heart-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/115-frozen-strawberry-yogurt.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/115-frozen-strawberry-yogurt-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/115-frozen-strawberry-yogurt-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/116-chocolate-avocado-pudding.jpg": {
+    "w": 1024,
+    "h": 472,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/116-chocolate-avocado-pudding-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/116-chocolate-avocado-pudding-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/117-beef-balsamic-tomatoes.jpg": {
+    "w": 1024,
+    "h": 652,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/117-beef-balsamic-tomatoes-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/117-beef-balsamic-tomatoes-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/118-garlic-lemon-shrimp.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/118-garlic-lemon-shrimp-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/118-garlic-lemon-shrimp-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/119-salmon-asparagus-foil.jpg": {
+    "w": 1000,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/119-salmon-asparagus-foil-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/119-salmon-asparagus-foil-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/12-oat-cookies-coconut-sugar.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/12-oat-cookies-coconut-sugar-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/12-oat-cookies-coconut-sugar-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/120-matcha-latte.jpg": {
+    "w": 1016,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/120-matcha-latte-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/120-matcha-latte-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/121-turmeric-latte.jpg": {
+    "w": 1024,
+    "h": 450,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/121-turmeric-latte-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/121-turmeric-latte-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/122-masala-chai-latte.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/122-masala-chai-latte-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/122-masala-chai-latte-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/123-yerba-mate.jpg": {
+    "w": 1000,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/123-yerba-mate-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/123-yerba-mate-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/124-london-fog.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/124-london-fog-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/124-london-fog-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/125-ginger-milk-cocktail.jpg": {
+    "w": 1022,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/125-ginger-milk-cocktail-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/125-ginger-milk-cocktail-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/126-cacao-latte.jpg": {
+    "w": 1000,
+    "h": 364,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/126-cacao-latte-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/126-cacao-latte-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/127-smoothie-popsicles-chia.jpg": {
+    "w": 1024,
+    "h": 588,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/127-smoothie-popsicles-chia-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/127-smoothie-popsicles-chia-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/128-lime-cheesecake.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/128-lime-cheesecake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/128-lime-cheesecake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/129-fig-tart.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/129-fig-tart-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/129-fig-tart-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/13-lemon-cookies-coconut-sugar.jpg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/13-lemon-cookies-coconut-sugar-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/13-lemon-cookies-coconut-sugar-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/130-avocado-coconut-ice-cream.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/130-avocado-coconut-ice-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/130-avocado-coconut-ice-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/131-pineapple-citrus-sorbet.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/131-pineapple-citrus-sorbet-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/131-pineapple-citrus-sorbet-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/132-yogurt-chia-pudding.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/132-yogurt-chia-pudding-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/132-yogurt-chia-pudding-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/133-easter-kulich-yeast-free.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/133-easter-kulich-yeast-free-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/133-easter-kulich-yeast-free-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/134-easter-kulich-coconut-flour.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/134-easter-kulich-coconut-flour-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/134-easter-kulich-coconut-flour-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/135-carob-chocolates.jpg": {
+    "w": 763,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/135-carob-chocolates-480.avif"
+      ],
+      [
+        763,
+        "/recipes/images/v/135-carob-chocolates-763.avif"
+      ]
+    ]
+  },
+  "/recipes/images/136-sugar-free-stollen.jpg": {
+    "w": 614,
+    "h": 496,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/136-sugar-free-stollen-480.avif"
+      ],
+      [
+        614,
+        "/recipes/images/v/136-sugar-free-stollen-614.avif"
+      ]
+    ]
+  },
+  "/recipes/images/137-chocolate-brownie-matcha-cream.jpg": {
+    "w": 650,
+    "h": 429,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/137-chocolate-brownie-matcha-cream-480.avif"
+      ],
+      [
+        650,
+        "/recipes/images/v/137-chocolate-brownie-matcha-cream-650.avif"
+      ]
+    ]
+  },
+  "/recipes/images/138-strawberry-breakfast-glass.jpg": {
+    "w": 950,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/138-strawberry-breakfast-glass-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/138-strawberry-breakfast-glass-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/139-pink-goji-cupcakes.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/139-pink-goji-cupcakes-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/139-pink-goji-cupcakes-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/14-lviv-cheesecake.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/14-lviv-cheesecake-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/14-lviv-cheesecake-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/140-strawberry-white-chocolate-tartlets.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/140-strawberry-white-chocolate-tartlets-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/140-strawberry-white-chocolate-tartlets-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/141-beetroot-heart-cakes.jpg": {
+    "w": 1024,
+    "h": 502,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/141-beetroot-heart-cakes-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/141-beetroot-heart-cakes-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/142-shrimp-tartlets.jpg": {
+    "w": 1024,
+    "h": 400,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/142-shrimp-tartlets-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/142-shrimp-tartlets-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/143-raw-new-year-cake.jpg": {
+    "w": 1024,
+    "h": 458,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/143-raw-new-year-cake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/143-raw-new-year-cake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/144-fish-stew-wine-veg.jpg": {
+    "w": 573,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/144-fish-stew-wine-veg-480.avif"
+      ],
+      [
+        573,
+        "/recipes/images/v/144-fish-stew-wine-veg-573.avif"
+      ]
+    ]
+  },
+  "/recipes/images/145-cabbage-cranberry-salad.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/145-cabbage-cranberry-salad-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/145-cabbage-cranberry-salad-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/146-salmon-tartlets.jpg": {
+    "w": 800,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/146-salmon-tartlets-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/146-salmon-tartlets-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/147-maslenitsa-pancakes-2.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/147-maslenitsa-pancakes-2-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/147-maslenitsa-pancakes-2-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/147-maslenitsa-pancakes-3.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/147-maslenitsa-pancakes-3-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/147-maslenitsa-pancakes-3-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/147-maslenitsa-pancakes.jpg": {
+    "w": 768,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/147-maslenitsa-pancakes-480.avif"
+      ],
+      [
+        768,
+        "/recipes/images/v/147-maslenitsa-pancakes-768.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-2.jpg": {
+    "w": 1024,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-2-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-2-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-3.jpg": {
+    "w": 1024,
+    "h": 1024,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-3-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-3-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-step1.jpg": {
+    "w": 900,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-step1-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-step1-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-step3.jpg": {
+    "w": 900,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-step3-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-step3-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-step5.jpg": {
+    "w": 900,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-step5-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-step5-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-step6.jpg": {
+    "w": 900,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-step6-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-step6-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad-step7.jpg": {
+    "w": 900,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-step7-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-step7-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/148-pear-courgette-salad.jpg": {
+    "w": 1024,
+    "h": 640,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/148-pear-courgette-salad-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/148-pear-courgette-salad-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/15-chocolate-ice-cream.jpg": {
+    "w": 1024,
+    "h": 864,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/15-chocolate-ice-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/15-chocolate-ice-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/16-vegetable-quiche-no-flour.jpg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/16-vegetable-quiche-no-flour-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/16-vegetable-quiche-no-flour-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/17-baked-fish-veg-herbs.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/17-baked-fish-veg-herbs-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/17-baked-fish-veg-herbs-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/18-carrot-coriander-soup.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/18-carrot-coriander-soup-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/18-carrot-coriander-soup-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/19-birthday-cake-sugar-free.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/19-birthday-cake-sugar-free-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/19-birthday-cake-sugar-free-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/20-meat-potato-pie-no-flour.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/20-meat-potato-pie-no-flour-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/20-meat-potato-pie-no-flour-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/21-almond-beetroot-cookies.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/21-almond-beetroot-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/21-almond-beetroot-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/22-carrot-cake-overnight-oats.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/22-carrot-cake-overnight-oats-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/22-carrot-cake-overnight-oats-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/23-apple-pudding-sugar-free.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/23-apple-pudding-sugar-free-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/23-apple-pudding-sugar-free-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/24-lemon-slices-sugar-free.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/24-lemon-slices-sugar-free-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/24-lemon-slices-sugar-free-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/25-gingerbread-cookies.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/25-gingerbread-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/25-gingerbread-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/26-chocolate-ginger-cake-avocado-cream.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/26-chocolate-ginger-cake-avocado-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/26-chocolate-ginger-cake-avocado-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/27-oat-pancakes-plums.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/27-oat-pancakes-plums-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/27-oat-pancakes-plums-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/28-meatballs-mandarin-herbs.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/28-meatballs-mandarin-herbs-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/28-meatballs-mandarin-herbs-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/29-blueberry-curd-tart.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/29-blueberry-curd-tart-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/29-blueberry-curd-tart-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/30-pumpkin-oat-pancakes-chocolate.jpg": {
+    "w": 534,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/30-pumpkin-oat-pancakes-chocolate-480.avif"
+      ],
+      [
+        534,
+        "/recipes/images/v/30-pumpkin-oat-pancakes-chocolate-534.avif"
+      ]
+    ]
+  },
+  "/recipes/images/31-dried-fruit-sweets.jpg": {
+    "w": 540,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/31-dried-fruit-sweets-480.avif"
+      ],
+      [
+        540,
+        "/recipes/images/v/31-dried-fruit-sweets-540.avif"
+      ]
+    ]
+  },
+  "/recipes/images/32-rabbit-rosemary.jpg": {
+    "w": 541,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/32-rabbit-rosemary-480.avif"
+      ],
+      [
+        541,
+        "/recipes/images/v/32-rabbit-rosemary-541.avif"
+      ]
+    ]
+  },
+  "/recipes/images/33-pumpkin-panna-cotta.jpg": {
+    "w": 1024,
+    "h": 355,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/33-pumpkin-panna-cotta-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/33-pumpkin-panna-cotta-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/34-pumpkin-bread.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/34-pumpkin-bread-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/34-pumpkin-bread-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/35-cherry-chia-cake.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/35-cherry-chia-cake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/35-cherry-chia-cake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/36-cranberry-curd-cake.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/36-cranberry-curd-cake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/36-cranberry-curd-cake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/37-buckwheat-cookies.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/37-buckwheat-cookies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/37-buckwheat-cookies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/38-mushroom-potato-tartlets.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/38-mushroom-potato-tartlets-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/38-mushroom-potato-tartlets-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/39-summer-berry-pie.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/39-summer-berry-pie-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/39-summer-berry-pie-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/40-layered-curd-cake.jpg": {
+    "w": 1024,
+    "h": 474,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/40-layered-curd-cake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/40-layered-curd-cake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/41-beetroot-crisps-rosemary.jpg": {
+    "w": 680,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/41-beetroot-crisps-rosemary-480.avif"
+      ],
+      [
+        680,
+        "/recipes/images/v/41-beetroot-crisps-rosemary-680.avif"
+      ]
+    ]
+  },
+  "/recipes/images/42-coffee-chocolate-cheesecake.jpg": {
+    "w": 1024,
+    "h": 355,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/42-coffee-chocolate-cheesecake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/42-coffee-chocolate-cheesecake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/43-ratatouille-yellow-tomatoes.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/43-ratatouille-yellow-tomatoes-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/43-ratatouille-yellow-tomatoes-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/44-sourdough-bread.jpg": {
+    "w": 1024,
+    "h": 355,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/44-sourdough-bread-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/44-sourdough-bread-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/45-rhubarb-strawberry-jam.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/45-rhubarb-strawberry-jam-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/45-rhubarb-strawberry-jam-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/46-chocolate-mousse-ice-cream.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/46-chocolate-mousse-ice-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/46-chocolate-mousse-ice-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/47-cornmeal-syrniki.jpg": {
+    "w": 1021,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/47-cornmeal-syrniki-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/47-cornmeal-syrniki-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/48-mushroom-chickpea-burger.jpg": {
+    "w": 1024,
+    "h": 355,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/48-mushroom-chickpea-burger-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/48-mushroom-chickpea-burger-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/49-strawberry-cheesecake.jpg": {
+    "w": 1024,
+    "h": 432,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/49-strawberry-cheesecake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/49-strawberry-cheesecake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/50-strawberry-basil-cake.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/50-strawberry-basil-cake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/50-strawberry-basil-cake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/51-cherry-cheesecake.jpg": {
+    "w": 1024,
+    "h": 355,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/51-cherry-cheesecake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/51-cherry-cheesecake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/52-chickpea-olive-avocado-salad.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/52-chickpea-olive-avocado-salad-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/52-chickpea-olive-avocado-salad-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/55-banana-ice-cream-pecan.jpg": {
+    "w": 650,
+    "h": 488,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/55-banana-ice-cream-pecan-480.avif"
+      ],
+      [
+        650,
+        "/recipes/images/v/55-banana-ice-cream-pecan-650.avif"
+      ]
+    ]
+  },
+  "/recipes/images/56-raw-brownies.jpg": {
+    "w": 1024,
+    "h": 754,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/56-raw-brownies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/56-raw-brownies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/57-raw-chocolate-mousse.jpg": {
+    "w": 1024,
+    "h": 684,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/57-raw-chocolate-mousse-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/57-raw-chocolate-mousse-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/58-chocolate-prune-dessert.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/58-chocolate-prune-dessert-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/58-chocolate-prune-dessert-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/59-berry-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/59-berry-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/59-berry-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/60-grapefruit-parsley-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/60-grapefruit-parsley-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/60-grapefruit-parsley-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/61-apple-celery-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/61-apple-celery-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/61-apple-celery-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/62-carrot-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/62-carrot-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/62-carrot-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/63-chocolate-nut-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/63-chocolate-nut-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/63-chocolate-nut-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/64-parsley-walnut-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/64-parsley-walnut-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/64-parsley-walnut-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/65-spinach-smoothie.jpg": {
+    "w": 640,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/65-spinach-smoothie-480.avif"
+      ],
+      [
+        640,
+        "/recipes/images/v/65-spinach-smoothie-640.avif"
+      ]
+    ]
+  },
+  "/recipes/images/66-easter-kulich-lavender.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/66-easter-kulich-lavender-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/66-easter-kulich-lavender-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/67-carrot-crisps-honey-yogurt.jpg": {
+    "w": 1024,
+    "h": 400,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/67-carrot-crisps-honey-yogurt-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/67-carrot-crisps-honey-yogurt-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/68-pineapple-chips.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/68-pineapple-chips-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/68-pineapple-chips-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/69-spiced-apple-chips.jpg": {
+    "w": 800,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/69-spiced-apple-chips-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/69-spiced-apple-chips-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/70-tomato-chips.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/70-tomato-chips-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/70-tomato-chips-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/71-banana-chips.jpg": {
+    "w": 1024,
+    "h": 442,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/71-banana-chips-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/71-banana-chips-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/72-orange-chocolate-truffles.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/72-orange-chocolate-truffles-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/72-orange-chocolate-truffles-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/73-nut-quinoa-pancakes.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/73-nut-quinoa-pancakes-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/73-nut-quinoa-pancakes-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/74-chewy-gummies.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/74-chewy-gummies-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/74-chewy-gummies-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/75-chocolate-coconut-nests.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/75-chocolate-coconut-nests-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/75-chocolate-coconut-nests-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/76-caramel-apples.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/76-caramel-apples-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/76-caramel-apples-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/77-marshmallow-zefir.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/77-marshmallow-zefir-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/77-marshmallow-zefir-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/78-lemon-coconut-balls.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/78-lemon-coconut-balls-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/78-lemon-coconut-balls-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/79-strawberry-cream-cheesecake.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/79-strawberry-cream-cheesecake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/79-strawberry-cream-cheesecake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/80-strawberry-banana-bake.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/80-strawberry-banana-bake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/80-strawberry-banana-bake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/81-coconut-chia-pudding-raspberry.jpg": {
+    "w": 1024,
+    "h": 768,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/81-coconut-chia-pudding-raspberry-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/81-coconut-chia-pudding-raspberry-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/82-rye-kulich-ginger-anise.jpg": {
+    "w": 1024,
+    "h": 800,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/82-rye-kulich-ginger-anise-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/82-rye-kulich-ginger-anise-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/83-rhubarb-jam.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/83-rhubarb-jam-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/83-rhubarb-jam-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/84-rhubarb-lavender-jam.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/84-rhubarb-lavender-jam-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/84-rhubarb-lavender-jam-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/85-turkey-meatloaf-parsley.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/85-turkey-meatloaf-parsley-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/85-turkey-meatloaf-parsley-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/86-chocolate-cake-nut-cream.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/86-chocolate-cake-nut-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/86-chocolate-cake-nut-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/87-broccoli-spinach-cream-soup.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/87-broccoli-spinach-cream-soup-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/87-broccoli-spinach-cream-soup-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/88-coconut-cheesecake.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/88-coconut-cheesecake-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/88-coconut-cheesecake-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/89-blueberry-jam.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/89-blueberry-jam-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/89-blueberry-jam-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/90-barley-mushroom-perlotto.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/90-barley-mushroom-perlotto-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/90-barley-mushroom-perlotto-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/91-fruit-popsicles.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/91-fruit-popsicles-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/91-fruit-popsicles-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/92-blackberry-sorbet.jpg": {
+    "w": 1024,
+    "h": 412,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/92-blackberry-sorbet-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/92-blackberry-sorbet-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/93-zucchini-spaghetti-salmon.jpg": {
+    "w": 1024,
+    "h": 500,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/93-zucchini-spaghetti-salmon-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/93-zucchini-spaghetti-salmon-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/94-maple-pumpkin-butter.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/94-maple-pumpkin-butter-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/94-maple-pumpkin-butter-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/95-pumpkin-hummus.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/95-pumpkin-hummus-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/95-pumpkin-hummus-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/96-pumpkin-ice-cream.jpg": {
+    "w": 1024,
+    "h": 355,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/96-pumpkin-ice-cream-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/96-pumpkin-ice-cream-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/97-pumpkin-yogurt.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/97-pumpkin-yogurt-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/97-pumpkin-yogurt-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/98-pumpkin-puree.jpg": {
+    "w": 1024,
+    "h": 356,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/98-pumpkin-puree-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/98-pumpkin-puree-800.avif"
+      ]
+    ]
+  },
+  "/recipes/images/99-granola-bars-blueberry.jpg": {
+    "w": 1024,
+    "h": 378,
+    "avif": [
+      [
+        480,
+        "/recipes/images/v/99-granola-bars-blueberry-480.avif"
+      ],
+      [
+        800,
+        "/recipes/images/v/99-granola-bars-blueberry-800.avif"
+      ]
+    ]
+  }
+}

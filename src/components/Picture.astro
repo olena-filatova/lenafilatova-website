@@ -1,0 +1,39 @@
+---
+/**
+ * One <img>, plus a smaller AVIF copy when we have one (OPS-305).
+ *
+ * Renders a <picture> offering AVIF at several widths and falling back to the
+ * original JPEG/PNG that every existing link, share card and RSS item already
+ * points at. Variants come from scripts/build-images.mjs via
+ * src/data/image-variants.json; an image absent from that manifest — a hero
+ * Lena has not supplied yet, or anything under 500px — renders as the same
+ * plain <img> it always did, so nothing here can break a page.
+ *
+ * `sizes` is how wide the picture will really be drawn. Without it the browser
+ * assumes the full viewport and takes the largest rung every time, which
+ * throws away most of the saving, so every call site passes one.
+ *
+ * Width/height are passed straight through rather than filled in from the
+ * manifest: several call sites omit them deliberately because the CSS well
+ * already carries an aspect-ratio, and quietly adding intrinsic dimensions
+ * would change how those boxes size themselves.
+ */
+import VARIANTS from '../data/image-variants.json';
+
+const { src, sizes, class: className, ...attrs } = Astro.props;
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = (p) => B + p;
+const variant = src ? VARIANTS[src] : null;
+const avif = variant?.avif?.length
+  ? variant.avif.map(([w, p]) => `${url(p)} ${w}w`).join(', ')
+  : null;
+---
+{avif ? (
+  <picture>
+    <source type="image/avif" srcset={avif} sizes={sizes} />
+    <img src={url(src)} class={className} {...attrs} />
+  </picture>
+) : (
+  <img src={url(src)} class={className} {...attrs} />
+)}

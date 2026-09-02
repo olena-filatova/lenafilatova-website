@@ -9,6 +9,7 @@ import DIMS from '../data/image-dims.json';
 import { UI as BLOG_UI, hasHero } from '../data/blog-lib.js';
 import { UI, tagPath } from '../data/tags-lib.js';
 import TagCloud from './TagCloud.astro';
+import Picture from './Picture.astro';
 import '../styles/blog.css';
 
 const { tag, lang = 'en' } = Astro.props;
@@ -18,6 +19,8 @@ const B = import.meta.env.BASE_URL;
 const hub = lang === 'ua' ? `${B}ua/blog/` : `${B}blog/`;
 const img = (src) => B.replace(/\/$/, '') + src;
 const dim = (src) => DIMS[src] || {};
+// Matches .blog-grid: three columns inside the 1072px content width.
+const CARD_SIZES = '(min-width: 1000px) 330px, (min-width: 620px) calc(50vw - 38px), calc(100vw - 48px)';
 const label = tag[lang];
 const intro = tag.intro?.[lang] || t.intro(label, tag.count);
 ---
@@ -41,7 +44,7 @@ const intro = tag.intro?.[lang] || t.intro(label, tag.count);
       {tag.resolved.map((p) => (
         <a class="bcard" href={`${hub}${p.slug}/`}>
           <div class="thumb">
-            {hasHero(p, DIMS) && <img src={img(p.image)} alt="" loading="lazy" decoding="async" width={dim(p.image).w} height={dim(p.image).h} />}
+            {hasHero(p, DIMS) && <Picture src={p.image} alt="" sizes={CARD_SIZES} loading="lazy" decoding="async" width={dim(p.image).w} height={dim(p.image).h} />}
             {p.comingSoon && <span class="soon">{bt.comingSoonBadge}</span>}
           </div>
           <div class="body">

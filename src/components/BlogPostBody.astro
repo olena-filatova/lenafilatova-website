@@ -5,6 +5,8 @@
 // The coming-soon post has no blocks: it shows the note + its short legacy body.
 import { UI, AUTHOR_BIO, articleToc, renderInline, relatedPosts, hasHero } from '../data/blog-lib.js';
 import { POSTS } from '../data/blog.js';
+import Picture from './Picture.astro';
+import VARIANTS from '../data/image-variants.json';
 import DIMS from '../data/image-dims.json';
 import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
 import '../styles/blog.css';
@@ -22,6 +24,22 @@ const img = (src) => B.replace(/\/$/, '') + src;
 // missing entry just omits the attributes, so new posts render fine before the
 // manifest is regenerated (see scripts/generate-image-dims.sh).
 const dim = (src) => DIMS[src] || {};
+// How wide the picture will actually be drawn, so the browser can pick a rung
+// from the AVIF ladder instead of always taking the largest. The measure is
+// 592px inside its padding; from 900px up figures break out 60px each side.
+const FIGURE_SIZES = '(min-width: 900px) 712px, calc(100vw - 48px)';
+// The "Keep reading" thumbnails are CSS backgrounds, not <img>, so <Picture>
+// cannot reach them. image-set() is the background equivalent: the plain url()
+// is declared first and stands as the fallback, then the second declaration
+// overrides it wherever image-set() is understood. The card is ~330px at its
+// widest, so the 480 rung is the one worth offering.
+const thumbBg = (src) => {
+  const small = VARIANTS[src]?.avif?.[0]?.[1];
+  const jpg = `url('${img(src)}')`;
+  return small
+    ? `background-image:${jpg};background-image:image-set(url('${img(small)}') type('image/avif'), ${jpg} type('image/jpeg'))`
+    : `background-image:${jpg}`;
+};
 const related = relatedPosts(post, POSTS);
 const isTool = post.filedUnder === 'tools';
 // Topics this article carries (OPS-367) — the reader's way from one piece
@@ -63,7 +81,7 @@ const toc = articleToc(a, t);
       <img> at the top of the article is worse than none, and the post should
       not be blocked from publishing while it waits (OPS-315). */}
   {hasHero(post, DIMS) &&
-    <figure><img src={img(post.image)} alt={a.imageAlt || a.title} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>}
+    <figure><Picture src={post.image} alt={a.imageAlt || a.title} sizes={FIGURE_SIZES} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>}
   <p class="lead">{a.lead}</p>
   {/* Contents. In the flow here on anything narrower than a desktop — a
       collapsible block under the standfirst — and lifted into the empty right
@@ -118,7 +136,7 @@ const toc = articleToc(a, t);
       if (b.t === 'h') return <h2 id={toc.ids.get(i)}>{b.text}</h2>;
       if (b.t === 'quote') return <blockquote>{b.text}</blockquote>;
       if (b.t === 'img' || b.t === 'graph')
-        return <figure><img src={img(b.src)} alt={b.alt} loading="lazy" width={dim(b.src).w} height={dim(b.src).h} />{b.cap && <figcaption>{b.cap}</figcaption>}</figure>;
+        return <figure><Picture src={b.src} alt={b.alt} sizes={FIGURE_SIZES} loading="lazy" width={dim(b.src).w} height={dim(b.src).h} />{b.cap && <figcaption>{b.cap}</figcaption>}</figure>;
       if (b.t === 'table')
         return <div class={b.wide ? 'tbl tbl-wide' : 'tbl'}><table>
           <thead><tr>{b.head.map((h) => <th>{h}</th>)}</tr></thead>
@@ -213,7 +231,7 @@ const toc = articleToc(a, t);
     <div class="rel-grid">
       {related.map((p) => (
         <a class="rel-card" href={`${L}blog/${p.slug}/`}>
-          <div class="thumb" style={`background-image:url('${img(p.image)}')`}></div>
+          <div class="thumb" style={thumbBg(p.image)}></div>
           <div class="body">
             <p class="cat">{p[lang].cat}</p>
             <h3>{p[lang].title}</h3>

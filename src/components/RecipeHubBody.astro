@@ -16,6 +16,7 @@ import { PUBLISHED } from '../data/recipes.js';
 import { CAT_HUB, warnRecipeAssetGaps } from '../data/recipes-lib.js';
 import DIMS from '../data/image-dims.json';
 import '../styles/recipes.css';
+import Picture from './Picture.astro';
 
 const { lang = 'en' } = Astro.props;
 const B = import.meta.env.BASE_URL;
@@ -25,6 +26,9 @@ const altHubHref = lang === 'ua' ? `${B}recipes/` : `${B}ua/recipes/`;
 const otherLang = lang === 'ua' ? 'en' : 'ua';
 const R = lang === 'ua' ? `${B}ua/recipes/` : `${B}recipes/`;
 const IMG = `${B}recipes/images/`;
+// Card grid width, so a thumbnail takes a 480px rung rather than a 1200px
+// one off the AVIF ladder (OPS-305).
+const RX_CARD_SIZES = '(min-width: 1000px) 330px, (min-width: 620px) calc(50vw - 38px), calc(100vw - 48px)';
 // Card thumbnails take alt="" on purpose: the caption underneath already names
 // the recipe, so describing the photo too makes a screen reader read every card
 // twice across an 86-card grid. Same convention as the blog hub. The real
@@ -244,7 +248,7 @@ const T = {
       {orderedRecipes.map((r, i) => (
         <a class={`rcard${i >= INITIAL ? ' hidden' : ''}`} href={`${R}${r.slug}/`} data-cat={r.cat} data-diet={(r.tags || []).join(' ')}>
           <div class="thumb">
-            <img src={`${IMG}${r.img}`} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt="" />
+            <Picture src={`/recipes/images/${r.img}`} sizes={RX_CARD_SIZES} loading={i < EAGER ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} decoding="async" alt="" />
             {typeof r.gi === 'number' && <span class="gi-plaque"><b>{r.gi}</b><span>GI</span></span>}
           </div>
           <div class="body">

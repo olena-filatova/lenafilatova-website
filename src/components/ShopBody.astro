@@ -14,12 +14,15 @@
 //
 // Still no cart, prices or checkout: nothing is on sale yet (see shop.js).
 import { SHOP } from '../data/shop.js';
+import Picture from './Picture.astro';
 
 const { lang = 'en' } = Astro.props;
 const t = SHOP[lang];
 const B = import.meta.env.BASE_URL;
 const L = lang === 'ua' ? `${B}ua/` : B;
 const img = (src) => B.replace(/\/$/, '') + src;
+// .sh-item is a 0.9fr / 1.1fr split of the 1072px content width.
+const SHOP_SIZES = '(min-width: 1000px) 460px, calc(100vw - 48px)';
 ---
 <section class="sh-head">
   <div class="wrap">
@@ -45,7 +48,7 @@ const img = (src) => B.replace(/\/$/, '') + src;
       {t.items.map((p, i) => (
         <li class="sh-item">
           <div class="sh-ph">
-            <img src={img(SHOP.imgs[i])} alt={p.title} loading="lazy" />
+            <Picture src={SHOP.imgs[i]} alt={p.title} sizes={SHOP_SIZES} loading="lazy" />
             {!p.available && <span class="sh-soon">{t.soon}</span>}
           </div>
           <div class="sh-body">
