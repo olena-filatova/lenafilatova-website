@@ -1,6 +1,6 @@
 # Blog fact-check log (OPS-370)
 
-State file for the rolling fact-check of every post in `src/data/blog.js`.
+State file for the rolling fact-check of every post in `src/data/posts/`.
 Two posts are checked per run, newest first, one run every two hours.
 
 **This file is the only source of truth for where the sweep has got to.** A run
@@ -14,7 +14,7 @@ on position.
 ## How a run works
 
 1. Read this file; pick the next two `pending` slugs.
-2. Pull each post's `en` and `ua` content out of `src/data/blog.js`.
+2. Pull each post's `en` and `ua` content out of its `src/data/posts/<slug>.js` file.
 3. Check every numeric claim, study description, `refs` entry and internal link
    against a primary source. `WebSearch` works in these sessions; most publisher
    domains are blocked to `WebFetch`, so lean on search result summaries and
