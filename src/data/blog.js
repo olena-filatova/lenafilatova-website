@@ -45,7 +45,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Fitness 40+",
-      "imageAlt": "A woman gripping a loaded barbell on a gym floor, mid-set.",
+      "imageAlt": "A woman pressing a loaded barbell overhead in a gym, seen from behind.",
       "title": "The women who lifted lost the least weight — and the most fat",
       "seoTitle": "Lifting Beat Cardio for Fat Loss in Women",
       "metaDesc": "In a 304-person DXA study, women who lifted lost 5.4 kg on the scale but 6.4 kg of fat — and were the only group to gain muscle. What that means in practice.",
@@ -157,7 +157,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Фітнес 40+",
-      "imageAlt": "Жінка тримає штангу зі млинцями в залі, посеред підходу.",
+      "imageAlt": "Жінка вижимає навантажену штангу над головою у спортзалі, вид ззаду.",
       "title": "Жінки, які піднімали ваги, схудли найменше — і втратили найбільше жиру",
       "seoTitle": "Силові переграли кардіо у втраті жиру в жінок",
       "metaDesc": "У дослідженні на 304 особах жінки, які тренувалися з вагою, втратили 5,4 кг на терезах, але 6,4 кг жиру — і єдині наростили м'язи. Що це означає на практиці.",
@@ -264,6 +264,1860 @@ export const POSTS = [
         {
           "q": "Скільки білка вони їли?",
           "a": "Білок призначали з розрахунку 1,5 г на кілограм маси тіла на добу — приблизно 100 г для людини вагою 67 кг, і помітно більше, ніж більшість їсть за замовчуванням. План складав дієтолог, із регулярними зустрічами. Силові — лише половина того, що тут перевіряли; білок і супровід навколо нього — друга половина."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "stanford-six-supplements-women-40",
+    "tags": [
+      "supplements",
+      "protein",
+      "creatine",
+      "bone-health",
+      "fibre",
+      "perimenopause",
+      "collagen"
+    ],
+    "date": "2026-08-31",
+    "image": "/images/stanford-six-supplements-women-40.jpg",
+    "cats": [
+      "nutrition",
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Nutrition",
+      "imageAlt": "Citrus halves, small yellow supplement beads and brown capsules on a pale wooden surface, seen from above.",
+      "title": "What Stanford actually recommends for women over 40 — and the two things the internet added",
+      "seoTitle": "Stanford’s Top 6 Supplements for Women 40+",
+      "metaDesc": "Stanford’s list for women 40+ is creatine, protein, vitamin D3, calcium, omega-3 and fibre. Magnesium is not on it, collagen is a caution — and the doses read differently in the UK.",
+      "excerpt": "A Stanford list of the supplements women over 40 should take has been circulating all summer, usually rewritten into something the original does not say. So I read the original. Magnesium is not on it. Collagen appears only as a warning. And omega-3 has no dose at all.",
+      "meta": "31 August 2026 · 8 min read",
+      "lead": "A Stanford list of the supplements women over 40 should be taking has been going round all summer, and the versions I kept being sent had magnesium at the top, collagen in the middle and a confident two-to-three grams of omega-3 attached to it. So I went and read the original. It says none of those things.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "First, what it actually is. “Top 6 Supplements for Women 40+” was published by Stanford Lifestyle Medicine on 6 March 2025 — not this summer — and written by Maya Shetty and Felicia Song around the work of Rachele Pojednic, a nutrition and exercise researcher there. It is an expert interview with the underlying studies linked, not a systematic review and not a clinical guideline. That is worth knowing before you weigh it. It is a well-informed researcher’s reading of her field, which is a good thing to have. It is not evidence that has been pooled, graded and signed off by a panel, and it does not claim to be."
+        },
+        {
+          "t": "h",
+          "text": "The six, in Stanford’s own order"
+        },
+        {
+          "t": "p",
+          "text": "Creatine comes first. Three to five grams a day, at any time that suits you, with no loading phase — the same conclusion I reached when I went through [the perimenopause creatine trials](/blog/creatine-women-over-40/). Protein is second: 1.2 to 1.6 grams per kilogram of body weight a day, which Pojednic translates into a practical 80 to 100 grams, against the 40 to 60 grams she says most women actually eat. Third is vitamin D3, at 800 to 4,000 IU a day. Fourth, calcium, at 1,000 mg a day for women in their forties. Fifth, omega-3. Sixth, fibre — 25 grams a day, and the article is firm that this one belongs in your food, with psyllium husk, inulin or methylcellulose only if the food is not getting you there."
+        },
+        {
+          "t": "p",
+          "text": "Read as a whole, it is a strikingly unglamorous list. Four of the six are things you could get from a supermarket rather than a supplement company, and two of them — protein and fibre — are not supplements at all in any normal sense of the word. That is probably why the version of this list that has been going round all summer looks quite different from the original."
+        },
+        {
+          "t": "h",
+          "text": "The two that are not on the list"
+        },
+        {
+          "t": "p",
+          "text": "Magnesium is not in the article. Not as a seventh mention, not as an aside, not in the section on sleep — the word does not appear once. I went looking for it specifically, because nearly every summary I had seen attached to this list opens with magnesium glycinate. That absence is not the same as a verdict against it, and I am not reading it as one; I have written separately about [what the magnesium evidence in perimenopause does and does not support](/blog/magnesium-perimenopause-sleep-insulin-resistance/), and the honest summary there is that the blood-sugar biology is real and the sleep trials are thin. But if you were told Stanford put magnesium at the centre of midlife supplementation, you were told something the page does not say."
+        },
+        {
+          "t": "p",
+          "text": "Collagen does appear — once, and as a caution. The article notes that collagen supplements are marketed for skin, hair and nail health, then points out that collagen is an incomplete protein, does not contain all the essential amino acids, and should not be relied on as a primary protein source ahead of complete protein supplements or whole foods. It is in the piece as a caveat inside the protein section, not as a recommendation. Which means the two supplements most heavily sold to women over 40 turn up in Stanford’s list of supplements for women over 40 as an absence and a warning."
+        },
+        {
+          "t": "h",
+          "text": "The doses read differently from here"
+        },
+        {
+          "t": "p",
+          "text": "Stanford is writing for American readers, and two of the numbers land differently against UK guidance. On vitamin D, the NHS recommends 10 micrograms — 400 IU — a day for adults, and says everyone should consider taking that through autumn and winter, with some groups needing it year-round. It also says not to take more than 100 micrograms, or 4,000 IU, a day, because more can be harmful. So Stanford’s range of 800 to 4,000 IU runs from twice the NHS recommendation up to the exact point the NHS calls the safe ceiling. The top of that range is a limit, not a target, and Pojednic says as much herself: excessive intake gives diminishing returns, and a blood test is the way to find your own number."
+        },
+        {
+          "t": "p",
+          "text": "On calcium, the NHS figure for adults aged 19 to 64 is 700 mg a day, not 1,000 mg — and it puts the point where high doses start causing problems at more than 1,500 mg. The gap between 700 and 1,000 is not alarming, and both sit well below that. But it is the difference between a target you are probably already hitting from food and one you might go and buy a tub for, so it is worth knowing which country’s number you are being quoted."
+        },
+        {
+          "t": "h",
+          "text": "What the omega-3 entry really says"
+        },
+        {
+          "t": "p",
+          "text": "This is the one I would most want corrected, because the figure attached to it in circulation — two to three grams of EPA and DHA a day — is not in the article. Stanford gives no omega-3 dose at all. What it gives is a preference for whole food sources, fatty fish first, and purified fish oil if you are supplementing. And it ends the section with a sentence that should probably be printed at the top of every supplement list written for women: most of the research has been done in men, so more studies are needed to understand the effects in female athletes and ageing women. Stanford is telling you, inside its own recommendation, how thin the female-specific evidence is."
+        },
+        {
+          "t": "p",
+          "text": "The article closes on something easy to skip past. Its final section is about exercise, and the argument is that none of the six can substitute for it — protein and creatine supply the raw material, but muscle contraction is the signal, and Pojednic asks for resistance training at least two to three times a week. If you take one thing from a supplement list, it may as well be the part where the supplement list says the supplements are not the point."
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "The Stanford article is an expert interview from March 2025, not a new 2026 review.",
+              "detail": "“Top 6 Supplements for Women 40+”, published 6 March 2025 by Stanford Lifestyle Medicine and written by Maya Shetty, BS and Felicia Song, BS, built around comments from Rachele Pojednic, PhD, a nutrition and exercise researcher at Stanford Lifestyle Medicine, with Gray Shimko, RD of the Stanford Menopause and Healthy Aging programme quoted on fibre. Supporting studies are hyperlinked in the text rather than pooled or graded; the piece is filed under Women’s Health, Healthful Nutrition and Supplements.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 March 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            },
+            {
+              "claim": "The six are creatine, protein, vitamin D3, calcium, omega-3 and fibre — with doses for four of them.",
+              "detail": "Creatine: three to five grams a day, timing irrelevant, no loading phase, with a preference for a water-based rather than acid-based wash. Protein: 1.2 to 1.6 g per kilogram of body weight a day, described as a practical 80 to 100 g, against a stated typical intake of 40 to 60 g. Vitamin D3 (cholecalciferol): 800 to 4,000 IU a day, with deficiency defined as under 50 nmol/L and inadequacy under 29 ng/ml. Calcium: 1,000 mg a day for women in their forties. Omega-3: no dose given. Fibre: 25 g a day, from food where possible.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 March 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            },
+            {
+              "claim": "Magnesium does not appear in the article at all, and collagen appears only as a caution.",
+              "detail": "A full-text read of the article returns no occurrence of the word magnesium. Collagen occurs only within the protein section, where the article states that collagen supplements are marketed for skin, hair and nail health but that collagen is an incomplete protein, lacks the full set of essential amino acids, and should not be relied upon as a primary protein source over complete protein supplements or whole foods. Neither appears among the six.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 March 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            },
+            {
+              "claim": "UK guidance sets vitamin D at 400 IU with a 4,000 IU ceiling, and calcium at 700 mg.",
+              "detail": "The NHS states that adults need 10 micrograms of vitamin D a day — 40 IU per microgram, so 400 IU — and that everyone should consider a daily 10 microgram supplement during autumn and winter, with year-round supplementation advised for people who are rarely outdoors, who cover their skin, or who have dark skin. It also states that adults should not take more than 100 micrograms (4,000 IU) a day as it could be harmful. Separately, the NHS gives the calcium requirement for adults aged 19 to 64 as 700 mg a day, and notes that doses above 1,500 mg a day could cause stomach pain and diarrhoea.",
+              "cite": "NHS · Vitamins and minerals: vitamin D; and Vitamins and minerals: calcium",
+              "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/"
+            },
+            {
+              "claim": "Stanford states plainly that the omega-3 evidence is mostly from men.",
+              "detail": "The omega-3 section carries no dose recommendation. It advises prioritising whole food sources such as salmon, sardines and mackerel, and choosing high-quality purified fish oil where a supplement is used. It closes by stating that while omega-3s have well-documented benefits, most research has been conducted in men, so more studies are needed to fully understand their effects in female athletes and ageing women.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 March 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Creatine for women over 40: what the perimenopause trials actually found",
+              "url": "/blog/creatine-women-over-40/",
+              "desc": "Stanford’s number one, and the trials behind the three-to-five gram figure."
+            },
+            {
+              "name": "Protein for women over 40: how much do you actually need?",
+              "url": "/blog/protein-for-women-over-40/",
+              "desc": "Where the 1.2 to 1.6 g/kg target comes from, and why the UK guideline falls short after 40."
+            },
+            {
+              "name": "Magnesium for perimenopause sleep and insulin resistance",
+              "url": "/blog/magnesium-perimenopause-sleep-insulin-resistance/",
+              "desc": "The supplement Stanford left out — what the evidence for it does and does not support."
+            },
+            {
+              "name": "Do collagen products actually improve your skin?",
+              "url": "/blog/collagen-and-skin/",
+              "desc": "The other one that is not on the list, looked at on its own terms."
+            },
+            {
+              "name": "Eating more protein than the official guideline supports better muscle and bone after menopause",
+              "url": "/blog/higher-protein-postmenopausal-bone-muscle/",
+              "desc": "The bone and muscle evidence behind the protein entry."
+            },
+            {
+              "name": "A fibre-free diet inflamed the gut in mice",
+              "url": "/blog/fibre-deficiency-gut-inflammation/",
+              "desc": "Number six on the list, and how carefully to read the fibre research."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Stanford recommend magnesium for women over 40?",
+          "a": "Not in this article. Stanford Lifestyle Medicine’s “Top 6 Supplements for Women 40+” does not mention magnesium once — the six are creatine, protein, vitamin D3, calcium, omega-3 and fibre. Plenty of summaries of that list put magnesium glycinate at the top, but they are adding it. That absence is not a verdict against magnesium, and it is not evidence of harm; it simply means you should not cite Stanford for it. If you want the actual state of the magnesium evidence in midlife, I have gone through it in my separate piece on magnesium in perimenopause: the blood-sugar mechanism is real, and the sleep trials are much weaker than the marketing suggests."
+        },
+        {
+          "q": "How much vitamin D should I take, in the UK?",
+          "a": "The NHS advice is 10 micrograms — 400 IU — a day, and it recommends everyone consider taking that through autumn and winter, when UK sunlight is too weak for your skin to make its own. Some people need it all year: if you are rarely outdoors, live in a care setting, usually cover your skin, or have dark skin. The NHS also sets a clear ceiling: do not take more than 100 micrograms, or 4,000 IU, a day. Stanford’s 800 to 4,000 IU range therefore starts at twice the UK recommendation and ends exactly at the UK safety limit, so treat the top of it as a boundary rather than a goal. If you want to know your own number rather than guess, ask for a blood test. And take it with something fatty — Stanford’s one genuinely practical tip is that taking vitamin D3 alongside a fat-containing supplement such as fish oil improves how much of it you absorb."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Харчування",
+      "imageAlt": "Половинки цитрусових, дрібні жовті гранули добавок і коричневі капсули на світлій дерев'яній поверхні, вид згори.",
+      "title": "Що Stanford насправді радить жінкам після 40 — і дві речі, які додав інтернет",
+      "seoTitle": "Топ-6 добавок Stanford для жінок після 40",
+      "metaDesc": "Стенфордський список для жінок після 40 — це креатин, білок, вітамін D3, кальцій, омега-3 і клітковина. Магнію в ньому немає, колаген там як засторога, а дози з британських норм читаються інакше.",
+      "excerpt": "Стенфордський список добавок для жінок після 40 ходить мережею все літо — зазвичай переписаний у те, чого оригінал не каже. Тож я прочитала оригінал. Магнію в ньому немає. Колаген згадано лише як застереження. А для омега-3 не названо жодної дози.",
+      "meta": "31 серпня 2026 · 8 хв читання",
+      "lead": "Стенфордський список добавок, які нібито мають приймати жінки після 40, ходить мережею все літо, і у версіях, які мені надсилали, зверху був магній, посередині колаген, а до всього впевнено доклеєні два-три грами омега-3. Тож я пішла й прочитала оригінал. Нічого з цього там немає.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Спершу — що це насправді таке. Матеріал «Top 6 Supplements for Women 40+» вийшов у Stanford Lifestyle Medicine 6 березня 2025 року — не цього літа — і написали його Мая Шетті та Фелісія Сонг навколо коментарів Рейчел Поєднич, дослідниці харчування і фізичних навантажень. Це інтерв’ю з експерткою з посиланнями на дослідження, а не систематичний огляд і не клінічна настанова. Це варто знати, перш ніж зважувати прочитане. Це компетентне прочитання поля однією дослідницею — річ корисна. Але це не докази, які хтось зібрав, оцінив і затвердив панеллю експертів, і сам матеріал на це не претендує."
+        },
+        {
+          "t": "h",
+          "text": "Шість пунктів у порядку самого Stanford"
+        },
+        {
+          "t": "p",
+          "text": "Першим іде креатин. Три-п’ять грамів на день, у будь-який зручний час, без фази завантаження — того самого висновку я дійшла, коли розбирала [дослідження креатину в перименопаузі](/ua/blog/creatine-women-over-40/). Другим — білок: 1,2–1,6 грама на кілограм маси тіла на добу, що Поєднич перекладає у практичні 80–100 грамів проти 40–60 грамів, які, за її словами, більшість жінок їдять насправді. Третій — вітамін D3, 800–4000 МО на день. Четвертий — кальцій, 1000 мг на день для жінок у сорок із чимось. П’ятий — омега-3. Шостий — клітковина, 25 грамів на день, і матеріал наполягає, що це має бути їжа, а лушпиння подорожника, інулін чи метилцелюлоза — лише якщо їжі не вистачає."
+        },
+        {
+          "t": "p",
+          "text": "Якщо читати список цілком, він напрочуд негламурний. Чотири з шести пунктів можна купити в супермаркеті, а не в компанії, що продає добавки, а два з них — білок і клітковина — узагалі не є добавками в звичному значенні слова. Мабуть, саме тому версія цього списку, яка ходить мережею все літо, виглядає геть інакше за оригінал."
+        },
+        {
+          "t": "h",
+          "text": "Двох пунктів у списку немає"
+        },
+        {
+          "t": "p",
+          "text": "Магнію в матеріалі немає. Ні сьомим пунктом, ні побіжно, ні в розділі про сон — це слово не трапляється жодного разу. Я шукала його спеціально, бо майже кожен переказ цього списку, який я бачила, починається з магнію гліцинату. Ця відсутність не є вироком магнію, і я так її не читаю; я окремо писала про те, [що доказова база магнію в перименопаузі підтверджує, а що ні](/ua/blog/magnesium-perimenopause-sleep-insulin-resistance/), і чесний підсумок там такий: біологія щодо цукру крові справжня, а дослідження сну — слабкі. Але якщо вам сказали, що Stanford поставив магній у центр підтримки в середньому віці, вам сказали те, чого на сторінці немає."
+        },
+        {
+          "t": "p",
+          "text": "Колаген у тексті є — один раз і як засторога. Матеріал зазначає, що колагенові добавки продають для шкіри, волосся і нігтів, а тоді нагадує: колаген — неповноцінний білок, він не містить усіх незамінних амінокислот, і покладатися на нього як на основне джерело білка замість повноцінних білкових добавок чи цілісної їжі не варто. Він стоїть у розділі про білок як застереження, а не як рекомендація. Тобто дві добавки, які найактивніше продають жінкам після 40, з’являються у стенфордському списку добавок для жінок після 40 як відсутність і як попередження."
+        },
+        {
+          "t": "h",
+          "text": "Дози звідси читаються інакше"
+        },
+        {
+          "t": "p",
+          "text": "Stanford пише для американських читачок, і два числа лягають інакше на британські настанови. Щодо вітаміну D NHS рекомендує дорослим 10 мікрограмів — 400 МО — на день і радить усім думати про таку добавку восени та взимку, а деяким групам — цілий рік. NHS також каже не перевищувати 100 мікрограмів, тобто 4000 МО, на добу, бо більше може шкодити. Тож стенфордський діапазон 800–4000 МО починається з подвійної британської норми й закінчується рівно там, де NHS ставить межу безпеки. Верхівка цього діапазону — межа, а не мета, і сама Поєднич каже те саме: надлишок дає дедалі менше користі, а знайти свою цифру допомагає аналіз крові."
+        },
+        {
+          "t": "p",
+          "text": "Щодо кальцію британська норма для дорослих 19–64 років — 700 мг на день, а не 1000 мг; проблеми від високих доз NHS відносить до понад 1500 мг. Різниця між 700 і 1000 не тривожна, і обидві цифри значно нижчі за ту межу. Але це різниця між нормою, яку ви, найпевніше, вже добираєте з їжі, і нормою, заради якої можна піти й купити банку добавки, — тож варто знати, чиєї країни число вам цитують."
+        },
+        {
+          "t": "h",
+          "text": "Що насправді написано про омега-3"
+        },
+        {
+          "t": "p",
+          "text": "Оце місце я виправляла б найперше, бо цифри, яку до нього чіпляють у переказах — два-три грами EPA і DHA на день, — у матеріалі немає. Stanford не дає жодної дози омега-3. Він дає перевагу цілісній їжі, передусім жирній рибі, і очищеній риб’ячій олії, якщо вже добавка. А завершується розділ реченням, яке варто було б друкувати на початку кожного списку добавок для жінок: більшість досліджень зроблено на чоловіках, тож потрібно більше робіт, щоб зрозуміти вплив на спортсменок і жінок, які старішають. Stanford усередині власної рекомендації каже вам, наскільки тонка доказова база саме для жінок."
+        },
+        {
+          "t": "p",
+          "text": "Закінчується матеріал тим, що легко проминути. Останній розділ — про фізичну активність, і аргумент такий: жоден із шести пунктів її не замінить. Білок і креатин дають сировину, але сигналом до росту є скорочення м’яза, і Поєднич просить силові тренування щонайменше два-три рази на тиждень. Якщо забрати зі списку добавок одну річ, хай це буде та частина, де список добавок каже, що річ не в добавках."
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Стенфордський матеріал — це інтерв’ю з експерткою від березня 2025 року, а не новий огляд 2026-го.",
+              "detail": "«Top 6 Supplements for Women 40+», опубліковано 6 березня 2025 року в Stanford Lifestyle Medicine; автори — Maya Shetty, BS і Felicia Song, BS, матеріал побудовано на коментарях Rachele Pojednic, PhD, дослідниці харчування і фізичних навантажень у Stanford Lifestyle Medicine; про клітковину коментує Gray Shimko, RD з програми Stanford Menopause and Healthy Aging. Дослідження додано гіперпосиланнями в тексті, їх не об’єднували і не оцінювали за рівнем доказовості.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 березня 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            },
+            {
+              "claim": "Шість пунктів — креатин, білок, вітамін D3, кальцій, омега-3 і клітковина; дози названо для чотирьох.",
+              "detail": "Креатин: три-п’ять грамів на день, час прийому не має значення, фаза завантаження не потрібна. Білок: 1,2–1,6 г на кілограм маси тіла на добу, практично 80–100 г, проти типових 40–60 г. Вітамін D3 (холекальциферол): 800–4000 МО на день; дефіцит визначено як менше ніж 50 нмоль/л, недостатність — менше ніж 29 нг/мл. Кальцій: 1000 мг на день для жінок у сорок із чимось. Омега-3: дозу не названо. Клітковина: 25 г на день, за можливості з їжі.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 березня 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            },
+            {
+              "claim": "Магній у матеріалі не згадано жодного разу, а колаген згадано лише як засторогу.",
+              "detail": "Повнотекстовий перегляд матеріалу не дає жодного входження слова «магній». Колаген трапляється лише в розділі про білок: там сказано, що колагенові добавки продають для шкіри, волосся і нігтів, але колаген є неповноцінним білком, не містить усіх незамінних амінокислот і не має бути основним джерелом білка замість повноцінних білкових добавок чи цілісної їжі. Жодного з двох немає серед шести пунктів.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 березня 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            },
+            {
+              "claim": "Британські настанови дають вітамін D 400 МО з межею 4000 МО, а кальцій — 700 мг.",
+              "detail": "NHS зазначає, що дорослим потрібно 10 мікрограмів вітаміну D на день (40 МО в мікрограмі, тобто 400 МО) і що всім варто розглянути щоденну добавку 10 мкг восени та взимку, а цілий рік — тим, хто рідко буває надворі, закриває шкіру одягом або має темну шкіру. NHS також зазначає, що дорослим не слід приймати понад 100 мікрограмів (4000 МО) на добу, бо це може шкодити. Окремо NHS подає потребу в кальції для дорослих 19–64 років як 700 мг на день і зазначає, що дози понад 1500 мг на добу можуть спричиняти біль у шлунку та діарею.",
+              "cite": "NHS · Vitamins and minerals: vitamin D; Vitamins and minerals: calcium",
+              "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/"
+            },
+            {
+              "claim": "Stanford прямо пише, що дані щодо омега-3 здебільшого зібрані на чоловіках.",
+              "detail": "У розділі про омега-3 немає рекомендованої дози. Радять надавати перевагу цілісним джерелам — лососю, сардинам, скумбрії — і обирати якісну очищену риб’ячу олію, якщо йдеться про добавку. Завершується розділ твердженням, що попри добре задокументовану користь омега-3 більшість досліджень проведено на чоловіках, тож потрібно більше робіт, щоб зрозуміти їхній вплив на спортсменок і жінок, які старішають.",
+              "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 березня 2025",
+              "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Що почитати ще",
+          "items": [
+            {
+              "name": "Креатин для жінок після 40: що насправді показали дослідження в перименопаузі",
+              "url": "/ua/blog/creatine-women-over-40/",
+              "desc": "Пункт номер один у Stanford і дослідження за цифрою «три-п’ять грамів»."
+            },
+            {
+              "name": "Білок для жінок після 40: скільки насправді потрібно?",
+              "url": "/ua/blog/protein-for-women-over-40/",
+              "desc": "Звідки взялася норма 1,2–1,6 г/кг і чому британська настанова після 40 замала."
+            },
+            {
+              "name": "Магній для сну та інсулінорезистентності в перименопаузі",
+              "url": "/ua/blog/magnesium-perimenopause-sleep-insulin-resistance/",
+              "desc": "Добавка, яку Stanford не згадав, — що доказова база підтверджує, а що ні."
+            },
+            {
+              "name": "Чи справді колагенові засоби покращують шкіру?",
+              "url": "/ua/blog/collagen-and-skin/",
+              "desc": "Другий пункт, якого немає в списку, розібраний окремо."
+            },
+            {
+              "name": "Білка більше за офіційну норму — краще для м’язів і кісток після менопаузи",
+              "url": "/ua/blog/higher-protein-postmenopausal-bone-muscle/",
+              "desc": "Дані про кістки і м’язи, що стоять за пунктом про білок."
+            },
+            {
+              "name": "Дієта без клітковини викликала запалення кишківника в мишей",
+              "url": "/ua/blog/fibre-deficiency-gut-inflammation/",
+              "desc": "Шостий пункт списку і те, наскільки обережно читати дослідження клітковини."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи рекомендує Stanford магній жінкам після 40?",
+          "a": "У цьому матеріалі — ні. У «Top 6 Supplements for Women 40+» від Stanford Lifestyle Medicine магній не згадано жодного разу: шість пунктів — це креатин, білок, вітамін D3, кальцій, омега-3 і клітковина. Багато переказів цього списку ставлять магній гліцинат на перше місце, але вони його додають. Ця відсутність не є вироком магнію і не свідчить про шкоду — просто не посилайтеся на Stanford у цьому питанні. Якщо хочете реальний стан доказів щодо магнію в середньому віці, я розібрала його в окремому тексті про магній у перименопаузі: механізм щодо цукру крові справжній, а дослідження сну значно слабші, ніж обіцяє маркетинг."
+        },
+        {
+          "q": "Скільки вітаміну D приймати — за британськими нормами?",
+          "a": "NHS радить 10 мікрограмів — 400 МО — на день і рекомендує всім розглянути таку добавку восени та взимку, коли британського сонця замало, щоб шкіра виробляла вітамін сама. Декому він потрібен цілий рік: тим, хто рідко буває надворі, живе в закладі догляду, зазвичай закриває шкіру одягом або має темну шкіру. NHS також ставить чітку межу: не більше ніж 100 мікрограмів, тобто 4000 МО, на добу. Отже, стенфордський діапазон 800–4000 МО починається з подвійної британської норми й закінчується рівно на британській межі безпеки, тож верхівку варто сприймати як кордон, а не як ціль. Якщо хочете знати свою цифру, а не вгадувати, попросіть аналіз крові. І приймайте з чимось жирним — єдина справді практична порада Stanford полягає в тому, що вітамін D3 разом із жировмісною добавкою на кшталт риб’ячої олії засвоюється краще."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "smartwatch-insulin-resistance-prediction",
+    "tags": [
+      "insulin-resistance",
+      "type-2-diabetes"
+    ],
+    "date": "2026-08-30",
+    "image": "/images/smartwatch-insulin-resistance-prediction.jpg",
+    "cats": [
+      "diabetes"
+    ],
+    "en": {
+      "cat": "Diabetes",
+      "imageAlt": "A wrist wearing a fitness smartwatch, a fingertip resting on its screen.",
+      "title": "Your smartwatch can help spot insulin resistance — but it still can’t do it alone",
+      "seoTitle": "Can a Smartwatch Spot Insulin Resistance? What Nature Found",
+      "metaDesc": "Google’s WEAR-ME study in Nature trained a model on smartwatch data to flag insulin resistance. What it actually achieved — and what the headlines left out.",
+      "excerpt": "A study of 1,165 people in Nature trained a model on Fitbit data and routine bloods to flag insulin resistance. It works — but the watch on its own is the weakest part of it.",
+      "meta": "30 August 2026 · 6 min read",
+      "lead": "“Smartwatches can now predict diabetes before it starts” has been doing the rounds since March. The study underneath it is real, careful and genuinely interesting — and it does not say that.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The study is called WEAR-ME, it was run remotely by Google across the United States, and it was published in Nature on 16 March 2026. Researchers took 1,165 adults who already owned a Fitbit or a Pixel Watch, collected their device data, sent them to a lab for a fasting blood draw, and trained neural networks to work out who was insulin resistant. The people involved were mostly not ill: the median age was 45, the median BMI 28, and the median HbA1c 5.4% — comfortably below the diabetes line."
+        },
+        {
+          "t": "p",
+          "text": "The best model reached an AUROC of 0.80, correctly identifying 76% of the people who were insulin resistant and 84% of those who were not. That is a decent result for something built out of a wrist device and an ordinary blood panel. But read the ingredient list before you read the headline, because the model that scored 0.80 used the watch, the person’s age and demographics, and their routine bloods — fasting glucose and a lipid panel. Take the blood test away and leave the watch and demographics on their own, and performance drops to 0.70."
+        },
+        {
+          "t": "h",
+          "text": "What the watch was actually noticing"
+        },
+        {
+          "t": "p",
+          "text": "The individual signals are worth sitting with, because they are much weaker than a headline implies. Against a lab measure of insulin resistance, resting heart rate correlated at r = 0.27 and daily step count at r = −0.25 — real, statistically significant, and small. Heart rate variability was weaker still at r = −0.14. Sleep duration, which nearly every write-up of this study mentions, does not appear among the significant correlations the paper reports at all. The strongest single things in the whole dataset were not from the watch: fasting glucose (r = 0.57), HbA1c (r = 0.45), BMI (r = 0.43) and triglycerides (r = 0.40)."
+        },
+        {
+          "t": "p",
+          "text": "What made the watch worth including was not any one number but the shape of the whole recording. The team fine-tuned what they call a wearable foundation model — a network pre-trained on 40 million hours of sensor data — and fed it the raw time series rather than weekly averages. That version extracted considerably more: in the model built on it, wearable data carried 82% of the predictive weight, against 43% when the same data were reduced to simple averages. In a separate validation group of 72 people, adding the watch to demographics, fasting glucose and a lipid panel lifted performance from 0.76 to 0.88."
+        },
+        {
+          "t": "h",
+          "text": "What it does not do"
+        },
+        {
+          "t": "p",
+          "text": "It does not predict the future. Everyone in WEAR-ME had their device data and their blood drawn in the same window, so the model estimates whether you are insulin resistant now — not whether you will develop type 2 diabetes later. The authors say so themselves and call for longitudinal studies to test whether wearables can pick up the change when someone improves. “Before diabetes starts” describes who was in the study, not what the model forecasts."
+        },
+        {
+          "t": "p",
+          "text": "Nor is it a finished product. This is research, not a feature you can switch on: there is no approved device or app that does this, and the paper is explicit that the yardstick it trained against is itself imperfect. The gold standard for measuring insulin resistance is a hyperinsulinaemic euglycaemic clamp, which happens in research facilities. WEAR-ME used HOMA-IR instead — a calculation from fasting insulin and glucose that is far more practical and can vary by around 23% between two measurements in the same person. And 76% sensitivity means that at the threshold they chose, roughly one insulin-resistant person in four was still missed."
+        },
+        {
+          "t": "p",
+          "text": "There is one more caveat I want to be straight about, because this study is being reported everywhere as women’s health news. It is not analysed that way. The paper reports no results split by sex, and menopause is not mentioned in it. Insulin resistance does rise across the menopause transition, and I have written about [the prediabetes signs that get mistaken for hormones](/blog/prediabetes-signs-perimenopause/) — but nothing in WEAR-ME tells us the model performs equally well in a woman of 48 whose sleep, resting heart rate and cycle are all in flux. Whether it does is an open question, and a good one for someone to fund."
+        },
+        {
+          "t": "p",
+          "text": "The cohort has its own edges too. Everyone was a US adult who already owned a Fitbit or Pixel Watch and had worn it on at least three-quarters of days for three months, and only a quarter of the 4,416 people who enrolled produced a complete dataset. The authors note this may have overrepresented people who are health-aware or already have cardiometabolic disease, and that ownership of these devices still skews white."
+        },
+        {
+          "t": "h",
+          "text": "So what is useful here today"
+        },
+        {
+          "t": "p",
+          "text": "Two things, I think. The first is that the signals the model leaned on are ones you can already see on your own wrist, and they point the way you would expect: a higher resting heart rate and fewer daily steps travelled with worse insulin sensitivity. Weakly, on their own — nobody should read a resting heart rate as a diagnosis. But if your resting heart rate has been drifting up over a year while your step count drifts down, that is a reasonable prompt to ask for a blood test, and [the evidence on sleep and insulin resistance in women](/blog/sleep-insulin-resistance-women/) is worth reading alongside it."
+        },
+        {
+          "t": "p",
+          "text": "The second is that the practical route to knowing your own insulin resistance has not changed. HOMA-IR needs a fasting insulin alongside a fasting glucose, and fasting insulin is not part of a standard panel — you generally have to ask for it. That request is a great deal more informative today than any wearable, and it is the same test this whole study was trying to approximate. And whatever the number comes back as, the lever the study points to is the ordinary one — activity and what you eat around it. My [metabolic food calculator](/resources/food-calculator/) is built for exactly this: it estimates the glycaemic load of a meal for someone managing insulin resistance."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "A model using smartwatch data plus routine bloods identified insulin resistance with an AUROC of 0.80.",
+              "detail": "The WEAR-ME study enrolled 4,416 US adults aged 21–80 who already used a Fitbit or Pixel Watch; 1,165 (25%) had complete data and were analysed (median age 45, median BMI 28 kg/m², median HbA1c 5.4%). Insulin resistance was defined as HOMA-IR ≥ 2.9. The multimodal model — wearable data, demographics and routine blood biomarkers — reached AUROC 0.80, sensitivity 76%, specificity 84%, R² = 0.50. Wearable data plus demographics alone reached AUROC 0.70. In an independent validation cohort of 72 people, a wearable-foundation-model plus demographics beat demographics alone (0.75 vs 0.66), and adding wearable data to demographics, fasting glucose and a lipid panel raised AUROC from 0.76 to 0.88.",
+              "cite": "Metwally AA et al. · Nature, 16 March 2026 · PMC13061641",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061641/"
+            },
+            {
+              "claim": "Individual wearable signals correlate only weakly with insulin resistance.",
+              "detail": "Pearson correlations with HOMA-IR in the WEAR-ME cohort: fasting glucose r = 0.57, HbA1c r = 0.45, BMI r = 0.43, triglycerides r = 0.40, HDL cholesterol r = −0.30, resting heart rate r = 0.27, daily step count r = −0.25, HRV r = −0.14 (all P < 0.001). Sleep duration was among the lifestyle factors analysed but is not reported among the significant correlations. Using a foundation model on raw sensor time series rather than simple averages raised the share of predictive weight carried by wearable data from 43% to 82%.",
+              "cite": "Metwally AA et al. · Nature 652, 451–461 (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41840032/"
+            },
+            {
+              "claim": "The study measures current insulin resistance, not future diabetes risk, and HOMA-IR is itself a proxy.",
+              "detail": "Wearable data and blood draws were collected in the same window, so the model classifies present insulin-resistance status rather than forecasting progression; the authors call for future longitudinal studies to test whether wearables can detect improvement after weight loss or exercise. They also note that HOMA-IR was used in place of the gold-standard hyperinsulinaemic euglycaemic clamp, with a reported coefficient of variation of 23.5% between two measurements, and that the analysed cohort may overrepresent people with cardiometabolic disease or health awareness, with wearable adoption skewed towards white participants. No results are reported by sex, and menopause is not discussed.",
+              "cite": "Metwally AA et al. · Nature, discussion and limitations",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061641/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Prediabetes signs in perimenopause that get mistaken for “just hormones”",
+              "url": "/blog/prediabetes-signs-perimenopause/",
+              "desc": "The symptoms that look hormonal and are actually blood sugar — and the tests to ask for."
+            },
+            {
+              "name": "Ninety minutes less sleep raised insulin resistance by 15% in women",
+              "url": "/blog/sleep-insulin-resistance-women/",
+              "desc": "What a controlled sleep-restriction trial found, and why sleep is more than a wearable metric."
+            },
+            {
+              "name": "A normal BMI told these women nothing — the direction it was moving told them everything",
+              "url": "/blog/bmi-trajectory-prediabetes-women/",
+              "desc": "Why the trend in a number beats any single reading of it."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can my smartwatch tell me if I have insulin resistance?",
+          "a": "Not today. No consumer watch or app offers this — WEAR-ME is a research study, not a released feature, and its best model needed a fasting blood test alongside the watch data. On its own, the watch and basic demographics reached an AUROC of 0.70, which is well short of anything you would act on. If you want to know where you stand, ask about a fasting insulin alongside a fasting glucose so a HOMA-IR can be calculated."
+        },
+        {
+          "q": "Does a higher resting heart rate mean I'm becoming insulin resistant?",
+          "a": "On its own, no. In this study a higher resting heart rate did travel with higher insulin resistance, but only weakly (r = 0.27), and the same was true in reverse for daily steps (r = −0.25). Resting heart rate moves with fitness, illness, alcohol, stress, caffeine and poor sleep too. A slow upward drift over months alongside falling activity is worth mentioning to your GP; a higher reading this week is not."
+        },
+        {
+          "q": "Does this study apply to women in perimenopause?",
+          "a": "Nobody knows yet, and that is the honest answer. The median participant was 45, so many of the women in it will have been in the transition — but the paper reports no analysis by sex and does not discuss menopause at all. Since resting heart rate, heart rate variability and sleep all shift during perimenopause, and those are three of the model's inputs, it is a genuinely open question whether it performs as well in this group."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Діабет",
+      "imageAlt": "Зап'ястя з фітнес-годинником, кінчик пальця торкається екрана.",
+      "title": "Смартгодинник може допомогти виявити інсулінорезистентність — але не самотужки",
+      "seoTitle": "Чи виявить смартгодинник інсулінорезистентність?",
+      "metaDesc": "Дослідження WEAR-ME від Google у Nature навчило модель визначати інсулінорезистентність за даними смартгодинника. Що воно справді показало — і чого не кажуть заголовки.",
+      "excerpt": "Дослідження за участю 1165 людей, опубліковане в Nature, навчило модель визначати інсулінорезистентність за даними Fitbit і звичайних аналізів. Воно працює — але сам годинник тут найслабша ланка.",
+      "meta": "30 серпня 2026 · 6 хв читання",
+      "lead": "«Смартгодинники тепер передбачають діабет ще до його початку» — цей заголовок гуляє мережею з березня. Дослідження під ним справжнє, ретельне й справді цікаве. І воно каже не це.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Дослідження називається WEAR-ME, його провела компанія Google дистанційно по всій території США, а опублікували його в журналі Nature 16 березня 2026 року. Науковці взяли 1165 дорослих, які вже мали Fitbit або Pixel Watch, зібрали дані з їхніх пристроїв, відправили їх до лабораторії здати кров натще — і навчили нейромережі визначати, у кого є інсулінорезистентність. Учасники здебільшого не були хворими: медіанний вік — 45 років, медіанний ІМТ — 28, медіанний HbA1c — 5,4%, тобто помітно нижче за діабетичний поріг."
+        },
+        {
+          "t": "p",
+          "text": "Найкраща модель досягла AUROC 0,80: вона правильно розпізнала 76% людей з інсулінорезистентністю і 84% тих, у кого її не було. Для інструмента, зібраного з наручного пристрою та звичайної панелі аналізів, це непоганий результат. Але подивіться на склад, перш ніж читати заголовок: модель, яка дала 0,80, використовувала годинник, вік і демографічні дані людини — і звичайні аналізи крові: глюкозу натще та ліпідограму. Заберіть аналіз крові, залиште самі годинник і демографію — і результат падає до 0,70."
+        },
+        {
+          "t": "h",
+          "text": "Що саме помічав годинник"
+        },
+        {
+          "t": "p",
+          "text": "На окремі сигнали варто подивитися уважно, бо вони значно слабші, ніж підказує заголовок. Порівняно з лабораторним показником інсулінорезистентності пульс у спокої мав кореляцію r = 0,27, а кількість кроків за день — r = −0,25. Це реальні й статистично значущі, але малі величини. Варіабельність серцевого ритму виявилася ще слабшою — r = −0,14. А тривалість сну, яку згадує майже кожен переказ цього дослідження, взагалі не потрапила до переліку значущих кореляцій у самій статті. Найсильніші показники в усьому наборі даних були не з годинника: глюкоза натще (r = 0,57), HbA1c (r = 0,45), ІМТ (r = 0,43) і тригліцериди (r = 0,40)."
+        },
+        {
+          "t": "p",
+          "text": "Годинник виявився корисним не через якесь одне число, а через форму всього запису. Команда донавчила так звану базову модель для носимих пристроїв — мережу, попередньо натреновану на 40 мільйонах годин сенсорних даних, — і подала їй сирі часові ряди замість тижневих середніх. Такий варіант витягнув значно більше: у побудованій на ньому моделі дані з пристрою давали 82% прогностичної ваги проти 43%, коли ті самі дані зводили до простих середніх. В окремій валідаційній групі з 72 осіб додавання годинника до демографії, глюкози натще та ліпідограми підняло результат з 0,76 до 0,88."
+        },
+        {
+          "t": "h",
+          "text": "Чого воно не робить"
+        },
+        {
+          "t": "p",
+          "text": "Воно не передбачає майбутнє. Усі учасники WEAR-ME здавали кров і давали дані пристрою в одному й тому ж проміжку часу, тож модель оцінює, чи є у вас інсулінорезистентність зараз, а не чи розвинеться у вас діабет 2 типу згодом. Автори пишуть про це прямо й закликають до довготривалих досліджень, які перевірять, чи здатні носимі пристрої вловити зміни, коли людині стає краще. «До початку діабету» описує тих, хто був у дослідженні, а не те, що модель прогнозує."
+        },
+        {
+          "t": "p",
+          "text": "Це також не готовий продукт. Це наука, а не функція, яку можна ввімкнути: жоден схвалений пристрій чи застосунок так не вміє. І сама стаття чесно каже, що еталон, за яким модель навчали, теж неідеальний. Золотий стандарт вимірювання інсулінорезистентності — гіперінсулінемічний еуглікемічний клемп, який роблять лише в наукових центрах. WEAR-ME натомість використало HOMA-IR — розрахунок за інсуліном і глюкозою натще, значно практичніший, але такий, що може відрізнятися приблизно на 23% між двома вимірюваннями в однієї людини. А чутливість 76% означає, що при обраному порозі приблизно кожну четверту людину з інсулінорезистентністю модель усе одно пропускала."
+        },
+        {
+          "t": "p",
+          "text": "І ще одне застереження, про яке хочу сказати прямо, бо це дослідження всюди подають як новину жіночого здоров’я. Його так не аналізували. У статті немає жодних результатів окремо за статтю, а менопаузу в ній не згадують взагалі. Інсулінорезистентність справді зростає під час менопаузального переходу, і я писала про [ознаки предіабету, які приймають за гормони](/ua/blog/prediabetes-signs-perimenopause/). Але ніщо в WEAR-ME не каже нам, чи працює модель так само добре для 48-річної жінки, у якої і сон, і пульс у спокої, і цикл — усе в русі. Це відкрите питання, і дуже хороше."
+        },
+        {
+          "t": "p",
+          "text": "Сама вибірка теж має свої межі. Усі учасники — дорослі зі США, які вже мали Fitbit або Pixel Watch і носили його щонайменше три чверті днів протягом трьох місяців; повний набір даних дала лише чверть із 4416 людей, які зареєструвалися. Автори зазначають, що це могло дати перевагу тим, хто уважніший до свого здоров’я або вже має кардіометаболічні захворювання, і що власники таких пристроїв досі переважно білі."
+        },
+        {
+          "t": "h",
+          "text": "То що з цього корисне вже сьогодні"
+        },
+        {
+          "t": "p",
+          "text": "Дві речі. Перша: сигнали, на які спиралася модель, ви й так бачите на власному зап’ясті, і вони вказують у передбачуваний бік — вищий пульс у спокої й менше кроків ішли поруч із гіршою чутливістю до інсуліну. Слабко й поодинці: ніхто не має читати пульс у спокої як діагноз. Але якщо ваш пульс у спокої повільно повзе вгору протягом року, а кількість кроків — вниз, це розумний привід попросити аналіз. Поряд варто прочитати й [що відомо про сон та інсулінорезистентність у жінок](/ua/blog/sleep-insulin-resistance-women/)."
+        },
+        {
+          "t": "p",
+          "text": "Друга: практичний шлях дізнатися свою інсулінорезистентність не змінився. Для HOMA-IR потрібен інсулін натще разом із глюкозою натще, а інсулін натще не входить до стандартної панелі — його зазвичай треба попросити окремо. Сьогодні це запитання дасть вам значно більше, ніж будь-який носимий пристрій, і це той самий аналіз, який усе це дослідження й намагалося замінити. І хай яким буде результат, важіль, на який вказує дослідження, — звичайний: рух і те, що ви їсте навколо нього. Мій [калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) створений саме для цього: він оцінює глікемічне навантаження страви для тих, хто має інсулінорезистентність."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Модель на даних смартгодинника та звичайних аналізах визначала інсулінорезистентність з AUROC 0,80.",
+              "detail": "У дослідження WEAR-ME зареєструвалися 4416 дорослих зі США віком 21–80 років, які вже користувалися Fitbit або Pixel Watch; повні дані мали 1165 осіб (25%), їх і аналізували (медіанний вік 45 років, медіанний ІМТ 28 кг/м², медіанний HbA1c 5,4%). Інсулінорезистентність визначали як HOMA-IR ≥ 2,9. Мультимодальна модель — дані пристрою, демографія та звичайні біомаркери крові — дала AUROC 0,80, чутливість 76%, специфічність 84%, R² = 0,50. Дані пристрою разом із демографією без аналізів давали AUROC 0,70. В незалежній валідаційній когорті з 72 осіб базова модель для носимих пристроїв разом із демографією перевершила саму демографію (0,75 проти 0,66), а додавання даних пристрою до демографії, глюкози натще та ліпідограми підняло AUROC з 0,76 до 0,88.",
+              "cite": "Metwally AA та ін. · Nature, 16 березня 2026 · PMC13061641",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061641/"
+            },
+            {
+              "claim": "Окремі сигнали з носимого пристрою корелюють з інсулінорезистентністю лише слабко.",
+              "detail": "Кореляції Пірсона з HOMA-IR у когорті WEAR-ME: глюкоза натще r = 0,57, HbA1c r = 0,45, ІМТ r = 0,43, тригліцериди r = 0,40, ЛПВЩ-холестерин r = −0,30, пульс у спокої r = 0,27, кроки за день r = −0,25, варіабельність серцевого ритму r = −0,14 (усі P < 0,001). Тривалість сну була серед проаналізованих факторів способу життя, але не потрапила до переліку значущих кореляцій. Використання базової моделі на сирих часових рядах замість простих середніх підняло частку прогностичної ваги, яку несуть дані пристрою, з 43% до 82%.",
+              "cite": "Metwally AA та ін. · Nature 652, 451–461 (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41840032/"
+            },
+            {
+              "claim": "Дослідження вимірює наявну інсулінорезистентність, а не майбутній ризик діабету, і сам HOMA-IR є непрямим показником.",
+              "detail": "Дані пристрою й забір крові збирали в одному проміжку часу, тож модель класифікує поточний стан, а не прогнозує прогресування; автори закликають до довготривалих досліджень, які перевірять, чи вловлюють носимі пристрої покращення після схуднення або фізичних навантажень. Вони також зазначають, що замість золотого стандарту — гіперінсулінемічного еуглікемічного клемпа — використовували HOMA-IR із заявленим коефіцієнтом варіації 23,5% між двома вимірюваннями, і що проаналізована когорта могла мати надлишок людей із кардіометаболічними захворюваннями або підвищеною увагою до здоров’я, а серед власників пристроїв переважають білі учасники. Результатів за статтю не наводять, менопаузу не обговорюють.",
+              "cite": "Metwally AA та ін. · Nature, обговорення та обмеження",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061641/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Ознаки предіабету в перименопаузі, які приймають за «просто гормони»",
+              "url": "/ua/blog/prediabetes-signs-perimenopause/",
+              "desc": "Симптоми, які виглядають гормональними, а насправді стосуються цукру — і які аналізи просити."
+            },
+            {
+              "name": "Дев’яносто хвилин недосипу підвищили інсулінорезистентність у жінок на 15%",
+              "url": "/ua/blog/sleep-insulin-resistance-women/",
+              "desc": "Що показало контрольоване дослідження обмеження сну — і чому сон більший за показник у застосунку."
+            },
+            {
+              "name": "Нормальний ІМТ не сказав цим жінкам нічого — а напрямок його руху сказав усе",
+              "url": "/ua/blog/bmi-trajectory-prediabetes-women/",
+              "desc": "Чому тенденція показника важливіша за будь-яке окреме вимірювання."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи може мій смартгодинник сказати, що в мене інсулінорезистентність?",
+          "a": "Сьогодні — ні. Жоден споживчий годинник чи застосунок цього не пропонує: WEAR-ME — це наукове дослідження, а не випущена функція, і його найкраща модель потребувала аналізу крові натще поряд із даними пристрою. Сам годинник разом із базовою демографією дав AUROC 0,70, а це надто мало, щоб щось на цьому будувати. Якщо хочете знати свій стан, попросіть інсулін натще разом із глюкозою натще, щоб можна було порахувати HOMA-IR."
+        },
+        {
+          "q": "Чи означає вищий пульс у спокої, що в мене розвивається інсулінорезистентність?",
+          "a": "Сам по собі — ні. У цьому дослідженні вищий пульс у спокої справді йшов поруч із вищою інсулінорезистентністю, але слабко (r = 0,27); те саме у зворотний бік стосувалося кроків (r = −0,25). Пульс у спокої змінюється також від тренованості, хвороби, алкоголю, стресу, кави й поганого сну. Повільне зростання протягом місяців разом зі зниженням активності варто згадати лікарю; вищий показник цього тижня — ні."
+        },
+        {
+          "q": "Чи стосується це дослідження жінок у перименопаузі?",
+          "a": "Поки що ніхто не знає, і це чесна відповідь. Медіанний вік учасників — 45 років, тож багато жінок у вибірці були в переході. Але стаття не наводить аналізу за статтю й узагалі не згадує менопаузу. Оскільки пульс у спокої, варіабельність серцевого ритму та сон під час перименопаузи змінюються, а це три з вхідних даних моделі, питання справді відкрите."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "fda-hrt-black-box-warning-removed",
+    "tags": [
+      "hrt",
+      "menopause-symptoms",
+      "oestrogen"
+    ],
+    "date": "2026-08-29",
+    "image": "/images/fda-hrt-black-box-warning-removed.jpg",
+    "cats": [
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Perimenopause",
+      "imageAlt": "A blister strip of red-and-white capsules beside an opened medicine carton on a white pharmacy counter.",
+      "title": "The FDA has taken its strongest warning off HRT — here is what actually changed",
+      "seoTitle": "FDA Removes HRT Black Box Warning: What Actually Changed",
+      "metaDesc": "In February 2026 the FDA removed cardiovascular, breast cancer and dementia warnings from menopausal hormone therapy labels. What changed, what stayed, and what it means in the UK.",
+      "excerpt": "The FDA has removed the cardiovascular, breast cancer and dementia statements from the boxed warning on menopausal hormone therapy. One warning stayed. And none of it changes a British prescription.",
+      "meta": "29 August 2026 · 6 min read",
+      "lead": "For twenty years the box of HRT on a pharmacy shelf carried the drug-labelling equivalent of a shout. In February the American regulator took most of that shout off. It is a real change, and it is a smaller one than the headlines suggest.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The sequence matters, because it has been reported as three different events. In July 2025 the FDA convened an expert panel on menopause and hormone therapy. On 10 November 2025 the US Department of Health and Human Services and the FDA announced they would begin removing the broad boxed warnings. And on 12 February 2026 the FDA actually approved the changed labels for the first batch of menopausal hormone therapy products. Only that last date changed anything on a physical box."
+        },
+        {
+          "t": "p",
+          "text": "Three risk statements came out of the boxed warning: cardiovascular disease, breast cancer, and probable dementia. The FDA's stated reasoning is that a single warning applied across every product, every dose and every age band overstated the risk for the women most likely to be prescribed it — those with symptoms, close to the menopause transition. Marty Makary, the FDA commissioner, put it as women and their physicians making decisions based on data rather than fear."
+        },
+        {
+          "t": "p",
+          "text": "One warning did not come off. Systemic oestrogen-alone products still carry the endometrial cancer warning for women who have a uterus. That is not an oversight or a leftover — it is the reason oestrogen is prescribed with a progestogen for anyone who has not had a hysterectomy, and it has not been reconsidered."
+        },
+        {
+          "t": "p",
+          "text": "What replaced the removed text is the more interesting half. The new labelling leans on what researchers call the timing hypothesis: that the benefit-to-risk balance of hormone therapy depends heavily on when you start it. The label now emphasises initiation before age 60, or within ten years of menopause onset. The FDA pointed to reductions in all-cause mortality and in fracture risk within that window. That is the same timing rule British menopause specialists have been working to for years — it has simply now been written into an American label."
+        },
+        {
+          "t": "h",
+          "text": "The objections are worth reading too"
+        },
+        {
+          "t": "p",
+          "text": "This was not a unanimous professional welcome. Lisa Larkin described the shift as a pendulum swing — from overstating the risks to overstating the benefits — and said she was particularly worried about the messaging reaching breast cancer survivors, where the data is genuinely unclear. Tara Sanft made the related point that this is a decision requiring a nuanced conversation with an oncologist and a gynaecologist, not a rule that can be applied to everyone at once. There has also been criticism of the process itself: removing a boxed warning normally involves a more extensive and more transparent review than this one had."
+        },
+        {
+          "t": "p",
+          "text": "It is worth separating what the warning said from what the evidence says, because they were never the same thing. For women over 50 with no history of breast cancer, combined oestrogen-plus-progestogen therapy taken for five years or more is associated with a slight increase in breast cancer risk. Oestrogen-only therapy, in women without that history, is not associated with an elevated risk. Vaginal oestrogen is a different proposition again — very little of it reaches the bloodstream, and it is now generally considered safe even for many women who have had breast cancer. One warning covering all three was always going to be wrong for two of them."
+        },
+        {
+          "t": "p",
+          "text": "For anyone who has had breast cancer, none of this has changed: systemic hormone therapy still raises recurrence risk, particularly in hormone-receptor-positive disease. What has shifted is a willingness among specialists to say that some lower-risk diagnoses might reasonably weigh symptom relief against that. That is a conversation with your oncologist, and it is not one a label change decides for you."
+        },
+        {
+          "t": "h",
+          "text": "If you are in the UK, your prescription has not changed"
+        },
+        {
+          "t": "p",
+          "text": "This is the part that gets lost. The FDA regulates American medicine labels. It does not regulate British ones — that is the MHRA — and it does not set British clinical practice, which follows the NICE menopause guideline, NG23, last updated in November 2024. A US label change does not alter the leaflet in a UK pack, does not change what your GP is working to, and does not by itself change what you will be offered."
+        },
+        {
+          "t": "p",
+          "text": "So the honest summary for a British reader is this: a regulator on the other side of the Atlantic has brought its labelling closer to what the evidence supports, and that shift will filter into the conversation here, as American guidance usually does. But if you have been putting off asking about HRT because of a warning you half-remember, the thing that has changed is the framing, not your risk. The questions worth taking to an appointment are the same ones they were in January — how close you are to menopause, what your symptoms are actually costing you, and what your own history says. If you want the picture of how prescribing has already shifted since the warning came off, I have written about [the doubling in HRT prescriptions](/blog/hrt-prescriptions-doubling/) separately."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "The FDA removed cardiovascular, breast cancer and probable dementia statements from the HRT boxed warning.",
+              "detail": "The US Department of Health and Human Services and the FDA announced on 10 November 2025 that they would initiate removal of the broad boxed warnings on menopausal hormone therapy. The risk statements removed cover cardiovascular disease, breast cancer and probable dementia. The endometrial cancer warning on systemic oestrogen-alone products in women with a uterus is unchanged. Updated labelling emphasises initiation before age 60 or within 10 years of menopause onset, with the FDA citing reductions in all-cause mortality and fracture risk in that window. This is a regulatory labelling decision, not a new trial.",
+              "cite": "Society of Gynecologic Oncology · Regulatory announcement, November 2025",
+              "url": "https://www.sgo.org/news/fda-removes-black-box-warnings-on-hormone-replacement-therapy/"
+            },
+            {
+              "claim": "The label changes took effect on 12 February 2026.",
+              "detail": "The FDA approved the first batch of labelling changes on 12 February 2026, following the July 2025 public expert panel and the November 2025 HHS announcement. The categories affected include combined oestrogen and progestogen, systemic oestrogen-alone, systemic progestogen-alone used alongside systemic oestrogen, and topical vaginal oestrogen. Updated labels emphasise initiation within 10 years of menopause onset or before age 60 for systemic therapy.",
+              "cite": "Medaptly · Regulatory summary, 2026",
+              "url": "https://www.medaptly.com/news/obstetrics-gynecology/hrt-boxed-warnings-fda-2026/"
+            },
+            {
+              "claim": "Specialists have publicly cautioned that the messaging may now overstate the benefits.",
+              "detail": "Lisa Larkin characterised the change as a pendulum swing from overemphasising risks to overemphasising benefits, and raised specific concern about the messaging reaching breast cancer survivors, where she describes the data as unclear. Tara Sanft emphasised that decisions need personalised discussion with both oncology and gynaecology rather than a one-size-fits-all approach. The report also notes criticism of the process, on the grounds that removing a boxed warning usually involves a more extensive and transparent review. On the underlying evidence: combined systemic HRT taken for five or more years by women over 50 with no breast cancer history is associated with a slight increase in breast cancer risk; oestrogen-only therapy in that group is not associated with an elevated risk; vaginal oestrogen is described as generally safe even for breast cancer patients, as minimal oestrogen enters the bloodstream. Systemic HRT continues to raise recurrence risk in breast cancer survivors, particularly hormone-receptor-positive disease.",
+              "cite": "Breastcancer.org · Expert reaction, 2026",
+              "url": "https://www.breastcancer.org/news/FDA-removes-black-box-warning-HRT"
+            },
+            {
+              "claim": "UK practice follows NICE NG23, which this change does not alter.",
+              "detail": "Menopause care in the UK is guided by NICE guideline NG23, Menopause: identification and management, originally published November 2015 and updated in November 2024 with new recommendations on cognitive behavioural therapy, management of genitourinary symptoms, and the effects of HRT on specific health outcomes. UK product labelling is regulated by the MHRA. An FDA labelling decision applies to US product labels and does not change UK product information or NICE recommendations.",
+              "cite": "NICE guideline NG23 · Updated November 2024",
+              "url": "https://www.nice.org.uk/guidance/ng23"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "HRT prescriptions have more than doubled since 2018",
+              "url": "/blog/hrt-prescriptions-doubling/",
+              "desc": "What happened to prescribing after the warning came off — and why patches ran short."
+            },
+            {
+              "name": "HRT with type 1 diabetes: what the evidence does and doesn't say",
+              "url": "/blog/hrt-type-1-diabetes-evidence/",
+              "desc": "The gap in the research for women managing hormone therapy alongside type 1."
+            },
+            {
+              "name": "Why skin changes so fast at menopause",
+              "url": "/blog/menopause-skin-oestrogen/",
+              "desc": "What oestrogen does beyond hot flushes, and what hormone therapy can and can't fix."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this mean HRT has been declared safe?",
+          "a": "No. It means one regulator concluded that a single blanket warning, applied to every product and every age group, misrepresented the risk for the women most likely to be prescribed it. The underlying evidence has not changed. Combined oestrogen-plus-progestogen therapy taken long-term is still associated with a slight increase in breast cancer risk; the endometrial cancer warning on oestrogen-alone products in women with a uterus is still there. What has changed is how the risk is described, not what it is."
+        },
+        {
+          "q": "I'm in the UK — does anything change for me?",
+          "a": "Not directly. The FDA regulates American labels. UK product information is regulated by the MHRA, and your GP is working to the NICE menopause guideline NG23, updated in November 2024. Neither has been changed by this. In practice American decisions tend to shape the wider conversation over time, so the framing you encounter may shift — but your prescription, your leaflet and your appointment have not."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Перименопауза",
+      "imageAlt": "Блістер із червоно-білими капсулами поруч із відкритою картонною упаковкою ліків на білій аптечній стільниці.",
+      "title": "FDA зняло з ЗГТ своє найсуворіше попередження — що саме змінилося",
+      "seoTitle": "FDA зняло попередження з ЗГТ: що змінилося насправді",
+      "metaDesc": "У лютому 2026 року FDA прибрало з інструкцій до менопаузальної гормональної терапії попередження про серцево-судинні хвороби, рак грудей і деменцію. Що змінилося, що залишилося і що це означає у Британії.",
+      "excerpt": "FDA прибрало з «чорної рамки» на інструкціях до ЗГТ згадки про серцево-судинні хвороби, рак грудей і деменцію. Одне попередження залишилося. І на британський рецепт це не впливає.",
+      "meta": "29 серпня 2026 · 6 хв читання",
+      "lead": "Двадцять років упаковка ЗГТ на аптечній полиці несла на собі те, що в мові інструкцій до ліків означає крик. У лютому американський регулятор більшу частину цього крику зняв. Це справжня зміна — і менша, ніж здається із заголовків.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Послідовність тут важлива, бо про це писали як про три різні події. У липні 2025 року FDA зібрало експертну панель щодо менопаузи й гормональної терапії. 10 листопада 2025 року Міністерство охорони здоров'я США та FDA оголосили, що почнуть прибирати широкі попередження в рамці. А 12 лютого 2026 року FDA справді затвердило змінені інструкції для першої партії менопаузальних гормональних препаратів. Лише ця остання дата змінила щось на реальній упаковці."
+        },
+        {
+          "t": "p",
+          "text": "З попередження в рамці прибрали три формулювання про ризик: серцево-судинні захворювання, рак грудей і ймовірну деменцію. Аргумент FDA полягає в тому, що єдине попередження, застосоване до всіх препаратів, усіх доз і всіх вікових груп, перебільшувало ризик для тих жінок, яким терапію найімовірніше призначають, — тих, хто має симптоми й перебуває близько до переходу в менопаузу. Марті Макарі, голова FDA, сформулював це так: жінки та їхні лікарі мають ухвалювати рішення на основі даних, а не страху."
+        },
+        {
+          "t": "p",
+          "text": "Одне попередження не зняли. Системні препарати з самим лише естрогеном і далі несуть попередження про рак ендометрія для жінок із маткою. Це не недогляд і не залишок — саме тому естроген призначають разом із прогестагеном усім, хто не мав гістеректомії, і цю позицію не переглядали."
+        },
+        {
+          "t": "p",
+          "text": "Цікавіша половина — те, чим замінили прибраний текст. Нове маркування спирається на те, що дослідники називають гіпотезою часу: користь і ризик гормональної терапії суттєво залежать від того, коли ви її починаєте. Тепер інструкція наголошує на початку до 60 років або протягом десяти років від настання менопаузи. FDA послалося на зниження загальної смертності та ризику переломів у цьому вікні. Це те саме правило часу, за яким британські фахівці з менопаузи працюють уже роками, — просто тепер його вписали в американську інструкцію."
+        },
+        {
+          "t": "h",
+          "text": "Заперечення теж варто прочитати"
+        },
+        {
+          "t": "p",
+          "text": "Професійна спільнота зустріла це не одностайно. Ліза Ларкін описала зміну як хитання маятника — від перебільшення ризиків до перебільшення користі — і сказала, що особливо непокоїться, як це повідомлення дійде до жінок, які пережили рак грудей, бо там дані справді неоднозначні. Тара Санфт додала пов'язану думку: це рішення потребує детальної розмови з онкологом і гінекологом, а не правила, яке застосовують до всіх одразу. Лунала й критика самої процедури: зняття попередження в рамці зазвичай передбачає ширший і прозоріший перегляд, ніж був цього разу."
+        },
+        {
+          "t": "p",
+          "text": "Варто відокремити те, що казало попередження, від того, що кажуть дані, — бо це ніколи не було одне й те саме. Для жінок після 50 без раку грудей в анамнезі комбінована терапія естрогеном із прогестагеном протягом п'яти й більше років пов'язана з невеликим підвищенням ризику раку грудей. Терапія лише естрогеном у цій самій групі з підвищеним ризиком не пов'язана. Вагінальний естроген — узагалі окрема історія: у кровотік його потрапляє дуже мало, і сьогодні його вважають загалом безпечним навіть для багатьох жінок, які мали рак грудей. Одне попередження на всі три варіанти неминуче мало бути помилковим для двох із них."
+        },
+        {
+          "t": "p",
+          "text": "Для тих, хто мав рак грудей, не змінилося нічого: системна гормональна терапія і далі підвищує ризик рецидиву, особливо при гормонозалежних пухлинах. Змінилася готовність фахівців визнати, що при деяких діагнозах нижчого ризику полегшення симптомів можна зважувати проти цього ризику. Це розмова з вашим онкологом, і зміна інструкції не ухвалює її за вас."
+        },
+        {
+          "t": "h",
+          "text": "Якщо ви у Британії, ваш рецепт не змінився"
+        },
+        {
+          "t": "p",
+          "text": "Саме це загублюється найчастіше. FDA регулює інструкції до американських ліків. Британські воно не регулює — це робить MHRA — і не визначає британську клінічну практику, яка спирається на настанову NICE щодо менопаузи NG23, востаннє оновлену в листопаді 2024 року. Зміна американської інструкції не змінює вкладку в британській упаковці, не змінює того, чим керується ваш сімейний лікар, і сама собою не змінює того, що вам запропонують."
+        },
+        {
+          "t": "p",
+          "text": "Тож чесний підсумок для читачки у Британії такий: регулятор по той бік Атлантики наблизив своє маркування до того, що підтверджують дані, і цей зсув поступово просочиться в розмову тут — як зазвичай і буває з американськими рішеннями. Але якщо ви відкладали запитання про ЗГТ через попередження, яке пам'ятаєте наполовину, змінилося формулювання, а не ваш ризик. Питання, з якими варто йти на прийом, ті самі, що й у січні: наскільки ви близько до менопаузи, чого вам насправді коштують симптоми і що каже ваша власна історія. Якщо хочете побачити, як призначення вже змінилися після зняття попередження, я писала про [подвоєння призначень ЗГТ](/ua/blog/hrt-prescriptions-doubling/) окремо."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "FDA прибрало з попередження в рамці згадки про серцево-судинні хвороби, рак грудей і ймовірну деменцію.",
+              "detail": "Міністерство охорони здоров'я США та FDA оголосили 10 листопада 2025 року, що почнуть прибирати широкі попередження в рамці з менопаузальної гормональної терапії. Прибрані формулювання стосуються серцево-судинних захворювань, раку грудей і ймовірної деменції. Попередження про рак ендометрія на системних препаратах із самим естрогеном для жінок із маткою залишилося без змін. Оновлене маркування наголошує на початку терапії до 60 років або протягом 10 років від настання менопаузи; FDA послалося на зниження загальної смертності та ризику переломів у цьому вікні. Це регуляторне рішення щодо маркування, а не нове дослідження.",
+              "cite": "Society of Gynecologic Oncology · Регуляторне оголошення, листопад 2025",
+              "url": "https://www.sgo.org/news/fda-removes-black-box-warnings-on-hormone-replacement-therapy/"
+            },
+            {
+              "claim": "Зміни в інструкціях набули чинності 12 лютого 2026 року.",
+              "detail": "FDA затвердило першу партію змін до маркування 12 лютого 2026 року — після публічної експертної панелі в липні 2025 року та оголошення міністерства в листопаді 2025 року. Серед охоплених категорій — комбінація естрогену з прогестагеном, системний естроген окремо, системний прогестаген окремо для тих, хто приймає системний естроген, і топічний вагінальний естроген. Оновлені інструкції наголошують на початку системної терапії протягом 10 років від настання менопаузи або до 60 років.",
+              "cite": "Medaptly · Огляд регуляторних змін, 2026",
+              "url": "https://www.medaptly.com/news/obstetrics-gynecology/hrt-boxed-warnings-fda-2026/"
+            },
+            {
+              "claim": "Фахівці публічно застерігають, що тепер повідомлення може перебільшувати користь.",
+              "detail": "Ліза Ларкін описала зміну як хитання маятника від перебільшення ризиків до перебільшення користі й окремо наголосила на занепокоєнні щодо того, як це повідомлення дійде до жінок, які пережили рак грудей, — там, за її словами, дані неоднозначні. Тара Санфт наголосила, що рішення потребує персоналізованої розмови і з онкологом, і з гінекологом, а не єдиного підходу для всіх. У матеріалі також ідеться про критику самої процедури: зняття попередження в рамці зазвичай передбачає ширший і прозоріший перегляд. Щодо самих даних: комбінована системна ЗГТ протягом п'яти й більше років у жінок після 50 без раку грудей в анамнезі пов'язана з невеликим підвищенням ризику раку грудей; терапія лише естрогеном у цій групі з підвищеним ризиком не пов'язана; вагінальний естроген описують як загалом безпечний навіть для пацієнток з раком грудей, бо в кровотік потрапляє мінімум естрогену. Системна ЗГТ і далі підвищує ризик рецидиву в тих, хто пережив рак грудей, особливо при гормонозалежних пухлинах.",
+              "cite": "Breastcancer.org · Реакція фахівців, 2026",
+              "url": "https://www.breastcancer.org/news/FDA-removes-black-box-warning-HRT"
+            },
+            {
+              "claim": "Британська практика спирається на NICE NG23, якої ця зміна не стосується.",
+              "detail": "Допомога при менопаузі у Великій Британії керується настановою NICE NG23 «Menopause: identification and management», уперше опублікованою в листопаді 2015 року й оновленою в листопаді 2024 року — з новими рекомендаціями щодо когнітивно-поведінкової терапії, ведення сечостатевих симптомів і впливу ЗГТ на окремі показники здоров'я. Маркування ліків у Великій Британії регулює MHRA. Рішення FDA щодо маркування стосується американських інструкцій і не змінює ані британську інформацію про препарат, ані рекомендації NICE.",
+              "cite": "Настанова NICE NG23 · Оновлено в листопаді 2024",
+              "url": "https://www.nice.org.uk/guidance/ng23"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Призначень ЗГТ стало більш ніж удвічі більше з 2018 року",
+              "url": "/ua/blog/hrt-prescriptions-doubling/",
+              "desc": "Що сталося з призначеннями після зняття попередження — і чому забракло пластирів."
+            },
+            {
+              "name": "ЗГТ і діабет 1 типу: що кажуть і чого не кажуть дані",
+              "url": "/ua/blog/hrt-type-1-diabetes-evidence/",
+              "desc": "Прогалина в дослідженнях для жінок, які поєднують гормональну терапію з діабетом 1 типу."
+            },
+            {
+              "name": "Чому шкіра так швидко змінюється в менопаузі",
+              "url": "/ua/blog/menopause-skin-oestrogen/",
+              "desc": "Що естроген робить поза припливами і що гормональна терапія може й чого не може виправити."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи означає це, що ЗГТ визнали безпечною?",
+          "a": "Ні. Це означає, що один регулятор дійшов висновку: єдине загальне попередження, застосоване до всіх препаратів і всіх вікових груп, спотворювало картину ризику для тих жінок, яким терапію найімовірніше призначають. Самі дані не змінилися. Комбінована терапія естрогеном із прогестагеном при тривалому прийомі і далі пов'язана з невеликим підвищенням ризику раку грудей; попередження про рак ендометрія на препаратах із самим естрогеном для жінок із маткою залишилося. Змінився опис ризику, а не сам ризик."
+        },
+        {
+          "q": "Я у Британії — для мене щось змінюється?",
+          "a": "Безпосередньо — ні. FDA регулює американські інструкції. Британську інформацію про препарати регулює MHRA, а ваш сімейний лікар керується настановою NICE щодо менопаузи NG23, оновленою в листопаді 2024 року. Жодна з них через це не змінилася. На практиці американські рішення з часом впливають на ширшу розмову, тож формулювання, які ви чутимете, можуть зміститися — але ваш рецепт, ваша вкладка в упаковці й ваш прийом лишилися ті самі."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "how-to-read-cgm-during-workout",
+    "tags": [
+      "cgm",
+      "type-1-diabetes",
+      "blood-sugar",
+      "strength-training",
+      "cardio",
+      "glucose-variability"
+    ],
+    "date": "2026-08-28",
+    "image": "/images/how-to-read-cgm-during-workout.jpg",
+    "cats": [
+      "diabetes",
+      "fitness"
+    ],
+    "en": {
+      "cat": "Diabetes",
+      "imageAlt": "A woman holding a phone up to the round sensor on her upper arm to read her glucose.",
+      "title": "How to actually read your CGM during a workout",
+      "seoTitle": "How to Read Your CGM During a Workout",
+      "metaDesc": "Trend arrows, sensor lag and what to actually do mid-workout — a practical CGM guide for women over 40 managing type 1 diabetes.",
+      "excerpt": "A sensor does not measure your blood, and during exercise the gap matters. What the measured lag actually is, why the error runs in the reassuring direction when you are dropping, and how to read the arrow rather than the number.",
+      "meta": "28 August 2026 · 9 min read",
+      "lead": "Most people wearing a sensor through a workout use about a tenth of what it is telling them. They glance at the number. Mid-session, the number is the least trustworthy thing on the screen — and there is now good measurement of exactly how far behind it runs, and, more importantly, which direction it errs in when you are dropping.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Start with what the device is actually measuring, because almost every mid-workout misread traces back to this. A sensor does not sample your blood. It sits in the fluid between the cells under your skin and measures the glucose there, then converts that into the number on your phone. Glucose reaches that fluid from the bloodstream by diffusion, which takes time. So the reading is not wrong so much as historical — and the faster your glucose is actually moving, the older the history."
+        },
+        {
+          "t": "h",
+          "text": "The lag is real, and the spread is the story"
+        },
+        {
+          "t": "p",
+          "text": "There is a good measurement of exactly how far behind it runs. Seventeen adults with type 1 diabetes — thirteen of them women — [walked and lightly jogged on a treadmill for an hour](https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364), broken into four fifteen-minute bouts, with finger-prick readings taken alongside the sensor throughout. Pooled across three different insulin conditions, the sensor ran 12 ± 11 minutes behind the blood. Its error rate roughly halved once the session was over and they sat down to eat: 13% during exercise, 8% afterwards."
+        },
+        {
+          "t": "p",
+          "text": "The twelve minutes is the number everyone quotes. The plus-or-minus eleven is the one that matters. A lag of twelve minutes sounds like a constant you could learn to subtract, the way you learn your own carb ratio. A spread that wide means it is not a constant at all — on one session it might be near-instant, on another more than twenty minutes, and you cannot tell which kind of day it is from the screen. That is the practical problem. It is not that the number is late. It is that you do not know how late."
+        },
+        {
+          "t": "h",
+          "text": "The error has a direction, and it is the unhelpful one"
+        },
+        {
+          "t": "p",
+          "text": "Here is the finding from that study that I think should change how you use the device. When a finger-prick confirmed the participant had actually gone low — under 3.9 mmol/L — the sensor was reading, on average, around 1.1 mmol/L higher than the truth."
+        },
+        {
+          "t": "p",
+          "text": "Sit with that for a moment. It means that at the exact moment you most need the number to be honest with you, it is flattering you. Your sensor says 4.8 and reassures you; your blood says 3.7 and does not. The most comforting reading your device produces during exercise is also the least trustworthy one it produces all day. This is the single reason to treat a downward arrow as a decision point rather than as something to keep an eye on."
+        },
+        {
+          "t": "h",
+          "text": "The sensors have improved; the reputation has not caught up"
+        },
+        {
+          "t": "p",
+          "text": "It would be easy to read the above and conclude that a CGM is close to useless once you start moving. That is not what the wider evidence says, and it is worth being precise about why. A [randomised study of 24 adults with type 1 diabetes](https://pmc.ncbi.nlm.nih.gov/articles/PMC7600074/), fourteen of them women, put a factory-calibrated Dexcom G6 through aerobic work, resistance training and high-intensity intervals, and found its accuracy was not significantly degraded by any of the three. The error rates sat between roughly 8% and 17% across all conditions — not perfect, but not the collapse the older literature implies."
+        },
+        {
+          "t": "p",
+          "text": "The two findings are not in conflict, and the distinction between them is genuinely useful. Accuracy is an engineering problem, and the engineering has got much better — modern factory-calibrated sensors hold up under load in a way the ones from ten years ago did not. Lag is a physiology problem: glucose still has to diffuse out of the blood and into the fluid the sensor sits in, and no firmware update changes that. So the device has become more accurate about where you were, while remaining exactly as uninformative about where you are."
+        },
+        {
+          "t": "p",
+          "text": "One more piece of housekeeping, because it gets cited constantly in this context. The study most often reached for to prove CGMs fail during exercise looked at [twelve women during 45 minutes of steady cycling](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475238/) and found only 69% of sensor readings met the international accuracy standard against venous blood, with an average gap of around 1 mmol/L. That is a real result. It is also twelve women with an average age of 21, none of whom had diabetes, wearing 2012 sensor technology. If you are 45 with type 1, it is the wrong population twice over and the wrong hardware besides. It tells you that the physics of lag are old news. It does not tell you what your sensor will do this afternoon."
+        },
+        {
+          "t": "h",
+          "text": "What the arrows actually tell you"
+        },
+        {
+          "t": "p",
+          "text": "An arrow is not a mood. It is arithmetic: the device takes roughly the last ten to twenty minutes of readings, works out the slope, and expresses it as where you would end up in thirty minutes if nothing changed. Something almost always changes, which is why the arrow is a direction of travel and not a forecast."
+        },
+        {
+          "t": "p",
+          "text": "Which leads to the reframe that matters mid-session. The number and the arrow are built from the same delayed data, so both are equally old. But the number only tells you where you were, whereas the arrow tells you which way you were heading when you were there. During exercise, when everything is moving fast, that second piece of information is worth considerably more than the first. Read the arrow first and the number second — most people do it the other way round."
+        },
+        {
+          "t": "table",
+          "head": [
+            "What you see",
+            "Roughly what it means",
+            "How to read it mid-workout"
+          ],
+          "rows": [
+            [
+              "Flat",
+              "Less than about 1.7 mmol/L of movement expected over the next half hour",
+              "Not the same as nothing happening — it means nothing had happened as of ten minutes ago. Fine to carry on. Look again within fifteen minutes rather than assuming it holds"
+            ],
+            [
+              "One arrow",
+              "Somewhere around 1.7 to 3.3 mmol/L over the next half hour",
+              "This is your decision point, not your warning. If it is pointing down, choose your fuel now, while you still have the option of a small amount. Waiting until you feel it means the drop has already outrun the screen"
+            ],
+            [
+              "Two arrows",
+              "More than roughly 5 mmol/L over half an hour — faster than about 0.17 mmol/L a minute",
+              "Act. Do not stop to confirm it with the number, which is behind, and do not wait for symptoms, which may be blunted. Treat first, verify after"
+            ],
+            [
+              "Rising during lifting",
+              "Glucose climbing mid-session",
+              "Usually normal physiology rather than a failure. Short, hard efforts release stored glucose and stress hormones faster than insulin can cover. It is expected, and it is not a signal to correct mid-set"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Lifting and cardio produce different pictures"
+        },
+        {
+          "t": "p",
+          "text": "Steady aerobic work tends to pull glucose down over the session. Short, hard, effortful work — heavy sets, sprints, intervals — often pushes it up instead, sometimes sharply, before it drifts back later. That is why [the same weights session that sends your blood sugar up is not a session gone wrong](/blog/does-weight-training-raise-blood-sugar/), and why [choosing between Zone 2 and intervals after 40](/blog/zone-2-or-hiit-after-40/) changes the shape of the trace you should expect to see."
+        },
+        {
+          "t": "p",
+          "text": "The asymmetry worth remembering is about consequences, not patterns. When glucose is climbing during hard work, the lag is a nuisance: you watch a number that is behind reality and feel mildly irritated. When glucose is falling during steady work, the same lag is the difference between catching a drop early and catching it on the floor. The sensor deserves much more scepticism on the way down than on the way up. If you want to think through how a particular session is likely to move you before you do it, the [exercise and blood sugar calculator](/resources/exercise-calculator/) is built for exactly that question."
+        },
+        {
+          "t": "h",
+          "text": "Check before you start, not as you start"
+        },
+        {
+          "t": "p",
+          "text": "If you glance at the sensor as you walk through the door of the gym, you are looking at a reading generated while you were still parking. That is usually fine, because nothing much was happening. It stops being fine when something was happening — you ate closer to the session than usual, or took a correction, or walked further than you meant to."
+        },
+        {
+          "t": "p",
+          "text": "Looking fifteen to twenty minutes before you begin costs nothing and buys you two readings instead of one. The pair tells you the direction; a single reading at the door tells you a number and hides the direction inside it. If your reading is drifting down before you have done anything at all, that is far more useful to know in the changing room than three sets in."
+        },
+        {
+          "t": "h",
+          "text": "When the finger-prick still wins"
+        },
+        {
+          "t": "p",
+          "text": "There are three situations where a meter is worth the interruption, and they are narrower than the anxious version of this advice suggests. The first is when the arrow says you are moving fast, because that is precisely when the gap between fluid and blood is widest. The second is when your body and the screen disagree — shaky, sweating oddly, gone vague, while the sensor insists you are fine. Trust the body. It is not reading fluid from ten minutes ago. The third is any decision that involves treating a low: given that sensors over-read by around 1.1 mmol/L during exercise hypoglycaemia, a number near the threshold deserves confirmation before you act on it, and often after you have already taken the fast carbs."
+        },
+        {
+          "t": "h",
+          "text": "Three questions before you act on a reading"
+        },
+        {
+          "t": "p",
+          "text": "Which way am I going? The arrow, before the number. A 5.5 heading down and a 5.5 heading up are not the same situation and should not get the same response."
+        },
+        {
+          "t": "p",
+          "text": "How long have I been at this? The lag widens as things move faster, and things move fastest in the first twenty minutes and during the hardest efforts. Early in a session, and in the middle of intervals, discount the screen more heavily than you would at rest."
+        },
+        {
+          "t": "p",
+          "text": "Does my body agree? If it does, act on the screen. If it does not, the body wins and the meter settles it. Symptoms and sensor disagreeing is information, not a malfunction."
+        },
+        {
+          "t": "h",
+          "text": "What I would take away from all this"
+        },
+        {
+          "t": "p",
+          "text": "The device is not lying to you, and it is not a toy. It is an accurate report on a moment that has already passed, and the honest way to use it during exercise is to treat every reading as a description of the recent past rather than the present. Read the direction before the value. Treat a falling arrow as a decision rather than a warning, because the evidence says the screen is at its most misleadingly reassuring exactly when you are dropping. Expect the number to climb during hard, short efforts and do not treat that as a failure. And keep a meter within reach for the three situations that genuinely warrant it, which is far fewer than the number of times most people reach for one."
+        },
+        {
+          "t": "p",
+          "text": "If you are choosing or changing sensor, the [CGM sensor comparison](/cgm-comparison/) sets out wear time, alerts, calibration and what each one works with. And the obvious but necessary line: nothing here is a reason to change how you dose insulin around exercise on your own. That conversation belongs with your diabetes team, who can see your data and your history, neither of which an article can."
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "During moderate aerobic exercise, CGM ran an average of 12 minutes behind blood glucose, with a wide spread — and over-read by around 1.1 mmol/L when hypoglycaemia was actually occurring.",
+              "detail": "A randomised, counterbalanced study published in Diabetes Technology & Therapeutics, volume 21, issue 6, 2019, pages 313 to 321. Seventeen adults with type 1 diabetes (4 men, 13 women), mean age 31 ± 10 years, completed 60 minutes of moderate-intensity walking or light jogging at 45 to 55% of VO2peak, split into four 15-minute bouts with 5-minute rests, across three different basal-rate conditions. Pooled lag behind self-monitored blood glucose during exercise was 12 ± 11 minutes, with a bias of −7 ± 19 mg/dL/min. Median absolute relative difference was 13% (range 6 to 22) during exercise against 8% (5 to 14) during the post-exercise meal period. Where self-monitored blood glucose fell below 70 mg/dL (3.9 mmol/L), the sensor overestimated by approximately 20 mg/dL (about 1.1 mmol/L) on average.",
+              "cite": "Diabetes Technology & Therapeutics · Zaharieva, Turksoy, McGaugh, Pooni, Vienneau, Ly and Riddell, 2019",
+              "url": "https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364"
+            },
+            {
+              "claim": "A factory-calibrated Dexcom G6 was not significantly degraded by aerobic, resistance or high-intensity interval exercise.",
+              "detail": "A randomised prospective study with planned secondary analysis, published in Biosensors (Basel), volume 10, issue 10, 2020, article 138. Twenty-four adults with type 1 diabetes (10 men, 14 women), 8 per group, completed 30 minutes of aerobic exercise, 30 minutes of whole-body resistance training, or 20 minutes of high-intensity interval training. Median absolute relative difference during exercise was 8.9 to 13.9% for aerobic, 7.7 to 14.5% for resistance and 12.1 to 16.8% for intervals. The authors concluded that accuracy of the no-calibration Dexcom G6 was not significantly impacted by any of the three exercise types. Note that this addresses accuracy, not the physiological delay between blood and interstitial fluid, which is a separate phenomenon.",
+              "cite": "Biosensors (Basel) · Guillot, Jacobs, Wilson and colleagues, 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7600074/"
+            },
+            {
+              "claim": "In an often-cited study of steady-state cycling, CGM failed to meet the international accuracy standard — but the participants were young women without diabetes, using 2012 sensor technology.",
+              "detail": "Published in Nutrients, volume 4, issue 9, 2012, pages 1282 to 1292. Twelve recreationally active women without diabetes, mean age 21.8 ± 2.4 years, BMI 22.8 ± 2.3, completed two identical 45-minute steady-state cycling trials at approximately 60% of peak power output on non-consecutive days, with a carbohydrate gel at 15 minutes. Against venous plasma glucose, mean absolute difference was 17.4 mg/dL (about 1.0 mmol/L) with 95% limits of agreement of ±44.3 mg/dL, and only 69.4% of CGM values met the ISO 15197 accuracy standard; against capillary plasma glucose the figures were 15.5 mg/dL and 72.7%. Correlations were moderate, r = 0.6. The population and the sensor generation both limit how far this transfers to a woman over 40 living with type 1 diabetes.",
+              "cite": "Nutrients · Herrington, Gee, Dow, Monosky, Davis and Pritchett, 2012",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3475238/"
+            },
+            {
+              "claim": "Trend arrows represent a rate of change calculated from recent readings and expressed as a projected 30-minute change.",
+              "detail": "Trend arrows are derived from recent real-time CGM measurements, generally the last ten minutes or so of values, and describe the anticipated change over the following 30 minutes rather than a measured outcome. A single arrow corresponds to roughly 30 to 60 mg/dL (about 1.7 to 3.3 mmol/L) over 30 minutes; a double arrow to more than 90 mg/dL (about 5 mmol/L), equivalent to a rate faster than about 3 mg/dL per minute (about 0.17 mmol/L per minute). Exact thresholds vary slightly between manufacturers and between sensor generations, so the bands above are indicative rather than device-specific.",
+              "cite": "Device documentation and clinical guidance on trend-arrow interpretation, Dexcom G5 onwards",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29344577/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "CGM sensor comparison (2026)",
+              "url": "/cgm-comparison/",
+              "desc": "Every major sensor side by side — wear time, alerts, calibration and what each one pairs with."
+            },
+            {
+              "name": "Exercise & blood sugar calculator",
+              "url": "/resources/exercise-calculator/",
+              "desc": "See how cardio, strength and everyday movement are likely to move you, before you do the session."
+            },
+            {
+              "name": "Why lifting weights sends your blood sugar up — and why that's not a failure",
+              "url": "/blog/does-weight-training-raise-blood-sugar/",
+              "desc": "The physiology behind the rising trace during resistance work."
+            },
+            {
+              "name": "Eating around training when you're managing blood sugar",
+              "url": "/blog/eating-around-training-blood-sugar/",
+              "desc": "The other half of the question — what to eat and when, once you can read the screen properly."
+            },
+            {
+              "name": "Zone 2 or HIIT after 40",
+              "url": "/blog/zone-2-or-hiit-after-40/",
+              "desc": "Which kind of session you choose changes the shape of the trace you should expect."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How far behind is a CGM during exercise?",
+          "a": "In a study of 17 adults with type 1 diabetes doing an hour of moderate treadmill work, the sensor ran an average of 12 minutes behind finger-prick readings — but with a spread of plus or minus 11 minutes. The average is less useful than the spread: it means the delay is not a constant you can learn to subtract, and you cannot tell from the screen how large it is on any given day. Its error rate was 13% during exercise against 8% afterwards."
+        },
+        {
+          "q": "Can I trust my CGM when it says I am low during a workout?",
+          "a": "Trust the direction more than the value, and treat first. In the same study, when a finger-prick confirmed genuine hypoglycaemia below 3.9 mmol/L during exercise, the sensor was reading around 1.1 mmol/L higher than the true value on average. The error runs in the reassuring direction at exactly the wrong moment. If the arrow is falling steeply, act on it rather than waiting for the number to catch up, then confirm with a meter."
+        },
+        {
+          "q": "Why does my blood sugar go up when I lift weights?",
+          "a": "Because short, hard efforts release stored glucose and stress hormones faster than the insulin on board can cover. It is expected physiology rather than a sign the session went wrong, and it usually settles later. Steady aerobic work tends to do the opposite and pull glucose down over the session. Neither pattern is a failure — they are just different traces, and knowing which one to expect is most of the skill."
+        },
+        {
+          "q": "Should I still finger-prick if I wear a CGM?",
+          "a": "During exercise, in three situations. When the arrow shows rapid movement, because that is when the gap between blood and interstitial fluid is widest. When your symptoms and the screen disagree — trust your body, which is not reading data from ten minutes ago. And whenever you are deciding whether to treat a low, since sensors over-read during exercise hypoglycaemia. Outside those three, the interruption usually costs more than it buys."
+        },
+        {
+          "q": "Are newer CGM sensors more accurate during exercise?",
+          "a": "More accurate, yes; less delayed, no. A randomised study of 24 adults with type 1 diabetes found a factory-calibrated Dexcom G6 was not significantly degraded by aerobic, resistance or interval work, with error rates between roughly 8% and 17%. But accuracy and lag are different problems. Accuracy is engineering and has improved. Lag is physiology — glucose still has to diffuse from blood into the fluid the sensor sits in — and no firmware update changes that."
+        },
+        {
+          "q": "When should I check my CGM before a workout?",
+          "a": "Fifteen to twenty minutes before you start, rather than as you walk in. Checking twice gives you a direction; checking once at the door gives you a number with the direction hidden inside it. That matters most when something was already happening — you ate later than usual, took a correction, or walked further than planned — because those are exactly the situations where a single stale reading looks calmer than reality."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Діабет",
+      "imageAlt": "Жінка підносить телефон до круглого сенсора на плечі, щоб зчитати рівень глюкози.",
+      "title": "Як насправді читати CGM під час тренування",
+      "seoTitle": "Як читати CGM під час тренування",
+      "metaDesc": "Стрілки тренду, затримка сенсора і що робити посеред заняття — практичний гайд по CGM для жінок після 40 з діабетом 1 типу.",
+      "excerpt": "Сенсор не вимірює вашу кров, і під час навантаження ця різниця має значення. Якою є виміряна затримка, чому похибка йде в заспокійливий бік саме тоді, коли ви падаєте, і як читати стрілку замість числа.",
+      "meta": "28 серпня 2026 · 9 хв читання",
+      "lead": "Більшість людей, які носять сенсор під час тренування, використовують приблизно десяту частину того, що він їм каже. Вони зиркають на число. Посеред заняття число — найменш надійне, що є на екрані, і сьогодні є хороший вимір того, наскільки саме воно відстає і, що важливіше, у який бік помиляється, коли ви падаєте.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Почніть із того, що саме вимірює пристрій, бо майже кожне непорозуміння посеред тренування починається саме тут. Сенсор не бере кров. Він сидить у рідині між клітинами під шкірою й вимірює глюкозу там, а потім перетворює це на число у вашому телефоні. Глюкоза потрапляє в цю рідину з крові шляхом дифузії, а це потребує часу. Тож показник не стільки хибний, скільки історичний — і що швидше рухається ваша глюкоза насправді, то давніша ця історія."
+        },
+        {
+          "t": "h",
+          "text": "Затримка реальна, але головне — розкид"
+        },
+        {
+          "t": "p",
+          "text": "Є хороший вимір того, наскільки саме він відстає. Сімнадцятеро дорослих із діабетом 1 типу — тринадцять із них жінки — [ходили й легко бігли на доріжці протягом години](https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364), розбитої на чотири п'ятнадцятихвилинні відрізки, і паралельно із сенсором увесь час робили заміри з пальця. У середньому по трьох різних інсулінових умовах сенсор відставав від крові на 12 ± 11 хвилин. Його похибка приблизно вдвічі зменшилася, щойно заняття скінчилося й вони сіли їсти: 13% під час навантаження проти 8% після."
+        },
+        {
+          "t": "p",
+          "text": "Дванадцять хвилин — це число, яке цитують усі. Плюс-мінус одинадцять — те, що насправді має значення. Затримка у дванадцять хвилин звучить як стала, яку можна навчитися віднімати, як ви вивчили свій вуглеводний коефіцієнт. Такий широкий розкид означає, що це взагалі не стала: на одному занятті вона може бути майже миттєвою, на іншому — понад двадцять хвилин, і з екрана ви не визначите, який сьогодні день. Ось у чому практична проблема. Річ не в тому, що число запізнюється. Річ у тому, що ви не знаєте, наскільки."
+        },
+        {
+          "t": "h",
+          "text": "У похибки є напрямок, і він незручний"
+        },
+        {
+          "t": "p",
+          "text": "Ось результат із того самого дослідження, який, на мою думку, має змінити те, як ви користуєтеся пристроєм. Коли замір із пальця підтверджував, що учасниця справді пішла вниз — нижче 3,9 ммоль/л, — сенсор показував у середньому приблизно на 1,1 ммоль/л більше за правду."
+        },
+        {
+          "t": "p",
+          "text": "Затримайтеся на цьому. Це означає, що саме в той момент, коли вам найбільше потрібна чесність від числа, воно вам лестить. Сенсор каже 4,8 і заспокоює; кров каже 3,7 і не заспокоює. Найприємніший показник, який ваш пристрій видає під час навантаження, — водночас найменш надійний із усього, що він видає за день. Це єдина причина сприймати стрілку вниз як момент рішення, а не як щось, за чим варто наглядати."
+        },
+        {
+          "t": "h",
+          "text": "Сенсори стали кращими; репутація за ними не встигла"
+        },
+        {
+          "t": "p",
+          "text": "Прочитавши все вище, легко вирішити, що CGM майже марний, щойно ви почали рухатися. Ширші дані кажуть інше, і варто бути точними щодо того, чому. [Рандомізоване дослідження за участі 24 дорослих із діабетом 1 типу](https://pmc.ncbi.nlm.nih.gov/articles/PMC7600074/), чотирнадцять із яких жінки, провело заводсько відкалібрований Dexcom G6 через аеробне навантаження, силові й високоінтенсивні інтервали — і не виявило значущого погіршення точності в жодному з трьох. Похибка трималася приблизно між 8% і 17% в усіх умовах — не ідеально, але й не той провал, на який натякає старіша література."
+        },
+        {
+          "t": "p",
+          "text": "Ці два результати не суперечать один одному, і різниця між ними справді корисна. Точність — це інженерна задача, і інженерія стала значно кращою: сучасні заводсько каліброані сенсори витримують навантаження так, як десятирічної давнини не витримували. Затримка — це задача фізіології: глюкозі й далі треба продифундувати з крові в рідину, де сидить сенсор, і жодне оновлення прошивки цього не змінює. Тож пристрій став точніше казати, де ви були, залишаючись рівно таким самим мовчазним щодо того, де ви зараз."
+        },
+        {
+          "t": "p",
+          "text": "Ще одне уточнення, бо це дослідження в цьому контексті цитують постійно. Роботу, до якої найчастіше апелюють, щоб довести, що CGM не працює під час навантаження, провели на [дванадцяти жінках упродовж 45 хвилин рівномірної їзди на велотренажері](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475238/): лише 69% показників сенсора відповідали міжнародному стандарту точності проти венозної крові, із середнім розходженням близько 1 ммоль/л. Це справжній результат. Це також дванадцять жінок середнього віку 21 рік, у жодної з яких не було діабету, із сенсорною технологією 2012 року. Якщо вам 45 і у вас діабет 1 типу, це двічі не та популяція й до того ж не те обладнання. Воно каже, що фізика затримки — давно відома річ. Воно не каже, що зробить ваш сенсор сьогодні по обіді."
+        },
+        {
+          "t": "h",
+          "text": "Що насправді кажуть стрілки"
+        },
+        {
+          "t": "p",
+          "text": "Стрілка — це не настрій. Це арифметика: пристрій бере приблизно останні десять–двадцять хвилин показників, обчислює нахил і виражає його як те, де ви опинилися б через тридцять хвилин, якби нічого не змінилося. Щось майже завжди змінюється — саме тому стрілка є напрямком руху, а не прогнозом."
+        },
+        {
+          "t": "p",
+          "text": "Звідси випливає переосмислення, яке має значення посеред заняття. Число і стрілка побудовані з тих самих запізнілих даних, тож обидва однаково старі. Але число каже лише, де ви були, тоді як стрілка каже, куди ви прямували, коли там були. Під час навантаження, коли все рухається швидко, друга інформація коштує значно більше за першу. Читайте спершу стрілку, потім число — більшість людей робить навпаки."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Що ви бачите",
+            "Приблизно що це означає",
+            "Як читати посеред тренування"
+          ],
+          "rows": [
+            [
+              "Рівна",
+              "Менш ніж близько 1,7 ммоль/л руху очікується протягом наступних півгодини",
+              "Це не те саме, що «нічого не відбувається» — це означає, що нічого не відбувалося станом на десять хвилин тому. Можна продовжувати. Погляньте ще раз протягом п'ятнадцяти хвилин, а не вважайте, що так і триматиметься"
+            ],
+            [
+              "Одна стрілка",
+              "Приблизно від 1,7 до 3,3 ммоль/л протягом наступних півгодини",
+              "Це ваш момент рішення, а не попередження. Якщо вона вниз — обирайте паливо зараз, поки ще маєте варіант невеликої кількості. Чекати, доки відчуєте, означає, що падіння вже випередило екран"
+            ],
+            [
+              "Дві стрілки",
+              "Понад приблизно 5 ммоль/л за півгодини — швидше за близько 0,17 ммоль/л на хвилину",
+              "Дійте. Не зупиняйтеся, щоб звірити з числом, яке відстає, і не чекайте симптомів, які можуть бути притупленими. Спершу купіруйте, звіряйте потім"
+            ],
+            [
+              "Зростання під час силових",
+              "Глюкоза повзе вгору посеред заняття",
+              "Зазвичай це нормальна фізіологія, а не збій. Короткі важкі зусилля вивільняють запасену глюкозу й гормони стресу швидше, ніж інсулін встигає це покрити. Це очікувано й не є приводом коригувати між підходами"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Силові й кардіо дають різні картини"
+        },
+        {
+          "t": "p",
+          "text": "Рівномірна аеробна робота зазвичай тягне глюкозу вниз протягом заняття. Коротка, важка, надривна робота — важкі підходи, спринти, інтервали — часто натомість штовхає її вгору, іноді різко, перш ніж вона зсунеться назад пізніше. Саме тому [те саме силове заняття, після якого цукор іде вгору, не є заняттям, що пішло не так](/ua/blog/does-weight-training-raise-blood-sugar/), і саме тому [вибір між Зоною 2 та інтервалами після 40](/ua/blog/zone-2-or-hiit-after-40/) змінює форму кривої, на яку варто очікувати."
+        },
+        {
+          "t": "p",
+          "text": "Асиметрія, яку варто запам'ятати, стосується наслідків, а не патернів. Коли глюкоза зростає під час важкої роботи, затримка — це прикрість: ви дивитеся на число, що відстає від реальності, і легко дратуєтеся. Коли глюкоза падає під час рівномірної роботи, та сама затримка — це різниця між тим, щоб зловити падіння рано, і тим, щоб зловити його на підлозі. Сенсор заслуговує значно більшого скепсису на спуску, ніж на підйомі. Якщо ви хочете прикинути, як конкретне заняття вплине на вас, перш ніж його робити, [калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) створений саме для цього питання."
+        },
+        {
+          "t": "h",
+          "text": "Перевіряйте до початку, а не на початку"
+        },
+        {
+          "t": "p",
+          "text": "Якщо ви зиркаєте на сенсор, заходячи у двері залу, ви дивитеся на показник, згенерований тоді, коли ви ще паркувалися. Зазвичай це нормально, бо нічого особливого не відбувалося. Це перестає бути нормальним, коли щось таки відбувалося — ви поїли ближче до заняття, ніж зазвичай, зробили корекцію або пройшли більше, ніж збиралися."
+        },
+        {
+          "t": "p",
+          "text": "Подивитися за п'ятнадцять–двадцять хвилин до початку не коштує нічого, а дає вам два показники замість одного. Пара показує напрямок; один показник у дверях дає число й ховає напрямок усередині нього. Якщо ваш рівень повзе вниз ще до того, як ви взагалі щось зробили, це набагато корисніше знати в роздягальні, ніж на третьому підході."
+        },
+        {
+          "t": "h",
+          "text": "Коли глюкометр усе ще виграє"
+        },
+        {
+          "t": "p",
+          "text": "Є три ситуації, коли глюкометр вартий перерви, і їх менше, ніж підказує тривожна версія цієї поради. Перша — коли стрілка каже, що ви рухаєтеся швидко, бо саме тоді розрив між рідиною і кров'ю найбільший. Друга — коли тіло й екран не сходяться: тремтить, дивно піт, у голові туман, а сенсор наполягає, що все гаразд. Довіряйте тілу. Воно не читає рідину десятихвилинної давнини. Третя — будь-яке рішення про купірування гіпоглікемії: оскільки сенсори завищують приблизно на 1,1 ммоль/л під час гіпо на навантаженні, число біля порогу варте підтвердження, перш ніж на нього діяти, — і часто вже після того, як ви взяли швидкі вуглеводи."
+        },
+        {
+          "t": "h",
+          "text": "Три запитання, перш ніж діяти за показником"
+        },
+        {
+          "t": "p",
+          "text": "Куди я рухаюся? Спершу стрілка, потім число. 5,5 із рухом вниз і 5,5 із рухом угору — не та сама ситуація, і реакція на них не має бути однаковою."
+        },
+        {
+          "t": "p",
+          "text": "Скільки я вже цим займаюся? Затримка зростає, коли все рухається швидше, а найшвидше воно рухається в перші двадцять хвилин і під час найважчих зусиль. На початку заняття та посеред інтервалів знижуйте довіру до екрана сильніше, ніж у спокої."
+        },
+        {
+          "t": "p",
+          "text": "Чи згодне моє тіло? Якщо згодне — дійте за екраном. Якщо ні — тіло виграє, а глюкометр вирішує суперечку. Розбіжність між симптомами й сенсором — це інформація, а не несправність."
+        },
+        {
+          "t": "h",
+          "text": "Що я винесла б із усього цього"
+        },
+        {
+          "t": "p",
+          "text": "Пристрій вам не бреше й не є іграшкою. Це точний звіт про мить, яка вже минула, і чесний спосіб користуватися ним під час навантаження — сприймати кожен показник як опис недавнього минулого, а не теперішнього. Читайте напрямок раніше за значення. Сприймайте стрілку вниз як рішення, а не як попередження, бо дані кажуть: екран найоманливіше заспокійливий саме тоді, коли ви падаєте. Очікуйте, що число зростатиме під час коротких важких зусиль, і не вважайте це провалом. І тримайте глюкометр під рукою для тих трьох ситуацій, які справді цього варті, — а їх значно менше, ніж разів, коли по нього тягнуться."
+        },
+        {
+          "t": "p",
+          "text": "Якщо ви обираєте або міняєте сенсор, [порівняння CGM-сенсорів](/cgm-comparison-ua/) показує час носіння, сповіщення, калібрування й сумісність. І очевидна, але необхідна фраза: ніщо тут не є приводом самостійно змінювати дозування інсуліну навколо тренувань. Ця розмова належить вашій діабетичній команді, яка бачить ваші дані та вашу історію, — а стаття не бачить ні того, ні того."
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Під час помірного аеробного навантаження CGM відставав від глюкози крові в середньому на 12 хвилин із широким розкидом — і завищував приблизно на 1,1 ммоль/л, коли гіпоглікемія справді відбувалася.",
+              "detail": "Рандомізоване збалансоване дослідження, опубліковане в Diabetes Technology & Therapeutics, том 21, випуск 6, 2019, сторінки 313–321. Сімнадцятеро дорослих із діабетом 1 типу (4 чоловіки, 13 жінок), середній вік 31 ± 10 років, виконали 60 хвилин ходьби чи легкого бігу помірної інтенсивності на рівні 45–55% VO2peak, розбитих на чотири 15-хвилинні відрізки з 5-хвилинними паузами, у трьох різних умовах базального інсуліну. Сумарна затримка порівняно із самоконтролем глюкози крові під час навантаження становила 12 ± 11 хвилин, зі зміщенням −7 ± 19 мг/дл/хв. Медіанна абсолютна відносна різниця становила 13% (діапазон 6–22) під час навантаження проти 8% (5–14) під час прийому їжі після нього. Там, де самоконтроль показував нижче 70 мг/дл (3,9 ммоль/л), сенсор завищував у середньому приблизно на 20 мг/дл (близько 1,1 ммоль/л).",
+              "cite": "Diabetes Technology & Therapeutics · Zaharieva, Turksoy, McGaugh, Pooni, Vienneau, Ly і Riddell, 2019",
+              "url": "https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364"
+            },
+            {
+              "claim": "Заводсько відкалібрований Dexcom G6 не показав значущого погіршення точності під час аеробного, силового чи високоінтенсивного інтервального навантаження.",
+              "detail": "Рандомізоване проспективне дослідження із запланованим вторинним аналізом, опубліковане в Biosensors (Basel), том 10, випуск 10, 2020, стаття 138. Двадцять четверо дорослих із діабетом 1 типу (10 чоловіків, 14 жінок), по 8 у групі, виконали 30 хвилин аеробного навантаження, 30 хвилин силового тренування на всі групи м'язів або 20 хвилин високоінтенсивного інтервального тренування. Медіанна абсолютна відносна різниця під час навантаження становила 8,9–13,9% для аеробного, 7,7–14,5% для силового і 12,1–16,8% для інтервального. Автори дійшли висновку, що точність Dexcom G6 без калібрування суттєво не змінюється в жодному з трьох типів навантаження. Зауважте: ідеться про точність, а не про фізіологічну затримку між кров'ю та міжклітинною рідиною — це окреме явище.",
+              "cite": "Biosensors (Basel) · Guillot, Jacobs, Wilson та колеги, 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7600074/"
+            },
+            {
+              "claim": "У часто цитованому дослідженні рівномірної їзди на велотренажері CGM не відповідав міжнародному стандарту точності — але учасницями були молоді жінки без діабету на сенсорах 2012 року.",
+              "detail": "Опубліковано в Nutrients, том 4, випуск 9, 2012, сторінки 1282–1292. Дванадцять фізично активних жінок без діабету, середній вік 21,8 ± 2,4 року, ІМТ 22,8 ± 2,3, виконали два однакові 45-хвилинні рівномірні заїзди на велотренажері на рівні приблизно 60% пікової потужності в різні дні, з вуглеводним гелем на 15-й хвилині. Проти венозної плазми середня абсолютна різниця становила 17,4 мг/дл (близько 1,0 ммоль/л) з 95% межами узгодженості ±44,3 мг/дл, і лише 69,4% значень CGM відповідали стандарту точності ISO 15197; проти капілярної плазми — 15,5 мг/дл і 72,7%. Кореляції були помірними, r = 0,6. І популяція, і покоління сенсорів обмежують те, наскільки це переноситься на жінку після 40 з діабетом 1 типу.",
+              "cite": "Nutrients · Herrington, Gee, Dow, Monosky, Davis і Pritchett, 2012",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3475238/"
+            },
+            {
+              "claim": "Стрілки тренду відображають швидкість зміни, обчислену з нещодавніх показників і виражену як прогнозована зміна за 30 хвилин.",
+              "detail": "Стрілки тренду виводяться з нещодавніх вимірювань CGM у реальному часі, зазвичай приблизно за останні десять хвилин, і описують очікувану зміну протягом наступних 30 хвилин, а не виміряний результат. Одна стрілка відповідає приблизно 30–60 мг/дл (близько 1,7–3,3 ммоль/л) за 30 хвилин; подвійна — понад 90 мг/дл (близько 5 ммоль/л), що дорівнює швидкості понад приблизно 3 мг/дл за хвилину (близько 0,17 ммоль/л за хвилину). Точні пороги дещо різняться між виробниками й поколіннями сенсорів, тож наведені діапазони є орієнтовними, а не специфічними для конкретного пристрою.",
+              "cite": "Документація виробників і клінічні рекомендації щодо тлумачення стрілок тренду, від Dexcom G5",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29344577/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читайте також",
+          "items": [
+            {
+              "name": "Порівняння CGM-сенсорів (2026)",
+              "url": "/cgm-comparison-ua/",
+              "desc": "Усі основні сенсори поряд — час носіння, сповіщення, калібрування й сумісність."
+            },
+            {
+              "name": "Калькулятор впливу фізичних навантажень на цукор",
+              "url": "/ua/resources/exercise-calculator/",
+              "desc": "Подивіться, як кардіо, силові та щоденний рух імовірно вплинуть на вас, ще до заняття."
+            },
+            {
+              "name": "Чому силові тренування піднімають цукор — і чому це не провал",
+              "url": "/ua/blog/does-weight-training-raise-blood-sugar/",
+              "desc": "Фізіологія за кривою, що йде вгору під час силової роботи."
+            },
+            {
+              "name": "Як їсти навколо тренувань, коли ви керуєте цукром",
+              "url": "/ua/blog/eating-around-training-blood-sugar/",
+              "desc": "Друга половина питання — що їсти й коли, щойно ви навчилися читати екран."
+            },
+            {
+              "name": "Зона 2 чи HIIT після 40",
+              "url": "/ua/blog/zone-2-or-hiit-after-40/",
+              "desc": "Тип заняття, який ви обираєте, змінює форму кривої, на яку варто очікувати."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Наскільки CGM відстає під час тренування?",
+          "a": "У дослідженні за участі 17 дорослих із діабетом 1 типу, які годину помірно працювали на біговій доріжці, сенсор відставав від заміру з пальця в середньому на 12 хвилин — але з розкидом плюс-мінус 11 хвилин. Розкид тут корисніший за середнє: він означає, що затримка не є сталою, яку можна навчитися віднімати, і з екрана ви не визначите, наскільки вона велика саме сьогодні. Похибка становила 13% під час навантаження проти 8% після."
+        },
+        {
+          "q": "Чи можна довіряти CGM, коли він показує низький цукор під час тренування?",
+          "a": "Довіряйте напрямку більше, ніж значенню, і купіруйте першим. У тому самому дослідженні, коли замір із пальця підтверджував справжню гіпоглікемію нижче 3,9 ммоль/л під час навантаження, сенсор у середньому показував приблизно на 1,1 ммоль/л більше за справжнє значення. Похибка йде в заспокійливому напрямку саме в найгірший момент. Якщо стрілка круто вниз — дійте за нею, а не чекайте, доки число наздожене, і потім підтвердьте глюкометром."
+        },
+        {
+          "q": "Чому цукор зростає під час силових тренувань?",
+          "a": "Бо короткі важкі зусилля вивільняють запасену глюкозу й гормони стресу швидше, ніж наявний інсулін встигає покрити. Це очікувана фізіологія, а не ознака невдалого заняття, і зазвичай воно вирівнюється пізніше. Рівномірна аеробна робота зазвичай робить протилежне й тягне глюкозу вниз протягом заняття. Жоден із патернів не є провалом — це просто різні криві, і знати, якої очікувати, — це майже вся майстерність."
+        },
+        {
+          "q": "Чи потрібен глюкометр, якщо я ношу CGM?",
+          "a": "Під час навантаження — у трьох ситуаціях. Коли стрілка показує швидкий рух, бо саме тоді розрив між кров'ю й міжклітинною рідиною найбільший. Коли ваші симптоми й екран не сходяться — довіряйте тілу, воно не читає дані десятихвилинної давнини. І щоразу, коли ви вирішуєте, чи купірувати гіпо, бо сенсори завищують під час гіпоглікемії на навантаженні. Поза цими трьома перерва зазвичай коштує більше, ніж дає."
+        },
+        {
+          "q": "Чи новіші сенсори CGM точніші під час тренування?",
+          "a": "Точніші — так; менш запізнілі — ні. Рандомізоване дослідження за участі 24 дорослих із діабетом 1 типу показало, що заводсько відкалібрований Dexcom G6 суттєво не погіршувався під час аеробної, силової чи інтервальної роботи, з похибкою приблизно між 8% і 17%. Але точність і затримка — різні задачі. Точність є інженерією й покращилася. Затримка є фізіологією — глюкозі й далі треба продифундувати з крові в рідину, де сидить сенсор, — і жодне оновлення прошивки цього не змінює."
+        },
+        {
+          "q": "Коли перевіряти CGM перед тренуванням?",
+          "a": "За п'ятнадцять–двадцять хвилин до початку, а не заходячи у двері. Дві перевірки дають вам напрямок; одна перевірка у дверях дає число з напрямком, схованим усередині. Це найважливіше тоді, коли щось уже відбувалося — ви поїли пізніше за звичне, зробили корекцію або пройшли більше, ніж планували, — бо саме в цих ситуаціях один застарілий показник виглядає спокійнішим за реальність."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vitamin-c-serum-over-40",
+    "tags": [
+      "skin-ageing",
+      "collagen",
+      "perimenopause",
+      "oestrogen",
+      "clinical-trials"
+    ],
+    "date": "2026-08-26",
+    "image": "/images/vitamin-c-serum-over-40.jpg",
+    "cats": [
+      "skin",
+      "perimenopause"
+    ],
+    "en": {
+      "cat": "Skin & beauty",
+      "imageAlt": "A small amber glass dropper bottle on a pale bathroom shelf beside a folded flannel, morning light coming in from the side.",
+      "title": "Vitamin C serums over 40: what the evidence actually supports",
+      "seoTitle": "Vitamin C Serums Over 40: What the Evidence Supports",
+      "metaDesc": "What the trials on vitamin C serum concentration actually found for ageing skin — and the number the marketing borrowed from a pig-skin study.",
+      "excerpt": "Vitamin C is the second most recommended thing in skincare after sunscreen, and the serum on the shelf is usually 15% or 20%. The human trials mostly used 5%. Here is where that gap came from, and what it means for what you buy.",
+      "meta": "26 August 2026 · 8 min read",
+      "lead": "There is a number on the front of almost every vitamin C serum — 10%, 15%, 20% — and the assumption is that a higher one is a stronger product. The number is real. Where it came from is not what you would guess, and once you know, the shelf looks quite different.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Vitamin C sits just behind sunscreen and retinoids on almost every dermatologist's list of things worth using, and it deserves to be there. What it does not deserve is the confidence with which the specifics are stated. The evidence for topical vitamin C is real but much thinner than the shelf implies, and the single most quoted piece of it — the concentration — is being read backwards."
+        },
+        {
+          "t": "h",
+          "text": "What vitamin C is claimed to do"
+        },
+        {
+          "t": "p",
+          "text": "Three claims, and they are not equally well supported."
+        },
+        {
+          "t": "p",
+          "text": "Antioxidant protection. Vitamin C mops up the free radicals that ultraviolet light generates in skin. This is straightforward chemistry and nobody disputes it. What is worth noticing is that it is protection, not repair — it belongs in the same mental category as sunscreen, not in the same one as a treatment."
+        },
+        {
+          "t": "p",
+          "text": "Collagen synthesis. This one is often stated as though vitamin C instructs your skin to make collagen. It does not. It is a cofactor — the hydroxylase enzymes that build and stabilise collagen's triple helix cannot function without it. Vitamin C does not push the process; it permits it. The vivid demonstration is scurvy, where the absence of vitamin C causes collagen to fail structurally. Useful biochemistry, but a cofactor being essential does not mean more of it produces more collagen in skin that already has enough."
+        },
+        {
+          "t": "p",
+          "text": "Pigmentation. Vitamin C interferes with tyrosinase, an enzyme in the melanin pathway, which is why it appears in products aimed at dark patches and uneven tone."
+        },
+        {
+          "t": "h",
+          "text": "What the trials actually tested"
+        },
+        {
+          "t": "p",
+          "text": "In 2023 two teams independently went looking for the clinical evidence, and both came back with the same uncomfortable answer: there is less of it than the category's confidence suggests."
+        },
+        {
+          "t": "p",
+          "text": "[A systematic review in the Journal of Cosmetic Dermatology](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15748) found seven randomised controlled trials of topical vitamin C for melasma and photoageing. Seven trials — and 139 volunteers between them. They ran from two weeks to six months, and used concentrations from 3.75% to 20%, with most under 10%. The three studies that measured skin surface topography all found treated skin smoother and less wrinkled than placebo, and biopsies showed more elastic fibres. That is a genuinely positive signal."
+        },
+        {
+          "t": "p",
+          "text": "It comes with two caveats the review states plainly. Evidence for products above 10% is limited — the trials mostly did not test the concentrations the market sells. And hydration improved equally in the vitamin C and the placebo groups, which is worth sitting with: if a serum makes your skin feel better within a fortnight, that is the base formula doing its job, not the active."
+        },
+        {
+          "t": "p",
+          "text": "The second review, [published in the Journal of Drugs in Dermatology](https://jddonline.com/articles/clinical-efficacy-of-topical-vitamin-c-on-the-appearance-of-wrinkles-a-systematic-literature-review-S1545961623P0898X/), looked specifically at wrinkles across seven studies and found improvements — one reported an 11% reduction in forehead wrinkle grades. But it ends on a limitation that undercuts every headline written from it: every single study tested vitamin C combined with other ingredients or treatments. Not one isolated it. So the honest summary is that products containing vitamin C help, and the contribution of the vitamin C itself has not been separated out."
+        },
+        {
+          "t": "h",
+          "text": "Where the 15–20% number came from"
+        },
+        {
+          "t": "p",
+          "text": "This is the part that changes how you shop."
+        },
+        {
+          "t": "p",
+          "text": "The convention that a serious vitamin C serum is 15% or 20%, formulated below pH 3.5, traces back to [a single paper from 2001 by Sheldon Pinnell's group at Duke](https://pubmed.ncbi.nlm.nih.gov/11207686/). It is an excellent piece of work and it established two things that are still true: L-ascorbic acid has to be formulated below pH 3.5 to cross the skin barrier at all, and absorption rises with concentration up to about 20%, above which it stops rising."
+        },
+        {
+          "t": "p",
+          "text": "Now notice what that study measured. It applied vitamin C to pig skin and measured how much ended up in the tissue. It is an absorption study. It did not photograph anybody's face, follow anybody for six months, or report whether a single person's skin looked different. It answers the question how do you get vitamin C into skin — and the beauty industry has spent twenty-five years quoting it as though it answered how much do you need for a result."
+        },
+        {
+          "t": "p",
+          "text": "Those are not the same question, and the gap between them is where the money is. The human trials that did look at outcomes mostly used 5% to 10%."
+        },
+        {
+          "t": "h",
+          "text": "Vitamin C and menopausal skin"
+        },
+        {
+          "t": "p",
+          "text": "There is a trial in exactly this population, and it is worth knowing precisely what it found."
+        },
+        {
+          "t": "p",
+          "text": "[Nusgens and colleagues, published in the Journal of Investigative Dermatology in 2001](https://www.jidonline.org/article/S0022-202X(15)41256-4/fulltext), recruited ten postmenopausal women. Each applied a cream containing 5% ascorbic acid to one forearm and a placebo to the other, nightly, for six months. Biopsies at the end showed messenger RNA for collagen types I and III raised by 25% and 21% on the treated side, along with the enzymes that process them."
+        },
+        {
+          "t": "p",
+          "text": "That is a real result and it is the strongest mechanistic evidence in menopausal skin that exists. It is also ten women, on their forearms, measured as a genetic signal inside a biopsy. Nobody's face was treated and nobody reported whether anyone looked different. It tells you the machinery responds. It does not tell you what you would see in a mirror."
+        },
+        {
+          "t": "p",
+          "text": "A second trial, [Humbert and colleagues in 2003](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0625.2003.00008.x), ran 5% vitamin C against placebo in twenty women for six months and did find visible improvement in deep furrows — on the neck and forearms. Again: not faces. Both trials used 5%."
+        },
+        {
+          "t": "p",
+          "text": "And there is a gap in the story that the marketing quietly fills in. The reasoning goes: oestrogen falls, collagen falls with it, oxidative stress rises, therefore menopausal skin needs vitamin C more. Each step is plausible. But no trial has compared topical vitamin C in menopausal versus premenopausal skin, so the claim that it works differently after 45 is an inference, not a finding. If you want the part of this story that does have controlled evidence behind it, it is the [hormonal side rather than the antioxidant one](/blog/menopause-skin-oestrogen/)."
+        },
+        {
+          "t": "h",
+          "text": "Vitamin C versus retinol"
+        },
+        {
+          "t": "p",
+          "text": "This is framed as a choice far more often than it should be. They are not competing; they work at different points in the same process."
+        },
+        {
+          "t": "p",
+          "text": "A retinoid signals to the cell — it changes gene expression and increases collagen production, and it has by a wide margin the better evidence base for skin ageing. Vitamin C enables the chemistry once that instruction has been given, and separately protects against the daily oxidative damage that degrades what you have. One tells the factory to run; the other makes sure the raw materials work and the roof isn't leaking."
+        },
+        {
+          "t": "p",
+          "text": "So the answer is both, if you can tolerate both — and if you can only face one, the retinoid is the one with the outcome data. [The collagen evidence is worth reading in full](/blog/collagen-and-skin/), because it also covers what supplements can and cannot do from the inside."
+        },
+        {
+          "t": "p",
+          "text": "The old advice that the two cannot be used together comes from a formulation concern — the acidic pH vitamin C needs is not where retinoids are most stable — rather than anything that happens on skin. Using vitamin C in the morning and a retinoid at night sidesteps the question entirely and is what most dermatologists suggest anyway."
+        },
+        {
+          "t": "h",
+          "text": "The formulation problems that undo all of it"
+        },
+        {
+          "t": "p",
+          "text": "Pure L-ascorbic acid is chemically fragile. It oxidises on contact with air, light and warmth, and the reaction is accelerated by trace metal ions. When it degrades it turns yellow, then amber, then brown — that colour change is the product telling you the active has become something else. A brown serum is not dangerous. It is just no longer the thing you paid for."
+        },
+        {
+          "t": "p",
+          "text": "Which makes packaging a genuine performance feature rather than a design flourish. Opaque or amber glass, an airless pump rather than an open-mouthed dropper, and a small bottle you will finish within a few months all make chemical sense."
+        },
+        {
+          "t": "p",
+          "text": "The industry's answer to fragility is derivatives — magnesium ascorbyl phosphate, ascorbyl-6-palmitate, sodium ascorbyl phosphate. They are stable at neutral pH, gentler, and they do not go brown. But in Pinnell's absorption work, none of them raised skin levels of L-ascorbic acid at all. That finding is now twenty-five years old and formulation science has moved on, so it is not the last word. It does mean the trade is not free: a derivative that is gentle because it is stable may also be gentle because less of it is getting in, and the trials behind the category were not run on derivatives."
+        },
+        {
+          "t": "p",
+          "text": "One combination does have good evidence, and it is a useful thing to recognise on an ingredients list. [Adding ferulic acid to a solution of 15% vitamin C and 1% vitamin E](https://pubmed.ncbi.nlm.nih.gov/16185284/) both stabilised the vitamins and doubled their photoprotection — from roughly four-fold to eight-fold, measured by redness and sunburn cell formation after controlled UV exposure. Note what that is evidence for: protection from ultraviolet damage. It is not evidence of wrinkle reduction, and it is emphatically not a replacement for sunscreen."
+        },
+        {
+          "t": "h",
+          "text": "What to do with all this"
+        },
+        {
+          "t": "p",
+          "text": "Stop paying for the number. The human evidence sits at 5% to 10%. Above 10% the trial data thins out badly, and 20% is a figure borrowed from an absorption curve in pig skin. If a 20% serum stings and a 8% one doesn't, the gentler one is not the compromise you have been told it is."
+        },
+        {
+          "t": "p",
+          "text": "Buy for the bottle as much as the formula. Opaque or amber, airless if possible, and small enough to finish in three months. A large clear dropper bottle is a formulation choice made against you."
+        },
+        {
+          "t": "p",
+          "text": "Judge it on the right timescale. If it makes your skin feel plumper in a week, that is moisturiser. The trials that found structural change ran for six months. Nothing here works faster than that, whatever the before-and-after says."
+        },
+        {
+          "t": "p",
+          "text": "Put it under sunscreen in the morning. That is where the antioxidant argument is strongest — vitamin C handles some of the free-radical damage that gets past a sunscreen, which is a supplement to sun protection and not a substitute for it."
+        },
+        {
+          "t": "p",
+          "text": "Keep the order of operations straight. Sunscreen first, by a distance. Then a retinoid, if your skin tolerates one. Then vitamin C. That ranking follows the strength of the evidence, and it is [almost exactly the opposite of the order the marketing shouts at you in](/blog/menopause-skincare-longevity-marketing/)."
+        },
+        {
+          "t": "p",
+          "text": "None of which is a reason not to use it. Vitamin C is inexpensive, well tolerated by most people, and backed by a small but consistent set of trials — a much better position than most things sold to women over forty. It just is not the transformation the packaging is selling, and knowing that is what stops you spending £90 on the strongest bottle on the shelf."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "The clinical trial evidence for topical vitamin C rests on a very small number of participants, and barely tests the concentrations sold.",
+              "detail": "Systematic review by Correia and Magina, published in the Journal of Cosmetic Dermatology in 2023, covering seven randomised controlled trials of topical vitamin C in melasma and photoageing with 139 volunteers in total. Trial duration ranged from two weeks to six months; concentrations ranged from 3.75% to 20%, with most below 10%. All three trials assessing skin topography reported treated skin appeared smoother and less wrinkled than placebo, and biopsies showed increased elastic fibres and collagen redistribution. The authors list as limitations the small participant numbers, heterogeneous protocols and formulations, and specifically limited evidence for products above 10%. Skin hydration improved equally in vitamin C and placebo groups, indicating the vehicle rather than the active was responsible for that particular effect.",
+              "cite": "Correia & Magina, Journal of Cosmetic Dermatology, 2023",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.15748"
+            },
+            {
+              "claim": "No published trial has isolated vitamin C's effect on wrinkles from the other ingredients it was applied with.",
+              "detail": "Systematic literature review by Sanabria, Berger, Mohd, Benoit, Truong, Michniak-Kohn and Rao, published in the Journal of Drugs in Dermatology in 2023, covering seven studies of topical vitamin C and wrinkle appearance. Four met Level IB evidence criteria, one Level IIA and two Level IIB. Reported improvements included a 9% decrease in crow's feet grades, 11% in forehead wrinkles and 5.2% in nasolabial folds. The authors' stated limitation is that all included studies used vitamin C in combination with other ingredients or therapeutic mechanisms, which prevents any specific conclusion about vitamin C itself, and they call for higher-quality comparative studies.",
+              "cite": "Sanabria et al., Journal of Drugs in Dermatology, 2023",
+              "url": "https://jddonline.com/articles/clinical-efficacy-of-topical-vitamin-c-on-the-appearance-of-wrinkles-a-systematic-literature-review-S1545961623P0898X/"
+            },
+            {
+              "claim": "The 20% concentration convention comes from an absorption study in pig skin, not from any study of how skin looked afterwards.",
+              "detail": "Pinnell and colleagues at Duke University Medical Center, published in Dermatologic Surgery in February 2001. L-ascorbic acid and its derivatives were applied to pig skin and tissue levels measured to determine percutaneous delivery. The study established that L-ascorbic acid must be formulated below pH 3.5 to enter skin, that maximal concentration for absorption is 20%, that tissue levels saturate after three daily applications, and that the half-life of tissue disappearance is about four days. It also found that magnesium ascorbyl phosphate, ascorbyl-6-palmitate and dehydroascorbic acid did not increase skin levels of L-ascorbic acid. This is a delivery study with no clinical outcome measures — no participants were assessed for changes in skin appearance — and it was conducted in animal skin.",
+              "cite": "Pinnell et al., Dermatologic Surgery, 2001",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11207686/"
+            },
+            {
+              "claim": "The one trial in postmenopausal women used 5%, treated forearms rather than faces, and measured a genetic signal rather than appearance.",
+              "detail": "Nusgens and colleagues at the University of Liege and the University of Franche-Comte, published in the Journal of Investigative Dermatology in 2001 (volume 116, pages 853-9). A single-blind, randomised, split-body, placebo-controlled trial in ten postmenopausal women, who applied a stabilised cream containing 5% ascorbic acid to one dorsal upper forearm and placebo to the other, nightly for six months. Biopsies showed messenger RNA for collagen types I and III raised by 25% and 21% respectively on the treated side, along with their post-translational maturation enzymes and tissue inhibitor of matrix metalloproteinase 1. The endpoint is gene expression in a biopsy, not clinical appearance; the sample is ten women; and the treated site is the forearm. A separate six-month vehicle-controlled trial by Humbert and colleagues in 2003, in twenty women, used the same 5% concentration and reported visible improvement in deep furrows on the neck and forearms.",
+              "cite": "Nusgens et al., Journal of Investigative Dermatology, 2001",
+              "url": "https://www.jidonline.org/article/S0022-202X(15)41256-4/fulltext"
+            },
+            {
+              "claim": "Ferulic acid roughly doubles the photoprotection of a vitamin C and E solution — but that is protection from ultraviolet damage, not wrinkle reduction.",
+              "detail": "Lin and colleagues, published in the Journal of Investigative Dermatology in 2005. Adding ferulic acid to a topical solution of 15% L-ascorbic acid and 1% alpha-tocopherol improved the chemical stability of both vitamins and increased photoprotection against solar-simulated irradiation from approximately four-fold to eight-fold, measured by erythema and sunburn cell formation. The formulation also reduced thymine dimer formation and markers of UV-induced apoptosis. The endpoints are all measures of acute ultraviolet damage; the study does not assess wrinkles, pigmentation or long-term skin appearance, and antioxidant photoprotection is an addition to sunscreen rather than an alternative to it.",
+              "cite": "Lin et al., Journal of Investigative Dermatology, 2005",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16185284/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Keep reading",
+          "items": [
+            {
+              "name": "Do collagen products actually improve your skin?",
+              "url": "/blog/collagen-and-skin/",
+              "desc": "The other half of the collagen question — what a supplement can and cannot do from the inside, and where the funding of the trials starts to matter."
+            },
+            {
+              "name": "Why skin changes so fast at menopause — and what hormone therapy can and can't do",
+              "url": "/blog/menopause-skin-oestrogen/",
+              "desc": "The hormonal side of the same story, and the part of it that does have controlled evidence behind it."
+            },
+            {
+              "name": "Beauty has rebranded midlife as “longevity” — what that language is and isn't backed by",
+              "url": "/blog/menopause-skincare-longevity-marketing/",
+              "desc": "How a category learns to sound like science, and what to check before you believe a claim on a box."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What percentage vitamin C serum should I use after 40?",
+          "a": "Somewhere between 5% and 10% is where the human trial evidence actually sits, including both trials run in postmenopausal women, which used 5%. The 15% and 20% products on the shelf are priced against a 2001 absorption study in pig skin that found uptake into tissue rises up to 20% — but that study never measured whether anyone's skin looked different. A systematic review in 2023 noted specifically that evidence for products above 10% is limited. If a high-percentage serum irritates you, dropping to a lower one is not a compromise."
+        },
+        {
+          "q": "Does vitamin C serum actually reduce wrinkles?",
+          "a": "Probably a little, but the evidence is weaker than the marketing suggests. Two 2023 systematic reviews found trials reporting smoother, less wrinkled skin against placebo — improvements in the order of 5% to 11% in wrinkle grades — but between them the trials involved fewer than 150 people, and every single one tested vitamin C combined with other ingredients. So products containing vitamin C help; how much of that is the vitamin C has not been separated out."
+        },
+        {
+          "q": "Should I use vitamin C or retinol?",
+          "a": "Both, if your skin tolerates both — they do different jobs. A retinoid signals the cell to make more collagen and has considerably stronger evidence for skin ageing. Vitamin C is a cofactor that lets the collagen-building enzymes work, and separately protects against oxidative damage. If you can only manage one, choose the retinoid. The old advice that they cannot be combined is about formulation stability rather than anything happening on your skin; using vitamin C in the morning and a retinoid at night avoids the issue."
+        },
+        {
+          "q": "Why has my vitamin C serum turned brown?",
+          "a": "It has oxidised. L-ascorbic acid degrades on contact with air, light and warmth, and the reaction is sped up by trace metals. It goes yellow, then amber, then brown, and that colour change means the active has converted into something else. It is not harmful to use, but it is no longer doing what you bought it for. This is why packaging matters: opaque or amber glass, an airless pump rather than an open dropper, and a bottle small enough to finish within about three months."
+        },
+        {
+          "q": "Does vitamin C work differently on menopausal skin?",
+          "a": "Nobody knows, because it has never been tested that way. The reasoning offered — oestrogen falls, collagen falls, oxidative stress rises, so vitamin C matters more — is biologically plausible, and there is one small trial in ten postmenopausal women showing 5% vitamin C raised collagen gene expression in forearm skin. But no trial has compared the effect in menopausal against premenopausal skin, so any claim that it works better or is needed more after 45 is an inference rather than a finding."
+        },
+        {
+          "q": "Can vitamin C replace sunscreen?",
+          "a": "No, and this is the one to be firm about. Topical antioxidants neutralise some of the free-radical damage that gets past a sunscreen; they do not absorb or block ultraviolet light. The best-known study here found that adding ferulic acid to a vitamin C and E solution doubled photoprotection, from roughly four-fold to eight-fold — but that measurement is taken on top of, not instead of, sun protection. Sunscreen remains the single intervention with the strongest evidence for skin ageing."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Краса та шкіра",
+      "imageAlt": "Невелика бурштинова скляна пляшечка з піпеткою на світлій полиці у ванній поруч зі складеним рушничком, ранкове світло падає збоку.",
+      "title": "Сироватки з вітаміном С після 40: що насправді підтверджують дослідження",
+      "seoTitle": "Вітамін С після 40: що кажуть дослідження",
+      "metaDesc": "Що насправді показали дослідження концентрації та формули сироваток з вітаміном С — і звідки маркетинг узяв цифру 20%.",
+      "excerpt": "Вітамін С — друга за частотою рекомендація в догляді після сонцезахисту, і на полиці зазвичай стоїть 15% або 20%. У дослідженнях на людях переважно було 5%. Ось звідки взявся цей розрив.",
+      "meta": "26 серпня 2026 · 8 хв читання",
+      "lead": "Майже на кожній сироватці з вітаміном С спереду стоїть цифра — 10%, 15%, 20% — і мається на увазі, що більша означає сильнішу. Цифра справжня. А от звідки вона взялася — зовсім не те, що ви подумали. І коли це знаєш, полиця виглядає інакше.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Вітамін С стоїть одразу після сонцезахисту та ретиноїдів майже в кожному переліку засобів, які варті уваги, — і заслужено. Чого він не заслуговує, так це впевненості, з якою озвучують деталі. Доказова база для місцевого вітаміну С реальна, але значно тонша, ніж натякає полиця, а найчастіше цитовану її частину — концентрацію — читають задом наперед."
+        },
+        {
+          "t": "h",
+          "text": "Що вітаміну С приписують"
+        },
+        {
+          "t": "p",
+          "text": "Три твердження, і підтверджені вони по-різному."
+        },
+        {
+          "t": "p",
+          "text": "Антиоксидантний захист. Вітамін С нейтралізує вільні радикали, які ультрафіолет утворює у шкірі. Це проста хімія, і її ніхто не заперечує. Варто помітити інше: це саме захист, а не відновлення — за змістом він ближчий до сонцезахисту, ніж до лікувального засобу."
+        },
+        {
+          "t": "p",
+          "text": "Синтез колагену. Це часто подають так, ніби вітамін С наказує шкірі виробляти колаген. Ні. Він кофактор — ферменти-гідроксилази, які будують і стабілізують потрійну спіраль колагену, без нього просто не працюють. Вітамін С не підштовхує процес; він робить його можливим. Наочна демонстрація — цинга, коли брак вітаміну С руйнує структуру колагену. Корисна біохімія, але з того, що кофактор необхідний, не випливає, що його надлишок дасть більше колагену в шкірі, якій його й так вистачає."
+        },
+        {
+          "t": "p",
+          "text": "Пігментація. Вітамін С заважає роботі тирозинази — ферменту в шляху утворення меланіну. Тому його додають до засобів проти темних плям і нерівного тону."
+        },
+        {
+          "t": "h",
+          "text": "Що насправді перевіряли в дослідженнях"
+        },
+        {
+          "t": "p",
+          "text": "У 2023 році дві команди незалежно пішли шукати клінічні докази — і обидві повернулися з однаковою незручною відповіддю: їх менше, ніж припускає впевненість цієї категорії."
+        },
+        {
+          "t": "p",
+          "text": "[Систематичний огляд у Journal of Cosmetic Dermatology](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15748) знайшов сім рандомізованих контрольованих досліджень місцевого вітаміну С при мелазмі та фотостарінні. Сім досліджень — і 139 учасниць разом. Тривалість — від двох тижнів до шести місяців, концентрації — від 3,75% до 20%, більшість нижче 10%. Усі три роботи, де вимірювали рельєф шкіри, показали, що оброблена шкіра рівніша й менш зморшкувата, ніж на плацебо, а біопсія виявила більше еластичних волокон. Це справді позитивний сигнал."
+        },
+        {
+          "t": "p",
+          "text": "І два застереження, які автори називають прямо. Доказів для засобів понад 10% мало — у дослідженнях здебільшого не перевіряли ті концентрації, які продають. А зволоженість покращилася однаково у групі вітаміну С і в групі плацебо. Над цим варто затриматися: якщо сироватка робить шкіру приємнішою за два тижні, це працює основа формули, а не активний компонент."
+        },
+        {
+          "t": "p",
+          "text": "Другий огляд, [опублікований у Journal of Drugs in Dermatology](https://jddonline.com/articles/clinical-efficacy-of-topical-vitamin-c-on-the-appearance-of-wrinkles-a-systematic-literature-review-S1545961623P0898X/), дивився саме на зморшки в семи дослідженнях і знайшов покращення — в одному зменшення оцінок зморшок на лобі на 11%. Але завершується він обмеженням, яке підрізає кожен написаний з нього заголовок: у всіх без винятку дослідженнях вітамін С застосовували в поєднанні з іншими компонентами або процедурами. Жодне не перевіряло його окремо. Тож чесний підсумок такий: засоби з вітаміном С допомагають, а внесок самого вітаміну С не виокремлено."
+        },
+        {
+          "t": "h",
+          "text": "Звідки взялися 15–20%"
+        },
+        {
+          "t": "p",
+          "text": "Ось частина, яка змінює те, як ви обираєте засіб."
+        },
+        {
+          "t": "p",
+          "text": "Уявлення, що серйозна сироватка з вітаміном С — це 15% або 20% при pH нижче 3,5, походить від [однієї статті 2001 року групи Шелдона Піннелла в Дюку](https://pubmed.ncbi.nlm.nih.gov/11207686/). Це чудова робота, і вона встановила дві речі, які досі справедливі: L-аскорбінова кислота має бути у формулі з pH нижче 3,5, щоб узагалі подолати бар'єр шкіри, і поглинання зростає разом із концентрацією приблизно до 20%, а далі перестає."
+        },
+        {
+          "t": "p",
+          "text": "А тепер зверніть увагу, що саме там вимірювали. Вітамін С наносили на шкіру свині й міряли, скільки його опинилося в тканині. Це дослідження всмоктування. Там не фотографували нічиє обличчя, не спостерігали нікого пів року й не повідомляли, чи змінилася в когось шкіра. Воно відповідає на питання як завести вітамін С у шкіру — а індустрія краси двадцять п'ять років цитує його так, ніби воно відповіло на питання скільки треба для результату."
+        },
+        {
+          "t": "p",
+          "text": "Це різні питання, і саме в проміжку між ними лежать гроші. У дослідженнях на людях, де дивилися на результат, здебільшого було від 5% до 10%."
+        },
+        {
+          "t": "h",
+          "text": "Вітамін С і шкіра в менопаузі"
+        },
+        {
+          "t": "p",
+          "text": "Дослідження саме в цій групі є, і варто знати точно, що воно показало."
+        },
+        {
+          "t": "p",
+          "text": "[Нусженс із колегами, Journal of Investigative Dermatology, 2001 рік](https://www.jidonline.org/article/S0022-202X(15)41256-4/fulltext), набрали десятьох жінок у постменопаузі. Кожна наносила крем з 5% аскорбінової кислоти на одне передпліччя, а плацебо — на друге, щовечора протягом шести місяців. Біопсія наприкінці показала, що матрична РНК колагену I і III типів на обробленому боці зросла на 25% і 21%, разом із ферментами, які їх обробляють."
+        },
+        {
+          "t": "p",
+          "text": "Це справжній результат і найсильніший механістичний доказ для шкіри в менопаузі, який існує. Це також десять жінок, на передпліччях, і виміряно як генетичний сигнал усередині біоптату. Нікому не обробляли обличчя, і ніхто не повідомляв, чи хтось став виглядати інакше. Це каже, що механізм відгукується. Це не каже, що ви побачите в дзеркалі."
+        },
+        {
+          "t": "p",
+          "text": "Друге дослідження, [Гумбер із колегами, 2003 рік](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0625.2003.00008.x), порівнювало 5% вітаміну С з плацебо у двадцяти жінок протягом шести місяців і таки виявило видиме покращення глибоких борозен — на шиї та передпліччях. Знову: не на обличчі. В обох дослідженнях було 5%."
+        },
+        {
+          "t": "p",
+          "text": "І в цій історії є прогалина, яку маркетинг тихенько заповнює. Логіка така: естроген падає, колаген падає слідом, окиснювальний стрес зростає — отже, шкірі в менопаузі вітамін С потрібен більше. Кожен крок правдоподібний. Але жодне дослідження не порівнювало місцевий вітамін С у шкірі в менопаузі та до менопаузи, тож твердження, що після 45 він працює інакше, — це припущення, а не висновок. Якщо вам потрібна та частина цієї історії, за якою стоять контрольовані дані, то це [гормональний бік, а не антиоксидантний](/ua/blog/menopause-skin-oestrogen/)."
+        },
+        {
+          "t": "h",
+          "text": "Вітамін С проти ретинолу"
+        },
+        {
+          "t": "p",
+          "text": "Це подають як вибір значно частіше, ніж варто. Вони не конкурують — вони працюють у різних точках одного процесу."
+        },
+        {
+          "t": "p",
+          "text": "Ретиноїд подає сигнал клітині: він змінює експресію генів і збільшує вироблення колагену, і його доказова база для старіння шкіри незрівнянно сильніша. Вітамін С уможливлює хімію після того, як цей сигнал уже подано, і окремо захищає від щоденного окиснювального пошкодження, яке руйнує наявне. Один каже фабриці працювати; другий дбає, щоб сировина була придатна, а дах не протікав."
+        },
+        {
+          "t": "p",
+          "text": "Тож відповідь — обидва, якщо шкіра переносить обидва. А якщо сили є лише на один, то ретиноїд — це той, за яким стоять дані про результат. [Про колаген варто прочитати повністю](/ua/blog/collagen-and-skin/): там і про те, що можуть і чого не можуть добавки зсередини."
+        },
+        {
+          "t": "p",
+          "text": "Стара порада, що ці двоє несумісні, походить із питань формули — кисле pH, потрібне вітаміну С, не найкраще для стабільності ретиноїдів — а не з того, що відбувається на шкірі. Вітамін С уранці, ретиноїд увечері — і питання знімається. Саме це зазвичай і радять дерматологи."
+        },
+        {
+          "t": "h",
+          "text": "Проблеми формули, які зводять усе нанівець"
+        },
+        {
+          "t": "p",
+          "text": "Чиста L-аскорбінова кислота хімічно крихка. Вона окиснюється від повітря, світла й тепла, а сліди металів пришвидшують реакцію. Розкладаючись, вона жовтіє, потім стає бурштиновою, потім коричневою — ця зміна кольору і є повідомленням, що активний компонент перетворився на щось інше. Коричнева сироватка не небезпечна. Вона просто вже не те, за що ви заплатили."
+        },
+        {
+          "t": "p",
+          "text": "Через це упаковка стає справжньою характеристикою ефективності, а не дизайнерською деталлю. Непрозоре або бурштинове скло, безповітряний насос замість піпетки з відкритим горлом і невеликий об'єм, який ви точно допийте за кілька місяців, — усе це має хімічний сенс."
+        },
+        {
+          "t": "p",
+          "text": "Відповідь індустрії на крихкість — похідні: магнію аскорбілфосфат, аскорбіл-6-пальмітат, натрію аскорбілфосфат. Вони стабільні при нейтральному pH, м'якші й не коричневіють. Але в роботі Піннелла про всмоктування жодна з них узагалі не підвищила рівень L-аскорбінової кислоти у шкірі. Цьому висновку вже двадцять п'ять років, і наука про формули відтоді просунулася, тож це не останнє слово. Але означає воно ось що: обмін не безплатний. Похідна, м'яка через свою стабільність, може бути м'якою ще й тому, що її менше потрапляє всередину — а дослідження, на яких стоїть уся категорія, проводили не на похідних."
+        },
+        {
+          "t": "p",
+          "text": "Одне поєднання таки має добрі докази, і його корисно впізнавати у складі. [Додавання ферулової кислоти до розчину з 15% вітаміну С і 1% вітаміну Е](https://pubmed.ncbi.nlm.nih.gov/16185284/) і стабілізувало вітаміни, і подвоїло їхній фотозахист — приблизно з чотириразового до восьмиразового, за почервонінням і появою «сонячних» клітин після контрольованого опромінення. Зверніть увагу, доказ чого це: захисту від ультрафіолету. Це не доказ зменшення зморшок і аж ніяк не заміна сонцезахисту."
+        },
+        {
+          "t": "h",
+          "text": "Що з усім цим робити"
+        },
+        {
+          "t": "p",
+          "text": "Перестаньте платити за цифру. Докази на людях лежать у діапазоні 5–10%. Вище 10% даних стає помітно менше, а 20% — це число, позичене з кривої всмоктування у свинячій шкірі. Якщо 20% сироватка пече, а 8% ні, то м'якша — це не компроміс, як вам казали."
+        },
+        {
+          "t": "p",
+          "text": "Обирайте за пляшечкою не менше, ніж за формулою. Непрозора або бурштинова, за можливості з безповітряним насосом, і достатньо мала, щоб допити за три місяці. Велика прозора пляшка з піпеткою — це рішення, ухвалене не на вашу користь."
+        },
+        {
+          "t": "p",
+          "text": "Оцінюйте на правильному відрізку часу. Якщо шкіра стала пружнішою за тиждень — це зволоження. Дослідження, які знайшли структурні зміни, тривали шість місяців. Ніщо тут не працює швидше, хоч би що обіцяли фото «до і після»."
+        },
+        {
+          "t": "p",
+          "text": "Наносьте вранці під сонцезахист. Саме там антиоксидантний аргумент найсильніший: вітамін С забирає частину радикального пошкодження, що проходить повз сонцезахист. Це доповнення до захисту від сонця, а не його заміна."
+        },
+        {
+          "t": "p",
+          "text": "Тримайте порядок пріоритетів. Сонцезахист — з великим відривом перший. Далі ретиноїд, якщо шкіра його переносить. Потім вітамін С. Цей порядок повторює силу доказів — і це [майже точна протилежність тому порядку, яким на вас кричить маркетинг](/ua/blog/menopause-skincare-longevity-marketing/)."
+        },
+        {
+          "t": "p",
+          "text": "І все це — не привід від нього відмовлятися. Вітамін С недорогий, більшість людей переносить його добре, і за ним стоїть невеликий, але послідовний набір досліджень — значно краща позиція, ніж у більшості того, що продають жінкам після сорока. Просто це не те перетворення, яке продає упаковка. І знання цього рятує від £90 за найсильнішу пляшечку на полиці."
+        },
+        {
+          "t": "h",
+          "text": "Що кажуть дослідження"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Клінічна доказова база місцевого вітаміну С тримається на дуже малій кількості учасниць і майже не перевіряє ті концентрації, які продають.",
+              "detail": "Систематичний огляд Коррейї та Магіни, Journal of Cosmetic Dermatology, 2023 рік: сім рандомізованих контрольованих досліджень місцевого вітаміну С при мелазмі та фотостарінні, разом 139 учасниць. Тривалість — від двох тижнів до шести місяців; концентрації — від 3,75% до 20%, більшість нижче 10%. Усі три дослідження, де оцінювали рельєф шкіри, показали, що оброблена шкіра виглядає рівнішою і менш зморшкуватою, ніж на плацебо, а біопсія виявила більше еластичних волокон і перерозподіл колагену. Серед обмежень автори називають малу кількість учасниць, різнорідні протоколи й формули та окремо — обмежені докази для засобів понад 10%. Зволоженість шкіри покращилася однаково в групах вітаміну С і плацебо, тобто за цей ефект відповідала основа, а не активний компонент.",
+              "cite": "Correia & Magina, Journal of Cosmetic Dermatology, 2023",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.15748"
+            },
+            {
+              "claim": "Жодне опубліковане дослідження не відокремило вплив вітаміну С на зморшки від інших компонентів, з якими його наносили.",
+              "detail": "Систематичний огляд літератури: Санабрія, Бергер, Мод, Бенуа, Труонг, Мічняк-Кон і Рао, Journal of Drugs in Dermatology, 2023 рік — сім досліджень місцевого вітаміну С і вигляду зморшок. Чотири відповідали рівню доказовості IB, одне — IIA, два — IIB. Серед повідомлених покращень: зменшення оцінок «гусячих лапок» на 9%, зморшок на лобі на 11% і носогубних складок на 5,2%. Заявлене авторами обмеження: усі включені дослідження застосовували вітамін С у поєднанні з іншими компонентами або механізмами дії, що унеможливлює будь-який конкретний висновок про сам вітамін С; автори закликають до якісніших порівняльних досліджень.",
+              "cite": "Sanabria et al., Journal of Drugs in Dermatology, 2023",
+              "url": "https://jddonline.com/articles/clinical-efficacy-of-topical-vitamin-c-on-the-appearance-of-wrinkles-a-systematic-literature-review-S1545961623P0898X/"
+            },
+            {
+              "claim": "Норма у 20% походить з дослідження всмоктування у свинячій шкірі, а не з дослідження того, як шкіра виглядала після.",
+              "detail": "Піннелл із колегами, Медичний центр Університету Дюка, Dermatologic Surgery, лютий 2001 року. L-аскорбінову кислоту та її похідні наносили на шкіру свині й вимірювали рівень у тканині, щоб визначити черезшкірну доставку. Дослідження встановило, що L-аскорбінова кислота має бути у формулі з pH нижче 3,5, щоб потрапити в шкіру; що максимальна концентрація для всмоктування — 20%; що рівень у тканині насичується після трьох щоденних нанесень; і що період напівзникнення з тканини — близько чотирьох днів. Також виявлено, що магнію аскорбілфосфат, аскорбіл-6-пальмітат і дегідроаскорбінова кислота не підвищували рівень L-аскорбінової кислоти у шкірі. Це дослідження доставки без клінічних кінцевих точок — нікого не оцінювали на зміни вигляду шкіри — і проведене воно на шкірі тварини.",
+              "cite": "Pinnell et al., Dermatologic Surgery, 2001",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11207686/"
+            },
+            {
+              "claim": "Єдине дослідження в жінок у постменопаузі використало 5%, обробляло передпліччя, а не обличчя, і вимірювало генетичний сигнал, а не вигляд.",
+              "detail": "Нусженс із колегами, Льєзький університет і Університет Франш-Конте, Journal of Investigative Dermatology, 2001 рік (том 116, с. 853–9). Односліпе рандомізоване плацебо-контрольоване дослідження з розподілом на боки тіла, десять жінок у постменопаузі: стабілізований крем з 5% аскорбінової кислоти на одне передпліччя, плацебо — на друге, щовечора протягом шести місяців. Біопсія показала зростання матричної РНК колагену I і III типів на 25% і 21% відповідно на обробленому боці, разом із ферментами посттрансляційного дозрівання та тканинним інгібітором матриксної металопротеїнази 1. Кінцева точка — експресія генів у біоптаті, а не клінічний вигляд; вибірка — десять жінок; місце нанесення — передпліччя. Окреме шестимісячне плацебо-контрольоване дослідження Гумбера з колегами (2003 рік, двадцять жінок) використало ту саму концентрацію 5% і повідомило про видиме покращення глибоких борозен на шиї та передпліччях.",
+              "cite": "Nusgens et al., Journal of Investigative Dermatology, 2001",
+              "url": "https://www.jidonline.org/article/S0022-202X(15)41256-4/fulltext"
+            },
+            {
+              "claim": "Ферулова кислота приблизно подвоює фотозахист розчину вітамінів С і Е — але це захист від ультрафіолету, а не зменшення зморшок.",
+              "detail": "Лін із колегами, Journal of Investigative Dermatology, 2005 рік. Додавання ферулової кислоти до місцевого розчину з 15% L-аскорбінової кислоти та 1% альфа-токоферолу покращило хімічну стабільність обох вітамінів і підвищило фотозахист від імітованого сонячного опромінення приблизно з чотириразового до восьмиразового — за еритемою та утворенням «сонячних» клітин. Формула також зменшила утворення тимінових димерів і маркери спричиненого ультрафіолетом апоптозу. Усі кінцеві точки — це показники гострого ультрафіолетового пошкодження; дослідження не оцінює зморшки, пігментацію чи довгостроковий вигляд шкіри, а антиоксидантний фотозахист є доповненням до сонцезахисту, а не альтернативою йому.",
+              "cite": "Lin et al., Journal of Investigative Dermatology, 2005",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16185284/"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Читати далі",
+          "items": [
+            {
+              "name": "Чи справді колагенові засоби покращують шкіру?",
+              "url": "/ua/blog/collagen-and-skin/",
+              "desc": "Друга половина питання про колаген — що можуть і чого не можуть добавки зсередини, і де починає важити, хто фінансував дослідження."
+            },
+            {
+              "name": "Чому шкіра так швидко змінюється в менопаузі — і що може (і не може) гормональна терапія",
+              "url": "/ua/blog/menopause-skin-oestrogen/",
+              "desc": "Гормональний бік тієї самої історії — і та її частина, за якою стоять контрольовані дані."
+            },
+            {
+              "name": "Індустрія краси перейменувала середній вік на «лонгевіті» — що за цим стоїть насправді",
+              "url": "/ua/blog/menopause-skincare-longevity-marketing/",
+              "desc": "Як категорія вчиться звучати науково і що перевірити, перш ніж повірити напису на коробці."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Яку концентрацію вітаміну С обрати після 40?",
+          "a": "Десь між 5% і 10% — саме там лежать докази з досліджень на людях, включно з обома дослідженнями в жінок у постменопаузі, де було 5%. Засоби на 15% і 20% на полиці спираються на дослідження всмоктування 2001 року у свинячій шкірі, де виявили, що поглинання в тканину зростає до 20% — але там ніколи не вимірювали, чи змінився в когось вигляд шкіри. Систематичний огляд 2023 року окремо зазначив, що доказів для засобів понад 10% мало. Якщо сироватка з високим відсотком подразнює, перехід на слабшу — не компроміс."
+        },
+        {
+          "q": "Чи справді сироватка з вітаміном С зменшує зморшки?",
+          "a": "Ймовірно, трохи — але докази слабші, ніж обіцяє маркетинг. Два систематичні огляди 2023 року знайшли дослідження, де шкіра ставала рівнішою й менш зморшкуватою порівняно з плацебо: покращення оцінок зморшок приблизно на 5–11%. Але разом у цих дослідженнях узяли участь менш ніж 150 людей, і в кожному без винятку вітамін С поєднували з іншими компонентами. Тож засоби з вітаміном С допомагають; яка частина цього — саме вітамін С, не відокремлено."
+        },
+        {
+          "q": "Вітамін С чи ретинол?",
+          "a": "Обидва, якщо шкіра переносить обидва — вони роблять різну роботу. Ретиноїд подає клітині сигнал виробляти більше колагену, і його доказова база для старіння шкіри значно сильніша. Вітамін С — кофактор, який дає ферментам будувати колаген, і окремо захищає від окиснювального пошкодження. Якщо сил вистачає лише на один, обирайте ретиноїд. Стара порада, що їх не можна поєднувати, стосується стабільності формули, а не того, що відбувається на шкірі: вітамін С уранці, ретиноїд увечері — і питання зникає."
+        },
+        {
+          "q": "Чому моя сироватка з вітаміном С стала коричневою?",
+          "a": "Вона окиснилася. L-аскорбінова кислота розкладається від контакту з повітрям, світлом і теплом, а сліди металів пришвидшують реакцію. Вона жовтіє, потім стає бурштиновою, потім коричневою — і ця зміна кольору означає, що активний компонент перетворився на щось інше. Використовувати не шкідливо, але вона вже не робить того, за що ви заплатили. Тому й важлива упаковка: непрозоре або бурштинове скло, безповітряний насос замість відкритої піпетки і об'єм, який реально допити приблизно за три місяці."
+        },
+        {
+          "q": "Чи діє вітамін С інакше на шкіру в менопаузі?",
+          "a": "Ніхто не знає, бо цього ніколи так не перевіряли. Наведена логіка — естроген падає, колаген падає, окиснювальний стрес зростає, отже вітамін С важливіший — біологічно правдоподібна, і є одне маленьке дослідження в десятьох жінок у постменопаузі, де 5% вітаміну С підвищили експресію генів колагену в шкірі передпліччя. Але жодне дослідження не порівнювало ефект у шкірі в менопаузі та до менопаузи, тож будь-яке твердження, що після 45 він працює краще або потрібен більше, — це припущення, а не висновок."
+        },
+        {
+          "q": "Чи може вітамін С замінити сонцезахист?",
+          "a": "Ні, і тут варто бути категоричною. Місцеві антиоксиданти нейтралізують частину радикального пошкодження, що проходить повз сонцезахист; вони не поглинають і не блокують ультрафіолет. Найвідоміше дослідження тут виявило, що додавання ферулової кислоти до розчину вітамінів С і Е подвоїло фотозахист — приблизно з чотириразового до восьмиразового. Але цей вимір робиться поверх сонцезахисту, а не замість нього. Сонцезахист залишається єдиним втручанням із найсильнішими доказами щодо старіння шкіри."
         }
       ]
     }
@@ -1404,6 +3258,249 @@ export const POSTS = [
         ]
       }
     },
+  {
+    "slug": "omega-3-weight-loss-gut-microbiome",
+    "tags": [
+      "gut-microbiome",
+      "weight-loss",
+      "clinical-trials",
+      "oestrogen"
+    ],
+    "date": "2026-08-25",
+    "image": "/images/omega-3-weight-loss-gut-microbiome.jpg",
+    "cats": [
+      "nutrition",
+      "weight"
+    ],
+    "en": {
+      "cat": "Nutrition",
+      "imageAlt": "Amber fish-oil capsules spilled from a bottle onto a pale kitchen counter beside a glass of water.",
+      "title": "Omega-3 during weight loss shifted the gut microbiome in women at higher breast-cancer risk",
+      "seoTitle": "Omega-3 and the Gut During Weight Loss: A Pilot",
+      "metaDesc": "A 34-woman pilot gave peri- and postmenopausal women 3.25 g/day of omega-3 or a placebo during a six-month weight-loss programme. What it showed — and didn't.",
+      "excerpt": "Adding high-dose fish oil to a six-month weight-loss programme changed which bacteria dominated the gut in 34 peri- and postmenopausal women at raised breast-cancer risk. The risk-marker half of the story is more complicated than the headline.",
+      "meta": "25 August 2026 · 6 min read",
+      "lead": "Losing weight changes your gut bacteria. A small pilot asked whether adding a high dose of fish oil changes them differently — and found that it does, in women already at increased risk of breast cancer. What it did not find is that the supplement improved the risk markers themselves.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "This is an ancillary analysis of a completed trial at the University of Kansas Medical Center (NCT02101970), published in Cancer Prevention Research in August 2026. Thirty-four peri- and postmenopausal women aged 43 to 64, all with a BMI of 28 or above and all at increased risk of breast cancer — because of prior atypical hyperplasia, a cancer in the other breast, a moderate-to-high-penetrance gene mutation, a Tyrer–Cuzick risk score at least twice the average for their age group, or mammographic breast density of 50% or more — were randomised to 3.25 g a day of EPA and DHA (2,200 mg EPA plus 1,050 mg DHA) or to a corn-oil placebo. Both groups did the same six-month behavioural weight-loss programme: weekly group sessions with a clinical psychologist and a dietitian, 1,200–1,500 kcal a day with under 30% of it from fat and at least 50 g of protein, 10,000 steps and 150 minutes of moderate exercise a week. Stool and blood were collected at baseline and at six months, and the stool was sequenced."
+        },
+        {
+          "t": "p",
+          "text": "The capsules were demonstrably taken. The ratio of omega-6 to omega-3 fats measured in the women's red blood cells fell 59.5% in the omega-3 group over the six months and rose 2.9% on placebo. That is a useful detail in a supplement trial, where the usual failure mode is that nobody knows whether anyone swallowed anything."
+        },
+        {
+          "t": "h",
+          "text": "What moved in the gut"
+        },
+        {
+          "t": "p",
+          "text": "Not the headline measures. Overall bacterial diversity — the usual alpha- and beta-diversity indices — did not change significantly between baseline and six months in anyone. What changed was the balance of who was there. Of the two phyla that account for over 90% of the bacteria detected, omega-3 significantly reduced the proportion of Firmicutes, with a non-significant trend towards more Bacteroidetes (P=0.08). At species level, five bacteria were more abundant in the omega-3 group (n=18) than on placebo (n=16), among them Phocaeicola massiliensis (1.5% vs 0.08%), Bacteroides uniformis (6.1% vs 5.2%) and Odoribacter laneus (1% vs 0.05%), and four were less abundant — including Faecalibacterium prausnitzii, which is more usually described as a bacterium you want. The authors' reading is that F. prausnitzii has been found enriched in the gut of breast-cancer patients in a European cohort, so reducing it may be favourable here; that is an argument, not a finding, and it sits awkwardly with everything else written about that species."
+        },
+        {
+          "t": "p",
+          "text": "Weight loss did plenty on its own, independent of which capsule anyone was taking. The median change across the group was −10%. Comparing the 19 women who lost 10% or more with the 15 who lost less, the bigger losers had more Bacteroidetes and less Firmicutes, more Phocaeicola vulgatus (8.3% vs 5.2%) and Alistipes putredinis (3.2% vs 1.7%), and less Bacteroides intestinalis (0.1% vs 2.5%). The largest shifts of all turned up in the women who did both — took omega-3 and lost at least 10%."
+        },
+        {
+          "t": "h",
+          "text": "Where the breast-cancer part comes in, and where it stops"
+        },
+        {
+          "t": "p",
+          "text": "The link to risk is made through correlation. Several of the species enriched in the omega-3 group tracked with better readings on markers that matter in postmenopausal breast cancer: bioavailable oestradiol, the adiponectin-to-leptin ratio and C-reactive protein. There is a plausible mechanism behind the oestrogen half of it — gut bacteria carrying the enzyme beta-glucuronidase can reactivate oestrogen metabolites in the intestine and send them back into circulation, which is the [estrobolome story](/blog/estrobolome-gut-oestrogen-menopause/), and after menopause that route matters more because the ovaries have stopped competing. P. vulgatus, one of the bacteria that rose, correlated negatively with plasma oestradiol."
+        },
+        {
+          "t": "p",
+          "text": "Here is the part the coverage tends to drop. The biomarkers themselves were not measured for this paper — they come from the parent trial, published in 2021, and that trial's own conclusion was blunt: no significant difference between omega-3 and placebo for any individual biomarker. Twelve of 25 markers moved significantly in the omega-3 arm and four in the placebo arm, but the head-to-head comparison did not separate them, and the authors attributed that to the sample size and to weight loss doing most of the work — median loss was 11% on placebo and 13% on omega-3. What the 2021 trial did report is that the women who took omega-3 and lost more than 10% showed the greatest biomarker improvement. So the honest sentence is that omega-3 shifted the bacteria, the bacteria correlated with the markers, and the supplement has not been shown to improve the markers over placebo."
+        },
+        {
+          "t": "p",
+          "text": "The short-chain fatty acid results are similarly partial. Women on omega-3 showed a significantly greater percentage increase in plasma propionate; the paper also reports a lower percentage change in butyrate on omega-3, while stating that plasma butyrate changes were not statistically significant. Acetate rose more in the women who lost over 10%. Propionate and butyrate are both made by gut bacteria fermenting fibre, and both are generally treated as useful, so a supplement that appears to push one up while leaving the other flat is not a clean win — it is a differently shaped gut. For contrast, the six-week trial in which [kefir plus a diverse fibre mix outperformed omega-3 on inflammatory markers](/blog/kefir-fibre-synbiotic-inflammation/) found butyrate rising, and tied that rise to the fall in IL-6."
+        },
+        {
+          "t": "p",
+          "text": "What to do with this, if anything: not much yet, and the authors say so, calling for studies that can establish causality. Thirty-four women is a pilot. Everyone in it was at elevated breast-cancer risk, which is not the general population. The dose was 3.25 g a day of combined EPA and DHA — several times what a standard supermarket fish-oil capsule provides, high enough that it belongs in a conversation with a clinician, particularly if you take anticoagulants or are heading for surgery. No cancer outcomes were measured, and none could be in six months. The capsules and placebo were supplied by DSM Nutritional Products. What the study earns is a hypothesis worth testing properly: that omega-3 during weight loss reshapes the gut in a direction that may matter, on top of what the weight loss is already doing."
+        },
+        {
+          "t": "h",
+          "text": "What the research says"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "High-dose omega-3 alongside a six-month weight-loss programme shifted gut bacterial composition, without changing overall diversity.",
+              "detail": "A pilot ancillary study (n=34) of peri/postmenopausal women aged 43–64 with BMI ≥28 at increased breast-cancer risk, randomised within trial NCT02101970 to 3.25 g/day EPA+DHA (n=18) or corn-oil placebo (n=16) during a behavioural weight-loss intervention; stool metagenomics at baseline and 6 months. No significant change in alpha- or beta-diversity. Omega-3 significantly reduced Firmicutes proportional abundance with a trend for higher Bacteroidetes (P=0.08); five species were enriched (including Phocaeicola massiliensis, Bacteroides uniformis, Odoribacter laneus) and four reduced (including Faecalibacterium prausnitzii). Erythrocyte n-6:n-3 ratio fell 59.5% on omega-3 versus a 2.9% rise on placebo. Median weight change was −10%; women losing ≥10% (n=19) showed more Bacteroidetes and less Firmicutes than those losing less (n=15).",
+              "cite": "Cook KL et al. · Cancer Prev Res 2026;19(8):473–488",
+              "url": "https://doi.org/10.1158/1940-6207.CAPR-26-0021"
+            },
+            {
+              "claim": "The enriched bacteria correlated with breast-cancer risk markers; plasma propionate rose, butyrate did not change significantly.",
+              "detail": "In the same analysis, proportional abundance of short-chain-fatty-acid-producing species including Phocaeicola vulgatus and Alistipes putredinis correlated with bioavailable oestradiol, the adiponectin:leptin ratio and C-reactive protein. Women receiving omega-3 showed a significantly greater percentage change in plasma propionate; the paper reports a decreased percentage change in butyrate but states that changes in plasma butyrate were not significant, while acetate rose significantly in women losing >10% of body weight. These are correlations within a pilot cohort, not demonstrations of cause; the authors call for further studies to establish causal relationships between weight loss, omega-3, the microbiome and breast-cancer risk.",
+              "cite": "Cook KL et al. · Cancer Prev Res 2026;19(8):473–488",
+              "url": "https://doi.org/10.1158/1940-6207.CAPR-26-0021"
+            },
+            {
+              "claim": "In the parent trial, omega-3 did not beat placebo on any individual biomarker — weight loss drove the change.",
+              "detail": "The feasibility trial this analysis draws its biomarker data from randomised 46 peri/postmenopausal women at increased breast-cancer risk with BMI ≥28 to 3.25 g/day EPA+DHA or placebo alongside a weight-loss intervention; 45 started and study discontinuation at 6 months was 9% in the omega-3 arm, meeting the feasibility endpoint. Between baseline and 6 months, 12 of 25 serum markers changed significantly in the omega-3 arm versus four on placebo, but no significant difference between omega-3 and placebo was observed for any individual biomarker — which the authors attribute to sample size and to the effect of weight loss itself (median loss 11% placebo, 13% omega-3). Women on omega-3 who lost more than 10% showed the greatest biomarker improvement, including adiponectin, insulin, omentin and CRP.",
+              "cite": "Fabian CJ et al. · Cancer Prev Res 2021;14(9):893–904",
+              "url": "https://doi.org/10.1158/1940-6207.CAPR-20-0656"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Related reading",
+          "items": [
+            {
+              "name": "Your gut bacteria recycle oestrogen — and menopause changes which bacteria are doing it",
+              "url": "/blog/estrobolome-gut-oestrogen-menopause/",
+              "desc": "The mechanism behind the oestradiol correlations in this study."
+            },
+            {
+              "name": "Kefir plus fibre beat omega-3 at lowering inflammation in a six-week trial",
+              "url": "/blog/kefir-fibre-synbiotic-inflammation/",
+              "desc": "The other recent trial that put omega-3 supplements up against food, and what it found."
+            },
+            {
+              "name": "What a 2026 review actually says about fermented foods and your gut",
+              "url": "/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "How much of the microbiome evidence is still hypothesis rather than result."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I take fish oil while I'm trying to lose weight?",
+          "a": "This study is not a reason to start, and it is not a reason to stop. It was a pilot in 34 women who were all at increased risk of breast cancer, using 3.25 g a day of combined EPA and DHA — a dose several times higher than most over-the-counter capsules, high enough to be worth discussing with a clinician if you take anticoagulants or have surgery coming up. It found that the supplement changed which bacteria dominated the gut. It did not show that the supplement improved any breast-cancer risk marker more than the placebo did, and the earlier trial it draws those markers from says so explicitly. The weight loss itself was doing most of the measurable good."
+        },
+        {
+          "q": "Does this mean omega-3 lowers breast cancer risk?",
+          "a": "No. Nobody in this study developed or avoided cancer, and nobody could have been followed long enough for that in six months. What was measured was the composition of gut bacteria and a set of blood markers — oestradiol, the adiponectin-to-leptin ratio, C-reactive protein — that are associated with risk in postmenopausal women. Markers moving in a favourable direction is how research generates a hypothesis; it is not evidence that the outcome follows. The authors are clear that causal studies are still needed."
+        },
+        {
+          "q": "Why does a supplement change gut bacteria at all?",
+          "a": "Fats do not simply vanish into the bloodstream at the top of the digestive tract; some reaches the colon, and the fatty-acid environment there affects which bacteria grow well. Omega-3 fats also alter bile acid composition and the inflammatory tone of the gut wall, both of which shift the balance of species. That said, this study found no change in overall diversity — the number and evenness of species stayed put. What changed was the proportions, which is a smaller claim than 'improved your microbiome' and closer to what was actually observed."
+        }
+      ]
+    },
+    "ua": {
+      "cat": "Харчування",
+      "imageAlt": "Бурштинові капсули риб’ячого жиру, висипані з пляшечки на світлу кухонну стільницю поруч зі склянкою води.",
+      "title": "Омега-3 під час схуднення змінила мікробіом кишківника в жінок із підвищеним ризиком раку грудей",
+      "seoTitle": "Омега-3 і кишківник під час схуднення: пілот",
+      "metaDesc": "Пілотне дослідження за участю 34 жінок у пери- та постменопаузі: 3,25 г омега-3 на день або плацебо під час піврічної програми схуднення. Що воно показало.",
+      "excerpt": "Додавання високої дози риб’ячого жиру до піврічної програми схуднення змінило те, які бактерії переважали в кишківнику 34 жінок у пери- та постменопаузі з підвищеним ризиком раку грудей. З маркерами ризику все складніше, ніж у заголовку.",
+      "meta": "25 серпня 2026 · 6 хв читання",
+      "lead": "Схуднення змінює кишкові бактерії. Невелике пілотне дослідження запитало, чи змінює їх інакше висока доза риб’ячого жиру, — і виявило, що так, у жінок, які вже мають підвищений ризик раку грудей. Чого воно не виявило — так це того, що добавка покращила самі маркери ризику.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Це додатковий аналіз завершеного дослідження в Медичному центрі Канзаського університету (NCT02101970), опублікований у Cancer Prevention Research у серпні 2026 року. Тридцять чотири жінки в пери- та постменопаузі віком 43–64 роки, усі з ІМТ 28 і вище та всі з підвищеним ризиком раку грудей — через атипову гіперплазію в анамнезі, рак у другій грудній залозі, мутацію гена помірної чи високої пенетрантності, ризик за моделлю Tyrer–Cuzick щонайменше вдвічі вищий за середній для їхньої вікової групи або мамографічну щільність 50% і більше — були рандомізовані на 3,25 г EPA та DHA на день (2200 мг EPA плюс 1050 мг DHA) або на плацебо з кукурудзяної олії. Обидві групи проходили ту саму піврічну поведінкову програму схуднення: щотижневі групові заняття з клінічним психологом і дієтологинею, 1200–1500 ккал на день, з них менш ніж 30% із жиру і щонайменше 50 г білка, 10 000 кроків і 150 хвилин помірного навантаження на тиждень. Зразки калу й крові збирали на початку та через шість місяців."
+        },
+        {
+          "t": "p",
+          "text": "Капсули справді приймали. Співвідношення жирів омега-6 до омега-3 в еритроцитах жінок за півроку знизилося на 59,5% у групі омега-3 і зросло на 2,9% у групі плацебо. У дослідженнях добавок це важлива деталь: звичайна вада таких робіт у тому, що ніхто не знає, чи хтось узагалі щось ковтав."
+        },
+        {
+          "t": "h",
+          "text": "Що змінилося в кишківнику"
+        },
+        {
+          "t": "p",
+          "text": "Не головні показники. Загальне різноманіття бактерій — звичні індекси альфа- і бета-різноманіття — суттєво не змінилося ні в кого від початку до шести місяців. Змінився баланс того, хто там присутній. Із двох типів бактерій, на які припадає понад 90% виявлених, омега-3 значуще зменшила частку Firmicutes із незначущою тенденцією до більшої частки Bacteroidetes (P=0,08). На рівні видів п’ять бактерій були численнішими в групі омега-3 (n=18), ніж у групі плацебо (n=16), зокрема Phocaeicola massiliensis (1,5% проти 0,08%), Bacteroides uniformis (6,1% проти 5,2%) та Odoribacter laneus (1% проти 0,05%), а чотири — менш численними, серед них Faecalibacterium prausnitzii, яку зазвичай описують як бактерію, що вам потрібна. Автори пояснюють це тим, що в європейській когорті F. prausnitzii була численнішою в кишківнику пацієнток із раком грудей, тож її зменшення тут може бути сприятливим. Це аргумент, а не результат, і він не надто узгоджується з усім іншим, що написано про цей вид."
+        },
+        {
+          "t": "p",
+          "text": "Саме схуднення зробило чимало — незалежно від того, які капсули хто приймав. Медіанна зміна ваги в групі становила −10%. Якщо порівняти 19 жінок, які втратили 10% і більше, з 15, які втратили менше, то в тих, хто схуд сильніше, було більше Bacteroidetes і менше Firmicutes, більше Phocaeicola vulgatus (8,3% проти 5,2%) та Alistipes putredinis (3,2% проти 1,7%) і менше Bacteroides intestinalis (0,1% проти 2,5%). Найбільші зсуви були в жінок, які поєднали обидва: приймали омега-3 і втратили щонайменше 10% ваги."
+        },
+        {
+          "t": "h",
+          "text": "Де тут рак грудей — і де ця лінія обривається"
+        },
+        {
+          "t": "p",
+          "text": "Зв’язок із ризиком проводиться через кореляції. Кілька видів, численніших у групі омега-3, йшли поруч із кращими показниками маркерів, що мають значення для раку грудей у постменопаузі: біодоступного естрадіолу, співвідношення адипонектину до лептину та C-реактивного білка. За естрогеновою половиною цієї історії стоїть правдоподібний механізм: кишкові бактерії з ферментом бета-глюкуронідазою можуть повертати метаболіти естрогену в активну форму просто в кишківнику й відправляти їх назад у кров — це [історія естроболому](/ua/blog/estrobolome-gut-oestrogen-menopause/), і після менопаузи цей шлях важить більше, бо яєчники вже не конкурують. P. vulgatus, одна з бактерій, кількість якої зросла, негативно корелювала з рівнем естрадіолу в плазмі."
+        },
+        {
+          "t": "p",
+          "text": "А ось частина, яку в переказах зазвичай гублять. Самі маркери в цій роботі не вимірювали — вони взяті з материнського дослідження, опублікованого 2021 року, і його власний висновок був прямим: жодної значущої різниці між омега-3 та плацебо для жодного окремого маркера. У групі омега-3 значуще змінилися 12 із 25 маркерів, у групі плацебо — чотири, але пряме порівняння груп їх не розділило, і автори пояснили це розміром вибірки та тим, що більшу частину роботи зробило саме схуднення: медіанна втрата ваги становила 11% на плацебо і 13% на омега-3. Що дослідження 2021 року справді показало — жінки, які приймали омега-3 й утратили понад 10% ваги, мали найбільше покращення маркерів. Тож чесне формулювання таке: омега-3 змістила бактерії, бактерії корелювали з маркерами, а покращення маркерів порівняно з плацебо в добавки не показано."
+        },
+        {
+          "t": "p",
+          "text": "З короткими жирними кислотами так само неповно. У жінок на омега-3 відсоткове зростання пропіонату в плазмі було значуще більшим; у статті також повідомляють про менший відсотковий приріст бутирату на омега-3, але зазначають, що зміни бутирату в плазмі не були статистично значущими. Ацетат більше зріс у жінок, які втратили понад 10% ваги. І пропіонат, і бутират утворюються, коли кишкові бактерії ферментують клітковину, і обидва зазвичай вважають корисними, тож добавка, яка начебто піднімає один і залишає інший на місці, — це не чиста перемога, а кишківник іншої форми. Для контрасту: у шеститижневому дослідженні, де [кефір із різноманітною клітковиною перевершив омега-3 за маркерами запалення](/ua/blog/kefir-fibre-synbiotic-inflammation/), бутират саме зростав, і це зростання пов’язали зі зниженням IL-6."
+        },
+        {
+          "t": "p",
+          "text": "Що з цим робити — поки що небагато, і автори про це пишуть, закликаючи до досліджень, здатних встановити причинність. Тридцять чотири жінки — це пілот. Усі учасниці мали підвищений ризик раку грудей, а це не загальна популяція. Доза становила 3,25 г EPA та DHA на день — у кілька разів більше, ніж у звичайній аптечній капсулі риб’ячого жиру, і достатньо, щоб обговорити її з лікарем, особливо якщо ви приймаєте антикоагулянти або готуєтеся до операції. Онкологічних наслідків ніхто не вимірював, та за півроку це й неможливо. Капсули й плацебо надала компанія DSM Nutritional Products. Що дослідження заслуговує — це гіпотеза, варта належної перевірки: що омега-3 під час схуднення перебудовує кишківник у напрямку, який може мати значення, додатково до того, що вже робить сама втрата ваги."
+        },
+        {
+          "t": "h",
+          "text": "Що каже наука"
+        },
+        {
+          "t": "refs",
+          "items": [
+            {
+              "claim": "Висока доза омега-3 разом із піврічною програмою схуднення змістила склад кишкових бактерій, не змінивши загального різноманіття.",
+              "detail": "Пілотний додатковий аналіз (n=34) жінок у пери- та постменопаузі віком 43–64 роки з ІМТ ≥28 і підвищеним ризиком раку грудей, рандомізованих у межах дослідження NCT02101970 на 3,25 г/добу EPA+DHA (n=18) або плацебо з кукурудзяної олії (n=16) під час поведінкової програми схуднення; метагеномне секвенування калу на початку та через 6 місяців. Значущих змін альфа- чи бета-різноманіття не було. Омега-3 значуще зменшила частку Firmicutes із тенденцією до більшої частки Bacteroidetes (P=0,08); п’ять видів стали численнішими (зокрема Phocaeicola massiliensis, Bacteroides uniformis, Odoribacter laneus), чотири — менш численними (зокрема Faecalibacterium prausnitzii). Співвідношення n-6:n-3 в еритроцитах знизилося на 59,5% на омега-3 проти зростання на 2,9% на плацебо. Медіанна зміна ваги — −10%; у жінок, які втратили ≥10% (n=19), було більше Bacteroidetes і менше Firmicutes, ніж у тих, хто втратив менше (n=15).",
+              "cite": "Cook KL et al. · Cancer Prev Res 2026;19(8):473–488",
+              "url": "https://doi.org/10.1158/1940-6207.CAPR-26-0021"
+            },
+            {
+              "claim": "Численніші бактерії корелювали з маркерами ризику раку грудей; пропіонат у плазмі зріс, бутират значуще не змінився.",
+              "detail": "У тому ж аналізі частка видів, що продукують короткі жирні кислоти, зокрема Phocaeicola vulgatus та Alistipes putredinis, корелювала з біодоступним естрадіолом, співвідношенням адипонектин:лептин і C-реактивним білком. У жінок, які отримували омега-3, відсоткова зміна пропіонату в плазмі була значуще більшою; у статті повідомляють про зменшену відсоткову зміну бутирату, але зазначають, що зміни бутирату в плазмі не були значущими, тоді як ацетат значуще зріс у жінок, які втратили понад 10% ваги. Це кореляції в межах пілотної когорти, а не доказ причинності; автори закликають до подальших досліджень, які встановили б причинні зв’язки між схудненням, омега-3, мікробіомом і ризиком раку грудей.",
+              "cite": "Cook KL et al. · Cancer Prev Res 2026;19(8):473–488",
+              "url": "https://doi.org/10.1158/1940-6207.CAPR-26-0021"
+            },
+            {
+              "claim": "У материнському дослідженні омега-3 не перевершила плацебо за жодним окремим маркером — зміни спричинило схуднення.",
+              "detail": "Дослідження здійсненності, з якого взято дані маркерів, рандомізувало 46 жінок у пери- та постменопаузі з підвищеним ризиком раку грудей та ІМТ ≥28 на 3,25 г/добу EPA+DHA або плацебо разом із програмою схуднення; 45 розпочали, а вибування на 6 місяці в групі омега-3 становило 9%, що відповідало кінцевій точці здійсненності. Від початку до 6 місяців у групі омега-3 значуще змінилися 12 із 25 сироваткових маркерів проти чотирьох на плацебо, але значущої різниці між омега-3 та плацебо не було виявлено для жодного окремого маркера — автори пояснюють це розміром вибірки та впливом самого схуднення (медіанна втрата 11% на плацебо, 13% на омега-3). Найбільше покращення маркерів, зокрема адипонектину, інсуліну, оментину та CRP, мали жінки на омега-3, які втратили понад 10% ваги.",
+              "cite": "Fabian CJ et al. · Cancer Prev Res 2021;14(9):893–904",
+              "url": "https://doi.org/10.1158/1940-6207.CAPR-20-0656"
+            }
+          ]
+        },
+        {
+          "t": "links",
+          "title": "Далі почитати",
+          "items": [
+            {
+              "name": "Ваші кишкові бактерії повертають естроген у кров — і менопауза змінює те, які саме бактерії це роблять",
+              "url": "/ua/blog/estrobolome-gut-oestrogen-menopause/",
+              "desc": "Механізм, що стоїть за кореляціями з естрадіолом у цьому дослідженні."
+            },
+            {
+              "name": "Кефір із клітковиною перевершили омега-3 у зниженні запалення — шеститижневе дослідження",
+              "url": "/ua/blog/kefir-fibre-synbiotic-inflammation/",
+              "desc": "Інше нещодавнє дослідження, де добавки омега-3 порівняли з їжею, і що з цього вийшло."
+            },
+            {
+              "name": "Що насправді кажуть про ферментовану їжу і кишківник в огляді 2026 року",
+              "url": "/ua/blog/fermented-foods-gut-microbiome-review/",
+              "desc": "Яка частина доказів про мікробіом — усе ще гіпотеза, а не результат."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Чи варто приймати риб’ячий жир, поки я худну?",
+          "a": "Це дослідження не є підставою почати — і не є підставою припинити. Це був пілот за участю 34 жінок, усі з підвищеним ризиком раку грудей, із дозою 3,25 г EPA та DHA на день — у кілька разів більшою, ніж у більшості безрецептурних капсул, і достатньою, щоб обговорити її з лікарем, якщо ви приймаєте антикоагулянти або готуєтеся до операції. Дослідження показало, що добавка змінила те, які бактерії переважали в кишківнику. Воно не показало, що добавка покращила бодай якийсь маркер ризику раку грудей більше за плацебо, — і попереднє дослідження, з якого взято ці маркери, каже про це прямо. Більшу частину вимірюваної користі давало саме схуднення."
+        },
+        {
+          "q": "Чи означає це, що омега-3 знижує ризик раку грудей?",
+          "a": "Ні. Ніхто в цьому дослідженні не захворів і не «уникнув» раку, та за півроку простежити це й неможливо. Вимірювали склад кишкових бактерій і набір показників крові — естрадіол, співвідношення адипонектину до лептину, C-реактивний білок, — які пов’язані з ризиком у жінок у постменопаузі. Рух маркерів у сприятливий бік — це те, як наука формулює гіпотезу; це не доказ, що за ним піде й результат. Автори прямо кажуть, що потрібні дослідження причинності."
+        },
+        {
+          "q": "Чому добавка взагалі змінює кишкові бактерії?",
+          "a": "Жири не зникають у кров одразу на початку травного тракту: частина доходить до товстої кишки, і те, які жирні кислоти там присутні, впливає на те, яким бактеріям добре росте. Омега-3 також змінює склад жовчних кислот і запальний тонус стінки кишківника, а це теж зсуває баланс видів. Водночас у цьому дослідженні загальне різноманіття не змінилося — кількість і рівномірність видів лишилися на місці. Змінилися пропорції, а це вужче твердження, ніж «покращили мікробіом», і ближче до того, що насправді спостерігали."
+        }
+      ]
+    }
+  },
   {
     "slug": "oral-minoxidil-for-womens-hair-loss",
     "tags": [
