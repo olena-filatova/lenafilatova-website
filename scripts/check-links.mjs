@@ -98,7 +98,16 @@ const CITATION_EXCEPTIONS = new Map([
 
 const citationWarnings = [];
 {
-  const { POSTS } = await import('../src/data/blog.js');
+  // Read the post files straight off disk rather than importing blog.js: that
+  // module assembles POSTS with import.meta.glob, which only exists under Vite,
+  // and this script runs on plain node.
+  const POSTS = [];
+  {
+    const dir = new URL('../src/data/posts/', import.meta.url);
+    for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js')).sort()) {
+      POSTS.push((await import(new URL(f, dir))).default);
+    }
+  }
   const seen = new Set();
   for (const post of POSTS) {
     for (const lang of ['en', 'ua']) {
@@ -232,7 +241,16 @@ if (process.env.GITHUB_STEP_SUMMARY) {
 // build — but a post going out without its picture should still be visible in
 // the run summary, which is the one useful thing the old hard failure did.
 {
-  const { POSTS } = await import('../src/data/blog.js');
+  // Read the post files straight off disk rather than importing blog.js: that
+  // module assembles POSTS with import.meta.glob, which only exists under Vite,
+  // and this script runs on plain node.
+  const POSTS = [];
+  {
+    const dir = new URL('../src/data/posts/', import.meta.url);
+    for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js')).sort()) {
+      POSTS.push((await import(new URL(f, dir))).default);
+    }
+  }
   const pending = POSTS.filter((p) => p.image && !fs.existsSync(path.join(DIST, p.image)));
   say();
   say(`Heroes not yet supplied: ${pending.length}`);

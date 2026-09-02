@@ -6,7 +6,7 @@ Renamed from `lenafilatova-astro-preview` on 14 Jul 2026 — old links redirect.
 (see `CUTOVER.md`). It is an Astro rebuild of the old Divhunt site. The old Divhunt repo,
 `olena-filatova/lenafilatova-website-old`, is **retired** — do not ship fixes there;
 its deploys no longer reach visitors. Content added there after 13 Jul 2026 must
-be re-added here (`src/data/blog.js`, `src/data/recipes.js`).
+be re-added here (`src/data/posts/<slug>.js`, `src/data/recipes.js`).
 
 - **Hosting:** GitHub Pages via `.github/workflows/deploy.yml` (builds on push to
   `main`). Custom domain comes from `public/CNAME` + the repo's Pages settings.
@@ -79,11 +79,26 @@ via squash-merged PRs. Deploys run automatically on merge.
 
 ## Adding posts/recipes without causing merge conflicts
 
-`src/data/blog.js` and `src/data/recipes.js` are ordered **newest-first**, so every
-new entry is inserted at the *same* spot — the first element of the array. Two open
-PRs adding content therefore **always** conflict, with each other and with whatever
-merged first. Nothing is semantically incompatible; the resolution is always "keep
-all entries, ordered by `date` descending". Rules:
+**Posts no longer conflict.** Each one is its own file, `src/data/posts/<slug>.js`,
+exporting the post object as `export default`. `src/data/blog.js` assembles `POSTS`
+from `import.meta.glob('./posts/*.js')`, sorted date-descending. Adding a post means
+adding a *new file* and touching nothing shared, so two posts written in parallel
+cannot conflict. Nothing outside `blog.js` changed — every consumer still does
+`import { POSTS } from '../data/blog.js'`.
+
+Two things to know:
+
+- **Same-date posts.** Order within one date comes from an optional `export const
+  seq = <n>` in the post file (absent means 0). Without it, same-date posts come
+  back in filesystem order and the hub reshuffles on an unrelated commit. Only write
+  it where a date actually repeats.
+- **`scripts/check-links.mjs` cannot import `blog.js`** — it runs on plain node and
+  `import.meta.glob` is a Vite transform. It reads `src/data/posts/` off disk
+  instead. Any *other* plain-node script that needs posts must do the same.
+
+**`src/data/recipes.js` still has the old problem**: it is one newest-first array, so
+every new recipe inserts at the same anchor and two open recipe PRs always conflict.
+Until it gets the same treatment, for recipes:
 
 1. **Rebase onto `origin/main` immediately before opening the PR**, and again
    whenever another content PR merges ahead of you. Never hand-resolve the conflict
@@ -100,8 +115,8 @@ all entries, ordered by `date` descending". Rules:
 Before pushing a rebased content branch, verify:
 
 ```bash
-node -e "import('./src/data/blog.js').then(m=>{const s=m.POSTS.map(p=>p.slug);console.log('posts',s.length,'dupes',s.length-new Set(s).size);console.log(m.POSTS.slice(0,3).map(p=>p.date+' '+p.slug).join('\n'))})"
-git diff origin/main --stat   # expect ONE data file, pure insertions
+node -e "import('./src/data/blog.js').then(m=>{const s=m.POSTS.map(p=>p.slug);console.log('posts',s.length,'dupes',s.length-new Set(s).size)})"
+git diff origin/main --stat   # a post = ONE new file under src/data/posts/
 ```
 
 Post count and dates descending, zero duplicate slugs. Force-push with
