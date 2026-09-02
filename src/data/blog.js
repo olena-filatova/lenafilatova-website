@@ -1615,7 +1615,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Skin & beauty",
-      "imageAlt": "A small amber glass dropper bottle on a pale bathroom shelf beside a folded flannel, morning light coming in from the side.",
+      "imageAlt": "A dropper releasing a drop of golden serum onto skin.",
       "title": "Vitamin C serums over 40: what the evidence actually supports",
       "seoTitle": "Vitamin C Serums Over 40: What the Evidence Supports",
       "metaDesc": "What the trials on vitamin C serum concentration actually found for ageing skin — and the number the marketing borrowed from a pig-skin study.",
@@ -1869,7 +1869,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Краса та шкіра",
-      "imageAlt": "Невелика бурштинова скляна пляшечка з піпеткою на світлій полиці у ванній поруч зі складеним рушничком, ранкове світло падає збоку.",
+      "imageAlt": "Піпетка випускає краплю золотистої сироватки на шкіру.",
       "title": "Сироватки з вітаміном С після 40: що насправді підтверджують дослідження",
       "seoTitle": "Вітамін С після 40: що кажуть дослідження",
       "metaDesc": "Що насправді показали дослідження концентрації та формули сироваток з вітаміном С — і звідки маркетинг узяв цифру 20%.",
@@ -3274,7 +3274,7 @@ export const POSTS = [
     ],
     "en": {
       "cat": "Nutrition",
-      "imageAlt": "Amber fish-oil capsules spilled from a bottle onto a pale kitchen counter beside a glass of water.",
+      "imageAlt": "A raw salmon fillet on a white plate with lemon wedges, butter, spring onions and herbs on a dark wooden table.",
       "title": "Omega-3 during weight loss shifted the gut microbiome in women at higher breast-cancer risk",
       "seoTitle": "Omega-3 and the Gut During Weight Loss: A Pilot",
       "metaDesc": "A 34-woman pilot gave peri- and postmenopausal women 3.25 g/day of omega-3 or a placebo during a six-month weight-loss programme. What it showed — and didn't.",
@@ -3388,7 +3388,7 @@ export const POSTS = [
     },
     "ua": {
       "cat": "Харчування",
-      "imageAlt": "Бурштинові капсули риб’ячого жиру, висипані з пляшечки на світлу кухонну стільницю поруч зі склянкою води.",
+      "imageAlt": "Сире філе лосося на білій тарілці з часточками лимона, поруч масло, зелена цибуля та трави на темному дерев'яному столі.",
       "title": "Омега-3 під час схуднення змінила мікробіом кишківника в жінок із підвищеним ризиком раку грудей",
       "seoTitle": "Омега-3 і кишківник під час схуднення: пілот",
       "metaDesc": "Пілотне дослідження за участю 34 жінок у пери- та постменопаузі: 3,25 г омега-3 на день або плацебо під час піврічної програми схуднення. Що воно показало.",
