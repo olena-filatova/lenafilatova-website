@@ -20,6 +20,7 @@ import { PUBLISHED } from '../data/recipes.js';
 import {
   CAT_PAGE, DIET, isHeader, giBand, GI_DISCLAIMER, imagesOf, nutritionStats, NUTRI_LABELS, heroAlt, stepAlt,
 } from '../data/recipes-lib.js';
+import ShareRow from './ShareRow.astro';
 import '../styles/recipes.css';
 
 const { R, lang = 'en' } = Astro.props;
@@ -27,6 +28,14 @@ const B = import.meta.env.BASE_URL;
 const HUB = lang === 'ua' ? `${B}ua/recipes/` : `${B}recipes/`;
 const IMG = `${B}recipes/images/`;
 const l = lang;
+// Share row (OPS-359). The panel already had a native-share and a copy button
+// wired in public/recipes.js; ShareRow supersedes both and adds the networks,
+// so those two are gone from the markup below (recipes.js guards every lookup
+// with `if (btn)`, so nothing there breaks). 'email' is omitted because the
+// panel's own form is a better version of it — it sends the recipe and offers
+// the newsletter opt-in.
+const sharePath = `/${l === 'ua' ? 'ua/' : ''}recipes/${R.slug}/`;
+const shareImage = `/recipes/images/${imagesOf(R)[0]}`;
 
 const T = {
   back: l === 'ua' ? 'Усі рецепти з низьким ГІ' : 'All Low-GI recipes',
@@ -51,8 +60,6 @@ const T = {
   print: l === 'ua' ? 'Друк' : 'Print',
   share: l === 'ua' ? 'Поділитися' : 'Share',
   shareThis: l === 'ua' ? 'Поділитися рецептом' : 'Share this recipe',
-  shareNative: l === 'ua' ? 'Поділитися…' : 'Share…',
-  copyLink: l === 'ua' ? 'Копіювати посилання' : 'Copy link',
   emailPh: l === 'ua' ? 'Надіслати рецепт на пошту' : 'Send recipe to email',
   alsoEmail: l === 'ua' ? 'Також надсилати мені нові рецепти й новини' : 'Also email me new recipes & news',
   sendRecipe: l === 'ua' ? 'Надіслати рецепт' : 'Send recipe',
@@ -177,10 +184,7 @@ const rec = {
 
           <div class="share-panel" id="sharePanel">
             <div class="share-kicker">{T.shareThis}</div>
-            <div class="share-two">
-              <button class="btn" id="shNative">{T.shareNative}</button>
-              <button class="btn" id="shCopy"><span class="lbl">{T.copyLink}</span></button>
-            </div>
+            <ShareRow lang={l} path={sharePath} title={R.title[l]} kind="recipe" image={shareImage} omit={['email']} compact />
             <form class="share-form" id="shareForm">
               <input type="email" id="shareEmail" placeholder={T.emailPh} />
               <label class="opt"><input type="checkbox" id="shareOpt" checked /><span>{T.alsoEmail}</span></label>

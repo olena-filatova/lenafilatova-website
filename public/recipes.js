@@ -351,14 +351,8 @@
     if (toggle && panel) {
       toggle.addEventListener('click', function () { var o = panel.classList.toggle('open'); toggle.classList.toggle('primary', o); });
     }
-    var nativeBtn = document.getElementById('shNative');
-    if (nativeBtn) nativeBtn.addEventListener('click', function () {
-      var t = window.LF_RECIPE ? title(window.LF_RECIPE) : document.title;
-      if (navigator.share) navigator.share({ title: t, url: location.href }).catch(function () {});
-      else copyLink();
-    });
-    var copyBtn = document.getElementById('shCopy');
-    if (copyBtn) copyBtn.addEventListener('click', copyLink);
+    /* Native share and copy-link moved into <ShareRow> (OPS-359), which owns
+       its own listeners; only the panel toggle and the email form are left. */
     var form = document.getElementById('shareForm');
     if (form) form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -372,13 +366,6 @@
       document.getElementById('shareSent').classList.add('show');
     });
   }
-  function copyLink() {
-    var btn = document.getElementById('shCopy'); var lbl = btn && btn.querySelector('.lbl');
-    function done() { if (lbl) { lbl.textContent = S().copied; setTimeout(function () { lbl.textContent = S().copy; }, 2000); } }
-    if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, done);
-    else { var t = document.createElement('textarea'); t.value = location.href; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); } catch (e) {} document.body.removeChild(t); done(); }
-  }
-
   /* ---- init ---- */
   function init() {
     lang = (window.LF_LANG === 'ua') ? 'ua' : 'en';

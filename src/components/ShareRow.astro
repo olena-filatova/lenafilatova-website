@@ -1,0 +1,158 @@
+---
+// The share row (OPS-359). One component for every page that can be passed on:
+// an article, a recipe, and the two hubs as a whole.
+//
+// Server-rendered plain links, so it works with no JavaScript at all — the
+// network buttons are ordinary <a href>s built in share-lib.js. JS only *adds*
+// the two things that cannot exist without it: the device's own share sheet
+// (phones, where most sharing happens) and copy-to-clipboard. Both start
+// `hidden` and are revealed by the script, so a reader without JS never sees a
+// button that does nothing.
+//
+// See share-lib.js for why the shared text carries the byline, and why these
+// are labels rather than brand marks.
+import { SHARE_UI, shareText, shareTargets } from '../data/share-lib.js';
+
+const {
+  lang = 'en',
+  path,             // site-absolute path of THIS page, e.g. '/blog/slug/'
+  title,            // what the reader is sharing, in the page's language
+  kind = 'page',    // 'post' | 'recipe' | 'page' — picks the label
+  image,            // site-absolute image path; only Pinterest uses it
+  compact = false,  // drop the rule + label (inside a panel that has its own)
+  omit = [],        // target keys to leave out — the recipe panel drops
+                    // 'email' because it already has a real email form
+} = Astro.props;
+
+const t = SHARE_UI[lang] || SHARE_UI.en;
+// Absolute, and the same spelling as <link rel="canonical"> — a shared link
+// must not be a redirect (the site is trailingSlash: 'always', so /blog/x is
+// a 301 to /blog/x/ and every scraper would have to follow it to build a card).
+const slashed = (p) => (p.endsWith('/') ? p : p + '/');
+const url = new URL(slashed(path), Astro.site).href;
+const imageUrl = image ? new URL(image, Astro.site).href : undefined;
+const targets = shareTargets({ lang, url, title, image: imageUrl }).filter((s) => !omit.includes(s.key));
+const text = shareText(lang, title);
+---
+<div class={compact ? 'sh sh-compact' : 'sh'} data-share data-title={title} data-text={text} data-url={url}>
+  {!compact && <span class="sh-label">{t[kind]}</span>}
+  <div class="sh-row">
+    {/* Native first where it exists: on a phone it is one tap to any app the
+        reader actually has, including the ones not listed here. */}
+    <button type="button" class="sh-btn sh-native" data-share-native hidden>{t.native}</button>
+    {targets.map((s) => (
+      <a
+        class="sh-btn"
+        href={s.href}
+        {...(s.key === 'email' ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
+      >{s.label}</a>
+    ))}
+    <button type="button" class="sh-btn sh-copy" data-share-copy hidden>
+      <span data-copy-label>{t.copy}</span>
+    </button>
+    {/* aria-live so the confirmation is announced, not just seen. */}
+    <span class="sh-done" data-share-done role="status" aria-live="polite" hidden>{t.copied}</span>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var roots = document.querySelectorAll('[data-share]');
+    if (!roots.length) return;
+
+    Array.prototype.forEach.call(roots, function (root) {
+      var title = root.getAttribute('data-title') || document.title;
+      var text = root.getAttribute('data-text') || title;
+      var url = root.getAttribute('data-url') || location.href;
+      var done = root.querySelector('[data-share-done]');
+
+      function confirm() {
+        if (!done) return;
+        done.hidden = false;
+        clearTimeout(done._t);
+        done._t = setTimeout(function () { done.hidden = true; }, 2400);
+      }
+
+      var nativeBtn = root.querySelector('[data-share-native]');
+      if (nativeBtn && navigator.share) {
+        nativeBtn.hidden = false;
+        nativeBtn.addEventListener('click', function () {
+          // A cancelled share sheet rejects — that is the reader changing
+          // their mind, not an error worth surfacing.
+          navigator.share({ title: title, text: text, url: url }).catch(function () {});
+        });
+      }
+
+      var copyBtn = root.querySelector('[data-share-copy]');
+      // execCommand('copy') is deliberately not kept as a fallback: it needs a
+      // temporary textarea and a selection, and every browser that runs this
+      // site has the async clipboard API. Without it the button stays hidden
+      // and the row is still complete.
+      if (copyBtn && navigator.clipboard && navigator.clipboard.writeText) {
+        copyBtn.hidden = false;
+        copyBtn.addEventListener('click', function () {
+          navigator.clipboard.writeText(url).then(confirm, function () {});
+        });
+      }
+    });
+  })();
+</script>
+
+<style>
+  /* Same vocabulary as the "Filed under" colophon it sits beside: a rule, a
+     wide-tracked caps label, and links set in the body face. */
+  .sh {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px;
+    margin: 32px 0 0; padding-top: 16px; border-top: 1px solid var(--rule);
+  }
+  /* Compact lives in the recipe page's share panel — a 320px sidebar column,
+     which fits two buttons a row and none of them at their natural widths. Left
+     alone they wrap into a ragged stack (94px, 86px, 88px…) against a panel
+     whose other control is a full-width button, so here they grow to fill the
+     row instead. */
+  .sh-compact { margin: 0 0 14px; padding-top: 0; border-top: 0; }
+  .sh-compact .sh-row { width: 100%; }
+  .sh-compact .sh-btn { flex: 1 1 40%; }
+  .sh-label {
+    font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); flex: none;
+  }
+  .sh-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+
+  /* Square and hairlined, like everything else on this site. The magenta is
+     the hover state rather than the resting one: five filled buttons in a row
+     at the foot of an article would outshout the article. */
+  .sh-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 700;
+    line-height: 1; color: var(--ink); text-decoration: none;
+    background: transparent; border: 1px solid var(--line); border-radius: 0;
+    padding: 9px 13px; cursor: pointer;
+    transition: border-color .2s ease, color .2s ease, background .2s ease;
+  }
+  .sh-btn:hover { color: var(--accent); border-color: var(--accent); }
+  .sh-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  /* The buttons are inline-flex, which beats the `hidden` attribute's UA
+     display:none — the same trap as .cookie-bar[hidden] in global.css. */
+  .sh-btn[hidden], .sh-done[hidden] { display: none; }
+
+  /* 13px type with 9px of padding is a 33px target, which is fine for a mouse
+     and short of the 44px minimum for a thumb (OPS-306 is the standing ticket
+     on this). Touch devices get the height without making the row heavier on
+     desktop, where it sits directly under the article. */
+  @media (pointer: coarse) {
+    .sh-btn { min-height: 44px; padding-left: 15px; padding-right: 15px; }
+  }
+
+  /* The device's own sheet is the primary action where it exists. */
+  .sh-native { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .sh-native:hover { background: var(--accent-deep); border-color: var(--accent-deep); color: #fff; }
+
+  .sh-done {
+    font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 700;
+    color: var(--accent);
+  }
+
+  /* Nobody prints a page in order to share it. */
+  @media print { .sh { display: none; } }
+</style>
