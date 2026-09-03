@@ -25,6 +25,7 @@ const PAGE_DATES = {
   '/contact/': '2026-07-13',
   '/resources/': '2026-07-13',
   '/dia-school/': '2026-08-17', // OPS-264 — waitlist page (UA is the real one)
+  '/meal-plan/': '2026-09-03', // OPS-415 — guide landing page (UA is the real one)
   '/blog/': '2026-07-12',
   '/recipes/': '2026-08-05',
   // Legal pages (LEGAL_SLUGS)
@@ -55,6 +56,12 @@ add('/resources/');
 // Dia.School (OPS-264). Both languages: /ua/dia-school/ is the waitlist itself,
 // /dia-school/ the English "this runs in Ukrainian" explainer that points at it.
 add('/dia-school/');
+// The meal-plan guide (OPS-415). Same shape: /ua/meal-plan/ is the landing page
+// with the form, /meal-plan/ the English "this one is in Ukrainian" explainer.
+// The PDF itself is deliberately absent — it is gated, and robots.txt disallows
+// it, so submitting it here would be asking Google to index the way around the
+// form.
+add('/meal-plan/');
 // NOTE: /shop/ deliberately absent — the shop is hidden (nothing on sale yet).
 add('/blog/');
 add('/recipes/');

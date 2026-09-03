@@ -1,0 +1,21 @@
+---
+// EN is the "this guide is in Ukrainian" explainer (OPS-415) — see
+// MealPlanBody for why there is no English signup here. It keeps the site's
+// ordinary newsletter band, which promises the English workbook: a promise we
+// can keep.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MealPlanBody from '../components/MealPlanBody.astro';
+import { MEAL_PLAN } from '../data/site.js';
+const t = MEAL_PLAN.en;
+---
+<BaseLayout
+  lang="en"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/meal-plan"
+  alternates={{ en: "/meal-plan", ua: "/ua/meal-plan" }}
+  ogImage={t.ogImage}
+  ogImageAlt={t.ogImageAlt}
+>
+  <MealPlanBody lang="en" />
+</BaseLayout>

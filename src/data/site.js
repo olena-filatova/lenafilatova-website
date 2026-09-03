@@ -167,7 +167,14 @@ export const MAILCHIMP = {
   // `dia-school-waitlist` tag, and copy the numeric value it writes into
   // `name="tags"` here. This is the only Mailchimp-side step the site can't do
   // for itself.
-  tags: { diaSchoolWaitlist: 'dia-school-waitlist' },
+  tags: {
+    diaSchoolWaitlist: 'dia-school-waitlist',
+    // OPS-415 — /ua/meal-plan/. Same caveat as above: if Mailchimp wants the
+    // numeric id here the contact still arrives, just untagged, and the tag is
+    // what the delivery automation keys off — so this one is worth checking
+    // after the first live signup.
+    mealPlan: 'meal-plan-4-weeks',
+  },
 };
 
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
@@ -1025,6 +1032,152 @@ export const LEGAL = {
 // EN is not a translation. The programme is taught in Ukrainian, so the English
 // page says exactly that and points at the UA page — promising an English intake
 // that does not exist would be the one thing worse than no page at all.
+// Meal-plan guide landing page (OPS-415) — /meal-plan/ and /ua/meal-plan/.
+//
+// The guide itself ("Гнучка система харчування на 4 тижні") is written in
+// Ukrainian, so this follows the Dia.School shape exactly: UA is the real
+// landing page with the gated form, EN is the "this one is in Ukrainian"
+// explainer that links across and keeps the site's ordinary newsletter band.
+// An English signup for a Ukrainian-only PDF would be a promise we cannot keep.
+//
+// GATED, and that is the point of the ticket: the PDF is never linked from the
+// page. Mailchimp delivers it after the visitor confirms their address, so the
+// file at /guides/4-week-meal-plan-ua.pdf is reachable only from that email
+// (and robots.txt asks crawlers to leave it alone, so it cannot turn up in
+// search as a way around the form).
+//
+// The figures below are the guide's own: 4 categories x 50 dishes = 200, a
+// 28-day plan, 24 dinner recipes, 24 pages. If the PDF is ever re-cut, these
+// are the numbers to re-check.
+export const MEAL_PLAN = {
+  // Shared between both languages so the two pages cannot drift apart.
+  stats: { meals: 200, perCategory: 50, days: 28, recipes: 24, pages: 24 },
+  cover: '/images/4-week-meal-plan-guide-cover.jpg',
+  shots: [
+    { src: '/images/4-week-meal-plan-guide-week-one.jpg', w: 1200, h: 675 },
+    { src: '/images/4-week-meal-plan-guide-meal-bank.jpg', w: 1200, h: 865 },
+  ],
+  en: {
+    seoTitle: 'The 4-week meal plan guide — written in Ukrainian',
+    seoDesc: 'A free 24-page guide: 200 swappable meals and a ready-made 28-day plan for insulin resistance, type 1 diabetes and perimenopause. Written in Ukrainian.',
+    ogImage: '/images/cards/meal-plan.jpg',
+    ogImageAlt: 'The 4-week meal plan guide — 200 meals and a ready-made 28-day plan.',
+    kicker: 'Free guide',
+    h1: 'The 4-week meal plan is written in Ukrainian',
+    lead: 'It is a 24-page guide: 200 swappable meals — 50 breakfasts, 50 lunches, 50 dinners, 50 snacks — and a ready-made 28-day plan where tonight\u2019s dinner becomes tomorrow\u2019s lunch, so you cook once a day instead of twice. There is no English edition planned.',
+    ctaLead: 'If you read Ukrainian, the guide is free — leave your name and email on the Ukrainian page and it arrives by email.',
+    cta: 'Go to the Ukrainian page',
+    coverAlt: 'Cover of the Ukrainian guide \u201cГнучка система харчування на 4 тижні\u201d.',
+    elseTitle: 'In English, right now',
+    elseLead: 'Everything below is in English and free — no sign-up, no paywall.',
+    else: [
+      { href: '/recipes/', label: 'Low-GI recipes' },
+      { href: '/carb-gi-table/', label: 'Carb & GI table' },
+      { href: '/resources/food-calculator/', label: 'Metabolic food calculator' },
+    ],
+    note: 'Educational material, not medical advice. If anything here is new to you, please talk it through with your own clinical team before you change how you eat.',
+  },
+  ua: {
+    seoTitle: 'Гнучка система харчування на 4 тижні — безкоштовний гайд',
+    seoDesc: '200 взаємозамінних страв і готовий план на 28 днів для жінок з інсулінорезистентністю, діабетом чи перименопаузою. Безкоштовно — надішлю на пошту.',
+    ogImage: '/images/cards/meal-plan-ua.jpg',
+    ogImageAlt: 'Гнучка система харчування на 4 тижні — 200 страв і готовий план на 28 днів.',
+    kicker: 'Безкоштовний гайд',
+    h1: 'Гнучка система харчування на 4 тижні',
+    // The promise is the outcome, not the file: cook once a day, stop deciding
+    // every evening, and keep the carbohydrate load comparable meal to meal.
+    lead: 'Готувати раз на день замість двох. Не вирішувати щовечора, що їсти. І тримати вуглеводи приблизно однаковими з дня в день — так, щоб це працювало і при інсулінорезистентності, і при діабеті, і в перименопаузі.',
+    coverAlt: 'Обкладинка гайду «Гнучка система харчування на 4 тижні».',
+
+    // What the guide does, in the visitor's terms.
+    whatTitle: 'Що ви отримаєте',
+    what: [
+      {
+        h: 'Готовий план на 28 днів',
+        p: 'Сніданок, обід і вечеря на кожен день чотирьох тижнів. Відкрили — і готуєте, нічого не вигадуючи.',
+      },
+      {
+        h: 'Банк із 200 страв',
+        p: 'По 50 сніданків, обідів, вечер і перекусів. Будь-яку страву з плану можна замінити іншою з тієї ж категорії — план від цього не ламається.',
+      },
+      {
+        h: 'Одне готування на день',
+        p: 'Вечеря сьогодні стає обідом завтра. Готуєте одразу подвійну порцію — і завтра в обід нічого робити не треба.',
+      },
+      {
+        h: '24 рецепти до вечер',
+        p: 'Інгредієнти й покрокове приготування для всіх вечер із плану. Прості страви на кшталт омлету рецепта не потребують.',
+      },
+      {
+        h: 'Позначки «добре заморожуються»',
+        p: 'Видно, що можна приготувати великою порцією і залишити в морозильній камері про запас.',
+      },
+      {
+        h: 'Практичні поради',
+        p: 'Порядок їжі на тарілці, розмір порції вуглеводів і рух після їжі — коротко, з позначками доказовості.',
+      },
+    ],
+
+    // Why one structure serves three conditions — the guide's own section 01,
+    // condensed. This is the part that makes the page worth reading before the
+    // form, rather than a download button with copy around it.
+    whoTitle: 'Чому одна система підходить трьом станам',
+    who: [
+      {
+        h: 'Інсулінорезистентність',
+        p: 'Кожна страва поєднує білок, клітковину й корисні жири з повільними вуглеводами — це сповільнює підйом глюкози й знижує навантаження на інсулін.',
+      },
+      {
+        h: 'Діабет 1 типу',
+        p: 'Порції вуглеводів у межах кожної категорії підібрані приблизно порівнюваними — простіше орієнтуватися в дозуванні інсуліну.',
+      },
+      {
+        h: 'Перименопауза',
+        p: 'У меню регулярно є продукти з фітоестрогенами (льон, нут, соя), кальцієм і магнієм (листова зелень, горіхи, риба).',
+      },
+    ],
+
+    shotsTitle: 'Як це виглядає всередині',
+    shotAlts: [
+      'Сторінка готового плану: тиждень 1, сніданок, обід і вечеря на кожен день.',
+      'Сторінка банку страв: пронумеровані сніданки з позначкою «добре заморожуються».',
+    ],
+
+    // Form band. Overrides the workbook wording the shared newsletter band uses
+    // everywhere else — everything promised here is something we can keep.
+    nlTitle: 'Надішлю гайд на пошту',
+    // The page count lives here rather than in an nlTitleKicker: Newsletter.astro
+    // renders nlTitle and nlSub and nothing else, so a kicker would never be seen.
+    nlSub: 'Безкоштовно, 24 сторінки. Залиште ім\u2019я та пошту — гайд прийде листом одразу після того, як ви підтвердите адресу. Плюс час від часу науково обґрунтовані нотатки про харчування, цукор і перименопаузу. Відписатися можна будь-коли.',
+    nlName: 'Ваше ім\u2019я',
+    nlBtn: 'Надішліть гайд',
+    nlSent: 'Майже готово — перевірте пошту та підтвердьте підписку. Одразу після цього надішлю гайд.',
+    nlDupe: 'Ви вже підписані — перевірте пошту, гайд уже в дорозі.',
+
+    faqTitle: 'Коротко',
+    faq: [
+      {
+        q: 'Скільки це коштує?',
+        a: 'Нічого. Гайд безкоштовний — я прошу лише пошту, щоб було куди його надіслати.',
+      },
+      {
+        q: 'Треба рахувати калорії?',
+        a: 'Ні. У гайді немає підрахунку калорій і немає ваги порцій у грамах — є структура страви й приблизно однакова вуглеводна порція в межах категорії.',
+      },
+      {
+        q: 'А якщо я не люблю якусь страву?',
+        a: 'Замініть її будь-якою іншою з тієї ж категорії — саме для цього в банку 200 страв, а не 28. Більшість страв у готовий план узагалі не увійшли.',
+      },
+      {
+        q: 'Це підходить при діабеті 1 типу?',
+        a: 'Так — вуглеводні порції в межах категорії підібрані порівнюваними, щоб простіше було орієнтуватися в дозуванні. Але це освітній матеріал, а не призначення: дози інсуліну лишаються питанням до вашого лікаря.',
+      },
+    ],
+
+    note: 'Освітній матеріал, не медична порада. За наявності сумнівів, будь ласка, зверніться до свого лікаря. Цей матеріал створено за допомогою штучного інтелекту, який може помилятися.',
+  },
+};
+
 export const DIA_SCHOOL = {
   en: {
     seoTitle: 'Dia.School — type 1 diabetes programme',

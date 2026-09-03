@@ -1,0 +1,52 @@
+---
+// UA is the real meal-plan landing page — the gated guide (OPS-415).
+// `newsletter={false}` because MealPlanBody renders the signup itself, with the
+// guide's copy, the name field and the delivery tag; two forms would also make
+// the header's #newsletter anchor ambiguous.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MealPlanBody from '../../components/MealPlanBody.astro';
+import { MEAL_PLAN } from '../../data/site.js';
+import { breadcrumb, personNode, personRef, SITE } from '../../data/schema-lib.js';
+const t = MEAL_PLAN.ua;
+const url = `${SITE}/ua/meal-plan/`;
+
+// The four questions on the page, marked up so they can be answered in search
+// without the visitor arriving to find the answer was "leave your email".
+// Everything declared here is visible on the page, which is what FAQPage
+// requires.
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'FAQPage',
+      '@id': `${url}#faq`,
+      url,
+      name: t.h1,
+      description: t.seoDesc,
+      inLanguage: 'uk',
+      isPartOf: { '@id': `${SITE}/ua/#website` },
+      creator: personRef(),
+      mainEntity: t.faq.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+    breadcrumb('ua', [{ name: t.h1, url }]),
+    personNode(),
+  ],
+};
+---
+<BaseLayout
+  lang="ua"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/ua/meal-plan"
+  alternates={{ en: "/meal-plan", ua: "/ua/meal-plan" }}
+  ogImage={t.ogImage}
+  ogImageAlt={t.ogImageAlt}
+  jsonld={jsonld}
+  newsletter={false}
+>
+  <MealPlanBody lang="ua" />
+</BaseLayout>

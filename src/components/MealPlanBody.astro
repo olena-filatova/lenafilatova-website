@@ -1,0 +1,232 @@
+---
+// Meal-plan guide landing page (OPS-415) — one component, both languages.
+//
+// UA is the real landing page: it sells the outcome (cook once a day, stop
+// deciding every evening), shows the cover and two pages from inside, and
+// gates the PDF behind the signup form. EN is the "this one is in Ukrainian"
+// explainer — a link across plus the English things that need no address —
+// and keeps the site's ordinary newsletter band instead of this form, because
+// an English signup for a Ukrainian-only PDF would promise something we cannot
+// deliver. Same split, and the same reasoning, as DiaSchoolBody (OPS-264).
+//
+// The PDF is never linked from this page. That is the whole point of the
+// ticket: Mailchimp sends it once the address is confirmed.
+//
+// The masthead device (.est + .res-head) is the resources hub's, not a new one.
+import { MEAL_PLAN, MAILCHIMP } from '../data/site.js';
+import Newsletter from './Newsletter.astro';
+import Picture from './Picture.astro';
+const { lang = 'ua' } = Astro.props;
+const t = MEAL_PLAN[lang];
+const { stats, cover, shots } = MEAL_PLAN;
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const link = (href) => `${B}${href}`;
+
+// The cover is drawn at ~320px in the hero and full-width on a phone; the
+// screenshots break out to the reading column's full width. Both get a `sizes`
+// so <Picture> can hand back a 480 rung instead of the 1200 (OPS-305).
+const COVER_SIZES = '(min-width: 860px) 320px, min(74vw, 320px)';
+const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
+---
+<section class="res-head mp-head">
+  <div class="wrap">
+    <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+    <div class="mp-hero">
+      {/* Deliberately NOT .head: that class is a two-column grid (headline
+          beside standfirst), and inside the hero's left column it squeezed the
+          lede to ~260px and dropped the stats and the button into grid cells of
+          their own. Here the copy stacks and the cover takes the second
+          column. .res-head still sets the h1 and .lede type. */}
+      <div class="mp-hero-copy">
+        <h1>{t.h1}</h1>
+        <p class="lede">{t.lead}</p>
+        {lang === 'ua' ? (
+          <>
+            {/* Numbers first: they are the fastest honest answer to "what is
+                this, and is it worth an email address?" */}
+            <ul class="mp-stats">
+              <li><b>{stats.meals}</b><span>страв у банку</span></li>
+              <li><b>{stats.days}</b><span>днів готового плану</span></li>
+              <li><b>{stats.recipes}</b><span>рецепти до вечер</span></li>
+            </ul>
+            <p class="mp-jump"><a class="btn" href="#newsletter">Надішліть гайд</a></p>
+          </>
+        ) : (
+          <>
+            {/* Button outside the paragraph, not inline in it: an inline-block
+                .btn sits in the text flow, so the sentence's last line wrapped
+                alongside it and read as one run-on line. */}
+            <p class="mp-cross">{t.ctaLead}</p>
+            <p class="mp-jump"><a class="btn" href={link('/ua/meal-plan/')} hreflang="uk" lang="uk">{t.cta}</a></p>
+          </>
+        )}
+      </div>
+
+      <div class="mp-cover">
+        <Picture src={cover} sizes={COVER_SIZES} alt={t.coverAlt} width="900" height="1272" loading="eager" decoding="async" />
+      </div>
+    </div>
+  </div>
+</section>
+
+{lang === 'ua' && (
+  <section class="section mp-what">
+    <div class="wrap">
+      <h2>{t.whatTitle}</h2>
+      <ol class="mp-grid">
+        {t.what.map((item, i) => (
+          <li>
+            <span class="mp-n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <h3>{item.h}</h3>
+            <p>{item.p}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
+{lang === 'ua' && (
+  <section class="section mp-shots">
+    <div class="wrap">
+      <h2>{t.shotsTitle}</h2>
+      {shots.map((shot, i) => (
+        <figure class="mp-shot">
+          <Picture src={shot.src} sizes={SHOT_SIZES} alt={t.shotAlts[i]} width={shot.w} height={shot.h} loading="lazy" decoding="async" />
+        </figure>
+      ))}
+    </div>
+  </section>
+)}
+
+{lang === 'ua' && (
+  <section class="section mp-who">
+    <div class="wrap">
+      <h2>{t.whoTitle}</h2>
+      <ul class="mp-who-list">
+        {t.who.map((item) => (
+          <li><h3>{item.h}</h3><p>{item.p}</p></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+{lang === 'ua' && (
+  <Newsletter
+    lang="ua"
+    tag={MAILCHIMP.tags.mealPlan}
+    askName
+    copy={{
+      nlTitle: t.nlTitle,
+      nlSub: t.nlSub,
+      nlName: t.nlName,
+      nlBtn: t.nlBtn,
+      nlSent: t.nlSent,
+      nlDupe: t.nlDupe,
+    }}
+  />
+)}
+
+{lang === 'ua' && (
+  <section class="section mp-faq">
+    <div class="wrap">
+      <h2>{t.faqTitle}</h2>
+      <dl class="mp-faq-list">
+        {t.faq.map((item) => (
+          <div class="mp-faq-item">
+            <dt>{item.q}</dt>
+            <dd>{item.a}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+)}
+
+{lang === 'en' && (
+  <section class="section mp-else">
+    <div class="wrap">
+      <h2>{t.elseTitle}</h2>
+      <p class="section-sub">{t.elseLead}</p>
+      <ul class="mp-list">
+        {t.else.map((item) => (
+          <li><a href={link(item.href)}>{item.label} <span class="ar" aria-hidden="true">&#8594;</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<section class="section mp-note-band">
+  <div class="wrap"><p class="mp-note">{t.note}</p></div>
+</section>
+
+<style>
+  .mp-head { padding-bottom: 8px; }
+
+  /* Hero: copy beside the cover. The cover is a portrait A4 page, so it is
+     given a fixed column rather than a share of the row — at 1fr it grew
+     taller than the copy beside it and pushed the fold down. */
+  .mp-hero { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 48px; align-items: start; }
+  .mp-hero-copy { margin: 0; }
+  .mp-hero-copy h1 { margin: 0; }
+  .mp-hero-copy .lede { margin: 16px 0 0; max-width: 46ch; }
+  .mp-cover img { display: block; width: 100%; height: auto; box-shadow: 0 18px 40px rgba(42, 20, 36, 0.18); }
+
+  /* The three figures. Serif numerals to match the guide's own cover, and a
+     hairline between them rather than boxes — the page already has enough
+     furniture below. */
+  .mp-stats { display: flex; flex-wrap: wrap; gap: 0; margin: 30px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--rule); max-width: 52ch; }
+  .mp-stats li { flex: 1 1 30%; padding: 16px 18px 16px 0; border-bottom: 1px solid var(--line); }
+  .mp-stats b { display: block; font-family: var(--font-head); font-size: 34px; font-weight: 600; line-height: 1; color: var(--accent-deep); }
+  .mp-stats span { display: block; margin-top: 6px; font-size: var(--fs-fine); color: var(--muted); }
+
+  .mp-jump { margin: 26px 0 0; }
+  .mp-cross { margin: 26px 0 0; max-width: 52ch; color: var(--muted); font-size: 17px; line-height: 1.6; }
+
+  /* "What you get" — the homepage/resources numbered index, in a grid. */
+  .mp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 40px; margin: 30px 0 0; padding: 0; list-style: none; }
+  .mp-grid li { border-top: 1px solid var(--rule); padding-top: 16px; }
+  .mp-n { display: block; font-family: var(--font-head); font-size: var(--fs-fine); letter-spacing: .1em; color: var(--accent); }
+  .mp-grid h3 { margin: 10px 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+  .mp-grid p { margin: 0; font-size: var(--fs-small); line-height: 1.55; color: var(--body); }
+
+  /* Pages from inside the guide. The well is the site's --paper2 recess, so a
+     white PDF page does not float on the warm paper with a hard edge. */
+  .mp-shot { margin: 26px 0 0; padding: 18px; background: var(--paper2); }
+  .mp-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
+
+  .mp-who-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 40px; margin: 30px 0 0; padding: 0; list-style: none; }
+  .mp-who-list li { border-top: 1px solid var(--rule); padding-top: 16px; }
+  .mp-who-list h3 { margin: 0 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+  .mp-who-list p { margin: 0; font-size: var(--fs-small); line-height: 1.55; color: var(--body); }
+
+  .mp-faq-list { margin: 26px 0 0; max-width: 62ch; border-top: 1px solid var(--rule); }
+  .mp-faq-item { border-bottom: 1px solid var(--line); padding: 18px 0; }
+  .mp-faq-list dt { font-family: var(--font-head); font-size: var(--fs-title); color: var(--ink); }
+  .mp-faq-list dd { margin: 8px 0 0; font-size: var(--fs-small); line-height: 1.6; color: var(--body); }
+
+  /* EN-only list of the things that need no address. Same rows as Dia.School. */
+  .mp-list { list-style: none; margin: 26px 0 0; padding: 0; border-top: 1px solid var(--rule); max-width: 52ch; }
+  .mp-list li { border-bottom: 1px solid var(--rule); }
+  .mp-list a { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; padding: 16px 0; font-family: var(--font-head); font-size: var(--fs-title); color: var(--ink); text-decoration: none; }
+  .mp-list a:hover { color: var(--accent); }
+  .mp-list .ar { color: var(--accent); }
+
+  .mp-note-band { padding-top: 0; }
+  .mp-note { max-width: 62ch; margin: 0; font-size: var(--fs-fine); line-height: 1.6; color: var(--muted); }
+
+  @media (max-width: 860px) {
+    .mp-hero { grid-template-columns: 1fr; gap: 30px; }
+    /* Cover under the copy on a phone, and no longer full-bleed: an A4 page at
+       100vw is a screenful of nothing but cover before the first section. */
+    .mp-cover { max-width: 320px; }
+    .mp-grid, .mp-who-list { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .mp-grid, .mp-who-list { grid-template-columns: 1fr; }
+    .mp-stats li { flex-basis: 100%; }
+    .mp-shot { padding: 12px; }
+  }
+</style>
