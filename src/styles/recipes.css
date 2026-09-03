@@ -467,8 +467,8 @@
   font-family: var(--font-body); font-size: 10px; font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px;
 }
-.rx .share-two { display: flex; gap: 10px; margin-bottom: 14px; }
-.rx .share-two .btn { flex: 1; }
+/* The panel's native-share + copy buttons are now a <ShareRow> (OPS-359),
+   which brings its own styles; .share-two went with them. */
 .rx .share-form label.opt { display: flex; align-items: flex-start; gap: 9px; font-size: 13px; line-height: 1.45; color: var(--ink-2); margin: 12px 0; cursor: pointer; }
 .rx .share-form input[type=email],
 .rx .cart-email input[type=email] {

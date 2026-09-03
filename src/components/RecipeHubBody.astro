@@ -15,6 +15,7 @@
 import { PUBLISHED } from '../data/recipes.js';
 import { CAT_HUB, warnRecipeAssetGaps } from '../data/recipes-lib.js';
 import DIMS from '../data/image-dims.json';
+import ShareRow from './ShareRow.astro';
 import '../styles/recipes.css';
 import Picture from './Picture.astro';
 
@@ -141,6 +142,9 @@ function recipeWord(n) {
   const a = n % 10, b = n % 100;
   return n === 0 ? 'рецептів' : (a === 1 && b !== 11) ? 'рецепт' : (a >= 2 && a <= 4 && (b < 12 || b > 14)) ? 'рецепти' : 'рецептів';
 }
+
+// Share the hub itself (OPS-359) — the whole collection, not one recipe.
+const sharePath = lang === 'ua' ? '/ua/recipes/' : '/recipes/';
 
 const T = {
   eyebrow: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI Recipes',
@@ -293,6 +297,8 @@ const T = {
       <p>{T.ukP1}</p>
       <p>{T.ukP2}</p>
     </section>
+
+    <ShareRow lang={lang} path={sharePath} title={T.h1} kind="page" />
 
     <p class="foot-note">{T.foot}</p>
   </div>

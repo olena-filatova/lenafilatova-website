@@ -22,6 +22,7 @@ import Picture from './Picture.astro';
 import DIMS from '../data/image-dims.json';
 import { warnUntagged } from '../data/tags-lib.js';
 import TagCloud from './TagCloud.astro';
+import ShareRow from './ShareRow.astro';
 import '../styles/blog.css';
 
 const { lang = 'en' } = Astro.props;
@@ -53,6 +54,10 @@ const MINI_SIZES = '96px';
 // Intrinsic dimensions where we have them (see BlogPostBody) — a missing entry
 // just omits the attributes; the aspect-ratio on the well already holds the box.
 const dim = (src) => DIMS[src] || {};
+// Share the hub itself (OPS-359) — Lena asked for the whole page as well as
+// the individual pieces. The title shared is the hub's own H1, so a link
+// passed to a friend arrives describing what it is rather than "Blog".
+const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
 ---
 <section class="blog-hero">
   <div class="wrap">
@@ -163,6 +168,7 @@ const dim = (src) => DIMS[src] || {};
       ))}
     </div>
     <p class="blog-empty" id="blogEmpty">{t.empty}</p>
+    <ShareRow lang={lang} path={sharePath} title={t.hubH1} kind="page" />
   </div>
 </section>
 

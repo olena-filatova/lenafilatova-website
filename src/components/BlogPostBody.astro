@@ -9,6 +9,7 @@ import Picture from './Picture.astro';
 import VARIANTS from '../data/image-variants.json';
 import DIMS from '../data/image-dims.json';
 import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
+import ShareRow from './ShareRow.astro';
 import '../styles/blog.css';
 
 const { post, lang = 'en' } = Astro.props;
@@ -55,6 +56,12 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
 // is keyed by block index, so the h2 below and the link above carry the same
 // anchor. Short posts get ids but no list — see TOC_MIN in blog-lib.
 const toc = articleToc(a, t);
+// Share row (OPS-359). The path is the article's own canonical spelling, and
+// the image is only passed when a hero has actually been supplied — see
+// share-lib.js, where a missing image simply drops the Pinterest button
+// rather than offering a pin of nothing.
+const sharePath = `${lang === 'ua' ? '/ua' : ''}/blog/${post.slug}/`;
+const shareImage = hasHero(post, DIMS) ? post.image : undefined;
 ---
 <article class="post">
   {/* Article header: kicker, serif headline, then a hairline rule with the
@@ -224,6 +231,10 @@ const toc = articleToc(a, t);
     <a href={`${L}contact/`}>{t.ctaBtn}</a>
   </aside>
   <p class="disclaimer">{t.disclaimer}</p>
+  {/* Closing the article, after the ask and the small print: the reader
+      has finished, and this is the point at which passing it on is a
+      natural next move rather than an interruption of the argument. */}
+  <ShareRow lang={lang} path={sharePath} title={a.title} kind="post" image={shareImage} />
 </article>
 {related.length > 0 && (
   <aside class="related" aria-label={t.relatedTitle}>
