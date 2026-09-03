@@ -17,6 +17,7 @@ import { HOME, RESOURCES } from '../data/site.js';
 import { POSTS } from '../data/blog.js';
 import { hasHero } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
+import Picture from './Picture.astro';
 import Newsletter from './Newsletter.astro';
 
 const { lang = 'en' } = Astro.props;
@@ -24,6 +25,10 @@ const t = HOME[lang];
 const B = import.meta.env.BASE_URL;
 const L = lang === 'ua' ? `${B}ua/` : B;
 const img = (src) => B.replace(/\/$/, '') + src;
+// Drawn widths for the editorial band, so each picture takes the rung it
+// needs off the AVIF ladder rather than the largest one every time.
+const PORTRAIT_SIZES = '(min-width: 1000px) 360px, calc(100vw - 48px)';
+const BAND_SIZES = '(min-width: 1000px) 330px, calc(100vw - 48px)';
 const blogHref = `${L}blog/`;
 const recipesAllHref = `${L}recipes/`;
 const resourcesHref = `${L}resources/`;
@@ -71,8 +76,9 @@ const toolHref = (card) => {
         <div class="ed-shot">
         <span class="ed-blk"></span>
         <div class="ed-frame">
-          <img
-            src={img('/images/lena-filatova-womens-health-coach-over-40.jpg')}
+          <Picture
+            src="/images/lena-filatova-womens-health-coach-over-40.jpg"
+            sizes={PORTRAIT_SIZES}
             alt={lang === 'ua'
               ? 'Lena Filatova — коуч з жіночого здоров’я та харчування для жінок 40+'
               : "Lena Filatova, women's health and nutrition coach for women over 40"}
@@ -134,7 +140,7 @@ const toolHref = (card) => {
         <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
       </div>
       <a class="ed-feat" href={`${L}blog/${latestPost.slug}/`}>
-        <div class="ph">{hasHero(latestPost, DIMS) && <img src={img(latestPost.image)} alt={latestPostT.title} loading="lazy" />}</div>
+        <div class="ph">{hasHero(latestPost, DIMS) && <Picture src={latestPost.image} alt={latestPostT.title} sizes={BAND_SIZES} loading="lazy" />}</div>
         <div class="body">
           <span class="cat">{latestPostT.cat}</span>
           <h3>{latestPostT.title}</h3>
@@ -157,7 +163,7 @@ const toolHref = (card) => {
       <a class="ed-rec" href={`${L}recipes/${featuredRecipe.slug}/`}>
         <div class="ph">
           <span class="gi"><b>{featuredRecipe.gi}</b><span>GI</span></span>
-          <img src={img(featuredRecipe.img)} alt={featuredRecipe.title[lang]} loading="lazy" />
+          <Picture src={featuredRecipe.img} alt={featuredRecipe.title[lang]} sizes={BAND_SIZES} loading="lazy" />
         </div>
         <div class="body">
           <span class="ed-label dim">{featuredRecipe.cat[lang]} · {featuredRecipe.carbs}{lang === 'ua' ? ' ' : 'g '}{t.carbs}</span>

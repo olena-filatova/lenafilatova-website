@@ -11,7 +11,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "check-links": "node scripts/check-links.mjs",
-    "check-links:external": "node scripts/check-links.mjs --external"
+    "check-links:external": "node scripts/check-links.mjs --external",
+    "images": "node scripts/build-images.mjs",
+    "images:force": "node scripts/build-images.mjs --force"
   },
   "dependencies": {
     "astro": "^5.13.0"
