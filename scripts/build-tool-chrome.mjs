@@ -39,7 +39,11 @@ import { dirname, join } from 'node:path';
 import {
   NAV, FOOTER, HOME, SOCIALS, SOCIAL_ICONS, LEGAL_SLUGS, MAILCHIMP,
 } from '../src/data/site.js';
-import { SEARCH_UI } from '../src/data/search-lib.js';
+// search-ui.js, NOT search-lib.js: this script runs on plain node, and
+// search-lib imports blog.js, whose `import.meta.glob` is a Vite-only
+// transform. That import is what silently killed this script when posts
+// moved to one file each (OPS-414).
+import { SEARCH_UI } from '../src/data/search-ui.js';
 import { HONEYPOT, MIN_DWELL_MS } from '../src/scripts/form-guard.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');

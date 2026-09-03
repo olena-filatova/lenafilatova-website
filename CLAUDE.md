@@ -92,9 +92,21 @@ Two things to know:
   seq = <n>` in the post file (absent means 0). Without it, same-date posts come
   back in filesystem order and the hub reshuffles on an unrelated commit. Only write
   it where a date actually repeats.
-- **`scripts/check-links.mjs` cannot import `blog.js`** — it runs on plain node and
-  `import.meta.glob` is a Vite transform. It reads `src/data/posts/` off disk
-  instead. Any *other* plain-node script that needs posts must do the same.
+- **No plain-node script may import `blog.js`, or anything that imports it** —
+  they run outside Vite and `import.meta.glob` is a Vite transform, so the
+  import throws `(intermediate value).glob is not a function` at startup.
+  `scripts/check-links.mjs` reads `src/data/posts/` off disk instead; any other
+  plain-node script that needs posts must do the same.
+
+  The trap is the *indirect* import. `scripts/build-tool-chrome.mjs` wanted
+  nothing but `SEARCH_UI`, imported it from `search-lib.js`, and `search-lib`
+  imports `blog.js` — so the whole tool-chrome build died the day posts moved to
+  one file each, and stayed dead unnoticed because nothing in CI ran it
+  (OPS-414). The strings now live in `src/data/search-ui.js`, a leaf module that
+  imports nothing, and `npm run tool-chrome:check` runs in the link-check
+  workflow. **Before adding an import to a `scripts/*.mjs` file, follow its
+  chain to the end** — and if you are splitting a data module, keep the half
+  that plain node needs free of imports.
 
 **`src/data/recipes.js` still has the old problem**: it is one newest-first array, so
 every new recipe inserts at the same anchor and two open recipe PRs always conflict.
