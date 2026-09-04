@@ -42,9 +42,16 @@
 //   tag          — Mailchimp tag applied to signups from this page (OPS-264), so
 //                  one audience can hold several lists' worth of intent. Omitted
 //                  everywhere else, which leaves the ordinary form byte-identical.
+//   askName      — render a first-name field (FNAME) above the email row
+//                  (OPS-415). Off everywhere else, so the ordinary form is
+//                  unchanged. Deliberately NOT required: Mailchimp does not
+//                  require FNAME either, and a second mandatory field on a
+//                  lead-magnet form costs signups. The name is what lets the
+//                  delivery email open with one. `copy.nlName` is its
+//                  placeholder — a page that asks for a name must supply it.
 import { HOME, MAILCHIMP } from '../data/site.js';
 import { HONEYPOT, MIN_DWELL_MS } from '../scripts/form-guard.js';
-const { lang = 'en', id = 'newsletter', sectionClass = '', copy = {}, tag = null } = Astro.props;
+const { lang = 'en', id = 'newsletter', sectionClass = '', copy = {}, tag = null, askName = false } = Astro.props;
 const t = { ...HOME[lang], ...copy };
 
 // Hidden group field, e.g. name="group[34186][1]" on EN pages, [2] on /ua/.
@@ -76,6 +83,17 @@ const B = import.meta.env.BASE_URL;
 
       <!-- Which list this signup belongs to (see MAILCHIMP.tags). -->
       {tag && <input type="hidden" name="tags" value={tag} />}
+
+      {/* FNAME goes on its own row rather than into the email row: three items
+          in that flex line squeeze the button below its 44px target on a
+          phone, and the row already stacks at 720px anyway. The handler
+          serialises the whole form (public/lf-newsletter.js), so nothing there
+          needs to know this field exists. */}
+      {askName && (
+        <div class="nl-row nl-row-name">
+          <input type="text" name="FNAME" placeholder={t.nlName} autocomplete="given-name" />
+        </div>
+      )}
 
       <div class="nl-row">
         <input type="email" name="EMAIL" placeholder={t.nlEmail} required autocomplete="email" />
@@ -112,6 +130,7 @@ const B = import.meta.env.BASE_URL;
 <script is:inline defer src={`${B}lf-newsletter.js`}></script>
 
 <style>
+  .nl-row-name { margin-bottom: 10px; }
   .nl-msg {
     margin: 14px auto 0;
     max-width: 46ch;

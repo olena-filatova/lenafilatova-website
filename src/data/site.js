@@ -167,7 +167,14 @@ export const MAILCHIMP = {
   // `dia-school-waitlist` tag, and copy the numeric value it writes into
   // `name="tags"` here. This is the only Mailchimp-side step the site can't do
   // for itself.
-  tags: { diaSchoolWaitlist: 'dia-school-waitlist' },
+  tags: {
+    diaSchoolWaitlist: 'dia-school-waitlist',
+    // OPS-415 — /ua/meal-plan/. Same caveat as above: if Mailchimp wants the
+    // numeric id here the contact still arrives, just untagged, and the tag is
+    // what the delivery automation keys off — so this one is worth checking
+    // after the first live signup.
+    mealPlan: 'meal-plan-4-weeks',
+  },
 };
 
 // Homepage. Featured recipe + blog cards are slug-based (both sections live in
@@ -1025,6 +1032,189 @@ export const LEGAL = {
 // EN is not a translation. The programme is taught in Ukrainian, so the English
 // page says exactly that and points at the UA page — promising an English intake
 // that does not exist would be the one thing worse than no page at all.
+// Meal-plan guide landing page (OPS-415) — /ua/meal-plan/, UKRAINIAN ONLY.
+//
+// Unlike Dia.School there is no English counterpart at all: Lena asked for
+// Ukrainian only for now. So this page declares no hreflang alternates, is not
+// paired in the sitemap, and the header's EN toggle is pointed at the English
+// recipes hub by hand — without that it would offer /meal-plan/, which does not
+// exist. If an English edition is ever written, restore the Dia.School shape
+// (an EN explainer at /meal-plan/) rather than translating this page: an
+// English signup for a Ukrainian-only PDF would be a promise we cannot keep.
+//
+// GATED, and that is the point of the ticket: the PDF is never linked from the
+// page. Mailchimp delivers it after the visitor confirms their address, so the
+// file at /guides/4-week-meal-plan-ua.pdf is reachable only from that email
+// (and robots.txt asks crawlers to leave it alone, so it cannot turn up in
+// search as a way around the form).
+//
+// The figures below are the guide's own: 4 categories x 50 dishes = 200, a
+// 28-day plan, 24 dinner recipes, 24 pages. If the PDF is ever re-cut, these
+// are the numbers to re-check.
+export const MEAL_PLAN = {
+  // Language-agnostic assets and figures, kept out of the copy block.
+  stats: { meals: 200, perCategory: 50, days: 28, recipes: 24, pages: 24 },
+  cover: '/images/4-week-meal-plan-guide-cover.jpg',
+  shots: [
+    { src: '/images/4-week-meal-plan-guide-week-one.jpg', w: 1200, h: 675 },
+    { src: '/images/4-week-meal-plan-guide-meal-bank.jpg', w: 1200, h: 865 },
+  ],
+  ua: {
+    seoTitle: 'Гнучка система харчування на 4 тижні — безкоштовно',
+    seoDesc: 'Система харчування, яку справді можна готувати: страви перегукуються, вечеря стає обідом, зайві продукти не псуються. 200 страв і план на 28 днів. Безкоштовно.',
+    ogImage: '/images/cards/meal-plan-ua.jpg',
+    ogImageAlt: 'Гнучка система харчування на 4 тижні — 200 страв і готовий план на 28 днів.',
+    kicker: 'Безкоштовна система харчування',
+    h1: 'Гнучка система харчування на 4 тижні',
+
+    // THE PROMISE, not the product. The old lead opened with mechanics ("cook
+    // once a day instead of twice") — true, but that is how it works, not what
+    // it gives you. What it gives you is time and headspace back.
+    lead: 'Харчуватися стабільно й збалансовано — навіть коли часу обмаль, а стресу вистачає. Ця система знімає щоденне «що сьогодні приготувати» і повертає вам час і сили на важливіші справи.',
+    cta: 'Отримати систему',
+    coverAlt: 'Обкладинка гайду «Гнучка система харчування на 4 тижні».',
+
+    // The problem section — the strongest thing this page has to say, and it
+    // was missing entirely. Anyone who has tried a meal plan recognises the
+    // half-bunch of celery; naming it is what earns the right to the solution.
+    problemTitle: 'Чому більшість меню не витримує справжнього тижня',
+    problemLead: 'Меню виглядає чудово, поки не починаєш його готувати.',
+    problem: 'Кожен день потребує інших продуктів. Пів пучка селери, залишок вершків, пачка сочевиці заради однієї страви — усе це купується, використовується один раз і тихо псується в холодильнику. Готування щовечора з нуля, гроші на вітер, і вже на третій-четвертий день ви повертаєтеся до того, що було.',
+    solutionTitle: 'Тому це не меню, а система',
+    solution: [
+      {
+        h: 'Страви навмисно перегукуються',
+        p: 'У плані повторюються схожі й однакові страви, тож продукти використовуються повторно, а не лежать заради одного разу. Список покупок стає коротшим, а не довшим.',
+      },
+      {
+        h: 'Вечеря сьогодні — обід завтра',
+        p: 'Готуйте одразу подвійну порцію: одну на вечерю, другу в холодильник. Так виходить одне готування на день замість двох, і завтра в обід робити нічого не треба.',
+      },
+      {
+        h: 'Великі порції наперед',
+        p: 'Страви, позначені ✓, добре заморожуються — їх можна приготувати потрійною порцією і залишити про запас. У важкий тиждень вечеря вже готова.',
+      },
+    ],
+
+    // Variety is the obvious objection to a plan built on repetition, so it is
+    // answered right after the repetition is explained — not left to the FAQ.
+    varietyTitle: 'А якщо хочеться більше різноманіття',
+    variety: 'Тоді до ваших послуг банк із 200 страв — по 50 на кожен прийом їжі, з рецептами. Будь-яку страву з плану можна замінити іншою з тієї ж категорії, і план від цього не ламається. Більшість страв у готові 28 днів узагалі не увійшли — вони лишаються про запас.',
+
+    whatTitle: 'Що ви отримаєте',
+    what: [
+      {
+        h: 'Готовий план на 28 днів',
+        p: 'Сніданок, обід і вечеря на кожен день чотирьох тижнів. Відкрили — і готуєте, нічого не вигадуючи.',
+      },
+      {
+        h: 'Банк із 200 страв',
+        p: 'По 50 сніданків, обідів, вечер і перекусів — щоб було чим замінити те, що не смакує або чого немає під рукою.',
+      },
+      {
+        h: '24 рецепти до вечер',
+        p: 'Інгредієнти й покрокове приготування для всіх вечер із плану. Прості страви на кшталт омлету рецепта не потребують.',
+      },
+      {
+        h: 'Список покупок, який має сенс',
+        p: 'Продукти повторюються з дня в день, тож ви купуєте менше найменувань і використовуєте кожне до кінця.',
+      },
+      {
+        h: 'Позначки «добре заморожуються»',
+        p: 'Одразу видно, що можна приготувати великою порцією і залишити в морозильній камері на важкий день.',
+      },
+      {
+        h: 'Практичні поради',
+        p: 'Порядок їжі на тарілці, розмір порції вуглеводів і рух після їжі — коротко, з позначками доказовості.',
+      },
+    ],
+
+    shotsTitle: 'Як це виглядає всередині',
+    shotAlts: [
+      'Сторінка готового плану: тиждень 1, сніданок, обід і вечеря на кожен день.',
+      'Сторінка банку страв: пронумеровані сніданки з позначкою «добре заморожуються».',
+    ],
+
+    // Lena's framing, in her order: busy women first, the three conditions as
+    // "especially", and the door left open to everyone else.
+    whoTitle: 'Для кого ця система',
+    whoLead: 'Передусім — для зайнятих жінок. Особливо для тих, хто живе з інсулінорезистентністю, діабетом або в перименопаузі. Але користуватися нею може будь-хто, кому хочеться нарешті почати харчуватися збалансовано.',
+    who: [
+      {
+        h: 'Інсулінорезистентність',
+        p: 'Кожна страва поєднує білок, клітковину й корисні жири з повільними вуглеводами — це сповільнює підйом глюкози й знижує навантаження на інсулін.',
+      },
+      {
+        h: 'Діабет 1 типу',
+        p: 'Порції вуглеводів у межах кожної категорії підібрані приблизно порівнюваними — простіше орієнтуватися в дозуванні інсуліну.',
+      },
+      {
+        h: 'Перименопауза',
+        p: 'У раціоні регулярно є продукти з фітоестрогенами (льон, нут, соя), кальцієм і магнієм (листова зелень, горіхи, риба).',
+      },
+    ],
+
+    // "Who are you to be telling me this?" — the question a gated page has to
+    // answer before it asks for an address, and the old page never did. Lena's
+    // own words, lightly tidied. The credential line is the About page's
+    // verbatim, so the two cannot drift apart.
+    authorTitle: 'Про авторку',
+    authorName: 'Лена Філатова',
+    authorRole: 'Засновниця Школи діабету. Живу з діабетом 1 типу з 2003 року, підтримала понад 1200 жінок і родин.',
+    authorPhoto: '/images/lena-filatova-womens-health-coach-over-40.jpg',
+    authorPhotoAlt: 'Лена Філатова, авторка системи харчування.',
+    authorLead: 'Чому я пропоную саме цю систему — і чому вона спрацює навіть тоді, коли ви вже пробували багато разів і нічого не виходило.',
+    // Four paragraphs that hand off to each other rather than four separate
+    // claims: what I do → what I saw → so this is built like this → so it is
+    // not your fault. The last line is the promise Lena made in her brief,
+    // and it only earns belief once the three before it have been read.
+    author: [
+      'Моя робота — супровід жінок і родин, які переходять від хаотичного харчування до збалансованого. За ці роки я побачила головне: людям рідко бракує знань про те, що корисно. Ламаються саме звички — бо змінювати їх неймовірно важко.',
+      'Я створила сотні меню для своїх клієнток і бачила, що було з ними далі: які прижилися, а які тихо закінчилися на другому тижні. Найчастіша причина — не брак мотивації, а те, що меню просто незручно готувати або в ньому є страви, які людині не смакують.',
+      'Тому ця система побудована навколо двох речей. Перша — вибір: 200 страв замість 28, щоб будь-яку страву, яка вам не смакує, можна було замінити, а план від цього не розсипався. Друга — компроміс: змінити харчування на ідеальне за один день нереалістично, тож краще зробити крок, який ви справді втримаєте, ніж ідеальний, який покинете за тиждень.',
+      'Тому якщо раніше не виходило — найімовірніше, справа була не у вас, а в плані, який неможливо було витримати.',
+    ],
+    // Boundaries stated by Lena herself, and stronger for coming from her. The
+    // two halves are joined rather than listed: "not medical" is only half a
+    // statement until it says what the system IS for.
+    authorNote: 'Ця система не медична. Якщо у вас є рекомендації від лікаря чи дієтолога — тримайтеся їх: моя система їх не замінює, а допомагає нарешті втілити в життя, щоб вони не лишилися на папері.',
+    authorLink: 'Більше про мене',
+
+    // Form band. Overrides the workbook wording the shared newsletter band uses
+    // everywhere else — everything promised here is something we can keep.
+    nlTitle: 'Надішлю систему на пошту',
+    // The page count lives here rather than in an nlTitleKicker: Newsletter.astro
+    // renders nlTitle and nlSub and nothing else, so a kicker would never be seen.
+    nlSub: 'Безкоштовно, 24 сторінки. Залиште ім\u2019я та пошту — надішлю систему листом одразу після того, як ви підтвердите адресу. Плюс час від часу науково обґрунтовані нотатки про харчування, цукор і перименопаузу. Відписатися можна будь-коли.',
+    nlName: 'Ваше ім\u2019я',
+    nlBtn: 'Отримати систему',
+    nlSent: 'Майже готово — перевірте пошту та підтвердьте підписку. Одразу після цього надішлю систему.',
+    nlDupe: 'Ви вже підписані — перевірте пошту, лист уже в дорозі.',
+
+    faqTitle: 'Коротко',
+    faq: [
+      {
+        q: 'Скільки це коштує?',
+        a: 'Нічого. Система безкоштовна — я прошу лише пошту, щоб було куди її надіслати.',
+      },
+      {
+        q: 'Чи розрахована калорійність?',
+        a: 'Ні. Ця система не персоналізована, і її головна ціль інша — спростити зусилля на готування та привчитися харчуватися регулярно й збалансовано. Калорійність ви можете обрати самостійно під час приготування.',
+      },
+      {
+        q: 'А якщо я не люблю якусь страву?',
+        a: 'Замініть її будь-якою іншою з тієї ж категорії — саме для цього в банку 200 страв, а не 28. Більшість страв у готовий план узагалі не увійшли.',
+      },
+      {
+        q: 'Це підходить при діабеті 1 типу?',
+        a: 'Так — вуглеводні порції в межах категорії підібрані порівнюваними, щоб простіше було орієнтуватися в дозуванні. Але це освітній матеріал, а не призначення: дози інсуліну лишаються питанням до вашого лікаря.',
+      },
+    ],
+
+    note: 'Освітній матеріал, не медична порада. За наявності сумнівів, будь ласка, зверніться до свого лікаря. Цей матеріал створено за допомогою штучного інтелекту, який може помилятися.',
+  },
+};
+
 export const DIA_SCHOOL = {
   en: {
     seoTitle: 'Dia.School — type 1 diabetes programme',

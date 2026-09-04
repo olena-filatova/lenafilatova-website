@@ -1,0 +1,277 @@
+---
+// Meal-plan guide landing page (OPS-415) — UKRAINIAN ONLY.
+//
+// It sells the outcome (cook once a day, stop deciding every evening), shows
+// the cover and two pages from inside, and gates the PDF behind the signup
+// form. There is no English counterpart — Lena asked for Ukrainian only for
+// now — so unlike DiaSchoolBody this component takes no `lang` and branches
+// nowhere. See MEAL_PLAN in site.js for what an English edition would mean.
+//
+// The PDF is never linked from this page. That is the whole point of the
+// ticket: Mailchimp sends it once the address is confirmed.
+//
+// The masthead device (.est + .res-head) is the resources hub's, not a new one.
+import { MEAL_PLAN, MAILCHIMP } from '../data/site.js';
+import Newsletter from './Newsletter.astro';
+import Picture from './Picture.astro';
+const t = MEAL_PLAN.ua;
+const { stats, cover, shots } = MEAL_PLAN;
+
+// The cover is drawn at ~320px in the hero and capped there on a phone; the
+// screenshots break out to the reading column's full width. Both get a `sizes`
+// so <Picture> can hand back a 480 rung instead of the 1200 (OPS-305).
+const COVER_SIZES = '(min-width: 860px) 320px, min(74vw, 320px)';
+const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
+const AUTHOR_SIZES = '(min-width: 720px) 240px, min(60vw, 240px)';
+const B = import.meta.env.BASE_URL;
+---
+<section class="res-head mp-head">
+  <div class="wrap">
+    <p class="est"><span class="est-label">{t.kicker}</span><span class="est-rule"></span></p>
+    <div class="mp-hero">
+      {/* Deliberately NOT .head: that class is a two-column grid (headline
+          beside standfirst), and inside the hero's left column it squeezed the
+          lede to ~260px and dropped the stats and the button into grid cells of
+          their own. Here the copy stacks and the cover takes the second
+          column. .res-head still sets the h1 and .lede type. */}
+      <div class="mp-hero-copy">
+        <h1>{t.h1}</h1>
+        <p class="lede">{t.lead}</p>
+
+        {/* Numbers first: they are the fastest honest answer to "what is this,
+            and is it worth an email address?" */}
+        <ul class="mp-stats">
+          <li><b>{stats.meals}</b><span>страв у банку</span></li>
+          <li><b>{stats.days}</b><span>днів готового плану</span></li>
+          <li><b>{stats.recipes}</b><span>рецепти до вечер</span></li>
+        </ul>
+        <p class="mp-jump"><a class="btn" href="#newsletter">{t.cta}</a></p>
+      </div>
+
+      <div class="mp-cover">
+        <Picture src={cover} sizes={COVER_SIZES} alt={t.coverAlt} width="900" height="1272" loading="eager" decoding="async" />
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Problem before solution. The page used to open straight into "here is what
+    you get", which argues for the product before the reader has agreed there is
+    anything to fix. The half-bunch of celery is the thing everyone recognises. */}
+<section class="section mp-problem">
+  <div class="wrap">
+    <h2>{t.problemTitle}</h2>
+    <p class="mp-problem-lead">{t.problemLead}</p>
+    <p class="mp-problem-body">{t.problem}</p>
+
+    <h3 class="mp-sol-head">{t.solutionTitle}</h3>
+    <ol class="mp-grid mp-grid-3">
+      {t.solution.map((item, i) => (
+        <li>
+          <span class="mp-n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <h4>{item.h}</h4>
+          <p>{item.p}</p>
+        </li>
+      ))}
+    </ol>
+
+    {/* Variety is the obvious objection to a plan built on repetition, so it is
+        answered here rather than left to sit in the FAQ. */}
+    <div class="mp-variety">
+      <h3>{t.varietyTitle}</h3>
+      <p>{t.variety}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section mp-what">
+  <div class="wrap">
+    <h2>{t.whatTitle}</h2>
+    <ol class="mp-grid">
+      {t.what.map((item, i) => (
+        <li>
+          <span class="mp-n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <h3>{item.h}</h3>
+          <p>{item.p}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<section class="section mp-shots">
+  <div class="wrap">
+    <h2>{t.shotsTitle}</h2>
+    {shots.map((shot, i) => (
+      <figure class="mp-shot">
+        <Picture src={shot.src} sizes={SHOT_SIZES} alt={t.shotAlts[i]} width={shot.w} height={shot.h} loading="lazy" decoding="async" />
+      </figure>
+    ))}
+  </div>
+</section>
+
+<section class="section mp-who">
+  <div class="wrap">
+    <h2>{t.whoTitle}</h2>
+    <p class="section-sub mp-who-lead">{t.whoLead}</p>
+    <ul class="mp-who-list">
+      {t.who.map((item) => (
+        <li><h3>{item.h}</h3><p>{item.p}</p></li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+{/* Credibility immediately before the ask. A gated page has to answer "who
+    are you to be telling me this?" before it asks for an address, and this one
+    never did. Portrait beside the copy, same two-column device as the hero. */}
+<section class="section mp-author">
+  <div class="wrap">
+    <h2>{t.authorTitle}</h2>
+    <div class="mp-author-row">
+      <div class="mp-author-photo">
+        <Picture src={t.authorPhoto} sizes={AUTHOR_SIZES} alt={t.authorPhotoAlt} width="675" height="1200" loading="lazy" decoding="async" />
+      </div>
+      <div class="mp-author-copy">
+        <p class="mp-author-name">{t.authorName}</p>
+        <p class="mp-author-role">{t.authorRole}</p>
+        <p class="mp-author-lead">{t.authorLead}</p>
+        {t.author.map((para) => <p class="mp-author-p">{para}</p>)}
+        <p class="mp-author-note">{t.authorNote}</p>
+        <p class="mp-author-more"><a href={`${B}ua/about/`}>{t.authorLink} <span class="ar" aria-hidden="true">&#8594;</span></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Newsletter
+  lang="ua"
+  tag={MAILCHIMP.tags.mealPlan}
+  askName
+  copy={{
+    nlTitle: t.nlTitle,
+    nlSub: t.nlSub,
+    nlName: t.nlName,
+    nlBtn: t.nlBtn,
+    nlSent: t.nlSent,
+    nlDupe: t.nlDupe,
+  }}
+/>
+
+<section class="section mp-faq">
+  <div class="wrap">
+    <h2>{t.faqTitle}</h2>
+    <dl class="mp-faq-list">
+      {t.faq.map((item) => (
+        <div class="mp-faq-item">
+          <dt>{item.q}</dt>
+          <dd>{item.a}</dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</section>
+
+<section class="section mp-note-band">
+  <div class="wrap"><p class="mp-note">{t.note}</p></div>
+</section>
+
+<style>
+  .mp-head { padding-bottom: 8px; }
+
+  /* Hero: copy beside the cover. The cover is a portrait A4 page, so it is
+     given a fixed column rather than a share of the row — at 1fr it grew
+     taller than the copy beside it and pushed the fold down. */
+  .mp-hero { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 48px; align-items: start; }
+  .mp-hero-copy { margin: 0; }
+  .mp-hero-copy h1 { margin: 0; }
+  .mp-hero-copy .lede { margin: 16px 0 0; max-width: 46ch; }
+  .mp-cover img { display: block; width: 100%; height: auto; box-shadow: 0 18px 40px rgba(42, 20, 36, 0.18); }
+
+  /* The three figures. Serif numerals to match the guide's own cover, and a
+     hairline between them rather than boxes — the page already has enough
+     furniture below. */
+  .mp-stats { display: flex; flex-wrap: wrap; gap: 0; margin: 30px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--rule); max-width: 52ch; }
+  .mp-stats li { flex: 1 1 30%; padding: 16px 18px 16px 0; border-bottom: 1px solid var(--line); }
+  .mp-stats b { display: block; font-family: var(--font-head); font-size: 34px; font-weight: 600; line-height: 1; color: var(--accent-deep); }
+  .mp-stats span { display: block; margin-top: 6px; font-size: var(--fs-fine); color: var(--muted); }
+
+  .mp-jump { margin: 26px 0 0; }
+
+  /* Problem section. The lede sentence is set larger than the paragraph under
+     it — it is the line the reader should recognise themselves in. */
+  .mp-problem-lead { margin: 22px 0 0; max-width: 46ch; font-family: var(--font-head); font-size: var(--fs-quote); line-height: 1.3; color: var(--ink); }
+  .mp-problem-body { margin: 16px 0 0; max-width: 62ch; font-size: var(--fs-small); line-height: 1.65; color: var(--body); }
+  .mp-sol-head { margin: 40px 0 0; font-size: var(--fs-card-title); line-height: 1.25; color: var(--ink); }
+  .mp-grid-3 h4 { margin: 10px 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+
+  /* The variety answer sits in the paper recess so it reads as a reply to the
+     objection the section just raised, not as another feature. */
+  .mp-variety { margin: 38px 0 0; padding: 24px 26px; background: var(--paper2); max-width: 72ch; }
+  .mp-variety h3 { margin: 0 0 8px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+  .mp-variety p { margin: 0; font-size: var(--fs-small); line-height: 1.6; color: var(--body); }
+
+  .mp-who-lead { margin: 18px 0 0; max-width: 62ch; }
+
+  /* "What you get" — the homepage/resources numbered index, in a grid. */
+  .mp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 40px; margin: 30px 0 0; padding: 0; list-style: none; }
+  .mp-grid li { border-top: 1px solid var(--rule); padding-top: 16px; }
+  .mp-n { display: block; font-family: var(--font-head); font-size: var(--fs-fine); letter-spacing: .1em; color: var(--accent); }
+  .mp-grid h3 { margin: 10px 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+  .mp-grid p { margin: 0; font-size: var(--fs-small); line-height: 1.55; color: var(--body); }
+
+  /* Pages from inside the guide. The well is the site's --paper2 recess, so a
+     white PDF page does not float on the warm paper with a hard edge. */
+  .mp-shot { margin: 26px 0 0; padding: 18px; background: var(--paper2); }
+  .mp-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
+
+  .mp-who-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 40px; margin: 30px 0 0; padding: 0; list-style: none; }
+  .mp-who-list li { border-top: 1px solid var(--rule); padding-top: 16px; }
+  .mp-who-list h3 { margin: 0 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+  .mp-who-list p { margin: 0; font-size: var(--fs-small); line-height: 1.55; color: var(--body); }
+
+  /* Author. The portrait is a fixed column — it is a 9:16 photograph, and at a
+     fractional width it outgrew the copy beside it. */
+  .mp-author-row { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 40px; margin: 26px 0 0; align-items: start; }
+  .mp-author-photo img { display: block; width: 100%; height: auto; }
+  .mp-author-copy { max-width: 62ch; }
+  .mp-author-name { margin: 0; font-family: var(--font-head); font-size: var(--fs-card-title); line-height: 1.2; color: var(--ink); }
+  .mp-author-role { margin: 6px 0 0; font-size: var(--fs-fine); line-height: 1.55; color: var(--muted); }
+  .mp-author-lead { margin: 20px 0 0; font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1.4; color: var(--ink); }
+  .mp-author-p { margin: 14px 0 0; font-size: var(--fs-small); line-height: 1.65; color: var(--body); }
+  /* The clinical boundary is set apart rather than run in with the story: it is
+     a different kind of statement, and it should be findable. */
+  .mp-author-note { margin: 20px 0 0; padding-left: 16px; border-left: 2px solid var(--accent); font-size: var(--fs-fine); line-height: 1.6; color: var(--muted); }
+  .mp-author-more { margin: 20px 0 0; font-size: var(--fs-small); }
+  .mp-author-more a { font-weight: 700; color: var(--ink); }
+  .mp-author-more a:hover { color: var(--accent); }
+  .mp-author-more .ar { color: var(--accent); }
+
+  .mp-faq-list { margin: 26px 0 0; max-width: 62ch; border-top: 1px solid var(--rule); }
+  .mp-faq-item { border-bottom: 1px solid var(--line); padding: 18px 0; }
+  .mp-faq-list dt { font-family: var(--font-head); font-size: var(--fs-title); color: var(--ink); }
+  .mp-faq-list dd { margin: 8px 0 0; font-size: var(--fs-small); line-height: 1.6; color: var(--body); }
+
+  .mp-note-band { padding-top: 0; }
+  .mp-note { max-width: 62ch; margin: 0; font-size: var(--fs-fine); line-height: 1.6; color: var(--muted); }
+
+  @media (max-width: 860px) {
+    .mp-hero { grid-template-columns: 1fr; gap: 30px; }
+    /* Cover under the copy on a phone, and no longer full-bleed: an A4 page at
+       100vw is a screenful of nothing but cover before the first section. */
+    .mp-cover { max-width: 320px; }
+    .mp-grid, .mp-who-list { grid-template-columns: repeat(2, 1fr); }
+    .mp-variety { padding: 20px; }
+  }
+  @media (max-width: 720px) {
+    /* Portrait above the copy, capped — a 9:16 photo at full width is most of
+       a phone screen before a word of the story. */
+    .mp-author-row { grid-template-columns: 1fr; gap: 24px; }
+    .mp-author-photo { max-width: 200px; }
+  }
+  @media (max-width: 560px) {
+    .mp-grid, .mp-who-list { grid-template-columns: 1fr; }
+    .mp-stats li { flex-basis: 100%; }
+    .mp-shot { padding: 12px; }
+  }
+</style>
