@@ -118,22 +118,16 @@ export const CARDS = [
     title: 'Чому був підйом? Чому було гіпо?',
     sub: 'Кілька запитань · імовірна причина та підсумок для вашої команди',
   },
-  // OPS-415 — the meal-plan guide's landing pages. Not a tool page: these two
-  // live in the Astro bundle (/meal-plan/ and /ua/meal-plan/) and name the card
-  // through BaseLayout's ogImage rather than a hand-written <head>. They are
-  // rendered here anyway so the site has one card generator, not two, and so
-  // the pair stays in the same visual family as the rest.
+  // OPS-415 — the meal-plan guide's landing page. Not a tool page: it lives in
+  // the Astro bundle (/ua/meal-plan/) and names the card through BaseLayout's
+  // ogImage rather than a hand-written <head>. Rendered here anyway so the site
+  // has one card generator, not two, and so it stays in the same visual family
+  // as the rest. Ukrainian only, like the guide and the page.
   {
     file: 'meal-plan-ua', lang: 'ua',
     kicker: 'Безкоштовний гайд', big: '200 страв,\nплан на 28 днів',
     title: 'Гнучка система харчування на 4 тижні',
     sub: 'Готувати раз на день · інсулінорезистентність, діабет, перименопауза',
-  },
-  {
-    file: 'meal-plan',
-    kicker: 'Free guide · in Ukrainian', big: '200 meals,\na 28-day plan',
-    title: 'The 4-week meal plan guide',
-    sub: 'Cook once a day · insulin resistance, type 1 diabetes, perimenopause',
   },
 ];
 

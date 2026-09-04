@@ -1032,13 +1032,15 @@ export const LEGAL = {
 // EN is not a translation. The programme is taught in Ukrainian, so the English
 // page says exactly that and points at the UA page — promising an English intake
 // that does not exist would be the one thing worse than no page at all.
-// Meal-plan guide landing page (OPS-415) — /meal-plan/ and /ua/meal-plan/.
+// Meal-plan guide landing page (OPS-415) — /ua/meal-plan/, UKRAINIAN ONLY.
 //
-// The guide itself ("Гнучка система харчування на 4 тижні") is written in
-// Ukrainian, so this follows the Dia.School shape exactly: UA is the real
-// landing page with the gated form, EN is the "this one is in Ukrainian"
-// explainer that links across and keeps the site's ordinary newsletter band.
-// An English signup for a Ukrainian-only PDF would be a promise we cannot keep.
+// Unlike Dia.School there is no English counterpart at all: Lena asked for
+// Ukrainian only for now. So this page declares no hreflang alternates, is not
+// paired in the sitemap, and the header's EN toggle is pointed at the English
+// recipes hub by hand — without that it would offer /meal-plan/, which does not
+// exist. If an English edition is ever written, restore the Dia.School shape
+// (an EN explainer at /meal-plan/) rather than translating this page: an
+// English signup for a Ukrainian-only PDF would be a promise we cannot keep.
 //
 // GATED, and that is the point of the ticket: the PDF is never linked from the
 // page. Mailchimp delivers it after the visitor confirms their address, so the
@@ -1050,33 +1052,13 @@ export const LEGAL = {
 // 28-day plan, 24 dinner recipes, 24 pages. If the PDF is ever re-cut, these
 // are the numbers to re-check.
 export const MEAL_PLAN = {
-  // Shared between both languages so the two pages cannot drift apart.
+  // Language-agnostic assets and figures, kept out of the copy block.
   stats: { meals: 200, perCategory: 50, days: 28, recipes: 24, pages: 24 },
   cover: '/images/4-week-meal-plan-guide-cover.jpg',
   shots: [
     { src: '/images/4-week-meal-plan-guide-week-one.jpg', w: 1200, h: 675 },
     { src: '/images/4-week-meal-plan-guide-meal-bank.jpg', w: 1200, h: 865 },
   ],
-  en: {
-    seoTitle: 'The 4-week meal plan guide — written in Ukrainian',
-    seoDesc: 'A free 24-page guide: 200 swappable meals and a ready-made 28-day plan for insulin resistance, type 1 diabetes and perimenopause. Written in Ukrainian.',
-    ogImage: '/images/cards/meal-plan.jpg',
-    ogImageAlt: 'The 4-week meal plan guide — 200 meals and a ready-made 28-day plan.',
-    kicker: 'Free guide',
-    h1: 'The 4-week meal plan is written in Ukrainian',
-    lead: 'It is a 24-page guide: 200 swappable meals — 50 breakfasts, 50 lunches, 50 dinners, 50 snacks — and a ready-made 28-day plan where tonight\u2019s dinner becomes tomorrow\u2019s lunch, so you cook once a day instead of twice. There is no English edition planned.',
-    ctaLead: 'If you read Ukrainian, the guide is free — leave your name and email on the Ukrainian page and it arrives by email.',
-    cta: 'Go to the Ukrainian page',
-    coverAlt: 'Cover of the Ukrainian guide \u201cГнучка система харчування на 4 тижні\u201d.',
-    elseTitle: 'In English, right now',
-    elseLead: 'Everything below is in English and free — no sign-up, no paywall.',
-    else: [
-      { href: '/recipes/', label: 'Low-GI recipes' },
-      { href: '/carb-gi-table/', label: 'Carb & GI table' },
-      { href: '/resources/food-calculator/', label: 'Metabolic food calculator' },
-    ],
-    note: 'Educational material, not medical advice. If anything here is new to you, please talk it through with your own clinical team before you change how you eat.',
-  },
   ua: {
     seoTitle: 'Гнучка система харчування на 4 тижні — безкоштовний гайд',
     seoDesc: '200 взаємозамінних страв і готовий план на 28 днів для жінок з інсулінорезистентністю, діабетом чи перименопаузою. Безкоштовно — надішлю на пошту.',

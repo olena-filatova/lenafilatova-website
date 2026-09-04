@@ -186,16 +186,14 @@ const T = {
   more: lang === 'ua' ? 'Показати ще' : 'Load more',
   emptyH: lang === 'ua' ? 'Немає рецептів за цими фільтрами' : 'No recipes match those filters',
   emptyP: lang === 'ua' ? 'Спробуйте прибрати один фільтр.' : 'Try removing one to see more.',
-  // The meal-plan guide (OPS-415). This hub is where someone looking for
-  // "what do I actually cook this week" lands, and 86 recipes is a menu, not a
-  // plan — so the guide is offered here rather than on the resources hub, which
-  // promises "no sign-up, no paywall" and would be contradicted by a page that
-  // asks for an address. EN points at the English explainer, which says plainly
-  // that the guide itself is in Ukrainian.
-  mpText: lang === 'ua'
-    ? 'Не знаєте, що готувати цього тижня? Є готовий план на 4 тижні — 200 страв і меню на 28 днів, безкоштовно.'
-    : 'Want the month planned instead of picking recipe by recipe? There is a 4-week meal plan — 200 meals and a ready-made 28-day menu, free. It is written in Ukrainian.',
-  mpCta: lang === 'ua' ? 'Отримати план' : 'See the guide',
+  // The meal-plan guide (OPS-415). UA HUB ONLY — the guide and its landing page
+  // are Ukrainian, and there is no English page to send an English reader to.
+  // This hub is where someone asking "what do I actually cook this week" lands,
+  // and 86 recipes is a menu rather than a plan, so the guide is offered here
+  // rather than on the resources hub — that page promises "no sign-up, no
+  // paywall" and would be contradicted by one that asks for an address.
+  mpText: 'Не знаєте, що готувати цього тижня? Є готовий план на 4 тижні — 200 страв і меню на 28 днів, безкоштовно.',
+  mpCta: 'Отримати план',
 
   foot: lang === 'ua'
     ? 'Рецепти адаптовано з lenafilatova.com. Примітки щодо ГІ мають загальний характер і не замінюють медичну чи дієтичну консультацію.'
@@ -234,10 +232,12 @@ const T = {
 
       {/* One hairline row, not a coloured panel: the hub's own sections already
           carry the page, and this is an aside, not the offer the page is for. */}
-      <p class="rx-mp">
-        <span>{T.mpText}</span>
-        <a href={lang === 'ua' ? `${B}ua/meal-plan/` : `${B}meal-plan/`}>{T.mpCta} <span class="ar" aria-hidden="true">&#8594;</span></a>
-      </p>
+      {lang === 'ua' && (
+        <p class="rx-mp">
+          <span>{T.mpText}</span>
+          <a href={`${B}ua/meal-plan/`}>{T.mpCta} <span class="ar" aria-hidden="true">&#8594;</span></a>
+        </p>
+      )}
     </div>
   </section>
 

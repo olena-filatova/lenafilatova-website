@@ -25,7 +25,6 @@ const PAGE_DATES = {
   '/contact/': '2026-07-13',
   '/resources/': '2026-07-13',
   '/dia-school/': '2026-08-17', // OPS-264 — waitlist page (UA is the real one)
-  '/meal-plan/': '2026-09-03', // OPS-415 — guide landing page (UA is the real one)
   '/blog/': '2026-07-12',
   '/recipes/': '2026-08-05',
   // Legal pages (LEGAL_SLUGS)
@@ -56,12 +55,6 @@ add('/resources/');
 // Dia.School (OPS-264). Both languages: /ua/dia-school/ is the waitlist itself,
 // /dia-school/ the English "this runs in Ukrainian" explainer that points at it.
 add('/dia-school/');
-// The meal-plan guide (OPS-415). Same shape: /ua/meal-plan/ is the landing page
-// with the form, /meal-plan/ the English "this one is in Ukrainian" explainer.
-// The PDF itself is deliberately absent — it is gated, and robots.txt disallows
-// it, so submitting it here would be asking Google to index the way around the
-// form.
-add('/meal-plan/');
 // NOTE: /shop/ deliberately absent — the shop is hidden (nothing on sale yet).
 add('/blog/');
 add('/recipes/');
@@ -97,6 +90,20 @@ PUBLISHED.forEach((r) => {
 // Third element = pinned <lastmod> (OPS-208): last git commit touching the
 // pair's public/ tool files as of 2026-08-10 — bump manually on meaningful
 // content changes, same policy as PAGE_DATES above.
+// Pages that exist in ONE language only, so they cannot go through add() —
+// every `pairs` entry is emitted as an EN/UA couple with hreflang alternates
+// between them, and here there is no counterpart to point at. Emitted below
+// with a self-referencing `uk` alternate and nothing else, which is what the
+// page's own <head> declares (it passes no `alternates`, so BaseLayout writes
+// no hreflang at all). [path, lastmod].
+//
+// The guide PDF is deliberately NOT here: it is gated, and robots.txt disallows
+// /guides/, so submitting it would be asking Google to index the way around the
+// form. (OPS-415)
+const SINGLE = [
+  ['/ua/meal-plan/', '2026-09-03'],
+];
+
 const FLAT = [
   ['/aid-comparison/', '/aid-comparison-ua/', '2026-07-30'],
   ['/cgm-comparison/', '/cgm-comparison-ua/', '2026-07-22'],
@@ -131,6 +138,10 @@ export function GET() {
     const alts = [['en', en], ['uk', ua], ['ru', ua], ['x-default', en]];
     entries.push(urlEntry(en, lastmod, image, alts));
     entries.push(urlEntry(ua, lastmod, image, alts));
+  }
+  for (const [path, lastmod] of SINGLE) {
+    const url = SITE + path;
+    entries.push(urlEntry(url, lastmod, null, [['uk', url]]));
   }
   for (const [en, ua, lastmod] of FLAT) {
     const enUrl = SITE + en;
