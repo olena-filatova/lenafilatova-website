@@ -43,12 +43,41 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
           <li><b>{stats.days}</b><span>днів готового плану</span></li>
           <li><b>{stats.recipes}</b><span>рецепти до вечер</span></li>
         </ul>
-        <p class="mp-jump"><a class="btn" href="#newsletter">Надішліть гайд</a></p>
+        <p class="mp-jump"><a class="btn" href="#newsletter">{t.cta}</a></p>
       </div>
 
       <div class="mp-cover">
         <Picture src={cover} sizes={COVER_SIZES} alt={t.coverAlt} width="900" height="1272" loading="eager" decoding="async" />
       </div>
+    </div>
+  </div>
+</section>
+
+{/* Problem before solution. The page used to open straight into "here is what
+    you get", which argues for the product before the reader has agreed there is
+    anything to fix. The half-bunch of celery is the thing everyone recognises. */}
+<section class="section mp-problem">
+  <div class="wrap">
+    <h2>{t.problemTitle}</h2>
+    <p class="mp-problem-lead">{t.problemLead}</p>
+    <p class="mp-problem-body">{t.problem}</p>
+
+    <h3 class="mp-sol-head">{t.solutionTitle}</h3>
+    <ol class="mp-grid mp-grid-3">
+      {t.solution.map((item, i) => (
+        <li>
+          <span class="mp-n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <h4>{item.h}</h4>
+          <p>{item.p}</p>
+        </li>
+      ))}
+    </ol>
+
+    {/* Variety is the obvious objection to a plan built on repetition, so it is
+        answered here rather than left to sit in the FAQ. */}
+    <div class="mp-variety">
+      <h3>{t.varietyTitle}</h3>
+      <p>{t.variety}</p>
     </div>
   </div>
 </section>
@@ -82,6 +111,7 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
 <section class="section mp-who">
   <div class="wrap">
     <h2>{t.whoTitle}</h2>
+    <p class="section-sub mp-who-lead">{t.whoLead}</p>
     <ul class="mp-who-list">
       {t.who.map((item) => (
         <li><h3>{item.h}</h3><p>{item.p}</p></li>
@@ -144,6 +174,21 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
 
   .mp-jump { margin: 26px 0 0; }
 
+  /* Problem section. The lede sentence is set larger than the paragraph under
+     it — it is the line the reader should recognise themselves in. */
+  .mp-problem-lead { margin: 22px 0 0; max-width: 46ch; font-family: var(--font-head); font-size: var(--fs-quote); line-height: 1.3; color: var(--ink); }
+  .mp-problem-body { margin: 16px 0 0; max-width: 62ch; font-size: var(--fs-small); line-height: 1.65; color: var(--body); }
+  .mp-sol-head { margin: 40px 0 0; font-size: var(--fs-card-title); line-height: 1.25; color: var(--ink); }
+  .mp-grid-3 h4 { margin: 10px 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+
+  /* The variety answer sits in the paper recess so it reads as a reply to the
+     objection the section just raised, not as another feature. */
+  .mp-variety { margin: 38px 0 0; padding: 24px 26px; background: var(--paper2); max-width: 72ch; }
+  .mp-variety h3 { margin: 0 0 8px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
+  .mp-variety p { margin: 0; font-size: var(--fs-small); line-height: 1.6; color: var(--body); }
+
+  .mp-who-lead { margin: 18px 0 0; max-width: 62ch; }
+
   /* "What you get" — the homepage/resources numbered index, in a grid. */
   .mp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 40px; margin: 30px 0 0; padding: 0; list-style: none; }
   .mp-grid li { border-top: 1px solid var(--rule); padding-top: 16px; }
@@ -175,6 +220,7 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
        100vw is a screenful of nothing but cover before the first section. */
     .mp-cover { max-width: 320px; }
     .mp-grid, .mp-who-list { grid-template-columns: repeat(2, 1fr); }
+    .mp-variety { padding: 20px; }
   }
   @media (max-width: 560px) {
     .mp-grid, .mp-who-list { grid-template-columns: 1fr; }
