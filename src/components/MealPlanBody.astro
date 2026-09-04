@@ -22,6 +22,8 @@ const { stats, cover, shots } = MEAL_PLAN;
 // so <Picture> can hand back a 480 rung instead of the 1200 (OPS-305).
 const COVER_SIZES = '(min-width: 860px) 320px, min(74vw, 320px)';
 const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
+const AUTHOR_SIZES = '(min-width: 720px) 240px, min(60vw, 240px)';
+const B = import.meta.env.BASE_URL;
 ---
 <section class="res-head mp-head">
   <div class="wrap">
@@ -120,6 +122,28 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
   </div>
 </section>
 
+{/* Credibility immediately before the ask. A gated page has to answer "who
+    are you to be telling me this?" before it asks for an address, and this one
+    never did. Portrait beside the copy, same two-column device as the hero. */}
+<section class="section mp-author">
+  <div class="wrap">
+    <h2>{t.authorTitle}</h2>
+    <div class="mp-author-row">
+      <div class="mp-author-photo">
+        <Picture src={t.authorPhoto} sizes={AUTHOR_SIZES} alt={t.authorPhotoAlt} width="675" height="1200" loading="lazy" decoding="async" />
+      </div>
+      <div class="mp-author-copy">
+        <p class="mp-author-name">{t.authorName}</p>
+        <p class="mp-author-role">{t.authorRole}</p>
+        <p class="mp-author-lead">{t.authorLead}</p>
+        {t.author.map((para) => <p class="mp-author-p">{para}</p>)}
+        <p class="mp-author-note">{t.authorNote}</p>
+        <p class="mp-author-more"><a href={`${B}ua/about/`}>{t.authorLink} <span class="ar" aria-hidden="true">&#8594;</span></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <Newsletter
   lang="ua"
   tag={MAILCHIMP.tags.mealPlan}
@@ -206,6 +230,23 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
   .mp-who-list h3 { margin: 0 0 6px; font-size: var(--fs-card-title-s); line-height: 1.25; color: var(--ink); }
   .mp-who-list p { margin: 0; font-size: var(--fs-small); line-height: 1.55; color: var(--body); }
 
+  /* Author. The portrait is a fixed column — it is a 9:16 photograph, and at a
+     fractional width it outgrew the copy beside it. */
+  .mp-author-row { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 40px; margin: 26px 0 0; align-items: start; }
+  .mp-author-photo img { display: block; width: 100%; height: auto; }
+  .mp-author-copy { max-width: 62ch; }
+  .mp-author-name { margin: 0; font-family: var(--font-head); font-size: var(--fs-card-title); line-height: 1.2; color: var(--ink); }
+  .mp-author-role { margin: 6px 0 0; font-size: var(--fs-fine); line-height: 1.55; color: var(--muted); }
+  .mp-author-lead { margin: 20px 0 0; font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1.4; color: var(--ink); }
+  .mp-author-p { margin: 14px 0 0; font-size: var(--fs-small); line-height: 1.65; color: var(--body); }
+  /* The clinical boundary is set apart rather than run in with the story: it is
+     a different kind of statement, and it should be findable. */
+  .mp-author-note { margin: 20px 0 0; padding-left: 16px; border-left: 2px solid var(--accent); font-size: var(--fs-fine); line-height: 1.6; color: var(--muted); }
+  .mp-author-more { margin: 20px 0 0; font-size: var(--fs-small); }
+  .mp-author-more a { font-weight: 700; color: var(--ink); }
+  .mp-author-more a:hover { color: var(--accent); }
+  .mp-author-more .ar { color: var(--accent); }
+
   .mp-faq-list { margin: 26px 0 0; max-width: 62ch; border-top: 1px solid var(--rule); }
   .mp-faq-item { border-bottom: 1px solid var(--line); padding: 18px 0; }
   .mp-faq-list dt { font-family: var(--font-head); font-size: var(--fs-title); color: var(--ink); }
@@ -221,6 +262,12 @@ const SHOT_SIZES = '(min-width: 860px) 720px, calc(100vw - 48px)';
     .mp-cover { max-width: 320px; }
     .mp-grid, .mp-who-list { grid-template-columns: repeat(2, 1fr); }
     .mp-variety { padding: 20px; }
+  }
+  @media (max-width: 720px) {
+    /* Portrait above the copy, capped — a 9:16 photo at full width is most of
+       a phone screen before a word of the story. */
+    .mp-author-row { grid-template-columns: 1fr; gap: 24px; }
+    .mp-author-photo { max-width: 200px; }
   }
   @media (max-width: 560px) {
     .mp-grid, .mp-who-list { grid-template-columns: 1fr; }
