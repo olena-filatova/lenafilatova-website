@@ -279,7 +279,13 @@ const toolHref = (card) => {
   .ed-portrait { --peek: 14px; }
   /* The block is anchored to .ed-shot (the photo alone). Anchoring it to
      .ed-portrait put it behind the caption, which is what it was doing. */
-  .ed-shot { position: relative; }
+  /* OPS-357: on a phone the portrait ran the full column — 342x368 on a
+     375px screen, over half the first view before a single tool is seen.
+     Capping .ed-shot (not .ed-portrait) shrinks the photo and the magenta
+     block with it, because the block is positioned against .ed-shot, while
+     the caption keeps the full column width. Undone at 720px, where the
+     hero becomes two columns and .ed-portrait sets its own 280px cap. */
+  .ed-shot { position: relative; max-width: min(62%, 230px); }
   .ed-frame { position: relative; z-index: 2; aspect-ratio: 1 / 1.08; overflow: hidden; background: var(--paper2); border-radius: 50% 50% 0 0 / 38% 38% 0 0; }
   .ed-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
   .ed-blk { position: absolute; z-index: 1; left: -10px; right: 34%; bottom: calc(var(--peek) * -1); height: 46%; background: var(--accent); }
@@ -326,6 +332,11 @@ const toolHref = (card) => {
   .ed-free { display: inline-block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent); padding: 6px 12px; margin-bottom: 16px; }
   .ed-tools { border-top: 1px solid var(--rule); }
   .ed-tool { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--line); align-items: flex-start; transition: padding-left 0.22s ease; }
+  /* OPS-357: the list's closing hairline sat 52px above the next section's
+     ink rule — a thin line, a band of nothing, then a thick line, which
+     reads as a mistake rather than a rhythm. The row keeps its 22px of
+     bottom padding, so nothing collides; only the stray rule goes. */
+  .ed-tools > :last-child, .ed-rows > :last-child { border-bottom: 0; }
   .ed-tool .idx { font-family: var(--font-head); font-size: 14px; color: var(--accent); padding-top: 4px; flex: none; width: 24px; }
   .ed-tool .body { display: block; }
   /* No opacity here — --muted at 0.75 measured 4.21:1 on 10px text, under the
@@ -402,6 +413,7 @@ const toolHref = (card) => {
     .ed-lead { font-size: 17px; max-width: 46ch; }
     .ed-cta { flex-direction: row; gap: 12px; }
     .ed-portrait { max-width: 280px; margin-left: auto; --peek: 16px; }
+    .ed-shot { max-width: none; }
     .ed-frame { aspect-ratio: 1 / 1.12; }
     .ed-blk { right: 40%; height: 38%; }
     .ed-cap { font-size: 13.5px; }
@@ -412,6 +424,11 @@ const toolHref = (card) => {
     .ed-stat .n { font-size: 28px; }
     .ed-stat .l { font-size: 13.5px; }
     .ed-tools { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+    /* Two columns, so the closing row is a pair. :nth-last-child(2) landing
+       on an odd position means the final item shares its row with it — true
+       for any number of items, so adding a fifth tool cannot break it. */
+    .ed-tools > :nth-last-child(2):nth-child(odd),
+    .ed-rows > :nth-last-child(2):nth-child(odd) { border-bottom: 0; }
     .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; }
     .ed-feat .ph { aspect-ratio: 1 / 1; }
     .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
