@@ -42,6 +42,11 @@
 //   tag          — Mailchimp tag applied to signups from this page (OPS-264), so
 //                  one audience can hold several lists' worth of intent. Omitted
 //                  everywhere else, which leaves the ordinary form byte-identical.
+//                  Pass an entry from MAILCHIMP.tags: `{id, name}`. The two
+//                  halves go to different places on purpose — Mailchimp's
+//                  `name="tags"` input only accepts the NUMERIC id (a name is
+//                  silently dropped, see the note in site.js), while GA4 gets
+//                  the readable name so reports do not fill with bare numbers.
 //   askName      — render a first-name field (FNAME) above the email row
 //                  (OPS-415). Off everywhere else, so the ordinary form is
 //                  unchanged. Deliberately NOT required: Mailchimp does not
@@ -76,13 +81,14 @@ const B = import.meta.env.BASE_URL;
       data-mc-dwell={MIN_DWELL_MS}
       data-mc-trap={HONEYPOT}
       data-mc-lang={lang}
-      data-mc-list={tag || 'newsletter'}
+      data-mc-list={tag?.name || 'newsletter'}
     >
       <!-- Set from the page tree, never by the visitor. -->
       <input type="hidden" name={groupField} value="1" />
 
-      <!-- Which list this signup belongs to (see MAILCHIMP.tags). -->
-      {tag && <input type="hidden" name="tags" value={tag} />}
+      <!-- Which list this signup belongs to (see MAILCHIMP.tags). The id, not
+           the name: Mailchimp ignores a name here without erroring. -->
+      {tag && <input type="hidden" name="tags" value={tag.id} />}
 
       {/* FNAME goes on its own row rather than into the email row: three items
           in that flex line squeeze the button below its 44px target on a

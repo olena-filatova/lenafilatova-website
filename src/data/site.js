@@ -157,23 +157,27 @@ export const MAILCHIMP = {
   // Newsletter.astro renders `<input type="hidden" name="tags">` only when a
   // page passes a `tag`, so the plain newsletter form is unchanged.
   //
-  // ⚠️ UNVERIFIED VALUE (OPS-264). Mailchimp's own embed builder emits the tag's
-  // NUMERIC id here, not its name; a name is accepted by some accounts and
-  // silently ignored by others. Nothing else depends on it — the signup, the
-  // double opt-in and the Language group all work regardless — so the worst case
-  // is an untagged contact, not a lost one. To confirm: sign up once on
-  // /ua/dia-school/, confirm the email, and look at the contact in Mailchimp. If
-  // the tag is missing, open Audience → Signup forms → Embedded form, tick the
-  // `dia-school-waitlist` tag, and copy the numeric value it writes into
-  // `name="tags"` here. This is the only Mailchimp-side step the site can't do
-  // for itself.
+  // ✅ VERIFIED 7 Sep 2026 (OPS-415), and it turned out the doubt was justified:
+  // `name="tags"` takes the tag's NUMERIC ID, and a name is silently ignored.
+  // Confirmed by ticking each tag in Mailchimp's own embedded-form builder
+  // (Audience → Other forms → Embedded form → Tags) and reading the value it
+  // generates — two tags produce `value="9302136,9302150"`, comma-separated.
+  //
+  // So `dia-school-waitlist` had NEVER been applied to a signup since OPS-264
+  // (there were none to lose — the flow reported 0 starts — but it would have
+  // failed silently the moment there was one).
+  //
+  // `id` is what Mailchimp needs; `name` is the human label, used for the GA4
+  // `list` dimension so reporting does not fill up with bare numbers, and to
+  // keep this table readable. To add a tag: create it in Audience → Tags, then
+  // read its id out of the embedded-form builder as above — the id is NOT
+  // guessable from the tags page, whose links carry a longer segment id.
   tags: {
-    diaSchoolWaitlist: 'dia-school-waitlist',
-    // OPS-415 — /ua/meal-plan/. Same caveat as above: if Mailchimp wants the
-    // numeric id here the contact still arrives, just untagged, and the tag is
-    // what the delivery automation keys off — so this one is worth checking
-    // after the first live signup.
-    mealPlan: 'meal-plan-4-weeks',
+    diaSchoolWaitlist: { id: '9302136', name: 'dia-school-waitlist' },
+    // OPS-415 — /ua/meal-plan/. This one is load-bearing in a way the other is
+    // not: the delivery automation triggers on this tag, so a wrong value here
+    // means the guide is never sent.
+    mealPlan: { id: '9302150', name: 'meal-plan-4-weeks' },
   },
 };
 
