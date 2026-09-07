@@ -15,7 +15,7 @@ export default {
   ],
   "en": {
     "cat": "Skin & beauty",
-    "imageAlt": "A woman's hands resting on a pale linen surface in daylight, fingers slightly spread, nails unpolished and short.",
+    "imageAlt": "Two hands side by side on a pale surface in bright daylight, fingers spread, nails bare and short — a black and white photograph.",
     "title": "Nail changes after 40: what's diabetes, what's just ageing, and what needs a GP",
     "seoTitle": "Nail Changes After 40: Diabetes Signs vs Normal Ageing",
     "metaDesc": "Ridges, slow growth and yellowing are mostly just ageing. The one nail change diabetes really does drive - and why it matters for your feet.",
@@ -233,7 +233,7 @@ export default {
   },
   "ua": {
     "cat": "Краса та шкіра",
-    "imageAlt": "Жіночі руки на світлій лляній поверхні при денному світлі, пальці трохи розведені, нігті короткі й без лаку.",
+    "imageAlt": "Дві руки поруч на світлій поверхні при яскравому денному світлі, пальці розведені, нігті короткі й без лаку — чорно-біла фотографія.",
     "title": "Зміни нігтів після 40: що від діабету, що просто вік, а з чим — до лікаря",
     "seoTitle": "Зміни нігтів після 40: діабет чи просто вік",
     "metaDesc": "Борозенки, повільний ріст і жовтизна — здебільшого просто вік. Єдина зміна нігтів, яку діабет справді спричиняє, і чому це важливо для стоп.",
