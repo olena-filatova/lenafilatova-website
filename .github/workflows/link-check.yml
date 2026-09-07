@@ -21,6 +21,15 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      # The tool-page chrome is GENERATED into public/<tool>/index.html, so it
+      # can drift from src/data/site.js without anything noticing. Worse, the
+      # script that generates it runs on plain node and died silently for weeks
+      # when search-lib.js started pulling in a Vite-only import (OPS-414) —
+      # nothing in CI ran it, so nothing said so. This step covers both: it
+      # fails if the pages are stale AND if the script itself stops running.
+      - name: Tool-page chrome is in sync
+        run: npm run tool-chrome:check
+
       # Internal breaks are unambiguous and ours. This gate fails the PR.
       - name: Internal links, images and citation hygiene
         run: node scripts/check-links.mjs
