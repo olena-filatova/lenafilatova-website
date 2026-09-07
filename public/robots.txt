@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Gated lead magnets (OPS-415). The PDF is what Mailchimp sends once an address
+# is confirmed; the page that asks for the address is /ua/meal-plan/, and that
+# one is in the sitemap. Indexing the file itself would put a download link in
+# search results that bypasses the form entirely.
+Disallow: /guides/
+
 Sitemap: https://lenafilatova.co.uk/sitemap.xml

@@ -1,4 +1,54 @@
 {
+  "/images/4-week-meal-plan-guide-cover.jpg": {
+    "w": 900,
+    "h": 1272,
+    "avif": [
+      [
+        480,
+        "/images/v/4-week-meal-plan-guide-cover-480.avif"
+      ],
+      [
+        800,
+        "/images/v/4-week-meal-plan-guide-cover-800.avif"
+      ]
+    ]
+  },
+  "/images/4-week-meal-plan-guide-meal-bank.jpg": {
+    "w": 1200,
+    "h": 865,
+    "avif": [
+      [
+        480,
+        "/images/v/4-week-meal-plan-guide-meal-bank-480.avif"
+      ],
+      [
+        800,
+        "/images/v/4-week-meal-plan-guide-meal-bank-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/4-week-meal-plan-guide-meal-bank-1200.avif"
+      ]
+    ]
+  },
+  "/images/4-week-meal-plan-guide-week-one.jpg": {
+    "w": 1200,
+    "h": 675,
+    "avif": [
+      [
+        480,
+        "/images/v/4-week-meal-plan-guide-week-one-480.avif"
+      ],
+      [
+        800,
+        "/images/v/4-week-meal-plan-guide-week-one-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/4-week-meal-plan-guide-week-one-1200.avif"
+      ]
+    ]
+  },
   "/images/ada-2026-glp1-type1-diabetes-women.jpg": {
     "w": 1200,
     "h": 675,

@@ -170,6 +170,19 @@
 }
 .rx-gi-bands .band-desc { display: block; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
 
+/* Meal-plan guide row (OPS-415). Deliberately quiet: one hairline and a link,
+   sitting between the GI explainer and the filters. A coloured panel here would
+   read as an advert on a page whose whole job is the recipes below it. */
+.rx-mp {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px;
+  margin: 30px 0 0; padding-top: 16px; border-top: 1px solid var(--rule);
+  font-size: 15.5px; line-height: 1.6; color: var(--body);
+}
+.rx-mp > span { max-width: 62ch; }
+.rx .rx-mp a { white-space: nowrap; font-weight: 700; color: var(--ink); }
+.rx .rx-mp a:hover { color: var(--accent); }
+.rx .rx-mp .ar { color: var(--accent); }
+
 .rx .rx-coll-group + .rx-coll-group { margin-top: 30px; }
 .rx .rx-coll-group > .fk { display: block; margin-bottom: 8px; color: var(--muted); }
 .rx-coll-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); column-gap: 34px; }
