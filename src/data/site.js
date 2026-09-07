@@ -177,7 +177,18 @@ export const MAILCHIMP = {
     // OPS-415 — /ua/meal-plan/. This one is load-bearing in a way the other is
     // not: the delivery automation triggers on this tag, so a wrong value here
     // means the guide is never sent.
-    mealPlan: { id: '9302150', name: 'meal-plan-4-weeks' },
+    //
+    // `formId` is the `f_id` of a real form built in Mailchimp (Audience →
+    // Other forms → «Гнучка система харчування — /ua/meal-plan/»). Lena asked
+    // for the signup to be a Mailchimp form rather than a page-only one, and it
+    // buys two things beyond that: the signup is ATTRIBUTED to that form, so it
+    // shows up in Mailchimp's own Forms reporting, and the tag is applied
+    // server-side by the form as well as by the hidden `tags` input — belt and
+    // braces on the one value the whole delivery depends on.
+    //
+    // Only this page sends an f_id. A page whose tag has no `formId` posts
+    // exactly as before, so the plain newsletter form is unchanged.
+    mealPlan: { id: '9302150', name: 'meal-plan-4-weeks', formId: '00399ce0f0' },
   },
 };
 

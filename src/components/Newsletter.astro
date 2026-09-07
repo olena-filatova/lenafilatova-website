@@ -61,7 +61,11 @@ const t = { ...HOME[lang], ...copy };
 
 // Hidden group field, e.g. name="group[34186][1]" on EN pages, [2] on /ua/.
 const groupField = `group[${MAILCHIMP.langGroup}][${MAILCHIMP.langValue[lang] ?? 1}]`;
-const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`;
+// A page whose tag carries a `formId` posts through that Mailchimp form
+// (`f_id`), so the signup is attributed to it and the form's own tag rules run.
+// Everything else posts exactly as before.
+const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`
+  + (tag?.formId ? `&f_id=${tag.formId}` : '');
 const B = import.meta.env.BASE_URL;
 ---
 <section class:list={['section', 'newsletter', sectionClass]} id={id}>
