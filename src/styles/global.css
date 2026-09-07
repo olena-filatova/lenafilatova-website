@@ -757,6 +757,16 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 /* newsletter — the one signup block, shared by every page including the
    homepage (which passes .ed-nl for spacing only). Square ink panel. */
 .newsletter .nl-box { background: var(--ink); border-radius: 0; padding: 48px; text-align: center; }
+/* OPS-357 — the homepage's signup panel is a .wrap, so it only becomes an
+   inset card once the viewport clears --maxw. Below that it runs edge to edge,
+   and the section's 40-56px of bottom padding stopped reading as a margin
+   around a card: it became a pale empty strip between the ink panel and the
+   waitlist band directly beneath it. The top padding still does real work —
+   above the panel is ordinary paper — so only the bottom is closed up, and
+   only on the homepage, which is the one page where a solid band follows. */
+@media (max-width: 1119.98px) {
+  .newsletter.ed-nl { padding-bottom: 0; }
+}
 .newsletter h2 { color: #fff; }
 .newsletter .section-sub { color: var(--on-ink); margin: 0 auto 26px; }
 .nlform { max-width: 520px; margin: 0 auto; }
