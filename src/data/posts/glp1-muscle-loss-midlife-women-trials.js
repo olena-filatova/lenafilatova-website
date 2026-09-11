@@ -9,7 +9,7 @@ export default {
   ],
   "en": {
     "cat": "GLP-1",
-    "imageAlt": "A woman in her forties performing a dumbbell row in a gym.",
+    "imageAlt": "A woman in a white vest and red leggings does a single-arm dumbbell row, one knee and hand braced on a gym bench.",
     "title": "Everyone tells women on GLP-1s to lift weights. Three trials are now testing whether it works",
     "seoTitle": "GLP-1 and Muscle: The First Trials in Midlife Women",
     "metaDesc": "Lift weights while you're on a GLP-1 is standard advice, but it has never been tested in midlife women. Three studies started in 2026 — 125 women in total.",
@@ -100,7 +100,7 @@ export default {
   },
   "ua": {
     "cat": "GLP-1",
-    "imageAlt": "Жінка сорока з чимось років виконує тягу гантелі в тренажерному залі.",
+    "imageAlt": "Жінка в білій майці й червоних легінсах виконує тягу гантелі однією рукою, спираючись коліном і рукою на лаву в спортзалі.",
     "title": "Жінкам на GLP-1 усі радять силові тренування. Три дослідження тільки тепер перевіряють, чи це працює",
     "seoTitle": "GLP-1 і м’язи: перші дослідження в жінок 40+",
     "metaDesc": "«Бережіть м’язи силовими» — стандартна порада, яку ніколи не перевіряли на жінках середнього віку. У 2026 році стартували три дослідження — усього 125 жінок.",
