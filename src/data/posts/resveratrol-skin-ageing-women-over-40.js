@@ -8,7 +8,7 @@ export default {
   ],
   "en": {
     "cat": "Skin & beauty",
-    "imageAlt": "A small glass jar of white cream and two capsules on a pale bathroom shelf beside a folded towel.",
+    "imageAlt": "A close-up of a bunch of dark red grapes, their skins beaded with water, against a black background.",
     "title": "Resveratrol and wrinkles: what an 8-week trial in women over 40 actually found",
     "seoTitle": "Resveratrol and Wrinkles: What the 8-Week Trial Found",
     "metaDesc": "A placebo-controlled trial tested oral and topical trans-resveratrol in women over 40. The wrinkle result was small — the pigmentation result was bigger.",
@@ -102,7 +102,7 @@ export default {
   },
   "ua": {
     "cat": "Краса та шкіра",
-    "imageAlt": "Невелика скляна баночка з білим кремом і дві капсули на світлій полиці у ванній поруч зі складеним рушником.",
+    "imageAlt": "Великий план грона темно-червоного винограду з краплями води на шкірці на чорному тлі.",
     "title": "Ресвератрол і зморшки: що насправді показало 8-тижневе дослідження в жінок після 40",
     "seoTitle": "Ресвератрол і зморшки: що показало дослідження",
     "metaDesc": "Плацебо-контрольоване дослідження перевірило ресвератрол у капсулах і кремі в жінок після 40. Ефект на зморшки малий — на пігментацію більший.",
