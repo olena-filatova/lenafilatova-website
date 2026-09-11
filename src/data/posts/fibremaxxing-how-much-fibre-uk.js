@@ -8,7 +8,7 @@ export default {
   ],
   "en": {
     "cat": "Nutrition",
-    "imageAlt": "A wooden bowl of oats, berries, seeds and chopped pear on a pale kitchen counter in daylight.",
+    "imageAlt": "Three wooden spoons of dried beans — white, dark red kidney and speckled borlotti — each above a small pile of the same beans on a dark slate surface.",
     "title": "‘Fibremaxxing’ went mainstream — the gap it points at is real, the numbers it quotes are not",
     "seoTitle": "Fibremaxxing: How Much Fibre Do You Actually Need?",
     "metaDesc": "UK adults average 19.7g of fibre a day against a 30g target — but fibremaxxing pushes 50–100g, and nothing above 40g has been properly studied.",
@@ -146,7 +146,7 @@ export default {
   },
   "ua": {
     "cat": "Харчування",
-    "imageAlt": "Дерев’яна миска з вівсянкою, ягодами, насінням і нарізаною грушею на світлій кухонній поверхні при денному світлі.",
+    "imageAlt": "Три дерев’яні ложки із сухою квасолею — білою, темно-червоною та рябою борлотті — над невеликими купками тих самих бобів на темній сланцевій поверхні.",
     "title": "«Fibremaxxing» став мейнстрімом — проблема, на яку він указує, справжня, а цифри, які він наводить, ні",
     "seoTitle": "Fibremaxxing: скільки клітковини потрібно насправді",
     "metaDesc": "Дорослі у Британії з’їдають у середньому 19,7 г клітковини на день при нормі 30 г. А тренд пропонує 50–100 г — понад 40 г не досліджували взагалі.",

@@ -15,7 +15,7 @@ export default {
   ],
   "en": {
     "cat": "Fitness 40+",
-    "imageAlt": "A woman in her forties mid-set at a gym rack, hands on a loaded barbell, shot from the side in daylight.",
+    "imageAlt": "Close-up of a woman’s hands gripping a loaded barbell on the gym floor, feet planted, just before a deadlift.",
     "title": "Leaking when you lift: pelvic floor training in perimenopause",
     "seoTitle": "Pelvic Floor Exercises in Perimenopause: The Evidence",
     "metaDesc": "Leaking when you lift heavier? What the evidence says about pelvic floor training in perimenopause — and why diabetes makes it more likely.",
@@ -332,7 +332,7 @@ export default {
   },
   "ua": {
     "cat": "Фітнес 40+",
-    "imageAlt": "Жінка за сорок під час підходу біля силової рами, руки на штанзі з дисками, зйомка збоку при денному світлі.",
+    "imageAlt": "Крупним планом руки жінки стискають навантажену штангу на підлозі спортзалу, ноги твердо стоять — мить перед становою тягою.",
     "title": "Підтікання під час силових: тренування тазового дна в перименопаузі",
     "seoTitle": "Вправи для тазового дна в перименопаузі: докази",
     "metaDesc": "Підтікає, коли берете більшу вагу? Що кажуть дослідження про тренування тазового дна в перименопаузі — і чому діабет підвищує ймовірність.",

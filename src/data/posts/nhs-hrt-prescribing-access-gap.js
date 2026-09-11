@@ -15,7 +15,7 @@ export default {
   ],
   "en": {
     "cat": "Perimenopause",
-    "imageAlt": "A woman collecting a prescription at the counter of a community pharmacy.",
+    "imageAlt": "A pharmacist in a white coat reaches for a boxed medicine on a crowded dispensary shelf.",
     "title": "A record two million women are on NHS HRT — and where you live still decides whether you’re one of them",
     "seoTitle": "NHS HRT Hits Two Million — And the Access Gap Persists",
     "metaDesc": "A record 2,038,025 women in England were prescribed NHS HRT in 2025/26 — and new NHSBSA data show who is still missing out, by postcode and by diagnosis.",
@@ -125,7 +125,7 @@ export default {
   },
   "ua": {
     "cat": "Перименопауза",
-    "imageAlt": "Жінка отримує ліки за рецептом у місцевій аптеці.",
+    "imageAlt": "Фармацевтка в білому халаті тягнеться по коробку з ліками на заставленій полиці аптеки.",
     "title": "Рекордні два мільйони жінок отримують ЗГТ від NHS — але місце проживання досі вирішує, чи будете Ви серед них",
     "seoTitle": "ЗГТ у NHS: рекордні 2 мільйони і розрив у доступі",
     "metaDesc": "У 2025/26 році 2 038 025 жінок в Англії отримали ЗГТ від NHS. Нові дані показують, хто досі лишається поза цим — за місцем проживання і діагнозом.",
