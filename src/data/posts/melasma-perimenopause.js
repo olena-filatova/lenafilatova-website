@@ -15,7 +15,7 @@ export default {
   ],
   "en": {
     "cat": "Skin & beauty",
-    "imageAlt": "Soft daylight falling across a woman’s cheekbone and temple.",
+    "imageAlt": "A middle-aged woman with shoulder-length fair hair and a white shirt puts in an earring while studying her reflection in a mirror.",
     "title": "Dark patches in perimenopause: three different things wearing the same name",
     "seoTitle": "Melasma in Perimenopause: What Actually Helps",
     "metaDesc": "New dark patches in your forties get filed under hormones. Often they are not melasma at all — and what they are changes what helps.",
@@ -209,7 +209,7 @@ export default {
   },
   "ua": {
     "cat": "Шкіра та краса",
-    "imageAlt": "М’яке денне світло на вилиці та скроні жінки.",
+    "imageAlt": "Жінка середнього віку зі світлим волоссям до плечей, у білій сорочці, вдягає сережку й роздивляється своє відображення в дзеркалі.",
     "title": "Темні плями в перименопаузі: три різні речі під однією назвою",
     "seoTitle": "Мелазма в перименопаузі: що справді допомагає",
     "metaDesc": "Нові темні плями після сорока одразу списують на гормони. Часто це взагалі не мелазма — а три можливі причини потребують різних відповідей.",
