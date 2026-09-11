@@ -7,7 +7,7 @@ export default {
   ],
   "en": {
     "cat": "Skin & beauty",
-    "imageAlt": "A woman in her fifties looking at her reflection in a bathroom mirror.",
+    "imageAlt": "A beauty magazine lying open on white bedsheets, with a green serum bottle and a cut-glass dish holding its dropper resting on the page.",
     "title": "“Menopausal women are doubling down on treatments” — what that survey actually found",
     "seoTitle": "Menopause Aesthetics Survey 2026: What It Really Found",
     "metaDesc": "A beauty-industry survey says menopausal women want more treatments. Who was actually asked, and the planning-gap finding underneath the headline.",
@@ -121,7 +121,7 @@ export default {
   },
   "ua": {
     "cat": "Краса та шкіра",
-    "imageAlt": "Жінка за п'ятдесят дивиться на своє відображення у дзеркалі у ванній.",
+    "imageAlt": "Відкритий журнал про красу на білих простирадлах, на сторінці — зелений флакон сироватки й кришталева мисочка з піпеткою.",
     "title": "«Жінки в менопаузі вкладаються в процедури вдвічі активніше» — що насправді показало те опитування",
     "seoTitle": "Опитування про естетику й менопаузу: що там насправді",
     "metaDesc": "Опитування індустрії краси каже, що жінки в менопаузі хочуть більше процедур. Кого насправді питали і який висновок ховається під заголовком.",
