@@ -7,4 +7,12 @@ Allow: /
 # search results that bypasses the form entirely.
 Disallow: /guides/
 
+# Same trap, second lead magnet (OPS-439). The Diabetes & Perimenopause
+# workbook is promised on the homepage and the newsletter band in exchange for
+# an email address, and Welcome flows 566/567 deliver it. The PDFs themselves
+# were crawlable, so an indexed file would have handed the workbook to anyone
+# who found it in search without ever seeing the form. Nothing on the site
+# links to them directly — they are reachable only from the delivery email.
+Disallow: /workbook/
+
 Sitemap: https://lenafilatova.co.uk/sitemap.xml
