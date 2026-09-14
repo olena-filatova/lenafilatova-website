@@ -41,7 +41,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "A cohort study published in BMJ Medicine in September 2025 went at the same question from the patient record rather than the prescription. Researchers followed 1,978,348 women aged 40 to 60 in English GP practices between 2013 and 2023. Overall, 19.2% received two or more HRT prescriptions — so even at today’s record levels, roughly four in five women of menopausal age never got as far as a second prescription. Rates were 22.6% in white women and fell to 8.9% in Caribbean women and 3.9% in black African women. They fell from 24.2% in the most affluent group to 10.9% in the most deprived. London sat at 11.7%; every other region was above 19%. The differences held after adjusting for the other sociodemographic factors, which is what makes them hard to explain away as a quirk of who lives where."
+        "text": "A cohort study published in BMJ Medicine in September 2025 went at the same question from the patient record rather than the prescription. Researchers followed 1,978,348 women aged 40 to 60 in English GP practices between 2013 and 2023. Overall, 19.2% received two or more HRT prescriptions — so over that decade, roughly four in five women of menopausal age never got as far as a second prescription. Rates were 22.6% in white women and fell to 8.9% in Caribbean women and 3.9% in black African women. They fell from 24.2% in the most affluent group to 10.9% in the most deprived. London sat at 11.7%; every other region was above 19%. The differences held after adjusting for the other sociodemographic factors, which is what makes them hard to explain away as a quirk of who lives where."
       },
       {
         "t": "p",
@@ -53,7 +53,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Buried in that study’s tables is something I have not seen reported anywhere, and it is directly relevant to a lot of readers here. Women with type 2 diabetes were less likely to receive two or more HRT prescriptions than women without: 15.5% against 19.2% overall, and the association held after adjusting for age. Women with type 1 diabetes showed no such gap — 20.2%, marginally above the average, and not statistically significant. So it is specifically a type 2 pattern, not a diabetes-in-general one."
+        "text": "Buried in that study’s tables is something I have not seen reported anywhere, and it is directly relevant to a lot of readers here. Women with type 2 diabetes were less likely to receive two or more HRT prescriptions than women without: 15.5% against 19.2% overall, a statistically significant difference, though an unadjusted one that does not account for age or weight. Women with type 1 diabetes showed no such gap — 20.2%, marginally above the average, and not statistically significant. So it is specifically a type 2 pattern, not a diabetes-in-general one."
       },
       {
         "t": "p",
@@ -65,7 +65,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One practical thing, since cost is a real barrier for some women and an easily fixed one. In England there is a dedicated HRT prescription prepayment certificate: £19.80 for twelve months, covering an unlimited number of qualifying HRT items. It pays for itself after two items, and it applies even when the HRT was prescribed for something other than menopause symptoms. The Department of Health and Social Care says its renewed Women’s Health Strategy will put specialist women’s health centres in every region, with the early rollout aimed at areas of greatest need. That is a promise rather than a service you can book today — but the certificate exists now, and plenty of women paying item by item have never been told about it."
+        "text": "One practical thing, since cost is a real barrier for some women and an easily fixed one. In England there is a dedicated HRT prescription prepayment certificate: £19.80 for twelve months, covering an unlimited number of qualifying HRT items. It breaks even at two items and saves money on every one after that, and it applies even when the HRT was prescribed for something other than menopause symptoms. The Department of Health and Social Care says its renewed Women’s Health Strategy will put specialist women’s health centres in every region, with the early rollout aimed at areas of greatest need. That is a promise rather than a service you can book today — but the certificate exists now, and plenty of women paying item by item have never been told about it."
       },
       {
         "t": "refs",
@@ -78,7 +78,7 @@ export default {
           },
           {
             "claim": "In two million GP records, HRT prescribing fell with deprivation, differed sharply by ethnic group, and was lower in women with type 2 diabetes.",
-            "detail": "A population-based cohort study using the QResearch database of English primary care, 1 January 2013 to 13 July 2023, following 1,978,348 women aged 40–60 (mean age 49.4; 76.2% white). Overall 379,911 (19.2%) received two or more HRT prescriptions. Rates were 22.6% in white women, 8.9% in Caribbean women and 3.9% in black African women; 24.2% in the most affluent group falling to 10.9% in the most deprived; 11.7% in London against above 19% in every other region. In multivariable Cox regression, non-white ethnic groups had significantly lower prescription rates (hazard ratios 0.85–0.92, p<0.001) and the most deprived group had a hazard ratio of 0.92 (95% CI 0.92–0.93, p<0.001). Among comorbidities, women with type 2 diabetes had a rate of 15.5% (hazard ratio 0.96, 95% CI 0.95–0.97, p<0.001), while type 1 diabetes showed 20.2% and no significant difference (hazard ratio 1.01, 95% CI 0.99–1.03, p=0.368). The authors interpret the diabetes finding as possible cautious prescribing in line with NICE guidance, and note it is unclear whether the women who received HRT were those with the most severe symptoms. Observational study — it cannot show cause.",
+            "detail": "A population-based cohort study using the QResearch database of English primary care, 1 January 2013 to 13 July 2023, following 1,978,348 women aged 40–60 (mean age 49.4; 76.2% white). Overall 379,911 (19.2%) received two or more HRT prescriptions. Rates were 22.6% in white women, 8.9% in Caribbean women and 3.9% in black African women; 24.2% in the most affluent group falling to 10.9% in the most deprived; 11.7% in London against above 19% in every other region. In multivariable Cox regression, non-white ethnic groups had significantly lower prescription rates (hazard ratios 0.85–0.92, p<0.001) and the most deprived group had a hazard ratio of 0.92 (95% CI 0.92–0.93, p<0.001). Among comorbidities, women with type 2 diabetes had a rate of 15.5% (unadjusted hazard ratio 0.96, 95% CI 0.95–0.97, p<0.001), while type 1 diabetes showed 20.2% and no significant difference (hazard ratio 1.01, 95% CI 0.99–1.03, p=0.368). The authors interpret the diabetes finding as possible cautious prescribing in line with NICE guidance, and note it is unclear whether the women who received HRT were those with the most severe symptoms. Observational study — it cannot show cause.",
             "cite": "BMJ Medicine · Population-based cohort study, England, September 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12481343/"
           },
@@ -119,7 +119,7 @@ export default {
       },
       {
         "q": "Why would where I live change whether I’m offered HRT?",
-        "a": "It shouldn’t, but the data say it does. In 2025/26, 8.8 in every 100 women over 40 in England’s most deprived fifth were prescribed NHS HRT, against 14.2 in 100 elsewhere — and at local authority level the range ran from 4.5 in 100 in Newham to 23.4 in 100 in Brighton and Hove. Clinicians point to several overlapping causes: how easy it is to get an appointment at all, how confident a particular practice is with menopause care, language and interpreting, and how menopause is discussed within different communities. There is also a caution worth holding onto — prescribing counts don’t prove women are missing out, because some may be choosing non-hormonal treatment. But a five-fold difference between two English boroughs is not explained by preference alone."
+        "a": "It shouldn’t, but the data say it does. In 2025/26, 8.8 in every 100 women over 40 in England’s most deprived fifth were prescribed NHS HRT, against 14.2 in 100 elsewhere — and at local authority level the range ran from 4.5 in 100 in Newham to 23.4 in 100 in Brighton and Hove. Clinicians point to several overlapping causes: how easy it is to get an appointment at all, how confident a particular practice is with menopause care, language and interpreting, and how menopause is discussed within different communities. There is also a caution worth holding onto — prescribing counts don’t prove women are missing out, because some may be choosing non-hormonal treatment. But a five-fold difference between two English local authorities is not explained by preference alone."
       }
     ]
   },
@@ -129,7 +129,7 @@ export default {
     "title": "Рекордні два мільйони жінок отримують ЗГТ від NHS — але місце проживання досі вирішує, чи будете Ви серед них",
     "seoTitle": "ЗГТ у NHS: рекордні 2 мільйони і розрив у доступі",
     "metaDesc": "У 2025/26 році 2 038 025 жінок в Англії отримали ЗГТ від NHS. Нові дані показують, хто досі лишається поза цим — за місцем проживання і діагнозом.",
-    "excerpt": "Призначень ЗГТ у NHS за п’ять років стало вдвічі більше. Ті самі цифри показують: жінка з Брайтона вп’ятеро частіше отримає ЗГТ, ніж жінка з Ньюема.",
+    "excerpt": "Призначень ЗГТ у NHS за п’ять років стало більш ніж удвічі більше. Ті самі цифри показують: жінка з Брайтона вп’ятеро частіше отримає ЗГТ, ніж жінка з Ньюема.",
     "meta": "5 вересня 2026 · 7 хв читання",
     "lead": "Головна цифра — справді хороша новина: жінок, які отримують лікування симптомів менопаузи від NHS, більше, ніж будь-коли. Але варто читати цифру під нею, бо розрив між тими, кому ЗГТ пропонують, і тими, кому ні, майже не змінився.",
     "blocks": [
@@ -151,7 +151,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Когортне дослідження, опубліковане в BMJ Medicine у вересні 2025 року, підійшло до того самого питання з боку медичної картки, а не рецепта. Дослідники спостерігали 1 978 348 жінок віком 40–60 років у практиках сімейних лікарів Англії з 2013 по 2023 рік. Загалом 19,2% отримали два або більше призначень ЗГТ — тобто навіть за нинішніх рекордних показників приблизно чотири з п’яти жінок менопаузального віку так і не дійшли до другого рецепта. Серед білих жінок показник становив 22,6%, серед жінок карибського походження — 8,9%, серед жінок африканського походження — 3,9%. Він падав із 24,2% у найзаможнішій групі до 10,9% у найбіднішій. Лондон мав 11,7%, усі інші регіони — понад 19%. Різниця зберігалася після врахування інших соціально-демографічних чинників, і саме це не дає списати її на те, хто де живе."
+        "text": "Когортне дослідження, опубліковане в BMJ Medicine у вересні 2025 року, підійшло до того самого питання з боку медичної картки, а не рецепта. Дослідники спостерігали 1 978 348 жінок віком 40–60 років у практиках сімейних лікарів Англії з 2013 по 2023 рік. Загалом 19,2% отримали два або більше призначень ЗГТ — тобто за те десятиліття приблизно чотири з п’яти жінок менопаузального віку так і не дійшли до другого рецепта. Серед білих жінок показник становив 22,6%, серед жінок карибського походження — 8,9%, серед жінок африканського походження — 3,9%. Він падав із 24,2% у найзаможнішій групі до 10,9% у найбіднішій. Лондон мав 11,7%, усі інші регіони — понад 19%. Різниця зберігалася після врахування інших соціально-демографічних чинників, і саме це не дає списати її на те, хто де живе."
       },
       {
         "t": "p",
@@ -163,7 +163,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У таблицях того дослідження є те, чого я не бачила в жодній публікації, і воно прямо стосується багатьох читачок цього блогу. Жінки з діабетом 2 типу рідше отримували два або більше призначень ЗГТ, ніж жінки без нього: 15,5% проти 19,2% загалом, і зв’язок зберігався після врахування віку. У жінок з діабетом 1 типу такого розриву не було — 20,2%, трохи вище середнього, і статистично незначуще. Тобто це саме патерн для 2 типу, а не для діабету взагалі."
+        "text": "У таблицях того дослідження є те, чого я не бачила в жодній публікації, і воно прямо стосується багатьох читачок цього блогу. Жінки з діабетом 2 типу рідше отримували два або більше призначень ЗГТ, ніж жінки без нього: 15,5% проти 19,2% загалом — різниця статистично значуща, але нескоригована, тобто без урахування віку чи ваги. У жінок з діабетом 1 типу такого розриву не було — 20,2%, трохи вище середнього, і статистично незначуще. Тобто це саме патерн для 2 типу, а не для діабету взагалі."
       },
       {
         "t": "p",
@@ -175,7 +175,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одна практична річ, бо для частини жінок вартість — реальна перешкода, і її легко зняти. В Англії існує окремий сертифікат передоплати рецептів на ЗГТ: 19,80 фунта за дванадцять місяців і необмежена кількість відповідних препаратів ЗГТ. Він окуповується вже після двох позицій і діє навіть тоді, коли ЗГТ призначили не через симптоми менопаузи. Департамент охорони здоров’я і соціального забезпечення обіцяє в межах оновленої Стратегії жіночого здоров’я відкрити спеціалізовані центри жіночого здоров’я в кожному регіоні, починаючи з районів із найбільшою потребою. Це поки обіцянка, а не послуга, до якої можна записатися сьогодні, — але сертифікат існує вже зараз, і багато жінок, які платять за кожну позицію окремо, про нього просто не чули."
+        "text": "Одна практична річ, бо для частини жінок вартість — реальна перешкода, і її легко зняти. В Англії існує окремий сертифікат передоплати рецептів на ЗГТ: 19,80 фунта за дванадцять місяців і необмежена кількість відповідних препаратів ЗГТ. Він окуповується вже на двох позиціях, а кожна наступна — економія, і діє навіть тоді, коли ЗГТ призначили не через симптоми менопаузи. Департамент охорони здоров’я і соціального забезпечення обіцяє в межах оновленої Стратегії жіночого здоров’я відкрити спеціалізовані центри жіночого здоров’я в кожному регіоні, починаючи з районів із найбільшою потребою. Це поки обіцянка, а не послуга, до якої можна записатися сьогодні, — але сертифікат існує вже зараз, і багато жінок, які платять за кожну позицію окремо, про нього просто не чули."
       },
       {
         "t": "refs",
@@ -188,7 +188,7 @@ export default {
           },
           {
             "claim": "У двох мільйонах карток сімейних лікарів призначення ЗГТ падало зі зростанням бідності, різко відрізнялося за етнічною групою і було нижчим у жінок із діабетом 2 типу.",
-            "detail": "Популяційне когортне дослідження на базі QResearch (первинна ланка Англії) з 1 січня 2013 до 13 липня 2023 року, 1 978 348 жінок віком 40–60 років (середній вік 49,4; 76,2% білих). Загалом 379 911 (19,2%) отримали два або більше призначень ЗГТ. Показники: 22,6% у білих жінок, 8,9% у жінок карибського походження, 3,9% у жінок африканського походження; 24,2% у найзаможнішій групі проти 10,9% у найбіднішій; 11,7% у Лондоні проти понад 19% у кожному іншому регіоні. У багатофакторній регресії Кокса неєвропейські етнічні групи мали значуще нижчі показники (відношення ризиків 0,85–0,92, p<0,001), а найбідніша група — 0,92 (95% ДІ 0,92–0,93, p<0,001). Серед супутніх станів жінки з діабетом 2 типу мали 15,5% (відношення ризиків 0,96, 95% ДІ 0,95–0,97, p<0,001), тоді як при діабеті 1 типу — 20,2% і без значущої різниці (0,99–1,03, p=0,368). Автори тлумачать результат щодо діабету як можливу обережність у призначенні згідно з настановами NICE і зазначають: незрозуміло, чи саме ті, хто отримав ЗГТ, мали найважчі симптоми. Обсерваційне дослідження — воно не показує причинності.",
+            "detail": "Популяційне когортне дослідження на базі QResearch (первинна ланка Англії) з 1 січня 2013 до 13 липня 2023 року, 1 978 348 жінок віком 40–60 років (середній вік 49,4; 76,2% білих). Загалом 379 911 (19,2%) отримали два або більше призначень ЗГТ. Показники: 22,6% у білих жінок, 8,9% у жінок карибського походження, 3,9% у жінок африканського походження; 24,2% у найзаможнішій групі проти 10,9% у найбіднішій; 11,7% у Лондоні проти понад 19% у кожному іншому регіоні. У багатофакторній регресії Кокса неєвропейські етнічні групи мали значуще нижчі показники (відношення ризиків 0,85–0,92, p<0,001), а найбідніша група — 0,92 (95% ДІ 0,92–0,93, p<0,001). Серед супутніх станів жінки з діабетом 2 типу мали 15,5% (нескориговане відношення ризиків 0,96, 95% ДІ 0,95–0,97, p<0,001), тоді як при діабеті 1 типу — 20,2% і без значущої різниці (відношення ризиків 1,01, 95% ДІ 0,99–1,03, p=0,368). Автори тлумачать результат щодо діабету як можливу обережність у призначенні згідно з настановами NICE і зазначають: незрозуміло, чи саме ті, хто отримав ЗГТ, мали найважчі симптоми. Обсерваційне дослідження — воно не показує причинності.",
             "cite": "BMJ Medicine · Популяційне когортне дослідження, Англія, вересень 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12481343/"
           },
