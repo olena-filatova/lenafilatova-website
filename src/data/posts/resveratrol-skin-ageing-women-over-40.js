@@ -22,7 +22,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "On wrinkles, only the group taking both the capsules and the cream did better than placebo, and the margin was modest. Wrinkle scores fell 11.9% in that group against 6.3% on placebo. In absolute terms that is a drop of 0.59 points versus 0.31 on a scale starting near 5 — a difference of under three tenths of a point after two months. Statistically real; visually, the sort of change you would struggle to see in the mirror. Capsules alone did nothing measurable to wrinkles at all."
+        "text": "On wrinkles, only the group taking both the capsules and the cream did better than placebo, and the margin was modest. Wrinkle scores fell 11.9% in that group against 6.3% on placebo. In absolute terms that is a drop of 0.59 points versus 0.31 on a scale starting near 5 — a difference of under three tenths of a point after two months. Statistically real; visually, the sort of change you would struggle to see in the mirror. Capsules alone did no better than placebo on wrinkles."
       },
       {
         "t": "p",
@@ -30,11 +30,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "One widely repeated claim needs correcting. The cream did raise sebum — skin oil — substantially, roughly doubling it in the forehead-and-nose zone. That has been reported as good news for the drier skin of menopause. But the trial measured skin moisture separately, and moisture did not improve. Nor did elasticity, pore size or measured skin age. More oil is not the same as more hydration, and for anyone whose skin is oily or breakout-prone it is not obviously a benefit at all."
+        "text": "One widely repeated claim needs correcting. The cream did raise sebum — skin oil — substantially, roughly doubling it across the cheeks, jawline and chin. That has been reported as good news for the drier skin of menopause. But the trial measured skin moisture separately, and moisture did not improve. Nor did elasticity, pore size or measured skin age. More oil is not the same as more hydration, and for anyone whose skin is oily or breakout-prone it is not obviously a benefit at all."
       },
       {
         "t": "p",
-        "text": "Two caveats matter more than any of the numbers. The first is age: the women in this trial averaged 57 to 59, so this is evidence about post-menopausal skin, not about the 44-year-old in early perimenopause who is most likely to be reading about it. The second is funding. The trial was paid for by Evolva AG, which sells the resveratrol ingredient, and three of the authors work for the sponsor or its successor company. That does not make the result wrong — the design is sound and it was independently peer-reviewed — but industry-funded trials of the sponsor's own product return favourable results more often than independent ones do, and eight weeks is a short window in which to see a supplement fail."
+        "text": "Two caveats matter more than any of the numbers. The first is age: the women in this trial averaged 56 to 59, so this is evidence about post-menopausal skin, not about the 44-year-old in early perimenopause who is most likely to be reading about it. The second is funding. The trial was paid for by Evolva AG, which sells the resveratrol ingredient, and three of the authors work for the sponsor or its successor company. That does not make the result wrong — the design is sound and it was independently peer-reviewed — but industry-funded trials of the sponsor's own product return favourable results more often than independent ones do, and eight weeks is a short window in which to see a supplement fail."
       },
       {
         "t": "p",
@@ -49,7 +49,7 @@ export default {
         "items": [
           {
             "claim": "Only the combined oral-plus-topical group beat placebo on wrinkles, by a small margin.",
-            "detail": "A double-blind, randomised, placebo-controlled trial published in Frontiers in Aging on 19 December 2025 randomised 134 healthy women aged 40+ (mean age 57.6–59.3 across groups; 122 completed) to four arms for eight weeks: placebo oral + placebo topical, active oral + placebo topical, placebo oral + active topical, or active both. Dosing was 75 mg trans-resveratrol orally twice daily and a 1.5% trans-resveratrol cream, 1 g applied twice daily. At week 8, the both-active group's wrinkle score fell significantly more than placebo (−0.59, or −11.9%, versus −0.31, or −6.3%; p < 0.05) from a baseline of approximately 5.0. Oral-only did not differ from placebo on wrinkles. Products were reported as safe with only mild adverse events.",
+            "detail": "A double-blind, randomised, placebo-controlled trial published in Frontiers in Aging on 19 December 2025 randomised 134 healthy women aged 40+ (mean age 55.8–59.3 across groups; 122 completed) to four arms for eight weeks: placebo oral + placebo topical, active oral + placebo topical, placebo oral + active topical, or active both. Dosing was 75 mg trans-resveratrol orally twice daily and a 1.5% trans-resveratrol cream, 1 g applied twice daily. At week 8, the both-active group's wrinkle score fell significantly more than placebo (−0.59, or −11.9%, versus −0.31, or −6.3%; p < 0.05) from a baseline of approximately 5.0. Oral-only did not differ from placebo on wrinkles. Products were reported as safe with only mild adverse events.",
             "cite": "Frontiers in Aging · Randomised controlled trial, 19 December 2025",
             "url": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2025.1727244/full"
           },
@@ -92,11 +92,11 @@ export default {
     "faq": [
       {
         "q": "Do resveratrol supplements reduce wrinkles?",
-        "a": "On the best evidence available, barely. In an eight-week randomised trial in women aged 40 and over, capsules taken on their own made no measurable difference to wrinkles. Only the group using both the capsules and a 1.5% resveratrol cream did better than placebo, and the gap was under three tenths of a point on a wrinkle score — real in the statistics, hard to see in a mirror. The trial was also funded by the company that supplies the ingredient."
+        "a": "On the best evidence available, barely. In an eight-week randomised trial in women aged 40 and over, capsules taken on their own did no better than placebo on wrinkles. Only the group using both the capsules and a 1.5% resveratrol cream did better than placebo, and the gap was under three tenths of a point on a wrinkle score — real in the statistics, hard to see in a mirror. The trial was also funded by the company that supplies the ingredient."
       },
       {
         "q": "Is resveratrol cream good for dry skin in menopause?",
-        "a": "That claim goes further than the data. The cream did roughly double sebum — the skin's own oil — in the forehead and nose area. But the same trial measured hydration separately and found no improvement in skin moisture, and none in elasticity either. Oil and moisture are not the same thing. The clearest benefit the cream showed was on pigmentation and uneven tone, not on dryness."
+        "a": "That claim goes further than the data. The cream did roughly double sebum — the skin's own oil — across the cheeks, jawline and chin. But the same trial measured hydration separately and found no improvement in skin moisture, and none in elasticity either. Oil and moisture are not the same thing. The clearest benefit the cream showed was on pigmentation and uneven tone, not on dryness."
       }
     ]
   },
@@ -116,7 +116,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Щодо зморшок плацебо переграла лише група, яка вживала і капсули, і крем, — і перевага була скромною. Показник зморшок у ній знизився на 11,9% проти 6,3% на плацебо. В абсолютних числах це −0,59 бала проти −0,31 за шкалою, що починалася приблизно з 5, тобто різниця менша за три десятих бала за два місяці. Статистично реально; візуально — така зміна, яку важко помітити в дзеркалі. Самі лише капсули на зморшки не вплинули взагалі."
+        "text": "Щодо зморшок плацебо переграла лише група, яка вживала і капсули, і крем, — і перевага була скромною. Показник зморшок у ній знизився на 11,9% проти 6,3% на плацебо. В абсолютних числах це −0,59 бала проти −0,31 за шкалою, що починалася приблизно з 5, тобто різниця менша за три десятих бала за два місяці. Статистично реально; візуально — така зміна, яку важко помітити в дзеркалі. Самі лише капсули щодо зморшок не дали кращого результату, ніж плацебо."
       },
       {
         "t": "p",
@@ -124,11 +124,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одне поширене твердження потребує виправлення. Крем справді помітно підвищив себум — шкірне сало — приблизно вдвічі в зоні чола й носа. Це подавали як добру новину для сухішої шкіри в менопаузі. Але дослідження окремо вимірювало вологість шкіри, і вона не покращилася. Як і еластичність, розмір пор чи виміряний «вік шкіри». Більше жиру — це не більше вологи, а для тих, у кого шкіра жирна або схильна до висипань, це взагалі сумнівна перевага."
+        "text": "Одне поширене твердження потребує виправлення. Крем справді помітно підвищив себум — шкірне сало — приблизно вдвічі в зоні щік, лінії щелепи й підборіддя. Це подавали як добру новину для сухішої шкіри в менопаузі. Але дослідження окремо вимірювало вологість шкіри, і вона не покращилася. Як і еластичність, розмір пор чи виміряний «вік шкіри». Більше жиру — це не більше вологи, а для тих, у кого шкіра жирна або схильна до висипань, це взагалі сумнівна перевага."
       },
       {
         "t": "p",
-        "text": "Два застереження важать більше за будь-які цифри. Перше — вік: середній вік учасниць був 57–59 років, тож це дані про постменопаузальну шкіру, а не про 44-річну жінку на початку перименопаузи, яка найімовірніше про це й читає. Друге — фінансування. Дослідження оплатила компанія Evolva AG, яка продає цей інгредієнт ресвератролу, і троє авторів працюють на спонсора або його компанію-наступницю. Це не робить результат хибним — дизайн надійний, робота пройшла рецензування, — але дослідження, профінансовані виробником власного продукту, дають сприятливі результати частіше за незалежні, а вісім тижнів — короткий строк, щоб добавка встигла показати невдачу."
+        "text": "Два застереження важать більше за будь-які цифри. Перше — вік: середній вік учасниць був 56–59 років, тож це дані про постменопаузальну шкіру, а не про 44-річну жінку на початку перименопаузи, яка найімовірніше про це й читає. Друге — фінансування. Дослідження оплатила компанія Evolva AG, яка продає цей інгредієнт ресвератролу, і троє авторів працюють на спонсора або його компанію-наступницю. Це не робить результат хибним — дизайн надійний, робота пройшла рецензування, — але дослідження, профінансовані виробником власного продукту, дають сприятливі результати частіше за незалежні, а вісім тижнів — короткий строк, щоб добавка встигла показати невдачу."
       },
       {
         "t": "p",
@@ -143,13 +143,13 @@ export default {
         "items": [
           {
             "claim": "Плацебо переграла лише група, що поєднувала капсули й крем, — і з невеликою перевагою.",
-            "detail": "Подвійне сліпе рандомізоване плацебо-контрольоване дослідження, опубліковане у Frontiers in Aging 19 грудня 2025 року, рандомізувало 134 здорові жінки віком від 40 років (середній вік у групах 57,6–59,3; завершили 122) на чотири групи на вісім тижнів: плацебо всередину + плацебо зовнішньо, активна речовина всередину + плацебо зовнішньо, плацебо всередину + активна зовнішньо, або активна речовина в обох формах. Дозування: 75 мг транс-ресвератролу всередину двічі на добу і крем із 1,5% транс-ресвератролу, 1 г двічі на добу. На 8-му тижні показник зморшок у групі з обома активними засобами знизився значно більше, ніж на плацебо (−0,59, або −11,9%, проти −0,31, або −6,3%; p < 0,05) від початкового рівня близько 5,0. Самі лише капсули від плацебо за зморшками не відрізнялися. Засоби визнано безпечними, побічні явища — лише легкі.",
+            "detail": "Подвійне сліпе рандомізоване плацебо-контрольоване дослідження, опубліковане у Frontiers in Aging 19 грудня 2025 року, рандомізувало 134 здорові жінки віком від 40 років (середній вік у групах 55,8–59,3; завершили 122) на чотири групи на вісім тижнів: плацебо всередину + плацебо зовнішньо, активна речовина всередину + плацебо зовнішньо, плацебо всередину + активна зовнішньо, або активна речовина в обох формах. Дозування: 75 мг транс-ресвератролу всередину двічі на добу і крем із 1,5% транс-ресвератролу, 1 г двічі на добу. На 8-му тижні показник зморшок у групі з обома активними засобами знизився значно більше, ніж на плацебо (−0,59, або −11,9%, проти −0,31, або −6,3%; p < 0,05) від початкового рівня близько 5,0. Самі лише капсули від плацебо за зморшками не відрізнялися. Засоби визнано безпечними, побічні явища — лише легкі.",
             "cite": "Frontiers in Aging · Рандомізоване контрольоване дослідження, 19 грудня 2025",
             "url": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2025.1727244/full"
           },
           {
             "claim": "Крем покращив пігментацію сильніше, ніж зморшки.",
-            "detail": "У тому самому дослідженні в обох групах, що користувалися активним кремом, пігментація зменшилася значно більше, ніж у групі подвійного плацебо (p < 0,001) — це вищий рівень значущості, ніж у результату щодо зморшок. Себум у Т-зоні чола й носа теж різко зріс у групах з активним кремом (на 88,7% і 108,7% від початкового рівня проти 34,7% і 22,2% у групах із плацебо-кремом; p < 0,05). Проте автори не виявили різниці між групами в жодній точці спостереження за вологістю шкіри, еластичністю, розміром пор, себумом Т-зони, температурою шкіри чи виміряним «віком шкіри» — тобто зростання жиру не супроводжувалося зростанням зволоженості.",
+            "detail": "У тому самому дослідженні в обох групах, що користувалися активним кремом, пігментація зменшилася значно більше, ніж у групі подвійного плацебо (p < 0,001) — це вищий рівень значущості, ніж у результату щодо зморшок. Себум в U-зоні (щоки, лінія щелепи й підборіддя) теж різко зріс у групах з активним кремом (на 88,7% і 108,7% від початкового рівня проти 34,7% і 22,2% у групах із плацебо-кремом; p < 0,05). Проте автори не виявили різниці між групами в жодній точці спостереження за вологістю шкіри, еластичністю, розміром пор, себумом Т-зони, температурою шкіри чи виміряним «віком шкіри» — тобто зростання жиру не супроводжувалося зростанням зволоженості.",
             "cite": "Frontiers in Aging · Рандомізоване контрольоване дослідження, 19 грудня 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12757695/"
           },
@@ -186,11 +186,11 @@ export default {
     "faq": [
       {
         "q": "Чи зменшують добавки з ресвератролом зморшки?",
-        "a": "За найкращими наявними доказами — ледь-ледь. У восьмитижневому рандомізованому дослідженні в жінок від 40 років самі лише капсули не дали жодної помітної різниці щодо зморшок. Плацебо переграла лише група, що поєднувала капсули з кремом із 1,5% ресвератролу, і різниця склала менш ніж три десятих бала за шкалою зморшок — реальна в статистиці, важко помітна в дзеркалі. До того ж дослідження профінансувала компанія, яка постачає цей інгредієнт."
+        "a": "За найкращими наявними доказами — ледь-ледь. У восьмитижневому рандомізованому дослідженні в жінок від 40 років одні лише капсули подіяли на зморшки не краще за плацебо. Плацебо переграла лише група, що поєднувала капсули з кремом із 1,5% ресвератролу, і різниця склала менш ніж три десятих бала за шкалою зморшок — реальна в статистиці, важко помітна в дзеркалі. До того ж дослідження профінансувала компанія, яка постачає цей інгредієнт."
       },
       {
         "q": "Чи корисний крем із ресвератролом для сухої шкіри в менопаузі?",
-        "a": "Це твердження йде далі, ніж дозволяють дані. Крем справді приблизно вдвічі підвищив себум — власне шкірне сало — у зоні чола й носа. Але те саме дослідження окремо вимірювало зволоженість і не виявило покращення вологості шкіри, як і еластичності. Жир і волога — це не одне й те саме. Найчіткіша користь, яку показав крем, стосувалася пігментації та нерівного тону, а не сухості."
+        "a": "Це твердження йде далі, ніж дозволяють дані. Крем справді приблизно вдвічі підвищив себум — власне шкірне сало — у зоні щік, лінії щелепи й підборіддя. Але те саме дослідження окремо вимірювало зволоженість і не виявило покращення вологості шкіри, як і еластичності. Жир і волога — це не одне й те саме. Найчіткіша користь, яку показав крем, стосувалася пігментації та нерівного тону, а не сухості."
       }
     ]
   }

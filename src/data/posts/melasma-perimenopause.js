@@ -88,7 +88,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The trials are more interesting than the marketing. In a randomised trial of sixty-eight patients, everyone using 4% hydroquinone for eight weeks, the group whose sunscreen also blocked visible light did about fifteen per cent better on the standard melasma severity score than the group on an ultraviolet-only filter of the same strength. In a second randomised trial, forty patients followed for six months, the group without iron oxides saw their severity score climb significantly from baseline while the tinted group’s did not. That is two studies pointing the same way."
+        "text": "The trials are more interesting than the marketing. In a randomised trial of sixty-eight patients, everyone using 4% hydroquinone for eight weeks, the group whose sunscreen also blocked visible light did about fifteen per cent better on the standard melasma severity score than the group on an ultraviolet-only filter of the same strength. In a second randomised trial, forty patients followed for six months, the group without iron oxides saw their severity score climb significantly more than the tinted group’s, which barely moved. That is two studies pointing the same way."
       },
       {
         "t": "p",
@@ -108,7 +108,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Oral tranexamic acid is the treatment you will see discussed most and understand least. At 250 mg twice daily — a sixth of the dose used to stop bleeding — it lowers melasma severity scores by about 1.6 points across pooled trials, and in one study raised improvement to 82% against 41% for topical treatment alone. It is also an anti-fibrinolytic, so the question of clotting is not paranoia. The evidence is genuinely mixed: one analysis found roughly a fourfold relative increase in venous thromboembolism among users, against an absolute risk so small that tens of thousands of women would need treating for one extra event, while a large matched analysis of patients treated for melasma specifically found no association at all. That is a conversation with a prescriber who knows your clotting history, not something to buy online."
+        "text": "Oral tranexamic acid is the treatment you will see discussed most and understand least. At 250 mg twice daily — a sixth of the dose used to stop bleeding — it lowers melasma severity scores by about 1.6 points across pooled trials, and in one trial raised the share of patients rating their lightening good or excellent to 82%, against 41% on topical treatment alone. It is also an anti-fibrinolytic, so the question of clotting is not paranoia. The evidence is genuinely mixed: one analysis found roughly a fourfold relative increase in venous thromboembolism among users, against an absolute risk so small that tens of thousands of women would need treating for one extra event, while a large matched analysis of patients treated for melasma specifically found no association at all. That is a conversation with a prescriber who knows your clotting history, not something to buy online."
       },
       {
         "t": "h",
@@ -145,7 +145,7 @@ export default {
             "url": "https://europepmc.org/article/MED/24313385"
           },
           {
-            "claim": "Over six months, melasma severity rose significantly in the group using a sunscreen without iron oxides, and did not in the group using one with them.",
+            "claim": "Over six months, melasma severity rose significantly more in the group using a sunscreen without iron oxides than in the group using one with them.",
             "detail": "Boukari F, Jourdan E, Fontas E, Montaudié H, Castela E, Lacour JP, et al. Prevention of melasma relapses with sunscreen combining protection against UV and short wavelengths of visible light: a prospective randomized comparative trial. Journal of the American Academy of Dermatology, 2015; 72(1): 189–190.e1. Forty patients with melasma, randomised to two sunscreens with identical ultraviolet filters differing only in the addition of iron oxides. The same work established that short wavelengths around 415 nm produce prolonged pigmentation in healthy volunteers while 630 nm does not.",
             "url": "https://www.jaad.org/article/S0190-9622(14)01870-2/fulltext"
           },
@@ -156,7 +156,7 @@ export default {
           },
           {
             "claim": "Oral tranexamic acid lowers melasma severity scores, and the clotting question has evidence on both sides.",
-            "detail": "Efficacy pooled in a systematic review and meta-analysis in Acta Dermato-Venereologica covering 11 studies and 667 participants, finding a 1.60-point reduction in the melasma area and severity index (95% CI 1.20–2.00), with 250 mg twice daily the common dose and one trial reporting 82.3% improvement versus 40.8% for topical therapy alone. On safety, an analysis of oral tranexamic acid use in women reported an adjusted incidence rate ratio of 4.0 (1.8–8.8) for venous thromboembolism against a number needed to harm of 78,549 women per five days of treatment, while a multicentre propensity score-matched electronic health record cohort of patients treated for melasma found no association with thromboembolism.",
+            "detail": "Efficacy pooled in a systematic review and meta-analysis in Acta Dermato-Venereologica covering 11 studies and 667 participants, finding a 1.60-point reduction in the melasma area and severity index (95% CI 1.20–2.00), with 250 mg twice daily the common dose and one trial reporting 82.3% of patients rating their lightening good or excellent versus 40.8% on topical therapy alone. On safety, an analysis of oral tranexamic acid use in women reported an adjusted incidence rate ratio of 4.0 (1.8–8.8) for venous thromboembolism against a number needed to harm of 78,549 women per five days of treatment, while a multicentre propensity score-matched electronic health record cohort of patients treated for melasma found no association with thromboembolism.",
             "url": "https://www.medicaljournals.se/acta/content/html/10.2340/00015555-2668"
           }
         ]
@@ -282,7 +282,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Дослідження цікавіші за маркетинг. У рандомізованому дослідженні на шістдесяти восьми пацієнтах, де всі вісім тижнів застосовували 4% гідрохінон, група, чий сонцезахист блокував ще й видиме світло, показала приблизно на п’ятнадцять відсотків кращий результат за стандартною шкалою тяжкості мелазми, ніж група з фільтром лише проти ультрафіолету тієї самої сили. У другому рандомізованому дослідженні, сорок пацієнтів упродовж шести місяців, у групі без оксидів заліза оцінка тяжкості значуще зросла від початкової, а в тонованій групі — ні. Це два дослідження, що вказують в один бік."
+        "text": "Дослідження цікавіші за маркетинг. У рандомізованому дослідженні на шістдесяти восьми пацієнтах, де всі вісім тижнів застосовували 4% гідрохінон, група, чий сонцезахист блокував ще й видиме світло, показала приблизно на п’ятнадцять відсотків кращий результат за стандартною шкалою тяжкості мелазми, ніж група з фільтром лише проти ультрафіолету тієї самої сили. У другому рандомізованому дослідженні, сорок пацієнтів упродовж шести місяців, у групі без оксидів заліза оцінка тяжкості зросла значуще більше, ніж у тонованій групі, де вона майже не змінилася. Це два дослідження, що вказують в один бік."
       },
       {
         "t": "p",
@@ -302,7 +302,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Транексамова кислота в таблетках — те, що обговорюють найбільше й розуміють найменше. У дозі 250 мг двічі на добу (шоста частина від кровоспинної) вона знижує оцінку тяжкості мелазми приблизно на 1,6 бала за об’єднаними даними, а в одному дослідженні підняла частку покращення до 82% проти 41% на самому лише зовнішньому лікуванні. Це також антифібринолітик, тож питання тромбозів — не параноя. Докази справді суперечливі: один аналіз виявив приблизно чотириразове відносне зростання венозних тромбоемболій серед тих, хто приймав препарат, при настільки малому абсолютному ризику, що для одного зайвого випадку довелося б пролікувати десятки тисяч жінок; а великий аналіз зіставлених пар пацієнтів, яких лікували саме від мелазми, зв’язку не знайшов узагалі. Це розмова з лікарем, який знає вашу історію згортання крові, а не покупка в інтернеті."
+        "text": "Транексамова кислота в таблетках — те, що обговорюють найбільше й розуміють найменше. У дозі 250 мг двічі на добу (шоста частина від кровоспинної) вона знижує оцінку тяжкості мелазми приблизно на 1,6 бала за об’єднаними даними, а в одному дослідженні підняла частку пацієнтів, які оцінили освітлення як добре або відмінне, до 82% проти 41% на самому лише зовнішньому лікуванні. Це також антифібринолітик, тож питання тромбозів — не параноя. Докази справді суперечливі: один аналіз виявив приблизно чотириразове відносне зростання венозних тромбоемболій серед тих, хто приймав препарат, при настільки малому абсолютному ризику, що для одного зайвого випадку довелося б пролікувати десятки тисяч жінок; а великий аналіз зіставлених пар пацієнтів, яких лікували саме від мелазми, зв’язку не знайшов узагалі. Це розмова з лікарем, який знає вашу історію згортання крові, а не покупка в інтернеті."
       },
       {
         "t": "h",
@@ -339,7 +339,7 @@ export default {
             "url": "https://europepmc.org/article/MED/24313385"
           },
           {
-            "claim": "За шість місяців тяжкість мелазми значуще зросла в групі із сонцезахистом без оксидів заліза і не зросла в групі з ними.",
+            "claim": "За шість місяців тяжкість мелазми значуще більше зросла в групі із сонцезахистом без оксидів заліза, ніж у групі з ними.",
             "detail": "Boukari F, Jourdan E, Fontas E, Montaudié H, Castela E, Lacour JP, et al. Prevention of melasma relapses with sunscreen combining protection against UV and short wavelengths of visible light: a prospective randomized comparative trial. Journal of the American Academy of Dermatology, 2015; 72(1): 189–190.e1. Сорок пацієнтів із мелазмою, рандомізовано на два сонцезахисні засоби з однаковими ультрафіолетовими фільтрами, що різнилися лише додаванням оксидів заліза. Та сама робота показала, що короткі хвилі близько 415 нм дають тривалу пігментацію у здорових добровольців, а 630 нм — ні.",
             "url": "https://www.jaad.org/article/S0190-9622(14)01870-2/fulltext"
           },
@@ -350,7 +350,7 @@ export default {
           },
           {
             "claim": "Транексамова кислота в таблетках знижує оцінку тяжкості мелазми, а щодо тромбозів докази є з обох боків.",
-            "detail": "Ефективність узагальнено в систематичному огляді та метааналізі в Acta Dermato-Venereologica за 11 дослідженнями та 667 учасниками: зниження індексу площі й тяжкості мелазми на 1,60 бала (95% ДІ 1,20–2,00), звична доза 250 мг двічі на добу, в одному дослідженні 82,3% покращення проти 40,8% на самому зовнішньому лікуванні. Щодо безпеки: аналіз застосування пероральної транексамової кислоти в жінок повідомив скоригований показник відносного ризику венозної тромбоемболії 4,0 (1,8–8,8) за числа, потрібного для завдання шкоди, 78 549 жінок на п’ять днів лікування, тоді як багатоцентровий аналіз зіставлених пар за електронними медичними записами в пацієнтів, яких лікували від мелазми, зв’язку з тромбоемболією не виявив.",
+            "detail": "Ефективність узагальнено в систематичному огляді та метааналізі в Acta Dermato-Venereologica за 11 дослідженнями та 667 учасниками: зниження індексу площі й тяжкості мелазми на 1,60 бала (95% ДІ 1,20–2,00), звична доза 250 мг двічі на добу, в одному дослідженні 82,3% пацієнтів оцінили освітлення як добре або відмінне проти 40,8% на самому зовнішньому лікуванні. Щодо безпеки: аналіз застосування пероральної транексамової кислоти в жінок повідомив скоригований показник відносного ризику венозної тромбоемболії 4,0 (1,8–8,8) за числа, потрібного для завдання шкоди, 78 549 жінок на п’ять днів лікування, тоді як багатоцентровий аналіз зіставлених пар за електронними медичними записами в пацієнтів, яких лікували від мелазми, зв’язку з тромбоемболією не виявив.",
             "url": "https://www.medicaljournals.se/acta/content/html/10.2340/00015555-2668"
           }
         ]

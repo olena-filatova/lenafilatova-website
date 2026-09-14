@@ -13,7 +13,7 @@ export default {
     "metaDesc": "A beauty-industry survey says menopausal women want more treatments. Who was actually asked, and the planning-gap finding underneath the headline.",
     "excerpt": "An industry report found 76.6% of respondents want energy-based treatments for menopausal skin. It also found only 9.1% have a long-term plan — and that second number is the useful one.",
     "meta": "10 September 2026 · 5 min read",
-    "lead": "A beauty-industry survey is being reported as proof that menopausal women want more treatments. The numbers are real, but they describe a magazine's own readers — and the report's most useful finding is the one nobody quoted.",
+    "lead": "A beauty-industry survey is being reported as proof that menopausal women want more treatments. The numbers are real, but they describe a magazine's own readers — and the report's most useful finding is not the one being repeated.",
     "blocks": [
       {
         "t": "p",
@@ -37,7 +37,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "That gap is what the aesthetics industry is calling an opportunity, and it is worth understanding as a customer rather than as a target. When asked what mattered most in choosing a treatment, respondents split almost evenly three ways — 24.9% put efficacy first, 22.2% cost, 20.9% safety. A person weighing up cost, safety and whether the thing works, one procedure at a time, with no overall plan, is a person who will be sold whatever is in front of them at the moment they feel worst about it."
+        "text": "That gap is what the aesthetics industry is calling an opportunity, and it is worth understanding as a customer rather than as a target. When asked what mattered most in choosing a treatment for menopause-related changes, respondents split almost evenly three ways — 24.9% put efficacy first, 22.2% cost, 20.9% safety. A person weighing up cost, safety and whether the thing works, one procedure at a time, with no overall plan, is a person who will be sold whatever is in front of them at the moment they feel worst about it."
       },
       {
         "t": "p",
@@ -53,7 +53,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One honest note on the report itself. It is a commercially commissioned survey of a magazine's own readers, published via press release, with no disclosed methodology, sample size or geography. That does not make its numbers false. It does mean they describe the aesthetics market's most engaged customers in the middle of 2026, and nothing beyond that."
+        "text": "One honest note on the report itself. It is a beauty publisher's own survey of its readers, published via press release, with a one-line methodology note and no disclosed sample size or geography. That does not make its numbers false. It does mean they describe the aesthetics market's most engaged customers in the middle of 2026, and nothing beyond that."
       },
       {
         "t": "h",
@@ -70,13 +70,13 @@ export default {
           },
           {
             "claim": "Nearly everyone is open to treatment; fewer than one in ten has a plan.",
-            "detail": "The report's own headline finding is a planning gap rather than a surge in demand: 93% of respondents said they remained open to some form of aesthetic treatment, while just 9.1% reported following a long-term treatment plan with a provider. That is the gap the aesthetics industry is describing as its opportunity. It is a commercially commissioned survey reported via press release, with no published methodology, sample size or geography, so it should be read as an industry temperature check rather than as prevalence data.",
+            "detail": "The report's own headline finding is a planning gap rather than a surge in demand: 93% of respondents said they remained open to some form of aesthetic treatment, while just 9.1% reported following a long-term treatment plan with a provider. That is the gap the aesthetics industry is describing as its opportunity. It is the publisher's own survey reported via press release, with only a one-line methodology note and no published sample size or geography, so it should be read as an industry temperature check rather than as prevalence data.",
             "cite": "NewBeauty / GlobeNewswire · Press release, 4 August 2026",
             "url": "https://www.globenewswire.com/news-release/2026/08/04/3338570/0/en/NewBeauty-s-State-of-Aesthetics-report-finds-nine-in-10-consumers-lack-a-long-term-treatment-plan-as-AI-GLP-1s-and-menopause-reshape-beauty-decisions.html"
           },
           {
             "claim": "Cost and safety rank almost as highly as whether a treatment works.",
-            "detail": "Asked what mattered most when choosing a treatment, 24.9% of respondents ranked efficacy first, 22.2% cost and 20.9% safety — a near three-way split. Read alongside the finding that only 9.1% work to a long-term plan, it suggests decisions are being made treatment by treatment rather than against a considered strategy. The same caveats apply: this is the publisher's own audience, and the underlying sample sizes are not disclosed.",
+            "detail": "Asked what mattered most when considering a treatment for menopause-related changes, 24.9% of respondents ranked efficacy first, 22.2% cost and 20.9% safety — a near three-way split. Read alongside the finding that only 9.1% work to a long-term plan, it suggests decisions are being made treatment by treatment rather than against a considered strategy. The same caveats apply: this is the publisher's own audience, and the underlying sample sizes are not disclosed.",
             "cite": "NewBeauty · State of Aesthetics Summer 2026",
             "url": "https://www.newbeauty.com/view/menopause-state-of-aesthetics-2026"
           }
@@ -127,7 +127,7 @@ export default {
     "metaDesc": "Опитування індустрії краси каже, що жінки в менопаузі хочуть більше процедур. Кого насправді питали і який висновок ховається під заголовком.",
     "excerpt": "Звіт індустрії показав, що 76,6% опитаних хочуть енергетичні процедури для менопаузальної шкіри. Він також показав, що лише 9,1% мають довгостроковий план — і саме це число корисне.",
     "meta": "10 вересня 2026 · 5 хв читання",
-    "lead": "Опитування індустрії краси подають як доказ того, що жінки в менопаузі хочуть більше процедур. Цифри справжні, але вони описують власних читачів журналу — а найкорисніший висновок звіту ніхто не процитував.",
+    "lead": "Опитування індустрії краси подають як доказ того, що жінки в менопаузі хочуть більше процедур. Цифри справжні, але вони описують власних читачів журналу — а найкорисніший висновок звіту — не той, який повторюють.",
     "blocks": [
       {
         "t": "p",
@@ -147,11 +147,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Тому власний головний висновок звіту цікавіший за той, що розійшовся. Поруч із 93%, які сказали, що відкриті до тих чи інших естетичних процедур, стоїть значно менше число: лише 9,1% мають довгостроковий план разом із лікарем. Готові майже всі. Далі наступного візиту думає менше ніж одна з десяти."
+        "text": "Тому власний головний висновок звіту цікавіший за той, що розійшовся. Поруч із 93%, які сказали, що відкриті до тих чи інших естетичних процедур, стоїть значно менше число: лише 9,1% мають довгостроковий план разом із фахівцем. Готові майже всі. Далі наступного візиту думає менше ніж одна з десяти."
       },
       {
         "t": "p",
-        "text": "Саме цей розрив індустрія називає своєю можливістю — і його варто розуміти як клієнтка, а не як цільова аудиторія. На питання, що найважливіше при виборі процедури, відповіді розділилися майже порівну на три: 24,9% поставили на перше місце ефективність, 22,2% — ціну, 20,9% — безпеку. Людина, яка зважує ціну, безпеку й результат окремо для кожної процедури, без загального плану, — це людина, якій продадуть те, що опиниться перед нею в момент, коли вона почувається найгірше."
+        "text": "Саме цей розрив індустрія називає своєю можливістю — і його варто розуміти як клієнтка, а не як цільова аудиторія. На питання, що найважливіше при виборі процедури для менопаузальних змін, відповіді розділилися майже порівну на три: 24,9% поставили на перше місце ефективність, 22,2% — ціну, 20,9% — безпеку. Людина, яка зважує ціну, безпеку й результат окремо для кожної процедури, без загального плану, — це людина, якій продадуть те, що опиниться перед нею в момент, коли вона почувається найгірше."
       },
       {
         "t": "p",
@@ -167,7 +167,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одне чесне зауваження про сам звіт. Це комерційне опитування власних читачів журналу, оприлюднене через пресреліз, без розкритої методології, розміру вибірки чи географії. Це не робить цифри неправдивими. Але означає, що вони описують найактивніших клієнтів естетичного ринку в середині 2026 року — і не більше."
+        "text": "Одне чесне зауваження про сам звіт. Це власне опитування видання серед його читачів, оприлюднене через пресреліз, лише з однорядковим описом методології й без розкритого розміру вибірки чи географії. Це не робить цифри неправдивими. Але означає, що вони описують найактивніших клієнтів естетичного ринку в середині 2026 року — і не більше."
       },
       {
         "t": "h",
@@ -184,13 +184,13 @@ export default {
           },
           {
             "claim": "Майже всі відкриті до процедур; план має менше ніж одна з десяти.",
-            "detail": "Власний головний висновок звіту — це не сплеск попиту, а розрив у плануванні: 93% опитаних сказали, що відкриті до тих чи інших естетичних процедур, і лише 9,1% мають довгостроковий план разом із лікарем. Саме цей розрив індустрія називає своєю можливістю. Це комерційне опитування, оприлюднене через пресреліз, без опублікованої методології, розміру вибірки чи географії, тож читати його варто як настрій галузі, а не як дані про поширеність.",
+            "detail": "Власний головний висновок звіту — це не сплеск попиту, а розрив у плануванні: 93% опитаних сказали, що відкриті до тих чи інших естетичних процедур, і лише 9,1% мають довгостроковий план разом із фахівцем. Саме цей розрив індустрія називає своєю можливістю. Це власне опитування видання, оприлюднене через пресреліз, лише з однорядковим описом методології й без опублікованого розміру вибірки чи географії, тож читати його варто як настрій галузі, а не як дані про поширеність.",
             "cite": "NewBeauty / GlobeNewswire · Пресреліз, 4 серпня 2026",
             "url": "https://www.globenewswire.com/news-release/2026/08/04/3338570/0/en/NewBeauty-s-State-of-Aesthetics-report-finds-nine-in-10-consumers-lack-a-long-term-treatment-plan-as-AI-GLP-1s-and-menopause-reshape-beauty-decisions.html"
           },
           {
             "claim": "Ціна та безпека важать майже стільки ж, скільки й результат.",
-            "detail": "На питання, що найважливіше при виборі процедури, 24,9% поставили на перше місце ефективність, 22,2% — ціну, 20,9% — безпеку. Майже рівний поділ на три. Разом із тим, що лише 9,1% працюють за довгостроковим планом, це виглядає як рішення, що ухвалюються процедура за процедурою, а не за продуманою стратегією. Ті самі застереження чинні: це аудиторія самого видання, і розміри вибірок не розкриті.",
+            "detail": "На питання, що найважливіше при виборі процедури для менопаузальних змін, 24,9% поставили на перше місце ефективність, 22,2% — ціну, 20,9% — безпеку. Майже рівний поділ на три. Разом із тим, що лише 9,1% працюють за довгостроковим планом, це виглядає як рішення, що ухвалюються процедура за процедурою, а не за продуманою стратегією. Ті самі застереження чинні: це аудиторія самого видання, і розміри вибірок не розкриті.",
             "cite": "NewBeauty · State of Aesthetics Summer 2026",
             "url": "https://www.newbeauty.com/view/menopause-state-of-aesthetics-2026"
           }
@@ -225,7 +225,7 @@ export default {
       },
       {
         "q": "Який висновок звіту найкорисніший?",
-        "a": "Розрив у плануванні. 93% опитаних сказали, що відкриті до естетичних процедур, і лише 9,1% мали довгостроковий план разом із лікарем. Готові майже всі, а далі наступного візиту не думає майже ніхто. Це добра підказка визначити, яку проблему ви насправді хочете вирішити і який результат вважатимете хорошим, ще до того, як опинитеся в кабінеті лікаря."
+        "a": "Розрив у плануванні. 93% опитаних сказали, що відкриті до естетичних процедур, і лише 9,1% мали довгостроковий план разом із фахівцем. Готові майже всі, а далі наступного візиту не думає майже ніхто. Це добра підказка визначити, яку проблему ви насправді хочете вирішити і який результат вважатимете хорошим, ще до того, як опинитеся в кабінеті лікаря."
       },
       {
         "q": "Чи справді лазери й радіочастотні процедури — найкраща відповідь на зміни шкіри в менопаузі?",
