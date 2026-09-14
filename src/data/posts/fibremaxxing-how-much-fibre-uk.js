@@ -18,11 +18,11 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Start with the part that holds up. The UK’s official recommendation, set by the Scientific Advisory Committee on Nutrition and repeated by the NHS, is 30g of fibre a day for adults. The National Diet and Nutrition Survey, which weighs and records what people actually eat, found adults aged 19 to 64 averaging 19.7g a day — and only 9% of them reaching 30g. That is not a rounding error. It is most of the country eating about two thirds of what it is advised to."
+        "text": "Start with the part that holds up. The UK’s official recommendation, set by the Scientific Advisory Committee on Nutrition and repeated by the NHS, is 30g of fibre a day for adults. The National Diet and Nutrition Survey, which records what people actually eat in a detailed four-day food diary, found adults aged 19 to 64 averaging 19.7g a day — and only 9% of them reaching 30g. That is not a rounding error. It is most of the country eating about two thirds of what it is advised to."
       },
       {
         "t": "p",
-        "text": "The same survey shows where the fibre we do eat comes from: cereals and cereal products supply 38–44% of it, vegetables and potatoes 21–32%, and fruit only 6–16%. So for most people the honest fix is unglamorous — more beans, more veg with the skin on, a higher-fibre bread, fruit rather than juice. It is closer to “eat a few more plants” than to a protocol."
+        "text": "The same survey shows where the fibre we do eat comes from: cereals and cereal products supply around 40% of it, vegetables and potatoes roughly a quarter, and fruit less again. So for most people the honest fix is unglamorous — more beans, more veg with the skin on, a higher-fibre bread, fruit rather than juice. It is closer to “eat a few more plants” than to a protocol."
       },
       {
         "t": "h",
@@ -58,7 +58,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "For type 2 diabetes specifically, the best summary is a 2021 meta-analysis of randomised trials in Nutrients. Adding fibre raised Bifidobacterium in the gut, lowered a marker of gut-barrier leakiness, and produced modest falls in BMI and total cholesterol. TNF-α and IL-6, two of the inflammatory markers, did not move significantly. It pooled only eleven small trials with quite different designs, so treat it as encouraging rather than settled — but note that the clearest benefits were metabolic, not anti-inflammatory."
+        "text": "For type 2 diabetes specifically, the best summary is a 2021 meta-analysis of randomised trials in Nutrients. Adding fibre raised Bifidobacterium in the gut, lowered a marker of gut-barrier leakiness, and produced modest falls in BMI and total cholesterol. TNF-α and IL-6, two of the inflammatory markers, did not move significantly. It pooled only ten small trials with quite different designs, so treat it as encouraging rather than settled — but note that the clearest benefits were metabolic, not anti-inflammatory."
       },
       {
         "t": "p",
@@ -77,7 +77,7 @@ export default {
         "items": [
           {
             "claim": "UK adults average 19.7g of fibre a day; only 9% meet the 30g recommendation.",
-            "detail": "The National Diet and Nutrition Survey Rolling Programme, Years 9 to 11 (2016/17 to 2018/19), reported mean AOAC fibre intake of 19.7g per day for adults aged 19 to 64, with 9% meeting the Scientific Advisory Committee on Nutrition recommendation of 30g per day. Main sources were cereals and cereal products (38–44% of intake), vegetables and potatoes (21–32%) and fruit (6–16%). This is a weighed dietary survey of a representative UK sample, not a trial.",
+            "detail": "The National Diet and Nutrition Survey Rolling Programme, Years 9 to 11 (2016/17 to 2018/19), reported mean AOAC fibre intake of 19.7g per day for adults aged 19 to 64, with 9% meeting the Scientific Advisory Committee on Nutrition recommendation of 30g per day. Across NDNS surveys the main sources are cereals and cereal products (around 40% of intake), then vegetables and potatoes, then fruit. This is a food-diary survey of a representative UK sample, not a trial.",
             "cite": "National Diet and Nutrition Survey · Years 9–11 report, UK",
             "url": "https://assets.publishing.service.gov.uk/media/5fd23324e90e07662b09d91a/NDNS_UK_Y9-11_report.pdf"
           },
@@ -156,11 +156,11 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Почнімо з того, що витримує перевірку. Офіційна британська рекомендація, яку встановив Науковий консультативний комітет із питань харчування (SACN) і повторює NHS, — 30 г клітковини на день для дорослих. Національне дослідження раціону та харчування, у якому їжу справді зважують і записують, показало: дорослі 19–64 років з’їдають у середньому 19,7 г на день, і лише 9% із них досягають 30 г. Це не похибка округлення. Це майже вся країна, яка їсть приблизно дві третини від рекомендованого."
+        "text": "Почнімо з того, що витримує перевірку. Офіційна британська рекомендація, яку встановив Науковий консультативний комітет із питань харчування (SACN) і повторює NHS, — 30 г клітковини на день для дорослих. Національне дослідження раціону та харчування, у якому люди детально записують усе, що справді з’їли, у щоденнику харчування за чотири дні, показало: дорослі 19–64 років з’їдають у середньому 19,7 г на день, і лише 9% із них досягають 30 г. Це не похибка округлення. Це майже вся країна, яка їсть приблизно дві третини від рекомендованого."
       },
       {
         "t": "p",
-        "text": "Те саме дослідження показує, звідки береться та клітковина, яку ми все ж їмо: зернові та продукти з них дають 38–44%, овочі й картопля — 21–32%, а фрукти — лише 6–16%. Тож для більшості людей чесне рішення виглядає буденно: більше бобових, більше овочів зі шкіркою, хліб із вищим вмістом клітковини, фрукти замість соку. Це ближче до «їжте трохи більше рослинної їжі», ніж до протоколу."
+        "text": "Те саме дослідження показує, звідки береться та клітковина, яку ми все ж їмо: зернові та продукти з них дають близько 40%, овочі й картопля — приблизно чверть, а фрукти — ще менше. Тож для більшості людей чесне рішення виглядає буденно: більше бобових, більше овочів зі шкіркою, хліб із вищим вмістом клітковини, фрукти замість соку. Це ближче до «їжте трохи більше рослинної їжі», ніж до протоколу."
       },
       {
         "t": "h",
@@ -196,7 +196,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Щодо діабету 2 типу найкращий підсумок — метааналіз рандомізованих досліджень у Nutrients за 2021 рік. Додана клітковина підвищила кількість Bifidobacterium у кишківнику, знизила маркер проникності кишкового бар’єра й дала помірне зниження ІМТ і загального холестерину. TNF-α та IL-6, два маркери запалення, значуще не змінилися. Об’єднано лише одинадцять невеликих досліджень із доволі різним дизайном, тож сприймайте це як обнадійливе, а не остаточне — але зверніть увагу, що найчіткіші переваги були метаболічні, а не протизапальні."
+        "text": "Щодо діабету 2 типу найкращий підсумок — метааналіз рандомізованих досліджень у Nutrients за 2021 рік. Додана клітковина підвищила кількість Bifidobacterium у кишківнику, знизила маркер проникності кишкового бар’єра й дала помірне зниження ІМТ і загального холестерину. TNF-α та IL-6, два маркери запалення, значуще не змінилися. Об’єднано лише десять невеликих досліджень із доволі різним дизайном, тож сприймайте це як обнадійливе, а не остаточне — але зверніть увагу, що найчіткіші переваги були метаболічні, а не протизапальні."
       },
       {
         "t": "p",
@@ -215,7 +215,7 @@ export default {
         "items": [
           {
             "claim": "Дорослі у Британії з’їдають у середньому 19,7 г клітковини на день; норми 30 г досягають лише 9%.",
-            "detail": "Національне дослідження раціону та харчування (NDNS), роки 9–11 (2016/17–2018/19), повідомляє про середнє споживання клітковини (метод AOAC) 19,7 г на день у дорослих 19–64 років, при цьому 9% досягають рекомендації SACN у 30 г на день. Основні джерела: зернові та продукти з них (38–44% споживання), овочі й картопля (21–32%), фрукти (6–16%). Це дослідження раціону зі зважуванням на репрезентативній британській вибірці, а не клінічне випробування.",
+            "detail": "Національне дослідження раціону та харчування (NDNS), роки 9–11 (2016/17–2018/19), повідомляє про середнє споживання клітковини (метод AOAC) 19,7 г на день у дорослих 19–64 років, при цьому 9% досягають рекомендації SACN у 30 г на день. За даними NDNS, основні джерела — зернові та продукти з них (близько 40% споживання), далі овочі й картопля, потім фрукти. Це дослідження раціону за щоденниками харчування на репрезентативній британській вибірці, а не клінічне випробування.",
             "cite": "National Diet and Nutrition Survey · звіт за роки 9–11, Велика Британія",
             "url": "https://assets.publishing.service.gov.uk/media/5fd23324e90e07662b09d91a/NDNS_UK_Y9-11_report.pdf"
           },
