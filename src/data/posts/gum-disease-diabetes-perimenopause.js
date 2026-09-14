@@ -189,7 +189,7 @@ export default {
           },
           {
             "claim": "Adding antibiotics or lasers to the basic clean does not have a settled advantage.",
-            "detail": "A 2025 Bayesian network meta-analysis pooled 37 randomised trials in 1,989 patients with both periodontitis and type 2 diabetes to compare scaling and root planing alone against the same treatment plus various adjuncts. Different adjuncts came out ahead on different outcomes — systemic doxycycline or antimicrobial photodynamic therapy for HbA1c, amoxicillin for bleeding on probing, a diode laser for fasting glucose — with no single approach superior across the board. The practical reading is that the basic professional clean is the intervention with the evidence behind it, and adjuncts are a clinical decision rather than something to request.",
+            "detail": "A 2025 Bayesian network meta-analysis pooled 37 randomised trials in 1,989 patients with both periodontitis and type 2 diabetes to compare scaling and root planing alone against the same treatment plus various adjuncts. Different adjuncts came out ahead on different outcomes — systemic doxycycline combined with antimicrobial photodynamic therapy for HbA1c, azithromycin for bleeding on probing, a diode laser for fasting glucose — with no single approach superior across the board, and the authors rated the quality of evidence low or very low. The practical reading is that the basic professional clean is the intervention with the evidence behind it, and adjuncts are a clinical decision rather than something to request.",
             "cite": "Acta Odontologica Scandinavica · 2025;84:43344",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12095944/"
           }
@@ -233,7 +233,7 @@ export default {
       },
       {
         "q": "Does perimenopause affect your gums?",
-        "a": "Probably, though the evidence is thinner than for diabetes and it is worth being honest about that gap. Gum tissue carries oestrogen receptors and becomes more reactive with hormonal change — which is why gums are more prone to inflammation in pregnancy and around periods. Falling oestrogen is associated with a drier mouth, and saliva is the mouth’s main defence against plaque. And the bone that holds teeth is subject to the same loss as the hip and spine: a five-year cohort found postmenopausal women with degraded bone quality had about two more teeth showing periodontitis progression, with an adjusted risk ratio of 1.85. Plausible mechanisms with some supporting evidence, rather than the 35 randomised trials behind the diabetes side."
+        "a": "Probably, though the evidence is thinner than for diabetes and it is worth being honest about that gap. Gum tissue carries oestrogen receptors and becomes more reactive with hormonal change — which is why gums are more prone to inflammation in pregnancy and around periods. Falling oestrogen is associated with a drier mouth, and saliva is the mouth’s main defence against plaque. And the bone loss that affects the hip and spine may reach the jaw too: a five-year cohort found postmenopausal women with degraded bone quality in the spine had about two more teeth showing periodontitis progression, with an adjusted risk ratio of 1.85. Plausible mechanisms with some supporting evidence, rather than the 35 randomised trials behind the diabetes side."
       },
       {
         "q": "How often should I see a dentist if I have diabetes?",
@@ -417,7 +417,7 @@ export default {
           },
           {
             "claim": "Додавання антибіотиків чи лазерів до базового чищення не має усталеної переваги.",
-            "detail": "Байєсівський мережевий метааналіз 2025 року об’єднав 37 рандомізованих досліджень за участю 1989 пацієнтів із пародонтитом і діабетом 2 типу, порівнюючи саму лише інструментальну обробку кореня з тією самою процедурою плюс різні додаткові засоби. Різні додатки виявилися кращими за різними наслідками — системний доксициклін або антимікробна фотодинамічна терапія для HbA1c, амоксицилін для кровоточивості при зондуванні, діодний лазер для глюкози натще, — і жоден підхід не був кращим за всіма показниками. Практичний висновок: базове професійне чищення — це втручання з доказовою базою, а додатки є клінічним рішенням, а не тим, що варто просити.",
+            "detail": "Байєсівський мережевий метааналіз 2025 року об’єднав 37 рандомізованих досліджень за участю 1989 пацієнтів із пародонтитом і діабетом 2 типу, порівнюючи саму лише інструментальну обробку кореня з тією самою процедурою плюс різні додаткові засоби. Різні додатки виявилися кращими за різними наслідками — системний доксициклін у поєднанні з антимікробною фотодинамічною терапією для HbA1c, азитроміцин для кровоточивості при зондуванні, діодний лазер для глюкози натще, — і жоден підхід не був кращим за всіма показниками, а якість доказів автори оцінили як низьку або дуже низьку. Практичний висновок: базове професійне чищення — це втручання з доказовою базою, а додатки є клінічним рішенням, а не тим, що варто просити.",
             "cite": "Acta Odontologica Scandinavica · 2025;84:43344",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12095944/"
           }
@@ -461,7 +461,7 @@ export default {
       },
       {
         "q": "Чи впливає перименопауза на ясна?",
-        "a": "Найпевніше так, хоча доказів тут менше, ніж щодо діабету, і про цей розрив варто говорити чесно. Тканина ясен має естрогенові рецептори й стає чутливішою при гормональних змінах — тому ясна більш схильні до запалення під час вагітності та навколо менструацій. Падіння естрогену пов’язане із сухістю в роті, а слина — головний захист від нальоту. І кістка, що тримає зуби, підлягає тій самій втраті, що стегно й хребет: п’ятирічна когорта показала, що жінки в постменопаузі з погіршеною якістю кістки мали приблизно на два зуби більше з прогресуванням пародонтиту, зі скоригованим відношенням ризиків 1,85. Це правдоподібні механізми з певними підтвердженнями, а не 35 рандомізованих досліджень, як на діабетичному боці."
+        "a": "Найпевніше так, хоча доказів тут менше, ніж щодо діабету, і про цей розрив варто говорити чесно. Тканина ясен має естрогенові рецептори й стає чутливішою при гормональних змінах — тому ясна більш схильні до запалення під час вагітності та навколо менструацій. Падіння естрогену пов’язане із сухістю в роті, а слина — головний захист від нальоту. І втрата кісткової тканини, що вражає стегно й хребет, може торкатися й щелепи: п’ятирічна когорта показала, що жінки в постменопаузі з погіршеною якістю кістки хребта мали приблизно на два зуби більше з прогресуванням пародонтиту, зі скоригованим відношенням ризиків 1,85. Це правдоподібні механізми з певними підтвердженнями, а не 35 рандомізованих досліджень, як на діабетичному боці."
       },
       {
         "q": "Як часто відвідувати стоматолога при діабеті?",

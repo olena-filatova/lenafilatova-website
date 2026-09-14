@@ -69,7 +69,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "[The Look AHEAD study](https://pmc.ncbi.nlm.nih.gov/articles/PMC2713631/), published in Diabetes Care in 2009, measured urinary incontinence in 2,994 overweight and obese women with type 2 diabetes. Twenty-seven per cent reported weekly incontinence, with a further 11% experiencing it daily. That number matters most in comparison with the complications everyone actually gets screened for."
+        "text": "[The Look AHEAD study](https://pmc.ncbi.nlm.nih.gov/articles/PMC2713631/), published in Diabetes Care in 2009, measured urinary incontinence in 2,994 overweight and obese women with type 2 diabetes. Twenty-seven per cent reported at least weekly incontinence, including 11% who experienced it daily. That number matters most in comparison with the complications everyone actually gets screened for."
       },
       {
         "t": "table",
@@ -98,7 +98,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Weekly incontinence was more common than retinopathy, microalbuminuria and neuropathy — combined, several times over. Your eyes are photographed annually. Your urine is tested for protein. Your feet are checked with a monofilament. The single most prevalent finding on that list is the one nobody asks you about, in a ten-minute appointment where you are also not going to raise it."
+        "text": "Weekly incontinence was more common than retinopathy, microalbuminuria and neuropathy — combined, more than twice over. Your eyes are photographed annually. Your urine is tested for protein. Your feet are checked with a monofilament. The single most prevalent finding on that list is the one nobody asks you about, in a ten-minute appointment where you are also not going to raise it."
       },
       {
         "t": "p",
@@ -134,7 +134,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In the UK this is not a matter of opinion, because [NICE guideline NG123](https://www.nice.org.uk/guidance/ng123/chapter/recommendations) sets it out. First-line treatment for stress or mixed urinary incontinence is a supervised pelvic floor muscle training programme of at least three months, comprising at least eight contractions performed three times a day, supervised by a physiotherapist or other professional with the relevant expertise. Surgery is not the first thing on the list. Neither is a device."
+        "text": "In the UK this is not a matter of opinion, because [NICE guideline NG123](https://www.nice.org.uk/guidance/ng123/chapter/recommendations) sets it out. First-line treatment for stress or mixed urinary incontinence is a supervised pelvic floor muscle training programme of at least three months, comprising at least eight contractions performed three times a day, with an internal (digital) examination first to confirm you can contract the muscle. Surgery is not the first thing on the list. Neither is a device."
       },
       {
         "t": "p",
@@ -249,19 +249,19 @@ export default {
           },
           {
             "claim": "In women with type 2 diabetes, weekly urinary incontinence (27%) was more common than retinopathy (7.5%), microalbuminuria (2.2%) and neuropathy (1.5%).",
-            "detail": "A cross-sectional analysis of baseline data from 2,994 overweight and obese women with type 2 diabetes enrolled in the Action for Health in Diabetes (Look AHEAD) trial. Twenty-seven per cent reported at least weekly urinary incontinence and 11% reported daily episodes, a higher prevalence than the three diabetes complications measured in the same cohort. Risk factors identified included higher BMI, higher parity, prior hysterectomy and urinary tract infection in the past year. The population was selected for overweight or obesity as a trial entry criterion, so the absolute prevalence should not be read across to all women with type 2 diabetes; the comparison between complications within the same cohort is the durable finding.",
+            "detail": "A cross-sectional analysis of baseline data from 2,994 overweight and obese women with type 2 diabetes enrolled in the Action for Health in Diabetes (Look AHEAD) trial. Twenty-seven per cent reported at least weekly urinary incontinence and 11% reported daily episodes, a higher prevalence than the three diabetes complications measured in the same cohort. Risk factors identified included higher BMI, prior hysterectomy and urinary tract infection in the past year. The population was selected for overweight or obesity as a trial entry criterion, so the absolute prevalence should not be read across to all women with type 2 diabetes; the comparison between complications within the same cohort is the durable finding.",
             "cite": "Phelan S et al. · Diabetes Care 2009 · PMC2713631",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2713631/"
           },
           {
             "claim": "Twelve weeks of resistance training improved incontinence severity and pelvic floor strength whether or not it was preceded by pelvic floor exercises.",
-            "detail": "A comparative pre-post intervention study of 24 women (mean age 49.7, range 27–62) allocated to 12 weeks of supervised Kegel exercises followed by 12 weeks of resistance training (n=15), or 12 weeks of resistance training alone (n=9). Resistance training comprised squats, deadlifts and incline pull-ups. Incontinence Severity Index fell from 4.53 to 1.60 in the Kegel-first group (d=1.14, p<0.05) and from 2.89 to 1.44 in the resistance-only group (d=1.17, p<0.05); pelvic floor muscle strength improved in both. Maximum voluntary contraction held at 80% improved in the Kegel-first group (d=0.48) and declined in the resistance-only group (d=0.19). A significant negative correlation was reported between stress urinary incontinence and pelvic floor muscle strength, r(24)=−0.564, p=0.004. The sample is very small and the groups differed at baseline, so it cannot resolve whether pelvic floor training adds to resistance training.",
+            "detail": "A comparative pre-post intervention study of 24 women (mean age 49.7, range 27–62) allocated to 12 weeks of supervised Kegel exercises followed by 12 weeks of resistance training (n=15), or 12 weeks of resistance training alone (n=9). Resistance training comprised squats, deadlifts and incline pull-ups. Incontinence Severity Index fell from 4.53 to 1.60 in the Kegel-first group (d=1.14, p<0.05) and from 2.89 to 1.44 in the resistance-only group (d=1.73, p<0.05); pelvic floor muscle strength improved in both. Maximum voluntary contraction held at 80% improved in the Kegel-first group (d=0.48) and declined in the resistance-only group (d=0.19). A significant negative correlation was reported between stress urinary incontinence and pelvic floor muscle strength, r(24)=−0.564, p=0.004. The sample is very small and the groups differed at baseline, so it cannot resolve whether pelvic floor training adds to resistance training.",
             "cite": "Int J Environ Res Public Health 2023 · PMC9859385",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9859385/"
           },
           {
             "claim": "UK first-line treatment is supervised pelvic floor muscle training of at least three months, at least eight contractions three times a day.",
-            "detail": "NICE guideline NG123, Urinary incontinence and pelvic organ prolapse in women: management, published 2019. It recommends offering a trial of supervised pelvic floor muscle training of at least three months' duration as first-line treatment to women with stress or mixed urinary incontinence, with programmes comprising at least eight contractions performed three times per day. Supervision should be by a physiotherapist or other healthcare professional with appropriate expertise, and should include assessing the woman's ability to perform both a contraction and a relaxation, and tailoring the programme to her ability, any discomfort, and her goals. Women should be offered a choice of group or individual sessions. This is national guidance rather than a single trial.",
+            "detail": "NICE guideline NG123, Urinary incontinence and pelvic organ prolapse in women: management, published 2019. It recommends offering a trial of supervised pelvic floor muscle training of at least three months' duration as first-line treatment to women with stress or mixed urinary incontinence, with programmes comprising at least eight contractions performed three times per day. It also recommends routine digital assessment to confirm a pelvic floor muscle contraction before supervised training starts, advises continuing the programme if it helps, and advises against routine use of perineometry or pelvic floor electromyography as biofeedback. This is national guidance rather than a single trial.",
             "cite": "Urinary incontinence and pelvic organ prolapse in women: management · NICE NG123 (2019)",
             "url": "https://www.nice.org.uk/guidance/ng123/chapter/recommendations"
           },
@@ -386,7 +386,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "[Дослідження Look AHEAD](https://pmc.ncbi.nlm.nih.gov/articles/PMC2713631/), опубліковане в Diabetes Care у 2009 році, виміряло нетримання сечі у 2994 жінок із надмірною вагою та ожирінням і діабетом 2 типу. Двадцять сім відсотків повідомили про щотижневе нетримання, ще 11% — про щоденне. Ця цифра найбільше важить у порівнянні з ускладненнями, які насправді всім перевіряють."
+        "text": "[Дослідження Look AHEAD](https://pmc.ncbi.nlm.nih.gov/articles/PMC2713631/), опубліковане в Diabetes Care у 2009 році, виміряло нетримання сечі у 2994 жінок із надмірною вагою та ожирінням і діабетом 2 типу. Двадцять сім відсотків повідомили щонайменше про щотижневе нетримання, зокрема 11% — про щоденне. Ця цифра найбільше важить у порівнянні з ускладненнями, які насправді всім перевіряють."
       },
       {
         "t": "table",
@@ -415,7 +415,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Щотижневе нетримання траплялося частіше, ніж ретинопатія, мікроальбумінурія та нейропатія — разом узяті, і то в кілька разів. Ваші очі фотографують щороку. Сечу перевіряють на білок. Стопи оглядають монофіламентом. Найпоширеніший пункт із цього списку — єдиний, про який вас ніхто не питає, на десятихвилинному прийомі, де ви й самі про це не заговорите."
+        "text": "Щотижневе нетримання траплялося частіше, ніж ретинопатія, мікроальбумінурія та нейропатія — разом узяті, і то більш ніж удвічі. Ваші очі фотографують щороку. Сечу перевіряють на білок. Стопи оглядають монофіламентом. Найпоширеніший пункт із цього списку — єдиний, про який вас ніхто не питає, на десятихвилинному прийомі, де ви й самі про це не заговорите."
       },
       {
         "t": "p",
@@ -451,7 +451,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У Британії це не питання думки, бо [настанова NICE NG123](https://www.nice.org.uk/guidance/ng123/chapter/recommendations) все розписує. Лікування першої лінії при стресовому або змішаному нетриманні — програма тренування м'язів тазового дна під наглядом тривалістю щонайменше три місяці, з щонайменше вісьмома скороченнями тричі на день, під наглядом фізіотерапевта чи іншого фахівця з відповідною експертизою. Операція не перша в списку. Пристрій теж ні."
+        "text": "У Британії це не питання думки, бо [настанова NICE NG123](https://www.nice.org.uk/guidance/ng123/chapter/recommendations) все розписує. Лікування першої лінії при стресовому або змішаному нетриманні — програма тренування м'язів тазового дна під наглядом тривалістю щонайменше три місяці, з щонайменше вісьмома скороченнями тричі на день, а перед початком — внутрішній (пальцевий) огляд, щоб підтвердити, що ви здатні скоротити м'яз. Операція не перша в списку. Пристрій теж ні."
       },
       {
         "t": "p",
@@ -566,19 +566,19 @@ export default {
           },
           {
             "claim": "У жінок із діабетом 2 типу щотижневе нетримання сечі (27%) траплялося частіше, ніж ретинопатія (7,5%), мікроальбумінурія (2,2%) і нейропатія (1,5%).",
-            "detail": "Одномоментний аналіз вихідних даних 2994 жінок із надмірною вагою та ожирінням і діабетом 2 типу, залучених до дослідження Action for Health in Diabetes (Look AHEAD). Двадцять сім відсотків повідомили щонайменше про щотижневе нетримання сечі, 11% — про щоденні епізоди; це вища поширеність, ніж у трьох ускладнень діабету, виміряних у тій самій когорті. Серед виявлених факторів ризику — вищий ІМТ, більша кількість пологів, перенесена гістеректомія та інфекція сечових шляхів за останній рік. Популяція відбиралася за критерієм надмірної ваги чи ожиріння для входу в дослідження, тож абсолютну поширеність не варто переносити на всіх жінок із діабетом 2 типу; стійким висновком є саме порівняння ускладнень усередині однієї когорти.",
+            "detail": "Одномоментний аналіз вихідних даних 2994 жінок із надмірною вагою та ожирінням і діабетом 2 типу, залучених до дослідження Action for Health in Diabetes (Look AHEAD). Двадцять сім відсотків повідомили щонайменше про щотижневе нетримання сечі, 11% — про щоденні епізоди; це вища поширеність, ніж у трьох ускладнень діабету, виміряних у тій самій когорті. Серед виявлених факторів ризику — вищий ІМТ, перенесена гістеректомія та інфекція сечових шляхів за останній рік. Популяція відбиралася за критерієм надмірної ваги чи ожиріння для входу в дослідження, тож абсолютну поширеність не варто переносити на всіх жінок із діабетом 2 типу; стійким висновком є саме порівняння ускладнень усередині однієї когорти.",
             "cite": "Phelan S et al. · Diabetes Care 2009 · PMC2713631",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2713631/"
           },
           {
             "claim": "Дванадцять тижнів силових покращили тяжкість нетримання і силу тазового дна незалежно від того, чи передували їм вправи для тазового дна.",
-            "detail": "Порівняльне дослідження до і після втручання за участю 24 жінок (середній вік 49,7, діапазон 27–62), розподілених на 12 тижнів вправ Кегеля під наглядом із подальшими 12 тижнями силових (n=15) або 12 тижнів самих лише силових (n=9). Силові включали присідання, станову тягу і підтягування під нахилом. Incontinence Severity Index впав з 4,53 до 1,60 у групі з Кегелем спершу (d=1,14, p<0,05) і з 2,89 до 1,44 у групі самих силових (d=1,17, p<0,05); сила м'язів тазового дна зросла в обох. Утримання максимального довільного скорочення на 80% покращилося в групі з Кегелем (d=0,48) і знизилося в групі самих силових (d=0,19). Повідомлено про значущу негативну кореляцію між стресовим нетриманням і силою м'язів тазового дна, r(24)=−0,564, p=0,004. Вибірка дуже мала, а групи відрізнялися на старті, тож дослідження не може розв'язати питання, чи додає тренування тазового дна щось до силових.",
+            "detail": "Порівняльне дослідження до і після втручання за участю 24 жінок (середній вік 49,7, діапазон 27–62), розподілених на 12 тижнів вправ Кегеля під наглядом із подальшими 12 тижнями силових (n=15) або 12 тижнів самих лише силових (n=9). Силові включали присідання, станову тягу і підтягування під нахилом. Incontinence Severity Index впав з 4,53 до 1,60 у групі з Кегелем спершу (d=1,14, p<0,05) і з 2,89 до 1,44 у групі самих силових (d=1,73, p<0,05); сила м'язів тазового дна зросла в обох. Утримання максимального довільного скорочення на 80% покращилося в групі з Кегелем (d=0,48) і знизилося в групі самих силових (d=0,19). Повідомлено про значущу негативну кореляцію між стресовим нетриманням і силою м'язів тазового дна, r(24)=−0,564, p=0,004. Вибірка дуже мала, а групи відрізнялися на старті, тож дослідження не може розв'язати питання, чи додає тренування тазового дна щось до силових.",
             "cite": "Int J Environ Res Public Health 2023 · PMC9859385",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9859385/"
           },
           {
             "claim": "Британське лікування першої лінії — тренування м'язів тазового дна під наглядом щонайменше три місяці, щонайменше вісім скорочень тричі на день.",
-            "detail": "Настанова NICE NG123, Urinary incontinence and pelvic organ prolapse in women: management, опублікована 2019 року. Рекомендує пропонувати жінкам зі стресовим або змішаним нетриманням сечі пробний курс тренування м'язів тазового дна під наглядом тривалістю щонайменше три місяці як лікування першої лінії, з програмами щонайменше з восьми скорочень тричі на день. Нагляд має здійснювати фізіотерапевт або інший медичний працівник з відповідною експертизою і включати оцінку здатності жінки виконати і скорочення, і розслаблення, та адаптацію програми під її можливості, дискомфорт і цілі. Жінкам слід пропонувати вибір між груповими та індивідуальними заняттями. Це національна настанова, а не окреме дослідження.",
+            "detail": "Настанова NICE NG123, Urinary incontinence and pelvic organ prolapse in women: management, опублікована 2019 року. Рекомендує пропонувати жінкам зі стресовим або змішаним нетриманням сечі пробний курс тренування м'язів тазового дна під наглядом тривалістю щонайменше три місяці як лікування першої лінії, з програмами щонайменше з восьми скорочень тричі на день. Вона також рекомендує рутинний пальцевий огляд для підтвердження скорочення м'язів тазового дна перед початком тренування під наглядом, радить продовжувати програму, якщо вона допомагає, і не радить рутинно використовувати перинеометрію чи електроміографію тазового дна як біозворотний зв'язок. Це національна настанова, а не окреме дослідження.",
             "cite": "Urinary incontinence and pelvic organ prolapse in women: management · NICE NG123 (2019)",
             "url": "https://www.nice.org.uk/guidance/ng123/chapter/recommendations"
           },

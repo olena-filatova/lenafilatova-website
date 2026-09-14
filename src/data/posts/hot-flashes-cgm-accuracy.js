@@ -61,7 +61,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Temperature is the one that sounds most convincing and does the least. In 2024 a German group heated participants’ arms deliberately, with a pad set to 50 °C, to see whether warming the limb changed glucose measurement. The median change in venous glucose was 1.4 per cent. Skin temperature never exceeded 40 °C even with a heating pad strapped to it — well above anything a hot flash does, and the effect was still, in practical terms, nothing. A flush is not warming your arm more than that pad was."
+        "text": "Temperature is the one that sounds most convincing and does the least. In 2024 a German group heated participants’ arms deliberately, with a pad set to 50 °C, to see whether warming the limb changed the glucose measured in its blood. The median change in venous glucose was 1.4 per cent. Skin temperature never exceeded 40 °C even with a heating pad strapped to it — well above anything a hot flash does, and the effect was still, in practical terms, nothing. A flush is not warming your arm more than that pad was."
       },
       {
         "t": "p",
@@ -198,8 +198,8 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490447/"
           },
           {
-            "claim": "Deliberately heating the arm barely moves glucose measurement.",
-            "detail": "Pleus and colleagues used a heating pad set to 50 °C on 20 participants across three six-hour glucose challenges, sampling venous and capillary blood every 15 minutes from both arms while CGM sensors were worn on each upper arm. Heating produced a median increase in venous glucose of 1.4%, with no comparable effect on capillary values, and skin temperature never exceeded 40 °C. The study was designed to test whether ‘arterialization’ makes venous samples a fairer comparator in CGM trials, not to model hot flashes — but it is the closest direct evidence available on whether warming the skin over a sensor changes what is measured, and the answer is barely.",
+            "claim": "Deliberately heating the arm barely moves venous glucose.",
+            "detail": "Pleus and colleagues used a heating pad set to 50 °C on 20 participants across three six-hour glucose challenges, sampling venous and capillary blood every 15 minutes from both arms while CGM sensors were worn on each upper arm. Heating produced a median increase in venous glucose of 1.4%, with no comparable effect on capillary values, and skin temperature never exceeded 40 °C. The study was designed to test whether ‘arterialization’ makes venous samples a fairer comparator in CGM trials, not to model hot flashes — and the 1.4% is a change in venous blood, not in the sensor readings themselves. It is indirect evidence, but the closest available on whether warming the arm changes the glucose there, and the answer is barely.",
             "cite": "Diabetes Technology & Therapeutics · Pleus S et al., 2024",
             "url": "https://doi.org/10.1089/dia.2023.0489"
           },
@@ -305,7 +305,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Температура звучить найпереконливіше, а важить найменше. У 2024 році німецька група навмисно нагрівала учасникам руку подушкою, налаштованою на 50 °C, щоб перевірити, чи змінює це вимірювання глюкози. Медіанна зміна венозної глюкози становила 1,4 відсотка. Температура шкіри не перевищила 40 °C навіть із прикріпленою грілкою — це значно більше за будь-який приплив, і ефект усе одно був практично нульовим. Приплив не нагріває вашу руку сильніше, ніж та подушка."
+        "text": "Температура звучить найпереконливіше, а важить найменше. У 2024 році німецька група навмисно нагрівала учасникам руку подушкою, налаштованою на 50 °C, щоб перевірити, чи змінює це глюкозу, виміряну в крові з цієї руки. Медіанна зміна венозної глюкози становила 1,4 відсотка. Температура шкіри не перевищила 40 °C навіть із прикріпленою грілкою — це значно більше за будь-який приплив, і ефект усе одно був практично нульовим. Приплив не нагріває вашу руку сильніше, ніж та подушка."
       },
       {
         "t": "p",
@@ -442,8 +442,8 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490447/"
           },
           {
-            "claim": "Навмисне нагрівання руки майже не змінює вимірювання глюкози.",
-            "detail": "Pleus із колегами використали грілку, налаштовану на 50 °C, у 20 учасників протягом трьох шестигодинних глюкозних навантажень, відбираючи венозну та капілярну кров кожні 15 хвилин з обох рук, тоді як на кожному плечі був сенсор CGM. Нагрівання дало медіанне зростання венозної глюкози на 1,4%, без подібного ефекту для капілярних значень, а температура шкіри жодного разу не перевищила 40 °C. Дослідження створювали, щоб перевірити, чи робить «артеріалізація» венозні зразки чеснішим компаратором у випробуваннях CGM, а не щоб моделювати припливи, — але це найближчий прямий доказ того, чи змінює нагрівання шкіри над сенсором те, що вимірюється. Відповідь: майже ні.",
+            "claim": "Навмисне нагрівання руки майже не змінює венозну глюкозу.",
+            "detail": "Pleus із колегами використали грілку, налаштовану на 50 °C, у 20 учасників протягом трьох шестигодинних глюкозних навантажень, відбираючи венозну та капілярну кров кожні 15 хвилин з обох рук, тоді як на кожному плечі був сенсор CGM. Нагрівання дало медіанне зростання венозної глюкози на 1,4%, без подібного ефекту для капілярних значень, а температура шкіри жодного разу не перевищила 40 °C. Дослідження створювали, щоб перевірити, чи робить «артеріалізація» венозні зразки чеснішим компаратором у випробуваннях CGM, а не щоб моделювати припливи, — і 1,4% стосуються венозної крові, а не самих показників сенсора. Це непрямий доказ, але найближчий із доступних щодо того, чи змінює нагрівання руки глюкозу в ній. Відповідь: майже ні.",
             "cite": "Diabetes Technology & Therapeutics · Pleus S та ін., 2024",
             "url": "https://doi.org/10.1089/dia.2023.0489"
           },

@@ -22,8 +22,8 @@ export default {
     "imageAlt": "Rain running down a window pane on a flat grey day, a bare tree just visible through the glass.",
     "title": "Vitamin D and insulin resistance in perimenopause: what the UK data actually shows",
     "seoTitle": "Vitamin D and Insulin Resistance in Perimenopause",
-    "metaDesc": "You can’t make vitamin D in a British winter. Here’s what the trials actually show about its link to insulin resistance — and the dose the NHS recommends.",
-    "excerpt": "Between October and March, UK sunlight is too weak for your skin to make any vitamin D at all. That is not a lifestyle failing, it is latitude — and it is why the NHS recommendation is aimed at everyone rather than a deficient few. Here is what the trials found, and how big the effect really is.",
+    "metaDesc": "You can’t make enough vitamin D in a British winter. Here’s what the trials actually show about its link to insulin resistance — and the dose the NHS recommends.",
+    "excerpt": "Between October and March, UK sunlight is too weak for your skin to make enough vitamin D. That is not a lifestyle failing, it is latitude — and it is why the NHS recommendation is aimed at everyone rather than a deficient few. Here is what the trials found, and how big the effect really is.",
     "meta": "4 September 2026 · 7 min read",
     "lead": "Pooling the three randomised trials built to answer this, vitamin D cut the risk of developing type 2 diabetes by 15 per cent in people with prediabetes — an absolute 3.3 percentage points over three years. That is a real effect and a modest one. Here is what it means for a UK woman heading into her fourth dark winter, and where vitamin D actually sits among the things that move blood sugar.",
     "blocks": [
@@ -61,11 +61,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Fifteen per cent is a real effect and a modest one. It is not nothing — few things you can buy for a few pounds a year move diabetes risk at all — and it is not a treatment. If you read a headline this year saying vitamin D prevents diabetes, that is the study, and the honest version of the headline has the number in it."
+        "text": "Fifteen per cent is a real effect and a modest one. It is not nothing — few supplements have trial evidence that they move diabetes risk at all — and it is not a treatment. If you read a headline this year saying vitamin D prevents diabetes, that is the study, and the honest version of the headline has the number in it."
       },
       {
         "t": "p",
-        "text": "There is a second finding in the same analysis that gets quoted badly. Among people in the vitamin D groups who reached and held a blood level of at least 125 nmol/L, risk fell by 76 per cent. That is a striking figure and it is not a randomised comparison: people who reach high levels on a fixed dose differ from those who don’t, in weight, absorption and how reliably they take a tablet. Treat it as a strong hint that blood level matters more than dose, not as a target to chase with pills."
+        "text": "There is a second finding in the same analysis that gets quoted badly. Among people in the vitamin D groups who reached and held a blood level of at least 125 nmol/L, risk fell by 76 per cent compared with those who stayed at 50 to 74 nmol/L. That is a striking figure and it is not a randomised comparison: people who reach high levels on a fixed dose differ from those who don’t, in weight, absorption and how reliably they take a tablet. Treat it as a strong hint that blood level matters more than dose, not as a target to chase with pills."
       },
       {
         "t": "table",
@@ -91,7 +91,7 @@ export default {
             "Moderate — smaller trials, mixed doses and populations"
           ],
           [
-            "Reaching a blood level above 125 nmol/L",
+            "Reaching a blood level of at least 125 nmol/L (vs 50–74)",
             "76% lower risk",
             "Low — not a randomised comparison, so don’t treat it as a dose target"
           ]
@@ -119,7 +119,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is the thing that makes this different from most supplement questions. In the UK you cannot make vitamin D from sunlight between roughly October and March — the sun does not get high enough in the sky, regardless of how much time you spend outside. That is not a lifestyle failing. It is latitude."
+        "text": "Here is the thing that makes this different from most supplement questions. In the UK you cannot make enough vitamin D from sunlight between roughly October and March — the sun does not get high enough in the sky, regardless of how much time you spend outside. That is not a lifestyle failing. It is latitude."
       },
       {
         "t": "p",
@@ -151,7 +151,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Not really, and this is worth knowing before you spend money on the wrong thing. Oily fish is the only substantial source — a portion of salmon, mackerel or sardines gets you a meaningful amount. Egg yolks, liver and fortified spreads and cereals contribute small amounts, and mushrooms grown under UV contribute some. Almost nothing else does."
+        "text": "Not really, and this is worth knowing before you spend money on the wrong thing. Oily fish is the only substantial source — a portion of salmon, mackerel or sardines gets you a meaningful amount. Red meat, egg yolks, liver and fortified spreads and cereals contribute small amounts, and mushrooms grown under UV contribute some. Almost nothing else does."
       },
       {
         "t": "p",
@@ -163,7 +163,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Somewhere well below sleep, movement and what you eat, and above most of the rest of the supplement aisle. A 15 per cent risk reduction is worth having precisely because the intervention is a 10 microgram tablet that costs a few pounds a year and that UK guidance already recommends on completely separate grounds — bone and muscle health, which matter a great deal in perimenopause anyway."
+        "text": "Somewhere well below sleep, movement and what you eat, and above most of the rest of the supplement aisle. It is worth having precisely because a 10 microgram tablet costs a few pounds a year and UK guidance already recommends it on completely separate grounds — bone and muscle health, which matter a great deal in perimenopause anyway. Be clear, though, that the 15 per cent came from trials using much higher doses, mainly 100 micrograms a day or 500 micrograms a week, so it is not what the standard 10 microgram tablet has been shown to do."
       },
       {
         "t": "p",
@@ -175,7 +175,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Take the 10 micrograms from October to March, because you cannot make it here in winter and the guidance is for everyone rather than for a deficient few. Ask for a blood test before going higher than that, not after."
+        "text": "Take the 10 micrograms from October to March, because you cannot make enough of it here in winter and the guidance is for everyone rather than for a deficient few. Ask for a blood test before going higher than that, not after."
       },
       {
         "t": "p",
@@ -186,7 +186,7 @@ export default {
         "items": [
           {
             "claim": "Vitamin D cut the risk of developing type 2 diabetes by 15% in people with prediabetes.",
-            "detail": "Pittas and colleagues pooled individual participant data from the three randomised trials designed specifically to test oral vitamin D against placebo for new-onset diabetes in adults with prediabetes, all judged at low risk of bias. Vitamin D reduced risk by 15% (hazard ratio 0.85, 95% CI 0.75 to 0.96) in adjusted analyses — an absolute reduction of 3.3 percentage points over three years (CI 0.6 to 6.0) — and increased the likelihood of regression to normal glucose regulation by 30% (rate ratio 1.30, CI 1.16 to 1.46). Among participants who maintained a serum 25-hydroxyvitamin D level of at least 125 nmol/L, risk fell by 76% (HR 0.24, CI 0.16 to 0.36); that comparison is between people who did and did not reach a level rather than between randomised groups, so it is hypothesis-generating rather than a dose target.",
+            "detail": "Pittas and colleagues pooled individual participant data from the three randomised trials designed specifically to test oral vitamin D against placebo for new-onset diabetes in adults with prediabetes, all judged at low risk of bias. The trials tested cholecalciferol 4,000 IU (100 micrograms) daily or 20,000 IU (500 micrograms) weekly, or eldecalcitol 0.75 micrograms daily. Vitamin D reduced risk by 15% (hazard ratio 0.85, 95% CI 0.75 to 0.96) in adjusted analyses — an absolute reduction of 3.3 percentage points over three years (CI 0.6 to 6.0) — and increased the likelihood of regression to normal glucose regulation by 30% (rate ratio 1.30, CI 1.16 to 1.46). Among participants in the vitamin D groups who maintained a serum 25-hydroxyvitamin D level of at least 125 nmol/L, compared with those who maintained 50 to 74 nmol/L, risk fell by 76% (HR 0.24, CI 0.16 to 0.36); that comparison is between people who did and did not reach a level rather than between randomised groups, so it is hypothesis-generating rather than a dose target.",
             "cite": "Annals of Internal Medicine · Pittas AG et al., 2023",
             "url": "https://doi.org/10.7326/M22-3018"
           },
@@ -244,7 +244,7 @@ export default {
       },
       {
         "q": "How much vitamin D should I take in the UK?",
-        "a": "The NHS advises 10 micrograms — 400 IU — a day for adults, and that everyone should consider taking that through the autumn and winter, because between roughly October and March UK sunlight is not strong enough for skin to make any. Some groups are advised to take it all year: people who are rarely outdoors, people in care homes, people who usually cover most of their skin outdoors, and people with dark skin. Note how much smaller 10 micrograms is than most supplement bottles advertise — that is the amount that keeps most people out of deficiency, not a therapeutic dose."
+        "a": "The NHS advises 10 micrograms — 400 IU — a day for adults, and that everyone should consider taking that through the autumn and winter, because between roughly October and March UK sunlight is not strong enough for skin to make enough. Some groups are advised to take it all year: people who are rarely outdoors, people in care homes, people who usually cover most of their skin outdoors, and people with dark skin. Note how much smaller 10 micrograms is than most supplement bottles advertise — that is the amount that keeps most people out of deficiency, not a therapeutic dose."
       },
       {
         "q": "Can you take too much vitamin D?",
@@ -265,8 +265,8 @@ export default {
     "imageAlt": "Дощ стікає по шибці в тьмяний сірий день, за склом ледь видно голе дерево.",
     "title": "Вітамін D та інсулінорезистентність у перименопаузі: що насправді кажуть британські дані",
     "seoTitle": "Вітамін D та інсулінорезистентність у перименопаузі",
-    "metaDesc": "Узимку в Британії вітамін D не виробляється. Що дослідження справді кажуть про його зв’язок з інсулінорезистентністю — і яку дозу радить NHS.",
-    "excerpt": "З жовтня до березня британського сонця замало, щоб ваша шкіра виробила бодай трохи вітаміну D. Це не провал способу життя, а широта — і саме тому рекомендація NHS адресована всім, а не дефіцитним одиницям. Ось що показали дослідження і наскільки великий ефект насправді.",
+    "metaDesc": "Узимку в Британії вітамін D не виробляється в достатній кількості. Що дослідження справді кажуть про його зв’язок з інсулінорезистентністю — і яку дозу радить NHS.",
+    "excerpt": "З жовтня до березня британського сонця замало, щоб ваша шкіра виробила достатньо вітаміну D. Це не провал способу життя, а широта — і саме тому рекомендація NHS адресована всім, а не дефіцитним одиницям. Ось що показали дослідження і наскільки великий ефект насправді.",
     "meta": "4 вересня 2026 · 7 хв читання",
     "lead": "За об’єднаними даними трьох рандомізованих досліджень, створених для цього питання, вітамін D знизив ризик розвитку діабету 2 типу на 15 відсотків у людей із предіабетом — абсолютно на 3,3 відсоткові пункти за три роки. Це справжній ефект і водночас скромний. Ось що це означає для британки перед четвертою темною зимою і де вітамін D насправді стоїть серед того, що впливає на цукор у крові.",
     "blocks": [
@@ -304,11 +304,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "П’ятнадцять відсотків — це справжній ефект і водночас скромний. Це не нуль: мало що з того, що коштує кілька фунтів на рік, узагалі впливає на ризик діабету. І це не лікування. Якщо цього року вам трапився заголовок «вітамін D запобігає діабету» — це саме те дослідження, і чесна версія заголовка містить цифру."
+        "text": "П’ятнадцять відсотків — це справжній ефект і водночас скромний. Це не нуль: мало для яких добавок є докази з досліджень, що вони взагалі впливають на ризик діабету. І це не лікування. Якщо цього року вам трапився заголовок «вітамін D запобігає діабету» — це саме те дослідження, і чесна версія заголовка містить цифру."
       },
       {
         "t": "p",
-        "text": "У тому ж аналізі є другий результат, який цитують погано. Серед тих, хто приймав вітамін D і досяг та утримував рівень у крові щонайменше 125 нмоль/л, ризик знизився на 76 відсотків. Цифра вражає — і це не рандомізоване порівняння: люди, які досягають високого рівня на фіксованій дозі, відрізняються від тих, хто не досягає, вагою, засвоєнням і регулярністю прийому. Сприймайте це як сильний натяк, що рівень у крові важливіший за дозу, а не як мішень, яку треба брати таблетками."
+        "text": "У тому ж аналізі є другий результат, який цитують погано. Серед тих, хто приймав вітамін D і досяг та утримував рівень у крові щонайменше 125 нмоль/л, ризик знизився на 76 відсотків порівняно з тими, чий рівень залишався на 50–74 нмоль/л. Цифра вражає — і це не рандомізоване порівняння: люди, які досягають високого рівня на фіксованій дозі, відрізняються від тих, хто не досягає, вагою, засвоєнням і регулярністю прийому. Сприймайте це як сильний натяк, що рівень у крові важливіший за дозу, а не як мішень, яку треба брати таблетками."
       },
       {
         "t": "table",
@@ -334,7 +334,7 @@ export default {
             "Помірно — менші дослідження, різні дози й популяції"
           ],
           [
-            "Досягнення рівня в крові понад 125 нмоль/л",
+            "Досягнення рівня в крові щонайменше 125 нмоль/л (проти 50–74)",
             "Ризик нижчий на 76%",
             "Низько — не рандомізоване порівняння, тож це не цільова доза"
           ]
@@ -362,7 +362,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ось що відрізняє це від більшості питань про добавки. У Британії ви не можете виробити вітамін D із сонячного світла приблизно з жовтня до березня: сонце просто не піднімається достатньо високо, скільки б часу ви не проводили надворі. Це не провал способу життя. Це широта."
+        "text": "Ось що відрізняє це від більшості питань про добавки. У Британії ви не можете виробити достатньо вітаміну D із сонячного світла приблизно з жовтня до березня: сонце просто не піднімається достатньо високо, скільки б часу ви не проводили надворі. Це не провал способу життя. Це широта."
       },
       {
         "t": "p",
@@ -394,7 +394,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Насправді ні — і це варто знати, перш ніж витрачати гроші не на те. Жирна риба — єдине суттєве джерело: порція лосося, скумбрії чи сардин дає відчутну кількість. Яєчні жовтки, печінка, збагачені спреди та пластівці дають небагато, гриби, вирощені під ультрафіолетом, — трохи. Майже ніщо інше не дає."
+        "text": "Насправді ні — і це варто знати, перш ніж витрачати гроші не на те. Жирна риба — єдине суттєве джерело: порція лосося, скумбрії чи сардин дає відчутну кількість. Червоне м’ясо, яєчні жовтки, печінка, збагачені спреди та пластівці дають небагато, гриби, вирощені під ультрафіолетом, — трохи. Майже ніщо інше не дає."
       },
       {
         "t": "p",
@@ -406,7 +406,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Значно нижче за сон, рух і харчування — і вище за більшість решти полиці з добавками. Зниження ризику на 15 відсотків варте уваги саме тому, що втручання — це таблетка на 10 мікрограмів за кілька фунтів на рік, яку британські настанови й так рекомендують із зовсім інших міркувань: здоров’я кісток і м’язів, що в перименопаузі має велике значення."
+        "text": "Значно нижче за сон, рух і харчування — і вище за більшість решти полиці з добавками. Він вартий уваги саме тому, що таблетка на 10 мікрограмів коштує кілька фунтів на рік, а британські настанови й так рекомендують її із зовсім інших міркувань: здоров’я кісток і м’язів, що в перименопаузі має велике значення. Але майте на увазі: ці 15 відсотків отримали в дослідженнях зі значно вищими дозами, переважно 100 мікрограмів на добу або 500 мікрограмів на тиждень, тож для стандартної таблетки на 10 мікрограмів такий ефект не доведений."
       },
       {
         "t": "p",
@@ -418,7 +418,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Приймайте 10 мікрограмів із жовтня до березня, бо взимку тут його не виробити, а настанова адресована всім, а не дефіцитним одиницям. Просіть аналіз крові перед тим, як іти вище, а не після."
+        "text": "Приймайте 10 мікрограмів із жовтня до березня, бо взимку тут його не виробити достатньо, а настанова адресована всім, а не дефіцитним одиницям. Просіть аналіз крові перед тим, як іти вище, а не після."
       },
       {
         "t": "p",
@@ -429,7 +429,7 @@ export default {
         "items": [
           {
             "claim": "Вітамін D знизив ризик розвитку діабету 2 типу на 15% у людей із предіабетом.",
-            "detail": "Pittas із колегами об’єднали індивідуальні дані учасників трьох рандомізованих досліджень, створених спеціально, щоб перевірити пероральний вітамін D проти плацебо щодо нового випадку діабету в дорослих із предіабетом; усі три оцінені як із низьким ризиком упередженості. Вітамін D знизив ризик на 15% (відношення ризиків 0,85, 95% ДІ 0,75–0,96) у скоригованому аналізі — абсолютне зниження на 3,3 відсоткові пункти за три роки (ДІ 0,6–6,0) — і на 30% підвищив імовірність повернення до нормальної регуляції глюкози (відношення частот 1,30, ДІ 1,16–1,46). Серед учасників, які утримували рівень 25-гідроксивітаміну D щонайменше 125 нмоль/л, ризик знизився на 76% (ВР 0,24, ДІ 0,16–0,36); це порівняння між тими, хто досяг і не досяг рівня, а не між рандомізованими групами, тож воно породжує гіпотезу, а не задає цільову дозу.",
+            "detail": "Pittas із колегами об’єднали індивідуальні дані учасників трьох рандомізованих досліджень, створених спеціально, щоб перевірити пероральний вітамін D проти плацебо щодо нового випадку діабету в дорослих із предіабетом; усі три оцінені як із низьким ризиком упередженості. У дослідженнях застосовували холекальциферол 4000 МО (100 мікрограмів) щодня або 20 000 МО (500 мікрограмів) щотижня чи елдекальцитол 0,75 мікрограма щодня. Вітамін D знизив ризик на 15% (відношення ризиків 0,85, 95% ДІ 0,75–0,96) у скоригованому аналізі — абсолютне зниження на 3,3 відсоткові пункти за три роки (ДІ 0,6–6,0) — і на 30% підвищив імовірність повернення до нормальної регуляції глюкози (відношення частот 1,30, ДІ 1,16–1,46). Серед учасників груп вітаміну D, які утримували рівень 25-гідроксивітаміну D щонайменше 125 нмоль/л, порівняно з тими, хто утримував 50–74 нмоль/л, ризик знизився на 76% (ВР 0,24, ДІ 0,16–0,36); це порівняння між тими, хто досяг і не досяг рівня, а не між рандомізованими групами, тож воно породжує гіпотезу, а не задає цільову дозу.",
             "cite": "Annals of Internal Medicine · Pittas AG та ін., 2023",
             "url": "https://doi.org/10.7326/M22-3018"
           },
@@ -487,7 +487,7 @@ export default {
       },
       {
         "q": "Скільки вітаміну D приймати у Великій Британії?",
-        "a": "NHS радить 10 мікрограмів — 400 МО — на добу для дорослих і те, що всім варто приймати цю дозу впродовж осені та зими, бо приблизно з жовтня до березня британського сонця недостатньо, щоб шкіра виробляла вітамін. Деяким групам радять приймати цілий рік: тим, хто рідко буває надворі, мешканцям будинків догляду, тим, хто зазвичай прикриває більшу частину шкіри, і людям із темною шкірою. Зверніть увагу, наскільки 10 мікрограмів менші за те, що рекламує більшість баночок: це доза, яка тримає більшість людей поза дефіцитом, а не терапевтична."
+        "a": "NHS радить 10 мікрограмів — 400 МО — на добу для дорослих і те, що всім варто розглянути прийом цієї дози впродовж осені та зими, бо приблизно з жовтня до березня британського сонця недостатньо, щоб шкіра виробляла вітамін. Деяким групам радять приймати цілий рік: тим, хто рідко буває надворі, мешканцям будинків догляду, тим, хто зазвичай прикриває більшу частину шкіри, і людям із темною шкірою. Зверніть увагу, наскільки 10 мікрограмів менші за те, що рекламує більшість баночок: це доза, яка тримає більшість людей поза дефіцитом, а не терапевтична."
       },
       {
         "q": "Чи можна прийняти забагато вітаміну D?",
