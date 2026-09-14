@@ -34,7 +34,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "What replaced the removed text is the more interesting half. The new labelling leans on what researchers call the timing hypothesis: that the benefit-to-risk balance of hormone therapy depends heavily on when you start it. The label now emphasises initiation before age 60, or within ten years of menopause onset. The FDA pointed to reductions in all-cause mortality and in fracture risk within that window. That is the same timing rule British menopause specialists have been working to for years — it has simply now been written into an American label."
+        "text": "What replaced the removed text is the more interesting half. The new labelling leans on what researchers call the timing hypothesis: that the benefit-to-risk balance of hormone therapy depends heavily on when you start it. The label now emphasises initiation before age 60, or within ten years of menopause onset. The FDA pointed to reductions in all-cause mortality and in fracture risk within that window. British menopause specialists have long described much the same window of opportunity, although NICE sets no age cut-off — it has simply now been written into an American label."
       },
       {
         "t": "h",
@@ -58,11 +58,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is the part that gets lost. The FDA regulates American medicine labels. It does not regulate British ones — that is the MHRA — and it does not set British clinical practice, which follows the NICE menopause guideline, NG23, last updated in November 2024. A US label change does not alter the leaflet in a UK pack, does not change what your GP is working to, and does not by itself change what you will be offered."
+        "text": "This is the part that gets lost. The FDA regulates American medicine labels. It does not regulate British ones — that is the MHRA — and it does not set British clinical practice, which follows the NICE menopause guideline, NG23, last substantially revised in November 2024 and amended again in April 2026. A US label change does not alter the leaflet in a UK pack, does not change what your GP is working to, and does not by itself change what you will be offered."
       },
       {
         "t": "p",
-        "text": "So the honest summary for a British reader is this: a regulator on the other side of the Atlantic has brought its labelling closer to what the evidence supports, and that shift will filter into the conversation here, as American guidance usually does. But if you have been putting off asking about HRT because of a warning you half-remember, the thing that has changed is the framing, not your risk. The questions worth taking to an appointment are the same ones they were in January — how close you are to menopause, what your symptoms are actually costing you, and what your own history says. If you want the picture of how prescribing has already shifted since the warning came off, I have written about [the doubling in HRT prescriptions](/blog/hrt-prescriptions-doubling/) separately."
+        "text": "So the honest summary for a British reader is this: a regulator on the other side of the Atlantic has brought its labelling closer to what the evidence supports, and that shift will filter into the conversation here, as American guidance usually does. But if you have been putting off asking about HRT because of a warning you half-remember, the thing that has changed is the framing, not your risk. The questions worth taking to an appointment are the same ones they were in January — how close you are to menopause, what your symptoms are actually costing you, and what your own history says. If you want the picture of how American prescribing had already been climbing in the years around this decision, I have written about [the doubling in US HRT prescriptions since 2018](/blog/hrt-prescriptions-doubling/) separately."
       },
       {
         "t": "h",
@@ -78,7 +78,7 @@ export default {
             "url": "https://www.sgo.org/news/fda-removes-black-box-warnings-on-hormone-replacement-therapy/"
           },
           {
-            "claim": "The label changes took effect on 12 February 2026.",
+            "claim": "The label changes were approved on 12 February 2026.",
             "detail": "The FDA approved the first batch of labelling changes on 12 February 2026, following the July 2025 public expert panel and the November 2025 HHS announcement. The categories affected include combined oestrogen and progestogen, systemic oestrogen-alone, systemic progestogen-alone used alongside systemic oestrogen, and topical vaginal oestrogen. Updated labels emphasise initiation within 10 years of menopause onset or before age 60 for systemic therapy.",
             "cite": "Medaptly · Regulatory summary, 2026",
             "url": "https://www.medaptly.com/news/obstetrics-gynecology/hrt-boxed-warnings-fda-2026/"
@@ -91,8 +91,8 @@ export default {
           },
           {
             "claim": "UK practice follows NICE NG23, which this change does not alter.",
-            "detail": "Menopause care in the UK is guided by NICE guideline NG23, Menopause: identification and management, originally published November 2015 and updated in November 2024 with new recommendations on cognitive behavioural therapy, management of genitourinary symptoms, and the effects of HRT on specific health outcomes. UK product labelling is regulated by the MHRA. An FDA labelling decision applies to US product labels and does not change UK product information or NICE recommendations.",
-            "cite": "NICE guideline NG23 · Updated November 2024",
+            "detail": "Menopause care in the UK is guided by NICE guideline NG23, Menopause: identification and management, originally published November 2015 and updated in November 2024 with new recommendations on cognitive behavioural therapy, management of genitourinary symptoms, and the effects of HRT on specific health outcomes, with smaller amendments since — most recently in April 2026, on unscheduled vaginal bleeding while taking systemic HRT. UK product labelling is regulated by the MHRA. An FDA labelling decision applies to US product labels and does not change UK product information or NICE recommendations.",
+            "cite": "NICE guideline NG23 · Updated November 2024, amended April 2026",
             "url": "https://www.nice.org.uk/guidance/ng23"
           }
         ]
@@ -104,7 +104,7 @@ export default {
           {
             "name": "HRT prescriptions have more than doubled since 2018",
             "url": "/blog/hrt-prescriptions-doubling/",
-            "desc": "What happened to prescribing after the warning came off — and why patches ran short."
+            "desc": "How US prescribing climbed in the years around the warning change — and why patches ran short."
           },
           {
             "name": "HRT with type 1 diabetes: what the evidence does and doesn't say",
@@ -126,7 +126,7 @@ export default {
       },
       {
         "q": "I'm in the UK — does anything change for me?",
-        "a": "Not directly. The FDA regulates American labels. UK product information is regulated by the MHRA, and your GP is working to the NICE menopause guideline NG23, updated in November 2024. Neither has been changed by this. In practice American decisions tend to shape the wider conversation over time, so the framing you encounter may shift — but your prescription, your leaflet and your appointment have not."
+        "a": "Not directly. The FDA regulates American labels. UK product information is regulated by the MHRA, and your GP is working to the NICE menopause guideline NG23, last substantially revised in November 2024 and amended again in April 2026. Neither has been changed by this. In practice American decisions tend to shape the wider conversation over time, so the framing you encounter may shift — but your prescription, your leaflet and your appointment have not."
       }
     ]
   },
@@ -154,7 +154,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Цікавіша половина — те, чим замінили прибраний текст. Нове маркування спирається на те, що дослідники називають гіпотезою часу: користь і ризик гормональної терапії суттєво залежать від того, коли ви її починаєте. Тепер інструкція наголошує на початку до 60 років або протягом десяти років від настання менопаузи. FDA послалося на зниження загальної смертності та ризику переломів у цьому вікні. Це те саме правило часу, за яким британські фахівці з менопаузи працюють уже роками, — просто тепер його вписали в американську інструкцію."
+        "text": "Цікавіша половина — те, чим замінили прибраний текст. Нове маркування спирається на те, що дослідники називають гіпотезою часу: користь і ризик гормональної терапії суттєво залежать від того, коли ви її починаєте. Тепер інструкція наголошує на початку до 60 років або протягом десяти років від настання менопаузи. FDA послалося на зниження загальної смертності та ризику переломів у цьому вікні. Британські фахівці з менопаузи давно описують приблизно те саме «вікно можливостей», хоча NICE не встановлює вікової межі, — просто тепер його вписали в американську інструкцію."
       },
       {
         "t": "h",
@@ -178,11 +178,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме це загублюється найчастіше. FDA регулює інструкції до американських ліків. Британські воно не регулює — це робить MHRA — і не визначає британську клінічну практику, яка спирається на настанову NICE щодо менопаузи NG23, востаннє оновлену в листопаді 2024 року. Зміна американської інструкції не змінює вкладку в британській упаковці, не змінює того, чим керується ваш сімейний лікар, і сама собою не змінює того, що вам запропонують."
+        "text": "Саме це загублюється найчастіше. FDA регулює інструкції до американських ліків. Британські воно не регулює — це робить MHRA — і не визначає британську клінічну практику, яка спирається на настанову NICE щодо менопаузи NG23, яку востаннє суттєво переглянули в листопаді 2024 року й доповнили у квітні 2026 року. Зміна американської інструкції не змінює вкладку в британській упаковці, не змінює того, чим керується ваш сімейний лікар, і сама собою не змінює того, що вам запропонують."
       },
       {
         "t": "p",
-        "text": "Тож чесний підсумок для читачки у Британії такий: регулятор по той бік Атлантики наблизив своє маркування до того, що підтверджують дані, і цей зсув поступово просочиться в розмову тут — як зазвичай і буває з американськими рішеннями. Але якщо ви відкладали запитання про ЗГТ через попередження, яке пам'ятаєте наполовину, змінилося формулювання, а не ваш ризик. Питання, з якими варто йти на прийом, ті самі, що й у січні: наскільки ви близько до менопаузи, чого вам насправді коштують симптоми і що каже ваша власна історія. Якщо хочете побачити, як призначення вже змінилися після зняття попередження, я писала про [подвоєння призначень ЗГТ](/ua/blog/hrt-prescriptions-doubling/) окремо."
+        "text": "Тож чесний підсумок для читачки у Британії такий: регулятор по той бік Атлантики наблизив своє маркування до того, що підтверджують дані, і цей зсув поступово просочиться в розмову тут — як зазвичай і буває з американськими рішеннями. Але якщо ви відкладали запитання про ЗГТ через попередження, яке пам'ятаєте наполовину, змінилося формулювання, а не ваш ризик. Питання, з якими варто йти на прийом, ті самі, що й у січні: наскільки ви близько до менопаузи, чого вам насправді коштують симптоми і що каже ваша власна історія. Якщо хочете побачити, як призначення в США зростали в роки навколо цього рішення, я писала про [подвоєння призначень ЗГТ у США з 2018 року](/ua/blog/hrt-prescriptions-doubling/) окремо."
       },
       {
         "t": "h",
@@ -198,7 +198,7 @@ export default {
             "url": "https://www.sgo.org/news/fda-removes-black-box-warnings-on-hormone-replacement-therapy/"
           },
           {
-            "claim": "Зміни в інструкціях набули чинності 12 лютого 2026 року.",
+            "claim": "Зміни в інструкціях затвердили 12 лютого 2026 року.",
             "detail": "FDA затвердило першу партію змін до маркування 12 лютого 2026 року — після публічної експертної панелі в липні 2025 року та оголошення міністерства в листопаді 2025 року. Серед охоплених категорій — комбінація естрогену з прогестагеном, системний естроген окремо, системний прогестаген окремо для тих, хто приймає системний естроген, і топічний вагінальний естроген. Оновлені інструкції наголошують на початку системної терапії протягом 10 років від настання менопаузи або до 60 років.",
             "cite": "Medaptly · Огляд регуляторних змін, 2026",
             "url": "https://www.medaptly.com/news/obstetrics-gynecology/hrt-boxed-warnings-fda-2026/"
@@ -211,8 +211,8 @@ export default {
           },
           {
             "claim": "Британська практика спирається на NICE NG23, якої ця зміна не стосується.",
-            "detail": "Допомога при менопаузі у Великій Британії керується настановою NICE NG23 «Menopause: identification and management», уперше опублікованою в листопаді 2015 року й оновленою в листопаді 2024 року — з новими рекомендаціями щодо когнітивно-поведінкової терапії, ведення сечостатевих симптомів і впливу ЗГТ на окремі показники здоров'я. Маркування ліків у Великій Британії регулює MHRA. Рішення FDA щодо маркування стосується американських інструкцій і не змінює ані британську інформацію про препарат, ані рекомендації NICE.",
-            "cite": "Настанова NICE NG23 · Оновлено в листопаді 2024",
+            "detail": "Допомога при менопаузі у Великій Британії керується настановою NICE NG23 «Menopause: identification and management», уперше опублікованою в листопаді 2015 року й оновленою в листопаді 2024 року — з новими рекомендаціями щодо когнітивно-поведінкової терапії, ведення сечостатевих симптомів і впливу ЗГТ на окремі показники здоров'я, а згодом — дрібнішими поправками, останньою у квітні 2026 року (щодо непланових вагінальних кровотеч на системній ЗГТ). Маркування ліків у Великій Британії регулює MHRA. Рішення FDA щодо маркування стосується американських інструкцій і не змінює ані британську інформацію про препарат, ані рекомендації NICE.",
+            "cite": "Настанова NICE NG23 · Оновлено в листопаді 2024, доповнено у квітні 2026",
             "url": "https://www.nice.org.uk/guidance/ng23"
           }
         ]
@@ -224,7 +224,7 @@ export default {
           {
             "name": "Призначень ЗГТ стало більш ніж удвічі більше з 2018 року",
             "url": "/ua/blog/hrt-prescriptions-doubling/",
-            "desc": "Що сталося з призначеннями після зняття попередження — і чому забракло пластирів."
+            "desc": "Як зростали призначення в США в роки навколо зміни попередження — і чому забракло пластирів."
           },
           {
             "name": "ЗГТ і діабет 1 типу: що кажуть і чого не кажуть дані",
@@ -246,7 +246,7 @@ export default {
       },
       {
         "q": "Я у Британії — для мене щось змінюється?",
-        "a": "Безпосередньо — ні. FDA регулює американські інструкції. Британську інформацію про препарати регулює MHRA, а ваш сімейний лікар керується настановою NICE щодо менопаузи NG23, оновленою в листопаді 2024 року. Жодна з них через це не змінилася. На практиці американські рішення з часом впливають на ширшу розмову, тож формулювання, які ви чутимете, можуть зміститися — але ваш рецепт, ваша вкладка в упаковці й ваш прийом лишилися ті самі."
+        "a": "Безпосередньо — ні. FDA регулює американські інструкції. Британську інформацію про препарати регулює MHRA, а ваш сімейний лікар керується настановою NICE щодо менопаузи NG23, яку востаннє суттєво переглянули в листопаді 2024 року й доповнили у квітні 2026 року. Жодна з них через це не змінилася. На практиці американські рішення з часом впливають на ширшу розмову, тож формулювання, які ви чутимете, можуть зміститися — але ваш рецепт, ваша вкладка в упаковці й ваш прийом лишилися ті самі."
       }
     ]
   }

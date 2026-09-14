@@ -32,7 +32,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Then the scan showed what that weight was. The women who lifted lost 6.36 kg of fat, against 5.47 kg in the no-exercise group and 4.10 kg in the cardio group. They lost more fat than they lost weight. That is only possible because they were building something at the same time: they were the only group whose fat-free mass went up, by 0.90 kg on average. The no-exercise group lost 2.94 kg of it, and the cardio group lost 0.37 kg."
+        "text": "Then the scan showed what that weight was. The women who lifted lost 6.36 kg of fat, against 5.47 kg in the no-exercise group and 4.10 kg in the cardio group. They lost more fat than they lost weight. That is only possible because they were building something at the same time: they were the only group whose fat-free mass went up, by 0.90 kg on average. The no-exercise group lost 1.66 kg of it, and the cardio group only a few hundred grams."
       },
       {
         "t": "h",
@@ -40,7 +40,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is what body recomposition looks like when it is measured rather than promised. Muscle and fat came and went at the same time, in opposite directions, and the scale reported only the net. Across the whole study, every kilogram lost by someone lifting weights was made up of 1.1 kg of fat — more than the weight itself — while for those doing nothing it was 0.7 kg of fat and the rest lean tissue. The difference reached statistical significance against both other groups. Individually, only 5.7% of the women who lifted showed a substantial loss of lean mass. In the no-exercise group it was most of them."
+        "text": "This is what body recomposition looks like when it is measured rather than promised. Muscle and fat came and went at the same time, in opposite directions, and the scale reported only the net. Across the whole study, every kilogram lost by someone lifting weights was made up of 1.1 kg of fat — more than the weight itself — while for those doing nothing it was 0.7 kg of fat and the rest lean tissue. The difference reached statistical significance against both other groups. Individually, only 5.7% of the women who lifted showed a substantial loss of lean mass. In the no-exercise group, every man lost lean mass, and the authors report a similar pattern in the women."
       },
       {
         "t": "p",
@@ -56,11 +56,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "This study included no one on weight-loss medication, so it says nothing directly about them. But it lands on top of a problem that is already well documented: in older women on GLP-1 drugs, somewhere between a quarter and 40% of the weight that comes off is lean mass, which we covered in [GLP-1 drugs work in women over 65 — but a quarter to 40% of what comes off is muscle](/blog/glp1-older-women-lean-mass/). The mechanism protecting muscle in this study — a real protein intake plus a stimulus telling the body the muscle is needed — is the same mechanism those authors point to. Nothing about an injection removes the requirement."
+        "text": "This study did not look at weight-loss medication, so it says nothing directly about it. But it lands on top of a problem that is already well documented: in older women on GLP-1 drugs, somewhere between a quarter and 40% of the weight that comes off is lean mass, which we covered in [GLP-1 drugs work in women over 65 — but a quarter to 40% of what comes off is muscle](/blog/glp1-older-women-lean-mass/). The mechanism protecting muscle in this study — a real protein intake plus a stimulus telling the body the muscle is needed — is the same mechanism those authors point to. Nothing about an injection removes the requirement."
       },
       {
         "t": "p",
-        "text": "Two honest caveats before you take this to the gym. The average woman here was 39.7 years old, and the age range ran from 20 to 74 — this was not a study of women over 40, so nothing in it is specific to perimenopause. And the diet was not incidental: 1.5 g of protein per kg of body weight, planned by a dietitian, with weekly check-ins. Lifting on top of a low-protein, unsupported diet is not the thing that was tested."
+        "text": "Two honest caveats before you take this to the gym. The average woman here was 39.7 years old, and the age range ran from 20 to 74 — this was not a study of women over 40, so nothing in it is specific to perimenopause. And the diet was not incidental: 1.5 g of protein per kg of body weight, planned by a dietitian who stayed involved throughout, with weekly meetings for anyone struggling to stick to it. Lifting on top of a low-protein, unsupported diet is not the thing that was tested."
       },
       {
         "t": "p",
@@ -75,7 +75,7 @@ export default {
         "items": [
           {
             "claim": "Women who did resistance training lost the least weight and the most fat, and were the only group to gain lean mass.",
-            "detail": "Retrospective cohort study of 304 adults (183 men, 121 women, aged 20–74, BMI 18.5–45) at a nutrition clinic in central Israel, 2020–2023, mean follow-up 5.1 months. All followed a hypocaloric diet at roughly a 500 kcal/day deficit with prescribed protein of 1.5 g/kg body weight; participants self-selected no exercise, aerobic exercise (150–250 min/week) or resistance training (2–3 sessions/week). Body composition by DXA. In women: weight change was NO −7.13 kg, AR −6.43 kg, RT −5.42 kg; fat mass RT −6.36 kg, NO −5.47 kg, AR −4.10 kg; fat-free mass RT +0.90 kg, AR −0.37 kg, NO −2.94 kg. Fat-to-weight-loss ratio was 1.1 ± 0.7 in resistance training versus 0.86 in aerobic and 0.7 in no exercise (p = 0.0002 vs no exercise; p = 0.0051 vs aerobic). Substantial lean-mass loss occurred in 5.7% of women who lifted and 14.6% of men. In the no-exercise group, lean tissue was 33.9% of total weight lost in men and 23.5% in women. The authors state that exercise modality was self-selected rather than randomised, that adherence was self-reported, that sleep and stress were not controlled, and that training intensity varied.",
+            "detail": "Retrospective cohort study of 304 adults (183 men, 121 women, aged 20–74, BMI 18.5–45) at a nutrition clinic in central Israel, 2020–2023, mean follow-up 5.1 months. All followed a hypocaloric diet at roughly a 500 kcal/day deficit with prescribed protein of 1.5 g/kg body weight; participants self-selected no exercise, aerobic exercise (150–250 min/week) or resistance training (2–3 sessions/week). Body composition by DXA. In women: weight change was NO −7.13 kg, AR −6.43 kg, RT −5.42 kg; fat mass RT −6.36 kg, NO −5.47 kg, AR −4.10 kg; fat-free mass RT +0.90 kg, AR −0.22 kg, NO −1.66 kg (Table 2B; the abstract gives AR −0.37 kg and NO −2.94 kg, which do not match the table or the weight and fat figures). Across men and women combined, the fat-to-weight-loss ratio was 1.1 ± 0.7 in resistance training versus 0.86 in aerobic and 0.7 in no exercise (p = 0.0002 vs no exercise; p = 0.0051 vs aerobic). Substantial lean-mass loss occurred in 5.7% of women who lifted and 14.6% of men. In the no-exercise group, lean tissue was 33.9% of total weight lost in men and 23.5% in women. The authors state that exercise modality was self-selected rather than randomised, that adherence was self-reported, that sleep and stress were not controlled, and that training intensity varied.",
             "cite": "Frontiers in Endocrinology · Retrospective cohort, Israel, 15 January 2026",
             "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1725500/full"
           },
@@ -120,7 +120,7 @@ export default {
       },
       {
         "q": "How much protein were they eating?",
-        "a": "Protein was prescribed at 1.5 g per kilogram of body weight per day — about 100 g for someone weighing 67 kg, and considerably more than most people eat by default. It was planned by a dietitian, with regular check-ins. The lifting is only half of what was tested here; the protein and the support around it are the other half."
+        "a": "Protein was prescribed at 1.5 g per kilogram of body weight per day — about 100 g for someone weighing 67 kg, and considerably more than most people eat by default. It was planned by a dietitian who stayed involved throughout the programme. The lifting is only half of what was tested here; the protein and the support around it are the other half."
       }
     ]
   },
@@ -144,7 +144,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "А далі сканування показало, з чого та вага складалася. Жінки, які тренувалися з вагою, втратили 6,36 кг жиру — проти 5,47 кг у групі без тренувань і 4,10 кг у групі кардіо. Вони втратили більше жиру, ніж ваги загалом. Це можливо лише тому, що водночас вони щось нарощували: це єдина група, у якої знежирена маса зросла — у середньому на 0,90 кг. Група без тренувань втратила її 2,94 кг, група кардіо — 0,37 кг."
+        "text": "А далі сканування показало, з чого та вага складалася. Жінки, які тренувалися з вагою, втратили 6,36 кг жиру — проти 5,47 кг у групі без тренувань і 4,10 кг у групі кардіо. Вони втратили більше жиру, ніж ваги загалом. Це можливо лише тому, що водночас вони щось нарощували: це єдина група, у якої знежирена маса зросла — у середньому на 0,90 кг. Група без тренувань втратила її 1,66 кг, група кардіо — лише кілька сотень грамів."
       },
       {
         "t": "h",
@@ -152,7 +152,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ось як виглядає рекомпозиція тіла, коли її вимірюють, а не обіцяють. М'язи та жир змінювалися одночасно, у протилежні боки, а терези показували лише підсумок. У всьому дослідженні на кожен кілограм, втрачений тими, хто тренувався з вагою, припадало 1,1 кг жиру — більше, ніж сама вага, — тоді як у тих, хто не тренувався, це було 0,7 кг жиру, а решта — знежирена тканина. Різниця була статистично значущою проти обох інших груп. Індивідуально суттєву втрату знежиреної маси мали лише 5,7% жінок, які піднімали ваги. У групі без тренувань — більшість."
+        "text": "Ось як виглядає рекомпозиція тіла, коли її вимірюють, а не обіцяють. М'язи та жир змінювалися одночасно, у протилежні боки, а терези показували лише підсумок. У всьому дослідженні на кожен кілограм, втрачений тими, хто тренувався з вагою, припадало 1,1 кг жиру — більше, ніж сама вага, — тоді як у тих, хто не тренувався, це було 0,7 кг жиру, а решта — знежирена тканина. Різниця була статистично значущою проти обох інших груп. Індивідуально суттєву втрату знежиреної маси мали лише 5,7% жінок, які піднімали ваги. У групі без тренувань знежирену масу втратили всі чоловіки, а в жінок, за словами авторів, картина була схожою."
       },
       {
         "t": "p",
@@ -168,11 +168,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "У цьому дослідженні не було нікого на препаратах для схуднення, тож напряму воно про них нічого не каже. Але воно лягає поверх уже добре задокументованої проблеми: у жінок старшого віку на препаратах GLP-1 від чверті до 40% втраченої ваги становить знежирена маса — про це ми писали в тексті [Препарати GLP-1 працюють у жінок після 65 — але від чверті до 40% втраченого становлять м'язи](/ua/blog/glp1-older-women-lean-mass/). Механізм, який зберігав м'язи тут — достатній білок плюс сигнал тілу, що ці м'язи потрібні, — це той самий механізм, на який вказують ті автори. Ін'єкція цієї вимоги не скасовує."
+        "text": "Це дослідження не вивчало препарати для схуднення, тож напряму воно про них нічого не каже. Але воно лягає поверх уже добре задокументованої проблеми: у жінок старшого віку на препаратах GLP-1 від чверті до 40% втраченої ваги становить знежирена маса — про це ми писали в тексті [Препарати GLP-1 працюють у жінок після 65 — але від чверті до 40% втраченого становлять м'язи](/ua/blog/glp1-older-women-lean-mass/). Механізм, який зберігав м'язи тут — достатній білок плюс сигнал тілу, що ці м'язи потрібні, — це той самий механізм, на який вказують ті автори. Ін'єкція цієї вимоги не скасовує."
       },
       {
         "t": "p",
-        "text": "Два чесних застереження, перш ніж нести це до зали. Середній вік жінок тут — 39,7 року, а діапазон від 20 до 74: це не дослідження жінок після 40, тож нічого специфічного про перименопаузу в ньому немає. І харчування було не випадковим: 1,5 г білка на кілограм маси тіла, план від дієтолога, щотижневі зустрічі. Силові поверх низькобілкового раціону без підтримки — це не те, що перевіряли."
+        "text": "Два чесних застереження, перш ніж нести це до зали. Середній вік жінок тут — 39,7 року, а діапазон від 20 до 74: це не дослідження жінок після 40, тож нічого специфічного про перименопаузу в ньому немає. І харчування було не випадковим: 1,5 г білка на кілограм маси тіла, план від дієтолога, який супроводжував учасників увесь час, і щотижневі зустрічі для тих, кому було важко його дотримуватися. Силові поверх низькобілкового раціону без підтримки — це не те, що перевіряли."
       },
       {
         "t": "p",
@@ -187,7 +187,7 @@ export default {
         "items": [
           {
             "claim": "Жінки, які тренувалися з вагою, схудли найменше і втратили найбільше жиру — і були єдиною групою, що наростила знежирену масу.",
-            "detail": "Ретроспективне когортне дослідження 304 дорослих (183 чоловіки, 121 жінка, вік 20–74, ІМТ 18,5–45) у клініці харчування в центральному Ізраїлі, 2020–2023, середнє спостереження 5,1 місяця. Усі дотримувалися гіпокалорійного раціону з дефіцитом близько 500 ккал/добу і призначеним білком 1,5 г/кг маси тіла; учасники самі обирали відсутність тренувань, аеробні (150–250 хв/тиждень) або силові (2–3 заняття на тиждень). Склад тіла — DXA. У жінок: зміна ваги без тренувань −7,13 кг, кардіо −6,43 кг, силові −5,42 кг; жирова маса силові −6,36 кг, без тренувань −5,47 кг, кардіо −4,10 кг; знежирена маса силові +0,90 кг, кардіо −0,37 кг, без тренувань −2,94 кг. Співвідношення жиру до втраченої ваги — 1,1 ± 0,7 у силових проти 0,86 у кардіо і 0,7 без тренувань (p = 0,0002 проти відсутності тренувань; p = 0,0051 проти кардіо). Суттєву втрату знежиреної маси мали 5,7% жінок і 14,6% чоловіків із силової групи. У групі без тренувань знежирена тканина становила 33,9% втраченої ваги в чоловіків і 23,5% у жінок. Автори зазначають, що тип навантаження учасники обирали самі, а не отримували випадково, що дотримання оцінювали за самозвітами, що сон і стрес не контролювали, а інтенсивність тренувань різнилася.",
+            "detail": "Ретроспективне когортне дослідження 304 дорослих (183 чоловіки, 121 жінка, вік 20–74, ІМТ 18,5–45) у клініці харчування в центральному Ізраїлі, 2020–2023, середнє спостереження 5,1 місяця. Усі дотримувалися гіпокалорійного раціону з дефіцитом близько 500 ккал/добу і призначеним білком 1,5 г/кг маси тіла; учасники самі обирали відсутність тренувань, аеробні (150–250 хв/тиждень) або силові (2–3 заняття на тиждень). Склад тіла — DXA. У жінок: зміна ваги без тренувань −7,13 кг, кардіо −6,43 кг, силові −5,42 кг; жирова маса силові −6,36 кг, без тренувань −5,47 кг, кардіо −4,10 кг; знежирена маса силові +0,90 кг, кардіо −0,22 кг, без тренувань −1,66 кг (таблиця 2B; в анотації наведено кардіо −0,37 кг і без тренувань −2,94 кг, що не збігається ні з таблицею, ні з даними про вагу та жир). Для чоловіків і жінок разом співвідношення жиру до втраченої ваги — 1,1 ± 0,7 у силових проти 0,86 у кардіо і 0,7 без тренувань (p = 0,0002 проти відсутності тренувань; p = 0,0051 проти кардіо). Суттєву втрату знежиреної маси мали 5,7% жінок і 14,6% чоловіків із силової групи. У групі без тренувань знежирена тканина становила 33,9% втраченої ваги в чоловіків і 23,5% у жінок. Автори зазначають, що тип навантаження учасники обирали самі, а не отримували випадково, що дотримання оцінювали за самозвітами, що сон і стрес не контролювали, а інтенсивність тренувань різнилася.",
             "cite": "Frontiers in Endocrinology · Ретроспективна когорта, Ізраїль, 15 січня 2026",
             "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1725500/full"
           },
@@ -232,7 +232,7 @@ export default {
       },
       {
         "q": "Скільки білка вони їли?",
-        "a": "Білок призначали з розрахунку 1,5 г на кілограм маси тіла на добу — приблизно 100 г для людини вагою 67 кг, і помітно більше, ніж більшість їсть за замовчуванням. План складав дієтолог, із регулярними зустрічами. Силові — лише половина того, що тут перевіряли; білок і супровід навколо нього — друга половина."
+        "a": "Білок призначали з розрахунку 1,5 г на кілограм маси тіла на добу — приблизно 100 г для людини вагою 67 кг, і помітно більше, ніж більшість їсть за замовчуванням. План складав дієтолог, який супроводжував учасників протягом усієї програми. Силові — лише половина того, що тут перевіряли; білок і супровід навколо нього — друга половина."
       }
     ]
   }

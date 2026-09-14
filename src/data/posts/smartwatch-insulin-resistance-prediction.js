@@ -25,7 +25,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The best model reached an AUROC of 0.80, correctly identifying 76% of the people who were insulin resistant and 84% of those who were not. That is a decent result for something built out of a wrist device and an ordinary blood panel. But read the ingredient list before you read the headline, because the model that scored 0.80 used the watch, the person’s age and demographics, and their routine bloods — fasting glucose and a lipid panel. Take the blood test away and leave the watch and demographics on their own, and performance drops to 0.70."
+        "text": "The best model reached an AUROC of 0.80, correctly identifying 76% of the people who were insulin resistant and 84% of those who were not. That is a decent result for something built out of a wrist device and an ordinary blood panel. But read the ingredient list before you read the headline, because the model that scored 0.80 used the watch, the person’s age and demographics, and their routine bloods — fasting glucose, a lipid panel and a standard metabolic panel. Take the blood test away and leave the watch and demographics on their own, and performance drops to 0.70."
       },
       {
         "t": "h",
@@ -37,7 +37,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "What made the watch worth including was not any one number but the shape of the whole recording. The team fine-tuned what they call a wearable foundation model — a network pre-trained on 40 million hours of sensor data — and fed it the raw time series rather than weekly averages. That version extracted considerably more: in the model built on it, wearable data carried 82% of the predictive weight, against 43% when the same data were reduced to simple averages. In a separate validation group of 72 people, adding the watch to demographics, fasting glucose and a lipid panel lifted performance from 0.76 to 0.88."
+        "text": "What made the watch worth including was not any one number but the shape of the whole recording. The team fine-tuned what they call a wearable foundation model — a network pre-trained on 40 million hours of sensor data — and fed it minute-by-minute recordings rather than weekly averages. That version extracted considerably more: in the model built on it, wearable data carried 82% of the predictive weight, against 43% when the same data were reduced to simple averages. In a separate validation group of 72 people, adding the watch to demographics, fasting glucose and a lipid panel lifted performance from 0.76 to 0.88."
       },
       {
         "t": "h",
@@ -45,7 +45,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "It does not predict the future. Everyone in WEAR-ME had their device data and their blood drawn in the same window, so the model estimates whether you are insulin resistant now — not whether you will develop type 2 diabetes later. The authors say so themselves and call for longitudinal studies to test whether wearables can pick up the change when someone improves. “Before diabetes starts” describes who was in the study, not what the model forecasts."
+        "text": "It does not predict the future. Everyone in WEAR-ME had their device data and their blood drawn in the same window, so the model estimates whether you are insulin resistant now — not whether you will develop type 2 diabetes later. The authors themselves call for longitudinal studies to test whether wearables can pick up the change when someone improves. “Before diabetes starts” describes who was in the study, not what the model forecasts."
       },
       {
         "t": "p",
@@ -80,13 +80,13 @@ export default {
         "items": [
           {
             "claim": "A model using smartwatch data plus routine bloods identified insulin resistance with an AUROC of 0.80.",
-            "detail": "The WEAR-ME study enrolled 4,416 US adults aged 21–80 who already used a Fitbit or Pixel Watch; 1,165 (25%) had complete data and were analysed (median age 45, median BMI 28 kg/m², median HbA1c 5.4%). Insulin resistance was defined as HOMA-IR ≥ 2.9. The multimodal model — wearable data, demographics and routine blood biomarkers — reached AUROC 0.80, sensitivity 76%, specificity 84%, R² = 0.50. Wearable data plus demographics alone reached AUROC 0.70. In an independent validation cohort of 72 people, a wearable-foundation-model plus demographics beat demographics alone (0.75 vs 0.66), and adding wearable data to demographics, fasting glucose and a lipid panel raised AUROC from 0.76 to 0.88.",
+            "detail": "The WEAR-ME study enrolled 4,416 US adults aged 21–80 who already used a Fitbit or Pixel Watch; 1,165 (25%) had complete data and were analysed (median age 45, median BMI 28 kg/m², median HbA1c 5.4%). Insulin resistance was defined as HOMA-IR > 2.9. The multimodal model — wearable data, demographics and routine blood biomarkers — reached AUROC 0.80, sensitivity 76%, specificity 84%, R² = 0.50. Wearable data plus demographics alone reached AUROC 0.70. In an independent validation cohort of 72 people, a wearable-foundation-model plus demographics beat demographics alone (0.75 vs 0.66), and adding wearable data to demographics, fasting glucose and a lipid panel raised AUROC from 0.76 to 0.88.",
             "cite": "Metwally AA et al. · Nature, 16 March 2026 · PMC13061641",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061641/"
           },
           {
             "claim": "Individual wearable signals correlate only weakly with insulin resistance.",
-            "detail": "Pearson correlations with HOMA-IR in the WEAR-ME cohort: fasting glucose r = 0.57, HbA1c r = 0.45, BMI r = 0.43, triglycerides r = 0.40, HDL cholesterol r = −0.30, resting heart rate r = 0.27, daily step count r = −0.25, HRV r = −0.14 (all P < 0.001). Sleep duration was among the lifestyle factors analysed but is not reported among the significant correlations. Using a foundation model on raw sensor time series rather than simple averages raised the share of predictive weight carried by wearable data from 43% to 82%.",
+            "detail": "Pearson correlations with HOMA-IR in the WEAR-ME cohort: fasting glucose r = 0.57, HbA1c r = 0.45, BMI r = 0.43, triglycerides r = 0.40, HDL cholesterol r = −0.30, resting heart rate r = 0.27, daily step count r = −0.25, HRV r = −0.14 (all P < 0.001). Sleep duration was among the lifestyle factors analysed but is not reported among the significant correlations. Using a foundation model on minute-level sensor data rather than simple averages raised the share of predictive weight carried by wearable data from 43% to 82%.",
             "cite": "Metwally AA et al. · Nature 652, 451–461 (2026)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41840032/"
           },
@@ -151,7 +151,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найкраща модель досягла AUROC 0,80: вона правильно розпізнала 76% людей з інсулінорезистентністю і 84% тих, у кого її не було. Для інструмента, зібраного з наручного пристрою та звичайної панелі аналізів, це непоганий результат. Але подивіться на склад, перш ніж читати заголовок: модель, яка дала 0,80, використовувала годинник, вік і демографічні дані людини — і звичайні аналізи крові: глюкозу натще та ліпідограму. Заберіть аналіз крові, залиште самі годинник і демографію — і результат падає до 0,70."
+        "text": "Найкраща модель досягла AUROC 0,80: вона правильно розпізнала 76% людей з інсулінорезистентністю і 84% тих, у кого її не було. Для інструмента, зібраного з наручного пристрою та звичайної панелі аналізів, це непоганий результат. Але подивіться на склад, перш ніж читати заголовок: модель, яка дала 0,80, використовувала годинник, вік і демографічні дані людини — і звичайні аналізи крові: глюкозу натще, ліпідограму та стандартну метаболічну панель. Заберіть аналіз крові, залиште самі годинник і демографію — і результат падає до 0,70."
       },
       {
         "t": "h",
@@ -163,7 +163,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Годинник виявився корисним не через якесь одне число, а через форму всього запису. Команда донавчила так звану базову модель для носимих пристроїв — мережу, попередньо натреновану на 40 мільйонах годин сенсорних даних, — і подала їй сирі часові ряди замість тижневих середніх. Такий варіант витягнув значно більше: у побудованій на ньому моделі дані з пристрою давали 82% прогностичної ваги проти 43%, коли ті самі дані зводили до простих середніх. В окремій валідаційній групі з 72 осіб додавання годинника до демографії, глюкози натще та ліпідограми підняло результат з 0,76 до 0,88."
+        "text": "Годинник виявився корисним не через якесь одне число, а через форму всього запису. Команда донавчила так звану базову модель для носимих пристроїв — мережу, попередньо натреновану на 40 мільйонах годин сенсорних даних, — і подала їй похвилинні записи замість тижневих середніх. Такий варіант витягнув значно більше: у побудованій на ньому моделі дані з пристрою давали 82% прогностичної ваги проти 43%, коли ті самі дані зводили до простих середніх. В окремій валідаційній групі з 72 осіб додавання годинника до демографії, глюкози натще та ліпідограми підняло результат з 0,76 до 0,88."
       },
       {
         "t": "h",
@@ -171,7 +171,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Воно не передбачає майбутнє. Усі учасники WEAR-ME здавали кров і давали дані пристрою в одному й тому ж проміжку часу, тож модель оцінює, чи є у вас інсулінорезистентність зараз, а не чи розвинеться у вас діабет 2 типу згодом. Автори пишуть про це прямо й закликають до довготривалих досліджень, які перевірять, чи здатні носимі пристрої вловити зміни, коли людині стає краще. «До початку діабету» описує тих, хто був у дослідженні, а не те, що модель прогнозує."
+        "text": "Воно не передбачає майбутнє. Усі учасники WEAR-ME здавали кров і давали дані пристрою в одному й тому ж проміжку часу, тож модель оцінює, чи є у вас інсулінорезистентність зараз, а не чи розвинеться у вас діабет 2 типу згодом. Автори й самі закликають до довготривалих досліджень, які перевірять, чи здатні носимі пристрої вловити зміни, коли людині стає краще. «До початку діабету» описує тих, хто був у дослідженні, а не те, що модель прогнозує."
       },
       {
         "t": "p",
@@ -206,13 +206,13 @@ export default {
         "items": [
           {
             "claim": "Модель на даних смартгодинника та звичайних аналізах визначала інсулінорезистентність з AUROC 0,80.",
-            "detail": "У дослідження WEAR-ME зареєструвалися 4416 дорослих зі США віком 21–80 років, які вже користувалися Fitbit або Pixel Watch; повні дані мали 1165 осіб (25%), їх і аналізували (медіанний вік 45 років, медіанний ІМТ 28 кг/м², медіанний HbA1c 5,4%). Інсулінорезистентність визначали як HOMA-IR ≥ 2,9. Мультимодальна модель — дані пристрою, демографія та звичайні біомаркери крові — дала AUROC 0,80, чутливість 76%, специфічність 84%, R² = 0,50. Дані пристрою разом із демографією без аналізів давали AUROC 0,70. В незалежній валідаційній когорті з 72 осіб базова модель для носимих пристроїв разом із демографією перевершила саму демографію (0,75 проти 0,66), а додавання даних пристрою до демографії, глюкози натще та ліпідограми підняло AUROC з 0,76 до 0,88.",
+            "detail": "У дослідження WEAR-ME зареєструвалися 4416 дорослих зі США віком 21–80 років, які вже користувалися Fitbit або Pixel Watch; повні дані мали 1165 осіб (25%), їх і аналізували (медіанний вік 45 років, медіанний ІМТ 28 кг/м², медіанний HbA1c 5,4%). Інсулінорезистентність визначали як HOMA-IR > 2,9. Мультимодальна модель — дані пристрою, демографія та звичайні біомаркери крові — дала AUROC 0,80, чутливість 76%, специфічність 84%, R² = 0,50. Дані пристрою разом із демографією без аналізів давали AUROC 0,70. В незалежній валідаційній когорті з 72 осіб базова модель для носимих пристроїв разом із демографією перевершила саму демографію (0,75 проти 0,66), а додавання даних пристрою до демографії, глюкози натще та ліпідограми підняло AUROC з 0,76 до 0,88.",
             "cite": "Metwally AA та ін. · Nature, 16 березня 2026 · PMC13061641",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061641/"
           },
           {
             "claim": "Окремі сигнали з носимого пристрою корелюють з інсулінорезистентністю лише слабко.",
-            "detail": "Кореляції Пірсона з HOMA-IR у когорті WEAR-ME: глюкоза натще r = 0,57, HbA1c r = 0,45, ІМТ r = 0,43, тригліцериди r = 0,40, ЛПВЩ-холестерин r = −0,30, пульс у спокої r = 0,27, кроки за день r = −0,25, варіабельність серцевого ритму r = −0,14 (усі P < 0,001). Тривалість сну була серед проаналізованих факторів способу життя, але не потрапила до переліку значущих кореляцій. Використання базової моделі на сирих часових рядах замість простих середніх підняло частку прогностичної ваги, яку несуть дані пристрою, з 43% до 82%.",
+            "detail": "Кореляції Пірсона з HOMA-IR у когорті WEAR-ME: глюкоза натще r = 0,57, HbA1c r = 0,45, ІМТ r = 0,43, тригліцериди r = 0,40, ЛПВЩ-холестерин r = −0,30, пульс у спокої r = 0,27, кроки за день r = −0,25, варіабельність серцевого ритму r = −0,14 (усі P < 0,001). Тривалість сну була серед проаналізованих факторів способу життя, але не потрапила до переліку значущих кореляцій. Використання базової моделі на похвилинних даних сенсорів замість простих середніх підняло частку прогностичної ваги, яку несуть дані пристрою, з 43% до 82%.",
             "cite": "Metwally AA та ін. · Nature 652, 451–461 (2026)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41840032/"
           },
