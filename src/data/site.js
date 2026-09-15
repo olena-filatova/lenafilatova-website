@@ -454,6 +454,11 @@ export const RESOURCES = {
     kicker: 'Безкоштовні ресурси', h1: 'Інструменти та гайди',
     lead: 'Практичні, науково обґрунтовані ресурси для жіночого здоров’я після 40 — безкоштовно, без умов.',
     listLabel: 'Усі інструменти',
+    // Section head for `guides` below. The note is not decoration: the list
+    // above carries the badge «Без реєстрації · Без оплати», so the one thing
+    // on this page that DOES ask for an address has to say so itself.
+    guidesLabel: 'Гайди',
+    guidesNote: 'Гайди теж безкоштовні, але, на відміну від інструментів вище, надсилаю їх поштою — тому потрібна ваша адреса.',
   },
   cards: [
     {
@@ -523,6 +528,34 @@ export const RESOURCES = {
       guideHref: '/blog/type-1-diabetes-cure-trials/', guideHrefUa: '/ua/blog/type-1-diabetes-cure-trials/',
       en: { band: 'Type 1 cure research', kicker: 'Tracker & guide', title: 'Type 1 diabetes cure trials tracker', desc: '20 cure and disease-modifying trials side by side — filter by country, phase, approach, and whether each is recruiting or free to join. With an honest guide to what is actually working.', cta: 'Open the tracker', guide: 'Read the guide: what is actually working in 2026' },
       ua: { band: 'Дослідження лікування діабету 1 типу', kicker: 'Трекер і гайд', title: 'Трекер досліджень щодо лікування діабету 1 типу', desc: '20 досліджень щодо лікування та модифікації перебігу поряд — фільтри за країною, фазою, підходом і тим, чи триває набір та чи безкоштовна участь. Плюс чесний путівник тим, що справді працює.', cta: 'Відкрити трекер', guide: 'Читати гайд: що справді працює у 2026 році' },
+    },
+  ],
+
+  // Gated guides — DELIBERATELY NOT in `cards` above.
+  //
+  // The tools list carries the badge «Без реєстрації · Без оплати» at full
+  // strength, and it is the reason people go on to use the tools. A guide that
+  // asks for an email address sitting in that same list would make the badge a
+  // lie. So guides get their own section, their own label, and a note that
+  // states the email requirement before anyone clicks.
+  //
+  // Language-scoped: an entry renders only where it has copy. The meal-plan
+  // guide is Ukrainian only (OPS-415), so the EN resources page shows no guides
+  // section at all rather than advertising something an English reader cannot
+  // read.
+  guides: [
+    {
+      // Brand magenta rather than one of the seven tool tints — these are
+      // Lena's own material, not a utility, and the colour says so.
+      band: '#f6eaef', head: '#7C2144',
+      hrefUa: '/ua/meal-plan/',
+      ua: {
+        band: 'Харчування',
+        kicker: 'Гайд · 24 сторінки',
+        title: 'Гнучка система харчування на 4 тижні',
+        desc: '200 взаємозамінних страв і готовий план на 28 днів — для інсулінорезистентності, діабету та перименопаузи. Страви перегукуються, тож готуєте раз на день, а зайві продукти не псуються.',
+        cta: 'Подивитися гайд',
+      },
     },
   ],
 };

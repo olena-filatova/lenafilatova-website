@@ -16,6 +16,9 @@ import { RESOURCES, HOME } from '../data/site.js';
 const { lang = 'en' } = Astro.props;
 const t = RESOURCES[lang];
 const cards = RESOURCES.cards;
+// Guides render only where they have copy for this language — the meal-plan
+// guide is Ukrainian only, so the EN page shows no guides section at all.
+const guides = (RESOURCES.guides || []).filter((g) => g[lang]);
 // The no-strings promise is the same sentence the homepage makes over this
 // exact list, so it is read from there rather than restated.
 const free = HOME[lang].toolsFree;
@@ -77,3 +80,52 @@ const free = HOME[lang].toolsFree;
     </ol>
   </div>
 </section>
+
+{/* Guides sit BELOW the tools and outside their list on purpose: the badge over
+    that list promises «Без реєстрації · Без оплати», and these ask for an email
+    address. Same row styling so the page reads as one thing, but its own label
+    and an explicit note, so nobody clicks expecting no form. */}
+{guides.length > 0 && (
+  <section class="res-wrap res-guides">
+    <div class="wrap">
+      <div class="res-sec-head">
+        <span class="fk">{t.guidesLabel}</span>
+        <span class="fk-n">{String(guides.length).padStart(2, '0')}</span>
+      </div>
+      <p class="res-guides-note">{t.guidesNote}</p>
+      <ol class="res-list">
+        {guides.map((guide, i) => {
+          const c = guide[lang];
+          const raw = lang === 'ua' ? guide.hrefUa : guide.href;
+          const href = raw.startsWith('/') ? import.meta.env.BASE_URL.replace(/\/$/, '') + raw : raw;
+          return (
+            <li class="res-item" style={`--tool: ${guide.head}`}>
+              <a class="res-tool" href={href}>
+                <span class="idx">{String(i + 1).padStart(2, '0')}</span>
+                <span class="body">
+                  <span class="meta">
+                    <span class="subject">{c.band}</span>
+                    <span class="kind">{c.kicker}</span>
+                  </span>
+                  <h2>{c.title}</h2>
+                  <p>{c.desc}</p>
+                  <span class="go">{c.cta} <span class="ar">&#8594;</span></span>
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  </section>
+)}
+
+<style>
+  /* The tools section already pads the page bottom, so the guides section only
+     needs air above it — not another 72px underneath the last row. */
+  .res-guides { padding-top: 8px; }
+  .res-guides-note {
+    max-width: 62ch; margin: 14px 0 0;
+    font-size: var(--fs-small); line-height: 1.6; color: var(--muted);
+  }
+</style>
