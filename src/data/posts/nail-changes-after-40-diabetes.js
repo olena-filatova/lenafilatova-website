@@ -21,7 +21,7 @@ export default {
     "metaDesc": "Ridges, slow growth and yellowing are mostly just ageing. The one nail change diabetes really does drive - and why it matters for your feet.",
     "excerpt": "Almost everything on the standard list of diabetic nail warning signs turns out to be ordinary ageing. One finding survives a proper comparison with a control group - and it is not the one the internet leads with.",
     "meta": "3 September 2026 · 7 min read",
-    "lead": "Ridging, slower growth, dullness and brittleness are what nails do after 40, in almost everybody. No nail change is specific to diabetes. What diabetes genuinely does is roughly double the odds of a fungal nail infection - which matters far less for how your nails look than for what a break in the skin barrier means on a diabetic foot.",
+    "lead": "Ridging, slower growth, dullness and brittleness are what nails do after 40, in almost everybody. No nail change is specific to diabetes. What diabetes genuinely does is roughly double the rate of fungal nail infection - which matters far less for how your nails look than for what a break in the skin barrier means on a diabetic foot.",
     "blocks": [
       {
         "t": "p",
@@ -57,15 +57,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Strip out everything that ageing already explains and one finding survives, and it survives with a control group. A [2024 cross-sectional study in Spain](https://pmc.ncbi.nlm.nih.gov/articles/PMC11595250/) recruited 160 people with diabetes and 160 without, examined them, and cultured and PCR-tested anyone with clinical signs of fungal infection. Fungal nail infection was found in 36.9% of the group with diabetes against 17.5% of the group without — an odds ratio of 2.75 (95% CI 1.65 to 4.68, p<0.001). Among the participants with diabetes, an HbA1c above 7% was one of the factors associated with having it."
+        "text": "Strip out everything that ageing already explains and one finding survives, and it survives with a control group. A [2024 cross-sectional study in Spain](https://pmc.ncbi.nlm.nih.gov/articles/PMC11595250/) recruited 160 people with diabetes and 160 without at a specialist foot clinic in Madrid, examined them, and cultured and PCR-tested anyone with clinical signs of fungal infection. Fungal nail infection was found in 36.9% of the group with diabetes against 17.5% of the group without — an odds ratio of 2.75 (95% CI 1.65 to 4.68, p<0.001). Among the participants with diabetes, an HbA1c above 7% was one of the factors associated with having it."
       },
       {
         "t": "p",
-        "text": "Roughly double the risk, in a properly compared sample. That is the actual nail story of diabetes, and note what it is not: it is not that diabetes is quietly degrading the nail plate. It is that diabetes makes a common infection considerably more common. Fungal infection already accounts for about half of all nail disorders in older adults, and its prevalence climbs with age regardless of blood sugar."
+        "text": "Roughly double the risk, in a properly compared sample. That is the actual nail story of diabetes, and note what it is not: it is not that diabetes is quietly degrading the nail plate. It is that diabetes makes a common infection considerably more common. Fungal infection already accounts for about half of all nail disorders, and its prevalence climbs with age regardless of blood sugar."
       },
       {
         "t": "p",
-        "text": "There is a second finding that deserves more attention than it gets. When researchers examined [82 hospital inpatients with diabetes](https://pubmed.ncbi.nlm.nih.gov/34670337/), 79.3% had some nail change — but when the nails were actually sampled and examined under a microscope, only 52.3% of those changes were fungal. The most frequent signs were thickening of the tissue under the nail, the nail lifting from its bed, yellow discolouration and splinter haemorrhages, each in more than a quarter of patients. Crucially, the non-fungal nail damage was significantly associated with prominent metatarsal heads and a history of nail trauma. In other words: foot shape and pressure. Shoes, not sugar."
+        "text": "There is a second finding that deserves more attention than it gets. When researchers examined [82 hospital inpatients with diabetes](https://pubmed.ncbi.nlm.nih.gov/34670337/), 79.3% had some nail change — but when the nails were actually sampled and tested in the laboratory, only 52.3% of those patients had a fungal infection. The most frequent signs were thickening of the tissue under the nail, the nail lifting from its bed, yellow discolouration and splinter haemorrhages, each in more than a quarter of patients. Crucially, the non-fungal nail damage was significantly associated with prominent metatarsal heads and a history of nail trauma. In other words: foot shape and pressure. Shoes, not sugar."
       },
       {
         "t": "h",
@@ -138,7 +138,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The FDA issued a safety communication about this in November 2017 and [has linked biotin interference to one death](https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference), where a falsely low troponin result contributed to a missed heart attack. Thyroid tests are among the most commonly affected. Laboratory guidance suggests holding biotin for at least 8 hours before a blood draw, and up to 72 hours for the most sensitive assays. If you take a nail or hair supplement, check the label for biotin and tell whoever takes your bloods — that single sentence is worth more than anything else in this article."
+        "text": "The FDA issued a safety communication about this in November 2017, reporting one death in which a falsely low troponin result contributed to a missed heart attack, and it [still warns that troponin tests can be affected](https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference). Thyroid tests are among the most commonly affected. Laboratory guidance suggests holding biotin for at least 8 hours before a blood draw, and up to 72 hours for the most sensitive assays. If you take a nail or hair supplement, check the label for biotin and tell whoever takes your bloods — that single sentence is worth more than anything else in this article."
       },
       {
         "t": "h",
@@ -162,7 +162,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ridging, slower growth, dullness and brittleness are ageing, and they are ageing in almost everybody. No nail change is specific to diabetes; the reviews are explicit about that. What diabetes genuinely does is roughly double the odds of a fungal nail infection, and in a diabetic foot that infection matters because it breaks the skin barrier. Half of nail changes in people with diabetes are not fungal at all — some are simply pressure from the shape of the foot — so confirm before you treat. And if brittle nails have you reaching for biotin, tell your diabetes team, because it can quietly corrupt the blood tests they rely on."
+        "text": "Ridging, slower growth, dullness and brittleness are ageing, and they are ageing in almost everybody. No nail change is specific to diabetes; the reviews are explicit about that. What diabetes genuinely does is roughly double the rate of fungal nail infection, and in a diabetic foot that infection matters because it breaks the skin barrier. In one hospital study, nearly half the people with diabetes whose abnormal nails were tested had no fungal infection at all — some changes are simply pressure from the shape of the foot — so confirm before you treat. And if brittle nails have you reaching for biotin, tell your diabetes team, because it can quietly corrupt the blood tests they rely on."
       },
       {
         "t": "p",
@@ -183,7 +183,7 @@ export default {
           },
           {
             "claim": "Fungal nail infection is about twice as common with diabetes: 36.9% versus 17.5%.",
-            "detail": "A cross-sectional study in Spain recruiting 160 consecutive patients with diabetes and 160 without. A single investigator recorded the data and sampled nail dust and detritus for culture and PCR in anyone showing clinical signs of infection. Prevalence was 36.88% (59/160) with diabetes and 17.5% (28/160) without, and 34.35% (45/131) in those with diabetic foot; the association between diabetes and infection was significant (p<0.001, OR 2.754, 95% CI 1.652-4.679). Risk factors within the diabetes group included minor amputation, revascularisation or cardiovascular disease, low educational level, HbA1c above 7%, hyperkeratosis and subungual detritus. Being cross-sectional it establishes association, not causation, and only clinically suspicious nails were sampled.",
+            "detail": "A cross-sectional study at a specialist foot clinic in Madrid, recruiting 160 consecutive patients with diabetes (82% of them with diabetic foot syndrome) and 160 without. A single investigator recorded the data and sampled nail dust and detritus for culture and PCR in anyone showing clinical signs of infection. Prevalence was 36.88% (59/160) with diabetes and 17.5% (28/160) without, and 34.35% (45/131) in those with diabetic foot; the association between diabetes and infection was significant (p<0.001, OR 2.754, 95% CI 1.652-4.679). Risk factors within the diabetes group included minor amputation, revascularisation or cardiovascular disease, low educational level, HbA1c above 7%, hyperkeratosis and subungual detritus. Being cross-sectional it establishes association, not causation, and only clinically suspicious nails were sampled.",
             "cite": "Prevalence and Risk Factors Predicting Onychomycosis in Patients with and Without Diabetes Mellitus in Spain · J Fungi 2024",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11595250/"
           },
@@ -239,7 +239,7 @@ export default {
     "metaDesc": "Борозенки, повільний ріст і жовтизна — здебільшого просто вік. Єдина зміна нігтів, яку діабет справді спричиняє, і чому це важливо для стоп.",
     "excerpt": "Майже все зі стандартного списку «діабетичних» ознак на нігтях виявляється звичайним старінням. Один результат витримує коректне порівняння з контрольною групою — і це не той, з якого починає інтернет.",
     "meta": "3 вересня 2026 · 7 хв читання",
-    "lead": "Борозенки, повільніший ріст, тьмяність і ламкість — це те, що роблять нігті після 40, майже в усіх. Жодна зміна нігтя не є специфічною для діабету. Що діабет справді робить — приблизно подвоює шанси грибкової інфекції нігтя, а це важить куди менше для вигляду нігтів, ніж для того, що означає порушений шкірний бар'єр на діабетичній стопі.",
+    "lead": "Борозенки, повільніший ріст, тьмяність і ламкість — це те, що роблять нігті після 40, майже в усіх. Жодна зміна нігтя не є специфічною для діабету. Що діабет справді робить — приблизно подвоює частоту грибкової інфекції нігтя, а це важить куди менше для вигляду нігтів, ніж для того, що означає порушений шкірний бар'єр на діабетичній стопі.",
     "blocks": [
       {
         "t": "p",
@@ -275,15 +275,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Приберіть усе, що вже пояснюється віком, і залишиться один результат — причому з контрольною групою. [Одномоментне дослідження в Іспанії 2024 року](https://pmc.ncbi.nlm.nih.gov/articles/PMC11595250/) набрало 160 людей з діабетом і 160 без нього, оглянуло їх і зробило посів та ПЛР усім, у кого були клінічні ознаки грибкової інфекції. Грибкове ураження нігтів виявили у 36,9% групи з діабетом проти 17,5% групи без нього — відношення шансів 2,75 (95% ДІ 1,65–4,68, p<0,001). Серед учасників з діабетом HbA1c вище 7% був одним із факторів, пов'язаних із наявністю інфекції."
+        "text": "Приберіть усе, що вже пояснюється віком, і залишиться один результат — причому з контрольною групою. [Одномоментне дослідження в Іспанії 2024 року](https://pmc.ncbi.nlm.nih.gov/articles/PMC11595250/) набрало 160 людей з діабетом і 160 без нього в спеціалізованій клініці стопи в Мадриді, оглянуло їх і зробило посів та ПЛР усім, у кого були клінічні ознаки грибкової інфекції. Грибкове ураження нігтів виявили у 36,9% групи з діабетом проти 17,5% групи без нього — відношення шансів 2,75 (95% ДІ 1,65–4,68, p<0,001). Серед учасників з діабетом HbA1c вище 7% був одним із факторів, пов'язаних із наявністю інфекції."
       },
       {
         "t": "p",
-        "text": "Приблизно подвоєний ризик у коректно порівняній вибірці. Це і є справжня «нігтьова» історія діабету — і зверніть увагу, чим вона не є: справа не в тому, що діабет тихцем руйнує нігтьову пластину. Справа в тому, що діабет робить поширену інфекцію значно поширенішою. Грибкова інфекція вже й так становить близько половини всіх захворювань нігтів у старшому віці, і її поширеність зростає з віком незалежно від цукру крові."
+        "text": "Приблизно подвоєний ризик у коректно порівняній вибірці. Це і є справжня «нігтьова» історія діабету — і зверніть увагу, чим вона не є: справа не в тому, що діабет тихцем руйнує нігтьову пластину. Справа в тому, що діабет робить поширену інфекцію значно поширенішою. Грибкова інфекція вже й так становить близько половини всіх захворювань нігтів, і її поширеність зростає з віком незалежно від цукру крові."
       },
       {
         "t": "p",
-        "text": "Є й другий результат, який заслуговує більшої уваги. Коли дослідники оглянули [82 стаціонарних пацієнтів з діабетом](https://pubmed.ncbi.nlm.nih.gov/34670337/), у 79,3% були якісь зміни нігтів — але коли нігті справді взяли на аналіз і подивилися під мікроскопом, грибковими виявилися лише 52,3% цих змін. Найчастішими ознаками були потовщення тканини під нігтем, відшарування нігтя від ложа, жовте забарвлення й скалкоподібні крововиливи — кожна більш ніж у чверті пацієнтів. Найважливіше: негрибкові ураження нігтів достовірно пов'язувалися з виступаючими головками плеснових кісток і травмами нігтя в анамнезі. Іншими словами — форма стопи й тиск. Взуття, а не цукор."
+        "text": "Є й другий результат, який заслуговує більшої уваги. Коли дослідники оглянули [82 стаціонарних пацієнтів з діабетом](https://pubmed.ncbi.nlm.nih.gov/34670337/), у 79,3% були якісь зміни нігтів — але коли нігті справді взяли на лабораторний аналіз, грибкову інфекцію підтвердили лише у 52,3% цих пацієнтів. Найчастішими ознаками були потовщення тканини під нігтем, відшарування нігтя від ложа, жовте забарвлення й скалкоподібні крововиливи — кожна більш ніж у чверті пацієнтів. Найважливіше: негрибкові ураження нігтів достовірно пов'язувалися з виступаючими головками плеснових кісток і травмами нігтя в анамнезі. Іншими словами — форма стопи й тиск. Взуття, а не цукор."
       },
       {
         "t": "h",
@@ -356,7 +356,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "FDA випустило попередження про це в листопаді 2017 року й [пов'язало інтерференцію біотину з одним летальним випадком](https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference), де хибно занижений тропонін посприяв пропущеному інфаркту. Аналізи щитоподібної залози — серед найчастіше уражених. Лабораторні рекомендації радять не приймати біотин щонайменше 8 годин до забору крові, а для найчутливіших методів — до 72 годин. Якщо ви приймаєте добавку для нігтів чи волосся, перевірте етикетку на біотин і скажіть про це тому, хто бере вам кров — це одне речення варте більше за все інше в цій статті."
+        "text": "FDA випустило попередження про це в листопаді 2017 року й повідомило про один летальний випадок, де хибно занижений тропонін посприяв пропущеному інфаркту, а також [досі попереджає, що аналізи на тропонін можуть бути спотворені](https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference). Аналізи щитоподібної залози — серед найчастіше уражених. Лабораторні рекомендації радять не приймати біотин щонайменше 8 годин до забору крові, а для найчутливіших методів — до 72 годин. Якщо ви приймаєте добавку для нігтів чи волосся, перевірте етикетку на біотин і скажіть про це тому, хто бере вам кров — це одне речення варте більше за все інше в цій статті."
       },
       {
         "t": "h",
@@ -380,7 +380,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Борозенки, повільніший ріст, тьмяність і ламкість — це вік, і це вік майже в усіх. Жодна зміна нігтя не є специфічною для діабету; огляди кажуть про це прямо. Що діабет справді робить — приблизно подвоює шанси грибкової інфекції нігтя, а на діабетичній стопі ця інфекція важлива, бо порушує шкірний бар'єр. Половина нігтьових змін у людей з діабетом узагалі не грибкові — частина з них просто тиск через форму стопи — тож підтверджуйте, перш ніж лікувати. І якщо через ламкі нігті ви тягнетеся по біотин, скажіть про це своїй діабетичній команді, бо він може непомітно зіпсувати аналізи, на які вони спираються."
+        "text": "Борозенки, повільніший ріст, тьмяність і ламкість — це вік, і це вік майже в усіх. Жодна зміна нігтя не є специфічною для діабету; огляди кажуть про це прямо. Що діабет справді робить — приблизно подвоює частоту грибкової інфекції нігтя, а на діабетичній стопі ця інфекція важлива, бо порушує шкірний бар'єр. В одному лікарняному дослідженні майже половина людей з діабетом, чиї змінені нігті перевірили, не мала грибкової інфекції взагалі — частина змін просто від тиску через форму стопи — тож підтверджуйте, перш ніж лікувати. І якщо через ламкі нігті ви тягнетеся по біотин, скажіть про це своїй діабетичній команді, бо він може непомітно зіпсувати аналізи, на які вони спираються."
       },
       {
         "t": "p",
@@ -401,7 +401,7 @@ export default {
           },
           {
             "claim": "Грибкове ураження нігтів удвічі частіше при діабеті: 36,9% проти 17,5%.",
-            "detail": "Одномоментне дослідження в Іспанії, яке послідовно набрало 160 пацієнтів з діабетом і 160 без нього. Один дослідник фіксував дані й брав нігтьовий пил і детрит на посів і ПЛР у тих, хто мав клінічні ознаки інфекції. Поширеність становила 36,88% (59/160) при діабеті та 17,5% (28/160) без нього, і 34,35% (45/131) у групі з діабетичною стопою; зв'язок між діабетом та інфекцією був значущим (p<0,001, ВШ 2,754, 95% ДІ 1,652–4,679). Факторами ризику в групі з діабетом були мала ампутація, реваскуляризація чи серцево-судинне захворювання в анамнезі, низький рівень освіти, HbA1c вище 7%, гіперкератоз і піднігтьовий детрит. Оскільки дослідження одномоментне, воно встановлює зв'язок, а не причину, і зразки брали лише з клінічно підозрілих нігтів.",
+            "detail": "Одномоментне дослідження в спеціалізованій клініці стопи в Мадриді, яке послідовно набрало 160 пацієнтів з діабетом (82% з них мали синдром діабетичної стопи) і 160 без нього. Один дослідник фіксував дані й брав нігтьовий пил і детрит на посів і ПЛР у тих, хто мав клінічні ознаки інфекції. Поширеність становила 36,88% (59/160) при діабеті та 17,5% (28/160) без нього, і 34,35% (45/131) у групі з діабетичною стопою; зв'язок між діабетом та інфекцією був значущим (p<0,001, ВШ 2,754, 95% ДІ 1,652–4,679). Факторами ризику в групі з діабетом були мала ампутація, реваскуляризація чи серцево-судинне захворювання в анамнезі, низький рівень освіти, HbA1c вище 7%, гіперкератоз і піднігтьовий детрит. Оскільки дослідження одномоментне, воно встановлює зв'язок, а не причину, і зразки брали лише з клінічно підозрілих нігтів.",
             "cite": "Prevalence and Risk Factors Predicting Onychomycosis in Patients with and Without Diabetes Mellitus in Spain · J Fungi 2024",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11595250/"
           },

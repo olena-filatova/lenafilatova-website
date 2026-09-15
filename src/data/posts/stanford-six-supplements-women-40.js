@@ -35,7 +35,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Creatine comes first. Three to five grams a day, at any time that suits you, with no loading phase — the same conclusion I reached when I went through [the perimenopause creatine trials](/blog/creatine-women-over-40/). Protein is second: 1.2 to 1.6 grams per kilogram of body weight a day, which Pojednic translates into a practical 80 to 100 grams, against the 40 to 60 grams she says most women actually eat. Third is vitamin D3, at 800 to 4,000 IU a day. Fourth, calcium, at 1,000 mg a day for women in their forties. Fifth, omega-3. Sixth, fibre — 25 grams a day, and the article is firm that this one belongs in your food, with psyllium husk, inulin or methylcellulose only if the food is not getting you there."
+        "text": "Creatine comes first. Three to five grams a day, at any time that suits you — the same conclusion I reached when I went through [the perimenopause creatine trials](/blog/creatine-women-over-40/). Protein is second: 1.2 to 1.6 grams per kilogram of body weight a day, which Pojednic translates into a practical 80 to 100 grams, against the 40 to 60 grams she says many women actually eat. Third is vitamin D3, at 800 to 4,000 IU a day. Fourth, calcium, at 1,000 mg a day for women in their forties. Fifth, omega-3. Sixth, fibre — 25 grams a day, and the article is firm that this one belongs in your food, with psyllium husk, inulin or methylcellulose only if the food is not getting you there."
       },
       {
         "t": "p",
@@ -47,7 +47,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Magnesium is not in the article. Not as a seventh mention, not as an aside, not in the section on sleep — the word does not appear once. I went looking for it specifically, because nearly every summary I had seen attached to this list opens with magnesium glycinate. That absence is not the same as a verdict against it, and I am not reading it as one; I have written separately about [what the magnesium evidence in perimenopause does and does not support](/blog/magnesium-perimenopause-sleep-insulin-resistance/), and the honest summary there is that the blood-sugar biology is real and the sleep trials are thin. But if you were told Stanford put magnesium at the centre of midlife supplementation, you were told something the page does not say."
+        "text": "Magnesium is not in the article. Not as a seventh mention, not as an aside, not where it mentions sleep — the word does not appear once. I went looking for it specifically, because nearly every summary I had seen attached to this list opens with magnesium glycinate. That absence is not the same as a verdict against it, and I am not reading it as one; I have written separately about [what the magnesium evidence in perimenopause does and does not support](/blog/magnesium-perimenopause-sleep-insulin-resistance/), and the honest summary there is that the blood-sugar biology is real and the sleep trials are thin. But if you were told Stanford put magnesium at the centre of midlife supplementation, you were told something the page does not say."
       },
       {
         "t": "p",
@@ -59,11 +59,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Stanford is writing for American readers, and two of the numbers land differently against UK guidance. On vitamin D, the NHS recommends 10 micrograms — 400 IU — a day for adults, and says everyone should consider taking that through autumn and winter, with some groups needing it year-round. It also says not to take more than 100 micrograms, or 4,000 IU, a day, because more can be harmful. So Stanford’s range of 800 to 4,000 IU runs from twice the NHS recommendation up to the exact point the NHS calls the safe ceiling. The top of that range is a limit, not a target, and Pojednic says as much herself: excessive intake gives diminishing returns, and a blood test is the way to find your own number."
+        "text": "Stanford is writing for American readers, and three of the numbers land differently against UK guidance. On vitamin D, the NHS recommends 10 micrograms — 400 IU — a day for adults, and says everyone should consider taking that through autumn and winter, with some groups needing it year-round. It also says not to take more than 100 micrograms, or 4,000 IU, a day, because more can be harmful. So Stanford’s range of 800 to 4,000 IU runs from twice the NHS recommendation up to the exact point the NHS calls the safe ceiling. The top of that range is a limit, not a target, and Pojednic says as much herself: excessive intake gives diminishing returns, and a blood test is the way to find your own number."
       },
       {
         "t": "p",
-        "text": "On calcium, the NHS figure for adults aged 19 to 64 is 700 mg a day, not 1,000 mg — and it puts the point where high doses start causing problems at more than 1,500 mg. The gap between 700 and 1,000 is not alarming, and both sit well below that. But it is the difference between a target you are probably already hitting from food and one you might go and buy a tub for, so it is worth knowing which country’s number you are being quoted."
+        "text": "On calcium, the NHS figure for adults aged 19 to 64 is 700 mg a day, not 1,000 mg — and it puts the point where high doses start causing problems at more than 1,500 mg. The gap between 700 and 1,000 is not alarming, and both sit well below that. But it is the difference between a target you are probably already hitting from food and one you might go and buy a tub for, so it is worth knowing which country’s number you are being quoted. Fibre runs the other way: Stanford’s 25 grams is the US guideline figure, and UK government guidance is higher, at 30 grams a day."
       },
       {
         "t": "h",
@@ -88,7 +88,7 @@ export default {
           },
           {
             "claim": "The six are creatine, protein, vitamin D3, calcium, omega-3 and fibre — with doses for four of them.",
-            "detail": "Creatine: three to five grams a day, timing irrelevant, no loading phase, with a preference for a water-based rather than acid-based wash. Protein: 1.2 to 1.6 g per kilogram of body weight a day, described as a practical 80 to 100 g, against a stated typical intake of 40 to 60 g. Vitamin D3 (cholecalciferol): 800 to 4,000 IU a day, with deficiency defined as under 50 nmol/L and inadequacy under 29 ng/ml. Calcium: 1,000 mg a day for women in their forties. Omega-3: no dose given. Fibre: 25 g a day, from food where possible.",
+            "detail": "Creatine: three to five grams a day, timing irrelevant, with a preference for a water-based rather than acid-based wash. Protein: 1.2 to 1.6 g per kilogram of body weight a day, described as a practical 80 to 100 g, against the 40 to 60 g it says many women eat. Vitamin D3 (cholecalciferol): 800 to 4,000 IU a day, with deficiency defined as under 50 nmol/L and inadequacy under 29 ng/ml. Calcium: 1,000 mg a day for women in their forties. Omega-3: no dose given. Fibre: 25 g a day, from food where possible.",
             "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 March 2025",
             "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
           },
@@ -156,7 +156,7 @@ export default {
       },
       {
         "q": "How much vitamin D should I take, in the UK?",
-        "a": "The NHS advice is 10 micrograms — 400 IU — a day, and it recommends everyone consider taking that through autumn and winter, when UK sunlight is too weak for your skin to make its own. Some people need it all year: if you are rarely outdoors, live in a care setting, usually cover your skin, or have dark skin. The NHS also sets a clear ceiling: do not take more than 100 micrograms, or 4,000 IU, a day. Stanford’s 800 to 4,000 IU range therefore starts at twice the UK recommendation and ends exactly at the UK safety limit, so treat the top of it as a boundary rather than a goal. If you want to know your own number rather than guess, ask for a blood test. And take it with something fatty — Stanford’s one genuinely practical tip is that taking vitamin D3 alongside a fat-containing supplement such as fish oil improves how much of it you absorb."
+        "a": "The NHS advice is 10 micrograms — 400 IU — a day, and it recommends everyone consider taking that through autumn and winter, when UK sunlight is too weak for your skin to make its own. Some people need it all year: if you are rarely outdoors, live in a care setting, usually cover your skin, or have dark skin. The NHS also sets a clear ceiling: do not take more than 100 micrograms, or 4,000 IU, a day. Stanford’s 800 to 4,000 IU range therefore starts at twice the UK recommendation and ends exactly at the UK safety limit, so treat the top of it as a boundary rather than a goal. If you want to know your own number rather than guess, ask for a blood test. And take it with something fatty — one practical tip from Stanford is that taking vitamin D3 with fat, such as an omega-3 supplement, improves how much of it you absorb."
       }
     ]
   },
@@ -180,7 +180,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Першим іде креатин. Три-п’ять грамів на день, у будь-який зручний час, без фази завантаження — того самого висновку я дійшла, коли розбирала [дослідження креатину в перименопаузі](/ua/blog/creatine-women-over-40/). Другим — білок: 1,2–1,6 грама на кілограм маси тіла на добу, що Поєднич перекладає у практичні 80–100 грамів проти 40–60 грамів, які, за її словами, більшість жінок їдять насправді. Третій — вітамін D3, 800–4000 МО на день. Четвертий — кальцій, 1000 мг на день для жінок у сорок із чимось. П’ятий — омега-3. Шостий — клітковина, 25 грамів на день, і матеріал наполягає, що це має бути їжа, а лушпиння подорожника, інулін чи метилцелюлоза — лише якщо їжі не вистачає."
+        "text": "Першим іде креатин. Три-п’ять грамів на день, у будь-який зручний час — того самого висновку я дійшла, коли розбирала [дослідження креатину в перименопаузі](/ua/blog/creatine-women-over-40/). Другим — білок: 1,2–1,6 грама на кілограм маси тіла на добу, що Поєднич перекладає у практичні 80–100 грамів проти 40–60 грамів, які, за її словами, багато жінок їдять насправді. Третій — вітамін D3, 800–4000 МО на день. Четвертий — кальцій, 1000 мг на день для жінок у сорок із чимось. П’ятий — омега-3. Шостий — клітковина, 25 грамів на день, і матеріал наполягає, що це має бути їжа, а лушпиння подорожника, інулін чи метилцелюлоза — лише якщо їжі не вистачає."
       },
       {
         "t": "p",
@@ -192,7 +192,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Магнію в матеріалі немає. Ні сьомим пунктом, ні побіжно, ні в розділі про сон — це слово не трапляється жодного разу. Я шукала його спеціально, бо майже кожен переказ цього списку, який я бачила, починається з магнію гліцинату. Ця відсутність не є вироком магнію, і я так її не читаю; я окремо писала про те, [що доказова база магнію в перименопаузі підтверджує, а що ні](/ua/blog/magnesium-perimenopause-sleep-insulin-resistance/), і чесний підсумок там такий: біологія щодо цукру крові справжня, а дослідження сну — слабкі. Але якщо вам сказали, що Stanford поставив магній у центр підтримки в середньому віці, вам сказали те, чого на сторінці немає."
+        "text": "Магнію в матеріалі немає. Ні сьомим пунктом, ні побіжно, ні там, де згадано сон, — це слово не трапляється жодного разу. Я шукала його спеціально, бо майже кожен переказ цього списку, який я бачила, починається з магнію гліцинату. Ця відсутність не є вироком магнію, і я так її не читаю; я окремо писала про те, [що доказова база магнію в перименопаузі підтверджує, а що ні](/ua/blog/magnesium-perimenopause-sleep-insulin-resistance/), і чесний підсумок там такий: біологія щодо цукру крові справжня, а дослідження сну — слабкі. Але якщо вам сказали, що Stanford поставив магній у центр підтримки в середньому віці, вам сказали те, чого на сторінці немає."
       },
       {
         "t": "p",
@@ -204,11 +204,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Stanford пише для американських читачок, і два числа лягають інакше на британські настанови. Щодо вітаміну D NHS рекомендує дорослим 10 мікрограмів — 400 МО — на день і радить усім думати про таку добавку восени та взимку, а деяким групам — цілий рік. NHS також каже не перевищувати 100 мікрограмів, тобто 4000 МО, на добу, бо більше може шкодити. Тож стенфордський діапазон 800–4000 МО починається з подвійної британської норми й закінчується рівно там, де NHS ставить межу безпеки. Верхівка цього діапазону — межа, а не мета, і сама Поєднич каже те саме: надлишок дає дедалі менше користі, а знайти свою цифру допомагає аналіз крові."
+        "text": "Stanford пише для американських читачок, і три числа лягають інакше на британські настанови. Щодо вітаміну D NHS рекомендує дорослим 10 мікрограмів — 400 МО — на день і радить усім думати про таку добавку восени та взимку, а деяким групам — цілий рік. NHS також каже не перевищувати 100 мікрограмів, тобто 4000 МО, на добу, бо більше може шкодити. Тож стенфордський діапазон 800–4000 МО починається з подвійної британської норми й закінчується рівно там, де NHS ставить межу безпеки. Верхівка цього діапазону — межа, а не мета, і сама Поєднич каже те саме: надлишок дає дедалі менше користі, а знайти свою цифру допомагає аналіз крові."
       },
       {
         "t": "p",
-        "text": "Щодо кальцію британська норма для дорослих 19–64 років — 700 мг на день, а не 1000 мг; проблеми від високих доз NHS відносить до понад 1500 мг. Різниця між 700 і 1000 не тривожна, і обидві цифри значно нижчі за ту межу. Але це різниця між нормою, яку ви, найпевніше, вже добираєте з їжі, і нормою, заради якої можна піти й купити банку добавки, — тож варто знати, чиєї країни число вам цитують."
+        "text": "Щодо кальцію британська норма для дорослих 19–64 років — 700 мг на день, а не 1000 мг; проблеми від високих доз NHS відносить до понад 1500 мг. Різниця між 700 і 1000 не тривожна, і обидві цифри значно нижчі за ту межу. Але це різниця між нормою, яку ви, найпевніше, вже добираєте з їжі, і нормою, заради якої можна піти й купити банку добавки, — тож варто знати, чиєї країни число вам цитують. З клітковиною навпаки: стенфордські 25 грамів — це американська норма, а британська державна настанова вища — 30 грамів на день."
       },
       {
         "t": "h",
@@ -233,7 +233,7 @@ export default {
           },
           {
             "claim": "Шість пунктів — креатин, білок, вітамін D3, кальцій, омега-3 і клітковина; дози названо для чотирьох.",
-            "detail": "Креатин: три-п’ять грамів на день, час прийому не має значення, фаза завантаження не потрібна. Білок: 1,2–1,6 г на кілограм маси тіла на добу, практично 80–100 г, проти типових 40–60 г. Вітамін D3 (холекальциферол): 800–4000 МО на день; дефіцит визначено як менше ніж 50 нмоль/л, недостатність — менше ніж 29 нг/мл. Кальцій: 1000 мг на день для жінок у сорок із чимось. Омега-3: дозу не названо. Клітковина: 25 г на день, за можливості з їжі.",
+            "detail": "Креатин: три-п’ять грамів на день, час прийому не має значення, краще обирати креатин, очищений водним, а не кислотним промиванням. Білок: 1,2–1,6 г на кілограм маси тіла на добу, практично 80–100 г, проти 40–60 г, які, за матеріалом, їдять багато жінок. Вітамін D3 (холекальциферол): 800–4000 МО на день; дефіцит визначено як менше ніж 50 нмоль/л, недостатність — менше ніж 29 нг/мл. Кальцій: 1000 мг на день для жінок у сорок із чимось. Омега-3: дозу не названо. Клітковина: 25 г на день, за можливості з їжі.",
             "cite": "Stanford Lifestyle Medicine · Shetty M, Song F · 6 березня 2025",
             "url": "https://lifestylemedicine.stanford.edu/supplements-for-women-40/"
           },
@@ -301,7 +301,7 @@ export default {
       },
       {
         "q": "Скільки вітаміну D приймати — за британськими нормами?",
-        "a": "NHS радить 10 мікрограмів — 400 МО — на день і рекомендує всім розглянути таку добавку восени та взимку, коли британського сонця замало, щоб шкіра виробляла вітамін сама. Декому він потрібен цілий рік: тим, хто рідко буває надворі, живе в закладі догляду, зазвичай закриває шкіру одягом або має темну шкіру. NHS також ставить чітку межу: не більше ніж 100 мікрограмів, тобто 4000 МО, на добу. Отже, стенфордський діапазон 800–4000 МО починається з подвійної британської норми й закінчується рівно на британській межі безпеки, тож верхівку варто сприймати як кордон, а не як ціль. Якщо хочете знати свою цифру, а не вгадувати, попросіть аналіз крові. І приймайте з чимось жирним — єдина справді практична порада Stanford полягає в тому, що вітамін D3 разом із жировмісною добавкою на кшталт риб’ячої олії засвоюється краще."
+        "a": "NHS радить 10 мікрограмів — 400 МО — на день і рекомендує всім розглянути таку добавку восени та взимку, коли британського сонця замало, щоб шкіра виробляла вітамін сама. Декому він потрібен цілий рік: тим, хто рідко буває надворі, живе в закладі догляду, зазвичай закриває шкіру одягом або має темну шкіру. NHS також ставить чітку межу: не більше ніж 100 мікрограмів, тобто 4000 МО, на добу. Отже, стенфордський діапазон 800–4000 МО починається з подвійної британської норми й закінчується рівно на британській межі безпеки, тож верхівку варто сприймати як кордон, а не як ціль. Якщо хочете знати свою цифру, а не вгадувати, попросіть аналіз крові. І приймайте з чимось жирним — одна з практичних порад Stanford полягає в тому, що вітамін D3, прийнятий із жиром, наприклад із добавкою омега-3, засвоюється краще."
       }
     ]
   }
