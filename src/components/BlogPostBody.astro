@@ -10,6 +10,8 @@ import VARIANTS from '../data/image-variants.json';
 import DIMS from '../data/image-dims.json';
 import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
 import ShareRow from './ShareRow.astro';
+import Newsletter from './Newsletter.astro';
+import { BLOG_RAIL, RESOURCES } from '../data/site.js';
 import '../styles/blog.css';
 
 const { post, lang = 'en' } = Astro.props;
@@ -62,6 +64,15 @@ const toc = articleToc(a, t);
 // rather than offering a pin of nothing.
 const sharePath = `${lang === 'ua' ? '/ua' : ''}/blog/${post.slug}/`;
 const shareImage = hasHero(post, DIMS) ? post.image : undefined;
+// Left rail (OPS-472): each tool resolves to its RESOURCES card for the
+// language's address and accent colour; an href with no card is skipped.
+const rail = BLOG_RAIL[lang];
+const railTools = BLOG_RAIL.tools.flatMap((x) => {
+  const card = RESOURCES.cards.find((c) => c.href === x.href);
+  if (!card) return [];
+  const href = B.replace(/\/$/, '') + (lang === 'ua' ? card.hrefUa : card.href);
+  return [{ href, label: x[lang], color: card.head }];
+});
 ---
 <article class="post">
   {/* Article header: kicker, serif headline, then a hairline rule with the
@@ -90,6 +101,25 @@ const shareImage = hasHero(post, DIMS) ? post.image : undefined;
   {hasHero(post, DIMS) &&
     <figure><Picture src={post.image} alt={a.imageAlt || a.title} sizes={FIGURE_SIZES} fetchpriority="high" width={dim(post.image).w} height={dim(post.image).h} /></figure>}
   <p class="lead">{a.lead}</p>
+  {/* Left rail (OPS-472): the mirror of the contents rail, in the margin that
+      was left bare. Free tools, then the workbook signup. Only from 1320px —
+      below that there is no margin, and the same things are already on the
+      page (the footer signup band, the Tools link in the masthead); the rail
+      is display:none there, so a phone never gets a second form. */}
+  <aside class="left-rail" aria-label={rail.toolsLabel}>
+    <div class="rail">
+      <nav class="rail-tools">
+        <p class="rt-label">{rail.toolsLabel}</p>
+        <ul>
+          {railTools.map((x) => (
+            <li style={`--tool: ${x.color}`}><a href={x.href}>{x.label}</a></li>
+          ))}
+        </ul>
+        <a class="rt-all" href={`${L}resources/`}>{rail.allTools} &#8594;</a>
+      </nav>
+      <Newsletter lang={lang} id="newsletter-rail" variant="rail" copy={{ nlTitle: rail.nlTitle, nlSub: rail.nlSub, nlBtn: rail.nlBtn }} />
+    </div>
+  </aside>
   {/* Contents. In the flow here on anything narrower than a desktop — a
       collapsible block under the standfirst — and lifted into the empty right
       margin as a sticky rail from 1320px up, where there is room for it beside

@@ -28,6 +28,11 @@
 // subscribed" and genuine errors reach the visitor in their own language.
 (function () {
   document.querySelectorAll('.nlform').forEach(function (form) {
+    // A blog article carries two forms (the left-rail box and the footer band,
+    // OPS-472), each Newsletter instance loads this file, and each run walks
+    // every form on the page — without this a submit would post twice.
+    if (form.dataset.mcBound) return;
+    form.dataset.mcBound = '1';
     var box = form.parentElement;
     var okEl = box && box.querySelector('.nl-sent');
     var msgEl = box && box.querySelector('.nl-msg');
