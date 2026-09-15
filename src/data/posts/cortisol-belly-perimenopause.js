@@ -58,7 +58,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://doi.org/10.1177/20533691231180721) puts numbers on it: visceral fat rises from around 5–8% of body weight before the transition to 10–15% after it, and most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
+        "text": "The first is oestrogen. For decades it directs fat towards your hips and thighs; as it declines, that signal weakens and fat migrates inward to the abdomen instead. The [British Menopause Society](https://doi.org/10.1177/20533691231180721) puts numbers on it: most of the weight women gain in these years — roughly 1.5kg a year on average — settles around the middle. The deep fat also grows as a share of the whole: [a review of body composition across the transition](https://pmc.ncbi.nlm.nih.gov/articles/PMC5041043/) puts visceral fat at around 5–8% of total body fat before it and 15–20% after. That happens partly independently of stress. I wrote more about this in [five myths about perimenopause and weight](/blog/perimenopause-weight-myths/)."
       },
       {
         "t": "p",
@@ -133,9 +133,15 @@ export default {
           },
           {
             "claim": "Falling oestrogen shifts fat to the abdomen in perimenopause.",
-            "detail": "The British Menopause Society reports that as oestrogen declines, visceral fat rises from around 5–8% of body weight to 10–15%, with most menopausal weight gain — roughly 1.5kg a year on average — accumulating around the abdomen and upper body. It recommends resistance training, adequate protein and moderated alcohol.",
+            "detail": "The British Menopause Society reports that women gain roughly 1.5kg a year on average during the perimenopause transition, with most of it accumulating around the abdomen and upper body. It recommends resistance training, adequate protein and moderated alcohol.",
             "cite": "British Menopause Society tool for clinicians · Post Reproductive Health, 2023",
             "url": "https://doi.org/10.1177/20533691231180721"
+          },
+          {
+            "claim": "Visceral fat goes from around 5–8% of total body fat to 15–20% across the menopause transition.",
+            "detail": "A review of mid-life changes in body size and composition in Healthcare (2016) reports that the visceral fat depot increases from 5–8% of total body fat before the final menstrual period to 15–20% of total fat after it, citing two earlier studies published in Climacteric. The British Menopause Society’s 2023 tool for clinicians describes a similar shift as 5–8% to 10–15% of total body weight; the review’s body-fat figure, which is also the one used in five myths about perimenopause and weight, is the one used here.",
+            "cite": "Healthcare · Narrative review, 2016 (Karvonen-Gutierrez & Kim)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5041043/"
           },
           {
             "claim": "Losing sleep can push cortisol up — and perimenopause disrupts sleep.",
@@ -225,7 +231,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://doi.org/10.1177/20533691231180721) наводить цифри: вісцеральний жир зростає з приблизно 5–8% ваги тіла до переходу до 10–15% після нього, а більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
+        "text": "Перше — це естроген. Десятиліттями він спрямовує жир до стегон і сідниць; коли він знижується, цей сигнал слабшає, і жир натомість мігрує всередину, до живота. [Британське товариство менопаузи](https://doi.org/10.1177/20533691231180721) наводить цифри: більша частина ваги, яку жінки набирають у ці роки — у середньому близько 1,5 кг на рік — осідає навколо талії. А глибокий жир займає дедалі більшу частку: за [оглядом змін складу тіла під час менопаузального переходу](https://pmc.ncbi.nlm.nih.gov/articles/PMC5041043/), вісцеральний жир становить приблизно 5–8% усього жиру в тілі до переходу і 15–20% після нього. Це відбувається частково незалежно від стресу. Більше про це я писала в [п’ятьох міфах про перименопаузу та вагу](/ua/blog/perimenopause-weight-myths/)."
       },
       {
         "t": "p",
@@ -300,9 +306,15 @@ export default {
           },
           {
             "claim": "Падіння естрогену зміщує жир до живота в перименопаузі.",
-            "detail": "Британське товариство менопаузи повідомляє, що зі зниженням естрогену вісцеральний жир зростає з приблизно 5–8% ваги тіла до 10–15%, при цьому більша частина менопаузального набору ваги — у середньому близько 1,5 кг на рік — накопичується навколо живота та верхньої частини тіла. Воно рекомендує силові тренування, достатньо білка та помірність у алкоголі.",
+            "detail": "Британське товариство менопаузи повідомляє, що під час перименопаузального переходу жінки набирають у середньому близько 1,5 кг на рік і більша частина цієї ваги накопичується навколо живота та верхньої частини тіла. Воно рекомендує силові тренування, достатньо білка та помірність у алкоголі.",
             "cite": "Інструмент для клініцистів Британського товариства менопаузи · Post Reproductive Health, 2023",
             "url": "https://doi.org/10.1177/20533691231180721"
+          },
+          {
+            "claim": "Під час менопаузального переходу вісцеральний жир зростає з приблизно 5–8% усього жиру в тілі до 15–20%.",
+            "detail": "Огляд змін розміру та складу тіла в середньому віці в журналі Healthcare (2016) повідомляє, що вісцеральне жирове депо зростає з 5–8% усього жиру в тілі до останньої менструації до 15–20% після неї, посилаючись на два раніші дослідження в Climacteric. Інструмент для клініцистів Британського товариства менопаузи 2023 року описує схожий зсув як 5–8% → 10–15% загальної ваги тіла; тут, як і в статті про п’ять міфів про перименопаузу та вагу, використано цифру огляду — частку від усього жиру в тілі.",
+            "cite": "Healthcare · Оглядова стаття, 2016 (Karvonen-Gutierrez, Kim)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5041043/"
           },
           {
             "claim": "Втрата сну може підвищувати кортизол — а перименопауза порушує сон.",

@@ -56,7 +56,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The furthest-advanced programme is Vertex’s zimislecel (VX-880), now in a Phase 3 study called FORWARD. It infuses lab-grown, insulin-making islet cells into the liver’s blood supply. The early results are the kind we have waited decades for: of the first 12 patients followed for a year, the company reports that 10 came off insulin completely, and all reached healthy blood-sugar targets and stopped having severe hypos. It builds on the same principle as the [donor islet cell transplants that have quietly restored insulin independence](/blog/islet-transplant-insulin-independence/) in a small number of people."
+        "text": "The furthest-advanced programme is Vertex’s zimislecel (VX-880), tested in a combined Phase 1/2/3 study called FORWARD that has now moved into its larger, pivotal stage. It infuses lab-grown, insulin-making islet cells into the liver’s blood supply. The early results are the kind we have waited decades for: in the study’s Phase 1/2 stage, published in the New England Journal of Medicine in June 2025, 10 of the 12 patients given a full dose and followed for a year came off insulin completely, and all 12 reached healthy blood-sugar targets and stopped having severe hypos. The larger stage has already had one delay: in January 2026 Vertex temporarily postponed the remaining dosing while it ran an internal manufacturing analysis, then reported in May that the analysis was complete and dosing had resumed. It says it will give updated timelines later in 2026. It builds on the same principle as the [donor islet cell transplants that have quietly restored insulin independence](/blog/islet-transplant-insulin-independence/) in a small number of people."
       },
       {
         "t": "p",
@@ -64,7 +64,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "That is exactly why two other efforts matter so much. A University of Chicago study pairs an islet transplant with a gentler antibody called tegoprubart instead of the usual harsh anti-rejection drugs — and reports that all 12 recipients so far are insulin-independent. And in Sweden, Sana Biotechnology’s team gene-edited donor islet cells to “hide” from the immune system and placed them in one patient with no anti-rejection drugs at all; the cells survived and made insulin for over a year. That single patient, published in a top medical journal, is a proof of principle that could eventually remove the immunosuppression problem entirely."
+        "text": "That is exactly why two other efforts matter so much. A University of Chicago study pairs a donor islet transplant with a gentler antibody called tegoprubart instead of the usual harsh anti-rejection drugs — and reports that all 12 recipients so far are insulin-independent. That is a different 12 from Vertex’s: donor cells rather than lab-grown ones, followed for a median of eight months (the longest 22) rather than a full year each, and presented at a conference in June 2026 rather than published in a journal. And in Sweden, Sana Biotechnology’s team gene-edited donor islet cells to “hide” from the immune system and placed them in one patient with no anti-rejection drugs at all; the cells survived and made insulin for over a year. That single patient, published in a top medical journal, is a proof of principle that could eventually remove the immunosuppression problem entirely."
       },
       {
         "t": "p",
@@ -76,7 +76,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The other half of the field tries to stop the immune system attacking beta cells in the first place. This is where the only approved disease-modifying treatment lives: teplizumab (TZIELD). In people at high risk — found through antibody screening, often relatives of someone with type 1 — a two-week course delays the onset of full diabetes by about two years on average. As of April 2026 it is approved in the US from age 1. It does not cure or prevent, but it is the first drug ever shown to change the course of type 1, and it is available now."
+        "text": "The other half of the field tries to stop the immune system attacking beta cells in the first place. This is where the only approved disease-modifying treatment lives: teplizumab (TZIELD). In people at high risk — found through antibody screening, often relatives of someone with type 1 — a two-week course delayed the onset of full diabetes in the TN-10 trial by a median of about two years. With longer follow-up that gap grew to about 32 months, which is why NICE describes the delay as nearly three years. As of April 2026 it is approved in the US from age 1, and in July 2026 NICE recommended it on the NHS in England and Wales for people aged 8 and over with stage 2 type 1. It does not cure or prevent, but it is the first drug ever shown to change the course of type 1, and it is available now."
       },
       {
         "t": "p",
@@ -123,15 +123,21 @@ export default {
         "items": [
           {
             "claim": "Lab-grown islet cells (zimislecel) freed most early patients from insulin.",
-            "detail": "In Vertex’s Phase 1/2 data presented in June 2025, all 12 patients followed for at least a year reached target HbA1c and time-in-range and eliminated severe hypoglycaemia, with 10 of 12 fully insulin-independent. This is company-reported data from an ongoing trial, not yet an approved therapy.",
-            "cite": "ClinicalTrials.gov · FORWARD study (NCT04786262)",
-            "url": "https://clinicaltrials.gov/study/NCT04786262"
+            "detail": "In the Phase 1/2 stage of Vertex’s FORWARD study, presented and published in the New England Journal of Medicine in June 2025, all 12 patients given a full dose and followed for at least a year reached target HbA1c and time-in-range and had no severe hypoglycaemia, with 10 of 12 fully insulin-independent at day 365. The analyses were interim and the study is Vertex-funded; this is not yet an approved therapy. The study (NCT04786262) is now in its Phase 3 stage: Vertex postponed the remaining dosing in January 2026 pending an internal manufacturing analysis, reported in May 2026 that the analysis was complete and dosing had resumed, and expects to update its timelines later in 2026.",
+            "cite": "New England Journal of Medicine · Phase 1/2 results, June 2025; Vertex updates, 2026",
+            "url": "https://doi.org/10.1056/NEJMoa2506549"
           },
           {
             "claim": "Teplizumab is the first and only approved treatment that changes the course of type 1 diabetes.",
-            "detail": "In at-risk (stage 2) people the TN-10 trial found it delays clinical onset by roughly two years — a median of about four years versus two on placebo; the PROTECT trial cited here also showed it preserves insulin production in the newly diagnosed. US approval was expanded to age 1 and older in April 2026.",
+            "detail": "In at-risk (stage 2) people the TN-10 trial found it delays clinical onset by roughly two years — a median of about four years versus two on placebo in the primary analysis (49.5 versus 24.9 months); in extended follow-up the difference was 32.5 months, the basis for NICE’s “nearly three years”. The PROTECT trial cited here also showed it preserves insulin production in the newly diagnosed. US approval was expanded to age 1 and older in April 2026.",
             "cite": "ClinicalTrials.gov · PROTECT (NCT03875729)",
             "url": "https://clinicaltrials.gov/study/NCT03875729"
+          },
+          {
+            "claim": "NICE has recommended teplizumab for NHS use.",
+            "detail": "NICE technology appraisal TA1176, published 9 July 2026, recommends teplizumab as an option for delaying the onset of stage 3 type 1 diabetes in people 8 years and over with stage 2 type 1 diabetes, only if the company provides it under the agreed commercial arrangement. The evidence came from TN-10, a phase 2 trial in 76 relatives of people with type 1: median time to stage 3 was 49.5 months with teplizumab against 24.9 months with placebo in the primary analysis, and 59.6 against 27.1 months in extended follow-up.",
+            "cite": "NICE · TA1176, 9 July 2026",
+            "url": "https://www.nice.org.uk/guidance/ta1176"
           },
           {
             "claim": "A daily arthritis tablet, baricitinib, preserved insulin production after diagnosis.",
@@ -187,7 +193,7 @@ export default {
       },
       {
         "q": "Which trial is closest to becoming available?",
-        "a": "Vertex’s zimislecel (VX-880) is the furthest along — it is in Phase 3, with early patients coming off insulin. Vertex has said it aims to begin regulatory submissions in 2026, but nothing has been filed yet, so a realistic best case is around 2027 or later if the bigger trial succeeds. Teplizumab, which delays rather than cures, is already approved and available in the US."
+        "a": "Vertex’s zimislecel (VX-880) is the furthest along — its FORWARD study is in its Phase 3 stage, after early patients came off insulin in the Phase 1/2 stage. Dosing was postponed in early 2026 for a manufacturing check and had resumed by May; Vertex now says it will give updated timelines later in 2026, and no filing has been announced, so a realistic best case is around 2027 or later if the bigger trial succeeds. Teplizumab, which delays rather than cures, is already approved and available in the US."
       },
       {
         "q": "Can I join a type 1 diabetes trial?",
@@ -199,7 +205,7 @@ export default {
       },
       {
         "q": "What about teplizumab — how do I get it?",
-        "a": "Teplizumab (TZIELD) is approved in the US for stage 2 type 1 — people who have the autoantibodies and early blood-sugar changes but not yet full diabetes, from age 1. It is usually reached through autoantibody screening (often offered free to relatives of someone with type 1) and given as a roughly two-week course of infusions. Speak to an endocrinologist about screening and eligibility."
+        "a": "Teplizumab (TZIELD) is approved in the US for stage 2 type 1 — people who have the autoantibodies and early blood-sugar changes but not yet full diabetes, from age 1. It is usually reached through autoantibody screening (often offered free to relatives of someone with type 1) and given as a roughly two-week course of infusions. In England and Wales, NICE recommended it for NHS use in July 2026 for people aged 8 and over with stage 2 type 1. Speak to an endocrinologist about screening and eligibility."
       },
       {
         "q": "Does any of this apply to type 2 diabetes?",
@@ -254,7 +260,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найбільш просунута програма — це зиміслецел (VX-880) від Vertex, зараз у дослідженні Фази 3 під назвою FORWARD. Воно вводить у кровотік печінки вирощені в лабораторії острівцеві клітини, що виробляють інсулін. Ранні результати — саме такі, на які ми чекали десятиліттями: із перших 12 пацієнтів, за якими спостерігали рік, компанія повідомляє, що 10 повністю відмовилися від інсуліну, а всі досягли здорових показників цукру й перестали мати тяжкі гіпоглікемії. Це спирається на той самий принцип, що й [трансплантація донорських острівцевих клітин, яка тихо повернула інсулінонезалежність](/ua/blog/islet-transplant-insulin-independence/) кільком людям."
+        "text": "Найбільш просунута програма — це зиміслецел (VX-880) від Vertex, який перевіряють у комбінованому дослідженні Фази 1/2/3 під назвою FORWARD; тепер воно перейшло до більшого, ключового етапу. Воно вводить у кровотік печінки вирощені в лабораторії острівцеві клітини, що виробляють інсулін. Ранні результати — саме такі, на які ми чекали десятиліттями: на етапі Фази 1/2 (опубліковано в New England Journal of Medicine у червні 2025 року) 10 із 12 пацієнтів, які отримали повну дозу й за якими спостерігали рік, повністю відмовилися від інсуліну, а всі 12 досягли здорових показників цукру й перестали мати тяжкі гіпоглікемії. Більший етап уже мав одну затримку: у січні 2026 року Vertex тимчасово відклала завершення введення препарату, поки тривав внутрішній аналіз виробництва, а в травні повідомила, що аналіз завершено й введення відновлено. Оновлені строки компанія обіцяє пізніше у 2026 році. Це спирається на той самий принцип, що й [трансплантація донорських острівцевих клітин, яка тихо повернула інсулінонезалежність](/ua/blog/islet-transplant-insulin-independence/) кільком людям."
       },
       {
         "t": "p",
@@ -262,7 +268,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме тому так важливі два інші напрями. Дослідження Університету Чикаго поєднує трансплантацію острівців із м’якшим антитілом під назвою теґопрубарт замість звичних жорстких препаратів проти відторгнення — і повідомляє, що всі 12 реципієнтів наразі інсулінонезалежні. А у Швеції команда Sana Biotechnology генетично відредагувала донорські острівцеві клітини, щоб вони «ховалися» від імунної системи, і вмістила їх одному пацієнту без жодних препаратів проти відторгнення; клітини вижили й виробляли інсулін понад рік. Цей один пацієнт, описаний у провідному медичному журналі, — це доказ принципу, який згодом міг би взагалі зняти проблему пригнічення імунітету."
+        "text": "Саме тому так важливі два інші напрями. Дослідження Університету Чикаго поєднує трансплантацію донорських острівців із м’якшим антитілом під назвою теґопрубарт замість звичних жорстких препаратів проти відторгнення — і повідомляє, що всі 12 реципієнтів наразі інсулінонезалежні. Це інші 12 людей, ніж у Vertex: донорські клітини замість вирощених у лабораторії, спостереження з медіаною вісім місяців (найдовше — 22), а не повний рік для кожного, і результати, представлені на конференції в червні 2026 року, а не опубліковані в журналі. А у Швеції команда Sana Biotechnology генетично відредагувала донорські острівцеві клітини, щоб вони «ховалися» від імунної системи, і вмістила їх одному пацієнту без жодних препаратів проти відторгнення; клітини вижили й виробляли інсулін понад рік. Цей один пацієнт, описаний у провідному медичному журналі, — це доказ принципу, який згодом міг би взагалі зняти проблему пригнічення імунітету."
       },
       {
         "t": "p",
@@ -274,7 +280,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Інша половина галузі намагається взагалі зупинити атаку імунної системи на бета-клітини. Саме тут — єдина схвалена терапія, що змінює перебіг хвороби: теплізумаб (TZIELD). У людей із високим ризиком — яких виявляють через скринінг на антитіла, часто родичів людини з діабетом 1 типу — двотижневий курс відкладає початок повного діабету в середньому приблизно на два роки. З квітня 2026 року він схвалений у США від 1 року. Він не виліковує й не запобігає, але це перший препарат, який доведено змінює перебіг діабету 1 типу, і він доступний уже зараз."
+        "text": "Інша половина галузі намагається взагалі зупинити атаку імунної системи на бета-клітини. Саме тут — єдина схвалена терапія, що змінює перебіг хвороби: теплізумаб (TZIELD). У людей із високим ризиком — яких виявляють через скринінг на антитіла, часто родичів людини з діабетом 1 типу — у дослідженні TN-10 двотижневий курс відклав початок повного діабету приблизно на два роки (за медіаною). За довшого спостереження цей розрив зріс приблизно до 32 місяців — тому NICE говорить про відстрочку майже у три роки. З квітня 2026 року він схвалений у США від 1 року, а в липні 2026 року NICE рекомендував його для NHS в Англії та Уельсі людям від 8 років із 2-ю стадією діабету 1 типу. Він не виліковує й не запобігає, але це перший препарат, який доведено змінює перебіг діабету 1 типу, і він доступний уже зараз."
       },
       {
         "t": "p",
@@ -321,15 +327,21 @@ export default {
         "items": [
           {
             "claim": "Вирощені в лабораторії острівцеві клітини (зиміслецел) звільнили більшість перших пацієнтів від інсуліну.",
-            "detail": "За даними Vertex Фази 1/2, представленими у червні 2025 року, усі 12 пацієнтів, за якими спостерігали щонайменше рік, досягли цільових HbA1c і часу в діапазоні та позбулися тяжких гіпоглікемій, а 10 із 12 повністю інсулінонезалежні. Це дані компанії з дослідження, що триває, а не схвалена терапія.",
-            "cite": "ClinicalTrials.gov · FORWARD (NCT04786262)",
-            "url": "https://clinicaltrials.gov/study/NCT04786262"
+            "detail": "На етапі Фази 1/2 дослідження FORWARD від Vertex, результати якого представили й опублікували в New England Journal of Medicine у червні 2025 року, усі 12 пацієнтів, які отримали повну дозу й за якими спостерігали щонайменше рік, досягли цільових HbA1c і часу в діапазоні та не мали тяжких гіпоглікемій, а 10 із 12 були повністю інсулінонезалежні на 365-й день. Це проміжний аналіз дослідження, яке фінансує Vertex, а не схвалена терапія. Тепер дослідження (NCT04786262) на етапі Фази 3: у січні 2026 року Vertex відклала завершення введення препарату через внутрішній аналіз виробництва, у травні 2026 року повідомила, що аналіз завершено й введення відновлено, і обіцяє оновити строки пізніше у 2026 році.",
+            "cite": "New England Journal of Medicine · результати Фази 1/2, червень 2025; оновлення Vertex, 2026",
+            "url": "https://doi.org/10.1056/NEJMoa2506549"
           },
           {
             "claim": "Теплізумаб — перша й єдина схвалена терапія, що змінює перебіг діабету 1 типу.",
-            "detail": "У людей із ризиком (стадія 2) дослідження TN-10 показало, що він відкладає клінічний початок приблизно на два роки — медіана близько чотирьох років проти двох на плацебо; наведене тут дослідження PROTECT також показало, що він зберігає вироблення інсуліну в людей із нещодавнім діагнозом. У квітні 2026 року схвалення у США розширили до віку від 1 року.",
+            "detail": "У людей із ризиком (стадія 2) дослідження TN-10 показало, що він відкладає клінічний початок приблизно на два роки — медіана близько чотирьох років проти двох на плацебо в первинному аналізі (49,5 проти 24,9 місяця); за подовженого спостереження різниця становила 32,5 місяця — звідси «майже три роки» в NICE. Наведене тут дослідження PROTECT також показало, що він зберігає вироблення інсуліну в людей із нещодавнім діагнозом. У квітні 2026 року схвалення у США розширили до віку від 1 року.",
             "cite": "ClinicalTrials.gov · PROTECT (NCT03875729)",
             "url": "https://clinicaltrials.gov/study/NCT03875729"
+          },
+          {
+            "claim": "NICE рекомендував теплізумаб для застосування в NHS.",
+            "detail": "Оцінка технології NICE TA1176, опублікована 9 липня 2026 року, рекомендує теплізумаб як варіант для відтермінування 3-ї стадії діабету 1 типу в людей від 8 років із 2-ю стадією — лише за умови, що компанія постачає його на погоджених комерційних умовах. Доказова база — TN-10, дослідження Фази 2 за участю 76 родичів людей із діабетом 1 типу: медіанний час до 3-ї стадії становив 49,5 місяця на теплізумабі проти 24,9 місяця на плацебо в первинному аналізі та 59,6 проти 27,1 місяця за подовженого спостереження.",
+            "cite": "NICE · TA1176, 9 липня 2026",
+            "url": "https://www.nice.org.uk/guidance/ta1176"
           },
           {
             "claim": "Щоденна таблетка від артриту, барицитиніб, зберегла вироблення інсуліну після діагнозу.",
@@ -385,7 +397,7 @@ export default {
       },
       {
         "q": "Яке дослідження найближче до того, щоб стати доступним?",
-        "a": "Зиміслецел (VX-880) від Vertex — найбільш просунутий: він у Фазі 3, і перші пацієнти відмовляються від інсуліну. Vertex каже, що планує почати подання регуляторам у 2026 році, але поки нічого не подано, тож реалістичний найкращий варіант — приблизно 2027 рік або пізніше, якщо більше дослідження буде успішним. Теплізумаб, який відкладає, а не виліковує, уже схвалений і доступний у США."
+        "a": "Зиміслецел (VX-880) від Vertex — найбільш просунутий: дослідження FORWARD уже на етапі Фази 3, після того як на етапі Фази 1/2 перші пацієнти відмовилися від інсуліну. На початку 2026 року введення препарату відклали через перевірку виробництва, а до травня відновили; оновлені строки Vertex обіцяє пізніше у 2026 році, і про подання заявки не повідомлялося, тож реалістичний найкращий варіант — приблизно 2027 рік або пізніше, якщо більше дослідження буде успішним. Теплізумаб, який відкладає, а не виліковує, уже схвалений і доступний у США."
       },
       {
         "q": "Чи можу я долучитися до дослідження діабету 1 типу?",
@@ -397,7 +409,7 @@ export default {
       },
       {
         "q": "А теплізумаб — як його отримати?",
-        "a": "Теплізумаб (TZIELD) схвалений у США для 2-ї стадії діабету 1 типу — людей, які мають автоантитіла й ранні зміни цукру, але ще не повний діабет, від 1 року. До нього зазвичай доходять через скринінг на антитіла (часто безкоштовного для родичів людини з діабетом 1 типу) і вводять як приблизно двотижневий курс інфузій. Поговоріть із ендокринологом про скринінг і відповідність критеріям."
+        "a": "Теплізумаб (TZIELD) схвалений у США для 2-ї стадії діабету 1 типу — людей, які мають автоантитіла й ранні зміни цукру, але ще не повний діабет, від 1 року. До нього зазвичай доходять через скринінг на антитіла (часто безкоштовного для родичів людини з діабетом 1 типу) і вводять як приблизно двотижневий курс інфузій. В Англії та Уельсі NICE у липні 2026 року рекомендував його для NHS людям від 8 років із 2-ю стадією. Поговоріть із ендокринологом про скринінг і відповідність критеріям."
       }
     ]
   }

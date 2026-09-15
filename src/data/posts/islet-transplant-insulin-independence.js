@@ -32,7 +32,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The honest caveats matter here. This is a tiny, early, investigator-led study with follow-up so far measured in months, not years — a median of eight. Islet transplants still require donor tissue and lifelong immune-suppressing medication, so this isn’t a cure you can ask for at a clinic. But as proof that better anti-rejection tools could make cell-replacement therapy realistic, it’s genuinely exciting — and it points toward the stem-cell islet work moving through trials behind it."
+        "text": "The honest caveats matter here. This is a tiny, early, investigator-led study with follow-up so far measured in months, not years — a median of eight. Islet transplants still require donor tissue and lifelong immune-suppressing medication, so this isn’t a cure you can ask for at a clinic. But as proof that better anti-rejection tools could make cell-replacement therapy realistic, it’s genuinely exciting — and it points toward the stem-cell islet work moving through trials behind it. One thing worth keeping separate: this is not the “12 patients” result from Vertex’s lab-grown islet cells, which you may also have seen. That was a different trial, using cells grown from stem cells rather than donor cells, in which 10 of 12 people came off insulin after a full year of follow-up each — published in the New England Journal of Medicine in June 2025. I’ve put both side by side in [my guide to the type 1 cure trials worth following](/blog/type-1-diabetes-cure-trials/)."
       },
       {
         "t": "h",
@@ -96,7 +96,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Чесні застереження тут важливі. Це крихітне, раннє дослідження, ініційоване дослідниками, зі спостереженням поки що в місяцях, а не роках — у середньому вісім. Трансплантація острівцевих клітин усе ще потребує донорської тканини та довічних імуносупресивних ліків, тож це не ліки, які можна попросити в клініці. Але як доказ того, що кращі засоби проти відторгнення можуть зробити клітинну замісну терапію реальною, це справді захопливо — і вказує на роботу зі стовбуровими острівцевими клітинами, що рухається в дослідженнях слідом."
+        "text": "Чесні застереження тут важливі. Це крихітне, раннє дослідження, ініційоване дослідниками, зі спостереженням поки що в місяцях, а не роках — у середньому вісім. Трансплантація острівцевих клітин усе ще потребує донорської тканини та довічних імуносупресивних ліків, тож це не ліки, які можна попросити в клініці. Але як доказ того, що кращі засоби проти відторгнення можуть зробити клітинну замісну терапію реальною, це справді захопливо — і вказує на роботу зі стовбуровими острівцевими клітинами, що рухається в дослідженнях слідом. Одне варто тримати окремо: це не той результат про «12 пацієнтів», який ви могли бачити щодо вирощених у лабораторії острівцевих клітин Vertex. То було інше дослідження — з клітинами, вирощеними зі стовбурових, а не донорськими, — у якому 10 із 12 людей відмовилися від інсуліну після повного року спостереження за кожним; його опублікували в New England Journal of Medicine у червні 2025 року. Обидва результати поруч я розібрала в [огляді досліджень щодо лікування діабету 1 типу, за якими варто стежити](/ua/blog/type-1-diabetes-cure-trials/)."
       },
       {
         "t": "h",
