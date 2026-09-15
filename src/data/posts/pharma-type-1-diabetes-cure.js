@@ -92,7 +92,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "If you wanted one fact to test the theory against, this is it. In March 2023, Sanofi — one of the three insulin makers — agreed to pay $2.9 billion for a small company called Provention Bio, completing the deal that April. What it bought was Tzield (teplizumab), the first and only approved treatment that changes the course of type 1 diabetes. In the TN-10 trial it cut the risk of progressing to clinical type 1 by around 60%, giving people roughly two more years before they need insulin at all."
+        "text": "If you wanted one fact to test the theory against, this is it. In March 2023, Sanofi — one of the three insulin makers — agreed to pay $2.9 billion for a small company called Provention Bio, completing the deal that April. What it bought was Tzield (teplizumab), the first and only approved treatment that changes the course of type 1 diabetes. In the TN-10 trial it cut the risk of progressing to clinical type 1 by around 60%, giving people a median of roughly two more years before they need insulin at all — closer to three with longer follow-up."
       },
       {
         "t": "p",
@@ -112,7 +112,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "It is also a good illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in early 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. It has not given a new filing date, and says it will update its timelines during 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime the company has taken a next-generation islet therapy, VX-017, into the clinic — designed to work for eligible patients whatever their blood type."
+        "text": "It is also a good illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in January 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. By May it had finished that analysis and resumed dosing; it has not given a new filing date, and says it will update its timelines later in 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime the company has taken a next-generation islet therapy, VX-017, into the clinic — designed to work for eligible patients whatever their blood type."
       },
       {
         "t": "p",
@@ -199,7 +199,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Teplizumab — the drug Sanofi paid $2.9 billion for — is now recommended for use on the NHS. NICE published its guidance on 9 July 2026, covering children aged eight and over and adults with stage 2 type 1 diabetes, and England became the first country in Europe to back it through a health technology appraisal. The committee put the average delay at nearly three years. Around 1,100 people are expected to be eligible in the first year, settling to roughly 820 a year after that. It reaches patients in England within 90 days of the guidance and in Wales 60 days from 23 June; Scotland and Northern Ireland decide separately. Sanofi agreed a confidential discount to get it there."
+        "text": "Teplizumab — the drug Sanofi paid $2.9 billion for — is now recommended for use on the NHS. NICE published its guidance on 9 July 2026, covering children aged eight and over and adults with stage 2 type 1 diabetes, and England became the first country in Europe to back it through a health technology appraisal. NICE describes the delay as nearly three years on average, drawing on the trial’s longer follow-up, where the median gap was about 32 months; the original analysis put it at about two. Around 1,100 people are expected to be eligible in the first year, settling to roughly 820 a year after that. It reaches patients in England within 90 days of the guidance and in Wales 60 days from 23 June; Scotland and Northern Ireland decide separately. Sanofi agreed a confidential discount to get it there."
       },
       {
         "t": "p",
@@ -260,8 +260,8 @@ export default {
           },
           {
             "claim": "The leading cure programme belongs to a company with no insulin business.",
-            "detail": "Vertex’s zimislecel, lab-grown islet cells, restored endogenous insulin secretion in all 12 patients followed for at least a year in the FORWARD trial, eliminated severe hypoglycaemia and met glycaemic targets, with 10 of 12 insulin-independent. Published in the New England Journal of Medicine in June 2025. Enrolment in the pivotal study is complete, but Vertex temporarily postponed completing dosing pending an internal manufacturing analysis, announced with its 2025 full-year results, and has not set a new filing date — it expects to update its timelines during 2026. Vertex acquired the competing ViaCyte programme for about $320 million in 2022.",
-            "cite": "New England Journal of Medicine · June 2025; Vertex FY2025 results",
+            "detail": "Vertex’s zimislecel, lab-grown islet cells, restored endogenous insulin secretion in all 12 patients followed for at least a year in the FORWARD trial, eliminated severe hypoglycaemia and met glycaemic targets, with 10 of 12 insulin-independent. Published in the New England Journal of Medicine in June 2025. In January 2026 Vertex announced, and repeated with its 2025 full-year results, that enrolment in the Phase 1/2/3 study was complete but that it had temporarily postponed completing dosing pending an internal manufacturing analysis. With its first-quarter 2026 results in May it reported the analysis complete and dosing resumed, and in August it said it expects to provide updated timelines later in 2026. It has not set a new filing date. Vertex acquired the competing ViaCyte programme for about $320 million in 2022.",
+            "cite": "New England Journal of Medicine · June 2025; Vertex updates, January–August 2026",
             "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2506549"
           },
           {
@@ -272,7 +272,7 @@ export default {
           },
           {
             "claim": "Teplizumab is now recommended for NHS use in England and Wales.",
-            "detail": "NICE technology appraisal TA1176, published 9 July 2026, recommends teplizumab for delaying the onset of stage 3 type 1 diabetes in people aged 8 and over with stage 2 disease, under a simple discount patient access scheme. NICE put the average delay at nearly three years and expects about 1,100 people to be eligible in the first year, settling to roughly 820 a year. England is the first country in Europe to recommend it through a health technology appraisal; Scotland and Northern Ireland decide separately.",
+            "detail": "NICE technology appraisal TA1176, published 9 July 2026, recommends teplizumab for delaying the onset of stage 3 type 1 diabetes in people aged 8 and over with stage 2 disease, under a simple discount patient access scheme. NICE describes the average delay as nearly three years — in TN-10’s extended follow-up the median difference was 32.5 months, against 24.6 months in the primary analysis — and expects about 1,100 people to be eligible in the first year, settling to roughly 820 a year. England is the first country in Europe to recommend it through a health technology appraisal; Scotland and Northern Ireland decide separately.",
             "cite": "NICE · TA1176, 9 July 2026",
             "url": "https://www.nice.org.uk/guidance/ta1176"
           },
@@ -341,7 +341,7 @@ export default {
       },
       {
         "q": "Which pharmaceutical companies are actually working on a cure for type 1 diabetes?",
-        "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — enrolment is complete, though dosing was temporarily paused in early 2026 for an internal manufacturing analysis and the filing timeline is due to be updated. Sanofi owns Tzield, the only approved drug that changes the course of type 1 — NICE recommended it for NHS use in July 2026. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
+        "a": "Vertex is furthest along, with lab-grown islet cells (zimislecel) in a pivotal trial — dosing was temporarily paused in early 2026 for an internal manufacturing analysis and resumed in the spring, and Vertex says updated timelines will follow later in 2026. Sanofi owns Tzield, the only approved drug that changes the course of type 1 — NICE recommended it for NHS use in July 2026. Eli Lilly has worked on encapsulated cell therapy since 2018 and bought its partner Sigilon in 2023. Novo Nordisk left cell therapy in October 2025 and handed its stem-cell programme to Aspect Biosystems, retaining a stake. Sana Biotechnology and CRISPR Therapeutics are working on gene-edited cells designed to avoid immune suppression."
       },
       {
         "q": "Would a type 1 cure destroy insulin sales?",
@@ -437,7 +437,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Якщо потрібен один факт, яким можна перевірити теорію, то ось він. У березні 2023 року Sanofi — один із трьох виробників інсуліну — погодилася заплатити 2,9 мільярда доларів за невелику компанію Provention Bio й закрила угоду в квітні. Купувала вона Tzield (теплізумаб) — перший і єдиний схвалений препарат, що змінює перебіг діабету 1 типу. У дослідженні TN-10 він знизив ризик переходу в клінічний діабет приблизно на 60%, даючи людям близько двох років до того, як інсулін узагалі стане потрібним."
+        "text": "Якщо потрібен один факт, яким можна перевірити теорію, то ось він. У березні 2023 року Sanofi — один із трьох виробників інсуліну — погодилася заплатити 2,9 мільярда доларів за невелику компанію Provention Bio й закрила угоду в квітні. Купувала вона Tzield (теплізумаб) — перший і єдиний схвалений препарат, що змінює перебіг діабету 1 типу. У дослідженні TN-10 він знизив ризик переходу в клінічний діабет приблизно на 60%, даючи людям за медіаною близько двох років до того, як інсулін узагалі стане потрібним, — а за довшого спостереження ближче до трьох."
       },
       {
         "t": "p",
@@ -457,7 +457,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це також, до речі, живий приклад того, як такі строки насправді зсуваються. Vertex завершила набір учасників у ключове дослідження, а потім, на початку 2026 року, тимчасово відклала завершення введення препарату, доки триває внутрішній аналіз виробництва. Нової дати подання заявки компанія не назвала і каже, що оновить строки протягом 2026 року. Ніхто нічого не приховував: вирощувати живі клітини стабільної якості справді важко. Тим часом компанія вивела в клініку наступне покоління острівцевої терапії, VX-017, — розраховане на пацієнтів, які відповідають критеріям, незалежно від групи крові."
+        "text": "Це також, до речі, живий приклад того, як такі строки насправді зсуваються. Vertex завершила набір учасників у ключове дослідження, а потім, у січні 2026 року, тимчасово відклала завершення введення препарату, доки тривав внутрішній аналіз виробництва. До травня аналіз завершили й введення відновили; нової дати подання заявки компанія не назвала і каже, що оновить строки пізніше у 2026 році. Ніхто нічого не приховував: вирощувати живі клітини стабільної якості справді важко. Тим часом компанія вивела в клініку наступне покоління острівцевої терапії, VX-017, — розраховане на пацієнтів, які відповідають критеріям, незалежно від групи крові."
       },
       {
         "t": "p",
@@ -544,7 +544,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Теплізумаб — препарат, за який Sanofi заплатила 2,9 мільярда доларів, — тепер рекомендований до застосування в NHS. NICE опублікував настанову 9 липня 2026 року для дітей від восьми років і дорослих із 2-ю стадією діабету 1 типу, і Англія стала першою країною Європи, яка підтримала його через оцінку медичних технологій. Комітет оцінив середню відстрочку майже у три роки. Очікується, що в перший рік право на лікування матимуть близько 1 100 людей, а далі — приблизно 820 на рік. В Англії препарат дійде до пацієнтів протягом 90 днів після настанови, в Уельсі — через 60 днів від 23 червня; Шотландія та Північна Ірландія вирішують окремо. Щоб це сталося, Sanofi погодилася на конфіденційну знижку."
+        "text": "Теплізумаб — препарат, за який Sanofi заплатила 2,9 мільярда доларів, — тепер рекомендований до застосування в NHS. NICE опублікував настанову 9 липня 2026 року для дітей від восьми років і дорослих із 2-ю стадією діабету 1 типу, і Англія стала першою країною Європи, яка підтримала його через оцінку медичних технологій. NICE говорить про відстрочку в середньому майже у три роки, спираючись на довше спостереження в дослідженні, де медіанний розрив становив близько 32 місяців; первинний аналіз давав близько двох років. Очікується, що в перший рік право на лікування матимуть близько 1 100 людей, а далі — приблизно 820 на рік. В Англії препарат дійде до пацієнтів протягом 90 днів після настанови, в Уельсі — через 60 днів від 23 червня; Шотландія та Північна Ірландія вирішують окремо. Щоб це сталося, Sanofi погодилася на конфіденційну знижку."
       },
       {
         "t": "p",
@@ -605,8 +605,8 @@ export default {
           },
           {
             "claim": "Провідна програма лікування належить компанії без інсулінового бізнесу.",
-            "detail": "Зиміслецел від Vertex — вирощені в лабораторії острівцеві клітини — відновив власне вироблення інсуліну в усіх 12 пацієнтів, за якими спостерігали щонайменше рік у дослідженні FORWARD, усунув важкі гіпоглікемії й забезпечив досягнення цільових показників глюкози; десятеро з дванадцятьох стали незалежними від інсуліну. Опубліковано в New England Journal of Medicine у червні 2025 року. Набір у ключове дослідження завершено, але Vertex тимчасово відклала завершення введення препарату через внутрішній аналіз виробництва — про це оголошено разом із річними результатами за 2025 рік — і нової дати подання не назвала, обіцяючи оновити строки протягом 2026 року. У 2022 році Vertex придбала конкурентну програму ViaCyte приблизно за 320 мільйонів доларів.",
-            "cite": "New England Journal of Medicine · червень 2025; річні результати Vertex за 2025",
+            "detail": "Зиміслецел від Vertex — вирощені в лабораторії острівцеві клітини — відновив власне вироблення інсуліну в усіх 12 пацієнтів, за якими спостерігали щонайменше рік у дослідженні FORWARD, усунув важкі гіпоглікемії й забезпечив досягнення цільових показників глюкози; десятеро з дванадцятьох стали незалежними від інсуліну. Опубліковано в New England Journal of Medicine у червні 2025 року. У січні 2026 року Vertex повідомила, а разом із річними результатами за 2025 рік повторила, що набір у дослідження Фази 1/2/3 завершено, але завершення введення препарату тимчасово відкладено через внутрішній аналіз виробництва. Разом із результатами за перший квартал 2026 року, у травні, компанія повідомила, що аналіз завершено й введення відновлено, а в серпні — що оновлені строки надасть пізніше у 2026 році. Нової дати подання заявки вона не назвала. У 2022 році Vertex придбала конкурентну програму ViaCyte приблизно за 320 мільйонів доларів.",
+            "cite": "New England Journal of Medicine · червень 2025; оновлення Vertex, січень–серпень 2026",
             "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2506549"
           },
           {
@@ -617,7 +617,7 @@ export default {
           },
           {
             "claim": "Теплізумаб тепер рекомендований для застосування в NHS в Англії та Уельсі.",
-            "detail": "Оцінка технології NICE TA1176, опублікована 9 липня 2026 року, рекомендує теплізумаб для відтермінування 3-ї стадії діабету 1 типу в людей від 8 років із 2-ю стадією, у межах схеми доступу з простою знижкою. NICE оцінив середню відстрочку майже у три роки й очікує близько 1 100 людей, які матимуть право на лікування в перший рік, і приблизно 820 на рік далі. Англія — перша країна Європи, яка рекомендувала його через оцінку медичних технологій; Шотландія та Північна Ірландія вирішують окремо.",
+            "detail": "Оцінка технології NICE TA1176, опублікована 9 липня 2026 року, рекомендує теплізумаб для відтермінування 3-ї стадії діабету 1 типу в людей від 8 років із 2-ю стадією, у межах схеми доступу з простою знижкою. NICE говорить про середню відстрочку майже у три роки — за подовженого спостереження в TN-10 медіанна різниця становила 32,5 місяця, у первинному аналізі — 24,6 місяця, — і очікує близько 1 100 людей, які матимуть право на лікування в перший рік, і приблизно 820 на рік далі. Англія — перша країна Європи, яка рекомендувала його через оцінку медичних технологій; Шотландія та Північна Ірландія вирішують окремо.",
             "cite": "NICE · TA1176, 9 липня 2026",
             "url": "https://www.nice.org.uk/guidance/ta1176"
           },
@@ -686,7 +686,7 @@ export default {
       },
       {
         "q": "Які фармкомпанії справді працюють над лікуванням діабету 1 типу?",
-        "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: набір завершено, але на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, і строки подання заявки мають оновити. Sanofi володіє Tzield — єдиним схваленим препаратом, що змінює перебіг діабету 1 типу; у липні 2026 року NICE рекомендував його для застосування в NHS. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
+        "a": "Найдалі просунулася Vertex із вирощеними в лабораторії острівцевими клітинами (зиміслецел) у ключовому дослідженні: на початку 2026 року введення препарату тимчасово призупинили через внутрішній аналіз виробництва, навесні відновили, а оновлені строки Vertex обіцяє пізніше у 2026 році. Sanofi володіє Tzield — єдиним схваленим препаратом, що змінює перебіг діабету 1 типу; у липні 2026 року NICE рекомендував його для застосування в NHS. Eli Lilly працює над інкапсульованою клітинною терапією з 2018 року й купила партнера Sigilon у 2023-му. Novo Nordisk вийшла з клітинної терапії у жовтні 2025-го й передала свою програму Aspect Biosystems, зберігши частку. Sana Biotechnology і CRISPR Therapeutics працюють над генетично відредагованими клітинами, які мають обійтися без імуносупресії."
       },
       {
         "q": "Чи знищили б ліки від діабету 1 типу продажі інсуліну?",

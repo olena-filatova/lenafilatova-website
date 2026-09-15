@@ -20,6 +20,7 @@ export default {
     "seoTitle": "Melasma in Perimenopause: What Actually Helps",
     "metaDesc": "New dark patches in your forties get filed under hormones. Often they are not melasma at all — and what they are changes what helps.",
     "excerpt": "Melasma peaks between twenty and forty, and a hormonal trigger is identified in only about a quarter of women who have it. So when patches arrive at forty-six, the first question is not what to put on them. It is what they are.",
+    "meta": "6 September 2026 · 10 min read",
     "lead": "Something new appears on your cheekbones in your mid-forties, you search it, and every result says the same word: hormones. Sometimes that is right. Often the patches are not melasma at all, and one of the things they might be instead is worth a blood test rather than a serum.",
     "blocks": [
       {
@@ -214,6 +215,7 @@ export default {
     "seoTitle": "Мелазма в перименопаузі: що справді допомагає",
     "metaDesc": "Нові темні плями після сорока одразу списують на гормони. Часто це взагалі не мелазма — а три можливі причини потребують різних відповідей.",
     "excerpt": "Пік мелазми — від двадцяти до сорока, і гормональний тригер знаходять лише приблизно в чверті жінок із нею. Тож коли плями з’являються в сорок шість, перше питання не «чим мазати». Перше питання — що це.",
+    "meta": "6 вересня 2026 · 10 хв читання",
     "lead": "На вилицях у сорок із чимось з’являється щось нове, ви шукаєте в мережі — і всі відповіді кажуть одне слово: гормони. Іноді це правда. Часто це взагалі не мелазма, і одна з можливих причин потребує аналізу крові, а не сироватки.",
     "blocks": [
       {

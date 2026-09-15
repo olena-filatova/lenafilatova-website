@@ -21,7 +21,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Part of the shift is regulatory. In November 2025 the FDA removed the long-standing “black box” warning — its strongest caution — from many menopausal hormone products, after an expert panel concluded the label overstated the risks for the women who benefit most. Prescribing has climbed steeply since."
+        "text": "Part of the shift is regulatory. In November 2025 the FDA announced it would remove the long-standing “black box” warnings — its strongest caution — about heart disease, breast cancer and dementia from menopausal hormone products, after an expert panel concluded the label overstated the risks for the women who benefit most. The changed labels themselves were approved on 12 February 2026, starting with six products; I’ve explained [what that label change did and didn’t alter](/blog/fda-hrt-black-box-warning-removed/) separately. Prescribing was already rising before any of this, and it kept climbing through that period."
       },
       {
         "t": "p",
@@ -69,6 +69,12 @@ export default {
             "url": "https://www.truveta.com/blog/research/estrogen-based-hormone-replacement-therapy/"
           },
           {
+            "claim": "The FDA announced the boxed-warning change in November 2025; the new labels were approved in February 2026.",
+            "detail": "On 10 November 2025 the US Department of Health and Human Services and the FDA announced that the FDA was initiating removal of the boxed warnings on menopausal hormone therapy, following a review of the scientific literature, a July 2025 expert panel and a public comment period. On 12 February 2026 the FDA approved labelling changes for the first six products, removing the risk statements on cardiovascular disease, breast cancer and probable dementia from the boxed warning. The boxed warning on endometrial cancer for systemic estrogen-alone products stays.",
+            "cite": "US Food and Drug Administration · Press announcement, 12 February 2026",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-labeling-changes-menopausal-hormone-therapy-products"
+          },
+          {
             "claim": "Hormone therapy works best started within 10 years of the final period, or before 60.",
             "detail": "Guidance from Sondos Al Sad, MD, a UCSF primary care clinician who founded The Menopause Connection at the Women’s Health Primary Care Clinic. For symptomatic women, hormone therapy is described as generally most effective and safest when started within 10 years of the final menstrual period or before age 60, with duration individualised and no fixed stop date, reassessed regularly. Menopause is framed as three stages — perimenopause, menopause (12 months without a period) and post-menopause — while noting this is a simplified model that does not fully capture women with underlying endocrine conditions. For bone health: strength training at least twice weekly with progressive resistance, adequate vitamin D and calcium, avoiding smoking and limiting alcohol. This is expert clinical guidance, not a new trial.",
             "cite": "UC San Francisco · Clinical guidance, 7 July 2026",
@@ -107,7 +113,7 @@ export default {
     "faq": [
       {
         "q": "Why has HRT become so much more popular?",
-        "a": "Two things converged: a wave of better public information about perimenopause, and a regulatory shift. In November 2025 the FDA removed its strongest “black box” warning from many menopausal hormone products, concluding it overstated the risk for most women. Prescribing has risen sharply since, especially skin patches and vaginal estrogen."
+        "a": "Two things converged: a wave of better public information about perimenopause, and a regulatory shift. In November 2025 the FDA announced it would remove its strongest “black box” warnings — on heart disease, breast cancer and dementia — from menopausal hormone products, concluding they overstated the risk for most women; the first changed labels were approved in February 2026. Prescribing had already been rising for years and has kept climbing, especially skin patches and vaginal estrogen."
       },
       {
         "q": "There’s an estrogen patch shortage — what should I do?",
@@ -139,7 +145,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Частково це пов’язано з регулюванням. У листопаді 2025 року FDA прибрало давнє попередження в чорній рамці — свій найсуворіший застережний напис — з багатьох менопаузальних гормональних препаратів, після того як експертна панель дійшла висновку, що етикетка перебільшувала ризики для жінок, яким терапія допомагає найбільше. Відтоді призначень різко побільшало."
+        "text": "Частково це пов’язано з регулюванням. У листопаді 2025 року FDA оголосило, що прибере з менопаузальних гормональних препаратів давні попередження в чорній рамці — свій найсуворіший застережний напис — про серцево-судинні захворювання, рак грудей і деменцію, після того як експертна панель дійшла висновку, що етикетка перебільшувала ризики для жінок, яким терапія допомагає найбільше. Самі змінені інструкції FDA затвердило 12 лютого 2026 року — спершу для шести препаратів; окремо я розбирала, [що ця зміна інструкцій справді змінила, а що — ні](/ua/blog/fda-hrt-black-box-warning-removed/). Призначень ставало більше ще до цього, і вони продовжували зростати весь цей час."
       },
       {
         "t": "p",
@@ -187,6 +193,12 @@ export default {
             "url": "https://www.truveta.com/blog/research/estrogen-based-hormone-replacement-therapy/"
           },
           {
+            "claim": "FDA оголосило про зміну попереджень у рамці в листопаді 2025 року, а нові інструкції затвердило в лютому 2026 року.",
+            "detail": "10 листопада 2025 року Міністерство охорони здоров’я США та FDA оголосили, що FDA починає прибирати попередження в рамці з менопаузальної гормональної терапії — після огляду наукової літератури, експертної панелі в липні 2025 року та періоду громадського обговорення. 12 лютого 2026 року FDA затвердило зміни до інструкцій перших шести препаратів: із попередження в рамці прибрали формулювання про серцево-судинні захворювання, рак грудей і ймовірну деменцію. Попередження в рамці про рак ендометрія для системних препаратів лише з естрогеном залишилося.",
+            "cite": "Управління з контролю за продуктами й ліками США (FDA) · Пресреліз, 12 лютого 2026",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-labeling-changes-menopausal-hormone-therapy-products"
+          },
+          {
             "claim": "Гормональна терапія найдієвіша, якщо почати її протягом 10 років після останньої менструації або до 60 років.",
             "detail": "Рекомендації Сондос Аль Сад, лікарки первинної ланки UCSF, яка заснувала The Menopause Connection у клініці жіночого здоров’я. Для жінок із симптомами гормональну терапію описано як зазвичай найефективнішу й найбезпечнішу, якщо почати її протягом 10 років після останньої менструації або до 60 років; тривалість підбирають індивідуально, фіксованої дати завершення немає, потрібен регулярний перегляд. Менопаузу подано як три етапи — перименопауза, менопауза (12 місяців без менструації) і постменопауза — із застереженням, що це спрощена модель, яка не повністю описує жінок з ендокринними захворюваннями. Для здоров’я кісток: силові тренування щонайменше двічі на тиждень із прогресивним навантаженням, достатньо вітаміну D і кальцію, відмова від куріння та обмеження алкоголю. Це експертна клінічна настанова, а не нове дослідження.",
             "cite": "UC San Francisco · Клінічні рекомендації, 7 липня 2026",
@@ -225,7 +237,7 @@ export default {
     "faq": [
       {
         "q": "Чому ЗГТ стала настільки популярнішою?",
-        "a": "Збіглися дві речі: хвиля кращої суспільної обізнаності про перименопаузу та регуляторні зміни. У листопаді 2025 року FDA прибрало свій найсуворіший напис у чорній рамці з багатьох менопаузальних гормональних препаратів, дійшовши висновку, що він перебільшував ризик для більшості жінок. Відтоді призначень різко побільшало, особливо шкірних пластирів і вагінального естрогену."
+        "a": "Збіглися дві речі: хвиля кращої суспільної обізнаності про перименопаузу та регуляторні зміни. У листопаді 2025 року FDA оголосило, що прибере з менопаузальних гормональних препаратів свої найсуворіші попередження в чорній рамці — про серцево-судинні захворювання, рак грудей і деменцію, — дійшовши висновку, що вони перебільшували ризик для більшості жінок; перші змінені інструкції затвердили в лютому 2026 року. Призначень ставало більше вже кілька років, і їх і далі більшає, особливо шкірних пластирів і вагінального естрогену."
       },
       {
         "q": "Пластирів з естрогеном бракує — що робити?",
