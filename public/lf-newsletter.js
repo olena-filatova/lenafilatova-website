@@ -12,8 +12,8 @@
 // public/ has no way to name the bundle. Plain script, no imports, no exports.
 //
 // CONVERSION TRACKING (OPS-398). A successful signup fires GA4's recommended
-// `generate_lead` event with `list` and `language`, so signups can be read per
-// channel and per language. Marking it a key event is a one-off click in GA4
+// `generate_lead` event with `list` and `site_language`, so signups can be read
+// per channel and per language. Marking it a key event is a one-off click in GA4
 // Admin that only Lena can make; until then it collects as an ordinary event,
 // and the history is kept either way.
 //
@@ -98,7 +98,12 @@
             window.gtag('event', 'generate_lead', {
               method: 'newsletter_form',
               list: form.dataset.mcList || 'newsletter',
-              language: form.dataset.mcLang || 'en'
+              // NOT `language` (OPS-469): that name is a reserved gtag field.
+              // gtag.js lifts it out of the event params and sends it as `ul`,
+              // GA4's browser-language slot, so the value never became an
+              // event parameter and instead overwrote the visitor's real
+              // browser language with 'en'/'ua' on this one hit.
+              site_language: form.dataset.mcLang || 'en'
             });
           }
           form.hidden = true;
