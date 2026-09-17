@@ -54,10 +54,18 @@
 //                  lead-magnet form costs signups. The name is what lets the
 //                  delivery email open with one. `copy.nlName` is its
 //                  placeholder — a page that asks for a name must supply it.
+//   variant      — 'band' (default) or 'rail': the compact box in a blog
+//                  article's left margin (OPS-472). A rail box is a second form
+//                  on the page, so it must pass its own `id`; the footer band
+//                  keeps #newsletter for the header's Subscribe link. Its title
+//                  is a <p>, not an <h2> — it sits before the article's own
+//                  sections in the source and must not enter their outline.
 import { HOME, MAILCHIMP } from '../data/site.js';
 import { HONEYPOT, MIN_DWELL_MS } from '../scripts/form-guard.js';
-const { lang = 'en', id = 'newsletter', sectionClass = '', copy = {}, tag = null, askName = false } = Astro.props;
+const { lang = 'en', id = 'newsletter', sectionClass = '', copy = {}, tag = null, askName = false, variant = 'band' } = Astro.props;
 const t = { ...HOME[lang], ...copy };
+const isRail = variant === 'rail';
+const Title = isRail ? 'p' : 'h2';
 
 // Hidden group field, e.g. name="group[34186][1]" on EN pages, [2] on /ua/.
 const groupField = `group[${MAILCHIMP.langGroup}][${MAILCHIMP.langValue[lang] ?? 1}]`;
@@ -68,9 +76,9 @@ const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`
   + (tag?.formId ? `&f_id=${tag.formId}` : '');
 const B = import.meta.env.BASE_URL;
 ---
-<section class:list={['section', 'newsletter', sectionClass]} id={id}>
-  <div class="wrap nl-box">
-    <h2>{t.nlTitle}</h2>
+<section class:list={[isRail ? 'nl-rail' : 'section', 'newsletter', sectionClass]} id={id}>
+  <div class:list={[!isRail && 'wrap', 'nl-box']}>
+    <Title class="nl-title">{t.nlTitle}</Title>
     <p class="section-sub">{t.nlSub}</p>
 
     <form

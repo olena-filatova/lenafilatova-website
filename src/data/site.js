@@ -560,6 +560,38 @@ export const RESOURCES = {
   ],
 };
 
+// Left rail beside a blog article (OPS-472). From 1320px the contents sit in
+// the right margin and the left one was bare; this fills it with a handful of
+// the free tools and a compact workbook signup. `tools` are hrefs into
+// RESOURCES.cards — the UA address and accent colour come from the card, so
+// only the short label lives here (the card titles are too long for a 220px
+// column). Kept to five: the rail is sticky and has to fit a laptop screen.
+export const BLOG_RAIL = {
+  tools: [
+    { href: '/resources/food-calculator/', en: 'Metabolic food calculator', ua: 'Калькулятор впливу їжі' },
+    { href: '/carb-gi-table/', en: 'Carb & GI table', ua: 'Таблиця вуглеводів і ГІ' },
+    { href: '/resources/exercise-calculator/', en: 'Exercise & blood sugar', ua: 'Активність і цукор' },
+    { href: '/blood-sugar-investigator/', en: 'Blood Sugar Investigator', ua: 'Дослідник цукру в крові' },
+    { href: '/cgm-comparison/', en: 'CGM sensor comparison', ua: 'Порівняння CGM-сенсорів' },
+  ],
+  en: {
+    toolsLabel: 'Free tools',
+    allTools: 'All tools & guides',
+    // Overrides for the shared Newsletter copy — the band's nlSub is a
+    // paragraph, which in a 220px column is most of the screen.
+    nlTitle: 'Diabetes & Perimenopause',
+    nlSub: 'A free 26-page workbook: what changes with type 1 after 40, and what helps.',
+    nlBtn: 'Send it to me',
+  },
+  ua: {
+    toolsLabel: 'Безкоштовні інструменти',
+    allTools: 'Усі інструменти та гайди',
+    nlTitle: 'Діабет і перименопауза',
+    nlSub: 'Безкоштовний воркбук на 26 сторінок: що змінюється з діабетом 1 типу після 40 і що допомагає.',
+    nlBtn: 'Надішліть воркбук',
+  },
+};
+
 export const CONTACT = {
   en: {
     seoTitle: 'Work with me — Lena Filatova',
