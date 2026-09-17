@@ -28,7 +28,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Women who ate more high-quality carbohydrates in midlife — from whole grains, fruits, vegetables and legumes — had up to about 31% higher odds of healthy ageing, and higher fibre intake helped too. Carbohydrates from refined grains, added sugar and potatoes went the other way, tied to lower odds."
+        "text": "Women who ate more high-quality carbohydrates in midlife — from whole grains, fruits, vegetables and legumes — had higher odds of healthy ageing — 31% higher for every extra tenth of their calories from these sources, and 37% higher for each extra 5% of calories from vegetables specifically — and higher fibre intake helped too. Carbohydrates from refined grains, added sugar and potatoes went the other way, tied to lower odds."
       },
       {
         "t": "p",
@@ -43,7 +43,7 @@ export default {
         "items": [
           {
             "claim": "Higher-quality carbs in midlife were linked to healthier ageing in women.",
-            "detail": "A prospective cohort study of 47,513 women in the Nurses’ Health Study, followed from 1984 to 2016, found that higher intake of high-quality (unrefined) carbohydrates and dietary fibre in midlife was associated with greater odds of ‘healthy ageing’ — defined as reaching age 70+ free of 11 chronic diseases, without cognitive or physical impairment, and with good mental health. High-quality carbohydrate intake was associated with roughly 31% higher odds (up to 37% across measures), while refined carbohydrates were associated with about 13% lower odds.",
+            "detail": "A prospective cohort study of 47,513 women in the Nurses’ Health Study, followed from 1984 to 2016, found that higher intake of high-quality (unrefined) carbohydrates and dietary fibre in midlife was associated with greater odds of ‘healthy ageing’ — defined as reaching age 70+ free of 11 chronic diseases, without cognitive or physical impairment, and with good mental health. Each extra 10% of calories from high-quality carbohydrate was associated with 31% higher odds (odds ratio 1.31), while the same increment of refined carbohydrate was associated with 13% lower odds (0.87). By individual source, per extra 5% of calories, odds ratios ranged from 1.11 for whole grains to 1.37 for vegetables (excluding potatoes and legumes).",
             "cite": "JAMA Network Open · Cohort study, 16 May 2025",
             "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2834202"
           }
@@ -81,7 +81,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Жінки, які в середньому віці їли більше якісних вуглеводів — із цільних злаків, фруктів, овочів і бобових, — мали приблизно до 31% вищі шанси здорового старіння, і вища кількість клітковини теж допомагала. Вуглеводи з рафінованих злаків, доданого цукру та картоплі діяли навпаки — були пов’язані з нижчими шансами."
+        "text": "Жінки, які в середньому віці їли більше якісних вуглеводів — із цільних злаків, фруктів, овочів і бобових, — мали вищі шанси здорового старіння — на 31% вищі за кожну додаткову десяту частку калорій із таких джерел і на 37% вищі за кожні додаткові 5% калорій саме з овочів, — і вища кількість клітковини теж допомагала. Вуглеводи з рафінованих злаків, доданого цукру та картоплі діяли навпаки — були пов’язані з нижчими шансами."
       },
       {
         "t": "p",
@@ -96,7 +96,7 @@ export default {
         "items": [
           {
             "claim": "Якісніші вуглеводи в середньому віці пов’язані зі здоровішим старінням у жінок.",
-            "detail": "Проспективне когортне дослідження 47 513 жінок у межах Nurses’ Health Study, за якими спостерігали з 1984 до 2016 року, показало, що вище споживання якісних (нерафінованих) вуглеводів і харчової клітковини в середньому віці пов’язане з вищими шансами «здорового старіння» — визначеного як дожити до 70+ без 11 хронічних хвороб, без когнітивних чи фізичних порушень і з добрим психічним здоров’ям. Споживання якісних вуглеводів було пов’язане приблизно з 31% вищими шансами (до 37% за різними показниками), тоді як рафіновані вуглеводи — приблизно з 13% нижчими.",
+            "detail": "Проспективне когортне дослідження 47 513 жінок у межах Nurses’ Health Study, за якими спостерігали з 1984 до 2016 року, показало, що вище споживання якісних (нерафінованих) вуглеводів і харчової клітковини в середньому віці пов’язане з вищими шансами «здорового старіння» — визначеного як дожити до 70+ без 11 хронічних хвороб, без когнітивних чи фізичних порушень і з добрим психічним здоров’ям. Кожні додаткові 10% калорій з якісних вуглеводів були пов’язані з на 31% вищими шансами (відношення шансів 1,31), а такий самий приріст рафінованих вуглеводів — з на 13% нижчими (0,87). За окремими джерелами, на кожні додаткові 5% калорій, відношення шансів становили від 1,11 для цільних злаків до 1,37 для овочів (без картоплі та бобових).",
             "cite": "JAMA Network Open · Когортне дослідження, 16 травня 2025",
             "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2834202"
           }

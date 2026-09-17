@@ -30,6 +30,10 @@ export default {
       },
       {
         "t": "p",
+        "text": "Removing the dementia statement is not the same as saying HRT protects the brain. That warning came from the Women's Health Initiative Memory Study, a randomised trial in women aged 65 and over, where starting combined HRT roughly doubled the rate of probable dementia. The US health department's announcement quoted a 64% reduction in cognitive decline, but that figure comes from a much smaller follow-up study; I've looked at it more closely in [the post on what untreated menopause costs](/blog/menopause-cost-workplace-productivity/). In the UK, NICE still advises against prescribing HRT to prevent dementia."
+      },
+      {
+        "t": "p",
         "text": "One warning did not come off. Systemic oestrogen-alone products still carry the endometrial cancer warning for women who have a uterus. That is not an oversight or a leftover — it is the reason oestrogen is prescribed with a progestogen for anyone who has not had a hysterectomy, and it has not been reconsidered."
       },
       {
@@ -147,6 +151,10 @@ export default {
       {
         "t": "p",
         "text": "З попередження в рамці прибрали три формулювання про ризик: серцево-судинні захворювання, рак грудей і ймовірну деменцію. Аргумент FDA полягає в тому, що єдине попередження, застосоване до всіх препаратів, усіх доз і всіх вікових груп, перебільшувало ризик для тих жінок, яким терапію найімовірніше призначають, — тих, хто має симптоми й перебуває близько до переходу в менопаузу. Марті Макарі, голова FDA, сформулював це так: жінки та їхні лікарі мають ухвалювати рішення на основі даних, а не страху."
+      },
+      {
+        "t": "p",
+        "text": "Прибрати згадку про деменцію — не те саме, що сказати, ніби ЗГТ захищає мозок. Це попередження походило з Women's Health Initiative Memory Study — рандомізованого дослідження жінок віком від 65 років, у яких початок комбінованої ЗГТ приблизно подвоїв частоту ймовірної деменції. В оголошенні Міністерства охорони здоров'я США згадано зниження когнітивного погіршення на 64%, але ця цифра походить із значно меншого спостереження; детальніше я розбирала її [у статті про те, чого коштує нелікована менопауза](/ua/blog/menopause-cost-workplace-productivity/). У Британії NICE і далі не радить призначати ЗГТ для профілактики деменції."
       },
       {
         "t": "p",

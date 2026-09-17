@@ -35,7 +35,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Creatine comes first. Three to five grams a day, at any time that suits you — the same conclusion I reached when I went through [the perimenopause creatine trials](/blog/creatine-women-over-40/). Protein is second: 1.2 to 1.6 grams per kilogram of body weight a day, which Pojednic translates into a practical 80 to 100 grams, against the 40 to 60 grams she says many women actually eat. Third is vitamin D3, at 800 to 4,000 IU a day. Fourth, calcium, at 1,000 mg a day for women in their forties. Fifth, omega-3. Sixth, fibre — 25 grams a day, and the article is firm that this one belongs in your food, with psyllium husk, inulin or methylcellulose only if the food is not getting you there."
+        "text": "Creatine comes first. Three to five grams a day, at any time that suits you — the same range I landed on when I went through [the perimenopause creatine trials](/blog/creatine-women-over-40/), with one addition: the muscle benefit in postmenopausal women showed up at 5 g a day alongside strength training. Protein is second: 1.2 to 1.6 grams per kilogram of body weight a day, which Pojednic translates into a practical 80 to 100 grams, against the 40 to 60 grams she says many women actually eat. Third is vitamin D3, at 800 to 4,000 IU a day. Fourth, calcium, at 1,000 mg a day for women in their forties. Fifth, omega-3. Sixth, fibre — 25 grams a day, and the article is firm that this one belongs in your food, with psyllium husk, inulin or methylcellulose only if the food is not getting you there."
       },
       {
         "t": "p",
@@ -180,7 +180,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Першим іде креатин. Три-п’ять грамів на день, у будь-який зручний час — того самого висновку я дійшла, коли розбирала [дослідження креатину в перименопаузі](/ua/blog/creatine-women-over-40/). Другим — білок: 1,2–1,6 грама на кілограм маси тіла на добу, що Поєднич перекладає у практичні 80–100 грамів проти 40–60 грамів, які, за її словами, багато жінок їдять насправді. Третій — вітамін D3, 800–4000 МО на день. Четвертий — кальцій, 1000 мг на день для жінок у сорок із чимось. П’ятий — омега-3. Шостий — клітковина, 25 грамів на день, і матеріал наполягає, що це має бути їжа, а лушпиння подорожника, інулін чи метилцелюлоза — лише якщо їжі не вистачає."
+        "text": "Першим іде креатин. Три-п’ять грамів на день, у будь-який зручний час — той самий діапазон, до якого я дійшла, коли розбирала [дослідження креатину в перименопаузі](/ua/blog/creatine-women-over-40/), з одним доповненням: користь для м’язів у жінок у постменопаузі з’являлася при 5 г на день разом із силовими тренуваннями. Другим — білок: 1,2–1,6 грама на кілограм маси тіла на добу, що Поєднич перекладає у практичні 80–100 грамів проти 40–60 грамів, які, за її словами, багато жінок їдять насправді. Третій — вітамін D3, 800–4000 МО на день. Четвертий — кальцій, 1000 мг на день для жінок у сорок із чимось. П’ятий — омега-3. Шостий — клітковина, 25 грамів на день, і матеріал наполягає, що це має бути їжа, а лушпиння подорожника, інулін чи метилцелюлоза — лише якщо їжі не вистачає."
       },
       {
         "t": "p",

@@ -11,7 +11,7 @@ export default {
     "title": "HRT prescriptions have more than doubled since 2018 — and patches are now running short",
     "seoTitle": "HRT Prescriptions Have Doubled — Patches Now Running Short",
     "metaDesc": "Estrogen HRT prescribing has doubled since 2018 — 1 in 20 women aged 45–54 now prescribed. Why patches are running short and what it means for perimenopause.",
-    "excerpt": "New US data show estrogen HRT prescribing has doubled since 2018, with 1 in 20 women aged 45–54 now on it — driven partly by the FDA dropping its strongest warnings.",
+    "excerpt": "New US data show estrogen HRT prescribing has doubled since 2018, with 1 in 20 women aged 45–54 now on it — a rise already under way before the FDA moved to drop its strongest warnings.",
     "meta": "10 July 2026 · 6 min read",
     "lead": "Hormone therapy is having a moment — and the numbers are striking. A new analysis of US prescribing data finds estrogen-based HRT has gone from niche to mainstream in just a few years.",
     "blocks": [
@@ -21,7 +21,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Part of the shift is regulatory. In November 2025 the FDA announced it would remove the long-standing “black box” warnings — its strongest caution — about heart disease, breast cancer and dementia from menopausal hormone products, after an expert panel concluded the label overstated the risks for the women who benefit most. The changed labels themselves were approved on 12 February 2026, starting with six products; I’ve explained [what that label change did and didn’t alter](/blog/fda-hrt-black-box-warning-removed/) separately. Prescribing was already rising before any of this, and it kept climbing through that period."
+        "text": "The regulatory backdrop has shifted too. In November 2025 the FDA announced it would remove the long-standing “black box” warnings — its strongest caution — about heart disease, breast cancer and dementia from menopausal hormone products, after an expert panel concluded the label overstated the risks for the women who benefit most. The changed labels themselves were approved on 12 February 2026, starting with six products; I’ve explained [what that label change did and didn’t alter](/blog/fda-hrt-black-box-warning-removed/) separately. Prescribing was already rising before any of this, and it kept climbing through that period."
       },
       {
         "t": "p",
@@ -135,7 +135,7 @@ export default {
     "title": "Призначень ЗГТ стало вдвічі більше з 2018 року — а пластирів уже бракує",
     "seoTitle": "Призначення ГЗТ подвоїлись — пластирі у дефіциті",
     "metaDesc": "Призначення естрогенової ГЗТ подвоїлись з 2018 року. Чому пластирі у дефіциті — і що це означає для жінок у перименопаузі.",
-    "excerpt": "Нові дані зі США показують, що призначень естрогенової ЗГТ стало вдвічі більше з 2018 року, і тепер її отримує 1 з 20 жінок віком 45–54 роки — частково через скасування найсуворіших попереджень FDA.",
+    "excerpt": "Нові дані зі США показують, що призначень естрогенової ЗГТ стало вдвічі більше з 2018 року, і тепер її отримує 1 з 20 жінок віком 45–54 роки — і це зростання почалося ще до того, як FDA взялося скасовувати свої найсуворіші попередження.",
     "meta": "10 липня 2026 · 6 хв читання",
     "lead": "Гормональна терапія переживає сплеск популярності — і цифри вражають. Новий аналіз даних про призначення у США показує, що естрогенова ЗГТ за кілька років перетворилася з нішевої на масову.",
     "blocks": [
@@ -145,7 +145,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Частково це пов’язано з регулюванням. У листопаді 2025 року FDA оголосило, що прибере з менопаузальних гормональних препаратів давні попередження в чорній рамці — свій найсуворіший застережний напис — про серцево-судинні захворювання, рак грудей і деменцію, після того як експертна панель дійшла висновку, що етикетка перебільшувала ризики для жінок, яким терапія допомагає найбільше. Самі змінені інструкції FDA затвердило 12 лютого 2026 року — спершу для шести препаратів; окремо я розбирала, [що ця зміна інструкцій справді змінила, а що — ні](/ua/blog/fda-hrt-black-box-warning-removed/). Призначень ставало більше ще до цього, і вони продовжували зростати весь цей час."
+        "text": "Змінилося й регуляторне тло. У листопаді 2025 року FDA оголосило, що прибере з менопаузальних гормональних препаратів давні попередження в чорній рамці — свій найсуворіший застережний напис — про серцево-судинні захворювання, рак грудей і деменцію, після того як експертна панель дійшла висновку, що етикетка перебільшувала ризики для жінок, яким терапія допомагає найбільше. Самі змінені інструкції FDA затвердило 12 лютого 2026 року — спершу для шести препаратів; окремо я розбирала, [що ця зміна інструкцій справді змінила, а що — ні](/ua/blog/fda-hrt-black-box-warning-removed/). Призначень ставало більше ще до цього, і вони продовжували зростати весь цей час."
       },
       {
         "t": "p",

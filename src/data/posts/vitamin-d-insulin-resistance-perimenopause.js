@@ -53,7 +53,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Start with the strongest evidence, because it is unusually clean. In 2023 a team pooled the individual data from the three randomised trials that were specifically designed to test whether vitamin D prevents type 2 diabetes in people with prediabetes. All three were judged at low risk of bias — this is not a scrape of whatever happened to be published."
+        "text": "Start with the strongest evidence, because it is unusually clean. In 2023 a team pooled the individual data from the three randomised trials that were specifically designed to test whether vitamin D prevents type 2 diabetes in people with prediabetes. Prediabetes isn’t quite a UK term: the closest NHS equivalent is non-diabetic hyperglycaemia, and [the numbers behind it](/blog/prediabetes-signs-perimenopause/) are worth knowing. All three were judged at low risk of bias — this is not a scrape of whatever happened to be published."
       },
       {
         "t": "p",
@@ -296,7 +296,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Почнемо з найсильніших даних, бо вони напрочуд чисті. У 2023 році команда об’єднала індивідуальні дані трьох рандомізованих досліджень, спеціально створених, щоб перевірити, чи запобігає вітамін D діабету 2 типу в людей із предіабетом. Усі три оцінені як із низьким ризиком упередженості — це не збірка того, що випадково опублікували."
+        "text": "Почнемо з найсильніших даних, бо вони напрочуд чисті. У 2023 році команда об’єднала індивідуальні дані трьох рандомізованих досліджень, спеціально створених, щоб перевірити, чи запобігає вітамін D діабету 2 типу в людей із предіабетом. «Предіабет» — не зовсім британський термін: найближчий відповідник у NHS — недіабетична гіперглікемія, і [цифри, які за нею стоять](/ua/blog/prediabetes-signs-perimenopause/), варто знати. Усі три оцінені як із низьким ризиком упередженості — це не збірка того, що випадково опублікували."
       },
       {
         "t": "p",

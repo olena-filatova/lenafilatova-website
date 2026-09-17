@@ -21,7 +21,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The headline result is a mismatch. When asked what they knew about perimenopause, women most often named hot flashes (71%), sleep problems (68%) and weight gain (65%). But when women aged 35 and over described what they were actually experiencing, the list came out in a different order: fatigue (83%), physical and mental exhaustion (83%), irritability (80%), depressive mood (77%), sleep problems (76%), digestive issues (76%) and anxiety (75%). Hot flashes — the thing almost everyone associates with the transition — didn’t lead the list of lived symptoms at all. Among the narrower group of women 35+ who said they were currently in perimenopause, the same symptoms ran higher still, with exhaustion at 95% and fatigue at 93%."
+        "text": "The headline result is a mismatch. When asked what they knew about perimenopause, women most often named hot flashes (71%), sleep problems (68%) and weight gain (65%). But when women aged 35 and over described what they were actually experiencing, the list came out in a different order: fatigue (83%), physical and mental exhaustion (83%), irritability (80%), depressive mood (77%), sleep problems (76%), digestive issues (76%) and anxiety (75%). Hot flashes — the thing almost everyone associates with the transition — didn’t lead the list of lived symptoms at all. A smaller US survey that asked a different question — which symptoms have the biggest impact, rather than which are most common — also put a mental-health symptom, anxiety, above hot flashes; [I covered it here](/blog/anxiety-brain-fog-top-menopause-symptom/). Among the narrower group of women 35+ who said they were currently in perimenopause, the same symptoms ran higher still, with exhaustion at 95% and fatigue at 93%."
       },
       {
         "t": "p",
@@ -57,7 +57,7 @@ export default {
           {
             "name": "Anxiety and brain fog, not hot flashes, are now women’s top menopause complaint",
             "url": "/blog/anxiety-brain-fog-top-menopause-symptom/",
-            "desc": "The same pattern in a smaller US survey — this global study is the larger, peer-reviewed version of it."
+            "desc": "A smaller US survey that ranked symptoms by impact rather than by how common they are — and still put anxiety above hot flashes."
           },
           {
             "name": "Perimenopause & diabetes: what’s really happening to your blood sugar",
@@ -109,7 +109,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Головний результат — розбіжність. Коли жінок питали, що вони знають про перименопаузу, найчастіше називали припливи (71%), проблеми зі сном (68%) і набір ваги (65%). Але коли жінки віком 35+ описували те, що переживають насправді, порядок виявився іншим: втома (83%), фізичне й розумове виснаження (83%), дратівливість (80%), пригнічений настрій (77%), проблеми зі сном (76%), розлади травлення (76%) і тривожність (75%). Припливи — те, що майже всі асоціюють із цим періодом, — узагалі не очолили список реальних симптомів. У вужчій групі жінок 35+, які сказали, що перебувають у перименопаузі зараз, ті самі симптоми були ще вищими: виснаження 95%, втома 93%."
+        "text": "Головний результат — розбіжність. Коли жінок питали, що вони знають про перименопаузу, найчастіше називали припливи (71%), проблеми зі сном (68%) і набір ваги (65%). Але коли жінки віком 35+ описували те, що переживають насправді, порядок виявився іншим: втома (83%), фізичне й розумове виснаження (83%), дратівливість (80%), пригнічений настрій (77%), проблеми зі сном (76%), розлади травлення (76%) і тривожність (75%). Припливи — те, що майже всі асоціюють із цим періодом, — узагалі не очолили список реальних симптомів. Менше опитування в США, яке ставило інше запитання — які симптоми мають найбільший вплив, а не які найпоширеніші, — теж поставило вище за припливи симптом психічного здоров’я, тривожність; [я писала про нього тут](/ua/blog/anxiety-brain-fog-top-menopause-symptom/). У вужчій групі жінок 35+, які сказали, що перебувають у перименопаузі зараз, ті самі симптоми були ще вищими: виснаження 95%, втома 93%."
       },
       {
         "t": "p",
@@ -145,7 +145,7 @@ export default {
           {
             "name": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
             "url": "/ua/blog/anxiety-brain-fog-top-menopause-symptom/",
-            "desc": "Той самий висновок у меншому опитуванні в США — це глобальна рецензована версія тієї ж історії."
+            "desc": "Менше опитування в США, яке ранжувало симптоми за впливом, а не за поширеністю, — і все одно поставило тривожність вище за припливи."
           },
           {
             "name": "Перименопауза та діабет: що насправді відбувається з вашим цукром у крові",

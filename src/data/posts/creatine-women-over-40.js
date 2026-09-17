@@ -156,7 +156,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Three to five grams a day of creatine monohydrate. Monohydrate is simultaneously the best-researched form and usually the cheapest, which is a rare and pleasant alignment — the newer forms sold at a premium, including the hydrochloride used in the brain-fog trial, have a fraction of the evidence behind them."
+        "text": "Three to five grams a day of creatine monohydrate is the standard range for keeping your muscle stores topped up. If muscle and strength are why you are taking it, aim for 5 g: that is the dose at which the postmenopausal trials above showed a benefit, alongside resistance training. The low-dose trials in that review also had no training, so it cannot fully separate the effect of the dose from the effect of the lifting — one more reason not to skip the lifting. Monohydrate is simultaneously the best-researched form and usually the cheapest, which is a rare and pleasant alignment — the newer forms sold at a premium, including the hydrochloride used in the brain-fog trial, have a fraction of the evidence behind them."
       },
       {
         "t": "p",
@@ -325,7 +325,7 @@ export default {
       },
       {
         "q": "How much creatine should a woman take, and do I need to load?",
-        "a": "Three to five grams a day of creatine monohydrate, taken every day including rest days. You do not need a loading phase. Loading — around 20 g a day for five to seven days — only fills the muscle store faster; in the classic comparison, 3 g a day for 28 days produced much the same roughly 20% rise in muscle creatine as 20 g a day for six days. Skipping the load is cheaper, easier on the stomach, and avoids most of the early water-weight people complain about. Timing relative to training barely matters, because you are filling a store rather than timing a dose."
+        "a": "Three to five grams a day of creatine monohydrate, taken every day including rest days. If your goal is muscle, aim for 5 g, the dose that showed a benefit alongside strength training in postmenopausal women. You do not need a loading phase. Loading — around 20 g a day for five to seven days — only fills the muscle store faster; in the classic comparison, 3 g a day for 28 days produced much the same roughly 20% rise in muscle creatine as 20 g a day for six days. Skipping the load is cheaper, easier on the stomach, and avoids most of the early water-weight people complain about. Timing relative to training barely matters, because you are filling a store rather than timing a dose."
       },
       {
         "q": "Does creatine make women bloated or puffy?",
@@ -494,7 +494,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Три-п’ять грамів на добу креатину моногідрату. Моногідрат одночасно і найкраще досліджена форма, і зазвичай найдешевша — рідкісний і приємний збіг. Новіші форми, які продають дорожче, включно з гідрохлоридом із дослідження про туман у голові, мають частку тієї доказової бази."
+        "text": "Три-п’ять грамів на добу креатину моногідрату — стандартний діапазон, щоб підтримувати запаси в м’язах. Якщо ви приймаєте його заради м’язів і сили, орієнтуйтеся на 5 г: саме за такої дози дослідження в постменопаузі, описані вище, показали користь — разом із силовими тренуваннями. У дослідженнях із меншою дозою з того огляду тренувань також не було, тож він не може повністю відокремити ефект дози від ефекту тренувань — ще одна причина не пропускати силові. Моногідрат одночасно і найкраще досліджена форма, і зазвичай найдешевша — рідкісний і приємний збіг. Новіші форми, які продають дорожче, включно з гідрохлоридом із дослідження про туман у голові, мають частку тієї доказової бази."
       },
       {
         "t": "p",
@@ -663,7 +663,7 @@ export default {
       },
       {
         "q": "Скільки креатину приймати жінці й чи потрібне завантаження?",
-        "a": "Три-п’ять грамів на добу креатину моногідрату, щодня, зокрема у дні без тренувань. Фаза завантаження не потрібна. Завантаження — близько 20 г на добу протягом п’яти-семи днів — лише швидше наповнює м’язове депо: у класичному порівнянні 3 г на добу протягом 28 днів дали приблизно таке саме зростання креатину в м’язах (близько 20%), як і 20 г на добу протягом шести днів. Пропустити завантаження дешевше, легше для шлунка й дозволяє уникнути більшості ранньої затримки води, на яку скаржаться. Час прийому відносно тренування майже не має значення, бо ви наповнюєте депо, а не вгадуєте момент."
+        "a": "Три-п’ять грамів на добу креатину моногідрату, щодня, зокрема у дні без тренувань. Якщо ваша мета — м’язи, орієнтуйтеся на 5 г: саме ця доза разом із силовими тренуваннями показала користь у жінок у постменопаузі. Фаза завантаження не потрібна. Завантаження — близько 20 г на добу протягом п’яти-семи днів — лише швидше наповнює м’язове депо: у класичному порівнянні 3 г на добу протягом 28 днів дали приблизно таке саме зростання креатину в м’язах (близько 20%), як і 20 г на добу протягом шести днів. Пропустити завантаження дешевше, легше для шлунка й дозволяє уникнути більшості ранньої затримки води, на яку скаржаться. Час прийому відносно тренування майже не має значення, бо ви наповнюєте депо, а не вгадуєте момент."
       },
       {
         "q": "Чи спричиняє креатин набряки й відчуття «наливання» у жінок?",
