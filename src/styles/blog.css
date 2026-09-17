@@ -803,8 +803,30 @@
      than clipping the signup button off the bottom. */
   .left-rail .rail { overflow-y: auto; gap: 26px; }
 
-  .rail-tools { border-top: 1.5px solid var(--ink); padding-top: 14px; }
-  .rail-tools ul { list-style: none; margin: 0; padding: 0; }
+  /* The list is the part that gives way on a short screen: it shrinks and
+     scrolls (min-height:0 is what allows a flex child to go below its content),
+     so the label above it, the "all tools" link below it and the signup under
+     that keep their places however many tools the hub grows to. Same device as
+     .toc in the contents rail opposite. */
+  .rail-tools {
+    border-top: 1.5px solid var(--ink); padding-top: 14px;
+    display: flex; flex-direction: column; min-height: 0;
+  }
+  .rail-tools .rt-label { flex: none; }
+  /* Scroll shadows, no JS: the two `local` gradients scroll with the content
+     and sit over the two fixed `scroll` ones, so a shadow shows at an edge
+     exactly while there is more list past it — and on a screen tall enough for
+     all of them, no shadow shows at all. This is load-bearing rather than
+     decorative: a list cut off at a plain row border reads as a list that
+     ends, which is the very impression OPS-472 was raised about. */
+  .rail-tools ul {
+    list-style: none; margin: 0; padding: 0; min-height: 0; overflow-y: auto;
+    background:
+      linear-gradient(var(--bg) 40%, rgba(245, 239, 232, 0)) top / 100% 22px no-repeat local,
+      linear-gradient(rgba(245, 239, 232, 0), var(--bg) 60%) bottom / 100% 22px no-repeat local,
+      radial-gradient(farthest-side at 50% 0, rgba(42, 20, 36, 0.14), rgba(42, 20, 36, 0)) top / 100% 7px no-repeat scroll,
+      radial-gradient(farthest-side at 50% 100%, rgba(42, 20, 36, 0.14), rgba(42, 20, 36, 0)) bottom / 100% 7px no-repeat scroll;
+  }
   .rail-tools li { border-bottom: 1px solid var(--line); }
   /* Each tool keeps its resources-hub colour as a small gutter mark — the same
      device as the numbered list on /resources/, at rail size. */
@@ -820,6 +842,7 @@
   .rail-tools li a:hover { color: var(--accent); }
   .rail-tools a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .rail-tools .rt-all {
+    flex: none; align-self: flex-start;
     display: inline-block; margin-top: 12px; text-decoration: none;
     font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
     letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);

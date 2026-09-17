@@ -561,18 +561,30 @@ export const RESOURCES = {
 };
 
 // Left rail beside a blog article (OPS-472). From 1320px the contents sit in
-// the right margin and the left one was bare; this fills it with a handful of
-// the free tools and a compact workbook signup. `tools` are hrefs into
-// RESOURCES.cards — the UA address and accent colour come from the card, so
-// only the short label lives here (the card titles are too long for a 220px
-// column). Kept to five: the rail is sticky and has to fit a laptop screen.
+// the right margin and the left one was bare; this fills it with the free
+// tools and a compact workbook signup. `tools` are hrefs into RESOURCES.cards
+// — the UA address and accent colour come from the card, so only the short
+// label lives here (the card titles are too long for a 220px column).
+//
+// This is EVERY card in RESOURCES.cards, grouped by what the reader is
+// holding — the calculators, then the troubleshooter, then the two
+// comparisons, then the tracker. The first pass shipped five of the eight,
+// which left the pump, AID and trials tools as the only ones a reader could
+// not reach from an article.
+// Anything added to the hub belongs here too — the list scrolls inside the
+// rail on a short screen, so length is no longer the reason to leave one out.
+// (The gated guides stay out: they ask for an email, and the rail already
+// carries one signup. `allTools` covers them.)
 export const BLOG_RAIL = {
   tools: [
     { href: '/resources/food-calculator/', en: 'Metabolic food calculator', ua: 'Калькулятор впливу їжі' },
     { href: '/carb-gi-table/', en: 'Carb & GI table', ua: 'Таблиця вуглеводів і ГІ' },
     { href: '/resources/exercise-calculator/', en: 'Exercise & blood sugar', ua: 'Активність і цукор' },
+    { href: '/resources/insulin-pump-doses/', en: 'Pump starting doses', ua: 'Стартові дози помпи' },
     { href: '/blood-sugar-investigator/', en: 'Blood Sugar Investigator', ua: 'Дослідник цукру в крові' },
     { href: '/cgm-comparison/', en: 'CGM sensor comparison', ua: 'Порівняння CGM-сенсорів' },
+    { href: '/aid-comparison/', en: 'AID system comparison', ua: 'Порівняння систем AID' },
+    { href: '/t1d-cure-trials/', en: 'Type 1 cure trials', ua: 'Дослідження лікування' },
   ],
   en: {
     toolsLabel: 'Free tools',
