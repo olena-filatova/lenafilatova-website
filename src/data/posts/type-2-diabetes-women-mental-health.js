@@ -12,7 +12,7 @@ export default {
   ],
   "en": {
     "cat": "Diabetes",
-    "imageAlt": "A woman in her fifties sitting quietly by a window with a cup of tea, looking thoughtful.",
+    "imageAlt": "A woman seen from behind, her hair tied up, looking out of a window in warm afternoon light.",
     "title": "Women with type 2 diabetes get more anxiety and depression diagnoses than men — what the UK study shows",
     "seoTitle": "Type 2 Diabetes and Mental Health: Women vs Men",
     "metaDesc": "A study of 28,720 people in England found women with type 2 diabetes got more anxiety and depression diagnoses than men. What it shows, and what it can’t.",
@@ -96,7 +96,7 @@ export default {
   },
   "ua": {
     "cat": "Діабет",
-    "imageAlt": "Жінка років п’ятдесяти тихо сидить біля вікна з чашкою чаю й замислено дивиться вбік.",
+    "imageAlt": "Жінка, знята зі спини, із зібраним вгорі волоссям дивиться у вікно в теплому пообідньому світлі.",
     "title": "Жінкам із діабетом 2 типу частіше діагностують тривожність і депресію, ніж чоловікам — що показало британське дослідження",
     "seoTitle": "Діабет 2 типу і психічне здоров’я: жінки та чоловіки",
     "metaDesc": "Дослідження 28 720 людей в Англії: жінкам із діабетом 2 типу частіше діагностували тривожність і депресію, ніж чоловікам. Що воно показує, а що ні.",

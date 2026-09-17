@@ -13,7 +13,7 @@ export default {
   ],
   "en": {
     "cat": "Skin & beauty",
-    "imageAlt": "A woman in her fifties examining her skin in a bathroom mirror in soft morning light.",
+    "imageAlt": "A close-up of a woman’s face in profile, her fingertips resting lightly against her cheek in warm, low light.",
     "title": "A dermatology journal says the HRT warning change matters for skin — what the letter actually argues",
     "seoTitle": "HRT and Skin Ageing: What Dermatologists Are Now Saying",
     "metaDesc": "A letter in a leading dermatology journal says the FDA’s HRT label change matters for menopausal skin. What it argues, what it doesn’t, and the numbers attached to it.",
@@ -132,7 +132,7 @@ export default {
   },
   "ua": {
     "cat": "Краса та шкіра",
-    "imageAlt": "Жінка років п’ятдесяти роздивляється свою шкіру в дзеркалі ванної кімнати в м’якому ранковому світлі.",
+    "imageAlt": "Крупний план обличчя жінки в профіль: кінчики пальців легенько торкаються щоки в теплому приглушеному світлі.",
     "title": "Дерматологічний журнал пише, що зміна попередження щодо ЗГТ важлива для шкіри — що насправді стверджує цей лист",
     "seoTitle": "ЗГТ і старіння шкіри: що тепер кажуть дерматологи",
     "metaDesc": "Лист у провідному дерматологічному журналі стверджує, що зміна інструкцій до ЗГТ у США важлива для шкіри в менопаузі. Що в ньому є, чого немає і звідки цифри.",
