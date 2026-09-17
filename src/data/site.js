@@ -573,8 +573,16 @@ export const RESOURCES = {
 // not reach from an article.
 // Anything added to the hub belongs here too — the list scrolls inside the
 // rail on a short screen, so length is no longer the reason to leave one out.
-// (The gated guides stay out: they ask for an email, and the rail already
-// carries one signup. `allTools` covers them.)
+// The gated guides ride BELOW the tools in their own labelled section, never
+// in the list above — the tools list carries an implicit no-signup promise
+// (the hub states it as a badge), and a guide that wants an email address
+// sitting in it would make that a lie. Same separation as /resources/, and
+// the note under it says so before anyone clicks.
+//
+// `guides` are language-scoped the way RESOURCES.guides is: an entry renders
+// only in a language it has BOTH a label and an address for. The meal plan is
+// Ukrainian-only, so the EN rail simply shows no guides section rather than
+// advertising something an English reader cannot read.
 export const BLOG_RAIL = {
   tools: [
     { href: '/resources/food-calculator/', en: 'Metabolic food calculator', ua: 'Калькулятор впливу їжі' },
@@ -586,8 +594,21 @@ export const BLOG_RAIL = {
     { href: '/aid-comparison/', en: 'AID system comparison', ua: 'Порівняння систем AID' },
     { href: '/t1d-cure-trials/', en: 'Type 1 cure trials', ua: 'Дослідження лікування' },
   ],
+  // Keyed on hrefUa because that is the only address RESOURCES.guides has
+  // while every guide is Ukrainian-only; an entry with no matching guide, or
+  // no label in the language being rendered, is skipped.
+  guides: [
+    { hrefUa: '/ua/meal-plan/', ua: 'Система харчування на 4 тижні' },
+  ],
   en: {
+    // Names the whole aside. Without it the landmark borrows the tools label
+    // and is announced as "Free tools" while also holding a guide and a form.
+    railLabel: 'Tools and guides',
     toolsLabel: 'Free tools',
+    // Unused while no guide has EN copy, and here so that adding one is a
+    // data change rather than a code change.
+    guidesLabel: 'Guides',
+    guidesNote: 'Also free — but I send these by email, so this one needs your address.',
     allTools: 'All tools & guides',
     // Overrides for the shared Newsletter copy — the band's nlSub is a
     // paragraph, which in a 220px column is most of the screen.
@@ -596,7 +617,13 @@ export const BLOG_RAIL = {
     nlBtn: 'Send it to me',
   },
   ua: {
+    railLabel: 'Інструменти та гайди',
     toolsLabel: 'Безкоштовні інструменти',
+    guidesLabel: 'Гайди',
+    // Shorter than the hub's note — a 220px column cannot carry the full
+    // sentence — but it still states the email requirement before the click,
+    // which is the whole reason the note exists.
+    guidesNote: 'Теж безкоштовно, але надсилаю поштою — потрібна ваша адреса.',
     allTools: 'Усі інструменти та гайди',
     nlTitle: 'Діабет і перименопауза',
     nlSub: 'Безкоштовний воркбук на 26 сторінок: що змінюється з діабетом 1 типу після 40 і що допомагає.',
