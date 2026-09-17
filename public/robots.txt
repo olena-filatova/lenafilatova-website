@@ -15,4 +15,36 @@ Disallow: /guides/
 # links to them directly — they are reachable only from the delivery email.
 Disallow: /workbook/
 
+# ── AI training crawlers ──────────────────────────────────────────────────
+# Lena's decision, recorded in OPS-310 (18 Aug 2026): this site's content may
+# be read and cited by AI search and AI assistants, but should not be swept up
+# to train models. These three groups are the robots.txt half of that posture;
+# the other half is the per-crawler blocks in Cloudflare's AI Crawl Control.
+#
+# Restored in OPS-311 (16 Sept 2026). The directives were expected to be here
+# but were not — the file has only ever had the "Allow: /" group since the
+# Astro cutover, so Google-Extended in particular was unopposed.
+#
+# Deliberately NOT listed below, so they keep the blanket Allow above:
+# OAI-SearchBot, ChatGPT-User, Claude-User, Claude-SearchBot, PerplexityBot,
+# Perplexity-User, DuckAssistBot, MistralAI-User, Meta-ExternalFetcher.
+# Those are the search and assistant fetchers that produce citations, which is
+# the traffic this site is trying to win. Blocking them is the failure mode,
+# not the goal. Do not "tidy" them into this list.
+
+# Gemini / Vertex AI training. Honoured by Google and has no effect whatsoever
+# on Googlebot or on ordinary Search ranking — a separate control by design.
+User-agent: Google-Extended
+Disallow: /
+
+# OpenAI's model-training crawler. Distinct from OAI-SearchBot (ChatGPT search
+# index) and ChatGPT-User (a person asking ChatGPT to open a page), both allowed.
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic's model-training crawler. Distinct from Claude-SearchBot and
+# Claude-User, both allowed — see OPS-311.
+User-agent: ClaudeBot
+Disallow: /
+
 Sitemap: https://lenafilatova.co.uk/sitemap.xml
