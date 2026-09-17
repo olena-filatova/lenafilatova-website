@@ -30,7 +30,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The skin change the marketing points at is not invented. Oestrogen supports collagen production, dermal thickness, elasticity and hyaluronic acid in the skin, and it falls steeply across the transition. Surgeons writing for the American Society of Plastic Surgeons put the loss at up to 30% of dermal collagen in the first five years after menopause, with roughly a further 2% each year after that. It is worth noticing how that number reaches you, though: it is a clinician summarising the literature in a consumer-facing article rather than a figure traceable to one named study, so it is best read as an order of magnitude, not a measurement."
+        "text": "The skin change the marketing points at is not invented. Oestrogen supports collagen production, dermal thickness, elasticity and hyaluronic acid in the skin, and it falls steeply across the transition. Surgeons writing for the American Society of Plastic Surgeons put the loss at up to 30% of dermal collagen in the first five years after menopause, with roughly a further 2% each year after that. It is worth noticing how that number reaches you, though: it is a clinician summarising the literature in a consumer-facing article rather than a figure traceable to one named study, so it is best read as an order of magnitude, not a measurement. The research behind it goes back mainly to small studies by Brincat and colleagues in the 1980s, which reviews usually summarise as an average of about 2% a year across the first 15 years after menopause — [how the other skin posts here put it](/blog/menopause-skin-oestrogen/)."
       },
       {
         "t": "p",
@@ -144,7 +144,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Зміни шкіри, на які вказує маркетинг, не вигадані. Естроген підтримує вироблення колагену, товщину дерми, еластичність і гіалуронову кислоту в шкірі, і його рівень різко падає під час переходу. Хірурги, які пишуть для Американського товариства пластичних хірургів, оцінюють втрату до 30% дермального колагену за перші п’ять років після менопаузи і ще приблизно 2% щороку після того. Втім, варто помічати, як ця цифра до вас потрапляє: це клініцист, який підсумовує літературу в статті для широкої аудиторії, а не число, яке можна простежити до конкретного дослідження. Тож читайте його як порядок величини, а не як вимір."
+        "text": "Зміни шкіри, на які вказує маркетинг, не вигадані. Естроген підтримує вироблення колагену, товщину дерми, еластичність і гіалуронову кислоту в шкірі, і його рівень різко падає під час переходу. Хірурги, які пишуть для Американського товариства пластичних хірургів, оцінюють втрату до 30% дермального колагену за перші п’ять років після менопаузи і ще приблизно 2% щороку після того. Втім, варто помічати, як ця цифра до вас потрапляє: це клініцист, який підсумовує літературу в статті для широкої аудиторії, а не число, яке можна простежити до конкретного дослідження. Тож читайте його як порядок величини, а не як вимір. Дослідження за нею — здебільшого невеликі роботи Брінката й колег 1980-х років, які огляди зазвичай підсумовують як у середньому близько 2% на рік за перші 15 років після менопаузи, — [саме так це подано в інших статтях про шкіру на цьому сайті](/ua/blog/menopause-skin-oestrogen/)."
       },
       {
         "t": "p",

@@ -18,7 +18,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "The study, published on 5 August 2026 in Menopause (the journal of The Menopause Society), surveyed 296 South Korean women aged 40–64. Researchers grouped them by glucose status using fasting glucose and HbA1c — normal, prediabetes or type 2 diabetes — and measured menopause symptoms with the Midlife Women’s Symptom Index, a validated questionnaire covering physical, psychological and vasomotor complaints like hot flushes and night sweats."
+        "text": "The study, published on 5 August 2026 in Menopause (the journal of The Menopause Society), surveyed 296 South Korean women aged 40–64. Researchers grouped them by glucose status using fasting glucose and HbA1c — normal, prediabetes or type 2 diabetes — and measured menopause symptoms with the Midlife Women’s Symptom Index, a validated questionnaire covering physical, psychological and vasomotor complaints like hot flushes and night sweats. Prediabetes isn’t quite a UK term: the closest NHS equivalent is non-diabetic hyperglycaemia, and [the numbers behind it](/blog/prediabetes-signs-perimenopause/) are worth knowing."
       },
       {
         "t": "p",
@@ -107,7 +107,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Дослідження, опубліковане 5 серпня 2026 року в Menopause (журналі The Menopause Society), охопило 296 південнокорейських жінок віком 40–64 роки. Дослідники розподілили їх за станом глюкозного обміну на основі глюкози натще та HbA1c — норма, предіабет або діабет 2 типу — і виміряли симптоми менопаузи за Midlife Women’s Symptom Index, валідованим опитувальником, що охоплює фізичні, психологічні та вазомоторні скарги, як-от припливи та нічна пітливість."
+        "text": "Дослідження, опубліковане 5 серпня 2026 року в Menopause (журналі The Menopause Society), охопило 296 південнокорейських жінок віком 40–64 роки. Дослідники розподілили їх за станом глюкозного обміну на основі глюкози натще та HbA1c — норма, предіабет або діабет 2 типу — і виміряли симптоми менопаузи за Midlife Women’s Symptom Index, валідованим опитувальником, що охоплює фізичні, психологічні та вазомоторні скарги, як-от припливи та нічна пітливість. «Предіабет» — не зовсім британський термін: найближчий відповідник у NHS — недіабетична гіперглікемія, і [цифри, які за нею стоять](/ua/blog/prediabetes-signs-perimenopause/), варто знати."
       },
       {
         "t": "p",

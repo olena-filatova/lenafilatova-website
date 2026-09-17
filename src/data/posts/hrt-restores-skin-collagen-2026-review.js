@@ -20,7 +20,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Published in the journal Life, the review draws together research on how falling oestrogen changes skin after menopause: collagen content declines by around 2% a year, elasticity drops, and moisture retention weakens — together producing thinner, drier, more wrinkle-prone skin."
+        "text": "Published in the journal Life, the review draws together research on how falling oestrogen changes skin after menopause: collagen content declines by around 2% a year, elasticity drops, and moisture retention weakens — together producing thinner, drier, more wrinkle-prone skin. That 2% is an average across the years after menopause; the loss is heaviest early on, which is why other sources quote up to 30% in the first five years. [The post on why skin changes so fast at menopause](/blog/menopause-skin-oestrogen/) explains where both figures come from."
       },
       {
         "t": "p",
@@ -98,7 +98,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Опублікований у журналі Life огляд зібрав дослідження того, як зниження естрогену змінює шкіру після менопаузи: вміст колагену знижується приблизно на 2% на рік, еластичність падає, а здатність утримувати вологу слабшає — разом це дає тоншу, сухішу шкіру, схильнішу до зморшок."
+        "text": "Опублікований у журналі Life огляд зібрав дослідження того, як зниження естрогену змінює шкіру після менопаузи: вміст колагену знижується приблизно на 2% на рік, еластичність падає, а здатність утримувати вологу слабшає — разом це дає тоншу, сухішу шкіру, схильнішу до зморшок. Ці 2% — середнє за роки після менопаузи; найбільше колагену втрачається на початку, тому деінде наводять до 30% за перші п’ять років. [У статті про те, чому шкіра так швидко змінюється в менопаузі](/ua/blog/menopause-skin-oestrogen/), пояснено, звідки беруться обидві цифри."
       },
       {
         "t": "p",

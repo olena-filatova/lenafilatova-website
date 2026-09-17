@@ -38,7 +38,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The practical read is undramatic, which is usually a good sign. Nobody needs to optimise their sleep. But if you are managing insulin resistance, prediabetes or type 1 diabetes and you are routinely running on six hours, the evidence now says that is not a neutral background condition — it is part of the picture your glucose numbers are responding to, and worth raising at your next review rather than treating as the thing you’ll sort out later."
+        "text": "The practical read is undramatic, which is usually a good sign. Nobody needs to optimise their sleep. But if you are managing insulin resistance, prediabetes (what NHS letters usually call non-diabetic hyperglycaemia) or type 1 diabetes and you are routinely running on six hours, the evidence now says that is not a neutral background condition — it is part of the picture your glucose numbers are responding to, and worth raising at your next review rather than treating as the thing you’ll sort out later."
       },
       {
         "t": "h",
@@ -127,7 +127,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Практичний висновок недраматичний, а це зазвичай хороший знак. Нікому не треба «оптимізувати» свій сон. Але якщо ви маєте справу з інсулінорезистентністю, предіабетом чи діабетом 1 типу й регулярно живете на шести годинах, докази тепер кажуть: це не нейтральне тло. Це частина картини, на яку відгукуються ваші показники глюкози, і про це варто згадати на наступному прийомі, а не відкладати на потім."
+        "text": "Практичний висновок недраматичний, а це зазвичай хороший знак. Нікому не треба «оптимізувати» свій сон. Але якщо ви маєте справу з інсулінорезистентністю, предіабетом (у листах NHS його зазвичай називають недіабетичною гіперглікемією) чи діабетом 1 типу й регулярно живете на шести годинах, докази тепер кажуть: це не нейтральне тло. Це частина картини, на яку відгукуються ваші показники глюкози, і про це варто згадати на наступному прийомі, а не відкладати на потім."
       },
       {
         "t": "h",
