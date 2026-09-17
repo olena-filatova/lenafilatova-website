@@ -7,7 +7,7 @@ export default {
   ],
   "en": {
     "cat": "Perimenopause",
-    "imageAlt": "A woman in her late forties sitting at a kitchen table, holding a box of hormone patches and reading the leaflet.",
+    "imageAlt": "A woman in glasses sitting at home, concentrating on a sheet of paper and a calculator in front of her.",
     "title": "“Start HRT earlier and cut your risk by 60%” — what that headline is actually built on",
     "seoTitle": "Starting HRT Earlier: What the Timing Study Found",
     "metaDesc": "A 120-million-record analysis suggests starting oestrogen in perimenopause beats starting after menopause. It is an unpublished conference poster — here is what it can and cannot tell you.",
@@ -105,7 +105,7 @@ export default {
   },
   "ua": {
     "cat": "Перименопауза",
-    "imageAlt": "Жінка близько п’ятдесяти сидить за кухонним столом, тримає коробку гормональних пластирів і читає інструкцію.",
+    "imageAlt": "Жінка в окулярах сидить удома й зосереджено дивиться на аркуш паперу й калькулятор перед собою.",
     "title": "«Почніть ЗГТ раніше — і ризик впаде на 60%»: на чому насправді тримається цей заголовок",
     "seoTitle": "Коли починати ЗГТ: що показало дослідження",
     "metaDesc": "Аналіз понад 120 мільйонів медичних записів припускає, що починати естроген у перименопаузі краще, ніж після менопаузи. Але це неопублікований постер з конференції — ось що він може і чого не може довести.",
