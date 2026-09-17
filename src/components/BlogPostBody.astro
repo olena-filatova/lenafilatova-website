@@ -73,6 +73,15 @@ const railTools = BLOG_RAIL.tools.flatMap((x) => {
   const href = B.replace(/\/$/, '') + (lang === 'ua' ? card.hrefUa : card.href);
   return [{ href, label: x[lang], color: card.head }];
 });
+// Gated guides, kept out of the tools list above — see BLOG_RAIL. Skipped
+// unless the guide exists AND has both an address and a label in this
+// language, so the Ukrainian-only meal plan never renders an empty EN section.
+const railGuides = (BLOG_RAIL.guides || []).flatMap((x) => {
+  const guide = RESOURCES.guides.find((g) => g.hrefUa === x.hrefUa);
+  const path = lang === 'ua' ? guide?.hrefUa : guide?.href;
+  if (!path || !x[lang]) return [];
+  return [{ href: B.replace(/\/$/, '') + path, label: x[lang], color: guide.head }];
+});
 ---
 <article class="post">
   {/* Article header: kicker, serif headline, then a hairline rule with the
@@ -106,17 +115,29 @@ const railTools = BLOG_RAIL.tools.flatMap((x) => {
       below that there is no margin, and the same things are already on the
       page (the footer signup band, the Tools link in the masthead); the rail
       is display:none there, so a phone never gets a second form. */}
-  <aside class="left-rail" aria-label={rail.toolsLabel}>
+  <aside class="left-rail" aria-label={rail.railLabel}>
     <div class="rail">
-      <nav class="rail-tools">
+      <nav class="rail-tools" aria-label={rail.toolsLabel}>
         <p class="rt-label">{rail.toolsLabel}</p>
         <ul>
           {railTools.map((x) => (
             <li style={`--tool: ${x.color}`}><a href={x.href}>{x.label}</a></li>
           ))}
         </ul>
-        <a class="rt-all" href={`${L}resources/`}>{rail.allTools} &#8594;</a>
       </nav>
+      {railGuides.length > 0 &&
+        <nav class="rail-guides" aria-label={rail.guidesLabel}>
+          <p class="rt-label">{rail.guidesLabel}</p>
+          <ul>
+            {railGuides.map((x) => (
+              <li style={`--tool: ${x.color}`}><a href={x.href}>{x.label}</a></li>
+            ))}
+          </ul>
+          <p class="rg-note">{rail.guidesNote}</p>
+        </nav>}
+      {/* Closes both sections, because its label names both — above the
+          guides it would be pointing back past them. */}
+      <a class="rt-all" href={`${L}resources/`}>{rail.allTools} &#8594;</a>
       <Newsletter lang={lang} id="newsletter-rail" variant="rail" copy={{ nlTitle: rail.nlTitle, nlSub: rail.nlSub, nlBtn: rail.nlBtn }} />
     </div>
   </aside>

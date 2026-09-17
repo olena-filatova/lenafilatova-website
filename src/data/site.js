@@ -561,21 +561,54 @@ export const RESOURCES = {
 };
 
 // Left rail beside a blog article (OPS-472). From 1320px the contents sit in
-// the right margin and the left one was bare; this fills it with a handful of
-// the free tools and a compact workbook signup. `tools` are hrefs into
-// RESOURCES.cards — the UA address and accent colour come from the card, so
-// only the short label lives here (the card titles are too long for a 220px
-// column). Kept to five: the rail is sticky and has to fit a laptop screen.
+// the right margin and the left one was bare; this fills it with the free
+// tools and a compact workbook signup. `tools` are hrefs into RESOURCES.cards
+// — the UA address and accent colour come from the card, so only the short
+// label lives here (the card titles are too long for a 220px column).
+//
+// This is EVERY card in RESOURCES.cards, grouped by what the reader is
+// holding — the calculators, then the troubleshooter, then the two
+// comparisons, then the tracker. The first pass shipped five of the eight,
+// which left the pump, AID and trials tools as the only ones a reader could
+// not reach from an article.
+// Anything added to the hub belongs here too — the list scrolls inside the
+// rail on a short screen, so length is no longer the reason to leave one out.
+// The gated guides ride BELOW the tools in their own labelled section, never
+// in the list above — the tools list carries an implicit no-signup promise
+// (the hub states it as a badge), and a guide that wants an email address
+// sitting in it would make that a lie. Same separation as /resources/, and
+// the note under it says so before anyone clicks.
+//
+// `guides` are language-scoped the way RESOURCES.guides is: an entry renders
+// only in a language it has BOTH a label and an address for. The meal plan is
+// Ukrainian-only, so the EN rail simply shows no guides section rather than
+// advertising something an English reader cannot read.
 export const BLOG_RAIL = {
   tools: [
     { href: '/resources/food-calculator/', en: 'Metabolic food calculator', ua: 'Калькулятор впливу їжі' },
     { href: '/carb-gi-table/', en: 'Carb & GI table', ua: 'Таблиця вуглеводів і ГІ' },
     { href: '/resources/exercise-calculator/', en: 'Exercise & blood sugar', ua: 'Активність і цукор' },
+    { href: '/resources/insulin-pump-doses/', en: 'Pump starting doses', ua: 'Стартові дози помпи' },
     { href: '/blood-sugar-investigator/', en: 'Blood Sugar Investigator', ua: 'Дослідник цукру в крові' },
     { href: '/cgm-comparison/', en: 'CGM sensor comparison', ua: 'Порівняння CGM-сенсорів' },
+    { href: '/aid-comparison/', en: 'AID system comparison', ua: 'Порівняння систем AID' },
+    { href: '/t1d-cure-trials/', en: 'Type 1 cure trials', ua: 'Дослідження лікування' },
+  ],
+  // Keyed on hrefUa because that is the only address RESOURCES.guides has
+  // while every guide is Ukrainian-only; an entry with no matching guide, or
+  // no label in the language being rendered, is skipped.
+  guides: [
+    { hrefUa: '/ua/meal-plan/', ua: 'Система харчування на 4 тижні' },
   ],
   en: {
+    // Names the whole aside. Without it the landmark borrows the tools label
+    // and is announced as "Free tools" while also holding a guide and a form.
+    railLabel: 'Tools and guides',
     toolsLabel: 'Free tools',
+    // Unused while no guide has EN copy, and here so that adding one is a
+    // data change rather than a code change.
+    guidesLabel: 'Guides',
+    guidesNote: 'Also free — but I send these by email, so this one needs your address.',
     allTools: 'All tools & guides',
     // Overrides for the shared Newsletter copy — the band's nlSub is a
     // paragraph, which in a 220px column is most of the screen.
@@ -584,7 +617,13 @@ export const BLOG_RAIL = {
     nlBtn: 'Send it to me',
   },
   ua: {
+    railLabel: 'Інструменти та гайди',
     toolsLabel: 'Безкоштовні інструменти',
+    guidesLabel: 'Гайди',
+    // Shorter than the hub's note — a 220px column cannot carry the full
+    // sentence — but it still states the email requirement before the click,
+    // which is the whole reason the note exists.
+    guidesNote: 'Теж безкоштовно, але надсилаю поштою — потрібна ваша адреса.',
     allTools: 'Усі інструменти та гайди',
     nlTitle: 'Діабет і перименопауза',
     nlSub: 'Безкоштовний воркбук на 26 сторінок: що змінюється з діабетом 1 типу після 40 і що допомагає.',
