@@ -36,7 +36,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "That is a United States story, and it matters that I say so, because insulin in Britain is free at the point of use and always has been. The suspicion travels here anyway — partly because so much of what we read is American, and partly because we have had our own version of it. Over the past year Lilly has been quietly pulling insulins out of the UK: Humalog Mix25, and the 10ml vials of Humulin I, Humulin M3 and Humulin S, all running down through the spring of 2026. Nobody’s price went up. People simply had to change insulin because a company decided a product was no longer worth marketing here."
+        "text": "That is a United States story, and it matters that I say so, because insulin in Britain is free at the point of use and always has been. The suspicion travels here anyway — partly because so much of what we read is American, and partly because we have had our own version of it. Over the past year Lilly has been quietly pulling insulins out of the UK: the 10ml vials of Humalog Mix25, Humulin I, Humulin M3 and Humulin S, all running down through the spring of 2026. Nobody’s price went up. People simply had to change insulin because a company decided a product was no longer worth marketing here."
       },
       {
         "t": "p",
@@ -60,7 +60,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In the US the fall is sharper, and worth stating carefully. Novo’s American insulin sales dropped 36% in the first quarter of 2026, which the company put down to “a declining insulin market” alongside lost market share and lower prices. But that single quarter overstates it: rebate timing pushed the same figure back up 15% the following quarter, and worldwide insulin was flat. Across the first half of 2026 Novo’s US insulin sales were down 17%. Sanofi’s Lantus, once the best-selling insulin in the world, fell 7% in the second quarter of 2026, with its US sales down 17%."
+        "text": "In the US the fall is sharper, and worth stating carefully. Novo’s American insulin sales dropped 36% in the first quarter of 2026, which the company put down to “a declining insulin market” alongside lost market share and lower prices. But that single quarter overstates it: rebate timing pushed the same figure back up 15% the following quarter, when worldwide insulin was flat. Across the first half of 2026 Novo’s US insulin sales were down 17%. Sanofi’s Lantus, once the best-selling insulin in the world, fell 7% in the second quarter of 2026, with its US sales down 17%."
       },
       {
         "t": "p",
@@ -112,7 +112,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "It is also a good illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in January 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. By May it had finished that analysis and resumed dosing; it has not given a new filing date, and says it will update its timelines later in 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime the company has taken a next-generation islet therapy, VX-017, into the clinic — designed to work for eligible patients whatever their blood type."
+        "text": "It is also a good illustration of how these things really slip. Vertex finished enrolling the pivotal study and then, in January 2026, temporarily postponed completing the dosing while it worked through an internal manufacturing analysis. By May it had finished that analysis and resumed dosing; it has not given a new filing date, and says it will update its timelines later in 2026. Nobody suppressed anything: growing living cells to a consistent standard is genuinely hard. In the meantime US regulators have cleared Vertex to begin trials of a next-generation islet therapy, VX-017 — designed to work for eligible patients whatever their blood type."
       },
       {
         "t": "p",
@@ -183,7 +183,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Then commercial reality, and here Tzield is the instructive case. It is the first drug ever to change the course of type 1 — and three and a half years after launch it is still a small product: €54 million in 2024, €63 million in 2025, €37 million in the first half of 2026. It is growing, but slowly, and mainly because, until this year, it only worked in stage 2 — before symptoms — and hardly anyone is screened early enough to qualify. Just over a thousand people have been treated with it in total. Sanofi is pushing hard against that: US regulators widened the age range down to one year old in April 2026, Europe approved it and the launch has begun, and in mid-2026 the FDA granted accelerated approval for something genuinely new — slowing the loss of insulin production in children aged eight to seventeen who have only just been diagnosed. That is the first treatment aimed at protecting the beta cells a person still has. But the lesson a board takes from a €63 million product bought for $2.9 billion is not “suppress the cure.” It is “disease-modifying diabetes drugs are a slow, expensive build” — and that is a genuine disincentive."
+        "text": "Then commercial reality, and here Tzield is the instructive case. It is the first drug ever to change the course of type 1 — and three and a half years after launch it is still a small product: €54 million in 2024, €63 million in 2025, €37 million in the first half of 2026. It is growing, but slowly, and mainly because, until this year, it was only approved for stage 2 — before symptoms — and hardly anyone is screened early enough to qualify. Just over a thousand people have been treated with it in total. Sanofi is pushing hard against that: US regulators widened the age range down to one year old in April 2026, Europe approved it and the launch has begun, and in mid-2026 the FDA granted accelerated approval for something genuinely new — slowing the loss of insulin production in children aged eight to seventeen who have only just been diagnosed. That is the first treatment aimed at protecting the beta cells a person still has. But the lesson a board takes from a €63 million product bought for $2.9 billion is not “suppress the cure.” It is “disease-modifying diabetes drugs are a slow, expensive build” — and that is a genuine disincentive."
       },
       {
         "t": "p",
@@ -207,11 +207,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The screening picture is British too, and it now leads somewhere. ELSA, funded by Diabetes UK and Breakthrough T1D, screens children aged 2 to 17; its first phase tested 17,283 children and reported in The Lancet Diabetes & Endocrinology that a finger-prick test can pick up the risk years ahead — one autoantibody carries roughly a 15% chance over ten years, while two or more means the process has already started. T1DRA does the same for adults aged 18 to 70. Until this summer a stage 2 result in the UK mostly bought you information. Now it can buy you the drug."
+        "text": "The screening picture is British too, and it now leads somewhere. ELSA, funded by Diabetes UK and Breakthrough T1D, screens children aged 2 to 17; its first phase tested 17,283 children and reported in The Lancet Diabetes & Endocrinology that a finger-prick test can pick up the risk years ahead. Earlier long-running cohort studies put one autoantibody at roughly a 15% chance over ten years, while two or more means the process has already started. T1DRA does the same for adults aged 18 to 70. Until this summer a stage 2 result in the UK mostly bought you information. Now it can buy you the drug."
       },
       {
         "t": "p",
-        "text": "And the money behind the British end of this is almost entirely philanthropic. The Type 1 Diabetes Grand Challenge runs on £50 million from the Steve Morgan Foundation with Breakthrough T1D and Diabetes UK; the Bukhman Foundation pledged £100 million over ten years in 2025; Oxford accepted a £10 million gift for type 1 research the same September. That is generous, and it is also fragile in the way charitable funding always is — which is the American point again, in pounds."
+        "text": "And the money behind the British end of this is almost entirely philanthropic. The Type 1 Diabetes Grand Challenge runs on £50 million from the Steve Morgan Foundation with Breakthrough T1D and Diabetes UK; the Bukhman Foundation pledged £100 million over ten years in May 2025, and that September gave Oxford £10 million to found a type 1 research centre. That is generous, and it is also fragile in the way charitable funding always is — which is the American point again, in pounds."
       },
       {
         "t": "h",
@@ -254,7 +254,7 @@ export default {
           },
           {
             "claim": "Insulin is a shrinking business its makers are retreating from.",
-            "detail": "Novo Nordisk’s total insulin sales were DKK 53,137 million of DKK 309,064 million in 2025 — 17% of the company, down 1% at constant exchange rates — against Ozempic alone at DKK 127,089 million and obesity care at DKK 82,347 million, up 31%. Its US insulin sales fell 36% at CER in Q1 2026 and rose 15% in Q2 on rebate timing, leaving the first half down 17%, with worldwide insulin flat. Eli Lilly is discontinuing Humalog, Liprolog, Lyumjev, Humulin and Abasaglar presentations in selected European markets before the second quarter of 2027 — for commercial reasons, the European Medicines Agency recorded, not safety or quality. Across 2023–24 all three major makers cut US list prices by 65–78% and capped patient costs at $35 a month.",
+            "detail": "Novo Nordisk’s total insulin sales were DKK 53,137 million of DKK 309,064 million in 2025 — 17% of the company, down 1% at constant exchange rates — against Ozempic alone at DKK 127,089 million and obesity care at DKK 82,347 million, up 31%. Its US insulin sales fell 36% at CER in Q1 2026 and rose 15% in Q2 on rebate timing, leaving the first half down 17%; worldwide insulin was flat in Q2. Eli Lilly is discontinuing Humalog, Liprolog, Lyumjev, Humulin and Abasaglar presentations in selected European markets before the second quarter of 2027 — for commercial reasons, the European Medicines Agency recorded, not safety or quality. Across 2023–24 all three major makers cut US list prices by 65–78% and capped patient costs at $35 a month.",
             "cite": "Novo Nordisk · FY2025 results and H1 2026 report",
             "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials.html"
           },
@@ -319,7 +319,7 @@ export default {
           {
             "name": "TrialNet — free autoantibody screening",
             "url": "https://www.trialnet.org/",
-            "desc": "Free screening for relatives of people with type 1, and the route into most prevention trials. In the UK, ELSA screens children aged 3 to 13."
+            "desc": "Free screening for relatives of people with type 1, and the route into most prevention trials. In the UK, ELSA screens children aged 2 to 17."
           },
           {
             "name": "Diabetes UK — research",
@@ -381,7 +381,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це історія Сполучених Штатів, і мені важливо це сказати, бо у Британії інсулін безкоштовний у момент отримання — і завжди був. Підозра однаково доїжджає сюди: почасти тому, що більшість того, що ми читаємо, американське, а почасти тому, що ми мали власну версію цієї історії. За останній рік Lilly тихо вивела з британського ринку кілька інсулінів: Humalog Mix25, а також флакони по 10 мл Humulin I, Humulin M3 і Humulin S — усі вони закінчувалися протягом весни 2026 року. Ціни ні для кого не зросли. Людям просто довелося змінити інсулін, бо компанія вирішила, що продавати тут цей продукт більше не варто."
+        "text": "Це історія Сполучених Штатів, і мені важливо це сказати, бо у Британії інсулін безкоштовний у момент отримання — і завжди був. Підозра однаково доїжджає сюди: почасти тому, що більшість того, що ми читаємо, американське, а почасти тому, що ми мали власну версію цієї історії. За останній рік Lilly тихо вивела з британського ринку кілька інсулінів: флакони по 10 мл Humalog Mix25, Humulin I, Humulin M3 і Humulin S — усі вони закінчувалися протягом весни 2026 року. Ціни ні для кого не зросли. Людям просто довелося змінити інсулін, бо компанія вирішила, що продавати тут цей продукт більше не варто."
       },
       {
         "t": "p",
@@ -405,7 +405,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У США падіння різкіше, і про це варто сказати обережно. Продажі інсуліну Novo в Америці впали на 36% у першому кварталі 2026 року, і сама компанія пояснила це «ринком інсуліну, що скорочується», втратою частки ринку та нижчими цінами. Але один квартал це перебільшує: через терміни нарахування знижок той самий показник у наступному кварталі зріс на 15%, а світові продажі інсуліну залишилися незмінними. За перше півріччя 2026 року продажі інсуліну Novo в США впали на 17%. Lantus від Sanofi, колись найпродаваніший інсулін у світі, у другому кварталі 2026 року впав на 7%, а його продажі у США — на 17%."
+        "text": "У США падіння різкіше, і про це варто сказати обережно. Продажі інсуліну Novo в Америці впали на 36% у першому кварталі 2026 року, і сама компанія пояснила це «ринком інсуліну, що скорочується», втратою частки ринку та нижчими цінами. Але один квартал це перебільшує: через терміни нарахування знижок той самий показник у наступному кварталі зріс на 15%, а світові продажі інсуліну в тому кварталі залишилися незмінними. За перше півріччя 2026 року продажі інсуліну Novo в США впали на 17%. Lantus від Sanofi, колись найпродаваніший інсулін у світі, у другому кварталі 2026 року впав на 7%, а його продажі у США — на 17%."
       },
       {
         "t": "p",
@@ -457,7 +457,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це також, до речі, живий приклад того, як такі строки насправді зсуваються. Vertex завершила набір учасників у ключове дослідження, а потім, у січні 2026 року, тимчасово відклала завершення введення препарату, доки тривав внутрішній аналіз виробництва. До травня аналіз завершили й введення відновили; нової дати подання заявки компанія не назвала і каже, що оновить строки пізніше у 2026 році. Ніхто нічого не приховував: вирощувати живі клітини стабільної якості справді важко. Тим часом компанія вивела в клініку наступне покоління острівцевої терапії, VX-017, — розраховане на пацієнтів, які відповідають критеріям, незалежно від групи крові."
+        "text": "Це також, до речі, живий приклад того, як такі строки насправді зсуваються. Vertex завершила набір учасників у ключове дослідження, а потім, у січні 2026 року, тимчасово відклала завершення введення препарату, доки тривав внутрішній аналіз виробництва. До травня аналіз завершили й введення відновили; нової дати подання заявки компанія не назвала і каже, що оновить строки пізніше у 2026 році. Ніхто нічого не приховував: вирощувати живі клітини стабільної якості справді важко. Тим часом регулятор США дозволив компанії розпочати клінічні дослідження наступного покоління острівцевої терапії, VX-017, — розраховане на пацієнтів, які відповідають критеріям, незалежно від групи крові."
       },
       {
         "t": "p",
@@ -528,7 +528,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Далі — комерційна реальність, і тут Tzield є показовим випадком. Це перший в історії препарат, який змінює перебіг діабету 1 типу, — і через три з половиною роки після виходу на ринок він досі невеликий: 54 мільйони євро у 2024 році, 63 мільйони у 2025-му, 37 мільйонів за перше півріччя 2026-го. Він зростає, але повільно — головно тому, що донедавна працював лише на 2-й стадії, до появи симптомів, а майже нікого не обстежують достатньо рано, щоб він підійшов. Загалом його отримали трохи більше ніж тисяча людей. Sanofi активно намагається це змінити: у квітні 2026 року регулятор США розширив віковий діапазон аж до одного року, Європа схвалила препарат і запуск почався, а в середині 2026-го FDA надало прискорене схвалення для чогось справді нового — сповільнення втрати власного вироблення інсуліну в дітей 8–17 років, яким діагноз щойно поставили. Це перше лікування, спрямоване на захист бета-клітин, які в людини ще залишилися. Але висновок, який рада директорів робить із продукту на 63 мільйони євро, купленого за 2,9 мільярда доларів, — не «приховати ліки». Він звучить як «препарати, що змінюють перебіг діабету, — це повільна й дорога історія», і це справжній антистимул."
+        "text": "Далі — комерційна реальність, і тут Tzield є показовим випадком. Це перший в історії препарат, який змінює перебіг діабету 1 типу, — і через три з половиною роки після виходу на ринок він досі невеликий: 54 мільйони євро у 2024 році, 63 мільйони у 2025-му, 37 мільйонів за перше півріччя 2026-го. Він зростає, але повільно — головно тому, що донедавна був схвалений лише для 2-ї стадії, до появи симптомів, а майже нікого не обстежують достатньо рано, щоб він підійшов. Загалом його отримали трохи більше ніж тисяча людей. Sanofi активно намагається це змінити: у квітні 2026 року регулятор США розширив віковий діапазон аж до одного року, Європа схвалила препарат і запуск почався, а в середині 2026-го FDA надало прискорене схвалення для чогось справді нового — сповільнення втрати власного вироблення інсуліну в дітей 8–17 років, яким діагноз щойно поставили. Це перше лікування, спрямоване на захист бета-клітин, які в людини ще залишилися. Але висновок, який рада директорів робить із продукту на 63 мільйони євро, купленого за 2,9 мільярда доларів, — не «приховати ліки». Він звучить як «препарати, що змінюють перебіг діабету, — це повільна й дорога історія», і це справжній антистимул."
       },
       {
         "t": "p",
@@ -552,11 +552,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Картина зі скринінгом теж британська — і тепер вона кудись веде. ELSA, яку фінансують Diabetes UK і Breakthrough T1D, обстежує дітей від 2 до 17 років; у першій фазі перевірили 17 283 дитини, і в The Lancet Diabetes & Endocrinology повідомили, що аналіз крові з пальця здатен виявити ризик за роки наперед: одне аутоантитіло дає приблизно 15% імовірності протягом десяти років, а два й більше означають, що процес уже почався. T1DRA робить те саме для дорослих від 18 до 70 років. До цього літа результат «2-га стадія» у Британії давав здебільшого інформацію. Тепер він може дати ще й препарат."
+        "text": "Картина зі скринінгом теж британська — і тепер вона кудись веде. ELSA, яку фінансують Diabetes UK і Breakthrough T1D, обстежує дітей від 2 до 17 років; у першій фазі перевірили 17 283 дитини, і в The Lancet Diabetes & Endocrinology повідомили, що аналіз крові з пальця здатен виявити ризик за роки наперед. За даними попередніх багаторічних когортних досліджень, одне аутоантитіло дає приблизно 15% імовірності протягом десяти років, а два й більше означають, що процес уже почався. T1DRA робить те саме для дорослих від 18 до 70 років. До цього літа результат «2-га стадія» у Британії давав здебільшого інформацію. Тепер він може дати ще й препарат."
       },
       {
         "t": "p",
-        "text": "А гроші за британською частиною цієї роботи — майже повністю благодійні. Type 1 Diabetes Grand Challenge працює на 50 мільйонів фунтів від Steve Morgan Foundation разом із Breakthrough T1D і Diabetes UK; Bukhman Foundation у 2025 році пообіцяв 100 мільйонів фунтів на десять років; того ж вересня Оксфорд прийняв подарунок у 10 мільйонів фунтів на дослідження діабету 1 типу. Це щедро — і це так само крихко, як завжди буває з благодійним фінансуванням. Тобто та сама американська теза, лише у фунтах."
+        "text": "А гроші за британською частиною цієї роботи — майже повністю благодійні. Type 1 Diabetes Grand Challenge працює на 50 мільйонів фунтів від Steve Morgan Foundation разом із Breakthrough T1D і Diabetes UK; Bukhman Foundation у травні 2025 року пообіцяв 100 мільйонів фунтів на десять років, а того ж вересня передав Оксфорду 10 мільйонів фунтів на створення центру досліджень діабету 1 типу. Це щедро — і це так само крихко, як завжди буває з благодійним фінансуванням. Тобто та сама американська теза, лише у фунтах."
       },
       {
         "t": "h",
@@ -599,7 +599,7 @@ export default {
           },
           {
             "claim": "Інсулін — бізнес, що звужується, і виробники з нього відходять.",
-            "detail": "Загальні продажі інсуліну Novo Nordisk у 2025 році склали 53 137 млн крон із 309 064 млн — 17% компанії, мінус 1% за незмінними курсами валют — проти 127 089 млн лише за Ozempic і 82 347 млн у напрямі ожиріння (+31%). Продажі інсуліну в США впали на 36% за незмінними курсами в I кварталі 2026 року і зросли на 15% у II кварталі через терміни нарахування знижок, тож перше півріччя — мінус 17%, а світові продажі інсуліну були незмінними. Eli Lilly припиняє постачання Humalog, Liprolog, Lyumjev, Humulin і Abasaglar на окремі європейські ринки до другого кварталу 2027 року — з комерційних причин, як зафіксувало Європейське агентство з лікарських засобів, а не через безпеку чи якість. Протягом 2023–2024 років усі три великі виробники знизили офіційні ціни у США на 65–78% і обмежили доплату пацієнта 35 доларами на місяць.",
+            "detail": "Загальні продажі інсуліну Novo Nordisk у 2025 році склали 53 137 млн крон із 309 064 млн — 17% компанії, мінус 1% за незмінними курсами валют — проти 127 089 млн лише за Ozempic і 82 347 млн у напрямі ожиріння (+31%). Продажі інсуліну в США впали на 36% за незмінними курсами в I кварталі 2026 року і зросли на 15% у II кварталі через терміни нарахування знижок, тож перше півріччя — мінус 17%; світові продажі інсуліну у II кварталі були незмінними. Eli Lilly припиняє постачання Humalog, Liprolog, Lyumjev, Humulin і Abasaglar на окремі європейські ринки до другого кварталу 2027 року — з комерційних причин, як зафіксувало Європейське агентство з лікарських засобів, а не через безпеку чи якість. Протягом 2023–2024 років усі три великі виробники знизили офіційні ціни у США на 65–78% і обмежили доплату пацієнта 35 доларами на місяць.",
             "cite": "Novo Nordisk · річний звіт за 2025 і звіт за I півріччя 2026",
             "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials.html"
           },
@@ -664,7 +664,7 @@ export default {
           {
             "name": "TrialNet — безкоштовне обстеження на аутоантитіла",
             "url": "https://www.trialnet.org/",
-            "desc": "Безкоштовне обстеження для родичів людей із діабетом 1 типу і вхід до більшості досліджень із профілактики. У Великій Британії ELSA обстежує дітей 3–13 років."
+            "desc": "Безкоштовне обстеження для родичів людей із діабетом 1 типу і вхід до більшості досліджень із профілактики. У Великій Британії ELSA обстежує дітей від 2 до 17 років."
           },
           {
             "name": "Diabetes UK — дослідження",
