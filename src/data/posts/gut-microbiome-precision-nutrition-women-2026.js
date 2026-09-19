@@ -10,7 +10,8 @@ export default {
     "imageAlt": "Jars and bowls of fermented food — pickles, kimchi, sauerkraut and olives — with rye bread and a glass of milk.",
     "title": "Gut bacteria, fibre and hormones: what 2026’s precision-nutrition research means for women over 40",
     "seoTitle": "Gut Bacteria, Fibre & Hormones After 40: 2026 Research",
-    "excerpt": "A new 2026 review argues that fibre-rich, Mediterranean-style eating feeds the gut bacteria linked to weight, inflammation and hormone balance — and that the ‘best’ diet may increasingly be tailored to your own microbiome.",
+    "metaDesc": "A 2026 review links fibre-rich, Mediterranean-style eating to healthier gut bacteria, weight and inflammation. What it means for women over 40 — and its limits.",
+    "excerpt": "A 2026 review finds fibre-rich, Mediterranean-style eating favours the gut bacteria linked to weight and inflammation. What it means after 40, and what it can’t prove.",
     "meta": "25 July 2026 · 3 min read",
     "lead": "The idea that your gut bacteria shape your weight and hormones has moved from fringe to mainstream — and a new research review pulls the threads together, with a practical message for women over 40.",
     "blocks": [
@@ -92,7 +93,8 @@ export default {
     "imageAlt": "Банки й миски з ферментованими продуктами — огірками, кімчі, квашеною капустою та оливками — поруч житній хліб і склянка молока.",
     "title": "Бактерії кишківника, клітковина й гормони: що дослідження точного харчування 2026 року означають для жінок після 40",
     "seoTitle": "Мікробіом, клітковина й гормони після 40: дані 2026",
-    "excerpt": "Новий огляд 2026 року стверджує, що багате на клітковину харчування середземноморського типу живить бактерії кишківника, пов’язані з вагою, запаленням і гормональним балансом — і що «найкраща» дієта дедалі більше залежатиме від вашого власного мікробіому.",
+    "metaDesc": "Огляд 2026 року пов’язує багате на клітковину середземноморське харчування зі здоровішим мікробіомом, вагою й запаленням. Що це означає для жінок після 40.",
+    "excerpt": "Огляд 2026 року: середземноморське харчування з клітковиною сприяє бактеріям кишківника, пов’язаним із вагою та запаленням. Що це означає після 40 і чого огляд не доводить.",
     "meta": "25 липня 2026 · 3 хв читання",
     "lead": "Ідея, що бактерії кишківника впливають на вашу вагу й гормони, перейшла з маргінесу в мейнстрім — і новий науковий огляд зводить усе докупи, з практичним висновком для жінок після 40.",
     "blocks": [

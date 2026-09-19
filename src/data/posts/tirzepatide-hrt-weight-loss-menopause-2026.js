@@ -13,7 +13,7 @@ export default {
     "title": "Hormone therapy plus tirzepatide: 35% more weight loss after menopause — in an observational study, not a randomised trial",
     "seoTitle": "Tirzepatide + HRT: 35% More Weight Loss After Menopause",
     "metaDesc": "A 2026 Lancet cohort study found postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. What it means — and the bone-and-muscle caveat.",
-    "excerpt": "Postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than those on tirzepatide alone in a 2026 Lancet cohort study. Encouraging — but it’s observational, and rapid weight loss at midlife carries a bone-and-muscle cost worth planning for.",
+    "excerpt": "In a 2026 Lancet cohort study, postmenopausal women on tirzepatide plus hormone therapy lost 35% more weight than on tirzepatide alone. Encouraging, but observational.",
     "meta": "27 July 2026 · 4 min read",
     "lead": "If you’re navigating both menopause and weight, this one caught my eye. A 2026 analysis suggests that adding hormone therapy to tirzepatide — the GLP-1/GIP drug behind Mounjaro and Zepbound — may meaningfully boost weight loss after menopause. It’s a genuinely interesting signal, so let me walk through what the study actually showed, and the part that matters just as much as the headline.",
     "blocks": [
@@ -108,7 +108,7 @@ export default {
     "title": "Гормональна терапія плюс тирзепатид: на 35% більше втрати ваги після менопаузи — у спостережному, а не рандомізованому дослідженні",
     "seoTitle": "Тирзепатид + ГЗТ: на 35% більше втрати ваги після менопаузи",
     "metaDesc": "Дослідження The Lancet 2026 року: жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді. Що це означає — і застереження щодо кісток і м’язів.",
-    "excerpt": "Жінки в постменопаузі на тирзепатиді разом із гормональною терапією втратили на 35% більше ваги, ніж на самому тирзепатиді, у когортному дослідженні The Lancet 2026 року. Обнадійливо — але дослідження спостережне, а швидка втрата ваги в середньому віці має ціну для кісток і м’язів, яку варто спланувати.",
+    "excerpt": "У когортному дослідженні The Lancet 2026 року жінки в постменопаузі на тирзепатиді з гормональною терапією схудли на 35% більше, ніж без неї. Але дослідження спостережне.",
     "meta": "27 липня 2026 · 4 хв читання",
     "lead": "Якщо ви одночасно проходите через менопаузу й працюєте над вагою, це вас зацікавить. Аналіз 2026 року припускає, що додавання гормональної терапії до тирзепатиду — препарату GLP-1/GIP, що стоїть за Mounjaro та Zepbound — може відчутно посилити втрату ваги після менопаузи. Сигнал справді цікавий, тож розберімо, що саме показало дослідження, і ту частину, яка важить не менше за заголовок.",
     "blocks": [

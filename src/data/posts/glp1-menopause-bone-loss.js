@@ -13,7 +13,7 @@ export default {
     "title": "Weight loss means bone loss — one bone researcher’s case for caution on GLP-1s in menopause",
     "seoTitle": "GLP-1s and Menopause: The Bone-Loss Question",
     "metaDesc": "A University of Colorado bone researcher warns that GLP-1 weight loss in menopause may accelerate bone loss. What the evidence shows — and what it doesn’t yet.",
-    "excerpt": "Wendy Kohrt has studied bone and exercise for 35 years, and her summary of the evidence is blunt: weight loss equals bone loss. Set that against the fact that women aged 50 to 64 use GLP-1 drugs more than any other group, and she thinks a problem is building. This is an expert reading of existing data, not a new trial — which is exactly why it’s worth reading carefully.",
+    "excerpt": "Wendy Kohrt has studied bone for 35 years. Her summary is blunt: weight loss equals bone loss. An expert reading of existing data on GLP-1s in menopause, not a new trial.",
     "meta": "20 August 2026 · 5 min read",
     "lead": "Almost everything written about GLP-1 drugs and body composition is about muscle. Bone gets far less attention, and according to a University of Colorado researcher who has spent 35 years studying it, that is a gap worth closing before the prescriptions outrun the evidence.",
     "blocks": [
@@ -109,7 +109,7 @@ export default {
     "title": "Втрата ваги означає втрату кісткової маси — аргументи дослідниці кісток на користь обережності з GLP-1 у менопаузі",
     "seoTitle": "GLP-1 і менопауза: питання втрати кісток",
     "metaDesc": "Дослідниця кісткової тканини з Колорадо попереджає: втрата ваги на GLP-1 у менопаузі може прискорити втрату кісткової маси. Що показують дані — і чого поки що ні.",
-    "excerpt": "Венді Корт вивчає кістки та фізичні навантаження 35 років, і її висновок із наявних даних прямолінійний: втрата ваги дорівнює втраті кісткової маси. Додайте до цього те, що жінки 50–64 років приймають препарати GLP-1 частіше за будь-яку іншу групу, — і вона вважає, що проблема назріває. Це експертне прочитання наявних даних, а не нове дослідження, — саме тому його варто читати уважно.",
+    "excerpt": "Венді Корт вивчає кістки 35 років, і її висновок однозначний: втрата ваги — це втрата кісткової маси. Експертне прочитання даних про GLP-1 у менопаузі, а не нове дослідження.",
     "meta": "20 серпня 2026 · 5 хв читання",
     "lead": "Майже все, що пишуть про препарати GLP-1 і склад тіла, стосується м’язів. Кісткам уваги дістається значно менше — і, на думку дослідниці з Університету Колорадо, яка вивчає їх 35 років, цю прогалину варто закрити, поки призначення не випередили дані.",
     "blocks": [

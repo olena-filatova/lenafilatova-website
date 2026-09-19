@@ -16,7 +16,7 @@ export default {
     "title": "Zone 2 or HIIT after 40: how to split your cardio when your hormones are changing",
     "seoTitle": "Zone 2 or HIIT After 40: How to Split Your Cardio",
     "metaDesc": "Zone 2 is everywhere and HIIT gets blamed for cortisol. What the evidence supports for women over 40 — and why strength still comes first.",
-    "excerpt": "You have been told this week that Zone 2 is the answer and that HIIT is ageing you, and both came from people who sounded certain. The honest answer is not one or the other. It is a ratio — and it only makes sense once you accept that neither of them is the most important thing in your week.",
+    "excerpt": "Zone 2 is the answer, HIIT is ageing you: both said with certainty this week. The honest answer is a ratio, and neither matters as much as your strength training.",
     "meta": "20 August 2026 · 9 min read",
     "lead": "Two people whose judgement you respect will tell you opposite things about cardio this month. One says Zone 2 is what your body needs now and that hard intervals are quietly ageing you. The other says Zone 2 is a fashion and going slowly is how you stay exactly where you are. Neither is lying. They are both giving a single answer to a question whose real answer is a proportion — and the proportion only makes sense once you have accepted something neither of them is likely to lead with, which is that cardio is not the most important thing in your week.",
     "blocks": [
@@ -319,7 +319,7 @@ export default {
     "title": "Зона 2 чи HIIT після 40: як розподілити кардіо, коли гормони змінюються",
     "seoTitle": "Зона 2 чи HIIT після 40: як поділити кардіо",
     "metaDesc": "Зона 2 всюди, а HIIT звинувачують у кортизолі. Що насправді підтверджують дані для жінок після 40 — і чому силові все одно на першому місці.",
-    "excerpt": "Цього тижня вам сказали, що Зона 2 — це відповідь, і що HIIT вас старить, і обидва рази це звучало впевнено. Чесна відповідь — не одне й не інше. Це співвідношення — і воно набуває сенсу лише тоді, коли ви приймете, що жодне з них не є найважливішим у вашому тижні.",
+    "excerpt": "Зона 2 — це відповідь, HIIT вас старить: обидва твердження цього тижня звучали впевнено. Чесна відповідь — співвідношення, а силові важать більше за обидва.",
     "meta": "20 серпня 2026 · 9 хв читання",
     "lead": "Двоє людей, чиїй думці ви довіряєте, цього місяця скажуть вам протилежні речі про кардіо. Одна каже, що Зона 2 — це те, що потрібно вашому тілу зараз, а важкі інтервали тихцем вас старять. Друга каже, що Зона 2 — це мода, і повільний темп — це спосіб залишитися рівно там, де ви є. Жодна з них не бреше. Обидві дають одну відповідь на питання, справжня відповідь на яке — пропорція. А пропорція набуває сенсу лише тоді, коли ви прийняли те, з чого жодна з них навряд чи почне: кардіо — не найважливіше у вашому тижні.",
     "blocks": [
