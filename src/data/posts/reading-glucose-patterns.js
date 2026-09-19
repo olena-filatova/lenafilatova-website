@@ -12,7 +12,7 @@ export default {
     "title": "How to read your glucose patterns",
     "seoTitle": "How to Read Your Glucose Patterns: A Simple Guide",
     "metaDesc": "A simple framework for making sense of your daily glucose numbers — spot the patterns behind your highs and lows and know exactly what to change.",
-    "excerpt": "A simple framework for making sense of your daily numbers.",
+    "excerpt": "A simple framework for making sense of your daily glucose numbers: read patterns across several days, not single readings, and know what to change after a spike.",
     "meta": "3 June 2026 · 5 min read",
     "lead": "A simple framework for making sense of your daily numbers — without obsessing over every reading.",
     "body": [
@@ -41,7 +41,7 @@ export default {
     "title": "Як читати свої рівні глюкози",
     "seoTitle": "Як читати свої патерни глюкози: простий гід",
     "metaDesc": "Проста система, щоб розібратися в щоденних показниках глюкози: побачити патерни за піками й падіннями та зрозуміти, що саме змінити в харчуванні.",
-    "excerpt": "Проста система, щоб зрозуміти свої щоденні показники.",
+    "excerpt": "Проста система, щоб розібратися в щоденних показниках глюкози: дивіться на патерни за кілька днів, а не на окремі значення, і знайте, що змінити після піку.",
     "meta": "3 червня 2026 · 5 хв читання",
     "lead": "Проста система, щоб зрозуміти свої щоденні показники — без одержимості кожним значенням.",
     "body": [

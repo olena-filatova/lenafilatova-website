@@ -14,7 +14,8 @@ export default {
     "imageAlt": "A macro shot of oil bubbles clustered together in lilac and pale blue light.",
     "title": "2026 review confirms HRT restores skin collagen, elasticity and hydration",
     "seoTitle": "HRT and Skin: Collagen, Elasticity & Hydration (2026)",
-    "excerpt": "A 2026 review in the journal Life pulls together the evidence on menopause, oestrogen and skin — confirming HRT measurably improves collagen content, elasticity and hydration.",
+    "metaDesc": "A 2026 review in Life finds HRT measurably improves skin collagen, elasticity and hydration after menopause. What it shows, and why skin alone isn’t a reason to start.",
+    "excerpt": "A 2026 review in the journal Life finds HRT measurably improves skin collagen, elasticity and hydration after menopause. Real, but not a reason on its own to start HRT.",
     "meta": "17 July 2026 · 3 min read",
     "lead": "Skin is often left out of the menopause conversation entirely. A 2026 review makes the case that it shouldn’t be — and that hormone therapy has real, measurable effects on it.",
     "blocks": [
@@ -92,7 +93,8 @@ export default {
     "imageAlt": "Макрознімок бульбашок олії, зібраних докупи, у бузковому та блідо-блакитному світлі.",
     "title": "Огляд 2026 року підтверджує: ЗГТ відновлює колаген, еластичність і зволоженість шкіри",
     "seoTitle": "ЗГТ і шкіра: колаген, еластичність, зволоженість (2026)",
-    "excerpt": "Огляд 2026 року в журналі Life зібрав докази про менопаузу, естроген і шкіру — підтверджуючи, що ЗГТ вимірно покращує вміст колагену, еластичність і зволоженість.",
+    "metaDesc": "Огляд 2026 року в Life: ЗГТ вимірно покращує колаген, еластичність і зволоженість шкіри після менопаузи. Що це показує і чому шкіра — не єдина причина починати.",
+    "excerpt": "Огляд 2026 року в журналі Life: ЗГТ вимірно покращує колаген, еластичність і зволоженість шкіри після менопаузи. Ефект реальний, але сам по собі не причина починати ЗГТ.",
     "meta": "17 липня 2026 · 3 хв читання",
     "lead": "Шкіру часто повністю випускають з розмови про менопаузу. Огляд 2026 року доводить, що це неправильно — і що гормональна терапія має реальний, вимірний вплив на неї.",
     "blocks": [

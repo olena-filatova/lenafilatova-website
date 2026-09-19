@@ -14,7 +14,7 @@ export default {
     "title": "What a 2026 review actually says about fermented foods and your gut",
     "seoTitle": "Fermented Foods and Gut Health: a 2026 Review",
     "metaDesc": "A Nature Reviews Microbiology review maps how fermented foods act on the gut — and admits the human mechanisms aren’t pinned down. Plus what the glucose data really shows.",
-    "excerpt": "A June 2026 review in Nature Reviews Microbiology lays out how fermented foods act on the mouth and the gut — and is unusually frank that the human mechanisms are not pinned down. Read alongside the glucose studies, it makes a modest case rather than a miraculous one.",
+    "excerpt": "A June review in Nature Reviews Microbiology maps how fermented foods act on the gut, and admits the human mechanisms aren’t pinned down. A modest case, not a miracle.",
     "meta": "18 August 2026 · 5 min read",
     "lead": "Kefir is in every supermarket, kimchi has moved from speciality shop to fridge door, and something is usually bubbling on somebody’s counter. A review published in June in Nature Reviews Microbiology is the first place I have seen the whole question laid out plainly: what fermented foods plausibly do inside you, and how much of that has actually been demonstrated in people rather than inferred.",
     "blocks": [
@@ -113,7 +113,7 @@ export default {
     "title": "Що насправді кажуть про ферментовану їжу і кишківник в огляді 2026 року",
     "seoTitle": "Ферментована їжа і кишківник: огляд 2026 року",
     "metaDesc": "Огляд у Nature Reviews Microbiology описує, як ферментована їжа впливає на кишківник, — і визнає, що механізми в людини не встановлені. І що насправді показують дані про глюкозу.",
-    "excerpt": "Огляд, опублікований у червні 2026 року в Nature Reviews Microbiology, описує, як ферментована їжа діє на ротову порожнину й кишківник, — і незвично відкрито визнає, що механізми в людини не встановлені. У поєднанні з дослідженнями глюкози це скромні висновки, а не чудо.",
+    "excerpt": "Червневий огляд у Nature Reviews Microbiology описує, як ферментована їжа діє на кишківник, і визнає, що механізми в людини не встановлені. Скромні висновки, а не чудо.",
     "meta": "18 серпня 2026 · 5 хв читання",
     "lead": "Кефір є в кожному супермаркеті, кімчі перебралося зі спеціалізованих крамниць на дверцята холодильника, а на чиємусь столі майже завжди щось бродить. Огляд, опублікований у червні в Nature Reviews Microbiology, — перше місце, де я побачила все питання викладеним прямо: що ферментована їжа, ймовірно, робить усередині вас і яка частина цього справді показана на людях, а не виведена з припущень.",
     "blocks": [

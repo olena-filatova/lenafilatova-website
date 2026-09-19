@@ -13,7 +13,7 @@ export default {
     "title": "Everyone tells women on GLP-1s to lift weights. Three trials are now testing whether it works",
     "seoTitle": "GLP-1 and Muscle: The First Trials in Midlife Women",
     "metaDesc": "Lift weights while you're on a GLP-1 is standard advice, but it has never been tested in midlife women. Three studies registered in 2026 — 125 women in total.",
-    "excerpt": "Protect your muscle with resistance training is the advice attached to almost every article about Ozempic-style drugs, including the ones on this site. It rests on studies of people who were not taking these drugs. Three studies registered in 2026 are the first to test the advice in the women it is aimed at — and between them they have enrolled about 125.",
+    "excerpt": "Women on GLP-1s are told to lift weights to protect muscle, advice never tested on them. Three studies registered in 2026, about 125 women in all, are the first to try.",
     "meta": "9 September 2026 · 4 min read",
     "lead": "There is a sentence that appears at the end of nearly every piece written about GLP-1 drugs and women over 40, this site included: lift weights and eat more protein, so that what you lose is fat rather than muscle. It is sensible advice. It is also, until now, advice that has never been tested in the group being given it. Three studies registered on the US clinical trials register during 2026 are the first to try — and looking at what they actually contain is more useful than the headline that a wave of research is arriving.",
     "blocks": [
@@ -104,7 +104,7 @@ export default {
     "title": "Жінкам на GLP-1 усі радять силові тренування. Три дослідження тільки тепер перевіряють, чи це працює",
     "seoTitle": "GLP-1 і м’язи: перші дослідження в жінок 40+",
     "metaDesc": "«Бережіть м’язи силовими» — стандартна порада, яку ніколи не перевіряли на жінках середнього віку. У 2026 році зареєстрували три дослідження — усього 125 жінок.",
-    "excerpt": "«Бережіть м’язи силовими тренуваннями» — цією фразою закінчується майже кожен текст про препарати типу «Оземпік», зокрема й на цьому сайті. Вона спирається на дослідження людей, які цих препаратів не приймали. Три дослідження, зареєстровані у 2026 році, вперше перевіряють цю пораду саме на тих жінках, кому її дають, — і разом вони набрали близько 125 учасниць.",
+    "excerpt": "Жінкам на GLP-1 радять силові, щоб зберегти м’язи, але на них цю пораду не перевіряли. Три дослідження 2026 року, разом близько 125 учасниць, — перша така спроба.",
     "meta": "9 вересня 2026 · 4 хв читання",
     "lead": "Є речення, яке з’являється наприкінці майже кожного тексту про препарати GLP-1 і жінок після 40, включно з текстами на цьому сайті: піднімайте вагу та їжте більше білка, щоб втрачати жир, а не м’язи. Порада розумна. Але дотепер її жодного разу не перевіряли саме на тій групі, якій її дають. Три дослідження, зареєстровані на американському реєстрі клінічних досліджень протягом 2026 року, — перша така спроба. І розібратися, що в них насправді є, корисніше, ніж повірити заголовку про «хвилю досліджень».",
     "blocks": [
