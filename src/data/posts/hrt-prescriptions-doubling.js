@@ -98,14 +98,14 @@ export default {
             "desc": "Oestrogen affects far more than hot flushes — the full picture on HRT and skin changes."
           },
           {
-            "name": "Do collagen products actually improve your skin?",
-            "url": "/blog/collagen-and-skin/",
-            "desc": "Declining oestrogen accelerates collagen loss. What the evidence says about supplementing."
+            "name": "A record two million women are on NHS HRT — and where you live still decides whether you’re one of them",
+            "url": "/blog/nhs-hrt-prescribing-access-gap/",
+            "desc": "The UK side of the same rise: NHS prescribing has doubled in five years, but not evenly."
           },
           {
-            "name": "5 myths about perimenopause and weight",
-            "url": "/blog/perimenopause-weight-myths/",
-            "desc": "What’s actually true about weight changes during perimenopause."
+            "name": "“Start HRT earlier and cut your risk by 60%” — what that headline is actually built on",
+            "url": "/blog/hrt-timing-perimenopause-start/",
+            "desc": "Does starting in perimenopause make a difference? What the evidence behind the headline can and can’t show."
           }
         ]
       }
@@ -222,14 +222,14 @@ export default {
             "desc": "Естроген впливає значно ширше, ніж на припливи, — повна картина щодо ЗГТ і шкіри."
           },
           {
-            "name": "Чи справді колагенові засоби покращують шкіру?",
-            "url": "/ua/blog/collagen-and-skin/",
-            "desc": "Естроген підтримує вироблення колагену. Що кажуть дані про добавки та засоби."
+            "name": "Рекордні два мільйони жінок отримують ЗГТ від NHS — але місце проживання досі вирішує, чи будете Ви серед них",
+            "url": "/ua/blog/nhs-hrt-prescribing-access-gap/",
+            "desc": "Британський бік того самого зростання: призначень у NHS за п’ять років удвічі більше, але не всюди однаково."
           },
           {
-            "name": "5 міфів про перименопаузу і вагу",
-            "url": "/ua/blog/perimenopause-weight-myths/",
-            "desc": "Чому вага на терезах — не вся історія, і що справді допомагає."
+            "name": "«Почніть ЗГТ раніше — і ризик впаде на 60%»: на чому насправді тримається цей заголовок",
+            "url": "/ua/blog/hrt-timing-perimenopause-start/",
+            "desc": "Чи важливо почати ще в перименопаузі? Що можуть і чого не можуть показати дані за цим заголовком."
           }
         ]
       }
