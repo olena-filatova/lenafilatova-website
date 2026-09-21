@@ -16,7 +16,8 @@ export default {
     "imageAlt": "A hand holding a white pen injector with a purple dial against a plain grey background.",
     "title": "Most of the weight lost on a GLP-1 is fat, not muscle — in trials of the general adult population",
     "seoTitle": "GLP-1 Weight Loss Is Mostly Fat, Not Muscle (IJO)",
-    "excerpt": "A 2026 meta-analysis pooling 24 GLP-1 trials finds the large majority of weight lost on Ozempic-style drugs is fat rather than muscle. It measured general adult trial populations — which is why it reads more reassuringly than the reviews that looked specifically at women over 65.",
+    "metaDesc": "A 2026 meta-analysis of 24 trials finds most weight lost on GLP-1 drugs like Ozempic is fat, not muscle — in general adult populations, not women over 65.",
+    "excerpt": "A 2026 meta-analysis of 24 GLP-1 trials finds most of the weight lost is fat, not muscle. It measured general adult populations, not women over 65, and that matters.",
     "meta": "17 July 2026 · 3 min read",
     "lead": "The loudest worry about Ozempic-style weight-loss drugs has been that people lose muscle along with fat. A 2026 meta-analysis suggests that fear is largely overstated — most of what comes off is fat. Who it was measured in matters, though, and that is where this finding meets the more cautious ones elsewhere on this site.",
     "blocks": [
@@ -94,7 +95,8 @@ export default {
     "imageAlt": "Рука тримає білу шприц-ручку з фіолетовим регулятором на однотонному сірому тлі.",
     "title": "Більшість ваги, втраченої на GLP-1, — це жир, а не м’язи — у дослідженнях загальної дорослої популяції",
     "seoTitle": "GLP-1: втрата ваги — переважно жир, а не м’язи (IJO)",
-    "excerpt": "Метааналіз 2026 року, що об’єднав 24 дослідження, показує: більшість ваги, втраченої на препаратах на кшталт Ozempic, — це жир, а не м’язи. Він вимірював загальні дорослі популяції досліджень — і саме тому звучить заспокійливіше, ніж огляди, які дивилися саме на жінок після 65.",
+    "metaDesc": "Метааналіз 24 досліджень 2026 року: більшість ваги, втраченої на GLP-1 на кшталт Ozempic, — жир, а не м’язи. Але в загальній дорослій популяції, не в жінок після 65.",
+    "excerpt": "Метааналіз 24 досліджень GLP-1 2026 року: більшість утраченої ваги — жир, а не м’язи. Але вимірювали загальну дорослу популяцію, а не жінок після 65, — це важливо.",
     "meta": "17 липня 2026 · 3 хв читання",
     "lead": "Найгучніше побоювання щодо препаратів для схуднення на кшталт Ozempic — що разом із жиром люди втрачають м’язи. Метааналіз 2026 року свідчить, що цей страх здебільшого перебільшений: більшість втраченого — це жир. Проте важливо, у кого це вимірювали, — і саме тут цей результат зустрічається з обережнішими висновками інших матеріалів на сайті.",
     "blocks": [
