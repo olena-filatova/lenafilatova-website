@@ -149,7 +149,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Saccharin is the oldest of the group. Its 1970s link to bladder cancer in rats was [later found not to apply to humans, and it was removed from cancer-warning lists](https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/artificial-sweeteners-fact-sheet) — so on the classic cancer question it has largely been cleared. The newer question is again the microbiome, where saccharin was one of the sweeteners that shifted gut bacteria and glucose tolerance in the 2022 trial above. It’s intensely sweet with a metallic edge, which is why it’s usually blended rather than used alone."
+        "text": "Saccharin is the oldest of the group. Its 1970s link to bladder cancer in rats was [later found not to apply to humans, and it was removed from cancer-warning lists](https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/artificial-sweeteners-fact-sheet) — so on the classic cancer question it has largely been cleared. The newer question is again the microbiome, where saccharin was one of the sweeteners that shifted gut bacteria and glucose tolerance in the 2022 trial above. It’s intensely sweet with a metallic edge, which is why it’s usually blended rather than used alone. If the microbiome half of this is what interests you, [fermented foods and the gut microbiome](/blog/fermented-foods-gut-microbiome-review/) covers what moves gut bacteria in the helpful direction rather than away from it."
       },
       {
         "t": "p",
@@ -533,7 +533,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Сахарин — найстаріший у групі. Його зв’язок із раком сечового міхура у щурів у 1970-х [пізніше визнали таким, що не стосується людей, і його прибрали зі списків із попередженнями про рак](https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/artificial-sweeteners-fact-sheet) — тож щодо класичного питання про рак його здебільшого виправдали. Новіше питання — знову мікробіом, де сахарин був одним із підсолоджувачів, що зсували кишкові бактерії та толерантність до глюкози в дослідженні 2022 року вище. Він дуже солодкий із металевим відтінком, тому його зазвичай використовують у суміші, а не окремо."
+        "text": "Сахарин — найстаріший у групі. Його зв’язок із раком сечового міхура у щурів у 1970-х [пізніше визнали таким, що не стосується людей, і його прибрали зі списків із попередженнями про рак](https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/artificial-sweeteners-fact-sheet) — тож щодо класичного питання про рак його здебільшого виправдали. Новіше питання — знову мікробіом, де сахарин був одним із підсолоджувачів, що зсували кишкові бактерії та толерантність до глюкози в дослідженні 2022 року вище. Він дуже солодкий із металевим відтінком, тому його зазвичай використовують у суміші, а не окремо. Якщо вас цікавить саме бік з мікробіомом, то [ферментовані продукти та мікробіом кишківника](/ua/blog/fermented-foods-gut-microbiome-review/) показують, що зсуває кишкові бактерії в корисний бік, а не навпаки."
       },
       {
         "t": "p",
