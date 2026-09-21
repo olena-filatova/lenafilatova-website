@@ -58,7 +58,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The good news is that protein intake is one of the most powerful levers you have to slow this process — and it’s something you can act on today."
+        "text": "The good news is that protein intake is one of the most powerful levers you have to slow this process — and it’s something you can act on today. Protein is the biggest lever, but it is not the only one. [Creatine for women over 40](/blog/creatine-women-over-40/) has the strongest supplement evidence sitting next to it, and if you are weighing up lifting itself, [does weight training raise your blood sugar](/blog/does-weight-training-raise-blood-sugar/) answers the question most women with diabetes ask before they start."
       },
       {
         "t": "h",
@@ -395,7 +395,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Хороша новина в тому, що споживання білка — один із найпотужніших важелів, щоб уповільнити цей процес. І діяти можна вже сьогодні."
+        "text": "Хороша новина в тому, що споживання білка — один із найпотужніших важелів, щоб уповільнити цей процес. І діяти можна вже сьогодні. Білок — найбільший важіль, але не єдиний. [Креатин для жінок після 40](/ua/blog/creatine-women-over-40/) має найсильнішу доказову базу серед добавок поруч із ним, а якщо ви тільки роздумуєте про силові, то [чи підвищують силові тренування цукор у крові](/ua/blog/does-weight-training-raise-blood-sugar/) відповідає на питання, яке ставить більшість жінок із діабетом, перш ніж почати."
       },
       {
         "t": "h",

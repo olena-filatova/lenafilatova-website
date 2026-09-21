@@ -169,7 +169,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Two of my free tools make this easier to aim. The [exercise & blood sugar calculator](/resources/exercise-calculator/) estimates how walking and other movement is likely to shift your numbers, so you can see what a ten-minute walk is worth before you commit to the habit. The [metabolic food calculator](/resources/food-calculator/) does the same for a given food — useful for working out which of your regular meals are the steep ones worth walking off first — and the [carb & GI table](/carb-gi-table/) is a quick reference for the usual suspects."
+        "text": "Two of my free tools make this easier to aim. The [exercise & blood sugar calculator](/resources/exercise-calculator/) estimates how walking and other movement is likely to shift your numbers, so you can see what a ten-minute walk is worth before you commit to the habit. The [metabolic food calculator](/resources/food-calculator/) does the same for a given food — useful for working out which of your regular meals are the steep ones worth walking off first — and the [carb & GI table](/carb-gi-table/) is a quick reference for the usual suspects. And because a walk works on the glucose already in your blood, it pairs well with the thing that decides where that glucose can go: [protein for women over 40](/blog/protein-for-women-over-40/) explains why muscle, and the protein that maintains it, matter more after 40 than the official guideline suggests."
       },
       {
         "t": "h",
@@ -392,7 +392,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Два моїх безкоштовних інструменти допоможуть краще прицілитися. [Калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) оцінює, як ходьба та інший рух імовірно змістять ваші показники, — щоб ви побачили, чого варті десять хвилин, ще до того, як братися за звичку. [Калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) робить те саме для конкретного продукту — зручно, щоб зрозуміти, після яких саме ваших звичних страв прогулянка потрібна найбільше, — а [таблиця вуглеводів і ГІ](/carb-gi-table-ua/) слугує швидкою довідкою щодо звичних підозрюваних."
+        "text": "Два моїх безкоштовних інструменти допоможуть краще прицілитися. [Калькулятор впливу фізичних навантажень на цукор](/ua/resources/exercise-calculator/) оцінює, як ходьба та інший рух імовірно змістять ваші показники, — щоб ви побачили, чого варті десять хвилин, ще до того, як братися за звичку. [Калькулятор впливу їжі на метаболізм](/ua/resources/food-calculator/) робить те саме для конкретного продукту — зручно, щоб зрозуміти, після яких саме ваших звичних страв прогулянка потрібна найбільше, — а [таблиця вуглеводів і ГІ](/carb-gi-table-ua/) слугує швидкою довідкою щодо звичних підозрюваних. А оскільки прогулянка працює з глюкозою, яка вже в крові, вона добре поєднується з тим, що визначає, куди цій глюкозі піти: [білок для жінок після 40](/ua/blog/protein-for-women-over-40/) пояснює, чому м’язи й білок, який їх тримає, важливіші після 40, ніж каже офіційна норма."
       },
       {
         "t": "h",

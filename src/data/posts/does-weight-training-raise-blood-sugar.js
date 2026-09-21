@@ -152,7 +152,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is a longer game too. Muscle is where most of the glucose in your body ends up, insulin-mediated, even when you are sitting still. Building and keeping more of it changes your baseline, not just your Tuesday."
+        "text": "There is a longer game too. Muscle is where most of the glucose in your body ends up, insulin-mediated, even when you are sitting still. Building and keeping more of it changes your baseline, not just your Tuesday. Two things make that easier to do after 40: eating enough [protein for women over 40](/blog/protein-for-women-over-40/), and [creatine for women over 40](/blog/creatine-women-over-40/), which is the one supplement with real trial evidence behind it for holding on to muscle and strength."
       },
       {
         "t": "h",
@@ -416,7 +416,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є ще й довга гра. М’язи — це те, куди потрапляє більшість глюкози у вашому тілі через дію інсуліну, навіть коли ви просто сидите. Побудувати й утримати їх більше — це змінити свій базовий рівень, а не лише свій вівторок."
+        "text": "Є ще й довга гра. М’язи — це те, куди потрапляє більшість глюкози у вашому тілі через дію інсуліну, навіть коли ви просто сидите. Побудувати й утримати їх більше — це змінити свій базовий рівень, а не лише свій вівторок. Дві речі роблять це простішим після 40: достатньо [білка для жінок після 40](/ua/blog/protein-for-women-over-40/) і [креатин для жінок після 40](/ua/blog/creatine-women-over-40/) — єдина добавка з реальною доказовою базою щодо збереження м’язів і сили."
       },
       {
         "t": "h",
