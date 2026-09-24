@@ -260,7 +260,7 @@ export default {
           {
             "claim": "Fermented foods raised microbiome diversity and lowered inflammation; the high-fibre arm missed its primary outcome.",
             "detail": "A 17-week randomised prospective study with 18 participants per arm compared a high-fibre diet with a high-fermented-food diet in healthy adults, combined with extensive microbiome and immune profiling. The high-fermented-food diet steadily increased microbiota diversity and decreased inflammatory markers. The high-fibre diet increased microbiome-encoded glycan-degrading enzymes but left community diversity stable and did not change the cytokine response score, the trial's primary outcome; instead high-fibre consumers fell into three distinct immunological trajectories corresponding to their baseline microbiota diversity.",
-            "cite": "Cell · Randomised controlled trial, 12 August 2021",
+            "cite": "Cell · Randomised controlled trial, 12 July 2021",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9020749/"
           },
           {
@@ -581,7 +581,7 @@ export default {
           {
             "claim": "Ферментовані продукти підвищили різноманіття мікробіому й знизили запалення; група клітковини первинної кінцевої точки не досягла.",
             "detail": "17-тижневе рандомізоване проспективне дослідження з 18 учасниками в групі порівнювало раціон із високим вмістом клітковини з раціоном із великою кількістю ферментованих продуктів у здорових дорослих, поєднавши це з широким профілюванням мікробіому та імунітету. Раціон із ферментованими продуктами стабільно підвищував різноманіття мікробіоти й знижував маркери запалення. Раціон із високим вмістом клітковини збільшив кількість закодованих мікробіомом ферментів розщеплення гліканів, але залишив різноманіття спільноти стабільним і не змінив показник цитокінової відповіді — первинну кінцеву точку дослідження; натомість учасники цієї групи розділилися на три різні імунологічні траєкторії відповідно до вихідного різноманіття мікробіоти.",
-            "cite": "Cell · Рандомізоване контрольоване дослідження, 12 серпня 2021",
+            "cite": "Cell · Рандомізоване контрольоване дослідження, 12 липня 2021",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9020749/"
           },
           {

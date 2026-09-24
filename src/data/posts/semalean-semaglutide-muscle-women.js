@@ -29,7 +29,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The paper's abstract says its subgroup analyses \"revealed greater weight and fat mass loss in women\". Read as good news, which is how it has largely been repeated. The results section of the same paper puts it differently: the decrease in body weight, fat mass, and lean mass was significantly higher in women than in men. Women lost more of everything, including the tissue you are trying to hold on to. That third item is missing from the summary, and it is the item that matters most to anyone reading this site. It also qualifies something I have written about separately — women do [lose more weight than men on these drugs](/blog/glp1-weight-loss-sex-difference-women-men/), which a Johns Hopkins review of 64 trials put at 10.9% against 6.8%. SEMALEAN suggests the muscle side of that ledger is larger for women too."
+        "text": "The paper's abstract says its subgroup analyses \"revealed greater weight and fat mass loss in women\". Read as good news, which is how it has largely been repeated. The results section of the same paper puts it differently: the decrease in body weight, fat mass, and lean mass was significantly higher in women than in men. Women lost more of everything, including the tissue you are trying to hold on to. That third item is missing from the summary, and it is the item that matters most to anyone reading this site. It also qualifies something I have written about separately — women do [lose more weight than men on these drugs](/blog/glp1-weight-loss-sex-difference-women-men/), which a Johns Hopkins review of 64 trials put at 10.9% against 6.8%, from the six trials in it that reported results by sex. SEMALEAN suggests the muscle side of that ledger is larger for women too."
       },
       {
         "t": "p",
@@ -37,7 +37,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One more subgroup is worth knowing about if you have taken one of these drugs before. Participants with previous GLP-1 treatment lost less weight and less fat this time round — and their visceral fat, the kind around the organs, significantly increased. People with type 2 diabetes also lost less weight, fat and visceral fat than everyone else. Neither of those is a reason to do anything differently on your own; both are a reason not to assume a second course will behave like the first."
+        "text": "One more subgroup is worth knowing about if you have taken one of these drugs before. Participants with previous GLP-1 treatment lost less weight and less fat this time round — and their visceral fat, the kind around the organs, significantly increased. That group was only six people, which the authors say limits how far it can be trusted. People with type 2 diabetes also lost less weight, fat and visceral fat than everyone else. Neither of those is a reason to do anything differently on your own; both are a reason not to assume a second course will behave like the first."
       },
       {
         "t": "p",
@@ -70,7 +70,7 @@ export default {
           },
           {
             "claim": "People who had taken a GLP-1 drug before lost less fat this time — and their visceral fat significantly increased.",
-            "detail": "Subgroup analyses found that previous treatment with GLP-1 analogues was significantly associated with lower body weight and fat mass loss, and with a significant increase in visceral adipose tissue. Patients with type 2 diabetes showed significantly lower body weight, fat mass and visceral fat loss. Patients with a history of bariatric surgery showed the most pronounced reductions in body composition parameters. These are exploratory subgroup findings from an observational study without a control group, not treatment recommendations. One co-author is currently employed by Novo Nordisk, which manufactures semaglutide; the paper discloses that her involvement in the study design predated that employment.",
+            "detail": "Subgroup analyses found that previous treatment with GLP-1 analogues was significantly associated with lower body weight and fat mass loss, and with a significant increase in visceral adipose tissue; the authors note this subgroup was very small (n = 6), which limits the reliability of the finding. Patients with type 2 diabetes showed significantly lower body weight, fat mass and visceral fat loss. Patients with a history of bariatric surgery showed the most pronounced reductions in body composition parameters. These are exploratory subgroup findings from an observational study without a control group, not treatment recommendations. One co-author is currently employed by Novo Nordisk, which manufactures semaglutide; the paper discloses that her involvement in the study design predated that employment.",
             "cite": "Diabetes, Obesity and Metabolism · Subgroup analyses and conflict-of-interest statement (PMID 41068996)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41068996/"
           }
@@ -101,7 +101,7 @@ export default {
     "faq": [
         {
           "q": "Does this mean semaglutide is worse for women's muscle than men's?",
-          "a": "It means that in this study the women lost more lean mass than the men did — alongside losing more weight and more fat. Whether that is a problem depends on proportion rather than kilograms: if you lose more of everything, losing more muscle in absolute terms is partly just arithmetic. What SEMALEAN cannot tell you is whether women lost a greater share of their weight as muscle, because it reports the comparison as a difference in decrease rather than as a ratio, in an exploratory subgroup analysis the authors themselves say was not adjusted for multiple comparisons. So the honest reading is narrower than a headline: this is a signal worth knowing about and asking your own clinician about, not a settled finding, and certainly not a reason to stop a drug that is working for you."
+          "a": "It means that in this study the women lost a larger percentage of their lean mass than the men did — alongside losing a larger percentage of their weight and fat. Whether that is a problem depends on proportion: if you lose more of everything, losing more muscle is partly just arithmetic. What SEMALEAN cannot tell you is whether women lost a greater share of their weight loss as muscle, because it compares each tissue's percentage loss separately rather than reporting muscle as a fraction of the weight lost, in an exploratory subgroup analysis the authors themselves say was not adjusted for multiple comparisons. So the honest reading is narrower than a headline: this is a signal worth knowing about and asking your own clinician about, not a settled finding, and certainly not a reason to stop a drug that is working for you."
         },
         {
           "q": "If grip strength went up, does the muscle loss matter?",
@@ -133,7 +133,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У резюме статті сказано, що аналіз підгруп «показав більшу втрату ваги та жирової маси в жінок». Це читається як добра новина — і саме так це здебільшого й переказують. Але в розділі результатів тієї самої статті сказано інакше: зниження маси тіла, жирової маси і м’язової маси було суттєво більшим у жінок, ніж у чоловіків. Жінки втратили більше всього, зокрема й тієї тканини, яку ви намагаєтеся зберегти. Цього третього пункту в резюме немає — а саме він найбільше стосується тих, хто читає цей сайт. Він також уточнює те, про що я писала окремо: жінки справді [втрачають більше ваги на цих препаратах, ніж чоловіки](/ua/blog/glp1-weight-loss-sex-difference-women-men/) — огляд 64 досліджень від Джонса Гопкінса дає 10,9% проти 6,8%. SEMALEAN додає, що м’язова частина цього рахунку в жінок теж більша."
+        "text": "У резюме статті сказано, що аналіз підгруп «показав більшу втрату ваги та жирової маси в жінок». Це читається як добра новина — і саме так це здебільшого й переказують. Але в розділі результатів тієї самої статті сказано інакше: зниження маси тіла, жирової маси і м’язової маси було суттєво більшим у жінок, ніж у чоловіків. Жінки втратили більше всього, зокрема й тієї тканини, яку ви намагаєтеся зберегти. Цього третього пункту в резюме немає — а саме він найбільше стосується тих, хто читає цей сайт. Він також уточнює те, про що я писала окремо: жінки справді [втрачають більше ваги на цих препаратах, ніж чоловіки](/ua/blog/glp1-weight-loss-sex-difference-women-men/) — огляд 64 досліджень від Джонса Гопкінса дає 10,9% проти 6,8% — за шістьма з них, де результати подано окремо за статтю. SEMALEAN додає, що м’язова частина цього рахунку в жінок теж більша."
       },
       {
         "t": "p",
@@ -141,7 +141,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ще одна підгрупа варта уваги, якщо ви вже приймали такі препарати раніше. Учасники з попереднім лікуванням GLP-1 цього разу втратили менше ваги й менше жиру — а їхній вісцеральний жир, той, що навколо органів, суттєво зріс. Люди з діабетом 2-го типу теж втратили менше ваги, жиру та вісцерального жиру, ніж решта. Жодна з цих знахідок не є підставою щось змінювати самостійно; обидві є підставою не вважати, що другий курс поводитиметься так само, як перший."
+        "text": "Ще одна підгрупа варта уваги, якщо ви вже приймали такі препарати раніше. Учасники з попереднім лікуванням GLP-1 цього разу втратили менше ваги й менше жиру — а їхній вісцеральний жир, той, що навколо органів, суттєво зріс. У цій групі було лише шестеро людей, і автори зазначають, що це обмежує надійність висновку. Люди з діабетом 2-го типу теж втратили менше ваги, жиру та вісцерального жиру, ніж решта. Жодна з цих знахідок не є підставою щось змінювати самостійно; обидві є підставою не вважати, що другий курс поводитиметься так само, як перший."
       },
       {
         "t": "p",
@@ -174,7 +174,7 @@ export default {
           },
           {
             "claim": "У тих, хто раніше приймав препарати GLP-1, цього разу втрата жиру була меншою — а вісцеральний жир суттєво зріс.",
-            "detail": "Аналіз підгруп показав, що попереднє лікування аналогами GLP-1 було суттєво пов’язане з меншою втратою маси тіла та жирової маси, а також із суттєвим зростанням вісцеральної жирової тканини. У пацієнтів із діабетом 2-го типу втрата маси тіла, жирової маси та вісцерального жиру була суттєво меншою. У пацієнтів із баріатричною операцією в анамнезі зміни складу тіла були найвираженішими. Це пошукові результати аналізу підгруп у спостережному дослідженні без контрольної групи, а не рекомендації щодо лікування. Одна зі співавторок зараз працює в компанії Novo Nordisk, виробнику семаглутиду; стаття зазначає, що її участь у плануванні дослідження передувала цій роботі.",
+            "detail": "Аналіз підгруп показав, що попереднє лікування аналогами GLP-1 було суттєво пов’язане з меншою втратою маси тіла та жирової маси, а також із суттєвим зростанням вісцеральної жирової тканини; автори зазначають, що ця підгрупа була дуже малою (n = 6), що обмежує надійність висновку. У пацієнтів із діабетом 2-го типу втрата маси тіла, жирової маси та вісцерального жиру була суттєво меншою. У пацієнтів із баріатричною операцією в анамнезі зміни складу тіла були найвираженішими. Це пошукові результати аналізу підгруп у спостережному дослідженні без контрольної групи, а не рекомендації щодо лікування. Одна зі співавторок зараз працює в компанії Novo Nordisk, виробнику семаглутиду; стаття зазначає, що її участь у плануванні дослідження передувала цій роботі.",
             "cite": "Diabetes, Obesity and Metabolism · Аналіз підгруп і заява про конфлікт інтересів (PMID 41068996)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41068996/"
           }
@@ -205,7 +205,7 @@ export default {
     "faq": [
         {
           "q": "Чи означає це, що семаглутид гірший для м’язів жінок, ніж чоловіків?",
-          "a": "Це означає, що в цьому дослідженні жінки втратили більше м’язової маси, ніж чоловіки, — водночас втративши більше ваги й більше жиру. Чи є це проблемою, залежить від пропорції, а не від кілограмів: якщо ви втрачаєте більше всього, то більша втрата м’язів в абсолютних цифрах частково є просто арифметикою. Чого SEMALEAN сказати не може — чи втратили жінки більшу частку ваги саме за рахунок м’язів, бо порівняння подано як різницю в зниженні, а не як співвідношення, до того ж у пошуковому аналізі підгруп, який, за словами самих авторів, не коригували на множинні порівняння. Тож чесне прочитання вужче за заголовок: це сигнал, про який варто знати й запитати свого лікаря, а не остаточний висновок — і точно не підстава кидати препарат, який вам допомагає."
+          "a": "Це означає, що в цьому дослідженні жінки втратили більший відсоток м’язової маси, ніж чоловіки, — водночас втративши більший відсоток ваги й жиру. Чи є це проблемою, залежить від пропорції: якщо ви втрачаєте більше всього, то більша втрата м’язів частково є просто арифметикою. Чого SEMALEAN сказати не може — чи припала в жінок більша частка втраченої ваги саме на м’язи, бо відсоток втрати кожної тканини порівнюють окремо, а не як частку м’язів у втраченій вазі, до того ж у пошуковому аналізі підгруп, який, за словами самих авторів, не коригували на множинні порівняння. Тож чесне прочитання вужче за заголовок: це сигнал, про який варто знати й запитати свого лікаря, а не остаточний висновок — і точно не підстава кидати препарат, який вам допомагає."
         },
         {
           "q": "Якщо сила кисті зросла, чи має значення втрата м’язів?",
