@@ -25,7 +25,7 @@ export default {
     "title": "Magnesium for perimenopause sleep and insulin resistance: what the evidence supports",
     "seoTitle": "Magnesium for Perimenopause Sleep & Insulin Resistance",
     "metaDesc": "What the evidence actually shows about magnesium for perimenopause sleep and blood sugar — and where the claims outrun the research.",
-    "excerpt": "Magnesium is the most recommended supplement of the perimenopause internet. The biology behind the blood-sugar claim is real. The sleep evidence is thinner than almost anyone selling it admits — and none of it was designed around perimenopausal women.",
+    "excerpt": "Magnesium is perimenopause’s favourite supplement. The blood-sugar biology is real; the sleep evidence is thin — and none of it was designed around perimenopausal women.",
     "meta": "24 August 2026 · 8 min read",
     "lead": "Magnesium has become the default answer to almost everything about being a woman in her forties: the broken sleep, the anxiety, the blood sugar that has started behaving differently. Some of that is well-founded. Some of it is a supplement industry filling a gap that medicine left open. This is where the line falls.",
     "blocks": [
@@ -233,7 +233,7 @@ export default {
     "title": "Магній для сну та інсулінорезистентності в перименопаузі: що підтверджують дослідження",
     "seoTitle": "Магній у перименопаузі: сон та інсулінорезистентність",
     "metaDesc": "Що насправді показують дослідження про магній для сну та цукру в крові в перименопаузі — і де обіцянки випереджають науку.",
-    "excerpt": "Магній — найчастіше рекомендована добавка перименопаузального інтернету. Біологія за твердженням про цукор у крові справжня. Докази щодо сну значно слабші, ніж визнає майже будь-хто, хто його продає, — і жодне з тих досліджень не було спрямоване саме на жінок у перименопаузі.",
+    "excerpt": "Магній — улюблена добавка перименопаузи. Біологія щодо цукру справжня, докази щодо сну слабкі — і жодне дослідження не було спрямоване на жінок у перименопаузі.",
     "meta": "24 серпня 2026 · 8 хв читання",
     "lead": "Магній став універсальною відповіддю майже на все, що стосується жінки за сорок: перерваний сон, тривожність, цукор у крові, який почав поводитися інакше. Частина цього має підстави. Частина — це індустрія добавок, що заповнює прогалину, залишену медициною. Ось де проходить межа.",
     "blocks": [

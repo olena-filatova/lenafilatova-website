@@ -19,7 +19,7 @@ export default {
     "imageAlt": "A woman in her fifties lying awake in bed at night, one forearm resting across her forehead.",
     "title": "Perimenopause anxiety is not a footnote — three August studies on the mental-health half of the transition",
     "seoTitle": "Perimenopause Anxiety: 3 New Studies, August 2026",
-    "metaDesc": "The August 2026 Menopause journal runs three papers on perimenopausal anxiety and depression: 20 women's lived experience, 709 women and mind-body exercise, and a CBT pilot.",
+    "metaDesc": "Menopause journal, August 2026: three papers on perimenopausal anxiety and depression — 20 women's experiences, mind-body exercise in 709 women, a CBT pilot.",
     "excerpt": "The August issue of Menopause devotes three papers to anxiety and low mood in the transition — the symptoms most often dismissed. All three are small or preliminary, and all three point the same way.",
     "meta": "21 August 2026 · 6 min read",
     "lead": "Hot flushes get the clinical attention. Anxiety, low mood and broken sleep get the shrug. The August 2026 issue of Menopause, the journal of The Menopause Society, spends an unusual amount of its space on the second group — and the picture that comes out of it is more useful than any single headline number.",

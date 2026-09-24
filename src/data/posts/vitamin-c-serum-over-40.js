@@ -19,7 +19,7 @@ export default {
     "title": "Vitamin C serums over 40: what the evidence actually supports",
     "seoTitle": "Vitamin C Serums Over 40: What the Evidence Supports",
     "metaDesc": "What the trials on vitamin C serum concentration actually found for ageing skin — and the number the marketing borrowed from a pig-skin study.",
-    "excerpt": "Vitamin C is one of the most recommended things in skincare after sunscreen and retinoids, and the serum on the shelf is usually 15% or 20%. The human trials mostly used 5%. Here is where that gap came from, and what it means for what you buy.",
+    "excerpt": "Vitamin C serums on the shelf are usually 15% or 20%, but the human trials mostly used 5%. Where that gap came from, and what it means for what you buy.",
     "meta": "26 August 2026 · 8 min read",
     "lead": "There is a number on the front of almost every vitamin C serum — 10%, 15%, 20% — and the assumption is that a higher one is a stronger product. The number is real. Where it came from is not what you would guess, and once you know, the shelf looks quite different.",
     "blocks": [
@@ -273,7 +273,7 @@ export default {
     "title": "Сироватки з вітаміном С після 40: що насправді підтверджують дослідження",
     "seoTitle": "Вітамін С після 40: що кажуть дослідження",
     "metaDesc": "Що насправді показали дослідження концентрації та формули сироваток з вітаміном С — і звідки маркетинг узяв цифру 20%.",
-    "excerpt": "Вітамін С — одна з найчастіших рекомендацій у догляді після сонцезахисту та ретиноїдів, і на полиці зазвичай стоїть 15% або 20%. У дослідженнях на людях переважно було 5%. Ось звідки взявся цей розрив.",
+    "excerpt": "Сироватки з вітаміном С на полиці зазвичай 15% або 20%, а в дослідженнях на людях переважно було 5%. Звідки цей розрив і що це означає для покупки.",
     "meta": "26 серпня 2026 · 8 хв читання",
     "lead": "Майже на кожній сироватці з вітаміном С спереду стоїть цифра — 10%, 15%, 20% — і мається на увазі, що більша означає сильнішу. Цифра справжня. А от звідки вона взялася — зовсім не те, що ви подумали. І коли це знаєш, полиця виглядає інакше.",
     "blocks": [

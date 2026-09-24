@@ -11,7 +11,7 @@ export default {
     "imageAlt": "A group of plain, unbranded skincare bottles and jars.",
     "title": "Beauty has rebranded midlife as “longevity” — what that language is and isn’t backed by",
     "seoTitle": "Menopause Skincare’s “Longevity” Rebrand: What’s Real",
-    "metaDesc": "L’Oréal, Lancôme and a wave of menopause skincare have swapped “anti-ageing” for “longevity”. The skin changes are real; the treatment evidence is thinner than the packaging.",
+    "metaDesc": "L’Oréal, Lancôme and menopause skincare have swapped “anti-ageing” for “longevity”. The skin changes are real; the evidence is thinner than the packaging.",
     "excerpt": "“Anti-ageing” is out and “longevity” is in. The skin changes behind the rebrand are real — but a biomarker count is a research framework, not a clinical result.",
     "meta": "18 August 2026 · 6 min read",
     "lead": "The beauty industry has worked out that women don’t stop buying skincare at 50. What has changed is the vocabulary: “anti-ageing” is being retired in favour of “longevity”. It is a better way to talk about midlife — and it is worth separating the part of it that rests on evidence from the part that is positioning.",

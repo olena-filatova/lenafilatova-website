@@ -23,7 +23,7 @@ export default {
     "title": "Do hot flashes throw off your CGM? What the accuracy evidence actually says",
     "seoTitle": "Do Hot Flashes Affect CGM Accuracy? What the Evidence Says",
     "metaDesc": "Hot flashes and night sweats can make CGM readings feel unreliable. What the accuracy evidence actually says — and how to tell device from data.",
-    "excerpt": "You wake at 3am hot, damp and shaking, and your sensor says 3.6. Is that a real low or is the sweat confusing the device? The evidence gives a clearer answer than either instinct — and it is not the reassuring one people expect.",
+    "excerpt": "3am, hot, damp and shaking, and your sensor says 3.6. A real low, or sweat confusing the device? The evidence is clearer than either instinct — and less reassuring.",
     "meta": "3 September 2026 · 8 min read",
     "lead": "A hot flash almost certainly is not moving your CGM reading. But it arrives at the exact moment your sensor is least accurate — glucose low, glucose falling — and in at least one documented case the hypo was causing the flush rather than the other way round. Here is what the accuracy evidence actually shows, and what to check before you decide the device is wrong.",
     "blocks": [
@@ -267,7 +267,7 @@ export default {
     "title": "Чи збивають припливи ваш CGM? Що насправді каже доказова база про точність",
     "seoTitle": "Чи впливають припливи на точність CGM? Що каже наука",
     "metaDesc": "Через припливи й нічну пітливість показники CGM здаються ненадійними. Що насправді каже доказова база про точність — і як відрізнити пристрій від даних.",
-    "excerpt": "Ви прокидаєтеся о третій ночі — жарко, волого, руки тремтять, а сенсор показує 3,6. Це справжня гіпоглікемія чи піт збив пристрій? Доказова база дає чіткішу відповідь, ніж будь-який із цих інстинктів, — і вона не така заспокійлива, як очікують.",
+    "excerpt": "Третя ночі, жарко, волого, руки тремтять, а сенсор показує 3,6. Справжня гіпоглікемія чи піт збив пристрій? Докази чіткіші за обидва інстинкти — і менш заспокійливі.",
     "meta": "3 вересня 2026 · 8 хв читання",
     "lead": "Приплив майже напевно не змінює показник вашого CGM. Але він приходить саме тоді, коли сенсор найменш точний — глюкоза низька, глюкоза падає, — і принаймні в одному задокументованому випадку гіпоглікемія спричиняла приплив, а не навпаки. Ось що насправді показує доказова база про точність і що варто перевірити, перш ніж вирішити, що пристрій помиляється.",
     "blocks": [

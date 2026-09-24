@@ -10,8 +10,8 @@ export default {
     "imageAlt": "A woman in glasses sitting at home, concentrating on a sheet of paper and a calculator in front of her.",
     "title": "“Start HRT earlier and cut your risk by 60%” — what that headline is actually built on",
     "seoTitle": "Starting HRT Earlier: What the Timing Study Found",
-    "metaDesc": "A 120-million-record analysis suggests starting oestrogen in perimenopause beats starting after menopause. It is an unpublished conference poster — here is what it can and cannot tell you.",
-    "excerpt": "An analysis of more than 120 million patient records was reported to show much lower odds of breast cancer, heart attack and stroke in women who started oestrogen during perimenopause. It is also an unpublished conference poster, and the caveats matter.",
+    "metaDesc": "A 120-million-record analysis suggests starting oestrogen in perimenopause beats starting later. It’s an unpublished poster — what it can and can’t tell you.",
+    "excerpt": "A 120-million-record analysis reportedly found far lower odds of breast cancer, heart attack and stroke when oestrogen starts in perimenopause. It’s only a poster.",
     "meta": "12 September 2026 · 6 min read",
     "lead": "A headline has been circulating for a while now: start hormone therapy earlier and you could cut your risk of breast cancer, heart attack and stroke by around 60%. The number is real, in the sense that someone reported it. What sits underneath it is more modest than the headline suggests — and worth understanding before you take it into a GP appointment.",
     "blocks": [
@@ -114,8 +114,8 @@ export default {
     "imageAlt": "Жінка в окулярах сидить удома й зосереджено дивиться на аркуш паперу й калькулятор перед собою.",
     "title": "«Почніть ЗГТ раніше — і ризик впаде на 60%»: на чому насправді тримається цей заголовок",
     "seoTitle": "Коли починати ЗГТ: що показало дослідження",
-    "metaDesc": "Аналіз понад 120 мільйонів медичних записів припускає, що починати естроген у перименопаузі краще, ніж після менопаузи. Але це неопублікований постер з конференції — ось що він може і чого не може довести.",
-    "excerpt": "Аналіз понад 120 мільйонів медичних записів, за повідомленнями, показав значно нижчі шанси раку грудей, інфаркту та інсульту в жінок, які почали естроген у перименопаузі. Це також неопублікований постер з конференції — і застереження тут важать багато.",
+    "metaDesc": "Аналіз понад 120 млн медичних записів припускає, що естроген краще почати в перименопаузі. Але це неопублікований постер — що він може довести, а що ні.",
+    "excerpt": "Аналіз 120+ млн медичних записів, за повідомленнями, показав нижчі шанси раку грудей, інфаркту й інсульту, якщо почати естроген у перименопаузі. Це лише постер.",
     "meta": "12 вересня 2026 · 6 хв читання",
     "lead": "Цей заголовок уже давно ходить по мережі: почніть гормональну терапію раніше — і зможете знизити ризик раку грудей, інфаркту та інсульту приблизно на 60%. Цифра справжня в тому сенсі, що хтось її справді назвав. Але те, що стоїть за нею, значно скромніше за заголовок — і це варто розуміти, перш ніж нести його до лікаря.",
     "blocks": [
