@@ -16,7 +16,7 @@ export default {
     "title": "GLP-1 drugs work in women over 65 — but a quarter to 40% of what comes off is muscle",
     "seoTitle": "GLP-1 in Older Women: 25–40% of Loss Is Lean Mass",
     "metaDesc": "A 2026 Nutrients review of GLP-1 drugs in women over 65 finds 10–20% weight loss but 25–40% of it lean mass — and what the authors say protects muscle.",
-    "excerpt": "A narrative review published in Nutrients in February pulls the trial data on GLP-1 drugs in women aged 65 and over into one place. The weight loss is real and substantial. So is the share of it that comes off muscle — and the review is unusually specific about what to do instead of just warning about it.",
+    "excerpt": "A February review in Nutrients gathers the GLP-1 trial data for women aged 65 and over: real weight loss, a sizeable share of it muscle, and specific advice on what to do.",
     "meta": "19 August 2026 · 4 min read",
     "lead": "Most of what is written about Ozempic-style drugs is written about people in their forties and fifties. A review published in Nutrients in February went looking specifically for what happens in women aged 65 and over — and found both the strongest reason to use these drugs in that group and the strongest reason to be careful with them.",
     "blocks": [
@@ -106,7 +106,7 @@ export default {
     "title": "Препарати GLP-1 працюють у жінок після 65 — але від чверті до 40% втраченого становлять м’язи",
     "seoTitle": "GLP-1 у жінок після 65: 25–40% втрати — м’язи",
     "metaDesc": "Огляд 2026 року в Nutrients: у жінок після 65 препарати GLP-1 дають 10–20% втрати ваги, але 25–40% із цього — м’язова маса. Що захищає м’язи.",
-    "excerpt": "Наративний огляд, опублікований у лютому в журналі Nutrients, зібрав в одному місці дані досліджень щодо препаратів GLP-1 у жінок віком 65 років і старших. Втрата ваги справді суттєва. Так само суттєва і частка, яка припадає на м’язи, — і огляд напрочуд конкретний щодо того, що з цим робити.",
+    "excerpt": "Лютневий огляд у Nutrients зібрав дані досліджень GLP-1 у жінок від 65 років. Втрата ваги суттєва, частка м’язів у ній теж — і огляд конкретно пояснює, що з цим робити.",
     "meta": "19 серпня 2026 · 4 хв читання",
     "lead": "Більшість написаного про препарати на кшталт Ozempic стосується людей 40–50 років. Огляд, опублікований у лютому в Nutrients, шукав саме те, що відбувається в жінок віком 65 років і старших, — і знайшов водночас найвагомішу причину призначати ці препарати в цій групі та найвагомішу причину поводитися з ними обережно.",
     "blocks": [

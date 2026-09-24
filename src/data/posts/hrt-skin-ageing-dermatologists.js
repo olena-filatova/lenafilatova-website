@@ -17,13 +17,13 @@ export default {
     "title": "A dermatology journal says the HRT warning change matters for skin — what the letter actually argues",
     "seoTitle": "HRT and Skin Ageing: What Dermatologists Are Now Saying",
     "metaDesc": "A letter in a leading dermatology journal says the FDA’s HRT label change matters for menopausal skin. What it argues, what it doesn’t, and the numbers attached to it.",
-    "excerpt": "A one-page letter in the Journal of the American Academy of Dermatology argues that skin doctors should now factor hormones into menopausal skin care. It is an opinion, not a study — and it is more careful than the headlines about it.",
+    "excerpt": "A two-page letter in the Journal of the American Academy of Dermatology argues that skin doctors should now factor hormones into menopausal skin care. It is an opinion, not a study — and it is more careful than the headlines about it.",
     "meta": "15 September 2026 · 5 min read",
     "lead": "Skin doctors are starting to ask what the American HRT label change means for them. The first piece to say so in a major dermatology journal is being reported as opening the door to HRT for skin. Read in full, it says something narrower and more useful.",
     "blocks": [
       {
         "t": "p",
-        "text": "In June the Journal of the American Academy of Dermatology published a letter to the editor by Diala Haykal, a dermatologist in private practice at a laser clinic near Paris, titled “Hormone replacement therapy and menopausal skin aging: implications of recent regulatory updates”. It is worth being clear about what kind of document this is. It is a single page of argument with five references. There are no patients, no measurements and no new data — it is one doctor’s view of where her specialty should go next, and it should be read as that rather than as evidence."
+        "text": "In June the Journal of the American Academy of Dermatology published a letter to the editor by Diala Haykal, a dermatologist in private practice at a laser clinic near Paris, titled “Hormone replacement therapy and menopausal skin aging: implications of recent regulatory updates”. It is worth being clear about what kind of document this is. It is two pages of argument with five references. There are no patients, no measurements and no new data — it is one doctor’s view of where her specialty should go next, and it should be read as that rather than as evidence."
       },
       {
         "t": "p",
@@ -70,7 +70,7 @@ export default {
             "claim": "The FDA announced the change in November 2025; the updated labels followed in February 2026.",
             "detail": "On 10 November 2025 the FDA informed manufacturers of menopausal hormone therapies of requested labelling changes: removing the cardiovascular disease, breast cancer and probable dementia statements from the boxed warning, removing the recommendation to use the lowest effective dose for the shortest time, and adding consideration of starting systemic therapy before age 60 or within 10 years of menopause. The boxed warning on endometrial cancer is retained for systemic oestrogen-alone products. The FDA page was updated on 12 February 2026 to state that the prescribing information on these products has been updated.",
             "cite": "US Food and Drug Administration · Drug safety communication, November 2025, updated February 2026",
-            "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-labeling-changes-related-safety-information-clarify-benefitrisk-considerations"
+            "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-requests-labeling-changes-related-safety-information-clarify-benefitrisk-considerations"
           },
           {
             "claim": "Skin benefits are a secondary effect of hormone therapy, and oestrogen can also cause skin side effects.",
@@ -87,7 +87,7 @@ export default {
           {
             "claim": "The “four to eight years” finding is about biological age from blood markers, not skin.",
             "detail": "A retrospective cohort study of 117,763 postmenopausal women in the UK Biobank. Biological age was estimated as phenotypic age from chronological age and nine blood biomarkers. Ever use of HRT was associated with a smaller gap between biological and chronological age than never use (−0.17 years). The association was more evident in women who started HRT at 55 or older (−0.32 years) and in those who used it for four to eight years (−0.25 years). Skin was not measured. HRT users differed from non-users in age, income, education and chronic disease, and an observational design cannot establish cause.",
-            "cite": "Liu H et al · JAMA Network Open · Cohort study, August 2024",
+            "cite": "Liu Y, Li C · JAMA Network Open · Cohort study, August 2024",
             "url": "https://doi.org/10.1001/jamanetworkopen.2024.30839"
           }
         ]
@@ -136,13 +136,13 @@ export default {
     "title": "Дерматологічний журнал пише, що зміна попередження щодо ЗГТ важлива для шкіри — що насправді стверджує цей лист",
     "seoTitle": "ЗГТ і старіння шкіри: що тепер кажуть дерматологи",
     "metaDesc": "Лист у провідному дерматологічному журналі стверджує, що зміна інструкцій до ЗГТ у США важлива для шкіри в менопаузі. Що в ньому є, чого немає і звідки цифри.",
-    "excerpt": "Односторінковий лист у Journal of the American Academy of Dermatology закликає дерматологів враховувати гормони, коли йдеться про шкіру в менопаузі. Це думка, а не дослідження — і вона обережніша за заголовки про неї.",
+    "excerpt": "Двосторінковий лист у Journal of the American Academy of Dermatology закликає дерматологів враховувати гормони, коли йдеться про шкіру в менопаузі. Це думка, а не дослідження — і вона обережніша за заголовки про неї.",
     "meta": "15 вересня 2026 · 5 хв читання",
     "lead": "Лікарі-дерматологи починають питати себе, що означає для них зміна американських інструкцій до ЗГТ. Перший текст про це у великому дерматологічному журналі подають як «відкриті двері» до ЗГТ заради шкіри. Якщо прочитати його повністю, він говорить про вужче — і корисніше.",
     "blocks": [
       {
         "t": "p",
-        "text": "У червні Journal of the American Academy of Dermatology опублікував лист до редакції від Діали Гайкал, дерматологині з приватної лазерної клініки під Парижем, під назвою «Замісна гормональна терапія і менопаузальне старіння шкіри: наслідки нещодавніх регуляторних змін». Важливо розуміти, що це за документ. Це одна сторінка аргументів і п’ять посилань. Жодних пацієнток, вимірювань чи нових даних — це погляд однієї лікарки на те, куди має рухатися її спеціальність, і читати його варто саме так, а не як доказ."
+        "text": "У червні Journal of the American Academy of Dermatology опублікував лист до редакції від Діали Гайкал, дерматологині з приватної лазерної клініки під Парижем, під назвою «Замісна гормональна терапія і менопаузальне старіння шкіри: наслідки нещодавніх регуляторних змін». Важливо розуміти, що це за документ. Це дві сторінки аргументів і п’ять посилань. Жодних пацієнток, вимірювань чи нових даних — це погляд однієї лікарки на те, куди має рухатися її спеціальність, і читати його варто саме так, а не як доказ."
       },
       {
         "t": "p",
@@ -189,7 +189,7 @@ export default {
             "claim": "FDA оголосило зміну в листопаді 2025 року; оновлені інструкції з’явилися в лютому 2026 року.",
             "detail": "10 листопада 2025 року FDA повідомило виробників менопаузальної гормональної терапії про вимогу змінити інструкції: прибрати з попередження в рамці формулювання про серцево-судинні захворювання, рак грудей і ймовірну деменцію, прибрати рекомендацію використовувати найнижчу ефективну дозу якомога коротше, а також додати пункт про початок системної терапії до 60 років або протягом 10 років після менопаузи. Попередження в рамці про рак ендометрія для системних препаратів лише з естрогеном зберігається. 12 лютого 2026 року сторінку FDA оновили й зазначили, що інструкції до цих препаратів уже змінено.",
             "cite": "US Food and Drug Administration · Повідомлення щодо безпеки ліків, листопад 2025, оновлено в лютому 2026",
-            "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-labeling-changes-related-safety-information-clarify-benefitrisk-considerations"
+            "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-requests-labeling-changes-related-safety-information-clarify-benefitrisk-considerations"
           },
           {
             "claim": "Користь для шкіри — побічний ефект гормональної терапії, і естроген може також спричиняти проблеми зі шкірою.",
@@ -206,7 +206,7 @@ export default {
           {
             "claim": "Висновок про «чотири–вісім років» стосується біологічного віку за аналізами крові, а не шкіри.",
             "detail": "Ретроспективне когортне дослідження 117 763 жінок у постменопаузі з UK Biobank. Біологічний вік оцінювали як фенотиповий вік на основі хронологічного віку й дев’яти показників крові. Прийом ЗГТ будь-коли в минулому був пов’язаний із меншим розривом між біологічним і хронологічним віком порівняно з тими, хто ніколи її не приймав (−0,17 року). Зв’язок був помітнішим у жінок, які почали ЗГТ у 55 років і старше (−0,32 року), і в тих, хто приймав її від чотирьох до восьми років (−0,25 року). Стан шкіри не вимірювали. Жінки, які приймали ЗГТ, відрізнялися від інших за віком, доходом, освітою та хронічними хворобами, а обсерваційний дизайн не дозволяє встановити причинність.",
-            "cite": "Liu H et al · JAMA Network Open · Когортне дослідження, серпень 2024",
+            "cite": "Liu Y, Li C · JAMA Network Open · Когортне дослідження, серпень 2024",
             "url": "https://doi.org/10.1001/jamanetworkopen.2024.30839"
           }
         ]
