@@ -25,7 +25,7 @@ export default {
     "title": "Magnesium for perimenopause sleep and insulin resistance: what the evidence supports",
     "seoTitle": "Magnesium for Perimenopause Sleep & Insulin Resistance",
     "metaDesc": "What the evidence actually shows about magnesium for perimenopause sleep and blood sugar — and where the claims outrun the research.",
-    "excerpt": "Magnesium is the most recommended supplement of the perimenopause internet. The biology behind the blood-sugar claim is real. The sleep evidence is thinner than almost anyone selling it admits — and none of it was collected in perimenopausal women.",
+    "excerpt": "Magnesium is the most recommended supplement of the perimenopause internet. The biology behind the blood-sugar claim is real. The sleep evidence is thinner than almost anyone selling it admits — and none of it was designed around perimenopausal women.",
     "meta": "24 August 2026 · 8 min read",
     "lead": "Magnesium has become the default answer to almost everything about being a woman in her forties: the broken sleep, the anxiety, the blood sugar that has started behaving differently. Some of that is well-founded. Some of it is a supplement industry filling a gap that medicine left open. This is where the line falls.",
     "blocks": [
@@ -43,7 +43,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "If you have ever asked for a magnesium level and been told it was normal, that result is worth less than it sounds. The magnesium circulating in your blood is under one per cent of what is in your body — the rest is inside cells and in bone, and the body defends the blood level hard, pulling from those stores to keep it steady. So the number can sit comfortably in range while the reserves behind it are running down. Studies comparing blood levels against magnesium measured directly in muscle have found a substantial share of people with a perfectly normal blood result were depleted in tissue."
+        "text": "If you have ever asked for a magnesium level and been told it was normal, that result is worth less than it sounds. The magnesium circulating in your blood is under one per cent of what is in your body — the rest is inside cells and in bone, and the body defends the blood level hard, pulling from those stores to keep it steady. So the number can sit comfortably in range while the reserves behind it are running down. Studies that measured magnesium inside cells as well as in the blood have found people with a perfectly normal blood result who were depleted inside their cells — in one, more people came up short on the cell measure than on the blood test."
       },
       {
         "t": "p",
@@ -55,11 +55,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here the research is genuinely mixed, and the pattern in the disagreement is the useful part. A 2016 meta-analysis of randomised trials found magnesium supplementation improved insulin resistance and fasting glucose — but only in trials that ran for four months or longer, and the effect was modest. A 2026 analysis pooling five trials in people with prediabetes, 384 people in total, found a meaningful improvement in insulin resistance. And a 2026 update looking at trials across diabetes and prediabetes found no statistically significant change in insulin overall. A twelve-week trial in people with metabolic syndrome found nothing at all."
+        "text": "Here the research is genuinely mixed, and the pattern in the disagreement is the useful part. A 2016 meta-analysis of randomised trials found magnesium supplementation modestly improved insulin resistance, but fasting glucose improved only in trials that ran for four months or longer, where the insulin-resistance effect was also clearer. A 2026 analysis pooling five trials in people with prediabetes, 384 people in total, found a modest improvement in insulin resistance. And a larger 2026 update, fifteen trials across diabetes and prediabetes, found no statistically significant change in either insulin or insulin resistance. A twelve-week trial in people with metabolic syndrome found nothing at all."
       },
       {
         "t": "p",
-        "text": "Set those side by side and a rule emerges. The trials that find something tend to be longer, and tend to enrol people who were short of magnesium to begin with. The clearest positive result of the lot came from a trial in people who had both insulin resistance and measurably low magnesium: supplement them, and insulin sensitivity improved. That is deficiency correction, which is a real and worthwhile thing. It is not evidence that a woman eating a reasonable diet will improve her blood sugar by adding a tablet."
+        "text": "Set those side by side and a pattern suggests itself, though not a proven rule. The trials that find something tend to be longer, and the clearest wins come from people who were short of magnesium to begin with — although the 2026 update could not confirm that either trial length or baseline magnesium explained the difference. The clearest positive result of the lot came from a trial in people who had both insulin resistance and measurably low magnesium: supplement them for three months, and insulin resistance fell in the magnesium group but not in the placebo group. That is deficiency correction, which is a real and worthwhile thing. It is not evidence that a woman eating a reasonable diet will improve her blood sugar by adding a tablet."
       },
       {
         "t": "h",
@@ -67,7 +67,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is one group for whom the magnesium question is more than theoretical. Low magnesium has been reported in somewhere between 10% and 48% of people with type 2 diabetes, and the mechanism is not mysterious: when blood glucose runs high, the kidneys pull glucose into the urine and water follows it, and magnesium goes out with it. High glucose flushes magnesium away, and low magnesium makes insulin work less well. Researchers describe it as a vicious circle, which is exactly what it is."
+        "text": "There is one group for whom the magnesium question is more than theoretical. Low magnesium has been reported in somewhere between 9% and 48% of people with type 2 diabetes, and the mechanism is not mysterious: when blood glucose runs high, the kidneys pull glucose into the urine and water follows it, and magnesium goes out with it. High glucose flushes magnesium away, and low magnesium makes insulin work less well. Researchers describe it as a vicious circle, which is exactly what it is."
       },
       {
         "t": "p",
@@ -83,11 +83,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "More recent work is more careful and no more thrilling. A placebo-controlled trial of magnesium bisglycinate in healthy adults sleeping badly did find a greater improvement in insomnia scores than placebo — with a small effect size the authors themselves described as of limited clinical significance."
+        "text": "More recent work is more careful and no more thrilling. A placebo-controlled trial of magnesium bisglycinate in 155 healthy adults sleeping badly did find a greater improvement in insomnia scores than placebo after four weeks — only just statistically significant, with a small effect size the authors themselves described as modest."
       },
       {
         "t": "p",
-        "text": "And here is the thing the perimenopause articles almost never say: none of this was studied in perimenopausal women. The trials are in older adults with insomnia and in general poor sleepers. Perimenopausal sleep has its own specific mechanism — night sweats, and a hormonal transition that fragments sleep architecture — and no magnesium trial has been run against it. Anyone telling you magnesium is proven for perimenopausal sleep is extrapolating and not saying so."
+        "text": "And here is the thing the perimenopause articles almost never say: none of this was designed around perimenopausal women. The trials are in older adults with insomnia and in general poor sleepers. Perimenopausal sleep has its own specific mechanism — night sweats, and a hormonal transition that fragments sleep architecture — and no magnesium trial aimed at it has yet reported results; the first ones are still under way. Anyone telling you magnesium is proven for perimenopausal sleep is extrapolating and not saying so."
       },
       {
         "t": "p",
@@ -99,7 +99,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Somewhat, and mostly in a way that concerns your gut rather than your outcome. Magnesium oxide is cheap and poorly absorbed, which is why it works as a laxative and why it dominates the bargain shelf. Citrate is better absorbed and still loosening at higher doses. Glycinate — often sold as bisglycinate — is the gentlest on the stomach, which is why it is the one usually recommended for taking at night, and it is the form used in the better recent sleep trials."
+        "text": "Somewhat, and mostly in a way that concerns your gut rather than your outcome. Magnesium oxide is cheap and poorly absorbed, which is why it works as a laxative and why it dominates the bargain shelf. Citrate is better absorbed and still loosening at higher doses. Glycinate — often sold as bisglycinate — is the gentlest on the stomach, which is why it is the one usually recommended for taking at night, and it is the form used in the most careful recent sleep trial."
       },
       {
         "t": "p",
@@ -111,7 +111,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In the UK the reference intake for adult women is 270 mg a day, and food is the sane starting point: pumpkin seeds, nuts, beans, wholegrains, dark leafy greens and dark chocolate are all substantial sources. If you want to try a supplement on top, the safe upper level from supplements specifically is 400 mg a day for adults — that is the figure for tablets, separate from what you eat."
+        "text": "In the UK the reference intake for adult women is 270 mg a day, and food is the sane starting point: pumpkin seeds, nuts, beans, wholegrains, dark leafy greens and dark chocolate are all substantial sources. If you want to try a supplement on top, the UK guidance level for supplements specifically is 400 mg a day for adults — that is the figure for tablets, separate from what you eat."
       },
       {
         "t": "p",
@@ -142,13 +142,13 @@ export default {
         "items": [
           {
             "claim": "Magnesium supplementation improves insulin resistance mainly in longer trials and in people who were short of magnesium to begin with.",
-            "detail": "A 2016 systematic review and meta-analysis of randomised controlled trials found that magnesium supplementation improved the HOMA-IR index in both people with and without diabetes, but had no significant effect on fasting glucose overall; glucose improved only in the subgroup of trials lasting four months or longer, where HOMA-IR improved too. A 2026 meta-analysis of five trials in prediabetes (384 participants) reported a significant improvement in HOMA-IR (mean difference −1.10) and in two-hour glucose. A separate 2026 systematic review across diabetes and prediabetes found no statistically significant change in insulin overall, and a 12-week randomised double-blind trial in metabolic syndrome found no improvement in insulin resistance. The clearest positive result comes from a double-blind placebo-controlled trial in non-diabetic people who had both insulin resistance and low blood magnesium, where supplementation improved insulin sensitivity — a deficiency-correction finding rather than a general one.",
+            "detail": "A 2016 systematic review and meta-analysis of randomised controlled trials found that magnesium supplementation improved the HOMA-IR index overall (weighted mean difference −0.67) but had no significant effect on fasting glucose, HbA1c or insulin overall; in trials lasting four months or longer, both fasting glucose and HOMA-IR improved, in people with and without diabetes. A 2026 meta-analysis of five trials in prediabetes (384 participants) reported a modest but significant improvement in HOMA-IR (mean difference −1.10) and in two-hour glucose, with no significant change in fasting glucose. A larger 2026 systematic review of fifteen trials (1,085 participants) across diabetes and prediabetes found no statistically significant change in insulin or HOMA-IR, and baseline magnesium and trial length did not explain the variation between trials, and a 12-week randomised double-blind trial in women with metabolic syndrome found no improvement in insulin resistance. The clearest positive result comes from a double-blind placebo-controlled trial in non-diabetic people who had both insulin resistance and low blood magnesium, where HOMA-IR fell significantly with supplementation but not with placebo — a deficiency-correction finding rather than a general one.",
             "cite": "Pharmacological Research · Systematic review and meta-analysis, 2016; with later meta-analyses, 2026",
             "url": "https://pubmed.ncbi.nlm.nih.gov/27329332/"
           },
           {
             "claim": "In non-diabetic people with both insulin resistance and low magnesium, supplementation improved insulin sensitivity.",
-            "detail": "A double-blind placebo-controlled randomised trial in non-diabetic participants with insulin resistance and hypomagnesaemia found that oral magnesium supplementation significantly reduced the HOMA-IR index and improved insulin sensitivity compared with placebo. The enrolment criteria are the point: participants had to be magnesium-deficient to take part, so the result describes what happens when a shortfall is corrected, not what happens when magnesium is added to an adequate intake.",
+            "detail": "A double-blind placebo-controlled randomised trial in non-diabetic participants with insulin resistance and hypomagnesaemia gave 2.5 g of magnesium chloride daily or placebo for three months. HOMA-IR fell from 4.6 to 2.6 in the magnesium group, a significant within-group change, while it did not change significantly in the placebo group; the abstract reports these within-group comparisons rather than a direct between-group test. The enrolment criteria are the point: participants had to be magnesium-deficient to take part, so the result describes what happens when a shortfall is corrected, not what happens when magnesium is added to an adequate intake.",
             "cite": "Diabetes & Metabolism · Double-blind placebo-controlled randomised trial, 2004",
             "url": "https://pubmed.ncbi.nlm.nih.gov/15223977/"
           },
@@ -160,20 +160,20 @@ export default {
           },
           {
             "claim": "A recent placebo-controlled trial of magnesium bisglycinate in poor sleepers found a real but small effect.",
-            "detail": "A randomised, placebo-controlled trial of magnesium bisglycinate in healthy adults reporting poor sleep found a significantly greater reduction in Insomnia Severity Index scores than placebo, with a small effect size that the authors characterised as of limited clinical significance. The participants were general poor sleepers, not women in the menopause transition.",
-            "cite": "Nature and Science of Sleep · Randomised placebo-controlled trial",
-            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412596/"
+            "detail": "A randomised, double-blind, placebo-controlled trial in 155 healthy adults aged 18–65 reporting poor sleep gave magnesium bisglycinate (250 mg elemental magnesium a day) or placebo. After four weeks, Insomnia Severity Index scores fell by 3.9 points with magnesium and 2.3 with placebo (p = 0.049), a small effect size (Cohen's d 0.2) that the authors characterised as modest. Most participants were women, but they were general poor sleepers; the trial did not select or analyse women in the menopause transition.",
+            "cite": "Nature and Science of Sleep · Randomised placebo-controlled trial, 2025",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412596/"
           },
           {
-            "claim": "Low magnesium affects 10–48% of people with type 2 diabetes, and high blood glucose is part of the cause.",
-            "detail": "Reviews of magnesium in type 2 diabetes report hypomagnesaemia in 10% to 48% of patients. Chronic hyperglycaemia contributes through osmotic diuresis and by reducing magnesium reabsorption in the kidney tubules, so glucose spilling into the urine takes magnesium with it; low magnesium in turn impairs insulin action, which the literature describes as a vicious circle. Serum magnesium is a poor marker of total body magnesium — it represents under 1% of body stores and can remain within the reference range while intracellular and bone stores are depleted.",
-            "cite": "Endocrine Reviews · Review of hypomagnesaemia in type 2 diabetes, 2023",
+            "claim": "Low magnesium affects roughly 9–48% of people with type 2 diabetes, and high blood glucose is part of the cause.",
+            "detail": "Reviews of magnesium in type 2 diabetes report hypomagnesaemia in 9.1% to 47.7% of patients. Hyperfiltration and increased urine flow contribute, and insulin resistance reduces magnesium reabsorption in the kidney tubules; low magnesium in turn impairs insulin action, which the literature describes as a vicious circle. Serum magnesium is a poor marker of total body magnesium — it represents under 1% of body stores and can remain within the reference range while intracellular and bone stores are depleted.",
+            "cite": "Endocrine Reviews · Hypomagnesemia and Cardiovascular Risk in Type 2 Diabetes (review), 2023",
             "url": "https://academic.oup.com/edrv/article/44/3/357/6811786"
           },
           {
-            "claim": "UK reference intake for adult women is 270 mg a day, and the safe upper level from supplements is 400 mg a day.",
-            "detail": "UK guidance sets the reference nutrient intake for magnesium at 270 mg a day for women aged 19 and over and 300 mg for men. The 400 mg a day figure is the UK Expert Group on Vitamins and Minerals’ guidance level rather than a formal safe upper level, and it applies to supplemental magnesium specifically; it does not apply to magnesium obtained from food, which is not a realistic route to excess in people with normal kidney function. Gastrointestinal effects — diarrhoea, nausea, abdominal cramping — are the common dose-related side effects, and magnesium glycinate contains only around 10–14% elemental magnesium by weight, so the figure on the front of the bottle overstates the dose delivered.",
-            "cite": "UK dietary reference values and supplement safe upper levels",
+            "claim": "UK reference intake for adult women is 270 mg a day, and the UK guidance level for supplements is 400 mg a day.",
+            "detail": "UK guidance sets the reference nutrient intake for magnesium at 270 mg a day for women and 300 mg for men; the NHS lists these for ages 19 to 64. The NHS adds that 400 mg or less a day from supplements is unlikely to cause any harm. The 400 mg a day figure is the UK Expert Group on Vitamins and Minerals’ guidance level rather than a formal safe upper level, and it applies to supplemental magnesium specifically; it does not apply to magnesium obtained from food, which is not a realistic route to excess in people with normal kidney function. Gastrointestinal effects — diarrhoea, nausea, abdominal cramping — are the common dose-related side effects, and magnesium glycinate contains only around 10–14% elemental magnesium by weight, so the figure on the front of the bottle overstates the dose delivered.",
+            "cite": "NHS · Vitamins and minerals: magnesium; UK Expert Group on Vitamins and Minerals, 2003",
             "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others/"
           }
         ]
@@ -207,19 +207,19 @@ export default {
       },
       {
         "q": "Is magnesium proven to help perimenopause sleep?",
-        "a": "No. The most cited review pooled three trials in 151 older adults and found people fell asleep about seventeen minutes faster — but total sleep time did not improve significantly, all three trials were at moderate-to-high risk of bias, and the evidence was rated low to very low certainty. A more recent trial in poor sleepers found a real but small effect the authors called of limited clinical significance. Crucially, none of this research was done in perimenopausal women, whose sleep is disrupted by a specific hormonal mechanism that no magnesium trial has tested."
+        "a": "No. The most cited review pooled three trials in 151 older adults and found people fell asleep about seventeen minutes faster — but total sleep time did not improve significantly, all three trials were at moderate-to-high risk of bias, and the evidence was rated low to very low certainty. A more recent trial in poor sleepers found a real but small effect the authors called modest. Crucially, none of this research was designed around perimenopausal women, whose sleep is disrupted by a specific hormonal mechanism that no magnesium trial has yet reported on."
       },
       {
         "q": "Which form of magnesium is best — glycinate, citrate or oxide?",
-        "a": "Glycinate, often sold as bisglycinate, is gentlest on the stomach and is the form used in the better recent sleep trials, which is why it is usually the one recommended at night. Citrate is well absorbed but loosening at higher doses. Oxide is cheap and poorly absorbed, which is why it works as a laxative. Whichever you pick, check the elemental magnesium on the back of the pack — glycinate is only about 10–14% magnesium by weight, so a 500 mg capsule may deliver 50 to 70 mg."
+        "a": "Glycinate, often sold as bisglycinate, is gentlest on the stomach and is the form used in the most careful recent sleep trial, which is why it is usually the one recommended at night. Citrate is well absorbed but loosening at higher doses. Oxide is cheap and poorly absorbed, which is why it works as a laxative. Whichever you pick, check the elemental magnesium on the back of the pack — glycinate is only about 10–14% magnesium by weight, so a 500 mg capsule may deliver 50 to 70 mg."
       },
       {
         "q": "How much magnesium should a woman in her forties take?",
-        "a": "The UK reference intake is 270 mg a day for adult women, and food should do most of the work — pumpkin seeds, nuts, beans, wholegrains, dark leafy greens and dark chocolate are all good sources. If you add a supplement, the safe upper level for supplemental magnesium is 400 mg a day for adults, separate from what you get from food. Ask your doctor first if your kidneys do not work normally, and check the spacing if you take thyroid replacement or certain antibiotics, because magnesium can interfere with their absorption."
+        "a": "The UK reference intake is 270 mg a day for adult women, and food should do most of the work — pumpkin seeds, nuts, beans, wholegrains, dark leafy greens and dark chocolate are all good sources. If you add a supplement, the UK guidance level for supplemental magnesium is 400 mg a day for adults, separate from what you get from food. Ask your doctor first if your kidneys do not work normally, and check the spacing if you take thyroid replacement or certain antibiotics, because magnesium can interfere with their absorption."
       },
       {
         "q": "My magnesium blood test was normal — does that mean I do not need it?",
-        "a": "Not necessarily. Blood carries under one per cent of the body's magnesium, and the body defends that level by drawing on stores in cells and bone, so the blood result can stay in range while reserves fall. Studies comparing blood levels with magnesium measured in muscle have found many people with normal results were depleted in tissue. The reverse is also true, though: symptoms like poor sleep or cramp are not a magnesium test either, and plenty of other things cause them."
+        "a": "Not necessarily. Blood carries under one per cent of the body's magnesium, and the body defends that level by drawing on stores in cells and bone, so the blood result can stay in range while reserves fall. Studies that also measured magnesium inside cells have found people with normal blood results who were depleted there. The reverse is also true, though: symptoms like poor sleep or cramp are not a magnesium test either, and plenty of other things cause them."
       },
       {
         "q": "How long before I would know if magnesium is doing anything?",
@@ -233,7 +233,7 @@ export default {
     "title": "Магній для сну та інсулінорезистентності в перименопаузі: що підтверджують дослідження",
     "seoTitle": "Магній у перименопаузі: сон та інсулінорезистентність",
     "metaDesc": "Що насправді показують дослідження про магній для сну та цукру в крові в перименопаузі — і де обіцянки випереджають науку.",
-    "excerpt": "Магній — найчастіше рекомендована добавка перименопаузального інтернету. Біологія за твердженням про цукор у крові справжня. Докази щодо сну значно слабші, ніж визнає майже будь-хто, хто його продає, — і жодне з тих досліджень не проводили на жінках у перименопаузі.",
+    "excerpt": "Магній — найчастіше рекомендована добавка перименопаузального інтернету. Біологія за твердженням про цукор у крові справжня. Докази щодо сну значно слабші, ніж визнає майже будь-хто, хто його продає, — і жодне з тих досліджень не було спрямоване саме на жінок у перименопаузі.",
     "meta": "24 серпня 2026 · 8 хв читання",
     "lead": "Магній став універсальною відповіддю майже на все, що стосується жінки за сорок: перерваний сон, тривожність, цукор у крові, який почав поводитися інакше. Частина цього має підстави. Частина — це індустрія добавок, що заповнює прогалину, залишену медициною. Ось де проходить межа.",
     "blocks": [
@@ -251,7 +251,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Якщо ви колись просили визначити рівень магнію й вам сказали, що він у нормі, цей результат вартий менше, ніж здається. Магній, що циркулює в крові, — це менше одного відсотка того, що є в організмі; решта всередині клітин і в кістках, і тіло вперто утримує рівень у крові, витягуючи з тих запасів. Тож число може спокійно триматися в межах норми, поки резерви позаду нього виснажуються. Дослідження, які порівнювали рівень у крові з магнієм, виміряним безпосередньо в м'язах, показали, що значна частка людей із цілком нормальним аналізом крові мала дефіцит у тканинах."
+        "text": "Якщо ви колись просили визначити рівень магнію й вам сказали, що він у нормі, цей результат вартий менше, ніж здається. Магній, що циркулює в крові, — це менше одного відсотка того, що є в організмі; решта всередині клітин і в кістках, і тіло вперто утримує рівень у крові, витягуючи з тих запасів. Тож число може спокійно триматися в межах норми, поки резерви позаду нього виснажуються. Дослідження, які вимірювали магній не лише в крові, а й усередині клітин, знаходили людей із цілком нормальним аналізом крові, у яких усередині клітин його бракувало, — в одному з них дефіцит за клітинним показником траплявся частіше, ніж за аналізом крові."
       },
       {
         "t": "p",
@@ -263,11 +263,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Тут результати справді неоднорідні, і корисне саме те, як саме вони розходяться. Метааналіз рандомізованих досліджень 2016 року виявив, що добавки магнію покращували інсулінорезистентність і глюкозу натще — але лише в дослідженнях тривалістю чотири місяці й більше, і ефект був помірний. Аналіз 2026 року, що об'єднав п'ять досліджень у людей із предіабетом, загалом 384 особи, виявив відчутне покращення інсулінорезистентності. А оновлений огляд 2026 року по дослідженнях при діабеті та предіабеті не знайшов статистично значущої зміни інсуліну загалом. Дванадцятитижневе дослідження в людей із метаболічним синдромом не показало нічого."
+        "text": "Тут результати справді неоднорідні, і корисне саме те, як саме вони розходяться. Метааналіз рандомізованих досліджень 2016 року виявив, що добавки магнію помірно покращували інсулінорезистентність, але глюкоза натще покращувалася лише в дослідженнях тривалістю чотири місяці й більше, де й ефект на інсулінорезистентність був чіткішим. Аналіз 2026 року, що об'єднав п'ять досліджень у людей із предіабетом, загалом 384 особи, виявив помірне покращення інсулінорезистентності. А більший оновлений огляд 2026 року, п'ятнадцять досліджень при діабеті та предіабеті, не знайшов статистично значущої зміни ні інсуліну, ні інсулінорезистентності. Дванадцятитижневе дослідження в людей із метаболічним синдромом не показало нічого."
       },
       {
         "t": "p",
-        "text": "Поставте це поруч — і проступає правило. Дослідження, які щось знаходять, зазвичай довші й зазвичай залучають людей, яким магнію бракувало від початку. Найчіткіший позитивний результат із усіх дало дослідження за участю людей, які мали і інсулінорезистентність, і вимірювано низький магній: дайте їм добавку — і чутливість до інсуліну покращується. Це усунення дефіциту, річ реальна й варта уваги. Але це не доказ, що жінка, яка харчується розумно, покращить свій цукор, додавши таблетку."
+        "text": "Поставте це поруч — і проступає закономірність, хоча й не доведене правило. Дослідження, які щось знаходять, зазвичай довші, а найчіткіші результати дають люди, яким магнію бракувало від початку, — хоча оновлений огляд 2026 року не зміг підтвердити, що різницю пояснює тривалість досліджень чи вихідний рівень магнію. Найчіткіший позитивний результат із усіх дало дослідження за участю людей, які мали і інсулінорезистентність, і вимірювано низький магній: дайте їм добавку на три місяці — і інсулінорезистентність знизилася в групі магнію, але не в групі плацебо. Це усунення дефіциту, річ реальна й варта уваги. Але це не доказ, що жінка, яка харчується розумно, покращить свій цукор, додавши таблетку."
       },
       {
         "t": "h",
@@ -275,7 +275,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є одна група, для якої питання магнію більше ніж теоретичне. Низький магній фіксують у 10–48% людей із діабетом 2 типу, і механізм не загадковий: коли глюкоза в крові висока, нирки виводять її із сечею, за нею йде вода, а разом із нею — магній. Висока глюкоза вимиває магній, а низький магній погіршує роботу інсуліну. Дослідники називають це замкненим колом, і це саме воно."
+        "text": "Є одна група, для якої питання магнію більше ніж теоретичне. Низький магній фіксують у 9–48% людей із діабетом 2 типу, і механізм не загадковий: коли глюкоза в крові висока, нирки виводять її із сечею, за нею йде вода, а разом із нею — магній. Висока глюкоза вимиває магній, а низький магній погіршує роботу інсуліну. Дослідники називають це замкненим колом, і це саме воно."
       },
       {
         "t": "p",
@@ -291,11 +291,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Новіші роботи акуратніші й не більш вражаючі. Плацебо-контрольоване дослідження бісгліцинату магнію у здорових дорослих із поганим сном справді виявило більше покращення показників безсоння, ніж на плацебо, — з малим розміром ефекту, який самі автори описали як такий, що має обмежене клінічне значення."
+        "text": "Новіші роботи акуратніші й не більш вражаючі. Плацебо-контрольоване дослідження бісгліцинату магнію за участю 155 здорових дорослих із поганим сном справді виявило більше покращення показників безсоння, ніж на плацебо, через чотири тижні — ледь статистично значуще, з малим розміром ефекту, який самі автори назвали помірним."
       },
       {
         "t": "p",
-        "text": "І ось те, чого статті про перименопаузу майже ніколи не кажуть: нічого з цього не досліджували на жінках у перименопаузі. Дослідження проводили на літніх людях із безсонням і на людях із загалом поганим сном. Сон у перименопаузі має власний механізм — нічна пітливість і гормональний перехід, який фрагментує структуру сну, — і жодного дослідження магнію проти нього не проводили. Той, хто каже вам, що магній доведено допомагає при перименопаузальному сні, екстраполює й не повідомляє про це."
+        "text": "І ось те, чого статті про перименопаузу майже ніколи не кажуть: жодне з цих досліджень не було спрямоване саме на жінок у перименопаузі. Дослідження проводили на літніх людях із безсонням і на людях із загалом поганим сном. Сон у перименопаузі має власний механізм — нічна пітливість і гормональний перехід, який фрагментує структуру сну, — і жодне дослідження магнію, спрямоване на нього, ще не опублікувало результатів; перші такі дослідження досі тривають. Той, хто каже вам, що магній доведено допомагає при перименопаузальному сні, екстраполює й не повідомляє про це."
       },
       {
         "t": "p",
@@ -307,7 +307,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Певною мірою — і переважно щодо вашого кишківника, а не результату. Оксид магнію дешевий і погано засвоюється, тому й працює як проносне і тому домінує на полиці з бюджетними товарами. Цитрат засвоюється краще й усе одно послаблює у вищих дозах. Гліцинат — часто продають як бісгліцинат — найм'якший для шлунка, тому саме його зазвичай радять приймати на ніч, і саме цю форму використовували в кращих новітніх дослідженнях сну."
+        "text": "Певною мірою — і переважно щодо вашого кишківника, а не результату. Оксид магнію дешевий і погано засвоюється, тому й працює як проносне і тому домінує на полиці з бюджетними товарами. Цитрат засвоюється краще й усе одно послаблює у вищих дозах. Гліцинат — часто продають як бісгліцинат — найм'якший для шлунка, тому саме його зазвичай радять приймати на ніч, і саме цю форму використовували в найретельнішому новітньому дослідженні сну."
       },
       {
         "t": "p",
@@ -319,7 +319,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У Великій Британії referenceна норма для дорослих жінок — 270 мг на добу, і їжа тут розумна відправна точка: гарбузове насіння, горіхи, квасоля, цільні злаки, темна листова зелень і чорний шоколад — усе це вагомі джерела. Якщо хочете додати добавку, безпечний верхній рівень саме для магнію з добавок — 400 мг на добу для дорослих; це показник для таблеток, окремо від того, що ви їсте."
+        "text": "У Великій Британії референсна норма для дорослих жінок — 270 мг на добу, і їжа тут розумна відправна точка: гарбузове насіння, горіхи, квасоля, цільні злаки, темна листова зелень і чорний шоколад — усе це вагомі джерела. Якщо хочете додати добавку, британський орієнтовний рівень саме для магнію з добавок — 400 мг на добу для дорослих; це показник для таблеток, окремо від того, що ви їсте."
       },
       {
         "t": "p",
@@ -350,13 +350,13 @@ export default {
         "items": [
           {
             "claim": "Добавки магнію покращують інсулінорезистентність переважно в довших дослідженнях і в людей, яким магнію бракувало від початку.",
-            "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень 2016 року виявив, що добавки магнію покращували індекс HOMA-IR як у людей із діабетом, так і без нього, але загалом не вплинули значуще на глюкозу натще; глюкоза покращилася лише в підгрупі досліджень тривалістю чотири місяці й довше, де покращився й HOMA-IR. Метааналіз 2026 року за п'ятьма дослідженнями при предіабеті (384 учасники) повідомив про значуще покращення HOMA-IR (середня різниця −1,10) і двогодинної глюкози. Окремий систематичний огляд 2026 року по дослідженнях при діабеті та предіабеті не знайшов статистично значущої зміни інсуліну загалом, а 12-тижневе рандомізоване подвійне сліпе дослідження при метаболічному синдромі не показало покращення інсулінорезистентності. Найчіткіший позитивний результат походить із подвійного сліпого плацебо-контрольованого дослідження за участю людей без діабету, які мали і інсулінорезистентність, і низький магній у крові.",
+            "detail": "Систематичний огляд і метааналіз рандомізованих контрольованих досліджень 2016 року виявив, що добавки магнію загалом покращували індекс HOMA-IR (зважена середня різниця −0,67), але загалом не вплинули значуще на глюкозу натще, HbA1c чи інсулін; у дослідженнях тривалістю чотири місяці й довше покращилися і глюкоза натще, і HOMA-IR — як у людей із діабетом, так і без нього. Метааналіз 2026 року за п'ятьма дослідженнями при предіабеті (384 учасники) повідомив про помірне, але значуще покращення HOMA-IR (середня різниця −1,10) і двогодинної глюкози, без значущої зміни глюкози натще. Більший систематичний огляд 2026 року за п'ятнадцятьма дослідженнями (1085 учасників) при діабеті та предіабеті не знайшов статистично значущої зміни ні інсуліну, ні HOMA-IR, а вихідний рівень магнію й тривалість досліджень не пояснювали різниці між ними, а 12-тижневе рандомізоване подвійне сліпе дослідження в жінок із метаболічним синдромом не показало покращення інсулінорезистентності. Найчіткіший позитивний результат походить із подвійного сліпого плацебо-контрольованого дослідження за участю людей без діабету, які мали і інсулінорезистентність, і низький магній у крові.",
             "cite": "Pharmacological Research · Систематичний огляд і метааналіз, 2016; з пізнішими метааналізами, 2026",
             "url": "https://pubmed.ncbi.nlm.nih.gov/27329332/"
           },
           {
             "claim": "У людей без діабету, які мали і інсулінорезистентність, і низький магній, добавка покращила чутливість до інсуліну.",
-            "detail": "Подвійне сліпе плацебо-контрольоване рандомізоване дослідження за участю людей без діабету з інсулінорезистентністю та гіпомагніємією показало, що пероральні добавки магнію значуще знизили індекс HOMA-IR і покращили чутливість до інсуліну порівняно з плацебо. Суть у критеріях включення: учасники мали бути з дефіцитом магнію, щоб узяти участь, тож результат описує, що відбувається при усуненні дефіциту, а не при додаванні магнію до й так достатнього надходження.",
+            "detail": "Подвійне сліпе плацебо-контрольоване рандомізоване дослідження за участю людей без діабету з інсулінорезистентністю та гіпомагніємією давало 2,5 г хлориду магнію на добу або плацебо протягом трьох місяців. HOMA-IR знизився з 4,6 до 2,6 у групі магнію — значуща зміна всередині групи, — тоді як у групі плацебо значущо не змінився; в анотації наведено саме ці порівняння всередині груп, а не пряме порівняння між групами. Суть у критеріях включення: учасники мали бути з дефіцитом магнію, щоб узяти участь, тож результат описує, що відбувається при усуненні дефіциту, а не при додаванні магнію до й так достатнього надходження.",
             "cite": "Diabetes & Metabolism · Подвійне сліпе плацебо-контрольоване рандомізоване дослідження, 2004",
             "url": "https://pubmed.ncbi.nlm.nih.gov/15223977/"
           },
@@ -368,20 +368,20 @@ export default {
           },
           {
             "claim": "Нещодавнє плацебо-контрольоване дослідження бісгліцинату магнію в людей із поганим сном виявило реальний, але малий ефект.",
-            "detail": "Рандомізоване плацебо-контрольоване дослідження бісгліцинату магнію у здорових дорослих, які повідомляли про поганий сон, виявило значуще більше зниження показників за індексом тяжкості безсоння, ніж на плацебо, з малим розміром ефекту, який автори схарактеризували як такий, що має обмежене клінічне значення. Учасниками були люди із загалом поганим сном, а не жінки в періоді менопаузального переходу.",
-            "cite": "Nature and Science of Sleep · Рандомізоване плацебо-контрольоване дослідження",
-            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412596/"
+            "detail": "Рандомізоване подвійне сліпе плацебо-контрольоване дослідження за участю 155 здорових дорослих віком 18–65 років, які повідомляли про поганий сон, порівнювало бісгліцинат магнію (250 мг елементарного магнію на добу) з плацебо. Через чотири тижні показник за індексом тяжкості безсоння знизився на 3,9 бала з магнієм і на 2,3 бала з плацебо (p = 0,049), з малим розміром ефекту (d Коена 0,2), який автори схарактеризували як помірний. Більшість учасників становили жінки, але це були люди із загалом поганим сном; дослідження не відбирало й окремо не аналізувало жінок у періоді менопаузального переходу.",
+            "cite": "Nature and Science of Sleep · Рандомізоване плацебо-контрольоване дослідження, 2025",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412596/"
           },
           {
-            "claim": "Низький магній трапляється у 10–48% людей із діабетом 2 типу, і висока глюкоза крові — частина причини.",
-            "detail": "Огляди щодо магнію при діабеті 2 типу повідомляють про гіпомагніємію у 10–48% пацієнтів. Хронічна гіперглікемія сприяє цьому через осмотичний діурез і через зниження реабсорбції магнію в ниркових канальцях, тож глюкоза, що виходить у сечу, забирає магній із собою; своєю чергою низький магній погіршує дію інсуліну, що в літературі описують як замкнене коло. Магній сироватки — поганий маркер загального магнію організму: він становить менш ніж 1% запасів і може залишатися в межах норми, поки внутрішньоклітинні та кісткові запаси виснажуються.",
-            "cite": "Endocrine Reviews · Огляд гіпомагніємії при діабеті 2 типу, 2023",
+            "claim": "Низький магній трапляється приблизно у 9–48% людей із діабетом 2 типу, і висока глюкоза крові — частина причини.",
+            "detail": "Огляди щодо магнію при діабеті 2 типу повідомляють про гіпомагніємію у 9,1–47,7% пацієнтів. Цьому сприяють гіперфільтрація й посилений діурез, а інсулінорезистентність знижує реабсорбцію магнію в ниркових канальцях; своєю чергою низький магній погіршує дію інсуліну, що в літературі описують як замкнене коло. Магній сироватки — поганий маркер загального магнію організму: він становить менш ніж 1% запасів і може залишатися в межах норми, поки внутрішньоклітинні та кісткові запаси виснажуються.",
+            "cite": "Endocrine Reviews · Огляд гіпомагніємії та серцево-судинного ризику при діабеті 2 типу, 2023",
             "url": "https://academic.oup.com/edrv/article/44/3/357/6811786"
           },
           {
-            "claim": "Британська норма для дорослих жінок — 270 мг на добу, а безпечний верхній рівень із добавок — 400 мг на добу.",
-            "detail": "Британські рекомендації встановлюють референсну норму магнію на рівні 270 мг на добу для жінок від 19 років і 300 мг для чоловіків. Показник 400 мг на добу — це орієнтовний рівень (guidance level) Британської експертної групи з вітамінів і мінералів, а не формальний безпечний верхній рівень, і він стосується саме магнію з добавок; він не стосується магнію з їжі, що не є реалістичним шляхом до надлишку в людей із нормальною функцією нирок. Шлунково-кишкові ефекти — діарея, нудота, спазми в животі — це типові дозозалежні побічні ефекти, а гліцинат магнію містить лише близько 10–14% елементарного магнію за вагою, тож число на лицьовому боці упаковки завищує реальну дозу.",
-            "cite": "Британські референсні норми споживання та безпечні верхні рівні для добавок",
+            "claim": "Британська норма для дорослих жінок — 270 мг на добу, а британський орієнтовний рівень для добавок — 400 мг на добу.",
+            "detail": "Британські рекомендації встановлюють референсну норму магнію на рівні 270 мг на добу для жінок і 300 мг для чоловіків; NHS наводить ці значення для віку від 19 до 64 років. NHS додає, що 400 мг на добу чи менше з добавок навряд чи зашкодить. Показник 400 мг на добу — це орієнтовний рівень (guidance level) Британської експертної групи з вітамінів і мінералів, а не формальний безпечний верхній рівень, і він стосується саме магнію з добавок; він не стосується магнію з їжі, що не є реалістичним шляхом до надлишку в людей із нормальною функцією нирок. Шлунково-кишкові ефекти — діарея, нудота, спазми в животі — це типові дозозалежні побічні ефекти, а гліцинат магнію містить лише близько 10–14% елементарного магнію за вагою, тож число на лицьовому боці упаковки завищує реальну дозу.",
+            "cite": "NHS · Вітаміни та мінерали: магній; Британська експертна група з вітамінів і мінералів, 2003",
             "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others/"
           }
         ]
@@ -415,19 +415,19 @@ export default {
       },
       {
         "q": "Чи доведено, що магній допомагає при поганому сні в перименопаузі?",
-        "a": "Ні. Найцитованіший огляд об'єднав три дослідження за участю 151 літньої людини й виявив, що люди засинали приблизно на сімнадцять хвилин швидше, — але загальна тривалість сну значуще не покращилася, усі три дослідження мали помірний-високий ризик упередженості, а докази оцінені як низької до дуже низької певності. Новіше дослідження в людей із поганим сном виявило реальний, але малий ефект, який автори назвали таким, що має обмежене клінічне значення. Головне: жодне з цих досліджень не проводили на жінках у перименопаузі, чий сон порушує специфічний гормональний механізм, який жодне дослідження магнію не перевіряло."
+        "a": "Ні. Найцитованіший огляд об'єднав три дослідження за участю 151 літньої людини й виявив, що люди засинали приблизно на сімнадцять хвилин швидше, — але загальна тривалість сну значуще не покращилася, усі три дослідження мали помірний-високий ризик упередженості, а докази оцінені як низької до дуже низької певності. Новіше дослідження в людей із поганим сном виявило реальний, але малий ефект, який автори назвали помірним. Головне: жодне з цих досліджень не було спрямоване саме на жінок у перименопаузі, чий сон порушує специфічний гормональний механізм, щодо якого жодне дослідження магнію ще не опублікувало результатів."
       },
       {
         "q": "Яка форма магнію краща — гліцинат, цитрат чи оксид?",
-        "a": "Гліцинат, який часто продають як бісгліцинат, найм'якший для шлунка і саме його використовували в кращих новітніх дослідженнях сну, тому зазвичай радять саме його на ніч. Цитрат добре засвоюється, але послаблює у вищих дозах. Оксид дешевий і погано засвоюється, тому й працює як проносне. Що б ви не обрали, перевіряйте вміст елементарного магнію на звороті упаковки: гліцинат містить лише близько 10–14% магнію за вагою, тож капсула на 500 мг може давати 50–70 мг."
+        "a": "Гліцинат, який часто продають як бісгліцинат, найм'якший для шлунка і саме його використовували в найретельнішому новітньому дослідженні сну, тому зазвичай радять саме його на ніч. Цитрат добре засвоюється, але послаблює у вищих дозах. Оксид дешевий і погано засвоюється, тому й працює як проносне. Що б ви не обрали, перевіряйте вміст елементарного магнію на звороті упаковки: гліцинат містить лише близько 10–14% магнію за вагою, тож капсула на 500 мг може давати 50–70 мг."
       },
       {
         "q": "Скільки магнію приймати жінці за сорок?",
-        "a": "Британська референсна норма — 270 мг на добу для дорослих жінок, і більшу частину має забезпечувати їжа: гарбузове насіння, горіхи, квасоля, цільні злаки, темна листова зелень і чорний шоколад — усе це хороші джерела. Якщо додаєте добавку, безпечний верхній рівень саме для магнію з добавок — 400 мг на добу для дорослих, окремо від того, що ви отримуєте з їжею. Спершу спитайте лікаря, якщо ваші нирки працюють не нормально, і уточніть інтервал, якщо приймаєте замісну терапію для щитоподібної залози чи окремі антибіотики, бо магній може заважати їх засвоєнню."
+        "a": "Британська референсна норма — 270 мг на добу для дорослих жінок, і більшу частину має забезпечувати їжа: гарбузове насіння, горіхи, квасоля, цільні злаки, темна листова зелень і чорний шоколад — усе це хороші джерела. Якщо додаєте добавку, британський орієнтовний рівень саме для магнію з добавок — 400 мг на добу для дорослих, окремо від того, що ви отримуєте з їжею. Спершу спитайте лікаря, якщо ваші нирки працюють не нормально, і уточніть інтервал, якщо приймаєте замісну терапію для щитоподібної залози чи окремі антибіотики, бо магній може заважати їх засвоєнню."
       },
       {
         "q": "Мій аналіз крові на магній у нормі — чи означає це, що він мені не потрібен?",
-        "a": "Не обов'язково. Кров несе менш ніж один відсоток магнію організму, і тіло утримує цей рівень, черпаючи із запасів у клітинах і кістках, тож результат крові може лишатися в межах норми, поки резерви падають. Дослідження, які порівнювали рівень у крові з магнієм, виміряним у м'язах, показали, що багато людей із нормальними результатами мали дефіцит у тканинах. Втім, справедливе й зворотне: симптоми на кшталт поганого сну чи судом — теж не аналіз на магній, і їх спричиняє чимало інших речей."
+        "a": "Не обов'язково. Кров несе менш ніж один відсоток магнію організму, і тіло утримує цей рівень, черпаючи із запасів у клітинах і кістках, тож результат крові може лишатися в межах норми, поки резерви падають. Дослідження, які вимірювали магній також усередині клітин, знаходили людей із нормальним аналізом крові, у яких там його бракувало. Втім, справедливе й зворотне: симптоми на кшталт поганого сну чи судом — теж не аналіз на магній, і їх спричиняє чимало інших речей."
       },
       {
         "q": "Скільки часу потрібно, щоб зрозуміти, чи магній щось дає?",
