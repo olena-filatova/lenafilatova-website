@@ -15,7 +15,7 @@ export default {
   ],
   "en": {
     "cat": "Skin & beauty",
-    "imageAlt": "A dropper releasing a drop of golden serum onto skin.",
+    "imageAlt": "A small white dropper bottle with a gold collar standing on a marble tray, a cream knit throw blurred beside it in soft daylight.",
     "title": "Vitamin C serums over 40: what the evidence actually supports",
     "seoTitle": "Vitamin C Serums Over 40: What the Evidence Supports",
     "metaDesc": "What the trials on vitamin C serum concentration actually found for ageing skin — and the number the marketing borrowed from a pig-skin study.",
@@ -269,7 +269,7 @@ export default {
   },
   "ua": {
     "cat": "Краса та шкіра",
-    "imageAlt": "Піпетка випускає краплю золотистої сироватки на шкіру.",
+    "imageAlt": "Маленький білий флакон із піпеткою та золотистим ковпачком на мармуровій підставці, поруч розмитий кремовий плед у м'якому денному світлі.",
     "title": "Сироватки з вітаміном С після 40: що насправді підтверджують дослідження",
     "seoTitle": "Вітамін С після 40: що кажуть дослідження",
     "metaDesc": "Що насправді показали дослідження концентрації та формули сироваток з вітаміном С — і звідки маркетинг узяв цифру 20%.",
