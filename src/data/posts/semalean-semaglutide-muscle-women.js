@@ -7,7 +7,7 @@ export default {
   ],
   "en": {
     "cat": "GLP-1",
-    "imageAlt": "A woman's hand gripping the handle of a hand dynamometer, the device used to measure grip strength.",
+    "imageAlt": "A woman seen from behind pressing a pair of dumbbells overhead in a gym, her shoulder and back muscles working.",
     "title": "Semaglutide and muscle: the line SEMALEAN’s own summary leaves out",
     "seoTitle": "SEMALEAN: The Line Its Own Summary Leaves Out",
     "metaDesc": "SEMALEAN is quoted everywhere as proof semaglutide spares muscle. Its results section says the lean-mass loss was significantly greater in women than men.",
@@ -111,7 +111,7 @@ export default {
   },
   "ua": {
     "cat": "GLP-1",
-    "imageAlt": "Жіноча рука стискає ручку динамометра — приладу, яким вимірюють силу кисті.",
+    "imageAlt": "Жінка, знята зі спини, піднімає над головою дві гантелі в спортзалі — працюють м'язи плечей і спини.",
     "title": "Семаглутид і м’язи: рядок, якого немає в короткому викладі дослідження SEMALEAN",
     "seoTitle": "SEMALEAN: рядок, якого немає в короткому викладі",
     "metaDesc": "SEMALEAN цитують як доказ, що семаглутид зберігає м’язи. У розділі результатів написано: втрата м’язової маси була суттєво більшою в жінок, ніж у чоловіків.",
