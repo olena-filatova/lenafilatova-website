@@ -18,7 +18,7 @@ export default {
   ],
   "en": {
     "cat": "Perimenopause",
-    "imageAlt": "A woman in her late forties sitting by a window in morning light, looking out, a cup of tea untouched beside her.",
+    "imageAlt": "A woman in a knitted jumper sitting on a bed with her eyes lowered, morning light falling across her face.",
     "title": "Depression in perimenopause: why mood changes, who's most at risk, and what actually helps",
     "seoTitle": "Perimenopause and Depression: What the Evidence Says",
     "metaDesc": "In perimenopause the odds of depression are about 40% higher than before it. What drives the risk, who is most affected, and what NICE says helps.",
@@ -215,7 +215,7 @@ export default {
   },
   "ua": {
     "cat": "Перименопауза",
-    "imageAlt": "Жінка близько п'ятдесяти сидить біля вікна в ранковому світлі й дивиться надвір, чашка чаю поруч неторкана.",
+    "imageAlt": "Жінка у в'язаному светрі сидить на ліжку з опущеними очима, ранкове світло падає їй на обличчя.",
     "title": "Депресія в перименопаузі: чому змінюється настрій, у кого ризик вищий і що справді допомагає",
     "seoTitle": "Депресія в перименопаузі: що каже наука",
     "metaDesc": "У перименопаузі шанси депресії приблизно на 40% вищі, ніж до неї. Що стоїть за ризиком, у кого він вищий і що, за даними NICE, допомагає.",

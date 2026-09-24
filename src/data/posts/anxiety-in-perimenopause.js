@@ -15,7 +15,7 @@ export default {
   ],
   "en": {
     "cat": "Perimenopause",
-    "imageAlt": "A woman sitting on the edge of a bed in the dark, one hand resting on her chest.",
+    "imageAlt": "A woman in dim light resting her chin on her folded arms, gazing ahead with a worried expression.",
     "title": "Anxiety in perimenopause: why it can arrive out of nowhere, and what actually helps",
     "seoTitle": "Perimenopause Anxiety: Why It Starts, What Helps",
     "metaDesc": "New anxiety at 45 is a recognised pattern in the menopause transition — and it hits women who were never anxious before. What drives it, and what helps.",
@@ -204,7 +204,7 @@ export default {
   },
   "ua": {
     "cat": "Перименопауза",
-    "imageAlt": "Жінка сидить на краю ліжка в темряві, поклавши руку на груди.",
+    "imageAlt": "Жінка в напівтемряві сперлася підборіддям на складені руки й стривожено дивиться вперед.",
     "title": "Тривога в перименопаузі: чому вона приходить наче нізвідки і що справді допомагає",
     "seoTitle": "Тривога в перименопаузі: причини й що допомагає",
     "metaDesc": "Нова тривога після сорока — впізнаваний патерн менопаузального переходу, і він зачіпає жінок, які раніше тривожними не були. Що за цим стоїть і що допомагає.",
