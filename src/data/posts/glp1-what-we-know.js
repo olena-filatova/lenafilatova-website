@@ -18,7 +18,7 @@ export default {
     "title": "GLP-1 drugs after 40: what we actually know, and why the headlines keep contradicting each other",
     "seoTitle": "GLP-1 Drugs After 40: What the Evidence Shows",
     "metaDesc": "Seven studies on GLP-1 drugs, read side by side. Most of the contradictions turn out to be differences in who was measured — here is all of it in one place, with how strong each finding is.",
-    "excerpt": "One study says GLP-1 drugs burn fat, not muscle; another, that a quarter to 40% of the loss is muscle. They measured different women, by different methods. Here’s all of it.",
+    "excerpt": "One study says GLP-1 drugs burn fat, not muscle; another, that a quarter to 40% of the loss is muscle. They were answering different questions, about different women. Here’s all of it.",
     "meta": "21 August 2026 · 10 min read",
     "lead": "I have written about GLP-1 drugs seven times in six weeks, and if you read those posts back to back you would be forgiven for thinking the research is a mess. One says the weight coming off is mostly fat. The next says a quarter to 40% of it is muscle. A third says that losing the weight costs you bone that you will not get back. They sound like they are contradicting each other. Almost none of them actually are — and the reason why is more useful than any single finding.",
     "blocks": [
@@ -53,21 +53,21 @@ export default {
           [
             "Most of the weight lost is fat, not muscle",
             "Adults with overweight or obesity, with or without type 2 diabetes — general trial populations",
-            "High — systematic review pooling 24 randomised trials"
+            "Moderate to high — systematic review pooling 24 studies, a mix of randomised trials and observational cohorts"
           ],
           [
             "Lean mass as a share of your body actually goes up",
             "Adults with obesity, 7 trials, 821 people",
-            "High — meta-analysis of randomised trials, though with very high statistical heterogeneity"
+            "High — meta-analysis of randomised trials, with consistent results for this measure (the absolute kilogram figures varied far more)"
           ],
           [
             "Women lose more than men — 10.9% of body weight against 6.8%",
-            "6 trials, 19,906 adults, the only ones that reported by sex",
+            "6 trials, 19,906 adults, the only ones that could be pooled by sex",
             "Moderate — from a 64-trial meta-analysis, but only 6 of those trials split by sex, and the confidence intervals overlap"
           ],
           [
             "A quarter to 40% of what comes off is lean mass",
-            "Women aged 65 and over",
+            "GLP-1 trials in general, applied by a review to women aged 65 and over",
             "Moderate to low — narrative review; the trials were too varied in design to pool statistically"
           ],
           [
@@ -88,7 +88,7 @@ export default {
           [
             "GLP-1s entered the type 1 diabetes guidelines",
             "Adults with type 1 diabetes and a BMI of 30+",
-            "Guideline consensus, built mostly on liraglutide trials with modest effects"
+            "Guideline recommendation (grade B), built largely on liraglutide trials with modest effects"
           ]
         ]
       },
@@ -98,11 +98,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The largest body-composition analysis to date pooled 24 randomised trials and found average body weight down about 9% at three months, 5% at six months and 4% at twelve. Those descending numbers look alarming until you notice what they are: separate groups of trials reporting at each duration, not one set of people followed across a year. They are not evidence that the drugs stop working. They mostly reflect which trials chose to report when, and how much starting weight differed between them."
+        "text": "A large body-composition meta-analysis pooled 24 studies — randomised trials alongside observational cohorts — and found average body weight down about 9% at three months, 5% at six months and 4% at twelve. Those descending numbers look alarming until you notice what they are: separate groups of studies reporting at each duration, not one set of people followed across a year. They are not evidence that the drugs stop working. They mostly reflect which studies chose to report when, and how much starting weight differed between them."
       },
       {
         "t": "p",
-        "text": "The other big number is the one about women, and it is worth being precise because it has been badly reported. A Johns Hopkins team pooled 64 randomised trials and found that women lost 10.9% of their body weight against 6.8% for men. You will see that written up as women losing “60% more”, which is arithmetically true and wildly oversells it — in absolute terms the gap is about four percentage points of body weight. Two further caveats matter more than the headline. Only 6 of those 64 trials reported results separately by sex at all, and the confidence intervals around the two figures overlap (7.0–14.8% for women, 4.6–9.0% for men). And the researchers’ own emphasis was almost the opposite of how it travelled: their main finding was that these drugs work about equally well regardless of age, race, ethnicity, starting BMI or starting HbA1c. Sex was the single exception in the entire analysis. [The full write-up is here](/blog/glp1-weight-loss-sex-difference-women-men/)."
+        "text": "The other big number is the one about women, and it is worth being precise because it has been badly reported. A Johns Hopkins team pooled 64 randomised trials and found that women lost 10.9% of their body weight against 6.8% for men. You will see that written up as women losing “60% more”, which is arithmetically true and wildly oversells it — in absolute terms the gap is about four percentage points of body weight. Two further caveats matter more than the headline. Only 6 of those 64 trials had results that could be pooled by sex, and the confidence intervals around the two figures overlap (7.0–14.8% for women, 4.6–9.0% for men). And the researchers’ own emphasis was almost the opposite of how it travelled: their main finding was that these drugs work about equally well regardless of age, race, ethnicity, starting BMI or starting HbA1c. Sex was the single exception in the entire analysis. [The full write-up is here](/blog/glp1-weight-loss-sex-difference-women-men/)."
       },
       {
         "t": "p",
@@ -118,7 +118,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Do you lose muscle in absolute terms? Yes. A meta-analysis of seven randomised trials in 821 people found absolute lean mass fell by about 1.74 kg on average, and by considerably more on semaglutide specifically. In women aged 65 and over, [a review put the lean-mass share of total weight loss at roughly a quarter to 40%](/blog/glp1-older-women-lean-mass/). In the SEMALEAN study — 106 patients, mostly women — absolute lean mass dropped around 3 kg in the early months."
+        "text": "Do you lose muscle in absolute terms? Yes. A meta-analysis of seven randomised trials in 821 people found absolute lean mass fell by about 1.74 kg on average, and by considerably more on semaglutide specifically. [A review focused on women aged 65 and over put the lean-mass share of total weight loss in GLP-1 trials at roughly a quarter to 40%](/blog/glp1-older-women-lean-mass/) — a figure from trials in general, not measured in older women specifically. In the SEMALEAN study — 106 patients, mostly women — absolute lean mass dropped around 3 kg in the first seven months."
       },
       {
         "t": "p",
@@ -126,11 +126,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Does your muscle work worse? In the one study that looked, no. In SEMALEAN, the share of participants with sarcopenic obesity — too much fat and too little muscle at once — fell from 49% at the start to 33% after twelve months. The early lean-mass decline stabilised over follow-up, and measures of muscle function improved. That study’s authors concluded that lean-mass loss should not by itself be a reason to withhold these drugs."
+        "text": "Does your muscle work worse? In the one study that looked, no. In SEMALEAN, the share of participants with sarcopenic obesity — too much fat and too little muscle at once — fell from 49% at the start to 33% after twelve months. The early lean-mass decline stabilised over follow-up, and measures of muscle function improved. Its authors still urged careful monitoring, because the loss of limb muscle could tip vulnerable patients towards sarcopenia; it was the seven-trial meta-analysis that concluded lean-mass loss should not be considered a limitation on using these drugs, provided they come with nutrition and exercise."
       },
       {
         "t": "p",
-        "text": "So [“mostly fat, not muscle”](/blog/glp1-weight-loss-drugs-fat-not-muscle/) and “a quarter to 40% is muscle” are the same finding read from opposite ends. A quarter to 40% still leaves the majority coming off as fat. Which end matters to you depends almost entirely on how much muscle you had when you started — which is the honest reason the reassuring version comes from general adult trial populations and the worrying one comes from women aged 65 and over."
+        "text": "So [“mostly fat, not muscle”](/blog/glp1-weight-loss-drugs-fat-not-muscle/) and “a quarter to 40% is muscle” are the same finding read from opposite ends. A quarter to 40% still leaves the majority coming off as fat. Which end matters to you depends almost entirely on how much muscle you had when you started — which is the honest reason the same trial figure reads as reassurance in general adult populations and as a warning in a review of women aged 65 and over, who start with less muscle to spare."
       },
       {
         "t": "h",
@@ -170,7 +170,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The 2026 ADA Standards of Care endorse GLP-1-based therapy for managing obesity in adults with type 1 diabetes and a BMI of 30 or above, for the first time. That is a weight-management recommendation sitting on top of insulin, not a replacement for it, and the drugs are still not licensed specifically for type 1. The underlying evidence is mostly liraglutide, with modest average effects, and the guideline flags a real risk of ketoacidosis occurring even when glucose looks near-normal. [What changed and what it means for women](/blog/ada-2026-glp1-type1-diabetes-women/)."
+        "text": "The 2026 ADA Standards of Care endorse GLP-1-based therapy for managing obesity in adults with type 1 diabetes and a BMI of 30 or above, for the first time. That is a weight-management recommendation sitting on top of insulin, not a replacement for it, and the drugs are still not licensed specifically for type 1. The underlying evidence is mostly liraglutide, with modest average effects, and the guideline flags more hypoglycaemia and a higher risk of ketosis, advises testing for ketones, and says a recent episode of ketoacidosis — including the kind that occurs when glucose looks near-normal — should generally rule starting one out. [What changed and what it means for women](/blog/ada-2026-glp1-type1-diabetes-women/)."
       },
       {
         "t": "h",
@@ -216,14 +216,14 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Across 24 pooled randomised trials, most weight lost on GLP-1 drugs was fat rather than lean tissue.",
-            "detail": "A systematic review and meta-analysis in the International Journal of Obesity searched to December 2024, reviewed 36 studies and pooled 24, with subgroups by drug type and treatment duration. Mean body weight fell approximately 9% at three months, 5% at six and 4% at twelve. Fat mass decline predominated and lean body mass reductions were modest. It reports no sex-stratified results.",
+            "claim": "Across 24 pooled studies, most weight lost on GLP-1 drugs was fat rather than lean tissue.",
+            "detail": "A systematic review and meta-analysis in the International Journal of Obesity searched to December 2024, reviewed 36 studies and pooled 24 — a mix of randomised trials and observational and retrospective studies — with subgroups by drug type and treatment duration. Mean body weight fell approximately 9% at three months, 5% at six and 4% at twelve. Fat mass decline predominated and lean body mass reductions were modest. It reports no sex-stratified results.",
             "cite": "International Journal of Obesity · Systematic review and meta-analysis, 25 April 2026 (PMID 42034831)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/42034831/"
           },
           {
             "claim": "Lean mass rose as a proportion of body weight (+1.81%) while falling in absolute terms (−1.74 kg).",
-            "detail": "A meta-analysis of seven randomised controlled trials in 821 patients with obesity treated at obesity doses versus placebo. Lean mass as a proportion of total weight increased 1.81% (95% CI 1.1–2.52). Absolute lean mass fell 1.74 kg (95% CI −3.04 to −0.45) and the percentage of lean mass fell 3.06%, both with very high heterogeneity (I²=98%); semaglutide showed the largest absolute reduction at −5.44 kg. The authors conclude lean-mass loss should not be considered a limitation on using these drugs, provided treatment is paired with nutrition and exercise.",
+            "detail": "A meta-analysis of seven randomised controlled trials in 821 patients with obesity treated at obesity doses versus placebo. Lean mass as a proportion of total weight increased 1.81% (95% CI 1.1–2.52; I²=7%). Absolute lean mass fell 1.74 kg (95% CI −3.04 to −0.45) and the percentage of lean mass fell 3.06%, both with very high heterogeneity (I²=98%); semaglutide showed the largest absolute reduction at −5.44 kg. The authors conclude lean-mass loss should not be considered a limitation on using these drugs, provided treatment is paired with nutrition and exercise.",
             "cite": "International Journal of Obesity · Systematic review and meta-analysis, 19 June 2026 (PMID 42321502)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/42321502/"
           },
@@ -234,8 +234,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
           },
           {
-            "claim": "In women aged 65 and over, roughly 25–40% of total weight loss was attributed to lean mass.",
-            "detail": "A narrative review in Nutrients synthesising phase 3 trial and real-world data in older women. Women aged ≥65 achieved sustained weight loss of 10–20%. Approximately 25–40% of total weight loss was attributed to lean mass reduction. In the SEMALEAN study (106 patients, predominantly female) absolute lean mass fell about 3 kg early then stabilised, muscle function improved, and sarcopenic obesity prevalence fell from 49% at baseline to 33% at 12 months. The review recommends resistance exercise 2–3 times weekly (about 150 minutes) and 1.2–1.5 g of protein per kg of body weight daily, distributed across meals. Evidence was synthesised narratively because study designs were too heterogeneous to pool.",
+            "claim": "A review of GLP-1s in women aged 65 and over puts the lean-mass share of weight lost in trials at roughly 25–40%.",
+            "detail": "A narrative review in Nutrients synthesising phase 3 trial and real-world data in older women. Women aged ≥65 achieved sustained weight loss of 10–20%. Across GLP-1 trials generally, approximately 25–40% of total weight loss was attributed to lean mass reduction — a figure the review applies to older women rather than one measured in them. In the SEMALEAN study (106 patients, predominantly female) absolute lean mass fell about 3 kg early then stabilised, muscle function improved, and sarcopenic obesity prevalence fell from 49% at baseline to 33% at 12 months. The review recommends resistance exercise 2–3 times weekly (about 150 minutes) and 1.2–1.5 g of protein per kg of body weight daily, distributed across meals. Evidence was synthesised narratively because study designs were too heterogeneous to pool.",
             "cite": "Nutrients · Narrative review, 14 February 2026 (PMID 41754149)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41754149/"
           },
@@ -253,7 +253,7 @@ export default {
           },
           {
             "claim": "The 2026 ADA Standards endorse GLP-1-based therapy for obesity in adults with type 1 diabetes.",
-            "detail": "First inclusion of GLP-1 receptor agonist-based therapy as an option for obesity management in adults with type 1 diabetes and a BMI of 30 or above (27.5 for Asian Americans). Expert consensus built on pooled evidence; the largest type 1 trials used liraglutide 1.8 mg with modest average effects, and the guideline flags risks of hypoglycaemia and euglycaemic ketoacidosis.",
+            "detail": "First inclusion of GLP-1 receptor agonist-based therapy as an option for obesity management in adults with type 1 diabetes and a BMI of 30 or above (27.5 for Asian Americans). A grade B recommendation; the largest randomised type 1 trials used liraglutide 1.8 mg with modest average effects, and the guideline flags increased hypoglycaemia and ketosis, and treats a recent episode of diabetic or euglycaemic ketoacidosis as a reason not to start.",
             "cite": "American Diabetes Association · Standards of Care in Diabetes—2026, Section 8",
             "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S166/163915/8-Obesity-and-Weight-Management-for-the-Prevention"
           },
@@ -320,7 +320,7 @@ export default {
     "faq": [
       {
         "q": "Do GLP-1 drugs make you lose muscle, or not?",
-        "a": "Both answers are in the evidence because they measure different things. In absolute terms yes — a meta-analysis of seven trials found lean mass fell by about 1.74 kg on average. As a proportion of your body, no: the same analysis found lean mass rose by 1.81% as a share of total weight, because far more fat came off than muscle. And in the one study that measured muscle function rather than mass, function improved and sarcopenic obesity became less common over twelve months. The number that should worry you most is the absolute one, and it matters more the less muscle you had to begin with — which is why the figure looks worse in women over 65 (a quarter to 40% of total loss) than in general trial populations."
+        "a": "Both answers are in the evidence because they measure different things. In absolute terms yes — a meta-analysis of seven trials found lean mass fell by about 1.74 kg on average. As a proportion of your body, no: the same analysis found lean mass rose by 1.81% as a share of total weight, because far more fat came off than muscle. And in the one study that measured muscle function rather than mass, function improved and sarcopenic obesity became less common over twelve months. The number that should worry you most is the absolute one, and it matters more the less muscle you had to begin with — which is why a review of women over 65 treats the general trial figure — a quarter to 40% of total loss — as a warning rather than a reassurance."
       },
       {
         "q": "Why does this site have seven different posts saying different things?",
@@ -342,7 +342,7 @@ export default {
     "title": "Препарати GLP-1 після 40: що ми насправді знаємо — і чому заголовки постійно суперечать одне одному",
     "seoTitle": "GLP-1 після 40: що насправді кажуть дослідження",
     "metaDesc": "Сім досліджень про препарати GLP-1, зібрані поруч. Більшість суперечностей — це відмінності в тому, кого вимірювали. Усе в одному місці, із оцінкою надійності кожного висновку.",
-    "excerpt": "Одне дослідження каже, що GLP-1 спалюють жир, а не м’язи, інше — що від чверті до 40% втраченого — це м’язи. Вони вимірювали різних жінок різними методами. Тут усе разом.",
+    "excerpt": "Одне дослідження каже, що GLP-1 спалюють жир, а не м’язи, інше — що від чверті до 40% втраченого — це м’язи. Вони відповідали на різні запитання про різних жінок. Тут усе разом.",
     "meta": "21 серпня 2026 · 10 хв читання",
     "lead": "Я писала про препарати GLP-1 сім разів за шість тижнів, і якщо прочитати ці матеріали поспіль, легко вирішити, що в дослідженнях панує хаос. Один каже, що втрачена вага — це переважно жир. Наступний — що від чверті до 40% це м’язи. Третій — що разом із вагою ви втрачаєте кістку, яка вже не повернеться. Здається, ніби вони суперечать одне одному. Майже жодне з них насправді не суперечить — і причина корисніша за будь-який окремий результат.",
     "blocks": [
@@ -352,7 +352,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Перша — кого вимірювали. Дослідження дорослих з ожирінням наприкінці четвертого десятка і огляд жінок віком 65 років і старших описують різні тіла. Той самий препарат може дати заспокійливу цифру в одному й тривожну в іншому, і жодна з них не буде хибною."
+        "text": "Перша — кого вимірювали. Дослідження дорослих з ожирінням наприкінці п’ятого десятка і огляд жінок віком 65 років і старших описують різні тіла. Той самий препарат може дати заспокійливу цифру в одному й тривожну в іншому, і жодна з них не буде хибною."
       },
       {
         "t": "p",
@@ -377,21 +377,21 @@ export default {
           [
             "Більшість втраченої ваги — це жир, а не м’язи",
             "Дорослі з надмірною вагою або ожирінням, із діабетом 2 типу або без — загальні популяції досліджень",
-            "Високо — систематичний огляд, що об’єднав 24 рандомізовані дослідження"
+            "Помірно-високо — систематичний огляд, що об’єднав 24 дослідження, як рандомізовані, так і спостережні"
           ],
           [
             "Частка м’язової маси в тілі насправді зростає",
             "Дорослі з ожирінням, 7 досліджень, 821 особа",
-            "Високо — метааналіз рандомізованих досліджень, проте із дуже високою статистичною неоднорідністю"
+            "Високо — метааналіз рандомізованих досліджень, результати за цим показником узгоджені (абсолютні цифри в кілограмах різнилися значно більше)"
           ],
           [
             "Жінки втрачають більше за чоловіків — 10,9% маси тіла проти 6,8%",
-            "6 досліджень, 19 906 дорослих — єдині, що звітували в розрізі статі",
+            "6 досліджень, 19 906 дорослих — єдині, які вдалося об’єднати в розрізі статі",
             "Помірно — з метааналізу 64 досліджень, але лише 6 із них розділяли за статтю, і довірчі інтервали перекриваються"
           ],
           [
             "Від чверті до 40% втраченого — це м’язова маса",
-            "Жінки віком 65 років і старші",
+            "Дослідження GLP-1 загалом, застосовані оглядом до жінок віком 65 років і старших",
             "Помірно-низько — наративний огляд; дизайни досліджень були надто різними, щоб об’єднати їх статистично"
           ],
           [
@@ -412,7 +412,7 @@ export default {
           [
             "GLP-1 увійшли до настанов щодо діабету 1 типу",
             "Дорослі з діабетом 1 типу та ІМТ від 30",
-            "Консенсус настанов, побудований переважно на дослідженнях ліраглутиду з помірним ефектом"
+            "Рекомендація настанов (рівень B), побудована переважно на дослідженнях ліраглутиду з помірним ефектом"
           ]
         ]
       },
@@ -422,11 +422,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найбільший на сьогодні аналіз складу тіла об’єднав 24 рандомізовані дослідження і виявив, що середня маса тіла знизилася приблизно на 9% за три місяці, на 5% за шість і на 4% за дванадцять. Ці спадні цифри виглядають тривожно, доки не помітиш, що вони таке: це окремі групи досліджень, які звітували на кожному з термінів, а не одні й ті самі люди, за якими спостерігали рік. Це не доказ того, що препарати перестають діяти. Здебільшого це відображає те, які дослідження вирішили звітувати коли — і наскільки різнилася стартова вага учасників."
+        "text": "Великий метааналіз складу тіла об’єднав 24 дослідження — рандомізовані разом зі спостережними — і виявив, що середня маса тіла знизилася приблизно на 9% за три місяці, на 5% за шість і на 4% за дванадцять. Ці спадні цифри виглядають тривожно, доки не помітиш, що вони таке: це окремі групи досліджень, які звітували на кожному з термінів, а не одні й ті самі люди, за якими спостерігали рік. Це не доказ того, що препарати перестають діяти. Здебільшого це відображає те, які дослідження вирішили звітувати коли — і наскільки різнилася стартова вага учасників."
       },
       {
         "t": "p",
-        "text": "Друга велика цифра стосується жінок, і тут варто бути точними, бо її подавали дуже неакуратно. Команда Джонса Гопкінса об’єднала 64 рандомізовані дослідження й виявила, що жінки втратили 10,9% маси тіла проти 6,8% у чоловіків. Ви побачите це як «жінки худнуть на 60% більше» — арифметично правильно й шалено перебільшено: в абсолютних величинах різниця становить близько чотирьох відсоткових пунктів маси тіла. Два інші застереження важливіші за заголовок. Лише 6 із тих 64 досліджень узагалі наводили результати окремо за статтю, а довірчі інтервали навколо обох цифр перекриваються (7,0–14,8% у жінок, 4,6–9,0% у чоловіків). І акцент самих дослідників був майже протилежним до того, як це розійшлося: їхній головний висновок — що ці препарати діють приблизно однаково незалежно від віку, раси, етнічності, стартового ІМТ чи стартового HbA1c. Стать була єдиним винятком у всьому аналізі. [Повний розбір тут](/ua/blog/glp1-weight-loss-sex-difference-women-men/)."
+        "text": "Друга велика цифра стосується жінок, і тут варто бути точними, бо її подавали дуже неакуратно. Команда Джонса Гопкінса об’єднала 64 рандомізовані дослідження й виявила, що жінки втратили 10,9% маси тіла проти 6,8% у чоловіків. Ви побачите це як «жінки худнуть на 60% більше» — арифметично правильно й шалено перебільшено: в абсолютних величинах різниця становить близько чотирьох відсоткових пунктів маси тіла. Два інші застереження важливіші за заголовок. Лише 6 із тих 64 досліджень мали результати, які вдалося об’єднати за статтю, а довірчі інтервали навколо обох цифр перекриваються (7,0–14,8% у жінок, 4,6–9,0% у чоловіків). І акцент самих дослідників був майже протилежним до того, як це розійшлося: їхній головний висновок — що ці препарати діють приблизно однаково незалежно від віку, раси, етнічності, стартового ІМТ чи стартового HbA1c. Стать була єдиним винятком у всьому аналізі. [Повний розбір тут](/ua/blog/glp1-weight-loss-sex-difference-women-men/)."
       },
       {
         "t": "p",
@@ -442,7 +442,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Чи втрачаєте ви м’язи в абсолютних величинах? Так. Метааналіз семи рандомізованих досліджень за участю 821 особи виявив, що абсолютна м’язова маса знизилася в середньому приблизно на 1,74 кг, а на семаглутиді — значно більше. У жінок віком 65 років і старших [огляд оцінив частку м’язової маси в загальній втраті ваги приблизно у чверть-40%](/ua/blog/glp1-older-women-lean-mass/). У дослідженні SEMALEAN — 106 пацієнтів, переважно жінки — абсолютна м’язова маса впала приблизно на 3 кг у перші місяці."
+        "text": "Чи втрачаєте ви м’язи в абсолютних величинах? Так. Метааналіз семи рандомізованих досліджень за участю 821 особи виявив, що абсолютна м’язова маса знизилася в середньому приблизно на 1,74 кг, а на семаглутиді — значно більше. [Огляд, присвячений жінкам віком 65 років і старшим, оцінив частку м’язової маси в загальній втраті ваги в дослідженнях GLP-1 приблизно у чверть-40%](/ua/blog/glp1-older-women-lean-mass/) — це цифра з досліджень загалом, а не виміряна саме у старших жінок. У дослідженні SEMALEAN — 106 пацієнтів, переважно жінки — абсолютна м’язова маса впала приблизно на 3 кг за перші сім місяців."
       },
       {
         "t": "p",
@@ -450,11 +450,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Чи гірше працюють ваші м’язи? У єдиному дослідженні, яке це перевіряло, — ні. У SEMALEAN частка учасників із саркопенічним ожирінням (забагато жиру й замало м’язів водночас) знизилася з 49% на початку до 33% через дванадцять місяців. Раннє зниження м’язової маси стабілізувалося протягом спостереження, а показники функції м’язів покращилися. Автори дійшли висновку, що сама лише втрата м’язової маси не є підставою відмовляти в цих препаратах."
+        "text": "Чи гірше працюють ваші м’язи? У єдиному дослідженні, яке це перевіряло, — ні. У SEMALEAN частка учасників із саркопенічним ожирінням (забагато жиру й замало м’язів водночас) знизилася з 49% на початку до 33% через дванадцять місяців. Раннє зниження м’язової маси стабілізувалося протягом спостереження, а показники функції м’язів покращилися. Проте автори закликали ретельно стежити за станом м’язів, бо втрата м’язів кінцівок може підштовхнути вразливих пацієнтів до саркопенії; а висновок, що втрата м’язової маси не має вважатися обмеженням для застосування цих препаратів за умови поєднання з харчуванням і фізичними навантаженнями, зробили автори метааналізу семи досліджень."
       },
       {
         "t": "p",
-        "text": "Отже, [«переважно жир, а не м’язи»](/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/) і «чверть-40% це м’язи» — той самий висновок, прочитаний з протилежних боків. Чверть-40% усе одно лишає більшість втраченого на жир. Який бік важливіший саме для вас, залежить майже цілком від того, скільки м’язів у вас було на старті — і це чесна причина, чому заспокійлива версія походить із загальних дорослих популяцій, а тривожна — від жінок віком 65 років і старших."
+        "text": "Отже, [«переважно жир, а не м’язи»](/ua/blog/glp1-weight-loss-drugs-fat-not-muscle/) і «чверть-40% це м’язи» — той самий висновок, прочитаний з протилежних боків. Чверть-40% усе одно лишає більшість втраченого на жир. Який бік важливіший саме для вас, залежить майже цілком від того, скільки м’язів у вас було на старті — і це чесна причина, чому та сама цифра з досліджень звучить заспокійливо для загальних дорослих популяцій і як попередження в огляді про жінок віком 65 років і старших, у яких запас м’язів менший."
       },
       {
         "t": "h",
@@ -494,7 +494,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Настанови ADA 2026 вперше підтримують терапію на основі GLP-1 для лікування ожиріння в дорослих із діабетом 1 типу та ІМТ від 30. Це рекомендація щодо ваги, яка накладається на інсулін, а не замінює його, і препарати досі не ліцензовані спеціально для діабету 1 типу. Доказова база — переважно ліраглутид із помірними середніми ефектами, а настанови окремо наголошують на реальному ризику кетоацидозу навіть тоді, коли глюкоза виглядає майже нормальною. [Що змінилося і що це означає для жінок](/ua/blog/ada-2026-glp1-type1-diabetes-women/)."
+        "text": "Настанови ADA 2026 вперше підтримують терапію на основі GLP-1 для лікування ожиріння в дорослих із діабетом 1 типу та ІМТ від 30. Це рекомендація щодо ваги, яка накладається на інсулін, а не замінює його, і препарати досі не ліцензовані спеціально для діабету 1 типу. Доказова база — переважно ліраглутид із помірними середніми ефектами, а настанови наголошують на частішій гіпоглікемії та вищому ризику кетозу, радять перевіряти кетони й зазначають, що нещодавній епізод кетоацидозу — зокрема такого, що виникає, коли глюкоза виглядає майже нормальною, — зазвичай є причиною не починати лікування. [Що змінилося і що це означає для жінок](/ua/blog/ada-2026-glp1-type1-diabetes-women/)."
       },
       {
         "t": "h",
@@ -540,14 +540,14 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "У 24 об’єднаних рандомізованих дослідженнях більшість втраченої на препаратах GLP-1 ваги припадала на жир, а не на м’язову тканину.",
-            "detail": "Систематичний огляд і метааналіз в International Journal of Obesity: пошук до грудня 2024 року, 36 досліджень у якісному аналізі, 24 об’єднані статистично, підгрупи за типом препарату й тривалістю лікування. Середня маса тіла знизилася приблизно на 9% за три місяці, 5% за шість і 4% за дванадцять. Переважало зменшення жирової маси, зменшення м’язової було помірним. Результатів у розрізі статі не наводить.",
+            "claim": "У 24 об’єднаних дослідженнях більшість втраченої на препаратах GLP-1 ваги припадала на жир, а не на м’язову тканину.",
+            "detail": "Систематичний огляд і метааналіз в International Journal of Obesity: пошук до грудня 2024 року, 36 досліджень у якісному аналізі, 24 об’єднані статистично (як рандомізовані, так і спостережні та ретроспективні), підгрупи за типом препарату й тривалістю лікування. Середня маса тіла знизилася приблизно на 9% за три місяці, 5% за шість і 4% за дванадцять. Переважало зменшення жирової маси, зменшення м’язової було помірним. Результатів у розрізі статі не наводить.",
             "cite": "International Journal of Obesity · Систематичний огляд і метааналіз, 25 квітня 2026 (PMID 42034831)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/42034831/"
           },
           {
             "claim": "М’язова маса зросла як частка маси тіла (+1,81%), водночас знизившись в абсолютних величинах (−1,74 кг).",
-            "detail": "Метааналіз семи рандомізованих контрольованих досліджень за участю 821 пацієнта з ожирінням, які отримували препарати в дозах для лікування ожиріння, проти плацебо. М’язова маса як частка загальної маси зросла на 1,81% (95% ДІ 1,1–2,52). Абсолютна м’язова маса знизилася на 1,74 кг (95% ДІ −3,04 до −0,45), відсоток м’язової маси — на 3,06%, обидва з дуже високою неоднорідністю (I²=98%); найбільше абсолютне зниження показав семаглутид — −5,44 кг. Автори роблять висновок, що втрата м’язової маси не має вважатися обмеженням для застосування цих препаратів за умови поєднання з харчуванням і фізичними навантаженнями.",
+            "detail": "Метааналіз семи рандомізованих контрольованих досліджень за участю 821 пацієнта з ожирінням, які отримували препарати в дозах для лікування ожиріння, проти плацебо. М’язова маса як частка загальної маси зросла на 1,81% (95% ДІ 1,1–2,52; I²=7%). Абсолютна м’язова маса знизилася на 1,74 кг (95% ДІ −3,04 до −0,45), відсоток м’язової маси — на 3,06%, обидва з дуже високою неоднорідністю (I²=98%); найбільше абсолютне зниження показав семаглутид — −5,44 кг. Автори роблять висновок, що втрата м’язової маси не має вважатися обмеженням для застосування цих препаратів за умови поєднання з харчуванням і фізичними навантаженнями.",
             "cite": "International Journal of Obesity · Систематичний огляд і метааналіз, 19 червня 2026 (PMID 42321502)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/42321502/"
           },
@@ -558,8 +558,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
           },
           {
-            "claim": "У жінок віком 65 років і старших приблизно 25–40% загальної втрати ваги припадало на м’язову масу.",
-            "detail": "Наративний огляд у Nutrients, що узагальнює дані досліджень 3-ї фази та реальної практики щодо старших жінок. Жінки віком ≥65 досягали стійкої втрати ваги 10–20%. Приблизно 25–40% загальної втрати ваги віднесено до зменшення м’язової маси. У дослідженні SEMALEAN (106 пацієнтів, переважно жінки) абсолютна м’язова маса знизилася приблизно на 3 кг на ранньому етапі, потім стабілізувалася, функція м’язів покращилася, а поширеність саркопенічного ожиріння впала з 49% на початку до 33% через 12 місяців. Огляд рекомендує силові навантаження 2–3 рази на тиждень (близько 150 хвилин) і 1,2–1,5 г білка на кг маси тіла на добу, розподілені між прийомами їжі. Дані узагальнено наративно, бо дизайни досліджень були надто неоднорідними для об’єднання.",
+            "claim": "Огляд GLP-1 у жінок віком 65 років і старших оцінює частку м’язової маси у втраченій у дослідженнях вазі приблизно у 25–40%.",
+            "detail": "Наративний огляд у Nutrients, що узагальнює дані досліджень 3-ї фази та реальної практики щодо старших жінок. Жінки віком ≥65 досягали стійкої втрати ваги 10–20%. У дослідженнях GLP-1 загалом приблизно 25–40% загальної втрати ваги віднесено до зменшення м’язової маси — цю цифру огляд застосовує до старших жінок, а не вимірює в них. У дослідженні SEMALEAN (106 пацієнтів, переважно жінки) абсолютна м’язова маса знизилася приблизно на 3 кг на ранньому етапі, потім стабілізувалася, функція м’язів покращилася, а поширеність саркопенічного ожиріння впала з 49% на початку до 33% через 12 місяців. Огляд рекомендує силові навантаження 2–3 рази на тиждень (близько 150 хвилин) і 1,2–1,5 г білка на кг маси тіла на добу, розподілені між прийомами їжі. Дані узагальнено наративно, бо дизайни досліджень були надто неоднорідними для об’єднання.",
             "cite": "Nutrients · Наративний огляд, 14 лютого 2026 (PMID 41754149)",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41754149/"
           },
@@ -577,7 +577,7 @@ export default {
           },
           {
             "claim": "Настанови ADA 2026 підтримують терапію на основі GLP-1 для лікування ожиріння в дорослих із діабетом 1 типу.",
-            "detail": "Уперше терапію на основі агоністів рецепторів GLP-1 включено як опцію для лікування ожиріння в дорослих із діабетом 1 типу та ІМТ від 30 (27,5 для американців азійського походження). Це експертний консенсус на основі об’єднаних даних; найбільші дослідження при діабеті 1 типу використовували ліраглутид 1,8 мг із помірними середніми ефектами, а настанови наголошують на ризиках гіпоглікемії та еуглікемічного кетоацидозу.",
+            "detail": "Уперше терапію на основі агоністів рецепторів GLP-1 включено як опцію для лікування ожиріння в дорослих із діабетом 1 типу та ІМТ від 30 (27,5 для американців азійського походження). Це рекомендація рівня B; найбільші рандомізовані дослідження при діабеті 1 типу використовували ліраглутид 1,8 мг із помірними середніми ефектами, а настанови наголошують на частішій гіпоглікемії й кетозі та вважають нещодавній епізод діабетичного чи еуглікемічного кетоацидозу причиною не починати лікування.",
             "cite": "American Diabetes Association · Standards of Care in Diabetes—2026, розділ 8",
             "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S166/163915/8-Obesity-and-Weight-Management-for-the-Prevention"
           },
@@ -644,7 +644,7 @@ export default {
     "faq": [
       {
         "q": "То препарати GLP-1 призводять до втрати м’язів чи ні?",
-        "a": "Обидві відповіді є в доказах, бо вони вимірюють різні речі. В абсолютних величинах — так: метааналіз семи досліджень виявив зниження м’язової маси в середньому приблизно на 1,74 кг. Як частка тіла — ні: той самий аналіз показав зростання частки м’язової маси на 1,81% від загальної маси, бо жиру пішло значно більше, ніж м’язів. А в єдиному дослідженні, яке вимірювало функцію м’язів, а не масу, функція покращилася, а саркопенічне ожиріння стало рідшим за дванадцять місяців. Найбільше має турбувати саме абсолютна цифра — і вона важить тим більше, чим менше м’язів у вас було на старті. Саме тому показник виглядає гірше в жінок після 65 (чверть-40% загальної втрати), ніж у загальних популяціях досліджень."
+        "a": "Обидві відповіді є в доказах, бо вони вимірюють різні речі. В абсолютних величинах — так: метааналіз семи досліджень виявив зниження м’язової маси в середньому приблизно на 1,74 кг. Як частка тіла — ні: той самий аналіз показав зростання частки м’язової маси на 1,81% від загальної маси, бо жиру пішло значно більше, ніж м’язів. А в єдиному дослідженні, яке вимірювало функцію м’язів, а не масу, функція покращилася, а саркопенічне ожиріння стало рідшим за дванадцять місяців. Найбільше має турбувати саме абсолютна цифра — і вона важить тим більше, чим менше м’язів у вас було на старті. Саме тому огляд про жінок після 65 сприймає загальну цифру з досліджень — чверть-40% загальної втрати — як попередження, а не як заспокоєння."
       },
       {
         "q": "Чому на цьому сайті сім різних матеріалів, які кажуть різне?",

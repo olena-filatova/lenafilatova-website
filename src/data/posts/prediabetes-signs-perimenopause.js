@@ -74,7 +74,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "But here is where the popular version of this story overreaches, and it is worth correcting. Menopause is not a switch that turns diabetes risk on. A UK Biobank study of nearly 147,000 women, followed for an average of 14.5 years and published in the journal Menopause in January 2026, looked specifically at whether the age at menopause or the type of menopause predicted developing diabetes. It did not. Diabetes appeared in 5.2% of women with earlier-onset menopause and 4.2% of those with menopause at a standard age — a gap that looks like something until the confounders are accounted for, at which point the authors concluded there was no independent or clinically significant relationship between the timing or type of menopause and the onset of diabetes."
+        "text": "But here is where the popular version of this story overreaches, and it is worth correcting. Menopause is not a switch that turns diabetes risk on. A UK Biobank study of nearly 147,000 women, followed for an average of 14.5 years and published in the journal Menopause in January 2026, looked specifically at whether the age at menopause or the type of menopause predicted developing diabetes. It did not. Diabetes appeared in 5.2% of women whose menopause came at 40–45 and 7.4% of those before 40, against 4.2% of those with menopause after 45 — a gap that looks like something until the confounders are accounted for, at which point the authors concluded there was no independent or clinically significant relationship between the timing or type of menopause and the onset of diabetes."
       },
       {
         "t": "p",
@@ -86,15 +86,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "An analysis reported in July 2026 took twenty years of American national health survey data — 3,574 women aged 45 and over who had been through natural menopause, sampled between 2003 and 2023 — and asked how the numbers had moved. Prediabetes rose from 24.3% to 35.2%: from roughly one in four women to more than one in three. Diagnosed diabetes barely shifted, from 11.3% to 11.9%."
+        "text": "An analysis reported in July 2026 took twenty years of American national health survey data — 3,574 women aged 45 and over who had been through natural menopause, sampled between 2003 and 2023 — and asked how the numbers had moved. Prediabetes rose from 24.3% to 35.2%: from roughly one in four women to more than one in three. Diabetes — counting both diagnosed cases and those picked up by the survey’s own blood tests — barely shifted, from 11.3% to 11.9%."
       },
       {
         "t": "p",
-        "text": "The figure that matters for this article is the third one. Unrecognised high blood sugar — women whose blood results sat in the prediabetes or diabetes range but who had never been told by a clinician that anything was wrong — rose from 23.9% to 32.9%. Close to a third. And it was not evenly spread: compared with non-Hispanic white women, non-Hispanic Black women had 2.3 times the odds of their high blood sugar going unrecognised, and Hispanic and Latina women 1.58 times. Lower income and less education raised the odds too. Being unwell and being told you are unwell are, it turns out, two different variables."
+        "text": "The figure that matters for this article is the third one. Unrecognised high blood sugar — women whose blood results sat in the prediabetes or diabetes range but who had never been told by a clinician that anything was wrong — rose from 23.9% to 32.9%. Close to a third. And it was not evenly spread: compared with non-Hispanic white women, non-Hispanic Black women had 2.3 times the odds of having high blood sugar that had gone unrecognised, rather than normal blood sugar, and Hispanic and Latina women 1.58 times the odds. Lower income and less education raised the odds too. Being unwell and being told you are unwell are, it turns out, two different variables."
       },
       {
         "t": "p",
-        "text": "Read it with its limits on. This is American survey data, each round a fresh snapshot of different people rather than the same women followed over time, so it describes a population trend and cannot prove menopause caused any of it — ageing and rising weight across the whole population are doing some of the work. The UK is not the US, and our screening pathways differ. But a third of a group going unrecognised is not a rounding error, and it is the specific failure this article is about."
+        "text": "Read it with its limits on. This is American survey data, each round a fresh snapshot of different people rather than the same women followed over time, so it describes a population trend and cannot prove menopause caused any of it — ageing and rising weight across the whole population are doing some of the work. The UK is not the US, and our screening pathways differ. But a third of a group with high blood sugar nobody has told them about is not a rounding error, and it is the specific failure this article is about."
       },
       {
         "t": "h",
@@ -106,11 +106,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "It helps to know what the numbers mean before you are looking at them across a desk. The NHS does not generally use the word prediabetes; the term on the paperwork is non-diabetic hyperglycaemia. An HbA1c of 42–47 mmol/mol (6.0–6.4%), or a fasting plasma glucose of 5.5–6.9 mmol/L, is the in-between range, and 48 mmol/mol is the threshold for diabetes. These are not numbers to apply to yourself from a home device — they are what your GP will be working from, and knowing them turns the appointment into a conversation rather than a verdict you receive."
+        "text": "It helps to know what the numbers mean before you are looking at them across a desk. The formal NHS term for prediabetes, and the one you may see on the paperwork, is non-diabetic hyperglycaemia. An HbA1c of 42–47 mmol/mol (6.0–6.4%), or a fasting plasma glucose of 5.5–6.9 mmol/L, is the in-between range, and 48 mmol/mol is the threshold for diabetes. These are not numbers to apply to yourself from a home device — they are what your GP will be working from, and knowing them turns the appointment into a conversation rather than a verdict you receive."
       },
       {
         "t": "p",
-        "text": "Two practical routes in. If you are between 40 and 74 and have not had an NHS Health Check in the last five years, you are entitled to one and it includes a blood sugar check — that is the least confrontational way to get tested. If you would rather raise it directly, ask for the test rather than describing how you feel: “I’d like my HbA1c checked” gets further than “I’m exhausted”, and it helps to say out loud anything that raises your risk — a parent or sibling with type 2 diabetes, PCOS or PMOS, gestational diabetes in a past pregnancy, or a South Asian, Black African or African Caribbean background. Bring the specific patterns you noticed, in the words you would use to a friend."
+        "text": "Two practical routes in. If you are between 40 and 74 and have not had an NHS Health Check in the last five years, you are entitled to one, and it can include a blood sugar test — that is the least confrontational way to get tested. If you would rather raise it directly, ask for the test rather than describing how you feel: “I’d like my HbA1c checked” gets further than “I’m exhausted”, and it helps to say out loud anything that raises your risk — a parent or sibling with type 2 diabetes, PCOS or PMOS, gestational diabetes in a past pregnancy, or a South Asian, Black African or African Caribbean background. Bring the specific patterns you noticed, in the words you would use to a friend."
       },
       {
         "t": "p",
@@ -140,15 +140,15 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Around a third of naturally menopausal US women now have prediabetes, and close to a third of high blood sugar in this group is going unrecognised.",
-            "detail": "Analysis of twenty years of the US National Health and Nutrition Examination Survey (NHANES), covering 3,574 women aged 45 and over who had been through natural menopause, sampled 2003–2023, reported in July 2026. Prediabetes prevalence rose from 24.3% to 35.2%; diagnosed diabetes moved little, 11.3% to 11.9%; unrecognised hyperglycaemia — blood results in the prediabetes or diabetes range in women who did not report ever having been told by a clinician — rose from 23.9% to 32.9%. Compared with non-Hispanic white women, non-Hispanic Black women had 2.3 times the odds of unrecognised hyperglycaemia and Hispanic/Latina women 1.58 times; lower income and lower educational attainment also raised the odds. NHANES is a repeated cross-sectional survey — each round samples different people — so it describes population trends and cannot establish that menopause caused the rise; population-wide ageing and weight trends are plausible contributors, and the findings are American rather than British.",
-            "cite": "NHANES analysis 2003–2023, reported July 2026",
-            "url": "https://www.theflowspace.com/physical-health/conditions-treatments/menopause-blood-sugar-prediabetes-signs-3039009/"
+            "claim": "Around a third of naturally menopausal US women now have prediabetes, and close to a third have high blood sugar that no clinician has told them about.",
+            "detail": "Analysis of twenty years of the US National Health and Nutrition Examination Survey (NHANES), covering 3,574 women aged 45 and over who had been through natural menopause, sampled 2003–2023, published in Women’s Health in July 2026. Prediabetes prevalence rose from 24.3% to 35.2%; diabetes (self-reported or detected on the survey’s blood tests) moved little, 11.3% to 11.9%; unrecognised hyperglycaemia — blood results in the prediabetes or diabetes range in women who did not report ever having been told by a clinician — rose from 23.9% to 32.9%. Compared with non-Hispanic white women, non-Hispanic Black women had 2.3 times the odds of unrecognised hyperglycaemia (versus normal glucose) and Hispanic/Latina women 1.58 times, adjusted for education, income, marital and employment status; lower income and lower educational attainment also raised the odds. NHANES is a repeated cross-sectional survey — each round samples different people — so it describes population trends and cannot establish that menopause caused the rise; population-wide ageing and weight trends are plausible contributors, and the findings are American rather than British.",
+            "cite": "Park J-H et al. · Trends in type 2 diabetes, prediabetes, and hyperglycemic recognition among menopausal women: a 20-year analysis of sociodemographic disparities · Women’s Health, July 2026",
+            "url": "https://doi.org/10.1177/17455057261474458"
           },
           {
             "claim": "Neither the age at menopause nor the type of menopause independently predicts developing diabetes.",
-            "detail": "UK Biobank cohort study of nearly 147,000 women followed for a mean of 14.5 years, published in Menopause in January 2026. Mean age 60; around 60% were overweight or obese; about 4.5% (roughly 6,600 women) were diagnosed with diabetes during follow-up. Incidence was 5.2% in women with earlier-onset menopause versus 4.2% with menopause at a standard age, but the authors attributed apparent associations in preliminary analyses to confounding and concluded there was no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes. An observational cohort cannot exclude residual confounding, and UK Biobank participants are healthier and less deprived than the UK population as a whole.",
-            "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, January 2026",
+            "detail": "UK Biobank cohort study of nearly 147,000 women followed for a mean of 14.5 years, published in Menopause in January 2026. Mean age 60; around 60% were overweight or obese; about 4.5% (roughly 6,600 women) were diagnosed with diabetes during follow-up. Incidence was 5.2% in women with menopause at 40–45 and 7.4% before 40, versus 4.2% with menopause after 45, but the authors attributed apparent associations in preliminary analyses to confounding and concluded there was no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes. An observational cohort cannot exclude residual confounding, and UK Biobank participants are healthier and less deprived than the UK population as a whole.",
+            "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, 2026 (online January)",
             "url": "https://doi.org/10.1097/GME.0000000000002720"
           },
           {
@@ -158,7 +158,7 @@ export default {
             "url": "https://www.england.nhs.uk/wp-content/uploads/2016/08/dpp-faq.pdf"
           },
           {
-            "claim": "Falling sex hormone-binding globulin and rising liver fat track with higher insulin in midlife women, independently of how much they weigh.",
+            "claim": "Lower sex hormone-binding globulin and more liver fat go with higher insulin in midlife women, independently of how much they weigh.",
             "detail": "An imaging substudy within the Study of Women’s Health Across the Nation (SWAN): 208 African American and Caucasian midlife women, mean age 50.9, who had CT scans quantifying visceral, subcutaneous and liver fat. Both higher liver fat and lower sex hormone-binding globulin were significantly associated with higher insulin concentrations after adjustment for adiposity (r = −0.25, P < 0.001 and r = −0.18, P = 0.01), and the two had additive effects — women with the lowest SHBG and the highest liver fat had the highest insulin. Note the size and the shape of this: 208 women, measured at one point rather than followed, so it shows what travels together in midlife bodies and cannot show what changes across the transition or what causes what.",
             "cite": "Kavanagh K et al. · Liver fat and SHBG affect insulin resistance in midlife women (SWAN) · Obesity, 2013",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.20077"
@@ -199,11 +199,11 @@ export default {
       },
       {
         "q": "What blood test should I ask for, and do I need to fast?",
-        "a": "HbA1c is the usual first test in the UK. It reflects average glucose over the previous two to three months, needs no fasting, and can be done at any time of day. A fasting plasma glucose measures a single moment after an overnight fast and can look reassuring when an HbA1c would not, so asking for HbA1c by name is worth doing. If you are 40 to 74 and have not had an NHS Health Check in five years, that route includes a blood sugar check without you having to make the case at all."
+        "a": "HbA1c is the usual first test in the UK. It reflects average glucose over the previous two to three months, needs no fasting, and can be done at any time of day. A fasting plasma glucose measures a single moment after an overnight fast and can look reassuring when an HbA1c would not, so asking for HbA1c by name is worth doing. If you are 40 to 74 and have not had an NHS Health Check in five years, that route assesses your diabetes risk and can include a blood sugar test without you having to make the case at all."
       },
       {
         "q": "Does going through menopause early mean I will get type 2 diabetes?",
-        "a": "The largest study to look at this says no. A UK Biobank cohort of nearly 147,000 women, followed for an average of 14.5 years and published in January 2026, found no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes once confounders were accounted for. The raw difference — 5.2% versus 4.2% — did not survive adjustment. Risk in this decade tracks far more closely with body composition, activity and sleep than with the date of your last period."
+        "a": "A large study that looked at exactly this says no. A UK Biobank cohort of nearly 147,000 women, followed for an average of 14.5 years and published in January 2026, found no independent or clinically significant relationship between the age or type of menopause and the onset of diabetes once confounders were accounted for. The raw differences — 5.2% with menopause at 40–45 and 7.4% before 40, versus 4.2% after 45 — did not survive adjustment. The things that did track with diabetes in that study were ones you can measure and change — weight, smoking, diet — rather than the date of your last period."
       },
       {
         "q": "My blood sugar came back normal but I still feel exhausted. What now?",
@@ -267,7 +267,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Але тут популярна версія цієї історії заходить надто далеко, і це варто виправити. Менопауза — не вимикач, який умикає ризик діабету. Дослідження на базі UK Biobank за участю майже 147 000 жінок, за якими спостерігали в середньому 14,5 року, опубліковане в журналі Menopause у січні 2026 року, перевіряло саме це: чи передбачає вік настання менопаузи або її тип розвиток діабету. Не передбачає. Діабет виник у 5,2% жінок із ранньою менопаузою і в 4,2% жінок із менопаузою у звичайному віці — розрив, який виглядає значущим, поки не врахувати конфаундери; після цього автори дійшли висновку, що незалежного чи клінічно значущого зв’язку між часом або типом менопаузи й початком діабету немає."
+        "text": "Але тут популярна версія цієї історії заходить надто далеко, і це варто виправити. Менопауза — не вимикач, який умикає ризик діабету. Дослідження на базі UK Biobank за участю майже 147 000 жінок, за якими спостерігали в середньому 14,5 року, опубліковане в журналі Menopause у січні 2026 року, перевіряло саме це: чи передбачає вік настання менопаузи або її тип розвиток діабету. Не передбачає. Діабет виник у 5,2% жінок, у яких менопауза настала у 40–45 років, і в 7,4% — до 40, проти 4,2% серед тих, у кого вона настала після 45 — розрив, який виглядає значущим, поки не врахувати конфаундери; після цього автори дійшли висновку, що незалежного чи клінічно значущого зв’язку між часом або типом менопаузи й початком діабету немає."
       },
       {
         "t": "p",
@@ -279,15 +279,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Аналіз, оприлюднений у липні 2026 року, узяв двадцять років даних американського національного опитування здоров’я — 3 574 жінки віком від 45 років, які пройшли природну менопаузу, вибірки з 2003 по 2023 рік — і подивився, як змінилися цифри. Предіабет зріс із 24,3% до 35,2%: приблизно з однієї з чотирьох жінок до більш ніж однієї з трьох. Діагностований діабет майже не зрушив: з 11,3% до 11,9%."
+        "text": "Аналіз, оприлюднений у липні 2026 року, узяв двадцять років даних американського національного опитування здоров’я — 3 574 жінки віком від 45 років, які пройшли природну менопаузу, вибірки з 2003 по 2023 рік — і подивився, як змінилися цифри. Предіабет зріс із 24,3% до 35,2%: приблизно з однієї з чотирьох жінок до більш ніж однієї з трьох. Діабет — з урахуванням і встановлених діагнозів, і випадків, виявлених аналізами самого опитування, — майже не зрушив: з 11,3% до 11,9%."
       },
       {
         "t": "p",
-        "text": "Найважливіша для цієї статті — третя цифра. Нерозпізнана гіперглікемія, тобто жінки, чиї аналізи були в діапазоні предіабету або діабету, але яким жоден клініцист ніколи про це не сказав, зросла з 23,9% до 32,9%. Майже третина. І розподілена вона нерівномірно: порівняно з білими нелатиноамериканськими жінками, у чорношкірих нелатиноамериканських жінок шанси, що підвищений цукор залишиться нерозпізнаним, були у 2,3 раза вищі, а в жінок латиноамериканського походження — у 1,58 раза. Нижчий дохід і нижчий рівень освіти теж підвищували ці шанси. Виявляється, «мати проблему» і «знати, що маєш проблему» — дві різні змінні."
+        "text": "Найважливіша для цієї статті — третя цифра. Нерозпізнана гіперглікемія, тобто жінки, чиї аналізи були в діапазоні предіабету або діабету, але яким жоден клініцист ніколи про це не сказав, зросла з 23,9% до 32,9%. Майже третина. І розподілена вона нерівномірно: порівняно з білими нелатиноамериканськими жінками, у чорношкірих нелатиноамериканських жінок шанси мати нерозпізнаний підвищений цукор (а не нормальний) були у 2,3 раза вищі, а в жінок латиноамериканського походження — у 1,58 раза. Нижчий дохід і нижчий рівень освіти теж підвищували ці шанси. Виявляється, «мати проблему» і «знати, що маєш проблему» — дві різні змінні."
       },
       {
         "t": "p",
-        "text": "Читайте це з усіма обмеженнями. Це американські опитувальні дані, кожен раунд — новий зріз інших людей, а не спостереження за тими самими жінками, тож вони описують популяційну тенденцію й не доводять, що причиною було саме настання менопаузи: старіння населення й загальне зростання ваги теж роблять свою частину роботи. Велика Британія — не США, і шляхи скринінгу в нас інші. Але третина групи, яка залишається нерозпізнаною, — це не похибка округлення, і саме про цей провал ця стаття."
+        "text": "Читайте це з усіма обмеженнями. Це американські опитувальні дані, кожен раунд — новий зріз інших людей, а не спостереження за тими самими жінками, тож вони описують популяційну тенденцію й не доводять, що причиною було саме настання менопаузи: старіння населення й загальне зростання ваги теж роблять свою частину роботи. Велика Британія — не США, і шляхи скринінгу в нас інші. Але третина групи з підвищеним цукром, про який їм ніхто не сказав, — це не похибка округлення, і саме про цей провал ця стаття."
       },
       {
         "t": "h",
@@ -299,11 +299,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Корисно знати, що означають цифри, ще до того, як ви дивитесь на них через стіл. NHS зазвичай не вживає слова «предіабет»; у документах це називається недіабетична гіперглікемія. HbA1c 42–47 ммоль/моль (6,0–6,4%) або глюкоза натще 5,5–6,9 ммоль/л — це проміжний діапазон, а 48 ммоль/моль — поріг діабету. Це не цифри, які варто прикладати до себе з домашнього приладу: це те, з чим працюватиме ваш лікар, і знання їх перетворює прийом на розмову, а не на вирок, який ви отримуєте."
+        "text": "Корисно знати, що означають цифри, ще до того, як ви дивитесь на них через стіл. Офіційний термін NHS для предіабету, який ви можете побачити в документах, — недіабетична гіперглікемія. HbA1c 42–47 ммоль/моль (6,0–6,4%) або глюкоза натще 5,5–6,9 ммоль/л — це проміжний діапазон, а 48 ммоль/моль — поріг діабету. Це не цифри, які варто прикладати до себе з домашнього приладу: це те, з чим працюватиме ваш лікар, і знання їх перетворює прийом на розмову, а не на вирок, який ви отримуєте."
       },
       {
         "t": "p",
-        "text": "Два практичні шляхи. Якщо вам від 40 до 74 років і ви не проходили NHS Health Check останні п’ять років, ви маєте на нього право, і він включає перевірку цукру — це найменш конфліктний спосіб здати аналіз. Якщо ж ви хочете підняти питання прямо, просіть аналіз, а не описуйте самопочуття: «Я хотіла б перевірити HbA1c» працює краще, ніж «я виснажена». І варто вголос назвати все, що підвищує ризик: діабет 2 типу в батьків чи братів-сестер, СПКЯ або ПМОС, гестаційний діабет у минулій вагітності, походження з Південної Азії, Африки чи Карибського басейну. Принесіть конкретні патерни, які ви помітили, тими словами, якими розповіли б подрузі."
+        "text": "Два практичні шляхи. Якщо вам від 40 до 74 років і ви не проходили NHS Health Check останні п’ять років, ви маєте на нього право, і він може включати аналіз на цукор — це найменш конфліктний спосіб здати аналіз. Якщо ж ви хочете підняти питання прямо, просіть аналіз, а не описуйте самопочуття: «Я хотіла б перевірити HbA1c» працює краще, ніж «я виснажена». І варто вголос назвати все, що підвищує ризик: діабет 2 типу в батьків чи братів-сестер, СПКЯ або ПМОС, гестаційний діабет у минулій вагітності, походження з Південної Азії, Африки чи Карибського басейну. Принесіть конкретні патерни, які ви помітили, тими словами, якими розповіли б подрузі."
       },
       {
         "t": "p",
@@ -333,15 +333,15 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Приблизно третина американських жінок після природної менопаузи мають предіабет, і майже третина випадків підвищеного цукру в цій групі залишається нерозпізнаною.",
-            "detail": "Аналіз двадцяти років даних американського National Health and Nutrition Examination Survey (NHANES): 3 574 жінки віком від 45 років, які пройшли природну менопаузу, вибірки 2003–2023 років; оприлюднено в липні 2026 року. Поширеність предіабету зросла з 24,3% до 35,2%; діагностований діабет змінився мало — з 11,3% до 11,9%; нерозпізнана гіперглікемія (результати в діапазоні предіабету або діабету в жінок, які не повідомляли, що клініцист колись їм про це казав) зросла з 23,9% до 32,9%. Порівняно з білими нелатиноамериканськими жінками, у чорношкірих нелатиноамериканських жінок шанси нерозпізнаної гіперглікемії були у 2,3 раза вищі, у латиноамериканок — у 1,58 раза; нижчий дохід і нижчий рівень освіти також підвищували ці шанси. NHANES — повторюване перехресне опитування, кожен раунд охоплює інших людей, тож воно описує популяційні тенденції й не може довести, що причиною зростання була менопауза; старіння населення та зростання ваги — ймовірні співчинники, а дані американські, не британські.",
-            "cite": "Аналіз NHANES 2003–2023, оприлюднено в липні 2026",
-            "url": "https://www.theflowspace.com/physical-health/conditions-treatments/menopause-blood-sugar-prediabetes-signs-3039009/"
+            "claim": "Приблизно третина американських жінок після природної менопаузи мають предіабет, і майже третина мають підвищений цукор, про який їм жоден клініцист не казав.",
+            "detail": "Аналіз двадцяти років даних американського National Health and Nutrition Examination Survey (NHANES): 3 574 жінки віком від 45 років, які пройшли природну менопаузу, вибірки 2003–2023 років; опубліковано в журналі Women’s Health у липні 2026 року. Поширеність предіабету зросла з 24,3% до 35,2%; діабет (за самозвітом або за аналізами опитування) змінився мало — з 11,3% до 11,9%; нерозпізнана гіперглікемія (результати в діапазоні предіабету або діабету в жінок, які не повідомляли, що клініцист колись їм про це казав) зросла з 23,9% до 32,9%. Порівняно з білими нелатиноамериканськими жінками, у чорношкірих нелатиноамериканських жінок шанси нерозпізнаної гіперглікемії (порівняно з нормальною глюкозою) були у 2,3 раза вищі, у латиноамериканок — у 1,58 раза, з поправкою на освіту, дохід, сімейний стан і зайнятість; нижчий дохід і нижчий рівень освіти також підвищували ці шанси. NHANES — повторюване перехресне опитування, кожен раунд охоплює інших людей, тож воно описує популяційні тенденції й не може довести, що причиною зростання була менопауза; старіння населення та зростання ваги — ймовірні співчинники, а дані американські, не британські.",
+            "cite": "Park J-H et al. · Trends in type 2 diabetes, prediabetes, and hyperglycemic recognition among menopausal women: a 20-year analysis of sociodemographic disparities · Women’s Health, липень 2026",
+            "url": "https://doi.org/10.1177/17455057261474458"
           },
           {
             "claim": "Ані вік настання менопаузи, ані її тип незалежно не передбачають розвитку діабету.",
-            "detail": "Когортне дослідження на базі UK Biobank: майже 147 000 жінок, середній період спостереження 14,5 року; опубліковано в журналі Menopause у січні 2026 року. Середній вік учасниць — 60 років, близько 60% мали надлишкову вагу або ожиріння, приблизно у 4,5% (близько 6 600 жінок) за час спостереження діагностували діабет. Захворюваність становила 5,2% серед жінок із ранньою менопаузою проти 4,2% серед жінок із менопаузою у звичайному віці, проте автори пояснили зв’язки, що з’являлися в попередніх аналізах, впливом конфаундерів і дійшли висновку, що незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету немає. Обсерваційна когорта не може виключити залишкове конфаундування, а учасниці UK Biobank здоровіші й менш соціально вразливі, ніж населення Британії загалом.",
-            "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, січень 2026",
+            "detail": "Когортне дослідження на базі UK Biobank: майже 147 000 жінок, середній період спостереження 14,5 року; опубліковано в журналі Menopause у січні 2026 року. Середній вік учасниць — 60 років, близько 60% мали надлишкову вагу або ожиріння, приблизно у 4,5% (близько 6 600 жінок) за час спостереження діагностували діабет. Захворюваність становила 5,2% серед жінок із менопаузою у 40–45 років і 7,4% — до 40 проти 4,2% серед жінок із менопаузою після 45, проте автори пояснили зв’язки, що з’являлися в попередніх аналізах, впливом конфаундерів і дійшли висновку, що незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету немає. Обсерваційна когорта не може виключити залишкове конфаундування, а учасниці UK Biobank здоровіші й менш соціально вразливі, ніж населення Британії загалом.",
+            "cite": "Timing and type of menopause are not risk factors for the onset of diabetes: a UK Biobank cohort study · Menopause, 2026 (онлайн у січні)",
             "url": "https://doi.org/10.1097/GME.0000000000002720"
           },
           {
@@ -351,7 +351,7 @@ export default {
             "url": "https://www.england.nhs.uk/wp-content/uploads/2016/08/dpp-faq.pdf"
           },
           {
-            "claim": "Зниження глобуліну, що зв’язує статеві гормони, і зростання жиру в печінці йдуть разом із вищим інсуліном у жінок середнього віку — незалежно від ваги.",
+            "claim": "Нижчий рівень глобуліну, що зв’язує статеві гормони, і більше жиру в печінці йдуть разом із вищим інсуліном у жінок середнього віку — незалежно від ваги.",
             "detail": "Візуалізаційне піддослідження в межах Study of Women’s Health Across the Nation (SWAN): 208 жінок середнього віку (афроамериканки та білі жінки), середній вік 50,9 року, яким робили КТ для вимірювання вісцерального, підшкірного та печінкового жиру. Як вищий вміст жиру в печінці, так і нижчий рівень глобуліну, що зв’язує статеві гормони, були значуще пов’язані з вищими концентраціями інсуліну після поправки на ожиріння (r = −0,25, P < 0,001 і r = −0,18, P = 0,01), причому їхні впливи додавалися: найвищий інсулін мали жінки з найнижчим ГЗСГ і найбільшим печінковим жиром. Варто зважати на розмір і форму цих даних: 208 жінок, виміряних одноразово, а не простежених у часі, — тож вони показують, що трапляється разом, але не те, що змінюється крізь перехід і що є причиною.",
             "cite": "Kavanagh K et al. · Liver fat and SHBG affect insulin resistance in midlife women (SWAN) · Obesity, 2013",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.20077"
@@ -392,11 +392,11 @@ export default {
       },
       {
         "q": "Який аналіз просити і чи треба здавати натще?",
-        "a": "У Британії перший аналіз зазвичай HbA1c. Він відображає середню глюкозу за попередні два-три місяці, не потребує голодування і здається будь-коли протягом дня. Глюкоза натще — це один момент після нічного голодування, і вона може виглядати заспокійливо там, де HbA1c таким не буде, тож називати HbA1c прямо варто. Якщо вам від 40 до 74 і ви не проходили NHS Health Check п’ять років, цей шлях включає перевірку цукру взагалі без потреби щось доводити."
+        "a": "У Британії перший аналіз зазвичай HbA1c. Він відображає середню глюкозу за попередні два-три місяці, не потребує голодування і здається будь-коли протягом дня. Глюкоза натще — це один момент після нічного голодування, і вона може виглядати заспокійливо там, де HbA1c таким не буде, тож називати HbA1c прямо варто. Якщо вам від 40 до 74 і ви не проходили NHS Health Check п’ять років, цей шлях оцінює ризик діабету й може включати аналіз на цукор взагалі без потреби щось доводити."
       },
       {
         "q": "Чи означає рання менопауза, що в мене буде діабет 2 типу?",
-        "a": "Найбільше дослідження з цього питання каже, що ні. Когорта UK Biobank із майже 147 000 жінок, за якими спостерігали в середньому 14,5 року, опублікована в січні 2026 року, не виявила незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету після врахування конфаундерів. Сира різниця — 5,2% проти 4,2% — не пережила поправок. Ризик у цьому десятилітті значно тісніше пов’язаний зі складом тіла, активністю та сном, ніж із датою останньої менструації."
+        "a": "Велике дослідження, яке вивчало саме це, каже, що ні. Когорта UK Biobank із майже 147 000 жінок, за якими спостерігали в середньому 14,5 року, опублікована в січні 2026 року, не виявила незалежного чи клінічно значущого зв’язку між віком або типом менопаузи й початком діабету після врахування конфаундерів. Сирі відмінності — 5,2% при менопаузі у 40–45 років і 7,4% до 40 проти 4,2% після 45 — не пережили поправок. У цьому дослідженні з діабетом були пов’язані те, що можна виміряти й змінити, — вага, куріння, харчування, — а не дата останньої менструації."
       },
       {
         "q": "Цукор у нормі, але я все одно виснажена. Що далі?",

@@ -19,7 +19,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Researchers at the Johns Hopkins Bloomberg School of Public Health pulled together [64 randomised controlled trials from 41 published articles](https://pubmed.ncbi.nlm.nih.gov/41770554/) of GLP-1 receptor agonists — the drug class that includes semaglutide, sold as Ozempic and Wegovy — and published the analysis in JAMA Internal Medicine on 2 March 2026. Their question was whether these drugs work differently for different kinds of people. Six of those trials, covering 19,906 patients, reported results separately for women and men. In that subset, women lost an average of 10.9% of their starting body weight; men lost 6.8%. The difference was statistically significant."
+        "text": "Researchers at the Johns Hopkins Bloomberg School of Public Health pulled together [64 randomised controlled trials from 41 published articles](https://pubmed.ncbi.nlm.nih.gov/41770554/) of GLP-1 receptor agonists — the drug class that includes semaglutide, sold as Ozempic and Wegovy — and published the analysis in JAMA Internal Medicine on 2 March 2026. Their question was whether these drugs work differently for different kinds of people. Ten of the trials looked at sex, and six of them, covering 19,906 patients, could be pooled to compare women and men. In that subset, women lost an average of 10.9% of their starting body weight; men lost 6.8%. The difference was statistically significant."
       },
       {
         "t": "p",
@@ -46,7 +46,7 @@ export default {
         "items": [
           {
             "claim": "Women lost 10.9% of body weight on GLP-1 drugs compared with 6.8% for men.",
-            "detail": "A systematic review and meta-analysis by researchers at the Johns Hopkins Bloomberg School of Public Health, published in JAMA Internal Medicine on 2 March 2026, covered 64 randomised controlled trials drawn from 41 published articles through mid-2024. Six of those trials, including 19,906 patients, reported outcomes separately by sex; in that subset women lost a mean 10.9% of baseline body weight against 6.8% for men, a statistically significant difference of roughly four percentage points that the authors characterised as moderately greater efficacy. The analysis excluded tirzepatide because it is a dual GIP/GLP-1 agonist rather than a GLP-1 receptor agonist.",
+            "detail": "A systematic review and meta-analysis by researchers at the Johns Hopkins Bloomberg School of Public Health, published in JAMA Internal Medicine on 2 March 2026, covered 64 randomised controlled trials drawn from 41 published articles through mid-2024. Ten trials evaluated sex, and six of them, including 19,906 patients, could be pooled by sex; in that subset women lost a mean 10.9% of baseline body weight against 6.8% for men, a statistically significant difference of roughly four percentage points that the authors characterised as moderately greater efficacy. The analysis excluded tirzepatide because it is a dual GIP/GLP-1 agonist rather than a GLP-1 receptor agonist.",
             "cite": "JAMA Internal Medicine · Systematic review and meta-analysis, 2 March 2026",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
           },
@@ -113,7 +113,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Дослідники зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса зібрали [64 рандомізовані контрольовані дослідження з 41 опублікованої статті](https://pubmed.ncbi.nlm.nih.gov/41770554/) щодо агоністів рецепторів GLP-1 — класу препаратів, до якого належить семаглутид, відомий як Ozempic і Wegovy, — і опублікували аналіз у JAMA Internal Medicine 2 березня 2026 року. Їхнє питання полягало в тому, чи діють ці ліки по-різному на різних людей. Шість із цих досліджень, що охопили 19 906 пацієнтів, подали результати окремо для жінок і чоловіків. У цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла; чоловіки — 6,8%. Різниця була статистично значущою."
+        "text": "Дослідники зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса зібрали [64 рандомізовані контрольовані дослідження з 41 опублікованої статті](https://pubmed.ncbi.nlm.nih.gov/41770554/) щодо агоністів рецепторів GLP-1 — класу препаратів, до якого належить семаглутид, відомий як Ozempic і Wegovy, — і опублікували аналіз у JAMA Internal Medicine 2 березня 2026 року. Їхнє питання полягало в тому, чи діють ці ліки по-різному на різних людей. Стать враховували десять досліджень, і шість із них, що охопили 19 906 пацієнтів, вдалося об’єднати, щоб порівняти жінок і чоловіків. У цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла; чоловіки — 6,8%. Різниця була статистично значущою."
       },
       {
         "t": "p",
@@ -140,7 +140,7 @@ export default {
         "items": [
           {
             "claim": "Жінки втратили 10,9% маси тіла на препаратах GLP-1 проти 6,8% у чоловіків.",
-            "detail": "Систематичний огляд і метааналіз дослідників зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса, опублікований у JAMA Internal Medicine 2 березня 2026 року, охопив 64 рандомізовані контрольовані дослідження з 41 опублікованої статті до середини 2024 року. Шість із них, що включали 19 906 пацієнтів, подали результати окремо за статтю; у цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла проти 6,8% у чоловіків — статистично значуща різниця приблизно в чотири відсоткові пункти, яку автори охарактеризували як помірно вищу ефективність. Аналіз не включав тирзепатид, оскільки він є подвійним агоністом GIP/GLP-1, а не агоністом рецепторів GLP-1.",
+            "detail": "Систематичний огляд і метааналіз дослідників зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса, опублікований у JAMA Internal Medicine 2 березня 2026 року, охопив 64 рандомізовані контрольовані дослідження з 41 опублікованої статті до середини 2024 року. Стать оцінювали десять досліджень, і шість із них, що включали 19 906 пацієнтів, вдалося об’єднати за статтю; у цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла проти 6,8% у чоловіків — статистично значуща різниця приблизно в чотири відсоткові пункти, яку автори охарактеризували як помірно вищу ефективність. Аналіз не включав тирзепатид, оскільки він є подвійним агоністом GIP/GLP-1, а не агоністом рецепторів GLP-1.",
             "cite": "JAMA Internal Medicine · Систематичний огляд і метааналіз, 2 березня 2026",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
           },

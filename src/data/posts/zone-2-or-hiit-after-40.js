@@ -74,11 +74,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Short high-intensity work earns its place by being efficient. Per minute spent, it produces gains in cardiorespiratory fitness and insulin sensitivity that steady work takes considerably longer to reach. In a randomised trial of 45 postmenopausal women with metabolic syndrome, eight weeks of intervals — three minutes hard, three minutes walking, three times a week — took HbA1c from 8.8 to 7.55 per cent. The resistance training group in the same trial went from 8.75 to 7.9 per cent. The control group got worse. Both forms of training worked, and the intervals had a small edge on the glucose measures."
+        "text": "Short high-intensity work earns its place by being efficient. Per minute spent, it produces gains in cardiorespiratory fitness and insulin sensitivity that steady work takes considerably longer to reach. In a randomised trial of 45 postmenopausal women with metabolic syndrome, recruited through a diabetes clinic, eight weeks of supervised intervals — three minutes hard, three minutes walking, three times a week — took HbA1c from 8.8 to 7.55 per cent. The resistance training group in the same trial went from 8.75 to 7.9 per cent. The control group did not improve. Both forms of training worked, and the intervals had a small edge on the glucose measures."
       },
       {
         "t": "p",
-        "text": "That is a small, short trial in women who were sedentary at the start, so it is evidence that intervals are useful, not that they are compulsory. But it is a reasonable corrective to a narrative that has decided hard cardio is something women over 40 should be protected from."
+        "text": "That is a small, short trial in women who were sedentary at the start and whose average HbA1c was well into the diabetic range, so it is evidence that intervals are useful, not that they are compulsory. But it is a reasonable corrective to a narrative that has decided hard cardio is something women over 40 should be protected from."
       },
       {
         "t": "h",
@@ -86,7 +86,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Yes, hard exercise raises cortisol. That is what hard exercise is: a stress your body then adapts to. A 2026 study measured this directly and found that five minutes of running produced no cortisol change at all, while 40 minutes of interval training raised it significantly and it was still elevated an hour later. So the rise is real, and it is dose-dependent."
+        "text": "Yes, hard exercise raises cortisol. That is what hard exercise is: a stress your body then adapts to. A 2026 study measured this directly and found that five minutes of running produced no significant cortisol change, while 40 minutes of interval training raised it significantly and it was still elevated an hour later. So the rise is real, and it is dose-dependent."
       },
       {
         "t": "p",
@@ -191,7 +191,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The complication sits afterwards. Both kinds of session improve insulin sensitivity for the following 24 to 48 hours, and interval sessions in particular carry a meaningful risk of hypoglycaemia overnight. A session that looked glucose-neutral at 6pm is not necessarily neutral at 2am. That is worth knowing before you add a hard session to a week that previously had none. If you are also lifting, [weight training has its own glucose signature](/blog/does-weight-training-raise-blood-sugar/), and it is not the same as either of these."
+        "text": "The complication sits afterwards. Both kinds of session improve insulin sensitivity for the following 24 to 48 hours, and either kind can bring a delayed low, including overnight — intervals are not exempt. A session that looked glucose-neutral at 6pm is not necessarily neutral at 2am. That is worth knowing before you add a hard session to a week that previously had none. If you are also lifting, [weight training has its own glucose signature](/blog/does-weight-training-raise-blood-sugar/), and it is not the same as either of these."
       },
       {
         "t": "p",
@@ -228,7 +228,7 @@ export default {
           },
           {
             "claim": "In postmenopausal women, eight weeks of interval training improved blood sugar markers — and so did lifting.",
-            "detail": "A randomised controlled trial of 45 inactive postmenopausal women aged 45–65 with metabolic syndrome, assigned to high-intensity interval training, resistance training or a control group for eight weeks, three sessions a week. The interval protocol alternated three minutes at 80–90% of maximum heart rate with three minutes of moderate walking at 55–65%. Fasting blood glucose fell from 151.4 to 145.4 mg/dL in the interval group and from 148.3 to 144.3 mg/dL in the resistance group, while the control group did not improve. HbA1c fell from 8.8% to 7.55% with intervals and from 8.75% to 7.9% with resistance training, against a rise from 8.25% to 8.6% in controls (p < 0.05). Both forms of training worked; the interval group improved slightly more on the glucose measures. This is a single small trial of eight weeks in women who were sedentary at the start, so it says intervals are useful — not that they are necessary.",
+            "detail": "A randomised controlled trial of 45 inactive postmenopausal women aged 45–65 with metabolic syndrome, recruited through a hospital diabetes clinic and assigned to supervised high-intensity interval training, resistance training or a control group for eight weeks, three sessions a week. The interval protocol alternated three minutes at 80–90% of maximum heart rate with three minutes of moderate walking at 55–65%. Fasting blood glucose fell from 151.4 to 145.4 mg/dL in the interval group and from 148.3 to 144.3 mg/dL in the resistance group, while the control group did not improve. HbA1c fell from 8.8% to 7.55% with intervals and from 8.75% to 7.9% with resistance training, while controls drifted from 8.25% to 8.6%, a change that was not significant. Both training groups improved significantly against baseline and against control (p < 0.05), and the interval group's falls in fasting glucose and HbA1c were significantly larger than the resistance group's, though the gap is small. This is a single small trial of eight weeks in women who were sedentary at the start, so it says intervals are useful — not that they are necessary.",
             "cite": "Lipids in Health and Disease · Kazemi SS, Heidarianpour A, Shokri E, 2023;22:177",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10588115/"
           },
@@ -246,8 +246,8 @@ export default {
           },
           {
             "claim": "The direction glucose moves depends on how hard the effort is, and the mechanism is adrenaline, not willpower.",
-            "detail": "Reviews of exercise in type 1 diabetes describe a consistent pattern: endurance and moderate continuous activity tend to lower glucose, while brief explosive efforts tend to raise it. During anaerobic work, circulating insulin does not rise, catecholamines do, hepatic glucose production increases and glucose uptake into muscle is limited — so glucose climbs. Adding a sprint to a bout of moderate exercise has been shown to oppose the fall in glucose that the moderate work would otherwise cause. Interval training and resistance training sit between the two extremes and have a moderating effect. The same literature notes that both aerobic and high-intensity work can cause delayed hypoglycaemia in recovery, with interval sessions carrying a meaningful risk overnight — so a session that looks glucose-neutral at the time is not necessarily neutral at 2am.",
-            "cite": "Nature Reviews Endocrinology · exercise in adults with type 1 diabetes (review), 2022 · and The Lancet Diabetes & Endocrinology · Riddell MC, Gallen IW, Smart CE, et al., exercise management in type 1 diabetes: a consensus statement, 2017;5(5):377–390",
+            "detail": "Reviews of exercise in type 1 diabetes describe a consistent pattern: endurance and moderate continuous activity tend to lower glucose, while brief explosive efforts tend to raise it. During anaerobic work, circulating insulin does not rise, catecholamines do, hepatic glucose production increases and glucose uptake into muscle is limited — so glucose climbs. Adding a sprint to a bout of moderate exercise has been shown to oppose the fall in glucose that the moderate work would otherwise cause. Interval training and resistance training sit between the two extremes and have a moderating effect. The same literature notes that both aerobic and high-intensity work can cause delayed hypoglycaemia in recovery, including overnight; individual trials disagree on whether intervals raise or lower that overnight risk compared with steady work — so a session that looks glucose-neutral at the time is not necessarily neutral at 2am.",
+            "cite": "Nature Reviews Endocrinology · Riddell MC, Peters AL, exercise in adults with type 1 diabetes mellitus (review), 2023;19(2):98–111 · and The Lancet Diabetes & Endocrinology · Riddell MC, Gallen IW, Smart CE, et al., exercise management in type 1 diabetes: a consensus statement, 2017;5(5):377–390",
             "url": "https://www.nature.com/articles/s41574-022-00756-6"
           }
         ]
@@ -297,7 +297,7 @@ export default {
     "faq": [
       {
         "q": "Is HIIT bad for women in perimenopause?",
-        "a": "No — but the amount matters more than the modality. Hard exercise raises cortisol acutely, and that is normal rather than harmful; a 2026 study found that four hours of cortisol exposure mimicking the post-exercise pattern had no negative effect on immune cell function, while continuous exposure did. In a randomised trial of 45 postmenopausal women with metabolic syndrome, eight weeks of intervals lowered HbA1c from 8.8 to 7.55 per cent. The legitimate concern is total load: hard intervals several times a week on top of poor sleep, under-eating and high life stress is a problem of everything combined, not of intervals themselves. One hard session a week is a reasonable place for most women to sit."
+        "a": "No — but the amount matters more than the modality. Hard exercise raises cortisol acutely, and that is normal rather than harmful; a 2026 study found that four hours of cortisol exposure mimicking the post-exercise pattern had no negative effect on immune cell function, while continuous exposure did. In a randomised trial of 45 postmenopausal women with metabolic syndrome, recruited through a diabetes clinic, eight weeks of supervised intervals lowered HbA1c from 8.8 to 7.55 per cent. The legitimate concern is total load: hard intervals several times a week on top of poor sleep, under-eating and high life stress is a problem of everything combined, not of intervals themselves. One hard session a week is a reasonable place for most women to sit."
       },
       {
         "q": "How much Zone 2 and how much HIIT should a woman over 40 do?",
@@ -309,7 +309,7 @@ export default {
       },
       {
         "q": "Does interval training raise blood sugar?",
-        "a": "Less reliably than you have probably been told. Brief explosive efforts do raise glucose, because adrenaline rises, the liver releases glucose and muscle uptake cannot keep pace. But in a matched comparison of interval and continuous exercise in people with type 1 diabetes, glucose fell in every condition — it simply fell significantly less after the intervals. The more useful expectation is that intervals blunt the fall rather than cause a rise. The bigger consideration is afterwards: both types of session improve insulin sensitivity for 24 to 48 hours, and interval work carries a real risk of hypoglycaemia overnight. Any change to insulin around training belongs with your diabetes team."
+        "a": "Less reliably than you have probably been told. Brief explosive efforts do raise glucose, because adrenaline rises, the liver releases glucose and muscle uptake cannot keep pace. But in a matched comparison of interval and continuous exercise in people with type 1 diabetes, glucose fell in every condition — it simply fell less after the intervals, significantly so at one of the three intensities tested. The more useful expectation is that intervals blunt the fall rather than cause a rise. The bigger consideration is afterwards: both types of session improve insulin sensitivity for 24 to 48 hours, and either can bring a delayed low, including overnight. Any change to insulin around training belongs with your diabetes team."
       }
     ]
   },
@@ -377,11 +377,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Коротка високоінтенсивна робота заслуговує на своє місце тим, що вона ефективна. За хвилину витраченого часу вона дає приріст кардіореспіраторної витривалості та чутливості до інсуліну, до якого рівномірна робота йде значно довше. У рандомізованому дослідженні за участю 45 жінок у постменопаузі з метаболічним синдромом вісім тижнів інтервалів — три хвилини важко, три хвилини ходьби, тричі на тиждень — знизили HbA1c з 8,8 до 7,55%. Силова група в тому ж дослідженні пройшла шлях від 8,75 до 7,9%. У контрольній групі стало гірше. Працювали обидва види тренувань, і інтервали мали невелику перевагу за показниками глюкози."
+        "text": "Коротка високоінтенсивна робота заслуговує на своє місце тим, що вона ефективна. За хвилину витраченого часу вона дає приріст кардіореспіраторної витривалості та чутливості до інсуліну, до якого рівномірна робота йде значно довше. У рандомізованому дослідженні за участю 45 жінок у постменопаузі з метаболічним синдромом, яких набрали через діабетологічну клініку, вісім тижнів інтервалів під наглядом тренерів — три хвилини важко, три хвилини ходьби, тричі на тиждень — знизили HbA1c з 8,8 до 7,55%. Силова група в тому ж дослідженні пройшла шлях від 8,75 до 7,9%. У контрольній групі покращення не було. Працювали обидва види тренувань, і інтервали мали невелику перевагу за показниками глюкози."
       },
       {
         "t": "p",
-        "text": "Це невелике коротке дослідження на жінках, які на початку були малорухливими, тож воно свідчить, що інтервали корисні, а не що вони обов’язкові. Але це розумна поправка до розповіді, яка вирішила, що від важкого кардіо жінок після 40 треба оберігати."
+        "text": "Це невелике коротке дослідження на жінках, які на початку були малорухливими і чий середній HbA1c був глибоко в діабетичному діапазоні, тож воно свідчить, що інтервали корисні, а не що вони обов’язкові. Але це розумна поправка до розповіді, яка вирішила, що від важкого кардіо жінок після 40 треба оберігати."
       },
       {
         "t": "h",
@@ -389,7 +389,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Так, важке навантаження підіймає кортизол. Це і є важке навантаження: стрес, до якого тіло потім адаптується. Дослідження 2026 року виміряло це напряму і виявило, що п’ять хвилин бігу не дали жодної зміни кортизолу, тоді як 40 хвилин інтервального тренування значуще його підвищили, і через годину він усе ще залишався підвищеним. Тобто підйом реальний і залежить від дози."
+        "text": "Так, важке навантаження підіймає кортизол. Це і є важке навантаження: стрес, до якого тіло потім адаптується. Дослідження 2026 року виміряло це напряму і виявило, що п’ять хвилин бігу не дали значущої зміни кортизолу, тоді як 40 хвилин інтервального тренування значуще його підвищили, і через годину він усе ще залишався підвищеним. Тобто підйом реальний і залежить від дози."
       },
       {
         "t": "p",
@@ -494,7 +494,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Складність починається потім. Обидва види занять покращують чутливість до інсуліну на наступні 24–48 годин, і саме інтервальні сесії несуть відчутний ризик гіпоглікемії вночі. Заняття, яке о 18:00 виглядало нейтральним для глюкози, не обов’язково нейтральне о другій ночі. Це варто знати, перш ніж додавати важке заняття до тижня, у якому його раніше не було. Якщо ви ще й тренуєтеся з вагою, [у силових свій власний глюкозний почерк](/ua/blog/does-weight-training-raise-blood-sugar/), і він не такий, як в жодного з цих двох."
+        "text": "Складність починається потім. Обидва види занять покращують чутливість до інсуліну на наступні 24–48 годин, і будь-яке з них може дати відтерміновану гіпоглікемію, зокрема вночі — інтервали не виняток. Заняття, яке о 18:00 виглядало нейтральним для глюкози, не обов’язково нейтральне о другій ночі. Це варто знати, перш ніж додавати важке заняття до тижня, у якому його раніше не було. Якщо ви ще й тренуєтеся з вагою, [у силових свій власний глюкозний почерк](/ua/blog/does-weight-training-raise-blood-sugar/), і він не такий, як в жодного з цих двох."
       },
       {
         "t": "p",
@@ -531,7 +531,7 @@ export default {
           },
           {
             "claim": "У жінок у постменопаузі вісім тижнів інтервальних тренувань покращили показники цукру — як і силові.",
-            "detail": "Рандомізоване контрольоване дослідження за участю 45 малорухливих жінок у постменопаузі віком 45–65 років із метаболічним синдромом, розподілених на високоінтенсивні інтервальні тренування, силові тренування або контрольну групу на вісім тижнів, тричі на тиждень. Інтервальний протокол чергував три хвилини на 80–90% максимальної частоти серцевих скорочень із трьома хвилинами помірної ходьби на 55–65%. Глюкоза натще знизилася зі 151,4 до 145,4 мг/дл в інтервальній групі та зі 148,3 до 144,3 мг/дл у силовій, тоді як у контрольній групі покращення не було. HbA1c знизився з 8,8% до 7,55% при інтервалах і з 8,75% до 7,9% при силових, тоді як у контролі зріс із 8,25% до 8,6% (p < 0,05). Працювали обидва види тренувань; інтервальна група покращилася трохи більше за показниками глюкози. Це одне невелике восьмитижневе дослідження на жінках, які на початку були малорухливими, тож воно свідчить, що інтервали корисні, а не що вони обов’язкові.",
+            "detail": "Рандомізоване контрольоване дослідження за участю 45 малорухливих жінок у постменопаузі віком 45–65 років із метаболічним синдромом, яких набрали через лікарняну діабетологічну клініку і розподілили на високоінтенсивні інтервальні тренування, силові тренування або контрольну групу на вісім тижнів, тричі на тиждень, заняття проходили під наглядом тренерів. Інтервальний протокол чергував три хвилини на 80–90% максимальної частоти серцевих скорочень із трьома хвилинами помірної ходьби на 55–65%. Глюкоза натще знизилася зі 151,4 до 145,4 мг/дл в інтервальній групі та зі 148,3 до 144,3 мг/дл у силовій, тоді як у контрольній групі покращення не було. HbA1c знизився з 8,8% до 7,55% при інтервалах і з 8,75% до 7,9% при силових, тоді як у контролі змістився з 8,25% до 8,6%, і ця зміна не була значущою. Обидві тренувальні групи значуще покращилися порівняно з початком і з контролем (p < 0,05), а зниження глюкози натще і HbA1c в інтервальній групі було значуще більшим, ніж у силовій, хоча різниця невелика. Це одне невелике восьмитижневе дослідження на жінках, які на початку були малорухливими, тож воно свідчить, що інтервали корисні, а не що вони обов’язкові.",
             "cite": "Lipids in Health and Disease · Kazemi SS, Heidarianpour A, Shokri E, 2023;22:177",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10588115/"
           },
@@ -549,8 +549,8 @@ export default {
           },
           {
             "claim": "Напрямок руху глюкози залежить від того, наскільки важке зусилля, і механізм тут — адреналін, а не сила волі.",
-            "detail": "Огляди фізичного навантаження при діабеті 1 типу описують послідовну картину: витривалісна та помірна безперервна активність зазвичай знижують глюкозу, тоді як короткі вибухові зусилля зазвичай її підвищують. Під час анаеробної роботи рівень циркулюючого інсуліну не зростає, а катехоламінів — так; печінка виробляє більше глюкози, а її захоплення м’язами обмежене, тож глюкоза піднімається. Показано, що додавання спринту до помірного навантаження протидіє тому падінню глюкози, яке помірна робота спричинила б сама по собі. Інтервальні та силові тренування розташовані між цими двома полюсами і мають помірний ефект. Та сама література зазначає, що і аеробна, і високоінтенсивна робота можуть спричинити відтерміновану гіпоглікемію під час відновлення, причому інтервальні сесії несуть відчутний ризик уночі — тож заняття, яке виглядає нейтральним для глюкози в моменті, не обов’язково нейтральне о другій ночі.",
-            "cite": "Nature Reviews Endocrinology · фізичне навантаження в дорослих із діабетом 1 типу (огляд), 2022 · та The Lancet Diabetes & Endocrinology · Riddell MC, Gallen IW, Smart CE, et al., консенсусна заява щодо фізичного навантаження при діабеті 1 типу, 2017;5(5):377–390",
+            "detail": "Огляди фізичного навантаження при діабеті 1 типу описують послідовну картину: витривалісна та помірна безперервна активність зазвичай знижують глюкозу, тоді як короткі вибухові зусилля зазвичай її підвищують. Під час анаеробної роботи рівень циркулюючого інсуліну не зростає, а катехоламінів — так; печінка виробляє більше глюкози, а її захоплення м’язами обмежене, тож глюкоза піднімається. Показано, що додавання спринту до помірного навантаження протидіє тому падінню глюкози, яке помірна робота спричинила б сама по собі. Інтервальні та силові тренування розташовані між цими двома полюсами і мають помірний ефект. Та сама література зазначає, що і аеробна, і високоінтенсивна робота можуть спричинити відтерміновану гіпоглікемію під час відновлення, зокрема вночі; окремі дослідження розходяться в тому, підвищують чи знижують інтервали цей нічний ризик порівняно з рівномірною роботою, — тож заняття, яке виглядає нейтральним для глюкози в моменті, не обов’язково нейтральне о другій ночі.",
+            "cite": "Nature Reviews Endocrinology · Riddell MC, Peters AL, фізичне навантаження в дорослих із діабетом 1 типу (огляд), 2023;19(2):98–111 · та The Lancet Diabetes & Endocrinology · Riddell MC, Gallen IW, Smart CE, et al., консенсусна заява щодо фізичного навантаження при діабеті 1 типу, 2017;5(5):377–390",
             "url": "https://www.nature.com/articles/s41574-022-00756-6"
           }
         ]
@@ -600,7 +600,7 @@ export default {
     "faq": [
       {
         "q": "Чи шкідливий HIIT для жінок у перименопаузі?",
-        "a": "Ні — але кількість важить більше, ніж сам вид навантаження. Важке навантаження гостро підіймає кортизол, і це нормально, а не шкідливо; дослідження 2026 року показало, що чотиригодинний вплив кортизолу, який імітує патерн після тренування, не мав негативного впливу на функцію імунних клітин, тоді як безперервний вплив мав. У рандомізованому дослідженні за участю 45 жінок у постменопаузі з метаболічним синдромом вісім тижнів інтервалів знизили HbA1c з 8,8 до 7,55%. Виправдане занепокоєння стосується сумарного навантаження: важкі інтервали кілька разів на тиждень поверх поганого сну, недоїдання і високого життєвого стресу — це проблема всього разом, а не самих інтервалів. Одна важка сесія на тиждень — розумне місце для більшості жінок."
+        "a": "Ні — але кількість важить більше, ніж сам вид навантаження. Важке навантаження гостро підіймає кортизол, і це нормально, а не шкідливо; дослідження 2026 року показало, що чотиригодинний вплив кортизолу, який імітує патерн після тренування, не мав негативного впливу на функцію імунних клітин, тоді як безперервний вплив мав. У рандомізованому дослідженні за участю 45 жінок у постменопаузі з метаболічним синдромом, яких набрали через діабетологічну клініку, вісім тижнів інтервалів під наглядом тренерів знизили HbA1c з 8,8 до 7,55%. Виправдане занепокоєння стосується сумарного навантаження: важкі інтервали кілька разів на тиждень поверх поганого сну, недоїдання і високого життєвого стресу — це проблема всього разом, а не самих інтервалів. Одна важка сесія на тиждень — розумне місце для більшості жінок."
       },
       {
         "q": "Скільки Зони 2 і скільки HIIT потрібно жінці після 40?",
@@ -612,7 +612,7 @@ export default {
       },
       {
         "q": "Чи підіймають інтервальні тренування цукор у крові?",
-        "a": "Не так надійно, як вам, ймовірно, казали. Короткі вибухові зусилля справді підіймають глюкозу, бо зростає адреналін, печінка вивільняє глюкозу, а м’язи не встигають її забирати. Але в зіставленому порівнянні інтервального і безперервного навантаження в людей із діабетом 1 типу глюкоза знижувалася в кожному варіанті — просто після інтервалів вона знижувалася значуще менше. Корисніше очікувати, що інтервали пригальмують падіння, а не спричинять зростання. Важливіше те, що буде потім: обидва види занять покращують чутливість до інсуліну на 24–48 годин, і інтервальна робота несе реальний ризик гіпоглікемії вночі. Будь-яка зміна інсуліну навколо тренувань — це питання до вашої діабетичної команди."
+        "a": "Не так надійно, як вам, ймовірно, казали. Короткі вибухові зусилля справді підіймають глюкозу, бо зростає адреналін, печінка вивільняє глюкозу, а м’язи не встигають її забирати. Але в зіставленому порівнянні інтервального і безперервного навантаження в людей із діабетом 1 типу глюкоза знижувалася в кожному варіанті — просто після інтервалів вона знижувалася менше, значуще — за однієї з трьох перевірених інтенсивностей. Корисніше очікувати, що інтервали пригальмують падіння, а не спричинять зростання. Важливіше те, що буде потім: обидва види занять покращують чутливість до інсуліну на 24–48 годин, і будь-яке з них може дати відтерміновану гіпоглікемію, зокрема вночі. Будь-яка зміна інсуліну навколо тренувань — це питання до вашої діабетичної команди."
       }
     ]
   }
