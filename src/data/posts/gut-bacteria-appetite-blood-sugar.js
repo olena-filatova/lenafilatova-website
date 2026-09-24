@@ -14,7 +14,7 @@ export default {
   ],
   "en": {
     "cat": "Nutrition",
-    "imageAlt": "A wooden board of gut-friendly foods: kefir, sauerkraut, berries, oats, leeks and pulses.",
+    "imageAlt": "Rolled oats in a red pan beside a jug of milk, raspberries and blueberries on a white table.",
     "title": "The gut bacteria that make you hungrier — and the ones that help your blood sugar",
     "seoTitle": "Gut Bacteria, Appetite and Blood Sugar: What's Real",
     "metaDesc": "Which gut bacteria really affect appetite, energy harvest and blood sugar — what is mouse data, what is human, and what actually shifts your microbiome.",
@@ -335,7 +335,7 @@ export default {
   },
   "ua": {
     "cat": "Харчування",
-    "imageAlt": "Дерев'яна дошка з корисними для кишківника продуктами: кефір, квашена капуста, ягоди, овес, порей і бобові.",
+    "imageAlt": "Вівсяні пластівці в червоній каструльці поруч із глечиком молока, малиною та чорницею на білому столі.",
     "title": "Кишкові бактерії, які роблять вас голоднішою — і ті, що допомагають вашому цукру",
     "seoTitle": "Кишкові бактерії, апетит і цукор у крові",
     "metaDesc": "Які кишкові бактерії справді впливають на апетит, видобуток енергії та цукор у крові — де дані про мишей, де про людей і що насправді зсуває мікробіом.",
