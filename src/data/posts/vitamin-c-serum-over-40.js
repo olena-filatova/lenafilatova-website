@@ -19,7 +19,7 @@ export default {
     "title": "Vitamin C serums over 40: what the evidence actually supports",
     "seoTitle": "Vitamin C Serums Over 40: What the Evidence Supports",
     "metaDesc": "What the trials on vitamin C serum concentration actually found for ageing skin — and the number the marketing borrowed from a pig-skin study.",
-    "excerpt": "Vitamin C is the second most recommended thing in skincare after sunscreen, and the serum on the shelf is usually 15% or 20%. The human trials mostly used 5%. Here is where that gap came from, and what it means for what you buy.",
+    "excerpt": "Vitamin C is one of the most recommended things in skincare after sunscreen and retinoids, and the serum on the shelf is usually 15% or 20%. The human trials mostly used 5%. Here is where that gap came from, and what it means for what you buy.",
     "meta": "26 August 2026 · 8 min read",
     "lead": "There is a number on the front of almost every vitamin C serum — 10%, 15%, 20% — and the assumption is that a higher one is a stronger product. The number is real. Where it came from is not what you would guess, and once you know, the shelf looks quite different.",
     "blocks": [
@@ -145,7 +145,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The industry's answer to fragility is derivatives — magnesium ascorbyl phosphate, ascorbyl-6-palmitate, sodium ascorbyl phosphate. They are stable at neutral pH, gentler, and they do not go brown. But in Pinnell's absorption work, none of them raised skin levels of L-ascorbic acid at all. That finding is now twenty-five years old and formulation science has moved on, so it is not the last word. It does mean the trade is not free: a derivative that is gentle because it is stable may also be gentle because less of it is getting in, and the trials behind the category were not run on derivatives."
+        "text": "The industry's answer to fragility is derivatives — magnesium ascorbyl phosphate, ascorbyl-6-palmitate, sodium ascorbyl phosphate. They are stable at neutral pH, gentler, and they do not go brown. But in Pinnell's absorption work, the derivatives it tested — magnesium ascorbyl phosphate and ascorbyl-6-palmitate among them — did not raise skin levels of L-ascorbic acid at all. That finding is now twenty-five years old and formulation science has moved on, so it is not the last word. It does mean the trade is not free: a derivative that is gentle because it is stable may also be gentle because less of it is getting in, and the trials behind the category were not run on derivatives."
       },
       {
         "t": "p",
@@ -157,7 +157,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Stop paying for the number. The human evidence sits at 5% to 10%. Above 10% the trial data thins out badly, and 20% is a figure borrowed from an absorption curve in pig skin. If a 20% serum stings and a 8% one doesn't, the gentler one is not the compromise you have been told it is."
+        "text": "Stop paying for the number. The human evidence sits at 5% to 10%. Above 10% the trial data thins out badly, and 20% is a figure borrowed from an absorption curve in pig skin. If a 20% serum stings and an 8% one doesn't, the gentler one is not the compromise you have been told it is."
       },
       {
         "t": "p",
@@ -273,7 +273,7 @@ export default {
     "title": "Сироватки з вітаміном С після 40: що насправді підтверджують дослідження",
     "seoTitle": "Вітамін С після 40: що кажуть дослідження",
     "metaDesc": "Що насправді показали дослідження концентрації та формули сироваток з вітаміном С — і звідки маркетинг узяв цифру 20%.",
-    "excerpt": "Вітамін С — друга за частотою рекомендація в догляді після сонцезахисту, і на полиці зазвичай стоїть 15% або 20%. У дослідженнях на людях переважно було 5%. Ось звідки взявся цей розрив.",
+    "excerpt": "Вітамін С — одна з найчастіших рекомендацій у догляді після сонцезахисту та ретиноїдів, і на полиці зазвичай стоїть 15% або 20%. У дослідженнях на людях переважно було 5%. Ось звідки взявся цей розрив.",
     "meta": "26 серпня 2026 · 8 хв читання",
     "lead": "Майже на кожній сироватці з вітаміном С спереду стоїть цифра — 10%, 15%, 20% — і мається на увазі, що більша означає сильнішу. Цифра справжня. А от звідки вона взялася — зовсім не те, що ви подумали. І коли це знаєш, полиця виглядає інакше.",
     "blocks": [
@@ -399,7 +399,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Відповідь індустрії на крихкість — похідні: магнію аскорбілфосфат, аскорбіл-6-пальмітат, натрію аскорбілфосфат. Вони стабільні при нейтральному pH, м'якші й не коричневіють. Але в роботі Піннелла про всмоктування жодна з них узагалі не підвищила рівень L-аскорбінової кислоти у шкірі. Цьому висновку вже двадцять п'ять років, і наука про формули відтоді просунулася, тож це не останнє слово. Але означає воно ось що: обмін не безплатний. Похідна, м'яка через свою стабільність, може бути м'якою ще й тому, що її менше потрапляє всередину — а дослідження, на яких стоїть уся категорія, проводили не на похідних."
+        "text": "Відповідь індустрії на крихкість — похідні: магнію аскорбілфосфат, аскорбіл-6-пальмітат, натрію аскорбілфосфат. Вони стабільні при нейтральному pH, м'якші й не коричневіють. Але в роботі Піннелла про всмоктування похідні, які там перевіряли, — зокрема магнію аскорбілфосфат і аскорбіл-6-пальмітат, — узагалі не підвищили рівень L-аскорбінової кислоти у шкірі. Цьому висновку вже двадцять п'ять років, і наука про формули відтоді просунулася, тож це не останнє слово. Але означає воно ось що: обмін не безплатний. Похідна, м'яка через свою стабільність, може бути м'якою ще й тому, що її менше потрапляє всередину — а дослідження, на яких стоїть уся категорія, проводили не на похідних."
       },
       {
         "t": "p",

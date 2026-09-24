@@ -125,7 +125,7 @@ export default {
           },
           {
             "claim": "Around a third of women in the transition report depressive symptoms on screening questionnaires.",
-            "detail": "An umbrella-scale meta-analysis of 102 studies (N=1,141,955) searched to December 2024. Pooled point prevalence of depressive symptoms was 32% (95% CI 26–37%) in perimenopausal and 30% (27–34%) in postmenopausal women; period prevalence 24% and 19% respectively. Anxiety point prevalence was 29% (15–45%) in perimenopausal and 39% (22–57%) in postmenopausal women; insomnia 27% (19–37%) and 42% (34–50%). Subgroup analyses found higher rates when screening instruments rather than diagnostic interviews were used, so these are symptom estimates, not diagnosis rates.",
+            "detail": "A systematic review and meta-analysis of 102 studies (N=1,141,955) searched to December 2024. Pooled point prevalence of depressive symptoms was 32% (95% CI 26–37%) in perimenopausal and 30% (27–34%) in postmenopausal women; period prevalence 24% and 19% respectively. Anxiety point prevalence was 29% (15–45%) in perimenopausal and 39% (22–57%) in postmenopausal women; insomnia 27% (19–37%) and 42% (34–50%). Subgroup analyses found higher rates when screening instruments rather than diagnostic interviews were used, so these are symptom estimates, not diagnosis rates.",
             "cite": "Balasubramanian I et al. · General Hospital Psychiatry 2026;100:325–335",
             "url": "https://doi.org/10.1016/j.genhosppsych.2026.03.010"
           },
@@ -148,7 +148,7 @@ export default {
             "url": "https://doi.org/10.1002/da.22651"
           },
           {
-            "claim": "Twelve months of transdermal oestradiol halved the rate of new clinically significant depressive symptoms in one trial.",
+            "claim": "Twelve months of transdermal oestradiol nearly halved the rate of new clinically significant depressive symptoms in one trial.",
             "detail": "A double-blind randomised placebo-controlled trial in 172 perimenopausal and early postmenopausal women aged 45–60 who were not depressed at enrolment. Transdermal oestradiol 0.1 mg/day plus intermittent micronised progesterone (200 mg for 12 days every 2–3 months) for 12 months versus placebo. Clinically significant depressive symptoms (CES-D ≥16) developed in 17.3% on hormone therapy versus 32.3% on placebo — the odds of developing them were 2.5 times higher on placebo (OR 2.5, 95% CI 1.1–5.7, p=.03). Benefit was concentrated in women in the early menopause transition and in those reporting more recent stressful life events; women in late transition or early postmenopause, and those with no recent stressors, showed little difference. This was prevention in women without depression, not treatment of established depression, and it is a single trial.",
             "cite": "Gordon JL et al. · JAMA Psychiatry 2018;75(2):149–157",
             "url": "https://doi.org/10.1001/jamapsychiatry.2017.3998"
@@ -345,7 +345,7 @@ export default {
             "url": "https://doi.org/10.1002/da.22651"
           },
           {
-            "claim": "Дванадцять місяців трансдермального естрадіолу вдвічі знизили частоту нових клінічно значущих депресивних симптомів в одному дослідженні.",
+            "claim": "Дванадцять місяців трансдермального естрадіолу майже вдвічі знизили частоту нових клінічно значущих депресивних симптомів в одному дослідженні.",
             "detail": "Подвійне сліпе рандомізоване плацебо-контрольоване дослідження за участю 172 жінок у перименопаузі та ранній постменопаузі віком 45–60 років, які на момент включення не мали депресії. Трансдермальний естрадіол 0,1 мг/добу з періодичним мікронізованим прогестероном (200 мг протягом 12 днів кожні 2–3 місяці) впродовж 12 місяців проти плацебо. Клінічно значущі депресивні симптоми (CES-D ≥16) розвинулися в 17,3% на гормональній терапії проти 32,3% на плацебо — шанси їх розвитку були в 2,5 раза вищими на плацебо (ВШ 2,5; 95% ДІ 1,1–5,7; p=0,03). Користь концентрувалася в жінок у ранньому переході та в тих, хто повідомляв про нещодавні стресові життєві події; у жінок у пізньому переході чи ранній постменопаузі й без нещодавніх стресорів різниці майже не було. Це була профілактика в жінок без депресії, а не лікування наявної, і це одне дослідження.",
             "cite": "Gordon JL et al. · JAMA Psychiatry 2018;75(2):149–157",
             "url": "https://doi.org/10.1001/jamapsychiatry.2017.3998"

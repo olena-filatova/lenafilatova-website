@@ -25,7 +25,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "The most quoted number here comes from SWAN, which followed 2,956 women aged 42 to 52 for ten years and measured anxiety symptoms rather than diagnoses. Women who had low anxiety before the transition were about 1.6 times more likely to report high anxiety once they reached early perimenopause, late perimenopause or postmenopause than they had been premenopausally — and that held after adjusting for upsetting life events, money worries, poor general health and hot flushes. Women who were already anxious before the transition stayed anxious throughout, with no particular pattern by menopausal stage."
+        "text": "The most quoted number here comes from SWAN, which followed 2,956 women aged 42 to 52 for ten years and measured anxiety symptoms rather than diagnoses. Women who had low anxiety before the transition had about 1.6 times the odds of reporting high anxiety once they reached early perimenopause, late perimenopause or postmenopause than when they were premenopausal — and that held after adjusting for upsetting life events, money worries, poor general health and hot flushes. Women who were already anxious before the transition stayed anxious throughout, with no particular pattern by menopausal stage."
       },
       {
         "t": "p",
@@ -77,7 +77,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "HRT is worth discussing, with the honest caveat attached. The strongest trial evidence in this territory measured depressive symptoms rather than anxiety: twelve months of transdermal oestradiol halved the rate of new clinically significant depressive symptoms in [one randomised prevention trial](/blog/depression-in-perimenopause/). For anxiety specifically the direct evidence is thin. What HRT reliably does is reduce hot flushes and night sweats, and for a lot of women the anxiety is being fed by a body that is woken four times a night."
+        "text": "HRT is worth discussing, with the honest caveat attached. The strongest trial evidence in this territory measured depressive symptoms rather than anxiety: twelve months of transdermal oestradiol nearly halved the rate of new clinically significant depressive symptoms in [one randomised prevention trial](/blog/depression-in-perimenopause/). For anxiety specifically the direct evidence is thin. What HRT reliably does is reduce hot flushes and night sweats, and for a lot of women the anxiety is being fed by a body that is woken four times a night."
       },
       {
         "t": "p",
@@ -186,7 +186,7 @@ export default {
     "faq": [
       {
         "q": "Can perimenopause cause anxiety out of nowhere?",
-        "a": "That is close to what the largest study found. In SWAN, women who had low anxiety before the transition were about 1.6 times more likely to report high anxiety once they reached perimenopause or postmenopause, independently of life events, money worries, general health and hot flushes — while women who were already anxious showed no particular pattern by menopausal stage. So new anxiety in your forties is a recognised pattern, not something you have imagined. It is still worth having thyroid function and iron checked, because both produce the same symptoms."
+        "a": "That is close to what the largest study found. In SWAN, women who had low anxiety before the transition had about 1.6 times the odds of reporting high anxiety once they reached perimenopause or postmenopause, independently of life events, money worries, general health and hot flushes — while women who were already anxious showed no particular pattern by menopausal stage. So new anxiety in your forties is a recognised pattern, not something you have imagined. It is still worth having thyroid function and iron checked, because both produce the same symptoms."
       },
       {
         "q": "Why do I wake at 3am with my heart pounding?",
@@ -214,7 +214,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Найчастіше цитована цифра тут — із SWAN, яке десять років спостерігало 2956 жінок віком 42–52 роки й вимірювало симптоми тривоги, а не діагнози. Жінки з низькою тривогою до переходу приблизно в 1,6 раза частіше повідомляли про високу тривогу, коли досягали ранньої перименопаузи, пізньої перименопаузи чи постменопаузи, ніж тоді, коли були в пременопаузі, — і це трималося після поправки на засмучливі життєві події, фінансові труднощі, погане загальне здоров'я та припливи. Жінки, які були тривожними ще до переходу, залишалися такими весь час, без особливого патерну за стадією."
+        "text": "Найчастіше цитована цифра тут — із SWAN, яке десять років спостерігало 2956 жінок віком 42–52 роки й вимірювало симптоми тривоги, а не діагнози. Жінки з низькою тривогою до переходу мали приблизно в 1,6 раза вищі шанси повідомити про високу тривогу, коли досягали ранньої перименопаузи, пізньої перименопаузи чи постменопаузи, ніж тоді, коли були в пременопаузі, — і це трималося після поправки на засмучливі життєві події, фінансові труднощі, погане загальне здоров'я та припливи. Жінки, які були тривожними ще до переходу, залишалися такими весь час, без особливого патерну за стадією."
       },
       {
         "t": "p",
@@ -266,7 +266,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "ЗГТ варта обговорення — із чесним застереженням. Найсильніші дані рандомізованих досліджень у цій царині вимірювали депресивні симптоми, а не тривогу: дванадцять місяців трансдермального естрадіолу вдвічі знизили частоту нових клінічно значущих депресивних симптомів в [одному профілактичному дослідженні](/ua/blog/depression-in-perimenopause/). Саме щодо тривоги прямих доказів мало. Що ЗГТ робить надійно — зменшує припливи й нічну пітливість, а в багатьох жінок тривогу живить тіло, яке прокидається чотири рази за ніч."
+        "text": "ЗГТ варта обговорення — із чесним застереженням. Найсильніші дані рандомізованих досліджень у цій царині вимірювали депресивні симптоми, а не тривогу: дванадцять місяців трансдермального естрадіолу майже вдвічі знизили частоту нових клінічно значущих депресивних симптомів в [одному профілактичному дослідженні](/ua/blog/depression-in-perimenopause/). Саме щодо тривоги прямих доказів мало. Що ЗГТ робить надійно — зменшує припливи й нічну пітливість, а в багатьох жінок тривогу живить тіло, яке прокидається чотири рази за ніч."
       },
       {
         "t": "p",
@@ -375,7 +375,7 @@ export default {
     "faq": [
       {
         "q": "Чи може перименопауза спричинити тривогу «з нізвідки»?",
-        "a": "Це близько до того, що знайшло найбільше дослідження. У SWAN жінки з низькою тривогою до переходу приблизно в 1,6 раза частіше повідомляли про високу тривогу, коли досягали перименопаузи чи постменопаузи, незалежно від життєвих подій, фінансових труднощів, загального здоров'я та припливів, — тоді як у жінок, уже тривожних раніше, особливого патерну за стадією не було. Тобто нова тривога після сорока — це впізнаваний патерн, а не ваша вигадка. І все одно варто перевірити щитоподібну залозу й залізо: вони дають ті самі симптоми."
+        "a": "Це близько до того, що знайшло найбільше дослідження. У SWAN жінки з низькою тривогою до переходу мали приблизно в 1,6 раза вищі шанси повідомити про високу тривогу, коли досягали перименопаузи чи постменопаузи, незалежно від життєвих подій, фінансових труднощів, загального здоров'я та припливів, — тоді як у жінок, уже тривожних раніше, особливого патерну за стадією не було. Тобто нова тривога після сорока — це впізнаваний патерн, а не ваша вигадка. І все одно варто перевірити щитоподібну залозу й залізо: вони дають ті самі симптоми."
       },
       {
         "q": "Чому я прокидаюся о третій ночі з гупанням серця?",
