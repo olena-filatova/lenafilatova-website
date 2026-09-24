@@ -19,7 +19,7 @@ export default {
   "en": {
     "cat": "Diabetes",
     "imageAlt": "An open notebook headed ‘Weight log’ on a dark wooden table, one page listing goals and the other a dated table of weights, a pen and a dumbbell beside it.",
-    "title": "A normal BMI told these women nothing — the direction it was moving told them a lot",
+    "title": "A normal BMI didn't tell these women the whole story — the direction it was moving told them more",
     "seoTitle": "BMI Trajectory and Prediabetes: A 7-Year Study",
     "metaDesc": "A Japanese cohort followed 2,271 women for seven years. Small year-on-year BMI gain was linked to later prediabetes, even in women who started with a normal BMI.",
     "excerpt": "Nearly every prevention rule for blood sugar runs off one number taken on one day. A cohort of 2,271 women followed for seven years suggests the more useful number is the slope — how fast that reading is moving, even while it still counts as normal.",
@@ -102,7 +102,7 @@ export default {
   "ua": {
     "cat": "Діабет",
     "imageAlt": "Розгорнутий записник із заголовком «Weight log» на темному дерев’яному столі: на одній сторінці перелік цілей, на іншій — таблиця зважувань за датами, поруч ручка й гантель.",
-    "title": "Нормальний ІМТ не сказав цим жінкам нічого — а напрямок, у якому він рухався, сказав багато",
+    "title": "Нормальний ІМТ не розповів цим жінкам усього — напрямок, у якому він рухався, сказав більше",
     "seoTitle": "Траєкторія ІМТ і предіабет: 7 років спостережень",
     "metaDesc": "Японська когорта спостерігала 2 271 жінку сім років. Невеликий щорічний приріст ІМТ був пов’язаний із подальшим предіабетом навіть у тих, чий ІМТ на старті був у нормі.",
     "excerpt": "Майже всі правила профілактики щодо цукру крові спираються на одне число, виміряне одного дня. Когорта з 2 271 жінки, за якою спостерігали сім років, показує, що корисніше число — це нахил: як швидко цей показник рухається, поки він ще вважається нормальним.",
