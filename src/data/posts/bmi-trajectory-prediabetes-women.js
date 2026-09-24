@@ -21,8 +21,8 @@ export default {
     "imageAlt": "An open notebook headed ‘Weight log’ on a dark wooden table, one page listing goals and the other a dated table of weights, a pen and a dumbbell beside it.",
     "title": "A normal BMI didn't tell these women the whole story — the direction it was moving told them more",
     "seoTitle": "BMI Trajectory and Prediabetes: A 7-Year Study",
-    "metaDesc": "A Japanese cohort followed 2,271 women for seven years. Small year-on-year BMI gain was linked to later prediabetes, even in women who started with a normal BMI.",
-    "excerpt": "Nearly every prevention rule for blood sugar runs off one number taken on one day. A cohort of 2,271 women followed for seven years suggests the more useful number is the slope — how fast that reading is moving, even while it still counts as normal.",
+    "metaDesc": "A Japanese cohort followed 2,271 women for seven years. Small yearly BMI gains were linked to later prediabetes, even in women who started at a normal BMI.",
+    "excerpt": "Blood-sugar prevention runs off one number taken on one day. A seven-year study of 2,271 women suggests the slope matters more — how fast BMI moves, even within normal.",
     "meta": "23 August 2026 · 6 min read",
     "lead": "Almost every screening rule we have for blood sugar works off a single measurement: your BMI today, against a threshold. A study published in July in the American Journal of Preventive Medicine asked a different question — not where a woman’s weight is, but which way it is going, and how fast — and found that the answer to the second question was linked to which women went on to develop prediabetes and which didn’t.",
     "blocks": [
@@ -104,8 +104,8 @@ export default {
     "imageAlt": "Розгорнутий записник із заголовком «Weight log» на темному дерев’яному столі: на одній сторінці перелік цілей, на іншій — таблиця зважувань за датами, поруч ручка й гантель.",
     "title": "Нормальний ІМТ не розповів цим жінкам усього — напрямок, у якому він рухався, сказав більше",
     "seoTitle": "Траєкторія ІМТ і предіабет: 7 років спостережень",
-    "metaDesc": "Японська когорта спостерігала 2 271 жінку сім років. Невеликий щорічний приріст ІМТ був пов’язаний із подальшим предіабетом навіть у тих, чий ІМТ на старті був у нормі.",
-    "excerpt": "Майже всі правила профілактики щодо цукру крові спираються на одне число, виміряне одного дня. Когорта з 2 271 жінки, за якою спостерігали сім років, показує, що корисніше число — це нахил: як швидко цей показник рухається, поки він ще вважається нормальним.",
+    "metaDesc": "Японська когорта спостерігала 2 271 жінку сім років. Невеликий щорічний приріст ІМТ пов’язали з подальшим предіабетом — навіть за нормального ІМТ на старті.",
+    "excerpt": "Профілактика цукру крові спирається на одне число одного дня. Семирічне спостереження за 2 271 жінкою показує: важливіше, як швидко рухається ІМТ, навіть у нормі.",
     "meta": "23 серпня 2026 · 6 хв читання",
     "lead": "Майже всі наші правила скринінгу щодо цукру крові працюють з одним вимірюванням: ваш ІМТ сьогодні проти порогового значення. Дослідження, опубліковане в липні в American Journal of Preventive Medicine, поставило інше запитання — не де саме перебуває вага жінки, а куди й наскільки швидко вона рухається, — і виявило, що відповідь на друге запитання пов’язана з тим, у кого з жінок згодом розвинувся предіабет, а в кого ні.",
     "blocks": [
