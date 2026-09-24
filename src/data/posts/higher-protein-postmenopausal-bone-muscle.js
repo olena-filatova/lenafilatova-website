@@ -13,7 +13,8 @@ export default {
     "imageAlt": "A plate of grilled salmon with asparagus, broccoli and salad.",
     "title": "Eating more protein than the official guideline supports better muscle and bone after menopause",
     "seoTitle": "Protein After Menopause: More Than the Guideline",
-    "excerpt": "A Women’s Health Initiative analysis of 3,789 postmenopausal women finds those hitting higher protein targets than the standard RDA had better body composition and bone outcomes over 3 years.",
+    "metaDesc": "A Women’s Health Initiative analysis of 3,789 postmenopausal women links protein above the RDA, around 1.2g/kg a day, to better lean mass and bone over 3 years.",
+    "excerpt": "In a Women’s Health Initiative analysis of 3,789 postmenopausal women, eating more protein than the standard guideline was linked to better muscle and bone over 3 years.",
     "meta": "17 July 2026 · 3 min read",
     "lead": "The protein guideline this analysis tested is the American RDA — 0.8g per kilogram of body weight a day. The UK figure is a shade lower still, a Reference Nutrient Intake of 0.75g/kg. Both were set decades ago from studies that barely included older women, and a new analysis suggests they are too low for the postmenopausal years.",
     "blocks": [
@@ -91,7 +92,8 @@ export default {
     "imageAlt": "Тарілка з підсмаженим лососем, спаржею, броколі та салатом.",
     "title": "Білка більше за офіційну норму — краще для м’язів і кісток після менопаузи",
     "seoTitle": "Білок після менопаузи: більше за норму — краще",
-    "excerpt": "Аналіз даних Women’s Health Initiative серед 3789 жінок у постменопаузі показує: ті, хто вживав більше білка, ніж стандартна норма, мали кращий склад тіла та стан кісток протягом 3 років.",
+    "metaDesc": "Аналіз Women’s Health Initiative серед 3789 жінок у постменопаузі пов’язує білок понад норму, близько 1,2 г/кг на день, із кращою м’язовою масою й кістками.",
+    "excerpt": "В аналізі Women’s Health Initiative серед 3789 жінок у постменопаузі білок понад стандартну норму був пов’язаний із кращим станом м’язів і кісток за 3 роки.",
     "meta": "17 липня 2026 · 3 хв читання",
     "lead": "Норма білка, яку перевіряв цей аналіз, — американська RDA, 0,8 г на кілограм ваги на день. Британська цифра ще трохи нижча: Reference Nutrient Intake — 0,75 г/кг. Обидві встановили десятиліття тому за дослідженнями, де майже не було літніх жінок, і новий аналіз свідчить, що для періоду після менопаузи вони занизькі.",
     "blocks": [

@@ -12,7 +12,7 @@ export default {
     "title": "Endometriosis is linked to a 46% higher risk of type 2 diabetes — in the women screening tends to miss",
     "seoTitle": "Endometriosis Linked to 46% Higher Type 2 Diabetes Risk",
     "metaDesc": "A 25-year study of 3 million women links endometriosis to 46% higher type 2 diabetes risk — highest before menopause and in women who aren’t overweight.",
-    "excerpt": "A 25-year study of nearly three million women found a 46% higher rate of type 2 diabetes in those diagnosed with endometriosis — with the strongest signal in premenopausal women and women who aren’t overweight, the two groups standard diabetes screening deprioritises.",
+    "excerpt": "A 25-year study of nearly three million women linked endometriosis to a 46% higher rate of type 2 diabetes, strongest before menopause and in women who aren’t overweight.",
     "meta": "16 August 2026 · 4 min read",
     "lead": "Endometriosis has been treated for decades as a condition of the reproductive system and nothing more. A 25-year study of nearly three million women suggests its reach may be wider than that — and that the women it flags are the ones routine diabetes screening tends to skip past.",
     "blocks": [
@@ -105,7 +105,7 @@ export default {
     "title": "Ендометріоз пов’язаний із на 46% вищим ризиком діабету 2 типу — саме в тих жінок, яких скринінг зазвичай оминає",
     "seoTitle": "Ендометріоз: на 46% вищий ризик діабету 2 типу",
     "metaDesc": "25-річне дослідження 3 мільйонів жінок: ендометріоз пов’язаний із на 46% вищим ризиком діабету 2 типу — найбільше до менопаузи та в жінок без ожиріння.",
-    "excerpt": "25-річне дослідження майже трьох мільйонів жінок виявило на 46% вищу частоту діабету 2 типу серед тих, кому діагностували ендометріоз, — найсильніший сигнал у жінок до менопаузи та без надмірної ваги, тобто у двох групах, які стандартний скринінг на діабет ставить у кінець черги.",
+    "excerpt": "25-річне дослідження майже трьох мільйонів жінок пов’язало ендометріоз із на 46% вищою частотою діабету 2 типу — найсильніше до менопаузи та в жінок без надмірної ваги.",
     "meta": "16 серпня 2026 · 4 хв читання",
     "lead": "Десятиліттями ендометріоз розглядали як хворобу репродуктивної системи — і нічого більше. 25-річне дослідження майже трьох мільйонів жінок дає підстави думати, що його вплив ширший. І що жінки, на яких воно вказує, — саме ті, кого рутинний скринінг на діабет зазвичай пропускає.",
     "blocks": [

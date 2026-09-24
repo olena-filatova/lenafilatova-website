@@ -12,7 +12,7 @@ export default {
     "title": "Clinical trials for women over 40: 19 studies recruiting right now",
     "seoTitle": "Clinical Trials for Women Over 40: Recruiting Now",
     "metaDesc": "Nineteen clinical trials recruiting women over 40 in the UK and Ukraine — perimenopause, diabetes, weight, muscle, heart. Who can join each one, and how.",
-    "excerpt": "Perimenopause, diabetes, weight-loss medicines, muscle, heart: nineteen studies currently recruiting in the UK and Ukraine that a woman over 40 could actually join, each checked against its registry record on 17 August 2026, with what it wants from you and who it will not take.",
+    "excerpt": "Nineteen studies in the UK and Ukraine a woman over 40 could join, from perimenopause and diabetes to muscle and heart, each checked on its registry on 17 August 2026.",
     "meta": "17 August 2026 · 10 min read",
     "lead": "Midlife women are talked about constantly in health research and included in it far less often. That is slowly changing, and the evidence is a long list of studies now looking specifically for women in their forties, fifties and sixties. Here is what is open, what each one actually asks of you, and how to find the ones I have missed.",
     "blocks": [
@@ -389,7 +389,7 @@ export default {
     "title": "Клінічні дослідження для жінок після 40: 19 наборів, які тривають зараз",
     "seoTitle": "Клінічні дослідження для жінок після 40: набір",
     "metaDesc": "Дев’ятнадцять клінічних досліджень, які набирають жінок після 40 у Британії та Україні: перименопауза, діабет, вага, м’язи, серце. Хто може долучитися.",
-    "excerpt": "Перименопауза, діабет, препарати для зниження ваги, м’язи, серце: дев’ятнадцять досліджень, які зараз набирають учасників у Британії та Україні і до яких жінка після 40 справді може долучитися. Кожне перевірено за реєстром 17 серпня 2026 року — з умовами участі й тим, кого не візьмуть.",
+    "excerpt": "19 досліджень у Британії та Україні, до яких може долучитися жінка після 40: від перименопаузи й діабету до м’язів і серця. Кожне звірене з реєстром 17 серпня 2026 року.",
     "meta": "17 серпня 2026 · 10 хв читання",
     "lead": "Про жінок середнього віку в медичних дослідженнях говорять постійно — а включають їх туди значно рідше. Це поступово змінюється, і доказ цього — довгий список досліджень, які саме зараз шукають жінок 40, 50 і 60 років. Ось що відкрито, чого кожне дослідження від вас хоче і як знайти те, що я пропустила.",
     "blocks": [

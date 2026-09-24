@@ -11,7 +11,7 @@ export default {
     "title": "Anxiety and brain fog, not hot flashes, are now women’s top menopause complaint",
     "seoTitle": "Anxiety & Brain Fog Now Top Menopause Symptom",
     "metaDesc": "A survey of over 2,000 women finds anxiety now outranks hot flashes as the menopause symptom with the biggest impact. What’s driving the shift.",
-    "excerpt": "Bonafide Health’s sixth annual survey of over 2,000 women finds anxiety has overtaken hot flashes as the symptom with the biggest impact, with brain fog and low motivation also weighing heavily — and nearly half say it’s hit their income.",
+    "excerpt": "In a survey of over 2,000 women, anxiety, panic and depression outranked hot flashes as the most impactful symptom, and nearly half said symptoms had hit their income.",
     "meta": "17 July 2026 · 3 min read",
     "lead": "For years, menopause conversations have centred on hot flashes. New survey data suggests that’s no longer the symptom women say is hardest to live with.",
     "blocks": [
@@ -68,7 +68,7 @@ export default {
     "title": "Тривожність і туман у голові, а не припливи — тепер головна скарга жінок у менопаузі",
     "seoTitle": "Тривога й туман у голові — головний симптом",
     "metaDesc": "Опитування понад 2000 жінок: тривога тепер випереджає припливи як симптом менопаузи з найбільшим впливом. Що стоїть за цією зміною і що допомагає.",
-    "excerpt": "Шосте щорічне опитування Bonafide Health, у якому взяли участь понад 2000 жінок, показало: тривожність обійшла припливи як симптом із найбільшим впливом, а туман у голові та зниження мотивації теж даються взнаки — і майже половина жінок каже, що це вдарило по їхньому доходу.",
+    "excerpt": "В опитуванні понад 2000 жінок тривожність, паніка й депресія випередили припливи як симптом із найбільшим впливом, а майже половина каже, що це вдарило по доходу.",
     "meta": "17 липня 2026 · 3 хв читання",
     "lead": "Роками розмови про менопаузу оберталися навколо припливів. Нові дані опитування свідчать, що це вже не той симптом, з яким жінкам найважче жити.",
     "blocks": [

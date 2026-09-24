@@ -15,7 +15,7 @@ export default {
     "seoTitle": "Alcohol and Blood Sugar: The 10-Hour Delay Explained",
     "imageAlt": "Two tall cocktails garnished with cucumber and orange being set down on a restaurant table between two people",
     "metaDesc": "Alcohol can drop your glucose 10–12 hours later, not while you drink. The mechanism, what it really means for glucagon, and what changes after 40.",
-    "excerpt": "Almost everyone assumes alcohol affects blood sugar because of the sugar in the drink. It doesn’t, and that misunderstanding is why the effect catches people out. The thing worth knowing happens hours after the glass is empty — usually overnight, usually while you are asleep.",
+    "excerpt": "Alcohol doesn’t affect blood sugar through the sugar in the drink. The part worth knowing happens hours after the glass is empty, usually overnight while you’re asleep.",
     "meta": "20 August 2026 · 10 min read",
     "lead": "In a controlled study, six men with type 1 diabetes drank dry white wine at nine in the evening. Their glucose overnight was no different from the nights they drank water. Then, from ten the next morning, five of the six needed treating for hypoglycaemia. The alcohol had been undetectable in their blood since eight. That gap — between the drink and the consequence — is the whole story, and it is almost never explained to the people it happens to.",
     "blocks": [
@@ -565,7 +565,7 @@ export default {
     "seoTitle": "Алкоголь і цукор у крові: 10-годинна затримка",
     "imageAlt": "Два високі келихи з коктейлями, прикрашені огірком і апельсином, які ставлять на столик у ресторані між двома людьми",
     "metaDesc": "Алкоголь може знизити глюкозу через 10–12 годин, а не під час пиття. Механізм, що це насправді означає для глюкагону, і що змінюється після 40.",
-    "excerpt": "Майже всі вважають, що алкоголь впливає на цукор через цукор у самому напої. Це не так — і саме через це непорозуміння ефект застає людей зненацька. Найважливіше стається за кілька годин після того, як келих спорожнів: зазвичай уночі, зазвичай уві сні.",
+    "excerpt": "Алкоголь впливає на цукор не через цукор у напої. Найважливіше стається за кілька годин після того, як келих спорожнів, — зазвичай уночі, коли ви спите.",
     "meta": "20 серпня 2026 · 10 хв читання",
     "lead": "У контрольованому дослідженні шестеро чоловіків із діабетом 1 типу випили сухого білого вина о дев’ятій вечора. Уночі їхня глюкоза нічим не відрізнялася від ночей, коли вони пили воду. А потім, із десятої ранку наступного дня, п’ятьом із шести знадобилося лікування гіпоглікемії. Алкоголь у крові не визначався вже з восьмої. Саме цей розрив — між напоєм і наслідком — і є вся суть, і саме його майже ніколи не пояснюють тим, з ким це стається.",
     "blocks": [

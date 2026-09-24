@@ -64,7 +64,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The practical dose is smaller than most people fear. The lifting group trained two to three times a week — which is roughly what the NHS already asks of every adult: strengthening work covering all the major muscle groups on at least two days a week. If you have never done it, [starting strength training in perimenopause when you've never lifted before](/blog/strength-training-perimenopause-beginners/) walks through the first six months."
+        "text": "The practical dose is smaller than most people fear. The lifting group trained two to three times a week — which is roughly what the NHS already asks of every adult: strengthening work covering all the major muscle groups on at least two days a week. If you have never done it, [starting strength training in perimenopause when you've never lifted before](/blog/strength-training-perimenopause-beginners/) walks through the first six months. Two things decide how much of that lifting turns into muscle: enough [protein for women over 40](/blog/protein-for-women-over-40/), and, if you want the one supplement with good trial evidence in this group, [creatine for women over 40](/blog/creatine-women-over-40/)."
       },
       {
         "t": "h",
@@ -176,7 +176,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Практична доза менша, ніж більшість очікує. Група силових тренувалася двічі-тричі на тиждень — приблизно те, що NHS і так радить кожному дорослому: вправи на всі основні групи м'язів щонайменше два дні на тиждень. Якщо ви ніколи цього не робили, текст [Як почати силові тренування в перименопаузі, якщо ви ніколи не піднімали ваги](/ua/blog/strength-training-perimenopause-beginners/) проводить через перші пів року."
+        "text": "Практична доза менша, ніж більшість очікує. Група силових тренувалася двічі-тричі на тиждень — приблизно те, що NHS і так радить кожному дорослому: вправи на всі основні групи м'язів щонайменше два дні на тиждень. Якщо ви ніколи цього не робили, текст [Як почати силові тренування в перименопаузі, якщо ви ніколи не піднімали ваги](/ua/blog/strength-training-perimenopause-beginners/) проводить через перші пів року. Дві речі вирішують, скільки із цих тренувань перетвориться на м’язи: достатньо [білка для жінок після 40](/ua/blog/protein-for-women-over-40/) і — якщо хочете єдину добавку з доброю доказовою базою саме в цій групі — [креатин для жінок після 40](/ua/blog/creatine-women-over-40/)."
       },
       {
         "t": "h",

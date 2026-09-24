@@ -32,7 +32,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is observational, so it shows a strong association rather than proof, and diet was self-reported. But it lines up with everything else we know, and the practical message is refreshingly ordinary: it isn’t about cutting carbs, it’s about upgrading them. Swap white bread for whole grains, reach for beans and lentils, and keep fruit and vegetables central — small midlife choices with a long tail. Buckwheat is a good example of the upgrade: my [buckwheat cookies, no sugar](/recipes/buckwheat-cookies/) use it as both the grain and the flour."
+        "text": "This is observational, so it shows a strong association rather than proof, and diet was self-reported. But it lines up with everything else we know, and the practical message is refreshingly ordinary: it isn’t about cutting carbs, it’s about upgrading them. Swap white bread for whole grains, reach for beans and lentils, and keep fruit and vegetables central — small midlife choices with a long tail. Buckwheat is a good example of the upgrade: my [buckwheat cookies, no sugar](/recipes/buckwheat-cookies/) use it as both the grain and the flour. Two things sit naturally alongside this. What your gut bacteria do with all that fibre is its own story — [the review of fermented foods and the gut microbiome](/blog/fermented-foods-gut-microbiome-review/) is the clearest human evidence on shifting it. And carbohydrate quality works best next to enough [protein for women over 40](/blog/protein-for-women-over-40/), which protects the muscle that handles your glucose in the first place."
       },
       {
         "t": "h",
@@ -85,7 +85,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це спостережне дослідження, тож воно показує сильний зв’язок, а не доказ, і харчування оцінювали за самозвітами. Але воно збігається з усім, що ми знаємо, і практичний висновок приємно буденний: ідеться не про те, щоб урізати вуглеводи, а про те, щоб їх покращити. Замініть білий хліб на цільнозерновий, тягніться до квасолі та сочевиці й тримайте фрукти та овочі в центрі — маленькі рішення в середньому віці з довгим наслідком. Гречка — хороший приклад такого покращення: у [гречаному печиві без цукру](/ua/recipes/buckwheat-cookies/) вона і крупа, і борошно, а ягоди легко тримати під рукою як [чорничний джем: рецепт без цукру](/ua/recipes/blueberry-jam/)."
+        "text": "Це спостережне дослідження, тож воно показує сильний зв’язок, а не доказ, і харчування оцінювали за самозвітами. Але воно збігається з усім, що ми знаємо, і практичний висновок приємно буденний: ідеться не про те, щоб урізати вуглеводи, а про те, щоб їх покращити. Замініть білий хліб на цільнозерновий, тягніться до квасолі та сочевиці й тримайте фрукти та овочі в центрі — маленькі рішення в середньому віці з довгим наслідком. Гречка — хороший приклад такого покращення: у [гречаному печиві без цукру](/ua/recipes/buckwheat-cookies/) вона і крупа, і борошно, а ягоди легко тримати під рукою як [чорничний джем: рецепт без цукру](/ua/recipes/blueberry-jam/). Поруч із цим стоять ще дві речі. Що роблять кишкові бактерії з усією цією клітковиною — окрема історія: [огляд про ферментовані продукти та мікробіом кишківника](/ua/blog/fermented-foods-gut-microbiome-review/) збирає найясніші дані про людей. А якість вуглеводів працює найкраще поруч із достатнім [білком для жінок після 40](/ua/blog/protein-for-women-over-40/), який захищає м’язи, що й керують вашою глюкозою."
       },
       {
         "t": "h",

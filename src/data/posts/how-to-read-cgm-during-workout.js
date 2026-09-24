@@ -34,7 +34,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is a good measurement of exactly how far behind it runs. Seventeen adults with type 1 diabetes — thirteen of them women — [walked and lightly jogged on a treadmill for an hour](https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364), broken into four fifteen-minute bouts, with finger-prick readings taken alongside the sensor throughout. Pooled across three different insulin conditions, the sensor ran 12 ± 11 minutes behind the blood. Its error rate roughly halved once the session was over and they sat down to eat: 13% during exercise, 8% afterwards."
+        "text": "There is a good measurement of exactly how far behind it runs. Seventeen adults with type 1 diabetes — thirteen of them women — [walked and lightly jogged on a treadmill for an hour](https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364), broken into four fifteen-minute bouts, with finger-prick readings taken alongside the sensor throughout. Pooled across three different insulin conditions, the sensor ran 12 ± 11 minutes behind the blood. Its error rate fell by more than a third once the session was over and they sat down to eat: 13% during exercise, 8% afterwards."
       },
       {
         "t": "p",
@@ -46,11 +46,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is the finding from that study that I think should change how you use the device. When a finger-prick confirmed the participant had actually gone low — under 3.9 mmol/L — the sensor was reading, on average, around 1.1 mmol/L higher than the truth."
+        "text": "Here is the finding from that study that I think should change how you use the device. When a finger-prick confirmed the participant had actually gone low — under 3.9 mmol/L — the sensor was reading, on average, around 1.2 mmol/L higher than the truth."
       },
       {
         "t": "p",
-        "text": "Sit with that for a moment. It means that at the exact moment you most need the number to be honest with you, it is flattering you. Your sensor says 4.8 and reassures you; your blood says 3.7 and does not. The most comforting reading your device produces during exercise is also the least trustworthy one it produces all day. This is the single reason to treat a downward arrow as a decision point rather than as something to keep an eye on."
+        "text": "Sit with that for a moment. It means that at the exact moment you most need the number to be honest with you, it is flattering you. Your sensor says 4.9 and reassures you; your blood says 3.7 and does not. The most comforting reading your device produces during exercise is also the least trustworthy one it produces all day. This is the single reason to treat a downward arrow as a decision point rather than as something to keep an eye on."
       },
       {
         "t": "h",
@@ -95,7 +95,7 @@ export default {
           ],
           [
             "One arrow",
-            "Somewhere around 1.7 to 3.3 mmol/L over the next half hour",
+            "Around 1.7 to 3.3 mmol/L over the next half hour if it is angled; around 3.3 to 5 mmol/L if it points straight up or down",
             "This is your decision point, not your warning. If it is pointing down, choose your fuel now, while you still have the option of a small amount. Waiting until you feel it means the drop has already outrun the screen"
           ],
           [
@@ -140,7 +140,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There are three situations where a meter is worth the interruption, and they are narrower than the anxious version of this advice suggests. The first is when the arrow says you are moving fast, because that is precisely when the gap between fluid and blood is widest. The second is when your body and the screen disagree — shaky, sweating oddly, gone vague, while the sensor insists you are fine. Trust the body. It is not reading fluid from ten minutes ago. The third is any decision that involves treating a low: given that sensors over-read by around 1.1 mmol/L during exercise hypoglycaemia, a number near the threshold deserves confirmation before you act on it, and often after you have already taken the fast carbs."
+        "text": "There are three situations where a meter is worth the interruption, and they are narrower than the anxious version of this advice suggests. The first is when the arrow says you are moving fast, because that is precisely when the gap between fluid and blood is widest. The second is when your body and the screen disagree — shaky, sweating oddly, gone vague, while the sensor insists you are fine. Trust the body. It is not reading fluid from ten minutes ago. The third is any decision that involves treating a low: given that sensors over-read by around 1.2 mmol/L during exercise hypoglycaemia, a number near the threshold deserves confirmation before you act on it, and often after you have already taken the fast carbs."
       },
       {
         "t": "h",
@@ -174,8 +174,8 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "During moderate aerobic exercise, CGM ran an average of 12 minutes behind blood glucose, with a wide spread — and over-read by around 1.1 mmol/L when hypoglycaemia was actually occurring.",
-            "detail": "A randomised, counterbalanced study published in Diabetes Technology & Therapeutics, volume 21, issue 6, 2019, pages 313 to 321. Seventeen adults with type 1 diabetes (4 men, 13 women), mean age 31 ± 10 years, completed 60 minutes of moderate-intensity walking or light jogging at 45 to 55% of VO2peak, split into four 15-minute bouts with 5-minute rests, across three different basal-rate conditions. Pooled lag behind self-monitored blood glucose during exercise was 12 ± 11 minutes, with a bias of −7 ± 19 mg/dL/min. Median absolute relative difference was 13% (range 6 to 22) during exercise against 8% (5 to 14) during the post-exercise meal period. Where self-monitored blood glucose fell below 70 mg/dL (3.9 mmol/L), the sensor overestimated by approximately 20 mg/dL (about 1.1 mmol/L) on average.",
+            "claim": "During moderate aerobic exercise, CGM ran an average of 12 minutes behind blood glucose, with a wide spread — and over-read by around 1.2 mmol/L when hypoglycaemia was actually occurring.",
+            "detail": "A randomised, counterbalanced study published in Diabetes Technology & Therapeutics, volume 21, issue 6, 2019, pages 313 to 321. Seventeen adults with type 1 diabetes (4 men, 13 women), mean age 31 ± 10 years, completed 60 minutes of moderate-intensity walking or light jogging at 45 to 55% of VO2peak, split into four 15-minute bouts with 5-minute rests, across three different basal-rate conditions. Pooled lag behind self-monitored blood glucose during exercise was 12 ± 11 minutes, with a bias of −7 ± 19 mg/dL/min. Median absolute relative difference was 13% (interquartile range 6 to 22) during exercise against 8% (5 to 14) during the post-exercise meal period. Where self-monitored blood glucose fell below 70 mg/dL (3.9 mmol/L), the sensor overestimated by approximately 21 mg/dL (about 1.2 mmol/L) on average: 81 against 60 mg/dL across 12 episodes, all during exercise.",
             "cite": "Diabetes Technology & Therapeutics · Zaharieva, Turksoy, McGaugh, Pooni, Vienneau, Ly and Riddell, 2019",
             "url": "https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364"
           },
@@ -187,14 +187,14 @@ export default {
           },
           {
             "claim": "In an often-cited study of steady-state cycling, CGM failed to meet the international accuracy standard — but the participants were young women without diabetes, using 2012 sensor technology.",
-            "detail": "Published in Nutrients, volume 4, issue 9, 2012, pages 1282 to 1292. Twelve recreationally active women without diabetes, mean age 21.8 ± 2.4 years, BMI 22.8 ± 2.3, completed two identical 45-minute steady-state cycling trials at approximately 60% of peak power output on non-consecutive days, with a carbohydrate gel at 15 minutes. Against venous plasma glucose, mean absolute difference was 17.4 mg/dL (about 1.0 mmol/L) with 95% limits of agreement of ±44.3 mg/dL, and only 69.4% of CGM values met the ISO 15197 accuracy standard; against capillary plasma glucose the figures were 15.5 mg/dL and 72.7%. Correlations were moderate, r = 0.6. The population and the sensor generation both limit how far this transfers to a woman over 40 living with type 1 diabetes.",
+            "detail": "Published in Nutrients, volume 4, issue 9, 2012, pages 1282 to 1292. Twelve recreationally active women without diabetes, mean age 21.8 ± 2.4 years, BMI 22.8 ± 2.3, completed two identical 45-minute steady-state cycling trials at approximately 60% of peak power output on non-consecutive days, with two carbohydrate gels taken 15 minutes in. Against venous plasma glucose, mean absolute difference was 17.4 mg/dL (about 1.0 mmol/L) with 95% limits of agreement of ±44.3 mg/dL, and only 69.4% of CGM values met the ISO 15197 accuracy standard; against capillary plasma glucose the figures were 15.5 mg/dL and 72.7%. Correlations were moderate, r = 0.6. The population and the sensor generation both limit how far this transfers to a woman over 40 living with type 1 diabetes.",
             "cite": "Nutrients · Herrington, Gee, Dow, Monosky, Davis and Pritchett, 2012",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3475238/"
           },
           {
             "claim": "Trend arrows represent a rate of change calculated from recent readings and expressed as a projected 30-minute change.",
-            "detail": "Trend arrows are derived from recent real-time CGM measurements, generally the last ten minutes or so of values, and describe the anticipated change over the following 30 minutes rather than a measured outcome. A single arrow corresponds to roughly 30 to 60 mg/dL (about 1.7 to 3.3 mmol/L) over 30 minutes; a double arrow to more than 90 mg/dL (about 5 mmol/L), equivalent to a rate faster than about 3 mg/dL per minute (about 0.17 mmol/L per minute). Exact thresholds vary slightly between manufacturers and between sensor generations, so the bands above are indicative rather than device-specific.",
-            "cite": "Device documentation and clinical guidance on trend-arrow interpretation, Dexcom G5 onwards",
+            "detail": "Trend arrows are derived from recent real-time CGM measurements, generally the last ten minutes or so of values, and describe the anticipated change over the following 30 minutes rather than a measured outcome. A single angled arrow corresponds to roughly 30 to 60 mg/dL (about 1.7 to 3.3 mmol/L) over 30 minutes, and a single straight arrow to 60 to 90 mg/dL (about 3.3 to 5 mmol/L); a double arrow to more than 90 mg/dL (about 5 mmol/L), equivalent to a rate faster than about 3 mg/dL per minute (about 0.17 mmol/L per minute). Exact thresholds vary slightly between manufacturers and between sensor generations, so the bands above are indicative rather than device-specific.",
+            "cite": "Journal of the Endocrine Society · Aleppo, Laffel, Ahmann and colleagues, 2017",
             "url": "https://pubmed.ncbi.nlm.nih.gov/29344577/"
           }
         ]
@@ -238,7 +238,7 @@ export default {
       },
       {
         "q": "Can I trust my CGM when it says I am low during a workout?",
-        "a": "Trust the direction more than the value, and treat first. In the same study, when a finger-prick confirmed genuine hypoglycaemia below 3.9 mmol/L during exercise, the sensor was reading around 1.1 mmol/L higher than the true value on average. The error runs in the reassuring direction at exactly the wrong moment. If the arrow is falling steeply, act on it rather than waiting for the number to catch up, then confirm with a meter."
+        "a": "Trust the direction more than the value, and treat first. In the same study, when a finger-prick confirmed genuine hypoglycaemia below 3.9 mmol/L during exercise, the sensor was reading around 1.2 mmol/L higher than the true value on average. The error runs in the reassuring direction at exactly the wrong moment. If the arrow is falling steeply, act on it rather than waiting for the number to catch up, then confirm with a meter."
       },
       {
         "q": "Why does my blood sugar go up when I lift weights?",
@@ -278,7 +278,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є хороший вимір того, наскільки саме він відстає. Сімнадцятеро дорослих із діабетом 1 типу — тринадцять із них жінки — [ходили й легко бігли на доріжці протягом години](https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364), розбитої на чотири п'ятнадцятихвилинні відрізки, і паралельно із сенсором увесь час робили заміри з пальця. У середньому по трьох різних інсулінових умовах сенсор відставав від крові на 12 ± 11 хвилин. Його похибка приблизно вдвічі зменшилася, щойно заняття скінчилося й вони сіли їсти: 13% під час навантаження проти 8% після."
+        "text": "Є хороший вимір того, наскільки саме він відстає. Сімнадцятеро дорослих із діабетом 1 типу — тринадцять із них жінки — [ходили й легко бігли на доріжці протягом години](https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364), розбитої на чотири п'ятнадцятихвилинні відрізки, і паралельно із сенсором увесь час робили заміри з пальця. У середньому по трьох різних інсулінових умовах сенсор відставав від крові на 12 ± 11 хвилин. Його похибка зменшилася більш ніж на третину, щойно заняття скінчилося й вони сіли їсти: 13% під час навантаження проти 8% після."
       },
       {
         "t": "p",
@@ -290,11 +290,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ось результат із того самого дослідження, який, на мою думку, має змінити те, як ви користуєтеся пристроєм. Коли замір із пальця підтверджував, що учасниця справді пішла вниз — нижче 3,9 ммоль/л, — сенсор показував у середньому приблизно на 1,1 ммоль/л більше за правду."
+        "text": "Ось результат із того самого дослідження, який, на мою думку, має змінити те, як ви користуєтеся пристроєм. Коли замір із пальця підтверджував, що учасниця справді пішла вниз — нижче 3,9 ммоль/л, — сенсор показував у середньому приблизно на 1,2 ммоль/л більше за правду."
       },
       {
         "t": "p",
-        "text": "Затримайтеся на цьому. Це означає, що саме в той момент, коли вам найбільше потрібна чесність від числа, воно вам лестить. Сенсор каже 4,8 і заспокоює; кров каже 3,7 і не заспокоює. Найприємніший показник, який ваш пристрій видає під час навантаження, — водночас найменш надійний із усього, що він видає за день. Це єдина причина сприймати стрілку вниз як момент рішення, а не як щось, за чим варто наглядати."
+        "text": "Затримайтеся на цьому. Це означає, що саме в той момент, коли вам найбільше потрібна чесність від числа, воно вам лестить. Сенсор каже 4,9 і заспокоює; кров каже 3,7 і не заспокоює. Найприємніший показник, який ваш пристрій видає під час навантаження, — водночас найменш надійний із усього, що він видає за день. Це єдина причина сприймати стрілку вниз як момент рішення, а не як щось, за чим варто наглядати."
       },
       {
         "t": "h",
@@ -339,7 +339,7 @@ export default {
           ],
           [
             "Одна стрілка",
-            "Приблизно від 1,7 до 3,3 ммоль/л протягом наступних півгодини",
+            "Приблизно від 1,7 до 3,3 ммоль/л протягом наступних півгодини, якщо вона похила; приблизно від 3,3 до 5 ммоль/л, якщо вона дивиться прямо вгору чи вниз",
             "Це ваш момент рішення, а не попередження. Якщо вона вниз — обирайте паливо зараз, поки ще маєте варіант невеликої кількості. Чекати, доки відчуєте, означає, що падіння вже випередило екран"
           ],
           [
@@ -384,7 +384,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є три ситуації, коли глюкометр вартий перерви, і їх менше, ніж підказує тривожна версія цієї поради. Перша — коли стрілка каже, що ви рухаєтеся швидко, бо саме тоді розрив між рідиною і кров'ю найбільший. Друга — коли тіло й екран не сходяться: тремтить, дивно піт, у голові туман, а сенсор наполягає, що все гаразд. Довіряйте тілу. Воно не читає рідину десятихвилинної давнини. Третя — будь-яке рішення про купірування гіпоглікемії: оскільки сенсори завищують приблизно на 1,1 ммоль/л під час гіпо на навантаженні, число біля порогу варте підтвердження, перш ніж на нього діяти, — і часто вже після того, як ви взяли швидкі вуглеводи."
+        "text": "Є три ситуації, коли глюкометр вартий перерви, і їх менше, ніж підказує тривожна версія цієї поради. Перша — коли стрілка каже, що ви рухаєтеся швидко, бо саме тоді розрив між рідиною і кров'ю найбільший. Друга — коли тіло й екран не сходяться: тремтить, дивно піт, у голові туман, а сенсор наполягає, що все гаразд. Довіряйте тілу. Воно не читає рідину десятихвилинної давнини. Третя — будь-яке рішення про купірування гіпоглікемії: оскільки сенсори завищують приблизно на 1,2 ммоль/л під час гіпо на навантаженні, число біля порогу варте підтвердження, перш ніж на нього діяти, — і часто вже після того, як ви взяли швидкі вуглеводи."
       },
       {
         "t": "h",
@@ -418,8 +418,8 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Під час помірного аеробного навантаження CGM відставав від глюкози крові в середньому на 12 хвилин із широким розкидом — і завищував приблизно на 1,1 ммоль/л, коли гіпоглікемія справді відбувалася.",
-            "detail": "Рандомізоване збалансоване дослідження, опубліковане в Diabetes Technology & Therapeutics, том 21, випуск 6, 2019, сторінки 313–321. Сімнадцятеро дорослих із діабетом 1 типу (4 чоловіки, 13 жінок), середній вік 31 ± 10 років, виконали 60 хвилин ходьби чи легкого бігу помірної інтенсивності на рівні 45–55% VO2peak, розбитих на чотири 15-хвилинні відрізки з 5-хвилинними паузами, у трьох різних умовах базального інсуліну. Сумарна затримка порівняно із самоконтролем глюкози крові під час навантаження становила 12 ± 11 хвилин, зі зміщенням −7 ± 19 мг/дл/хв. Медіанна абсолютна відносна різниця становила 13% (діапазон 6–22) під час навантаження проти 8% (5–14) під час прийому їжі після нього. Там, де самоконтроль показував нижче 70 мг/дл (3,9 ммоль/л), сенсор завищував у середньому приблизно на 20 мг/дл (близько 1,1 ммоль/л).",
+            "claim": "Під час помірного аеробного навантаження CGM відставав від глюкози крові в середньому на 12 хвилин із широким розкидом — і завищував приблизно на 1,2 ммоль/л, коли гіпоглікемія справді відбувалася.",
+            "detail": "Рандомізоване збалансоване дослідження, опубліковане в Diabetes Technology & Therapeutics, том 21, випуск 6, 2019, сторінки 313–321. Сімнадцятеро дорослих із діабетом 1 типу (4 чоловіки, 13 жінок), середній вік 31 ± 10 років, виконали 60 хвилин ходьби чи легкого бігу помірної інтенсивності на рівні 45–55% VO2peak, розбитих на чотири 15-хвилинні відрізки з 5-хвилинними паузами, у трьох різних умовах базального інсуліну. Сумарна затримка порівняно із самоконтролем глюкози крові під час навантаження становила 12 ± 11 хвилин, зі зміщенням −7 ± 19 мг/дл/хв. Медіанна абсолютна відносна різниця становила 13% (міжквартильний діапазон 6–22) під час навантаження проти 8% (5–14) під час прийому їжі після нього. Там, де самоконтроль показував нижче 70 мг/дл (3,9 ммоль/л), сенсор завищував у середньому приблизно на 21 мг/дл (близько 1,2 ммоль/л): 81 проти 60 мг/дл у 12 епізодах, усі під час навантаження.",
             "cite": "Diabetes Technology & Therapeutics · Zaharieva, Turksoy, McGaugh, Pooni, Vienneau, Ly і Riddell, 2019",
             "url": "https://journals.sagepub.com/doi/full/10.1089/dia.2018.0364"
           },
@@ -431,14 +431,14 @@ export default {
           },
           {
             "claim": "У часто цитованому дослідженні рівномірної їзди на велотренажері CGM не відповідав міжнародному стандарту точності — але учасницями були молоді жінки без діабету на сенсорах 2012 року.",
-            "detail": "Опубліковано в Nutrients, том 4, випуск 9, 2012, сторінки 1282–1292. Дванадцять фізично активних жінок без діабету, середній вік 21,8 ± 2,4 року, ІМТ 22,8 ± 2,3, виконали два однакові 45-хвилинні рівномірні заїзди на велотренажері на рівні приблизно 60% пікової потужності в різні дні, з вуглеводним гелем на 15-й хвилині. Проти венозної плазми середня абсолютна різниця становила 17,4 мг/дл (близько 1,0 ммоль/л) з 95% межами узгодженості ±44,3 мг/дл, і лише 69,4% значень CGM відповідали стандарту точності ISO 15197; проти капілярної плазми — 15,5 мг/дл і 72,7%. Кореляції були помірними, r = 0,6. І популяція, і покоління сенсорів обмежують те, наскільки це переноситься на жінку після 40 з діабетом 1 типу.",
+            "detail": "Опубліковано в Nutrients, том 4, випуск 9, 2012, сторінки 1282–1292. Дванадцять фізично активних жінок без діабету, середній вік 21,8 ± 2,4 року, ІМТ 22,8 ± 2,3, виконали два однакові 45-хвилинні рівномірні заїзди на велотренажері на рівні приблизно 60% пікової потужності в різні дні, із двома вуглеводними гелями на 15-й хвилині. Проти венозної плазми середня абсолютна різниця становила 17,4 мг/дл (близько 1,0 ммоль/л) з 95% межами узгодженості ±44,3 мг/дл, і лише 69,4% значень CGM відповідали стандарту точності ISO 15197; проти капілярної плазми — 15,5 мг/дл і 72,7%. Кореляції були помірними, r = 0,6. І популяція, і покоління сенсорів обмежують те, наскільки це переноситься на жінку після 40 з діабетом 1 типу.",
             "cite": "Nutrients · Herrington, Gee, Dow, Monosky, Davis і Pritchett, 2012",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3475238/"
           },
           {
             "claim": "Стрілки тренду відображають швидкість зміни, обчислену з нещодавніх показників і виражену як прогнозована зміна за 30 хвилин.",
-            "detail": "Стрілки тренду виводяться з нещодавніх вимірювань CGM у реальному часі, зазвичай приблизно за останні десять хвилин, і описують очікувану зміну протягом наступних 30 хвилин, а не виміряний результат. Одна стрілка відповідає приблизно 30–60 мг/дл (близько 1,7–3,3 ммоль/л) за 30 хвилин; подвійна — понад 90 мг/дл (близько 5 ммоль/л), що дорівнює швидкості понад приблизно 3 мг/дл за хвилину (близько 0,17 ммоль/л за хвилину). Точні пороги дещо різняться між виробниками й поколіннями сенсорів, тож наведені діапазони є орієнтовними, а не специфічними для конкретного пристрою.",
-            "cite": "Документація виробників і клінічні рекомендації щодо тлумачення стрілок тренду, від Dexcom G5",
+            "detail": "Стрілки тренду виводяться з нещодавніх вимірювань CGM у реальному часі, зазвичай приблизно за останні десять хвилин, і описують очікувану зміну протягом наступних 30 хвилин, а не виміряний результат. Одна похила стрілка відповідає приблизно 30–60 мг/дл (близько 1,7–3,3 ммоль/л) за 30 хвилин, а одна пряма — 60–90 мг/дл (близько 3,3–5 ммоль/л); подвійна — понад 90 мг/дл (близько 5 ммоль/л), що дорівнює швидкості понад приблизно 3 мг/дл за хвилину (близько 0,17 ммоль/л за хвилину). Точні пороги дещо різняться між виробниками й поколіннями сенсорів, тож наведені діапазони є орієнтовними, а не специфічними для конкретного пристрою.",
+            "cite": "Journal of the Endocrine Society · Aleppo, Laffel, Ahmann та колеги, 2017",
             "url": "https://pubmed.ncbi.nlm.nih.gov/29344577/"
           }
         ]
@@ -482,7 +482,7 @@ export default {
       },
       {
         "q": "Чи можна довіряти CGM, коли він показує низький цукор під час тренування?",
-        "a": "Довіряйте напрямку більше, ніж значенню, і купіруйте першим. У тому самому дослідженні, коли замір із пальця підтверджував справжню гіпоглікемію нижче 3,9 ммоль/л під час навантаження, сенсор у середньому показував приблизно на 1,1 ммоль/л більше за справжнє значення. Похибка йде в заспокійливому напрямку саме в найгірший момент. Якщо стрілка круто вниз — дійте за нею, а не чекайте, доки число наздожене, і потім підтвердьте глюкометром."
+        "a": "Довіряйте напрямку більше, ніж значенню, і купіруйте першим. У тому самому дослідженні, коли замір із пальця підтверджував справжню гіпоглікемію нижче 3,9 ммоль/л під час навантаження, сенсор у середньому показував приблизно на 1,2 ммоль/л більше за справжнє значення. Похибка йде в заспокійливому напрямку саме в найгірший момент. Якщо стрілка круто вниз — дійте за нею, а не чекайте, доки число наздожене, і потім підтвердьте глюкометром."
       },
       {
         "q": "Чому цукор зростає під час силових тренувань?",
