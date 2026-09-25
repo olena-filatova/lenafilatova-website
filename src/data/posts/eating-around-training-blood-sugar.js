@@ -82,7 +82,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is no formula I can give you here, and anyone who offers you one online should be treated with suspicion. What actually works is pattern-finding: pick a session you do regularly, keep the timing and the food the same for a few weeks, and look at what your CGM does — during, straight after, and overnight. My own 7am sessions and 6pm sessions behave nothing like each other, and I only know that because I looked. For a starting expectation before you have your own data, the [exercise and blood sugar calculator](/resources/exercise-calculator/) estimates which way a given type of session is likely to move you, and [my post on glucose patterns](/blog/reading-glucose-patterns/) gives you a structure for reading the traces afterwards."
+        "text": "There is no formula I can give you here, and anyone who offers you one online should be treated with suspicion. What actually works is pattern-finding: pick a session you do regularly, keep the timing and the food the same for a few weeks, and look at what your CGM does — during, straight after, and overnight. My own 7am sessions and 6pm sessions behave nothing like each other, and I only know that because I looked. For a starting expectation before you have your own data, the [exercise and blood sugar calculator](/resources/exercise-calculator/) estimates which way a given type of session is likely to move you, and [my post on reading your CGM during a workout](/blog/how-to-read-cgm-during-workout/) gives you a structure for reading the traces."
       },
       {
         "t": "p",
@@ -184,8 +184,8 @@ export default {
             "desc": "The targets behind the numbers in this article, and how to hit them without living on chicken breast."
           },
           {
-            "name": "How to read your glucose patterns",
-            "url": "/blog/reading-glucose-patterns/",
+            "name": "How to actually read your CGM during a workout",
+            "url": "/blog/how-to-read-cgm-during-workout/",
             "desc": "A structure for working out what your own sessions do to you, rather than guessing."
           },
           {
@@ -361,7 +361,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Формули я вам тут не дам, і до будь-кого, хто пропонує таку формулу в інтернеті, варто ставитися з підозрою. Працює пошук власної закономірності: візьміть заняття, яке робите регулярно, кілька тижнів тримайте однаковими час і їжу — і дивіться, що показує ваш CGM під час, одразу після і вночі. Мої тренування о 7-й ранку і о 6-й вечора поводяться зовсім по-різному, і я знаю це лише тому, що подивилася. Поки власних даних ще немає, [калькулятор впливу тренувань на цукор](/ua/resources/exercise-calculator/) допоможе зорієнтуватися, куди саме певний тип заняття, найімовірніше, зрушить вас, а [мій текст про патерни глюкози](/ua/blog/reading-glucose-patterns/) дає структуру, щоб читати графіки потім."
+        "text": "Формули я вам тут не дам, і до будь-кого, хто пропонує таку формулу в інтернеті, варто ставитися з підозрою. Працює пошук власної закономірності: візьміть заняття, яке робите регулярно, кілька тижнів тримайте однаковими час і їжу — і дивіться, що показує ваш CGM під час, одразу після і вночі. Мої тренування о 7-й ранку і о 6-й вечора поводяться зовсім по-різному, і я знаю це лише тому, що подивилася. Поки власних даних ще немає, [калькулятор впливу тренувань на цукор](/ua/resources/exercise-calculator/) допоможе зорієнтуватися, куди саме певний тип заняття, найімовірніше, зрушить вас, а [мій текст про те, як читати CGM під час тренування](/ua/blog/how-to-read-cgm-during-workout/) дає структуру, щоб читати графіки."
       },
       {
         "t": "p",
@@ -463,8 +463,8 @@ export default {
             "desc": "Звідки взялися цифри в цій статті і як їх добирати, не живучи на курячих грудках."
           },
           {
-            "name": "Як читати свої патерни глюкози",
-            "url": "/ua/blog/reading-glucose-patterns/",
+            "name": "Як насправді читати CGM під час тренування",
+            "url": "/ua/blog/how-to-read-cgm-during-workout/",
             "desc": "Структура, щоб зрозуміти, що ваші тренування роблять саме з вами, а не вгадувати."
           },
           {

@@ -30,7 +30,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The 2026 update makes two other changes that quietly help people with T1D: continuous glucose monitoring is now recommended from diagnosis and for anyone who could benefit, with an explicit push to remove insurance barriers; and the prerequisites people previously had to meet to qualify for an automated insulin delivery (‘closed-loop’) system have been dropped to widen access. Together they lower the bar to the tools that smooth out day-to-day control — see my note on [reading glucose patterns](/blog/reading-glucose-patterns/)."
+        "text": "The 2026 update makes two other changes that quietly help people with T1D: continuous glucose monitoring is now recommended from diagnosis and for anyone who could benefit, with an explicit push to remove insurance barriers; and the prerequisites people previously had to meet to qualify for an automated insulin delivery (‘closed-loop’) system have been dropped to widen access. Together they lower the bar to the tools that smooth out day-to-day control."
       },
       {
         "t": "p",
@@ -135,7 +135,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Оновлення 2026 року вносить ще дві зміни, що тихо допомагають людям із ЦД1: безперервний моніторинг глюкози тепер рекомендують від моменту встановлення діагнозу й для кожного, кому він може бути корисним, із прямим закликом усунути страхові бар’єри; а попередні вимоги, яким людина мала відповідати, щоб отримати систему автоматизованої подачі інсуліну («замкнена петля»), скасовано, щоб розширити доступ. Разом вони знижують поріг до інструментів, які згладжують щоденний контроль — див. мою нотатку про [читання патернів глюкози](/ua/blog/reading-glucose-patterns/)."
+        "text": "Оновлення 2026 року вносить ще дві зміни, що тихо допомагають людям із ЦД1: безперервний моніторинг глюкози тепер рекомендують від моменту встановлення діагнозу й для кожного, кому він може бути корисним, із прямим закликом усунути страхові бар’єри; а попередні вимоги, яким людина мала відповідати, щоб отримати систему автоматизованої подачі інсуліну («замкнена петля»), скасовано, щоб розширити доступ. Разом вони знижують поріг до інструментів, які згладжують щоденний контроль."
       },
       {
         "t": "p",

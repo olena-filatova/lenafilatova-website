@@ -122,7 +122,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "I have had type 1 diabetes for 23 years, which means I have never had to guess about my blood sugar — I can watch it on a sensor. When my insulin needs started climbing in my early forties, I could see it happening in front of me, and [I was still told there was nothing to look at](/blog/perimenopause-diabetes-blood-sugar/). Being able to point at a graph did not spare me the conversation. It only meant I eventually won it."
+        "text": "I have had type 1 diabetes for 23 years, which means I have never had to guess about my blood sugar — I can watch it on a sensor. When my insulin needs started climbing in my late thirties, I could see it happening in front of me, and [I was still told there was nothing to look at](/blog/perimenopause-diabetes-blood-sugar/). Being able to point at a graph did not spare me the conversation. It only meant I eventually won it."
       },
       {
         "t": "p",
@@ -172,7 +172,7 @@ export default {
           {
             "name": "Perimenopause & diabetes: what’s really happening to your blood sugar",
             "url": "/blog/perimenopause-diabetes-blood-sugar/",
-            "desc": "The same decade, written from the other side of a diagnosis — 23 years of type 1, and what changed at 40."
+            "desc": "The same decade, written from the other side of a diagnosis — 23 years of type 1, and what changed from 38."
           },
           {
             "name": "Type 2 diabetes is linked to heavier menopause symptoms, a Korean study finds",
@@ -315,7 +315,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Я живу з діабетом 1 типу 23 роки, тобто мені ніколи не доводилося вгадувати свій цукор — я бачу його на сенсорі. Коли на початку сорока моя потреба в інсуліні почала рости, я бачила це на власні очі — і [мені все одно сказали, що дивитися нема на що](/ua/blog/perimenopause-diabetes-blood-sugar/). Можливість показати графік не звільнила мене від цієї розмови. Вона лише означала, що зрештою я її виграла."
+        "text": "Я живу з діабетом 1 типу 23 роки, тобто мені ніколи не доводилося вгадувати свій цукор — я бачу його на сенсорі. Коли наприкінці тридцятих моя потреба в інсуліні почала рости, я бачила це на власні очі — і [мені все одно сказали, що дивитися нема на що](/ua/blog/perimenopause-diabetes-blood-sugar/). Можливість показати графік не звільнила мене від цієї розмови. Вона лише означала, що зрештою я її виграла."
       },
       {
         "t": "p",
@@ -365,7 +365,7 @@ export default {
           {
             "name": "Перименопауза й діабет: що насправді відбувається з вашим цукром",
             "url": "/ua/blog/perimenopause-diabetes-blood-sugar/",
-            "desc": "Те саме десятиліття, написане з іншого боку діагнозу — 23 роки діабету 1 типу і що змінилося після сорока."
+            "desc": "Те саме десятиліття, написане з іншого боку діагнозу — 23 роки діабету 1 типу і що змінилося з 38 років."
           },
           {
             "name": "Діабет 2 типу пов’язаний із важчими симптомами менопаузи — корейське дослідження",
