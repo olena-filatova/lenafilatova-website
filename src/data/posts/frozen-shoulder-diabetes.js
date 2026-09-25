@@ -13,9 +13,9 @@ export default {
     "cat": "Diabetes & Perimenopause",
     "imageAlt": "A woman holding her shoulder and wincing.",
     "title": "Your shoulder is stiffening and it probably isn’t age: frozen shoulder and diabetes after 40",
-    "seoTitle": "Frozen Shoulder and Diabetes: Why Risk Is 3.7x Higher",
-    "metaDesc": "A 2026 meta-analysis puts frozen shoulder risk 3.69x higher with diabetes. The early signs, why it’s missed after 40, and when to get it seen.",
-    "excerpt": "A 2026 meta-analysis of more than 350,000 people found nearly four times the odds of frozen shoulder in people with diabetes — a complication that almost never comes up at a diabetes appointment, and that in women over 40 gets quietly filed under hormones or age.",
+    "seoTitle": "Frozen Shoulder and Diabetes: Why the Odds Are 3.7x Higher",
+    "metaDesc": "A 2026 meta-analysis puts the odds of frozen shoulder 3.69x higher with diabetes. The early signs, why it’s missed after 40, and when to get it seen.",
+    "excerpt": "A 2026 review of studies covering more than 350,000 people found nearly four times the odds of frozen shoulder in people with diabetes — a complication that almost never comes up at a diabetes appointment, and that in women over 40 gets quietly filed under hormones or age.",
     "meta": "19 August 2026 · 9 min read",
     "lead": "You have been telling yourself it’s a pulled muscle. But the bra fastening has become a two-handed negotiation, the seatbelt is a manoeuvre, and lying on that side at night is out of the question. Pulled muscles get better. This is getting worse — and if you have diabetes, the odds that it has a name are close to four times higher than they would be otherwise.",
     "blocks": [
@@ -69,11 +69,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "A systematic review and meta-analysis published in International Orthopaedics in 2026 pooled data on more than 350,000 people and found that those with diabetes had 3.69 times the odds of adhesive capsulitis compared with those without. In absolute terms: frozen shoulder affects roughly 2–5% of the general population, and around 13% of people with diabetes, with individual studies ranging considerably higher."
+        "text": "A systematic review and meta-analysis published in International Orthopaedics in 2026 reviewed studies covering more than 350,000 people and, pooling six case-control studies, found that those with diabetes had 3.69 times the odds of adhesive capsulitis compared with those without. In absolute terms: frozen shoulder affects roughly 2–5% of the general population, and around 13% of people with diabetes, with individual studies ranging considerably higher."
       },
       {
         "t": "p",
-        "text": "What makes that association more convincing than a single number is that it behaves like a dose. A nationwide South Korean study following nearly 3.5 million people found the risk rising in steps: modestly raised in prediabetes, higher in newly diagnosed type 2 diabetes, higher again in established type 2 diabetes, with the rate of new cases going from about 9.5 per 1,000 person-years in people with normal glucose to 24.4 in people with longer-standing diabetes. The pattern tracks with duration and with glycaemic control rather than with the diagnosis itself."
+        "text": "What makes that association more convincing than a single number is that it behaves like a dose. A nationwide South Korean study following nearly 3.5 million people found the risk rising in steps: modestly raised in prediabetes, higher in newly diagnosed type 2 diabetes, higher again in established type 2 diabetes, with the rate of new cases going from about 9.5 per 1,000 person-years in people with normal glucose to 24.4 in people with longer-standing diabetes. Risk climbed with how long diabetes had been present — and other research links it to glycaemic control too — rather than with the diagnosis alone."
       },
       {
         "t": "p",
@@ -97,7 +97,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Both carry raised risk, and the meta-analysis did not find a clean separation between them. Some type 1 cohorts have reported strikingly high figures — one reported adhesive capsulitis in 59% of participants at a single point in time, another a lifetime prevalence of 76% against 14% in a diabetes-free comparison group. Those numbers get quoted a lot and they are worth treating carefully: they come from small, specialist-clinic populations with long diabetes duration, and they are not a general prevalence for type 1 diabetes. What they do capture, plausibly, is that decades of exposure matter — which is exactly what the duration data show."
+        "text": "Both carry raised risk. The meta-analysis did not pool them separately, though the prevalence figures it gathered run higher in type 1 than in type 2. Some type 1 cohorts have reported strikingly high figures — one Norwegian study of about a hundred people who had lived with type 1 for at least 45 years found adhesive capsulitis in 59% at a single point in time, and a lifetime prevalence of 76% against 14% in a diabetes-free comparison group. Those numbers get quoted a lot and they are worth treating carefully: they come from a small, specialist-clinic population with very long diabetes duration, and they are not a general prevalence for type 1 diabetes. What they do capture, plausibly, is that decades of exposure matter — which is exactly what the duration data show."
       },
       {
         "t": "h",
@@ -238,7 +238,7 @@ export default {
         "items": [
           {
             "claim": "People with diabetes have 3.69 times the odds of developing frozen shoulder.",
-            "detail": "Hernigou and Scarlat’s systematic review and meta-analysis, published in International Orthopaedics in 2026, pooled data from observational studies covering 351,486 participants and found odds of adhesive capsulitis 3.69 times higher (95% CI 2.99–4.56) in people with diabetes than in those without. The authors note the limitations honestly: the included studies were mostly observational, so causation is not established, and the diagnostic criteria for both diabetes and adhesive capsulitis varied between them.",
+            "detail": "Hernigou and Scarlat’s systematic review and meta-analysis, published in International Orthopaedics in 2026, reviewed observational studies covering 351,486 participants; its meta-analysis, pooling six case-control studies, found odds of adhesive capsulitis 3.69 times higher (95% CI 2.99–4.56) in people with diabetes than in those without. It also reports that up to 17% of people with diabetes and adhesive capsulitis develop it in both shoulders. The authors note the limitations honestly: the included studies were mostly observational, so causation is not established, and the diagnostic criteria for both diabetes and adhesive capsulitis varied between them.",
             "cite": "International Orthopaedics · Hernigou P, Scarlat MM, 2026;50(4):839–851",
             "url": "https://link.springer.com/article/10.1007/s00264-026-06793-4"
           },
@@ -255,8 +255,8 @@ export default {
             "url": "https://www.e-dmj.org/journal/view.php?doi=10.4093%2Fdmj.2022.0275"
           },
           {
-            "claim": "In diabetes, frozen shoulder is more common, more often bilateral, and responds less well — and the mechanism is collagen cross-linking.",
-            "detail": "A 2024 narrative review in the Journal of Clinical Medicine puts the prevalence of adhesive capsulitis in diabetes at approximately 13.4%, describes the accumulation of advanced glycation end products and the resulting collagen cross-linking as the central mechanism, and reports a dose-response with glycaemic control (each unit rise in HbA1c associated with a 2.77% higher prevalence). It also collects the type 1 figures quoted in this article — a 59% point prevalence in one cohort and a 76% lifetime prevalence against 14% in a diabetes-free group in another — and notes that outcomes after corticosteroid injection and after arthroscopic capsular release are less favourable in people with diabetes.",
+            "claim": "In diabetes, frozen shoulder is more common and responds less well — and the mechanism is collagen cross-linking.",
+            "detail": "A 2024 narrative review in the Journal of Clinical Medicine cites a 2016 meta-analysis putting the prevalence of adhesive capsulitis in diabetes at approximately 13.4%, describes the accumulation of advanced glycation end products and the resulting collagen cross-linking as the central mechanism, and reports a dose-response with glycaemic control (in a US study of 24,417 people, each unit rise in HbA1c above 7% was associated with a 2.77% higher prevalence). It also collects the type 1 figures quoted in this article — a 59% point prevalence and a 76% lifetime prevalence against 14% in a diabetes-free group, both from the same Norwegian cohort of 105 people with type 1 diabetes of at least 45 years’ duration — and notes that outcomes after corticosteroid injection and after arthroscopic capsular release are less favourable in people with diabetes.",
             "cite": "Journal of Clinical Medicine · 2024;13(19):5696",
             "url": "https://www.mdpi.com/2077-0383/13/19/5696"
           },
@@ -314,7 +314,7 @@ export default {
     "faq": [
       {
         "q": "Is frozen shoulder more common if you have diabetes?",
-        "a": "Considerably. A 2026 systematic review and meta-analysis of more than 350,000 people found 3.69 times higher odds of adhesive capsulitis in people with diabetes, and prevalence in diabetes is usually reported at around 13% against 2–5% in the general population. Risk rises with how long you have had diabetes and with glycaemic control, and in diabetes the condition is more likely to affect both shoulders in turn and to recover less completely."
+        "a": "Considerably. A 2026 systematic review and meta-analysis, covering studies of more than 350,000 people, found 3.69 times higher odds of adhesive capsulitis in people with diabetes, and prevalence in diabetes is usually reported at around 13% against 2–5% in the general population. Risk rises with how long you have had diabetes and with glycaemic control, and in diabetes the condition is more likely to affect both shoulders in turn and to recover less completely."
       },
       {
         "q": "How do I know it’s frozen shoulder and not a rotator cuff problem?",
@@ -338,9 +338,9 @@ export default {
     "cat": "Діабет і перименопауза",
     "imageAlt": "Жінка тримається за плече, скривившись від болю.",
     "title": "Плече дерев’яніє — і справа, найімовірніше, не у віці: заморожене плече та діабет після 40",
-    "seoTitle": "Заморожене плече й діабет: ризик майже вчетверо вищий",
+    "seoTitle": "Заморожене плече й діабет: шанси майже вчетверо вищі",
     "metaDesc": "Метааналіз 2026 року: при діабеті шанси на заморожене плече у 3,69 раза вищі. Ранні ознаки, чому це пропускають після 40 і коли йти до лікаря.",
-    "excerpt": "Метааналіз 2026 року, що охопив понад 350 000 людей, виявив майже вчетверо вищі шанси замороженого плеча при діабеті — ускладнення, про яке майже ніколи не говорять на прийомі в діабетолога і яке жінкам за 40 тихо списують на гормони чи вік.",
+    "excerpt": "Огляд 2026 року, що охопив дослідження понад 350 000 людей, виявив майже вчетверо вищі шанси замороженого плеча при діабеті — ускладнення, про яке майже ніколи не говорять на прийомі в діабетолога і яке жінкам за 40 тихо списують на гормони чи вік.",
     "meta": "19 серпня 2026 · 9 хв читання",
     "lead": "Ви переконуєте себе, що просто потягнули м’яз. Але застібнути бюстгальтер за спиною стало окремою операцією, ремінь безпеки — маневром, а лягти на цей бік уночі неможливо. Потягнуті м’язи минають. Це не минає, а гіршає — і якщо у вас діабет, шанси, що в цього стану є назва, майже вчетверо вищі, ніж були б інакше.",
     "blocks": [
@@ -394,11 +394,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Систематичний огляд і метааналіз, опублікований у журналі International Orthopaedics 2026 року, об’єднав дані понад 350 000 людей і показав: у людей із діабетом шанси адгезивного капсуліту в 3,69 раза вищі, ніж у людей без діабету. В абсолютних числах: заморожене плече трапляється приблизно у 2–5% загальної популяції і приблизно у 13% людей із діабетом, а окремі дослідження дають і значно вищі цифри."
+        "text": "Систематичний огляд і метааналіз, опублікований у журналі International Orthopaedics 2026 року, розглянув дослідження понад 350 000 людей і, об’єднавши шість досліджень «випадок — контроль», показав: у людей із діабетом шанси адгезивного капсуліту в 3,69 раза вищі, ніж у людей без діабету. В абсолютних числах: заморожене плече трапляється приблизно у 2–5% загальної популяції і приблизно у 13% людей із діабетом, а окремі дослідження дають і значно вищі цифри."
       },
       {
         "t": "p",
-        "text": "Переконливішим за одну цифру цей зв’язок робить те, що він поводиться як доза. Загальнонаціональне південнокорейське дослідження, яке спостерігало майже 3,5 мільйона людей, показало сходинки: ризик трохи підвищений при предіабеті, вищий при вперше діагностованому діабеті 2 типу і ще вищий при давньому діабеті 2 типу — від приблизно 9,5 нових випадків на 1000 людино-років у людей із нормальною глюкозою до 24,4 у людей із тривалим діабетом. Картина йде за тривалістю та контролем глікемії, а не за самим фактом діагнозу."
+        "text": "Переконливішим за одну цифру цей зв’язок робить те, що він поводиться як доза. Загальнонаціональне південнокорейське дослідження, яке спостерігало майже 3,5 мільйона людей, показало сходинки: ризик трохи підвищений при предіабеті, вищий при вперше діагностованому діабеті 2 типу і ще вищий при давньому діабеті 2 типу — від приблизно 9,5 нових випадків на 1000 людино-років у людей із нормальною глюкозою до 24,4 у людей із тривалим діабетом. Ризик зростав із тривалістю діабету — а інші дослідження пов’язують його ще й із контролем глікемії, — а не лише з самим фактом діагнозу."
       },
       {
         "t": "p",
@@ -422,7 +422,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ризик підвищений в обох, і метааналіз не виявив чіткого розділення між типами. Деякі когорти з діабетом 1 типу повідомляли вражаючі цифри: в одній адгезивний капсуліт знайшли у 59% учасників на момент обстеження, в іншій довічна поширеність становила 76% проти 14% у групі без діабету. Ці числа часто цитують, і поводитися з ними варто обережно: вони походять із невеликих вибірок спеціалізованих клінік із тривалим стажем діабету і не є загальною поширеністю при діабеті 1 типу. Що вони, найімовірніше, відображають — так це те, що десятиліття експозиції мають значення. Саме це показують і дані про тривалість."
+        "text": "Ризик підвищений в обох. Метааналіз не об’єднував їх окремо, хоча зібрані в ньому цифри поширеності вищі при діабеті 1 типу, ніж при 2 типу. Деякі когорти з діабетом 1 типу повідомляли вражаючі цифри: у норвезькому дослідженні приблизно сотні людей, які живуть із діабетом 1 типу щонайменше 45 років, адгезивний капсуліт знайшли у 59% учасників на момент обстеження, а довічна поширеність становила 76% проти 14% у групі без діабету. Ці числа часто цитують, і поводитися з ними варто обережно: вони походять із невеликої вибірки спеціалізованої клініки з дуже тривалим стажем діабету і не є загальною поширеністю при діабеті 1 типу. Що вони, найімовірніше, відображають — так це те, що десятиліття експозиції мають значення. Саме це показують і дані про тривалість."
       },
       {
         "t": "h",
@@ -563,7 +563,7 @@ export default {
         "items": [
           {
             "claim": "У людей із діабетом шанси розвитку замороженого плеча у 3,69 раза вищі.",
-            "detail": "Систематичний огляд і метааналіз Ерніґу та Скарлата, опублікований у журналі International Orthopaedics 2026 року, об’єднав дані обсерваційних досліджень за участю 351 486 людей і показав шанси адгезивного капсуліту в 3,69 раза вищі (95% ДІ 2,99–4,56) у людей із діабетом. Автори чесно називають обмеження: включені дослідження були переважно обсерваційними, тож причинності це не доводить, а діагностичні критерії і діабету, і адгезивного капсуліту в них різнилися.",
+            "detail": "Систематичний огляд і метааналіз Ерніґу та Скарлата, опублікований у журналі International Orthopaedics 2026 року, розглянув обсерваційні дослідження за участю 351 486 людей; його метааналіз, що об’єднав шість досліджень «випадок — контроль», показав шанси адгезивного капсуліту в 3,69 раза вищі (95% ДІ 2,99–4,56) у людей із діабетом. Там також зазначено, що до 17% людей із діабетом і адгезивним капсулітом зрештою мають уражені обидва плечі. Автори чесно називають обмеження: включені дослідження були переважно обсерваційними, тож причинності це не доводить, а діагностичні критерії і діабету, і адгезивного капсуліту в них різнилися.",
             "cite": "International Orthopaedics · Hernigou P, Scarlat MM, 2026;50(4):839–851",
             "url": "https://link.springer.com/article/10.1007/s00264-026-06793-4"
           },
@@ -580,8 +580,8 @@ export default {
             "url": "https://www.e-dmj.org/journal/view.php?doi=10.4093%2Fdmj.2022.0275"
           },
           {
-            "claim": "При діабеті заморожене плече частіше двобічне й гірше піддається лікуванню, а механізм — зшивки колагену.",
-            "detail": "Оглядова стаття 2024 року в Journal of Clinical Medicine оцінює поширеність адгезивного капсуліту при діабеті приблизно в 13,4%, називає накопичення кінцевих продуктів глікації та спричинені ними поперечні зшивки колагену центральним механізмом і повідомляє про залежність від контролю глікемії (кожна одиниця приросту HbA1c пов’язана з поширеністю, вищою на 2,77%). Там же зібрані цифри щодо діабету 1 типу, наведені в цій статті: 59% на момент обстеження в одній когорті й 76% довічної поширеності проти 14% у групі без діабету в іншій. Автори зазначають, що результати після ін’єкції кортикостероїду та після артроскопічного релізу капсули в людей із діабетом гірші.",
+            "claim": "При діабеті заморожене плече частіше трапляється й гірше піддається лікуванню, а механізм — зшивки колагену.",
+            "detail": "Оглядова стаття 2024 року в Journal of Clinical Medicine наводить дані метааналізу 2016 року, за яким поширеність адгезивного капсуліту при діабеті становить приблизно 13,4%, називає накопичення кінцевих продуктів глікації та спричинені ними поперечні зшивки колагену центральним механізмом і повідомляє про залежність від контролю глікемії (в американському дослідженні 24 417 людей кожна одиниця приросту HbA1c понад 7% була пов’язана з поширеністю, вищою на 2,77%). Там же зібрані цифри щодо діабету 1 типу, наведені в цій статті: 59% на момент обстеження й 76% довічної поширеності проти 14% у групі без діабету — обидві з однієї норвезької когорти 105 людей зі стажем діабету 1 типу щонайменше 45 років. Автори зазначають, що результати після ін’єкції кортикостероїду та після артроскопічного релізу капсули в людей із діабетом гірші.",
             "cite": "Journal of Clinical Medicine · 2024;13(19):5696",
             "url": "https://www.mdpi.com/2077-0383/13/19/5696"
           },
@@ -639,7 +639,7 @@ export default {
     "faq": [
       {
         "q": "Чи справді заморожене плече частіше буває при діабеті?",
-        "a": "Суттєво частіше. Систематичний огляд і метааналіз 2026 року за участю понад 350 000 людей показав шанси адгезивного капсуліту в 3,69 раза вищі при діабеті, а поширеність при діабеті зазвичай оцінюють приблизно в 13% проти 2–5% у загальній популяції. Ризик зростає з тривалістю діабету й залежить від контролю глікемії, а при діабеті стан частіше вражає обидва плечі по черзі та відновлюється менш повно."
+        "a": "Суттєво частіше. Систематичний огляд і метааналіз 2026 року, що охопив дослідження понад 350 000 людей, показав шанси адгезивного капсуліту в 3,69 раза вищі при діабеті, а поширеність при діабеті зазвичай оцінюють приблизно в 13% проти 2–5% у загальній популяції. Ризик зростає з тривалістю діабету й залежить від контролю глікемії, а при діабеті стан частіше вражає обидва плечі по черзі та відновлюється менш повно."
       },
       {
         "q": "Як зрозуміти, що це заморожене плече, а не проблема з ротаторною манжетою?",
