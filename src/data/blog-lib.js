@@ -44,6 +44,7 @@ export const UI = {
     backToTools: '← All tools',
     relatedTitle: 'Keep reading',
     tocTitle: 'In this article',
+    summaryTitle: 'In short',
   },
   ua: {
     hubKicker: 'Журнал',
@@ -67,6 +68,7 @@ export const UI = {
     backToTools: '← Усі інструменти',
     relatedTitle: 'Читайте також',
     tocTitle: 'У цій статті',
+    summaryTitle: 'Коротко',
   },
 };
 

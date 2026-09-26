@@ -145,9 +145,28 @@ const railGuides = (BLOG_RAIL.guides || []).flatMap((x) => {
       collapsible block under the standfirst — and lifted into the empty right
       margin as a sticky rail from 1320px up, where there is room for it beside
       the measure. One list, two placements: see .toc-rail in blog.css. */}
-  {toc.show && (
+  {/* The summary (OPS-504): the post's own excerpt, at the top of the right
+      rail above the contents, and — below 1320px, where the rail drops into the
+      flow — directly after the standfirst and before the contents, which is
+      where Lena asked for it on a phone. One block, both placements, like the
+      contents list itself.
+
+      It renders on its own and not as part of the contents, because 76 of the
+      170 language-versions on the site have fewer than the three headings a
+      contents list needs and so have no rail at all; hanging the summary off
+      `toc.show` would have hidden it on nearly half the blog. Every post has an
+      excerpt, so the rail now appears on every post. */}
+  {(a.excerpt || toc.show) && (
     <div class="toc-rail">
       <div class="rail">
+      {a.excerpt && (
+        <aside class="post-summary" aria-label={t.summaryTitle}>
+          <p class="ps-label">{t.summaryTitle}</p>
+          <p class="ps-text">{a.excerpt}</p>
+        </aside>
+      )}
+      {toc.show && (
+      <>
       <details class="toc" open>
         <summary>{t.tocTitle}</summary>
         <nav aria-label={t.tocTitle}>
@@ -167,6 +186,8 @@ const railGuides = (BLOG_RAIL.guides || []).flatMap((x) => {
         if (window.matchMedia('(max-width: 1319.98px)').matches)
           document.currentScript.previousElementSibling.removeAttribute('open');
       </script>
+      </>
+      )}
       {/* This article's topics, under the contents (OPS-367 follow-up). Lena
           expected the topic cloud here, and the whole cloud does not fit: on a
           fourteen-section article the contents list already takes 639px of the
