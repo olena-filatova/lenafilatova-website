@@ -24,7 +24,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One structural claim in the review is worth flagging because it cuts against how these foods are usually grouped. The authors argue that plant-based fermented foods — kimchi, sauerkraut, miso — retain those components within structured matrices more effectively than dairy fermented products do. Yoghurt and kefir are not plant-based ferments, whatever a wellness listicle implies by putting them in the same bullet list; the physical structure of the food differs, and so does what survives in it. That is a claim about the food matrix, not a verdict that dairy ferments do nothing."
+        "text": "One structural claim in the review is worth flagging because it cuts against how these foods are usually grouped. The authors argue that fibre-rich, plant-based fermented foods — kimchi, sauerkraut, miso — hold those components within structured matrices that support microbial survival and contact with the gut lining more consistently than dairy fermented products do. Yoghurt and kefir are not plant-based ferments, whatever a wellness listicle implies by putting them in the same bullet list; the physical structure of the food differs, and so does what survives in it. That is a claim about the food matrix, not a verdict that dairy ferments do nothing."
       },
       {
         "t": "p",
@@ -36,7 +36,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The blood-sugar question gets a fresh data point this year, and it needs reading carefully. A study reported in June followed 303 Japanese adults with no diabetes diagnosis who ate 200 g a day of yoghurt fermented with two named strains for 84 days, tracked by continuous glucose monitor. Average glucose fell by 4.06 mg/dL — about 0.23 mmol/L — with small reductions in the variability and smoothness of the curve. Three things temper that. It was single-arm: no control group, so nothing separates the yoghurt from the season, the monitoring itself or the ordinary drift of people who have just agreed to be studied. It was run by Meiji, the company that makes the yoghurt. And 0.23 mmol/L sits inside the noise of a normal day — if you [read your own glucose traces](/blog/reading-glucose-patterns/), you will move more than that by taking a walk."
+        "text": "The blood-sugar question gets a fresh data point this year, and it needs reading carefully. A study published in May followed 303 Japanese adults with no diabetes diagnosis who ate 200 g a day of yoghurt fermented with two named strains for 84 days, tracked by continuous glucose monitor. Average glucose fell by 4.06 mg/dL — about 0.23 mmol/L — with small reductions in the variability and smoothness of the curve. Three things temper that. It was single-arm: no control group, so nothing separates the yoghurt from the season, the monitoring itself or the ordinary drift of people who have just agreed to be studied. It was run by Meiji, the company that makes the yoghurt. And 0.23 mmol/L sits inside the noise of a normal day — if you [read your own glucose traces](/blog/reading-glucose-patterns/), you will move more than that by taking a walk."
       },
       {
         "t": "p",
@@ -44,7 +44,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "None of these studies were done in women over 40 specifically, and I would rather say that than dress it up. What the review supports is modest and still worth acting on: fermented foods are cheap, low-risk, and give your gut bacteria something to work with in a way a capsule does not. That is a reasonable basis for keeping kefir in the fridge. It is not a basis for expecting a number to move. The IFIC survey published this month found 64% of Americans rate gut health a high or extremely high priority while mostly defining it as digestive comfort — enthusiasm running ahead of understanding, which is roughly where the science is too."
+        "text": "None of these studies were done in women over 40 specifically, and I would rather say that than dress it up. What the review supports is modest and still worth acting on: fermented foods are cheap, low-risk, and give your gut bacteria something to work with in a way a capsule does not. That is a reasonable basis for keeping kefir in the fridge. It is not a basis for expecting a number to move. The IFIC survey published this month found 64% of Americans rate gut health a high or extremely high priority while most often defining it simply as good digestion — enthusiasm running ahead of understanding, which is roughly where the science is too."
       },
       {
         "t": "h",
@@ -55,15 +55,15 @@ export default {
         "items": [
           {
             "claim": "A 2026 review sets out how fermented foods act on the oral and gut microbiota — and says the mechanisms are still not well defined in humans.",
-            "detail": "The review describes fermented foods as delivering probiotics, prebiotic substrates and postbiotic metabolites, and argues that plant-based fermented foods retain those components within structured matrices more effectively than dairy fermented products. It describes effects on the oral–gut axis through both transient microbial exposure and metabolite-mediated signalling, and notes that microbial metabolites — short-chain fatty acids in particular — help regulate colonic regulatory T cell homeostasis. It cites human work showing that fermented-food consumption increases microbiota diversity and reduces levels of inflammatory markers. Its own stated limitation: mechanisms remain insufficiently defined in humans owing to strain variability, inconsistency in microbial composition across fermented foods, heterogeneous clinical outcomes and regulatory ambiguity. A narrative review, not new primary data.",
+            "detail": "The review describes fermented foods as delivering probiotics, prebiotic substrates and postbiotic metabolites, and argues that fibre-rich, plant-based fermented foods hold those components within structured matrices that enhance microbial viability and mucosal interactions more consistently than fermented dairy foods do. It describes effects on the oral–gut axis through both transient microbial exposure and metabolite-mediated signalling, and notes that microbial metabolites — short-chain fatty acids in particular — help regulate colonic regulatory T cell homeostasis. It cites human work showing that fermented-food consumption increases microbiota diversity and reduces levels of inflammatory markers. Its own stated limitation: mechanisms remain insufficiently defined in humans owing to strain variability, inconsistency in microbial composition across fermented foods, heterogeneous clinical outcomes and regulatory ambiguity. A narrative review, not new primary data.",
             "cite": "Nature Reviews Microbiology · Review article, 23 June 2026",
             "url": "https://www.nature.com/articles/s41579-026-01333-8"
           },
           {
             "claim": "In 303 Japanese adults, 200 g of fermented yoghurt a day for 12 weeks was followed by a small fall in average glucose — but the study had no control group and was run by the manufacturer.",
             "detail": "Participants had no prior diabetes diagnosis and ate 200 g daily of yoghurt fermented with Lactobacillus delbrueckii subsp. bulgaricus 2038 and Streptococcus thermophilus 1131 for 84 days, monitored by CGM. Mean glucose fell by 4.06 mg/dL (95% CI 2.97 to 5.14), roughly 0.23 mmol/L; the standard deviation of the glucose curve fell by 0.86 mg/dL (95% CI −1.32 to −0.41) and a smoothness measure, AC_Var, by 0.0059 (95% CI −0.010 to −0.0017). This was a single-arm intervention with no control group, which limits any causal reading, and it was conducted by Meiji Co Ltd — the company that manufactures the yoghurt tested — in collaboration with THE PHAGE Inc and Chiba University.",
-            "cite": "The Journal of Nutrition · Single-arm intervention study by Meiji Co Ltd / Chiba University, reported June 2026",
-            "url": "https://www.nutraingredients.com/Article/2026/06/15/meiji-study-finds-probiotic-fermented-yogurt-improves-glucose-control-gut-microbiota/"
+            "cite": "The Journal of Nutrition · Single-arm intervention study by Meiji Co Ltd / Chiba University, published May 2026",
+            "url": "https://doi.org/10.1016/j.tjnut.2026.101572"
           },
           {
             "claim": "A scoping review of the microbiome-and-type-2-diabetes literature found the evidence base is largely of very low quality.",
@@ -72,7 +72,7 @@ export default {
             "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1682174/full"
           },
           {
-            "claim": "A consumer survey published in August 2026 found gut health is a high priority for most people — and that most define it as digestive comfort rather than anything systemic.",
+            "claim": "A consumer survey published in August 2026 found gut health is a high priority for most people — and that the most common answers tie it to digestion rather than anything systemic.",
             "detail": "In the IFIC spotlight survey, 64% of Americans rated gut health a high or extremely high priority. Asked what a healthy gut means, the most common answer was proper digestion and absorption of nutrients (36%); asked what gut health affects, respondents pointed to digestive comfort (48%), regular bowel movements (38%) and nutrient absorption (33%), with far fewer naming immune function (20%), mental or emotional health (20%), brain function (12%) or skin health (10%). This is a survey of beliefs, not clinical evidence.",
             "cite": "International Food Information Council · Consumer survey, August 2026",
             "url": "https://ific.org/research/"
@@ -103,7 +103,7 @@ export default {
       },
       {
         "q": "Kefir or kimchi — does it matter which?",
-        "a": "On the review’s reasoning, the food matrix does make a difference: plant-based ferments such as kimchi, sauerkraut and miso hold their live microbes, prebiotic material and postbiotic compounds within structured matrices more effectively than dairy ferments do. But that is not a ranking you should organise your shopping around, because the same review says strain variability and inconsistent microbial composition across products are precisely why the human evidence is muddled — the jar in front of you may not resemble the jar that was studied. Variety is the more defensible approach than picking a winner. One practical note if you are new to it: start with a few spoonfuls rather than a full portion, and build up, since a sudden increase commonly causes bloating and wind."
+        "a": "On the review’s reasoning, the food matrix does make a difference: fibre-rich, plant-based ferments such as kimchi, sauerkraut and miso hold their live microbes, prebiotic material and postbiotic compounds within structured matrices that help the microbes survive and interact with the gut lining more consistently than dairy ferments do. But that is not a ranking you should organise your shopping around, because the same review says strain variability and inconsistent microbial composition across products are precisely why the human evidence is muddled — the jar in front of you may not resemble the jar that was studied. Variety is the more defensible approach than picking a winner. One practical note if you are new to it: start with a few spoonfuls rather than a full portion, and build up, since a sudden increase commonly causes bloating and wind."
       }
     ]
   },
@@ -123,7 +123,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одне структурне твердження огляду варто відзначити, бо воно суперечить тому, як ці продукти зазвичай групують. Автори доводять, що рослинні ферментовані продукти — кімчі, квашена капуста, місо — втримують ці компоненти в структурованих матрицях краще, ніж молочні. Йогурт і кефір не є рослинними ферментами, хай би що натякали wellness-підбірки, ставлячи їх в один список: фізична структура продукту інша, а отже, інше й те, що в ній зберігається. Це твердження про матрицю продукту, а не вирок, що молочні ферменти нічого не дають."
+        "text": "Одне структурне твердження огляду варто відзначити, бо воно суперечить тому, як ці продукти зазвичай групують. Автори доводять, що багаті на клітковину рослинні ферментовані продукти — кімчі, квашена капуста, місо — втримують ці компоненти в структурованих матрицях, які стабільніше, ніж у молочних, підтримують виживання мікробів і їхню взаємодію зі слизовою кишківника. Йогурт і кефір не є рослинними ферментами, хай би що натякали wellness-підбірки, ставлячи їх в один список: фізична структура продукту інша, а отже, інше й те, що в ній зберігається. Це твердження про матрицю продукту, а не вирок, що молочні ферменти нічого не дають."
       },
       {
         "t": "p",
@@ -135,7 +135,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Питання цукру крові цього року отримало новий факт, і його треба читати уважно. У дослідженні, про яке повідомили в червні, 303 японських дорослих без діагнозу діабету 84 дні щодня їли 200 г йогурту, ферментованого двома конкретними штамами, під контролем безперервного монітора глюкози. Середня глюкоза знизилася на 4,06 мг/дл — приблизно 0,23 ммоль/л — із невеликим зменшенням варіабельності та згладженості кривої. Три речі це стримують. Дослідження було односегментним: без контрольної групи, тож ніщо не відділяє йогурт від сезону, від самого факту моніторингу чи від звичайних змін у людей, які щойно погодилися на участь. Його провела компанія Meiji — виробник цього йогурту. І 0,23 ммоль/л — це в межах шуму звичайного дня: якщо ви [читаєте власні графіки глюкози](/ua/blog/reading-glucose-patterns/), то знаєте, що проста прогулянка змінює більше."
+        "text": "Питання цукру крові цього року отримало новий факт, і його треба читати уважно. У дослідженні, опублікованому в травні, 303 японських дорослих без діагнозу діабету 84 дні щодня їли 200 г йогурту, ферментованого двома конкретними штамами, під контролем безперервного монітора глюкози. Середня глюкоза знизилася на 4,06 мг/дл — приблизно 0,23 ммоль/л — із невеликим зменшенням варіабельності та згладженості кривої. Три речі це стримують. Дослідження було одногруповим: без контрольної групи, тож ніщо не відділяє йогурт від сезону, від самого факту моніторингу чи від звичайних змін у людей, які щойно погодилися на участь. Його провела компанія Meiji — виробник цього йогурту. І 0,23 ммоль/л — це в межах шуму звичайного дня: якщо ви [читаєте власні графіки глюкози](/ua/blog/reading-glucose-patterns/), то знаєте, що проста прогулянка змінює більше."
       },
       {
         "t": "p",
@@ -143,7 +143,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Жодне з цих досліджень не проводили саме на жінках після 40, і я краще скажу це прямо, ніж прикрию. Те, що огляд справді підтримує, скромне, але робити це варто: ферментовані продукти дешеві, малоризиковані й дають вашим кишковим бактеріям матеріал для роботи так, як капсула не дає. Це достатня причина тримати кефір у холодильнику. Але не достатня, щоб чекати зміни якогось показника. Опитування IFIC, опубліковане цього місяця, показало, що 64% американців вважають здоров’я кишківника високим пріоритетом, розуміючи під ним переважно комфортне травлення, — захоплення бігом попереду розуміння, приблизно там, де зараз і сама наука."
+        "text": "Жодне з цих досліджень не проводили саме на жінках після 40, і я краще скажу це прямо, ніж прикрию. Те, що огляд справді підтримує, скромне, але робити це варто: ферментовані продукти дешеві, малоризиковані й дають вашим кишковим бактеріям матеріал для роботи так, як капсула не дає. Це достатня причина тримати кефір у холодильнику. Але не достатня, щоб чекати зміни якогось показника. Опитування IFIC, опубліковане цього місяця, показало, що 64% американців вважають здоров’я кишківника високим пріоритетом, найчастіше розуміючи під ним просто добре травлення, — захоплення бігом попереду розуміння, приблизно там, де зараз і сама наука."
       },
       {
         "t": "h",
@@ -154,15 +154,15 @@ export default {
         "items": [
           {
             "claim": "Огляд 2026 року описує, як ферментована їжа впливає на мікробіоту ротової порожнини й кишківника, — і зазначає, що механізми в людини досі описані недостатньо.",
-            "detail": "В огляді ферментовану їжу описано як джерело пробіотиків, пребіотичних субстратів і постбіотичних метаболітів, а також висловлено думку, що рослинні ферментовані продукти втримують ці компоненти в структурованих матрицях краще, ніж молочні. Ідеться про вплив на вісь «ротова порожнина — кишківник» через тимчасову мікробну експозицію і через сигнали метаболітів, а також про те, що мікробні метаболіти — насамперед коротколанцюгові жирні кислоти — допомагають регулювати гомеостаз регуляторних T-клітин у товстій кишці. Автори покликаються на дослідження на людях, у яких споживання ферментованої їжі підвищувало різноманіття мікробіоти й знижувало рівні маркерів запалення. Власне застереження огляду: механізми в людини описані недостатньо через варіабельність штамів, непослідовність мікробного складу різних ферментованих продуктів, різнорідні клінічні результати й нормативну неоднозначність. Це наративний огляд, а не нові первинні дані.",
+            "detail": "В огляді ферментовану їжу описано як джерело пробіотиків, пребіотичних субстратів і постбіотичних метаболітів, а також висловлено думку, що багаті на клітковину рослинні ферментовані продукти втримують ці компоненти в структурованих матрицях, які стабільніше, ніж молочні, підтримують життєздатність мікробів і їхню взаємодію зі слизовою. Ідеться про вплив на вісь «ротова порожнина — кишківник» через тимчасову мікробну експозицію і через сигнали метаболітів, а також про те, що мікробні метаболіти — насамперед коротколанцюгові жирні кислоти — допомагають регулювати гомеостаз регуляторних T-клітин у товстій кишці. Автори покликаються на дослідження на людях, у яких споживання ферментованої їжі підвищувало різноманіття мікробіоти й знижувало рівні маркерів запалення. Власне застереження огляду: механізми в людини описані недостатньо через варіабельність штамів, непослідовність мікробного складу різних ферментованих продуктів, різнорідні клінічні результати й нормативну неоднозначність. Це наративний огляд, а не нові первинні дані.",
             "cite": "Nature Reviews Microbiology · Огляд, 23 червня 2026",
             "url": "https://www.nature.com/articles/s41579-026-01333-8"
           },
           {
             "claim": "У 303 японських дорослих 200 г ферментованого йогурту на день упродовж 12 тижнів супроводжувалися невеликим зниженням середньої глюкози — але дослідження не мало контрольної групи і його провів виробник.",
-            "detail": "Участь брали люди без встановленого діагнозу діабету; вони 84 дні щодня їли 200 г йогурту, ферментованого штамами Lactobacillus delbrueckii subsp. bulgaricus 2038 і Streptococcus thermophilus 1131, під контролем CGM. Середня глюкоза знизилася на 4,06 мг/дл (95% ДІ 2,97–5,14), тобто приблизно на 0,23 ммоль/л; стандартне відхилення глікемічної кривої зменшилося на 0,86 мг/дл (95% ДІ −1,32 до −0,41), а показник згладженості AC_Var — на 0,0059 (95% ДІ −0,010 до −0,0017). Це односегментне дослідження без контрольної групи, що обмежує будь-які причинно-наслідкові висновки; його провела компанія Meiji Co Ltd — виробник тестованого йогурту — у співпраці з THE PHAGE Inc і Університетом Чіба.",
-            "cite": "The Journal of Nutrition · Односегментне дослідження Meiji Co Ltd / Університету Чіба, повідомлено в червні 2026",
-            "url": "https://www.nutraingredients.com/Article/2026/06/15/meiji-study-finds-probiotic-fermented-yogurt-improves-glucose-control-gut-microbiota/"
+            "detail": "Участь брали люди без встановленого діагнозу діабету; вони 84 дні щодня їли 200 г йогурту, ферментованого штамами Lactobacillus delbrueckii subsp. bulgaricus 2038 і Streptococcus thermophilus 1131, під контролем CGM. Середня глюкоза знизилася на 4,06 мг/дл (95% ДІ 2,97–5,14), тобто приблизно на 0,23 ммоль/л; стандартне відхилення глікемічної кривої зменшилося на 0,86 мг/дл (95% ДІ −1,32 до −0,41), а показник згладженості AC_Var — на 0,0059 (95% ДІ −0,010 до −0,0017). Це одногрупове дослідження без контрольної групи, що обмежує будь-які причинно-наслідкові висновки; його провела компанія Meiji Co Ltd — виробник тестованого йогурту — у співпраці з THE PHAGE Inc і Університетом Чіба.",
+            "cite": "The Journal of Nutrition · Одногрупове дослідження Meiji Co Ltd / Університету Чіба, опубліковано в травні 2026",
+            "url": "https://doi.org/10.1016/j.tjnut.2026.101572"
           },
           {
             "claim": "Оглядове дослідження літератури про мікробіом і діабет 2 типу показало, що доказова база переважно дуже низької якості.",
@@ -171,7 +171,7 @@ export default {
             "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1682174/full"
           },
           {
-            "claim": "Опитування споживачів, опубліковане в серпні 2026 року, показало, що здоров’я кишківника є пріоритетом для більшості людей — і що більшість розуміє під ним комфортне травлення, а не щось системне.",
+            "claim": "Опитування споживачів, опубліковане в серпні 2026 року, показало, що здоров’я кишківника є пріоритетом для більшості людей — і що найпоширеніші відповіді пов’язують його з травленням, а не з чимось системним.",
             "detail": "У спотлайт-опитуванні IFIC 64% американців назвали здоров’я кишківника високим або надзвичайно високим пріоритетом. На питання, що означає здоровий кишківник, найчастішою відповіддю було правильне травлення і засвоєння нутрієнтів (36%); на питання, на що впливає здоров’я кишківника, респонденти вказували на комфорт травлення (48%), регулярне випорожнення (38%) і засвоєння нутрієнтів (33%), тоді як значно менше згадували імунну функцію (20%), психічне чи емоційне здоров’я (20%), роботу мозку (12%) або стан шкіри (10%). Це опитування про переконання, а не клінічні дані.",
             "cite": "International Food Information Council · Опитування споживачів, серпень 2026",
             "url": "https://ific.org/research/"
@@ -202,7 +202,7 @@ export default {
       },
       {
         "q": "Кефір чи кімчі — чи є різниця?",
-        "a": "За логікою огляду, матриця продукту таки має значення: рослинні ферменти на кшталт кімчі, квашеної капусти й місо втримують живі мікроби, пребіотичний матеріал і постбіотичні сполуки в структурованих матрицях краще, ніж молочні. Але це не той рейтинг, за яким варто вибудовувати покупки, бо той самий огляд каже: варіабельність штамів і непослідовний мікробний склад різних продуктів — саме те, через що дані на людях такі неоднозначні; банка перед вами може не бути схожою на ту, яку досліджували. Різноманіття тут обґрунтованіше, ніж вибір «переможця». Одне практичне зауваження, якщо ви починаєте: беріть кілька ложок, а не повну порцію, і збільшуйте поступово — різкий стрибок зазвичай дає здуття і гази."
+        "a": "За логікою огляду, матриця продукту таки має значення: багаті на клітковину рослинні ферменти на кшталт кімчі, квашеної капусти й місо втримують живі мікроби, пребіотичний матеріал і постбіотичні сполуки в структурованих матрицях, які стабільніше, ніж молочні, допомагають мікробам виживати й взаємодіяти зі слизовою кишківника. Але це не той рейтинг, за яким варто вибудовувати покупки, бо той самий огляд каже: варіабельність штамів і непослідовний мікробний склад різних продуктів — саме те, через що дані на людях такі неоднозначні; банка перед вами може не бути схожою на ту, яку досліджували. Різноманіття тут обґрунтованіше, ніж вибір «переможця». Одне практичне зауваження, якщо ви починаєте: беріть кілька ложок, а не повну порцію, і збільшуйте поступово — різкий стрибок зазвичай дає здуття і гази."
       }
     ]
   }
