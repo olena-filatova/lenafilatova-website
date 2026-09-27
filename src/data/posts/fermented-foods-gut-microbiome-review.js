@@ -13,7 +13,7 @@ export default {
     "imageAlt": "Jars of fermented vegetables — sauerkraut, pickles and peppers.",
     "title": "What a 2026 review actually says about fermented foods and your gut",
     "seoTitle": "Fermented Foods and Gut Health: a 2026 Review",
-    "metaDesc": "A Nature Reviews Microbiology review maps how fermented foods act on the gut — and admits the human mechanisms aren’t pinned down. Plus what the glucose data really shows.",
+    "metaDesc": "A Nature Reviews Microbiology review of how fermented foods act on the gut admits the human mechanisms aren’t pinned down. Plus what the glucose data shows.",
     "excerpt": "A June review in Nature Reviews Microbiology maps how fermented foods act on the gut, and admits the human mechanisms aren’t pinned down. A modest case, not a miracle.",
     "meta": "18 August 2026 · 5 min read",
     "lead": "Kefir is in every supermarket, kimchi has moved from speciality shop to fridge door, and something is usually bubbling on somebody’s counter. A review published in June in Nature Reviews Microbiology is the first place I have seen the whole question laid out plainly: what fermented foods plausibly do inside you, and how much of that has actually been demonstrated in people rather than inferred.",
@@ -36,7 +36,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The blood-sugar question gets a fresh data point this year, and it needs reading carefully. A study published in May followed 303 Japanese adults with no diabetes diagnosis who ate 200 g a day of yoghurt fermented with two named strains for 84 days, tracked by continuous glucose monitor. Average glucose fell by 4.06 mg/dL — about 0.23 mmol/L — with small reductions in the variability and smoothness of the curve. Three things temper that. It was single-arm: no control group, so nothing separates the yoghurt from the season, the monitoring itself or the ordinary drift of people who have just agreed to be studied. It was run by Meiji, the company that makes the yoghurt. And 0.23 mmol/L sits inside the noise of a normal day — if you [read your own glucose traces](/blog/reading-glucose-patterns/), you will move more than that by taking a walk."
+        "text": "The blood-sugar question gets a fresh data point this year, and it needs reading carefully. A study published in May followed 303 Japanese adults with no diabetes diagnosis who ate 200 g a day of yoghurt fermented with two named strains for 84 days, tracked by continuous glucose monitor. Average glucose fell by 4.06 mg/dL — about 0.23 mmol/L — with small reductions in the variability and smoothness of the curve. Three things temper that. It was single-arm: no control group, so nothing separates the yoghurt from the season, the monitoring itself or the ordinary drift of people who have just agreed to be studied. It was run by Meiji, the company that makes the yoghurt. And 0.23 mmol/L sits inside the noise of a normal day — if you read your own glucose traces, you will move more than that by taking a walk."
       },
       {
         "t": "p",
@@ -112,7 +112,7 @@ export default {
     "imageAlt": "Банки з ферментованими овочами — квашеною капустою, огірками та перцем.",
     "title": "Що насправді кажуть про ферментовану їжу і кишківник в огляді 2026 року",
     "seoTitle": "Ферментована їжа і кишківник: огляд 2026 року",
-    "metaDesc": "Огляд у Nature Reviews Microbiology описує, як ферментована їжа впливає на кишківник, — і визнає, що механізми в людини не встановлені. І що насправді показують дані про глюкозу.",
+    "metaDesc": "Огляд у Nature Reviews Microbiology про вплив ферментованої їжі на кишківник визнає, що механізми в людини не встановлені. І що показують дані про глюкозу.",
     "excerpt": "Червневий огляд у Nature Reviews Microbiology описує, як ферментована їжа діє на кишківник, і визнає, що механізми в людини не встановлені. Скромні висновки, а не чудо.",
     "meta": "18 серпня 2026 · 5 хв читання",
     "lead": "Кефір є в кожному супермаркеті, кімчі перебралося зі спеціалізованих крамниць на дверцята холодильника, а на чиємусь столі майже завжди щось бродить. Огляд, опублікований у червні в Nature Reviews Microbiology, — перше місце, де я побачила все питання викладеним прямо: що ферментована їжа, ймовірно, робить усередині вас і яка частина цього справді показана на людях, а не виведена з припущень.",
@@ -135,7 +135,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Питання цукру крові цього року отримало новий факт, і його треба читати уважно. У дослідженні, опублікованому в травні, 303 японських дорослих без діагнозу діабету 84 дні щодня їли 200 г йогурту, ферментованого двома конкретними штамами, під контролем безперервного монітора глюкози. Середня глюкоза знизилася на 4,06 мг/дл — приблизно 0,23 ммоль/л — із невеликим зменшенням варіабельності та згладженості кривої. Три речі це стримують. Дослідження було одногруповим: без контрольної групи, тож ніщо не відділяє йогурт від сезону, від самого факту моніторингу чи від звичайних змін у людей, які щойно погодилися на участь. Його провела компанія Meiji — виробник цього йогурту. І 0,23 ммоль/л — це в межах шуму звичайного дня: якщо ви [читаєте власні графіки глюкози](/ua/blog/reading-glucose-patterns/), то знаєте, що проста прогулянка змінює більше."
+        "text": "Питання цукру крові цього року отримало новий факт, і його треба читати уважно. У дослідженні, опублікованому в травні, 303 японських дорослих без діагнозу діабету 84 дні щодня їли 200 г йогурту, ферментованого двома конкретними штамами, під контролем безперервного монітора глюкози. Середня глюкоза знизилася на 4,06 мг/дл — приблизно 0,23 ммоль/л — із невеликим зменшенням варіабельності та згладженості кривої. Три речі це стримують. Дослідження було одногруповим: без контрольної групи, тож ніщо не відділяє йогурт від сезону, від самого факту моніторингу чи від звичайних змін у людей, які щойно погодилися на участь. Його провела компанія Meiji — виробник цього йогурту. І 0,23 ммоль/л — це в межах шуму звичайного дня: якщо ви читаєте власні графіки глюкози, то знаєте, що проста прогулянка змінює більше."
       },
       {
         "t": "p",

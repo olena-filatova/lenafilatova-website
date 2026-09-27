@@ -23,7 +23,7 @@ export default {
     "title": "Gum disease in perimenopause with diabetes: the link nobody mentions at your check-up",
     "seoTitle": "Gum Disease, Diabetes and Perimenopause: The Missed Link",
     "metaDesc": "Diabetes and perimenopause each raise gum disease risk — and treating gum disease lowers HbA1c by 0.43%. What to watch for, and what actually helps.",
-    "excerpt": "Bleeding gums at 45 get filed under getting older, or stress, or brushing too hard. If you have diabetes there is a better explanation — and one fact worth knowing: this is the complication where treating it appears to improve your blood sugar too.",
+    "excerpt": "Bleeding gums at 45 get blamed on age, stress or brushing too hard. With diabetes there’s a better explanation — and treating it appears to improve blood sugar too.",
     "meta": "4 September 2026 · 7 min read",
     "lead": "Treating gum disease lowers HbA1c by 0.43 per cent — 4.7 mmol/mol — at three to four months, across 30 randomised trials and 2,443 people. That is the sort of change you would expect from adding a medication, and it came from cleaning under the gumline. Which makes this a loop rather than a complication, and the dentist rather more relevant to your blood sugar than anyone tends to mention.",
     "blocks": [
@@ -251,7 +251,7 @@ export default {
     "title": "Хвороба ясен при діабеті й перименопаузі: зв’язок, про який не кажуть на огляді",
     "seoTitle": "Ясна, діабет і перименопауза: пропущений зв’язок",
     "metaDesc": "Діабет і перименопауза кожен окремо підвищують ризик хвороби ясен — а її лікування знижує HbA1c на 0,43%. На що зважати і що справді допомагає.",
-    "excerpt": "Кровоточивість ясен у 45 списують на вік, стрес або надто сильне чищення. Якщо у вас діабет, є краще пояснення — і один вартий уваги факт: це те ускладнення, лікування якого, схоже, покращує ще й ваш цукор у крові.",
+    "excerpt": "Кровоточивість ясен у 45 списують на вік, стрес чи надто сильне чищення. При діабеті є краще пояснення — і лікування, схоже, покращує ще й цукор у крові.",
     "meta": "4 вересня 2026 · 7 хв читання",
     "lead": "Лікування хвороби ясен знижує HbA1c на 0,43 відсотка — 4,7 ммоль/моль — через три-чотири місяці; це дані 30 рандомізованих досліджень і 2443 людей. Такої зміни очікуєш від додавання ліків, а вона настала від чищення під яснами. Це робить зв’язок петлею, а не ускладненням, — і стоматолога значно дотичнішим до вашого цукру, ніж прийнято згадувати.",
     "blocks": [

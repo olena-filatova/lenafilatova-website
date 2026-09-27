@@ -13,8 +13,8 @@ export default {
     "imageAlt": "A woman in a bathrobe framing her midriff with both hands.",
     "title": "A fibre-free diet inflamed the gut in mice — and the study is honest about why that may not be you",
     "seoTitle": "Fibre Deficiency and Gut Inflammation: What Mice Show",
-    "metaDesc": "A 2026 mouse study traced how a fibre-free diet inflames the gut — then noted the molecule doing it doesn’t exist in humans. What still carries over, and what doesn’t.",
-    "excerpt": "A 2026 study in npj Biofilms and Microbiomes worked out, step by step, how taking fibre out of the diet inflames the gut in mice — and then said plainly that the molecule driving it isn’t found in humans. The honesty is the useful part.",
+    "metaDesc": "A 2026 mouse study traced how a fibre-free diet inflames the gut, then noted the key molecule doesn’t exist in humans. What carries over, and what doesn’t.",
+    "excerpt": "A 2026 study traced how removing fibre inflames the gut in mice — then said plainly the molecule driving it isn’t found in humans. That honesty is the useful part.",
     "meta": "18 August 2026 · 4 min read",
     "lead": "“Eat more fibre” is advice so familiar it has stopped meaning anything. A study published in January in npj Biofilms and Microbiomes set out to show the machinery underneath it — what actually goes wrong in a gut with no fibre coming in. It found a detailed answer, and then, to its credit, flagged the reason that answer may not transfer to you.",
     "blocks": [
@@ -98,8 +98,8 @@ export default {
     "imageAlt": "Жінка в халаті обрамляє долонями живіт.",
     "title": "Дієта без клітковини викликала запалення кишківника в мишей — і автори чесно пояснюють, чому це може вас не стосуватися",
     "seoTitle": "Брак клітковини і запалення кишківника: що показали миші",
-    "metaDesc": "Дослідження 2026 року простежило, як дієта без клітковини запалює кишківник у мишей, — і зазначило, що ключової молекули в людей немає. Що з цього переноситься на нас.",
-    "excerpt": "Дослідження 2026 року в npj Biofilms and Microbiomes крок за кроком показало, як вилучення клітковини з раціону запалює кишківник у мишей, — а тоді прямо визнало, що молекули, яка це робить, у людей немає. Саме ця чесність і є найкориснішим.",
+    "metaDesc": "Дослідження 2026 року: дієта без клітковини запалює кишківник у мишей, але ключової молекули в людей немає. Що з цього переноситься на нас.",
+    "excerpt": "Дослідження 2026 року показало, як вилучення клітковини запалює кишківник у мишей, — і прямо визнало, що ключової молекули в людей немає. Ця чесність і є найкориснішою.",
     "meta": "18 серпня 2026 · 4 хв читання",
     "lead": "«Їжте більше клітковини» — порада настільки звична, що вже майже нічого не означає. Дослідження, опубліковане в січні в npj Biofilms and Microbiomes, спробувало показати механіку під нею: що саме ламається в кишківнику, до якого не надходить клітковина. Відповідь знайшлася докладна — і автори чесно вказали, чому вона може не переноситися на людину.",
     "blocks": [

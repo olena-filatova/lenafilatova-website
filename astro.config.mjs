@@ -42,9 +42,17 @@ const REMOVED_RECIPE_REDIRECTS = Object.fromEntries(
   ])
 );
 
+// Blog posts taken down (OPS-471): reading-glucose-patterns was a "Coming soon"
+// stub from June; Lena chose to remove it rather than write it. Sent to the
+// closest live post on reading your own CGM traces.
+const REMOVED_POST_REDIRECTS = {
+  '/blog/reading-glucose-patterns/': withBase('/blog/how-to-read-cgm-during-workout/'),
+  '/ua/blog/reading-glucose-patterns/': withBase('/ua/blog/how-to-read-cgm-during-workout/'),
+};
+
 export default defineConfig({
   site: 'https://lenafilatova.co.uk',
   base: BASE,
   trailingSlash: 'always',
-  redirects: { ...TOOL_REDIRECTS, ...REMOVED_RECIPE_REDIRECTS },
+  redirects: { ...TOOL_REDIRECTS, ...REMOVED_RECIPE_REDIRECTS, ...REMOVED_POST_REDIRECTS },
 });
