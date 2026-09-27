@@ -25,7 +25,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "That last clause carries the reassurance most women are actually looking for. The review reports that these cognitive symptoms are not associated with an increased risk of dementia, and that on formal testing, overall performance usually sits within the expected range. Fear of early Alzheimer’s is a common reason women bring brain fog to a GP, and on the current evidence it is not what this is."
+        "text": "That last clause carries the reassurance most women are actually looking for. The review finds no evidence that these cognitive symptoms are linked to an increased risk of Alzheimer’s disease, the most common cause of dementia, and reports that on formal testing, overall performance usually sits within the expected range. Fear of early Alzheimer’s is a common reason women bring brain fog to a GP, and on the current evidence it is not what this is."
       },
       {
         "t": "p",
@@ -100,7 +100,7 @@ export default {
     "faq": [
       {
         "q": "Is menopause brain fog a sign of early dementia?",
-        "a": "On the current evidence, no. The 2026 Lancet review reports that cognitive symptoms during the menopause transition are not linked to an increased risk of dementia, and that overall performance on formal cognitive testing usually stays within the expected range. The proposed definition specifically describes impairment that is self-reported and happens without notable objective decline. That said, if symptoms are severe, getting worse, or affecting your ability to do familiar tasks rather than just doing them more slowly, that is worth raising with your doctor rather than assuming it is menopause."
+        "a": "On the current evidence, no. The 2026 Lancet review finds no evidence that cognitive symptoms during the menopause transition are linked to an increased risk of Alzheimer’s disease, the most common cause of dementia, and reports that overall performance on formal cognitive testing usually stays within the expected range. The proposed definition specifically describes impairment that is self-reported and happens without notable objective decline. That said, if symptoms are severe, getting worse, or affecting your ability to do familiar tasks rather than just doing them more slowly, that is worth raising with your doctor rather than assuming it is menopause."
       },
       {
         "q": "If my memory tests come back normal, does that mean the fog isn’t real?",
@@ -128,7 +128,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме остання частина визначення дає ту відповідь, по яку більшість жінок і приходить. В огляді зазначено, що ці когнітивні симптоми не пов’язані з підвищеним ризиком деменції, а при формальному тестуванні загальні результати зазвичай залишаються в межах очікуваного. Страх ранньої хвороби Альцгеймера — поширена причина, чому жінки взагалі згадують про туман у голові на прийомі; за наявними даними, це не він."
+        "text": "Саме остання частина визначення дає ту відповідь, по яку більшість жінок і приходить. В огляді зазначено, що немає доказів зв’язку цих когнітивних симптомів із підвищеним ризиком хвороби Альцгеймера — найпоширенішої причини деменції, а при формальному тестуванні загальні результати зазвичай залишаються в межах очікуваного. Страх ранньої хвороби Альцгеймера — поширена причина, чому жінки взагалі згадують про туман у голові на прийомі; за наявними даними, це не він."
       },
       {
         "t": "p",
@@ -203,7 +203,7 @@ export default {
     "faq": [
       {
         "q": "Туман у голові в менопаузі — це ознака ранньої деменції?",
-        "a": "За наявними даними — ні. Огляд The Lancet 2026 року зазначає, що когнітивні симптоми під час менопаузального переходу не пов’язані з підвищеним ризиком деменції, а загальні результати формального когнітивного тестування зазвичай залишаються в межах очікуваного. Запропоноване визначення прямо описує порушення, про яке повідомляє сама людина й яке відбувається без помітного об’єктивного зниження. Водночас, якщо симптоми важкі, посилюються або заважають виконувати звичні справи, а не просто сповільнюють вас, це варто обговорити з лікарем, а не списувати на менопаузу."
+        "a": "За наявними даними — ні. Огляд The Lancet 2026 року зазначає, що немає доказів зв’язку когнітивних симптомів під час менопаузального переходу з підвищеним ризиком хвороби Альцгеймера — найпоширенішої причини деменції, а загальні результати формального когнітивного тестування зазвичай залишаються в межах очікуваного. Запропоноване визначення прямо описує порушення, про яке повідомляє сама людина й яке відбувається без помітного об’єктивного зниження. Водночас, якщо симптоми важкі, посилюються або заважають виконувати звичні справи, а не просто сповільнюють вас, це варто обговорити з лікарем, а не списувати на менопаузу."
       },
       {
         "q": "Якщо тести на пам’ять у нормі, чи означає це, що туману насправді немає?",
