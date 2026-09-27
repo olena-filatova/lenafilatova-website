@@ -589,6 +589,33 @@
    block under the standfirst. Posts under three sections don't get one at all
    — see TOC_MIN in blog-lib.js. */
 .toc-rail { margin: 0 0 34px; }
+
+/* The post summary (OPS-504) — the excerpt, at the top of the rail above the
+   contents and, below 1320px, in the flow between the standfirst and the
+   contents. Set small and quiet: it is a signpost, not a second standfirst,
+   and it sits a few centimetres from the real one on a phone. The heavy rule
+   above opens the block the way the contents list used to; the light rule
+   below closes it, and is what separates it from the first paragraph on the
+   posts that have no contents list to follow it. */
+.post-summary {
+  margin: 0;
+  padding: 14px 0 16px;
+  border-top: 1.5px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.ps-label {
+  margin: 0 0 8px;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink);
+}
+.ps-text {
+  margin: 0;
+  font-family: var(--font-body); font-size: var(--fs-fine); line-height: 1.6;
+  color: var(--muted);
+}
+/* Two heavy rules back to back would read as a box around the summary. The
+   summary's own closing rule is the one that separates the pair. */
+.post-summary + .toc { border-top: 0; }
 .toc { border-top: 1.5px solid var(--ink); }
 /* The closing rule belongs to the list, not to the title. Collapsed — which is
    how every phone sees this — the block is one line of text, and a rule above
@@ -664,6 +691,8 @@
      topics past the bottom of the rail. */
   .toc { max-height: none; min-height: 0; overflow-y: auto; }
   .rail-tags { flex: none; }
+  /* Same reason as .rail-tags: only the contents list scrolls. */
+  .post-summary { flex: none; }
   /* The rail closes on the page edge, not on a rule. */
   .toc[open] { border-bottom: 0; }
 }
