@@ -73,7 +73,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is a morning signature worth knowing: a headache on waking, sleep that did not refresh, flat mood and unusual fatigue the following day. It is suggestive rather than diagnostic. And in a 2023 study in Scientific Reports that paired sensor data with nightly sleep ratings in 27 adults with type 1 diabetes, the relationship ran in a direction most people find surprising — it was the frequency and duration of the milder lows that tracked with poor sleep, while the deepest, longest episodes below 3.0 mmol/L, some lasting more than two hours, made no difference to how people rated the night at all. How bad it felt and how bad it was are not the same axis."
+        "text": "There is a morning signature worth knowing: a headache on waking, sleep that did not refresh, flat mood and unusual fatigue the following day. It is suggestive rather than diagnostic. And in a 2023 study in Scientific Reports that paired sensor data with nightly sleep ratings in 27 adults with type 1 diabetes, the relationship ran in a direction most people find surprising — it was the frequency and duration of the milder lows that tracked with poor sleep, while the nights that went below 3.0 mmol/L — when the low typically lasted around two and a half hours in total — made no measurable difference to how people rated the night at all. How bad it felt and how bad it was are not the same axis."
       },
       {
         "t": "h",
@@ -101,7 +101,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Then there is the awkward fact that the warning symptoms are not equally available to everyone. Impaired awareness of hypoglycaemia — where the usual early warnings are muted, or missing altogether — was found in 17.5% of adults with type 1 diabetes in a 2024 questionnaire study, and other estimates run up to around 30%. What matters is what it travels with: in that study, people with impaired awareness were four and a half times more likely to have had a severe hypo in the previous year. The symptoms are least informative exactly where the consequences are worst. A checklist assumes a working alarm, and a meaningful minority of the people reading this do not have one."
+        "text": "Then there is the awkward fact that the warning symptoms are not equally available to everyone. Impaired awareness of hypoglycaemia — where the usual early warnings are muted, or missing altogether — was found in 17.5% of adults with type 1 diabetes in a 2024 questionnaire study, and other estimates run up to around 30%. What matters is what it travels with: in that study, 37.5% of people with impaired awareness had had a severe hypo in the previous year, against 11.7% of those with normal awareness — roughly three times the rate, and four and a half times the odds. The symptoms are least informative exactly where the consequences are worst. A checklist assumes a working alarm, and a meaningful minority of the people reading this do not have one."
       },
       {
         "t": "p",
@@ -179,12 +179,12 @@ export default {
         ],
         "rows": [
           [
-            "A steady decline from around midnight, bottoming out between about 2 and 4am",
+            "A gentle, steady decline after midnight, dipping low before about 4am",
             "The commonest shape of a nocturnal low. A cluster analysis of 2,519 overnight traces from 395 adults with type 1 diabetes found most hypoglycaemic episodes falling in that midnight-to-4am window. It is a basal or evening-dose question for your team — not something to adjust off the back of an article."
           ],
           [
             "A dip in the small hours followed by a climb, so you wake at 3am and find a high number at breakfast",
-            "Post-hypoglycaemic nocturnal hyperglycaemia — the counter-regulatory response overshooting. In a 2025 analysis of 755 adults with type 1 diabetes wearing sensors, around a third had at least one such episode in a fortnight. The morning high is the clue that something happened earlier, and treating the high without looking at what preceded it is exactly the trap."
+            "Post-hypoglycaemic nocturnal hyperglycaemia — either the counter-regulatory response overshooting or the treatment for the low doing so; the study could not tell which. In a 2025 analysis of 755 adults with type 1 diabetes wearing sensors, around a third had at least one such episode in a fortnight. The morning high is the clue that something happened earlier, and treating the high without looking at what preceded it is exactly the trap."
           ],
           [
             "A flat, in-range line across the whole night, on a night you definitely woke",
@@ -274,31 +274,31 @@ export default {
         "items": [
           {
             "claim": "Most people with type 1 diabetes do not wake up during a nocturnal hypoglycaemic episode.",
-            "detail": "Schultes and colleagues induced hypoglycaemia overnight under polysomnographic monitoring in 16 people with type 1 diabetes and 16 age- and BMI-matched healthy controls, on separate nights against euglycaemic control conditions. At glucose levels of roughly 2.2–2.7 mmol/L, only one of the 16 participants with type 1 diabetes awakened, compared with ten of the 16 controls (p = 0.001). Adrenaline rose about 7.5 minutes before waking in those who did wake, indicating that counter-regulation was occurring whether or not it produced arousal. It is a small laboratory study of induced hypoglycaemia rather than an observational one, which is a limitation — but the size of the difference is hard to explain away.",
+            "detail": "Schultes and colleagues induced hypoglycaemia overnight under polysomnographic monitoring in 16 people with type 1 diabetes and 16 age- and BMI-matched healthy controls, on separate nights against euglycaemic control conditions. With glucose lowered to a nadir of 2.2 mmol/L (the controls who woke did so between 2.2 and 2.7 mmol/L), only one of the 16 participants with type 1 diabetes awakened, compared with ten of the 16 controls (p = 0.001). Adrenaline rose about 7.5 minutes before waking in those who did wake, indicating that counter-regulation was occurring whether or not it produced arousal. It is a small laboratory study of induced hypoglycaemia rather than an observational one, which is a limitation — but the size of the difference is hard to explain away.",
             "cite": "PLoS Medicine · Schultes B et al., 2007;4(2):e69",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1808097/"
           },
           {
             "claim": "Mild overnight lows track with worse sleep; the deepest and longest ones often go unnoticed.",
-            "detail": "A prospective pilot study paired continuous glucose data with nightly subjective sleep ratings in 27 adults with type 1 diabetes (18 women, median age 27, median HbA1c 7.6%, median duration 16 years) across 573 analysed nights. Nights with glucose below 3.9 mmol/L — 23.9% of nights — scored significantly worse for sleep quality (3.3 vs 3.5, p = 0.03). The association ran with the frequency and duration of mild episodes rather than their depth: profound episodes below 3.0 mmol/L, median duration 150 minutes, showed no effect on subjective sleep quality at all. A small single-centre pilot, and the sleep measure is subjective by design.",
+            "detail": "A prospective pilot study paired continuous glucose data with nightly subjective sleep ratings in 27 adults with type 1 diabetes (18 women, median age 27, median HbA1c 7.6%, median duration 16 years) across 573 analysed nights. Nights with glucose below 3.9 mmol/L — 23.9% of nights — scored significantly worse for sleep quality (3.3 vs 3.5, p = 0.03). The association ran with the frequency and duration of mild episodes rather than their depth: nights with a level-2 low below 3.0 mmol/L, on which glucose stayed below 3.9 mmol/L for a median of 150 minutes in total, showed no association with subjective sleep quality, and nor did the longest-duration nights. A small single-centre pilot, and the sleep measure is subjective by design.",
             "cite": "Scientific Reports · Gardner D, Tan HC, Lim GH, Zin Oo M, Xin X, Rama Chandran S, 2023",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10684550/"
           },
           {
             "claim": "Impaired awareness of hypoglycaemia affects a substantial minority — and predicts severe hypos.",
-            "detail": "A cross-sectional questionnaire study of 189 adults with type 1 diabetes (56.1% female, median age 41, median duration 19.3 years) found that 17.5% had impaired awareness of hypoglycaemia by the Gold score, meaning the usual early warning symptoms are muted or absent. Those with impaired awareness were 4.5 times more likely (95% CI 2.0–10.9) to report at least one severe hypoglycaemic episode in the previous 12 months — 37.5% against 11.7% (p = 0.001). Older participants were more likely to have it; in this cohort diabetes duration itself did not differ significantly between the two groups, so duration is not the whole story. It is a single-centre self-report study, and other cohorts report prevalence up to around 30% depending on the questionnaire used.",
+            "detail": "A cross-sectional questionnaire study of 189 adults with type 1 diabetes (56.1% female, median age 41, median duration 19.3 years) found that 17.5% had impaired awareness of hypoglycaemia by the Gold score, meaning the usual early warning symptoms are muted or absent. Those with impaired awareness were more likely to report at least one severe hypoglycaemic episode in the previous 12 months — 37.5% against 11.7% (p = 0.001), about three times the rate; expressed as an odds ratio that is 4.5 (95% CI 2.0–10.9), which is odds rather than risk. Older participants were more likely to have it; in this cohort diabetes duration itself did not differ significantly between the two groups, so duration is not the whole story. It is a single-centre self-report study, and other cohorts report prevalence up to around 30% depending on the questionnaire used.",
             "cite": "PLoS One · Baxter F, Baillie N, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178233/"
           },
           {
             "claim": "Nocturnal hypoglycaemia clusters between midnight and 4am.",
-            "detail": "A hierarchical cluster analysis of 2,519 overnight glucose series (midnight to 6am) from 395 adults with type 1 diabetes on multiple daily injections identified 16 distinct overnight patterns, six of them containing hypoglycaemic episodes. Episodes most commonly occurred between midnight and 4am, with later timing in traces that started from post-midnight hyperglycaemia. The authors report that glucose variability and preceding daytime hypoglycaemia predicted nocturnal lows better than bedtime glucose alone.",
+            "detail": "A hierarchical cluster analysis of 2,519 overnight glucose series (midnight to 6am) from 395 adults with type 1 diabetes on multiple daily injections identified 16 distinct overnight patterns, six of them containing hypoglycaemic episodes. Episodes most commonly occurred between midnight and 4am, with later timing in traces that started from post-midnight hyperglycaemia. The authors conclude that bedtime glucose has limited value as a predictor — an overnight downward trend may matter more — and cite earlier studies identifying glucose variability and daytime hypoglycaemia as predictors of nocturnal lows.",
             "cite": "Journal of Personalized Medicine · Kladov DE, Berikov VB, Semenova JF, Klimontov VV, 2023",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608186/"
           },
           {
             "claim": "Roughly a third of people with type 1 diabetes show a nocturnal low followed by a rebound high.",
-            "detail": "A cross-sectional retrospective analysis of 14 days of continuous glucose data from 755 adults with type 1 diabetes using FreeStyle Libre 2 (median age 49) found that 248 of them — 32.8% — had at least one episode of post-hypoglycaemic nocturnal hyperglycaemia. Those with the pattern spent longer above range, shorter in range, and had higher glucose variability than people whose nocturnal lows were not followed by a rebound. It is a retrospective sensor-data study, so it describes the pattern rather than establishing what should be done about it.",
+            "detail": "A cross-sectional retrospective analysis of 14 days of continuous glucose data from 755 adults with type 1 diabetes using FreeStyle Libre 2 (median age 49) found that 248 of them — 32.8% — had at least one episode of post-hypoglycaemic nocturnal hyperglycaemia. Those with the pattern spent longer above range, shorter in range, and had higher glucose variability than people whose nocturnal lows were not followed by a rebound. It is a retrospective sensor-data study, so it describes the pattern rather than establishing what should be done about it — and the authors could not tell whether the rebound came from counter-regulatory hormones or from carbohydrate taken to treat the low.",
             "cite": "Hormones (Athens) · González-Vidal T et al., 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678521/"
           },
@@ -310,7 +310,7 @@ export default {
           },
           {
             "claim": "When a hot flush and a hypo overlap, treat the low first.",
-            "detail": "Breakthrough T1D’s patient guidance on menopause and type 1 diabetes states directly that some menopausal symptoms, including hot sweats and palpitations, feel similar to hypoglycaemia, and that where an episode is both a hypoglycaemic episode and a hot sweat you should always treat the low first. It also recommends continuous or flash glucose monitoring with alarms as the practical way to tell the two apart. This is a patient-facing resource rather than a primary study, cited here for the guidance itself.",
+            "detail": "Breakthrough T1D’s patient guidance on menopause and type 1 diabetes states directly that some menopausal symptoms, including hot sweats and palpitations, feel similar to hypoglycaemia, and that where an episode is both a hypoglycaemic episode and a hot sweat you should always treat the low first. It also recommends checking glucose more often and points to continuous or flash monitoring, whose alarms warn when glucose is going too low or too high. This is a patient-facing resource rather than a primary study, cited here for the guidance itself.",
             "cite": "Breakthrough T1D · Menopause and type 1 diabetes",
             "url": "https://breakthrought1d.ca/life-with-t1d/menopause-and-type-1-diabetes/"
           }
@@ -363,7 +363,7 @@ export default {
       },
       {
         "q": "Why do I wake up with a high blood sugar after a night I woke up sweating?",
-        "a": "One possibility is a low earlier in the night followed by a counter-regulatory rebound. In a 2025 analysis of 14 days of sensor data from 755 adults with type 1 diabetes, around a third had at least one episode of a nocturnal low followed by hyperglycaemia. The morning high is a clue that something happened at 2 or 3am, so it is worth scrolling back through the overnight trace before assuming the evening dose was too small. What to change about it is a question for your diabetes team, not one to solve from a graph alone."
+        "a": "One possibility is a low earlier in the night followed by a rebound — from the body’s counter-regulatory response, from what you took to treat the low, or both. In a 2025 analysis of 14 days of sensor data from 755 adults with type 1 diabetes, around a third had at least one episode of a nocturnal low followed by hyperglycaemia. The morning high is a clue that something happened at 2 or 3am, so it is worth scrolling back through the overnight trace before assuming the evening dose was too small. What to change about it is a question for your diabetes team, not one to solve from a graph alone."
       },
       {
         "q": "Can a CGM actually tell perimenopause night sweats apart from hypos?",
@@ -435,7 +435,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є ранковий підпис, який варто знати: головний біль після пробудження, сон, що не відновив сили, плаский настрій і незвична втома наступного дня. Це підказка, а не діагноз. А в дослідженні 2023 року в Scientific Reports, де сенсорні дані щоночі поєднували з суб’єктивною оцінкою сну у 27 дорослих із діабетом 1 типу, зв’язок виявився в напрямку, який більшість вважає несподіваним: із поганим сном корелювали частота й тривалість м’якших гіпоглікемій, тоді як найглибші й найдовші епізоди нижче 3,0 ммоль/л, деякі тривалістю понад дві години, взагалі не змінювали оцінку ночі. Наскільки погано це відчувалося і наскільки погано було насправді — це різні осі."
+        "text": "Є ранковий підпис, який варто знати: головний біль після пробудження, сон, що не відновив сили, плаский настрій і незвична втома наступного дня. Це підказка, а не діагноз. А в дослідженні 2023 року в Scientific Reports, де сенсорні дані щоночі поєднували з суб’єктивною оцінкою сну у 27 дорослих із діабетом 1 типу, зв’язок виявився в напрямку, який більшість вважає несподіваним: із поганим сном корелювали частота й тривалість м’якших гіпоглікемій, тоді як ночі, коли глюкоза опускалася нижче 3,0 ммоль/л, — а низька глюкоза тоді тривала загалом у середньому близько двох з половиною годин, — помітно не змінювали оцінку ночі взагалі. Наскільки погано це відчувалося і наскільки погано було насправді — це різні осі."
       },
       {
         "t": "h",
@@ -463,7 +463,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Далі — незручний факт: попереджувальні симптоми доступні не всім однаково. Порушене відчуття гіпоглікемії, коли звичні ранні попередження приглушені або відсутні взагалі, було виявлене у 17,5% дорослих із діабетом 1 типу в опитувальному дослідженні 2024 року, а інші оцінки сягають близько 30%. Важливо, із чим це йде поруч: у тому ж дослідженні люди з порушеним відчуттям мали вчетверо з половиною вищі шанси пережити тяжку гіпоглікемію протягом попереднього року. Тобто симптоми найменш інформативні саме там, де наслідки найгірші. Перелік симптомів припускає, що сигналізація працює, — а в помітної частини тих, хто це читає, вона не працює."
+        "text": "Далі — незручний факт: попереджувальні симптоми доступні не всім однаково. Порушене відчуття гіпоглікемії, коли звичні ранні попередження приглушені або відсутні взагалі, було виявлене у 17,5% дорослих із діабетом 1 типу в опитувальному дослідженні 2024 року, а інші оцінки сягають близько 30%. Важливо, із чим це йде поруч: у тому ж дослідженні тяжку гіпоглікемію протягом попереднього року пережили 37,5% людей із порушеним відчуттям проти 11,7% тих, у кого воно збережене, — це приблизно втричі частіше, а шанси вищі вчетверо з половиною. Тобто симптоми найменш інформативні саме там, де наслідки найгірші. Перелік симптомів припускає, що сигналізація працює, — а в помітної частини тих, хто це читає, вона не працює."
       },
       {
         "t": "p",
@@ -541,12 +541,12 @@ export default {
         ],
         "rows": [
           [
-            "Рівне зниження приблизно від опівночі з дном десь між 2-ю і 4-ю ночі",
+            "Плавне рівне зниження після опівночі з провалом ще до 4-ї ранку",
             "Найпоширеніша форма нічної гіпоглікемії. Кластерний аналіз 2 519 нічних графіків від 395 дорослих із діабетом 1 типу показав, що більшість епізодів припадає саме на проміжок від опівночі до 4-ї. Це питання базального або вечірнього інсуліну до вашої команди — а не те, що коригують за статтею."
           ],
           [
             "Провал під ранок із подальшим підйомом: ви прокидаєтеся о третій, а на сніданок бачите високу цифру",
-            "Постгіпоглікемічна нічна гіперглікемія — контррегуляція, яка перестрибнула. В аналізі 2025 року за даними сенсорів 755 дорослих із діабетом 1 типу приблизно у третини був щонайменше один такий епізод за два тижні. Ранкова висока цифра — підказка, що щось сталося раніше, і лікувати її, не подивившись, що їй передувало, — це саме та пастка."
+            "Постгіпоглікемічна нічна гіперглікемія — або контррегуляція, яка перестрибнула, або надмірне лікування самої гіпоглікемії; дослідження не змогло розрізнити, що саме. В аналізі 2025 року за даними сенсорів 755 дорослих із діабетом 1 типу приблизно у третини був щонайменше один такий епізод за два тижні. Ранкова висока цифра — підказка, що щось сталося раніше, і лікувати її, не подивившись, що їй передувало, — це саме та пастка."
           ],
           [
             "Пласка лінія в діапазоні всю ніч — у ніч, коли ви точно прокидалися",
@@ -636,31 +636,31 @@ export default {
         "items": [
           {
             "claim": "Більшість людей із діабетом 1 типу не прокидаються під час нічної гіпоглікемії.",
-            "detail": "Schultes і колеги викликали нічну гіпоглікемію під полісомнографічним моніторингом у 16 людей із діабетом 1 типу та 16 здорових учасників, підібраних за віком і ІМТ, в окремі ночі порівняно з еуглікемічними контрольними умовами. За рівня глюкози приблизно 2,2–2,7 ммоль/л прокинувся лише один із 16 учасників із діабетом 1 типу — проти десяти з 16 у контрольній групі (p = 0,001). У тих, хто прокидався, адреналін зростав приблизно за 7,5 хвилини до пробудження, тобто контррегуляція відбувалася незалежно від того, чи призводила вона до прокидання. Це невелике лабораторне дослідження з викликаною гіпоглікемією, а не спостережне, і це обмеження — але масштаб різниці важко пояснити інакше.",
+            "detail": "Schultes і колеги викликали нічну гіпоглікемію під полісомнографічним моніторингом у 16 людей із діабетом 1 типу та 16 здорових учасників, підібраних за віком і ІМТ, в окремі ночі порівняно з еуглікемічними контрольними умовами. Коли глюкозу знижували до найнижчої точки 2,2 ммоль/л (учасники контрольної групи, які прокинулися, зробили це за 2,2–2,7 ммоль/л), прокинувся лише один із 16 учасників із діабетом 1 типу — проти десяти з 16 у контрольній групі (p = 0,001). У тих, хто прокидався, адреналін зростав приблизно за 7,5 хвилини до пробудження, тобто контррегуляція відбувалася незалежно від того, чи призводила вона до прокидання. Це невелике лабораторне дослідження з викликаною гіпоглікемією, а не спостережне, і це обмеження — але масштаб різниці важко пояснити інакше.",
             "cite": "PLoS Medicine · Schultes B та ін., 2007;4(2):e69",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1808097/"
           },
           {
             "claim": "М’які нічні гіпоглікемії корелюють із гіршим сном; найглибші й найдовші часто залишаються непоміченими.",
-            "detail": "Проспективне пілотне дослідження поєднало дані безперервного моніторингу з щонічною суб’єктивною оцінкою сну у 27 дорослих із діабетом 1 типу (18 жінок, медіана віку 27 років, медіана HbA1c 7,6%, медіана тривалості діабету 16 років) за 573 проаналізовані ночі. Ночі з глюкозою нижче 3,9 ммоль/л — 23,9% ночей — мали значуще гіршу оцінку сну (3,3 проти 3,5, p = 0,03). Зв’язок ішов через частоту й тривалість м’яких епізодів, а не через їхню глибину: глибокі епізоди нижче 3,0 ммоль/л із медіанною тривалістю 150 хвилин не впливали на суб’єктивну оцінку сну взагалі. Це невелике одноцентрове пілотне дослідження, і оцінка сну в ньому суб’єктивна за задумом.",
+            "detail": "Проспективне пілотне дослідження поєднало дані безперервного моніторингу з щонічною суб’єктивною оцінкою сну у 27 дорослих із діабетом 1 типу (18 жінок, медіана віку 27 років, медіана HbA1c 7,6%, медіана тривалості діабету 16 років) за 573 проаналізовані ночі. Ночі з глюкозою нижче 3,9 ммоль/л — 23,9% ночей — мали значуще гіршу оцінку сну (3,3 проти 3,5, p = 0,03). Зв’язок ішов через частоту й тривалість м’яких епізодів, а не через їхню глибину: ночі з гіпоглікемією 2-го рівня нижче 3,0 ммоль/л, коли глюкоза загалом трималася нижче 3,9 ммоль/л у медіані 150 хвилин, не були пов’язані із суб’єктивною оцінкою сну, як і ночі з найтривалішими епізодами. Це невелике одноцентрове пілотне дослідження, і оцінка сну в ньому суб’єктивна за задумом.",
             "cite": "Scientific Reports · Gardner D, Tan HC, Lim GH, Zin Oo M, Xin X, Rama Chandran S, 2023",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10684550/"
           },
           {
             "claim": "Порушене відчуття гіпоглікемії є в помітної меншості — і воно передбачає тяжкі епізоди.",
-            "detail": "Крос-секційне опитувальне дослідження 189 дорослих із діабетом 1 типу (56,1% жінок, медіана віку 41 рік, медіана тривалості діабету 19,3 року) показало, що у 17,5% було порушене відчуття гіпоглікемії за шкалою Gold — тобто звичні ранні попереджувальні симптоми приглушені або відсутні. Ті, у кого воно було, мали у 4,5 раза вищі шанси (95% ДІ 2,0–10,9) повідомити про щонайменше один епізод тяжкої гіпоглікемії за попередні 12 місяців — 37,5% проти 11,7% (p = 0,001). Старші учасники мали його частіше; сама лише тривалість діабету в цій когорті між групами значуще не відрізнялася, тож справа не тільки в ній. Це одноцентрове дослідження на самозвітах, а інші когорти повідомляють про поширеність до приблизно 30% залежно від використаного опитувальника.",
+            "detail": "Крос-секційне опитувальне дослідження 189 дорослих із діабетом 1 типу (56,1% жінок, медіана віку 41 рік, медіана тривалості діабету 19,3 року) показало, що у 17,5% було порушене відчуття гіпоглікемії за шкалою Gold — тобто звичні ранні попереджувальні симптоми приглушені або відсутні. Ті, у кого воно було, частіше повідомляли про щонайменше один епізод тяжкої гіпоглікемії за попередні 12 місяців — 37,5% проти 11,7% (p = 0,001), тобто приблизно втричі частіше; відношення шансів становить 4,5 (95% ДІ 2,0–10,9), і це саме шанси, а не ризик. Старші учасники мали його частіше; сама лише тривалість діабету в цій когорті між групами значуще не відрізнялася, тож справа не тільки в ній. Це одноцентрове дослідження на самозвітах, а інші когорти повідомляють про поширеність до приблизно 30% залежно від використаного опитувальника.",
             "cite": "PLoS One · Baxter F, Baillie N, Dover A, Stimson RH, Gibb F, Forbes S, 2024",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178233/"
           },
           {
             "claim": "Нічні гіпоглікемії групуються між опівніччю і 4-ю ранку.",
-            "detail": "Ієрархічний кластерний аналіз 2 519 нічних глюкозних рядів (від опівночі до 6-ї) у 395 дорослих із діабетом 1 типу на багаторазових ін’єкціях виявив 16 різних нічних патернів, шість із яких містили епізоди гіпоглікемії. Найчастіше епізоди траплялися між опівніччю і 4-ю ранку, з пізнішим часом у графіках, які починалися з післяопівнічної гіперглікемії. Автори зазначають, що варіабельність глюкози й денна гіпоглікемія напередодні передбачали нічні епізоди краще, ніж сам лише рівень глюкози перед сном.",
+            "detail": "Ієрархічний кластерний аналіз 2 519 нічних глюкозних рядів (від опівночі до 6-ї) у 395 дорослих із діабетом 1 типу на багаторазових ін’єкціях виявив 16 різних нічних патернів, шість із яких містили епізоди гіпоглікемії. Найчастіше епізоди траплялися між опівніччю і 4-ю ранку, з пізнішим часом у графіках, які починалися з післяопівнічної гіперглікемії. Автори доходять висновку, що рівень глюкози перед сном має обмежену цінність як предиктор — нічний низхідний тренд може важити більше, — і посилаються на попередні дослідження, де предикторами нічних гіпоглікемій були варіабельність глюкози й денна гіпоглікемія.",
             "cite": "Journal of Personalized Medicine · Kladov DE, Berikov VB, Semenova JF, Klimontov VV, 2023",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608186/"
           },
           {
             "claim": "Приблизно в третини людей із діабетом 1 типу нічна гіпоглікемія переходить у відкатну гіперглікемію.",
-            "detail": "Крос-секційний ретроспективний аналіз 14 днів даних безперервного моніторингу у 755 дорослих із діабетом 1 типу на FreeStyle Libre 2 (медіана віку 49 років) показав, що у 248 з них — 32,8% — був щонайменше один епізод постгіпоглікемічної нічної гіперглікемії. Ті, у кого був цей патерн, проводили більше часу вище діапазону, менше — в діапазоні, і мали вищу варіабельність глюкози, ніж люди, чиї нічні гіпоглікемії не переходили у відкат. Це ретроспективне дослідження сенсорних даних, тож воно описує патерн, а не встановлює, що з ним робити.",
+            "detail": "Крос-секційний ретроспективний аналіз 14 днів даних безперервного моніторингу у 755 дорослих із діабетом 1 типу на FreeStyle Libre 2 (медіана віку 49 років) показав, що у 248 з них — 32,8% — був щонайменше один епізод постгіпоглікемічної нічної гіперглікемії. Ті, у кого був цей патерн, проводили більше часу вище діапазону, менше — в діапазоні, і мали вищу варіабельність глюкози, ніж люди, чиї нічні гіпоглікемії не переходили у відкат. Це ретроспективне дослідження сенсорних даних, тож воно описує патерн, а не встановлює, що з ним робити, — і автори не змогли визначити, чи відкат спричинили контррегуляторні гормони, чи вуглеводи, з’їдені для лікування гіпоглікемії.",
             "cite": "Hormones (Athens) · González-Vidal T та ін., 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678521/"
           },
@@ -672,7 +672,7 @@ export default {
           },
           {
             "claim": "Коли приплив і гіпоглікемія накладаються, першою лікують гіпоглікемію.",
-            "detail": "Пацієнтські настанови Breakthrough T1D щодо менопаузи та діабету 1 типу прямо зазначають, що деякі менопаузальні симптоми, зокрема припливи й серцебиття, відчуваються схоже на гіпоглікемію, і що коли епізод є одночасно і гіпоглікемією, і припливом, гіпоглікемію слід лікувати першою. Вони також рекомендують безперервний або флеш-моніторинг із сигналами тривоги як практичний спосіб розрізняти ці стани. Це пацієнтський ресурс, а не первинне дослідження, і наводиться тут саме заради самої настанови.",
+            "detail": "Пацієнтські настанови Breakthrough T1D щодо менопаузи та діабету 1 типу прямо зазначають, що деякі менопаузальні симптоми, зокрема припливи й серцебиття, відчуваються схоже на гіпоглікемію, і що коли епізод є одночасно і гіпоглікемією, і припливом, гіпоглікемію слід лікувати першою. Вони також радять частіше вимірювати глюкозу й згадують безперервний або флеш-моніторинг, сигнали якого попереджають, коли глюкоза стає надто низькою чи надто високою. Це пацієнтський ресурс, а не первинне дослідження, і наводиться тут саме заради самої настанови.",
             "cite": "Breakthrough T1D · Менопауза та діабет 1 типу",
             "url": "https://breakthrought1d.ca/life-with-t1d/menopause-and-type-1-diabetes/"
           }
@@ -725,7 +725,7 @@ export default {
       },
       {
         "q": "Чому вранці високий цукор після ночі, коли я прокидалася мокра?",
-        "a": "Один із варіантів — гіпоглікемія раніше вночі з подальшим контррегуляторним відкатом. В аналізі 2025 року за 14 днями сенсорних даних 755 дорослих із діабетом 1 типу приблизно в третини був щонайменше один епізод нічної гіпоглікемії з подальшою гіперглікемією. Ранкова висока цифра — підказка, що щось сталося о другій чи третій ночі, тож варто прогорнути нічний графік назад, перш ніж вирішити, що вечірня доза була замалою. А що з цим робити — питання до вашої діабетичної команди, а не те, що розв’язують за графіком."
+        "a": "Один із варіантів — гіпоглікемія раніше вночі з подальшим відкатом угору: через контррегуляторну відповідь організму, через те, чим ви лікували гіпоглікемію, або через обидва. В аналізі 2025 року за 14 днями сенсорних даних 755 дорослих із діабетом 1 типу приблизно в третини був щонайменше один епізод нічної гіпоглікемії з подальшою гіперглікемією. Ранкова висока цифра — підказка, що щось сталося о другій чи третій ночі, тож варто прогорнути нічний графік назад, перш ніж вирішити, що вечірня доза була замалою. А що з цим робити — питання до вашої діабетичної команди, а не те, що розв’язують за графіком."
       },
       {
         "q": "Чи може CGM справді відрізнити перименопаузальну пітливість від гіпоглікемії?",

@@ -86,7 +86,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The tank is untouched. That is exactly why nothing happens at first. You drink, the refinery quietly goes offline, and the tank carries you for hours without anyone noticing anything is wrong. The problem arrives at the moment the tank runs low — which, if you drank in the evening, is the middle of the night or the following morning, and there is nothing behind it."
+        "text": "The tank still works — the modelling work I come to below suggests alcohol may even drain it faster — and that is exactly why nothing happens at first. You drink, the refinery quietly goes offline, and the tank carries you for hours without anyone noticing anything is wrong. The problem arrives at the moment the tank runs low — which, if you drank in the evening, is the middle of the night or the following morning, and there is nothing behind it."
       },
       {
         "t": "h",
@@ -102,7 +102,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Units are worth being able to picture, because almost every figure in this post is expressed in them and “a drink” is not a fixed quantity. One UK unit is 8 g of pure alcohol. The study dose is in the table so you can see where it sits — between a large glass and a bottle, not at the top of the list."
+        "text": "Units are worth being able to picture, because almost every figure in this post is expressed in them and “a drink” is not a fixed quantity. One UK unit is 10 ml of pure alcohol, which weighs about 8 g. The study dose is in the table so you can see where it sits — between a large glass and a bottle, not at the top of the list."
       },
       {
         "t": "table",
@@ -135,31 +135,31 @@ export default {
             "Medium glass of wine",
             "175 ml at 13%",
             "17.9 g",
-            "2.2"
+            "2.3"
           ],
           [
             "Pint of lager",
             "568 ml at 4%",
             "17.9 g",
-            "2.2"
+            "2.3"
           ],
           [
             "Large glass of wine",
             "250 ml at 13%",
             "25.6 g",
-            "3.2"
+            "3.3"
           ],
           [
             "The dose used in the study above",
             "0.75 g/kg, 70 kg adult",
             "52.5 g",
-            "6.6"
+            "6.7"
           ],
           [
             "Bottle of wine",
             "750 ml at 13%",
             "76.9 g",
-            "9.6"
+            "9.8"
           ]
         ]
       },
@@ -197,11 +197,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "That last one looks like a contradiction and isn’t quite. Ethanol in the bloodstream is not directly glucose-lowering in someone held steady by an infusion; the delayed effect needs the other conditions — a depleted tank, a night’s fast, insulin still working. So the honest summary is not “alcohol lowers your blood sugar”. It is: alcohol removes one of your defences against a low, and whether that matters depends on whether you end up needing that defence."
+        "text": "The 1993 clamp result looks like a contradiction too, and isn’t quite. Ethanol in the bloodstream is not directly glucose-lowering in someone held steady by an infusion; the delayed effect needs the other conditions — a depleted tank, a night’s fast, insulin still working. So the honest summary is not “alcohol lowers your blood sugar”. It is: alcohol removes one of your defences against a low, and whether that matters depends on whether you end up needing that defence."
       },
       {
         "t": "p",
-        "text": "The 45% figure has a similar problem — in the review where most people meet it, it is a secondary citation to work from 1997 and 2004, expressed as “up to”: a ceiling, not an average. And that systematic review is itself from 2008, worth saying plainly given how often it is described as recent. The most current picture comes from surveys instead. An international study published in 2025, covering 216 people with type 1 diabetes across 23 countries, found only 53.2% felt safe drinking, only 45.8% had ever had it covered in their diabetes education, and 48.2% had experienced effects they could not predict. Severe hypos were around four times more likely in those routinely drinking two or more per occasion (odds ratio 4.20, 95% CI 1.52–11.61). Self-reported and cross-sectional, so not causal — but the shape is right: unpredictable, under-taught, worse at volume."
+        "text": "The 45% figure has a similar problem — in the review where most people meet it, it is a secondary citation to work from 1997 and 2004, expressed as “up to”: a ceiling, not an average. And that systematic review is itself from 2008, worth saying plainly given how often it is described as recent. A newer 2018 systematic review with GRADE found 13 studies, eight showing a raised hypo risk and five not, and not one testing a way to prevent it. Beyond that, the most current picture comes from surveys. An international study published in 2025, covering 216 people with type 1 diabetes across 23 countries, found only 53.2% felt safe drinking, only 45.8% had ever had it covered in their diabetes education, and 48.2% had experienced effects they could not predict. The odds of an alcohol-related severe hypo were around four times higher in those routinely drinking two or more per occasion (odds ratio 4.20, 95% CI 1.52–11.61). Self-reported and cross-sectional, so not causal — but the shape is right: unpredictable, under-taught, worse at volume."
       },
       {
         "t": "h",
@@ -209,7 +209,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is the whole evidence base in one place, with the doses converted so they can be compared. Two things stand out when it is laid out like this. The first is how small it all is — six people, nine, ten, fourteen, fifteen, seventeen. The second is that the results only look contradictory until you read the fourth column: what glucose did depends almost entirely on when it was measured and whether there was food involved."
+        "text": "Here is the whole evidence base in one place, with the doses converted so they can be compared. Two things stand out when it is laid out like this. The first is how small it all is — six people, nine, ten, twelve, fourteen, fifteen, seventeen. The second is that the results only look contradictory until you read the fourth column: what glucose did depends almost entirely on when it was measured and whether there was food involved."
       },
       {
         "t": "table",
@@ -224,13 +224,13 @@ export default {
           [
             "Turner 2001 — 6 men, type 1",
             "Dry white wine at 9pm, over 90 minutes",
-            "~52 g · 6.6 units",
+            "~52.5 g · 6.7 units",
             "Nothing all evening and nothing overnight. Next morning significantly lower: post-breakfast peak 8.9 against 15 mmol/L. From 10am five of the six needed treating for hypoglycaemia, bottoming out at 1.9–2.9 mmol/L. Alcohol undetectable in blood from 8am."
           ],
           [
             "Plougmann 2003 — computer model of the study above",
             "The same 9pm dose, simulated",
-            "~52 g · 6.6 units",
+            "~52.5 g · 6.7 units",
             "A significant fall 10 to 12 hours after the drink. Modelled as suppressed glucose production, then glycogen depletion, then a rebound in insulin sensitivity as stores refill."
           ],
           [
@@ -258,9 +258,15 @@ export default {
             "Glucagon still worked: 1996 against 1981 on the main measure, with a somewhat smaller peak (83.0 against 101.7). This is what qualifies the widespread claim that glucagon fails after drinking."
           ],
           [
+            "Ranjan 2018 — 12 people, type 1",
+            "0.8 g/kg alcohol with a 6pm dinner; a mild low induced 8–9 hours later and treated with low-dose glucagon",
+            "~56 g · 7 units",
+            "Glucagon still worked but tended to work less well: glucose rise 2.0 against 2.9 mmol/L (p = 0.06), and two hours later glucose was 3.6 against 4.8. This is the timing that matters for the delayed low."
+          ],
+          [
             "Hätönen 2012 — 10 healthy people",
             "Beer at 4.5% with 25 g of carbohydrate, against alcohol-free beer",
-            "21 g · 2.6 units",
+            "21 g · 2.7 units",
             "Glucose went up, not down. A glucose drink with alcohol produced 18% more rise than the same drink without it, and beer’s measured glycaemic index came out at 119 against 80 for the alcohol-free version. Measured over two hours only."
           ],
           [
@@ -273,25 +279,25 @@ export default {
             "T1Drink 2025 — 216 people, type 1, survey",
             "Habitual drinking, self-reported",
             "Two or more per occasion",
-            "Severe hypoglycaemia around four times more likely at two or more drinks per occasion (4.20, 1.52–11.61) and at frequent heavy drinking (4.19, 1.37–12.75). Nearly half reported effects they could not predict."
+            "Odds of alcohol-related severe hypoglycaemia around four times higher at two or more drinks per occasion (odds ratio 4.20, 1.52–11.61) and with frequent heavy drinking — six or more drinks at least monthly (4.19, 1.37–12.75). Nearly half reported effects they could not predict."
           ],
           [
-            "SWAN 2024 — 2,578 women aged 42–52, no diabetes",
-            "Highest third of daily intake",
+            "SWAN 2024 — 2,578 women aged 42–52",
+            "Highest third of daily intake — which began at just 0.2 servings a day",
             "By tertile",
-            "Fasting glucose went the other way: moderate intake was linked to lower odds of a high-glucose pattern (0.23, 0.10–0.52). Observational, and the group of interest is only 111 women."
+            "Fasting glucose went the other way: moderate intake was linked to lower odds of a high-glucose pattern (0.23, 0.10–0.52). Observational, and the group of interest is only 111 women, whose fasting glucose started in the diabetes range."
           ],
           [
-            "Kwon 2022 — premenopausal women",
+            "Kwon 2022 — 4,164 premenopausal women aged 42–52, Korea",
             "Under 10, 10–19, 20–39, or 40+ g a day",
-            "1.3 to 5+ units a day",
-            "Not a glucose result, included because it is the midlife trade-off. Odds of bothersome hot flushes rose stepwise with intake: 1.42, then 1.99, then 2.06, then 3.52 against women who never drank."
+            "Under 1.3 up to 5+ units a day",
+            "Not a glucose result, included because it is the midlife trade-off. Odds of bothersome hot flushes and night sweats rose stepwise with intake: 1.42, then 1.99, then 2.06, then 3.52 against women who never drank."
           ]
         ]
       },
       {
         "t": "p",
-        "text": "The gap in that table is the one worth noticing. The delayed low is demonstrated at about 6.6 units and surveyed at two or more drinks. Between one glass and two-thirds of a bottle, nobody has looked."
+        "text": "The gap in that table is the one worth noticing. The delayed low is demonstrated at about 6.7 units and surveyed at two or more drinks. Between one glass and two-thirds of a bottle, nobody has looked."
       },
       {
         "t": "h",
@@ -303,7 +309,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "It is worse than a coincidence of appearances, because the two impair you together. A clamp study of 17 people with type 1 diabetes tested cognition at a mild low of 2.8 mmol/L, with and without a blood alcohol level below the UK driving limit. Alcohol alone slowed four-choice reaction time by 35 milliseconds; mild hypoglycaemia alone by 39; the two together by 74, with deterioration across every test in the battery rather than one. The authors’ conclusion was blunt and I will simply pass it on: people with type 1 diabetes should avoid alcohol completely if they are planning to drive."
+        "text": "It is worse than a coincidence of appearances, because the two impair you together. A clamp study of 17 people with type 1 diabetes tested cognition at a mild low of 2.8 mmol/L, with and without a blood alcohol level below the UK driving limit. Alcohol alone slowed four-choice reaction time by 35 milliseconds; mild hypoglycaemia alone by 39; the two together by 74, with deterioration across every cognitive test in the battery rather than one (only a hazard-perception test was unaffected). The authors’ conclusion was blunt and I will simply pass it on: people with type 1 diabetes should avoid alcohol completely if they are planning to drive."
       },
       {
         "t": "p",
@@ -323,7 +329,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "But the trial cited for it here tested something narrower and found the opposite of what the claim implies. Fifteen people with type 1 diabetes were given a micro-dose of glucagon under a glucose clamp, once with blood alcohol held at 0.1% and once sober. The response was effectively identical: an area over the curve for glucose infusion rate of 1996 with alcohol against 1981 without. The peak effect was somewhat smaller with alcohol — 83.0 against 101.7 ml/hour — but glucagon plainly still worked. So the accurate statement is narrower than the popular one: glucagon is less reliable in exactly the circumstances where these lows turn severe, because those are the circumstances where glycogen is low. Less reliable is not the same as useless."
+        "text": "But the trial cited for it here tested something narrower and found the opposite of what the claim implies. Fifteen people with type 1 diabetes were given a micro-dose of glucagon under a glucose clamp, once with blood alcohol held at 0.1% and once sober. The response was effectively identical: an area over the curve for glucose infusion rate of 1996 with alcohol against 1981 without. The peak effect was somewhat smaller with alcohol — 83.0 against 101.7 ml/hour — but glucagon plainly still worked. A second, Danish trial tested the situation that actually matters — glucagon given 8 to 9 hours after an evening drink, once the alcohol had gone — and found the same shape: it still raised glucose, with a trend towards a weaker response (a rise of 2.0 against 2.9 mmol/L, just short of statistical significance). So the accurate statement is narrower than the popular one: glucagon is less reliable in exactly the circumstances where these lows turn severe, because those are the circumstances where glycogen is low. Less reliable is not the same as useless."
       },
       {
         "t": "p",
@@ -384,7 +390,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The most direct evidence is SWAN, which followed 2,578 women aged 42 to 52 and modelled their fasting glucose trajectories. I will report what it found rather than what it is usually said to have found, because they differ. Moderate alcohol intake was associated with lower odds of the high-decreasing glucose trajectory, most strongly at the highest intakes (odds ratio 0.23, 95% CI 0.10–0.52); the authors’ own framing is that moderate consumption may protect. I am not going to pretend that says more than it does — it is observational, the group of interest is 111 women, and the relationship has not held up in Mendelian randomisation work. What it does establish is that fasting glucose is not where alcohol’s midlife problem shows up. If you have noticed a change, that is not the measurement that will explain it."
+        "text": "The most direct evidence is SWAN, which followed 2,578 women aged 42 to 52 and modelled their fasting glucose trajectories. I will report what it found rather than what it is usually said to have found, because they differ. Moderate alcohol intake was associated with lower odds of the high-decreasing glucose trajectory, most strongly in the top third of intake (odds ratio 0.23, 95% CI 0.10–0.52); the authors’ own framing is that moderate consumption may protect. I am not going to pretend that says more than it does — it is observational, the top third began at just 0.2 servings a day, the group of interest is 111 women whose fasting glucose started around 11 mmol/L, already in the diabetes range, and the relationship has not held up in Mendelian randomisation work. What it does establish is that fasting glucose is not where alcohol’s midlife problem shows up. If you have noticed a change, that is not the measurement that will explain it."
       },
       {
         "t": "p",
@@ -392,7 +398,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Alcohol is also a vasomotor trigger with a dose-response behind it. In a cohort of premenopausal women, the odds of bothersome hot flushes rose steadily with intake against lifetime abstainers — 1.42 (95% CI 1.02–1.99) under 10 g a day, up to 3.52 (95% CI 1.72–7.20) at 40 g or more. A large glass of wine is roughly 20 to 25 g. So the wine that helps you fall asleep is statistically implicated in the thing waking you up. Whether that trade is worth it is your business and I have no opinion about it; it is worth knowing it exists, because most people making it don’t know they are. The wider picture is in [the pillar post on perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/), and if mixers are what brought you here, [what to replace sugar with](/blog/natural-sweeteners/) covers the sweetener side — though it is the least important variable on this page."
+        "text": "Alcohol is also a vasomotor trigger with a dose-response behind it. In a cohort of premenopausal women, the odds of bothersome hot flushes and night sweats rose steadily with intake against lifetime abstainers — 1.42 (95% CI 1.02–1.99) under 10 g a day, up to 3.52 (95% CI 1.72–7.20) at 40 g or more. A large glass of wine is roughly 20 to 25 g. So the wine that helps you fall asleep is statistically implicated in the thing waking you up. Whether that trade is worth it is your business and I have no opinion about it; it is worth knowing it exists, because most people making it don’t know they are. The wider picture is in [the pillar post on perimenopause and blood sugar](/blog/perimenopause-diabetes-blood-sugar/), and if mixers are what brought you here, [what to replace sugar with](/blog/natural-sweeteners/) covers the sweetener side — though it is the least important variable on this page."
       },
       {
         "t": "h",
@@ -435,7 +441,7 @@ export default {
           },
           {
             "claim": "Alcohol is thought to suppress hepatic gluconeogenesis by up to around 45%.",
-            "detail": "A systematic review of randomised controlled trials on alcohol and glycaemic control in type 1 diabetes describes the mechanism — ethanol metabolised via alcohol dehydrogenase and aldehyde dehydrogenase, depleting hepatic NAD+ which is critical to the gluconeogenic pathway — and reports that hepatic gluconeogenesis is thought to be decreased by up to 45% following alcohol consumption. Two important caveats: the 45% figure is a secondary citation within this review to work from 1997 and 2004 and is expressed as an upper bound, not an average; and the review itself was published in 2008, so it is a well-conducted summary of an evidence base that has not moved much rather than a current one. The review also documents genuinely conflicting findings between its included trials.",
+            "detail": "A systematic review of randomised controlled trials on alcohol and glycaemic control in type 1 diabetes describes the mechanism — ethanol metabolised via alcohol dehydrogenase and aldehyde dehydrogenase, depleting hepatic NAD+ which is critical to the gluconeogenic pathway — and reports that hepatic gluconeogenesis is thought to be decreased by up to 45% following alcohol consumption. Two important caveats: the 45% figure is a secondary citation within this review to work from 1997 and 2004 and is expressed as an upper bound, not an average; and the review itself was published in 2008, so it is a well-conducted summary of an evidence base that has not moved much rather than a current one. The review also documents genuinely conflicting findings between its included trials. A later systematic review (Tetzschner, Nørgaard and Ranjan, Diabetes/Metabolism Research and Reviews, 2018) found the same split — eight of 13 studies reported a raised risk of hypoglycaemia, five did not — and no study that had tested any prevention strategy, including eating while drinking.",
             "cite": "Journal of Diabetes Nursing · Adams G, Jeyes L, Evans E, 2008;12(8):289",
             "url": "https://diabetesonthenet.com/journal-diabetes-nursing/effects-of-alcohol-on-blood-glucose-levels-in-people-with-type-1-diabetes-a-systematic-review/"
           },
@@ -465,9 +471,21 @@ export default {
           },
           {
             "claim": "Alcohol at a blood level of 0.1% did not abolish glucagon’s glucose-raising effect in type 1 diabetes.",
-            "detail": "A randomised crossover trial in 15 adults with type 1 diabetes gave a 50 microgram subcutaneous dose of glucagon under a hyperinsulinaemic normoglycaemic clamp, once with blood alcohol content held at 0.1% by intravenous infusion and once without. The posted results show an area over the curve for glucose infusion rate of 1996 (SD 1259) with ethanol against 1981 (SD 938) without — essentially identical — and a maximum change in glucose infusion rate from baseline of 83.0 (SD 35.2) with ethanol against 101.7 (SD 38.8) ml/hour without. The registered hypothesis was that alcohol would not significantly alter glucagon’s anti-hypoglycaemic effect, and that is what the results show. This directly qualifies the widely repeated claim that glucagon does not work in alcohol-related hypoglycaemia: that claim derives from the glycogen-depleted fasting scenario, where glucagon has little to mobilise, rather than from the presence of alcohol as such. Small, and a clamp study rather than a real emergency — but it is the relevant direct evidence, and it points away from treating glucagon as useless.",
+            "detail": "A randomised crossover trial in 15 adults with type 1 diabetes gave a 50 microgram subcutaneous dose of glucagon under a hyperinsulinaemic normoglycaemic clamp, once with blood alcohol content held at 0.1% by intravenous infusion and once without. The posted results show an area over the curve for glucose infusion rate of 1996 (SD 1259) with ethanol against 1981 (SD 938) without — essentially identical — and a maximum change in glucose infusion rate from baseline of 83.0 (SD 35.2) with ethanol against 101.7 (SD 38.8) ml/hour without. The registered hypothesis was that alcohol would not significantly alter glucagon’s anti-hypoglycaemic effect, and that is what the results show. This directly qualifies the widely repeated claim that glucagon does not work in alcohol-related hypoglycaemia: that claim derives from the glycogen-depleted fasting scenario, where glucagon has little to mobilise, rather than from the presence of alcohol as such. Small, and a clamp study rather than a real emergency — but together with the Danish trial below it is the direct evidence there is, and both point away from treating glucagon as useless.",
             "cite": "ClinicalTrials.gov · NCT02516150, Effect of Ethanol Intoxication on the Anti-hypoglycemic Action of Glucagon (completed, results posted)",
             "url": "https://clinicaltrials.gov/study/NCT02516150"
+          },
+          {
+            "claim": "Glucagon still worked 8–9 hours after an evening drink, though it tended to be weaker.",
+            "detail": "A randomised, placebo-controlled crossover study in 12 pump-treated adults with type 1 diabetes. At two overnight visits a 6pm dinner was served with a diet drink, with or without 0.8 g/kg of alcohol. After 8–9 hours, once the alcohol had been metabolised, an insulin bolus induced mild hypoglycaemia, and at a plasma glucose of 3.9 mmol/L or below 100 micrograms of glucagon was given, with a second dose two hours later. After alcohol, the first dose tended to produce a smaller rise (incremental peak 2.0 against 2.9 mmol/L, p = 0.06) and a lower glucose two hours later (3.6 against 4.8 mmol/L, p = 0.05); the second dose worked similarly on both visits, but glucose stayed 1.8 mmol/L lower after alcohol. The authors conclude that low-dose glucagon kept its ability to treat mild hypoglycaemia after alcohol, although the effect tended to be attenuated. Twelve people and a small glucagon dose, not the emergency pen — but it tests the delayed window this post is about.",
+            "cite": "Diabetes Care · Ranjan A, Nørgaard K, Tetzschner R, Steineck IIK, Clausen TR, Holst JJ, Madsbad S, Schmidt S, 2018;41(4):797–806",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29358493/"
+          },
+          {
+            "claim": "Alcohol blunted the growth hormone response to a low but also reduced insulin sensitivity.",
+            "detail": "Seventeen people with type 1 diabetes (14 men, aged 21–46) underwent four hyperinsulinaemic clamps — euglycaemia and hypoglycaemia at 2.8 mmol/L, each with placebo or 0.4 g/kg of alcohol, giving blood alcohol of about 45–50 mg/dl. During hypoglycaemia, peak growth hormone was significantly lower after alcohol (14.3 against 25.9 micrograms per litre, p < 0.001), and insulin sensitivity was reduced in both the hypoglycaemia and euglycaemia studies. The authors suggest the blunted growth hormone response could slow recovery from a low but appears to be offset by the reduced insulin action.",
+            "cite": "Diabetic Medicine · Kerr D, Cheyne E, Thomas P, Sherwin R, 2007;24(3):312–6",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17263767/"
           },
           {
             "claim": "Most people with type 1 diabetes do not wake up during a nocturnal low.",
@@ -476,20 +494,20 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1808097/"
           },
           {
-            "claim": "Alcohol is under-taught in diabetes education, and severe hypos are more frequent at higher intakes.",
-            "detail": "An international survey of 216 people with type 1 diabetes across 23 countries (63.4% female, 54.2% aged 16–21) found that only 53.2% felt safe consuming alcohol, 37% rated their alcohol-related knowledge as average or lower, and only 45.8% reported that safe alcohol consumption had been covered in their diabetes education. Nearly half — 48.2% — had experienced unpredictable effects of alcoholic drinks on their glucose. Alcohol-related severe hypoglycaemia was significantly more frequent in those reporting frequent excessive drinking (odds ratio 4.19, 95% CI 1.37–12.75) and in those routinely consuming two or more drinks per occasion (odds ratio 4.20, 95% CI 1.52–11.61). Self-reported, cross-sectional and skewed young, so it establishes association rather than cause — but it is the most recent picture available.",
+            "claim": "Alcohol is under-taught in diabetes education, and the odds of a severe hypo are higher at higher intakes.",
+            "detail": "An international survey of 216 people with type 1 diabetes across 23 countries (63.4% female, 54.2% aged 16–21) found that only 53.2% felt safe consuming alcohol, 37% rated their alcohol-related knowledge as average or lower, and only 45.8% reported that safe alcohol consumption had been covered in their diabetes education. Nearly half — 48.2% — had experienced unpredictable effects of alcoholic drinks on their glucose. Alcohol-related severe hypoglycaemia was significantly more frequent in those reporting frequent excessive drinking — six or more drinks at least once a month (odds ratio 4.19, 95% CI 1.37–12.75) and in those routinely consuming two or more drinks per occasion (odds ratio 4.20, 95% CI 1.52–11.61). Self-reported, cross-sectional and skewed young, so it establishes association rather than cause — but it is the most recent picture available.",
             "cite": "Hormone Research in Paediatrics · Michalak A et al., T1Drink, 2025",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41248109/"
           },
           {
-            "claim": "In midlife women without diabetes, moderate alcohol was associated with lower — not higher — fasting glucose trajectories.",
-            "detail": "An analysis of 2,578 women aged 42–52 from the Study of Women’s Health Across the Nation, each with at least three fasting glucose measurements between 1996 and 2005, used group-based trajectory modelling to identify a low-stable trajectory (n = 2,467) and a high-decreasing one (n = 111). Compared with the low-stable group, alcohol intake was inversely associated with the high-decreasing trajectory in the fully adjusted model, most strongly in the highest tertile of daily servings (odds ratio 0.23, 95% CI 0.10–0.52, p < 0.001). The authors conclude that moderate consumption may protect against high fasting glucose trajectories in a dose-response manner. Included because it is the study usually invoked for the midlife angle and its actual direction is the opposite of what that framing implies. It is observational, the trajectory group of interest is small, moderate drinkers differ systematically from non-drinkers in ways adjustment cannot fully address, and Mendelian randomisation work cited within the paper found no causal relationship between an alcohol-related gene variant and glucose concentrations.",
-            "cite": "Wang et al. · Frontiers in Public Health · SWAN analysis, 2024",
+            "claim": "In midlife women, moderate alcohol was associated with lower — not higher — fasting glucose trajectories.",
+            "detail": "An analysis of 2,578 women aged 42–52 from the Study of Women’s Health Across the Nation, each with at least three fasting glucose measurements between 1996 and 2005, used group-based trajectory modelling to identify a low-stable trajectory (n = 2,467) and a high-decreasing one (n = 111), whose mean fasting glucose started at about 204 mg/dL (around 11.3 mmol/L) — in the diabetes range. Compared with the low-stable group, alcohol intake was inversely associated with the high-decreasing trajectory in the fully adjusted model, most strongly in the highest tertile of daily servings — which began at just 0.2 servings a day (odds ratio 0.23, 95% CI 0.10–0.52, p < 0.001). The authors conclude that moderate consumption may protect against high fasting glucose trajectories in a dose-response manner. Included because it is the study usually invoked for the midlife angle and its actual direction is the opposite of what that framing implies. It is observational, the trajectory group of interest is small, moderate drinkers differ systematically from non-drinkers in ways adjustment cannot fully address, and Mendelian randomisation work cited within the paper found no causal relationship between an alcohol-related gene variant and glucose concentrations.",
+            "cite": "Wang X, Lin S, Wang X, Gao P, Chen J · Frontiers in Public Health · SWAN analysis, 2024;12:1331954",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10847307/"
           },
           {
-            "claim": "Alcohol intake shows a dose-response relationship with bothersome hot flushes.",
-            "detail": "A cohort study of premenopausal women assessed moderately-to-severely bothersome vasomotor symptoms using the Menopause-Specific Quality of Life questionnaire. Compared with lifetime abstainers, multivariable-adjusted odds ratios for prevalent symptoms were 1.42 (95% CI 1.02–1.99) at under 10 g of alcohol a day, 1.99 (1.27–3.12) at 10–19 g, 2.06 (1.19–3.57) at 20–39 g and 3.52 (1.72–7.20) at 40 g or more (p for trend < 0.01). Hazard ratios for newly developing bothersome symptoms followed the same gradient, reaching 2.22 (1.16–4.23) at 40 g or more (p for trend = 0.02). Observational, in a single national cohort, and self-reported symptom measures — but the dose-response gradient is consistent across both prevalent and incident outcomes.",
+            "claim": "Alcohol intake shows a dose-response relationship with bothersome hot flushes and night sweats.",
+            "detail": "A study of 4,164 Korean premenopausal women aged 42–52, 2,396 of whom were followed for new symptoms, assessed moderately-to-severely bothersome vasomotor symptoms (hot flushes and night sweats) using the Menopause-Specific Quality of Life questionnaire. Compared with lifetime abstainers, multivariable-adjusted odds ratios for prevalent symptoms were 1.42 (95% CI 1.02–1.99) at under 10 g of alcohol a day, 1.99 (1.27–3.12) at 10–19 g, 2.06 (1.19–3.57) at 20–39 g and 3.52 (1.72–7.20) at 40 g or more (p for trend < 0.01). Hazard ratios for newly developing bothersome symptoms were not raised at lower intakes (1.10 under 10 g, 1.03 at 10–19 g) but were at 20–39 g (1.72, 1.06–2.78) and 40 g or more (2.22, 1.16–4.23; p for trend = 0.02). Observational, in a single national cohort, and self-reported symptom measures — but both the prevalent and the incident results rise with intake, most clearly above 20 g a day.",
             "cite": "Nutrients · Kwon R, Chang Y, Kim Y et al., 2022;14(11):2276",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182895/"
           }
@@ -535,7 +553,7 @@ export default {
     "faq": [
       {
         "q": "Why does alcohol lower blood sugar the next day rather than while you are drinking?",
-        "a": "Because the effect is on glucose production, not glucose intake. Your liver keeps glucose up overnight in two ways: releasing stored glycogen, and manufacturing new glucose through gluconeogenesis. Metabolising ethanol shifts the liver’s NADH-to-NAD+ balance and suppresses gluconeogenesis — reportedly by up to around 45%, though that figure is an upper bound rather than an average. Stored glycogen is unaffected, so nothing happens at first; the problem appears when those stores run low and there is no replacement being made. In a controlled study, people with type 1 diabetes who drank dry white wine at 9pm had entirely normal glucose overnight, and then five of six needed treating for hypoglycaemia from 10am the following morning — by which point the alcohol had been undetectable in their blood for two hours."
+        "a": "Because the effect is on glucose production, not glucose intake. Your liver keeps glucose up overnight in two ways: releasing stored glycogen, and manufacturing new glucose through gluconeogenesis. Metabolising ethanol shifts the liver’s NADH-to-NAD+ balance and suppresses gluconeogenesis — reportedly by up to around 45%, though that figure is an upper bound rather than an average. Stored glycogen still works — the modelling work suggests alcohol may even drain it faster — so nothing happens at first; the problem appears when those stores run low and there is no replacement being made. In a controlled study, people with type 1 diabetes who drank dry white wine at 9pm had entirely normal glucose overnight, and then five of six needed treating for hypoglycaemia from 10am the following morning — by which point the alcohol had been undetectable in their blood for two hours."
       },
       {
         "q": "How long does the risk last after drinking?",
@@ -543,7 +561,7 @@ export default {
       },
       {
         "q": "Does glucagon work for alcohol-related hypoglycaemia?",
-        "a": "It is very widely stated that it does not, and that claim needs qualifying rather than repeating. Glucagon raises glucose mainly by prompting the liver to release stored glycogen, so where glycogen is genuinely depleted — prolonged fasting, malnutrition — it has little to mobilise and does little. That is where the teaching comes from and it is legitimate. But the trial that examined this directly in type 1 diabetes found that holding blood alcohol at 0.1% did not abolish glucagon’s effect: the glucose response was essentially the same with and without alcohol, with a somewhat smaller peak effect. So the accurate version is that glucagon is less reliable in exactly the circumstances where alcohol-related lows become severe — a long night, no food, hard exercise beforehand — rather than that it does not work. Nobody should read this as a reason to withhold glucagon in an emergency. If it is needed it should be used, and emergency help should be called as well rather than instead. How and when to use it belongs in a plan agreed with your own diabetes team."
+        "a": "It is very widely stated that it does not, and that claim needs qualifying rather than repeating. Glucagon raises glucose mainly by prompting the liver to release stored glycogen, so where glycogen is genuinely depleted — prolonged fasting, malnutrition — it has little to mobilise and does little. That is where the teaching comes from and it is legitimate. But the two trials that examined this directly in type 1 diabetes found that alcohol did not abolish glucagon’s effect: with blood alcohol held at 0.1% the glucose response was essentially the same as without, with a somewhat smaller peak, and 8–9 hours after an evening drink glucagon still worked, though it tended to be weaker. So the accurate version is that glucagon is less reliable in exactly the circumstances where alcohol-related lows become severe — a long night, no food, hard exercise beforehand — rather than that it does not work. Nobody should read this as a reason to withhold glucagon in an emergency. If it is needed it should be used, and emergency help should be called as well rather than instead. How and when to use it belongs in a plan agreed with your own diabetes team."
       },
       {
         "q": "Is a dry wine safer than a sweet drink if you have diabetes?",
@@ -555,7 +573,7 @@ export default {
       },
       {
         "q": "I don’t have diabetes — why does wine affect me differently at 46 than it did at 36?",
-        "a": "Probably not through fasting glucose. The main study on alcohol and glucose trajectories in midlife women, following 2,578 women aged 42–52, actually found moderate intake associated with lower odds of a high fasting glucose trajectory, not higher — an observational finding that is worth reporting accurately rather than reversing to fit a narrative. What is better supported is the effect on sleep and on symptoms. Alcohol fragments the second half of the night, which is the half perimenopause is already disturbing, and poor sleep worsens insulin sensitivity the next day on its own. Alcohol is also a vasomotor trigger with a dose-response behind it: compared with lifetime abstainers, the odds of bothersome hot flushes rose from 1.42 at under 10 g a day to 3.52 at 40 g or more in one cohort study. A large glass of wine is roughly 20–25 g. So the drink that helps you fall asleep is statistically implicated in the thing waking you up — which is worth knowing, whatever you decide to do with it."
+        "a": "Probably not through fasting glucose. The main study on alcohol and glucose trajectories in midlife women, following 2,578 women aged 42–52, actually found moderate intake associated with lower odds of a high fasting glucose trajectory, not higher — an observational finding that is worth reporting accurately rather than reversing to fit a narrative. What is better supported is the effect on sleep and on symptoms. Alcohol fragments the second half of the night, which is the half perimenopause is already disturbing, and poor sleep worsens insulin sensitivity the next day on its own. Alcohol is also a vasomotor trigger with a dose-response behind it: compared with lifetime abstainers, the odds of bothersome hot flushes and night sweats rose from 1.42 at under 10 g a day to 3.52 at 40 g or more in one cohort study. A large glass of wine is roughly 20–25 g. So the drink that helps you fall asleep is statistically implicated in the thing waking you up — which is worth knowing, whatever you decide to do with it."
       }
     ]
   },
@@ -632,11 +650,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Метаболізм етанолу має пріоритет майже над усім іншим, що робить печінка, і змінює її внутрішню хімію, поки триває: етанол стає ацетальдегідом, а той — ацетатом, і кожен крок споживає NAD+ і виробляє NADH. Зміщене співвідношення NADH до NAD+ позбавляє шлях глюконеогенезу того, що йому необхідне. Завод сповільнюється — приблизно до 45% за цифрою, яку найчастіше наводять у діабетичній літературі, хоча ставтеся до неї як до порядку величини, а не як до вимірювання, з причин, які поясню нижче."
+        "text": "Метаболізм етанолу має пріоритет майже над усім іншим, що робить печінка, і змінює її внутрішню хімію, поки триває: етанол стає ацетальдегідом, а той — ацетатом, і кожен крок споживає NAD+ і виробляє NADH. Зміщене співвідношення NADH до NAD+ позбавляє шлях глюконеогенезу того, що йому необхідне. Завод сповільнюється — максимум приблизно на 45% за цифрою, яку найчастіше наводять у діабетичній літературі, хоча ставтеся до неї як до порядку величини, а не як до вимірювання, з причин, які поясню нижче."
       },
       {
         "t": "p",
-        "text": "Бак при цьому не зачеплений. Саме тому спочатку нічого не відбувається. Ви п’єте, завод тихо вимикається, а бак кілька годин везе вас далі, і ніхто нічого не помічає. Проблема приходить у момент, коли бак майже порожній — а якщо ви пили ввечері, це середина ночі або наступний ранок. І позаду вже нічого немає."
+        "text": "Бак при цьому працює — а моделювальна робота, про яку йдеться нижче, припускає, що алкоголь може навіть швидше його спорожнювати, — і саме тому спочатку нічого не відбувається. Ви п’єте, завод тихо вимикається, а бак кілька годин везе вас далі, і ніхто нічого не помічає. Проблема приходить у момент, коли бак майже порожній — а якщо ви пили ввечері, це середина ночі або наступний ранок. І позаду вже нічого немає."
       },
       {
         "t": "h",
@@ -652,7 +670,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одиниці варто вміти уявляти, бо майже кожна цифра в цьому тексті виражена в них, а «напій» — величина нефіксована. Одна британська одиниця — це 8 г чистого алкоголю. Доза з дослідження є в таблиці, щоб ви бачили, де вона стоїть: між великим келихом і пляшкою, а не на початку списку."
+        "text": "Одиниці варто вміти уявляти, бо майже кожна цифра в цьому тексті виражена в них, а «напій» — величина нефіксована. Одна британська одиниця — це 10 мл чистого алкоголю, що важить близько 8 г. Доза з дослідження є в таблиці, щоб ви бачили, де вона стоїть: між великим келихом і пляшкою, а не на початку списку."
       },
       {
         "t": "table",
@@ -685,31 +703,31 @@ export default {
             "Середній келих вина",
             "175 мл, 13%",
             "17,9 г",
-            "2,2"
+            "2,3"
           ],
           [
             "Пінта лагера",
             "568 мл, 4%",
             "17,9 г",
-            "2,2"
+            "2,3"
           ],
           [
             "Великий келих вина",
             "250 мл, 13%",
             "25,6 г",
-            "3,2"
+            "3,3"
           ],
           [
             "Доза з дослідження вище",
             "0,75 г/кг, доросла людина 70 кг",
             "52,5 г",
-            "6,6"
+            "6,7"
           ],
           [
             "Пляшка вина",
             "750 мл, 13%",
             "76,9 г",
-            "9,6"
+            "9,8"
           ]
         ]
       },
@@ -747,11 +765,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Останнє виглядає як суперечність, але нею не є. Етанол у крові не знижує глюкозу напряму в людини, яку інфузією утримують на стабільному рівні; відстроченому ефекту потрібні інші умови — порожній бак, нічне голодування, інсулін, що продовжує діяти. Тобто чесне резюме — не «алкоголь знижує цукор». Воно таке: алкоголь прибирає один із ваших захистів від гіпоглікемії, а чи має це значення — залежить від того, чи знадобиться вам цей захист."
+        "text": "Результат клемп-дослідження 1993 року теж виглядає як суперечність, але нею не є. Етанол у крові не знижує глюкозу напряму в людини, яку інфузією утримують на стабільному рівні; відстроченому ефекту потрібні інші умови — порожній бак, нічне голодування, інсулін, що продовжує діяти. Тобто чесне резюме — не «алкоголь знижує цукор». Воно таке: алкоголь прибирає один із ваших захистів від гіпоглікемії, а чи має це значення — залежить від того, чи знадобиться вам цей захист."
       },
       {
         "t": "p",
-        "text": "З цифрою 45% схожа проблема: в огляді, де більшість із нею й зустрічається, це вторинне цитування робіт 1997 і 2004 років, сформульоване як «до» — стеля, а не середнє. А сам систематичний огляд датований 2008 роком, і це варто сказати прямо, зважаючи на те, як часто його називають свіжим. Найновіша картина походить радше з опитувань. Міжнародне дослідження, опубліковане у 2025 році, охопило 216 людей із діабетом 1 типу з 23 країн і виявило, що лише 53,2% почувалися безпечно, вживаючи алкоголь, лише 45,8% узагалі коли-небудь мали цю тему в межах діабетичного навчання, а 48,2% стикалися з непередбачуваним впливом на глюкозу. Тяжкі гіпоглікемії були приблизно вчетверо частішими в тих, хто регулярно випивав дві та більше порції за раз (відношення шансів 4,20, 95% ДІ 1,52–11,61). Самозвіт і поперечний зріз, тож не причинність, — але форма правильна: непередбачувано, недонавчено, гірше при обсязі."
+        "text": "З цифрою 45% схожа проблема: в огляді, де більшість із нею й зустрічається, це вторинне цитування робіт 1997 і 2004 років, сформульоване як «до» — стеля, а не середнє. А сам систематичний огляд датований 2008 роком, і це варто сказати прямо, зважаючи на те, як часто його називають свіжим. Новіший систематичний огляд 2018 року з оцінкою GRADE знайшов 13 досліджень: вісім показали підвищений ризик гіпоглікемії, п’ять — ні, і жодне не перевіряло, як її запобігти. Крім нього, найновіша картина походить радше з опитувань. Міжнародне дослідження, опубліковане у 2025 році, охопило 216 людей із діабетом 1 типу з 23 країн і виявило, що лише 53,2% почувалися безпечно, вживаючи алкоголь, лише 45,8% узагалі коли-небудь мали цю тему в межах діабетичного навчання, а 48,2% стикалися з непередбачуваним впливом на глюкозу. Шанси тяжкої гіпоглікемії, пов’язаної з алкоголем, були приблизно вчетверо вищими в тих, хто регулярно випивав дві та більше порції за раз (відношення шансів 4,20, 95% ДІ 1,52–11,61). Самозвіт і поперечний зріз, тож не причинність, — але форма правильна: непередбачувано, недонавчено, гірше при обсязі."
       },
       {
         "t": "h",
@@ -759,7 +777,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ось уся доказова база в одному місці, з дозами, переведеними в порівнянні одиниці. Коли розкласти це так, впадають у вічі дві речі. Перша — наскільки все це мале: шестеро людей, дев’ятеро, десятеро, чотирнадцятеро, п’ятнадцятеро, сімнадцятеро. Друга — результати виглядають суперечливими лише доти, доки ви не прочитаєте четверту колонку: те, що сталося з глюкозою, майже цілком залежить від того, коли її вимірювали і чи була при цьому їжа."
+        "text": "Ось уся доказова база в одному місці, з дозами, переведеними в порівнянні одиниці. Коли розкласти це так, впадають у вічі дві речі. Перша — наскільки все це мале: шестеро людей, дев’ятеро, десятеро, дванадцятеро, чотирнадцятеро, п’ятнадцятеро, сімнадцятеро. Друга — результати виглядають суперечливими лише доти, доки ви не прочитаєте четверту колонку: те, що сталося з глюкозою, майже цілком залежить від того, коли її вимірювали і чи була при цьому їжа."
       },
       {
         "t": "table",
@@ -774,13 +792,13 @@ export default {
           [
             "Turner 2001 — 6 чоловіків, діабет 1 типу",
             "Сухе біле вино о 21:00, протягом 90 хвилин",
-            "~52 г · 6,6 одиниці",
+            "~52,5 г · 6,7 одиниці",
             "Нічого весь вечір і нічого вночі. Наступного ранку значно нижче: пік після сніданку 8,9 проти 15 ммоль/л. З 10:00 п’ятьом із шести знадобилося лікування гіпоглікемії з мінімумом 1,9–2,9 ммоль/л. Алкоголь у крові не визначався вже з 8:00."
           ],
           [
             "Plougmann 2003 — комп’ютерна модель дослідження вище",
             "Та сама доза о 21:00, змодельована",
-            "~52 г · 6,6 одиниці",
+            "~52,5 г · 6,7 одиниці",
             "Значуще падіння через 10–12 годин після напою. Змодельовано як пригнічене вироблення глюкози, потім виснаження глікогену, потім зростання чутливості до інсуліну, поки запаси поповнюються."
           ],
           [
@@ -808,9 +826,15 @@ export default {
             "Глюкагон усе одно спрацював: 1996 проти 1981 за основним показником, з дещо меншим піком (83,0 проти 101,7). Саме це уточнює поширене твердження, що глюкагон не працює після алкоголю."
           ],
           [
+            "Ranjan 2018 — 12 людей, діабет 1 типу",
+            "0,8 г/кг алкоголю з вечерею о 18:00; через 8–9 годин викликали легку гіпоглікемію й лікували її низькою дозою глюкагону",
+            "~56 г · 7 одиниць",
+            "Глюкагон спрацював, але мав тенденцію діяти слабше: підйом глюкози 2,0 проти 2,9 ммоль/л (p = 0,06), а через дві години глюкоза була 3,6 проти 4,8. Саме такий час і важливий для відстроченої гіпоглікемії."
+          ],
+          [
             "Hätönen 2012 — 10 здорових людей",
             "Пиво 4,5% із 25 г вуглеводів проти безалкогольного пива",
-            "21 г · 2,6 одиниці",
+            "21 г · 2,7 одиниці",
             "Глюкоза пішла вгору, а не вниз. Глюкозний напій з алкоголем дав на 18% більше зростання, ніж той самий напій без нього, а виміряний глікемічний індекс пива склав 119 проти 80 у безалкогольного. Вимірювали лише дві години."
           ],
           [
@@ -823,25 +847,25 @@ export default {
             "T1Drink 2025 — 216 людей, діабет 1 типу, опитування",
             "Звичне вживання, за самозвітом",
             "Дві та більше порції за раз",
-            "Тяжка гіпоглікемія приблизно вчетверо ймовірніша при двох і більше порціях за раз (4,20, 1,52–11,61) і при частому надмірному вживанні (4,19, 1,37–12,75). Майже половина повідомила про непередбачувані ефекти."
+            "Шанси тяжкої гіпоглікемії, пов’язаної з алкоголем, приблизно вчетверо вищі при двох і більше порціях за раз (відношення шансів 4,20, 1,52–11,61) і при частому надмірному вживанні — шість і більше порцій щонайменше раз на місяць (4,19, 1,37–12,75). Майже половина повідомила про непередбачувані ефекти."
           ],
           [
-            "SWAN 2024 — 2 578 жінок віком 42–52, без діабету",
-            "Верхня третина денного споживання",
+            "SWAN 2024 — 2 578 жінок віком 42–52",
+            "Верхня третина денного споживання — яка починалася лише з 0,2 порції на добу",
             "За терцилями",
-            "Глюкоза натще пішла в інший бік: помірне вживання пов’язане з меншими шансами високого рівня глюкози (0,23, 0,10–0,52). Обсерваційне, і група інтересу — лише 111 жінок."
+            "Глюкоза натще пішла в інший бік: помірне вживання пов’язане з меншими шансами високого рівня глюкози (0,23, 0,10–0,52). Обсерваційне, і група інтересу — лише 111 жінок, у яких глюкоза натще від початку була в діабетичному діапазоні."
           ],
           [
-            "Kwon 2022 — жінки в пременопаузі",
+            "Kwon 2022 — 4 164 жінки в пременопаузі віком 42–52, Корея",
             "Менше 10, 10–19, 20–39 або 40+ г на добу",
-            "1,3 до 5+ одиниць на добу",
-            "Не результат щодо глюкози — включено, бо це той самий компроміс середнього віку. Шанси на дошкульні припливи зростали сходинками: 1,42, потім 1,99, потім 2,06, потім 3,52 проти жінок, які ніколи не пили."
+            "Від менш ніж 1,3 до 5+ одиниць на добу",
+            "Не результат щодо глюкози — включено, бо це той самий компроміс середнього віку. Шанси на дошкульні припливи й нічну пітливість зростали сходинками: 1,42, потім 1,99, потім 2,06, потім 3,52 проти жінок, які ніколи не пили."
           ]
         ]
       },
       {
         "t": "p",
-        "text": "Прогалина в цій таблиці — саме те, що варто помітити. Відстрочена гіпоглікемія показана приблизно на 6,6 одиниці й опитана на двох і більше порціях. А між одним келихом і двома третинами пляшки не дивився ніхто."
+        "text": "Прогалина в цій таблиці — саме те, що варто помітити. Відстрочена гіпоглікемія показана приблизно на 6,7 одиниці й опитана на двох і більше порціях. А між одним келихом і двома третинами пляшки не дивився ніхто."
       },
       {
         "t": "h",
@@ -853,7 +877,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це гірше за простий збіг вигляду, бо ці дві речі порушують ваш стан разом. Клемп-дослідження за участю 17 людей із діабетом 1 типу перевіряло когнітивні функції при м’якій гіпоглікемії 2,8 ммоль/л, з рівнем алкоголю в крові нижчим за британську норму для водіння і без нього. Сам лише алкоголь уповільнив час реакції на 35 мілісекунд, сама лише м’яка гіпоглікемія — на 39, обидва разом — на 74, причому погіршення було в усіх тестах батареї, а не в одному. Висновок авторів був різкий, і я просто передам його: людям із діабетом 1 типу слід повністю уникати алкоголю, якщо вони планують сідати за кермо."
+        "text": "Це гірше за простий збіг вигляду, бо ці дві речі порушують ваш стан разом. Клемп-дослідження за участю 17 людей із діабетом 1 типу перевіряло когнітивні функції при м’якій гіпоглікемії 2,8 ммоль/л, з рівнем алкоголю в крові нижчим за британську норму для водіння і без нього. Сам лише алкоголь уповільнив час реакції на 35 мілісекунд, сама лише м’яка гіпоглікемія — на 39, обидва разом — на 74, причому погіршення було в усіх когнітивних тестах батареї, а не в одному (не змінилося лише сприйняття дорожньої небезпеки). Висновок авторів був різкий, і я просто передам його: людям із діабетом 1 типу слід повністю уникати алкоголю, якщо вони планують сідати за кермо."
       },
       {
         "t": "p",
@@ -873,7 +897,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Але дослідження, на яке тут посилаються, перевіряло вужче питання й отримало результат, протилежний до того, що з нього роблять. П’ятнадцятьом людям із діабетом 1 типу вводили мікродозу глюкагону під час глюкозного клемпу: один раз при рівні алкоголю в крові 0,1%, другий — тверезими. Відповідь була фактично однаковою: площа над кривою швидкості інфузії глюкози 1996 з алкоголем проти 1981 без нього. Піковий ефект з алкоголем був дещо меншим — 83,0 проти 101,7 мл/год, — але глюкагон вочевидь працював. Тож точне формулювання вужче за популярне: глюкагон менш надійний саме за тих обставин, за яких ці гіпоглікемії стають тяжкими, бо це і є обставини, коли глікогену мало. Менш надійний — це не те саме, що марний."
+        "text": "Але дослідження, на яке тут посилаються, перевіряло вужче питання й отримало результат, протилежний до того, що з нього роблять. П’ятнадцятьом людям із діабетом 1 типу вводили мікродозу глюкагону під час глюкозного клемпу: один раз при рівні алкоголю в крові 0,1%, другий — тверезими. Відповідь була фактично однаковою: площа над кривою швидкості інфузії глюкози 1996 з алкоголем проти 1981 без нього. Піковий ефект з алкоголем був дещо меншим — 83,0 проти 101,7 мл/год, — але глюкагон вочевидь працював. Друге, данське дослідження перевірило саме ту ситуацію, яка має значення, — глюкагон через 8–9 годин після вечірнього алкоголю, коли той уже вивівся, — і виявило ту саму картину: він усе одно піднімав глюкозу, з тенденцією до слабшої відповіді (підйом 2,0 проти 2,9 ммоль/л, трохи не дотягнувши до статистичної значущості). Тож точне формулювання вужче за популярне: глюкагон менш надійний саме за тих обставин, за яких ці гіпоглікемії стають тяжкими, бо це і є обставини, коли глікогену мало. Менш надійний — це не те саме, що марний."
       },
       {
         "t": "p",
@@ -934,7 +958,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найпряміші дані — це SWAN, дослідження, що спостерігало 2 578 жінок віком 42–52 роки й моделювало траєкторії їхньої глюкози натще. Я передам те, що воно знайшло, а не те, що йому зазвичай приписують, бо це різні речі. Помірне вживання алкоголю було пов’язане з меншими шансами високо-спадної траєкторії глюкози, найсильніше при найбільшому споживанні (відношення шансів 0,23, 95% ДІ 0,10–0,52); власне формулювання авторів — що помірне вживання може захищати. Я не вдаватиму, що це говорить більше, ніж говорить: воно обсерваційне, цікава група — 111 жінок, а зв’язок не підтвердився в роботах з менделівської рандомізації. Що це справді встановлює — глюкоза натще не є тим місцем, де проявляється проблема алкоголю в середньому віці. Якщо ви помітили зміну, це не той показник, який її пояснить."
+        "text": "Найпряміші дані — це SWAN, дослідження, що спостерігало 2 578 жінок віком 42–52 роки й моделювало траєкторії їхньої глюкози натще. Я передам те, що воно знайшло, а не те, що йому зазвичай приписують, бо це різні речі. Помірне вживання алкоголю було пов’язане з меншими шансами високо-спадної траєкторії глюкози, найсильніше у верхній третині споживання (відношення шансів 0,23, 95% ДІ 0,10–0,52); власне формулювання авторів — що помірне вживання може захищати. Я не вдаватиму, що це говорить більше, ніж говорить: воно обсерваційне, верхня третина починалася лише з 0,2 порції на добу, цікава група — 111 жінок, у яких глюкоза натще від початку була близько 11 ммоль/л, тобто вже в діабетичному діапазоні, а зв’язок не підтвердився в роботах з менделівської рандомізації. Що це справді встановлює — глюкоза натще не є тим місцем, де проявляється проблема алкоголю в середньому віці. Якщо ви помітили зміну, це не той показник, який її пояснить."
       },
       {
         "t": "p",
@@ -942,7 +966,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Алкоголь також є вазомоторним тригером із дозозалежністю. У когорті жінок у пременопаузі шанси на дошкульні припливи зростали зі споживанням порівняно з тими, хто ніколи не пив: 1,42 (95% ДІ 1,02–1,99) при менш ніж 10 г на добу і до 3,52 (95% ДІ 1,72–7,20) при 40 г і більше. Великий келих вина — це приблизно 20–25 г. Тобто вино, яке допомагає вам заснути, статистично причетне до того, що вас будить. Чи вартий цей обмін того — ваша справа, і я не маю щодо цього думки; варто знати, що він існує, бо більшість тих, хто його робить, про це не здогадується. Ширша картина — у [базовому тексті про перименопаузу й цукор у крові](/ua/blog/perimenopause-diabetes-blood-sugar/), а якщо вас привели сюди міксери, [чим замінити цукор](/ua/blog/natural-sweeteners/) розбирає бік підсолоджувачів — хоча це найменш важлива змінна на цій сторінці."
+        "text": "Алкоголь також є вазомоторним тригером із дозозалежністю. У когорті жінок у пременопаузі шанси на дошкульні припливи й нічну пітливість зростали зі споживанням порівняно з тими, хто ніколи не пив: 1,42 (95% ДІ 1,02–1,99) при менш ніж 10 г на добу і до 3,52 (95% ДІ 1,72–7,20) при 40 г і більше. Великий келих вина — це приблизно 20–25 г. Тобто вино, яке допомагає вам заснути, статистично причетне до того, що вас будить. Чи вартий цей обмін того — ваша справа, і я не маю щодо цього думки; варто знати, що він існує, бо більшість тих, хто його робить, про це не здогадується. Ширша картина — у [базовому тексті про перименопаузу й цукор у крові](/ua/blog/perimenopause-diabetes-blood-sugar/), а якщо вас привели сюди міксери, [чим замінити цукор](/ua/blog/natural-sweeteners/) розбирає бік підсолоджувачів — хоча це найменш важлива змінна на цій сторінці."
       },
       {
         "t": "h",
@@ -984,8 +1008,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/12909186/"
           },
           {
-            "claim": "Вважається, що алкоголь пригнічує печінковий глюконеогенез приблизно до 45%.",
-            "detail": "Систематичний огляд рандомізованих контрольованих досліджень про алкоголь і глікемічний контроль при діабеті 1 типу описує механізм — етанол метаболізується через алкогольдегідрогеназу та альдегіддегідрогеназу, виснажуючи печінковий NAD+, критично важливий для шляху глюконеогенезу, — і повідомляє, що печінковий глюконеогенез, як вважають, знижується до 45% після вживання алкоголю. Два важливі застереження: цифра 45% є вторинним цитуванням у цьому огляді робіт 1997 і 2004 років і сформульована як верхня межа, а не середнє значення; сам огляд опубліковано у 2008 році, тож це якісне узагальнення доказової бази, яка відтоді мало змінилася, а не сучасний огляд. Огляд також документує справді суперечливі результати між включеними дослідженнями.",
+            "claim": "Вважається, що алкоголь пригнічує печінковий глюконеогенез максимум приблизно на 45%.",
+            "detail": "Систематичний огляд рандомізованих контрольованих досліджень про алкоголь і глікемічний контроль при діабеті 1 типу описує механізм — етанол метаболізується через алкогольдегідрогеназу та альдегіддегідрогеназу, виснажуючи печінковий NAD+, критично важливий для шляху глюконеогенезу, — і повідомляє, що печінковий глюконеогенез, як вважають, знижується максимум на 45% після вживання алкоголю. Два важливі застереження: цифра 45% є вторинним цитуванням у цьому огляді робіт 1997 і 2004 років і сформульована як верхня межа, а не середнє значення; сам огляд опубліковано у 2008 році, тож це якісне узагальнення доказової бази, яка відтоді мало змінилася, а не сучасний огляд. Огляд також документує справді суперечливі результати між включеними дослідженнями. Пізніший систематичний огляд (Tetzschner, Nørgaard і Ranjan, Diabetes/Metabolism Research and Reviews, 2018) показав той самий розкол — вісім із 13 досліджень повідомили про підвищений ризик гіпоглікемії, п’ять — ні, — і жодного дослідження, яке перевіряло б будь-яку стратегію профілактики, зокрема їжу під час вживання алкоголю.",
             "cite": "Journal of Diabetes Nursing · Adams G, Jeyes L, Evans E, 2008;12(8):289",
             "url": "https://diabetesonthenet.com/journal-diabetes-nursing/effects-of-alcohol-on-blood-glucose-levels-in-people-with-type-1-diabetes-a-systematic-review/"
           },
@@ -1015,9 +1039,21 @@ export default {
           },
           {
             "claim": "Алкоголь на рівні 0,1% у крові не скасував здатності глюкагону піднімати глюкозу при діабеті 1 типу.",
-            "detail": "Рандомізоване перехресне дослідження за участю 15 дорослих із діабетом 1 типу вводило підшкірну мікродозу глюкагону 50 мкг під час гіперінсулінемічного нормоглікемічного клемпу — один раз із рівнем алкоголю в крові 0,1%, утримуваним внутрішньовенною інфузією, і один раз без нього. Опубліковані результати показують площу над кривою швидкості інфузії глюкози 1996 (SD 1259) з етанолом проти 1981 (SD 938) без нього — фактично однаково — і максимальну зміну швидкості інфузії глюкози від початкового рівня 83,0 (SD 35,2) з етанолом проти 101,7 (SD 38,8) мл/год без нього. Зареєстрована гіпотеза полягала в тому, що алкоголь суттєво не змінить антигіпоглікемічної дії глюкагону, і саме це показали результати. Це прямо уточнює широко повторюване твердження, що глюкагон не працює при пов’язаній з алкоголем гіпоглікемії: воно походить зі сценарію виснаженого глікогену під час голодування, де глюкагону мало що мобілізувати, а не з наявності алкоголю як такого. Дослідження мале й клемпове, а не в реальній екстреній ситуації, — але це релевантний прямий доказ, і він вказує проти того, щоб вважати глюкагон марним.",
+            "detail": "Рандомізоване перехресне дослідження за участю 15 дорослих із діабетом 1 типу вводило підшкірну мікродозу глюкагону 50 мкг під час гіперінсулінемічного нормоглікемічного клемпу — один раз із рівнем алкоголю в крові 0,1%, утримуваним внутрішньовенною інфузією, і один раз без нього. Опубліковані результати показують площу над кривою швидкості інфузії глюкози 1996 (SD 1259) з етанолом проти 1981 (SD 938) без нього — фактично однаково — і максимальну зміну швидкості інфузії глюкози від початкового рівня 83,0 (SD 35,2) з етанолом проти 101,7 (SD 38,8) мл/год без нього. Зареєстрована гіпотеза полягала в тому, що алкоголь суттєво не змінить антигіпоглікемічної дії глюкагону, і саме це показали результати. Це прямо уточнює широко повторюване твердження, що глюкагон не працює при пов’язаній з алкоголем гіпоглікемії: воно походить зі сценарію виснаженого глікогену під час голодування, де глюкагону мало що мобілізувати, а не з наявності алкоголю як такого. Дослідження мале й клемпове, а не в реальній екстреній ситуації, — але разом із данським дослідженням нижче це і є ті прямі докази, які існують, і обидва вказують проти того, щоб вважати глюкагон марним.",
             "cite": "ClinicalTrials.gov · NCT02516150, Effect of Ethanol Intoxication on the Anti-hypoglycemic Action of Glucagon (завершено, результати опубліковано)",
             "url": "https://clinicaltrials.gov/study/NCT02516150"
+          },
+          {
+            "claim": "Глюкагон усе одно спрацював через 8–9 годин після вечірнього алкоголю, хоча мав тенденцію діяти слабше.",
+            "detail": "Рандомізоване плацебо-контрольоване перехресне дослідження за участю 12 дорослих із діабетом 1 типу на інсулінових помпах. Під час двох нічних візитів о 18:00 подавали вечерю з дієтичним напоєм — з 0,8 г/кг алкоголю або без нього. Через 8–9 годин, коли алкоголь уже метаболізувався, болюсом інсуліну викликали легку гіпоглікемію, і при глюкозі плазми 3,9 ммоль/л або нижче вводили 100 мкг глюкагону, а через дві години — другу дозу. Після алкоголю перша доза мала тенденцію давати менший підйом (приріст на піку 2,0 проти 2,9 ммоль/л, p = 0,06) і нижчу глюкозу через дві години (3,6 проти 4,8 ммоль/л, p = 0,05); друга доза діяла однаково на обох візитах, але глюкоза лишалася на 1,8 ммоль/л нижчою після алкоголю. Автори роблять висновок, що низька доза глюкагону зберегла здатність лікувати легку гіпоглікемію після алкоголю, хоча ефект мав тенденцію бути послабленим. Дванадцятеро людей і мала доза глюкагону, а не екстрена ручка, — але це перевірка саме того відстроченого вікна, про яке цей текст.",
+            "cite": "Diabetes Care · Ranjan A, Nørgaard K, Tetzschner R, Steineck IIK, Clausen TR, Holst JJ, Madsbad S, Schmidt S, 2018;41(4):797–806",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29358493/"
+          },
+          {
+            "claim": "Алкоголь притупив реакцію гормону росту на гіпоглікемію, але й знизив чутливість до інсуліну.",
+            "detail": "Сімнадцятеро людей із діабетом 1 типу (14 чоловіків, 21–46 років) пройшли чотири гіперінсулінемічні клемпи — еуглікемію та гіпоглікемію 2,8 ммоль/л, кожну з плацебо або з 0,4 г/кг алкоголю, що давало рівень алкоголю в крові близько 45–50 мг/дл. Під час гіпоглікемії піковий рівень гормону росту був значно нижчим після алкоголю (14,3 проти 25,9 мкг/л, p < 0,001), а чутливість до інсуліну знижувалася і в гіпоглікемічних, і в еуглікемічних дослідженнях. Автори припускають, що притуплена реакція гормону росту могла б сповільнити відновлення після гіпоглікемії, але, схоже, її врівноважує знижена дія інсуліну.",
+            "cite": "Diabetic Medicine · Kerr D, Cheyne E, Thomas P, Sherwin R, 2007;24(3):312–6",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17263767/"
           },
           {
             "claim": "Більшість людей із діабетом 1 типу не прокидаються під час нічної гіпоглікемії.",
@@ -1026,20 +1062,20 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1808097/"
           },
           {
-            "claim": "Тему алкоголю недостатньо висвітлюють у діабетичному навчанні, а тяжкі гіпоглікемії частішають при більших обсягах.",
-            "detail": "Міжнародне опитування 216 людей із діабетом 1 типу з 23 країн (63,4% жінки, 54,2% віком 16–21 рік) виявило, що лише 53,2% почувалися безпечно, вживаючи алкоголь, 37% оцінили свої знання про алкоголь як середні або нижчі, і лише 45,8% повідомили, що тема безпечного вживання алкоголю розглядалася в межах їхнього діабетичного навчання. Майже половина — 48,2% — стикалася з непередбачуваним впливом алкогольних напоїв на глюкозу. Пов’язана з алкоголем тяжка гіпоглікемія була значно частішою в тих, хто повідомляв про часте надмірне вживання (відношення шансів 4,19, 95% ДІ 1,37–12,75), і в тих, хто регулярно вживав дві та більше порції за раз (відношення шансів 4,20, 95% ДІ 1,52–11,61). Самозвіт, поперечний зріз і зміщення у бік молодшого віку, тож встановлює зв’язок, а не причину, — але це найновіша доступна картина.",
+            "claim": "Тему алкоголю недостатньо висвітлюють у діабетичному навчанні, а шанси тяжкої гіпоглікемії вищі при більших обсягах.",
+            "detail": "Міжнародне опитування 216 людей із діабетом 1 типу з 23 країн (63,4% жінки, 54,2% віком 16–21 рік) виявило, що лише 53,2% почувалися безпечно, вживаючи алкоголь, 37% оцінили свої знання про алкоголь як середні або нижчі, і лише 45,8% повідомили, що тема безпечного вживання алкоголю розглядалася в межах їхнього діабетичного навчання. Майже половина — 48,2% — стикалася з непередбачуваним впливом алкогольних напоїв на глюкозу. Пов’язана з алкоголем тяжка гіпоглікемія була значно частішою в тих, хто повідомляв про часте надмірне вживання — шість і більше порцій щонайменше раз на місяць (відношення шансів 4,19, 95% ДІ 1,37–12,75), і в тих, хто регулярно вживав дві та більше порції за раз (відношення шансів 4,20, 95% ДІ 1,52–11,61). Самозвіт, поперечний зріз і зміщення у бік молодшого віку, тож встановлює зв’язок, а не причину, — але це найновіша доступна картина.",
             "cite": "Hormone Research in Paediatrics · Michalak A et al., T1Drink, 2025",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41248109/"
           },
           {
-            "claim": "У жінок середнього віку без діабету помірний алкоголь був пов’язаний з нижчими, а не вищими траєкторіями глюкози натще.",
-            "detail": "Аналіз 2 578 жінок віком 42–52 роки зі Study of Women’s Health Across the Nation, кожна щонайменше з трьома вимірюваннями глюкози натще між 1996 і 2005 роками, використав групове моделювання траєкторій і виділив низько-стабільну траєкторію (n = 2 467) та високо-спадну (n = 111). Порівняно з низько-стабільною групою, споживання алкоголю було обернено пов’язане з високо-спадною траєкторією в повністю скоригованій моделі, найсильніше у верхньому терцилі денних порцій (відношення шансів 0,23, 95% ДІ 0,10–0,52, p < 0,001). Автори роблять висновок, що помірне вживання може захищати від високих траєкторій глюкози натще дозозалежним чином. Включено тому, що саме на це дослідження зазвичай посилаються щодо середнього віку, а його справжній напрямок протилежний до того, що з цього роблять. Воно обсерваційне, цікава траєкторна група мала, помірні питці системно відрізняються від непитущих способами, які поправки повністю не усувають, а робота з менделівської рандомізації, цитована в самій статті, не знайшла причинного зв’язку між пов’язаним з алкоголем варіантом гена та концентрацією глюкози.",
-            "cite": "Wang et al. · Frontiers in Public Health · аналіз SWAN, 2024",
+            "claim": "У жінок середнього віку помірний алкоголь був пов’язаний з нижчими, а не вищими траєкторіями глюкози натще.",
+            "detail": "Аналіз 2 578 жінок віком 42–52 роки зі Study of Women’s Health Across the Nation, кожна щонайменше з трьома вимірюваннями глюкози натще між 1996 і 2005 роками, використав групове моделювання траєкторій і виділив низько-стабільну траєкторію (n = 2 467) та високо-спадну (n = 111), у якій середня глюкоза натще на старті становила близько 204 мг/дл (приблизно 11,3 ммоль/л), тобто в діабетичному діапазоні. Порівняно з низько-стабільною групою, споживання алкоголю було обернено пов’язане з високо-спадною траєкторією в повністю скоригованій моделі, найсильніше у верхньому терцилі денних порцій — який починався лише з 0,2 порції на добу (відношення шансів 0,23, 95% ДІ 0,10–0,52, p < 0,001). Автори роблять висновок, що помірне вживання може захищати від високих траєкторій глюкози натще дозозалежним чином. Включено тому, що саме на це дослідження зазвичай посилаються щодо середнього віку, а його справжній напрямок протилежний до того, що з цього роблять. Воно обсерваційне, цікава траєкторна група мала, помірні питці системно відрізняються від непитущих способами, які поправки повністю не усувають, а робота з менделівської рандомізації, цитована в самій статті, не знайшла причинного зв’язку між пов’язаним з алкоголем варіантом гена та концентрацією глюкози.",
+            "cite": "Wang X, Lin S, Wang X, Gao P, Chen J · Frontiers in Public Health · аналіз SWAN, 2024;12:1331954",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10847307/"
           },
           {
-            "claim": "Споживання алкоголю має дозозалежний зв’язок із дошкульними припливами.",
-            "detail": "Когортне дослідження жінок у пременопаузі оцінювало помірно та сильно дошкульні вазомоторні симптоми за опитувальником Menopause-Specific Quality of Life. Порівняно з тими, хто ніколи не вживав алкоголю, скориговані за багатьма факторами відношення шансів для наявних симптомів становили 1,42 (95% ДІ 1,02–1,99) при менш ніж 10 г алкоголю на добу, 1,99 (1,27–3,12) при 10–19 г, 2,06 (1,19–3,57) при 20–39 г і 3,52 (1,72–7,20) при 40 г і більше (p для тренду < 0,01). Відношення ризиків для нововиниклих дошкульних симптомів мали той самий градієнт, досягаючи 2,22 (1,16–4,23) при 40 г і більше (p для тренду = 0,02). Обсерваційне, в одній національній когорті, із самозвітними вимірюваннями симптомів — але градієнт дозозалежності узгоджений і для наявних, і для нововиниклих результатів.",
+            "claim": "Споживання алкоголю має дозозалежний зв’язок із дошкульними припливами й нічною пітливістю.",
+            "detail": "Дослідження 4 164 кореянок у пременопаузі віком 42–52 роки, з яких 2 396 спостерігали щодо нових симптомів, оцінювало помірно та сильно дошкульні вазомоторні симптоми (припливи й нічну пітливість) за опитувальником Menopause-Specific Quality of Life. Порівняно з тими, хто ніколи не вживав алкоголю, скориговані за багатьма факторами відношення шансів для наявних симптомів становили 1,42 (95% ДІ 1,02–1,99) при менш ніж 10 г алкоголю на добу, 1,99 (1,27–3,12) при 10–19 г, 2,06 (1,19–3,57) при 20–39 г і 3,52 (1,72–7,20) при 40 г і більше (p для тренду < 0,01). Відношення ризиків для нововиниклих дошкульних симптомів не були підвищені при меншому споживанні (1,10 при менш ніж 10 г, 1,03 при 10–19 г), але були при 20–39 г (1,72, 1,06–2,78) і при 40 г і більше (2,22, 1,16–4,23; p для тренду = 0,02). Обсерваційне, в одній національній когорті, із самозвітними вимірюваннями симптомів — але і наявні, і нововиниклі результати зростають зі споживанням, найчіткіше понад 20 г на добу.",
             "cite": "Nutrients · Kwon R, Chang Y, Kim Y та ін., 2022;14(11):2276",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182895/"
           }
@@ -1085,7 +1121,7 @@ export default {
     "faq": [
       {
         "q": "Чому алкоголь знижує цукор наступного дня, а не поки ви п’єте?",
-        "a": "Бо ефект спрямований на вироблення глюкози, а не на її надходження. Уночі печінка тримає глюкозу двома способами: вивільняє запасений глікоген і виробляє нову глюкозу через глюконеогенез. Метаболізм етанолу зміщує співвідношення NADH до NAD+ у печінці й пригнічує глюконеогенез — за повідомленнями, приблизно до 45%, хоча ця цифра є верхньою межею, а не середнім значенням. Запасений глікоген при цьому не зачеплений, тож спочатку нічого не відбувається; проблема з’являється, коли ці запаси вичерпуються, а заміни не виробляється. У контрольованому дослідженні люди з діабетом 1 типу, які випили сухе біле вино о 21:00, мали цілком нормальну глюкозу вночі, а потім п’ятьом із шести знадобилося лікування гіпоглікемії з 10:00 наступного ранку — коли алкоголь у крові вже дві години як не визначався."
+        "a": "Бо ефект спрямований на вироблення глюкози, а не на її надходження. Уночі печінка тримає глюкозу двома способами: вивільняє запасений глікоген і виробляє нову глюкозу через глюконеогенез. Метаболізм етанолу зміщує співвідношення NADH до NAD+ у печінці й пригнічує глюконеогенез — за повідомленнями, максимум приблизно на 45%, хоча ця цифра є верхньою межею, а не середнім значенням. Запасений глікоген при цьому й далі працює (моделювання навіть припускає, що алкоголь може витрачати його швидше), тож спочатку нічого не відбувається; проблема з’являється, коли ці запаси вичерпуються, а заміни не виробляється. У контрольованому дослідженні люди з діабетом 1 типу, які випили сухе біле вино о 21:00, мали цілком нормальну глюкозу вночі, а потім п’ятьом із шести знадобилося лікування гіпоглікемії з 10:00 наступного ранку — коли алкоголь у крові вже дві години як не визначався."
       },
       {
         "q": "Скільки триває ризик після вживання алкоголю?",
@@ -1093,7 +1129,7 @@ export default {
       },
       {
         "q": "Чи працює глюкагон при гіпоглікемії, пов’язаній з алкоголем?",
-        "a": "Дуже широко стверджують, що ні, — і це твердження радше потребує уточнення, ніж повторення. Глюкагон піднімає глюкозу переважно тим, що спонукає печінку вивільнити запасений глікоген, тож там, де глікоген справді виснажений (тривале голодування, виснаження), йому мало що мобілізувати, і робить він мало. Звідси й походить це вчення, і воно легітимне. Але дослідження, яке перевіряло це напряму при діабеті 1 типу, виявило, що утримання рівня алкоголю в крові на 0,1% не скасовує дії глюкагону: глюкозна відповідь була фактично однаковою з алкоголем і без нього, з дещо меншим піковим ефектом. Тож точна версія така: глюкагон менш надійний саме за тих обставин, за яких пов’язані з алкоголем гіпоглікемії стають тяжкими — довга ніч, без їжі, важке тренування перед тим, — а не те, що він не працює. Ніхто не повинен прочитати це як привід не застосувати глюкагон в екстреній ситуації. Якщо він потрібен — його треба застосувати, і водночас викликати екстрену допомогу, а не замість. Коли і як його застосовувати — питання плану, узгодженого з вашою діабетичною командою."
+        "a": "Дуже широко стверджують, що ні, — і це твердження радше потребує уточнення, ніж повторення. Глюкагон піднімає глюкозу переважно тим, що спонукає печінку вивільнити запасений глікоген, тож там, де глікоген справді виснажений (тривале голодування, виснаження), йому мало що мобілізувати, і робить він мало. Звідси й походить це вчення, і воно легітимне. Але два дослідження, які перевіряли це напряму при діабеті 1 типу, виявили, що алкоголь не скасовує дії глюкагону: при рівні алкоголю в крові 0,1% глюкозна відповідь була фактично такою самою, як без нього, з дещо меншим піком, а через 8–9 годин після вечірнього алкоголю глюкагон усе одно працював, хоча мав тенденцію діяти слабше. Тож точна версія така: глюкагон менш надійний саме за тих обставин, за яких пов’язані з алкоголем гіпоглікемії стають тяжкими — довга ніч, без їжі, важке тренування перед тим, — а не те, що він не працює. Ніхто не повинен прочитати це як привід не застосувати глюкагон в екстреній ситуації. Якщо він потрібен — його треба застосувати, і водночас викликати екстрену допомогу, а не замість. Коли і як його застосовувати — питання плану, узгодженого з вашою діабетичною командою."
       },
       {
         "q": "Чи безпечніше сухе вино за солодкий напій, якщо у вас діабет?",
@@ -1105,7 +1141,7 @@ export default {
       },
       {
         "q": "У мене немає діабету — чому вино діє на мене інакше в 46, ніж у 36?",
-        "a": "Найімовірніше, не через глюкозу натще. Основне дослідження про алкоголь і траєкторії глюкози в жінок середнього віку, що спостерігало 2 578 жінок віком 42–52 роки, насправді виявило зв’язок помірного вживання з меншими, а не більшими шансами високої траєкторії глюкози натще — обсерваційний результат, який варто передати точно, а не перевертати під зручну розповідь. Краще підтверджений вплив — на сон і на симптоми. Алкоголь розриває другу половину ночі, тобто ту саму половину, яку вже порушує перименопауза, а поганий сон сам собою погіршує чутливість до інсуліну наступного дня. Алкоголь також є вазомоторним тригером із дозозалежністю: порівняно з тими, хто ніколи не пив, шанси на дошкульні припливи зростали від 1,42 при менш ніж 10 г на добу до 3,52 при 40 г і більше в одному когортному дослідженні. Великий келих вина — це приблизно 20–25 г. Тобто напій, який допомагає вам заснути, статистично причетний до того, що вас будить, — і це варто знати, хай що ви з цим вирішите робити."
+        "a": "Найімовірніше, не через глюкозу натще. Основне дослідження про алкоголь і траєкторії глюкози в жінок середнього віку, що спостерігало 2 578 жінок віком 42–52 роки, насправді виявило зв’язок помірного вживання з меншими, а не більшими шансами високої траєкторії глюкози натще — обсерваційний результат, який варто передати точно, а не перевертати під зручну розповідь. Краще підтверджений вплив — на сон і на симптоми. Алкоголь розриває другу половину ночі, тобто ту саму половину, яку вже порушує перименопауза, а поганий сон сам собою погіршує чутливість до інсуліну наступного дня. Алкоголь також є вазомоторним тригером із дозозалежністю: порівняно з тими, хто ніколи не пив, шанси на дошкульні припливи й нічну пітливість зростали від 1,42 при менш ніж 10 г на добу до 3,52 при 40 г і більше в одному когортному дослідженні. Великий келих вина — це приблизно 20–25 г. Тобто напій, який допомагає вам заснути, статистично причетний до того, що вас будить, — і це варто знати, хай що ви з цим вирішите робити."
       }
     ]
   }
