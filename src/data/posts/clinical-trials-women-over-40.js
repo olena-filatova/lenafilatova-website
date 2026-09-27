@@ -42,7 +42,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is where UK academic recruitment is busiest right now, and most of it is nutrition, exercise and gut-microbiome work rather than hormones. Worth noting: two of these will not take you if you are on HRT, which is a real and slightly frustrating pattern — studies of alternatives tend to exclude women already using the main treatment. If you want the background on why symptoms and blood sugar move together at this stage, that is [perimenopause and diabetes](/blog/perimenopause-diabetes-blood-sugar/)."
+        "text": "This is where UK academic recruitment is busiest right now, and most of it is nutrition, exercise and gut-microbiome work rather than hormones. Worth noting: three of these will not take you if you are on HRT, which is a real and slightly frustrating pattern — studies of alternatives tend to exclude women already using the main treatment. If you want the background on why symptoms and blood sugar move together at this stage, that is [perimenopause and diabetes](/blog/perimenopause-diabetes-blood-sugar/)."
       },
       {
         "t": "links",
@@ -51,7 +51,7 @@ export default {
           {
             "name": "Weight training and a plant-based supplement for perimenopausal symptoms — Leeds",
             "url": "https://clinicaltrials.gov/study/NCT07135232",
-            "desc": "Six months of resistance training, a sarmentosin and L-theanine supplement, or both, measuring symptoms, mood, sleep, strength and muscle. Women 40–55 in perimenopause who have not used HRT or hormonal contraception for at least a year and are not already training regularly. Leeds Beckett University, 72 places, running to spring 2027."
+            "desc": "Twelve weeks of home-based resistance training, a sarmentosin and L-theanine supplement, or both, against a placebo, measuring symptoms, mood, sleep, strength and muscle. Women 40–55 in perimenopause who have not used HRT or hormonal contraception for at least a year and are not already training regularly. Leeds Beckett University, 72 places, running to spring 2027."
           },
           {
             "name": "A probiotic for perimenopausal mood and concentration — Oxford",
@@ -71,7 +71,7 @@ export default {
           {
             "name": "A functional snack for perimenopausal mood and sleep — London",
             "url": "https://clinicaltrials.gov/study/NCT07599930",
-            "desc": "A small proof-of-concept study of a food product on perimenopausal symptoms, mood, sleep, quality of life and the gut microbiome. Women 40–55. King’s College London, 20 places, finishing December 2026."
+            "desc": "A small proof-of-concept study of a food product on perimenopausal symptoms, mood, sleep, quality of life and the gut microbiome. Women 40–55 who are not on HRT. King’s College London, 20 places, finishing December 2026."
           }
         ]
       },
@@ -95,7 +95,7 @@ export default {
           {
             "name": "Keeping muscle while losing weight on tirzepatide — Exeter",
             "url": "https://clinicaltrials.gov/study/NCT07457437",
-            "desc": "Everyone in this one is prescribed tirzepatide; half also get a supervised progressive weight-training programme, to test whether it protects muscle and physical function during the weight loss. Women 25–50 with a BMI of 30–35, or 27 and above with a weight-related condition, and without diabetes. University of Exeter, 60 places, running to the end of 2027."
+            "desc": "Everyone in this one is prescribed tirzepatide; half also get a supervised progressive weight-training programme, to test whether it protects muscle and physical function during the weight loss. Women 25–50 with a BMI of 30–35, or 27 and above with a weight-related condition, without diabetes and not currently on HRT. University of Exeter, 60 places, running to the end of 2027."
           }
         ]
       },
@@ -141,9 +141,9 @@ export default {
             "desc": "Whether strictly avoiding low blood sugar restores the ability to feel it coming, in people who have lost that early warning. Adults 18–75 with type 1 diabetes for 10 years or more, impaired awareness of hypoglycaemia and HbA1c under 10.5%. Leicester and Sheffield in the UK, plus sites in the US and Australia. 324 places, running to 2029."
           },
           {
-            "name": "Sotagliflozin for type 1 diabetes with heart failure — 13 UK sites",
+            "name": "Sotagliflozin for type 1 diabetes with heart failure — 13 UK cities",
             "url": "https://clinicaltrials.gov/study/NCT06435156",
-            "desc": "A phase 2 trial of a tablet added to insulin for people with type 1 diabetes who have heart failure or a high risk of it, looking primarily at quality of life. Ages 18 to under 85, insulin of at least 0.5 units per kg or a BMI of 25 and above, using or willing to use a CGM. Thirteen sites from Aberdeen to Llanelli, led from Dundee. 320 places."
+            "desc": "A phase 2 trial of a tablet added to insulin for people with type 1 diabetes who have heart failure or a high risk of it, looking primarily at quality of life. Ages 18 to under 85, insulin of at least 0.5 units per kg or a BMI of 25 and above, using or willing to use a CGM. Sixteen hospitals in 13 cities from Aberdeen to Llanelli, led from Dundee. 320 places."
           }
         ]
       },
@@ -172,7 +172,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The least glamorous entry on this page and possibly the most important. Heart disease kills more women than anything else, the protection women have before menopause disappears after it, and nobody can fully explain why. This one asks almost nothing of you beyond consent."
+        "text": "The least glamorous entry on this page and possibly the most important. Heart disease kills more women worldwide than anything else, the protection women have before menopause disappears after it, and nobody can fully explain why. This one asks almost nothing of you beyond consent."
       },
       {
         "t": "links",
@@ -191,7 +191,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ukrainian sites are in far fewer trials than UK ones, and the ones that exist are mostly large international drug studies plus a couple of local monitoring projects in Kyiv. All four below are recruiting now, and the first two run in the UK as well — the same protocol, the same drug, two countries."
+        "text": "Ukrainian sites are in far fewer trials than UK ones, and the ones that exist are mostly large international drug studies plus a couple of local monitoring projects in Kyiv. All four below are open, and the first two run in the UK as well — the same protocol, the same drug, two countries. One caveat: when I rechecked in late September 2026, the elecoglipron trials still listed their Ukrainian sites, and most of their UK ones, as ‘not yet recruiting’, so check the registry page for when your nearest site opens."
       },
       {
         "t": "links",
@@ -200,7 +200,7 @@ export default {
           {
             "name": "Elecoglipron with dapagliflozin for type 2 diabetes — Kyiv, Lviv, Vinnytsia, Uzhhorod",
             "url": "https://clinicaltrials.gov/study/NCT07662109",
-            "desc": "A phase 3 trial of a new oral glucose-lowering drug, alone or combined with dapagliflozin. Type 2 diabetes diagnosed at least 90 days ago, HbA1c 7–10.5%, BMI 23 or above, stable weight. Recruiting in 24 countries — four Ukrainian cities and ten UK sites including Dundee, Blackburn and Rotherham. 2,000 places, running to mid-2028."
+            "desc": "A phase 3 trial of a new oral glucose-lowering drug, alone or combined with dapagliflozin. Type 2 diabetes diagnosed at least 90 days ago, HbA1c 7–10.5%, BMI 23 or above, stable weight. Sites in more than 20 countries — four Ukrainian cities and ten UK sites including Dundee, Blackburn and Rotherham. 2,000 places, running to mid-2028."
           },
           {
             "name": "The same drug where kidney function is reduced — Kyiv, Lviv, Vinnytsia",
@@ -234,7 +234,7 @@ export default {
           {
             "name": "Our Future Health — the UK’s largest health research programme",
             "url": "https://ourfuturehealth.org.uk/get-involved/taking-part/",
-            "desc": "Any adult over 18 living in the UK can join. An online health questionnaire, then a short appointment at a pharmacy or a mobile clinic for a blood sample and a few measurements. More than a million volunteers have signed up, and from 2026 they are being invited into further research. If you want to be findable when a study needs someone like you, this is the least effort for the most reach."
+            "desc": "Any adult over 18 living in the UK can join. An online health questionnaire, then a short appointment at a pharmacy or a mobile clinic for a blood sample and a few measurements. More than two million volunteers have signed up, and from 2026 they are being invited into further research. If you want to be findable when a study needs someone like you, this is the least effort for the most reach."
           },
           {
             "name": "UK Islet Autoantibody Registry — Oxford",
@@ -313,7 +313,7 @@ export default {
           },
           {
             "claim": "Our Future Health is open to any UK adult and has passed a million volunteers.",
-            "detail": "Our Future Health recruits UK adults aged 18 and over through an online questionnaire followed by a clinic appointment for a blood sample and physical measurements, with a stated ambition of up to five million volunteers. It announced its millionth volunteer in 2025 and began inviting participants into further research from 2026, which is what makes it useful here: joining is one appointment, and it puts you in the pool studies recruit from.",
+            "detail": "Our Future Health recruits UK adults aged 18 and over through an online questionnaire followed by a clinic appointment for a blood sample and physical measurements, with a stated ambition of up to five million volunteers. It announced its millionth volunteer in November 2023, had more than two million by 2025, and began inviting participants into further research from 2026, which is what makes it useful here: joining is one appointment, and it puts you in the pool studies recruit from.",
             "cite": "Our Future Health · one million volunteers announcement",
             "url": "https://ourfuturehealth.org.uk/news/1-million-volunteers-join-uks-largest-health-research-programme/"
           }
@@ -367,7 +367,7 @@ export default {
       },
       {
         "q": "Can I take part if I live in Ukraine, or outside the UK?",
-        "a": "Only in studies with a site you can actually get to. Trials are run at named hospitals and clinics, and travel to another country is not funded, so a UK-only study is realistically out of reach from Kyiv. The exception is the large international drug trials — the two elecoglipron studies in this list recruit at Ukrainian and British sites simultaneously. If you are in Ukraine, search ClinicalTrials.gov with Ukraine as the location filter; there are fewer studies, but they are mostly the big multinational ones."
+        "a": "Only in studies with a site you can actually get to. Trials are run at named hospitals and clinics, and travel to another country is not funded, so a UK-only study is realistically out of reach from Kyiv. The exception is the large international drug trials — the two elecoglipron studies in this list have sites in both Ukraine and Britain. If you are in Ukraine, search ClinicalTrials.gov with Ukraine as the location filter; there are fewer studies, but they are mostly the big multinational ones."
       },
       {
         "q": "I’m on HRT. Does that rule me out?",
@@ -419,7 +419,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме тут британські університети набирають найактивніше — і йдеться переважно про харчування, тренування та мікробіом, а не про гормони. Важлива деталь: двоє з цих досліджень не візьмуть вас, якщо ви на МГТ. Це справді трохи парадоксальна закономірність: дослідження альтернатив часто виключають жінок, які вже застосовують основне лікування. Якщо потрібне тло, чому симптоми і цукор у крові рухаються разом на цьому етапі, — це [перименопауза і діабет](/ua/blog/perimenopause-diabetes-blood-sugar/)."
+        "text": "Саме тут британські університети набирають найактивніше — і йдеться переважно про харчування, тренування та мікробіом, а не про гормони. Важлива деталь: троє з цих досліджень не візьмуть вас, якщо ви на МГТ. Це справді трохи парадоксальна закономірність: дослідження альтернатив часто виключають жінок, які вже застосовують основне лікування. Якщо потрібне тло, чому симптоми і цукор у крові рухаються разом на цьому етапі, — це [перименопауза і діабет](/ua/blog/perimenopause-diabetes-blood-sugar/)."
       },
       {
         "t": "links",
@@ -428,7 +428,7 @@ export default {
           {
             "name": "Силові тренування і рослинна добавка проти симптомів перименопаузи — Лідс",
             "url": "https://clinicaltrials.gov/study/NCT07135232",
-            "desc": "Пів року силових тренувань, добавка з сарментозином і L-теаніном або і те, і те разом: оцінюють симптоми, настрій, сон, силу та м’язову масу. Жінки 40–55 років у перименопаузі, які щонайменше рік не приймали МГТ чи гормональну контрацепцію і не тренуються силовими регулярно. Університет Лідс Беккет, 72 місця, до весни 2027 року."
+            "desc": "Дванадцять тижнів домашніх силових тренувань, добавка з сарментозином і L-теаніном або і те, і те разом, порівняно з плацебо: оцінюють симптоми, настрій, сон, силу та м’язову масу. Жінки 40–55 років у перименопаузі, які щонайменше рік не приймали МГТ чи гормональну контрацепцію і не тренуються силовими регулярно. Університет Лідс Беккет, 72 місця, до весни 2027 року."
           },
           {
             "name": "Пробіотик для настрою та концентрації в перименопаузі — Оксфорд",
@@ -448,7 +448,7 @@ export default {
           {
             "name": "Функціональний снек для настрою і сну в перименопаузі — Лондон",
             "url": "https://clinicaltrials.gov/study/NCT07599930",
-            "desc": "Невелике пілотне дослідження харчового продукту: симптоми перименопаузи, настрій, сон, якість життя та мікробіом. Жінки 40–55 років. Королівський коледж Лондона, 20 місць, завершується в грудні 2026 року."
+            "desc": "Невелике пілотне дослідження харчового продукту: симптоми перименопаузи, настрій, сон, якість життя та мікробіом. Жінки 40–55 років, які не приймають МГТ. Королівський коледж Лондона, 20 місць, завершується в грудні 2026 року."
           }
         ]
       },
@@ -472,7 +472,7 @@ export default {
           {
             "name": "Як зберегти м’язи, худнучи на тирзепатиді — Ексетер",
             "url": "https://clinicaltrials.gov/study/NCT07457437",
-            "desc": "Тут тирзепатид призначають усім, а половина ще й отримує програму силових тренувань під наглядом — щоб перевірити, чи захищає вона м’язи та фізичну функцію під час втрати ваги. Жінки 25–50 років з ІМТ 30–35 або від 27 за наявності супутнього стану, пов’язаного з вагою, без діабету. Університет Ексетера, 60 місць, до кінця 2027 року."
+            "desc": "Тут тирзепатид призначають усім, а половина ще й отримує програму силових тренувань під наглядом — щоб перевірити, чи захищає вона м’язи та фізичну функцію під час втрати ваги. Жінки 25–50 років з ІМТ 30–35 або від 27 за наявності супутнього стану, пов’язаного з вагою, без діабету і без поточної МГТ. Університет Ексетера, 60 місць, до кінця 2027 року."
           }
         ]
       },
@@ -518,9 +518,9 @@ export default {
             "desc": "Чи повертається здатність відчувати наближення гіпоглікемії, якщо суворо її уникати. Дорослі 18–75 років із діабетом 1 типу щонайменше 10 років, порушеним відчуттям гіпоглікемії та HbA1c нижче 10,5%. Лестер і Шеффілд у Великій Британії, а також центри в США та Австралії. 324 місця, до 2029 року."
           },
           {
-            "name": "Сотагліфлозин при діабеті 1 типу із серцевою недостатністю — 13 центрів",
+            "name": "Сотагліфлозин при діабеті 1 типу із серцевою недостатністю — 13 міст",
             "url": "https://clinicaltrials.gov/study/NCT06435156",
-            "desc": "Дослідження 2 фази: таблетка на додаток до інсуліну для людей із діабетом 1 типу, які мають серцеву недостатність або високий її ризик; головний показник — якість життя. Вік від 18 до 85 років, доза інсуліну від 0,5 од/кг або ІМТ від 25, використання CGM. Тринадцять центрів від Абердина до Лланеллі, координує Данді. 320 місць."
+            "desc": "Дослідження 2 фази: таблетка на додаток до інсуліну для людей із діабетом 1 типу, які мають серцеву недостатність або високий її ризик; головний показник — якість життя. Вік від 18 до 84 років, доза інсуліну від 0,5 од/кг або ІМТ від 25, використання CGM. Шістнадцять лікарень у 13 містах від Абердина до Лланеллі, координує Данді. 320 місць."
           }
         ]
       },
@@ -549,7 +549,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найменш ефектний пункт на цій сторінці — і, можливо, найважливіший. Хвороби серця забирають більше жіночих життів, ніж будь-що інше; захист, який жінки мають до менопаузи, після неї зникає, і повністю пояснити це поки не може ніхто. Від вас це дослідження не хоче майже нічого, крім згоди."
+        "text": "Найменш ефектний пункт на цій сторінці — і, можливо, найважливіший. У світі хвороби серця забирають більше жіночих життів, ніж будь-що інше; захист, який жінки мають до менопаузи, після неї зникає, і повністю пояснити це поки не може ніхто. Від вас це дослідження не хоче майже нічого, крім згоди."
       },
       {
         "t": "links",
@@ -568,7 +568,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Українські центри є в значно меншій кількості досліджень, ніж британські, і це переважно великі міжнародні випробування ліків плюс кілька локальних проєктів моніторингу в Києві. Усі чотири нижче набирають учасників зараз, а перші два одночасно йдуть і у Британії — той самий протокол, той самий препарат, дві країни."
+        "text": "Українські центри є в значно меншій кількості досліджень, ніж британські, і це переважно великі міжнародні випробування ліків плюс кілька локальних проєктів моніторингу в Києві. Усі чотири нижче відкриті, а перші два одночасно йдуть і у Британії — той самий протокол, той самий препарат, дві країни. Одне застереження: коли я перевіряла наприкінці вересня 2026 року, дослідження елекогліпрону досі позначали свої українські центри й більшість британських як «ще не набирають», тож дивіться в реєстрі, коли відкриється найближчий до вас центр."
       },
       {
         "t": "links",
@@ -577,7 +577,7 @@ export default {
           {
             "name": "Елекогліпрон із дапагліфлозином при діабеті 2 типу — Київ, Львів, Вінниця, Ужгород",
             "url": "https://clinicaltrials.gov/study/NCT07662109",
-            "desc": "Дослідження 3 фази нового перорального препарату для зниження глюкози — окремо або в комбінації з дапагліфлозином. Діабет 2 типу, діагностований щонайменше 90 днів тому, HbA1c 7–10,5%, ІМТ від 23, стабільна вага. Набір у 24 країнах — чотири міста України і десять центрів у Великій Британії. 2000 місць, до середини 2028 року."
+            "desc": "Дослідження 3 фази нового перорального препарату для зниження глюкози — окремо або в комбінації з дапагліфлозином. Діабет 2 типу, діагностований щонайменше 90 днів тому, HbA1c 7–10,5%, ІМТ від 23, стабільна вага. Центри у понад 20 країнах — чотири міста України і десять центрів у Великій Британії. 2000 місць, до середини 2028 року."
           },
           {
             "name": "Той самий препарат при зниженій функції нирок — Київ, Львів, Вінниця",
@@ -611,7 +611,7 @@ export default {
           {
             "name": "Our Future Health — найбільша дослідницька програма Великої Британії",
             "url": "https://ourfuturehealth.org.uk/get-involved/taking-part/",
-            "desc": "Долучитися може будь-який дорослий від 18 років, який живе у Великій Британії. Онлайн-опитувальник про здоров’я, потім коротка зустріч в аптеці або мобільній клініці: зразок крові та кілька вимірювань. Уже понад мільйон учасників, і з 2026 року їх запрошують до інших досліджень. Найменше зусиль — найбільший шанс, що вас знайдуть, коли дослідженню потрібна саме така людина."
+            "desc": "Долучитися може будь-який дорослий від 18 років, який живе у Великій Британії. Онлайн-опитувальник про здоров’я, потім коротка зустріч в аптеці або мобільній клініці: зразок крові та кілька вимірювань. Уже понад два мільйони учасників, і з 2026 року їх запрошують до інших досліджень. Найменше зусиль — найбільший шанс, що вас знайдуть, коли дослідженню потрібна саме така людина."
           },
           {
             "name": "Британський реєстр острівцевих автоантитіл — Оксфорд",
@@ -690,7 +690,7 @@ export default {
           },
           {
             "claim": "Our Future Health відкрита для будь-якого дорослого у Британії та має вже понад мільйон учасників.",
-            "detail": "Our Future Health набирає дорослих від 18 років через онлайн-опитувальник і візит до клініки для забору крові та фізичних вимірювань; заявлена мета — до п’яти мільйонів учасників. Про мільйонного добровольця оголосили у 2025 році, а з 2026-го учасників почали запрошувати до інших досліджень. Саме тому вона тут: долучитися — це один візит, який додає вас до кола, з якого дослідження набирають людей.",
+            "detail": "Our Future Health набирає дорослих від 18 років через онлайн-опитувальник і візит до клініки для забору крові та фізичних вимірювань; заявлена мета — до п’яти мільйонів учасників. Про мільйонного добровольця оголосили в листопаді 2023 року, до 2025-го їх було вже понад два мільйони, а з 2026-го учасників почали запрошувати до інших досліджень. Саме тому вона тут: долучитися — це один візит, який додає вас до кола, з якого дослідження набирають людей.",
             "cite": "Our Future Health · оголошення про мільйон учасників",
             "url": "https://ourfuturehealth.org.uk/news/1-million-volunteers-join-uks-largest-health-research-programme/"
           }
@@ -744,7 +744,7 @@ export default {
       },
       {
         "q": "Чи можу я взяти участь, якщо живу в Україні або поза Британією?",
-        "a": "Лише в тих дослідженнях, до центру яких ви реально можете дістатися. Дослідження проводять у конкретних лікарнях і клініках, дорогу в іншу країну не оплачують, тож британське дослідження з Києва практично недосяжне. Виняток — великі міжнародні випробування ліків: два дослідження елекогліпрону з цього списку набирають учасників в Україні та Британії одночасно. Якщо ви в Україні, шукайте на ClinicalTrials.gov із фільтром за країною: досліджень менше, але це переважно великі багатонаціональні."
+        "a": "Лише в тих дослідженнях, до центру яких ви реально можете дістатися. Дослідження проводять у конкретних лікарнях і клініках, дорогу в іншу країну не оплачують, тож британське дослідження з Києва практично недосяжне. Виняток — великі міжнародні випробування ліків: два дослідження елекогліпрону з цього списку мають центри і в Україні, і в Британії. Якщо ви в Україні, шукайте на ClinicalTrials.gov із фільтром за країною: досліджень менше, але це переважно великі багатонаціональні."
       },
       {
         "q": "Я на МГТ. Це мене виключає?",

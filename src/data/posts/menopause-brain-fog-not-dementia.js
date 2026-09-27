@@ -11,9 +11,9 @@ export default {
     "title": "Menopause brain fog isn’t early dementia — and it finally has a definition",
     "seoTitle": "Menopause Brain Fog Isn’t Early Dementia",
     "metaDesc": "A 2026 Lancet review defines menopause brain fog as a drop in mental efficiency, not capacity — reported by two-thirds of women, and not a dementia sign.",
-    "excerpt": "A 2026 Lancet review proposes the first clinical definition of menopausal brain fog: self-reported trouble with memory, attention or word-finding, without measurable cognitive decline — and no link to dementia risk.",
+    "excerpt": "A 2026 Lancet review proposes a clinical definition of menopausal brain fog: self-reported trouble with memory, attention or word-finding, without measurable cognitive decline — and no link to dementia risk.",
     "meta": "15 August 2026 · 4 min read",
-    "lead": "More than two-thirds of women report memory or concentration trouble across the menopause transition. Until now there has been no agreed definition of what that is — which is part of why so little has been done about it.",
+    "lead": "Around two-thirds of women report memory or concentration trouble across the menopause transition. Until now there has been no agreed definition of what that is — which is part of why so little has been done about it.",
     "blocks": [
       {
         "t": "p",
@@ -25,7 +25,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "That last clause carries the reassurance most women are actually looking for. The review reports that these cognitive symptoms are not associated with an increased risk of dementia, and that on formal testing, overall performance usually sits within the expected range. Fear of early Alzheimer’s is one of the most common reasons women bring brain fog to a GP, and on the current evidence it is not what this is."
+        "text": "That last clause carries the reassurance most women are actually looking for. The review finds no evidence that these cognitive symptoms are linked to an increased risk of Alzheimer’s disease, the most common cause of dementia, and reports that on formal testing, overall performance usually sits within the expected range. Fear of early Alzheimer’s is a common reason women bring brain fog to a GP, and on the current evidence it is not what this is."
       },
       {
         "t": "p",
@@ -37,7 +37,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The most-quoted figures on how common this is come from a different kind of study, and it is worth knowing which. A 2024 service evaluation of 978 new patients at a UK specialist menopause clinic found memory problems in 93% and difficulty concentrating in 91%, with symptom scores improving across the board three months after starting hormone therapy. Those are women who had already sought specialist help, so the percentages run far above the general population, and it was a before-and-after audit with no control group — encouraging, but not proof that the treatment caused the improvement."
+        "text": "The most-quoted figures on how common this is come from a different kind of study, and it is worth knowing which. A 2024 conference abstract (not a peer-reviewed paper) on 978 new patients at a UK specialist menopause clinic found memory problems in 93% and difficulty concentrating in 91%, with symptom scores improving across the board three months after starting hormone therapy. Those are women who had already sought specialist help, so the percentages run far above the general population, and it was a before-and-after audit with no control group — encouraging, but not proof that the treatment caused the improvement."
       },
       {
         "t": "p",
@@ -52,13 +52,13 @@ export default {
         "items": [
           {
             "claim": "Menopausal brain fog now has a proposed clinical definition — and no established link to dementia risk.",
-            "detail": "A 2026 review in The Lancet Obstetrics, Gynaecology & Women’s Health, led by Associate Professor Caroline Gurvich (Monash University) with Professor Aimee Spector (UCL) and Professor Martha Hickey (University of Melbourne and the Royal Women’s Hospital), proposes defining menopausal brain fog as self-reported impairment in one or more cognitive domains — memory, attention, organisation, problem-solving or word retrieval — in the absence of notable objective cognitive decline. More than two-thirds of women report difficulties with memory or concentration over the menopause transition. The authors report that these symptoms are not linked to an increased risk of dementia and that overall cognitive performance typically remains within expected ranges, and they identify hormonal change, sleep disturbance and psychological or psychosocial stress as contributing factors. This is a review and position paper synthesising existing evidence, not a new trial.",
+            "detail": "A 2026 review in The Lancet Obstetrics, Gynaecology & Women’s Health, led by Associate Professor Caroline Gurvich (Monash University) with Professor Aimee Spector (UCL) and Professor Martha Hickey (University of Melbourne and the Royal Women’s Hospital), proposes defining menopausal brain fog as self-reported impairment in one or more cognitive domains — memory, attention, organisation, problem-solving or word retrieval — in the absence of notable objective cognitive decline. Cross-sectional studies suggest around two-thirds of women report difficulties with memory or concentration over the menopause transition. The authors report that these symptoms are not linked to an increased risk of dementia and that overall cognitive performance typically remains within expected ranges, and they identify hormonal change, sleep disturbance and psychological or psychosocial stress as contributing factors. This is a review and position paper synthesising existing evidence, not a new trial.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · 13 April 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00043-9/fulltext"
           },
           {
             "claim": "In a UK menopause clinic, more than nine in ten patients reported memory and concentration problems.",
-            "detail": "A service evaluation published in BJPsych Open (Reisel et al., 1 August 2024) gave a modified Greene Climacteric Symptom Questionnaire to 978 new patients at a specialist menopause clinic between November 2022 and June 2023. The five most prevalent symptoms were feeling tired or lacking in energy (96%), memory problems (93%), difficulty in concentrating (91%), irritability (90%) and feeling tense or nervous (90%). At three-month follow-up all symptoms had improved on hormone therapy, with or without transdermal testosterone — most of all profound low mood (69% improvement in symptom scores) and attacks of anxiety and panic (61%). Two limits matter when reading those numbers: the sample is women who actively sought specialist menopause care, so prevalence runs well above the general population, and the design is an uncontrolled before-and-after audit with no placebo group.",
+            "detail": "A conference abstract published in a BJPsych Open supplement (Reisel et al., 1 August 2024; reviewed by the Royal College of Psychiatrists’ congress faculty, not by the journal’s standard peer review) reports that the clinic gave a modified Greene Climacteric Symptom Questionnaire to 978 new patients at a specialist menopause clinic between November 2022 and June 2023. The five most prevalent symptoms were feeling tired or lacking in energy (96%), memory problems (93%), difficulty in concentrating (91%), irritability (90%) and feeling tense or nervous (90%). At three-month follow-up all symptoms had improved on hormone therapy, with or without transdermal testosterone — most of all profound low mood (69% improvement in symptom scores) and attacks of anxiety and panic (61%). Two limits matter when reading those numbers: the sample is women who actively sought specialist menopause care, so prevalence runs well above the general population, and the design is an uncontrolled before-and-after audit with no placebo group.",
             "cite": "BJPsych Open · Reisel et al., 1 August 2024",
             "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/prevalence-of-cognitive-and-moodrelated-symptoms-in-a-large-cohort-of-perimenopausal-and-menopausal-women/9478EDCFCB94629C1C02657229EC4A2F"
           },
@@ -100,7 +100,7 @@ export default {
     "faq": [
       {
         "q": "Is menopause brain fog a sign of early dementia?",
-        "a": "On the current evidence, no. The 2026 Lancet review reports that cognitive symptoms during the menopause transition are not linked to an increased risk of dementia, and that overall performance on formal cognitive testing usually stays within the expected range. The proposed definition specifically describes impairment that is self-reported and happens without notable objective decline. That said, if symptoms are severe, getting worse, or affecting your ability to do familiar tasks rather than just doing them more slowly, that is worth raising with your doctor rather than assuming it is menopause."
+        "a": "On the current evidence, no. The 2026 Lancet review finds no evidence that cognitive symptoms during the menopause transition are linked to an increased risk of Alzheimer’s disease, the most common cause of dementia, and reports that overall performance on formal cognitive testing usually stays within the expected range. The proposed definition specifically describes impairment that is self-reported and happens without notable objective decline. That said, if symptoms are severe, getting worse, or affecting your ability to do familiar tasks rather than just doing them more slowly, that is worth raising with your doctor rather than assuming it is menopause."
       },
       {
         "q": "If my memory tests come back normal, does that mean the fog isn’t real?",
@@ -114,9 +114,9 @@ export default {
     "title": "Туман у голові в менопаузі — це не рання деменція, і тепер у нього є визначення",
     "seoTitle": "Туман у голові в менопаузі — це не деменція",
     "metaDesc": "Огляд Lancet 2026: туман у голові в менопаузі — це падіння ефективності мислення, а не втрата здатностей. Дві третини жінок, і жодного зв’язку з деменцією.",
-    "excerpt": "Огляд у The Lancet за 2026 рік пропонує перше клінічне визначення туману в голові при менопаузі: суб’єктивні труднощі з пам’яттю, увагою чи добором слів без вимірюваного зниження когнітивних функцій — і без зв’язку з ризиком деменції.",
+    "excerpt": "Огляд у The Lancet за 2026 рік пропонує клінічне визначення туману в голові при менопаузі: суб’єктивні труднощі з пам’яттю, увагою чи добором слів без вимірюваного зниження когнітивних функцій — і без зв’язку з ризиком деменції.",
     "meta": "15 серпня 2026 · 4 хв читання",
-    "lead": "Понад дві третини жінок повідомляють про проблеми з пам’яттю чи концентрацією під час менопаузального переходу. Досі не було узгодженого визначення, що це таке, — і саме тому з цим так мало що робили.",
+    "lead": "Близько двох третин жінок повідомляють про проблеми з пам’яттю чи концентрацією під час менопаузального переходу. Досі не було узгодженого визначення, що це таке, — і саме тому з цим так мало що робили.",
     "blocks": [
       {
         "t": "p",
@@ -128,7 +128,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме остання частина визначення дає ту відповідь, по яку більшість жінок і приходить. В огляді зазначено, що ці когнітивні симптоми не пов’язані з підвищеним ризиком деменції, а при формальному тестуванні загальні результати зазвичай залишаються в межах очікуваного. Страх ранньої хвороби Альцгеймера — одна з найчастіших причин, чому жінки взагалі згадують про туман у голові на прийомі; за наявними даними, це не він."
+        "text": "Саме остання частина визначення дає ту відповідь, по яку більшість жінок і приходить. В огляді зазначено, що немає доказів зв’язку цих когнітивних симптомів із підвищеним ризиком хвороби Альцгеймера — найпоширенішої причини деменції, а при формальному тестуванні загальні результати зазвичай залишаються в межах очікуваного. Страх ранньої хвороби Альцгеймера — поширена причина, чому жінки взагалі згадують про туман у голові на прийомі; за наявними даними, це не він."
       },
       {
         "t": "p",
@@ -140,7 +140,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найчастіше цитовані цифри про поширеність походять із дослідження іншого типу, і це варто знати. Оцінка послуги 2024 року за участю 978 нових пацієнток спеціалізованої менопаузальної клініки у Великій Британії виявила проблеми з пам’яттю в 93% і труднощі з концентрацією в 91%, а через три місяці після початку гормональної терапії показники симптомів покращилися за всіма пунктами. Але це жінки, які вже самі звернулися по спеціалізовану допомогу, тому відсотки значно вищі, ніж у загальній популяції; до того ж це аудит «до і після» без контрольної групи — обнадійливо, але не доказ, що поліпшення спричинило саме лікування."
+        "text": "Найчастіше цитовані цифри про поширеність походять із дослідження іншого типу, і це варто знати. Тези конференції 2024 року (не рецензована стаття) про 978 нових пацієнток спеціалізованої менопаузальної клініки у Великій Британії повідомляють про проблеми з пам’яттю в 93% і труднощі з концентрацією в 91%, а через три місяці після початку гормональної терапії показники симптомів покращилися за всіма пунктами. Але це жінки, які вже самі звернулися по спеціалізовану допомогу, тому відсотки значно вищі, ніж у загальній популяції; до того ж це аудит «до і після» без контрольної групи — обнадійливо, але не доказ, що поліпшення спричинило саме лікування."
       },
       {
         "t": "p",
@@ -155,13 +155,13 @@ export default {
         "items": [
           {
             "claim": "Менопаузальний туман у голові отримав запропоноване клінічне визначення — і не має підтвердженого зв’язку з ризиком деменції.",
-            "detail": "Огляд 2026 року в The Lancet Obstetrics, Gynaecology & Women’s Health під керівництвом доцентки Керолайн Ґурвіч (Університет Монаша) разом із професоркою Еймі Спектор (UCL) і професоркою Мартою Гікі (Мельбурнський університет і Royal Women’s Hospital) пропонує визначати менопаузальний туман у голові як суб’єктивне порушення в одній чи кількох когнітивних сферах — пам’ять, увага, організація, розв’язання задач або добір слів — за відсутності помітного об’єктивного зниження когнітивних функцій. Понад дві третини жінок повідомляють про труднощі з пам’яттю або концентрацією протягом менопаузального переходу. Автори зазначають, що ці симптоми не пов’язані з підвищеним ризиком деменції, а загальні когнітивні показники зазвичай залишаються в межах очікуваного; серед чинників вони називають гормональні зміни, порушення сну та психологічний і психосоціальний стрес. Це оглядова й позиційна стаття, яка узагальнює наявні дані, а не нове дослідження.",
+            "detail": "Огляд 2026 року в The Lancet Obstetrics, Gynaecology & Women’s Health під керівництвом доцентки Керолайн Ґурвіч (Університет Монаша) разом із професоркою Еймі Спектор (UCL) і професоркою Мартою Гікі (Мельбурнський університет і Royal Women’s Hospital) пропонує визначати менопаузальний туман у голові як суб’єктивне порушення в одній чи кількох когнітивних сферах — пам’ять, увага, організація, розв’язання задач або добір слів — за відсутності помітного об’єктивного зниження когнітивних функцій. За даними поперечних досліджень, близько двох третин жінок повідомляють про труднощі з пам’яттю або концентрацією протягом менопаузального переходу. Автори зазначають, що ці симптоми не пов’язані з підвищеним ризиком деменції, а загальні когнітивні показники зазвичай залишаються в межах очікуваного; серед чинників вони називають гормональні зміни, порушення сну та психологічний і психосоціальний стрес. Це оглядова й позиційна стаття, яка узагальнює наявні дані, а не нове дослідження.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · 13 квітня 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00043-9/fulltext"
           },
           {
             "claim": "У британській менопаузальній клініці понад дев’ять із десяти пацієнток повідомили про проблеми з пам’яттю та концентрацією.",
-            "detail": "Оцінка послуги, опублікована в BJPsych Open (Reisel та ін., 1 серпня 2024), охопила 978 нових пацієнток спеціалізованої менопаузальної клініки в період з листопада 2022 до червня 2023 року за модифікованим опитувальником Greene. П’ять найпоширеніших симптомів: втома або брак енергії (96%), проблеми з пам’яттю (93%), труднощі з концентрацією (91%), дратівливість (90%) і напруження чи нервозність (90%). Через три місяці на тлі гормональної терапії — із трансдермальним тестостероном або без нього — покращилися всі симптоми, найбільше глибоко знижений настрій (на 69% за шкалою симптомів) і напади тривоги й паніки (на 61%). Два обмеження важливі: вибірка — жінки, які самі звернулися по спеціалізовану допомогу, тож поширеність значно вища за загальнопопуляційну, а дизайн — неконтрольований аудит «до і після» без плацебо-групи.",
+            "detail": "Тези конференції, опубліковані в додатку до BJPsych Open (Reisel та ін., 1 серпня 2024; їх оцінювала академічна рада Королівського коледжу психіатрів, а не стандартне рецензування журналу), охопили 978 нових пацієнток спеціалізованої менопаузальної клініки в період з листопада 2022 до червня 2023 року за модифікованим опитувальником Greene. П’ять найпоширеніших симптомів: втома або брак енергії (96%), проблеми з пам’яттю (93%), труднощі з концентрацією (91%), дратівливість (90%) і напруження чи нервозність (90%). Через три місяці на тлі гормональної терапії — із трансдермальним тестостероном або без нього — покращилися всі симптоми, найбільше глибоко знижений настрій (на 69% за шкалою симптомів) і напади тривоги й паніки (на 61%). Два обмеження важливі: вибірка — жінки, які самі звернулися по спеціалізовану допомогу, тож поширеність значно вища за загальнопопуляційну, а дизайн — неконтрольований аудит «до і після» без плацебо-групи.",
             "cite": "BJPsych Open · Reisel та ін., 1 серпня 2024",
             "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/prevalence-of-cognitive-and-moodrelated-symptoms-in-a-large-cohort-of-perimenopausal-and-menopausal-women/9478EDCFCB94629C1C02657229EC4A2F"
           },
@@ -203,7 +203,7 @@ export default {
     "faq": [
       {
         "q": "Туман у голові в менопаузі — це ознака ранньої деменції?",
-        "a": "За наявними даними — ні. Огляд The Lancet 2026 року зазначає, що когнітивні симптоми під час менопаузального переходу не пов’язані з підвищеним ризиком деменції, а загальні результати формального когнітивного тестування зазвичай залишаються в межах очікуваного. Запропоноване визначення прямо описує порушення, про яке повідомляє сама людина й яке відбувається без помітного об’єктивного зниження. Водночас, якщо симптоми важкі, посилюються або заважають виконувати звичні справи, а не просто сповільнюють вас, це варто обговорити з лікарем, а не списувати на менопаузу."
+        "a": "За наявними даними — ні. Огляд The Lancet 2026 року зазначає, що немає доказів зв’язку когнітивних симптомів під час менопаузального переходу з підвищеним ризиком хвороби Альцгеймера — найпоширенішої причини деменції, а загальні результати формального когнітивного тестування зазвичай залишаються в межах очікуваного. Запропоноване визначення прямо описує порушення, про яке повідомляє сама людина й яке відбувається без помітного об’єктивного зниження. Водночас, якщо симптоми важкі, посилюються або заважають виконувати звичні справи, а не просто сповільнюють вас, це варто обговорити з лікарем, а не списувати на менопаузу."
       },
       {
         "q": "Якщо тести на пам’ять у нормі, чи означає це, що туману насправді немає?",
