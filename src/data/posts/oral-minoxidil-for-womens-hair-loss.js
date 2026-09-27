@@ -18,7 +18,7 @@ export default {
     "title": "Oral minoxidil for women's hair loss: the doses, the side effects, and how to raise it with a UK GP",
     "seoTitle": "Oral Minoxidil for Women's Hair Loss: Dose & Side Effects",
     "metaDesc": "What low-dose oral minoxidil is, the doses prescribed to women, the side effects, who should avoid it, and how to raise it with a UK GP.",
-    "excerpt": "Minoxidil tablets are prescribed off-label to women for pattern hair loss, and there is now an international expert consensus on how. Here is what the doses are, what the side effects actually look like, and what a UK GP can and cannot do.",
+    "excerpt": "Minoxidil tablets are prescribed off-label for women’s pattern hair loss, now with an expert consensus. The doses, the real side effects, and what a UK GP can do.",
     "meta": "24 August 2026 · 9 min read",
     "lead": "If you have searched for minoxidil tablets, you have probably landed on trial news, drug-company announcements or an American telehealth advert. None of them answers the question you were actually asking: what dose, what side effects, and can I get this in Britain. This is that page.",
     "blocks": [
@@ -234,7 +234,7 @@ export default {
     "title": "Міноксидил у таблетках при випадінні волосся в жінок: дози, побічні ефекти й розмова з лікарем",
     "seoTitle": "Міноксидил у таблетках для жінок: дози й побічні ефекти",
     "metaDesc": "Що таке міноксидил у низьких дозах, які дози призначають жінкам, побічні ефекти, кому не можна — і як говорити про це з лікарем у Великій Британії.",
-    "excerpt": "Міноксидил у таблетках призначають жінкам поза інструкцією, і з 2025 року є міжнародний експертний консенсус щодо того, як це робити. Ось які дози, які побічні ефекти насправді й що може та чого не може лікар.",
+    "excerpt": "Міноксидил у таблетках призначають жінкам поза інструкцією, і з 2025 року є експертний консенсус. Які дози, які реальні побічні ефекти і що може лікар.",
     "meta": "24 серпня 2026 · 9 хв читання",
     "lead": "Якщо ви шукали інформацію про міноксидил у таблетках, ви, найімовірніше, натрапили на новини досліджень, пресрелізи фармкомпаній або американську телемедичну рекламу. Жодне з цього не відповідає на те, що вас справді цікавило: яка доза, які побічні ефекти й чи можна це отримати тут. Ця сторінка — саме про це.",
     "blocks": [

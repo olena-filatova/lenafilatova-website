@@ -12,7 +12,7 @@ export default {
     "title": "A new oral minoxidil pill improved hair growth in women — but the trial had no control group",
     "seoTitle": "Oral Minoxidil for Female Hair Loss: What the Trial Shows",
     "metaDesc": "An extended-release oral minoxidil raised hair counts in 28 women at 6 months. The trial was open-label with no placebo — what that means for the result.",
-    "excerpt": "A phase 2 trial of extended-release oral minoxidil reported real gains in hair count for women with female-pattern hair loss at six months — in an open-label study with no placebo group, released by press release rather than peer review.",
+    "excerpt": "A phase 2 trial of extended-release oral minoxidil reported real hair-count gains in women at six months — but open-label, with no placebo, and by press release.",
     "meta": "11 August 2026 · 5 min read",
     "lead": "Hair thinning is one of the least-discussed changes of midlife. The American Academy of Dermatology calls female-pattern hair loss the most common cause of hair loss in women, and says it usually begins in the forties, fifties or sixties, with hormones likely playing a part. The approved options have barely moved in decades — so a new oral minoxidil pill made headlines in July. The results are encouraging. The trial behind them is weaker than the coverage suggested, and both of those things are worth knowing before you take anything to your GP.",
     "blocks": [
@@ -86,8 +86,8 @@ export default {
     "imageAlt": "Жінка розділяє темне волосся обома руками, показуючи розширений проділ і порідіння на маківці.",
     "title": "Нова таблетка міноксидилу покращила ріст волосся в жінок — але в дослідженні не було контрольної групи",
     "seoTitle": "Міноксидил у таблетках при випадінні волосся в жінок",
-    "metaDesc": "Пероральний міноксидил з подовженим вивільненням збільшив кількість волосся у 28 жінок за 6 місяців. Але дослідження було відкритим і без плацебо — що це означає.",
-    "excerpt": "Дослідження 2-ї фази перорального міноксидилу з подовженим вивільненням показало реальний приріст волосся в жінок з алопецією за жіночим типом за шість місяців — у відкритому дослідженні без групи плацебо, оприлюдненому пресрелізом, а не через рецензування.",
+    "metaDesc": "Міноксидил з подовженим вивільненням збільшив кількість волосся у 28 жінок за 6 місяців. Але дослідження було відкритим і без плацебо — що це означає.",
+    "excerpt": "Дослідження 2-ї фази міноксидилу з подовженим вивільненням показало приріст волосся в жінок за пів року — але воно відкрите, без плацебо й оприлюднене пресрелізом.",
     "meta": "11 серпня 2026 · 5 хв читання",
     "lead": "Порідіння волосся — одна з найменш обговорюваних змін середини життя. Американська академія дерматології називає алопецію за жіночим типом найпоширенішою причиною випадіння волосся в жінок і зазначає, що зазвичай вона починається у сорок, п’ятдесят чи шістдесят років, і гормони, ймовірно, відіграють тут роль. Схвалені варіанти лікування майже не змінювалися десятиліттями — тож нова таблетка міноксидилу в липні потрапила в заголовки. Результати обнадійливі. Дослідження за ними слабше, ніж це подавали в новинах, і варто знати обидві ці речі, перш ніж іти з цим до лікаря.",
     "blocks": [

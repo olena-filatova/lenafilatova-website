@@ -10,7 +10,7 @@ export default {
     "cat": "Perimenopause & Type 1 Diabetes",
     "imageAlt": "A woman exercising at home with a pair of small purple dumbbells.",
     "title": "Perimenopause & diabetes: what’s really happening to your blood sugar",
-    "excerpt": "Living with T1D for 23 years, I noticed everything changing in my early 40s — and no one warned me. Here’s what perimenopause really does to your blood sugar, and what actually helped.",
+    "excerpt": "Living with T1D for 23 years, I noticed everything changing in my late 30s — and no one warned me. Here’s what perimenopause really does to your blood sugar, and what actually helped.",
     "meta": "20 June 2026 · 8 min read",
     "lead": "Blood sugar can get harder to manage in perimenopause — and almost no one warns you. Here’s what’s really happening, and what genuinely helped me.",
     "seoTitle": "Perimenopause & Diabetes: Your Blood Sugar",
@@ -18,7 +18,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "I’ve been living with type 1 diabetes for 23 years. Around 39–40, I started noticing I was getting more insulin resistant — it was harder to manage my normal food. I usually make a cup of coffee in the morning with soya milk, about 4g of carbs per cup. My blood sugar started climbing to 18 mmol/l — ridiculously high for such a tiny amount of carbs."
+        "text": "I’ve been living with type 1 diabetes for 23 years. Around 38–39, I started noticing I was getting more insulin resistant — it was harder to manage my normal food. I usually make a cup of coffee in the morning with soya milk, about 4g of carbs per cup. My blood sugar started climbing to 18 mmol/l — ridiculously high for such a tiny amount of carbs."
       },
       {
         "t": "p",
@@ -181,7 +181,7 @@ export default {
     "cat": "Перименопауза та діабет 1 типу",
     "imageAlt": "Жінка займається вдома з парою невеликих фіолетових гантелей.",
     "title": "Перименопауза та діабет: що насправді відбувається з вашим цукром у крові",
-    "excerpt": "23 роки живу з діабетом 1 типу, і на початку своїх 40 я помітила, що все змінюється — а мене ніхто не попередив. Ось що перименопауза насправді робить із цукром у крові й що мені справді допомогло.",
+    "excerpt": "23 роки живу з діабетом 1 типу, і наприкінці 30-х я помітила, що все змінюється — а мене ніхто не попередив. Ось що перименопауза насправді робить із цукром у крові й що мені справді допомогло.",
     "meta": "20 червня 2026 · 8 хв читання",
     "lead": "Під час перименопаузи цукор у крові може стати важче контролювати — і майже ніхто про це не попереджає. Ось що відбувається насправді і що справді допомогло мені.",
     "seoTitle": "Перименопауза й діабет: ваш рівень цукру",
@@ -189,7 +189,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Я живу з діабетом 1 типу вже 23 роки. Приблизно у 39–40 я почала помічати, що стаю більш інсулінорезистентною — звичну їжу стало важче контролювати. Зазвичай зранку я роблю каву на соєвому молоці, це близько 4 г вуглеводів на чашку. Мій цукор почав підніматися до 18 ммоль/л — абсурдно високо для такої крихітної кількості вуглеводів."
+        "text": "Я живу з діабетом 1 типу вже 23 роки. Приблизно у 38–39 я почала помічати, що стаю більш інсулінорезистентною — звичну їжу стало важче контролювати. Зазвичай зранку я роблю каву на соєвому молоці, це близько 4 г вуглеводів на чашку. Мій цукор почав підніматися до 18 ммоль/л — абсурдно високо для такої крихітної кількості вуглеводів."
       },
       {
         "t": "p",
