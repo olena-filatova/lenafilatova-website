@@ -22,7 +22,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "What makes that finding new is not the size of the number but the fact that it appeared at all. Earlier research had looked and largely found nothing. As lead author Maggie Fuzak Nunziato puts it, previous studies mostly evaluated endometriosis as a single condition and generally reported little or no overall association with type 2 diabetes. This team split it by type and by location instead — and the association surfaced, strongest of all in women whose endometriosis was found outside the pelvis."
+        "text": "What makes that finding new is not the size of the number but the fact that it appeared at all. Earlier research had looked and largely found nothing. As lead author Maggie Fuzak Nunziato puts it, previous studies mostly evaluated endometriosis as a single condition and generally reported little or no overall association with type 2 diabetes. This team split it by type and by location instead — and the association surfaced, strongest of all in women whose endometriosis was recorded at ‘other sites’, which the university describes as outside the pelvis."
       },
       {
         "t": "p",
@@ -34,7 +34,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One more thing worth knowing when reading any registry study of endometriosis: the data can only see women who were actually diagnosed. Endometriosis is notoriously slow to diagnose, often taking years from the first symptoms, which means the comparison group almost certainly contains women who have it and don’t yet know. That tends to blur the contrast between the two groups rather than exaggerate it — but it is a reason to treat the exact figure as an estimate rather than a measurement."
+        "text": "One more thing worth knowing when reading any registry study of endometriosis: the data can only see women who were actually diagnosed. Endometriosis is notoriously slow to diagnose, often taking years from the first symptoms, which means the comparison group almost certainly contains women who have it and don’t yet know. That tends to blur the contrast between the two groups rather than exaggerate it — but it is a reason to treat the exact figure as an estimate rather than a measurement. The authors also flag the opposite risk: women under care for endometriosis see doctors more often, so diabetes may simply be picked up sooner in them, and some confounding may remain."
       },
       {
         "t": "p",
@@ -48,15 +48,15 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Women with endometriosis developed type 2 diabetes at a 46% higher rate over 25 years.",
-            "detail": "The ARCHES study (Advancing Research on Cardiovascular Health and Endometriosis Study), published in Diabetologia in August 2026, analysed linked health records from the Utah Population Database between 1996 and 2021 — nearly 3 million women, including approximately 100,000 with a diagnosis of endometriosis. Women with endometriosis had a 46% higher risk of developing type 2 diabetes than women without it. The association was strongest for extra-pelvic endometriosis, and more pronounced among premenopausal women and women with a BMI below 30. This is a retrospective cohort study using existing medical records: it demonstrates an association, not causation, and the proposed inflammatory mechanism was not directly measured.",
+            "claim": "Across 25 years of records, women with endometriosis developed type 2 diabetes at a 46% higher rate.",
+            "detail": "The ARCHES study (Advancing Research on Cardiovascular Health and Endometriosis Study), published in Diabetologia in August 2026, analysed linked health records from the Utah Population Database between 1996 and 2021 — nearly 3 million women, including approximately 100,000 with a diagnosis of endometriosis. Over an average follow-up of 10.8 years, women with endometriosis had a 46% higher risk of developing type 2 diabetes than women without it (adjusted hazard ratio 1.46). The association was strongest for endometriosis coded to ‘other sites’ (roughly two and a half times the risk), which the university describes as extra-pelvic, and more pronounced among premenopausal women and women with a BMI below 30. This is a retrospective cohort study using existing medical records: it demonstrates an association, not causation, and the proposed inflammatory mechanism was not directly measured. The authors caution that residual confounding and detection bias may play a part.",
             "cite": "Diabetologia · Fuzak Nunziato et al., August 2026 (DOI 10.1007/s00125-026-06828-w)",
             "url": "https://link.springer.com/article/10.1007/s00125-026-06828-w"
           },
           {
             "claim": "Earlier studies missed this because they treated endometriosis as one condition.",
             "detail": "Lead author Maggie Fuzak Nunziato, a doctoral student in epidemiology at George Mason University, notes that previous studies largely evaluated endometriosis as a single condition and generally reported little or no overall association with type 2 diabetes; separating it by subtype and anatomical location is what revealed the differences. Senior author Anna Pollack, professor of Global and Community Health at George Mason, worked with collaborators at the University of Utah, the University of Arizona, Brigham and Women’s Hospital and Intermountain Health. Fuzak Nunziato’s summary of the work: “Our findings add to a growing understanding that endometriosis may affect more than reproductive health alone.” The team states that more research is needed to understand the connection.",
-            "cite": "George Mason University College of Public Health · 12 August 2026",
+            "cite": "George Mason University College of Public Health · 10 August 2026",
             "url": "https://publichealth.gmu.edu/news/2026-08/women-endometriosis-face-46-higher-risk-type-2-diabetes-study-finds"
           }
         ]
@@ -115,7 +115,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Новим тут є не так розмір цифри, як сам факт, що вона взагалі з’явилася. Попередні дослідження шукали цей зв’язок і здебільшого нічого не знаходили. Як пояснює провідна авторка Меґґі Фьюзак Нунціато, раніше ендометріоз оцінювали як одну суцільну хворобу — і зазвичай не бачили жодного помітного зв’язку з діабетом 2 типу. Ця команда натомість розділила його за типом і локалізацією — і зв’язок проявився, найсильніше в жінок, у яких вогнища ендометріозу були поза межами таза."
+        "text": "Новим тут є не так розмір цифри, як сам факт, що вона взагалі з’явилася. Попередні дослідження шукали цей зв’язок і здебільшого нічого не знаходили. Як пояснює провідна авторка Меґґі Фьюзак Нунціато, раніше ендометріоз оцінювали як одну суцільну хворобу — і зазвичай не бачили жодного помітного зв’язку з діабетом 2 типу. Ця команда натомість розділила його за типом і локалізацією — і зв’язок проявився, найсильніше в жінок, у яких ендометріоз був зафіксований в «інших локалізаціях», — університет описує їх як вогнища поза межами таза."
       },
       {
         "t": "p",
@@ -127,7 +127,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "І ще одне, що варто пам’ятати, читаючи будь-яке реєстрове дослідження ендометріозу: дані бачать лише тих жінок, кому діагноз таки поставили. Ендометріоз діагностують сумнозвісно повільно, часто через роки після перших симптомів, — тож у групі порівняння майже напевно є жінки, які його мають, але ще про це не знають. Це радше розмиває різницю між групами, ніж перебільшує її, але це причина сприймати конкретну цифру як оцінку, а не як точне вимірювання."
+        "text": "І ще одне, що варто пам’ятати, читаючи будь-яке реєстрове дослідження ендометріозу: дані бачать лише тих жінок, кому діагноз таки поставили. Ендометріоз діагностують сумнозвісно повільно, часто через роки після перших симптомів, — тож у групі порівняння майже напевно є жінки, які його мають, але ще про це не знають. Це радше розмиває різницю між групами, ніж перебільшує її, але це причина сприймати конкретну цифру як оцінку, а не як точне вимірювання. Автори також попереджають про протилежний ризик: жінки, які лікують ендометріоз, частіше бувають у лікарів, тож діабет у них можуть просто раніше помічати, а частина прихованих чинників могла лишитися неврахованою."
       },
       {
         "t": "p",
@@ -141,15 +141,15 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "За 25 років жінки з ендометріозом хворіли на діабет 2 типу на 46% частіше.",
-            "detail": "Дослідження ARCHES (Advancing Research on Cardiovascular Health and Endometriosis Study), опубліковане в Diabetologia у серпні 2026 року, проаналізувало пов’язані медичні записи з бази даних населення Юти за 1996–2021 роки: майже 3 мільйони жінок, зокрема близько 100 тисяч із діагнозом «ендометріоз». Ризик розвитку діабету 2 типу в жінок з ендометріозом був на 46% вищим, ніж у жінок без нього. Найсильнішим зв’язок був для позатазового ендометріозу, а також помітнішим серед жінок до менопаузи та жінок з ІМТ нижче 30. Це ретроспективне когортне дослідження на основі наявних медичних записів: воно демонструє зв’язок, а не причинність, і припущений запальний механізм у ньому не вимірювали напряму.",
+            "claim": "У медичних записах за 25 років жінки з ендометріозом хворіли на діабет 2 типу на 46% частіше.",
+            "detail": "Дослідження ARCHES (Advancing Research on Cardiovascular Health and Endometriosis Study), опубліковане в Diabetologia у серпні 2026 року, проаналізувало пов’язані медичні записи з бази даних населення Юти за 1996–2021 роки: майже 3 мільйони жінок, зокрема близько 100 тисяч із діагнозом «ендометріоз». За середній період спостереження 10,8 року ризик розвитку діабету 2 типу в жінок з ендометріозом був на 46% вищим, ніж у жінок без нього (скоригований коефіцієнт ризиків 1,46). Найсильнішим зв’язок був для ендометріозу, закодованого як «інші локалізації» (ризик приблизно у два з половиною рази вищий), — університет описує його як позатазовий, а також помітнішим серед жінок до менопаузи та жінок з ІМТ нижче 30. Це ретроспективне когортне дослідження на основі наявних медичних записів: воно демонструє зв’язок, а не причинність, і припущений запальний механізм у ньому не вимірювали напряму. Автори застерігають, що свою роль можуть відігравати залишкові спотворювальні чинники та ефект частішого обстеження.",
             "cite": "Diabetologia · Fuzak Nunziato та ін., серпень 2026 (DOI 10.1007/s00125-026-06828-w)",
             "url": "https://link.springer.com/article/10.1007/s00125-026-06828-w"
           },
           {
             "claim": "Попередні дослідження цього не бачили, бо розглядали ендометріоз як одну хворобу.",
             "detail": "Провідна авторка Меґґі Фьюзак Нунціато, аспірантка з епідеміології в Університеті Джорджа Мейсона, зазначає, що попередні дослідження здебільшого оцінювали ендометріоз як єдину суцільну хворобу й зазвичай повідомляли про незначний зв’язок із діабетом 2 типу або про його відсутність; саме розділення за підтипом і анатомічною локалізацією виявило різницю. Старша авторка Анна Поллак, професорка глобального та громадського здоров’я в Університеті Джорджа Мейсона, працювала разом із колегами з Університету Юти, Університету Аризони, лікарні Brigham and Women’s та Intermountain Health. Висновок Фьюзак Нунціато: «Наші результати доповнюють дедалі глибше розуміння того, що ендометріоз може впливати не лише на репродуктивне здоров’я». Команда наголошує, що для розуміння цього зв’язку потрібні подальші дослідження.",
-            "cite": "Коледж громадського здоров’я Університету Джорджа Мейсона · 12 серпня 2026",
+            "cite": "Коледж громадського здоров’я Університету Джорджа Мейсона · 10 серпня 2026",
             "url": "https://publichealth.gmu.edu/news/2026-08/women-endometriosis-face-46-higher-risk-type-2-diabetes-study-finds"
           }
         ]

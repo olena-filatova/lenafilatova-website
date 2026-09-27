@@ -17,8 +17,8 @@ export default {
     "imageAlt": "Rows of white pharmacy shelves stacked with identical cardboard medicine boxes.",
     "title": "Patches or tablets, and which progestogen: the HRT questions that change your risk more than whether you take it",
     "seoTitle": "HRT Patches vs Tablets: Why the Type You Get Matters",
-    "metaDesc": "UK data on 80,000 women found oral HRT raised clot risk by 58% while patches and gels raised it not at all. Why the route and the progestogen matter more than the decision to take HRT.",
-    "excerpt": "Most of the HRT conversation is about whether to take it. The bigger difference is in which one you are handed: in UK data, tablets raised clot risk by 58% and patches did not raise it at all.",
+    "metaDesc": "UK data on 80,000 women linked oral HRT to a 58% higher clot risk and patches and gels to no rise at all. Why the route and the progestogen matter more than the decision to take HRT.",
+    "excerpt": "Most of the HRT conversation is about whether to take it. The bigger difference is in which one you are handed: in UK data, tablets were linked to a 58% higher clot risk and patches to no rise at all.",
     "meta": "26 September 2026 · 7 min read",
     "lead": "Almost everything written about hormone therapy answers one question: should you be on it? That is the question the headlines argue about, and it is not the question with the biggest effect on your risk. The bigger difference is which HRT you walk out of the appointment with — through the skin or swallowed, and which progestogen is sitting alongside the oestrogen.",
     "blocks": [
@@ -68,11 +68,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "It would be easy to read all of the above as \"patches good, tablets bad\", and NICE's own tables do not support that as a general statement. In women with a uterus, endometrial cancer risk rises with oestrogen-only HRT whether it is transdermal or oral — the route makes no difference there, which is precisely why the progestogen is added rather than the patch being treated as a solution. The small increase in ovarian cancer risk after five years likewise applies to both routes. Transdermal oestrogen is better evidenced for clots and for stroke. It is not a universal safety upgrade, and anyone selling it as one is overstating it."
+        "text": "It would be easy to read all of the above as \"patches good, tablets bad\", and NICE's own tables do not support that as a general statement. In women with a uterus, endometrial cancer risk rises with oestrogen-only HRT whether it is transdermal or oral — the route makes no difference there, which is precisely why the progestogen is added rather than the patch being treated as a solution. The very slight rise in ovarian cancer risk after five years of oestrogen-only HRT likewise applies to both routes. Transdermal oestrogen is better evidenced for clots and for stroke. It is not a universal safety upgrade, and anyone selling it as one is overstating it."
       },
       {
         "t": "p",
-        "text": "One more recent piece of evidence is worth reading carefully rather than at face value. A 2026 study in Translational Andrology and Urology followed 13,026 women on transdermal oestradiol, most of them also on transdermal testosterone, with either micronised progesterone or a Mirena coil, and recorded seven clots — an incidence of 0.054%, in line with the background rate for women of that age. That is reassuring and it fits everything above. It is also a single private menopause clinic, reporting on its own patients, with no comparison group and with authors who work there. It supports the picture built by the BMJ studies; on its own it would not establish it."
+        "text": "One more recent piece of evidence is worth reading carefully rather than at face value. A 2026 study in Translational Andrology and Urology followed 13,026 women on transdermal oestradiol, most of them also on transdermal testosterone, with either micronised progesterone or a Mirena coil, and recorded seven clots — an incidence of 0.054%, which the authors judge to be in line with the expected rate for women of that age. That is reassuring and it fits everything above. It is also a single private menopause clinic, reporting on its own patients, with no comparison group and with two of its five authors working there. It supports the picture built by the BMJ studies; on its own it would not establish it."
       },
       {
         "t": "p",
@@ -86,7 +86,7 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Oral HRT raised clot risk by 58%; transdermal HRT did not raise it at all.",
+            "claim": "Oral HRT was linked to a 58% higher clot risk; transdermal HRT to no rise at all.",
             "detail": "Two nested case-control studies in UK general practice (QResearch and CPRD), covering 80,396 women aged 40–79 with venous thromboembolism between 1998 and 2017 and 391,494 matched controls. Oral HRT: adjusted odds ratio 1.58 (95% CI 1.52–1.64) — 1.40 for oestrogen-only and 1.73 for combined preparations. Transdermal preparations: 0.93 (0.87–1.01), consistent across regimens. Within oral preparations, conjugated equine oestrogen with medroxyprogesterone acetate carried the highest risk at 2.10 (1.92–2.31) and estradiol with dydrogesterone the lowest at 1.18 (0.98–1.42). Observational, not randomised.",
             "cite": "Vinogradova, Coupland & Hippisley-Cox · BMJ 2019;364:k4810",
             "url": "https://www.bmj.com/content/364/bmj.k4810"
@@ -99,7 +99,7 @@ export default {
           },
           {
             "claim": "NICE tells clinicians to discuss route and progestogen type, and to consider transdermal where clot risk is raised.",
-            "detail": "NG23, published November 2015 and last updated 15 April 2026. Recommendation 1.4.2 lists transdermal versus oral HRT and types of oestrogen and progestogen among the things to discuss when HRT is being considered. Recommendation 1.5.28 advises considering transdermal rather than oral HRT for people at increased risk of venous thromboembolism, including those with a BMI over 30 kg/m². The guideline's outcome tables state that clot risk is not increased with transdermal HRT and is increased with oral HRT, and that stroke risk is unlikely to increase with transdermal oestrogen but does increase with oral. The same tables note that endometrial and ovarian cancer risks apply to both routes.",
+            "detail": "NG23, published November 2015 and last updated 15 April 2026. Recommendation 1.4.2 lists transdermal versus oral HRT and types of oestrogen and progestogen among the things to discuss when HRT is being considered. Recommendation 1.5.28 advises considering transdermal rather than oral HRT for people at increased risk of venous thromboembolism, including those with a BMI over 30 kg/m². The guideline's outcome tables state that clot risk is not increased with transdermal HRT and is increased with oral HRT, and that stroke risk is unlikely to increase with transdermal oestrogen but does increase with oral. For oestrogen-only HRT, the same tables note that the rises in endometrial and ovarian cancer risk apply to both routes.",
             "cite": "NICE guideline NG23 · Menopause: identification and management",
             "url": "https://www.nice.org.uk/guidance/ng23/chapter/recommendations"
           },
@@ -136,11 +136,11 @@ export default {
     "faq": [
       {
         "q": "Are HRT patches safer than tablets?",
-        "a": "For blood clots and stroke, the evidence says yes, and fairly clearly. In UK general practice data covering 80,396 women with a clot and 391,494 matched controls, oral HRT was associated with a 58% higher risk of venous thromboembolism while transdermal HRT showed no increase at all — an odds ratio of 0.93, with a confidence interval spanning 1.00. NICE advises considering transdermal rather than oral HRT for anyone at raised clot risk, including a BMI over 30. But \"safer\" does not extend to every outcome: in women with a uterus, endometrial cancer risk rises with oestrogen-only HRT by either route, and the small increase in ovarian cancer risk after five years also applies to both. The route is one decision among several, not a substitute for the others."
+        "a": "For blood clots and stroke, the evidence says yes, and fairly clearly. In UK general practice data covering 80,396 women with a clot and 391,494 matched controls, oral HRT was associated with a 58% higher risk of venous thromboembolism while transdermal HRT showed no increase at all — an odds ratio of 0.93, with a confidence interval spanning 1.00. NICE advises considering transdermal rather than oral HRT for anyone at raised clot risk, including a BMI over 30. But \"safer\" does not extend to every outcome: in women with a uterus, endometrial cancer risk rises with oestrogen-only HRT by either route, and the very slight rise in ovarian cancer risk after five years of oestrogen-only use also applies to both. The route is one decision among several, not a substitute for the others."
       },
       {
         "q": "Does it matter which progestogen I'm prescribed?",
-        "a": "The data suggests it matters more than most women are told. In the BMJ's 2020 analysis of 98,611 breast cancer cases and 457,498 controls, combined HRT taken recently for five years or more was associated with a 79% higher risk overall — but that headline hides a range, from 88% with norethisterone down to 24% with dydrogesterone. The clot study found a similar spread: conjugated equine oestrogen with medroxyprogesterone acetate roughly doubled clot risk, while estradiol with dydrogesterone showed an increase that was not statistically significant. Both studies are observational, so they describe associations rather than proving cause. NICE's guideline does list the type of progestogen among the things a clinician should discuss with you, which is a reasonable thing to hold them to at a review."
+        "a": "The data suggests it matters more than most women are told. In the BMJ's 2020 analysis of 98,611 breast cancer cases and 457,498 controls, combined HRT taken recently for five years or more was associated with a 79% higher risk overall — but that headline hides a range, from 88% with norethisterone down to 24% with dydrogesterone. The clot study found a similar spread: conjugated equine oestrogen with medroxyprogesterone acetate was linked to roughly double the clot risk, while estradiol with dydrogesterone showed an increase that was not statistically significant. Both studies are observational, so they describe associations rather than proving cause. NICE's guideline does list the type of progestogen among the things a clinician should discuss with you, which is a reasonable thing to hold them to at a review."
       },
       {
         "q": "Should I ask to switch from tablets to patches?",
@@ -153,8 +153,8 @@ export default {
     "imageAlt": "Ряди білих аптечних полиць, заставлених однаковими картонними коробками з ліками.",
     "title": "Пластир чи таблетка і який прогестоген: питання про ЗГТ, які впливають на ризик більше, ніж саме рішення її приймати",
     "seoTitle": "ЗГТ: пластир чи таблетки і чому тип важливіший",
-    "metaDesc": "Британські дані по 80 000 жінок: пероральна ЗГТ підвищувала ризик тромбозу на 58%, а пластирі не підвищували його зовсім. Чому спосіб введення і прогестоген важливіші за саме рішення.",
-    "excerpt": "Майже вся розмова про ЗГТ — про те, приймати чи ні. Більша різниця в тому, яку саме вам випишуть: у британських даних таблетки підвищували ризик тромбозу на 58%, а пластирі не підвищували взагалі.",
+    "metaDesc": "Британські дані по 80 000 жінок: пероральна ЗГТ була пов’язана з ризиком тромбозу на 58% вищим, а пластирі — з жодним підвищенням. Чому спосіб введення і прогестоген важливіші за саме рішення.",
+    "excerpt": "Майже вся розмова про ЗГТ — про те, приймати чи ні. Більша різниця в тому, яку саме вам випишуть: у британських даних таблетки були пов’язані з ризиком тромбозу на 58% вищим, а пластирі — з жодним підвищенням.",
     "meta": "26 вересня 2026 · 7 хв читання",
     "lead": "Майже все, що пишуть про гормональну терапію, відповідає на одне питання: чи варто її приймати? Саме про це сперечаються заголовки — і це не те питання, яке найбільше впливає на ваш ризик. Значно більша різниця в тому, з якою саме ЗГТ ви вийдете з кабінету: через шкіру чи всередину, і який прогестоген стоїть поруч з естрогеном.",
     "blocks": [
@@ -204,11 +204,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Усе вищенаписане легко прочитати як «пластирі добре, таблетки погано», і власні таблиці NICE такого узагальнення не підтверджують. У жінок із маткою ризик раку ендометрія зростає на терапії самим естрогеном незалежно від того, трансдермальна вона чи пероральна: спосіб введення тут не міняє нічого, і саме тому додають прогестоген, а не вважають пластир розв’язанням. Невелике підвищення ризику раку яєчників після п’яти років так само стосується обох шляхів. Трансдермальний естроген краще доведений щодо тромбозів та інсульту. Це не універсальне покращення безпеки, і той, хто продає його як таке, перебільшує."
+        "text": "Усе вищенаписане легко прочитати як «пластирі добре, таблетки погано», і власні таблиці NICE такого узагальнення не підтверджують. У жінок із маткою ризик раку ендометрія зростає на терапії самим естрогеном незалежно від того, трансдермальна вона чи пероральна: спосіб введення тут не міняє нічого, і саме тому додають прогестоген, а не вважають пластир розв’язанням. Дуже незначне підвищення ризику раку яєчників після п’яти років терапії самим естрогеном так само стосується обох шляхів. Трансдермальний естроген краще доведений щодо тромбозів та інсульту. Це не універсальне покращення безпеки, і той, хто продає його як таке, перебільшує."
       },
       {
         "t": "p",
-        "text": "Ще одну свіжу роботу варто читати уважно, а не на віру. Дослідження 2026 року в Translational Andrology and Urology спостерігало 13 026 жінок на трансдермальному естрадіолі, більшість — ще й на трансдермальному тестостероні, з мікронізованим прогестероном або спіраллю «Мірена», і зафіксувало сім тромбозів: 0,054%, що відповідає фоновому рівню для жінок такого віку. Це заспокійливо і узгоджується з усім вищесказаним. Але це одна приватна клініка менопаузи, яка звітує про власних пацієнток, без групи порівняння і з авторами, що в ній працюють. Воно підтримує картину, побудовану дослідженнями BMJ; саме по собі воно б її не довело."
+        "text": "Ще одну свіжу роботу варто читати уважно, а не на віру. Дослідження 2026 року в Translational Andrology and Urology спостерігало 13 026 жінок на трансдермальному естрадіолі, більшість — ще й на трансдермальному тестостероні, з мікронізованим прогестероном або спіраллю «Мірена», і зафіксувало сім тромбозів: 0,054%, що, на думку авторів, відповідає очікуваному рівню для жінок такого віку. Це заспокійливо і узгоджується з усім вищесказаним. Але це одна приватна клініка менопаузи, яка звітує про власних пацієнток, без групи порівняння, і двоє з п’яти авторів у ній працюють. Воно підтримує картину, побудовану дослідженнями BMJ; саме по собі воно б її не довело."
       },
       {
         "t": "p",
@@ -222,7 +222,7 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Пероральна ЗГТ підвищувала ризик тромбозу на 58%; трансдермальна не підвищувала його зовсім.",
+            "claim": "Пероральна ЗГТ була пов’язана з ризиком тромбозу на 58% вищим; трансдермальна — з жодним підвищенням.",
             "detail": "Два дослідження «випадок-контроль» у британській сімейній медицині (QResearch і CPRD): 80 396 жінок віком 40–79 років із венозною тромбоемболією між 1998 і 2017 роком та 391 494 жінки контрольної групи. Пероральна ЗГТ: скориговане відношення шансів 1,58 (95% ДІ 1,52–1,64) — 1,40 для препаратів лише з естрогеном і 1,73 для комбінованих. Трансдермальні препарати: 0,93 (0,87–1,01), однаково для різних режимів. Серед пероральних найвищий ризик мав кон’югований кінський естроген із медроксипрогестерону ацетатом — 2,10 (1,92–2,31), найнижчий естрадіол із дидрогестероном — 1,18 (0,98–1,42). Спостережне, не рандомізоване.",
             "cite": "Vinogradova, Coupland & Hippisley-Cox · BMJ 2019;364:k4810",
             "url": "https://www.bmj.com/content/364/bmj.k4810"
@@ -235,7 +235,7 @@ export default {
           },
           {
             "claim": "NICE вимагає обговорювати спосіб введення і тип прогестогену та розглядати трансдермальну форму при підвищеному ризику тромбозу.",
-            "detail": "Настанова NG23, опублікована в листопаді 2015 року, востаннє оновлена 15 квітня 2026 року. Рекомендація 1.4.2 називає трансдермальну проти пероральної ЗГТ і типи естрогену та прогестогену серед того, що слід обговорити при розгляді терапії. Рекомендація 1.5.28 радить розглядати трансдермальну ЗГТ замість пероральної для людей із підвищеним ризиком венозної тромбоемболії, зокрема з ІМТ понад 30 кг/м². Таблиці наслідків у настанові зазначають, що ризик тромбозу не підвищується на трансдермальній ЗГТ і підвищується на пероральній, а ризик інсульту навряд чи зростає на трансдермальному естрогені, але зростає на пероральному. Ті самі таблиці зазначають, що ризики раку ендометрія і яєчників стосуються обох шляхів.",
+            "detail": "Настанова NG23, опублікована в листопаді 2015 року, востаннє оновлена 15 квітня 2026 року. Рекомендація 1.4.2 називає трансдермальну проти пероральної ЗГТ і типи естрогену та прогестогену серед того, що слід обговорити при розгляді терапії. Рекомендація 1.5.28 радить розглядати трансдермальну ЗГТ замість пероральної для людей із підвищеним ризиком венозної тромбоемболії, зокрема з ІМТ понад 30 кг/м². Таблиці наслідків у настанові зазначають, що ризик тромбозу не підвищується на трансдермальній ЗГТ і підвищується на пероральній, а ризик інсульту навряд чи зростає на трансдермальному естрогені, але зростає на пероральному. Для терапії самим естрогеном ті самі таблиці зазначають, що підвищення ризиків раку ендометрія і яєчників стосується обох шляхів.",
             "cite": "Настанова NICE NG23 · Менопауза: виявлення і ведення",
             "url": "https://www.nice.org.uk/guidance/ng23/chapter/recommendations"
           },
@@ -272,11 +272,11 @@ export default {
     "faq": [
       {
         "q": "Чи безпечніші пластирі ЗГТ за таблетки?",
-        "a": "Щодо тромбозів та інсульту дані кажуть, що так, і доволі чітко. У даних британської сімейної медицини по 80 396 жінках із тромбозом і 391 494 жінках контрольної групи пероральна ЗГТ була пов’язана з ризиком венозної тромбоемболії на 58% вищим, а трансдермальна не показала підвищення взагалі — відношення шансів 0,93 з довірчим інтервалом, що перетинає одиницю. NICE радить розглядати трансдермальну ЗГТ замість пероральної для всіх із підвищеним ризиком тромбозу, зокрема з ІМТ понад 30. Але «безпечніша» не поширюється на всі наслідки: у жінок із маткою ризик раку ендометрія зростає на терапії самим естрогеном будь-яким шляхом, і невелике підвищення ризику раку яєчників після п’яти років теж стосується обох. Спосіб введення — одне рішення з кількох, а не заміна решти."
+        "a": "Щодо тромбозів та інсульту дані кажуть, що так, і доволі чітко. У даних британської сімейної медицини по 80 396 жінках із тромбозом і 391 494 жінках контрольної групи пероральна ЗГТ була пов’язана з ризиком венозної тромбоемболії на 58% вищим, а трансдермальна не показала підвищення взагалі — відношення шансів 0,93 з довірчим інтервалом, що перетинає одиницю. NICE радить розглядати трансдермальну ЗГТ замість пероральної для всіх із підвищеним ризиком тромбозу, зокрема з ІМТ понад 30. Але «безпечніша» не поширюється на всі наслідки: у жінок із маткою ризик раку ендометрія зростає на терапії самим естрогеном будь-яким шляхом, і дуже незначне підвищення ризику раку яєчників після п’яти років терапії самим естрогеном теж стосується обох. Спосіб введення — одне рішення з кількох, а не заміна решти."
       },
       {
         "q": "Чи має значення, який саме прогестоген мені призначили?",
-        "a": "Дані свідчать, що має більше значення, ніж зазвичай кажуть жінкам. В аналізі BMJ 2020 року на 98 611 випадках раку грудей і 457 498 контролях комбінована ЗГТ, яку приймали нещодавно п’ять років або довше, була пов’язана з ризиком на 79% вищим — але за цим заголовком ховається діапазон: від 88% з норетистероном до 24% з дидрогестероном. Дослідження тромбозів показало схожий розкид: кон’югований кінський естроген із медроксипрогестерону ацетатом приблизно подвоював ризик тромбозу, тоді як естрадіол із дидрогестероном дав підвищення, що не було статистично значущим. Обидва дослідження спостережні, тож вони описують зв’язок, а не доводять причину. Настанова NICE все ж називає тип прогестогену серед того, що лікар має з вами обговорити, — і цього цілком розумно від нього вимагати на огляді."
+        "a": "Дані свідчать, що має більше значення, ніж зазвичай кажуть жінкам. В аналізі BMJ 2020 року на 98 611 випадках раку грудей і 457 498 контролях комбінована ЗГТ, яку приймали нещодавно п’ять років або довше, була пов’язана з ризиком на 79% вищим — але за цим заголовком ховається діапазон: від 88% з норетистероном до 24% з дидрогестероном. Дослідження тромбозів показало схожий розкид: кон’югований кінський естроген із медроксипрогестерону ацетатом був пов’язаний приблизно з подвоєним ризиком тромбозу, тоді як естрадіол із дидрогестероном дав підвищення, що не було статистично значущим. Обидва дослідження спостережні, тож вони описують зв’язок, а не доводять причину. Настанова NICE все ж називає тип прогестогену серед того, що лікар має з вами обговорити, — і цього цілком розумно від нього вимагати на огляді."
       },
       {
         "q": "Чи варто просити перевести мене з таблеток на пластир?",
