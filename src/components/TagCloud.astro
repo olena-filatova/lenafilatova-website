@@ -9,6 +9,14 @@
 import { POSTS } from '../data/blog.js';
 import { TAG_GROUPS } from '../data/tags.js';
 import { resolveTags, withWeights, tagPath, UI } from '../data/tags-lib.js';
+// The cloud's own styles live in blog.css, and this component used to rely on
+// whichever page embedded it having imported that file. /blog/ does (through
+// BlogHubBody); /blog/topics/ does not — so the Topics page shipped the cloud
+// as a bare bulleted list with disc markers, live, at every width. Importing
+// it here makes the component carry its own styles wherever it is used, which
+// is the only version of this that cannot break again. Astro de-duplicates the
+// import, so pages that already pull blog.css are unaffected.
+import '../styles/blog.css';
 
 const { lang = 'en', heading = true, exclude = null } = Astro.props;
 const t = UI[lang];
