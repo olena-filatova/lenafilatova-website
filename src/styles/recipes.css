@@ -221,6 +221,19 @@
 /* The fill is gone, so the underline plus aria-pressed is the whole state. */
 .rx .chip.active { color: var(--ink); border-bottom-color: var(--accent); }
 .rx .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* OPS-306 — the same invisible 24px hit strip .site-nav a uses (see the note
+   there). A caps label at --fs-label or --fs-fine draws an 18–23px box, under
+   the 24x24 WCAG 2.5.8 floor, and every control below was sitting just short.
+   The strip is absolutely positioned, so it costs no layout and changes
+   nothing a reader sees — the rows still read as hairline type. The 1px bleed
+   left and right is for the narrowest of these ("All", 23px wide), which was
+   short on both axes. Links inside running prose are exempt from 2.5.8 and
+   are deliberately left alone. */
+.rx .chip, .rx .clear, .rx .more-btn, .rx .back { position: relative; }
+.rx .chip::before, .rx .clear::before, .rx .more-btn::before, .rx .back::before {
+  content: ''; position: absolute; left: -1px; right: -1px;
+  top: 50%; transform: translateY(-50%); height: 24px;
+}
 
 .rx .bar2 {
   display: flex; align-items: baseline; justify-content: space-between;

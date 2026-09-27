@@ -387,6 +387,14 @@
 .post .prose .ref a, .post .ref .ref-cite { font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 700; line-height: 1.45; }
 .post .prose .ref a { color: var(--accent); text-decoration: none; }
 .post .prose .ref a:hover { text-decoration: underline; text-underline-offset: 3px; }
+/* 24px hit strip — see the OPS-306 note above .cloud-group a. A source link is
+   the whole line of its entry, not a word inside a sentence, so the inline
+   exemption does not cover it. Entries are 20px apart, so strips never meet. */
+.post .prose .ref a, .post-foot a { position: relative; display: inline-block; }
+.post .prose .ref a::before, .post-foot a::before {
+  content: ''; position: absolute; left: 0; right: 0;
+  top: 50%; transform: translateY(-50%); height: 24px;
+}
 .post .ref .ref-cite { color: var(--muted); }
 
 /* --- resource links --- */
@@ -748,6 +756,19 @@
   border-top: 1px solid var(--rule); padding-top: 12px; margin: 0 0 14px;
 }
 .cloud-group ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: baseline; }
+/* OPS-306 — the same invisible 24px hit strip .site-nav a uses (see the note
+   there). A caps label at --fs-label or --fs-fine draws an 18–23px box, under
+   the 24x24 WCAG 2.5.8 floor, and every control below was sitting just short.
+   The strip is absolutely positioned, so it costs no layout and changes
+   nothing a reader sees — the rows still read as hairline type. The 1px bleed
+   left and right is for the narrowest of these ("All", 23px wide), which was
+   short on both axes. Links inside running prose are exempt from 2.5.8 and
+   are deliberately left alone. */
+.cloud-group a { position: relative; }
+.cloud-group a::before {
+  content: ''; position: absolute; left: 0; right: 0;
+  top: 50%; transform: translateY(-50%); height: 24px;
+}
 /* The size IS the data — five steps rather than a continuous scale off the raw
    count, or a 16-post tag would be four times the height of a 1-post one and
    the block would stop reading as a paragraph of links. */
@@ -803,6 +824,13 @@
   }
   .rail-tags a:hover { border-bottom-color: var(--accent); }
   .rail-tags a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  /* 24px hit strip — see the OPS-306 note above .cloud-group a. The list's
+     row gap is 5px on 20px rows, so a 24px strip still clears its neighbour. */
+  .rail-tags a { position: relative; }
+  .rail-tags a::before {
+    content: ''; position: absolute; left: 0; right: 0;
+    top: 50%; transform: translateY(-50%); height: 24px;
+  }
   .rt-all {
     display: inline-block; margin-top: 12px;
     font-size: var(--fs-label) !important; font-weight: 800 !important;
@@ -810,6 +838,12 @@
     color: var(--muted) !important; border-bottom: 0 !important;
   }
   .rt-all:hover { color: var(--accent) !important; }
+  /* 24px hit strip — see the OPS-306 note above .cloud-group a. */
+  .rt-all { position: relative; }
+  .rt-all::before {
+    content: ''; position: absolute; left: 0; right: 0;
+    top: 50%; transform: translateY(-50%); height: 24px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -873,6 +907,11 @@
     letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
   }
   .rt-all:hover { color: var(--accent); }
+  .rt-all { position: relative; }
+  .rt-all::before {
+    content: ''; position: absolute; left: 0; right: 0;
+    top: 50%; transform: translateY(-50%); height: 24px;
+  }
 
   /* Gated guides. Their own block under the tools, never inside that list:
      the tools promise no signup, and these ask for an email, so the note here
