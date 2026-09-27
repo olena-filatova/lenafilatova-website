@@ -54,7 +54,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Alongside this, age-related muscle loss — known as sarcopenia — accelerates from around 40 onwards and compounds further at menopause. [A 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled the randomised trials of non-drug ways to prevent it and found resistance training the clearest performer — three sessions a week, twenty to ninety minutes, for at least six weeks. On protein it was careful, concluding that more trials are needed before the effect can be judged, which is worth holding on to: the case for protein below rests on other studies, and the training half of the advice has the firmer footing. Muscle isn’t just about strength or aesthetics — it plays a direct role in how your body handles blood glucose, your metabolic rate and your bone density."
+        "text": "Alongside this, age-related muscle loss — known as sarcopenia — accelerates from around 40 onwards and compounds further at menopause. [A 2023 systematic review in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled the randomised trials of non-drug ways to prevent it and found exercise helped, with resistance training the most effective type — three sessions a week, twenty to ninety minutes, for at least six weeks. On protein it was careful, concluding that more trials are needed before the effect can be judged, which is worth holding on to: the case for protein below rests on other studies, and the training half of the advice has the firmer footing. Muscle isn’t just about strength or aesthetics — it plays a direct role in how your body handles blood glucose, your metabolic rate and your bone density."
       },
       {
         "t": "p",
@@ -260,8 +260,8 @@ export default {
           },
           {
             "claim": "Total daily protein matters more than hitting a post-workout window.",
-            "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing.",
-            "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
+            "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. It was published as a conference abstract and funded by the programme’s provider, Curves International. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing.",
+            "cite": "Journal of the International Society of Sports Nutrition · Randomised trial (conference abstract), 2013",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
           }
         ]
@@ -391,7 +391,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Поряд із цим вікова втрата м’язів — саркопенія — прискорюється приблизно з 40 років і ще більше посилюється в менопаузі. [Систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) зібрав рандомізовані дослідження нефармакологічних способів її запобігання й показав, що найпереконливіші результати дають силові тренування — три сесії на тиждень по двадцять–дев’яносто хвилин щонайменше шість тижнів. Щодо білка огляд обережний: автори підсумували, що потрібно більше досліджень, перш ніж робити висновок. Це варто тримати в голові — аргументи на користь білка нижче спираються на інші роботи, а тренувальна половина поради має міцнішу основу. М’язи — це не лише про силу чи естетику: вони напряму впливають на те, як тіло керує глюкозою, на метаболізм і щільність кісток."
+        "text": "Поряд із цим вікова втрата м’язів — саркопенія — прискорюється приблизно з 40 років і ще більше посилюється в менопаузі. [Систематичний огляд 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) зібрав рандомізовані дослідження нефармакологічних способів її запобігання й показав, що вправи допомагають, а найефективніші з них — силові — три сесії на тиждень по двадцять–дев’яносто хвилин щонайменше шість тижнів. Щодо білка огляд обережний: автори підсумували, що потрібно більше досліджень, перш ніж робити висновок. Це варто тримати в голові — аргументи на користь білка нижче спираються на інші роботи, а тренувальна половина поради має міцнішу основу. М’язи — це не лише про силу чи естетику: вони напряму впливають на те, як тіло керує глюкозою, на метаболізм і щільність кісток."
       },
       {
         "t": "p",
@@ -597,8 +597,8 @@ export default {
           },
           {
             "claim": "Загальний добовий білок важливіший за влучання у «вікно» після тренування.",
-            "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і схуднення порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Жоден із варіантів не виявився виразно кращим — це свідчить, що тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням.",
-            "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
+            "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і схуднення порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Результати опубліковано лише як тези конференції, а фінансувала дослідження Curves International — компанія, що проводить цю програму. Жоден із варіантів не виявився виразно кращим — це свідчить, що тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням.",
+            "cite": "Journal of the International Society of Sports Nutrition · Рандомізоване дослідження (тези конференції), 2013",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
           }
         ]

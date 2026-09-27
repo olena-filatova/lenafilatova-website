@@ -166,7 +166,7 @@ export default {
           },
           {
             "claim": "Resistance training leads non-pharmacological approaches for preserving muscle in menopausal women.",
-            "detail": "A 2023 systematic review and meta-analysis of 27 randomised controlled trials in BMC Women’s Health found that exercise — and resistance training in particular — was the most effective non-pharmacological approach for preserving muscle mass and strength through the menopausal transition.",
+            "detail": "A 2023 systematic review and meta-analysis of 27 randomised controlled trials in BMC Women’s Health found that exercise improved muscle mass and strength in women going through menopause, with resistance training the most effective type of exercise. It did not rank exercise against drug-free alternatives such as protein or vitamin D, for which it found too few trials.",
             "cite": "BMC Women’s Health · Systematic review & meta-analysis, 2023",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
           }
@@ -349,7 +349,7 @@ export default {
           },
           {
             "claim": "Силові тренування очолюють нефармакологічні підходи до збереження мʼязів у жінок у менопаузі.",
-            "detail": "Систематичний огляд і метааналіз 27 рандомізованих контрольованих досліджень 2023 року в BMC Women’s Health виявив, що вправи — і силові зокрема — були найефективнішим нефармакологічним підходом до збереження мʼязової маси й сили під час менопаузального переходу.",
+            "detail": "Систематичний огляд і метааналіз 27 рандомізованих контрольованих досліджень 2023 року в BMC Women’s Health виявив, що вправи покращують мʼязову масу й силу в жінок під час менопаузи, а найефективнішим видом вправ були силові. Порівняти вправи з іншими немедикаментозними підходами, як-от білок чи вітамін D, огляд не зміг — таких досліджень було замало.",
             "cite": "BMC Women’s Health · Систематичний огляд і метааналіз, 2023",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
           }

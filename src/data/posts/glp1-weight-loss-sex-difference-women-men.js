@@ -23,7 +23,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Now the part that got lost. The study was not designed to show that women do better — it was designed to look for differences across every subgroup the trials recorded, and it mostly found none. Weight loss was much the same across age groups, across racial and ethnic groups, across starting BMI and across baseline HbA1c. Sex was the single exception in the whole analysis. The researchers described it as “moderately greater efficacy” in women and framed the headline result as reassurance that these drugs work comparably well across the people likely to be prescribed them. A finding of broad sameness with one exception is a different story from a finding about women, and the second is the one that travelled."
+        "text": "Now the part that got lost. The study was not designed to show that women do better — it was designed to look for differences across every subgroup the trials recorded, and it mostly found none. Weight loss was much the same across age groups, across racial and ethnic groups, across starting BMI and across baseline HbA1c. Sex was the single exception in the whole analysis. The study’s senior author described it as “modestly greater effectiveness” among women and framed the headline result as reassurance that these drugs work comparably well across the people likely to be prescribed them. A finding of broad sameness with one exception is a different story from a finding about women, and the second is the one that travelled."
       },
       {
         "t": "p",
@@ -46,7 +46,7 @@ export default {
         "items": [
           {
             "claim": "Women lost 10.9% of body weight on GLP-1 drugs compared with 6.8% for men.",
-            "detail": "A systematic review and meta-analysis by researchers at the Johns Hopkins Bloomberg School of Public Health, published in JAMA Internal Medicine on 2 March 2026, covered 64 randomised controlled trials drawn from 41 published articles through mid-2024. Ten trials evaluated sex, and six of them, including 19,906 patients, could be pooled by sex; in that subset women lost a mean 10.9% of baseline body weight against 6.8% for men, a statistically significant difference of roughly four percentage points that the authors characterised as moderately greater efficacy. The analysis excluded tirzepatide because it is a dual GIP/GLP-1 agonist rather than a GLP-1 receptor agonist.",
+            "detail": "A systematic review and meta-analysis by researchers at the Johns Hopkins Bloomberg School of Public Health, published in JAMA Internal Medicine on 2 March 2026, covered 64 randomised controlled trials drawn from 41 published articles through mid-2024. Ten trials evaluated sex, and six of them, including 19,906 patients, could be pooled by sex; in that subset women lost a mean 10.9% of baseline body weight against 6.8% for men, a statistically significant difference of roughly four percentage points that the study’s senior author characterised as modestly greater effectiveness. The analysis excluded tirzepatide because it is a dual GIP/GLP-1 agonist rather than a GLP-1 receptor agonist.",
             "cite": "JAMA Internal Medicine · Systematic review and meta-analysis, 2 March 2026",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
           },
@@ -117,7 +117,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "А тепер те, що загубилося. Дослідження не було створене, щоб показати, що жінкам ведеться краще, — воно шукало відмінності в усіх підгрупах, які фіксували випробування, і здебільшого не знайшло жодних. Втрата ваги була приблизно однаковою в різних вікових групах, у різних расових та етнічних групах, за різного початкового ІМТ і за різного вихідного рівня HbA1c. Стать була єдиним винятком в усьому аналізі. Дослідники описали це як «помірно вищу ефективність» у жінок і подали головний результат як підтвердження того, що ці препарати працюють приблизно однаково для тих, кому їх імовірно призначатимуть. Висновок про загальну однаковість з одним винятком — це інша історія, ніж висновок про жінок, і саме друга розійшлася далі."
+        "text": "А тепер те, що загубилося. Дослідження не було створене, щоб показати, що жінкам ведеться краще, — воно шукало відмінності в усіх підгрупах, які фіксували випробування, і здебільшого не знайшло жодних. Втрата ваги була приблизно однаковою в різних вікових групах, у різних расових та етнічних групах, за різного початкового ІМТ і за різного вихідного рівня HbA1c. Стать була єдиним винятком в усьому аналізі. Старший автор дослідження описав це як «дещо вищу ефективність» у жінок і подав головний результат як підтвердження того, що ці препарати працюють приблизно однаково для тих, кому їх імовірно призначатимуть. Висновок про загальну однаковість з одним винятком — це інша історія, ніж висновок про жінок, і саме друга розійшлася далі."
       },
       {
         "t": "p",
@@ -140,7 +140,7 @@ export default {
         "items": [
           {
             "claim": "Жінки втратили 10,9% маси тіла на препаратах GLP-1 проти 6,8% у чоловіків.",
-            "detail": "Систематичний огляд і метааналіз дослідників зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса, опублікований у JAMA Internal Medicine 2 березня 2026 року, охопив 64 рандомізовані контрольовані дослідження з 41 опублікованої статті до середини 2024 року. Стать оцінювали десять досліджень, і шість із них, що включали 19 906 пацієнтів, вдалося об’єднати за статтю; у цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла проти 6,8% у чоловіків — статистично значуща різниця приблизно в чотири відсоткові пункти, яку автори охарактеризували як помірно вищу ефективність. Аналіз не включав тирзепатид, оскільки він є подвійним агоністом GIP/GLP-1, а не агоністом рецепторів GLP-1.",
+            "detail": "Систематичний огляд і метааналіз дослідників зі Школи громадського здоров’я Блумберга при Університеті Джонса Гопкінса, опублікований у JAMA Internal Medicine 2 березня 2026 року, охопив 64 рандомізовані контрольовані дослідження з 41 опублікованої статті до середини 2024 року. Стать оцінювали десять досліджень, і шість із них, що включали 19 906 пацієнтів, вдалося об’єднати за статтю; у цій підгрупі жінки втратили в середньому 10,9% початкової маси тіла проти 6,8% у чоловіків — статистично значуща різниця приблизно в чотири відсоткові пункти, яку старший автор дослідження охарактеризував як дещо вищу ефективність. Аналіз не включав тирзепатид, оскільки він є подвійним агоністом GIP/GLP-1, а не агоністом рецепторів GLP-1.",
             "cite": "JAMA Internal Medicine · Систематичний огляд і метааналіз, 2 березня 2026",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41770554/"
           },

@@ -128,7 +128,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The part I would not have predicted is what happens much later. In that Diabetes Care trial, the glucose-lowering effect of a resistance session was more prolonged than after aerobic exercise, extending well into the night. Anecdotally that matches me: the evening after heavy legs is the one I pay most attention to. I am not going to tell you what to do about that, because it is precisely the kind of thing that belongs in a conversation with your diabetes team — but knowing the pattern exists is what lets you have that conversation properly."
+        "text": "The part I would not have predicted is what happens much later. In that Diabetes Care trial, the glucose-lowering effect of a resistance session was more prolonged than after aerobic exercise — still showing 4.5 to 6 hours afterwards, with a non-significant trend towards more mild night-time lows. Anecdotally that matches me: the evening after heavy legs is the one I pay most attention to. I am not going to tell you what to do about that, because it is precisely the kind of thing that belongs in a conversation with your diabetes team — but knowing the pattern exists is what lets you have that conversation properly."
       },
       {
         "t": "quote",
@@ -164,7 +164,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "As oestrogen falls through perimenopause, insulin sensitivity drops with it — [I have written about how hard that made my own management](/blog/perimenopause-diabetes-blood-sugar/). Fat distribution shifts towards the visceral, which is the metabolically unhelpful kind. And muscle loss accelerates: [a 2023 systematic review and meta-analysis in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled 27 trials in menopausal women and found resistance training the most effective non-drug way to hold on to muscle mass and strength — three sessions a week, for at least six weeks. That is also why [protein intake matters more after 40 than the official guidelines suggest](/blog/protein-for-women-over-40/)."
+        "text": "As oestrogen falls through perimenopause, insulin sensitivity drops with it — [I have written about how hard that made my own management](/blog/perimenopause-diabetes-blood-sugar/). Fat distribution shifts towards the visceral, which is the metabolically unhelpful kind. And muscle loss accelerates: [a 2023 systematic review and meta-analysis in BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) pooled 27 trials in menopausal women and found that exercise improved muscle mass and strength, with resistance training the most effective prescription — three sessions a week, for at least six weeks. That is also why [protein intake matters more after 40 than the official guidelines suggest](/blog/protein-for-women-over-40/)."
       },
       {
         "t": "p",
@@ -215,7 +215,7 @@ export default {
         "items": [
           {
             "claim": "Resistance exercise causes less of a glucose decline than aerobic exercise, but a longer-lasting reduction afterwards.",
-            "detail": "A crossover trial in Diabetes Care had 12 physically active adults with type 1 diabetes complete 45 minutes of resistance exercise (three sets of seven exercises at 8RM), 45 minutes of running at 60% of VO₂max, and a no-exercise control on separate days. Glucose fell substantially less during resistance exercise than during aerobic exercise, while the post-exercise reduction in glycaemia was more prolonged after lifting — including overnight.",
+            "detail": "A crossover trial in Diabetes Care had 12 physically active adults with type 1 diabetes complete 45 minutes of resistance exercise (three sets of seven exercises at 8RM), 45 minutes of running at 60% of VO₂max, and a no-exercise control on separate days. Glucose fell substantially less during resistance exercise than during aerobic exercise, while the post-exercise reduction in glycaemia was more prolonged after lifting: glucose was significantly lower 4.5–6 hours after resistance exercise than after running. Mean overnight glucose did not differ between sessions, though there was a non-significant trend towards more mild nocturnal lows after lifting.",
             "cite": "Diabetes Care · Randomised crossover trial, 2013",
             "url": "https://diabetesjournals.org/care/article/36/3/537/38023/Resistance-Versus-Aerobic-ExerciseAcute-effects-on"
           },
@@ -232,7 +232,7 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/"
           },
           {
-            "claim": "Resistance training is the most effective non-drug way for menopausal women to hold on to muscle mass and strength.",
+            "claim": "Exercise helps menopausal women hold on to muscle mass and strength, and resistance training is the most effective prescription.",
             "detail": "A systematic review and meta-analysis in BMC Women’s Health pooled 27 randomised controlled trials and 1,989 participants to examine non-pharmacological approaches to preventing sarcopenia in menopausal women. Exercise improved lean body mass, handgrip strength and knee extension strength, and resistance training — three sessions a week, 20–90 minutes each, for at least six weeks — was the most effective prescription. The review found insufficient data to judge what protein supplementation adds to muscle strength. This matters for glucose as well as strength, since skeletal muscle is the main site of insulin-mediated glucose disposal.",
             "cite": "BMC Women’s Health · Systematic review and meta-analysis, 2023",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
@@ -392,7 +392,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Чого я не передбачила б — це те, що відбувається значно пізніше. У тому дослідженні Diabetes Care знижувальний ефект силової сесії був тривалішим, ніж після аеробної, і сягав глибоко в ніч. За моїми відчуттями це збігається: вечір після важких ніг — той, до якого я найуважніша. Я не казатиму вам, що з цим робити, бо це саме той випадок, який належить розмові з вашою діабетичною командою, — але знання про існування патерну і є тим, що дає змогу провести цю розмову як слід."
+        "text": "Чого я не передбачила б — це те, що відбувається значно пізніше. У тому дослідженні Diabetes Care знижувальний ефект силової сесії був тривалішим, ніж після аеробної, — і ще був помітний через 4,5–6 годин, зі статистично незначущою тенденцією до частіших легких нічних гіпоглікемій. За моїми відчуттями це збігається: вечір після важких ніг — той, до якого я найуважніша. Я не казатиму вам, що з цим робити, бо це саме той випадок, який належить розмові з вашою діабетичною командою, — але знання про існування патерну і є тим, що дає змогу провести цю розмову як слід."
       },
       {
         "t": "quote",
@@ -428,7 +428,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Зі зниженням естрогену в перименопаузі падає й чутливість до інсуліну — [я вже писала, наскільки важчим це зробило мій власний контроль](/ua/blog/perimenopause-diabetes-blood-sugar/). Розподіл жиру зміщується до вісцерального, метаболічно найнесприятливішого. І втрата м’язів прискорюється: [систематичний огляд і метааналіз 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) об’єднав 27 досліджень за участю жінок у менопаузі й показав, що силові тренування — тричі на тиждень, щонайменше шість тижнів — найдієвіший немедикаментозний спосіб зберегти м’язову масу й силу. Саме тому [білка після 40 потрібно більше, ніж радять офіційні норми](/ua/blog/protein-for-women-over-40/)."
+        "text": "Зі зниженням естрогену в перименопаузі падає й чутливість до інсуліну — [я вже писала, наскільки важчим це зробило мій власний контроль](/ua/blog/perimenopause-diabetes-blood-sugar/). Розподіл жиру зміщується до вісцерального, метаболічно найнесприятливішого. І втрата м’язів прискорюється: [систематичний огляд і метааналіз 2023 року в BMC Women’s Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/) об’єднав 27 досліджень за участю жінок у менопаузі й показав, що вправи допомагають зберегти м’язову масу й силу, а силові тренування — тричі на тиждень, щонайменше шість тижнів — найдієвіший варіант. Саме тому [білка після 40 потрібно більше, ніж радять офіційні норми](/ua/blog/protein-for-women-over-40/)."
       },
       {
         "t": "p",
@@ -479,7 +479,7 @@ export default {
         "items": [
           {
             "claim": "Силові вправи спричиняють менше падіння глюкози, ніж аеробні, але триваліше зниження після них.",
-            "detail": "У перехресному дослідженні в Diabetes Care 12 фізично активних дорослих із діабетом 1 типу в різні дні виконували 45 хвилин силового тренування (три сети з семи вправ на 8ПМ), 45 хвилин бігу на рівні 60% VO₂max і контрольний день без вправ. Під час силового глюкоза падала значно менше, ніж під час аеробного, тоді як зниження глікемії після заняття було тривалішим саме після штанги — включно з нічними годинами.",
+            "detail": "У перехресному дослідженні в Diabetes Care 12 фізично активних дорослих із діабетом 1 типу в різні дні виконували 45 хвилин силового тренування (три сети з семи вправ на 8ПМ), 45 хвилин бігу на рівні 60% VO₂max і контрольний день без вправ. Під час силового глюкоза падала значно менше, ніж під час аеробного, тоді як зниження глікемії після заняття було тривалішим саме після штанги: через 4,5–6 годин після силового заняття глюкоза була значно нижчою, ніж після бігу. Середня нічна глюкоза не відрізнялася, хоча після силового спостерігалася статистично незначуща тенденція до частіших легких нічних гіпоглікемій.",
             "cite": "Diabetes Care · Рандомізоване перехресне дослідження, 2013",
             "url": "https://diabetesjournals.org/care/article/36/3/537/38023/Resistance-Versus-Aerobic-ExerciseAcute-effects-on"
           },
@@ -496,7 +496,7 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/"
           },
           {
-            "claim": "Силові тренування — найдієвіший немедикаментозний спосіб для жінок у менопаузі зберегти м’язову масу й силу.",
+            "claim": "Вправи допомагають жінкам у менопаузі зберегти м’язову масу й силу, а силові тренування — найдієвіший варіант.",
             "detail": "Систематичний огляд і метааналіз у BMC Women’s Health об’єднав 27 рандомізованих контрольованих досліджень і 1 989 учасниць, щоб розглянути нефармакологічні підходи до запобігання саркопенії в жінок у менопаузі. Фізичні вправи покращили суху масу тіла, силу хвата й силу розгинання коліна, а силові тренування — тричі на тиждень, по 20–90 хвилин, щонайменше шість тижнів — виявилися найдієвішими. Щодо білкових добавок даних виявилося недостатньо, щоб оцінити їх вплив на м’язову силу. Це важливо не лише для сили, а й для глюкози, бо саме скелетні м’язи є основним місцем інсулін-опосередкованої утилізації глюкози.",
             "cite": "BMC Women’s Health · Систематичний огляд і метааналіз, 2023",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
