@@ -38,7 +38,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The second paper is much larger and much more limited in a different way. A team surveyed 709 perimenopausal women in Southwest China between 2022 and 2024, asking about mind-body exercise — tai chi, qigong, yoga, that family of practice — alongside depressive symptoms, social support and subjective well-being. Women with depressive symptoms reported significantly less mind-body exercise, less social support and lower well-being than women without (P<0.001 for each). Modelling the relationships suggested the link between exercise and mood ran partly through social support and well-being rather than directly."
+        "text": "The second paper is much larger and much more limited in a different way. A team surveyed 709 perimenopausal women in Southwest China between 2022 and 2024, asking about mind-body exercise — tai chi, qigong, yoga, that family of practice — alongside depressive symptoms, social support and subjective well-being. Women with depressive symptoms reported significantly less mind-body exercise, less social support and lower well-being than women without (P<0.001 for each). Modelling the relationships suggested the link between exercise and mood ran partly through social support and well-being."
       },
       {
         "t": "p",
@@ -58,7 +58,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Running underneath all three is sleep. The same issue carries a Practice Pearl on sleep disturbance in midlife women, which notes that poor and fragmented sleep in this group rarely arrives alone: it travels with depressive and anxiety symptoms, hot flushes, substance use, trauma history and relationship stress, and that evidence-based cognitive-behavioural sleep interventions exist and are underused. The advice to clinicians is embarrassingly basic — ask midlife women about their sleep. It is worth knowing that this needed saying. Sleep is not a soft symptom either: [ninety minutes less of it raised insulin resistance measurably in women](/blog/sleep-insulin-resistance-women/)."
+        "text": "Running underneath all three is sleep. The same issue carries a Practice Pearl on sleep disturbance in midlife women, which notes that poor and fragmented sleep in this group often does not arrive alone: it tends to travel with depressive and anxiety symptoms, hot flushes, substance use, trauma history and relationship stress, and that evidence-based cognitive-behavioural sleep interventions exist. The advice to clinicians is embarrassingly basic — ask midlife women about their sleep. It is worth knowing that this needed saying. Sleep is not a soft symptom either: [ninety minutes less of it raised insulin resistance measurably in women](/blog/sleep-insulin-resistance-women/)."
       },
       {
         "t": "p",
@@ -84,13 +84,13 @@ export default {
             "url": "https://doi.org/10.1097/gme.0000000000002749"
           },
           {
-            "claim": "Standard CBT, not tailored to menopause, reduced anxiety scores 56% in a small pilot.",
+            "claim": "With standard CBT, not tailored to menopause, anxiety scores fell 56% in a small pilot.",
             "detail": "A pilot case series of eight 45-minute individual CBT sessions with a clinical psychologist, using general CBT skills (behavioural activation, reframing negative automatic thoughts) rather than a menopause-specific protocol, in perimenopausal and postmenopausal participants reporting mood symptoms. Twenty completed at least one session and 16 completed all eight. PHQ-9 depression scores fell 42.1% (mean 8.74 [SD 5.48] to 5.06 [4.77]; t=3.98, P=0.001) and GAD-7 anxiety scores fell 56.2% (6.98 [4.38] to 3.06 [4.34]; t=3.39, P=0.004). This is a chart-abstraction case series with no control group; the authors state that a larger clinical trial design is needed.",
             "cite": "Hantsoo L et al. · Menopause 2026;33(8):927–931",
             "url": "https://doi.org/10.1097/gme.0000000000002746"
           },
           {
-            "claim": "Sleep disturbance in midlife rarely arrives alone, and effective non-drug treatments are underused.",
+            "claim": "Sleep disturbance in midlife often arrives alongside other problems, and evidence-based non-drug treatments exist.",
             "detail": "A Practice Pearl in the same issue. Fragmented and poor-quality sleep and clinical insomnia are common in midlife women and may be attributable in part to the menopause transition; they often co-occur with depressive and anxiety symptoms, vasomotor symptoms, substance use, trauma history and relationship stressors. Chronic sleep disturbance is related to poorer health and productivity. Both pharmacologic and non-pharmacologic treatments exist, including evidence-based cognitive-behavioural sleep interventions, and clinicians are urged to ask midlife women about sleep and refer on. This is clinical guidance, not a new study.",
             "cite": "Jakubowski K · Menopause 2026;33(8):935–937",
             "url": "https://doi.org/10.1097/gme.0000000000002776"
@@ -122,7 +122,7 @@ export default {
     "faq": [
       {
         "q": "Is anxiety in perimenopause caused by hormones?",
-        "a": "Partly, but the August 2026 qualitative study suggests that framing is too narrow. Women described hormonal and physical changes as one of six contributing factors, alongside uncertainty about what was happening to them, worry about their health, mid-life stressors and their own medical history. Not knowing you are in perimenopause appears to make the anxiety worse on its own. That also means anxiety in your forties is not automatically menopausal — thyroid disease, anaemia and depression unrelated to the transition present the same way, and are worth ruling out."
+        "a": "Partly, but the August 2026 qualitative study suggests that framing is too narrow. Women described hormonal and physical changes as among six contributing themes, alongside uncertainty about what was happening to them, worry about their health, mid-life stressors and their own medical history. Not knowing you are in perimenopause appears to make the anxiety worse on its own. That also means anxiety in your forties is not automatically menopausal — thyroid disease, anaemia and depression unrelated to the transition present the same way, and are worth ruling out."
       },
       {
         "q": "Does yoga or tai chi actually help low mood in perimenopause?",
@@ -158,7 +158,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Друга стаття значно більша й обмежена інакше. Команда опитала 709 жінок у перименопаузі на південному заході Китаю у 2022–2024 роках про практики «тіло-розум» — тайцзи, цигун, йогу та подібне — разом із симптомами депресії, соціальною підтримкою та суб’єктивним благополуччям. Жінки з депресивними симптомами повідомляли про значно менше таких практик, меншу соціальну підтримку й нижче благополуччя, ніж жінки без них (P<0,001 для кожного показника). Моделювання зв’язків показало, що зв’язок між рухом і настроєм пролягав частково через соціальну підтримку й благополуччя, а не напряму."
+        "text": "Друга стаття значно більша й обмежена інакше. Команда опитала 709 жінок у перименопаузі на південному заході Китаю у 2022–2024 роках про практики «тіло-розум» — тайцзи, цигун, йогу та подібне — разом із симптомами депресії, соціальною підтримкою та суб’єктивним благополуччям. Жінки з депресивними симптомами повідомляли про значно менше таких практик, меншу соціальну підтримку й нижче благополуччя, ніж жінки без них (P<0,001 для кожного показника). Моделювання зв’язків показало, що зв’язок між рухом і настроєм пролягав частково через соціальну підтримку й благополуччя."
       },
       {
         "t": "p",
@@ -178,7 +178,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Під усіма трьома роботами лежить сон. У тому ж випуску є Practice Pearl про порушення сну в жінок середнього віку: поганий і фрагментований сон у цій групі рідко приходить сам — він іде разом із депресивними й тривожними симптомами, припливами, вживанням психоактивних речовин, травматичним анамнезом і стресом у стосунках, а доказові когнітивно-поведінкові втручання для сну існують і використовуються замало. Порада клініцистам аж ніякова у своїй базовості — питайте жінок середнього віку про сон. Варто знати, що це довелося проговорити окремо. Сон — теж не «м’який» симптом: [на півтори години менше сну помітно підвищувало інсулінорезистентність у жінок](/ua/blog/sleep-insulin-resistance-women/)."
+        "text": "Під усіма трьома роботами лежить сон. У тому ж випуску є Practice Pearl про порушення сну в жінок середнього віку: поганий і фрагментований сон у цій групі часто приходить не сам — він зазвичай іде разом із депресивними й тривожними симптомами, припливами, вживанням психоактивних речовин, травматичним анамнезом і стресом у стосунках, а доказові когнітивно-поведінкові втручання для сну існують. Порада клініцистам аж ніякова у своїй базовості — питайте жінок середнього віку про сон. Варто знати, що це довелося проговорити окремо. Сон — теж не «м’який» симптом: [на півтори години менше сну помітно підвищувало інсулінорезистентність у жінок](/ua/blog/sleep-insulin-resistance-women/)."
       },
       {
         "t": "p",
@@ -204,13 +204,13 @@ export default {
             "url": "https://doi.org/10.1097/gme.0000000000002749"
           },
           {
-            "claim": "Звичайна КПТ, не адаптована під менопаузу, знизила показники тривоги на 56% у невеликому пілоті.",
+            "claim": "На тлі звичайної КПТ, не адаптованої під менопаузу, показники тривоги знизилися на 56% у невеликому пілоті.",
             "detail": "Пілотна серія випадків: вісім індивідуальних сеансів КПТ по 45 хвилин із клінічним психологом, зі стандартними навичками (поведінкова активація, переформулювання автоматичних думок) без менопаузальної специфіки, у жінок у перименопаузі та постменопаузі із симптомами з боку настрою. Двадцять учасниць пройшли щонайменше один сеанс, шістнадцять — усі вісім. Показники депресії за PHQ-9 знизилися на 42,1% (середнє 8,74 [SD 5,48] → 5,06 [4,77]; t=3,98; P=0,001), тривоги за GAD-7 — на 56,2% (6,98 [4,38] → 3,06 [4,34]; t=3,39; P=0,004). Це серія випадків за медичними записами без контрольної групи; автори зазначають, що потрібне більше дослідження з дизайном клінічного випробування.",
             "cite": "Hantsoo L et al. · Menopause 2026;33(8):927–931",
             "url": "https://doi.org/10.1097/gme.0000000000002746"
           },
           {
-            "claim": "Порушення сну в середньому віці рідко приходить саме, а дієві немедикаментозні втручання використовують замало.",
+            "claim": "Порушення сну в середньому віці часто приходить разом з іншими проблемами, а доказові немедикаментозні втручання існують.",
             "detail": "Practice Pearl у тому ж випуску. Фрагментований і неякісний сон та клінічне безсоння поширені в жінок середнього віку й частково можуть бути пов’язані з менопаузальним переходом; вони часто співіснують із депресивними й тривожними симптомами, вазомоторними симптомами, вживанням психоактивних речовин, травматичним анамнезом і стресом у стосунках. Хронічне порушення сну пов’язане з гіршим здоров’ям і продуктивністю. Існують і медикаментозні, і немедикаментозні методи, зокрема доказові когнітивно-поведінкові втручання для сну; клініцистам радять питати жінок середнього віку про сон і скеровувати далі. Це клінічна настанова, а не нове дослідження.",
             "cite": "Jakubowski K · Menopause 2026;33(8):935–937",
             "url": "https://doi.org/10.1097/gme.0000000000002776"
@@ -242,7 +242,7 @@ export default {
     "faq": [
       {
         "q": "Чи тривога в перименопаузі спричинена гормонами?",
-        "a": "Частково — але якісне дослідження серпня 2026 року показує, що така рамка завузька. Жінки описували гормональні та фізичні зміни як один із шести чинників, поряд із невизначеністю щодо того, що з ними відбувається, тривогою за здоров’я, стресорами середнього віку й власним медичним анамнезом. Саме незнання про перименопаузу, схоже, погіршує тривогу окремо. Це також означає, що тривога після сорока не є автоматично менопаузальною: захворювання щитоподібної залози, анемія та депресія, не пов’язана з переходом, виглядають так само — їх варто виключити."
+        "a": "Частково — але якісне дослідження серпня 2026 року показує, що така рамка завузька. Жінки називали гормональні та фізичні зміни серед шести тем-чинників, поряд із невизначеністю щодо того, що з ними відбувається, тривогою за здоров’я, стресорами середнього віку й власним медичним анамнезом. Саме незнання про перименопаузу, схоже, погіршує тривогу окремо. Це також означає, що тривога після сорока не є автоматично менопаузальною: захворювання щитоподібної залози, анемія та депресія, не пов’язана з переходом, виглядають так само — їх варто виключити."
       },
       {
         "q": "Чи справді йога або тайцзи допомагають при зниженому настрої в перименопаузі?",
