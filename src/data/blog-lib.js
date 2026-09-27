@@ -31,7 +31,12 @@ export const UI = {
     latest: 'Latest',
     empty: 'No articles in this category yet — more are on the way.',
     byline: 'By Lena Filatova',
-    readAlt: '🇺🇦 Читати українською',
+    // OPS-307: was '🇺🇦 Читати українською'. A flag stands for a country, not
+    // a language — and the glyph renders as two letters on Windows. The link
+    // now carries the header toggle's own device: a hairline UA/EN code box
+    // followed by the language's name in its own language.
+    altCode: 'UA',
+    readAlt: 'Читати українською',
     faqTitle: 'Frequently asked questions',
     refsNote: 'What the research says',
     comingSoonBadge: 'Coming soon',
@@ -54,7 +59,8 @@ export const UI = {
     latest: 'Найновіше',
     empty: 'У цій категорії поки немає статей — скоро з’являться нові.',
     byline: 'Автор: Lena Filatova',
-    readAlt: '🇬🇧 Read in English',
+    altCode: 'EN',
+    readAlt: 'Read in English',
     faqTitle: 'Часті запитання',
     refsNote: 'Що кажуть дослідження',
     comingSoonBadge: 'Незабаром',
