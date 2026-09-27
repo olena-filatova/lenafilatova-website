@@ -41,7 +41,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This part is not controversial. As oestrogen fluctuates and then declines through perimenopause, insulin sensitivity falls. Body composition shifts — fat redistributes towards the abdomen and visceral depots, and muscle mass tends to decline unless you actively defend it. Because muscle is where a large share of non-insulin-dependent glucose uptake happens, losing it means glucose has fewer places to go."
+        "text": "This part is not controversial. As oestrogen fluctuates and then declines through perimenopause, insulin sensitivity falls. Body composition shifts — fat redistributes towards the abdomen and visceral depots, and muscle mass tends to decline unless you actively defend it. Because muscle is where most of the glucose from a meal is taken up, losing it means glucose has fewer places to go."
       },
       {
         "t": "p",
@@ -69,7 +69,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is where the strongest diabetes-specific evidence sits. A 2023 systematic review and meta-analysis in Diabetes Care examined the effect of postmenopausal hormone therapy on glucose regulation in women with diabetes, and found improvements in fasting plasma glucose, fasting insulin and insulin resistance indices in type 2 diabetes. HbA1c also improved in several of the pooled trials."
+        "text": "This is where the strongest diabetes-specific evidence sits. A 2023 systematic review and meta-analysis in Diabetes Care pooled 19 randomised trials of postmenopausal hormone therapy in women with diabetes and found that it lowered HbA1c by about 0.6 percentage points (6 mmol/mol) and fasting glucose by about 1.2 mmol/L. Only 4% of the 1,412 participants had type 1 diabetes, and half the trials were at high risk of bias."
       },
       {
         "t": "p",
@@ -97,7 +97,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In the absence of trials, the next best evidence is what women actually report. Survey work on women with type 1 diabetes going through menopause finds a substantial proportion describing worsened and less predictable glucose after the transition, and difficulty distinguishing hot flushes from hypoglycaemia — a symptom overlap that is both dangerous and almost never mentioned in general menopause material."
+        "text": "In the absence of trials, the next best evidence is what women actually report. A Dutch survey of 159 postmenopausal women with type 1 diabetes found two-thirds reporting moderate to severe changes in their glucose after their final period — 42% perceived higher levels, 20% lower, and 55% more fluctuation. The authors also point out that hot flushes and night sweats can mimic a hypo — a symptom overlap that is both dangerous and almost never mentioned in general menopause material."
       },
       {
         "t": "p",
@@ -201,7 +201,7 @@ export default {
         "items": [
           {
             "claim": "Hormone therapy improves glucose regulation in women with diabetes — mostly type 2.",
-            "detail": "A 2023 systematic review and meta-analysis in Diabetes Care examined the effect of postmenopausal hormone therapy on glucose regulation in women with diabetes, reporting improvements in fasting plasma glucose, fasting insulin and insulin resistance indices. The evidence base is dominated by type 2 diabetes.",
+            "detail": "A 2023 systematic review and meta-analysis in Diabetes Care pooled 19 randomised trials (1,412 women) of postmenopausal hormone therapy in women with diabetes: HbA1c fell by 0.56 percentage points (−6 mmol/mol) and fasting glucose by 1.15 mmol/L. Only 4% of participants had type 1 diabetes; the authors call the effect neutral to beneficial in type 2 and the type 1 evidence limited.",
             "cite": "Diabetes Care · Systematic review and meta-analysis, 2023",
             "url": "https://diabetesjournals.org/care/article/46/10/1866/153635/Effect-of-Postmenopausal-Hormone-Therapy-on"
           },
@@ -213,13 +213,13 @@ export default {
           },
           {
             "claim": "Falling oestrogen worsens insulin resistance and body-fat distribution.",
-            "detail": "The menopause transition and early postmenopausal period are associated with increased total and central obesity, and increased visceral fat with insulin resistance — the mechanistic basis for shifting insulin requirements, alongside reduced non-insulin-dependent glucose uptake as muscle mass falls. This is the background framing of a controlled study of hormone therapy in 40 postmenopausal women with type 2 diabetes, not a review of the menopause transition in its own right.",
+            "detail": "The menopause transition and early postmenopausal period are associated with increased total and central obesity, and increased visceral fat with insulin resistance — a mechanistic basis for shifting insulin requirements. The study does not discuss muscle loss; that point in the article is general physiology. This is the background framing of a controlled study of hormone therapy in 40 postmenopausal women with type 2 diabetes, not a review of the menopause transition in its own right.",
             "cite": "Controlled study in 40 postmenopausal women with type 2 diabetes · PubMed Central",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4884259/"
           },
           {
             "claim": "Women with type 1 diabetes report worse and less predictable glucose after menopause.",
-            "detail": "Survey and observational work in women with type 1 diabetes going through the menopause transition reports perceived worsening of glucose regulation, greater variability, and difficulty distinguishing vasomotor symptoms from hypoglycaemia.",
+            "detail": "An online survey of 159 postmenopausal women with type 1 diabetes aged 45–65: 67.4% reported moderate to severe changes in glucose regulation after their final period (41.9% higher glucose, 19.6% lower, 55.0% more fluctuation). The authors note that vasomotor symptoms can mimic hypoglycaemia; the survey did not measure this directly.",
             "cite": "Diabetologia · Cross-sectional survey of 159 women with type 1 diabetes, Netherlands",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12534243/"
           },
@@ -283,7 +283,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ця частина не є суперечливою. Коли естроген коливається, а потім знижується протягом перименопаузи, чутливість до інсуліну падає. Змінюється склад тіла: жир перерозподіляється до живота й вісцеральних депо, а м’язова маса має тенденцію зменшуватися, якщо її активно не захищати. Оскільки саме м’язи забезпечують значну частку неінсулінозалежного захоплення глюкози, їх втрата означає, що глюкозі просто нема куди подітися."
+        "text": "Ця частина не є суперечливою. Коли естроген коливається, а потім знижується протягом перименопаузи, чутливість до інсуліну падає. Змінюється склад тіла: жир перерозподіляється до живота й вісцеральних депо, а м’язова маса має тенденцію зменшуватися, якщо її активно не захищати. Оскільки саме м’язи поглинають більшу частину глюкози з їжі, їх втрата означає, що глюкозі просто нема куди подітися."
       },
       {
         "t": "p",
@@ -311,7 +311,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме тут зосереджені найсильніші докази, пов’язані з діабетом. Систематичний огляд і метааналіз 2023 року в Diabetes Care розглянув вплив постменопаузальної гормональної терапії на регуляцію глюкози в жінок із діабетом і виявив покращення глюкози натще, інсуліну натще та індексів інсулінорезистентності при діабеті 2 типу. У кількох об’єднаних дослідженнях покращився і HbA1c."
+        "text": "Саме тут зосереджені найсильніші докази, пов’язані з діабетом. Систематичний огляд і метааналіз 2023 року в Diabetes Care об’єднав 19 рандомізованих досліджень постменопаузальної гормональної терапії в жінок із діабетом і виявив, що вона знижувала HbA1c приблизно на 0,6 процентного пункту (6 ммоль/моль), а глюкозу натще — приблизно на 1,2 ммоль/л. Лише 4% з 1412 учасниць мали діабет 1 типу, а половина досліджень мала високий ризик упередженості."
       },
       {
         "t": "p",
@@ -339,7 +339,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "За відсутності клінічних досліджень наступні за якістю докази — це те, що жінки повідомляють самі. Опитування жінок із діабетом 1 типу, які проходять менопаузу, показують, що значна частка описує погіршення й меншу передбачуваність глюкози після переходу, а також труднощі з тим, щоб відрізнити припливи від гіпоглікемії — збіг симптомів, який є і небезпечним, і майже ніколи не згадується в загальних матеріалах про менопаузу."
+        "text": "За відсутності клінічних досліджень наступні за якістю докази — це те, що жінки повідомляють самі. Нідерландське опитування 159 жінок із діабетом 1 типу в постменопаузі показало, що дві третини помітили помірні або сильні зміни глюкози після останньої менструації: 42% — вищий рівень, 20% — нижчий, 55% — більше коливань. Автори також зазначають, що припливи й нічна пітливість можуть імітувати гіпоглікемію — збіг симптомів, який є і небезпечним, і майже ніколи не згадується в загальних матеріалах про менопаузу."
       },
       {
         "t": "p",
@@ -443,7 +443,7 @@ export default {
         "items": [
           {
             "claim": "Гормональна терапія покращує регуляцію глюкози в жінок із діабетом — переважно 2 типу.",
-            "detail": "Систематичний огляд і метааналіз 2023 року в Diabetes Care розглянув вплив постменопаузальної гормональної терапії на регуляцію глюкози в жінок із діабетом і показав покращення глюкози натще, інсуліну натще та індексів інсулінорезистентності. Доказова база переважно стосується діабету 2 типу.",
+            "detail": "Систематичний огляд і метааналіз 2023 року в Diabetes Care об’єднав 19 рандомізованих досліджень (1412 жінок) постменопаузальної гормональної терапії в жінок із діабетом: HbA1c знизився на 0,56 процентного пункту (−6 ммоль/моль), а глюкоза натще — на 1,15 ммоль/л. Лише 4% учасниць мали діабет 1 типу; автори оцінюють ефект як нейтральний або сприятливий при діабеті 2 типу, а докази щодо діабету 1 типу — як обмежені.",
             "cite": "Diabetes Care · Систематичний огляд і метааналіз, 2023",
             "url": "https://diabetesjournals.org/care/article/46/10/1866/153635/Effect-of-Postmenopausal-Hormone-Therapy-on"
           },
@@ -455,13 +455,13 @@ export default {
           },
           {
             "claim": "Зниження естрогену погіршує інсулінорезистентність і розподіл жирової тканини.",
-            "detail": "Менопаузальний перехід і рання постменопауза пов’язані зі зростанням загального й центрального ожиріння, а зростання вісцерального жиру — з інсулінорезистентністю; це механістична основа для зміни потреби в інсуліні, поряд зі зменшенням неінсулінозалежного захоплення глюкози через втрату м’язової маси. Це вступна частина контрольованого дослідження гормональної терапії в 40 жінок у постменопаузі з діабетом 2 типу, а не огляд менопаузального переходу як такий.",
+            "detail": "Менопаузальний перехід і рання постменопауза пов’язані зі зростанням загального й центрального ожиріння, а зростання вісцерального жиру — з інсулінорезистентністю; це механістична основа для зміни потреби в інсуліні. Саме дослідження втрату м’язової маси не розглядає; цей пункт у статті — загальна фізіологія. Це вступна частина контрольованого дослідження гормональної терапії в 40 жінок у постменопаузі з діабетом 2 типу, а не огляд менопаузального переходу як такий.",
             "cite": "Контрольоване дослідження 40 жінок у постменопаузі з діабетом 2 типу · PubMed Central",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4884259/"
           },
           {
             "claim": "Жінки з діабетом 1 типу повідомляють про гірший і менш передбачуваний цукор після менопаузи.",
-            "detail": "Опитування та спостережні дослідження жінок із діабетом 1 типу в менопаузальному переході повідомляють про суб’єктивне погіршення регуляції глюкози, більшу мінливість і труднощі з розрізненням вазомоторних симптомів і гіпоглікемії.",
+            "detail": "Онлайн-опитування 159 жінок із діабетом 1 типу в постменопаузі віком 45–65 років: 67,4% повідомили про помірні або сильні зміни регуляції глюкози після останньої менструації (41,9% — вища глюкоза, 19,6% — нижча, 55,0% — більше коливань). Автори зазначають, що вазомоторні симптоми можуть імітувати гіпоглікемію; саме опитування цього не вимірювало.",
             "cite": "Diabetologia · Перехресне опитування 159 жінок із діабетом 1 типу, Нідерланди",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12534243/"
           },

@@ -77,7 +77,7 @@ export default {
           ],
           [
             "Weight loss means bone loss, and the bone does not come back",
-            "Postmenopausal women, extrapolated from a 2006 exercise study",
+            "Postmenopausal women, extrapolated from a 2005 exercise study",
             "Low — one expert’s reading of existing data. No trial has tested GLP-1s and bone directly"
           ],
           [
@@ -138,7 +138,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Wendy Kohrt has studied bone and exercise for 35 years, and her position is blunt: weight loss means bone loss. Her own 2006 study is the uncomfortable part. Women on a supervised six-month exercise programme lost about ten pounds, and unusually the loss was fat rather than muscle — and they still lost more bone than women who had not lost weight. Followed for another year, neither those who regained weight nor those who did not regained any bone density."
+        "text": "Wendy Kohrt has studied bone and exercise for 35 years, and her position is blunt: weight loss means bone loss. Her own 2005 study is the uncomfortable part. Women on a supervised six-month exercise programme lost about 4 kg (nine pounds), and unusually the loss was fat rather than muscle — and they still lost more bone than women who had not lost weight. The women from the placebo group were followed for another year, in which they regained about three-quarters of the weight they had lost. Their bone density did not come back with it."
       },
       {
         "t": "p",
@@ -162,7 +162,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Read through Kohrt’s lens, more weight lost is also not straightforwardly good news for a skeleton — though oestrogen itself protects bone, which pulls the other way. Both things are true and nobody has run the study that settles it."
+        "text": "Read through Kohrt’s lens, more weight lost is also not straightforwardly good news for a skeleton — though oestrogen itself protects bone, which pulls the other way. Both things are true. Kohrt’s own 2005 trial did give some women hormone therapy during the exercise weight loss, and their bone density rose about 1% while the placebo group’s fell about 1.5% — but that was around 4 kg lost over six months, and nobody has run that study with a GLP-1."
       },
       {
         "t": "h",
@@ -241,7 +241,7 @@ export default {
           },
           {
             "claim": "Weight loss causes bone loss even when the weight lost is fat — and the bone does not return when the weight does.",
-            "detail": "Wendy Kohrt (University of Colorado Anschutz) describing her 2006 supervised-exercise study and its one-year follow-up, in which neither participants who regained weight nor those who did not regained bone density. She reports that about 15% of US adult women have used a GLP-1, with use highest among those aged 50 to 64. This is an expert interview reading across existing data, not a trial of GLP-1s and bone.",
+            "detail": "Wendy Kohrt (University of Colorado Anschutz) describing her 2005 supervised-exercise study and its one-year follow-up of the placebo group, who regained about three-quarters of the weight they had lost without regaining bone density. She reports that about 15% of US adult women say they are currently taking a GLP-1, with current use highest among adults aged 50 to 64. This is an expert interview reading across existing data, not a trial of GLP-1s and bone.",
             "cite": "UCHealth Today · Expert interview, 22 June 2026",
             "url": "https://www.uchealth.org/today/menopause-and-glp-1-weight-loss-drugs-and-bone-loss/"
           },
@@ -401,7 +401,7 @@ export default {
           ],
           [
             "Втрата ваги означає втрату кістки, і кістка не повертається",
-            "Жінки в постменопаузі; екстраполяція з дослідження 2006 року про фізичні навантаження",
+            "Жінки в постменопаузі; екстраполяція з дослідження 2005 року про фізичні навантаження",
             "Низько — прочитання наявних даних однією експерткою. Жодне дослідження не перевіряло GLP-1 і кістку напряму"
           ],
           [
@@ -462,7 +462,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Венді Корт вивчає кістки й фізичні навантаження 35 років, і її позиція пряма: втрата ваги означає втрату кісткової маси. Її власне дослідження 2006 року — найнезручніша частина. Жінки на шестимісячній програмі тренувань під наглядом втратили близько десяти фунтів, і, що незвично, втрата припала на жир, а не на м’язи — і вони все одно втратили більше кісткової маси, ніж жінки, які не худнули. За рік подальшого спостереження щільність кісток не відновилася ані в тих, хто набрав вагу назад, ані в тих, хто не набрав."
+        "text": "Венді Корт вивчає кістки й фізичні навантаження 35 років, і її позиція пряма: втрата ваги означає втрату кісткової маси. Її власне дослідження 2005 року — найнезручніша частина. Жінки на шестимісячній програмі тренувань під наглядом втратили близько 4 кг, і, що незвично, втрата припала на жир, а не на м’язи — і вони все одно втратили більше кісткової маси, ніж жінки, які не худнули. За жінками з групи плацебо спостерігали ще рік, і за цей час вони набрали назад приблизно три чверті втраченої ваги. Щільність кісток разом із нею не повернулася."
       },
       {
         "t": "p",
@@ -486,7 +486,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Крізь призму Корт більша втрата ваги — теж не однозначно добра новина для скелета, хоча сам естроген захищає кістки, що тягне в інший бік. Обидва твердження правдиві, і ніхто не провів дослідження, яке б це вирішило."
+        "text": "Крізь призму Корт більша втрата ваги — теж не однозначно добра новина для скелета, хоча сам естроген захищає кістки, що тягне в інший бік. Обидва твердження правдиві. У дослідженні самої Корт 2005 року частина жінок отримувала гормональну терапію під час схуднення через тренування, і їхня щільність кісток зросла приблизно на 1%, тоді як у групі плацебо знизилася приблизно на 1,5% — але йшлося про втрату близько 4 кг за пів року, і з препаратами GLP-1 такого дослідження ніхто не проводив."
       },
       {
         "t": "h",
@@ -565,7 +565,7 @@ export default {
           },
           {
             "claim": "Втрата ваги спричиняє втрату кісткової маси навіть тоді, коли втрачається жир, — і кістка не повертається разом із вагою.",
-            "detail": "Венді Корт (Університет Колорадо, Аншутц) описує своє дослідження 2006 року з контрольованими фізичними навантаженнями та річне спостереження після нього, у якому щільність кісток не відновилася ані в учасниць, які набрали вагу назад, ані в тих, хто не набрав. Вона повідомляє, що близько 15% дорослих американок приймали препарат GLP-1, найбільше — у віці 50–64 років. Це експертне інтерв’ю з прочитанням наявних даних, а не дослідження GLP-1 і кісток.",
+            "detail": "Венді Корт (Університет Колорадо, Аншутц) описує своє дослідження 2005 року з контрольованими фізичними навантаженнями та річне спостереження за групою плацебо, яка набрала назад приблизно три чверті втраченої ваги, але не відновила щільність кісток. Вона повідомляє, що близько 15% дорослих американок кажуть, що зараз приймають препарат GLP-1, а найвищий рівень поточного використання — серед дорослих 50–64 років. Це експертне інтерв’ю з прочитанням наявних даних, а не дослідження GLP-1 і кісток.",
             "cite": "UCHealth Today · Експертне інтерв’ю, 22 червня 2026",
             "url": "https://www.uchealth.org/today/menopause-and-glp-1-weight-loss-drugs-and-bone-loss/"
           },
