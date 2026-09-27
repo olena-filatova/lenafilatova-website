@@ -21,7 +21,7 @@ export default {
     "title": "Omega-3 during weight loss shifted the gut microbiome in women at higher breast-cancer risk",
     "seoTitle": "Omega-3 and the Gut During Weight Loss: A Pilot",
     "metaDesc": "A 34-woman pilot gave peri- and postmenopausal women 3.25 g/day of omega-3 or a placebo during a six-month weight-loss programme. What it showed — and didn't.",
-    "excerpt": "Adding high-dose fish oil to a six-month weight-loss programme changed which bacteria dominated the gut in 34 peri- and postmenopausal women at raised breast-cancer risk. The risk-marker half of the story is more complicated than the headline.",
+    "excerpt": "High-dose fish oil during six months of weight loss shifted the gut bacteria of 34 midlife women at raised breast-cancer risk. The risk-marker story is more complicated.",
     "meta": "25 August 2026 · 6 min read",
     "lead": "Losing weight changes your gut bacteria. A small pilot asked whether adding a high dose of fish oil changes them differently — and found that it does, in women already at increased risk of breast cancer. What it did not find is that the supplement improved the risk markers themselves.",
     "blocks": [
@@ -135,7 +135,7 @@ export default {
     "title": "Омега-3 під час схуднення змінила мікробіом кишківника в жінок із підвищеним ризиком раку грудей",
     "seoTitle": "Омега-3 і кишківник під час схуднення: пілот",
     "metaDesc": "Пілотне дослідження за участю 34 жінок у пери- та постменопаузі: 3,25 г омега-3 на день або плацебо під час піврічної програми схуднення. Що воно показало.",
-    "excerpt": "Додавання високої дози риб’ячого жиру до піврічної програми схуднення змінило те, які бактерії переважали в кишківнику 34 жінок у пери- та постменопаузі з підвищеним ризиком раку грудей. З маркерами ризику все складніше, ніж у заголовку.",
+    "excerpt": "Висока доза риб’ячого жиру під час піврічного схуднення змінила бактерії кишківника 34 жінок із підвищеним ризиком раку грудей. З маркерами ризику все складніше.",
     "meta": "25 серпня 2026 · 6 хв читання",
     "lead": "Схуднення змінює кишкові бактерії. Невелике пілотне дослідження запитало, чи змінює їх інакше висока доза риб’ячого жиру, — і виявило, що так, у жінок, які вже мають підвищений ризик раку грудей. Чого воно не виявило — так це того, що добавка покращила самі маркери ризику.",
     "blocks": [
