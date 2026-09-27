@@ -63,7 +63,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The second is what happens if you look up the trial registration. The registered primary outcome was fatigue, measured on the Multidimensional Fatigue Inventory. Fatigue does not appear in the reported headline findings at all. That is not fraud and it is not unusual, but it does mean the results being circulated are the secondary ones, and secondary outcomes in a nine-per-arm study are exactly where chance findings live."
+        "text": "The second is what happens if you look up the trial registration. The registered primary outcome was fatigue, measured on the Multidimensional Fatigue Inventory. Fatigue does not appear anywhere in the abstract, which is the version almost everyone works from. The full paper does report it, but it is not what the coverage is built on. That is not fraud and it is not unusual, but it does mean the results being circulated are the secondary ones, and secondary outcomes in a nine-per-arm study are exactly where chance findings live."
       },
       {
         "t": "p",
@@ -79,15 +79,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Fifteen women, mean age 54 — five perimenopausal, ten postmenopausal — took 5 g of monohydrate a day and attended nine supervised total-body strength sessions over 14 weeks. It was a repeated-measures study with no placebo and no control group, which means there is nothing in the design that can separate creatine from the training. And it is a conference abstract in a supplement issue, not a full paper."
+        "text": "Fifteen women, mean age 54 — five perimenopausal, ten postmenopausal — took creatine monohydrate and attended nine total-body strength sessions over 14 weeks. The abstract does not give a daily dose, so the 5 g in the coverage is not from the original. It was a repeated-measures study with no placebo and no control group, which means there is nothing in the design that can separate creatine from the training. And it is a conference abstract in a supplement issue, not a full paper."
       },
       {
         "t": "p",
-        "text": "What reached statistical significance: one lower-body strength measure, and sleep quality in the perimenopausal subgroup — which is five women. What did not: oestradiol, and everything measured outside the strength dynamometer, which is to say body composition and cognition. The write-ups describing “positive body composition changes and modest cognitive gains” are describing numbers that did not reach significance in a study that had no control group to compare them against."
+        "text": "What reached statistical significance: lower-body strength on the dynamometer, most clearly one isometric extensor test, and sleep quality in the perimenopausal subgroup — which is five women. What did not: oestradiol, and everything measured outside the strength dynamometer, which is to say body composition and cognition. The write-ups describing “positive body composition changes and modest cognitive gains” are describing numbers that did not reach significance in a study that had no control group to compare them against."
       },
       {
         "t": "p",
-        "text": "I am not saying this to be difficult about a small piece of student research, which is a perfectly reasonable thing to present at a conference. I am saying it because the gap between the abstract and the coverage is the whole reason this post exists."
+        "text": "I am not saying this to be difficult about a small college study, which is a perfectly reasonable thing to present at a conference. I am saying it because the gap between the abstract and the coverage is the whole reason this post exists."
       },
       {
         "t": "table",
@@ -100,17 +100,17 @@ export default {
           [
             "CONCRET-MENOPA (2025) — the “brain fog” trial",
             "36 peri- and postmenopausal women, mean age 50, randomised double-blind across four arms for 8 weeks. Doses of 750–1,500 mg/day of creatine hydrochloride or a hydrochloride/ethyl-ester blend. No monohydrate, no 5 g dose.",
-            "Frontal brain creatine +16.4% vs +0.9% on placebo, reaction time and blood lipids, on the 1,500 mg arm. Mood swings did not (p = 0.06). The registered primary outcome — fatigue — was not reported."
+            "Frontal brain creatine +16.4% vs +0.9% on placebo, reaction time and blood lipids, on the 1,500 mg arm. Mood swings did not (p = 0.06). The registered primary outcome — fatigue — is missing from the abstract."
           ],
           [
             "The 14-week strength and sleep study (2025)",
-            "15 women, mean age 54, 5 g monohydrate a day plus nine supervised strength sessions across 14 weeks. No placebo, no control group. Published as a conference abstract.",
-            "One lower-body strength measure, and sleep quality within the five perimenopausal participants. Body composition, cognition and oestradiol did not."
+            "15 women, mean age 54, creatine monohydrate (dose not stated in the abstract) plus nine strength sessions across 14 weeks. No placebo, no control group. Published as a conference abstract.",
+            "Lower-body strength on the dynamometer, and sleep quality within the five perimenopausal participants. Body composition, cognition and oestradiol did not."
           ],
           [
             "The 2026 meta-analysis — the one nobody quotes",
             "Seven randomised controlled trials, 608 postmenopausal women, mean age about 62, lasting 12 to 104 weeks.",
-            "Lean mass +0.37 kg and leg-press strength +7.5 kg — but only where at least 5 g a day was combined with resistance training. Bone density did not change."
+            "Lean mass +0.37 kg (pooled from the five trials that measured it) and leg-press strength +7.5 kg (from three). The benefit showed up where at least 5 g a day was combined with resistance training, not in low-dose trials without it. Bone density did not change."
           ]
         ]
       },
@@ -120,15 +120,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Pooling seven randomised controlled trials in 608 postmenopausal women, a 2026 systematic review found creatine produced an extra 0.37 kg of lean mass (95% CI 0.05 to 0.69) and an extra 7.5 kg on leg-press one-rep max (95% CI 2.2 to 12.8). Trials ran from 12 weeks to two years."
+        "text": "A 2026 systematic review gathered seven randomised controlled trials in 608 postmenopausal women. Pooling the five that measured lean mass (338 women), it found creatine produced an extra 0.37 kg (95% CI 0.05 to 0.69); pooling the three that tested leg-press one-rep max (111 women), an extra 7.5 kg (95% CI 2.2 to 12.8). Trials ran from 12 weeks to two years."
       },
       {
         "t": "p",
-        "text": "The conditional in that review is the whole story, and it is the part worth tattooing somewhere: the benefits appeared where creatine of at least 5 g a day was combined with resistance training, and trials using 3 g a day or less without training showed no measurable effect at all. Creatine is an amplifier. If there is nothing to amplify, the meta-analysis says you get nothing, which is a far more honest summary than “creatine builds muscle in menopause”. If you are not lifting yet, [the beginner’s guide to strength training in perimenopause](/blog/strength-training-perimenopause-beginners/) is genuinely the higher-value thing to act on, and the supplement can wait until there is a programme for it to sit on top of."
+        "text": "The conditional in that review is the whole story, and it is the part worth tattooing somewhere: the benefits appeared where creatine of at least 5 g a day was combined with resistance training, and trials using 3 g a day or less without training showed no measurable effect at all. Creatine is an amplifier. If there is nothing to amplify, don’t expect much — which is a far more honest summary than “creatine builds muscle in menopause”. If you are not lifting yet, [the beginner’s guide to strength training in perimenopause](/blog/strength-training-perimenopause-beginners/) is genuinely the higher-value thing to act on, and the supplement can wait until there is a programme for it to sit on top of."
       },
       {
         "t": "p",
-        "text": "Two honest caveats about that review. The population had a mean age of about 62 — postmenopausal women, not perimenopausal ones, so the group this post is written for is still under-represented in its own evidence base. And its senior authorship includes the chair of a creatine scientific advisory board funded by a creatine manufacturer. That is properly disclosed, it does not make the numbers wrong, and it is the sort of thing you would want to know if the same disclosure appeared under a drug trial."
+        "text": "Two honest caveats about that review. The population had a mean age of about 62 — postmenopausal women, not perimenopausal ones, so the group this post is written for is still under-represented in its own evidence base. And its authors include the chair of a creatine scientific advisory board funded by a creatine manufacturer. That is properly disclosed, it does not make the numbers wrong, and it is the sort of thing you would want to know if the same disclosure appeared under a drug trial."
       },
       {
         "t": "h",
@@ -188,11 +188,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The largest safety analysis to date went through 685 clinical trials — 12,839 people taking creatine against 13,452 on placebo. Side effects were reported in 13.7% of the creatine studies and 13.2% of the placebo studies, a difference that was not significant, and markers of kidney function did not differ either. Worth noting again that several of those authors sit on a manufacturer-funded advisory board, though a null result assembled from other people’s trials is harder to steer than a new one."
+        "text": "The largest safety analysis to date went through 685 clinical trials — 12,839 people taking creatine against 13,452 on placebo. Side effects were reported in 13.7% of the creatine studies and 13.2% of the placebo studies, a difference that was not significant, and markers of kidney function did not differ either. Worth noting again that two of those five authors sit on a manufacturer-funded advisory board, though a null result assembled from other people’s trials is harder to steer than a new one."
       },
       {
         "t": "p",
-        "text": "Here is the genuinely useful practical point, and the reason this section exists. Creatine supplementation nudges up your serum creatinine — not because your kidneys are struggling, but because you are taking more of the thing creatinine is made from. And eGFR, the number the lab reports as kidney function, is calculated from serum creatinine. So your eGFR can read lower while your actual filtration rate is completely unchanged. A 2025 meta-analysis in BMC Nephrology found exactly that pattern: a small but statistically significant rise in serum creatinine, and no significant change in measured GFR."
+        "text": "Here is the genuinely useful practical point, and the reason this section exists. Creatine supplementation nudges up your serum creatinine — not because your kidneys are struggling, but because you are taking more of the thing creatinine is made from. And eGFR, the number the lab reports as kidney function, is calculated from serum creatinine. So your eGFR can read lower while your actual filtration rate is completely unchanged. A 2025 meta-analysis in BMC Nephrology found a pattern consistent with that: a small but statistically significant rise in serum creatinine, and no significant change in GFR — though the GFR result pools only five small studies, some using estimated rather than directly measured GFR."
       },
       {
         "t": "p",
@@ -204,7 +204,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The direct evidence is thin, and almost all of it is in type 2. The best of it is a 12-week randomised, double-blind, placebo-controlled trial in 25 people with type 2 diabetes who took 5 g a day alongside an exercise programme: HbA1c fell by about 1.1 percentage points against no change on placebo, with an increase in GLUT-4 recruitment to the muscle cell membrane as the proposed mechanism. It is a small trial, it is fifteen years old, and — the recurring theme of this entire post — the exercise was part of the intervention."
+        "text": "The direct evidence is thin, and almost all of it is in type 2. The best of it is a 12-week randomised, double-blind, placebo-controlled trial in 25 people with type 2 diabetes who took 5 g a day alongside an exercise programme: HbA1c fell from 7.4% to 6.4% against no change on placebo, a between-group difference of 1.1 percentage points, with an increase in GLUT-4 recruitment to the muscle cell membrane as the proposed mechanism. It is a small trial, it is fifteen years old, and — the recurring theme of this entire post — the exercise was part of the intervention."
       },
       {
         "t": "p",
@@ -227,19 +227,19 @@ export default {
         "items": [
           {
             "claim": "The perimenopause “brain fog” trial used 36 women, four arms, and a form of creatine almost nobody sells as the standard.",
-            "detail": "CONCRET-MENOPA randomised 36 apparently healthy perimenopausal and menopausal women (mean age 50.1 ± 5.7) double-blind to eight weeks of low-dose creatine hydrochloride (750 mg/day), medium-dose creatine hydrochloride (1,500 mg/day), creatine hydrochloride plus creatine ethyl ester (800 mg/day), or placebo. The medium-dose arm beat placebo on reaction time, on frontal brain creatine (0.9% vs 16.4%, p < 0.01) and on serum lipids (p < 0.05); the reduction in mood-swing severity reached only p = 0.06. The abstract reports the reaction-time change as “1.2 vs. 6.6%”. With four arms and 36 participants there are roughly nine women per group, and the trial registration (NCT06660004) lists fatigue on the Multidimensional Fatigue Inventory as the primary outcome — an outcome absent from the reported headline results.",
+            "detail": "CONCRET-MENOPA randomised 36 apparently healthy perimenopausal and menopausal women (mean age 50.1 ± 5.7) double-blind to eight weeks of low-dose creatine hydrochloride (750 mg/day), medium-dose creatine hydrochloride (1,500 mg/day), creatine hydrochloride plus creatine ethyl ester (800 mg/day), or placebo. The medium-dose arm beat placebo on reaction time, on frontal brain creatine (0.9% vs 16.4%, p < 0.01) and on serum lipids (p < 0.05); the reduction in mood-swing severity reached only p = 0.06. The abstract reports the reaction-time change as “1.2 vs. 6.6%”. With four arms and 36 participants there are roughly nine women per group, and the trial registration (NCT06660004) lists fatigue on the Multidimensional Fatigue Inventory as the primary outcome — an outcome not mentioned in the abstract, although the full paper does report it.",
             "cite": "Journal of the American Nutrition Association · Korovljev D, Ostojic J, Panic J, Ranisavljev M, Todorovic N, Nedeljkovic D, Kuzmanovic J, Vranes M, Stajer V, Ostojic SM, 2026;45(3):199–210",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40854087/"
           },
           {
             "claim": "The widely quoted 14-week study is 15 women, has no control group, and found less than the coverage suggests.",
-            "detail": "A repeated-measures quasi-experimental study in 15 women (mean age 54; five perimenopausal, ten postmenopausal) who took creatine monohydrate and attended nine sessions of a twice-weekly total-body strength programme over 14 weeks. Significant increases were seen in lower-body strength, specifically isometric concentric extensor peak torque at 60° for 3 seconds (p < 0.05), and perimenopausal participants showed improved sleep quality (p = 0.0181). The authors state that no significant results were observed in oestradiol levels or in the non-dynamometer tests — that is, body composition and cognition. There was no placebo group, so the design cannot separate creatine from the training, and it is published as a conference abstract in a supplement issue rather than as a full paper.",
+            "detail": "A repeated-measures quasi-experimental study in 15 women (mean age 54; five perimenopausal, ten postmenopausal) who took creatine monohydrate and attended nine sessions of a twice-weekly total-body strength programme over 14 weeks. The abstract does not state the daily dose. Significant increases were seen in lower-body strength, particularly isometric concentric extensor peak torque at 60° for 3 seconds (p < 0.05), and perimenopausal participants showed improved sleep quality (p = 0.0181). The authors state that no significant results were observed in oestradiol levels or in the non-dynamometer tests — that is, body composition and cognition. There was no placebo group, so the design cannot separate creatine from the training, and it is published as a conference abstract in a supplement issue rather than as a full paper.",
             "cite": "Journal of the International Society of Sports Nutrition · Hall L, Klassen S, Holbein J, Waters J, 2025;22(Suppl 1):2533673",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291186/"
           },
           {
-            "claim": "In postmenopausal women, creatine adds a small amount of lean mass and strength — but only alongside resistance training.",
-            "detail": "A systematic review and meta-analysis of seven randomised placebo-controlled trials in postmenopausal women (n = 608 randomised, mean age approximately 62, durations 12 to 104 weeks, median 38 weeks). Lean mass favoured creatine by a mean difference of +0.37 kg (95% CI +0.05 to +0.69; I² = 25%) and leg-press one-rep max by +7.5 kg (95% CI +2.2 to +12.8; I² = 0%). Benefits were evident where creatine of at least 5 g/day was combined with resistance training, while trials using 3 g/day or less without training showed no measurable effect. Bone density was unchanged overall and rated unclear. Adverse events were mild and comparable to placebo, and renal indices were unchanged. Risk of bias was mostly rated “some concerns”. The senior authorship includes the chair of a creatine scientific advisory board supported by a creatine manufacturer, disclosed in the paper.",
+            "claim": "In postmenopausal women, creatine adds a small amount of lean mass and strength — with the benefit showing up where it was combined with resistance training.",
+            "detail": "A systematic review and meta-analysis of seven randomised placebo-controlled trials in postmenopausal women (n = 608 randomised, mean age approximately 62, durations 12 to 104 weeks, median 38 weeks). Lean mass (five trials, n = 338) favoured creatine by a mean difference of +0.37 kg (95% CI +0.05 to +0.69; I² = 25%) and leg-press one-rep max (three trials, n = 111) by +7.5 kg (95% CI +2.2 to +12.8; I² = 0%). Benefits were evident where creatine of at least 5 g/day was combined with resistance training, while trials using 3 g/day or less without training showed no measurable effect. Bone density was unchanged overall and rated unclear. Adverse events were mild and comparable to placebo, and renal indices were unchanged. Risk of bias was mostly rated “some concerns”. The authors include the chair of a creatine scientific advisory board supported by a creatine manufacturer, disclosed in the paper.",
             "cite": "Journal of the International Society of Sports Nutrition · Naddafha S, Antonio J, Kreider RB, Stout JR, 2026;23(1):2668435",
             "url": "https://pubmed.ncbi.nlm.nih.gov/42141930/"
           },
@@ -250,14 +250,14 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/40371844/"
           },
           {
-            "claim": "Creatine raises serum creatinine slightly without changing measured kidney filtration — which is why it can make eGFR read low.",
-            "detail": "A systematic review of 21 studies, with 12 (177 participants supplemented, 263 control) pooled for meta-analysis, found creatine supplementation associated with a small but statistically significant increase in serum creatinine (mean difference 0.07 µmol/L; 95% CI 0.01 to 0.12; p = 0.03) and no statistically significant difference in glomerular filtration rate. The authors attribute the creatinine rise to metabolic turnover rather than renal impairment. Because eGFR is calculated from serum creatinine, a supplemented person can show a lower eGFR with unchanged true filtration — the practical reason to declare creatine use before kidney bloods. The reassurance applies to people with normal kidney function; those with existing kidney disease were not the population studied.",
+            "claim": "Creatine raises serum creatinine slightly without a significant change in kidney filtration — which is why it can make eGFR read low.",
+            "detail": "A systematic review of 21 studies, with 12 (177 participants supplemented, 263 control) pooled for meta-analysis, found creatine supplementation associated with a small but statistically significant increase in serum creatinine (mean difference 0.07 µmol/L; 95% CI 0.01 to 0.12; p = 0.03) and no statistically significant difference in glomerular filtration rate (five studies, 69 supplemented and 74 control, using estimated or directly measured GFR). The authors attribute the creatinine rise to metabolic turnover rather than renal impairment. Because eGFR is calculated from serum creatinine, a supplemented person can show a lower eGFR with unchanged true filtration — the practical reason to declare creatine use before kidney bloods. The reassurance applies to people with normal kidney function; those with existing kidney disease were not the population studied.",
             "cite": "BMC Nephrology · Naeini EK, Eskandari M, Mortazavi M, Gholaminejad A, Karevan N, 2025;26(1):622",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41199218/"
           },
           {
             "claim": "Across 685 trials, creatine produced no more side effects than placebo.",
-            "detail": "An analysis of side effects reported across 685 human clinical trials of creatine supplementation (12,839 participants) against 652 placebo arms (13,452 participants), plus 28.4 million adverse-event reports. Side effects were reported in 13.7% of creatine studies and 13.2% of placebo studies, with no significant difference (p = 0.776), no significant multivariate difference across the 49 side effects evaluated, and no significant differences in markers of renal function. Most studies used creatine monohydrate at an average of about 12.5 g/day — well above the 3–5 g maintenance dose — for a mean of about 65 days, in studies running up to 14 years. Several authors disclose roles on a scientific advisory board funded by a creatine manufacturer.",
+            "detail": "An analysis of side effects reported across 685 human clinical trials of creatine supplementation (12,839 participants) against 652 placebo arms (13,452 participants), plus 28.4 million adverse-event reports. Side effects were reported in 13.7% of creatine studies and 13.2% of placebo studies, with no significant difference (p = 0.776), no significant multivariate difference across the 49 side effects evaluated, and no significant differences in markers of renal function. Most studies used creatine monohydrate at an average of about 12.5 g/day — well above the 3–5 g maintenance dose — for a mean of about 65 days, in studies running up to 14 years. Two of the five authors disclose roles on a scientific advisory board funded by a creatine manufacturer.",
             "cite": "Journal of the International Society of Sports Nutrition · Kreider RB, Gonzalez DE, Hines K, Gil A, Bonilla DA, 2025;22(sup1):2488937",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40198156/"
           },
@@ -321,7 +321,7 @@ export default {
     "faq": [
       {
         "q": "Should women over 40 take creatine?",
-        "a": "For most healthy women over 40 who do some form of resistance training, it is a reasonable and well-tolerated thing to take — but the benefit is smaller and more conditional than the marketing suggests. The strongest evidence is a 2026 meta-analysis of seven randomised trials in 608 postmenopausal women, which found an extra 0.37 kg of lean mass and 7.5 kg on leg-press strength, and found those benefits only where at least 5 g a day was combined with resistance training. Trials using 3 g a day or less without training showed no measurable effect. So if you are choosing between starting creatine and starting to lift, start lifting. If you have reduced kidney function, discuss it with your clinician before starting."
+        "a": "For most healthy women over 40 who do some form of resistance training, it is a reasonable and well-tolerated thing to take — but the benefit is smaller and more conditional than the marketing suggests. The strongest evidence is a 2026 meta-analysis of seven randomised trials in 608 postmenopausal women, which found an extra 0.37 kg of lean mass (pooled from the five trials that measured it) and 7.5 kg on leg-press strength (from three), and found the benefits where at least 5 g a day was combined with resistance training. Trials using 3 g a day or less without training showed no measurable effect. So if you are choosing between starting creatine and starting to lift, start lifting. If you have reduced kidney function, discuss it with your clinician before starting."
       },
       {
         "q": "How much creatine should a woman take, and do I need to load?",
@@ -333,15 +333,15 @@ export default {
       },
       {
         "q": "Does creatine actually help menopause brain fog?",
-        "a": "The trial behind that claim is much smaller and much stranger than the coverage implies. CONCRET-MENOPA randomised 36 peri- and postmenopausal women across four arms for eight weeks — roughly nine women per group — and the arm that came out ahead took 1,500 mg a day of creatine hydrochloride, not 5 g of monohydrate. It raised frontal brain creatine by 16.4% against 0.9% on placebo and improved a laboratory reaction-time test; the mood result did not reach significance. The trial’s registered primary outcome was fatigue, which was not reported among the headline findings. Reaction time on a computer task is also not the same measurement as brain fog in daily life. It is genuinely interesting and genuinely preliminary."
+        "a": "The trial behind that claim is much smaller and much stranger than the coverage implies. CONCRET-MENOPA randomised 36 peri- and postmenopausal women across four arms for eight weeks — roughly nine women per group — and the arm that came out ahead took 1,500 mg a day of creatine hydrochloride, not 5 g of monohydrate. It raised frontal brain creatine by 16.4% against 0.9% on placebo and improved a laboratory reaction-time test; the mood result did not reach significance. The trial’s registered primary outcome was fatigue, which is not mentioned in the abstract, although the full paper does report it. Reaction time on a computer task is also not the same measurement as brain fog in daily life. It is genuinely interesting and genuinely preliminary."
       },
       {
         "q": "Is creatine safe for your kidneys — and does it affect blood test results?",
-        "a": "In people with normal kidney function the safety data is reassuring: an analysis of 685 clinical trials found side effects in 13.7% of creatine studies versus 13.2% of placebo studies, with no difference in markers of renal function. But creatine does raise serum creatinine slightly, and eGFR — the number reported as kidney function — is calculated from serum creatinine, so your eGFR can read lower while your actual filtration is unchanged. A 2025 meta-analysis in BMC Nephrology found exactly that: a small rise in serum creatinine with no significant change in GFR. Tell whoever takes the blood that you take creatine, before the test rather than after the result. If you already have kidney disease, discuss it with your clinician first."
+        "a": "In people with normal kidney function the safety data is reassuring: an analysis of 685 clinical trials found side effects in 13.7% of creatine studies versus 13.2% of placebo studies, with no difference in markers of renal function. But creatine does raise serum creatinine slightly, and eGFR — the number reported as kidney function — is calculated from serum creatinine, so your eGFR can read lower while your actual filtration is unchanged. A 2025 meta-analysis in BMC Nephrology found a small rise in serum creatinine with no significant change in GFR. Tell whoever takes the blood that you take creatine, before the test rather than after the result. If you already have kidney disease, discuss it with your clinician first."
       },
       {
         "q": "Can you take creatine if you have diabetes?",
-        "a": "There is no reason to expect a problem, but the direct evidence is thin and almost all of it is in type 2 diabetes. A 12-week randomised placebo-controlled trial in 25 people with type 2 diabetes taking 5 g a day alongside an exercise programme found HbA1c fell about 1.1 percentage points against no change on placebo, with increased GLUT-4 translocation as the proposed mechanism — a small trial in which the exercise was part of the intervention. For type 1 diabetes there is essentially nothing. Creatine contains no carbohydrate and should not behave like food, but if you dose insulin it is sensible not to start it in the same fortnight you change anything else, and to review your glucose traces afterwards. Any change to insulin belongs with your diabetes team."
+        "a": "There is no reason to expect a problem, but the direct evidence is thin and almost all of it is in type 2 diabetes. A 12-week randomised placebo-controlled trial in 25 people with type 2 diabetes taking 5 g a day alongside an exercise programme found HbA1c fell by about a percentage point against no change on placebo (a between-group difference of 1.1 points), with increased GLUT-4 translocation as the proposed mechanism — a small trial in which the exercise was part of the intervention. For type 1 diabetes there is essentially nothing. Creatine contains no carbohydrate and should not behave like food, but if you dose insulin it is sensible not to start it in the same fortnight you change anything else, and to review your glucose traces afterwards. Any change to insulin belongs with your diabetes team."
       }
     ]
   },
@@ -401,7 +401,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Друга: варто відкрити реєстрацію дослідження. Зареєстрованою первинною кінцевою точкою була втома, виміряна за Багатовимірним опитувальником втоми. Втома взагалі не з’являється серед оприлюднених головних результатів. Це не шахрайство і не рідкість, але це означає, що по світу розійшлися вторинні результати — а вторинні результати в дослідженні по дев’ять осіб на групу є саме тим місцем, де живуть випадкові знахідки."
+        "text": "Друга: варто відкрити реєстрацію дослідження. Зареєстрованою первинною кінцевою точкою була втома, виміряна за Багатовимірним опитувальником втоми. Втома взагалі не згадується в анотації — а саме з неї працюють майже всі. Повна стаття її таки наводить, але переказують зовсім не її. Це не шахрайство і не рідкість, але це означає, що по світу розійшлися вторинні результати — а вторинні результати в дослідженні по дев’ять осіб на групу є саме тим місцем, де живуть випадкові знахідки."
       },
       {
         "t": "p",
@@ -417,15 +417,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "П’ятнадцять жінок, середній вік 54 — п’ять у перименопаузі, десять у постменопаузі — приймали 5 г моногідрату на добу й відвідали дев’ять контрольованих силових занять на все тіло за 14 тижнів. Це дослідження з повторними вимірюваннями, без плацебо і без контрольної групи, тобто в самому дизайні немає нічого, що дозволяє відокремити креатин від тренувань. І це конференційні тези у додатковому випуску журналу, а не повноцінна стаття."
+        "text": "П’ятнадцять жінок, середній вік 54 — п’ять у перименопаузі, десять у постменопаузі — приймали креатин моногідрат і відвідали дев’ять силових занять на все тіло за 14 тижнів. Добової дози в тезах не вказано, тож 5 г із переказів — не з оригіналу. Це дослідження з повторними вимірюваннями, без плацебо і без контрольної групи, тобто в самому дизайні немає нічого, що дозволяє відокремити креатин від тренувань. І це конференційні тези у додатковому випуску журналу, а не повноцінна стаття."
       },
       {
         "t": "p",
-        "text": "Що досягло статистичної значущості: один показник сили нижньої частини тіла і якість сну в підгрупі перименопаузи — тобто у п’яти жінок. Що не досягло: естрадіол і все, що вимірювали поза силовим динамометром, тобто склад тіла й когнітивні показники. Перекази про «позитивні зміни складу тіла й помірне покращення когнітивних функцій» описують цифри, які не досягли значущості в дослідженні, де не було контрольної групи для порівняння."
+        "text": "Що досягло статистичної значущості: сила нижньої частини тіла на динамометрі, найвиразніше в одному ізометричному тесті розгиначів, і якість сну в підгрупі перименопаузи — тобто у п’яти жінок. Що не досягло: естрадіол і все, що вимірювали поза силовим динамометром, тобто склад тіла й когнітивні показники. Перекази про «позитивні зміни складу тіла й помірне покращення когнітивних функцій» описують цифри, які не досягли значущості в дослідженні, де не було контрольної групи для порівняння."
       },
       {
         "t": "p",
-        "text": "Я кажу це не щоб причепитися до невеликої студентської роботи — представити таке на конференції цілком нормально. Я кажу це тому, що розрив між тезами й тим, як їх переказують, і є причиною існування цього тексту."
+        "text": "Я кажу це не щоб причепитися до невеликого дослідження коледжу — представити таке на конференції цілком нормально. Я кажу це тому, що розрив між тезами й тим, як їх переказують, і є причиною існування цього тексту."
       },
       {
         "t": "table",
@@ -438,17 +438,17 @@ export default {
           [
             "CONCRET-MENOPA (2025) — дослідження про «туман у голові»",
             "36 жінок у перименопаузі та менопаузі, середній вік 50, подвійне сліпе рандомізоване, чотири групи, 8 тижнів. Дози 750–1500 мг на добу креатину гідрохлориду або суміші гідрохлориду з етиловим ефіром. Жодного моногідрату, жодних 5 г.",
-            "Креатин у лобовій ділянці мозку +16,4% проти +0,9% у плацебо, час реакції та ліпіди крові — у групі на 1500 мг. Перепади настрою — ні (p = 0,06). Зареєстровану первинну кінцеву точку — втому — не повідомили."
+            "Креатин у лобовій ділянці мозку +16,4% проти +0,9% у плацебо, час реакції та ліпіди крові — у групі на 1500 мг. Перепади настрою — ні (p = 0,06). Зареєстрованої первинної кінцевої точки — втоми — в анотації немає."
           ],
           [
             "14-тижневе дослідження сили та сну (2025)",
-            "15 жінок, середній вік 54, 5 г моногідрату на добу плюс дев’ять контрольованих силових занять за 14 тижнів. Без плацебо, без контрольної групи. Опубліковане як конференційні тези.",
-            "Один показник сили нижньої частини тіла і якість сну в п’яти учасниць у перименопаузі. Склад тіла, когнітивні показники й естрадіол — ні."
+            "15 жінок, середній вік 54, креатин моногідрат (дозу в тезах не вказано) плюс дев’ять силових занять за 14 тижнів. Без плацебо, без контрольної групи. Опубліковане як конференційні тези.",
+            "Сила нижньої частини тіла на динамометрі і якість сну в п’яти учасниць у перименопаузі. Склад тіла, когнітивні показники й естрадіол — ні."
           ],
           [
             "Метааналіз 2026 року — той, який ніхто не цитує",
             "Сім рандомізованих контрольованих досліджень, 608 жінок у постменопаузі, середній вік близько 62 років, тривалість від 12 до 104 тижнів.",
-            "Знежирена маса +0,37 кг і сила в жимі ногами +7,5 кг — але лише там, де щонайменше 5 г на добу поєднували з силовими тренуваннями. Щільність кісток не змінилася."
+            "Знежирена маса +0,37 кг (зведено з п’яти досліджень, де її вимірювали) і сила в жимі ногами +7,5 кг (із трьох). Користь з’являлася там, де щонайменше 5 г на добу поєднували з силовими тренуваннями, а не в дослідженнях із малою дозою без тренувань. Щільність кісток не змінилася."
           ]
         ]
       },
@@ -458,15 +458,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Об’єднавши сім рандомізованих контрольованих досліджень за участю 608 жінок у постменопаузі, систематичний огляд 2026 року виявив, що креатин дає додаткові 0,37 кг знежиреної маси (95% ДІ від 0,05 до 0,69) і додаткові 7,5 кг в одноповторному максимумі жиму ногами (95% ДІ від 2,2 до 12,8). Дослідження тривали від 12 тижнів до двох років."
+        "text": "Систематичний огляд 2026 року зібрав сім рандомізованих контрольованих досліджень за участю 608 жінок у постменопаузі. Об’єднавши п’ять із них, де вимірювали знежирену масу (338 жінок), він виявив, що креатин дає додаткові 0,37 кг (95% ДІ від 0,05 до 0,69); об’єднавши три, де перевіряли одноповторний максимум жиму ногами (111 жінок), — додаткові 7,5 кг (95% ДІ від 2,2 до 12,8). Дослідження тривали від 12 тижнів до двох років."
       },
       {
         "t": "p",
-        "text": "Умова в цьому огляді і є головним висновком: користь з’являлася там, де креатин у дозі щонайменше 5 г на добу поєднували з силовими тренуваннями, а дослідження з дозою 3 г на добу й менше без тренувань не показали жодного вимірюваного ефекту. Креатин — це підсилювач. Якщо підсилювати нічого, метааналіз каже, що ви не отримаєте нічого, — і це значно чесніше формулювання, ніж «креатин будує м’язи в менопаузі». Якщо ви ще не тренуєтеся з обтяженнями, [посібник для початківців про силові тренування в перименопаузі](/ua/blog/strength-training-perimenopause-beginners/) справді цінніший за добавку, а креатин може почекати, доки з’явиться програма, до якої його додавати."
+        "text": "Умова в цьому огляді і є головним висновком: користь з’являлася там, де креатин у дозі щонайменше 5 г на добу поєднували з силовими тренуваннями, а дослідження з дозою 3 г на добу й менше без тренувань не показали жодного вимірюваного ефекту. Креатин — це підсилювач. Якщо підсилювати нічого, на багато не розраховуйте — і це значно чесніше формулювання, ніж «креатин будує м’язи в менопаузі». Якщо ви ще не тренуєтеся з обтяженнями, [посібник для початківців про силові тренування в перименопаузі](/ua/blog/strength-training-perimenopause-beginners/) справді цінніший за добавку, а креатин може почекати, доки з’явиться програма, до якої його додавати."
       },
       {
         "t": "p",
-        "text": "Два чесні застереження щодо цього огляду. Середній вік учасниць — близько 62 років, тобто це жінки в постменопаузі, а не в перименопаузі: група, для якої написаний цей текст, досі недостатньо представлена у власній доказовій базі. І серед старших авторів огляду — голова наукової дорадчої ради з креатину, яку фінансує виробник креатину. Це належно задекларовано, це не робить цифри хибними, і це саме те, що ви хотіли б знати, якби така сама декларація стояла під дослідженням ліків."
+        "text": "Два чесні застереження щодо цього огляду. Середній вік учасниць — близько 62 років, тобто це жінки в постменопаузі, а не в перименопаузі: група, для якої написаний цей текст, досі недостатньо представлена у власній доказовій базі. І серед авторів огляду — голова наукової дорадчої ради з креатину, яку фінансує виробник креатину. Це належно задекларовано, це не робить цифри хибними, і це саме те, що ви хотіли б знати, якби така сама декларація стояла під дослідженням ліків."
       },
       {
         "t": "h",
@@ -526,11 +526,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найбільший на сьогодні аналіз безпеки переглянув 685 клінічних досліджень — 12 839 людей на креатині проти 13 452 на плацебо. Побічні ефекти повідомлялися у 13,7% досліджень із креатином і 13,2% досліджень із плацебо, різниця незначуща; маркери функції нирок теж не відрізнялися. Знову варто зазначити, що кілька авторів входять до дорадчої ради, яку фінансує виробник, — хоча нульовий результат, зібраний із чужих досліджень, важче скерувати, ніж власне нове."
+        "text": "Найбільший на сьогодні аналіз безпеки переглянув 685 клінічних досліджень — 12 839 людей на креатині проти 13 452 на плацебо. Побічні ефекти повідомлялися у 13,7% досліджень із креатином і 13,2% досліджень із плацебо, різниця незначуща; маркери функції нирок теж не відрізнялися. Знову варто зазначити, що двоє з п’яти авторів входять до дорадчої ради, яку фінансує виробник, — хоча нульовий результат, зібраний із чужих досліджень, важче скерувати, ніж власне нове."
       },
       {
         "t": "p",
-        "text": "А ось справді корисний практичний момент, заради якого існує цей розділ. Прийом креатину трохи піднімає рівень креатиніну в сироватці — не тому, що нирки не справляються, а тому, що ви приймаєте більше речовини, з якої креатинін утворюється. А ШКФ, той самий показник функції нирок у лабораторному бланку, розраховують саме з креатиніну сироватки. Тобто ваша розрахункова ШКФ може бути нижчою, тоді як справжня фільтрація не змінилася взагалі. Метааналіз 2025 року в BMC Nephrology знайшов саме таку картину: невелике, але статистично значуще зростання креатиніну сироватки і жодної значущої зміни виміряної ШКФ."
+        "text": "А ось справді корисний практичний момент, заради якого існує цей розділ. Прийом креатину трохи піднімає рівень креатиніну в сироватці — не тому, що нирки не справляються, а тому, що ви приймаєте більше речовини, з якої креатинін утворюється. А ШКФ, той самий показник функції нирок у лабораторному бланку, розраховують саме з креатиніну сироватки. Тобто ваша розрахункова ШКФ може бути нижчою, тоді як справжня фільтрація не змінилася взагалі. Метааналіз 2025 року в BMC Nephrology знайшов картину, що з цим узгоджується: невелике, але статистично значуще зростання креатиніну сироватки і жодної значущої зміни ШКФ — хоча результат щодо ШКФ об’єднує лише п’ять невеликих досліджень, частина з яких використовувала розрахункову, а не безпосередньо виміряну ШКФ."
       },
       {
         "t": "p",
@@ -542,7 +542,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Прямих доказів мало, і майже всі вони стосуються діабету 2 типу. Найкращий із них — 12-тижневе рандомізоване подвійне сліпе плацебо-контрольоване дослідження за участю 25 людей із діабетом 2 типу, які приймали 5 г на добу разом із програмою тренувань: HbA1c знизився приблизно на 1,1 відсоткового пункту проти жодних змін у плацебо, а запропонованим механізмом було збільшення транслокації GLUT-4 до мембрани м’язової клітини. Це невелике дослідження, йому п’ятнадцять років, і — наскрізна тема всього цього тексту — тренування були частиною втручання."
+        "text": "Прямих доказів мало, і майже всі вони стосуються діабету 2 типу. Найкращий із них — 12-тижневе рандомізоване подвійне сліпе плацебо-контрольоване дослідження за участю 25 людей із діабетом 2 типу, які приймали 5 г на добу разом із програмою тренувань: HbA1c знизився з 7,4% до 6,4% проти жодних змін у плацебо — міжгрупова різниця 1,1 відсоткового пункту, а запропонованим механізмом було збільшення транслокації GLUT-4 до мембрани м’язової клітини. Це невелике дослідження, йому п’ятнадцять років, і — наскрізна тема всього цього тексту — тренування були частиною втручання."
       },
       {
         "t": "p",
@@ -565,19 +565,19 @@ export default {
         "items": [
           {
             "claim": "У дослідженні про «туман у голові» було 36 жінок, чотири групи і форма креатину, якої майже ніхто не продає як стандартну.",
-            "detail": "CONCRET-MENOPA рандомізувало 36 здорових жінок у перименопаузі та менопаузі (середній вік 50,1 ± 5,7) подвійним сліпим методом на вісім тижнів у групи: низька доза креатину гідрохлориду (750 мг/добу), середня доза креатину гідрохлориду (1500 мг/добу), креатину гідрохлорид плюс креатину етиловий ефір (800 мг/добу) або плацебо. Група середньої дози випередила плацебо за часом реакції, за креатином у лобовій ділянці мозку (0,9% проти 16,4%, p < 0,01) і за ліпідами сироватки (p < 0,05); зменшення тяжкості перепадів настрою досягло лише p = 0,06. У тезах зміну часу реакції подано як «1,2 проти 6,6%». За чотирьох груп і 36 учасниць виходить приблизно по дев’ять жінок у групі, а в реєстрації дослідження (NCT06660004) первинною кінцевою точкою вказано втому за Багатовимірним опитувальником втоми — показник, відсутній серед оприлюднених головних результатів.",
+            "detail": "CONCRET-MENOPA рандомізувало 36 здорових жінок у перименопаузі та менопаузі (середній вік 50,1 ± 5,7) подвійним сліпим методом на вісім тижнів у групи: низька доза креатину гідрохлориду (750 мг/добу), середня доза креатину гідрохлориду (1500 мг/добу), креатину гідрохлорид плюс креатину етиловий ефір (800 мг/добу) або плацебо. Група середньої дози випередила плацебо за часом реакції, за креатином у лобовій ділянці мозку (0,9% проти 16,4%, p < 0,01) і за ліпідами сироватки (p < 0,05); зменшення тяжкості перепадів настрою досягло лише p = 0,06. У тезах зміну часу реакції подано як «1,2 проти 6,6%». За чотирьох груп і 36 учасниць виходить приблизно по дев’ять жінок у групі, а в реєстрації дослідження (NCT06660004) первинною кінцевою точкою вказано втому за Багатовимірним опитувальником втоми — показник, який не згадується в анотації, хоча повна стаття його наводить.",
             "cite": "Journal of the American Nutrition Association · Korovljev D, Ostojic J, Panic J, Ranisavljev M, Todorovic N, Nedeljkovic D, Kuzmanovic J, Vranes M, Stajer V, Ostojic SM, 2026;45(3):199–210",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40854087/"
           },
           {
             "claim": "Широко цитоване 14-тижневе дослідження — це 15 жінок без контрольної групи, і знайшло воно менше, ніж переказують.",
-            "detail": "Квазіекспериментальне дослідження з повторними вимірюваннями за участю 15 жінок (середній вік 54; п’ять у перименопаузі, десять у постменопаузі), які приймали креатин моногідрат і відвідали дев’ять занять силової програми на все тіло двічі на тиждень протягом 14 тижнів. Значуще зросла сила нижньої частини тіла, зокрема ізометричний концентричний піковий момент розгиначів при 60° за 3 секунди (p < 0,05), а в учасниць у перименопаузі покращилася якість сну (p = 0,0181). Автори зазначають, що жодних значущих результатів не спостерігалося щодо рівня естрадіолу та в тестах поза динамометром — тобто щодо складу тіла й когнітивних функцій. Плацебо-групи не було, тож дизайн не дозволяє відокремити креатин від тренувань, і це опубліковано як конференційні тези в додатковому випуску, а не як повна стаття.",
+            "detail": "Квазіекспериментальне дослідження з повторними вимірюваннями за участю 15 жінок (середній вік 54; п’ять у перименопаузі, десять у постменопаузі), які приймали креатин моногідрат і відвідали дев’ять занять силової програми на все тіло двічі на тиждень протягом 14 тижнів. Добової дози в тезах не вказано. Значуще зросла сила нижньої частини тіла, особливо ізометричний концентричний піковий момент розгиначів при 60° за 3 секунди (p < 0,05), а в учасниць у перименопаузі покращилася якість сну (p = 0,0181). Автори зазначають, що жодних значущих результатів не спостерігалося щодо рівня естрадіолу та в тестах поза динамометром — тобто щодо складу тіла й когнітивних функцій. Плацебо-групи не було, тож дизайн не дозволяє відокремити креатин від тренувань, і це опубліковано як конференційні тези в додатковому випуску, а не як повна стаття.",
             "cite": "Journal of the International Society of Sports Nutrition · Hall L, Klassen S, Holbein J, Waters J, 2025;22(Suppl 1):2533673",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291186/"
           },
           {
-            "claim": "У жінок у постменопаузі креатин додає трохи знежиреної маси й сили — але лише разом із силовими тренуваннями.",
-            "detail": "Систематичний огляд і метааналіз семи рандомізованих плацебо-контрольованих досліджень за участю жінок у постменопаузі (n = 608 рандомізованих, середній вік близько 62 років, тривалість від 12 до 104 тижнів, медіана 38 тижнів). Знежирена маса була на боці креатину із середньою різницею +0,37 кг (95% ДІ від +0,05 до +0,69; I² = 25%), а одноповторний максимум жиму ногами — +7,5 кг (95% ДІ від +2,2 до +12,8; I² = 0%). Користь була помітною там, де креатин у дозі щонайменше 5 г/добу поєднували із силовими тренуваннями, тоді як дослідження з дозою 3 г/добу й менше без тренувань не показали вимірюваного ефекту. Щільність кісток загалом не змінилася, а вплив на кістку оцінено як невизначений. Небажані явища були легкими й порівнянними з плацебо, ниркові показники не змінилися. Ризик систематичної похибки здебільшого оцінено як «деякі занепокоєння». Серед старших авторів — голова наукової дорадчої ради з креатину, яку підтримує виробник креатину; це задекларовано в статті.",
+            "claim": "У жінок у постменопаузі креатин додає трохи знежиреної маси й сили — і користь проявлялася там, де його поєднували із силовими тренуваннями.",
+            "detail": "Систематичний огляд і метааналіз семи рандомізованих плацебо-контрольованих досліджень за участю жінок у постменопаузі (n = 608 рандомізованих, середній вік близько 62 років, тривалість від 12 до 104 тижнів, медіана 38 тижнів). Знежирена маса (п’ять досліджень, n = 338) була на боці креатину із середньою різницею +0,37 кг (95% ДІ від +0,05 до +0,69; I² = 25%), а одноповторний максимум жиму ногами (три дослідження, n = 111) — +7,5 кг (95% ДІ від +2,2 до +12,8; I² = 0%). Користь була помітною там, де креатин у дозі щонайменше 5 г/добу поєднували із силовими тренуваннями, тоді як дослідження з дозою 3 г/добу й менше без тренувань не показали вимірюваного ефекту. Щільність кісток загалом не змінилася, а вплив на кістку оцінено як невизначений. Небажані явища були легкими й порівнянними з плацебо, ниркові показники не змінилися. Ризик систематичної похибки здебільшого оцінено як «деякі занепокоєння». Серед авторів — голова наукової дорадчої ради з креатину, яку підтримує виробник креатину; це задекларовано в статті.",
             "cite": "Journal of the International Society of Sports Nutrition · Naddafha S, Antonio J, Kreider RB, Stout JR, 2026;23(1):2668435",
             "url": "https://pubmed.ncbi.nlm.nih.gov/42141930/"
           },
@@ -588,14 +588,14 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/40371844/"
           },
           {
-            "claim": "Креатин трохи піднімає креатинін сироватки, не змінюючи виміряну фільтрацію нирок, — тому розрахункова ШКФ може виглядати заниженою.",
-            "detail": "Систематичний огляд 21 дослідження, з яких 12 (177 учасників у групі креатину і 263 в контролі) увійшли до метааналізу, виявив, що прийом креатину пов’язаний із невеликим, але статистично значущим зростанням креатиніну сироватки (середня різниця 0,07 мкмоль/л; 95% ДІ від 0,01 до 0,12; p = 0,03) і не пов’язаний зі статистично значущою зміною швидкості клубочкової фільтрації. Автори пояснюють зростання креатиніну метаболічним обміном, а не ураженням нирок. Оскільки розрахункову ШКФ обчислюють із креатиніну сироватки, у людини на добавці вона може бути нижчою при незмінній справжній фільтрації — це і є практична причина повідомляти про прийом креатину перед нирковими аналізами. Заспокійливий висновок стосується людей із нормальною функцією нирок; людей із наявним захворюванням нирок у цих дослідженнях не вивчали.",
+            "claim": "Креатин трохи піднімає креатинін сироватки, без значущої зміни фільтрації нирок, — тому розрахункова ШКФ може виглядати заниженою.",
+            "detail": "Систематичний огляд 21 дослідження, з яких 12 (177 учасників у групі креатину і 263 в контролі) увійшли до метааналізу, виявив, що прийом креатину пов’язаний із невеликим, але статистично значущим зростанням креатиніну сироватки (середня різниця 0,07 мкмоль/л; 95% ДІ від 0,01 до 0,12; p = 0,03) і не пов’язаний зі статистично значущою зміною швидкості клубочкової фільтрації (п’ять досліджень, 69 учасників на креатині і 74 у контролі, з розрахунковою або безпосередньо виміряною ШКФ). Автори пояснюють зростання креатиніну метаболічним обміном, а не ураженням нирок. Оскільки розрахункову ШКФ обчислюють із креатиніну сироватки, у людини на добавці вона може бути нижчою при незмінній справжній фільтрації — це і є практична причина повідомляти про прийом креатину перед нирковими аналізами. Заспокійливий висновок стосується людей із нормальною функцією нирок; людей із наявним захворюванням нирок у цих дослідженнях не вивчали.",
             "cite": "BMC Nephrology · Naeini EK, Eskandari M, Mortazavi M, Gholaminejad A, Karevan N, 2025;26(1):622",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41199218/"
           },
           {
             "claim": "У 685 дослідженнях креатин не давав більше побічних ефектів, ніж плацебо.",
-            "detail": "Аналіз побічних ефектів, повідомлених у 685 клінічних дослідженнях прийому креатину (12 839 учасників), проти 652 плацебо-груп (13 452 учасники), а також 28,4 мільйона повідомлень про небажані явища. Побічні ефекти повідомлялися у 13,7% досліджень із креатином і 13,2% досліджень із плацебо, без значущої різниці (p = 0,776), без значущої багатовимірної різниці серед 49 оцінених побічних ефектів і без значущих відмінностей у маркерах функції нирок. У більшості досліджень використовували креатин моногідрат у середньому близько 12,5 г/добу — значно вище за підтримувальну дозу 3–5 г — у середньому близько 65 днів, у дослідженнях тривалістю до 14 років. Кілька авторів декларують участь у науковій дорадчій раді, яку фінансує виробник креатину.",
+            "detail": "Аналіз побічних ефектів, повідомлених у 685 клінічних дослідженнях прийому креатину (12 839 учасників), проти 652 плацебо-груп (13 452 учасники), а також 28,4 мільйона повідомлень про небажані явища. Побічні ефекти повідомлялися у 13,7% досліджень із креатином і 13,2% досліджень із плацебо, без значущої різниці (p = 0,776), без значущої багатовимірної різниці серед 49 оцінених побічних ефектів і без значущих відмінностей у маркерах функції нирок. У більшості досліджень використовували креатин моногідрат у середньому близько 12,5 г/добу — значно вище за підтримувальну дозу 3–5 г — у середньому близько 65 днів, у дослідженнях тривалістю до 14 років. Двоє з п’яти авторів декларують участь у науковій дорадчій раді, яку фінансує виробник креатину.",
             "cite": "Journal of the International Society of Sports Nutrition · Kreider RB, Gonzalez DE, Hines K, Gil A, Bonilla DA, 2025;22(sup1):2488937",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40198156/"
           },
@@ -659,7 +659,7 @@ export default {
     "faq": [
       {
         "q": "Чи варто жінкам після 40 приймати креатин?",
-        "a": "Для більшості здорових жінок після 40, які тренуються з обтяженнями, це розумна й добре переносима добавка — але користь менша й умовніша, ніж обіцяє маркетинг. Найсильніші дані — метааналіз 2026 року із семи рандомізованих досліджень за участю 608 жінок у постменопаузі, який виявив додаткові 0,37 кг знежиреної маси і 7,5 кг у жимі ногами, причому лише там, де щонайменше 5 г на добу поєднували із силовими тренуваннями. Дослідження з дозою 3 г на добу й менше без тренувань не показали вимірюваного ефекту. Тож якщо ви обираєте між тим, щоб почати креатин, і тим, щоб почати тренуватися, — починайте тренуватися. Якщо у вас знижена функція нирок, обговоріть це з лікарем до початку."
+        "a": "Для більшості здорових жінок після 40, які тренуються з обтяженнями, це розумна й добре переносима добавка — але користь менша й умовніша, ніж обіцяє маркетинг. Найсильніші дані — метааналіз 2026 року із семи рандомізованих досліджень за участю 608 жінок у постменопаузі, який виявив додаткові 0,37 кг знежиреної маси (за п’ятьма дослідженнями, де її вимірювали) і 7,5 кг у жимі ногами (за трьома), причому користь з’являлася там, де щонайменше 5 г на добу поєднували із силовими тренуваннями. Дослідження з дозою 3 г на добу й менше без тренувань не показали вимірюваного ефекту. Тож якщо ви обираєте між тим, щоб почати креатин, і тим, щоб почати тренуватися, — починайте тренуватися. Якщо у вас знижена функція нирок, обговоріть це з лікарем до початку."
       },
       {
         "q": "Скільки креатину приймати жінці й чи потрібне завантаження?",
@@ -671,15 +671,15 @@ export default {
       },
       {
         "q": "Чи справді креатин допомагає від туману в голові в менопаузі?",
-        "a": "Дослідження, на якому базується це твердження, набагато менше й дивніше, ніж це виглядає в переказах. CONCRET-MENOPA рандомізувало 36 жінок у перименопаузі та менопаузі на чотири групи протягом восьми тижнів — приблизно по дев’ять жінок у групі, — і група, яка випередила решту, приймала 1500 мг на добу креатину гідрохлориду, а не 5 г моногідрату. Креатин у лобовій ділянці мозку зріс на 16,4% проти 0,9% у плацебо, покращився лабораторний тест на час реакції; результат щодо настрою не досяг значущості. Зареєстрованою первинною кінцевою точкою була втома, яку серед головних результатів не повідомили. До того ж час реакції в комп’ютерному тесті — не те саме вимірювання, що туман у голові в повсякденному житті. Це справді цікаво і справді попередньо."
+        "a": "Дослідження, на якому базується це твердження, набагато менше й дивніше, ніж це виглядає в переказах. CONCRET-MENOPA рандомізувало 36 жінок у перименопаузі та менопаузі на чотири групи протягом восьми тижнів — приблизно по дев’ять жінок у групі, — і група, яка випередила решту, приймала 1500 мг на добу креатину гідрохлориду, а не 5 г моногідрату. Креатин у лобовій ділянці мозку зріс на 16,4% проти 0,9% у плацебо, покращився лабораторний тест на час реакції; результат щодо настрою не досяг значущості. Зареєстрованою первинною кінцевою точкою була втома, яка не згадується в анотації, хоча повна стаття її наводить. До того ж час реакції в комп’ютерному тесті — не те саме вимірювання, що туман у голові в повсякденному житті. Це справді цікаво і справді попередньо."
       },
       {
         "q": "Чи безпечний креатин для нирок і чи впливає він на аналізи?",
-        "a": "У людей із нормальною функцією нирок дані заспокійливі: аналіз 685 клінічних досліджень виявив побічні ефекти у 13,7% досліджень із креатином проти 13,2% із плацебо, без різниці в маркерах функції нирок. Але креатин трохи піднімає креатинін сироватки, а розрахункову ШКФ — той самий показник функції нирок — обчислюють саме з креатиніну, тож ваша ШКФ може виглядати нижчою при незмінній справжній фільтрації. Метааналіз 2025 року в BMC Nephrology знайшов саме це: невелике зростання креатиніну сироватки без значущої зміни ШКФ. Скажіть тому, хто бере кров, що ви приймаєте креатин, — до аналізу, а не після результату. Якщо у вас уже є захворювання нирок, спершу обговоріть це з лікарем."
+        "a": "У людей із нормальною функцією нирок дані заспокійливі: аналіз 685 клінічних досліджень виявив побічні ефекти у 13,7% досліджень із креатином проти 13,2% із плацебо, без різниці в маркерах функції нирок. Але креатин трохи піднімає креатинін сироватки, а розрахункову ШКФ — той самий показник функції нирок — обчислюють саме з креатиніну, тож ваша ШКФ може виглядати нижчою при незмінній справжній фільтрації. Метааналіз 2025 року в BMC Nephrology знайшов невелике зростання креатиніну сироватки без значущої зміни ШКФ. Скажіть тому, хто бере кров, що ви приймаєте креатин, — до аналізу, а не після результату. Якщо у вас уже є захворювання нирок, спершу обговоріть це з лікарем."
       },
       {
         "q": "Чи можна приймати креатин при діабеті?",
-        "a": "Підстав очікувати проблем немає, але прямих доказів мало, і майже всі вони стосуються діабету 2 типу. У 12-тижневому рандомізованому плацебо-контрольованому дослідженні за участю 25 людей із діабетом 2 типу, які приймали 5 г на добу разом із програмою тренувань, HbA1c знизився приблизно на 1,1 відсоткового пункту проти жодних змін у плацебо, а запропонованим механізмом було посилення транслокації GLUT-4 — невелике дослідження, у якому тренування були частиною втручання. Щодо діабету 1 типу немає практично нічого. Креатин не містить вуглеводів і не має поводитися як їжа, але якщо ви розраховуєте дози інсуліну, розумно не починати його в ті самі два тижні, коли ви змінюєте щось інше, і переглянути потім свої графіки глюкози. Будь-яка зміна інсуліну — це питання до вашої діабетичної команди."
+        "a": "Підстав очікувати проблем немає, але прямих доказів мало, і майже всі вони стосуються діабету 2 типу. У 12-тижневому рандомізованому плацебо-контрольованому дослідженні за участю 25 людей із діабетом 2 типу, які приймали 5 г на добу разом із програмою тренувань, HbA1c знизився приблизно на 1 відсотковий пункт проти жодних змін у плацебо (міжгрупова різниця — 1,1 пункту), а запропонованим механізмом було посилення транслокації GLUT-4 — невелике дослідження, у якому тренування були частиною втручання. Щодо діабету 1 типу немає практично нічого. Креатин не містить вуглеводів і не має поводитися як їжа, але якщо ви розраховуєте дози інсуліну, розумно не починати його в ті самі два тижні, коли ви змінюєте щось інше, і переглянути потім свої графіки глюкози. Будь-яка зміна інсуліну — це питання до вашої діабетичної команди."
       }
     ]
   }

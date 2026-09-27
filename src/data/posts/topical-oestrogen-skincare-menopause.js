@@ -22,7 +22,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There’s a reason skin keeps coming up. The American Society of Plastic Surgeons puts the loss at up to 30% of dermal collagen in the first five years after menopause, then roughly 2% a year after that — steeper than ordinary ageing explains. Treat that as a rough estimate: it goes back mainly to small studies from the 1980s, which reviews more often summarise as an average of about 2% a year across the first 15 years, and [the post on why skin changes so fast at menopause](/blog/menopause-skin-oestrogen/) explains how the two figures fit together. It’s also strikingly under-discussed: in a survey of 463 postmenopausal women aged 42 to 83 published in the journal Cosmetics, around 47% said nobody had ever told them menopause would affect their skin, hair and nails, and more than half felt it had knocked their self-esteem. That was a self-selected online questionnaire in a single country, so read it as a signal about how little gets said, not as a precise national figure."
+        "text": "There’s a reason skin keeps coming up. An article on the American Society of Plastic Surgeons’ website, quoting an aesthetic nurse practitioner, puts the loss at up to 30% of dermal collagen in the first five years after menopause, then roughly 2% a year after that — steeper than ordinary ageing explains. Treat that as a rough estimate: it goes back mainly to small studies from the 1980s, which reviews more often summarise as an average of about 2% a year across the first 15 years, and [the post on why skin changes so fast at menopause](/blog/menopause-skin-oestrogen/) explains how the two figures fit together. It’s also strikingly under-discussed: in a survey of 463 postmenopausal women aged 42 to 83 published in the journal Cosmetics, around 47% said nobody had ever told them menopause would affect their skin, hair and nails, and more than half felt it had knocked their self-esteem. That was a self-selected online questionnaire in a single country, so read it as a signal about how little gets said, not as a precise national figure."
       },
       {
         "t": "p",
@@ -51,8 +51,8 @@ export default {
           },
           {
             "claim": "Up to 30% of dermal collagen is lost in the first five post-menopausal years.",
-            "detail": "The American Society of Plastic Surgeons describes women losing up to 30% of dermal collagen within the first five years after menopause, followed by a further decline of about 2% each year. The same article sets out the emerging category of bio-identical topical oestrogen skincare — estradiol as the strongest form, estriol for more sensitive patients — and its side-effect profile, including skin irritation, hormonal acne, unwanted hair growth and hyperpigmentation.",
-            "cite": "American Society of Plastic Surgeons",
+            "detail": "An article on the American Society of Plastic Surgeons’ website, in which an aesthetic nurse practitioner is quoted, describes women losing up to 30% of dermal collagen within the first five years after menopause, followed by a further decline of about 2% each year. The same article sets out the emerging category of bio-identical topical oestrogen skincare — estradiol as the strongest form, estriol for more sensitive patients — and its side-effect profile, including skin irritation, hormonal acne, unwanted hair growth and hyperpigmentation.",
+            "cite": "American Society of Plastic Surgeons website · Article",
             "url": "https://www.plasticsurgery.org/news/articles/the-innovation-of-estrogen-based-medical-skincare"
           },
           {
@@ -134,7 +134,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Причина, чому шкіра постійно виринає в цій темі, цілком конкретна. Американське товариство пластичних хірургів (ASPS) наводить втрату до 30% колагену дерми за перші п’ять років після менопаузи, а далі — приблизно 2% щороку. Це крутіше падіння, ніж пояснює звичайне старіння. Сприймайте це як приблизну оцінку: вона походить здебільшого з невеликих досліджень 1980-х років, які огляди частіше підсумовують як у середньому близько 2% на рік за перші 15 років, а [у статті про те, чому шкіра так швидко змінюється в менопаузі](/ua/blog/menopause-skin-oestrogen/), пояснено, як ці дві цифри поєднуються. І про це вражаюче мало говорять: в опитуванні 463 жінок у постменопаузі віком від 42 до 83 років, опублікованому в журналі Cosmetics, близько 47% сказали, що їм ніхто не пояснив, як менопауза вплине на шкіру, волосся та нігті, а більше половини відчули удар по самооцінці. Це було онлайн-опитування з самостійним набором учасниць в одній країні, тож читайте його як сигнал про мовчання навколо теми, а не як точну національну цифру."
+        "text": "Причина, чому шкіра постійно виринає в цій темі, цілком конкретна. Стаття на сайті Американського товариства пластичних хірургів (ASPS), з посиланням на слова медсестри-практика з естетичної медицини, наводить втрату до 30% колагену дерми за перші п’ять років після менопаузи, а далі — приблизно 2% щороку. Це крутіше падіння, ніж пояснює звичайне старіння. Сприймайте це як приблизну оцінку: вона походить здебільшого з невеликих досліджень 1980-х років, які огляди частіше підсумовують як у середньому близько 2% на рік за перші 15 років, а [у статті про те, чому шкіра так швидко змінюється в менопаузі](/ua/blog/menopause-skin-oestrogen/), пояснено, як ці дві цифри поєднуються. І про це вражаюче мало говорять: в опитуванні 463 жінок у постменопаузі віком від 42 до 83 років, опублікованому в журналі Cosmetics, близько 47% сказали, що їм ніхто не пояснив, як менопауза вплине на шкіру, волосся та нігті, а більше половини відчули удар по самооцінці. Це було онлайн-опитування з самостійним набором учасниць в одній країні, тож читайте його як сигнал про мовчання навколо теми, а не як точну національну цифру."
       },
       {
         "t": "p",
@@ -163,8 +163,8 @@ export default {
           },
           {
             "claim": "До 30% колагену дерми втрачається за перші п’ять років після менопаузи.",
-            "detail": "Американське товариство пластичних хірургів описує втрату до 30% колагену дерми протягом перших п’яти років після менопаузи з подальшим зниженням приблизно на 2% щороку. У тій самій статті викладено нову категорію біоідентичної місцевої естрогенової косметики — естрадіол як найсильніша форма, естріол для чутливіших пацієнток — та її побічні ефекти: подразнення шкіри, гормональне акне, небажане оволосіння і гіперпігментація.",
-            "cite": "American Society of Plastic Surgeons",
+            "detail": "Стаття на сайті Американського товариства пластичних хірургів, у якій цитують медсестру-практика з естетичної медицини, описує втрату до 30% колагену дерми протягом перших п’яти років після менопаузи з подальшим зниженням приблизно на 2% щороку. У тій самій статті викладено нову категорію біоідентичної місцевої естрогенової косметики — естрадіол як найсильніша форма, естріол для чутливіших пацієнток — та її побічні ефекти: подразнення шкіри, гормональне акне, небажане оволосіння і гіперпігментація.",
+            "cite": "American Society of Plastic Surgeons website · Article",
             "url": "https://www.plasticsurgery.org/news/articles/the-innovation-of-estrogen-based-medical-skincare"
           },
           {
