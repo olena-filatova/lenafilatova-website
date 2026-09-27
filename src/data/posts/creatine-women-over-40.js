@@ -208,7 +208,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "For type 1 there is essentially nothing. Creatine contains no carbohydrate and should not behave like food. But something that moves water into muscle cells and may nudge glucose uptake is, for anyone dosing insulin, one more variable in a system that already has plenty. That is not a reason to avoid it. It is a reason not to start it in the same fortnight you change anything else, and to look at your traces afterwards rather than assume. [The guide to reading your own glucose patterns](/blog/reading-glucose-patterns/) is the method I would use for that. Any actual change to insulin is a conversation with your diabetes team, not something to work out from a graph."
+        "text": "For type 1 there is essentially nothing. Creatine contains no carbohydrate and should not behave like food. But something that moves water into muscle cells and may nudge glucose uptake is, for anyone dosing insulin, one more variable in a system that already has plenty. That is not a reason to avoid it. It is a reason not to start it in the same fortnight you change anything else, and to look at your traces afterwards rather than assume. [My guide to reading your CGM during a workout](/blog/how-to-read-cgm-during-workout/) is the method I would use for that. Any actual change to insulin is a conversation with your diabetes team, not something to work out from a graph."
       },
       {
         "t": "h",
@@ -546,7 +546,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Щодо діабету 1 типу немає практично нічого. Креатин не містить вуглеводів і не має поводитися як їжа. Але те, що переміщує воду в м’язові клітини й, можливо, впливає на захоплення глюкози, для людини, яка розраховує дози інсуліну, є ще однією змінною в системі, де їх і так вистачає. Це не привід відмовлятися. Це привід не починати його в ті самі два тижні, коли ви змінюєте щось інше, і подивитися потім на свої графіки, а не припускати. [Посібник із читання власних графіків глюкози](/ua/blog/reading-glucose-patterns/) — це той метод, яким скористалася б я. Будь-яка реальна зміна інсуліну — це розмова з вашою діабетичною командою, а не висновок із графіка."
+        "text": "Щодо діабету 1 типу немає практично нічого. Креатин не містить вуглеводів і не має поводитися як їжа. Але те, що переміщує воду в м’язові клітини й, можливо, впливає на захоплення глюкози, для людини, яка розраховує дози інсуліну, є ще однією змінною в системі, де їх і так вистачає. Це не привід відмовлятися. Це привід не починати його в ті самі два тижні, коли ви змінюєте щось інше, і подивитися потім на свої графіки, а не припускати. [Мій посібник про те, як читати CGM під час тренування](/ua/blog/how-to-read-cgm-during-workout/) — це той метод, яким скористалася б я. Будь-яка реальна зміна інсуліну — це розмова з вашою діабетичною командою, а не висновок із графіка."
       },
       {
         "t": "h",

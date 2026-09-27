@@ -255,7 +255,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "I have lived with type 1 diabetes for 23 years, and the thing that unsettled me in my early forties was not that the nights changed. It was that my interpretation of them stopped being reliable. Two decades of reading a 3am sweat as a hypo and being right almost every time — and then a stretch where I would treat it, and check afterwards, and find 6.2, having eaten glucose I did not need. That was the annoying direction."
+        "text": "I have lived with type 1 diabetes for 23 years, and the thing that unsettled me from my late thirties was not that the nights changed. It was that my interpretation of them stopped being reliable. Two decades of reading a 3am sweat as a hypo and being right almost every time — and then a stretch where I would treat it, and check afterwards, and find 6.2, having eaten glucose I did not need. That was the annoying direction."
       },
       {
         "t": "p",
@@ -617,7 +617,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Я живу з діабетом 1 типу 23 роки, і те, що вибило мене з рівноваги на початку сорокових, — не те, що змінилися ночі. А те, що моє тлумачення цих ночей перестало бути надійним. Два десятиліття я читала пітливість о третій ночі як гіпоглікемію й майже завжди мала рацію — а потім настала смуга, коли я лікувала, перевіряла після, бачила 6,2 і розуміла, що з’їла глюкозу, яка була не потрібна. Це був дратівливий напрямок."
+        "text": "Я живу з діабетом 1 типу 23 роки, і те, що вибило мене з рівноваги наприкінці тридцятих, — не те, що змінилися ночі. А те, що моє тлумачення цих ночей перестало бути надійним. Два десятиліття я читала пітливість о третій ночі як гіпоглікемію й майже завжди мала рацію — а потім настала смуга, коли я лікувала, перевіряла після, бачила 6,2 і розуміла, що з’їла глюкозу, яка була не потрібна. Це був дратівливий напрямок."
       },
       {
         "t": "p",
