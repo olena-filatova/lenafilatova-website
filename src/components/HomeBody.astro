@@ -51,6 +51,11 @@ const featuredRecipe = HOME.recipe;
 // Four tools, ordered by usefulness to someone new: what this food does, what
 // every food does, why today went wrong, what to buy next.
 const tools = [0, 6, 5, 4].map((i) => RESOURCES.cards[i]);
+// One numbering convention for ITEMS across the whole front page: roman.
+// Sections number themselves 01–05, and section 05's four rows used to number
+// themselves 01–04 in the same magenta — so the reader passed "05" and
+// immediately met "01" (OPS-307). Arabic now means section, roman means item,
+// and the two can no longer be read as the same list.
 const numerals = ['i', 'ii', 'iii', 'iv'];
 const toolHref = (card) => {
   const raw = lang === 'ua' ? card.hrefUa : card.href;
@@ -216,7 +221,7 @@ const toolHref = (card) => {
       <div class="ed-rows">
         {t.help.map((c, i) => (
           <div class="ed-row">
-            <span class="n">{String(i + 1).padStart(2, '0')}</span>
+            <span class="n">{numerals[i]}</span>
             <div><h3>{c.h}</h3><p>{c.p}</p></div>
           </div>
         ))}
@@ -396,7 +401,10 @@ const toolHref = (card) => {
   /* 0.75, not the 0.35 this started at: opacity multiplies the magenta against
      the paper, and at 0.35 these numerals measured 1.68:1 where large text
      needs 3:1. 0.75 gives 3.29:1 and matches .ab-row .n on About. */
-  .ed-row .n { font-family: var(--font-head); font-size: 30px; line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; letter-spacing: -0.03em; }
+    /* Roman since OPS-307 — see `numerals` above. Tracking goes back to normal:
+     -0.03em was drawn for zero-padded arabic and pulls the strokes of "iii"
+     into each other. */
+  .ed-row .n { font-family: var(--font-head); font-size: 30px; line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; }
   .ed-row h3 { font-size: 20px; margin-bottom: 5px; }
   .ed-row p { margin: 0; font-size: 14.5px; }
 
@@ -429,11 +437,26 @@ const toolHref = (card) => {
        for any number of items, so adding a fifth tool cannot break it. */
     .ed-tools > :nth-last-child(2):nth-child(odd),
     .ed-rows > :nth-last-child(2):nth-child(odd) { border-bottom: 0; }
-    .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; }
+    /* OPS-307 — the wide-viewport dead zones. Both of these are an image beside
+       a short text block, and both used to centre that block in its column:
+       the panel floated in the middle and the column simply stopped, leaving an
+       L-shaped void. Measured at 1512px it was 573px of photo against a 436px
+       panel on "From the blog", and 516px against 197px on "From my kitchen".
+
+       The fix is the same for both: stretch the text column to the photo's full
+       height and centre its content INSIDE it. On "From the blog" that alone
+       closes the gap, because the panel carries the paper colour — the void
+       becomes panel. "From my kitchen" had no panel at all, so it borrows the
+       one its sibling already uses, which also stops the two blocks reading as
+       two unrelated ideas. Its GI badge moves to the photo's left edge, clear
+       of where the panel now overlaps. */
+    .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
     .ed-feat .ph { aspect-ratio: 1 / 1; }
     .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
-    .ed-rec { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
-    .ed-rec .body { padding: 0; }
+    .ed-rec { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
+    .ed-rec .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); position: relative; z-index: 4; }
+    .ed-rec .gi { left: 0; right: auto; }
+    .ed-feat .body, .ed-rec .body { display: flex; flex-direction: column; justify-content: center; }
     .ed-voices { padding: 56px 0; }
     .ed-voices h2 { font-size: 38px; }
     .ed-qs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
@@ -463,7 +486,7 @@ const toolHref = (card) => {
     .ed-tool p { max-width: 42ch; }
     .ed-feat h3 { font-size: 38px; }
     .ed-feat p { font-size: 18px; }
-    .ed-feat .body { margin-left: -90px; padding: 40px; }
+    .ed-feat .body, .ed-rec .body { margin-left: -90px; padding: 40px; }
     .ed-rec h3 { font-size: 32px; }
     .ed-voices { margin-top: 80px; padding: 70px 0; }
     .ed-voices h2 { font-size: 44px; }

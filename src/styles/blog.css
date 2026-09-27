@@ -290,8 +290,16 @@
   letter-spacing: 0.18em; text-transform: uppercase; line-height: 1.5;
 }
 .post .byline { color: var(--muted); }
-.post .alt a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 3px; }
-.post .alt a:hover { border-bottom-color: var(--accent); }
+/* OPS-307: the other-language link used to be a flag emoji plus a phrase. It
+   now reuses the header's EN/UA device — a hairline code box — so the same
+   idea is spelled the same way in both places. inline-flex also lifts the row
+   to a 24px hit height; it was 18px, under the WCAG 2.5.8 floor. Both spans
+   inherit --fs-label from .post .alt above; nothing sets its own size. */
+.post .alt a { display: inline-flex; align-items: center; gap: 9px; min-height: 24px; color: var(--accent); text-decoration: none; }
+.post .alt .code { color: var(--ink); letter-spacing: 0.1em; padding: 3px 6px; box-shadow: inset 0 0 0 1px var(--rule); }
+.post .alt .t { border-bottom: 1px solid var(--line); padding-bottom: 3px; }
+.post .alt a:hover .t { border-bottom-color: var(--accent); }
+.post .alt a:hover .code { color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
 
 /* --- images --- */
 /* Square, on a paper2 well so the box does not flash white before the file
