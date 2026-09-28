@@ -157,7 +157,7 @@ export default {
           },
           {
             "claim": "Resistance training is the most evidence-backed way to protect muscle through menopause.",
-            "detail": "A 2023 systematic review and meta-analysis of 27 randomised controlled trials found exercise — resistance training in particular — was the most effective non-pharmacological approach for preserving muscle mass and strength across the menopausal transition, without the cortisol load of excessive cardio.",
+            "detail": "A 2023 systematic review and meta-analysis of 27 randomised controlled trials found exercise improved muscle mass and strength in women going through menopause, with resistance training the most effective type of exercise — without the cortisol load of excessive cardio.",
             "cite": "BMC Women’s Health · Systematic review & meta-analysis, 2023",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
           }
@@ -330,7 +330,7 @@ export default {
           },
           {
             "claim": "Силові тренування — найобґрунтованіший доказами спосіб зберегти м’язи під час менопаузи.",
-            "detail": "Систематичний огляд і метааналіз 2023 року з 27 рандомізованих контрольованих досліджень виявив, що вправи — зокрема силові — були найефективнішим нефармакологічним підходом до збереження м’язової маси та сили під час менопаузального переходу, без кортизолового навантаження надмірного кардіо.",
+            "detail": "Систематичний огляд і метааналіз 2023 року з 27 рандомізованих контрольованих досліджень виявив, що вправи покращують м’язову масу та силу в жінок під час менопаузи, а найефективнішим видом вправ були силові — без кортизолового навантаження надмірного кардіо.",
             "cite": "BMC Women’s Health · Систематичний огляд і метааналіз, 2023",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10647115/"
           }

@@ -71,7 +71,7 @@ export default {
           [
             "DiPietro et al., Diabetes Care, 2013",
             "Three 15-min post-meal walks vs one 45-min walk (older adults at risk)",
-            "Post-meal walks controlled 24-hour glucose better, the after-dinner one most of all"
+            "Both improved 24-hour glucose; post-meal walks were clearly better at lowering glucose in the 3 hours after dinner"
           ]
         ]
       },
@@ -203,8 +203,8 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8912639/"
           },
           {
-            "claim": "Short post-meal walks controlled 24-hour glucose better than one longer walk.",
-            "detail": "In older adults at risk of impaired glucose tolerance, three 15-minute walks taken shortly after each meal improved 24-hour glycaemic control more effectively than a single 45-minute walk of the same total duration, with the post-dinner walk producing the largest sustained improvement.",
+            "claim": "Short post-meal walks beat one longer walk after dinner.",
+            "detail": "In 10 inactive older adults at risk of impaired glucose tolerance, three 15-minute walks taken shortly after each meal and a single 45-minute morning walk of the same total duration both improved 24-hour glycaemic control compared with a control day. The post-meal walks were significantly more effective than the 45-minute walk at lowering glucose in the three hours after dinner.",
             "cite": "DiPietro L et al. · Diabetes Care, 2013",
             "url": "https://diabetesjournals.org/care/article/36/10/3262/30770/Three-15-min-Bouts-of-Moderate-Postmeal-Walking"
           }
@@ -294,7 +294,7 @@ export default {
           [
             "DiPietro та ін., Diabetes Care, 2013",
             "Три 15-хвилинні прогулянки після їжі проти однієї 45-хвилинної (літні люди з ризиком)",
-            "Прогулянки після їжі краще контролювали глюкозу за добу, найбільше — та, що після вечері"
+            "Обидва варіанти покращили добову глюкозу; прогулянки після їжі значно краще знижували глюкозу в 3 години після вечері"
           ]
         ]
       },
@@ -426,8 +426,8 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8912639/"
           },
           {
-            "claim": "Короткі прогулянки після їжі контролювали добову глюкозу краще, ніж одна довша.",
-            "detail": "У літніх людей із ризиком порушеної толерантності до глюкози три 15-хвилинні прогулянки невдовзі після кожного прийому їжі покращували добовий глікемічний контроль ефективніше, ніж одна 45-хвилинна прогулянка тієї самої загальної тривалості, а найбільший стійкий ефект давала прогулянка після вечері.",
+            "claim": "Короткі прогулянки після їжі виявилися кращими за одну довшу після вечері.",
+            "detail": "У 10 малоактивних літніх людей із ризиком порушеної толерантності до глюкози і три 15-хвилинні прогулянки невдовзі після кожного прийому їжі, і одна 45-хвилинна ранкова прогулянка тієї самої загальної тривалості покращили добовий глікемічний контроль порівняно з контрольним днем. Прогулянки після їжі значно ефективніше за 45-хвилинну знижували глюкозу протягом трьох годин після вечері.",
             "cite": "DiPietro L та ін. · Diabetes Care, 2013",
             "url": "https://diabetesjournals.org/care/article/36/10/3262/30770/Three-15-min-Bouts-of-Moderate-Postmeal-Walking"
           }

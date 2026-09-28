@@ -63,7 +63,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The cleanest demonstration of this is the [LIFTMOR trial](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), published in the Journal of Bone and Mineral Research in 2018. Postmenopausal women with low bone mass — average age in their mid-sixties — did just two supervised 30-minute sessions a week for eight months: five sets of five repetitions of deadlift, squat and overhead press, at over 85% of their one-rep maximum, plus a jumping movement. They gained bone density at the lumbar spine and femoral neck, and improved on every functional test. The comparison group, doing a gentle low-intensity home programme, did not."
+        "text": "The cleanest demonstration of this is the [LIFTMOR trial](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), published in the Journal of Bone and Mineral Research in 2018. Postmenopausal women with low bone mass — average age in their mid-sixties — did just two supervised 30-minute sessions a week for eight months: five sets of five repetitions of deadlift, squat and overhead press, at over 85% of their one-rep maximum, plus a jumping movement. They gained bone density at the lumbar spine, held it at the femoral neck, and improved on every functional test. The comparison group, doing a gentle low-intensity home programme, lost bone at both sites."
       },
       {
         "t": "p",
@@ -228,7 +228,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "It is also worth knowing that function improves before mass does. A 2026 systematic review and meta-analysis of resistance training in older women found consistent improvements in grip strength, walking speed and sit-to-stand performance — while the measured muscle mass index moved much less. Feeling stronger long before you look different isn’t a failure of the programme. It is the normal order of events."
+        "text": "It is also worth knowing that function improves before mass does. A 2026 systematic review and meta-analysis of resistance training in older women found consistent improvements in grip strength, walking speed and sit-to-stand performance — while the measured muscle mass index did not change significantly. Feeling stronger long before you look different isn’t a failure of the programme. It is the normal order of events."
       },
       {
         "t": "h",
@@ -263,7 +263,7 @@ export default {
         "items": [
           {
             "claim": "Twice-weekly heavy lifting improved bone density in postmenopausal women with low bone mass — gentle exercise did not.",
-            "detail": "The LIFTMOR randomised controlled trial assigned 101 postmenopausal women with low bone mass to eight months of twice-weekly, 30-minute supervised high-intensity resistance and impact training (5 sets of 5 repetitions at over 85% of one-rep maximum: deadlift, squat, overhead press, plus jumping chin-ups) or to a low-intensity home exercise programme. The training group improved bone mineral density at the lumbar spine and femoral neck and improved on functional measures including back and leg strength; the comparison group did not. Adverse events were minimal.",
+            "detail": "The LIFTMOR randomised controlled trial assigned 101 postmenopausal women with low bone mass to eight months of twice-weekly, 30-minute supervised high-intensity resistance and impact training (5 sets of 5 repetitions at over 85% of one-rep maximum: deadlift, squat, overhead press, plus jumping chin-ups) or to a low-intensity home exercise programme. The training group gained bone mineral density at the lumbar spine (+2.9%) and held it at the femoral neck (+0.3%), while the comparison group lost bone at both sites (−1.2% and −1.9%); the training group also did better on every functional measure, including back and leg strength. Adverse events were minimal.",
             "cite": "Journal of Bone and Mineral Research · Randomised controlled trial, 2018",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284"
           },
@@ -280,8 +280,8 @@ export default {
             "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
           },
           {
-            "claim": "How you load matters, not just that you turn up.",
-            "detail": "A systematic review with meta-regressions examined which resistance training variables — intensity, volume, frequency, progression — drive muscle mass outcomes in sarcopenia. Increasing muscle mass proves harder than increasing strength, and the way the programme is loaded and progressed is a large part of what separates programmes that work from programmes that don’t.",
+            "claim": "Turning up consistently matters more than fine-tuning the programme.",
+            "detail": "A systematic review with meta-regressions of 14 studies (528 older adults with sarcopenia) found that supervised resistance training produced a small but significant gain in muscle mass. It then asked which variables — intensity, volume, frequency, periodisation, training to failure — separated programmes that worked from those that didn’t. None did: the programmes were built much alike, and only age predicted a smaller response. Muscle mass is harder to move than strength, and a sensible programme done consistently is what counts.",
             "cite": "Journal of Cachexia, Sarcopenia and Muscle · Delaire et al., systematic review with meta-regressions, December 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
           },
@@ -408,7 +408,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найчистіша демонстрація цього — [дослідження LIFTMOR](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), опубліковане в Journal of Bone and Mineral Research 2018 року. Жінки в постменопаузі зі зниженою щільністю кісток — у середньому близько шістдесяти п’яти років — робили лише два наглядові 30-хвилинні тренування на тиждень протягом восьми місяців: п’ять підходів по п’ять повторень станової тяги, присідання й жиму над головою з вагою понад 85% від одноповторного максимуму, плюс стрибковий рух. Вони наростили щільність кістки в поперековому відділі хребта й шийці стегна та покращили всі функціональні показники. Група порівняння, яка робила м’яку домашню програму низької інтенсивності, — ні."
+        "text": "Найчистіша демонстрація цього — [дослідження LIFTMOR](https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284), опубліковане в Journal of Bone and Mineral Research 2018 року. Жінки в постменопаузі зі зниженою щільністю кісток — у середньому близько шістдесяти п’яти років — робили лише два наглядові 30-хвилинні тренування на тиждень протягом восьми місяців: п’ять підходів по п’ять повторень станової тяги, присідання й жиму над головою з вагою понад 85% від одноповторного максимуму, плюс стрибковий рух. Вони наростили щільність кістки в поперековому відділі хребта, зберегли її в шийці стегна та покращили всі функціональні показники. Група порівняння, яка робила м’яку домашню програму низької інтенсивності, втратила кісткову масу в обох ділянках."
       },
       {
         "t": "p",
@@ -573,7 +573,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Варто знати й те, що функція покращується раніше за масу. Систематичний огляд і метааналіз силових тренувань у літніх жінок 2026 року показав стабільне покращення сили хвату, швидкості ходьби й підйомів зі стільця — тоді як виміряний індекс м’язової маси змінювався значно менше. Відчувати себе сильнішою задовго до того, як почнете інакше виглядати, — це не провал програми. Це нормальний порядок подій."
+        "text": "Варто знати й те, що функція покращується раніше за масу. Систематичний огляд і метааналіз силових тренувань у літніх жінок 2026 року показав стабільне покращення сили хвату, швидкості ходьби й підйомів зі стільця — тоді як виміряний індекс м’язової маси суттєво не змінився. Відчувати себе сильнішою задовго до того, як почнете інакше виглядати, — це не провал програми. Це нормальний порядок подій."
       },
       {
         "t": "h",
@@ -608,7 +608,7 @@ export default {
         "items": [
           {
             "claim": "Два важких тренування на тиждень підвищили щільність кісток у жінок у постменопаузі — м’які вправи ні.",
-            "detail": "Рандомізоване контрольоване дослідження LIFTMOR розподілило 101 жінку в постменопаузі зі зниженою щільністю кісток на вісім місяців двох наглядових 30-хвилинних тренувань на тиждень високоінтенсивного силового й ударного навантаження (5 підходів по 5 повторень із вагою понад 85% одноповторного максимуму: станова тяга, присідання, жим над головою плюс стрибкові підтягування) або на домашню програму низької інтенсивності. Група тренувань покращила мінеральну щільність кістки в поперековому відділі хребта й шийці стегна та функціональні показники, зокрема силу спини й ніг; група порівняння — ні. Побічних явищ було мінімально.",
+            "detail": "Рандомізоване контрольоване дослідження LIFTMOR розподілило 101 жінку в постменопаузі зі зниженою щільністю кісток на вісім місяців двох наглядових 30-хвилинних тренувань на тиждень високоінтенсивного силового й ударного навантаження (5 підходів по 5 повторень із вагою понад 85% одноповторного максимуму: станова тяга, присідання, жим над головою плюс стрибкові підтягування) або на домашню програму низької інтенсивності. Група тренувань наростила мінеральну щільність кістки в поперековому відділі хребта (+2,9%) і зберегла її в шийці стегна (+0,3%), тоді як група порівняння втратила кісткову масу в обох ділянках (−1,2% і −1,9%); за всіма функціональними показниками, зокрема силою спини й ніг, група тренувань теж була кращою. Побічних явищ було мінімально.",
             "cite": "Journal of Bone and Mineral Research · Рандомізоване контрольоване дослідження, 2018",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3284"
           },
@@ -625,8 +625,8 @@ export default {
             "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
           },
           {
-            "claim": "Має значення, як саме ви навантажуєте, а не лише те, що ви прийшли.",
-            "detail": "Систематичний огляд із метарегресіями дослідив, які параметри силових тренувань — інтенсивність, обсяг, частота, прогресія — визначають приріст м’язової маси при саркопенії. Наростити масу виявляється складніше, ніж силу, і те, як програма навантажена й прогресує, значною мірою відрізняє програми, що працюють, від тих, що ні.",
+            "claim": "Регулярність важить більше, ніж тонке налаштування програми.",
+            "detail": "Систематичний огляд із метарегресіями 14 досліджень (528 людей старшого віку із саркопенією) показав, що силові тренування під наглядом дають невеликий, але значущий приріст м’язової маси. Далі автори перевірили, які параметри — інтенсивність, обсяг, частота, періодизація, тренування до відмови — відрізняють програми, що спрацювали, від тих, що ні. Жоден: програми були побудовані дуже схоже, і менший результат передбачав лише вік. Наростити масу складніше, ніж силу, і вирішує розумна програма, яку ви виконуєте регулярно.",
             "cite": "Journal of Cachexia, Sarcopenia and Muscle · Delaire та ін., систематичний огляд із метарегресіями, грудень 2025",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688407/"
           },

@@ -232,14 +232,14 @@ export default {
           },
           {
             "claim": "Fasted exercise burns more fat during the session — which doesn’t translate into more fat lost overall.",
-            "detail": "A systematic review and meta-analysis in the British Journal of Nutrition covering 27 studies in 273 participants found significantly higher fat oxidation during aerobic exercise performed fasted rather than fed, with lower glucose and insulin concentrations. The authors note that greater fat oxidation during the session does not necessarily produce greater 24-hour fat oxidation or long-term fat loss compared with the same exercise done fed. Most included studies were in men or mixed samples, and none were specific to women over 40 or to people managing diabetes.",
+            "detail": "A systematic review and meta-analysis in the British Journal of Nutrition covering 27 studies in 273 participants found significantly higher fat oxidation during aerobic exercise performed fasted rather than fed, with lower glucose and insulin concentrations. The authors caution that these were acute measurements only and should not be extrapolated to long-term fat loss, for which they found insufficient evidence. Most included studies were in men, and none were specific to women over 40 or to people managing diabetes.",
             "cite": "British Journal of Nutrition · Systematic review and meta-analysis",
             "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-aerobic-exercise-performed-in-fasted-v-fed-state-on-fat-and-carbohydrate-metabolism-in-adults-a-systematic-review-and-metaanalysis/0EA2328A0FF91703C95FD39A38716811"
           },
           {
             "claim": "The precise post-workout protein window does not appear to matter for muscle.",
-            "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
-            "cite": "Nutrient timing after resistance exercise in postmenopausal women · Randomised trial, 2013",
+            "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. It was published as a conference abstract and funded by the programme’s provider, Curves International. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing. This is why the post-training meal in this article is described as “within an hour or two” rather than a strict window.",
+            "cite": "Journal of the International Society of Sports Nutrition · Randomised trial (conference abstract), 2013",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
           }
         ]
@@ -511,14 +511,14 @@ export default {
           },
           {
             "claim": "Натщесерце під час заняття спалюється більше жиру — але це не означає більшої втрати жиру загалом.",
-            "detail": "Систематичний огляд і метааналіз у British Journal of Nutrition, що охопив 27 досліджень за участю 273 людей, показав істотно вище окиснення жиру під час аеробного навантаження натщесерце порівняно з тренуванням після їжі, а також нижчі рівні глюкози й інсуліну. Автори зазначають, що більше окиснення жиру під час заняття не обов’язково дає більше окиснення жиру за добу чи більшу втрату жиру в довгій перспективі порівняно з тим самим тренуванням після їжі. Більшість включених досліджень проводили на чоловіках або змішаних вибірках, і жодне не стосувалося саме жінок після 40 чи людей із діабетом.",
+            "detail": "Систематичний огляд і метааналіз у British Journal of Nutrition, що охопив 27 досліджень за участю 273 людей, показав істотно вище окиснення жиру під час аеробного навантаження натщесерце порівняно з тренуванням після їжі, а також нижчі рівні глюкози й інсуліну. Автори застерігають, що це лише гострі вимірювання і їх не можна переносити на довгострокову втрату жиру, для якої доказів недостатньо. Більшість включених досліджень проводили на чоловіках, і жодне не стосувалося саме жінок після 40 чи людей із діабетом.",
             "cite": "British Journal of Nutrition · Систематичний огляд і метааналіз",
             "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-aerobic-exercise-performed-in-fasted-v-fed-state-on-fat-and-carbohydrate-metabolism-in-adults-a-systematic-review-and-metaanalysis/0EA2328A0FF91703C95FD39A38716811"
           },
           {
             "claim": "Точне «білкове вікно» після тренування, схоже, не має значення для м’язів.",
-            "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і зниження ваги порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Жоден із варіантів не виявився виразно кращим — тобто тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
-            "cite": "Час прийому нутрієнтів після силових вправ у жінок у постменопаузі · Рандомізоване дослідження, 2013",
+            "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і зниження ваги порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Результати опубліковано як тези конференції, а фінансувала дослідження Curves International, компанія — власниця програми. Жоден із варіантів не виявився виразно кращим — тобто тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням. Саме тому прийом їжі після тренування в цій статті описано як «протягом години-двох», а не як жорстке вікно.",
+            "cite": "Journal of the International Society of Sports Nutrition · Рандомізоване дослідження (тези конференції), 2013",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
           }
         ]
