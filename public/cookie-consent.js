@@ -24,9 +24,25 @@
 //
 //   - Advertising consent types stay denied permanently. The site runs no ads
 //     and no remarketing, so there is nothing to upgrade them for.
+//
+//   - The tag only ever loads on the live domain (OPS-520). Dev-server
+//     previews on localhost were firing the real tag and polluting the live
+//     property: 13 of 119 pageviews in the 28 days to 24 Sep 2026 came from
+//     hostname `localhost`. Measuring a host allowlist rather than blocking a
+//     denylist means any future preview host (a project page, a branch
+//     deploy, an IP) is excluded by default instead of silently counted.
+//     The banner itself still renders off-domain, so its UI stays previewable.
 (function () {
   var GA_ID = 'G-0F8T9VQFQ0';
   var DISABLE_FLAG = 'ga-disable-' + GA_ID;
+
+  // The only hosts whose traffic is real. Everything else — localhost,
+  // 127.0.0.1, *.github.io, any branch preview — is development.
+  var LIVE_HOSTS = ['lenafilatova.co.uk', 'www.lenafilatova.co.uk'];
+
+  function isLiveSite() {
+    return LIVE_HOSTS.indexOf(location.hostname) !== -1;
+  }
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { dataLayer.push(arguments); };
@@ -48,6 +64,10 @@
   }
 
   function loadGA() {
+    // Off the live domain, never fetch gtag.js. Other scripts call
+    // window.gtag() for their own events (search, generate_lead); with the
+    // library absent those calls only push onto dataLayer and go nowhere.
+    if (!isLiveSite()) return;
     if (window.__lfGA) return;
     window.__lfGA = true;
     var s = document.createElement('script');
@@ -78,7 +98,7 @@
       return;
     }
 
-    setDefaults(choice);
+    if (isLiveSite()) setDefaults(choice);
     loadGA();
 
     if (choice === 'accepted') return;
