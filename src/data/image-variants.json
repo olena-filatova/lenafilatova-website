@@ -969,6 +969,24 @@
       ]
     ]
   },
+  "/images/menopausal-status-aesthetics-trials.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/menopausal-status-aesthetics-trials-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopausal-status-aesthetics-trials-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopausal-status-aesthetics-trials-1200.avif"
+      ]
+    ]
+  },
   "/images/menopause-aesthetics-survey-2026.jpg": {
     "w": 1200,
     "h": 675,
