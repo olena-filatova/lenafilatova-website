@@ -1,0 +1,5 @@
+# UA proofread: post--pharma-type-1-diabetes-cure
+
+- Last checked: 2026-09-28
+- PR: (this PR)
+- Notes: Well-written translation, no Russianisms/surzhyk, no straight apostrophes. Two small fixes: replaced "функціонального одужання" (recovery) with "функціонального зцілення" (cure) for the "functional cure" reference to zimislecel, matching the "ліки"/"вилікувати" terminology used consistently elsewhere in this article rather than introducing a different concept (recovery vs. cure). Also removed "кровоносне русло" (bloodstream) from the description of the islet-cell infusion — the `en` text says only "infused into the liver", and the added anatomical detail wasn't in the source. Numbers, dates, currency figures and medical claims all checked paragraph-by-paragraph against `en` and match.
