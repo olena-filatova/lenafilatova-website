@@ -1,0 +1,5 @@
+# post--menopause-skincare-longevity-marketing
+
+- Last checked: 2026-09-30
+- PR: (this PR)
+- Notes: Found one factual translation slip against the EN source (the Cell BioPrint trade-show mention was dated "того ж 2025 року" but the antecedent year in the sentence before it is 2026 — fixed to match EN). Also fixed a business-jargon calque ("незакритий" попит → "незадоволений"), an awkward verb construction for a statistic ("відносить на жінок... 47%" → "свідчить, що... припадає 47%"), a gender-agreement error (pronoun "його" referring to the feminine noun "цифра", should be "її"), a missing preposition after "натякати на" (had dropped the "на"), an English loanword with a natural Ukrainian equivalent available ("Пайплайн" → "Портфель досліджень"), a weaker rendering of "prioritise" as "охопити" (fixed to "зосередитися насамперед на", in both the body text and the matching refs entry), and a missing dash in a copula construction in the excerpt. No numbers, doses, citations or medical meaning changed.
