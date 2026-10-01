@@ -1595,6 +1595,24 @@
       ]
     ]
   },
+  "/images/type-2-diabetes-cancer-risk-women.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/type-2-diabetes-cancer-risk-women-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type-2-diabetes-cancer-risk-women-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type-2-diabetes-cancer-risk-women-1200.avif"
+      ]
+    ]
+  },
   "/images/type-2-diabetes-menopause-symptoms.jpg": {
     "w": 1200,
     "h": 675,
