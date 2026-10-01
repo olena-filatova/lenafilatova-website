@@ -1,7 +1,7 @@
 # post--extended-release-minoxidil-female-hair-loss
 
 - Last checked: 2026-10-01
-- PR: (filled in after push — UA proofread PR for this run)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/296
 - Notes: fixed one EN/UA fidelity gap (dropped "or ankles" from the
   side-effect sentence), one internal inconsistency (first paragraph added
   "андрогенетичною" to "female-pattern hair loss" where every other mention

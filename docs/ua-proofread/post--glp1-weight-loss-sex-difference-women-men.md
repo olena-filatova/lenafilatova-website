@@ -1,7 +1,7 @@
 # post--glp1-weight-loss-sex-difference-women-men
 
 - Last checked: 2026-10-01
-- PR: (filled in after push — UA proofread PR for this run)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/296
 - Notes: UA text was already close to EN and natural-sounding. Fixed two
   sitewide terminology-consistency issues: the recurring heading translated
   as "Що каже дослідження" (minority form, 8/46 posts) vs the dominant
