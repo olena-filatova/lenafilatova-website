@@ -329,8 +329,17 @@ const toolHref = (card) => {
      there the label is a kicker. Size stays at the kicker step deliberately:
      enlarging the five section heads is a visible change to the front page,
      not a defect fix, so it's left for Lena to call. Margin/size are reset
-     because this is now a heading inside a flex row. */
-  .ed-name { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); margin: 0; line-height: 1.2; }
+     because this is now a heading inside a flex row.
+
+     OPS-530: the selector is .ed-head .ed-name, not .ed-name. Once Astro has
+     scoped both rules, `.ed :is(h1,h2,h3,h4)` above outweighs a bare
+     .ed-name, so on four of the five sections the font family, weight and
+     tracking were silently coming from the heading rule — Spectral 400 at the
+     kicker size, which made the main section heads the smallest text on the
+     page. Section 04 escaped it only because its label is a <span>. The size
+     also moves up to the --fs-label-head step (16px): these are real <h2>s,
+     not kickers, and Lena has approved the change. */
+  .ed-head .ed-name { font-family: var(--font-body); font-size: var(--fs-label-head); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); margin: 0; line-height: 1.2; }
   .ed-more { margin-left: auto; font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
   /* OPS-306 — the invisible 24px hit strip .site-nav a uses (see the note in
      global.css). These caps links draw an 18–21px box, under the 24x24 WCAG
