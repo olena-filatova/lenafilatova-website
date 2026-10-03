@@ -1,7 +1,7 @@
 # post--natural-sweeteners
 
 - Last checked: 2026-10-03
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/TBD
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/310
 - Notes: Found and removed one fabricated fact — the UA monk-fruit paragraph
   had invented a year ("у 2017-му") that does not appear anywhere in the EN
   text or source; rewritten to match EN's actual claim ("wasn't on most
