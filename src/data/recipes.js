@@ -37,8 +37,8 @@ export const RECIPES = [
   {
     slug: 'beef-skewers-wine-sauce', dateAdded: '2026-07-10', img: '01-beef-skewers-wine-sauce.jpeg', cat: 'main', gi: 12,
     tags: ['gluten-free', 'low-carb'],
-    imgAlt: { en: "Wooden skewers of seared beef, blistered cherry tomatoes, onion and mushroom on a white plate, glossed with dark red wine sauce.", ua: "Дерев’яні шпажки з обсмаженою яловичиною, підпеченими помідорами чері, цибулею та грибами на білій тарілці, политі темним соусом із червоного вина." },
-    title: { en: 'Beef Skewers with Red Wine Sauce', ua: 'Шашлики з яловичини з соусом з червоного вина' },
+    imgAlt: { en: "Wooden skewers of seared beef, blistered cherry tomatoes, onion and mushroom on a white plate, glossed with dark red wine sauce.", ua: "Дерев’яні шпажки з обсмаженою яловичиною, підпеченими помідорами черрі, цибулею та грибами на білій тарілці, политі темним соусом із червоного вина." },
+    title: { en: 'Beef Skewers with Red Wine Sauce', ua: 'Шашлики з яловичини в соусі з червоного вина' },
     meta: { prep: { en: '2 hours (incl. marinating)', ua: '2 год (з маринуванням)' }, cook: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     why: { en: "Protein-rich beef with non-starchy vegetables keeps blood sugar stable. The sauce uses only a small amount of natural sweetener — swap honey for erythritol to keep GI minimal.", ua: "Яловичина, багата на білок, у поєднанні з некрохмалистими овочами стабілізує рівень цукру в крові. У соусі — мінімум підсолоджувача, а мед можна замінити еритритолом." },
     nutrition: { en: 'Per serving (est.): ~600 kcal · Carbs 14 g · Fat 42 g · Protein 45 g', ua: 'На порцію (прибл.): ~600 ккал · Вуглеводи 14 г · Жири 42 г · Білки 45 г' },
