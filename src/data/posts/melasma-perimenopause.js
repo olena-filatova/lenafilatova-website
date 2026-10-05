@@ -25,7 +25,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Perimenopause has become the default explanation for anything that changes about a woman after forty, and pigmentation is a favourite. It is an easy sell, because it is partly true and completely unfalsifiable in a comment section. But the three most common kinds of dark patch that turn up at this age have different causes, different treatments and — in one case — a different specialist. Getting the name right is most of the work."
+        "text": "Perimenopause has become the default explanation for anything that changes about a woman after forty, and pigmentation is a favourite. It is an easy sell, because it is partly true and completely unfalsifiable in a comment section. But the three most common kinds of dark patch that turn up at this age have different causes, different treatments and — in one case — a different specialist. Getting the name right is most of the work. That is not an argument against the hormonal explanation everywhere — for [perimenopause anxiety](/blog/anxiety-in-perimenopause/) and [depression in perimenopause](/blog/depression-in-perimenopause/) it holds up to the trials. It is an argument against reaching for it first, here."
       },
       {
         "t": "h",
@@ -220,7 +220,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Перименопауза стала поясненням за замовчуванням для будь-якої зміни в жінки після сорока, і пігментація — улюблений приклад. Це легко продати, бо частково правда і водночас неможливо спростувати в коментарях. Але три найпоширеніші види темних плям у цьому віці мають різні причини, різне лікування, а в одному випадку — й іншого лікаря. Правильна назва — це вже більша частина роботи."
+        "text": "Перименопауза стала поясненням за замовчуванням для будь-якої зміни в жінки після сорока, і пігментація — улюблений приклад. Це легко продати, бо частково правда і водночас неможливо спростувати в коментарях. Але три найпоширеніші види темних плям у цьому віці мають різні причини, різне лікування, а в одному випадку — й іншого лікаря. Правильна назва — це вже більша частина роботи. Це не заперечення гормонального пояснення взагалі — для [тривоги в перименопаузі](/ua/blog/anxiety-in-perimenopause/) та [депресії в перименопаузі](/ua/blog/depression-in-perimenopause/) воно витримує перевірку дослідженнями. Це заперечення звички хапатися за нього першим саме тут."
       },
       {
         "t": "h",

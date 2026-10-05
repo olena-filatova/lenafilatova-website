@@ -58,7 +58,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Running underneath all three is sleep. The same issue carries a Practice Pearl on sleep disturbance in midlife women, which notes that poor and fragmented sleep in this group often does not arrive alone: it tends to travel with depressive and anxiety symptoms, hot flushes, substance use, trauma history and relationship stress, and that evidence-based cognitive-behavioural sleep interventions exist. The advice to clinicians is embarrassingly basic — ask midlife women about their sleep. It is worth knowing that this needed saying. Sleep is not a soft symptom either: [ninety minutes less of it raised insulin resistance measurably in women](/blog/sleep-insulin-resistance-women/)."
+        "text": "Running underneath all three is sleep. The same issue carries a Practice Pearl on sleep disturbance in midlife women, which notes that poor and fragmented sleep in this group often does not arrive alone: it tends to travel with depressive and anxiety symptoms, hot flushes, substance use, trauma history and relationship stress, and that evidence-based cognitive-behavioural sleep interventions exist. The advice to clinicians is embarrassingly basic — ask midlife women about their sleep. It is worth knowing that this needed saying. Sleep is not a soft symptom either: [ninety minutes less of it raised insulin resistance measurably in women](/blog/sleep-insulin-resistance-women/). For the fuller picture of [perimenopause anxiety](/blog/anxiety-in-perimenopause/) — what drives it, and which treatments have evidence behind them — there is a longer piece here."
       },
       {
         "t": "p",
@@ -178,7 +178,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Під усіма трьома роботами лежить сон. У тому ж випуску є Practice Pearl про порушення сну в жінок середнього віку: поганий і фрагментований сон у цій групі часто приходить не сам — він зазвичай іде разом із депресивними й тривожними симптомами, припливами, вживанням психоактивних речовин, травматичним анамнезом і стресом у стосунках, а доказові когнітивно-поведінкові втручання для сну існують. Порада клініцистам аж ніякова у своїй базовості — питайте жінок середнього віку про сон. Варто знати, що це довелося проговорити окремо. Сон — теж не «м’який» симптом: [на півтори години менше сну помітно підвищувало інсулінорезистентність у жінок](/ua/blog/sleep-insulin-resistance-women/)."
+        "text": "Під усіма трьома роботами лежить сон. У тому ж випуску є Practice Pearl про порушення сну в жінок середнього віку: поганий і фрагментований сон у цій групі часто приходить не сам — він зазвичай іде разом із депресивними й тривожними симптомами, припливами, вживанням психоактивних речовин, травматичним анамнезом і стресом у стосунках, а доказові когнітивно-поведінкові втручання для сну існують. Порада клініцистам аж ніякова у своїй базовості — питайте жінок середнього віку про сон. Варто знати, що це довелося проговорити окремо. Сон — теж не «м’який» симптом: [на півтори години менше сну помітно підвищувало інсулінорезистентність у жінок](/ua/blog/sleep-insulin-resistance-women/). Ширшу картину [тривоги в перименопаузі](/ua/blog/anxiety-in-perimenopause/) — що її живить і за якими методами лікування стоять докази — розібрано в окремому матеріалі."
       },
       {
         "t": "p",

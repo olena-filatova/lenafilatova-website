@@ -87,7 +87,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "And here is the thing the perimenopause articles almost never say: none of this was designed around perimenopausal women. The trials are in older adults with insomnia and in general poor sleepers. Perimenopausal sleep has its own specific mechanism — night sweats, and a hormonal transition that fragments sleep architecture — and no magnesium trial aimed at it has yet reported results; the first ones are still under way. Anyone telling you magnesium is proven for perimenopausal sleep is extrapolating and not saying so."
+        "text": "And here is the thing the perimenopause articles almost never say: none of this was designed around perimenopausal women. The trials are in older adults with insomnia and in general poor sleepers. Perimenopausal sleep has its own specific mechanism — night sweats, and a hormonal transition that fragments sleep architecture — and no magnesium trial aimed at it has yet reported results; the first ones are still under way. Anyone telling you magnesium is proven for perimenopausal sleep is extrapolating and not saying so. The same gap runs through the mood claims made for it. What fragments the night in this decade is often [perimenopause anxiety](/blog/anxiety-in-perimenopause/) rather than a mineral shortfall, and that has its own evidence and its own treatments."
       },
       {
         "t": "p",
@@ -127,7 +127,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "It is worth naming what the supplement is competing against. Sleeping enough, moving after meals, eating enough protein and lifting something heavy twice a week all have larger and better-evidenced effects on insulin sensitivity in midlife than any mineral tablet. Magnesium at best sits alongside those. It cannot substitute for them, and the reason it gets marketed as though it can is that it is a product and they are not."
+        "text": "It is worth naming what the supplement is competing against. Sleeping enough, moving after meals, eating enough protein and lifting something heavy twice a week all have larger and better-evidenced effects on insulin sensitivity in midlife than any mineral tablet. Magnesium at best sits alongside those. It cannot substitute for them, and the reason it gets marketed as though it can is that it is a product and they are not. The same goes for mood: if what is wearing you down is [depression in perimenopause](/blog/depression-in-perimenopause/), a supplement is not the lever that moves it."
       },
       {
         "t": "h",
@@ -295,7 +295,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "І ось те, чого статті про перименопаузу майже ніколи не кажуть: жодне з цих досліджень не було спрямоване саме на жінок у перименопаузі. Дослідження проводили на літніх людях із безсонням і на людях із загалом поганим сном. Сон у перименопаузі має власний механізм — нічна пітливість і гормональний перехід, який фрагментує структуру сну, — і жодне дослідження магнію, спрямоване на нього, ще не опублікувало результатів; перші такі дослідження досі тривають. Той, хто каже вам, що магній доведено допомагає при перименопаузальному сні, екстраполює й не повідомляє про це."
+        "text": "І ось те, чого статті про перименопаузу майже ніколи не кажуть: жодне з цих досліджень не було спрямоване саме на жінок у перименопаузі. Дослідження проводили на літніх людях із безсонням і на людях із загалом поганим сном. Сон у перименопаузі має власний механізм — нічна пітливість і гормональний перехід, який фрагментує структуру сну, — і жодне дослідження магнію, спрямоване на нього, ще не опублікувало результатів; перші такі дослідження досі тривають. Той, хто каже вам, що магній доведено допомагає при перименопаузальному сні, екстраполює й не повідомляє про це. Той самий розрив є і в твердженнях про настрій. Ніч у цьому десятилітті частіше розриває [тривога в перименопаузі](/ua/blog/anxiety-in-perimenopause/), а не нестача мінералу, — і в неї свої докази й своє лікування."
       },
       {
         "t": "p",
@@ -335,7 +335,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Варто назвати, з чим саме конкурує добавка. Достатній сон, рух після їжі, достатньо білка й важкі силові двічі на тиждень мають більший і краще доведений вплив на чутливість до інсуліну в середньому віці, ніж будь-яка мінеральна таблетка. Магній у найкращому разі стоїть поруч із ними. Він не може їх замінити, а причина, з якої його рекламують так, ніби може, — у тому, що він товар, а вони ні."
+        "text": "Варто назвати, з чим саме конкурує добавка. Достатній сон, рух після їжі, достатньо білка й важкі силові двічі на тиждень мають більший і краще доведений вплив на чутливість до інсуліну в середньому віці, ніж будь-яка мінеральна таблетка. Магній у найкращому разі стоїть поруч із ними. Він не може їх замінити, а причина, з якої його рекламують так, ніби може, — у тому, що він товар, а вони ні. Те саме щодо настрою: якщо вас виснажує [депресія в перименопаузі](/ua/blog/depression-in-perimenopause/), добавка — не той важіль, який це зрушить."
       },
       {
         "t": "h",

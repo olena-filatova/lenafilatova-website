@@ -77,7 +77,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "HRT is worth discussing, with the honest caveat attached. The strongest trial evidence in this territory measured depressive symptoms rather than anxiety: twelve months of transdermal oestradiol nearly halved the rate of new clinically significant depressive symptoms in [one randomised prevention trial](/blog/depression-in-perimenopause/). For anxiety specifically the direct evidence is thin. What HRT reliably does is reduce hot flushes and night sweats, and for a lot of women the anxiety is being fed by a body that is woken four times a night."
+        "text": "HRT is worth discussing, with the honest caveat attached. The strongest trial evidence in this territory measured depressive symptoms rather than anxiety: twelve months of transdermal oestradiol nearly halved the rate of new clinically significant depressive symptoms in [one randomised prevention trial](/blog/depression-in-perimenopause/). For anxiety specifically the direct evidence is thin. What HRT reliably does is reduce hot flushes and night sweats, and for a lot of women the anxiety is being fed by a body that is woken four times a night. If you do decide to discuss it, [when to start HRT](/blog/hrt-timing-perimenopause-start/) is a question with its own evidence — and the headline figure usually attached to it rests on less than it appears to."
       },
       {
         "t": "p",
@@ -266,7 +266,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "ЗГТ варта обговорення — із чесним застереженням. Найсильніші дані рандомізованих досліджень у цій царині вимірювали депресивні симптоми, а не тривогу: дванадцять місяців трансдермального естрадіолу майже вдвічі знизили частоту нових клінічно значущих депресивних симптомів в [одному профілактичному дослідженні](/ua/blog/depression-in-perimenopause/). Саме щодо тривоги прямих доказів мало. Що ЗГТ робить надійно — зменшує припливи й нічну пітливість, а в багатьох жінок тривогу живить тіло, яке прокидається чотири рази за ніч."
+        "text": "ЗГТ варта обговорення — із чесним застереженням. Найсильніші дані рандомізованих досліджень у цій царині вимірювали депресивні симптоми, а не тривогу: дванадцять місяців трансдермального естрадіолу майже вдвічі знизили частоту нових клінічно значущих депресивних симптомів в [одному профілактичному дослідженні](/ua/blog/depression-in-perimenopause/). Саме щодо тривоги прямих доказів мало. Що ЗГТ робить надійно — зменшує припливи й нічну пітливість, а в багатьох жінок тривогу живить тіло, яке прокидається чотири рази за ніч. Якщо ви вирішите це обговорити, [коли починати ЗГТ](/ua/blog/hrt-timing-perimenopause-start/) — окреме питання зі своїми доказами, а гучна цифра, яку до нього зазвичай чіпляють, стоїть на меншому, ніж здається."
       },
       {
         "t": "p",
