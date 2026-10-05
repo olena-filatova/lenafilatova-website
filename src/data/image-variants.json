@@ -549,6 +549,24 @@
       ]
     ]
   },
+  "/images/glp1-pill-approved-uk.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-pill-approved-uk-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-pill-approved-uk-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-pill-approved-uk-1200.avif"
+      ]
+    ]
+  },
   "/images/glp1-weight-loss-drugs-fat-not-muscle.jpg": {
     "w": 1200,
     "h": 675,
@@ -966,6 +984,24 @@
       [
         1200,
         "/images/v/melasma-perimenopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopausal-status-aesthetics-trials.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/menopausal-status-aesthetics-trials-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopausal-status-aesthetics-trials-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopausal-status-aesthetics-trials-1200.avif"
       ]
     ]
   },

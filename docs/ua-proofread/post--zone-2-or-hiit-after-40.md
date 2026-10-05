@@ -1,0 +1,5 @@
+# post--zone-2-or-hiit-after-40
+
+- Last checked: 2026-09-29
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/283
+- Notes: 6 fixes. One calque sentence with inverted logic risk ("...і без того досить гормональних змін, щоб додавати стресову реакцію...") rewritten so it unambiguously reads as "already enough, so no need to add" rather than the ambiguous original. One awkward preposition calque ("за низької ціни у стресі та відновленні") rewritten as natural Ukrainian ("коштує небагато в сенсі стресу й відновлення"). One dropped CGM reference ("continuous monitor" → generic "моніторингом") restored to "безперервним монітором глюкози" to match site CGM terminology and preserve EN meaning. One awkward "щоб"-construction ("найдешевше, щоб пропустити його") rewritten as "найдешевше, якщо його пропустити". One tense mismatch ("зазнали невдачі", perfective past) corrected to present ("зазнаєте невдачі") to match EN's ongoing "are failing". One в/у euphony fix ("як в жодного" → "як у жодного"). No factual, numeric, or structural changes.
