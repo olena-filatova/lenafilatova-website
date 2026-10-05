@@ -33,7 +33,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "None of this means every low mood or foggy week is menopausal. But if you’re 40 or older and notice a cluster of anxiety, mental fatigue and flagging drive that doesn’t match your usual patterns, it’s worth raising perimenopause specifically with your doctor — rather than defaulting to a stress or mental-health diagnosis alone."
+        "text": "None of this means every low mood or foggy week is menopausal. But if you’re 40 or older and notice a cluster of anxiety, mental fatigue and flagging drive that doesn’t match your usual patterns, it’s worth raising perimenopause specifically with your doctor — rather than defaulting to a stress or mental-health diagnosis alone. What that conversation can cover, and how good the evidence behind each option actually is, is set out at length in [perimenopause anxiety](/blog/anxiety-in-perimenopause/)."
       },
       {
         "t": "h",
@@ -90,7 +90,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це не означає, що будь-який поганий настрій чи туманний тиждень — обов’язково менопаузальний. Але якщо вам 40 або більше і ви помічаєте поєднання тривожності, розумової втоми та падіння драйву, яке не схоже на ваш звичний стан, варто окремо обговорити з лікарем саме перименопаузу — а не одразу зупинятися лише на діагнозі стресу чи ментального здоров’я."
+        "text": "Це не означає, що будь-який поганий настрій чи туманний тиждень — обов’язково менопаузальний. Але якщо вам 40 або більше і ви помічаєте поєднання тривожності, розумової втоми та падіння драйву, яке не схоже на ваш звичний стан, варто окремо обговорити з лікарем саме перименопаузу — а не одразу зупинятися лише на діагнозі стресу чи ментального здоров’я. Що саме може охопити ця розмова і наскільки насправді міцні докази за кожним варіантом — докладно розібрано в матеріалі [тривога в перименопаузі](/ua/blog/anxiety-in-perimenopause/)."
       },
       {
         "t": "h",

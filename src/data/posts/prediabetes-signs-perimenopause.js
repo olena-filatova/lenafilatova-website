@@ -42,7 +42,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Line the two symptom lists up and they very nearly overlap. Fatigue. Weight that settles around the middle when it never used to. Sleep that breaks at three in the morning. A shorter fuse than you recognise. Brain fog. Every one of those has a straightforward hormonal explanation in this decade, and every one of them is also on the list for early insulin resistance."
+        "text": "Line the two symptom lists up and they very nearly overlap. Fatigue. Weight that settles around the middle when it never used to. Sleep that breaks at three in the morning. A shorter fuse than you recognise. Brain fog. Every one of those has a straightforward hormonal explanation in this decade, and every one of them is also on the list for early insulin resistance. Two of them have been written up here in their own right: [perimenopause anxiety](/blog/anxiety-in-perimenopause/), which for a lot of women arrives before anything else does, and [depression in perimenopause](/blog/depression-in-perimenopause/), where the trial evidence is stronger than most people expect."
       },
       {
         "t": "p",
@@ -235,7 +235,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Поставте два переліки симптомів поруч — і вони майже накладаються. Втома. Вага, яка осідає на талії, хоча раніше так не було. Сон, що розривається о третій ночі. Коротший запобіжник, ніж ви за собою пам’ятаєте. Туман у голові. Кожен із цих пунктів має просте гормональне пояснення в цьому десятилітті — і кожен так само стоїть у переліку ранньої інсулінорезистентності."
+        "text": "Поставте два переліки симптомів поруч — і вони майже накладаються. Втома. Вага, яка осідає на талії, хоча раніше так не було. Сон, що розривається о третій ночі. Коротший запобіжник, ніж ви за собою пам’ятаєте. Туман у голові. Кожен із цих пунктів має просте гормональне пояснення в цьому десятилітті — і кожен так само стоїть у переліку ранньої інсулінорезистентності. Два з них описані тут окремо: [тривога в перименопаузі](/ua/blog/anxiety-in-perimenopause/), яка в багатьох жінок приходить раніше за все інше, і [депресія в перименопаузі](/ua/blog/depression-in-perimenopause/), де доказів із досліджень більше, ніж зазвичай думають."
       },
       {
         "t": "p",
