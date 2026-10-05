@@ -28,7 +28,12 @@ const img = (src) => B.replace(/\/$/, '') + src;
 // Drawn widths for the editorial band, so each picture takes the rung it
 // needs off the AVIF ladder rather than the largest one every time.
 const PORTRAIT_SIZES = '(min-width: 1000px) 360px, calc(100vw - 48px)';
-const BAND_SIZES = '(min-width: 1000px) 330px, calc(100vw - 48px)';
+// Measured, not estimated: the two band cards are different boxes. The blog
+// card's photo draws 655px at 1000 and 619px from 1100 up; the recipe's draws
+// 509px at 1000, settling at 573px from 1280. One shared `sizes` had to be
+// wrong for one of them, and at 330px it was wrong for both.
+const FEAT_SIZES = '(min-width: 1000px) 660px, calc(100vw - 48px)';
+const REC_SIZES = '(min-width: 1000px) 575px, calc(100vw - 48px)';
 const blogHref = `${L}blog/`;
 const recipesAllHref = `${L}recipes/`;
 const resourcesHref = `${L}resources/`;
@@ -145,7 +150,7 @@ const toolHref = (card) => {
         <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
       </div>
       <a class="ed-feat" href={`${L}blog/${latestPost.slug}/`}>
-        <div class="ph">{hasHero(latestPost, DIMS) && <Picture src={latestPost.image} alt={latestPostT.title} sizes={BAND_SIZES} loading="lazy" />}</div>
+        <div class="ph">{hasHero(latestPost, DIMS) && <Picture src={latestPost.image} alt={latestPostT.title} sizes={FEAT_SIZES} loading="lazy" />}</div>
         <div class="body">
           <span class="cat">{latestPostT.cat}</span>
           <h3>{latestPostT.title}</h3>
@@ -168,7 +173,7 @@ const toolHref = (card) => {
       <a class="ed-rec" href={`${L}recipes/${featuredRecipe.slug}/`}>
         <div class="ph">
           <span class="gi"><b>{featuredRecipe.gi}</b><span>GI</span></span>
-          <Picture src={featuredRecipe.img} alt={featuredRecipe.title[lang]} sizes={BAND_SIZES} loading="lazy" />
+          <Picture src={featuredRecipe.img} alt={featuredRecipe.title[lang]} sizes={REC_SIZES} loading="lazy" />
         </div>
         <div class="body">
           <span class="ed-label dim">{featuredRecipe.cat[lang]} · {featuredRecipe.carbs}{lang === 'ua' ? ' ' : 'g '}{t.carbs}</span>
@@ -372,8 +377,7 @@ const toolHref = (card) => {
 
   .ed-rec { display: block; position: relative; }
   .ed-rec .ph { position: relative; z-index: 2; aspect-ratio: 1 / 1; overflow: hidden; background: var(--paper2); }
-  /* the plate shot has a lot of empty rim — zoom to the food */
-  .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.15); }
+  .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; }
   .ed-rec .gi { position: absolute; right: 0; top: -10px; z-index: 3; background: var(--ink); color: var(--bg); padding: 14px 16px; text-align: center; }
   .ed-rec .gi b { display: block; font-family: var(--font-head); font-size: 26px; line-height: 1; }
   .ed-rec .gi span { font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
@@ -460,7 +464,7 @@ const toolHref = (card) => {
        two unrelated ideas. Its GI badge moves to the photo's left edge, clear
        of where the panel now overlaps. */
     .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
-    .ed-feat .ph { aspect-ratio: 1 / 1; }
+    .ed-feat .ph { aspect-ratio: 4 / 3; }
     .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
     .ed-rec { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
     .ed-rec .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); position: relative; z-index: 4; }
