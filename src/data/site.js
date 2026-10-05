@@ -706,7 +706,7 @@ export const LEGAL = {
       seoDesc: 'How Selfound Ltd collects, uses and protects your personal data on lenafilatova.co.uk, under UK GDPR and the Data Protection Act 2018.',
       kicker: 'Legal',
       h1: 'Privacy Policy',
-      updated: 'Last updated 10 July 2026',
+      updated: 'Last updated 3 October 2026',
       intro: 'This policy explains how <strong>Selfound Ltd</strong> (“we”, “us”, “our”) collects and uses your personal data when you visit <strong>lenafilatova.co.uk</strong>, subscribe to our newsletter, or get in touch. We are the data controller under the UK GDPR and the Data Protection Act 2018.',
       sections: [
         { h: 'Who we are', body: [
@@ -718,7 +718,7 @@ export const LEGAL = {
             '<strong>Newsletter details</strong> — your name (if given) and email address when you subscribe.',
             '<strong>Messages</strong> — your name, email and the content of any message you send us through the contact form or by email.',
             '<strong>Booking details</strong> — your name, email and anything you choose to share when you book an introductory or coaching call.',
-            '<strong>Usage data</strong> — if (and only if) you accept analytics cookies: approximate location, device and browser type, and the pages you view. See our <a href="/cookies/">Cookie Policy</a>.',
+            '<strong>Usage data</strong> — if (and only if) you accept analytics cookies: approximate location, device and browser type, and the pages you view. Separately, we use cookieless analytics that counts page views without cookies, without identifiers and without storing personal data. See our <a href="/cookies/">Cookie Policy</a>.',
           ]},
         ]},
         { h: 'How and why we use it', body: [
@@ -736,6 +736,7 @@ export const LEGAL = {
             '<strong>Mailchimp</strong> (Intuit Inc., USA) — to manage the newsletter.',
             '<strong>Google</strong> (Google Ireland Ltd / Google LLC) — for our email, contact-form handling (Google Apps Script), call bookings (Google Calendar) and website analytics (Google Analytics).',
             '<strong>GitHub</strong> (GitHub, Inc., a Microsoft company) — to host the website.',
+            '<strong>Cloudflare</strong> (Cloudflare, Inc., USA) — to deliver the site and to provide cookieless web analytics.',
           ]},
           'We may also disclose data if required to do so by law.',
         ]},
@@ -774,7 +775,7 @@ export const LEGAL = {
       seoDesc: 'Як Selfound Ltd збирає, використовує та захищає ваші персональні дані на lenafilatova.co.uk згідно з UK GDPR та Data Protection Act 2018.',
       kicker: 'Правова інформація',
       h1: 'Політика конфіденційності',
-      updated: 'Оновлено 10 липня 2026',
+      updated: 'Оновлено 3 жовтня 2026',
       intro: 'Ця політика пояснює, як <strong>Selfound Ltd</strong> («ми», «нас», «наш») збирає та використовує ваші персональні дані, коли ви відвідуєте <strong>lenafilatova.co.uk</strong>, підписуєтесь на розсилку або звертаєтесь до нас. Ми є контролером даних згідно з UK GDPR та Data Protection Act 2018.',
       sections: [
         { h: 'Хто ми', body: [
@@ -786,7 +787,7 @@ export const LEGAL = {
             '<strong>Дані для розсилки</strong> — ваше ім’я (якщо вказано) та email, коли ви підписуєтесь.',
             '<strong>Повідомлення</strong> — ваше ім’я, email і зміст будь-якого повідомлення через форму контакту або електронною поштою.',
             '<strong>Дані бронювання</strong> — ваше ім’я, email і те, чим ви вирішите поділитися, коли записуєтесь на вступний чи коучинговий дзвінок.',
-            '<strong>Дані про використання</strong> — якщо (і тільки якщо) ви приймаєте аналітичні файли cookie: приблизне місцезнаходження, тип пристрою й браузера та переглянуті сторінки. Див. нашу <a href="/ua/cookies/">Політику cookie</a>.',
+            '<strong>Дані про використання</strong> — якщо (і тільки якщо) ви приймаєте аналітичні файли cookie: приблизне місцезнаходження, тип пристрою й браузера та переглянуті сторінки. Окремо ми використовуємо аналітику без cookie, яка рахує перегляди сторінок без файлів cookie, без ідентифікаторів і без зберігання персональних даних. Див. нашу <a href="/ua/cookies/">Політику cookie</a>.',
           ]},
         ]},
         { h: 'Як і навіщо ми їх використовуємо', body: [
@@ -804,6 +805,7 @@ export const LEGAL = {
             '<strong>Mailchimp</strong> (Intuit Inc., США) — для керування розсилкою.',
             '<strong>Google</strong> (Google Ireland Ltd / Google LLC) — для нашої пошти, обробки форми контакту (Google Apps Script), бронювання дзвінків (Google Calendar) та аналітики сайту (Google Analytics).',
             '<strong>GitHub</strong> (GitHub, Inc., компанія Microsoft) — для хостингу сайту.',
+            '<strong>Cloudflare</strong> (Cloudflare, Inc., США) — для доставки сайту та аналітики без cookie.',
           ]},
           'Ми також можемо розкрити дані, якщо цього вимагає закон.',
         ]},
@@ -845,7 +847,7 @@ export const LEGAL = {
       seoDesc: 'How lenafilatova.co.uk uses cookies. We keep it minimal: an essential consent cookie and optional analytics only after you agree.',
       kicker: 'Legal',
       h1: 'Cookie Policy',
-      updated: 'Last updated 10 July 2026',
+      updated: 'Last updated 3 October 2026',
       intro: 'This policy explains how <strong>lenafilatova.co.uk</strong> uses cookies and similar technologies. It should be read alongside our <a href="/privacy/">Privacy Policy</a>.',
       sections: [
         { h: 'What cookies are', body: [
@@ -857,6 +859,7 @@ export const LEGAL = {
             '<strong>Essential</strong> — one cookie that remembers your cookie-consent choice, so we don’t ask on every page.',
             '<strong>Analytics (optional)</strong> — Google Analytics (GA4) helps us understand how the site is used. These are set <em>only</em> after you accept them.',
           ]},
+          'We also use <strong>Cloudflare Web Analytics</strong>, which is cookieless. It sets no cookies, stores no personal data and writes nothing to your device — it simply counts page views so we can see how many people visit at all. Because it neither stores nor reads anything on your device, it does not require your consent and is not affected by the banner. Declining still switches Google Analytics off completely.',
           'We do <strong>not</strong> use advertising or cross-site tracking cookies.',
         ]},
         { h: 'Managing your consent', body: [
@@ -878,7 +881,7 @@ export const LEGAL = {
       seoDesc: 'Як lenafilatova.co.uk використовує файли cookie. Мінімум: необхідний cookie згоди та опційна аналітика лише після вашої згоди.',
       kicker: 'Правова інформація',
       h1: 'Політика cookie',
-      updated: 'Оновлено 10 липня 2026',
+      updated: 'Оновлено 3 жовтня 2026',
       intro: 'Ця політика пояснює, як <strong>lenafilatova.co.uk</strong> використовує файли cookie та подібні технології. Її слід читати разом із нашою <a href="/ua/privacy/">Політикою конфіденційності</a>.',
       sections: [
         { h: 'Що таке cookie', body: [
@@ -890,6 +893,7 @@ export const LEGAL = {
             '<strong>Необхідні</strong> — один cookie, який запам’ятовує ваш вибір щодо згоди, щоб ми не запитували на кожній сторінці.',
             '<strong>Аналітичні (опційні)</strong> — Google Analytics (GA4) допомагає зрозуміти, як використовується сайт. Вони встановлюються <em>лише</em> після вашої згоди.',
           ]},
+          'Ми також використовуємо <strong>Cloudflare Web Analytics</strong> — аналітику без cookie. Вона не встановлює файлів cookie, не зберігає персональних даних і нічого не записує на ваш пристрій: вона лише рахує перегляди сторінок, щоб ми бачили, скільки людей взагалі заходить на сайт. Оскільки вона нічого не зберігає й не зчитує з вашого пристрою, вона не потребує вашої згоди й не залежить від банера. Відмова, як і раніше, повністю вимикає Google Analytics.',
           'Ми <strong>не</strong> використовуємо рекламні файли cookie чи міжсайтове відстеження.',
         ]},
         { h: 'Керування згодою', body: [

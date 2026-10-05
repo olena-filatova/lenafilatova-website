@@ -36,6 +36,22 @@
   var GA_ID = 'G-0F8T9VQFQ0';
   var DISABLE_FLAG = 'ga-disable-' + GA_ID;
 
+  // Cloudflare Web Analytics (OPS-522). GA4 only ever reports the visitors who
+  // interact with the banner: in the week of 18-24 Sep 2026 it logged 1 visit
+  // from Google against 31 Google clicks in Search Console. Cloudflare's beacon
+  // sets no cookies, stores no personal data and writes no identifier to the
+  // device, so PECR consent does not apply to it and it can count everyone.
+  //
+  // Deliberately NOT gated on the banner: that is the entire point. Declining
+  // still stops GA4 outright, which is the thing a visitor is actually being
+  // asked about. The cookie and privacy policies say so in as many words.
+  //
+  // Empty token = nothing loads. Cloudflare's automatic setup injects its own
+  // beacon at the edge and needs no token here; fill this in ONLY if the
+  // snippet is being added by hand, or the page would carry two beacons and
+  // double-count.
+  var CF_BEACON_TOKEN = '';
+
   // The only hosts whose traffic is real. Everything else — localhost,
   // 127.0.0.1, *.github.io, any branch preview — is development.
   var LIVE_HOSTS = ['lenafilatova.co.uk', 'www.lenafilatova.co.uk'];
@@ -78,6 +94,18 @@
     gtag('config', GA_ID);
   }
 
+  function loadCloudflare() {
+    if (!isLiveSite()) return;
+    if (!CF_BEACON_TOKEN) return;
+    if (window.__lfCF) return;
+    window.__lfCF = true;
+    var s = document.createElement('script');
+    s.defer = true;
+    s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    s.setAttribute('data-cf-beacon', JSON.stringify({ token: CF_BEACON_TOKEN }));
+    document.head.appendChild(s);
+  }
+
   function grant() {
     window[DISABLE_FLAG] = false;
     gtag('consent', 'update', { analytics_storage: 'granted' });
@@ -91,6 +119,9 @@
 
   function init() {
     var choice = readChoice();
+
+    // Before the GA branches below, because it is independent of all of them.
+    loadCloudflare();
 
     if (choice === 'declined') {
       // Never start the tag for someone who has said no.
