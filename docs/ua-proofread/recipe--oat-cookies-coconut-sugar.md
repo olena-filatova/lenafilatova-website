@@ -1,7 +1,7 @@
 # recipe--oat-cookies-coconut-sugar
 
 - Last checked: 2026-10-05
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/TBD
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/325
 - Notes: Fixed a comparative-construction comma, a misused verb
   (приплющити "to squint" instead of приплюснути "to flatten") used twice,
   "coconut oil" mistranslated as "кокосове масло" instead of the site's
