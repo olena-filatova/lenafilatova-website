@@ -489,10 +489,17 @@ const toolHref = (card) => {
 
   @media (min-width: 1000px) {
     .ed-hero { padding: 44px 0 0; }
-    .ed-hero-lay { grid-template-columns: 1.75fr 0.6fr; gap: 56px; align-items: end; }
-    .ed-hero h1 { font-size: 56px; line-height: 1.02; max-width: 20ch; }
+    /* OPS-531: the text track used to be 1.75fr while the h1 stopped at 20ch
+       and the lede at 50ch, so 163-253px of the hero was empty and Lena's
+       portrait — the page's strongest trust signal — was its smallest element.
+       The h1 is now fluid instead of a flat 56px: 20ch is exactly 10x the font
+       size in this face, so a size that tracks the viewport keeps the heading
+       filling its column at every width while the 20ch cap holds the line
+       breaks unchanged. That leaves the slack to the portrait. */
+    .ed-hero-lay { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 48px; align-items: end; }
+    .ed-hero h1 { font-size: clamp(56px, 5.6vw, 64px); line-height: 1.02; max-width: 20ch; }
     .ed-lead { font-size: 18px; max-width: 50ch; }
-    .ed-portrait { max-width: 300px; }
+    .ed-portrait { max-width: 400px; }
     .ed-frame { aspect-ratio: 1 / 1.16; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
     .ed-blk { right: 38%; height: 40%; }
     .ed-sec { padding: 76px 0 0; }
@@ -515,9 +522,6 @@ const toolHref = (card) => {
   }
 
   @media (min-width: 1320px) {
-    .ed-hero h1 { font-size: 64px; }
-    .ed-hero-lay { grid-template-columns: 1.8fr 0.58fr; gap: 72px; }
-    .ed-portrait { max-width: 330px; }
     .ed-sec { padding: 88px 0 0; }
   }
 </style>
