@@ -153,6 +153,24 @@
       ]
     ]
   },
+  "/images/blood-sugar-too-steady-quality-of-life.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/blood-sugar-too-steady-quality-of-life-480.avif"
+      ],
+      [
+        800,
+        "/images/v/blood-sugar-too-steady-quality-of-life-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/blood-sugar-too-steady-quality-of-life-1200.avif"
+      ]
+    ]
+  },
   "/images/bmi-trajectory-prediabetes-women.jpg": {
     "w": 1200,
     "h": 675,
