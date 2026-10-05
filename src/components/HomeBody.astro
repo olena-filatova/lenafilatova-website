@@ -13,8 +13,10 @@
 // before asking) -> freshness -> pleasure -> proof it works -> scope -> the ask.
 // Tools sit above the blog on purpose: they are the reciprocity step and the
 // stickiest content on the site.
-import { HOME, RESOURCES } from '../data/site.js';
+import { HOME, RESOURCES, MOST_READ } from '../data/site.js';
 import { POSTS } from '../data/blog.js';
+import { PUBLISHED as RECIPE_LIST } from '../data/recipes.js';
+import { CAT_HUB } from '../data/recipes-lib.js';
 import { hasHero } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
 import Picture from './Picture.astro';
@@ -45,6 +47,24 @@ const recentPosts = [...POSTS]
   .sort((a, b) => b.date.localeCompare(a.date));
 const latestPost = recentPosts[0];
 const latestPostT = latestPost[lang];
+
+// OPS-503: the "most read" band. MOST_READ in site.js is the list Lena
+// refreshes from the weekly search report; everything a row shows — title,
+// section, href — is resolved from the post or recipe itself, so a retitled
+// article never leaves a stale headline behind on the front page. An entry
+// pointing at a slug that no longer exists resolves to null and is dropped
+// here rather than shipping as a dead link.
+const mostRead = (MOST_READ[lang] || []).map((e) => {
+  if (e.post) {
+    const p = POSTS.find((x) => x.slug === e.post && !x.comingSoon);
+    return p && { href: `${L}blog/${p.slug}/`, label: p[lang].title, kicker: p[lang].cat };
+  }
+  if (e.recipe) {
+    const r = RECIPE_LIST.find((x) => x.slug === e.recipe);
+    return r && { href: `${L}recipes/${r.slug}/`, label: r.title[lang], kicker: CAT_HUB[r.cat][lang] };
+  }
+  return { href: B.replace(/\/$/, '') + e.href, label: e.label, kicker: e.kicker };
+}).filter(Boolean);
 
 const featuredRecipe = HOME.recipe;
 
@@ -105,6 +125,31 @@ const toolHref = (card) => {
       ))}
     </div>
   </section>
+
+  <!-- MOST READ — sits with the trust band rather than taking a number of its
+       own: the numbered sections 01-05 are a deliberate argument (tools before
+       blog, give before asking) and this is signposting, not a step in it. -->
+  {mostRead.length > 0 && (
+    <section class="ed-read" aria-label={t.mostReadLabel}>
+      <div class="wrap">
+        <div class="ed-read-head">
+          <span class="ed-label">{t.mostReadLabel}</span>
+          <p class="ed-read-note">{t.mostReadNote}</p>
+        </div>
+        <ul class="ed-read-list">
+          {mostRead.map((r) => (
+            <li>
+              <a href={r.href}>
+                <span class="k">{r.kicker}</span>
+                <span class="ttl">{r.label}</span>
+                <span class="ar">&#8594;</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
 
   <!-- 01 FREE TOOLS -->
   <section class="ed-sec" id="tools">
@@ -297,6 +342,23 @@ const toolHref = (card) => {
   /* the block's overhang drives the caption offset, so they cannot collide */
   .ed-cap { position: relative; z-index: 3; background: var(--bg); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--accent); font-family: var(--font-head); font-style: italic; font-size: 15px; }
 
+  /* OPS-503: most-read band. Deliberately a list and not the blog hub's
+     article card: three of the six rows are tools and hub pages that have no
+     photograph, and a card grid with half its picture boxes empty reads as
+     broken. It borrows the section-01 tool list's furniture instead — hairline
+     rules, uppercase kicker, serif title, arrow on hover — so it is the
+     homepage's own idiom rather than a new one. */
+  .ed-read { padding: 26px 0 0; }
+  .ed-read-head { border-top: 1.5px solid var(--ink); padding-top: 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+  .ed-read-note { margin: 0; font-size: 13px; color: var(--muted); }
+  .ed-read-list { list-style: none; margin: 4px 0 0; padding: 0; }
+  .ed-read-list li { border-bottom: 1px solid var(--line); }
+  .ed-read-list a { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 14px; padding: 14px 0; color: var(--ink); }
+  .ed-read-list .k { grid-column: 1; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
+  .ed-read-list .ttl { grid-column: 1; font-family: var(--font-head); font-size: 17px; line-height: 1.22; letter-spacing: -0.015em; }
+  .ed-read-list .ar { grid-column: 2; grid-row: 1 / span 2; color: var(--accent); transition: transform .2s ease; }
+  @media (prefers-reduced-motion: reduce) { .ed-read-list .ar { transition: none; } }
+
   .ed-band { margin-top: 34px; background: var(--paper2); border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--rule); }
   .ed-band-grid { display: grid; grid-template-columns: 1fr 1fr; }
   .ed-stat { padding: 20px 16px 20px 0; border-bottom: 1px solid var(--line); }
@@ -443,6 +505,9 @@ const toolHref = (card) => {
     .ed-frame { aspect-ratio: 1 / 1.12; }
     .ed-blk { right: 40%; height: 38%; }
     .ed-cap { font-size: 13.5px; }
+    .ed-read { padding-top: 34px; }
+    .ed-read-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 44px; }
+    .ed-read-list .ttl { font-size: 18px; }
     .ed-band-grid { grid-template-columns: repeat(4, 1fr); }
     .ed-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--line); }
     .ed-stat:first-child { padding-left: 0; }
@@ -507,6 +572,8 @@ const toolHref = (card) => {
     .ed-tool { padding: 26px 0; }
     .ed-tool:hover { padding-left: 10px; }
     .ed-tool:hover h3, .ed-feat:hover h3, .ed-rec:hover h3 { color: var(--accent); }
+    .ed-read-list a:hover .ttl { color: var(--accent); }
+    .ed-read-list a:hover .ar { transform: translateX(4px); }
     .ed-tool h3 { font-size: 24px; }
     .ed-tool p { max-width: 42ch; }
     .ed-feat h3 { font-size: 38px; }

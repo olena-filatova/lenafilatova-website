@@ -196,6 +196,49 @@ export const MAILCHIMP = {
 // this repo now); HomeBody builds the language-scoped href and base-prefixes
 // the local image. Newsletter posts to the same Apps Script as all signups
 // (source=newsletter → Mailchimp double opt-in).
+/* --- most read (OPS-503) ---------------------------------------------------
+   The homepage used to feature posts picked by hand (OPS-299 / OPS-166).
+   Search Console then showed that the pages people actually arrive on are
+   mostly different ones — and that Ukraine is 53% of all clicks, so these are
+   two genuinely different lists rather than translations of each other.
+
+   REFRESHING IT after a weekly analytics review is the whole point of the
+   shape: edit the arrays, change nothing else. Three kinds of entry —
+
+     { post: 'slug' }    the title, section and date come from the post itself
+     { recipe: 'slug' }  the title comes from the recipe itself
+     { href, label }     anything else: a tool, a hub page. `href` is already
+                         language-specific, so it goes in that language's list.
+
+   A post or recipe slug that no longer exists is dropped when the site is
+   built, so a retired article can never ship here as a dead link.
+
+   Baseline (GSC, 28 days to 15 Sep 2026). EN: /cgm-comparison/ 5 clicks /
+   246 impressions, /recipes/ 2 / 126, /resources/food-calculator/ 1 / 7.
+   UA: does-weight-training-raise-blood-sugar 3 / 64, protein-for-women-over-40
+   1 / 9, endometriosis-type-2-diabetes-risk 1 / 8, avocado-mayonnaise 1 / 18.
+   The three EN posts are the OPS-491 page-two posts: a homepage link is the
+   internal link they need, which is why they sit in a band about traffic. */
+export const MOST_READ = {
+  en: [
+    { href: '/cgm-comparison/', label: 'CGM sensor comparison', kicker: 'Tool' },
+    { href: '/resources/food-calculator/', label: 'Metabolic food calculator', kicker: 'Tool' },
+    { href: '/recipes/', label: 'Low-GI recipes', kicker: 'Recipes' },
+    { post: 'does-weight-training-raise-blood-sugar' },
+    { post: 'protein-for-women-over-40' },
+    { post: 'fermented-foods-gut-microbiome-review' },
+  ],
+  ua: [
+    { post: 'does-weight-training-raise-blood-sugar' },
+    { post: 'endometriosis-type-2-diabetes-risk' },
+    { post: 'protein-for-women-over-40' },
+    /* /ua/resources/cgm-comparison/ is a redirect — this is where it lands. */
+    { href: '/cgm-comparison-ua/', label: 'Порівняння CGM-сенсорів', kicker: 'Інструмент' },
+    { href: '/ua/resources/food-calculator/', label: 'Калькулятор впливу їжі', kicker: 'Інструмент' },
+    { recipe: 'avocado-mayonnaise' },
+  ],
+};
+
 export const HOME = {
   en: {
     seoTitle: 'Lena Filatova — Evidence-based women’s health after 40',
@@ -232,6 +275,8 @@ export const HOME = {
     recipeDoc: 'Wonderful recipes.',
     recipeDocWho: 'Natalia Silina · Gynaecologist-endocrinologist',
     toolsFree: 'No sign-up · No paywall',
+    mostReadLabel: 'Most read',
+    mostReadNote: 'The pages people find first — updated from the search report.',
     waitlistTitle: 'Courses and guides are coming.',
     waitlistText: 'Newsletter subscribers get first access — and founding prices.',
     waitlistCta: 'Join the list',
@@ -295,6 +340,8 @@ export const HOME = {
     recipeDoc: 'Чудові рецепти.',
     recipeDocWho: 'Наталія Сіліна · Гінекологиня-ендокринологиня',
     toolsFree: 'Без реєстрації · Без оплати',
+    mostReadLabel: 'Найпопулярніше',
+    mostReadNote: 'Сторінки, які знаходять найчастіше — за даними пошуку.',
     waitlistTitle: 'Курси та посібники вже готуються.',
     waitlistText: 'Підписники розсилки отримають доступ першими — і за стартовою ціною.',
     waitlistCta: 'Приєднатися',
