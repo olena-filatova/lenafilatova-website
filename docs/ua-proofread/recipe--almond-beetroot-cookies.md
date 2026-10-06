@@ -1,7 +1,7 @@
 # UA proofread: recipe--almond-beetroot-cookies
 
 - Last checked: 2026-10-06
-- PR: (filled in after push)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/335
 - Notes: fixed a subject–verb number agreement error in `why`
   («...борошно тримають...» → «...борошно тримає...» — «борошно» is a singular
   neuter noun). Rest of the UA text (`imgAlt`, `title`, `nutrition`, `meta`,
