@@ -12,7 +12,7 @@ export default {
   "en": {
     "cat": "Diabetes",
     "imageAlt": "A person walking away from the camera along a lakeside path under autumn trees, with a bench and fallen leaves in the foreground.",
-    "title": "Cancer risk is 22% higher in women with type 2 diabetes — and the gap has been widening for 27 years",
+    "title": "Cancer risk is 22% higher in women with type 2 diabetes — and the gap has widened over 27 years",
     "seoTitle": "Type 2 Diabetes and Cancer Risk in Women: Danish Study",
     "metaDesc": "A 27-year Danish registry study found cancer incidence 22% higher in women with type 2 diabetes and 12% higher in men — and both gaps have grown since the 1990s.",
     "excerpt": "Danish researchers followed the whole adult population for 27 years. In the most recent period, cancer incidence was 22% higher among women with type 2 diabetes and 12% higher among men — up from 15% and 9% in the earlier years. The headline is real, but the story underneath it is not the one you would guess.",
@@ -29,7 +29,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The site-by-site numbers are where this becomes practical. For women with type 2 diabetes in 2010–2022, postmenopausal breast cancer was 8% higher — a real difference, but a modest one, and smaller than most women would guess from the headline. Colorectal cancer was 14% higher in women and 17% higher in men. Lung cancer was 25% higher in women and 23% higher in men, and that one has moved the most: in the earlier period, lung cancer incidence in women with diabetes was 12% lower — genuinely lower — than in women without, and it has since flipped to 25% higher. A reversal that large over two decades is very unlikely to be about diabetes itself. It is the signature of changing smoking patterns across generations of women working their way through the data, and it is a good reminder that a registry study captures everything happening to a population, not only the thing being studied."
+        "text": "The site-by-site numbers are where this becomes practical. For women with type 2 diabetes in 2010–2022, postmenopausal breast cancer was 8% higher — a real difference, but a modest one, and smaller than most women would guess from the headline. Colorectal cancer was 14% higher in women and 17% higher in men. Lung cancer was 25% higher in women and 23% higher in men, and that one has moved the most: in the earlier period, lung cancer incidence in women with diabetes was 12% lower — genuinely lower — than in women without, and it has since flipped to 25% higher. A reversal that large over two decades is very unlikely to be about diabetes itself. The likeliest explanation — the researchers did not measure smoking and offer none themselves — is changing smoking patterns across generations of women working their way through the data, and it is a good reminder that a registry study captures everything happening to a population, not only the thing being studied."
       },
       {
         "t": "p",
@@ -37,7 +37,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "What the researchers argue follows from it is simple enough, and it is the part worth acting on. Laurberg's own conclusion is that the findings \"support greater recognition of cancer as a major long-term complication of T2D\" and highlight \"the need to prioritize cancer prevention\" alongside the heart and kidney care that diabetes reviews already cover. Usefully, the two cancers most raised in women here — bowel and postmenopausal breast — are both ones the NHS already screens for, which means the practical step needs no new appointment and no conversation with anyone. Bowel screening is offered in England from 50 to 74, as a test kit posted to your home every two years. Breast screening is offered from 50 until your 71st birthday, with a first invitation between 50 and 53 and then every three years. If you have type 2 diabetes, those letters are the ones not to leave on the side. And anything that changes and does not change back — a lasting cough, bleeding, unexplained weight loss, a lump — is worth a GP appointment on its own merits, regardless of what any study says about averages."
+        "text": "What the researchers argue follows from it is simple enough, and it is the part worth acting on. Laurberg's own conclusion is that the findings \"support greater recognition of cancer as a major long-term complication of T2D\" and highlight \"the need to prioritize cancer prevention\" alongside the heart and kidney care that diabetes reviews already cover. Usefully, two of the cancers raised in women here — bowel and postmenopausal breast — are both ones the NHS already screens for, which means the practical step needs no new appointment and no conversation with anyone. Bowel screening is offered in England from 50 to 74, as a test kit posted to your home every two years. Breast screening is offered from 50 until your 71st birthday, with a first invitation between 50 and 53 and then every three years. If you have type 2 diabetes, those letters are the ones not to leave on the side. And anything that changes and does not change back — a lasting cough, bleeding, unexplained weight loss, a lump — is worth a GP appointment on its own merits, regardless of what any study says about averages."
       },
       {
         "t": "h",
@@ -53,7 +53,7 @@ export default {
             "url": "https://medicalxpress.com/news/2026-09-cancer-incidence-higher-people-diabetes.html"
           },
           {
-            "claim": "NHS bowel and breast screening in England cover the two cancers most raised in women in this study.",
+            "claim": "NHS bowel and breast screening in England cover two of the cancers raised in women in this study.",
             "detail": "NHS bowel cancer screening is offered to people aged 50 to 74 in England, as a FIT home test kit posted out every two years; people aged 75 and over can request a kit by calling the helpline. NHS breast screening is offered to women aged 50 up to their 71st birthday, with a first invitation between the ages of 50 and 53 and then every three years.",
             "cite": "NHS · Bowel cancer screening and Breast screening (mammogram)",
             "url": "https://www.nhs.uk/tests-and-treatments/bowel-cancer-screening/"
@@ -89,14 +89,14 @@ export default {
       },
       {
         "q": "Should I ask for extra cancer screening if I have type 2 diabetes?",
-        "a": "There is no additional screening programme for people with type 2 diabetes in the UK, and this study is not grounds to ask for one — it is a conference presentation of registry data, not a trial. What it does make a strong case for is using the screening you are already offered. In England that means the bowel test kit posted to you every two years from 50 to 74, and breast screening every three years from 50 until your 71st birthday. Those cover the two cancers most raised in women in this study. Separately, any symptom that persists or is unexplained should go to your GP whatever your diabetes status."
+        "a": "There is no additional screening programme for people with type 2 diabetes in the UK, and this study is not grounds to ask for one — it is a conference presentation of registry data, not a trial. What it does make a strong case for is using the screening you are already offered. In England that means the bowel test kit posted to you every two years from 50 to 74, and breast screening every three years from 50 until your 71st birthday. Those cover two of the cancers raised in women in this study. Separately, any symptom that persists or is unexplained should go to your GP whatever your diabetes status."
       }
     ]
   },
   "ua": {
     "cat": "Діабет",
     "imageAlt": "Людина йде від камери стежкою вздовж озера під осінніми деревами, на передньому плані лавка й опале листя.",
-    "title": "У жінок із діабетом 2 типу ризик раку на 22% вищий — і розрив зростає вже 27 років",
+    "title": "У жінок із діабетом 2 типу ризик раку на 22% вищий — і за 27 років розрив зріс",
     "seoTitle": "Діабет 2 типу і ризик раку в жінок: дані Данії",
     "metaDesc": "27-річне данське дослідження: захворюваність на рак на 22% вища в жінок із діабетом 2 типу і на 12% — у чоловіків. Обидва розриви зросли від 1990-х.",
     "excerpt": "Данські дослідники стежили за всім дорослим населенням країни 27 років. В останній період захворюваність на рак була на 22% вищою серед жінок із діабетом 2 типу і на 12% — серед чоловіків; раніше ці цифри становили 15% і 9%. Заголовок правдивий, але історія за ним — не та, якої можна очікувати.",
@@ -113,7 +113,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найпрактичніша частина — цифри за окремими локалізаціями. У жінок із діабетом 2 типу в 2010–2022 роках рак грудей після менопаузи траплявся на 8% частіше — різниця реальна, але помірна й менша, ніж більшість жінок припустила б із заголовка. Колоректальний рак був на 14% частішим у жінок і на 17% — у чоловіків. Рак легень — на 25% частішим у жінок і на 23% у чоловіків, і саме цей показник змінився найбільше: у попередній період захворюваність на рак легень у жінок із діабетом була на 12% нижчою — саме нижчою — ніж у жінок без нього, а відтоді перевернулася до 25% вищої. Таке різке обернення за два десятиліття навряд чи стосується самого діабету. Це характерний слід змін у звичках куріння в різних поколіннях жінок, які поступово проступають у даних, і добре нагадування: реєстрове дослідження фіксує все, що відбувається з населенням, а не лише те, що вивчають."
+        "text": "Найпрактичніша частина — цифри за окремими локалізаціями. У жінок із діабетом 2 типу в 2010–2022 роках рак грудей після менопаузи траплявся на 8% частіше — різниця реальна, але помірна й менша, ніж більшість жінок припустила б із заголовка. Колоректальний рак був на 14% частішим у жінок і на 17% — у чоловіків. Рак легень — на 25% частішим у жінок і на 23% у чоловіків, і саме цей показник змінився найбільше: у попередній період захворюваність на рак легень у жінок із діабетом була на 12% нижчою — саме нижчою — ніж у жінок без нього, а відтоді перевернулася до 25% вищої. Таке різке обернення за два десятиліття навряд чи стосується самого діабету. Найімовірніше пояснення — самі дослідники куріння не вимірювали й пояснення не пропонують — це зміни у звичках куріння в різних поколіннях жінок, які поступово проступають у даних, і добре нагадування: реєстрове дослідження фіксує все, що відбувається з населенням, а не лише те, що вивчають."
       },
       {
         "t": "p",
@@ -121,7 +121,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Висновок, який із цього роблять дослідники, досить простий — і саме він вартий дій. Лауберг пише, що результати «підтримують ширше визнання раку як серйозного довготривалого ускладнення діабету 2 типу» і наголошують на «потребі пріоритизувати профілактику раку» поряд із доглядом за серцем і нирками, який планові огляди вже охоплюють. Зручно те, що обидва види раку, найбільш підвищені тут у жінок — кишківника і грудей після менопаузи, — уже входять до британських скринінгових програм, тож практичний крок не потребує ні нового запису, ні розмови з кимось. Скринінг кишківника в Англії пропонують від 50 до 74 років: тест-набір надсилають додому поштою кожні два роки. Мамографію пропонують від 50 років і до 71-го дня народження: перше запрошення надходить у 50–53 роки, далі — кожні три роки. Якщо у вас діабет 2 типу, саме ці листи не варто відкладати вбік. А все, що змінилося й не минає — затяжний кашель, кровотеча, незрозуміла втрата ваги, ущільнення, — варте візиту до сімейного лікаря саме по собі, незалежно від того, що кажуть дослідження про середні показники."
+        "text": "Висновок, який із цього роблять дослідники, досить простий — і саме він вартий дій. Лаурберг каже, що результати «підтримують ширше визнання раку як серйозного довготривалого ускладнення діабету 2 типу» і наголошують на «потребі пріоритизувати профілактику раку» поряд із доглядом за серцем і нирками, який планові огляди вже охоплюють. Зручно те, що два з видів раку, підвищених тут у жінок — кишківника і грудей після менопаузи, — уже входять до британських скринінгових програм, тож практичний крок не потребує ні нового запису, ні розмови з кимось. Скринінг кишківника в Англії пропонують від 50 до 74 років: тест-набір надсилають додому поштою кожні два роки. Мамографію пропонують від 50 років і до 71-го дня народження: перше запрошення надходить у 50–53 роки, далі — кожні три роки. Якщо у вас діабет 2 типу, саме ці листи не варто відкладати вбік. А все, що змінилося й не минає — затяжний кашель, кровотеча, незрозуміла втрата ваги, ущільнення, — варте візиту до сімейного лікаря саме по собі, незалежно від того, що кажуть дослідження про середні показники."
       },
       {
         "t": "h",
@@ -137,7 +137,7 @@ export default {
             "url": "https://medicalxpress.com/news/2026-09-cancer-incidence-higher-people-diabetes.html"
           },
           {
-            "claim": "Британські програми скринінгу кишківника і грудей охоплюють саме ті два види раку, що найбільш підвищені в жінок у цьому дослідженні.",
+            "claim": "Британські програми скринінгу кишківника і грудей охоплюють два з видів раку, підвищених у жінок у цьому дослідженні.",
             "detail": "Скринінг раку кишківника в Англії пропонують людям віком 50–74 роки: домашній тест-набір FIT надсилають поштою кожні два роки; люди від 75 років можуть замовити набір, зателефонувавши на гарячу лінію. Мамографію пропонують жінкам від 50 років і до 71-го дня народження: перше запрошення — у 50–53 роки, далі кожні три роки.",
             "cite": "NHS · Bowel cancer screening і Breast screening (mammogram)",
             "url": "https://www.nhs.uk/tests-and-treatments/bowel-cancer-screening/"
@@ -173,7 +173,7 @@ export default {
       },
       {
         "q": "Чи варто просити додатковий скринінг на рак, якщо в мене діабет 2 типу?",
-        "a": "Окремої скринінгової програми для людей із діабетом 2 типу у Британії немає, і це дослідження не є підставою її просити — це доповідь на конференції за реєстровими даними, а не клінічне випробування. Проте воно дає вагомий аргумент користуватися тим скринінгом, який вам уже пропонують. В Англії це тест-набір для кишківника, що надходить поштою кожні два роки від 50 до 74 років, і мамографія кожні три роки від 50 років до 71-го дня народження. Саме вони охоплюють два види раку, найбільш підвищені в жінок у цьому дослідженні. Окремо: будь-який симптом, що не минає або не має пояснення, вартий візиту до сімейного лікаря незалежно від діабету."
+        "a": "Окремої скринінгової програми для людей із діабетом 2 типу у Британії немає, і це дослідження не є підставою її просити — це доповідь на конференції за реєстровими даними, а не клінічне випробування. Проте воно дає вагомий аргумент користуватися тим скринінгом, який вам уже пропонують. В Англії це тест-набір для кишківника, що надходить поштою кожні два роки від 50 до 74 років, і мамографія кожні три роки від 50 років до 71-го дня народження. Вони охоплюють два з видів раку, підвищених у жінок у цьому дослідженні. Окремо: будь-який симптом, що не минає або не має пояснення, вартий візиту до сімейного лікаря незалежно від діабету."
       }
     ]
   }

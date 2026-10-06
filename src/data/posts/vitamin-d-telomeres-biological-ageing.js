@@ -21,7 +21,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "First, what the trial was. VITAL randomised 25,871 adults across the United States — women from 55 and men from 50, none with cancer or cardiovascular disease at the start — to 2,000 IU of vitamin D3 a day, 1 g of marine omega-3, both or neither, and followed them for five years. Inside it sat a much smaller telomere study: 1,054 participants who came in person to a Harvard clinical centre and had the telomere length in their white blood cells measured at the start, at two years and at four. It was published in the American Journal of Clinical Nutrition in July 2025."
+        "text": "First, what the trial was. VITAL randomised 25,871 adults across the United States — women from 55 and men from 50, none with cancer or cardiovascular disease at the start — to 2,000 IU of vitamin D3 a day, 1 g of marine omega-3, both or neither, and followed them for five years. Inside it sat a much smaller telomere study: 1,054 participants who came in person to a Harvard clinical centre, 1,031 of whom had the telomere length in their white blood cells measured at one or more of three points — the start, two years and four. It was published in the American Journal of Clinical Nutrition in July 2025."
       },
       {
         "t": "p",
@@ -53,11 +53,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "VITAL took women from 55 and men from 50, with an average age of 67. D-Health started at 60. Neither reported its telomere results separately for women, which means there is nothing here about whether the effect differs through the menopause transition — the question this site would most want answered. If you are 44 and reading that a daily tablet buys you three years, the research behind that number did not include anyone your age and did not look at women as a group."
+        "text": "VITAL took women from 55 and men from 50, with an average age of 67 — about 65 in the telomere group. D-Health started at 60. Both checked whether the result differed between women and men and found no significant difference, but neither looked at menopausal stage, which means there is nothing here about whether the effect differs through the menopause transition — the question this site would most want answered. If you are 44 and reading that a daily tablet buys you three years, the research behind that number did not include anyone your age and did not look at the menopause transition at all."
       },
       {
         "t": "p",
-        "text": "None of which makes vitamin D pointless, and it is worth being clear about that, because the argument for taking it in Britain has never rested on telomeres. It rests on latitude: between roughly October and March the sun here is too low for skin to make enough, which is why the NHS advises a 10 microgram supplement for everyone through autumn and winter. That is a quarter of the dose used in VITAL, it has its own evidence behind it, and [it is worth understanding on its own terms](/blog/vitamin-d-insulin-resistance-perimenopause/). This study is not a reason to take more than that. If the headline tempted you to, the thing to do is ask for a blood test first, not to buy a bigger bottle."
+        "text": "None of which makes vitamin D pointless, and it is worth being clear about that, because the argument for taking it in Britain has never rested on telomeres. It rests on latitude: between roughly October and March the sun here is too low for skin to make enough, which is why the NHS advises everyone to consider a 10 microgram supplement through autumn and winter. That is a fifth of the dose used in VITAL, it has its own evidence behind it, and [it is worth understanding on its own terms](/blog/vitamin-d-insulin-resistance-perimenopause/). This study is not a reason to take more than that. If the headline tempted you to, the thing to do is ask for a blood test first, not to buy a bigger bottle."
       },
       {
         "t": "h",
@@ -68,7 +68,7 @@ export default {
         "items": [
           {
             "claim": "Four years of daily vitamin D3 slowed telomere shortening by 140 base pairs, with a confidence interval close to zero.",
-            "detail": "The VITAL Telomere study measured leukocyte telomere length in 1,054 participants at baseline, year 2 and year 4. Vitamin D3 2,000 IU daily reduced attrition by 0.14 kb over four years (95% CI 0.007 to 0.27, p = 0.039), about 0.035 kb per year (95% CI 0.002 to 0.07, p = 0.037). Marine omega-3 had no significant effect at either time point. The authors conclude it “might have a role in counteracting telomere erosion or cell senescence”; the “three years of ageing” figure does not appear in the paper.",
+            "detail": "The VITAL Telomere study enrolled 1,054 participants and measured leukocyte telomere length in 1,031 of them at baseline, year 2 and year 4 (993, 918 and 660 samples). Vitamin D3 2,000 IU daily reduced attrition by 0.14 kb over four years (95% CI 0.007 to 0.27, p = 0.039), about 0.035 kb per year (95% CI 0.002 to 0.07, p = 0.037). Marine omega-3 had no significant effect at either time point. The authors conclude it “might have a role in counteracting telomere erosion or cell senescence”; the “three years of ageing” figure does not appear in the paper.",
             "cite": "Am J Clin Nutr · Zhu H et al., 2025;122(1):39–47",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40409468/"
           },
@@ -112,7 +112,7 @@ export default {
     "faq": [
       {
         "q": "Should I start taking 2,000 IU of vitamin D because of this study?",
-        "a": "Not on the strength of this. The trial measured telomere length, a marker inside white blood cells, and the same trial found no reduction in cancer, no reduction in cardiovascular events and no change in frailty in the same people. A second randomised trial found no telomere effect at all. UK advice is unchanged: 10 micrograms — 400 IU — a day through autumn and winter, which is a quarter of the dose used here. If you want to take more than that, ask for a 25-hydroxyvitamin D blood test first, and note that the NHS safe upper limit for adults is 100 micrograms a day."
+        "a": "Not on the strength of this. The trial measured telomere length, a marker inside white blood cells, and the same trial found no reduction in cancer, no reduction in cardiovascular events and no change in frailty in the same people. A second randomised trial found no telomere effect at all. UK advice is unchanged: 10 micrograms — 400 IU — a day through autumn and winter, which is a fifth of the dose used here. If you want to take more than that, ask for a 25-hydroxyvitamin D blood test first, and note that the NHS safe upper limit for adults is 100 micrograms a day."
       },
       {
         "q": "What is a telomere, and does a longer one mean a longer life?",
@@ -132,7 +132,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Спершу про саме дослідження. VITAL рандомізувало 25 871 дорослого в США — жінок від 55 років і чоловіків від 50, без раку й серцево-судинних хвороб на старті — на 2000 МО вітаміну D3 на добу, 1 г морських омега-3, обидва чи жодного, і спостерігало за ними п’ять років. Усередині нього було значно менше дослідження теломер: 1054 учасники, які особисто приходили до клінічного центру Гарварда і яким вимірювали довжину теломер у лейкоцитах на старті, через два роки і через чотири. Його опублікували в American Journal of Clinical Nutrition у липні 2025 року."
+        "text": "Спершу про саме дослідження. VITAL рандомізувало 25 871 дорослого в США — жінок від 55 років і чоловіків від 50, без раку й серцево-судинних хвороб на старті — на 2000 МО вітаміну D3 на добу, 1 г морських омега-3, обидва чи жодного, і спостерігало за ними п’ять років. Усередині нього було значно менше дослідження теломер: 1054 учасники, які особисто приходили до клінічного центру Гарварда; у 1031 з них виміряли довжину теломер у лейкоцитах принаймні в одній із трьох точок — на старті, через два роки і через чотири. Його опублікували в American Journal of Clinical Nutrition у липні 2025 року."
       },
       {
         "t": "p",
@@ -164,11 +164,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "VITAL брало жінок від 55 і чоловіків від 50, середній вік — 67. D-Health починало з 60. Жодне з них не подало результати щодо теломер окремо для жінок, тобто тут немає нічого про те, чи відрізняється ефект під час менопаузального переходу, — а це питання, на яке цей сайт хотів би відповіді найбільше. Якщо вам 44 і ви читаєте, що щоденна таблетка додає три роки, то дослідження, яке дало цю цифру, не включало нікого вашого віку і не розглядало жінок окремо."
+        "text": "VITAL брало жінок від 55 і чоловіків від 50, середній вік — 67, а в групі з теломерами — близько 65. D-Health починало з 60. Обидва перевірили, чи відрізняється результат у жінок і чоловіків, і значущої різниці не знайшли, але жодне не враховувало стадію менопаузи, тобто тут немає нічого про те, чи відрізняється ефект під час менопаузального переходу, — а це питання, на яке цей сайт хотів би відповіді найбільше. Якщо вам 44 і ви читаєте, що щоденна таблетка додає три роки, то дослідження, яке дало цю цифру, не включало нікого вашого віку і взагалі не розглядало менопаузальний перехід."
       },
       {
         "t": "p",
-        "text": "Усе це не робить вітамін D марним, і це варто сказати прямо, бо аргумент на користь його прийому в Британії ніколи не спирався на теломери. Він спирається на широту: приблизно з жовтня до березня сонце тут стоїть надто низько, щоб шкіра виробила достатньо, — тому NHS радить усім добавку 10 мікрограмів упродовж осені та зими. Це чверть дози, яку давали у VITAL, за нею стоять власні докази, і [її варто розуміти окремо](/ua/blog/vitamin-d-insulin-resistance-perimenopause/). Це дослідження не є підставою приймати більше. Якщо заголовок спокусив вас це зробити, правильний крок — спершу зробити аналіз крові, а не купити більшу банку."
+        "text": "Усе це не робить вітамін D марним, і це варто сказати прямо, бо аргумент на користь його прийому в Британії ніколи не спирався на теломери. Він спирається на широту: приблизно з жовтня до березня сонце тут стоїть надто низько, щоб шкіра виробила достатньо, — тому NHS радить усім подумати про добавку 10 мікрограмів упродовж осені та зими. Це п’ята частина дози, яку давали у VITAL, за нею стоять власні докази, і [її варто розуміти окремо](/ua/blog/vitamin-d-insulin-resistance-perimenopause/). Це дослідження не є підставою приймати більше. Якщо заголовок спокусив вас це зробити, правильний крок — спершу зробити аналіз крові, а не купити більшу банку."
       },
       {
         "t": "h",
@@ -179,7 +179,7 @@ export default {
         "items": [
           {
             "claim": "Чотири роки щоденного вітаміну D3 уповільнили вкорочення теломер на 140 пар основ — із довірчим інтервалом, що майже торкається нуля.",
-            "detail": "Дослідження VITAL Telomere вимірювало довжину теломер лейкоцитів у 1054 учасників на старті, на другому і на четвертому роках. Вітамін D3 2000 МО на добу зменшив втрату на 0,14 кб за чотири роки (95% ДІ 0,007–0,27, p = 0,039), приблизно 0,035 кб на рік (95% ДІ 0,002–0,07, p = 0,037). Морські омега-3 не мали значущого впливу в жодній точці. Висновок авторів: вітамін D «може відігравати роль у протидії ерозії теломер або клітинному старінню»; цифри «три роки старіння» у статті немає.",
+            "detail": "Дослідження VITAL Telomere охопило 1054 учасників і виміряло довжину теломер лейкоцитів у 1031 з них на старті, на другому і на четвертому роках (993, 918 і 660 зразків). Вітамін D3 2000 МО на добу зменшив втрату на 0,14 кб за чотири роки (95% ДІ 0,007–0,27, p = 0,039), приблизно 0,035 кб на рік (95% ДІ 0,002–0,07, p = 0,037). Морські омега-3 не мали значущого впливу в жодній точці. Висновок авторів: вітамін D «може відігравати роль у протидії ерозії теломер або клітинному старінню»; цифри «три роки старіння» у статті немає.",
             "cite": "Am J Clin Nutr · Zhu H та ін., 2025;122(1):39–47",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40409468/"
           },
@@ -223,7 +223,7 @@ export default {
     "faq": [
       {
         "q": "Чи варто починати приймати 2000 МО вітаміну D через це дослідження?",
-        "a": "На цій підставі — ні. Дослідження вимірювало довжину теломер, показник усередині лейкоцитів, і те саме дослідження не виявило в тих самих людей ні зниження ризику раку, ні зниження серцево-судинних подій, ні зміни крихкості. Друге рандомізоване дослідження не знайшло впливу на теломери взагалі. Британська настанова не змінилася: 10 мікрограмів — 400 МО — на добу впродовж осені та зими, тобто чверть дози, яку давали тут. Якщо хочете приймати більше, спершу зробіть аналіз на 25-гідроксивітамін D, і пам’ятайте, що безпечна верхня межа NHS для дорослих — 100 мікрограмів на добу."
+        "a": "На цій підставі — ні. Дослідження вимірювало довжину теломер, показник усередині лейкоцитів, і те саме дослідження не виявило в тих самих людей ні зниження ризику раку, ні зниження серцево-судинних подій, ні зміни крихкості. Друге рандомізоване дослідження не знайшло впливу на теломери взагалі. Британська настанова не змінилася: 10 мікрограмів — 400 МО — на добу впродовж осені та зими, тобто п’ята частина дози, яку давали тут. Якщо хочете приймати більше, спершу зробіть аналіз на 25-гідроксивітамін D, і пам’ятайте, що безпечна верхня межа NHS для дорослих — 100 мікрограмів на добу."
       },
       {
         "q": "Що таке теломера і чи означає довша теломера довше життя?",
