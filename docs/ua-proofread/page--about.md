@@ -1,0 +1,5 @@
+# page--about
+
+- Last checked: 2026-10-06
+- PR: (this PR)
+- Notes: First proofread of this item — `src/pages/ua/about.astro` renders entirely from `ABOUT.ua` in `src/data/site.js`; no hardcoded Cyrillic in the component itself. Fixed a case-agreement/dangling-clause error in `seoDesc` (appositive after "Леною Філатовою" was left in the nominative instead of instrumental, and the final clause had no relative pronoun tying it to Lena). Rewrote `lead` — the UA version had drifted from the `en` meaning, dropping the "insulin resistance and perimenopause collide for women over 40" point and the "feel like yourself again" close entirely; replaced with a translation matching `en`. Smoothed two English-calque phrasings in `story` ("у спокійному та впевненому контролі свого здоров'я" → "взяти своє здоров'я під контроль"; "бути сильними" → "почуватися сильними" to match `en`'s "feel strong"). Fixed one omission in `values` (dropped "or quick fixes") and one more calque ("Плани навколо вашого реального часу" → "Плани, що враховують ваш реальний час"). No changes to numbers, stats, URLs, or `en` text.
