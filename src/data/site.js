@@ -219,6 +219,65 @@ export const MAILCHIMP = {
    1 / 9, endometriosis-type-2-diabetes-risk 1 / 8, avocado-mayonnaise 1 / 18.
    The three EN posts are the OPS-491 page-two posts: a homepage link is the
    internal link they need, which is why they sit in a band about traffic. */
+// Gymbile promotion — the app Lena co-founded. One snippet, three placements:
+// the homepage (before the newsletter), the blog hub (under the featured band)
+// and the foot of every blog post. Rendered by src/components/GymbilePromo.astro.
+//
+// TRACKING — which page drives downloads. Every store link carries the
+// placement and the page it was clicked on:
+//   - Google Play: a `referrer` of utm_source/medium/campaign/content, which
+//     Play Console reports under Acquisition → Campaigns.
+//   - App Store: `ct` (campaign token, max 40 chars). App Store Connect only
+//     attributes `ct` when `pt` (the provider token, App Store Connect →
+//     Analytics → Campaigns → Generate link) is present too. Until
+//     appStoreProviderToken is filled in, iPhone downloads are counted in
+//     App Store Connect but not split by page.
+//   - GA4: a `gymbile_click` event on every click (placement, store), which
+//     GA4 stores against the page it fired on — the page-level view that
+//     works for both stores today, for visitors who accepted cookies.
+export const GYMBILE = {
+  appStore: 'https://apps.apple.com/gb/app/gymbile/id6470671010',
+  appStoreProviderToken: '',
+  googlePlay: 'https://play.google.com/store/apps/details?id=com.gymbile.android',
+  utmSource: 'lenafilatova.co.uk',
+  en: {
+    playHl: 'en_GB',
+    kicker: 'The app I co-founded',
+    title: 'Healthy habits only count if they last.',
+    body: 'That’s why I co-founded Gymbile. Work out on your own and watch your progress build week by week — and when you want expert support, it matches you with the trainer or nutritionist best suited to your goals.',
+    points: [
+      'Train on your own, at your own pace',
+      'Track your progress and keep your rhythm going',
+      'Get matched with the right trainer or nutritionist',
+    ],
+    // The shorter version, at the foot of an article.
+    postTitle: 'Knowing what helps is the easy part. Doing it every week is harder.',
+    postBody: 'Gymbile, the app I co-founded, helps you work out on your own, track your progress and stay consistent — and matches you with a trainer or nutritionist for your goals.',
+    appStoreBtn: 'Download on the App Store',
+    playBtn: 'Get it on Google Play',
+    // Shorter labels for the narrow article column.
+    appStoreShort: 'App Store', playShort: 'Google Play',
+    note: 'Available on iPhone and Android.',
+  },
+  ua: {
+    playHl: 'uk',
+    kicker: 'Застосунок, який я співзаснувала',
+    title: 'Здорові звички мають значення, лише коли вони тривають.',
+    body: 'Саме тому я співзаснувала Gymbile. Тренуйтеся самостійно й бачте, як ваш прогрес зростає тиждень за тижнем, а коли знадобиться підтримка фахівця — застосунок підбере тренера чи нутриціолога саме під ваші цілі.',
+    points: [
+      'Тренуйтеся самостійно, у власному темпі',
+      'Відстежуйте прогрес і не втрачайте ритм',
+      'Отримайте тренера чи нутриціолога під ваші цілі',
+    ],
+    postTitle: 'Знати, що допомагає, — легко. Робити це щотижня — складніше.',
+    postBody: 'Gymbile — застосунок, який я співзаснувала, — допомагає тренуватися самостійно, відстежувати прогрес і не збиватися з ритму, а також підбирає тренера чи нутриціолога під ваші цілі.',
+    appStoreBtn: 'Завантажити в App Store',
+    playBtn: 'Завантажити з Google Play',
+    appStoreShort: 'App Store', playShort: 'Google Play',
+    note: 'Доступно для iPhone та Android.',
+  },
+};
+
 export const MOST_READ = {
   en: [
     { href: '/cgm-comparison/', label: 'CGM sensor comparison', kicker: 'Tool' },
