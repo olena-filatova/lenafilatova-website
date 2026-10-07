@@ -11,7 +11,7 @@ export default {
     "title": "Does keeping your blood sugar too steady cost you something? What the new CGM study actually found",
     "seoTitle": "Keeping Blood Sugar Too Steady: What the CGM Study Found",
     "metaDesc": "An EASD 2026 study tracked 400 adults' glucose and wellbeing for 14 days. More variability predicted a better next day — but so did time in range.",
-    "excerpt": "A German study presented at EASD found that days with wider glucose swings were followed by better-rated days. The headline stopped there. The same analysis found time in range mattered too — and by the larger margin.",
+    "excerpt": "A German study presented at EASD found that days with wider glucose swings were followed by better-rated days. The headline stopped there. The same analysis found time in range mattered too — and it carried the larger of the two coefficients.",
     "meta": "4 October 2026 · 6 min read",
     "lead": "A study presented in Milan last week produced one of those findings that travels further than its own caveats. The version that reached most people was that keeping blood sugar too steady comes at a price. That is roughly half of what the analysis says, and it is not the half with the bigger number attached.",
     "blocks": [
@@ -29,11 +29,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Read those two findings next to each other and they do not point in opposite directions so much as describe two different things. Time in range is about where the line sits. Variability is about how much it moves. The analysis says that sitting in range is good for the next day — with the larger of the two coefficients — and that a line which moves about a bit is not the enemy it is usually made out to be. The coverage kept the second sentence and dropped the first, which is how a study with time in range as its strongest glucose signal became a story about the cost of steadiness."
+        "text": "Read those two findings next to each other and they do not point in opposite directions so much as describe two different things. Time in range is about where the line sits. Variability is about how much it moves. The analysis says that sitting in range is good for the next day — with the larger of the two coefficients — and that a line which moves about a bit is not the enemy it is usually made out to be. The coverage kept the second sentence and dropped the first, which is how a study in which time in range counted too became a story about the cost of steadiness."
       },
       {
         "t": "p",
-        "text": "Ehrmann's own words are more careful than the headlines: too strict glucose management, with the goal of avoiding fluctuations, has the potential to affect quality of life negatively — possibly, he suggests, because of the burden and the restrictions that the effort demands. That is a claim about effort and restriction, not about glucose. Nothing in this analysis says the swings themselves are doing you good. The plausible reading is that a day you spent chasing a flat line was a day with fewer of the ordinary things in it, and the next morning you felt that."
+        "text": "Ehrmann's own words are more careful than the headlines: too strict glucose management, with the goal of avoiding fluctuations, has the potential to affect quality of life negatively — possibly, the authors suggest in the press material, because of the burden and the restrictions that the effort demands. That is a claim about effort and restriction, not about glucose. Nothing in this analysis says the swings themselves are doing you good. The plausible reading is that a day you spent chasing a flat line was a day with fewer of the ordinary things in it, and the next morning you felt that."
       },
       {
         "t": "h",
@@ -53,7 +53,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Seventy-two per cent of the four hundred had type 1 diabetes and 28% type 2. Fifty-five per cent were women. The average age was 47, the range 32 to 63, and the average HbA1c was 7.6%. That age band is squarely the perimenopausal years for a little over half the sample, and nothing in the reporting breaks the results down by sex or by menopausal status — which is the usual gap, and the reason a finding like this cannot be assumed to land the same way for a woman whose glucose is already being moved around by her cycle."
+        "text": "Seventy-two per cent of the four hundred had type 1 diabetes and 28% type 2. Fifty-five per cent were women. The average age was 47, the range 32 to 63, and the average HbA1c was 7.6%. That age band takes in the perimenopausal years, a little over half the sample were women, and nothing in the reporting breaks the results down by sex or by menopausal status — which is the usual gap, and the reason a finding like this cannot be assumed to land the same way for a woman whose glucose is already being moved around by her cycle."
       },
       {
         "t": "p",
@@ -79,7 +79,7 @@ export default {
           {
             "claim": "The researchers attribute the variability finding to the burden of tight control rather than to the fluctuations themselves.",
             "detail": "In the EASD press material the authors write that higher-than-usual glucose variability was associated with improved next-day quality of life, and that this \"may suggest that individuals experience lower quality of life when attempting to minimise glucose fluctuations too strictly, potentially due to the associated burden or restrictions\". Ehrmann is quoted separately as saying that too strict glucose management with the goal of avoiding fluctuations has the potential to affect quality of life negatively. Neither statement claims a physiological benefit from glucose swings.",
-            "cite": "EASD 2026 press material, reported 29 September 2026",
+            "cite": "EASD 2026 press material, reported 14 September 2026",
             "url": "https://medicalxpress.com/news/2026-09-glucose-reveals-daily.html"
           }
         ]
@@ -104,11 +104,11 @@ export default {
     "faq": [
       {
         "q": "Does this mean I should stop aiming for a steady line?",
-        "a": "No, and the study does not support that reading. The strongest glucose signal in it was time spent in the normal range, not variability — both predicted a better next day, and time in range had the larger coefficient. What the researchers suggest is that the effort of eliminating every fluctuation can cost you something in how your days feel, which is a point about the restrictions, not about the glucose. It is a conversation to have with your diabetes team rather than a change to make alone."
+        "a": "No, and the study does not support that reading. Time spent in the normal range predicted a better next day just as variability did, and time in range had the larger coefficient — though the two are measured on different scales, so the sizes cannot be ranked directly. What the researchers suggest is that the effort of eliminating every fluctuation can cost you something in how your days feel, which is a point about the restrictions, not about the glucose. It is a conversation to have with your diabetes team rather than a change to make alone."
       },
       {
         "q": "How reliable is this finding?",
-        "a": "Treat it as early. It is an observational study of 400 people over 14 days, presented at a conference and not yet peer-reviewed, so nothing in it has been shown to cause anything. The effect sizes are small, and the association runs from one day to the next rather than within a day — the same glucose measures predicted nothing about how people rated the day they were actually having. Results were not reported separately for women, which on this site is worth saying out loud: just over half the sample were women in their forties and fifties, and we cannot tell from the published summary whether the pattern held for them."
+        "a": "Treat it as early. It is an observational study of 400 people over 14 days, presented at a conference and not yet peer-reviewed, so nothing in it has been shown to cause anything. The effect sizes are small, and the association runs from one day to the next rather than within a day — the same glucose measures predicted nothing about how people rated the day they were actually having. Results were not reported separately for women, which on this site is worth saying out loud: just over half the sample were women, the average age was 47, and we cannot tell from the published summary whether the pattern held for them."
       }
     ]
   },
@@ -118,7 +118,7 @@ export default {
     "title": "Чи має надто рівний цукор свою ціну? Що насправді показало нове дослідження з CGM",
     "seoTitle": "Надто рівний цукор: що показало дослідження з CGM",
     "metaDesc": "Дослідження EASD 2026: 400 дорослих, 14 днів CGM і щоденна оцінка самопочуття. Більші коливання віщували кращий наступний день — як і час у нормі.",
-    "excerpt": "Німецьке дослідження, представлене на EASD, показало: після днів із ширшими коливаннями глюкози люди оцінювали наступний день вище. Заголовки на цьому спинилися. Той самий аналіз показав, що час у нормі важив не менше — і навіть більше.",
+    "excerpt": "Німецьке дослідження, представлене на EASD, показало: після днів із ширшими коливаннями глюкози люди оцінювали наступний день вище. Заголовки на цьому спинилися. Той самий аналіз показав, що час у нормі теж важив — і саме за ним більший із двох коефіцієнтів.",
     "meta": "4 жовтня 2026 · 6 хв читання",
     "lead": "Дослідження, представлене минулого тижня в Мілані, дало результат із тих, що розходяться далі за власні застереження. До більшості людей дійшла версія: тримати цукор надто рівним — це має свою ціну. Це приблизно половина того, що каже аналіз, і не та половина, за якою стоїть більше число.",
     "blocks": [
@@ -136,11 +136,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Якщо прочитати ці два результати поруч, вони не так суперечать одне одному, як описують різні речі. Час у нормі — це про те, де стоїть лінія. Варіабельність — про те, наскільки вона рухається. Аналіз каже, що перебування в нормі добре для наступного дня (і саме тут більший із двох коефіцієнтів), а лінія, яка трохи ходить, — не той ворог, яким її зазвичай змальовують. У публікаціях лишилося друге речення й зникло перше: так дослідження, де час у нормі був найсильнішим глікемічним сигналом, перетворилося на історію про ціну стабільності."
+        "text": "Якщо прочитати ці два результати поруч, вони не так суперечать одне одному, як описують різні речі. Час у нормі — це про те, де стоїть лінія. Варіабельність — про те, наскільки вона рухається. Аналіз каже, що перебування в нормі добре для наступного дня (і саме тут більший із двох коефіцієнтів), а лінія, яка трохи ходить, — не той ворог, яким її зазвичай змальовують. У публікаціях лишилося друге речення й зникло перше: так дослідження, де час у нормі теж мав значення, перетворилося на історію про ціну стабільності."
       },
       {
         "t": "p",
-        "text": "Власні слова Ehrmann обережніші за заголовки: надто суворе управління глюкозою з метою уникнути коливань має потенціал негативно впливати на якість життя — можливо, припускає він, через тягар і обмеження, яких ці зусилля вимагають. Це твердження про зусилля й обмеження, а не про глюкозу. Ніщо в цьому аналізі не каже, що самі коливання йдуть на користь. Правдоподібне прочитання таке: день, який ви витратили на погоню за рівною лінією, був днем, де лишилося менше звичайних речей, — і наступного ранку ви це відчули."
+        "text": "Власні слова Ehrmann обережніші за заголовки: надто суворе управління глюкозою з метою уникнути коливань має потенціал негативно впливати на якість життя — можливо, припускають автори в пресматеріалах, через тягар і обмеження, яких ці зусилля вимагають. Це твердження про зусилля й обмеження, а не про глюкозу. Ніщо в цьому аналізі не каже, що самі коливання йдуть на користь. Правдоподібне прочитання таке: день, який ви витратили на погоню за рівною лінією, був днем, де лишилося менше звичайних речей, — і наступного ранку ви це відчули."
       },
       {
         "t": "h",
@@ -160,7 +160,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У 72% із чотирьохсот учасників був діабет 1 типу, у 28% — 2 типу. Жінок було 55%. Середній вік — 47 років, діапазон 32–63, середній HbA1c — 7,6%. Для трохи більш ніж половини вибірки цей віковий проміжок — це якраз перименопауза, і ніде в публікаціях результати не розділені за статтю чи за менопаузальним статусом. Це звична прогалина — і саме причина, чому не можна припускати, що такий висновок однаково працює для жінки, чию глюкозу вже рухає власний цикл."
+        "text": "У 72% із чотирьохсот учасників був діабет 1 типу, у 28% — 2 типу. Жінок було 55%. Середній вік — 47 років, діапазон 32–63, середній HbA1c — 7,6%. Цей віковий проміжок охоплює роки перименопаузи, жінок у вибірці було трохи більше за половину, і ніде в публікаціях результати не розділені за статтю чи за менопаузальним статусом. Це звична прогалина — і саме причина, чому не можна припускати, що такий висновок однаково працює для жінки, чию глюкозу вже рухає власний цикл."
       },
       {
         "t": "p",
@@ -186,7 +186,7 @@ export default {
           {
             "claim": "Дослідники пояснюють знахідку про варіабельність тягарем жорсткого контролю, а не самими коливаннями.",
             "detail": "У пресматеріалах EASD автори пишуть, що вища за звичну варіабельність глюкози була пов’язана з кращою якістю життя наступного дня і що це «може свідчити, що люди мають нижчу якість життя, коли надто суворо намагаються мінімізувати коливання глюкози, — потенційно через пов’язаний із цим тягар або обмеження». Окремо наводять слова Ehrmann: надто суворе управління глюкозою з метою уникнути коливань має потенціал негативно впливати на якість життя. Жодне з цих тверджень не стверджує фізіологічної користі від коливань глюкози.",
-            "cite": "Пресматеріали EASD 2026, опубліковано 29 вересня 2026",
+            "cite": "Пресматеріали EASD 2026, опубліковано 14 вересня 2026",
             "url": "https://medicalxpress.com/news/2026-09-glucose-reveals-daily.html"
           }
         ]
@@ -211,11 +211,11 @@ export default {
     "faq": [
       {
         "q": "Це означає, що можна перестати прагнути рівної лінії?",
-        "a": "Ні, і дослідження такого прочитання не підтримує. Найсильнішим глікемічним сигналом у ньому був час у нормі, а не варіабельність: кращий наступний день віщували обидва показники, але час у нормі має більший коефіцієнт. Дослідники припускають інше — що зусилля, потрібні, щоб прибрати кожне коливання, можуть коштувати вам дечого в тому, як відчуваються ваші дні. Це теза про обмеження, а не про глюкозу. Це тема для розмови з вашою діабетичною командою, а не зміна, яку варто робити самостійно."
+        "a": "Ні, і дослідження такого прочитання не підтримує. Час у нормі віщував кращий наступний день так само, як і варіабельність, і коефіцієнт у нього більший — хоча ці два показники вимірюють у різних одиницях, тож напряму порівнювати їхню величину не можна. Дослідники припускають інше — що зусилля, потрібні, щоб прибрати кожне коливання, можуть коштувати вам дечого в тому, як відчуваються ваші дні. Це теза про обмеження, а не про глюкозу. Це тема для розмови з вашою діабетичною командою, а не зміна, яку варто робити самостійно."
       },
       {
         "q": "Наскільки надійний цей результат?",
-        "a": "Сприймайте його як ранній. Це спостережне дослідження 400 людей за 14 днів, представлене на конференції й поки не рецензоване, тож нічого в ньому не доведено як причина. Величини ефектів малі, а зв’язок іде від одного дня до наступного, а не всередині дня: ті самі показники глюкози нічого не передбачали про оцінку того дня, який людина саме проживала. Результати не наводили окремо для жінок — і на цьому сайті про це варто сказати вголос: трохи більше за половину вибірки становили жінки сорока-п’ятдесяти років, і з опублікованого резюме неможливо зрозуміти, чи зберігалася закономірність для них."
+        "a": "Сприймайте його як ранній. Це спостережне дослідження 400 людей за 14 днів, представлене на конференції й поки не рецензоване, тож нічого в ньому не доведено як причина. Величини ефектів малі, а зв’язок іде від одного дня до наступного, а не всередині дня: ті самі показники глюкози нічого не передбачали про оцінку того дня, який людина саме проживала. Результати не наводили окремо для жінок — і на цьому сайті про це варто сказати вголос: трохи більше за половину вибірки становили жінки, середній вік учасників — 47 років, і з опублікованого резюме неможливо зрозуміти, чи зберігалася закономірність для них."
       }
     ]
   }
