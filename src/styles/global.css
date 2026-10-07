@@ -155,6 +155,11 @@
 :root {
   --accent: #B23A63;      /* brand magenta — logo, buttons, kickers */
   --accent-deep: #7C2144; /* magenta, pressed/hover on pointer devices */
+  /* Magenta is only 3.01:1 on --ink, so it fails AA as text on every ink
+     panel (newsletter box, testimonials band, About CTA, language bar).
+     This is the ink-only substitute at 6.98:1. It is 2.46:1 on paper —
+     never use it on a light ground; use --accent there. OPS-534. */
+  --accent-on-ink: #E58AAA;
   --ink: #2A1424;         /* headings / darkest text */
   --body: #4A3644;        /* long-form body copy */
   --muted: #5A4152;       /* labels, captions, secondary text */
@@ -810,7 +815,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .nl-consent input:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 /* Panel is dark (--ink); the muted body colour would read as plain text here. */
 .nl-consent a { color: #fff; text-decoration: underline; text-underline-offset: 2px; }
-.nl-consent a:hover { color: var(--accent); }
+.nl-consent a:hover { color: var(--accent-on-ink); }
 .newsletter .form-sent { max-width: 520px; margin: 0 auto; }
 
 @media (prefers-reduced-motion: reduce) {
