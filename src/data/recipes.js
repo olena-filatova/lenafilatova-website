@@ -354,7 +354,7 @@ export const RECIPES = [
   {
     slug: 'meatballs-mandarin-herbs', dateAdded: '2026-07-10', img: '28-meatballs-mandarin-herbs.jpg', cat: 'main', gi: 24,
     tags: ['gluten-free', 'dairy-free', 'low-carb'],
-    imgAlt: { en: "Raw seasoned meatballs in a dark blue dish with mandarin segments tucked between them, scattered with dried herbs.", ua: "Сирі приправлені м’ясні кульки в темно-синій формі з часточками мандарина між ними, притрушені сушеними травами." },
+    imgAlt: { en: "Raw seasoned meatballs in a dark blue dish with mandarin segments tucked between them, scattered with dried herbs.", ua: "Сирі приправлені фрикадельки в темно-синій формі з дольками мандарина між ними, притрушені сушеними травами." },
     title: { en: 'Meatballs with Mandarin & Herbs', ua: 'Фрикадельки з мандаринами та травами' },
     why: { en: 'Protein-rich meatballs bound with flax and ground nuts instead of breadcrumbs — the mandarin segments add a little natural sweetness without moving blood sugar much.', ua: 'Багаті на білок фрикадельки, скріплені льоном і меленими горіхами замість панірувальних сухарів — дольки мандарина додають трохи природної солодкості, майже не впливаючи на цукор.' },
     nutrition: { en: 'Per serving (est.): ~280 kcal · Carbs 2 g · Fat 18 g · Protein 28 g', ua: 'На порцію (прибл.): ~280 ккал · Вуглеводи 2 г · Жири 18 г · Білки 28 г' },
@@ -366,9 +366,9 @@ export const RECIPES = [
   {
     slug: 'blueberry-curd-tart', dateAdded: '2026-07-10', img: '29-blueberry-curd-tart.jpg', cat: 'dessert', gi: 39,
     tags: ['sugar-free', 'gluten-free', 'low-carb', 'vegetarian'],
-    imgAlt: { en: "A round tart on a blue plate with one slice cut out, mauve curd filling ringed with fresh blueberries in a thick seeded crust.", ua: "Круглий тарт на синій тарілці з вирізаним шматком: лілова сирна начинка, обрамлена свіжою чорницею, у товстій основі з насінням." },
+    imgAlt: { en: "A round tart on a blue plate with one slice cut out, mauve curd filling ringed with fresh blueberries in a thick seeded crust.", ua: "Круглий тарт на синій тарілці з вирізаним шматком: лілова начинка з курду, обрамлена свіжою чорницею, у товстій основі з насінням." },
     title: { en: 'Low-carb Blueberry Curd Tart', ua: 'Низьковуглеводний тарт з чорничним курдом' },
-    why: { en: 'A coconut-and-flax crust with a homemade blueberry curd, sweetened only with erythritol — low in carbs and gentle on blood sugar.', ua: 'Основа з кокосового й лляного борошна з домашнім чорничним курдом, підсолодженим лише еритритолом — мало вуглеводів і м’яко для рівня цукру.' },
+    why: { en: 'A coconut-and-flax crust with a homemade blueberry curd, sweetened only with erythritol — low in carbs and gentle on blood sugar.', ua: 'Основа з кокосового й лляного борошна з домашнім чорничним курдом, підсолодженим лише еритритолом — мало вуглеводів і м’яко впливає на рівень цукру в крові.' },
     nutrition: { en: 'Per serving (est.): ~190 kcal · Carbs 3 g · Fat 17 g · Protein 6 g', ua: 'На порцію (прибл.): ~190 ккал · Вуглеводи 3 г · Жири 17 г · Білки 6 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '48 min', ua: '48 хв' }, serves: { en: 'Serves 3', ua: '3 порції' } },
     ingredients: { en: ['— CRUST —','60 ml (¼ cup) coconut flour','60 ml (¼ cup) erythritol','60 ml (¼ cup) flaxseed flour','3 egg whites','30 g coconut oil','— CURD —','3 egg yolks','40 g erythritol','1 pinch vanilla','1 handful blueberries'], ua: ['— ОСНОВА —','60 мл (¼ склянки) кокосового борошна','60 мл (¼ склянки) еритритолу','60 мл (¼ склянки) лляного борошна','3 яєчні білки','30 г кокосової олії','— КУРД —','3 яєчні жовтки','40 г еритритолу','1 щіпка ваніліну','1 жменя чорниці'] },
