@@ -585,6 +585,24 @@
       ]
     ]
   },
+  "/images/glp1-plus-exercise-vs-drug-alone.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-plus-exercise-vs-drug-alone-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-plus-exercise-vs-drug-alone-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-plus-exercise-vs-drug-alone-1200.avif"
+      ]
+    ]
+  },
   "/images/glp1-weight-loss-drugs-fat-not-muscle.jpg": {
     "w": 1200,
     "h": 675,
