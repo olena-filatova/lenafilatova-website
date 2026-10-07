@@ -550,7 +550,11 @@ const toolHref = (card) => {
     .ed-q:nth-child(2) { border-top: 0; padding-top: 0; }
     .ed-q p { font-size: 22px; }
     .ed-clin { display: flex; align-items: center; gap: 26px; }
-    .ed-clin .k { margin: 0; flex: none; max-width: 90px; }
+    /* max-width: 90px fitted "RECOMMENDED" and nothing else, so the label
+       broke onto three lines (RECOMMENDED / BY / CLINICIANS). It is a single
+       kicker, not a column of text — let it size to its own content and keep
+       it unbroken. OPS-534. */
+    .ed-clin .k { margin: 0; flex: none; white-space: nowrap; }
     .ed-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
     .ed-wait .inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
     .ed-wait p { margin: 0; }
