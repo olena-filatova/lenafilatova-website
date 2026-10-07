@@ -1,7 +1,7 @@
 # recipe--pumpkin-oat-pancakes-chocolate
 
 - Last checked: 2026-10-07
-- PR: (opened in this run)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/343
 - Notes: UA text was already clean and matched the EN meaning closely. Fixed the
   title to say "з шоколадним соусом" (matching EN "with Chocolate Sauce" instead
   of the vaguer "з шоколадом"), and fixed an awkward ingredient word order
