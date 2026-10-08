@@ -392,7 +392,7 @@ export const RECIPES = [
     title: { en: 'No-bake Dried Fruit Sweets', ua: 'Цукерки із сухофруктів' },
     seoTitle: { en: "No-bake Dried Fruit Sweets — No Added Sugar, GI 10", ua: "Цукерки із сухофруктів без цукру — ГІ 10, без випікання" },
     metaDesc: { en: "Dried fruit blended and rolled in seeds and cocoa — no baking, no added sugar. GI 10, though the fruit is naturally sweet, so keep portions small.", ua: "Цукерки із сухофруктів без додавання цукру й випікання — обкачані в насінні та какао. ГІ 10, але фрукти солодкі, тож порція невелика." },
-    why: { en: 'Blended dried fruit rolled in seeds and cocoa — a simple whole-food sweet with fibre. Naturally sugary from the fruit, so best enjoyed in small amounts.', ua: 'Збиті сухофрукти, обкачані в насінні та какао — проста натуральна солодкість із клітковиною. Через фрукти вони солодкі, тож найкраще їсти потроху.' },
+    why: { en: 'Blended dried fruit rolled in seeds and cocoa — a simple whole-food sweet with fibre. Naturally sugary from the fruit, so best enjoyed in small amounts.', ua: 'Перемелені сухофрукти, обкачані в насінні та какао — проста натуральна солодкість із клітковиною. Вони природно солодкі завдяки фруктам, тож найкраще їсти їх потроху.' },
     nutrition: { en: 'Per serving (est.): ~120 kcal · Carbs 24 g · Fat 3 g · Protein 2 g', ua: 'На порцію (прибл.): ~120 ккал · Вуглеводи 24 г · Жири 3 г · Білки 2 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No bake', ua: 'Без випікання' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['1 handful dried fruit','20 g water','20 g coating (sesame, cocoa, almond flour, barley powder)'], ua: ['1 жменя сухофруктів','20 г води','20 г обсипки (кунжут, какао, мигдалеве борошно, порошок ячменю)'] },
@@ -407,7 +407,7 @@ export const RECIPES = [
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 10 g · Fat 10 g · Protein 42 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 10 г · Жири 10 г · Білки 42 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '1 h 10 min', ua: '1 год 10 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['1 rabbit, jointed','240 ml (1 cup) mixed vegetables','Salad dressing / juices, to taste','Olive oil, to taste','1 handful rosemary'], ua: ['1 кролик, порційно нарізаний','240 мл (1 склянка) овочів (асорті)','Заправка / сік від салату, за смаком','Оливкова олія, за смаком','1 жменя розмарину'] },
-    method: { en: ['Lay the vegetables in the bottom of a dish.','Pour over the salad juices and olive oil and add the rosemary.','Roast at 180°C for about an hour, covered with foil so it stays tender — supper is ready.'], ua: ['Викладіть овочі на дно форми.','Полийте соком від салату та оливковою олією, додайте розмарин.','Запікайте при 180°C близько години під фольгою, щоб м’ясо протушилося — вечеря готова.'] }
+    method: { en: ['Lay the vegetables in the bottom of a dish.','Pour over the salad juices and olive oil and add the rosemary.','Roast at 180°C for about an hour, covered with foil so it stays tender — supper is ready.'], ua: ['Викладіть овочі на дно форми.','Полийте соком від салату та оливковою олією, додайте розмарин.','Запікайте при 180°C близько години під фольгою, щоб м’ясо залишилося соковитим — вечеря готова.'] }
   },
   {
     slug: 'pumpkin-panna-cotta', dateAdded: '2026-07-10', img: '33-pumpkin-panna-cotta.jpg', cat: 'dessert', gi: 62,
