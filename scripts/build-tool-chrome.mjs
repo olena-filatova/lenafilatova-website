@@ -53,17 +53,19 @@ const PUBLIC = join(ROOT, 'public');
    is also what each page's own hreflang pair already declares. `maxw` mirrors
    the `max-width` that page's own `.tool-head .in` uses, so the footer lines up
    with the content above it instead of running wider or narrower than it. */
-/* `navBreak` is the viewport below which the five nav items and the Subscribe
+/* `navBreak` is the viewport below which the six nav items and the Subscribe
    button fold into the burger. It is a property of the BAR's width, not the
    viewport's: `.tool-head .in` is capped at `maxw`, so on a page whose column is
    680px the bar never gets wide enough for the nav however wide the window is —
    `navBreak: null` means "always folded" and is exactly that case. The nav links
    are in the burger's markup either way, so nothing is hidden from a crawler. */
 const TOOLS = [
-  { slug: 'aid-comparison', maxw: '1120px', navBreak: '899.98px' },
-  { slug: 'cgm-comparison', maxw: '1120px', navBreak: '899.98px' },
-  { slug: 'carb-gi-table', maxw: '1120px', navBreak: '899.98px' },
-  { slug: 't1d-cure-trials', maxw: '900px', navBreak: '899.98px' },
+  { slug: 'aid-comparison', maxw: '1120px', navBreak: '967.98px' },
+  { slug: 'cgm-comparison', maxw: '1120px', navBreak: '967.98px' },
+  { slug: 'carb-gi-table', maxw: '1120px', navBreak: '967.98px' },
+  // Folded at every width since the sixth nav item (App): a 900px bar holds
+  // the English row but runs 48px over in Ukrainian, and one break serves both.
+  { slug: 't1d-cure-trials', maxw: '900px', navBreak: null },
   { slug: 'blood-sugar-investigator', maxw: '680px', navBreak: null },
 ];
 
@@ -75,7 +77,9 @@ const esc = (s) =>
    from the domain root and can't see import.meta.env. */
 const base = (lang) => (lang === 'ua' ? '/ua/' : '/');
 
-const NAV_KEYS = ['blog', 'resources', 'recipes', 'about', 'contact'];
+// [NAV key, path]. Most items live at /<key>/; the App item is the exception —
+// its page is /gymbile/ — so the path is spelled out rather than derived.
+const NAV_KEYS = [['blog', 'blog'], ['resources', 'resources'], ['recipes', 'recipes'], ['about', 'about'], ['app', 'gymbile'], ['contact', 'contact']];
 /* The burger's accessible name. NAV has no word for it — the Astro header
    hard-codes the English "Menu" because its burger only ever appears next to
    an English-labelled control — but these pages are half Ukrainian, so it is
@@ -97,7 +101,7 @@ function header({ slug, lang }) {
   const n = NAV[lang];
   const s = SEARCH_UI[lang];
   const L = base(lang);
-  const link = (k) => `<a href="${L}${k}/">${esc(n[k])}</a>`;
+  const link = ([k, path]) => `<a href="${L}${path}/">${esc(n[k])}</a>`;
   const items = NAV_KEYS.map(link).join('\n      ');
   const mobileItems = NAV_KEYS.map(link).join('\n    ');
   const enHref = `/${slug}/`;
@@ -198,7 +202,7 @@ function footer(lang) {
   }).join('\n          ');
   const explore = [
     [`${L}blog/`, n.blog], [`${L}resources/`, n.resources], [`${L}recipes/`, n.recipes],
-    [`${L}about/`, n.about], [`${L}contact/`, n.contact], [`${L}search/`, s.label],
+    [`${L}about/`, n.about], [`${L}gymbile/`, n.app], [`${L}contact/`, n.contact], [`${L}search/`, s.label],
   ].map(([h, l]) => `<li><a href="${h}">${esc(l)}</a></li>`).join('\n          ');
   const cats = t.cats.map((c, i) => `<li><a href="${catHref(i)}">${esc(c)}</a></li>`).join('\n          ');
   const legal = t.legalLinks
@@ -342,7 +346,8 @@ const footScripts = `<script>
 function styles({ maxw, navBreak }) {
   /* The folded (burger) state. Wrapped in a media query on pages whose bar is
      wide enough to hold the nav at desktop widths, and applied unconditionally
-     on the one whose bar never is. */
+     on the ones whose bar never is. 967.98px is the Ukrainian row's measured
+     floor (the longer label set) with the sixth nav item. */
   const FOLDED = `  .lf-nav, .lf-sub { display: none; }
   .lf-burger { display: block; }
   .lf-mobile-nav:not([hidden]) {
@@ -358,7 +363,7 @@ function styles({ maxw, navBreak }) {
   .lf-mobile-nav .lf-btn { margin-top: 8px; justify-self: start; color: #fff; }`;
   const foldedRules = navBreak
     ? `@media (max-width: ${navBreak}) {\n${FOLDED}\n}`
-    : `/* This page's content column is 680px, so its masthead is never wide\n   enough for the nav — it is folded at every width. */\n${FOLDED.replace(/^ {2}/gm, '')}`;
+    : `/* This page's content column is too narrow for the full nav row in both\n   languages, so its masthead is folded at every width. */\n${FOLDED.replace(/^ {2}/gm, '')}`;
 
     /* The language offer (OPS-369) — a strip above the masthead that scrolls
      away with the page. `display:flex` on the inner would beat the hidden
