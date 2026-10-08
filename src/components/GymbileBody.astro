@@ -1,0 +1,80 @@
+---
+// /gymbile/ and /ua/gymbile/ — the page the "App" link in the header and
+// footer points at. Copy lives in GYMBILE[lang].page in site.js; the store
+// buttons (and their per-page download tracking) come from GymbileStores.
+//
+// Built from the About page's devices (numbered section heads, hairline rows,
+// the story column) in global.css, so it reads as part of the same site
+// rather than a landing page bolted on.
+import { GYMBILE } from '../data/site.js';
+import GymbileStores from './GymbileStores.astro';
+
+const { lang = 'en' } = Astro.props;
+const t = GYMBILE[lang].page;
+---
+<section class="gp-hero">
+  <div class="wrap">
+    <p class="gp-k">{t.kicker}</p>
+    <h1>{t.h1}</h1>
+    <p class="gp-lead">{t.lead}</p>
+    <div class="gp-stores">
+      <GymbileStores lang={lang} placement="page" layout="row" />
+    </div>
+  </div>
+</section>
+
+<section class="ab-sec gp-feat">
+  <div class="wrap">
+    <div class="ab-sec-head">
+      <span class="n">01</span>
+      <h2 class="nm">{t.featuresLabel}</h2>
+    </div>
+    <div class="ab-rows">
+      {t.features.map((f, i) => (
+        <div class="ab-row">
+          <span class="n">{String(i + 1).padStart(2, '0')}</span>
+          <div><h3>{f.h}</h3><p>{f.p}</p></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="ab-sec">
+  <div class="wrap">
+    <div class="ab-sec-head">
+      <span class="n">02</span>
+      <h2 class="nm">{t.whyLabel}</h2>
+    </div>
+    <div class="ab-story">{t.why.map((p) => <p>{p}</p>)}</div>
+  </div>
+</section>
+
+<section class="gp-end">
+  <div class="wrap gp-end-in">
+    <h2>{t.endTitle}</h2>
+    <GymbileStores lang={lang} placement="page-end" layout="stack" />
+  </div>
+</section>
+
+<style>
+  .gp-hero { padding: 44px 0 8px; }
+  .gp-k { margin: 0 0 14px; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
+  .gp-hero h1 { font-size: var(--fs-display); line-height: 1.05; letter-spacing: -0.028em; max-width: 18ch; text-wrap: balance; }
+  .gp-lead { font-family: var(--font-head); font-weight: 300; font-size: var(--fs-lead); line-height: 1.5; color: var(--ink); max-width: 46ch; margin: 18px 0 0; }
+  .gp-stores { max-width: 640px; margin-top: 26px; }
+  /* The section labels are real <h2>s here (the About page's are spans);
+     reset the heading defaults so they keep the label look. */
+  .ab-sec-head h2.nm { margin: 0; line-height: 1.2; }
+  .gp-end { margin-top: 56px; background: var(--paper2); border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--rule); }
+  .gp-end-in { display: grid; gap: 20px; padding-top: 34px; padding-bottom: 34px; }
+  .gp-end h2 { font-size: var(--fs-h2); line-height: 1.15; letter-spacing: -0.02em; }
+  @media (min-width: 820px) {
+    .gp-end-in { grid-template-columns: 1.6fr 1fr; align-items: center; gap: 48px; }
+  }
+  /* Three features: three columns on desktop rather than the About page's two,
+     which would leave the third row on its own. */
+  @media (min-width: 900px) {
+    .gp-feat .ab-rows { grid-template-columns: repeat(3, 1fr); column-gap: 40px; }
+  }
+</style>

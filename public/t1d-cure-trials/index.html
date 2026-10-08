@@ -678,21 +678,21 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
 .lf-mobile-nav { display: none; }
 .lf-mobile-nav[hidden] { display: none; }
 
-@media (max-width: 899.98px) {
-  .lf-nav, .lf-sub { display: none; }
-  .lf-burger { display: block; }
-  .lf-mobile-nav:not([hidden]) {
-    display: grid; gap: 4px;
-    padding: 12px clamp(18px, 3.5vw, 40px) 18px;
-    border-top: 1px solid var(--line);
-  }
-  .lf-mobile-nav a {
-    color: var(--ink); text-decoration: none; font-weight: 700; font-size: 12px;
-    letter-spacing: 0.16em; text-transform: uppercase; padding: 11px 0;
-  }
-  .lf-mobile-nav a:hover { color: var(--accent); }
-  .lf-mobile-nav .lf-btn { margin-top: 8px; justify-self: start; color: #fff; }
+/* This page's content column is too narrow for the full nav row in both
+   languages, so its masthead is folded at every width. */
+.lf-nav, .lf-sub { display: none; }
+.lf-burger { display: block; }
+.lf-mobile-nav:not([hidden]) {
+  display: grid; gap: 4px;
+  padding: 12px clamp(18px, 3.5vw, 40px) 18px;
+  border-top: 1px solid var(--line);
 }
+.lf-mobile-nav a {
+  color: var(--ink); text-decoration: none; font-weight: 700; font-size: 12px;
+  letter-spacing: 0.16em; text-transform: uppercase; padding: 11px 0;
+}
+.lf-mobile-nav a:hover { color: var(--accent); }
+.lf-mobile-nav .lf-btn { margin-top: 8px; justify-self: start; color: #fff; }
 
 /* ── newsletter ───────────────────────────────────────────────────────── */
 .lf-nl { padding: 56px 0 0; }
@@ -1053,6 +1053,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
       <a href="/resources/">Resources</a>
       <a href="/recipes/">Recipes</a>
       <a href="/about/">About</a>
+      <a href="/gymbile/">App</a>
       <a href="/contact/">Contact</a>
     </nav>
     <div class="lf-actions">
@@ -1071,6 +1072,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
     <a href="/resources/">Resources</a>
     <a href="/recipes/">Recipes</a>
     <a href="/about/">About</a>
+    <a href="/gymbile/">App</a>
     <a href="/contact/">Contact</a>
     <a href="/search/">Search</a>
     <a class="lf-btn" href="#newsletter">Subscribe</a>
@@ -1819,6 +1821,7 @@ render();
           <li><a href="/resources/">Resources</a></li>
           <li><a href="/recipes/">Recipes</a></li>
           <li><a href="/about/">About</a></li>
+          <li><a href="/gymbile/">App</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/search/">Search</a></li>
         </ul>

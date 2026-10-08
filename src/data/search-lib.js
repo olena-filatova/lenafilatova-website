@@ -25,7 +25,7 @@ import { PUBLISHED } from './recipes.js';
 import { CAT_HUB, DIET } from './recipes-lib.js';
 import { UI as BLOG_UI } from './blog-lib.js';
 import { CALCULATORS } from './calculators.js';
-import { HOME, ABOUT, CONTACT, RESOURCES, LEGAL, LEGAL_SLUGS } from './site.js';
+import { HOME, ABOUT, CONTACT, RESOURCES, LEGAL, LEGAL_SLUGS, GYMBILE } from './site.js';
 
 // Result kinds, kind labels and the UI strings live in search-ui.js — a leaf
 // module with no imports, so plain-node scripts can read them without pulling
@@ -44,6 +44,7 @@ const PAGE_TITLES = {
     recipes: 'Low-GI recipes',
     resources: 'Tools & guides',
     about: 'About Lena Filatova',
+    gymbile: 'Gymbile — the app I co-founded',
     contact: 'Contact',
   },
   ua: {
@@ -52,6 +53,7 @@ const PAGE_TITLES = {
     recipes: 'Рецепти з низьким ГІ',
     resources: 'Інструменти та гайди',
     about: 'Про Лену Філатову',
+    gymbile: 'Gymbile — застосунок, який я співзаснувала',
     contact: 'Контакти',
   },
 };
@@ -210,6 +212,8 @@ export function buildDocs(lang = 'en') {
 
   push({ u: `/${L}`, t: pt.home, k: 'page', c: '', x: home.seoDesc, b: texts(home).join(' ') });
   push({ u: `/${L}about/`, t: pt.about, k: 'page', c: about.kicker, x: about.lead, b: texts(about).join(' ') });
+  const gym = GYMBILE[lang].page;
+  push({ u: `/${L}gymbile/`, t: pt.gymbile, k: 'page', c: gym.kicker, x: gym.lead, b: texts(gym).join(' ') });
   push({ u: `/${L}contact/`, t: pt.contact, k: 'page', c: contact.kicker, x: contact.lead, b: texts(contact).join(' ') });
   push({
     u: `/${L}resources/`,

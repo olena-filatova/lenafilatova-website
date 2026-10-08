@@ -27,6 +27,7 @@ const PAGE_DATES = {
   '/dia-school/': '2026-08-17', // OPS-264 — waitlist page (UA is the real one)
   '/blog/': '2026-07-12',
   '/recipes/': '2026-08-05',
+  '/gymbile/': '2026-10-08',
   // Legal pages (LEGAL_SLUGS)
   '/privacy/': '2026-07-13',
   '/cookies/': '2026-07-13',
@@ -55,6 +56,8 @@ add('/resources/');
 // Dia.School (OPS-264). Both languages: /ua/dia-school/ is the waitlist itself,
 // /dia-school/ the English "this runs in Ukrainian" explainer that points at it.
 add('/dia-school/');
+// The Gymbile app page, linked as "App" from the header and footer.
+add('/gymbile/');
 // NOTE: /shop/ deliberately absent — the shop is hidden (nothing on sale yet).
 add('/blog/');
 add('/recipes/');

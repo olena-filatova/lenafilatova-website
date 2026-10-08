@@ -3,30 +3,20 @@
 // healthy habits and keep them. Copy and store links live in GYMBILE in
 // site.js; see the note there on how downloads are attributed to pages.
 //
-// placement: 'home' | 'blog' | 'post'. 'post' is the short version, drawn
-// inside the article's 640px column (no .wrap); the other two are a full band.
+// placement: 'home' | 'blog' | 'about' | 'post'. 'post' is the short version,
+// drawn inside the article's 640px column (no .wrap); the rest are a full band.
+// Store buttons and click tracking come from GymbileStores; every placement
+// also links to the /gymbile/ page.
 // `page` names the page in the tracking tags — the post slug on an article.
 import { GYMBILE } from '../data/site.js';
+import GymbileStores from './GymbileStores.astro';
 
 const { lang = 'en', placement = 'home', page = '' } = Astro.props;
 const t = GYMBILE[lang];
 const short = placement === 'post';
-const campaign = `lf-${placement}`;
-const content = page || lang;
-
-// Play Console reads utm_* out of the URL-encoded `referrer` parameter.
-const referrer = new URLSearchParams({
-  utm_source: GYMBILE.utmSource,
-  utm_medium: 'website',
-  utm_campaign: campaign,
-  utm_content: content,
-}).toString();
-const playHref = `${GYMBILE.googlePlay}&hl=${t.playHl}&referrer=${encodeURIComponent(referrer)}`;
-
-// App Store campaign tokens are capped at 40 characters.
-const ct = `${campaign}-${content}`.slice(0, 40);
-const appParams = new URLSearchParams({ ...(GYMBILE.appStoreProviderToken && { pt: GYMBILE.appStoreProviderToken }), ct, mt: '8' });
-const appHref = `${GYMBILE.appStore}?${appParams}`;
+const B = import.meta.env.BASE_URL;
+const L = lang === 'ua' ? `${B}ua/` : B;
+const pageHref = `${L}gymbile/`;
 ---
 <section class={`gym gym-${placement}`} aria-labelledby={`gym-${placement}-title`}>
   <div class={short ? 'gym-in' : 'wrap gym-in'}>
@@ -39,34 +29,17 @@ const appHref = `${GYMBILE.appStore}?${appParams}`;
           {t.points.map((x) => <li>{x}</li>)}
         </ul>
       )}
+      <a class="gym-more" href={pageHref}>{t.more} <span aria-hidden="true">&#8594;</span></a>
     </div>
     <div class="gym-act">
-      <a class="gym-btn" href={appHref} target="_blank" rel="noopener" data-gymbile="app_store" data-placement={placement}>{short ? t.appStoreShort : t.appStoreBtn} <span aria-hidden="true">&#8599;</span></a>
-      <a class="gym-btn line" href={playHref} target="_blank" rel="noopener" data-gymbile="google_play" data-placement={placement}>{short ? t.playShort : t.playBtn} <span aria-hidden="true">&#8599;</span></a>
-      <p class="gym-note">{t.note}</p>
+      <GymbileStores lang={lang} placement={placement} page={page} layout={short ? 'row' : 'stack'} short={short} />
     </div>
   </div>
 </section>
 
-<script>
-  // One listener for every placement on the page. gtag is defined by
-  // public/cookie-consent.js; GA4 attaches page_location itself, which is
-  // what splits the clicks by page.
-  document.addEventListener('click', (e) => {
-    const a = e.target instanceof Element && e.target.closest('a[data-gymbile]');
-    if (!a || typeof window.gtag !== 'function') return;
-    window.gtag('event', 'gymbile_click', {
-      store: a.getAttribute('data-gymbile'),
-      placement: a.getAttribute('data-placement'),
-      // NOT `language` — a reserved gtag field (see public/lf-newsletter.js).
-      site_language: document.documentElement.lang || 'en',
-    });
-  });
-</script>
-
 <style>
   .gym { background: var(--paper2); border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--rule); }
-  .gym-home { margin-top: 52px; }
+  .gym-home, .gym-about { margin-top: 52px; }
   .gym-blog { margin: 8px 0 28px; }
   .gym-in { display: grid; gap: 22px; padding-top: 30px; padding-bottom: 30px; }
   .gym-k { margin: 0 0 10px; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
@@ -75,29 +48,15 @@ const appHref = `${GYMBILE.appStore}?${appParams}`;
   .gym-pts { list-style: none; margin: 16px 0 0; padding: 0; }
   .gym-pts li { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-top: 1px solid var(--line); font-size: var(--fs-small); color: var(--ink); }
   .gym-pts li::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--accent); margin-top: 0.8em; }
-  .gym-act { display: flex; flex-direction: column; gap: 10px; align-self: end; }
-  .gym-btn {
-    display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 14px 22px;
-    background: var(--ink); color: var(--bg); text-decoration: none; border-radius: 0;
-    font-family: var(--font-body); font-weight: 700; font-size: var(--fs-fine); letter-spacing: 0.12em; text-transform: uppercase; text-align: center;
-    transition: background .2s ease;
-  }
-  .gym-btn:hover { background: var(--accent); }
-  .gym-btn.line { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
-  .gym-btn.line:hover { background: var(--ink); color: var(--bg); }
-  .gym-note { margin: 2px 0 0; font-size: var(--fs-fine); color: var(--muted); text-align: center; }
-  @media (prefers-reduced-motion: reduce) { .gym-btn { transition: none; } }
+  .gym-act { align-self: end; }
+  .gym-more { display: inline-block; margin-top: 16px; padding: 4px 0; font-size: var(--fs-small); font-weight: 700; color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+  .gym-more:hover { color: var(--accent-deep); }
 
   /* In an article: the column's own width, a box rather than a full band. */
   .gym-post { margin: var(--sp-section) 0 0; border-bottom: 0; }
   .gym-post .gym-in { padding: 28px 24px; }
 
   @media (min-width: 820px) {
-    .gym-home .gym-in, .gym-blog .gym-in { grid-template-columns: 1.6fr 1fr; gap: 48px; padding-top: 40px; padding-bottom: 40px; }
-  }
-  @media (min-width: 560px) {
-    .gym-post .gym-act { flex-direction: row; flex-wrap: wrap; }
-    .gym-post .gym-btn { flex: 1 1 200px; }
-    .gym-post .gym-note { flex-basis: 100%; text-align: left; }
+    .gym-home .gym-in, .gym-blog .gym-in, .gym-about .gym-in { grid-template-columns: 1.6fr 1fr; gap: 48px; padding-top: 40px; padding-bottom: 40px; }
   }
 </style>

@@ -1,0 +1,16 @@
+---
+// The Gymbile app page — linked as "App" from the header and footer.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GymbileBody from '../components/GymbileBody.astro';
+import { GYMBILE } from '../data/site.js';
+const t = GYMBILE.en.page;
+---
+<BaseLayout
+  lang="en"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/gymbile/"
+  alternates={{ en: "/gymbile/", ua: "/ua/gymbile/" }}
+>
+  <GymbileBody lang="en" />
+</BaseLayout>

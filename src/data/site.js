@@ -8,8 +8,8 @@
 export const DEFAULT_SHARE_IMAGE = '/images/lena-filatova-womens-health-coach-over-40.jpg';
 
 export const NAV = {
-  en: { blog: 'Blog', resources: 'Resources', recipes: 'Recipes', about: 'About', contact: 'Contact', subscribe: 'Subscribe' },
-  ua: { blog: 'Блог', resources: 'Ресурси', recipes: 'Рецепти', about: 'Про мене', contact: 'Контакти', subscribe: 'Підписатися' },
+  en: { blog: 'Blog', resources: 'Resources', recipes: 'Recipes', about: 'About', app: 'App', contact: 'Contact', subscribe: 'Subscribe' },
+  ua: { blog: 'Блог', resources: 'Ресурси', recipes: 'Рецепти', about: 'Про мене', app: 'Застосунок', contact: 'Контакти', subscribe: 'Підписатися' },
 };
 
 export const FOOTER = {
@@ -258,6 +258,27 @@ export const GYMBILE = {
     // Shorter labels for the narrow article column.
     appStoreShort: 'App Store', playShort: 'Google Play',
     note: 'Free to download and start using, on iPhone and Android.',
+    more: 'More about the app',
+    // The /gymbile/ page (linked as "App" from the header and footer).
+    page: {
+      seoTitle: 'Gymbile — the habit and fitness app I co-founded | Lena Filatova',
+      seoDesc: 'Gymbile helps you work out on your own, track your progress and stay consistent — and matches you with the right trainer or nutritionist. Free on iPhone and Android.',
+      kicker: 'The app I co-founded',
+      h1: 'Build healthy habits that last.',
+      lead: 'Gymbile is the app I co-founded to help you keep going once the motivation wears off: work out on your own, see your progress add up, and get matched with the trainer or nutritionist who suits your goals.',
+      featuresLabel: 'What you can do with it',
+      features: [
+        { h: 'Train on your own', p: 'Work out at your own pace, whenever it fits your day. No class times, no waiting for someone else.' },
+        { h: 'See your progress', p: 'Track what you’ve done week by week, so you can see the habit forming instead of guessing.' },
+        { h: 'Find the right expert', p: 'When you want support, Gymbile matches you with the trainer or nutritionist best suited to your goals.' },
+      ],
+      whyLabel: 'Why I co-founded it',
+      why: [
+        'After more than twenty years with type 1 diabetes, and years of supporting women through perimenopause, I’ve learned that knowing what helps is rarely the hard part. Keeping it going is.',
+        'Gymbile is the tool I wanted for that: one place to do the work, see that it’s adding up, and bring the right professional in when you need one.',
+      ],
+      endTitle: 'Start today. It’s free.',
+    },
   },
   ua: {
     playHl: 'uk',
@@ -275,6 +296,26 @@ export const GYMBILE = {
     playBtn: 'Завантажити з Google Play',
     appStoreShort: 'App Store', playShort: 'Google Play',
     note: 'Безкоштовно завантажити й почати користуватися — на iPhone та Android.',
+    more: 'Більше про застосунок',
+    page: {
+      seoTitle: 'Gymbile — застосунок для звичок і фітнесу, який я співзаснувала | Лена Філатова',
+      seoDesc: 'Gymbile допомагає тренуватися самостійно, відстежувати прогрес і не збиватися з ритму, а також підбирає тренера чи нутриціолога під ваші цілі. Безкоштовно на iPhone та Android.',
+      kicker: 'Застосунок, який я співзаснувала',
+      h1: 'Здорові звички, які залишаються з вами.',
+      lead: 'Gymbile — застосунок, який я співзаснувала, щоб допомогти вам не зупинятися, коли мотивація згасає: тренуйтеся самостійно, бачте, як накопичується прогрес, і знайдіть тренера чи нутриціолога, який підходить саме під ваші цілі.',
+      featuresLabel: 'Що він уміє',
+      features: [
+        { h: 'Тренуйтеся самостійно', p: 'У власному темпі, коли це зручно саме вам. Без розкладу занять і без очікування на інших.' },
+        { h: 'Бачте свій прогрес', p: 'Відстежуйте, що ви зробили тиждень за тижнем, — і бачте, як формується звичка, а не гадайте.' },
+        { h: 'Знайдіть свого фахівця', p: 'Коли знадобиться підтримка, Gymbile підбере тренера чи нутриціолога, який найкраще підходить під ваші цілі.' },
+      ],
+      whyLabel: 'Чому я його співзаснувала',
+      why: [
+        'Понад двадцять років я живу з діабетом 1 типу і багато років підтримую жінок у період перименопаузи. За цей час я зрозуміла: знати, що допомагає, — рідко найважче. Найважче — не кидати.',
+        'Gymbile — інструмент, якого мені для цього бракувало: одне місце, щоб робити свою справу, бачити, що вона дає результат, і залучати потрібного фахівця, коли він вам потрібен.',
+      ],
+      endTitle: 'Почніть сьогодні. Це безкоштовно.',
+    },
   },
 };
 
