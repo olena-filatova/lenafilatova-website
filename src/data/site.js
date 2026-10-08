@@ -257,7 +257,7 @@ export const GYMBILE = {
     playBtn: 'Get it on Google Play',
     // Shorter labels for the narrow article column.
     appStoreShort: 'App Store', playShort: 'Google Play',
-    note: 'Available on iPhone and Android.',
+    note: 'Free to download and start using, on iPhone and Android.',
   },
   ua: {
     playHl: 'uk',
@@ -274,7 +274,7 @@ export const GYMBILE = {
     appStoreBtn: 'Завантажити в App Store',
     playBtn: 'Завантажити з Google Play',
     appStoreShort: 'App Store', playShort: 'Google Play',
-    note: 'Доступно для iPhone та Android.',
+    note: 'Безкоштовно завантажити й почати користуватися — на iPhone та Android.',
   },
 };
 
