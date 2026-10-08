@@ -259,6 +259,9 @@ export const GYMBILE = {
     appStoreShort: 'App Store', playShort: 'Google Play',
     note: 'Free to download and start using, on iPhone and Android.',
     more: 'More about the app',
+    // The one-liner inside fitness, weight-loss and GLP-1 articles.
+    inline: 'Want help turning this into a habit? Try Gymbile, the free app I co-founded.',
+    inlineLink: 'See the app',
     // The /gymbile/ page (linked as "App" from the header and footer).
     page: {
       seoTitle: 'Gymbile — the habit and fitness app I co-founded | Lena Filatova',
@@ -297,6 +300,8 @@ export const GYMBILE = {
     appStoreShort: 'App Store', playShort: 'Google Play',
     note: 'Безкоштовно завантажити й почати користуватися — на iPhone та Android.',
     more: 'Більше про застосунок',
+    inline: 'Хочете, щоб це стало звичкою? Спробуйте Gymbile — безкоштовний застосунок, який я співзаснувала.',
+    inlineLink: 'Детальніше',
     page: {
       seoTitle: 'Gymbile — застосунок для звичок і фітнесу, який я співзаснувала | Лена Філатова',
       seoDesc: 'Gymbile допомагає тренуватися самостійно, відстежувати прогрес і не збиватися з ритму, а також підбирає тренера чи нутриціолога під ваші цілі. Безкоштовно на iPhone та Android.',

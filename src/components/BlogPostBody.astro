@@ -12,6 +12,7 @@ import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
 import ShareRow from './ShareRow.astro';
 import Newsletter from './Newsletter.astro';
 import GymbilePromo from './GymbilePromo.astro';
+import GymbileInline from './GymbileInline.astro';
 import { BLOG_RAIL, RESOURCES } from '../data/site.js';
 import '../styles/blog.css';
 
@@ -59,6 +60,39 @@ const bio = (a.blocks || []).some((b) => b.t === 'bio') ? null : AUTHOR_BIO[lang
 // is keyed by block index, so the h2 below and the link above carry the same
 // anchor. Short posts get ids but no list — see TOC_MIN in blog-lib.
 const toc = articleToc(a, t);
+// The Gymbile one-liner (GymbileInline) on fitness, weight-loss and GLP-1
+// posts, meant for the second or third screen on a phone. Placed by reading
+// length from the top of the body — GYM_DEPTH characters, a little over half a phone
+// screen of text below the title block — or 30% of the article if that comes
+// sooner, on a short post. A percentage alone put it on the 4th to 8th screen
+// of the long posts. Lengths are weighted so a figure or table counts as the
+// height it takes; the sources and link cards at the end don't count. It never
+// sits straight under a heading, and if a new section starts within the next
+// two blocks it goes just before that heading instead, so it lands between
+// sections rather than mid-argument. -1 = none.
+const GYM_CATS = ['fitness', 'weight', 'glp1'];
+const GYM_DEPTH = 600;
+const gymAt = (() => {
+  const blocks = a.blocks || [];
+  if (!post.cats?.some((c) => GYM_CATS.includes(c)) || blocks.length < 6) return -1;
+  const weight = (b) =>
+    b.t === 'p' || b.t === 'quote' ? (b.text || '').length
+    : b.t === 'h' ? 60
+    : ['img', 'graph', 'table', 'embed'].includes(b.t) ? 500
+    : 0;
+  const w = blocks.map(weight);
+  const total = w.reduce((x, y) => x + y, 0);
+  let acc = 0;
+  for (let i = 0; i < blocks.length; i++) {
+    acc += w[i];
+    if (acc < Math.min(total * 0.3, GYM_DEPTH)) continue;
+    for (let j = i + 1; j <= i + 2 && j < blocks.length; j++) if (blocks[j].t === 'h') return j - 1;
+    return blocks[i].t === 'h' ? i + 1 : i;
+  }
+  return -1;
+})();
+// Index pairs, so the inserted line doesn't shift toc.ids (keyed by block index).
+const blockList = (a.blocks || []).flatMap((b, i) => (i === gymAt ? [[b, i], [{ t: 'gym' }, -1]] : [[b, i]]));
 // Share row (OPS-359). The path is the article's own canonical spelling, and
 // the image is only passed when a hero has actually been supplied — see
 // share-lib.js, where a missing image simply drops the Pinterest button
@@ -211,7 +245,8 @@ const railGuides = (BLOG_RAIL.guides || []).flatMap((x) => {
     </div>
   )}
   <div class="prose">
-    {(a.blocks || []).map((b, i) => {
+    {blockList.map(([b, i]) => {
+      if (b.t === 'gym') return <GymbileInline lang={lang} />;
       if (b.t === 'p') return <p set:html={renderInline(b.text, B)} />;
       if (b.t === 'h') return <h2 id={toc.ids.get(i)}>{b.text}</h2>;
       if (b.t === 'quote') return <blockquote>{b.text}</blockquote>;
