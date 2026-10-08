@@ -11,6 +11,7 @@ import DIMS from '../data/image-dims.json';
 import { tagsOfPost, tagPath, UI as TAG_UI } from '../data/tags-lib.js';
 import ShareRow from './ShareRow.astro';
 import Newsletter from './Newsletter.astro';
+import GymbilePromo from './GymbilePromo.astro';
 import { BLOG_RAIL, RESOURCES } from '../data/site.js';
 import '../styles/blog.css';
 
@@ -307,6 +308,10 @@ const railGuides = (BLOG_RAIL.guides || []).flatMap((x) => {
       has finished, and this is the point at which passing it on is a
       natural next move rather than an interruption of the argument. */}
   <ShareRow lang={lang} path={sharePath} title={a.title} kind="post" image={shareImage} />
+  {/* Gymbile, after the share row: the article's own ask (the CTA above)
+      keeps its place, and this is the next step for a reader who has
+      finished. `page` tags downloads with the post they came from. */}
+  <GymbilePromo lang={lang} placement="post" page={post.slug} />
 </article>
 {related.length > 0 && (
   <aside class="related" aria-label={t.relatedTitle}>

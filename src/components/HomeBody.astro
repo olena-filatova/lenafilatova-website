@@ -21,6 +21,7 @@ import { hasHero } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
 import Picture from './Picture.astro';
 import Newsletter from './Newsletter.astro';
+import GymbilePromo from './GymbilePromo.astro';
 
 const { lang = 'en' } = Astro.props;
 const t = HOME[lang];
@@ -279,6 +280,10 @@ const toolHref = (card) => {
     </div>
   </section>
 </div>
+
+<!-- GYMBILE — the app Lena co-founded; for readers who want the habits to
+     last. Copy, links and download tracking: GYMBILE in site.js. -->
+<GymbilePromo lang={lang} placement="home" />
 
 <!-- NEWSLETTER — shared component (markup, language tagging, anti-spam and
      submit handling live there). It now offers the workbook: copy comes from
