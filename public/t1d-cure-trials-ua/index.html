@@ -502,6 +502,14 @@ body {
   font-family: var(--font-body); font-size: 0.68rem; font-weight: 800;
   letter-spacing: 0.05em; white-space: nowrap;
 }
+/* On a phone the longest chip and badge labels (the Ukrainian approach names
+   above all) are wider than the screen, and with `nowrap` they pushed the whole
+   page sideways from 440px down. Let them wrap there; `min-width: 0` lets the
+   chip group shrink inside its flex row instead of overflowing it. */
+@media (max-width: 600px) {
+  .chips { min-width: 0; max-width: 100%; }
+  .chip, .badge { white-space: normal; max-width: 100%; text-align: left; }
+}
 
 /* One ground, eight inks — see the --a-* block above. */
 .b-approach { background: var(--paper2); color: var(--a-other); }

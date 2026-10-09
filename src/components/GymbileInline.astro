@@ -1,0 +1,26 @@
+---
+// One-line Gymbile mention set into the body of fitness, weight-loss and
+// GLP-1 articles, about a third of the way down (BlogPostBody picks the spot),
+// so a reader meets it while the article is still talking about the habit
+// rather than only in the box at the end. Links to the /gymbile/ page; the
+// click is counted by the gymbile_click listener in GymbileStores, which the
+// end-of-post box always puts on the same page.
+import { GYMBILE } from '../data/site.js';
+
+const { lang = 'en' } = Astro.props;
+const t = GYMBILE[lang];
+const B = import.meta.env.BASE_URL;
+const L = lang === 'ua' ? `${B}ua/` : B;
+---
+<aside class="gym-line" aria-label="Gymbile">
+  <p>{t.inline} <a href={`${L}gymbile/`} data-gymbile="page" data-placement="post-inline">{t.inlineLink}&nbsp;<span aria-hidden="true">&#8594;</span></a></p>
+</aside>
+
+<style>
+  .gym-line {
+    margin: 4px 0 30px; padding: 14px 18px;
+    background: var(--paper2); border-left: 2px solid var(--accent);
+  }
+  .gym-line p { margin: 0; font-size: var(--fs-small); line-height: 1.55; color: var(--ink); }
+  .gym-line a { white-space: nowrap; }
+</style>
