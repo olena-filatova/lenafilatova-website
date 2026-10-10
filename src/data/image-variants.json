@@ -855,6 +855,24 @@
       ]
     ]
   },
+  "/images/hrt-timing-heart-swan-study.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-timing-heart-swan-study-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-timing-heart-swan-study-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-timing-heart-swan-study-1200.avif"
+      ]
+    ]
+  },
   "/images/hrt-timing-perimenopause-start.jpg": {
     "w": 1200,
     "h": 675,
