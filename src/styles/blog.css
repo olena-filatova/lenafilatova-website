@@ -608,8 +608,11 @@
 
 /* The post summary (OPS-504) — the excerpt, at the top of the rail above the
    contents and, below 1320px, in the flow between the standfirst and the
-   contents. Set small and quiet: it is a signpost, not a second standfirst,
-   and it sits a few centimetres from the real one on a phone. The heavy rule
+   contents. Quiet, not small: it was set at --fs-fine, which made the summary
+   of the article smaller than the article, and a summary that outranks nothing
+   reads as a footnote. It takes --fs-sub now (OPS-537) and stays subordinate on
+   colour and weight instead — --muted against the column's --body, and three
+   steps below the standfirst it sits next to on a phone. The heavy rule
    above opens the block the way the contents list used to; the light rule
    below closes it, and is what separates it from the first paragraph on the
    posts that have no contents list to follow it. */
@@ -626,7 +629,7 @@
 }
 .ps-text {
   margin: 0;
-  font-family: var(--font-body); font-size: var(--fs-fine); line-height: 1.6;
+  font-family: var(--font-body); font-size: var(--fs-sub); line-height: 1.6;
   color: var(--muted);
 }
 /* Two heavy rules back to back would read as a box around the summary. The

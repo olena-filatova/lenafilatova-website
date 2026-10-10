@@ -310,30 +310,30 @@ const toolHref = (card) => {
   .ed :is(h1, h2, h3, h4) { font-family: var(--font-head); color: var(--ink); font-weight: 400; letter-spacing: -0.01em; margin: 0; }
   .ed p { color: var(--muted); }
 
-  .ed-label { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
+  .ed-label { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
   .ed-label.dim { color: var(--muted); }
 
   .ed-btn {
     display: inline-flex; align-items: center; justify-content: center; gap: 9px;
     min-height: 54px; width: 100%; padding: 15px 26px; border: 0; border-radius: 0;
-    font-family: var(--font-body); font-weight: 700; font-size: 15px;
+    font-family: var(--font-body); font-weight: 700; font-size: var(--fs-small);
     background: var(--ink); color: var(--bg); cursor: pointer;
     transition: background 0.2s ease;
   }
   .ed-btn.mag { background: var(--accent); color: #fff; }
   .ed-btn.line { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
-  .ed-btn .ar { font-family: var(--font-head); font-size: 18px; line-height: 1; }
+  .ed-btn .ar { font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1; }
 
   /* OPS-293: hero type dialled down a step (and its vertical rhythm tightened)
      so the block is more compact and the portrait sits higher. */
   .ed-hero { padding: 20px 0 0; }
   .ed-est { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; }
   .ed-rule { height: 1px; background: var(--rule); flex: 1; }
-  .ed-hero h1 { font-size: 30px; line-height: 1.06; letter-spacing: -0.028em; }
-  .ed-hero h1 .it { font-style: italic; color: var(--accent); font-weight: 300; }
-  .ed-lead { font-family: var(--font-head); font-size: 16.5px; line-height: 1.5; font-weight: 300; margin: 16px 0 0; }
+  .ed-hero h1 { font-size: var(--fs-hero); line-height: 1.06; letter-spacing: -0.028em; }
+  .ed-hero h1 .it { font-style: italic; color: var(--accent); }
+  .ed-lead { font-family: var(--font-head); font-size: var(--fs-sub); line-height: 1.5; margin: 16px 0 0; }
   .ed-cta { display: flex; flex-direction: column; gap: 10px; margin: 20px 0 12px; }
-  .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.45; opacity: 0.8; margin: 0 0 18px; }
+  .ed-disclaimer { display: flex; gap: 8px; align-items: flex-start; font-size: var(--fs-fine); line-height: 1.45; opacity: 0.8; margin: 0 0 18px; }
   .ed-disclaimer::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--accent); margin-top: 9px; }
 
   .ed-portrait { --peek: 14px; }
@@ -350,7 +350,7 @@ const toolHref = (card) => {
   .ed-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
   .ed-blk { position: absolute; z-index: 1; left: -10px; right: 34%; bottom: calc(var(--peek) * -1); height: 46%; background: var(--accent); }
   /* the block's overhang drives the caption offset, so they cannot collide */
-  .ed-cap { position: relative; z-index: 3; background: var(--bg); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--accent); font-family: var(--font-head); font-style: italic; font-size: 15px; }
+  .ed-cap { position: relative; z-index: 3; background: var(--bg); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--accent); font-family: var(--font-head); font-style: italic; font-size: var(--fs-small); }
 
   /* OPS-503: most-read band. Deliberately a list and not the blog hub's
      article card: three of the six rows are tools and hub pages that have no
@@ -360,12 +360,12 @@ const toolHref = (card) => {
      homepage's own idiom rather than a new one. */
   .ed-read { padding: 26px 0 0; }
   .ed-read-head { border-top: 1.5px solid var(--ink); padding-top: 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
-  .ed-read-note { margin: 0; font-size: 13px; color: var(--muted); }
+  .ed-read-note { margin: 0; font-size: var(--fs-fine); color: var(--muted); }
   .ed-read-list { list-style: none; margin: 4px 0 0; padding: 0; }
   .ed-read-list li { border-bottom: 1px solid var(--line); }
   .ed-read-list a { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 14px; padding: 14px 0; color: var(--ink); }
-  .ed-read-list .k { grid-column: 1; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
-  .ed-read-list .ttl { grid-column: 1; font-family: var(--font-head); font-size: 17px; line-height: 1.22; letter-spacing: -0.015em; }
+  .ed-read-list .k { grid-column: 1; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
+  .ed-read-list .ttl { grid-column: 1; font-family: var(--font-head); font-size: var(--fs-sub); line-height: 1.22; letter-spacing: -0.015em; }
   .ed-read-list .ar { grid-column: 2; grid-row: 1 / span 2; color: var(--accent); transition: transform .2s ease; }
   @media (prefers-reduced-motion: reduce) { .ed-read-list .ar { transition: none; } }
 
@@ -375,8 +375,8 @@ const toolHref = (card) => {
   .ed-stat:nth-child(odd) { border-right: 1px solid var(--line); }
   .ed-stat:nth-child(even) { padding-left: 16px; }
   .ed-stat:nth-child(n + 3) { border-bottom: 0; }
-  .ed-stat .n { font-family: var(--font-head); font-size: 24px; line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
-  .ed-stat .l { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+  .ed-stat .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
+  .ed-stat .l { font-size: var(--fs-fine); line-height: 1.4; color: var(--muted); }
   /* A `1fr` track still cannot go below its content's longest word, so two
      columns have a hard floor of 357px — set by the Ukrainian band, whose
      figures are words ("Рекомендують", "Засновниця") rather than numbers.
@@ -394,7 +394,7 @@ const toolHref = (card) => {
 
   .ed-sec { padding: 52px 0 0; }
   .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 22px; }
-  .ed-num { font-family: var(--font-head); font-size: 13px; color: var(--accent); font-weight: 500; }
+  .ed-num { font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); font-weight: 500; }
   /* Sections 01/02/03/05 carry this on an <h2> — they are the section's only
      title, and as <span>s the page ran H1 → H3 with no H2 at all (OPS-146).
      Section 04 keeps a <span>, because it has a real <h2> right below it, so
@@ -412,7 +412,7 @@ const toolHref = (card) => {
      also moves up to the --fs-label-head step (16px): these are real <h2>s,
      not kickers, and Lena has approved the change. */
   .ed-head .ed-name { font-family: var(--font-body); font-size: var(--fs-label-head); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); margin: 0; line-height: 1.2; }
-  .ed-more { margin-left: auto; font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+  .ed-more { margin-left: auto; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
   /* OPS-306 — the invisible 24px hit strip .site-nav a uses (see the note in
      global.css). These caps links draw an 18–21px box, under the 24x24 WCAG
      2.5.8 floor; the strip is absolutely positioned, so it costs no layout
@@ -422,9 +422,9 @@ const toolHref = (card) => {
     content: ''; position: absolute; left: 0; right: 0;
     top: 50%; transform: translateY(-50%); height: 24px;
   }
-  .ed-readmore { font-family: var(--font-body); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
+  .ed-readmore { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
-  .ed-free { display: inline-block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent); padding: 6px 12px; margin-bottom: 16px; }
+  .ed-free { display: inline-block; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent); padding: 6px 12px; margin-bottom: 16px; }
   .ed-tools { border-top: 1px solid var(--rule); }
   .ed-tool { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--line); align-items: flex-start; transition: padding-left 0.22s ease; }
   /* OPS-357: the list's closing hairline sat 52px above the next section's
@@ -432,36 +432,36 @@ const toolHref = (card) => {
      reads as a mistake rather than a rhythm. The row keeps its 22px of
      bottom padding, so nothing collides; only the stray rule goes. */
   .ed-tools > :last-child, .ed-rows > :last-child { border-bottom: 0; }
-  .ed-tool .idx { font-family: var(--font-head); font-size: 14px; color: var(--accent); padding-top: 4px; flex: none; width: 24px; }
+  .ed-tool .idx { font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); padding-top: 4px; flex: none; width: 24px; }
   .ed-tool .body { display: block; }
   /* No opacity here — --muted at 0.75 measured 4.21:1 on 10px text, under the
      4.5:1 AA floor. Full --muted is 7.9:1, and these labels are small enough
      that the weight and letter-spacing already hold them back. */
-  .ed-tool .tag { display: block; font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
-  .ed-tool h3 { font-size: 22px; line-height: 1.15; margin-bottom: 6px; }
-  .ed-tool p { margin: 0 0 10px; font-size: 14.5px; }
-  .ed-tool .go { font-family: var(--font-body); font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }
+  .ed-tool .tag { display: block; font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
+  .ed-tool h3 { font-size: var(--fs-h3); line-height: 1.15; margin-bottom: 6px; }
+  .ed-tool p { margin: 0 0 10px; font-size: var(--fs-small); }
+  .ed-tool .go { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }
 
   .ed-feat { display: block; }
   .ed-feat .ph { aspect-ratio: 4 / 3; background: var(--paper2); overflow: hidden; }
   .ed-feat .ph img { width: 100%; height: 100%; object-fit: cover; }
   .ed-feat .body { padding: 22px 0 0; }
-  .ed-feat .cat { font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
-  .ed-feat h3 { font-size: 28px; line-height: 1.1; margin: 10px 0 12px; letter-spacing: -0.02em; }
-  .ed-feat p { font-family: var(--font-head); font-size: 17px; font-weight: 300; line-height: 1.5; margin: 0 0 14px; }
-  .ed-feat .meta { font-family: var(--font-body); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; margin-bottom: 16px; }
+  .ed-feat .cat { font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
+  .ed-feat h3 { font-size: var(--fs-feature); line-height: 1.1; margin: 10px 0 12px; letter-spacing: -0.02em; }
+  .ed-feat p { font-family: var(--font-head); font-size: var(--fs-sub); line-height: 1.5; margin: 0 0 14px; }
+  .ed-feat .meta { font-family: var(--font-body); font-size: var(--fs-label); letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; margin-bottom: 16px; }
 
   .ed-rec { display: block; position: relative; }
   .ed-rec .ph { position: relative; z-index: 2; aspect-ratio: 1 / 1; overflow: hidden; background: var(--paper2); }
   .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; }
   .ed-rec .gi { position: absolute; right: 0; top: -10px; z-index: 3; background: var(--ink); color: var(--bg); padding: 14px 16px; text-align: center; }
-  .ed-rec .gi b { display: block; font-family: var(--font-head); font-size: 26px; line-height: 1; }
-  .ed-rec .gi span { font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
+  .ed-rec .gi b { display: block; font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; }
+  .ed-rec .gi span { font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
   .ed-rec .body { padding: 20px 0 0; }
-  .ed-rec h3 { font-size: 26px; line-height: 1.12; margin: 8px 0 10px; }
-  .ed-rec p { margin: 0 0 14px; font-size: 15.5px; }
-  .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); font-family: var(--font-head); font-style: italic; font-size: 16.5px; color: var(--ink); }
-  .ed-docline span { display: block; margin-top: 7px; font-family: var(--font-body); font-style: normal; font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+  .ed-rec h3 { font-size: var(--fs-feature); line-height: 1.12; margin: 8px 0 10px; }
+  .ed-rec p { margin: 0 0 14px; font-size: var(--fs-small); }
+  .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); font-family: var(--font-head); font-style: italic; font-size: var(--fs-sub); color: var(--ink); }
+  .ed-docline span { display: block; margin-top: 7px; font-family: var(--font-body); font-style: normal; font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
 
   .ed-voices { margin-top: 56px; padding: 44px 0 40px; background: var(--ink); color: #E6D9E2; position: relative; overflow: hidden; }
   .ed-voices::before { content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%); }
@@ -469,21 +469,21 @@ const toolHref = (card) => {
   .ed-voices .ed-head { border-top-color: rgba(255, 255, 255, 0.5); }
   .ed-voices .ed-num { color: #EFA9C5; }
   .ed-voices .ed-name { color: #fff; }
-  .ed-voices h2 { color: #fff; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 10px; }
+  .ed-voices h2 { color: #fff; font-size: var(--fs-feature); line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 10px; }
   /* Scoped to .ed-voices, not bare .ed-intro: `.ed p` above is (0,1,1) and was
      beating a lone (0,1,0) class, so this paragraph was rendering in --muted on
      the dark band — 1.89:1. With the selector qualified it gets the light tone
      it was always meant to have (8.7:1). Caught by the OPS-270 contrast pass. */
-  .ed-voices .ed-intro { font-family: var(--font-head); font-size: 16px; font-weight: 300; color: #C9B2C2; margin: 0 0 30px; }
+  .ed-voices .ed-intro { font-family: var(--font-head); font-size: var(--fs-sub); color: #C9B2C2; margin: 0 0 30px; }
   .ed-q { margin: 0; padding: 26px 0; border-top: 1px solid rgba(255, 255, 255, 0.16); }
   .ed-q:first-of-type { border-top: 0; padding-top: 0; }
-  .ed-q p { font-family: var(--font-head); font-weight: 300; font-style: italic; font-size: 20px; line-height: 1.42; color: #F4E9F0; margin: 0 0 14px; letter-spacing: -0.01em; }
+  .ed-q p { font-family: var(--font-head); font-style: italic; font-size: var(--fs-quote); line-height: 1.42; color: #F4E9F0; margin: 0 0 14px; letter-spacing: -0.01em; }
   .ed-q .hl { font-style: normal; font-weight: 500; color: #fff; box-shadow: inset 0 -0.45em 0 rgba(178, 58, 99, 0.55); }
-  .ed-q cite { font-style: normal; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #B79EB0; }
+  .ed-q cite { font-style: normal; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #B79EB0; }
   .ed-clin { margin-top: 30px; padding: 22px; border: 1px solid rgba(255, 255, 255, 0.22); }
-  .ed-clin .k { display: block; margin-bottom: 12px; font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: #E0A9C0; }
-  .ed-clin .cq { font-family: var(--font-head); font-style: italic; font-size: 19px; line-height: 1.35; color: #fff; margin: 0; }
-  .ed-clin .cw { margin: 10px 0 0; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #B79EB0; }
+  .ed-clin .k { display: block; margin-bottom: 12px; font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: #E0A9C0; }
+  .ed-clin .cq { font-family: var(--font-head); font-style: italic; font-size: var(--fs-lede); line-height: 1.35; color: #fff; margin: 0; }
+  .ed-clin .cw { margin: 10px 0 0; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #B79EB0; }
 
   .ed-rows { border-top: 1px solid var(--rule); }
   .ed-row { display: flex; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--line); }
@@ -493,36 +493,33 @@ const toolHref = (card) => {
     /* Roman since OPS-307 — see `numerals` above. Tracking goes back to normal:
      -0.03em was drawn for zero-padded arabic and pulls the strokes of "iii"
      into each other. */
-  .ed-row .n { font-family: var(--font-head); font-size: 30px; line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; }
-  .ed-row h3 { font-size: 20px; margin-bottom: 5px; }
-  .ed-row p { margin: 0; font-size: 14.5px; }
+  .ed-row .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; }
+  .ed-row h3 { font-size: var(--fs-h3); margin-bottom: 5px; }
+  .ed-row p { margin: 0; font-size: var(--fs-small); }
 
   .ed-wait { padding: 30px 0; background: var(--paper2); border-top: 1px solid var(--rule); }
-  .ed-wait h4 { font-size: 20px; margin-bottom: 6px; }
-  .ed-wait p { margin: 0 0 12px; font-size: 15px; }
-  .ed-wait a { font-family: var(--font-body); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
+  .ed-wait h4 { font-size: var(--fs-h3); margin-bottom: 6px; }
+  .ed-wait p { margin: 0 0 12px; font-size: var(--fs-small); }
+  .ed-wait a { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
   @media (min-width: 720px) {
     .ed-btn { width: auto; }
     .ed-hero { padding-top: 32px; }
     .ed-hero-lay { display: grid; grid-template-columns: 1.45fr 0.8fr; gap: 44px; align-items: center; }
-    .ed-hero h1 { font-size: 44px; }
-    .ed-lead { font-size: 17px; max-width: 46ch; }
+    .ed-lead { max-width: 46ch; }
     .ed-cta { flex-direction: row; gap: 12px; }
     .ed-portrait { max-width: 280px; margin-left: auto; --peek: 16px; }
     .ed-shot { max-width: none; }
     .ed-frame { aspect-ratio: 1 / 1.12; }
     .ed-blk { right: 40%; height: 38%; }
-    .ed-cap { font-size: 13.5px; }
+    .ed-cap { font-size: var(--fs-fine); }
     .ed-read { padding-top: 34px; }
     .ed-read-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 44px; }
-    .ed-read-list .ttl { font-size: 18px; }
+    .ed-read-list .ttl { font-size: var(--fs-lede); }
     .ed-band-grid { grid-template-columns: repeat(4, 1fr); }
     .ed-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--line); }
     .ed-stat:first-child { padding-left: 0; }
     .ed-stat:last-child { border-right: 0; }
-    .ed-stat .n { font-size: 28px; }
-    .ed-stat .l { font-size: 13.5px; }
     .ed-tools { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
     /* Two columns, so the closing row is a pair. :nth-last-child(2) landing
        on an odd position means the final item shares its row with it — true
@@ -550,10 +547,8 @@ const toolHref = (card) => {
     .ed-rec .gi { left: 0; right: auto; }
     .ed-feat .body, .ed-rec .body { display: flex; flex-direction: column; justify-content: center; }
     .ed-voices { padding: 56px 0; }
-    .ed-voices h2 { font-size: 38px; }
     .ed-qs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
     .ed-q:nth-child(2) { border-top: 0; padding-top: 0; }
-    .ed-q p { font-size: 22px; }
     .ed-clin { display: flex; align-items: center; gap: 26px; }
     /* max-width: 90px fitted "RECOMMENDED" and nothing else, so the label
        broke onto three lines (RECOMMENDED / BY / CLINICIANS). It is a single
@@ -575,8 +570,8 @@ const toolHref = (card) => {
        filling its column at every width while the 20ch cap holds the line
        breaks unchanged. That leaves the slack to the portrait. */
     .ed-hero-lay { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 48px; align-items: end; }
-    .ed-hero h1 { font-size: clamp(56px, 5.6vw, 64px); line-height: 1.02; max-width: 20ch; }
-    .ed-lead { font-size: 18px; max-width: 50ch; }
+    .ed-hero h1 { line-height: 1.02; max-width: 20ch; }
+    .ed-lead { font-size: var(--fs-lede); max-width: 50ch; }
     .ed-portrait { max-width: 400px; }
     .ed-frame { aspect-ratio: 1 / 1.16; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
     .ed-blk { right: 38%; height: 40%; }
@@ -587,16 +582,10 @@ const toolHref = (card) => {
     .ed-tool:hover h3, .ed-feat:hover h3, .ed-rec:hover h3 { color: var(--accent); }
     .ed-read-list a:hover .ttl { color: var(--accent); }
     .ed-read-list a:hover .ar { transform: translateX(4px); }
-    .ed-tool h3 { font-size: 24px; }
     .ed-tool p { max-width: 42ch; }
-    .ed-feat h3 { font-size: 38px; }
-    .ed-feat p { font-size: 18px; }
+    .ed-feat p { font-size: var(--fs-lede); }
     .ed-feat .body, .ed-rec .body { margin-left: -90px; padding: 40px; }
-    .ed-rec h3 { font-size: 32px; }
     .ed-voices { margin-top: 80px; padding: 70px 0; }
-    .ed-voices h2 { font-size: 44px; }
-    .ed-q p { font-size: 24px; }
-    .ed-row h3 { font-size: 22px; }
     .ed-btn:hover { background: var(--accent-deep); color: #fff; }
     .ed-btn.line:hover { background: var(--ink); color: var(--bg); }
   }
