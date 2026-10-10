@@ -11,7 +11,7 @@
   letter-spacing: -0.028em; max-width: 16ch; text-wrap: balance; margin: 0;
 }
 .srch-lede {
-  font-family: var(--font-head); font-weight: 300; font-size: 18px;
+  font-family: var(--font-head); font-size: var(--fs-lede);
   line-height: 1.55; color: var(--muted); margin: 18px 0 0; max-width: 52ch;
 }
 
@@ -25,20 +25,20 @@
 .srch-ico { width: 22px; height: 22px; margin: 0 -6px 0 16px; align-self: center; color: var(--muted); flex: none; }
 .srch-field {
   flex: 1; min-width: 0; border: 0; background: transparent; border-radius: 0;
-  font-family: var(--font-body); font-size: 17px; color: var(--ink); padding: 17px 16px;
+  font-family: var(--font-body); font-size: var(--fs-sub); color: var(--ink); padding: 17px 16px;
 }
 .srch-field::placeholder { color: var(--muted); opacity: .75; }
 .srch-field:focus { outline: none; }
-.srch-form .btn { flex: none; min-height: 0; padding: 14px 26px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.srch-form .btn { flex: none; min-height: 0; padding: 14px 26px; font-size: var(--fs-fine); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
 
 .srch-try { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; margin: 16px 0 0; }
 .srch-try[hidden] { display: none; }
 .srch-try-l {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
 }
 .srch-seed {
-  font-size: 13.5px; color: var(--body); padding-bottom: 2px;
+  font-size: var(--fs-fine); color: var(--body); padding-bottom: 2px;
   border-bottom: 1px solid var(--rule); transition: color .2s ease, border-color .2s ease;
 }
 .srch-seed:hover { color: var(--accent); border-bottom-color: var(--accent); }
@@ -59,22 +59,22 @@
 .sres-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .sres-body { display: flex; flex-direction: column; gap: 7px; min-width: 0; }
 .sres-k {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent);
 }
 .sres-t {
-  font-family: var(--font-head); font-weight: 400; font-size: 21px;
+  font-family: var(--font-head); font-weight: 400; font-size: var(--fs-lead);
   line-height: 1.2; letter-spacing: -0.02em; text-wrap: balance;
   transition: color .2s ease;
 }
 .sres:hover .sres-t { color: var(--accent); }
-.sres-x { font-size: 14.5px; line-height: 1.6; color: var(--muted); }
+.sres-x { font-size: var(--fs-small); line-height: 1.6; color: var(--muted); }
 .sres:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 .srch-state { padding: 30px 0 8px; }
 .srch-state[hidden] { display: none; }
-.srch-state-h { margin: 0; font-family: var(--font-head); font-size: 22px; color: var(--ink); }
-.srch-state-p { margin: 8px 0 0; font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 56ch; }
+.srch-state-h { margin: 0; font-family: var(--font-head); font-size: var(--fs-h3); color: var(--ink); }
+.srch-state-p { margin: 8px 0 0; font-size: var(--fs-small); line-height: 1.6; color: var(--muted); max-width: 56ch; }
 
 .srch-more-wrap { padding: 28px 0 80px; }
 /* The wrapper keeps the section's bottom margin once the button hides. */
@@ -84,8 +84,8 @@
   .srch-head { padding-top: 30px; }
   .srch-form .btn { display: none; } /* Enter submits; the field needs the width */
   .sres { grid-template-columns: 84px 1fr; gap: 14px; padding: 18px 0; }
-  .sres-t { font-size: 18px; }
-  .sres-x { font-size: 13.5px; }
+  .sres-t { font-size: var(--fs-lede); }
+  .sres-x { font-size: var(--fs-fine); }
 }
 
 @media (prefers-reduced-motion: reduce) {
