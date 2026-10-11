@@ -683,7 +683,7 @@ export const RECIPES = [
   {
     slug: 'raw-chocolate-mousse', dateAdded: '2026-07-10', img: '57-raw-chocolate-mousse.jpg', cat: 'dessert', gi: 43,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
-    title: { en: 'Raw Chocolate Mousse', ua: 'Шоколадний мус' },
+    title: { en: 'Raw Chocolate Mousse', ua: 'Шоколадний мус без випікання' },
     why: { en: 'A blend-and-chill mousse of banana, avocado, dates and carob — creamy and no-bake, with fibre and healthy fats. Dates make it naturally sweet.', ua: 'Мус «збий і охолоди» з банана, авокадо, фініків і керобу — кремовий, без випікання, з клітковиною й корисними жирами. Фініки роблять його природно солодким.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 30 g · Fat 7 g · Protein 2 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 30 г · Жири 7 г · Білки 2 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '30 min freezing', ua: '30 хв заморозки' }, serves: { en: 'Serves 3', ua: '3 порції' } },
