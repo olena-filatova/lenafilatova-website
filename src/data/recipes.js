@@ -706,7 +706,7 @@ export const RECIPES = [
     tags: ['vegetarian', 'gluten-free'],
     imgAlt: { en: "A hand holding a glass bottle of pale pink smoothie with a foamy top, against a white background.", ua: "Рука тримає скляну пляшку блідо-рожевого смузі з пінкою зверху на білому тлі." },
     title: { en: 'Berry Smoothie', ua: 'Ягідний смузі' },
-    why: { en: 'A quick berry-and-yoghurt smoothie with flax for protein, fibre and omega-3 — the yoghurt and flax slow the fruit sugars.', ua: 'Швидкий ягідно-йогуртовий смузі з льоном для білка, клітковини й омега-3 — йогурт і льон сповільнюють фруктовий цукор.' },
+    why: { en: 'A quick berry-and-yoghurt smoothie with flax for protein, fibre and omega-3 — the yoghurt and flax slow the fruit sugars.', ua: 'Швидкий ягідно-йогуртовий смузі з льоном для білка, клітковини й омега-3 — йогурт і льон сповільнюють засвоєння фруктового цукру.' },
     nutrition: { en: 'Per serving (est.): ~125 kcal · Carbs 12 g · Fat 4 g · Protein 14 g', ua: 'На порцію (прибл.): ~125 ккал · Вуглеводи 12 г · Жири 4 г · Білки 14 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No cook', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['100 g berry purée','100 g yoghurt','20 g flaxseed meal'], ua: ['100 г ягідного пюре','100 г йогурту','20 г лляного шроту'] },
