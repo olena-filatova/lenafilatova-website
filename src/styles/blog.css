@@ -22,7 +22,7 @@
    file carried are gone with the gradient that needed them.
    ============================================================ */
 
-.blog-hero { padding: 44px 0 0; }
+.blog-hero { padding: var(--sp-ms) 0 0; }
 /* Label + hairline, the homepage's .ed-est masthead device. */
 .blog-hero .est { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
 .blog-hero .est-label {
@@ -54,7 +54,7 @@
    Above the filters, "All" view only. One flagged post → a full-width feature
    with the photo beside the headline; 2–3 → that feature narrowed, with the
    others as hairline rows alongside. */
-.featured { padding: 44px 0 0; }
+.featured { padding: var(--sp-ms) 0 0; }
 .hub-head { margin-bottom: 22px; }
 
 .featured-grid { display: grid; gap: 26px; }
@@ -133,7 +133,7 @@
    Three ruled columns on desktop; grid items stretch, so the per-entry
    hairline runs unbroken across a row. row-gap stays 0 for the same reason —
    a gap would cut the rule into three. */
-.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 40px; padding: 8px 0 64px; }
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 40px; padding: var(--sp-3xs) 0 var(--sp-l); }
 /* min-width: 0 on the card as well as on its .body: a `1fr` track is
    minmax(auto, 1fr), and that `auto` floor is the widest card's min-content, so
    one long word in one card widened the whole column past the screen. */
@@ -172,7 +172,7 @@
   margin: 0; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 700;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
 }
-.blog-empty { display: none; padding: 26px 0 70px; font-family: var(--font-head); font-size: var(--fs-lede); color: var(--muted); }
+.blog-empty { display: none; padding: var(--sp-xs) 0 var(--sp-l); font-family: var(--font-head); font-size: var(--fs-lede); color: var(--muted); }
 
 @media (max-width: 900px) { .blog-grid { grid-template-columns: repeat(2, 1fr); column-gap: 28px; } }
 
@@ -742,7 +742,7 @@
 .post .pt-list a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* --- the cloud --- */
-.cloud { padding: 8px 0 72px; }
+.cloud { padding: var(--sp-3xs) 0 var(--sp-l); }
 .cloud-lead {
   font-family: var(--font-head); font-weight: 300; font-size: var(--fs-lede);
   line-height: 1.5; color: var(--muted); max-width: 46ch; margin: 0 0 30px;

@@ -326,7 +326,7 @@ const toolHref = (card) => {
 
   /* OPS-293: hero type dialled down a step (and its vertical rhythm tightened)
      so the block is more compact and the portrait sits higher. */
-  .ed-hero { padding: 20px 0 0; }
+  .ed-hero { padding: var(--sp-2xs) 0 0; }
   .ed-est { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; }
   .ed-rule { height: 1px; background: var(--rule); flex: 1; }
   .ed-hero h1 { font-size: 30px; line-height: 1.06; letter-spacing: -0.028em; }
@@ -358,7 +358,7 @@ const toolHref = (card) => {
      broken. It borrows the section-01 tool list's furniture instead — hairline
      rules, uppercase kicker, serif title, arrow on hover — so it is the
      homepage's own idiom rather than a new one. */
-  .ed-read { padding: 26px 0 0; }
+  .ed-read { padding: var(--sp-xs) 0 0; }
   .ed-read-head { border-top: 1.5px solid var(--ink); padding-top: 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
   .ed-read-note { margin: 0; font-size: 13px; color: var(--muted); }
   .ed-read-list { list-style: none; margin: 4px 0 0; padding: 0; }
@@ -392,7 +392,7 @@ const toolHref = (card) => {
     .ed-stat:last-child { border-bottom: 0; }
   }
 
-  .ed-sec { padding: 52px 0 0; }
+  .ed-sec { padding: var(--sp-m) 0 0; }
   .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 22px; }
   .ed-num { font-family: var(--font-head); font-size: 13px; color: var(--accent); font-weight: 500; }
   /* Sections 01/02/03/05 carry this on an <h2> — they are the section's only
@@ -463,7 +463,7 @@ const toolHref = (card) => {
   .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); font-family: var(--font-head); font-style: italic; font-size: 16.5px; color: var(--ink); }
   .ed-docline span { display: block; margin-top: 7px; font-family: var(--font-body); font-style: normal; font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
 
-  .ed-voices { margin-top: 56px; padding: 44px 0 40px; background: var(--ink); color: #E6D9E2; position: relative; overflow: hidden; }
+  .ed-voices { margin-top: var(--sp-m); padding: var(--sp-ms) 0 var(--sp-s); background: var(--ink); color: #E6D9E2; position: relative; overflow: hidden; }
   .ed-voices::before { content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%); }
   .ed-voices .wrap { position: relative; }
   .ed-voices .ed-head { border-top-color: rgba(255, 255, 255, 0.5); }
@@ -497,14 +497,14 @@ const toolHref = (card) => {
   .ed-row h3 { font-size: 20px; margin-bottom: 5px; }
   .ed-row p { margin: 0; font-size: 14.5px; }
 
-  .ed-wait { padding: 30px 0; background: var(--paper2); border-top: 1px solid var(--rule); }
+  .ed-wait { padding: var(--sp-xs) 0; background: var(--paper2); border-top: 1px solid var(--rule); }
   .ed-wait h4 { font-size: 20px; margin-bottom: 6px; }
   .ed-wait p { margin: 0 0 12px; font-size: 15px; }
   .ed-wait a { font-family: var(--font-body); font-size: 11.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
   @media (min-width: 720px) {
     .ed-btn { width: auto; }
-    .ed-hero { padding-top: 32px; }
+    .ed-hero { padding-top: var(--sp-s); }
     .ed-hero-lay { display: grid; grid-template-columns: 1.45fr 0.8fr; gap: 44px; align-items: center; }
     .ed-hero h1 { font-size: 44px; }
     .ed-lead { font-size: 17px; max-width: 46ch; }
@@ -514,7 +514,7 @@ const toolHref = (card) => {
     .ed-frame { aspect-ratio: 1 / 1.12; }
     .ed-blk { right: 40%; height: 38%; }
     .ed-cap { font-size: 13.5px; }
-    .ed-read { padding-top: 34px; }
+    .ed-read { padding-top: var(--sp-s); }
     .ed-read-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 44px; }
     .ed-read-list .ttl { font-size: 18px; }
     .ed-band-grid { grid-template-columns: repeat(4, 1fr); }
@@ -549,7 +549,7 @@ const toolHref = (card) => {
     .ed-rec .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); position: relative; z-index: 4; }
     .ed-rec .gi { left: 0; right: auto; }
     .ed-feat .body, .ed-rec .body { display: flex; flex-direction: column; justify-content: center; }
-    .ed-voices { padding: 56px 0; }
+    .ed-voices { padding: var(--sp-m) 0; }
     .ed-voices h2 { font-size: 38px; }
     .ed-qs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
     .ed-q:nth-child(2) { border-top: 0; padding-top: 0; }
@@ -566,7 +566,7 @@ const toolHref = (card) => {
   }
 
   @media (min-width: 1000px) {
-    .ed-hero { padding: 44px 0 0; }
+    .ed-hero { padding: var(--sp-ms) 0 0; }
     /* OPS-531: the text track used to be 1.75fr while the h1 stopped at 20ch
        and the lede at 50ch, so 163-253px of the hero was empty and Lena's
        portrait — the page's strongest trust signal — was its smallest element.
@@ -580,7 +580,7 @@ const toolHref = (card) => {
     .ed-portrait { max-width: 400px; }
     .ed-frame { aspect-ratio: 1 / 1.16; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
     .ed-blk { right: 38%; height: 40%; }
-    .ed-sec { padding: 76px 0 0; }
+    .ed-sec { padding: var(--sp-l) 0 0; }
     .ed-tools, .ed-rows, .ed-qs { column-gap: 64px; }
     .ed-tool { padding: 26px 0; }
     .ed-tool:hover { padding-left: 10px; }
@@ -592,8 +592,14 @@ const toolHref = (card) => {
     .ed-feat h3 { font-size: 38px; }
     .ed-feat p { font-size: 18px; }
     .ed-feat .body, .ed-rec .body { margin-left: -90px; padding: 40px; }
+    /* The card's height is the photograph's. Cropped 1:1 it stood 573px tall
+       beside 183px of text — correctly centred, with 195px of air above and
+       below it. The source photographs are about 2:1, so a square crop was
+       also throwing half of each one away. A 3:2 card shows more of the
+       picture and leaves the text a proportionate amount of room. OPS-538. */
+    .ed-rec .ph { aspect-ratio: 3 / 2; }
     .ed-rec h3 { font-size: 32px; }
-    .ed-voices { margin-top: 80px; padding: 70px 0; }
+    .ed-voices { margin-top: var(--sp-l); padding: var(--sp-l) 0; }
     .ed-voices h2 { font-size: 44px; }
     .ed-q p { font-size: 24px; }
     .ed-row h3 { font-size: 22px; }
@@ -601,7 +607,4 @@ const toolHref = (card) => {
     .ed-btn.line:hover { background: var(--ink); color: var(--bg); }
   }
 
-  @media (min-width: 1320px) {
-    .ed-sec { padding: 88px 0 0; }
-  }
 </style>
