@@ -208,12 +208,25 @@
   /* Muted text on the ink panel (article CTA, About CTA, newsletter band).
      Was spelled #E6D9E2 in three places; the panels are the same panel. */
   --on-ink: #E6D9E2;
+  /* ONE vertical scale for the whole site (OPS-538). The reading column had
+     tokens; every other page picked its own number, so section padding ran
+     20 / 26 / 30 / 34 / 40 / 44 / 52 / 56 / 70 / 76 / 88px across four pages
+     doing the same job. These seven steps are the ladder now. The three
+     article tokens below are steps on it rather than a separate set — their
+     values are unchanged, so the reading column does not move. */
+  --sp-3xs: 8px;
+  --sp-2xs: 16px;
+  --sp-xs: 24px;
+  --sp-s: 36px;
+  --sp-ms: 44px;
+  --sp-m: 52px;
+  --sp-l: 76px;
   /* Vertical rhythm inside the reading column (OPS-358). Sibling blocks used
      to be spaced at 32 / 36 / 38 / 40 / 44 / 48 / 52px — seven values for
      three jobs. Three now: a block in the flow, a break in it, a new part. */
-  --sp-block: 36px;    /* figure, table, source list, resource cards, embed */
-  --sp-break: 44px;    /* pull quote, sign-off — air on both sides */
-  --sp-section: 52px;  /* FAQ, CTA — the article's closing furniture */
+  --sp-block: var(--sp-s);     /* 36px — figure, table, source list, cards */
+  --sp-break: var(--sp-ms);    /* 44px — pull quote, sign-off: air both sides */
+  --sp-section: var(--sp-m);   /* 52px — FAQ, CTA: the closing furniture */
   /* Sticky header sits on a translucent copy of the paper. rgba can't be
      derived from a hex custom property without color-mix(), so this is
      spelled out — keep it in step with --bg if the paper ever changes. */
@@ -543,7 +556,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    numbered section heads, values as rows. Replaces the last card layout on a
    main page (`.hero`/`.stats`/`.story`/`.values`/`.cta`, all now removed —
    blog posts define their own `.post .cta` in blog.css and were unaffected). */
-.ab-head { padding: 44px 0 34px; }
+.ab-head { padding: var(--sp-ms) 0 var(--sp-s); }
 .ab-head h1 {
   font-size: clamp(36px, 6vw, 62px); line-height: 1.02;
   letter-spacing: -0.028em; max-width: 14ch; text-wrap: balance;
@@ -606,7 +619,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .ab-row h3 { font-size: 20px; margin-bottom: 5px; }
 .ab-row p { margin: 0; font-size: 14.5px; color: var(--muted); }
 
-.ab-cta { padding: 56px 0 72px; }
+.ab-cta { padding: var(--sp-m) 0 var(--sp-l); }
 .ab-cta .box { background: var(--ink); padding: 36px 28px; display: grid; gap: 24px; }
 .ab-cta h2 { color: #fff; font-size: clamp(26px, 3.4vw, 34px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
 .ab-cta p { color: var(--on-ink); margin: 0; max-width: 46ch; }
@@ -994,10 +1007,10 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 @media (max-width: 820px) {
   .site-footer .top { grid-template-columns: 1fr; gap: 32px; }
   /* mobile: shrink the opening block so fresh content is reachable fast */
-  .ab-head { padding: 30px 0 30px; }
+  .ab-head { padding: var(--sp-xs) 0; }
   .ct-head { padding: 30px 0 48px; }
   .sh-head, .res-head, .legal-hero { padding-top: 30px; }
-  .section { padding: 40px 0; }
+  .section { padding: var(--sp-s) 0; }
   .section-head { flex-direction: column; align-items: flex-start; }
   .nl-row { flex-direction: column; }
   .newsletter .nl-box { padding: 32px 22px; }
@@ -1007,7 +1020,13 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    below this width — the portrait, the contact card and the product photos all
    sit above their text on a phone. */
 @media (min-width: 820px) {
+  /* The portrait column is ~100px taller than the text beside it. With the
+     whole row bottom-aligned, that slack landed between the kicker and the
+     h1 it labels — a 119px hole in the middle of the masthead (OPS-538).
+     The text now starts at the top with its kicker; the portrait is simply
+     the taller of the two, which is what a portrait is. */
   .ab-lay { display: grid; grid-template-columns: 1.5fr 0.7fr; gap: 48px; align-items: end; }
+  .ab-lay > :first-child { align-self: start; }
   .ab-portrait { margin: 0 0 0 auto; --peek: 16px; }
   .ab-band-grid { grid-template-columns: repeat(4, 1fr); }
   .ab-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--line); }
@@ -1015,9 +1034,14 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   .ab-stat:last-child { border-right: 0; }
   .ab-stat .n { font-size: 28px; }
   .ab-stat .l { font-size: 13.5px; }
+  /* Three values in two columns left the bottom right corner empty. */
   .ab-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 56px; }
   .ab-cta .box { grid-template-columns: 1fr auto; align-items: center; gap: 40px; padding: 48px; }
   .ab-cta .btn { justify-self: end; }
+}
+
+@media (min-width: 900px) {
+  .ab-rows { grid-template-columns: repeat(3, 1fr); column-gap: var(--sp-s); }
 }
 
 @media (min-width: 900px) {
