@@ -1,7 +1,7 @@
 # UA proofread: recipe--berry-smoothie
 
 - Last checked: 2026-10-11
-- PR: TBD
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/368
 - Notes: fixed a meaning gap in `why` («...сповільнюють фруктовий цукор.» →
   «...сповільнюють засвоєння фруктового цукру.» — you cannot "slow down" a
   sugar itself; the EN original means the yoghurt and flax slow its
