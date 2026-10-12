@@ -1,7 +1,7 @@
 # recipe--pineapple-chips
 
 - Last checked: 2026-10-12
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/TBD
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/372
 - Notes: 2 fixes.
   - `why`: "тож ласощі помірно" was an elliptical calque of "so a treat to enjoy
     in moderation" with no verb — not a grammatical Ukrainian sentence. Changed
