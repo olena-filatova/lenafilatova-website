@@ -53,7 +53,7 @@
   position: absolute; top: -7px; right: -7px;
   min-width: 18px; height: 18px; padding: 0 4px; border-radius: 0;
   background: var(--accent); color: #fff; border: 2px solid var(--bg);
-  font-family: var(--font-body); font-size: 10px; font-weight: 800; line-height: 1;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; line-height: 1;
   display: none; align-items: center; justify-content: center;
 }
 .list-badge.show { display: inline-flex; }
@@ -93,7 +93,7 @@
   letter-spacing: -0.025em; text-wrap: balance;
 }
 .rx .lede {
-  font-family: var(--font-head); font-weight: 300; font-size: 18px; line-height: 1.5;
+  font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1.5;
   color: var(--muted); max-width: 52ch;
 }
 /* Photographs sit on a well so the box does not flash white before the file
@@ -107,7 +107,7 @@
    the Share button to mark the panel open, so the two must read as off/on. */
 .rx .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  font-family: var(--font-body); font-size: 12px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-fine); font-weight: 800;
   letter-spacing: 0.12em; text-transform: uppercase;
   min-height: 46px; padding: 12px 18px;
   border: 0; border-radius: 0; box-shadow: inset 0 0 0 1.5px var(--ink);
@@ -151,9 +151,9 @@
   font-family: var(--font-head); font-weight: 400; font-size: clamp(21px, 2.6vw, 25px);
   line-height: 1.2; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 10px;
 }
-.rx-gi-note p, .rx-uk-note p { font-size: 15.5px; line-height: 1.6; color: var(--body); max-width: 62ch; }
+.rx-gi-note p, .rx-uk-note p { font-size: var(--fs-small); line-height: 1.6; color: var(--body); max-width: 62ch; }
 .rx-uk-note p + p { margin-top: 12px; }
-.rx .rx-gi-note .fine { font-size: 13.5px; color: var(--muted); }
+.rx .rx-gi-note .fine { font-size: var(--fs-fine); color: var(--muted); }
 .rx .rx-gi-note .fine a { color: var(--ink); border-bottom: 1px solid var(--accent); }
 .rx .rx-gi-note .fine a:hover { color: var(--accent); }
 
@@ -162,13 +162,13 @@
   column-gap: 34px; margin: 22px 0 16px;
 }
 .rx-gi-bands > div { border-top: 1px solid var(--line); padding-top: 12px; padding-bottom: 4px; }
-.rx-gi-bands .band-range { font-family: var(--font-head); font-size: 21px; line-height: 1; color: var(--ink); }
+.rx-gi-bands .band-range { font-family: var(--font-head); font-size: var(--fs-lead); line-height: 1; color: var(--ink); }
 .rx-gi-bands .band-name {
   display: block; margin: 7px 0 6px;
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
 }
-.rx-gi-bands .band-desc { display: block; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.rx-gi-bands .band-desc { display: block; font-size: var(--fs-fine); line-height: 1.5; color: var(--muted); }
 
 /* Meal-plan guide row (OPS-415). Deliberately quiet: one hairline and a link,
    sitting between the GI explainer and the filters. A coloured panel here would
@@ -176,7 +176,7 @@
 .rx-mp {
   display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px;
   margin: 30px 0 0; padding-top: 16px; border-top: 1px solid var(--rule);
-  font-size: 15.5px; line-height: 1.6; color: var(--body);
+  font-size: var(--fs-small); line-height: 1.6; color: var(--body);
 }
 .rx-mp > span { max-width: 62ch; }
 .rx .rx-mp a { white-space: nowrap; font-weight: 700; color: var(--ink); }
@@ -188,15 +188,15 @@
 .rx-coll-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); column-gap: 34px; }
 .rx .rx-coll-list a { display: block; padding: 13px 0; border-top: 1px solid var(--line); }
 .rx-coll-list .cn {
-  font-family: var(--font-head); font-size: 17.5px; line-height: 1.2;
+  font-family: var(--font-head); font-size: var(--fs-sub); line-height: 1.2;
   color: var(--ink); transition: color .2s ease;
 }
 .rx .rx-coll-list a:hover .cn { color: var(--accent); }
 .rx-coll-list .cc {
-  margin-left: 8px; font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  margin-left: 8px; font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.16em; color: var(--muted);
 }
-.rx-coll-list .cd { display: block; margin-top: 4px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.rx-coll-list .cd { display: block; margin-top: 4px; font-size: var(--fs-fine); line-height: 1.5; color: var(--muted); }
 
 /* Landing from a collection link scrolls here; clear the sticky 72px header. */
 .rx-filters { border-top: 1.5px solid var(--ink); margin-top: 44px; }
@@ -207,13 +207,13 @@
 }
 .rx .filter-label {
   flex: none; min-width: 74px;
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
 }
 .rx .chips { display: flex; flex-wrap: wrap; gap: 6px 20px; align-items: baseline; }
 .rx .chip {
   border: 0; background: none; border-radius: 0; padding: 2px 0 5px; cursor: pointer;
-  font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
   border-bottom: 2px solid transparent; transition: color .2s ease, border-color .2s ease;
 }
@@ -240,12 +240,12 @@
   flex-wrap: wrap; gap: 10px 20px; padding: 14px 0 6px;
 }
 .rx .count {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 700;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 700;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
 }
 .rx .count b { color: var(--ink); font-weight: 800; }
 .rx .clear {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--accent); background: none; border: 0; border-radius: 0;
   cursor: pointer; padding: 0 0 3px; border-bottom: 1px solid var(--accent);
@@ -283,31 +283,33 @@
   background: var(--ink); color: var(--bg);
   padding: 8px 11px 7px; text-align: center;
 }
-.rx .gi-plaque b { display: block; font-family: var(--font-head); font-size: 19px; line-height: 1; font-weight: 400; }
+.rx .gi-plaque b { display: block; font-family: var(--font-head); font-size: var(--fs-body); line-height: 1; font-weight: 400; }
 .rx .gi-plaque span {
+  /* Below --fs-label-s on purpose: this caps line has to fit the plaque it
+     sits in, which is sized by the GI number above it. */
   display: block; margin-top: 2px; font-family: var(--font-body); font-size: 8.5px;
   font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; opacity: .75;
 }
 .rx .rcard .body { display: flex; flex-direction: column; gap: 8px; padding: 0; }
 .rx .rcard .title {
-  font-family: var(--font-head); font-weight: 400; font-size: 20px; line-height: 1.18;
+  font-family: var(--font-head); font-weight: 400; font-size: var(--fs-card-title); line-height: 1.18;
   letter-spacing: -0.02em; color: var(--ink); text-wrap: balance; transition: color .2s ease;
 }
 .rx .rcard .cmeta {
   display: flex; flex-wrap: wrap; gap: 4px 14px;
-  font-family: var(--font-body); font-size: 10px; font-weight: 700;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 700;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
 }
 
 .rx .empty { display: none; padding: 40px 0 20px; }
 .rx .empty.show { display: block; }
-.rx .empty h3 { font-family: var(--font-head); font-weight: 400; font-size: 24px; color: var(--ink); margin-bottom: 8px; }
-.rx .empty p { color: var(--muted); font-size: 16px; }
+.rx .empty h3 { font-family: var(--font-head); font-weight: 400; font-size: var(--fs-h2); color: var(--ink); margin-bottom: 8px; }
+.rx .empty p { color: var(--muted); font-size: var(--fs-sub); }
 
 .rx .more-wrap { display: none; justify-content: center; margin-top: 34px; }
 .rx .more-wrap.show { display: flex; }
 .rx .more-btn {
-  font-family: var(--font-body); font-size: 11.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--ink); background: none; border: 0; border-radius: 0;
   border-bottom: 2px solid var(--accent); padding: 0 0 5px; cursor: pointer;
@@ -318,7 +320,7 @@
 
 .rx .foot-note {
   margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--rule);
-  font-size: 13px; line-height: 1.55; color: var(--muted); max-width: 70ch;
+  font-size: var(--fs-fine); line-height: 1.55; color: var(--muted); max-width: 70ch;
 }
 
 @media (max-width: 620px) {
@@ -332,7 +334,7 @@
 .rx-recipe { padding: 34px 0 0; }
 .rx .back {
   display: inline-block; margin-bottom: 26px;
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink);
   border-bottom: 2px solid var(--accent); padding-bottom: 4px;
   transition: color .2s ease;
@@ -341,7 +343,7 @@
 /* Kicker: category and diet tags as one wide-tracked run, not a row of pills. */
 .rx .tags {
   display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 14px;
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
 }
 .rx .tags .tag:first-child { color: var(--accent); }
@@ -353,10 +355,10 @@
    headline, set in Spectral, above the rule. */
 .rx-why { border-top: 1px solid var(--rule); padding-top: 18px; margin-bottom: 26px; }
 .rx-why .k {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
 }
-.rx-why p { font-family: var(--font-head); font-weight: 300; font-size: 19px; line-height: 1.55; color: var(--ink); max-width: 62ch; }
+.rx-why p { font-family: var(--font-head); font-size: var(--fs-body); line-height: 1.55; color: var(--ink); max-width: 62ch; }
 
 /* Hero: 3:2 rather than the old fixed clamp height, which cropped a wide plate
    shot to a strip on desktop and squashed a portrait one on a phone. */
@@ -386,13 +388,13 @@
   .rx-stats .s:last-child:nth-child(odd) { grid-column: 1 / -1; border-right: 0; }
 }
 .rx-stats .v {
-  font-family: var(--font-head); font-weight: 400; font-size: 22px; line-height: 1.1;
+  font-family: var(--font-head); font-weight: 400; font-size: var(--fs-h3); line-height: 1.1;
   color: var(--accent); letter-spacing: -0.02em;
 }
-.rx-stats .v .band { font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+.rx-stats .v .band { font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
 .rx-stats .k {
   display: block; margin-top: 7px;
-  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
 }
 /* One row from tablet up. auto-flow rather than a fixed four columns: a recipe
@@ -403,7 +405,6 @@
   .rx-stats .s { padding: 20px 20px 19px; border-top: 0; border-right: 1px solid var(--line); }
   .rx-stats .s:first-child { padding-left: 0; }
   .rx-stats .s:last-child { border-right: 0; }
-  .rx-stats .v { font-size: 25px; }
 }
 
 /* --- the two columns -------------------------------------------------------
@@ -430,7 +431,7 @@
 }
 .rx .scaler { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding: 16px 0; }
 .rx .scaler .label {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
 }
 /* Square stepper: one hairline box with a divider between the parts, the same
@@ -438,7 +439,7 @@
 .rx .stepper { display: inline-flex; align-items: stretch; border-radius: 0; box-shadow: inset 0 0 0 1px var(--rule); overflow: visible; }
 .rx .stepper button {
   width: 34px; height: 34px; border: 0; border-radius: 0; background: transparent;
-  color: var(--ink); font-family: var(--font-head); font-size: 19px; font-weight: 400;
+  color: var(--ink); font-family: var(--font-head); font-size: var(--fs-body); font-weight: 400;
   line-height: 1; cursor: pointer; transition: background .2s ease, color .2s ease;
 }
 .rx .stepper button:hover:not(:disabled) { background: var(--ink); color: var(--bg); }
@@ -447,14 +448,14 @@
 .rx .stepper .count {
   min-width: 42px; display: inline-flex; align-items: center; justify-content: center;
   box-shadow: inset 1px 0 0 var(--rule), inset -1px 0 0 var(--rule);
-  font-family: var(--font-head); font-size: 17px; color: var(--ink);
+  font-family: var(--font-head); font-size: var(--fs-sub); color: var(--ink);
   letter-spacing: normal; text-transform: none; font-weight: 400;
 }
 
 .rx ul.ingredients { list-style: none; display: block; margin-bottom: 20px; border-top: 1px solid var(--rule); }
 .rx .ingredients .ing-section {
   font-family: var(--font-body); font-weight: 800; color: var(--accent);
-  font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em;
+  font-size: var(--fs-label-s); text-transform: uppercase; letter-spacing: 0.2em;
   padding: 18px 0 6px; border-bottom: 1px solid var(--line);
 }
 .rx .check {
@@ -476,7 +477,7 @@
 }
 .rx .check input:checked + .box::after { transform: rotate(45deg) scale(1); }
 .rx .check input:focus-visible + .box { outline: 2px solid var(--accent); outline-offset: 2px; }
-.rx .ing-text { flex: 1; font-size: 15.5px; line-height: 1.5; color: var(--body); }
+.rx .ing-text { flex: 1; font-size: var(--fs-small); line-height: 1.5; color: var(--body); }
 .rx .check input:checked ~ .ing-text { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--rule); }
 
 .rx .add-row { margin-bottom: 10px; }
@@ -490,15 +491,15 @@
 }
 .rx .share-panel.open { display: block; }
 .rx .share-kicker {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px;
 }
 /* The panel's native-share + copy buttons are now a <ShareRow> (OPS-359),
    which brings its own styles; .share-two went with them. */
-.rx .share-form label.opt { display: flex; align-items: flex-start; gap: 9px; font-size: 13px; line-height: 1.45; color: var(--ink-2); margin: 12px 0; cursor: pointer; }
+.rx .share-form label.opt { display: flex; align-items: flex-start; gap: 9px; font-size: var(--fs-fine); line-height: 1.45; color: var(--ink-2); margin: 12px 0; cursor: pointer; }
 .rx .share-form input[type=email],
 .rx .cart-email input[type=email] {
-  width: 100%; font-family: var(--font-body); font-size: 15px; padding: 12px 14px;
+  width: 100%; font-family: var(--font-body); font-size: var(--fs-small); padding: 12px 14px;
   border: 1px solid var(--rule); border-radius: 0; background: var(--bg); color: var(--ink);
 }
 .rx .share-form input[type=email]:focus,
@@ -506,7 +507,7 @@
 .rx input[type=checkbox] { accent-color: var(--accent); width: 16px; height: 16px; margin-top: 2px; flex: 0 0 auto; }
 .rx .confirm {
   display: none; align-items: center; gap: 8px; margin-top: 12px; color: var(--green);
-  font-family: var(--font-body); font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
 }
 .rx .confirm.show { display: flex; }
 .rx .confirm svg { width: 16px; height: 16px; flex: none; }
@@ -514,14 +515,14 @@
 /* --- method --------------------------------------------------------------- */
 .rx-sec { margin-bottom: 44px; }
 .rx-sec > h2 { display: block; border-top: 1.5px solid var(--ink); padding-top: 10px; }
-.rx-sec .sub { color: var(--muted); font-size: 13.5px; margin-top: 10px; }
+.rx-sec .sub { color: var(--muted); font-size: var(--fs-fine); margin-top: 10px; }
 
 /* A hairline that fills with magenta — a rule, not a rounded meter. */
 .rx .progress-wrap { display: flex; align-items: center; gap: 16px; margin: 18px 0 4px; }
 .rx .bar { flex: 1; height: 2px; background: var(--line); border-radius: 0; overflow: hidden; }
 .rx .bar > i { display: block; height: 100%; width: 0; background: var(--accent); border-radius: 0; transition: width .3s; }
 .rx .progress-wrap .pct {
-  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
   min-width: 92px; text-align: right;
 }
@@ -537,7 +538,7 @@
 }
 .rx ol.steps li .num {
   counter-increment: step; flex: 0 0 auto; width: 42px; border-radius: 0; background: none;
-  font-family: var(--font-head); font-weight: 400; font-size: 28px; line-height: 1;
+  font-family: var(--font-head); font-weight: 400; font-size: var(--fs-numeral); line-height: 1;
   letter-spacing: -0.03em; color: var(--accent); opacity: .4; display: block;
 }
 .rx ol.steps li .num::before { content: counter(step, decimal-leading-zero); }
@@ -545,7 +546,7 @@
 .rx ol.steps li.done .num { opacity: 1; }
 .rx ol.steps li.done .num::before { content: "\2713"; }
 .rx ol.steps li.done .step-text { text-decoration: line-through; text-decoration-color: var(--rule); }
-.rx .step-text { flex: 1; font-size: 16.5px; line-height: 1.65; color: var(--body); }
+.rx .step-text { flex: 1; font-size: var(--fs-sub); line-height: 1.65; color: var(--body); }
 .rx .step-text .step-photo {
   display: block; margin-top: 16px; width: min(100%, 340px); height: auto;
   border-radius: 0; border: 0; background-color: var(--paper2);
@@ -554,25 +555,25 @@
 /* --- nutrition + tip ------------------------------------------------------ */
 .rx .nutri-basis {
   margin: 16px 0 12px;
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
 }
-.rx .nutri-raw { margin: 16px 0 12px; font-size: 16px; color: var(--ink); }
-.rx .gl-note { margin-top: 14px; font-size: 12.5px; line-height: 1.55; color: var(--muted); max-width: 68ch; }
+.rx .nutri-raw { margin: 16px 0 12px; font-size: var(--fs-sub); color: var(--ink); }
+.rx .gl-note { margin-top: 14px; font-size: var(--fs-fine); line-height: 1.55; color: var(--muted); max-width: 68ch; }
 /* The old green "notes" box, reduced to the paper2 aside the blog posts use. */
 .rx .notes { background: var(--paper2); border: 0; border-left: 2px solid var(--accent); border-radius: 0; padding: 20px 22px; }
 .rx .notes h3 {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
 }
-.rx .notes p, .rx .notes li { color: var(--body); font-size: 15.5px; line-height: 1.6; }
+.rx .notes p, .rx .notes li { color: var(--body); font-size: var(--fs-small); line-height: 1.6; }
 .rx .notes ul { margin: 0; padding-left: 20px; }
 .rx .notes li { margin-bottom: 6px; }
 
 /* --- more recipes --------------------------------------------------------- */
 .rx .suggest { margin-top: 8px; }
 .rx .suggest .cards { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); column-gap: 26px; }
-.rx .suggest .rcard .title { font-size: 18px; }
+.rx .suggest .rcard .title { font-size: var(--fs-lede); }
 
 @media (hover: hover) and (pointer: fine) {
   .rx .rcard:hover .title { color: var(--accent); }
@@ -606,21 +607,23 @@
   display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
   padding: 22px 24px 16px; border-bottom: 1.5px solid var(--ink);
 }
-.rx .drawer-head .title { font-family: var(--font-head); font-weight: 400; font-size: 25px; letter-spacing: -0.02em; color: var(--ink); }
+.rx .drawer-head .title { font-family: var(--font-head); font-weight: 400; font-size: var(--fs-quote); letter-spacing: -0.02em; color: var(--ink); }
 .rx .drawer-head .summary {
-  margin-top: 6px; font-family: var(--font-body); font-size: 10px; font-weight: 700;
+  margin-top: 6px; font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 700;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
 }
 .rx .x-btn {
   flex: 0 0 auto; width: 34px; height: 34px; border: 0; border-radius: 0;
   box-shadow: inset 0 0 0 1px var(--rule); background: transparent; color: var(--ink);
+  /* An icon size, sized to its 34px button rather than to the type scale —
+     same exemption as .brand .mark in global.css. */
   cursor: pointer; font-size: 19px; line-height: 1; transition: background .2s ease, color .2s ease;
 }
 .rx .x-btn:hover { background: var(--ink); color: var(--bg); }
 .rx .drawer-body { flex: 1; overflow-y: auto; padding: 20px 24px; }
 .rx .drawer-foot { border-top: 1px solid var(--rule); padding: 18px 24px; background: var(--bg); }
 
-.rx .cart-empty { text-align: center; padding: 44px 16px; color: var(--muted); font-size: 15px; }
+.rx .cart-empty { text-align: center; padding: 44px 16px; color: var(--muted); font-size: var(--fs-small); }
 .rx .cart-empty .disc {
   width: 60px; height: 60px; border-radius: 0; box-shadow: inset 0 0 0 1px var(--rule);
   color: var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;
@@ -634,7 +637,7 @@
 }
 .rx .cart-view .cv-btn {
   flex: none; border: 0; background: none; border-radius: 0; padding: 2px 0 5px; cursor: pointer;
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
   border-bottom: 2px solid transparent; box-shadow: none; transition: color .2s ease, border-color .2s ease;
 }
@@ -643,13 +646,13 @@
 
 .rx .cart-group { margin-bottom: 26px; }
 .rx .cart-group .g-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
-.rx .cart-group .g-title { font-family: var(--font-head); font-weight: 400; font-size: 19px; letter-spacing: -0.02em; color: var(--ink); }
+.rx .cart-group .g-title { font-family: var(--font-head); font-weight: 400; font-size: var(--fs-body); letter-spacing: -0.02em; color: var(--ink); }
 .rx .cart-group .g-serves {
-  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
 }
 .rx .remove {
-  font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.14em;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.14em;
   text-transform: uppercase; color: var(--accent); background: none; border: 0; cursor: pointer;
 }
 .rx .remove:hover { text-decoration: underline; text-underline-offset: 3px; }
@@ -657,18 +660,18 @@
 .rx .cart-item {
   display: flex; align-items: flex-start; gap: 12px; padding: 10px 0;
   cursor: pointer; border-top: 0; border-bottom: 1px solid var(--line);
-  font-size: 14.5px; line-height: 1.5; color: var(--body);
+  font-size: var(--fs-small); line-height: 1.5; color: var(--body);
 }
 .rx .cart-item input { position: absolute; opacity: 0; width: 0; height: 0; }
 .rx .cart-item .box { width: 16px; height: 16px; margin-top: 3px; }
 .rx .cart-item input:checked ~ span { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--rule); }
 
 .rx .cart-actions { display: flex; gap: 8px; margin: 12px 0 10px; }
-.rx .cart-actions .btn { flex: 1; flex-direction: column; gap: 6px; min-height: 0; font-size: 9px; letter-spacing: 0.1em; padding: 12px 6px; }
+.rx .cart-actions .btn { flex: 1; flex-direction: column; gap: 6px; min-height: 0; font-size: 9px; /* two-line button caps, under --fs-label-s by design */ letter-spacing: 0.1em; padding: 12px 6px; }
 .rx .cart-actions .btn svg { width: 17px; height: 17px; }
 .rx .clear-all {
   display: block; width: 100%; text-align: center; background: none; border: 0; cursor: pointer; padding: 8px;
-  font-family: var(--font-body); font-size: 9.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
 }
 .rx .clear-all:hover { color: var(--accent); }
@@ -677,10 +680,10 @@
   padding: 12px 14px; margin-top: 6px; background: var(--paper2);
   border: 0; border-left: 2px solid var(--accent); border-radius: 0;
 }
-.rx .clear-confirm .clear-q { font-size: 13.5px; color: var(--ink); }
+.rx .clear-confirm .clear-q { font-size: var(--fs-fine); color: var(--ink); }
 .rx .clear-confirm .clear-btns { display: flex; gap: 8px; }
 .rx .clear-confirm button {
-  font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.14em;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.14em;
   text-transform: uppercase; cursor: pointer; border-radius: 0; padding: 9px 14px; border: 0;
 }
 .rx .clear-confirm .clear-no { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
