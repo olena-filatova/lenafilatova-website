@@ -124,9 +124,13 @@
 /* ============================================================
    HUB
    ============================================================ */
-.rx-hub-head { padding: 44px 0 0; }
+.rx-hub-head { padding: var(--sp-ms) 0 0; }
 @media (min-width: 900px) {
+  /* The lede column runs 80px taller than the h1 beside it, and the row was
+     bottom-aligned, so the h1 fell 124px away from the kicker labelling it
+     (OPS-538). The h1 holds the top; the lede keeps its bottom alignment. */
   .rx-hub-head .head { display: grid; grid-template-columns: 1.5fr 1fr; gap: 48px; align-items: end; }
+  .rx-hub-head .head h1 { align-self: start; }
   .rx-hub-head .lede { margin-bottom: 6px; }
 }
 .rx-hub-head .lede { margin-top: 20px; }
