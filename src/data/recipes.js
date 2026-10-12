@@ -728,7 +728,7 @@ export const RECIPES = [
     tags: ['vegetarian', 'dairy-free', 'gluten-free', 'low-carb'],
     imgAlt: { en: "A glass bottle of thick pale beige smoothie standing in sunlight on turquoise painted wood.", ua: "Скляна пляшка густого блідо-бежевого смузі на сонці, на бірюзовому фарбованому дереві." },
     title: { en: 'Apple & Celery Smoothie', ua: 'Смузі з яблуком і селерою' },
-    why: { en: 'A simple low-calorie apple-and-celery drink with lemon — fresh, hydrating and very light on carbs.', ua: 'Простий низькокалорійний напій з яблука й селери з лимоном — свіжий, зволожувальний і дуже легкий за вуглеводами.' },
+    why: { en: 'A simple low-calorie apple-and-celery drink with lemon — fresh, hydrating and very light on carbs.', ua: 'Простий низькокалорійний напій з яблука й селери з лимоном — свіжий, зволожувальний і з дуже малим вмістом вуглеводів.' },
     nutrition: { en: 'Per serving (est.): ~30 kcal · Carbs 7 g · Fat 0 g · Protein 0 g', ua: 'На порцію (прибл.): ~30 ккал · Вуглеводи 7 г · Жири 0 г · Білки 0 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No cook', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['1 apple','1 celery stick','1 tbsp lemon juice','120 ml (½ cup) water'], ua: ['1 яблуко','1 стебло селери','1 ст. л. лимонного соку','120 мл (½ склянки) води'] },
