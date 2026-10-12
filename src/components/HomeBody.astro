@@ -98,8 +98,11 @@ const toolHref = (card) => {
         <h1>{t.heroH1} <span class="it">{t.heroH1b}</span></h1>
         <p class="ed-lead">{t.heroLead}</p>
         <div class="ed-cta">
-          <a class="ed-btn mag" href={toolHref(tools[0])}>{t.heroCta1} <span class="ar">&#8594;</span></a>
-          <a class="ed-btn line" href="#newsletter">{t.heroCta2}</a>
+          <a class="btn" href={toolHref(tools[0])}>{t.heroCta1} <span class="ar">&#8594;</span></a>
+          {/* OPS-539: the workbook link used to be a 1.5px outlined button the
+              same size as the primary, so the hero asked for two things with
+              equal force. It is a text link now. */}
+          <a class="btn link" href="#newsletter"><span class="lbl">{t.heroCta2}</span> <span class="ar">&#8594;</span></a>
         </div>
         <p class="ed-disclaimer">{t.disclaimer}</p>
       </div>
@@ -313,16 +316,10 @@ const toolHref = (card) => {
   .ed-label { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
   .ed-label.dim { color: var(--muted); }
 
-  .ed-btn {
-    display: inline-flex; align-items: center; justify-content: center; gap: 9px;
-    min-height: 54px; width: 100%; padding: 15px 26px; border: 0; border-radius: 0;
-    font-family: var(--font-body); font-weight: 700; font-size: var(--fs-small);
-    background: var(--ink); color: var(--bg); cursor: pointer;
-    transition: background 0.2s ease;
-  }
-  .ed-btn.mag { background: var(--accent); color: #fff; }
-  .ed-btn.line { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
-  .ed-btn .ar { font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1; }
+  /* OPS-539: the hero's buttons come from `.btn` in global.css now. All that
+     is left here is how they lay out — stacked and full width on a phone. The
+     text link keeps its own width so its underline ends with the words. */
+  .ed-cta .btn:not(.link) { width: 100%; }
 
   /* OPS-293: hero type dialled down a step (and its vertical rhythm tightened)
      so the block is more compact and the portrait sits higher. */
@@ -503,7 +500,7 @@ const toolHref = (card) => {
   .ed-wait a { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
   @media (min-width: 720px) {
-    .ed-btn { width: auto; }
+    .ed-cta .btn:not(.link) { width: auto; }
     .ed-hero { padding-top: var(--sp-s); }
     .ed-hero-lay { display: grid; grid-template-columns: 1.45fr 0.8fr; gap: 44px; align-items: center; }
     .ed-lead { max-width: 46ch; }
@@ -592,8 +589,6 @@ const toolHref = (card) => {
        picture and leaves the text a proportionate amount of room. OPS-538. */
     .ed-rec .ph { aspect-ratio: 3 / 2; }
     .ed-voices { margin-top: var(--sp-l); padding: var(--sp-l) 0; }
-    .ed-btn:hover { background: var(--accent-deep); color: #fff; }
-    .ed-btn.line:hover { background: var(--ink); color: var(--bg); }
   }
 
 </style>
