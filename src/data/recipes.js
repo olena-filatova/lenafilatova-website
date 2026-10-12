@@ -804,8 +804,8 @@ export const RECIPES = [
   {
     slug: 'pineapple-chips', dateAdded: '2026-07-10', img: '68-pineapple-chips.jpg', cat: 'snack', gi: 31,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
-    title: { en: 'Baked Pineapple Chips', ua: 'Чипси з ананаса' },
-    why: { en: 'Thin pineapple slices dried until crisp — no added sugar, just fruit and a little lemon. Naturally high in fruit sugar, so a treat to enjoy in moderation.', ua: 'Тонкі скибочки ананаса, висушені до хрусткості — без доданого цукру, лише фрукт і трохи лимона. Природно багато фруктового цукру, тож ласощі помірно.' },
+    title: { en: 'Baked Pineapple Chips', ua: 'Ананасові чипси' },
+    why: { en: 'Thin pineapple slices dried until crisp — no added sugar, just fruit and a little lemon. Naturally high in fruit sugar, so a treat to enjoy in moderation.', ua: 'Тонкі скибочки ананаса, висушені до хрусткості — без доданого цукру, лише фрукт і трохи лимона. Природно багато фруктового цукру, тож найкраще в міру.' },
     nutrition: { en: 'Per serving (est.): ~120 kcal · Carbs 30 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~120 ккал · Вуглеводи 30 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '7 h drying', ua: '7 год сушіння' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['2 pineapples, peeled, cored and thinly sliced','30 g lemon juice','1 g salt'], ua: ['2 ананаси, очищені, без серцевини, тонко нарізані','30 г лимонного соку','1 г солі'] },
