@@ -1,0 +1,5 @@
+# UA proofread: recipe--wholegrain-bread
+
+- Last checked: 2026-10-04
+- PR: (this PR)
+- Notes: 5 fixes: 1 grammar (gender/case agreement — imgAlt's `Товстий скибок ... намазаний` mismatched masculine adjective/participle with what should be the feminine noun `скибка`, fixed to `Товста скибка ... намазана`), 1 wrong character (`мʼякший` used the modifier-letter apostrophe U+02BC instead of the site-standard U+2019 `’`, fixed to `м’якший`), 1 calque (`ніж від білого хліба` is a literal "than from white bread" construction → `ніж після білого хліба`), 1 grammar error (`Лляне борошно збагачує омега-3 та клітковиною` is missing the object `збагачує` needs — rewritten as `Лляне борошно додає омега-3 та клітковину` to match `en`'s "Flaxseed adds omega-3 and fibre"), and 1 meaning restoration — `Ферментація закваски знижує ГІ` dropped `en`'s comparison ("further reduces GI *compared to regular bread*"), restored as `Ферментація закваски додатково знижує ГІ порівняно зі звичайним хлібом`. Also restored `en`'s "important for texture" note on the final cooling step, dropped from UA. Numbers, grams, times, temperatures and the `en` text are untouched.

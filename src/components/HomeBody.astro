@@ -13,12 +13,15 @@
 // before asking) -> freshness -> pleasure -> proof it works -> scope -> the ask.
 // Tools sit above the blog on purpose: they are the reciprocity step and the
 // stickiest content on the site.
-import { HOME, RESOURCES } from '../data/site.js';
+import { HOME, RESOURCES, MOST_READ } from '../data/site.js';
 import { POSTS } from '../data/blog.js';
+import { PUBLISHED as RECIPE_LIST } from '../data/recipes.js';
+import { CAT_HUB } from '../data/recipes-lib.js';
 import { hasHero } from '../data/blog-lib.js';
 import DIMS from '../data/image-dims.json';
 import Picture from './Picture.astro';
 import Newsletter from './Newsletter.astro';
+import GymbilePromo from './GymbilePromo.astro';
 
 const { lang = 'en' } = Astro.props;
 const t = HOME[lang];
@@ -28,7 +31,12 @@ const img = (src) => B.replace(/\/$/, '') + src;
 // Drawn widths for the editorial band, so each picture takes the rung it
 // needs off the AVIF ladder rather than the largest one every time.
 const PORTRAIT_SIZES = '(min-width: 1000px) 360px, calc(100vw - 48px)';
-const BAND_SIZES = '(min-width: 1000px) 330px, calc(100vw - 48px)';
+// Measured, not estimated: the two band cards are different boxes. The blog
+// card's photo draws 655px at 1000 and 619px from 1100 up; the recipe's draws
+// 509px at 1000, settling at 573px from 1280. One shared `sizes` had to be
+// wrong for one of them, and at 330px it was wrong for both.
+const FEAT_SIZES = '(min-width: 1000px) 660px, calc(100vw - 48px)';
+const REC_SIZES = '(min-width: 1000px) 575px, calc(100vw - 48px)';
 const blogHref = `${L}blog/`;
 const recipesAllHref = `${L}recipes/`;
 const resourcesHref = `${L}resources/`;
@@ -45,6 +53,24 @@ const recentPosts = [...POSTS]
   .sort((a, b) => b.date.localeCompare(a.date));
 const latestPost = recentPosts[0];
 const latestPostT = latestPost[lang];
+
+// OPS-503: the "most read" band. MOST_READ in site.js is the list Lena
+// refreshes from the weekly search report; everything a row shows — title,
+// section, href — is resolved from the post or recipe itself, so a retitled
+// article never leaves a stale headline behind on the front page. An entry
+// pointing at a slug that no longer exists resolves to null and is dropped
+// here rather than shipping as a dead link.
+const mostRead = (MOST_READ[lang] || []).map((e) => {
+  if (e.post) {
+    const p = POSTS.find((x) => x.slug === e.post && !x.comingSoon);
+    return p && { href: `${L}blog/${p.slug}/`, label: p[lang].title, kicker: p[lang].cat };
+  }
+  if (e.recipe) {
+    const r = RECIPE_LIST.find((x) => x.slug === e.recipe);
+    return r && { href: `${L}recipes/${r.slug}/`, label: r.title[lang], kicker: CAT_HUB[r.cat][lang] };
+  }
+  return { href: B.replace(/\/$/, '') + e.href, label: e.label, kicker: e.kicker };
+}).filter(Boolean);
 
 const featuredRecipe = HOME.recipe;
 
@@ -106,6 +132,31 @@ const toolHref = (card) => {
     </div>
   </section>
 
+  <!-- MOST READ — sits with the trust band rather than taking a number of its
+       own: the numbered sections 01-05 are a deliberate argument (tools before
+       blog, give before asking) and this is signposting, not a step in it. -->
+  {mostRead.length > 0 && (
+    <section class="ed-read" aria-label={t.mostReadLabel}>
+      <div class="wrap">
+        <div class="ed-read-head">
+          <span class="ed-label">{t.mostReadLabel}</span>
+          <p class="ed-read-note">{t.mostReadNote}</p>
+        </div>
+        <ul class="ed-read-list">
+          {mostRead.map((r) => (
+            <li>
+              <a href={r.href}>
+                <span class="k">{r.kicker}</span>
+                <span class="ttl">{r.label}</span>
+                <span class="ar">&#8594;</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
   <!-- 01 FREE TOOLS -->
   <section class="ed-sec" id="tools">
     <div class="wrap">
@@ -145,7 +196,7 @@ const toolHref = (card) => {
         <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
       </div>
       <a class="ed-feat" href={`${L}blog/${latestPost.slug}/`}>
-        <div class="ph">{hasHero(latestPost, DIMS) && <Picture src={latestPost.image} alt={latestPostT.title} sizes={BAND_SIZES} loading="lazy" />}</div>
+        <div class="ph">{hasHero(latestPost, DIMS) && <Picture src={latestPost.image} alt={latestPostT.title} sizes={FEAT_SIZES} loading="lazy" />}</div>
         <div class="body">
           <span class="cat">{latestPostT.cat}</span>
           <h3>{latestPostT.title}</h3>
@@ -168,7 +219,7 @@ const toolHref = (card) => {
       <a class="ed-rec" href={`${L}recipes/${featuredRecipe.slug}/`}>
         <div class="ph">
           <span class="gi"><b>{featuredRecipe.gi}</b><span>GI</span></span>
-          <Picture src={featuredRecipe.img} alt={featuredRecipe.title[lang]} sizes={BAND_SIZES} loading="lazy" />
+          <Picture src={featuredRecipe.img} alt={featuredRecipe.title[lang]} sizes={REC_SIZES} loading="lazy" />
         </div>
         <div class="body">
           <span class="ed-label dim">{featuredRecipe.cat[lang]} · {featuredRecipe.carbs}{lang === 'ua' ? ' ' : 'g '}{t.carbs}</span>
@@ -229,6 +280,10 @@ const toolHref = (card) => {
     </div>
   </section>
 </div>
+
+<!-- GYMBILE — the app Lena co-founded; for readers who want the habits to
+     last. Copy, links and download tracking: GYMBILE in site.js. -->
+<GymbilePromo lang={lang} placement="home" />
 
 <!-- NEWSLETTER — shared component (markup, language tagging, anti-spam and
      submit handling live there). It now offers the workbook: copy comes from
@@ -297,6 +352,23 @@ const toolHref = (card) => {
   /* the block's overhang drives the caption offset, so they cannot collide */
   .ed-cap { position: relative; z-index: 3; background: var(--bg); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--accent); font-family: var(--font-head); font-style: italic; font-size: 15px; }
 
+  /* OPS-503: most-read band. Deliberately a list and not the blog hub's
+     article card: three of the six rows are tools and hub pages that have no
+     photograph, and a card grid with half its picture boxes empty reads as
+     broken. It borrows the section-01 tool list's furniture instead — hairline
+     rules, uppercase kicker, serif title, arrow on hover — so it is the
+     homepage's own idiom rather than a new one. */
+  .ed-read { padding: 26px 0 0; }
+  .ed-read-head { border-top: 1.5px solid var(--ink); padding-top: 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+  .ed-read-note { margin: 0; font-size: 13px; color: var(--muted); }
+  .ed-read-list { list-style: none; margin: 4px 0 0; padding: 0; }
+  .ed-read-list li { border-bottom: 1px solid var(--line); }
+  .ed-read-list a { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 14px; padding: 14px 0; color: var(--ink); }
+  .ed-read-list .k { grid-column: 1; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
+  .ed-read-list .ttl { grid-column: 1; font-family: var(--font-head); font-size: 17px; line-height: 1.22; letter-spacing: -0.015em; }
+  .ed-read-list .ar { grid-column: 2; grid-row: 1 / span 2; color: var(--accent); transition: transform .2s ease; }
+  @media (prefers-reduced-motion: reduce) { .ed-read-list .ar { transition: none; } }
+
   .ed-band { margin-top: 34px; background: var(--paper2); border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--rule); }
   .ed-band-grid { display: grid; grid-template-columns: 1fr 1fr; }
   .ed-stat { padding: 20px 16px 20px 0; border-bottom: 1px solid var(--line); }
@@ -329,8 +401,17 @@ const toolHref = (card) => {
      there the label is a kicker. Size stays at the kicker step deliberately:
      enlarging the five section heads is a visible change to the front page,
      not a defect fix, so it's left for Lena to call. Margin/size are reset
-     because this is now a heading inside a flex row. */
-  .ed-name { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); margin: 0; line-height: 1.2; }
+     because this is now a heading inside a flex row.
+
+     OPS-530: the selector is .ed-head .ed-name, not .ed-name. Once Astro has
+     scoped both rules, `.ed :is(h1,h2,h3,h4)` above outweighs a bare
+     .ed-name, so on four of the five sections the font family, weight and
+     tracking were silently coming from the heading rule — Spectral 400 at the
+     kicker size, which made the main section heads the smallest text on the
+     page. Section 04 escaped it only because its label is a <span>. The size
+     also moves up to the --fs-label-head step (16px): these are real <h2>s,
+     not kickers, and Lena has approved the change. */
+  .ed-head .ed-name { font-family: var(--font-body); font-size: var(--fs-label-head); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink); margin: 0; line-height: 1.2; }
   .ed-more { margin-left: auto; font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
   /* OPS-306 — the invisible 24px hit strip .site-nav a uses (see the note in
      global.css). These caps links draw an 18–21px box, under the 24x24 WCAG
@@ -372,8 +453,7 @@ const toolHref = (card) => {
 
   .ed-rec { display: block; position: relative; }
   .ed-rec .ph { position: relative; z-index: 2; aspect-ratio: 1 / 1; overflow: hidden; background: var(--paper2); }
-  /* the plate shot has a lot of empty rim — zoom to the food */
-  .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.15); }
+  .ed-rec .ph img { width: 100%; height: 100%; object-fit: cover; }
   .ed-rec .gi { position: absolute; right: 0; top: -10px; z-index: 3; background: var(--ink); color: var(--bg); padding: 14px 16px; text-align: center; }
   .ed-rec .gi b { display: block; font-family: var(--font-head); font-size: 26px; line-height: 1; }
   .ed-rec .gi span { font-family: var(--font-body); font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.75; }
@@ -434,6 +514,9 @@ const toolHref = (card) => {
     .ed-frame { aspect-ratio: 1 / 1.12; }
     .ed-blk { right: 40%; height: 38%; }
     .ed-cap { font-size: 13.5px; }
+    .ed-read { padding-top: 34px; }
+    .ed-read-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 44px; }
+    .ed-read-list .ttl { font-size: 18px; }
     .ed-band-grid { grid-template-columns: repeat(4, 1fr); }
     .ed-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--line); }
     .ed-stat:first-child { padding-left: 0; }
@@ -460,7 +543,7 @@ const toolHref = (card) => {
        two unrelated ideas. Its GI badge moves to the photo's left edge, clear
        of where the panel now overlaps. */
     .ed-feat { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
-    .ed-feat .ph { aspect-ratio: 1 / 1; }
+    .ed-feat .ph { aspect-ratio: 4 / 3; }
     .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
     .ed-rec { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
     .ed-rec .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); position: relative; z-index: 4; }
@@ -472,7 +555,11 @@ const toolHref = (card) => {
     .ed-q:nth-child(2) { border-top: 0; padding-top: 0; }
     .ed-q p { font-size: 22px; }
     .ed-clin { display: flex; align-items: center; gap: 26px; }
-    .ed-clin .k { margin: 0; flex: none; max-width: 90px; }
+    /* max-width: 90px fitted "RECOMMENDED" and nothing else, so the label
+       broke onto three lines (RECOMMENDED / BY / CLINICIANS). It is a single
+       kicker, not a column of text — let it size to its own content and keep
+       it unbroken. OPS-534. */
+    .ed-clin .k { margin: 0; flex: none; white-space: nowrap; }
     .ed-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
     .ed-wait .inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
     .ed-wait p { margin: 0; }
@@ -480,10 +567,17 @@ const toolHref = (card) => {
 
   @media (min-width: 1000px) {
     .ed-hero { padding: 44px 0 0; }
-    .ed-hero-lay { grid-template-columns: 1.75fr 0.6fr; gap: 56px; align-items: end; }
-    .ed-hero h1 { font-size: 56px; line-height: 1.02; max-width: 20ch; }
+    /* OPS-531: the text track used to be 1.75fr while the h1 stopped at 20ch
+       and the lede at 50ch, so 163-253px of the hero was empty and Lena's
+       portrait — the page's strongest trust signal — was its smallest element.
+       The h1 is now fluid instead of a flat 56px: 20ch is exactly 10x the font
+       size in this face, so a size that tracks the viewport keeps the heading
+       filling its column at every width while the 20ch cap holds the line
+       breaks unchanged. That leaves the slack to the portrait. */
+    .ed-hero-lay { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 48px; align-items: end; }
+    .ed-hero h1 { font-size: clamp(56px, 5.6vw, 64px); line-height: 1.02; max-width: 20ch; }
     .ed-lead { font-size: 18px; max-width: 50ch; }
-    .ed-portrait { max-width: 300px; }
+    .ed-portrait { max-width: 400px; }
     .ed-frame { aspect-ratio: 1 / 1.16; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
     .ed-blk { right: 38%; height: 40%; }
     .ed-sec { padding: 76px 0 0; }
@@ -491,6 +585,8 @@ const toolHref = (card) => {
     .ed-tool { padding: 26px 0; }
     .ed-tool:hover { padding-left: 10px; }
     .ed-tool:hover h3, .ed-feat:hover h3, .ed-rec:hover h3 { color: var(--accent); }
+    .ed-read-list a:hover .ttl { color: var(--accent); }
+    .ed-read-list a:hover .ar { transform: translateX(4px); }
     .ed-tool h3 { font-size: 24px; }
     .ed-tool p { max-width: 42ch; }
     .ed-feat h3 { font-size: 38px; }
@@ -506,9 +602,6 @@ const toolHref = (card) => {
   }
 
   @media (min-width: 1320px) {
-    .ed-hero h1 { font-size: 64px; }
-    .ed-hero-lay { grid-template-columns: 1.8fr 0.58fr; gap: 72px; }
-    .ed-portrait { max-width: 330px; }
     .ed-sec { padding: 88px 0 0; }
   }
 </style>

@@ -83,6 +83,7 @@ export const TAGS = [
       'perimenopause-global-survey-symptom-gap',
       'anxiety-brain-fog-top-menopause-symptom',
       'perimenopause-diabetes-blood-sugar',
+      'non-hormonal-hot-flushes-fezolinetant',
     ],
   },
   {
@@ -481,6 +482,7 @@ export const TAGS = [
       'cortisol-belly-perimenopause',
       'type-2-diabetes-research',
       'perimenopause-weight-myths',
+      'non-hormonal-hot-flushes-fezolinetant',
     ],
   },
 

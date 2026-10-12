@@ -640,8 +640,8 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
 .lf-mobile-nav { display: none; }
 .lf-mobile-nav[hidden] { display: none; }
 
-/* This page's content column is 680px, so its masthead is never wide
-   enough for the nav — it is folded at every width. */
+/* This page's content column is too narrow for the full nav row in both
+   languages, so its masthead is folded at every width. */
 .lf-nav, .lf-sub { display: none; }
 .lf-burger { display: block; }
 .lf-mobile-nav:not([hidden]) {
@@ -877,6 +877,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
       <a href="/ua/resources/">Ресурси</a>
       <a href="/ua/recipes/">Рецепти</a>
       <a href="/ua/about/">Про мене</a>
+      <a href="/ua/gymbile/">Застосунок</a>
       <a href="/ua/contact/">Контакти</a>
     </nav>
     <div class="lf-actions">
@@ -895,6 +896,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
     <a href="/ua/resources/">Ресурси</a>
     <a href="/ua/recipes/">Рецепти</a>
     <a href="/ua/about/">Про мене</a>
+    <a href="/ua/gymbile/">Застосунок</a>
     <a href="/ua/contact/">Контакти</a>
     <a href="/ua/search/">Пошук</a>
     <a class="lf-btn" href="#newsletter">Підписатися</a>
@@ -3051,6 +3053,7 @@ render();
           <li><a href="/ua/resources/">Ресурси</a></li>
           <li><a href="/ua/recipes/">Рецепти</a></li>
           <li><a href="/ua/about/">Про мене</a></li>
+          <li><a href="/ua/gymbile/">Застосунок</a></li>
           <li><a href="/ua/contact/">Контакти</a></li>
           <li><a href="/ua/search/">Пошук</a></li>
         </ul>

@@ -23,6 +23,7 @@ import DIMS from '../data/image-dims.json';
 import { warnUntagged } from '../data/tags-lib.js';
 import TagCloud from './TagCloud.astro';
 import ShareRow from './ShareRow.astro';
+import GymbilePromo from './GymbilePromo.astro';
 import '../styles/blog.css';
 
 const { lang = 'en' } = Astro.props;
@@ -120,6 +121,10 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
     </div>
   </section>
 )}
+
+{/* Gymbile (the app Lena co-founded) — between the editorial picks and the
+    full index, so it is seen without pushing the featured band down. */}
+<GymbilePromo lang={lang} placement="blog" />
 
 <section>
   <div class="wrap">

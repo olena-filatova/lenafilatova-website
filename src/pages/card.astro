@@ -1,0 +1,247 @@
+---
+// Olena's Selfound business card — the page a QR code or a shared link opens.
+// Deliberately standalone: no site header, newsletter, footer or cookie bar,
+// because it is a card for the Selfound director role, not a page of the
+// health site. It sets no cookies and loads no analytics, so it needs no
+// consent banner. noindex, and kept out of sitemap.xml and the search index:
+// it is for people it is handed to, not for Google.
+//
+// Everything a visitor can tap lives in CARD below; the "Save contact" file
+// (public/card/olena-filatova.vcf) and the QR codes (public/card/qr.*) carry
+// the same details — change them together.
+const CARD = {
+  name: 'Olena Filatova',
+  role: 'Co-founder & Director',
+  org: 'Selfound',
+  orgLine: 'AI venture studio',
+  pitch: 'AI content operations, search and lifecycle marketing for brands where every claim has to stand up.',
+  email: 'olena@selfound.com',
+  whatsapp: '447445099111',
+  phoneDisplay: '+44 7445 099111',
+  linkedin: 'https://www.linkedin.com/in/olenafilatova',
+  calendly: 'https://calendly.com/lena-gymbile/quick-chat-with-olena',
+  location: 'Kent, UK · remote, London on site when needed',
+  services: [
+    { t: 'AI content operations', d: 'Content engines with fact-checking and human approval built in, so output scales without losing accuracy.' },
+    { t: 'SEO and GEO/AEO', d: 'Technical audits turned into fix-lists, content clusters, structured data and answer-first content built to be cited by AI search.' },
+    { t: 'Lifecycle email and newsletters', d: 'Mailchimp and HubSpot flows, segmentation and newsletter design systems, compliant with UK PECR and GDPR.' },
+    { t: 'Positioning and go-to-market', d: 'For early-stage products.' },
+  ],
+  strongest: 'Trust-critical categories such as health, wellness and patient-facing brands, where AI hype is a liability and every claim has to stand up.',
+  proof: [
+    { n: '58%', l: 'email open rate in rare-disease patient comms (EOS Network)' },
+    { n: '38%', l: 'click-through rate on the same programme' },
+    { n: '46,000+', l: 'new website visitors a year from content and SEO' },
+    { n: '25+', l: 'fact-checked articles a month from the AI content engine I built' },
+  ],
+  studio: 'I deliver through Selfound, the AI venture studio I co-founded. It runs seven live AI products, so the systems I build for clients are tested on our own products first.',
+  background: '15+ years in marketing · led teams of up to 16 · CIM Level 6 Diploma · founded and ran two wellness education businesses',
+  projects: [
+    { name: 'lenafilatova.co.uk', href: 'https://lenafilatova.co.uk/', d: 'Evidence-based women’s health after 40' },
+    { name: 'Gymbile', href: 'https://gymbile.com/', d: 'Fitness app I co-founded: workouts, progress, matched trainers' },
+  ],
+};
+const url = 'https://lenafilatova.co.uk/card/';
+const title = `${CARD.name} — ${CARD.role}, ${CARD.org}`;
+const desc = CARD.pitch;
+const share = 'https://lenafilatova.co.uk/card/olena-filatova-share.jpg';
+const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23141414'/%3E%3Ctext x='20' y='27' font-family='Georgia,serif' font-style='italic' font-size='20' fill='%23F4F1EC' text-anchor='middle'%3Eof%3C/text%3E%3C/svg%3E";
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{title}</title>
+  <meta name="description" content={desc} />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href={url} />
+  <meta name="theme-color" content="#141414" />
+  <link rel="icon" href={FAVICON} />
+  <link rel="apple-touch-icon" href="/card/olena-filatova-share.jpg" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:url" content={url} />
+  <meta property="og:image" content={share} />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:image:alt" content="Portrait of Olena Filatova smiling, with long dark wavy hair." />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="preload" href="/fonts/manrope-latin-var.woff2" as="font" type="font/woff2" crossorigin />
+  <style is:inline>
+    @font-face { font-family: 'Manrope'; font-style: normal; font-weight: 200 800; font-display: swap; src: url('/fonts/manrope-latin-var.woff2') format('woff2'); }
+    @font-face { font-family: 'Spectral'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/spectral-latin-500.woff2') format('woff2'); }
+    @font-face { font-family: 'Spectral'; font-style: italic; font-weight: 400; font-display: swap; src: url('/fonts/spectral-latin-400-italic.woff2') format('woff2'); }
+
+    /* Monochrome, so the colour portrait carries the page. Square corners,
+       like the rest of the site. */
+    :root {
+      --ink: #141414;
+      --body: #3A3835;
+      --muted: #6B6761;
+      --bg: #F4F1EC;
+      --card: #FFFFFF;
+      --line: rgba(20, 20, 20, 0.12);
+      --head: 'Spectral', Georgia, serif;
+      --sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--body); font: 16px/1.55 var(--sans); }
+    a { color: inherit; }
+    .wrap { max-width: 480px; margin: 0 auto; background: var(--card); min-height: 100vh; box-shadow: 0 0 0 1px var(--line); }
+
+    .brand { display: flex; align-items: baseline; justify-content: space-between; padding: 18px 20px; border-bottom: 1px solid var(--line); }
+    /* Placeholder wordmark until the Selfound logo file is supplied. */
+    .brand .logo { font: 700 15px/1 var(--sans); letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
+    .brand .tag { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; }
+
+    .photo { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; max-height: 62vh; }
+
+    .who { padding: 26px 20px 8px; }
+    h1 { font: 500 34px/1.1 var(--head); color: var(--ink); margin: 0; letter-spacing: -0.01em; }
+    .role { margin: 8px 0 0; font-weight: 600; color: var(--ink); font-size: 15px; letter-spacing: 0.02em; }
+    .pitch { margin: 14px 0 0; font: italic 400 19px/1.45 var(--head); color: var(--body); }
+    .loc { margin: 12px 0 0; font-size: 13.5px; color: var(--muted); }
+
+    .actions { padding: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .btn { display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 52px; padding: 12px 14px; border: 1px solid var(--ink); background: var(--card); color: var(--ink); text-decoration: none; font: 600 15px/1.2 var(--sans); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .btn svg { width: 19px; height: 19px; flex: none; }
+    .btn.primary { grid-column: 1 / -1; background: var(--ink); color: #fff; }
+    .btn:active { transform: translateY(1px); }
+    @media (hover: hover) { .btn:hover { background: var(--ink); color: #fff; } .btn.primary:hover { background: #333; } }
+    .btn:focus-visible { outline: 3px solid #8A8A8A; outline-offset: 2px; }
+
+    section { padding: 26px 20px; border-top: 1px solid var(--line); }
+    h2 { font: 700 11px/1 var(--sans); letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin: 0 0 16px; }
+    .svc { list-style: none; margin: 0; padding: 0; }
+    .svc li { padding: 12px 0; border-top: 1px solid var(--line); }
+    .svc li:first-child { border-top: 0; padding-top: 0; }
+    .svc strong { display: block; color: var(--ink); font-size: 16px; margin-bottom: 2px; }
+    .svc span { font-size: 14.5px; }
+    .lead { margin: 0 0 18px; font: 400 18px/1.45 var(--head); color: var(--ink); }
+    .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 0; }
+    .stats div { background: var(--card); padding: 14px 12px; }
+    .stats dt { font: 500 28px/1 var(--head); color: var(--ink); }
+    .stats dd { margin: 6px 0 0; font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+    p.note { margin: 16px 0 0; font-size: 14.5px; }
+    p.small { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+
+    .projects { list-style: none; margin: 0; padding: 0; }
+    .projects a { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line); text-decoration: none; }
+    .projects li:first-child a { border-top: 0; padding-top: 0; }
+    .projects strong { display: block; color: var(--ink); font-size: 16px; }
+    .projects span { font-size: 13.5px; color: var(--muted); }
+    .projects .arrow { font-size: 18px; color: var(--ink); }
+
+    .qr { text-align: center; }
+    .qr img { width: 220px; height: 220px; display: block; margin: 0 auto; background: #fff; padding: 10px; border: 1px solid var(--line); image-rendering: pixelated; }
+    .qr p { margin: 12px 0 0; font-size: 13.5px; color: var(--muted); }
+    .qr .row { display: flex; gap: 10px; justify-content: center; margin-top: 16px; flex-wrap: wrap; }
+    .qr .btn { min-height: 44px; font-size: 14px; flex: 1 1 140px; }
+    .status { min-height: 1.4em; }
+
+    footer { padding: 22px 20px 34px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); text-align: center; }
+    @media (min-width: 520px) { body { padding: 32px 0; } .wrap { min-height: 0; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="brand">
+      <span class="logo" aria-label="Selfound">Selfound</span>
+      <span class="tag">{CARD.orgLine}</span>
+    </header>
+
+    <img class="photo" src="/card/olena-filatova.jpg" width="800" height="1000"
+         alt="Olena Filatova smiling, with long dark wavy hair and a teal top." fetchpriority="high" />
+
+    <div class="who">
+      <h1>{CARD.name}</h1>
+      <p class="role">{CARD.role}, {CARD.org}</p>
+      <p class="pitch">{CARD.pitch}</p>
+      <p class="loc">{CARD.location}</p>
+    </div>
+
+    <nav class="actions" aria-label="Contact Olena">
+      <a class="btn primary" href="/card/olena-filatova.vcf" download="Olena-Filatova.vcf">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M18.5 8v6M15.5 11h6"/></svg>
+        Save contact
+      </a>
+      <a class="btn" href={`https://wa.me/${CARD.whatsapp}`} target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+        WhatsApp
+      </a>
+      <a class="btn" href={`mailto:${CARD.email}`}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+        Email
+      </a>
+      <a class="btn" href={CARD.calendly} target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        Book a call
+      </a>
+      <a class="btn" href={CARD.linkedin} target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3V9.5Zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9.5Z"/></svg>
+        LinkedIn
+      </a>
+    </nav>
+
+    <section aria-labelledby="h-do">
+      <h2 id="h-do">What I do</h2>
+      <ul class="svc">
+        {CARD.services.map((s) => <li><strong>{s.t}</strong><span>{s.d}</span></li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="h-strong">
+      <h2 id="h-strong">Where I’m strongest</h2>
+      <p class="lead">{CARD.strongest}</p>
+      <dl class="stats">
+        {CARD.proof.map((p) => <div><dt>{p.n}</dt><dd>{p.l}</dd></div>)}
+      </dl>
+      <p class="note">{CARD.studio}</p>
+      <p class="small">{CARD.background}</p>
+    </section>
+
+    <section aria-labelledby="h-proj">
+      <h2 id="h-proj">Projects</h2>
+      <ul class="projects">
+        {CARD.projects.map((p) => (
+          <li><a href={p.href} target="_blank" rel="noopener"><div><strong>{p.name}</strong><span>{p.d}</span></div><span class="arrow" aria-hidden="true">↗</span></a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="qr" aria-labelledby="h-qr">
+      <h2 id="h-qr">Share this card</h2>
+      <img src="/card/qr.svg" width="220" height="220" alt="QR code that opens lenafilatova.co.uk/card/" />
+      <p>Point a phone camera at the code to open this card.</p>
+      <div class="row">
+        <button class="btn" type="button" id="share">Share link</button>
+        <a class="btn" href="/card/qr.png" download="Olena-Filatova-QR.png">Download QR</a>
+      </div>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <footer>{CARD.phoneDisplay} · <a href={`mailto:${CARD.email}`}>{CARD.email}</a></footer>
+  </main>
+
+  <script is:inline define:vars={{ url, title }}>
+    // Native share sheet where the browser has one; otherwise copy the link.
+    document.getElementById('share').addEventListener('click', async () => {
+      const status = document.getElementById('status');
+      if (navigator.share) {
+        try { await navigator.share({ title, url }); } catch (e) { /* dismissed */ }
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        status.textContent = 'Link copied.';
+      } catch (e) {
+        status.textContent = url;
+      }
+    });
+  </script>
+</body>
+</html>

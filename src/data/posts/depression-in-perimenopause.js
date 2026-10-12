@@ -84,7 +84,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is one randomised trial sitting behind the hormone half of that. It gave 172 perimenopausal and early postmenopausal women twelve months of transdermal oestradiol with intermittent micronised progesterone, or a placebo, and counted who developed clinically significant depressive symptoms: 17.3% on hormone therapy against 32.3% on placebo. Two caveats the authors put front and centre. The benefit was concentrated in women in the early transition and in those who had been through recent stressful life events — women in late transition showed little difference. And this was prevention in women who were not depressed at the start, not treatment of an established depression."
+        "text": "There is one randomised trial sitting behind the hormone half of that. It gave 172 perimenopausal and early postmenopausal women twelve months of transdermal oestradiol with intermittent micronised progesterone, or a placebo, and counted who developed clinically significant depressive symptoms: 17.3% on hormone therapy against 32.3% on placebo. Two caveats the authors put front and centre. The benefit was concentrated in women in the early transition and in those who had been through recent stressful life events — women in late transition showed little difference. And this was prevention in women who were not depressed at the start, not treatment of an established depression. That first caveat is really a question about timing, and [when to start HRT](/blog/hrt-timing-perimenopause-start/) has been argued over well beyond mood — with a headline risk figure that does not survive a close read."
       },
       {
         "t": "p",
@@ -281,7 +281,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "За гормональною половиною цього стоїть одне рандомізоване дослідження. 172 жінки в перименопаузі та ранній постменопаузі отримували дванадцять місяців трансдермального естрадіолу з періодичним мікронізованим прогестероном або плацебо, і рахували, у кого розвинуться клінічно значущі депресивні симптоми: 17,3% на гормональній терапії проти 32,3% на плацебо. Два застереження, які автори ставлять на перше місце. Користь концентрувалася в жінок у ранньому переході та в тих, хто нещодавно пережив стресові життєві події, — у пізньому переході різниці майже не було. І це була профілактика в жінок, які на старті не мали депресії, а не лікування наявної."
+        "text": "За гормональною половиною цього стоїть одне рандомізоване дослідження. 172 жінки в перименопаузі та ранній постменопаузі отримували дванадцять місяців трансдермального естрадіолу з періодичним мікронізованим прогестероном або плацебо, і рахували, у кого розвинуться клінічно значущі депресивні симптоми: 17,3% на гормональній терапії проти 32,3% на плацебо. Два застереження, які автори ставлять на перше місце. Користь концентрувалася в жінок у ранньому переході та в тих, хто нещодавно пережив стресові життєві події, — у пізньому переході різниці майже не було. І це була профілактика в жінок, які на старті не мали депресії, а не лікування наявної. Перше із цих застережень — по суті питання часу, і [коли починати ЗГТ](/ua/blog/hrt-timing-perimenopause-start/) обговорюють далеко за межами теми настрою — з гучною цифрою ризику, яка не витримує уважного читання."
       },
       {
         "t": "p",

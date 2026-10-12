@@ -1,0 +1,74 @@
+---
+// The two Gymbile store buttons plus the "free" line — shared by the promo
+// snippet (GymbilePromo) and the /gymbile/ page, so every store link on the
+// site carries the same tracking. See GYMBILE in site.js for how downloads
+// are attributed to pages.
+//
+// placement: where on the site this is ('home', 'blog', 'post', 'about',
+//   'page', 'page-end'); goes into the tracking tags.
+// page: names the page in the tags — the post slug on an article.
+// layout: 'stack' (full-width buttons, one above the other) or 'row'
+//   (side by side from 560px, note left-aligned).
+// short: the "App Store" / "Google Play" labels, for narrow columns.
+import { GYMBILE } from '../data/site.js';
+
+const { lang = 'en', placement, page = '', layout = 'stack', short = false } = Astro.props;
+const t = GYMBILE[lang];
+const campaign = `lf-${placement}`;
+const content = page || lang;
+
+// Play Console reads utm_* out of the URL-encoded `referrer` parameter.
+const referrer = new URLSearchParams({
+  utm_source: GYMBILE.utmSource,
+  utm_medium: 'website',
+  utm_campaign: campaign,
+  utm_content: content,
+}).toString();
+const playHref = `${GYMBILE.googlePlay}&hl=${t.playHl}&referrer=${encodeURIComponent(referrer)}`;
+
+// App Store campaign tokens are capped at 40 characters.
+const ct = `${campaign}-${content}`.slice(0, 40);
+const appParams = new URLSearchParams({ ...(GYMBILE.appStoreProviderToken && { pt: GYMBILE.appStoreProviderToken }), ct, mt: '8' });
+const appHref = `${GYMBILE.appStore}?${appParams}`;
+---
+<div class={`gs gs-${layout}`}>
+  <a class="gs-btn" href={appHref} target="_blank" rel="noopener" data-gymbile="app_store" data-placement={placement}>{short ? t.appStoreShort : t.appStoreBtn} <span aria-hidden="true">&#8599;</span></a>
+  <a class="gs-btn line" href={playHref} target="_blank" rel="noopener" data-gymbile="google_play" data-placement={placement}>{short ? t.playShort : t.playBtn} <span aria-hidden="true">&#8599;</span></a>
+  <p class="gs-note">{t.note}</p>
+</div>
+
+<script>
+  // One listener for every store button on the page. gtag is defined by
+  // public/cookie-consent.js; GA4 attaches page_location itself, which is
+  // what splits the clicks by page.
+  document.addEventListener('click', (e) => {
+    const a = e.target instanceof Element && e.target.closest('a[data-gymbile]');
+    if (!a || typeof window.gtag !== 'function') return;
+    window.gtag('event', 'gymbile_click', {
+      store: a.getAttribute('data-gymbile'),
+      placement: a.getAttribute('data-placement'),
+      // NOT `language` — a reserved gtag field (see public/lf-newsletter.js).
+      site_language: document.documentElement.lang || 'en',
+    });
+  });
+</script>
+
+<style>
+  .gs { display: flex; flex-direction: column; gap: 10px; }
+  .gs-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 14px 22px;
+    background: var(--ink); color: var(--bg); text-decoration: none; border-radius: 0;
+    font-family: var(--font-body); font-weight: 700; font-size: var(--fs-fine); letter-spacing: 0.12em; text-transform: uppercase; text-align: center;
+    transition: background .2s ease;
+  }
+  .gs-btn:hover { background: var(--accent); }
+  .gs-btn.line { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+  .gs-btn.line:hover { background: var(--ink); color: var(--bg); }
+  .gs-note { margin: 2px 0 0; font-size: var(--fs-fine); color: var(--muted); text-align: center; }
+  @media (prefers-reduced-motion: reduce) { .gs-btn { transition: none; } }
+  @media (min-width: 560px) {
+    .gs-row { flex-direction: row; flex-wrap: wrap; }
+    .gs-row .gs-btn { flex: 1 1 200px; white-space: nowrap; }
+    .gs-row .gs-note { flex-basis: 100%; text-align: left; }
+  }
+</style>

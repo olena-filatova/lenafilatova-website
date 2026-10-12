@@ -153,6 +153,24 @@
       ]
     ]
   },
+  "/images/blood-sugar-too-steady-quality-of-life.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/blood-sugar-too-steady-quality-of-life-480.avif"
+      ],
+      [
+        800,
+        "/images/v/blood-sugar-too-steady-quality-of-life-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/blood-sugar-too-steady-quality-of-life-1200.avif"
+      ]
+    ]
+  },
   "/images/bmi-trajectory-prediabetes-women.jpg": {
     "w": 1200,
     "h": 675,
@@ -564,6 +582,24 @@
       [
         1200,
         "/images/v/glp1-pill-approved-uk-1200.avif"
+      ]
+    ]
+  },
+  "/images/glp1-plus-exercise-vs-drug-alone.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/glp1-plus-exercise-vs-drug-alone-480.avif"
+      ],
+      [
+        800,
+        "/images/v/glp1-plus-exercise-vs-drug-alone-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/glp1-plus-exercise-vs-drug-alone-1200.avif"
       ]
     ]
   },
@@ -1185,6 +1221,24 @@
       ]
     ]
   },
+  "/images/non-hormonal-hot-flushes-fezolinetant.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/non-hormonal-hot-flushes-fezolinetant-480.avif"
+      ],
+      [
+        800,
+        "/images/v/non-hormonal-hot-flushes-fezolinetant-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/non-hormonal-hot-flushes-fezolinetant-1200.avif"
+      ]
+    ]
+  },
   "/images/omega-3-weight-loss-gut-microbiome.jpg": {
     "w": 1200,
     "h": 675,
@@ -1595,6 +1649,24 @@
       ]
     ]
   },
+  "/images/type-2-diabetes-cancer-risk-women.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/type-2-diabetes-cancer-risk-women-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type-2-diabetes-cancer-risk-women-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type-2-diabetes-cancer-risk-women-1200.avif"
+      ]
+    ]
+  },
   "/images/type-2-diabetes-menopause-symptoms.jpg": {
     "w": 1200,
     "h": 675,
@@ -1700,6 +1772,24 @@
       [
         1200,
         "/images/v/vitamin-d-insulin-resistance-perimenopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/vitamin-d-telomeres-biological-ageing.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/vitamin-d-telomeres-biological-ageing-480.avif"
+      ],
+      [
+        800,
+        "/images/v/vitamin-d-telomeres-biological-ageing-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/vitamin-d-telomeres-biological-ageing-1200.avif"
       ]
     ]
   },

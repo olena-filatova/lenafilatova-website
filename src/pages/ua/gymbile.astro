@@ -1,0 +1,16 @@
+---
+// UA mirror of /gymbile/ — see src/pages/gymbile.astro.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GymbileBody from '../../components/GymbileBody.astro';
+import { GYMBILE } from '../../data/site.js';
+const t = GYMBILE.ua.page;
+---
+<BaseLayout
+  lang="ua"
+  title={t.seoTitle}
+  description={t.seoDesc}
+  canonical="/ua/gymbile/"
+  alternates={{ en: "/gymbile/", ua: "/ua/gymbile/" }}
+>
+  <GymbileBody lang="ua" />
+</BaseLayout>

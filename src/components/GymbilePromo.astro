@@ -1,0 +1,62 @@
+---
+// Gymbile promotion — the app Lena co-founded, for readers who want to build
+// healthy habits and keep them. Copy and store links live in GYMBILE in
+// site.js; see the note there on how downloads are attributed to pages.
+//
+// placement: 'home' | 'blog' | 'about' | 'post'. 'post' is the short version,
+// drawn inside the article's 640px column (no .wrap); the rest are a full band.
+// Store buttons and click tracking come from GymbileStores; every placement
+// also links to the /gymbile/ page.
+// `page` names the page in the tracking tags — the post slug on an article.
+import { GYMBILE } from '../data/site.js';
+import GymbileStores from './GymbileStores.astro';
+
+const { lang = 'en', placement = 'home', page = '' } = Astro.props;
+const t = GYMBILE[lang];
+const short = placement === 'post';
+const B = import.meta.env.BASE_URL;
+const L = lang === 'ua' ? `${B}ua/` : B;
+const pageHref = `${L}gymbile/`;
+---
+<section class={`gym gym-${placement}`} aria-labelledby={`gym-${placement}-title`}>
+  <div class={short ? 'gym-in' : 'wrap gym-in'}>
+    <div class="gym-copy">
+      <p class="gym-k">{t.kicker}</p>
+      <h2 id={`gym-${placement}-title`}>{short ? t.postTitle : t.title}</h2>
+      <p class="gym-body">{short ? t.postBody : t.body}</p>
+      {!short && (
+        <ul class="gym-pts">
+          {t.points.map((x) => <li>{x}</li>)}
+        </ul>
+      )}
+      <a class="gym-more" href={pageHref}>{t.more} <span aria-hidden="true">&#8594;</span></a>
+    </div>
+    <div class="gym-act">
+      <GymbileStores lang={lang} placement={placement} page={page} layout={short ? 'row' : 'stack'} short={short} />
+    </div>
+  </div>
+</section>
+
+<style>
+  .gym { background: var(--paper2); border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--rule); }
+  .gym-home, .gym-about { margin-top: 52px; }
+  .gym-blog { margin: 8px 0 28px; }
+  .gym-in { display: grid; gap: 22px; padding-top: 30px; padding-bottom: 30px; }
+  .gym-k { margin: 0 0 10px; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
+  .gym h2 { font-family: var(--font-head); font-weight: 400; color: var(--ink); font-size: var(--fs-h2); line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 12px; }
+  .gym-body { margin: 0; font-size: var(--fs-sub); line-height: 1.6; color: var(--muted); max-width: 56ch; }
+  .gym-pts { list-style: none; margin: 16px 0 0; padding: 0; }
+  .gym-pts li { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-top: 1px solid var(--line); font-size: var(--fs-small); color: var(--ink); }
+  .gym-pts li::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--accent); margin-top: 0.8em; }
+  .gym-act { align-self: end; }
+  .gym-more { display: inline-block; margin-top: 16px; padding: 4px 0; font-size: var(--fs-small); font-weight: 700; color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+  .gym-more:hover { color: var(--accent-deep); }
+
+  /* In an article: the column's own width, a box rather than a full band. */
+  .gym-post { margin: var(--sp-section) 0 0; border-bottom: 0; }
+  .gym-post .gym-in { padding: 28px 24px; }
+
+  @media (min-width: 820px) {
+    .gym-home .gym-in, .gym-blog .gym-in, .gym-about .gym-in { grid-template-columns: 1.6fr 1fr; gap: 48px; padding-top: 40px; padding-bottom: 40px; }
+  }
+</style>

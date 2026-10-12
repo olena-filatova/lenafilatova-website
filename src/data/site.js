@@ -8,8 +8,8 @@
 export const DEFAULT_SHARE_IMAGE = '/images/lena-filatova-womens-health-coach-over-40.jpg';
 
 export const NAV = {
-  en: { blog: 'Blog', resources: 'Resources', recipes: 'Recipes', about: 'About', contact: 'Contact', subscribe: 'Subscribe' },
-  ua: { blog: 'Блог', resources: 'Ресурси', recipes: 'Рецепти', about: 'Про мене', contact: 'Контакти', subscribe: 'Підписатися' },
+  en: { blog: 'Blog', resources: 'Resources', recipes: 'Recipes', about: 'About', app: 'App', contact: 'Contact', subscribe: 'Subscribe' },
+  ua: { blog: 'Блог', resources: 'Ресурси', recipes: 'Рецепти', about: 'Про мене', app: 'Застосунок', contact: 'Контакти', subscribe: 'Підписатися' },
 };
 
 export const FOOTER = {
@@ -79,11 +79,11 @@ export const ABOUT = {
   },
   ua: {
     seoTitle: 'Про Лену Філатову — авторка та коуч із діабетом 1 типу',
-    seoDesc: 'Знайомтесь із Леною Філатовою — авторка та коуч із науковим підходом до жіночого здоров’я після 40, живе з діабетом 1 типу понад два десятиліття.',
+    seoDesc: 'Знайомтеся з Леною Філатовою — авторкою та коучем із науковим підходом до жіночого здоров’я після 40, яка живе з діабетом 1 типу понад два десятиліття.',
     ogImage: '/images/lena-filatova-womens-health-coach-over-40.jpg',
     kicker: 'Про мене',
     h1: 'Привіт, я Лена.',
-    lead: 'Я живу з діабетом 1 типу з 2003 року — і всі ці роки допомагаю іншим жити з ним повноцінно. Усе, чого я навчаю, — з реального досвіду, а не з теорії.',
+    lead: 'Я живу з діабетом 1 типу з 2003 року — і всі ці роки вивчала те, про що майже ніхто не розповідає: як діабет, інсулінорезистентність і перименопауза перетинаються в жінок після 40. Моя робота — пояснювати це зрозуміліше і допомагати вам знову почуватися собою.',
     // Same three numbers as HOME.trust — see the EN note above.
     stats: [
       { n: '23 роки', l: 'життя з діабетом 1 типу' },
@@ -94,13 +94,13 @@ export const ABOUT = {
     storyLabel: 'Історія',
     story: [
       'Мені діагностували діабет 1 типу у 2003 році. Понад двадцять років щоденного контролю навчили мене, що справді працює, коли хронічний стан — частина звичайного життя, і наскільки спокійніше стає, коли страх поступається розумінню.',
-      'Я проводила вебінари та вела велнес-програми про життя з діабетом і заснувала Школу діабету — онлайн-школу, щоб донести ці знання ширше. Через школу та програми я підтримала понад 1200 жінок і родин у спокійному та впевненому контролі свого здоров’я, а сьогодні є співзасновницею продуктів для здоров’я й велнесу на основі AI, побудованих на тому самому підході.',
-      'Під час повномасштабного вторгнення в Україну у 2022 році я долучилася до гуманітарної місії з постачання українцям життєво важливих діабетичних засобів — координувала ресурси та підтримку для тих, хто раптово залишився без них. Сьогодні я застосовую цей самий практичний підхід без паніки, щоб допомагати жінкам після 40 бути сильними у кожній зміні.',
+      'Я проводила вебінари та вела велнес-програми про життя з діабетом і заснувала Школу діабету — онлайн-школу, щоб донести ці знання ширше. Через школу та програми я допомогла понад 1200 жінкам і родинам спокійно та впевнено взяти своє здоров’я під контроль, а сьогодні є співзасновницею продуктів для здоров’я й велнесу на основі AI, побудованих на тому самому підході.',
+      'Під час повномасштабного вторгнення в Україну у 2022 році я долучилася до гуманітарної місії з постачання українцям життєво важливих діабетичних засобів — координувала ресурси та підтримку для тих, хто раптово залишився без них. Сьогодні я застосовую цей самий практичний підхід без паніки, щоб допомагати жінкам після 40 почуватися сильними через кожну зміну.',
     ],
     valuesLabel: 'Як я працюю',
     values: [
-      { h: 'Спершу докази', p: 'Поради, засновані на дослідженнях, а не на трендах.' },
-      { h: 'Реалістично', p: 'Плани навколо вашого реального часу, а не ідеального тижня.' },
+      { h: 'Спершу докази', p: 'Поради, засновані на дослідженнях, а не на трендах чи швидких рішеннях.' },
+      { h: 'Реалістично', p: 'Плани, що враховують ваш реальний час, а не ідеальний тиждень.' },
       { h: 'Стабільно', p: 'Звички, які лишаються з вами після завершення програми.' },
     ],
     ctaTitle: 'Готові почати?',
@@ -196,6 +196,154 @@ export const MAILCHIMP = {
 // this repo now); HomeBody builds the language-scoped href and base-prefixes
 // the local image. Newsletter posts to the same Apps Script as all signups
 // (source=newsletter → Mailchimp double opt-in).
+/* --- most read (OPS-503) ---------------------------------------------------
+   The homepage used to feature posts picked by hand (OPS-299 / OPS-166).
+   Search Console then showed that the pages people actually arrive on are
+   mostly different ones — and that Ukraine is 53% of all clicks, so these are
+   two genuinely different lists rather than translations of each other.
+
+   REFRESHING IT after a weekly analytics review is the whole point of the
+   shape: edit the arrays, change nothing else. Three kinds of entry —
+
+     { post: 'slug' }    the title, section and date come from the post itself
+     { recipe: 'slug' }  the title comes from the recipe itself
+     { href, label }     anything else: a tool, a hub page. `href` is already
+                         language-specific, so it goes in that language's list.
+
+   A post or recipe slug that no longer exists is dropped when the site is
+   built, so a retired article can never ship here as a dead link.
+
+   Baseline (GSC, 28 days to 15 Sep 2026). EN: /cgm-comparison/ 5 clicks /
+   246 impressions, /recipes/ 2 / 126, /resources/food-calculator/ 1 / 7.
+   UA: does-weight-training-raise-blood-sugar 3 / 64, protein-for-women-over-40
+   1 / 9, endometriosis-type-2-diabetes-risk 1 / 8, avocado-mayonnaise 1 / 18.
+   The three EN posts are the OPS-491 page-two posts: a homepage link is the
+   internal link they need, which is why they sit in a band about traffic. */
+// Gymbile promotion — the app Lena co-founded. One snippet, three placements:
+// the homepage (before the newsletter), the blog hub (under the featured band)
+// and the foot of every blog post. Rendered by src/components/GymbilePromo.astro.
+//
+// TRACKING — which page drives downloads. Every store link carries the
+// placement and the page it was clicked on:
+//   - Google Play: a `referrer` of utm_source/medium/campaign/content, which
+//     Play Console reports under Acquisition → Campaigns.
+//   - App Store: `ct` (campaign token, max 40 chars). App Store Connect only
+//     attributes `ct` when `pt` (the provider token, App Store Connect →
+//     Analytics → Campaigns → Generate link) is present too. Until
+//     appStoreProviderToken is filled in, iPhone downloads are counted in
+//     App Store Connect but not split by page.
+//   - GA4: a `gymbile_click` event on every click (placement, store), which
+//     GA4 stores against the page it fired on — the page-level view that
+//     works for both stores today, for visitors who accepted cookies.
+export const GYMBILE = {
+  appStore: 'https://apps.apple.com/gb/app/gymbile/id6470671010',
+  appStoreProviderToken: '',
+  googlePlay: 'https://play.google.com/store/apps/details?id=com.gymbile.android',
+  utmSource: 'lenafilatova.co.uk',
+  en: {
+    playHl: 'en_GB',
+    kicker: 'The app I co-founded',
+    title: 'Healthy habits only count if they last.',
+    body: 'That’s why I co-founded Gymbile. Work out on your own and watch your progress build week by week — and when you want expert support, it matches you with the trainer or nutritionist best suited to your goals.',
+    points: [
+      'Train on your own, at your own pace',
+      'Track your progress and keep your rhythm going',
+      'Get matched with the right trainer or nutritionist',
+    ],
+    // The shorter version, at the foot of an article.
+    postTitle: 'Knowing what helps is the easy part. Doing it every week is harder.',
+    postBody: 'Gymbile, the app I co-founded, helps you work out on your own, track your progress and stay consistent — and matches you with a trainer or nutritionist for your goals.',
+    appStoreBtn: 'Download on the App Store',
+    playBtn: 'Get it on Google Play',
+    // Shorter labels for the narrow article column.
+    appStoreShort: 'App Store', playShort: 'Google Play',
+    note: 'Free to download and start using, on iPhone and Android.',
+    more: 'More about the app',
+    // The one-liner inside fitness, weight-loss and GLP-1 articles.
+    inline: 'Want help turning this into a habit? Try Gymbile, the free app I co-founded.',
+    inlineLink: 'See the app',
+    // The /gymbile/ page (linked as "App" from the header and footer).
+    page: {
+      seoTitle: 'Gymbile — the habit and fitness app I co-founded | Lena Filatova',
+      seoDesc: 'Gymbile helps you work out on your own, track your progress and stay consistent — and matches you with the right trainer or nutritionist. Free on iPhone and Android.',
+      kicker: 'The app I co-founded',
+      h1: 'Build healthy habits that last.',
+      lead: 'Gymbile is the app I co-founded to help you keep going once the motivation wears off: work out on your own, see your progress add up, and get matched with the trainer or nutritionist who suits your goals.',
+      featuresLabel: 'What you can do with it',
+      features: [
+        { h: 'Train on your own', p: 'Work out at your own pace, whenever it fits your day. No class times, no waiting for someone else.' },
+        { h: 'See your progress', p: 'Track what you’ve done week by week, so you can see the habit forming instead of guessing.' },
+        { h: 'Find the right expert', p: 'When you want support, Gymbile matches you with the trainer or nutritionist best suited to your goals.' },
+      ],
+      whyLabel: 'Why I co-founded it',
+      why: [
+        'After more than twenty years with type 1 diabetes, and years of supporting women through perimenopause, I’ve learned that knowing what helps is rarely the hard part. Keeping it going is.',
+        'Gymbile is the tool I wanted for that: one place to do the work, see that it’s adding up, and bring the right professional in when you need one.',
+      ],
+      endTitle: 'Start today. It’s free.',
+    },
+  },
+  ua: {
+    playHl: 'uk',
+    kicker: 'Застосунок, який я співзаснувала',
+    title: 'Здорові звички мають значення, лише коли вони тривають.',
+    body: 'Саме тому я співзаснувала Gymbile. Тренуйтеся самостійно й бачте, як ваш прогрес зростає тиждень за тижнем, а коли знадобиться підтримка фахівця — застосунок підбере тренера чи нутриціолога саме під ваші цілі.',
+    points: [
+      'Тренуйтеся самостійно, у власному темпі',
+      'Відстежуйте прогрес і не втрачайте ритм',
+      'Отримайте тренера чи нутриціолога під ваші цілі',
+    ],
+    postTitle: 'Знати, що допомагає, — легко. Робити це щотижня — складніше.',
+    postBody: 'Gymbile — застосунок, який я співзаснувала, — допомагає тренуватися самостійно, відстежувати прогрес і не збиватися з ритму, а також підбирає тренера чи нутриціолога під ваші цілі.',
+    appStoreBtn: 'Завантажити в App Store',
+    playBtn: 'Завантажити з Google Play',
+    appStoreShort: 'App Store', playShort: 'Google Play',
+    note: 'Безкоштовно завантажити й почати користуватися — на iPhone та Android.',
+    more: 'Більше про застосунок',
+    inline: 'Хочете, щоб це стало звичкою? Спробуйте Gymbile — безкоштовний застосунок, який я співзаснувала.',
+    inlineLink: 'Детальніше',
+    page: {
+      seoTitle: 'Gymbile — застосунок для звичок і фітнесу, який я співзаснувала | Лена Філатова',
+      seoDesc: 'Gymbile допомагає тренуватися самостійно, відстежувати прогрес і не збиватися з ритму, а також підбирає тренера чи нутриціолога під ваші цілі. Безкоштовно на iPhone та Android.',
+      kicker: 'Застосунок, який я співзаснувала',
+      h1: 'Здорові звички, які залишаються з вами.',
+      lead: 'Gymbile — застосунок, який я співзаснувала, щоб допомогти вам не зупинятися, коли мотивація згасає: тренуйтеся самостійно, бачте, як накопичується прогрес, і знайдіть тренера чи нутриціолога, який підходить саме під ваші цілі.',
+      featuresLabel: 'Що він уміє',
+      features: [
+        { h: 'Тренуйтеся самостійно', p: 'У власному темпі, коли це зручно саме вам. Без розкладу занять і без очікування на інших.' },
+        { h: 'Бачте свій прогрес', p: 'Відстежуйте, що ви зробили тиждень за тижнем, — і бачте, як формується звичка, а не гадайте.' },
+        { h: 'Знайдіть свого фахівця', p: 'Коли знадобиться підтримка, Gymbile підбере тренера чи нутриціолога, який найкраще підходить під ваші цілі.' },
+      ],
+      whyLabel: 'Чому я його співзаснувала',
+      why: [
+        'Понад двадцять років я живу з діабетом 1 типу і багато років підтримую жінок у період перименопаузи. За цей час я зрозуміла: знати, що допомагає, — рідко найважче. Найважче — не кидати.',
+        'Gymbile — інструмент, якого мені для цього бракувало: одне місце, щоб робити свою справу, бачити, що вона дає результат, і залучати потрібного фахівця, коли він вам потрібен.',
+      ],
+      endTitle: 'Почніть сьогодні. Це безкоштовно.',
+    },
+  },
+};
+
+export const MOST_READ = {
+  en: [
+    { href: '/cgm-comparison/', label: 'CGM sensor comparison', kicker: 'Tool' },
+    { href: '/resources/food-calculator/', label: 'Metabolic food calculator', kicker: 'Tool' },
+    { href: '/recipes/', label: 'Low-GI recipes', kicker: 'Recipes' },
+    { post: 'does-weight-training-raise-blood-sugar' },
+    { post: 'protein-for-women-over-40' },
+    { post: 'fermented-foods-gut-microbiome-review' },
+  ],
+  ua: [
+    { post: 'does-weight-training-raise-blood-sugar' },
+    { post: 'endometriosis-type-2-diabetes-risk' },
+    { post: 'protein-for-women-over-40' },
+    /* /ua/resources/cgm-comparison/ is a redirect — this is where it lands. */
+    { href: '/cgm-comparison-ua/', label: 'Порівняння CGM-сенсорів', kicker: 'Інструмент' },
+    { href: '/ua/resources/food-calculator/', label: 'Калькулятор впливу їжі', kicker: 'Інструмент' },
+    { recipe: 'avocado-mayonnaise' },
+  ],
+};
+
 export const HOME = {
   en: {
     seoTitle: 'Lena Filatova — Evidence-based women’s health after 40',
@@ -232,6 +380,8 @@ export const HOME = {
     recipeDoc: 'Wonderful recipes.',
     recipeDocWho: 'Natalia Silina · Gynaecologist-endocrinologist',
     toolsFree: 'No sign-up · No paywall',
+    mostReadLabel: 'Most read',
+    mostReadNote: 'The pages people find first — updated from the search report.',
     waitlistTitle: 'Courses and guides are coming.',
     waitlistText: 'Newsletter subscribers get first access — and founding prices.',
     waitlistCta: 'Join the list',
@@ -295,6 +445,8 @@ export const HOME = {
     recipeDoc: 'Чудові рецепти.',
     recipeDocWho: 'Наталія Сіліна · Гінекологиня-ендокринологиня',
     toolsFree: 'Без реєстрації · Без оплати',
+    mostReadLabel: 'Найпопулярніше',
+    mostReadNote: 'Сторінки, які знаходять найчастіше — за даними пошуку.',
     waitlistTitle: 'Курси та посібники вже готуються.',
     waitlistText: 'Підписники розсилки отримають доступ першими — і за стартовою ціною.',
     waitlistCta: 'Приєднатися',
@@ -706,7 +858,7 @@ export const LEGAL = {
       seoDesc: 'How Selfound Ltd collects, uses and protects your personal data on lenafilatova.co.uk, under UK GDPR and the Data Protection Act 2018.',
       kicker: 'Legal',
       h1: 'Privacy Policy',
-      updated: 'Last updated 10 July 2026',
+      updated: 'Last updated 3 October 2026',
       intro: 'This policy explains how <strong>Selfound Ltd</strong> (“we”, “us”, “our”) collects and uses your personal data when you visit <strong>lenafilatova.co.uk</strong>, subscribe to our newsletter, or get in touch. We are the data controller under the UK GDPR and the Data Protection Act 2018.',
       sections: [
         { h: 'Who we are', body: [
@@ -718,7 +870,7 @@ export const LEGAL = {
             '<strong>Newsletter details</strong> — your name (if given) and email address when you subscribe.',
             '<strong>Messages</strong> — your name, email and the content of any message you send us through the contact form or by email.',
             '<strong>Booking details</strong> — your name, email and anything you choose to share when you book an introductory or coaching call.',
-            '<strong>Usage data</strong> — if (and only if) you accept analytics cookies: approximate location, device and browser type, and the pages you view. See our <a href="/cookies/">Cookie Policy</a>.',
+            '<strong>Usage data</strong> — if (and only if) you accept analytics cookies: approximate location, device and browser type, and the pages you view. Separately, we use cookieless analytics that counts page views without cookies, without identifiers and without storing personal data. See our <a href="/cookies/">Cookie Policy</a>.',
           ]},
         ]},
         { h: 'How and why we use it', body: [
@@ -736,6 +888,7 @@ export const LEGAL = {
             '<strong>Mailchimp</strong> (Intuit Inc., USA) — to manage the newsletter.',
             '<strong>Google</strong> (Google Ireland Ltd / Google LLC) — for our email, contact-form handling (Google Apps Script), call bookings (Google Calendar) and website analytics (Google Analytics).',
             '<strong>GitHub</strong> (GitHub, Inc., a Microsoft company) — to host the website.',
+            '<strong>Cloudflare</strong> (Cloudflare, Inc., USA) — to deliver the site and to provide cookieless web analytics.',
           ]},
           'We may also disclose data if required to do so by law.',
         ]},
@@ -774,7 +927,7 @@ export const LEGAL = {
       seoDesc: 'Як Selfound Ltd збирає, використовує та захищає ваші персональні дані на lenafilatova.co.uk згідно з UK GDPR та Data Protection Act 2018.',
       kicker: 'Правова інформація',
       h1: 'Політика конфіденційності',
-      updated: 'Оновлено 10 липня 2026',
+      updated: 'Оновлено 3 жовтня 2026',
       intro: 'Ця політика пояснює, як <strong>Selfound Ltd</strong> («ми», «нас», «наш») збирає та використовує ваші персональні дані, коли ви відвідуєте <strong>lenafilatova.co.uk</strong>, підписуєтесь на розсилку або звертаєтесь до нас. Ми є контролером даних згідно з UK GDPR та Data Protection Act 2018.',
       sections: [
         { h: 'Хто ми', body: [
@@ -786,7 +939,7 @@ export const LEGAL = {
             '<strong>Дані для розсилки</strong> — ваше ім’я (якщо вказано) та email, коли ви підписуєтесь.',
             '<strong>Повідомлення</strong> — ваше ім’я, email і зміст будь-якого повідомлення через форму контакту або електронною поштою.',
             '<strong>Дані бронювання</strong> — ваше ім’я, email і те, чим ви вирішите поділитися, коли записуєтесь на вступний чи коучинговий дзвінок.',
-            '<strong>Дані про використання</strong> — якщо (і тільки якщо) ви приймаєте аналітичні файли cookie: приблизне місцезнаходження, тип пристрою й браузера та переглянуті сторінки. Див. нашу <a href="/ua/cookies/">Політику cookie</a>.',
+            '<strong>Дані про використання</strong> — якщо (і тільки якщо) ви приймаєте аналітичні файли cookie: приблизне місцезнаходження, тип пристрою й браузера та переглянуті сторінки. Окремо ми використовуємо аналітику без cookie, яка рахує перегляди сторінок без файлів cookie, без ідентифікаторів і без зберігання персональних даних. Див. нашу <a href="/ua/cookies/">Політику cookie</a>.',
           ]},
         ]},
         { h: 'Як і навіщо ми їх використовуємо', body: [
@@ -804,6 +957,7 @@ export const LEGAL = {
             '<strong>Mailchimp</strong> (Intuit Inc., США) — для керування розсилкою.',
             '<strong>Google</strong> (Google Ireland Ltd / Google LLC) — для нашої пошти, обробки форми контакту (Google Apps Script), бронювання дзвінків (Google Calendar) та аналітики сайту (Google Analytics).',
             '<strong>GitHub</strong> (GitHub, Inc., компанія Microsoft) — для хостингу сайту.',
+            '<strong>Cloudflare</strong> (Cloudflare, Inc., США) — для доставки сайту та аналітики без cookie.',
           ]},
           'Ми також можемо розкрити дані, якщо цього вимагає закон.',
         ]},
@@ -845,7 +999,7 @@ export const LEGAL = {
       seoDesc: 'How lenafilatova.co.uk uses cookies. We keep it minimal: an essential consent cookie and optional analytics only after you agree.',
       kicker: 'Legal',
       h1: 'Cookie Policy',
-      updated: 'Last updated 10 July 2026',
+      updated: 'Last updated 3 October 2026',
       intro: 'This policy explains how <strong>lenafilatova.co.uk</strong> uses cookies and similar technologies. It should be read alongside our <a href="/privacy/">Privacy Policy</a>.',
       sections: [
         { h: 'What cookies are', body: [
@@ -857,6 +1011,7 @@ export const LEGAL = {
             '<strong>Essential</strong> — one cookie that remembers your cookie-consent choice, so we don’t ask on every page.',
             '<strong>Analytics (optional)</strong> — Google Analytics (GA4) helps us understand how the site is used. These are set <em>only</em> after you accept them.',
           ]},
+          'We also use <strong>Cloudflare Web Analytics</strong>, which is cookieless. It sets no cookies, stores no personal data and writes nothing to your device — it simply counts page views so we can see how many people visit at all. Because it neither stores nor reads anything on your device, it does not require your consent and is not affected by the banner. Declining still switches Google Analytics off completely.',
           'We do <strong>not</strong> use advertising or cross-site tracking cookies.',
         ]},
         { h: 'Managing your consent', body: [
@@ -878,7 +1033,7 @@ export const LEGAL = {
       seoDesc: 'Як lenafilatova.co.uk використовує файли cookie. Мінімум: необхідний cookie згоди та опційна аналітика лише після вашої згоди.',
       kicker: 'Правова інформація',
       h1: 'Політика cookie',
-      updated: 'Оновлено 10 липня 2026',
+      updated: 'Оновлено 3 жовтня 2026',
       intro: 'Ця політика пояснює, як <strong>lenafilatova.co.uk</strong> використовує файли cookie та подібні технології. Її слід читати разом із нашою <a href="/ua/privacy/">Політикою конфіденційності</a>.',
       sections: [
         { h: 'Що таке cookie', body: [
@@ -890,6 +1045,7 @@ export const LEGAL = {
             '<strong>Необхідні</strong> — один cookie, який запам’ятовує ваш вибір щодо згоди, щоб ми не запитували на кожній сторінці.',
             '<strong>Аналітичні (опційні)</strong> — Google Analytics (GA4) допомагає зрозуміти, як використовується сайт. Вони встановлюються <em>лише</em> після вашої згоди.',
           ]},
+          'Ми також використовуємо <strong>Cloudflare Web Analytics</strong> — аналітику без cookie. Вона не встановлює файлів cookie, не зберігає персональних даних і нічого не записує на ваш пристрій: вона лише рахує перегляди сторінок, щоб ми бачили, скільки людей взагалі заходить на сайт. Оскільки вона нічого не зберігає й не зчитує з вашого пристрою, вона не потребує вашої згоди й не залежить від банера. Відмова, як і раніше, повністю вимикає Google Analytics.',
           'Ми <strong>не</strong> використовуємо рекламні файли cookie чи міжсайтове відстеження.',
         ]},
         { h: 'Керування згодою', body: [
@@ -1121,7 +1277,7 @@ export const LEGAL = {
           ]},
         ]},
         { h: 'Відомі обмеження', body: [
-          'Деякі сторонні вставки — наприклад, віджет бронювання Google Calendar — і частина старішого контенту можуть не повністю відповідати нашим стандартам. Ми працюємо над їх покращенням.',
+          'Деякі сторонні вставки — наприклад, віджет бронювання Google Calendar — і частина старішого контенту можуть не повністю відповідати нашим стандартам. Ми працюємо над їх покращенням з часом.',
         ]},
         { h: 'Відгуки та допомога', body: [
           'Якщо у вас виникають труднощі з доступом до будь-якої частини сайту або потрібна інформація в іншому форматі, напишіть на <a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a>, і ми допоможемо. Ми прагнемо відповісти протягом 5 робочих днів.',
