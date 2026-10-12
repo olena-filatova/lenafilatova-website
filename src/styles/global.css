@@ -249,9 +249,16 @@ img { max-width: 100%; display: block; }
    `.kicker` used to live here. It was the page-label device on About, Contact,
    Shop and the legal pages; all four now open with the shared `.est` masthead
    (label + hairline) instead, leaving nothing that used it. */
-/* Square, weighty, no pill. Matches .ed-btn on the homepage: same height, same
-   tracking, same magenta. Hover deepens the fill rather than brightening it —
-   brightness(1.08) on this magenta washes it towards pink. */
+/* OPS-539: one button system. There were three — `.btn` here, `.ed-btn` in
+   HomeBody.astro and a hand-rolled `.post .cta a` in blog.css — all three
+   square, weighty and magenta, none quite the same height. They are now all
+   `.btn` plus a variant:
+     (default)  primary, magenta fill
+     .ghost     1px ink outline, for a real alternative action
+     .link      text link with an arrow, for a secondary action that should
+                not compete with the primary
+   Hover deepens the fill rather than brightening it — brightness(1.08) on this
+   magenta washes it towards pink. */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -263,6 +270,13 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   font-size: var(--fs-small);
   font-family: var(--font-body);
+  /* OPS-539: `.btn` never set its own line-height, so it inherited whatever the
+     page had and came out a different height everywhere — 50px in the
+     newsletter (no inherited line-height), 51px on About and the homepage
+     (body 1.6), 53px inside an article (prose 1.75). That, not the two class
+     names, is why the buttons never quite matched. Fixed at 1.2 so the 50px
+     min-height is what decides the height. */
+  line-height: 1.2;
   padding: 13px 26px;
   border-radius: 0;
   border: 0;
@@ -270,6 +284,13 @@ img { max-width: 100%; display: block; }
   transition: background .2s ease;
 }
 .btn:hover { background: var(--accent-deep); }
+/* OPS-539: `.btn` had no focus ring of its own, so keyboard users got the
+   browser default. The newsletter and article-CTA buttons sit on ink and
+   override this with a white ring further down. */
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* The arrow that rides on a CTA. Head face so it matches the editorial
+   arrows elsewhere (.ed-read-list, .ed-wait). */
+.btn .ar { font-family: var(--font-head); font-size: 18px; line-height: 1; }
 
 /* --- header ---------------------------------------------------------------
    Editorial masthead: paper ground, a serif wordmark, and the nav set in
@@ -770,9 +791,33 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 }
 
 /* Outline variant. The rule is an inset shadow rather than a border so it does
-   not add 2px to the box — a ghost button must line up with a filled one. */
-.btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+   not add 2px to the box — a ghost button must line up with a filled one.
+   OPS-539: thinned from 1.5px to 1px. At 1.5px the outline carried as much
+   weight on the page as a filled button, which is the opposite of what a
+   secondary action should do. */
+.btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
 .btn.ghost:hover { background: var(--ink); color: var(--bg); }
+
+/* Text-link variant: the lightest of the three. No box at all — an underlined
+   label and an arrow — so it reads as a link while keeping the 50px target
+   height the rest of the system has. The 2px accent underline is the same
+   device as `.ed-wait a` on the homepage. */
+.btn.link {
+  background: transparent;
+  color: var(--ink);
+  padding: 13px 0;
+  gap: 8px;
+  align-self: start;
+  justify-content: flex-start;
+}
+.btn.link .lbl { border-bottom: 2px solid var(--accent); padding-bottom: 3px; }
+.btn.link .ar { color: var(--accent); transition: transform .2s ease; }
+.btn.link:hover { background: transparent; color: var(--accent-deep); }
+.btn.link:hover .ar { transform: translateX(4px); }
+@media (prefers-reduced-motion: reduce) {
+  .btn.link .ar { transition: none; }
+  .btn.link:hover .ar { transform: none; }
+}
 /* newsletter — the one signup block, shared by every page including the
    homepage (which passes .ed-nl for spacing only). Square ink panel. */
 .newsletter .nl-box { background: var(--ink); border-radius: 0; padding: 48px; text-align: center; }
