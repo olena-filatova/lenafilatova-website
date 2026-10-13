@@ -22,7 +22,12 @@ import '../styles/blog.css';
 // Eight groups at once is 40-odd links between the reader and the articles;
 // Lena asked for fewer on screen at all times. The Topics page passes
 // tabs={false} — it IS the full index, so it keeps every group open.
-const { lang = 'en', heading = true, exclude = null, tabs = true } = Astro.props;
+//
+// `uid` prefixes the tab/panel ids and `place` adds a `cloud--<place>` class.
+// The Journal index renders the cloud twice — under the title for wide
+// screens, above the grid for narrow ones — and shows one of them (see
+// BlogHubBody and blog.css), so the ids have to differ between the two.
+const { lang = 'en', heading = true, exclude = null, tabs = true, uid = 'cloud', place = null } = Astro.props;
 const t = UI[lang];
 const B = import.meta.env.BASE_URL;
 const all = withWeights(resolveTags(POSTS));
@@ -35,7 +40,7 @@ const groups = TAG_GROUPS.map((g) => ({ ...g, items: tags.filter((x) => x.group 
 const home = exclude && all.find((x) => x.key === exclude)?.group;
 const open = (groups.find((g) => g.key === home) || groups[0])?.key;
 ---
-<section class="cloud" data-tabs={tabs ? '' : undefined}>
+<section class={`cloud${place ? ` cloud--${place}` : ''}`} data-tabs={tabs ? '' : undefined}>
   <div class="wrap">
     {tabs ? (
       <div class="hub-bar">
@@ -46,8 +51,8 @@ const open = (groups.find((g) => g.key === home) || groups[0])?.key;
               class={`chip${g.key === open ? ' on' : ''}`}
               type="button"
               role="tab"
-              id={`cloud-tab-${g.key}`}
-              aria-controls={`cloud-panel-${g.key}`}
+              id={`${uid}-tab-${g.key}`}
+              aria-controls={`${uid}-panel-${g.key}`}
               aria-selected={g.key === open ? 'true' : 'false'}
               tabindex={g.key === open ? 0 : -1}>
               {g[lang]}
@@ -73,9 +78,9 @@ const open = (groups.find((g) => g.key === home) || groups[0])?.key;
       {groups.map((g) => (
         <div
           class="cloud-group"
-          id={tabs ? `cloud-panel-${g.key}` : undefined}
+          id={tabs ? `${uid}-panel-${g.key}` : undefined}
           role={tabs ? 'tabpanel' : undefined}
-          aria-labelledby={tabs ? `cloud-tab-${g.key}` : undefined}
+          aria-labelledby={tabs ? `${uid}-tab-${g.key}` : undefined}
           hidden={tabs && g.key !== open}>
           <h3>{g[lang]}</h3>
           <ul>
@@ -109,7 +114,21 @@ const open = (groups.find((g) => g.key === home) || groups[0])?.key;
             document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
           });
           if (focus) tab.focus();
+          reveal(tab);
         }
+        // On narrow screens the tabs are one swipeable line (blog.css), so the
+        // selected one can sit off the edge — on a tag page the open group is
+        // whichever the tag belongs to. Scroll the strip, never the page.
+        function reveal(tab) {
+          var strip = tab.parentNode;
+          if (strip.scrollWidth <= strip.clientWidth) return;
+          var left = tab.offsetLeft - strip.offsetLeft;
+          if (left < strip.scrollLeft || left + tab.offsetWidth > strip.scrollLeft + strip.clientWidth) {
+            strip.scrollLeft = Math.max(0, left - 24);
+          }
+        }
+        var current = cloud.querySelector('[role="tab"][aria-selected="true"]');
+        if (current) reveal(current);
         tabs.forEach(function (tab, i) {
           tab.addEventListener('click', function () { pick(tab); });
           tab.addEventListener('keydown', function (e) {
