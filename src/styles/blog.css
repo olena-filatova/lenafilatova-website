@@ -811,6 +811,9 @@
    repeat the selected tab, so it goes; the tags then run the full measure as
    one paragraph of links, which is what the size steps were drawn for. */
 .cloud[data-tabs] .hub-bar { margin-top: 0; margin-bottom: 18px; }
+/* With the category bar hidden the tabs are the first ruled row under the
+   Gymbile panel, so they take the breathing room that bar used to bring. */
+.hub-filter[hidden] + .cloud[data-tabs] .hub-bar { margin-top: 52px; }
 .cloud[data-tabs] .cloud-groups { display: block; columns: auto; }
 .cloud[data-tabs] .cloud-group { margin-bottom: 0; }
 .cloud[data-tabs] .cloud-group h3 { display: none; }
