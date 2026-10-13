@@ -817,7 +817,13 @@
 .cloud[data-tabs] .cloud-groups { display: block; columns: auto; }
 .cloud[data-tabs] .cloud-group { margin-bottom: 0; }
 .cloud[data-tabs] .cloud-group h3 { display: none; }
-.cloud[data-tabs] .cloud-group ul { gap: 4px 22px; }
+.cloud[data-tabs] .cloud-group ul { gap: 6px 24px; }
+/* One size here (OPS-604). The five steps compare topics across the whole
+   journal; inside a single group of five or ten they only made a ragged line,
+   and the count beside each name already says how much there is. The Topics
+   page, which shows every group at once, keeps the steps. */
+.cloud[data-tabs] .cloud-group a[data-w] { font-size: 18px; letter-spacing: 0; color: var(--ink); }
+.cloud[data-tabs] .cloud-group a[data-w]:hover { color: var(--accent); }
 
 /* --- a tag's own page --- */
 .tag-hero .lede { max-width: 54ch; }
