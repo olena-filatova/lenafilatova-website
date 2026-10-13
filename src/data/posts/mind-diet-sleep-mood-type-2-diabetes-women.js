@@ -1,6 +1,7 @@
 export default {
   "slug": "mind-diet-sleep-mood-type-2-diabetes-women",
   "date": "2026-10-12",
+  "featured": true,
   "image": "/images/mind-diet-sleep-mood-type-2-diabetes-women.jpg",
   "cats": [
     "nutrition",

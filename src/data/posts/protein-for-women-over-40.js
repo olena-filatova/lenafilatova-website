@@ -1,7 +1,6 @@
 export default {
   "slug": "protein-for-women-over-40",
   "date": "2026-07-04",
-  "featured": true,
   "image": "/images/protein-for-women-over-40.jpg",
   "cats": [
     "nutrition"

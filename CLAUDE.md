@@ -222,6 +222,21 @@ Rules:
    a deploy — so it is easy to miss. Read the build output.
 
 Picks are editorial, so prefer evergreen pillars over news items: a digest post
-flagged today reads as stale within a fortnight. The current four are the
-perimenopause-and-diabetes pillar, the protein guide, the strength-training
-starter and the post-meal walk — one per major theme, all evergreen.
+flagged today reads as stale within a fortnight.
+
+**The mix is two newest + two evergreen, refreshed once a week** (Lena's rule,
+13 Oct 2026, OPS-604):
+
+- **Two newest:** the two most recent published Journal posts by `date`. The
+  newer one leads the band.
+- **Two evergreen:** from the pool below, picked so the four cards cover four
+  different themes where possible, and rotated — do not leave the same two in
+  for more than a couple of weeks running.
+- **Weekly:** re-pick every week, on a `claude/*` branch → PR. If the two newest
+  posts have not changed since the last refresh, only rotate the evergreen pair.
+  The local scheduled task `weekly-blog-featured-refresh` does this on Sundays,
+  ahead of the Sunday PR-merge routine.
+
+Evergreen pool (add a pillar here when one is published): `glp1-what-we-know`,
+`protein-for-women-over-40`, `strength-training-perimenopause-beginners`,
+`walking-after-meals-blood-sugar`.
