@@ -18,25 +18,65 @@ import { resolveTags, withWeights, tagPath, UI } from '../data/tags-lib.js';
 // import, so pages that already pull blog.css are unaffected.
 import '../styles/blog.css';
 
-const { lang = 'en', heading = true, exclude = null } = Astro.props;
+// `tabs` (OPS-604): one group open at a time, picked from a row of group names.
+// Eight groups at once is 40-odd links between the reader and the articles;
+// Lena asked for fewer on screen at all times. The Topics page passes
+// tabs={false} — it IS the full index, so it keeps every group open.
+const { lang = 'en', heading = true, exclude = null, tabs = true } = Astro.props;
 const t = UI[lang];
 const B = import.meta.env.BASE_URL;
-const tags = withWeights(resolveTags(POSTS)).filter((x) => x.key !== exclude);
+const all = withWeights(resolveTags(POSTS));
+const tags = all.filter((x) => x.key !== exclude);
 const groups = TAG_GROUPS.map((g) => ({ ...g, items: tags.filter((x) => x.group === g.key) })).filter(
   (g) => g.items.length
 );
+// Open by default: on a tag page, the group the reader is already in (its
+// siblings are the likeliest next click); everywhere else, the first group.
+const home = exclude && all.find((x) => x.key === exclude)?.group;
+const open = (groups.find((g) => g.key === home) || groups[0])?.key;
 ---
-<section class="cloud">
+<section class="cloud" data-tabs={tabs ? '' : undefined}>
   <div class="wrap">
-    {heading && (
-      <div class="hub-head">
+    {tabs ? (
+      <div class="hub-bar">
         <span class="fk">{t.cloudTitle}</span>
+        <div class="blog-filters cloud-tabs" role="tablist" aria-label={t.cloudTitle}>
+          {groups.map((g) => (
+            <button
+              class={`chip${g.key === open ? ' on' : ''}`}
+              type="button"
+              role="tab"
+              id={`cloud-tab-${g.key}`}
+              aria-controls={`cloud-panel-${g.key}`}
+              aria-selected={g.key === open ? 'true' : 'false'}
+              tabindex={g.key === open ? 0 : -1}>
+              {g[lang]}
+            </button>
+          ))}
+        </div>
       </div>
+    ) : (
+      heading && (
+        <div class="hub-head">
+          <span class="fk">{t.cloudTitle}</span>
+        </div>
+      )
     )}
-    {heading && <p class="cloud-lead">{t.cloudLead}</p>}
+    {heading && !tabs && <p class="cloud-lead">{t.cloudLead}</p>}
+    {/* Without JS the tabs cannot switch, so every group shows instead. */}
+    {tabs && (
+      <noscript>
+        <style>{`.cloud[data-tabs] .cloud-group[hidden]{display:block}.cloud[data-tabs] .cloud-tabs{display:none}.cloud[data-tabs] .cloud-group h3{display:block}`}</style>
+      </noscript>
+    )}
     <div class="cloud-groups">
       {groups.map((g) => (
-        <div class="cloud-group">
+        <div
+          class="cloud-group"
+          id={tabs ? `cloud-panel-${g.key}` : undefined}
+          role={tabs ? 'tabpanel' : undefined}
+          aria-labelledby={tabs ? `cloud-tab-${g.key}` : undefined}
+          hidden={tabs && g.key !== open}>
           <h3>{g[lang]}</h3>
           <ul>
             {g.items.map((x) => (
@@ -55,3 +95,31 @@ const groups = TAG_GROUPS.map((g) => ({ ...g, items: tags.filter((x) => x.group 
     </div>
   </div>
 </section>
+{tabs && (
+  <script is:inline>
+    (function () {
+      document.querySelectorAll('.cloud[data-tabs]').forEach(function (cloud) {
+        var tabs = [].slice.call(cloud.querySelectorAll('[role="tab"]'));
+        function pick(tab, focus) {
+          tabs.forEach(function (x) {
+            var on = x === tab;
+            x.classList.toggle('on', on);
+            x.setAttribute('aria-selected', on ? 'true' : 'false');
+            x.tabIndex = on ? 0 : -1;
+            document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
+          });
+          if (focus) tab.focus();
+        }
+        tabs.forEach(function (tab, i) {
+          tab.addEventListener('click', function () { pick(tab); });
+          tab.addEventListener('keydown', function (e) {
+            var to = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : null;
+            if (to === null) return;
+            e.preventDefault();
+            pick(tabs[(to + tabs.length) % tabs.length], true);
+          });
+        });
+      });
+    })();
+  </script>
+)}

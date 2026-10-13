@@ -805,6 +805,17 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* --- the cloud, tabbed (OPS-604) ---
+   One group at a time under a row of group names, in the same ruled bar and
+   chips as the Journal filters directly above it. The group's own h3 would
+   repeat the selected tab, so it goes; the tags then run the full measure as
+   one paragraph of links, which is what the size steps were drawn for. */
+.cloud[data-tabs] .hub-bar { margin-top: 0; margin-bottom: 18px; }
+.cloud[data-tabs] .cloud-groups { display: block; columns: auto; }
+.cloud[data-tabs] .cloud-group { margin-bottom: 0; }
+.cloud[data-tabs] .cloud-group h3 { display: none; }
+.cloud[data-tabs] .cloud-group ul { gap: 4px 22px; }
+
 /* --- a tag's own page --- */
 .tag-hero .lede { max-width: 54ch; }
 .tag-back {
