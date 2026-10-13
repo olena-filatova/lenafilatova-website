@@ -815,7 +815,7 @@ export const RECIPES = [
     slug: 'spiced-apple-chips', dateAdded: '2026-07-10', img: '69-spiced-apple-chips.jpg', cat: 'snack', gi: 36,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Spiced Apple Chips', ua: 'Пряні яблучні чипси' },
-    why: { en: 'Thin apple slices baked crisp with cinnamon and nutmeg — no added sugar, a naturally sweet, fibre-rich snack. Best in moderation, as drying concentrates the fruit sugars.', ua: 'Тонкі скибочки яблука, запечені до хрусткості з корицею й мускатним горіхом — без доданого цукру, природно солодкий перекус із клітковиною. Найкраще помірно, бо сушіння концентрує фруктовий цукор.' },
+    why: { en: 'Thin apple slices baked crisp with cinnamon and nutmeg — no added sugar, a naturally sweet, fibre-rich snack. Best in moderation, as drying concentrates the fruit sugars.', ua: 'Тонкі скибочки яблука, запечені до хрусткості з корицею й мускатним горіхом — без доданого цукру, природно солодкий перекус із клітковиною. Найкраще в міру, бо сушіння концентрує фруктовий цукор.' },
     nutrition: { en: 'Per serving (est.): ~85 kcal · Carbs 22 g · Fat 0 g · Protein 0 g', ua: 'На порцію (прибл.): ~85 ккал · Вуглеводи 22 г · Жири 0 г · Білки 0 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '2 h', ua: '2 год' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['3 apples','1 tsp cinnamon','1 g ground nutmeg'], ua: ['3 яблука','1 ч. л. кориці','1 г меленого мускатного горіха'] },
