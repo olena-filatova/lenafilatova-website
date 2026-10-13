@@ -1,6 +1,7 @@
 export default {
   "slug": "strength-training-perimenopause-beginners",
   "date": "2026-08-14",
+  "featured": true,
   "image": "/images/strength-training-perimenopause-beginners.jpg",
   "cats": [
     "fitness",
