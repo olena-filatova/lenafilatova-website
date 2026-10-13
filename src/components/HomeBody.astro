@@ -77,11 +77,12 @@ const featuredRecipe = HOME.recipe;
 // Four tools, ordered by usefulness to someone new: what this food does, what
 // every food does, why today went wrong, what to buy next.
 const tools = [0, 6, 5, 4].map((i) => RESOURCES.cards[i]);
-// One numbering convention for ITEMS across the whole front page: roman.
-// Sections number themselves 01–05, and section 05's four rows used to number
-// themselves 01–04 in the same magenta — so the reader passed "05" and
-// immediately met "01" (OPS-307). Arabic now means section, roman means item,
-// and the two can no longer be read as the same list.
+// One numbering convention for ITEMS, site-wide: roman.
+// Sections used to number themselves 01–05 and section 05's four rows numbered
+// themselves 01–04 in the same magenta, so the reader passed "05" and
+// immediately met "01" (OPS-307). OPS-540 removed the section numbers outright
+// — the sections are not a sequence, so the figures carried no information —
+// which leaves roman numerals as the one numbering device on the page.
 const numerals = ['i', 'ii', 'iii', 'iv'];
 const toolHref = (card) => {
   const raw = lang === 'ua' ? card.hrefUa : card.href;
@@ -164,7 +165,6 @@ const toolHref = (card) => {
   <section class="ed-sec" id="tools">
     <div class="wrap">
       <div class="ed-head">
-        <span class="ed-num">01</span>
         <h2 class="ed-name">{t.resourcesTitle}</h2>
         <a class="ed-more" href={resourcesHref}>{t.resourcesAll} &#8594;</a>
       </div>
@@ -194,7 +194,6 @@ const toolHref = (card) => {
   <section class="ed-sec">
     <div class="wrap">
       <div class="ed-head">
-        <span class="ed-num">02</span>
         <h2 class="ed-name">{t.blogTitle}</h2>
         <a class="ed-more" href={blogHref}>{t.blogAll} &#8594;</a>
       </div>
@@ -215,7 +214,6 @@ const toolHref = (card) => {
   <section class="ed-sec">
     <div class="wrap">
       <div class="ed-head">
-        <span class="ed-num">03</span>
         <h2 class="ed-name">{t.recipesTitle}</h2>
         <a class="ed-more" href={recipesAllHref}>{t.recipesAll} &#8594;</a>
       </div>
@@ -239,7 +237,6 @@ const toolHref = (card) => {
   <section class="ed-voices">
     <div class="wrap">
       <div class="ed-head">
-        <span class="ed-num">04</span>
         <span class="ed-name">{t.voicesLabel}</span>
       </div>
       <h2>{t.voicesTitle}</h2>
@@ -269,7 +266,6 @@ const toolHref = (card) => {
   <section class="ed-sec">
     <div class="wrap">
       <div class="ed-head">
-        <span class="ed-num">05</span>
         <h2 class="ed-name">{t.helpTitle}</h2>
       </div>
       <div class="ed-rows">
@@ -372,7 +368,7 @@ const toolHref = (card) => {
   .ed-stat:nth-child(odd) { border-right: 1px solid var(--line); }
   .ed-stat:nth-child(even) { padding-left: 16px; }
   .ed-stat:nth-child(n + 3) { border-bottom: 0; }
-  .ed-stat .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
+  .ed-stat .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; color: var(--numeral); margin-bottom: 6px; letter-spacing: -0.02em; }
   .ed-stat .l { font-size: var(--fs-fine); line-height: 1.4; color: var(--muted); }
   /* A `1fr` track still cannot go below its content's longest word, so two
      columns have a hard floor of 357px — set by the Ukrainian band, whose
@@ -391,7 +387,6 @@ const toolHref = (card) => {
 
   .ed-sec { padding: var(--sp-m) 0 0; }
   .ed-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 22px; }
-  .ed-num { font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); font-weight: 500; }
   /* Sections 01/02/03/05 carry this on an <h2> — they are the section's only
      title, and as <span>s the page ran H1 → H3 with no H2 at all (OPS-146).
      Section 04 keeps a <span>, because it has a real <h2> right below it, so
@@ -429,7 +424,7 @@ const toolHref = (card) => {
      reads as a mistake rather than a rhythm. The row keeps its 22px of
      bottom padding, so nothing collides; only the stray rule goes. */
   .ed-tools > :last-child, .ed-rows > :last-child { border-bottom: 0; }
-  .ed-tool .idx { font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); padding-top: 4px; flex: none; width: 24px; }
+  .ed-tool .idx { font-family: var(--font-head); font-size: var(--fs-fine); color: var(--numeral); padding-top: 4px; flex: none; width: 24px; }
   .ed-tool .body { display: block; }
   /* No opacity here — --muted at 0.75 measured 4.21:1 on 10px text, under the
      4.5:1 AA floor. Full --muted is 7.9:1, and these labels are small enough
@@ -464,7 +459,6 @@ const toolHref = (card) => {
   .ed-voices::before { content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%); }
   .ed-voices .wrap { position: relative; }
   .ed-voices .ed-head { border-top-color: rgba(255, 255, 255, 0.5); }
-  .ed-voices .ed-num { color: #EFA9C5; }
   .ed-voices .ed-name { color: #fff; }
   .ed-voices h2 { color: #fff; font-size: var(--fs-feature); line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 10px; }
   /* Scoped to .ed-voices, not bare .ed-intro: `.ed p` above is (0,1,1) and was
@@ -490,7 +484,7 @@ const toolHref = (card) => {
     /* Roman since OPS-307 — see `numerals` above. Tracking goes back to normal:
      -0.03em was drawn for zero-padded arabic and pulls the strokes of "iii"
      into each other. */
-  .ed-row .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; }
+  .ed-row .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 0.9; color: var(--numeral); opacity: 0.75; flex: none; width: 44px; }
   .ed-row h3 { font-size: var(--fs-h3); margin-bottom: 5px; }
   .ed-row p { margin: 0; font-size: var(--fs-small); }
 
@@ -541,7 +535,6 @@ const toolHref = (card) => {
     .ed-feat .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); }
     .ed-rec { display: grid; grid-template-columns: 1.15fr 1fr; align-items: stretch; }
     .ed-rec .body { margin-left: -70px; padding: 34px; background: var(--bg); box-shadow: -20px 0 40px rgba(42, 20, 36, 0.06); position: relative; z-index: 4; }
-    .ed-rec .gi { left: 0; right: auto; }
     .ed-feat .body, .ed-rec .body { display: flex; flex-direction: column; justify-content: center; }
     .ed-voices { padding: var(--sp-m) 0; }
     .ed-qs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
