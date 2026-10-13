@@ -126,7 +126,14 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
     full index, so it is seen without pushing the featured band down. */}
 <GymbilePromo lang={lang} placement="blog" />
 
-<section>
+{/* The category bar is hidden on the plain index (OPS-604). Once the topic
+    cloud below became a row of tabs, the page had two near-identical ruled
+    rows stacked — "Latest: All / Diabetes / …" over "Topics: Hormones /
+    Diabetes / …" — and Lena kept the topics. It is not deleted because the
+    footer on every page (and the standalone tools in public/) links to
+    /blog/?cat=<key>: the script below un-hides it for exactly that case, so
+    those links still land on a filtered, labelled, clearable view. */}
+<section class="hub-filter" id="blogFilterBar" hidden>
   <div class="wrap">
     {/* Section label and filters share one ruled bar: the filters ARE the
         section's heading on a filtered view, so stacking them under a separate
@@ -219,6 +226,11 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
     // category with a number in it, and an [^a-z-] scrub silently turned it
     // into `glp`, which matches no chip and left ?cat=glp1 showing everything.
     var pre = want && filters.querySelector('.chip[data-cat="' + want.replace(/[^a-z0-9-]/g, '') + '"]');
-    if (pre) apply(pre);
+    if (pre) {
+      // Only a deep link brings the bar back — see the note on #blogFilterBar.
+      var bar = document.getElementById('blogFilterBar');
+      if (bar) bar.hidden = false;
+      apply(pre);
+    }
   })();
 </script>
