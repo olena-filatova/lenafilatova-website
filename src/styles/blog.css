@@ -811,11 +811,37 @@
    repeat the selected tab, so it goes; the tags then run the full measure as
    one paragraph of links, which is what the size steps were drawn for. */
 .cloud[data-tabs] .hub-bar { margin-top: 0; margin-bottom: 18px; }
-/* On the Journal index the tabs sit straight under the masthead, as its
-   second line. The section's own bottom padding is for a cloud that ends a
-   page; here the featured band follows and brings its own. */
-.blog-hero + .cloud[data-tabs] { padding-bottom: 0; }
-.blog-hero + .cloud[data-tabs] .hub-bar { margin-top: 30px; }
+/* The Journal index carries the tabs twice and shows one (OPS-604): under
+   the masthead from 900px, as the page's second line; above the grid below
+   that, where the title and the tabs together would otherwise fill a phone's
+   first screen. display:none takes the idle copy out of the tab order and the
+   accessibility tree as well as off the page. */
+.cloud--top { display: none; }
+@media (min-width: 900px) {
+  .cloud--top { display: block; padding-bottom: 0; }
+  .cloud--top .hub-bar { margin-top: 30px; }
+  .cloud--low { display: none; }
+}
+/* The low copy is the first ruled row under the Gymbile panel, so it takes
+   the breathing room the category bar used to bring. */
+.cloud--low[data-tabs] .hub-bar { margin-top: 44px; }
+
+/* Narrow screens: the group names are one line that swipes sideways instead
+   of wrapping to three. The strip bleeds through the page gutter on the right
+   and fades out there, so a name is visibly cut off — that cut is the only
+   cue that there is more, and it is why the fade stops short of opaque. */
+@media (max-width: 899px) {
+  .cloud[data-tabs] .cloud-tabs {
+    flex: 1 0 100%; min-width: 0; flex-wrap: nowrap; gap: 0 20px;
+    overflow-x: auto; overscroll-behavior-x: contain;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    margin-right: -24px; padding: 4px 40px 4px 0;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), rgba(0,0,0,.15));
+            mask-image: linear-gradient(to right, #000 calc(100% - 48px), rgba(0,0,0,.15));
+  }
+  .cloud[data-tabs] .cloud-tabs::-webkit-scrollbar { display: none; }
+  .cloud[data-tabs] .cloud-tabs .chip { flex: none; white-space: nowrap; }
+}
 .cloud[data-tabs] .cloud-groups { display: block; columns: auto; }
 .cloud[data-tabs] .cloud-group { margin-bottom: 0; }
 .cloud[data-tabs] .cloud-group h3 { display: none; }

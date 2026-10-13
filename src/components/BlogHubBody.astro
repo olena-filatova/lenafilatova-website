@@ -76,8 +76,14 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
     (OPS-367), then sat between the Gymbile panel and the grid — still two
     screens down. As a one-row set of tabs it is cheap enough to be the page's
     second line of navigation, ahead of the editorial picks. Not sticky: the
-    tabs open links to topic pages, they do not filter what is below. */}
-<TagCloud lang={lang} />
+    tabs open links to topic pages, they do not filter what is below.
+
+    Wide screens only. On a phone the title plus the tabs filled the whole
+    first screen before a single article, so there the cloud stays where it
+    was, above the grid — the second TagCloud further down. Two copies with
+    one hidden by CSS rather than one copy moved with `order`, so focus and
+    reading order always match what is on screen. */}
+<TagCloud lang={lang} uid="top" place="top" />
 
 {lead && (
   <section class="featured" id="blogFeatured">
@@ -157,6 +163,9 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
     </div>
   </div>
 </section>
+
+{/* The narrow-screen copy of the topic tabs — see the note under the title. */}
+<TagCloud lang={lang} uid="low" place="low" />
 
 <section>
   <div class="wrap">
