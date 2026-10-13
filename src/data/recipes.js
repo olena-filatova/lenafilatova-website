@@ -864,12 +864,12 @@ export const RECIPES = [
   {
     slug: 'chewy-gummies', dateAdded: '2026-07-10', img: '74-chewy-gummies.jpg', cat: 'snack', gi: 20,
     tags: ['sugar-free', 'dairy-free', 'gluten-free'],
-    title: { en: 'Chewy Lemon Gummies (Sugar-free)', ua: 'Жувальні цукерки без цукру' },
+    title: { en: 'Chewy Lemon Gummies (Sugar-free)', ua: 'Жувальні лимонні цукерки без цукру' },
     why: { en: 'Homemade gummies from lemon juice, gelatine and stevia — a fun, protein-rich, no-sugar sweet for kids and adults.', ua: 'Домашні жувальні цукерки з лимонного соку, желатину й стевії — весела, багата на білок солодкість без цукру для дітей і дорослих.' },
     nutrition: { en: 'Per serving (est.): ~10 kcal · Carbs 1 g · Fat 0 g · Protein 2 g', ua: 'На порцію (прибл.): ~10 ккал · Вуглеводи 1 г · Жири 0 г · Білки 2 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'Chill', ua: 'Охолодження' }, serves: { en: 'Makes 30–40', ua: '30–40 штук' } },
     ingredients: { en: ['120 ml (½ cup) fresh lemon (or lime) juice','3 tbsp gelatine','30–40 drops liquid stevia'], ua: ['120 мл (½ склянки) свіжого лимонного (або лаймового) соку','3 ст. л. желатину','30–40 крапель рідкої стевії'] },
-    method: { en: ['Whisk all the ingredients in a pot.','Heat on low until the mixture becomes uniform.','Pour into moulds.','Cool (refrigerate or freeze to speed it up).','Once firm, remove from the moulds and store in an airtight container in the fridge for about two weeks.'], ua: ['Збийте всі інгредієнти в каструлі.','Прогрійте на слабкому вогні до однорідності.','Розлийте у формочки.','Охолодіть (у холодильнику або морозилці для швидкості).','Коли застигне, вийміть із формочок і зберігайте в герметичному контейнері в холодильнику близько двох тижнів.'] }
+    method: { en: ['Whisk all the ingredients in a pot.','Heat on low until the mixture becomes uniform.','Pour into moulds.','Cool (refrigerate or freeze to speed it up).','Once firm, remove from the moulds and store in an airtight container in the fridge for about two weeks.'], ua: ['Збийте всі інгредієнти в каструлі.','Прогрійте на слабкому вогні до однорідності.','Розлийте у формочки.','Охолодіть (у холодильнику або морозилці, щоб пришвидшити застигання).','Коли застигне, вийміть із формочок і зберігайте в герметичному контейнері в холодильнику близько двох тижнів.'] }
   },
   {
     slug: 'chocolate-coconut-nests', dateAdded: '2026-07-10', img: '75-chocolate-coconut-nests.jpg', cat: 'dessert', gi: 22,
