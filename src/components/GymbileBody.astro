@@ -3,11 +3,15 @@
 // footer points at. Copy lives in GYMBILE[lang].page in site.js; the store
 // buttons (and their per-page download tracking) come from GymbileStores.
 //
-// Built from the About page's devices (numbered section heads, hairline rows,
+// Built from the About page's devices (labelled section heads, hairline rows,
 // the story column) in global.css, so it reads as part of the same site
 // rather than a landing page bolted on.
 import { GYMBILE } from '../data/site.js';
 import GymbileStores from './GymbileStores.astro';
+
+// Items number themselves in roman, the one numbering device left on the
+// site after OPS-540 took the Arabic section numbers out.
+const numerals = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'];
 
 const { lang = 'en' } = Astro.props;
 const t = GYMBILE[lang].page;
@@ -26,13 +30,12 @@ const t = GYMBILE[lang].page;
 <section class="ab-sec gp-feat">
   <div class="wrap">
     <div class="ab-sec-head">
-      <span class="n">01</span>
       <h2 class="nm">{t.featuresLabel}</h2>
     </div>
     <div class="ab-rows">
       {t.features.map((f, i) => (
         <div class="ab-row">
-          <span class="n">{String(i + 1).padStart(2, '0')}</span>
+          <span class="n">{numerals[i]}</span>
           <div><h3>{f.h}</h3><p>{f.p}</p></div>
         </div>
       ))}
@@ -43,7 +46,6 @@ const t = GYMBILE[lang].page;
 <section class="ab-sec">
   <div class="wrap">
     <div class="ab-sec-head">
-      <span class="n">02</span>
       <h2 class="nm">{t.whyLabel}</h2>
     </div>
     <div class="ab-story">{t.why.map((p) => <p>{p}</p>)}</div>

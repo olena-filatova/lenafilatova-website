@@ -9,13 +9,17 @@
 //
 // Now: the homepage's own devices, because this is the page that has to carry
 // her authority — the arched portrait with its magenta block, the paper2 trust
-// band, numbered section heads, and the values as hairline-separated rows
+// band, labelled section heads, and the values as hairline-separated rows
 // rather than cards.
 //
 // ONE template, rendered from `c` (the per-language data).
 import { HOME } from '../data/site.js';
 import Picture from './Picture.astro';
 import GymbilePromo from './GymbilePromo.astro';
+
+// Items number themselves in roman, the one numbering device left on the
+// site after OPS-540 took the Arabic section numbers out.
+const numerals = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'];
 const { c, lang = 'en' } = Astro.props;
 const B = import.meta.env.BASE_URL;
 const contactHref = (lang === 'ua' ? `${B}ua/` : B) + 'contact/';
@@ -72,7 +76,6 @@ const quote = HOME[lang].voices[1];
 <section class="ab-sec">
   <div class="wrap">
     <div class="ab-sec-head">
-      <span class="n">01</span>
       <span class="nm">{c.storyLabel}</span>
     </div>
     <div class="ab-story">{c.story.map((p) => <p>{p}</p>)}</div>
@@ -91,13 +94,12 @@ const quote = HOME[lang].voices[1];
 <section class="ab-sec">
   <div class="wrap">
     <div class="ab-sec-head">
-      <span class="n">02</span>
       <span class="nm">{c.valuesLabel}</span>
     </div>
     <div class="ab-rows">
       {c.values.map((v, i) => (
         <div class="ab-row">
-          <span class="n">{String(i + 1).padStart(2, '0')}</span>
+          <span class="n">{numerals[i]}</span>
           <div><h3>{v.h}</h3><p>{v.p}</p></div>
         </div>
       ))}

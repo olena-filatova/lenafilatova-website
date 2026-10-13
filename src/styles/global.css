@@ -153,6 +153,17 @@
    recognition over from Instagram.
    ============================================================ */
 :root {
+  /* WHERE MAGENTA MAY BE USED (OPS-540).
+     The magenta earns its weight by being scarce, so it is reserved for
+     three jobs and nothing else:
+       1. Actions — buttons, text links, nav hover and current-page state,
+          focus rings, form focus, tab and chip underlines.
+       2. Kickers and the small uppercase label device that opens a section.
+       3. The hero's italic phrase, and hairline accents that mark an edge
+          (the 2px rule on a pull quote, the underline on a footnote link).
+     It is NOT for display numerals — stat-band figures, item numerals, step
+     numbers or list indices. Those use --numeral below, so that a number is
+     never mistaken for something to click. */
   --accent: #B23A63;      /* brand magenta — logo, buttons, kickers */
   --accent-deep: #7C2144; /* magenta, pressed/hover on pointer devices */
   /* Magenta is only 3.01:1 on --ink, so it fails AA as text on every ink
@@ -160,6 +171,11 @@
      This is the ink-only substitute at 6.98:1. It is 2.46:1 on paper —
      never use it on a light ground; use --accent there. OPS-534. */
   --accent-on-ink: #E58AAA;
+  /* Display numerals: stat figures, roman item numerals, step numbers, list
+     indices. A muted plum — it keeps the editorial character the numbers had
+     in magenta without reading as an action. 7.56:1 on paper, 6.99:1 on the
+     recessed band, so it clears AA at any size. OPS-540. */
+  --numeral: #63415A;
   --ink: #2A1424;         /* headings / darkest text */
   --body: #4A3644;        /* long-form body copy */
   --muted: #5A4152;       /* labels, captions, secondary text */
@@ -632,12 +648,11 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .ab-stat:nth-child(odd) { border-right: 1px solid var(--line); }
 .ab-stat:nth-child(even) { padding-left: 16px; }
 .ab-stat:nth-child(n + 3) { border-bottom: 0; }
-.ab-stat .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
+.ab-stat .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; color: var(--numeral); margin-bottom: 6px; letter-spacing: -0.02em; }
 .ab-stat .l { font-size: var(--fs-fine); line-height: 1.4; color: var(--muted); }
 
 .ab-sec { padding: 52px 0 0; }
-.ab-sec-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 24px; }
-.ab-sec-head .n { font-family: var(--font-head); font-size: var(--fs-fine); font-weight: 500; color: var(--accent); }
+.ab-sec-head { display: flex; align-items: center; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 24px; }
 .ab-sec-head .nm { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
 
 .ab-story { max-width: 68ch; }
@@ -662,7 +677,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    large-text minimum. Kept recessive but legible at .75 (3.3:1). The homepage's
    twin rule (HomeBody.astro, `.ed-row .n`) is on .75 too; an older version of
    this comment said it was still broken, which it is not. */
-.ab-row .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; letter-spacing: -0.03em; }
+.ab-row .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 0.9; color: var(--numeral); opacity: 0.75; flex: none; width: 44px; letter-spacing: -0.03em; }
 .ab-row h3 { font-size: var(--fs-card-title); margin-bottom: 5px; }
 .ab-row p { margin: 0; font-size: var(--fs-small); color: var(--muted); }
 
@@ -693,7 +708,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .ct-sec-head .ct-count { margin-left: auto; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--muted); }
 .ct-steps { list-style: none; margin: 16px 0 0; padding: 0; }
 .ct-steps li { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.ct-steps .n { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); }
+.ct-steps .n { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--numeral); }
 .ct-steps h2 { font-size: var(--fs-body); line-height: 1.2; margin: 0 0 5px; }
 .ct-steps p { margin: 0; font-size: var(--fs-small); color: var(--muted); }
 .ct-reach { color: var(--muted); font-size: var(--fs-small); margin: 18px 0 0; }
@@ -761,7 +776,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   letter-spacing: 0.18em; text-transform: uppercase; padding: 7px 12px;
 }
 .sh-body { display: flex; gap: 16px; align-items: flex-start; }
-.sh-body .idx { flex: none; width: 26px; padding-top: 4px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); }
+.sh-body .idx { flex: none; width: 26px; padding-top: 4px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--numeral); }
 /* No opacity dimming: --muted at .75 is 4.21:1 on the paper, just under AA for
    10px text. Full --muted is 7.9:1 — same as .res-tool .subject, which is the
    equivalent label on the resources index. */
