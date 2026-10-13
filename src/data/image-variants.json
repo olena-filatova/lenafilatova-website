@@ -855,6 +855,24 @@
       ]
     ]
   },
+  "/images/hrt-timing-heart-swan-study.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-timing-heart-swan-study-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-timing-heart-swan-study-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-timing-heart-swan-study-1200.avif"
+      ]
+    ]
+  },
   "/images/hrt-timing-perimenopause-start.jpg": {
     "w": 1200,
     "h": 675,
@@ -1146,6 +1164,24 @@
       [
         1200,
         "/images/v/menstrual-blood-research-medicine-1200.avif"
+      ]
+    ]
+  },
+  "/images/menstrual-cycle-insulin-needs-type-1-diabetes.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/menstrual-cycle-insulin-needs-type-1-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menstrual-cycle-insulin-needs-type-1-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menstrual-cycle-insulin-needs-type-1-diabetes-1200.avif"
       ]
     ]
   },
@@ -1646,6 +1682,24 @@
       [
         1200,
         "/images/v/topical-oestrogen-skincare-menopause-1200.avif"
+      ]
+    ]
+  },
+  "/images/topical-oestrogen-trials-evidence.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/topical-oestrogen-trials-evidence-480.avif"
+      ],
+      [
+        800,
+        "/images/v/topical-oestrogen-trials-evidence-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/topical-oestrogen-trials-evidence-1200.avif"
       ]
     ]
   },

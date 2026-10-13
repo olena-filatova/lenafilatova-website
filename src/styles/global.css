@@ -153,6 +153,17 @@
    recognition over from Instagram.
    ============================================================ */
 :root {
+  /* WHERE MAGENTA MAY BE USED (OPS-540).
+     The magenta earns its weight by being scarce, so it is reserved for
+     three jobs and nothing else:
+       1. Actions — buttons, text links, nav hover and current-page state,
+          focus rings, form focus, tab and chip underlines.
+       2. Kickers and the small uppercase label device that opens a section.
+       3. The hero's italic phrase, and hairline accents that mark an edge
+          (the 2px rule on a pull quote, the underline on a footnote link).
+     It is NOT for display numerals — stat-band figures, item numerals, step
+     numbers or list indices. Those use --numeral below, so that a number is
+     never mistaken for something to click. */
   --accent: #B23A63;      /* brand magenta — logo, buttons, kickers */
   --accent-deep: #7C2144; /* magenta, pressed/hover on pointer devices */
   /* Magenta is only 3.01:1 on --ink, so it fails AA as text on every ink
@@ -160,6 +171,11 @@
      This is the ink-only substitute at 6.98:1. It is 2.46:1 on paper —
      never use it on a light ground; use --accent there. OPS-534. */
   --accent-on-ink: #E58AAA;
+  /* Display numerals: stat figures, roman item numerals, step numbers, list
+     indices. A muted plum — it keeps the editorial character the numbers had
+     in magenta without reading as an action. 7.56:1 on paper, 6.99:1 on the
+     recessed band, so it clears AA at any size. OPS-540. */
+  --numeral: #63415A;
   --ink: #2A1424;         /* headings / darkest text */
   --body: #4A3644;        /* long-form body copy */
   --muted: #5A4152;       /* labels, captions, secondary text */
@@ -180,8 +196,10 @@
      to outrank the text underneath it, so it takes the larger step: a
      content <h2> was rendering smaller than its own body copy, and smaller
      than the <h3>s nested inside it. Same device, same tracking, one size up. */
+  --fs-label-s: 10px;      /* the tight caps: a badge, a GI chip, an inline tag */
   --fs-label: 10.5px;      /* kicker: sits above a heading, never is one */
-  --fs-label-head: 16px;   /* the device carrying a real <h2> */
+  --fs-label-head: var(--fs-sub); /* the device carrying a real <h2> — merged
+                                     into --fs-sub (was its own 16px step) */
   /* ── Editorial type scale (OPS-358) ────────────────────────────────────
      The article page had grown fifteen distinct font-sizes, five of them on
      the SAME uppercase-caps device (10, 10.5, 11, 12.5, 13px) and four on
@@ -192,28 +210,63 @@
 
      Every step below is a ROLE, not a size. Reach for the role; only add a
      step here if the page genuinely needs a size the scale does not have.
+
+     OPS-537 finished the job the other way round: the scale was being applied
+     to articles and almost nowhere else, so the homepage and the recipe pages
+     were still carrying 28 and 26 distinct sizes between them. Every px value
+     in HomeBody, recipes.css, search.css and this file now names a role.
+
+     Two kinds of step live here. A FIXED step is one size at every width —
+     right for body copy, which should not grow just because the window did.
+     A FLUID step is a clamp, and it is what a heading wants: the homepage
+     stepped its headings at 720px and 1000px with a flat size at each, which
+     is three declarations saying one thing badly. One clamp says it once and
+     reads correctly at the widths in between as well.
+
+     Three near-duplicate steps were merged, because half a pixel is drift and
+     not a decision: --fs-title was a second 18px step and is now --fs-lede;
+     --fs-card-title-s was a second 17px step and is now --fs-sub, which moved
+     16.5px -> 17px to absorb it. Both keep their names, so the call sites
+     still read as roles rather than sizes.
      ────────────────────────────────────────────────────────────────────── */
+  --fs-hero: clamp(30px, 5.6vw, 64px);    /* the homepage H1 — runs past --fs-display */
   --fs-display: clamp(33px, 5.4vw, 52px); /* the H1 on any page that has one */
+  --fs-feature: clamp(26px, 3.6vw, 38px); /* the big editorial section head on Home */
   --fs-h2: clamp(24px, 3.2vw, 30px);      /* every section head inside an article */
+  --fs-numeral: clamp(24px, 2.6vw, 30px); /* a display numeral: a stat, a step number */
   --fs-quote: clamp(21px, 2.6vw, 25px);   /* pull quote — a break in the column */
   --fs-lead: 21px;        /* standfirst under the headline */
+  --fs-h3: clamp(20px, 2.1vw, 24px);      /* a card or row heading on Home */
   --fs-card-title: 20px;  /* a headline inside a card: hub, featured, related */
   --fs-body: 19px;        /* the reading column itself */
   --fs-lede: 18px;        /* serif hub standfirst / excerpt */
-  --fs-title: 18px;       /* serif row title: a source claim, a resource name */
-  --fs-sub: 16.5px;       /* FAQ, CTA body, sign-off — secondary to the column */
+  --fs-title: var(--fs-lede);       /* merged into --fs-lede (was its own 18px) */
+  --fs-sub: 17px;         /* FAQ, CTA body, sign-off — secondary to the column */
+  --fs-card-title-s: var(--fs-sub); /* merged into --fs-sub (was its own 17px) */
   --fs-small: 15.5px;     /* captions, table cells, row descriptions */
-  --fs-card-title-s: 17px;/* card headline once the grid collapses to rows */
   --fs-fine: 13px;        /* disclaimer, citation line, button caps */
   /* Muted text on the ink panel (article CTA, About CTA, newsletter band).
      Was spelled #E6D9E2 in three places; the panels are the same panel. */
   --on-ink: #E6D9E2;
+  /* ONE vertical scale for the whole site (OPS-538). The reading column had
+     tokens; every other page picked its own number, so section padding ran
+     20 / 26 / 30 / 34 / 40 / 44 / 52 / 56 / 70 / 76 / 88px across four pages
+     doing the same job. These seven steps are the ladder now. The three
+     article tokens below are steps on it rather than a separate set — their
+     values are unchanged, so the reading column does not move. */
+  --sp-3xs: 8px;
+  --sp-2xs: 16px;
+  --sp-xs: 24px;
+  --sp-s: 36px;
+  --sp-ms: 44px;
+  --sp-m: 52px;
+  --sp-l: 76px;
   /* Vertical rhythm inside the reading column (OPS-358). Sibling blocks used
      to be spaced at 32 / 36 / 38 / 40 / 44 / 48 / 52px — seven values for
      three jobs. Three now: a block in the flow, a break in it, a new part. */
-  --sp-block: 36px;    /* figure, table, source list, resource cards, embed */
-  --sp-break: 44px;    /* pull quote, sign-off — air on both sides */
-  --sp-section: 52px;  /* FAQ, CTA — the article's closing furniture */
+  --sp-block: var(--sp-s);     /* 36px — figure, table, source list, cards */
+  --sp-break: var(--sp-ms);    /* 44px — pull quote, sign-off: air both sides */
+  --sp-section: var(--sp-m);   /* 52px — FAQ, CTA: the closing furniture */
   /* Sticky header sits on a translucent copy of the paper. rgba can't be
      derived from a hex custom property without color-mix(), so this is
      spelled out — keep it in step with --bg if the paper ever changes. */
@@ -249,9 +302,16 @@ img { max-width: 100%; display: block; }
    `.kicker` used to live here. It was the page-label device on About, Contact,
    Shop and the legal pages; all four now open with the shared `.est` masthead
    (label + hairline) instead, leaving nothing that used it. */
-/* Square, weighty, no pill. Matches .ed-btn on the homepage: same height, same
-   tracking, same magenta. Hover deepens the fill rather than brightening it —
-   brightness(1.08) on this magenta washes it towards pink. */
+/* OPS-539: one button system. There were three — `.btn` here, `.ed-btn` in
+   HomeBody.astro and a hand-rolled `.post .cta a` in blog.css — all three
+   square, weighty and magenta, none quite the same height. They are now all
+   `.btn` plus a variant:
+     (default)  primary, magenta fill
+     .ghost     1px ink outline, for a real alternative action
+     .link      text link with an arrow, for a secondary action that should
+                not compete with the primary
+   Hover deepens the fill rather than brightening it — brightness(1.08) on this
+   magenta washes it towards pink. */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -263,6 +323,13 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   font-size: var(--fs-small);
   font-family: var(--font-body);
+  /* OPS-539: `.btn` never set its own line-height, so it inherited whatever the
+     page had and came out a different height everywhere — 50px in the
+     newsletter (no inherited line-height), 51px on About and the homepage
+     (body 1.6), 53px inside an article (prose 1.75). That, not the two class
+     names, is why the buttons never quite matched. Fixed at 1.2 so the 50px
+     min-height is what decides the height. */
+  line-height: 1.2;
   padding: 13px 26px;
   border-radius: 0;
   border: 0;
@@ -270,6 +337,13 @@ img { max-width: 100%; display: block; }
   transition: background .2s ease;
 }
 .btn:hover { background: var(--accent-deep); }
+/* OPS-539: `.btn` had no focus ring of its own, so keyboard users got the
+   browser default. The newsletter and article-CTA buttons sit on ink and
+   override this with a white ring further down. */
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* The arrow that rides on a CTA. Head face so it matches the editorial
+   arrows elsewhere (.ed-read-list, .ed-wait). */
+.btn .ar { font-family: var(--font-head); font-size: 18px; line-height: 1; }
 
 /* --- header ---------------------------------------------------------------
    Editorial masthead: paper ground, a serif wordmark, and the nav set in
@@ -286,7 +360,9 @@ img { max-width: 100%; display: block; }
 .brand { display: flex; align-items: center; gap: 12px; font-family: var(--font-head); font-weight: 500; font-size: var(--fs-lead); letter-spacing: -0.02em; color: var(--ink); white-space: nowrap; }
 /* The mark stays a magenta disc — it is the logo, and the one round thing the
    square system keeps on purpose. The glyph size is an ICON size, sized to its
-   disc rather than to the type scale — same exemption as the FAQ's +/- marker. */
+   disc rather than to the type scale — same exemption as the FAQ's +/- marker.
+   Both discs happen to land on a step, so they name one; the exemption is that
+   the disc chooses the size, not that the size is off the scale. */
 .brand .mark { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-style: italic; font-size: 17px; }
 .site-nav { display: flex; gap: 26px; margin-left: 18px; }
 .site-nav a { position: relative; color: var(--ink); font-weight: 700; font-size: var(--fs-label); letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap; transition: color .2s ease; }
@@ -378,7 +454,7 @@ img { max-width: 100%; display: block; }
   .mobile-nav:not([hidden]) { display: flex; }
   .site-header .inner { gap: 12px; height: 64px; }
   .brand { font-size: var(--fs-lede); gap: 9px; }
-  .brand .mark { width: 34px; height: 34px; font-size: 15px; }
+  .brand .mark { width: 34px; height: 34px; font-size: var(--fs-small); }
   .header-actions { gap: 10px; }
 }
 
@@ -543,13 +619,13 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    numbered section heads, values as rows. Replaces the last card layout on a
    main page (`.hero`/`.stats`/`.story`/`.values`/`.cta`, all now removed —
    blog posts define their own `.post .cta` in blog.css and were unaffected). */
-.ab-head { padding: 44px 0 34px; }
+.ab-head { padding: var(--sp-ms) 0 var(--sp-s); }
 .ab-head h1 {
   font-size: clamp(36px, 6vw, 62px); line-height: 1.02;
   letter-spacing: -0.028em; max-width: 14ch; text-wrap: balance;
 }
 .ab-lede {
-  font-family: var(--font-head); font-weight: 300; font-size: 18px;
+  font-family: var(--font-head); font-size: var(--fs-lede);
   line-height: 1.55; color: var(--muted); margin: 20px 0 0; max-width: 48ch;
 }
 /* The magenta block hangs --peek below the photo, so .ab-head carries bottom
@@ -572,27 +648,26 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .ab-stat:nth-child(odd) { border-right: 1px solid var(--line); }
 .ab-stat:nth-child(even) { padding-left: 16px; }
 .ab-stat:nth-child(n + 3) { border-bottom: 0; }
-.ab-stat .n { font-family: var(--font-head); font-size: 24px; line-height: 1; color: var(--accent); margin-bottom: 6px; letter-spacing: -0.02em; }
-.ab-stat .l { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+.ab-stat .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 1; color: var(--numeral); margin-bottom: 6px; letter-spacing: -0.02em; }
+.ab-stat .l { font-size: var(--fs-fine); line-height: 1.4; color: var(--muted); }
 
 .ab-sec { padding: 52px 0 0; }
-.ab-sec-head { display: flex; align-items: center; gap: 12px; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 24px; }
-.ab-sec-head .n { font-family: var(--font-head); font-size: 13px; font-weight: 500; color: var(--accent); }
-.ab-sec-head .nm { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
+.ab-sec-head { display: flex; align-items: center; padding-top: 8px; border-top: 1.5px solid var(--ink); margin-bottom: 24px; }
+.ab-sec-head .nm { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
 
 .ab-story { max-width: 68ch; }
-.ab-story p { margin: 0 0 20px; color: var(--body); font-size: 17.5px; line-height: 1.65; }
+.ab-story p { margin: 0 0 20px; color: var(--body); font-size: var(--fs-sub); line-height: 1.65; }
 /* The opening paragraph carries the serif, as the standfirst does elsewhere. */
-.ab-story p:first-child { font-family: var(--font-head); font-weight: 300; font-size: 20px; line-height: 1.5; color: var(--ink); }
+.ab-story p:first-child { font-family: var(--font-head); font-size: var(--fs-card-title); line-height: 1.5; color: var(--ink); }
 
 .ab-pull { margin: 34px 0 0; padding-left: 20px; border-left: 2px solid var(--accent); max-width: 60ch; }
 .ab-pull p {
-  font-family: var(--font-head); font-style: italic; font-weight: 300;
+  font-family: var(--font-head); font-style: italic;
   font-size: clamp(20px, 2.6vw, 26px); line-height: 1.35;
   color: var(--ink); margin: 0 0 12px; letter-spacing: -0.01em;
 }
 .ab-pull cite {
-  font-style: normal; font-family: var(--font-body); font-size: 10.5px;
+  font-style: normal; font-family: var(--font-body); font-size: var(--fs-label);
   font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
 }
 
@@ -602,11 +677,11 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    large-text minimum. Kept recessive but legible at .75 (3.3:1). The homepage's
    twin rule (HomeBody.astro, `.ed-row .n`) is on .75 too; an older version of
    this comment said it was still broken, which it is not. */
-.ab-row .n { font-family: var(--font-head); font-size: 30px; line-height: 0.9; color: var(--accent); opacity: 0.75; flex: none; width: 44px; letter-spacing: -0.03em; }
-.ab-row h3 { font-size: 20px; margin-bottom: 5px; }
-.ab-row p { margin: 0; font-size: 14.5px; color: var(--muted); }
+.ab-row .n { font-family: var(--font-head); font-size: var(--fs-numeral); line-height: 0.9; color: var(--numeral); opacity: 0.75; flex: none; width: 44px; letter-spacing: -0.03em; }
+.ab-row h3 { font-size: var(--fs-card-title); margin-bottom: 5px; }
+.ab-row p { margin: 0; font-size: var(--fs-small); color: var(--muted); }
 
-.ab-cta { padding: 56px 0 72px; }
+.ab-cta { padding: var(--sp-m) 0 var(--sp-l); }
 .ab-cta .box { background: var(--ink); padding: 36px 28px; display: grid; gap: 24px; }
 .ab-cta h2 { color: #fff; font-size: clamp(26px, 3.4vw, 34px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
 .ab-cta p { color: var(--on-ink); margin: 0; max-width: 46ch; }
@@ -622,21 +697,21 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    styling is all around it: the well, the frame and the heading. */
 .ct-head { padding: 44px 0 72px; }
 .ct-head h1 { font-size: clamp(33px, 5.4vw, 52px); line-height: 1.05; letter-spacing: -0.025em; max-width: 18ch; text-wrap: balance; }
-.ct-lede { font-family: var(--font-head); font-weight: 300; font-size: 18px; line-height: 1.5; color: var(--muted); margin: 18px 0 0; max-width: 44ch; }
+.ct-lede { font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1.5; color: var(--muted); margin: 18px 0 0; max-width: 44ch; }
 /* The rule-and-indent the homepage uses for its own medical disclaimer,
    replacing a bordered ⓘ box that read as an error state. */
-.ct-note { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; line-height: 1.5; color: var(--muted); margin: 22px 0 0; max-width: 56ch; }
+.ct-note { display: flex; gap: 10px; align-items: flex-start; font-size: var(--fs-fine); line-height: 1.5; color: var(--muted); margin: 22px 0 0; max-width: 56ch; }
 .ct-note::before { content: ''; flex: none; width: 14px; height: 1px; background: var(--accent); margin-top: 10px; }
 
 .ct-sec-head { display: flex; align-items: baseline; gap: 12px; border-top: 1.5px solid var(--ink); padding-top: 10px; margin-top: 38px; }
-.ct-sec-head .nm { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
-.ct-sec-head .ct-count { margin-left: auto; font-family: var(--font-head); font-size: 13px; color: var(--muted); }
+.ct-sec-head .nm { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
+.ct-sec-head .ct-count { margin-left: auto; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--muted); }
 .ct-steps { list-style: none; margin: 16px 0 0; padding: 0; }
 .ct-steps li { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.ct-steps .n { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: 14px; color: var(--accent); }
-.ct-steps h2 { font-size: 19px; line-height: 1.2; margin: 0 0 5px; }
-.ct-steps p { margin: 0; font-size: 14.5px; color: var(--muted); }
-.ct-reach { color: var(--muted); font-size: 14.5px; margin: 18px 0 0; }
+.ct-steps .n { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--numeral); }
+.ct-steps h2 { font-size: var(--fs-body); line-height: 1.2; margin: 0 0 5px; }
+.ct-steps p { margin: 0; font-size: var(--fs-small); color: var(--muted); }
+.ct-reach { color: var(--muted); font-size: var(--fs-small); margin: 18px 0 0; }
 .ct-reach a { color: var(--accent); font-weight: 700; }
 .ct-reach a:hover { text-decoration: underline; }
 
@@ -644,7 +719,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .tabs { display: flex; gap: 24px; border-bottom: 1px solid var(--rule); margin-bottom: 22px; }
 .tab {
   position: relative; border: 0; background: transparent; padding: 0 0 12px;
-  font-family: var(--font-body); font-weight: 800; font-size: 11px;
+  font-family: var(--font-body); font-weight: 800; font-size: var(--fs-label);
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
   cursor: pointer; transition: color .2s ease;
 }
@@ -656,16 +731,16 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .tab:hover, .tab.is-active { color: var(--ink); }
 .tab.is-active::after { transform: scaleX(1); }
 .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.call-heading { font-size: 21px; line-height: 1.2; margin: 4px 0 16px; }
+.call-heading { font-size: var(--fs-lead); line-height: 1.2; margin: 4px 0 16px; }
 /* Google paints the scheduler on white, so the well gives it a deliberate
    edge instead of letting it float on the paper. */
 .booking-well { background: var(--paper2); border: 1px solid var(--line); padding: 6px; }
 .booking-well iframe { display: block; width: 100%; background: #fff; }
 
 .cform { display: grid; gap: 16px; }
-.cform label { display: grid; gap: 7px; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); }
+.cform label { display: grid; gap: 7px; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); }
 .cform input, .cform textarea {
-  font-family: var(--font-body); font-size: 15px; padding: 12px 14px; border: 1px solid var(--rule);
+  font-family: var(--font-body); font-size: var(--fs-small); padding: 12px 14px; border: 1px solid var(--rule);
   border-radius: 0; background: var(--bg); color: var(--ink); resize: vertical;
 }
 .cform input:focus-visible, .cform textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; border-color: transparent; }
@@ -679,17 +754,17 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    page, so "Join the waitlist" lands on the form it names. */
 .sh-head { padding: 44px 0 0; }
 .sh-head h1 { font-size: clamp(33px, 5.4vw, 52px); line-height: 1.05; letter-spacing: -0.025em; max-width: 20ch; text-wrap: balance; }
-.sh-head .lede { font-family: var(--font-head); font-weight: 300; font-size: 18px; line-height: 1.5; color: var(--muted); max-width: 46ch; margin: 20px 0 0; }
+.sh-head .lede { font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1.5; color: var(--muted); max-width: 46ch; margin: 20px 0 0; }
 .sh-note {
   margin: 26px 0 0; padding-left: 14px; border-left: 2px solid var(--accent);
-  font-family: var(--font-head); font-style: italic; font-size: 16px;
+  font-family: var(--font-head); font-style: italic; font-size: var(--fs-sub);
   line-height: 1.5; color: var(--ink); max-width: 56ch;
 }
 
 .sh-wrap { padding: 40px 0 24px; }
 .sh-sec-head { display: flex; align-items: baseline; gap: 12px; border-top: 1.5px solid var(--ink); padding-top: 10px; }
-.sh-sec-head .fk { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
-.sh-sec-head .fk-n { margin-left: auto; font-family: var(--font-head); font-size: 13px; color: var(--muted); }
+.sh-sec-head .fk { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
+.sh-sec-head .fk-n { margin-left: auto; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--muted); }
 .sh-list { list-style: none; margin: 0; padding: 0; }
 .sh-item { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .sh-ph { position: relative; aspect-ratio: 4 / 3; background: var(--paper2); overflow: hidden; margin-bottom: 20px; }
@@ -697,20 +772,20 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 /* Square ink flag in the corner, not a floating pill. */
 .sh-soon {
   position: absolute; left: 0; top: 0; background: var(--ink); color: var(--bg);
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.18em; text-transform: uppercase; padding: 7px 12px;
 }
 .sh-body { display: flex; gap: 16px; align-items: flex-start; }
-.sh-body .idx { flex: none; width: 26px; padding-top: 4px; font-family: var(--font-head); font-size: 14px; color: var(--accent); }
+.sh-body .idx { flex: none; width: 26px; padding-top: 4px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--numeral); }
 /* No opacity dimming: --muted at .75 is 4.21:1 on the paper, just under AA for
    10px text. Full --muted is 7.9:1 — same as .res-tool .subject, which is the
    equivalent label on the resources index. */
-.sh-tag { display: block; font-family: var(--font-body); font-size: 10px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
-.sh-item h2 { font-size: 24px; line-height: 1.15; margin: 0 0 8px; }
-.sh-desc { margin: 0 0 10px; font-size: 15px; color: var(--body); max-width: 52ch; }
-.sh-format { margin: 0 0 14px; font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }
+.sh-tag { display: block; font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.sh-item h2 { font-size: var(--fs-h2); line-height: 1.15; margin: 0 0 8px; }
+.sh-desc { margin: 0 0 10px; font-size: var(--fs-small); color: var(--body); max-width: 52ch; }
+.sh-format { margin: 0 0 14px; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }
 .sh-inside { margin: 0 0 20px; padding: 0; list-style: none; display: grid; gap: 7px; max-width: 46ch; }
-.sh-inside li { position: relative; padding-left: 18px; font-size: 14.5px; color: var(--body); }
+.sh-inside li { position: relative; padding-left: 18px; font-size: var(--fs-small); color: var(--body); }
 .sh-inside li::before { content: ''; position: absolute; left: 0; top: 9px; width: 7px; height: 1px; background: var(--accent); }
 
 /* --- home: shared section bits --- */
@@ -770,9 +845,33 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 }
 
 /* Outline variant. The rule is an inset shadow rather than a border so it does
-   not add 2px to the box — a ghost button must line up with a filled one. */
-.btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+   not add 2px to the box — a ghost button must line up with a filled one.
+   OPS-539: thinned from 1.5px to 1px. At 1.5px the outline carried as much
+   weight on the page as a filled button, which is the opposite of what a
+   secondary action should do. */
+.btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
 .btn.ghost:hover { background: var(--ink); color: var(--bg); }
+
+/* Text-link variant: the lightest of the three. No box at all — an underlined
+   label and an arrow — so it reads as a link while keeping the 50px target
+   height the rest of the system has. The 2px accent underline is the same
+   device as `.ed-wait a` on the homepage. */
+.btn.link {
+  background: transparent;
+  color: var(--ink);
+  padding: 13px 0;
+  gap: 8px;
+  align-self: start;
+  justify-content: flex-start;
+}
+.btn.link .lbl { border-bottom: 2px solid var(--accent); padding-bottom: 3px; }
+.btn.link .ar { color: var(--accent); transition: transform .2s ease; }
+.btn.link:hover { background: transparent; color: var(--accent-deep); }
+.btn.link:hover .ar { transform: translateX(4px); }
+@media (prefers-reduced-motion: reduce) {
+  .btn.link .ar { transition: none; }
+  .btn.link:hover .ar { transform: none; }
+}
 /* newsletter — the one signup block, shared by every page including the
    homepage (which passes .ed-nl for spacing only). Square ink panel. */
 .newsletter .nl-box { background: var(--ink); border-radius: 0; padding: 48px; text-align: center; }
@@ -843,7 +942,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   letter-spacing: -0.025em; max-width: 22ch; text-wrap: balance;
 }
 .res-head .lede {
-  font-family: var(--font-head); font-weight: 300; font-size: 18px; line-height: 1.5;
+  font-family: var(--font-head); font-size: var(--fs-lede); line-height: 1.5;
   color: var(--muted); max-width: 46ch; margin: 20px 0 0;
 }
 /* Masthead: headline left, standfirst beside its last line — blog and recipe
@@ -855,7 +954,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 /* The promise, reversed out of the magenta exactly as the homepage sets it
    (.ed-free). Paper on magenta is 5.0:1. */
 .res-free {
-  display: inline-block; font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  display: inline-block; font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--bg); background: var(--accent);
   padding: 6px 12px; margin: 26px 0 0;
 }
@@ -864,10 +963,10 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 /* Section label hanging from the heavy ink rule, with the count set opposite. */
 .res-sec-head { display: flex; align-items: baseline; gap: 12px; border-top: 1.5px solid var(--ink); padding-top: 10px; }
 .res-sec-head .fk {
-  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
 }
-.res-sec-head .fk-n { margin-left: auto; font-family: var(--font-head); font-size: 13px; color: var(--muted); }
+.res-sec-head .fk-n { margin-left: auto; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--muted); }
 
 .res-list { list-style: none; margin: 18px 0 0; padding: 0; }
 .res-item { border-bottom: 1px solid var(--line); }
@@ -875,14 +974,14 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   display: flex; gap: 16px; padding: 22px 0; align-items: flex-start;
   transition: padding-left .22s ease, box-shadow .22s ease;
 }
-.res-tool .idx { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: 14px; color: var(--accent); }
+.res-tool .idx { flex: none; width: 26px; padding-top: 3px; font-family: var(--font-head); font-size: var(--fs-fine); color: var(--accent); }
 .res-tool .body { display: block; }
 /* Flex-wrapped rather than inline: the two labels are long in Ukrainian, and a
    written-in separator ("·") stranded itself at the head of the wrapped line.
    The gap does the separating, and colour already tells the two apart. */
 .res-tool .meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; margin-bottom: 8px; }
 .res-tool .subject {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--tool);
 }
 /* The band, reduced to a square. */
@@ -893,13 +992,13 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 /* No opacity — it multiplies --muted against the paper and drops 10px text to
    4.21:1, under AA's 4.5:1. Full --muted is 7.9:1. Same call as .sh-tag. */
 .res-tool .kind {
-  font-family: var(--font-body); font-size: 10px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label-s); font-weight: 800;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
 }
-.res-tool h2 { font-size: 22px; line-height: 1.15; margin: 0 0 6px; }
-.res-tool p { margin: 0 0 10px; font-size: 14.5px; color: var(--body); }
+.res-tool h2 { font-size: var(--fs-h3); line-height: 1.15; margin: 0 0 6px; }
+.res-tool p { margin: 0 0 10px; font-size: var(--fs-small); color: var(--body); }
 .res-tool .go {
-  font-family: var(--font-body); font-size: 11px; font-weight: 800;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
 }
 .res-tool:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
@@ -910,7 +1009,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    accent, so it reads as secondary to the card's own "Open the tracker". */
 .res-guide {
   display: inline-block; margin: -12px 0 18px 42px;
-  font-family: var(--font-body); font-size: 11px; font-weight: 700;
+  font-family: var(--font-body); font-size: var(--fs-label); font-weight: 700;
   letter-spacing: 0.1em; color: var(--muted);
 }
 .res-guide:hover { color: var(--accent); }
@@ -976,15 +1075,15 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    than the 74ch it was, which ran long on a wide screen). */
 .legal-hero { padding: 44px 0 0; }
 .legal-hero h1 { font-size: clamp(32px, 4.6vw, 46px); line-height: 1.08; letter-spacing: -0.025em; margin: 0 0 14px; max-width: 22ch; text-wrap: balance; }
-.legal-updated { font-family: var(--font-body); font-size: 10.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.legal-updated { font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin: 0; }
 .legal-doc { padding: 32px 0 72px; }
 .legal-prose { max-width: 68ch; }
 .legal-intro {
-  font-family: var(--font-head); font-weight: 300; font-size: 19px; line-height: 1.55;
+  font-family: var(--font-head); font-size: var(--fs-body); line-height: 1.55;
   color: var(--ink); margin: 0 0 8px; padding-bottom: 24px; border-bottom: 1px solid var(--rule);
 }
 .legal-section { margin-top: 34px; }
-.legal-section h2 { font-size: 23px; line-height: 1.2; margin: 0 0 12px; }
+.legal-section h2 { font-size: var(--fs-h3); line-height: 1.2; margin: 0 0 12px; }
 .legal-prose p { margin: 0 0 14px; color: var(--body); line-height: 1.7; }
 .legal-prose ul { margin: 0 0 14px; padding-left: 20px; display: grid; gap: 8px; }
 .legal-prose li { color: var(--body); line-height: 1.7; }
@@ -994,10 +1093,10 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 @media (max-width: 820px) {
   .site-footer .top { grid-template-columns: 1fr; gap: 32px; }
   /* mobile: shrink the opening block so fresh content is reachable fast */
-  .ab-head { padding: 30px 0 30px; }
+  .ab-head { padding: var(--sp-xs) 0; }
   .ct-head { padding: 30px 0 48px; }
   .sh-head, .res-head, .legal-hero { padding-top: 30px; }
-  .section { padding: 40px 0; }
+  .section { padding: var(--sp-s) 0; }
   .section-head { flex-direction: column; align-items: flex-start; }
   .nl-row { flex-direction: column; }
   .newsletter .nl-box { padding: 32px 22px; }
@@ -1007,17 +1106,26 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
    below this width — the portrait, the contact card and the product photos all
    sit above their text on a phone. */
 @media (min-width: 820px) {
+  /* The portrait column is ~100px taller than the text beside it. With the
+     whole row bottom-aligned, that slack landed between the kicker and the
+     h1 it labels — a 119px hole in the middle of the masthead (OPS-538).
+     The text now starts at the top with its kicker; the portrait is simply
+     the taller of the two, which is what a portrait is. */
   .ab-lay { display: grid; grid-template-columns: 1.5fr 0.7fr; gap: 48px; align-items: end; }
+  .ab-lay > :first-child { align-self: start; }
   .ab-portrait { margin: 0 0 0 auto; --peek: 16px; }
   .ab-band-grid { grid-template-columns: repeat(4, 1fr); }
   .ab-stat { padding: 24px 20px; border-bottom: 0; border-right: 1px solid var(--line); }
   .ab-stat:first-child { padding-left: 0; }
   .ab-stat:last-child { border-right: 0; }
-  .ab-stat .n { font-size: 28px; }
-  .ab-stat .l { font-size: 13.5px; }
+  /* Three values in two columns left the bottom right corner empty. */
   .ab-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 56px; }
   .ab-cta .box { grid-template-columns: 1fr auto; align-items: center; gap: 40px; padding: 48px; }
   .ab-cta .btn { justify-self: end; }
+}
+
+@media (min-width: 900px) {
+  .ab-rows { grid-template-columns: repeat(3, 1fr); column-gap: var(--sp-s); }
 }
 
 @media (min-width: 900px) {
@@ -1061,6 +1169,6 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   border: 1px solid #f0d9b5;
   border-radius: 0;
   padding: 16px;
-  font-size: 15px;
+  font-size: var(--fs-small);
   text-align: center;
 }

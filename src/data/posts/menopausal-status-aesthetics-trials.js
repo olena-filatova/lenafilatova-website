@@ -17,7 +17,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "At the IMCAS aesthetics congress in Paris at the end of January, Galderma — the company behind Sculptra and the Restylane range — announced that menopausal status will now be incorporated into all of its injectable aesthetics clinical trials. It was presented as an industry first, and as far as I can tell it is one."
+        "text": "At the IMCAS aesthetics congress in Paris at the end of January, Galderma — the company behind Sculptra and the Restylane range — announced that menopausal status will now be incorporated into all of its injectable aesthetics clinical trials. The company called it a pioneering decision, and I have not found another manufacturer that has made the same commitment."
       },
       {
         "t": "p",
@@ -68,7 +68,7 @@ export default {
         "items": [
           {
             "claim": "Menopausal status will now be recorded in all of one major manufacturer's injectable aesthetics trials.",
-            "detail": "Galderma announced on 30 January 2026, during the IMCAS World Congress in Paris (29–31 January), that menopausal status would be incorporated into all of its injectable aesthetics clinical trials, describing the commitment as an industry first. The announcement is a company press release and congress presentation rather than a published protocol, and no implementation date beyond the announcement was given. It changes what future trials will record; it does not add data to trials already completed.",
+            "detail": "Galderma announced on 30 January 2026, during the IMCAS World Congress in Paris (29–31 January), that menopausal status would be incorporated into all of its injectable aesthetics clinical trials, describing it as a pioneering decision. The announcement is a company press release and congress presentation rather than a published protocol, and no implementation date beyond the announcement was given. It changes what future trials will record; it does not add data to trials already completed.",
             "cite": "Galderma · Press release, 30 January 2026 (IMCAS 2026)",
             "url": "https://www.galderma.com/news/galderma-tackles-menopause-related-skin-changes"
           },
@@ -131,7 +131,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Наприкінці січня на конгресі з естетичної медицини IMCAS у Парижі компанія Galderma — виробник Sculptra та лінійки Restylane — оголосила, що менопаузальний статус тепер включатимуть до всіх її клінічних досліджень ін’єкційних препаратів. Це подали як перший такий крок в індустрії, і, наскільки я можу судити, так воно і є."
+        "text": "Наприкінці січня на конгресі з естетичної медицини IMCAS у Парижі компанія Galderma — виробник Sculptra та лінійки Restylane — оголосила, що менопаузальний статус тепер включатимуть до всіх її клінічних досліджень ін’єкційних препаратів. Компанія назвала це новаторським рішенням, і мені не вдалося знайти іншого виробника, який узяв би на себе таке саме зобов’язання."
       },
       {
         "t": "p",
@@ -182,7 +182,7 @@ export default {
         "items": [
           {
             "claim": "Менопаузальний статус тепер фіксуватимуть у всіх дослідженнях ін’єкційних препаратів одного великого виробника.",
-            "detail": "Galderma оголосила 30 січня 2026 року під час всесвітнього конгресу IMCAS у Парижі (29–31 січня), що менопаузальний статус включатимуть до всіх її клінічних досліджень ін’єкційних препаратів в естетичній медицині, назвавши це першим таким кроком в індустрії. Це пресреліз компанії та презентація на конгресі, а не опублікований протокол; жодної дати впровадження, окрім самого оголошення, не названо. Це змінює те, що записуватимуть майбутні дослідження, і не додає даних до вже завершених.",
+            "detail": "Galderma оголосила 30 січня 2026 року під час всесвітнього конгресу IMCAS у Парижі (29–31 січня), що менопаузальний статус включатимуть до всіх її клінічних досліджень ін’єкційних препаратів в естетичній медицині, назвавши це новаторським рішенням. Це пресреліз компанії та презентація на конгресі, а не опублікований протокол; жодної дати впровадження, окрім самого оголошення, не названо. Це змінює те, що записуватимуть майбутні дослідження, і не додає даних до вже завершених.",
             "cite": "Galderma · Пресреліз, 30 січня 2026 (IMCAS 2026)",
             "url": "https://www.galderma.com/news/galderma-tackles-menopause-related-skin-changes"
           },
