@@ -749,7 +749,22 @@
 }
 .cloud-groups { display: grid; gap: 34px 48px; }
 @media (min-width: 720px) { .cloud-groups { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1060px) { .cloud-groups { grid-template-columns: repeat(3, 1fr); } }
+/* Wide screens pack the groups as a masonry of columns instead of a grid
+   (OPS-604). In a grid every row is as tall as its longest group, so the
+   three-tag Treatment group sat beside twelve-tag Hormones with a hole under
+   it, and eight groups in three columns left the last row a third empty. CSS
+   columns let each group take only its own height, which takes a third off
+   the block. Three columns, not four: the content column tops out at 1072px,
+   and at a quarter of that the largest tags wrap, which costs more height
+   than the extra column saves. */
+@media (min-width: 1060px) {
+  .cloud-groups { display: block; columns: 3; column-gap: 44px; }
+  .cloud-group { break-inside: avoid; margin-bottom: 26px; }
+  .cloud-group h3 { margin-bottom: 10px; }
+  .cloud-group ul { gap: 2px 16px; }
+  /* One line at this width rather than a wrapped two. */
+  .cloud-lead { max-width: none; margin-bottom: 22px; }
+}
 .cloud-group h3 {
   font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent);
