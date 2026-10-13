@@ -71,6 +71,14 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
   </div>
 </section>
 
+{/* Topic tabs, directly under the title (OPS-604). The cloud has moved twice:
+    it started below the grid, where at 57 articles nobody reached it
+    (OPS-367), then sat between the Gymbile panel and the grid — still two
+    screens down. As a one-row set of tabs it is cheap enough to be the page's
+    second line of navigation, ahead of the editorial picks. Not sticky: the
+    tabs open links to topic pages, they do not filter what is below. */}
+<TagCloud lang={lang} />
+
 {lead && (
   <section class="featured" id="blogFeatured">
     <div class="wrap">
@@ -149,13 +157,6 @@ const sharePath = lang === 'ua' ? '/ua/blog/' : '/blog/';
     </div>
   </div>
 </section>
-
-{/* Topic cloud (OPS-367). It sat below the grid on the reasoning that the
-    category chips serve a first-time visitor and the cloud serves someone who
-    has finished browsing. That held for a short index; at 57 articles it put
-    the cloud 87% of the way down the page — thirteen screens — and nobody
-    reached it. It belongs with the other navigation, before the articles. */}
-<TagCloud lang={lang} />
 
 <section>
   <div class="wrap">
