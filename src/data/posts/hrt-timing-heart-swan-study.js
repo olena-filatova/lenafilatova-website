@@ -1,6 +1,7 @@
 export default {
   "slug": "hrt-timing-heart-swan-study",
   "date": "2026-10-10",
+  "featured": true,
   "image": "/images/hrt-timing-heart-swan-study.jpg",
   "cats": [
     "perimenopause"

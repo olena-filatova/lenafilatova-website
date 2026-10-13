@@ -1,6 +1,7 @@
 export default {
   "slug": "menstrual-cycle-insulin-needs-type-1-diabetes",
   "date": "2026-10-11",
+  "featured": true,
   "image": "/images/menstrual-cycle-insulin-needs-type-1-diabetes.jpg",
   "cats": [
     "diabetes"

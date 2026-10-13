@@ -222,6 +222,7 @@ Rules:
    a deploy — so it is easy to miss. Read the build output.
 
 Picks are editorial, so prefer evergreen pillars over news items: a digest post
-flagged today reads as stale within a fortnight. The current four are the
-perimenopause-and-diabetes pillar, the protein guide, the strength-training
-starter and the post-meal walk — one per major theme, all evergreen.
+flagged today reads as stale within a fortnight. That is the default, and Lena
+can overrule it: on 13 Oct 2026 she asked for the band to carry the four newest
+posts instead (OPS-604), so the current four are the 10–13 October posts and
+will need moving again as she publishes.
