@@ -1667,6 +1667,24 @@
       ]
     ]
   },
+  "/images/topical-oestrogen-trials-evidence.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/topical-oestrogen-trials-evidence-480.avif"
+      ],
+      [
+        800,
+        "/images/v/topical-oestrogen-trials-evidence-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/topical-oestrogen-trials-evidence-1200.avif"
+      ]
+    ]
+  },
   "/images/type-1-diabetes-cure-trials.jpg": {
     "w": 1200,
     "h": 676,
