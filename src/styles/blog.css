@@ -822,6 +822,29 @@
   .cloud--top .hub-bar { margin-top: 30px; }
   .cloud--low { display: none; }
 }
+/* Wide screens: the group names run the full measure (OPS-604). The shared
+   .hub-bar sets a label left and its controls right, which suits a short
+   filter list; with eight names it left a gap after the label and a row that
+   started mid-page, while the topics below started at the left margin — two
+   edges, so the tabs and their topics read as unrelated. Now the names span
+   the same line the topics do, first name over first topic.
+   Under the masthead the "Journal topics" label is dropped from view (the
+   tablist keeps it as its accessible name): the kicker and title above
+   already say where you are. Elsewhere it gets a line of its own. */
+@media (min-width: 900px) {
+  .cloud[data-tabs] .hub-bar .fk { flex: 1 0 100%; }
+  .cloud[data-tabs] .cloud-tabs { flex: 1 0 100%; gap: 6px 28px; }
+  .cloud--top .hub-bar .fk {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip-path: inset(50%); white-space: nowrap;
+  }
+  .cloud--top .hub-bar { padding-top: 14px; margin-bottom: 14px; }
+}
+/* Spread edge to edge only once all eight fit on one line; while they still
+   wrap, a justified second line would strand two names at opposite margins. */
+@media (min-width: 1100px) {
+  .cloud[data-tabs] .cloud-tabs { justify-content: space-between; gap: 6px 16px; }
+}
 /* The low copy is the first ruled row under the Gymbile panel, so it takes
    the breathing room the category bar used to bring. */
 .cloud--low[data-tabs] .hub-bar { margin-top: 44px; }
