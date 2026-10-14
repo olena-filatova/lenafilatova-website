@@ -77,7 +77,7 @@ const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`
 const B = import.meta.env.BASE_URL;
 ---
 <section class:list={[isRail ? 'nl-rail' : 'section', 'newsletter', sectionClass]} id={id}>
-  <div class:list={[!isRail && 'wrap', 'nl-box']}>
+  <div class:list={[!isRail && 'wrap', 'nl-box', !isRail && 'ink-panel ink-panel--card']}>
     <Title class="nl-title">{t.nlTitle}</Title>
     <p class="section-sub">{t.nlSub}</p>
 

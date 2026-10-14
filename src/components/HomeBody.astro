@@ -234,7 +234,7 @@ const toolHref = (card) => {
   </section>
 
   <!-- 04 VOICES -->
-  <section class="ed-voices">
+  <section class="ed-voices ink-panel ink-panel--full">
     <div class="wrap">
       <div class="ed-head">
         <span class="ed-name">{t.voicesLabel}</span>
@@ -455,9 +455,12 @@ const toolHref = (card) => {
   .ed-docline { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); font-family: var(--font-head); font-style: italic; font-size: var(--fs-sub); color: var(--ink); }
   .ed-docline span { display: block; margin-top: 7px; font-family: var(--font-body); font-style: normal; font-size: var(--fs-label); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
 
-  .ed-voices { margin-top: var(--sp-m); padding: var(--sp-ms) 0 var(--sp-s); background: var(--ink); color: #E6D9E2; position: relative; overflow: hidden; }
-  .ed-voices::before { content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%); }
-  .ed-voices .wrap { position: relative; }
+  /* Ground, body colour, the corner bloom and the positioning now come from
+     `.ink-panel ink-panel--full` in global.css (OPS-541). The band keeps its
+     own vertical rhythm, and its own heading colour: `.ed :is(h1, h2, h3, h4)`
+     above is a scoped descendant rule and outranks the panel's (0,2,0) one, so
+     the white has to be said here or the heading comes out in --ink. */
+  .ed-voices { margin-top: var(--sp-m); padding: var(--sp-ms) 0 var(--sp-s); }
   .ed-voices .ed-head { border-top-color: rgba(255, 255, 255, 0.5); }
   .ed-voices .ed-name { color: #fff; }
   .ed-voices h2 { color: #fff; font-size: var(--fs-feature); line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 10px; }

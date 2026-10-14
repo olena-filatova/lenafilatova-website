@@ -682,9 +682,9 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 .ab-row p { margin: 0; font-size: var(--fs-small); color: var(--muted); }
 
 .ab-cta { padding: var(--sp-m) 0 var(--sp-l); }
-.ab-cta .box { background: var(--ink); padding: 36px 28px; display: grid; gap: 24px; }
-.ab-cta h2 { color: #fff; font-size: clamp(26px, 3.4vw, 34px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
-.ab-cta p { color: var(--on-ink); margin: 0; max-width: 46ch; }
+.ab-cta .box { display: grid; gap: 24px; }
+.ab-cta h2 { font-size: clamp(26px, 3.4vw, 34px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 10px; }
+.ab-cta p { max-width: 46ch; }
 .ab-cta .btn { justify-self: start; }
 
 /* --- contact (OPS-277) ---------------------------------------------------
@@ -872,9 +872,56 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   .btn.link .ar { transition: none; }
   .btn.link:hover .ar { transform: none; }
 }
+/* ── the ink panel (OPS-541) ──────────────────────────────────────────────
+   The dark panel was drawn five separate times, each with its own padding and
+   its own spelling of the same two colours: the newsletter box (48px), the
+   About CTA (36/28px, 48px above 820), the article CTA (40/34px, 30/22px on a
+   phone), the homepage testimonials band, and a sixth-hand copy inside
+   scripts/build-tool-chrome.mjs for the standalone tool pages — which had
+   already drifted to a fluid padding of its own. Differences of six pixels are
+   not design decisions; they are what happens when the same panel is drawn
+   five times.
+
+   One definition now. Two modifiers, which are the only real difference
+   between the uses:
+
+     --card   an inset panel inside a .wrap: newsletter, About CTA, article CTA
+     --full   a full-bleed band across the page, with the soft magenta bloom in
+              its top-left corner: the homepage testimonials
+
+   Padding is the fluid step the tool pages had already settled on, so a card
+   opens at 28px on a phone and reaches 48px once there is room, instead of
+   three pairs of flat numbers and two breakpoints. The headings go white and
+   the body copy to --on-ink here, so no page has to remember to do it.
+
+   The headings rule is (0,2,0) via :is() — a bare `.ink-panel h2` would be
+   (0,1,1) and lose to any page-level `.something h2` that also matches.
+
+   The tool pages cannot import this file: they are standalone HTML outside the
+   Astro bundle, so build-tool-chrome.mjs carries its own copy of the rules as
+   `.lf-nl-box`. Those values are kept in step with these by hand — if the
+   padding or the colours change here, change them there too. */
+.ink-panel { background: var(--ink); color: var(--on-ink); }
+.ink-panel :is(h2, .nl-title) { color: #fff; }
+/* Scoped to the card: the band paints its own quote, kicker and standfirst
+   tones, and only needs the inherited body colour above. `.section-sub` has to
+   be named because its own (0,1,0) rule would otherwise beat inheritance. */
+.ink-panel--card { border-radius: var(--radius); padding: clamp(28px, 5vw, 48px); }
+.ink-panel--card :is(p, .section-sub) { color: var(--on-ink); }
+/* The bloom was drawn in HomeBody for the testimonials band. It belongs to the
+   full-bleed variant, so any later ink band gets it for nothing. The band's
+   own vertical rhythm stays with the page: how much air a section needs above
+   and below is a question about the page, not about the panel. */
+.ink-panel--full { position: relative; overflow: hidden; }
+.ink-panel--full::before {
+  content: ''; position: absolute; left: -60px; top: -60px; width: 260px; height: 260px;
+  border-radius: 50%; background: radial-gradient(circle, rgba(178, 58, 99, 0.4), transparent 68%);
+}
+.ink-panel--full > .wrap { position: relative; }
+
 /* newsletter — the one signup block, shared by every page including the
    homepage (which passes .ed-nl for spacing only). Square ink panel. */
-.newsletter .nl-box { background: var(--ink); border-radius: 0; padding: 48px; text-align: center; }
+.newsletter .nl-box { text-align: center; }
 /* OPS-357 — the homepage's signup panel is a .wrap, so it only becomes an
    inset card once the viewport clears --maxw. Below that it runs edge to edge,
    and the section's 40-56px of bottom padding stopped reading as a margin
@@ -885,8 +932,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 @media (max-width: 1119.98px) {
   .newsletter.ed-nl { padding-bottom: 0; }
 }
-.newsletter h2 { color: #fff; }
-.newsletter .section-sub { color: var(--on-ink); margin: 0 auto 26px; }
+.newsletter .section-sub { margin: 0 auto 26px; }
 .nlform { max-width: 520px; margin: 0 auto; }
 .nl-row { display: flex; gap: 10px; }
 .nl-row input { flex: 1; padding: 13px 16px; border-radius: 0; border: 0; font-family: var(--font-body); font-size: var(--fs-small); transition: box-shadow .2s ease; }
@@ -1099,7 +1145,6 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   .section { padding: var(--sp-s) 0; }
   .section-head { flex-direction: column; align-items: flex-start; }
   .nl-row { flex-direction: column; }
-  .newsletter .nl-box { padding: 32px 22px; }
 }
 
 /* Desktop layouts for the pages restyled in OPS-277. Each is a plain stack
@@ -1120,7 +1165,7 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
   .ab-stat:last-child { border-right: 0; }
   /* Three values in two columns left the bottom right corner empty. */
   .ab-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 56px; }
-  .ab-cta .box { grid-template-columns: 1fr auto; align-items: center; gap: 40px; padding: 48px; }
+  .ab-cta .box { grid-template-columns: 1fr auto; align-items: center; gap: 40px; }
   .ab-cta .btn { justify-self: end; }
 }
 
