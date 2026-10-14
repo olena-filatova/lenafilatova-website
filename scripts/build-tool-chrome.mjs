@@ -19,6 +19,12 @@
  *   node scripts/build-tool-chrome.mjs           # write
  *   node scripts/build-tool-chrome.mjs --check   # verify, exit 1 if stale
  *
+ * THE INK PANEL (OPS-541). `.lf-nl-box` below is the tool pages' copy of the
+ * site's one dark panel, which lives in src/styles/global.css as `.ink-panel`.
+ * These pages cannot import that file, so the two are kept in step by hand:
+ * the ground, the white heading, the --on-ink body colour and the
+ * clamp(28px, 5vw, 48px) padding must match. Change one, change the other.
+ *
  * The output is committed — it is not a build-time step. `astro build` must not
  * rewrite files in `public/`, and a checked-in result is what makes the diff
  * reviewable. Re-run this after editing NAV / FOOTER / HOME / SOCIALS in
