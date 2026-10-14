@@ -60,6 +60,7 @@ export const TAGS = [
     key: 'hrt', group: 'hormones',
     en: 'HRT', ua: 'ЗГТ',
     posts: [
+      'hrt-glp1-weight-loss-midlife-women',
       'glp1-menopause-bone-loss',
       'menopause-cost-workplace-productivity',
       'hrt-type-1-diabetes-evidence',
@@ -316,6 +317,7 @@ export const TAGS = [
     key: 'glp1', group: 'weight',
     en: 'GLP-1', ua: 'GLP-1',
     posts: [
+      'hrt-glp1-weight-loss-midlife-women',
       'glp1-what-we-know',
       'glp1-menopause-bone-loss',
       'glp1-older-women-lean-mass',
@@ -330,6 +332,7 @@ export const TAGS = [
     key: 'weight-loss', group: 'weight',
     en: 'Weight loss', ua: 'Схуднення',
     posts: [
+      'hrt-glp1-weight-loss-midlife-women',
       'glp1-menopause-bone-loss',
       'glp1-older-women-lean-mass',
       'tirzepatide-hrt-weight-loss-menopause-2026',

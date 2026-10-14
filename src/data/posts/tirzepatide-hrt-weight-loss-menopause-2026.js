@@ -34,6 +34,10 @@ export default {
         "text": "And the part that doesn’t make the headline: rapid weight loss at midlife has a body-composition cost. A meaningful share of the weight lost on any GLP-1 drug can come from muscle as well as fat, and menopause is already a vulnerable time for bone density as oestrogen drops. Losing weight fast, while your bones and muscle are under pressure anyway, is a combination clinicians increasingly flag. It doesn’t mean don’t do it — it means build in the protective habits from day one: [enough protein](/blog/protein-for-women-over-40/) (roughly 1.2–1.6 g per kg of bodyweight a day), resistance training a couple of times a week, and adequate vitamin D and calcium. None of that is optional if you want to keep the muscle and bone you’ll rely on for decades."
       },
       {
+        "t": "p",
+        "text": "Update, 14 October 2026. A much larger cohort of the same question — about 3,900 midlife women, from the same lead author — has now been announced, and it splits this finding in two: the hormone-therapy advantage held up among women taking semaglutide, but among those taking tirzepatide it no longer reached statistical significance. The study above analysed 120 women, 40 of them on hormone therapy. I have written up what the larger look found [here](/blog/hrt-glp1-weight-loss-midlife-women/)."
+      },
+      {
         "t": "h",
         "text": "What the research says"
       },
@@ -58,6 +62,11 @@ export default {
         "t": "links",
         "title": "Related reading",
         "items": [
+          {
+            "name": "Hormone therapy with a weight-loss jab: a much larger look has split the finding in two",
+            "url": "/blog/hrt-glp1-weight-loss-midlife-women/",
+            "desc": "The follow-up: about 3,900 women, and the tirzepatide advantage above did not hold."
+          },
           {
             "name": "GLP-1 drugs after 40: what we actually know",
             "url": "/blog/glp1-what-we-know/",
@@ -129,6 +138,10 @@ export default {
         "text": "І частина, яка не потрапляє в заголовок: швидка втрата ваги в середньому віці має ціну для складу тіла. Помітна частка ваги, втраченої на будь-якому препараті GLP-1, може припадати на м’язи, а не лише на жир, а менопауза й так є вразливим часом для щільності кісток через падіння естрогену. Швидко худнути, коли ваші кістки й м’язи вже під тиском, — це поєднання, на яке дедалі частіше звертають увагу лікарі. Це не означає «не робіть цього» — це означає закласти захисні звички з першого дня: [достатньо білка](/ua/blog/protein-for-women-over-40/) (приблизно 1,2–1,6 г на кг маси тіла на день), силові тренування кілька разів на тиждень і достатньо вітаміну D та кальцію. Нічого з цього не є необов’язковим, якщо ви хочете зберегти м’язи й кістки, на які покладатиметеся десятиліттями."
       },
       {
+        "t": "p",
+        "text": "Оновлення, 14 жовтня 2026 року. Оголошено значно більшу когорту з того самого питання — близько 3 900 жінок середнього віку, та сама провідна авторка, — і вона розділяє цей висновок надвоє: перевага гормональної терапії втрималася серед тих, хто приймав семаглутид, але серед тих, хто приймав тирзепатид, вона вже не досягала статистичної значущості. У дослідженні вище проаналізували 120 жінок, 40 із них на гормональній терапії. Що показав більший погляд, я описала [тут](/ua/blog/hrt-glp1-weight-loss-midlife-women/)."
+      },
+      {
         "t": "h",
         "text": "Що каже наука"
       },
@@ -153,6 +166,11 @@ export default {
         "t": "links",
         "title": "Більше по темі",
         "items": [
+          {
+            "name": "Гормональна терапія разом із препаратом для схуднення: значно більше дослідження розділило висновок надвоє",
+            "url": "/ua/blog/hrt-glp1-weight-loss-midlife-women/",
+            "desc": "Продовження: близько 3 900 жінок — і перевага для тирзепатиду вище не втрималася."
+          },
           {
             "name": "Препарати GLP-1 після 40: що ми насправді знаємо",
             "url": "/ua/blog/glp1-what-we-know/",
