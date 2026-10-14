@@ -1528,9 +1528,9 @@ export const DIA_SCHOOL = {
     toolsLead: 'Ними можна користуватися вже зараз: без реєстрації та оплати.',
     tools: [
       { href: '/carb-gi-table-ua/', label: 'Таблиця вуглеводів і ГІ' },
-      { href: '/ua/resources/food-calculator/', label: 'Метаболічний калькулятор їжі' },
-      { href: '/cgm-comparison-ua/', label: 'Порівняння сенсорів (CGM)' },
-      { href: '/aid-comparison-ua/', label: 'Порівняння помп і систем АПІ' },
+      { href: '/ua/resources/food-calculator/', label: 'Калькулятор впливу їжі' },
+      { href: '/cgm-comparison-ua/', label: 'Порівняння CGM-сенсорів' },
+      { href: '/aid-comparison-ua/', label: 'Порівняння помп і систем AID' },
     ],
     note: 'Dia.School — освітній проєкт. Матеріали не є медичною консультацією і не замінюють спостереження у вашого лікаря.',
   },
