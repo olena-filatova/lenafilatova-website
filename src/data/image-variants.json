@@ -783,6 +783,24 @@
       ]
     ]
   },
+  "/images/hrt-glp1-weight-loss-midlife-women.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-glp1-weight-loss-midlife-women-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-glp1-weight-loss-midlife-women-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-glp1-weight-loss-midlife-women-1200.avif"
+      ]
+    ]
+  },
   "/images/hrt-patches-vs-tablets-progestogen-type.jpg": {
     "w": 1600,
     "h": 900,
