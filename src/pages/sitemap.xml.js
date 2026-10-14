@@ -113,6 +113,7 @@ const FLAT = [
   ['/blood-sugar-investigator/', '/blood-sugar-investigator-ua/', '2026-07-30'],
   ['/carb-gi-table/', '/carb-gi-table-ua/', '2026-07-14'],
   ['/t1d-cure-trials/', '/t1d-cure-trials-ua/', '2026-07-30'],
+  ['/hba1c-converter/', '/hba1c-converter-ua/', '2026-10-14'],
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;');

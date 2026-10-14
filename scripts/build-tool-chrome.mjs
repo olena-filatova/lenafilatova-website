@@ -73,6 +73,8 @@ const TOOLS = [
   // the English row but runs 48px over in Ukrainian, and one break serves both.
   { slug: 't1d-cure-trials', maxw: '900px', navBreak: null },
   { slug: 'blood-sugar-investigator', maxw: '680px', navBreak: null },
+  // OPS-605 — same 680px column as the investigator, so folded at every width.
+  { slug: 'hba1c-converter', maxw: '680px', navBreak: null },
 ];
 
 const esc = (s) =>

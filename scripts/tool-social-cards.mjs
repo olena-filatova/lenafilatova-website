@@ -118,6 +118,18 @@ export const CARDS = [
     title: 'Чому був підйом? Чому було гіпо?',
     sub: 'Кілька запитань · імовірна причина та підсумок для вашої команди',
   },
+  {
+    file: 'hba1c-converter',
+    kicker: 'Free converter', big: 'HbA1c\nconverter',
+    title: '% ↔ mmol/mol ↔ average glucose',
+    sub: 'Plus mmol/L ↔ mg/dL · with a reference table',
+  },
+  {
+    file: 'hba1c-converter-ua', lang: 'ua',
+    kicker: 'Безкоштовний конвертер', big: 'Конвертер\nHbA1c',
+    title: '% ↔ ммоль/моль ↔ середня глюкоза',
+    sub: 'А також ммоль/л ↔ мг/дл · з таблицею відповідності',
+  },
   // OPS-415 — the meal-plan guide's landing page. Not a tool page: it lives in
   // the Astro bundle (/ua/meal-plan/) and names the card through BaseLayout's
   // ogImage rather than a hand-written <head>. Rendered here anyway so the site
