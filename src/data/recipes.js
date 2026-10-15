@@ -977,7 +977,7 @@ export const RECIPES = [
     // (`варення з ревеню і апельсинами`, position 17.0) — note "і", not the
     // page title's "з"; EN leads with the modifier.
     seoTitle: { en: 'Orange Rhubarb Jam — Sugar-free, No Pectin', ua: 'Варення з ревеню і апельсинами — без цукру' },
-    metaDesc: { en: 'Rhubarb simmered with whole fresh oranges and stevia — four steps, no sugar, no pectin, no gelling agent. Bright and citrusy, GI 43.', ua: 'Ревінь, зварений зі свіжими апельсинами та стевією — чотири кроки, без цукру, пектину й желатину. Яскраве й цитрусове, ГІ 43.' },
+    metaDesc: { en: 'Rhubarb simmered with whole fresh oranges and stevia — four steps, no sugar, no pectin, no gelling agent. Bright and citrusy, GI 43.', ua: 'Ревінь, зварений з цілими свіжими апельсинами та стевією — чотири кроки, без цукру, пектину й желатину. Яскраве й цитрусове, ГІ 43.' },
     related: ['rhubarb-quick-jam', 'rhubarb-strawberry-jam', 'rhubarb-lavender-jam', 'rhubarb-cherry-leaf-jam'],
     why: { en: 'Rhubarb simmered with fresh orange and sweetened with stevia — a bright, no-sugar jam.', ua: 'Ревінь, зварений зі свіжим апельсином і підсолоджений стевією — яскраве варення без цукру.' },
     nutrition: { en: 'Per serving (est.): ~30 kcal · Carbs 6 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~30 ккал · Вуглеводи 6 г · Жири 0 г · Білки 1 г' },
@@ -995,9 +995,9 @@ export const RECIPES = [
     // carries "з лимоном" — GSC shows `варення з ревеню з лимоном` ranking at
     // position 8.0 with no page of its own, and this is the lemon recipe.
     seoTitle: { en: 'Rhubarb Jam — Sugar-free, Baked, Low GI 20', ua: 'Варення з ревеню з лимоном — без цукру, ГІ 20' },
-    metaDesc: { en: 'The simplest rhubarb jam: baked, blended, sweetened with stevia. Four steps, no sugar and no pectin, GI 20. Sharpened with lemon and ginger.', ua: 'Найпростіше варення з ревеню: запекти, збити, підсолодити стевією. Чотири кроки, без цукру й пектину, ГІ 20. З лимоном та імбиром.' },
+    metaDesc: { en: 'The simplest rhubarb jam: baked, blended, sweetened with stevia. Four steps, no sugar and no pectin, GI 20. Sharpened with lemon and ginger.', ua: 'Найпростіше варення з ревеню: запекти, збити, підсолодити стевією. Чотири кроки, без цукру й пектину, ГІ 20. Освіжене лимоном та імбиром.' },
     related: ['rhubarb-lavender-jam', 'rhubarb-strawberry-jam', 'rhubarb-orange-jam', 'rhubarb-cherry-leaf-jam'],
-    why: { en: 'A fuss-free rhubarb jam baked in the oven and blended, sharpened with lemon and ginger and sweetened with stevia — no sugar.', ua: 'Просте варення з ревеню, запечене в духовці й збите, з лимоном та імбиром, підсолоджене стевією — без цукру.' },
+    why: { en: 'A fuss-free rhubarb jam baked in the oven and blended, sharpened with lemon and ginger and sweetened with stevia — no sugar.', ua: 'Просте варення з ревеню, запечене в духовці й збите, освіжене лимоном та імбиром, підсолоджене стевією — без цукру.' },
     nutrition: { en: 'Per serving (est.): ~25 kcal · Carbs 5 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~25 ккал · Вуглеводи 5 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '40 min', ua: '40 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
     ingredients: { en: ['1 kg prepared rhubarb','120 ml (½ cup) water','1 lemon','0.1 g salt','1 tsp grated ginger','1 g stevia'], ua: ['1 кг підготовленого ревеню','120 мл (½ склянки) води','1 лимон','0,1 г солі','1 ч. л. тертого імбиру','1 г стевії'] },
