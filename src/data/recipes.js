@@ -914,7 +914,7 @@ export const RECIPES = [
   {
     slug: 'strawberry-cream-cheesecake', dateAdded: '2026-07-10', img: '79-strawberry-cream-cheesecake.jpg', cat: 'dessert', gi: 32,
     tags: ['vegetarian', 'gluten-free'],
-    title: { en: 'Strawberry Cream-Cheese Cheesecake (no-bake)', ua: 'Полуничний вершковий чізкейк' },
+    title: { en: 'Strawberry Cream-Cheese Cheesecake (no-bake)', ua: 'Полуничний вершковий чізкейк без випікання' },
     why: { en: 'A no-bake cheesecake on a spiced nut base with a cream-cheese filling and fresh strawberries — gluten-free, with the strawberries providing the sweetness.', ua: 'Чізкейк без випікання на пряній горіховій основі з вершковим сиром і свіжою полуницею — без глютену, а солодкість дає полуниця.' },
     nutrition: { en: 'Per serving (est.): ~260 kcal · Carbs 12 g · Fat 20 g · Protein 6 g', ua: 'На порцію (прибл.): ~260 ккал · Вуглеводи 12 г · Жири 20 г · Білки 6 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '1.5 h set', ua: '1,5 год застигання' }, serves: { en: 'Serves 4', ua: '4 порції' } },
