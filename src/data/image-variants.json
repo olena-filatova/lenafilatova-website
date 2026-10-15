@@ -945,6 +945,24 @@
       ]
     ]
   },
+  "/images/intermittent-fasting-perimenopause-diabetes.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/intermittent-fasting-perimenopause-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/intermittent-fasting-perimenopause-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/intermittent-fasting-perimenopause-diabetes-1200.avif"
+      ]
+    ]
+  },
   "/images/islet-transplant-insulin-independence.jpg": {
     "w": 1200,
     "h": 676,
