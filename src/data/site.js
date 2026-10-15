@@ -650,6 +650,13 @@ export const RESOURCES = {
       ua: { band: 'Помічник', kicker: 'Інтерактивний', title: 'Дослідник цукру в крові', desc: 'Покроковий помічник для несподіваного підйому чи гіпо. Дайте відповіді на прості запитання й отримайте найімовірнішу причину, що робити, і підсумок для діабетичної команди.', cta: 'Почати дослідження' },
     },
     {
+      // OPS-605. Ochre — none of the existing tints; the head clears 4.5:1 on the paper.
+      band: '#f4f0dc', head: '#6b5e12',
+      href: '/hba1c-converter/', hrefUa: '/hba1c-converter-ua/',
+      en: { band: 'HbA1c & units', kicker: 'Converter', title: 'HbA1c & blood sugar converter', desc: 'Convert HbA1c between % and mmol/mol, see the average blood sugar it corresponds to, and switch glucose readings between mmol/L and mg/dL. With a reference table.', cta: 'Open the converter' },
+      ua: { band: 'HbA1c та одиниці', kicker: 'Конвертер', title: 'Конвертер HbA1c і цукру в крові', desc: 'Переведіть HbA1c з % у ммоль/моль, дізнайтеся, якому середньому цукру він відповідає, і конвертуйте показники між ммоль/л і мг/дл. З таблицею відповідності.', cta: 'Відкрити конвертер' },
+    },
+    {
       band: '#eaf0f6', head: '#4d61a0',
       href: '/carb-gi-table/', hrefUa: '/carb-gi-table-ua/',
       en: { band: 'Carbs & GI', kicker: 'Interactive table', title: 'Carbohydrate & glycaemic index table', desc: '200+ foods with carbs per 100g and glycaemic index — Ukrainian and British staples included. Filter, search and sort to see how each food is likely to affect blood sugar.', cta: 'Open the table' },
@@ -742,6 +749,7 @@ export const BLOG_RAIL = {
     { href: '/resources/exercise-calculator/', en: 'Exercise & blood sugar', ua: 'Активність і цукор' },
     { href: '/resources/insulin-pump-doses/', en: 'Pump starting doses', ua: 'Стартові дози помпи' },
     { href: '/blood-sugar-investigator/', en: 'Blood Sugar Investigator', ua: 'Дослідник цукру в крові' },
+    { href: '/hba1c-converter/', en: 'HbA1c converter', ua: 'Конвертер HbA1c' },
     { href: '/cgm-comparison/', en: 'CGM sensor comparison', ua: 'Порівняння CGM-сенсорів' },
     { href: '/aid-comparison/', en: 'AID system comparison', ua: 'Порівняння систем AID' },
     { href: '/t1d-cure-trials/', en: 'Type 1 cure trials', ua: 'Дослідження лікування' },

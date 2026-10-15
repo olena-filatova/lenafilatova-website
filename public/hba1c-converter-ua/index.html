@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Конвертер HbA1c: % у ммоль/моль і середня глюкоза — Lena Filatova</title>
+<meta name="description" content="Безкоштовний конвертер HbA1c: % ↔ ммоль/моль, середній цукор у ммоль/л і мг/дл, переведення показників глюкометра. З довідковою таблицею.">
+<link rel="canonical" href="https://lenafilatova.co.uk/hba1c-converter-ua/">
+<link rel="alternate" hreflang="en" href="https://lenafilatova.co.uk/hba1c-converter/">
+<link rel="alternate" hreflang="uk" href="https://lenafilatova.co.uk/hba1c-converter-ua/">
+<link rel="alternate" hreflang="ru" href="https://lenafilatova.co.uk/hba1c-converter-ua/" />
+<link rel="alternate" hreflang="x-default" href="https://lenafilatova.co.uk/hba1c-converter/">
+<link rel="alternate" type="application/rss+xml" title="Lena Filatova — Journal" href="https://lenafilatova.co.uk/rss.xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Конвертер HbA1c і цукру в крові">
+<meta property="og:description" content="Переведіть HbA1c з % у ммоль/моль, дізнайтеся, якому середньому цукру він відповідає, і конвертуйте ммоль/л ↔ мг/дл.">
+<meta property="og:url" content="https://lenafilatova.co.uk/hba1c-converter-ua/">
+<meta property="og:site_name" content="Lena Filatova">
+<meta property="og:image" content="https://lenafilatova.co.uk/images/cards/hba1c-converter-ua.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Конвертер HbA1c і цукру в крові">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Конвертер HbA1c і цукру в крові">
+<meta name="twitter:description" content="Переведіть HbA1c з % у ммоль/моль, дізнайтеся, якому середньому цукру він відповідає, і конвертуйте ммоль/л ↔ мг/дл.">
+<meta name="twitter:image" content="https://lenafilatova.co.uk/images/cards/hba1c-converter-ua.jpg">
+<!-- Self-hosted webfonts (OPS-211). These pages are standalone HTML outside the
+     Astro bundle, so they can't import global.css — the same @font-face rules are
+     inlined here instead. Inlining beats linking a shared /fonts/fonts.css because
+     it costs zero extra requests, and unicode-range still means a page never
+     fetches a subset it doesn't render. Keep in sync with the block at the top of
+     src/styles/global.css. -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/manrope-latin-var.woff2">
+<style>
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-latin-var.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-latin-ext-var.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-cyrillic-var.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-400-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-400-italic.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-400-italic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-400.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-400.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-500.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-500.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-500.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/spectral-latin-ext-600.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/spectral-cyrillic-600.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+</style>
+<style>
+/* ── OPS-605 HbA1c & glucose converter ─────────────────────────────────
+   Standalone page in public/, outside the Astro bundle. Tokens are
+   src/styles/global.css's :root, copied — same set the Blood Sugar
+   Investigator uses. Keep the two in step.
+
+   The EN and UA files share the markup shape and the script verbatim; only
+   the static copy and the `LANG` line differ. The FAQ and reference table are
+   static HTML on purpose: they are what a crawler can read, and the FAQPage
+   JSON-LD below describes exactly that text. Edit both together. */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --accent:      #B23A63;
+  --accent-deep: #7C2144;
+  --ink:         #2A1424;
+  --body:        #4A3644;
+  --muted:       #5A4152;
+  --bg:          #F5EFE8;
+  --paper2:      #EFE6DC;
+  --card:        #FFFCF7;
+  --line:        rgba(42, 20, 36, 0.10);
+  --rule:        rgba(42, 20, 36, 0.18);
+  --font-head:   'Spectral', Georgia, serif;
+  --font-body:   'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --green:  #26654A;  --green-bg: #E3EDE5;
+  --amber:  #8A4B18;  --amber-bg: #F4E7D6;
+  --red:    #9E2626;  --red-bg:   #F6E2DF;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  min-height: 100vh;
+  color: var(--body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.55;
+}
+
+.tool-head { background: var(--bg); border-bottom: 1px solid var(--rule); }
+.tool-head .in {
+  max-width: 680px; margin: 0 auto; padding: 0 16px;
+  display: flex; align-items: center; gap: 18px; min-height: 58px;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--font-head); font-weight: 500; font-size: 18px;
+  letter-spacing: -0.02em; color: var(--ink); text-decoration: none;
+}
+.brand .mark {
+  flex: none; width: 32px; height: 32px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-style: italic; font-size: 14px;
+}
+.back-link {
+  margin-left: auto; font-size: 10px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none;
+}
+
+.wrapper { max-width: 680px; margin: 0 auto; padding: 0 16px 40px; }
+
+.header { padding: 26px 0 18px; }
+.kicker {
+  font-size: 10px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 12px;
+}
+.header h1 {
+  font-family: var(--font-head); font-weight: 400;
+  font-size: clamp(26px, 6vw, 34px); line-height: 1.1; letter-spacing: -0.025em;
+  color: var(--ink); margin-bottom: 10px;
+}
+.header p { font-family: var(--font-head); font-size: 16px; line-height: 1.5; color: var(--muted); }
+
+.card {
+  background: var(--card); border: 1px solid var(--rule);
+  padding: 24px 20px; margin-bottom: 14px;
+}
+.card h2, .faq h2 {
+  font-family: var(--font-head); font-weight: 400; font-size: 22px;
+  line-height: 1.25; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 6px;
+}
+.card .sub { font-size: 13.5px; color: var(--muted); margin-bottom: 18px; }
+
+label, .lbl {
+  display: block; font-size: 10.5px; font-weight: 800; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 6px;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+input, select {
+  font: inherit; font-size: 18px; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--rule); border-radius: 0;
+  padding: 10px 12px; min-height: 48px;
+}
+input { flex: 1 1 120px; min-width: 0; font-weight: 700; }
+select { flex: 1 1 200px; font-size: 15px; }
+input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.out {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 18px;
+}
+.out div { background: var(--card); padding: 12px 14px; }
+.out dt { font-size: 10.5px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.out dd { font-family: var(--font-head); font-size: 26px; color: var(--ink); line-height: 1.2; margin-top: 2px; }
+.out dd small { font-family: var(--font-body); font-size: 12px; color: var(--muted); margin-left: 4px; }
+.out .src { background: var(--paper2); }
+
+.band {
+  margin-top: 14px; padding: 12px 14px; font-size: 14px; line-height: 1.5;
+  border-left: 3px solid var(--rule); background: var(--paper2); color: var(--ink);
+}
+.band:empty { display: none; }
+.band.ok   { border-color: var(--green); background: var(--green-bg); }
+.band.warn { border-color: var(--amber); background: var(--amber-bg); }
+.band.high { border-color: var(--red);   background: var(--red-bg); }
+.band.err  { border-color: var(--red); }
+.note { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.note[hidden] { display: none; }
+
+.pair { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: end; }
+.pair input { width: 100%; }
+.pair .swap { font-size: 20px; color: var(--muted); padding-bottom: 12px; }
+
+.tbl-wrap { overflow-x: auto; margin-top: 8px; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 14px; }
+th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: var(--card); }
+thead th { font-size: 10.5px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); }
+td:first-child { font-weight: 700; color: var(--ink); }
+
+.faq { margin-top: 28px; }
+.faq h2 { margin-bottom: 12px; }
+.faq details { border-top: 1px solid var(--rule); padding: 14px 0; }
+.faq details:last-of-type { border-bottom: 1px solid var(--rule); }
+.faq summary {
+  cursor: pointer; font-weight: 700; color: var(--ink); font-size: 15.5px; list-style: none;
+  display: flex; justify-content: space-between; gap: 12px;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: '+'; color: var(--accent); font-weight: 800; }
+.faq details[open] summary::after { content: '−'; }
+.faq summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.faq details p { margin-top: 10px; font-size: 14.5px; }
+
+.related { margin-top: 28px; font-size: 14.5px; }
+.related a, .faq a, .disclaimer a { color: var(--accent); }
+.related ul { list-style: none; margin-top: 8px; display: grid; gap: 6px; }
+.disclaimer { margin-top: 24px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; }
+
+@media (max-width: 420px) {
+  .out dd { font-size: 22px; }
+  .pair { grid-template-columns: 1fr; }
+  .pair .swap { display: none; }
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://lenafilatova.co.uk/hba1c-converter-ua/#faq",
+  "inLanguage": "uk",
+  "mainEntity": [
+    { "@type": "Question", "name": "Як перевести HbA1c з % у ммоль/моль?", "acceptedAnswer": { "@type": "Answer", "text": "Відніміть від відсотка 2,15 і помножте на 10,929. Тобто 7% — це (7 − 2,15) × 10,929 = 53 ммоль/моль. Щоб перевести назад, поділіть ммоль/моль на 10,929 і додайте 2,15." } },
+    { "@type": "Question", "name": "Якому середньому цукру відповідає мій HbA1c?", "acceptedAnswer": { "@type": "Answer", "text": "Формула дослідження ADAG оцінює середню глюкозу (eAG) як 28,7 × HbA1c − 46,7 у мг/дл. HbA1c 7% (53 ммоль/моль) відповідає приблизно 154 мг/дл, або 8,6 ммоль/л. Це оцінка для популяції: у двох людей з однаковим HbA1c середній цукор може помітно відрізнятися." } },
+    { "@type": "Question", "name": "Як перевести ммоль/л у мг/дл?", "acceptedAnswer": { "@type": "Answer", "text": "Помножте ммоль/л на 18 (точно — 18,016), щоб отримати мг/дл, і поділіть мг/дл на 18, щоб отримати ммоль/л. Наприклад, 5,5 ммоль/л — це 99 мг/дл, а 180 мг/дл — 10,0 ммоль/л." } },
+    { "@type": "Question", "name": "Який HbA1c вважається нормою?", "acceptedAnswer": { "@type": "Answer", "text": "У Великій Британії норма — нижче 42 ммоль/моль (6,0%), 42–47 ммоль/моль (6,0–6,4%) означає підвищений ризик діабету 2 типу, а 48 ммоль/моль (6,5%) і вище — рівень, за яким діагностують діабет. Діагноз ставить лікар, зазвичай після повторного аналізу. У США ADA починає діапазон предіабету нижче — з 5,7% (39 ммоль/моль)." } },
+    { "@type": "Question", "name": "Якого HbA1c прагнути, якщо в мене діабет?", "acceptedAnswer": { "@type": "Answer", "text": "NICE радить 48 ммоль/моль (6,5%) або нижче для більшості дорослих із діабетом 1 типу. Для 2 типу — 48 ммоль/моль, якщо діабет контролюється харчуванням або одним препаратом, що не спричиняє гіпо, і 53 ммоль/моль (7,0%) на препаратах, які можуть їх спричиняти. Ваша команда може визначити для вас іншу ціль." } },
+    { "@type": "Question", "name": "Чому GMI на моєму CGM не збігається з лабораторним HbA1c?", "acceptedAnswer": { "@type": "Answer", "text": "GMI (індикатор контролю глюкози) рахується лише із середньої глюкози вашого CGM. HbA1c вимірює цукор, приєднаний до еритроцитів приблизно за три місяці, тож усе, що змінює тривалість життя еритроцитів, його зсуває: залізодефіцитна анемія, нещодавня крововтрата, вагітність, хвороби нирок або варіанти гемоглобіну. Розбіжність у пів відсоткового пункту і більше — звичайна річ." } },
+    { "@type": "Question", "name": "Що може спотворити результат HbA1c?", "acceptedAnswer": { "@type": "Answer", "text": "Залізодефіцитна анемія зазвичай завищує HbA1c — це важливо для жінок із рясними менструаціями, зокрема в перименопаузі. Крововтрата, нещодавнє переливання крові, гемоліз і вагітність зазвичай його занижують. Якщо HbA1c не збігається з показниками глюкометра чи CGM, запитайте лікаря, чи не стосується вас щось із цього." } }
+  ]
+}
+</script>
+<!-- lf-chrome:head:start — generated by scripts/build-tool-chrome.mjs, do not edit by hand -->
+<script>
+  /* Stamped before <body> is parsed so framed pages never flash the chrome. */
+  if (window.self !== window.top) document.documentElement.setAttribute('data-lf-framed', '');
+</script>
+<style>
+:root { --lf-maxw: 680px; }
+
+/* Framed: the tool is a widget inside an article that already has chrome. */
+html[data-lf-framed] [data-lf-chrome] { display: none !important; }
+
+.lf-langbar[hidden] { display: none !important; }
+.lf-langbar { display: block; background: var(--ink); color: #F1E6EE; padding: 9px 24px; }
+.lf-langbar-in { width: 100%; max-width: var(--lf-maxw); margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
+.lf-langbar p { margin: 0; flex: 1 1 auto; min-width: 0; font-family: var(--font-body); font-size: 13px; line-height: 1.5; }
+.lf-langbar a { color: #fff; text-decoration: none; flex: none; font-family: var(--font-body); font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
+.lf-langbar a:hover { border-bottom-color: #fff; }
+.lf-langbar a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.lf-langbar button { flex: none; border: 0; background: transparent; color: #C9B2C2; width: 32px; height: 32px; padding: 6px; cursor: pointer; display: grid; place-items: center; }
+.lf-langbar button svg { width: 100%; height: 100%; }
+.lf-langbar button:hover { color: #fff; }
+.lf-langbar button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@media (max-width: 560px) {
+  .lf-langbar { padding: 9px 16px; }
+  .lf-langbar-in { gap: 2px 12px; }
+  .lf-langbar p { flex: 1 1 100%; }
+}
+
+.lf-wrap { max-width: var(--lf-maxw); margin: 0 auto; padding: 0 clamp(18px, 3.5vw, 40px); }
+.lf-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--accent); color: #fff; border: 0; border-radius: 0; cursor: pointer;
+  font-family: var(--font-body); font-weight: 700; font-size: 14px;
+  padding: 11px 20px; min-height: 42px; text-decoration: none;
+  transition: background .2s ease;
+}
+.lf-btn:hover { background: var(--accent-deep); }
+
+/* ── masthead ─────────────────────────────────────────────────────────── */
+/* .tool-head, .in, .brand and .mark are the page's own — only the nav, the
+   toggle and the burger are added here. */
+.tool-head .brand { white-space: nowrap; }
+.lf-nav { display: flex; gap: 22px; margin-left: 4px; }
+.lf-nav a {
+  color: var(--ink); text-decoration: none; font-weight: 700; font-size: 11px;
+  letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap;
+  transition: color .2s ease;
+}
+.lf-nav a:hover { color: var(--accent); }
+.lf-actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.lf-lang { display: inline-flex; box-shadow: inset 0 0 0 1px var(--rule); }
+.lf-lang a {
+  font-size: 11px; font-weight: 800; letter-spacing: 0.1em; padding: 7px 11px;
+  color: var(--muted); text-decoration: none; transition: color .2s ease;
+}
+.lf-lang a + a { box-shadow: inset 1px 0 0 var(--rule); }
+.lf-lang a:hover { color: var(--accent); }
+.lf-lang a.on { background: var(--ink); color: var(--bg); }
+.lf-lang a.on:hover { color: var(--bg); }
+.lf-burger {
+  display: none; background: none; border: 0; padding: 8px; cursor: pointer;
+  color: var(--ink); line-height: 0;
+}
+.lf-burger svg { width: 22px; height: 22px; }
+.lf-mobile-nav { display: none; }
+.lf-mobile-nav[hidden] { display: none; }
+
+/* This page's content column is too narrow for the full nav row in both
+   languages, so its masthead is folded at every width. */
+.lf-nav, .lf-sub { display: none; }
+.lf-burger { display: block; }
+.lf-mobile-nav:not([hidden]) {
+  display: grid; gap: 4px;
+  padding: 12px clamp(18px, 3.5vw, 40px) 18px;
+  border-top: 1px solid var(--line);
+}
+.lf-mobile-nav a {
+  color: var(--ink); text-decoration: none; font-weight: 700; font-size: 12px;
+  letter-spacing: 0.16em; text-transform: uppercase; padding: 11px 0;
+}
+.lf-mobile-nav a:hover { color: var(--accent); }
+.lf-mobile-nav .lf-btn { margin-top: 8px; justify-self: start; color: #fff; }
+
+/* ── newsletter ───────────────────────────────────────────────────────── */
+.lf-nl { padding: 56px 0 0; }
+.lf-nl-box { background: var(--ink); padding: clamp(28px, 5vw, 48px); text-align: center; }
+.lf-nl-kicker {
+  font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase; color: #E39BBA; margin: 0 0 10px;
+}
+.lf-nl h2 {
+  font-family: var(--font-head); font-weight: 500; color: #fff;
+  font-size: clamp(24px, 3.4vw, 30px); line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 10px;
+}
+.lf-nl-sub { color: #E6D9E2; font-size: 15.5px; line-height: 1.6; margin: 0 auto 26px; max-width: 60ch; }
+.lf-nl .nlform { max-width: 520px; margin: 0 auto; }
+.lf-nl .nl-row { display: flex; gap: 10px; }
+.lf-nl .nl-row input {
+  flex: 1; min-width: 0; padding: 12px 16px; border: 0; border-radius: 0;
+  font-family: var(--font-body); font-size: 15px; color: var(--ink); background: #fff;
+}
+.lf-nl .nl-row input::placeholder { color: var(--ink); opacity: .4; }
+/* The field is white on the dark --ink box, so the ring is drawn in two layers:
+   accent against the input, a light halo against the box behind it. A single
+   accent ring only reaches 2.8:1 on --ink and would fail WCAG 1.4.11. */
+.lf-nl .nl-row input:focus-visible {
+  outline: 2px solid transparent; outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 0 5px rgba(255,255,255,0.6);
+}
+.lf-nl .nl-row .lf-btn { min-height: 46px; white-space: nowrap; }
+.lf-nl .nl-row .lf-btn:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: 0 0 0 3px rgba(255,255,255,0.7); }
+.lf-nl .nl-row .lf-btn:disabled { opacity: .6; cursor: default; }
+.lf-nl-consent {
+  display: flex; gap: 9px; align-items: flex-start; text-align: left;
+  color: #D3C2CE; font-size: 12.5px; line-height: 1.5; margin-top: 14px;
+}
+/* The box ships at the 13px UA default, under the 24px WCAG 2.5.8 floor; the
+   label wraps the input so the real target is the whole block, but the visible
+   box is what a pointer aims at. The 1px nudge re-centres it on line one. */
+.lf-nl-consent input[type='checkbox'] { flex: none; width: 18px; height: 18px; margin: 1px 0 0; }
+.lf-nl-consent input:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.lf-nl-consent a { color: #fff; text-decoration: underline; text-underline-offset: 2px; }
+.lf-nl-consent a:hover { color: #E39BBA; }
+.lf-nl-sent {
+  max-width: 520px; margin: 0 auto; background: #EDF4EA; border: 1px solid #C4DCBA;
+  color: #2C5E27; padding: 16px; font-size: 15px; text-align: center;
+}
+.lf-nl-msg { max-width: 46ch; margin: 14px auto 0; font-size: 14.5px; line-height: 1.5; color: #F2C3CE; }
+/* Honeypot (OPS-235): in the layout, focusable by nothing, never visible.
+   display:none is skipped by many bots, so it moves off-screen instead. */
+.lf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+@media (max-width: 620px) {
+  .lf-nl .nl-row { flex-direction: column; }
+}
+
+/* ── footer ───────────────────────────────────────────────────────────── */
+.lf-footer { background: var(--paper2); border-top: 1.5px solid var(--ink); margin-top: 56px; padding: 56px 0 28px; }
+.lf-foot-top { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 32px; }
+.lf-footer .lf-foot-brand {
+  display: inline-flex; align-items: center; gap: 11px; text-decoration: none;
+  font-family: var(--font-head); font-weight: 500; font-size: 19px;
+  letter-spacing: -0.02em; color: var(--ink);
+}
+/* Each page's own ".brand .mark" rule is scoped to the masthead link, so the
+   footer wordmark needs the magenta disc restating. */
+.lf-foot-brand .mark {
+  flex: none; width: 34px; height: 34px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-style: italic; font-size: 15px;
+}
+.lf-blurb { color: var(--muted); font-size: 15px; line-height: 1.6; max-width: 34ch; margin: 14px 0 0; }
+.lf-footer h4 {
+  font-family: var(--font-body); font-weight: 800; font-size: 10.5px;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); margin: 20px 0 14px;
+}
+.lf-footer .lf-foot-top > div > h4:first-child { margin-top: 0; }
+.lf-footer h4.lf-h4-gap { margin-top: 20px; }
+.lf-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+.lf-footer a { color: var(--muted); font-size: 15px; text-decoration: none; }
+.lf-footer a:hover { color: var(--accent); }
+/* A 24px hit strip on each row: rows are 9px apart and ~21px tall, so 24px
+   clears its neighbours by 3px and still meets WCAG 2.5.8. */
+.lf-footer ul a { position: relative; display: inline-block; }
+.lf-footer ul a::before { content: ''; position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); height: 24px; }
+.lf-socials { display: flex; gap: 10px; }
+.lf-socials a {
+  width: 34px; height: 34px; border-radius: 50%; background: var(--bg);
+  box-shadow: inset 0 0 0 1px var(--rule);
+  display: grid; place-items: center; color: var(--accent); font-weight: 800; font-size: 13px;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.lf-socials svg { width: 17px; height: 17px; fill: currentColor; display: block; }
+.lf-socials a:hover, .lf-socials a:focus-visible {
+  background: var(--accent); color: #fff; box-shadow: inset 0 0 0 1px var(--accent); transform: scale(1.1);
+}
+.lf-foot-legal { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 22px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.lf-foot-legal p { margin: 0 0 8px; }
+.lf-foot-legal a { font-size: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ── cookie bar ───────────────────────────────────────────────────────── */
+/* display:flex below would override the hidden attribute's UA display:none,
+   leaving the bar up after Accept/Decline — this rule must win, so it stays
+   first and is re-checked whenever the bar is restyled. */
+.lf-cookie[hidden] { display: none !important; }
+.lf-cookie {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 100;
+  background: var(--card, #FFFCF7); border-top: 1.5px solid var(--ink);
+  padding: 12px 16px; padding-bottom: calc(12px + env(safe-area-inset-bottom));
+  box-shadow: 0 -6px 24px rgba(42, 20, 36, 0.12);
+}
+.lf-cookie-in {
+  width: 100%; max-width: 960px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between;
+}
+.lf-cookie p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--muted); flex: 1 1 240px; min-width: 0; }
+.lf-cookie p a { color: var(--accent); font-weight: 700; border-bottom: 1px solid currentColor; text-decoration: none; }
+.lf-cookie-actions { display: flex; gap: 8px; align-items: center; margin-left: auto; }
+.lf-cookie .lf-btn { min-height: 38px; padding: 9px 20px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; }
+.lf-cookie-decline {
+  border: none; background: transparent; color: var(--muted); font-family: var(--font-body);
+  font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  cursor: pointer; padding: 9px 10px;
+}
+.lf-cookie-decline:hover { color: var(--ink); }
+
+@media (prefers-reduced-motion: reduce) {
+  .lf-nav a, .lf-lang a, .lf-btn, .lf-socials a { transition: none; }
+  .lf-socials a:hover, .lf-socials a:focus-visible { transform: none; }
+}
+@media print {
+  [data-lf-chrome] { display: none !important; }
+}
+</style>
+<!-- lf-chrome:head:end -->
+<!-- OPS-304 structured data — generated by scripts/tool-page-schema.mjs, do not hand-edit -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://lenafilatova.co.uk/hba1c-converter-ua/#webpage",
+      "url": "https://lenafilatova.co.uk/hba1c-converter-ua/",
+      "name": "Конвертер HbA1c і цукру в крові",
+      "description": "Переведення HbA1c між % і ммоль/моль, середня глюкоза в ммоль/л і мг/дл та конвертація окремих показників глюкози між цими одиницями.",
+      "inLanguage": "uk",
+      "isPartOf": {
+        "@id": "https://lenafilatova.co.uk/ua/#website"
+      },
+      "creator": {
+        "@id": "https://lenafilatova.co.uk/#person"
+      },
+      "breadcrumb": {
+        "@id": "https://lenafilatova.co.uk/hba1c-converter-ua/#breadcrumb"
+      }
+    },
+    {
+      "@type": [
+        "WebApplication",
+        "MedicalWebPage"
+      ],
+      "@id": "https://lenafilatova.co.uk/hba1c-converter-ua/#app",
+      "url": "https://lenafilatova.co.uk/hba1c-converter-ua/",
+      "name": "Конвертер HbA1c і цукру в крові",
+      "description": "Переведення HbA1c між % і ммоль/моль, середня глюкоза в ммоль/л і мг/дл та конвертація окремих показників глюкози між цими одиницями.",
+      "inLanguage": "uk",
+      "applicationCategory": "HealthApplication",
+      "browserRequirements": "Requires JavaScript.",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "GBP"
+      },
+      "isAccessibleForFree": true,
+      "creator": {
+        "@id": "https://lenafilatova.co.uk/#person"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://lenafilatova.co.uk/hba1c-converter-ua/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Головна",
+          "item": "https://lenafilatova.co.uk/ua/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ресурси",
+          "item": "https://lenafilatova.co.uk/ua/resources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Конвертер HbA1c"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://lenafilatova.co.uk/#person",
+      "name": "Lena Filatova",
+      "url": "https://lenafilatova.co.uk/",
+      "image": "https://lenafilatova.co.uk/images/lena-filatova-author.jpg"
+    }
+  ]
+}
+</script>
+<!-- /OPS-304 -->
+</head>
+<body>
+<!-- lf-chrome:head-bar:start — generated by scripts/build-tool-chrome.mjs, do not edit by hand -->
+<header class="tool-head" data-lf-chrome>
+  <div class="in">
+    <a class="brand" href="/ua/"><span class="mark">lf</span>Lena Filatova</a>
+    <nav class="lf-nav">
+      <a href="/ua/blog/">Блог</a>
+      <a href="/ua/resources/">Ресурси</a>
+      <a href="/ua/recipes/">Рецепти</a>
+      <a href="/ua/about/">Про мене</a>
+      <a href="/ua/gymbile/">Застосунок</a>
+      <a href="/ua/contact/">Контакти</a>
+    </nav>
+    <div class="lf-actions">
+      <span class="lf-lang">
+        <a href="/hba1c-converter/">EN</a>
+        <a href="/hba1c-converter-ua/" class="on" aria-current="page">UA</a>
+      </span>
+      <a class="lf-btn lf-sub" href="#newsletter">Підписатися</a>
+      <button class="lf-burger" id="lfNavToggle" type="button" aria-label="Меню" aria-expanded="false" aria-controls="lfMobileNav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="lf-mobile-nav" id="lfMobileNav" hidden>
+    <a href="/ua/blog/">Блог</a>
+    <a href="/ua/resources/">Ресурси</a>
+    <a href="/ua/recipes/">Рецепти</a>
+    <a href="/ua/about/">Про мене</a>
+    <a href="/ua/gymbile/">Застосунок</a>
+    <a href="/ua/contact/">Контакти</a>
+    <a href="/ua/search/">Пошук</a>
+    <a class="lf-btn" href="#newsletter">Підписатися</a>
+  </nav>
+</header>
+<!-- lf-chrome:head-bar:end -->
+<main class="wrapper">
+  <div class="header">
+    <p class="kicker">Безкоштовно · без реєстрації</p>
+    <h1>Конвертер HbA1c і цукру в крові</h1>
+    <p>Переведіть HbA1c з % у ммоль/моль і назад, дізнайтеся, якому середньому цукру він відповідає, і конвертуйте показники глюкози між ммоль/л і мг/дл.</p>
+  </div>
+
+  <section class="card" aria-labelledby="a1cTitle">
+    <h2 id="a1cTitle">HbA1c ↔ середня глюкоза</h2>
+    <p class="sub">Введіть будь-яке одне значення — решта три оновляться одразу.</p>
+    <label for="a1cVal">Ваше значення</label>
+    <div class="row">
+      <input id="a1cVal" type="text" inputmode="decimal" autocomplete="off" value="5,5" aria-describedby="a1cBand">
+      <select id="a1cUnit" aria-label="Одиниця">
+        <option value="pct" selected>HbA1c, % (DCCT)</option>
+        <option value="ifcc">HbA1c, ммоль/моль (IFCC)</option>
+        <option value="mmol">Середня глюкоза, ммоль/л</option>
+        <option value="mgdl">Середня глюкоза, мг/дл</option>
+      </select>
+    </div>
+    <dl class="out" aria-live="polite">
+      <div data-k="pct"><dt>HbA1c</dt><dd><span id="oPct">–</span><small>%</small></dd></div>
+      <div data-k="ifcc"><dt>HbA1c</dt><dd><span id="oIfcc">–</span><small>ммоль/моль</small></dd></div>
+      <div data-k="mmol"><dt>Середня глюкоза</dt><dd><span id="oMmol">–</span><small>ммоль/л</small></dd></div>
+      <div data-k="mgdl"><dt>Середня глюкоза</dt><dd><span id="oMgdl">–</span><small>мг/дл</small></dd></div>
+    </dl>
+    <div class="band" id="a1cBand" role="status"></div>
+    <p class="note" id="gmiNote" hidden></p>
+  </section>
+
+  <section class="card" aria-labelledby="gluTitle">
+    <h2 id="gluTitle">Глюкоза в крові: ммоль/л ↔ мг/дл</h2>
+    <p class="sub">Для одного показника глюкометра чи CGM. Пишіть у будь-яке поле.</p>
+    <div class="pair">
+      <div><label for="gMmol">ммоль/л</label><input id="gMmol" type="text" inputmode="decimal" autocomplete="off" value="5,5" aria-describedby="gluBand"></div>
+      <span class="swap" aria-hidden="true">⇄</span>
+      <div><label for="gMgdl">мг/дл</label><input id="gMgdl" type="text" inputmode="decimal" autocomplete="off" value="99" aria-describedby="gluBand"></div>
+    </div>
+    <div class="band" id="gluBand" role="status"></div>
+  </section>
+
+  <section class="card" aria-labelledby="tblTitle">
+    <h2 id="tblTitle">Таблиця відповідності HbA1c</h2>
+    <p class="sub">Середня глюкоза за формулою ADAG. Значення округлені.</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th scope="col">HbA1c %</th><th scope="col">ммоль/моль</th><th scope="col">Сер. ммоль/л</th><th scope="col">Сер. мг/дл</th></tr></thead>
+        <tbody>
+          <tr><td>5,0</td><td>31</td><td>5,4</td><td>97</td></tr>
+          <tr><td>5,5</td><td>37</td><td>6,2</td><td>111</td></tr>
+          <tr><td>6,0</td><td>42</td><td>7,0</td><td>125</td></tr>
+          <tr><td>6,5</td><td>48</td><td>7,8</td><td>140</td></tr>
+          <tr><td>7,0</td><td>53</td><td>8,6</td><td>154</td></tr>
+          <tr><td>7,5</td><td>58</td><td>9,4</td><td>169</td></tr>
+          <tr><td>8,0</td><td>64</td><td>10,2</td><td>183</td></tr>
+          <tr><td>8,5</td><td>69</td><td>10,9</td><td>197</td></tr>
+          <tr><td>9,0</td><td>75</td><td>11,7</td><td>212</td></tr>
+          <tr><td>9,5</td><td>80</td><td>12,5</td><td>226</td></tr>
+          <tr><td>10,0</td><td>86</td><td>13,3</td><td>240</td></tr>
+          <tr><td>10,5</td><td>91</td><td>14,1</td><td>255</td></tr>
+          <tr><td>11,0</td><td>97</td><td>14,9</td><td>269</td></tr>
+          <tr><td>11,5</td><td>102</td><td>15,7</td><td>283</td></tr>
+          <tr><td>12,0</td><td>108</td><td>16,5</td><td>298</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="faq" aria-labelledby="faqTitle">
+    <h2 id="faqTitle">Запитання</h2>
+    <details>
+      <summary>Як перевести HbA1c з % у ммоль/моль?</summary>
+      <p>Відніміть від відсотка 2,15 і помножте на 10,929. Тобто 7% — це (7 − 2,15) × 10,929 = 53 ммоль/моль. Щоб перевести назад, поділіть ммоль/моль на 10,929 і додайте 2,15.</p>
+    </details>
+    <details>
+      <summary>Якому середньому цукру відповідає мій HbA1c?</summary>
+      <p>Формула дослідження ADAG оцінює середню глюкозу (eAG) як 28,7 × HbA1c − 46,7 у мг/дл. HbA1c 7% (53 ммоль/моль) відповідає приблизно 154 мг/дл, або 8,6 ммоль/л. Це оцінка для популяції: у двох людей з однаковим HbA1c середній цукор може помітно відрізнятися.</p>
+    </details>
+    <details>
+      <summary>Як перевести ммоль/л у мг/дл?</summary>
+      <p>Помножте ммоль/л на 18 (точно — 18,016), щоб отримати мг/дл, і поділіть мг/дл на 18, щоб отримати ммоль/л. Наприклад, 5,5 ммоль/л — це 99 мг/дл, а 180 мг/дл — 10,0 ммоль/л.</p>
+    </details>
+    <details>
+      <summary>Який HbA1c вважається нормою?</summary>
+      <p>У Великій Британії норма — нижче 42 ммоль/моль (6,0%), 42–47 ммоль/моль (6,0–6,4%) означає підвищений ризик діабету 2 типу, а 48 ммоль/моль (6,5%) і вище — рівень, за яким діагностують діабет. Діагноз ставить лікар, зазвичай після повторного аналізу. У США ADA починає діапазон предіабету нижче — з 5,7% (39 ммоль/моль).</p>
+    </details>
+    <details>
+      <summary>Якого HbA1c прагнути, якщо в мене діабет?</summary>
+      <p>NICE радить 48 ммоль/моль (6,5%) або нижче для більшості дорослих із діабетом 1 типу. Для 2 типу — 48 ммоль/моль, якщо діабет контролюється харчуванням або одним препаратом, що не спричиняє гіпо, і 53 ммоль/моль (7,0%) на препаратах, які можуть їх спричиняти. Ваша команда може визначити для вас іншу ціль.</p>
+    </details>
+    <details>
+      <summary>Чому GMI на моєму CGM не збігається з лабораторним HbA1c?</summary>
+      <p>GMI (індикатор контролю глюкози) рахується лише із середньої глюкози вашого CGM. HbA1c вимірює цукор, приєднаний до еритроцитів приблизно за три місяці, тож усе, що змінює тривалість життя еритроцитів, його зсуває: залізодефіцитна анемія, нещодавня крововтрата, вагітність, хвороби нирок або варіанти гемоглобіну. Розбіжність у пів відсоткового пункту і більше — звичайна річ.</p>
+    </details>
+    <details>
+      <summary>Що може спотворити результат HbA1c?</summary>
+      <p>Залізодефіцитна анемія зазвичай завищує HbA1c — це важливо для жінок із рясними менструаціями, зокрема в перименопаузі. Крововтрата, нещодавнє переливання крові, гемоліз і вагітність зазвичай його занижують. Якщо HbA1c не збігається з показниками глюкометра чи CGM, запитайте лікаря, чи не стосується вас щось із цього.</p>
+    </details>
+  </section>
+
+  <nav class="related" aria-label="Інші інструменти">
+    <strong>Інші безкоштовні інструменти</strong>
+    <ul>
+      <li><a href="/blood-sugar-investigator-ua/">Дослідник цукру в крові</a>: з’ясуйте, чому показник був несподівано високим чи низьким</li>
+      <li><a href="/cgm-comparison-ua/">Порівняння CGM-сенсорів</a>: усі монітори глюкози безперервної дії поряд</li>
+      <li><a href="/carb-gi-table-ua/">Таблиця вуглеводів і ГІ</a>: вуглеводи та глікемічний індекс для понад 200 продуктів</li>
+    </ul>
+  </nav>
+
+  <p class="disclaimer">Лише для інформації. Конвертер не ставить діагнозів і не може сказати, що ваш результат означає саме для вас. Обговоріть свої показники з сімейним лікарем або діабетичною командою.</p>
+</main>
+<script>
+// LANG is 'en' in the English file; this one sets it to 'ua'. The script below is identical in both.
+const LANG = 'ua';
+</script>
+<script>
+(function () {
+  const T = {
+    en: {
+      bad: 'Enter a number in a realistic range for this unit.',
+      a1cOk: 'Below 42 mmol/mol (6.0%): the normal range in UK guidance.',
+      a1cWarn: '42–47 mmol/mol (6.0–6.4%): a higher risk of type 2 diabetes, sometimes called prediabetes.',
+      a1cHigh: '48 mmol/mol (6.5%) or above: the level used to diagnose diabetes. Only a clinician can make a diagnosis.',
+      a1cDx: ' If you already have diabetes, NICE’s usual target is 48 mmol/mol (6.5%) or lower; your team may set a different one.',
+      gmi: (p, m) => `From a CGM average, the GMI formula gives ${p}% (${m} mmol/mol). GMI and a lab HbA1c often differ; see the questions below.`,
+      gLow: 'Below 4.0 mmol/L (72 mg/dL): UK guidance treats this as a hypo.',
+      gIn: 'Within 3.9–10.0 mmol/L (70–180 mg/dL), the target range used for CGM time in range.',
+      gHigh: 'Above 10.0 mmol/L (180 mg/dL): above the CGM target range.',
+      gVhigh: 'Above 13.9 mmol/L (250 mg/dL): the “very high” band on CGM reports.',
+      dec: '.',
+    },
+    ua: {
+      bad: 'Введіть число в реалістичному діапазоні для цієї одиниці.',
+      a1cOk: 'Нижче 42 ммоль/моль (6,0%): норма за британськими рекомендаціями.',
+      a1cWarn: '42–47 ммоль/моль (6,0–6,4%): підвищений ризик діабету 2 типу, так званий предіабет.',
+      a1cHigh: '48 ммоль/моль (6,5%) і вище: рівень, за яким діагностують діабет. Діагноз може поставити лише лікар.',
+      a1cDx: ' Якщо у вас уже є діабет, звичайна ціль за NICE — 48 ммоль/моль (6,5%) або нижче; ваша команда може визначити іншу.',
+      gmi: (p, m) => `Із середнього значення CGM формула GMI дає ${p}% (${m} ммоль/моль). GMI і лабораторний HbA1c часто відрізняються — див. запитання нижче.`,
+      gLow: 'Нижче 4,0 ммоль/л (72 мг/дл): за британськими рекомендаціями це гіпоглікемія.',
+      gIn: 'У межах 3,9–10,0 ммоль/л (70–180 мг/дл) — цільовий діапазон для часу в діапазоні (TIR) на CGM.',
+      gHigh: 'Вище 10,0 ммоль/л (180 мг/дл): вище цільового діапазону CGM.',
+      gVhigh: 'Вище 13,9 ммоль/л (250 мг/дл): зона «дуже високо» у звітах CGM.',
+      dec: ',',
+    },
+  }[LANG];
+
+  const MGDL_PER_MMOL = 18.016;
+  // Plausible input ranges per unit — outside them we say so rather than
+  // printing a confident number for a typo.
+  const RANGE = { pct: [3, 20], ifcc: [9, 195], mmol: [2, 30], mgdl: [36, 540] };
+
+  const $ = (id) => document.getElementById(id);
+  const parse = (s) => {
+    const n = parseFloat(String(s).trim().replace(',', '.'));
+    return Number.isFinite(n) ? n : NaN;
+  };
+  const fmt = (n, d) => n.toFixed(d).replace('.', T.dec);
+
+  const pctToIfcc = (p) => (p - 2.15) * 10.929;
+  const ifccToPct = (m) => m / 10.929 + 2.15;
+  const pctToMgdl = (p) => 28.7 * p - 46.7;          // ADAG eAG
+  const mgdlToPct = (g) => (g + 46.7) / 28.7;
+  const gmiPct = (g) => 3.31 + 0.02392 * g;           // Bergenstal 2018
+
+  function setBand(el, cls, text) {
+    el.className = 'band' + (cls ? ' ' + cls : '');
+    el.textContent = text || '';
+  }
+
+  function a1c() {
+    const unit = $('a1cUnit').value;
+    const v = parse($('a1cVal').value);
+    const [lo, hi] = RANGE[unit];
+    document.querySelectorAll('.out [data-k]').forEach((d) => d.classList.toggle('src', d.dataset.k === unit));
+    const gmi = $('gmiNote');
+    if (!(v >= lo && v <= hi)) {
+      ['oPct', 'oIfcc', 'oMmol', 'oMgdl'].forEach((id) => { $(id).textContent = '–'; });
+      setBand($('a1cBand'), 'err', $('a1cVal').value.trim() ? T.bad : '');
+      gmi.hidden = true;
+      return;
+    }
+    let pct;
+    if (unit === 'pct') pct = v;
+    else if (unit === 'ifcc') pct = ifccToPct(v);
+    else if (unit === 'mmol') pct = mgdlToPct(v * MGDL_PER_MMOL);
+    else pct = mgdlToPct(v);
+    const mgdl = unit === 'mgdl' ? v : unit === 'mmol' ? v * MGDL_PER_MMOL : pctToMgdl(pct);
+    const ifcc = unit === 'ifcc' ? v : pctToIfcc(pct);
+
+    $('oPct').textContent = fmt(pct, 1);
+    $('oIfcc').textContent = fmt(ifcc, 0);
+    $('oMmol').textContent = fmt(mgdl / MGDL_PER_MMOL, 1);
+    $('oMgdl').textContent = fmt(mgdl, 0);
+
+    const m = Math.round(ifcc);
+    if (m < 42) setBand($('a1cBand'), 'ok', T.a1cOk);
+    else if (m < 48) setBand($('a1cBand'), 'warn', T.a1cWarn);
+    else setBand($('a1cBand'), 'high', T.a1cHigh + T.a1cDx);
+
+    if (unit === 'mmol' || unit === 'mgdl') {
+      const g = gmiPct(mgdl);
+      gmi.textContent = T.gmi(fmt(g, 1), fmt(pctToIfcc(g), 0));
+      gmi.hidden = false;
+    } else {
+      gmi.hidden = true;
+    }
+  }
+
+  function glucose(from) {
+    const src = from === 'mmol' ? $('gMmol') : $('gMgdl');
+    const dst = from === 'mmol' ? $('gMgdl') : $('gMmol');
+    const v = parse(src.value);
+    const [lo, hi] = from === 'mmol' ? [0.5, 40] : [9, 720];
+    if (!(v >= lo && v <= hi)) {
+      dst.value = '';
+      setBand($('gluBand'), 'err', src.value.trim() ? T.bad : '');
+      return;
+    }
+    const mmol = from === 'mmol' ? v : v / MGDL_PER_MMOL;
+    dst.value = from === 'mmol' ? fmt(v * MGDL_PER_MMOL, 0) : fmt(mmol, 1);
+    const r = Math.round(mmol * 10) / 10;
+    if (r < 4) setBand($('gluBand'), 'high', T.gLow);
+    else if (r <= 10) setBand($('gluBand'), 'ok', T.gIn);
+    else if (r <= 13.9) setBand($('gluBand'), 'warn', T.gHigh);
+    else setBand($('gluBand'), 'high', T.gVhigh);
+  }
+
+  $('a1cVal').addEventListener('input', a1c);
+  $('a1cUnit').addEventListener('change', a1c);
+  $('gMmol').addEventListener('input', () => glucose('mmol'));
+  $('gMgdl').addEventListener('input', () => glucose('mgdl'));
+  a1c();
+  glucose('mmol');
+})();
+</script>
+<!-- lf-chrome:foot:start — generated by scripts/build-tool-chrome.mjs, do not edit by hand -->
+<section class="lf-nl" id="newsletter" data-lf-chrome>
+  <div class="lf-wrap">
+    <div class="lf-nl-box">
+      <p class="lf-nl-kicker">Безкоштовний воркбук, 26 сторінок</p>
+      <h2>Діабет і перименопауза</h2>
+      <p class="lf-nl-sub">Що насправді змінюється в компенсації діабету 1 типу після 40, що допомагає і як домогтися, щоб вас почули лікарі. Надішлю одразу після підтвердження пошти. Плюс час від часу — науково обґрунтовані нотатки. Відписатися можна будь-коли.</p>
+      <form class="nlform" method="post" action="https://baristacard.us11.list-manage.com/subscribe/post-json?u=1e50ad3293720baaf82abb8b3&amp;id=b6e0bf1c2b"
+            data-mc-action="https://baristacard.us11.list-manage.com/subscribe/post-json?u=1e50ad3293720baaf82abb8b3&amp;id=b6e0bf1c2b"
+            data-mc-dupe="Ви вже підписані — нічого робити не потрібно."
+            data-mc-err="Щось пішло не так. Спробуйте ще раз або напишіть на lena@lenafilatova.co.uk."
+            data-mc-busy="Підписуємо…"
+            data-mc-btn="Надішліть воркбук"
+            data-mc-dwell="3000"
+            data-mc-trap="website"
+            data-mc-lang="ua"
+            data-mc-list="newsletter">
+        <!-- Set from the page's language, never by the visitor. -->
+        <input type="hidden" name="group[34186][2]" value="1" />
+        <div class="nl-row">
+          <input type="email" name="EMAIL" placeholder="Ваш email" required autocomplete="email" />
+          <button type="submit" class="lf-btn">Надішліть воркбук</button>
+        </div>
+        <!-- The Privacy Policy anchor is inside nlConsent, which is ours, never
+             visitor input. The link sits inside the label on purpose: per the
+             HTML spec a label's activation behaviour does not run for clicks on
+             interactive descendants, so following it cannot tick the box. -->
+        <label class="lf-nl-consent"><input type="checkbox" required /> <span>Погоджуюся отримувати листи та приймаю <a href="/ua/privacy/">Політику конфіденційності</a>. Відписатися можна будь-коли.</span></label>
+        <!-- Our honeypot (OPS-235). Hidden from people, enforced in the browser. -->
+        <div class="lf-hp" aria-hidden="true">
+          <label for="lf-nl-trap">Залиште це поле порожнім</label>
+          <input type="text" id="lf-nl-trap" name="website" tabindex="-1" autocomplete="off" />
+        </div>
+        <!-- Mailchimp's own honeypot: must be submitted, and must stay empty. -->
+        <div aria-hidden="true" style="position:absolute;left:-5000px">
+          <input type="text" name="b_1e50ad3293720baaf82abb8b3_b6e0bf1c2b" tabindex="-1" value="" />
+        </div>
+      </form>
+      <p class="nl-sent lf-nl-sent" hidden>Майже готово — перевірте пошту, щоб підтвердити підписку.</p>
+      <p class="nl-msg lf-nl-msg" role="status" aria-live="polite" hidden></p>
+    </div>
+  </div>
+</section>
+<footer class="lf-footer" data-lf-chrome>
+  <div class="lf-wrap">
+    <div class="lf-foot-top">
+      <div>
+        <a class="lf-foot-brand" href="/ua/"><span class="mark">lf</span>Lena Filatova</a>
+        <p class="lf-blurb">Науково обґрунтоване жіноче здоров’я після 40 — харчування, фітнес і спокійні, практичні поради.</p>
+        <h4>Соцмережі</h4>
+        <div class="lf-socials">
+          <a href="https://www.instagram.com/lena.filatova/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" /></svg></a>
+          <a href="https://www.facebook.com/lenafilatovablog" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z" /></svg></a>
+          <a href="https://www.threads.com/@lena.filatova" aria-label="Threads" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z" /></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Розділи</h4>
+        <ul>
+          <li><a href="/ua/blog/">Блог</a></li>
+          <li><a href="/ua/resources/">Ресурси</a></li>
+          <li><a href="/ua/recipes/">Рецепти</a></li>
+          <li><a href="/ua/about/">Про мене</a></li>
+          <li><a href="/ua/gymbile/">Застосунок</a></li>
+          <li><a href="/ua/contact/">Контакти</a></li>
+          <li><a href="/ua/search/">Пошук</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Категорії</h4>
+        <ul>
+          <li><a href="/ua/blog/?cat=perimenopause">Перименопауза</a></li>
+          <li><a href="/ua/blog/?cat=nutrition">Харчування</a></li>
+          <li><a href="/ua/blog/">Фітнес 40+</a></li>
+          <li><a href="/ua/blog/?cat=diabetes">Діабет</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Правова інформація</h4>
+        <ul>
+          <li><a href="/ua/privacy/">Політика конфіденційності</a></li>
+          <li><a href="/ua/cookies/">Політика cookie</a></li>
+          <li><a href="/ua/terms/">Умови використання</a></li>
+          <li><a href="/ua/refunds/">Повернення та скасування</a></li>
+          <li><a href="/ua/accessibility/">Доступність</a></li>
+        </ul>
+        <h4 class="lf-h4-gap">Контакти</h4>
+        <ul><li><a href="mailto:lena@lenafilatova.co.uk">lena@lenafilatova.co.uk</a></li></ul>
+      </div>
+    </div>
+    <div class="lf-foot-legal">
+      <p>© 2026 Selfound Ltd. Registered in England and Wales · Company No. 16450921</p>
+      <p>Інформація на цьому сайті має лише освітній характер і не є медичною порадою. За наявності сумнівів, будь ласка, зверніться до свого лікаря.</p>
+      <p>Цей вебсайт створюється за допомогою штучного інтелекту, який може помилятися. Якщо ви помітили помилку, будь ласка, повідомте мені через <a href="/ua/contact/">контактну форму</a>.</p>
+    </div>
+  </div>
+</footer>
+<div class="lf-cookie" id="cookieBar" hidden data-lf-chrome>
+  <div class="lf-cookie-in">
+    <p>Цей сайт використовує файли cookie, щоб працювати та розуміти, як ним користуються. <a href="/ua/cookies/">Політика cookie</a></p>
+    <div class="lf-cookie-actions">
+      <button class="lf-btn" id="cookieAccept" type="button">Прийняти</button>
+      <button class="lf-cookie-decline" id="cookieDecline" type="button">Відхилити</button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  if (window.self !== window.top) return;   // framed: no chrome, no analytics
+  var s = document.createElement('script');
+  s.src = '/cookie-consent.js';
+  s.defer = true;
+  document.head.appendChild(s);
+  var btn = document.getElementById('lfNavToggle');
+  var nav = document.getElementById('lfMobileNav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function () {
+    var open = nav.hidden;
+    nav.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.classList.toggle('open', open);
+  });
+})();
+</script>
+<script defer src="/lf-newsletter.js"></script>
+<!-- lf-chrome:foot:end -->
+</body>
+</html>
