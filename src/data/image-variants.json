@@ -1419,6 +1419,24 @@
       ]
     ]
   },
+  "/images/perimenopause-joint-pain-training.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-joint-pain-training-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-joint-pain-training-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-joint-pain-training-1200.avif"
+      ]
+    ]
+  },
   "/images/perimenopause-uncertainty-us-study.jpg": {
     "w": 1200,
     "h": 675,
