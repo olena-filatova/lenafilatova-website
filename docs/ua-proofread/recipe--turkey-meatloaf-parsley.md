@@ -1,7 +1,7 @@
 # recipe--turkey-meatloaf-parsley
 
 Last checked: 2026-10-16
-PR: https://github.com/olena-filatova/lenafilatova-website/pull/__PR__
+PR: https://github.com/olena-filatova/lenafilatova-website/pull/402
 
 Notes: 3 small fixes — title had a repeated "з ... з" construction, `why`
 had a calque ("повільна клітковина" → "клітковина повільного засвоєння"),
