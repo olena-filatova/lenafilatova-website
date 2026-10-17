@@ -1149,6 +1149,24 @@
       ]
     ]
   },
+  "/images/menopause-physiological-cliff-study.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-physiological-cliff-study-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-physiological-cliff-study-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-physiological-cliff-study-1200.avif"
+      ]
+    ]
+  },
   "/images/menopause-skin-oestrogen.jpg": {
     "w": 1200,
     "h": 676,
