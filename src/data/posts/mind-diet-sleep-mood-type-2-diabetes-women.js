@@ -26,7 +26,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "A paper published in BMC Endocrine Disorders on 26 September 2026 reports that women with type 2 diabetes who followed a calorie-restricted version of the MIND diet for three months ended up with higher antioxidant markers and better scores for energy and emotional well-being than women on a plain calorie-restricted diet. The trial ran at Kermanshah University of Medical Sciences in Iran and enrolled 44 women aged 30 to 65 who had type 2 diabetes, symptoms of insomnia, and were overweight or obese. Twenty-two were randomly assigned to each diet."
+        "text": "A paper published in BMC Endocrine Disorders on 26 September 2026 reports that women with type 2 diabetes who followed a calorie-restricted version of the MIND diet for three months ended up with higher antioxidant markers and better scores for energy and emotional well-being than women on a plain calorie-restricted diet. The trial was run by researchers at Kermanshah University of Medical Sciences at an endocrinology clinic in Sanandaj, Iran, and enrolled 44 women aged 30 to 65 who had type 2 diabetes, symptoms of insomnia, and were overweight or obese. Twenty-two were randomly assigned to each diet."
       },
       {
         "t": "p",
@@ -42,7 +42,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is a second reason for caution that has nothing to do with the statistics. The trial was designed and powered around sleep quality — the authors calculated that 18 women per group would do, and recruited 22 to allow for dropouts. Antioxidant markers and quality-of-life scores were pre-specified in the published protocol, which is the right way round and much better than fishing after the fact, but a trial sized for one question is not sized for the others. These are secondary results from a study too small to settle them."
+        "text": "There is a second reason for caution that has nothing to do with the statistics. The trial was designed and powered around sleep quality — the authors calculated that 18 women per group would do, and recruited 22 to allow for dropouts. Antioxidant markers and quality-of-life scores were pre-specified in the trial registration and protocol, which is the right way round and much better than fishing after the fact, but a trial sized for one question is not sized for the others. These are secondary results from a study too small to settle them."
       },
       {
         "t": "h",
@@ -58,7 +58,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The strongest finding across the whole trial is not in the new paper. In the sleep and mental health report, the MIND group's score on the Pittsburgh Sleep Quality Index — where a higher number means worse sleep — ended 2.25 points lower than the control group's (95% confidence interval 0.71 to 3.79), and their depression score on the DASS-21 questionnaire ended 2.6 points lower (0.2 to 5.1). Anxiety and stress, measured by the same questionnaire, did not differ once the analysis accounted for where people started, so the frequent summary that the diet improved \"depression and anxiety\" is half right."
+        "text": "The strongest finding across the whole trial is not in the new paper. In the sleep and mental health report, the MIND group's score on the Pittsburgh Sleep Quality Index — where a higher number means worse sleep — fell 2.25 points more than the control group's (95% confidence interval 0.71 to 3.79), and their depression score on the DASS-21 questionnaire fell 2.6 points more (0.2 to 5.1). Anxiety, measured by the same questionnaire, improved more on the MIND diet when only starting scores were allowed for, but the difference disappeared once the analysis also accounted for weight loss, calorie intake and other factors, and stress did not differ at all, so the frequent summary that the diet improved \"depression and anxiety\" is half right."
       },
       {
         "t": "p",
@@ -86,7 +86,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "So the honest version is this. There is nothing to lose by eating this way, a plausible early signal that it helps with sleep and low mood when sleep is the problem, and no good evidence yet that it protects memory. And all of it comes from 44 women in one Iranian city over three months — not from the UK, not over years, and with no record of who was past the menopause, so how it reads for a woman in her fifties here is genuinely unknown. If poor sleep is the thing grinding you down, this is worth a try before it is worth a supplement. It is not worth a special shopping list."
+        "text": "So the honest version is this. There is nothing to lose by eating this way, a plausible early signal that it helps with sleep and low mood when sleep is the problem, and no good evidence yet that it protects memory. And all of it comes from 44 women in one Iranian city over three months — not from the UK, not over years, and with no published breakdown of who was past the menopause, so how it reads for a woman in her fifties here is genuinely unknown. If poor sleep is the thing grinding you down, this is worth a try before it is worth a supplement. It is not worth a special shopping list."
       },
       {
         "t": "h",
@@ -97,13 +97,13 @@ export default {
         "items": [
           {
             "claim": "A calorie-restricted MIND diet raised two antioxidant markers and improved two of eight quality-of-life domains in women with type 2 diabetes and insomnia symptoms; inflammation markers did not change.",
-            "detail": "Randomised controlled trial, 44 women aged 30–65 with type 2 diabetes, insomnia symptoms and overweight or obesity, randomised 22 and 22 to a modified MIND low-calorie diet or a low-calorie diet for three months at Kermanshah University of Medical Sciences, Iran. Superoxide dismutase β 0.14 (95% CI 0.01 to 0.27) and total antioxidant capacity β 218.31 (9.18 to 427.44); SF-36 energy/fatigue β 7.87 (0.84 to 14.91) and emotional well-being β 8.03 (2.08 to 13.98); all p < 0.05. High-sensitivity CRP and malondialdehyde did not differ. The authors conclude that evidence for a broad improvement in overall quality of life was limited. Trial registration IRCT20181111041611N8.",
+            "detail": "Randomised controlled trial, 44 women aged 30–65 with type 2 diabetes, insomnia symptoms and overweight or obesity, randomised 22 and 22 to a modified MIND low-calorie diet or a low-calorie diet for three months, run by Kermanshah University of Medical Sciences at an endocrinology clinic in Sanandaj, Iran. Superoxide dismutase β 0.14 (95% CI 0.01 to 0.27) and total antioxidant capacity β 218.31 (9.18 to 427.44); SF-36 energy/fatigue β 7.87 (0.84 to 14.91) and emotional well-being β 8.03 (2.08 to 13.98); all p < 0.05. High-sensitivity CRP and malondialdehyde did not differ. The authors conclude that evidence for a broad improvement in overall quality of life was limited. Trial registration IRCT20181111041611N8.",
             "cite": "Golmohammadi M et al. · BMC Endocrine Disorders · 26 September 2026 · Randomised controlled trial (accepted manuscript)",
             "url": "https://doi.org/10.1186/s12902-026-02582-7"
           },
           {
             "claim": "In the same trial, sleep quality and depression improved on the MIND diet, while anxiety and stress did not — and the two groups lost a similar amount of weight.",
-            "detail": "Pittsburgh Sleep Quality Index β −2.25 (95% CI −3.79 to −0.71, p = 0.006) and DASS-21 depression β −2.64 (−5.05 to −0.23, p = 0.033) in favour of the MIND group; DASS-21 anxiety β −1.46 (p = 0.233) and stress β −1.31 (p = 0.553) were not significant after adjustment. Serum BDNF β 0.37 (p = 0.004) and cortisol β −81.58 (p = 0.009). Weight β −0.68 kg (−1.43 to 0.08, p = 0.079) — both groups lost weight, with no significant difference between them; waist circumference β −1.73 cm (p = 0.004). The sample size of 18 per group was calculated for sleep quality.",
+            "detail": "Pittsburgh Sleep Quality Index β −2.25 (95% CI −3.79 to −0.71, p = 0.006) and DASS-21 depression β −2.64 (−5.05 to −0.23, p = 0.033) in favour of the MIND group; DASS-21 anxiety β −1.46 (p = 0.233) and stress β −1.31 (p = 0.553) were not significant after full adjustment (anxiety was significant, p = 0.008, when adjusted for baseline values only). Serum BDNF β 0.37 (p = 0.004) and cortisol β −81.58 (p = 0.009). Weight β −0.68 kg (−1.43 to 0.08, p = 0.079) — both groups lost weight, with no significant difference between them; waist circumference β −1.73 cm (p = 0.004). The sample size of 18 per group was calculated for sleep quality.",
             "cite": "Golmohammadi M et al. · Scientific Reports 15: 8237 · 10 March 2025 · Randomised controlled trial",
             "url": "https://doi.org/10.1038/s41598-025-91389-y"
           },
@@ -135,7 +135,7 @@ export default {
     "faq": [
       {
         "q": "Does the MIND diet help type 2 diabetes?",
-        "a": "In the one trial that has tested it in women with type 2 diabetes, a MIND-style calorie-restricted diet did better than the same calories without the MIND pattern on sleep quality, depression, waist measurement and some blood-sugar and cholesterol measures. That trial had 44 women in it and ran for three months, so it is a starting point rather than an answer. The foods involved — leafy greens, vegetables, berries, nuts, beans, wholegrains, fish, olive oil — are already the backbone of standard type 2 diabetes advice, so following it is not a departure from what your diabetes team would suggest."
+        "a": "In the one trial that has tested it in women with type 2 diabetes, a MIND-style calorie-restricted diet did better than the same calories without the MIND pattern on sleep quality, depression, waist measurement, cholesterol, blood pressure and, less robustly, fasting blood sugar. That trial had 44 women in it and ran for three months, so it is a starting point rather than an answer. The foods involved — leafy greens, vegetables, berries, nuts, beans, wholegrains, fish, olive oil — are already the backbone of standard type 2 diabetes advice, so following it is not a departure from what your diabetes team would suggest."
       },
       {
         "q": "Is the MIND diet proven to protect the brain?",
@@ -155,7 +155,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Публікація в BMC Endocrine Disorders від 26 вересня 2026 року повідомляє: жінки з діабетом 2 типу, які три місяці дотримувалися MIND-дієти зі зниженою калорійністю, мали вищі показники антиоксидантного захисту та кращі оцінки енергійності й емоційного самопочуття, ніж жінки на звичайній низькокалорійній дієті. Дослідження проводив Керманшахський університет медичних наук в Ірані; до нього залучили 44 жінки віком від 30 до 65 років із діабетом 2 типу, симптомами безсоння та надмірною вагою або ожирінням. По 22 учасниці випадковим чином потрапили до кожної групи."
+        "text": "Публікація в BMC Endocrine Disorders від 26 вересня 2026 року повідомляє: жінки з діабетом 2 типу, які три місяці дотримувалися MIND-дієти зі зниженою калорійністю, мали вищі показники антиоксидантного захисту та кращі оцінки енергійності й емоційного самопочуття, ніж жінки на звичайній низькокалорійній дієті. Дослідження провели науковці Керманшахського університету медичних наук в ендокринологічній клініці міста Сенендедж (Іран); до нього залучили 44 жінки віком від 30 до 65 років із діабетом 2 типу, симптомами безсоння та надмірною вагою або ожирінням. По 22 учасниці випадковим чином потрапили до кожної групи."
       },
       {
         "t": "p",
@@ -171,7 +171,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є й друга причина для обережності, не пов’язана зі статистикою. Дослідження планували й розраховували навколо якості сну — автори обчислили, що вистачить 18 жінок у групі, і набрали 22 із запасом на вибування. Показники антиоксидантного захисту та якості життя були заздалегідь прописані в опублікованому протоколі, і це правильний порядок дій, значно кращий за пошук закономірностей постфактум. Але дослідження, розраховане під одне питання, не розраховане під інші. Це вторинні результати дослідження, замалого, щоб їх вирішити."
+        "text": "Є й друга причина для обережності, не пов’язана зі статистикою. Дослідження планували й розраховували навколо якості сну — автори обчислили, що вистачить 18 жінок у групі, і набрали 22 із запасом на вибування. Показники антиоксидантного захисту та якості життя були заздалегідь прописані в реєстрації дослідження та протоколі, і це правильний порядок дій, значно кращий за пошук закономірностей постфактум. Але дослідження, розраховане під одне питання, не розраховане під інші. Це вторинні результати дослідження, замалого, щоб їх вирішити."
       },
       {
         "t": "h",
@@ -187,7 +187,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найпереконливіший результат усього дослідження — не в новій публікації. У звіті про сон і психічне здоров’я оцінка MIND-групи за Пітсбурзьким індексом якості сну (де більше число означає гірший сон) наприкінці була на 2,25 бала нижчою, ніж у контрольної групи (95% довірчий інтервал від 0,71 до 3,79), а оцінка депресії за опитувальником DASS-21 — на 2,6 бала нижчою (від 0,2 до 5,1). Тривожність і стрес, виміряні тим самим опитувальником, не відрізнялися після того, як аналіз урахував початкові значення. Тож часте формулювання, що дієта покращила «депресію і тривожність», правдиве лише наполовину."
+        "text": "Найпереконливіший результат усього дослідження — не в новій публікації. У звіті про сон і психічне здоров’я оцінка MIND-групи за Пітсбурзьким індексом якості сну (де більше число означає гірший сон) знизилася на 2,25 бала більше, ніж у контрольної групи (95% довірчий інтервал від 0,71 до 3,79), а оцінка депресії за опитувальником DASS-21 — на 2,6 бала більше (від 0,2 до 5,1). Тривожність, виміряна тим самим опитувальником, покращилася на MIND-дієті більше, коли враховували лише початкові значення, але різниця зникла, щойно аналіз урахував також втрату ваги, калорійність та інші чинники, а стрес не відрізнявся взагалі. Тож часте формулювання, що дієта покращила «депресію і тривожність», правдиве лише наполовину."
       },
       {
         "t": "p",
@@ -215,7 +215,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Тож чесна версія така. Харчуватися так нічим не шкодить, є правдоподібний ранній сигнал, що це допомагає зі сном і пригніченим настроєм, коли проблема саме в сні, і поки що немає переконливих доказів, що це захищає пам’ять. І все це — 44 жінки в одному іранському місті за три місяці: не Британія, не роки спостереження і без жодних даних про те, хто з них був уже в менопаузі, тож як це читається для жінки за п’ятдесят тут, насправді невідомо. Якщо саме поганий сон вас виснажує, це варто спробувати раніше, ніж добавки. Але окремого списку покупок воно не варте."
+        "text": "Тож чесна версія така. Харчуватися так нічим не шкодить, є правдоподібний ранній сигнал, що це допомагає зі сном і пригніченим настроєм, коли проблема саме в сні, і поки що немає переконливих доказів, що це захищає пам’ять. І все це — 44 жінки в одному іранському місті за три місяці: не Британія, не роки спостереження і без опублікованих даних про те, хто з них був уже в менопаузі, тож як це читається для жінки за п’ятдесят тут, насправді невідомо. Якщо саме поганий сон вас виснажує, це варто спробувати раніше, ніж добавки. Але окремого списку покупок воно не варте."
       },
       {
         "t": "h",
@@ -226,13 +226,13 @@ export default {
         "items": [
           {
             "claim": "MIND-дієта зі зниженою калорійністю підвищила два показники антиоксидантного захисту та покращила два з восьми розділів якості життя в жінок із діабетом 2 типу та симптомами безсоння; маркери запалення не змінилися.",
-            "detail": "Рандомізоване контрольоване дослідження: 44 жінки віком 30–65 років із діабетом 2 типу, симптомами безсоння та надмірною вагою або ожирінням, по 22 в групі модифікованої низькокалорійної MIND-дієти та звичайної низькокалорійної дієти протягом трьох місяців; Керманшахський університет медичних наук, Іран. Супероксиддисмутаза β 0,14 (95% ДІ 0,01–0,27), загальна антиоксидантна здатність β 218,31 (9,18–427,44); SF-36 енергійність/втома β 7,87 (0,84–14,91) та емоційне самопочуття β 8,03 (2,08–13,98); усі p < 0,05. Високочутливий СРБ і малоновий діальдегід не відрізнялися. Автори роблять висновок, що доказів широкого покращення якості життя загалом виявилося мало. Реєстрація дослідження: IRCT20181111041611N8.",
+            "detail": "Рандомізоване контрольоване дослідження: 44 жінки віком 30–65 років із діабетом 2 типу, симптомами безсоння та надмірною вагою або ожирінням, по 22 в групі модифікованої низькокалорійної MIND-дієти та звичайної низькокалорійної дієти протягом трьох місяців; Керманшахський університет медичних наук, ендокринологічна клініка в Сенендеджі, Іран. Супероксиддисмутаза β 0,14 (95% ДІ 0,01–0,27), загальна антиоксидантна здатність β 218,31 (9,18–427,44); SF-36 енергійність/втома β 7,87 (0,84–14,91) та емоційне самопочуття β 8,03 (2,08–13,98); усі p < 0,05. Високочутливий СРБ і малоновий діальдегід не відрізнялися. Автори роблять висновок, що доказів широкого покращення якості життя загалом виявилося мало. Реєстрація дослідження: IRCT20181111041611N8.",
             "cite": "Golmohammadi M та ін. · BMC Endocrine Disorders · 26 вересня 2026 · Рандомізоване контрольоване дослідження (ухвалений рукопис)",
             "url": "https://doi.org/10.1186/s12902-026-02582-7"
           },
           {
             "claim": "У тому самому дослідженні на MIND-дієті покращилися якість сну та показник депресії, а тривожність і стрес — ні; обидві групи схудли приблизно однаково.",
-            "detail": "Пітсбурзький індекс якості сну β −2,25 (95% ДІ від −3,79 до −0,71, p = 0,006) та депресія за DASS-21 β −2,64 (від −5,05 до −0,23, p = 0,033) на користь MIND-групи; тривожність за DASS-21 β −1,46 (p = 0,233) і стрес β −1,31 (p = 0,553) не були значущими після поправок. Сироватковий BDNF β 0,37 (p = 0,004), кортизол β −81,58 (p = 0,009). Вага β −0,68 кг (від −1,43 до 0,08, p = 0,079) — схудли обидві групи, без значущої різниці між ними; обхват талії β −1,73 см (p = 0,004). Розмір вибірки 18 осіб на групу розраховували під якість сну.",
+            "detail": "Пітсбурзький індекс якості сну β −2,25 (95% ДІ від −3,79 до −0,71, p = 0,006) та депресія за DASS-21 β −2,64 (від −5,05 до −0,23, p = 0,033) на користь MIND-групи; тривожність за DASS-21 β −1,46 (p = 0,233) і стрес β −1,31 (p = 0,553) не були значущими після повного набору поправок (тривожність була значущою, p = 0,008, з поправкою лише на початкові значення). Сироватковий BDNF β 0,37 (p = 0,004), кортизол β −81,58 (p = 0,009). Вага β −0,68 кг (від −1,43 до 0,08, p = 0,079) — схудли обидві групи, без значущої різниці між ними; обхват талії β −1,73 см (p = 0,004). Розмір вибірки 18 осіб на групу розраховували під якість сну.",
             "cite": "Golmohammadi M та ін. · Scientific Reports 15: 8237 · 10 березня 2025 · Рандомізоване контрольоване дослідження",
             "url": "https://doi.org/10.1038/s41598-025-91389-y"
           },
@@ -264,7 +264,7 @@ export default {
     "faq": [
       {
         "q": "Чи допомагає MIND-дієта при діабеті 2 типу?",
-        "a": "У єдиному дослідженні, яке перевіряло її в жінок із діабетом 2 типу, низькокалорійна дієта в стилі MIND дала кращі результати, ніж та сама калорійність без MIND-підходу, щодо якості сну, депресії, обхвату талії та деяких показників цукру крові й холестерину. У тому дослідженні було 44 жінки, і тривало воно три місяці, тож це радше відправна точка, ніж відповідь. Самі продукти — листова зелень, овочі, ягоди, горіхи, бобові, цільні злаки, риба, оливкова олія — і так є основою стандартних порад при діабеті 2 типу, тож дотримуватися цього не означає відходити від рекомендацій вашої команди лікарів."
+        "a": "У єдиному дослідженні, яке перевіряло її в жінок із діабетом 2 типу, низькокалорійна дієта в стилі MIND дала кращі результати, ніж та сама калорійність без MIND-підходу, щодо якості сну, депресії, обхвату талії, холестерину, артеріального тиску і, менш переконливо, цукру крові натще. У тому дослідженні було 44 жінки, і тривало воно три місяці, тож це радше відправна точка, ніж відповідь. Самі продукти — листова зелень, овочі, ягоди, горіхи, бобові, цільні злаки, риба, оливкова олія — і так є основою стандартних порад при діабеті 2 типу, тож дотримуватися цього не означає відходити від рекомендацій вашої команди лікарів."
       },
       {
         "q": "Чи доведено, що MIND-дієта захищає мозок?",
