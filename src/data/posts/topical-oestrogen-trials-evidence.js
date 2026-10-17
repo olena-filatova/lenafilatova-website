@@ -20,13 +20,13 @@ export default {
     "title": "The trials behind oestrogen skincare are small, old, and mostly have no placebo",
     "seoTitle": "Topical Oestrogen for Skin: What the Trials Show",
     "metaDesc": "A 2026 review gathers the clinical evidence for topical oestrogen on menopausal skin. Read the trials underneath it and the picture is narrower than the summaries.",
-    "excerpt": "A July 2026 review pulls together the clinical evidence for topical oestrogen on ageing skin. The trials underneath it are small, decades old, and in only one case compared against a plain cream — which did just as well on three of five measures.",
+    "excerpt": "A July 2026 review pulls together the clinical evidence for topical oestrogen on ageing skin. The trials underneath it are small, decades old, and only one oestrogen trial tested a separate group of women on a plain cream — which did just as well on three of five measures.",
     "meta": "13 October 2026 · 6 min read",
     "lead": "“Topical oestrogen increases collagen and thickens skin” is now said flatly, as settled fact, in places that ought to know. It rests on roughly ten studies. They are worth reading rather than summarising, because what they measured — and what they compared it against — turns out to be the whole story.",
     "blocks": [
       {
         "t": "p",
-        "text": "A review published in Practical Dermatology in July 2026 gathers the clinical evidence for topical oestrogen in one place for the first time in years, and it is a genuinely useful piece of work. What has been written about it since is less careful. The summaries say the evidence shows topical oestrogen increases collagen, improves skin thickness and enhances skin quality, without significant systemic hormonal change — and then stop, as though that were a conclusion rather than a description of ten small studies with very different designs. Two separate things are being sold under this heading and [the post on what “oestrogen skincare” actually is](/blog/topical-oestrogen-skincare-menopause/) separates them. This one looks underneath, at the trials themselves."
+        "text": "A review published in Practical Dermatology in July 2026 gathers the clinical evidence for topical oestrogen in one place, and it is a genuinely useful piece of work. What has been written about it since is less careful. The summaries say the evidence shows topical oestrogen increases collagen, improves skin thickness and enhances skin quality, without significant systemic hormonal change — and then stop, as though that were a conclusion rather than a description of ten small studies with very different designs. Two separate things are being sold under this heading and [the post on what “oestrogen skincare” actually is](/blog/topical-oestrogen-skincare-menopause/) separates them. This one looks underneath, at the trials themselves."
       },
       {
         "t": "p",
@@ -34,11 +34,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "That is a real result, and it is the only one in the set with a placebo arm. But the same trial contains the number that never survives into the summaries: roughness, laxity and mottled pigmentation all improved significantly from baseline in both groups, and between the two groups there was no significant difference at all. On three of the five things measured, a plain cream and daily sunscreen did as much as the hormone over six months. If you are deciding whether to spend money on an oestrogen product, that is the most directly useful sentence in thirty years of literature on the subject."
+        "text": "That is a real result, and it is the only oestrogen trial in the set with a separate placebo group — a 2003 study put a plain cream on the other side of each woman's face, and a 2018 trial of the non-hormonal MEP used a vehicle cream. But the same trial contains the number that never survives into the summaries: roughness, laxity and mottled pigmentation all improved significantly from baseline in both groups, and between the two groups there was no significant difference at all. On three of the five things measured, a plain cream and daily sunscreen did as much as the hormone over six months. If you are deciding whether to spend money on an oestrogen product, that is the most directly useful sentence in thirty years of literature on the subject."
       },
       {
         "t": "p",
-        "text": "Most of the other studies have no placebo arm, because they were not designed to answer that question. The 2017 trial most often cited for collagen randomised 30 women aged 45 to 55, double-blind, to topical oestradiol or to genistein, a soy isoflavone — oestrogen against a plant compound, not against nothing. Both raised type I and type III collagen in facial biopsies over 24 weeks; oestradiol raised them more. A 2009 trial compared topical oestradiol with a plant oestrogen and found 88% versus 50% of women said their skin looked better, which is a comparison between two active creams reported by the women using them. A 2007 pilot measured skin thickness in women who were already taking oral hormone therapy. A 1996 study raised type III collagen but left type I unchanged. The review lists its own limits without flinching: small populations, mixed formulations and concentrations, different sites and durations, inconsistent entry criteria."
+        "text": "Most of the other studies have no placebo arm, because they were not designed to answer that question. The 2017 trial most often cited for collagen randomised 30 women aged 45 to 55, double-blind, to topical oestradiol or to genistein, a soy isoflavone — oestrogen against a plant compound, not against nothing. Both raised type I and type III collagen in facial biopsies over 24 weeks; oestradiol raised them more. A 2009 trial compared topical oestradiol with a plant oestrogen and reported improved skin appearance in 88% versus 50% of women, which is a comparison between two active creams. A 2007 pilot measured skin thickness in women who were already taking oral hormone therapy. A 1996 study raised type III collagen but left type I unchanged. The review lists its own limits without flinching: small populations, mixed formulations and concentrations, different sites and durations, inconsistent entry criteria."
       },
       {
         "t": "p",
@@ -60,7 +60,7 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "The one placebo-controlled trial found oestrogen cream thickened skin — and no better than placebo on roughness, laxity or pigmentation.",
+            "claim": "The one oestrogen trial with a separate placebo group found oestrogen cream thickened skin — and no better than placebo on roughness, laxity or pigmentation.",
             "detail": "A randomised, double-blind, parallel-group study of 54 women aged 52–70 with moderate to severe facial ageing. Each applied 1 g nightly for 24 weeks of either a cream containing 0.625 mg conjugated oestrogens per gram or an identical placebo cream, with SPF 15 each morning. Skin thickness rose from 1.56 mm to 1.68 mm on the active cream versus 1.52 mm to 1.59 mm on placebo (p = 0.013), and fine wrinkles improved significantly more on the active cream at weeks 12 and 24 (p = 0.010 and p = 0.012). Roughness, laxity and mottled pigmentation improved significantly from baseline in both groups, with no significant difference between them.",
             "cite": "Creidi et al · Maturitas, 1994;19(3):211–23",
             "url": "https://pubmed.ncbi.nlm.nih.gov/7799828/"
@@ -73,7 +73,7 @@ export default {
           },
           {
             "claim": "The review that gathered this evidence also lists what is missing from it.",
-            "detail": "A 2026 review of the uses and clinical evidence for topical oestrogen therapy in dermatology, summarising studies by Schmidt (1996), Fuchs (2003), Patriarca (2007 and 2013), Moraes (2009), Silva (2017), Draelos (2018) and Cohen & Downie (2022). The review notes small study populations, heterogeneous formulations, concentrations, application sites and durations, inconsistent inclusion criteria, and a focus on postmenopausal women with little data on premenopausal or perimenopausal women. It describes a preventive role started around perimenopause as a novel finding requiring further study, and states that the effect of larger application areas and higher concentrations on systemic exposure still needs investigating.",
+            "detail": "A 2026 review of the uses and clinical evidence for topical oestrogen therapy in dermatology, summarising studies by Creidi (1994), Schmidt (1996), Fuchs (2003), Patriarca (2007 and 2013), Moraes (2009), Silva (2017), Draelos (2018) and Cohen & Downie (2022). The review notes small study populations, heterogeneous formulations, concentrations, application sites and durations, inconsistent inclusion criteria, and a focus on postmenopausal women with little data on premenopausal or perimenopausal women. It describes a preventive role started around perimenopause as a novel finding requiring further study, and states that the effect of larger application areas and higher concentrations on systemic exposure still needs investigating.",
             "cite": "Practical Dermatology · Review, July 2026",
             "url": "https://practicaldermatology.com/topics/aesthetics-cosmeceuticals/a-review-of-uses-and-clinical-evidence-for-topical-estrogen-therapy-in-dermatology/60861/"
           },
@@ -124,13 +124,13 @@ export default {
     "title": "Дослідження, на яких тримається «естрогеновий догляд», — малі, давні й здебільшого без плацебо",
     "seoTitle": "Місцевий естроген і шкіра: що кажуть дослідження",
     "metaDesc": "Огляд 2026 року зібрав клінічні докази щодо місцевого естрогену для шкіри в менопаузі. Але самі дослідження під ним показують вужчу картину, ніж їхні перекази.",
-    "excerpt": "Огляд, опублікований у липні 2026 року, зібрав клінічні докази щодо місцевого естрогену для старіння шкіри. Дослідження під ним малі, їм десятки років, і лише одне порівнювали зі звичайним кремом — який спрацював так само добре за трьома показниками з п’яти.",
+    "excerpt": "Огляд, опублікований у липні 2026 року, зібрав клінічні докази щодо місцевого естрогену для старіння шкіри. Дослідження під ним малі, їм десятки років, і лише в одному естрогеновому дослідженні окрема група жінок отримувала звичайний крем — який спрацював так само добре за трьома показниками з п’яти.",
     "meta": "13 жовтня 2026 · 6 хв читання",
     "lead": "«Місцевий естроген збільшує колаген і потовщує шкіру» — це вже кажуть упевнено, як усталений факт, і кажуть там, де мали б знати більше. За цим стоїть приблизно десять досліджень. Їх варто читати, а не переказувати, бо саме те, що в них вимірювали — і з чим порівнювали, — і є вся суть.",
     "blocks": [
       {
         "t": "p",
-        "text": "Огляд, опублікований у Practical Dermatology в липні 2026 року, уперше за багато років зібрав клінічні докази щодо місцевого естрогену в одному місці, і це справді корисна робота. Те, що написали про нього потім, значно менш обережне. Перекази кажуть: докази показують, що місцевий естроген збільшує колаген, покращує товщину й якість шкіри — і без суттєвих системних гормональних змін. І на цьому спиняються, ніби це висновок, а не опис десяти невеликих досліджень із дуже різними планами. Під цією назвою продають дві різні речі, і [допис про те, чим насправді є «естрогеновий догляд»](/ua/blog/topical-oestrogen-skincare-menopause/), їх розрізняє. Цей дивиться глибше — на самі дослідження."
+        "text": "Огляд, опублікований у Practical Dermatology в липні 2026 року, зібрав клінічні докази щодо місцевого естрогену в одному місці, і це справді корисна робота. Те, що написали про нього потім, значно менш обережне. Перекази кажуть: докази показують, що місцевий естроген збільшує колаген, покращує товщину й якість шкіри — і без суттєвих системних гормональних змін. І на цьому спиняються, ніби це висновок, а не опис десяти невеликих досліджень із дуже різними планами. Під цією назвою продають дві різні речі, і [допис про те, чим насправді є «естрогеновий догляд»](/ua/blog/topical-oestrogen-skincare-menopause/), їх розрізняє. Цей дивиться глибше — на самі дослідження."
       },
       {
         "t": "p",
@@ -138,11 +138,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це справжній результат, і це єдине дослідження в усьому наборі з групою плацебо. Але в ньому ж є цифра, яка ніколи не доживає до переказів: шорсткість, в’ялість і нерівномірна пігментація значущо покращилися від початкового рівня в обох групах, а між групами різниці не було взагалі. За трьома показниками з п’яти звичайний крем із щоденним сонцезахистом за півроку зробив стільки ж, скільки гормон. Якщо ви вирішуєте, чи витрачати гроші на естрогеновий засіб, це найкорисніше речення за тридцять років літератури на цю тему."
+        "text": "Це справжній результат, і це єдине дослідження естрогену в усьому наборі з окремою групою плацебо — у дослідженні 2003 року звичайний крем наносили на другу половину обличчя, а дослідження негормонального MEP 2018 року використовувало крем-носій. Але в ньому ж є цифра, яка ніколи не доживає до переказів: шорсткість, в’ялість і нерівномірна пігментація значущо покращилися від початкового рівня в обох групах, а між групами різниці не було взагалі. За трьома показниками з п’яти звичайний крем із щоденним сонцезахистом за півроку зробив стільки ж, скільки гормон. Якщо ви вирішуєте, чи витрачати гроші на естрогеновий засіб, це найкорисніше речення за тридцять років літератури на цю тему."
       },
       {
         "t": "p",
-        "text": "У більшості інших досліджень групи плацебо немає — бо вони й не мали відповідати на це питання. Дослідження 2017 року, яке найчастіше цитують щодо колагену, рандомізувало 30 жінок віком 45–55 років, подвійне засліплення, на місцевий естрадіол або на геністеїн, соєвий ізофлавон, — тобто естроген проти рослинної сполуки, а не проти нічого. За 24 тижні обидва підвищили колаген I та III типу в біоптатах шкіри обличчя; естрадіол підвищив сильніше. Дослідження 2009 року порівнювало місцевий естрадіол із рослинним естрогеном: 88% проти 50% жінок сказали, що шкіра має кращий вигляд, — це порівняння двох активних кремів в оцінці самих жінок. Пілотне дослідження 2007 року вимірювало товщину шкіри в жінок, які вже приймали пероральну гормональну терапію. Дослідження 1996 року підвищило колаген III типу, але не змінило колаген I типу. Огляд перелічує власні обмеження без прикрас: малі вибірки, різні формули й концентрації, різні ділянки й тривалість, неузгоджені критерії відбору."
+        "text": "У більшості інших досліджень групи плацебо немає — бо вони й не мали відповідати на це питання. Дослідження 2017 року, яке найчастіше цитують щодо колагену, рандомізувало 30 жінок віком 45–55 років, подвійне засліплення, на місцевий естрадіол або на геністеїн, соєвий ізофлавон, — тобто естроген проти рослинної сполуки, а не проти нічого. За 24 тижні обидва підвищили колаген I та III типу в біоптатах шкіри обличчя; естрадіол підвищив сильніше. Дослідження 2009 року порівнювало місцевий естрадіол із рослинним естрогеном: покращення вигляду шкіри у 88% проти 50% жінок, — це порівняння двох активних кремів. Пілотне дослідження 2007 року вимірювало товщину шкіри в жінок, які вже приймали пероральну гормональну терапію. Дослідження 1996 року підвищило колаген III типу, але не змінило колаген I типу. Огляд перелічує власні обмеження без прикрас: малі вибірки, різні формули й концентрації, різні ділянки й тривалість, неузгоджені критерії відбору."
       },
       {
         "t": "p",
@@ -164,7 +164,7 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Єдине плацебо-контрольоване дослідження показало потовщення шкіри — і жодної переваги над плацебо щодо шорсткості, в’ялості чи пігментації.",
+            "claim": "Єдине дослідження естрогену з окремою групою плацебо показало потовщення шкіри — і жодної переваги над плацебо щодо шорсткості, в’ялості чи пігментації.",
             "detail": "Рандомізоване подвійне сліпе дослідження в паралельних групах за участю 54 жінок віком 52–70 років із помірним та вираженим старінням шкіри обличчя. Кожна наносила 1 г щовечора протягом 24 тижнів: або крем із 0,625 мг кон’югованих естрогенів на грам, або ідентичний крем-плацебо, із SPF 15 щоранку. Товщина шкіри зросла з 1,56 мм до 1,68 мм на активному кремі проти 1,52 мм до 1,59 мм на плацебо (p = 0,013), а дрібні зморшки значущо більше покращилися на активному кремі на 12-му та 24-му тижнях (p = 0,010 і p = 0,012). Шорсткість, в’ялість і нерівномірна пігментація значущо покращилися від початкового рівня в обох групах, без значущої різниці між ними.",
             "cite": "Creidi та ін. · Maturitas, 1994;19(3):211–23",
             "url": "https://pubmed.ncbi.nlm.nih.gov/7799828/"
@@ -177,7 +177,7 @@ export default {
           },
           {
             "claim": "Огляд, який зібрав ці докази, перелічує і те, чого в них бракує.",
-            "detail": "Огляд 2026 року щодо застосування й клінічних доказів місцевої естрогенової терапії в дерматології, який узагальнює дослідження Schmidt (1996), Fuchs (2003), Patriarca (2007 і 2013), Moraes (2009), Silva (2017), Draelos (2018) та Cohen і Downie (2022). Огляд відзначає малі вибірки, різнорідні формули, концентрації, ділянки й тривалість нанесення, неузгоджені критерії відбору та зосередженість на жінках у постменопаузі за майже повної відсутності даних про жінок до менопаузи й у перименопаузі. Профілактичну роль, розпочату приблизно в перименопаузі, він описує як нове спостереження, що потребує подальшого вивчення, і зазначає, що вплив більших площ нанесення й вищих концентрацій на системну експозицію ще слід дослідити.",
+            "detail": "Огляд 2026 року щодо застосування й клінічних доказів місцевої естрогенової терапії в дерматології, який узагальнює дослідження Creidi (1994), Schmidt (1996), Fuchs (2003), Patriarca (2007 і 2013), Moraes (2009), Silva (2017), Draelos (2018) та Cohen і Downie (2022). Огляд відзначає малі вибірки, різнорідні формули, концентрації, ділянки й тривалість нанесення, неузгоджені критерії відбору та зосередженість на жінках у постменопаузі за майже повної відсутності даних про жінок до менопаузи й у перименопаузі. Профілактичну роль, розпочату приблизно в перименопаузі, він описує як нове спостереження, що потребує подальшого вивчення, і зазначає, що вплив більших площ нанесення й вищих концентрацій на системну експозицію ще слід дослідити.",
             "cite": "Practical Dermatology · Огляд, липень 2026",
             "url": "https://practicaldermatology.com/topics/aesthetics-cosmeceuticals/a-review-of-uses-and-clinical-evidence-for-topical-estrogen-therapy-in-dermatology/60861/"
           },

@@ -71,7 +71,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The wider picture is similarly sober. [A 2026 systematic review and meta-analysis of 20 randomised trials](https://pubmed.ncbi.nlm.nih.gov/42401111/) in postmenopausal women found exercise’s most consistent benefit was on hot flushes and night sweats, with results for physical performance scattered so widely across trials that no pooled effect emerged. Move because movement is one of the few things that reliably pays you back across the whole of midlife. Do not move because a programme has promised you a fixed joint."
+        "text": "The wider picture is similarly sober. [A 2026 systematic review and meta-analysis of 20 randomised trials](https://pubmed.ncbi.nlm.nih.gov/42401111/) in postmenopausal women found exercise’s most consistent benefit was on hot flushes and night sweats, with results for physical performance scattered so widely across trials that no significant pooled effect emerged. Move because movement is one of the few things that reliably pays you back across the whole of midlife. Do not move because a programme has promised you a fixed joint."
       },
       {
         "t": "h",
@@ -127,7 +127,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One claim worth settling, because it is made confidently in both directions: GLP-1 medications are not an osteoarthritis treatment and do not appear to cause it either. [A 2026 network meta-analysis of 74 randomised trials and 105,415 people with type 2 diabetes](https://pubmed.ncbi.nlm.nih.gov/42101662/) found no significant difference in osteoarthritis risk between GLP-1 drugs and placebo, insulin or other tablets, in any subgroup."
+        "text": "One claim worth settling, because it is made confidently in both directions: GLP-1 medications do not appear to either prevent osteoarthritis or cause it. [A 2026 network meta-analysis of 74 randomised trials and 105,415 people with type 2 diabetes](https://pubmed.ncbi.nlm.nih.gov/42101662/) found no significant difference in osteoarthritis risk between GLP-1 drugs and placebo, insulin or other tablets, in any subgroup."
       },
       {
         "t": "p",
@@ -143,7 +143,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The single placebo-controlled randomised trial points the same way. [In the Women’s Health Initiative oestrogen-alone trial](https://pubmed.ncbi.nlm.nih.gov/23511705/), 10,739 postmenopausal women took conjugated oestrogens or placebo. After a year, joint pain was reported by 76.3% on oestrogen against 79.2% on placebo — a real, statistically significant difference that amounts to about three women in a hundred, in a group where more than three-quarters ached either way. Joint swelling went the other way, and was more common on oestrogen (42.1% against 39.7%)."
+        "text": "A large placebo-controlled randomised trial points the same way. [In the Women’s Health Initiative oestrogen-alone trial](https://pubmed.ncbi.nlm.nih.gov/23511705/), 10,739 postmenopausal women took conjugated oestrogens or placebo. After a year, joint pain was reported by 76.3% on oestrogen against 79.2% on placebo — a real, statistically significant difference that amounts to about three women in a hundred, in a group where more than three-quarters ached either way. Joint swelling went the other way, and was more common on oestrogen (42.1% against 39.7%)."
       },
       {
         "t": "p",
@@ -151,7 +151,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Supplements are briefer still. The collagen, curcumin and omega-3 trials you will see cited were run in knee osteoarthritis, in populations older than this one, and most are small and short; the newest curcumin synthesis, [21 trials and 1,705 patients](https://pubmed.ncbi.nlm.nih.gov/40615851/), measured inflammation markers in blood rather than whether anyone’s knee felt better. Not one of them was done in perimenopausal women with joint aches. [Creatine](/blog/creatine-women-over-40/) has the best evidence of anything on the shelf, but it is evidence about muscle and strength — treat any joint benefit as unproven."
+        "text": "Supplements are briefer still. The collagen, curcumin and omega-3 trials you will see cited were run in knee osteoarthritis, in populations older than this one, and most are small and short; a 2025 curcumin synthesis, [21 trials and 1,705 patients](https://pubmed.ncbi.nlm.nih.gov/40615851/), measured inflammation markers in blood rather than whether anyone’s knee felt better. Not one of them was done in perimenopausal women with joint aches. [Creatine](/blog/creatine-women-over-40/) has the best evidence of anything on the shelf, but it is evidence about muscle and strength — treat any joint benefit as unproven."
       },
       {
         "t": "h",
@@ -197,7 +197,7 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/41344380/"
           },
           {
-            "claim": "In the one large placebo-controlled trial, oestrogen reduced joint pain by about three women in a hundred — and increased joint swelling.",
+            "claim": "In a large placebo-controlled trial, oestrogen reduced joint pain by about three women in a hundred — and increased joint swelling.",
             "detail": "A post hoc analysis of the Women’s Health Initiative oestrogen-alone trial: 10,739 postmenopausal women who had had a hysterectomy, randomised to 0.625 mg/day conjugated equine oestrogens or matching placebo. At one year, joint pain frequency was 76.3% on oestrogen against 79.2% on placebo (P = 0.001), with the difference persisting to year three; joint swelling was higher on oestrogen, 42.1% against 39.7% (P = 0.02). The authors describe the pain finding as \"a modest but sustained reduction\". Note the baseline: about 77% of these women reported joint pain before anyone took anything.",
             "cite": "Menopause, June 2013 (Chlebowski et al.) · PMID 23511705",
             "url": "https://pubmed.ncbi.nlm.nih.gov/23511705/"
@@ -271,11 +271,11 @@ export default {
       },
       {
         "q": "Should I rest or keep training if my joints ache?",
-        "a": "Keep training, and change what you ask of the sore joint. In the one randomised trial of this in postmenopausal women — 132 women with hip tendon pain — every group improved whether they did tendon-specific exercise or sham exercise, and what all of them received was education about load management. Soreness in the muscle that fades over a day or two is fine. Joint pain that is worse the next morning means drop the load by about a fifth and change the exercise, not cancel the week."
+        "a": "Keep training, and change what you ask of the sore joint. In a randomised trial of this in postmenopausal women — 132 women with hip tendon pain — every group improved whether they did tendon-specific exercise or sham exercise, and what all of them received was education about load management. Soreness in the muscle that fades over a day or two is fine. Joint pain that is worse the next morning means drop the load by about a fifth and change the exercise, not cancel the week."
       },
       {
         "q": "Will HRT fix my joint pain?",
-        "a": "Probably not, on current evidence. A March 2026 systematic review pooled 57 studies covering nearly four million participants and found no significant effect of HRT use on general musculoskeletal pain (relative risk 1.00). The one large placebo-controlled trial found joint pain in 76.3% of women on oestrogen against 79.2% on placebo after a year — a real but small difference — and more joint swelling on oestrogen. HRT has good reasons to be prescribed; aching knees are not currently one of them, and they are not a reason to stop it either."
+        "a": "Probably not, on current evidence. A March 2026 systematic review pooled 57 studies covering nearly four million participants and found no significant effect of HRT use on general musculoskeletal pain (relative risk 1.00). A large placebo-controlled trial found joint pain in 76.3% of women on oestrogen against 79.2% on placebo after a year — a real but small difference — and more joint swelling on oestrogen. HRT has good reasons to be prescribed; aching knees are not currently one of them, and they are not a reason to stop it either."
       },
       {
         "q": "Does diabetes make joint pain worse in midlife?",
@@ -287,7 +287,7 @@ export default {
       },
       {
         "q": "Do collagen or curcumin supplements help menopausal joint pain?",
-        "a": "Nobody has tested them in perimenopausal women with joint aches. The trials that get cited were run in knee osteoarthritis in older populations, and most are small and short; the newest curcumin review, covering 21 trials and 1,705 patients, measured inflammation markers in blood rather than whether knees felt better. Creatine has the strongest evidence of anything on the supplement shelf, but that evidence is about muscle and strength — any joint benefit is unproven."
+        "a": "Nobody has tested them in perimenopausal women with joint aches. The trials that get cited were run in knee osteoarthritis in older populations, and most are small and short; a 2025 curcumin review, covering 21 trials and 1,705 patients, measured inflammation markers in blood rather than whether knees felt better. Creatine has the strongest evidence of anything on the supplement shelf, but that evidence is about muscle and strength — any joint benefit is unproven."
       }
     ]
   },
@@ -347,7 +347,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ширша картина так само стримана. [Систематичний огляд і метааналіз 20 рандомізованих досліджень 2026 року](https://pubmed.ncbi.nlm.nih.gov/42401111/) у жінок у постменопаузі показав, що найбільш послідовна користь від фізичних вправ стосувалася припливів і нічної пітливості, а результати щодо фізичної працездатності розсіялися між дослідженнями так широко, що узагальненого ефекту не вийшло. Рухайтеся, бо рух — одна з небагатьох речей, яка надійно повертає вкладене протягом усієї середини життя. Але не рухайтеся тому, що якась програма пообіцяла вам вилікувати суглоб."
+        "text": "Ширша картина так само стримана. [Систематичний огляд і метааналіз 20 рандомізованих досліджень 2026 року](https://pubmed.ncbi.nlm.nih.gov/42401111/) у жінок у постменопаузі показав, що найбільш послідовна користь від фізичних вправ стосувалася припливів і нічної пітливості, а результати щодо фізичної працездатності розсіялися між дослідженнями так широко, що значущого узагальненого ефекту не вийшло. Рухайтеся, бо рух — одна з небагатьох речей, яка надійно повертає вкладене протягом усієї середини життя. Але не рухайтеся тому, що якась програма пообіцяла вам вилікувати суглоб."
       },
       {
         "t": "h",
@@ -403,7 +403,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одне твердження варто закрити, бо його впевнено роблять в обидва боки: препарати GLP-1 не є лікуванням остеоартриту і, схоже, його не викликають. [Сітковий метааналіз 2026 року, що включив 74 рандомізовані дослідження та 105 415 людей із діабетом 2 типу](https://pubmed.ncbi.nlm.nih.gov/42101662/), не знайшов статистично значущої різниці в ризику остеоартриту між GLP-1, плацебо, інсуліном та іншими таблетками — у жодній підгрупі."
+        "text": "Одне твердження варто закрити, бо його впевнено роблять в обидва боки: препарати GLP-1, схоже, не запобігають остеоартриту і не викликають його. [Сітковий метааналіз 2026 року, що включив 74 рандомізовані дослідження та 105 415 людей із діабетом 2 типу](https://pubmed.ncbi.nlm.nih.gov/42101662/), не знайшов статистично значущої різниці в ризику остеоартриту між GLP-1, плацебо, інсуліном та іншими таблетками — у жодній підгрупі."
       },
       {
         "t": "p",
@@ -419,7 +419,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Єдине велике плацебо-контрольоване дослідження вказує туди ж. [У дослідженні Women’s Health Initiative з естрогеном окремо](https://pubmed.ncbi.nlm.nih.gov/23511705/) 10 739 жінок у постменопаузі приймали кон’юговані естрогени або плацебо. Через рік про біль у суглобах повідомили 76,3% на естрогені проти 79,2% на плацебо — справжня, статистично значуща різниця, яка в перерахунку дає приблизно трьох жінок зі ста в групі, де боліло в понад три чверті в будь-якому разі. А припухання суглобів пішло в інший бік і було частішим на естрогені (42,1% проти 39,7%)."
+        "text": "Велике плацебо-контрольоване дослідження вказує туди ж. [У дослідженні Women’s Health Initiative з естрогеном окремо](https://pubmed.ncbi.nlm.nih.gov/23511705/) 10 739 жінок у постменопаузі приймали кон’юговані естрогени або плацебо. Через рік про біль у суглобах повідомили 76,3% на естрогені проти 79,2% на плацебо — справжня, статистично значуща різниця, яка в перерахунку дає приблизно трьох жінок зі ста в групі, де боліло в понад три чверті в будь-якому разі. А припухання суглобів пішло в інший бік і було частішим на естрогені (42,1% проти 39,7%)."
       },
       {
         "t": "p",
@@ -427,7 +427,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Про добавки — ще коротше. Дослідження колагену, куркуміну й омега-3, які вам цитуватимуть, проводили при остеоартриті колінного суглоба, у популяціях старших за цю, і більшість із них малі й короткі; найновіший синтез щодо куркуміну, [21 дослідження і 1705 пацієнтів](https://pubmed.ncbi.nlm.nih.gov/40615851/), вимірював маркери запалення в крові, а не те, чи стало комусь легше в коліні. Жодного з них не робили на жінках у перименопаузі з болем у суглобах. [Креатин](/ua/blog/creatine-women-over-40/) має найкращу доказову базу з усього, що стоїть на полиці, але це доказова база про м’язи й силу — будь-яку користь для суглобів вважайте недоведеною."
+        "text": "Про добавки — ще коротше. Дослідження колагену, куркуміну й омега-3, які вам цитуватимуть, проводили при остеоартриті колінного суглоба, у популяціях старших за цю, і більшість із них малі й короткі; синтез 2025 року щодо куркуміну, [21 дослідження і 1705 пацієнтів](https://pubmed.ncbi.nlm.nih.gov/40615851/), вимірював маркери запалення в крові, а не те, чи стало комусь легше в коліні. Жодного з них не робили на жінках у перименопаузі з болем у суглобах. [Креатин](/ua/blog/creatine-women-over-40/) має найкращу доказову базу з усього, що стоїть на полиці, але це доказова база про м’язи й силу — будь-яку користь для суглобів вважайте недоведеною."
       },
       {
         "t": "h",
@@ -473,7 +473,7 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/41344380/"
           },
           {
-            "claim": "У єдиному великому плацебо-контрольованому дослідженні естроген зменшив біль у суглобах приблизно у трьох жінок зі ста — і збільшив припухання.",
+            "claim": "У великому плацебо-контрольованому дослідженні естроген зменшив біль у суглобах приблизно у трьох жінок зі ста — і збільшив припухання.",
             "detail": "Post hoc аналіз дослідження Women’s Health Initiative з естрогеном окремо: 10 739 жінок у постменопаузі після гістеректомії, рандомізованих на 0,625 мг/добу кон’югованих конячих естрогенів або відповідне плацебо. Через рік частота болю в суглобах становила 76,3% на естрогені проти 79,2% на плацебо (P = 0,001), і різниця зберігалася до третього року; припухання суглобів було частішим на естрогені — 42,1% проти 39,7% (P = 0,02). Автори описують результат щодо болю як «помірне, але стійке зменшення». Зверніть увагу на вихідний рівень: приблизно 77% цих жінок повідомляли про біль у суглобах ще до того, як хтось щось приймав.",
             "cite": "Menopause, червень 2013 (Chlebowski та ін.) · PMID 23511705",
             "url": "https://pubmed.ncbi.nlm.nih.gov/23511705/"
@@ -547,11 +547,11 @@ export default {
       },
       {
         "q": "Дати спокій чи тренуватися далі, якщо болять суглоби?",
-        "a": "Тренуватися далі й змінити те, скільки ви просите в болючого суглоба. У єдиному рандомізованому дослідженні цього питання в жінок у постменопаузі — 132 жінки з болем сухожилків стегна — покращилися всі групи, і ті, що робили специфічні вправи, і ті, що робили імітацію; а отримали всі навчання щодо керування навантаженням. Біль у м’язі, який згасає за день-два, — нормально. Біль у суглобі, якому наступного ранку гірше, означає зменшити вагу приблизно на пяту частину й змінити вправу, а не скасувати тиждень."
+        "a": "Тренуватися далі й змінити те, скільки ви просите в болючого суглоба. У рандомізованому дослідженні цього питання в жінок у постменопаузі — 132 жінки з болем сухожилків стегна — покращилися всі групи, і ті, що робили специфічні вправи, і ті, що робили імітацію; а отримали всі навчання щодо керування навантаженням. Біль у м’язі, який згасає за день-два, — нормально. Біль у суглобі, якому наступного ранку гірше, означає зменшити вагу приблизно на пяту частину й змінити вправу, а не скасувати тиждень."
       },
       {
         "q": "Чи вилікує гормональна терапія мій суглобовий біль?",
-        "a": "Радше ні, за наявними доказами. Систематичний огляд у березні 2026 року об’єднав 57 досліджень, що охопили майже чотири мільйони участей, і не знайшов значущого впливу застосування ГТ на загальний скелетно-м’язовий біль (відносний ризик 1,00). Єдине велике плацебо-контрольоване дослідження виявило біль у суглобах у 76,3% жінок на естрогені проти 79,2% на плацебо через рік — справжня, але мала різниця — і більше припухання суглобів на естрогені. У ГТ є вагомі причини для призначення; болючі коліна поки не входять до них, і вони ж не причина її припиняти."
+        "a": "Радше ні, за наявними доказами. Систематичний огляд у березні 2026 року об’єднав 57 досліджень, що охопили майже чотири мільйони участей, і не знайшов значущого впливу застосування ГТ на загальний скелетно-м’язовий біль (відносний ризик 1,00). Велике плацебо-контрольоване дослідження виявило біль у суглобах у 76,3% жінок на естрогені проти 79,2% на плацебо через рік — справжня, але мала різниця — і більше припухання суглобів на естрогені. У ГТ є вагомі причини для призначення; болючі коліна поки не входять до них, і вони ж не причина її припиняти."
       },
       {
         "q": "Чи погіршує діабет суглобовий біль у середині життя?",
@@ -563,7 +563,7 @@ export default {
       },
       {
         "q": "Чи допомагають колаген або куркумін при менопаузальному болю в суглобах?",
-        "a": "Їх ніхто не перевіряв на жінках у перименопаузі з болем у суглобах. Дослідження, які цитують, проводили при остеоартриті коліна в старших популяціях, і більшість із них малі й короткі; найновіший огляд куркуміну, що охопив 21 дослідження і 1705 пацієнтів, вимірював маркери запалення в крові, а не те, чи стало легше в колінах. Креатин має найсильнішу доказову базу з усього на полиці добавок, але ця база про м’язи й силу — будь-яка користь для суглобів недоведена."
+        "a": "Їх ніхто не перевіряв на жінках у перименопаузі з болем у суглобах. Дослідження, які цитують, проводили при остеоартриті коліна в старших популяціях, і більшість із них малі й короткі; огляд куркуміну 2025 року, що охопив 21 дослідження і 1705 пацієнтів, вимірював маркери запалення в крові, а не те, чи стало легше в колінах. Креатин має найсильнішу доказову базу з усього на полиці добавок, але ця база про м’язи й силу — будь-яка користь для суглобів недоведена."
       }
     ]
   }
