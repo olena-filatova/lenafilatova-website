@@ -1164,7 +1164,7 @@ export const RECIPES = [
     slug: 'pumpkin-yogurt', dateAdded: '2026-07-10', img: '97-pumpkin-yogurt.jpg', cat: 'breakfast', gi: 62,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Healthy Pumpkin Yoghurt', ua: 'Корисний гарбузовий йогурт' },
-    why: { en: 'A two-minute, protein-rich breakfast: plain low-fat yoghurt stirred with pumpkin purée and vanilla, no sugar. The protein and fibre keep you full and blood sugar steady through the morning.', ua: 'Двохвилинний багатий білком сніданок: звичайний нежирний йогурт із гарбузовим пюре та ваніллю, без цукру. Білок і клітковина добре насичують і тримають цукор стабільним усе ранок.' },
+    why: { en: 'A two-minute, protein-rich breakfast: plain low-fat yoghurt stirred with pumpkin purée and vanilla, no sugar. The protein and fibre keep you full and blood sugar steady through the morning.', ua: 'Двохвилинний багатий білком сніданок: звичайний нежирний йогурт із гарбузовим пюре та ваніллю, без цукру. Білок і клітковина добре насичують і тримають цукор стабільним цілий ранок.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 18 g · Fat 4 g · Protein 15 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 18 г · Жири 4 г · Білки 15 г' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: 'No cooking', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['250 g plain low-fat yoghurt','2 tbsp pumpkin purée','½ tsp vanilla powder'], ua: ['250 г нежирного натурального йогурту','2 ст. л. гарбузового пюре','½ ч. л. ванільного порошку'] },
