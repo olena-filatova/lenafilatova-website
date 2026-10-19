@@ -1195,18 +1195,18 @@ export const RECIPES = [
   {
     slug: 'granola-bars-date-coconut', dateAdded: '2026-07-10', img: '100-granola-bars-date-coconut.jpg', cat: 'snack', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
-    title: { en: 'No-Bake Date & Coconut Granola Bars', ua: 'Батончики з фініками та кокосом (без випікання)' },
+    title: { en: 'No-Bake Date & Coconut Granola Bars', ua: 'Батончики з гранолою, фініками та кокосом (без випікання)' },
     why: { en: 'Just whole-food ingredients bound by dates and nut butter — no baking, no added sugar and no oats, so they are naturally gluten-free. The fat and fibre slow down the natural sugar from the dates.', ua: 'Лише натуральні інгредієнти, скріплені фініками та горіховою пастою — без випікання, доданого цукру та вівса, тож вони природно без глютену. Жир і клітковина сповільнюють природний цукор фініків.' },
     nutrition: { en: 'Per bar (est.): ~230 kcal · Carbs 24 g · Fat 14 g · Protein 4 g', ua: 'На 1 батончик (прибл.): ~230 ккал · Вуглеводи 24 г · Жири 14 г · Білки 4 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Chill ~2 h', ua: 'Охолодження ~2 год' }, serves: { en: 'Makes ~4', ua: '~4 штуки' } },
     ingredients: { en: ['240 ml (1 cup) pitted dates','480 ml (2 cups) coconut shreds','120 g peanut or almond butter','180 ml (¾ cup) dried cranberries','3 tbsp water'], ua: ['240 мл (1 склянка) фініків без кісточок','480 мл (2 склянки) кокосової стружки','120 г арахісової або мигдалевої пасти','180 мл (¾ склянки) сушеної журавлини','3 ст. л. води'] },
-    method: { en: ['Put the dates, coconut shreds and cranberries in a food processor.','Blend, adding the nut butter and the water a tablespoon at a time, until the mixture holds together.','Line a container with parchment, press the mixture in firmly and level it.','Cover and refrigerate for a couple of hours.','Turn out, cut into bars and sprinkle with a little extra coconut.'], ua: ['Покладіть фініки, кокосову стружку та журавлину в кухонний комбайн.','Збивайте, додаючи горіхову пасту й воду по одній ложці, доки маса не почне триматися.','Застеліть контейнер пергаментом, щільно вкладіть масу та розрівняйте.','Накрийте та поставте в холодильник на кілька годин.','Вийміть, наріжте на батончики та посипте кокосовою стружкою.'] },
+    method: { en: ['Put the dates, coconut shreds and cranberries in a food processor.','Blend, adding the nut butter and the water a tablespoon at a time, until the mixture holds together.','Line a container with parchment, press the mixture in firmly and level it.','Cover and refrigerate for a couple of hours.','Turn out, cut into bars and sprinkle with a little extra coconut.'], ua: ['Покладіть фініки, кокосову стружку та журавлину в кухонний комбайн.','Збивайте, додаючи горіхову пасту й воду по одній ложці, доки маса не почне триматися.','Застеліть контейнер пергаментом, щільно вкладіть масу та розрівняйте.','Накрийте та поставте в холодильник на кілька годин.','Вийміть, наріжте на батончики та посипте ще трохи кокосовою стружкою.'] },
     note: { en: 'Keep refrigerated in an airtight container.', ua: 'Зберігайте в холодильнику в герметичному контейнері.' }
   },
   {
     slug: 'granola-bars-5-ingredient', dateAdded: '2026-07-10', img: '101-granola-bars-5-ingredient.jpg', cat: 'snack', gi: 48,
     tags: ['vegetarian', 'dairy-free'],
-    title: { en: '5-Ingredient Granola Bars', ua: 'Батончики з гранолою з 5 інгредієнтів' },
+    title: { en: '5-Ingredient Granola Bars', ua: 'Батончики з гранолою (5 інгредієнтів)' },
     why: { en: 'Five simple ingredients — oats, almonds and dates for fibre, with just enough honey and peanut butter to bind. A steady-energy snack with no refined sugar.', ua: 'П’ять простих інгредієнтів — овес, мигдаль і фініки для клітковини, з невеликою кількістю меду та арахісової пасти для скріплення. Перекус зі стабільною енергією без рафінованого цукру.' },
     nutrition: { en: 'Per bar (est.): ~180 kcal · Carbs 22 g · Fat 9 g · Protein 5 g', ua: 'На 1 батончик (прибл.): ~180 ккал · Вуглеводи 22 г · Жири 9 г · Білки 5 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Freeze 20 min', ua: 'Заморозка 20 хв' }, serves: { en: 'Makes 10–12', ua: '10–12 штук' } },
