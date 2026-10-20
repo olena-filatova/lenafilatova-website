@@ -874,7 +874,7 @@ export const RECIPES = [
   {
     slug: 'chocolate-coconut-nests', dateAdded: '2026-07-10', img: '75-chocolate-coconut-nests.jpg', cat: 'dessert', gi: 22,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
-    title: { en: 'Chocolate-Coconut Easter Nests', ua: 'Шоколадно-кокосові гнізда' },
+    title: { en: 'Chocolate-Coconut Easter Nests', ua: 'Шоколадно-кокосові великодні гнізда' },
     why: { en: "No-bake coconut-and-cacao nests with an almond 'egg' — a cute Easter treat, sweetened with stevia or a little honey, no refined sugar.", ua: 'Кокосово-какаові гнізда без випікання з мигдалевим «яйцем» — милі великодні ласощі, підсолоджені стевією або трохи медом, без рафінованого цукру.' },
     nutrition: { en: 'Per nest (est.): ~70 kcal · Carbs 2 g · Fat 7 g · Protein 1 g', ua: 'На 1 гніздо (прибл.): ~70 ккал · Вуглеводи 2 г · Жири 7 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '1 h chill', ua: '1 год охолодження' }, serves: { en: 'Makes ~20', ua: '~20 штук' } },
@@ -885,7 +885,7 @@ export const RECIPES = [
     slug: 'caramel-apples', dateAdded: '2026-07-10', img: '76-caramel-apples.jpg', cat: 'dessert', gi: 48,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Caramel Apples', ua: 'Яблука в карамелі' },
-    why: { en: "Whole apples on sticks dipped in a maple-syrup caramel — a festive treat. This one is genuinely high in sugar from the syrup, so it's an occasional indulgence rather than an everyday low-GI recipe.", ua: 'Цілі яблука на паличках у карамелі з кленового сиропу — святкові ласощі. Через сироп воно справді солодке, тож це радше рідкісна насолода, ніж щоденний рецепт з низьким ГІ.' },
+    why: { en: "Whole apples on sticks dipped in a maple-syrup caramel — a festive treat. This one is genuinely high in sugar from the syrup, so it's an occasional indulgence rather than an everyday low-GI recipe.", ua: 'Цілі яблука на паличках у карамелі з кленового сиропу — святкові ласощі. Через сироп вони справді солодкі, тож це радше рідкісна насолода, ніж щоденний рецепт з низьким ГІ.' },
     nutrition: { en: 'Per apple (est.): ~320 kcal · Carbs 55 g · Fat 12 g · Protein 1 g', ua: 'На 1 яблуко (прибл.): ~320 ккал · Вуглеводи 55 г · Жири 12 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '39 min', ua: '39 хв' }, serves: { en: 'Serves 5', ua: '5 порцій' } },
     ingredients: { en: ['6 medium apples','6 wooden sticks or skewers','1 handful sprinkles / coating','160 ml (⅔ cup) sunflower oil','240 ml (1 cup) maple syrup (or honey)','0.5 g sea salt'], ua: ['6 середніх яблук','6 дерев’яних паличок або шпажок','1 жменя обсипки','160 мл (⅔ склянки) соняшникової олії','240 мл (1 склянка) кленового сиропу (або меду)','0,5 г морської солі'] },
