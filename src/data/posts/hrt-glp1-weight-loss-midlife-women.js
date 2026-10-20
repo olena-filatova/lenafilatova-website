@@ -13,7 +13,7 @@ export default {
     "title": "Hormone therapy with a weight-loss jab: a much larger look has split the finding in two",
     "seoTitle": "HRT With GLP-1s: The Boost Held for Semaglutide Only",
     "metaDesc": "A new cohort of about 3,900 midlife women finds hormone therapy linked to greater weight loss on semaglutide — but the tirzepatide advantage did not hold.",
-    "excerpt": "A new cohort of about 3,900 midlife women splits last year’s headline in two: with semaglutide, hormone therapy was linked to greater sustained weight loss; with tirzepatide — the drug the “35% more” figure was about — the advantage faded.",
+    "excerpt": "A new cohort of about 3,900 midlife women splits this year’s headline in two: with semaglutide, hormone therapy was linked to greater sustained weight loss; with tirzepatide — the drug the “35% more” figure was about — the advantage faded.",
     "meta": "14 October 2026 · 4 min read",
     "lead": "In July I wrote about a study suggesting that adding hormone therapy to tirzepatide led to 35% more weight loss after menopause. A much larger look at the same question is being presented this month, and it does something more interesting than confirm it: it splits the finding in two.",
     "blocks": [
@@ -54,7 +54,7 @@ export default {
           },
           {
             "claim": "The published version of that study is where “35% more weight loss” comes from.",
-            "detail": "The journal report of the same tirzepatide cohort gives total bodyweight reduction of −19.2% with hormone therapy versus −14.0% without over 12 months (p=0.0023) — the gap that was reported as “35% more weight loss”. Cardiometabolic markers improved more in the combination group. The design is observational throughout.",
+            "detail": "The journal report of the same tirzepatide cohort gives total bodyweight reduction of −19.2% with hormone therapy versus −14.0% without at last follow-up, in women who took tirzepatide for at least 12 months (p=0.0023) — the gap that was reported as “35% more weight loss”. Diastolic blood pressure, triglycerides and AST fell further in the combination group. The design is observational throughout.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · Retrospective cohort, 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
           }
@@ -94,7 +94,7 @@ export default {
     "title": "Гормональна терапія разом із препаратом для схуднення: значно більше дослідження розділило висновок надвоє",
     "seoTitle": "ЗГТ і GLP-1: ефект утримався лише для семаглутиду",
     "metaDesc": "Нова когорта з ~3 900 жінок середнього віку: із семаглутидом гормональна терапія пов’язана з більшою втратою ваги, а перевага для тирзепатиду не втрималася.",
-    "excerpt": "Нова когорта з близько 3 900 жінок середнього віку розділила торішній заголовок надвоє: із семаглутидом гормональна терапія пов’язана зі стійкішою втратою ваги, а з тирзепатидом — тим самим препаратом, про який ішлося в цифрі «на 35% більше», — перевага зникла.",
+    "excerpt": "Нова когорта з близько 3 900 жінок середнього віку розділила цьогорічний заголовок надвоє: із семаглутидом гормональна терапія пов’язана зі стійкішою втратою ваги, а з тирзепатидом — тим самим препаратом, про який ішлося в цифрі «на 35% більше», — перевага зникла.",
     "meta": "14 жовтня 2026 · 4 хв читання",
     "lead": "У липні я писала про дослідження, за яким додавання гормональної терапії до тирзепатиду давало на 35% більшу втрату ваги після менопаузи. Цього місяця представляють значно більше дослідження того самого питання — і воно робить дещо цікавіше, ніж підтверджує попереднє: воно розділяє висновок надвоє.",
     "blocks": [
@@ -135,7 +135,7 @@ export default {
           },
           {
             "claim": "Саме з опублікованої версії цього дослідження походить цифра «на 35% більше».",
-            "detail": "У журнальній публікації тієї самої когорти на тирзепатиді зниження загальної маси тіла становило −19,2% з гормональною терапією проти −14,0% без неї за 12 місяців (p=0,0023) — саме цей розрив подавали як «на 35% більшу втрату ваги». Кардіометаболічні показники також покращилися більше в комбінованій групі. Дизайн лишається спостережним.",
+            "detail": "У журнальній публікації тієї самої когорти на тирзепатиді зниження загальної маси тіла становило −19,2% з гормональною терапією проти −14,0% без неї на останньому візиті, у жінок, які приймали тирзепатид щонайменше 12 місяців (p=0,0023) — саме цей розрив подавали як «на 35% більшу втрату ваги». Діастолічний тиск, тригліцериди та АСТ знизилися більше в комбінованій групі. Дизайн лишається спостережним.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · Ретроспективна когорта, 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
           }

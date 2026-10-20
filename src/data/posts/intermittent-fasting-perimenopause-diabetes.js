@@ -59,11 +59,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "In that 2023 trial, the fasting group lost about 3.6% of their body weight over six months, while the calorie-counting group lost 1.8% and that smaller figure was not statistically reliable. HbA1c dropped by roughly 0.9 percentage points — but it dropped by the same amount in both groups. No serious adverse events were reported. The honest reading is that an eating window worked as a simpler way to eat less, not as a separate metabolic trick."
+        "text": "In that 2023 trial, the fasting group lost about 3.6% of their body weight over six months compared with the control group, while the calorie-counting group lost 1.8% and that smaller figure was not statistically reliable. HbA1c dropped by roughly 0.9 percentage points against the control group — but it dropped by the same amount in both groups. No serious adverse events were reported. The honest reading is that an eating window worked as a simpler way to eat less, not as a separate metabolic trick."
       },
       {
         "t": "p",
-        "text": "The newest and largest trial makes that point more bluntly. [In September 2026, Diabetologia published a trial of 247 adults at risk of type 2 diabetes](https://doi.org/10.1007/s00125-026-06762-x), comparing a nine-hour eating window against individual sessions with a dietitian. At four months, fasting was no worse than the dietitian — and no better. By twelve months, the researchers could no longer conclude even that it was no worse. Their own summary of the size of the changes is the sentence worth keeping: the absolute changes in HbA1c were small and not clinically meaningful in either group. Their conclusion is modest and, I think, fair — an eating window may be a practical short-term option when dietitian appointments are hard to get, or when it is simply the approach someone prefers."
+        "text": "The newest and largest trial makes that point more bluntly. [In June 2026, Diabetologia published a trial of 247 adults at risk of type 2 diabetes](https://doi.org/10.1007/s00125-026-06762-x), comparing a nine-hour eating window against individual sessions with a dietitian. At four months, fasting was no worse than the dietitian — and no better. By twelve months, the researchers could no longer conclude even that it was no worse. Their own summary of the size of the changes is the sentence worth keeping: the absolute changes in HbA1c were small and not clinically meaningful in either group. Their conclusion is modest and, I think, fair — an eating window may be a practical short-term option when dietitian appointments are hard to get, or when it is simply the approach someone prefers."
       },
       {
         "t": "p",
@@ -71,7 +71,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Stricter windows have been tried. [A 2025 crossover study put 39 adults with early type 2 diabetes](https://doi.org/10.1210/clinem/dgae594) on a four-hour eating window for six weeks: HbA1c fell by 0.32 percentage points, markers of insulin resistance improved, weight fell by about 3.9%. Encouraging — but 39 people, six weeks, and a twenty-hour daily fast is a long way from the gentle thing most people mean when they say they are trying 16:8."
+        "text": "Stricter windows have been tried. [A 2024 crossover study put 39 adults with early type 2 diabetes](https://doi.org/10.1210/clinem/dgae594) on a four-hour eating window for six weeks: HbA1c fell by 0.32 percentage points, markers of insulin resistance improved, weight fell by about 3.9%. Encouraging — but 39 people, six weeks, and a twenty-hour daily fast is a long way from the gentle thing most people mean when they say they are trying 16:8."
       },
       {
         "t": "p",
@@ -83,11 +83,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here I have to give you a disappointing answer, because it is the true one: nobody has run this trial. There is no randomised study of intermittent fasting in perimenopausal women, with or without diabetes. Not a small one. Not a bad one. It does not exist."
+        "text": "Here I have to give you a disappointing answer, because it is the true one: nobody has run this trial. There is no randomised study of intermittent fasting designed for perimenopausal women, with or without diabetes. Not a small one. Not a bad one. A few trials in women aged 40 to 60 have included some perimenopausal participants, but none was built to answer this question."
       },
       {
         "t": "p",
-        "text": "The nearest thing is [a narrative review published in Nutrients in April 2026](https://doi.org/10.3390/nu18091344), which looked at how men and women respond differently to fasting across the menopausal transition. Its reassuring finding is that early worries about fasting disturbing women’s hormones have not been borne out in the more recent data, and that postmenopausal women did reasonably well — particularly when fasting was paired with physical activity. But a narrative review is a summary of other people’s work, not a trial, and postmenopausal is not perimenopausal. In perimenopause, hormones are swinging rather than settled, and that is precisely the phase nobody has studied."
+        "text": "The nearest thing is [a narrative review published in Nutrients in April 2026](https://doi.org/10.3390/nu18091344), which looked at how men and women respond differently to fasting across the menopausal transition. Its reassuring finding is that early worries about fasting disturbing women’s hormones have not been borne out in the more recent data, and that postmenopausal women did reasonably well — particularly when fasting was paired with physical activity. But a narrative review is a summary of other people’s work, not a trial, and postmenopausal is not perimenopausal. In perimenopause, hormones are swinging rather than settled, and that is precisely the phase no trial has focused on."
       },
       {
         "t": "p",
@@ -103,7 +103,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "[Diabetes UK’s guidance on fasting](https://www.diabetes.org.uk/living-with-diabetes/eating/fasting) is written around religious fasting, but the safety logic is the same whatever your reason. Its starting position is striking: if you treat your diabetes with insulin, or you have complications affecting your eyes, kidneys or nerves, you would not usually be expected to fast at all. Hypos are more likely if you take insulin or any other medication that can cause them. If you have a hypo or feel one coming, you break the fast immediately — and you do not go back to it that day. Ask your team whether you should be checking ketones. And if your blood sugar is high while you are not drinking, you break the fast and drink water, because dehydration on top of high glucose is how diabetic ketoacidosis starts."
+        "text": "[Diabetes UK’s guidance on fasting](https://www.diabetes.org.uk/living-with-diabetes/eating/fasting) is written around religious fasting, but the safety logic is the same whatever your reason. Its starting position is striking: if you treat your diabetes with insulin, or you have complications affecting your eyes, kidneys or nerves, you would not usually be expected to fast at all. Hypos are more likely if you take insulin or any other medication that can cause them. If you have a hypo or feel one coming, you break the fast immediately — and you do not go back to it that day. Ask your team whether you should be checking ketones. And if your blood sugar is high while you are not drinking, you break the fast and drink water, because dehydration on top of high glucose raises the risk of diabetic ketoacidosis."
       },
       {
         "t": "p",
@@ -224,9 +224,9 @@ export default {
             "url": "https://doi.org/10.1016/S2213-8587(26)00119-1"
           },
           {
-            "claim": "In the largest and newest trial, an eating window matched a dietitian at four months — and the advantage did not survive to a year.",
+            "claim": "In the largest and newest trial, an eating window matched a dietitian at four months — and that match did not hold at a year.",
             "detail": "A multi-centre Australian non-inferiority trial randomised 247 adults at risk of type 2 diabetes to a nine-hour eating window or to individualised dietetic guidance, with the same amount of telehealth support in both arms. At four months, time-restricted eating was non-inferior but not superior for HbA1c. At twelve months the upper bound of the difference exceeded the non-inferiority margin, so non-inferiority could no longer be concluded. The authors note the absolute changes were small and not clinically meaningful in either group, and that adverse events were minor and similar between arms.",
-            "cite": "Diabetologia · Randomised non-inferiority trial, September 2026 (Parr et al.)",
+            "cite": "Diabetologia · Randomised non-inferiority trial, June 2026 (Parr et al.)",
             "url": "https://doi.org/10.1007/s00125-026-06762-x"
           },
           {
@@ -237,14 +237,14 @@ export default {
           },
           {
             "claim": "The six-month type 2 trial everyone quotes found the weight loss — but the same HbA1c drop in both groups.",
-            "detail": "This 2023 randomised trial at the University of Illinois Chicago enrolled 75 adults with type 2 diabetes and obesity (mean age 55, mean HbA1c 8.1%, mean BMI 39; 53 of 75 were women). An eight-hour eating window produced a 3.56% weight reduction versus controls at six months; daily calorie restriction produced 1.78%, which was not statistically significant. HbA1c fell by about 0.9 percentage points in both active groups, with no difference between them, and no serious adverse events were reported.",
+            "detail": "This 2023 randomised trial at the University of Illinois Chicago enrolled 75 adults with type 2 diabetes and obesity (mean age 55, mean HbA1c 8.1%, mean BMI 39; 53 of 75 were women). An eight-hour eating window produced a 3.56% weight reduction versus controls at six months; daily calorie restriction produced 1.78%, which was not statistically significant. HbA1c fell by about 0.9 percentage points in both active groups relative to controls, with no difference between them, and no serious adverse events were reported.",
             "cite": "JAMA Network Open · Randomised clinical trial, 2023 (Pavlou et al.)",
             "url": "https://doi.org/10.1001/jamanetworkopen.2023.39337"
           },
           {
             "claim": "A stricter four-hour window improved insulin function in early type 2 diabetes — over six weeks, in 39 people.",
             "detail": "A randomised crossover study in the Journal of Clinical Endocrinology & Metabolism tested six weeks of 20 hours fasting and four hours eating in 39 overweight adults with early type 2 diabetes (mean duration 2.9 years, baseline HbA1c 6.6%). Beta-cell function rose 14%, hepatic insulin resistance fell about 12%, HbA1c fell 0.32 percentage points and weight fell 3.86%. Fasting glucose did not differ between the two conditions. A 20-hour daily fast is far stricter than the patterns most people mean by intermittent fasting.",
-            "cite": "Journal of Clinical Endocrinology & Metabolism · Randomised crossover trial, 2025 (Kramer et al.)",
+            "cite": "Journal of Clinical Endocrinology & Metabolism · Randomised crossover trial, 2024 (Kramer et al.)",
             "url": "https://doi.org/10.1210/clinem/dgae594"
           },
           {
@@ -339,7 +339,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Візьмімо дослідження, яке цитують найчастіше. [У 2023 році науковці з Чикаго рандомізували 75 дорослих із діабетом 2 типу](https://doi.org/10.1001/jamanetworkopen.2023.39337) у групи восьмигодинного харчового вікна, щоденного обмеження калорій або контролю — на шість місяців. Середньому учаснику було 55 років, ІМТ 39, HbA1c 8,1%. П’ятдесят три з 75 були жінками, що для метаболічного дослідження незвично добре. Але це група, чий діабет був погано компенсований, а вага висока, — а не 45-річна жінка, чиї показники загалом непогані, а справжня скарга в тому, що все стало даватися важче."
+        "text": "Візьмімо дослідження, яке цитують найчастіше. [У 2023 році науковці з Чикаго рандомізували 75 дорослих із діабетом 2 типу](https://doi.org/10.1001/jamanetworkopen.2023.39337) у групи восьмигодинного харчового вікна, щоденного обмеження калорій або контролю — на шість місяців. Середньому учаснику було 55 років, ІМТ 39, HbA1c 8,1%. П’ятдесят три з 75 були жінками, що для метаболічного дослідження незвично добре. Але це група, чий діабет був погано компенсований, а вага висока, — а не 45-річна жінка з Кента, чиї показники загалом непогані, а справжня скарга в тому, що все стало даватися важче."
       },
       {
         "t": "quote",
@@ -351,11 +351,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "У тому дослідженні 2023 року група з харчовим вікном втратила близько 3,6% маси тіла за шість місяців, а група підрахунку калорій — 1,8%, і ця менша цифра не була статистично надійною. HbA1c знизився приблизно на 0,9 відсоткового пункту — але однаково в обох групах. Серйозних небажаних явищ не зафіксували. Чесне прочитання таке: харчове вікно спрацювало як простіший спосіб їсти менше, а не як окремий метаболічний трюк."
+        "text": "У тому дослідженні 2023 року група з харчовим вікном втратила близько 3,6% маси тіла за шість місяців порівняно з контрольною групою, а група підрахунку калорій — 1,8%, і ця менша цифра не була статистично надійною. HbA1c знизився приблизно на 0,9 відсоткового пункту порівняно з контролем — але однаково в обох групах. Серйозних небажаних явищ не зафіксували. Чесне прочитання таке: харчове вікно спрацювало як простіший спосіб їсти менше, а не як окремий метаболічний трюк."
       },
       {
         "t": "p",
-        "text": "Найновіше й найбільше дослідження каже це ще прямішe. [У вересні 2026 року Diabetologia опублікувала дослідження за участі 247 дорослих із ризиком діабету 2 типу](https://doi.org/10.1007/s00125-026-06762-x), яке порівнювало дев’ятигодинне харчове вікно з індивідуальними консультаціями дієтолога. На четвертому місяці голодування виявилося не гіршим за дієтолога — і не кращим. До дванадцятого місяця дослідники вже не могли стверджувати навіть, що воно не гірше. Їхнє власне формулювання щодо масштабу змін варто запам’ятати: абсолютні зміни HbA1c були малими й клінічно незначущими в обох групах. Їхній висновок стриманий і, як на мене, справедливий — харчове вікно може бути практичним короткостроковим варіантом, коли потрапити до дієтолога складно або коли людині просто ближчий такий підхід."
+        "text": "Найновіше й найбільше дослідження каже це ще пряміше. [У червні 2026 року Diabetologia опублікувала дослідження за участі 247 дорослих із ризиком діабету 2 типу](https://doi.org/10.1007/s00125-026-06762-x), яке порівнювало дев’ятигодинне харчове вікно з індивідуальними консультаціями дієтолога. На четвертому місяці голодування виявилося не гіршим за дієтолога — і не кращим. До дванадцятого місяця дослідники вже не могли стверджувати навіть, що воно не гірше. Їхнє власне формулювання щодо масштабу змін варто запам’ятати: абсолютні зміни HbA1c були малими й клінічно незначущими в обох групах. Їхній висновок стриманий і, як на мене, справедливий — харчове вікно може бути практичним короткостроковим варіантом, коли потрапити до дієтолога складно або коли людині просто ближчий такий підхід."
       },
       {
         "t": "p",
@@ -363,7 +363,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Суворіші вікна теж випробовували. [У 2025 році перехресне дослідження поставило 39 дорослих із раннім діабетом 2 типу](https://doi.org/10.1210/clinem/dgae594) на чотиригодинне харчове вікно впродовж шести тижнів: HbA1c знизився на 0,32 відсоткового пункту, показники інсулінорезистентності покращилися, вага впала приблизно на 3,9%. Обнадійливо — але це 39 людей, шість тижнів, а двадцятигодинне щоденне голодування дуже далеке від того м’якого режиму, який більшість має на увазі, кажучи «16:8»."
+        "text": "Суворіші вікна теж випробовували. [У 2024 році перехресне дослідження поставило 39 дорослих із раннім діабетом 2 типу](https://doi.org/10.1210/clinem/dgae594) на чотиригодинне харчове вікно впродовж шести тижнів: HbA1c знизився на 0,32 відсоткового пункту, показники інсулінорезистентності покращилися, вага впала приблизно на 3,9%. Обнадійливо — але це 39 людей, шість тижнів, а двадцятигодинне щоденне голодування дуже далеке від того м’якого режиму, який більшість має на увазі, кажучи «16:8»."
       },
       {
         "t": "p",
@@ -375,11 +375,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Тут я мушу дати неприємну відповідь, бо вона правдива: такого дослідження ніхто не проводив. Немає жодного рандомізованого дослідження інтервального голодування в жінок у перименопаузі — ні з діабетом, ні без нього. Ні маленького. Ні поганого. Його просто не існує."
+        "text": "Тут я мушу дати неприємну відповідь, бо вона правдива: такого дослідження ніхто не проводив. Немає жодного рандомізованого дослідження інтервального голодування, створеного саме для жінок у перименопаузі — ні з діабетом, ні без нього. Ні маленького. Ні поганого. Кілька досліджень у жінок 40–60 років включали й учасниць у перименопаузі, але жодне не було сплановане, щоб відповісти на це питання."
       },
       {
         "t": "p",
-        "text": "Найближче до теми — [наративний огляд, опублікований у Nutrients у квітні 2026 року](https://doi.org/10.3390/nu18091344), який розглядав, чим відрізняється реакція чоловіків і жінок на голодування під час менопаузального переходу. Його заспокійливий висновок: ранні побоювання, що голодування порушує жіночі гормони, не підтвердилися свіжішими даними, а в жінок у постменопаузі результати були непогані — особливо в поєднанні з фізичною активністю. Але наративний огляд — це переказ чужих робіт, а не дослідження, і постменопауза — це не перименопауза. У перименопаузі гормони коливаються, а не стабілізувалися, і саме цю фазу ніхто не вивчав."
+        "text": "Найближче до теми — [наративний огляд, опублікований у Nutrients у квітні 2026 року](https://doi.org/10.3390/nu18091344), який розглядав, чим відрізняється реакція чоловіків і жінок на голодування під час менопаузального переходу. Його заспокійливий висновок: ранні побоювання, що голодування порушує жіночі гормони, не підтвердилися свіжішими даними, а в жінок у постменопаузі результати були непогані — особливо в поєднанні з фізичною активністю. Але наративний огляд — це переказ чужих робіт, а не дослідження, і постменопауза — це не перименопауза. У перименопаузі гормони коливаються, а не стабілізувалися, і саме на цій фазі не зосереджувалося жодне дослідження."
       },
       {
         "t": "p",
@@ -395,7 +395,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "[Рекомендації Diabetes UK щодо голодування](https://www.diabetes.org.uk/living-with-diabetes/eating/fasting) написані навколо релігійного посту, але логіка безпеки та сама, хоч якою була б ваша причина. Їхня відправна позиція вражає: якщо ви лікуєте діабет інсуліном або маєте ускладнення з боку очей, нирок чи нервів, від вас зазвичай узагалі не очікують посту. Гіпо ймовірніші, якщо ви приймаєте інсулін або інші ліки, що можуть їх спричиняти. Якщо у вас гіпо або ви відчуваєте його наближення — ви негайно перериваєте голодування і не повертаєтеся до нього того самого дня. Запитайте свою команду, чи слід вам перевіряти кетони. А якщо цукор високий, і ви при цьому не п’єте — переривайте голодування і пийте воду, бо зневоднення на тлі високої глюкози — це початок діабетичного кетоацидозу."
+        "text": "[Рекомендації Diabetes UK щодо голодування](https://www.diabetes.org.uk/living-with-diabetes/eating/fasting) написані навколо релігійного посту, але логіка безпеки та сама, хоч якою була б ваша причина. Їхня відправна позиція вражає: якщо ви лікуєте діабет інсуліном або маєте ускладнення з боку очей, нирок чи нервів, від вас зазвичай узагалі не очікують посту. Гіпо ймовірніші, якщо ви приймаєте інсулін або інші ліки, що можуть їх спричиняти. Якщо у вас гіпо або ви відчуваєте його наближення — ви негайно перериваєте голодування і не повертаєтеся до нього того самого дня. Запитайте свою команду, чи слід вам перевіряти кетони. А якщо цукор високий, і ви при цьому не п’єте — переривайте голодування і пийте воду, бо зневоднення на тлі високої глюкози підвищує ризик діабетичного кетоацидозу."
       },
       {
         "t": "p",
@@ -518,7 +518,7 @@ export default {
           {
             "claim": "У найбільшому й найновішому дослідженні харчове вікно зрівнялося з дієтологом на четвертому місяці — і ця рівність не дожила до року.",
             "detail": "Багатоцентрове австралійське дослідження на не меншу ефективність рандомізувало 247 дорослих із ризиком діабету 2 типу в групи дев’ятигодинного харчового вікна або індивідуальних консультацій дієтолога, з однаковим обсягом телемедичної підтримки в обох групах. На четвертому місяці обмежене в часі харчування було не гіршим, але й не кращим за показником HbA1c. На дванадцятому місяці верхня межа різниці перевищила поріг не меншої ефективності, тож такого висновку вже не можна було зробити. Автори зазначають, що абсолютні зміни були малими й клінічно незначущими в обох групах, а небажані явища — незначними й подібними.",
-            "cite": "Diabetologia · Рандомізоване дослідження на не меншу ефективність, вересень 2026 (Parr та ін.)",
+            "cite": "Diabetologia · Рандомізоване дослідження на не меншу ефективність, червень 2026 (Parr та ін.)",
             "url": "https://doi.org/10.1007/s00125-026-06762-x"
           },
           {
@@ -529,14 +529,14 @@ export default {
           },
           {
             "claim": "Шестимісячне дослідження при діабеті 2 типу, яке всі цитують, показало втрату ваги — але однакове зниження HbA1c в обох групах.",
-            "detail": "Це рандомізоване дослідження 2023 року в Університеті Іллінойсу в Чикаго залучило 75 дорослих із діабетом 2 типу й ожирінням (середній вік 55 років, середній HbA1c 8,1%, середній ІМТ 39; 53 зі 75 — жінки). Восьмигодинне харчове вікно дало зниження маси тіла на 3,56% порівняно з контролем за шість місяців; щоденне обмеження калорій — 1,78%, що не було статистично значущим. HbA1c знизився приблизно на 0,9 відсоткового пункту в обох активних групах, без різниці між ними, і серйозних небажаних явищ не зафіксували.",
+            "detail": "Це рандомізоване дослідження 2023 року в Університеті Іллінойсу в Чикаго залучило 75 дорослих із діабетом 2 типу й ожирінням (середній вік 55 років, середній HbA1c 8,1%, середній ІМТ 39; 53 зі 75 — жінки). Восьмигодинне харчове вікно дало зниження маси тіла на 3,56% порівняно з контролем за шість місяців; щоденне обмеження калорій — 1,78%, що не було статистично значущим. HbA1c знизився приблизно на 0,9 відсоткового пункту в обох активних групах порівняно з контролем, без різниці між ними, і серйозних небажаних явищ не зафіксували.",
             "cite": "JAMA Network Open · Рандомізоване клінічне дослідження, 2023 (Pavlou та ін.)",
             "url": "https://doi.org/10.1001/jamanetworkopen.2023.39337"
           },
           {
             "claim": "Суворіше чотиригодинне вікно покращило роботу інсуліну при ранньому діабеті 2 типу — за шість тижнів, у 39 людей.",
             "detail": "Рандомізоване перехресне дослідження в Journal of Clinical Endocrinology & Metabolism перевіряло шість тижнів режиму «20 годин голодування, 4 години їжі» у 39 дорослих із надмірною вагою та раннім діабетом 2 типу (середня тривалість хвороби 2,9 року, початковий HbA1c 6,6%). Функція бета-клітин зросла на 14%, печінкова інсулінорезистентність знизилася приблизно на 12%, HbA1c знизився на 0,32 відсоткового пункту, вага — на 3,86%. Глюкоза натще між двома умовами не відрізнялася. Двадцятигодинне щоденне голодування значно суворіше за режими, які більшість має на увазі під інтервальним голодуванням.",
-            "cite": "Journal of Clinical Endocrinology & Metabolism · Рандомізоване перехресне дослідження, 2025 (Kramer та ін.)",
+            "cite": "Journal of Clinical Endocrinology & Metabolism · Рандомізоване перехресне дослідження, 2024 (Kramer та ін.)",
             "url": "https://doi.org/10.1210/clinem/dgae594"
           },
           {
