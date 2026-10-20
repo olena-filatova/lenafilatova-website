@@ -67,6 +67,24 @@
       ]
     ]
   },
+  "/images/ada-easd-2026-type-2-diabetes-consensus.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/ada-easd-2026-type-2-diabetes-consensus-480.avif"
+      ],
+      [
+        800,
+        "/images/v/ada-easd-2026-type-2-diabetes-consensus-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/ada-easd-2026-type-2-diabetes-consensus-1200.avif"
+      ]
+    ]
+  },
   "/images/alcohol-and-blood-sugar.jpg": {
     "w": 1200,
     "h": 675,
@@ -1146,6 +1164,42 @@
       [
         1200,
         "/images/v/menopause-cost-workplace-productivity-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopause-physiological-cliff-study.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-physiological-cliff-study-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-physiological-cliff-study-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-physiological-cliff-study-1200.avif"
+      ]
+    ]
+  },
+  "/images/menopause-skin-mistaken-for-ageing.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/menopause-skin-mistaken-for-ageing-480.avif"
+      ],
+      [
+        800,
+        "/images/v/menopause-skin-mistaken-for-ageing-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/menopause-skin-mistaken-for-ageing-1200.avif"
       ]
     ]
   },
