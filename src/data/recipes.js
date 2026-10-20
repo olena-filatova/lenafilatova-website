@@ -1388,7 +1388,7 @@ export const RECIPES = [
     slug: 'salmon-asparagus-foil', dateAdded: '2026-07-10', img: '119-salmon-asparagus-foil.jpg', cat: 'main', gi: 16,
     tags: ['gluten-free', 'low-carb', 'dairy-free'],
     title: { en: 'Salmon & Asparagus Foil Parcels', ua: 'Лосось зі спаржею у фользі' },
-    why: { en: 'Salmon and asparagus baked together in foil — high in protein and omega-3, very low in carbs. Steaming in the parcel keeps everything moist with just olive oil, garlic and lemon.', ua: 'Лосось і спаржа, запечені разом у фользі — багато білка та омега-3, дуже мало вуглеводів. Приготування у конверті зберігає соковитість лише з оливковою олією, часником і лимоном.' },
+    why: { en: 'Salmon and asparagus baked together in foil — high in protein and omega-3, very low in carbs. Steaming in the parcel keeps everything moist with just olive oil, garlic and lemon.', ua: 'Лосось і спаржа, запечені разом у фользі — багато білка та омега-3, дуже мало вуглеводів. Запечене в конверті, воно лишається соковитим, а для смаку достатньо оливкової олії, часнику й лимона.' },
     nutrition: { en: 'Per serving (est.): ~220 kcal · Carbs 5 g · Fat 14 g · Protein 18 g', ua: 'На порцію (прибл.): ~220 ккал · Вуглеводи 5 г · Жири 14 г · Білки 18 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Serves 4', ua: '4 порції' } },
     ingredients: { en: ['170 g skinless salmon fillet','450 g asparagus, woody ends trimmed','2½ tbsp olive oil','2 cloves garlic, minced','1 g salt','1 g black pepper','1 lemon, thinly sliced','3 sprigs fresh dill (or thyme, rosemary or parsley)'], ua: ['170 г філе лосося без шкіри','450 г спаржі, з обрізаними жорсткими кінцями','2½ ст. л. оливкової олії','2 зубчики часнику, подрібнені','1 г солі','1 г чорного перцю','1 лимон, тонко нарізаний','3 гілочки свіжого кропу (або чебрецю, розмарину чи петрушки)'] },
@@ -1397,13 +1397,13 @@ export const RECIPES = [
   {
     slug: 'matcha-latte', dateAdded: '2026-07-10', img: '120-matcha-latte.jpg', cat: 'drink', gi: 25,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
-    imgAlt: { en: "Close-up of a white cup of pale green matcha latte, fine bubbles across the foam, on a wooden table.", ua: "Крупним планом біла чашка блідо-зеленого матча-лате з дрібними бульбашками на пінці, на дерев’яному столі." },
+    imgAlt: { en: "Close-up of a white cup of pale green matcha latte, fine bubbles across the foam, on a wooden table.", ua: "Крупним планом біла чашка блідо-зеленого матча-латте з дрібними бульбашками на пінці, на дерев’яному столі." },
     title: { en: 'Matcha Latte', ua: 'Латте з матчею' },
     why: { en: 'Matcha whisked into warm almond milk gives slow-release energy and antioxidants with only a teaspoon of maple. A gentler morning lift than sugary coffee drinks.', ua: 'Матча, збита з теплим мигдалевим молоком, дає повільну енергію та антиоксиданти лише з однією ложкою кленового сиропу. М’якший ранковий заряд, ніж солодкі кавові напої.' },
     nutrition: { en: 'Per serving (est.): ~132 kcal · Carbs 8 g · Fat 10 g · Protein 3 g', ua: 'На порцію (прибл.): ~132 ккал · Вуглеводи 8 г · Жири 10 г · Білки 3 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '5 min', ua: '5 хв' }, serves: { en: 'Serves 1', ua: '1 порція' } },
-    ingredients: { en: ['1 tbsp matcha powder','240 ml (1 cup) hot almond milk','1 tsp maple syrup (or other sweetener)','1 tsp vanilla extract','1 g cinnamon or nutmeg (optional)'], ua: ['1 ст. л. порошку матча','240 мл (1 склянка) гарячого мигдалевого молока','1 ч. л. кленового сиропу (або іншого підсолоджувача)','1 ч. л. ванільного екстракту','1 г кориці або мускатного горіха (за бажанням)'] },
-    method: { en: ['Whisk the matcha powder into the almond milk until smooth.','Stir in the maple syrup and vanilla.','Sprinkle with cinnamon or nutmeg and serve.'], ua: ['Збийте порошок матча з мигдалевим молоком до однорідності.','Вмішайте кленовий сироп і ваніль.','Посипте корицею чи мускатним горіхом і подавайте.'] }
+    ingredients: { en: ['1 tbsp matcha powder','240 ml (1 cup) hot almond milk','1 tsp maple syrup (or other sweetener)','1 tsp vanilla extract','1 g cinnamon or nutmeg (optional)'], ua: ['1 ст. л. порошку матчі','240 мл (1 склянка) гарячого мигдалевого молока','1 ч. л. кленового сиропу (або іншого підсолоджувача)','1 ч. л. ванільного екстракту','1 г кориці або мускатного горіха (за бажанням)'] },
+    method: { en: ['Whisk the matcha powder into the almond milk until smooth.','Stir in the maple syrup and vanilla.','Sprinkle with cinnamon or nutmeg and serve.'], ua: ['Збийте порошок матчі з мигдалевим молоком до однорідності.','Вмішайте кленовий сироп і ваніль.','Посипте корицею чи мускатним горіхом і подавайте.'] }
   },
   {
     slug: 'turmeric-latte', dateAdded: '2026-07-10', img: '121-turmeric-latte.jpg', cat: 'drink', gi: 25,
