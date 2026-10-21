@@ -1428,22 +1428,22 @@ export const RECIPES = [
   {
     slug: 'yerba-mate', dateAdded: '2026-07-10', img: '123-yerba-mate.jpg', cat: 'drink', gi: 50,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
-    title: { en: 'Yerba Mate with Lemon & Honey', ua: 'Йерба мате з лимоном і медом' },
-    why: { en: 'A gently energising South American tea, brewed and finished with lemon and a teaspoon of honey. Naturally sugar-light and caffeine-moderate — a cleaner pick-me-up.', ua: 'М’яко бадьорливий південноамериканський чай, заварений і доповнений лимоном та ложкою меду. Природно з малою кількістю цукру й помірним кофеїном — чистіший заряд бадьорості.' },
+    title: { en: 'Yerba Mate with Lemon & Honey', ua: 'Єрба мате з лимоном і медом' },
+    why: { en: 'A gently energising South American tea, brewed and finished with lemon and a teaspoon of honey. Naturally sugar-light and caffeine-moderate — a cleaner pick-me-up.', ua: 'Південноамериканський чай, що м’яко бадьорить: заварюємо його й додаємо лимон та чайну ложку меду. Цукру тут від природи мало, а кофеїну — помірно, тож це «чистіший» заряд бадьорості.' },
     nutrition: { en: 'Per serving (est.): ~25 kcal · Carbs 6 g · Fat 0 g · Protein 0 g', ua: 'На порцію (прибл.): ~25 ккал · Вуглеводи 6 г · Жири 0 г · Білки 0 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '5 min steeping', ua: '5 хв настоювання' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['1–2 g loose-leaf mate tea','230 g hot water (not boiling)','Juice of 1 lemon','1 tsp honey'], ua: ['1–2 г розсипного чаю мате','230 г гарячої води (не окропу)','Сік 1 лимона','1 ч. л. меду'] },
-    method: { en: ['Brew the tea per the packet instructions in 230 ml hot (not boiling) water.','Let it steep.','Stir in the honey and lemon, and serve.'], ua: ['Заваріть чай за інструкцією на упаковці у 230 мл гарячої (не кип’ячої) води.','Дайте настоятися.','Вмішайте мед і лимон та подавайте.'] }
+    method: { en: ['Brew the tea per the packet instructions in 230 ml hot (not boiling) water.','Let it steep.','Stir in the honey and lemon, and serve.'], ua: ['Заваріть чай за інструкцією на упаковці у 230 мл гарячої води (не окропу).','Дайте настоятися.','Додайте мед і лимонний сік, перемішайте й подавайте.'] }
   },
   {
     slug: 'london-fog', dateAdded: '2026-07-10', img: '124-london-fog.jpg', cat: 'drink', gi: 51,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
-    title: { en: 'London Fog (Earl Grey Latte)', ua: 'Лондонський туман (латте з бергамотом)' },
-    why: { en: 'Earl Grey steeped and blended with almond milk and vanilla, sweetened with just a teaspoon of honey. A comforting, low-sugar alternative to a café latte.', ua: 'Чай з бергамотом, заварений і збитий із мигдалевим молоком та ваніллю, підсолоджений лише ложкою меду. Затишна альтернатива кавовому латте з малим вмістом цукру.' },
+    title: { en: 'London Fog (Earl Grey Latte)', ua: 'Лондонський туман (латте з чаю Ерл Грей)' },
+    why: { en: 'Earl Grey steeped and blended with almond milk and vanilla, sweetened with just a teaspoon of honey. A comforting, low-sugar alternative to a café latte.', ua: 'Чай Ерл Грей, заварений і збитий із мигдалевим молоком та ваніллю й підсолоджений лише чайною ложкою меду. Затишна альтернатива латте з кав’ярні — і цукру в ній зовсім мало.' },
     nutrition: { en: 'Per serving (est.): ~45 kcal · Carbs 6 g · Fat 2 g · Protein 1 g', ua: 'На порцію (прибл.): ~45 ккал · Вуглеводи 6 г · Жири 2 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '7 min', ua: '7 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['1–2 g Earl Grey tea','120 g water','230 g almond milk','1 tsp honey','1 vanilla pod (optional)'], ua: ['1–2 г чаю Ерл Грей','120 г води','230 г мигдалевого молока','1 ч. л. меду','1 стручок ванілі (за бажанням)'] },
-    method: { en: ['Steep the tea in the hot water for 5 minutes.','Pour the tea into a blender and blend with the remaining ingredients until frothy.'], ua: ['Заваріть чай у гарячій воді 5 хвилин.','Перелийте чай у блендер і збийте з рештою інгредієнтів до пінистості.'] }
+    method: { en: ['Steep the tea in the hot water for 5 minutes.','Pour the tea into a blender and blend with the remaining ingredients until frothy.'], ua: ['Залийте чай гарячою водою й дайте настоятися 5 хвилин.','Перелийте чай у блендер і збийте з рештою інгредієнтів до утворення піни.'] }
   },
   {
     slug: 'ginger-milk-cocktail', dateAdded: '2026-07-10', img: '125-ginger-milk-cocktail.jpg', cat: 'drink', gi: 35,
