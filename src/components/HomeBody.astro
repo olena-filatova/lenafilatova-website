@@ -345,6 +345,24 @@ const toolHref = (card) => {
   /* the block's overhang drives the caption offset, so they cannot collide */
   .ed-cap { position: relative; z-index: 3; background: var(--bg); margin: calc(var(--peek) + 18px) 0 0; padding-left: 12px; border-left: 2px solid var(--accent); font-family: var(--font-head); font-style: italic; font-size: var(--fs-small); }
 
+  /* OPS-535 — the portrait sat after the lead, both buttons and the
+     disclaimer, so the first screen of the homepage had no face in it at all.
+     On a phone it moves to the top and becomes a round portrait with the note
+     set beside it, which reads as a byline rather than a picture block, and
+     costs about 110px of height instead of 230. The magenta block belongs to
+     the tall portrait and is dropped here — at this size it only crowded the
+     circle. Everything is scoped to the phone so the two-column hero from
+     720px up is untouched. */
+  @media (max-width: 719.98px) {
+    .ed-hero-lay { display: flex; flex-direction: column; }
+    .ed-portrait { order: -1; display: flex; align-items: center; gap: 14px; margin: 0 0 22px; }
+    .ed-shot { flex: none; width: 96px; max-width: none; }
+    .ed-frame { aspect-ratio: 1; border-radius: 50%; }
+    .ed-frame img { object-position: 50% 12%; }
+    .ed-blk { display: none; }
+    .ed-cap { flex: 1; min-width: 0; margin: 0; }
+  }
+
   /* OPS-503: most-read band. Deliberately a list and not the blog hub's
      article card: three of the six rows are tools and hub pages that have no
      photograph, and a card grid with half its picture boxes empty reads as

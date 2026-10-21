@@ -88,6 +88,16 @@ const NAV_ITEMS = [
     {/* Also in the burger, spelled out: the icon is discoverable for people
         who look for one, this is for people who read the menu. */}
     <a href={`${L}search/`} class={isHere(`${L}search/`) ? 'active' : undefined} aria-current={isHere(`${L}search/`) ? 'page' : undefined}>{s.label}</a>
+    {/* OPS-535 — recipe pages hide the header's EN/UA pair below 560px to keep
+        room for the wordmark beside the shopping-list button, so the switch
+        comes into the burger on exactly those pages. Rendered only there, so
+        no page offers it twice; the stylesheet hides it above the breakpoint. */}
+    {showList ? (
+      <span class="mobile-lang">
+        <a href={enTo} class={lang === 'en' ? 'on' : ''}>EN</a>
+        <a href={uaTo} class={lang === 'ua' ? 'on' : ''}>UA</a>
+      </span>
+    ) : null}
     <a class="btn" href="#newsletter">{t.subscribe}</a>
   </nav>
   <SearchPanel lang={lang} />

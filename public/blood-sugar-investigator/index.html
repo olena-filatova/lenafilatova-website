@@ -658,6 +658,13 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
 /* ── newsletter ───────────────────────────────────────────────────────── */
 .lf-nl { padding: 56px 0 0; }
 .lf-nl-box { background: var(--ink); padding: clamp(28px, 5vw, 48px); text-align: center; }
+/* OPS-535 — kept in step with the .newsletter .nl-box rules in global.css:
+   centred body copy is hard to read on a phone, so the prose goes left below
+   the two-column breakpoint and only the heading stays centred. */
+@media (max-width: 719.98px) {
+  .lf-nl-box { text-align: left; }
+  .lf-nl-box h2, .lf-nl-box .lf-nl-title { text-align: center; }
+}
 .lf-nl-kicker {
   font-family: var(--font-body); font-size: 10.5px; font-weight: 800;
   letter-spacing: 0.22em; text-transform: uppercase; color: #E39BBA; margin: 0 0 10px;
