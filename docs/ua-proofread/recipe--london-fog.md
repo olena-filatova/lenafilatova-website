@@ -1,7 +1,7 @@
 # UA proofread: recipe--london-fog
 
 - Last checked: 2026-10-21
-- PR: (see PR titled "UA proofread: recipe--yerba-mate, recipe--london-fog")
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/428
 - Notes: 4 fixes. Title and `why` now name Earl Grey («чай Ерл Грей», as in the
   ingredient list) instead of a generic «чай з бергамотом»; «ложкою меду» → «чайною
   ложкою меду» (EN "a teaspoon"); ambiguous «альтернатива кавовому латте з малим
