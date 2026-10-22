@@ -15,17 +15,21 @@ export default {
     "title": "People on GLP-1 weight-loss drugs moved less, not more — a wearable-data study, not yet peer-reviewed",
     "seoTitle": "GLP-1 Users Moved Less, Not More: Fitbit Study",
     "metaDesc": "A Fitbit study of 753 adults found daily steps and exercise fell after starting Ozempic-style GLP-1 drugs. Why movement matters for holding on to muscle.",
-    "excerpt": "Tracking 753 adults’ wearable data, researchers found daily steps and exercise fell after starting Ozempic-style drugs — a concern for muscle, especially in women over 40.",
+    "excerpt": "Tracking 753 adults’ wearable data — almost four in five of them women, average age 52 — researchers found daily steps and exercise fell after starting Ozempic-style drugs. A concern for muscle at exactly the age it is hardest to hold on to.",
     "meta": "10 July 2026 · 3 min read",
     "lead": "Weight-loss injections like Ozempic and Wegovy are reshaping bodies fast — but new data suggest they may also, quietly, be making people move less.",
     "blocks": [
       {
         "t": "p",
-        "text": "Researchers used wearable-tracker data from 753 adults with obesity in the NIH’s All of Us programme, comparing their activity before and after they started a GLP-1 medication (the class that includes semaglutide and tirzepatide — Ozempic, Wegovy and Mounjaro)."
+        "text": "Researchers looked at 1,950 adults with obesity who started a GLP-1 medication (the class that includes semaglutide and tirzepatide — Ozempic, Wegovy and Mounjaro), and had enough wearable-tracker data on 753 of them to compare activity before and after treatment began. The data come from the NIH’s All of Us programme, which links medical records to Fitbit readings."
       },
       {
         "t": "p",
-        "text": "After starting the drug, average daily steps fell from about 5,047 to 4,487 — a drop of 560 steps a day. Time spent in moderate-to-vigorous exercise also fell, from roughly 28 to 22 minutes a day. The declines were steepest in men and in people with musculoskeletal pain."
+        "text": "One detail makes this study unusually relevant here: the group analysed was 78.6% women, with a mean age of 52.7 years. This was, in effect, a study of women in midlife — the age at which most women are in or just past the menopause transition."
+      },
+      {
+        "t": "p",
+        "text": "After starting the drug, average daily steps fell from about 5,047 to 4,487 — a drop of 560 steps a day. Time spent in moderate-to-vigorous exercise also fell, from roughly 28 to 22 minutes a day. The steepest declines showed up in men and in people with joint or muscle pain — though men were only about one in five of this group, so that comparison rests on far fewer people than the headline figures do. Age, heart failure and previous stroke made no difference to the result."
       },
       {
         "t": "p",
@@ -47,8 +51,14 @@ export default {
         "t": "refs",
         "items": [
           {
+            "claim": "The study group was mostly women in their early fifties.",
+            "detail": "The Endocrine Society’s own announcement of the work gives the composition of the analysed sample: 753 people with usable wearable data, 78.6% female, mean age 52.7 years, drawn from 1,950 adults with obesity who began a GLP-1 medication. The researchers’ conclusion was that exercise “cannot be optional” for people taking these medicines.",
+            "cite": "Endocrine Society · ENDO 2026 announcement",
+            "url": "https://www.endocrine.org/news-and-advocacy/news-room/2026/maharjan-press-release-endo-2026"
+          },
+          {
             "claim": "Physical activity fell after starting a GLP-1 drug.",
-            "detail": "A study presented at ENDO 2026 (the Endocrine Society’s annual meeting) analysed wearable-device data from 753 adults with obesity in the NIH All of Us Research Program. After starting a GLP-1 receptor agonist, mean daily steps fell from 5,047 to 4,487 (−560 steps/day) and moderate-to-vigorous activity fell from 27.9 to 22.2 minutes/day (−5.7 min/day); both changes were statistically significant. Declines were largest in men and those with musculoskeletal pain. The work was a conference presentation and not yet peer-reviewed.",
+            "detail": "A retrospective pre–post cohort study presented at ENDO 2026 (the Endocrine Society’s annual meeting, 13 June 2026) by Sajana Maharjan, M.D., of HSHS St. John’s Hospital, Springfield, Illinois. Of 1,950 adults with obesity who started a GLP-1 receptor agonist, 753 had sufficient Fitbit data for analysis via the NIH All of Us Research Program; that analysed group was 78.6% female with a mean age of 52.7 years. Mean daily steps fell from 5,047 to 4,487 (−560 steps/day) and moderate-to-vigorous activity from 27.9 to 22.2 minutes/day (−5.7 min/day); both changes were statistically significant. The largest declines were in men and in those with joint or muscle pain, while age, heart failure and prior stroke did not alter the result. Each person is compared with their own earlier activity rather than with a control group, and the work was a conference presentation, not yet peer-reviewed.",
             "cite": "Endocrine Society (ENDO 2026) · Conference presentation",
             "url": "https://www.healio.com/news/endocrinology/20260613/exercise-declined-in-patients-with-obesity-after-starting-a-glp1"
           }
@@ -83,17 +93,21 @@ export default {
     "title": "Люди на препаратах GLP-1 для схуднення почали рухатися менше — дані носимих пристроїв, ще без рецензування",
     "seoTitle": "На GLP-1 люди рухались менше: дані Fitbit",
     "metaDesc": "Дані Fitbit по 753 дорослих: після початку GLP-1 (типу Ozempic) кроки й активність знизились. Чому рух критично важливий для збереження м’язів.",
-    "excerpt": "Проаналізувавши дані трекерів 753 дорослих, дослідники виявили, що після початку препаратів на кшталт Ozempic кількість кроків і тренувань падала — це загроза для м’язів, особливо в жінок після 40.",
+    "excerpt": "Проаналізувавши дані трекерів 753 дорослих — майже чотири з п’яти з них жінки із середнім віком 52 роки — дослідники виявили, що після початку препаратів на кшталт Ozempic кількість кроків і тренувань падала. Це загроза для м’язів саме в тому віці, коли їх найважче зберегти.",
     "meta": "10 липня 2026 · 3 хв читання",
     "lead": "Ін’єкції для схуднення на кшталт Ozempic і Wegovy швидко змінюють тіла — але нові дані свідчать, що вони можуть також тихо змушувати людей рухатися менше.",
     "blocks": [
       {
         "t": "p",
-        "text": "Дослідники скористалися даними носимих трекерів 753 дорослих з ожирінням у програмі All of Us Національних інститутів здоров’я США, порівнявши їхню активність до та після початку препарату GLP-1 (клас, що охоплює семаглутид і тирзепатид — Ozempic, Wegovy та Mounjaro)."
+        "text": "Дослідники розглянули 1950 дорослих з ожирінням, які почали препарат GLP-1 (клас, що охоплює семаглутид і тирзепатид — Ozempic, Wegovy та Mounjaro), і для 753 із них мали достатньо даних носимих трекерів, щоб порівняти активність до та після початку лікування. Дані взяті з програми All of Us Національних інститутів здоров’я США, яка поєднує медичні записи з показниками Fitbit."
       },
       {
         "t": "p",
-        "text": "Після початку препарату середня кількість кроків на день впала приблизно з 5047 до 4487 — на 560 кроків. Час фізичної активності помірної та високої інтенсивності також зменшився — приблизно з 28 до 22 хвилин на день. Найбільше падіння було в чоловіків і в людей із болем опорно-рухового апарату."
+        "text": "Одна деталь робить це дослідження особливо дотичним до нашої теми: серед проаналізованої групи було 78,6% жінок, а середній вік становив 52,7 року. Це фактично було дослідження жінок середнього віку — саме того віку, коли більшість жінок перебуває у переході до менопаузи або щойно його пройшла."
+      },
+      {
+        "t": "p",
+        "text": "Після початку препарату середня кількість кроків на день впала приблизно з 5047 до 4487 — на 560 кроків. Час фізичної активності помірної та високої інтенсивності також зменшився — приблизно з 28 до 22 хвилин на день. Найбільше падіння спостерігали в чоловіків і в людей із болем у суглобах або м’язах — проте чоловіки становили лише приблизно одну п’яту цієї групи, тому те порівняння спирається на значно менше людей, ніж головні цифри. Вік, серцева недостатність та перенесений інсульт на результат не вплинули."
       },
       {
         "t": "p",
@@ -115,8 +129,14 @@ export default {
         "t": "refs",
         "items": [
           {
+            "claim": "Група дослідження складалася переважно з жінок за п’ятдесят.",
+            "detail": "Власне повідомлення Ендокринного товариства про цю роботу подає склад проаналізованої вибірки: 753 людини з придатними даними носимих пристроїв, 78,6% жінок, середній вік 52,7 року — із 1950 дорослих з ожирінням, які почали препарат GLP-1. Висновок дослідників: для людей на цих ліках тренування «не можуть бути необов’язковими».",
+            "cite": "Ендокринне товариство · повідомлення ENDO 2026",
+            "url": "https://www.endocrine.org/news-and-advocacy/news-room/2026/maharjan-press-release-endo-2026"
+          },
+          {
             "claim": "Фізична активність упала після початку препарату GLP-1.",
-            "detail": "Дослідження, представлене на ENDO 2026 (щорічній зустрічі Ендокринного товариства), проаналізувало дані носимих пристроїв 753 дорослих з ожирінням у програмі NIH All of Us. Після початку агоніста рецепторів GLP-1 середня кількість кроків на день впала з 5047 до 4487 (−560 кроків/день), а активність помірної та високої інтенсивності — з 27,9 до 22,2 хвилини/день (−5,7 хв/день); обидві зміни були статистично значущими. Найбільше падіння спостерігали в чоловіків і людей із болем опорно-рухового апарату. Робота була доповіддю на конференції та ще не рецензована.",
+            "detail": "Ретроспективне когортне дослідження за схемою «до і після», представлене на ENDO 2026 (щорічній зустрічі Ендокринного товариства, 13 червня 2026) Саджаною Махарджан, м.д., з лікарні HSHS St. John’s (Спрінгфілд, Іллінойс). Із 1950 дорослих з ожирінням, які почали агоніст рецепторів GLP-1, 753 мали достатньо даних Fitbit у програмі NIH All of Us; у цій проаналізованій групі було 78,6% жінок із середнім віком 52,7 року. Середня кількість кроків на день впала з 5047 до 4487 (−560 кроків/день), а помірна-до-інтенсивної активність — з 27,9 до 22,2 хвилини/день (−5,7 хв/день); обидві зміни були статистично значущими. Найбільше падіння — в чоловіків і людей із болем у суглобах або м’язах, тоді як вік, серцева недостатність і перенесений інсульт результату не змінювали. Кожну людину порівнюють із її ж ранішою активністю, а не з контрольною групою; робота була доповіддю на конференції та ще не рецензована.",
             "cite": "Ендокринне товариство (ENDO 2026) · Доповідь на конференції",
             "url": "https://www.healio.com/news/endocrinology/20260613/exercise-declined-in-patients-with-obesity-after-starting-a-glp1"
           }
