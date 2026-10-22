@@ -1509,21 +1509,21 @@ export const RECIPES = [
     slug: 'pineapple-citrus-sorbet', dateAdded: '2026-07-10', img: '131-pineapple-citrus-sorbet.jpg', cat: 'dessert', gi: 51,
     tags: ['sugar-free', 'gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Pineapple & Citrus Sorbet', ua: 'Ананасово-цитрусовий сорбет' },
-    why: { en: 'Whole pineapple and oranges blended and frozen — no added sugar, just stevia and a drop of rum extract. Fruit fibre keeps it lighter on blood sugar than a shop sorbet.', ua: 'Цілий ананас та апельсини, збиті й заморожені — без доданого цукру, лише стевія та крапля ромового екстракту. Клітковина фруктів робить його легшим для цукру, ніж магазинний сорбет.' },
+    why: { en: 'Whole pineapple and oranges blended and frozen — no added sugar, just stevia and a drop of rum extract. Fruit fibre keeps it lighter on blood sugar than a shop sorbet.', ua: 'Цілий ананас та апельсини, збиті й заморожені — без доданого цукру, лише стевія та крапля ромового екстракту. Завдяки клітковині фруктів він м’якше впливає на рівень цукру в крові, ніж магазинний сорбет.' },
     nutrition: { en: 'Per serving (est.): ~120 kcal · Carbs 29 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~120 ккал · Вуглеводи 29 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Freeze overnight', ua: 'Заморозка на ніч' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['500 g chopped pineapple in its own juice','230 g oranges or mandarins','120 ml (½ cup) water','2 tsp stevia','2 tsp rum extract'], ua: ['500 г нарізаного ананаса у власному соку','230 г апельсинів або мандаринів','120 мл (½ склянки) води','2 ч. л. стевії','2 ч. л. ромового екстракту'] },
-    method: { en: ['Blend all the ingredients until smooth.','Pour into a freezer-proof container and freeze overnight.','Scoop into bowls and serve straight away.'], ua: ['Збийте всі інгредієнти до однорідності.','Перелийте в ємність для морозилки та заморозьте на ніч.','Розкладіть по мисках і подавайте одразу.'] }
+    method: { en: ['Blend all the ingredients until smooth.','Pour into a freezer-proof container and freeze overnight.','Scoop into bowls and serve straight away.'], ua: ['Збийте всі інгредієнти до однорідності.','Перелийте в ємність для морозилки та заморозьте на ніч.','Розкладіть кульками по піалах і одразу подавайте.'] }
   },
   {
     slug: 'yogurt-chia-pudding', dateAdded: '2026-07-10', img: '132-yogurt-chia-pudding.jpg', cat: 'breakfast', gi: 33,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
-    title: { en: 'Yoghurt & Chia Pudding', ua: 'Йогуртовий пудинг з чіа' },
-    why: { en: 'Greek yoghurt and chia set overnight into a protein-and-fibre pudding, sweetened with stevia. The chia slows digestion, making it a steady, blood-sugar-friendly breakfast.', ua: 'Грецький йогурт і чіа за ніч перетворюються на пудинг, багатий білком і клітковиною, підсолоджений стевією. Чіа сповільнює травлення, тож це стабільний, дружній до цукру сніданок.' },
+    title: { en: 'Yoghurt & Chia Pudding', ua: 'Йогуртовий пудинг із чіа' },
+    why: { en: 'Greek yoghurt and chia set overnight into a protein-and-fibre pudding, sweetened with stevia. The chia slows digestion, making it a steady, blood-sugar-friendly breakfast.', ua: 'Грецький йогурт і чіа за ніч застигають у пудинг, багатий на білок і клітковину; підсолоджує його стевія. Чіа сповільнює травлення, тож такий сніданок не спричиняє різких стрибків цукру в крові.' },
     nutrition: { en: 'Per serving (est.): ~127 kcal · Carbs 13 g · Fat 6 g · Protein 5 g', ua: 'На порцію (прибл.): ~127 ккал · Вуглеводи 13 г · Жири 6 г · Білки 5 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'Chill 4 h', ua: 'Охолодження 4 год' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['120 ml (½ cup) fat-free Greek yoghurt','2 tbsp chia seeds','120 ml (½ cup) fat-free milk','⅛ tsp vanilla extract','⅛ tsp cinnamon','⅓ tsp stevia','1 handful nuts, berries or fresh fruit (optional)'], ua: ['120 мл (½ склянки) знежиреного грецького йогурту','2 ст. л. насіння чіа','120 мл (½ склянки) знежиреного молока','⅛ ч. л. ванільного екстракту','⅛ ч. л. кориці','⅓ ч. л. стевії','1 жменя горіхів, ягід або свіжих фруктів (за бажанням)'] },
-    method: { en: ['Mix all the ingredients together, sweetening to taste.','Cover and refrigerate for 4 hours (or overnight).','Serve topped with berries, nuts and fresh fruit — good as breakfast, a snack or dessert.'], ua: ['Змішайте всі інгредієнти, підсолодивши за смаком.','Накрийте та охолоджуйте 4 години (або на ніч).','Подавайте з ягодами, горіхами та свіжими фруктами — добре на сніданок, перекус чи десерт.'] }
+    method: { en: ['Mix all the ingredients together, sweetening to taste.','Cover and refrigerate for 4 hours (or overnight).','Serve topped with berries, nuts and fresh fruit — good as breakfast, a snack or dessert.'], ua: ['Змішайте всі інгредієнти, підсолодивши за смаком.','Накрийте й поставте в холодильник на 4 години (або на ніч).','Подавайте з ягодами, горіхами та свіжими фруктами — пасує на сніданок, перекус чи десерт.'] }
   },
   {
     slug: 'easter-kulich-yeast-free', dateAdded: '2026-07-10', img: '133-easter-kulich-yeast-free.jpg', cat: 'baking', gi: 41,
