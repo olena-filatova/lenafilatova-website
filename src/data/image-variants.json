@@ -1383,6 +1383,24 @@
       ]
     ]
   },
+  "/images/omega-3-supplement-everyone-1000mg.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/omega-3-supplement-everyone-1000mg-480.avif"
+      ],
+      [
+        800,
+        "/images/v/omega-3-supplement-everyone-1000mg-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/omega-3-supplement-everyone-1000mg-1200.avif"
+      ]
+    ]
+  },
   "/images/omega-3-weight-loss-gut-microbiome.jpg": {
     "w": 1200,
     "h": 675,
