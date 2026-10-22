@@ -4,7 +4,7 @@ import TagPageBody from '../../../../components/TagPageBody.astro';
 import { POSTS } from '../../../../data/blog.js';
 import { hasHero } from '../../../../data/blog-lib.js';
 import DIMS from '../../../../data/image-dims.json';
-import { resolveTags, tagJsonLd, tagPath, UI, MIN_INDEXABLE } from '../../../../data/tags-lib.js';
+import { resolveTags, tagJsonLd, tagPath, UI, isIndexable } from '../../../../data/tags-lib.js';
 
 export function getStaticPaths() {
   return resolveTags(POSTS).map((tag) => ({ params: { tag: tag.key }, props: { tag } }));
@@ -23,7 +23,7 @@ const label = tag.ua;
   ogImage={hasHero(tag.resolved[0], DIMS) ? tag.resolved[0].image : undefined}
   jsonld={tagJsonLd(tag, 'ua', t)}
   alternates={{ en: tagPath('en', tag.key), ua: tagPath('ua', tag.key) }}
-  noindex={tag.count < MIN_INDEXABLE}
+  noindex={!isIndexable(tag)}
   enHref={`${B.replace(/\/$/, '')}${tagPath('en', tag.key)}`}
   uaHref={`${B.replace(/\/$/, '')}${tagPath('ua', tag.key)}`}>
   <TagPageBody tag={tag} lang="ua" />
