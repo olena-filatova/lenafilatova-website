@@ -1,8 +1,8 @@
 # UA proofread: recipe--easter-kulich-coconut-flour
 
 - Last checked: 2026-10-22
-- PR: PR_LINK
-- Notes: 6 fixes — `why`: EN "grain-free" was rendered «безглютеновий»
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/436
+- Notes: 7 fixes — `why`: EN "grain-free" was rendered «безглютеновий»
   (different meaning) → «без зернових», and the clumsy «що роблять його ситним і
   з низьким ГІ» rewritten; `imgAlt` «сухих волошок» → «сушених»; `method`:
   «інгредієнти куличу» → «інгредієнти для кулича», «форму з пергаментом» →
