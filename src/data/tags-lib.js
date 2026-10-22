@@ -55,6 +55,21 @@ export const UI = {
 // indexed until it has enough on it.
 export const MIN_INDEXABLE = 3;
 
+// ...and enough articles is no longer enough on its own (OPS-498). A month
+// after they were submitted, Google had crawled none of fourteen of these
+// archives — which is Google's own verdict on a listing whose only original
+// words are a generated sentence. Worse, every one of them carries a meta
+// description shaped like its own best article's ("N articles on protein for
+// women over 40"), so the archive competes with the answer for the same
+// search and the reader who lands on the winner gets a list either way.
+//
+// So a tag page now earns indexing by having something of its own to say: a
+// hand-written `intro` in tags.js. Write one for a tag and its page goes back
+// into the sitemap and drops the `noindex` on the next deploy, with nothing
+// else to edit. Nothing changes for readers — the pages stay live, linked
+// from the cloud and from every post's "Filed under" line.
+export const isIndexable = (tag) => tag.count >= MIN_INDEXABLE && Boolean(tag.intro);
+
 export const tagPath = (lang, key) => `${lang === 'ua' ? '/ua' : ''}/blog/tag/${key}/`;
 export const tagUrl = (lang, key) => SITE + tagPath(lang, key);
 
