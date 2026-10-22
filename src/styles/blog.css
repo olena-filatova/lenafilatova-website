@@ -450,6 +450,18 @@
   .post .tbl-wide th:first-child,
   .post .tbl-wide td:first-child { position: static; background: transparent; min-width: 0; }
 }
+/* OPS-535 — the sideways scroll was invisible: the last column was cut off
+   dead straight at the edge, which reads as a cropped table rather than a
+   scrollable one. Same device the topics strip uses: a mask that fades the
+   right edge but stops short of transparent, so the column beyond the fold
+   is still legible while plainly reading as unfinished. The mask only
+   applies where the table actually scrolls. */
+@media (max-width: 899.98px) {
+  .post .tbl-wide {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 44px), rgba(0, 0, 0, .2));
+            mask-image: linear-gradient(to right, #000 calc(100% - 44px), rgba(0, 0, 0, .2));
+  }
+}
 
 /* --- signature / author card --- */
 /* The card is gone: a heavy rule and the portrait are enough, and it now reads

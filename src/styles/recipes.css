@@ -327,9 +327,45 @@
   font-size: var(--fs-fine); line-height: 1.55; color: var(--muted); max-width: 70ch;
 }
 
-@media (max-width: 620px) {
-  .rx .cards { grid-template-columns: 1fr; }
+/* OPS-535 — 86 recipes in a single column, each card about 480px tall, is an
+   enormous scroll, and the filters pushed the first dish below the fold. Two
+   across halves the scroll and the square photograph still carries at this
+   size; the title and caps line step down to suit the narrower card. The
+   "Load more" script reads the resolved column count, so it follows this. */
+@media (max-width: 719.98px) {
+  .rx .cards { grid-template-columns: repeat(2, 1fr); column-gap: 16px; }
+  .rx .rcard { gap: 10px; padding: 16px 0; }
+  .rx .rcard .title { font-size: var(--fs-sub); line-height: 1.22; }
+  .rx .rcard .cmeta { gap: 2px 10px; font-size: var(--fs-label-s); letter-spacing: 0.1em; }
+  .rx .gi-plaque { padding: 6px 8px 5px; }
   .rx .filter-label { min-width: 100%; }
+}
+
+/* The Type and Diet rows are a tall block of chips above the grid, so on a
+   phone they fold behind a Filter button and the dishes start higher up. The
+   button is rendered by RecipeHubBody and hidden from 720px, where the rows
+   sit on one line each and there is nothing to save. */
+.rx .filter-toggle { display: none; }
+@media (max-width: 719.98px) {
+  .rx .filter-toggle {
+    display: flex; align-items: center; gap: 8px; width: 100%;
+    margin: 0; padding: 14px 0; background: none; border: 0; border-radius: 0;
+    font-family: var(--font-body); font-size: var(--fs-label); font-weight: 800;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink);
+    cursor: pointer; text-align: left;
+  }
+  .rx .filter-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .rx .filter-toggle .ft-count {
+    font-size: var(--fs-label-s); letter-spacing: 0.1em; color: var(--accent);
+  }
+  /* The caret is the open/closed state; aria-expanded carries it for AT. */
+  .rx .filter-toggle .ft-caret { margin-left: auto; transition: transform .2s ease; }
+  .rx .filter-toggle[aria-expanded="true"] .ft-caret { transform: rotate(180deg); }
+  .rx .filter-rows[hidden] { display: none; }
+  .rx .filter-rows { padding-bottom: 6px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rx .filter-toggle .ft-caret { transition: none; }
 }
 
 /* ============================================================

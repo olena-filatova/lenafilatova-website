@@ -183,6 +183,7 @@ const T = {
   typeLabel: lang === 'ua' ? 'Тип' : 'Type',
   dietLabel: lang === 'ua' ? 'Дієта' : 'Diet',
   clear: lang === 'ua' ? 'Скинути фільтри' : 'Clear filters',
+  filterBtn: lang === 'ua' ? 'Фільтри' : 'Filter',
   more: lang === 'ua' ? 'Показати ще' : 'Load more',
   emptyH: lang === 'ua' ? 'Немає рецептів за цими фільтрами' : 'No recipes match those filters',
   emptyP: lang === 'ua' ? 'Спробуйте прибрати один фільтр.' : 'Try removing one to see more.',
@@ -243,6 +244,17 @@ const T = {
 
   <div class="wrap">
     <div class="rx-filters" id="filters">
+      {/* Phone-only control (CSS hides it from 720px). It starts expanded in
+          the markup and is collapsed by the script below, so the filters are
+          still reachable with JavaScript off. */}
+      <button class="filter-toggle" id="filterToggle" type="button"
+              aria-expanded="true" aria-controls="filterRows">
+        <span>{T.filterBtn}</span>
+        <span class="ft-count" id="filterCount" hidden></span>
+        <svg class="ft-caret" width="14" height="14" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="filter-rows" id="filterRows">
       <div class="filter-row">
         <span class="filter-label" id="flt-type">{T.typeLabel}</span>
         <div class="chips" role="group" aria-labelledby="flt-type">
@@ -259,7 +271,50 @@ const T = {
           ))}
         </div>
       </div>
+      </div>
     </div>
+
+    <script is:inline>
+      /* OPS-535 — collapse the filter rows on a phone so the first dish is in
+         the first screen. Collapsing happens here rather than in the markup so
+         that without JavaScript the rows stay open and usable. The button's
+         own visibility is CSS's business; this only runs the open/closed state
+         and keeps a count of what is active beside the label. */
+      (function () {
+        var btn = document.getElementById('filterToggle');
+        var rows = document.getElementById('filterRows');
+        var tally = document.getElementById('filterCount');
+        if (!btn || !rows) return;
+        var mq = window.matchMedia('(max-width: 719.98px)');
+
+        function set(open) {
+          rows.hidden = !open;
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        }
+        /* Below the breakpoint the rows start closed; above it they are always
+           open, because the button is not on screen to reopen them. */
+        function sync() { set(!mq.matches); }
+        sync();
+        mq.addEventListener('change', sync);
+
+        btn.addEventListener('click', function () {
+          set(rows.hidden);
+        });
+
+        /* The chips are owned by recipes.js, so the count is read off their
+           pressed state rather than duplicating the filter logic. */
+        function count() {
+          if (!tally) return;
+          var n = document.querySelectorAll('.rx .chip[aria-pressed="true"]').length;
+          tally.textContent = n ? '(' + n + ')' : '';
+          tally.hidden = !n;
+        }
+        document.addEventListener('click', function (e) {
+          if (e.target.closest('.rx .chip, .rx .clear')) setTimeout(count, 0);
+        });
+        count();
+      })();
+    </script>
 
     <div class="bar2">
       <div class="count"><b id="countNum">{PUBLISHED.length}</b> <span id="countWord">{recipeWord(PUBLISHED.length)}</span></div>
