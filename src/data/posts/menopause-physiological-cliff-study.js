@@ -17,7 +17,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "The paper was published in Nature Medicine on 12 October 2026 by Glen Pridham, Uri Alon and colleagues at the Weizmann Institute of Science in Israel. They pulled roughly 300 million laboratory results, recorded between 1999 and 2024, from two national health systems — one in the United States, one in Israel — covering about 1.3 million women. In the US dataset, 52 of the 90 routine tests they looked at showed a sudden, step-like change around menopause rather than a gradual slope. Men of the same ages showed no equivalent step, which is the authors' argument that what they are seeing belongs to menopause rather than to ageing in general."
+        "text": "The paper was published in Nature Medicine on 12 October 2026 by a team led by Glen Pridham and Uri Alon at the Weizmann Institute of Science in Israel. They pulled roughly 300 million laboratory results, recorded between 1999 and 2024, from two sources — NHANES, a long-running US national health survey, and the records of Clalit, the insurer that covers about half of Israel — together covering more than a million women, 1.3 million of them in the Israeli records. In the US dataset, 52 of the 90 routine tests they looked at showed a sudden, step-like change around menopause rather than a gradual slope. Men of the same ages showed no equivalent step, which is the authors' argument that what they are seeing belongs to menopause rather than to ageing in general."
       },
       {
         "t": "p",
@@ -25,7 +25,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Second: 52 markers shifting is not 52 things getting worse. The largest moves were in bone, liver, kidney, inflammation and blood fats — bone mineral density falls by around half a standard deviation across the population, and roughly a quarter of women have osteoporosis by 70. But iron and haemoglobin moved the other way. Once monthly bleeding stops, anaemia becomes less common, and that shows up in the same dataset as one of the abrupt changes. A \"cliff\" across the whole body is a tidier story than a list of fifty-two separate things, several of which point in opposite directions."
+        "text": "Second: 52 markers shifting is not 52 things getting worse. The largest moves were in bone, liver, blood fats and the kidney-regulated salt-and-water balance of the blood — Alon puts the drop in bone mineral density at around half a standard deviation across the population, and notes that roughly a quarter of women have osteoporosis by 70. But iron and haemoglobin moved the other way. Once monthly bleeding stops, anaemia becomes less common, and that shows up in the same dataset as one of the abrupt changes. A \"cliff\" across the whole body is a tidier story than a list of fifty-two separate things, several of which point in opposite directions."
       },
       {
         "t": "p",
@@ -33,7 +33,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Several researchers who were not involved have pushed back, and their objections are worth knowing. Martha Hickey at the University of Melbourne points out that \"physiological cliff\" is not a medical term, and that the framing implies a dramatic physical and mental decline the study does not demonstrate; she also notes that pinning down each woman's menopause from lab records alone is difficult, and that people who have lots of blood tests on file are not a random sample of women. Rebecca Thurston at Pittsburgh says there are very large amounts of missing data on key variables. Andrew Shelling in Auckland calls it interesting but not conclusive, given the design. JoAnn Manson at Harvard is more positive, saying it confirms how profound the change at the final period is. And the long-running [SWAN study](/blog/hrt-timing-heart-swan-study/), which did follow the same women year after year, has generally described these shifts as unfolding over about three years rather than one."
+        "text": "Several researchers who were not involved have pushed back, and their objections are worth knowing. Martha Hickey at the University of Melbourne points out that \"physiological cliff\" is not a medical term, and that the framing implies a dramatic physical and mental decline the study does not demonstrate; she also notes that pinning down each woman's menopause from lab records alone is difficult, and that people who have lots of blood tests on file are not a random sample of women. Rebecca Thurston at Pittsburgh says there are very large amounts of missing data on key variables. Andrew Shelling in Auckland calls it interesting but not conclusive, given the design. JoAnn Manson at Harvard is more positive, saying it confirms how profound the change at the final period is. And the long-running [SWAN study](/blog/hrt-timing-heart-swan-study/), which did follow the same women year after year, found the fastest bone loss unfolding over about three years — from roughly a year before the final period to two years after — rather than one."
       },
       {
         "t": "p",
@@ -48,8 +48,8 @@ export default {
         "items": [
           {
             "claim": "Dozens of routine blood and bone measures change abruptly around the final menstrual period rather than drifting gradually, and men show no equivalent step.",
-            "detail": "The team applied a temporal deconvolution method, adapted from astronomy, to reconstruct biological trajectories relative to the final menstrual period from cross-sectional data, because that date is rarely recorded in large health datasets. They analysed approximately 300 million laboratory tests from about 1.3 million women across two national cohorts, one in the United States and one in Israel, covering 1999 to 2024. In the US cohort, 52 of the 90 tests examined showed statistically significant step-like changes, spanning endocrine, skeletal, hepatic, renal, inflammatory and lipid systems. The pattern was consistent across the two independent populations and absent in men of comparable ages. The design is retrospective and cross-sectional: no participant was followed through her own transition.",
-            "cite": "Pridham G, Hayut Y, Lavi-Shoseyov N, Neeman M, Hovav N, Toledano Y, Alon U · Nature Medicine, 12 October 2026",
+            "detail": "The team applied a temporal deconvolution method, adapted from astronomy, to reconstruct biological trajectories relative to the final menstrual period from cross-sectional data, because that date is rarely recorded in large health datasets. They analysed approximately 300 million laboratory tests from more than a million women in two cohorts: the US National Health and Nutrition Examination Survey (NHANES, 1999–2022) and records from the Israeli health insurer Clalit (1.3 million women aged 30–70, 2004–2024). In the US cohort, 52 of the 90 tests examined showed statistically significant step-like changes, spanning endocrine, skeletal, hepatic, renal and lipid systems. The pattern was consistent across the two independent populations and absent in men of comparable ages. The design is retrospective and cross-sectional: no participant was followed through her own transition.",
+            "cite": "Pridham G, Hayut Y, Lavi-Shoseyov N, Neeman M, Hovav N, Toledano Y, Alon U · Nature Medicine 32:3823–3831, published online 12 October 2026",
             "url": "https://doi.org/10.1038/s41591-026-04614-0"
           },
           {
@@ -60,7 +60,7 @@ export default {
           },
           {
             "claim": "The hormonal run-up begins more than a decade before the final period: AMH about 15 years out, FSH about 14, oestradiol about 12.",
-            "detail": "The authors report that dysregulation begins well over a decade before the final menstrual period, with anti-Müllerian hormone declining from roughly 15 years before, follicle-stimulating hormone rising from roughly 14 years before, and oestradiol declining from roughly 12 years before. Alon describes the overall shape as gradual change starting about a decade before menopause on average, accelerating in the final years, and then a jump within the year of the final period — so the paper reports a long slope and a step, not one instead of the other.",
+            "detail": "The authors report that dysregulation begins well over a decade before the final menstrual period, with anti-Müllerian hormone declining from roughly 15 years before, follicle-stimulating hormone rising from roughly 14 years before, and oestradiol declining from roughly 12 years before. Alon, interviewed by Newsweek, describes the overall shape as gradual change starting about a decade before menopause on average, accelerating in the final years, and then a jump within the year of the final period — so the paper reports a long slope and a step, not one instead of the other.",
             "cite": "Pridham G, Hayut Y, Lavi-Shoseyov N, et al. · Preprint, arXiv:2511.05906",
             "url": "https://arxiv.org/abs/2511.05906"
           },
@@ -73,7 +73,7 @@ export default {
           {
             "claim": "Independent researchers accept the measurements but dispute the \"cliff\" framing and flag the study's design.",
             "detail": "Martha Hickey (University of Melbourne) states that \"physiological cliff\" is not a scientific or medical term, that the framing implies a dramatic physical and mental decline the study does not demonstrate, and that the retrospective cross-sectional design, the difficulty of establishing each woman's date of menopause from laboratory records, and probable over-representation of women with existing health concerns all limit the strength of the evidence. Rebecca Thurston (University of Pittsburgh) notes very large amounts of missing data on key variables and cautions that hormone therapy is not a magic bullet. Andrew Shelling (University of Auckland) describes the results as interesting but not conclusive because the study is observational, while allowing that the method offers a useful framework for future work. Mia Schaumberg (University of the Sunshine Coast) observes that the systems showing the largest changes are those already known to be most oestrogen-sensitive. JoAnn Manson (Harvard) is supportive, saying the study confirms the profound physiological changes women experience at the final menstrual period.",
-            "cite": "Science Media Centre expert reaction, via ScienceAlert and Starts at 60 · October 2026",
+            "cite": "Expert comment reported by ScienceAlert, Starts at 60 and Newsweek · October 2026",
             "url": "https://www.sciencealert.com/bones-liver-and-blood-fats-all-shift-abruptly-at-menopause-huge-study-finds"
           }
         ]
@@ -98,7 +98,7 @@ export default {
     "faq": [
       {
         "q": "Does my health fall off a cliff the year my periods stop?",
-        "a": "That is not what the study shows, and it is the specific reading researchers have objected to. What it reports is that a set of laboratory measurements step rather than slope at that point — in bone, liver, kidney, inflammation and blood fats — while others do not move at all, and a few move in the favourable direction. It says nothing about how you feel, how you function, or what happens to you as a person; none of those were measured. The same paper also describes hormonal change starting 12 to 15 years earlier, so even on its own terms the final period is the end of a long process, not the start of one. Treat it as a reason to pay attention to bone in your forties, not as a date to dread."
+        "a": "That is not what the study shows, and it is the specific reading researchers have objected to. What it reports is that a set of laboratory measurements step rather than slope at that point — in bone, liver, kidney function and blood fats — while others do not move at all, and a few move in the favourable direction. It says nothing about how you feel, how you function, or what happens to you as a person; none of those were measured. The same paper also describes hormonal change starting 12 to 15 years earlier, so even on its own terms the final period is the end of a long process, not the start of one. Treat it as a reason to pay attention to bone in your forties, not as a date to dread."
       },
       {
         "q": "Is this a reason to start HRT?",
@@ -118,7 +118,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Статтю опублікували в Nature Medicine 12 жовтня 2026 року: Ґлен Придем, Урі Алон і колеги з Інституту Вайцмана в Ізраїлі. Вони взяли близько 300 мільйонів лабораторних результатів, зафіксованих між 1999 і 2024 роками, із двох національних систем охорони здоров’я — у США та Ізраїлі — приблизно від 1,3 мільйона жінок. У даних США 52 з 90 рутинних аналізів, які вони розглядали, показали раптову стрибкоподібну зміну навколо менопаузи, а не поступовий нахил. У чоловіків того самого віку подібної сходинки не було — і це головний аргумент авторів на користь того, що йдеться саме про менопаузу, а не про старіння загалом."
+        "text": "Статтю опублікували в Nature Medicine 12 жовтня 2026 року: команда під керівництвом Ґлена Придема та Урі Алона з Інституту Вайцмана в Ізраїлі. Вони взяли близько 300 мільйонів лабораторних результатів, зафіксованих між 1999 і 2024 роками, із двох джерел — NHANES, багаторічного національного обстеження здоров’я в США, і записів Clalit, страхової каси, що охоплює приблизно половину населення Ізраїлю, — загалом понад мільйон жінок, з них 1,3 мільйона в ізраїльських записах. У даних США 52 з 90 рутинних аналізів, які вони розглядали, показали раптову стрибкоподібну зміну навколо менопаузи, а не поступовий нахил. У чоловіків того самого віку подібної сходинки не було — і це головний аргумент авторів на користь того, що йдеться саме про менопаузу, а не про старіння загалом."
       },
       {
         "t": "p",
@@ -126,7 +126,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Друге: 52 показники, що змістилися, — це не 52 речі, які погіршилися. Найбільші зрушення були в кістках, печінці, нирках, запаленні та жирах крові: мінеральна щільність кісток падає приблизно на пів стандартного відхилення на рівні популяції, і приблизно чверть жінок має остеопороз до 70 років. Але залізо й гемоглобін рушили в інший бік. Коли щомісячні кровотечі припиняються, анемія стає рідшою — і це видно в тому самому наборі даних як одна з різких змін. «Обрив» в усьому тілі — охайніша історія, ніж перелік із п’ятдесяти двох окремих речей, частина з яких спрямована в протилежні боки."
+        "text": "Друге: 52 показники, що змістилися, — це не 52 речі, які погіршилися. Найбільші зрушення були в кістках, печінці, жирах крові та водно-сольовому балансі крові, який регулюють нирки: за словами Алона, мінеральна щільність кісток падає приблизно на пів стандартного відхилення на рівні популяції, а приблизно чверть жінок має остеопороз до 70 років. Але залізо й гемоглобін рушили в інший бік. Коли щомісячні кровотечі припиняються, анемія стає рідшою — і це видно в тому самому наборі даних як одна з різких змін. «Обрив» в усьому тілі — охайніша історія, ніж перелік із п’ятдесяти двох окремих речей, частина з яких спрямована в протилежні боки."
       },
       {
         "t": "p",
@@ -134,7 +134,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Кілька дослідників, які не брали участі в роботі, виступили із запереченнями, і ці заперечення варто знати. Марта Гікі з Мельбурнського університету зазначає, що «фізіологічний обрив» — не медичний термін і що таке формулювання натякає на різкий фізичний і психічний занепад, якого дослідження не демонструє; вона також звертає увагу, що встановити момент менопаузи для кожної жінки лише з лабораторних записів складно, а люди, у яких у картці багато аналізів, не є випадковою вибіркою жінок. Ребекка Терстон з Піттсбурга каже, що за ключовими змінними бракує дуже великої частки даних. Ендрю Шеллінг з Окленда називає результати цікавими, але не остаточними — через дизайн. Джоенн Менсон з Гарварду налаштована прихильніше: на її думку, робота підтверджує, наскільки глибокими є зміни на момент останньої менструації. А багаторічне [дослідження SWAN](/ua/blog/hrt-timing-heart-swan-study/), яке таки спостерігало тих самих жінок рік за роком, зазвичай описувало ці зрушення як такі, що розгортаються приблизно за три роки, а не за один."
+        "text": "Кілька дослідників, які не брали участі в роботі, виступили із запереченнями, і ці заперечення варто знати. Марта Гікі з Мельбурнського університету зазначає, що «фізіологічний обрив» — не медичний термін і що таке формулювання натякає на різкий фізичний і психічний занепад, якого дослідження не демонструє; вона також звертає увагу, що встановити момент менопаузи для кожної жінки лише з лабораторних записів складно, а люди, у яких у картці багато аналізів, не є випадковою вибіркою жінок. Ребекка Терстон з Піттсбурга каже, що за ключовими змінними бракує дуже великої частки даних. Ендрю Шеллінг з Окленда називає результати цікавими, але не остаточними — через дизайн. Джоенн Менсон з Гарварду налаштована прихильніше: на її думку, робота підтверджує, наскільки глибокими є зміни на момент останньої менструації. А багаторічне [дослідження SWAN](/ua/blog/hrt-timing-heart-swan-study/), яке таки спостерігало тих самих жінок рік за роком, виявило, що найшвидша втрата кісткової тканини розгортається приблизно за три роки — приблизно від року до останньої менструації до двох років після неї, — а не за один."
       },
       {
         "t": "p",
@@ -149,8 +149,8 @@ export default {
         "items": [
           {
             "claim": "Десятки рутинних показників крові та кісток змінюються різко навколо останньої менструації, а не поступово, і в чоловіків подібної сходинки немає.",
-            "detail": "Команда застосувала метод часової деконволюції, адаптований з астрономії, щоб реконструювати біологічні траєкторії відносно останньої менструації з перехресних даних, бо ця дата рідко фіксується у великих масивах медичних даних. Проаналізовано приблизно 300 мільйонів лабораторних аналізів приблизно від 1,3 мільйона жінок у двох національних когортах — у США та Ізраїлі — за період з 1999 до 2024 року. У когорті США 52 з 90 розглянутих аналізів показали статистично значущі зміни типу сходинки, що охоплювали ендокринну, кісткову, печінкову, ниркову, запальну та ліпідну системи. Патерн був узгодженим у двох незалежних популяціях і відсутнім у чоловіків порівнянного віку. Дизайн ретроспективний і перехресний: жодну учасницю не спостерігали крізь її власний перехід.",
-            "cite": "Pridham G, Hayut Y, Lavi-Shoseyov N, Neeman M, Hovav N, Toledano Y, Alon U · Nature Medicine, 12 жовтня 2026",
+            "detail": "Команда застосувала метод часової деконволюції, адаптований з астрономії, щоб реконструювати біологічні траєкторії відносно останньої менструації з перехресних даних, бо ця дата рідко фіксується у великих масивах медичних даних. Проаналізовано приблизно 300 мільйонів лабораторних аналізів більш ніж від мільйона жінок у двох когортах: американському Національному обстеженні здоров’я та харчування (NHANES, 1999–2022) і записах ізраїльської страхової каси Clalit (1,3 мільйона жінок віком 30–70 років, 2004–2024). У когорті США 52 з 90 розглянутих аналізів показали статистично значущі зміни типу сходинки, що охоплювали ендокринну, кісткову, печінкову, ниркову та ліпідну системи. Патерн був узгодженим у двох незалежних популяціях і відсутнім у чоловіків порівнянного віку. Дизайн ретроспективний і перехресний: жодну учасницю не спостерігали крізь її власний перехід.",
+            "cite": "Pridham G, Hayut Y, Lavi-Shoseyov N, Neeman M, Hovav N, Toledano Y, Alon U · Nature Medicine 32:3823–3831, онлайн 12 жовтня 2026",
             "url": "https://doi.org/10.1038/s41591-026-04614-0"
           },
           {
@@ -161,7 +161,7 @@ export default {
           },
           {
             "claim": "Гормональний розгін починається більш ніж за десятиліття до останньої менструації: АМГ приблизно за 15 років, ФСГ приблизно за 14, естрадіол приблизно за 12.",
-            "detail": "Автори повідомляють, що дисрегуляція починається значно більш ніж за десятиліття до останньої менструації: антимюллерів гормон знижується приблизно з 15 років до неї, фолікулостимулювальний гормон зростає приблизно з 14 років до неї, естрадіол знижується приблизно з 12 років до неї. Алон описує загальну форму так: поступові зміни починаються приблизно за десять років до менопаузи в середньому, пришвидшуються в останні роки, а потім стрибок у межах року останньої менструації — тобто стаття повідомляє і про довгий нахил, і про сходинку, а не про одне замість іншого.",
+            "detail": "Автори повідомляють, що дисрегуляція починається значно більш ніж за десятиліття до останньої менструації: антимюллерів гормон знижується приблизно з 15 років до неї, фолікулостимулювальний гормон зростає приблизно з 14 років до неї, естрадіол знижується приблизно з 12 років до неї. В інтерв’ю Newsweek Алон описує загальну форму так: поступові зміни починаються приблизно за десять років до менопаузи в середньому, пришвидшуються в останні роки, а потім стрибок у межах року останньої менструації — тобто стаття повідомляє і про довгий нахил, і про сходинку, а не про одне замість іншого.",
             "cite": "Pridham G, Hayut Y, Lavi-Shoseyov N, et al. · Препринт, arXiv:2511.05906",
             "url": "https://arxiv.org/abs/2511.05906"
           },
@@ -174,7 +174,7 @@ export default {
           {
             "claim": "Незалежні дослідники приймають вимірювання, але заперечують проти формулювання «обрив» і вказують на дизайн дослідження.",
             "detail": "Марта Гікі (Мельбурнський університет) стверджує, що «фізіологічний обрив» не є науковим чи медичним терміном, що таке формулювання натякає на різкий фізичний і психічний занепад, якого дослідження не демонструє, і що ретроспективний перехресний дизайн, складність встановлення дати менопаузи для кожної жінки з лабораторних записів та ймовірна надмірна представленість жінок із наявними проблемами зі здоров’ям разом обмежують силу доказів. Ребекка Терстон (Піттсбурзький університет) зазначає, що за ключовими змінними бракує дуже великої частки даних, і застерігає, що гормональна терапія — не чарівна паличка. Ендрю Шеллінг (Оклендський університет) описує результати як цікаві, але не остаточні, бо дослідження спостережне, водночас визнаючи, що метод дає корисну рамку для подальших робіт. Мія Шаумберг (Університет Саншайн-Коуст) зауважує, що системи з найбільшими змінами — це саме ті, які вже відомі як найчутливіші до естрогену. Джоенн Менсон (Гарвард) налаштована прихильно: на її думку, дослідження підтверджує глибину фізіологічних змін, яких жінки зазнають на момент останньої менструації.",
-            "cite": "Реакція експертів Science Media Centre, за матеріалами ScienceAlert і Starts at 60 · жовтень 2026",
+            "cite": "Коментарі експертів за матеріалами ScienceAlert, Starts at 60 і Newsweek · жовтень 2026",
             "url": "https://www.sciencealert.com/bones-liver-and-blood-fats-all-shift-abruptly-at-menopause-huge-study-finds"
           }
         ]
@@ -199,7 +199,7 @@ export default {
     "faq": [
       {
         "q": "Чи справді моє здоров’я зривається в «обрив» того року, коли припиняються місячні?",
-        "a": "Дослідження показує не це — і саме таке прочитання викликало заперечення науковців. Воно повідомляє, що набір лабораторних вимірювань на цьому етапі змінюється сходинкою, а не нахилом: у кістках, печінці, нирках, запаленні та жирах крові, — тоді як інші показники не рухаються взагалі, а кілька рухаються у сприятливий бік. Воно нічого не каже про те, як ви почуваєтеся, як функціонуєте чи що відбувається з вами як з людиною: нічого з цього не вимірювали. Та сама стаття описує й гормональні зміни, що починаються за 12–15 років до цього, тож навіть у її власних термінах остання менструація — це кінець довгого процесу, а не його початок. Сприймайте це як привід подбати про кістки у свої сорок, а не як дату, якої варто боятися."
+        "a": "Дослідження показує не це — і саме таке прочитання викликало заперечення науковців. Воно повідомляє, що набір лабораторних вимірювань на цьому етапі змінюється сходинкою, а не нахилом: у кістках, печінці, роботі нирок і жирах крові, — тоді як інші показники не рухаються взагалі, а кілька рухаються у сприятливий бік. Воно нічого не каже про те, як ви почуваєтеся, як функціонуєте чи що відбувається з вами як з людиною: нічого з цього не вимірювали. Та сама стаття описує й гормональні зміни, що починаються за 12–15 років до цього, тож навіть у її власних термінах остання менструація — це кінець довгого процесу, а не його початок. Сприймайте це як привід подбати про кістки у свої сорок, а не як дату, якої варто боятися."
       },
       {
         "q": "Чи це підстава починати ЗГТ?",
