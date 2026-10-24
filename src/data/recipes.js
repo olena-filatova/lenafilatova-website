@@ -1672,21 +1672,21 @@ export const RECIPES = [
   {
     slug: 'salmon-tartlets', dateAdded: '2026-07-10', img: '146-salmon-tartlets.jpg', cat: 'main', gi: 39,
     tags: [],
-    title: { en: 'Salmon & Avocado Tartlets', ua: 'Тарталетки з сьомгою та авокадо' },
-    why: { en: 'Rye tartlet shells filled with an avocado-and-cream-cheese cream and salmon. Rye has a lower GI than white flour, and salmon and avocado add protein and healthy fats.', ua: 'Житні тарталетки з кремом із авокадо та вершкового сиру та сьомгою. Жито має нижчий ГІ, ніж біле борошно, а сьомга й авокадо додають білок і корисні жири.' },
+    title: { en: 'Salmon & Avocado Tartlets', ua: 'Тарталетки із сьомгою та авокадо' },
+    why: { en: 'Rye tartlet shells filled with an avocado-and-cream-cheese cream and salmon. Rye has a lower GI than white flour, and salmon and avocado add protein and healthy fats.', ua: 'Житні тарталетки із сьомгою та кремом з авокадо й вершкового сиру. Жито має нижчий ГІ, ніж біле борошно, а сьомга й авокадо додають білок і корисні жири.' },
     nutrition: { en: 'Per serving (est.): ~300 kcal · Carbs 20 g · Fat 18 g · Protein 14 g', ua: 'На порцію (прибл.): ~300 ккал · Вуглеводи 20 г · Жири 18 г · Білки 14 г' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 3', ua: '3 порції' } },
     ingredients: { en: ['100 g rye flour','40 g cold water','3 tbsp olive oil','1 pinch salt','200 g ricotta or cream cheese','1 avocado','150 g salmon (salted/smoked)','1 handful fresh herbs','Juice of 1 lemon'], ua: ['100 г житнього борошна','40 г холодної води','3 ст. л. оливкової олії','1 щіпка солі','200 г рикоти або вершкового сиру','1 авокадо','150 г сьомги (солоної/копченої)','1 жменя свіжої зелені','Сік 1 лимона'] },
-    method: { en: ['Sift the rye flour with the salt, add the water and oil and knead to a smooth dough. Divide into 6 balls.','Roll out and press into oiled tartlet moulds; line with parchment and dried peas.','Bake at 180°C for 10 minutes, then cool and remove the peas and parchment.','Blend the avocado with the ricotta into a smooth cream.','Slice the salmon. Spread the cream into the shells, add the salmon, a squeeze of lemon and herbs.','Bake again at 180°C for 10 minutes and serve.'], ua: ['Просійте житнє борошно із сіллю, додайте воду та олію й замісіть гладке тісто. Поділіть на 6 кульок.','Розкачайте та вкладіть у змащені формочки; застеліть пергаментом і насипте сухий горох.','Випікайте при 180°C 10 хвилин, потім охолодіть і приберіть горох та пергамент.','Збийте авокадо з рикотою до гладкого крему.','Наріжте сьомгу. Розподіліть крем по основах, додайте сьомгу, трохи лимонного соку та зелень.','Випікайте знову при 180°C 10 хвилин і подавайте.'] }
+    method: { en: ['Sift the rye flour with the salt, add the water and oil and knead to a smooth dough. Divide into 6 balls.','Roll out and press into oiled tartlet moulds; line with parchment and dried peas.','Bake at 180°C for 10 minutes, then cool and remove the peas and parchment.','Blend the avocado with the ricotta into a smooth cream.','Slice the salmon. Spread the cream into the shells, add the salmon, a squeeze of lemon and herbs.','Bake again at 180°C for 10 minutes and serve.'], ua: ['Просійте житнє борошно із сіллю, додайте воду та олію й замісіть гладке тісто. Поділіть на 6 кульок.','Розкачайте та викладіть у змащені олією формочки для тарталеток; застеліть пергаментом і насипте сухий горох.','Випікайте 10 хвилин при 180°C, потім охолодіть і вийміть горох разом із пергаментом.','Збийте авокадо з рикотою до гладкого крему.','Наріжте сьомгу. Розкладіть крем по кошиках, додайте сьомгу, трохи лимонного соку та зелень.','Знову випікайте 10 хвилин при 180°C і подавайте.'] }
   },
   {
     slug: 'maslenitsa-pancakes', dateAdded: '2026-07-14', img: '147-maslenitsa-pancakes.jpg',
     imgs: ['147-maslenitsa-pancakes.jpg', '147-maslenitsa-pancakes-2.jpg', '147-maslenitsa-pancakes-3.jpg'],
     cat: 'breakfast', gi: 35,
     tags: ['sugar-free', 'vegetarian'],
-    imgAlt: { en: "Thin pancakes in five natural colours — yellow, pale green, pink, red and light brown — fanned out on a white plate with a dark rim, on blue linen.", ua: "Тонкі млинці п’яти натуральних кольорів — жовтий, блідо-зелений, рожевий, червоний і світло-коричневий — розкладені віялом на білій тарілці з темним обідком, на синій льняній тканині." },
+    imgAlt: { en: "Thin pancakes in five natural colours — yellow, pale green, pink, red and light brown — fanned out on a white plate with a dark rim, on blue linen.", ua: "Тонкі млинці п’яти натуральних кольорів — жовтого, блідо-зеленого, рожевого, червоного й світло-коричневого — розкладені віялом на білій тарілці з темним обідком, на синій льняній тканині." },
     title: { en: 'Healthy Pancakes for Maslenitsa (5 Colours)', ua: 'Корисні млинці на Масляну (5 кольорів)' },
-    why: { en: "Quick, naturally colourful pancakes made without any added sugar or salt — every colour comes from a real food: cocoa, matcha, turmeric, beetroot and almond. Each batter is one egg on low-GI flour (flax, coconut, almond or wholegrain wheat), so a whole rainbow takes about 20 minutes in the morning.", ua: 'Швидкі яскраві млинці без доданого цукру та солі — колір кожного дає справжній продукт: какао, маття, куркума, буряк і мигдаль. Кожне тісто — це одне яйце на борошні з низьким ГІ (лляному, кокосовому, мигдалевому чи цільнозерновому), тож ціла веселка займе зранку близько 20 хвилин.' },
+    why: { en: "Quick, naturally colourful pancakes made without any added sugar or salt — every colour comes from a real food: cocoa, matcha, turmeric, beetroot and almond. Each batter is one egg on low-GI flour (flax, coconut, almond or wholegrain wheat), so a whole rainbow takes about 20 minutes in the morning.", ua: 'Швидкі різнокольорові млинці без доданого цукру та солі — кожен колір дає справжній продукт: какао, матча, куркума, буряк і мигдаль. В основі кожного тіста — одне яйце та борошно з низьким ГІ (лляне, кокосове, мигдалеве чи цільнозернове пшеничне), тож цілу веселку можна приготувати зранку приблизно за 20 хвилин.' },
     nutrition: { en: 'Per colour (est.): ~150 kcal · Carbs 10 g · Fat 9 g · Protein 9 g (varies by colour)', ua: 'На один колір (прибл.): ~150 ккал · Вуглеводи 10 г · Жири 9 г · Білки 9 г (залежить від кольору)' },
     meta: { prep: { en: '10 min', ua: '10 хв' }, cook: { en: '10 min', ua: '10 хв' }, serves: { en: 'Makes 5 colours', ua: '5 кольорів' } },
     ingredients: {
@@ -1698,7 +1698,7 @@ export const RECIPES = [
       ua: ['— ШОКОЛАДНІ (БЕЗ БОРОШНА) —','1 яйце','1 ст. л. лляного борошна','1 ст. л. кокосового борошна','80 мл (⅓ склянки) молока','1 ч. л. какао',
         '— МИГДАЛЕВІ (БЕЗ БОРОШНА) —','1 яйце','50 г (½ склянки) мигдалевого борошна','2 ст. л. грецького йогурту',
         '— «ЧЕРВОНИЙ ОКСАМИТ» (БУРЯК) —','1 яйце','120 мл (½ склянки) цільнозернового пшеничного борошна','120 мл (½ склянки) рідкого бурякового пюре',
-        '— З МАТТЯ —','1 яйце','1 ст. л. кокосового борошна','1 ст. л. пшеничного борошна','80 мл (⅓ склянки) молока','1 ч. л. порошку маття',
+        '— З МАТЧЕЮ —','1 яйце','1 ст. л. кокосового борошна','1 ст. л. пшеничного борошна','80 мл (⅓ склянки) молока','1 ч. л. порошку матчі',
         '— СОНЯЧНІ (КУРКУМА) —','1 яйце','1 ст. л. кокосового борошна','1 ст. л. пшеничного борошна','80 мл (⅓ склянки) молока','1 ч. л. куркуми'] },
     method: {
       en: ['Working one colour at a time, whisk the egg, then whisk in the flour(s) and liquid until smooth. Let the batter rest 2–3 minutes so the flour hydrates.',
@@ -1706,12 +1706,12 @@ export const RECIPES = [
         'Pour a thin round, cover with a lid and cook until the top sets and the edges lift, then flip and cook briefly on the other side.',
         'Keep the pancakes medium-sized and cook them covered — this keeps them soft and helps the beetroot batter hold its bright colour.',
         'Repeat for each colour, then stack by shade and serve with berries, yoghurt or a little honey.'],
-      ua: ['По черзі для кожного кольору збийте яйце, потім вмішайте борошно та рідину до однорідності. Дайте тісту постояти 2–3 хвилини, щоб борошно набубнявіло.',
+      ua: ['По черзі для кожного кольору збийте яйце, потім умішайте борошно та рідину до однорідності. Дайте тісту постояти 2–3 хвилини, щоб борошно набубнявіло.',
         'Розігрійте злегка змащену сковороду з антипригарним покриттям на середньому вогні.',
-        'Вилийте тонким кружальцем, накрийте кришкою та смажте, доки верх «схопиться», а краї не почнуть відходити; переверніть і підсмажте з іншого боку.',
-        'Робіть млинці середнього розміру та смажте під кришкою — так вони лишаються м’якими, а буряковий млинець зберігає яскравий колір.',
+        'Вилийте тісто тонким кружечком, накрийте кришкою та смажте, доки верх не схопиться, а краї не почнуть відходити; переверніть і недовго підсмажте з іншого боку.',
+        'Робіть млинці середнього розміру та смажте під кришкою — так вони лишаються м’якими, а бурякове тісто краще зберігає яскравий колір.',
         'Повторіть для кожного кольору, складіть стосом за відтінками та подавайте з ягодами, йогуртом або краплею меду.'] },
-    note: { en: 'The batters are deliberately unsweetened and unsalted base versions — add a pinch of salt or a little honey/erythritol to taste. Any natural colour works: cocoa (brown), matcha (green), turmeric (yellow), beetroot (red), almond (pale).', ua: 'Тісто навмисно без цукру та солі — це базовий варіант, тож додайте дрібку солі або трохи меду/еритритолу до смаку. Колір дає будь-який натуральний продукт: какао (коричневий), маття (зелений), куркума (жовтий), буряк (червоний), мигдаль (світлий).' }
+    note: { en: 'The batters are deliberately unsweetened and unsalted base versions — add a pinch of salt or a little honey/erythritol to taste. Any natural colour works: cocoa (brown), matcha (green), turmeric (yellow), beetroot (red), almond (pale).', ua: 'Тісто навмисно без цукру та солі — це базовий варіант, тож додайте дрібку солі або трохи меду/еритритолу до смаку. Підійде будь-який натуральний барвник: какао (коричневий), матча (зелений), куркума (жовтий), буряк (червоний), мигдаль (світлий).' }
   },
   {
     slug: 'pear-courgette-salad', dateAdded: '2026-07-14', img: '148-pear-courgette-salad.jpg', cat: 'main', gi: 19,
