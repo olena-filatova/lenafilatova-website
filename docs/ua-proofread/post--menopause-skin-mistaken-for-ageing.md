@@ -1,0 +1,5 @@
+# post--menopause-skin-mistaken-for-ageing
+
+- Last checked: 2026-10-21
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/426
+- Notes: 33 fixes. Calques (22): "згущений навколо років" (clustered) ×2, "поступовий дрейф", "скільки ваги може витримати заголовок", "тим самим подихом" (in the same breath), "позичають їхню мову", "помилкове приписування" (misattribution) ×2, "Де насправді стоять докази", "ініційоване дослідниками дослідження" → "дослідження з ініціативи дослідника" ×3, "дані зберігаються у виробника" (data on file) ×2, etc. Grammar/word choice (8): "у найнижчому рівні" → "на найнижчому рівні", "перевантажливими", "протиріччя" → "суперечність", "одна з двох" → "кожна друга" ×2, "Реліз" → "Пресреліз". Meaning (2): Group A complaint "зволоженість" → "недостатня зволоженість" (EN: hydration as the complaint = dryness, as stated in the body); FAQ "not the question the trial was designed to answer" restored. Links heading "Дотичне читання" → "Читайте також". No numeric or structural changes.
