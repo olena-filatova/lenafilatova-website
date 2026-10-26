@@ -180,6 +180,7 @@ export const TAGS = [
     en: 'Type 1 diabetes', ua: 'Діабет 1 типу',
     posts: [
       'minimum-strength-training-after-40',
+      'coffee-blood-sugar-type-1-diabetes',
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
@@ -212,6 +213,7 @@ export const TAGS = [
     en: 'Blood sugar', ua: 'Цукор у крові',
     posts: [
       'minimum-strength-training-after-40',
+      'coffee-blood-sugar-type-1-diabetes',
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'zone-2-or-hiit-after-40',
@@ -247,6 +249,7 @@ export const TAGS = [
     key: 'hypoglycaemia', group: 'diabetes',
     en: 'Hypos', ua: 'Гіпоглікемія',
     posts: [
+      'coffee-blood-sugar-type-1-diabetes',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
     ],
@@ -255,6 +258,7 @@ export const TAGS = [
     key: 'cgm', group: 'diabetes',
     en: 'CGM & sensors', ua: 'CGM і сенсори',
     posts: [
+      'coffee-blood-sugar-type-1-diabetes',
       'how-to-read-cgm-during-workout',
       'night-sweats-or-hypo',
       'does-weight-training-raise-blood-sugar',
@@ -484,6 +488,7 @@ export const TAGS = [
     key: 'sleep', group: 'movement',
     en: 'Sleep', ua: 'Сон',
     posts: [
+      'coffee-blood-sugar-type-1-diabetes',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
       'type-2-diabetes-menopause-symptoms',
