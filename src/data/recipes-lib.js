@@ -21,8 +21,8 @@ export const CAT_HUB = {
 };
 export const DIET = {
   'sugar-free': { en: 'Sugar-free', ua: 'Без цукру' }, 'gluten-free': { en: 'Gluten-free', ua: 'Без глютену' },
-  'low-carb': { en: 'Low carb', ua: 'Низьковуглеводне' }, vegetarian: { en: 'Vegetarian', ua: 'Вегетаріанське' },
-  'dairy-free': { en: 'Dairy-free', ua: 'Без молочного' },
+  'low-carb': { en: 'Low carb', ua: 'Низьковуглеводна' }, vegetarian: { en: 'Vegetarian', ua: 'Вегетаріанська' },
+  'dairy-free': { en: 'Dairy-free', ua: 'Без молочних продуктів' },
 };
 
 export const isHeader = (s) => /^—/.test(s);
@@ -131,7 +131,7 @@ export const NUTRI_LABELS = {
 
 export const GI_DISCLAIMER = {
   en: 'Nutrition and glycaemic index (GI) values are estimates, calculated from the ingredients. Please double-check meals before cooking if it matters for your diet.',
-  ua: 'Значення поживності та глікемічного індексу (ГІ) приблизні — розраховані з інгредієнтів. Будь ласка, перевіряйте страви перед приготуванням, якщо це важливо для вашого раціону.',
+  ua: 'Харчова цінність і глікемічний індекс (ГІ) — орієнтовні значення, розраховані за інгредієнтами. Якщо це важливо для вашого раціону, перевірте їх перед приготуванням.',
 };
 
 // Every recipe carries one primary `img`; `imgs` (optional) drives the slider.
