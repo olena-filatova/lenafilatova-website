@@ -1,6 +1,7 @@
 export default {
   "slug": "menopause-skin-mistaken-for-ageing",
   "date": "2026-10-20",
+  "featured": true,
   "image": "/images/menopause-skin-mistaken-for-ageing.jpg",
   "cats": [
     "skin",
