@@ -46,7 +46,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "What I would take from the morning's news is the first part and not the second. The survey's own most interesting result is that 62% of women found the advice overwhelming and nearly half found it too general and too fixated on ageing — and the answer offered in the same breath is two injectable products. The unglamorous things still have the better evidence behind them: daily sunscreen, a retinoid, topical vitamin C, and a conversation with a clinician if symptoms elsewhere are making life harder. If you want the state of the rest of this market, including where topical hormones genuinely differ from the products borrowing their language, [I went through it here](/blog/topical-oestrogen-skincare-menopause/)."
+        "text": "What I would take from the morning's news is the first part and not the second. The survey's own most interesting result is that 62% of women found the advice overwhelming, and nearly half of those who struggled to find clear information found it too general and too fixated on ageing — and the answer offered in the same breath is two injectable products. The unglamorous things still have the better evidence behind them: daily sunscreen, a retinoid, topical vitamin C, and a conversation with a clinician if symptoms elsewhere are making life harder. If you want the state of the rest of this market, including where topical hormones genuinely differ from the products borrowing their language, [I went through it here](/blog/topical-oestrogen-skincare-menopause/)."
       },
       {
         "t": "h",
@@ -147,7 +147,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "З цієї новини я взяла б першу частину, а не другу. Найцікавіший результат самого опитування в тому, що 62% жінок почуваються перевантаженими порадами, а майже половина вважає їх надто загальними й надто зосередженими на старінні. І відповідь, яку пропонують тут-таки, — два ін’єкційні препарати. Буденні речі досі мають кращу доказову базу: щоденний сонцезахисний крем, ретиноїд, вітамін C місцево — і розмова з лікарем, якщо інші симптоми ускладнюють життя. Якщо вас цікавить стан решти цього ринку, зокрема те, чим місцеві гормони справді відрізняються від засобів, що лише запозичують їхню риторику, [я розібрала це тут](/ua/blog/topical-oestrogen-skincare-menopause/)."
+        "text": "З цієї новини я взяла б першу частину, а не другу. Найцікавіший результат самого опитування в тому, що 62% жінок почуваються перевантаженими порадами, а майже половина тих, кому було важко знайти зрозумілу інформацію, вважає їх надто загальними й надто зосередженими на старінні. І відповідь, яку пропонують тут-таки, — два ін’єкційні препарати. Буденні речі досі мають кращу доказову базу: щоденний сонцезахисний крем, ретиноїд, вітамін C місцево — і розмова з лікарем, якщо інші симптоми ускладнюють життя. Якщо вас цікавить стан решти цього ринку, зокрема те, чим місцеві гормони справді відрізняються від засобів, що лише запозичують їхню риторику, [я розібрала це тут](/ua/blog/topical-oestrogen-skincare-menopause/)."
       },
       {
         "t": "h",
