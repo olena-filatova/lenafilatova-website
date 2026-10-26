@@ -139,6 +139,24 @@
       ]
     ]
   },
+  "/images/biotin-for-hair-over-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/biotin-for-hair-over-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/biotin-for-hair-over-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/biotin-for-hair-over-40-1200.avif"
+      ]
+    ]
+  },
   "/images/blood-sugar-graph-perimenopause.jpg": {
     "w": 814,
     "h": 624,
