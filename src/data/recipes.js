@@ -1448,22 +1448,22 @@ export const RECIPES = [
   {
     slug: 'ginger-milk-cocktail', dateAdded: '2026-07-10', img: '125-ginger-milk-cocktail.jpg', cat: 'drink', gi: 35,
     tags: ['gluten-free', 'vegetarian'],
-    title: { en: 'Warm Ginger Milk', ua: 'Теплий імбирний коктейль' },
+    title: { en: 'Warm Ginger Milk', ua: 'Тепле імбирне молоко' },
     why: { en: 'Warm milk blended with ginger, cinnamon and clove and sweetened with stevia or a little coconut sugar. A cosy spiced drink with minimal added sugar.', ua: 'Тепле молоко, збите з імбиром, корицею та гвоздикою, підсолоджене стевією чи невеликою кількістю кокосового цукру. Затишний пряний напій з мінімумом доданого цукру.' },
     nutrition: { en: 'Per serving (est.): ~120 kcal · Carbs 14 g · Fat 4 g · Protein 8 g', ua: 'На порцію (прибл.): ~120 ккал · Вуглеводи 14 г · Жири 4 г · Білки 8 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '10 min', ua: '10 хв' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['500 g low-fat milk','1 tsp cinnamon','¼ tsp ground clove','¼ tsp ground ginger','2 tbsp coconut sugar or stevia (to taste)','10 g whipped cream (optional, to garnish)'], ua: ['500 г нежирного молока','1 ч. л. кориці','¼ ч. л. меленої гвоздики','¼ ч. л. меленого імбиру','2 ст. л. кокосового цукру або стевії (за смаком)','10 г збитих вершків (за бажанням, для прикраси)'] },
-    method: { en: ['Warm the milk, then blend all the ingredients together.','Pour into cups.','Garnish with whipped cream if you like — ready to serve.'], ua: ['Підігрійте молоко, потім збийте всі інгредієнти разом.','Розлийте по чашках.','За бажанням прикрасьте збитими вершками — і напій готовий.'] }
+    method: { en: ['Warm the milk, then blend all the ingredients together.','Pour into cups.','Garnish with whipped cream if you like — ready to serve.'], ua: ['Підігрійте молоко, потім збийте його блендером з рештою інгредієнтів.','Розлийте по чашках.','За бажанням прикрасьте збитими вершками — і напій готовий.'] }
   },
   {
     slug: 'cacao-latte', dateAdded: '2026-07-10', img: '126-cacao-latte.jpg', cat: 'drink', gi: 42,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Cacao Latte (Coffee Alternative)', ua: 'Какао-латте (замість кави)' },
-    why: { en: 'Raw cacao made from unroasted beans is a powerful antioxidant. Blended with almond milk, a little honey and a pinch of cayenne, it makes a warming, caffeine-light alternative to coffee.', ua: 'Сире какао з необсмажених бобів — потужний антиоксидант. Збите з мигдалевим молоком, невеликою кількістю меду та щіпкою кайенського перцю, воно стає зігрівальною альтернативою каві з малим вмістом кофеїну.' },
+    why: { en: 'Raw cacao made from unroasted beans is a powerful antioxidant. Blended with almond milk, a little honey and a pinch of cayenne, it makes a warming, caffeine-light alternative to coffee.', ua: 'Сире какао з необсмажених какао-бобів — потужний антиоксидант. Якщо збити його з мигдалевим молоком, трохи меду та щіпкою кайенського перцю, вийде зігрівальна альтернатива каві з невеликим вмістом кофеїну.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 10 g · Fat 5 g · Protein 2 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 10 г · Жири 5 г · Білки 2 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '10 min', ua: '10 хв' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['230 g almond milk','1 tbsp raw cacao','1 tsp honey','½ tsp coconut oil','1 g cayenne pepper','1 g vanilla extract'], ua: ['230 г мигдалевого молока','1 ст. л. сирого какао','1 ч. л. меду','½ ч. л. кокосової олії','1 г кайенського перцю','1 г ванільного екстракту'] },
-    method: { en: ['Combine all the ingredients in a small pan and warm over medium heat, whisking until smooth.','Pour into a mug and enjoy.'], ua: ['З’єднайте всі інгредієнти в маленькій каструлі та підігрійте на середньому вогні, збиваючи до однорідності.','Перелийте в кухоль і смакуйте.'] }
+    method: { en: ['Combine all the ingredients in a small pan and warm over medium heat, whisking until smooth.','Pour into a mug and enjoy.'], ua: ['Змішайте всі інгредієнти в невеликій каструлі та підігрійте на середньому вогні, збиваючи віничком до однорідності.','Перелийте в кухоль і смакуйте.'] }
   },
   {
     slug: 'smoothie-popsicles-chia', dateAdded: '2026-07-10', img: '127-smoothie-popsicles-chia.jpg', cat: 'dessert', gi: 38,
