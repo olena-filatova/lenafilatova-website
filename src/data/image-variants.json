@@ -1311,6 +1311,24 @@
       ]
     ]
   },
+  "/images/morning-highs-type-1-perimenopause.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/morning-highs-type-1-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/morning-highs-type-1-perimenopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/morning-highs-type-1-perimenopause-1200.avif"
+      ]
+    ]
+  },
   "/images/nail-changes-after-40-diabetes.jpg": {
     "w": 1200,
     "h": 675,
