@@ -1329,6 +1329,24 @@
       ]
     ]
   },
+  "/images/minimum-strength-training-after-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/minimum-strength-training-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/minimum-strength-training-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/minimum-strength-training-after-40-1200.avif"
+      ]
+    ]
+  },
   "/images/morning-highs-type-1-perimenopause.jpg": {
     "w": 1600,
     "h": 900,
