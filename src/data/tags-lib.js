@@ -29,7 +29,7 @@ export const UI = {
   ua: {
     kicker: 'Тема',
     cloudTitle: 'Теми журналу',
-    cloudLead: 'Усі теми журналу — розмір показує, скільки про кожну написано.',
+    cloudLead: 'Усі теми журналу — розмір показує, скільки про кожну з них написано.',
     onThisPost: 'Теми статті',
     count: (n) => {
       // Ukrainian needs three plural forms, and "21 стаття" (not "статей") is
@@ -41,7 +41,7 @@ export const UI = {
       return `${n} статей`;
     },
     intro: (label, n) =>
-      `Усе, що я написала про «${soften(label)}» — ${UI.ua.count(n)}, найновіші зверху, кожна спирається на дослідження, а не на заголовок.`,
+      `Усе, що я написала про «${soften(label)}» — ${UI.ua.count(n)}, найновіші зверху, кожна спирається на дослідження, а не на гучні заголовки.`,
     metaDesc: (label, n) =>
       `${UI.ua.count(n)} про «${soften(label)}» для жінок після 40 — науково обґрунтовані нотатки Lena Filatova.`,
     backToBlog: '← Усі статті',

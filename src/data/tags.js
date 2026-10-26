@@ -163,7 +163,7 @@ export const TAGS = [
   },
   {
     key: 'low-mood', group: 'hormones',
-    en: 'Low mood', ua: 'Поганий настрій',
+    en: 'Low mood', ua: 'Знижений настрій',
     posts: [
       'night-sweats-or-hypo',
       'menopause-brain-fog-not-dementia',
@@ -270,7 +270,7 @@ export const TAGS = [
   },
   {
     key: 'highs', group: 'diabetes',
-    en: 'Highs', ua: 'Гіпер',
+    en: 'Highs', ua: 'Гіперглікемія',
     posts: [
       'alcohol-and-blood-sugar',
       'eating-around-training-blood-sugar',
@@ -280,7 +280,7 @@ export const TAGS = [
   },
   {
     key: 'glucose-variability', group: 'diabetes',
-    en: 'Unstable blood sugars', ua: 'Нестабільні цукри',
+    en: 'Unstable blood sugars', ua: 'Перепади цукру',
     posts: [
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
@@ -353,7 +353,7 @@ export const TAGS = [
 
   {
     key: 'belly-fat', group: 'weight',
-    en: 'Belly fat', ua: 'Живіт',
+    en: 'Belly fat', ua: 'Жир на животі',
     posts: [
       'glp1-weight-loss-drugs-fat-not-muscle',
       'cortisol-belly-perimenopause',
