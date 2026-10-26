@@ -113,6 +113,7 @@ export const TAGS = [
     key: 'bone-health', group: 'hormones',
     en: 'Bone health', ua: 'Здоров’я кісток',
     posts: [
+      'minimum-strength-training-after-40',
       'glp1-what-we-know',
       'glp1-menopause-bone-loss',
       'creatine-women-over-40',
@@ -137,6 +138,7 @@ export const TAGS = [
     key: 'perimenopause', group: 'hormones',
     en: 'Perimenopause', ua: 'Перименопауза',
     posts: [
+      'minimum-strength-training-after-40',
       'zone-2-or-hiit-after-40',
       'creatine-women-over-40',
       'night-sweats-or-hypo',
@@ -177,6 +179,8 @@ export const TAGS = [
     key: 'type-1-diabetes', group: 'diabetes',
     en: 'Type 1 diabetes', ua: 'Цукровий діабет 1 типу',
     posts: [
+      'minimum-strength-training-after-40',
+      'coffee-blood-sugar-type-1-diabetes',
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
@@ -208,6 +212,8 @@ export const TAGS = [
     key: 'blood-sugar', group: 'diabetes',
     en: 'Blood sugar', ua: 'Цукор у крові',
     posts: [
+      'minimum-strength-training-after-40',
+      'coffee-blood-sugar-type-1-diabetes',
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
       'zone-2-or-hiit-after-40',
@@ -243,6 +249,7 @@ export const TAGS = [
     key: 'hypoglycaemia', group: 'diabetes',
     en: 'Hypos', ua: 'Гіпоглікемія',
     posts: [
+      'coffee-blood-sugar-type-1-diabetes',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
     ],
@@ -251,6 +258,7 @@ export const TAGS = [
     key: 'cgm', group: 'diabetes',
     en: 'CGM & sensors', ua: 'CGM і сенсори',
     posts: [
+      'coffee-blood-sugar-type-1-diabetes',
       'how-to-read-cgm-during-workout',
       'night-sweats-or-hypo',
       'does-weight-training-raise-blood-sugar',
@@ -343,6 +351,7 @@ export const TAGS = [
     key: 'muscle-mass', group: 'weight',
     en: 'Muscle mass', ua: 'М’язова маса',
     posts: [
+      'minimum-strength-training-after-40',
       'glp1-what-we-know',
       'creatine-women-over-40',
       'glp1-older-women-lean-mass',
@@ -445,6 +454,7 @@ export const TAGS = [
     key: 'strength-training', group: 'movement',
     en: 'Strength training', ua: 'Силові тренування',
     posts: [
+      'minimum-strength-training-after-40',
       'how-to-read-cgm-during-workout',
       'zone-2-or-hiit-after-40',
       'creatine-women-over-40',
@@ -478,6 +488,7 @@ export const TAGS = [
     key: 'sleep', group: 'movement',
     en: 'Sleep', ua: 'Сон',
     posts: [
+      'coffee-blood-sugar-type-1-diabetes',
       'alcohol-and-blood-sugar',
       'night-sweats-or-hypo',
       'type-2-diabetes-menopause-symptoms',

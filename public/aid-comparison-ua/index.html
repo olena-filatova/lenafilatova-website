@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Порівняння систем AID 2026 — Лена Філатова</title>
-<meta name="description" content="Усі основні інсулінові помпи та системи автоматичної подачі інсуліну (AID) поряд — доступні зараз і в розробці. Порівняйте тип, замкнений контур AID, сумісність із CGM та ціну.">
+<meta name="description" content="Усі основні інсулінові помпи та системи автоматизованої подачі інсуліну (AID) в одній таблиці — ті, що вже доступні, і ті, що в розробці. Порівняйте тип помпи, наявність замкненого контуру, сумісність із CGM та ціну.">
 <link rel="canonical" href="https://lenafilatova.co.uk/aid-comparison-ua/">
 <link rel="alternate" hreflang="en" href="https://lenafilatova.co.uk/aid-comparison/">
 <link rel="alternate" hreflang="uk" href="https://lenafilatova.co.uk/aid-comparison-ua/">
@@ -13,7 +13,7 @@
 <link rel="alternate" type="application/rss+xml" title="Lena Filatova — Журнал" href="https://lenafilatova.co.uk/ua/rss.xml">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Порівняння систем AID 2026">
-<meta property="og:description" content="Усі основні інсулінові помпи та системи автоматичної подачі інсуліну (AID) поряд — тип, замкнений контур, сумісність із CGM та ціна.">
+<meta property="og:description" content="Усі основні інсулінові помпи та системи автоматизованої подачі інсуліну (AID) в одній таблиці — тип, замкнений контур, сумісність із CGM та ціна.">
 <meta property="og:url" content="https://lenafilatova.co.uk/aid-comparison-ua/">
 <meta property="og:site_name" content="Lena Filatova">
 <meta property="og:image" content="https://lenafilatova.co.uk/images/cards/aid-comparison-ua.jpg">
@@ -22,7 +22,7 @@
 <meta property="og:image:alt" content="Порівняння інсулінових помп і систем AID (2026)">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Порівняння систем AID 2026">
-<meta name="twitter:description" content="Усі основні інсулінові помпи та системи автоматичної подачі інсуліну (AID) поряд — тип, замкнений контур, сумісність із CGM та ціна.">
+<meta name="twitter:description" content="Усі основні інсулінові помпи та системи автоматизованої подачі інсуліну (AID) в одній таблиці — тип, замкнений контур, сумісність із CGM та ціна.">
 <meta name="twitter:image" content="https://lenafilatova.co.uk/images/cards/aid-comparison-ua.jpg">
 <!-- Self-hosted webfonts (OPS-211). These pages are standalone HTML outside the
      Astro bundle, so they can't import global.css — the same @font-face rules are
@@ -735,7 +735,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
       "@id": "https://lenafilatova.co.uk/aid-comparison-ua/#webpage",
       "url": "https://lenafilatova.co.uk/aid-comparison-ua/",
       "name": "Порівняння інсулінових помп і систем AID (2026)",
-      "description": "Усі основні інсулінові помпи та системи автоматичної подачі інсуліну поряд — з трубкою чи без, який алгоритм, з якими сенсорами працює, обсяг резервуара, доступність і ціна.",
+      "description": "Усі основні інсулінові помпи та системи автоматизованої подачі інсуліну в одній таблиці — з трубкою чи без, який алгоритм, з якими сенсорами працюють, об’єм резервуара, доступність і ціна.",
       "inLanguage": "uk",
       "isPartOf": {
         "@id": "https://lenafilatova.co.uk/ua/#website"
@@ -934,7 +934,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
   <header class="page-header">
     <p class="est"><span class="est-label">Порівняння</span><span class="est-rule"></span></p>
     <h1>Порівняння систем AID (2026)</h1>
-    <p class="description">Усі основні інсулінові помпи та системи автоматичної подачі інсуліну поряд — доступні зараз і в розробці. Фільтри за типом, AID і статусом.</p>
+    <p class="description">Усі основні інсулінові помпи та системи автоматизованої подачі інсуліну в одній таблиці — ті, що вже доступні, і ті, що в розробці. Фільтруйте за типом, AID і статусом.</p>
   </header>
 
   <div class="filters">
@@ -949,7 +949,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
       <span class="filter-label">Статус</span>
       <div class="chips">
         <button class="chip active" data-status="all">Усі</button>
-        <button class="chip" data-status="available">Доступні</button>
+        <button class="chip" data-status="available">Доступні зараз</button>
         <button class="chip" data-status="pipeline">У розробці</button>
       </div>
     </div>
@@ -957,8 +957,8 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
       <span class="filter-label">Тип</span>
       <div class="chips">
         <button class="chip active" data-type="all">Усі</button>
-        <button class="chip" data-type="tubeless">Без трубок</button>
-        <button class="chip" data-type="tubed">З трубкою</button>
+        <button class="chip" data-type="tubeless">Без трубки (патч-помпи)</button>
+        <button class="chip" data-type="tubed">Помпи з трубкою</button>
       </div>
     </div>
     <div class="filter-row">
@@ -972,7 +972,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
   </div>
 
   <div class="count-bar">
-    <p class="count-badge"><span id="countNum">0</span> систем</p>
+    <p class="count-badge">Систем: <span id="countNum">0</span></p>
   </div>
 
   <div class="table-scroll">
@@ -985,7 +985,7 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
           <th>Працює з CGM</th>
           <th>Резервуар</th>
           <th>Доступність</th>
-          <th>Орієнт. ціна</th>
+          <th>Приблизна ціна</th>
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
@@ -993,14 +993,14 @@ html[data-lf-framed] [data-lf-chrome] { display: none !important; }
     <div class="no-results" id="noResults" style="display:none;">Жодна система не відповідає обраним фільтрам.</div>
   </div>
 
-  <div class="footnote"><strong>Освітнє порівняння — не медична порада та не рекомендація.</strong> Доступність, фінансування та характеристики відрізняються залежно від країни й часто змінюються — уточнюйте актуальні деталі у виробника та своєї діабетичної команди перед вибором системи. Помпа із <strong>замкненим контуром</strong> (AID) автоматично коригує інсулін за даними CGM; помпа з <strong>відкритим контуром</strong> потребує ручного дозування. Ціни приблизні й значною мірою залежать від страхування та статусу NHS / відшкодування. Терміни для систем у розробці є оцінками, залежать від схвалення регуляторів і можуть змінюватися. Джерела: дані виробників (Insulet · Tandem · Medtronic · Beta Bionics · Ypsomed · Diabeloop · Roche) · Diabetotech · DiaTribe · JDRF.</div>
+  <div class="footnote"><strong>Це порівняння має лише освітню мету — не медична порада й не рекомендація конкретного пристрою.</strong> Доступність, фінансування та характеристики відрізняються залежно від країни й часто змінюються, тож перш ніж обирати систему, уточніть актуальні дані у виробника та своєї діабетичної команди. Помпа із <strong>замкненим контуром</strong> (AID) автоматично коригує подачу інсуліну за даними CGM; помпа з <strong>відкритим контуром</strong> потребує ручного дозування. Ціни приблизні й значною мірою залежать від страхового покриття, фінансування NHS чи відшкодування вартості. Терміни виходу систем, що перебувають у розробці, орієнтовні: вони залежать від схвалення регуляторних органів і можуть змінитися. Джерела: дані виробників (Insulet · Tandem · Medtronic · Beta Bionics · Ypsomed · Diabeloop · Roche) · Diabetotech · DiaTribe · JDRF.</div>
 </div>
 
 <script>
-const DATA = [{"name":"Omnipod 5","brand":"Insulet","cls":"insulet","type":"tubeless","loop":"closed","status":"available","aid":"Omnipod 5 Horizon AID","cgm":"Dexcom G6/G7 · Libre 2+/3+","reservoir":"200 u","avail":["US","EU","UK","AU"],"cost":"~$0–820/kit"},{"name":"Omnipod DASH","brand":"Insulet","cls":"insulet","type":"tubeless","loop":"open","status":"available","aid":"","cgm":"Separate CGM","reservoir":"200 u","avail":["US","EU","UK","AU"],"cost":"~$0–500/kit"},{"name":"Tandem t:slim X2","brand":"Tandem","cls":"tandem","type":"tubed","loop":"closed","status":"available","aid":"Control-IQ","cgm":"Dexcom G6/G7 · Libre 3+","reservoir":"300 u","avail":["US","EU","UK","AU"],"cost":"~$0–4,000"},{"name":"Tandem Mobi","brand":"Tandem","cls":"tandem","type":"tubed","loop":"closed","status":"available","aid":"Control-IQ","cgm":"Dexcom G6/G7","reservoir":"200 u","avail":["US"],"cost":"~$0–4,000"},{"name":"MiniMed 780G","brand":"Medtronic","cls":"medtronic","type":"tubed","loop":"closed","status":"available","aid":"SmartGuard AID","cgm":"Guardian 4","reservoir":"176/300 u","avail":["US","EU","UK","AU"],"cost":"~$0–8,574"},{"name":"iLet Bionic Pancreas","brand":"Beta Bionics","cls":"beta","type":"tubed","loop":"closed","status":"available","aid":"Bionic Pancreas","cgm":"Dexcom G6/G7","reservoir":"300 u","avail":["US"],"cost":"~$5,287"},{"name":"twiist","brand":"Sequel Med Tech","cls":"sequel","type":"tubed","loop":"closed","status":"available","aid":"twiist AID","cgm":"Dexcom G6/G7 · Libre 3+","reservoir":"300 u","avail":["US"],"cost":"$0 w/ program"},{"name":"mylife YpsoPump + CamAPS FX","brand":"Ypsomed / TecMed","cls":"ypsomed","type":"tubed","loop":"closed","status":"available","aid":"CamAPS FX","cgm":"Dexcom G6 · Libre 3","reservoir":"160 u","avail":["EU","UK","AU"],"cost":"NHS-funded (UK)"},{"name":"Kaleido + Diabeloop DBLG1","brand":"Diabeloop","cls":"diabeloop","type":"tubed","loop":"closed","status":"available","aid":"DBLG1","cgm":"Dexcom G6","reservoir":"200 u","avail":["EU"],"cost":"Insurance (NL/DE/FR)"},{"name":"Dana-i + Diabeloop","brand":"SOOIL / Diabeloop","cls":"sooil","type":"tubed","loop":"closed","status":"available","aid":"DBLG1 / DBLG2","cgm":"Dexcom G6/G7","reservoir":"300 u","avail":["EU"],"cost":"Reimbursed (DE)"},{"name":"Accu-Chek Solo","brand":"Roche","cls":"roche","type":"tubeless","loop":"open","status":"available","aid":"","cgm":"AID-ready","reservoir":"200 u","avail":["EU"],"cost":"Reimbursed (EU)"},{"name":"MiniMed Flex","brand":"Medtronic","cls":"medtronic","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ Summer 2026","aid":"SmartGuard AID","cgm":"Guardian 4 (+ Libre)","reservoir":"176 u","avail":["US","EU"],"cost":"TBC"},{"name":"MiniMed 8-Series","brand":"Medtronic","cls":"medtronic","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ ~2027","aid":"Next-gen SmartGuard","cgm":"Simplera + Libre","reservoir":"TBC","avail":["US","EU"],"cost":"TBC"},{"name":"MiniMed Fit (Patch)","brand":"Medtronic","cls":"medtronic","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ 2027+","aid":"SmartGuard AID","cgm":"Simplera + Libre","reservoir":"300 u","avail":["US"],"cost":"TBC"},{"name":"Tandem Tubeless Mobi","brand":"Tandem","cls":"tandem","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ 2026–27","aid":"Control-IQ","cgm":"Dexcom G6/G7","reservoir":"200 u","avail":["US"],"cost":"TBC"},{"name":"Tandem t:slim X3","brand":"Tandem","cls":"tandem","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ 2026–27","aid":"Control-IQ","cgm":"Dexcom + Libre","reservoir":"300 u","avail":["US","EU"],"cost":"TBC"},{"name":"Omnipod 6","brand":"Insulet","cls":"insulet","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ 2027","aid":"Next-gen AID","cgm":"Dexcom G7 · FSL 3+","reservoir":"200 u+","avail":["US","EU","UK","AU"],"cost":"TBC"},{"name":"Beta Bionics Mint","brand":"Beta Bionics","cls":"beta","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ Q2 2027","aid":"Bionic Pancreas","cgm":"Dexcom (exp.)","reservoir":"TBC","avail":["US"],"cost":"TBC"},{"name":"Luna Patch Pump","brand":"Luna Health","cls":"luna","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ TBC","aid":"Closed loop (night)","cgm":"iCGM","reservoir":"TBC","avail":["US"],"cost":"TBC"},{"name":"Kaleido 2 + DBLG2","brand":"Diabeloop","cls":"diabeloop","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ End 2026","aid":"DBLG2","cgm":"Dexcom G6/G7","reservoir":"200 u","avail":["EU"],"cost":"TBC"}];
+const DATA = [{"name":"Omnipod 5","brand":"Insulet","cls":"insulet","type":"tubeless","loop":"closed","status":"available","aid":"Omnipod 5 Horizon AID","cgm":"Dexcom G6/G7 · Libre 2+/3+","reservoir":"200 од.","avail":["US","EU","UK","AU"],"cost":"~$0–820/набір"},{"name":"Omnipod DASH","brand":"Insulet","cls":"insulet","type":"tubeless","loop":"open","status":"available","aid":"","cgm":"Окремий CGM","reservoir":"200 од.","avail":["US","EU","UK","AU"],"cost":"~$0–500/набір"},{"name":"Tandem t:slim X2","brand":"Tandem","cls":"tandem","type":"tubed","loop":"closed","status":"available","aid":"Control-IQ","cgm":"Dexcom G6/G7 · Libre 3+","reservoir":"300 од.","avail":["US","EU","UK","AU"],"cost":"~$0–4,000"},{"name":"Tandem Mobi","brand":"Tandem","cls":"tandem","type":"tubed","loop":"closed","status":"available","aid":"Control-IQ","cgm":"Dexcom G6/G7","reservoir":"200 од.","avail":["US"],"cost":"~$0–4,000"},{"name":"MiniMed 780G","brand":"Medtronic","cls":"medtronic","type":"tubed","loop":"closed","status":"available","aid":"SmartGuard AID","cgm":"Guardian 4","reservoir":"176/300 од.","avail":["US","EU","UK","AU"],"cost":"~$0–8,574"},{"name":"iLet Bionic Pancreas","brand":"Beta Bionics","cls":"beta","type":"tubed","loop":"closed","status":"available","aid":"Bionic Pancreas","cgm":"Dexcom G6/G7","reservoir":"300 од.","avail":["US"],"cost":"~$5,287"},{"name":"twiist","brand":"Sequel Med Tech","cls":"sequel","type":"tubed","loop":"closed","status":"available","aid":"twiist AID","cgm":"Dexcom G6/G7 · Libre 3+","reservoir":"300 од.","avail":["US"],"cost":"$0 за програмою виробника"},{"name":"mylife YpsoPump + CamAPS FX","brand":"Ypsomed / TecMed","cls":"ypsomed","type":"tubed","loop":"closed","status":"available","aid":"CamAPS FX","cgm":"Dexcom G6 · Libre 3","reservoir":"160 од.","avail":["EU","UK","AU"],"cost":"Фінансує NHS (UK)"},{"name":"Kaleido + Diabeloop DBLG1","brand":"Diabeloop","cls":"diabeloop","type":"tubed","loop":"closed","status":"available","aid":"DBLG1","cgm":"Dexcom G6","reservoir":"200 од.","avail":["EU"],"cost":"Страховка (NL/DE/FR)"},{"name":"Dana-i + Diabeloop","brand":"SOOIL / Diabeloop","cls":"sooil","type":"tubed","loop":"closed","status":"available","aid":"DBLG1 / DBLG2","cgm":"Dexcom G6/G7","reservoir":"300 од.","avail":["EU"],"cost":"Відшкодовується (DE)"},{"name":"Accu-Chek Solo","brand":"Roche","cls":"roche","type":"tubeless","loop":"open","status":"available","aid":"","cgm":"Сумісна з AID","reservoir":"200 од.","avail":["EU"],"cost":"Відшкодовується (EU)"},{"name":"MiniMed Flex","brand":"Medtronic","cls":"medtronic","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ Літо 2026","aid":"SmartGuard AID","cgm":"Guardian 4 (+ Libre)","reservoir":"176 од.","avail":["US","EU"],"cost":"Уточнюється"},{"name":"MiniMed 8-Series","brand":"Medtronic","cls":"medtronic","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ ~2027","aid":"SmartGuard нового покоління","cgm":"Simplera + Libre","reservoir":"Уточнюється","avail":["US","EU"],"cost":"Уточнюється"},{"name":"MiniMed Fit (Patch)","brand":"Medtronic","cls":"medtronic","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ 2027+","aid":"SmartGuard AID","cgm":"Simplera + Libre","reservoir":"300 од.","avail":["US"],"cost":"Уточнюється"},{"name":"Tandem Tubeless Mobi","brand":"Tandem","cls":"tandem","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ 2026–27","aid":"Control-IQ","cgm":"Dexcom G6/G7","reservoir":"200 од.","avail":["US"],"cost":"Уточнюється"},{"name":"Tandem t:slim X3","brand":"Tandem","cls":"tandem","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ 2026–27","aid":"Control-IQ","cgm":"Dexcom + Libre","reservoir":"300 од.","avail":["US","EU"],"cost":"Уточнюється"},{"name":"Omnipod 6","brand":"Insulet","cls":"insulet","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ 2027","aid":"AID нового покоління","cgm":"Dexcom G7 · FSL 3+","reservoir":"200 од.+","avail":["US","EU","UK","AU"],"cost":"Уточнюється"},{"name":"Beta Bionics Mint","brand":"Beta Bionics","cls":"beta","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ II кв. 2027","aid":"Bionic Pancreas","cgm":"Dexcom (очікується)","reservoir":"Уточнюється","avail":["US"],"cost":"Уточнюється"},{"name":"Luna Patch Pump","brand":"Luna Health","cls":"luna","type":"tubeless","loop":"closed","status":"pipeline","pipe":"⏳ Уточнюється","aid":"Замкнений контур (уночі)","cgm":"iCGM","reservoir":"Уточнюється","avail":["US"],"cost":"Уточнюється"},{"name":"Kaleido 2 + DBLG2","brand":"Diabeloop","cls":"diabeloop","type":"tubed","loop":"closed","status":"pipeline","pipe":"⏳ Кінець 2026","aid":"DBLG2","cgm":"Dexcom G6/G7","reservoir":"200 од.","avail":["EU"],"cost":"Уточнюється"}];
 const T = {
-  tubeless:"Без трубок", tubed:"З трубкою",
-  open:"Відкритий контур", pipelineHeader:"⏳ У розробці — 2026–2027",
+  tubeless:"Без трубки", tubed:"З трубкою",
+  open:"Відкритий контур", pipelineHeader:"⏳ У розробці — очікуються у 2026–2027",
 };
 let state = { search:"", status:"all", type:"all", loop:"all" };
 
@@ -1084,13 +1084,13 @@ __postH();
     <div class="lf-nl-box">
       <p class="lf-nl-kicker">Безкоштовний воркбук, 26 сторінок</p>
       <h2>Діабет і перименопауза</h2>
-      <p class="lf-nl-sub">Що насправді змінюється в компенсації діабету 1 типу після 40, що допомагає і як домогтися, щоб вас почули лікарі. Надішлю одразу після підтвердження пошти. Плюс час від часу — науково обґрунтовані нотатки. Відписатися можна будь-коли.</p>
+      <p class="lf-nl-sub">Що насправді змінюється в компенсації діабету 1 типу після 40, що допомагає і як домогтися, щоб вас почули лікарі. Надішлю одразу після підтвердження пошти. Плюс час від часу — науково обґрунтовані нотатки без модних віянь. Відписатися можна будь-коли.</p>
       <form class="nlform" method="post" action="https://baristacard.us11.list-manage.com/subscribe/post-json?u=1e50ad3293720baaf82abb8b3&amp;id=b6e0bf1c2b"
             data-mc-action="https://baristacard.us11.list-manage.com/subscribe/post-json?u=1e50ad3293720baaf82abb8b3&amp;id=b6e0bf1c2b"
             data-mc-dupe="Ви вже підписані — нічого робити не потрібно."
             data-mc-err="Щось пішло не так. Спробуйте ще раз або напишіть на lena@lenafilatova.co.uk."
             data-mc-busy="Підписуємо…"
-            data-mc-btn="Надішліть воркбук"
+            data-mc-btn="Надіслати мені воркбук"
             data-mc-dwell="3000"
             data-mc-trap="website"
             data-mc-lang="ua"
@@ -1099,7 +1099,7 @@ __postH();
         <input type="hidden" name="group[34186][2]" value="1" />
         <div class="nl-row">
           <input type="email" name="EMAIL" placeholder="Ваш email" required autocomplete="email" />
-          <button type="submit" class="lf-btn">Надішліть воркбук</button>
+          <button type="submit" class="lf-btn">Надіслати мені воркбук</button>
         </div>
         <!-- The Privacy Policy anchor is inside nlConsent, which is ours, never
              visitor input. The link sits inside the label on purpose: per the

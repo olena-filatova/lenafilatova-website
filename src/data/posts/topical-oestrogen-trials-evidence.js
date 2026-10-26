@@ -8,7 +8,6 @@
 export default {
   "slug": "topical-oestrogen-trials-evidence",
   "date": "2026-10-13",
-  "featured": true,
   "image": "/images/topical-oestrogen-trials-evidence.jpg",
   "cats": [
     "skin",

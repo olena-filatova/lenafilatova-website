@@ -243,6 +243,24 @@
       ]
     ]
   },
+  "/images/coffee-blood-sugar-type-1-diabetes.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/coffee-blood-sugar-type-1-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/coffee-blood-sugar-type-1-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/coffee-blood-sugar-type-1-diabetes-1200.avif"
+      ]
+    ]
+  },
   "/images/collagen-supplements-skin-women-over-40.jpg": {
     "w": 1200,
     "h": 676,
@@ -294,6 +312,24 @@
       [
         1200,
         "/images/v/creatine-women-over-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/daily-spf-after-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/daily-spf-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/daily-spf-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/daily-spf-after-40-1200.avif"
       ]
     ]
   },
@@ -1290,6 +1326,42 @@
       [
         1200,
         "/images/v/mind-diet-sleep-mood-type-2-diabetes-women-1200.avif"
+      ]
+    ]
+  },
+  "/images/minimum-strength-training-after-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/minimum-strength-training-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/minimum-strength-training-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/minimum-strength-training-after-40-1200.avif"
+      ]
+    ]
+  },
+  "/images/morning-highs-type-1-perimenopause.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/morning-highs-type-1-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/morning-highs-type-1-perimenopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/morning-highs-type-1-perimenopause-1200.avif"
       ]
     ]
   },
