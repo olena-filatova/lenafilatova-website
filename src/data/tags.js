@@ -39,13 +39,13 @@
 
 /** Display groupings — only used to order the cloud and the tag index. */
 export const TAG_GROUPS = [
-  { key: 'hormones', en: 'Hormones & menopause', ua: 'Гормони і менопауза' },
+  { key: 'hormones', en: 'Hormones & menopause', ua: 'Гормони й менопауза' },
   { key: 'diabetes', en: 'Diabetes', ua: 'Діабет' },
   { key: 'treatment', en: 'Treatment', ua: 'Лікування' },
-  { key: 'weight', en: 'Weight & GLP-1', ua: 'Вага і GLP-1' },
+  { key: 'weight', en: 'Weight & GLP-1', ua: 'Вага й GLP-1' },
   { key: 'food', en: 'Food', ua: 'Їжа' },
   { key: 'movement', en: 'Movement', ua: 'Рух' },
-  { key: 'skin', en: 'Skin & hair', ua: 'Шкіра і волосся' },
+  { key: 'skin', en: 'Skin & hair', ua: 'Шкіра й волосся' },
   { key: 'research', en: 'How to read research', ua: 'Як читати дослідження' },
 ];
 
@@ -163,7 +163,7 @@ export const TAGS = [
   },
   {
     key: 'low-mood', group: 'hormones',
-    en: 'Low mood', ua: 'Поганий настрій',
+    en: 'Low mood', ua: 'Пригнічений настрій',
     posts: [
       'night-sweats-or-hypo',
       'menopause-brain-fog-not-dementia',
@@ -175,7 +175,7 @@ export const TAGS = [
   // Diabetes
   {
     key: 'type-1-diabetes', group: 'diabetes',
-    en: 'Type 1 diabetes', ua: 'Діабет 1 типу',
+    en: 'Type 1 diabetes', ua: 'Цукровий діабет 1 типу',
     posts: [
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
@@ -192,7 +192,7 @@ export const TAGS = [
   },
   {
     key: 'type-2-diabetes', group: 'diabetes',
-    en: 'Type 2 diabetes', ua: 'Діабет 2 типу',
+    en: 'Type 2 diabetes', ua: 'Цукровий діабет 2 типу',
     posts: [
       'creatine-women-over-40',
       'frozen-shoulder-diabetes',
@@ -270,7 +270,7 @@ export const TAGS = [
   },
   {
     key: 'highs', group: 'diabetes',
-    en: 'Highs', ua: 'Гіпер',
+    en: 'Highs', ua: 'Гіперглікемія',
     posts: [
       'alcohol-and-blood-sugar',
       'eating-around-training-blood-sugar',
@@ -280,7 +280,7 @@ export const TAGS = [
   },
   {
     key: 'glucose-variability', group: 'diabetes',
-    en: 'Unstable blood sugars', ua: 'Нестабільні цукри',
+    en: 'Unstable blood sugars', ua: 'Нестабільний цукор у крові',
     posts: [
       'how-to-read-cgm-during-workout',
       'alcohol-and-blood-sugar',
@@ -353,7 +353,7 @@ export const TAGS = [
 
   {
     key: 'belly-fat', group: 'weight',
-    en: 'Belly fat', ua: 'Живіт',
+    en: 'Belly fat', ua: 'Жир на животі',
     posts: [
       'glp1-weight-loss-drugs-fat-not-muscle',
       'cortisol-belly-perimenopause',
@@ -405,7 +405,7 @@ export const TAGS = [
   },
   {
     key: 'carbs', group: 'food',
-    en: 'Carbs & GI', ua: 'Вуглеводи і ГІ',
+    en: 'Carbs & GI', ua: 'Вуглеводи й ГІ',
     posts: [
       'alcohol-and-blood-sugar',
       'walking-after-meals-blood-sugar',

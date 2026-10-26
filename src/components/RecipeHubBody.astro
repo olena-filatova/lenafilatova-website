@@ -70,28 +70,28 @@ const nDiet = (v) => PUBLISHED.filter((r) => (r.tags || []).includes(v)).length;
 const COLLECTIONS = [
   { g: 'type', v: 'breakfast', n: nCat('breakfast'),
     en: ['Low-GI breakfasts', 'Syrniki, oat pancakes, overnight oats and green smoothies.'],
-    ua: ['Сніданки з низьким ГІ', 'Сирники, вівсяні млинці, нічна вівсянка та зелені смузі.'] },
+    ua: ['Сніданки з низьким ГІ', 'Сирники, вівсяні млинці, вівсянка на ніч і зелені смузі.'] },
   { g: 'type', v: 'main', n: nCat('main'),
     en: ['Low-GI mains', 'Soups, bakes and one-pan dinners built on protein and non-starchy veg.'],
-    ua: ['Основні страви з низьким ГІ', 'Супи, запіканки та вечері на основі білка й некрохмалистих овочів.'] },
+    ua: ['Основні страви з низьким ГІ', 'Супи, запіканки й вечері в одній сковороді — на основі білка та некрохмалистих овочів.'] },
   { g: 'type', v: 'baking', n: nCat('baking'),
     en: ['Low-GI baking', 'Cakes, muffins, kulich and stollen made without refined sugar.'],
-    ua: ['Випічка з низьким ГІ', 'Торти, мафіни, паски та штолен без рафінованого цукру.'] },
+    ua: ['Випічка з низьким ГІ', 'Торти, мафіни, паски та штолени без рафінованого цукру.'] },
   { g: 'type', v: 'dessert', n: nCat('dessert'),
     en: ['Low-GI desserts', 'Cheesecakes, ice creams and curd cakes — the largest group here.'],
     ua: ['Десерти з низьким ГІ', 'Чізкейки, морозиво та сирні торти — найбільша добірка.'] },
   { g: 'type', v: 'snack', n: nCat('snack'),
     en: ['Low-GI snacks', 'Flour-free cookies, dried-fruit sweets and beetroot crisps.'],
-    ua: ['Перекуси з низьким ГІ', 'Печиво без борошна, цукерки із сухофруктів і бурякові чипси.'] },
+    ua: ['Перекуси з низьким ГІ', 'Печиво без борошна, цукерки з сухофруктів і бурякові чипси.'] },
   { g: 'type', v: 'bread', n: nCat('bread'),
     en: ['Low-GI bread', 'Wholegrain and slow-proved sourdough loaves.'],
-    ua: ['Хліб з низьким ГІ', 'Цільнозерновий і заквасковий хліб довгого бродіння.'] },
+    ua: ['Хліб з низьким ГІ', 'Цільнозерновий хліб і хліб на заквасці довгого бродіння.'] },
   { g: 'type', v: 'sauce', n: nCat('sauce'),
     en: ['Jams and sauces', 'Chia jams and rhubarb preserves set without sugar.'],
-    ua: ['Джеми та соуси', 'Джеми з чіа та ревеню, зварені без цукру.'] },
+    ua: ['Джеми та соуси', 'Джеми з чіа та варення з ревеню — без цукру.'] },
   { g: 'diet', v: 'sugar-free', n: nDiet('sugar-free'),
     en: ['Sugar-free recipes', 'Sweetened with erythritol, stevia or a little honey — never refined sugar.'],
-    ua: ['Рецепти без цукру', 'З еритритолом, стевією або трохи меду — без рафінованого цукру.'] },
+    ua: ['Рецепти без цукру', 'Підсолоджені еритритолом, стевією чи невеликою кількістю меду — ніколи рафінованим цукром.'] },
   { g: 'diet', v: 'low-carb', n: nDiet('low-carb'),
     en: ['Low-carb recipes', 'The smallest carbohydrate load per portion.'],
     ua: ['Низьковуглеводні рецепти', 'Найменше вуглеводів на порцію.'] },
@@ -100,7 +100,7 @@ const COLLECTIONS = [
     ua: ['Рецепти без глютену', 'На мигдалевому, гречаному та кокосовому борошні.'] },
   { g: 'diet', v: 'dairy-free', n: nDiet('dairy-free'),
     en: ['Dairy-free recipes', 'Made without milk, cream or cottage cheese.'],
-    ua: ['Рецепти без молочного', 'Приготовані без молока, вершків і сиру.'] },
+    ua: ['Рецепти без молочних продуктів', 'Приготовані без молока, вершків і сиру.'] },
   { g: 'diet', v: 'vegetarian', n: nDiet('vegetarian'),
     en: ['Vegetarian recipes', 'No meat or fish.'],
     ua: ['Вегетаріанські рецепти', 'Без м’яса та риби.'] },
@@ -126,7 +126,7 @@ const INITIAL = 18;
 const EAGER = 4;
 
 const TYPE_CHIPS = [
-  { v: 'breakfast', en: 'Breakfast', ua: 'Сніданки' }, { v: 'main', en: 'Mains', ua: 'Основні' },
+  { v: 'breakfast', en: 'Breakfast', ua: 'Сніданки' }, { v: 'main', en: 'Mains', ua: 'Основні страви' },
   { v: 'dessert', en: 'Desserts', ua: 'Десерти' }, { v: 'baking', en: 'Baking', ua: 'Випічка' },
   { v: 'snack', en: 'Snacks', ua: 'Перекуси' }, { v: 'bread', en: 'Bread', ua: 'Хліб' },
   { v: 'sauce', en: 'Sauces', ua: 'Соуси' }, { v: 'drink', en: 'Drinks', ua: 'Напої' },
@@ -150,20 +150,20 @@ const T = {
   eyebrow: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI Recipes',
   h1: lang === 'ua' ? 'Рецепти з низьким ГІ' : 'Low-GI recipes',
   lede: lang === 'ua'
-    ? `Страви, дружні до рівня цукру в крові, для жінок 40+ — випічка без цукру, низьковуглеводні страви, сніданки й десерти, кожен з оціненим ГІ на картці. Українською та англійською; будь-який рецепт можна додати до спільного списку покупок.`
+    ? `Рецепти для жінок 40+, які допомагають тримати цукор у крові рівним: випічка без цукру, низьковуглеводні основні страви, сніданки й десерти — з орієнтовним ГІ на кожній картці. Написані у Великій Британії, українською та англійською; будь-який рецепт можна додати до спільного списку покупок.`
     : `Blood-sugar-friendly recipes for women 40+ — sugar-free bakes, low-carb mains, breakfasts and desserts, each with an estimated GI on the card. Written in the UK, in English and Ukrainian; add any recipe to one combined shopping list.`,
 
   // GI explainer. The plaque is the number the whole section exists for and
   // nothing on the page said what it was.
   giH: lang === 'ua' ? 'Що означає число на кожному фото' : 'What the number on each photograph means',
   giP: lang === 'ua'
-    ? `Табличка в кутку кожної картки — це оцінений глікемічний індекс рецепта: наскільки швидко вуглеводи однієї порції піднімають рівень глюкози в крові за шкалою, де чиста глюкоза дорівнює 100. Із ${PUBLISHED.length} рецептів тут ${giLow} мають 55 або менше, і жоден не піднімається вище ${giMax}.`
+    ? `Табличка в кутку кожної картки — це орієнтовний глікемічний індекс рецепта: наскільки швидко вуглеводи однієї порції зазвичай підвищують рівень глюкози в крові за шкалою, де чиста глюкоза дорівнює 100. Із ${PUBLISHED.length} рецептів тут ${giLow} мають ГІ 55 або менше, і в жодного він не перевищує ${giMax}.`
     : `The plaque in the corner of every card is that recipe's estimated glycaemic index — how quickly the carbohydrate in one portion tends to lift blood glucose, on a scale where pure glucose is 100. Of the ${PUBLISHED.length} recipes here, ${giLow} come in at 55 or under, and none goes above ${giMax}.`,
   giBands: lang === 'ua'
-    ? [['0–55', 'Низький', 'Повільне, рівне підвищення.'], ['56–69', 'Середній', 'Помірне підвищення.'], ['70+', 'Високий', 'Швидкий стрибок — таких тут немає.']]
+    ? [['0–55', 'Низький', 'Повільне, рівне підвищення.'], ['56–69', 'Середній', 'Помірне підвищення.'], ['70+', 'Високий', 'Швидкий стрибок — таких рецептів тут немає.']]
     : [['0–55', 'Low', 'A slow, steady rise.'], ['56–69', 'Medium', 'A moderate rise.'], ['70+', 'High', 'A fast spike — nothing on this page sits here.']],
   giFineA: lang === 'ua'
-    ? 'Це оцінки для рецепта в тому вигляді, як він написаний, а не лабораторні виміри: розмір порції, стиглість продуктів і те, що ви їсте разом, змінюють реальне число. Показники для окремих продуктів — у '
+    ? 'Це оцінки для рецепта саме в тому вигляді, як його записано, а не лабораторні виміри: розмір порції, стиглість продуктів і те, з чим ви їх поєднуєте, змінюють реальне число. Показники для окремих продуктів — у '
     : 'These are estimates for the recipe as written, not laboratory measurements: portion size, ripeness and what you eat alongside all move the real number. The per-ingredient figures are in the ',
   giFineLink: lang === 'ua' ? 'таблиці вуглеводів і ГІ' : 'carb & GI table',
   giFineB: lang === 'ua' ? '.' : '.',
@@ -175,10 +175,10 @@ const T = {
 
   ukH: lang === 'ua' ? 'Про міри та інгредієнти' : 'Cooking these in a UK kitchen',
   ukP1: lang === 'ua'
-    ? 'Температури духовки вказані в °C. Підсолоджувачі — еритритол, ксиліт і стевія; мигдалеве, гречане й лляне борошно та цільнозернове пшеничне борошно теж є у звичайних магазинах.'
+    ? 'Рецепти написані й випробувані у Великій Британії, тому температуру духовки вказано в °C, а підсолоджувачі — ті, що справді продаються в британських супермаркетах і магазинах здорового харчування: еритритол, ксиліт і стевія. Мелений мигдаль, лляне насіння та цільнозернове пшеничне борошно там теж звичайні товари на полиці.'
     : 'These are written and cooked in the UK, so oven temperatures are in °C and the sweeteners are the ones British supermarkets and health-food shops actually stock — erythritol, xylitol and stevia. Ground almonds, flaxseed and wholegrain wheat flour are ordinary shelf items here too.',
   ukP2: lang === 'ua'
-    ? 'Усі міри — метричні. Там, де рецепт прийшов з lenafilatova.com в американських «cup», попереду тепер стоять мілілітри, а вихідна чашка залишилася в дужках: 240 мл (1 склянка).'
+    ? 'Усі міри — метричні. Якщо рецепт із lenafilatova.com був записаний в американських чашках, тепер першими йдуть мілілітри, а початкова міра лишилася в дужках — 240 мл (1 склянка), тож нічого не втрачено, якщо ви звикли міряти склянками.'
     : 'Every measure here is metric. Where a recipe came over from lenafilatova.com in American cups, the millilitres now lead and the original cup stays in brackets — 240 ml (1 cup) — so nothing is lost if you already cook these by cup.',
   typeLabel: lang === 'ua' ? 'Тип' : 'Type',
   dietLabel: lang === 'ua' ? 'Дієта' : 'Diet',
@@ -197,7 +197,7 @@ const T = {
   mpCta: 'Отримати систему',
 
   foot: lang === 'ua'
-    ? 'Рецепти адаптовано з lenafilatova.com. Примітки щодо ГІ мають загальний характер і не замінюють медичну чи дієтичну консультацію.'
+    ? 'Рецепти адаптовано з lenafilatova.com. Примітки щодо ГІ мають загальний характер і не замінюють індивідуальної консультації лікаря чи дієтолога.'
     : 'Recipes adapted from lenafilatova.com. GI notes are for general guidance, not personalised medical or dietary advice.',
 };
 ---
