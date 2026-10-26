@@ -1,0 +1,5 @@
+# tool--blood-sugar-investigator
+
+- Last checked: 2026-10-26
+- PR: (this PR)
+- Notes: First proofread of `public/blood-sugar-investigator-ua/index.html`. Covered `STR.ua` (every question, option, result and tip), `UI.ua`, and the head meta. The chrome markers and the generated OPS-304 JSON-LD were left alone. Compared against `STR.en`. No omissions or wrong meanings, apart from one added word ("житній" in the sourdough swap). 135 text fixes: grammar and agreement (розмите зір, dangling participles), the non-standard «корегувати» changed to «коригувати», «співвідношення інсулін-вуглеводи» changed to «вуглеводний коефіцієнт», «сплутаність» changed to «сплутаність свідомості», «вилікуйте гіпо» changed to «усуньте гіпо», calques from English ("Чи ви…", "Розгляньте…", "огляд завантаження CGM", "міксери для алкоголю", "сумнозвісно") and colloquialisms (щитоподібка, рахується). 55 straight apostrophes changed to ’. The informal «гіпо» is kept on purpose: it is the community's word and appears all through the tool. No numbers, doses or thresholds changed.
