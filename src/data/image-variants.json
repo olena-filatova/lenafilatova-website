@@ -297,6 +297,24 @@
       ]
     ]
   },
+  "/images/daily-spf-after-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/daily-spf-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/daily-spf-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/daily-spf-after-40-1200.avif"
+      ]
+    ]
+  },
   "/images/depression-in-perimenopause.jpg": {
     "w": 1200,
     "h": 675,
@@ -1290,6 +1308,24 @@
       [
         1200,
         "/images/v/mind-diet-sleep-mood-type-2-diabetes-women-1200.avif"
+      ]
+    ]
+  },
+  "/images/morning-highs-type-1-perimenopause.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/morning-highs-type-1-perimenopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/morning-highs-type-1-perimenopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/morning-highs-type-1-perimenopause-1200.avif"
       ]
     ]
   },
