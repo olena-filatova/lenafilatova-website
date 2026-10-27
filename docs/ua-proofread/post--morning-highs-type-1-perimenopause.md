@@ -1,0 +1,5 @@
+# post--morning-highs-type-1-perimenopause
+
+- Last checked: 2026-10-27
+- PR: (this PR)
+- Notes: First proofread of the `ua` object (title, imageAlt, excerpt, lead, all 44 blocks, FAQ, links, refs), compared with EN paragraph by paragraph. 75 text fixes + 15 straight apostrophes changed to ’. Main themes: the Somogyi rebound was called «відкат» — changed to the standard clinical term «рикошет» (рикошетна гіперглікемія) everywhere in this post; the lead's «лягаєте на сімці / прокидаєтесь на десятці» read like clock times and is now explicitly glucose 7 → 10–11; «гібридна замкнена петля» changed to «гібридна система із замкненим контуром» (site-wide term); «план на дні хвороби» changed to «план на випадок хвороби»; English calques («прокидаєтесь високо», «перестрибує», «полювання на гіпоглікемію», «кандидати», «дивовижне речення»); the CGM mention that was dropped from block 5 is restored. No numbers, links or medical claims changed. Other posts still use «відкат» for the Somogyi rebound (e.g. night-sweats-or-hypo); worth aligning in a later pass.
