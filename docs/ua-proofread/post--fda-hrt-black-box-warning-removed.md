@@ -1,16 +1,5 @@
 # post--fda-hrt-black-box-warning-removed
 
-- Last checked: 2026-09-28
+- Last checked: 2026-10-28
 - PR: (this PR)
-- Notes: UA text tracked the EN paragraph-for-paragraph well; no meaning
-  distortions found. Fixed 14 straight apostrophes (`'` → typographic `’`,
-  the site convention) across the body text, refs and FAQ, including inside
-  the embedded English phrase "Women's Health Initiative". Rewrote the
-  ambiguous "Терапія лише естрогеном у цій самій групі з підвищеним ризиком
-  не пов'язана" (twice — once in body, once in the matching refs detail) to
-  "У тій самій групі терапія лише естрогеном не пов'язана з підвищеним
-  ризиком", since the original word order read as "therapy in [a] group
-  with elevated risk" rather than the intended "therapy is not associated
-  with elevated risk". Naturalised "хитання маятника" to "коливання
-  маятника" (more idiomatic collocation for "pendulum swing") in both
-  occurrences.
+- Notes: Second pass (new cycle). 20 fixes — no meaning, numbers or links changed. Euphony "з ЗГТ" → "із ЗГТ" (title, seoTitle); "листок-вкладиш" for the patient leaflet instead of "вкладка"; "експертна панель" → "експертна група"; "перша партія" (reads as a manufacturing batch) → "перша група"/"перший пакет"; "несуть попередження" → "мають попередження"; restored "benefit-to-risk balance" as "співвідношення користі й ризику"; "follow-up study" now "подальше дослідження" instead of "спостереження"; fixed case agreement after "настановою … опублікованою" when rephrasing to "ґрунтується на настанові"; word-order and passive-voice tidy-ups.
