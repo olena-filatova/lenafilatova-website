@@ -1,5 +1,5 @@
 # UA proofread: post--gut-bacteria-appetite-blood-sugar
 
-- Last checked: 2026-09-28
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/264
-- Notes: Checked the `ua` object in `src/data/posts/gut-bacteria-appetite-blood-sugar.js` paragraph by paragraph against `en`. Overall translation quality was high and faithful to the English; no meaning-changing errors found. Fixed: 3 inconsistent apostrophe characters in "п'ятиштамов-" (wrong Unicode modifier-letter apostrophe ʼ mixed with the file's standard straight apostrophe '), one non-idiomatic collocation ("зробити вирішальний голос" → "сказати вирішальне слово"), one unnatural/rare word ("знеохочувально" → "невтішно"), and two awkward calque-y sentence constructions reworded for natural flow. No numbers, doses, study facts, URLs, or medical meaning were touched.
+- Last checked: 2026-10-28
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/466
+- Notes: Second-cycle pass of the `ua` object against `en`. 42 fixes: 1 grammar (plural agreement «фраз, що трапляються»), 1 wrong word («прикордонне» = border → «на межі значущості»), 2 spelling («повздовжній» → «поздовжній»), ~14 calques of English "shift/move through you/half" («зсуває», «рухається крізь вас», «практична половина», «відкочується»), ~20 clumsy literal phrasings reworded (headings, «гіпотезна праця», «з маркетингом за спиною», «на експериментальному краї», related-reading descriptions), 1 terminology («безперервні монітори глюкози» → «сенсори безперервного моніторингу глюкози (CGM)»), 3 style/register. No numbers, study facts, URLs or medical meaning changed.
