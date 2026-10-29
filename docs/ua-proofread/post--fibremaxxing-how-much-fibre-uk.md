@@ -1,5 +1,5 @@
 # post--fibremaxxing-how-much-fibre-uk
 
-- Last checked: 2026-09-28
+- Last checked: 2026-10-29
 - PR: (this PR)
-- Notes: 8 fixes. (1) Consistency: this post was the only one on the whole site addressing the reader directly with capitalized formal "Ви/Ваш/Вас" (a personal-letter convention); one paragraph in the same post already used lowercase "ви" for the same address. Lowercased all 6 occurrences ("Ви"→"ви" in the h2 and body, "Ваші"→"ваші", "Вас"→"вас", "Ваш"→"ваш") to match site-wide and internal-article convention. (2) Calque, 2 occurrences: "старший викладач наук про життя Вестмінстерського університету" stacked two genitives (a literal rendering of English "of ... of ..."), read as "life sciences OF the university" rather than "AT the university"; fixed to "...наук про життя у Вестмінстерському університеті" in both the body paragraph and the matching refs item. No other issues found; UA meaning matches EN paragraph by paragraph, numbers/figures untouched.
+- Notes: 20 fixes, second pass (first pass 2026-09-28). Calques rewritten ("ви йдете далі, ніж вони закінчуються", "Фраза, яка тримає", "робить ту саму роботу", "як лягають ваші дози", "межові показники"); meaning drift fixed ("майже вся країна" → "більшість людей у країні", matching EN "most of the country"); predicate case (метаболічними), ціль→мета, repeated "підставу/підставі", elliptical dash in title, "від … до" in CI/Spearman ranges, verb agreement in the kefir related-link title. No numbers, URLs or facts changed.
