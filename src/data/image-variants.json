@@ -1053,6 +1053,24 @@
       ]
     ]
   },
+  "/images/itchy-skin-after-40-diabetes.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/itchy-skin-after-40-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/itchy-skin-after-40-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/itchy-skin-after-40-diabetes-1200.avif"
+      ]
+    ]
+  },
   "/images/kefir-fibre-synbiotic-inflammation.jpg": {
     "w": 1200,
     "h": 675,
