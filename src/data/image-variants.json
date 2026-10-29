@@ -243,6 +243,24 @@
       ]
     ]
   },
+  "/images/cgm-sensor-skin-reactions.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/cgm-sensor-skin-reactions-480.avif"
+      ],
+      [
+        800,
+        "/images/v/cgm-sensor-skin-reactions-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/cgm-sensor-skin-reactions-1200.avif"
+      ]
+    ]
+  },
   "/images/clinical-trials-women-over-40.jpg": {
     "w": 1200,
     "h": 675,
