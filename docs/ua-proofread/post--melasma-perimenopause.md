@@ -1,19 +1,5 @@
 # post--melasma-perimenopause
 
-- **Last checked:** 2026-09-28
-- **PR:** (this PR)
-- **Notes:** Apostrophes already correct (`’`) throughout; no russianisms or
-  surzhyk found. Fixed one meaning distortion ("не як той самий чинник" →
-  "не як головний чинник" — EN "not the factor" was mistranslated as "not
-  the same factor", which made the sentence nonsensical). Restored one
-  content omission by adding the untranslated NHS-advice sentence ("see a GP
-  for any new dark patch you cannot explain...") that was missing from the UA
-  paragraph on acanthosis nigricans. Restored "dermatologist" in the closing
-  paragraph, dropped from "до лікаря" where EN says "a GP or a dermatologist".
-  Added "за Фіцпатриком" and "у Великій Британії" to two spots where UA
-  dropped a specific detail (Fitzpatrick skin types; that the treatment
-  availability discussion is about the UK) present in the EN. Reworded one
-  calque-y sentence ("Саме цю частину перименопаузальна версія зазвичай
-  пропускає" → more natural word order) and one awkward heading ("Що це буває
-  частіше" → "Чим це частіше буває"). No numbers, doses, study facts, or
-  citations changed.
+- Last checked: 2026-10-29
+- PR: (this PR)
+- Notes: Second cycle, 54 fixes, mostly calques and clumsy literal phrasing. Restored the NHS source link in the acanthosis nigricans paragraph (present in EN, missing in UA); completed an elliptical sentence missing its noun («трапляються й рідкісні» → «бувають і рідкісні причини»); restored "in the UK" in the hydroquinone FAQ question and the "here" (UK) in the treatment paragraph; GP → «сімейний лікар» where EN says GP; calculator link renamed to the site's usual «калькулятор впливу їжі на метаболізм». Calques fixed: «дзеркалить себе» (2×), «лікування розходиться», «відповідає на процедури», «провело сорок двох жінок через літо», «Тонована пішла з 4,0 до 3,5», «рівність тону» → «рівномірність кольору» (4×), «на 15% краще покращення», «при тому самому світлі», «Як виглядає «працює»», «Ось цю читачка цього сайту має впізнавати», among others. No numbers, doses, study facts or URLs changed.
