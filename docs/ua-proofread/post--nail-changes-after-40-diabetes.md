@@ -1,5 +1,5 @@
 # post--nail-changes-after-40-diabetes
 
-- Last checked: 2026-09-28
+- Last checked: 2026-10-30
 - PR: (this PR)
-- Notes: 6 fixes. Punctuation: 16 straight apostrophes (`'`) in words like "бар'єр", "здоров'я", "пов'язаних", "зв'язок" replaced site-wide within this post with the required curly `’`. Meaning drift: a table row translating "yellow-brown colour in a toenail" had dropped "nail" entirely ("жовто-коричневий колір на нозі" → "...забарвлення нігтя на нозі"), which could read as skin discolouration on the leg. Calque/word-choice: "базовий сценарій" (base case) → "практично норма"; grammatically awkward "лікувати ... місяцями таблеток" → "багатомісячним курсом таблеток", and "не безризиково" → "не без ризику"; "неромантичне й робоче" (unglamorous, a mistranslation toward "unromantic") → "непоказне, але діє". No numbers, doses or study facts changed.
+- Notes: Second pass, 30 fixes. Calques: "Що X робить — …", "Що він пояснює — так це…", "поставлене до волосся" rewritten. Russianisms: "йдуть по добавки" → "за добавками", "тягнетеся по біотин" → "до біотину", "виступаючі головки" → "виступні". For consistency with the rest of the site: "цукор крові" → "цукор у крові" (including the tool link text, now «дослідник цукру в крові» to match the tool's title) and "діабетична команда" → "команда, яка веде ваш діабет". Restored one EN nuance that had been dropped ("deserves more attention *than it gets*"; "survives *with a control group*"). Added missing commas before dashes and fixed the non-word "вимірювано". No numbers, facts, links or structure changed.
