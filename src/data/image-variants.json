@@ -315,6 +315,24 @@
       ]
     ]
   },
+  "/images/cosmetic-treatments-with-diabetes.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/cosmetic-treatments-with-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/cosmetic-treatments-with-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/cosmetic-treatments-with-diabetes-1200.avif"
+      ]
+    ]
+  },
   "/images/creatine-women-over-40.jpg": {
     "w": 1200,
     "h": 675,
