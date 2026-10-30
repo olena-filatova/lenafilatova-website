@@ -1,5 +1,5 @@
 # post--pelvic-floor-training-perimenopause
 
-- Last checked: 2026-09-28
-- PR: (this PR)
-- Notes: Content and terminology were solid; main issue was mechanical. 42 straight apostrophes (') in the `ua` block were converted to the correct Ukrainian typographic apostrophe (’) to match the rest of the site — the `en` block's English apostrophes were left untouched. Also fixed two number/ordinal formatting inconsistencies against the sitewide convention: "2994"/"3000" → "2 994"/"3 000" (thousands separator), and "На 12 тижні" / "з 6–8 тижня" → "На 12-му тижні" / "з 6–8-го тижня" (ordinal suffix, as used elsewhere on the site, e.g. "на 8-му тижні", "на 48-му тижні"). No terminology, meaning, or fact changes.
+- Last checked: 2026-10-30
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/478
+- Notes: Second pass, 37 fixes. Mostly calques left over from English: "a common thing made somewhat more common", "two words carry most of the weight", "intuitive story", "feature of the population", "fitness conversation" were rewritten as natural Ukrainian. Restored one meaning lost from EN ("the evidence is *better* than the silence suggests"). Fixed "пошукати по трасту" → "на сайті трасту", the non-normative participle "розчаровуючий" → "розчарувальний", gender agreement ("єдиним із чотирьох, яке" → "станів, на який"), "Крупним планом" → "Великим планом", and a few word-order and clarity edits in the FAQ and reference details. No numbers, facts, links or structure changed.
