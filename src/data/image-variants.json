@@ -1761,6 +1761,24 @@
       ]
     ]
   },
+  "/images/rosacea-or-hot-flush-menopause.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/rosacea-or-hot-flush-menopause-480.avif"
+      ],
+      [
+        800,
+        "/images/v/rosacea-or-hot-flush-menopause-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/rosacea-or-hot-flush-menopause-1200.avif"
+      ]
+    ]
+  },
   "/images/semalean-semaglutide-muscle-women.jpg": {
     "w": 1200,
     "h": 675,
