@@ -30,7 +30,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The reason you cannot have one is specific and worth stating plainly: the studies that measured caffeine against a placebo and watched what happened to glucose were done in people with type 2 diabetes — not type 1. The best of them, from Duke University, gave twenty adults with type 2 diabetes 250 mg of caffeine in decaffeinated coffee before a mixed meal, then the same meal with decaf alone. The two-hour glucose response was [28% larger on the caffeine day](https://pubmed.ncbi.nlm.nih.gov/17599854/), and insulin was 19% higher too. Everyone in it was already a habitual coffee drinker, so tolerance did not protect them."
+        "text": "The reason you cannot have one is specific and worth stating plainly: the studies that gave caffeine against a placebo before a meal and measured the after-meal glucose rise were done in people with type 2 diabetes — not type 1. The best of them, from Duke University, gave twenty adults with type 2 diabetes 250 mg of caffeine in decaffeinated coffee before a mixed meal, then the same meal with decaf alone. The two-hour glucose response was [28% larger on the caffeine day](https://pubmed.ncbi.nlm.nih.gov/17599854/), and insulin was 19% higher too. Everyone in it was already a habitual coffee drinker, so tolerance did not protect them."
       },
       {
         "t": "p",
@@ -134,7 +134,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is the part I did not expect when I went looking. The common worry is that coffee late in the day makes overnight control worse. The only randomised trial that has tested caffeine against placebo overnight in type 1 diabetes, using continuous glucose sensing, found the opposite."
+        "text": "Here is the part I did not expect when I went looking. The common worry is that coffee late in the day makes overnight control worse. The only randomised trial set up to compare caffeine with placebo for night-time lows in type 1 diabetes, using continuous glucose sensing, found the opposite."
       },
       {
         "t": "p",
@@ -142,11 +142,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "That fits a longer line of work from the same centre. In laboratory studies, modest amounts of caffeine made the symptoms of a low [more intense and easier to notice](https://pubmed.ncbi.nlm.nih.gov/11475292/), in both people with type 1 diabetes and healthy volunteers, and those researchers went as far as suggesting caffeine might be useful for people who have lost their hypo warning signs. A follow-up asked whether regular use blunts the effect and concluded that [complete tolerance does not develop](https://pubmed.ncbi.nlm.nih.gov/12653691/)."
+        "text": "That fits a longer line of work from the same centre. In laboratory studies, modest amounts of caffeine made the symptoms of a low [more intense and easier to notice](https://pubmed.ncbi.nlm.nih.gov/11475292/), in both people with type 1 diabetes and healthy volunteers, and those researchers went as far as suggesting caffeine might be useful for people who have lost their hypo warning signs. A follow-up in healthy volunteers asked whether regular use blunts the effect and concluded that [complete tolerance does not develop](https://pubmed.ncbi.nlm.nih.gov/12653691/)."
       },
       {
         "t": "p",
-        "text": "Three honest caveats, because this is the sort of finding that gets over-sold. Nineteen people is a small trial. It was published in 2005, before current sensors, pumps and insulins, and nothing like it has been repeated since. And it has never become a recommendation anywhere — no guideline suggests drinking coffee to manage lows, and I am not suggesting it either. What it does do is take the night-time worry off the list. If you avoid an evening coffee because you are afraid of what it will do to your overnight numbers, the only direct evidence points the other way."
+        "text": "Three honest caveats, because this is the sort of finding that gets over-sold. Nineteen people is a small trial. It was published in 2005, before current sensors, pumps and insulins, and nothing like it has been repeated since. And it has never become a recommendation anywhere — no guideline suggests drinking coffee to manage lows, and I am not suggesting it either. What it does do is take most of the night-time worry off the list. The one exception is a large dose before exercise: in a small 2016 trial, about 6 mg of caffeine per kg before afternoon exercise left glucose [lower early the next morning](https://pubmed.ncbi.nlm.nih.gov/26173655/), so watch that night more closely. If you avoid an evening coffee because you are afraid of what it will do to your overnight numbers, the most direct evidence points the other way."
       },
       {
         "t": "h",
@@ -186,18 +186,18 @@ export default {
           {
             "claim": "Caffeine in coffee enlarged the post-meal glucose rise by 28% — in type 2 diabetes.",
             "detail": "A within-subject, double-blind, placebo-controlled study at Duke University gave twenty adults with type 2 diabetes, all habitual coffee drinkers, 250 mg of caffeine in 475 ml of decaffeinated coffee or decaffeinated coffee alone before a mixed-meal tolerance test. Mean plasma glucose area under the curve over two hours was 28% larger after caffeine, and insulin 19% larger (both P = 0.02). The authors note that other constituents of coffee did not offset the effect. This is the clearest evidence that caffeine can enlarge a post-meal rise — and it is not evidence about type 1 diabetes, where no equivalent trial has been done.",
-            "cite": "Endocrine Practice · Randomised crossover trial, 2007",
+            "cite": "Endocrine Practice · Placebo-controlled crossover study, 2007",
             "url": "https://pubmed.ncbi.nlm.nih.gov/17599854/"
           },
           {
-            "claim": "In the only randomised overnight trial in type 1 diabetes, caffeine shortened night-time hypoglycaemia.",
+            "claim": "In the only randomised trial of caffeine and night-time lows in type 1 diabetes, caffeine shortened night-time hypoglycaemia.",
             "detail": "Nineteen patients with long-standing type 1 diabetes took caffeine or placebo in doses equivalent to normal daily intake, in a double-blind randomised design using continuous interstitial glucose monitoring with simultaneous Holter assessment of autonomic function. Mean duration of nocturnal hypoglycaemia was 49 minutes (range 0–235) on caffeine against 132 minutes (0–468) on placebo, P = 0.035 — driven by fewer moderate episodes and more mild ones, P = 0.04. There was no correlation with reduced heart rate variability, so the benefit was not explained by caffeine's effect on parasympathetic activity. Small, from 2005, never replicated, and never translated into any guideline.",
             "cite": "Diabetes Care · Double-blind randomised trial, 2005",
             "url": "https://pubmed.ncbi.nlm.nih.gov/15920045/"
           },
           {
             "claim": "Caffeine makes the symptoms of a low more noticeable.",
-            "detail": "A review from the same Bournemouth group summarises the laboratory evidence that acute caffeine markedly enhances the symptomatic and sympathoadrenal responses to hypoglycaemia in both healthy volunteers and people with type 1 diabetes, by constricting cerebral arteries, increasing brain glucose metabolism and augmenting catecholamine production. It concludes that in modest doses caffeine may be a useful adjuvant for hypoglycaemia unawareness. A later clamp study in eleven habitual consumers found that complete tolerance does not develop with sustained use, although which symptoms are amplified depends on how long the low has lasted.",
+            "detail": "A review from the same Bournemouth group summarises the laboratory evidence that acute caffeine markedly enhances the symptomatic and sympathoadrenal responses to hypoglycaemia in both healthy volunteers and people with type 1 diabetes, by constricting cerebral arteries, increasing brain glucose metabolism and augmenting catecholamine production. It concludes that in modest doses caffeine may be a useful adjuvant for hypoglycaemia unawareness. A later clamp study in eleven healthy habitual caffeine consumers found that complete tolerance does not develop with sustained use, although how intensely symptoms are felt depends on how long the low has lasted.",
             "cite": "Diabetes Technology & Therapeutics · Review, 1999; Clinical Science · Clamp study, 2003",
             "url": "https://pubmed.ncbi.nlm.nih.gov/11475292/"
           },
@@ -209,7 +209,7 @@ export default {
           },
           {
             "claim": "People who drink coffee have a lower long-term risk of type 2 diabetes — which is a different question from what one cup does to one morning.",
-            "detail": "A dose-response meta-analysis of 26 prospective studies, 42 cohorts, 3.7 million participants and 93,706 cases or deaths found caffeinated coffee consumption inversely associated with incidence of type 2 diabetes (RR 0.90, 95% CI 0.85–0.96) and with cardiovascular disease (RR 0.90, 0.84–0.96), with risk falling linearly across the range for most outcomes. This sits oddly next to the acute trials until you notice they are measuring different things: a lifetime habit in the general population, against a single dose in people who already have diabetes. Observational, so association rather than cause, and it says nothing about type 1.",
+            "detail": "A dose-response meta-analysis of 26 prospective studies, 42 cohorts, 3.7 million participants and 93,706 cases or deaths found caffeinated coffee consumption inversely associated with incidence of type 2 diabetes (RR 0.90 for any coffee against none, 95% CI 0.85–0.96) and with cardiovascular disease (RR 0.90, 0.84–0.96), with risk falling linearly across the range for most outcomes. This sits oddly next to the acute trials until you notice they are measuring different things: a lifetime habit in the general population, against a single dose in people who already have diabetes. Observational, so association rather than cause, and it says nothing about type 1.",
             "cite": "Advances in Nutrition · Dose-response meta-analysis, 2021",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321867/"
           }
@@ -263,7 +263,7 @@ export default {
       },
       {
         "q": "Is coffee before bed bad for overnight blood sugar with type 1 diabetes?",
-        "a": "The only randomised trial that has tested this found the opposite of what most people assume: in nineteen adults with long-standing type 1 diabetes, caffeine shortened the duration of night-time hypoglycaemia to a mean of 49 minutes against 132 on placebo, apparently by making episodes easier to notice earlier. It is a small study from 2005 and it has never been repeated or turned into advice, so treat it as a reason not to worry rather than a reason to drink coffee at 10 p.m. The clearer risk from a late coffee is sleep: as little as 100 mg can delay sleep onset in some adults, and broken sleep does tend to show up in the next morning's numbers."
+        "a": "The only randomised trial set up to look at caffeine and night-time lows in type 1 diabetes found the opposite of what most people assume: in nineteen adults with long-standing type 1 diabetes, caffeine shortened the duration of night-time hypoglycaemia to a mean of 49 minutes against 132 on placebo, apparently by making episodes easier to notice earlier. It is a small study from 2005 and it has never been repeated or turned into advice, so treat it as a reason not to worry rather than a reason to drink coffee at 10 p.m. The clearer risk from a late coffee is sleep: as little as 100 mg can delay sleep onset in some adults, and broken sleep does tend to show up in the next morning's numbers."
       },
       {
         "q": "Does coffee before exercise change how my glucose behaves?",
@@ -299,7 +299,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Причина, чому його немає, цілком конкретна, і її варто назвати прямо: дослідження, які порівнювали кофеїн із плацебо і стежили за глюкозою, проводили за участю людей із діабетом 2 типу, а не 1 типу. У найкращому з них, проведеному в Університеті Дьюка, двадцятеро дорослих із діабетом 2 типу отримали 250 мг кофеїну в каві без кофеїну перед змішаним прийомом їжі, а іншого дня — ту саму їжу лише з декафом. Двогодинна реакція глюкози була [на 28% більшою в день із кофеїном](https://pubmed.ncbi.nlm.nih.gov/17599854/), інсуліну — на 19% більше. Усі учасники й до того регулярно пили каву, тож звикання їх не захистило."
+        "text": "Причина, чому його немає, цілком конкретна, і її варто назвати прямо: дослідження, які давали кофеїн або плацебо перед їжею і вимірювали підйом глюкози після неї, проводили за участю людей із діабетом 2 типу, а не 1 типу. У найкращому з них, проведеному в Університеті Дьюка, двадцятеро дорослих із діабетом 2 типу отримали 250 мг кофеїну в каві без кофеїну перед змішаним прийомом їжі, а іншого дня — ту саму їжу лише з декафом. Двогодинна реакція глюкози була [на 28% більшою в день із кофеїном](https://pubmed.ncbi.nlm.nih.gov/17599854/), інсуліну — на 19% більше. Усі учасники й до того регулярно пили каву, тож звикання їх не захистило."
       },
       {
         "t": "p",
@@ -403,7 +403,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "А ось чого я не очікувала, коли почала шукати. Поширене побоювання — що кава ввечері погіршує нічний контроль. Єдине рандомізоване випробування, яке порівнювало кофеїн із плацебо вночі при діабеті 1 типу з безперервним моніторингом глюкози, виявило протилежне."
+        "text": "А ось чого я не очікувала, коли почала шукати. Поширене побоювання — що кава ввечері погіршує нічний контроль. Єдине рандомізоване випробування, яке порівнювало кофеїн із плацебо щодо нічних гіпоглікемій при діабеті 1 типу з безперервним моніторингом глюкози, виявило протилежне."
       },
       {
         "t": "p",
@@ -411,11 +411,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це узгоджується з багаторічною серією робіт того ж центру. У лабораторних дослідженнях помірні дози кофеїну робили симптоми гіпоглікемії [виразнішими й помітнішими](https://pubmed.ncbi.nlm.nih.gov/11475292/) і в людей із діабетом 1 типу, і у здорових добровольців, а автори навіть припускали, що кофеїн міг би стати в пригоді тим, хто втратив відчуття наближення гіпоглікемії. Подальша робота перевіряла, чи постійне вживання притуплює ефект, і дійшла висновку, що [повного звикання не розвивається](https://pubmed.ncbi.nlm.nih.gov/12653691/)."
+        "text": "Це узгоджується з багаторічною серією робіт того ж центру. У лабораторних дослідженнях помірні дози кофеїну робили симптоми гіпоглікемії [виразнішими й помітнішими](https://pubmed.ncbi.nlm.nih.gov/11475292/) і в людей із діабетом 1 типу, і у здорових добровольців, а автори навіть припускали, що кофеїн міг би стати в пригоді тим, хто втратив відчуття наближення гіпоглікемії. Подальша робота за участю здорових добровольців перевіряла, чи постійне вживання притуплює ефект, і дійшла висновку, що [повного звикання не розвивається](https://pubmed.ncbi.nlm.nih.gov/12653691/)."
       },
       {
         "t": "p",
-        "text": "Три чесні застереження, бо саме такі результати найчастіше перебільшують. Дев’ятнадцять осіб — це мале випробування. Його опублікували 2005 року, до нинішніх сенсорів, помп та інсулінів, і відтоді нічого подібного не повторювали. І воно ніде не стало рекомендацією — жодна настанова не радить пити каву для боротьби з гіпоглікеміями, і я цього теж не раджу. Але воно знімає зі списку нічні побоювання. Якщо ви уникаєте вечірньої кави зі страху за нічні цифри, єдині прямі дані вказують у протилежний бік."
+        "text": "Три чесні застереження, бо саме такі результати найчастіше перебільшують. Дев’ятнадцять осіб — це мале випробування. Його опублікували 2005 року, до нинішніх сенсорів, помп та інсулінів, і відтоді нічого подібного не повторювали. І воно ніде не стало рекомендацією — жодна настанова не радить пити каву для боротьби з гіпоглікеміями, і я цього теж не раджу. Але воно знімає зі списку більшість нічних побоювань. Виняток — велика доза перед тренуванням: у невеликому випробуванні 2016 року близько 6 мг кофеїну на кг перед денним тренуванням [знижували глюкозу рано-вранці наступного дня](https://pubmed.ncbi.nlm.nih.gov/26173655/), тож за такою ніччю варто стежити уважніше. Якщо ви уникаєте вечірньої кави зі страху за нічні цифри, найбезпосередніші дані вказують у протилежний бік."
       },
       {
         "t": "h",
@@ -455,18 +455,18 @@ export default {
           {
             "claim": "Кофеїн у каві збільшив підйом глюкози після їжі на 28% — при діабеті 2 типу.",
             "detail": "У подвійному сліпому плацебо-контрольованому дослідженні з перехресним дизайном в Університеті Дьюка двадцятеро дорослих із діабетом 2 типу, які всі регулярно пили каву, перед тестом толерантності до змішаної їжі отримували 250 мг кофеїну в 475 мл кави без кофеїну або лише каву без кофеїну. Середня площа під кривою глюкози плазми за дві години була на 28% більшою після кофеїну, інсуліну — на 19% (обидва P = 0,02). Автори зазначають, що інші складники кави цей ефект не компенсували. Це найчіткіший доказ того, що кофеїн може збільшувати підйом глюкози після їжі, — і це не доказ щодо діабету 1 типу, де аналогічного випробування не проводили.",
-            "cite": "Endocrine Practice · Рандомізоване перехресне дослідження, 2007",
+            "cite": "Endocrine Practice · Плацебо-контрольоване перехресне дослідження, 2007",
             "url": "https://pubmed.ncbi.nlm.nih.gov/17599854/"
           },
           {
-            "claim": "У єдиному рандомізованому нічному випробуванні при діабеті 1 типу кофеїн скоротив нічні гіпоглікемії.",
+            "claim": "У єдиному рандомізованому випробуванні кофеїну щодо нічних гіпоглікемій при діабеті 1 типу кофеїн скоротив нічні гіпоглікемії.",
             "detail": "Дев’ятнадцять пацієнтів із тривалим діабетом 1 типу отримували кофеїн або плацебо в дозах, еквівалентних звичайному щоденному споживанню, у подвійному сліпому рандомізованому дизайні з безперервним моніторингом інтерстиційної глюкози і одночасною оцінкою вегетативної функції холтерівським монітором. Середня тривалість нічної гіпоглікемії становила 49 хвилин (діапазон 0–235) на кофеїні проти 132 хвилин (0–468) на плацебо, P = 0,035 — за рахунок меншої кількості помірних епізодів і більшої кількості легких, P = 0,04. Кореляції зі зниженою варіабельністю серцевого ритму не було, тож ефект не пояснюється впливом кофеїну на парасимпатичну активність. Мале, 2005 року, ніколи не повторене і ніколи не перенесене в жодну настанову.",
             "cite": "Diabetes Care · Подвійне сліпе рандомізоване дослідження, 2005",
             "url": "https://pubmed.ncbi.nlm.nih.gov/15920045/"
           },
           {
             "claim": "Кофеїн робить симптоми гіпоглікемії помітнішими.",
-            "detail": "Огляд тієї ж борнмутської групи підсумовує лабораторні дані про те, що разовий прийом кофеїну помітно посилює симптоматичну і симпатоадреналову відповідь на гіпоглікемію і у здорових добровольців, і в людей із діабетом 1 типу — через звуження мозкових артерій, посилення метаболізму глюкози в мозку і зростання продукції катехоламінів. Автори доходять висновку, що в помірних дозах кофеїн може бути корисним допоміжним засобом при втраті відчуття гіпоглікемії. Пізніше кламп-дослідження за участю одинадцяти людей, які регулярно вживають кофеїн, показало, що повного звикання не розвивається, хоча те, які саме симптоми посилюються, залежить від тривалості гіпоглікемії.",
+            "detail": "Огляд тієї ж борнмутської групи підсумовує лабораторні дані про те, що разовий прийом кофеїну помітно посилює симптоматичну і симпатоадреналову відповідь на гіпоглікемію і у здорових добровольців, і в людей із діабетом 1 типу — через звуження мозкових артерій, посилення метаболізму глюкози в мозку і зростання продукції катехоламінів. Автори доходять висновку, що в помірних дозах кофеїн може бути корисним допоміжним засобом при втраті відчуття гіпоглікемії. Пізніше кламп-дослідження за участю одинадцяти здорових людей, які регулярно вживають кофеїн, показало, що повного звикання не розвивається, хоча те, наскільки сильно відчуваються симптоми, залежить від тривалості гіпоглікемії.",
             "cite": "Diabetes Technology & Therapeutics · Огляд, 1999; Clinical Science · Кламп-дослідження, 2003",
             "url": "https://pubmed.ncbi.nlm.nih.gov/11475292/"
           },
@@ -478,7 +478,7 @@ export default {
           },
           {
             "claim": "У тих, хто п’є каву, нижчий довготривалий ризик діабету 2 типу — але це інше питання, ніж те, що робить одна чашка одного ранку.",
-            "detail": "Метааналіз залежності «доза — ефект» за 26 проспективними дослідженнями, 42 когортами, 3,7 млн учасників і 93 706 випадками чи смертями виявив, що споживання кави з кофеїном обернено пов’язане із захворюваністю на діабет 2 типу (ВР 0,90, 95% ДІ 0,85–0,96) і з серцево-судинними захворюваннями (ВР 0,90, 0,84–0,96), причому для більшості показників ризик знижувався лінійно. Поруч із гострими випробуваннями це виглядає дивно, доки не помітиш, що вимірюють вони різне: багаторічну звичку в загальній популяції проти разової дози в людей, які вже мають діабет. Дослідження обсерваційне, тож ідеться про зв’язок, а не причину, і про 1 тип воно не говорить нічого.",
+            "detail": "Метааналіз залежності «доза — ефект» за 26 проспективними дослідженнями, 42 когортами, 3,7 млн учасників і 93 706 випадками чи смертями виявив, що споживання кави з кофеїном обернено пов’язане із захворюваністю на діабет 2 типу (ВР 0,90 для будь-якого споживання кави проти жодного, 95% ДІ 0,85–0,96) і з серцево-судинними захворюваннями (ВР 0,90, 0,84–0,96), причому для більшості показників ризик знижувався лінійно. Поруч із гострими випробуваннями це виглядає дивно, доки не помітиш, що вимірюють вони різне: багаторічну звичку в загальній популяції проти разової дози в людей, які вже мають діабет. Дослідження обсерваційне, тож ідеться про зв’язок, а не причину, і про 1 тип воно не говорить нічого.",
             "cite": "Advances in Nutrition · Метааналіз «доза — ефект», 2021",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321867/"
           }
@@ -532,7 +532,7 @@ export default {
       },
       {
         "q": "Чи шкідлива кава перед сном для нічного цукру при діабеті 1 типу?",
-        "a": "Єдине рандомізоване випробування, яке це перевіряло, виявило протилежне тому, що припускає більшість: у дев’ятнадцяти дорослих із тривалим діабетом 1 типу кофеїн скоротив тривалість нічної гіпоглікемії в середньому до 49 хвилин проти 132 на плацебо — вочевидь тому, що епізоди ставали помітнішими раніше. Це мале дослідження 2005 року, його ніколи не повторювали і не перетворювали на пораду, тож сприймайте його як причину не хвилюватися, а не як причину пити каву о десятій вечора. Чіткіший ризик пізньої кави — це сон: навіть 100 мг можуть відсунути засинання в частини дорослих, а перерваний сон таки позначається на цифрах наступного ранку."
+        "a": "Єдине рандомізоване випробування, створене для вивчення кофеїну і нічних гіпоглікемій при діабеті 1 типу, виявило протилежне тому, що припускає більшість: у дев’ятнадцяти дорослих із тривалим діабетом 1 типу кофеїн скоротив тривалість нічної гіпоглікемії в середньому до 49 хвилин проти 132 на плацебо — вочевидь тому, що епізоди ставали помітнішими раніше. Це мале дослідження 2005 року, його ніколи не повторювали і не перетворювали на пораду, тож сприймайте його як причину не хвилюватися, а не як причину пити каву о десятій вечора. Чіткіший ризик пізньої кави — це сон: навіть 100 мг можуть відсунути засинання в частини дорослих, а перерваний сон таки позначається на цифрах наступного ранку."
       },
       {
         "q": "Чи впливає кава перед тренуванням на мою глюкозу?",
