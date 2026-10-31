@@ -1,24 +1,5 @@
-# UA proofread: post--oral-minoxidil-for-womens-hair-loss
+# post--oral-minoxidil-for-womens-hair-loss
 
-- Last checked: 2026-09-29
-- PR: (opened in this run)
-
-## Notes
-
-Translation was already close to native quality. Fixes made:
-
-- Normalised 6 straight apostrophes (`'`) to the site's curly apostrophe
-  (`’`) (об’єднав, з’ясовувати, м’які, п’ятеро, п’ять, тощо).
-- Lead paragraph: "чи можна це отримати тут" → "чи можна це отримати у
-  Великій Британії" — restored the specific "in Britain" from the EN text
-  instead of the vaguer "here".
-- Terminology consistency: "єдиний міноксидил, офіційно дозволений при
-  жіночому типі випадіння волосся" → "єдиний ліцензований при жіночому типі
-  випадіння волосся міноксидил", matching "ліцензований"/"ліцензія" used
-  everywhere else in the same article for "licensed".
-- Restored a dropped comparison: the FDA signal being "nearly ten times
-  stronger in people who already had a cardiac condition **than in people
-  who did not**" had lost its second half in UA ("...ніж у тих, хто його не
-  мав." added back), matching the refs section's own 5.34 vs 49.42 figures.
-
-No content, numbers, doses, study facts, or medical meaning were changed.
+- Last checked: 2026-10-31
+- PR: (this PR)
+- Notes: Second pass (previous 2026-09-29). 42 fixes: case error «з чотирма речима» → «речами»; seoTitle/metaDesc/excerpt restored EN's UK-access / UK GP angle (metaDesc had an extra «кому не можна» and dropped "off-label"); calques «на якому варто бути» → «вам не підходить», «Це не опис 1,25 мг», «Але й не нуль», «Десь у читанні», «домінує одна річ», «зустріти цифри»; agreement «супроводжують діабет… частіше, ніж у популяції» fixed; «історією» → «анамнезом»; ambiguous «він працює» → «міноксидил діє»; restored EN "that is the honest version" and "doctors do every day"; terminology «цукровим діабетом 1 типу»; question/heading word order. No numbers, doses, study facts, URLs or medical meaning changed.
