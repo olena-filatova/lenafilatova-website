@@ -17,8 +17,8 @@ export default {
     "imageAlt": "Pale beige capsules spilled from a white tub onto a white surface, with thin green blades of grass lying across them.",
     "title": "Biotin for hair after 40: the supplement everyone buys, and the one with the least behind it",
     "seoTitle": "Biotin for Hair Over 40: Does It Actually Work?",
-    "metaDesc": "No trial has ever tested biotin for hair in women who are not deficient — and the 2026 meta-analysis of hair supplements did not include it. What to check instead.",
-    "excerpt": "Biotin is the default supplement for thinning hair after 40. The only review of it found eighteen case reports, and this year’s meta-analysis of hair supplements did not test it at all.",
+    "metaDesc": "Biotin has barely been tested for hair in women who are not deficient — and the 2026 meta-analysis of hair supplements did not test it on its own. What to check instead.",
+    "excerpt": "Biotin is the default supplement for thinning hair after 40. The best-known review of it found eighteen case reports, and this year’s meta-analysis of hair supplements did not test it on its own.",
     "meta": "26 October 2026 · 7 min read",
     "lead": "If your hair has started coming out more than it used to and you have stood in a Boots aisle about it, you have met biotin. It is on the front of almost every hair, skin and nails supplement sold in this country, usually at a dose with a lot of zeros after it. I went looking for the evidence behind that dose, and what I found was not that biotin has been tested and failed. It is stranger than that: in women like the ones reading this, it has barely been tested at all.",
     "blocks": [
@@ -40,7 +40,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In 2017 a team at the University of Pennsylvania did the obvious thing and searched the literature for every case report and randomised trial of biotin for hair and nails. The whole yield was eighteen reported cases. Not eighteen trials — eighteen individual people written up."
+        "text": "In 2017 a team at the Children's Hospital of Philadelphia did the obvious thing and searched the literature for every case report and randomised trial of biotin for hair and nails. The whole yield was eighteen reported cases. Not eighteen trials — eighteen individual people written up."
       },
       {
         "t": "p",
@@ -48,11 +48,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "It is important to read that correctly, because it is not the same as “biotin does not work”. If you are genuinely deficient, biotin works — that is precisely what those eighteen cases show. The finding is narrower and more awkward than a debunking. It is that in the group who actually buy it — women who are not deficient, whose hair is thinning for the ordinary reasons hair thins after 40 — the question has never properly been asked. Nearly a decade on, there is still no randomised placebo-controlled trial of biotin for hair growth in people who are not deficient."
+        "text": "It is important to read that correctly, because it is not the same as “biotin does not work”. If you are genuinely deficient, biotin works — that is precisely what those eighteen cases show. The finding is narrower and more awkward than a debunking. It is that in the group who actually buy it — women who are not deficient, whose hair is thinning for the ordinary reasons hair thins after 40 — the question has never properly been asked. Nearly a decade on, that has barely changed: the few placebo-controlled trials since have tested biotin in products made by the company running or co-authoring the study — the one I found, published in 2025, gave 105 men and women aged 20 to 60 a plant-derived biotin for 90 days — and none has recruited women over 40 with thinning hair."
       },
       {
         "t": "h",
-        "text": "The 2026 meta-analysis that looks like good news, and left biotin out"
+        "text": "The 2026 meta-analysis that looks like good news, and never tested biotin on its own"
       },
       {
         "t": "p",
@@ -60,23 +60,23 @@ export default {
       },
       {
         "t": "p",
-        "text": "Two things about it matter more than those numbers. The first is what was actually tested. The supplements in the pooled studies were Ceramosides, Nutrafol, Nourkrin, Lambdapil, Viviscal, Forti5, Cynatine HNS and one other formulation — branded multi-ingredient products, most of them containing a dozen things. Biotin, the single ingredient this whole category is sold on, was not a tested intervention in any of them. If you read a summary of this paper and went out and bought biotin, you bought the one thing it did not look at."
+        "text": "Two things about it matter more than those numbers. The first is what was actually tested. The supplements in the pooled studies were Ceramosides, Nutrafol, Nourkrin, Lambdapil, Viviscal, Forti5, Cynatine HNS and one other formulation — branded multi-ingredient products, most of them containing a dozen things. Biotin, the single ingredient this whole category is sold on, was not tested on its own in any of them — where it appears in these products, it is one ingredient among many, so nothing in the pooled results tells you what biotin itself contributed. If you read a summary of this paper and went out and bought biotin, you bought the one thing it did not isolate."
       },
       {
         "t": "p",
-        "text": "The second is the outcome that failed. Of every measure in the analysis, the one a reader actually cares about — total hair count, meaning do you end up with more hair — was the only one that did not reach statistical significance, at p = 0.06. Everything that worked was a ratio or a proportion: more of your hairs in the growing phase, fewer in the resting phase. That is a real biological signal and I am not dismissing it. But a shift in the ratio with no detectable change in the total is a narrower claim than the advertising, and the authors knew it. Their own conclusion is that the results are promising but preliminary, and that more rigorous, independent research is needed. The word independent is doing a lot of work in that sentence."
+        "text": "The second is the outcome that failed. Of every measure in the analysis, the one a reader actually cares about — total hair count, meaning do you end up with more hair — was the only one that did not reach statistical significance, at p = 0.06, and it was pooled from just three studies. Everything that worked measured the hair cycle or shedding: more of your hairs in the growing phase, fewer in the resting phase, fewer coming out on a pull test. That is a real biological signal and I am not dismissing it. But a shift in the hair cycle with no detectable change in the total is a narrower claim than the advertising, and the authors knew it. Their own conclusion is that the results are promising but preliminary, and that more rigorous, independent research is needed. The word independent is doing a lot of work in that sentence."
       },
       {
         "t": "h",
-        "text": "The one trial run in women your age"
+        "text": "The trial run in women your age"
       },
       {
         "t": "p",
-        "text": "There is exactly one randomised placebo-controlled trial in this field recruiting the women this site is written for. It ran for six months in perimenopausal, menopausal and postmenopausal women with thinning hair, and it found real effects: terminal and total hair counts up against placebo at both three and six months, and shedding down by 32.41% by day 180."
+        "text": "Of the trials pooled in that meta-analysis, one recruited exactly the women this site is written for. It ran for six months in perimenopausal, menopausal and postmenopausal women with thinning hair, and it found real effects: terminal and total hair counts up against placebo at both three and six months, and shedding down by 32.41% by day 180."
       },
       {
         "t": "p",
-        "text": "It had 40 women on the supplement and 30 on placebo. It tested a branded capsule, not biotin. And it was run on the manufacturer's own product. None of that makes it worthless — it is a properly randomised, properly blinded, registered trial, which is more than most of this category can say. It simply means that the best evidence that exists for any hair supplement in women over 40 rests on 40 people taking something that is not the thing in your cupboard."
+        "text": "It had 40 women on the supplement and 30 on placebo. It tested a branded capsule, not biotin. And it was run on the manufacturer's own product. None of that makes it worthless — it is a properly randomised, properly blinded, registered trial, which is more than most of this category can say. It simply means that the evidence for hair supplements in women over 40 rests on small trials like this one — here, 40 people taking something that is not the thing in your cupboard."
       },
       {
         "t": "h",
@@ -144,20 +144,20 @@ export default {
             "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/"
           },
           {
-            "claim": "The only systematic review of biotin for hair found eighteen case reports, every one of them in a person with an underlying cause.",
+            "claim": "A systematic review of biotin for hair found eighteen case reports, every one of them in a person with an underlying cause.",
             "detail": "Patel DP, Swink SM, Castelo-Soccio L. A Review of the Use of Biotin for Hair Loss. Skin Appendage Disorders 2017. A PubMed search for case reports and randomised trials of biotin in hair and nails returned 18 reported cases. In all of them the patient had an underlying pathology for poor hair or nail growth — inherited or acquired biotin deficiency, brittle nail syndrome, uncombable hair syndrome — and all showed clinical improvement on biotin. The authors concluded that such cases are uncommon and that there is a lack of sufficient evidence for supplementation in healthy individuals. No randomised placebo-controlled trial of biotin for hair growth in non-deficient people was identified.",
             "cite": "Patel DP, Swink SM, Castelo-Soccio L · Skin Appendage Disord 2017 · PMID 28879195",
             "url": "https://pubmed.ncbi.nlm.nih.gov/28879195/"
           },
           {
-            "claim": "The 2026 meta-analysis of hair supplements did not test biotin, and total hair count was the one outcome that did not reach significance.",
+            "claim": "The 2026 meta-analysis of hair supplements did not test biotin on its own, and total hair count was the one outcome that did not reach significance.",
             "detail": "Systematic review and meta-analysis of commercial oral nutraceuticals for hair growth, Journal of Cosmetic Dermatology, April 2026: 14 studies, 967 participants, searched across PubMed, Embase, Cochrane CENTRAL and Web of Science. The products assessed were Ceramosides, Nutrafol, Nourkrin, Lambdapil, Viviscal, Forti5, a GFM oral supplement and Cynatine HNS — branded multi-ingredient formulations; biotin alone was not among the tested interventions. Pooled results favoured supplements for telogen hair density (mean difference −5.91, 95% CI −6.74 to −5.08), anagen hair density (MD 10.48, 95% CI 8.81 to 12.14), anagen proportion, elongation and hairs extracted on a pull test. Total hair count showed no significant difference (p = 0.06). The authors concluded that results are promising but preliminary and that more rigorous, independent research is needed.",
             "cite": "J Cosmet Dermatol 2026 · doi 10.1111/jocd.70817 · PMID 41954038",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41954038/"
           },
           {
-            "claim": "The only randomised trial in perimenopausal and postmenopausal women tested a branded capsule in 40 women, run by its manufacturer.",
-            "detail": "Six-month randomised, double-blind, placebo-controlled study of a nutraceutical supplement in perimenopausal, menopausal and postmenopausal women with self-perceived thinning hair (ClinicalTrials.gov NCT04048031), published in the Journal of Drugs in Dermatology, January 2021. 40 women were randomised to the supplement and 30 to placebo. Terminal and total hair counts increased significantly against placebo at days 90 and 180 (P<0.01), vellus counts rose by day 180 (P<0.05), and shedding fell by 32.41% by day 180 (P<0.01). The product tested was Nutrafol Women's Balance Capsules, a multi-ingredient phytoactive formulation, not biotin, and the study was conducted on the manufacturer's own product.",
+            "claim": "The randomised trial in the meta-analysis that recruited perimenopausal and postmenopausal women tested a branded capsule in 40 women, with its manufacturer as a collaborator.",
+            "detail": "Six-month randomised, double-blind, placebo-controlled study of a nutraceutical supplement in perimenopausal, menopausal and postmenopausal women with self-perceived thinning hair (ClinicalTrials.gov NCT04048031), published in the Journal of Drugs in Dermatology, January 2021. 40 women were randomised to the supplement and 30 to placebo. Terminal and total hair counts increased significantly against placebo at days 90 and 180 (P<0.01), vellus counts rose by day 180 (P<0.05), and shedding fell by 32.41% by day 180 (P<0.01). The product tested was Nutrafol Women's Balance Capsules, a multi-ingredient phytoactive formulation, not biotin; the trial was led by the Ablon Skin Institute Research Center with the manufacturer, Nutraceutical Wellness Inc., registered as collaborator.",
             "cite": "J Drugs Dermatol 2021;20(1):55–61 · NCT04048031 · PMID 33400421",
             "url": "https://pubmed.ncbi.nlm.nih.gov/33400421/"
           }
@@ -196,8 +196,8 @@ export default {
     "imageAlt": "Світло-бежеві капсули, висипані з білої баночки на білу поверхню, і тонкі зелені стеблинки трави, що лежать поверх них.",
     "title": "Біотин для волосся після 40: добавка, яку купують усі — і за якою найменше доказів",
     "seoTitle": "Біотин для волосся після 40: чи працює?",
-    "metaDesc": "Жодне дослідження не перевіряло біотин для волосся в жінок без дефіциту, а метааналіз 2026 року його взагалі не включив. Що перевіряти натомість.",
-    "excerpt": "Біотин — перша добавка, по яку тягнуться, коли волосся рідшає після 40. Єдиний огляд про нього знайшов вісімнадцять описів випадків, а цьогорічний метааналіз добавок для волосся не тестував його взагалі.",
+    "metaDesc": "Біотин для волосся майже не перевіряли в жінок без дефіциту, а метааналіз 2026 року не тестував його окремо. Що перевіряти натомість.",
+    "excerpt": "Біотин — перша добавка, по яку тягнуться, коли волосся рідшає після 40. Найвідоміший огляд про нього знайшов вісімнадцять описів випадків, а цьогорічний метааналіз добавок для волосся не тестував його окремо.",
     "meta": "26 жовтня 2026 · 7 хв читання",
     "lead": "Якщо волосся почало випадати більше, ніж раніше, і ви через це стояли біля полиці в аптеці, ви вже знайомі з біотином. Його назва красується на упаковці майже кожної добавки для волосся, шкіри й нігтів, що продаються в цій країні, — зазвичай у дозі з багатьма нулями. Я взялася шукати, які докази стоять за цією дозою, і виявила не те, що біотин перевірили і він не спрацював. Усе дивніше: у жінок, які це читають, його майже не перевіряли взагалі.",
     "blocks": [
@@ -219,7 +219,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У 2017 році команда з Університету Пенсільванії зробила очевидне: переглянула літературу в пошуках усіх описів випадків і рандомізованих досліджень біотину для волосся й нігтів. Усього знайшлося вісімнадцять описаних випадків. Не вісімнадцять досліджень — вісімнадцять окремих людей, про яких написали в журналах."
+        "text": "У 2017 році команда з Дитячої лікарні Філадельфії зробила очевидне: переглянула літературу в пошуках усіх описів випадків і рандомізованих досліджень біотину для волосся й нігтів. Усього знайшлося вісімнадцять описаних випадків. Не вісімнадцять досліджень — вісімнадцять окремих людей, про яких написали в журналах."
       },
       {
         "t": "p",
@@ -227,11 +227,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Важливо прочитати це правильно, бо це не те саме, що «біотин не працює». Якщо у вас справді дефіцит, біотин працює — саме це й показують ті вісімнадцять випадків. Висновок вужчий і незручніший за просте спростування. Він полягає в тому, що для тих, хто його справді купує, — жінок без дефіциту, чиє волосся рідшає з тих самих звичайних причин, з яких воно рідшає після 40, — це питання ніхто толком не ставив. Минуло майже десять років, а досі немає жодного рандомізованого плацебо-контрольованого дослідження біотину для росту волосся у людей без дефіциту."
+        "text": "Важливо прочитати це правильно, бо це не те саме, що «біотин не працює». Якщо у вас справді дефіцит, біотин працює — саме це й показують ті вісімнадцять випадків. Висновок вужчий і незручніший за просте спростування. Він полягає в тому, що для тих, хто його справді купує, — жінок без дефіциту, чиє волосся рідшає з тих самих звичайних причин, з яких воно рідшає після 40, — це питання ніхто толком не ставив. Минуло майже десять років, а мало що змінилося: ті кілька плацебо-контрольованих досліджень, що з’явилися відтоді, перевіряли біотин у продуктах компанії, яка проводила дослідження або була серед його авторів, — те, яке я знайшла, опубліковане 2025 року, давало 105 чоловікам і жінкам віком від 20 до 60 років рослинний біотин протягом 90 днів, — і жодне не набирало жінок після 40 з порідінням волосся."
       },
       {
         "t": "h",
-        "text": "Метааналіз 2026 року, який виглядає доброю новиною — і в якому біотину немає"
+        "text": "Метааналіз 2026 року, який виглядає доброю новиною — і в якому біотин окремо не перевіряли"
       },
       {
         "t": "p",
@@ -239,23 +239,23 @@ export default {
       },
       {
         "t": "p",
-        "text": "Дві речі в ньому важливіші за ці цифри. Перша — що саме тестувалося. Це були Ceramosides, Nutrafol, Nourkrin, Lambdapil, Viviscal, Forti5, Cynatine HNS і ще одна формула — брендовані багатокомпонентні продукти, у більшості з яких по десятку речовин. Біотин — той єдиний інгредієнт, на якому тримається весь цей ринок, — у жодному з них не перевіряли як окреме втручання. Якщо ви прочитали переказ цієї роботи й пішли купувати біотин, ви купили саме те, чого вона не досліджувала."
+        "text": "Дві речі в ньому важливіші за ці цифри. Перша — що саме тестувалося. Це були Ceramosides, Nutrafol, Nourkrin, Lambdapil, Viviscal, Forti5, Cynatine HNS і ще одна формула — брендовані багатокомпонентні продукти, у більшості з яких по десятку речовин. Біотин — той єдиний інгредієнт, на якому тримається весь цей ринок, — у жодному з них не перевіряли як окреме втручання: там, де він є у складі, це один інгредієнт серед багатьох, тож з об’єднаних результатів неможливо зрозуміти, що дав саме біотин. Якщо ви прочитали переказ цієї роботи й пішли купувати біотин, ви купили саме те, чого вона окремо не досліджувала."
       },
       {
         "t": "p",
-        "text": "Друга — показник, за яким результату не було. З усіх показників аналізу єдиним, що не досяг статистичної значущості (p = 0,06), виявився саме той, який справді цікавить читачку, — загальна кількість волосся, тобто чи стане його більше. Усе, що спрацювало, — це співвідношення або частки: більше волосин у фазі росту, менше в фазі спокою. Це справжній біологічний сигнал, і я його не відкидаю. Але зсув у співвідношенні без помітної зміни загальної кількості — це вужче твердження, ніж обіцяє реклама, і автори це розуміли. Їхній власний висновок: результати багатообіцяючі, але попередні, і потрібні суворіші та незалежні дослідження. Слово «незалежні» в цьому реченні важить чимало."
+        "text": "Друга — показник, за яким результату не було. З усіх показників аналізу єдиним, що не досяг статистичної значущості (p = 0,06), виявився саме той, який справді цікавить читачку, — загальна кількість волосся, тобто чи стане його більше; до того ж його об’єднали лише з трьох досліджень. Усе, що спрацювало, стосувалося циклу росту волосся або випадіння: більше волосин у фазі росту, менше у фазі спокою, менше волосин виходить під час тесту на витягування. Це справжній біологічний сигнал, і я його не відкидаю. Але зсув у циклі росту без помітної зміни загальної кількості — це вужче твердження, ніж обіцяє реклама, і автори це розуміли. Їхній власний висновок: результати багатообіцяючі, але попередні, і потрібні суворіші та незалежні дослідження. Слово «незалежні» в цьому реченні важить чимало."
       },
       {
         "t": "h",
-        "text": "Єдине дослідження, проведене на жінках вашого віку"
+        "text": "Дослідження, проведене на жінках вашого віку"
       },
       {
         "t": "p",
-        "text": "У цій галузі є рівно одне рандомізоване плацебо-контрольоване дослідження, яке набирало саме тих жінок, для яких написаний цей сайт. Воно тривало шість місяців у жінок у перименопаузі, менопаузі й постменопаузі з порідінням волосся і знайшло справжні ефекти: термінальна й загальна кількість волосся зросла порівняно з плацебо і через три, і через шість місяців, а випадіння зменшилося на 32,41% до 180-го дня."
+        "text": "Серед досліджень, об’єднаних у цьому метааналізі, одне набирало саме тих жінок, для яких написаний цей сайт. Воно тривало шість місяців у жінок у перименопаузі, менопаузі й постменопаузі з порідінням волосся і знайшло справжні ефекти: термінальна й загальна кількість волосся зросла порівняно з плацебо і через три, і через шість місяців, а випадіння зменшилося на 32,41% до 180-го дня."
       },
       {
         "t": "p",
-        "text": "У ньому було 40 жінок на добавці й 30 на плацебо. Тестувалася брендована капсула, а не біотин. І це було дослідження власного продукту виробника. Усе це не робить його нікчемним — це належно рандомізоване, належно засліплене, зареєстроване дослідження, чим може похвалитися далеко не кожен продукт у цій категорії. Це лише означає, що найкращі докази для будь-якої добавки для волосся у жінок після 40 спираються на 40 людей, які приймали не те, що стоїть у вас у шафці."
+        "text": "У ньому було 40 жінок на добавці й 30 на плацебо. Тестувалася брендована капсула, а не біотин. І це було дослідження власного продукту виробника. Усе це не робить його нікчемним — це належно рандомізоване, належно засліплене, зареєстроване дослідження, чим може похвалитися далеко не кожен продукт у цій категорії. Це лише означає, що докази для добавок для волосся у жінок після 40 спираються на невеликі дослідження на кшталт цього — тут це 40 людей, які приймали не те, що стоїть у вас у шафці."
       },
       {
         "t": "h",
@@ -323,20 +323,20 @@ export default {
             "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/"
           },
           {
-            "claim": "Єдиний систематичний огляд біотину для волосся знайшов вісімнадцять описів випадків, у кожному з яких була глибша причина.",
+            "claim": "Систематичний огляд біотину для волосся знайшов вісімнадцять описів випадків, у кожному з яких була глибша причина.",
             "detail": "Patel DP, Swink SM, Castelo-Soccio L. A Review of the Use of Biotin for Hair Loss. Skin Appendage Disorders, 2017. Пошук у PubMed описів випадків і рандомізованих досліджень біотину для волосся й нігтів дав 18 описаних випадків. У всіх пацієнтів була патологія, що пояснювала поганий ріст — спадковий або набутий дефіцит біотину, синдром ламких нігтів, синдром незачісуваного волосся — і всі показали клінічне покращення на біотині. Автори дійшли висновку, що такі випадки трапляються нечасто й що бракує достатніх доказів на користь прийому здоровими людьми. Жодного рандомізованого плацебо-контрольованого дослідження біотину для росту волосся у людей без дефіциту виявлено не було.",
             "cite": "Patel DP, Swink SM, Castelo-Soccio L · Skin Appendage Disord 2017 · PMID 28879195",
             "url": "https://pubmed.ncbi.nlm.nih.gov/28879195/"
           },
           {
-            "claim": "Метааналіз 2026 року не тестував біотин, а загальна кількість волосся була єдиним показником, який не досяг значущості.",
+            "claim": "Метааналіз 2026 року не тестував біотин окремо, а загальна кількість волосся була єдиним показником, який не досяг значущості.",
             "detail": "Систематичний огляд і метааналіз комерційних пероральних нутрацевтиків для росту волосся, Journal of Cosmetic Dermatology, квітень 2026: 14 досліджень, 967 учасників, пошук у PubMed, Embase, Cochrane CENTRAL і Web of Science. Оцінювалися Ceramosides, Nutrafol, Nourkrin, Lambdapil, Viviscal, Forti5, пероральна добавка GFM і Cynatine HNS — брендовані багатокомпонентні формули; біотину окремо серед тестованих втручань не було. Об’єднані результати були на користь добавок за щільністю телогенного волосся (середня різниця −5,91, 95% ДІ від −6,74 до −5,08), щільністю анагенного (СР 10,48, 95% ДІ від 8,81 до 12,14), часткою анагену, подовженням волосин і кількістю волосин, витягнутих під час тесту на витягування (pull test). Загальна кількість волосся значущої різниці не показала (p = 0,06). Автори дійшли висновку, що результати багатообіцяючі, але попередні, і потрібні суворіші та незалежні дослідження.",
             "cite": "J Cosmet Dermatol 2026 · doi 10.1111/jocd.70817 · PMID 41954038",
             "url": "https://pubmed.ncbi.nlm.nih.gov/41954038/"
           },
           {
-            "claim": "Єдине рандомізоване дослідження у жінок у пери- та постменопаузі тестувало брендовану капсулу на 40 жінках і проводилося виробником.",
-            "detail": "Шестимісячне рандомізоване подвійно засліплене плацебо-контрольоване дослідження нутрацевтика у жінок у перименопаузі, менопаузі й постменопаузі з суб’єктивним порідінням волосся (ClinicalTrials.gov NCT04048031), Journal of Drugs in Dermatology, січень 2021. 40 жінок рандомізовано на добавку й 30 на плацебо. Термінальна й загальна кількість волосся значущо зросла порівняно з плацебо на 90-й і 180-й дні (P<0,01), кількість пушкового волосся — до 180-го дня (P<0,05), а випадіння зменшилося на 32,41% до 180-го дня (P<0,01). Тестувався продукт Nutrafol Women’s Balance Capsules — багатокомпонентна фітоформула, а не біотин, і дослідження проводилося на власному продукті виробника.",
+            "claim": "Рандомізоване дослідження з метааналізу, яке набирало жінок у пери- та постменопаузі, тестувало брендовану капсулу на 40 жінках, а виробник був партнером дослідження.",
+            "detail": "Шестимісячне рандомізоване подвійно засліплене плацебо-контрольоване дослідження нутрацевтика у жінок у перименопаузі, менопаузі й постменопаузі з суб’єктивним порідінням волосся (ClinicalTrials.gov NCT04048031), Journal of Drugs in Dermatology, січень 2021. 40 жінок рандомізовано на добавку й 30 на плацебо. Термінальна й загальна кількість волосся значущо зросла порівняно з плацебо на 90-й і 180-й дні (P<0,01), кількість пушкового волосся — до 180-го дня (P<0,05), а випадіння зменшилося на 32,41% до 180-го дня (P<0,01). Тестувався продукт Nutrafol Women’s Balance Capsules — багатокомпонентна фітоформула, а не біотин; дослідження проводив дослідницький центр Ablon Skin Institute, а виробник, Nutraceutical Wellness Inc., зареєстрований як партнер.",
             "cite": "J Drugs Dermatol 2021;20(1):55–61 · NCT04048031 · PMID 33400421",
             "url": "https://pubmed.ncbi.nlm.nih.gov/33400421/"
           }
