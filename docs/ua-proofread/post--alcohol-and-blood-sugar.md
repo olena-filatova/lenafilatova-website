@@ -1,7 +1,7 @@
 # post--alcohol-and-blood-sugar
 
 - Last checked: 2026-11-01
-- PR: (opened in this run)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/492
 - Notes: 54 fixes. Mistranslation «після дев’ятигодинного напою» (= nine-hour drink) → «після
   напою о дев’ятій вечора»; grammar («як її запобігти» → «як їй запобігти», «після їди» →
   «після їжі», «чималий час» → «чимало часу», «нерозрізненні», «необхідне» → «необхідно»,
