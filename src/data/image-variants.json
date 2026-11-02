@@ -279,6 +279,24 @@
       ]
     ]
   },
+  "/images/collagen-bones-joints-tendons.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/collagen-bones-joints-tendons-480.avif"
+      ],
+      [
+        800,
+        "/images/v/collagen-bones-joints-tendons-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/collagen-bones-joints-tendons-1200.avif"
+      ]
+    ]
+  },
   "/images/collagen-supplements-skin-women-over-40.jpg": {
     "w": 1200,
     "h": 676,
