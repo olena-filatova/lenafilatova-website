@@ -1,5 +1,5 @@
-# UA proofread: post--night-sweats-or-hypo
+# post--night-sweats-or-hypo
 
-- Last checked: 2026-09-30
-- PR: (this PR)
-- Notes: Strong translation overall — no Russianisms/surzhyk, no untranslated English, no meaning mismatches vs EN. 13 fixes: 1 grammar (gender agreement after a noun swap), 6 calques/clumsy translations (e.g. «підпис»→«почерк» for the "signature pattern" metaphor, unnaturalized «алярм»→«сповіщення»/«сигналізація», a garbled sentence rebuilt), and 5 terminology-consistency fixes replacing «МГТ» with the site-standard «ЗГТ» (matching the linked HRT post, which uses ЗГТ 20/20 times; site-wide ЗГТ outnumbers МГТ 240:17). All numbers, odds ratios, CIs, URLs, slugs and the `en` object are untouched.
+- Last checked: 2026-11-02
+- PR: (see the `UA proofread: post--night-sweats-or-hypo, post--glp1-older-women-lean-mass` PR)
+- Notes: Second-cycle pass, 71 fixes. Grammar 8 (засновка→припущення, «випливає дві речі», «Увімкніть його… він», aspect «Спершу виміряти, потім вирішувати», missing noun «Страшний прийшов»). Russianisms/surzhyk 4 (значить→отже, гупаюче, «чергуються по черзі», «до приблизно»). Calques/clumsy translation 41 («не переживає спробу описати», «на дотик», «непритомна» for asleep, «плаский настрій», «ранковий підпис», «дратівливий напрямок», passives). Meaning vs EN 7 («overlapping machinery», CGM heading "for patterns", "before either appointment", "unconscious" = asleep). Terminology 11 («рикошет» for rebound as in morning-highs post, «фахівець із менопаузи», «Читайте також», «легкі» гіпоглікемії, «швидко змінюється»). Numbers, citations, URLs and `en` untouched.
