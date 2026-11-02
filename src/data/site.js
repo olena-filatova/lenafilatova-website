@@ -746,13 +746,13 @@ export const BLOG_RAIL = {
   tools: [
     { href: '/resources/food-calculator/', en: 'Metabolic food calculator', ua: 'Калькулятор впливу їжі' },
     { href: '/carb-gi-table/', en: 'Carb & GI table', ua: 'Таблиця вуглеводів і ГІ' },
-    { href: '/resources/exercise-calculator/', en: 'Exercise & blood sugar', ua: 'Активність і цукор' },
+    { href: '/resources/exercise-calculator/', en: 'Exercise & blood sugar', ua: 'Активність і цукор у крові' },
     { href: '/resources/insulin-pump-doses/', en: 'Pump starting doses', ua: 'Стартові дози помпи' },
     { href: '/blood-sugar-investigator/', en: 'Blood Sugar Investigator', ua: 'Дослідник цукру в крові' },
     { href: '/hba1c-converter/', en: 'HbA1c converter', ua: 'Конвертер HbA1c' },
     { href: '/cgm-comparison/', en: 'CGM sensor comparison', ua: 'Порівняння CGM-сенсорів' },
     { href: '/aid-comparison/', en: 'AID system comparison', ua: 'Порівняння систем AID' },
-    { href: '/t1d-cure-trials/', en: 'Type 1 cure trials', ua: 'Дослідження лікування' },
+    { href: '/t1d-cure-trials/', en: 'Type 1 cure trials', ua: 'Пошук ліків від діабету 1 типу' },
   ],
   // Keyed on hrefUa because that is the only address RESOURCES.guides has
   // while every guide is Ukrainian-only; an entry with no matching guide, or
@@ -783,11 +783,11 @@ export const BLOG_RAIL = {
     // Shorter than the hub's note — a 220px column cannot carry the full
     // sentence — but it still states the email requirement before the click,
     // which is the whole reason the note exists.
-    guidesNote: 'Теж безкоштовно, але надсилаю поштою — потрібна ваша адреса.',
+    guidesNote: 'Теж безкоштовні, але надсилаю їх електронною поштою — потрібна ваша адреса.',
     allTools: 'Усі інструменти та гайди',
     nlTitle: 'Діабет і перименопауза',
-    nlSub: 'Безкоштовний воркбук на 26 сторінок: що змінюється з діабетом 1 типу після 40 і що допомагає.',
-    nlBtn: 'Надішліть воркбук',
+    nlSub: 'Безкоштовний воркбук на 26 сторінок: що змінюється в перебігу цукрового діабету 1 типу після 40 і що допомагає.',
+    nlBtn: 'Надіслати мені воркбук',
   },
 };
 
