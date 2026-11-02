@@ -1,5 +1,11 @@
-# UA proofread: post--alcohol-and-blood-sugar
+# post--alcohol-and-blood-sugar
 
-- Last checked: 2026-09-30
-- PR: (this PR)
-- Notes: Strong translation overall — no Russianisms/surzhyk, no untranslated English, terminology already consistent with site-wide usage. 7 fixes: 1 grammar (animate/inanimate pronoun mismatch in a table header, «Кого»→«Що»), 5 calques/clumsy literal translations (mostly literal English relative-clause constructions and one register mismatch — «легітимне»→«небезпідставне»), 1 meaning restoration (a compressed UA noun phrase had dropped the EN qualifier "what to look for"). All numbers, odds ratios, CIs, URLs, slugs and the `en` object are untouched.
+- Last checked: 2026-11-01
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/492
+- Notes: 54 fixes. Mistranslation «після дев’ятигодинного напою» (= nine-hour drink) → «після
+  напою о дев’ятій вечора»; grammar («як її запобігти» → «як їй запобігти», «після їди» →
+  «після їжі», «чималий час» → «чимало часу», «нерозрізненні», «необхідне» → «необхідно»,
+  «у описі» → «в описі»); many English calques («залишити під собою», «носити з собою»,
+  «сценарій відмови», «група інтересу», «вчення» for lore, «наскільки воно сягає», «пройти
+  назад через», «читають як», «менш охайні»); тіло → організм for internal processes.
+  No numbers, doses, facts or URLs changed.
