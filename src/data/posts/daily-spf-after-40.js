@@ -18,7 +18,7 @@ export default {
     "title": "Sunscreen after 40: what the evidence supports, and the months the UK doesn't need it",
     "seoTitle": "Best Sunscreen for Women Over 40: What to Look For",
     "metaDesc": "Daily SPF is the best-evidenced skincare step after 40 — but British dermatologists say year-round use is unnecessary here. What to buy, how much, and when.",
-    "excerpt": "Sunscreen is the one skincare step with a proper randomised trial behind it. That trial ran in subtropical Queensland, and the UK's own dermatologists say we don't need sunscreen through the winter. Both of those things are true at once.",
+    "excerpt": "Sunscreen is one of the very few skincare steps with a proper randomised trial behind it. That trial ran in subtropical Queensland, and the UK's own dermatologists say we don't need sunscreen through the winter. Both of those things are true at once.",
     "meta": "23 October 2026 · 9 min read",
     "lead": "Every skincare routine you have ever read ends with the same instruction: wear sunscreen, every single day, all year round. The first half of that is as well supported as anything in beauty gets. The second half is not what the British Association of Dermatologists actually says — and the gap between them is worth understanding, because it decides what you buy and when you bother.",
     "blocks": [
@@ -64,7 +64,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The women were 40 to 55, which makes this the single study in the field that was actually run in the age group reading this. So it is worth being precise about what it can carry."
+        "text": "The women were 40 to 55, which makes it one of very few studies in the field actually run in the age group reading this. So it is worth being precise about what it can carry."
       },
       {
         "t": "p",
@@ -88,11 +88,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Their threshold is a UV index of 3 or above, which in the UK is \"usually between April and September\". The NHS draws roughly the same line from the other direction, advising shade between 11am and 3pm from March to October."
+        "text": "Their threshold for white skin is a UV index of 3 or above, which in the UK is \"usually between April and September\". The NHS draws roughly the same line from the other direction, advising shade between 11am and 3pm from March to October."
       },
       {
         "t": "p",
-        "text": "So the accurate version of the rule is: daily sunscreen from around April to September, and through the winter only if you have a reason. The reasons are real and worth knowing — the BAD lists people with photosensitivity conditions, vitiligo, lupus, or a high risk of skin cancer, and people taking certain medications. Snow and altitude change it too; a ski week in February is not a British winter. If you are not in one of those groups, the bottle can go in the cupboard when the clocks change and come out again in spring."
+        "text": "So the accurate version of the rule is: daily sunscreen from around April to September, and through the winter only if you have a reason. The reasons are real and worth knowing — the BAD lists people with photosensitivity conditions, vitiligo, lupus, or a high risk of skin cancer, including people on immunosuppressive treatment. Snow and altitude change it too; a ski week in February is not a British winter. If you are not in one of those groups, the bottle can go in the cupboard when the clocks change and come out again in spring."
       },
       {
         "t": "p",
@@ -108,7 +108,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "SPF 30 or above. SPF measures protection against UVB — the burning wavelengths. The returns flatten fast above 30, which is why both bodies name 30 rather than 50 as the standard."
+        "text": "SPF 30 or above. SPF measures protection against UVB — the burning wavelengths. The returns flatten fast above 30, and both bodies set 30, not 50, as the minimum."
       },
       {
         "t": "p",
@@ -132,11 +132,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "In real life, people apply somewhere between a quarter and three quarters of that — [Diffey's own estimate](https://pmc.ncbi.nlm.nih.gov/articles/PMC1123459/) is 0.5 to 1.5 mg per square centimetre, which he calculated could leave you with roughly a third of the protection on the label. Under-apply an SPF 50 and you land somewhere around a well-applied SPF 15."
+        "text": "In real life, people apply somewhere between a quarter and three quarters of that — [Taylor and Diffey](https://pmc.ncbi.nlm.nih.gov/articles/PMC1123459/) put typical use at 0.5 to 1.5 mg per square centimetre, which they estimated could leave you with roughly a third of the protection on the label. Under-apply an SPF 50 and you land somewhere around a well-applied SPF 15."
       },
       {
         "t": "p",
-        "text": "This is why how much is a more useful question than which factor. Two rules of thumb, both traceable to the same source — a 2002 letter to the BMJ by Taylor and Diffey, who divided the body into eleven areas and worked out how to hit 2 mg/cm² without a set of scales."
+        "text": "This is why how much is a more useful question than which factor. Two rules of thumb. The first comes from a 2002 letter to the BMJ by Taylor and Diffey, who divided the body into eleven areas and worked out how to hit 2 mg/cm² without a set of scales."
       },
       {
         "t": "p",
@@ -282,9 +282,9 @@ export default {
             "url": "https://www.skinhealthinfo.org.uk/sun-awareness/the-sunscreen-fact-sheet/"
           },
           {
-            "claim": "Most people apply a third to three quarters less sunscreen than the amount the SPF number is tested at.",
-            "detail": "SPF is determined in laboratory testing at an application density of 2 mg per square centimetre of skin. Diffey's editorial in the BMJ, reproducing the dosage guide he published with Taylor in 2002, reports that consumers typically apply 0.5 to 1.5 mg per square centimetre, which he estimated could deliver roughly a third of the labelled SPF. The practical guide divides the body into eleven areas of approximately 9% each, using the rule of nines, with the face and neck forming one area, and recommends two strips of sunscreen squeezed onto the lengths of the index and middle fingers per area to approximate 2 mg/cm².",
-            "cite": "Diffey, BMJ, on Taylor & Diffey's dosage guide",
+            "claim": "Most people apply a quarter to three quarters less sunscreen than the amount the SPF number is tested at.",
+            "detail": "SPF is determined in laboratory testing at an application density of 2 mg per square centimetre of skin. Taylor and Diffey's 2002 letter to the BMJ, which sets out their dosage guide, reports that consumers typically apply 0.5 to 1.5 mg per square centimetre, which they estimated could deliver roughly a third of the labelled SPF. The practical guide divides the body into eleven areas of approximately 9% each, using the rule of nines, with the head, neck and face forming one area, and recommends two strips of sunscreen squeezed onto the lengths of the index and middle fingers per area to approximate 2 mg/cm².",
+            "cite": "Taylor & Diffey, BMJ, 2002",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1123459/"
           },
           {
@@ -305,11 +305,11 @@ export default {
     "faq": [
       {
         "q": "Do I really need to wear sunscreen every day in the UK?",
-        "a": "From around April to September, yes — that is when the UV index in the UK reaches 3 or above, which is the level at which the British Association of Dermatologists recommends protection. Through the winter, the same organisation says year-round use is unnecessary here, because the UV index does not get high enough for it to be beneficial. The exceptions it names are people with photosensitivity conditions, vitiligo, lupus or a high risk of skin cancer, and those taking certain medications — plus anyone going somewhere with snow or altitude. If you have melasma there is a separate case for carrying on, because those patches respond to visible light as well as ultraviolet."
+        "a": "From around April to September, yes — that is when the UV index in the UK reaches 3 or above, which is the level at which the British Association of Dermatologists recommends protection. Through the winter, the same organisation says year-round use is unnecessary here, because the UV index does not get high enough for it to be beneficial. The exceptions it names are people with photosensitivity conditions, vitiligo, lupus or a high risk of skin cancer, including people on immunosuppressive treatment. Snow and altitude change the picture too. If you have melasma there is a separate case for carrying on, because those patches respond to visible light as well as ultraviolet."
       },
       {
         "q": "Is SPF 50 better than SPF 30 for ageing skin?",
-        "a": "Less than the numbers imply, and the UVA stars matter more than either. SPF measures protection from the burning UVB wavelengths, and the returns flatten above 30, which is why both the NHS and the British Association of Dermatologists name 30 rather than 50 as the standard. Ageing is driven more by UVA, so the figure to look for is 4 or 5 UVA stars, or the letters UVA in a circle. And since the SPF number only holds at the thickness used in laboratory testing — roughly double what people actually apply — a comfortable SPF 30 you put on generously beats an SPF 50 you spread thin."
+        "a": "Less than the numbers imply, and the UVA stars matter more than either. SPF measures protection from the burning UVB wavelengths, and the returns flatten above 30; both the NHS and the British Association of Dermatologists set 30, not 50, as the minimum. Ageing is driven more by UVA, so the figure to look for is 4 or 5 UVA stars, or the letters UVA in a circle. And since the SPF number only holds at the thickness used in laboratory testing — roughly double what people actually apply — a comfortable SPF 30 you put on generously beats an SPF 50 you spread thin."
       },
       {
         "q": "How much sunscreen should I put on my face?",
@@ -335,7 +335,7 @@ export default {
     "title": "Сонцезахист після 40: що підтверджують дослідження і коли у Британії він не потрібен",
     "seoTitle": "Сонцезахист після 40: що кажуть дослідження",
     "metaDesc": "Щоденний SPF — найкраще доведений крок у догляді після 40. Але британські дерматологи кажуть, що цілий рік він тут не потрібен. Що купувати, скільки і коли.",
-    "excerpt": "Сонцезахист — єдиний крок у догляді, за яким стоїть справжнє рандомізоване дослідження. Воно проходило в субтропічному Квінсленді, а британські дерматологи кажуть, що взимку тут сонцезахист не потрібен. І те, й те — правда водночас.",
+    "excerpt": "Сонцезахист — один із дуже небагатьох кроків у догляді, за якими стоїть справжнє рандомізоване дослідження. Воно проходило в субтропічному Квінсленді, а британські дерматологи кажуть, що взимку тут сонцезахист не потрібен. І те, й те — правда водночас.",
     "meta": "23 жовтня 2026 · 9 хв читання",
     "lead": "Будь-яка схема догляду, яку ви читали, закінчується однаково: наносьте сонцезахист щодня, цілий рік. Перша половина цієї поради підкріплена доказами краще, ніж будь-що інше в б’юті. Друга — не те, що насправді каже Британська асоціація дерматологів. І різницю між ними варто розуміти, бо вона вирішує, що саме ви купуєте й коли взагалі цим займаєтесь.",
     "blocks": [
@@ -381,7 +381,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Жінкам було від 40 до 55 — тобто це єдине дослідження в цій темі, проведене саме в тій віковій групі, яка це читає. Тож варто чітко розуміти, що воно здатне довести, а що ні."
+        "text": "Жінкам було від 40 до 55 — тобто це одне з дуже небагатьох досліджень у цій темі, проведених саме в тій віковій групі, яка це читає. Тож варто чітко розуміти, що воно здатне довести, а що ні."
       },
       {
         "t": "p",
@@ -405,11 +405,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Їхній поріг — УФ-індекс 3 і вище, що у Британії «зазвичай буває між квітнем і вереснем». NHS проводить приблизно ту саму межу з іншого боку, радячи триматися тіні з 11-ї до 15-ї з березня до жовтня."
+        "text": "Їхній поріг для світлої шкіри — УФ-індекс 3 і вище, що у Британії «зазвичай буває між квітнем і вереснем». NHS проводить приблизно ту саму межу з іншого боку, радячи триматися тіні з 11-ї до 15-ї з березня до жовтня."
       },
       {
         "t": "p",
-        "text": "Тож точна версія правила така: щоденний сонцезахист приблизно з квітня до вересня, а взимку — лише якщо є причина. Причини реальні, і їх варто знати: асоціація називає людей із фотосенсибілізацією, вітиліго, вовчаком, високим ризиком раку шкіри та тих, хто приймає певні ліки. Сніг і висота теж усе змінюють — тиждень на лижах у лютому це не британська зима. Якщо ви не в цих групах, тюбик може поїхати в шафу, коли переводять годинники, і повернутися навесні."
+        "text": "Тож точна версія правила така: щоденний сонцезахист приблизно з квітня до вересня, а взимку — лише якщо є причина. Причини реальні, і їх варто знати: асоціація називає людей із фотосенсибілізацією, вітиліго, вовчаком, високим ризиком раку шкіри, зокрема тих, хто отримує імуносупресивну терапію. Сніг і висота теж усе змінюють — тиждень на лижах у лютому це не британська зима. Якщо ви не в цих групах, тюбик може поїхати в шафу, коли переводять годинники, і повернутися навесні."
       },
       {
         "t": "p",
@@ -425,7 +425,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "SPF 30 або вище. SPF вимірює захист від UVB — тих довжин хвиль, що спричиняють опік. Вище 30 віддача швидко вирівнюється, тому обидві організації називають саме 30, а не 50."
+        "text": "SPF 30 або вище. SPF вимірює захист від UVB — тих довжин хвиль, що спричиняють опік. Вище 30 віддача швидко вирівнюється, і обидві організації називають мінімумом саме 30, а не 50."
       },
       {
         "t": "p",
@@ -449,11 +449,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "У житті люди наносять приблизно від чверті до трьох чвертей цієї кількості — [за оцінкою самого Діффі](https://pmc.ncbi.nlm.nih.gov/articles/PMC1123459/), це 0,5–1,5 мг на квадратний сантиметр, що, за його розрахунками, може залишити вам близько третини захисту, вказаного на етикетці. Нанесіть замало SPF 50 — і опинитеся десь на рівні добре нанесеного SPF 15."
+        "text": "У житті люди наносять приблизно від чверті до трьох чвертей цієї кількості — [за даними, які наводять Тейлор і Діффі](https://pmc.ncbi.nlm.nih.gov/articles/PMC1123459/), це 0,5–1,5 мг на квадратний сантиметр, що, за їхньою оцінкою, може залишити вам близько третини захисту, вказаного на етикетці. Нанесіть замало SPF 50 — і опинитеся десь на рівні добре нанесеного SPF 15."
       },
       {
         "t": "p",
-        "text": "Саме тому «скільки» — корисніше питання, ніж «який фактор». Два орієнтири, обидва з одного джерела: листа до BMJ 2002 року від Тейлора і Діффі, які поділили тіло на одинадцять ділянок і вирахували, як досягти 2 мг/см² без ваг."
+        "text": "Саме тому «скільки» — корисніше питання, ніж «який фактор». Два орієнтири. Перший — з листа до BMJ 2002 року від Тейлора і Діффі, які поділили тіло на одинадцять ділянок і вирахували, як досягти 2 мг/см² без ваг."
       },
       {
         "t": "p",
@@ -599,9 +599,9 @@ export default {
             "url": "https://www.skinhealthinfo.org.uk/sun-awareness/the-sunscreen-fact-sheet/"
           },
           {
-            "claim": "Більшість людей наносить на третину–три чверті менше засобу, ніж та кількість, за якої вимірюють SPF.",
-            "detail": "SPF визначають у лабораторних випробуваннях за щільності нанесення 2 мг на квадратний сантиметр шкіри. Редакційна стаття Діффі в BMJ, що відтворює дозувальний орієнтир, опублікований ним разом із Тейлором у 2002 році, повідомляє: споживачі зазвичай наносять 0,5–1,5 мг на квадратний сантиметр, що, за його оцінкою, може давати близько третини зазначеного SPF. Практичний орієнтир ділить тіло на одинадцять ділянок приблизно по 9% кожна за «правилом дев’яток», де обличчя і шия становлять одну ділянку, і рекомендує дві смужки засобу, видавлені вздовж вказівного й середнього пальців на кожну ділянку, щоб наблизитися до 2 мг/см².",
-            "cite": "Діффі, BMJ, про дозувальний орієнтир Тейлора і Діффі",
+            "claim": "Більшість людей наносить на чверть–три чверті менше засобу, ніж та кількість, за якої вимірюють SPF.",
+            "detail": "SPF визначають у лабораторних випробуваннях за щільності нанесення 2 мг на квадратний сантиметр шкіри. Лист Тейлора і Діффі до BMJ 2002 року, де викладено їхній дозувальний орієнтир, повідомляє: споживачі зазвичай наносять 0,5–1,5 мг на квадратний сантиметр, що, за їхньою оцінкою, може давати близько третини зазначеного SPF. Практичний орієнтир ділить тіло на одинадцять ділянок приблизно по 9% кожна за «правилом дев’яток», де голова, шия й обличчя становлять одну ділянку, і рекомендує дві смужки засобу, видавлені вздовж вказівного й середнього пальців на кожну ділянку, щоб наблизитися до 2 мг/см².",
+            "cite": "Тейлор і Діффі, BMJ, 2002",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1123459/"
           },
           {
@@ -622,11 +622,11 @@ export default {
     "faq": [
       {
         "q": "Чи справді треба наносити сонцезахист щодня у Британії?",
-        "a": "Приблизно з квітня до вересня — так: саме тоді УФ-індекс у Британії сягає 3 і вище, а це рівень, за якого Британська асоціація дерматологів рекомендує захист. Узимку та сама організація каже, що цілорічне застосування тут непотрібне, бо УФ-індекс не піднімається достатньо високо, щоб від цього була користь. Винятки, які вона називає: люди з фотосенсибілізацією, вітиліго, вовчаком чи високим ризиком раку шкіри і ті, хто приймає певні ліки, — плюс будь-хто, хто їде туди, де сніг або висота. Якщо у вас мелазма, є окремий аргумент продовжувати, бо ці плями реагують і на видиме світло, не лише на ультрафіолет."
+        "a": "Приблизно з квітня до вересня — так: саме тоді УФ-індекс у Британії сягає 3 і вище, а це рівень, за якого Британська асоціація дерматологів рекомендує захист. Узимку та сама організація каже, що цілорічне застосування тут непотрібне, бо УФ-індекс не піднімається достатньо високо, щоб від цього була користь. Винятки, які вона називає: люди з фотосенсибілізацією, вітиліго, вовчаком чи високим ризиком раку шкіри, зокрема ті, хто отримує імуносупресивну терапію. Сніг і висота теж змінюють картину. Якщо у вас мелазма, є окремий аргумент продовжувати, бо ці плями реагують і на видиме світло, не лише на ультрафіолет."
       },
       {
         "q": "SPF 50 кращий за SPF 30 для шкіри, що старіє?",
-        "a": "Менше, ніж натякають цифри, і зірки UVA важливіші за обидві. SPF вимірює захист від UVB, які спричиняють опік, і вище 30 віддача вирівнюється — тому і NHS, і Британська асоціація дерматологів називають стандартом саме 30, а не 50. Старіння більше пов’язане з UVA, тож шукати треба 4 чи 5 зірок UVA або літери UVA в колі. А оскільки цифра SPF справджується лише за тієї товщини шару, яку використовують у лабораторних випробуваннях — приблизно вдвічі більшої за те, що наносять люди, — комфортний SPF 30, нанесений щедро, виграє в SPF 50, розмазаного тонко."
+        "a": "Менше, ніж натякають цифри, і зірки UVA важливіші за обидві. SPF вимірює захист від UVB, які спричиняють опік, і вище 30 віддача вирівнюється — і NHS, і Британська асоціація дерматологів називають мінімумом саме 30, а не 50. Старіння більше пов’язане з UVA, тож шукати треба 4 чи 5 зірок UVA або літери UVA в колі. А оскільки цифра SPF справджується лише за тієї товщини шару, яку використовують у лабораторних випробуваннях — приблизно вдвічі більшої за те, що наносять люди, — комфортний SPF 30, нанесений щедро, виграє в SPF 50, розмазаного тонко."
       },
       {
         "q": "Скільки сонцезахисту наносити на обличчя?",

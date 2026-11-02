@@ -42,11 +42,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The largest analysis of strength training and death pooled sixteen cohort studies covering more than half a million people. It found muscle-strengthening activity associated with roughly [10–17% lower risk](https://pubmed.ncbi.nlm.nih.gov/35228201/) of dying from any cause, of cardiovascular disease, of total cancer and of diabetes — a 15% reduction in all-cause mortality, relative risk 0.85."
+        "text": "The largest analysis of strength training and death pooled sixteen cohort studies covering more than half a million people. It found muscle-strengthening activity associated with roughly [10–17% lower risk](https://pubmed.ncbi.nlm.nih.gov/35228201/) of dying from any cause and of cardiovascular disease, cancer overall and diabetes — a 15% reduction in all-cause mortality, relative risk 0.85."
       },
       {
         "t": "p",
-        "text": "The part nobody quotes is the shape of the curve. The maximum risk reduction sat at about thirty to sixty minutes a week — and above that the association tapered off rather than continuing to improve. A J-shape, in the authors' description, and they are careful to say the effect of higher volumes is unclear rather than harmful. Combining strength work with aerobic activity was associated with a 40% lower mortality risk, which is a much bigger number than either alone."
+        "text": "The part nobody quotes is the shape of the curve. The maximum risk reduction sat at about thirty to sixty minutes a week — and above that the association tapered off rather than continuing to improve. A J-shape, in the authors' description, and they are careful to say the effect of higher volumes is unclear rather than harmful. Combining strength work with aerobic activity was associated with a 40% lower mortality risk, which is a much bigger number than for strength work alone."
       },
       {
         "t": "p",
@@ -58,11 +58,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is where the popular version quietly misleads. The paper that put the phrase into circulation is a systematic review and meta-analysis of the [minimum effective training dose for one-rep-max strength](https://pubmed.ncbi.nlm.nih.gov/31797219/). Six studies met its criteria, and all six showed that a single set, done between one and three times a week, produced significant strength gains — an estimated 12 kg on overall one-rep max, 17 kg on the squat."
+        "text": "Here is where the popular version quietly misleads. The paper that put the phrase into circulation is a systematic review and meta-analysis of the [minimum effective training dose for one-rep-max strength](https://pubmed.ncbi.nlm.nih.gov/31797219/). Six studies met its criteria, and all six showed that a single set, done between one and three times a week, produced significant strength gains; pooling five of them gave an estimated 12 kg on overall one-rep max and 17 kg on the squat."
       },
       {
         "t": "p",
-        "text": "Three things about that result rarely travel with it. The participants were resistance-trained men, not women over 40. The loads were 70–85% of their one-rep max, taken to the point where another repetition was not happening — this is a minimum of volume, not a minimum of effort. And the authors' own conclusion names two to three times a week, not one, as the dose that produces those gains over eight to twelve weeks."
+        "text": "Three things about that result rarely travel with it. The participants were resistance-trained men, not women over 40. The loads the authors recommend are 70–85% of one-rep max (not every study reported load), taken to the point where another repetition was not happening — this is a minimum of volume, not a minimum of effort. And the authors' own conclusion names two to three times a week, not one, as the dose that produces those gains over eight to twelve weeks."
       },
       {
         "t": "p",
@@ -78,11 +78,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Twenty-six women, average age 63, were randomised to a [minimal-dose programme](https://pubmed.ncbi.nlm.nih.gov/39169050/) or to a control group that met weekly for talks and stretching. The training was two sessions a week for four weeks: two sets of eight to twelve repetitions on three compound exercises, plus three one-minute planks. Strength improved — bench press and leg press both rose significantly — while heart-rate variability, blood pressure and functional tests stayed flat."
+        "text": "Twenty-six women, average age about 61 (63 in the training group), were randomised to a [minimal-dose programme](https://pubmed.ncbi.nlm.nih.gov/39169050/) or to a control group that met weekly for talks and stretching. The training was two sessions a week for four weeks: two sets of eight to twelve repetitions on three compound exercises, plus three one-minute planks. Strength improved — bench press and leg press both rose significantly in the training group and not in the controls — while heart-rate variability, blood pressure and functional tests showed no effect of training."
       },
       {
         "t": "p",
-        "text": "The caveats matter as much as the result. Twenty-six people, four weeks, average age in the early sixties rather than the forties, and crucially: there was no significant between-group difference on any measure. The clear group-by-time interaction appeared only for bench press. So this is a small, short study showing that a modest programme moves strength, not a demonstration that a minimal dose matches a full one. And note that even the trial called \"minimal dose\" used two sessions a week."
+        "text": "The caveats matter as much as the result. Twenty-six people, four weeks, average age in the early sixties rather than the forties, and crucially: there was no between-group main effect on any measure, and the only strength measure where the training group pulled clearly ahead of the controls (a group-by-time interaction) was bench press. So this is a small, short study showing that a modest programme moves strength, not a demonstration that a minimal dose matches a full one. And note that even the trial called \"minimal dose\" used two sessions a week."
       },
       {
         "t": "h",
@@ -169,7 +169,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One honest gap: if you want research on resistance training specifically in postmenopausal women with type 1 diabetes, there is none. A trial [registered in 2022](https://clinicaltrials.gov/study/NCT05203640) is still recruiting sixteen participants and has posted no results; its own rationale states that no published studies examine the effects of resistance exercise in this population. Anything you read that sounds more confident than that is extrapolating."
+        "text": "One honest gap: if you want research on resistance training specifically in postmenopausal women with type 1 diabetes, I could find none. A trial [registered in 2022](https://clinicaltrials.gov/study/NCT05203640) is still listed as recruiting sixteen participants and has posted no results; its own rationale states that no published studies examine the effects of resistance exercise in this population. Anything you read that sounds more confident than that is extrapolating."
       },
       {
         "t": "h",
@@ -194,7 +194,7 @@ export default {
           },
           {
             "claim": "The \"minimum effective dose\" paper is in trained men, at loads taken to failure, and recommends two to three sessions a week — not one.",
-            "detail": "A systematic review and meta-analysis screened 2,629 studies and included six. All six showed that a single set performed between one and three times a week produced significant one-rep-max strength gains; the meta-analysis estimated an increase of 12.09 kg overall (95% CI 8.16–16.03), 17.48 kg for squat and 8.25 kg for bench press. The authors' stated conclusion is that a single set of 6–12 repetitions at approximately 70–85% of one-rep max, performed two to three times a week with high intensity of effort — reaching volitional or momentary failure — for 8–12 weeks produces those gains. Participants were resistance-trained men; the finding does not transfer to untrained women over 40 without assumption.",
+            "detail": "A systematic review and meta-analysis screened 2,629 studies and included six. All six showed that a single set performed between one and three times a week produced significant one-rep-max strength gains; a meta-analysis of five of them estimated an increase of 12.09 kg overall (95% CI 8.16–16.03), 17.48 kg for squat and 8.25 kg for bench press. The authors' stated conclusion is that a single set of 6–12 repetitions at approximately 70–85% of one-rep max, performed two to three times a week with high intensity of effort — reaching volitional or momentary failure — for 8–12 weeks produces those gains. Participants were resistance-trained men; the finding does not transfer to untrained women over 40 without assumption.",
             "cite": "Sports Medicine · Androulakis-Korakakis et al., systematic review and meta-analysis, April 2020",
             "url": "https://pubmed.ncbi.nlm.nih.gov/31797219/"
           },
@@ -205,8 +205,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/38509414/"
           },
           {
-            "claim": "The one minimal-dose randomised trial in menopausal women used two sessions a week, ran four weeks, and found no between-group difference on any measure.",
-            "detail": "Twenty-six women were randomised to training (mean age 63.2) or to a control group receiving weekly lectures and stretching. The training group did two sessions a week for four weeks: two sets of 8–12 repetitions on three dynamic exercises plus three one-minute planks. Over time, one-rep-max bench press (p = 0.01) and leg press (p < 0.01) improved, as did one heart-rate-variability index; there was a group-by-time interaction only for bench press and one HRV index, and no between-group main effect for any variable. Cardiac autonomic, haemodynamic and functional measures were unchanged. Small, short, and in women around a decade older than this article's readers — supportive, not conclusive.",
+            "claim": "A minimal-dose randomised trial in menopausal women used two sessions a week, ran four weeks, and pulled clearly ahead of the controls only on bench press.",
+            "detail": "Twenty-six women were randomised to training (mean age 63.2) or to a control group (mean age 59.3) receiving weekly lectures and stretching. The training group did two sessions a week for four weeks: two sets of 8–12 repetitions on three dynamic exercises plus three one-minute planks. Over time, one-rep-max bench press (p = 0.01) and leg press (p < 0.01) improved, with post hoc tests showing significant gains in the training group but not the controls; there was a group-by-time interaction only for bench press and one heart-rate-variability index (the latter not confirmed in post hoc comparisons), and no between-group main effect for any variable. Cardiac autonomic, haemodynamic and functional measures were unchanged. Small, short, and in women around a decade older than this article's readers — supportive, not conclusive.",
             "cite": "Scientific Reports · Dias et al., randomised clinical trial, August 2024",
             "url": "https://pubmed.ncbi.nlm.nih.gov/39169050/"
           },
@@ -217,8 +217,8 @@ export default {
             "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
           },
           {
-            "claim": "There is no published research on resistance training in postmenopausal women with type 1 diabetes.",
-            "detail": "A trial registered in 2022 compares the glycaemic effects of a low-resistance, high-repetition programme (3 sets of 15–20) against a moderate-resistance, moderate-repetition one (3 sets of 8–10) in postmenopausal women with type 1 diabetes. It remains in recruitment with an estimated enrolment of sixteen, a primary completion date of 30 June 2026, and no results posted. Its own rationale states that despite the potential benefits, there are currently no published studies examining the effects of resistance exercise in this population.",
+            "claim": "I could find no published research on resistance training in postmenopausal women with type 1 diabetes.",
+            "detail": "A trial registered in 2022 compares the glycaemic effects of a low-resistance, high-repetition programme (3 sets of 15–20) against a moderate-resistance, moderate-repetition one (3 sets of 8–10) in postmenopausal women with type 1 diabetes. It remains in recruitment with an estimated enrolment of sixteen, an estimated primary completion date of 30 June 2026 (now passed; the record was last updated in July 2025), and no results posted. Its own rationale states that despite the potential benefits, there are currently no published studies examining the effects of resistance exercise in this population.",
             "cite": "ClinicalTrials.gov · NCT05203640, recruiting, no results posted",
             "url": "https://clinicaltrials.gov/study/NCT05203640"
           }
@@ -269,7 +269,7 @@ export default {
     "faq": [
       {
         "q": "What is the minimum amount of strength training per week for women over 40?",
-        "a": "Two sessions a week totalling about thirty to sixty minutes, with weights heavy enough that the last repetitions are hard. That matches UK Chief Medical Officers' guidance, and it is also roughly where the largest analysis of strength training and mortality found the benefit peaking — above about an hour a week the association tapered rather than continuing to improve. One session a week is genuinely better than none and will build strength, but the research that gets quoted for it was done in trained men at loads taken to failure, and its own authors recommend two to three sessions."
+        "a": "Two sessions a week totalling about thirty to sixty minutes, with weights heavy enough that the last repetitions are hard. The two-a-week part matches UK Chief Medical Officers' guidance, and it is also roughly where the largest analysis of strength training and mortality found the benefit peaking — above about an hour a week the association tapered rather than continuing to improve. One session a week is genuinely better than none and will build strength, but the research that gets quoted for it was done in trained men at loads taken to failure, and its own authors recommend two to three sessions."
       },
       {
         "q": "Is one strength session a week enough?",
@@ -289,7 +289,7 @@ export default {
       },
       {
         "q": "How should I manage blood sugar around a short strength session with type 1 diabetes?",
-        "a": "Expect glucose to rise during and just after heavy sets, and expect the more interesting change to arrive later: insulin sensitivity improves for roughly the next day or two, so the low tends to come hours afterwards, often overnight. Two fixed sessions a week are easier to learn from than scattered ones, because the pattern repeats. Anything involving an insulin change around training is a conversation with your diabetes team. There is, worth knowing, no published research on resistance training specifically in postmenopausal women with type 1 diabetes — the first trial is still recruiting."
+        "a": "Expect glucose to rise during and just after heavy sets, and expect the more interesting change to arrive later: insulin sensitivity improves for roughly the next day or two, so the low tends to come hours afterwards, often overnight. Two fixed sessions a week are easier to learn from than scattered ones, because the pattern repeats. Anything involving an insulin change around training is a conversation with your diabetes team. Worth knowing: I could find no published research on resistance training specifically in postmenopausal women with type 1 diabetes — the first registered trial is still listed as recruiting."
       }
     ]
   },
@@ -325,11 +325,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найбільший аналіз силових тренувань і смертності об’єднав шістнадцять когортних досліджень на понад пів мільйона людей. Він виявив, що силова активність пов’язана приблизно з [на 10–17% нижчим ризиком](https://pubmed.ncbi.nlm.nih.gov/35228201/) померти від будь-якої причини, від серцево-судинних захворювань, від раку загалом і від діабету — зниження загальної смертності на 15%, відносний ризик 0,85."
+        "text": "Найбільший аналіз силових тренувань і смертності об’єднав шістнадцять когортних досліджень на понад пів мільйона людей. Він виявив, що силова активність пов’язана приблизно з [на 10–17% нижчим ризиком](https://pubmed.ncbi.nlm.nih.gov/35228201/) померти від будь-якої причини, а також серцево-судинних захворювань, раку загалом і діабету — зниження загальної смертності на 15%, відносний ризик 0,85."
       },
       {
         "t": "p",
-        "text": "Частина, яку ніхто не цитує, — форма кривої. Максимальне зниження ризику припадало приблизно на тридцять–шістдесят хвилин на тиждень, а вище зв’язок згасав, а не продовжував покращуватися. J-подібна крива, як описують автори, і вони обережно кажуть, що ефект більших обсягів радше незрозумілий, ніж шкідливий. Поєднання силових з аеробною активністю було пов’язане з ризиком смерті, нижчим на 40%, — число значно більше, ніж у кожного окремо."
+        "text": "Частина, яку ніхто не цитує, — форма кривої. Максимальне зниження ризику припадало приблизно на тридцять–шістдесят хвилин на тиждень, а вище зв’язок згасав, а не продовжував покращуватися. J-подібна крива, як описують автори, і вони обережно кажуть, що ефект більших обсягів радше незрозумілий, ніж шкідливий. Поєднання силових з аеробною активністю було пов’язане з ризиком смерті, нижчим на 40%, — число значно більше, ніж для самих силових."
       },
       {
         "t": "p",
@@ -341,11 +341,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ось тут популярна версія тихо вводить в оману. Робота, яка запустила цей вислів, — систематичний огляд і метааналіз [мінімальної ефективної дози для сили в одному повторенні](https://pubmed.ncbi.nlm.nih.gov/31797219/). Критеріям відповідали шість досліджень, і всі шість показали, що один підхід, виконаний від одного до трьох разів на тиждень, давав значущий приріст сили — близько 12 кг до загального максимуму, 17 кг у присіданні."
+        "text": "Ось тут популярна версія тихо вводить в оману. Робота, яка запустила цей вислів, — систематичний огляд і метааналіз [мінімальної ефективної дози для сили в одному повторенні](https://pubmed.ncbi.nlm.nih.gov/31797219/). Критеріям відповідали шість досліджень, і всі шість показали, що один підхід, виконаний від одного до трьох разів на тиждень, давав значущий приріст сили; об’єднаний аналіз п’яти з них оцінив приріст приблизно у 12 кг для загального максимуму і 17 кг у присіданні."
       },
       {
         "t": "p",
-        "text": "Три деталі цього результату рідко згадують разом із ним. Учасниками були треновані чоловіки, а не жінки після 40. Вага становила 70–85% від їхнього одноповторного максимуму і доводилася до точки, де ще одного повтору вже не буде, — це мінімум обсягу, а не мінімум зусилля. І власний висновок авторів називає два-три рази на тиждень, а не один, як дозу, що дає такі результати за вісім–дванадцять тижнів."
+        "text": "Три деталі цього результату рідко згадують разом із ним. Учасниками були треновані чоловіки, а не жінки після 40. Вага, яку рекомендують автори, — 70–85% від одноповторного максимуму (не всі дослідження повідомляли вагу), і її доводять до точки, де ще одного повтору вже не буде, — це мінімум обсягу, а не мінімум зусилля. І власний висновок авторів називає два-три рази на тиждень, а не один, як дозу, що дає такі результати за вісім–дванадцять тижнів."
       },
       {
         "t": "p",
@@ -361,11 +361,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Двадцять шість жінок, середній вік 63 роки, випадковим чином розподілили на [програму мінімальної дози](https://pubmed.ncbi.nlm.nih.gov/39169050/) або контрольну групу, яка щотижня збиралася на лекції та розтяжку. Тренування — два заняття на тиждень протягом чотирьох тижнів: два підходи по 8–12 повторів у трьох базових вправах плюс три планки по хвилині. Сила зросла: жим лежачи і жим ногами обидва значуще покращилися, тоді як варіабельність серцевого ритму, тиск і функціональні тести лишилися незмінними."
+        "text": "Двадцять шість жінок, середній вік близько 61 року (63 у тренувальній групі), випадковим чином розподілили на [програму мінімальної дози](https://pubmed.ncbi.nlm.nih.gov/39169050/) або контрольну групу, яка щотижня збиралася на лекції та розтяжку. Тренування — два заняття на тиждень протягом чотирьох тижнів: два підходи по 8–12 повторів у трьох базових вправах плюс три планки по хвилині. Сила зросла: жим лежачи і жим ногами обидва значуще покращилися в тренувальній групі, але не в контрольній, тоді як на варіабельність серцевого ритму, тиск і функціональні тести тренування не вплинуло."
       },
       {
         "t": "p",
-        "text": "Застереження важать не менше за результат. Двадцять шість осіб, чотири тижні, середній вік радше за шістдесят, ніж за сорок, і головне: між групами не було значущої різниці за жодним показником. Чітка взаємодія «група × час» з’явилася лише для жиму лежачи. Тож це мале коротке дослідження, яке показує, що скромна програма зрушує силу, а не доказ, що мінімальна доза дорівнює повній. І зауважте: навіть випробування під назвою «мінімальна доза» використало два заняття на тиждень."
+        "text": "Застереження важать не менше за результат. Двадцять шість осіб, чотири тижні, середній вік радше за шістдесят, ніж за сорок, і головне: основного ефекту між групами не було за жодним показником, а єдиний силовий показник, де тренувальна група чітко випередила контрольну (взаємодія «група × час»), — жим лежачи. Тож це мале коротке дослідження, яке показує, що скромна програма зрушує силу, а не доказ, що мінімальна доза дорівнює повній. І зауважте: навіть випробування під назвою «мінімальна доза» використало два заняття на тиждень."
       },
       {
         "t": "h",
@@ -452,7 +452,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одна чесна прогалина: якщо вам потрібні дослідження силових саме в жінок у постменопаузі з діабетом 1 типу, їх немає. Випробування, [зареєстроване 2022 року](https://clinicaltrials.gov/study/NCT05203640), досі набирає шістнадцять учасниць і не оприлюднило результатів; у його власному обґрунтуванні сказано, що опублікованих досліджень впливу силових вправ у цій популяції наразі не існує. Усе, що звучить упевненіше за це, — екстраполяція."
+        "text": "Одна чесна прогалина: якщо вам потрібні дослідження силових саме в жінок у постменопаузі з діабетом 1 типу, я їх не знайшла. Випробування, [зареєстроване 2022 року](https://clinicaltrials.gov/study/NCT05203640), досі значиться як таке, що набирає шістнадцять учасниць, і не оприлюднило результатів; у його власному обґрунтуванні сказано, що опублікованих досліджень впливу силових вправ у цій популяції наразі не існує. Усе, що звучить упевненіше за це, — екстраполяція."
       },
       {
         "t": "h",
@@ -477,7 +477,7 @@ export default {
           },
           {
             "claim": "Робота про «мінімальну ефективну дозу» зроблена на тренованих чоловіках, із вагами до відмови, і рекомендує два-три заняття на тиждень, а не одне.",
-            "detail": "Систематичний огляд і метааналіз відсіяли 2629 досліджень і включили шість. Усі шість показали, що один підхід, виконаний від одного до трьох разів на тиждень, давав значущий приріст сили в одному повторенні; метааналіз оцінив приріст у 12,09 кг для загального максимуму (95% ДІ 8,16–16,03), 17,48 кг для присідання і 8,25 кг для жиму лежачи. Заявлений висновок авторів: один підхід на 6–12 повторів із вагою приблизно 70–85% від одноповторного максимуму, виконуваний два-три рази на тиждень із високою інтенсивністю зусилля — до вольової або миттєвої відмови — протягом 8–12 тижнів дає такі результати. Учасниками були треновані чоловіки; без припущень цей висновок не переноситься на нетренованих жінок після 40.",
+            "detail": "Систематичний огляд і метааналіз відсіяли 2629 досліджень і включили шість. Усі шість показали, що один підхід, виконаний від одного до трьох разів на тиждень, давав значущий приріст сили в одному повторенні; метааналіз п’яти з них оцінив приріст у 12,09 кг для загального максимуму (95% ДІ 8,16–16,03), 17,48 кг для присідання і 8,25 кг для жиму лежачи. Заявлений висновок авторів: один підхід на 6–12 повторів із вагою приблизно 70–85% від одноповторного максимуму, виконуваний два-три рази на тиждень із високою інтенсивністю зусилля — до вольової або миттєвої відмови — протягом 8–12 тижнів дає такі результати. Учасниками були треновані чоловіки; без припущень цей висновок не переноситься на нетренованих жінок після 40.",
             "cite": "Sports Medicine · Androulakis-Korakakis та ін., систематичний огляд і метааналіз, квітень 2020",
             "url": "https://pubmed.ncbi.nlm.nih.gov/31797219/"
           },
@@ -488,8 +488,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/38509414/"
           },
           {
-            "claim": "Єдине рандомізоване випробування мінімальної дози на жінках у менопаузі використало два заняття на тиждень, тривало чотири тижні й не виявило різниці між групами за жодним показником.",
-            "detail": "Двадцять шість жінок випадковим чином розподілили на тренування (середній вік 63,2) або контрольну групу, яка щотижня отримувала лекції та розтяжку. Тренувальна група займалася двічі на тиждень чотири тижні: два підходи по 8–12 повторів у трьох динамічних вправах плюс три хвилинні планки. У часовому порівнянні покращилися одноповторний максимум у жимі лежачи (p = 0,01) і жимі ногами (p < 0,01), а також один індекс варіабельності серцевого ритму; взаємодія «група × час» була лише для жиму лежачи й одного індексу ВСР, а основного ефекту між групами не було за жодною змінною. Серцева вегетативна регуляція, гемодинаміка та функціональні показники не змінилися. Мале, коротке і на жінках приблизно на десятиліття старших за читачок цієї статті — підтримує, але не доводить.",
+            "claim": "Рандомізоване випробування мінімальної дози на жінках у менопаузі використало два заняття на тиждень, тривало чотири тижні й чітко випередило контрольну групу лише в жимі лежачи.",
+            "detail": "Двадцять шість жінок випадковим чином розподілили на тренування (середній вік 63,2) або контрольну групу (середній вік 59,3), яка щотижня отримувала лекції та розтяжку. Тренувальна група займалася двічі на тиждень чотири тижні: два підходи по 8–12 повторів у трьох динамічних вправах плюс три хвилинні планки. У часовому порівнянні покращилися одноповторний максимум у жимі лежачи (p = 0,01) і жимі ногами (p < 0,01), причому апостеріорні тести показали значущий приріст у тренувальній групі, але не в контрольній; взаємодія «група × час» була лише для жиму лежачи й одного індексу варіабельності серцевого ритму (останню апостеріорні порівняння не підтвердили), а основного ефекту між групами не було за жодною змінною. Серцева вегетативна регуляція, гемодинаміка та функціональні показники не змінилися. Мале, коротке і на жінках приблизно на десятиліття старших за читачок цієї статті — підтримує, але не доводить.",
             "cite": "Scientific Reports · Dias та ін., рандомізоване клінічне дослідження, серпень 2024",
             "url": "https://pubmed.ncbi.nlm.nih.gov/39169050/"
           },
@@ -500,8 +500,8 @@ export default {
             "url": "https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report"
           },
           {
-            "claim": "Опублікованих досліджень силових тренувань у жінок у постменопаузі з діабетом 1 типу не існує.",
-            "detail": "Випробування, зареєстроване 2022 року, порівнює глікемічні ефекти програми з низьким опором і високою кількістю повторів (3 підходи по 15–20) та програми з помірним опором і помірною кількістю повторів (3 підходи по 8–10) у жінок у постменопаузі з діабетом 1 типу. Воно досі набирає учасниць, орієнтовна кількість — шістнадцять, дата основного завершення — 30 червня 2026 року, результатів не оприлюднено. У його власному обґрунтуванні зазначено, що попри потенційну користь, опублікованих досліджень впливу силових вправ у цій популяції наразі немає.",
+            "claim": "Опублікованих досліджень силових тренувань у жінок у постменопаузі з діабетом 1 типу я не знайшла.",
+            "detail": "Випробування, зареєстроване 2022 року, порівнює глікемічні ефекти програми з низьким опором і високою кількістю повторів (3 підходи по 15–20) та програми з помірним опором і помірною кількістю повторів (3 підходи по 8–10) у жінок у постменопаузі з діабетом 1 типу. Воно досі набирає учасниць, орієнтовна кількість — шістнадцять, орієнтовна дата основного завершення — 30 червня 2026 року (вже минула; запис востаннє оновлювали в липні 2025 року), результатів не оприлюднено. У його власному обґрунтуванні зазначено, що попри потенційну користь, опублікованих досліджень впливу силових вправ у цій популяції наразі немає.",
             "cite": "ClinicalTrials.gov · NCT05203640, набір триває, результатів немає",
             "url": "https://clinicaltrials.gov/study/NCT05203640"
           }
@@ -552,7 +552,7 @@ export default {
     "faq": [
       {
         "q": "Який мінімум силових на тиждень для жінок після 40?",
-        "a": "Два заняття на тиждень загалом на тридцять–шістдесят хвилин, із вагами, достатньо важкими, щоб останні повтори були важкими. Це збігається з рекомендаціями головних медичних радників Великої Британії, і це ж приблизно те місце, де найбільший аналіз силових і смертності знайшов пік користі: вище приблизно години на тиждень зв’язок згасав, а не продовжував покращуватися. Одне заняття на тиждень справді краще за жодне і будуватиме силу, але дослідження, яке для цього цитують, зроблене на тренованих чоловіках із вагами до відмови, і його власні автори рекомендують два-три заняття."
+        "a": "Два заняття на тиждень загалом на тридцять–шістдесят хвилин, із вагами, достатньо важкими, щоб останні повтори були важкими. Два заняття на тиждень збігаються з рекомендаціями головних медичних радників Великої Британії, і це ж приблизно те місце, де найбільший аналіз силових і смертності знайшов пік користі: вище приблизно години на тиждень зв’язок згасав, а не продовжував покращуватися. Одне заняття на тиждень справді краще за жодне і будуватиме силу, але дослідження, яке для цього цитують, зроблене на тренованих чоловіках із вагами до відмови, і його власні автори рекомендують два-три заняття."
       },
       {
         "q": "Чи достатньо одного силового заняття на тиждень?",
@@ -572,7 +572,7 @@ export default {
       },
       {
         "q": "Як керувати цукром навколо короткого силового заняття при діабеті 1 типу?",
-        "a": "Очікуйте, що глюкоза підніметься під час важких підходів і одразу після, і очікуйте, що цікавіша зміна прийде пізніше: чутливість до інсуліну покращується приблизно на наступний день чи два, тож гіпоглікемія радше приходить за кілька годин, часто вночі. З двох фіксованих занять на тиждень учитися легше, ніж із розкиданих, бо картина повторюється. Усе, що стосується зміни інсуліну навколо тренувань, — розмова з вашою діабетичною командою. І варто знати: опублікованих досліджень силових саме в жінок у постменопаузі з діабетом 1 типу немає — перше випробування досі набирає учасниць."
+        "a": "Очікуйте, що глюкоза підніметься під час важких підходів і одразу після, і очікуйте, що цікавіша зміна прийде пізніше: чутливість до інсуліну покращується приблизно на наступний день чи два, тож гіпоглікемія радше приходить за кілька годин, часто вночі. З двох фіксованих занять на тиждень учитися легше, ніж із розкиданих, бо картина повторюється. Усе, що стосується зміни інсуліну навколо тренувань, — розмова з вашою діабетичною командою. І варто знати: опублікованих досліджень силових саме в жінок у постменопаузі з діабетом 1 типу я не знайшла — перше зареєстроване випробування досі значиться як таке, що набирає учасниць."
       }
     ]
   }
