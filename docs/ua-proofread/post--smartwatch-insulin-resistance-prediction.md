@@ -1,10 +1,5 @@
 # post--smartwatch-insulin-resistance-prediction
 
-- Last checked: 2026-09-28
-- PR: (this PR)
-- Notes: UA text was already close to publication quality and matched the EN
-  paragraph-for-paragraph. Fixed one straight apostrophe in `imageAlt`
-  (should be the typographic `’`) and restored a dropped clause in the
-  perimenopause paragraph — EN "an open question, and a good one for someone
-  to fund" had been shortened to "відкрите питання, і дуже хороше" ("an open
-  question, and a good one"), losing the funding point.
+- Last checked: 2026-10-30
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/481
+- Notes: 20 fixes (second cycle). Meaning: "overrepresented" had been rendered as "дати перевагу"/"мати надлишок" (body + refs) — now "надмірно представлені"; ambiguous "відправили їх" (the data?) → participants sent for a blood draw; "попросити аналіз" → "аналіз крові"; "Two things, I think" restored. Calques: "Порівняно з… пульс мав кореляцію" (Against…), "такий, що може відрізнятися", "при порозі" → "за порогу", "усе в русі", "сон більший за показник", "рух і те, що ви їсте навколо нього", "новина жіночого здоров’я". Grammar: "згадати лікарю" → "обговорити з лікарем", "В незалежній" → "У", "ЛПВЩ-холестерин" → "холестерин ЛПВЩ". No numbers, links or structure changed.

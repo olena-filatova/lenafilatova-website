@@ -1,15 +1,5 @@
 # post--how-to-read-cgm-during-workout
 
-- Last checked: 2026-09-28
-- PR: (this PR)
-- Notes: UA text tracked the EN paragraph-for-paragraph well; no meaning
-  distortions found. Fixed 9 straight apostrophes (`'` → typographic `’`)
-  across the body text, table and refs. Fixed a genuine misspelling,
-  "заводсько каліброані сенсори" → "заводсько відкалібровані сенсори"
-  (missing letters, and also brings it in line with the other two
-  occurrences of "заводсько відкалібрований" elsewhere in the same post).
-  Reworded one trend-arrow table cell, "Менш ніж близько 1,7 ммоль/л руху
-  очікується протягом наступних півгодини" → "Очікуваний рух — менш ніж
-  приблизно 1,7 ммоль/л за наступні півгодини", to fix an English-word-order
-  calque and align "близько"/"приблизно" usage with the other rows in the
-  same table.
+- Last checked: 2026-10-30
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/481
+- Notes: 54 fixes (second cycle). Meaning: "participant had gone low" was "учасниця пішла вниз" → "гіпоглікемія"; "treat first" was "купіруйте першим" → "спершу купіруйте гіпо"; "counterbalanced" was "збалансоване" → "з контрбалансуванням"; "середнього віку 21 рік" (reads as "middle-aged") → "із середнім віком 21 рік"; "This is the single reason" reworded so it no longer claims an "only reason". Broken phrase "тремтить, дивно піт" fixed. Calques removed: "гайд по", "хороший вимір", "провело Dexcom через", "провели на жінках", "проти венозної крові/плазми", "варіант невеликої кількості", "розмова належить команді", "патерни", "надривна". Ambiguous "коли ви падаєте" → "коли цукор падає". No numbers, links or structure changed.
