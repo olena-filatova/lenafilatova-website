@@ -1,5 +1,5 @@
 # post--gum-disease-diabetes-perimenopause
 
-- Last checked: 2026-09-28
+- Last checked: 2026-10-30
 - PR: (this PR)
-- Notes: Translation was already strong and matched the EN paragraph by paragraph — no grammar, case, punctuation or terminology errors found. 2 small naturalness fixes: replaced a confusing literal "floor, not a plan" metaphor ("щорічний огляд — це підлога, а не план") with the clearer "мінімум, а не повний план", and reworded a slightly clunky sentence about the evidence for the basic dental clean ("це те, що має докази" → "має доказову базу"). No meaning, numbers or medical content changed.
+- Notes: Second pass (new cycle), 32 fixes. Mostly calques ("побічний квест" for "side quest", "за замовчуванням", "це змінює те, що він шукатиме", "Для масштабу", "бути відвертою про асиметрію"), a meaning slip where bacteria "загоюються" (EN: the damage repairs more slowly — fixed in body and FAQ), "модифікований чинник ризику" → "керований" (modifiable ≠ modified), "Коли треба показатися лікарю" → стоматологу to match EN, metaDesc agreement ("Діабет і перименопауза кожен окремо…"), and a few ref-list grammar fixes. No numbers, URLs or medical meaning changed.
