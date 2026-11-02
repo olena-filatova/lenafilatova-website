@@ -1,11 +1,10 @@
 # post--bmi-trajectory-prediabetes-women
 
-- Last checked: 2026-09-29
-- PR: (this PR)
-- Notes: Translation was already close to native quality and tracked the EN text
-  paragraph by paragraph. 3 fixes: a case-government error on "запобігати"
-  (needs dative, had accusative-shaped "його" — a calque of English "prevents it"),
-  an awkward/garbled sentence ("Ваги, зважені раз на рік..." read as "scales that
-  were weighed" rather than "weighing once a year"), and a "Related reading"
-  section title standardised from the rare "Схожі новини" to the site's
-  dominant "Читайте також" (35 posts vs 7).
+- Last checked: 2026-10-31
+- PR: (opened in this run — see PR description)
+- Notes: second-cycle check. ~36 fixes: broken grammar ("порівняння йде жінки
+  з нею ж раніше", "за медіани сім років" ×3), calques ("Що переживає всі ці
+  застереження", "повертався нормальним", "розвинули предіабет", "цю ж
+  територію"), clarity ("Якщо ваш кілька років повзе вгору" had no noun).
+  One meaning fix: UA said "у Британії" where EN says the referral line
+  applies "in England"; "your GP" now rendered as "сімейний лікар (GP)".

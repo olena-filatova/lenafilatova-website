@@ -1,18 +1,11 @@
-# UA proofread: post--magnesium-perimenopause-sleep-insulin-resistance
+# post--magnesium-perimenopause-sleep-insulin-resistance
 
-- Last checked: 2026-09-29
-- PR: (opened in this run)
-
-## Notes
-
-Translation was already close to native quality and matched the EN text
-paragraph by paragraph. Fixes made:
-
-- Normalised 18 straight apostrophes (`'`) to the site's curly apostrophe
-  (`’`) in Ukrainian words (об’єднав, п’ять, п’ятнадцять, з’їсти, тощо) —
-  every other proofread post in this repo uses `’` exclusively.
-- Reworded one English calque: "магній — розумніша річ для уваги" →
-  "придивитися до магнію має більше сенсу" (more natural Ukrainian phrasing
-  of "a more reasonable thing to look at").
-
-No content, numbers, doses, study facts, or medical meaning were changed.
+- Last checked: 2026-10-31
+- PR: (opened in this run — see PR description)
+- Notes: second-cycle check. ~60 fixes, mostly calques and clumsy phrasing
+  ("Помилка — у стрибку від цього далі", "улюблена добавка перименопаузи",
+  "доведено допомагає", "відповідь у вас є"), "покращувати інсулінорезистентність"
+  → "знижувати", "помірний-високий" / "низької до дуже низької" → "або",
+  "і і" euphony, "петля" → "замкнене коло". Restored one omission in the
+  first ref's `detail` (the deficiency trial's HOMA-IR result and "a
+  deficiency-correction finding rather than a general one").
