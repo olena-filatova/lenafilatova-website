@@ -405,6 +405,24 @@
       ]
     ]
   },
+  "/images/curcumin-glutathione-skin-ageing-evidence.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/curcumin-glutathione-skin-ageing-evidence-480.avif"
+      ],
+      [
+        800,
+        "/images/v/curcumin-glutathione-skin-ageing-evidence-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/curcumin-glutathione-skin-ageing-evidence-1200.avif"
+      ]
+    ]
+  },
   "/images/daily-spf-after-40.jpg": {
     "w": 1600,
     "h": 900,
