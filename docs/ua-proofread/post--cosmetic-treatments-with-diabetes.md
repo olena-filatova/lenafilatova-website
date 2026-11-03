@@ -1,7 +1,7 @@
 # post--cosmetic-treatments-with-diabetes
 
 - Last checked: 2026-11-03
-- PR: (pending)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/501
 - Notes: 51 fixes. 31 straight apostrophes ' → ’; ГЗТ → ЗГТ (site term); dangling
   participle «Маючи за плечима… є чотири речі» rewritten; calques «підніміть питання»,
   «підняти три речі», «їхнє прочитання», «противірусне прикриття», «рутинно виключають»,

@@ -1,7 +1,7 @@
 # post--hrt-migraine-burden-menopause
 
 - Last checked: 2026-11-03
-- PR: (pending)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/501
 - Notes: 49 fixes. Grammar — «мігрень» is feminine: «мігреннюм/мігренням» → «мігренню»,
   «активний мігрень» → «активна мігрень», «мігрень з аурою сам по собі» → «сама по собі»;
   typos «дойшла» → «досягла», «пійти» → «піти», «Позніший» → «Пізніший»; russianisms «по
