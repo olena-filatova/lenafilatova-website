@@ -1,0 +1,5 @@
+# post--anti-inflammatory-diet-memory-complaints-women
+
+- Last checked: 2026-11-03
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/499
+- Notes: 32 fixes. Calques reworked («це рівно те, що звучить», «нутрієнти зсувають маркери», «на 17% нижчими шансами», «Розійдеться ж цифра», «м’якша, ніж здається», «з причиною у зворотному напрямку», «лежать в іншому місці», «тримати в голові»); wrong referent «з її ж слів» → «зі слів самих учасниць»; grammar («Сама модель … варто» → «Самої моделі … варто», «жодний» → «жоден»); stray soft hyphen in «дев’яностохвилинне»; terminology «цукор крові» → «цукор у крові», «сплутувальні чинники» → «конфаундери», «спостереження в часі» → «лонгітюдні дослідження». No numbers, facts or URLs changed.
