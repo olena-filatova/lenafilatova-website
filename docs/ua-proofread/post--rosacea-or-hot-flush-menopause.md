@@ -1,7 +1,7 @@
 # post--rosacea-or-hot-flush-menopause
 
 - Last checked: 2026-11-03
-- PR: PRLINK
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/500
 - Notes: 57 fixes. Factual mistranslation: T1D odds «втричі з половиною» (3.5×) → «у два з
   половиною раза» (EN/source OR 2.59), in body and FAQ. Restored omitted EN content (the
   "brief I started from" aside, the CGM/pump-adhesive "same mechanism" sentence, banded

@@ -1,7 +1,7 @@
 # post--itchy-skin-after-40-diabetes
 
 - Last checked: 2026-11-03
-- PR: PRLINK
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/500
 - Notes: 31 text fixes + 22 straight apostrophes ' → ’. Meaning fixes: «волога там може
   тріснути» (moisture cracks) → «волога шкіра там може тріскатися» (×2); «Будь-де на тілі»
   → «Деінде» (EN "everywhere else"); restored "white European" in the ceramide study ref.
