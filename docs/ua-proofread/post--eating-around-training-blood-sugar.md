@@ -1,5 +1,5 @@
 # post--eating-around-training-blood-sugar
 
 - Last checked: 2026-11-04 (second pass; previous 2026-10-01)
-- PR: (this PR)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/507
 - Notes: 47 fixes, all style/calque/grammar/terminology. No changes to numbers, doses, citations, URLs, keys or `en`. Changed the calque «навколо тренувань» (×4, including the title) to «до і після тренувань» or «у зв’язку з тренуваннями». Fixed the time expression «за чверть до сьомої» → «за чверть сьома». Changed «задача» → «завдання» (×2) and «зробити помилки» → «припуститися помилок». Rewrote «одна робота, але з двох половин», «рухає глюкозу», «забирає запас міцності» (×2) → «позбавляє запасу безпеки», «працюєте з інсулінорезистентністю», «надійно не перетворюється», «Куди заглибитися». Changed «легкий/спокійний велосипед» (×4, which reads as a light bicycle) to «їзда на велосипеді». Fixed «кистьові лямки» → «лямки для тяги» in imageAlt. Restored "in midlife fitness", which was dropped from the fasted-training paragraph. Fixed «ймовірних» → «імовірних» after a consonant and the word order in «стимуляція секреції GLP-1, GIP та інсуліну».
