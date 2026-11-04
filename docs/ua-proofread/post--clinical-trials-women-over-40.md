@@ -1,14 +1,5 @@
 # post--clinical-trials-women-over-40
 
-- **Last checked:** 2026-09-30
+- **Last checked:** 2026-11-04 (second pass; previous 2026-09-30)
 - **PR:** (this PR)
-- **Notes:** Overall solid translation of a long, fact-dense post. Three fixes: the
-  `seoTitle` ended on a dangling `набір` with no verb (`Клінічні дослідження для жінок
-  після 40: набір`) — every other post's `seoTitle` completes the thought after the colon,
-  so this read as truncated; changed to `... набір триває`, closer to the EN "Recruiting
-  Now". A meaning shift in the HRT-exclusion sentence: EN "a real and slightly frustrating
-  pattern" had become `трохи парадоксальна закономірність` ("paradoxical"), changed to
-  `реальна і трохи прикра закономірність` to match "frustrating". And a grammatical calque
-  in the Leeds Beckett study description — `не тренуються силовими регулярно` leaves
-  `силовими` dangling with no noun — fixed to `не займаються силовими тренуваннями
-  регулярно`. No numbers, doses, ages, place names, study facts, or URLs were changed.
+- **Notes:** 46 fixes. Russianism «натощак» → «натщесерце»; numeral «троє з цих досліджень» → «три»; «пройшло етичний комітет» → «пройшло перевірку етичного комітету»; dangling «а дослідження добавок … — дуже незначні» rebuilt. Calques: «19 наборів, які тривають», «Я на МГТ», «Чого точно не треба робити, так це», «бік … сказати прямо», «вважайте істиною», «рання наука», «вибір дизайну», «змінна, яку ви намагаєтеся передбачити», «найближче до єдиних дверей», «Дослідження дорослого 1 типу». Meaning restored vs EN: metaDesc "and how", "led from Cambridge", UK sites Dundee/Blackburn/Rotherham, "13 UK cities", "or willing to use a CGM", "in people who have lost that early warning", Barts "there is no treatment", ISRCTN "instead of, or as well as", "if you are thinking about your own diet". No numbers, URLs or `en` text changed.

@@ -1,0 +1,5 @@
+# post--curcumin-glutathione-skin-ageing-evidence
+
+- **Last checked:** 2026-11-04
+- **PR:** (this PR)
+- **Notes:** First pass. 13 apostrophes `ʼ` (U+02BC) → `’` (site standard), «міряло/міряли» → «вимірювало/вимірювали» throughout (×17, colloquial; seoTitle shortened to «що виміряли 6 досліджень» to stay under the 60-char limit), «висвітлення/висвітлює шкіру» → «освітлення/освітлює» (×4, wrong word — «висвітлювати» = to cover/illuminate). Grammar: «До баночки … не стосується» → «Баночки … не стосується», «трійно сліпе» → «потрійно сліпе». Calques rewritten: «заголовок, який робить багато роботи», «питання цінності», «Жоден … не є результатом щодо чийогось обличчя», «неможливо комусь приписати» (wrong meaning — attribute to a cause), «на власному полі», «екскурсія по літературі», «вона досі залишається не відповіддю», «у кінці сорокових», «Якщо ви контролюєте діабет», «той, хто переглядає ваші препарати». Restored «ageing» in the review's title in block 0; «crow's feet» → «гусячі лапки». No numbers, URLs, slugs or `en` text changed.
