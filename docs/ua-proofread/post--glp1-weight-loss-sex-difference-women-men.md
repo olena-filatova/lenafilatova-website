@@ -1,11 +1,5 @@
 # post--glp1-weight-loss-sex-difference-women-men
 
-- Last checked: 2026-10-01
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/296
-- Notes: UA text was already close to EN and natural-sounding. Fixed two
-  sitewide terminology-consistency issues: the recurring heading translated
-  as "Що каже дослідження" (minority form, 8/46 posts) vs the dominant
-  "Що кажуть дослідження" (38/46 posts), and the "Related reading" link
-  title translated as "Дотичне читання" (minority, 8/47) vs the dominant
-  "Читайте також" (39/47). No grammar, calque, or russianism issues found
-  otherwise; numbers, citations and links left untouched.
+- Last checked: 2026-11-05 (second pass; previous 2026-10-01)
+- PR: (this PR)
+- Notes: 20 fixes, mostly English calques — «від Джонса Гопкінса», «Їхнє питання полягало в тому», «інша історія, ніж», «середні значення по тисячах людей», «Чимало чоловіків … більше, ніж чимало жінок», «знахідка» for "finding", «стоншує м’язи», «якщо ви на інсуліні». Meaning: "exclusion" had been rendered «виняток» (= exception) → «виключення з аналізу»; ambiguous «Він також нічого не говорить» → «Аналіз…»; "reassurance" restored. Grammar: «протилежне до того» → «протилежне тому», doubled «водночас». Related-reading names left matching their target posts' titles. No numbers, citations, URLs or `en` text changed.
