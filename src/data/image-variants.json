@@ -315,6 +315,24 @@
       ]
     ]
   },
+  "/images/cold-weather-blood-sugar-winter.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/cold-weather-blood-sugar-winter-480.avif"
+      ],
+      [
+        800,
+        "/images/v/cold-weather-blood-sugar-winter-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/cold-weather-blood-sugar-winter-1200.avif"
+      ]
+    ]
+  },
   "/images/collagen-bones-joints-tendons.jpg": {
     "w": 1600,
     "h": 900,
