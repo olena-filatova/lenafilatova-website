@@ -585,6 +585,24 @@
       ]
     ]
   },
+  "/images/ferritin-hair-loss-after-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/ferritin-hair-loss-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/ferritin-hair-loss-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/ferritin-hair-loss-after-40-1200.avif"
+      ]
+    ]
+  },
   "/images/fibre-deficiency-gut-inflammation.jpg": {
     "w": 1200,
     "h": 675,
