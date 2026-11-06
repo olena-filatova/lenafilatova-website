@@ -1233,6 +1233,24 @@
       ]
     ]
   },
+  "/images/led-face-masks-after-40.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/led-face-masks-after-40-480.avif"
+      ],
+      [
+        800,
+        "/images/v/led-face-masks-after-40-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/led-face-masks-after-40-1200.avif"
+      ]
+    ]
+  },
   "/images/lena-filatova-type-1-diabetes-23-years.jpg": {
     "w": 675,
     "h": 1200,
