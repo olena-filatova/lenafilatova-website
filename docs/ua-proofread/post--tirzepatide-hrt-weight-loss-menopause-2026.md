@@ -1,5 +1,5 @@
 # post--tirzepatide-hrt-weight-loss-menopause-2026
 
-- Last checked: 2026-10-02
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/301
-- Notes: Fixed one grammar error (missing instrumental case: "не було рандомізоване дослідження" → "не було рандомізованим дослідженням"), one terminology inconsistency (seoTitle used the rare "ГЗТ" abbreviation instead of the site-standard "ЗГТ" — 246 occurrences of ЗГТ vs 4 of ГЗТ sitewide), and smoothed one awkward calque-y sentence about why hormone-therapy users may differ. Rest of the translation matched the EN closely and read naturally.
+- Last checked: 2026-11-06 (second cycle; previously 2026-10-02)
+- PR: (this PR)
+- Notes: No Russianisms or untranslated English. 23 fixes: 16 calques/clumsy literal translation («на 35% більше втрати ваги» in title + seoTitle, «препарату GLP-1/GIP, що стоїть за Mounjaro», «обробляє інсулін», «довести причину й наслідок», «показує сильний зв’язок, а не доказ», «більший погляд», double negative «Нічого з цього не є необов’язковим», «пов’язане з на 35% більшою», «підвищує занепокоєння», etc.), 3 meaning restorations against EN (excerpt had dropped «Encouraging»; lead's «this one caught my eye» had become «це вас зацікавить»; «weight tends to shift» had lost «tends to»), 2 grammar (dangling participle «обговорене з лікарем» in FAQ; tense «не досягала» → «не досягла»), 2 wording («достатнім вітаміном D» → «достатньою кількістю вітаміну D»; links desc «Що насправді правда про»). Numbers, doses, p-values, URLs, slugs and the `en` object untouched (verified by script).

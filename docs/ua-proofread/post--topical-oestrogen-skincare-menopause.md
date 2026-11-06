@@ -1,5 +1,5 @@
 # post--topical-oestrogen-skincare-menopause
 
-- Last checked: 2026-10-02
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/301
-- Notes: Translation was already strong and paragraph-for-paragraph faithful to the EN. One calque fixed: "Доказова база MEP справді рання" ("the evidence base is genuinely early", a direct calque of the English adjective "early" applied to an evidence base) → "Доказова база щодо MEP ще зовсім невелика." No Russianisms, no punctuation issues (dashes/«»/’ all correct), no terminology inconsistencies found.
+- Last checked: 2026-11-06 (second cycle; previously 2026-10-02)
+- PR: (this PR)
+- Notes: Strong translation, no Russianisms. 21 fixes: 14 calques/clumsy literal translation (lead still had the «доказова база поки що рання» calque fixed elsewhere last cycle; excerpt «доказова база тонша»; «крутіше падіння, ніж пояснює звичайне старіння»; «ініційованого дослідниками дослідження» ×2; «це розмова з лікарем»; «непоказні базові речі»; «а не припускайте»; a run-on Galderma sentence split in two, etc.), 3 meaning restorations against EN (lead «next serious answer»; «nobody had ever told them»; Galderma cite had dropped «investigator-initiated»), 1 untranslated English (cite «American Society of Plastic Surgeons website · Article»), 3 grammar/style («при менопаузі» → «в менопаузі», «з самостійним» → «із самостійним» for euphony and consistency with the refs block, «доведено безпечний» → «доведено, що безпечний»). Numbers, URLs, slugs and the `en` object untouched (verified by script).
