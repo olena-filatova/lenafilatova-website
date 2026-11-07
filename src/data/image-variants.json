@@ -999,6 +999,24 @@
       ]
     ]
   },
+  "/images/hrt-heart-risk-aha-12-year-study.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/hrt-heart-risk-aha-12-year-study-480.avif"
+      ],
+      [
+        800,
+        "/images/v/hrt-heart-risk-aha-12-year-study-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/hrt-heart-risk-aha-12-year-study-1200.avif"
+      ]
+    ]
+  },
   "/images/hrt-migraine-burden-menopause.jpg": {
     "w": 1600,
     "h": 900,
