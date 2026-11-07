@@ -1,7 +1,7 @@
 # post--cortisol-belly-perimenopause
 
 - Last checked: 2026-11-07
-- PR: (this PR)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/520
 - Notes: 54 fixes (second cycle). «при перименопаузі» → «у перименопаузі» ×6 (site-wide usage).
   Meaning vs EN: Cushing's ref was missing its last sentence (added); «чи є для вас роль у ЗГТ» →
   «чи може вам допомогти ЗГТ»; «живіт — місце, де він [кортизол] осідає» → fat settles on the belly;
