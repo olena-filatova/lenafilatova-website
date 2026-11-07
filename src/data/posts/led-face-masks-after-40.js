@@ -18,9 +18,9 @@ export default {
     "title": "LED face masks after 40: the glow is measurable, the wrinkle results are not",
     "seoTitle": "Do LED Face Masks Work After 40? What Trials Show",
     "metaDesc": "LED masks promise collagen and fewer wrinkles. What the trials measured, who funded them, and what women over 40 can realistically expect.",
-    "excerpt": "In the only sham-controlled, double-blind trial of a red LED mask in women aged 45 to 60, blinded specialists could not tell the treated faces from the untreated ones. The trial's hardest measure of wrinkle depth was pre-registered and never reported. The biggest study in the field has no control group at all.",
+    "excerpt": "In an independent sham-controlled, double-blind trial of a red LED mask in women aged 45 to 60, blinded specialists could not tell the treated faces from the untreated ones. The trial's hardest measure of wrinkle depth was pre-registered and never reported. The biggest study in the field has no control group at all.",
     "meta": "6 November 2026 · 7 min read",
-    "lead": "An LED mask is the gift-season beauty buy of the moment, and the pitch is collagen. The trials behind it are small, short, and mostly measuring something softer than wrinkles — and in the one properly sham-controlled trial in women your age, the blinded specialists could not tell the treated faces apart from the rest.",
+    "lead": "An LED mask is the gift-season beauty buy of the moment, and the pitch is collagen. The trials behind it are small, short, and mostly measuring something softer than wrinkles — and in the one independent sham-controlled trial in women your age, the blinded specialists could not tell the treated faces apart from the rest.",
     "blocks": [
       {
         "t": "p",
@@ -32,7 +32,7 @@ export default {
       },
       {
         "t": "h",
-        "text": "The one trial that did it properly"
+        "text": "The independent trial that did it properly"
       },
       {
         "t": "p",
@@ -64,6 +64,18 @@ export default {
       },
       {
         "t": "h",
+        "text": "The other sham-controlled trial"
+      },
+      {
+        "t": "p",
+        "text": "To be fair to the masks, that is not the only sham-controlled trial. In 2025 a Korean team tested a home mask combining red (630 nm) and near-infrared (850 nm) light against a sham that looked identical but glowed at a tenth of the red power with no infrared: 60 adults aged 30 to 65, 56 of them women, average age about 47, nine minutes five times a week for twelve weeks. Neither participants nor investigators knew who had which. Here the result went the other way. Independent evaluators grading photographs found crow's feet improved in 86% of the treated group, against about 17% on sham."
+      },
+      {
+        "t": "p",
+        "text": "It is a positive result, and I would not leave it out. But read the details too. It was funded by Y&J Bio, the company that makes the mask; it measured only the lines around the eyes; and it is one trial. One independent trial in women your age found nothing the specialists could see; one maker-funded trial in a younger, mixed group found a difference at the eyes. That is a split decision, not a settled one."
+      },
+      {
+        "t": "h",
         "text": "The measurement that went missing"
       },
       {
@@ -84,7 +96,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The registration lists Therabody as the sponsor. Allocation: not applicable. Intervention model: single group. Masking: none. There is no control arm and no sham — everyone used the mask, so every figure is a before-and-after. That cannot separate the device from twelve weeks of washing your face carefully, or from being observed. The authors are company staff, including Therabody's Chief Science Officer, and it has not been peer-reviewed."
+        "text": "The registration lists Therabody as the sponsor. Allocation: not applicable. Intervention model: single group. Masking: none. There is no control arm and no sham — everyone used the mask, so every figure is a before-and-after. That cannot separate the device from twelve weeks of washing your face carefully, or from being observed. The authors are company staff and contractors, including Therabody's Chief Science Officer, and it has not been peer-reviewed."
       },
       {
         "t": "p",
@@ -132,7 +144,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Nothing has been tested here, and I would rather say so plainly. No trial has compared an LED mask against the skin changes that follow falling oestrogen, or against anything that addresses them. What exists is the sham-controlled trial above, which happened to enrol women aged 45 to 60 — broadly the right band — and found no difference the specialists could see. Skin thins and loses collagen fastest in the few years around the last period. An LED mask has not been shown to touch it."
+        "text": "Nothing has been tested here, and I would rather say so plainly. No trial has compared an LED mask against the skin changes that follow falling oestrogen, or against anything that addresses them. What exists is the independent sham-controlled trial above, which enrolled women aged 45 to 60 at least a year past their last period and not on HRT — exactly the right group — and found no difference the specialists could see. Skin thins and loses collagen fastest in the few years around the last period. An LED mask has not been shown to touch it."
       },
       {
         "t": "h",
@@ -184,11 +196,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "If you want one, buy it knowing what you are buying. It is low risk. Satisfaction genuinely rose in the one blinded trial, which is not nothing — and ten quiet minutes several times a week may be doing some of that work."
+        "text": "If you want one, buy it knowing what you are buying. It is low risk. Satisfaction genuinely rose in the independent blinded trial, which is not nothing — and ten quiet minutes several times a week may be doing some of that work."
       },
       {
         "t": "p",
-        "text": "What has not been shown is a change in wrinkles a trained observer can see. The blinded specialists could not. The hardest measure in the sham-controlled trial was never reported. The biggest study in the field, run by the manufacturer with no control group, could not move wrinkle depth either. Buy it as a pleasant habit that might make you feel better about your face. Do not buy it as collagen, and do not buy it instead of sunscreen."
+        "text": "What has not been shown convincingly is a change in wrinkles a trained observer can see. In the independent trial, the blinded specialists could not; the one sham-controlled trial that did see a change was paid for by the maker and looked only at crow's feet. The hardest measure in the sham-controlled trial was never reported. The biggest study in the field, run by the manufacturer with no control group, could not move wrinkle depth either. Buy it as a pleasant habit that might make you feel better about your face. Do not buy it as collagen, and do not buy it instead of sunscreen."
       },
       {
         "t": "p",
@@ -229,8 +241,8 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "In the only randomised, sham-controlled, double-blind trial of a red LED mask in women aged 45–60, blinded specialists found no significant difference in wrinkles between treated and sham groups.",
-            "detail": "Ninety-five women aged 45–60. Red LED mask, 660 ± 10 nm, 6.4 mW/cm², 8.05 J/cm², 5.02 mW, 21 minutes per session. Group 1: three applications weekly; Group 2: two weekly; control: sham photobiomodulation twice weekly. All for four weeks (12 and 8 sessions). Participants blinded to allocation. Three standardised photographs assessed by three specialists blinded to allocation and to period, using the Wrinkle Assessment Scale (WAS): no significant differences among groups. ImageJ measurement of wrinkle length: significant reductions in the glabellar and right periorbital regions versus control (p < 0.001); forehead and left periorbital did not reach significance. FACE-Q satisfaction 79.6% (Group 1) and 73.4% (Group 2), both significantly above control (p = 0.001 and p = 0.034). Registered ClinicalTrials.gov NCT04911140. Authors declare no competing interests.",
+            "claim": "In an independent randomised, sham-controlled, double-blind trial of a red LED mask in women aged 45–60, blinded specialists found no significant difference in wrinkles between treated and sham groups.",
+            "detail": "Ninety-five women aged 45–60. Red LED mask, 660 ± 10 nm, 6.4 mW/cm², 8.05 J/cm², 5.02 mW, 21 minutes per session. Group 1: three applications weekly; Group 2: two weekly; control: sham photobiomodulation twice weekly. All for four weeks (12 and 8 sessions). Participants blinded to allocation. Three standardised photographs assessed by three specialists blinded to allocation and to period, using the Wrinkle Assessment Scale (WAS): no significant differences among groups. ImageJ measurement of wrinkle length: significant reductions in the glabellar and right periorbital regions versus control (p < 0.001); forehead and left periorbital did not reach significance. FACE-Q satisfaction 79.6% (Group 1) and 73.4% (Group 2), both significantly above control (p = 0.001 and p = 0.034). Registered ClinicalTrials.gov NCT04911140. Authors declare no competing interests. Registry eligibility: postmenopausal (at least 12 months without menstruation), not on hormone replacement therapy.",
             "cite": "Bragato EF, Paisano AF, Pavani C, et al. · Lasers Med Sci · 2025;40(1):170 · Randomised, sham-controlled, double-blind trial",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40167796/"
           },
@@ -241,8 +253,14 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/36749255/"
           },
           {
+            "claim": "A second randomised, double-blind, sham-controlled trial of a home LED mask, funded by its manufacturer, found independent evaluators rated crow's feet as improved far more often than with sham.",
+            "detail": "Two centres in Seoul. 60 participants of Asian descent aged 30–65 (56 women, 4 men; mean age 46.1 test, 48.4 control), Fitzpatrick II–V, crow's feet grade 2–4. Test device: Easy Claire home mask, 630 nm LED and 850 nm IRED, max 10 mW/cm² each. Sham: identical appearance, no infrared, red output at one-tenth intensity. 9 minutes, 5 times a week for 12 weeks (60 sessions); follow-up to week 16. Participants and investigators blinded. Primary outcome: crow's feet grading scale rated from photographs by independent evaluators at week 12: improvement in 86.2% of the test group (full analysis set), 69.5 percentage points more than control; significant differences at weeks 8, 12 and 16. One participant withdrew after baseline; 59 analysed. Funded by Y&J Bio, the device maker; authors declare no conflicts of interest.",
+            "cite": "Park SH, Park SO, Jung JA · Medicine (Baltimore) · 2025;104(7):e41596 · Randomised, sham-controlled, double-blind trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39960921/"
+          },
+          {
             "claim": "The manufacturer-run study promoted as “the largest study of LED masks on the market” has no control group, and its wrinkle-depth result did not reach significance.",
-            "detail": "ClinicalTrials.gov NCT07054710. Lead sponsor: Therabody, Inc.; collaborator Eurofins CRL Cosmetics. Allocation: not applicable. Intervention model: single group assignment. Masking: none. One experimental arm; no control or sham. Enrolment 115 actual (104 completed per the company write-up), ages 35–65, average age 51, 12 weeks of home use. Study start 5 May 2025; first submitted 27 June 2025; first posted 8 July 2025. Company-reported results: radiance +25.4%, texture +22.9%, firmness +13.5% (expert grading) and +14.3% (Cutometer), tone evenness +11.0%, sagging +10.0%, dark spots +9.2%, fine lines +4.0%, wrinkle width +2.8%, undereye wrinkles +3.1% (VISIA); wrinkle depth by Clarity 3D imaging not significant at group level. Authors listed are Therabody staff. Not published in a peer-reviewed journal.",
+            "detail": "ClinicalTrials.gov NCT07054710. Lead sponsor: Therabody, Inc.; collaborator Eurofins CRL Cosmetics. Allocation: not applicable. Intervention model: single group assignment. Masking: none. One experimental arm; no control or sham. Enrolment 115 actual (104 completed per the company write-up), ages 35–65, average age 51, 12 weeks of home use. Study start 5 May 2025; first submitted 27 June 2025; first posted 8 July 2025. Company-reported results: radiance +25.4%, texture +22.9%, firmness +13.5% (expert grading) and +14.3% (Cutometer), tone evenness +11.0%, sagging +10.0%, dark spots +9.2%, fine lines +4.0% and wrinkle width +2.8% (expert grading), undereye fine lines and wrinkles +3.1% (VISIA); wrinkle depth by Clarity 3D imaging not significant at group level. Authors listed are Therabody staff and science contractors. Not published in a peer-reviewed journal.",
             "cite": "Therabody, Inc. · ClinicalTrials.gov NCT07054710 · Single-arm, unmasked company study",
             "url": "https://clinicaltrials.gov/study/NCT07054710"
           },
@@ -276,7 +294,7 @@ export default {
     "faq": [
       {
         "q": "Do LED face masks actually reduce wrinkles?",
-        "a": "Not in a way anyone has reliably been able to see. In the only randomised, sham-controlled, double-blind trial in women aged 45 to 60, three specialists assessing standardised photographs while blinded to allocation found no significant difference between the treated groups and the sham group. A software measurement of wrinkle length in the same trial did find reductions, but in two of four regions — including beside the right eye but not the left, which is hard to explain for a device that lights both sides equally. The largest study in the field, run by a manufacturer with no control group at all, found wrinkle depth did not improve significantly either. What does improve fairly consistently is how satisfied people are with their own appearance, and in that sham-controlled trial the women did not know which mask they had."
+        "a": "Not in a way anyone has reliably been able to see. In an independent randomised, sham-controlled, double-blind trial in women aged 45 to 60, three specialists assessing standardised photographs while blinded to allocation found no significant difference between the treated groups and the sham group. A software measurement of wrinkle length in the same trial did find reductions, but in two of four regions — including beside the right eye but not the left, which is hard to explain for a device that lights both sides equally. The largest study in the field, run by a manufacturer with no control group at all, found wrinkle depth did not improve significantly either. One other sham-controlled trial, funded by the mask's maker, did report improvement, but only in crow's feet. What does improve fairly consistently is how satisfied people are with their own appearance, and in that sham-controlled trial the women did not know which mask they had."
       },
       {
         "q": "Is an LED face mask safe to use at home?",
@@ -294,9 +312,9 @@ export default {
     "title": "LED-маски після 40: сяйво виміряти вдається, результат по зморшках — ні",
     "seoTitle": "Чи працюють LED-маски після 40? Що показують дослідження",
     "metaDesc": "LED-маски обіцяють колаген і менше зморшок. Що вимірювали дослідження, хто їх фінансував і на що реально може розраховувати жінка після 40.",
-    "excerpt": "У єдиному дослідженні червоної LED-маски з групою імітації та подвійним осліпленням серед жінок 45–60 років фахівці не змогли відрізнити оброблені обличчя від решти. Найсуворіший вимір глибини зморщок був заявлений у протоколі й так і не опублікований. А найбільше дослідження галузі взагалі не має контрольної групи.",
+    "excerpt": "У незалежному дослідженні червоної LED-маски з групою імітації та подвійним осліпленням серед жінок 45–60 років фахівці не змогли відрізнити оброблені обличчя від решти. Найсуворіший вимір глибини зморщок був заявлений у протоколі й так і не опублікований. А найбільше дослідження галузі взагалі не має контрольної групи.",
     "meta": "6 листопада 2026 · 7 хв читання",
-    "lead": "LED-маска — головна б’юті-покупка подарункового сезону, і продають її через колаген. Дослідження за нею невеликі, короткі й здебільшого вимірюють щось м’якше за зморшки. А в єдиному дослідженні з групою імітації серед жінок вашого віку осліплені фахівці не змогли відрізнити оброблені обличчя від решти.",
+    "lead": "LED-маска — головна б’юті-покупка подарункового сезону, і продають її через колаген. Дослідження за нею невеликі, короткі й здебільшого вимірюють щось м’якше за зморшки. А в єдиному незалежному дослідженні з групою імітації серед жінок вашого віку осліплені фахівці не змогли відрізнити оброблені обличчя від решти.",
     "blocks": [
       {
         "t": "p",
@@ -308,7 +326,7 @@ export default {
       },
       {
         "t": "h",
-        "text": "Єдине дослідження, зроблене як належить"
+        "text": "Незалежне дослідження, зроблене як належить"
       },
       {
         "t": "p",
@@ -340,6 +358,18 @@ export default {
       },
       {
         "t": "h",
+        "text": "Друге дослідження з групою імітації"
+      },
+      {
+        "t": "p",
+        "text": "Справедливості заради: це не єдине дослідження з групою імітації. 2025 року корейська команда перевірила домашню маску з червоним (630 нм) і ближнім інфрачервоним (850 нм) світлом проти маски-імітації, яка виглядала так само, але світила червоним на десяту частину потужності й без інфрачервоного: 60 дорослих віком від 30 до 65 років, із них 56 жінок, середній вік близько 47 років, по дев’ять хвилин п’ять разів на тиждень протягом дванадцяти тижнів. Ні учасники, ні дослідники не знали, хто яку маску отримав. Тут результат виявився протилежним. Незалежні оцінювачі, які оцінювали фотографії, побачили покращення «гусячих лапок» у 86% групи лікування проти приблизно 17% у групі імітації."
+      },
+      {
+        "t": "p",
+        "text": "Це позитивний результат, і замовчувати його я не буду. Але подробиці теж варто прочитати. Дослідження фінансувала Y&J Bio — компанія, яка виробляє цю маску; вимірювали лише зморшки довкола очей; і це одне дослідження. Одне незалежне дослідження серед жінок вашого віку не знайшло нічого, що побачили б фахівці; одне, оплачене виробником, у молодшій змішаній групі знайшло різницю біля очей. Це розбіжність, а не остаточна відповідь."
+      },
+      {
+        "t": "h",
         "text": "Вимірювання, яке зникло"
       },
       {
@@ -360,7 +390,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У реєстрації спонсором указано Therabody. Розподіл: не застосовується. Модель втручання: одна група. Осліплення: немає. Немає ні контрольної групи, ні імітації — маскою користувалися всі, тож кожна цифра тут це «до і після». Такий дизайн не здатен відокремити пристрій від дванадцяти тижнів дбайливого догляду за обличчям чи від самого факту спостереження. Автори — співробітники компанії, зокрема її головний науковий директор, і рецензування це не проходило."
+        "text": "У реєстрації спонсором указано Therabody. Розподіл: не застосовується. Модель втручання: одна група. Осліплення: немає. Немає ні контрольної групи, ні імітації — маскою користувалися всі, тож кожна цифра тут це «до і після». Такий дизайн не здатен відокремити пристрій від дванадцяти тижнів дбайливого догляду за обличчям чи від самого факту спостереження. Автори — співробітники та підрядники компанії, зокрема її головний науковий директор, і рецензування це не проходило."
       },
       {
         "t": "p",
@@ -408,7 +438,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Тут не перевіряли нічого, і я радше скажу це прямо. Жодне дослідження не порівнювало LED-маску зі змінами шкіри, які настають після падіння естрогену, ані з чимось, що на ці зміни впливає. Є лише те саме дослідження з групою імітації, до якого набрали жінок 45–60 років — приблизно потрібний діапазон — і яке не знайшло різниці, помітної фахівцям. Шкіра стоншується і втрачає колаген найшвидше за кілька років довкола останньої менструації. Не показано, що LED-маска на це впливає."
+        "text": "Тут не перевіряли нічого, і я радше скажу це прямо. Жодне дослідження не порівнювало LED-маску зі змінами шкіри, які настають після падіння естрогену, ані з чимось, що на ці зміни впливає. Є лише те саме незалежне дослідження з групою імітації, до якого набрали жінок 45–60 років, щонайменше через рік після останньої менструації і без замісної гормональної терапії, — саме потрібна група, — і яке не знайшло різниці, помітної фахівцям. Шкіра стоншується і втрачає колаген найшвидше за кілька років довкола останньої менструації. Не показано, що LED-маска на це впливає."
       },
       {
         "t": "h",
@@ -460,11 +490,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Якщо вам хочеться таку маску, купуйте її, розуміючи, що саме ви купуєте. Ризик невеликий. Задоволеність справді зросла в єдиному осліпленому дослідженні, і це не дрібниця — десять тихих хвилин кілька разів на тиждень цілком можуть робити частину цієї роботи."
+        "text": "Якщо вам хочеться таку маску, купуйте її, розуміючи, що саме ви купуєте. Ризик невеликий. Задоволеність справді зросла у незалежному осліпленому дослідженні, і це не дрібниця — десять тихих хвилин кілька разів на тиждень цілком можуть робити частину цієї роботи."
       },
       {
         "t": "p",
-        "text": "Не показано іншого — зміни зморщок, яку здатен побачити навчений спостерігач. Осліплені фахівці не змогли. Найсуворіший вимір у дослідженні з групою імітації так і не опублікували. Найбільше дослідження в галузі, проведене виробником без контрольної групи, теж не зрушило глибину зморщок. Купуйте її як приємну звичку, від якої вам може бути краще з власним обличчям. Не купуйте її як колаген і не купуйте замість сонцезахисту."
+        "text": "Не показано переконливо іншого — зміни зморщок, яку здатен побачити навчений спостерігач. У незалежному дослідженні осліплені фахівці її не побачили; єдине дослідження з групою імітації, де зміну побачили, оплатив виробник, і стосувалося воно лише «гусячих лапок». Найсуворіший вимір у дослідженні з групою імітації так і не опублікували. Найбільше дослідження в галузі, проведене виробником без контрольної групи, теж не зрушило глибину зморщок. Купуйте її як приємну звичку, від якої вам може бути краще з власним обличчям. Не купуйте її як колаген і не купуйте замість сонцезахисту."
       },
       {
         "t": "p",
@@ -505,8 +535,8 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "У єдиному рандомізованому дослідженні червоної LED-маски з групою імітації та подвійним осліпленням серед жінок 45–60 років осліплені фахівці не знайшли значущої різниці у зморшках між групами лікування та імітації.",
-            "detail": "Дев’яносто п’ять жінок віком 45–60 років. Червона LED-маска, 660 ± 10 нм, 6,4 мВт/см², 8,05 Дж/см², 5,02 мВт, 21 хвилина на сеанс. Група 1 — три застосування на тиждень; група 2 — два на тиждень; контроль — імітація фотобіомодуляції двічі на тиждень. Усе протягом чотирьох тижнів (12 і 8 сеансів). Учасниці осліплені щодо розподілу. Три стандартизовані фотографії оцінювали три фахівці, осліплені щодо розподілу та періоду, за шкалою оцінки зморщок (WAS): значущих відмінностей між групами немає. Вимір довжини зморщок у ImageJ: значуще зменшення в міжбрівній та правій періорбітальній ділянках проти контролю (p < 0,001); чоло та ліва періорбітальна ділянка значущості не досягли. Задоволеність за FACE-Q — 79,6% (група 1) і 73,4% (група 2), обидві значущо вище контролю (p = 0,001 і p = 0,034). Реєстрація ClinicalTrials.gov NCT04911140. Автори декларують відсутність конфлікту інтересів.",
+            "claim": "У незалежному рандомізованому дослідженні червоної LED-маски з групою імітації та подвійним осліпленням серед жінок 45–60 років осліплені фахівці не знайшли значущої різниці у зморшках між групами лікування та імітації.",
+            "detail": "Дев’яносто п’ять жінок віком 45–60 років. Червона LED-маска, 660 ± 10 нм, 6,4 мВт/см², 8,05 Дж/см², 5,02 мВт, 21 хвилина на сеанс. Група 1 — три застосування на тиждень; група 2 — два на тиждень; контроль — імітація фотобіомодуляції двічі на тиждень. Усе протягом чотирьох тижнів (12 і 8 сеансів). Учасниці осліплені щодо розподілу. Три стандартизовані фотографії оцінювали три фахівці, осліплені щодо розподілу та періоду, за шкалою оцінки зморщок (WAS): значущих відмінностей між групами немає. Вимір довжини зморщок у ImageJ: значуще зменшення в міжбрівній та правій періорбітальній ділянках проти контролю (p < 0,001); чоло та ліва періорбітальна ділянка значущості не досягли. Задоволеність за FACE-Q — 79,6% (група 1) і 73,4% (група 2), обидві значущо вище контролю (p = 0,001 і p = 0,034). Реєстрація ClinicalTrials.gov NCT04911140. Автори декларують відсутність конфлікту інтересів. Критерії включення в реєстрі: постменопауза (щонайменше 12 місяців без менструації), без замісної гормональної терапії.",
             "cite": "Bragato EF, Paisano AF, Pavani C, et al. · Lasers Med Sci · 2025;40(1):170 · Рандомізоване дослідження з групою імітації, подвійне осліплення",
             "url": "https://pubmed.ncbi.nlm.nih.gov/40167796/"
           },
@@ -517,8 +547,14 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/36749255/"
           },
           {
+            "claim": "Друге рандомізоване подвійне сліпе дослідження домашньої LED-маски з групою імітації, яке фінансував виробник, показало, що незалежні оцінювачі значно частіше фіксували покращення «гусячих лапок», ніж при імітації.",
+            "detail": "Два центри в Сеулі. 60 учасників азійського походження віком 30–65 років (56 жінок, 4 чоловіки; середній вік 46,1 року в групі лікування і 48,4 — у контрольній), фототипи II–V за Фіцпатриком, «гусячі лапки» 2–4 бали. Пристрій: домашня маска Easy Claire, світлодіоди 630 нм та інфрачервоні 850 нм, до 10 мВт/см² кожні. Імітація: такий самий вигляд, без інфрачервоного світла, червоне — на десяту частину потужності. По 9 хвилин 5 разів на тиждень протягом 12 тижнів (60 сеансів); спостереження до 16-го тижня. Учасники й дослідники осліплені. Основний результат: шкала оцінки «гусячих лапок» за фотографіями, незалежні оцінювачі, 12-й тиждень: покращення у 86,2% групи лікування (повний набір для аналізу), на 69,5 процентного пункту більше, ніж у контрольній; значущі відмінності на 8-му, 12-му і 16-му тижнях. Одна учасниця вибула після початкового візиту; проаналізовано 59 осіб. Фінансування: Y&J Bio, виробник пристрою; автори заявляють про відсутність конфлікту інтересів.",
+            "cite": "Park SH, Park SO, Jung JA · Medicine (Baltimore) · 2025;104(7):e41596 · Рандомізоване подвійне сліпе дослідження з групою імітації",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39960921/"
+          },
+          {
             "claim": "Дослідження виробника, яке просувають як «найбільше дослідження LED-масок на ринку», не має контрольної групи, а його результат щодо глибини зморщок значущості не досяг.",
-            "detail": "ClinicalTrials.gov NCT07054710. Головний спонсор: Therabody, Inc.; співучасник Eurofins CRL Cosmetics. Розподіл: не застосовується. Модель втручання: одна група. Осліплення: немає. Одна експериментальна група; ні контролю, ні імітації. Набрано 115 осіб (104 завершили за даними компанії), вік 35–65 років, середній 51 рік, 12 тижнів домашнього використання. Початок 5 травня 2025 року; подано 27 червня 2025 року; оприлюднено 8 липня 2025 року. Повідомлені компанією результати: сяйво +25,4%, текстура +22,9%, пружність +13,5% (експертна оцінка) і +14,3% (кутометр), рівність тону +11,0%, провисання +10,0%, темні плями +9,2%, дрібні зморшки +4,0%, ширина зморшок +2,8%, зморшки під очима +3,1% (VISIA); глибина зморщок за тривимірним зображенням Clarity 3D — не значуща на рівні групи. Автори — співробітники Therabody. У рецензованому журналі не публікувалося.",
+            "detail": "ClinicalTrials.gov NCT07054710. Головний спонсор: Therabody, Inc.; співучасник Eurofins CRL Cosmetics. Розподіл: не застосовується. Модель втручання: одна група. Осліплення: немає. Одна експериментальна група; ні контролю, ні імітації. Набрано 115 осіб (104 завершили за даними компанії), вік 35–65 років, середній 51 рік, 12 тижнів домашнього використання. Початок 5 травня 2025 року; подано 27 червня 2025 року; оприлюднено 8 липня 2025 року. Повідомлені компанією результати: сяйво +25,4%, текстура +22,9%, пружність +13,5% (експертна оцінка) і +14,3% (кутометр), рівність тону +11,0%, провисання +10,0%, темні плями +9,2%, дрібні зморшки +4,0% і ширина зморшок +2,8% (експертна оцінка), зморшки під очима +3,1% (VISIA); глибина зморщок за тривимірним зображенням Clarity 3D — не значуща на рівні групи. Автори — співробітники та наукові підрядники Therabody. У рецензованому журналі не публікувалося.",
             "cite": "Therabody, Inc. · ClinicalTrials.gov NCT07054710 · Одногрупове дослідження компанії без осліплення",
             "url": "https://clinicaltrials.gov/study/NCT07054710"
           },
@@ -552,7 +588,7 @@ export default {
     "faq": [
       {
         "q": "Чи справді LED-маски зменшують зморшки?",
-        "a": "Не так, щоб це можна було надійно побачити. У єдиному рандомізованому дослідженні з групою імітації та подвійним осліпленням серед жінок 45–60 років три фахівці, оцінюючи стандартизовані фотографії й не знаючи розподілу, не знайшли значущої різниці між групами лікування та групою імітації. Програмний вимір довжини зморщок у тому самому дослідженні зменшення знайшов, але у двох ділянках із чотирьох — зокрема біля правого ока, але не біля лівого, що важко пояснити для пристрою, який освітлює обидва боки однаково. У найбільшому дослідженні галузі, проведеному виробником без контрольної групи, глибина зморщок також значущо не покращилася. Що покращується досить стабільно — це задоволеність власною зовнішністю, і в тому дослідженні жінки не знали, яка маска в них була."
+        "a": "Не так, щоб це можна було надійно побачити. У незалежному рандомізованому дослідженні з групою імітації та подвійним осліпленням серед жінок 45–60 років три фахівці, оцінюючи стандартизовані фотографії й не знаючи розподілу, не знайшли значущої різниці між групами лікування та групою імітації. Програмний вимір довжини зморщок у тому самому дослідженні зменшення знайшов, але у двох ділянках із чотирьох — зокрема біля правого ока, але не біля лівого, що важко пояснити для пристрою, який освітлює обидва боки однаково. У найбільшому дослідженні галузі, проведеному виробником без контрольної групи, глибина зморщок також значущо не покращилася. Ще одне дослідження з групою імітації, яке фінансував виробник маски, покращення таки показало, але лише щодо «гусячих лапок». Що покращується досить стабільно — це задоволеність власною зовнішністю, і в тому дослідженні жінки не знали, яка маска в них була."
       },
       {
         "q": "Чи безпечно користуватися LED-маскою вдома?",
