@@ -1,5 +1,11 @@
 # post--cortisol-belly-perimenopause
 
-- Last checked: 2026-10-02
-- PR: (opened in this run)
-- Notes: 8 fixes — one russianism ("Облегшення" → "Полегшення"), one numeral case-agreement error ("п'ятьох міфах" → "п'яти міфах", animate form on an inanimate noun), one straight apostrophe standardised to the curly one used site-wide, two instances of an awkward calque ("продавлюватися крізь" → "просто перетерплювати"), two instances of an unnatural collocation ("помірність у алкоголі" → "поміркованість у вживанні алкоголю"), and one idiom swap for a calqued negative construction ("не зазнавала поразки в дисципліні" → "дисципліни мені не бракувало"). No meaning distortions vs EN found.
+- Last checked: 2026-11-07
+- PR: (this PR)
+- Notes: 54 fixes (second cycle). «при перименопаузі» → «у перименопаузі» ×6 (site-wide usage).
+  Meaning vs EN: Cushing's ref was missing its last sentence (added); «чи є для вас роль у ЗГТ» →
+  «чи може вам допомогти ЗГТ»; «живіт — місце, де він [кортизол] осідає» → fat settles on the belly;
+  «Що каже дослідження» → «Що кажуть дослідження». Grammar: dangling «Знаючи все це, ось помилка…»,
+  «Ніщо з цього… вони», «Тож от я, додаючи…», broken list in FAQ 2. Many calques rewritten
+  («що насправді правда», «це влучило», «стресована система», «ставав гіршим, а не кращим»,
+  «підливала бензин», «найбільш обґрунтоване доказами», «вихід кортизолу»). No numbers or URLs changed.
