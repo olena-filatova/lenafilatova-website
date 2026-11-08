@@ -1,5 +1,5 @@
 # post--glp1-drugs-less-movement
 
-- Last checked: 2026-10-03
-- PR: (filled in after push)
-- Notes: Fixed a grammatically broken English calque appearing twice — "помірних-до-інтенсивних тренувань" / "помірна-до-інтенсивної активність" (literal "moderate-to-vigorous", with mismatched case agreement) → "фізичної активності помірної та високої інтенсивності" / "активність помірної та високої інтенсивності". Terminology ("жінок після 40") already matches site convention. Rest of the UA text matched EN meaning; no other issues found.
+- Last checked: 2026-11-08
+- PR: (this PR)
+- Notes: Second pass, 28 fixes. The "помірна-до-інтенсивної активність" calque the previous pass reported as fixed was still in the second reference, now "активність помірної та високої інтенсивності". The excerpt tied the mean age 52 to the women only, unlike EN. Also fixed: «по 753 дорослих» → «щодо»; «почали препарат» → «почали приймати»; «м.д.» → «лікаркою»; the calques «для правильної людини… трансформаційними», «Ця частина досі на нас», «вбудовувати активність»; «перехід до менопаузи» → «менопаузальний перехід» (the site's usual term). No numbers changed.
