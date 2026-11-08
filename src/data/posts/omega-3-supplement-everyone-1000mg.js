@@ -7,7 +7,6 @@ export default {
     "insulin-resistance"
   ],
   "date": "2026-10-21",
-  "featured": true,
   "image": "/images/omega-3-supplement-everyone-1000mg.jpg",
   "cats": [
     "nutrition",

@@ -1,6 +1,7 @@
 export default {
   "slug": "led-face-masks-after-40",
   "date": "2026-11-06",
+  "featured": true,
   "image": "/images/led-face-masks-after-40.jpg",
   "cats": [
     "skin",
