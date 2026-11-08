@@ -19,7 +19,7 @@ export default {
     "title": "Low ferritin and hair loss after 40: the heavy-period link is real, the ferritin target is not",
     "seoTitle": "Low Ferritin and Hair Loss After 40: What the Evidence Shows",
     "metaDesc": "Heavy perimenopausal periods really can drain your iron. Whether topping ferritin up to 70 regrows hair is a different question — and a much thinner one.",
-    "excerpt": "Clinics and supplement sellers quote a ferritin target for hair: 40, 60, usually 70. The number is traceable to a single 2002 review whose author called it not definitively established, and attached a condition that has since been dropped. Meanwhile the best-controlled study found iron deficiency more common in women without hair loss than in women with it.",
+    "excerpt": "Clinics and supplement sellers quote a ferritin target for hair: 40, 60, usually 70. The number is traceable to a single 2002 review whose author called it not definitively established, and attached a condition that has since been dropped. Meanwhile the best-controlled study found iron deficiency no more common in women with hair loss than in women without it.",
     "meta": "5 November 2026 · 8 min read",
     "lead": "Heavy, unpredictable periods in your forties really can drain your iron, and that is worth sorting out for reasons that have nothing to do with your hair. Whether topping your ferritin up to some target number regrows hair is a separate question, and the studies behind the targets are thinner than the pages quoting them let on.",
     "blocks": [
@@ -57,7 +57,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The same WHO table sets the other end of the range. In women, a ferritin above 150 µg/L is listed as a risk of iron overload. The gap between \"aim for 70\" and \"that is now too high\" is narrower than the supplement aisle implies."
+        "text": "The same WHO table sets the other end of the range. In women who are still having periods, a ferritin above 150 µg/L is listed as a risk of iron overload. The gap between \"aim for 70\" and \"that is now too high\" is narrower than the supplement aisle implies."
       },
       {
         "t": "h",
@@ -65,11 +65,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The largest pooled look at this is a 2022 systematic review and meta-analysis in Skin Appendage Disorders: 36 studies published between 1988 and 2019, 10,029 participants, of whom 6,641 were women with non-scarring hair loss and 3,388 were controls. Its headline result is real, and it is the number the marketing uses. Women with hair loss had ferritin on average 18.5 ng/mL lower than women without it, with a confidence interval running from 11.2 to 25.9 lower."
+        "text": "The largest pooled look at this is a 2022 systematic review and meta-analysis in Skin Appendage Disorders: 36 studies published between 1988 and 2019, 10,029 participants, of whom 6,641 were women with non-scarring hair loss and 3,388 were controls. Its headline result is real, and it is the number the marketing uses. Pooling the 18 studies that compared averages, women with hair loss had ferritin on average 18.5 ng/mL lower than women without it, with a confidence interval running from 11.2 to 25.9 lower."
       },
       {
         "t": "p",
-        "text": "Read one row further down and the picture changes. Using the standard deficiency cut-off of 10 to 15, 21% of the women with hair loss were iron deficient — and the review's authors say plainly that this is comparable to rates of iron depletion in the general population. Using a cut-off of 30 to 40 instead, the figure jumps to 59%. Same women, same blood samples, nearly three times the headline. The second number is the one that appears on clinic pages, and the only thing producing it is where the line was drawn."
+        "text": "Read one row further down and the picture changes. Using the standard deficiency cut-off of 10 to 15, 21% of the women with hair loss were iron deficient — and the review's authors say plainly that this is comparable to rates of iron depletion in the general population. Using a cut-off of 30 to 40 instead, the figure jumps to 59% — pooled from 24 studies rather than 15, but the same kind of women, and nearly three times the headline. The second number is the one that appears on clinic pages, and what mostly produces it is where the line was drawn."
       },
       {
         "t": "p",
@@ -81,7 +81,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In 2010, a team at Duke University measured ferritin in 381 women with female-pattern hair loss or chronic telogen effluvium, and in 76 women with no hair loss at all. At a cut-off of 15 µg/L, iron deficiency turned up in 12.4% of premenopausal women with female-pattern loss and 12.1% of those with chronic telogen effluvium — against 29.8% of the controls. The women without hair loss were more than twice as likely to be iron deficient as the women with it."
+        "text": "In 2010, a team at Duke University measured ferritin in 381 women with female-pattern hair loss or chronic telogen effluvium, and in 76 women with no hair loss at all. At a cut-off of 15 µg/L, iron deficiency turned up in 12.4% of premenopausal women with female-pattern loss and 12.1% of those with chronic telogen effluvium — against 29.8% of the premenopausal controls. If anything, the women without hair loss were the more likely to be iron deficient — though the authors found no statistically significant difference either way."
       },
       {
         "t": "p",
@@ -89,11 +89,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The second study is much smaller and, to my mind, more useful, because it is the only one that did the obvious experiment. In 2002 a Melbourne hair clinic took 194 consecutive women with diffuse telogen hair loss lasting more than six months and gave every one of them blood tests and two scalp biopsies. Twelve, or 6.2%, had a ferritin of 20 µg/L or below. Seven of those twelve turned out on biopsy to have androgenetic alopecia, meaning their low iron was incidental to why their hair was thinning. The remaining five were treated with iron alone until ferritin rose above 20. In the paper's own words: cessation or reversal of hair loss was not seen in any of these women."
+        "text": "The second study is much smaller and, to my mind, more useful, because it did the obvious experiment and checked the scalp under a microscope first. In 2002 a Melbourne hair clinic took 194 consecutive women with diffuse telogen hair loss lasting more than six months and gave every one of them blood tests and two scalp biopsies. Twelve, or 6.2%, had a ferritin of 20 µg/L or below. Seven of those twelve turned out on biopsy to have androgenetic alopecia, meaning their low iron was incidental to why their hair was thinning. The remaining five were treated with iron alone until ferritin rose above 20. In the paper's own words: cessation or reversal of hair loss was not seen in any of these women."
       },
       {
         "t": "p",
-        "text": "Five women is not a trial and it settles nothing on its own. But more than twenty years later it is still close to the whole of the direct evidence on whether correcting iron fixes the hair. The Duke paper lists exactly that as its own limitation: the effect of correction of iron deficiency on hair loss is unknown."
+        "text": "Five women is not a trial and it settles nothing on its own. The other direct evidence is no stronger: a Swedish clinic series from 1963 and a 2024 Lebanese study that measured only how satisfied women felt both reported benefit from iron, and the positive double-blind study Rushton reports gave iron together with the amino acid L-lysine. More than twenty years later, there is still no randomised trial of iron alone for hair loss. The Duke paper lists exactly that as its own limitation: the effect of correction of iron deficiency on hair loss is unknown."
       },
       {
         "t": "h",
@@ -137,7 +137,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Because iron tablets are the treatment for a diagnosis, and taking them without one does three unhelpful things: it treats a deficiency you may not have, it can mask the bleeding that caused one if you do, and it is genuinely unpleasant. Constipation, diarrhoea, stomach pain, nausea and darker stools are all common. The NHS position on supplements is that 17 mg a day or less is unlikely to cause harm, that side effects appear above 20 mg, and that very high doses can be fatal — particularly in young children, which is why that warning is on the box rather than in the small print."
+        "text": "Because iron tablets are the treatment for a diagnosis, and taking them without one does three unhelpful things: it treats a deficiency you may not have, it can mask the bleeding that caused one if you do, and it is genuinely unpleasant. Constipation, diarrhoea, stomach pain, heartburn, nausea and darker stools are the side effects the NHS lists. The NHS position on supplements is that 17 mg a day or less is unlikely to cause harm, that side effects appear above 20 mg, and that very high doses can be fatal — particularly in young children, which is why that warning is on the box rather than in the small print."
       },
       {
         "t": "p",
@@ -173,7 +173,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Heavy perimenopausal periods are a real and common cause of iron deficiency, and that is worth finding and correcting on its own terms — the tiredness, the breathlessness, and the bleeding itself. The hair claim is where the evidence runs out. The best-controlled comparison found iron deficiency no more common in women with hair loss than in women without it. The only women ever given iron and then followed did not improve. The target numbers are borrowed, the condition attached to the most-quoted one has been dropped along the way, and nobody has yet run the trial that would settle any of it."
+        "text": "Heavy perimenopausal periods are a real and common cause of iron deficiency, and that is worth finding and correcting on its own terms — the tiredness, the breathlessness, and the bleeding itself. The hair claim is where the evidence runs out. The best-controlled comparison found iron deficiency no more common in women with hair loss than in women without it. In the Melbourne series, which checked the scalp by biopsy before giving iron, none of the women improved, and none of the studies reporting benefit was a randomised trial of iron alone. The target numbers are borrowed, the condition attached to the most-quoted one has been dropped along the way, and nobody has yet run a randomised trial of iron alone that would settle any of it."
       },
       {
         "t": "h",
@@ -183,20 +183,20 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Pooled across 36 studies, women with non-scarring hair loss had ferritin about 18.5 ng/mL lower than controls — but at the standard deficiency cut-off only 21% were deficient, a rate the authors call comparable to the general population.",
-            "detail": "Systematic review and meta-analysis of 36 studies published 1988–2019 (21 case-control, 15 cohort), 10,029 participants: 6,641 with alopecia and 3,388 controls. Mean ferritin difference −18.51 ng/dL (95% CI −25.85 to −11.16), I² = 93%; excluding outliers −18.23 (−22.93 to −13.53). Pooled prevalence of ferritin deficiency at a 10–15 cut-off 21% (12–29), I² = 95%; at a 30–40 cut-off 59% (49–69), I² = 98%. Iron-deficiency anaemia 8% (0–21). In the premenopausal subgroup the ferritin gap was −20.65 ng/dL (−29.74 to −11.55). Every included study was observational — the review contains no iron-supplementation trial — and the authors note the included populations came from referral centres and tertiary care hospitals. Heterogeneity was substantial throughout.",
+            "claim": "Pooled across the 18 studies that compared averages, women with non-scarring hair loss had ferritin about 18.5 ng/mL lower than controls — but at the standard deficiency cut-off only 21% were deficient, a rate the authors call comparable to the general population.",
+            "detail": "Systematic review and meta-analysis of 36 studies published 1988–2019 (21 case-control, 15 cohort), 10,029 participants: 6,641 with alopecia and 3,388 controls. Mean ferritin difference, from the 18 studies that compared means, −18.51 (the paper prints ng/dL; ferritin is normally reported in ng/mL) (95% CI −25.85 to −11.16), I² = 93%; excluding outliers −18.23 (−22.93 to −13.53). Pooled prevalence of ferritin deficiency at a 10–15 cut-off 21% (12–29), from 15 studies, I² = 95%; at a 30–40 cut-off 59% (49–69), from 24 studies, I² = 98% — a rate the authors suggest is higher than in the general population. Iron-deficiency anaemia 8% (0–21). In the premenopausal subgroup the ferritin gap was −20.65 ng/dL (−29.74 to −11.55). Every included study was observational — the review contains no iron-supplementation trial — and the authors note the included populations came from referral centres and tertiary care hospitals. Heterogeneity was substantial throughout.",
             "cite": "Treister-Goltzman Y, Yarza S, Peleg R · Skin Appendage Disord · 2022;8(2):83–92 · Systematic review and meta-analysis",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8928181/"
           },
           {
-            "claim": "In the largest controlled comparison, iron deficiency was more common in women without hair loss than in women with it.",
+            "claim": "In a controlled comparison at Duke, iron deficiency was no more common in women with hair loss than in women without it — among premenopausal women it was commoner in the controls, though not significantly.",
             "detail": "Controlled study of 381 Caucasian women aged 18 or over with female-pattern hair loss or chronic telogen effluvium at the Duke University Hair Disorders Clinic, against 76 women from the university area with no history or physical findings of hair loss. At ferritin ≤15 µg/L, iron deficiency occurred in 12.4% of premenopausal women with female-pattern loss (n = 170), 12.1% with chronic telogen effluvium (n = 58) and 29.8% of controls (n = 47); postmenopausal figures were 1.7%, 10.5% and 6.9%. At ferritin ≤40 µg/L the premenopausal figures were 58.8%, 63.8% and 72.3%. There was no statistically significant increase in iron deficiency in either hair-loss group versus controls. The authors' stated limitation: the effect of correction of iron deficiency on hair loss is unknown.",
             "cite": "Olsen EA, Reed KB, Cacchio PB, Caudill L · J Am Acad Dermatol · 2010;63(6):991–999 · Controlled study",
             "url": "https://pubmed.ncbi.nlm.nih.gov/20947203/"
           },
           {
-            "claim": "The only women in the literature given iron for hair loss and then followed did not improve.",
-            "detail": "194 consecutive women presenting to a specialist hair clinic between 1997 and 1999 with diffuse telogen hair loss of more than six months' duration, all of whom had biochemical investigations including serum ferritin plus two 4 mm scalp punch biopsies, sectioned horizontally and vertically. Twelve women (6.2%) had serum ferritin of 20 µg/L or less. Androgenetic alopecia was found on biopsy in seven of those twelve; the other five, with normal histology, were treated with iron supplementation alone until ferritin exceeded 20 µg/L. Cessation or reversal of hair loss was not seen in any of them. The authors conclude that no direct relationship between low serum ferritin and hair loss can be established, and that the usefulness of serum ferritin in routine investigation is unclear, as is the role of iron supplementation. Five treated women is a very small number and the study was not randomised or controlled.",
+            "claim": "In a Melbourne series that ruled out pattern hair loss by scalp biopsy before giving iron, none of the treated women improved.",
+            "detail": "194 consecutive women presenting to a specialist hair clinic between 1997 and 1999 with diffuse telogen hair loss of more than six months' duration, all of whom had biochemical investigations including serum ferritin plus two 4 mm scalp punch biopsies, sectioned horizontally and vertically. Twelve women (6.2%) had serum ferritin of 20 µg/L or less. Androgenetic alopecia was found on biopsy in seven of those twelve; the other five, with normal histology, were treated with iron supplementation alone until ferritin exceeded 20 µg/L. Cessation or reversal of hair loss was not seen in any of them. The authors conclude that no direct relationship between low serum ferritin and hair loss can be established, and that the usefulness of serum ferritin in routine investigation is unclear, as is the role of iron supplementation. Five treated women is a very small number and the study was not randomised or controlled. Other reports of women given iron for hair loss exist — Hård's 1963 series (Acta Derm Venereol 43:562–569), Rushton's L-lysine-plus-iron study described in his 2002 review, and a 2024 observational study measuring only patient satisfaction (Soutou et al, Indian J Dermatol 69:119–122) — but none is a randomised trial of iron alone.",
             "cite": "Sinclair R · Br J Dermatol · 2002;147(5):982–984 · Prospective clinic series with scalp biopsy",
             "url": "https://pubmed.ncbi.nlm.nih.gov/12410711/"
           },
@@ -207,8 +207,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/12190640/"
           },
           {
-            "claim": "The WHO sets iron deficiency in healthy adults at a ferritin below 15 µg/L, raises that line to below 70 µg/L where there is inflammation, and lists above 150 µg/L in women as a risk of iron overload.",
-            "detail": "WHO guideline, 2020. Recommendation 1.1: ferritin concentration is a good marker of iron stores and should be used to diagnose iron deficiency in otherwise apparently healthy individuals (strong recommendation, low certainty of evidence). Recommendation 1.2: in individuals with infection or inflammation, a ferritin concentration below 30 µg/L in children and 70 µg/L in adults may be used to indicate iron deficiency (conditional recommendation, low certainty of evidence). Table 1, adults aged 20–59: iron deficiency below 15 µg/L in apparently healthy individuals and below 70 µg/L with infection or inflammation; risk of iron overload above 150 µg/L in females and above 200 µg/L in males. Recommendation 4.2 states that the rise in ferritin caused by inflammation should be accounted for, one method being to raise the cut-off that defines deficiency.",
+            "claim": "The WHO sets iron deficiency in healthy adults at a ferritin below 15 µg/L, raises that line to below 70 µg/L where there is inflammation, and lists above 150 µg/L in menstruating women as a risk of iron overload.",
+            "detail": "WHO guideline, 2020. Recommendation 1.1: ferritin concentration is a good marker of iron stores and should be used to diagnose iron deficiency in otherwise apparently healthy individuals (strong recommendation, low certainty of evidence). Recommendation 1.2: in individuals with infection or inflammation, a ferritin concentration below 30 µg/L in children and 70 µg/L in adults may be used to indicate iron deficiency (conditional recommendation, low certainty of evidence). Table 1, adults aged 20–59: iron deficiency below 15 µg/L in apparently healthy individuals and below 70 µg/L with infection or inflammation; risk of iron overload above 150 µg/L in females and above 200 µg/L in males; Recommendation 1.3 specifies 150 µg/L for menstruating women and 200 µg/L for men and non-menstruating women. Recommendation 4.2 states that the rise in ferritin caused by inflammation should be accounted for, one method being to raise the cut-off that defines deficiency.",
             "cite": "World Health Organization · WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations · 2020",
             "url": "https://www.who.int/publications/i/item/9789240000124"
           },
@@ -221,7 +221,7 @@ export default {
           {
             "claim": "NICE tells clinicians to do a full blood count for every woman with heavy menstrual bleeding, and not to test female hormones or thyroid hormones routinely.",
             "detail": "NICE guideline NG88, heavy menstrual bleeding: assessment and management. Recommendation 1.2.6: \"Carry out a full blood count test for all women with HMB, in parallel with any HMB treatment offered.\" Recommendation 1.2.7 advises considering testing for coagulation disorders in women who have had heavy periods since their periods started and have a personal or family history suggesting one. Recommendation 1.2.9: do not carry out female hormone testing. Recommendation 1.2.10: do not carry out thyroid hormone testing unless other signs and symptoms of thyroid disease are present. Serum ferritin is not among the laboratory tests the guideline recommends.",
-            "cite": "National Institute for Health and Care Excellence · NG88 · 2018, updated 2021 · Clinical guideline",
+            "cite": "National Institute for Health and Care Excellence · NG88 · 2018, last updated 2026 · Clinical guideline",
             "url": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations"
           },
           {
@@ -266,7 +266,7 @@ export default {
       },
       {
         "q": "Will taking iron bring my hair back?",
-        "a": "There is no good evidence that it will, and one small study suggesting it does not. In a Melbourne clinic series, five women with diffuse shedding, low ferritin and normal scalp biopsies were given iron until their ferritin came up, and none of them saw the shedding stop or reverse. That is five women, not a trial, but more than twenty years later it remains close to the whole of the direct evidence. Separately, the best-controlled comparison, at Duke University, found iron deficiency was no more common in women with hair loss than in women without it. If a blood test finds you are genuinely iron deficient, treating it is worth doing for the tiredness and for whatever is causing the loss — just not on the promise of hair."
+        "a": "There is no good evidence that it will, and one small study suggesting it does not. In a Melbourne clinic series, five women with diffuse shedding, low ferritin and normal scalp biopsies were given iron until their ferritin came up, and none of them saw the shedding stop or reverse. That is five women, not a trial; the reports of benefit are no stronger — small, self-rated, or with other supplements added — and there is still no randomised trial of iron alone. Separately, the best-controlled comparison, at Duke University, found iron deficiency was no more common in women with hair loss than in women without it. If a blood test finds you are genuinely iron deficient, treating it is worth doing for the tiredness and for whatever is causing the loss — just not on the promise of hair."
       },
       {
         "q": "Should I just buy iron tablets if my periods are heavy?",
@@ -280,7 +280,7 @@ export default {
     "title": "Низький феритин і випадіння волосся після 40: зв’язок із рясними місячними справжній, а цільова цифра — ні",
     "seoTitle": "Низький феритин і випадіння волосся після 40: що каже наука",
     "metaDesc": "Рясні місячні в перименопаузі справді виснажують запаси заліза. Чи поверне волосся підняття феритину до 70 — інше питання, і доказів тут значно менше.",
-    "excerpt": "Клініки та продавці добавок називають цільовий рівень феритину для волосся: 40, 60, найчастіше 70. Цифра походить з одного огляду 2002 року, автор якого сам написав, що рівень «остаточно не встановлено», і додав умову, яку згодом загубили. А в найретельніше контрольованому дослідженні дефіцит заліза частіше траплявся в жінок без випадіння волосся, ніж у жінок із ним.",
+    "excerpt": "Клініки та продавці добавок називають цільовий рівень феритину для волосся: 40, 60, найчастіше 70. Цифра походить з одного огляду 2002 року, автор якого сам написав, що рівень «остаточно не встановлено», і додав умову, яку згодом загубили. А в найретельніше контрольованому дослідженні дефіцит заліза траплявся в жінок із випадінням волосся не частіше, ніж у жінок без нього.",
     "meta": "5 листопада 2026 · 8 хв читання",
     "lead": "Рясні й непередбачувані місячні після сорока справді виснажують запаси заліза, і з цим варто розібратися з причин, які не мають жодного стосунку до волосся. Чи поверне волосся підняття феритину до якоїсь цільової цифри — окреме питання, і дослідження, на яких тримаються ці цифри, значно слабші, ніж визнають сайти, що їх цитують.",
     "blocks": [
@@ -318,7 +318,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Та сама таблиця ВООЗ визначає й інший кінець діапазону. У жінок феритин вище 150 мкг/л позначений як ризик перевантаження залізом. Проміжок між «прагніть 70» і «це вже забагато» вужчий, ніж можна подумати, дивлячись на полиці з добавками."
+        "text": "Та сама таблиця ВООЗ визначає й інший кінець діапазону. У жінок, які ще мають місячні, феритин вище 150 мкг/л позначений як ризик перевантаження залізом. Проміжок між «прагніть 70» і «це вже забагато» вужчий, ніж можна подумати, дивлячись на полиці з добавками."
       },
       {
         "t": "h",
@@ -326,11 +326,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Найбільший узагальнений аналіз — систематичний огляд і метааналіз 2022 року в Skin Appendage Disorders: 36 досліджень, опублікованих між 1988 і 2019 роками, 10 029 учасників, з яких 6 641 — жінки з нерубцевою алопецією, а 3 388 — контрольна група. Його головний результат справжній, і саме його використовує маркетинг: у жінок із випадінням волосся феритин був у середньому на 18,5 нг/мл нижчий, ніж у жінок без нього, з довірчим інтервалом від 11,2 до 25,9 нг/мл нижче."
+        "text": "Найбільший узагальнений аналіз — систематичний огляд і метааналіз 2022 року в Skin Appendage Disorders: 36 досліджень, опублікованих між 1988 і 2019 роками, 10 029 учасників, з яких 6 641 — жінки з нерубцевою алопецією, а 3 388 — контрольна група. Його головний результат справжній, і саме його використовує маркетинг: за узагальненими даними 18 досліджень, які порівнювали середні значення, у жінок із випадінням волосся феритин був у середньому на 18,5 нг/мл нижчий, ніж у жінок без нього, з довірчим інтервалом від 11,2 до 25,9 нг/мл нижче."
       },
       {
         "t": "p",
-        "text": "Прочитайте на рядок нижче — і картина змінюється. За стандартної межі дефіциту 10–15 дефіцит заліза мали 21% жінок із випадінням волосся, і автори огляду прямо пишуть, що це можна порівняти з рівнями виснаження заліза в загальній популяції. Якщо ж узяти межу 30–40, цифра підскакує до 59%. Ті самі жінки, ті самі зразки крові — а цифра для заголовка майже втричі більша. Саме ця друга цифра з’являється на сторінках клінік, і отримали її лише завдяки тому, де провели межу."
+        "text": "Прочитайте на рядок нижче — і картина змінюється. За стандартної межі дефіциту 10–15 дефіцит заліза мали 21% жінок із випадінням волосся, і автори огляду прямо пишуть, що це можна порівняти з рівнями виснаження заліза в загальній популяції. Якщо ж узяти межу 30–40, цифра підскакує до 59% — це узагальнення 24 досліджень, а не 15, але жінки ті самі за типом, а цифра для заголовка майже втричі більша. Саме ця друга цифра з’являється на сторінках клінік, і отримали її здебільшого завдяки тому, де провели межу."
       },
       {
         "t": "p",
@@ -342,7 +342,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "2010 року команда Університету Дьюка виміряла феритин у 381 жінки з андрогенетичною алопецією або хронічним телогеновим випадінням і в 76 жінок узагалі без випадіння волосся. За межі 15 мкг/л дефіцит заліза виявили у 12,4% жінок репродуктивного віку з андрогенетичною алопецією та 12,1% із хронічним телогеновим випадінням — проти 29,8% у контрольній групі. Жінки без випадіння волосся мали дефіцит заліза більш ніж удвічі частіше за тих, у кого волосся випадало."
+        "text": "2010 року команда Університету Дьюка виміряла феритин у 381 жінки з андрогенетичною алопецією або хронічним телогеновим випадінням і в 76 жінок узагалі без випадіння волосся. За межі 15 мкг/л дефіцит заліза виявили у 12,4% жінок репродуктивного віку з андрогенетичною алопецією та 12,1% із хронічним телогеновим випадінням — проти 29,8% у контрольній групі того самого віку. Якщо вже на те пішло, дефіцит заліза частіше мали саме жінки без випадіння волосся — хоча статистично значущої різниці в жодний бік автори не знайшли."
       },
       {
         "t": "p",
@@ -350,11 +350,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Друге дослідження значно менше і, як на мене, корисніше — бо лише в ньому провели очевидний експеримент. 2002 року мельбурнська клініка волосся обстежила 194 жінки поспіль із дифузним телогеновим випадінням тривалістю понад пів року і кожній зробила аналізи крові та дві біопсії шкіри голови. Дванадцять, або 6,2%, мали феритин 20 мкг/л чи нижче. У сімох із цих дванадцяти біопсія показала андрогенетичну алопецію — тобто низьке залізо не мало стосунку до того, чому волосся рідшало. Решту п’ятьох лікували самим лише залізом, доки феритин не піднявся вище 20. Як сказано в самій статті: припинення чи зворотного розвитку випадіння волосся не спостерігали в жодної з них."
+        "text": "Друге дослідження значно менше і, як на мене, корисніше — бо в ньому провели очевидний експеримент, спершу перевіривши шкіру голови під мікроскопом. 2002 року мельбурнська клініка волосся обстежила 194 жінки поспіль із дифузним телогеновим випадінням тривалістю понад пів року і кожній зробила аналізи крові та дві біопсії шкіри голови. Дванадцять, або 6,2%, мали феритин 20 мкг/л чи нижче. У сімох із цих дванадцяти біопсія показала андрогенетичну алопецію — тобто низьке залізо не мало стосунку до того, чому волосся рідшало. Решту п’ятьох лікували самим лише залізом, доки феритин не піднявся вище 20. Як сказано в самій статті: припинення чи зворотного розвитку випадіння волосся не спостерігали в жодної з них."
       },
       {
         "t": "p",
-        "text": "П’ять жінок — це не випробування, і саме собою воно нічого не вирішує. Але понад двадцять років потому це й досі майже всі прямі докази того, чи допомагає волоссю корекція рівня заліза. Робота з Дьюка називає це своїм власним обмеженням: вплив корекції дефіциту заліза на випадіння волосся невідомий."
+        "text": "П’ять жінок — це не випробування, і саме собою воно нічого не вирішує. Інші прямі докази не сильніші: шведська клінічна серія 1963 року та ліванське дослідження 2024 року, яке оцінювало лише те, наскільки жінки задоволені, обидва повідомили про користь заліза, а позитивне подвійне сліпе дослідження, про яке повідомляє Раштон, давало залізо разом з амінокислотою L-лізином. І понад двадцять років потому рандомізованого випробування самого лише заліза при випадінні волосся досі немає. Робота з Дьюка називає це своїм власним обмеженням: вплив корекції дефіциту заліза на випадіння волосся невідомий."
       },
       {
         "t": "h",
@@ -398,7 +398,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Бо таблетки заліза — це лікування конкретного діагнозу, і приймати їх без нього погано з трьох причин: ви лікуєте дефіцит, якого у вас може не бути; якщо ж він є — можете замаскувати кровотечу, що його спричинила; і переносяться ці таблетки по-справжньому неприємно. Закреп, діарея, біль у животі, нудота й темніший стілець трапляються часто. Позиція NHS щодо добавок така: 17 мг на добу чи менше навряд чи завдадуть шкоди, побічні ефекти з’являються вище 20 мг, а дуже високі дози можуть бути смертельними — особливо для маленьких дітей, і саме тому це попередження надруковане на упаковці, а не дрібним шрифтом в інструкції."
+        "text": "Бо таблетки заліза — це лікування конкретного діагнозу, і приймати їх без нього погано з трьох причин: ви лікуєте дефіцит, якого у вас може не бути; якщо ж він є — можете замаскувати кровотечу, що його спричинила; і переносяться ці таблетки по-справжньому неприємно. Закреп, діарея, біль у животі, печія, нудота й темніший стілець — такі побічні ефекти називає NHS. Позиція NHS щодо добавок така: 17 мг на добу чи менше навряд чи завдадуть шкоди, побічні ефекти з’являються вище 20 мг, а дуже високі дози можуть бути смертельними — особливо для маленьких дітей, і саме тому це попередження надруковане на упаковці, а не дрібним шрифтом в інструкції."
       },
       {
         "t": "p",
@@ -434,7 +434,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Рясні місячні в перименопаузі — справжня й поширена причина дефіциту заліза, і її варто знайти й виправити саму по собі: через утому, задишку й саму кровотечу. Там, де починається твердження про волосся, докази закінчуються. Найкраще контрольоване порівняння не знайшло, щоб дефіцит заліза був частішим у жінок із випадінням волосся, ніж у жінок без нього. У єдиних жінок, яким колись дали залізо й потім за ними спостерігали, поліпшення не настало. Цільові цифри запозичені, умову до найцитованішої з них загубили дорогою, і випробування, яке все це вирішило б, досі ніхто не провів."
+        "text": "Рясні місячні в перименопаузі — справжня й поширена причина дефіциту заліза, і її варто знайти й виправити саму по собі: через утому, задишку й саму кровотечу. Там, де починається твердження про волосся, докази закінчуються. Найкраще контрольоване порівняння не знайшло, щоб дефіцит заліза був частішим у жінок із випадінням волосся, ніж у жінок без нього. У мельбурнській серії, де перед призначенням заліза перевірили шкіру голови біопсією, поліпшення не настало в жодної жінки, а жодне з досліджень, які повідомляли про користь, не було рандомізованим випробуванням самого лише заліза. Цільові цифри запозичені, умову до найцитованішої з них загубили дорогою, і рандомізованого випробування самого лише заліза, яке все це вирішило б, досі ніхто не провів."
       },
       {
         "t": "h",
@@ -444,20 +444,20 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "За узагальненими даними 36 досліджень, у жінок із нерубцевою алопецією феритин був приблизно на 18,5 нг/мл нижчий, ніж у контрольній групі, — але за стандартної межі дефіциту його мали лише 21%, що автори називають порівнянним із загальною популяцією.",
-            "detail": "Систематичний огляд і метааналіз 36 досліджень, опублікованих 1988–2019 (21 дослідження «випадок — контроль», 15 когортних), 10 029 учасників: 6 641 з алопецією і 3 388 у контролі. Середня різниця феритину −18,51 нг/дл (95% ДІ −25,85 до −11,16), I² = 93%; без викидів −18,23 (−22,93 до −13,53). Узагальнена поширеність дефіциту феритину за межі 10–15 — 21% (12–29), I² = 95%; за межі 30–40 — 59% (49–69), I² = 98%. Залізодефіцитна анемія — 8% (0–21). У підгрупі жінок репродуктивного віку різниця феритину становила −20,65 нг/дл (−29,74 до −11,55). Усі включені дослідження були спостережними — в огляді немає жодного випробування з прийомом заліза, — а автори зазначають, що учасниць набирали в центрах, куди скеровують пацієнтів, і лікарень третинного рівня. Гетерогенність була суттєвою в усіх аналізах.",
+            "claim": "За узагальненими даними 18 досліджень, які порівнювали середні значення, у жінок із нерубцевою алопецією феритин був приблизно на 18,5 нг/мл нижчий, ніж у контрольній групі, — але за стандартної межі дефіциту його мали лише 21%, що автори називають порівнянним із загальною популяцією.",
+            "detail": "Систематичний огляд і метааналіз 36 досліджень, опублікованих 1988–2019 (21 дослідження «випадок — контроль», 15 когортних), 10 029 учасників: 6 641 з алопецією і 3 388 у контролі. Середня різниця феритину за 18 дослідженнями, що порівнювали середні значення, −18,51 (у статті вказано нг/дл; феритин зазвичай вимірюють у нг/мл) (95% ДІ −25,85 до −11,16), I² = 93%; без викидів −18,23 (−22,93 до −13,53). Узагальнена поширеність дефіциту феритину за межі 10–15 — 21% (12–29), за 15 дослідженнями, I² = 95%; за межі 30–40 — 59% (49–69), за 24 дослідженнями, I² = 98%, — і цей показник автори вважають вищим, ніж у загальній популяції. Залізодефіцитна анемія — 8% (0–21). У підгрупі жінок репродуктивного віку різниця феритину становила −20,65 нг/дл (−29,74 до −11,55). Усі включені дослідження були спостережними — в огляді немає жодного випробування з прийомом заліза, — а автори зазначають, що учасниць набирали в центрах, куди скеровують пацієнтів, і лікарень третинного рівня. Гетерогенність була суттєвою в усіх аналізах.",
             "cite": "Treister-Goltzman Y, Yarza S, Peleg R · Skin Appendage Disord · 2022;8(2):83–92 · Систематичний огляд і метааналіз",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8928181/"
           },
           {
-            "claim": "У найбільшому контрольованому порівнянні дефіцит заліза частіше траплявся в жінок без випадіння волосся, ніж у жінок із ним.",
+            "claim": "У контрольованому порівнянні в Університеті Дьюка дефіцит заліза в жінок із випадінням волосся траплявся не частіше, ніж у жінок без нього, — до менопаузи він навіть частіше був у контрольній групі, хоча й не статистично значуще.",
             "detail": "Контрольоване дослідження 381 жінки європеоїдного походження віком від 18 років з андрогенетичною алопецією або хронічним телогеновим випадінням у клініці захворювань волосся Університету Дьюка проти 76 жінок із того самого району без анамнезу чи ознак випадіння волосся. За феритину ≤15 мкг/л дефіцит заліза був у 12,4% жінок репродуктивного віку з андрогенетичною алопецією (n = 170), 12,1% із хронічним телогеновим випадінням (n = 58) і 29,8% у контролі (n = 47); у постменопаузі — 1,7%, 10,5% і 6,9%. За феритину ≤40 мкг/л показники до менопаузи були 58,8%, 63,8% і 72,3%. Статистично значущого зростання дефіциту заліза в жодній із груп із випадінням волосся порівняно з контролем не було. Обмеження, назване авторами: вплив корекції дефіциту заліза на випадіння волосся невідомий.",
             "cite": "Olsen EA, Reed KB, Cacchio PB, Caudill L · J Am Acad Dermatol · 2010;63(6):991–999 · Контрольоване дослідження",
             "url": "https://pubmed.ncbi.nlm.nih.gov/20947203/"
           },
           {
-            "claim": "У єдиних описаних у літературі жінок, яким дали залізо через випадіння волосся й потім за ними спостерігали, поліпшення не настало.",
-            "detail": "194 жінки поспіль, які звернулися до спеціалізованої клініки волосся між 1997 і 1999 роками з дифузним телогеновим випадінням тривалістю понад пів року; усім зробили біохімічні обстеження, зокрема сироватковий феритин, і дві пункційні біопсії шкіри голови 4 мм, розрізані горизонтально й вертикально. Дванадцять жінок (6,2%) мали феритин 20 мкг/л або нижче. У сімох із них біопсія показала андрогенетичну алопецію; решту п’ятьох, із нормальною гістологією, лікували самим лише залізом, доки феритин не перевищив 20 мкг/л. Припинення чи зворотного розвитку випадіння не спостерігали в жодної. Автори роблять висновок, що прямого зв’язку між низьким феритином і випадінням волосся встановити не вдається, а користь феритину в рутинному обстеженні, як і роль прийому заліза, лишається неясною. П’ять пролікованих жінок — дуже мала кількість, дослідження не було рандомізованим чи контрольованим.",
+            "claim": "У мельбурнській серії, де перед призначенням заліза андрогенетичну алопецію виключили біопсією шкіри голови, поліпшення не настало в жодної пролікованої жінки.",
+            "detail": "194 жінки поспіль, які звернулися до спеціалізованої клініки волосся між 1997 і 1999 роками з дифузним телогеновим випадінням тривалістю понад пів року; усім зробили біохімічні обстеження, зокрема сироватковий феритин, і дві пункційні біопсії шкіри голови 4 мм, розрізані горизонтально й вертикально. Дванадцять жінок (6,2%) мали феритин 20 мкг/л або нижче. У сімох із них біопсія показала андрогенетичну алопецію; решту п’ятьох, із нормальною гістологією, лікували самим лише залізом, доки феритин не перевищив 20 мкг/л. Припинення чи зворотного розвитку випадіння не спостерігали в жодної. Автори роблять висновок, що прямого зв’язку між низьким феритином і випадінням волосся встановити не вдається, а користь феритину в рутинному обстеженні, як і роль прийому заліза, лишається неясною. П’ять пролікованих жінок — дуже мала кількість, дослідження не було рандомізованим чи контрольованим. Інші описи жінок, яким давали залізо через випадіння волосся, існують — серія Горда 1963 року (Acta Derm Venereol 43:562–569), дослідження L-лізину разом із залізом, яке Раштон описав у своєму огляді 2002 року, і спостережне дослідження 2024 року, що оцінювало лише задоволеність пацієнток (Soutou et al, Indian J Dermatol 69:119–122), — але жодне з них не є рандомізованим випробуванням самого лише заліза.",
             "cite": "Sinclair R · Br J Dermatol · 2002;147(5):982–984 · Проспективна клінічна серія з біопсією шкіри голови",
             "url": "https://pubmed.ncbi.nlm.nih.gov/12410711/"
           },
@@ -468,8 +468,8 @@ export default {
             "url": "https://pubmed.ncbi.nlm.nih.gov/12190640/"
           },
           {
-            "claim": "ВООЗ визначає дефіцит заліза у здорових дорослих як феритин нижче 15 мкг/л, піднімає цю межу до 70 мкг/л за наявності запалення й позначає понад 150 мкг/л у жінок як ризик перевантаження залізом.",
-            "detail": "Настанова ВООЗ, 2020. Рекомендація 1.1: концентрація феритину є добрим маркером запасів заліза й має використовуватися для діагностики дефіциту заліза у зовні здорових осіб (сильна рекомендація, низька певність доказів). Рекомендація 1.2: в осіб з інфекцією або запаленням концентрація феритину нижче 30 мкг/л у дітей і 70 мкг/л у дорослих може вказувати на дефіцит заліза (умовна рекомендація, низька певність доказів). Таблиця 1, дорослі 20–59 років: дефіцит заліза — нижче 15 мкг/л у зовні здорових і нижче 70 мкг/л за інфекції чи запалення; ризик перевантаження залізом — понад 150 мкг/л у жінок і понад 200 мкг/л у чоловіків. Рекомендація 4.2 зазначає, що зростання феритину через запалення треба враховувати, і один зі способів — підняти межу, яка визначає дефіцит.",
+            "claim": "ВООЗ визначає дефіцит заліза у здорових дорослих як феритин нижче 15 мкг/л, піднімає цю межу до 70 мкг/л за наявності запалення й позначає понад 150 мкг/л у жінок, які мають місячні, як ризик перевантаження залізом.",
+            "detail": "Настанова ВООЗ, 2020. Рекомендація 1.1: концентрація феритину є добрим маркером запасів заліза й має використовуватися для діагностики дефіциту заліза у зовні здорових осіб (сильна рекомендація, низька певність доказів). Рекомендація 1.2: в осіб з інфекцією або запаленням концентрація феритину нижче 30 мкг/л у дітей і 70 мкг/л у дорослих може вказувати на дефіцит заліза (умовна рекомендація, низька певність доказів). Таблиця 1, дорослі 20–59 років: дефіцит заліза — нижче 15 мкг/л у зовні здорових і нижче 70 мкг/л за інфекції чи запалення; ризик перевантаження залізом — понад 150 мкг/л у жінок і понад 200 мкг/л у чоловіків; рекомендація 1.3 уточнює: 150 мкг/л для жінок, які мають місячні, і 200 мкг/л для чоловіків і жінок без місячних. Рекомендація 4.2 зазначає, що зростання феритину через запалення треба враховувати, і один зі способів — підняти межу, яка визначає дефіцит.",
             "cite": "Всесвітня організація охорони здоров’я · Настанова ВООЗ щодо використання концентрацій феритину для оцінки статусу заліза · 2020",
             "url": "https://www.who.int/publications/i/item/9789240000124"
           },
@@ -482,7 +482,7 @@ export default {
           {
             "claim": "NICE вказує лікарям робити загальний аналіз крові кожній жінці з рясними менструальними кровотечами й не перевіряти рутинно жіночі гормони чи гормони щитоподібної залози.",
             "detail": "Настанова NICE NG88 щодо рясних менструальних кровотеч: оцінка й ведення. Рекомендація 1.2.6: «Проводьте загальний аналіз крові всім жінкам із рясними менструальними кровотечами, паралельно з будь-яким запропонованим лікуванням». Рекомендація 1.2.7 радить розглянути обстеження на порушення згортання крові в жінок, у яких рясні місячні були від самого їх початку й у яких особистий чи сімейний анамнез на це вказує. Рекомендація 1.2.9: не проводити дослідження жіночих гормонів. Рекомендація 1.2.10: не проводити дослідження гормонів щитоподібної залози, якщо немає інших ознак і симптомів її захворювання. Сироваткового феритину серед рекомендованих настановою лабораторних тестів немає.",
-            "cite": "National Institute for Health and Care Excellence · NG88 · 2018, оновлено 2021 · Клінічна настанова",
+            "cite": "National Institute for Health and Care Excellence · NG88 · 2018, останнє оновлення 2026 · Клінічна настанова",
             "url": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations"
           },
           {
@@ -527,7 +527,7 @@ export default {
       },
       {
         "q": "Чи поверне залізо моє волосся?",
-        "a": "Добрих доказів цього немає, а одне невелике дослідження свідчить радше про зворотне. У мельбурнській клінічній серії п’ятьом жінкам із дифузним випадінням, низьким феритином і нормальними біопсіями шкіри голови давали залізо, доки феритин не піднявся, — і в жодної з них випадіння не припинилося й волосся не почало відновлюватися. Це п’ять жінок, а не випробування, але понад двадцять років потому це й досі майже всі прямі докази. Крім того, найретельніше контрольоване порівняння, проведене в Університеті Дьюка, показало, що в жінок із випадінням волосся дефіцит заліза трапляється не частіше, ніж у жінок без нього. Якщо аналіз виявить справжній дефіцит заліза, лікувати його варто — і через утому, і щоб з’ясувати, що його спричинило, — тільки не в надії повернути волосся."
+        "a": "Добрих доказів цього немає, а одне невелике дослідження свідчить радше про зворотне. У мельбурнській клінічній серії п’ятьом жінкам із дифузним випадінням, низьким феритином і нормальними біопсіями шкіри голови давали залізо, доки феритин не піднявся, — і в жодної з них випадіння не припинилося й волосся не почало відновлюватися. Це п’ять жінок, а не випробування; а повідомлення про користь не сильніші — невеликі, засновані на самооцінці або з іншими добавками, — і рандомізованого випробування самого лише заліза досі немає. Крім того, найретельніше контрольоване порівняння, проведене в Університеті Дьюка, показало, що в жінок із випадінням волосся дефіцит заліза трапляється не частіше, ніж у жінок без нього. Якщо аналіз виявить справжній дефіцит заліза, лікувати його варто — і через утому, і щоб з’ясувати, що його спричинило, — тільки не в надії повернути волосся."
       },
       {
         "q": "Чи можна просто купити таблетки заліза, якщо місячні рясні?",

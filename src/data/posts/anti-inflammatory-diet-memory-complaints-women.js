@@ -18,14 +18,14 @@ export default {
     "imageAlt": "Wide metal bowls of peanuts, pulses and grains stacked on a market stall in warm afternoon light.",
     "title": "An anti-inflammatory Mediterranean diet, not the standard one, tracked with fewer memory complaints in women over 50",
     "seoTitle": "Anti-Inflammatory Diet and Memory in Women Over 50",
-    "metaDesc": "A Spanish study of 348 women compared three Mediterranean eating patterns against self-reported memory problems. Only the strictest, anti-inflammatory version showed an association — and it rested on fifteen women.",
+    "metaDesc": "A Spanish study of 348 women compared three Mediterranean eating patterns against self-reported memory problems. Only the strictest, anti-inflammatory version showed an association — and its headline figure rests on fifteen women.",
     "excerpt": "A study of 348 Spanish women set the standard Mediterranean diet, the MIND diet and a stricter anti-inflammatory version against each other, and found that only the third was linked to fewer memory complaints. The comparison is the interesting part. The headline number is the fragile part.",
     "meta": "2 November 2026 · 7 min read",
     "lead": "Three Mediterranean eating patterns went into the same analysis of 348 women over 50. Two of them — the standard Mediterranean diet and the MIND diet, the one actually designed for the brain — showed no link to memory complaints at all. Only the strictest anti-inflammatory version did, and the size of that link is much less certain than the number attached to it.",
     "blocks": [
       {
         "t": "p",
-        "text": "The study was published in BMC Complementary Medicine and Therapies on 22 November 2025 by a team at Universidad Cardenal Herrera-CEU in Valencia. Researchers recruited women through community pharmacies and health centres across the Valencian Community between January and May 2024, and sat each of them down for a ninety-minute assessment covering diet, memory and general health. Of 419 women recruited, 348 were included: all at least 50 years old, average age 70.5, average body mass index 27."
+        "text": "The study was published in BMC Complementary Medicine and Therapies on 22 November 2025 by a team at Universidad Cardenal Herrera-CEU in Valencia. Researchers recruited women through community pharmacies and health centres across the Valencian Community between January and May 2024, and sat each of them down for a single face-to-face interview — about an hour by the methods section, ninety minutes by the paper's own strengths section — covering diet, memory and general health. Of 419 women recruited, 348 were included: all at least 50 years old, average age 70.5, average body mass index 27."
       },
       {
         "t": "p",
@@ -41,7 +41,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "When all three adherence scores were put into one model together, so they competed with each other rather than each getting its own flattering analysis, only the anti-inflammatory score survived. Each additional point on it was associated with 17% lower odds of reporting a memory complaint (odds ratio 0.83, 95% confidence interval 0.74 to 0.93). The standard Mediterranean score showed nothing (0.94, 0.82 to 1.08) and neither did the MIND score (0.97, 0.79 to 1.19) — and MIND is the pattern explicitly built to delay neurodegeneration, which makes its flat result the most quietly interesting line in the paper. On the food level, more greens, more non-green vegetables and more legumes went with fewer complaints; more dairy, refined grains, sugar, pastries and cakes went the other way."
+        "text": "When all three adherence scores were put into one model together, so they competed with each other rather than each getting its own flattering analysis, only the anti-inflammatory score survived. Each additional point on it was associated with 17% lower odds of reporting a memory complaint (odds ratio 0.83, 95% confidence interval 0.74 to 0.93). The standard Mediterranean score showed nothing (0.94, 0.82 to 1.08) and neither did the MIND score (0.97, 0.79 to 1.19) — and MIND is the pattern explicitly built to delay neurodegeneration, which makes its flat result the most quietly interesting line in the paper. On the food level, in simple one-food-at-a-time comparisons with nothing else taken into account, more greens, more non-green vegetables, more legumes and more nuts went with fewer complaints; more dairy, refined grains, sugar, pastries and cakes went the other way."
       },
       {
         "t": "h",
@@ -49,11 +49,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The figure that will travel is a different one. Women who were not adhering to the anti-inflammatory pattern had roughly ten times the odds of a memory complaint compared with those who were — odds ratio 10.6, p = 0.0002. That sounds enormous, and the confidence interval tells you how little of it is pinned down: 2.4 to 47.9. The data are compatible with a difference of about two and a half times and with one of nearly fifty. The reason is simple arithmetic. Only 4.31% of the 348 women hit high adherence to the anti-inflammatory pattern — fifteen women — and 13.33% of those fifteen reported a memory complaint. Two women. A ratio built on two women in one arm is a signal that something may be there, not a measurement of how big it is. The direction of the finding is the usable part; the magnitude is not."
+        "text": "The figure that will travel is a different one. Women who were not adhering to the anti-inflammatory pattern had roughly ten times the odds of a memory complaint compared with those who were — odds ratio 10.6, p = 0.0002. That is a raw two-group comparison, with nothing else, not even age, taken into account. It sounds enormous, and the confidence interval tells you how little of it is pinned down: 2.4 to 47.9. The data are compatible with a difference of about two and a half times and with one of nearly fifty. The reason is simple arithmetic. Only 4.31% of the 348 women hit high adherence to the anti-inflammatory pattern — fifteen women — and 13.33% of those fifteen reported a memory complaint. Two women. A ratio built on two women in one arm is a signal that something may be there, not a measurement of how big it is. The direction of the finding is the usable part; the magnitude is not."
       },
       {
         "t": "p",
-        "text": "There is a second limit that no sample size would fix. This is a cross-sectional study: diet and memory were recorded at the same moment, in the same ninety minutes. It cannot tell you which came first. Women who are already noticing their memory slipping may eat differently — more convenience food, less cooking from scratch — and that would produce exactly this pattern with the causation running backwards. The authors say as much, and add that they relied on self-reported food questionnaires, did not control for season, and took no blood samples, so there are no inflammatory markers or glucose readings in the dataset to check the mechanism against."
+        "text": "There is a second limit that no sample size would fix. This is a cross-sectional study: diet and memory were recorded at the same moment, in the same single interview. It cannot tell you which came first. Women who are already noticing their memory slipping may eat differently — more convenience food, less cooking from scratch — and that would produce exactly this pattern with the causation running backwards. The authors say as much, and add that they relied on self-reported food questionnaires, did not control for season, and took no blood samples, so there are no inflammatory markers or glucose readings in the dataset to check the mechanism against."
       },
       {
         "t": "h",
@@ -61,11 +61,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "When the researchers sorted the whole group into four bands by dietary inflammatory index, the women in the most anti-inflammatory band had less depression, fewer memory complaints and less diabetes than those in the most inflammatory band. That is the same snapshot problem again, and diabetes is at least as plausible a cause of an inflammatory diet score as a consequence of one. But it is worth noting for a practical reason rather than an evidential one: the foods doing the work here — legumes, leafy and non-leafy vegetables, nuts, wholegrains in place of refined ones, less sugar — are already the foundation of standard type 2 diabetes eating advice. Nobody managing blood sugar would be asked to change course to follow this. The overlap is nearly total, which is the most useful thing about the finding and also the reason it is hard to credit the diet specifically."
+        "text": "When the researchers sorted the whole group into three bands by dietary inflammatory index — the lowest quarter, the middle half and the highest quarter — the women in the most anti-inflammatory band had fewer memory complaints (48% against 62%) and less diabetes (6% against 13%) than those in the most inflammatory band. The paper also claims less depression, but its own table shows the opposite: 28% of the most anti-inflammatory band reported depression, against 12% of the most inflammatory. That is the same snapshot problem again, and diabetes is at least as plausible a cause of an inflammatory diet score as a consequence of one. But it is worth noting for a practical reason rather than an evidential one: the foods doing the work here — legumes, leafy and non-leafy vegetables, nuts, wholegrains in place of refined ones, less sugar — are already the foundation of standard type 2 diabetes eating advice. Nobody managing blood sugar would be asked to change course to follow this. The overlap is nearly total, which is the most useful thing about the finding and also the reason it is hard to credit the diet specifically."
       },
       {
         "t": "p",
-        "text": "What the paper does not support is the step from here to a supplement, a protocol or a reason to drop dairy. One cross-sectional study of 348 Spanish women, most of them in their seventies, with fifteen women in the group that drives the headline, is a reason to keep eating the vegetables and the beans. It is not a reason to do anything you were not already being advised to do, and the authors' own conclusion is that longitudinal studies are needed before anyone claims this diet protects against dementia."
+        "text": "What the paper does not support is the step from here to a supplement, a protocol or a reason to drop dairy. One cross-sectional study of 348 Spanish women with an average age just over 70, with fifteen women in the group that drives the headline, is a reason to keep eating the vegetables and the beans. It is not a reason to do anything you were not already being advised to do, and the authors' own conclusion is that longitudinal studies are needed before anyone claims this diet protects against dementia."
       },
       {
         "t": "h",
@@ -82,7 +82,7 @@ export default {
           },
           {
             "claim": "The much-quoted ten-fold figure rests on fifteen women and has a confidence interval spanning from roughly two and a half times to nearly fifty.",
-            "detail": "Non-adherence to the AnMED pattern versus high adherence: odds ratio 10.627, 95% CI 2.3590 to 47.8723, p = 0.0002. High adherence (9 or more points out of 14) was reached by 4.31% of the 348 women — fifteen women — of whom 13.33% reported a subjective memory complaint and none showed measurable subtle cognitive decline. Protective food components: greens, non-green vegetables and legumes (p < 0.005); risk components: dairy products, refined grains, sugar, pastries and cakes (p < 0.005).",
+            "detail": "Non-adherence to the AnMED pattern versus high adherence: odds ratio 10.627, 95% CI 2.3590 to 47.8723, p = 0.0002. High adherence (9 or more points out of 14) was reached by 4.31% of the 348 women — fifteen women — of whom 13.33% reported a subjective memory complaint and none showed measurable subtle cognitive decline. Single-food chi-square comparisons, unadjusted (Table 1). Protective: non-green vegetables (p = 0.0008), greens (p = 0.0087), legumes (p = 0.0168), nuts (p = 0.0342); risk: sugar, pastries and cakes (p < 0.0001), refined grains (p = 0.0180), dairy products (p = 0.0348). The abstract's “p < 0.005” for all of these does not match the table. The 10.627 odds ratio is likewise an unadjusted two-group comparison.",
             "cite": "Lopez de Coca T et al. · BMC Complementary Medicine and Therapies · 22 November 2025 · Cross-sectional study",
             "url": "https://doi.org/10.1186/s12906-025-05195-0"
           },
@@ -118,7 +118,7 @@ export default {
       },
       {
         "q": "Why did the MIND diet show nothing in this study?",
-        "a": "The MIND diet was designed specifically to delay cognitive decline, so a flat result is surprising at first glance. Two things are worth holding together. In this analysis the three diet scores competed against each other, and the anti-inflammatory one was the stricter pattern — it cuts dairy, refined grains, sugar and alcohol harder — so it may simply have absorbed the signal. And separately, the one large randomised trial of the MIND diet for cognition, 604 older adults over three years, found no significant benefit over a control diet either. Two very different studies landing in the same place is at least worth noticing."
+        "a": "The MIND diet was designed specifically to delay cognitive decline, so a flat result is surprising at first glance. Two things are worth holding together. In this analysis the three diet scores competed against each other, and the anti-inflammatory one was the stricter pattern — it cuts dairy, refined grains, sugar and alcohol harder — so it may simply have absorbed the signal. And separately, the largest randomised trial of the MIND diet for cognition, 604 older adults over three years, found no significant benefit over a control diet either. Two very different studies landing in the same place is at least worth noticing."
       }
     ]
   },
@@ -127,14 +127,14 @@ export default {
     "imageAlt": "Широкі металеві миски з арахісом, бобовими та крупами на ринковому прилавку в теплому пообідньому світлі.",
     "title": "Протизапальна середземноморська дієта, а не класична, пов’язана з меншою кількістю скарг на пам’ять у жінок після 50",
     "seoTitle": "Протизапальна дієта і пам’ять у жінок після 50",
-    "metaDesc": "Іспанське дослідження за участю 348 жінок порівняло три середземноморські моделі харчування зі скаргами на пам’ять. Зв’язок показала лише найсуворіша, протизапальна — і тримається він на п’ятнадцяти жінках.",
+    "metaDesc": "Іспанське дослідження за участю 348 жінок порівняло три середземноморські моделі харчування зі скаргами на пам’ять. Зв’язок показала лише найсуворіша, протизапальна — і її найгучніша цифра тримається на п’ятнадцяти жінках.",
     "excerpt": "Дослідження за участю 348 іспанок зіставило класичну середземноморську дієту, MIND-дієту та суворішу протизапальну версію — і зв’язок із меншою кількістю скарг на пам’ять показала лише третя. Найцікавіше тут — саме це порівняння. Найкрихкіше — цифра із заголовків.",
     "meta": "2 листопада 2026 · 7 хв читання",
     "lead": "Три середземноморські моделі харчування потрапили в один аналіз за участю 348 жінок після 50. Дві з них — класична середземноморська та MIND-дієта, тобто та, яку створювали саме для мозку, — не показали жодного зв’язку зі скаргами на пам’ять. Він проявився лише в найсуворішої, протизапальної версії — і наскільки цей зв’язок сильний, відомо значно менш точно, ніж обіцяє цифра, яку до нього додають.",
     "blocks": [
       {
         "t": "p",
-        "text": "Дослідження опублікували в BMC Complementary Medicine and Therapies 22 листопада 2025 року. Його провела команда Університету Кардинала Ерери — CEU у Валенсії. Жінок набирали через аптеки та медичні центри Валенсійської спільноти з січня до травня 2024 року, і кожна проходила дев’яностохвилинне обстеження: харчування, пам’ять, загальний стан здоров’я. Із 419 набраних жінок до аналізу увійшли 348: усі віком від 50 років, середній вік — 70,5 року, середній індекс маси тіла — 27."
+        "text": "Дослідження опублікували в BMC Complementary Medicine and Therapies 22 листопада 2025 року. Його провела команда Університету Кардинала Ерери — CEU у Валенсії. Жінок набирали через аптеки та медичні центри Валенсійської спільноти з січня до травня 2024 року, і кожна проходила одну особисту співбесіду — близько години за розділом про методи, дев’яносто хвилин за розділом про сильні сторони тієї ж статті: харчування, пам’ять, загальний стан здоров’я. Із 419 набраних жінок до аналізу увійшли 348: усі віком від 50 років, середній вік — 70,5 року, середній індекс маси тіла — 27."
       },
       {
         "t": "p",
@@ -150,7 +150,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Коли всі три показники дотримання ввели в одну модель разом, щоб вони конкурували між собою, а не кожен отримував власний вигідний аналіз, вистояв лише протизапальний. Кожен додатковий бал за цією шкалою був пов’язаний зі зниженням шансів поскаржитися на пам’ять на 17% (відношення шансів 0,83; 95% довірчий інтервал 0,74–0,93). Класична середземноморська шкала не показала нічого (0,94; 0,82–1,08), MIND-шкала — теж (0,97; 0,79–1,19). А MIND — це модель, створена саме для того, щоб відтермінувати нейродегенерацію, тож її нульовий результат — непомітно найцікавіший рядок у статті. На рівні окремих продуктів: більше зелені, незелених овочів і бобових супроводжувалося меншою кількістю скарг; більше молочних продуктів, рафінованих злаків, цукру, випічки й тістечок — навпаки."
+        "text": "Коли всі три показники дотримання ввели в одну модель разом, щоб вони конкурували між собою, а не кожен отримував власний вигідний аналіз, вистояв лише протизапальний. Кожен додатковий бал за цією шкалою був пов’язаний зі зниженням шансів поскаржитися на пам’ять на 17% (відношення шансів 0,83; 95% довірчий інтервал 0,74–0,93). Класична середземноморська шкала не показала нічого (0,94; 0,82–1,08), MIND-шкала — теж (0,97; 0,79–1,19). А MIND — це модель, створена саме для того, щоб відтермінувати нейродегенерацію, тож її нульовий результат — непомітно найцікавіший рядок у статті. На рівні окремих продуктів — у простих порівняннях по одному продукту, без урахування жодних інших чинників: більше зелені, незелених овочів, бобових і горіхів супроводжувалося меншою кількістю скарг; більше молочних продуктів, рафінованих злаків, цукру, випічки й тістечок — навпаки."
       },
       {
         "t": "h",
@@ -158,11 +158,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "А цитуватимуть зовсім іншу цифру. У жінок, які не дотримувалися протизапальної моделі, шанси скаржитися на пам’ять були приблизно вдесятеро вищі, ніж у тих, хто дотримувався: відношення шансів 10,6, p = 0,0002. Звучить величезно — а довірчий інтервал показує, як мало тут насправді встановлено: від 2,4 до 47,9. Дані однаково сумісні і з різницею у два з половиною рази, і з різницею майже в п’ятдесят. Причина — звичайна арифметика. Високого дотримання протизапальної моделі досягли лише 4,31% із 348 жінок — п’ятнадцять жінок, — і 13,33% із цих п’ятнадцяти повідомили про скарги на пам’ять. Тобто дві жінки. Показник, побудований на двох жінках в одній групі, — це сигнал, що там, можливо, щось є, а не вимірювання того, наскільки воно велике. Користуватися можна напрямком зв’язку, але не його величиною."
+        "text": "А цитуватимуть зовсім іншу цифру. У жінок, які не дотримувалися протизапальної моделі, шанси скаржитися на пам’ять були приблизно вдесятеро вищі, ніж у тих, хто дотримувався: відношення шансів 10,6, p = 0,0002. Це просте порівняння двох груп, без урахування будь-яких інших чинників, навіть віку. Звучить величезно — а довірчий інтервал показує, як мало тут насправді встановлено: від 2,4 до 47,9. Дані однаково сумісні і з різницею у два з половиною рази, і з різницею майже в п’ятдесят. Причина — звичайна арифметика. Високого дотримання протизапальної моделі досягли лише 4,31% із 348 жінок — п’ятнадцять жінок, — і 13,33% із цих п’ятнадцяти повідомили про скарги на пам’ять. Тобто дві жінки. Показник, побудований на двох жінках в одній групі, — це сигнал, що там, можливо, щось є, а не вимірювання того, наскільки воно велике. Користуватися можна напрямком зв’язку, але не його величиною."
       },
       {
         "t": "p",
-        "text": "Є й друге обмеження, якого не виправив би жоден обсяг вибірки. Це перехресне дослідження: харчування й пам’ять зафіксували в один момент, за ті самі дев’яносто хвилин. Воно не може сказати, що було першим. Жінки, які вже помічають, що пам’ять слабшає, можуть харчуватися інакше — більше готових страв, рідше готувати самим, — і це дало б точно таку саму картину, але причинно-наслідковий зв’язок ішов би у зворотному напрямку. Автори про це пишуть прямо і додають: харчування оцінювали зі слів самих учасниць, сезонність не враховували, аналізів крові не робили, тож у даних немає ні маркерів запалення, ні показників глюкози, якими можна було б перевірити механізм."
+        "text": "Є й друге обмеження, якого не виправив би жоден обсяг вибірки. Це перехресне дослідження: харчування й пам’ять зафіксували в один момент, за одну й ту саму співбесіду. Воно не може сказати, що було першим. Жінки, які вже помічають, що пам’ять слабшає, можуть харчуватися інакше — більше готових страв, рідше готувати самим, — і це дало б точно таку саму картину, але причинно-наслідковий зв’язок ішов би у зворотному напрямку. Автори про це пишуть прямо і додають: харчування оцінювали зі слів самих учасниць, сезонність не враховували, аналізів крові не робили, тож у даних немає ні маркерів запалення, ні показників глюкози, якими можна було б перевірити механізм."
       },
       {
         "t": "h",
@@ -170,11 +170,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Коли дослідники розділили всю групу на чотири рівні частини за дієтичним запальним індексом, у жінок із найбільш протизапальної чверті було менше депресії, менше скарг на пам’ять і менше діабету, ніж у найбільш «запальній». Це та сама проблема одномоментного знімка — і діабет щонайменше так само правдоподібно може бути причиною запального раціону, як і його наслідком. Але відзначити це варто з практичних міркувань, а не як доказ: продукти, які тут працюють, — бобові, листкові й нелисткові овочі, горіхи, цільні злаки замість рафінованих, менше цукру — це вже основа стандартних рекомендацій з харчування при діабеті 2 типу. Нікому, хто контролює цукор у крові, не довелося б через це щось міняти. Збіг майже повний — і це найкорисніше в цьому результаті, а водночас і причина, чому важко приписати заслугу саме дієті."
+        "text": "Коли дослідники розділили всю групу на три частини за дієтичним запальним індексом — нижню чверть, середню половину та верхню чверть, — у жінок із найбільш протизапальної групи було менше скарг на пам’ять (48% проти 62%) і менше діабету (6% проти 13%), ніж у найбільш «запальній». Стаття стверджує, що й депресії там було менше, але її власна таблиця показує протилежне: про депресію повідомили 28% жінок у найбільш протизапальній групі проти 12% у найбільш «запальній». Це та сама проблема одномоментного знімка — і діабет щонайменше так само правдоподібно може бути причиною запального раціону, як і його наслідком. Але відзначити це варто з практичних міркувань, а не як доказ: продукти, які тут працюють, — бобові, листкові й нелисткові овочі, горіхи, цільні злаки замість рафінованих, менше цукру — це вже основа стандартних рекомендацій з харчування при діабеті 2 типу. Нікому, хто контролює цукор у крові, не довелося б через це щось міняти. Збіг майже повний — і це найкорисніше в цьому результаті, а водночас і причина, чому важко приписати заслугу саме дієті."
       },
       {
         "t": "p",
-        "text": "Чого стаття точно не підтверджує — так це переходу звідси до добавки, протоколу чи приводу відмовитися від молочного. Одне перехресне дослідження 348 іспанських жінок, здебільшого віком за сімдесят, із п’ятнадцятьма жінками в групі, на якій тримається заголовок, — це привід і далі їсти овочі та бобові. Це не привід робити щось, чого вам і так не радили. Висновок самих авторів: щоб стверджувати, що така дієта захищає від деменції, потрібні тривалі (лонгітюдні) дослідження."
+        "text": "Чого стаття точно не підтверджує — так це переходу звідси до добавки, протоколу чи приводу відмовитися від молочного. Одне перехресне дослідження 348 іспанських жінок із середнім віком трохи понад 70 років, із п’ятнадцятьма жінками в групі, на якій тримається заголовок, — це привід і далі їсти овочі та бобові. Це не привід робити щось, чого вам і так не радили. Висновок самих авторів: щоб стверджувати, що така дієта захищає від деменції, потрібні тривалі (лонгітюдні) дослідження."
       },
       {
         "t": "h",
@@ -191,7 +191,7 @@ export default {
           },
           {
             "claim": "Десятикратна цифра, яку найбільше цитують, тримається на п’ятнадцяти жінках, а її довірчий інтервал простягається приблизно від двох з половиною до майже п’ятдесяти разів.",
-            "detail": "Недотримання моделі AnMED проти високого дотримання: відношення шансів 10,627; 95% ДІ 2,3590–47,8723; p = 0,0002. Високого дотримання (9 і більше балів із 14) досягли 4,31% із 348 жінок — п’ятнадцять жінок, — із них 13,33% повідомили про суб’єктивні скарги на пам’ять, а вимірюваного легкого когнітивного зниження не було в жодної. Захисні компоненти: зелень, незелені овочі та бобові (p < 0,005); компоненти ризику: молочні продукти, рафіновані злаки, цукор, випічка й тістечка (p < 0,005).",
+            "detail": "Недотримання моделі AnMED проти високого дотримання: відношення шансів 10,627; 95% ДІ 2,3590–47,8723; p = 0,0002. Високого дотримання (9 і більше балів із 14) досягли 4,31% із 348 жінок — п’ятнадцять жінок, — із них 13,33% повідомили про суб’єктивні скарги на пам’ять, а вимірюваного легкого когнітивного зниження не було в жодної. Порівняння окремих продуктів за критерієм хі-квадрат, без поправок (таблиця 1). Захисні: незелені овочі (p = 0,0008), зелень (p = 0,0087), бобові (p = 0,0168), горіхи (p = 0,0342); ризикові: цукор, випічка й тістечка (p < 0,0001), рафіновані злаки (p = 0,0180), молочні продукти (p = 0,0348). Зазначене в анотації «p < 0,005» для всіх них таблиці не відповідає. Відношення шансів 10,627 — так само просте порівняння двох груп без поправок.",
             "cite": "Lopez de Coca T та ін. · BMC Complementary Medicine and Therapies · 22 листопада 2025 · Перехресне дослідження",
             "url": "https://doi.org/10.1186/s12906-025-05195-0"
           },
@@ -227,7 +227,7 @@ export default {
       },
       {
         "q": "Чому MIND-дієта в цьому дослідженні не показала нічого?",
-        "a": "MIND-дієту створювали саме для того, щоб відтермінувати когнітивне зниження, тож нульовий результат спершу дивує. Тут варто врахувати дві речі. У цьому аналізі три шкали конкурували між собою, а протизапальна була суворішою — вона сильніше обмежує молочне, рафіновані злаки, цукор та алкоголь, — тож могла просто «забрати» сигнал. І окремо: єдине велике рандомізоване дослідження MIND-дієти для когнітивних функцій — 604 людини старшого віку протягом трьох років — також не виявило значущої переваги над контрольною дієтою. Те, що два дуже різні дослідження сходяться в одному, уже варте уваги."
+        "a": "MIND-дієту створювали саме для того, щоб відтермінувати когнітивне зниження, тож нульовий результат спершу дивує. Тут варто врахувати дві речі. У цьому аналізі три шкали конкурували між собою, а протизапальна була суворішою — вона сильніше обмежує молочне, рафіновані злаки, цукор та алкоголь, — тож могла просто «забрати» сигнал. І окремо: найбільше рандомізоване дослідження MIND-дієти для когнітивних функцій — 604 людини старшого віку протягом трьох років — також не виявило значущої переваги над контрольною дієтою. Те, що два дуже різні дослідження сходяться в одному, уже варте уваги."
       }
     ]
   }
