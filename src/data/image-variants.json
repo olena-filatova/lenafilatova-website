@@ -2189,6 +2189,24 @@
       ]
     ]
   },
+  "/images/type-2-diabetes-remission-young-adults.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/type-2-diabetes-remission-young-adults-480.avif"
+      ],
+      [
+        800,
+        "/images/v/type-2-diabetes-remission-young-adults-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/type-2-diabetes-remission-young-adults-1200.avif"
+      ]
+    ]
+  },
   "/images/type-2-diabetes-research-meal-order.jpg": {
     "w": 1200,
     "h": 676,
