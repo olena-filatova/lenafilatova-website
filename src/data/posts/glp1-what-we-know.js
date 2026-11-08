@@ -4,6 +4,7 @@ export const seq = 1;
 export default {
   "slug": "glp1-what-we-know",
   "date": "2026-08-21",
+  "featured": true,
   "image": "/images/glp1-what-we-know.jpg",
   "cats": [
     "glp1",

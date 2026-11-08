@@ -1,6 +1,7 @@
 export default {
   "slug": "ferritin-hair-loss-after-40",
   "date": "2026-11-05",
+  "featured": true,
   "image": "/images/ferritin-hair-loss-after-40.jpg",
   "cats": [
     "skin",
