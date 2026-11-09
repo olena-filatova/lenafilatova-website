@@ -1,5 +1,5 @@
 # post--perimenopause-weight-myths
 
-- Last checked: 2026-10-04
-- PR: (opened by this run — see branch `claude/ua-proofread-20261004-0104`)
-- Notes: Fixed apostrophe inconsistency (25 instances of `ʼ`/`'` standardized to the site's `’`), one russianism (`указував` → `вказував`), a non-standard word (`защипує` in imageAlt), an omission vs. the EN text (missing "thighs" item, missing "cortisol" in metaDesc), and a couple of clumsy English-calque sentences (Myth 1 intro, Myth 4 opening, "no framework to understand why", "reverses visceral fat").
+- **Last checked:** 2026-11-09 (second pass; previous 2026-10-04)
+- **PR:** (this PR)
+- **Notes:** 41 edits, all style/calque/grammar — no factual changes. Calques rewritten («це залишило мене самій з’ясовувати», «Якщо вже на те», «у спосіб, що спричиняє», «Моїм інстинктом… було», «Зміна, що дала справжню різницю», «це розмова, яку варто мати», «не порушується аж до значно пізнішого часу», «продавлювання крізь нього», «непочутою»). Grammar: list after colon put in locative («на стегнах, сідницях…»), «їх скорочення» → «їхнє», repeated «просто» and possessive «Мій» removed, «при перименопаузі» → «у перименопаузі» ×3. metaDesc realigned with EN ("what actually helps"); heading «Що каже дослідження» → «Що кажуть дослідження» (site-wide form); «Крос-секційне» → «Поперечне», «інтервенції» → «втручання». No numbers, URLs or `en` text changed.
