@@ -1,5 +1,5 @@
 # recipe--cottage-cheese-poppy-bake
 
-- Last checked: 2026-10-04
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/317
-- Notes: 4 fixes — title made more accurate (запіканка instead of generic десерт, matching EN "Bake"), `why` corrected to say "рафінованого цукру" (refined sugar, per EN) and restored the dropped "steady blood sugar" clause, a wrong word form in method step 2 (рідко→рідка, adverb "rarely" mistakenly used for "runny"), and an awkward elliptical sentence in `note` rewritten more naturally.
+- Last checked: 2026-11-10
+- PR: (opened in this run — branch `claude/ua-proofread-20261110-0000`)
+- Notes: 11 fixes (2nd cycle). Meaning fix: «ванілін» (vanillin powder — 1 tsp is far too much) → «ванільний екстракт», matching EN "vanilla" and the rest of recipes.js. Also: "lifted out" / "approx." / "pour" / "press" restored from EN; «при 180°C» → «за температури 180°C»; «чим…тим» → «що…то»; clumsy `why` opening rewritten.
