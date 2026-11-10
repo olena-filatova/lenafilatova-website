@@ -18,8 +18,8 @@ export default {
     "imageAlt": "Fresh turmeric root, sliced pieces and a small heap of ground turmeric on a dark wooden board.",
     "title": "Curcumin and glutathione for menopausal skin: six studies, and what each one actually measured",
     "seoTitle": "Curcumin and Glutathione for Skin: What Six Trials Measured",
-    "metaDesc": "A 2026 review put curcumin and glutathione alongside collagen for oestrogen-deficient skin. Its own tables show six small studies — and only one of them measured skin ageing.",
-    "excerpt": "A review in Dermatology and Therapy grouped curcumin and glutathione with collagen as supplements for ageing skin after oestrogen falls. Read the tables rather than the summary and the picture changes: three curcumin studies, three glutathione studies, and only one of the six that measured wrinkles, firmness or hydration at all.",
+    "metaDesc": "A 2026 review put curcumin and glutathione alongside collagen for oestrogen-deficient skin. Its tables show six small studies — only one measured skin ageing.",
+    "excerpt": "A review grouped curcumin and glutathione with collagen for ageing skin. Its own tables show six small studies — and only one measured wrinkles, firmness or hydration.",
     "meta": "3 November 2026 · 8 min read",
     "lead": "Collagen has been tested in women's skin dozens of times. Curcumin and glutathione have not — and a review that puts all three in the same title makes them look more alike than they are. Here is what the six qualifying studies behind the two antioxidants actually set out to measure, and why the glutathione half is not really about ageing at all.",
     "blocks": [
@@ -192,8 +192,8 @@ export default {
     "imageAlt": "Свіжий корінь куркуми, нарізані скибочки та невелика гірка молотої куркуми на темній дерев’яній дощечці.",
     "title": "Куркумін і глутатіон для шкіри в менопаузі: шість досліджень і що кожне з них насправді вимірювало",
     "seoTitle": "Куркумін і глутатіон для шкіри: що виміряли 6 досліджень",
-    "metaDesc": "Огляд 2026 року поставив куркумін і глутатіон поряд із колагеном для шкіри з дефіцитом естрогену. Його ж таблиці показують шість малих досліджень — і лише одне з них вимірювало старіння шкіри.",
-    "excerpt": "Огляд у Dermatology and Therapy об’єднав куркумін і глутатіон із колагеном як добавки для старіння шкіри після падіння естрогену. Якщо читати таблиці, а не резюме, картина змінюється: три дослідження куркуміну, три — глутатіону, і лише одне з шести взагалі вимірювало зморшки, пружність чи зволоженість.",
+    "metaDesc": "Огляд 2026 року поставив куркумін і глутатіон поряд із колагеном. Його ж таблиці показують шість малих досліджень — і лише одне вимірювало старіння шкіри.",
+    "excerpt": "Огляд поставив куркумін і глутатіон поряд із колагеном для шкіри, яка старіє. Його ж таблиці показують шість малих досліджень — і лише одне вимірювало зморшки.",
     "meta": "3 листопада 2026 · 8 хв читання",
     "lead": "Колаген перевіряли на шкірі жінок десятки разів. Куркумін і глутатіон — ні, а огляд, який ставить усі три в один заголовок, робить їх схожішими, ніж вони є. Ось що саме збиралися виміряти шість досліджень, які стоять за двома антиоксидантами, і чому глутатіонова половина насправді не про старіння.",
     "blocks": [

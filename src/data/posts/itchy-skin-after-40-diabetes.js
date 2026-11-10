@@ -20,8 +20,8 @@ export default {
     "imageAlt": "A woman's hand resting on cream-coloured linen in low afternoon sunlight, fingers loosely curled, casting a long shadow.",
     "title": "Itching after 40 with diabetes: the link is real, but it is not where you were told to look",
     "seoTitle": "Itchy Skin After 40 With Diabetes: What Evidence Shows",
-    "metaDesc": "Diabetes and all-over itch are less connected than the internet claims. The itch that does track with glucose is somewhere much more specific — and it gets misdiagnosed twice over in midlife.",
-    "excerpt": "The oldest controlled study of itch in diabetes found that all-over itching was no more common than in people without it. What was significantly more common was one specific kind of itch — the one women in midlife are most likely to be told is just thrush.",
+    "metaDesc": "Diabetes and all-over itch are less connected than the internet claims. The itch that does track with glucose is far more specific — and misdiagnosed.",
+    "excerpt": "The oldest controlled study of itch in diabetes found all-over itching no more common than in people without it. One specific kind of itch was far more common.",
     "meta": "29 October 2026 · 8 min read",
     "lead": "Every list of diabetes warning signs has itchy skin on it, and every menopause article has it too. Put the two together and you would expect a mountain of evidence. There is a mountain of articles. The evidence underneath is smaller, stranger and more useful than the articles suggest — and the one itch with the clearest link to glucose is the one most likely to be treated as something else entirely.",
     "blocks": [
@@ -239,8 +239,8 @@ export default {
     "imageAlt": "Жіноча рука лежить на кремовому лляному полотні в низькому пообідньому світлі, пальці трохи зігнуті, від руки падає довга тінь.",
     "title": "Свербіж після 40 при діабеті: зв’язок справжній, але не там, де вам казали шукати",
     "seoTitle": "Свербіж шкіри після 40 при діабеті: що кажуть дані",
-    "metaDesc": "Діабет і свербіж усього тіла пов’язані слабше, ніж пише інтернет. Свербіж, який справді залежить від глюкози, має значно конкретнішу локалізацію — і в середньому віці з ним помиляються подвійно.",
-    "excerpt": "Найстаріше контрольоване дослідження свербежу при діабеті показало, що свербіж усього тіла трапляється не частіше, ніж у людей без діабету. Значно частішим був один конкретний різновид — саме той, який жінкам у середньому віці найчастіше називають «просто молочницею».",
+    "metaDesc": "Діабет і свербіж усього тіла пов’язані слабше, ніж пише інтернет. Свербіж, який справді залежить від глюкози, має значно конкретнішу локалізацію.",
+    "excerpt": "Найстаріше контрольоване дослідження свербежу при діабеті показало: свербіж усього тіла не частіший, ніж без діабету. Значно частішим був один конкретний різновид.",
     "meta": "29 жовтня 2026 · 8 хв читання",
     "lead": "Свербіж шкіри є в кожному переліку ознак діабету — і в кожній статті про менопаузу теж. Якщо скласти їх разом, можна очікувати гору доказів. Гора є, але зі статей. Докази під ними менші, дивніші й корисніші, ніж ці статті обіцяють — а свербіж із найчіткішим зв’язком із глюкозою якраз найчастіше лікують як щось інше.",
     "blocks": [
