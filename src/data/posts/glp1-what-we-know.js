@@ -154,7 +154,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Two findings speak to this directly, and both come with a caution. Postmenopausal women taking hormone therapy alongside tirzepatide [lost about 35% more weight](/blog/tirzepatide-hrt-weight-loss-menopause-2026/) than those on tirzepatide alone — −19.2% against −14.0% over twelve months. That is a striking number from a retrospective cohort study, which means it shows an association and cannot rule out that women who choose hormone therapy differ in other ways that also help with weight."
+        "text": "Two findings speak to this directly, and both come with a caution. Postmenopausal women taking hormone therapy alongside tirzepatide [lost about 35% more weight](/blog/tirzepatide-hrt-weight-loss-menopause-2026/) than those on tirzepatide alone — −19.2% against −14.0%, measured at each woman's last follow-up after at least a year on the drug. That is a striking number from a retrospective cohort study, which means it shows an association and cannot rule out that women who choose hormone therapy differ in other ways that also help with weight."
       },
       {
         "t": "p",
@@ -247,7 +247,7 @@ export default {
           },
           {
             "claim": "Adding hormone therapy to tirzepatide was associated with 35% more weight loss after menopause.",
-            "detail": "A retrospective cohort study of postmenopausal women on tirzepatide, comparing those also using menopausal hormone therapy with those not. Total bodyweight reduction was −19.2% against −14.0% over 12 months (p=0.0023). Observational: it shows an association and cannot establish cause.",
+            "detail": "A retrospective cohort study of postmenopausal women on tirzepatide, comparing those also using menopausal hormone therapy with those not. Total bodyweight reduction at last follow-up was −19.2% against −14.0% (p=0.0023); every woman had taken tirzepatide for at least 12 months. Observational: it shows an association and cannot establish cause.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · Retrospective cohort study, 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
           },
@@ -478,7 +478,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Два висновки стосуються цього напряму, і обидва — із застереженням. Жінки в постменопаузі, які приймали гормональну терапію разом із тирзепатидом, [втратили приблизно на 35% більше ваги](/ua/blog/tirzepatide-hrt-weight-loss-menopause-2026/), ніж ті, хто приймав лише тирзепатид: −19,2% проти −14,0% за дванадцять місяців. Це вражаюча цифра з ретроспективного когортного дослідження, тобто вона показує зв’язок і не може виключити, що жінки, які обирають гормональну терапію, відрізняються ще чимось, що теж допомагає з вагою."
+        "text": "Два висновки стосуються цього напряму, і обидва — із застереженням. Жінки в постменопаузі, які приймали гормональну терапію разом із тирзепатидом, [втратили приблизно на 35% більше ваги](/ua/blog/tirzepatide-hrt-weight-loss-menopause-2026/), ніж ті, хто приймав лише тирзепатид: −19,2% проти −14,0%, і вимірювали це на останньому візиті кожної жінки понад рік на препараті. Це вражаюча цифра з ретроспективного когортного дослідження, тобто вона показує зв’язок і не може виключити, що жінки, які обирають гормональну терапію, відрізняються ще чимось, що теж допомагає з вагою."
       },
       {
         "t": "p",
@@ -571,7 +571,7 @@ export default {
           },
           {
             "claim": "Додавання гормональної терапії до тирзепатиду пов’язане з на 35% більшою втратою ваги після менопаузи.",
-            "detail": "Ретроспективне когортне дослідження жінок у постменопаузі на тирзепатиді, яке порівнювало тих, хто додатково застосовував менопаузальну гормональну терапію, з тими, хто ні. Загальне зниження маси тіла становило −19,2% проти −14,0% за 12 місяців (p=0,0023). Спостережне: показує зв’язок і не може встановити причину.",
+            "detail": "Ретроспективне когортне дослідження жінок у постменопаузі на тирзепатиді, яке порівнювало тих, хто додатково застосовував менопаузальну гормональну терапію, з тими, хто ні. Загальне зниження маси тіла на останньому візиті становило −19,2% проти −14,0% (p=0,0023); усі жінки приймали тирзепатид щонайменше 12 місяців. Спостережне: показує зв’язок і не може встановити причину.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · Ретроспективне когортне дослідження, 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
           },
