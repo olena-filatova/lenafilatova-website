@@ -1,5 +1,5 @@
 # recipe--lemon-thyme-cookies
 
-- Last checked: 2026-10-04
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/317
-- Notes: No issues found. UA text (title, meta, why, nutrition, ingredients, method, note, imgAlt) is accurate, natural, and matches the EN version paragraph by paragraph. No Russianisms, calques, or case/punctuation errors spotted.
+- Last checked: 2026-11-10
+- PR: (opened in this run — branch `claude/ua-proofread-20261110-0000`)
+- Notes: 8 fixes (2nd cycle). `imgAlt` dropped the non-standard plural «печив» and restored "domed"; `why` replaced «виключно» (calque of «исключительно») with «лише» and restored "naturally" from EN; ingredients restored "(or to taste)" and «насіння льону»; method restored "until combined" / "each" and replaced the clumsy «до легкого золотистого краю»; `note` reworded to match EN's "keep portions to…" instruction.
