@@ -1,13 +1,5 @@
 # recipe--lime-almond-dessert
 
-Last checked: 2026-10-05
-PR: (this PR)
-
-Notes: Fixed a puff-pastry-connotation word in the hero `imgAlt` ("листкового" →
-"шаруватого"), a site-wide terminology mismatch for "peanut butter" ("арахісового
-масла" → "арахісової пасти", matching the term already used in
-`cottage-cheese-poppy-bake`), an anglicism in the method ("Топінг:" → "Верхній
-шар:", also matching this recipe's own step 7 wording), and a numeral-case
-error on "2½ лайми" → "2½ лайма" (a fractional count takes genitive singular,
-confirmed by `almond-pecan-cookies`' "½ лайма"). No change to EN, numbers, or
-structure.
+- **Last checked:** 2026-11-11 (second pass; previous 2026-10-05)
+- **PR:** (this PR)
+- **Notes:** 11 fixes. Grammar: `imgAlt` participle now agrees with «крихтою» (it is the crumb, not the middle, that is scattered with zest). Meaning restored from EN: "sea salt", "Blend", "Greek yoghurt", "crumble trimmings into the topping", "best served the next day". Calques/fragments rewritten in `why` («…— низьковуглеводна, багата клітковиною основа», «Truvia без цукру») and method («Змішайте сухі:», «до пластичності», «найсмачніший наступного дня»). Consistency: «мигдально-» → «мигдалево-» to match «мигдалевий» elsewhere. No change to EN, numbers or structure.
