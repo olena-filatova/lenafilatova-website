@@ -1,5 +1,5 @@
 # UA proofread: post--omega-3-weight-loss-gut-microbiome
 
-- Last checked: 2026-10-31 (second cycle; previously 2026-09-29)
-- PR: (this PR)
-- Notes: Solid translation. 24 fixes: 17 calques/clumsy literal translation («кишківник іншої форми», «баланс того, хто там присутній», «яким бактеріям добре росте», «Що дослідження заслуговує», truncated seoTitle «пілот», etc.), 3 meaning restorations against EN (excerpt had dropped «midlife»; lead had dropped «adding»; gendered «дієтологиня» for a neutral «dietitian»), 2 terminology («короткі жирні кислоти» → «коротколанцюгові», matching the rest of the site), 1 grammar (subject–verb agreement «Кефір … перевершили» → «перевершив», now matching the linked post's UA title), 1 consistency (links heading «Далі почитати» → «Що почитати далі»). Numbers, doses, P-values, URLs, slugs and the `en` object untouched (verified by script).
+- Last checked: 2026-11-12 (third cycle; previously 2026-10-31, 2026-09-29)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/547
+- Notes: Already solid, so this pass was about style. 9 fixes: 6 calques/clumsy phrasing (FAQ «Жири не зникають у кров… які бактерії там добре ростуть», «це спосіб, у який наука формулює гіпотезу», «із незначущою тенденцією до більшої частки», «ні в кого від початку до шести місяців», «лишилися на місці», «і те, і те»), 1 tautology («покращує маркери краще»), 1 word choice («просто в кишківнику» → «прямо»), 1 meaning restoration against EN («across the group» had been dropped). No Russianisms, surzhyk or untranslated English found. Numbers, doses, P-values, URLs, slugs and the `en` object untouched (verified by script).
