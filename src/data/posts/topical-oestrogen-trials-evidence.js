@@ -18,8 +18,8 @@ export default {
     "imageAlt": "A hand holding a small glass dropper bottle above an open book.",
     "title": "The trials behind oestrogen skincare are small, old, and mostly have no placebo",
     "seoTitle": "Topical Oestrogen for Skin: What the Trials Show",
-    "metaDesc": "A 2026 review gathers the clinical evidence for topical oestrogen on menopausal skin. Read the trials underneath it and the picture is narrower than the summaries.",
-    "excerpt": "A July 2026 review pulls together the clinical evidence for topical oestrogen on ageing skin. The trials underneath it are small, decades old, and only one oestrogen trial tested a separate group of women on a plain cream — which did just as well on three of five measures.",
+    "metaDesc": "A 2026 review gathers the clinical evidence for topical oestrogen on menopausal skin. The trials underneath it are narrower than the summaries suggest.",
+    "excerpt": "A 2026 review gathers the evidence for oestrogen skincare. The trials are small and old, and the one with a plain-cream group saw it match on three of five measures.",
     "meta": "13 October 2026 · 6 min read",
     "lead": "“Topical oestrogen increases collagen and thickens skin” is now said flatly, as settled fact, in places that ought to know. It rests on roughly ten studies. They are worth reading rather than summarising, because what they measured — and what they compared it against — turns out to be the whole story.",
     "blocks": [
@@ -123,7 +123,7 @@ export default {
     "title": "Дослідження, на яких тримається «естрогеновий догляд», — малі, давні й здебільшого без плацебо",
     "seoTitle": "Місцевий естроген і шкіра: що кажуть дослідження",
     "metaDesc": "Огляд 2026 року зібрав клінічні докази щодо місцевого естрогену для шкіри в менопаузі. Але самі дослідження під ним показують вужчу картину, ніж їхні перекази.",
-    "excerpt": "Огляд, опублікований у липні 2026 року, зібрав клінічні докази щодо місцевого естрогену для старіння шкіри. Дослідження під ним малі, їм десятки років, і лише в одному естрогеновому дослідженні окрема група жінок отримувала звичайний крем — який спрацював так само добре за трьома показниками з п’яти.",
+    "excerpt": "Огляд 2026 року зібрав докази щодо естрогену для шкіри. Дослідження малі й давні, а в єдиному з групою звичайного крему той не відставав за трьома показниками з п’яти.",
     "meta": "13 жовтня 2026 · 6 хв читання",
     "lead": "«Місцевий естроген збільшує колаген і потовщує шкіру» — це вже кажуть упевнено, як усталений факт, і кажуть там, де мали б знати більше. За цим стоїть приблизно десять досліджень. Їх варто читати, а не переказувати, бо саме те, що в них вимірювали — і з чим порівнювали, — і є вся суть.",
     "blocks": [

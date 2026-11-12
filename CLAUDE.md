@@ -77,6 +77,41 @@ be re-added here (`src/data/posts/<slug>.js`, `src/data/recipes.js`).
 Each Claude session works on its own `claude/*` branch; changes land on `main`
 via squash-merged PRs. Deploys run automatically on merge.
 
+## Card summary and search description lengths
+
+Two fields have a target length, and nothing in the build enforces them, so
+they drift every time a post is written without this section in view. By
+November 2026, 99 of 124 posts were over target — almost all of them posts
+written *after* the trimming work of OPS-471 batches 3 and 4, which is the
+regression this section exists to stop.
+
+- **`excerpt`** — the summary under the card on `/blog/`. Target **120–170
+  characters**, measured per language. It is two lines on the card; anything
+  longer wraps to four and crowds the grid. Write it short in the first place
+  rather than leaving it to be trimmed later.
+- **`metaDesc`** — the Google search description. **160 characters or fewer**,
+  per language. Google truncates beyond that.
+
+Ukrainian runs roughly 10–15% longer than the same sentence in English, so a
+UA string written as a direct translation of a 165-character EN one will be
+over. Write the UA to its own budget.
+
+Check before opening a PR, from `Website/`:
+
+```bash
+npm run check-summaries
+```
+
+`scripts/check-summary-lengths.mjs` lists every post and language off target and
+exits 0; `npm run check-summaries:strict` exits 1 instead, for a hook or CI. It
+reads `src/data/posts/` off disk rather than importing `blog.js`, for the
+`import.meta.glob` reason above.
+
+Neither field may **add** a claim the article does not make. Three summaries
+found in batch 3 said more than their article did — "hormone balance" in a
+review that never discusses it, "had better outcomes" for a study that only
+observed women. Compress; never strengthen.
+
 ## Adding posts/recipes without causing merge conflicts
 
 **Posts no longer conflict.** Each one is its own file, `src/data/posts/<slug>.js`,
@@ -127,7 +162,7 @@ Until it gets the same treatment, for recipes:
 Before pushing a rebased content branch, verify:
 
 ```bash
-node -e "import('./src/data/blog.js').then(m=>{const s=m.POSTS.map(p=>p.slug);console.log('posts',s.length,'dupes',s.length-new Set(s).size)})"
+node -e "const fs=require('fs');const s=fs.readdirSync('src/data/posts').filter(f=>f.endsWith('.js')).map(f=>f.slice(0,-3));console.log('posts',s.length,'dupes',s.length-new Set(s).size)"  # NOT via blog.js — see import.meta.glob above
 git diff origin/main --stat   # a post = ONE new file under src/data/posts/
 ```
 
@@ -136,18 +171,49 @@ Post count and dates descending, zero duplicate slugs. Force-push with
 `git worktree` — the main clone usually has another branch checked out with
 uncommitted work.
 
-## Images are supplied by Lena — never generate one
+## Hero images — Claude sources them, from Unsplash
 
-**Every hero image on this site is sourced by Lena by hand.** Do not generate,
-fetch or invent one, and do not substitute a placeholder. When a post needs an
-image, the deliverable is a *brief*, filed as a comment on **OPS-315**:
+**Reversed on 24 September 2026, at Lena's request.** This section used to say
+every hero was sourced by Lena by hand and that Claude must never fetch one.
+That is no longer true, and the old rule should not be followed: she was doing
+it manually for every post and asked for it to stop. **Every post now ships
+with its hero photo in the same run that writes the post**, both languages,
+sourced by Claude from Unsplash. No API key is needed and no credit line goes
+on the page (the licence permits commercial use without attribution, and the
+site has never carried one). Do not file a photo brief on OPS-315 and do not
+ask her for a picture.
 
-- the exact filename, matching the post's `slug` (`/images/<slug>.jpg`)
-- format: **1200 × 675 JPEG, under ~200 KB** (page weight is already the site's
-  main performance problem — see OPS-295)
-- 2–3 stock-search phrases she can paste into Canva
-- an "avoid" note, written from *this* article's argument
-- draft alt text
+How:
+
+- Get the id from the **browser pane**, not `curl` — unsplash.com is bot-walled
+  and returns a challenge even with a browser user-agent. Open
+  `https://unsplash.com/s/photos/<subject>` and read the DOM for `photo-…` ids.
+  Skip any `plus.unsplash.com` id (those need a paid subscription).
+- Pull candidates small first and **look at each one** before choosing:
+  `curl -sL -A "Mozilla/5.0" -o /tmp/<n>.jpg "https://images.unsplash.com/photo-<id>?w=1200&h=675&fit=crop&q=70&fm=jpg"`.
+  Alt text is not a description you can trust — two candidates in one search
+  turned out to be a branded product shot and a real person's skin condition,
+  neither catchable from the alt text or from `file`.
+- Then fetch the chosen one to `public/images/<slug>.jpg`, matching the post's
+  `image` field, at `?w=1600&h=900&fit=crop&crop=entropy&q=80&fm=jpg`, and
+  check with `file` that it really is a 1600×900 JPEG — a 404 page saves
+  happily as a file.
+- One photo serves both languages. Write `imageAlt` in **both** `en` and `ua`:
+  one literal sentence about what is in the frame, no keyword stuffing.
+- Then run `npm run images` and commit the generated variants, and
+  `scripts/generate-image-dims.sh` in a clean worktree. Skipping the first is
+  not fatal (the post falls back to the plain JPEG) but costs the reader a much
+  larger download; skipping the second leaves the hero invisible.
+
+**Prefer photos with no identifiable faces.** The existing library leans on
+hands, objects, backs of heads, light and texture, and that is the right
+instinct: a stock face beside "women with type 2 diabetes" implies that person
+has the condition — untrue, and the one use the licence does not cover. No
+medical stock cliché (syringes on white, stethoscopes, head-clutching), and
+never imply the person endorses anything.
+
+**Scope:** lenafilatova.co.uk blog posts, EN and UA. BaristaCard articles have
+no image slot in their template and are excluded.
 
 **A missing hero no longer blocks the post.** It used to: `check-links` counted
 it as a hard failure, so a finished post could not merge until someone made the
@@ -165,14 +231,14 @@ not the deliverable.
 
 Two things that have gone wrong doing this, both worth avoiding:
 
-1. **Look at the actual JPEGs before writing a brief, not just their `imageAlt`
-   strings.** A brief for `glp1-what-we-know` asked for "a woman reading with a
+1. **Look at the actual JPEGs already on the site before choosing a new one,
+   not just their `imageAlt` strings.** A brief for `glp1-what-we-know` asked for "a woman reading with a
    laptop and a notebook" — which would have near-duplicated the existing hero on
    `menopause-cost-workplace-productivity`, already a woman at a laptop taking
    notes. Alt text is too short to expose composition. The house style is narrow —
    nearly every hero is either a naturalistic photo of a woman 40–60 doing the
    thing, or a muted still life of the relevant objects — so clashes are easy.
-2. **Scope an "avoid this imagery" note to the one article's argument.** A "no
+2. **Judge "avoid this imagery" against the one article's argument.** A "no
    injection pens" line written for the bone-loss post got carried into the GLP-1
    hub brief, where a pen was actually the most legible option available. Lena
    overrode it and was right to.

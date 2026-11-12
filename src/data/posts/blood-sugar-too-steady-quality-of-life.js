@@ -11,7 +11,7 @@ export default {
     "title": "Does keeping your blood sugar too steady cost you something? What the new CGM study actually found",
     "seoTitle": "Keeping Blood Sugar Too Steady: What the CGM Study Found",
     "metaDesc": "An EASD 2026 study tracked 400 adults' glucose and wellbeing for 14 days. More variability predicted a better next day — but so did time in range.",
-    "excerpt": "A German study presented at EASD found that days with wider glucose swings were followed by better-rated days. The headline stopped there. The same analysis found time in range mattered too — and it carried the larger of the two coefficients.",
+    "excerpt": "A German study at EASD found days with wider glucose swings were followed by better-rated days. The same analysis found time in range mattered more.",
     "meta": "4 October 2026 · 6 min read",
     "lead": "A study presented in Milan last week produced one of those findings that travels further than its own caveats. The version that reached most people was that keeping blood sugar too steady comes at a price. That is roughly half of what the analysis says, and it is not the half with the bigger number attached.",
     "blocks": [
@@ -118,7 +118,7 @@ export default {
     "title": "Чи має надто рівний цукор свою ціну? Що насправді показало нове дослідження з CGM",
     "seoTitle": "Надто рівний цукор: що показало дослідження з CGM",
     "metaDesc": "Дослідження EASD 2026: 400 дорослих, 14 днів CGM і щоденна оцінка самопочуття. Більші коливання віщували кращий наступний день — як і час у нормі.",
-    "excerpt": "Німецьке дослідження, представлене на EASD, показало: після днів із ширшими коливаннями глюкози люди оцінювали наступний день вище. Заголовки на цьому спинилися. Той самий аналіз показав, що час у нормі теж важив — і саме за ним більший із двох коефіцієнтів.",
+    "excerpt": "Німецьке дослідження на EASD: після днів із ширшими коливаннями глюкози люди оцінювали наступний день вище. Той самий аналіз показав, що час у нормі важив більше.",
     "meta": "4 жовтня 2026 · 6 хв читання",
     "lead": "Дослідження, представлене минулого тижня в Мілані, дало результат із тих, що розходяться далі за власні застереження. До більшості людей дійшла версія: тримати цукор надто рівним — це має свою ціну. Це приблизно половина того, що каже аналіз, і не та половина, за якою стоїть більше число.",
     "blocks": [

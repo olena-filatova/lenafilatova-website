@@ -12,6 +12,8 @@
     "preview": "astro preview",
     "check-links": "node scripts/check-links.mjs",
     "check-links:external": "node scripts/check-links.mjs --external",
+    "check-summaries": "node scripts/check-summary-lengths.mjs",
+    "check-summaries:strict": "node scripts/check-summary-lengths.mjs --strict",
     "images": "node scripts/build-images.mjs",
     "images:force": "node scripts/build-images.mjs --force"
   },

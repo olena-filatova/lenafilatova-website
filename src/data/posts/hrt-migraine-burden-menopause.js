@@ -16,8 +16,8 @@ export default {
     "imageAlt": "Low sun pushing through a sheer curtain into an otherwise darkened room.",
     "title": "HRT and migraine: slightly more attacks, and the three things the study couldn’t separate",
     "seoTitle": "HRT and Migraine: What the New Analysis Found",
-    "metaDesc": "A Menopause Society analysis of 23,702 women found HRT users reported 1.16 more migraine attacks a month. Why route, dose and regimen matter more than the headline.",
-    "excerpt": "Pooled data presented in San Diego found women on HRT reported slightly more migraine attacks — about one extra a month, with no more pain and no more painkillers. The more useful question is which HRT, at what dose, on what regimen.",
+    "metaDesc": "A Menopause Society analysis of 23,702 women found HRT users reported 1.16 more migraines a month. Why route, dose and regimen matter more than the headline.",
+    "excerpt": "Pooled data from San Diego found women on HRT reported about one extra migraine a month, with no more pain and no more painkillers. Route, dose and regimen matter more.",
     "meta": "31 October 2026 · 7 min read",
     "lead": "A headline saying hormone therapy makes migraine worse is doing a lot of work for a finding of roughly one extra attack a month. The number is real. What it cannot tell you is which hormone therapy, at what dose, or on what schedule — and that is where the useful evidence sits.",
     "blocks": [
@@ -136,7 +136,7 @@ export default {
     "title": "ЗГТ і мігрень: трохи більше нападів — і три речі, яких дослідження не змогло розділити",
     "seoTitle": "ЗГТ і мігрень: що насправді виявили",
     "metaDesc": "Аналіз даних 23 702 жінок показав: на ЗГТ було на 1,16 нападу мігрені більше на місяць. Чому шлях введення, доза і схема важливіші за заголовок.",
-    "excerpt": "Об’єднані дані, представлені в Сан-Дієґо, показали: жінки на ЗГТ повідомляли про трохи більше нападів мігрені — приблизно на один на місяць, без сильнішого болю і без додаткових знеболювальних. Набагато корисніше питання — яка саме ЗГТ, у якій дозі і за якою схемою.",
+    "excerpt": "Об’єднані дані з Сан-Дієґо: жінки на ЗГТ повідомляли приблизно про один додатковий напад мігрені на місяць, без сильнішого болю. Важливіші шлях введення, доза і схема.",
     "meta": "31 жовтня 2026 · 7 хв читання",
     "lead": "Заголовок про те, що гормональна терапія погіршує мігрень, надто багато обіцяє як для результату приблизно в один додатковий напад на місяць. Цифра справжня. Але вона нічого не каже про те, яка саме гормональна терапія, у якій дозі і за якою схемою — а саме там і містяться корисні докази.",
     "blocks": [

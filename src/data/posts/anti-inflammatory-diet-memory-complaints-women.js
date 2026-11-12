@@ -18,8 +18,8 @@ export default {
     "imageAlt": "Wide metal bowls of peanuts, pulses and grains stacked on a market stall in warm afternoon light.",
     "title": "An anti-inflammatory Mediterranean diet, not the standard one, tracked with fewer memory complaints in women over 50",
     "seoTitle": "Anti-Inflammatory Diet and Memory in Women Over 50",
-    "metaDesc": "A Spanish study of 348 women compared three Mediterranean eating patterns against self-reported memory problems. Only the strictest, anti-inflammatory version showed an association — and its headline figure rests on fifteen women.",
-    "excerpt": "A study of 348 Spanish women set the standard Mediterranean diet, the MIND diet and a stricter anti-inflammatory version against each other, and found that only the third was linked to fewer memory complaints. The comparison is the interesting part. The headline number is the fragile part.",
+    "metaDesc": "A Spanish study of 348 women compared three Mediterranean eating patterns against memory complaints. Only the anti-inflammatory one showed a link.",
+    "excerpt": "A study of 348 Spanish women compared the Mediterranean diet, the MIND diet and a stricter anti-inflammatory version. Only the third tracked with fewer memory complaints.",
     "meta": "2 November 2026 · 7 min read",
     "lead": "Three Mediterranean eating patterns went into the same analysis of 348 women over 50. Two of them — the standard Mediterranean diet and the MIND diet, the one actually designed for the brain — showed no link to memory complaints at all. Only the strictest anti-inflammatory version did, and the size of that link is much less certain than the number attached to it.",
     "blocks": [
@@ -127,8 +127,8 @@ export default {
     "imageAlt": "Широкі металеві миски з арахісом, бобовими та крупами на ринковому прилавку в теплому пообідньому світлі.",
     "title": "Протизапальна середземноморська дієта, а не класична, пов’язана з меншою кількістю скарг на пам’ять у жінок після 50",
     "seoTitle": "Протизапальна дієта і пам’ять у жінок після 50",
-    "metaDesc": "Іспанське дослідження за участю 348 жінок порівняло три середземноморські моделі харчування зі скаргами на пам’ять. Зв’язок показала лише найсуворіша, протизапальна — і її найгучніша цифра тримається на п’ятнадцяти жінках.",
-    "excerpt": "Дослідження за участю 348 іспанок зіставило класичну середземноморську дієту, MIND-дієту та суворішу протизапальну версію — і зв’язок із меншою кількістю скарг на пам’ять показала лише третя. Найцікавіше тут — саме це порівняння. Найкрихкіше — цифра із заголовків.",
+    "metaDesc": "Іспанське дослідження 348 жінок порівняло три середземноморські моделі харчування зі скаргами на пам’ять. Зв’язок показала лише найсуворіша, протизапальна.",
+    "excerpt": "Дослідження 348 іспанок порівняло середземноморську дієту, MIND і суворішу протизапальну версію. Менше скарг на пам’ять показала лише третя.",
     "meta": "2 листопада 2026 · 7 хв читання",
     "lead": "Три середземноморські моделі харчування потрапили в один аналіз за участю 348 жінок після 50. Дві з них — класична середземноморська та MIND-дієта, тобто та, яку створювали саме для мозку, — не показали жодного зв’язку зі скаргами на пам’ять. Він проявився лише в найсуворішої, протизапальної версії — і наскільки цей зв’язок сильний, відомо значно менш точно, ніж обіцяє цифра, яку до нього додають.",
     "blocks": [

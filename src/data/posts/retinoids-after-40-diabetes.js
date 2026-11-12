@@ -17,7 +17,7 @@ export default {
     "title": "Retinoids after 40: what changes if you also have diabetes",
     "seoTitle": "Retinoids After 40 With Diabetes: What Actually Changes",
     "metaDesc": "What retinoids do for ageing skin, and what diabetes changes about using them safely. Evidence-based, not medical advice.",
-    "excerpt": "Retinoids are the best-evidenced topical for ageing skin, and diabetes is not a reason to avoid them. What changes is where the caution sits — and the usual explanation for why turns out to rest on weaker evidence than you would expect.",
+    "excerpt": "Retinoids are the best-evidenced topical for ageing skin, and diabetes is no reason to avoid them. What changes is where caution sits — and why rests on weak evidence.",
     "meta": "25 August 2026 · 8 min read",
     "lead": "Retinoids remain the best-evidenced topical treatment for ageing skin, and having diabetes is not in itself a reason to avoid them. What changes is where the caution belongs: never on broken skin, off the lower legs and feet if you have any reduced sensation, and starting at the lowest strength rather than the strongest one you can buy.",
     "blocks": [
@@ -227,7 +227,7 @@ export default {
     "title": "Ретиноїди після 40: що змінюється, якщо у вас ще й діабет",
     "seoTitle": "Ретиноїди після 40 при діабеті: що змінюється",
     "metaDesc": "Що ретиноїди роблять зі шкірою, яка старіє, і що діабет змінює в тому, як їх безпечно застосовувати. На основі доказів, не медична порада.",
-    "excerpt": "Ретиноїди — місцевий засіб для шкіри, яка старіє, з найсильнішою доказовою базою, і діабет не є причиною від них відмовлятися. Змінюється те, де саме потрібна обережність, — а звичне пояснення, чому так, спирається на слабші докази, ніж можна було б очікувати.",
+    "excerpt": "Ретиноїди мають найсильнішу доказову базу для шкіри, яка старіє, і діабет — не причина від них відмовлятися. Змінюється лише те, де саме потрібна обережність.",
     "meta": "25 серпня 2026 · 8 хв читання",
     "lead": "Ретиноїди залишаються найкраще доведеним місцевим засобом для шкіри, яка старіє, і сам по собі діабет не є причиною їх уникати. Змінюється те, де має бути обережність: ніколи на пошкоджену шкіру, не на гомілки й стопи, якщо є зниження чутливості, і починати з найнижчої концентрації, а не з найсильнішої, яку можна купити.",
     "blocks": [

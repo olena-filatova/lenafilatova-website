@@ -17,7 +17,7 @@ export default {
     "title": "52,000 women, 12 years, no difference: the biggest reassurance yet on HRT and your heart",
     "seoTitle": "HRT and Heart Disease Risk: What the 12-Year Study Found",
     "metaDesc": "A study of 52,330 women followed for 12 years found no difference in heart attacks, strokes, clots or early death between HRT users and non-users.",
-    "excerpt": "An Israeli study of 52,330 women found no difference in heart attacks, strokes, blood clots or early death between those who started HRT and those who did not. It is the largest reassurance yet - and it is still a conference abstract, not a peer-reviewed paper.",
+    "excerpt": "An Israeli study of 52,330 women found no difference in heart attacks, strokes, clots or early death between HRT starters and non-starters. Still a conference abstract.",
     "meta": "7 November 2026 · 6 min read",
     "lead": "Last week brought the largest piece of reassurance yet about hormone therapy and the heart: 52,330 women, twelve years of follow-up, and no measurable difference in heart attacks, strokes, blood clots or early death between the women who started HRT and the women who did not. It is a genuinely useful finding, and it is worth knowing exactly what it is - a conference abstract that has not yet been peer-reviewed, built on health records rather than a randomised trial - and one piece of arithmetic in the coverage that does not add up.",
     "blocks": [
@@ -144,8 +144,8 @@ export default {
     "imageAlt": "Рука жінки тримає склянку води надворі, у яскравому денному світлі.",
     "title": "52 тисячі жінок, 12 років, жодної різниці: найвагоміше на сьогодні заспокоєння щодо ЗГТ і серця",
     "seoTitle": "ЗГТ і ризик для серця: що показали 12 років спостереження",
-    "metaDesc": "Дослідження 52 330 жінок із 12-річним спостереженням не виявило різниці в інфарктах, інсультах, тромбозах і ранній смерті між тими, хто приймав ЗГТ, і тими, хто ні.",
-    "excerpt": "Ізраїльське дослідження 52 330 жінок не виявило різниці в інфарктах, інсультах, тромбозах і ранній смерті між тими, хто почав ЗГТ, і тими, хто ні. Це найбільше заспокоєння на сьогодні — і водночас ще лише конференційні тези, а не рецензована стаття.",
+    "metaDesc": "Дослідження 52 330 жінок за 12 років не виявило різниці в інфарктах, інсультах, тромбозах і ранній смерті між тими, хто приймав ЗГТ, і тими, хто ні.",
+    "excerpt": "Ізраїльське дослідження 52 330 жінок не виявило різниці в інфарктах, інсультах, тромбозах і ранній смерті між тими, хто почав ЗГТ, і тими, хто ні. Це ще лише тези.",
     "meta": "7 листопада 2026 · 6 хв читання",
     "lead": "Минулого тижня з’явилося найбільше на сьогодні заспокоєння щодо гормональної терапії й серця: 52 330 жінок, дванадцять років спостереження і жодної вимірної різниці в інфарктах, інсультах, тромбозах або ранній смерті між тими, хто почав ЗГТ, і тими, хто ні. Це справді корисний результат — і варто точно знати, що це таке: конференційні тези, які ще не пройшли рецензування і спираються на дані медичних карток, а не на рандомізоване дослідження. А ще в новинах є одна цифра, яка не сходиться.",
     "blocks": [
