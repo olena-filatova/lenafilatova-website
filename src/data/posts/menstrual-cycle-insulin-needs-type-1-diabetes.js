@@ -11,7 +11,7 @@ export default {
     "title": "Your insulin needs shift across the month — and your pump may not keep up",
     "seoTitle": "Insulin Needs Shift Across the Menstrual Cycle in T1D",
     "metaDesc": "Two 2026 studies measured how insulin needs and time in range shift across the menstrual cycle in type 1 diabetes — and how little pumps compensate.",
-    "excerpt": "Insulin needs rise in the second half of the menstrual cycle — that much was already known. Two studies published this year put numbers on it in people using closed-loop pumps, and on how much the closed-loop pump does and doesn’t absorb.",
+    "excerpt": "Insulin needs rise in the second half of the cycle — that was known. Two studies this year put numbers on it in closed-loop pump users, and how little the pump absorbs.",
     "meta": "11 October 2026 · 6 min read",
     "lead": "That the second half of the cycle makes blood sugar harder to hold has been folk knowledge among women with type 1 diabetes for decades. Two studies published in 2026 have now measured it in people using automated insulin delivery — one in adults, one in teenagers — and the gap between the two results is the interesting part.",
     "blocks": [
@@ -109,7 +109,7 @@ export default {
     "title": "Потреба в інсуліні змінюється протягом місяця — і помпа за нею не встигає",
     "seoTitle": "Потреба в інсуліні змінюється за циклом при ЦД1",
     "metaDesc": "Два дослідження 2026 року виміряли, як потреба в інсуліні й час у діапазоні змінюються за менструальним циклом при ЦД1 — і як мало це компенсують помпи.",
-    "excerpt": "Що в другій половині циклу потреба в інсуліні зростає, жінки з діабетом 1 типу знали й без досліджень. Цього року два дослідження виміряли, наскільки, у людей на помпах із замкненим контуром — і скільки з цього встигає компенсувати помпа із замкненим контуром.",
+    "excerpt": "Що в другій половині циклу потреба в інсуліні зростає, було відомо. Два дослідження цього року виміряли, наскільки — і скільки компенсує помпа із замкненим контуром.",
     "meta": "11 жовтня 2026 · 6 хв читання",
     "lead": "Те, що в другій половині циклу цукор тримати важче, жінки з діабетом 1 типу переказують одна одній десятиліттями. Два дослідження 2026 року виміряли це в людей, які користуються автоматичною подачею інсуліну, — одне в дорослих, друге в підлітків, — і найцікавіше саме в тому, наскільки різні вийшли результати.",
     "blocks": [

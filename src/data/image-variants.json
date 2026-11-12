@@ -1797,6 +1797,24 @@
       ]
     ]
   },
+  "/images/perimenopause-or-thyroid-type-1-diabetes.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-or-thyroid-type-1-diabetes-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-or-thyroid-type-1-diabetes-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-or-thyroid-type-1-diabetes-1200.avif"
+      ]
+    ]
+  },
   "/images/perimenopause-skin-distinct-phase.jpg": {
     "w": 1600,
     "h": 900,

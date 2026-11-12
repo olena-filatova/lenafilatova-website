@@ -19,7 +19,7 @@ export default {
     "title": "LED face masks after 40: the glow is measurable, the wrinkle results are not",
     "seoTitle": "Do LED Face Masks Work After 40? What Trials Show",
     "metaDesc": "LED masks promise collagen and fewer wrinkles. What the trials measured, who funded them, and what women over 40 can realistically expect.",
-    "excerpt": "In an independent sham-controlled, double-blind trial of a red LED mask in women aged 45 to 60, blinded specialists could not tell the treated faces from the untreated ones. The trial's hardest measure of wrinkle depth was pre-registered and never reported. The biggest study in the field has no control group at all.",
+    "excerpt": "In a sham-controlled trial of a red LED mask in women 45 to 60, specialists could not tell treated faces from untreated. The field's biggest study has no control group.",
     "meta": "6 November 2026 · 7 min read",
     "lead": "An LED mask is the gift-season beauty buy of the moment, and the pitch is collagen. The trials behind it are small, short, and mostly measuring something softer than wrinkles — and in the one independent sham-controlled trial in women your age, the blinded specialists could not tell the treated faces apart from the rest.",
     "blocks": [
@@ -313,7 +313,7 @@ export default {
     "title": "LED-маски після 40: сяйво виміряти вдається, результат по зморшках — ні",
     "seoTitle": "Чи працюють LED-маски після 40? Що показують дослідження",
     "metaDesc": "LED-маски обіцяють колаген і менше зморшок. Що вимірювали дослідження, хто їх фінансував і на що реально може розраховувати жінка після 40.",
-    "excerpt": "У незалежному дослідженні червоної LED-маски з групою імітації та подвійним осліпленням серед жінок 45–60 років фахівці не змогли відрізнити оброблені обличчя від решти. Найсуворіший вимір глибини зморшок був заявлений у протоколі й так і не опублікований. А найбільше дослідження галузі взагалі не має контрольної групи.",
+    "excerpt": "У дослідженні червоної LED-маски з імітацією серед жінок 45–60 фахівці не відрізнили оброблені обличчя від решти. Найбільше дослідження галузі — без контрольної групи.",
     "meta": "6 листопада 2026 · 7 хв читання",
     "lead": "LED-маска — головна б’юті-покупка подарункового сезону, і продають її через колаген. Дослідження за нею невеликі, короткі й здебільшого вимірюють щось м’якше за зморшки. А в єдиному незалежному дослідженні з групою імітації серед жінок вашого віку осліплені фахівці не змогли відрізнити оброблені обличчя від решти.",
     "blocks": [

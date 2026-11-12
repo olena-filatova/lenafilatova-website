@@ -17,8 +17,8 @@ export default {
     "imageAlt": "An open tin of sardines in oil standing on a bare wooden table.",
     "title": "A Harley Street doctor says everyone should take 1,000 mg of omega-3 a day — that exact dose has already been tested on 25,871 people",
     "seoTitle": "Omega-3 1,000 mg a Day: What the Big Trials Found",
-    "metaDesc": "A hormone specialist told the UK press everyone needs at least 1,000 mg of omega-3 daily. That dose was tested in 25,871 adults, half of them women — and it missed both primary endpoints.",
-    "excerpt": "An integrative women's health doctor told the national press that everyone should be on high-dose omega-3 — at least 1,000 mg a day. That is almost exactly the dose the largest omega-3 trial ever run gave to 25,871 people, half of them women. It missed both of its primary endpoints. And the reason she gives for taking it is the part that holds up least well.",
+    "metaDesc": "A hormone specialist told the UK press everyone needs 1,000 mg of omega-3 daily. That dose was tested in 25,871 adults — and missed both primary endpoints.",
+    "excerpt": "A doctor told the national press everyone needs 1,000 mg of omega-3 daily. The largest trial ever run gave almost that dose to 25,871 people and missed both endpoints.",
     "meta": "21 October 2026 · 8 min read",
     "lead": "Omega-3 is having one of its periodic moments. A hormone specialist on Harley Street told a national press agency last week that everyone should be on high-dose omega-3 — at least a 1,000 mg supplement a day, plus two portions of oily fish a week. It is advice given in good faith, and it is also the most heavily tested supplement claim in medicine. The trials are not a secret. They just do not say what the headline says.",
     "blocks": [
@@ -159,8 +159,8 @@ export default {
     "imageAlt": "Відкрита банка сардин в олії на дерев’яному столі.",
     "title": "Лікарка з Harley Street каже, що всім потрібно пити 1000 мг омега-3 щодня — саме цю дозу вже перевірили на 25 871 людині",
     "seoTitle": "Омега-3 1000 мг на день: що показали великі дослідження",
-    "metaDesc": "Фахівчиня з гормонів заявила британській пресі, що всім потрібно щонайменше 1000 мг омега-3 на день. Цю дозу перевірили на 25 871 дорослому, половина з них жінки, — і жодної з двох первинних кінцевих точок не досягнуто.",
-    "excerpt": "Лікарка з інтегративної жіночої медицини сказала національній пресі, що всім варто пити омега-3 у високій дозі — щонайменше 1000 мг на день. Це майже точно та доза, яку найбільше в історії дослідження омега-3 давало 25 871 людині, половина з них жінки. Жодної з двох первинних кінцевих точок не досягнуто. А причина, з якої вона радить її пити, витримує перевірку найгірше.",
+    "metaDesc": "Фахівчиня заявила британській пресі, що всім потрібно 1000 мг омега-3 на день. Цю дозу перевірили на 25 871 дорослому — обидві кінцеві точки не досягнуті.",
+    "excerpt": "Лікарка сказала пресі, що всім потрібно 1000 мг омега-3 щодня. Найбільше дослідження дало майже цю дозу 25 871 людині — і не досягло жодної кінцевої точки.",
     "meta": "21 жовтня 2026 · 8 хв читання",
     "lead": "Омега-3 знову в центрі уваги. Фахівчиня з гормонів із Harley Street заявила минулого тижня національному інформагентству, що всім потрібна омега-3 у високій дозі — щонайменше 1000 мг на день плюс дві порції жирної риби на тиждень. Це порада з найкращих намірів, і водночас це найретельніше перевірене твердження про добавки в усій медицині. Ці дослідження не секрет. Просто вони кажуть зовсім не те, що заголовок.",
     "blocks": [

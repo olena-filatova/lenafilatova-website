@@ -15,7 +15,7 @@ export default {
     "title": "People on GLP-1 weight-loss drugs moved less, not more — a wearable-data study, not yet peer-reviewed",
     "seoTitle": "GLP-1 Users Moved Less, Not More: Fitbit Study",
     "metaDesc": "A Fitbit study of 753 adults found daily steps and exercise fell after starting Ozempic-style GLP-1 drugs. Why movement matters for holding on to muscle.",
-    "excerpt": "Tracking 753 adults’ wearable data — almost four in five of them women, average age 52 — researchers found daily steps and exercise fell after starting Ozempic-style drugs. A concern for muscle at exactly the age it is hardest to hold on to.",
+    "excerpt": "Tracking 753 adults’ wearable data — four in five of them women, average age 52 — researchers found daily steps and exercise fell after starting Ozempic-style drugs.",
     "meta": "10 July 2026 · 3 min read",
     "lead": "Weight-loss injections like Ozempic and Wegovy are reshaping bodies fast — but new data suggest they may also, quietly, be making people move less.",
     "blocks": [
@@ -93,7 +93,7 @@ export default {
     "title": "Люди на препаратах GLP-1 для схуднення почали рухатися менше, а не більше — дослідження за даними носимих пристроїв, ще не рецензоване",
     "seoTitle": "На GLP-1 люди рухалися менше, а не більше: дані Fitbit",
     "metaDesc": "Дані Fitbit щодо 753 дорослих: після початку лікування GLP-1 (на кшталт Ozempic) кроків і тренувань поменшало. Чому рух важливий для збереження м’язів.",
-    "excerpt": "Проаналізувавши дані трекерів 753 дорослих — майже чотири з п’яти — жінки, середній вік 52 роки, — дослідники виявили, що після початку прийому препаратів на кшталт Ozempic кроків і тренувань ставало менше. Це тривожний сигнал для м’язів саме в тому віці, коли їх найважче зберегти.",
+    "excerpt": "Дані трекерів 753 дорослих — чотири з п’яти жінки, середній вік 52 — показали, що після початку препаратів на кшталт Ozempic кроків і тренувань ставало менше.",
     "meta": "10 липня 2026 · 3 хв читання",
     "lead": "Ін’єкції для схуднення на кшталт Ozempic і Wegovy швидко змінюють тіла — але нові дані свідчать, що вони можуть також непомітно змушувати людей рухатися менше.",
     "blocks": [

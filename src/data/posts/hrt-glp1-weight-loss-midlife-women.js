@@ -13,7 +13,7 @@ export default {
     "title": "Hormone therapy with a weight-loss jab: a much larger look has split the finding in two",
     "seoTitle": "HRT With GLP-1s: The Boost Held for Semaglutide Only",
     "metaDesc": "A new cohort of about 3,900 midlife women finds hormone therapy linked to greater weight loss on semaglutide — but the tirzepatide advantage did not hold.",
-    "excerpt": "A new cohort of about 3,900 midlife women splits this year’s headline in two: with semaglutide, hormone therapy was linked to greater sustained weight loss; with tirzepatide — the drug the “35% more” figure was about — the advantage faded.",
+    "excerpt": "A cohort of about 3,900 midlife women splits this year’s headline in two: with semaglutide, hormone therapy tracked with greater weight loss; with tirzepatide it faded.",
     "meta": "14 October 2026 · 4 min read",
     "lead": "In July I wrote about a study suggesting that adding hormone therapy to tirzepatide led to 35% more weight loss after menopause. A much larger look at the same question is being presented this month, and it does something more interesting than confirm it: it splits the finding in two.",
     "blocks": [
@@ -94,7 +94,7 @@ export default {
     "title": "Гормональна терапія разом із препаратом для схуднення: значно більше дослідження розділило висновок надвоє",
     "seoTitle": "ЗГТ і GLP-1: ефект утримався лише для семаглутиду",
     "metaDesc": "Нова когорта з ~3 900 жінок середнього віку: із семаглутидом гормональна терапія пов’язана з більшою втратою ваги, а перевага для тирзепатиду не втрималася.",
-    "excerpt": "Нова когорта з близько 3 900 жінок середнього віку розділила цьогорічний заголовок надвоє: із семаглутидом гормональна терапія пов’язана зі стійкішою втратою ваги, а з тирзепатидом — тим самим препаратом, про який ішлося в цифрі «на 35% більше», — перевага зникла.",
+    "excerpt": "Когорта з ~3 900 жінок середнього віку розділила цьогорічний заголовок надвоє: із семаглутидом перевага гормональної терапії є, із тирзепатидом — зникла.",
     "meta": "14 жовтня 2026 · 4 хв читання",
     "lead": "У липні я писала про дослідження, за яким додавання гормональної терапії до тирзепатиду давало на 35% більшу втрату ваги після менопаузи. Цього місяця представляють значно більше дослідження того самого питання — і воно робить дещо цікавіше, ніж підтверджує попереднє: воно розділяє висновок надвоє.",
     "blocks": [

@@ -23,7 +23,7 @@ export default {
     "title": "Bone health with type 1 diabetes after 40: why your fracture risk is higher than your scan suggests",
     "seoTitle": "Type 1 Diabetes and Bone Density After 40",
     "metaDesc": "Women with type 1 diabetes can have higher fracture risk than a DEXA scan suggests. Why, what menopause adds, and how training helps.",
-    "excerpt": "In type 1 diabetes, hip fracture risk runs several times higher than in people without it - and bone density scans routinely miss it. The UK's own guideline admits its risk tool under-reads type 1 diabetes. Here is what that means, and what is actually in your hands.",
+    "excerpt": "In type 1 diabetes, hip fracture risk runs several times higher - and density scans routinely miss it. The UK's own guideline admits its risk tool under-reads type 1.",
     "meta": "7 November 2026 · 9 min read",
     "lead": "There is a gap in how bone health gets assessed that nobody tells you about, and if you have type 1 diabetes it is sitting underneath your next appointment. People with type 1 diabetes break hips at several times the rate of people without it - and their bone density scans often look perfectly normal. Nobody has hidden this: the UK's own national guideline says plainly that its risk tool does not capture type 1 diabetes and that there is not yet the research to fix it properly. Here is what is known, what it means heading into menopause with a skeleton that has lived with diabetes for decades, and which parts of it are yours to act on.",
     "blocks": [
@@ -253,7 +253,7 @@ export default {
     "title": "Здоров’я кісток при діабеті 1 типу після 40: чому ризик перелому вищий, ніж показує сканування",
     "seoTitle": "Діабет 1 типу і щільність кісток після 40",
     "metaDesc": "У жінок із діабетом 1 типу ризик перелому може бути вищим, ніж показує денситометрія. Чому так, що додає менопауза і чим допомагають тренування.",
-    "excerpt": "При діабеті 1 типу ризик перелому шийки стегна в кілька разів вищий — а сканування щільності кісток цього зазвичай не помічає. Британська настанова прямо визнає, що її інструмент оцінки ризику недооцінює діабет 1 типу. Ось що це означає і що насправді у ваших руках.",
+    "excerpt": "При діабеті 1 типу ризик перелому шийки стегна в кілька разів вищий — а денситометрія цього не помічає. Британська настанова визнає, що її інструмент недооцінює ЦД1.",
     "meta": "7 листопада 2026 · 9 хв читання",
     "lead": "В оцінці здоров’я кісток є прогалина, про яку вам ніхто не каже, — і якщо у вас діабет 1 типу, вона непомітно стосується й вашого наступного візиту до лікаря. Люди з діабетом 1 типу ламають шийку стегна в кілька разів частіше за тих, хто живе без діабету, — а їхні сканування щільності кісток при цьому часто виглядають цілком нормально. Ніхто цього не приховував: британська національна настанова прямо каже, що її інструмент оцінки ризику не враховує діабет 1 типу і що досліджень, аби виправити це як слід, поки немає. Ось що відомо, що це означає напередодні менопаузи для скелета, який десятиліттями живе з діабетом, і які частини цього справді у ваших руках.",
     "blocks": [

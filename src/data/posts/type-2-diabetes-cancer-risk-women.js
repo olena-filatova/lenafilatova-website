@@ -14,8 +14,8 @@ export default {
     "imageAlt": "A person walking away from the camera along a lakeside path under autumn trees, with a bench and fallen leaves in the foreground.",
     "title": "Cancer risk is 22% higher in women with type 2 diabetes — and the gap has widened over 27 years",
     "seoTitle": "Type 2 Diabetes and Cancer Risk in Women: Danish Study",
-    "metaDesc": "A 27-year Danish registry study found cancer incidence 22% higher in women with type 2 diabetes and 12% higher in men — and both gaps have grown since the 1990s.",
-    "excerpt": "Danish researchers followed the whole adult population for 27 years. In the most recent period, cancer incidence was 22% higher among women with type 2 diabetes and 12% higher among men — up from 15% and 9% in the earlier years. The headline is real, but the story underneath it is not the one you would guess.",
+    "metaDesc": "A 27-year Danish registry study found cancer incidence 22% higher in women with type 2 diabetes and 12% higher in men, both gaps grown since the 1990s.",
+    "excerpt": "Danes followed a whole adult population for 27 years: cancer incidence ran 22% higher in women with type 2 diabetes and 12% higher in men, up from 15% and 9%.",
     "meta": "1 October 2026 · 6 min read",
     "lead": "Diabetes reviews are built around hearts, kidneys, eyes and feet. A study covering every adult in Denmark for 27 years suggests cancer now belongs on that list — and that the gap between people with type 2 diabetes and everyone else has been quietly growing since the 1990s.",
     "blocks": [
@@ -99,7 +99,7 @@ export default {
     "title": "У жінок із діабетом 2 типу ризик раку на 22% вищий — і за 27 років розрив зріс",
     "seoTitle": "Діабет 2 типу і ризик раку в жінок: дані Данії",
     "metaDesc": "27-річне данське дослідження: захворюваність на рак на 22% вища в жінок із діабетом 2 типу і на 12% — у чоловіків. Обидва розриви зросли від 1990-х.",
-    "excerpt": "Данські дослідники стежили за всім дорослим населенням країни 27 років. В останній період захворюваність на рак була на 22% вищою серед жінок із діабетом 2 типу і на 12% — серед чоловіків; раніше ці цифри становили 15% і 9%. Заголовок правдивий, але історія за ним — не та, якої можна очікувати.",
+    "excerpt": "Данія, 27 років спостереження за всім дорослим населенням: рак на 22% частіший у жінок із діабетом 2 типу і на 12% — у чоловіків; раніше було 15% і 9%.",
     "meta": "1 жовтня 2026 · 6 хв читання",
     "lead": "Планові огляди при діабеті побудовані навколо серця, нирок, очей і стоп. Дослідження, що охопило все доросле населення Данії за 27 років, свідчить: до цього переліку варто додати рак — і що розрив між людьми з діабетом 2 типу й усіма іншими непомітно зростає від 1990-х.",
     "blocks": [

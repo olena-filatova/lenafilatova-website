@@ -18,8 +18,8 @@ export default {
     "imageAlt": "Bunches of rocket, coriander, purple basil and spring onions laid on brown paper beside tomatoes, a lemon, a lime and an avocado.",
     "title": "The MIND diet, sleep and mood in women with type 2 diabetes: what one small trial found",
     "seoTitle": "MIND Diet, Sleep and Mood in Type 2 Diabetes",
-    "metaDesc": "Forty-four women, twelve weeks, four papers. The MIND diet improved sleep and low mood more than the same calories without it — and the brain claim it is named for remains unproven.",
-    "excerpt": "A new paper reports that the MIND diet raised antioxidant markers and improved energy and emotional well-being in women with type 2 diabetes and insomnia. It is the fourth report from a single trial of 44 women — and the most interesting result is not the one in the headline.",
+    "metaDesc": "Forty-four women, twelve weeks, four papers. The MIND diet improved sleep and low mood more than the same calories — the brain claim is unproven.",
+    "excerpt": "The MIND diet raised antioxidant markers and lifted energy and mood in women with type 2 diabetes and insomnia. It is the fourth report from a single trial of 44 women.",
     "meta": "12 October 2026 · 7 min read",
     "lead": "The MIND diet is named for the brain. The best evidence for it in women with type 2 diabetes is about something else entirely — sleep, and the low mood that goes with sleeping badly — and even that evidence is early, small and thinner than the headlines suggest.",
     "blocks": [
@@ -147,8 +147,8 @@ export default {
     "imageAlt": "Пучки рукколи, коріандру, фіолетового базиліку та зеленої цибулі на крафтовому папері поруч із помідорами, лимоном, лаймом і авокадо.",
     "title": "MIND-дієта, сон і настрій у жінок із діабетом 2 типу: що показало одне невелике дослідження",
     "seoTitle": "MIND-дієта, сон і настрій при діабеті 2 типу",
-    "metaDesc": "Сорок чотири жінки, дванадцять тижнів, чотири публікації. MIND-дієта покращила сон і знизила пригніченість краще, ніж та сама калорійність без неї, — а обіцянка щодо мозку досі не підтверджена.",
-    "excerpt": "Нова публікація повідомляє, що MIND-дієта підвищила показники антиоксидантного захисту та покращила енергійність і емоційне самопочуття в жінок із діабетом 2 типу та безсонням. Це четверта публікація з одного дослідження на 44 жінках — і найцікавіший результат не той, що в заголовку.",
+    "metaDesc": "Сорок чотири жінки, дванадцять тижнів, чотири публікації. MIND-дієта покращила сон і настрій краще, ніж та сама калорійність без неї.",
+    "excerpt": "MIND-дієта підвищила антиоксидантні показники та покращила енергійність і настрій у жінок із ЦД2 і безсонням. Це четверта публікація з одного дослідження на 44 жінках.",
     "meta": "12 жовтня 2026 · 7 хв читання",
     "lead": "MIND-дієту назвали на честь мозку. Але найкращі дані щодо неї в жінок із діабетом 2 типу стосуються зовсім іншого — сну й пригніченого настрою, який іде поруч із поганим сном. І навіть ці дані ранні, нечисленні й слабші, ніж здається із заголовків.",
     "blocks": [

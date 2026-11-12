@@ -19,7 +19,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "The study, published in The Lancet Obstetrics, Gynaecology & Women’s Health in early 2026, followed postmenopausal women with overweight or obesity who were taking tirzepatide. It compared those also using menopausal hormone therapy (HT) with those on tirzepatide alone. Over 12 months, the hormone-therapy group lost about 35% more weight — a total bodyweight reduction of –19.2% versus –14.0% (p=0.0023). Put another way, 45% of the hormone-therapy users lost at least a fifth of their bodyweight, compared with 18% of the others. Cardiometabolic markers improved more in the combination group too."
+        "text": "The study, published in The Lancet Obstetrics, Gynaecology & Women’s Health in early 2026, followed postmenopausal women with overweight or obesity who were taking tirzepatide. It compared those also using menopausal hormone therapy (HT) with those on tirzepatide alone. Every woman in it had been on tirzepatide for at least a year, and the comparison was made at her last follow-up visit rather than at a fixed twelve-month mark. At that point the hormone-therapy group had lost 19.2% of their bodyweight against 14.0% in the other group — a gap of 5.2 percentage points (p=0.0023), which Mayo Clinic, where the work was done, summarised as about 35% more weight. More of the hormone-therapy group also crossed the bigger thresholds, losing at least 20%, 25% and 30% of their bodyweight, although the published summary does not say how many. On the health markers, both groups improved their blood sugar, blood pressure and liver enzymes; the hormone-therapy group gained a little more on three of them specifically — diastolic blood pressure, triglycerides and one liver enzyme."
       },
       {
         "t": "p",
@@ -27,7 +27,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "That’s the caveat I’d underline. This is a retrospective cohort study — it looked back at records of women who happened to be on these treatments, rather than randomly assigning them. Women who choose hormone therapy may differ in ways that also help with weight (they may be more engaged with their health, for instance), and an observational design can’t fully rule that out. It shows a strong association, not proof. Tirzepatide’s own weight-loss effect is well established from randomised trials — around 20% bodyweight versus roughly 3% on placebo — but the specific hormone-therapy boost still needs a proper randomised trial to confirm."
+        "text": "That’s the caveat I’d underline. This is a retrospective cohort study — it looked back at records of women who happened to be on these treatments, rather than randomly assigning them. Women who choose hormone therapy may differ in ways that also help with weight (they may be more engaged with their health, for instance), and an observational design can’t fully rule that out. It shows a strong association, not proof. It is also a small and narrow group — 120 women in total, nearly all of them White, average age 56 — so it tells us less about women unlike them. Tirzepatide’s own weight-loss effect is well established from randomised trials — around 20% bodyweight versus roughly 3% on placebo — but the specific hormone-therapy boost still needs a proper randomised trial to confirm."
       },
       {
         "t": "p",
@@ -45,16 +45,16 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Adding hormone therapy to tirzepatide was linked to 35% more weight loss after menopause.",
-            "detail": "In a retrospective cohort study of postmenopausal women with overweight or obesity, those using menopausal hormone therapy alongside tirzepatide lost 35% more total bodyweight over 12 months than those on tirzepatide alone (–19.2% vs –14.0%; p=0.0023). 45% of hormone-therapy users achieved at least 20% total bodyweight loss versus 18% of controls, with greater improvement in cardiometabolic markers. Because the design is observational, it demonstrates association rather than causation.",
+            "claim": "Adding hormone therapy to tirzepatide was linked to greater weight loss after menopause — a gap of about 5 percentage points.",
+            "detail": "A retrospective cohort study of Mayo Clinic records covering 120 postmenopausal women with overweight or obesity who had taken tirzepatide for at least 12 months: 40 using systemic hormone therapy were matched to 80 who were not. The primary endpoint was percentage of total bodyweight change at last follow-up, not at a fixed 12-month point. The hormone-therapy group lost 19.2% of bodyweight versus 14.0% (mean difference 5.2 percentage points, 95% CI 1.90–8.54; p=0.0023), and a higher proportion of them reached losses of 20%, 25% and 30%, though the published summary gives no figures for those thresholds. Mayo Clinic's own announcement described the result as about 35% more weight lost. Both groups improved in blood glucose, blood pressure and liver enzymes, with additional reductions in diastolic pressure, triglycerides and aspartate aminotransferase in the hormone-therapy group only. Mean age was 56.4 years and 113 of the 120 women (94%) were White. Because the design is observational, it demonstrates association rather than causation.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · Retrospective cohort study, 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
           },
           {
-            "claim": "Rapid GLP-1 weight loss around menopause raises a bone-and-muscle preservation concern.",
-            "detail": "GLP-1-based drugs produce fast weight loss, a portion of which can come from lean mass, and menopause independently accelerates bone-density loss as oestrogen declines. Clinicians therefore recommend pairing these medications with adequate protein (about 1.2–1.6 g/kg/day), regular resistance training, and sufficient vitamin D and calcium to protect muscle and bone during treatment.",
-            "cite": "Clinical guidance on GLP-1 use, menopause and body composition, 2026",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm"
+            "claim": "Rapid GLP-1 weight loss in older women raises a muscle-preservation concern.",
+            "detail": "A narrative review of GLP-1 receptor agonists in older women concludes that the fast weight loss these drugs produce carries a risk of muscle loss that can worsen sarcopenia and frailty, and sets out practical ways to mitigate it, including physical activity and dietary strategies. Falling oestrogen also accelerates bone-density loss around menopause, which is why the same protective habits are usually recommended alongside treatment; the review itself addresses muscle rather than bone.",
+            "cite": "Nutrients · Narrative review, 14 February 2026 (PMID 41754149)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12943638/"
           }
         ]
       },
@@ -123,7 +123,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Дослідження, опубліковане в The Lancet Obstetrics, Gynaecology & Women’s Health на початку 2026 року, спостерігало за жінками в постменопаузі з надмірною вагою чи ожирінням, які приймали тирзепатид. У ньому порівнювали тих, хто додатково використовував менопаузальну гормональну терапію (ГТ), із тими, хто був лише на тирзепатиді. За 12 місяців група з гормональною терапією втратила приблизно на 35% більше ваги — загальне зниження маси тіла –19,2% проти –14,0% (p=0,0023). Інакше кажучи, 45% тих, хто був на гормональній терапії, втратили щонайменше п’яту частину маси тіла, порівняно з 18% в іншій групі. Кардіометаболічні показники також покращилися більше в комбінованій групі."
+        "text": "Дослідження, опубліковане в The Lancet Obstetrics, Gynaecology & Women’s Health на початку 2026 року, спостерігало за жінками в постменопаузі з надмірною вагою чи ожирінням, які приймали тирзепатид. У ньому порівнювали тих, хто додатково використовував менопаузальну гормональну терапію (ГТ), із тими, хто був лише на тирзепатиді. Кожна жінка в ньому приймала тирзепатид щонайменше рік, а порівняння робили на її останньому візиті спостереження, а не строго на дванадцятому місяці. На той момент група з гормональною терапією втратила 19,2% маси тіла проти 14,0% в іншій групі — розрив у 5,2 відсоткового пункта (p=0,0023), який клініка Mayo, де й проводилося дослідження, підсумувала як приблизно на 35% більше ваги. Більше жінок із групи з гормональною терапією перетнули й вищі пороги, втративши щонайменше 20%, 25% і 30% маси тіла, але скільки саме — в опублікованому резюме не зазначено. Щодо показників здоров’я: в обох групах покращилися цукор у крові, тиск і печінкові ензими; група з гормональною терапією виграла трохи більше саме в трьох із них — діастолічному тиску, тригліцеридах і одному печінковому ензимі."
       },
       {
         "t": "p",
@@ -131,7 +131,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Саме це застереження я б підкреслила. Це ретроспективне когортне дослідження — у ньому проаналізували медичні записи жінок, які вже приймали ці препарати, а не розподіляло їх випадковим чином. Жінки, які обирають гормональну терапію, можуть відрізнятися й іншим, що теж допомагає з вагою (наприклад, вони можуть уважніше ставитися до свого здоров’я), і спостережний дизайн не може цього повністю виключити. Воно показує сильний зв’язок, але не доводить причинності. Те, що сам тирзепатид допомагає схуднути, добре встановлено в рандомізованих дослідженнях — близько 20% маси тіла проти приблизно 3% на плацебо — але конкретний внесок гормональної терапії ще потребує підтвердження належним рандомізованим дослідженням."
+        "text": "Саме це застереження я б підкреслила. Це ретроспективне когортне дослідження — у ньому проаналізували медичні записи жінок, які вже приймали ці препарати, а не розподіляло їх випадковим чином. Жінки, які обирають гормональну терапію, можуть відрізнятися й іншим, що теж допомагає з вагою (наприклад, вони можуть уважніше ставитися до свого здоров’я), і спостережний дизайн не може цього повністю виключити. Воно показує сильний зв’язок, але не доводить причинності. Це й невелика та дуже однорідна група — усього 120 жінок, майже всі білошкірі, із середнім віком 56 років, — тому про жінок, несхожих на них, воно каже значно менше. Те, що сам тирзепатид допомагає схуднути, добре встановлено в рандомізованих дослідженнях — близько 20% маси тіла проти приблизно 3% на плацебо — але конкретний внесок гормональної терапії ще потребує підтвердження належним рандомізованим дослідженням."
       },
       {
         "t": "p",
@@ -149,16 +149,16 @@ export default {
         "t": "refs",
         "items": [
           {
-            "claim": "Додавання гормональної терапії до тирзепатиду пов’язане з тим, що після менопаузи жінки втрачали на 35% більше ваги.",
-            "detail": "У ретроспективному когортному дослідженні жінок у постменопаузі з надмірною вагою чи ожирінням ті, хто використовував менопаузальну гормональну терапію разом із тирзепатидом, втратили на 35% більше загальної маси тіла за 12 місяців, ніж ті, хто був лише на тирзепатиді (–19,2% проти –14,0%; p=0,0023). 45% тих, хто був на гормональній терапії, досягли щонайменше 20% втрати маси тіла проти 18% у контрольній групі, з більшим покращенням кардіометаболічних показників. Оскільки дизайн спостережний, він демонструє зв’язок, а не причинність.",
+            "claim": "Додавання гормональної терапії до тирзепатиду пов’язане з більшою втратою ваги після менопаузи — розрив приблизно у 5 відсоткових пунктів.",
+            "detail": "Ретроспективне когортне дослідження на даних Mayo Clinic: 120 жінок у постменопаузі з надмірною вагою чи ожирінням, які приймали тирзепатид щонайменше 12 місяців; 40 із них на системній гормональній терапії підібрали до 80 без неї. Первинною кінцевою точкою була зміна загальної маси тіла на останньому візиті спостереження, а не на фіксованому 12-му місяці. Група з гормональною терапією втратила 19,2% маси тіла проти 14,0% (середня різниця 5,2 відсоткового пункта, 95% ДІ 1,90–8,54; p=0,0023), і більша їх частка досягла втрати 20%, 25% і 30%, хоча цифр для цих порогів в опублікованому резюме немає. Саме Mayo Clinic у своєму повідомленні описала результат як приблизно на 35% більшу втрату ваги. В обох групах покращилися глюкоза крові, тиск і печінкові ензими, а додаткове зниження діастолічного тиску, тригліцеридів і аспартатамінотрансферази було лише в групі з гормональною терапією. Середній вік — 56,4 року, 113 зі 120 жінок (94%) були білошкірими. Оскільки дизайн спостережний, він демонструє зв’язок, а не причинність.",
             "cite": "The Lancet Obstetrics, Gynaecology & Women’s Health · Ретроспективне когортне дослідження, 2026",
             "url": "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00145-1/abstract"
           },
           {
-            "claim": "Швидка втрата ваги на GLP-1 під час менопаузи викликає занепокоєння щодо збереження кісток і м’язів.",
-            "detail": "Препарати на основі GLP-1 дають швидку втрату ваги, частина якої може припадати на м’язову масу, а менопауза й сама по собі прискорює втрату щільності кісток через зниження естрогену. Тому лікарі рекомендують поєднувати ці препарати з достатньою кількістю білка (приблизно 1,2–1,6 г/кг/день), регулярними силовими тренуваннями та достатньою кількістю вітаміну D і кальцію, щоб захистити м’язи й кістки під час лікування.",
-            "cite": "Клінічні рекомендації щодо застосування GLP-1, менопаузи та складу тіла, 2026",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm"
+            "claim": "Швидка втрата ваги на GLP-1 у жінок старшого віку викликає занепокоєння щодо збереження м’язів.",
+            "detail": "Наративний огляд застосування агоністів рецепторів GLP-1 у жінок старшого віку доходить висновку, що швидка втрата ваги на цих препаратах несе ризик утрати м’язової маси, яка може посилити саркопенію та немічність, і пропонує практичні способи цьому запобігти — зокрема фізичну активність і харчові стратегії. Зниження естрогену також прискорює втрату щільності кісток навколо менопаузи, і саме тому ті самі захисні звички зазвичай радять і для кісток; сам огляд ішов про м’язи, а не про кістки.",
+            "cite": "Nutrients · Наративний огляд, 14 лютого 2026 (PMID 41754149)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12943638/"
           }
         ]
       },
