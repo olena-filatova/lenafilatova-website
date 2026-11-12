@@ -1,5 +1,5 @@
 # recipe--beef-skewers-wine-sauce
 
-- Last checked: 2026-10-04
-- PR: (opened by this run — see branch `claude/ua-proofread-20261004-0104`)
-- Notes: Fixed one spelling typo (`чері` → `черрі`, matching the spelling used for cherry tomatoes everywhere else in recipes.js) and detangled a triple `з...з...з` construction in the title. Ingredients/method/nutrition/notes already matched the EN text and needed no changes.
+- **Last checked:** 2026-11-10 (second pass; previous 2026-10-04)
+- **PR:** (this PR — branch `claude/ua-proofread-20261110-0103`)
+- **Notes:** 9 fixes. `why` restored the omitted "natural" sweetener and "to keep GI minimal"; "small cubes" was «дрібними шматочками»; marinade/sauce split and "incl. marinating" made grammatical; three stacked «до легкого …» constructions in the method rewritten; «без зміни смаку» → «не змінюючи смаку». No quantities, temperatures or times changed.
