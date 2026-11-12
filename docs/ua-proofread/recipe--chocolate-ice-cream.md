@@ -1,12 +1,5 @@
 # recipe--chocolate-ice-cream
 
-Last checked: 2026-10-05
-PR: (this PR)
-Notes: The `why` field's Ukrainian text had drifted from the English —
-it dropped "rich, creamy and diabetic-friendly" and "2 g carbs per serving",
-and introduced an unrelated "slow energy release" claim that isn't in the
-English at all. Rewrote to match the English content. Also added "on full
-power" (dropped from step 1) and disambiguated "масло" → "вершкове масло"
-in step 3, since "какао-масло" (cocoa butter) was mentioned in the two
-preceding steps and plain "масло" there could be misread as cocoa butter
-again rather than the dairy butter in the ingredient list.
+- **Last checked:** 2026-11-12 (second cycle; previously 2026-10-05)
+- **PR:** (this PR — `UA proofread: recipe--lviv-cheesecake, recipe--chocolate-ice-cream`)
+- **Notes:** 7 fixes. `why` lacked a subject («Підсолоджено виключно…») → «Шоколадне морозиво з мінімумом цукру, підсолоджене тільки стевією…»; «з діабетом» → «із» (euphony); «без додавання цукру» → «жодного доданого цукру». imgAlt «морозива» → «ескімо» (EN: ice lollies). «заморозки» → «заморожування». Method: restored "to finish melting", "into the melted cocoa butter", "Mix thoroughly", "lolly moulds or small containers"; «З’єднайте» → «Змішайте», «мінімум на» → «щонайменше на». Title «без цукру» kept (EN "Low-Sugar", but the recipe has no added sugar and is tagged sugar-free) — flag for Lena if she wants a literal match.
