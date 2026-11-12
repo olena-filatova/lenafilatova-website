@@ -1,5 +1,10 @@
 # post--blood-sugar-too-steady-quality-of-life
 
-- Last checked: 2026-10-06
+- Last checked: 2026-11-12
 - PR: (this PR)
-- Notes: One calque fixed in the first FAQ answer — "коефіцієнт у часу в нормі більший" used an inanimate possessive construction borrowed from English ("time in range has the larger coefficient") that reads as translated; changed to "час у нормі має більший коефіцієнт". Apostrophes, terminology (CGM, безперервний моніторинг глюкози) and EN/UA fidelity were already clean — no other issues found.
+- Notes: Second-cycle pass, 28 fixes. Calque «має потенціал негативно впливати» (×2) → «може
+  негативно впливати»; «управління глюкозою» → «контроль глюкози»; «нічого не доведено як
+  причина» (×2) → «причинно-наслідкових зв’язків не доводить»; «виписка» (= discharge summary)
+  → «звіт з клініки»; «щорічна зустріч EASD» → «щорічний конгрес»; tautology «жодне з
+  тверджень не стверджує»; FAQ «одиниці» → «шкали» (EN "scales"); "not yet peer-reviewed"
+  restored; author name transliterated in body (Ерманн), Latin kept in cite. No numbers or facts changed.
