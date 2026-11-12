@@ -1,5 +1,5 @@
 # post--nhs-hrt-prescribing-access-gap
 
-- **Last checked:** 2026-11-06 (third pass; previous 2026-10-30, 2026-09-28)
+- **Last checked:** 2026-11-11 (fourth pass; previous 2026-11-06, 2026-10-30, 2026-09-28)
 - **PR:** (this PR)
-- **Notes:** 22 fixes, all style/calque/euphony — no spelling or surzhyk problems found. Calques rewritten («мають дуже різні розмови зі своїм лікарем», «Той самий звіт розбиває цю цифру», «корисне запитання конкретне», «несе нижчий ризик», «допоміжний матеріал для обговорення» → «пам’ятка для розмови з пацієнткою»), tautology «показники… не показують. Зате вони показують» removed, ambiguous subject in the prepayment-certificate sentence fixed, euphony «з ЗГТ» → «зі ЗГТ». Meaning restored from EN: "record" and NHSBSA in metaDesc, "more than doubled" in the related-link title. No numbers, citations, URLs or `en` text changed.
+- **Notes:** 8 fixes. 1 grammar (agreement «відмінності… її важко списати» → «їх»), 1 meaning ("non-white ethnic groups" had become «неєвропейські» → «усі етнічні групи, крім білої»), 1 omission restored ("anywhere" → «ніде»), 5 style/calque («Нічого з цього не означає», «як виглядає альтернатива», ambiguous «лікування симптомів менопаузи від NHS» word order, «два з найзаможніших» → «обидва серед…», list punctuation). No numbers, citations, URLs or `en` text changed.
