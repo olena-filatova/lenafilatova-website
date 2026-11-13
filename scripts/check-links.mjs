@@ -254,7 +254,7 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   const pending = POSTS.filter((p) => p.image && !fs.existsSync(path.join(DIST, p.image)));
   say();
   say(`Heroes not yet supplied: ${pending.length}`);
-  for (const p of pending) say(`  ${p.image}  (${p.slug}) — brief goes on OPS-315`);
+  for (const p of pending) say(`  ${p.image}  (${p.slug}) — source it from Unsplash, see CLAUDE.md`);
 }
 
 const hardFailures = brokenInternal.length + brokenImages.length;

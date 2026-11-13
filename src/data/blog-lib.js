@@ -246,10 +246,13 @@ export function featuredPosts(sorted) {
 // is an editorial matter, and failing the deploy over one would strand Lena with
 // a site that will not publish.
 //
-// IMAGES ARE SUPPLIED BY HAND. Lena sources every hero herself, so the fix for a
-// missing file is never to generate one — it is to add the filename to OPS-315
-// with a search brief (1200x675 JPEG, under ~200 KB) and the alt text. See
-// CLAUDE.md for the brief format.
+// CLAUDE SOURCES EVERY HERO, FROM UNSPLASH (reversed 24 Sep 2026 at Lena's
+// request — she used to supply them by hand and asked for that to stop). The fix
+// for a missing file is to source the photo in the same run that writes the post:
+// find it on unsplash.com, save it to public/images/<slug>.jpg at 1600x900, run
+// `npm run images` and scripts/generate-image-dims.sh, and write `imageAlt` in
+// both languages. Never generate one, and never file a brief on OPS-315. See
+// CLAUDE.md, "Hero images — Claude sources them, from Unsplash".
 
 // Printed once per build rather than once per page. The hub renders twice (EN
 // and UA) and would otherwise repeat every warning.
@@ -275,8 +278,8 @@ export function warnAssetGaps(posts, dims) {
         noHero.map((p) => `         ${p.image}  (${p.slug})`).join('\n') +
         '\n       Fix: if the file is there, run scripts/generate-image-dims.sh in a CLEAN worktree ' +
         '(it globs public/images and a dirty checkout pulls in strays). If it is not, add the ' +
-        'filename to OPS-315 with a search brief and alt text — heroes are supplied by hand, ' +
-        'never generated.'
+        'photo from Unsplash in this same run (see CLAUDE.md, "Hero images") and save it to ' +
+        'public/images/<slug>.jpg — do not file a brief and do not generate one.'
     );
   }
 
@@ -306,8 +309,8 @@ export function warnAssetGaps(posts, dims) {
 
 // A post's hero is "supplied" when its path is present in image-dims.json —
 // the manifest generated from the actual contents of public/images. Absent
-// means the JPEG has not been sourced yet (heroes are supplied by hand, see
-// CLAUDE.md and OPS-315), so the post renders with no hero figure and shares
+// means the JPEG has not been sourced yet (Claude sources heroes from Unsplash,
+// see CLAUDE.md), so the post renders with no hero figure and shares
 // under the site's default image, rather than shipping a broken <img> and a
 // 404 og:image. It stops a post that is editorially finished from being
 // blocked for weeks on an image that nobody has made yet.

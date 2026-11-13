@@ -909,6 +909,24 @@
       ]
     ]
   },
+  "/images/heavy-periods-iron-hba1c.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/heavy-periods-iron-hba1c-480.avif"
+      ],
+      [
+        800,
+        "/images/v/heavy-periods-iron-hba1c-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/heavy-periods-iron-hba1c-1200.avif"
+      ]
+    ]
+  },
   "/images/higher-protein-postmenopausal-bone-muscle.jpg": {
     "w": 1200,
     "h": 676,
