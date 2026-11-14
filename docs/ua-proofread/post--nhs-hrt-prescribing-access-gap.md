@@ -1,5 +1,5 @@
 # post--nhs-hrt-prescribing-access-gap
 
-- **Last checked:** 2026-11-11 (fourth pass; previous 2026-11-06, 2026-10-30, 2026-09-28)
-- **PR:** (this PR)
-- **Notes:** 8 fixes. 1 grammar (agreement «відмінності… її важко списати» → «їх»), 1 meaning ("non-white ethnic groups" had become «неєвропейські» → «усі етнічні групи, крім білої»), 1 omission restored ("anywhere" → «ніде»), 5 style/calque («Нічого з цього не означає», «як виглядає альтернатива», ambiguous «лікування симптомів менопаузи від NHS» word order, «два з найзаможніших» → «обидва серед…», list punctuation). No numbers, citations, URLs or `en` text changed.
+- **Last checked:** 2026-11-14 (fifth pass; previous 2026-11-11, 2026-11-06, 2026-10-30, 2026-09-28)
+- **PR:** https://github.com/olena-filatova/lenafilatova-website/pull/561
+- **Notes:** 6 fixes. 2 length (UA `metaDesc` 168 → ≤160 and `excerpt` 179 → ≤170, compressed only — no claims added), 4 style/calque («історично найчастіше казали» → «раніше…», «жінок недолікували» → «жінок лікують недостатньо», repeated «говорить… говорять» → «обговорює ризики», «призначення ЗГТ падало» → «частота призначення ЗГТ знижувалася» in the refs). Text was already clean after four passes. No numbers, citations, URLs or `en` text changed. The EN excerpt (180) is also over target but out of scope for a UA proofread.
