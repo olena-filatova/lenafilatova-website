@@ -41,7 +41,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Alongside that, an exercise physiologist supervised two hour-long gym sessions a week from week three — half cardio, half weights — with one more session done independently. Dietitians and doctors checked in at weeks 0, 1, 2, 4, 8 and 12. The second twelve weeks were about keeping the weight off, on a normal maintenance diet with the exercise continued at home or at a gym, and at least five more contacts from the team. In other words, a hospital research programme with a doctor, a dietitian and an exercise physiologist attached to every participant. Stopping your own diabetes medication to try this at home is not a smaller version of the same thing; it is a different and genuinely risky thing."
+        "text": "Alongside that, an exercise physiologist supervised two gym sessions a week from week three, building up to an hour each — half cardio, half weights — with one more session done independently. Dietitians and doctors checked in at weeks 0, 1, 2, 4, 8 and 12. The second twelve weeks were about keeping the weight off, on a normal maintenance diet with the exercise continued at home or at a gym, and at least five more contacts from the team. In other words, a hospital research programme with a doctor, a dietitian and an exercise physiologist attached to every participant. Stopping your own diabetes medication to try this at home is not a smaller version of the same thing; it is a different and genuinely risky thing."
       },
       {
         "t": "h",
@@ -53,7 +53,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "None of this is the first time diabetes has been put into remission by eating very little for a while. The DiRECT trial did it in ordinary UK GP practices — 46% in the first year, and 26% of those still medication-free at five years, which I've written about in [what new research says about type 2 diabetes](/blog/type-2-diabetes-research/). What is new here is who it was tested on: people diagnosed young, whose diabetes tends to progress faster and reach complications sooner, and who had until now been largely left out of remission trials."
+        "text": "None of this is the first time diabetes has been put into remission by eating very little for a while. The DiRECT trial did it in ordinary UK GP practices — 46% in the first year, and of those still in remission at two years, 26% remained in remission at five, which I've written about in [what new research says about type 2 diabetes](/blog/type-2-diabetes-research/). What is new here is who it was tested on: people diagnosed young, whose diabetes tends to progress faster and reach complications sooner, and who had until now been largely left out of remission trials."
       },
       {
         "t": "p",
@@ -65,11 +65,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "First, a null result. The trial's full name is \"Remission of type 2 diabetes and improved diastolic function…\" — the heart half was half the point, because early type 2 diabetes stiffens the heart's filling before anything else goes wrong. On MRI, diastolic strain rate did not differ between the groups. Heart shape did change favourably, and resting blood pressure and heart rate both fell, but the specific measure the trial was named after came back flat. The authors report it; the press releases didn't mention it."
+        "text": "First, a null result. The trial's full name is \"Remission of type 2 diabetes and improved diastolic function…\" — the heart half was half the point, because early type 2 diabetes stiffens the heart's filling before anything else goes wrong. On MRI, diastolic strain rate did not differ between the groups. Heart shape did change favourably, and resting blood pressure and heart rate both fell, but the specific measure the trial was named after came back flat. The authors report it; the news coverage didn't mention it."
       },
       {
         "t": "p",
-        "text": "Second, the blood pressure result, which is arguably the best news in the paper. Among participants who started with raised blood pressure or on tablets for it, 63% were under 130/80 with no medication at twelve weeks and 56% at twenty-four, against 27% on usual care. Depression scores, diabetes-related distress and quality of life all improved too."
+        "text": "Second, the blood pressure result, which is arguably the best news in the paper. Among participants who started with raised blood pressure or on tablets for it, 63% were at or below 130/80 with no medication at twelve weeks and 56% at twenty-four, against 13% and 27% on usual care. Depression scores, diabetes-related distress and quality of life all improved too."
       },
       {
         "t": "p",
@@ -77,7 +77,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "And one honest limit for most people reading this: if you are over 45, this trial did not include you. Everyone in it was 45 or younger and within six years of diagnosis, and the age cap was only raised from 40 to 45 part-way through recruitment. The finding that travels is not about being young — it is about acting early after a diagnosis, while there is still enough of the pancreas left to recover. For women in their forties and fifties, the evidence to look at is still DiRECT, which recruited up to age 65 and is the basis of the NHS Type 2 Diabetes Path to Remission programme your GP can refer you to. And remission is not cure: almost every weight-loss programme is followed by some regain, which is exactly why the muscle question this trial opened matters so much."
+        "text": "And one honest limit for most people reading this: if you are over 45, this trial did not include you. Everyone in it was 45 or younger and within six years of diagnosis, and the age cap was only raised from 40 to 45 part-way through recruitment. The finding that travels is not about being young — it is about acting early after a diagnosis, while there is still enough of the pancreas left to recover. For women in their forties and fifties, the evidence to look at is still DiRECT, which recruited up to age 65 and is the basis of the NHS Type 2 Diabetes Path to Remission programme in England, which your GP can refer you to if you're eligible. And remission is not cure: almost every weight-loss programme is followed by some regain, which is exactly why the muscle question this trial opened matters so much."
       },
       {
         "t": "h",
@@ -94,7 +94,7 @@ export default {
           },
           {
             "claim": "The programme was 800–900 kcal a day with medication stopped, plus supervised gym training.",
-            "detail": "Weeks 1–12: an 800–900 kcal/day low energy diet (30% protein, 50% carbohydrate, 20% fat), the first two weeks as total meal replacement, then one food-based meal a day. All glucose-lowering and blood pressure medication was stopped at the start (absent albuminuria) and reintroduced if clinically indicated. From week 3, two supervised hour-long sessions a week split between aerobic and resistance training, plus one independent aerobic session. Weeks 13–24: weight-maintenance diet with independent exercise and at least five further contacts from dietitian and exercise physiologist. Trial registration ISRCTN15487120.",
+            "detail": "Weeks 1–12: an 800–900 kcal/day low energy diet (30% protein, 50% carbohydrate, 20% fat), the first two weeks as total meal replacement, then one food-based meal a day. All glucose-lowering and blood pressure medication was stopped at the start (absent albuminuria) and reintroduced if clinically indicated. From week 3, two supervised sessions a week, progressing to 1 hour each, split equally between aerobic and resistance training, plus one independent aerobic session. Weeks 13–24: weight-maintenance diet with independent exercise and at least five further contacts from dietitian and exercise physiologist. Trial registration ISRCTN15487120.",
             "cite": "The Lancet Regional Health – Americas · Trial protocol and methods, 2026",
             "url": "https://www.isrctn.com/ISRCTN15487120"
           },
@@ -141,7 +141,7 @@ export default {
       },
       {
         "q": "Could I just eat 800 calories a day and get the same result?",
-        "a": "Not safely on your own, and especially not if you take medication for diabetes or blood pressure. In this trial those tablets were stopped on day one by a doctor who then monitored glucose and blood pressure and restarted them when needed — doing that unsupervised risks dangerously low blood sugar on some medications. The diet itself was nutritionally complete meal-replacement products, not simply eating less of your usual food. In the UK, the NHS Type 2 Diabetes Path to Remission programme delivers this kind of low-calorie diet with clinical supervision; ask your GP or diabetes team whether you're eligible."
+        "a": "Not safely on your own, and especially not if you take medication for diabetes or blood pressure. In this trial those tablets were stopped on day one by a doctor who then monitored glucose and blood pressure and restarted them when needed — doing that unsupervised risks dangerously low blood sugar on some medications. The diet itself was nutritionally complete meal-replacement products, not simply eating less of your usual food. In England, the NHS Type 2 Diabetes Path to Remission programme delivers this kind of low-calorie diet with clinical supervision; ask your GP or diabetes team whether you're eligible."
       },
       {
         "q": "I'm over 45 — does this apply to me?",
@@ -181,7 +181,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Паралельно, починаючи з третього тижня, фахівець із фізичних навантажень проводив два годинні заняття на тиждень — половина кардіо, половина силових вправ, — а ще одне заняття учасники виконували самостійно. Дієтологи й лікарі виходили на зв’язок на 0, 1, 2, 4, 8 і 12-му тижнях. Другі дванадцять тижнів були присвячені утриманню ваги: звичайне підтримувальне харчування, тренування вдома або в залі й щонайменше п’ять додаткових контактів із командою. Інакше кажучи, це дослідницька програма в лікарні, де за кожним учасником закріплені лікар, дієтолог і фахівець із фізичних навантажень. Самостійно скасувати собі ліки від діабету, щоб спробувати це вдома, — не зменшена версія того самого, а зовсім інша і справді ризикована річ."
+        "text": "Паралельно, починаючи з третього тижня, фахівець із фізичних навантажень проводив два заняття на тиждень, які поступово подовжували до години — половина кардіо, половина силових вправ, — а ще одне заняття учасники виконували самостійно. Дієтологи й лікарі виходили на зв’язок на 0, 1, 2, 4, 8 і 12-му тижнях. Другі дванадцять тижнів були присвячені утриманню ваги: звичайне підтримувальне харчування, тренування вдома або в залі й щонайменше п’ять додаткових контактів із командою. Інакше кажучи, це дослідницька програма в лікарні, де за кожним учасником закріплені лікар, дієтолог і фахівець із фізичних навантажень. Самостійно скасувати собі ліки від діабету, щоб спробувати це вдома, — не зменшена версія того самого, а зовсім інша і справді ризикована річ."
       },
       {
         "t": "h",
@@ -193,7 +193,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Діабет уже не вперше вдається вивести в ремісію, якщо певний час їсти дуже мало. Дослідження DiRECT зробило це у звичайних британських сімейних практиках — 46% за перший рік і 26% із них усе ще без ліків через п’ять років; про це я писала в тексті [що каже нове дослідження про діабет 2 типу](/ua/blog/type-2-diabetes-research/). Новим тут є те, на кому це перевіряли: на людях із раннім діагнозом, чий діабет зазвичай прогресує швидше й раніше призводить до ускладнень, і яких досі майже не брали в дослідження ремісії."
+        "text": "Діабет уже не вперше вдається вивести в ремісію, якщо певний час їсти дуже мало. Дослідження DiRECT зробило це у звичайних британських сімейних практиках — 46% за перший рік, а з тих, хто був у ремісії через два роки, 26% залишалися в ній і через п’ять; про це я писала в тексті [що каже нове дослідження про діабет 2 типу](/ua/blog/type-2-diabetes-research/). Новим тут є те, на кому це перевіряли: на людях із раннім діагнозом, чий діабет зазвичай прогресує швидше й раніше призводить до ускладнень, і яких досі майже не брали в дослідження ремісії."
       },
       {
         "t": "p",
@@ -205,11 +205,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Перша — нульовий результат. Повна назва дослідження звучить як «Ремісія діабету 2 типу і покращення діастолічної функції…» — оцінка серця становила половину задуму, бо ранній діабет 2 типу робить серце жорсткішим на етапі наповнення ще до появи будь-яких інших порушень. На МРТ швидкість діастолічної деформації між групами не відрізнялася. Геометрія серця змінилася сприятливо, тиск у спокої та пульс знизилися, але саме той показник, який винесли в назву дослідження, лишився без змін. Автори про це пишуть; у пресрелізах цього немає."
+        "text": "Перша — нульовий результат. Повна назва дослідження звучить як «Ремісія діабету 2 типу і покращення діастолічної функції…» — оцінка серця становила половину задуму, бо ранній діабет 2 типу робить серце жорсткішим на етапі наповнення ще до появи будь-яких інших порушень. На МРТ швидкість діастолічної деформації між групами не відрізнялася. Геометрія серця змінилася сприятливо, тиск у спокої та пульс знизилися, але саме той показник, який винесли в назву дослідження, лишився без змін. Автори про це пишуть; у новинах про це не згадували."
       },
       {
         "t": "p",
-        "text": "Друга — результат щодо тиску, і це, мабуть, найкраща новина у статті. Серед учасників, які починали з підвищеним тиском або на ліках від нього, 63% на дванадцятому тижні й 56% на двадцять четвертому мали тиск нижче 130/80 без жодних препаратів — проти 27% при звичайному лікуванні. Показники депресії, пов’язаного з діабетом дистресу та якості життя теж покращилися."
+        "text": "Друга — результат щодо тиску, і це, мабуть, найкраща новина у статті. Серед учасників, які починали з підвищеним тиском або на ліках від нього, 63% на дванадцятому тижні й 56% на двадцять четвертому мали тиск 130/80 або нижче без жодних препаратів — проти 13% і 27% при звичайному лікуванні. Показники депресії, пов’язаного з діабетом дистресу та якості життя теж покращилися."
       },
       {
         "t": "p",
@@ -217,7 +217,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "І одне чесне обмеження для більшості тих, хто це читає: якщо вам за 45, це дослідження вас не включало. Усім учасникам було 45 років або менше, а від діагнозу минуло не більше шести років; а верхню вікову межу підняли з 40 до 45 років лише під час набору учасників. Висновок, який має ширше значення, — не про молодість, а про те, щоб діяти якомога раніше після діагнозу, поки підшлункова залоза ще здатна відновитися. Для жінок за сорок і за п’ятдесят орієнтиром і далі залишається DiRECT, куди брали людей до 65 років і на якому ґрунтується програма NHS Type 2 Diabetes Path to Remission, до якої вас може скерувати сімейний лікар. І ремісія — це не одужання: майже після кожної програми схуднення частина ваги повертається, і саме тому м’язове питання, яке підняло це дослідження, таке важливе."
+        "text": "І одне чесне обмеження для більшості тих, хто це читає: якщо вам за 45, це дослідження вас не включало. Усім учасникам було 45 років або менше, а від діагнозу минуло не більше шести років; а верхню вікову межу підняли з 40 до 45 років лише під час набору учасників. Висновок, який має ширше значення, — не про молодість, а про те, щоб діяти якомога раніше після діагнозу, поки підшлункова залоза ще здатна відновитися. Для жінок за сорок і за п’ятдесят орієнтиром і далі залишається DiRECT, куди брали людей до 65 років і на якому ґрунтується програма NHS Type 2 Diabetes Path to Remission в Англії, до якої вас може скерувати сімейний лікар, якщо ви відповідаєте критеріям. І ремісія — це не одужання: майже після кожної програми схуднення частина ваги повертається, і саме тому м’язове питання, яке підняло це дослідження, таке важливе."
       },
       {
         "t": "h",
@@ -234,7 +234,7 @@ export default {
           },
           {
             "claim": "Програма — це 800–900 ккал на день зі скасуванням ліків плюс тренування під наглядом.",
-            "detail": "Тижні 1–12: низькоенергетична дієта 800–900 ккал/день (30% білка, 50% вуглеводів, 20% жиру), перші два тижні — повністю на замінниках їжі, далі одна страва зі звичайної їжі на день. Усі цукрознижувальні препарати та ліки від тиску скасовували на старті (за відсутності альбумінурії) й повертали за клінічної потреби. З третього тижня — два годинні заняття на тиждень під наглядом, порівну аеробних і силових, плюс одне самостійне аеробне заняття. Тижні 13–24: підтримувальне харчування із самостійними тренуваннями та щонайменше п’ятьма додатковими контактами з дієтологом і фахівцем із фізичних навантажень. Реєстрація дослідження ISRCTN15487120.",
+            "detail": "Тижні 1–12: низькоенергетична дієта 800–900 ккал/день (30% білка, 50% вуглеводів, 20% жиру), перші два тижні — повністю на замінниках їжі, далі одна страва зі звичайної їжі на день. Усі цукрознижувальні препарати та ліки від тиску скасовували на старті (за відсутності альбумінурії) й повертали за клінічної потреби. З третього тижня — два заняття на тиждень під наглядом, що поступово подовжувалися до 1 години, порівну аеробних і силових, плюс одне самостійне аеробне заняття. Тижні 13–24: підтримувальне харчування із самостійними тренуваннями та щонайменше п’ятьма додатковими контактами з дієтологом і фахівцем із фізичних навантажень. Реєстрація дослідження ISRCTN15487120.",
             "cite": "The Lancet Regional Health – Americas · Протокол і методи дослідження, 2026",
             "url": "https://www.isrctn.com/ISRCTN15487120"
           },
@@ -281,7 +281,7 @@ export default {
       },
       {
         "q": "Чи можна просто їсти 800 калорій на день і отримати той самий результат?",
-        "a": "Самостійно — небезпечно, особливо якщо ви приймаєте ліки від діабету чи тиску. У дослідженні ці препарати скасовував у перший день лікар, який далі контролював глюкозу й тиск і повертав ліки за потреби; без нагляду на деяких препаратах це загрожує небезпечно низьким рівнем цукру. Та й сама дієта складалася зі збалансованих за поживністю замінників їжі, а не просто з меншої кількості звичної їжі. У Великій Британії програма NHS Type 2 Diabetes Path to Remission пропонує такий низькокалорійний підхід під наглядом лікарів — запитайте сімейного лікаря чи діабетичну команду, чи підходите ви."
+        "a": "Самостійно — небезпечно, особливо якщо ви приймаєте ліки від діабету чи тиску. У дослідженні ці препарати скасовував у перший день лікар, який далі контролював глюкозу й тиск і повертав ліки за потреби; без нагляду на деяких препаратах це загрожує небезпечно низьким рівнем цукру. Та й сама дієта складалася зі збалансованих за поживністю замінників їжі, а не просто з меншої кількості звичної їжі. В Англії програма NHS Type 2 Diabetes Path to Remission пропонує такий низькокалорійний підхід під наглядом лікарів — запитайте сімейного лікаря чи діабетичну команду, чи підходите ви."
       },
       {
         "q": "Мені за 45 — чи стосується це мене?",

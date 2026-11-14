@@ -19,7 +19,7 @@ export default {
     "metaDesc": "A study of 52,330 women followed for 12 years found no difference in heart attacks, strokes, clots or early death between HRT users and non-users.",
     "excerpt": "An Israeli study of 52,330 women found no difference in heart attacks, strokes, clots or early death between HRT starters and non-starters. Still a conference abstract.",
     "meta": "7 November 2026 · 6 min read",
-    "lead": "Last week brought the largest piece of reassurance yet about hormone therapy and the heart: 52,330 women, twelve years of follow-up, and no measurable difference in heart attacks, strokes, blood clots or early death between the women who started HRT and the women who did not. It is a genuinely useful finding, and it is worth knowing exactly what it is - a conference abstract that has not yet been peer-reviewed, built on health records rather than a randomised trial - and one piece of arithmetic in the coverage that does not add up.",
+    "lead": "This week brought one of the largest pieces of reassurance yet about hormone therapy and the heart: 52,330 women, twelve years of follow-up, and no measurable difference in heart attacks, strokes, blood clots or early death between the women who started HRT and the women who did not. It is a genuinely useful finding, and it is worth knowing exactly what it is - a conference abstract that has not yet been peer-reviewed, built on health records rather than a randomised trial - and one piece of arithmetic in the coverage that does not add up.",
     "blocks": [
       {
         "t": "p",
@@ -63,7 +63,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Which leaves the practical position roughly where mainstream guidance already sits, with rather more confidence behind it. If you have symptoms that are affecting your life, the heart is not the reason to hold back - and this is now the largest body of evidence saying so. If you have no symptoms and were thinking about hormone therapy for your heart, this is not the study that justifies it. For that you would need a trial that randomises women to take it or not, and that trial has not been run."
+        "text": "Which leaves the practical position roughly where mainstream guidance already sits, with rather more confidence behind it. If you have symptoms that are affecting your life, the heart is not the reason to hold back - and this is one of the largest studies yet to say so. If you have no symptoms and were thinking about hormone therapy for your heart, this is not the study that justifies it. For that you would need a trial that randomises women to take it or not, and that trial has not been run."
       },
       {
         "t": "h",
@@ -80,13 +80,13 @@ export default {
           },
           {
             "claim": "The percentages quoted in the coverage look roughly half the size of the study's own event rates.",
-            "detail": "The AHA release reports 2,311 cardiovascular events among hormone therapy users and 2,383 among non-users, described as 4.4% and 4.6%. Those percentages only work if the denominator is the whole cohort of 52,330 rather than the 26,165 women in each arm: 2,311 of 26,165 is 8.8%, and 2,383 of 26,165 is 9.1%. The study's own rate of 7.82 cardiovascular events per 1,000 person-years over a mean of roughly 12 years of follow-up points to the higher figure as well. The comparison between the two groups - the hazard ratio of 0.98 - is unaffected, because both arms are counted the same way. What changes is the reader's sense of how common these events were.",
+            "detail": "The AHA release reports 2,311 cardiovascular events among hormone therapy users and 2,383 among non-users, described as 4.4% and 4.6%. Those percentages only work if the denominator is the whole cohort of 52,330 rather than the 26,165 women in each arm: 2,311 of 26,165 is 8.8%, and 2,383 of 26,165 is 9.1%. The release's other percentages follow the same pattern: 659 deaths (1.3%) and 174 clots (0.33%) in the hormone therapy group are fractions of 52,330, not of 26,165. The study's own rate of 7.82 cardiovascular events per 1,000 person-years over a mean of roughly 12 years of follow-up points to the higher figure as well. The comparison between the two groups - the hazard ratio of 0.98 - is unaffected, because both arms are counted the same way. What changes is the reader's sense of how common these events were.",
             "cite": "Arithmetic check against the release's own counts and person-year rates",
             "url": "https://www.healio.com/news/cardiology/20261105/contemporary-hormone-therapy-does-not-worsen-cardiovascular-risk"
           },
           {
             "claim": "The authors say hormone therapy should be prescribed for menopausal symptoms, not for cardiovascular prevention.",
-            "detail": "Reported alongside the abstract. The authors also state that the findings should not be extrapolated to women with established cardiovascular disease, previous venous thromboembolism or cancer, or to women starting hormone therapy well after menopause - none of whom were in the cohort. Stacey E. Rosen, MD, FAHA, of the Katz Institute for Women's Health at Northwell Health and immediate past AHA volunteer president, who was not involved in the study, commented that it adds to growing evidence that today's hormone therapy options may not increase heart disease risk for healthy women starting treatment around menopause.",
+            "detail": "Lead author Ronen Arbel, speaking to Healio. He also states that the findings should not be extrapolated to women with established cardiovascular disease, previous venous thromboembolism or cancer, or to women starting hormone therapy well after menopause - none of whom were in the cohort. Separately, in the AHA's own release, Stacey E. Rosen, MD, FAHA, of the Katz Institute for Women's Health at Northwell Health and past AHA volunteer president (2025-2026), who was not involved in the study, commented that it adds to growing evidence that today's hormone therapy options may not increase heart disease risk for healthy women starting treatment around menopause.",
             "cite": "Healio · Conference report, 5 November 2026",
             "url": "https://www.healio.com/news/cardiology/20261105/contemporary-hormone-therapy-does-not-worsen-cardiovascular-risk"
           },
@@ -123,7 +123,7 @@ export default {
     "faq": [
       {
         "q": "Does this mean HRT is safe for my heart?",
-        "a": "For women like those in the study - in their late forties or fifties, starting around menopause, with no history of heart disease, blood clots or cancer - it is the strongest evidence yet that hormone therapy does not raise cardiovascular risk. Two caveats. It is an observational study, not a randomised trial, so it shows that the two groups fared the same rather than proving hormone therapy caused that. And it is a conference abstract, which has not been through peer review and is treated as preliminary until it appears as a full paper. Your own risk profile is still a conversation with your prescriber."
+        "a": "For women like those in the study - in their late forties or fifties, starting around menopause, with no history of heart disease, blood clots or cancer - it is some of the strongest evidence yet that hormone therapy does not raise cardiovascular risk. Two caveats. It is an observational study, not a randomised trial, so it shows that the two groups fared the same rather than proving hormone therapy caused that. And it is a conference abstract, which has not been through peer review and is treated as preliminary until it appears as a full paper. Your own risk profile is still a conversation with your prescriber."
       },
       {
         "q": "Should I take HRT to protect my heart?",
@@ -147,7 +147,7 @@ export default {
     "metaDesc": "Дослідження 52 330 жінок за 12 років не виявило різниці в інфарктах, інсультах, тромбозах і ранній смерті між тими, хто приймав ЗГТ, і тими, хто ні.",
     "excerpt": "Ізраїльське дослідження 52 330 жінок не виявило різниці в інфарктах, інсультах, тромбозах і ранній смерті між тими, хто почав ЗГТ, і тими, хто ні. Це ще лише тези.",
     "meta": "7 листопада 2026 · 6 хв читання",
-    "lead": "Минулого тижня з’явилося найбільше на сьогодні заспокоєння щодо гормональної терапії й серця: 52 330 жінок, дванадцять років спостереження і жодної вимірної різниці в інфарктах, інсультах, тромбозах або ранній смерті між тими, хто почав ЗГТ, і тими, хто ні. Це справді корисний результат — і варто точно знати, що це таке: конференційні тези, які ще не пройшли рецензування і спираються на дані медичних карток, а не на рандомізоване дослідження. А ще в новинах є одна цифра, яка не сходиться.",
+    "lead": "Цього тижня з’явилося одне з найвагоміших на сьогодні заспокоєнь щодо гормональної терапії й серця: 52 330 жінок, дванадцять років спостереження і жодної вимірної різниці в інфарктах, інсультах, тромбозах або ранній смерті між тими, хто почав ЗГТ, і тими, хто ні. Це справді корисний результат — і варто точно знати, що це таке: конференційні тези, які ще не пройшли рецензування і спираються на дані медичних карток, а не на рандомізоване дослідження. А ще в новинах є одна цифра, яка не сходиться.",
     "blocks": [
       {
         "t": "p",
@@ -191,7 +191,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У практичному сенсі це залишає все приблизно там, де вже перебувають основні клінічні настанови, — тільки тепер за ними більше впевненості. Якщо у вас є симптоми, які впливають на життя, серце — не причина стримуватися, і тепер за цим стоїть найбільший масив доказів. Якщо симптомів немає, а ви думали про терапію саме для серця — це не те дослідження, яке це виправдовує. Для цього потрібне рандомізоване дослідження, де жінок випадково розподіляли б на тих, хто приймає терапію, і тих, хто ні, — а такого ще не проводили."
+        "text": "У практичному сенсі це залишає все приблизно там, де вже перебувають основні клінічні настанови, — тільки тепер за ними більше впевненості. Якщо у вас є симптоми, які впливають на життя, серце — не причина стримуватися, і це одне з найбільших досліджень, які це підтверджують. Якщо симптомів немає, а ви думали про терапію саме для серця — це не те дослідження, яке це виправдовує. Для цього потрібне рандомізоване дослідження, де жінок випадково розподіляли б на тих, хто приймає терапію, і тих, хто ні, — а такого ще не проводили."
       },
       {
         "t": "h",
@@ -208,13 +208,13 @@ export default {
           },
           {
             "claim": "Відсотки, які розійшлися новинами, виглядають удвічі меншими за власні показники дослідження.",
-            "detail": "У прес-релізі асоціації зазначено 2311 серцево-судинних подій серед тих, хто приймав терапію, і 2383 серед тих, хто ні — як 4,4% і 4,6%. Ці відсотки сходяться лише тоді, якщо знаменником узяти всю вибірку з 52 330, а не 26 165 жінок у кожній групі: 2311 із 26 165 — це 8,8%, а 2383 із 26 165 — 9,1%. Власний показник дослідження — 7,82 події на 1000 людино-років за близько 12 років — вказує на те саме. Порівняння між групами — відношення ризиків 0,98 — від цього не змінюється, бо обидві групи пораховано однаково. Змінюється лише відчуття того, наскільки частими були ці події.",
+            "detail": "У прес-релізі асоціації зазначено 2311 серцево-судинних подій серед тих, хто приймав терапію, і 2383 серед тих, хто ні — як 4,4% і 4,6%. Ці відсотки сходяться лише тоді, якщо знаменником узяти всю вибірку з 52 330, а не 26 165 жінок у кожній групі: 2311 із 26 165 — це 8,8%, а 2383 із 26 165 — 9,1%. Інші відсотки в прес-релізі мають ту саму ваду: 659 смертей (1,3%) і 174 тромбози (0,33%) у групі терапії — це частка від 52 330, а не від 26 165. Власний показник дослідження — 7,82 події на 1000 людино-років за близько 12 років — вказує на те саме. Порівняння між групами — відношення ризиків 0,98 — від цього не змінюється, бо обидві групи пораховано однаково. Змінюється лише відчуття того, наскільки частими були ці події.",
             "cite": "Перевірка арифметики за власними цифрами прес-релізу",
             "url": "https://www.healio.com/news/cardiology/20261105/contemporary-hormone-therapy-does-not-worsen-cardiovascular-risk"
           },
           {
             "claim": "Автори кажуть: гормональну терапію призначають для симптомів менопаузи, а не для захисту серця.",
-            "detail": "Повідомлено разом із тезами. Автори також зазначають, що результати не слід переносити на жінок з уже встановленими серцево-судинними захворюваннями, перенесеним тромбозом або раком чи на тих, хто починає терапію значно пізніше після менопаузи — таких жінок у вибірці не було. Stacey E. Rosen, MD, FAHA (Katz Institute for Women’s Health, Northwell Health; попередня волонтерська президентка асоціації), яка не брала участі в дослідженні, зазначила, що воно поповнює дедалі більший масив доказів: сучасні варіанти терапії можуть не підвищувати ризику серцевих захворювань для здорових жінок, які починають лікування довкола менопаузи.",
+            "detail": "Слова провідного автора Ronen Arbel у коментарі для Healio. Він також зазначає, що результати не слід переносити на жінок з уже встановленими серцево-судинними захворюваннями, перенесеним тромбозом або раком чи на тих, хто починає терапію значно пізніше після менопаузи — таких жінок у вибірці не було. Окремо, у власному прес-релізі асоціації, Stacey E. Rosen, MD, FAHA (Katz Institute for Women’s Health, Northwell Health; волонтерська президентка асоціації у 2025–2026 роках), яка не брала участі в дослідженні, зазначила, що воно поповнює дедалі більший масив доказів: сучасні варіанти терапії можуть не підвищувати ризику серцевих захворювань для здорових жінок, які починають лікування довкола менопаузи.",
             "cite": "Healio · Звіт із конференції, 5 листопада 2026",
             "url": "https://www.healio.com/news/cardiology/20261105/contemporary-hormone-therapy-does-not-worsen-cardiovascular-risk"
           },
@@ -251,7 +251,7 @@ export default {
     "faq": [
       {
         "q": "Це означає, що ЗГТ безпечна для мого серця?",
-        "a": "Для жінок, схожих на тих, кого вивчали — близько сорока п’яти — п’ятдесяти років, без серцевих захворювань, тромбозів і раку в анамнезі, які починають терапію довкола менопаузи — це найсильніші на сьогодні докази, що гормональна терапія не підвищує серцево-судинного ризику. Два застереження. Це спостережне дослідження, а не рандомізоване, тому воно показує, що дві групи пройшли ці роки однаково, а не доводить, що саме терапія це забезпечила. І це конференційні тези, які не проходили рецензування і вважаються попередніми, доки не вийдуть повною статтею. Свій індивідуальний профіль ризику все одно варто обговорити з лікарем."
+        "a": "Для жінок, схожих на тих, кого вивчали — віком від сорока п’яти до п’ятдесяти дев’яти років, без серцевих захворювань, тромбозів і раку в анамнезі, які починають терапію довкола менопаузи — це одні з найсильніших на сьогодні доказів, що гормональна терапія не підвищує серцево-судинного ризику. Два застереження. Це спостережне дослідження, а не рандомізоване, тому воно показує, що дві групи пройшли ці роки однаково, а не доводить, що саме терапія це забезпечила. І це конференційні тези, які не проходили рецензування і вважаються попередніми, доки не вийдуть повною статтею. Свій індивідуальний профіль ризику все одно варто обговорити з лікарем."
       },
       {
         "q": "Чи варто приймати ЗГТ, щоб захистити серце?",
