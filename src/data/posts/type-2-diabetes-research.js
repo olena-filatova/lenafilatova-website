@@ -206,7 +206,7 @@ export default {
     "faq": [
       {
         "q": "Can type 2 diabetes go into remission?",
-        "a": "Yes, for some people. The five-year DiRECT trial found 46% of participants reached remission in the first year, and 26% of those in remission at two years were still medication-free at five years. It’s most likely with substantial, sustained weight loss — especially soon after diagnosis — and support from your diabetes team, though it isn’t achievable or right for everyone."
+        "a": "Yes, for some people. The five-year DiRECT trial found 46% of participants reached remission in the first year, and 26% of those in remission at two years were still in remission at five years. It’s most likely with substantial, sustained weight loss — especially soon after diagnosis — and support from your diabetes team, though it isn’t achievable or right for everyone."
       },
       {
         "q": "Does eating order really affect blood sugar?",
@@ -427,7 +427,7 @@ export default {
     "faq": [
       {
         "q": "Чи може діабет 2 типу увійти в ремісію?",
-        "a": "Так, у деяких людей. П’ятирічне дослідження DiRECT виявило, що 46% учасників досягли ремісії в перший рік, а 26% тих, хто був у ремісії через два роки, усе ще обходилися без ліків через п’ять років. Найімовірніше її досягти за суттєвого й стійкого зниження ваги — особливо невдовзі після діагнозу — і за підтримки вашої команди лікарів, хоча це досяжно й доречно не для кожного."
+        "a": "Так, у деяких людей. П’ятирічне дослідження DiRECT виявило, що 46% учасників досягли ремісії в перший рік, а 26% тих, хто був у ремісії через два роки, усе ще були в ремісії через п’ять років. Найімовірніше її досягти за суттєвого й стійкого зниження ваги — особливо невдовзі після діагнозу — і за підтримки вашої команди лікарів, хоча це досяжно й доречно не для кожного."
       },
       {
         "q": "Чи справді порядок їжі впливає на цукор у крові?",

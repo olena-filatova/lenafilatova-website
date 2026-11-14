@@ -70,7 +70,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "In women of your age with type 1 diabetes, these two are not remotely equal in frequency. In the same database, Graves' disease was recorded in about 1.4% to 1.7% of women across the 40-to-54 age bands - roughly one in sixty, against roughly one in three for the under-active form. A long-running Tunisian hospital series of adults who had both an autoimmune thyroid condition and another autoimmune disease found the same ranking: Hashimoto's in 63% and Graves' in 37%."
+        "text": "In women of your age with type 1 diabetes, these two are not remotely equal in frequency. In the same database, Graves' disease was recorded in about 1.4% to 1.7% of women across the 40-to-54 age bands - roughly one in sixty, against roughly one in three for the under-active form. A long-running Tunisian hospital series of adults who had both an autoimmune thyroid condition and another autoimmune disease found the same ranking among the 41 who had type 1 diabetes: Hashimoto's in 63% and Graves' in 37%."
       },
       {
         "t": "p",
@@ -106,7 +106,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The textbook model says an under-active thyroid lowers insulin requirements - the kidneys clear insulin more slowly, the liver pushes out less glucose - and that this can mean unexplained hypos. The most direct measurement anyone has published points the other way. A 2026 study in Catania followed 30 adults with type 1 diabetes and autoimmune thyroiditis, all on pumps with sensors, and found that the higher the TSH and the lower the free thyroid hormone, the more insulin they needed - for both basal and bolus doses, independent of HbA1c, diabetes duration and weight. Thirty people, measured once, and the authors themselves call it hypothesis-generating rather than settled."
+        "text": "The textbook model says an under-active thyroid lowers insulin requirements - the kidneys clear insulin more slowly, the liver pushes out less glucose - and that this can mean unexplained hypos. The most direct measurement anyone has published points the other way. A 2026 study in Catania looked back at the records of 30 adults with type 1 diabetes and autoimmune thyroiditis, all on pumps with sensors, and found that the higher the TSH and the lower the free thyroid hormone, the more insulin they needed - for both basal and bolus doses, independent of HbA1c, diabetes duration and weight. Thirty people, measured once, and the authors themselves call it hypothesis-generating rather than settled."
       },
       {
         "t": "p",
@@ -150,7 +150,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This one is small but specific, and it catches people out. Oestrogen taken by mouth passes through the liver first and raises the protein that binds thyroid hormone in the blood, which leaves less of it free and active. In a 2001 study published in the New England Journal of Medicine, 25 postmenopausal women with hypothyroidism on thyroxine were followed for 48 weeks after starting oral oestrogen. Their free thyroxine fell, their TSH rose, and among the 18 on standard replacement, seven ended up with a TSH above 7 and needed their dose increased."
+        "text": "This one is small but specific, and it catches people out. Oestrogen taken by mouth passes through the liver first and raises the protein that binds thyroid hormone in the blood, which leaves less of it free and active. In a 2001 study published in the New England Journal of Medicine, 25 postmenopausal women with hypothyroidism on thyroxine were followed for 48 weeks after starting oral oestrogen. Their free thyroxine fell, their TSH rose, and among the 18 on standard replacement, seven ended up with a TSH above 7 - a rise that would need a higher dose to correct."
       },
       {
         "t": "p",
@@ -234,7 +234,7 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9871454/"
           },
           {
-            "claim": "In adults with both conditions, Hashimoto's outnumbers Graves' roughly two to one.",
+            "claim": "In adults with both conditions, Hashimoto's outnumbers Graves' by nearly two to one.",
             "detail": "Haj Kacem Akid F, Ben Salah R, Soomauroo S, Missaoui A, Chouaib S, Marzouk S, Charfi N, Bahloul Z, Abid M. 'Type 1 diabetes mellitus and autoimmune thyroid disorders.' Endocrine Abstracts 2022;81:EP1038 (European Congress of Endocrinology). A retrospective descriptive series from Hedi Chaker University Hospital, Sfax, Tunisia, collected over 18 years: 113 patients with an autoimmune thyroid disorder alongside another autoimmune disease, of whom 41 (31.5%) had type 1 diabetes - 25 women and 16 men, mean age at diabetes diagnosis 30.5 years. Among those 41, Hashimoto's disease accounted for 26 cases (63.4%) and Graves' disease for 15 (36.6%). Note the direction of selection: everyone in this series already had thyroid disease, so it describes the ratio between the two forms, not how often thyroid disease occurs in type 1 diabetes. It is also a conference abstract rather than a peer-reviewed paper.",
             "cite": "Endocrine Abstracts · Conference abstract, 2022",
             "url": "https://www.endocrine-abstracts.org/ea/0081/ea0081ep1038"
@@ -295,7 +295,7 @@ export default {
       },
       {
         "q": "I was told I have thyroid antibodies. Does that mean I will get thyroid disease?",
-        "a": "Not necessarily, and the gap between the two is wider than most people assume. In a Taiwanese cohort of 761 children and adolescents with type 1 diabetes, 25.9% had thyroid antibodies but only 5.5% went on to develop actual thyroid disease. Antibodies indicate that your immune system recognises the thyroid, which raises the odds over a lifetime and is a reason for your results to be watched - it is not a diagnosis, and it is not something you are treated for on its own. NICE also notes that once antibodies have been measured, they are not repeated, because the answer does not change."
+        "a": "Not necessarily, and the gap between the two is wider than most people assume. In a Taiwanese cohort of 761 children and adolescents with type 1 diabetes, 25.9% had thyroid antibodies but only 5.5% went on to develop actual thyroid disease. Antibodies indicate that your immune system recognises the thyroid, which raises the odds over a lifetime and is a reason for your results to be watched - it is not a diagnosis, and it is not something you are treated for on its own. NICE also notes that once antibodies have been measured in adults, the test is not repeated."
       },
       {
         "q": "Can a thyroid problem change how much insulin I need?",
@@ -303,7 +303,7 @@ export default {
       },
       {
         "q": "I take HRT. Does that affect thyroid tests or levothyroxine?",
-        "a": "It can if you take oestrogen as tablets. Oestrogen taken by mouth goes through the liver first and increases the protein that binds thyroid hormone, which leaves less free and active. In a 2001 study of 25 postmenopausal women with hypothyroidism on thyroxine, oral oestrogen lowered free thyroxine and raised TSH, and 7 of the 18 on standard replacement needed a dose increase. Patches and gels go through the skin and skip that liver effect, and that is what most UK women are started on now. The practical point is simply to have your thyroid level rechecked after starting or changing hormone therapy, and to let whoever prescribes your levothyroxine know."
+        "a": "It can if you take oestrogen as tablets. Oestrogen taken by mouth goes through the liver first and increases the protein that binds thyroid hormone, which leaves less free and active. In a 2001 study of 25 postmenopausal women with hypothyroidism on thyroxine, oral oestrogen lowered free thyroxine and raised TSH, and in 7 of the 18 on standard replacement TSH rose above 7, a level that would call for a higher dose. Patches and gels go through the skin and skip that liver effect, and that is what most UK women are started on now. The practical point is simply to have your thyroid level rechecked after starting or changing hormone therapy, and to let whoever prescribes your levothyroxine know."
       }
     ]
   },
@@ -363,7 +363,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У жінок вашого віку з діабетом 1 типу ці дві хвороби аж ніяк не рівні за частотою. У тій самій базі хворобу Грейвса зафіксовано приблизно в 1,4–1,7% жінок у вікових групах від 40 до 54 років — приблизно одна з шістдесяти, проти приблизно однієї з трьох для зниженої функції. Багаторічна туніська лікарняна серія дорослих, які мали і автоімунне захворювання щитоподібної залози, і ще одне автоімунне захворювання, дала той самий порядок: Хашимото у 63%, Грейвса у 37%."
+        "text": "У жінок вашого віку з діабетом 1 типу ці дві хвороби аж ніяк не рівні за частотою. У тій самій базі хворобу Грейвса зафіксовано приблизно в 1,4–1,7% жінок у вікових групах від 40 до 54 років — приблизно одна з шістдесяти, проти приблизно однієї з трьох для зниженої функції. Багаторічна туніська лікарняна серія дорослих, які мали і автоімунне захворювання щитоподібної залози, і ще одне автоімунне захворювання, дала той самий порядок серед 41 пацієнта з діабетом 1 типу: Хашимото у 63%, Грейвса у 37%."
       },
       {
         "t": "p",
@@ -443,7 +443,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Цей пункт невеликий, але конкретний — і на ньому спотикаються. Естроген у таблетках спершу проходить через печінку й підвищує білок, що зв’язує гормон щитоподібної залози в крові, тож вільного й активного лишається менше. У дослідженні 2001 року, опублікованому в New England Journal of Medicine, 25 жінок у постменопаузі з гіпотиреозом на тироксині спостерігали 48 тижнів після початку перорального естрогену. Їхній вільний тироксин знизився, ТТГ зріс, і серед 18 на стандартній замісній терапії у сімох ТТГ перевищив 7 і дозу довелося підвищити."
+        "text": "Цей пункт невеликий, але конкретний — і на ньому спотикаються. Естроген у таблетках спершу проходить через печінку й підвищує білок, що зв’язує гормон щитоподібної залози в крові, тож вільного й активного лишається менше. У дослідженні 2001 року, опублікованому в New England Journal of Medicine, 25 жінок у постменопаузі з гіпотиреозом на тироксині спостерігали 48 тижнів після початку перорального естрогену. Їхній вільний тироксин знизився, ТТГ зріс, і серед 18 на стандартній замісній терапії у сімох ТТГ перевищив 7 — таке зростання потребувало б вищої дози, щоб його виправити."
       },
       {
         "t": "p",
@@ -527,7 +527,7 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9871454/"
           },
           {
-            "claim": "У дорослих, які мають обидва стани, Хашимото переважає над Грейвсом приблизно два до одного.",
+            "claim": "У дорослих, які мають обидва стани, Хашимото переважає над Грейвсом майже два до одного.",
             "detail": "Haj Kacem Akid F, Ben Salah R, Soomauroo S, Missaoui A, Chouaib S, Marzouk S, Charfi N, Bahloul Z, Abid M. «Type 1 diabetes mellitus and autoimmune thyroid disorders.» Endocrine Abstracts 2022;81:EP1038 (Європейський конгрес ендокринології). Ретроспективна описова серія з університетської лікарні Hedi Chaker, Сфакс, Туніс, зібрана за 18 років: 113 пацієнтів з автоімунним захворюванням щитоподібної залози поряд з іншим автоімунним захворюванням, з яких 41 (31,5%) мав діабет 1 типу — 25 жінок і 16 чоловіків, середній вік на момент діагнозу діабету 30,5 року. Серед цих 41 на хворобу Хашимото припало 26 випадків (63,4%), на хворобу Грейвса — 15 (36,6%). Зверніть увагу на напрям відбору: усі в цій серії вже мали захворювання щитоподібної залози, тож вона описує співвідношення між двома формами, а не частоту щитоподібних розладів при діабеті 1 типу. Це також тези конференції, а не рецензована стаття.",
             "cite": "Endocrine Abstracts · Тези конференції, 2022",
             "url": "https://www.endocrine-abstracts.org/ea/0081/ea0081ep1038"
@@ -588,7 +588,7 @@ export default {
       },
       {
         "q": "Мені сказали, що в мене антитіла до щитоподібної залози. Це означає, що хвороба буде?",
-        "a": "Не обов’язково, і розрив між цими двома речами ширший, ніж більшість припускає. У тайванській когорті з 761 дитини й підлітка з діабетом 1 типу антитіла були у 25,9%, але власне захворювання щитоподібної залози розвинулося лише у 5,5%. Антитіла свідчать, що ваша імунна система «бачить» щитоподібну залозу, — це підвищує шанси впродовж життя і є підставою стежити за результатами. Це не діагноз, і їх саме по собі не лікують. NICE також зазначає, що, раз виміряні, антитіла не повторюють, бо відповідь не змінюється."
+        "a": "Не обов’язково, і розрив між цими двома речами ширший, ніж більшість припускає. У тайванській когорті з 761 дитини й підлітка з діабетом 1 типу антитіла були у 25,9%, але власне захворювання щитоподібної залози розвинулося лише у 5,5%. Антитіла свідчать, що ваша імунна система «бачить» щитоподібну залозу, — це підвищує шанси впродовж життя і є підставою стежити за результатами. Це не діагноз, і їх саме по собі не лікують. NICE також зазначає, що, раз виміряні в дорослих, антитіла повторно не перевіряють."
       },
       {
         "q": "Чи може щитоподібна залоза змінити мою потребу в інсуліні?",
@@ -596,7 +596,7 @@ export default {
       },
       {
         "q": "Я приймаю ГТ. Чи впливає це на аналізи щитоподібної залози або на левотироксин?",
-        "a": "Може впливати, якщо ви приймаєте естроген у таблетках. Пероральний естроген спершу проходить через печінку й підвищує білок, що зв’язує гормон щитоподібної залози, тож вільного й активного лишається менше. У дослідженні 2001 року на 25 жінках у постменопаузі з гіпотиреозом на тироксині пероральний естроген знизив вільний тироксин і підвищив ТТГ, і 7 із 18 на стандартній замісній терапії потребували підвищення дози. Пластирі й гелі проходять крізь шкіру й цей печінковий ефект оминають — саме з них більшість британських жінок тепер і починає. Практичний висновок простий: перевірте рівень щитоподібної залози після початку або зміни гормональної терапії і повідомте того, хто призначає вам левотироксин."
+        "a": "Може впливати, якщо ви приймаєте естроген у таблетках. Пероральний естроген спершу проходить через печінку й підвищує білок, що зв’язує гормон щитоподібної залози, тож вільного й активного лишається менше. У дослідженні 2001 року на 25 жінках у постменопаузі з гіпотиреозом на тироксині пероральний естроген знизив вільний тироксин і підвищив ТТГ, і у 7 із 18 на стандартній замісній терапії ТТГ піднявся вище 7 — рівень, що потребував би вищої дози. Пластирі й гелі проходять крізь шкіру й цей печінковий ефект оминають — саме з них більшість британських жінок тепер і починає. Практичний висновок простий: перевірте рівень щитоподібної залози після початку або зміни гормональної терапії і повідомте того, хто призначає вам левотироксин."
       }
     ]
   }
