@@ -1,16 +1,12 @@
 # recipe--gingerbread-cookies
 
-Last checked: 2026-10-07
+Last checked: 2026-11-15
 PR: (this PR)
-Notes: Three fixes. (1) `title` said "без цукру" (no sugar), but the
-recipe contains honey and the EN title says "No Refined Sugar" — the
-`why` field already correctly says "без рафінованого цукру" a few lines
-down, so the title was an inconsistent/inaccurate outlier. Changed to
-"Різдвяне імбирне печиво без рафінованого цукру" to match EN and the rest
-of the entry. (2) `method` step 6 called the pinch of vanilla "ваніль"
-while the `ingredients` list for the same ingredient uses "ванілін" —
-changed the method's "ваніль" to "ванілін" for internal consistency.
-(3) `method` step 8 dropped "a little" from "colour part with a little
-cocoa"; added "трохи" before "какао" to restore it. Everything else
-(imgAlt, nutrition, meta, ingredients, remaining method steps, note)
-matched the English and read naturally — no further changes.
+Notes: 11 fixes (second cycle). Euphony «, з вкрапленнями» → «, із вкрапленнями»; punctuation
+(comma in «свіжого, дрібно натертого»; no comma in «легкої білої піни»). Method: moved the
+blender aside from "chill" to "mix" where it belongs in EN; step 4 subject mismatch («може
+лишатися трохи вологи, але … затвердіє») → «печиво може бути трохи вологим, але, охолонувши,
+затвердіє»; «при 150°C» → «за 150°C»; «за 10–15 хвилин» → «через 10–15 хвилин»; telegraphic
+step 3 and «З’єднайте … до щільної консистенції для нанесення» rewritten naturally; "pipe" →
+«відсадіть»; "Warmly spiced" → «Пряне»; note agreement «Чудові …» → «Чудовий їстівний подарунок
+або прикраса для ялинки». No numbers, doses or facts changed.
