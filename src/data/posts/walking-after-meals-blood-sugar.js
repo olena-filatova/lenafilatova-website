@@ -1,7 +1,6 @@
 export default {
   "slug": "walking-after-meals-blood-sugar",
   "date": "2026-08-13",
-  "featured": true,
   "image": "/images/walking-after-meals-blood-sugar.jpg",
   "cats": [
     "diabetes",
