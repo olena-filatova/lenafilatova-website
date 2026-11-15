@@ -25,7 +25,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "The study is a descriptive comparison, and the authors use that word themselves. It lines up three public datasets: national food supply from FAOSTAT for 62 countries between 2010 and 2023, temperature records from the ERA5 climate reanalysis, and diabetes prevalence estimates from the International Diabetes Federation. Each region’s food supply was scored against the Planetary Health Diet, the EAT-Lancet template for feeding ten billion people without wrecking the climate. Southern Europe came closest to it; Western Europe was furthest away. Over the same period, the study reports diabetes among adults aged 20 to 79 rising from 6.4% to 9.3% in Southern Europe, 5.3% to 6.5% in Western Europe and 4.7% to 6.2% in Northern Europe."
+        "text": "The study is a descriptive comparison, and the authors use that word themselves. It lines up three public datasets: national food supply from FAOSTAT for 39 European countries between 2010 and 2023, temperature records from the ERA5 climate reanalysis, and diabetes prevalence estimates from the International Diabetes Federation. Each region’s food supply was scored against the Planetary Health Diet, the EAT-Lancet template for feeding ten billion people without wrecking the climate. Southern Europe — which in this paper means Italy, Spain, Portugal, Greece and Malta plus Albania and the former Yugoslav states — came closest to it; Western Europe was furthest away. Between 2011 and 2024, the study reports diabetes as a share of the whole population rising from 6.4% to 9.3% in Southern Europe, 5.3% to 6.5% in Western Europe and 4.7% to 6.2% in Northern Europe."
       },
       {
         "t": "p",
@@ -49,11 +49,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "The paper’s own hypothesis is heat. Its full title is about climate change and rising temperatures, its keywords are climate change and One Health, and it sits in a journal section on air and climate. Southern Europe, it notes, has warmed the most and seen diabetes climb the most. In Italy, temperature and diabetes prevalence were correlated at r = 0.6 — across eleven annual data points. Four regions and eleven years is not a finding about causes, and the authors say so: the correlation does not establish causation, and the analysis cannot show whether warming or diet contributed to the trend."
+        "text": "The paper’s own hypothesis is heat. Its full title is about climate change and rising temperatures, its keywords include climate change and One Health, and it sits in a journal section on air and climate. Southern Europe, it notes, has warmed the most and seen diabetes climb the most. In Italy, temperature and diabetes prevalence were correlated at r = 0.6 — across eleven annual data points. Four regions and eleven years is not a finding about causes, and the authors say so: the correlation does not establish causation, and the analysis cannot show whether warming or diet contributed to the trend."
       },
       {
         "t": "p",
-        "text": "Which makes it worth noticing where the other explanations came from. Ultra-processed food creeping into Mediterranean kitchens, sedentary lifestyles, bigger portions — these turn up confidently in coverage of the study, and none of them appears in its published abstract. The full text is not out yet; the article went online on 4 November as an early-access version, with the complete PDF still to come. Nobody writing about it last week had read a discussion section, because there wasn’t one to read."
+        "text": "Which makes it worth noticing where the other explanations came from. Ultra-processed food creeping into Mediterranean kitchens, sedentary lifestyles, bigger portions — these turn up confidently in coverage of the study, and none of them appears in its abstract. The full text does not mention ultra-processed food or portion sizes at all. Its discussion does list population ageing, obesity and physical activity — but only as factors the authors could not measure and that “may contribute”, not as findings."
       },
       {
         "t": "p",
@@ -69,7 +69,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is also a measurement gap underneath the whole thing. FAOSTAT food-supply data describes what arrives in a country — including what is thrown away — not what anybody actually eats. The authors list this first among their limitations, along with the fact that they could not separate whole grains from refined ones in the data. And the paper’s own showcase country undercuts the paradox: Italy, it reports, has a more balanced dietary profile and lower diabetes prevalence than the Southern European average. The country most associated with the diet is the one that fits the pattern least."
+        "text": "There is also a measurement gap underneath the whole thing. FAOSTAT food-supply data describes what arrives in a country — including what is thrown away — not what anybody actually eats. The authors list this among their limitations, along with the fact that they could not separate whole grains from refined ones in the data. And the paper’s own showcase country undercuts the paradox: Italy, it reports, has a more balanced dietary profile and lower diabetes prevalence than the Southern European average. The country most associated with the diet is the one that fits the pattern least."
       },
       {
         "t": "p",
@@ -84,25 +84,25 @@ export default {
         "items": [
           {
             "claim": "Southern Europe’s food supply comes closest to the Planetary Health Diet, and the region also shows the largest rise in diabetes.",
-            "detail": "A descriptive comparison of ERA5 temperature reanalysis, IDF diabetes prevalence and FAOSTAT food-supply indicators across four European macro-regions, with a separate focus on Italy. Southern Europe showed the closest adherence to Planetary Health Diet recommendations and Western Europe the largest deviation, while Southern Europe showed both the most pronounced warming and the greatest increase in diabetes prevalence. The authors describe the work as exploratory and descriptive; it uses national food-availability data rather than individual intake, does not adjust for ageing, obesity, physical activity or healthcare access, and cannot establish causation. Published as an early-access article on 4 November 2026 — the complete text was not yet available at the time of writing.",
+            "detail": "A descriptive comparison of ERA5 temperature reanalysis, IDF diabetes prevalence and FAOSTAT food-supply indicators across four European macro-regions, with a separate focus on Italy. Southern Europe showed the closest adherence to Planetary Health Diet recommendations and Western Europe the largest deviation, while Southern Europe showed both the most pronounced warming and the greatest increase in diabetes prevalence. The authors describe the work as exploratory and descriptive; it uses national food-availability data rather than individual intake, does not adjust for ageing, obesity, physical activity or healthcare access, and cannot establish causation. Diabetes prevalence was computed as a share of each region’s total population, and the trend rests on just two time points per region, 2011 and 2024; type 1 and type 2 diabetes were not separated. Published online on 4 November 2026.",
             "cite": "Sustainability 2026;18(21):11264 · Descriptive ecological analysis, 4 November 2026",
             "url": "https://doi.org/10.3390/su182111264"
           },
           {
             "claim": "Italy’s diabetes prevalence is 11.4% before adjusting for age and 7.7% after.",
-            "detail": "IDF Diabetes Atlas, 11th edition, figures for adults aged 20–79 in 2024. Crude versus age-standardised prevalence: Italy 11.4% / 7.7%, Portugal 14.3% / 10.5%, Spain 13.1% / 9.7%, Greece 11.4% / 8.0%, Germany 10.6% / 7.8%, United Kingdom 9.2% / 7.4%, Sweden 7.5% / 5.8%, Netherlands 6.9% / 5.0%, Norway 6.1% / 4.8%. For Europe as a whole, 9.8% crude and 8.0% age-standardised. Age standardisation removes roughly a third of the Southern European figures but does not close the gap with Northern and Western Europe.",
+            "detail": "IDF Diabetes Atlas, 11th edition, figures for adults aged 20–79 in 2024. Crude versus age-standardised prevalence: Italy 11.4% / 7.7%, Portugal 14.3% / 10.5%, Spain 13.1% / 9.7%, Greece 11.4% / 8.0%, Germany 10.6% / 7.8%, United Kingdom 9.2% / 7.4%, Sweden 7.5% / 5.8%, Netherlands 6.9% / 5.0%, Norway 6.1% / 4.8%. For Europe as a whole, 9.8% crude and 8.0% age-standardised. Age standardisation lowers the Southern European figures by roughly a quarter to a third but does not close the gap with Northern and Western Europe.",
             "cite": "International Diabetes Federation · IDF Diabetes Atlas 11th edition, Europe factsheet, 2025",
             "url": "https://diabetesatlas.org/data-by-location/region/europe/"
           },
           {
             "claim": "Italy has the oldest population in the EU.",
-            "detail": "Eurostat demography data for 1 January 2024: median age 48.7 years in Italy, the highest in the European Union, followed by Bulgaria and Portugal at 47.1 and Greece at 46.9. The EU median was 44.7 years; Ireland was lowest at 39.4. Since diabetes prevalence rises steeply with age, raw prevalence comparisons between countries with different age structures are not like-for-like.",
-            "cite": "Eurostat · Population structure and ageing, data extracted February 2025",
-            "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php/Population_structure_and_ageing"
+            "detail": "Eurostat demography data for 1 January 2024: median age 48.7 years in Italy, the highest in the European Union, followed by Bulgaria at 47.1 and Greece at 46.9. The EU median was 44.7 years; Ireland was lowest at 39.4. Since diabetes prevalence rises steeply with age, raw prevalence comparisons between countries with different age structures are not like-for-like.",
+            "cite": "Eurostat · Median age of population (demo_pjanind), 1 January 2024",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_pjanind/default/table"
           },
           {
             "claim": "A Mediterranean diet with olive oil cut new type 2 diabetes by 40% in a randomised trial.",
-            "detail": "PREDIMED randomised 3,541 participants at high cardiovascular risk and without diabetes at baseline to a Mediterranean diet with extra-virgin olive oil, a Mediterranean diet with mixed nuts, or a low-fat control diet, with no calorie restriction and a median 4.1 years of follow-up. New diabetes occurred in 80, 92 and 101 participants respectively. Multivariate-adjusted hazard ratios against control were 0.60 (95% CI 0.43–0.85) for the olive oil arm and 0.82 (95% CI 0.61–1.10) for the nut arm, which did not reach significance; pooling both Mediterranean arms gave 0.70 (95% CI 0.54–0.92). This was a prespecified secondary outcome.",
+            "detail": "PREDIMED randomised 3,541 participants at high cardiovascular risk and without diabetes at baseline to a Mediterranean diet with extra-virgin olive oil, a Mediterranean diet with mixed nuts, or a low-fat control diet, with no calorie restriction and a median 4.1 years of follow-up. New diabetes occurred in 80, 92 and 101 participants respectively. Multivariate-adjusted hazard ratios against control were 0.60 (95% CI 0.43–0.85) for the olive oil arm and 0.82 (95% CI 0.61–1.10) for the nut arm, which did not reach significance; pooling both Mediterranean arms gave 0.70 (95% CI 0.54–0.92). This was a prespecified secondary outcome, analysed in the subgroup without diabetes at baseline; the paper was corrected in 2018 after irregularities were found in PREDIMED’s randomisation at some sites.",
             "cite": "Annals of Internal Medicine 2014 · Randomised controlled trial",
             "url": "https://pubmed.ncbi.nlm.nih.gov/24573661/"
           },
@@ -159,7 +159,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Це описове порівняння, і автори самі вживають саме це слово. Робота зіставляє три відкриті набори даних: дані FAOSTAT про національне постачання продуктів для 62 країн за 2010–2023 роки, температурні дані кліматичного реаналізу ERA5 та оцінки поширеності діабету Міжнародної діабетичної федерації (IDF). Постачання продуктів у кожному регіоні оцінювали на відповідність планетарній дієті здоров’я — шаблону EAT-Lancet, як прогодувати десять мільярдів людей, не руйнуючи клімату. Найближчою до нього виявилася Південна Європа, найдалі — Західна. За той самий період поширеність діабету серед дорослих віком 20–79 років зросла, за даними роботи, із 6,4% до 9,3% у Південній Європі, з 5,3% до 6,5% у Західній і з 4,7% до 6,2% у Північній."
+        "text": "Це описове порівняння, і автори самі вживають саме це слово. Робота зіставляє три відкриті набори даних: дані FAOSTAT про національне постачання продуктів для 39 європейських країн за 2010–2023 роки, температурні дані кліматичного реаналізу ERA5 та оцінки поширеності діабету Міжнародної діабетичної федерації (IDF). Постачання продуктів у кожному регіоні оцінювали на відповідність планетарній дієті здоров’я — шаблону EAT-Lancet, як прогодувати десять мільярдів людей, не руйнуючи клімату. Найближчою до нього виявилася Південна Європа — у цій роботі це Італія, Іспанія, Португалія, Греція й Мальта, а також Албанія та країни колишньої Югославії, — найдалі — Західна. З 2011 до 2024 року частка людей із діабетом серед усього населення зросла, за даними роботи, із 6,4% до 9,3% у Південній Європі, з 5,3% до 6,5% у Західній і з 4,7% до 6,2% у Північній."
       },
       {
         "t": "p",
@@ -183,11 +183,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Власна гіпотеза авторів — спека. Повна назва роботи стосується зміни клімату та зростання температур, ключові слова — зміна клімату й One Health, а вийшла вона в розділі журналу, присвяченому повітрю та клімату. Південна Європа, зазначають автори, нагрілася найбільше — і саме там найбільше зріс діабет. В Італії температура й поширеність діабету корелювали на рівні r = 0,6 — за одинадцятьма річними точками даних. Чотири регіони й одинадцять років не дають підстав для висновків про причини, і автори це визнають: кореляція не встановлює причинності, а аналіз не може показати, чи вплинули на цю тенденцію потепління або харчування."
+        "text": "Власна гіпотеза авторів — спека. Повна назва роботи стосується зміни клімату та зростання температур, серед ключових слів — зміна клімату й One Health, а вийшла вона в розділі журналу, присвяченому повітрю та клімату. Південна Європа, зазначають автори, нагрілася найбільше — і саме там найбільше зріс діабет. В Італії температура й поширеність діабету корелювали на рівні r = 0,6 — за одинадцятьма річними точками даних. Чотири регіони й одинадцять років не дають підстав для висновків про причини, і автори це визнають: кореляція не встановлює причинності, а аналіз не може показати, чи вплинули на цю тенденцію потепління або харчування."
       },
       {
         "t": "p",
-        "text": "Тож варто звернути увагу, звідки взялися інші пояснення. Ультраоброблена їжа, що просочується в середземноморські кухні, малорухливий спосіб життя, більші порції — усе це впевнено зринає в публікаціях про дослідження, проте в опублікованій анотації статті немає жодного з них. Повного тексту ще немає: матеріал з’явився онлайн 4 листопада як версія раннього доступу, повний PDF ще попереду. Ніхто з тих, хто писав про нього минулого тижня, не міг прочитати розділу з обговоренням — його просто ще не було."
+        "text": "Тож варто звернути увагу, звідки взялися інші пояснення. Ультраоброблена їжа, що просочується в середземноморські кухні, малорухливий спосіб життя, більші порції — усе це впевнено зринає в публікаціях про дослідження, проте в анотації статті немає жодного з них. У повному тексті про ультраоброблену їжу чи розмір порцій не йдеться взагалі. В обговоренні справді згадано старіння населення, ожиріння та фізичну активність — але лише як чинники, яких автори не змогли виміряти і які «можуть сприяти», а не як результати."
       },
       {
         "t": "p",
@@ -203,7 +203,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "А в основі всього цього є ще й проблема з вимірюванням. Дані FAOSTAT про постачання продуктів описують те, що потрапляє в країну, — включно з тим, що викидають, — а не те, що хтось справді з’їдає. Автори називають це першим серед обмежень, поряд із тим, що в даних не вдалося відокремити цільнозернові продукти від рафінованих. А країна, на якій стаття окремо зосереджується, сама підважує парадокс: Італія, як зазначено, має збалансованіший профіль харчування й нижчу поширеність діабету, ніж у середньому по Південній Європі. Країна, яку найбільше асоціюють із цією дієтою, найменше вписується в схему."
+        "text": "А в основі всього цього є ще й проблема з вимірюванням. Дані FAOSTAT про постачання продуктів описують те, що потрапляє в країну, — включно з тим, що викидають, — а не те, що хтось справді з’їдає. Автори називають це серед обмежень, поряд із тим, що в даних не вдалося відокремити цільнозернові продукти від рафінованих. А країна, на якій стаття окремо зосереджується, сама підважує парадокс: Італія, як зазначено, має збалансованіший профіль харчування й нижчу поширеність діабету, ніж у середньому по Південній Європі. Країна, яку найбільше асоціюють із цією дієтою, найменше вписується в схему."
       },
       {
         "t": "p",
@@ -218,25 +218,25 @@ export default {
         "items": [
           {
             "claim": "Постачання продуктів у Південній Європі найближче до планетарної дієти здоров’я, і саме в цьому регіоні найбільше зросла поширеність діабету.",
-            "detail": "Описове порівняння температурного реаналізу ERA5, даних IDF про поширеність діабету та показників постачання продуктів FAOSTAT для чотирьох європейських макрорегіонів з окремим акцентом на Італії. Південна Європа показала найбільшу відповідність рекомендаціям планетарної дієти здоров’я, Західна — найбільше відхилення, при цьому Південна Європа мала і найвиразніше потепління, і найбільше зростання поширеності діабету. Автори називають роботу пошуковою та описовою: вона використовує дані про національну доступність продуктів, а не про індивідуальне споживання, не робить поправок на старіння, ожиріння, фізичну активність чи доступ до медичної допомоги й не може встановити причинність. Опубліковано як статтю раннього доступу 4 листопада 2026 року — на момент написання повний текст ще не був доступний.",
+            "detail": "Описове порівняння температурного реаналізу ERA5, даних IDF про поширеність діабету та показників постачання продуктів FAOSTAT для чотирьох європейських макрорегіонів з окремим акцентом на Італії. Південна Європа показала найбільшу відповідність рекомендаціям планетарної дієти здоров’я, Західна — найбільше відхилення, при цьому Південна Європа мала і найвиразніше потепління, і найбільше зростання поширеності діабету. Автори називають роботу пошуковою та описовою: вона використовує дані про національну доступність продуктів, а не про індивідуальне споживання, не робить поправок на старіння, ожиріння, фізичну активність чи доступ до медичної допомоги й не може встановити причинність. Поширеність діабету рахували як частку від усього населення регіону, а тенденція спирається лише на дві точки для кожного регіону — 2011 і 2024 роки; діабет 1 і 2 типу не розрізняли. Опубліковано онлайн 4 листопада 2026 року.",
             "cite": "Sustainability 2026;18(21):11264 · Описовий екологічний аналіз, 4 листопада 2026",
             "url": "https://doi.org/10.3390/su182111264"
           },
           {
             "claim": "Поширеність діабету в Італії — 11,4% до поправки на вік і 7,7% після неї.",
-            "detail": "Діабетичний атлас IDF, 11-те видання, дані для дорослих 20–79 років за 2024 рік. «Сира» та стандартизована за віком поширеність: Італія 11,4% / 7,7%, Португалія 14,3% / 10,5%, Іспанія 13,1% / 9,7%, Греція 11,4% / 8,0%, Німеччина 10,6% / 7,8%, Велика Британія 9,2% / 7,4%, Швеція 7,5% / 5,8%, Нідерланди 6,9% / 5,0%, Норвегія 6,1% / 4,8%. Для Європи загалом — 9,8% «сирої» і 8,0% стандартизованої за віком поширеності. Стандартизація за віком прибирає приблизно третину південноєвропейських показників, але не закриває розрив із Північною та Західною Європою.",
+            "detail": "Діабетичний атлас IDF, 11-те видання, дані для дорослих 20–79 років за 2024 рік. «Сира» та стандартизована за віком поширеність: Італія 11,4% / 7,7%, Португалія 14,3% / 10,5%, Іспанія 13,1% / 9,7%, Греція 11,4% / 8,0%, Німеччина 10,6% / 7,8%, Велика Британія 9,2% / 7,4%, Швеція 7,5% / 5,8%, Нідерланди 6,9% / 5,0%, Норвегія 6,1% / 4,8%. Для Європи загалом — 9,8% «сирої» і 8,0% стандартизованої за віком поширеності. Стандартизація за віком знижує південноєвропейські показники приблизно на чверть–третину, але не закриває розрив із Північною та Західною Європою.",
             "cite": "Міжнародна діабетична федерація · Діабетичний атлас IDF, 11-те видання, довідка щодо Європи, 2025",
             "url": "https://diabetesatlas.org/data-by-location/region/europe/"
           },
           {
             "claim": "Італія має найстаріше населення ЄС.",
-            "detail": "Демографічні дані Євростату станом на 1 січня 2024 року: медіанний вік 48,7 року в Італії — найвищий у Євросоюзі, далі Болгарія та Португалія з 47,1 і Греція з 46,9. Медіана по ЄС становила 44,7 року, найнижчий показник в Ірландії — 39,4. Оскільки поширеність діабету різко зростає з віком, порівнювати «сирі» показники країн із різною віковою структурою — це порівнювати непорівнянне.",
-            "cite": "Євростат · Структура населення та старіння, дані отримано в лютому 2025",
-            "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php/Population_structure_and_ageing"
+            "detail": "Демографічні дані Євростату станом на 1 січня 2024 року: медіанний вік 48,7 року в Італії — найвищий у Євросоюзі, далі Болгарія з 47,1 і Греція з 46,9. Медіана по ЄС становила 44,7 року, найнижчий показник в Ірландії — 39,4. Оскільки поширеність діабету різко зростає з віком, порівнювати «сирі» показники країн із різною віковою структурою — це порівнювати непорівнянне.",
+            "cite": "Євростат · Медіанний вік населення (demo_pjanind), 1 січня 2024",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_pjanind/default/table"
           },
           {
             "claim": "Середземноморська дієта з оливковою олією знизила частоту нового діабету 2 типу на 40% у рандомізованому дослідженні.",
-            "detail": "У PREDIMED 3 541 учасника з високим серцево-судинним ризиком і без діабету на початку дослідження випадковим чином розподілили на середземноморську дієту з оливковою олією extra virgin, середземноморську дієту з горіховою сумішшю або контрольну дієту зі зниженим вмістом жиру, без обмеження калорій і з медіаною спостереження 4,1 року. Новий діабет виник у 80, 92 та 101 учасника відповідно. Багатофакторно скориговані відношення ризиків порівняно з контролем становили 0,60 (95% ДІ 0,43–0,85) у групі з оливковою олією та 0,82 (95% ДІ 0,61–1,10) у групі з горіхами — останнє не досягло статистичної значущості; об’єднання обох середземноморських груп дало 0,70 (95% ДІ 0,54–0,92). Це була заздалегідь визначена вторинна кінцева точка.",
+            "detail": "У PREDIMED 3 541 учасника з високим серцево-судинним ризиком і без діабету на початку дослідження випадковим чином розподілили на середземноморську дієту з оливковою олією extra virgin, середземноморську дієту з горіховою сумішшю або контрольну дієту зі зниженим вмістом жиру, без обмеження калорій і з медіаною спостереження 4,1 року. Новий діабет виник у 80, 92 та 101 учасника відповідно. Багатофакторно скориговані відношення ризиків порівняно з контролем становили 0,60 (95% ДІ 0,43–0,85) у групі з оливковою олією та 0,82 (95% ДІ 0,61–1,10) у групі з горіхами — останнє не досягло статистичної значущості; об’єднання обох середземноморських груп дало 0,70 (95% ДІ 0,54–0,92). Це була заздалегідь визначена вторинна кінцева точка, яку аналізували в підгрупі без діабету на початку дослідження; у 2018 році до статті внесли виправлення після того, як у кількох центрах PREDIMED виявили порушення рандомізації.",
             "cite": "Annals of Internal Medicine 2014 · Рандомізоване контрольоване дослідження",
             "url": "https://pubmed.ncbi.nlm.nih.gov/24573661/"
           },
