@@ -1743,6 +1743,24 @@
       ]
     ]
   },
+  "/images/perimenopause-acne-insulin-resistance.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/perimenopause-acne-insulin-resistance-480.avif"
+      ],
+      [
+        800,
+        "/images/v/perimenopause-acne-insulin-resistance-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/perimenopause-acne-insulin-resistance-1200.avif"
+      ]
+    ]
+  },
   "/images/perimenopause-anxiety-mind-body-exercise.jpg": {
     "w": 1200,
     "h": 675,
