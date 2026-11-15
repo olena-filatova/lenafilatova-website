@@ -1,5 +1,12 @@
 # post--type-2-diabetes-cancer-risk-women
 
-- Last checked: 2026-10-06
+- Last checked: 2026-11-13
 - PR: (this PR)
-- Notes: Six fixes. Researcher's surname "Laurberg" was transliterated as "Лауберг" (missing the р) in both body mentions — corrected to "Лаурберг". A grammar slip, "в обох статей" (wrong case after "в"), corrected to "в обох статях". Internal terminology inconsistency: the same paragraph used both "рак передміхурової залози" and "рак простати" for the same cancer — standardised on "рак простати" to match the refs box. A locative-case slip, "в різних поколінь жінок", corrected to "в різних поколіннях жінок". "activity" (as a risk factor, alongside weight/smoking) had been rendered as "рухливістю" (mobility) rather than activity level — corrected to "фізичною активністю" to match site terminology. For site-wide GP/сімейний лікар consistency, the two generic "лікаря" mentions for "GP appointment" were changed to "сімейного лікаря".
+- Notes: 24 fixes (second cycle). Calques: «Це заголовок» for "That is the headline" → «Це головний
+  висновок»; «Воно використало реєстри» → «Автори скористалися реєстрами»; «перевернулася до 25%
+  вищої», «обернення» → «розворот»; «підвищених у жінок» for "raised" → «частіших»; «відкладати
+  вбік» → «відкладати на потім»; «доглядом за серцем» → «контролем стану серця»; «пріоритизувати»;
+  «тренд» → «тенденцію»; «щорічна зустріч EASD» → «щорічний конгрес». Grammar: «лікування … мають»
+  (agreement), mixed colon/«що» construction in the lead, run-on sentence about smoking split.
+  Consistency: «Дотичне читання» → «Читайте також» (site standard), linked post title matched to
+  that post's actual UA title. No numbers, facts or URLs changed.
