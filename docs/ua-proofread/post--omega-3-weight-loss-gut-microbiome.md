@@ -1,5 +1,5 @@
 # UA proofread: post--omega-3-weight-loss-gut-microbiome
 
-- Last checked: 2026-11-12 (third cycle; previously 2026-10-31, 2026-09-29)
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/547
-- Notes: Already solid, so this pass was about style. 9 fixes: 6 calques/clumsy phrasing (FAQ «Жири не зникають у кров… які бактерії там добре ростуть», «це спосіб, у який наука формулює гіпотезу», «із незначущою тенденцією до більшої частки», «ні в кого від початку до шести місяців», «лишилися на місці», «і те, і те»), 1 tautology («покращує маркери краще»), 1 word choice («просто в кишківнику» → «прямо»), 1 meaning restoration against EN («across the group» had been dropped). No Russianisms, surzhyk or untranslated English found. Numbers, doses, P-values, URLs, slugs and the `en` object untouched (verified by script).
+- Last checked: 2026-11-15 (fourth cycle; previously 2026-11-12, 2026-10-31, 2026-09-29)
+- PR: PR_LINK
+- Notes: 13 fixes. Key meaning fix: FAQ «Ніхто в цьому дослідженні не захворів і не «уникнув» раку» read as a finding that nobody got cancer — rewritten to say cancer was not tracked. Others: 4 calques («материнське дослідження» ×2 → «вихідне», «пряме порівняння їх не розділило», «Для контрасту», «не є підставою»), 2 overstatement/repetition («встановлено» → «простежують» for a correlation; «значеннями… мають значення»), 1 word order («Ацетат більше зріс»), 1 repeated «там», 1 meaning restoration («demonstrably» taken), 2 length (excerpt 176 → 164, metaDesc 176 → 158). Numbers, doses, P-values, URLs, slugs and `en` untouched (verified by script).
