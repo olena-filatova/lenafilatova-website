@@ -1,9 +1,5 @@
-# UA proofread: recipe--almond-beetroot-cookies
+# recipe--almond-beetroot-cookies
 
-- Last checked: 2026-10-06
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/335
-- Notes: fixed a subject–verb number agreement error in `why`
-  («...борошно тримають...» → «...борошно тримає...» — «борошно» is a singular
-  neuter noun). Rest of the UA text (`imgAlt`, `title`, `nutrition`, `meta`,
-  `ingredients`, `method`, `note`) checked against `en` paragraph by paragraph;
-  no other issues found.
+- **Last checked:** 2026-11-14 (second pass; previous 2026-10-06)
+- **PR:** (this PR — branch `claude/ua-proofread-20261114-0203`)
+- **Notes:** 8 fixes. `imgAlt` «Крупним планом» → «Великий план»; `why` calque «тримає глікемічний вплив помірним» → «стримує глікемічний вплив», dash splice → «тож…, а…»; method: «до гладкості» → «до однорідності» (×2), «Вмішайте… до гладкого тіста» rebuilt as «Додайте… й замісіть… тісто», restored omitted "coconut" in «ще 1 ст. л. кокосової олії», «повністю охолодіть» → «дайте печиву повністю охолонути», «злегка притисніть»; `note` restored the "great fun" meaning. No quantities, temperatures or times changed.
