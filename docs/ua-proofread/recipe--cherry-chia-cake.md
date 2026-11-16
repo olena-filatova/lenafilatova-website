@@ -1,5 +1,5 @@
-# UA proofread: recipe--cherry-chia-cake
+# recipe--cherry-chia-cake
 
-- Last checked: 2026-10-08
-- PR: (this PR)
-- Notes: 2 fixes. Both terminology: «круглим каттером» ("round cutter") → «круглою формочкою» — the site's established term for a cutter/cookie-mould elsewhere (caprese-valentine-salad: «серце формочкою»; carob-chocolates: «~12 сердець формочкою» / «тією ж формочкою»), and «каттер» was an anglicism used nowhere else on the site. Also «найкраще ніч» → «найкраще на ніч» — missing the preposition "на" that every other "overnight" instruction on the site uses (e.g. wholegrain-bread: «ідеально на ніч»; beef-skewers-wine-sauce: «або на ніч»). Ingredients, quantities and method order all matched the `en` object paragraph by paragraph; no Russianisms, surzhyk or straight-quote punctuation found.
+- **Last checked:** 2026-11-16 (second pass; previous 2026-10-08)
+- **PR:** (this PR — branch `claude/ua-proofread-20261116-0604`)
+- **Notes:** 4 fixes. `why.ua`: restored the omitted "layered with" and replaced the clumsy compound «вишнево-чіа компотом» → «прошарований густим компотом із вишні та чіа», «кислі вишні й чіа» → «кисла вишня й насіння чіа» (avoids repeating the phrase). `method.ua`: «Розріжте… і виріжте» (doubled root) → «Розділіть… на коржі й… виріжте»; «Прошаруйте кола» → «коржі»; «Охолоджуйте щонайменше 2 години» → «Поставте в холодильник щонайменше на 2 години (найкраще — на ніч)». Quantities, temperatures, times unchanged; title, imgAlt, ingredients clean.
