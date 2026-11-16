@@ -1,0 +1,5 @@
+# UA proofread: post--perimenopause-acne-insulin-resistance
+
+- Last checked: 2026-11-16 (first pass)
+- PR: (this PR)
+- Notes: 62 fixes, apostrophes already ’. Meaning vs `en`: lead had dropped "the part that tends to go missing" and the monthly timing; "a reporting problem, not a rarity" was half-translated; SAFA paragraph was missing the BAD-guidance sentence, "which is no difference at all" and "matched placebo"; the SAFA ref was missing both odds ratios (re-added from `en`, not changed); the HSR claim had dropped "increases sebum"; the Biomedicines ref had dropped the author attribution; "referring back to primary care" restored (×2). Grammar: «біологічно зважений» → «обґрунтований» (wrong word), «Жодна з них … кожної» → «Жоден … кожного», «2023му/12му/24му» → hyphenated ordinals, «в 2025/в 55%» → «у». Calques rewritten: «бере на себе дуже багато», «рухаються в одному десятиріччі», «змінюють розмову зі шкіри на гормони», «ходить поруч із», «Двадцять чотири тижні перевершили дванадцять», «попри статус ліцензії», «перерізні» → «поперечні». No numbers, doses, links or `en` text changed.
