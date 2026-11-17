@@ -1,5 +1,5 @@
 # UA proofread: recipe--buckwheat-cookies
 
-- Last checked: 2026-10-08
-- PR: (this PR)
-- Notes: Fixed a meaning mismatch in `why` (UA dropped "no sugar at all" / "stays filling rather than spiking" and talked about ingredients instead), added the missing "until smooth" nuance in the blending step, replaced an odd-register word ("розпластайте") with a more natural cooking verb, and fixed an imperative verb-form typo ("Залиште" → "Залишіть") in the last method step.
+- Last checked: 2026-11-17 (second pass; previous 2026-10-08)
+- PR: (this PR — branch `claude/ua-proofread-20261117-0900`)
+- Notes: 6 fixes. `imgAlt`: "stacked" calque «складені» → «покладені одне на одне», "scattered with" restored as «посипані підсмаженою гречаною крупою»; `why`: "spiking" restored («різкий стрибок цукру», not just «підвищує») and «перекус» → «печиво»; method: «Знову все змішайте» → «перемішайте», gender agreement «на деку, вистелену» → «на деку, застеленому», «для просушування» → «щоб печиво підсохло». No quantities, temperatures or `en` text changed.
