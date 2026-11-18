@@ -35,7 +35,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Update, 14 October 2026. A much larger cohort of the same question — about 3,900 midlife women, from the same lead author — has now been announced, and it splits this finding in two: the hormone-therapy advantage held up among women taking semaglutide, but among those taking tirzepatide it no longer reached statistical significance. The study above analysed 120 women, 40 of them on hormone therapy. I have written up what the larger look found [here](/blog/hrt-glp1-weight-loss-midlife-women/)."
+        "text": "Update, 14 October 2026. A much larger cohort of the same question — 3,855 midlife women, from the same lead author — splits this finding in two: the hormone-therapy advantage held up among women taking semaglutide, but among those taking tirzepatide it no longer reached statistical significance. The study above analysed 120 women, 40 of them on hormone therapy. The figures from the larger cohort came out in late October, and they are much smaller than the gap on this page: between one and two percentage points of body weight, not five. I have written up what the larger look found [here](/blog/hrt-glp1-weight-loss-midlife-women/)."
       },
       {
         "t": "h",
@@ -117,7 +117,7 @@ export default {
     "title": "Гормональна терапія плюс тирзепатид: на 35% більша втрата ваги після менопаузи — у спостережному, а не рандомізованому дослідженні",
     "seoTitle": "Тирзепатид + ЗГТ: на 35% більша втрата ваги після менопаузи",
     "metaDesc": "The Lancet, 2026: у постменопаузі тирзепатид із гормональною терапією дав на 35% більшу втрату ваги, ніж сам тирзепатид. І застереження щодо кісток і м’язів.",
-    "excerpt": "У когортному дослідженні The Lancet 2026 року жінки в постменопаузі на тирзепатиді з гормональною терапією схудли на 35% більше, ніж без неї. Обнадійливо, але дослідження спостережне.",
+    "excerpt": "У когортному дослідженні The Lancet 2026 року жінки на тирзепатиді з гормональною терапією схудли на 35% більше, ніж без неї. Обнадійливо, але дослідження спостережне.",
     "meta": "27 липня 2026 · 4 хв читання",
     "lead": "Якщо для вас зараз актуальні і менопауза, і вага, то ось дослідження, яке привернуло мою увагу. Аналіз 2026 року свідчить, що додавання гормональної терапії до тирзепатиду — агоніста GLP-1/GIP, діючої речовини Mounjaro та Zepbound, — може відчутно посилити втрату ваги після менопаузи. Сигнал справді цікавий, тож розберімо, що саме показало дослідження, і ту частину, яка важить не менше за заголовок.",
     "blocks": [
@@ -139,7 +139,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Оновлення, 14 жовтня 2026 року. Оголошено результати значно більшого когортного дослідження на ту саму тему — близько 3 900 жінок середнього віку, та сама провідна авторка, — і вона розділяє цей висновок надвоє: перевага гормональної терапії втрималася серед тих, хто приймав семаглутид, але серед тих, хто приймав тирзепатид, вона вже не досягла статистичної значущості. У дослідженні вище проаналізували 120 жінок, 40 із них на гормональній терапії. Що показало більше дослідження, я описала [тут](/ua/blog/hrt-glp1-weight-loss-midlife-women/)."
+        "text": "Оновлення, 14 жовтня 2026 року. Значно більше когортне дослідження на ту саму тему — 3 855 жінок середнього віку, та сама провідна авторка — розділяє цей висновок надвоє: перевага гормональної терапії втрималася серед тих, хто приймав семаглутид, але серед тих, хто приймав тирзепатид, вона вже не досягла статистичної значущості. У дослідженні вище проаналізували 120 жінок, 40 із них на гормональній терапії. Цифри з більшої когорти оприлюднили в кінці жовтня, і вони значно менші за розрив на цій сторінці: від одного до двох відсоткових пунктів маси тіла, а не п’ять. Що показало більше дослідження, я описала [тут](/ua/blog/hrt-glp1-weight-loss-midlife-women/)."
       },
       {
         "t": "h",

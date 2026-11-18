@@ -19,7 +19,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "The new work is a retrospective cohort of midlife women treated for overweight or obesity — women over 45 with a BMI above 27 — of whom nearly 2,400 were taking semaglutide and nearly 1,500 tirzepatide. For each drug the researchers compared women who were also using menopausal hormone therapy with women who were not. Among the semaglutide users, hormone therapy was associated with significantly greater and sustained weight loss. Among the tirzepatide users, the hormone-therapy group lost more at first, but by the end of follow-up the difference no longer reached statistical significance."
+        "text": "The new work is a retrospective cohort of midlife women treated for overweight or obesity — women over 45 with a BMI above 27 — 3,855 women in all, of whom 2,379 were taking semaglutide and 1,476 tirzepatide. For each drug the researchers compared women who were also using menopausal hormone therapy with women who were not. Among the semaglutide users, hormone therapy was associated with significantly greater and sustained weight loss. Among the tirzepatide users, the hormone-therapy group lost more at first, but by the end of follow-up the difference no longer reached statistical significance."
       },
       {
         "t": "p",
@@ -31,7 +31,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Two more things keep this in proportion. The results are being presented at a conference rather than published in a peer-reviewed journal, and the announcement carries no percentages, no p-values and no follow-up lengths at all — so “significantly greater” is, for now, a claim without a number attached to it. And Dr Castaneda says the thing that matters most if you are reading this wondering whether to ask for a prescription: weight loss is not an indication for menopausal hormone therapy. If hormone therapy is right for you it will be because of your symptoms. Any effect on what a weight-loss drug does is a bonus nobody can yet promise you."
+        "text": "Two more things keep this in proportion. The results were presented at a conference rather than published in a peer-reviewed journal, and the figures did not come with the announcement at all — they surfaced afterwards in the medical trade press, which is where the update below comes from. And Dr Castaneda says the thing that matters most if you are reading this wondering whether to ask for a prescription: weight loss is not an indication for menopausal hormone therapy. If hormone therapy is right for you it will be because of your symptoms. Any effect on what a weight-loss drug does is a bonus nobody can yet promise you."
+      },
+      {
+        "t": "p",
+        "text": "Update, 18 November 2026. The figures have now been reported from the meeting itself, and they are more modest than “significantly greater” makes them sound. Among the semaglutide users, women also taking hormone therapy had lost 9.8% of their body weight at nine months against 8.2% for those not taking it, 11% against 9.5% at a year, 11.6% against 9.7% at fifteen months, and 11.9% against 10.9% across the whole follow-up. More of them crossed the bigger thresholds too: 55% against 51% lost at least a tenth of their body weight, 22% against 18% at least a fifth, 13% against 10% at least a quarter, and 6% against 4% at least 30%. Every one of those gaps is statistically significant, and every one of them is between one and two percentage points — a real difference, and a small one. None of it describes the tirzepatide group, where the same early direction appeared and then faded."
       },
       {
         "t": "h",
@@ -42,9 +46,15 @@ export default {
         "items": [
           {
             "claim": "In a larger cohort, hormone therapy was linked to greater weight loss on semaglutide — but not clearly on tirzepatide.",
-            "detail": "Retrospective cohort of women over 45 with a BMI above 27: nearly 2,400 taking semaglutide and nearly 1,500 taking tirzepatide, comparing those also using menopausal hormone therapy with those not. For semaglutide, hormone-therapy use was associated with significantly greater and sustained weight loss. For tirzepatide, the hormone-therapy group lost more initially, but the end results did not reach statistical significance. The announcement reports no percentages, p-values or follow-up lengths. These are conference results, not a peer-reviewed paper, and the design is observational, so it shows association rather than cause. Lead author Dr Regina Castaneda, Mayo Clinic Florida; to be presented at the 2026 Annual Meeting of The Menopause Society, San Diego, 20–24 October 2026.",
+            "detail": "Retrospective cohort of women over 45 with a BMI above 27: nearly 2,400 taking semaglutide and nearly 1,500 taking tirzepatide, comparing those also using menopausal hormone therapy with those not. For semaglutide, hormone-therapy use was associated with significantly greater and sustained weight loss. For tirzepatide, the hormone-therapy group lost more initially, but the end results did not reach statistical significance. The society's own announcement reported no percentages, p-values or follow-up lengths; those came out in the trade press after the presentation, and are set out in the next reference. These are conference results, not a peer-reviewed paper, and the design is observational, so it shows association rather than cause. Lead author Dr Regina Castaneda, Mayo Clinic Florida; to be presented at the 2026 Annual Meeting of The Menopause Society, San Diego, 20–24 October 2026.",
             "cite": "The Menopause Society · Retrospective cohort, conference presentation, October 2026",
             "url": "https://menopause.org/press-releases/hormone-therapy-may-increase-weight-loss-effectiveness-of-glp-1s"
+          },
+          {
+            "claim": "The semaglutide gap is between one and two percentage points at every timepoint measured.",
+            "detail": "Reported from the presentation: among the semaglutide users, total body weight loss with concurrent hormone therapy versus without was 9.8% vs 8.2% at nine months (P<.001), 11% vs 9.5% at one year (P=.001), 11.6% vs 9.7% at 15 months (P<.001) and 11.9% vs 10.9% across the follow-up period (P=.02). Proportions reaching each threshold, hormone therapy versus not: at least 10% loss, 55% vs 51% (P=.045); at least 20%, 22% vs 18% (P=.037); at least 25%, 13% vs 10% (P=.008); at least 30%, 6% vs 4% (P=.015). Tirzepatide showed a similar direction at the early timepoints but did not reach statistical significance, and no tirzepatide figures were given. One caution on the source: this report describes 2,379 as the whole cohort, whereas the society's own announcement and other coverage put 2,379 on semaglutide and 1,476 on tirzepatide, 3,855 in all, and attribute these figures to the semaglutide group. Lead author Regina Castaneda, MD, Mayo Clinic College of Medicine and Science, reports no relevant financial disclosures.",
+            "cite": "Healio · Report of The Menopause Society annual meeting presentation, 23 October 2026",
+            "url": "https://www.healio.com/news/womens-health-ob-gyn/20261023/hormone-therapy-plus-glp1-may-equal-greater-sustainable-weight-loss-for-menopausal-women"
           },
           {
             "claim": "The earlier tirzepatide finding rested on 40 women taking hormone therapy.",
@@ -80,7 +90,7 @@ export default {
     "faq": [
       {
         "q": "Does hormone therapy make weight-loss injections work better?",
-        "a": "The honest answer is that it might, for some women, on some drugs — and that nobody can yet tell you by how much. The new cohort links hormone therapy to greater sustained weight loss among women taking semaglutide, and that is the second independent cohort to point the same way. But it is observational, the results are being presented at a conference rather than published, and no effect size has been released. For tirzepatide, the advantage seen in a much smaller study did not hold up here."
+        "a": "The honest answer is that it might, for some women, on some drugs — and that nobody can yet tell you by how much. The new cohort links hormone therapy to greater sustained weight loss among women taking semaglutide, and that is the second independent cohort to point the same way. The figures reported from the meeting put the gap at between one and two percentage points of body weight at every point measured — consistent, statistically significant and small. It is still observational, and still a conference presentation rather than a published paper. For tirzepatide, the advantage seen in a much smaller study did not hold up here."
       },
       {
         "q": "Should I start hormone therapy to lose weight?",
@@ -100,7 +110,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Нова робота — це ретроспективна когорта жінок середнього віку, яких лікували від надмірної ваги чи ожиріння: старших за 45 років із ІМТ понад 27. Майже 2 400 із них приймали семаглутид і майже 1 500 — тирзепатид. Для кожного препарату дослідники порівняли жінок, які водночас отримували менопаузальну гормональну терапію, з тими, хто її не отримував. Серед тих, хто приймав семаглутид, гормональна терапія була пов’язана з істотно більшою і стійкішою втратою ваги. Серед тих, хто приймав тирзепатид, група на гормональній терапії спершу втрачала більше, але наприкінці спостереження різниця вже не досягала статистичної значущості."
+        "text": "Нова робота — це ретроспективна когорта жінок середнього віку, яких лікували від надмірної ваги чи ожиріння: старших за 45 років із ІМТ понад 27. Усього 3 855 жінок: 2 379 із них приймали семаглутид і 1 476 — тирзепатид. Для кожного препарату дослідники порівняли жінок, які водночас отримували менопаузальну гормональну терапію, з тими, хто її не отримував. Серед тих, хто приймав семаглутид, гормональна терапія була пов’язана з істотно більшою і стійкішою втратою ваги. Серед тих, хто приймав тирзепатид, група на гормональній терапії спершу втрачала більше, але наприкінці спостереження різниця вже не досягала статистичної значущості."
       },
       {
         "t": "p",
@@ -112,7 +122,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ще дві речі тримають усе в пропорції. Результати представляють на конференції, а не публікують у рецензованому журналі, і в повідомленні немає ані відсотків, ані p-значень, ані тривалості спостереження — тож «істотно більша» поки що є твердженням без жодної цифри. І докторка Кастанеда каже головне, якщо Ви читаєте це й думаєте, чи просити призначення: втрата ваги не є показанням до менопаузальної гормональної терапії. Якщо гормональна терапія Вам підходить, це буде через Ваші симптоми. Будь-який вплив на дію препарату для схуднення — це бонус, якого поки ніхто не може Вам пообіцяти."
+        "text": "Ще дві речі тримають усе в пропорції. Результати представили на конференції, а не опублікували в рецензованому журналі, а самих цифр у повідомленні так і не назвали — вони з’явилися вже потім, у медичній фаховій пресі, і саме звідти взяте оновлення нижче. І докторка Кастанеда каже головне, якщо Ви читаєте це й думаєте, чи просити призначення: втрата ваги не є показанням до менопаузальної гормональної терапії. Якщо гормональна терапія Вам підходить, це буде через Ваші симптоми. Будь-який вплив на дію препарату для схуднення — це бонус, якого поки ніхто не може Вам пообіцяти."
+      },
+      {
+        "t": "p",
+        "text": "Оновлення, 18 листопада 2026 року. Цифри з самої доповіді вже оприлюднили, і вони скромніші, ніж звучить «істотно більша». Серед тих, хто приймав семаглутид, жінки на гормональній терапії втратили 9,8% маси тіла за дев’ять місяців проти 8,2% у тих, хто її не отримував, 11% проти 9,5% за рік, 11,6% проти 9,7% за п’ятнадцять місяців і 11,9% проти 10,9% за весь час спостереження. Більше з них перетнули й вищі пороги: щонайменше десяту частину маси тіла втратили 55% проти 51%, щонайменше п’яту — 22% проти 18%, щонайменше четверту — 13% проти 10%, щонайменше 30% — 6% проти 4%. Кожен із цих розривів статистично значущий — і кожен становить від одного до двох відсоткових пунктів: різниця справжня і невелика. До групи тирзепатиду це все не стосується: там той самий напрямок з’явився рано, а потім зник."
       },
       {
         "t": "h",
@@ -123,9 +137,15 @@ export default {
         "items": [
           {
             "claim": "У більшій когорті гормональна терапія була пов’язана з більшою втратою ваги на семаглутиді — але не чітко на тирзепатиді.",
-            "detail": "Ретроспективна когорта жінок, старших за 45 років, з ІМТ понад 27: майже 2 400 приймали семаглутид і майже 1 500 — тирзепатид. Порівнювали тих, хто водночас отримував менопаузальну гормональну терапію, з тими, хто ні. Для семаглутиду гормональна терапія була пов’язана з істотно більшою і стійкішою втратою ваги. Для тирзепатиду група на гормональній терапії спершу втрачала більше, але кінцеві результати не досягли статистичної значущості. У повідомленні немає відсотків, p-значень і тривалості спостереження. Це результати конференції, а не рецензована публікація, і дизайн спостережний, тож ідеться про зв’язок, а не про причину. Провідна авторка — докторка Реджина Кастанеда, Mayo Clinic Florida; представлення на щорічній зустрічі The Menopause Society 2026 у Сан-Дієго, 20–24 жовтня 2026 року.",
+            "detail": "Ретроспективна когорта жінок, старших за 45 років, з ІМТ понад 27: майже 2 400 приймали семаглутид і майже 1 500 — тирзепатид. Порівнювали тих, хто водночас отримував менопаузальну гормональну терапію, з тими, хто ні. Для семаглутиду гормональна терапія була пов’язана з істотно більшою і стійкішою втратою ваги. Для тирзепатиду група на гормональній терапії спершу втрачала більше, але кінцеві результати не досягли статистичної значущості. У власному повідомленні товариства не було ані відсотків, ані p-значень, ані тривалості спостереження; вони з’явилися у фаховій пресі вже після доповіді й наведені в наступному джерелі. Це результати конференції, а не рецензована публікація, і дизайн спостережний, тож ідеться про зв’язок, а не про причину. Провідна авторка — докторка Реджина Кастанеда, Mayo Clinic Florida; представлення на щорічній зустрічі The Menopause Society 2026 у Сан-Дієго, 20–24 жовтня 2026 року.",
             "cite": "The Menopause Society · Ретроспективна когорта, доповідь на конференції, жовтень 2026",
             "url": "https://menopause.org/press-releases/hormone-therapy-may-increase-weight-loss-effectiveness-of-glp-1s"
+          },
+          {
+            "claim": "Розрив для семаглутиду становить від одного до двох відсоткових пунктів у кожній виміряній точці.",
+            "detail": "За даними з доповіді: серед тих, хто приймав семаглутид, втрата загальної маси тіла з одночасною гормональною терапією проти без неї становила 9,8% проти 8,2% за дев’ять місяців (P<0,001), 11% проти 9,5% за рік (P=0,001), 11,6% проти 9,7% за 15 місяців (P<0,001) і 11,9% проти 10,9% за весь період спостереження (P=0,02). Частка, яка досягла кожного порога, з гормональною терапією проти без неї: щонайменше 10% — 55% проти 51% (P=0,045), щонайменше 20% — 22% проти 18% (P=0,037), щонайменше 25% — 13% проти 10% (P=0,008), щонайменше 30% — 6% проти 4% (P=0,015). Для тирзепатиду напрямок був таким самим на ранніх точках, але не досяг статистичної значущості, і жодних цифр для нього не навели. Одне застереження щодо джерела: саме цей матеріал подає 2 379 як усю когорту, тоді як повідомлення товариства та інші публікації відносять 2 379 до семаглутиду і 1 476 до тирзепатиду, усього 3 855, і приписують ці цифри групі семаглутиду. Провідна авторка, докторка Реджина Кастанеда, Mayo Clinic College of Medicine and Science, не заявляє про конфлікт інтересів.",
+            "cite": "Healio · Звіт про доповідь на щорічній зустрічі The Menopause Society, 23 жовтня 2026",
+            "url": "https://www.healio.com/news/womens-health-ob-gyn/20261023/hormone-therapy-plus-glp1-may-equal-greater-sustainable-weight-loss-for-menopausal-women"
           },
           {
             "claim": "Попередній висновок про тирзепатид тримався на 40 жінках, які отримували гормональну терапію.",
@@ -161,7 +181,7 @@ export default {
     "faq": [
       {
         "q": "Чи справді гормональна терапія посилює дію ін’єкцій для схуднення?",
-        "a": "Чесна відповідь: можливо, у частини жінок і з частиною препаратів — і поки ніхто не скаже Вам, наскільки. Нова когорта пов’язує гормональну терапію зі стійкішою втратою ваги серед тих, хто приймає семаглутид, і це вже друга незалежна когорта з таким самим напрямком. Але дослідження спостережне, результати представляють на конференції, а не публікують, і жодної цифри ефекту поки не оприлюднили. Для тирзепатиду перевага, яку бачили в значно меншому дослідженні, тут не втрималася."
+        "a": "Чесна відповідь: можливо, у частини жінок і з частиною препаратів — і поки ніхто не скаже Вам, наскільки. Нова когорта пов’язує гормональну терапію зі стійкішою втратою ваги серед тих, хто приймає семаглутид, і це вже друга незалежна когорта з таким самим напрямком. Цифри, оприлюднені з доповіді, дають розрив від одного до двох відсоткових пунктів маси тіла в кожній точці спостереження — послідовний, статистично значущий і невеликий. Дослідження все одно спостережне і все одно є доповіддю на конференції, а не рецензованою публікацією. Для тирзепатиду перевага, яку бачили в значно меншому дослідженні, тут не втрималася."
       },
       {
         "q": "Чи варто починати гормональну терапію заради схуднення?",
