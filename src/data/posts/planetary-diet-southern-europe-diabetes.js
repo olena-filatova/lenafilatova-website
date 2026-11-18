@@ -19,8 +19,8 @@ export default {
     "imageAlt": "Slices of toasted bread spread with ricotta and piled with chopped tomatoes and basil, on a wooden board with more halved tomatoes beside them.",
     "title": "Southern Europe eats closest to the “planetary” diet — and has Europe’s fastest-rising diabetes",
     "seoTitle": "Southern Europe’s Diet Paradox: What the Study Shows",
-    "metaDesc": "A new paper puts Southern Europe’s diet alongside its diabetes rates and finds the opposite of what you would expect. Most of the gap turns out to be age — and most of the explanations you will read are not in the paper.",
-    "excerpt": "A new analysis finds Southern Europe closest in Europe to the planetary health diet, and also the region where diabetes has climbed fastest. It is a real puzzle — but about a third of it is simply that Southern Europe is older.",
+    "metaDesc": "Southern Europe’s diet sits closest to the planetary health diet, yet its diabetes rates rose fastest. Most of the gap turns out to be age, not food.",
+    "excerpt": "Southern Europe eats closest in Europe to the planetary health diet, and diabetes has climbed fastest there. About a third of that puzzle is simply that it is older.",
     "meta": "9 November 2026 · 7 min read",
     "lead": "Two facts, placed side by side by a paper published this month: of Europe’s four big regions, Southern Europe’s food comes closest to the diet scientists recommend for the planet, and Southern Europe is also where type 2 diabetes has risen fastest. That is genuinely odd. What the paper does not do — and what several write-ups quietly did for it — is explain why.",
     "blocks": [
@@ -153,8 +153,8 @@ export default {
     "imageAlt": "Скибочки підсмаженого хліба з рікотою, посипані нарізаними помідорами та базиліком, на дерев’яній дошці, поруч — розрізані помідори.",
     "title": "Раціон Південної Європи найближчий до «планетарної» дієти — а діабет там зростає найшвидше в Європі",
     "seoTitle": "Парадокс дієти Південної Європи: що показало дослідження",
-    "metaDesc": "Нова робота зіставила харчування Південної Європи з її рівнем діабету і виявила протилежне тому, чого можна було б чекати. Близько третини різниці — це просто вік, а більшості пояснень, які ви прочитаєте, у самій статті немає.",
-    "excerpt": "Новий аналіз показав: з усіх регіонів Європи саме Південна найближча до планетарної дієти здоров’я — і водночас саме там діабет зростав найшвидше. Загадка справжня, але приблизно третину її пояснює просто те, що населення Південної Європи старше.",
+    "metaDesc": "Нова робота зіставила харчування Південної Європи з рівнем діабету — і виявила протилежне очікуваному. Близько третини різниці пояснює просто вік.",
+    "excerpt": "З усіх регіонів Європи Південна найближча до планетарної дієти здоров’я — і саме там діабет зростав найшвидше. Близько третини загадки пояснює старше населення.",
     "meta": "9 листопада 2026 · 7 хв читання",
     "lead": "Два факти, які поставила поруч опублікована цього місяця стаття: із чотирьох великих регіонів Європи саме харчування Південної Європи найближче до дієти, яку науковці рекомендують заради планети, — і саме там діабет 2 типу зростав найшвидше. Це справді дивно. Але пояснити, чому так, стаття не береться — це за неї мовчки зробили кілька публікацій.",
     "blocks": [

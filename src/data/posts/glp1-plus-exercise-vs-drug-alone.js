@@ -19,7 +19,7 @@ export default {
     "title": "Adding exercise to a GLP-1 beat the drug alone on fat loss — but the review couldn’t measure muscle",
     "seoTitle": "GLP-1 Plus Exercise vs the Drug Alone: What a Review Found",
     "metaDesc": "A meta-analysis of nine randomised trials found a GLP-1 drug plus structured exercise beat the drug alone on weight and fat. Lean mass went unanalysed.",
-    "excerpt": "Nine randomised trials, pooled: taking a GLP-1 and training beat taking the drug by itself, on both weight and fat. The outcome women over 40 ask about first — muscle — is the one the review had to leave out.",
+    "excerpt": "Nine randomised trials, pooled: a GLP-1 plus training beat the drug by itself on both weight and fat. Muscle, the outcome women over 40 ask about, was left out.",
     "meta": "7 October 2026 · 6 min read",
     "lead": "“Take the drug and keep training” is the standard advice, and it has mostly been offered on first principles rather than on evidence that anyone compared the two. A review published this summer finally put numbers on it: across nine randomised trials, people who did both lost more weight and more fat than people on the drug alone. The outcome that matters most to readers of this site, though, is the one the review says plainly it could not measure.",
     "blocks": [
@@ -128,7 +128,7 @@ export default {
     "title": "Тренування разом із GLP-1 перевершили сам препарат за втратою жиру — а м’язи огляд виміряти не зміг",
     "seoTitle": "GLP-1 і тренування разом: що показав новий огляд",
     "metaDesc": "Метааналіз дев’яти рандомізованих досліджень: GLP-1 разом із тренуваннями перевершив сам препарат за вагою та жиром. Знежирену масу оцінити не вдалося.",
-    "excerpt": "Об’єднані дані дев’яти рандомізованих досліджень: прийом GLP-1 із тренуваннями перевершив прийом самого лише препарату — і за вагою, і за жиром. Але те, про що жінки після 40 питають першим — м’язи — огляд змушений був лишити поза дужками.",
+    "excerpt": "Дев’ять рандомізованих досліджень разом: GLP-1 із тренуваннями перевершив сам препарат за вагою і жиром. А м’язи — те, про що питають першим — огляд не оцінив.",
     "meta": "7 жовтня 2026 · 6 хв читання",
     "lead": "«Приймайте препарат і не кидайте тренувань» — це стандартна порада, яку досі давали радше з теоретичних міркувань, ніж на підставі досліджень, де ці два підходи порівнювали. Огляд, опублікований цього літа, нарешті дав цифри: у дев’яти рандомізованих дослідженнях ті, хто робив і те, й інше, втратили більше ваги та жиру, ніж ті, хто приймав сам лише препарат. Але саме того, що найбільше цікавить читачок цього сайту, огляд, як прямо визнають автори, виміряти не зміг.",
     "blocks": [
