@@ -20,7 +20,7 @@ export default {
     "title": "Most women read menopause skin changes as ageing — and bought the wrong thing for it",
     "seoTitle": "Menopause Skin Changes Mistaken for Ageing: A Survey",
     "metaDesc": "A survey of 5,090 women found 56% blamed ageing for menopause skin changes and 70% bought anti-ageing products. The trial announced alongside is weaker.",
-    "excerpt": "Seven in ten women bought products marketed for ageing to treat a hormonal change. That finding is worth having. The injectable trial announced in the same press release compared two groups that were never comparable.",
+    "excerpt": "Seven in ten women bought products marketed for ageing to treat a hormonal change. That finding is worth having; the injectable trial announced alongside it is not.",
     "meta": "20 October 2026 · 6 min read",
     "lead": "A survey published ahead of World Menopause Day reports that most women put the changes in their skin down to getting older, and bought accordingly. It is a useful finding, and I think it is true. It arrived attached to a second piece of news that is doing much less work than the coverage suggests, and the two deserve separating.",
     "blocks": [
@@ -121,7 +121,7 @@ export default {
     "title": "Більшість жінок вважають зміни шкіри в менопаузі ознакою віку — і купують не те",
     "seoTitle": "Зміни шкіри в менопаузі приймають за старіння: опитування",
     "metaDesc": "Опитування 5090 жінок: 56% списали зміни шкіри в менопаузі на вік, а 70% купили засоби проти старіння. Дослідження, оприлюднене поруч, слабше, ніж звучить.",
-    "excerpt": "Семеро з десяти жінок купували засоби «проти старіння», щоб упоратися з гормональними змінами. Цей висновок вартий уваги. А от дослідження ін’єкційних препаратів із того самого пресрелізу порівнювало дві групи, які ніколи не були порівнянними.",
+    "excerpt": "Семеро з десяти жінок купували засоби «проти старіння», щоб упоратися з гормональними змінами. Цей висновок вартий уваги, а от дослідження поруч із ним — ні.",
     "meta": "20 жовтня 2026 · 6 хв читання",
     "lead": "Опитування, оприлюднене напередодні Всесвітнього дня менопаузи, повідомляє: більшість жінок списують зміни шкіри на вік — і купують відповідно. Це корисний висновок, і, гадаю, правильний. Поруч із ним опублікували другу новину, яка важить значно менше, ніж можна подумати з публікацій, і ці дві речі варто розділити.",
     "blocks": [

@@ -14,7 +14,7 @@ export default {
     "title": "Kefir plus fibre beat omega-3 at lowering inflammation in a six-week trial",
     "seoTitle": "Kefir + Fibre vs Omega-3: What a New Trial Found",
     "metaDesc": "A six-week Nottingham trial found kefir plus a diverse fibre mix lowered seven inflammatory proteins — omega-3 moved just one. What the study really shows.",
-    "excerpt": "In a University of Nottingham trial, daily kefir plus a diverse prebiotic fibre mix significantly reduced seven inflammatory proteins in six weeks — omega-3 supplements moved just one. The honest caveats matter, though.",
+    "excerpt": "In a University of Nottingham trial, daily kefir plus a diverse prebiotic fibre mix lowered seven inflammatory proteins in six weeks — omega-3 supplements moved just one.",
     "meta": "10 August 2026 · 3 min read",
     "lead": "Fish-oil capsules are what most people reach for when they hear “anti-inflammatory”. A new University of Nottingham trial suggests a much older combination — fermented milk and plenty of fibre — may do more, at least on blood markers.",
     "blocks": [
@@ -93,7 +93,7 @@ export default {
     "title": "Кефір із клітковиною перевершив омега-3 у зниженні запалення — шеститижневе дослідження",
     "seoTitle": "Кефір і клітковина проти омега-3: нове дослідження",
     "metaDesc": "Шеститижневе дослідження в Ноттінгемі: кефір із різноманітною клітковиною знизив сім запальних білків, омега-3 — лише один. Що насправді показує дослідження.",
-    "excerpt": "У дослідженні Ноттінгемського університету щоденний кефір із різноманітною пребіотичною клітковиною за шість тижнів суттєво знизив сім запальних білків — омега-3 вплинула лише на один. Проте застереження тут важливі — і про них варто сказати чесно.",
+    "excerpt": "Дослідження Ноттінгемського університету: щоденний кефір із різноманітною пребіотичною клітковиною за шість тижнів знизив сім запальних білків, а омега-3 — лише один.",
     "meta": "10 серпня 2026 · 3 хв читання",
     "lead": "Капсули з риб’ячим жиром — перше, про що більшість згадує на слово «протизапальний». Нове дослідження Ноттінгемського університету свідчить, що значно давніша комбінація — ферментоване молоко і багато клітковини — може дати більше, принаймні за показниками крові.",
     "blocks": [
