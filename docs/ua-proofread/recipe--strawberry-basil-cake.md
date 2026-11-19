@@ -1,7 +1,7 @@
 # UA proofread: recipe--strawberry-basil-cake
 
 - Last checked: 2026-11-19
-- PR: PRLINK
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/585
 - Notes: 11 fixes. Calque «м’який для рівня цукру» ("gentle on blood sugar") →
   «м’яко впливає на рівень цукру в крові»; quark → «кисломолочний сир»; vanilla made
   consistent with the ingredient («ванілін»); «порошкової стевії» → «стевії в порошку»
