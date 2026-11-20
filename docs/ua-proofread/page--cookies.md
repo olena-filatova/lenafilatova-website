@@ -1,5 +1,5 @@
 # page--cookies
 
-- Last checked: 2026-10-10
-- PR: (this PR)
-- Notes: Fixed one mistranslated nuance in `LEGAL.cookies.ua` (`src/data/site.js`) — "Declining still switches Google Analytics off completely" was rendered as "як і раніше" ("as before"), which reads as a continuity claim rather than "nonetheless/anyway"; changed to "все одно". Rest of the Cookie Policy UA text is accurate against EN and reads naturally; no other changes needed.
+- Last checked: 2026-11-20 (second cycle; previously 2026-10-10)
+- PR: (this PR — `UA proofread: page--contact, page--cookies`)
+- Notes: 13 fixes in `LEGAL.cookies.ua` (`src/data/site.js`). Anglicism «опційні/опційна» → «необов’язкові» (×2); seoDesc repeated «згоди» twice. Calques rewritten: «Її слід читати разом із…», passive «як використовується сайт» (×2), «регулюються власними політиками», «доступні на його сторінках довідки», «банер дозволяє…», «Сторінка контактів містить…». Meaning vs EN: “cross-site tracking cookies” had become just «міжсайтове відстеження» — restored. «Питання?» → «Маєте запитання?». Repeated «вона… вона» in the Cloudflare paragraph removed. No dates, URLs or facts changed. `COMPANY_LINE_UA` is shared by all legal pages and was not touched.
