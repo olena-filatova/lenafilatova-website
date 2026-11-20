@@ -1,8 +1,5 @@
 # recipe--raw-chocolate-mousse
 
-- Last checked: 2026-10-11
+- Last checked: 2026-11-20 (second cycle; previously 2026-10-11)
 - PR: (this PR)
-- Notes: title dropped "Raw" from the EN name; added the qualifier
-  (`Шоколадний мус без випікання`) to match the no-bake meaning and the site's
-  established "No-Bake → без випікання" title convention. Rest of the entry
-  (why, nutrition, ingredients, method) was already accurate and natural.
+- Notes: 5 fixes. Calque «Мус «збий і охолоди»» and «Фініки роблять його природно солодким» rewritten in `why`; «кремовий» (reads as a colour) → «ніжний»; colloquial «заморозки» → «заморожування» (`meta.cook`); «до однорідної пасти» → «до однорідної маси», «Заморозьте на 30 хвилин» → «Поставте на 30 хвилин у морозилку». Numbers and `en` untouched.
