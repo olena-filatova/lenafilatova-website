@@ -1,5 +1,5 @@
 # recipe--strawberry-bites
 
-- Last checked: 2026-10-11
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/363
-- Notes: No issues found. Checked title, why, nutrition, meta, ingredients and method against EN paragraph by paragraph. Terminology, case agreement, punctuation (’ apostrophes, — dashes) and the "натуральна солодкість" phrasing are consistent with sibling no-bake-treat recipes already proofread elsewhere in the file. No changes made.
+- Last checked: 2026-11-20 (second cycle; previously 2026-10-11)
+- PR: (this PR — `UA proofread: recipe--strawberry-bites, recipe--peanut-cookies-nobake`)
+- Notes: 8 fixes. `why`: «Збиті кеш’ю…» (збивати = whip) → «подрібнені в блендері»; restored EN's "whole-food sweet" («натуральна солодкість» → «солодощі з цільних продуктів»); "naturally high in fruit sugar" rendered accurately instead of «Через фрукти багато цукру, тож найкраще потроху»; comma before the dash after the participial phrase. Method: crumb step → «Подрібніть… на дрібну крихту»; «липкого тіста» → «липкої маси»; restored "blend well" as a repeat blend («й ще раз добре збийте»); «Скачайте в кульки» → «Скачайте кульки». No quantities changed.
