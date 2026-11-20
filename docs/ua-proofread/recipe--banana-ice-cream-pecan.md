@@ -1,10 +1,5 @@
 # recipe--banana-ice-cream-pecan
 
-- Last checked: 2026-10-11
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/364
-- Notes: Fixed one untranslated English term left in UA text ("nice cream" →
-  transliterated «найс-крім», with gender agreement on the adjective) and
-  rewrote one calque-y sentence in `why` that mirrored the English's
-  compressed grammar without a verb. Rest of the UA text (title, ingredients,
-  method, nutrition, meta) already matched the EN and read naturally — no
-  further changes.
+- Last checked: 2026-11-20 (second cycle; previously 2026-10-11)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/592
+- Notes: 2 fixes. `why`: calque «Природно солодке завдяки бананам, тож, з огляду на вміст у них цукру, найкраще їсти цей десерт нечасто» → «Солодкість дають самі банани, тож через їхній природний цукор цей десерт краще їсти лише зрідка». Last step: «Викладіть ложкою в тарілочки … прикрасьте горіхами» → «Розкладіть ложкою по креманках … прикрасьте пеканом» (EN: top with the pecans). «найс-крім» and «заморозки» kept (established/used across the recipe set). Quantities, GI, nutrition untouched.
