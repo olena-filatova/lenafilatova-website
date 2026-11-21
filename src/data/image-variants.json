@@ -157,6 +157,24 @@
       ]
     ]
   },
+  "/images/berberine-insulin-resistance-evidence.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/berberine-insulin-resistance-evidence-480.avif"
+      ],
+      [
+        800,
+        "/images/v/berberine-insulin-resistance-evidence-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/berberine-insulin-resistance-evidence-1200.avif"
+      ]
+    ]
+  },
   "/images/biotin-for-hair-over-40.jpg": {
     "w": 1600,
     "h": 900,
