@@ -30,11 +30,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is worth settling first, because the internet gives the opposite impression. In a photographic study of 2,895 American women, dermatologists found clinical acne in 45% of those aged 21 to 30, 26% of those aged 31 to 40, and 12% of those aged 41 to 50. It declines steadily. A separate community examination of adults over 25 put clinical-grade acne at 12% of women against 3% of men, and found it persisting past the age of 44."
+        "text": "This is worth settling first, because the internet gives the opposite impression. In a photographic study of 2,895 American women, dermatologists found clinical acne in 45% of those aged 21 to 30, 26% of those aged 31 to 40, and 12% of those aged 41 to 50. It declines steadily. A separate community examination of adults over 25 put clinical-grade acne at 12% of women against 3% of men, and found that it did not substantially fall until after the age of 44."
       },
       {
         "t": "p",
-        "text": "So roughly one woman in eight in her forties, which is a minority and a very large one — and four times as many women as men. It is also under-recognised rather than over-reported: when Finnish researchers had dermatologists grade photographs of 35-year-old women in 2025, 31% had acne, and most of them had never been treated for it. If you are the only one of your friends saying this out loud, that is a reporting problem, not a rarity."
+        "text": "So roughly one woman in eight in her forties, which is a minority and a very large one — and four times as many women as men. It is also under-recognised rather than over-reported: when Finnish researchers had dermatologists grade photographs of 35-year-old women in 2025, 31% had acne, most of it mild; very few were using any treatment, and only about a third of the women with acne said they had it. If you are the only one of your friends saying this out loud, that is a reporting problem, not a rarity."
       },
       {
         "t": "h",
@@ -50,7 +50,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The second: the binding-globulin half of the story is not as clean as it sounds. A 2025 systematic review of adult female acne in Health Science Reports, pooling twenty studies, reported sex hormone binding globulin significantly lower in women with acne. Other work has found acne severity associated with higher levels. The direction most researchers accept; the size of the effect, and how much of the picture it explains, nobody has pinned down."
+        "text": "The second: the binding-globulin half of the story is not as clean as it sounds. A 2025 systematic review of adult female acne in Health Science Reports gathered twenty studies; one of them, a Polish case-control study of women aged 18 to 31, found sex hormone binding globulin significantly lower in women with acne. Other work has found acne severity associated with higher levels. The direction most researchers accept; the size of the effect, and how much of the picture it explains, nobody has pinned down."
       },
       {
         "t": "p",
@@ -62,7 +62,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "There is a second mechanism, and it is the one this site has reason to take seriously. Eating that pushes blood glucose up quickly raises insulin; insulin raises insulin-like growth factor 1; IGF-1 enlarges the sebaceous glands, increases sebum, speeds up the turnover of skin cells lining the pore — and switches on androgen synthesis. Every step of that has been described in the laboratory. The 2025 systematic review named hyperandrogenism, a family history of acne and a high-glycaemic diet as the three factors the evidence supports in adult women."
+        "text": "There is a second mechanism, and it is the one this site has reason to take seriously. Eating that pushes blood glucose up quickly raises insulin; insulin raises insulin-like growth factor 1; IGF-1 enlarges the sebaceous glands, increases sebum, speeds up the turnover of skin cells lining the pore — and switches on androgen synthesis. Every step of that has been described in the laboratory. The 2025 systematic review named hyperandrogenism, a family history of acne and a high-glycaemic diet as the factors most clearly linked to acne in adult women."
       },
       {
         "t": "p",
@@ -70,11 +70,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Then there is the number almost nobody quotes. A Polish study published in Biomedicines in 2023 compared 41 people with acne against 47 healthy controls matched for body weight. Average HOMA-IR was 3.4 in the acne group against 2.34 in the controls, a clear difference. Insulin resistance was diagnosed in 78% of the acne patients — and in 55% of the healthy controls. Both figures are real. The second one is the problem: when more than half of the comparison group has the same finding, it cannot be what explains any individual woman's skin."
+        "text": "Then there is the number almost nobody quotes. A Polish study published in Biomedicines in 2023 compared 41 people with acne against 47 healthy controls matched for body weight. Average HOMA-IR was 3.4 in the acne group against 2.34 in the controls, a clear difference. Using a HOMA-IR cut-off of 2.1, insulin resistance was diagnosed in 78% of the acne patients — and in 55% of the healthy controls. Both figures are real. The second one is the problem: when more than half of the comparison group has the same finding, it cannot be what explains any individual woman's skin."
       },
       {
         "t": "p",
-        "text": "The larger gap is about who was studied. Almost all of this work was done in teenagers and adults in their twenties and thirties. The prospective study most often cited on isolated female acne and insulin resistance, published in 2016, was in adult women generally, not perimenopausal ones. No trial has tested whether improving insulin resistance clears acne in women over forty. The pathway is biologically coherent and the association is consistent; the direct evidence in this age group does not exist yet. Anyone telling you otherwise is extrapolating, including the people selling supplements for it."
+        "text": "The larger gap is about who was studied. Almost all of this work was done in teenagers and adults in their twenties and thirties. The prospective study most often cited on isolated female acne and insulin resistance, published in 2016, was in women aged 25 to 40, not perimenopausal ones. I could find no trial testing whether improving insulin resistance clears acne in women over forty. The pathway is biologically coherent and the association is consistent; the direct evidence in this age group, as far as I can find, does not exist yet. Anyone telling you otherwise is extrapolating, including the people selling supplements for it."
       },
       {
         "t": "h",
@@ -94,27 +94,27 @@ export default {
       },
       {
         "t": "p",
-        "text": "In the UK the starting point is NICE's acne guideline, NG198, published in 2021 and updated in 2023. It puts topical treatments first and sets out when oral options and referral come in. That guideline is what a GP is working from, and it is worth knowing before the appointment rather than after it."
+        "text": "In the UK the starting point is NICE's acne guideline, NG198, published in 2021 and last updated in August 2026. It puts topical treatments first and sets out when oral options and referral come in. That guideline is what a GP is working from, and it is worth knowing before the appointment rather than after it."
       },
       {
         "t": "p",
-        "text": "The oral anti-androgen option is spironolactone, and Britain ran the trial. SAFA, published in the BMJ in 2023, randomised 410 women across England and Wales to spironolactone — 50 mg a day, rising to 100 mg after six weeks — or a matched placebo, for 24 weeks. At twelve weeks the difference was barely there: 72% of the spironolactone group reported improvement against 68% on placebo, which is no difference at all. By twenty-four weeks it was 82% against 63%, and the quality-of-life gap had grown from 1.27 points to 3.45 on a thirty-point scale. Headaches were commoner on the drug, 20% against 12%. No serious adverse reactions were reported."
+        "text": "The oral anti-androgen option is spironolactone, and the key trial was run in Britain. SAFA, published in the BMJ in 2023, randomised 410 women across England and Wales to spironolactone — 50 mg a day, rising to 100 mg after six weeks — or a matched placebo, for 24 weeks. At twelve weeks the difference was small: the quality-of-life gap was 1.27 points on a thirty-point scale, short of the two points the researchers had set as meaningful, and 72% of the spironolactone group reported improvement against 68% on placebo, not a significant difference. By twenty-four weeks it was 82% against 63%, and the quality-of-life gap had grown to 3.45 points. Headaches were commoner on the drug, 20% against 12%. No serious adverse reactions were reported."
       },
       {
         "t": "p",
-        "text": "Two things about that trial matter for a woman reading this at forty-eight. The average participant was 29.2 years old — so the best British evidence for the main anti-androgen treatment was gathered in women twenty years younger, and applying it here is a reasonable extrapolation rather than a tested result. And spironolactone is not licensed for acne in the UK at all; it is prescribed off-label, and because NG198 was written before SAFA reported, it does not appear in the guideline. The British Association of Dermatologists' referral guidance for GPs says so in as many words. It is a conversation to have with a doctor, not a dose to choose."
+        "text": "Two things about that trial matter for a woman reading this at forty-eight. The average participant was 29.2 years old — so the best British evidence for the main anti-androgen treatment was gathered in women twenty years younger, and applying it here is a reasonable extrapolation rather than a tested result. And spironolactone is not licensed for acne in the UK at all; it is prescribed off-label, and NG198 was written before SAFA reported, and its later updates have not added it. UK dermatology guidance for GPs describes it as unlicensed for acne in women and notes that practice differs between dermatologists. It is a conversation to have with a doctor, not a dose to choose."
       },
       {
         "t": "p",
-        "text": "The combined pill is effective and is the other standard anti-androgen route, but it is relatively contraindicated around and after menopause, which is precisely when this problem arrives. That timing is why spironolactone keeps coming up for this age group despite the licensing position."
+        "text": "The combined pill is effective and is the other standard anti-androgen route, but it is relatively contraindicated after menopause, and UK contraception guidance advises stopping it at 50, which is precisely when this problem arrives. That timing is why spironolactone keeps coming up for this age group despite the licensing position."
       },
       {
         "t": "p",
-        "text": "The clearest practical lesson from SAFA has nothing to do with which drug. Twenty-four weeks beat twelve weeks on every measure they took. Acne treatment judged at six weeks is being judged far too early, and that is true of the topical treatments too, which is how most people end up concluding that nothing works."
+        "text": "The clearest practical lesson from SAFA has nothing to do with which drug. Twenty-four weeks beat twelve weeks on every measure taken at both points. Acne treatment judged at six weeks is being judged far too early, and that is true of the topical treatments too, which is how most people end up concluding that nothing works."
       },
       {
         "t": "p",
-        "text": "On diet: the glycaemic pathway is the one with a mechanism behind it, and lowering the glucose spikes in your day is the same change that helps insulin resistance generally, so it is not a wasted effort either way. [The food calculator](/resources/food-calculator/) exists for exactly that. What cannot honestly be said is that it will clear perimenopausal acne, because that trial has not been run."
+        "text": "On diet: the glycaemic pathway is the one with a mechanism behind it, and lowering the glucose spikes in your day is the same change that helps insulin resistance generally, so it is not a wasted effort either way. [The food calculator](/resources/food-calculator/) exists for exactly that. What cannot honestly be said is that it will clear perimenopausal acne, because I could find no trial that has tested it."
       },
       {
         "t": "h",
@@ -137,9 +137,9 @@ export default {
         "items": [
           {
             "claim": "Clinical acne affects about 12% of women aged 41 to 50, down from 26% at 31 to 40 and 45% at 21 to 30.",
-            "detail": "Perkins AC, Maglione J, Hillebrand GG, Miyamoto K, Kimball AB. 'Acne vulgaris in women: prevalence across the life span.' A photographic assessment of 2,895 women aged 10 to 70 in the United States, graded by dermatologists rather than self-reported. Overall, 55% had some form of acne and 27% clinical acne. A separate clinical examination of adults over 25 (Goulden V, Stables GI, Cunliffe WJ) found clinical-grade acne in 12% of women and 3% of men, persisting beyond age 44. The 2025 Finnish photographic study of 35-year-old women found a 31.3% prevalence, most of it untreated — a reminder that these figures measure how common acne is, not how often it is brought to a doctor.",
+            "detail": "Perkins AC, Maglione J, Hillebrand GG, Miyamoto K, Kimball AB. 'Acne vulgaris in women: prevalence across the life span.' A photographic assessment of 2,895 women aged 10 to 70 in the United States, graded by dermatologists rather than self-reported. Overall, 55% had some form of acne and 27% clinical acne. A separate clinical examination of adults over 25 (Goulden V, Stables GI, Cunliffe WJ) found clinical-grade acne in 12% of women and 3% of men, with prevalence not substantially falling until after age 44. The 2025 Finnish photographic study of 35-year-old women (Telkkälä et al, Acta Dermato-Venereologica 2025) found a 31.3% prevalence on the face or back, mostly mild and rarely treated, and only about a third of the women with acne reported having it — a reminder that these figures measure how common acne is, not how often it is brought to a doctor.",
             "cite": "Perkins et al · photographic prevalence study",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/21951291/"
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22171979/"
           },
           {
             "claim": "In menopausal acne the proposed mechanism is a relative androgen increase and falling sex hormone binding globulin — but most affected women have normal androgen levels.",
@@ -155,19 +155,19 @@ export default {
           },
           {
             "claim": "In the clearest case-control study, insulin resistance was found in 78% of acne patients — and in 55% of healthy weight-matched controls.",
-            "detail": "Emiroglu-style cohort reported by Napolitano and colleagues as 'Insulin Resistance in Patients with Acne Vulgaris', Biomedicines 2023;11(8):2294 (DOI 10.3390/biomedicines11082294). A cohort study of 41 acne patients and 47 BMI-matched healthy controls, combined with a systematic review. Fasting glucose averaged 94.88 mg/dL in the acne group against 79.51 in controls (p<0.001); HOMA-IR averaged 3.4 (SD 1.49) against 2.34 (SD 0.909), p<0.001. Using a HOMA-IR threshold above 2.1, insulin resistance was diagnosed in 32 of 41 acne patients (78%) and 26 of 47 controls (55%), p=0.026. The difference is statistically significant and the control prevalence is high enough that the finding cannot individualise risk. An earlier prospective study of isolated female acne and insulin resistance (Kartal D et al, Giornale Italiano di Dermatologia e Venereologia 2016) reported in the same direction.",
+            "detail": "Gruszczyńska M, Sadowska-Przytocka A, Szybiak W, Więckowska B, Lacka K. 'Insulin Resistance in Patients with Acne Vulgaris', Biomedicines 2023;11(8):2294 (DOI 10.3390/biomedicines11082294), Poznań University of Medical Sciences. A cohort study of 41 acne patients (38 women, mean age 30.6) and 47 BMI-matched healthy controls (24 women), combined with a systematic review. Fasting glucose averaged 94.88 mg/dL in the acne group against 79.51 in controls (p<0.001); HOMA-IR averaged 3.4 (SD 1.49) against 2.34 (SD 0.909), p<0.001. Using a HOMA-IR threshold above 2.1, insulin resistance was diagnosed in 32 of 41 acne patients (78%) and 26 of 47 controls (55%), p=0.026; with a stricter cut-off of 2.69 the figures were 63% and 30%. The difference is statistically significant and the control prevalence is high enough that the finding cannot individualise risk. An earlier prospective study of isolated female acne and insulin resistance (Kartal D et al, Giornale Italiano di Dermatologia e Venereologia 2016; 36 women with acne and 24 controls aged 25 to 40 analysed) reported in the same direction.",
             "cite": "Biomedicines 2023 · case-control cohort plus review",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10452885/"
           },
           {
-            "claim": "In the UK spironolactone trial, the benefit over placebo was negligible at twelve weeks and clear at twenty-four — in women whose average age was 29.",
-            "detail": "Santer M et al. 'Effectiveness of spironolactone for women with acne vulgaris (SAFA) in England and Wales: pragmatic, multicentre, phase 3, double blind, randomised controlled trial.' BMJ 2023 (ISRCTN12892056). 1,267 women assessed, 410 randomised, 342 in the primary analysis. Spironolactone 50 mg/day to week six, then 100 mg/day to week 24, against matched placebo; topical treatment could continue. Baseline mean age 29.2 years (SD 7.2); 46% mild, 40% moderate, 13% severe acne. Acne-QoL symptom subscale (0-30, higher is better): week 12 difference favouring spironolactone 1.27 (95% CI 0.07 to 2.46); week 24 difference 3.45 (95% CI 2.16 to 4.75). Self-reported improvement 72% v 68% at week 12 (OR 1.16, 95% CI 0.70 to 1.91, not significant) and 82% v 63% at week 24 (OR 2.72, 1.50 to 4.93). Investigator-assessed treatment success at week 12: 19% v 6%. Headaches 20% v 12% (p=0.02); no serious adverse reactions. Spironolactone is not licensed for acne in the UK and is prescribed off-label; NICE NG198 (2021, updated 2023) predates this trial and does not include it, which the British Association of Dermatologists' primary care referral guidance states explicitly.",
+            "claim": "In the UK spironolactone trial, the benefit over placebo was small at twelve weeks and clear at twenty-four — in women whose average age was 29.",
+            "detail": "Santer M et al. 'Effectiveness of spironolactone for women with acne vulgaris (SAFA) in England and Wales: pragmatic, multicentre, phase 3, double blind, randomised controlled trial.' BMJ 2023 (ISRCTN12892056). 1,267 women assessed, 410 randomised, 342 in the primary analysis. Spironolactone 50 mg/day to week six, then 100 mg/day to week 24, against matched placebo; topical treatment could continue. Baseline mean age 29.2 years (SD 7.2); 46% mild, 40% moderate, 13% severe acne. Acne-QoL symptom subscale (0-30, higher is better): week 12 difference favouring spironolactone 1.27 (95% CI 0.07 to 2.46), below the trial's two-point target for a meaningful difference; week 24 difference 3.45 (95% CI 2.16 to 4.75). Self-reported improvement 72% v 68% at week 12 (OR 1.16, 95% CI 0.70 to 1.91, not significant) and 82% v 63% at week 24 (OR 2.72, 1.50 to 4.93). Investigator-assessed treatment success at week 12: 19% v 6%. Headaches 20% v 12% (p=0.02); no serious adverse reactions. Spironolactone is not licensed for acne in the UK and is prescribed off-label; NICE NG198 (2021, last updated August 2026) predates this trial and still does not include it; UK primary care dermatology guidance describes it as unlicensed for acne in women.",
             "cite": "BMJ 2023 · randomised controlled trial",
             "url": "https://pubmed.ncbi.nlm.nih.gov/37192767/"
           },
           {
             "claim": "A high-glycaemic diet raises IGF-1, which enlarges sebaceous glands, increases sebum and activates androgen synthesis.",
-            "detail": "'Etiology of Adult Female Acne — Systematic Review', Health Science Reports 2025;8:e70697 (DOI 10.1002/hsr2.70697). A systematic review of twenty articles on genetics, hormones and diet in acne occurring after age 25. It concludes that hyperandrogenism, a positive family history and a high-glycaemic diet are the factors most consistently linked to adult acne, and describes the insulin to IGF-1 route: IGF-1 increases sebaceous gland growth, sebum production and keratinocyte proliferation, and activates androgen synthesis. It also reports sex hormone binding globulin and ACTH as significantly lower in acne patients, and that an increased androgen-to-oestrogen ratio aggravates acne. None of the included work was conducted specifically in perimenopausal women.",
+            "detail": "Telkkälä A, Sinikumpu SP, Huilaja L. 'Etiology of Adult Female Acne — Systematic Review', Health Science Reports 2025;8:e70697 (DOI 10.1002/hsr2.70697). A systematic review, with narrative rather than pooled synthesis, of twenty articles on genetics, hormones and diet in acne occurring after age 25. It concludes that hyperandrogenism, a positive family history and a high-glycaemic diet are the factors most consistently linked to adult acne, and describes the insulin to IGF-1 route: IGF-1 increases sebaceous gland growth, sebum production and keratinocyte proliferation, and activates androgen synthesis. Among the included studies, one case-control study (Borzyszkowska 2022, 99 women aged 18 to 31) found sex hormone binding globulin and ACTH significantly lower in acne patients, and one cross-sectional study (Zhang 2022) found that a higher androgen-to-oestrogen ratio went with worse acne. None of the included work was conducted specifically in perimenopausal women.",
             "cite": "Health Science Reports 2025 · systematic review",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12042216/"
           }
@@ -208,7 +208,7 @@ export default {
     "faq": [
       {
         "q": "Will cutting sugar clear my skin?",
-        "a": "Possibly, and nobody can promise it. The mechanism is real: food that spikes glucose raises insulin, insulin raises IGF-1, and IGF-1 drives sebum production and androgen activity. Trials of low-glycaemic eating in younger people with acne have shown modest improvement. But no trial has tested it in women over forty, and the studies linking insulin resistance to acne found it in more than half of their healthy comparison groups too. The honest position is that it is worth doing for your metabolic health at this age whatever your skin does, and that treating it as an acne cure sets you up for disappointment at week six."
+        "a": "Possibly, and nobody can promise it. The mechanism is real: food that spikes glucose raises insulin, insulin raises IGF-1, and IGF-1 drives sebum production and androgen activity. Trials of low-glycaemic eating in younger people with acne have shown modest improvement. But I could find no trial testing it in women over forty, and the studies linking insulin resistance to acne found it in more than half of their healthy comparison groups too. The honest position is that it is worth doing for your metabolic health at this age whatever your skin does, and that treating it as an acne cure sets you up for disappointment at week six."
       },
       {
         "q": "I never had acne as a teenager. Why now, and should I ask for a blood test?",
@@ -232,11 +232,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це варто з’ясувати насамперед, бо з інтернету складається протилежне враження. У фотографічному дослідженні 2895 американок дерматологи знайшли клінічне акне в 45% тих, кому було від 21 до 30 років, у 26% — від 31 до 40, і в 12% — від 41 до 50. Спад рівномірний. Окреме клінічне обстеження дорослих понад 25 років виявило клінічне акне у 12% жінок проти 3% чоловіків — і показало, що воно не минає й після 44 років."
+        "text": "Це варто з’ясувати насамперед, бо з інтернету складається протилежне враження. У фотографічному дослідженні 2895 американок дерматологи знайшли клінічне акне в 45% тих, кому було від 21 до 30 років, у 26% — від 31 до 40, і в 12% — від 41 до 50. Спад рівномірний. Окреме клінічне обстеження дорослих понад 25 років виявило клінічне акне у 12% жінок проти 3% чоловіків — і показало, що його поширеність суттєво знижується лише після 44 років."
       },
       {
         "t": "p",
-        "text": "Отже, після сорока акне має приблизно одна жінка з восьми — меншість, але дуже велика, і жінок із ним учетверо більше, ніж чоловіків. Це також радше недооцінена, ніж перебільшена проблема: коли у 2025 році фінські дослідники дали дерматологам оцінити фото 35-річних жінок, акне виявили в 31%, і більшість із них ніколи не лікувалися. Якщо ви єдина серед подруг, хто говорить про це вголос, річ у тім, що про це мало говорять, а не в тому, що це рідкість."
+        "text": "Отже, після сорока акне має приблизно одна жінка з восьми — меншість, але дуже велика, і жінок із ним учетверо більше, ніж чоловіків. Це також радше недооцінена, ніж перебільшена проблема: коли у 2025 році фінські дослідники дали дерматологам оцінити фото 35-річних жінок, акне виявили в 31%, здебільшого легке; лікувалися одиниці, і лише близько третини жінок з акне самі сказали, що воно в них є. Якщо ви єдина серед подруг, хто говорить про це вголос, річ у тім, що про це мало говорять, а не в тому, що це рідкість."
       },
       {
         "t": "h",
@@ -252,7 +252,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Друге: частина про зв’язувальний глобулін не така однозначна, як здається. Систематичний огляд 2025 року про акне в дорослих жінок у Health Science Reports, який об’єднав двадцять досліджень, повідомляє про значуще нижчий рівень цього глобуліну в жінок з акне. Інші роботи пов’язували тяжкість акне з вищим рівнем. З напрямком зв’язку більшість дослідників згодна; а от розміру ефекту і того, яку частину картини він пояснює, ніхто точно не встановив."
+        "text": "Друге: частина про зв’язувальний глобулін не така однозначна, як здається. Систематичний огляд 2025 року про акне в дорослих жінок у Health Science Reports зібрав двадцять досліджень; одне з них, польське дослідження «випадок–контроль» жінок віком 18–31 рік, виявило значуще нижчий рівень цього глобуліну в жінок з акне. Інші роботи пов’язували тяжкість акне з вищим рівнем. З напрямком зв’язку більшість дослідників згодна; а от розміру ефекту і того, яку частину картини він пояснює, ніхто точно не встановив."
       },
       {
         "t": "p",
@@ -264,7 +264,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Є другий механізм, і саме його цей сайт має підстави сприймати серйозно. Їжа, яка швидко піднімає глюкозу, підвищує інсулін; інсулін підвищує інсуліноподібний фактор росту 1; IGF-1 збільшує сальні залози, підвищує вироблення шкірного сала, пришвидшує поділ клітин, які вистеляють пору, — і вмикає синтез андрогенів. Кожен із цих кроків описано в лабораторних дослідженнях. Систематичний огляд 2025 року назвав три чинники, які підтверджуються доказами в дорослих жінок: гіперандрогенія, акне в родині й харчування з високим глікемічним навантаженням."
+        "text": "Є другий механізм, і саме його цей сайт має підстави сприймати серйозно. Їжа, яка швидко піднімає глюкозу, підвищує інсулін; інсулін підвищує інсуліноподібний фактор росту 1; IGF-1 збільшує сальні залози, підвищує вироблення шкірного сала, пришвидшує поділ клітин, які вистеляють пору, — і вмикає синтез андрогенів. Кожен із цих кроків описано в лабораторних дослідженнях. Систематичний огляд 2025 року назвав чинники, найчіткіше пов’язані з акне в дорослих жінок: гіперандрогенія, акне в родині й харчування з високим глікемічним навантаженням."
       },
       {
         "t": "p",
@@ -272,11 +272,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "А далі — цифра, яку майже ніхто не цитує. Польське дослідження, опубліковане в Biomedicines у 2023 році, порівняло 41 людину з акне та 47 здорових осіб, дібраних за вагою. Середній HOMA-IR становив 3,4 у групі з акне проти 2,34 у контрольній — чітка різниця. Інсулінорезистентність діагностували в 78% пацієнтів із акне — і в 55% здорової контрольної групи. Обидві цифри справжні. Проблема в другій: коли більш ніж половина групи порівняння має те саме, цим не можна пояснити стан шкіри конкретної жінки."
+        "text": "А далі — цифра, яку майже ніхто не цитує. Польське дослідження, опубліковане в Biomedicines у 2023 році, порівняло 41 людину з акне та 47 здорових осіб, дібраних за вагою. Середній HOMA-IR становив 3,4 у групі з акне проти 2,34 у контрольній — чітка різниця. За порогом HOMA-IR 2,1 інсулінорезистентність діагностували в 78% пацієнтів із акне — і в 55% здорової контрольної групи. Обидві цифри справжні. Проблема в другій: коли більш ніж половина групи порівняння має те саме, цим не можна пояснити стан шкіри конкретної жінки."
       },
       {
         "t": "p",
-        "text": "Ще більший розрив — у тому, кого досліджували. Майже всі ці дослідження проводили на підлітках і дорослих віком від двадцяти до тридцяти з чимось років. Проспективне дослідження ізольованого жіночого акне та інсулінорезистентності, на яке найчастіше посилаються, опубліковане 2016 року і стосується дорослих жінок загалом, а не жінок у перименопаузі. Жодне клінічне випробування не перевіряло, чи покращання чутливості до інсуліну очищає шкіру в жінок понад сорок. Механізм біологічно обґрунтований, зв’язок стабільний — прямих доказів саме в цій віковій групі поки немає. Хто каже інакше, той екстраполює — зокрема й ті, хто продає добавки."
+        "text": "Ще більший розрив — у тому, кого досліджували. Майже всі ці дослідження проводили на підлітках і дорослих віком від двадцяти до тридцяти з чимось років. Проспективне дослідження ізольованого жіночого акне та інсулінорезистентності, на яке найчастіше посилаються, опубліковане 2016 року і стосується жінок віком 25–40 років, а не жінок у перименопаузі. Я не знайшла жодного клінічного випробування, яке перевіряло б, чи покращання чутливості до інсуліну очищає шкіру в жінок понад сорок. Механізм біологічно обґрунтований, зв’язок стабільний — прямих доказів саме в цій віковій групі, наскільки мені вдалося знайти, поки немає. Хто каже інакше, той екстраполює — зокрема й ті, хто продає добавки."
       },
       {
         "t": "h",
@@ -296,27 +296,27 @@ export default {
       },
       {
         "t": "p",
-        "text": "У Британії відправна точка — настанова NICE щодо акне NG198, опублікована у 2021 році й оновлена у 2023-му. Вона ставить на перше місце зовнішні засоби та визначає, коли переходити до таблеток і направлення до спеціаліста. Саме на неї спирається сімейний лікар, і ознайомитися з нею краще до прийому, а не після."
+        "text": "У Британії відправна точка — настанова NICE щодо акне NG198, опублікована у 2021 році й востаннє оновлена в серпні 2026-го. Вона ставить на перше місце зовнішні засоби та визначає, коли переходити до таблеток і направлення до спеціаліста. Саме на неї спирається сімейний лікар, і ознайомитися з нею краще до прийому, а не після."
       },
       {
         "t": "p",
-        "text": "Таблетований антиандрогенний засіб — спіронолактон, і ключове дослідження провели саме в Британії. У дослідженні SAFA, опублікованому в BMJ у 2023 році, 410 жінок в Англії та Уельсі рандомізовано розподілили на спіронолактон — 50 мг на день із підвищенням до 100 мг після шостого тижня — або ідентичне плацебо на 24 тижні. На дванадцятому тижні різниці практично не було: про покращення повідомили 72% у групі спіронолактону проти 68% на плацебо, тобто жодної різниці. На двадцять четвертому — 82% проти 63%, а розрив за якістю життя зріс із 1,27 до 3,45 бала за тридцятибальною шкалою. Головний біль траплявся частіше на препараті: 20% проти 12%. Серйозних побічних реакцій не зафіксовано."
+        "text": "Таблетований антиандрогенний засіб — спіронолактон, і ключове дослідження провели саме в Британії. У дослідженні SAFA, опублікованому в BMJ у 2023 році, 410 жінок в Англії та Уельсі рандомізовано розподілили на спіронолактон — 50 мг на день із підвищенням до 100 мг після шостого тижня — або ідентичне плацебо на 24 тижні. На дванадцятому тижні різниця була невеликою: розрив за якістю життя становив 1,27 бала за тридцятибальною шкалою — менше за два бали, які дослідники вважали значущими, — а про покращення повідомили 72% у групі спіронолактону проти 68% на плацебо, що не є статистично значущою різницею. На двадцять четвертому — 82% проти 63%, а розрив за якістю життя зріс до 3,45 бала. Головний біль траплявся частіше на препараті: 20% проти 12%. Серйозних побічних реакцій не зафіксовано."
       },
       {
         "t": "p",
-        "text": "Дві речі в цьому дослідженні важливі для жінки, яка читає це у сорок вісім років. Середній вік учасниць становив 29,2 року — тобто найкращі британські докази щодо головного антиандрогенного лікування зібрані на жінках, молодших на двадцять років, і переносити результати на старших жінок — обґрунтована екстраполяція, а не перевірений факт. І спіронолактон у Британії взагалі не ліцензований для лікування акне: його призначають поза інструкцією, а оскільки NG198 написана до публікації SAFA, у настанові його немає. Про це прямо сказано в рекомендаціях British Association of Dermatologists щодо направлення для сімейних лікарів. Це тема для розмови з лікарем, а не доза, яку обирають самостійно."
+        "text": "Дві речі в цьому дослідженні важливі для жінки, яка читає це у сорок вісім років. Середній вік учасниць становив 29,2 року — тобто найкращі британські докази щодо головного антиандрогенного лікування зібрані на жінках, молодших на двадцять років, і переносити результати на старших жінок — обґрунтована екстраполяція, а не перевірений факт. І спіронолактон у Британії взагалі не ліцензований для лікування акне: його призначають поза інструкцією, NG198 написана до публікації SAFA, і в пізніших оновленнях його так і не додали. Британські дерматологічні рекомендації для сімейних лікарів називають його неліцензованим для лікування акне в жінок і зазначають, що практика дерматологів тут різниться. Це тема для розмови з лікарем, а не доза, яку обирають самостійно."
       },
       {
         "t": "p",
-        "text": "Комбіновані оральні контрацептиви ефективні й є другим стандартним антиандрогенним шляхом, але вони відносно протипоказані під час і після менопаузи — саме тоді, коли ця проблема з’являється. Саме через це для цієї вікової групи постійно згадують спіронолактон, попри те, що для лікування акне він не ліцензований."
+        "text": "Комбіновані оральні контрацептиви ефективні й є другим стандартним антиандрогенним шляхом, але вони відносно протипоказані після менопаузи, а британські рекомендації з контрацепції радять припиняти їх у 50 років — саме тоді, коли ця проблема з’являється. Саме через це для цієї вікової групи постійно згадують спіронолактон, попри те, що для лікування акне він не ліцензований."
       },
       {
         "t": "p",
-        "text": "Найясніший практичний урок із SAFA взагалі не про препарат. На 24-му тижні результати були кращими, ніж на 12-му, за всіма виміряними показниками. Лікування акне, яке оцінюють на шостому тижні, оцінюють надто рано — і це стосується й зовнішніх засобів, через що більшість людей і доходить до висновку, що ніщо не допомагає."
+        "text": "Найясніший практичний урок із SAFA взагалі не про препарат. На 24-му тижні результати були кращими, ніж на 12-му, за всіма показниками, які вимірювали в обидві точки. Лікування акне, яке оцінюють на шостому тижні, оцінюють надто рано — і це стосується й зовнішніх засобів, через що більшість людей і доходить до висновку, що ніщо не допомагає."
       },
       {
         "t": "p",
-        "text": "Про харчування: саме за глікемічним шляхом стоїть зрозумілий механізм, а зменшення стрибків глюкози протягом дня — та сама зміна, яка допомагає при інсулінорезистентності загалом, тож зусилля в будь-якому разі не марні. [Калькулятор харчування](/ua/resources/food-calculator/) існує саме для цього. Чесно сказати, що це очистить шкіру в перименопаузі, не можна — такого дослідження не проводили."
+        "text": "Про харчування: саме за глікемічним шляхом стоїть зрозумілий механізм, а зменшення стрибків глюкози протягом дня — та сама зміна, яка допомагає при інсулінорезистентності загалом, тож зусилля в будь-якому разі не марні. [Калькулятор харчування](/ua/resources/food-calculator/) існує саме для цього. Чесно сказати, що це очистить шкіру в перименопаузі, не можна — я не знайшла дослідження, яке б це перевірило."
       },
       {
         "t": "h",
@@ -339,9 +339,9 @@ export default {
         "items": [
           {
             "claim": "Клінічне акне є приблизно в 12% жінок віком від 41 до 50 років — проти 26% у 31–40 і 45% у 21–30.",
-            "detail": "Perkins AC, Maglione J, Hillebrand GG, Miyamoto K, Kimball AB. «Acne vulgaris in women: prevalence across the life span.» Фотографічна оцінка 2895 жінок віком від 10 до 70 років у США, яку проводили дерматологи, а не самі учасниці. Загалом у 55% була якась форма акне, у 27% — клінічне. Окреме клінічне обстеження дорослих понад 25 років (Goulden V, Stables GI, Cunliffe WJ) виявило клінічне акне у 12% жінок та 3% чоловіків, яке зберігалося й після 44 років. Фінське фотодослідження 35-річних жінок 2025 року виявило поширеність 31,3%, переважно без лікування — нагадування, що ці цифри вимірюють поширеність, а не звернення до лікаря.",
+            "detail": "Perkins AC, Maglione J, Hillebrand GG, Miyamoto K, Kimball AB. «Acne vulgaris in women: prevalence across the life span.» Фотографічна оцінка 2895 жінок віком від 10 до 70 років у США, яку проводили дерматологи, а не самі учасниці. Загалом у 55% була якась форма акне, у 27% — клінічне. Окреме клінічне обстеження дорослих понад 25 років (Goulden V, Stables GI, Cunliffe WJ) виявило клінічне акне у 12% жінок та 3% чоловіків, причому поширеність суттєво знижувалася лише після 44 років. Фінське фотодослідження 35-річних жінок 2025 року (Telkkälä та ін., Acta Dermato-Venereologica, 2025) виявило поширеність 31,3% (обличчя або спина), здебільшого легке й рідко лікуване, і лише близько третини жінок з акне повідомили, що воно в них є, — нагадування, що ці цифри вимірюють поширеність, а не звернення до лікаря.",
             "cite": "Perkins та ін. · фотографічне дослідження поширеності",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/21951291/"
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22171979/"
           },
           {
             "claim": "При менопаузальному акне механізмом вважають відносне зростання андрогенів і зниження зв’язувального глобуліну — але в більшості жінок рівні андрогенів нормальні.",
@@ -357,19 +357,19 @@ export default {
           },
           {
             "claim": "У найчіткішому дослідженні типу «випадок–контроль» інсулінорезистентність була в 78% пацієнтів із акне — і в 55% здорового контролю.",
-            "detail": "Napolitano та співавт., «Insulin Resistance in Patients with Acne Vulgaris», Biomedicines 2023;11(8):2294 (DOI 10.3390/biomedicines11082294). Когортне дослідження 41 пацієнта з акне та 47 здорових осіб, дібраних за ІМТ, у поєднанні з систематичним оглядом. Глюкоза натще в середньому 94,88 мг/дл у групі з акне проти 79,51 у контролі (p<0,001); HOMA-IR — 3,4 (SD 1,49) проти 2,34 (SD 0,909), p<0,001. За порогом HOMA-IR понад 2,1 інсулінорезистентність діагностували в 32 із 41 пацієнта (78%) та в 26 із 47 контрольних осіб (55%), p=0,026. Різниця статистично значуща, а частка в контролі настільки висока, що оцінити за цим індивідуальний ризик не можна. Раніше проспективне дослідження ізольованого жіночого акне (Kartal D та ін., Giornale Italiano di Dermatologia e Venereologia, 2016) показало той самий напрямок.",
+            "detail": "Gruszczyńska M, Sadowska-Przytocka A, Szybiak W, Więckowska B, Lacka K. «Insulin Resistance in Patients with Acne Vulgaris», Biomedicines 2023;11(8):2294 (DOI 10.3390/biomedicines11082294), Познанський медичний університет. Когортне дослідження 41 пацієнта з акне (38 жінок, середній вік 30,6 року) та 47 здорових осіб, дібраних за ІМТ (24 жінки), у поєднанні з систематичним оглядом. Глюкоза натще в середньому 94,88 мг/дл у групі з акне проти 79,51 у контролі (p<0,001); HOMA-IR — 3,4 (SD 1,49) проти 2,34 (SD 0,909), p<0,001. За порогом HOMA-IR понад 2,1 інсулінорезистентність діагностували в 32 із 41 пацієнта (78%) та в 26 із 47 контрольних осіб (55%), p=0,026; за суворішим порогом 2,69 — 63% і 30%. Різниця статистично значуща, а частка в контролі настільки висока, що оцінити за цим індивідуальний ризик не можна. Раніше проспективне дослідження ізольованого жіночого акне (Kartal D та ін., Giornale Italiano di Dermatologia e Venereologia, 2016; проаналізовано 36 жінок з акне та 24 контрольні, віком 25–40 років) показало той самий напрямок.",
             "cite": "Biomedicines 2023 · когорта та огляд",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10452885/"
           },
           {
-            "claim": "У британському дослідженні спіронолактону перевага над плацебо була мінімальною на 12-му тижні та чіткою на 24-му — у жінок із середнім віком 29 років.",
-            "detail": "Santer M та ін. «Effectiveness of spironolactone for women with acne vulgaris (SAFA) in England and Wales», BMJ 2023 (ISRCTN12892056). Обстежено 1267 жінок, рандомізовано 410, у первинний аналіз увійшли 342. Спіронолактон 50 мг/добу до шостого тижня, далі 100 мг/добу до 24-го, проти ідентичного плацебо; зовнішнє лікування можна було продовжувати. Середній вік на початку — 29,2 року (SD 7,2); 46% легке, 40% помірне, 13% тяжке акне. Підшкала симптомів Acne-QoL (0–30, вище — краще): різниця на користь спіронолактону на 12-му тижні 1,27 (95% ДІ 0,07–2,46); на 24-му — 3,45 (95% ДІ 2,16–4,75). Самооцінка покращення: 72% проти 68% на 12-му тижні (OR 1,16, 95% ДІ 0,70–1,91, різниця незначуща) і 82% проти 63% на 24-му (OR 2,72, 1,50–4,93). Успіх лікування за оцінкою дослідника на 12-му тижні: 19% проти 6%. Головний біль 20% проти 12% (p=0,02); серйозних побічних реакцій не було. Спіронолактон не ліцензований для акне у Британії та призначається поза інструкцією; NICE NG198 (2021, оновлено 2023) написана до цього дослідження і його не включає, про що прямо сказано в рекомендаціях British Association of Dermatologists щодо направлень із первинної ланки.",
+            "claim": "У британському дослідженні спіронолактону перевага над плацебо була невеликою на 12-му тижні та чіткою на 24-му — у жінок із середнім віком 29 років.",
+            "detail": "Santer M та ін. «Effectiveness of spironolactone for women with acne vulgaris (SAFA) in England and Wales», BMJ 2023 (ISRCTN12892056). Обстежено 1267 жінок, рандомізовано 410, у первинний аналіз увійшли 342. Спіронолактон 50 мг/добу до шостого тижня, далі 100 мг/добу до 24-го, проти ідентичного плацебо; зовнішнє лікування можна було продовжувати. Середній вік на початку — 29,2 року (SD 7,2); 46% легке, 40% помірне, 13% тяжке акне. Підшкала симптомів Acne-QoL (0–30, вище — краще): різниця на користь спіронолактону на 12-му тижні 1,27 (95% ДІ 0,07–2,46), менше за двобальний поріг значущої різниці, закладений у дослідженні; на 24-му — 3,45 (95% ДІ 2,16–4,75). Самооцінка покращення: 72% проти 68% на 12-му тижні (OR 1,16, 95% ДІ 0,70–1,91, різниця незначуща) і 82% проти 63% на 24-му (OR 2,72, 1,50–4,93). Успіх лікування за оцінкою дослідника на 12-му тижні: 19% проти 6%. Головний біль 20% проти 12% (p=0,02); серйозних побічних реакцій не було. Спіронолактон не ліцензований для акне у Британії та призначається поза інструкцією; NICE NG198 (2021, востаннє оновлено в серпні 2026) написана до цього дослідження і досі його не включає; британські дерматологічні рекомендації для первинної ланки називають його неліцензованим для лікування акне в жінок.",
             "cite": "BMJ 2023 · рандомізоване контрольоване дослідження",
             "url": "https://pubmed.ncbi.nlm.nih.gov/37192767/"
           },
           {
             "claim": "Харчування з високим глікемічним навантаженням підвищує IGF-1, який збільшує сальні залози, посилює вироблення шкірного сала та вмикає синтез андрогенів.",
-            "detail": "«Etiology of Adult Female Acne — Systematic Review», Health Science Reports 2025;8:e70697 (DOI 10.1002/hsr2.70697). Систематичний огляд двадцяти статей про генетику, гормони та харчування при акне після 25 років. Висновок: гіперандрогенія, обтяжений сімейний анамнез і харчування з високим глікемічним навантаженням найпослідовніше пов’язані з дорослим акне. Описано шлях інсулін–IGF-1: IGF-1 підсилює ріст сальних залоз, вироблення себуму та проліферацію кератиноцитів і активує синтез андрогенів. Також повідомляється про значуще нижчі рівні зв’язувального глобуліну та АКТГ у пацієнтів із акне й про те, що збільшене співвідношення андрогенів до естрогену погіршує акне. Жодна з включених робіт не стосується саме жінок у перименопаузі.",
+            "detail": "Telkkälä A, Sinikumpu SP, Huilaja L. «Etiology of Adult Female Acne — Systematic Review», Health Science Reports 2025;8:e70697 (DOI 10.1002/hsr2.70697). Систематичний огляд (з описовим, а не об’єднаним аналізом) двадцяти статей про генетику, гормони та харчування при акне після 25 років. Висновок: гіперандрогенія, обтяжений сімейний анамнез і харчування з високим глікемічним навантаженням найпослідовніше пов’язані з дорослим акне. Описано шлях інсулін–IGF-1: IGF-1 підсилює ріст сальних залоз, вироблення себуму та проліферацію кератиноцитів і активує синтез андрогенів. Серед включених робіт одне дослідження «випадок–контроль» (Borzyszkowska, 2022, 99 жінок віком 18–31 рік) виявило значуще нижчі рівні зв’язувального глобуліну та АКТГ у пацієнтів із акне, а одне поперечне дослідження (Zhang, 2022) — що вище співвідношення андрогенів до естрогену супроводжувало тяжче акне. Жодна з включених робіт не стосується саме жінок у перименопаузі.",
             "cite": "Health Science Reports 2025 · систематичний огляд",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12042216/"
           }
@@ -410,7 +410,7 @@ export default {
     "faq": [
       {
         "q": "Якщо прибрати цукор, шкіра очиститься?",
-        "a": "Можливо, але гарантувати цього не може ніхто. Механізм реальний: їжа, яка різко піднімає глюкозу, піднімає інсулін, інсулін піднімає IGF-1, а IGF-1 підсилює вироблення себуму та андрогенну активність. Дослідження харчування з низьким глікемічним навантаженням у молодших людей із акне показували помірне покращення. Але в жінок понад сорок цього ніхто не перевіряв, а в дослідженнях зв’язку інсулінорезистентності та акне вона була більш ніж у половини здорових людей із груп порівняння. Чесно кажучи, це варто робити заради метаболічного здоров’я в цьому віці незалежно від шкіри, а чекати від цього позбавлення від акне — прямий шлях до розчарування на шостому тижні."
+        "a": "Можливо, але гарантувати цього не може ніхто. Механізм реальний: їжа, яка різко піднімає глюкозу, піднімає інсулін, інсулін піднімає IGF-1, а IGF-1 підсилює вироблення себуму та андрогенну активність. Дослідження харчування з низьким глікемічним навантаженням у молодших людей із акне показували помірне покращення. Але дослідження в жінок понад сорок я не знайшла, а в дослідженнях зв’язку інсулінорезистентності та акне вона була більш ніж у половини здорових людей із груп порівняння. Чесно кажучи, це варто робити заради метаболічного здоров’я в цьому віці незалежно від шкіри, а чекати від цього позбавлення від акне — прямий шлях до розчарування на шостому тижні."
       },
       {
         "q": "У підлітковому віці акне не було. Чому зараз і чи варто здати аналізи?",
