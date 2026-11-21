@@ -1,10 +1,5 @@
 # UA proofread: recipe--berry-smoothie
 
-- Last checked: 2026-10-11
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/368
-- Notes: fixed a meaning gap in `why` («...сповільнюють фруктовий цукор.» →
-  «...сповільнюють засвоєння фруктового цукру.» — you cannot "slow down" a
-  sugar itself; the EN original means the yoghurt and flax slow its
-  absorption, which the UA version had dropped). Rest of the UA text
-  (`imgAlt`, `title`, `nutrition`, `meta`, `ingredients`, `method`) checked
-  against `en` paragraph by paragraph; no other issues found.
+- Last checked: 2026-11-21
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/594
+- Notes: cycle 2. 2 fixes: a missing comma in `imgAlt` (without it, «з пінкою зверху на білому тлі» reads as if the foam sits on the background); in `why`, the calque «з льоном для білка, клітковини й омега-3» ("with flax for protein…") became «з льоном — це білок, клітковина й омега-3, а…». The 2026-10-11 meaning fix (засвоєння фруктового цукру) is kept. Not changed: the site treats «смузі» as masculine (normative usage leans neuter), but it's masculine across most recipes, so it was left for a site-wide decision.
