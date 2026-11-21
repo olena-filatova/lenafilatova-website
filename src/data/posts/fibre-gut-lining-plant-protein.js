@@ -13,11 +13,11 @@ export default {
     "metaDesc": "Princeton isotope tracing found the harmful gut phenols come from your own mucus lining, the good ones from plant protein that survives digestion. In mice.",
     "excerpt": "Two Princeton papers traced the gut’s good and bad chemicals to their sources: the harmful ones to the body’s own mucus, the helpful ones to plant protein. In mice.",
     "meta": "16 November 2026 · 6 min read",
-    "lead": "A press release in early November put it bluntly: when gut bacteria run out of fibre, they start eating you. The two Princeton papers sitting behind that line are more careful than the headline, and considerably more interesting. Between them they traced, atom by atom, where the gut’s most-discussed chemicals actually come from — and one of them undercuts a good deal of what gets said about the microbiome.",
+    "lead": "A headline in early November put it bluntly: when gut bacteria run out of fibre, they may start eating you. The two Princeton papers sitting behind that line are more careful than the headline, and considerably more interesting. Between them they traced, atom by atom, where the gut’s most-discussed chemicals actually come from — and one of them undercuts a good deal of what gets said about the microbiome.",
     "blocks": [
       {
         "t": "p",
-        "text": "First, the dates, because the news framing is slightly off. Both papers come from Jenna AbuSalim, Joshua Rabinowitz and colleagues at Princeton’s Ludwig Institute for Cancer Research. The first was published in Nature Metabolism on 23 June 2026, the second in PNAS on 27 July. The November coverage is the institute’s own round-up of the pair, not a new result. Nothing was discovered this month."
+        "text": "First, the dates, because the news framing is slightly off. Both papers come from Jenna AbuSalim, Joshua Rabinowitz and colleagues at Princeton’s Ludwig Institute for Cancer Research. The first was published in Nature Metabolism on 23 June 2026, the second in PNAS on 27 July. The November coverage is a repost of the institute’s own round-up of the pair, first issued on 27 July, not a new result. Nothing was discovered this month."
       },
       {
         "t": "p",
@@ -29,11 +29,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Then there is the companion paper, which is the more deflating of the two and got almost no coverage. Indoles and phenols are routinely described as microbial products — the microbiome’s chemical output, the thing a probiotic is supposed to be nudging. Tracing them in cell culture, mice, rats and in blood from patients on antibiotics, the team found that mammalian cells make many of them perfectly well on their own. Indole-3-lactate and indole-3-acetate were unaffected by wiping out the microbiome. Only a narrower set — aryl-propionates, and free indole, phenol and p-cresol — genuinely required bacteria. A large share of what has been attributed to your gut flora is, on this evidence, being made by you."
+        "text": "Then there is the companion paper, which is the more deflating of the two and got almost no coverage. Indoles and phenols are routinely described as microbial products — the microbiome’s chemical output, the thing a probiotic is supposed to be nudging. Tracing them in cell culture, mice and rats, and checking blood from patients on antibiotics, the team found that mammalian cells make many of them perfectly well on their own. Indole-3-lactate and indole-3-acetate were unaffected by wiping out the microbiome. Only a narrower set — aryl-propionates, and free indole, phenol and p-cresol — genuinely required bacteria. A large share of what has been attributed to your gut flora is, on this evidence, being made by you."
       },
       {
         "t": "p",
-        "text": "Which brings us to what you should actually do differently, and the honest answer is nothing. The press release coins a term, “Prif”, for proteins imitating fibre — plant proteins that resist digestion — and Rabinowitz suggests food packaging may one day list it below fibre. That word appears nowhere in either peer-reviewed paper, no food is named as a source in any of the coverage, and no one has given digestion-resistant protein to a human being and measured what happened. If a supplement turns up with Prif on the label this winter, it is ahead of the evidence by a distance. What the work does is supply a mechanism for advice that already had human evidence behind it: eat plants more or less whole, so that the fibre and the protein arrive together. The UK target is 30g of fibre a day and adults here average 19.7g, which is the gap worth closing — I’ve gone through [what the fibre numbers actually say](/blog/fibremaxxing-how-much-fibre-uk/) separately, and [an earlier mouse study on the same mucus idea](/blog/fibre-deficiency-gut-inflammation/) is worth reading beside this one for how differently two labs can arrive at the same picture."
+        "text": "Which brings us to what you should actually do differently, and the honest answer is nothing. The press release coins a term, “Prif”, for proteins imitating fibre — plant proteins that resist digestion — and Rabinowitz suggests food packaging may one day list it below fibre. That word is not in the Nature Metabolism paper or the PNAS abstract, no food is named as a source in any of the coverage, and no one has given digestion-resistant protein to a human being and measured what happened. If a supplement turns up with Prif on the label this winter, it is ahead of the evidence by a distance. What the work does is supply a mechanism for advice that already had human evidence behind it: eat plants more or less whole, so that the fibre and the protein arrive together. The UK target is 30g of fibre a day and adults here average 19.7g, which is the gap worth closing — I’ve gone through [what the fibre numbers actually say](/blog/fibremaxxing-how-much-fibre-uk/) separately, and [an earlier mouse study on the same mucus idea](/blog/fibre-deficiency-gut-inflammation/) is worth reading beside this one for how differently two labs can arrive at the same picture."
       },
       {
         "t": "h",
@@ -56,8 +56,8 @@ export default {
           },
           {
             "claim": "“Prif” is a term from the press release, not from either paper.",
-            "detail": "The Ludwig Institute’s November round-up of the two studies introduces “Prif” — proteins imitating fibre — and quotes Joshua Rabinowitz saying food packaging may eventually list Prif right below fibre, and Jenna AbuSalim describing Prifs as an emerging class of dietary nutrients. The word does not appear in the abstract of either peer-reviewed paper, the coverage names no specific foods as sources, and no trial has tested digestion-resistant protein in people.",
-            "cite": "Ludwig Institute for Cancer Research · News release, 5 November 2026",
+            "detail": "The Ludwig Institute’s round-up of the two studies, issued on 27 July and reposted by news sites in November, introduces “Prif” — proteins imitating fibre — and quotes Joshua Rabinowitz saying food packaging may eventually list Prif right below fibre, and Jenna AbuSalim describing Prifs as an emerging class of dietary nutrients. The word does not appear in the Nature Metabolism paper or in the PNAS abstract, the coverage names no specific foods as sources, and no trial has tested digestion-resistant protein in people.",
+            "cite": "Ludwig Institute for Cancer Research · News release, 27 July 2026",
             "url": "https://www.ludwigcancerresearch.org/news-releases/a-new-light-on-the-microbiome-and-its-metabolites/"
           },
           {
@@ -97,7 +97,7 @@ export default {
       },
       {
         "q": "Should I buy a “Prif” or digestion-resistant protein supplement?",
-        "a": "No — and at the time of writing there is nothing credible to buy. “Prif” was coined in a press release, not in either of the published papers, and no trial has given digestion-resistant protein to people and measured anything. The practical version of the same idea costs nothing and has human evidence behind it already: get your protein and fibre from the same whole foods, so some of that protein reaches the colon still intact. Beans, lentils, whole grains, nuts. An isolated protein powder is designed to be absorbed early, which is precisely the opposite."
+        "a": "No — and at the time of writing there is nothing credible to buy. “Prif” is a label the team introduced in a press release; it is not in the Nature Metabolism paper or the PNAS abstract, and no trial has given digestion-resistant protein to people and measured anything. The practical version of the same idea costs nothing and has human evidence behind it already: get your protein and fibre from the same whole foods, so some of that protein reaches the colon still intact. Beans, lentils, whole grains, nuts. An isolated protein powder is designed to be absorbed early, which is precisely the opposite."
       }
     ]
   },
@@ -109,11 +109,11 @@ export default {
     "metaDesc": "Ізотопні дослідження в Прінстоні показали: шкідливі феноли беруться з вашого ж слизового шару, а корисні — з рослинного білка, який пережив травлення. У мишей.",
     "excerpt": "Дві прінстонські роботи знайшли джерела «хороших» і «поганих» речовин кишківника: шкідливі — з власного слизу, корисні — з рослинного білка. У мишей.",
     "meta": "16 листопада 2026 · 6 хв читання",
-    "lead": "Пресреліз на початку листопада сформулював це прямо: коли кишковим бактеріям бракує клітковини, вони починають їсти вас. Дві прінстонські роботи, що стоять за цим заголовком, значно обережніші — і значно цікавіші. Разом вони простежили, атом за атомом, звідки насправді беруться найобговорюваніші речовини кишківника. І одна з них підважує чималу частину того, що зазвичай кажуть про мікробіом.",
+    "lead": "Заголовок на початку листопада сформулював це прямо: коли кишковим бактеріям бракує клітковини, вони можуть почати їсти вас. Дві прінстонські роботи, що стоять за цим заголовком, значно обережніші — і значно цікавіші. Разом вони простежили, атом за атомом, звідки насправді беруться найобговорюваніші речовини кишківника. І одна з них підважує чималу частину того, що зазвичай кажуть про мікробіом.",
     "blocks": [
       {
         "t": "p",
-        "text": "Спершу про дати, бо в новинах їх подали трохи неточно. Обидві статті — від Дженни АбуСалім, Джошуа Рабіновіца та колег з Інституту Людвіга з дослідження раку при Прінстоні. Першу опублікували в Nature Metabolism 23 червня 2026 року, другу — у PNAS 27 липня. Листопадові публікації — це власний огляд інституту про обидві роботи, а не новий результат. Цього місяця не відкрили нічого."
+        "text": "Спершу про дати, бо в новинах їх подали трохи неточно. Обидві статті — від Дженни АбуСалім, Джошуа Рабіновіца та колег з Інституту Людвіга з дослідження раку при Прінстоні. Першу опублікували в Nature Metabolism 23 червня 2026 року, другу — у PNAS 27 липня. Листопадові публікації — це передрук власного огляду інституту про обидві роботи, випущеного ще 27 липня, а не новий результат. Цього місяця не відкрили нічого."
       },
       {
         "t": "p",
@@ -125,11 +125,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "А ще є супровідна стаття — вона збиває пафос ще більше, і її майже ніхто не помітив. Індоли й феноли зазвичай описують як мікробні продукти: хімічну «продукцію» мікробіому, те, на що нібито має впливати пробіотик. Простежуючи їх у клітинних культурах, у мишей, щурів і в крові пацієнтів, які приймали антибіотики, команда виявила, що клітини ссавців цілком успішно виробляють багато з них самостійно. На індол-3-лактат та індол-3-ацетат знищення мікробіому не вплинуло. Лише вужчий набір — арилпропіонати, а також вільний індол, фенол і п-крезол — справді потребував бактерій. Значну частину того, що приписували вашій кишковій флорі, за цими даними виробляєте ви самі."
+        "text": "А ще є супровідна стаття — вона збиває пафос ще більше, і її майже ніхто не помітив. Індоли й феноли зазвичай описують як мікробні продукти: хімічну «продукцію» мікробіому, те, на що нібито має впливати пробіотик. Простежуючи їх у клітинних культурах, у мишей і щурів, а також перевіривши кров пацієнтів, які приймали антибіотики, команда виявила, що клітини ссавців цілком успішно виробляють багато з них самостійно. На індол-3-лактат та індол-3-ацетат знищення мікробіому не вплинуло. Лише вужчий набір — арилпропіонати, а також вільний індол, фенол і п-крезол — справді потребував бактерій. Значну частину того, що приписували вашій кишковій флорі, за цими даними виробляєте ви самі."
       },
       {
         "t": "p",
-        "text": "І тут постає питання, що ж робити інакше. Чесна відповідь — нічого. Пресреліз вводить термін «Prif», proteins imitating fiber, тобто білки, що імітують клітковину: рослинні білки, стійкі до травлення. Рабіновіц припускає, що колись на упаковках їх писатимуть одразу під клітковиною. Цього слова немає в жодній з рецензованих статей, у жодному матеріалі не названо конкретного продукту як джерела, і ніхто ще не давав стійкий до травлення білок людині й не вимірював наслідків. Якщо цієї зими з’явиться добавка з написом Prif — вона серйозно випереджає докази. Натомість ця робота пояснює механізм поради, яка вже мала докази на людях: їжте рослинні продукти якомога менш обробленими, щоб клітковина й білок надходили разом. У Великій Британії норма — 30 г клітковини на день, а дорослі в середньому їдять 19,7 г; саме цю різницю варто закривати. Окремо я розбирала, [що насправді кажуть цифри про клітковину](/ua/blog/fibremaxxing-how-much-fibre-uk/), а [попереднє дослідження на мишах про ту саму ідею зі слизом](/ua/blog/fibre-deficiency-gut-inflammation/) варто прочитати поруч із цим — хоча б для того, щоб побачити, наскільки різними шляхами дві лабораторії приходять до однієї картини."
+        "text": "І тут постає питання, що ж робити інакше. Чесна відповідь — нічого. Пресреліз вводить термін «Prif», proteins imitating fiber, тобто білки, що імітують клітковину: рослинні білки, стійкі до травлення. Рабіновіц припускає, що колись на упаковках їх писатимуть одразу під клітковиною. Цього слова немає ні в статті в Nature Metabolism, ні в анотації статті в PNAS, у жодному матеріалі не названо конкретного продукту як джерела, і ніхто ще не давав стійкий до травлення білок людині й не вимірював наслідків. Якщо цієї зими з’явиться добавка з написом Prif — вона серйозно випереджає докази. Натомість ця робота пояснює механізм поради, яка вже мала докази на людях: їжте рослинні продукти якомога менш обробленими, щоб клітковина й білок надходили разом. У Великій Британії норма — 30 г клітковини на день, а дорослі в середньому їдять 19,7 г; саме цю різницю варто закривати. Окремо я розбирала, [що насправді кажуть цифри про клітковину](/ua/blog/fibremaxxing-how-much-fibre-uk/), а [попереднє дослідження на мишах про ту саму ідею зі слизом](/ua/blog/fibre-deficiency-gut-inflammation/) варто прочитати поруч із цим — хоча б для того, щоб побачити, наскільки різними шляхами дві лабораторії приходять до однієї картини."
       },
       {
         "t": "h",
@@ -152,8 +152,8 @@ export default {
           },
           {
             "claim": "«Prif» — термін з пресрелізу, а не зі статей.",
-            "detail": "Листопадовий огляд обох досліджень від Інституту Людвіга вводить термін «Prif» — proteins imitating fiber, білки, що імітують клітковину — і цитує Джошуа Рабіновіца, який каже, що на упаковках продуктів Prif колись може стояти одразу під клітковиною, та Дженну АбуСалім, яка описує Prif як нову категорію харчових нутрієнтів. Цього слова немає в анотації жодної з рецензованих статей, у матеріалах не названо конкретних продуктів як джерел, і жодне випробування не перевіряло стійкий до травлення білок на людях.",
-            "cite": "Ludwig Institute for Cancer Research · Пресреліз, 5 листопада 2026",
+            "detail": "Огляд обох досліджень від Інституту Людвіга, випущений 27 липня і передрукований новинними сайтами в листопаді, вводить термін «Prif» — proteins imitating fiber, білки, що імітують клітковину — і цитує Джошуа Рабіновіца, який каже, що на упаковках продуктів Prif колись може стояти одразу під клітковиною, та Дженну АбуСалім, яка описує Prif як нову категорію харчових нутрієнтів. Цього слова немає ні в статті в Nature Metabolism, ні в анотації статті в PNAS, у матеріалах не названо конкретних продуктів як джерел, і жодне випробування не перевіряло стійкий до травлення білок на людях.",
+            "cite": "Ludwig Institute for Cancer Research · Пресреліз, 27 липня 2026",
             "url": "https://www.ludwigcancerresearch.org/news-releases/a-new-light-on-the-microbiome-and-its-metabolites/"
           },
           {
@@ -193,7 +193,7 @@ export default {
       },
       {
         "q": "Чи варто купувати добавку з «Prif» або стійким до травлення білком?",
-        "a": "Ні — і на момент написання цього тексту немає нічого вартого довіри, що можна було б купити. Термін «Prif» з’явився в пресрелізі, а не в опублікованих статтях, і жодне випробування не давало стійкий до травлення білок людям і нічого не вимірювало. Практична версія тієї самої ідеї нічого не коштує і вже має докази на людях: беріть білок і клітковину з тих самих цілісних продуктів, щоб частина білка дісталася товстої кишки неушкодженою. Квасоля, сочевиця, цільні злаки, горіхи. Ізольований протеїновий порошок створений так, щоб засвоїтися рано, — тобто рівно навпаки."
+        "a": "Ні — і на момент написання цього тексту немає нічого вартого довіри, що можна було б купити. Термін «Prif» команда ввела в пресрелізі; його немає ні в статті в Nature Metabolism, ні в анотації статті в PNAS, і жодне випробування не давало стійкий до травлення білок людям і нічого не вимірювало. Практична версія тієї самої ідеї нічого не коштує і вже має докази на людях: беріть білок і клітковину з тих самих цілісних продуктів, щоб частина білка дісталася товстої кишки неушкодженою. Квасоля, сочевиця, цільні злаки, горіхи. Ізольований протеїновий порошок створений так, щоб засвоїтися рано, — тобто рівно навпаки."
       }
     ]
   }

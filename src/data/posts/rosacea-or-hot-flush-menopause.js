@@ -31,7 +31,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "This is not a rule of thumb; it is how the diagnosis is actually made. NICE guidance for UK clinicians, updated in October 2025, uses what it calls a phenotype approach, and the two features that count as diagnostic on their own are persistent redness and thickened skin. Flushing and transient redness are only supporting features — you need two of those, alongside things like bumps, visible vessels or eye symptoms. In other words, the flush itself is almost beside the point. What a clinician is looking for is the colour that stays behind after it."
+        "text": "This is not a rule of thumb; it is how the diagnosis is actually made. NICE guidance for UK clinicians, updated in October 2025, uses what it calls a phenotype approach, and the two features that count as diagnostic on their own are persistent redness and thickened skin. Flushing and transient redness are only one of the major features, alongside bumps and spots, visible vessels and eye symptoms — and without persistent redness or thickened skin you need two of those major features. In other words, the flush itself is almost beside the point. What a clinician is looking for is the colour that stays behind after it."
       },
       {
         "t": "table",
@@ -87,7 +87,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "A systematic review published in the American Journal of Clinical Dermatology in January 2026 went through 40 studies on menopause and chronic skin conditions. On rosacea its finding was plain: it generally improved after menopause. That matches the largest cohort study on the question, which followed 89,873 women and recorded 5,248 new cases of rosacea. Women who were postmenopausal had a lower risk of developing it than women who were still premenopausal — about 27% lower. The researchers’ own explanation is that falling oestrogen is the reason, which is the exact reverse of the usual story."
+        "text": "A systematic review published in the American Journal of Clinical Dermatology in January 2026 went through 40 studies on menopause and chronic skin conditions. On rosacea its finding was plain: it generally improved after menopause. That conclusion rests mainly on the largest cohort study on the question, which followed 89,873 women and recorded 5,248 new cases of rosacea. Women who were postmenopausal had a lower risk of developing it than women who were still premenopausal — about 27% lower. The researchers’ own suggestion is that falling oestrogen may explain it, which is the exact reverse of the usual story."
       },
       {
         "t": "p",
@@ -99,11 +99,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is the finding that actually deserves attention, and it is the one the headline version misses. In that cohort of 89,873 women, what went with more rosacea was not menopause. It was taking hormones. Women on menopausal hormone therapy had a 32% higher risk of developing rosacea, and women who had used the combined pill had a 15% higher risk. The 2026 systematic review reached the same conclusion from its own 40 studies: hormone therapy was linked to a raised risk of rosacea."
+        "text": "Here is the finding that actually deserves attention, and it is the one the headline version misses. In that cohort of 89,873 women, what went with more rosacea was not menopause. It was taking hormones. Women on menopausal hormone therapy had a 32% higher risk of developing rosacea, and women who had used the combined pill had a 15% higher risk. The 2026 systematic review reports the same link, but on rosacea it is not independent confirmation: its hormone therapy finding comes from this same cohort."
       },
       {
         "t": "p",
-        "text": "Three things stop that being a reason to avoid HRT. The first is the type of oestrogen. In the cohort data, the signal sat almost entirely with unopposed oestrogen, where the risk was 61% higher; oestrogen combined with a progestogen showed no significant increase at all. The second is the era. The cohort ran from 1991 to 2005, and the systematic review says in its own conclusions that most of the studies it included used hormone formulations that are less commonly prescribed now. That largely means older oral preparations rather than the oestradiol-through-the-skin that a UK prescriber reaches for today — and if the route and the form matter here as they do elsewhere, these numbers may simply not describe modern prescriptions. I’ve written about why [the route and the progestogen change your risk more than the decision to take HRT at all](/blog/hrt-patches-vs-tablets-progestogen-type/)."
+        "text": "Three things stop that being a reason to avoid HRT. The first is the type of oestrogen. In the cohort data, the signal sat almost entirely with unopposed oestrogen, where the risk was 61% higher; oestrogen combined with a progestogen showed no significant increase at all. The second is the era. The cohort ran from 1991 to 2005, and the systematic review itself notes that most of the studies it included used hormone formulations that are less commonly prescribed now. That largely means older oral preparations rather than the oestradiol-through-the-skin that a UK prescriber reaches for today — and if the route and the form matter here as they do elsewhere, these numbers may simply not describe modern prescriptions. I’ve written about why [the route and the progestogen change your risk more than the decision to take HRT at all](/blog/hrt-patches-vs-tablets-progestogen-type/)."
       },
       {
         "t": "p",
@@ -159,7 +159,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "I am not going to recommend a treatment, but it helps to walk in knowing the shape of the conversation. UK first-line options depend on which features you actually have, which is why the phenotype approach matters: a topical treatment aimed at persistent redness is a different thing from one aimed at the bumps and spots, and oral treatment is generally added for moderate-to-severe bumps and pustules rather than used first. For visible vessels that do not respond to self-management, NICE suggests considering referral to a dermatologist. Thickened skin on the nose is referred separately, to a plastic surgeon."
+        "text": "I am not going to recommend a treatment, but it helps to walk in knowing the shape of the conversation. UK first-line options depend on which features you actually have, which is why the phenotype approach matters: a topical treatment aimed at persistent redness is a different thing from one aimed at the bumps and spots, and oral treatment is generally added for moderate-to-severe bumps and pustules rather than used first. For severe visible vessels that do not respond to self-management, NICE suggests considering referral to a dermatologist. Thickened skin on the nose is referred separately, to a plastic surgeon."
       },
       {
         "t": "p",
@@ -178,8 +178,8 @@ export default {
         "items": [
           {
             "claim": "Rosacea generally improves after menopause rather than worsening — but hormone therapy is linked to more of it.",
-            "detail": "Roster K, Fleshner L, Karatas TB, et al. Menopause and common dermatoses: a systematic review. American Journal of Clinical Dermatology 2026;27(1):67–84. A PRISMA systematic review of 40 studies covering alopecia, psoriasis, acne, rosacea, melasma and hidradenitis suppurativa. It reports that acne and rosacea generally improved after menopause, while menopausal hormone therapy was linked to an increased risk of rosacea and of frontal fibrosing alopecia. The authors note an important caveat: most of the included studies used hormone therapy formulations that are less commonly prescribed today, and they call the data on hormone therapy limited and inconsistent.",
-            "cite": "American Journal of Clinical Dermatology, January 2026 · DOI 10.1007/s40257-025-00994-0",
+            "detail": "Roster K, Fleshner L, Karatas TB, et al. Menopause and common dermatoses: a systematic review. American Journal of Clinical Dermatology 2026;27(1):67–84. A PRISMA systematic review of 40 studies covering alopecia, psoriasis, acne, rosacea, melasma and hidradenitis suppurativa; only two of those studies looked at menopause and rosacea, and its hormone therapy finding for rosacea comes from one of them, the Nurses’ Health Study II cohort below. It reports that acne and rosacea generally improved after menopause, while menopausal hormone therapy was linked to an increased risk of rosacea and of frontal fibrosing alopecia. The authors note an important caveat: most of the included studies used hormone therapy formulations that are less commonly prescribed today, and they call the data on hormone therapy limited and inconsistent.",
+            "cite": "American Journal of Clinical Dermatology, January 2026 (online December 2025) · DOI 10.1007/s40257-025-00994-0",
             "url": "https://doi.org/10.1007/s40257-025-00994-0"
           },
           {
@@ -231,11 +231,11 @@ export default {
       },
       {
         "q": "Does HRT cause rosacea, and should I stop it?",
-        "a": "No, and no — but there is a real association worth understanding. In a cohort of nearly 90,000 women, those on menopausal hormone therapy had about a 32% higher risk of developing rosacea, and a 2026 systematic review found the same direction. Three things temper it. The increase sat with unopposed oestrogen, not oestrogen combined with a progestogen. The data mostly come from older oral formulations rather than the through-the-skin oestradiol usually prescribed in the UK now. And the claim that risk keeps climbing the longer you take it does not hold up: the statistical test for that trend was not significant. Meanwhile hot flushes are themselves a rosacea trigger, and HRT is the most effective treatment for those. If your skin flares after starting, mention it at your next review so the type or route can be looked at — that is a conversation, not a reason to stop."
+        "a": "No, and no — but there is a real association worth understanding. In a cohort of nearly 90,000 women, those on menopausal hormone therapy had about a 32% higher risk of developing rosacea, and a 2026 systematic review reports the same link, drawing on that same cohort. Three things temper it. The increase sat with unopposed oestrogen, not oestrogen combined with a progestogen. The data mostly come from older oral formulations rather than the through-the-skin oestradiol usually prescribed in the UK now. And the claim that risk keeps climbing the longer you take it does not hold up: the statistical test for that trend was not significant. Meanwhile hot flushes are themselves a rosacea trigger, and HRT is the most effective treatment for those. If your skin flares after starting, mention it at your next review so the type or route can be looked at — that is a conversation, not a reason to stop."
       },
       {
         "q": "I have type 1 diabetes. Am I more likely to get rosacea?",
-        "a": "There is an association, found in a Danish study of 6,759 people with rosacea compared with matched controls: rosacea was about two and a half times more common in people with type 1 diabetes, and about twice as common with coeliac disease, with the link appearing in women rather than men. Two caveats matter. The range around the diabetes figure is wide because the numbers were small, so the real size of the effect is uncertain. And it says nothing about cause — neither condition brings on the other. The practical use is simply to mention your diabetes when you see someone about your skin, and to remember that a patch of irritation under a sensor or pump adhesive is a contact reaction rather than rosacea."
+        "a": "There is an association, found in a Danish study of 6,759 people with rosacea compared with matched controls: people with rosacea had about two and a half times the odds of having type 1 diabetes, and about twice the odds of coeliac disease, with the link appearing mainly in women rather than men. That is the overlap seen from the rosacea side; the study did not follow people with diabetes to see who went on to develop rosacea. Two caveats matter. The range around the diabetes figure is wide because the numbers were small, so the real size of the effect is uncertain. And it says nothing about cause — neither condition brings on the other. The practical use is simply to mention your diabetes when you see someone about your skin, and to remember that a patch of irritation under a sensor or pump adhesive is a contact reaction rather than rosacea."
       }
     ]
   },
@@ -255,7 +255,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Це не просто емпіричне правило — саме так і ставлять діагноз. Рекомендації NICE для британських лікарів, оновлені у жовтні 2025 року, використовують фенотиповий підхід, і дві ознаки, які самі по собі є діагностичними, — це стійка червоність і затовщення шкіри. Приливи й минуща червоність — лише допоміжні ознаки: їх потрібно дві, поряд із горбочками, видимими судинами чи очними симптомами. Інакше кажучи, сам прилив майже ні при чому. Лікар шукає той колір, що залишається після нього."
+        "text": "Це не просто емпіричне правило — саме так і ставлять діагноз. Рекомендації NICE для британських лікарів, оновлені у жовтні 2025 року, використовують фенотиповий підхід, і дві ознаки, які самі по собі є діагностичними, — це стійка червоність і затовщення шкіри. Приливи й минуща червоність — лише одна з основних ознак, поряд із горбочками й гнійничками, видимими судинами та очними симптомами, — і без стійкої червоності чи затовщення шкіри потрібно дві такі основні ознаки. Інакше кажучи, сам прилив майже ні при чому. Лікар шукає той колір, що залишається після нього."
       },
       {
         "t": "table",
@@ -311,7 +311,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Систематичний огляд, опублікований у American Journal of Clinical Dermatology у січні 2026 року, опрацював 40 досліджень про менопаузу й хронічні шкірні стани. Щодо розацеа висновок був однозначний: після менопаузи вона зазвичай поліпшувалася. Це збігається з найбільшим когортним дослідженням із цього питання, яке стежило за 89 873 жінками й зафіксувало 5248 нових випадків розацеа. У жінок у постменопаузі ризик захворіти на розацеа був нижчий, ніж у тих, хто ще був у пременопаузі, — приблизно на 27% нижчий. Самі дослідники пояснюють це саме падінням рівня естрогену — тобто цілком протилежно до звичної версії."
+        "text": "Систематичний огляд, опублікований у American Journal of Clinical Dermatology у січні 2026 року, опрацював 40 досліджень про менопаузу й хронічні шкірні стани. Щодо розацеа висновок був однозначний: після менопаузи вона зазвичай поліпшувалася. Цей висновок спирається передусім на найбільше когортне дослідження з цього питання, яке стежило за 89 873 жінками й зафіксувало 5248 нових випадків розацеа. У жінок у постменопаузі ризик захворіти на розацеа був нижчий, ніж у тих, хто ще був у пременопаузі, — приблизно на 27% нижчий. Самі дослідники припускають, що пояснення — саме в падінні рівня естрогену, — тобто цілком протилежно до звичної версії."
       },
       {
         "t": "p",
@@ -323,11 +323,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Ось результат, який справді вартий уваги і який губиться в спрощених переказах. У тій когорті з 89 873 жінок із більшою кількістю розацеа пов’язана була не менопауза. А прийом гормонів. У жінок на менопаузальній гормональній терапії ризик захворіти на розацеа був на 32% вищий, а в тих, хто приймав комбіновані протизаплідні таблетки, — на 15%. Систематичний огляд 2026 року на основі своїх 40 досліджень дійшов того самого висновку: гормональна терапія пов’язана з вищим ризиком розацеа."
+        "text": "Ось результат, який справді вартий уваги і який губиться в спрощених переказах. У тій когорті з 89 873 жінок із більшою кількістю розацеа пов’язана була не менопауза. А прийом гормонів. У жінок на менопаузальній гормональній терапії ризик захворіти на розацеа був на 32% вищий, а в тих, хто приймав комбіновані протизаплідні таблетки, — на 15%. Систематичний огляд 2026 року повідомляє про той самий зв’язок, але щодо розацеа це не незалежне підтвердження: його висновок про гормональну терапію ґрунтується на тій самій когорті."
       },
       {
         "t": "p",
-        "text": "Три речі не дають зробити з цього привід відмовлятися від ЗГТ. Перша — тип естрогену. У когортних даних сигнал майже повністю стосувався естрогену без прогестогену, де ризик був на 61% вищий; естроген у поєднанні з прогестогеном суттєвого зростання взагалі не показав. Друга — епоха. Когорта тривала з 1991 до 2005 року, і систематичний огляд у власних висновках зазначає, що більшість включених досліджень стосувалася форм, які сьогодні призначають рідше. Це переважно старіші пероральні препарати, а не естрадіол через шкіру, до якого сьогодні вдається британський лікар, — і якщо шлях уведення й форма важливі тут так само, як і в інших питаннях, то ці цифри можуть просто не описувати сучасних призначень. Я писала про те, чому [шлях уведення й прогестоген змінюють ваш ризик більше, ніж саме рішення приймати ЗГТ](/ua/blog/hrt-patches-vs-tablets-progestogen-type/)."
+        "text": "Три речі не дають зробити з цього привід відмовлятися від ЗГТ. Перша — тип естрогену. У когортних даних сигнал майже повністю стосувався естрогену без прогестогену, де ризик був на 61% вищий; естроген у поєднанні з прогестогеном суттєвого зростання взагалі не показав. Друга — епоха. Когорта тривала з 1991 до 2005 року, і систематичний огляд сам зазначає, що більшість включених досліджень стосувалася форм, які сьогодні призначають рідше. Це переважно старіші пероральні препарати, а не естрадіол через шкіру, до якого сьогодні вдається британський лікар, — і якщо шлях уведення й форма важливі тут так само, як і в інших питаннях, то ці цифри можуть просто не описувати сучасних призначень. Я писала про те, чому [шлях уведення й прогестоген змінюють ваш ризик більше, ніж саме рішення приймати ЗГТ](/ua/blog/hrt-patches-vs-tablets-progestogen-type/)."
       },
       {
         "t": "p",
@@ -383,7 +383,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Я не рекомендуватиму лікування, але корисно зайти в кабінет, уявляючи, як піде розмова. У Британії вибір лікування першої лінії залежить від того, які саме ознаки у вас є, і саме тому фенотиповий підхід важливий: засіб проти стійкої червоності — це не те саме, що засіб проти горбочків і гнійничків, а пероральне лікування зазвичай додають при помірних і тяжких висипаннях, а не починають із нього. Для видимих судин, які не реагують на самодопомогу, NICE радить розглянути скерування до дерматолога. Затовщення шкіри на носі скеровують окремо, до пластичного хірурга."
+        "text": "Я не рекомендуватиму лікування, але корисно зайти в кабінет, уявляючи, як піде розмова. У Британії вибір лікування першої лінії залежить від того, які саме ознаки у вас є, і саме тому фенотиповий підхід важливий: засіб проти стійкої червоності — це не те саме, що засіб проти горбочків і гнійничків, а пероральне лікування зазвичай додають при помірних і тяжких висипаннях, а не починають із нього. Для виражених видимих судин, які не реагують на самодопомогу, NICE радить розглянути скерування до дерматолога. Затовщення шкіри на носі скеровують окремо, до пластичного хірурга."
       },
       {
         "t": "p",
@@ -402,8 +402,8 @@ export default {
         "items": [
           {
             "claim": "Після менопаузи розацеа зазвичай поліпшується, а не погіршується — але гормональна терапія пов’язана з більшою її кількістю.",
-            "detail": "Roster K, Fleshner L, Karatas TB та ін. Menopause and common dermatoses: a systematic review. American Journal of Clinical Dermatology 2026;27(1):67–84. Систематичний огляд за PRISMA, 40 досліджень про алопецію, псоріаз, акне, розацеа, мелазму та гнійний гідраденіт. У ньому зазначено, що акне й розацеа після менопаузи зазвичай поліпшувалися, тоді як менопаузальна гормональна терапія була пов’язана з підвищеним ризиком розацеа та фронтальної фіброзної алопеції. Важливе застереження авторів: у більшості включених досліджень йшлося про форми гормональної терапії, які сьогодні призначають рідше, і дані про гормональну терапію вони називають обмеженими й суперечливими.",
-            "cite": "American Journal of Clinical Dermatology, січень 2026 · DOI 10.1007/s40257-025-00994-0",
+            "detail": "Roster K, Fleshner L, Karatas TB та ін. Menopause and common dermatoses: a systematic review. American Journal of Clinical Dermatology 2026;27(1):67–84. Систематичний огляд за PRISMA, 40 досліджень про алопецію, псоріаз, акне, розацеа, мелазму та гнійний гідраденіт; лише два з них стосувалися менопаузи й розацеа, а висновок про гормональну терапію при розацеа взято з одного з них — когорти Nurses’ Health Study II нижче. У ньому зазначено, що акне й розацеа після менопаузи зазвичай поліпшувалися, тоді як менопаузальна гормональна терапія була пов’язана з підвищеним ризиком розацеа та фронтальної фіброзної алопеції. Важливе застереження авторів: у більшості включених досліджень йшлося про форми гормональної терапії, які сьогодні призначають рідше, і дані про гормональну терапію вони називають обмеженими й суперечливими.",
+            "cite": "American Journal of Clinical Dermatology, січень 2026 (онлайн — грудень 2025) · DOI 10.1007/s40257-025-00994-0",
             "url": "https://doi.org/10.1007/s40257-025-00994-0"
           },
           {
@@ -455,11 +455,11 @@ export default {
       },
       {
         "q": "Чи спричиняє ЗГТ розацеа і чи треба її припиняти?",
-        "a": "Ні й ні — але зв’язок справді є, і його варто розуміти. У когорті з майже 90 000 жінок у тих, хто приймав менопаузальну гормональну терапію, ризик захворіти на розацеа був приблизно на 32% вищий, і систематичний огляд 2026 року дав той самий напрям. Три речі це пом’якшують. Зростання стосувалося естрогену без прогестогену, а не комбінації естрогену з прогестогеном. Дані переважно зі старіших пероральних форм, а не з естрадіолу через шкіру, який сьогодні зазвичай призначають у Британії. А твердження, що ризик зростає з тривалістю прийому, не підтверджується: статистичний тест на цей тренд не був значущим. Водночас приливи самі по собі є тригером розацеа, а ЗГТ — найефективніше лікування саме приливів. Якщо після початку терапії шкіра почала загострюватися, скажіть про це на наступному огляді, щоб переглянути тип або шлях уведення, — це розмова, а не привід припиняти."
+        "a": "Ні й ні — але зв’язок справді є, і його варто розуміти. У когорті з майже 90 000 жінок у тих, хто приймав менопаузальну гормональну терапію, ризик захворіти на розацеа був приблизно на 32% вищий, і систематичний огляд 2026 року повідомляє про той самий зв’язок, спираючись на ту саму когорту. Три речі це пом’якшують. Зростання стосувалося естрогену без прогестогену, а не комбінації естрогену з прогестогеном. Дані переважно зі старіших пероральних форм, а не з естрадіолу через шкіру, який сьогодні зазвичай призначають у Британії. А твердження, що ризик зростає з тривалістю прийому, не підтверджується: статистичний тест на цей тренд не був значущим. Водночас приливи самі по собі є тригером розацеа, а ЗГТ — найефективніше лікування саме приливів. Якщо після початку терапії шкіра почала загострюватися, скажіть про це на наступному огляді, щоб переглянути тип або шлях уведення, — це розмова, а не привід припиняти."
       },
       {
         "q": "У мене діабет 1 типу. Чи більша в мене ймовірність розацеа?",
-        "a": "Зв’язок є. Датське дослідження 6759 людей із розацеа порівняно з дібраними контролями показало, що розацеа була приблизно у два з половиною раза частішою в людей із діабетом 1 типу і приблизно вдвічі частішою при целіакії, причому зв’язок проявлявся в жінок, а не в чоловіків. Два застереження. Діапазон навколо цифри для діабету широкий, бо числа малі, тому справжній розмір ефекту невідомий. І це нічого не каже про причину — жоден стан не спричиняє іншого. Практична користь — просто згадати про свій діабет, коли йдете до лікаря зі шкірою, і пам’ятати, що подразнення під клейкою основою сенсора чи помпи — це контактна реакція, а не розацеа."
+        "a": "Зв’язок є. Датське дослідження 6759 людей із розацеа порівняно з дібраними контролями показало, що у людей із розацеа шанси мати діабет 1 типу були приблизно у два з половиною раза вищі, а целіакію — приблизно вдвічі, причому зв’язок проявлявся переважно в жінок, а не в чоловіків. Це збіг, побачений із боку розацеа; дослідження не стежило за людьми з діабетом, щоб з’ясувати, у кого згодом розвинеться розацеа. Два застереження. Діапазон навколо цифри для діабету широкий, бо числа малі, тому справжній розмір ефекту невідомий. І це нічого не каже про причину — жоден стан не спричиняє іншого. Практична користь — просто згадати про свій діабет, коли йдете до лікаря зі шкірою, і пам’ятати, що подразнення під клейкою основою сенсора чи помпи — це контактна реакція, а не розацеа."
       }
     ]
   }
