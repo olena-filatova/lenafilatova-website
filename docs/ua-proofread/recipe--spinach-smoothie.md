@@ -1,9 +1,5 @@
 # recipe--spinach-smoothie
 
-- Last checked: 2026-10-12
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/TBD
-- Notes: Checked every UA field (imgAlt, title, why, nutrition, meta, ingredients,
-  method) against the EN original. No issues found — terminology (`насіння льону`
-  for flax seeds, `Вигляд згори у ...` imgAlt pattern) is already consistent with
-  the rest of the recipe set, and the UA text reads naturally with no
-  russianisms/calques.
+- Last checked: 2026-11-21 (second pass; previous 2026-10-12)
+- PR: (this PR — `UA proofread: recipe--spinach-smoothie, recipe--easter-kulich-lavender`)
+- Notes: 1 fix (punctuation): imgAlt «по поверхні кільце дрібних бульбашок» → «на поверхні — кільце дрібних бульбашок» (dash for the omitted verb). Title, why, nutrition, meta, ingredients and method re-checked against EN — accurate and natural. «Шпинатний смузі» kept: matches «Ягідний / Морквяний смузі» elsewhere in the file.

@@ -772,7 +772,7 @@ export const RECIPES = [
   {
     slug: 'spinach-smoothie', dateAdded: '2026-07-10', img: '65-spinach-smoothie.jpg', cat: 'breakfast', gi: 15,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'low-carb'],
-    imgAlt: { en: "Looking down into a glass jar of bright green smoothie, a ring of small bubbles across the surface.", ua: "Вигляд згори у скляну банку з яскраво-зеленим смузі; по поверхні кільце дрібних бульбашок." },
+    imgAlt: { en: "Looking down into a glass jar of bright green smoothie, a ring of small bubbles across the surface.", ua: "Вигляд згори у скляну банку з яскраво-зеленим смузі; на поверхні — кільце дрібних бульбашок." },
     title: { en: 'Spinach Smoothie', ua: 'Шпинатний смузі' },
     why: { en: 'A green kefir smoothie with spinach and flax — protein, iron and omega-3, very low in sugar. A good start to the day.', ua: 'Зелений кефірний смузі зі шпинатом і льоном — білок, залізо й омега-3, дуже мало цукру. Гарний початок дня.' },
     nutrition: { en: 'Per serving (est.): ~90 kcal · Carbs 6 g · Fat 4 g · Protein 6 g', ua: 'На порцію (прибл.): ~90 ккал · Вуглеводи 6 г · Жири 4 г · Білки 6 г' },
@@ -783,13 +783,13 @@ export const RECIPES = [
   {
     slug: 'easter-kulich-lavender', dateAdded: '2026-07-10', img: '66-easter-kulich-lavender.jpg', cat: 'baking', gi: 37,
     tags: ['sugar-free', 'vegetarian'],
-    imgAlt: { en: "A jar of oat mixture topped with a thick white glaze, dried lavender to one side and a paper Easter egg decoration beside it.", ua: "Банка з вівсяною сумішшю під товстою білою глазур’ю; збоку суха лаванда та паперова великодня прикраса у формі яйця." },
-    title: { en: 'Easter Kulich with Lavender', ua: 'Пасхальний кулич з лавандою' },
-    why: { en: 'A yeast-free Easter kulich with lavender, turmeric and cinnamon — wholegrain and almond flour, sweetened with stevia, with a sunny natural colour from turmeric.', ua: 'Бездріжджовий пасхальний кулич з лавандою, куркумою й корицею — цільнозернове й мигдалеве борошно, підсолоджений стевією, із сонячним природним кольором від куркуми.' },
+    imgAlt: { en: "A jar of oat mixture topped with a thick white glaze, dried lavender to one side and a paper Easter egg decoration beside it.", ua: "Банка з вівсяною сумішшю під товстою білою глазур’ю; збоку сушена лаванда та паперова великодня прикраса у формі яйця." },
+    title: { en: 'Easter Kulich with Lavender', ua: 'Великодній кулич з лавандою' },
+    why: { en: 'A yeast-free Easter kulich with lavender, turmeric and cinnamon — wholegrain and almond flour, sweetened with stevia, with a sunny natural colour from turmeric.', ua: 'Бездріжджовий великодній кулич з лавандою, куркумою й корицею — з цільнозернового й мигдалевого борошна, підсолоджений стевією, а куркума дає йому сонячний природний колір.' },
     nutrition: { en: 'Per serving (est.): ~250 kcal · Carbs 30 g · Fat 10 g · Protein 10 g', ua: 'На порцію (прибл.): ~250 ккал · Вуглеводи 30 г · Жири 10 г · Білки 10 г' },
     meta: { prep: { en: '10 min + overnight', ua: '10 хв + ніч' }, cook: { en: '20 min', ua: '20 хв' }, serves: { en: 'Serves 6', ua: '6 порцій' } },
     ingredients: { en: ['480 ml (2 cups) wholegrain wheat flour','0.25 L water','100 g (1 cup) almond flour','1 tsp turmeric','1 tsp lavender','½ tsp cinnamon','1 tbsp stevia','1 tsp bicarbonate of soda','2 tbsp lemon juice'], ua: ['480 мл (2 склянки) цільнозернового пшеничного борошна','0,25 л води','100 г (1 склянка) мигдалевого борошна','1 ч. л. куркуми','1 ч. л. лаванди','½ ч. л. кориці','1 ст. л. стевії','1 ч. л. харчової соди','2 ст. л. лимонного соку'] },
-    method: { en: ['Mix the flour and water and refrigerate overnight, covered.','Take the dough out and let it warm; mix all the dry ingredients.','Combine the dough with the wet ingredients, quickly adding the soda and lemon juice at the end.','Grease the moulds and fill with the dough.','Bake at 170°C for about 20 minutes; check with a skewer.'], ua: ['Змішайте борошно й воду та поставте в холодильник на ніч під кришкою.','Вийміть тісто, дайте нагрітися; змішайте всі сухі компоненти.','З’єднайте тісто з вологими інгредієнтами, швидко додавши соду й лимонний сік наприкінці.','Змастіть форми олією та розкладіть тісто.','Випікайте при 170°C близько 20 хвилин; перевірте шпажкою.'] }
+    method: { en: ['Mix the flour and water and refrigerate overnight, covered.','Take the dough out and let it warm; mix all the dry ingredients.','Combine the dough with the wet ingredients, quickly adding the soda and lemon juice at the end.','Grease the moulds and fill with the dough.','Bake at 170°C for about 20 minutes; check with a skewer.'], ua: ['Змішайте борошно й воду та поставте в холодильник на ніч під кришкою.','Вийміть тісто й дайте йому зігрітися; змішайте всі сухі інгредієнти.','Поєднайте тісто з вологими інгредієнтами, а наприкінці швидко додайте соду й лимонний сік.','Змастіть форми олією та розкладіть тісто.','Випікайте за температури 170°C близько 20 хвилин; готовність перевірте шпажкою.'] }
   },
   {
     slug: 'carrot-crisps-honey-yogurt', dateAdded: '2026-07-10', img: '67-carrot-crisps-honey-yogurt.jpg', cat: 'snack', gi: 45,
