@@ -815,17 +815,17 @@ export const RECIPES = [
     slug: 'spiced-apple-chips', dateAdded: '2026-07-10', img: '69-spiced-apple-chips.jpg', cat: 'snack', gi: 36,
     tags: ['vegetarian', 'dairy-free', 'gluten-free'],
     title: { en: 'Spiced Apple Chips', ua: 'Пряні яблучні чипси' },
-    why: { en: 'Thin apple slices baked crisp with cinnamon and nutmeg — no added sugar, a naturally sweet, fibre-rich snack. Best in moderation, as drying concentrates the fruit sugars.', ua: 'Тонкі скибочки яблука, запечені до хрусткості з корицею й мускатним горіхом — без доданого цукру, природно солодкий перекус із клітковиною. Найкраще в міру, бо сушіння концентрує фруктовий цукор.' },
+    why: { en: 'Thin apple slices baked crisp with cinnamon and nutmeg — no added sugar, a naturally sweet, fibre-rich snack. Best in moderation, as drying concentrates the fruit sugars.', ua: 'Тонкі скибочки яблука, запечені до хрусткості з корицею й мускатним горіхом, — без доданого цукру, природно солодкий перекус із клітковиною. Найкраще в міру, бо сушіння концентрує фруктовий цукор.' },
     nutrition: { en: 'Per serving (est.): ~85 kcal · Carbs 22 g · Fat 0 g · Protein 0 g', ua: 'На порцію (прибл.): ~85 ккал · Вуглеводи 22 г · Жири 0 г · Білки 0 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '2 h', ua: '2 год' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['3 apples','1 tsp cinnamon','1 g ground nutmeg'], ua: ['3 яблука','1 ч. л. кориці','1 г меленого мускатного горіха'] },
-    method: { en: ['Heat the oven to 110°C and line trays with parchment.','Slice the apples as thinly as you can and lay out on the trays.','Dust with cinnamon and a little nutmeg.','Bake 1 hour, turn the apples over and bake another hour.','Remove, peel off the parchment and cool.'], ua: ['Розігрійте духовку до 110°C і застеліть деки пергаментом.','Наріжте яблука якомога тонше та розкладіть на деках.','Посипте корицею й невеликою кількістю мускатного горіха.','Випікайте 1 годину, переверніть яблука та випікайте ще годину.','Вийміть, зніміть з пергаменту та охолодіть.'] }
+    method: { en: ['Heat the oven to 110°C and line trays with parchment.','Slice the apples as thinly as you can and lay out on the trays.','Dust with cinnamon and a little nutmeg.','Bake 1 hour, turn the apples over and bake another hour.','Remove, peel off the parchment and cool.'], ua: ['Розігрійте духовку до 110°C і застеліть деки пергаментом.','Наріжте яблука якомога тонше та розкладіть на деках.','Посипте корицею й невеликою кількістю мускатного горіха.','Випікайте 1 годину, переверніть яблука та випікайте ще годину.','Вийміть, зніміть із пергаменту та охолодіть.'] }
   },
   {
     slug: 'tomato-chips', dateAdded: '2026-07-10', img: '70-tomato-chips.jpg', cat: 'snack', gi: 30,
     tags: ['vegetarian', 'dairy-free', 'gluten-free', 'low-carb'],
     title: { en: 'Dehydrated Tomato Chips', ua: 'Томатні чипси в дегідраторі' },
-    why: { en: 'Tomato rounds dried with salt and basil until crisp — a savoury, low-carb snack packed with flavour.', ua: 'Кружечки помідорів, висушені з сіллю й базиліком до хрусткості — солоний низьковуглеводний перекус із насиченим смаком.' },
+    why: { en: 'Tomato rounds dried with salt and basil until crisp — a savoury, low-carb snack packed with flavour.', ua: 'Кружечки помідорів, висушені до хрусткості з сіллю й базиліком, — солоний низьковуглеводний перекус із насиченим смаком.' },
     nutrition: { en: 'Per serving (est.): ~25 kcal · Carbs 5 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~25 ккал · Вуглеводи 5 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '8–12 h drying', ua: '8–12 год сушіння' }, serves: { en: 'Serves 2', ua: '2 порції' } },
     ingredients: { en: ['3 tomatoes','1 g sea salt','1 g dried basil'], ua: ['3 помідори','1 г морської солі','1 г сушеного базиліку'] },
