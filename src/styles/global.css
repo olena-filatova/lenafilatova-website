@@ -197,7 +197,10 @@
      content <h2> was rendering smaller than its own body copy, and smaller
      than the <h3>s nested inside it. Same device, same tracking, one size up. */
   --fs-label-s: 10px;      /* the tight caps: a badge, a GI chip, an inline tag */
-  --fs-label: 10.5px;      /* kicker: sits above a heading, never is one */
+  --fs-label: 12px;        /* kicker: sits above a heading, never is one.
+                              Was 10.5px until OPS-536 — the smallest caps on a
+                              site read by women over 40, and the size the nav
+                              links were drawn at. */
   --fs-label-head: var(--fs-sub); /* the device carrying a real <h2> — merged
                                      into --fs-sub (was its own 16px step) */
   /* ── Editorial type scale (OPS-358) ────────────────────────────────────
@@ -365,10 +368,13 @@ img { max-width: 100%; display: block; }
    the disc chooses the size, not that the size is off the scale. */
 .brand .mark { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-style: italic; font-size: 17px; }
 .site-nav { display: flex; gap: 26px; margin-left: 18px; }
-.site-nav a { position: relative; color: var(--ink); font-weight: 700; font-size: var(--fs-label); letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap; transition: color .2s ease; }
+/* The nav takes one step above the kicker and loses a little tracking with it:
+   at 12.5px the 0.18em gaps read as spaced-out rather than deliberate, and the
+   extra width is what pushes the UA header towards two lines (OPS-536). */
+.site-nav a { position: relative; color: var(--ink); font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; transition: color .2s ease; }
 .site-nav a:hover { color: var(--accent); }
 .site-nav a[aria-current='page'] { color: var(--accent); }
-/* The caps label at --fs-label gives an ~18px box — under the 24px WCAG 2.5.8
+/* The caps nav link gives an ~21px box — still under the 24px WCAG 2.5.8
    floor. This
    pseudo-element is an invisible 24px-tall hit strip centred on the link: it
    costs no layout and changes nothing visually, so the row still reads as
