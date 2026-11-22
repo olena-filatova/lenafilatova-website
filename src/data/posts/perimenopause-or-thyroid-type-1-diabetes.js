@@ -1,7 +1,6 @@
 export default {
   "slug": "perimenopause-or-thyroid-type-1-diabetes",
   "date": "2026-11-12",
-  "featured": true,
   "image": "/images/perimenopause-or-thyroid-type-1-diabetes.jpg",
   "cats": [
     "diabetes",
