@@ -2459,6 +2459,24 @@
       ]
     ]
   },
+  "/images/who-type-1-diabetes-adults-guidelines.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/who-type-1-diabetes-adults-guidelines-480.avif"
+      ],
+      [
+        800,
+        "/images/v/who-type-1-diabetes-adults-guidelines-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/who-type-1-diabetes-adults-guidelines-1200.avif"
+      ]
+    ]
+  },
   "/images/zone-2-or-hiit-after-40.jpg": {
     "w": 1200,
     "h": 675,
