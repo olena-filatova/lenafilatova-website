@@ -1,5 +1,5 @@
 # recipe--chocolate-nut-smoothie
 
-- Last checked: 2026-10-12
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/370
-- Notes: No issues found. UA text (imgAlt, title, why, nutrition, ingredients, method) already reads naturally, matches the EN meaning, uses current terminology (кероб, лляний шрот), and is free of russianisms/calques.
+- Last checked: 2026-11-21
+- PR: https://github.com/olena-filatova/lenafilatova-website/pulls?q=is%3Apr+%22UA+proofread%3A+recipe--chocolate-nut-smoothie%22
+- Notes: Second pass (first: #370, no issues), 2 fixes. `why`: "шоколадний напій" implied the drink contains chocolate, while EN says "chocolatey" (it is carob) → "напій зі смаком шоколаду". `method`: "а якщо арахісова паста з медом, зовсім не підсолоджуйте" → "а якщо в арахісовій пасті є мед, можна обійтися й без неї" (clearer referent — the stevia). Rest unchanged.

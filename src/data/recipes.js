@@ -750,24 +750,24 @@ export const RECIPES = [
     tags: ['sugar-free', 'vegetarian', 'gluten-free'],
     imgAlt: { en: "Looking down into a glass bottle of dark brown smoothie with a fine foam on the surface.", ua: "Вигляд згори у скляну пляшку темно-коричневого смузі з дрібною пінкою на поверхні." },
     title: { en: 'Chocolate-Nut Smoothie', ua: 'Шоколадно-горіховий смузі' },
-    why: { en: 'A kefir smoothie with peanut butter and carob — a chocolatey drink with protein and no added sugar (carob is naturally sweet).', ua: 'Кефірний смузі з арахісовою пастою й керобом — шоколадний напій із білком і без доданого цукру (кероб солодкий сам по собі).' },
+    why: { en: 'A kefir smoothie with peanut butter and carob — a chocolatey drink with protein and no added sugar (carob is naturally sweet).', ua: 'Кефірний смузі з арахісовою пастою й керобом — напій зі смаком шоколаду, з білком і без доданого цукру (кероб солодкий сам по собі).' },
     nutrition: { en: 'Per serving (est.): ~220 kcal · Carbs 14 g · Fat 12 g · Protein 12 g', ua: 'На порцію (прибл.): ~220 ккал · Вуглеводи 14 г · Жири 12 г · Білки 12 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No cook', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['240 ml (1 cup) kefir','1 tbsp raw carob','1 tbsp peanut butter','1 tsp flaxseed meal','1 pinch stevia'], ua: ['240 мл (1 склянка) кефіру','1 ст. л. сирого керобу','1 ст. л. арахісової пасти','1 ч. л. лляного шроту','1 щіпка стевії'] },
-    method: { en: ['Blend everything until smooth. Carob is sweet, so you need little stevia — none at all if the peanut butter contains honey.'], ua: ['Збийте все в блендері до однорідності. Кероб солодкий, тож стевії потрібно мало — а якщо арахісова паста з медом, зовсім не підсолоджуйте.'] }
+    method: { en: ['Blend everything until smooth. Carob is sweet, so you need little stevia — none at all if the peanut butter contains honey.'], ua: ['Збийте все в блендері до однорідності. Кероб солодкий, тож стевії потрібно мало, а якщо в арахісовій пасті є мед, можна обійтися й без неї.'] }
   },
   {
     slug: 'parsley-walnut-smoothie', dateAdded: '2026-07-10', img: '64-parsley-walnut-smoothie.jpg', cat: 'breakfast', gi: 37,
     tags: ['vegetarian', 'gluten-free'],
-    imgAlt: { en: "A glass bottle of pale green smoothie flecked with herbs, fresh parsley lying on white boards in front of it.", ua: "Скляна пляшка блідо-зеленого смузі з вкрапленнями зелені; попереду на білих дошках лежить свіжа петрушка." },
+    imgAlt: { en: "A glass bottle of pale green smoothie flecked with herbs, fresh parsley lying on white boards in front of it.", ua: "Скляна пляшка блідо-зеленого смузі з вкрапленнями зелені; перед нею на білих дошках лежить свіжа петрушка." },
     title: { en: 'Parsley & Walnut Smoothie', ua: 'Смузі з петрушкою та волоськими горіхами' },
-    seoTitle: { en: "Parsley & Walnut Smoothie — Green Breakfast, GI 37", ua: "Смузі з петрушкою та волоськими горіхами на сніданок" },
-    metaDesc: { en: "A green breakfast smoothie that does not taste green: banana, parsley, yoghurt and walnuts. Protein and fat balance the fruit, so GI stays at 37.", ua: "Зелений смузі, що не має смаку зелені: банан, петрушка, йогурт і волоські горіхи. Білок і жири врівноважують фрукти — ГІ 37." },
-    why: { en: 'Banana, parsley, yoghurt and walnuts — a sneaky way to get greens in, with protein and healthy fats to balance the fruit.', ua: 'Банан, петрушка, йогурт і волоські горіхи — непомітний спосіб додати зелень, з білком і корисними жирами, що врівноважують фрукти.' },
+    seoTitle: { en: "Parsley & Walnut Smoothie — Green Breakfast, GI 37", ua: "Смузі з петрушкою та волоськими горіхами — зелений сніданок, ГІ 37" },
+    metaDesc: { en: "A green breakfast smoothie that does not taste green: banana, parsley, yoghurt and walnuts. Protein and fat balance the fruit, so GI stays at 37.", ua: "Зелений смузі без «зеленого» присмаку: банан, петрушка, йогурт і волоські горіхи. Білок і жири врівноважують фрукти, тож ГІ залишається на рівні 37." },
+    why: { en: 'Banana, parsley, yoghurt and walnuts — a sneaky way to get greens in, with protein and healthy fats to balance the fruit.', ua: 'Банан, петрушка, йогурт і волоські горіхи — спосіб непомітно додати в раціон зелень, а білок і корисні жири врівноважують фрукти.' },
     nutrition: { en: 'Per serving (est.): ~230 kcal · Carbs 20 g · Fat 14 g · Protein 8 g', ua: 'На порцію (прибл.): ~230 ккал · Вуглеводи 20 г · Жири 14 г · Білки 8 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: 'No cook', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['1 banana','1 handful parsley','100 g yoghurt','1 handful walnuts','1 pinch stevia','1 tsp lemon juice'], ua: ['1 банан','1 жменя петрушки','100 г йогурту','1 жменя волоських горіхів','1 щіпка стевії','1 ч. л. лимонного соку'] },
-    method: { en: ['Blend everything and loosen with a little water if it is too thick.'], ua: ['Збийте все в блендері та розведіть трохи водою, якщо вийшло дуже густо.'] }
+    method: { en: ['Blend everything and loosen with a little water if it is too thick.'], ua: ['Збийте все в блендері та розведіть трохи водою, якщо вийшло надто густо.'] }
   },
   {
     slug: 'spinach-smoothie', dateAdded: '2026-07-10', img: '65-spinach-smoothie.jpg', cat: 'breakfast', gi: 15,
