@@ -551,30 +551,30 @@ export const RECIPES = [
   {
     slug: 'rhubarb-strawberry-jam', dateAdded: '2026-07-10', img: '45-rhubarb-strawberry-jam.jpg', cat: 'sauce', gi: 30,
     tags: ['sugar-free', 'vegetarian', 'dairy-free', 'gluten-free'],
-    imgAlt: { en: "A fluted glass dish of pink rhubarb and strawberry jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Фігурна скляна креманка з рожевим ревенево-полуничним варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
+    imgAlt: { en: "A fluted glass dish of pink rhubarb and strawberry jam with a spoon in it, whole rhubarb stalks on a blue wooden surface behind.", ua: "Рифлена скляна креманка з рожевим ревенево-полуничним варенням і ложкою; позаду цілі стебла ревеню на синій дерев’яній поверхні." },
     title: { en: 'Rhubarb & Strawberry Chia Jam', ua: 'Варення з ревеню та полуниці (з чіа)' },
     // OPS-201 rhubarb cluster — spoke. UA leads with the exact query GSC shows
     // this page ranking for (`варення з ревеню і полуниці`, position 6.0); EN
     // leads with the modifier, since no English rhubarb query exists at all.
     seoTitle: { en: 'Strawberry Rhubarb Chia Jam — No Sugar, No Pectin', ua: 'Варення з ревеню і полуниці — без цукру, з чіа' },
-    metaDesc: { en: 'Rhubarb and strawberry set with chia instead of sugar and pectin, with cinnamon and ginger. Ready in half an hour, GI 30.', ua: 'Ревінь і полуниця, загущені чіа замість цукру й пектину, з корицею та імбиром. Готове за півгодини, ГІ 30.' },
+    metaDesc: { en: 'Rhubarb and strawberry set with chia instead of sugar and pectin, with cinnamon and ginger. Ready in half an hour, GI 30.', ua: 'Варення з ревеню й полуниці, загущене чіа замість цукру й пектину, з корицею та імбиром. Готове за півгодини, ГІ 30.' },
     related: ['rhubarb-quick-jam', 'rhubarb-lavender-jam', 'rhubarb-orange-jam', 'rhubarb-cherry-leaf-jam'],
     why: { en: 'A quick no-sugar jam set with chia instead of sugar and pectin — rhubarb and strawberry with a little warming spice, gentle on blood sugar.', ua: 'Швидке варення без цукру, загущене чіа замість цукру й пектину — ревінь і полуниця з дрібкою зігрівальних спецій, м’яке для рівня цукру.' },
     nutrition: { en: 'Per serving (est.): ~40 kcal · Carbs 8 g · Fat 1 g · Protein 1 g', ua: 'На порцію (прибл.): ~40 ккал · Вуглеводи 8 г · Жири 1 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '30 min', ua: '30 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
     ingredients: { en: ['240 ml (1 cup) prepared rhubarb','240 ml (1 cup) strawberries (washed, hulled)','½ tsp cinnamon','½ tsp dried or fresh grated ginger','½ tsp chia seeds','1 g stevia','2 tbsp water or juice'], ua: ['240 мл (1 склянка) підготовленого ревеню','240 мл (1 склянка) полуниці (митої, без хвостиків)','½ ч. л. кориці','½ ч. л. сухого або свіжого тертого імбиру','½ ч. л. насіння чіа','1 г стевії','2 ст. л. води або соку'] },
-    method: { en: ['Chop the rhubarb and strawberries and put in a pan with the water or juice.','Bring to the boil over medium heat, then lower and simmer 20–30 minutes.','Mash the softened fruit with a fork or blender.','Stir in the stevia.','Add the cinnamon, ginger and chia.','Leave to stand for 30 minutes to set.'], ua: ['Наріжте ревінь і полуницю, покладіть у каструлю з водою або соком.','Доведіть до кипіння на середньому вогні, потім зменшіть і варіть 20–30 хвилин.','Розімніть розм’якшені фрукти виделкою або блендером.','Вмішайте стевію.','Додайте корицю, імбир і чіа.','Дайте настоятися 30 хвилин, щоб загусло.'] }
+    method: { en: ['Chop the rhubarb and strawberries and put in a pan with the water or juice.','Bring to the boil over medium heat, then lower and simmer 20–30 minutes.','Mash the softened fruit with a fork or blender.','Stir in the stevia.','Add the cinnamon, ginger and chia.','Leave to stand for 30 minutes to set.'], ua: ['Наріжте ревінь і полуницю, покладіть у каструлю з водою або соком.','Доведіть до кипіння на середньому вогні, потім зменшіть вогонь і варіть 20–30 хвилин.','Розімніть розм’яклі ревінь і полуницю виделкою або подрібніть блендером.','Вмішайте стевію.','Додайте корицю, імбир і чіа.','Залиште на 30 хвилин, щоб варення загусло.'] }
   },
   {
     slug: 'chocolate-mousse-ice-cream', dateAdded: '2026-07-10', img: '46-chocolate-mousse-ice-cream.jpg', cat: 'dessert', gi: 42,
     tags: ['sugar-free', 'vegetarian', 'gluten-free', 'dairy-free'],
     imgAlt: { en: "Scoops of dark chocolate ice cream in a small glass dish, dusted heavily with cocoa powder.", ua: "Кульки темного шоколадного морозива в маленькій скляній креманці, щедро притрушені какао." },
-    title: { en: 'Chocolate Mousse Ice Cream with a Coffee Note', ua: 'Шоколадне морозиво-мус з кавовою ноткою' },
-    why: { en: 'A blend-and-freeze banana mousse with carob and chicory — creamy, no refined sugar and caffeine-free, so it suits children too.', ua: 'Банановий мус «збий і заморозь» із керобом і цикорієм — кремовий, без рафінованого цукру й кофеїну, тож підходить і дітям.' },
+    title: { en: 'Chocolate Mousse Ice Cream with a Coffee Note', ua: 'Шоколадне морозиво-мус із кавовою ноткою' },
+    why: { en: 'A blend-and-freeze banana mousse with carob and chicory — creamy, no refined sugar and caffeine-free, so it suits children too.', ua: 'Банановий мус із керобом і цикорієм, який досить збити в блендері й заморозити: кремовий, без рафінованого цукру й кофеїну, тож підходить і дітям.' },
     nutrition: { en: 'Per serving (est.): ~230 kcal · Carbs 30 g · Fat 12 g · Protein 2 g', ua: 'На порцію (прибл.): ~230 ккал · Вуглеводи 30 г · Жири 12 г · Білки 2 г' },
-    meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '2 h freezing', ua: '2 год заморозки' }, serves: { en: 'Serves 1', ua: '1 порція' } },
-    ingredients: { en: ['2 tbsp carob','1 tbsp instant chicory','1 large ripe banana','1 g powdered stevia','1 tbsp cocoa butter'], ua: ['2 ст. л. ріжкового борошна (кероб)','1 ст. л. розчинного цикорію','1 великий стиглий банан','1 г порошкової стевії','1 ст. л. какао-масла'] },
-    method: { en: ['Blend everything and freeze for about 1–2 hours.','Before serving, check it is not frozen too hard — it should not be completely solid. Spoon into dishes, dust with carob and serve.'], ua: ['Збийте все в блендері та заморозьте приблизно на 1–2 години.','Перед подачею перевірте, чи не замерзло надто сильно — маса не має бути повністю твердою. Розкладіть по креманках, посипте керобом і подавайте.'] }
+    meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '2 h freezing', ua: '2 год заморожування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
+    ingredients: { en: ['2 tbsp carob','1 tbsp instant chicory','1 large ripe banana','1 g powdered stevia','1 tbsp cocoa butter'], ua: ['2 ст. л. ріжкового борошна (кероб)','1 ст. л. розчинного цикорію','1 великий стиглий банан','1 г стевії в порошку','1 ст. л. какао-масла'] },
+    method: { en: ['Blend everything and freeze for about 1–2 hours.','Before serving, check it is not frozen too hard — it should not be completely solid. Spoon into dishes, dust with carob and serve.'], ua: ['Збийте все в блендері та заморозьте приблизно на 1–2 години.','Перед подачею перевірте, чи морозиво не застигло надто сильно — воно не повинно бути зовсім твердим. Розкладіть по креманках, притрусіть керобом і подавайте.'] }
   },
   {
     slug: 'cornmeal-syrniki', dateAdded: '2026-07-10', img: '47-cornmeal-syrniki.jpg', cat: 'breakfast', gi: 56,

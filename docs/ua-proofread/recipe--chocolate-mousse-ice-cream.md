@@ -1,7 +1,9 @@
 # recipe--chocolate-mousse-ice-cream
 
-- Last checked: 2026-10-09
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/354
-- Notes: no issues found. Ingredients, method, nutrition and `why` all
-  match the `en` version; terminology (кероб, цикорій, какао-масло) is
-  accurate and no straight apostrophes or calques were present.
+- Last checked: 2026-11-18
+- PR: (this PR — UA proofread: recipe--chocolate-mousse-ice-cream, recipe--rhubarb-strawberry-jam)
+- Notes: 5 fixes (second cycle). Calque «збий і заморозь» in `why` rephrased;
+  title euphony «мус з кавовою» → «мус із кавовою»; colloquial «заморозки» →
+  «заморожування»; «порошкової стевії» → «стевії в порошку»; method step 2
+  given a subject («чи морозиво не застигло») and «dust» → «притрусіть».
+  Meaning, quantities and timings unchanged and match `en`.
