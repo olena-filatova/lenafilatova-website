@@ -50,7 +50,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "One large population study makes the shape of the effect clear. Among 10,665 Korean adults in a national health survey, those with iron deficiency anaemia had an average HbA1c of 5.70% against 5.59% in everyone else, while their fasting glucose was no different at all. The useful detail is where that gap appeared: in people whose fasting glucose was normal, and in people whose fasting glucose was in the prediabetes range - and not in those already in the diabetes range. The authors' conclusion was about screening: check for iron deficiency anaemia before using HbA1c to label someone prediabetic."
+        "text": "One large population study makes the shape of the effect clear. Among 10,665 Korean adults in a national health survey, those with iron deficiency anaemia had an average HbA1c of 5.70% against 5.59% in people without anaemia, while their fasting glucose was not significantly different. The useful detail is where that gap appeared: in people whose fasting glucose was normal, and in people whose fasting glucose was in the prediabetes range - and not in those whose fasting glucose was already in the diabetes range (people taking diabetes medication had been left out of the study). The authors' conclusion was about screening: check for iron deficiency anaemia before using HbA1c to label someone prediabetic."
       },
       {
         "t": "p",
@@ -74,11 +74,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Periods in the menopause transition do not simply fade out. They get erratic first, and often heavier. The clearest picture comes from the SWAN study, which had 1,320 midlife women fill in daily menstrual calendars for a decade. Over that time, 77.7% recorded at least three episodes of bleeding lasting ten days or more, 66.8% had at least three episodes of spotting lasting six days or more, and 34.5% had at least three episodes of heavy flow lasting three days or more. Prolonged and heavy bleeding in your forties is not an aberration. It is the norm."
+        "text": "Periods in the menopause transition do not simply fade out. They get erratic first, and often heavier. The clearest picture comes from the SWAN study, which had 1,320 midlife women fill in daily menstrual calendars for a decade. Over that time, 77.7% recorded at least three episodes of bleeding lasting ten days or more, 66.8% had at least three episodes of spotting lasting six days or more, and 34.5% had at least three episodes of heavy flow lasting three days or more. Prolonged bleeding in your forties is not an aberration. It is the norm - and repeated heavy spells affect about a third of women."
       },
       {
         "t": "p",
-        "text": "Blood loss is blood loss, and iron goes with it. There is also a reason to take this more seriously in Britain than elsewhere. A 2025 study in the British Journal of Haematology screened 1,937 women of reproductive age in the UK and Australia: 19.2% of the UK women were anaemic against 9.7% of the Australian women, and heavy menstrual bleeding was reported by 45.9% in the UK against 31.2% in Australia. After adjustment, UK women were about twice as likely to be anaemic. The sample skews young - mean age 28.5 - and the women were recruited at screening events rather than sampled at random, so treat it as a signal about UK women's iron status rather than a national statistic."
+        "text": "Blood loss is blood loss, and iron goes with it. There is also a reason to take this more seriously in Britain than elsewhere. A 2025 study in the British Journal of Haematology screened 1,937 women of reproductive age in the UK and Australia: 19.2% of the UK women were anaemic against 9.7% of the Australian women, and heavy menstrual bleeding was reported by 45.9% in the UK against 31.2% in Australia. After adjustment, UK women had about twice the odds of being anaemic. The sample skews young - mean age 28.5 - and the women were recruited at screening events rather than sampled at random, so treat it as a signal about UK women's iron status rather than a national statistic."
       },
       {
         "t": "h",
@@ -98,7 +98,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Here is the thing worth knowing before that appointment. Read the recommendations chapter of that guideline end to end and the words ferritin, iron and anaemia do not appear in it once. A full blood count measures your haemoglobin and the size of your red cells; it does not measure your iron stores. Ferritin can be on the floor while the full blood count still reads normal, because the body empties the warehouse before the shelves look bare. That is exactly the state the Diabetologia review says can lift HbA1c - iron deficiency with or without anaemia. So ferritin is a separate thing to ask for, not something the standard test covers. The same guideline also tells clinicians not to run female hormone tests for heavy bleeding, and not to test thyroid function unless there are other thyroid symptoms, so do not be surprised when those are declined."
+        "text": "Here is the thing worth knowing before that appointment. Read the recommendations chapter of that guideline end to end and the words ferritin, iron and anaemia do not appear in it once. A full blood count measures your haemoglobin and the size of your red cells; it does not measure your iron stores. Ferritin can be on the floor while the full blood count still reads normal, because the body empties the warehouse before the shelves look bare. That is exactly the state the Diabetologia review says can lift HbA1c - iron deficiency with or without anaemia. So ferritin is a separate thing to ask for, not something the standard test covers. Until July 2026 the guideline actually advised against routine ferritin testing; NICE deleted that line because of the risk of iron deficiency in women with heavy bleeding, but has not replaced it with advice to test. The same guideline also tells clinicians not to run female hormone tests for heavy bleeding, and not to test thyroid function unless there are other thyroid symptoms, so do not be surprised when those are declined."
       },
       {
         "t": "h",
@@ -134,7 +134,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "What I would not do is start taking iron on the strength of a suspicion. Iron supplements can upset your stomach enough that half of women stop taking them, they are not harmless if you are not actually deficient, and - this is the awkward part - taking them before the blood test means the test no longer tells anybody what was going on. Test first."
+        "text": "What I would not do is start taking iron on the strength of a suspicion. Iron supplements can upset your stomach enough that many women stop taking them, they are not harmless if you are not actually deficient, and - this is the awkward part - taking them before the blood test means the test no longer tells anybody what was going on. Test first."
       },
       {
         "t": "p",
@@ -146,7 +146,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Separately from any of the above, some bleeding needs seeing promptly rather than at your next routine appointment: bleeding after you have gone twelve months without a period, bleeding between periods or after sex, flooding through protection or passing large clots, or symptoms of anaemia such as breathlessness, palpitations or dizziness. The NICE guideline routes suspected cancer straight to the urgent referral pathway, so this is not a case for waiting and seeing."
+        "text": "Separately from any of the above, some bleeding needs seeing promptly rather than at your next routine appointment: bleeding after you have gone twelve months without a period, bleeding between periods or after sex, flooding through protection or passing large clots, or symptoms of anaemia such as breathlessness, palpitations or dizziness. The NICE guideline sends suspected cancer to its separate suspected-cancer referral guideline, so this is not a case for waiting and seeing."
       },
       {
         "t": "h",
@@ -154,7 +154,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "HbA1c measures red cells, not blood sugar, so anything that makes red cells live longer inflates it. Iron deficiency does exactly that, and heavy perimenopausal bleeding is one of the commonest reasons to be short of iron - more so in the UK than in comparable countries. The effect is real but modest: enough to move a borderline result, and most visible in people whose glucose is normal or borderline rather than those already diagnosed. A full blood count will not find low iron stores on its own; ferritin is a separate ask. And if your sensor and your lab disagree, iron is one candidate among many, worth raising rather than assuming."
+        "text": "HbA1c measures red cells, not blood sugar, so anything that makes red cells live longer inflates it. Iron deficiency does exactly that, and heavy perimenopausal bleeding is one of the commonest reasons to be short of iron - more so in the UK than in comparable countries. The effect is real but modest: enough to move a borderline result, and most visible in people whose glucose is normal or borderline rather than in the diabetes range. A full blood count will not find low iron stores on its own; ferritin is a separate ask. And if your sensor and your lab disagree, iron is one candidate among many, worth raising rather than assuming."
       },
       {
         "t": "p",
@@ -198,7 +198,7 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12080991/"
           },
           {
-            "claim": "Prolonged and heavy bleeding is the norm, not the exception, during the menopause transition.",
+            "claim": "Prolonged bleeding is the norm, not the exception, during the menopause transition, and repeated heavy bleeding affects about a third of women.",
             "detail": "Paramsothy P, Harlow SD, Greendale GA, Gold EB, Crawford SL, Elliott MR, Lisabeth LD, Randolph JF Jr. 'Bleeding patterns during the menopausal transition in the multi-ethnic Study of Women's Health Across the Nation (SWAN): a prospective cohort study.' BJOG 2014;121(12):1564-73. 1,320 midlife African-American, white, Chinese and Japanese women in the SWAN Menstrual Calendar Substudy completed daily menstrual calendars from 1996 to 2006. At least three occurrences of menses lasting 10 or more days were recorded by 77.7% (95% CI 56.7-93.2), of spotting lasting 6 or more days by 66.8% (95% CI 55.2-78.0), and of heavy bleeding lasting 3 or more days by 34.5% (95% CI 30.2-39.2). Prolonged bleeding, spotting and heavy bleeding were each associated with menopause transition stage, uterine fibroids, hormone use and ethnicity. Note the wide confidence intervals on the first two figures, and that these are US data.",
             "cite": "BJOG 2014 · prospective cohort, n=1,320 · PMID 24735184",
             "url": "https://pubmed.ncbi.nlm.nih.gov/24735184/"
@@ -211,7 +211,7 @@ export default {
           },
           {
             "claim": "UK guidance asks for a full blood count in all women with heavy menstrual bleeding, and never mentions ferritin.",
-            "detail": "NICE guideline NG88, 'Heavy menstrual bleeding: assessment and management' (published March 2018, last updated May 2021). Recommendation 1.2.6: 'Carry out a full blood count test for all women with HMB, in parallel with any HMB treatment offered.' The recommendations chapter contains no mention of ferritin, iron or anaemia, which is the gap this article names: a full blood count reports haemoglobin and red cell indices, not iron stores, so depleted ferritin without anaemia is invisible to it. Recommendation 1.2.9 says not to carry out female hormone testing for women with heavy menstrual bleeding and 1.2.10 not to carry out thyroid hormone testing unless other signs and symptoms of thyroid disease are present. Recommendation 1.2.7 asks clinicians to consider testing for coagulation disorders such as von Willebrand's disease in women who have had heavy bleeding since their periods began and have a personal or family history suggesting one. Recommendation 1.3.2 routes suspected cancer to NICE's suspected cancer recognition and referral guideline.",
+            "detail": "NICE guideline NG88, 'Heavy menstrual bleeding: assessment and management' (published March 2018, last updated July 2026). Recommendation 1.2.6: 'Carry out a full blood count test for all women with HMB, in parallel with any HMB treatment offered.' The recommendations chapter contains no mention of ferritin, iron or anaemia, which is the gap this article names: a full blood count reports haemoglobin and red cell indices, not iron stores, so depleted ferritin without anaemia is invisible to it. Recommendation 1.2.9 says not to carry out female hormone testing for women with heavy menstrual bleeding and 1.2.10 not to carry out thyroid hormone testing unless other signs and symptoms of thyroid disease are present. Recommendation 1.2.7 asks clinicians to consider testing for coagulation disorders such as von Willebrand's disease in women who have had heavy bleeding since their periods began and have a personal or family history suggesting one. Recommendation 1.3.2 routes suspected cancer to NICE's suspected cancer recognition and referral guideline. The July 2026 update removed former recommendation 1.2.8, which said not to routinely test serum ferritin; NICE concluded that advice was not justified given the risk of iron deficiency in this population, and added no recommendation to test instead.",
             "cite": "NICE NG88 · UK national guideline",
             "url": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations"
           }
@@ -252,23 +252,23 @@ export default {
     "faq": [
       {
         "q": "Can low iron really make my HbA1c look worse than it is?",
-        "a": "It can, by a modest amount. Iron deficiency slows the production of new red blood cells, so the ones you have stay in circulation longer and spend longer collecting glucose - which is what HbA1c counts. In a Korean national survey of over 10,000 adults, people with iron deficiency anaemia averaged an HbA1c of 5.70% against 5.59% in everyone else, with identical fasting glucose. That is around a tenth of a point. It is enough to tip a borderline result, and not enough to explain a large unexplained rise."
+        "a": "It can, by a modest amount. Iron deficiency slows the production of new red blood cells, so the ones you have stay in circulation longer and spend longer collecting glucose - which is what HbA1c counts. In a Korean national survey of over 10,000 adults, people with iron deficiency anaemia averaged an HbA1c of 5.70% against 5.59% in people without anaemia, with no significant difference in fasting glucose. That is around a tenth of a point. It is enough to tip a borderline result, and not enough to explain a large unexplained rise."
       },
       {
         "q": "Will a normal full blood count rule out low iron?",
-        "a": "No, and this is the part most people are not told. A full blood count measures your haemoglobin and the size and number of your red cells. It does not measure how much iron you have in storage. Your body empties its iron stores well before the blood count starts to look abnormal, so ferritin can be very low while the full blood count reads normal. NICE asks for a full blood count in every woman with heavy periods, but its recommendations never mention ferritin, so it is worth asking for that separately."
+        "a": "No, and this is the part most people are not told. A full blood count measures your haemoglobin and the size and number of your red cells. It does not measure how much iron you have in storage. Your body empties its iron stores well before the blood count starts to look abnormal, so ferritin can be very low while the full blood count reads normal. NICE asks for a full blood count in every woman with heavy periods, but its recommendations never mention ferritin (in July 2026 it dropped its old advice against testing it, without adding advice to test), so it is worth asking for that separately."
       },
       {
         "q": "My sensor's GMI is lower than my lab HbA1c. Is iron the reason?",
-        "a": "Possibly, but it is one candidate among many and probably not the first. The two numbers disagree far more often than people expect - in one study of 641 people, about half differed by at least half a percentage point. The review that collects these figures lists kidney disease, recent transfusion, several medicines, haemoglobin variants and pregnancy on the lab side, and short wear time, a sore sensor site or overnight compression on the sensor side. There is also a specific reason to be cautious: the iron effect has been shown mainly in people whose glucose was normal or borderline, and one large study found it disappeared in the diabetes range. Take the gap and the sensor report to your diabetes team rather than drawing a conclusion from it."
+        "a": "Possibly, but it is one candidate among many and probably not the first. The two numbers disagree far more often than people expect - in one study of 641 people, about half differed by at least half a percentage point. The review that collects these figures lists causes of a gap in one direction or the other: kidney disease, recent transfusion, several medicines, haemoglobin variants and pregnancy on the lab side, and short wear time, a sore sensor site or overnight compression on the sensor side - the last two make the sensor read low. There is also a specific reason to be cautious: the iron effect has been shown mainly in people whose glucose was normal or borderline, and one large study found no significant effect in the diabetes range. Take the gap and the sensor report to your diabetes team rather than drawing a conclusion from it."
       },
       {
         "q": "Should I just start taking iron?",
-        "a": "Not before you have been tested. Iron supplements are not harmless if you are not deficient, the gastrointestinal side effects stop as many as half of women taking them, and starting them before the blood is drawn means the test can no longer tell anyone what was going on. Ask for ferritin and a full blood count, and let the result decide. If you are bleeding heavily enough to be losing iron, the bleeding itself is also worth addressing rather than only topping up what it costs you."
+        "a": "Not before you have been tested. Iron supplements are not harmless if you are not deficient, the gastrointestinal side effects make many women stop taking them, and starting them before the blood is drawn means the test can no longer tell anyone what was going on. Ask for ferritin and a full blood count, and let the result decide. If you are bleeding heavily enough to be losing iron, the bleeding itself is also worth addressing rather than only topping up what it costs you."
       },
       {
         "q": "What counts as heavy bleeding that needs seeing sooner rather than later?",
-        "a": "Bleeding after you have gone a full twelve months without a period, bleeding between periods or after sex, flooding through protection, passing large clots, or symptoms of anaemia such as breathlessness, palpitations or dizziness. Those are reasons to contact your GP promptly rather than waiting for a routine appointment - NICE routes suspected cancer straight to the urgent referral pathway. Everything else in this article is about interpreting a blood test, and none of it replaces getting the bleeding itself looked at."
+        "a": "Bleeding after you have gone a full twelve months without a period, bleeding between periods or after sex, flooding through protection, passing large clots, or symptoms of anaemia such as breathlessness, palpitations or dizziness. Those are reasons to contact your GP promptly rather than waiting for a routine appointment - the NICE guideline sends suspected cancer to its separate suspected-cancer referral guideline. Everything else in this article is about interpreting a blood test, and none of it replaces getting the bleeding itself looked at."
       }
     ]
   },
@@ -308,7 +308,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Одне велике популяційне дослідження добре показує, як саме проявляється цей ефект. Серед 10 665 дорослих корейців у національному опитуванні здоров’я в людей із залізодефіцитною анемією середній HbA1c становив 5,70% проти 5,59% в усіх інших, тоді як глюкоза натще не відрізнялася взагалі. Найкорисніша деталь — де саме з’явився цей розрив: у людей із нормальною глюкозою натще і в людей із глюкозою в переддіабетичному діапазоні, але не в тих, хто вже був у діабетичному. Висновок авторів стосувався скринінгу: перш ніж ставити переддіабет за HbA1c, варто перевірити, чи немає залізодефіцитної анемії."
+        "text": "Одне велике популяційне дослідження добре показує, як саме проявляється цей ефект. Серед 10 665 дорослих корейців у національному опитуванні здоров’я в людей із залізодефіцитною анемією середній HbA1c становив 5,70% проти 5,59% у людей без анемії, тоді як глюкоза натще значуще не відрізнялася. Найкорисніша деталь — де саме з’явився цей розрив: у людей із нормальною глюкозою натще і в людей із глюкозою в переддіабетичному діапазоні, але не в тих, чия глюкоза натще вже була в діабетичному (людей, які приймали ліки від діабету, до дослідження не включали). Висновок авторів стосувався скринінгу: перш ніж ставити переддіабет за HbA1c, варто перевірити, чи немає залізодефіцитної анемії."
       },
       {
         "t": "p",
@@ -332,11 +332,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Місячні в менопаузальному переході не просто згасають. Спершу вони стають нерегулярними, а часто й ряснішими. Найчіткішу картину дає дослідження SWAN, у якому 1320 жінок середнього віку десять років заповнювали щоденні менструальні календарі. За цей час 77,7% зафіксували щонайменше три епізоди кровотечі тривалістю десять днів і більше, 66,8% — щонайменше три епізоди мажучих виділень тривалістю шість днів і більше, а 34,5% — щонайменше три епізоди рясних виділень три дні й більше. Затяжні й рясні кровотечі в сорок із чимось — це не відхилення. Це норма."
+        "text": "Місячні в менопаузальному переході не просто згасають. Спершу вони стають нерегулярними, а часто й ряснішими. Найчіткішу картину дає дослідження SWAN, у якому 1320 жінок середнього віку десять років заповнювали щоденні менструальні календарі. За цей час 77,7% зафіксували щонайменше три епізоди кровотечі тривалістю десять днів і більше, 66,8% — щонайменше три епізоди мажучих виділень тривалістю шість днів і більше, а 34,5% — щонайменше три епізоди рясних виділень три дні й більше. Затяжні кровотечі в сорок із чимось — це не відхилення. Це норма, а повторювані рясні епізоди бувають приблизно в третини жінок."
       },
       {
         "t": "p",
-        "text": "Разом із кров’ю організм втрачає й залізо. Є й причина ставитися до цього серйозніше саме в Британії. Дослідження 2025 року в British Journal of Haematology обстежило 1937 жінок репродуктивного віку у Великій Британії та Австралії: 19,2% британок мали анемію проти 9,7% австралійок, а про рясні місячні повідомили 45,9% у Британії проти 31,2% в Австралії. З поправкою на інші чинники британки мали приблизно вдвічі вищу ймовірність анемії. Вибірка молода — середній вік 28,5 — і жінок набирали на скринінгових заходах, а не випадково, тож сприймайте це як сигнал про стан заліза в британок, а не як національну статистику."
+        "text": "Разом із кров’ю організм втрачає й залізо. Є й причина ставитися до цього серйозніше саме в Британії. Дослідження 2025 року в British Journal of Haematology обстежило 1937 жінок репродуктивного віку у Великій Британії та Австралії: 19,2% британок мали анемію проти 9,7% австралійок, а про рясні місячні повідомили 45,9% у Британії проти 31,2% в Австралії. З поправкою на інші чинники шанси анемії в британок були приблизно вдвічі вищими. Вибірка молода — середній вік 28,5 — і жінок набирали на скринінгових заходах, а не випадково, тож сприймайте це як сигнал про стан заліза в британок, а не як національну статистику."
       },
       {
         "t": "h",
@@ -356,7 +356,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "А тепер те, що варто знати до того візиту. Прочитайте розділ рекомендацій цієї настанови від початку до кінця — і слова «феритин», «залізо» та «анемія» не трапляться в ньому жодного разу. Загальний аналіз крові вимірює гемоглобін і розмір еритроцитів; він не вимірює ваші запаси заліза. Феритин може бути на нулі, тоді як загальний аналіз крові ще в нормі, бо організм спорожняє склад раніше, ніж полиці починають виглядати порожніми. Саме такий стан, за оглядом у Diabetologia, здатен підняти HbA1c, — дефіцит заліза з анемією чи без неї. Тож про феритин треба просити окремо — у стандартний аналіз він не входить. Та сама настанова також радить лікарям не робити аналізи на жіночі гормони при рясних кровотечах і не перевіряти щитоподібну залозу, якщо немає інших її симптомів, — тож не дивуйтеся, якщо в цих аналізах вам відмовлять."
+        "text": "А тепер те, що варто знати до того візиту. Прочитайте розділ рекомендацій цієї настанови від початку до кінця — і слова «феритин», «залізо» та «анемія» не трапляться в ньому жодного разу. Загальний аналіз крові вимірює гемоглобін і розмір еритроцитів; він не вимірює ваші запаси заліза. Феритин може бути на нулі, тоді як загальний аналіз крові ще в нормі, бо організм спорожняє склад раніше, ніж полиці починають виглядати порожніми. Саме такий стан, за оглядом у Diabetologia, здатен підняти HbA1c, — дефіцит заліза з анемією чи без неї. Тож про феритин треба просити окремо — у стандартний аналіз він не входить. До липня 2026 року настанова навіть радила не робити феритин рутинно; NICE вилучила цей пункт через ризик дефіциту заліза в жінок із рясними кровотечами, але поради робити цей аналіз замість нього не додала. Та сама настанова також радить лікарям не робити аналізи на жіночі гормони при рясних кровотечах і не перевіряти щитоподібну залозу, якщо немає інших її симптомів, — тож не дивуйтеся, якщо в цих аналізах вам відмовлять."
       },
       {
         "t": "h",
@@ -392,7 +392,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "А от починати приймати залізо лише через підозру я не стала б. Добавки заліза можуть настільки подразнювати шлунок, що половина жінок кидає їх приймати; вони не нешкідливі, якщо дефіциту насправді немає; і — це найнезручніше — якщо почати їх до аналізу, аналіз уже нікому не скаже, що відбувалося. Спершу аналіз."
+        "text": "А от починати приймати залізо лише через підозру я не стала б. Добавки заліза можуть настільки подразнювати шлунок, що багато жінок кидає їх приймати; вони не нешкідливі, якщо дефіциту насправді немає; і — це найнезручніше — якщо почати їх до аналізу, аналіз уже нікому не скаже, що відбувалося. Спершу аналіз."
       },
       {
         "t": "p",
@@ -404,7 +404,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Окремо від усього вищесказаного, деякі кровотечі треба показати лікарю швидко, а не на наступному плановому візиті: кровотеча після дванадцяти місяців без місячних, кровотеча між місячними або після сексу, кровотеча, що протікає крізь прокладки чи тампони, великі згустки або симптоми анемії — задишка, серцебиття, запаморочення. Настанова NICE передбачає при підозрі на рак термінове скерування, тож це не той випадок, коли варто чекати."
+        "text": "Окремо від усього вищесказаного, деякі кровотечі треба показати лікарю швидко, а не на наступному плановому візиті: кровотеча після дванадцяти місяців без місячних, кровотеча між місячними або після сексу, кровотеча, що протікає крізь прокладки чи тампони, великі згустки або симптоми анемії — задишка, серцебиття, запаморочення. Настанова NICE при підозрі на рак відсилає до окремої настанови щодо скерування при підозрі на рак, тож це не той випадок, коли варто чекати."
       },
       {
         "t": "h",
@@ -412,7 +412,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "HbA1c вимірює еритроцити, а не цукор у крові, тож усе, що подовжує життя еритроцита, завищує його. Дефіцит заліза робить саме це, а рясні кровотечі в перименопаузі — одна з найчастіших причин нестачі заліза, причому в Британії частіше, ніж у порівнянних країнах. Ефект реальний, але помірний: досить, щоб зсунути прикордонний результат, і найпомітніший у людей із нормальною чи прикордонною глюкозою, а не в тих, кому діагноз уже поставлено. Загальний аналіз крові сам по собі не знайде низьких запасів заліза; феритин треба просити окремо. А якщо сенсор і лабораторія не сходяться, залізо — лише одна з можливих причин: про неї варто сказати лікарю, а не вважати її очевидною."
+        "text": "HbA1c вимірює еритроцити, а не цукор у крові, тож усе, що подовжує життя еритроцита, завищує його. Дефіцит заліза робить саме це, а рясні кровотечі в перименопаузі — одна з найчастіших причин нестачі заліза, причому в Британії частіше, ніж у порівнянних країнах. Ефект реальний, але помірний: досить, щоб зсунути прикордонний результат, і найпомітніший у людей із нормальною чи прикордонною глюкозою, а не в діабетичному діапазоні. Загальний аналіз крові сам по собі не знайде низьких запасів заліза; феритин треба просити окремо. А якщо сенсор і лабораторія не сходяться, залізо — лише одна з можливих причин: про неї варто сказати лікарю, а не вважати її очевидною."
       },
       {
         "t": "p",
@@ -456,7 +456,7 @@ export default {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12080991/"
           },
           {
-            "claim": "Затяжні й рясні кровотечі в менопаузальному переході — норма, а не виняток.",
+            "claim": "Затяжні кровотечі в менопаузальному переході — норма, а не виняток, а повторювані рясні кровотечі бувають приблизно в третини жінок.",
             "detail": "Paramsothy P, Harlow SD, Greendale GA, Gold EB, Crawford SL, Elliott MR, Lisabeth LD, Randolph JF Jr. «Bleeding patterns during the menopausal transition in the multi-ethnic Study of Women's Health Across the Nation (SWAN): a prospective cohort study». BJOG 2014;121(12):1564–73. 1320 жінок середнього віку — афроамериканок, білих, китаянок і японок — у підпроєкті SWAN із менструальними календарями заповнювали щоденні календарі з 1996 до 2006 року. Щонайменше три епізоди місячних тривалістю 10 днів і більше зафіксували 77,7% (95% ДІ 56,7–93,2), мазання 6 днів і більше — 66,8% (95% ДІ 55,2–78,0), рясної кровотечі 3 дні й більше — 34,5% (95% ДІ 30,2–39,2). Затяжна кровотеча, мазання та рясна кровотеча були пов’язані зі стадією менопаузального переходу, міомами матки, прийманням гормонів і етнічністю. Зверніть увагу на широкі довірчі інтервали перших двох цифр і на те, що це дані зі США.",
             "cite": "BJOG 2014 · проспективна когорта, n=1320 · PMID 24735184",
             "url": "https://pubmed.ncbi.nlm.nih.gov/24735184/"
@@ -469,7 +469,7 @@ export default {
           },
           {
             "claim": "Британська настанова просить загальний аналіз крові всім жінкам із рясними місячними — і жодного разу не згадує феритин.",
-            "detail": "Настанова NICE NG88 «Heavy menstrual bleeding: assessment and management» (опублікована в березні 2018 року, востаннє оновлена в травні 2021 року). Рекомендація 1.2.6: «Carry out a full blood count test for all women with HMB, in parallel with any HMB treatment offered». Розділ рекомендацій не містить жодної згадки про феритин, залізо чи анемію — це і є прогалина, яку називає ця стаття: загальний аналіз крові показує гемоглобін і показники еритроцитів, а не запаси заліза, тож низького феритину без анемії він не виявить. Рекомендація 1.2.9 каже не проводити аналізи на жіночі гормони жінкам із рясними менструальними кровотечами, а 1.2.10 — не перевіряти гормони щитоподібної залози, якщо немає інших ознак і симптомів її захворювання. Рекомендація 1.2.7 просить розглянути обстеження на порушення згортання, як-от хвороба Віллебранда, у жінок, у яких рясні кровотечі були від початку місячних і є особистий чи сімейний анамнез, що вказує на таке порушення. Рекомендація 1.3.2 у разі підозри на рак відсилає до настанови NICE щодо розпізнавання та скерування при підозрі на рак.",
+            "detail": "Настанова NICE NG88 «Heavy menstrual bleeding: assessment and management» (опублікована в березні 2018 року, востаннє оновлена в липні 2026 року). Рекомендація 1.2.6: «Carry out a full blood count test for all women with HMB, in parallel with any HMB treatment offered». Розділ рекомендацій не містить жодної згадки про феритин, залізо чи анемію — це і є прогалина, яку називає ця стаття: загальний аналіз крові показує гемоглобін і показники еритроцитів, а не запаси заліза, тож низького феритину без анемії він не виявить. Рекомендація 1.2.9 каже не проводити аналізи на жіночі гормони жінкам із рясними менструальними кровотечами, а 1.2.10 — не перевіряти гормони щитоподібної залози, якщо немає інших ознак і симптомів її захворювання. Рекомендація 1.2.7 просить розглянути обстеження на порушення згортання, як-от хвороба Віллебранда, у жінок, у яких рясні кровотечі були від початку місячних і є особистий чи сімейний анамнез, що вказує на таке порушення. Рекомендація 1.3.2 у разі підозри на рак відсилає до настанови NICE щодо розпізнавання та скерування при підозрі на рак. Оновлення липня 2026 року вилучило колишню рекомендацію 1.2.8, яка радила не робити рутинно аналіз на сироватковий феритин: NICE дійшла висновку, що така порада не виправдана з огляду на ризик дефіциту заліза в цій групі, і рекомендації робити аналіз замість неї не додала.",
             "cite": "NICE NG88 · британська національна настанова",
             "url": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations"
           }
@@ -510,23 +510,23 @@ export default {
     "faq": [
       {
         "q": "Чи справді нестача заліза може зробити мій HbA1c гіршим, ніж він є?",
-        "a": "Може, але помірно. Дефіцит заліза сповільнює вироблення нових еритроцитів, тож наявні залишаються в обігу довше й довше збирають глюкозу — а саме це HbA1c і рахує. У корейському національному опитуванні понад 10 000 дорослих люди із залізодефіцитною анемією мали в середньому HbA1c 5,70% проти 5,59% в усіх інших, при однаковій глюкозі натще. Це приблизно одна десята пункту. Цього досить, щоб зсунути прикордонний результат, і не досить, щоб пояснити велике незрозуміле зростання."
+        "a": "Може, але помірно. Дефіцит заліза сповільнює вироблення нових еритроцитів, тож наявні залишаються в обігу довше й довше збирають глюкозу — а саме це HbA1c і рахує. У корейському національному опитуванні понад 10 000 дорослих люди із залізодефіцитною анемією мали в середньому HbA1c 5,70% проти 5,59% у людей без анемії, без значущої різниці в глюкозі натще. Це приблизно одна десята пункту. Цього досить, щоб зсунути прикордонний результат, і не досить, щоб пояснити велике незрозуміле зростання."
       },
       {
         "q": "Чи виключить нормальний загальний аналіз крові нестачу заліза?",
-        "a": "Ні, і саме про це більшості людей не кажуть. Загальний аналіз крові вимірює гемоглобін, розмір і кількість еритроцитів. Він не вимірює, скільки заліза у вас у запасі. Організм спорожняє запаси заліза задовго до того, як показники аналізу крові вийдуть за межі норми, тож феритин може бути дуже низьким при нормальному загальному аналізі. NICE просить загальний аналіз крові кожній жінці з рясними місячними, але в рекомендаціях NICE феритин не згадано жодного разу, тож про нього варто попросити окремо."
+        "a": "Ні, і саме про це більшості людей не кажуть. Загальний аналіз крові вимірює гемоглобін, розмір і кількість еритроцитів. Він не вимірює, скільки заліза у вас у запасі. Організм спорожняє запаси заліза задовго до того, як показники аналізу крові вийдуть за межі норми, тож феритин може бути дуже низьким при нормальному загальному аналізі. NICE просить загальний аналіз крові кожній жінці з рясними місячними, але в рекомендаціях NICE феритин не згадано жодного разу (у липні 2026 року вона вилучила стару пораду не робити цей аналіз, але поради його робити не додала), тож про нього варто попросити окремо."
       },
       {
         "q": "GMI мого сенсора нижчий за лабораторний HbA1c. Це через залізо?",
-        "a": "Можливо, але це один кандидат із багатьох і навряд чи перший. Ці два числа розходяться значно частіше, ніж люди очікують: в одному дослідженні за участю 641 людини приблизно половина розійшлася щонайменше на пів відсоткового пункту. Огляд, який зібрав ці цифри, називає з боку лабораторії хворобу нирок, нещодавнє переливання, деякі ліки, варіанти гемоглобіну й вагітність, а з боку сенсора — короткий час носіння, запалення в місці встановлення чи стискання вночі. Є й окрема причина для обережності: ефект заліза показано переважно в людей із нормальною чи прикордонною глюкозою, а одне велике дослідження виявило, що в діабетичному діапазоні він зникає. Обговоріть цей розрив і звіт сенсора з лікарями, які ведуть ваш діабет, а не робіть висновків самостійно."
+        "a": "Можливо, але це один кандидат із багатьох і навряд чи перший. Ці два числа розходяться значно частіше, ніж люди очікують: в одному дослідженні за участю 641 людини приблизно половина розійшлася щонайменше на пів відсоткового пункту. Огляд, який зібрав ці цифри, називає причини розриву в той чи інший бік: з боку лабораторії — хворобу нирок, нещодавнє переливання, деякі ліки, варіанти гемоглобіну й вагітність, а з боку сенсора — короткий час носіння, запалення в місці встановлення чи стискання вночі; останні дві змушують сенсор показувати менше. Є й окрема причина для обережності: ефект заліза показано переважно в людей із нормальною чи прикордонною глюкозою, а одне велике дослідження не виявило значущого ефекту в діабетичному діапазоні. Обговоріть цей розрив і звіт сенсора з лікарями, які ведуть ваш діабет, а не робіть висновків самостійно."
       },
       {
         "q": "Може, просто почати приймати залізо?",
-        "a": "Не раніше, ніж вас перевірять. Добавки заліза не є нешкідливими, якщо дефіциту немає; шлунково-кишкові побічні ефекти змушують до половини жінок кинути їх приймати; а якщо почати до забору крові, аналіз уже нікому не скаже, що відбувалося. Попросіть феритин і загальний аналіз крові — і нехай рішення підкаже результат. А якщо кровотечі такі рясні, що ви втрачаєте залізо, варто займатися й самою кровотечею, а не лише поповнювати те, що вона забирає."
+        "a": "Не раніше, ніж вас перевірять. Добавки заліза не є нешкідливими, якщо дефіциту немає; шлунково-кишкові побічні ефекти змушують багатьох жінок кинути їх приймати; а якщо почати до забору крові, аналіз уже нікому не скаже, що відбувалося. Попросіть феритин і загальний аналіз крові — і нехай рішення підкаже результат. А якщо кровотечі такі рясні, що ви втрачаєте залізо, варто займатися й самою кровотечею, а не лише поповнювати те, що вона забирає."
       },
       {
         "q": "Яка кровотеча потребує огляду швидше, а не згодом?",
-        "a": "Кровотеча після повних дванадцяти місяців без місячних, кровотеча між місячними або після сексу, кровотеча, що протікає крізь прокладки чи тампони, великі згустки або симптоми анемії — задишка, серцебиття, запаморочення. Це причини швидко звернутися до сімейного лікаря, а не чекати планового візиту: NICE передбачає при підозрі на рак термінове скерування. Усе інше в цій статті стосується тлумачення аналізу крові й не замінює огляду самої кровотечі."
+        "a": "Кровотеча після повних дванадцяти місяців без місячних, кровотеча між місячними або після сексу, кровотеча, що протікає крізь прокладки чи тампони, великі згустки або симптоми анемії — задишка, серцебиття, запаморочення. Це причини швидко звернутися до сімейного лікаря, а не чекати планового візиту: настанова NICE при підозрі на рак відсилає до окремої настанови щодо скерування. Усе інше в цій статті стосується тлумачення аналізу крові й не замінює огляду самої кровотечі."
       }
     ]
   }
