@@ -19,7 +19,7 @@ export default {
     "title": "Does cold weather affect blood sugar? Winter with type 1 diabetes after 40",
     "seoTitle": "Does Cold Weather Affect Blood Sugar? T1D in Winter",
     "metaDesc": "Why HbA1c often rises in winter with type 1 diabetes, how cold affects meters, insulin and CGMs, and what helps in a UK winter.",
-    "excerpt": "Winter really does nudge HbA1c upwards — by about two tenths of a point in the largest dataset there is. But the evidence says the cold is not doing it, with one sharp exception: a cold finger will tell you that you are low when you are not.",
+    "excerpt": "Winter really does nudge HbA1c upwards, by about two tenths of a point. But the cold is not what does it — with one exception: a cold finger reads falsely low.",
     "meta": "4 November 2026 · 9 min read",
     "lead": "Every year the same thing happens. The clocks go back, the walking quietly stops, and by February the numbers look worse than they did in September. It is such a familiar pattern that most of us have decided it is the cold doing it. The research says something more specific, and more useful — the cold is mostly innocent, except in one place where it matters a great deal.",
     "blocks": [
@@ -264,7 +264,7 @@ export default {
     "title": "Чи впливає холодна погода на цукор у крові? Зима з діабетом 1 типу після 40",
     "seoTitle": "Чи впливає холод на цукор? Діабет 1 типу взимку",
     "metaDesc": "Чому взимку HbA1c часто зростає при діабеті 1 типу, як холод впливає на глюкометр, інсулін і сенсори та що допомагає британською зимою.",
-    "excerpt": "Зима справді підштовхує HbA1c угору — приблизно на дві десятих пункту, за даними найбільшого дослідження. Але, судячи з досліджень, холод тут ні до чого — з одним важливим винятком: холодний палець «покаже» гіпоглікемію, якої насправді немає.",
+    "excerpt": "Зима справді підштовхує HbA1c угору — приблизно на дві десятих пункту. Але холод тут ні до чого, крім одного: холодний палець «покаже» гіпоглікемію, якої немає.",
     "meta": "4 листопада 2026 · 9 хв читання",
     "lead": "Щороку те саме. Годинники переводять назад, прогулянки непомітно зникають, і до лютого цифри вже гірші, ніж у вересні. Ця картина настільки знайома, що більшість із нас вирішила: винен холод. Дослідження дають конкретнішу й кориснішу відповідь: холод здебільшого ні до чого — за винятком однієї ситуації, де він важить дуже багато.",
     "blocks": [

@@ -11,7 +11,7 @@ export default {
     "title": "HRT prescriptions have more than doubled since 2018 — and patches are now running short",
     "seoTitle": "HRT Prescriptions Have Doubled — Patches Now Running Short",
     "metaDesc": "Estrogen HRT prescribing has doubled since 2018 — 1 in 20 women aged 45–54 now prescribed. Why patches are running short and what it means for perimenopause.",
-    "excerpt": "New US data show estrogen HRT prescribing has doubled since 2018, with 1 in 20 women aged 45–54 now on it — a rise already under way before the FDA moved to drop its strongest warnings.",
+    "excerpt": "New US data show estrogen HRT prescribing has doubled since 2018, with 1 in 20 women aged 45–54 now on it — a rise already under way before the FDA moved.",
     "meta": "10 July 2026 · 6 min read",
     "lead": "Hormone therapy is having a moment — and the numbers are striking. A new analysis of US prescribing data finds estrogen-based HRT has gone from niche to mainstream in just a few years.",
     "blocks": [
@@ -135,7 +135,7 @@ export default {
     "title": "З 2018 року призначень ЗГТ стало більш ніж удвічі більше — а пластирів уже бракує",
     "seoTitle": "Призначення ЗГТ подвоїлися — пластирі в дефіциті",
     "metaDesc": "Призначення естрогенової ЗГТ подвоїлися з 2018 року — її вже отримує 1 з 20 жінок 45–54 років. Чому пластирі в дефіциті і що це означає для перименопаузи.",
-    "excerpt": "Нові дані зі США показують, що з 2018 року призначень естрогенової ЗГТ стало вдвічі більше: тепер її отримує 1 з 20 жінок віком 45–54 роки. Причому це зростання почалося ще до того, як FDA вирішило прибрати свої найсуворіші попередження.",
+    "excerpt": "Нові дані зі США: з 2018 року призначень естрогенової ЗГТ стало вдвічі більше, її отримує 1 з 20 жінок 45–54 років. Зростання почалося ще до рішення FDA.",
     "meta": "10 липня 2026 · 6 хв читання",
     "lead": "Гормональна терапія переживає сплеск популярності — і цифри вражають. Новий аналіз даних про призначення у США показує, що естрогенова ЗГТ за кілька років перетворилася з нішевої на масову.",
     "blocks": [

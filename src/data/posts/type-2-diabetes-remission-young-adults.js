@@ -19,7 +19,7 @@ export default {
     "title": "Half of them put type 2 diabetes into remission in six months — on 800 calories a day",
     "seoTitle": "54% Diabetes Remission in 6 Months: What the Trial Did",
     "metaDesc": "A new randomised trial put 54% of young adults with type 2 diabetes into remission in 24 weeks. What the programme actually involved — and who it was tested on.",
-    "excerpt": "A new randomised trial reports 54% remission in six months, against 4% on usual care. The programme was far more medical than the word “lifestyle” suggests, and everyone in it was 45 or under.",
+    "excerpt": "A new randomised trial reports 54% remission in six months, against 4% on usual care. The programme was far more medical than the word “lifestyle” suggests.",
     "meta": "8 November 2026 · 7 min read",
     "lead": "The headline is real and the trial is a proper randomised one, which is more than most diabetes stories can claim. But two things got lost on the way to the news: what the participants actually did for twelve weeks, and how old they were.",
     "blocks": [
@@ -159,7 +159,7 @@ export default {
     "title": "Половина учасників вивела діабет 2 типу в ремісію за шість місяців — на 800 калоріях на день",
     "seoTitle": "54% ремісії діабету за 6 місяців: що було в дослідженні",
     "metaDesc": "Нове рандомізоване дослідження вивело 54% молодих дорослих із діабетом 2 типу в ремісію за 24 тижні. Що насправді включала програма — і на кому її перевіряли.",
-    "excerpt": "Нове рандомізоване дослідження повідомляє про 54% ремісії за шість місяців проти 4% у групі звичайного лікування. Програма виявилася значно більш медичною, ніж можна подумати зі слів «спосіб життя», а всім учасникам було 45 років або менше.",
+    "excerpt": "Нове рандомізоване дослідження: 54% ремісії за шість місяців проти 4% у групі звичайного лікування. Програма була значно медичнішою, ніж звучить «спосіб життя».",
     "meta": "8 листопада 2026 · 7 хв читання",
     "lead": "Заголовок правдивий, а дослідження — справжнє рандомізоване, чим може похвалитися далеко не кожна новина про діабет. Але дві речі загубилися дорогою до новин: що саме учасники робили протягом дванадцяти тижнів і скільки їм було років.",
     "blocks": [

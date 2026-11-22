@@ -18,7 +18,7 @@ export default {
     "title": "Sunscreen after 40: what the evidence supports, and the months the UK doesn't need it",
     "seoTitle": "Best Sunscreen for Women Over 40: What to Look For",
     "metaDesc": "Daily SPF is the best-evidenced skincare step after 40 — but British dermatologists say year-round use is unnecessary here. What to buy, how much, and when.",
-    "excerpt": "Sunscreen is one of the very few skincare steps with a proper randomised trial behind it. That trial ran in subtropical Queensland, and the UK's own dermatologists say we don't need sunscreen through the winter. Both of those things are true at once.",
+    "excerpt": "Sunscreen is one of the very few skincare steps with a randomised trial behind it. That trial ran in subtropical Queensland, and UK dermatologists say we can skip winter.",
     "meta": "23 October 2026 · 9 min read",
     "lead": "Every skincare routine you have ever read ends with the same instruction: wear sunscreen, every single day, all year round. The first half of that is as well supported as anything in beauty gets. The second half is not what the British Association of Dermatologists actually says — and the gap between them is worth understanding, because it decides what you buy and when you bother.",
     "blocks": [
@@ -335,7 +335,7 @@ export default {
     "title": "Сонцезахист після 40: що підтверджують дослідження і коли у Британії він не потрібен",
     "seoTitle": "Сонцезахист після 40: що кажуть дослідження",
     "metaDesc": "Щоденний SPF — найкраще доведений крок у догляді після 40. Але британські дерматологи кажуть, що цілий рік він тут не потрібен. Що купувати, скільки і коли.",
-    "excerpt": "Сонцезахист — один із дуже небагатьох кроків у догляді, за якими стоїть справжнє рандомізоване дослідження. Воно проходило в субтропічному Квінсленді, а британські дерматологи кажуть, що взимку тут сонцезахист не потрібен. І те, й те — правда водночас.",
+    "excerpt": "Сонцезахист — один із небагатьох кроків догляду, за яким стоїть справжнє рандомізоване дослідження. Воно проходило в Квінсленді, а взимку в Британії він не потрібен.",
     "meta": "23 жовтня 2026 · 9 хв читання",
     "lead": "Будь-яка схема догляду, яку ви читали, закінчується однаково: наносьте сонцезахист щодня, цілий рік. Перша половина цієї поради підкріплена доказами краще, ніж будь-що інше в б’юті. Друга — не те, що насправді каже Британська асоціація дерматологів. І різницю між ними варто розуміти, бо вона вирішує, що саме ви купуєте й коли взагалі цим займаєтесь.",
     "blocks": [
