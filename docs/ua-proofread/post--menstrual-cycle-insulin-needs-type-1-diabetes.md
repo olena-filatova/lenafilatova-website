@@ -1,13 +1,5 @@
 # post--menstrual-cycle-insulin-needs-type-1-diabetes
 
-- Last checked: 2026-10-13
-- PR: (filled in after push — see PR titled "UA proofread: post--hrt-timing-heart-swan-study, post--menstrual-cycle-insulin-needs-type-1-diabetes")
-
-## Notes
-
-Translation was already strong and natural. Fixed 3 issues: an ambiguous
-double-negative construction, a calque-y negation that read unnaturally, and
-one omitted clarifying clause ("the stricter measure") that exists in the
-`en` text. No numbers, doses, study facts, URLs, slugs, or `en` text were
-touched. Apostrophe style and terminology were already consistent with the
-rest of the site.
+- **Last checked:** 2026-11-22 (second cycle; previously 2026-10-13)
+- **PR:** (this PR — `UA proofread: post--hrt-timing-heart-swan-study, post--menstrual-cycle-insulin-needs-type-1-diabetes`)
+- **Notes:** 15 fixes. Grammar: gender mismatch «пункти… вона… нею не стала», «П’ятдесят один підліток… дали» → «дав». Calques rewritten: «рівно та довжина пам’яті», «залученими користувачами», «наскільки далеко можна переносити ці цифри», «невибагливий», «тих, хто з краю», «асоціювалася», «зізнається інструкція». Meaning vs EN: "the larger of the two", "your luteal week runs higher". Terminology: «базал» → «базальної дози», links title → «Читайте також». No numbers, doses, facts or URLs changed.
