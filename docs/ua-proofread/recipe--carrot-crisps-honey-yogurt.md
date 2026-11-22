@@ -1,9 +1,5 @@
 # recipe--carrot-crisps-honey-yogurt
 
-- Last checked: 2026-10-12
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/372
-- Notes: No issues found. Checked title, why, nutrition, ingredients and method
-  against the EN text — natural, grammatically correct Ukrainian (e.g. "морквини"
-  as the counted plural of "морквина" matches the house usage elsewhere in
-  `recipes.js`), no russianisms or calques, terminology consistent with the rest
-  of the site.
+- Last checked: 2026-11-22 (second cycle; previously 2026-10-12)
+- PR: (this PR)
+- Notes: 5 fixes. «простого … йогурту» → «натурального» and «чистого меду» → «натурального» (calques of "plain"/"pure"); «почистіть» → «очистіть»; «на деку» → «на деко» (accusative of «деко»); step 4 had no verb in the second clause («переверніть, ще 5 хвилин») → «переверніть і випікайте ще 5 хвилин». Numbers, temperatures and `en` untouched.
