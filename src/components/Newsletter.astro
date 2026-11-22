@@ -77,7 +77,13 @@ const action = `${MAILCHIMP.endpoint}?u=${MAILCHIMP.u}&id=${MAILCHIMP.list}`
 const B = import.meta.env.BASE_URL;
 ---
 <section class:list={[isRail ? 'nl-rail' : 'section', 'newsletter', sectionClass]} id={id}>
-  <div class:list={[!isRail && 'wrap', 'nl-box', !isRail && 'ink-panel ink-panel--card']}>
+  {/* OPS-533 — the panel used to BE the .wrap, so it spanned the wrap's own
+      24px padding and sat wider than every other ink card, and wider than the
+      prose directly above it. Wrap outside, panel inside: one left edge for
+      every container-width card on the site. The rail variant has no wrap and
+      no ink panel — it is a pale sidebar box, styled in blog.css. */}
+  <div class:list={[!isRail && 'wrap']}>
+    <div class:list={['nl-box', !isRail && 'ink-panel ink-panel--card']}>
     <Title class="nl-title">{t.nlTitle}</Title>
     <p class="section-sub">{t.nlSub}</p>
 
@@ -137,8 +143,9 @@ const B = import.meta.env.BASE_URL;
       </div>
     </form>
 
-    <p class="nl-sent form-sent" hidden>{t.nlSent}</p>
-    <p class="nl-msg" role="status" aria-live="polite" hidden></p>
+      <p class="nl-sent form-sent" hidden>{t.nlSent}</p>
+      <p class="nl-msg" role="status" aria-live="polite" hidden></p>
+    </div>
   </div>
 </section>
 

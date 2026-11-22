@@ -937,6 +937,18 @@ mark { background: rgba(178, 58, 99, 0.14); color: inherit; padding: 0 1px; }
 }
 .ink-panel--full > .wrap { position: relative; }
 
+/* The light counterpart of --card, for an inline call to action on a page that
+   already ends in an ink panel. The newsletter band sits above the footer on
+   every page, so a dark CTA in the page's own flow lands directly on top of it
+   and the two compete (OPS-533, About). Same box, same padding, drawn on paper
+   with a hairline edge instead. */
+.panel--outline {
+  border-radius: var(--radius);
+  padding: clamp(28px, 5vw, 48px);
+  background: var(--paper2);
+  box-shadow: inset 0 0 0 1px var(--rule);
+}
+
 /* newsletter — the one signup block, shared by every page including the
    homepage (which passes .ed-nl for spacing only). Square ink panel. */
 .newsletter .nl-box { text-align: center; }
