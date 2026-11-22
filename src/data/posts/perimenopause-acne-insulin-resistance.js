@@ -1,6 +1,7 @@
 export default {
   "slug": "perimenopause-acne-insulin-resistance",
   "date": "2026-11-15",
+  "featured": true,
   "image": "/images/perimenopause-acne-insulin-resistance.jpg",
   "cats": [
     "skin",

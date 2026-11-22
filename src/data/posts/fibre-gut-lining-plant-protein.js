@@ -1,6 +1,7 @@
 export default {
   "slug": "fibre-gut-lining-plant-protein",
   "date": "2026-11-16",
+  "featured": true,
   "image": "/images/fibre-gut-lining-plant-protein.jpg",
   "cats": [
     "nutrition"

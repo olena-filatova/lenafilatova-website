@@ -1,7 +1,6 @@
 export default {
   "slug": "planetary-diet-southern-europe-diabetes",
   "date": "2026-11-09",
-  "featured": true,
   "image": "/images/planetary-diet-southern-europe-diabetes.jpg",
   "cats": [
     "nutrition",
