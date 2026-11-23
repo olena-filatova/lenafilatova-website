@@ -1,7 +1,7 @@
 # post--berberine-insulin-resistance-evidence
 
 - Last checked: 2026-11-23
-- PR: (pending)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/606
 - Notes: 55 phrase fixes + 12 straight apostrophes → ’. Calques «Це не порожнеча» (not nothing),
   «Тут потрібна пропорція», «берберин складається з ліками» (stacks), «панель EFSA» → «експертна
   група», «Тут немає дози», «А потім ви читаєте…»; punctuation (closing commas before dashes,
