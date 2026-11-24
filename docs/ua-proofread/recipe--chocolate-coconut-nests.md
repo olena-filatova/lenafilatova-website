@@ -1,9 +1,5 @@
 # UA proofread: recipe--chocolate-coconut-nests
 
-- Last checked: 2026-10-14
+- Last checked: 2026-11-24
 - PR: (this PR)
-- Notes: Title was missing "Великодні" (Easter), present in the EN title and
-  consistent with every other Easter recipe on the site ("Пасхальний кулич
-  з лавандою", "Пасхальний кулич без дріжджів", etc.) — fixed. Rest of the
-  UA text (why, nutrition, ingredients, method) was clean: no
-  russianisms, calques or grammar issues found.
+- Notes: 4 fixes (second cycle). «Скачайте … в кульку» (скачати = download/jump) → «Скатайте … в кульку й сформуйте з неї гніздо»; «Зніміть з вогню» → «Зніміть із вогню» (euphony between consonants); «Вдавіть мигдалину» → «Втисніть мигдалину»; «трохи медом» (calque of "a little honey") → «невеликою кількістю меду». Title, nutrition and ingredients clean. No quantities or structure changed.
