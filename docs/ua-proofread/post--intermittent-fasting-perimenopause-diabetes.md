@@ -1,10 +1,11 @@
-# post--intermittent-fasting-perimenopause-diabetes
+# UA proofread: post--intermittent-fasting-perimenopause-diabetes
 
-- Last checked: 2026-10-16
-- PR: #401 (text fixes shipped in #410, which edits the same paragraphs)
-- Notes: Fixed a stray Latin "e" inside a Cyrillic word (прямішe → пряміше) and
-  restored "у Кенті" ("in Kent"), which the Ukrainian text had dropped from
-  the sentence contrasting the 2023 Chicago trial's participants with a
-  45-year-old reader. No other grammar, calque, or terminology issues found —
-  the translation otherwise reads naturally and matches the English
-  paragraph-for-paragraph.
+- Last checked: 2026-11-25 (second pass; previous 2026-10-16, PR #401/#410)
+- PR: see the `UA proofread: post--intermittent-fasting-perimenopause-diabetes, recipe--rhubarb-lavender-jam` PR
+- Notes: 45 fixes, mostly calques ("несуть ризик", "поставило … на вікно",
+  "доказів під ним", "чесне прочитання", "написані навколо посту",
+  "дослідження на не меншу ефективність" → "не меншої ефективності"),
+  plus seoTitle restored to name perimenopause as the EN does, an unnatural
+  time in imageAlt (→ 8:05), Personal View no longer mislabelled as a review in
+  the research card, "провідна авторка" → "перша авторка". Numbers, links and
+  medical meaning unchanged.
