@@ -1,8 +1,8 @@
 # UA proofread: post--intermittent-fasting-perimenopause-diabetes
 
 - Last checked: 2026-11-25 (second pass; previous 2026-10-16, PR #401/#410)
-- PR: see the `UA proofread: post--intermittent-fasting-perimenopause-diabetes, recipe--rhubarb-lavender-jam` PR
-- Notes: 45 fixes, mostly calques ("несуть ризик", "поставило … на вікно",
+- PR: #619
+- Notes: 47 fixes, mostly calques ("несуть ризик", "поставило … на вікно",
   "доказів під ним", "чесне прочитання", "написані навколо посту",
   "дослідження на не меншу ефективність" → "не меншої ефективності"),
   plus seoTitle restored to name perimenopause as the EN does, an unnatural
