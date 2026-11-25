@@ -977,13 +977,13 @@ export const RECIPES = [
     // (`варення з ревеню і апельсинами`, position 17.0) — note "і", not the
     // page title's "з"; EN leads with the modifier.
     seoTitle: { en: 'Orange Rhubarb Jam — Sugar-free, No Pectin', ua: 'Варення з ревеню і апельсинами — без цукру' },
-    metaDesc: { en: 'Rhubarb simmered with whole fresh oranges and stevia — four steps, no sugar, no pectin, no gelling agent. Bright and citrusy, GI 43.', ua: 'Ревінь, зварений з цілими свіжими апельсинами та стевією — чотири кроки, без цукру, пектину й желатину. Яскраве й цитрусове, ГІ 43.' },
+    metaDesc: { en: 'Rhubarb simmered with whole fresh oranges and stevia — four steps, no sugar, no pectin, no gelling agent. Bright and citrusy, GI 43.', ua: 'Ревінь, зварений з цілими свіжими апельсинами та стевією, — чотири кроки, без цукру, пектину й загусників. Яскраве, з цитрусовою ноткою, ГІ 43.' },
     related: ['rhubarb-quick-jam', 'rhubarb-strawberry-jam', 'rhubarb-lavender-jam', 'rhubarb-cherry-leaf-jam'],
-    why: { en: 'Rhubarb simmered with fresh orange and sweetened with stevia — a bright, no-sugar jam.', ua: 'Ревінь, зварений зі свіжим апельсином і підсолоджений стевією — яскраве варення без цукру.' },
+    why: { en: 'Rhubarb simmered with fresh orange and sweetened with stevia — a bright, no-sugar jam.', ua: 'Ревінь, зварений зі свіжим апельсином і підсолоджений стевією, — яскраве варення без цукру.' },
     nutrition: { en: 'Per serving (est.): ~30 kcal · Carbs 6 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~30 ккал · Вуглеводи 6 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '28 min', ua: '28 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
     ingredients: { en: ['1 kg rhubarb, prepared and chopped','2 oranges','120 ml (½ cup) water','1 tsp stevia'], ua: ['1 кг ревеню, підготовленого й нарізаного','2 апельсини','120 мл (½ склянки) води','1 ч. л. стевії'] },
-    method: { en: ['Chop the oranges finely and put in a pan with the rhubarb.','Add 120 ml (½ cup) water and simmer gently until soft.','Stir in the stevia and mix well.','Pour into sterilised jars.'], ua: ['Дрібно наріжте апельсини та покладіть у каструлю з ревенем.','Додайте 120 мл (½ склянки) води та варіть на слабкому вогні до м’якості.','Вмішайте стевію та добре перемішайте.','Розлийте по стерилізованих банках.'] }
+    method: { en: ['Chop the oranges finely and put in a pan with the rhubarb.','Add 120 ml (½ cup) water and simmer gently until soft.','Stir in the stevia and mix well.','Pour into sterilised jars.'], ua: ['Дрібно наріжте апельсини та покладіть у каструлю з ревенем.','Додайте 120 мл (½ склянки) води та варіть на слабкому вогні до м’якості.','Додайте стевію та добре перемішайте.','Розлийте по стерилізованих банках.'] }
   },
   {
     slug: 'rhubarb-quick-jam', dateAdded: '2026-07-10', img: '83-rhubarb-jam.jpg', cat: 'sauce', gi: 20,
@@ -997,11 +997,11 @@ export const RECIPES = [
     seoTitle: { en: 'Rhubarb Jam — Sugar-free, Baked, Low GI 20', ua: 'Варення з ревеню з лимоном — без цукру, ГІ 20' },
     metaDesc: { en: 'The simplest rhubarb jam: baked, blended, sweetened with stevia. Four steps, no sugar and no pectin, GI 20. Sharpened with lemon and ginger.', ua: 'Найпростіше варення з ревеню: запекти, збити, підсолодити стевією. Чотири кроки, без цукру й пектину, ГІ 20. Освіжене лимоном та імбиром.' },
     related: ['rhubarb-lavender-jam', 'rhubarb-strawberry-jam', 'rhubarb-orange-jam', 'rhubarb-cherry-leaf-jam'],
-    why: { en: 'A fuss-free rhubarb jam baked in the oven and blended, sharpened with lemon and ginger and sweetened with stevia — no sugar.', ua: 'Просте варення з ревеню, запечене в духовці й збите, освіжене лимоном та імбиром, підсолоджене стевією — без цукру.' },
+    why: { en: 'A fuss-free rhubarb jam baked in the oven and blended, sharpened with lemon and ginger and sweetened with stevia — no sugar.', ua: 'Просте варення з ревеню: запечене в духовці, збите блендером, освіжене лимоном та імбиром і підсолоджене стевією — без цукру.' },
     nutrition: { en: 'Per serving (est.): ~25 kcal · Carbs 5 g · Fat 0 g · Protein 1 g', ua: 'На порцію (прибл.): ~25 ккал · Вуглеводи 5 г · Жири 0 г · Білки 1 г' },
     meta: { prep: { en: '3 min', ua: '3 хв' }, cook: { en: '40 min', ua: '40 хв' }, serves: { en: 'Makes ~1 jar', ua: '~1 банка' } },
     ingredients: { en: ['1 kg prepared rhubarb','120 ml (½ cup) water','1 lemon','0.1 g salt','1 tsp grated ginger','1 g stevia'], ua: ['1 кг підготовленого ревеню','120 мл (½ склянки) води','1 лимон','0,1 г солі','1 ч. л. тертого імбиру','1 г стевії'] },
-    method: { en: ['Put the rhubarb in a baking dish, add the lemon juice, salt and water (add the zest too if you like).','Bake at 180°C for 30–40 minutes.','Add the ginger and blend the mixture.','Sweeten with stevia and mix.'], ua: ['Викладіть ревінь у форму, додайте лимонний сік, сіль і воду (за бажанням додайте цедру).','Запікайте при 180°C 30–40 хвилин.','Додайте імбир і збийте масу блендером.','Підсолодіть стевією та перемішайте.'] }
+    method: { en: ['Put the rhubarb in a baking dish, add the lemon juice, salt and water (add the zest too if you like).','Bake at 180°C for 30–40 minutes.','Add the ginger and blend the mixture.','Sweeten with stevia and mix.'], ua: ['Викладіть ревінь у форму, додайте лимонний сік, сіль і воду (за бажанням додайте й цедру).','Запікайте за температури 180°C 30–40 хвилин.','Додайте імбир і збийте масу блендером.','Підсолодіть стевією та перемішайте.'] }
   },
   {
     slug: 'rhubarb-lavender-jam', dateAdded: '2026-07-10', img: '84-rhubarb-lavender-jam.jpg', cat: 'sauce', gi: 20,
