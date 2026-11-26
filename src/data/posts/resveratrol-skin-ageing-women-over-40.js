@@ -12,7 +12,7 @@ export default {
     "title": "Resveratrol and wrinkles: what an 8-week trial in women over 40 actually found",
     "seoTitle": "Resveratrol and Wrinkles: What the 8-Week Trial Found",
     "metaDesc": "A placebo-controlled trial tested oral and topical trans-resveratrol in women over 40. The wrinkle result was small — the pigmentation result was bigger.",
-    "excerpt": "A double-blind trial gave women over 40 resveratrol capsules, cream, both or neither for eight weeks. Only the group taking both beat placebo on wrinkles — and by less than the headlines suggest.",
+    "excerpt": "A double-blind trial gave women over 40 resveratrol capsules, cream, both or neither for eight weeks. Only the group taking both beat placebo on wrinkles — and barely.",
     "meta": "8 September 2026 · 6 min read",
     "lead": "Resveratrol — the compound in red grape skin — has been sold as an anti-ageing ingredient for two decades on almost no human skin evidence. There is now a proper randomised trial. It is worth reading, and worth reading carefully.",
     "blocks": [

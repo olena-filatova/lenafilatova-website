@@ -14,8 +14,8 @@ export default {
     "imageAlt": "A bright rectangle of window light falling across a pale carpet beside a dark wooden step.",
     "title": "Vitamin D, telomeres and “three years younger”: what the trial actually measured",
     "seoTitle": "Vitamin D and Telomeres: What the VITAL Trial Found",
-    "metaDesc": "Daily vitamin D slowed telomere shortening by 140 base pairs over four years. The same trial found no effect on cancer, heart disease or frailty — and a second trial found nothing at all.",
-    "excerpt": "A daily 2,000 IU vitamin D tablet slowed telomere shortening in a large randomised trial. The three-years-younger figure is not in the paper, and the same trial measured things you can feel — and found nothing.",
+    "metaDesc": "Daily vitamin D slowed telomere shortening by 140 base pairs over four years. The same trial found no effect on cancer, heart disease or frailty.",
+    "excerpt": "A daily 2,000 IU vitamin D tablet slowed telomere shortening in a large trial. The three-years-younger figure is not in the paper, and nothing you can feel changed.",
     "meta": "5 October 2026 · 7 min read",
     "lead": "The claim going round is that a daily vitamin D tablet makes your cells nearly three years younger. There is a real randomised trial underneath it, and it did find less telomere shortening over four years. What the coverage leaves out is that the same trial, in the same people, also measured cancer, heart disease and frailty — and found nothing at all.",
     "blocks": [
@@ -125,8 +125,8 @@ export default {
     "imageAlt": "Яскравий прямокутник світла з вікна лежить на світлому килимі поруч із темною дерев’яною сходинкою.",
     "title": "Вітамін D, теломери і «на три роки молодше»: що насправді виміряло дослідження",
     "seoTitle": "Вітамін D і теломери: що показало дослідження VITAL",
-    "metaDesc": "Щоденний вітамін D уповільнив вкорочення теломер на 140 пар основ за чотири роки. Те саме дослідження не виявило впливу на рак, серце чи крихкість — а друге не виявило нічого взагалі.",
-    "excerpt": "Щоденна таблетка вітаміну D 2000 МО уповільнила вкорочення теломер у великому рандомізованому дослідженні. Цифри «на три роки молодше» у статті немає, а те саме дослідження виміряло відчутні речі — і не знайшло нічого.",
+    "metaDesc": "Щоденний вітамін D уповільнив вкорочення теломер на 140 пар основ за чотири роки. Те саме дослідження не виявило впливу на рак, серце чи крихкість.",
+    "excerpt": "Щоденна таблетка вітаміну D 2000 МО уповільнила вкорочення теломер у великому дослідженні. Цифри «на три роки молодше» у статті немає, а відчутного не змінилося нічого.",
     "meta": "5 жовтня 2026 · 7 хв читання",
     "lead": "Твердження, яке зараз ходить мережею: щоденна таблетка вітаміну D робить ваші клітини майже на три роки молодшими. За ним справді стоїть рандомізоване дослідження, і воно справді виявило менше вкорочення теломер за чотири роки. Публікації оминають те, що це саме дослідження в тих самих людей вимірювало також рак, хвороби серця і крихкість — і не знайшло нічого.",
     "blocks": [

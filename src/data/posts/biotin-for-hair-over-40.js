@@ -17,8 +17,8 @@ export default {
     "imageAlt": "Pale beige capsules spilled from a white tub onto a white surface, with thin green blades of grass lying across them.",
     "title": "Biotin for hair after 40: the supplement everyone buys, and the one with the least behind it",
     "seoTitle": "Biotin for Hair Over 40: Does It Actually Work?",
-    "metaDesc": "Biotin has barely been tested for hair in women who are not deficient — and the 2026 meta-analysis of hair supplements did not test it on its own. What to check instead.",
-    "excerpt": "Biotin is the default supplement for thinning hair after 40. The best-known review of it found eighteen case reports, and this year’s meta-analysis of hair supplements did not test it on its own.",
+    "metaDesc": "Biotin has barely been tested for hair in women who are not deficient, and the 2026 hair-supplement meta-analysis did not test it alone. What to check instead.",
+    "excerpt": "Biotin is the default supplement for thinning hair after 40. Its best-known review found eighteen case reports, and this year’s meta-analysis did not test it on its own.",
     "meta": "26 October 2026 · 7 min read",
     "lead": "If your hair has started coming out more than it used to and you have stood in a Boots aisle about it, you have met biotin. It is on the front of almost every hair, skin and nails supplement sold in this country, usually at a dose with a lot of zeros after it. I went looking for the evidence behind that dose, and what I found was not that biotin has been tested and failed. It is stranger than that: in women like the ones reading this, it has barely been tested at all.",
     "blocks": [
@@ -197,7 +197,7 @@ export default {
     "title": "Біотин для волосся після 40: добавка, яку купують усі — і за якою найменше доказів",
     "seoTitle": "Біотин для волосся після 40: чи працює?",
     "metaDesc": "Біотин для волосся майже не перевіряли в жінок без дефіциту, а метааналіз 2026 року не тестував його окремо. Що перевіряти натомість.",
-    "excerpt": "Біотин — перша добавка, по яку тягнуться, коли волосся рідшає після 40. Найвідоміший огляд про нього знайшов вісімнадцять описів випадків, а цьогорічний метааналіз добавок для волосся не тестував його окремо.",
+    "excerpt": "Біотин — перша добавка, коли волосся рідшає після 40. Найвідоміший огляд знайшов вісімнадцять описів випадків, а метааналіз цього року не тестував його окремо.",
     "meta": "26 жовтня 2026 · 7 хв читання",
     "lead": "Якщо волосся почало випадати більше, ніж раніше, і ви через це стояли біля полиці в аптеці, ви вже знайомі з біотином. Його назва красується на упаковці майже кожної добавки для волосся, шкіри й нігтів, що продаються в цій країні, — зазвичай у дозі з багатьма нулями. Я взялася шукати, які докази стоять за цією дозою, і виявила не те, що біотин перевірили і він не спрацював. Усе дивніше: у жінок, які це читають, його майже не перевіряли взагалі.",
     "blocks": [

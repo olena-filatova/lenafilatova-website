@@ -19,7 +19,7 @@ export default {
     "title": "Nail changes after 40: what's diabetes, what's just ageing, and what needs a GP",
     "seoTitle": "Nail Changes and Diabetes: Only One Is a Real Sign",
     "metaDesc": "No nail sign means diabetes on its own. Ridges, slow growth and yellowing are ordinary ageing - the one change it does drive is fungal infection.",
-    "excerpt": "Almost everything on the standard list of diabetic nail warning signs turns out to be ordinary ageing. One finding survives a proper comparison with a control group - and it is not the one the internet leads with.",
+    "excerpt": "Almost everything on the standard list of diabetic nail signs turns out to be ordinary ageing. One finding survives a proper control group — and it isn’t the famous one.",
     "meta": "3 September 2026 · 7 min read",
     "lead": "Ridging, slower growth, dullness and brittleness are what nails do after 40, in almost everybody. No nail change is specific to diabetes. What diabetes genuinely does is roughly double the rate of fungal nail infection - which matters far less for how your nails look than for what a break in the skin barrier means on a diabetic foot.",
     "blocks": [
@@ -237,7 +237,7 @@ export default {
     "title": "Зміни нігтів після 40: що від діабету, що просто вік, а з чим — до лікаря",
     "seoTitle": "Зміни нігтів і діабет: лише одна ознака справжня",
     "metaDesc": "Жодна ознака на нігтях не означає діабет сама по собі. Борозенки, повільний ріст і жовтизна — це вік. А от діабет справді спричиняє грибок.",
-    "excerpt": "Майже все зі стандартного списку «діабетичних» ознак на нігтях виявляється звичайним старінням. Один результат витримує коректне порівняння з контрольною групою — і це не той, з якого починає інтернет.",
+    "excerpt": "Майже все зі стандартного списку «діабетичних» ознак на нігтях — звичайне старіння. Один результат витримує порівняння з контрольною групою, і це не найвідоміший.",
     "meta": "3 вересня 2026 · 7 хв читання",
     "lead": "Борозенки, повільніший ріст, тьмяність і ламкість — це те, що роблять нігті після 40, майже в усіх. Жодна зміна нігтя не є специфічною для діабету. А от що діабет справді робить, то це приблизно вдвічі підвищує частоту грибкової інфекції нігтя, і це важить куди менше для вигляду нігтів, ніж для того, що означає порушений шкірний бар’єр на діабетичній стопі.",
     "blocks": [

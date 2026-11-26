@@ -14,7 +14,7 @@ export default {
     "title": "Every patient in a small type 1 diabetes trial became insulin-free",
     "seoTitle": "Type 1 Trial: Every Patient Became Insulin-Free",
     "metaDesc": "In an early UChicago trial, all 12 people with long-standing type 1 diabetes reached insulin independence after donor islet transplants. What it means.",
-    "excerpt": "In an early UChicago trial, all 12 people with long-standing type 1 diabetes reached insulin independence after donor islet transplants paired with a new anti-rejection antibody.",
+    "excerpt": "In an early UChicago trial, all 12 people with long-standing type 1 diabetes became insulin-free after donor islet transplants with a new anti-rejection antibody.",
     "meta": "10 July 2026 · 3 min read",
     "lead": "It’s the kind of result that makes you read the sentence twice: in a small pilot study, every single participant with type 1 diabetes stopped needing insulin.",
     "blocks": [
@@ -77,8 +77,8 @@ export default {
     "imageAlt": "Двоє науковців у захисному одязі та окулярах працюють із лабораторним обладнанням у червоному світлі.",
     "title": "Усі учасники невеликого дослідження діабету 1 типу досягли незалежності від інсуліну",
     "seoTitle": "Діабет 1 типу: усі учасники дослідження — без інсуліну",
-    "metaDesc": "У ранньому дослідженні UChicago всі 12 людей із тривалим діабетом 1 типу досягли незалежності від інсуліну після трансплантації острівцевих клітин. Що це означає.",
-    "excerpt": "У ранньому дослідженні в Чиказькому університеті всі 12 людей із тривалим діабетом 1 типу досягли незалежності від інсуліну після трансплантації донорських острівцевих клітин у поєднанні з новим антитілом проти відторгнення.",
+    "metaDesc": "У ранньому дослідженні UChicago всі 12 людей із тривалим діабетом 1 типу стали незалежними від інсуліну після трансплантації острівцевих клітин.",
+    "excerpt": "У ранньому дослідженні Чиказького університету всі 12 людей із тривалим діабетом 1 типу досягли незалежності від інсуліну після трансплантації острівцевих клітин.",
     "meta": "10 липня 2026 · 3 хв читання",
     "lead": "Це з тих результатів, через які речення перечитуєш двічі: у невеликому пілотному дослідженні кожен учасник із діабетом 1 типу зміг обходитися без інсуліну.",
     "blocks": [

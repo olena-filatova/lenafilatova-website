@@ -10,8 +10,8 @@ export default {
     "imageAlt": "A bedside lamp lit in a dark bedroom, with a stack of books, a phone on charge and a rumpled bed beside it.",
     "title": "The non-hormonal hot flush pill is on the NHS — here is a new look at how it works outside a trial",
     "seoTitle": "Fezolinetant: New Real-World Data on Hot Flushes",
-    "metaDesc": "Early real-world data on fezolinetant (Veoza) show hot flushes and sleep improving by week 4, with 2.6 fewer night wakings by week 12 — and one question still open.",
-    "excerpt": "Since March, women in England for whom HRT is unsuitable have had a non-hormonal option on the NHS. New data on how it performs in ordinary practice landed last week — including sleep measured by a wearable, not just self-reported.",
+    "metaDesc": "Early real-world data on fezolinetant (Veoza) show hot flushes and sleep improving by week 4, with 2.6 fewer night wakings by week 12.",
+    "excerpt": "Since March, women in England for whom HRT is unsuitable have had a non-hormonal option on the NHS. New data on how it performs in ordinary practice landed last week.",
     "meta": "3 October 2026 · 6 min read",
     "lead": "Most of the menopause news this year has been about hormones — who should take them, when to start, which warnings were overstated. This is about the other column: what is available to women who cannot take hormone therapy, or who would rather not. Since the spring that column has had a new entry on the NHS in England, and last week brought a fresh look at how it behaves outside a clinical trial.",
     "blocks": [

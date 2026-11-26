@@ -11,7 +11,7 @@ export default {
     "title": "What new research says about type 2 diabetes",
     "seoTitle": "What New Research Says About Type 2 Diabetes",
     "metaDesc": "The latest on type 2 diabetes remission, meal order, time-restricted eating and sleep — and which evidence-based changes are actually worth trying.",
-    "excerpt": "Recent findings on remission, meal order, time-restricted eating and sleep — and what’s actually worth trying.",
+    "excerpt": "Recent findings on remission, meal order, time-restricted eating and sleep — what the research actually says, and what’s genuinely worth trying.",
     "meta": "26 June 2026 · 8 min read",
     "lead": "The science of type 2 diabetes is moving faster than the headlines suggest — and some of the most important findings are ones you’re unlikely to hear in a ten-minute GP appointment. Here’s what recent research actually says, and what’s genuinely worth trying.",
     "blocks": [
@@ -232,7 +232,7 @@ export default {
     "title": "Що кажуть нові дослідження про діабет 2 типу",
     "seoTitle": "Що кажуть нові дослідження про діабет 2 типу",
     "metaDesc": "Найновіше про ремісію діабету 2 типу, порядок страв, обмежене в часі харчування та сон — і які зміни з доказовою базою справді варті спроби.",
-    "excerpt": "Нові дані про ремісію, порядок їжі, обмежене в часі харчування та сон — і що справді варто спробувати.",
+    "excerpt": "Нові дані про ремісію, порядок їжі, обмежене в часі харчування та сон — що насправді кажуть дослідження і що справді варто спробувати.",
     "meta": "26 червня 2026 · 8 хв читання",
     "lead": "Наука про діабет 2 типу розвивається швидше, ніж можна подумати з заголовків, — і про деякі з найважливіших відкриттів ви навряд чи почуєте на десятихвилинному прийомі в лікаря. Ось що насправді кажуть сучасні дослідження і що справді варто спробувати.",
     "blocks": [

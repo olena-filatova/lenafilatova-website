@@ -10,8 +10,8 @@ export default {
     "imageAlt": "An open spiral-bound monthly planner on a pale wooden table, its dated squares blank, with a white pen and a dark pencil lying across the page.",
     "title": "Menopause as a “cliff”: a huge new study, and the three things the coverage left out",
     "seoTitle": "The Menopause “Cliff” Study: What It Actually Shows",
-    "metaDesc": "A Nature Medicine study of 300 million lab tests reports abrupt body-wide shifts at the final period — what it found, and why researchers object to the word \"cliff\".",
-    "excerpt": "A study of 300 million blood tests reports that bone, liver and blood fats change abruptly at the final period rather than drifting. The finding is real, the framing is contested — and not every one of those changes was for the worse.",
+    "metaDesc": "A Nature Medicine study of 300 million lab tests reports abrupt body-wide shifts at the final period — and why researchers object to the word \"cliff\".",
+    "excerpt": "A study of 300 million blood tests reports bone, liver and blood fats changing abruptly at the final period, not drifting. Not all those changes were for the worse.",
     "meta": "17 October 2026 · 6 min read",
     "lead": "You will have seen the word cliff this week. A very large new study reports that dozens of things measured in blood and bone do not drift gently across midlife — they step, within about a year of the final period. It is a genuinely interesting piece of work, and the coverage dropped three things that change how you should read it.",
     "blocks": [
@@ -111,8 +111,8 @@ export default {
     "imageAlt": "Розгорнутий щомісячний планер на пружині на світлому дерев’яному столі: порожні клітинки з датами, поперек сторінки лежать біла ручка й темний олівець.",
     "title": "Менопауза як «обрив»: велике нове дослідження і три речі, які випали з новин",
     "seoTitle": "Дослідження про «обрив» менопаузи: що воно показало",
-    "metaDesc": "Дослідження в Nature Medicine на 300 мільйонах аналізів описує різкі зміни в усьому тілі на момент останньої менструації — і чому науковці заперечують проти слова «обрив».",
-    "excerpt": "Дослідження 300 мільйонів аналізів крові стверджує: кістки, печінка та жири крові змінюються різко на момент останньої менструації, а не поступово. Результат справжній, формулювання — спірне, і не кожна з цих змін була на гірше.",
+    "metaDesc": "Дослідження в Nature Medicine на 300 мільйонах аналізів описує різкі зміни в усьому тілі на момент останньої менструації — і чому науковці проти слова «обрив».",
+    "excerpt": "Дослідження 300 мільйонів аналізів крові: кістки, печінка та жири крові змінюються різко на момент останньої менструації, а не поступово. І не кожна зміна — на гірше.",
     "meta": "17 жовтня 2026 · 6 хв читання",
     "lead": "Цього тижня ви напевно бачили слово «обрив». Дуже велике нове дослідження повідомляє: десятки показників крові та кісток не змінюються плавно впродовж середини життя — вони стрибають, у межах приблизно одного року від останньої менструації. Це справді цікава робота, але з новин випали три речі, які змінюють те, як її варто читати.",
     "blocks": [

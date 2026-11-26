@@ -18,7 +18,7 @@ export default {
     "title": "The gut bacteria that make you hungrier — and the ones that help your blood sugar",
     "seoTitle": "Gut Bacteria, Appetite and Blood Sugar: What's Real",
     "metaDesc": "Which gut bacteria really affect appetite, energy harvest and blood sugar — what is mouse data, what is human, and what actually shifts your microbiome.",
-    "excerpt": "Which gut bacteria genuinely influence appetite, how much energy you take from food and your blood-sugar response — separating the mouse studies from the human ones, and what actually shifts the mix.",
+    "excerpt": "Which gut bacteria genuinely influence appetite, how much energy you take from food and your blood-sugar response — where the mouse studies end, and what shifts the mix.",
     "meta": "21 September 2026 · 14 min read",
     "lead": "“Your gut bacteria control your cravings” is everywhere and almost never comes with a study attached. Here is what the research actually shows about appetite, energy harvest and blood sugar — and the handful of things that genuinely change your microbiome.",
     "blocks": [
@@ -339,7 +339,7 @@ export default {
     "title": "Кишкові бактерії, які роблять вас голоднішою — і ті, що допомагають вашому цукру",
     "seoTitle": "Кишкові бактерії, апетит і цукор у крові",
     "metaDesc": "Які кишкові бактерії справді впливають на апетит, видобуток енергії та цукор у крові — де дані про мишей, де про людей і що насправді змінює мікробіом.",
-    "excerpt": "Які кишкові бактерії справді впливають на апетит, на те, скільки енергії ви берете з їжі, і на вашу глюкозну відповідь — де закінчуються миші й починаються люди, і що насправді змінює склад бактерій.",
+    "excerpt": "Які кишкові бактерії справді впливають на апетит, на енергію з їжі та на вашу глюкозну відповідь — де закінчуються миші й починаються люди, і що змінює склад.",
     "meta": "21 вересня 2026 · 14 хв читання",
     "lead": "«Ваші кишкові бактерії керують вашою тягою до їжі» — фраза всюди і майже ніколи з посиланням на дослідження. Ось що наука справді показує про апетит, видобуток енергії та цукор у крові — і кілька речей, які дійсно змінюють мікробіом.",
     "blocks": [

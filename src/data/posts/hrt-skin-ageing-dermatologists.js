@@ -16,8 +16,8 @@ export default {
     "imageAlt": "A close-up of a woman’s face in profile, her fingertips resting lightly against her cheek in warm, low light.",
     "title": "A dermatology journal says the HRT warning change matters for skin — what the letter actually argues",
     "seoTitle": "HRT and Skin Ageing: What Dermatologists Are Now Saying",
-    "metaDesc": "A letter in a leading dermatology journal says the FDA’s HRT label change matters for menopausal skin. What it argues, what it doesn’t, and the numbers attached to it.",
-    "excerpt": "A two-page letter in the Journal of the American Academy of Dermatology argues that skin doctors should now factor hormones into menopausal skin care. It is an opinion, not a study — and it is more careful than the headlines about it.",
+    "metaDesc": "A letter in a leading dermatology journal says the FDA’s HRT label change matters for menopausal skin. What it argues, what it doesn’t, and the numbers.",
+    "excerpt": "A two-page letter in a leading dermatology journal argues skin doctors should factor hormones into menopausal skin care. It is an opinion, not a study — a careful one.",
     "meta": "15 September 2026 · 5 min read",
     "lead": "Skin doctors are starting to ask what the American HRT label change means for them. The first piece to say so in a major dermatology journal is being reported as opening the door to HRT for skin. Read in full, it says something narrower and more useful.",
     "blocks": [
@@ -136,7 +136,7 @@ export default {
     "title": "Дерматологічний журнал пише, що зміна попередження щодо ЗГТ важлива для шкіри — що насправді стверджує цей лист",
     "seoTitle": "ЗГТ і старіння шкіри: що тепер кажуть дерматологи",
     "metaDesc": "Лист у провідному дерматологічному журналі стверджує, що зміна інструкцій до ЗГТ у США важлива для шкіри в менопаузі. Що в ньому є, чого немає і звідки цифри.",
-    "excerpt": "Двосторінковий лист у Journal of the American Academy of Dermatology закликає дерматологів враховувати гормони, коли йдеться про шкіру в менопаузі. Це думка, а не дослідження — і вона обережніша за заголовки про неї.",
+    "excerpt": "Двосторінковий лист у Journal of the American Academy of Dermatology закликає дерматологів враховувати гормони в менопаузі. Це думка, а не дослідження.",
     "meta": "15 вересня 2026 · 5 хв читання",
     "lead": "Лікарі-дерматологи починають питати себе, що означає для них зміна американських інструкцій до ЗГТ. Перший текст про це у великому дерматологічному журналі подають як «відкриті двері» до ЗГТ заради шкіри. Якщо прочитати його повністю, він говорить про вужче — і корисніше.",
     "blocks": [

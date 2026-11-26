@@ -25,7 +25,7 @@ export default {
     "title": "Type 2 diabetes treatment has been rewritten — and this time it says something specific about women",
     "seoTitle": "ADA/EASD 2026: The New Type 2 Diabetes Guidance",
     "metaDesc": "The 2026 ADA/EASD consensus moves SGLT2 and GLP-1 drugs to the front of type 2 diabetes care. What it says about metformin, muscle and women's heart risk.",
-    "excerpt": "The biggest update to type 2 diabetes guidance since 2022 is out. The headlines say metformin has been dethroned — the report is more careful than that, and it has a section on women that nobody quoted.",
+    "excerpt": "The biggest update to type 2 diabetes guidance since 2022 says metformin is dethroned. The report is more careful than that — and has a section on women nobody quoted.",
     "meta": "20 October 2026 · 7 min read",
     "lead": "Every few years the American and European diabetes associations agree a joint position on how type 2 diabetes should be treated, and the rest of medicine gradually follows it. The 2026 version landed on 2 October, and the coverage has settled on one line: metformin is no longer the compulsory first step. That is roughly true, and the report is considerably more careful about it than the summaries are. It also contains a short section on sex differences that I have not seen quoted anywhere, and which is the part most worth your time.",
     "blocks": [
@@ -126,7 +126,7 @@ export default {
     "title": "Лікування діабету 2 типу переписали — і цього разу там є дещо саме про жінок",
     "seoTitle": "ADA/EASD 2026: нові настанови щодо діабету 2 типу",
     "metaDesc": "Консенсус ADA/EASD 2026 виводить препарати SGLT2 і GLP-1 на перший план. Що там насправді сказано про метформін, м’язи й серцевий ризик у жінок.",
-    "excerpt": "Вийшло найбільше оновлення настанов щодо діабету 2 типу з 2022 року. Заголовки кажуть, що метформін скинули з трону. Сам звіт обережніший, і в ньому є розділ про жінок, який ніхто не процитував.",
+    "excerpt": "Вийшло найбільше оновлення настанов щодо діабету 2 типу з 2022 року. Заголовки кажуть, що метформін скинули з трону. Звіт обережніший — і має розділ про жінок.",
     "meta": "20 жовтня 2026 · 7 хв читання",
     "lead": "Кожні кілька років американська та європейська діабетичні асоціації узгоджують спільну позицію щодо лікування діабету 2 типу, і решта медицини поступово її переймає. Версія 2026 року вийшла 2 жовтня, і в новинах вона звелася до одного рядка: метформін більше не обов’язковий перший крок. Загалом це так, але сам звіт формулює це значно обережніше, ніж перекази. А ще в ньому є короткий розділ про статеві відмінності, який мені ніде не траплявся в цитатах, — і саме він вартий вашого часу найбільше.",
     "blocks": [

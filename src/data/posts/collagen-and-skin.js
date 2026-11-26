@@ -11,7 +11,7 @@ export default {
     "title": "Do collagen products actually improve your skin?",
     "seoTitle": "Collagen and Skin: What the Evidence Actually Shows",
     "metaDesc": "Does collagen actually improve skin? We look at the evidence on supplements, creams and the nutrients your body needs to make its own.",
-    "excerpt": "What the evidence really shows about collagen supplements, creams and the nutrients that support your own.",
+    "excerpt": "What the evidence really shows about collagen supplements, creams and the nutrients that support the collagen you make yourself.",
     "meta": "14 June 2026 · 5 min read",
     "lead": "Collagen is the scaffold that keeps skin firm and elastic — and from your mid-twenties you make a little less of it each year. Here’s what the evidence actually supports, and what’s mostly marketing.",
     "blocks": [
@@ -198,7 +198,7 @@ export default {
     "title": "Чи справді колагенові засоби покращують шкіру?",
     "seoTitle": "Колаген і шкіра: що насправді показують дослідження",
     "metaDesc": "Чи справді колаген покращує шкіру? Розглядаємо докази щодо добавок, кремів і поживних речовин для підтримки власного колагену.",
-    "excerpt": "Що насправді показують дослідження про колагенові добавки, креми та поживні речовини для вашого колагену.",
+    "excerpt": "Що насправді показують дослідження про колагенові добавки, креми та поживні речовини, які підтримують ваш власний колаген.",
     "meta": "14 червня 2026 · 5 хв читання",
     "lead": "Колаген — це каркас, що робить шкіру пружною й еластичною, і з середини третього десятка ви щороку виробляєте його трохи менше. Ось що насправді підтверджують докази, а що — здебільшого маркетинг.",
     "blocks": [

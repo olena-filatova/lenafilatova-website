@@ -12,7 +12,7 @@ export default {
     "title": "‘Fibremaxxing’ went mainstream — the gap it points at is real, the numbers it quotes are not",
     "seoTitle": "Fibremaxxing: How Much Fibre Do You Actually Need?",
     "metaDesc": "UK adults average 19.7g of fibre a day against a 30g target — but fibremaxxing pushes 50–100g, and nothing above 40g has been properly studied.",
-    "excerpt": "The trend is right that most of us eat far too little fibre: only 9% of UK adults hit 30g a day. It goes wrong at the top end, where the intakes being promoted have never been tested in humans.",
+    "excerpt": "The trend is right that most of us eat too little fibre — only 9% of UK adults hit 30g a day. It goes wrong at the top end, where the promoted intakes are untested.",
     "meta": "7 September 2026 · 7 min read",
     "lead": "Fibre has become the wellness idea of the year. “Fibremaxxing” — deliberately building fibre into every meal and snack — moved from TikTok to supermarket shelves over the past twelve months. The problem it is responding to is genuine and well documented. The numbers being passed around on top of it are not.",
     "blocks": [
@@ -150,7 +150,7 @@ export default {
     "title": "«Fibremaxxing» став мейнстрімом — проблема, на яку він указує, справжня, а цифри, які він наводить, — ні",
     "seoTitle": "Fibremaxxing: скільки клітковини потрібно насправді",
     "metaDesc": "Дорослі у Британії з’їдають у середньому 19,7 г клітковини на день при нормі 30 г. А тренд пропонує 50–100 г — понад 40 г не досліджували взагалі.",
-    "excerpt": "Тренд має рацію в головному: більшість із нас їсть надто мало клітковини — норми 30 г на день досягають лише 9% дорослих. Помиляється він у верхній частині шкали, де запропоновані обсяги ніколи не перевіряли на людях.",
+    "excerpt": "Тренд має рацію в головному: більшість із нас їсть надто мало клітковини — 30 г на день досягають лише 9% дорослих. Помиляється він у верхній частині шкали.",
     "meta": "7 вересня 2026 · 7 хв читання",
     "lead": "Клітковина стала головною велнес-ідеєю року. «Fibremaxxing» — свідоме додавання клітковини до кожного прийому їжі та перекусу — за останній рік перекочував із TikTok на полиці супермаркетів. Проблема, на яку він реагує, справжня й добре задокументована. А от цифри, які наросли навколо неї, — ні.",
     "blocks": [
