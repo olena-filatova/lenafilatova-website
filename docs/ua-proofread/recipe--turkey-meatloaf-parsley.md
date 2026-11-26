@@ -1,7 +1,7 @@
 # recipe--turkey-meatloaf-parsley
 
 Last checked: 2026-11-26 (second cycle; previously 2026-10-16, PR #402)
-PR: (this PR — `UA proofread: recipe--turkey-meatloaf-parsley, recipe--chocolate-cake-nut-cream`)
+PR: https://github.com/olena-filatova/lenafilatova-website/pull/620
 
 Notes: 8 fixes. Anglicism «мітлоф» (title, imgAlt, why) → «м’ясний хлібець»;
 «з вкрапленнями» → «із вкрапленнями» (euphony), «тарілка з обідком» → «з бортиком»;
