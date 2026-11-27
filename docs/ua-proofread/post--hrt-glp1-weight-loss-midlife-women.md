@@ -1,5 +1,5 @@
 # post--hrt-glp1-weight-loss-midlife-women
 
-- Last checked: 2026-10-15
+- Last checked: 2026-11-24
 - PR: (this PR)
-- Notes: 5 fixes. `metaDesc` had quietly dropped "new" and "midlife" from the EN version (`excerpt` kept both) — restored so the meta description matches the article's own framing. `imageAlt` missed "early" from "early morning light" — now "у світлі раннього ранку". One calque-y sentence about why hormone-therapy users might lose more weight regardless of the drug ("можуть відрізнятися й тим, що само собою допомагає з вагою") rewritten for natural syntax and to restore "regardless" (незалежно від лікування), which had been dropped. One sentence missing its verb ("то через Ваші симптоми") given one ("це буде через Ваші симптоми"). "ніхто не може пообіцяти" was missing "you" (Вам) that the EN has ("promise you"). No factual, numeric, or structural changes.
+- Notes: 27 fixes (second cycle). `seoTitle` «утримався» (= held back) → «втримався» (= held). "Much larger look" rendered as ambiguous «більше дослідження» → «масштабніше дослідження» (3×). Calques rewritten: «тримають усе в пропорції», «дивиться назад на записи», «тут немає на чому діяти», «пул в 400», «варта уваги» for "worth sitting with". "Sustained" → «стійкою», not comparative «стійкішою» (2×). Tense clash in `excerpt` fixed and excerpt brought back under 170 (169). «щорічна зустріч» → «щорічна конференція» (Annual Meeting, 2×). No numbers, links or structure changed.

@@ -11,7 +11,7 @@ export default {
     "title": "One in three women over 35 can’t tell whether they’re in perimenopause — and worse symptoms don’t make it clearer",
     "seoTitle": "1 in 3 Women Unsure They’re in Perimenopause — 2026 Study",
     "metaDesc": "A 2026 study in Menopause of 7,640 US women found 34% can’t tell whether they’re in perimenopause — peaking at 42% at ages 40–44. Why, and what actually helps.",
-    "excerpt": "A mixed-methods study of 7,640 US women in Menopause found 34% are unsure whether they’re in perimenopause — peaking at 42% at ages 40–44. The main driver isn’t lack of interest: it’s that the symptoms look like everything else.",
+    "excerpt": "A study of 7,640 US women found 34% are unsure whether they’re in perimenopause — 42% at ages 40–44. The reason isn’t indifference: the symptoms look like everything.",
     "meta": "8 August 2026 · 3 min read",
     "lead": "Perimenopause has never had more airtime — podcasts, books, celebrity interviews. Yet when researchers asked over 7,600 US women a simple question — are you in it? — one in three couldn’t say.",
     "blocks": [
@@ -98,8 +98,8 @@ export default {
     "imageAlt": "Жінка в халаті з горнятком у руках дивиться у вікно, залите дощем.",
     "title": "Кожна третя жінка після 35 не може сказати, чи в неї перименопауза — і сильніші симптоми не додають ясності",
     "seoTitle": "Кожна третя жінка не знає, чи в неї перименопауза",
-    "metaDesc": "Дослідження 2026 року в журналі Menopause: 34% із 7 640 американок не можуть визначити, чи вони в перименопаузі — пік 42% у 40–44 роки. Чому так і що насправді допомагає.",
-    "excerpt": "Кількісно-якісне дослідження за участю 7 640 американок у журналі Menopause: 34% не впевнені, чи вони в перименопаузі — пік 42% у віці 40–44. Головна причина — не байдужість, а те, що симптоми схожі на все інше.",
+    "metaDesc": "Дослідження 2026 року в журналі Menopause: 34% із 7 640 американок не можуть визначити, чи вони в перименопаузі — пік 42% у 40–44 роки. Чому так.",
+    "excerpt": "Дослідження 7 640 американок у журналі Menopause: 34% не впевнені, чи вони в перименопаузі — пік 42% у віці 40–44. Причина не байдужість, а схожість симптомів.",
     "meta": "8 серпня 2026 · 3 хв читання",
     "lead": "Про перименопаузу ще ніколи не говорили так багато — подкасти, книжки, інтерв’ю зірок. Та коли дослідники поставили понад 7 600 американкам просте запитання — а ви зараз у ній? — кожна третя не змогла відповісти.",
     "blocks": [

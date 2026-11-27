@@ -14,7 +14,7 @@ export default {
     "title": "Type 2 diabetes is rising twice as fast in women under 40 — and care hasn’t caught up",
     "seoTitle": "Type 2 Diabetes Rising Fast in Women Under 40",
     "metaDesc": "A 2026 review argues diabetes care treats women as if hormones don’t matter — even as type 2 rises twice as fast in women under 40. Why the gap persists.",
-    "excerpt": "A major 2026 Medscape clinical review argues diabetes care still treats women as if hormones don’t matter, even as type 2 diabetes rises twice as fast in women under 40 than in men.",
+    "excerpt": "A 2026 Medscape clinical review argues diabetes care still treats women as if hormones don’t matter, even as type 2 diabetes rises twice as fast in women under 40.",
     "meta": "17 July 2026 · 3 min read",
     "lead": "Diabetes guidelines are largely written as if one protocol fits everyone. A major 2026 clinical review argues that’s a problem — and that it’s costing younger women in particular.",
     "blocks": [
@@ -72,8 +72,8 @@ export default {
     "imageAlt": "Жінка із сенсором глюкози на плечі тримає телефон у другій руці.",
     "title": "Діабет 2 типу серед жінок до 40 поширюється вдвічі швидше — а медична допомога за цим не встигає",
     "seoTitle": "Діабет 2 типу стрімко поширюється серед жінок до 40",
-    "metaDesc": "Огляд 2026 року: медицина лікує діабет так, ніби гормони не мають значення, — хоча серед жінок до 40 діабет 2 типу поширюється вдвічі швидше. Чому розрив зберігається.",
-    "excerpt": "Великий клінічний огляд Medscape 2026 року стверджує: лікування діабету досі вибудоване так, ніби гормони не мають значення, хоча серед жінок до 40 захворюваність на діабет 2 типу зростає вдвічі швидше, ніж серед чоловіків.",
+    "metaDesc": "Огляд 2026 року: медицина лікує діабет так, ніби гормони не мають значення, хоча серед жінок до 40 діабет 2 типу поширюється вдвічі швидше.",
+    "excerpt": "Клінічний огляд Medscape 2026 року: лікування діабету досі вибудоване так, ніби гормони не мають значення, хоча серед жінок до 40 діабет 2 типу зростає вдвічі швидше.",
     "meta": "17 липня 2026 · 3 хв читання",
     "lead": "Рекомендації щодо діабету здебільшого написані так, ніби один протокол підходить усім. Великий клінічний огляд 2026 року стверджує, що це проблема — і що вона особливо дорого коштує молодшим жінкам.",
     "blocks": [

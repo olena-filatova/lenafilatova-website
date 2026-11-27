@@ -21,7 +21,7 @@ export default {
     "title": "Hot flush or rosacea? The redness that stops fading — and why it often settles after menopause",
     "seoTitle": "Hot Flush or Rosacea? Telling Menopause Redness Apart",
     "metaDesc": "When facial redness stops fading after a hot flush, it may be rosacea. How to tell them apart, what the evidence says about HRT, and the type 1 diabetes link.",
-    "excerpt": "A flush fades; rosacea doesn’t. That one difference is how UK guidance tells them apart — and it matters, because the thing most often blamed for the redness turns out not to be the thing the evidence points at.",
+    "excerpt": "A flush fades; rosacea doesn’t. That difference is how UK guidance tells them apart — and the thing most often blamed for the redness isn’t what the evidence points at.",
     "meta": "31 October 2026 · 11 min read",
     "lead": "Your cheeks go red, as they have for a year or two now. The difference is that lately they stay red. That shift — from something that comes and goes to something that is simply there — is the single most useful thing to notice, and it is also how a UK doctor would start telling the two apart.",
     "blocks": [
@@ -245,7 +245,7 @@ export default {
     "title": "Прилив чи розацеа? Червоність, яка перестала згасати — і чому після менопаузи вона часто вгамовується",
     "seoTitle": "Прилив чи розацеа: як розрізнити",
     "metaDesc": "Коли червоність після приливу перестає згасати, це може бути розацеа. Як їх розрізнити, що кажуть дослідження про ЗГТ і який зв’язок із діабетом 1 типу.",
-    "excerpt": "Прилив згасає; розацеа — ні. Саме за цією відмінністю їх і розрізняють британські рекомендації. І це важливо, бо те, на що найчастіше списують червоність, — зовсім не те, на що вказують дослідження.",
+    "excerpt": "Прилив згасає; розацеа — ні. Саме за цією відмінністю їх розрізняють британські рекомендації. І те, на що найчастіше списують червоність, — не те, на що вказують дані.",
     "meta": "31 жовтня 2026 · 9 хв читання",
     "lead": "Щоки червоніють — як і останні рік-два. Різниця в тому, що останнім часом вони так і залишаються червоними. Саме ця зміна — від того, що приходить і минає, до того, що просто є, — найважливіше, що варто помітити. І саме з неї британський лікар почав би їх розрізняти.",
     "blocks": [

@@ -12,7 +12,7 @@ export default {
     "title": "Type 2 diabetes is linked to heavier menopause symptoms, a Korean study finds",
     "seoTitle": "Type 2 Diabetes Linked to Worse Menopause Symptoms",
     "metaDesc": "A study of 296 Korean women found those with type 2 diabetes reported more numerous, more severe menopause symptoms — clearest after menopause. What it means.",
-    "excerpt": "A new study of 296 women aged 40–64 found those with type 2 diabetes or prediabetes reported more numerous and more severe menopause symptoms than women without — with the clearest difference after menopause.",
+    "excerpt": "A study of 296 women aged 40–64 found those with type 2 diabetes or prediabetes reported more and more severe menopause symptoms — clearest after menopause.",
     "meta": "10 August 2026 · 3 min read",
     "lead": "Diabetes care and menopause care usually happen in separate appointments, if the second one happens at all. A new study published in Menopause suggests they belong in the same conversation — because women with type 2 diabetes appear to carry a heavier symptom load through the transition.",
     "blocks": [
@@ -100,8 +100,8 @@ export default {
     "imageAlt": "Жінка сидить на дивані й обмахується яскраво-помаранчевим віялом.",
     "title": "Діабет 2 типу пов’язаний із важчими симптомами менопаузи — корейське дослідження",
     "seoTitle": "Діабет 2 типу та важчі симптоми менопаузи",
-    "metaDesc": "Дослідження за участю 296 кореянок: у жінок із діабетом 2 типу симптомів менопаузи більше і вони важчі — найпомітніше після менопаузи. Що це означає на практиці.",
-    "excerpt": "Нове дослідження за участю 296 жінок віком 40–64 роки показало: ті, хто має діабет 2 типу або предіабет, повідомляли про більшу кількість симптомів менопаузи, і ці симптоми були важчими — найчіткіше різниця проявлялася після менопаузи.",
+    "metaDesc": "Дослідження 296 кореянок: у жінок із діабетом 2 типу симптомів менопаузи більше і вони важчі — найпомітніше після менопаузи.",
+    "excerpt": "Дослідження 296 жінок віком 40–64 роки: ті, хто має діабет 2 типу або предіабет, повідомляли про більше симптомів менопаузи, і важчих — найчіткіше після менопаузи.",
     "meta": "10 серпня 2026 · 3 хв читання",
     "lead": "Діабетом і менопаузою зазвичай опікуються в різних кабінетах — якщо до другого взагалі доходить. Нове дослідження, опубліковане в журналі Menopause, свідчить, що обговорювати їх варто разом: жінки з діабетом 2 типу, схоже, переносять перехідний період із важчими симптомами.",
     "blocks": [

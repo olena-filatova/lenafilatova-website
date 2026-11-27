@@ -18,7 +18,7 @@ export default {
     "title": "Does the drug industry actually want a cure for type 1 diabetes?",
     "seoTitle": "Is Pharma Hiding a Type 1 Diabetes Cure?",
     "metaDesc": "Many with type 1 believe pharma profits too much from insulin to want a cure. I followed the money — the accounts, the deals, and what the NHS now funds.",
-    "excerpt": "They will never cure it — there is too much money in insulin. It is one of the most common things people with type 1 say to me. It is also a claim about business, and business leaves a paper trail. So I went and read it.",
+    "excerpt": "They will never cure it — there is too much money in insulin. It is also a claim about business, and business leaves a paper trail. So I went and read it.",
     "meta": "26 August 2026 · 18 min read",
     "lead": "“They will never cure it. There is too much money in insulin.” It is one of the most common things people with type 1 say to me — usually quietly, usually once they trust me enough. I understand why it lands. But it is a claim about business, and business leaves a paper trail: company accounts, what firms buy, what they quietly walk away from. So I went and read the trail.",
     "blocks": [
@@ -363,7 +363,7 @@ export default {
     "title": "Чи справді фармкомпанії хочуть вилікувати діабет 1 типу?",
     "seoTitle": "Чи приховує фарма ліки від діабету 1 типу?",
     "metaDesc": "Багато людей з діабетом 1 типу вважають, що фармі надто вигідний інсулін. Я пройшла за грошима — звітність, угоди і те, що вже оплачує NHS.",
-    "excerpt": "Його ніколи не вилікують — на інсуліні надто багато грошей. Це одна з найчастіших фраз, які я чую від людей із діабетом 1 типу. Але це твердження про бізнес, а бізнес залишає паперовий слід. Тож я його прочитала.",
+    "excerpt": "«Його ніколи не вилікують — на інсуліні надто багато грошей». Але це твердження про бізнес, а бізнес залишає паперовий слід. Тож я його прочитала.",
     "meta": "26 серпня 2026 · 18 хв читання",
     "lead": "«Його ніколи не вилікують. На інсуліні надто багато грошей». Це одна з найчастіших фраз, які я чую від людей із діабетом 1 типу — зазвичай тихо й зазвичай тоді, коли мені вже досить довіряють. Я розумію, чому вона звучить переконливо. Але це твердження про бізнес, а бізнес залишає паперовий слід: фінансова звітність, те, що компанії купують, і те, від чого тихо йдуть. Тож я цей слід прочитала.",
     "blocks": [

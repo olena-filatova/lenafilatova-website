@@ -15,7 +15,7 @@ export default {
     "title": "Your smartwatch can help spot insulin resistance — but it still can’t do it alone",
     "seoTitle": "Can a Smartwatch Spot Insulin Resistance? What Nature Found",
     "metaDesc": "Google’s WEAR-ME study in Nature trained a model on smartwatch data to flag insulin resistance. What it actually achieved — and what the headlines left out.",
-    "excerpt": "A study of 1,165 people in Nature trained a model on Fitbit data and routine bloods to flag insulin resistance. It works — but the watch on its own is the weakest part of it.",
+    "excerpt": "A study of 1,165 people in Nature trained a model on Fitbit data and routine bloods to flag insulin resistance. The watch on its own is the weakest part.",
     "meta": "30 August 2026 · 6 min read",
     "lead": "“Smartwatches can now predict diabetes before it starts” has been doing the rounds since March. The study underneath it is real, careful and genuinely interesting — and it does not say that.",
     "blocks": [
@@ -140,8 +140,8 @@ export default {
     "imageAlt": "Зап’ястя з фітнес-годинником, кінчик пальця торкається екрана.",
     "title": "Смартгодинник може допомогти виявити інсулінорезистентність — але не самотужки",
     "seoTitle": "Чи виявить смартгодинник інсулінорезистентність?",
-    "metaDesc": "Дослідження WEAR-ME від Google у Nature навчило модель визначати інсулінорезистентність за даними смартгодинника. Що воно справді показало — і чого не кажуть заголовки.",
-    "excerpt": "Дослідження за участю 1165 людей, опубліковане в Nature, навчило модель визначати інсулінорезистентність за даними Fitbit і звичайних аналізів. Воно працює — але сам годинник тут найслабша ланка.",
+    "metaDesc": "Дослідження WEAR-ME від Google у Nature навчило модель визначати інсулінорезистентність за даними смартгодинника. Що воно справді показало.",
+    "excerpt": "Дослідження 1165 людей у Nature навчило модель визначати інсулінорезистентність за даними Fitbit і звичайних аналізів. Сам годинник тут найслабша ланка.",
     "meta": "30 серпня 2026 · 6 хв читання",
     "lead": "«Смартгодинники тепер передбачають діабет ще до його початку» — цей заголовок гуляє мережею з березня. Дослідження під ним справжнє, ретельне й справді цікаве. І воно каже не це.",
     "blocks": [

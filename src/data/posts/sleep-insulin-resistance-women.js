@@ -11,8 +11,8 @@ export default {
     "imageAlt": "An alarm clock on a rumpled bed, with a woman lying awake behind it, one arm over her face.",
     "title": "Ninety minutes less sleep raised insulin resistance by 15% in women",
     "seoTitle": "Short Sleep Raises Insulin Resistance in Women by 15%",
-    "metaDesc": "A randomised crossover trial cut women’s sleep by 90 minutes a night for six weeks. Insulin resistance rose about 15% — and more after menopause — without any change in body fat.",
-    "excerpt": "A randomised trial took 90 minutes a night from women who were sleeping well, for six weeks. Insulin resistance rose about 15% — and the effect did not depend on changes in body fat.",
+    "metaDesc": "A randomised trial cut women’s sleep by 90 minutes a night for six weeks. Insulin resistance rose about 15%, and more after menopause, with no change in fat.",
+    "excerpt": "A randomised trial took 90 minutes a night from women who were sleeping well, for six weeks. Insulin resistance rose about 15% — with no change in body fat.",
     "meta": "2 August 2026 · 4 min read",
     "lead": "Sleep is the health advice most easily deprioritised — the thing you’ll fix once everything else is under control. A randomised trial from Columbia put a number on what that costs women metabolically, and the number is larger than most people expect.",
     "blocks": [
@@ -100,8 +100,8 @@ export default {
     "imageAlt": "Будильник на зім’ятому ліжку, позаду жінка лежить без сну, затуливши обличчя рукою.",
     "title": "Мінус півтори години сну — і інсулінорезистентність у жінок зросла на 15%",
     "seoTitle": "Нестача сну підвищує інсулінорезистентність у жінок на 15%",
-    "metaDesc": "Рандомізоване дослідження шість тижнів скорочувало сон жінок на 90 хвилин щоночі. Інсулінорезистентність зросла приблизно на 15% (після менопаузи — ще більше), хоча жирова маса не змінилася.",
-    "excerpt": "Рандомізоване дослідження на шість тижнів скоротило сон жінок, які добре спали, на 90 хвилин щоночі. Інсулінорезистентність зросла приблизно на 15%, і це не залежало від змін жирової маси.",
+    "metaDesc": "Рандомізоване дослідження шість тижнів скорочувало сон жінок на 90 хвилин щоночі. Інсулінорезистентність зросла приблизно на 15%, хоча жирова маса не змінилася.",
+    "excerpt": "Рандомізоване дослідження шість тижнів скорочувало сон жінок, які добре спали, на 90 хвилин щоночі. Інсулінорезистентність зросла приблизно на 15%.",
     "meta": "2 серпня 2026 · 4 хв читання",
     "lead": "Сон — та порада про здоров’я, яку найлегше відкласти: те, чим ви займетеся, коли решта буде під контролем. Рандомізоване дослідження Колумбійського університету показало в цифрах, скільки це коштує жіночому метаболізму, — і ця цифра більша, ніж зазвичай очікують.",
     "blocks": [

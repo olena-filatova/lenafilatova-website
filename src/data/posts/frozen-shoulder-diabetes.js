@@ -15,7 +15,7 @@ export default {
     "title": "Your shoulder is stiffening and it probably isn’t age: frozen shoulder and diabetes after 40",
     "seoTitle": "Frozen Shoulder and Diabetes: Why the Odds Are 3.7x Higher",
     "metaDesc": "A 2026 meta-analysis puts the odds of frozen shoulder 3.69x higher with diabetes. The early signs, why it’s missed after 40, and when to get it seen.",
-    "excerpt": "A 2026 review of studies covering 350,000+ people found nearly four times the odds of frozen shoulder with diabetes — rarely raised, and after 40 put down to hormones or age.",
+    "excerpt": "A 2026 review covering 350,000+ people found nearly four times the odds of frozen shoulder with diabetes — rarely raised, and after 40 put down to hormones or age.",
     "meta": "19 August 2026 · 13 min read",
     "lead": "You have been telling yourself it’s a pulled muscle. But the bra fastening has become a two-handed negotiation, the seatbelt is a manoeuvre, and lying on that side at night is out of the question. Pulled muscles get better. This is getting worse — and if you have diabetes, the odds that it has a name are close to four times higher than they would be otherwise.",
     "blocks": [
@@ -340,7 +340,7 @@ export default {
     "title": "Плече дерев’яніє — і справа, найімовірніше, не у віці: заморожене плече та діабет після 40",
     "seoTitle": "Заморожене плече й діабет: шанси майже вчетверо вищі",
     "metaDesc": "Метааналіз 2026 року: при діабеті шанси на заморожене плече у 3,69 раза вищі. Ранні ознаки, чому це пропускають після 40 і коли йти до лікаря.",
-    "excerpt": "Огляд 2026 року (дослідження понад 350 000 людей): при діабеті шанси на заморожене плече майже вчетверо вищі. Про це мовчать, а в жінок за 40 це списують на гормони чи вік.",
+    "excerpt": "Огляд 2026 року (понад 350 000 людей): при діабеті шанси на заморожене плече майже вчетверо вищі. Про це мовчать, а в жінок за 40 списують на гормони чи вік.",
     "meta": "19 серпня 2026 · 12 хв читання",
     "lead": "Ви переконуєте себе, що просто потягнули м’яз. Але застібнути бюстгальтер за спиною стало окремою операцією, ремінь безпеки — маневром, а лягти на цей бік уночі неможливо. Потягнуті м’язи минають. Це не минає, а гіршає — і якщо у вас діабет, шанси, що в цього стану є назва, майже вчетверо вищі, ніж у людей без діабету.",
     "blocks": [

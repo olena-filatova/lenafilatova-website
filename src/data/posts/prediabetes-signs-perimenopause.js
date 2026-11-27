@@ -24,7 +24,7 @@ export default {
     "title": "Prediabetes signs in perimenopause that get mistaken for “just hormones”",
     "seoTitle": "Prediabetes Signs in Perimenopause, Not Just Hormones",
     "metaDesc": "The blood sugar signs perimenopause hides, why they overlap with hormone symptoms, and what to ask your GP for. General information, not diagnosis.",
-    "excerpt": "Fatigue, a thicker middle, broken sleep, a shorter fuse — perimenopause explains all of it, and so does early insulin resistance. Here is where the two stories actually diverge, and how to ask for a test.",
+    "excerpt": "Fatigue, a thicker middle, broken sleep, a shorter fuse — perimenopause explains all of it, and so does early insulin resistance. Where the two stories diverge.",
     "meta": "23 August 2026 · 11 min read",
     "lead": "Perimenopause explains almost every symptom a woman has in her forties. That is exactly what makes it such a good place for something else to hide.",
     "blocks": [
@@ -216,8 +216,8 @@ export default {
     "imageAlt": "Жінка близько сорока стоїть біля світлого вікна з чашкою та блюдцем у руках і дивиться надвір повз кімнатну рослину на підвіконні.",
     "title": "Ознаки предіабету в перименопаузі, які списують на «просто гормони»",
     "seoTitle": "Предіабет у перименопаузі: не «просто гормони»",
-    "metaDesc": "Які ознаки проблем із цукром у крові ховає перименопауза, чому вони збігаються з гормональними симптомами і про що просити лікаря. Загальна інформація, не діагноз.",
-    "excerpt": "Втома, живіт, розбитий сон, дратівливість — усе це пояснює перименопауза. І все це пояснює рання інсулінорезистентність. Ось де ці дві історії справді розходяться і як попросити аналіз.",
+    "metaDesc": "Які ознаки проблем із цукром ховає перименопауза, чому вони збігаються з гормональними симптомами і про що просити лікаря. Не діагноз.",
+    "excerpt": "Втома, живіт, розбитий сон, дратівливість — усе це пояснює перименопауза. І все це пояснює рання інсулінорезистентність. Де ці дві історії розходяться.",
     "meta": "23 серпня 2026 · 10 хв читання",
     "lead": "Перименопауза пояснює майже будь-який симптом жінки після сорока. Саме тому вона — таке зручне місце, щоб сховати щось інше.",
     "blocks": [

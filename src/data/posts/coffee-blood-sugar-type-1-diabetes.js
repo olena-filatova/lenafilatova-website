@@ -12,7 +12,7 @@ export default {
     "title": "Does coffee raise blood sugar with type 1 diabetes? How to test your own response",
     "seoTitle": "Does Coffee Raise Blood Sugar in Type 1 Diabetes?",
     "metaDesc": "Does coffee spike your blood sugar with type 1 diabetes? What caffeine does, why add-ins matter, and a simple CGM experiment to test your own response.",
-    "excerpt": "The honest answer is that nobody has run the study you want. What exists is a handful of small trials, most of them in type 2 diabetes — plus one surprising finding about caffeine and night-time lows.",
+    "excerpt": "Nobody has run the study you want. What exists is a handful of small trials, mostly in type 2 diabetes — plus one surprising finding about caffeine and night-time lows.",
     "meta": "24 October 2026 · 11 min read",
     "lead": "You drink your coffee black. You have taken no insulin for it, because there is nothing in it to take insulin for. And the arrow on your phone is pointing up. This is one of the most common questions I get asked, and the reason it keeps getting asked is that the internet answers it with far more confidence than the research supports. So here is what is actually known, what is not, and — since the honest answer is \"it depends on you\" — how to find out what it does to you specifically, in three mornings.",
     "blocks": [
@@ -281,7 +281,7 @@ export default {
     "title": "Чи піднімає кава цукор у крові при діабеті 1 типу? Як перевірити власну реакцію",
     "seoTitle": "Чи піднімає кава цукор при діабеті 1 типу?",
     "metaDesc": "Чи піднімає кава глюкозу при діабеті 1 типу? Що робить кофеїн, чому важливо, що ви додаєте в чашку, і простий експеримент із CGM, щоб перевірити власну реакцію.",
-    "excerpt": "Чесна відповідь: потрібного вам дослідження ніхто не проводив. Є кілька невеликих випробувань, здебільшого за участю людей із діабетом 2 типу, — і один несподіваний результат про кофеїн і нічні гіпоглікемії.",
+    "excerpt": "Потрібного вам дослідження ніхто не проводив. Є кілька невеликих випробувань, здебільшого при діабеті 2 типу, — і несподіваний результат про кофеїн і нічні гіпоглікемії.",
     "meta": "24 жовтня 2026 · 10 хв читання",
     "lead": "Ви п’єте чорну каву, без молока й цукру. Інсуліну на неї не ставили, бо ставити нема на що. А стрілка на телефоні йде вгору. Це одне з найчастіших запитань, які мені ставлять, і повторюється воно тому, що інтернет відповідає на нього набагато впевненіше, ніж дозволяють дослідження. Тож ось що насправді відомо, чого ми не знаємо, і — оскільки чесна відповідь звучить як «залежить від вас» — як за три ранки з’ясувати, що кава робить саме з вами.",
     "blocks": [

@@ -14,7 +14,7 @@ export default {
     "title": "Menopause symptoms cost the US economy $5.4 billion a year — and that is the conservative estimate",
     "seoTitle": "Menopause Costs the US $5.4bn a Year in Lost Work",
     "metaDesc": "A RAND report puts US lost productivity from menopause symptoms at $5.4bn a year — a deliberate lower bound. Why access to treatment is the policy question.",
-    "excerpt": "A RAND report puts lost productivity from menopause symptoms at $5.4 billion a year in the US — and says that figure deliberately leaves out early retirement, missed promotions and stepping down to a lesser job.",
+    "excerpt": "A RAND report puts lost productivity from menopause symptoms at $5.4 billion a year in the US — and says it deliberately leaves out early retirement and lost promotions.",
     "meta": "18 August 2026 · 4 min read",
     "lead": "Around 30% of women in the US labour force are between 45 and 60 — the years most associated with menopause. That is not a niche group, and what their symptoms cost at work now has a number attached to it.",
     "blocks": [
@@ -116,8 +116,8 @@ export default {
     "imageAlt": "Жінка років п’ятдесяти працює за ноутбуком і робить нотатки.",
     "title": "Симптоми менопаузи коштують економіці США 5,4 мільярда доларів на рік — і це консервативна оцінка",
     "seoTitle": "Менопауза: США втрачають 5,4 млрд доларів на рік на роботі",
-    "metaDesc": "Звіт RAND оцінює втрати продуктивності від симптомів менопаузи у США в 5,4 млрд доларів на рік — і це навмисно занижена межа. Чому ключове питання для політики — доступ до лікування.",
-    "excerpt": "Звіт RAND оцінює втрати продуктивності через симптоми менопаузи у 5,4 мільярда доларів на рік у США — і зазначає, що ця цифра свідомо не враховує ранній вихід на пенсію, втрачені підвищення та перехід на нижчу посаду.",
+    "metaDesc": "Звіт RAND: втрати продуктивності від симптомів менопаузи в США — 5,4 млрд доларів на рік, і це навмисно занижена межа. Головне питання — доступ до лікування.",
+    "excerpt": "Звіт RAND оцінює втрати продуктивності через симптоми менопаузи у 5,4 мільярда доларів на рік у США — і зазначає, що цифра свідомо не враховує ранній вихід на пенсію.",
     "meta": "18 серпня 2026 · 4 хв читання",
     "lead": "Близько 30% жінок у складі робочої сили США мають від 45 до 60 років — саме той вік, який найбільше асоціюється з менопаузою. Це не нішева група, і тепер відомо, у скільки обходяться їхні симптоми на роботі.",
     "blocks": [

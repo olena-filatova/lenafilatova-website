@@ -11,7 +11,7 @@ export default {
     "title": "Semaglutide and muscle: the line SEMALEAN’s own summary leaves out",
     "seoTitle": "SEMALEAN: The Line Its Own Summary Leaves Out",
     "metaDesc": "SEMALEAN is quoted everywhere as proof semaglutide spares muscle. Its results section says the lean-mass loss was significantly greater in women than men.",
-    "excerpt": "The SEMALEAN study is the one everybody cites to show semaglutide protects muscle. Read past the abstract and it says the lean-mass loss was significantly greater in women than in men.",
+    "excerpt": "SEMALEAN is the study everybody cites to show semaglutide protects muscle. Read past the abstract and lean-mass loss was significantly greater in women than in men.",
     "meta": "23 September 2026 · 6 min read",
     "lead": "There is a study doing a lot of work in the argument that GLP-1 drugs spare muscle. It is called SEMALEAN, it has been quoted twice on this site already, and it is now out in full. The full version contains a sentence the summary does not.",
     "blocks": [
@@ -115,7 +115,7 @@ export default {
     "title": "Семаглутид і м’язи: рядок, якого немає в короткому викладі дослідження SEMALEAN",
     "seoTitle": "SEMALEAN: рядок, якого немає в короткому викладі",
     "metaDesc": "SEMALEAN цитують як доказ, що семаглутид зберігає м’язи. У розділі результатів написано: втрата м’язової маси була суттєво більшою в жінок, ніж у чоловіків.",
-    "excerpt": "SEMALEAN — те саме дослідження, яким усі доводять, що семаглутид зберігає м’язи. Якщо читати далі за короткий виклад, там сказано: втрата м’язової маси була суттєво більшою в жінок, ніж у чоловіків.",
+    "excerpt": "SEMALEAN — те дослідження, яким усі доводять, що семаглутид зберігає м’язи. Якщо читати далі за виклад, втрата м’язової маси була суттєво більшою в жінок.",
     "meta": "23 вересня 2026 · 6 хв читання",
     "lead": "Є дослідження, на якому чимало тримається твердження, що препарати GLP-1 зберігають м’язи. Воно називається SEMALEAN, на цьому сайті його вже двічі цитували, і тепер опубліковано його повний текст. У повній версії є речення, якого немає в короткому викладі.",
     "blocks": [

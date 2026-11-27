@@ -13,7 +13,7 @@ export default {
     "title": "Women lose more weight on GLP-1 drugs than men — the JAMA Internal Medicine review puts a number on it",
     "seoTitle": "GLP-1: Women Lose More Than Men — JAMA Review",
     "metaDesc": "A JAMA Internal Medicine review found women lost 10.9% of body weight on GLP-1 drugs versus 6.8% for men. What that gap does and does not mean.",
-    "excerpt": "A Johns Hopkins review of 64 randomised trials found women lost 10.9% of their body weight on GLP-1 drugs against 6.8% for men. Its main finding, though, was how little else made any difference.",
+    "excerpt": "A Johns Hopkins review of 64 trials found women lost 10.9% of their body weight on GLP-1 drugs against 6.8% for men. How little else mattered was the main finding.",
     "meta": "12 August 2026 · 5 min read",
     "lead": "That women tend to lose more weight than men on GLP-1 medicines is not new — it has turned up repeatedly in trial data, and it is something this site has written about before. What is new is the size of the dataset behind the claim, and a number attached to it. It is also worth knowing what the researchers themselves emphasised, because it is close to the opposite of how the finding has been reported.",
     "blocks": [
@@ -107,7 +107,7 @@ export default {
     "title": "Жінки втрачають на препаратах GLP-1 більше ваги, ніж чоловіки — цифри з огляду JAMA Internal Medicine",
     "seoTitle": "GLP-1: жінки худнуть більше — огляд JAMA",
     "metaDesc": "Огляд у JAMA Internal Medicine: жінки втратили 10,9% ваги на препаратах GLP-1 проти 6,8% у чоловіків. Що ця різниця означає, а що — ні.",
-    "excerpt": "Огляд 64 рандомізованих досліджень, проведений в Університеті Джонса Гопкінса, показав: жінки втратили 10,9% ваги на препаратах GLP-1 проти 6,8% у чоловіків. Але головним висновком було те, наскільки мало важило все інше.",
+    "excerpt": "Огляд 64 рандомізованих досліджень (Університет Джонса Гопкінса): жінки втратили 10,9% ваги на GLP-1 проти 6,8% у чоловіків. Головне — наскільки мало важило все інше.",
     "meta": "12 серпня 2026 · 5 хв читання",
     "lead": "Те, що жінки зазвичай втрачають більше ваги на препаратах GLP-1, ніж чоловіки, — не новина: це вже не раз траплялося в даних досліджень, і на цьому сайті про це вже писали. Новим є обсяг даних, що стоять за цим твердженням, і конкретна цифра. Варто також знати, на чому наголосили самі дослідники, бо це майже протилежне тому, як цей результат подали в новинах.",
     "blocks": [

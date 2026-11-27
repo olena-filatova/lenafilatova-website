@@ -22,7 +22,7 @@ export default {
     "imageAlt": "Rain running down a window pane on a flat grey day, a bare tree just visible through the glass.",
     "title": "Vitamin D and insulin resistance in perimenopause: what the UK data actually shows",
     "seoTitle": "Vitamin D and Insulin Resistance in Perimenopause",
-    "metaDesc": "You can’t make enough vitamin D in a British winter. Here’s what the trials actually show about its link to insulin resistance — and the dose the NHS recommends.",
+    "metaDesc": "You can’t make enough vitamin D in a British winter. What the trials show about its link to insulin resistance — and the dose the NHS recommends.",
     "excerpt": "From October to March, UK sunlight is too weak for your skin to make enough vitamin D. That’s latitude, not a failing. What the trials found, and how big the effect is.",
     "meta": "4 September 2026 · 10 min read",
     "lead": "Pooling the three randomised trials built to answer this, vitamin D cut the risk of developing type 2 diabetes by 15 per cent in people with prediabetes — an absolute 3.3 percentage points over three years. That is a real effect and a modest one. Here is what it means for a UK woman heading into her fourth dark winter, and where vitamin D actually sits among the things that move blood sugar.",

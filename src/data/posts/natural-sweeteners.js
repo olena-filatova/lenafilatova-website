@@ -11,7 +11,7 @@ export default {
     "title": "What to replace sugar with: the evidence on sweeteners",
     "seoTitle": "Sugar Swaps: The Evidence on Natural Sweeteners",
     "metaDesc": "What the research really says about stevia, monk fruit, allulose, erythritol, xylitol, sucralose, aspartame, honey and agave for blood sugar and health.",
-    "excerpt": "Stevia, monk fruit, allulose, erythritol, xylitol, sucralose, aspartame, honey and agave — what current research actually shows about sweeteners for blood sugar and health.",
+    "excerpt": "Stevia, monk fruit, allulose, erythritol, xylitol, sucralose, aspartame, honey and agave — what current research shows about sweeteners for blood sugar and health.",
     "meta": "9 July 2026 · 15 min read",
     "lead": "When I first wrote about natural sweeteners, the story felt settled: stevia and the sugar alcohols were the “safe” choices, and the main thing to get right was taste. The research has moved on since then — in places, dramatically.",
     "blocks": [

@@ -15,7 +15,7 @@ export default {
     "title": "Type 1 diabetes cure research: the trials worth following in 2026",
     "seoTitle": "Type 1 Diabetes Cure: What’s Actually Working in 2026",
     "metaDesc": "Some people in type 1 trials have lived years without insulin. An honest, verified guide to the cure research worth following — and how to join a trial.",
-    "excerpt": "For the first time, people in trials are living without insulin for years. Here’s an honest, verified map of the type 1 cure research worth following — and how to follow or join it.",
+    "excerpt": "For the first time, people in trials are living without insulin for years. An honest, verified map of the type 1 cure research worth following — and how to join it.",
     "meta": "19 July 2026 · 9 min read",
     "lead": "A cure for type 1 diabetes has been “five years away” for as long as many of us have lived with it. But something has genuinely shifted. For the first time, people in trials are living without insulin — not for a week, but for years. Here is an honest map of the research actually worth following, and how to follow or even join it yourself.",
     "blocks": [
@@ -218,7 +218,7 @@ export default {
     "imageAlt": "Лікарка бере кров із пальця в дівчинки, поруч сидить її мама.",
     "title": "Пошуки ліків від діабету 1 типу: дослідження, за якими варто стежити у 2026 році",
     "seoTitle": "Ліки від діабету 1 типу: що справді працює у 2026 році",
-    "metaDesc": "Деякі учасники досліджень діабету 1 типу вже роками живуть без інсуліну. Чесний, перевірений путівник дослідженнями ліків, за якими варто стежити, — і як узяти в них участь.",
+    "metaDesc": "Деякі учасники досліджень діабету 1 типу вже роками живуть без інсуліну. Чесний путівник дослідженнями, за якими варто стежити, — і як узяти в них участь.",
     "excerpt": "Уперше люди в дослідженнях живуть без інсуліну роками. Ось чесна, перевірена карта досліджень щодо лікування діабету 1 типу — і як за ними стежити чи долучитися.",
     "meta": "19 липня 2026 · 11 хв читання",
     "lead": "Про ліки від діабету 1 типу кажуть «ще років п’ять» стільки, скільки багато хто з нас живе з цим діагнозом. Але щось справді змінилося. Уперше люди в дослідженнях живуть без інсуліну — не тиждень, а роками. Ось чесна карта досліджень, які справді варті уваги, — і як стежити за ними чи навіть узяти в них участь.",

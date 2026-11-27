@@ -17,7 +17,7 @@ export default {
     "title": "GLP-1 drugs after 40: what we actually know, and why the headlines keep contradicting each other",
     "seoTitle": "GLP-1 Drugs After 40: What the Evidence Shows",
     "metaDesc": "Seven GLP-1 studies read side by side. Most contradictions are differences in who was measured — all in one place, with how strong each finding is.",
-    "excerpt": "One study says GLP-1 drugs burn fat, not muscle; another, that a quarter to 40% of the loss is muscle. They were answering different questions, about different women. Here’s all of it.",
+    "excerpt": "One study says GLP-1 drugs burn fat, not muscle; another, that a quarter to 40% of the loss is muscle. Different questions, different women. Here’s all of it.",
     "meta": "21 August 2026 · 12 min read",
     "lead": "I have written about GLP-1 drugs seven times in six weeks, and if you read those posts back to back you would be forgiven for thinking the research is a mess. One says the weight coming off is mostly fat. The next says a quarter to 40% of it is muscle. A third says that losing the weight costs you bone that you will not get back. They sound like they are contradicting each other. Almost none of them actually are — and the reason why is more useful than any single finding.",
     "blocks": [
@@ -341,7 +341,7 @@ export default {
     "title": "Препарати GLP-1 після 40: що ми насправді знаємо — і чому заголовки постійно суперечать одне одному",
     "seoTitle": "GLP-1 після 40: що насправді кажуть дослідження",
     "metaDesc": "Сім досліджень GLP-1 поруч. Більшість суперечностей — це різниця в тому, кого вимірювали. Усе в одному місці, з оцінкою надійності кожного висновку.",
-    "excerpt": "Одне дослідження каже, що GLP-1 спалюють жир, а не м’язи, інше — що від чверті до 40% втраченого — це м’язи. Вони відповідали на різні запитання про різних жінок. Тут усе разом.",
+    "excerpt": "Одне дослідження каже, що GLP-1 спалюють жир, а не м’язи, інше — що від чверті до 40% втраченого це м’язи. Різні запитання, різні жінки. Тут усе разом.",
     "meta": "21 серпня 2026 · 12 хв читання",
     "lead": "Я писала про препарати GLP-1 сім разів за шість тижнів, і якщо прочитати ці матеріали поспіль, легко вирішити, що в дослідженнях панує хаос. Один каже, що втрачена вага — це переважно жир. Наступний — що від чверті до 40% це м’язи. Третій — що разом із вагою ви втрачаєте кісткову масу, яка вже не повернеться. Здається, ніби вони суперечать одне одному. Майже жодне з них насправді не суперечить — і причина корисніша за будь-який окремий результат.",
     "blocks": [

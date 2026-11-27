@@ -1,5 +1,5 @@
 # recipe--chewy-gummies
 
-- Last checked: 2026-10-13
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/379
-- Notes: 2 fixes — UA title was missing "lemon" (omission vs EN); one method step used a calque ("для швидкості") instead of the site's established "пришвидшити" pattern used elsewhere in this file (see marshmallow-zefir).
+- Last checked: 2026-11-23 (second cycle; previously 2026-10-13)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/607
+- Notes: 4 fixes — calque «весела… солодкість» (EN "a fun sweet") → «веселі ласощі»; "whisk" mistranslated as «збийте» → «перемішайте вінчиком»; «прогрійте до однорідності» → «прогрівайте, доки маса не стане однорідною»; subjectless «Коли застигне» → «Коли цукерки застигнуть, вийміть їх». Numbers and `en` untouched.

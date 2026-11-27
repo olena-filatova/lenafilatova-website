@@ -11,8 +11,8 @@ export default {
     "imageAlt": "A woman outdoors at sunset scanning the glucose sensor on her upper arm with her phone.",
     "title": "The 2026 diabetes guidelines back GLP-1 drugs in type 1 diabetes for the first time",
     "seoTitle": "GLP-1 Drugs Enter Type 1 Diabetes Guidelines — 2026 ADA",
-    "metaDesc": "The 2026 ADA Standards of Care endorse GLP-1 drugs for adults with type 1 diabetes and obesity — a first. What changed, the caveats, and why it matters for women.",
-    "excerpt": "For the first time, the ADA’s 2026 Standards of Care back GLP-1 medicines to manage obesity in adults with type 1 diabetes. Here’s what changed — and what it means for women with T1D.",
+    "metaDesc": "The 2026 ADA Standards of Care endorse GLP-1 drugs for adults with type 1 diabetes and obesity — a first. What changed, and why it matters for women.",
+    "excerpt": "For the first time, the ADA’s 2026 Standards of Care back GLP-1 medicines for obesity in adults with type 1 diabetes. What changed, and what it means for women with T1D.",
     "meta": "24 July 2026 · 4 min read",
     "lead": "For years the diabetes guidelines kept GLP-1 drugs firmly on the type 2 side of the ledger. The 2026 update quietly changes that — and for women with type 1 diabetes, the reasons it matters go beyond the headline.",
     "blocks": [
@@ -117,7 +117,7 @@ export default {
     "title": "Настанови з діабету 2026 року вперше підтримують препарати GLP-1 при діабеті 1 типу",
     "seoTitle": "GLP-1 у настановах при діабеті 1 типу — ADA 2026",
     "metaDesc": "Стандарти ADA 2026 вперше підтримують препарати GLP-1 для дорослих із діабетом 1 типу та ожирінням. Що змінилося, застереження і чому це важливо для жінок.",
-    "excerpt": "Уперше Стандарти медичної допомоги ADA 2026 підтримують препарати GLP-1 для контролю ожиріння в дорослих із діабетом 1 типу. Що змінилося — і що це означає для жінок із ЦД1.",
+    "excerpt": "Уперше Стандарти медичної допомоги ADA 2026 підтримують препарати GLP-1 при ожирінні в дорослих із діабетом 1 типу. Що змінилося і що це означає для жінок із ЦД1.",
     "meta": "24 липня 2026 · 4 хв читання",
     "lead": "Роками настанови з діабету відводили препаратам GLP-1 місце суто в лікуванні діабету 2 типу. Оновлення 2026 року непомітно це змінює — і для жінок із діабетом 1 типу значення цієї зміни не обмежується заголовком.",
     "blocks": [
