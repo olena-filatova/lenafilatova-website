@@ -1,9 +1,8 @@
 # recipe--pumpkin-yogurt
 
-- Last checked: 2026-10-17
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/409
-- Notes: 1 grammar fix. "тримають цукор стабільним усе ранок" → "...цілий ранок" —
-  "усе" is the neuter form of весь/увесь and does not agree with the masculine
-  noun "ранок" (should be "весь"/"цілий ранок"). Rest of the UA text (title, why,
-  nutrition, meta, ingredients, method, note) checked against EN and against
-  site terminology — no other issues.
+- Last checked: 2026-11-27
+- PR: PR_LINK
+- Notes: 4 fixes (2nd cycle). «звичайний» → «натуральний» йогурт (plain; matches the
+  ingredient list); calque «тримають цукор стабільним» rewritten; «звареним вівсом»
+  (cooked oats) → «з кашею з вівса, пшона чи амаранту»; «просто з морозилки» →
+  «одразу з морозилки».

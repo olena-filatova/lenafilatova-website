@@ -1153,23 +1153,23 @@ export const RECIPES = [
     slug: 'pumpkin-ice-cream', dateAdded: '2026-07-10', img: '96-pumpkin-ice-cream.jpg', cat: 'dessert', gi: 58,
     tags: ['gluten-free', 'vegetarian', 'dairy-free'],
     title: { en: 'Healthy Pumpkin Ice Cream', ua: 'Корисне гарбузове морозиво' },
-    why: { en: 'Frozen banana blends into a creamy "nice cream" with no dairy and no added sugar. Pumpkin purée and warming spice make it taste like pumpkin pie, with fibre that softens the glycaemic hit.', ua: 'Заморожений банан збивається в кремове морозиво без молочних продуктів і доданого цукру. Гарбузове пюре та зігрівальні прянощі надають смаку гарбузового пирога, а клітковина пом’якшує глікемічний вплив.' },
+    why: { en: 'Frozen banana blends into a creamy "nice cream" with no dairy and no added sugar. Pumpkin purée and warming spice make it taste like pumpkin pie, with fibre that softens the glycaemic hit.', ua: 'Заморожений банан збивається в кремове морозиво без молочних продуктів і доданого цукру. Завдяки гарбузовому пюре та зігрівальним прянощам воно смакує як гарбузовий пиріг, а клітковина пом’якшує глікемічний вплив.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 40 g · Fat 1 g · Protein 2 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 40 г · Жири 1 г · Білки 2 г' },
-    meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Freeze up to 24 h', ua: 'Заморозка до 24 год' }, serves: { en: 'Serves 3', ua: '3 порції' } },
-    ingredients: { en: ['4 medium bananas, sliced and frozen overnight','250 g pumpkin purée','100 g maple syrup','1½ tsp pumpkin spice (sugar-free)'], ua: ['4 середні банани, нарізані та заморожені на ніч','250 г гарбузового пюре','100 г кленового сиропу','1½ ч. л. суміші прянощів для гарбуза (без цукру)'] },
-    method: { en: ['Blend the frozen bananas, pumpkin purée, maple syrup and spice until smooth and creamy.','Transfer to a container and freeze for up to 24 hours.','Let it soften for a few minutes before scooping.'], ua: ['Збийте заморожені банани, гарбузове пюре, кленовий сироп і прянощі до однорідної кремової маси.','Перекладіть у контейнер і заморозьте до 24 годин.','Дайте трохи розм’якнути кілька хвилин перед подачею.'] },
-    note: { en: 'Swap the maple syrup for stevia to make it fully sugar-free.', ua: 'Замініть кленовий сироп стевією, щоб зробити його повністю безцукровим.' }
+    meta: { prep: { en: '5 min', ua: '5 хв' }, cook: { en: 'Freeze up to 24 h', ua: 'Заморожування до 24 год' }, serves: { en: 'Serves 3', ua: '3 порції' } },
+    ingredients: { en: ['4 medium bananas, sliced and frozen overnight','250 g pumpkin purée','100 g maple syrup','1½ tsp pumpkin spice (sugar-free)'], ua: ['4 середні банани, нарізані та заморожені на ніч','250 г гарбузового пюре','100 г кленового сиропу','1½ ч. л. суміші прянощів для гарбузового пирога (без цукру)'] },
+    method: { en: ['Blend the frozen bananas, pumpkin purée, maple syrup and spice until smooth and creamy.','Transfer to a container and freeze for up to 24 hours.','Let it soften for a few minutes before scooping.'], ua: ['Збийте заморожені банани, гарбузове пюре, кленовий сироп і прянощі до однорідної кремової маси.','Перекладіть у контейнер і заморозьте до 24 годин.','Перш ніж накладати кульками, дайте морозиву кілька хвилин розм’якнути.'] },
+    note: { en: 'Swap the maple syrup for stevia to make it fully sugar-free.', ua: 'Замініть кленовий сироп стевією — і морозиво буде зовсім без цукру.' }
   },
   {
     slug: 'pumpkin-yogurt', dateAdded: '2026-07-10', img: '97-pumpkin-yogurt.jpg', cat: 'breakfast', gi: 62,
     tags: ['sugar-free', 'gluten-free', 'vegetarian'],
     title: { en: 'Healthy Pumpkin Yoghurt', ua: 'Корисний гарбузовий йогурт' },
-    why: { en: 'A two-minute, protein-rich breakfast: plain low-fat yoghurt stirred with pumpkin purée and vanilla, no sugar. The protein and fibre keep you full and blood sugar steady through the morning.', ua: 'Двохвилинний багатий білком сніданок: звичайний нежирний йогурт із гарбузовим пюре та ваніллю, без цукру. Білок і клітковина добре насичують і тримають цукор стабільним цілий ранок.' },
+    why: { en: 'A two-minute, protein-rich breakfast: plain low-fat yoghurt stirred with pumpkin purée and vanilla, no sugar. The protein and fibre keep you full and blood sugar steady through the morning.', ua: 'Двохвилинний багатий білком сніданок: натуральний нежирний йогурт із гарбузовим пюре та ваніллю, без цукру. Білок і клітковина надовго насичують, а рівень цукру залишається стабільним увесь ранок.' },
     nutrition: { en: 'Per serving (est.): ~180 kcal · Carbs 18 g · Fat 4 g · Protein 15 g', ua: 'На порцію (прибл.): ~180 ккал · Вуглеводи 18 г · Жири 4 г · Білки 15 г' },
     meta: { prep: { en: '2 min', ua: '2 хв' }, cook: { en: 'No cooking', ua: 'Без готування' }, serves: { en: 'Serves 1', ua: '1 порція' } },
     ingredients: { en: ['250 g plain low-fat yoghurt','2 tbsp pumpkin purée','½ tsp vanilla powder'], ua: ['250 г нежирного натурального йогурту','2 ст. л. гарбузового пюре','½ ч. л. ванільного порошку'] },
-    method: { en: ['Stir all the ingredients together until smooth.','Serve with muesli or cooked oats, millet or amaranth.'], ua: ['Змішайте всі інгредієнти до однорідності.','Подавайте з мюслі або звареним вівсом, пшоном чи амарантом.'] },
-    note: { en: 'Use frozen pumpkin purée straight from the freezer to save time.', ua: 'Щоб заощадити час, використовуйте заморожене гарбузове пюре просто з морозилки.' }
+    method: { en: ['Stir all the ingredients together until smooth.','Serve with muesli or cooked oats, millet or amaranth.'], ua: ['Змішайте всі інгредієнти до однорідності.','Подавайте з мюслі або з кашею з вівса, пшона чи амаранту.'] },
+    note: { en: 'Use frozen pumpkin purée straight from the freezer to save time.', ua: 'Щоб заощадити час, використовуйте заморожене гарбузове пюре одразу з морозилки.' }
   },
   {
     slug: 'pumpkin-puree', dateAdded: '2026-07-10', img: '98-pumpkin-puree.jpg', cat: 'sauce', gi: 55,
