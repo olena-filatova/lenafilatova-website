@@ -19,7 +19,7 @@ export default {
     "title": "Collagen for bones, joints and tendons: what the trials outside skin actually found",
     "seoTitle": "Collagen for Bones and Joints: What the Trials Found",
     "metaDesc": "The bone case for collagen rests on one 12-month trial in women averaging 64. The joint trials used twice the skin dose. What the evidence below the skin shows.",
-    "excerpt": "Almost everything written about collagen is about skin. The questions I get now are about knees and hips — and the trials there used different doses, in different people, for different tissues.",
+    "excerpt": "Almost everything written about collagen is about skin. The questions I get now are about knees and hips — and those trials used different doses, in different people.",
     "meta": "28 October 2026 · 7 min read",
     "lead": "Almost everything written about collagen supplements is about skin, and I have written about that side of it myself. But the questions I get now are rarely about wrinkles. They come from women who have started lifting in their forties and want to know whether the tub in the cupboard is doing anything for their knees, their Achilles or the bone density scan they are dreading. That is a different question with a different evidence base, and it is worth separating out.",
     "blocks": [
@@ -182,7 +182,7 @@ export default {
     "title": "Колаген для кісток, суглобів і сухожиль: що насправді показали дослідження поза шкірою",
     "seoTitle": "Колаген для кісток і суглобів: що показали дослідження",
     "metaDesc": "Аргументи щодо колагену для кісток тримаються на одному 12-місячному дослідженні в жінок середнього віку 64 роки. У суглобових доза була вдвічі вищою.",
-    "excerpt": "Майже все, що пишуть про колаген, стосується шкіри. Але тепер мене частіше питають про коліна й стегна. А дослідження там проводили з іншими дозами, на інших людях і для інших тканин.",
+    "excerpt": "Майже все, що пишуть про колаген, стосується шкіри. А питають мене тепер про коліна й стегна. Дослідження там були з іншими дозами й на інших людях.",
     "meta": "28 жовтня 2026 · 7 хв читання",
     "lead": "Майже все, що пишуть про добавки колагену, стосується шкіри, і я писала про цей бік питання. Але тепер мене рідко питають про зморшки. Питають жінки, які після сорока почали займатися силовими тренуваннями й хочуть знати, чи дає банка в шафці щось їхнім колінам, ахілловому сухожиллю або результату денситометрії, на яку вони йдуть із тривогою. Це інше питання з іншою доказовою базою, і його варто розглянути окремо.",
     "blocks": [

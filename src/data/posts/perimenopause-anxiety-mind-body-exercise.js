@@ -20,7 +20,7 @@ export default {
     "title": "Perimenopause anxiety is not a footnote — three August studies on the mental-health half of the transition",
     "seoTitle": "Perimenopause Anxiety: 3 New Studies, August 2026",
     "metaDesc": "Menopause journal, August 2026: three papers on perimenopausal anxiety and depression — 20 women's experiences, mind-body exercise in 709 women, a CBT pilot.",
-    "excerpt": "The August issue of Menopause devotes three papers to anxiety and low mood in the transition — the symptoms most often dismissed. All three are small or preliminary, and all three point the same way.",
+    "excerpt": "The August issue of Menopause gives three papers to anxiety and low mood in the transition — the symptoms most often dismissed. All three are small and agree.",
     "meta": "21 August 2026 · 6 min read",
     "lead": "Hot flushes get the clinical attention. Anxiety, low mood and broken sleep get the shrug. The August 2026 issue of Menopause, the journal of The Menopause Society, spends an unusual amount of its space on the second group — and the picture that comes out of it is more useful than any single headline number.",
     "blocks": [
@@ -140,7 +140,7 @@ export default {
     "title": "Тривога в перименопаузі — не примітка: три серпневі дослідження про психічну половину переходу",
     "seoTitle": "Тривога в перименопаузі: 3 нові дослідження",
     "metaDesc": "Серпневий випуск Menopause 2026 має три статті про тривогу й депресію в перименопаузі: досвід 20 жінок, 709 жінок і практики «тіло-розум», пілот КПТ.",
-    "excerpt": "Серпневий випуск журналу Menopause присвячує три статті тривозі й зниженому настрою в перименопаузі — симптомам, які найчастіше знецінюють. Усі три невеликі або попередні, і всі три вказують в один бік.",
+    "excerpt": "Серпневий випуск журналу Menopause присвячує три статті тривозі й настрою в перименопаузі — симптомам, які знецінюють найчастіше. Усі три вказують в один бік.",
     "meta": "21 серпня 2026 · 6 хв читання",
     "lead": "Припливам дістається клінічна увага. Тривозі, зниженому настрою й розбитому сну — знизування плечима. Серпневий випуск Menopause за 2026 рік, журналу The Menopause Society, віддає незвично багато місця другій групі — і картина, яка з нього складається, корисніша за будь-яку окрему цифру із заголовка.",
     "blocks": [

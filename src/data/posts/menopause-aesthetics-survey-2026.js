@@ -11,7 +11,7 @@ export default {
     "title": "“Menopausal women are doubling down on treatments” — what that survey actually found",
     "seoTitle": "Menopause Aesthetics Survey 2026: What It Really Found",
     "metaDesc": "A beauty-industry survey says menopausal women want more treatments. Who was actually asked, and the planning-gap finding underneath the headline.",
-    "excerpt": "An industry report found 76.6% of respondents want energy-based treatments for menopausal skin. It also found only 9.1% have a long-term plan — and that second number is the useful one.",
+    "excerpt": "An industry report found 76.6% of respondents want energy-based treatments for menopausal skin. Only 9.1% have a long-term plan — and that number is the useful one.",
     "meta": "10 September 2026 · 5 min read",
     "lead": "A beauty-industry survey is being reported as proof that menopausal women want more treatments. The numbers are real, but they describe a magazine's own readers — and the report's most useful finding is not the one being repeated.",
     "blocks": [
@@ -125,7 +125,7 @@ export default {
     "title": "«Жінки в менопаузі вкладаються в процедури вдвічі активніше» — що насправді показало це опитування",
     "seoTitle": "Опитування про менопаузу й естетику 2026: що воно показало",
     "metaDesc": "Згідно з опитуванням індустрії краси, жінки в менопаузі хочуть більше процедур. Кого насправді опитали — і який розрив у плануванні ховається за заголовком.",
-    "excerpt": "Звіт індустрії показав, що 76,6% опитаних хочуть енергетичні процедури для менопаузальної шкіри. Водночас лише 9,1% мають довгостроковий план — і корисне саме це друге число.",
+    "excerpt": "Звіт індустрії: 76,6% опитаних хочуть енергетичні процедури для менопаузальної шкіри. Але лише 9,1% мають довгостроковий план — і корисне саме це число.",
     "meta": "10 вересня 2026 · 5 хв читання",
     "lead": "Опитування індустрії краси подають як доказ того, що жінки в менопаузі хочуть більше процедур. Цифри справжні, але вони описують власних читачів журналу — а найкорисніший висновок звіту зовсім не той, який усі повторюють.",
     "blocks": [

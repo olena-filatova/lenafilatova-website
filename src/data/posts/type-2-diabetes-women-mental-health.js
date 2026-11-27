@@ -16,7 +16,7 @@ export default {
     "title": "Women with type 2 diabetes get more anxiety and depression diagnoses than men — what the UK study shows",
     "seoTitle": "Type 2 Diabetes and Mental Health: Women vs Men",
     "metaDesc": "A study of 28,720 people in England found women with type 2 diabetes got more anxiety and depression diagnoses than men. What it shows, and what it can’t.",
-    "excerpt": "Following 28,720 people for a median of 6.8 years after a type 2 diabetes diagnosis, researchers found a mental health condition was the next diagnosis for 8.1% of women, against 5.3% of men. The authors are careful about why.",
+    "excerpt": "Following 28,720 people for a median 6.8 years after a type 2 diabetes diagnosis, a mental health condition came next for 8.1% of women against 5.3% of men.",
     "meta": "13 September 2026 · 5 min read",
     "lead": "Most of the follow-up after a type 2 diabetes diagnosis is about the body: blood pressure, kidneys, eyes, feet. A large study of English GP records suggests that for women the mind deserves the same attention — and that when mental health problems come, they tend to come first.",
     "blocks": [
@@ -100,7 +100,7 @@ export default {
     "title": "Жінкам із діабетом 2 типу частіше діагностують тривожність і депресію, ніж чоловікам — що показало британське дослідження",
     "seoTitle": "Діабет 2 типу і психічне здоров’я: жінки та чоловіки",
     "metaDesc": "Дослідження 28 720 людей в Англії: жінкам із діабетом 2 типу частіше діагностували тривожність і депресію, ніж чоловікам. Що воно показує, а що ні.",
-    "excerpt": "Дослідники стежили за 28 720 людьми (медіана спостереження — 6,8 року) після діагнозу «діабет 2 типу»: у 8,1% жінок наступним діагнозом став психічний розлад, у чоловіків — у 5,3%. Автори обережні щодо причин.",
+    "excerpt": "Дослідники стежили за 28 720 людьми (медіана 6,8 року) після діагнозу «діабет 2 типу»: у 8,1% жінок наступним діагнозом став психічний розлад, у чоловіків — 5,3%.",
     "meta": "13 вересня 2026 · 5 хв читання",
     "lead": "Після діагнозу «діабет 2 типу» спостереження зазвичай стосується тіла: тиску, нирок, очей, стоп. Велике дослідження записів англійських сімейних лікарів свідчить, що в жінок так само уважно варто стежити за психікою — і що психічні проблеми, коли вони з’являються, зазвичай з’являються першими.",
     "blocks": [

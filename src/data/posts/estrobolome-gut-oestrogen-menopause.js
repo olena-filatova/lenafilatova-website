@@ -11,8 +11,8 @@ export default {
     "imageAlt": "Bowls of flaxseed and a wooden spoonful of seeds on a grey worktop, with seeds scattered around them.",
     "title": "Your gut bacteria recycle oestrogen — and menopause changes which bacteria are doing it",
     "seoTitle": "The Estrobolome: Gut Bacteria, Oestrogen and Menopause",
-    "metaDesc": "A 2026 Nutrients review on the estrobolome — the gut bacteria that recycle oestrogen — what changes after menopause, and which dietary changes have evidence behind them.",
-    "excerpt": "A 2026 review in Nutrients maps how gut bacteria send oestrogen back into circulation instead of letting it leave the body, how that machinery shifts after menopause, and which dietary changes actually have evidence behind them.",
+    "metaDesc": "A 2026 Nutrients review on the estrobolome — the gut bacteria that recycle oestrogen — what changes after menopause, and which diet changes have evidence.",
+    "excerpt": "A 2026 Nutrients review maps how gut bacteria send oestrogen back into circulation, how that shifts after menopause, and which dietary changes have evidence behind them.",
     "meta": "3 August 2026 · 4 min read",
     "lead": "Some of your oestrogen never really leaves. A set of gut bacteria intercepts it on the way out and sends it back into circulation — and a new review pulls together what happens to that system when oestrogen falls at menopause.",
     "blocks": [
@@ -100,7 +100,7 @@ export default {
     "title": "Ваші кишкові бактерії повертають естроген у кров — і менопауза змінює те, які саме бактерії це роблять",
     "seoTitle": "Естроболом: кишкові бактерії, естроген і менопауза",
     "metaDesc": "Огляд Nutrients 2026 про естроболом — кишкові бактерії, що повертають естроген у кровообіг: що змінюється після менопаузи і які зміни в харчуванні мають докази.",
-    "excerpt": "Огляд 2026 року в журналі Nutrients описує, як кишкові бактерії повертають естроген у кровообіг замість того, щоб дати йому вийти з організму, як цей механізм змінюється після менопаузи та які зміни в харчуванні справді мають докази.",
+    "excerpt": "Огляд 2026 року в Nutrients описує, як кишкові бактерії повертають естроген у кров, як цей механізм змінюється після менопаузи та які зміни в харчуванні мають докази.",
     "meta": "3 серпня 2026 · 4 хв читання",
     "lead": "Частина вашого естрогену насправді нікуди не зникає. Група кишкових бактерій перехоплює його на виході й повертає назад у кровообіг — а новий огляд узагальнює, що стається з цією системою, коли рівень естрогену падає в менопаузі.",
     "blocks": [

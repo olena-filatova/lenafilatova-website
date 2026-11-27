@@ -11,7 +11,7 @@ export default {
     "title": "The HRT-and-heart study has finally been peer-reviewed — and it is narrower than the headline",
     "seoTitle": "HRT Timing and Heart Risk: What the Study Found",
     "metaDesc": "A September 2026 paper estimates 22% lower cardiovascular risk when HRT starts early. It followed 2,737 women — and its clearest result was in Black women only.",
-    "excerpt": "A peer-reviewed study now backs the idea that HRT timing matters for the heart. It is much smaller than the coverage suggests, and its authors say it should not be used to justify taking HRT for your heart.",
+    "excerpt": "A peer-reviewed study now backs the idea that HRT timing matters for the heart. It is smaller than the coverage suggests, and its authors say not to take it for that.",
     "meta": "10 October 2026 · 6 min read",
     "lead": "In September a run of headlines said that starting hormone therapy early might protect your heart. There is now a peer-reviewed paper behind that claim, which is genuinely new — until this point the evidence doing the rounds was an unpublished conference poster. But the study is far smaller than the coverage implies, its clearest finding applies to one group of women rather than all of them, and its own authors close by saying it should not be used to justify taking hormone therapy for your heart.",
     "blocks": [

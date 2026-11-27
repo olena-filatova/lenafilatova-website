@@ -19,7 +19,7 @@ export default {
     "title": "Leaking when you lift: pelvic floor training in perimenopause",
     "seoTitle": "Pelvic Floor Exercises in Perimenopause: The Evidence",
     "metaDesc": "Leaking when you lift heavier? What the evidence says about pelvic floor training in perimenopause — and why diabetes makes it more likely.",
-    "excerpt": "It is one of the most common reasons women quietly stop lifting, and one of the least discussed. Here is how common it actually is, what the trials support, and the part that changes if you also have diabetes.",
+    "excerpt": "One of the most common reasons women quietly stop lifting, and one of the least discussed. How common it actually is, what the trials support, and what diabetes changes.",
     "meta": "4 September 2026 · 8 min read",
     "lead": "You get told to lift heavier in your forties. Nobody tells you that a proportion of women who do will leak the first time they load a barbell properly — or that it is treatable, common, and not a sign you have done something wrong.",
     "blocks": [
@@ -336,7 +336,7 @@ export default {
     "title": "Підтікання під час силових: тренування тазового дна в перименопаузі",
     "seoTitle": "Вправи для тазового дна в перименопаузі: докази",
     "metaDesc": "Підтікає, коли берете більшу вагу? Що кажуть дослідження про тренування тазового дна в перименопаузі — і чому діабет підвищує ймовірність.",
-    "excerpt": "Це одна з найпоширеніших причин, з яких жінки тихо кидають силові, і одна з найменш обговорюваних. Ось наскільки це насправді часто, що підтверджують дослідження і що змінює діабет.",
+    "excerpt": "Одна з найпоширеніших причин, з яких жінки тихо кидають силові, і одна з найменш обговорюваних. Наскільки це часто, що підтверджують дослідження і що змінює діабет.",
     "meta": "4 вересня 2026 · 8 хв читання",
     "lead": "Після сорока всі радять брати більшу вагу. Ніхто не попереджає, що частина жінок, які так і роблять, зіткнеться з підтіканням сечі, коли вперше нормально навантажить штангу — і що це поширено, піддається лікуванню і зовсім не означає, що ви щось зробили не так.",
     "blocks": [

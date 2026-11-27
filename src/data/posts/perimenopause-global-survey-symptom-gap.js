@@ -11,7 +11,7 @@ export default {
     "title": "17,494 women, 158 countries: what perimenopause actually feels like isn’t what we’re told to expect",
     "seoTitle": "Perimenopause Symptoms: 158-Country Study",
     "metaDesc": "A Mayo Clinic and Flo Health survey of 17,494 women in 158 countries found the symptom women recognise most, hot flashes, isn’t among the ones they report most.",
-    "excerpt": "A peer-reviewed survey of 17,494 women across 158 countries found that hot flashes are what women recognise as perimenopause — while fatigue, exhaustion, mood and digestive changes are what they actually report.",
+    "excerpt": "A survey of 17,494 women in 158 countries found hot flashes are what women recognise as perimenopause — while fatigue, mood and digestive changes are what they report.",
     "meta": "4 August 2026 · 4 min read",
     "lead": "Ask most women what perimenopause looks like and they’ll say hot flashes. A new global study suggests that answer is the problem — because it isn’t what women most often report living with.",
     "blocks": [
@@ -98,8 +98,8 @@ export default {
     "imageAlt": "Жінка сидить на кушетці й розмовляє з медсестрою в синій формі; медсестра тримає записи.",
     "title": "17 494 жінки зі 158 країн: перименопауза відчувається зовсім не так, як нам казали",
     "seoTitle": "Симптоми перименопаузи: дослідження 158 країн",
-    "metaDesc": "Опитування Mayo Clinic і Flo Health серед 17 494 жінок зі 158 країн: симптом, який вони впізнають найчастіше, — припливи — не входить до тих, про які жінки повідомляють найчастіше.",
-    "excerpt": "Рецензоване опитування 17 494 жінок зі 158 країн показало: припливи — це те, що жінки знають про перименопаузу, а втома, виснаження, зміни настрою й травлення — те, що вони насправді переживають.",
+    "metaDesc": "Опитування Mayo Clinic і Flo Health серед 17 494 жінок зі 158 країн: припливи впізнають найчастіше, але повідомляють про них не найчастіше.",
+    "excerpt": "Опитування 17 494 жінок зі 158 країн: припливи — це те, що жінки знають про перименопаузу, а втома, зміни настрою й травлення — те, що вони насправді переживають.",
     "meta": "4 серпня 2026 · 4 хв читання",
     "lead": "Запитайте більшість жінок, з чим асоціюється перименопауза, — і вони скажуть: припливи. Нове глобальне дослідження свідчить, що саме ця відповідь і є проблемою — бо це не те, про що жінки повідомляють найчастіше.",
     "blocks": [

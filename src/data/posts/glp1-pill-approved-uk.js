@@ -13,7 +13,7 @@ export default {
     "title": "A new GLP-1 pill is now approved in Britain — and the thing it changes most is who will take it",
     "seoTitle": "GLP-1 Pill Approved in the UK: What It Means",
     "metaDesc": "The MHRA approved the oral GLP-1 orforglipron in August 2026. It is not on the NHS yet. What the trial actually found, and what a tablet changes.",
-    "excerpt": "Britain was the first country in Europe to approve the GLP-1 tablet orforglipron. It is not available on the NHS, NICE reports in November, and the trial number being quoted everywhere is not the one the trial was designed to report.",
+    "excerpt": "Britain was first in Europe to approve the GLP-1 tablet orforglipron. It is not on the NHS, NICE reports in November, and the quoted number is not the trial’s own.",
     "meta": "30 September 2026 · 6 min read",
     "lead": "For as long as these drugs have existed, the needle has quietly done a job nobody designed it to do: it has filtered out everyone unwilling to inject themselves once a week. That filter is now being removed, and it is worth thinking about what that means before the marketing does it for you.",
     "blocks": [
@@ -130,7 +130,7 @@ export default {
     "title": "Нову таблетку GLP-1 схвалили у Британії — і найбільше вона змінює те, хто її прийматиме",
     "seoTitle": "Таблетку GLP-1 схвалено у Британії: що це означає",
     "metaDesc": "У серпні 2026 року MHRA схвалила оральний GLP-1 орфорглипрон. У NHS його поки немає. Що насправді показало дослідження і що змінює таблетка.",
-    "excerpt": "Британія стала першою країною Європи, яка схвалила таблетку GLP-1 орфорглипрон. Через NHS його поки не отримати, висновок NICE буде в листопаді, а цифра з дослідження, яку всі цитують, — не та, яку дослідження мало показати.",
+    "excerpt": "Британія першою в Європі схвалила таблетку GLP-1 орфорглипрон. Через NHS його поки не отримати, висновок NICE — у листопаді, а цифра, яку всі цитують, не та.",
     "meta": "30 вересня 2026 · 6 хв читання",
     "lead": "Відколи ці препарати існують, голка тихо виконувала роботу, для якої її ніхто не призначав: вона відсіювала всіх, хто не готовий робити собі ін’єкцію раз на тиждень. Цей фільтр зараз прибирають, і варто подумати, що це означає, перш ніж це зробить за вас реклама.",
     "blocks": [
