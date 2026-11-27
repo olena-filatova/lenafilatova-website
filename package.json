@@ -15,7 +15,9 @@
     "check-summaries": "node scripts/check-summary-lengths.mjs",
     "check-summaries:strict": "node scripts/check-summary-lengths.mjs --strict",
     "images": "node scripts/build-images.mjs",
-    "images:force": "node scripts/build-images.mjs --force"
+    "images:force": "node scripts/build-images.mjs --force",
+    "check-readtimes": "node scripts/check-read-times.mjs",
+    "check-readtimes:strict": "node scripts/check-read-times.mjs --strict"
   },
   "dependencies": {
     "astro": "^5.13.0"

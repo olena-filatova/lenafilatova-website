@@ -20,7 +20,7 @@ export default {
     "seoTitle": "Does Cold Weather Affect Blood Sugar? T1D in Winter",
     "metaDesc": "Why HbA1c often rises in winter with type 1 diabetes, how cold affects meters, insulin and CGMs, and what helps in a UK winter.",
     "excerpt": "Winter really does nudge HbA1c upwards, by about two tenths of a point. But the cold is not what does it — with one exception: a cold finger reads falsely low.",
-    "meta": "4 November 2026 · 9 min read",
+    "meta": "4 November 2026 · 11 min read",
     "lead": "Every year the same thing happens. The clocks go back, the walking quietly stops, and by February the numbers look worse than they did in September. It is such a familiar pattern that most of us have decided it is the cold doing it. The research says something more specific, and more useful — the cold is mostly innocent, except in one place where it matters a great deal.",
     "blocks": [
       {

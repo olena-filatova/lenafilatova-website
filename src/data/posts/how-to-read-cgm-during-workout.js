@@ -21,7 +21,7 @@ export default {
     "seoTitle": "How to Read Your CGM During a Workout",
     "metaDesc": "Trend arrows, sensor lag and what to actually do mid-workout — a practical CGM guide for women over 40 managing type 1 diabetes.",
     "excerpt": "A sensor does not measure your blood, and during exercise the gap matters. What the measured lag actually is, why the error runs in the reassuring direction when you are dropping, and how to read the arrow rather than the number.",
-    "meta": "28 August 2026 · 9 min read",
+    "meta": "28 August 2026 · 11 min read",
     "lead": "Most people wearing a sensor through a workout use about a tenth of what it is telling them. They glance at the number. Mid-session, the number is the least trustworthy thing on the screen — and there is now good measurement of exactly how far behind it runs, and, more importantly, which direction it errs in when you are dropping.",
     "blocks": [
       {
@@ -265,7 +265,7 @@ export default {
     "seoTitle": "Як читати CGM під час тренування",
     "metaDesc": "Стрілки тренду, затримка сенсора і що робити посеред заняття — практичний посібник із CGM для жінок після 40 з діабетом 1 типу.",
     "excerpt": "Сенсор не вимірює вашу кров, і під час навантаження ця різниця має значення. Якою є виміряна затримка, чому похибка йде в заспокійливий бік саме тоді, коли цукор падає, і як читати стрілку замість числа.",
-    "meta": "28 серпня 2026 · 9 хв читання",
+    "meta": "28 серпня 2026 · 11 хв читання",
     "lead": "Більшість людей, які носять сенсор під час тренування, використовують приблизно десяту частину того, що він їм каже. Вони лише зиркають на число. Посеред заняття число — найменш надійне з усього, що є на екрані, і тепер є надійні вимірювання того, наскільки саме воно відстає і, що важливіше, у який бік помиляється, коли цукор падає.",
     "blocks": [
       {

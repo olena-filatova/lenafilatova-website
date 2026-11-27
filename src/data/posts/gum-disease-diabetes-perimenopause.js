@@ -24,7 +24,7 @@ export default {
     "seoTitle": "Gum Disease, Diabetes and Perimenopause: The Missed Link",
     "metaDesc": "Diabetes and perimenopause each raise gum disease risk — and treating gum disease lowers HbA1c by 0.43%. What to watch for, and what actually helps.",
     "excerpt": "Bleeding gums at 45 get blamed on age, stress or brushing too hard. With diabetes there’s a better explanation — and treating it appears to improve blood sugar too.",
-    "meta": "4 September 2026 · 7 min read",
+    "meta": "4 September 2026 · 9 min read",
     "lead": "Treating gum disease lowers HbA1c by 0.43 per cent — 4.7 mmol/mol — at three to four months, across 30 randomised trials and 2,443 people. That is the sort of change you would expect from adding a medication, and it came from cleaning under the gumline. Which makes this a loop rather than a complication, and the dentist rather more relevant to your blood sugar than anyone tends to mention.",
     "blocks": [
       {

@@ -14,7 +14,7 @@ export default {
     "seoTitle": "Creatine for Women Over 40: What the Trials Found",
     "metaDesc": "New perimenopause trials tested creatine for strength, sleep and brain fog. What they found, what they didn’t, and how much to actually take.",
     "excerpt": "2025 finally brought creatine trials in perimenopausal women, not young male athletes. The verdict is broadly yes, but most of what you’ve heard isn’t what they measured.",
-    "meta": "19 August 2026 · 9 min read",
+    "meta": "19 August 2026 · 17 min read",
     "lead": "In about eighteen months creatine has travelled from a tub in the corner of a gym to something a friend brings up over coffee. This is one of the rare cases where the trendy answer is also broadly the right one, so I am not going to manufacture scepticism. The interesting part is the gap between what is being claimed and what was actually measured — because the two headline trials everyone is quoting are a great deal smaller, and stranger, than the coverage suggests.",
     "blocks": [
       {
@@ -352,7 +352,7 @@ export default {
     "seoTitle": "Креатин після 40: що показали дослідження",
     "metaDesc": "Нові дослідження перевіряли креатин на силу, сон і туман у голові в перименопаузі. Що вони показали, чого не показали і скільки насправді приймати.",
     "excerpt": "У 2025 році нарешті з’явилися дослідження креатину за участю жінок у перименопаузі, а не молодих спортсменів-чоловіків. Висновок загалом — «так», але більшість того, що ви чули, у них не вимірювали.",
-    "meta": "19 серпня 2026 · 9 хв читання",
+    "meta": "19 серпня 2026 · 17 хв читання",
     "lead": "Приблизно за півтора року креатин пройшов шлях від банки в кутку спортзалу до теми, яку подруга піднімає за кавою. Це один із рідкісних випадків, коли модна відповідь загалом і є правильною, тож я не збираюся штучно нагнітати скептицизм. Цікаве починається там, де розходяться те, що стверджують, і те, що насправді виміряли: два дослідження, які всі цитують, набагато менші й дивніші, ніж це виглядає в переказах.",
     "blocks": [
       {

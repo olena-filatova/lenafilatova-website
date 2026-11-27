@@ -24,7 +24,7 @@ export default {
     "seoTitle": "Vitamin D and Insulin Resistance in Perimenopause",
     "metaDesc": "You can’t make enough vitamin D in a British winter. Here’s what the trials actually show about its link to insulin resistance — and the dose the NHS recommends.",
     "excerpt": "From October to March, UK sunlight is too weak for your skin to make enough vitamin D. That’s latitude, not a failing. What the trials found, and how big the effect is.",
-    "meta": "4 September 2026 · 7 min read",
+    "meta": "4 September 2026 · 10 min read",
     "lead": "Pooling the three randomised trials built to answer this, vitamin D cut the risk of developing type 2 diabetes by 15 per cent in people with prediabetes — an absolute 3.3 percentage points over three years. That is a real effect and a modest one. Here is what it means for a UK woman heading into her fourth dark winter, and where vitamin D actually sits among the things that move blood sugar.",
     "blocks": [
       {
@@ -267,7 +267,7 @@ export default {
     "seoTitle": "Вітамін D та інсулінорезистентність у перименопаузі",
     "metaDesc": "Узимку в Британії вітамін D не виробляється в достатній кількості. Що дослідження кажуть про його зв’язок з інсулінорезистентністю — і яку дозу радить NHS.",
     "excerpt": "З жовтня до березня британського сонця замало, щоб шкіра виробила достатньо вітаміну D. Винна широта, а не ви. Що показали дослідження і наскільки великий ефект.",
-    "meta": "4 вересня 2026 · 7 хв читання",
+    "meta": "4 вересня 2026 · 9 хв читання",
     "lead": "За об’єднаними даними трьох рандомізованих досліджень, спеціально спланованих, щоб відповісти на це питання, вітамін D знизив ризик розвитку діабету 2 типу на 15 відсотків у людей із предіабетом — в абсолютному вимірі це 3,3 відсоткового пункту за три роки. Ефект справжній, хоча й скромний. Ось що це означає для британки перед четвертою темною зимою і яке місце вітамін D насправді посідає серед того, що впливає на цукор у крові.",
     "blocks": [
       {

@@ -17,7 +17,7 @@ export default {
     "seoTitle": "Zone 2 or HIIT After 40: How to Split Your Cardio",
     "metaDesc": "Zone 2 is everywhere and HIIT gets blamed for cortisol. What the evidence supports for women over 40 — and why strength still comes first.",
     "excerpt": "Zone 2 is the answer, HIIT is ageing you: both said with certainty this week. The honest answer is a ratio, and neither matters as much as your strength training.",
-    "meta": "20 August 2026 · 9 min read",
+    "meta": "20 August 2026 · 12 min read",
     "lead": "Two people whose judgement you respect will tell you opposite things about cardio this month. One says Zone 2 is what your body needs now and that hard intervals are quietly ageing you. The other says Zone 2 is a fashion and going slowly is how you stay exactly where you are. Neither is lying. They are both giving a single answer to a question whose real answer is a proportion — and the proportion only makes sense once you have accepted something neither of them is likely to lead with, which is that cardio is not the most important thing in your week.",
     "blocks": [
       {
@@ -191,7 +191,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The complication sits afterwards. Both kinds of session improve insulin sensitivity for the following 24 to 48 hours, and either kind can bring a delayed low, including overnight — intervals are not exempt. A session that looked glucose-neutral at 6pm is not necessarily neutral at 2am. That is worth knowing before you add a hard session to a week that previously had none. If you are also lifting, [weight training has its own glucose signature](/blog/does-weight-training-raise-blood-sugar/), and it is not the same as either of these."
+        "text": "The complication sits afterwards. Both kinds of session improve insulin sensitivity for the following 24 to 48 hours, and either kind can bring a delayed low, including overnight — intervals are not exempt. A session that looked glucose-neutral at 6pm is not necessarily neutral at 2am, and [a drink that evening removes the liver’s ability to compensate](/blog/alcohol-and-blood-sugar/) for ten to twelve hours, which lines both delayed effects up together. That is worth knowing before you add a hard session to a week that previously had none. If you are also lifting, [weight training has its own glucose signature](/blog/does-weight-training-raise-blood-sugar/), and it is not the same as either of these."
       },
       {
         "t": "p",
@@ -320,7 +320,7 @@ export default {
     "seoTitle": "Зона 2 чи HIIT після 40: як поділити кардіо",
     "metaDesc": "Зона 2 всюди, а HIIT звинувачують у кортизолі. Що насправді підтверджують дані для жінок після 40 — і чому силові все одно на першому місці.",
     "excerpt": "Зона 2 — це відповідь, HIIT вас старить: обидва твердження цього тижня звучали впевнено. Чесна відповідь — співвідношення, а силові важать більше за обидва.",
-    "meta": "20 серпня 2026 · 9 хв читання",
+    "meta": "20 серпня 2026 · 12 хв читання",
     "lead": "Двоє людей, чиїй думці ви довіряєте, цього місяця скажуть вам протилежні речі про кардіо. Одна каже, що Зона 2 — це те, що потрібно вашому тілу зараз, а важкі інтервали тихцем вас старять. Друга каже, що Зона 2 — це мода, і повільний темп — це спосіб залишитися рівно там, де ви є. Жодна з них не бреше. Просто обидві дають однозначну відповідь там, де насправді йдеться про пропорцію. А пропорція набуває сенсу лише тоді, коли ви визнаєте те, з чого жодна з них навряд чи почне: кардіо — не найважливіше у вашому тижні.",
     "blocks": [
       {
@@ -494,7 +494,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Складність починається потім. Обидва види занять покращують чутливість до інсуліну на наступні 24–48 годин, і будь-яке з них може дати відтерміновану гіпоглікемію, зокрема вночі — інтервали не виняток. Заняття, яке о 18:00 виглядало нейтральним для глюкози, не обов’язково нейтральне о другій ночі. Це варто знати, перш ніж додавати важке заняття до тижня, у якому його раніше не було. Якщо ви ще й тренуєтеся з вагою, [у силових свій власний глюкозний почерк](/ua/blog/does-weight-training-raise-blood-sugar/), і він не такий, як у жодного з цих двох."
+        "text": "Складність починається потім. Обидва види занять покращують чутливість до інсуліну на наступні 24–48 годин, і будь-яке з них може дати відтерміновану гіпоглікемію, зокрема вночі — інтервали не виняток. Заняття, яке о 18:00 виглядало нейтральним для глюкози, не обов’язково нейтральне о другій ночі, а [алкоголь того ж вечора на десять-дванадцять годин забирає в печінки здатність це компенсувати](/ua/blog/alcohol-and-blood-sugar/) — і обидва відстрочені ефекти накладаються. Це варто знати, перш ніж додавати важке заняття до тижня, у якому його раніше не було. Якщо ви ще й тренуєтеся з вагою, [у силових свій власний глюкозний почерк](/ua/blog/does-weight-training-raise-blood-sugar/), і він не такий, як у жодного з цих двох."
       },
       {
         "t": "p",

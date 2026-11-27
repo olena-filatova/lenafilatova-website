@@ -13,7 +13,7 @@ export default {
     "seoTitle": "Menstrual Blood in Medicine: Tests & Stem Cell Research",
     "metaDesc": "How menstrual blood is used in real medicine: an FDA-cleared diabetes test, stem-cell research, and non-invasive clues to endometriosis and autoimmune disease.",
     "excerpt": "Once discarded, menstrual blood is now an FDA-cleared diabetes test, a renewable source of stem cells and a rare non-invasive window onto the immune system.",
-    "meta": "19 July 2026 · 9 min read",
+    "meta": "19 July 2026 · 7 min read",
     "lead": "For most of history, menstrual blood was treated as waste — something to absorb, hide and throw away. In the last few years, researchers have started treating it as the opposite: one of the richest, most accessible samples the female body offers. Here’s what it’s already doing in medicine, and the autoimmune clues scientists are only beginning to read.",
     "blocks": [
       {
@@ -204,7 +204,7 @@ export default {
     "seoTitle": "Менструальна кров у медицині: тести й стовбурові клітини",
     "metaDesc": "Як менструальну кров використовують у медицині: схвалений FDA тест на діабет, стовбурові клітини й неінвазивні підказки щодо ендометріозу та автоімунних хвороб.",
     "excerpt": "Колись її викидали, а тепер менструальна кров — схвалений FDA тест на діабет, відновлюване джерело стовбурових клітин і рідкісне неінвазивне вікно до імунної системи.",
-    "meta": "19 липня 2026 · 9 хв читання",
+    "meta": "19 липня 2026 · 7 хв читання",
     "lead": "Упродовж майже всієї історії менструальну кров вважали відходами — чимось, що треба увібрати, сховати й викинути. Але за останні кілька років дослідники почали бачити в ній протилежне: один із найбагатших і найдоступніших зразків, які дає жіноче тіло. Ось що вона вже дає медицині — і які автоімунні підказки науковці лише починають розгадувати.",
     "blocks": [
       {

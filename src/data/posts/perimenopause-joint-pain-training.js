@@ -22,7 +22,7 @@ export default {
     "seoTitle": "Perimenopause Joint Pain: Keep Training Safely",
     "metaDesc": "Aching joints in perimenopause? What may be behind it, how to adjust your training, and when to see a GP or physio.",
     "excerpt": "More than 70% of women get musculoskeletal symptoms through the menopause transition — and the thing most often sold as the fix just failed its largest review.",
-    "meta": "16 October 2026 · 9 min read",
+    "meta": "16 October 2026 · 14 min read",
     "lead": "More than 70% of women get musculoskeletal symptoms through the menopause transition — and the thing most often sold as the fix has just failed its largest review. What the evidence actually supports, and how to change your training rather than stop it.",
     "blocks": [
       {
@@ -298,7 +298,7 @@ export default {
     "seoTitle": "Суглобовий біль у перименопаузі: як тренуватися",
     "metaDesc": "Болять суглоби в перименопаузі? Що може бути причиною, як змінити тренування і коли час до лікаря чи фізичного терапевта.",
     "excerpt": "Понад 70% жінок мають скелетно-м’язові симптоми під час менопаузального переходу — а те, що найчастіше продають як розв’язання, не підтвердилося в найбільшому огляді.",
-    "meta": "16 жовтня 2026 · 9 хв читання",
+    "meta": "16 жовтня 2026 · 13 хв читання",
     "lead": "Понад 70% жінок мають скелетно-м’язові симптоми під час менопаузального переходу — і те, що найчастіше продають як розв’язання, щойно не підтвердилося у найбільшому огляді. Що насправді має доказову базу і як змінити тренування, а не кинути їх.",
     "blocks": [
       {

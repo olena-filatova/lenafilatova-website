@@ -13,7 +13,7 @@ export default {
     "seoTitle": "Clinical Trials for Women Over 40: Recruiting Now",
     "metaDesc": "Nineteen clinical trials recruiting women over 40 in the UK and Ukraine — perimenopause, diabetes, weight, muscle, heart. Who can join each one, and how.",
     "excerpt": "Nineteen studies in the UK and Ukraine a woman over 40 could join, from perimenopause and diabetes to muscle and heart, each checked on its registry on 17 August 2026.",
-    "meta": "17 August 2026 · 10 min read",
+    "meta": "17 August 2026 · 8 min read",
     "lead": "Midlife women are talked about constantly in health research and included in it far less often. That is slowly changing, and the evidence is a long list of studies now looking specifically for women in their forties, fifties and sixties. Here is what is open, what each one actually asks of you, and how to find the ones I have missed.",
     "blocks": [
       {
@@ -390,7 +390,7 @@ export default {
     "seoTitle": "Клінічні дослідження для жінок після 40: набір триває",
     "metaDesc": "Дев’ятнадцять клінічних досліджень, які набирають жінок після 40 у Британії та Україні: перименопауза, діабет, вага, м’язи, серце. Хто може долучитися до кожного і як.",
     "excerpt": "19 досліджень у Британії та Україні, до яких може долучитися жінка після 40: від перименопаузи й діабету до м’язів і серця. Кожне звірене з реєстром 17 серпня 2026 року.",
-    "meta": "17 серпня 2026 · 10 хв читання",
+    "meta": "17 серпня 2026 · 8 хв читання",
     "lead": "Про жінок середнього віку в медичних дослідженнях говорять постійно — а включають їх туди значно рідше. Це поступово змінюється, і доказ цього — довгий список досліджень, які саме зараз шукають жінок 40, 50 і 60 років. Ось що відкрито, що кожне дослідження насправді від вас вимагає і як знайти те, що я пропустила.",
     "blocks": [
       {

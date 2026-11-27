@@ -21,7 +21,7 @@ export default {
     "seoTitle": "Heavy Periods, Low Iron and a Misleading HbA1c",
     "metaDesc": "Low iron can raise HbA1c with no change in blood sugar. Why heavy perimenopausal periods make it likelier, and what to ask when numbers disagree.",
     "excerpt": "Low iron can lift an HbA1c result without your glucose moving at all. Why perimenopause makes it likelier, and what to ask for.",
-    "meta": "13 November 2026 · 9 min read",
+    "meta": "13 November 2026 · 13 min read",
     "lead": "Your HbA1c has gone up. Your sensor says it should not have. Your periods have turned heavy enough that you have started planning around them. Those three facts can be connected, and not in the way you are probably assuming. HbA1c does not measure your blood sugar: it measures your red blood cells, and when iron runs short those cells live longer and collect more glucose along the way. The number rises while nothing about your glucose changes. Here is how large that effect actually is, who it matters for, and the one test that will not find it.",
     "blocks": [
       {
@@ -279,7 +279,7 @@ export default {
     "seoTitle": "Рясні місячні, залізо та оманливий HbA1c",
     "metaDesc": "Нестача заліза може підняти HbA1c, хоча цукор у крові не змінився. Чому рясні місячні в перименопаузі цьому сприяють і що питати, коли цифри не сходяться.",
     "excerpt": "Нестача заліза може підняти HbA1c, хоча глюкоза не зрушила. Чому перименопауза робить це ймовірнішим і про що варто просити лікаря.",
-    "meta": "13 листопада 2026 · 9 хв читання",
+    "meta": "13 листопада 2026 · 12 хв читання",
     "lead": "Ваш HbA1c зріс. Сенсор показує, що не мав би. Місячні стали настільки рясними, що ви почали підлаштовувати під них свої плани. Ці три факти можуть бути пов’язані — і не так, як ви, мабуть, думаєте. HbA1c не вимірює цукор у крові: він вимірює ваші еритроцити, а коли заліза бракує, ці клітини живуть довше й устигають зібрати більше глюкози. Показник росте, хоча з глюкозою не відбувається нічого. Ось наскільки великий цей ефект насправді, для кого він має значення і який аналіз його не виявить.",
     "blocks": [
       {

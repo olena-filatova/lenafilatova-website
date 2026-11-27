@@ -13,7 +13,7 @@ export default {
     "seoTitle": "Resveratrol and Wrinkles: What the 8-Week Trial Found",
     "metaDesc": "A placebo-controlled trial tested oral and topical trans-resveratrol in women over 40. The wrinkle result was small — the pigmentation result was bigger.",
     "excerpt": "A double-blind trial gave women over 40 resveratrol capsules, cream, both or neither for eight weeks. Only the group taking both beat placebo on wrinkles — and by less than the headlines suggest.",
-    "meta": "8 September 2026 · 6 min read",
+    "meta": "8 September 2026 · 3 min read",
     "lead": "Resveratrol — the compound in red grape skin — has been sold as an anti-ageing ingredient for two decades on almost no human skin evidence. There is now a proper randomised trial. It is worth reading, and worth reading carefully.",
     "blocks": [
       {
@@ -107,7 +107,7 @@ export default {
     "seoTitle": "Ресвератрол і зморшки: що показало дослідження",
     "metaDesc": "Плацебо-контрольоване дослідження перевірило ресвератрол у капсулах і кремі в жінок після 40. Вплив на зморшки малий — на пігментацію більший.",
     "excerpt": "У подвійному сліпому дослідженні жінки після 40 вісім тижнів приймали ресвератрол у капсулах, крем, обидва засоби — або плацебо. Плацебо перевершила лише група з обома.",
-    "meta": "8 вересня 2026 · 6 хв читання",
+    "meta": "8 вересня 2026 · 3 хв читання",
     "lead": "Ресвератрол — сполуку зі шкірки червоного винограду — продають як інгредієнт проти старіння вже два десятиліття, майже без доказів на людській шкірі. Тепер є повноцінне рандомізоване дослідження. Його варто прочитати — і прочитати уважно.",
     "blocks": [
       {

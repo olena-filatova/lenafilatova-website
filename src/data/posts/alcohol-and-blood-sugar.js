@@ -16,7 +16,7 @@ export default {
     "imageAlt": "Two tall cocktails garnished with cucumber and orange being set down on a restaurant table between two people",
     "metaDesc": "Alcohol can drop your glucose 10–12 hours later, not while you drink. The mechanism, what it really means for glucagon, and what changes after 40.",
     "excerpt": "Alcohol doesn’t affect blood sugar through the sugar in the drink. The part worth knowing happens hours after the glass is empty, usually overnight while you’re asleep.",
-    "meta": "20 August 2026 · 10 min read",
+    "meta": "20 August 2026 · 28 min read",
     "lead": "In a controlled study, six men with type 1 diabetes drank dry white wine at nine in the evening. Their glucose overnight was no different from the nights they drank water. Then, from ten the next morning, five of the six needed treating for hypoglycaemia. The alcohol had been undetectable in their blood since eight. That gap — between the drink and the consequence — is the whole story, and it is almost never explained to the people it happens to.",
     "blocks": [
       {
@@ -181,7 +181,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The exercise interaction is the one that catches people out most, because both effects are delayed and they stack. A long ride or a heavy session depletes glycogen and raises insulin sensitivity for many hours afterwards; alcohol then removes the mechanism that would normally compensate. Saturday’s session followed by Saturday evening’s drinks puts both peaks in the same part of Sunday morning. I have written separately about [what happens to blood sugar around training](/blog/eating-around-training-blood-sugar/), and the timing principles there are the ones that matter here too."
+        "text": "The exercise interaction is the one that catches people out most, because both effects are delayed and they stack. A long ride or a heavy session depletes glycogen and raises insulin sensitivity for many hours afterwards; alcohol then removes the mechanism that would normally compensate. Saturday’s session followed by Saturday evening’s drinks puts both peaks in the same part of Sunday morning. I have written separately about [what happens to blood sugar around training](/blog/eating-around-training-blood-sugar/), and the timing principles there are the ones that matter here too. Both [a heavy weights session](/blog/does-weight-training-raise-blood-sugar/) and [a hard interval session](/blog/zone-2-or-hiit-after-40/) leave insulin sensitivity raised for 24 to 48 hours on their own, which is the half of this that has nothing to do with drinking."
       },
       {
         "t": "h",
@@ -360,7 +360,7 @@ export default {
           ],
           [
             "Setting overnight alarms differently after drinking",
-            "Sensor alarms are the practical answer to a risk that arrives while you are asleep, and the reason they matter more here is that the natural awakening response cannot be relied on. How to set them is a team conversation — an alarm threshold is effectively a clinical decision."
+            "Sensor alarms are the practical answer to a risk that arrives while you are asleep, and the reason they matter more here is that the natural awakening response cannot be relied on. Worth knowing which way a sensor errs: when glucose is genuinely falling it tends to read higher than the blood — by around 1.2 mmol/L in one exercise study — which is the direction that reassures you. How to set them is a team conversation — an alarm threshold is effectively a clinical decision."
           ],
           [
             "Telling at least one person you are with",
@@ -410,7 +410,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "I drink rarely, with food, and not the night before anything I care about being sharp for. I stopped treating the end of the evening as the end of the event — the part I pay attention to now is the following morning, which took me an embarrassing number of years to work out, because everything I had ever read pointed at the wrong end of the timeline. My alarms are set to be irritating on those nights and I let them be. And whoever I am with knows what a low looks like, and knows it can look exactly like too much wine."
+        "text": "I drink rarely, with food, and not the night before anything I care about being sharp for. I stopped treating the end of the evening as the end of the event — the part I pay attention to now is the following morning, which took me an embarrassing number of years to work out, because everything I had ever read pointed at the wrong end of the timeline. My alarms are set to be irritating on those nights and I let them be, with the sensor’s own bias in mind: [it reads high rather than low when glucose is actually falling](/blog/how-to-read-cgm-during-workout/). And whoever I am with knows what a low looks like, and knows it can look exactly like too much wine."
       },
       {
         "t": "p",
@@ -584,7 +584,7 @@ export default {
     "imageAlt": "Два високі келихи з коктейлями, прикрашені огірком і апельсином, які ставлять на столик у ресторані між двома людьми",
     "metaDesc": "Алкоголь може знизити глюкозу через 10–12 годин, а не під час пиття. Механізм, що це насправді означає для глюкагону, і що змінюється після 40.",
     "excerpt": "Алкоголь впливає на цукор не через цукор у напої. Найважливіше стається за кілька годин після того, як келих спорожнів, — зазвичай уночі, коли ви спите.",
-    "meta": "20 серпня 2026 · 10 хв читання",
+    "meta": "20 серпня 2026 · 27 хв читання",
     "lead": "У контрольованому дослідженні шестеро чоловіків із діабетом 1 типу випили сухого білого вина о дев’ятій вечора. Уночі їхня глюкоза нічим не відрізнялася від ночей, коли вони пили воду. А потім, із десятої ранку наступного дня, п’ятьом із шести знадобилося лікування гіпоглікемії. Алкоголь у крові не визначався вже з восьмої. Саме цей розрив — між напоєм і наслідком — і є вся суть, і саме його майже ніколи не пояснюють тим, з ким це стається.",
     "blocks": [
       {
@@ -749,7 +749,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Взаємодія з тренуванням підводить найчастіше, бо обидва ефекти відстрочені й накладаються. Довга велопоїздка чи важке тренування виснажують глікоген і підвищують чутливість до інсуліну на багато годин; алкоголь потім прибирає механізм, який мав би це компенсувати. Суботнє тренування плюс суботній вечір із напоями зводять обидва піки в одну частину недільного ранку. Я писала окремо про [те, що відбувається з цукром навколо тренувань](/ua/blog/eating-around-training-blood-sugar/), і принципи таймінгу звідти працюють і тут."
+        "text": "Взаємодія з тренуванням підводить найчастіше, бо обидва ефекти відстрочені й накладаються. Довга велопоїздка чи важке тренування виснажують глікоген і підвищують чутливість до інсуліну на багато годин; алкоголь потім прибирає механізм, який мав би це компенсувати. Суботнє тренування плюс суботній вечір із напоями зводять обидва піки в одну частину недільного ранку. Я писала окремо про [те, що відбувається з цукром навколо тренувань](/ua/blog/eating-around-training-blood-sugar/), і принципи таймінгу звідти працюють і тут. І [важке силове заняття](/ua/blog/does-weight-training-raise-blood-sugar/), і [жорстке інтервальне](/ua/blog/zone-2-or-hiit-after-40/) самі собою тримають чутливість до інсуліну підвищеною 24–48 годин — це та половина історії, яка з алкоголем не пов’язана зовсім."
       },
       {
         "t": "h",
@@ -928,7 +928,7 @@ export default {
           ],
           [
             "Інакше налаштовувати нічні тривоги після алкоголю",
-            "Тривоги сенсора — практична відповідь на ризик, який настає, поки ви спите, і тут вони важливіші саме тому, що на природне пробудження покладатися не можна. Як їх налаштувати — питання до команди: поріг тривоги фактично є клінічним рішенням."
+            "Тривоги сенсора — практична відповідь на ризик, який настає, поки ви спите, і тут вони важливіші саме тому, що на природне пробудження покладатися не можна. Варто знати, у який бік сенсор помиляється: коли глюкоза справді падає, він схильний показувати вище за кров — приблизно на 1,2 ммоль/л в одному дослідженні з навантаженням — тобто саме в той бік, що заспокоює. Як їх налаштувати — питання до команди: поріг тривоги фактично є клінічним рішенням."
           ],
           [
             "Сказати хоча б одній людині поруч",
@@ -978,7 +978,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Я п’ю рідко, з їжею, і не напередодні того, для чого мені потрібна ясна голова. Я перестала вважати кінець вечора кінцем події: тепер я звертаю увагу на наступний ранок, і мені знадобилася ганебна кількість років, щоб до цього дійти, бо все, що я коли-небудь читала, вказувало не на той кінець часової шкали. Мої тривоги в такі ночі налаштовані так, щоб дратувати, і я їм це дозволяю. І той, хто поруч, знає, як виглядає гіпоглікемія, і знає, що вона може виглядати точнісінько як зайвий келих вина."
+        "text": "Я п’ю рідко, з їжею, і не напередодні того, для чого мені потрібна ясна голова. Я перестала вважати кінець вечора кінцем події: тепер я звертаю увагу на наступний ранок, і мені знадобилася ганебна кількість років, щоб до цього дійти, бо все, що я коли-небудь читала, вказувало не на той кінець часової шкали. Мої тривоги в такі ночі налаштовані так, щоб дратувати, і я їм це дозволяю — пам’ятаючи про власну похибку сенсора: [коли глюкоза справді падає, він показує вище, а не нижче](/ua/blog/how-to-read-cgm-during-workout/). І той, хто поруч, знає, як виглядає гіпоглікемія, і знає, що вона може виглядати точнісінько як зайвий келих вина."
       },
       {
         "t": "p",

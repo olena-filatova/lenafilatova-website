@@ -19,7 +19,7 @@ export default {
     "seoTitle": "Lifting Beat Cardio for Fat Loss in Women",
     "metaDesc": "In a 304-person DXA study, women who lifted lost 5.4 kg on the scale but 6.4 kg of fat — and were the only group to gain muscle. What that means in practice.",
     "excerpt": "A new body-composition study followed 121 women through a real calorie deficit. The ones who lifted weights came out worst on the scale and best everywhere it counts.",
-    "meta": "1 September 2026 · 7 min read",
+    "meta": "1 September 2026 · 5 min read",
     "lead": "If you have ever done everything right for five months and watched the scale barely move, this study is for you. It measured what the number on the scale cannot: what the weight was actually made of.",
     "blocks": [
       {
@@ -131,7 +131,7 @@ export default {
     "seoTitle": "Силові переграли кардіо у втраті жиру в жінок",
     "metaDesc": "У DXA-дослідженні за участю 304 людей жінки, які тренувалися з вагою, втратили 5,4 кг на терезах, але 6,4 кг жиру — і лише вони наростили м’язи. Що це означає на практиці.",
     "excerpt": "Нове дослідження складу тіла стежило за 121 жінкою, яка трималася реального дефіциту калорій. Ті, хто піднімав ваги, виглядали найгірше на терезах — і найкраще там, де це справді має значення.",
-    "meta": "1 вересня 2026 · 7 хв читання",
+    "meta": "1 вересня 2026 · 5 хв читання",
     "lead": "Якщо ви колись п’ять місяців робили все правильно й дивилися, як вага майже не рухається, це дослідження про вас. Воно виміряло те, чого терези показати не можуть: із чого саме складалася та вага.",
     "blocks": [
       {

@@ -26,7 +26,7 @@ export default {
     "seoTitle": "Magnesium for Perimenopause Sleep & Insulin Resistance",
     "metaDesc": "What the evidence actually shows about magnesium for perimenopause sleep and blood sugar — and where the claims outrun the research.",
     "excerpt": "Magnesium is perimenopause’s favourite supplement. The blood-sugar biology is real; the sleep evidence is thin — and none of it was designed around perimenopausal women.",
-    "meta": "24 August 2026 · 8 min read",
+    "meta": "24 August 2026 · 11 min read",
     "lead": "Magnesium has become the default answer to almost everything about being a woman in her forties: the broken sleep, the anxiety, the blood sugar that has started behaving differently. Some of that is well-founded. Some of it is a supplement industry filling a gap that medicine left open. This is where the line falls.",
     "blocks": [
       {
@@ -234,7 +234,7 @@ export default {
     "seoTitle": "Магній у перименопаузі: сон та інсулінорезистентність",
     "metaDesc": "Що насправді показують дослідження про магній, сон і цукор у крові в перименопаузі — і де обіцянки випереджають науку.",
     "excerpt": "Магній — улюблена добавка жінок у перименопаузі. Зв’язок із цукром має реальне біологічне підґрунтя, докази щодо сну слабкі — і жодне з досліджень не було розраховане на жінок у перименопаузі.",
-    "meta": "24 серпня 2026 · 8 хв читання",
+    "meta": "24 серпня 2026 · 11 хв читання",
     "lead": "Магній став універсальною відповіддю майже на все, що стосується жінки за сорок: перерваний сон, тривожність, цукор у крові, який почав поводитися інакше. Дещо з цього обґрунтоване. А дещо — це індустрія добавок, що заповнює прогалину, залишену медициною. Ось де проходить межа.",
     "blocks": [
       {

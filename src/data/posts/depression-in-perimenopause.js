@@ -23,7 +23,7 @@ export default {
     "seoTitle": "Perimenopause and Depression: What the Evidence Says",
     "metaDesc": "In perimenopause the odds of depression are about 40% higher than before it. What drives the risk, who is most affected, and what NICE says helps.",
     "excerpt": "The odds of depression are about 40% higher in perimenopause than before it — and it tracks with hormone swings, not low oestrogen. What helps, and what to ask for.",
-    "meta": "20 September 2026 · 8 min read",
+    "meta": "20 September 2026 · 10 min read",
     "lead": "If your mood changed in your forties and nobody thought to connect it to your cycle, you are in a very large group. The evidence that the menopause transition carries a real mood risk is now reasonably solid — and so is the evidence about what to do with it.",
     "blocks": [
       {

@@ -14,7 +14,7 @@ export default {
     "imageAlt": "A woman in black gym clothes squatting with a loaded barbell across her shoulders in a squat rack.",
     "title": "Why lifting weights sends your blood sugar up — and why that’s not a failure",
     "excerpt": "Lifting pushes glucose up while a walk pulls it down. The mechanism behind the split, what the 24–48 hours afterwards do, and why it matters more after 40.",
-    "meta": "13 August 2026 · 8 min read",
+    "meta": "13 August 2026 · 11 min read",
     "lead": "You finish a heavy set, glance at your phone, and the arrow is pointing up. Nothing you ate explains it. After 23 years with type 1 diabetes, I can tell you this is one of the most misread readings there is — and one of the least worrying.",
     "seoTitle": "Does Weight Training Raise Blood Sugar? What’s Happening",
     "metaDesc": "Lifting weights can push your glucose up while cardio pulls it down. What’s happening, why it’s normal, and what it means for women over 40.",
@@ -144,7 +144,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "When you train, your muscles move glucose transporters — GLUT4 — to the cell surface. That effect does not switch off when you rack the bar. [A review in the American Journal of Physiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/) describes enhanced insulin sensitivity becoming detectable one to four hours after exercise and persisting for up to 24 to 48 hours. For that day and a half or so, the same amount of insulin does more work. Your muscle is, temporarily, a better place for glucose to go."
+        "text": "When you train, your muscles move glucose transporters — GLUT4 — to the cell surface. That effect does not switch off when you rack the bar. [A review in the American Journal of Physiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/) describes enhanced insulin sensitivity becoming detectable one to four hours after exercise and persisting for up to 24 to 48 hours. For that day and a half or so, the same amount of insulin does more work. Your muscle is, temporarily, a better place for glucose to go. One thing stacks badly with that window: [alcohol suppresses your liver’s ability to manufacture new glucose for ten to twelve hours](/blog/alcohol-and-blood-sugar/), which removes the defence the raised sensitivity would otherwise need. A heavy session on Saturday followed by drinks on Saturday evening puts both delayed effects in the same part of Sunday morning."
       },
       {
         "t": "p",
@@ -278,7 +278,7 @@ export default {
     "imageAlt": "Жінка в чорному спортивному одязі присідає зі штангою на плечах у силовій рамі.",
     "title": "Чому від силових цукор у крові йде вгору — і чому це не провал",
     "excerpt": "Штанга піднімає глюкозу, а прогулянка її опускає. Звідки ця різниця, що відбувається протягом наступних 24–48 годин і чому після 40 це важливіше.",
-    "meta": "13 серпня 2026 · 8 хв читання",
+    "meta": "13 серпня 2026 · 11 хв читання",
     "lead": "Ви завершуєте важкий підхід, дивитеся на телефон — а стрілка показує вгору. Ніщо зі з’їденого цього не пояснює. За 23 роки з діабетом 1 типу скажу: це одне з показань, які найчастіше тлумачать хибно, — і одне з найменш тривожних.",
     "seoTitle": "Чи піднімають силові тренування цукор у крові?",
     "metaDesc": "Силові тренування можуть піднімати глюкозу, а кардіо — опускати. Що відбувається, чому це нормально і що це означає для жінок після 40.",
@@ -408,7 +408,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Коли ви тренуєтеся, ваші м’язи виводять транспортери глюкози — GLUT4 — на поверхню клітини. Цей ефект не вимикається, коли ви кладете штангу на стійки. [Огляд в American Journal of Physiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/) описує, що посилена чутливість до інсуліну стає помітною через одну-чотири години після вправ і може зберігатися до 24–48 годин. Протягом цієї доби з гаком та сама кількість інсуліну виконує більше роботи. Ваші м’язи тимчасово охочіше приймають глюкозу."
+        "text": "Коли ви тренуєтеся, ваші м’язи виводять транспортери глюкози — GLUT4 — на поверхню клітини. Цей ефект не вимикається, коли ви кладете штангу на стійки. [Огляд в American Journal of Physiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/) описує, що посилена чутливість до інсуліну стає помітною через одну-чотири години після вправ і може зберігатися до 24–48 годин. Протягом цієї доби з гаком та сама кількість інсуліну виконує більше роботи. Ваші м’язи тимчасово охочіше приймають глюкозу. Одна річ накладається на це вікно особливо невдало: [алкоголь пригнічує здатність печінки виробляти нову глюкозу на десять-дванадцять годин](/ua/blog/alcohol-and-blood-sugar/) — і забирає саме той захист, який за підвищеної чутливості потрібен найбільше. Важке заняття в суботу плюс суботній вечір із напоями зводять обидва відстрочені ефекти в одну частину недільного ранку."
       },
       {
         "t": "p",

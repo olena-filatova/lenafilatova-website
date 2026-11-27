@@ -17,7 +17,7 @@ export default {
     "seoTitle": "What to Eat Before Training With Diabetes",
     "metaDesc": "Pre- and post-workout eating for insulin resistance and type 1 diabetes — plus an honest verdict on fasted training after 40.",
     "excerpt": "Whether to eat before you train, what to eat afterwards, and why the answer is genuinely different for insulin resistance and type 1 diabetes.",
-    "meta": "13 August 2026 · 8 min read",
+    "meta": "13 August 2026 · 10 min read",
     "lead": "You’ve started training. Now you’re standing in the kitchen at quarter to seven wondering whether to eat first — and if so, what, and how much. This is the part almost nobody covers well, because the honest answer depends on which kind of blood sugar problem you’re managing.",
     "blocks": [
       {
@@ -94,7 +94,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Two things are worth knowing about the hours after training. The first is that muscle keeps taking up glucose more readily for a long time afterwards — Diabetes UK suggests staying alert to it for up to 24 hours. If you’re on insulin, that’s the window where the surprise low arrives, and it’s often overnight rather than straight after."
+        "text": "Two things are worth knowing about the hours after training. The first is that muscle keeps taking up glucose more readily for a long time afterwards — Diabetes UK suggests staying alert to it for up to 24 hours, and the laboratory work runs longer again: [enhanced insulin sensitivity is detectable for up to 48 hours after a session](/blog/does-weight-training-raise-blood-sugar/). The two are not in conflict. Twenty-four hours is the period to watch closely; the second day is the one that can still catch you out. If you’re on insulin, that’s the window where the surprise low arrives, and it’s often overnight rather than straight after."
       },
       {
         "t": "p",
@@ -296,7 +296,7 @@ export default {
     "seoTitle": "Що їсти перед тренуванням при діабеті",
     "metaDesc": "Харчування до і після тренування при інсулінорезистентності та діабеті 1 типу — і чесний висновок про тренування натщесерце після 40.",
     "excerpt": "Чи їсти перед тренуванням, що їсти після нього і чому відповідь справді різна при інсулінорезистентності та при діабеті 1 типу.",
-    "meta": "13 серпня 2026 · 8 хв читання",
+    "meta": "13 серпня 2026 · 10 хв читання",
     "lead": "Ви почали тренуватися. І ось ви стоїте на кухні за чверть сьома й думаєте, чи поїсти спершу — і якщо так, то що і скільки. Про це майже ніхто не пише як слід, бо чесна відповідь залежить від того, з яким саме порушенням цукру ви маєте справу.",
     "blocks": [
       {
@@ -373,7 +373,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Про години після заняття варто знати дві речі. Перша: м’язи ще довго охочіше забирають глюкозу — Diabetes UK радить зважати на це протягом 24 годин. Якщо ви на інсуліні, саме в цьому вікні з’являється несподівана гіпоглікемія, і часто вона нічна, а не одразу після тренування."
+        "text": "Про години після заняття варто знати дві речі. Перша: м’язи ще довго охочіше забирають глюкозу — Diabetes UK радить зважати на це протягом 24 годин, а лабораторні дані сягають далі: [посилена чутливість до інсуліну помітна до 48 годин після заняття](/ua/blog/does-weight-training-raise-blood-sugar/). Суперечності тут немає. Перша доба — час пильної уваги; друга — та, що ще здатна здивувати. Якщо ви на інсуліні, саме в цьому вікні з’являється несподівана гіпоглікемія, і часто вона нічна, а не одразу після тренування."
       },
       {
         "t": "p",

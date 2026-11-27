@@ -16,7 +16,7 @@ export default {
     "seoTitle": "Night Sweats or a Hypo? How to Tell the Difference",
     "metaDesc": "Perimenopause and nocturnal hypoglycaemia cause near-identical night sweats. How to tell them apart safely — from 23 years with type 1 diabetes.",
     "excerpt": "Perimenopause and a night-time hypo can bring almost the same 3am wake-up, and you can’t tell them apart by feel. Here’s what settles it, and why the order matters.",
-    "meta": "19 August 2026 · 9 min read",
+    "meta": "19 August 2026 · 17 min read",
     "lead": "Menopause websites will tell you night sweats are a vasomotor symptom. Diabetes websites will tell you they are a warning sign of a low overnight. Both are written for a woman who belongs to one category, and if you have diabetes and you are somewhere in perimenopause, you don’t. This is the post for the middle.",
     "blocks": [
       {
@@ -378,7 +378,7 @@ export default {
     "seoTitle": "Нічна пітливість чи гіпо? Як їх розрізнити",
     "metaDesc": "Перименопауза й нічна гіпоглікемія дають майже однакову нічну пітливість. Як безпечно їх розрізнити — з досвіду 23 років із діабетом 1 типу.",
     "excerpt": "Перименопауза й нічна гіпоглікемія будять о третій ночі майже однаково, і за відчуттями їх не розрізнити. Ось що справді дає відповідь і чому важливий порядок дій.",
-    "meta": "19 серпня 2026 · 9 хв читання",
+    "meta": "19 серпня 2026 · 16 хв читання",
     "lead": "Сайти про менопаузу скажуть вам, що нічна пітливість — це вазомоторний симптом. Сайти про діабет скажуть, що це ознака нічної гіпоглікемії. І ті, і ті написані для жінки, яка належить до однієї категорії. Якщо у вас діабет і ви десь у перименопаузі, ви не вписуєтеся в жодну з них. Цей текст — для тих, хто посередині.",
     "blocks": [
       {

@@ -16,7 +16,7 @@ export default {
     "seoTitle": "Type 1 Diabetes Cure: What’s Actually Working in 2026",
     "metaDesc": "Some people in type 1 trials have lived years without insulin. An honest, verified guide to the cure research worth following — and how to join a trial.",
     "excerpt": "For the first time, people in trials are living without insulin for years. Here’s an honest, verified map of the type 1 cure research worth following — and how to follow or join it.",
-    "meta": "19 July 2026 · 11 min read",
+    "meta": "19 July 2026 · 9 min read",
     "lead": "A cure for type 1 diabetes has been “five years away” for as long as many of us have lived with it. But something has genuinely shifted. For the first time, people in trials are living without insulin — not for a week, but for years. Here is an honest map of the research actually worth following, and how to follow or even join it yourself.",
     "blocks": [
       {

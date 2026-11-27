@@ -22,7 +22,7 @@ export default {
     "seoTitle": "Stanford’s Top 6 Supplements for Women 40+",
     "metaDesc": "Stanford’s list for women 40+: creatine, protein, vitamin D3, calcium, omega-3, fibre. No magnesium, collagen only a caution — and UK doses read differently.",
     "excerpt": "The viral Stanford supplement list for women over 40 says less than its rewrites. Magnesium isn’t on it, collagen appears only as a warning, and omega-3 has no dose.",
-    "meta": "31 August 2026 · 8 min read",
+    "meta": "31 August 2026 · 6 min read",
     "lead": "A Stanford list of the supplements women over 40 should be taking has been going round all summer, and the versions I kept being sent had magnesium at the top, collagen in the middle and a confident two-to-three grams of omega-3 attached to it. So I went and read the original. It says none of those things.",
     "blocks": [
       {
@@ -167,7 +167,7 @@ export default {
     "seoTitle": "Топ-6 добавок Stanford для жінок після 40",
     "metaDesc": "Стенфордський список для жінок після 40: креатин, білок, вітамін D3, кальцій, омега-3, клітковина. Магнію немає, колаген — засторога, британські норми доз інші.",
     "excerpt": "Вірусний стенфордський список добавок для жінок після 40 каже менше, ніж його переказують. Магнію в ньому немає, колаген — лише застереження, а для омега-3 немає дози.",
-    "meta": "31 серпня 2026 · 8 хв читання",
+    "meta": "31 серпня 2026 · 6 хв читання",
     "lead": "Стенфордський список добавок, які нібито мають приймати жінки після 40, ходить мережею все літо, і у версіях, які мені надсилали, зверху був магній, посередині колаген, а до всього впевнено доклеєні два-три грами омега-3. Тож я пішла й прочитала оригінал. Нічого з цього там немає.",
     "blocks": [
       {
