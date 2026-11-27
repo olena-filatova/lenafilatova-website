@@ -15,7 +15,8 @@
     "check-summaries": "node scripts/check-summary-lengths.mjs",
     "check-summaries:strict": "node scripts/check-summary-lengths.mjs --strict",
     "images": "node scripts/build-images.mjs",
-    "images:force": "node scripts/build-images.mjs --force"
+    "images:force": "node scripts/build-images.mjs --force",
+    "check-brief": "node scripts/check-brief-duplicate.mjs"
   },
   "dependencies": {
     "astro": "^5.13.0"
