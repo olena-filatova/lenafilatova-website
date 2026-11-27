@@ -19,7 +19,7 @@ export default {
     "title": "A record two million women are on NHS HRT — and where you live still decides whether you’re one of them",
     "seoTitle": "NHS HRT Hits Two Million — And the Access Gap Persists",
     "metaDesc": "A record 2,038,025 women in England were prescribed NHS HRT in 2025/26 — and new NHSBSA data show who is still missing out, by postcode and by diagnosis.",
-    "excerpt": "NHS HRT prescribing in England has more than doubled in five years. The same figures show a woman in Brighton and Hove is five times more likely to be on it than a woman in Newham.",
+    "excerpt": "NHS HRT prescribing in England has more than doubled in five years. The same figures show a woman in Brighton and Hove is five times likelier to be on it than in Newham.",
     "meta": "5 September 2026 · 7 min read",
     "lead": "The headline number is genuinely good news: more women are getting treatment for menopause symptoms on the NHS than ever before. The number underneath it is the one worth reading — because the gap between who gets offered HRT and who doesn’t has barely moved.",
     "blocks": [

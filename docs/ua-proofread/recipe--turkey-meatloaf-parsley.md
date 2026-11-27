@@ -1,11 +1,10 @@
 # recipe--turkey-meatloaf-parsley
 
-Last checked: 2026-10-16
-PR: https://github.com/olena-filatova/lenafilatova-website/pull/402
+Last checked: 2026-11-26 (second cycle; previously 2026-10-16, PR #402)
+PR: https://github.com/olena-filatova/lenafilatova-website/pull/620
 
-Notes: 3 small fixes — title had a repeated "з ... з" construction, `why`
-had a calque ("повільна клітковина" → "клітковина повільного засвоєння"),
-and `method` used an English-style "Дайте відпочити" where the rest of the
-site says "Дайте трохи постояти" / "настоятися". Everything else (ingredients,
-remaining method steps, note) already matched the EN meaning and read
-naturally.
+Notes: 8 fixes. Anglicism «мітлоф» (title, imgAlt, why) → «м’ясний хлібець»;
+«з вкрапленнями» → «із вкрапленнями» (euphony), «тарілка з обідком» → «з бортиком»;
+«без стрибків цукру» → «не спричиняє стрибків цукру в крові»; «білок яйця» →
+«яєчний білок»; «при 110°C» → «за температури 110°C»; calques in the last method step
+and the note («для обідів», «просто з холодильника») rewritten. Numbers untouched.

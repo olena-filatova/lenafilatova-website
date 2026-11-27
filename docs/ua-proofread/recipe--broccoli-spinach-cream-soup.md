@@ -1,5 +1,5 @@
 # recipe--broccoli-spinach-cream-soup
 
-- Last checked: 2026-10-16
+- Last checked: 2026-11-26
 - PR: (this PR)
-- Notes: 1 fix — `why`: "стабілізують цукор" → "стабілізують рівень цукру в крові" (terminology consistency with the site's established phrase for "steady/stabilise blood sugar", used 8× elsewhere in recipes.js; also matches the EN "steady blood sugar" more precisely). No other issues found — ingredients and method read naturally and match the EN text.
+- Notes: 5 fixes (second cycle). `imgAlt` rewritten from a clipped list («зверху кільця зеленої цибулі…») into a natural sentence; `why` verb agreement after the quantifier «трохи» («додають» → «додає»); «смажений мигдаль» → «підсмажений» for roasted nuts (ingredients + method 4); method 3 «в чашу» → «у високу посудину» (EN "jug", for a stick blender); method 4 «також пасують» → «також добре пасують» (EN "also work well"). Title, nutrition, meta checked against EN — no issues.

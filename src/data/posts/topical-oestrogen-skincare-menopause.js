@@ -11,8 +11,8 @@ export default {
     "imageAlt": "A woman smoothing white cream onto her cheek with two fingers.",
     "title": "“Oestrogen skincare” is becoming its own category — and two very different products share the name",
     "seoTitle": "Oestrogen Skincare for Menopausal Skin: The Evidence",
-    "metaDesc": "Topical estradiol and non-hormonal MEP are both sold as “oestrogen skincare”, but they are not the same thing. What the trials actually show — and what they don’t.",
-    "excerpt": "After the FDA’s move on hormone therapy labels, oestrogen skincare is being marketed hard. Two quite different products sit behind the name, and the evidence behind them is thinner than the packaging suggests.",
+    "metaDesc": "Topical estradiol and non-hormonal MEP are both sold as “oestrogen skincare”, but they are not the same. What the trials show — and what they don’t.",
+    "excerpt": "After the FDA’s move on hormone therapy labels, oestrogen skincare is being marketed hard. Two quite different products share the name, and the evidence is thin.",
     "meta": "28 July 2026 · 4 min read",
     "lead": "Clinics and brands are pushing “oestrogen skincare” as the next serious answer to menopausal skin. Before spending anything on it, it’s worth knowing that the phrase covers two different products — one is a hormone, one isn’t — and that the trial evidence is early.",
     "blocks": [
@@ -129,8 +129,8 @@ export default {
     "imageAlt": "Жінка розподіляє білий крем по щоці двома пальцями.",
     "title": "«Естрогенова косметика» стає окремою категорією — і під цією назвою продають два різні продукти",
     "seoTitle": "Естрогенова косметика в менопаузі: що каже наука",
-    "metaDesc": "Місцевий естрадіол і негормональний MEP продають як «естрогенову косметику», але це не одне й те саме. Що справді доводять дослідження — і чого вони не доводять.",
-    "excerpt": "Після рішення FDA щодо маркування гормональної терапії естрогенову косметику рекламують дедалі активніше. За цією назвою стоять два різні продукти, а доказів на їхню користь менше, ніж обіцяє упаковка.",
+    "metaDesc": "Місцевий естрадіол і негормональний MEP продають як «естрогенову косметику», але це не одне й те саме. Що справді доводять дослідження.",
+    "excerpt": "Після рішення FDA щодо маркування гормональної терапії естрогенову косметику рекламують активніше. Під цією назвою — два різні продукти, а доказів менше, ніж обіцяно.",
     "meta": "28 липня 2026 · 4 хв читання",
     "lead": "Клініки та бренди просувають «естрогенову косметику» як нове серйозне рішення для шкіри в менопаузі. Перш ніж витрачати на це гроші, варто знати: за цією назвою стоять два різні продукти — один гормон, інший ні, — а клінічних досліджень поки що обмаль.",
     "blocks": [

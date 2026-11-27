@@ -1,5 +1,5 @@
 # UA proofread: post--omega-3-weight-loss-gut-microbiome
 
-- Last checked: 2026-11-19 (fifth cycle; previously 2026-11-15, 2026-11-12, 2026-10-31, 2026-09-29)
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/586
-- Notes: Already clean; light style pass. 7 fixes: 1 meaning (conclusion «добавка впливає на маркери краще за плацебо» → «покращує маркери більше, ніж плацебо», matching EN "improve the markers over placebo"), 2 anglicism «пілот» → «пілотне дослідження», 1 site terminology (heading «Що каже наука» → «Що кажуть дослідження», used by 78 posts), 2 grammar/passive («45 розпочали» → «розпочали участь»; «не було виявлено» → «не виявили»), 1 word choice («звичайна вада» → «типова вада»). Excerpt 164, metaDesc 158 chars. Numbers, P-values, URLs, slugs and `en` untouched.
+- Last checked: 2026-11-23 (sixth cycle; previously 2026-11-19, 2026-11-15, 2026-11-12, 2026-10-31, 2026-09-29)
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/608
+- Notes: 9 fixes. 3 meaning vs EN: «рак у другій грудній залозі» → «у протилежній» ("the other breast"); «аптечній капсулі» → «капсулі… із супермаркету» ("supermarket"); «мамографічну щільність» → «мамографічну щільність грудей». 3 site convention: «et al.» → «та ін.» in UA cites (×3; 113 vs 52 site-wide). 3 word choice/calque: «Онкологічних наслідків ніхто не вимірював» → «Захворюваність на рак не оцінювали» ("cancer outcomes"); «висновок був прямим» → «однозначним» ("blunt"); imageAlt «трави» → «свіжа зелень» ("herbs"). Numbers, P-values, URLs, slugs, `en` untouched.

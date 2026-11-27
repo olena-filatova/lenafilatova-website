@@ -1,5 +1,5 @@
 # recipe--rye-kulich-ginger-anise
 
-- Last checked: 2026-10-15
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/398
-- Notes: 1 fix. Terminology consistency: "1 ч. л. соди" → "1 ч. л. харчової соди" in the ingredients list — every other recipe on the site names bicarbonate of soda as "харчова сода" (8 other occurrences), this was the lone outlier with the bare "сода". No other spelling, grammar, calque, or meaning issues found; the UA text already reads as natural, idiomatic Ukrainian and matches the EN paragraph by paragraph.
+- Last checked: 2026-11-25 (second cycle; previously 2026-10-15)
+- PR: (this PR — `UA proofread: recipe--rye-kulich-ginger-anise, recipe--strawberry-banana-bake`)
+- Notes: 6 fixes. «Пасхальний» → «Великодній» in title and `why` (native term, and now matches the `imgAlt`); «ложка з горою» → «з гіркою» (standard culinary idiom, as in the other 2 recipes on the site); «води з-під фруктів» → «з-під сухофруктів» (matches the ingredient list); «накривши фольгою останні 10 хвилин» → «а на останні 10 хвилин накрийте фольгою» (perfective gerund implied covering before baking); «кокосом» → «кокосовою стружкою». Quantities, temperature and times untouched.

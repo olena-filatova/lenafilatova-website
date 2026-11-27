@@ -15,8 +15,8 @@ export default {
     "imageAlt": "An older woman exercising outdoors with a pair of small dumbbells.",
     "title": "GLP-1 drugs work in women over 65 — but a quarter to 40% of what comes off can be lean mass, much of it muscle",
     "seoTitle": "GLP-1 in Older Women: Up to 40% of Loss Can Be Lean Mass",
-    "metaDesc": "A 2026 Nutrients review of GLP-1 drugs in women over 65 finds 10–20% weight loss, notes that 25–40% of GLP-1 weight loss is typically lean mass, and says what protects muscle.",
-    "excerpt": "A February review in Nutrients gathers the GLP-1 trial data for women aged 65 and over: real weight loss, a sizeable share of it lean mass, and specific advice on what to do.",
+    "metaDesc": "A 2026 Nutrients review of GLP-1 drugs in women over 65: 10–20% weight loss, 25–40% of it typically lean mass, and what protects muscle.",
+    "excerpt": "A February review in Nutrients gathers the GLP-1 trial data for women aged 65 and over: real weight loss, a sizeable share of it lean mass, and what to do.",
     "meta": "19 August 2026 · 4 min read",
     "lead": "Most of what is written about Ozempic-style drugs is written about people in their forties and fifties. A review published in Nutrients in February went looking specifically for what happens in women aged 65 and over — and found both the strongest reason to use these drugs in that group and the strongest reason to be careful with them.",
     "blocks": [
@@ -105,8 +105,8 @@ export default {
     "imageAlt": "Жінка старшого віку займається на вулиці з парою невеликих гантелей.",
     "title": "Препарати GLP-1 працюють у жінок після 65 — але від чверті до 40% втраченого може припадати на знежирену масу, значною мірою м’язи",
     "seoTitle": "GLP-1 у жінок після 65: до 40% втрати — знежирена маса",
-    "metaDesc": "Огляд 2026 року в Nutrients: у жінок після 65 препарати GLP-1 дають 10–20% втрати ваги, а 25–40% втраченого на GLP-1 зазвичай припадає на знежирену масу. Що захищає м’язи.",
-    "excerpt": "Лютневий огляд у Nutrients зібрав дані досліджень GLP-1 у жінок від 65 років. Втрата ваги суттєва, частка знежиреної маси в ній теж — і огляд конкретно пояснює, що з цим робити.",
+    "metaDesc": "Огляд 2026 року в Nutrients: у жінок після 65 GLP-1 дають 10–20% втрати ваги, а 25–40% втраченого — знежирена маса. Що захищає м’язи.",
+    "excerpt": "Лютневий огляд у Nutrients зібрав дані досліджень GLP-1 у жінок від 65 років: втрата ваги суттєва, частка знежиреної маси в ній теж — і що з цим робити.",
     "meta": "19 серпня 2026 · 4 хв читання",
     "lead": "Більшість написаного про препарати на кшталт Ozempic стосується людей 40–50 років. Огляд, опублікований у лютому в Nutrients, шукав саме те, що відбувається в жінок віком 65 років і старших, — і знайшов водночас найвагомішу причину призначати ці препарати в цій групі та найвагомішу причину поводитися з ними обережно.",
     "blocks": [

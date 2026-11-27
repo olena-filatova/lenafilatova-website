@@ -1,5 +1,5 @@
 # UA proofread: recipe--granola-bars-blueberry
 
-- Last checked: 2026-10-18
+- Last checked: 2026-11-27
 - PR: (this PR)
-- Notes: three fixes in the `why` field — "повільну енергію" (calque of "slow energy") → "енергію повільного вивільнення"; "портативний перекус" (anglicism, "portable" doesn't collocate with food in Ukrainian) → "перекус, який легко взяти з собою"; bare "цукор" → "рівень цукру в крові" to match the site-wide terminology for blood sugar used elsewhere in recipes.js. Ingredients, method and nutrition already matched the EN and needed no changes.
+- Notes: 5 fixes (second cycle) — `why`: "енергію повільного вивільнення" (still a calque) → "енергію, яка вивільняється поступово"; broken clause "перекус, який легко взяти з собою, і тримає…" → "…і який краще за магазинний батончик підтримує стабільний рівень цукру в крові". Method: "Збийте … разом" → "Збийте блендером усі…"; "притисніть, щоб з’єднати" → "щоб шари з’єдналися"; nominal "перед нарізанням на батончики" → "і лише тоді наріжте на батончики". Ingredients, nutrition and note fine.

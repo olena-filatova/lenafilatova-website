@@ -1,5 +1,5 @@
 # recipe--strawberry-cream-cheesecake
 
-- Last checked: 2026-10-15
+- Last checked: 2026-11-24
 - PR: (this PR)
-- Notes: 1 fix. `title` dropped "(no-bake)" from the EN title — every other no-bake recipe on the site carries "без випікання" in its UA title (e.g. the very similar `strawberry-cheesecake` → "Полуничний чізкейк без випікання"), so the omission both lost information and made this recipe read as a baked cheesecake next to its near-namesake. Fixed to "Полуничний вершковий чізкейк без випікання". Ingredients, method and nutrition numbers already matched the EN exactly — no changes needed there.
+- Notes: 4 fixes (second cycle), all in `ingredients`/`method`. "Press into a tin" was «викладіть» → «щільно утрамбуйте»; clipped «збиваючи, до щільності» rewritten as a full clause; «повторіть шари» given «ще раз»; «Охолодіть … 1 годину» → «Поставте … у холодильник на 1 годину»; brand name in «». Quantities unchanged.

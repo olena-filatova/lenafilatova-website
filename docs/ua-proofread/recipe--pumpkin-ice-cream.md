@@ -1,8 +1,9 @@
 # recipe--pumpkin-ice-cream
 
-- Last checked: 2026-10-17
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/409
-- Notes: No issues found. UA text checked field by field against EN (title, why,
-  nutrition, meta, ingredients, method, note) — grammar, case agreement,
-  punctuation, terminology (`глікемічний вплив`, `багатий білком`) all consistent
-  with the rest of the site; no Russianisms, calques, or meaning drift from EN.
+- Last checked: 2026-11-27
+- PR: https://github.com/olena-filatova/lenafilatova-website/pull/627
+- Notes: 5 fixes (2nd cycle). Calque «надають смаку гарбузового пирога» → «смакує як
+  гарбузовий пиріг»; colloquial «Заморозка» → «Заморожування»; «прянощів для гарбуза»
+  → «для гарбузового пирога» (pumpkin-pie spice); redundant «трохи … кілька хвилин
+  перед подачею» rewritten to match EN "before scooping"; calque «щоб зробити його
+  повністю безцукровим» rewritten.

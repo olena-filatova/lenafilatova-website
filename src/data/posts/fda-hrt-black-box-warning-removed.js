@@ -16,7 +16,7 @@ export default {
     "title": "The FDA has taken its strongest warning off HRT — here is what actually changed",
     "seoTitle": "FDA Removes HRT Black Box Warning: What Actually Changed",
     "metaDesc": "In February 2026 the FDA removed cardiovascular, breast cancer and dementia warnings from HRT labels. What changed, what stayed, and what it means in the UK.",
-    "excerpt": "The FDA has removed the cardiovascular, breast cancer and dementia statements from the boxed warning on menopausal hormone therapy. One warning stayed. And none of it changes a British prescription.",
+    "excerpt": "The FDA has removed the heart, breast cancer and dementia statements from HRT’s boxed warning. One warning stayed. And none of it changes a British prescription.",
     "meta": "29 August 2026 · 6 min read",
     "lead": "For twenty years the box of HRT on a pharmacy shelf carried the drug-labelling equivalent of a shout. In February the American regulator took most of that shout off. It is a real change, and it is a smaller one than the headlines suggest.",
     "blocks": [
@@ -140,7 +140,7 @@ export default {
     "title": "FDA зняло із ЗГТ своє найсуворіше попередження — що саме змінилося",
     "seoTitle": "FDA зняло попередження із ЗГТ: що змінилося насправді",
     "metaDesc": "У лютому 2026 року FDA прибрало з інструкцій до ЗГТ попередження про серце, рак грудей і деменцію. Що змінилося, що залишилося і що це означає у Британії.",
-    "excerpt": "FDA прибрало з «чорної рамки» на інструкціях до ЗГТ згадки про серцево-судинні хвороби, рак грудей і деменцію. Одне попередження залишилося. І на британський рецепт це не впливає.",
+    "excerpt": "FDA прибрало з «чорної рамки» на інструкціях до ЗГТ згадки про серце, рак грудей і деменцію. Одне попередження залишилося. На британський рецепт це не впливає.",
     "meta": "29 серпня 2026 · 6 хв читання",
     "lead": "Двадцять років упаковка ЗГТ на аптечній полиці несла на собі те, що мовою інструкцій до ліків рівнозначне крику. У лютому американський регулятор більшу частину цього крику зняв. Це справжня зміна — але менша, ніж можна подумати з заголовків.",
     "blocks": [

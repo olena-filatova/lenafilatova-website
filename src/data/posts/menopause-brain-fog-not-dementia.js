@@ -11,7 +11,7 @@ export default {
     "title": "Menopause brain fog isn’t early dementia — and it finally has a definition",
     "seoTitle": "Menopause Brain Fog Isn’t Early Dementia",
     "metaDesc": "A 2026 Lancet review defines menopause brain fog as a drop in mental efficiency, not capacity — reported by two-thirds of women, and not a dementia sign.",
-    "excerpt": "A 2026 Lancet review proposes a clinical definition of menopausal brain fog: self-reported trouble with memory, attention or word-finding, without measurable cognitive decline — and no link to dementia risk.",
+    "excerpt": "A 2026 Lancet review proposes a definition of menopausal brain fog: reported trouble with memory, attention or words, with no measurable decline and no link to dementia.",
     "meta": "15 August 2026 · 4 min read",
     "lead": "Around two-thirds of women report memory or concentration trouble across the menopause transition. Until now there has been no agreed definition of what that is — which is part of why so little has been done about it.",
     "blocks": [
@@ -113,8 +113,8 @@ export default {
     "imageAlt": "Жінка за столом із заплющеними очима тримає окуляри біля чола, поруч розгорнута книжка.",
     "title": "Туман у голові в менопаузі — це не рання деменція, і тепер у нього є визначення",
     "seoTitle": "Туман у голові в менопаузі — це не деменція",
-    "metaDesc": "Огляд Lancet 2026: туман у голові в менопаузі — це падіння ефективності мислення, а не втрата здатностей. Його відчувають дві третини жінок, і це не ознака деменції.",
-    "excerpt": "Огляд The Lancet 2026 року пропонує клінічне визначення туману в голові в менопаузі: суб’єктивні труднощі з пам’яттю, увагою чи добором слів без вимірюваного зниження когнітивних функцій — і без зв’язку з ризиком деменції.",
+    "metaDesc": "Огляд Lancet 2026: туман у голові в менопаузі — це падіння ефективності мислення, а не втрата здатностей. Його відчувають дві третини жінок.",
+    "excerpt": "Огляд The Lancet 2026 пропонує визначення туману в голові в менопаузі: труднощі з пам’яттю, увагою чи словами без вимірюваного зниження і без зв’язку з деменцією.",
     "meta": "15 серпня 2026 · 4 хв читання",
     "lead": "Близько двох третин жінок повідомляють про проблеми з пам’яттю чи концентрацією під час менопаузального переходу. Досі не було узгодженого визначення, що це таке, — і це одна з причин, чому з цим так мало робили.",
     "blocks": [

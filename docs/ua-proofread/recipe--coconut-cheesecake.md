@@ -1,5 +1,5 @@
 # recipe--coconut-cheesecake
 
-- Last checked: 2026-10-16
+- Last checked: 2026-11-26
 - PR: (this PR)
-- Notes: 1 fix — `method` step 5: "зволожте 1–2 ст. л. кокосових вершків" → "зволожте 1–2 ст. л. кокосовими вершками" (grammar: the "moisten with X" construction takes the instrumental case, as the site's own "посипте"/"полийте" steps consistently do elsewhere in recipes.js — the genitive here was a case-agreement slip). No other issues found — ingredients, `why`, `imgAlt` and the rest of the method match the EN text and read naturally.
+- Notes: 6 fixes (second cycle). `why` tautology «вершки — вершковість» → «насичений смак» (EN "richness"), plus «стрибка цукру» → «стрибка цукру в крові»; `imgAlt` «товстий білий крем» → «товстий шар білого крему»; method 1 restores EN "a little *more* flour" («ще трохи»); method 4 calqued word order («змішайте руками, не блендером, сир…») reordered; method 6 restores EN "alternately" («по черзі») and «кондитерське кільце»; method 7 restores EN "reserved crumb" («відкладеної крихти» instead of «рештою»). Title, ingredients, nutrition, meta — no issues.

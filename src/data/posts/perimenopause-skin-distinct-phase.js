@@ -19,7 +19,7 @@ export default {
     "title": "Perimenopause may be its own phase for skin — but nobody has published the numbers yet",
     "seoTitle": "Perimenopause Skin: A Distinct Phase, on Thin Evidence",
     "metaDesc": "A cosmetics company says perimenopause is its own skin phase, driven by broken sleep. The idea fits what women report — but no sample sizes were published.",
-    "excerpt": "Six studies presented at a dermatology meeting say perimenopausal skin needs treating differently from skin after menopause, and blame disrupted sleep. Not one of them reports how many women were involved.",
+    "excerpt": "Six studies at a dermatology meeting say perimenopausal skin needs treating differently from skin after menopause, and blame sleep. None says how many women took part.",
     "meta": "1 November 2026 · 7 min read",
     "lead": "If your skin changed in your mid-forties while your periods were still arriving, you have probably been told it is ageing, or that it will settle once menopause is properly done. New research says perimenopause is a phase of its own and ought to be treated as one. I think that is probably right. It is also, at the moment, an assertion rather than a finding, and the difference matters when somebody is about to sell you something.",
     "blocks": [
@@ -125,7 +125,7 @@ export default {
     "title": "Перименопауза може бути окремою фазою для шкіри — але цифр досі ніхто не оприлюднив",
     "seoTitle": "Шкіра в перименопаузі: окрема фаза на слабких доказах",
     "metaDesc": "Косметична компанія каже, що перименопауза — окрема фаза для шкіри через порушений сон. Ідея збігається з досвідом жінок, але розмірів вибірок не оприлюднили.",
-    "excerpt": "Шість досліджень, представлених на дерматологічній конференції, стверджують: шкіру в перименопаузі треба лікувати інакше, ніж після менопаузи, і винен порушений сон. У жодному з них не вказано, скільки жінок узяло участь.",
+    "excerpt": "Шість досліджень на конференції стверджують: шкіру в перименопаузі треба лікувати інакше, ніж після менопаузи. У жодному не вказано, скільки жінок узяло участь.",
     "meta": "1 листопада 2026 · 7 хв читання",
     "lead": "Якщо ваша шкіра змінилася десь у середині сорокових, коли менструації ще не припинилися, вам, найімовірніше, казали, що це просто вік або що все вляжеться, коли менопауза настане остаточно. Нові дослідження кажуть, що перименопауза — окрема фаза і ставитися до неї треба відповідно. Думаю, найпевніше, так і є. Але поки що це твердження, а не висновок, і ця різниця важлива, коли вам от-от намагатимуться щось продати.",
     "blocks": [
