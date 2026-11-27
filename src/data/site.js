@@ -492,7 +492,7 @@ export const HOME = {
     title: { en: 'Zucchini Spaghetti with Salmon', ua: 'Спагеті з кабачка з лососем' },
     desc: {
       en: 'Ribbons of courgette stand in for pasta, cutting the carbs to almost nothing while keeping the shape and feel of spaghetti. Salmon adds protein and omega-3, for a quick low-GI main.',
-      ua: 'Стрічки кабачка замінюють макарони, зводячи вуглеводи майже до нуля, але зберігаючи форму й відчуття спагеті. Лосось додає білок та омега-3 — швидка основна страва з низьким ГІ.',
+      ua: 'Стрічки кабачка замінюють макарони: вуглеводів майже немає, а форма й текстура — як у справжніх спагеті. Лосось додає білка та омега-3, тож виходить швидка основна страва з низьким ГІ.',
     },
     gi: 15, carbs: 6, slug: 'zucchini-spaghetti-salmon', img: '/recipes/images/93-zucchini-spaghetti-salmon.jpg',
   },
