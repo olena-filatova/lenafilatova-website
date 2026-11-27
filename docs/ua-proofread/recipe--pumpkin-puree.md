@@ -1,5 +1,5 @@
 # UA proofread: recipe--pumpkin-puree
 
-- Last checked: 2026-10-18
+- Last checked: 2026-11-27
 - PR: (this PR)
-- Notes: one calque/Russianism fix — "відкиньте на марлю" → "процідіть через марлю" in the method step (straining is natively "процідити", not the Russian-style "відкинути на X"). Rest of the UA text (title, why, nutrition, ingredients, remaining method steps) matches the EN meaning and reads naturally; no other issues found.
+- Notes: 3 fixes (second cycle) — `why`: fragment "Нічого, крім запеченого гарбуза — низькокалорійного…" → "Лише запечений гарбуз — низькокалорійний…"; calque "Приготуйте партію" (make a batch) → "Приготуйте більше про запас"; method step 5: added "блендером" (EN "blend") and a subject to "Якщо занадто рідке" → "Якщо пюре вийшло занадто рідким, процідіть його…". Earlier fix (процідіть через марлю) kept.
