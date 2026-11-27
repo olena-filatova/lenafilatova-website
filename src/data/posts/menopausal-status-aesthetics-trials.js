@@ -1,6 +1,7 @@
 export default {
   "slug": "menopausal-status-aesthetics-trials",
   "date": "2026-09-29",
+  "updated": "2026-11-24",
   "image": "/images/menopausal-status-aesthetics-trials.jpg",
   "cats": [
     "skin"
@@ -12,7 +13,7 @@ export default {
     "seoTitle": "Menopause Status in Aesthetics Trials: Why It Was Missing",
     "metaDesc": "Galderma says it will record menopausal status in all its injectable trials. What that fixes, what its 4,300-woman survey does and does not show.",
     "excerpt": "One of the largest makers of fillers and biostimulators says menopausal status will now be recorded in all its injectable trials. The change is sensible and overdue — and it tells you what was not being written down until now.",
-    "meta": "29 September 2026 · 6 min read",
+    "meta": "29 September 2026 · updated 24 November 2026 · 9 min read",
     "lead": "A company that sells injectable treatments has said it will start recording whether the women in its trials are menopausal. That is a good change. It is also an admission about how those trials have been run until now.",
     "blocks": [
       {
@@ -37,11 +38,31 @@ export default {
       },
       {
         "t": "p",
-        "text": "That last pair of numbers is the one I would keep. The complaint that nobody warned you is consistent across every survey of this kind I have read, including [the peer-reviewed one of 17,494 women in 158 countries](/blog/perimenopause-global-survey-symptom-gap/), and it does not depend on who is asking. The rest needs a caveat the coverage has mostly left out: participants were screened for having had, or being open to, aesthetic treatments. When a survey recruits women open to treatment and then reports that roughly 47% would consider an anti-wrinkle treatment, it is partly measuring its own entry criterion. This is a company survey presented at a trade congress, not epidemiology, and it describes a market rather than a population."
+        "text": "That last pair of numbers is the one I would keep. The complaint that nobody warned you is consistent across every survey of this kind I have read, including [the peer-reviewed one of 17,494 women in 158 countries](/blog/perimenopause-global-survey-symptom-gap/), and it does not depend on who is asking. The rest needs a caveat the coverage has mostly left out: participants were screened for having had, or being open to, aesthetic treatments. When a survey recruits women open to treatment and then reports that roughly 47% would consider an anti-wrinkle treatment, it is partly measuring its own entry criterion. One thing has changed since I first wrote that, and in the survey’s favour: it has since been peer-reviewed, published in the journal Dermatologic Surgery in October 2026 with the San Diego dermatologist Sabrina Fabi as lead author. So it is no longer only a congress hand-out. Peer review does not undo the recruitment criterion, though, and that is the part that matters — it still describes a market rather than a population."
       },
       {
         "t": "p",
         "text": "The company's materials also repeat the familiar line that around 30% of collagen is lost in the first five years after menopause. That figure turns up everywhere, and it is softer than it looks — it traces back through consumer articles to small biopsy studies from the 1980s and 1990s, and reviews more usually summarise the loss as roughly 2% a year across the first fifteen years. I have gone through where it comes from in [the post on why skin changes so fast at menopause](/blog/menopause-skin-oestrogen/). Direction: solid. Precision: borrowed."
+      },
+      {
+        "t": "h",
+        "text": "November: a dermatologist makes the case from the podium"
+      },
+      {
+        "t": "p",
+        "text": "Six weeks after the survey appeared in print, Fabi took the same material to the American Society for Dermatologic Surgery annual meeting in San Diego (5–8 November 2026), in a presentation called Hormonal influence on SKINSPAN. Her argument there went further than the survey does. She told the trade outlet Healio that the treatments dermatologists currently offer do not change the hormonal landscape at all, and that optimising women hormonally could perhaps improve the results of those treatments. She called for a full consultation before anyone starts treatment — covering HRT, transdermal and topical oestrogen, skincare, muscle-relaxing injections, fillers, fat transfer and energy-based devices — and encouraged dermatologists to work alongside integrative medicine doctors. She was also careful to say oestrogen is one hormone among many here, naming progesterone, testosterone, oxytocin and cortisol."
+      },
+      {
+        "t": "p",
+        "text": "Two numbers came with it, and both need their hedging kept. Women treated with HRT were said to have around 10% greater skin thickness than premenopausal skin, and four- to sevenfold higher oestrone and oestradiol in fat tissue. Those are attributed to her presentation, and the trade coverage does not name the studies behind them. Her own wording was that oestrogen replacement can potentially improve skin thickness, as seen in a couple of clinical trials, and on progesterone, that there is a benefit that has to be further investigated. A couple of trials and a few studies is the honest size of the evidence, and it is worth noticing that she said so herself while the headlines did not."
+      },
+      {
+        "t": "p",
+        "text": "Her version of the collagen figure is also worth pinning down, because it is steeper than the one I traced earlier. She put it as 30% lost in the first five years and 2% every year after that. Reviews more usually describe roughly 2% a year across the first fifteen years, so her first five years run at about three times that rate before the 2% even starts. The direction is not in dispute. The arithmetic is doing more work than the underlying measurements support."
+      },
+      {
+        "t": "p",
+        "text": "What this is, then, is a clinician arguing for a change in how consultations are run — not new trial data. That is a reasonable thing to argue, and there is a version of it that is useful to you: if you are weighing an aesthetic treatment for changes that arrived as your periods became unreliable, asking about hormones is a sensible question to put to whoever is treating you. What it is not is evidence that HRT is an established treatment for skin. I have been through what the trials do and do not show in [the post on what hormone therapy can and cannot do for skin](/blog/menopause-skin-oestrogen/), and that picture has not changed this month."
       },
       {
         "t": "h",
@@ -77,6 +98,18 @@ export default {
             "detail": "The survey covered more than 4,300 peri- and postmenopausal women aged 45 to 60 in nine countries across five continents (US, Brazil, Germany, UK, Saudi Arabia, UAE, Egypt, China, Thailand). Reported findings included 59% with facial lines and wrinkles, 58% with loss of facial firmness and 56% with facial dryness; 60% feeling less attractive, 57% more anxious and 55% less confident; more than half learning of menopause's effect on skin only through experiencing it, and over 30% wishing they had learned in their thirties. Around 47% said they would consider anti-wrinkle treatments. Participants were screened for having had or being open to aesthetic treatments, which makes the treatment-interest figures partly a reflection of recruitment. This is industry research presented at a trade congress, not a peer-reviewed population study.",
             "cite": "Dermatology Times · Report from IMCAS 2026, 30 January 2026",
             "url": "https://www.dermatologytimes.com/view/galderma-prioritizes-menopause-related-skin-health-with-new-data-at-imcas-2026"
+          },
+          {
+            "claim": "That survey has since been published in a peer-reviewed journal.",
+            "detail": "The survey was published in Dermatologic Surgery in October 2026, with Sabrina G. Fabi as lead author, reported as covering 4,303 women in nine countries. The figures given are 60% feeling less attractive, 57% reporting anxiety or low mood and 55% feeling less confident — the same as those presented at the congress in January. The journal article itself is paywalled; the sample size and percentages here are as reported from it by Healio Dermatology, and I have not been able to read the paper’s own methods, funding or conflict-of-interest statements. Publication in a journal does not change the recruitment criterion described above: the sample was screened for having had, or being open to, aesthetic treatments.",
+            "cite": "Fabi SG et al. · Dermatologic Surgery, October 2026 · doi:10.1097/DSS.0000000000005374",
+            "url": "https://doi.org/10.1097/DSS.0000000000005374"
+          },
+          {
+            "claim": "A dermatologist urged colleagues at a US surgical meeting to consider hormone therapy alongside aesthetic treatment.",
+            "detail": "Presentation Hormonal influence on SKINSPAN by Sabrina G. Fabi at the American Society for Dermatologic Surgery annual meeting, San Diego, 5–8 November 2026, reported by Healio Dermatology together with comments she gave them directly. Figures attributed to the presentation: around 10% greater skin thickness in women treated with HRT compared with premenopausal skin; four- to sevenfold higher oestrone and oestradiol concentrations in subcutaneous and visceral fat; 30% collagen loss in the first five years of menopause and 2% a year after. The trials behind the skin-thickness and hormone-concentration figures are not named in the coverage, and her own wording was that HRT can potentially improve skin thickness, as seen in a couple of clinical trials. This is a conference presentation reported by a trade news outlet, not a published trial. Fabi reports financial relationships with a long list of aesthetics and pharmaceutical companies, including AbbVie, Bausch Health, Croma, Endo, Ipsen, L’Oréal, Merz, Revance and Teoxane.",
+            "cite": "Healio Dermatology · 13 November 2026 (ASDS Annual Meeting)",
+            "url": "https://www.healio.com/news/dermatology/20261113/consider-hormone-therapy-to-improve-menopauserelated-skin-changes"
           },
           {
             "claim": "Hormones are being mapped as possible targets for skin ageing — as mechanisms, not yet as treatments.",
@@ -126,7 +159,7 @@ export default {
     "seoTitle": "Менопаузальний статус у дослідженнях: чому його бракувало",
     "metaDesc": "Galderma фіксуватиме менопаузальний статус у всіх дослідженнях ін’єкційних препаратів. Що це виправляє і що показало опитування 4300 жінок, а чого — ні.",
     "excerpt": "Великий виробник філерів фіксуватиме менопаузальний статус у всіх дослідженнях ін’єкційних препаратів. Зміна слушна й запізніла — і показує, чого досі не записували.",
-    "meta": "29 вересня 2026 · 6 хв читання",
+    "meta": "29 вересня 2026 · оновлено 24 листопада 2026 · 9 хв читання",
     "lead": "Компанія, що продає ін’єкційні препарати, повідомила: тепер вона записуватиме, чи перебувають учасниці досліджень у менопаузі. Це добра зміна. І водночас визнання того, як ці дослідження проводили досі.",
     "blocks": [
       {
@@ -151,11 +184,31 @@ export default {
       },
       {
         "t": "p",
-        "text": "З усього цього я б запам’ятала саме останні дві цифри. Скарга на те, що ніхто не попередив, повторюється в кожному опитуванні такого типу, яке я читала, включно з [рецензованим опитуванням 17 494 жінок зі 158 країн](/ua/blog/perimenopause-global-survey-symptom-gap/), і вона не залежить від того, хто питає. Решта потребує застереження, яке в переказах здебільшого загубилося: до опитування брали тих, хто вже робив естетичні процедури або принаймні не проти їх зробити. Коли опитування набирає жінок, відкритих до процедур, а потім повідомляє, що близько 47% розглянули б процедуру проти зморшок, воно частково вимірює власний критерій відбору. Це дослідження компанії, представлене на галузевому конгресі, а не епідеміологія: воно описує ринок, а не популяцію."
+        "text": "З усього цього я б запам’ятала саме останні дві цифри. Скарга на те, що ніхто не попередив, повторюється в кожному опитуванні такого типу, яке я читала, включно з [рецензованим опитуванням 17 494 жінок зі 158 країн](/ua/blog/perimenopause-global-survey-symptom-gap/), і вона не залежить від того, хто питає. Решта потребує застереження, яке в переказах здебільшого загубилося: до опитування брали тих, хто вже робив естетичні процедури або принаймні не проти їх зробити. Коли опитування набирає жінок, відкритих до процедур, а потім повідомляє, що близько 47% розглянули б процедуру проти зморшок, воно частково вимірює власний критерій відбору. Одне з того часу змінилося — і на користь опитування: його відтоді відрецензували й опублікували в журналі Dermatologic Surgery у жовтні 2026 року, перша авторка — дерматологиня Сабріна Фабі зі Сан-Дієго. Тобто це вже не лише роздатковий матеріал із конгресу. Але рецензування не скасовує критерію відбору, а саме він тут головний: опитування все одно описує ринок, а не популяцію."
       },
       {
         "t": "p",
         "text": "Матеріали компанії також повторюють звичну тезу, що близько 30% колагену втрачається за перші п’ять років після менопаузи. Ця цифра трапляється скрізь, і вона менш надійна, ніж здається: якщо пройти ланцюжком популярних статей, вона веде до невеликих біопсійних досліджень 1980-х і 1990-х років, а огляди частіше підсумовують втрату як приблизно 2% на рік за перші п’ятнадцять років. Звідки вона взялася, я розібрала у [статті про те, чому шкіра так швидко змінюється в менопаузі](/ua/blog/menopause-skin-oestrogen/). Напрям — надійний. Точність — позичена."
+      },
+      {
+        "t": "h",
+        "text": "Листопад: дерматологиня обґрунтовує це з трибуни"
+      },
+      {
+        "t": "p",
+        "text": "Через шість тижнів після публікації Фабі привезла той самий матеріал на щорічну конференцію Американського товариства дерматологічної хірургії в Сан-Дієго (5–8 листопада 2026 року) з доповіддю під назвою Hormonal influence on SKINSPAN. Там її аргумент пішов далі, ніж саме опитування. Галузевому виданню Healio вона сказала, що процедури, які дерматологи пропонують сьогодні, взагалі не змінюють гормонального тла, і що гормональна оптимізація могла б, можливо, покращити результати цих процедур. Вона закликала проводити повну консультацію перед початком будь-якого лікування — з розмовою про МГТ, трансдермальні й місцеві форми естрогену, догляд за шкірою, інʼєкції для розслаблення мʼязів, філери, пересадку жиру та апаратні методики — і радила дерматологам працювати разом із лікарями інтегративної медицини. Вона також обережно додала, що естроген тут — лише один гормон із багатьох, і назвала прогестерон, тестостерон, окситоцин і кортизол."
+      },
+      {
+        "t": "p",
+        "text": "Разом із цим прозвучали дві цифри, і обом варто зберегти їхні застереження. Йшлося про те, що в жінок, які отримують МГТ, шкіра приблизно на 10% товща, ніж передменопаузальна, а концентрації естрону й естрадіолу в жировій тканині — у чотири-сім разів вищі. Це приписано саме її доповіді, і галузевий репортаж не називає досліджень, на яких ці цифри тримаються. Її власне формулювання було таке: заміщення естрогену потенційно може збільшити товщину шкіри, як це бачили в кількох клінічних дослідженнях, а щодо прогестерону — що користь є, але її треба вивчати далі. Кілька досліджень — це і є чесний розмір цих доказів, і варто зауважити, що сама вона це сказала, а заголовки — ні."
+      },
+      {
+        "t": "p",
+        "text": "Її версію цифри про колаген теж варто зафіксувати, бо вона крутіша за ту, яку я розбирала раніше. Вона подає це так: 30% втрачається за перші п’ять років і далі по 2% щороку. Огляди частіше описують приблизно 2% на рік за перші п’ятнадцять років — отже, її перші п’ять років ідуть приблизно втричі швидше, і це ще до того, як почнуться ті 2%. Напрям ніхто не заперечує. А от арифметика тут робить більше роботи, ніж витримують самі вимірювання."
+      },
+      {
+        "t": "p",
+        "text": "Тобто це лікарка, яка обґрунтовує зміну в тому, як проводять консультації, а не нові дані досліджень. Обґрунтовувати це розумно, і є версія цієї думки, яка вам справді корисна: якщо ви зважуєте естетичну процедуру через зміни, що зʼявилися тоді, коли цикл став нерегулярним, запитати про гормони — слушне питання до того, хто вас лікує. Чого тут немає — це доказів, що МГТ є визнаним лікуванням для шкіри. Що дослідження показують, а чого ні, я розбирала у [статті про те, що гормональна терапія може і чого не може для шкіри](/ua/blog/menopause-skin-oestrogen/), і за цей місяць там нічого не змінилося."
       },
       {
         "t": "h",
@@ -191,6 +244,18 @@ export default {
             "detail": "Опитування охопило понад 4300 жінок у пери- та постменопаузі віком від 45 до 60 років у дев’яти країнах на п’яти континентах (США, Бразилія, Німеччина, Велика Британія, Саудівська Аравія, ОАЕ, Єгипет, Китай, Таїланд). Серед результатів: 59% із лініями та зморшками на обличчі, 58% із втратою пружності обличчя, 56% із сухістю шкіри обличчя; 60% почуваються менш привабливими, 57% — тривожнішими, 55% — менш впевненими; понад половина дізналася про вплив менопаузи на шкіру лише з власного досвіду, а більш ніж 30% хотіли б дізнатися про це ще тоді, коли їм було за тридцять. Близько 47% сказали, що розглянули б процедуру проти зморшок. До опитування брали тих, хто вже робив естетичні процедури або відкритий до них, тож цифри щодо інтересу до процедур частково відображають критерій набору. Це галузеве дослідження, представлене на конгресі, а не рецензоване популяційне дослідження.",
             "cite": "Dermatology Times · Репортаж з IMCAS 2026, 30 січня 2026",
             "url": "https://www.dermatologytimes.com/view/galderma-prioritizes-menopause-related-skin-health-with-new-data-at-imcas-2026"
+          },
+          {
+            "claim": "Це опитування відтоді опублікували в рецензованому журналі.",
+            "detail": "Опитування опублікували в журналі Dermatologic Surgery у жовтні 2026 року, перша авторка — Сабріна Ґ. Фабі; за повідомленнями, воно охопило 4303 жінки в дев’яти країнах. Наведені цифри: 60% почуваються менш привабливими, 57% повідомили про тривожність або знижений настрій, 55% — про меншу впевненість; ті самі, що й представлені на конгресі в січні. Сама стаття в журналі платна; обсяг вибірки й відсотки тут подано так, як їх переказало видання Healio Dermatology, і я не мала можливості прочитати в самій статті розділи про методологію, фінансування та конфлікт інтересів. Публікація в журналі не змінює описаного вище критерію відбору: до вибірки брали тих, хто вже робив естетичні процедури або відкритий до них.",
+            "cite": "Fabi SG та ін. · Dermatologic Surgery, жовтень 2026 · doi:10.1097/DSS.0000000000005374",
+            "url": "https://doi.org/10.1097/DSS.0000000000005374"
+          },
+          {
+            "claim": "На хірургічній конференції у США дерматологиня закликала колег розглядати гормональну терапію поряд з естетичними процедурами.",
+            "detail": "Доповідь Hormonal influence on SKINSPAN Сабріни Ґ. Фабі на щорічній конференції Американського товариства дерматологічної хірургії, Сан-Дієго, 5–8 листопада 2026 року; переказ видання Healio Dermatology разом із коментарями, які вона дала йому напряму. Цифри, приписані доповіді: приблизно на 10% товща шкіра в жінок, які отримують МГТ, порівняно з передменопаузальною; у чотири-сім разів вищі концентрації естрону й естрадіолу в підшкірній і вісцеральній жировій тканині; 30% втрати колагену за перші п’ять років менопаузи і далі по 2% щороку. Дослідження, на яких тримаються цифри про товщину шкіри й концентрації гормонів, у репортажі не названі, а її власне формулювання було таке: МГТ потенційно може збільшити товщину шкіри, як це бачили в кількох клінічних дослідженнях. Це доповідь на конференції в переказі галузевого видання, а не опубліковане дослідження. Фабі повідомляє про фінансові відносини з довгим списком естетичних і фармацевтичних компаній, зокрема AbbVie, Bausch Health, Croma, Endo, Ipsen, L’Oréal, Merz, Revance і Teoxane.",
+            "cite": "Healio Dermatology · 13 листопада 2026 (конференція ASDS)",
+            "url": "https://www.healio.com/news/dermatology/20261113/consider-hormone-therapy-to-improve-menopauserelated-skin-changes"
           },
           {
             "claim": "Гормони описують як можливі мішені для впливу на старіння шкіри — поки що як механізми, а не як лікування.",
