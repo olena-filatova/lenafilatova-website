@@ -13,7 +13,7 @@ export default {
     "seoTitle": "Menopause Status in Aesthetics Trials: Why It Was Missing",
     "metaDesc": "Galderma says it will record menopausal status in all its injectable trials. What that fixes, what its 4,300-woman survey does and does not show.",
     "excerpt": "One of the largest makers of fillers and biostimulators says menopausal status will now be recorded in all its injectable trials. The change is sensible and overdue — and it tells you what was not being written down until now.",
-    "meta": "29 September 2026 · updated 24 November 2026 · 9 min read",
+    "meta": "29 September 2026 · updated 24 November 2026 · 7 min read",
     "lead": "A company that sells injectable treatments has said it will start recording whether the women in its trials are menopausal. That is a good change. It is also an admission about how those trials have been run until now.",
     "blocks": [
       {
@@ -159,7 +159,7 @@ export default {
     "seoTitle": "Менопаузальний статус у дослідженнях: чому його бракувало",
     "metaDesc": "Galderma фіксуватиме менопаузальний статус у всіх дослідженнях ін’єкційних препаратів. Що це виправляє і що показало опитування 4300 жінок, а чого — ні.",
     "excerpt": "Великий виробник філерів фіксуватиме менопаузальний статус у всіх дослідженнях ін’єкційних препаратів. Зміна слушна й запізніла — і показує, чого досі не записували.",
-    "meta": "29 вересня 2026 · оновлено 24 листопада 2026 · 9 хв читання",
+    "meta": "29 вересня 2026 · оновлено 24 листопада 2026 · 7 хв читання",
     "lead": "Компанія, що продає ін’єкційні препарати, повідомила: тепер вона записуватиме, чи перебувають учасниці досліджень у менопаузі. Це добра зміна. І водночас визнання того, як ці дослідження проводили досі.",
     "blocks": [
       {
