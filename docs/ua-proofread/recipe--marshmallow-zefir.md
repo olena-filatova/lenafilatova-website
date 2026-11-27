@@ -1,5 +1,5 @@
 # recipe--marshmallow-zefir
 
-- Last checked: 2026-10-14
+- Last checked: 2026-11-24 (second cycle; previously 2026-10-14)
 - PR: (this PR)
-- Notes: title said "без цукру" (no sugar) though the recipe contains honey — corrected to "без рафінованого цукру" to match the EN "No Refined Sugar" and avoid a misleading claim. Fixed a vanilla/vanillin terminology mismatch between the ingredient line and the method step, de-repeated "желатину" in the `why` blurb, and added "на шматочки" to the chilling step to match the EN "cut into pieces". No grammar or punctuation errors found otherwise.
+- Notes: 4 fixes. `why`: «Пухкий» → «Повітряний» (the natural word for zefir), comma closing the participial phrase before the dash, and the second «желатину» rephrased («а желатин робить його багатим на білок»). Method: «додайте ваніліну» → «ванілін» (accusative); the freezer parenthetical rewritten as a full instruction. Numbers, nutrition and `en` untouched.
