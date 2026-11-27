@@ -1,10 +1,9 @@
 # recipe--rhubarb-lavender-jam
 
-- Last checked: 2026-10-16
-- PR: (see commit history on `main` for the PR that added this file)
-- Notes: No issues found. Checked title, seoTitle, metaDesc, imgAlt, why,
-  nutrition, meta, ingredients, method and note against the English —
-  all accurate and natural. The repeated "з ревеню з лавандою" in the title
-  matches the site's existing convention for this recipe cluster (compare
-  `rhubarb-orange-jam`'s "Варення з ревеню з апельсинами"), so it was left
-  as is rather than "corrected".
+- Last checked: 2026-11-25 (second pass; previous 2026-10-16)
+- PR: #619
+- Notes: 5 small fixes — ingredient word order ("нарізаного підготовленого
+  ревеню"), "або … чи" mixed in one list → "або … або", "Замочіть желатин" →
+  "залийте … й залиште набухнути" (bloom), method step reordered so the time
+  comes first and "розм’якнуть" replaces "розм’якшаться", missing "а" in the
+  note. Title kept per the cluster convention noted in the first pass.
