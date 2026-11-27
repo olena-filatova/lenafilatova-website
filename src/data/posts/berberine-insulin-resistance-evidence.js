@@ -21,7 +21,7 @@ export default {
     "seoTitle": "Berberine for insulin resistance: what trials show",
     "metaDesc": "Berberine is sold as “nature’s Ozempic”. What the 2025 meta-analysis found, why the GLP-1 comparison fails, and the safety review that has changed the question.",
     "excerpt": "Berberine does move blood sugar — about as much as a mild oral drug, in short trials. That is also why European regulators have spent the past year unable to agree a safe dose for it.",
-    "meta": "21 November 2026 · 9 min read",
+    "meta": "21 November 2026 · 11 min read",
     "lead": "Berberine has been sold as “nature’s Ozempic” for three years now, and the evidence question people ask about it — does it actually lower blood sugar? — turns out to be the easy one. Yes, modestly. The harder question is the one that has been working its way through European food safety committees all year, and almost none of the pages selling you capsules will mention it.",
     "blocks": [
       {

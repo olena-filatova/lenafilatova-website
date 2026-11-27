@@ -19,7 +19,7 @@ export default {
     "seoTitle": "Oral Minoxidil for Women: the 1.25mg Dose and UK Access",
     "metaDesc": "The agreed starting dose for women is 1.25mg a day. What the side effects look like at that dose, and how to raise it with a UK GP when it is off-label.",
     "excerpt": "Minoxidil tablets are prescribed off-label for women’s pattern hair loss, now with an expert consensus. The doses, the real side effects, and what a UK GP can do.",
-    "meta": "24 August 2026 · 9 min read",
+    "meta": "24 August 2026 · 11 min read",
     "lead": "If you have searched for minoxidil tablets, you have probably landed on trial news, drug-company announcements or an American telehealth advert. None of them answers the question you were actually asking: what dose, what side effects, and can I get this in Britain. This is that page.",
     "blocks": [
       {
@@ -235,7 +235,7 @@ export default {
     "seoTitle": "Таблетки міноксидилу для жінок: 1,25 мг і доступ у Британії",
     "metaDesc": "Погоджена стартова доза для жінок — 1,25 мг на добу. Які побічні ефекти бувають на цій дозі і як обговорити призначення поза інструкцією з лікарем.",
     "excerpt": "Міноксидил у таблетках призначають жінкам поза інструкцією, і тепер для цього є експертний консенсус. Дози, реальні побічні ефекти й розмова з британським лікарем.",
-    "meta": "24 серпня 2026 · 9 хв читання",
+    "meta": "24 серпня 2026 · 11 хв читання",
     "lead": "Якщо ви шукали інформацію про міноксидил у таблетках, ви, найімовірніше, натрапили на новини про дослідження, пресрелізи фармкомпаній або американську телемедичну рекламу. Жодне з цього не відповідає на запитання, яке вас справді цікавило: яка доза, які побічні ефекти й чи можна це отримати у Великій Британії. Ця сторінка — саме про це.",
     "blocks": [
       {

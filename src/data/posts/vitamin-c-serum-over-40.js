@@ -20,7 +20,7 @@ export default {
     "seoTitle": "Vitamin C Serum Over 40: 5% or 20%? What the Trials Say",
     "metaDesc": "The human trials mostly used 5%, not the 15–20% on the shelf — the higher number comes from a 2001 absorption study in pig skin. What to buy over 40.",
     "excerpt": "Vitamin C serums on the shelf are usually 15% or 20%, but the human trials mostly used 5%. Where that gap came from, and what it means for what you buy.",
-    "meta": "26 August 2026 · 8 min read",
+    "meta": "26 August 2026 · 11 min read",
     "lead": "There is a number on the front of almost every vitamin C serum — 10%, 15%, 20% — and the assumption is that a higher one is a stronger product. The number is real. Where it came from is not what you would guess, and once you know, the shelf looks quite different.",
     "blocks": [
       {
@@ -274,7 +274,7 @@ export default {
     "seoTitle": "Вітамін С після 40: 5% чи 20%? Що показали дослідження",
     "metaDesc": "У дослідженнях на людях переважно було 5%, а не 15–20% із полиці — вища цифра походить із дослідження 2001 року на шкірі свині. Що купувати після 40.",
     "excerpt": "Сироватки з вітаміном С на полиці зазвичай 15% або 20%, а в дослідженнях на людях переважно було 5%. Звідки цей розрив і що це означає для покупки.",
-    "meta": "26 серпня 2026 · 8 хв читання",
+    "meta": "26 серпня 2026 · 10 хв читання",
     "lead": "Майже на кожній сироватці з вітаміном С спереду стоїть цифра — 10%, 15%, 20% — і вважається, що більша цифра означає сильніший засіб. Цифра справжня. А от звідки вона взялася — зовсім не те, що ви, мабуть, думаєте. І коли це знаєш, полиця виглядає зовсім інакше.",
     "blocks": [
       {

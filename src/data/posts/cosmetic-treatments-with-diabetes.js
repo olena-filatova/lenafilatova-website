@@ -18,7 +18,7 @@ export default {
     "seoTitle": "Cosmetic Treatments With Diabetes: What to Ask",
     "metaDesc": "Thinking of Botox, fillers, laser or microneedling with diabetes? What the evidence does and doesn't say, and the questions worth asking first.",
     "excerpt": "Almost every clinic asks whether you have diabetes. Few can say what the answer changes, because the research spent thirty years excluding people like you.",
-    "meta": "30 October 2026 · 8 min read",
+    "meta": "30 October 2026 · 12 min read",
     "lead": "Almost every aesthetic clinic asks whether you have diabetes. Very few can tell you what your answer changes, because the studies behind those consent forms excluded people with diabetes rather than following them. Meanwhile the harm that has actually been counted in this country in the last year had nothing to do with anybody's blood sugar.",
     "blocks": [
       {
@@ -231,7 +231,7 @@ export default {
     "seoTitle": "Косметологія при діабеті: що запитати перед записом",
     "metaDesc": "Думаєте про ботулотоксин, філери, лазер чи мікронідлінг із діабетом? Що каже і чого не каже доказова база, і які питання варто поставити першими.",
     "excerpt": "Майже кожна клініка запитає, чи є у вас діабет. Мало хто пояснить, що це змінює, бо дослідження тридцять років виключали таких людей, як ви.",
-    "meta": "30 жовтня 2026 · 8 хв читання",
+    "meta": "30 жовтня 2026 · 11 хв читання",
     "lead": "Майже кожна естетична клініка запитує, чи є у вас діабет. Мало хто може пояснити, що саме змінює ваша відповідь, бо дослідження, які стоять за тими формами згоди, не спостерігали за людьми з діабетом, а виключали їх. А шкода, яку в цій країні справді порахували за останній рік, не мала жодного стосунку до чийогось цукру в крові.",
     "blocks": [
       {

@@ -105,7 +105,7 @@ export default {
         },
         {
           "q": "If grip strength went up, does the muscle loss matter?",
-          "a": "The authors think it does, which is the most striking thing about the paper. Grip strength improved, the proportion of the body made of lean tissue improved, and sarcopenic obesity became less common — all real. But the muscle in the arms and legs specifically, which is the measure used to diagnose sarcopenia, fell significantly, and the authors say plainly that this could leave vulnerable patients predisposed to sarcopenia in spite of the good functional numbers. Strength measured today and muscle available in ten years are not the same thing. The practical answer has not changed and does not depend on this study: resistance training and enough protein, which have [their own evidence base in women not taking any drug at all](/blog/higher-protein-postmenopausal-bone-muscle/)."
+          "a": "The authors think it does, which is the most striking thing about the paper. Grip strength improved, the proportion of the body made of lean tissue improved, and sarcopenic obesity became less common — all real. But the muscle in the arms and legs specifically, which is the measure used to diagnose sarcopenia, fell significantly, and the authors say plainly that this could leave vulnerable patients predisposed to sarcopenia in spite of the good functional numbers. Strength measured today and muscle available in ten years are not the same thing. The practical answer has not changed and does not depend on this study: resistance training and enough protein, which have their own evidence base in women not taking any drug at all."
         }
       ]
   },
@@ -209,7 +209,7 @@ export default {
         },
         {
           "q": "Якщо сила кисті зросла, чи має значення втрата м’язів?",
-          "a": "Автори вважають, що має, — і це найпримітніше в усій статті. Сила кисті покращилася, частка м’язової тканини в тілі зросла, саркопенічне ожиріння стало рідшим — усе це реально. Але саме м’язи рук і ніг, тобто той показник, за яким діагностують саркопенію, суттєво знизилися, і автори прямо пишуть, що це може зробити вразливих пацієнтів схильними до саркопенії попри добрі функціональні цифри. Сила, виміряна сьогодні, і м’язи, які будуть у вас через десять років, — це не те саме. Практична відповідь не змінилася і від цього дослідження не залежить: силові тренування та достатня кількість білка, які [мають власну доказову базу в жінок, що взагалі не приймають жодних препаратів](/ua/blog/higher-protein-postmenopausal-bone-muscle/)."
+          "a": "Автори вважають, що має, — і це найпримітніше в усій статті. Сила кисті покращилася, частка м’язової тканини в тілі зросла, саркопенічне ожиріння стало рідшим — усе це реально. Але саме м’язи рук і ніг, тобто той показник, за яким діагностують саркопенію, суттєво знизилися, і автори прямо пишуть, що це може зробити вразливих пацієнтів схильними до саркопенії попри добрі функціональні цифри. Сила, виміряна сьогодні, і м’язи, які будуть у вас через десять років, — це не те саме. Практична відповідь не змінилася і від цього дослідження не залежить: силові тренування та достатня кількість білка, які мають власну доказову базу в жінок, що взагалі не приймають жодних препаратів."
         }
       ]
   }

@@ -112,6 +112,77 @@ found in batch 3 said more than their article did — "hormone balance" in a
 review that never discusses it, "had better outcomes" for a study that only
 observed women. Compress; never strengthen.
 
+## Reading time
+
+Every post's `meta` line carries one — `"21 November 2026 · 9 min read"` in EN,
+`"21 листопада 2026 · 9 хв читання"` in UA. Nothing ever computed it, so it was
+guessed post by post: on 27 November 2026, 51 of 130 posts were out by more than
+a minute, and `alcohol-and-blood-sugar` claimed 10 minutes for a 6,082-word
+article that takes about 28. Do not guess it. Run the check and use the number
+it gives.
+
+**The rule, so it never has to be re-invented:**
+
+- **Counted:** `lead`, the text of `p` / `h` / `quote` blocks, table cells, and
+  the FAQ (question and answer).
+- **Not counted:** `refs` (the sources list) and `links` ("Keep reading").
+  These are appendices — nobody reads them through, and counting them added
+  three to five minutes to the longest posts.
+- A markdown link counts as its label, not its URL.
+- **minutes = round(words ÷ wpm)**, minimum 1, where **wpm is 220 for EN and
+  200 for UA**.
+
+Those two numbers are not arbitrary. 220 is a normal adult non-fiction reading
+speed and also the median the site's own hand-written figures already implied,
+so it moves the fewest posts. Ukrainian carries the same article in about 0.90
+of the English word count (measured across all 130 posts; median 0.896), so UA
+at 200 lands on the same minute as EN at 220 for all but one post — the two
+languages agree naturally rather than being forced to match.
+
+Tolerance is **±1 minute**. The figure is an estimate and should not churn in a
+diff because a sentence was edited.
+
+```bash
+npm run check-readtimes
+```
+
+`scripts/check-read-times.mjs` lists every post and language off by more than a
+minute and exits 0; `npm run check-readtimes:strict` exits 1 instead, and
+`--json` emits the corrected `meta` string for each, which is how the 98
+corrections were applied in one pass. It reads `src/data/posts/` off disk rather
+than importing `blog.js`, for the `import.meta.glob` reason above.
+
+## Where a `[label](url)` link actually renders — and where it does not
+
+Only the **text of `p`, `h` and `quote` blocks** runs through the inline link
+renderer. Everywhere else the markdown is printed to the reader verbatim, as
+`[label](/blog/slug/)`:
+
+| Field | Links? |
+| --- | --- |
+| `p` / `h` / `quote` block `text` | **yes** |
+| `lead` | no |
+| table `head` and `rows` cells | no |
+| `faq[].q` and `faq[].a` | no |
+| `refs` and `links` item fields | n/a — these are already structured links |
+
+Two live posts were shipping a raw link in an FAQ answer, found on 27 November
+2026 and fixed in the same pass: `glp1-menopause-bone-loss` and
+`semalean-semaglutide-muscle-women`, both languages. An FAQ answer is worse than
+the others because the same string goes into the page's FAQ structured data, so
+Google was being handed the brackets too. A table cell leak was caught the same
+day before it shipped.
+
+The build does not fail on this and no check catches it, so after editing any of
+these fields, build and grep:
+
+```bash
+npm run build && grep -rl '](/blog/\|](/ua/blog/' dist/blog dist/ua/blog
+```
+
+Nothing listed means nothing leaked. If you need a link in one of these fields,
+put the sentence in a `p` block instead, or keep the fact as plain prose.
+
 ## Adding posts/recipes without causing merge conflicts
 
 **Posts no longer conflict.** Each one is its own file, `src/data/posts/<slug>.js`,

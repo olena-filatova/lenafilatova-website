@@ -20,7 +20,7 @@ export default {
     "seoTitle": "Low Ferritin and Hair Loss After 40: What the Evidence Shows",
     "metaDesc": "Heavy perimenopausal periods really can drain your iron. Whether topping ferritin up to 70 regrows hair is a different question — and a much thinner one.",
     "excerpt": "Clinics quote a ferritin target for hair, usually 70. It traces to one 2002 review whose author called it not established, and the best study found no iron gap.",
-    "meta": "5 November 2026 · 8 min read",
+    "meta": "5 November 2026 · 13 min read",
     "lead": "Heavy, unpredictable periods in your forties really can drain your iron, and that is worth sorting out for reasons that have nothing to do with your hair. Whether topping your ferritin up to some target number regrows hair is a separate question, and the studies behind the targets are thinner than the pages quoting them let on.",
     "blocks": [
       {
@@ -281,7 +281,7 @@ export default {
     "seoTitle": "Низький феритин і випадіння волосся після 40: що каже наука",
     "metaDesc": "Рясні місячні в перименопаузі справді виснажують запаси заліза. Чи поверне волосся підняття феритину до 70 — інше питання, і доказів тут значно менше.",
     "excerpt": "Цільовий феритин для волосся — зазвичай 70 — походить з огляду 2002 року, автор якого писав, що рівень не встановлено. Найретельніше дослідження різниці не знайшло.",
-    "meta": "5 листопада 2026 · 8 хв читання",
+    "meta": "5 листопада 2026 · 12 хв читання",
     "lead": "Рясні й непередбачувані місячні після сорока справді виснажують запаси заліза, і з цим варто розібратися з причин, які не мають жодного стосунку до волосся. Чи поверне волосся підняття феритину до якоїсь цільової цифри — окреме питання, і дослідження, на яких тримаються ці цифри, значно слабші, ніж визнають сайти, що їх цитують.",
     "blocks": [
       {

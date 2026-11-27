@@ -19,7 +19,7 @@ export default {
     "seoTitle": "CGM Sensor Skin Reactions: What Actually Helps",
     "metaDesc": "The chemical behind the famous Libre rash left new sensors in 2020. What still causes reactions, why allergy and irritation look alike, and what helps.",
     "excerpt": "The chemical behind the famous Libre rash left new sensors in July 2020. Reactions did not stop — and most of the standard fixes have thinner evidence than they sound.",
-    "meta": "29 October 2026 · 7 min read",
+    "meta": "29 October 2026 · 9 min read",
     "lead": "Most of what is written about sensor rashes is about one chemical in one sensor, and the manufacturer stopped using it over six years ago. The reactions carried on anyway. What follows is what the dermatology literature actually found — including the uncomfortable part, which is that the standard advice has been tested and mostly did not work.",
     "blocks": [
       {
@@ -234,7 +234,7 @@ export default {
     "seoTitle": "Реакція шкіри на сенсор CGM: що справді допомагає",
     "metaDesc": "Речовини, що спричиняла відомий висип від Libre, немає в нових сенсорах з 2020 року. Що викликає реакції тепер і чому алергію не відрізнити на вигляд.",
     "excerpt": "Речовини, через яку виник відомий висип від Libre, немає в нових сенсорах з липня 2020 року. Реакції не зникли — а докази за звичними порадами слабші, ніж здається.",
-    "meta": "29 жовтня 2026 · 7 хв читання",
+    "meta": "29 жовтня 2026 · 9 хв читання",
     "lead": "Більшість написаного про висип під сенсором стосується однієї речовини в одному сенсорі, яку виробник перестав використовувати понад шість років тому. А реакції нікуди не зникли. Нижче — те, що насправді з’ясували дерматологи в опублікованих дослідженнях, включно з неприємною правдою: стандартні поради перевірили, і здебільшого вони не спрацювали.",
     "blocks": [
       {

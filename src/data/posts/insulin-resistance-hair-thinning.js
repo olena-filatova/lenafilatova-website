@@ -22,7 +22,7 @@ export default {
     "seoTitle": "Insulin Resistance and Hair Thinning After 40",
     "metaDesc": "Why raised insulin is linked to thinning hair, how to tell it from menopausal and thyroid hair loss, and what the evidence supports. Not medical advice.",
     "excerpt": "Thinning hair in your forties gets filed under menopause. There is a second thread underneath — insulin — and the evidence is real, but weaker than the internet suggests.",
-    "meta": "22 August 2026 · 7 min read",
+    "meta": "22 August 2026 · 10 min read",
     "lead": "Hair thinning after 40 gets filed under menopause, and often that is where it belongs. But there is a second thread running underneath it that gets much less attention: what your insulin is doing. The link is real and it shows up in population data. It is also messier and weaker than most of what you will read about it. Here is what the evidence actually supports — and, because I live with Type 1 diabetes, what I have had to learn to separate from it.",
     "blocks": [
       {
@@ -208,7 +208,7 @@ export default {
     "seoTitle": "Інсулінорезистентність і порідіння волосся",
     "metaDesc": "Чому підвищений інсулін пов’язаний із порідінням волосся, як відрізнити його від менопаузального й тиреоїдного випадіння та що підтверджують дані.",
     "excerpt": "Порідіння волосся після сорока списують на менопаузу. Але під цим є ще одна нитка — інсулін. Зв’язок реальний, хоч і слабший, ніж пишуть в інтернеті.",
-    "meta": "22 серпня 2026 · 7 хв читання",
+    "meta": "22 серпня 2026 · 10 хв читання",
     "lead": "Порідіння волосся після сорока зазвичай списують на менопаузу, і часто це справедливо. Але під цим є друга нитка, якій приділяють значно менше уваги: що робить ваш інсулін. Зв’язок реальний, і його видно в популяційних даних. Він також заплутаніший і слабший, ніж більшість того, що про нього пишуть. Ось що насправді підтверджують дані — і, оскільки я живу з діабетом 1 типу, що мені довелося навчитися від цього відділяти.",
     "blocks": [
       {

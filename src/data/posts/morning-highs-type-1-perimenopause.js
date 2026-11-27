@@ -20,7 +20,7 @@ export default {
     "seoTitle": "Dawn Phenomenon in Type 1 Diabetes After 40",
     "metaDesc": "Waking up high with type 1 diabetes in perimenopause? How to tell the dawn phenomenon from the other causes by reading your own overnight trace.",
     "excerpt": "The textbook gives you two reasons for a morning high: the dawn phenomenon, or a rebound after a night-time low. Only one of the two is well established.",
-    "meta": "23 October 2026 · 9 min read",
+    "meta": "23 October 2026 · 12 min read",
     "lead": "You go to bed at seven. You wake at ten, or eleven, and nothing you did the night before explains it. Then it happens again, and not quite the same way, and the pattern you thought you had stops holding. This is one of the most common things women write to me about in their forties, and it is also one where the standard advice contains a piece of received wisdom the evidence stopped supporting years ago.",
     "blocks": [
       {
@@ -290,7 +290,7 @@ export default {
     "seoTitle": "Феномен світанку при діабеті 1 типу після 40",
     "metaDesc": "Прокидаєтесь із високим цукром при діабеті 1 типу в перименопаузі? Як відрізнити феномен світанку від інших причин за власним нічним графіком.",
     "excerpt": "Підручники пояснюють високий ранковий цукор двома причинами: феноменом світанку або рикошетом після нічної гіпоглікемії. Добре підтверджена лише одна з них.",
-    "meta": "23 жовтня 2026 · 9 хв читання",
+    "meta": "23 жовтня 2026 · 12 хв читання",
     "lead": "Ви лягаєте спати з цукром 7. Прокидаєтесь — а там 10 чи 11, і ніщо з учорашнього вечора цього не пояснює. Потім це повторюється — але вже інакше, і закономірність, яку ви нібито вловили, перестає працювати. Про це мені пишуть жінки за сорок чи не найчастіше. І саме тут у стандартних порадах досі живе усталене переконання, яке докази перестали підтверджувати ще багато років тому.",
     "blocks": [
       {

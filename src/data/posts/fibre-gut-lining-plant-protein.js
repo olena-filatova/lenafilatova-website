@@ -13,7 +13,7 @@ export default {
     "seoTitle": "Fibre, Gut Mucus and Plant Protein: What Mice Showed",
     "metaDesc": "Princeton isotope tracing found the harmful gut phenols come from your own mucus lining, the good ones from plant protein that survives digestion. In mice.",
     "excerpt": "Two Princeton papers traced the gut’s good and bad chemicals to their sources: the harmful ones to the body’s own mucus, the helpful ones to plant protein. In mice.",
-    "meta": "16 November 2026 · 6 min read",
+    "meta": "16 November 2026 · 4 min read",
     "lead": "A headline in early November put it bluntly: when gut bacteria run out of fibre, they may start eating you. The two Princeton papers sitting behind that line are more careful than the headline, and considerably more interesting. Between them they traced, atom by atom, where the gut’s most-discussed chemicals actually come from — and one of them undercuts a good deal of what gets said about the microbiome.",
     "blocks": [
       {
@@ -109,7 +109,7 @@ export default {
     "seoTitle": "Клітковина, слиз кишківника і рослинний білок",
     "metaDesc": "Ізотопні дослідження в Прінстоні показали: шкідливі феноли беруться з вашого ж слизового шару, а корисні — з рослинного білка, який пережив травлення. У мишей.",
     "excerpt": "Дві прінстонські роботи знайшли джерела «хороших» і «поганих» речовин кишківника: шкідливі — з власного слизу, корисні — з рослинного білка. У мишей.",
-    "meta": "16 листопада 2026 · 6 хв читання",
+    "meta": "16 листопада 2026 · 4 хв читання",
     "lead": "Заголовок на початку листопада сформулював це прямо: коли кишковим бактеріям бракує клітковини, вони можуть почати їсти вас. Дві прінстонські роботи, що стоять за цим заголовком, значно обережніші — і значно цікавіші. Разом вони простежили, атом за атомом, звідки насправді беруться найобговорюваніші речовини кишківника. І одна з них підважує чималу частину того, що зазвичай кажуть про мікробіом.",
     "blocks": [
       {

@@ -17,7 +17,7 @@ export default {
     "seoTitle": "Minimum Strength Training After 40: How Much Is Enough?",
     "metaDesc": "How little strength training counts after 40? What the research says about the minimum dose, a 30-minute plan, and fitting it around type 1 diabetes.",
     "excerpt": "The amount that builds strength and the amount linked to living longer are different numbers — and past about an hour a week the second one stops improving.",
-    "meta": "24 October 2026 · 9 min read",
+    "meta": "24 October 2026 · 11 min read",
     "lead": "The question is almost always asked in a slightly apologetic tone. Not \"what is the optimal programme\" but \"what is the least I can get away with and still be doing something that matters\". It is a better question than it sounds, and the research has a genuinely encouraging answer to it — just not quite the answer the internet gives. The phrase \"minimum effective dose\" has been borrowed from pharmacology and applied to lifting with a confidence the underlying studies do not have, so this is what is actually in them, and what I would do with it if I had thirty minutes a week.",
     "blocks": [
       {
@@ -300,7 +300,7 @@ export default {
     "seoTitle": "Мінімум силових після 40: скільки достатньо?",
     "metaDesc": "Скільки силових потрібно після 40? Що кажуть дослідження про мінімальну дозу, план на 30 хвилин і як вписати це в життя з діабетом 1 типу.",
     "excerpt": "Кількість, яка будує силу, і кількість, пов’язана з довшим життям, — це різні числа. А після приблизно години на тиждень друге перестає покращуватися.",
-    "meta": "24 жовтня 2026 · 9 хв читання",
+    "meta": "24 жовтня 2026 · 11 хв читання",
     "lead": "Це питання майже завжди ставлять трохи винувато. Не «яка програма оптимальна», а «який мінімум мені зійде з рук, щоб це все ще щось означало». Питання краще, ніж здається, і в досліджень є на нього справді обнадійлива відповідь — щоправда, не зовсім та, яку дає інтернет. Вислів «мінімальна ефективна доза» запозичили у фармакології й приклали до штанги з упевненістю, якої самі дослідження не мають. Тож ось що в них насправді є — і що б я з цим робила, маючи тридцять хвилин на тиждень.",
     "blocks": [
       {

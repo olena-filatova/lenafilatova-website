@@ -22,7 +22,7 @@ export default {
     "seoTitle": "Hot Flush or Rosacea? Telling Menopause Redness Apart",
     "metaDesc": "When facial redness stops fading after a hot flush, it may be rosacea. How to tell them apart, what the evidence says about HRT, and the type 1 diabetes link.",
     "excerpt": "A flush fades; rosacea doesn’t. That difference is how UK guidance tells them apart — and the thing most often blamed for the redness isn’t what the evidence points at.",
-    "meta": "31 October 2026 · 9 min read",
+    "meta": "31 October 2026 · 11 min read",
     "lead": "Your cheeks go red, as they have for a year or two now. The difference is that lately they stay red. That shift — from something that comes and goes to something that is simply there — is the single most useful thing to notice, and it is also how a UK doctor would start telling the two apart.",
     "blocks": [
       {

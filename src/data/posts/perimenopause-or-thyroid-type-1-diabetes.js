@@ -21,7 +21,7 @@ export default {
     "seoTitle": "Perimenopause or Thyroid? A Type 1 Diabetes Guide",
     "metaDesc": "Fatigue, weight change, brain fog: perimenopause and thyroid disease overlap, and type 1 diabetes raises thyroid risk. How to tell them apart.",
     "excerpt": "About a third of women with type 1 diabetes in their forties have a thyroid diagnosis - and the symptoms look exactly like perimenopause. What separates them.",
-    "meta": "12 November 2026 · 10 min read",
+    "meta": "12 November 2026 · 14 min read",
     "lead": "Tired, foggy, gaining weight, hair thinning at the parting. At 47, with type 1 diabetes, there are at least two reasonable explanations for all of that, and only one of them is the one everyone reaches for first. The odds here are not evenly matched: around a third of women with type 1 diabetes in their forties and early fifties carry a hypothyroidism diagnosis, and the UK's own thyroid guideline warns clinicians in so many words that thyroid symptoms in menopausal women get mistaken for menopause. Here is what separates the two, what your sensor might show before you notice anything, and the annual blood test you are already entitled to.",
     "blocks": [
       {
@@ -314,7 +314,7 @@ export default {
     "seoTitle": "Перименопауза чи щитоподібна залоза при діабеті 1 типу",
     "metaDesc": "Втома, вага, туман у голові: симптоми перименопаузи й хвороб щитоподібної залози збігаються, а діабет 1 типу підвищує ризик. Як їх розрізнити.",
     "excerpt": "Приблизно третина жінок за сорок із діабетом 1 типу має діагностовану хворобу щитоподібної залози, а симптоми точнісінько як у перименопаузі. Як їх розрізнити.",
-    "meta": "12 листопада 2026 · 10 хв читання",
+    "meta": "12 листопада 2026 · 14 хв читання",
     "lead": "Втома, туман у голові, вага повзе вгору, волосся рідшає на проділі. У 47 років із діабетом 1 типу в усього цього є щонайменше два обґрунтовані пояснення, і лише одне з них зазвичай спадає всім на думку першим. Шанси тут не рівні: приблизно третина жінок із діабетом 1 типу за сорок і на початку п’ятдесяти має діагностований гіпотиреоз, а британська настанова щодо щитоподібної залози прямо попереджає лікарів, що симптоми щитоподібної залози в жінок у менопаузі плутають із менопаузою. Ось що розрізняє ці два стани, що може показати сенсор ще до того, як ви щось помітите, — і щорічний аналіз крові, на який ви вже маєте право.",
     "blocks": [
       {
