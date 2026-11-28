@@ -1,12 +1,5 @@
 # recipe--granola-bars-5-ingredient
 
-- Last checked: 2026-10-18
-- PR: (this PR)
-- Notes: Title repeated "з" awkwardly ("Батончики з гранолою з 5
-  інгредієнтів") — a calque-y double preposition that doesn't read as
-  natural Ukrainian. Changed to "Батончики з гранолою (5 інгредієнтів)",
-  matching the parenthetical style already used on sibling recipe titles
-  (e.g. the "(без випікання)" and "(Gluten-free)" pattern) while keeping the
-  same "Батончики з гранолою" lead that the other granola-bar titles share.
-  Why, nutrition, meta, ingredients and method all checked
-  paragraph-by-paragraph against EN — no other issues found.
+- Last checked: 2026-11-28 (second cycle; previously 2026-10-18)
+- PR: see the `UA proofread: recipe--granola-bars-date-coconut, recipe--granola-bars-5-ingredient` PR
+- Notes: 8 fixes, no meaning/number changes. why: calque «…для клітковини, з невеликою кількістю меду… для скріплення» and «Перекус зі стабільною енергією» rewritten as natural Ukrainian. meta: colloquial «Заморозка» → «Заморожування». Ingredients: "roasted" «смаженого» → «підсмаженого» мигдалю. Method: «Збийте фініки до тістоподібної пасти» → «Подрібніть фініки в блендері до густої пасти, схожої на тісто»; «до текучості, потім» → «доки вони не стануть текучими, а потім»; «Щільно вкладіть у форму» → «Щільно утрамбуйте масу у форму» ("press firmly"); «заморозьте… для застигання» → «поставте в морозилку…, щоб маса застигла».
