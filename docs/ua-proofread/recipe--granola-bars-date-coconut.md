@@ -1,13 +1,5 @@
 # recipe--granola-bars-date-coconut
 
-- Last checked: 2026-10-18
-- PR: (this PR)
-- Notes: EN title is "No-Bake Date & Coconut Granola Bars" but the UA title
-  dropped "granola" entirely ("Батончики з фініками та кокосом (без
-  випікання)") — fixed to "Батончики з гранолою, фініками та кокосом (без
-  випікання)" to match EN and the naming pattern used by the sibling granola
-  bar recipes. Last method step also dropped "a little extra" from "sprinkle
-  with a little extra coconut" — added "ще трохи" so it reads "посипте ще
-  трохи кокосовою стружкою". Rest of the fields (why, nutrition, meta,
-  ingredients, remaining method steps, note) checked paragraph-by-paragraph
-  against EN — no other issues found.
+- Last checked: 2026-11-28 (second cycle; previously 2026-10-18)
+- PR: see the `UA proofread: recipe--granola-bars-date-coconut, recipe--granola-bars-5-ingredient` PR
+- Notes: 8 fixes, no meaning/number changes. why: missing comma closing the participial phrase before the dash («скріплені… пастою, —»); "whole-food ingredients" «натуральні інгредієнти» → «цільні продукти»; «природно без глютену» → «від природи не містять глютену»; «сповільнюють природний цукор» → «сповільнюють засвоєння природного цукру з фініків». Method: «Збивайте… по одній ложці» → «Подрібнюйте… по одній столовій ложці» (EN "tablespoon"), «маса не почне триматися» → «…триматися купи»; «щільно вкладіть масу» → «щільно утрамбуйте» ("press firmly"); «посипте… кокосовою стружкою» → «посипте зверху ще трохи кокосової стружки» (case after «трохи»).
