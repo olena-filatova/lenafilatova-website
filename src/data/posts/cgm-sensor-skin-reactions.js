@@ -24,7 +24,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "A continuous glucose monitor has to stay stuck to you for up to fourteen days. That takes a strong adhesive, worn under an occlusive patch, through showers and sleep and summer. Some proportion of people were always going to react to it, and the literature on how many is wide: in one Belgian university hospital, 57 of 1,036 people with diabetes — 5.5% — were referred to dermatology for a skin reaction to the FreeStyle Libre over a two-and-a-half year period. That is the referred group, so it is a floor rather than a ceiling. Mild irritation that someone copes with at home never reaches a clinic, and almost certainly never reaches a paper."
+        "text": "A continuous glucose monitor has to stay stuck to you for up to fourteen days. That takes a strong adhesive, worn under an occlusive patch, through showers and sleep and summer. Some proportion of people were always going to react to it, and the literature on how many is wide: in one Belgian university hospital, 57 of 1,036 people with diabetes — 5.5% — were referred to dermatology for a skin reaction to the FreeStyle Libre between December 2016 and April 2019. That is the referred group, so it is a floor rather than a ceiling. Mild irritation that someone copes with at home never reaches a clinic, and almost certainly never reaches a paper."
       },
       {
         "t": "p",
@@ -76,11 +76,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Barrier sprays are the most recommended fix online, and Cavilon is the one most people end up with. In the Belgian group, sixteen patients tried it. Five reported some improvement — and all five were children. The eleven adults reported no benefit at all. Only two of the sixteen carried on using it. The review's explanation is mechanical rather than mysterious: the film shields skin for a few days, and a sensor stays on for up to fourteen."
+        "text": "Barrier sprays are the most recommended fix online, and Cavilon is the one most people end up with. In that Antwerp hospital, sixteen of the referred patients tried it. Five reported some improvement — and all five were children. The eleven adults reported no benefit at all. Only two of the sixteen carried on using it. The review's explanation is mechanical rather than mysterious: the film shields skin for a few days, and a sensor stays on for up to fourteen."
       },
       {
         "t": "p",
-        "text": "Barrier films fared no better in the larger retrospective. [Of the 57 patients referred for sensor skin reactions](https://pubmed.ncbi.nlm.nih.gov/32054722/), the authors recorded only two who benefited from a barrier film, and concluded that their value in prevention was limited."
+        "text": "That is also how [the Antwerp paper itself](https://pubmed.ncbi.nlm.nih.gov/32054722/) summed it up: across all 57 patients referred for sensor skin reactions, the authors recorded only two who benefited from a barrier film, and concluded that their value in prevention was limited."
       },
       {
         "t": "p",
@@ -100,7 +100,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Newer sensors have their own chemistry. The review's allergen tables list butylated hydroxytoluene as a reported allergen in the FreeStyle Libre 2 sensor; colophonium-related substances, including hydrogenated resin acids, in the Dexcom G7, where a nine-year-old's case was traced to them; and both IBOA and dimethylacrylamide in the Guardian 4. Dexcom's earlier problem — ethyl cyanoacrylate in the G4 Platinum — was engineered out by changing how the sensor was attached, and the G5 and G6 never contained it."
+        "text": "Newer sensors have their own chemistry. The review's allergen tables list butylated hydroxytoluene as a reported allergen in the FreeStyle Libre 2 sensor; colophonium-related substances, including hydrogenated resin acids, in the Dexcom G7, where a nine-year-old's case was traced to them, alongside IBOA itself; and both IBOA and dimethylacrylamide in the Guardian 4. Dexcom's earlier problem — ethyl cyanoacrylate in the G4 Platinum — was engineered out by changing how the sensor was attached, and the G5 and G6 never contained it, though the G6 has since been linked to IBOA and, from 2020, to another acrylate of its own."
       },
       {
         "t": "p",
@@ -132,7 +132,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "If you are referred, two requests are worth making. Ask that the patch test includes a reading at day seven, not just at day two and four. And ask whether they can test a piece of the device itself alongside the standard series — the review repeatedly found that the commercial allergens alone missed cases that the device material caught."
+        "text": "If you are referred, two requests are worth making. Ask that the patch test includes a reading at day seven, not just at day two and four. And ask whether they can test a piece of the device itself alongside the standard series — the review lists not testing the device itself among the reasons a genuine allergy gets missed."
       },
       {
         "t": "h",
@@ -167,7 +167,7 @@ export default {
           },
           {
             "claim": "Acrylates, methacrylates and colophonium are the recurring culprits across devices.",
-            "detail": "A systematic review of 50 studies on skin reactions to insulin pumps and glucose sensors, searched to May 2020. It identifies acrylates, methacrylates and colophonium — isobornyl acrylate in particular — as the main allergens, and argues that managing them properly needs dermatologists, diabetes teams, patients and manufacturers working together, which the manufacturers have largely not done.",
+            "detail": "A systematic review of 50 studies on skin reactions to insulin pumps and glucose sensors, searched to May 2020. It identifies acrylates, methacrylates and colophonium — isobornyl acrylate in particular — as the main allergens, and argues that managing them properly needs dermatologists, diabetes teams, patients and manufacturers working together. (The 2025 review is blunter, describing a serious lack of cooperation from manufacturers.)",
             "cite": "Dermatitis · Systematic review, 2022",
             "url": "https://pubmed.ncbi.nlm.nih.gov/35245221/"
           }
@@ -211,7 +211,7 @@ export default {
       },
       {
         "q": "Do barrier sprays and wipes work?",
-        "a": "Far less often than the internet suggests. In the Belgian group, sixteen people tried Cavilon spray: five reported some improvement and all five were children, while all eleven adults reported no benefit. A separate retrospective of 57 referred patients found only two who benefited from a barrier film. The likely reason is that these films protect skin for a few days and a sensor stays on for up to two weeks."
+        "a": "Far less often than the internet suggests. In one Belgian hospital, sixteen people tried Cavilon spray: five reported some improvement and all five were children, while all eleven adults reported no benefit. Across all 57 patients that hospital referred for sensor reactions, the authors found only two who benefited from a barrier film. The likely reason is that these films protect skin for a few days and a sensor stays on for up to two weeks."
       },
       {
         "q": "Is the Libre adhesive still the one that causes allergies?",
@@ -239,7 +239,7 @@ export default {
     "blocks": [
       {
         "t": "p",
-        "text": "Сенсор безперервного моніторингу глюкози (CGM) має триматися на шкірі до чотирнадцяти днів. Для цього потрібен сильний клей під герметичною пов’язкою — і в душі, і уві сні, і в літню спеку. Те, що в частини людей виникатиме реакція, було неминуче, і цифри в літературі дуже різні: в одній бельгійській університетській лікарні 57 із 1036 людей із діабетом — 5,5% — за два з половиною роки направили до дерматолога через реакцію шкіри на FreeStyle Libre. Це ті, кого направили, тобто нижня межа, а не верхня. Легке подразнення, з яким людина справляється вдома, до клініки не доходить, а до наукової статті — й поготів."
+        "text": "Сенсор безперервного моніторингу глюкози (CGM) має триматися на шкірі до чотирнадцяти днів. Для цього потрібен сильний клей під герметичною пов’язкою — і в душі, і уві сні, і в літню спеку. Те, що в частини людей виникатиме реакція, було неминуче, і цифри в літературі дуже різні: в одній бельгійській університетській лікарні 57 із 1036 людей із діабетом — 5,5% — з грудня 2016 до квітня 2019 року направили до дерматолога через реакцію шкіри на FreeStyle Libre. Це ті, кого направили, тобто нижня межа, а не верхня. Легке подразнення, з яким людина справляється вдома, до клініки не доходить, а до наукової статті — й поготів."
       },
       {
         "t": "p",
@@ -291,11 +291,11 @@ export default {
       },
       {
         "t": "p",
-        "text": "Бар’єрні спреї радять в інтернеті найчастіше, і зазвичай це Cavilon. У бельгійській групі його спробували шістнадцять пацієнтів. П’ятеро повідомили про певне покращення — і всі п’ятеро були дітьми. Одинадцять дорослих не відчули жодної користі. Користуватися далі стали лише двоє з шістнадцяти. Огляд пояснює це суто механічно, без жодної загадки: плівка захищає шкіру кілька днів, а сенсор тримається до чотирнадцяти."
+        "text": "Бар’єрні спреї радять в інтернеті найчастіше, і зазвичай це Cavilon. У тій самій лікарні в Антверпені його спробували шістнадцять направлених пацієнтів. П’ятеро повідомили про певне покращення — і всі п’ятеро були дітьми. Одинадцять дорослих не відчули жодної користі. Користуватися далі стали лише двоє з шістнадцяти. Огляд пояснює це суто механічно, без жодної загадки: плівка захищає шкіру кілька днів, а сенсор тримається до чотирнадцяти."
       },
       {
         "t": "p",
-        "text": "У більшому ретроспективному дослідженні бар’єрні плівки показали себе не краще. [З 57 пацієнтів, направлених через реакції на сенсор](https://pubmed.ncbi.nlm.nih.gov/32054722/), автори нарахували лише двох, яким плівка допомогла, і дійшли висновку, що її профілактична цінність обмежена."
+        "text": "Так підсумувала це й [сама стаття з Антверпена](https://pubmed.ncbi.nlm.nih.gov/32054722/): з усіх 57 пацієнтів, направлених через реакції на сенсор, автори нарахували лише двох, яким бар’єрна плівка допомогла, і дійшли висновку, що її профілактична цінність обмежена."
       },
       {
         "t": "p",
@@ -315,7 +315,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "У новіших сенсорів своя хімія. Таблиці алергенів в огляді називають бутилгідрокситолуол як алерген, описаний у сенсорі FreeStyle Libre 2; речовини, споріднені з каніфоллю, включно з гідрогенізованими смоляними кислотами, у Dexcom G7, де з ними пов’язали випадок у дев’ятирічної дитини; та IBOA разом із диметилакриламідом у Guardian 4. Давнішу проблему Dexcom — етилціаноакрилат у G4 Platinum — усунули, змінивши спосіб кріплення сенсора, і в G5 та G6 його вже не було."
+        "text": "У новіших сенсорів своя хімія. Таблиці алергенів в огляді називають бутилгідрокситолуол як алерген, описаний у сенсорі FreeStyle Libre 2; речовини, споріднені з каніфоллю, включно з гідрогенізованими смоляними кислотами, у Dexcom G7, де з ними пов’язали випадок у дев’ятирічної дитини, а поряд із ними — і сам IBOA; та IBOA разом із диметилакриламідом у Guardian 4. Давнішу проблему Dexcom — етилціаноакрилат у G4 Platinum — усунули, змінивши спосіб кріплення сенсора, і в G5 та G6 його вже не було, хоча з G6 згодом пов’язали IBOA, а з 2020 року — ще один власний акрилат."
       },
       {
         "t": "p",
@@ -347,7 +347,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Якщо вас направили, варто попросити про дві речі. Щоб результат патч-тесту оцінили й на сьомий день, а не лише на другий і четвертий. І щоб поряд зі стандартною серією протестували шматочок самого пристрою — огляд раз за разом знаходив випадки, які комерційні алергени пропускали, а матеріал пристрою виявляв."
+        "text": "Якщо вас направили, варто попросити про дві речі. Щоб результат патч-тесту оцінили й на сьомий день, а не лише на другий і четвертий. І щоб поряд зі стандартною серією протестували шматочок самого пристрою — серед причин, через які справжню алергію пропускають, огляд називає й те, що сам пристрій не тестували."
       },
       {
         "t": "h",
@@ -382,7 +382,7 @@ export default {
           },
           {
             "claim": "Акрилати, метакрилати й каніфоль — винуватці, що повторюються в різних пристроях.",
-            "detail": "Систематичний огляд 50 досліджень щодо шкірних реакцій на інсулінові помпи та сенсори глюкози, пошук до травня 2020 року. Він визначає акрилати, метакрилати й каніфоль — зокрема ізоборнілакрилат — як основні алергени і стверджує, що для належного контролю потрібна спільна робота дерматологів, діабетологічних команд, пацієнтів і виробників, на яку виробники здебільшого не пішли.",
+            "detail": "Систематичний огляд 50 досліджень щодо шкірних реакцій на інсулінові помпи та сенсори глюкози, пошук до травня 2020 року. Він визначає акрилати, метакрилати й каніфоль — зокрема ізоборнілакрилат — як основні алергени і стверджує, що для належного контролю потрібна спільна робота дерматологів, діабетологічних команд, пацієнтів і виробників. (Огляд 2025 року висловлюється різкіше й пише про серйозну відсутність співпраці з боку виробників.)",
             "cite": "Dermatitis · Систематичний огляд, 2022",
             "url": "https://pubmed.ncbi.nlm.nih.gov/35245221/"
           }
@@ -426,7 +426,7 @@ export default {
       },
       {
         "q": "Чи працюють бар’єрні спреї та серветки?",
-        "a": "Значно рідше, ніж обіцяє інтернет. У бельгійській групі спрей Cavilon спробували шістнадцять осіб: п’ятеро відчули певне покращення, і всі п’ятеро були дітьми, тоді як усі одинадцять дорослих не помітили жодної користі. Окреме ретроспективне дослідження 57 направлених пацієнтів знайшло лише двох, кому допомогла бар’єрна плівка. Ймовірна причина: такі плівки захищають шкіру кілька днів, а сенсор тримається до двох тижнів."
+        "a": "Значно рідше, ніж обіцяє інтернет. В одній бельгійській лікарні спрей Cavilon спробували шістнадцять осіб: п’ятеро відчули певне покращення, і всі п’ятеро були дітьми, тоді як усі одинадцять дорослих не помітили жодної користі. З усіх 57 пацієнтів, яких ця лікарня направила через реакції на сенсор, автори знайшли лише двох, кому допомогла бар’єрна плівка. Ймовірна причина: такі плівки захищають шкіру кілька днів, а сенсор тримається до двох тижнів."
       },
       {
         "q": "Чи досі саме клей Libre спричиняє алергії?",

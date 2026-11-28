@@ -10,8 +10,8 @@ export default {
     "imageAlt": "Two insulin pens lying uncapped on a pale wooden table in daylight.",
     "title": "The WHO has written its first type 1 diabetes guidance for adults — one firm recommendation, and thirteen maybes",
     "seoTitle": "WHO's First Adult Type 1 Diabetes Guidance: What It Says",
-    "metaDesc": "The WHO's first guideline on insulin in adults with type 1 diabetes: 14 recommendations, only one strong, and an HbA1c target from a trial that stopped at 39.",
-    "excerpt": "The WHO's first adult type 1 diabetes guideline landed on 12 November. Only one of its 14 recommendations is strong — and the HbA1c target's evidence stops at 39.",
+    "metaDesc": "The WHO's first guideline on insulin in adults with type 1 diabetes: 14 recommendations, only one strong, and an HbA1c target from a trial that only enrolled people up to 39.",
+    "excerpt": "The WHO's first adult type 1 diabetes guideline landed on 12 November. Only one of its 14 recommendations is strong — and the HbA1c target rests on a trial that enrolled no one over 39.",
     "meta": "22 November 2026 · 8 min read",
     "lead": "On 12 November the World Health Organization published its first guideline on insulin use in adults with type 1 diabetes, and announced it two days later on World Diabetes Day. If you live in the UK, almost nothing in it will change your appointments — and that is rather the point of the document. It was written for the places where insulin runs out.",
     "blocks": [
@@ -45,7 +45,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The guideline asks clinicians to aim for an HbA1c of 7.0% (53 mmol/mol) or below in most adults with type 1 diabetes — conditional, moderate certainty. That number will be familiar; what is less well known is where it comes from. The evidence informing it is drawn entirely from one randomised trial, the DCCT, and its long-term follow-up study EDIC. The DCCT ran across 21 centres in North America and enrolled people aged 13 to 39. Adult-relevant findings come from subgroup analyses and the follow-up. So the target most of us have been handed was established in a population that stopped at 39, which is a reasonable thing to know if you are reading this at 52."
+        "text": "The guideline asks clinicians to aim for an HbA1c of 7.0% (53 mmol/mol) or below in most adults with type 1 diabetes — conditional, moderate certainty. That number will be familiar; what is less well known is where it comes from. The evidence informing it is drawn entirely from one randomised trial, the DCCT, and its long-term follow-up study EDIC. The DCCT ran across 21 centres in North America and enrolled people aged 13 to 39; EDIC then followed them for decades, but nobody joined after 39. Adult-relevant findings come from subgroup analyses and the follow-up. So the target most of us have been handed was established in people who were all 39 or younger when they started, which is a reasonable thing to know if you are reading this at 52."
       },
       {
         "t": "p",
@@ -57,15 +57,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Recommendation 9 puts fingerstick testing, real-time CGM and flash (intermittently scanned) CGM side by side as options, rather than ranking them. Given how CGM is marketed, the evidence behind that is worth seeing. Across 17 randomised trials, real-time CGM lowered HbA1c by 0.28 percentage points compared with finger-pricks, and flash CGM by 0.22 — both rated high certainty, and both below the 0.5 the panel had set in advance as the smallest difference that would actually matter clinically. Real-time CGM did reduce glucose variability compared with both flash and finger-pricks. Most of these trials ran 24 to 26 weeks in high-income countries, so they say little about living with a sensor for a decade."
+        "text": "Recommendation 9 puts fingerstick testing, real-time CGM and flash (intermittently scanned) CGM side by side as options, rather than ranking them. Given how CGM is marketed, the evidence behind that is worth seeing. Across 17 randomised trials, real-time CGM lowered HbA1c by 0.28 percentage points compared with finger-pricks, while flash CGM's 0.22 was, in the panel's words, little to no difference — both rated high certainty, and both below the 0.5 the panel had set in advance as the smallest difference that would actually matter clinically. Real-time CGM did reduce glucose variability compared with both flash and finger-pricks. Most of these trials ran 24 to 26 weeks in high-income countries, so they say little about living with a sensor for a decade."
       },
       {
         "t": "p",
-        "text": "None of that is an argument against sensors, and the guideline notes you may still need finger-pricks alongside one, to calibrate and to check a reading that does not match how you feel. It is an argument against assuming the sensor is doing the work: the trials suggest the benefit sits in variability and in day-to-day usability rather than in a dramatically different HbA1c. If you want the practical version of that, I've written about [what a sensor can show you before you notice anything yourself](/blog/perimenopause-or-thyroid-type-1-diabetes/). Urine glucose testing appears only as recommendation 11 — for use when blood glucose testing is not available at all."
+        "text": "None of that is an argument against sensors, and the guideline notes you may still need finger-pricks alongside one, to calibrate and to check a reading that does not match how you feel. It is an argument against assuming the sensor is doing the work: the trials suggest the benefit sits in variability, time in range and day-to-day usability rather than in a dramatically different HbA1c. If you want the practical version of that, I've written about [what a sensor can show you before you notice anything yourself](/blog/perimenopause-or-thyroid-type-1-diabetes/). Urine glucose testing appears only as recommendation 11 — for use when blood glucose testing is not available at all."
       },
       {
         "t": "p",
-        "text": "Two more choices are worth knowing because they are so clearly economic. Either human insulin or analogues can be used as bolus and as basal insulin, and human insulin is named the preferred option — explicitly because it generally costs less, not because it works better. Analogues are reserved for specific circumstances such as persistent severe or night-time hypoglycaemia despite good education and proper use of human insulin. And pens are suggested over syringes, on very low certainty evidence. For a reader in the UK on an analogue delivered by pen, nothing here is a demotion. It is the WHO setting a floor that most of the world is still below: its stated target is that everyone with type 1 diabetes has affordable insulin and blood glucose self-monitoring by 2030."
+        "text": "Two more choices are worth knowing because they are so clearly economic. Either human insulin or analogues can be used as bolus and as basal insulin, and human insulin is named the preferred option — explicitly because it generally costs less, not because it works better. Analogues are singled out for specific circumstances such as persistent severe or night-time hypoglycaemia despite good education and proper use of human insulin. And pens are suggested over syringes, on very low certainty evidence. For a reader in the UK on an analogue delivered by pen, nothing here is a demotion. It is the WHO setting a floor that most of the world is still below: its stated target is that everyone with type 1 diabetes has affordable insulin and blood glucose self-monitoring by 2030."
       },
       {
         "t": "h",
@@ -93,7 +93,7 @@ export default {
             "url": "https://www.who.int/publications/i/item/9789240126244"
           },
           {
-            "claim": "Continuous glucose monitoring beat finger-pricks by less than the panel's own threshold for a meaningful difference.",
+            "claim": "Real-time continuous glucose monitoring beat finger-pricks by less than the panel's own threshold for a meaningful difference.",
             "detail": "Recommendation 9 lists fingerstick testing, real-time CGM and intermittently scanned (flash) CGM together as options, conditional on moderate certainty evidence from 17 randomised trials. Real-time CGM was associated with a reduction in HbA1c of 0.28 percentage points versus fingerstick monitoring (95% CI −0.45 to −0.11, high certainty) and flash CGM with little to no difference (−0.22, 95% CI −0.46 to 0.01, high certainty); both fall below the 0.5 minimal clinically important difference the group had specified. Real-time CGM reduced glucose variability compared with both flash CGM and finger-pricks. Most trials ran 24–26 weeks in high-income outpatient clinics. The remarks note that finger-prick testing may still be needed alongside a sensor for calibration and to confirm readings that do not match symptoms.",
             "cite": "World Health Organization · Guideline, recommendation 9",
             "url": "https://www.who.int/publications/i/item/9789240126244"
@@ -134,7 +134,7 @@ export default {
     "title": "ВООЗ уперше видала настанову щодо діабету 1 типу для дорослих — одна сильна рекомендація і тринадцять «можливо»",
     "seoTitle": "Перша настанова ВООЗ щодо діабету 1 типу в дорослих",
     "metaDesc": "Перша настанова ВООЗ щодо інсуліну в дорослих із діабетом 1 типу: 14 рекомендацій, лише одна сильна, а ціль HbA1c — з дослідження людей до 39 років.",
-    "excerpt": "Перша настанова ВООЗ щодо діабету 1 типу в дорослих вийшла 12 листопада. Сильна з 14 рекомендацій лише одна, а доказова база цілі HbA1c обривається на 39 роках.",
+    "excerpt": "Перша настанова ВООЗ щодо діабету 1 типу в дорослих вийшла 12 листопада. Сильна з 14 рекомендацій лише одна, а ціль HbA1c спирається на дослідження, куди не брали людей, старших за 39.",
     "meta": "22 листопада 2026 · 8 хв читання",
     "lead": "12 листопада Всесвітня організація охорони здоров’я опублікувала свою першу настанову щодо застосування інсуліну в дорослих із діабетом 1 типу, а оголосила про неї через два дні — у Всесвітній день боротьби з діабетом. Якщо ви живете у Великій Британії, майже ніщо в ній не змінить ваших візитів до лікаря — і саме в цьому суть документа. Його писали для тих країн, де інсулін може просто закінчитися.",
     "blocks": [
@@ -168,7 +168,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Настанова закликає лікарів прагнути HbA1c 7,0% (53 ммоль/моль) або нижче в більшості дорослих із діабетом 1 типу — умовно, помірна певність. Цифра знайома; менш відомо, звідки вона взялася. Докази для неї взято цілком з одного рандомізованого дослідження, DCCT, і його тривалого спостереження EDIC. DCCT проводили у 21 центрі в Північній Америці й набирали людей віком від 13 до 39 років. Дані, релевантні для дорослих, походять із підгрупових аналізів і подальшого спостереження. Тобто ціль, яку призначили більшості з нас, встановили на людях, найстаршим із яких було 39, — і про це варто знати, якщо вам уже 52."
+        "text": "Настанова закликає лікарів прагнути HbA1c 7,0% (53 ммоль/моль) або нижче в більшості дорослих із діабетом 1 типу — умовно, помірна певність. Цифра знайома; менш відомо, звідки вона взялася. Докази для неї взято цілком з одного рандомізованого дослідження, DCCT, і його тривалого спостереження EDIC. DCCT проводили у 21 центрі в Північній Америці й набирали людей віком від 13 до 39 років; EDIC потім спостерігало за ними десятиліттями, але нікого старшого за 39 до дослідження не включали. Дані, релевантні для дорослих, походять із підгрупових аналізів і подальшого спостереження. Тобто ціль, яку призначили більшості з нас, встановили на людях, яким на старті було щонайбільше 39, — і про це варто знати, якщо вам уже 52."
       },
       {
         "t": "p",
@@ -180,15 +180,15 @@ export default {
       },
       {
         "t": "p",
-        "text": "Рекомендація 9 ставить поряд вимірювання з пальця, CGM у реальному часі та флеш-моніторинг (сканування за потреби) як варіанти, не ранжуючи їх. З огляду на те, як рекламують CGM, варто подивитися на докази, що за цим стоять. У 17 рандомізованих дослідженнях CGM у реальному часі знижував HbA1c на 0,28 відсоткового пункту проти вимірювань із пальця, а флеш — на 0,22; обидва результати мають високу певність і обидва нижчі за 0,5, які група заздалегідь визначила як найменшу клінічно значущу різницю. CGM у реальному часі таки зменшував варіабельність глюкози — і порівняно з флеш-моніторингом, і порівняно з проколами пальця. Більшість цих досліджень тривали 24–26 тижнів у країнах із високим рівнем доходу, тож про життя із сенсором упродовж десятиліття вони кажуть мало."
+        "text": "Рекомендація 9 ставить поряд вимірювання з пальця, CGM у реальному часі та флеш-моніторинг (сканування за потреби) як варіанти, не ранжуючи їх. З огляду на те, як рекламують CGM, варто подивитися на докази, що за цим стоять. У 17 рандомізованих дослідженнях CGM у реальному часі знижував HbA1c на 0,28 відсоткового пункту проти вимірювань із пальця, а 0,22 у флеш-моніторингу група оцінила як малу різницю або її відсутність; обидва результати мають високу певність і обидва нижчі за 0,5, які група заздалегідь визначила як найменшу клінічно значущу різницю. CGM у реальному часі таки зменшував варіабельність глюкози — і порівняно з флеш-моніторингом, і порівняно з проколами пальця. Більшість цих досліджень тривали 24–26 тижнів у країнах із високим рівнем доходу, тож про життя із сенсором упродовж десятиліття вони кажуть мало."
       },
       {
         "t": "p",
-        "text": "Ніщо з цього не є аргументом проти сенсорів, і настанова зазначає, що проколи пальця можуть знадобитися й поруч із сенсором — для калібрування та щоб перевірити показник, який не збігається з вашим самопочуттям. Це аргумент проти припущення, що вся заслуга — в самому сенсорі: дослідження свідчать, що користь — у меншій варіабельності й повсякденній зручності, а не в разюче іншому HbA1c. Про практичний бік цього я писала в статті про [те, що сенсор може показати ще до того, як ви щось помітите](/ua/blog/perimenopause-or-thyroid-type-1-diabetes/). Аналіз глюкози в сечі фігурує лише в рекомендації 11 — для випадків, коли вимірювання глюкози крові недоступне взагалі."
+        "text": "Ніщо з цього не є аргументом проти сенсорів, і настанова зазначає, що проколи пальця можуть знадобитися й поруч із сенсором — для калібрування та щоб перевірити показник, який не збігається з вашим самопочуттям. Це аргумент проти припущення, що вся заслуга — в самому сенсорі: дослідження свідчать, що користь — у меншій варіабельності, більшому часі в цільовому діапазоні й повсякденній зручності, а не в разюче іншому HbA1c. Про практичний бік цього я писала в статті про [те, що сенсор може показати ще до того, як ви щось помітите](/ua/blog/perimenopause-or-thyroid-type-1-diabetes/). Аналіз глюкози в сечі фігурує лише в рекомендації 11 — для випадків, коли вимірювання глюкози крові недоступне взагалі."
       },
       {
         "t": "p",
-        "text": "Ще два рішення варто знати, бо вони відверто економічні. І людський інсулін, і аналоги можна застосовувати як болюсний і як базальний, причому людський інсулін названо кращим варіантом — і в документі прямо пояснено: тому, що він загалом дешевший, а не тому, що діє краще. Аналоги залишають для окремих обставин, як-от стійка тяжка або нічна гіпоглікемія попри належне навчання і правильне застосування людського інсуліну. А ручкам радять надавати перевагу перед шприцами — на доказах дуже низької певності. Для читачки у Великій Британії, яка вводить аналог інсуліну ручкою, тут немає жодного кроку назад. Це ВООЗ встановлює нижню планку, нижче за яку досі перебуває більша частина світу: заявлена ціль — щоб до 2030 року кожна людина з діабетом 1 типу мала доступний інсулін і самоконтроль глюкози крові."
+        "text": "Ще два рішення варто знати, бо вони відверто економічні. І людський інсулін, і аналоги можна застосовувати як болюсний і як базальний, причому людський інсулін названо кращим варіантом — і в документі прямо пояснено: тому, що він загалом дешевший, а не тому, що діє краще. Аналоги радять розглядати в окремих обставинах, як-от стійка тяжка або нічна гіпоглікемія попри належне навчання і правильне застосування людського інсуліну. А ручкам радять надавати перевагу перед шприцами — на доказах дуже низької певності. Для читачки у Великій Британії, яка вводить аналог інсуліну ручкою, тут немає жодного кроку назад. Це ВООЗ встановлює нижню планку, нижче за яку досі перебуває більша частина світу: заявлена ціль — щоб до 2030 року кожна людина з діабетом 1 типу мала доступний інсулін і самоконтроль глюкози крові."
       },
       {
         "t": "h",
@@ -216,7 +216,7 @@ export default {
             "url": "https://www.who.int/publications/i/item/9789240126244"
           },
           {
-            "claim": "Безперервний моніторинг глюкози перевершив проколи пальця на величину, меншу за поріг значущості, який визначила сама група.",
+            "claim": "Безперервний моніторинг глюкози в реальному часі перевершив проколи пальця на величину, меншу за поріг значущості, який визначила сама група.",
             "detail": "Рекомендація 9 подає разом як варіанти вимірювання з пальця, CGM у реальному часі та флеш-моніторинг (сканування за потреби) — умовно, на доказах помірної певності з 17 рандомізованих досліджень. CGM у реальному часі знижував HbA1c на 0,28 відсоткового пункту проти вимірювань із пальця (95% ДІ від −0,45 до −0,11, висока певність), а флеш показав малу різницю або її відсутність (−0,22, 95% ДІ від −0,46 до 0,01, висока певність); обидва результати нижчі за 0,5 — мінімальну клінічно значущу різницю, яку група визначила заздалегідь. CGM у реальному часі зменшував варіабельність глюкози порівняно і з флеш-моніторингом, і з проколами пальця. Більшість досліджень тривали 24–26 тижнів в амбулаторних клініках країн із високим рівнем доходу. У примітках сказано, що проколи пальця можуть знадобитися й поруч із сенсором — для калібрування та підтвердження показників, що не збігаються із симптомами.",
             "cite": "Всесвітня організація охорони здоров’я · Настанова, рекомендація 9",
             "url": "https://www.who.int/publications/i/item/9789240126244"

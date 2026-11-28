@@ -16,7 +16,7 @@ export default {
     "imageAlt": "Low sun pushing through a sheer curtain into an otherwise darkened room.",
     "title": "HRT and migraine: slightly more attacks, and the three things the study couldn’t separate",
     "seoTitle": "HRT and Migraine: What the New Analysis Found",
-    "metaDesc": "A Menopause Society analysis of 23,702 women found HRT users reported 1.16 more migraines a month. Why route, dose and regimen matter more than the headline.",
+    "metaDesc": "A meta-analysis of 23,702 women presented at The Menopause Society found HRT users reported 1.16 more migraines a month. Why route, dose and regimen matter more than the headline.",
     "excerpt": "Pooled data from San Diego found women on HRT reported about one extra migraine a month, with no more pain and no more painkillers. Route, dose and regimen matter more.",
     "meta": "31 October 2026 · 7 min read",
     "lead": "A headline saying hormone therapy makes migraine worse is doing a lot of work for a finding of roughly one extra attack a month. The number is real. What it cannot tell you is which hormone therapy, at what dose, or on what schedule — and that is where the useful evidence sits.",
@@ -55,7 +55,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "The second is that the link between migraine and diabetes is genuinely unsettled, and anyone who tells you otherwise has picked a side. A French cohort of 74,247 women followed for about a decade found that women with active migraine were less likely to go on to develop type 2 diabetes — a 30% lower risk after adjustment. A 2024 meta-analysis pooling four cohort studies found the opposite direction, though barely: a history of migraine was linked to a 9% higher risk of developing diabetes. The same analysis found that having diabetes went with less migraine rather than more, and graded most of its own findings at low or very low certainty. Two careful groups of researchers, pointing opposite ways, at effect sizes small enough that either could be noise. The useful conclusion is the dull one: migraine is not a signal about your diabetes risk in either direction. The stroke point above is a separate matter from glucose, and it is the one worth acting on."
+        "text": "The second is that the link between migraine and diabetes is genuinely unsettled, and anyone who tells you otherwise has picked a side. A French cohort of 74,247 women followed for about a decade found that women with active migraine were less likely to go on to develop type 2 diabetes — a 30% lower risk after adjustment. A 2024 meta-analysis of four cohort studies found no overall link between migraine and later diabetes, and only in one subgroup, people with a past history of migraine, a 9% higher risk of developing diabetes: the opposite direction, though barely. The same analysis found that having diabetes went with less migraine rather than more, and graded most of its own findings at low or very low certainty. Two careful groups of researchers, pointing opposite ways, at effect sizes small enough that either could be noise. The useful conclusion is the dull one: migraine is not a signal about your diabetes risk in either direction. The stroke point above is a separate matter from glucose, and it is the one worth acting on."
       },
       {
         "t": "h",
@@ -63,7 +63,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "If you are on HRT and your migraines have changed, that is information your prescriber can use — and it is specific enough to act on. Keep a plain record for a few weeks: how many attacks, how many days affected, roughly how bad. The reason that is worth the bother is that the adjustable parts are route, dose and regimen, and a before-and-after count is what tells a clinician which one to move. Headache specialists generally suggest this is managed jointly by a neurologist and a menopause clinician rather than by either on their own."
+        "text": "If you are on HRT and your migraines have changed, that is information your prescriber can use — and it is specific enough to act on. Keep a plain record for a few weeks: how many attacks, how many days affected, roughly how bad. The reason that is worth the bother is that the adjustable parts are route, dose and regimen, and a before-and-after count is what tells a clinician which one to move. The Headache review calls for joined-up, menopause-informed care, which in practice means your GP or menopause clinician and, if your migraines are hard to control, a neurologist, rather than either on their own."
       },
       {
         "t": "p",
@@ -95,8 +95,8 @@ export default {
             "url": "https://doi.org/10.1001/jamaneurol.2018.3960"
           },
           {
-            "claim": "A later pooled analysis found the opposite direction, and graded its own evidence as weak.",
-            "detail": "Ha WS, Nguyen VK, Chu MK. Epidemiological linkage between migraine and diabetes mellitus: a systematic review and meta-analysis. The Journal of Headache and Pain 2024;25(1):158. Eight cross-sectional studies and four cohort studies. Pooled cross-sectional data showed no significant overall association between diabetes and migraine. In the cohort data, a history of migraine was associated with a slightly raised risk of developing diabetes (HR 1.09; 95% CI 1.01–1.17), while having diabetes was associated with a lower risk of developing migraine (HR 0.83; 95% CI 0.76–0.90). Type 1 diabetes was associated with reduced odds of migraine (OR 0.48; 95% CI 0.30–0.77). The authors state that most results remained at a low or very low level of evidence.",
+            "claim": "A later pooled analysis found no overall link, a small raised risk in one subgroup, and graded its own evidence as weak.",
+            "detail": "Ha WS, Nguyen VK, Chu MK. Epidemiological linkage between migraine and diabetes mellitus: a systematic review and meta-analysis. The Journal of Headache and Pain 2024;25(1):158. Eight cross-sectional studies and four cohort studies. Pooled cross-sectional data showed no significant overall association between diabetes and migraine. In the cohort data, migraine overall was not associated with developing diabetes (HR 0.98; 95% CI 0.85–1.14); only in a subgroup analysis by migraine status at baseline was a history of migraine associated with a slightly raised risk (HR 1.09; 95% CI 1.01–1.17), graded very low quality. Separately, having diabetes was associated with a lower risk of developing migraine (HR 0.83; 95% CI 0.76–0.90). In cross-sectional subgroup data, type 1 diabetes was associated with reduced odds of migraine (OR 0.48; 95% CI 0.30–0.77). The authors state that most results remained at a low or very low level of evidence.",
             "cite": "The Journal of Headache and Pain, September 2024 · DOI 10.1186/s10194-024-01868-2",
             "url": "https://doi.org/10.1186/s10194-024-01868-2"
           }
@@ -126,7 +126,7 @@ export default {
       },
       {
         "q": "I get migraine with aura. Am I allowed HRT at all?",
-        "a": "Usually yes, but it is a conversation about how rather than whether, and it needs a clinician who knows your history. The blunt warning many women have heard comes mostly from research on the combined contraceptive pill, which is a different drug at a different dose from menopausal hormone therapy. What the migraine literature points to is low-dose oestrogen through the skin rather than higher-dose tablets, and a continuous rather than cyclical progestogen. Aura does carry its own raised risk of ischaemic stroke independently of any treatment, so if you also have diabetes, high blood pressure or smoke, that raises the stakes on getting the route right. Headache specialists generally recommend this is handled jointly by a neurologist and a menopause clinician."
+        "a": "Usually yes, but it is a conversation about how rather than whether, and it needs a clinician who knows your history. The blunt warning many women have heard comes mostly from research on the combined contraceptive pill, which is a different drug at a different dose from menopausal hormone therapy. What the migraine literature points to is low-dose oestrogen through the skin rather than higher-dose tablets, and a continuous rather than cyclical progestogen. Aura does carry its own raised risk of ischaemic stroke independently of any treatment, so if you also have diabetes, high blood pressure or smoke, that raises the stakes on getting the route right. The Headache review recommends joined-up, menopause-informed care: your menopause clinician and, where migraine is hard to control, a neurologist."
       }
     ]
   },
@@ -135,7 +135,7 @@ export default {
     "imageAlt": "Низьке сонце пробивається крізь прозору фіранку в темну кімнату.",
     "title": "ЗГТ і мігрень: трохи більше нападів — і три речі, яких дослідження не змогло розділити",
     "seoTitle": "ЗГТ і мігрень: що насправді виявили",
-    "metaDesc": "Аналіз даних 23 702 жінок показав: на ЗГТ було на 1,16 нападу мігрені більше на місяць. Чому шлях введення, доза і схема важливіші за заголовок.",
+    "metaDesc": "Метааналіз даних 23 702 жінок, представлений на зустрічі The Menopause Society, показав: на ЗГТ було на 1,16 нападу мігрені більше на місяць. Чому шлях введення, доза і схема важливіші за заголовок.",
     "excerpt": "Об’єднані дані з Сан-Дієґо: жінки на ЗГТ повідомляли приблизно про один додатковий напад мігрені на місяць, без сильнішого болю. Важливіші шлях введення, доза і схема.",
     "meta": "31 жовтня 2026 · 7 хв читання",
     "lead": "Заголовок про те, що гормональна терапія погіршує мігрень, надто багато обіцяє як для результату приблизно в один додатковий напад на місяць. Цифра справжня. Але вона нічого не каже про те, яка саме гормональна терапія, у якій дозі і за якою схемою — а саме там і містяться корисні докази.",
@@ -174,7 +174,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Друга — що зв’язок між мігренню і діабетом справді не з’ясований, і хто стверджує інакше, просто став на чийсь бік. Французька когорта з 74 247 жінок, за якими спостерігали приблизно десять років, виявила, що жінки з активною мігренню рідше захворювали на діабет 2 типу — ризик на 30% нижчий після поправки на інші чинники. Метааналіз 2024 року, який об’єднав чотири когортні дослідження, дав протилежний напрям, хоч і зовсім невеликий: історія мігрені була пов’язана з вищим на 9% ризиком розвитку діабету. Той самий аналіз виявив, що наявність діабету йшла разом із рідшою, а не частішою мігренню, і оцінив доказовість більшості власних результатів як низьку або дуже низьку. Дві сумлінні групи дослідників, які вказують у протилежні боки, і ефекти настільки малі, що будь-який із них може бути випадковістю. Корисний висновок — нудний: мігрень не є сигналом про ваш ризик діабету в жодному з напрямків. А питання інсульту, про яке йшлося вище, — окрема історія, не про глюкозу, і саме тут варто діяти."
+        "text": "Друга — що зв’язок між мігренню і діабетом справді не з’ясований, і хто стверджує інакше, просто став на чийсь бік. Французька когорта з 74 247 жінок, за якими спостерігали приблизно десять років, виявила, що жінки з активною мігренню рідше захворювали на діабет 2 типу — ризик на 30% нижчий після поправки на інші чинники. Метааналіз 2024 року, який об’єднав чотири когортні дослідження, не виявив загального зв’язку між мігренню і подальшим діабетом, і лише в одній підгрупі, у людей з мігренню в минулому, ризик розвитку діабету був вищим на 9%: протилежний напрям, хоч і зовсім невеликий. Той самий аналіз виявив, що наявність діабету йшла разом із рідшою, а не частішою мігренню, і оцінив доказовість більшості власних результатів як низьку або дуже низьку. Дві сумлінні групи дослідників, які вказують у протилежні боки, і ефекти настільки малі, що будь-який із них може бути випадковістю. Корисний висновок — нудний: мігрень не є сигналом про ваш ризик діабету в жодному з напрямків. А питання інсульту, про яке йшлося вище, — окрема історія, не про глюкозу, і саме тут варто діяти."
       },
       {
         "t": "h",
@@ -182,7 +182,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Якщо ви на ЗГТ і ваші мігрені змінилися — це інформація, якою ваш лікар може скористатися, і вона достатньо конкретна, щоб діяти. Ведіть простий запис кілька тижнів: скільки нападів, скільки днів вони забрали, приблизно наскільки важко. Навіщо це потрібно: регулюється саме шлях введення, доза і схема, а підрахунок «до» і «після» — саме те, що підкаже лікареві, що з цього змінити. Спеціалісти з головного болю зазвичай радять, щоб цим спільно займалися невролог і фахівець із менопаузи, а не хтось із них окремо."
+        "text": "Якщо ви на ЗГТ і ваші мігрені змінилися — це інформація, якою ваш лікар може скористатися, і вона достатньо конкретна, щоб діяти. Ведіть простий запис кілька тижнів: скільки нападів, скільки днів вони забрали, приблизно наскільки важко. Навіщо це потрібно: регулюється саме шлях введення, доза і схема, а підрахунок «до» і «після» — саме те, що підкаже лікареві, що з цього змінити. Огляд у Headache закликає до злагодженої допомоги з урахуванням менопаузи: на практиці це ваш сімейний лікар або фахівець із менопаузи, а якщо мігрень важко контролювати, ще й невролог, а не хтось із них окремо."
       },
       {
         "t": "p",
@@ -214,8 +214,8 @@ export default {
             "url": "https://doi.org/10.1001/jamaneurol.2018.3960"
           },
           {
-            "claim": "Пізніший метааналіз дав протилежний напрям і сам оцінив свої докази як слабкі.",
-            "detail": "Ha WS, Nguyen VK, Chu MK. Epidemiological linkage between migraine and diabetes mellitus: a systematic review and meta-analysis. The Journal of Headache and Pain 2024;25(1):158. Вісім поперечних і чотири когортні дослідження. Поперечні дані не показали суттєвого загального зв’язку між діабетом і мігренню. У когортних даних історія мігрені була пов’язана з дещо вищим ризиком розвитку діабету (ВР 1,09; 95% ДІ 1,01–1,17), а наявність діабету — з нижчим ризиком розвитку мігрені (ВР 0,83; 95% ДІ 0,76–0,90). Діабет 1 типу був пов’язаний із меншими шансами мігрені (ВШ 0,48; 95% ДІ 0,30–0,77). Автори зазначають, що більшість результатів залишилась на низькому або дуже низькому рівні доказовості.",
+            "claim": "Пізніший метааналіз не виявив загального зв’язку, лише невеликий підвищений ризик в одній підгрупі, і сам оцінив свої докази як слабкі.",
+            "detail": "Ha WS, Nguyen VK, Chu MK. Epidemiological linkage between migraine and diabetes mellitus: a systematic review and meta-analysis. The Journal of Headache and Pain 2024;25(1):158. Вісім поперечних і чотири когортні дослідження. Поперечні дані не показали суттєвого загального зв’язку між діабетом і мігренню. У когортних даних мігрень загалом не була пов’язана з розвитком діабету (ВР 0,98; 95% ДІ 0,85–1,14); лише в аналізі підгруп за станом мігрені на початку спостереження історія мігрені була пов’язана з дещо вищим ризиком (ВР 1,09; 95% ДІ 1,01–1,17), доказовість дуже низька. Окремо, наявність діабету — з нижчим ризиком розвитку мігрені (ВР 0,83; 95% ДІ 0,76–0,90). У поперечних даних підгрупи діабет 1 типу був пов’язаний із меншими шансами мігрені (ВШ 0,48; 95% ДІ 0,30–0,77). Автори зазначають, що більшість результатів залишилась на низькому або дуже низькому рівні доказовості.",
             "cite": "The Journal of Headache and Pain, вересень 2024 · DOI 10.1186/s10194-024-01868-2",
             "url": "https://doi.org/10.1186/s10194-024-01868-2"
           }
@@ -245,7 +245,7 @@ export default {
       },
       {
         "q": "У мене мігрень з аурою. Мені взагалі можна ЗГТ?",
-        "a": "Зазвичай так, але це розмова про те, як, а не чи, і вести її варто з лікарем, який знає вашу історію. Категоричне застереження, яке чули багато жінок, походить переважно з досліджень комбінованих протизаплідних таблеток, а це інший препарат в іншій дозі, ніж менопаузальна гормональна терапія. Література про мігрень вказує на низькодозовий естроген через шкіру, а не високодозові таблетки, і на безперервний, а не циклічний прогестоген. Аура сама по собі несе підвищений ризик ішемічного інсульту, незалежно від лікування, тому якщо у вас ще й діабет, високий тиск або ви курите, правильний вибір шляху введення стає ще важливішим. Спеціалісти з головного болю зазвичай рекомендують, щоб цим спільно займалися невролог і фахівець із менопаузи."
+        "a": "Зазвичай так, але це розмова про те, як, а не чи, і вести її варто з лікарем, який знає вашу історію. Категоричне застереження, яке чули багато жінок, походить переважно з досліджень комбінованих протизаплідних таблеток, а це інший препарат в іншій дозі, ніж менопаузальна гормональна терапія. Література про мігрень вказує на низькодозовий естроген через шкіру, а не високодозові таблетки, і на безперервний, а не циклічний прогестоген. Аура сама по собі несе підвищений ризик ішемічного інсульту, незалежно від лікування, тому якщо у вас ще й діабет, високий тиск або ви курите, правильний вибір шляху введення стає ще важливішим. Огляд у Headache радить злагоджену допомогу з урахуванням менопаузи: фахівець із менопаузи, а якщо мігрень важко контролювати, ще й невролог."
       }
     ]
   }
