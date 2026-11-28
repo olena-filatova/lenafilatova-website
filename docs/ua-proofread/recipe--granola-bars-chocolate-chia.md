@@ -1,5 +1,5 @@
-# recipe--granola-bars-chocolate-chia
+# UA proofread: recipe--granola-bars-chocolate-chia
 
-- Last checked: 2026-10-18
-- PR: https://github.com/olena-filatova/lenafilatova-website/pull/TBD
-- Notes: One terminology-consistency fix in `method[1]` — "щоб маса з’єдналася" → "щоб маса скріпилася", matching the "bind/held together" vocabulary (скріплено/скріплюють) used elsewhere in this and sibling granola-bar recipes. Rest of the UA text (title, why, nutrition, ingredients, note) reads naturally and matches the EN meaning; no other issues found.
+- Last checked: 2026-11-28 (second cycle; previously 2026-10-18)
+- PR: (this PR — see "UA proofread: recipe--ginger-cookies-almond-flour, recipe--granola-bars-chocolate-chia")
+- Notes: 3 fixes. 1 calque: `why` «насичені клітковиною, омега-3 і білком» → «багаті на клітковину, омега-3 і білок». 1 meaning/idiom: "a small square of chocolate goes a long way" — «відчувається сповна» → «навіть маленького квадратика шоколаду цілком достатньо». 1 meaning + wording in `method[1]`: "a minute or two" was «кілька хвилин» → «хвилину-дві»; «вкладіть на деко» → «викладіть масу на деко». «Заморозка» left as is (site-wide convention, 12 uses). Numbers, quantities, `en` untouched.

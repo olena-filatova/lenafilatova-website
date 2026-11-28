@@ -1,5 +1,5 @@
-# recipe--ginger-cookies-almond-flour
+# UA proofread: recipe--ginger-cookies-almond-flour
 
-- Last checked: 2026-10-18
-- PR: (this PR)
-- Notes: Compared every `ua` string against `en`. One fix: `why` ended with "делікатні до цукру" — a calque of "gentle on blood sugar" that reads as unclear Ukrainian ("delicate towards sugar"). Replaced with "м'які для рівня цукру в крові", matching the phrasing already used for the same EN sentence elsewhere in `recipes.js` (chocolate-ginger-cake-avocado-cream, blueberry-curd-tart, rhubarb-strawberry-jam, strawberry-basil-cake). Everything else (ingredients, method, nutrition) checked clean against `en`.
+- Last checked: 2026-11-28 (second cycle; previously 2026-10-18)
+- PR: (this PR — see "UA proofread: recipe--ginger-cookies-almond-flour, recipe--granola-bars-chocolate-chia")
+- Notes: 3 fixes. 1 calque/terminology: `why` «м’які для рівня цукру в крові» (only use site-wide) → «м’яко впливають на рівень цукру в крові», the established recipes.js phrasing; same sentence restructured to carry EN "just a spoon of maple" («кленового сиропу — лише ложка»). 2 style in `method`: «Сформуйте кульки та злегка приплюсніть на деку» → «…, викладіть на деко й злегка приплюсніть»; «Охолоджуйте на деку — печиво твердне, охолоджуючись» → «Остудіть на деку — печиво твердне, коли холоне». Numbers, temperatures, `en` untouched.
