@@ -46,7 +46,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Before any of it, the thing that matters most for a woman over 40 is resistance training. Muscle mass, bone density and insulin sensitivity all decline through the menopause transition, and lifting is the only one of these three activities that directly addresses all three. Cardio complements that. It does not replace it."
+        "text": "Before any of it, the thing that matters most for a woman over 40 is resistance training. Muscle mass, bone density and insulin sensitivity all decline through the menopause transition, and lifting is the only one of these three activities that directly addresses all three. Cardio complements that. It does not replace it. And lifting only pays if there is something to rebuild with: [protein needs after 40](/blog/protein-for-women-over-40/) are higher than the UK guideline figure, and that gap is the commonest reason training stops showing results."
       },
       {
         "t": "p",
@@ -349,7 +349,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Перед усім цим найважливіше для жінки після 40 — силові тренування. М’язова маса, щільність кісток і чутливість до інсуліну знижуються протягом менопаузального переходу, і силові — єдина з цих трьох активностей, яка напряму впливає на всі три. Кардіо це доповнює. Воно цього не замінює."
+        "text": "Перед усім цим найважливіше для жінки після 40 — силові тренування. М’язова маса, щільність кісток і чутливість до інсуліну знижуються протягом менопаузального переходу, і силові — єдина з цих трьох активностей, яка напряму впливає на всі три. Кардіо це доповнює. Воно цього не замінює. І силові дають результат лише тоді, коли є з чого відновлюватися: [потреба в білку після 40](/ua/blog/protein-for-women-over-40/) вища за британську норму, і саме цей розрив — найчастіша причина, чому тренування перестають давати ефект."
       },
       {
         "t": "p",
