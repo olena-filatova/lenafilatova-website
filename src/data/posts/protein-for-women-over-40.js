@@ -1,6 +1,7 @@
 export default {
   "slug": "protein-for-women-over-40",
   "date": "2026-07-04",
+  "updated": "2026-11-28",
   "image": "/images/protein-for-women-over-40.jpg",
   "cats": [
     "nutrition"
@@ -10,7 +11,7 @@ export default {
     "imageAlt": "A woman lifting a scoop of protein powder out of a shaker bottle.",
     "title": "Protein for women over 40: how much do you actually need?",
     "excerpt": "Why the UK guideline of 0.75g/kg falls short after 40 — and the protein targets that actually protect muscle, energy and blood sugar.",
-    "meta": "4 July 2026 · 10 min read",
+    "meta": "4 July 2026 · updated 28 November 2026 · 13 min read",
     "lead": "Getting enough protein after 40 is one of the most consistent things I hear women struggle with — and one of the things that made the biggest difference to my own energy and blood sugar stability. Here’s what the evidence says, and what works in practice.",
     "seoTitle": "How Much Protein Do Women Over 40 Need? A UK Guide",
     "metaDesc": "The UK RNI is 0.75g/kg — about 45g a day. Why that is a floor and not a target after 40, and the protein numbers that protect muscle, energy and blood sugar.",
@@ -18,6 +19,14 @@ export default {
       {
         "t": "p",
         "text": "Please always consult your healthcare professional before changing your diet."
+      },
+      {
+        "t": "h",
+        "text": "The short answer"
+      },
+      {
+        "t": "p",
+        "text": "Aim for 1.2g of protein per kg of body weight a day as a floor, and 1.6g/kg if you train regularly. For a 70kg woman that is 84g to 112g a day. The UK guideline figure of 0.75g/kg — about 53g at that weight — is the intake calculated to stop you becoming deficient, not the intake that protects muscle in your forties and fifties. Spread it across the day rather than loading it into dinner: roughly 25–40g at each of three meals gets most women there. The rest of this article is where those numbers come from, and where the evidence behind them is thinner than it is usually made to sound."
       },
       {
         "t": "p",
@@ -137,6 +146,18 @@ export default {
       },
       {
         "t": "h",
+        "text": "And after 50?"
+      },
+      {
+        "t": "p",
+        "text": "The requirement does not step up on a birthday, but two things do change: appetite tends to fall, and the muscle you are protecting has usually already started going. The clinical bodies have a number for this. The European Society for Clinical Nutrition and Metabolism, after a 2013 expert workshop, recommended at least 1.0–1.2g/kg a day for healthy older people, rising to 1.2–1.5g/kg for anyone malnourished or living with an acute or chronic illness — and said plainly that every older adult should keep doing resistance training for as long as they can. That floor sits well above the UK guideline and a little below the active range in the table above, which is roughly where a sedentary woman in her fifties and a woman still lifting three times a week ought to differ."
+      },
+      {
+        "t": "p",
+        "text": "What happens if you actually hit it is less certain than the advice implies. The clearest signal in postmenopausal women comes from a Women’s Health Initiative analysis of 3,789 women, where those holding above 1.2g/kg a day had more favourable muscle and bone changes over three years — I’ve gone through [what that analysis can and cannot show](/blog/higher-protein-postmenopausal-bone-muscle/) separately, and it is observational. The most recent randomised evidence, a twelve-week trial in 100 postmenopausal women published in July 2026, added high protein and time-restricted eating to a Nordic walking programme; the group that got the protein did better on lean mass than the group that did not, and the authors still caution that this compares whole packages rather than isolating protein. Which is the honest summary of this entire field: the case for eating more protein after 50 is good, the case for protein instead of lifting is not."
+      },
+      {
+        "t": "h",
         "text": "How to actually eat more protein"
       },
       {
@@ -146,6 +167,54 @@ export default {
       {
         "t": "p",
         "text": "Distribution matters as much as the total. [A study on postmenopausal women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) tested whether it mattered if a 15g protein drink came straight after resistance training or two hours later, and found no meaningful advantage either way — which usefully moves the emphasis off the post-workout window and onto what you eat across the day as a whole. Research consistently shows the body stimulates muscle protein synthesis most effectively when each meal provides roughly 25–40g of protein. Eating 120g at dinner is far less effective than spreading it across three meals. Front-loading protein at breakfast, where most women eat the least, is one of the most practical changes you can make."
+      },
+      {
+        "t": "p",
+        "text": "The per-meal number has a figure behind it. A retrospective analysis of muscle protein synthesis data found the response plateaued at about 0.40g per kg of body mass in a single meal in older adults, against 0.24g/kg in younger ones — they need a bigger dose at one sitting for the same effect. Two caveats worth knowing: that analysis was done in men, and the body-mass comparison only just missed statistical significance (the comparison measured against lean body mass was clearer). Take it as a working target rather than a threshold. The useful part is that 0.40g/kg per meal, eaten three times, lands exactly on the 1.2g/kg daily floor — the two numbers agree, which is reassuring when nothing else in nutrition does."
+      },
+      {
+        "t": "p",
+        "text": "What that means on a plate:"
+      },
+      {
+        "t": "table",
+        "head": [
+          "Your weight",
+          "Daily 1.2g/kg",
+          "Per meal over three",
+          "Daily 1.6g/kg",
+          "Per meal over three"
+        ],
+        "rows": [
+          [
+            "55 kg",
+            "66 g",
+            "22 g",
+            "88 g",
+            "29 g"
+          ],
+          [
+            "65 kg",
+            "78 g",
+            "26 g",
+            "104 g",
+            "35 g"
+          ],
+          [
+            "75 kg",
+            "90 g",
+            "30 g",
+            "120 g",
+            "40 g"
+          ],
+          [
+            "85 kg",
+            "102 g",
+            "34 g",
+            "136 g",
+            "45 g"
+          ]
+        ]
       },
       {
         "t": "p",
@@ -262,6 +331,24 @@ export default {
             "detail": "A randomised trial in 21 overweight postmenopausal women on a twelve-week resistance-training and weight-loss programme compared a 15g protein drink taken immediately after exercise with the same drink two hours later, measuring muscle protein fractional synthesis rates. It was published as a conference abstract and funded by the programme’s provider, Curves International. Neither timing came out clearly ahead, which is evidence that anxiety about the post-exercise window is misplaced and that total daily intake is the variable worth managing.",
             "cite": "Journal of the International Society of Sports Nutrition · Randomised trial (conference abstract), 2013",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
+          },
+          {
+            "claim": "Older adults need a bigger protein dose in one sitting than younger adults to maximise muscle protein synthesis.",
+            "detail": "A retrospective analysis in the Journal of Gerontology (2015) pooled muscle protein synthesis measurements from the authors’ own laboratories in healthy older (~71 years) and younger (~22 years) participants given 0–40g of high-quality protein as a single bolus. Breakpoint analysis put the plateau at 0.40 ± 0.19 g/kg of body mass in the older group against 0.24 ± 0.06 g/kg in the younger one, and at 0.60 ± 0.29 against 0.25 ± 0.13 g/kg of lean body mass. Two limits matter for the per-meal target in this article: the participants were men, and the body-mass comparison reached p = .055 — just outside significance, though the lean-body-mass comparison was clear at p < .01. It is also a retrospective pooling of existing data, not a trial designed to answer this question.",
+            "cite": "Journal of Gerontology: Medical Sciences · Retrospective analysis, 2015",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25056502/"
+          },
+          {
+            "claim": "European clinical nutrition guidance sets 1.0–1.2g/kg a day as the floor for healthy older adults, and 1.2–1.5g/kg in illness.",
+            "detail": "Recommendations from the ESPEN Expert Group, published in Clinical Nutrition (2014) after a workshop on protein requirements in the elderly held in Dubrovnik in November 2013. For healthy older people the diet should provide at least 1.0–1.2g protein per kg of body weight a day; for those malnourished or at risk because of acute or chronic illness, 1.2–1.5g/kg, with more in severe illness or injury; and daily physical activity including resistance training is recommended for all older people, for as long as possible. This is an expert consensus statement rather than a formally graded guideline, and its floor sits below the active range in this article — the difference is training status, not disagreement.",
+            "cite": "Clinical Nutrition · ESPEN Expert Group consensus, 2014",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24814383/"
+          },
+          {
+            "claim": "The most recent randomised trial in postmenopausal women cannot separate protein from the rest of the programme it was bundled with.",
+            "detail": "A three-arm randomised controlled trial in Nutrients (29 July 2026) assigned 100 postmenopausal women to Nordic walking with high protein and time-restricted eating (n=36), Nordic walking with time-restricted eating alone (n=33), or a control group (n=31), for twelve weeks; 96 completed. The primary outcome was handgrip strength, with gait speed, five-times chair-stand and lean-mass measures secondary. Grip strength improved in both intervention groups and most in the group that also had the protein, and the group without the protein showed less favourable lean-mass changes. The authors state the findings should be read as differences between intervention packages rather than as evidence for the isolated effect of any single component, and the abstract reports the pattern without effect sizes.",
+            "cite": "Nutrients · Three-arm randomised controlled trial, July 2026",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42588093/"
           }
         ]
       },
@@ -347,7 +434,7 @@ export default {
     "imageAlt": "Жінка дістає мірну ложку протеїнового порошку з шейкера.",
     "title": "Білок для жінок після 40: скільки насправді потрібно?",
     "excerpt": "Чому британська норма 0,75 г/кг замала після 40 — і які орієнтири білка справді захищають м’язи, енергію та цукор у крові.",
-    "meta": "4 липня 2026 · 10 хв читання",
+    "meta": "4 липня 2026 · оновлено 28 листопада 2026 · 13 хв читання",
     "lead": "Як їсти достатньо білка після 40 — одна з проблем, на які жінки скаржаться мені найчастіше. І одна з речей, що найбільше вплинули на мою власну енергію та стабільність цукру в крові. Ось що каже наука і що працює на практиці.",
     "seoTitle": "Скільки білка потрібно жінкам після 40? Британські норми",
     "metaDesc": "Британська норма — 0,75 г/кг, близько 45 г на добу. Чому це нижня межа, а не орієнтир після 40, і які цифри справді захищають м’язи, енергію та цукор у крові.",
@@ -355,6 +442,14 @@ export default {
       {
         "t": "p",
         "text": "Будь ласка, завжди консультуйтеся зі своїм лікарем, перш ніж змінювати раціон."
+      },
+      {
+        "t": "h",
+        "text": "Коротка відповідь"
+      },
+      {
+        "t": "p",
+        "text": "Орієнтир — 1,2 г білка на кг ваги на добу як мінімум і 1,6 г/кг, якщо ви регулярно тренуєтеся. Для жінки вагою 70 кг це від 84 до 112 г на добу. Британська норма 0,75 г/кг — близько 53 г за такої ваги — це кількість, розрахована так, щоб не виник дефіцит, а не та, що зберігає м’язи в сорок і п’ятдесят. Розподіляйте її протягом дня, а не залишайте все на вечерю: приблизно 25–40 г у кожен із трьох прийомів їжі виводить більшість жінок на потрібну цифру. Далі в статті — звідки взялися ці числа і де докази за ними слабші, ніж зазвичай звучить."
       },
       {
         "t": "p",
@@ -474,6 +569,18 @@ export default {
       },
       {
         "t": "h",
+        "text": "А після 50?"
+      },
+      {
+        "t": "p",
+        "text": "Потреба не змінюється стрибком у день народження, але дві речі змінюються: апетит зазвичай знижується, а м’язи, які ви захищаєте, здебільшого вже почали зменшуватися. У клінічних організацій є число для цього. Європейське товариство клінічного харчування та метаболізму після експертного семінару 2013 року рекомендувало щонайменше 1,0–1,2 г/кг на добу для здорових літніх людей і 1,2–1,5 г/кг для тих, хто має недостатнє харчування або живе з гострою чи хронічною хворобою — і прямо сказало, що силові тренування варто продовжувати якомога довше. Цей мінімум помітно вищий за британську норму й трохи нижчий за «активний» рівень у таблиці вище — приблизно там і має пролягати різниця між малорухливою жінкою за п’ятдесят і жінкою, яка досі тренується тричі на тиждень."
+      },
+      {
+        "t": "p",
+        "text": "Що саме дає досягнення цієї цифри — менш певно, ніж випливає з порад. Найчіткіший сигнал у жінок у постменопаузі дає аналіз Women’s Health Initiative за участю 3 789 жінок: ті, хто тримався вище 1,2 г/кг на добу, мали сприятливіші зміни м’язів і кісток за три роки. Я окремо розбирала, [що цей аналіз може і чого не може показати](/ua/blog/higher-protein-postmenopausal-bone-muscle/) — він обсерваційний. Найсвіжіші рандомізовані дані — дванадцятитижневе дослідження за участю 100 жінок у постменопаузі, опубліковане в липні 2026 року, — додавали високий рівень білка й обмежене в часі харчування до програми скандинавської ходьби; група, яка отримувала білок, мала кращі показники знежиреної маси, ніж група без нього, і автори все одно застерігають, що порівнюються цілі комплекси, а не ефект білка окремо. Це і є чесний підсумок усієї цієї галузі: аргументи за більше білка після 50 добрі, аргументів за білок замість силових — немає."
+      },
+      {
+        "t": "h",
         "text": "Як насправді їсти більше білка"
       },
       {
@@ -483,6 +590,54 @@ export default {
       {
         "t": "p",
         "text": "Розподіл важливий не менше за загальну кількість. [Дослідження за участю жінок у постменопаузі](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/) перевіряло, чи має значення, коли випити напій із 15 г білка — одразу після силового тренування чи через дві години, — і не знайшло відчутної переваги в жодного варіанта. Це слушно зміщує акцент із «вікна» після тренування на те, що ви їсте протягом усього дня. Дослідження стабільно показують, що тіло найкраще стимулює синтез м’язового білка, коли кожен прийом їжі дає приблизно 25–40 г білка. З’їсти 120 г за вечерею значно менш ефективно, ніж розподілити на три прийоми. Одна з найпрактичніших змін — більше білка на сніданок: саме тоді більшість жінок їдять його найменше."
+      },
+      {
+        "t": "p",
+        "text": "За цифрою для одного прийому їжі стоїть дослідження. Ретроспективний аналіз даних про синтез м’язового білка показав, що відповідь виходить на плато приблизно на 0,40 г на кг маси тіла за один прийом їжі в літніх людей — проти 0,24 г/кг у молодих: щоб отримати той самий ефект, потрібна більша доза за раз. Два застереження варто знати: аналіз проводили на чоловіках, а порівняння за масою тіла лише трохи не дотягнуло до статистичної значущості (порівняння за знежиреною масою було чіткішим). Сприймайте це як робочий орієнтир, а не як поріг. Корисне тут ось що: 0,40 г/кг на прийом їжі, помножені на три, дають рівно ті самі 1,2 г/кг на добу — два числа збігаються, що заспокоює, бо в харчуванні таке трапляється рідко."
+      },
+      {
+        "t": "p",
+        "text": "Що це означає на тарілці:"
+      },
+      {
+        "t": "table",
+        "head": [
+          "Ваша вага",
+          "На добу 1,2 г/кг",
+          "На прийом їжі з трьох",
+          "На добу 1,6 г/кг",
+          "На прийом їжі з трьох"
+        ],
+        "rows": [
+          [
+            "55 кг",
+            "66 г",
+            "22 г",
+            "88 г",
+            "29 г"
+          ],
+          [
+            "65 кг",
+            "78 г",
+            "26 г",
+            "104 г",
+            "35 г"
+          ],
+          [
+            "75 кг",
+            "90 г",
+            "30 г",
+            "120 г",
+            "40 г"
+          ],
+          [
+            "85 кг",
+            "102 г",
+            "34 г",
+            "136 г",
+            "45 г"
+          ]
+        ]
       },
       {
         "t": "p",
@@ -599,6 +754,24 @@ export default {
             "detail": "Рандомізоване дослідження за участю 21 жінки з надмірною вагою в постменопаузі на дванадцятитижневій програмі силових тренувань і схуднення порівняло 15 г білка одразу після вправ із тією самою порцією через дві години, вимірюючи швидкість фракційного синтезу м’язового білка. Результати опубліковано лише як тези конференції, а фінансувала дослідження Curves International — компанія, що проводить цю програму. Жоден із варіантів не виявився виразно кращим — це свідчить, що тривога про «вікно» після тренування безпідставна, а керувати варто загальним добовим споживанням.",
             "cite": "Journal of the International Society of Sports Nutrition · Рандомізоване дослідження (тези конференції), 2013",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4042233/"
+          },
+          {
+            "claim": "Щоб максимально стимулювати синтез м’язового білка, літнім людям потрібна більша доза білка за один прийом їжі, ніж молодим.",
+            "detail": "Ретроспективний аналіз у Journal of Gerontology (2015) об’єднав виміри синтезу м’язового білка з власних лабораторій авторів у здорових літніх (~71 рік) і молодих (~22 роки) учасників, які отримували 0–40 г якісного білка одноразово. Аналіз точки перелому показав плато на 0,40 ± 0,19 г/кг маси тіла в літній групі проти 0,24 ± 0,06 г/кг у молодшій і на 0,60 ± 0,29 проти 0,25 ± 0,13 г/кг знежиреної маси. Два обмеження важливі для орієнтира на один прийом їжі в цій статті: учасниками були чоловіки, а порівняння за масою тіла дало p = 0,055 — трохи поза межею значущості, хоча порівняння за знежиреною масою було чітким (p < 0,01). Це також ретроспективне об’єднання наявних даних, а не дослідження, спланованe під це питання.",
+            "cite": "Journal of Gerontology: Medical Sciences · Ретроспективний аналіз, 2015",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25056502/"
+          },
+          {
+            "claim": "Європейські клінічні рекомендації ставлять 1,0–1,2 г/кг на добу як мінімум для здорових літніх людей і 1,2–1,5 г/кг — під час хвороби.",
+            "detail": "Рекомендації експертної групи ESPEN, опубліковані в Clinical Nutrition (2014) після семінару з потреби в білку в літньому віці, що відбувся в Дубровнику в листопаді 2013 року. Для здорових літніх людей раціон має давати щонайменше 1,0–1,2 г білка на кг маси тіла на добу; для тих, хто має недостатнє харчування або ризик через гостру чи хронічну хворобу, — 1,2–1,5 г/кг, і більше за тяжкої хвороби чи травми; щоденна фізична активність, зокрема силові тренування, рекомендована всім літнім людям якомога довше. Це консенсус експертів, а не формально градована настанова, і його мінімум нижчий за «активний» діапазон у цій статті — різниця в рівні тренованості, а не в розбіжності поглядів.",
+            "cite": "Clinical Nutrition · Консенсус експертної групи ESPEN, 2014",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24814383/"
+          },
+          {
+            "claim": "Найсвіжіше рандомізоване дослідження в жінок у постменопаузі не дозволяє відокремити вплив білка від решти програми.",
+            "detail": "Трираменне рандомізоване контрольоване дослідження в Nutrients (29 липня 2026) розподілило 100 жінок у постменопаузі на скандинавську ходьбу з високим рівнем білка й обмеженим у часі харчуванням (n=36), скандинавську ходьбу лише з обмеженим у часі харчуванням (n=33) і контрольну групу (n=31) на дванадцять тижнів; завершили 96. Первинним результатом була сила кисті, вторинними — швидкість ходьби на 6 м, час п’яти підйомів зі стільця та показники знежиреної маси. Сила кисті зросла в обох групах втручання і найбільше там, де був білок, а група без білка мала менш сприятливі зміни знежиреної маси. Автори зазначають, що результати слід читати як різницю між цілими комплексами втручань, а не як доказ ізольованого ефекту окремого компонента; розміри ефекту в анотації не наведені.",
+            "cite": "Nutrients · Трираменне рандомізоване контрольоване дослідження, липень 2026",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42588093/"
           }
         ]
       },

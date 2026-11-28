@@ -85,7 +85,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Almost all of these fractures happen because someone falls over. In a Japanese study of 388 adults with type 1 diabetes, 64% of the fractures recorded were fall-related. So anything that makes a fall more likely matters at least as much as anything happening inside the bone - and here type 1 diabetes has a mechanism nothing else has."
+        "text": "Almost all of these fractures happen because someone falls over. In a Japanese study of 388 adults with type 1 diabetes, 64% of the fractures recorded were fall-related. So anything that makes a fall more likely matters at least as much as anything happening inside the bone - and here type 1 diabetes has a mechanism nothing else has. Which puts muscle at the centre of it, and muscle needs feeding: [protein needs after 40](/blog/protein-for-women-over-40/) sit well above the UK guideline, and strength you cannot rebuild is strength you lose."
       },
       {
         "t": "p",
@@ -315,7 +315,7 @@ export default {
       },
       {
         "t": "p",
-        "text": "Майже всі ці переломи стаються тому, що людина падає. У японському дослідженні за участю 388 дорослих із діабетом 1 типу 64% зафіксованих переломів були пов’язані з падінням. Тож усе, що робить падіння ймовірнішим, важить щонайменше стільки ж, скільки те, що відбувається всередині кістки, — і тут у діабету 1 типу є механізм, властивий лише йому."
+        "text": "Майже всі ці переломи стаються тому, що людина падає. У японському дослідженні за участю 388 дорослих із діабетом 1 типу 64% зафіксованих переломів були пов’язані з падінням. Тож усе, що робить падіння ймовірнішим, важить щонайменше стільки ж, скільки те, що відбувається всередині кістки, — і тут у діабету 1 типу є механізм, властивий лише йому. А це ставить у центр м’язи, які треба чимось живити: [потреба в білку після 40](/ua/blog/protein-for-women-over-40/) значно вища за британську норму, і сила, яку немає з чого відновити, — це сила, яку ви втрачаєте."
       },
       {
         "t": "p",
