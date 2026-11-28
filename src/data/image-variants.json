@@ -49,6 +49,24 @@
       ]
     ]
   },
+  "/images/acog-menopause-guideline-2026.jpg": {
+    "w": 1600,
+    "h": 900,
+    "avif": [
+      [
+        480,
+        "/images/v/acog-menopause-guideline-2026-480.avif"
+      ],
+      [
+        800,
+        "/images/v/acog-menopause-guideline-2026-800.avif"
+      ],
+      [
+        1200,
+        "/images/v/acog-menopause-guideline-2026-1200.avif"
+      ]
+    ]
+  },
   "/images/ada-2026-glp1-type1-diabetes-women.jpg": {
     "w": 1200,
     "h": 675,
